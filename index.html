@@ -3,103 +3,65 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Blue Archive Scenario CDN</title>
+<title>Trinity Archive Source</title>
 <style>
-  :root {
-    --bg: #0b1020;
-    --fg: #e8ecf7;
-    --muted: #9aa4c0;
-    --accent: #5b8cff;
-    --card: #151b33;
-    --border: #232b4a;
-  }
+  :root { --bg: #0b1020; --fg: #e8ecf7; --muted: #9aa4c0; --accent: #5b8cff; --border: #232b4a; }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    background: radial-gradient(1200px 600px at 50% -10%, #1b2450 0%, var(--bg) 60%);
+    padding: 40px 20px;
+    background: var(--bg);
     color: var(--fg);
-    min-height: 100vh;
-  }
-  main { max-width: 880px; margin: 0 auto; padding: 56px 20px 80px; }
-  h1 { font-size: 2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
-  p.lead { color: var(--muted); margin: 0 0 32px; line-height: 1.6; }
-  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-  .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 18px 18px 8px;
-  }
-  .card h2 { font-size: 0.95rem; margin: 0 0 12px; color: var(--fg); }
-  ul { list-style: none; margin: 0; padding: 0; }
-  li { margin: 0 0 10px; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size: 0.82rem;
-    color: var(--muted);
-    word-break: break-all;
+    font-size: 0.88rem;
   }
-  footer { margin-top: 40px; color: var(--muted); font-size: 0.85rem; }
+  main { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 4px; }
+  p.sub { color: var(--muted); margin: 0 0 26px; }
+  h2 { font-size: 0.9rem; margin: 26px 0 8px; color: var(--muted); font-weight: 600; }
+  ul { list-style: none; margin: 0; padding: 0 0 0 4px; border-left: 1px solid var(--border); }
+  li { padding: 2px 0 2px 12px; }
+  a { color: var(--fg); text-decoration: none; }
+  a:hover { color: var(--accent); }
+  .kind { color: var(--muted); display: inline-block; width: 56px; }
+  footer { margin-top: 30px; color: var(--muted); font-size: 0.78rem; line-height: 1.6; }
 </style>
 </head>
 <body>
 <main>
-  <h1>Blue Archive Scenario CDN</h1>
-  <p class="lead">
-    Static, multi-language (JP &middot; KR &middot; EN &middot; TH &middot; TW) scenario and image dataset
-    served directly from this GitHub Pages site. Navigate using the catalog manifests, then lazy-load
-    individual episode JSON files on route navigation.
-  </p>
+  <h1>Trinity Archive Source</h1>
+  <p class="sub">Index of / &mdash; Blue Archive scenario dataset (JP &middot; KR &middot; EN &middot; TH &middot; TW).</p>
 
-  <div class="grid">
-    <div class="card">
-      <h2>Catalogs</h2>
-      <ul>
-        <li><a href="./Text/Catalog/Main_Story_Catalog.json">Main Story Catalog</a></li>
-        <li><a href="./Text/Catalog/Event_Story_Catalog.json">Event Story Catalog</a></li>
-        <li><a href="./Text/Catalog/Character_Story_Catalog.json">Character Story Catalog</a></li>
-      </ul>
-    </div>
+  <h2>Catalog</h2>
+  <ul>
+    <li><span class="kind">[FILE]</span><a href="./Text/Catalog/Main_Story_Catalog.json">Text/Catalog/Main_Story_Catalog.json</a></li>
+    <li><span class="kind">[FILE]</span><a href="./Text/Catalog/Event_Story_Catalog.json">Text/Catalog/Event_Story_Catalog.json</a></li>
+    <li><span class="kind">[FILE]</span><a href="./Text/Catalog/Character_Story_Catalog.json">Text/Catalog/Character_Story_Catalog.json</a></li>
+  </ul>
 
-    <div class="card">
-      <h2>Story Data</h2>
-      <ul>
-        <li><a href="./Text/Main_Story/">Main Story</a></li>
-        <li><a href="./Text/Event_Story/">Event Story</a></li>
-        <li><a href="./Text/Character_Story/">Character Story</a></li>
-      </ul>
-    </div>
+  <h2>Text</h2>
+  <ul>
+    <li><span class="kind">[DIR]</span><a href="./Text/Main_Story/">Text/Main_Story/</a></li>
+    <li><span class="kind">[DIR]</span><a href="./Text/Event_Story/">Text/Event_Story/</a></li>
+    <li><span class="kind">[DIR]</span><a href="./Text/Character_Story/">Text/Character_Story/</a></li>
+  </ul>
 
-    <div class="card">
-      <h2>Images</h2>
-      <ul>
-        <li><a href="./Image/Main_Story/">Main Story Banners</a></li>
-        <li><a href="./Image/Event/">Event Banners</a></li>
-        <li><a href="./Image/Character/">Student Portraits</a></li>
-      </ul>
-    </div>
-  </div>
+  <h2>Image</h2>
+  <ul>
+    <li><span class="kind">[DIR]</span><a href="./Image/Main_Story/">Image/Main_Story/</a></li>
+    <li><span class="kind">[DIR]</span><a href="./Image/Event/">Image/Event/</a></li>
+    <li><span class="kind">[DIR]</span><a href="./Image/Character/">Image/Character/</a></li>
+  </ul>
+
+  <h2>Root</h2>
+  <ul>
+    <li><span class="kind">[FILE]</span><a href="./version.json">version.json</a></li>
+  </ul>
 
   <footer>
-    Base URL: <code id="base"></code><br />
-    Dataset: <code id="version">loading&hellip;</code>
+    Static hosts cannot list folders, so browse the catalogs above and resolve every path relative
+    to this page.
   </footer>
-
-  <script>
-    document.getElementById("base").textContent = new URL("./", location.href).href;
-
-    fetch("./version.json")
-      .then((r) => r.json())
-      .then((v) => {
-        document.getElementById("version").textContent = `JP ${v.JP} · GL ${v.GL} · built ${v.Built}`;
-      })
-      .catch(() => {
-        document.getElementById("version").textContent = "unavailable";
-      });
-  </script>
 </main>
 </body>
 </html>
