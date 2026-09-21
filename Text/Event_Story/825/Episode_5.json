@@ -1,0 +1,2542 @@
+{
+  "TitleJP": "ご挨拶を申し上げます、ぴょん",
+  "TitleKR": "인사드립니다. 뿅.",
+  "TitleEN": "Hello There. Hop.",
+  "TitleTH": "ฉันมาแล้วค่ะ ดึ๋งๆ",
+  "TitleTW": "向您問好，蹦",
+  "DescJP": "警備任務と同時に、本来のメイドとしての仕事も任されることになったゲーム開発部一同。慣れない作業を前にミスを連発してしまうが、潜入捜査にやってきていたトキによって助けられる。そうしてパーティーも落ち着いてきた頃、「慈愛の怪盗」が予告通りその姿を表すのだった。",
+  "DescKR": "경호 임무와 동시에 저택 내 메이드 업무도 맡게 된 게임개발부 일행. 업무에 익숙하지 않은 탓에 고전하지만 홀연히 나타난 바니걸 차림의 토키에게 도움을 받는다. 갑작스러운 토키의 등장에 놀란 게임개발부 일행과 선생님. 인사를 나눌 틈도 없이 파티장 한가운데에 자애의 괴도가 모습을 드러낸다.",
+  "DescEN": "The Game Development Department members are working as maids for the mansion as well as bodyguards. They struggle with their unfamiliar duties, but are helped by Toki, who suddenly shows up dressed as a bunny girl. The members and Sensei are surprised by Toki's sudden appearance. Before they have a chance to greet each other, Benevolent Thief appears in the middle of the party.",
+  "DescTH": "สมาชิกชมรมพัฒนาเกมได้รับภารกิจคุ้มกันและภารกิจเมดรับใช้ใน\nคฤหาสน์ไปพร้อมกัน ทุกคนต้องทำงานอย่างทรหดเพราะไม่คุ้นเคยกับ\nงานเมด แต่ก็ได้รับความช่วยเหลือจากโทคิที่มาในชุดบันนี่เกิร์ล ชมรม\nพัฒนาเกมและคุณครูตกใจกับการปรากฏตัวอย่างกะทันหันของโทคิ\nทุกคนยังไม่ได้ทักทายกันดี แต่จู่ๆ จอมโจรแห่งความเสน่หาก็เผยตัวตนในงานปาร์ตี้",
+  "DescTW": "遊戲開發部一行人負責護衛任務與宅邸內的僕人工作。因為不熟悉任務內容的關係，讓一行人陷入了苦戰，但穿著兔女郎服裝的季突然現身伸出援手。季突如其來的登場，讓遊戲開發部一行人和老師全都相當訝異。彼此連打招呼的時間都沒有，慈愛的怪盜就突然現身在派對上了。",
+  "DialogJP": [
+    {
+      "Text": "第4話;ご挨拶を申し上げます、ぴょん"
+    },
+    {
+      "Text": "[ns] \"お疲れ様、アリス。お掃除頑張ってるね。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "もちろんです、先生！\n今のアリスはメイド勇者ですから！"
+    },
+    {
+      "Text": "[s] \"メイド勇者？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "メイドと勇者を極めた先にある最強の存在です！\n最強と最強が合わさった上級職です！"
+    },
+    {
+      "Text": "[s] （アリスにとって、メイドって……？）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ところで、先生はこんなに遅くまで起きてて大丈夫なんですか？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "いのちを大事にしてくださいね。\n宿屋で寝ないと体力は回復しません。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスはへっちゃらです！\nモモイたちと、よく徹夜でゲームをしていますから！"
+    },
+    {
+      "Text": "[s1] \"頑張ってるアリスに元気をもらってるから大丈夫だよ。\""
+    },
+    {
+      "Text": "[s2] \"モモイに徹夜でゲームはやめるよう言わないと……。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "あ、今あくびをしました！\n掃除はアリスに任せて、先生は寝てください！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "もう、朝の5時20分を過ぎてるんですよ！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "アリスちゃん……そっちの棚を拭き終わったら、次はこっちをお願い出来る？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "分かりました、ユズ！\nアリス、床拭きモードに切り替えます！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふぁああああ……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "眠い……"
+    },
+    {
+      "Text": "[s] \"みんな、こんな時間までお疲れ様……\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あはは……5時20分から7時40分の間は、特に警戒してくれって言われてるからね……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ついでに掃除も頼まれたので、身体を動かしている分眠気はマシな方ではありますが……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "掃除分報酬に上乗せされるらしいから、不満はないけど……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ね～む～い～……"
+    },
+    {
+      "Text": "（……そうして何事も無いまま午後を迎えた）"
+    },
+    {
+      "Text": "（予定通り開催されたパーティーは、想像以上の混雑ぶりだった）"
+    },
+    {
+      "Name": "気難しいゲスト",
+      "Text": "おい、グラスが空いたままじゃないか。\nいつになったら注いでくれるんだ？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "え？あ、ごめ……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "も、申し訳ありません。すぐにお持ちします。"
+    },
+    {
+      "Name": "気難しいゲスト",
+      "Text": "メイドの失態は主人の評判に直結するというのに、まったく何をしているんだ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "（うぐぐぐ……！言わせておけば言いたい放題！\n　そもそも本当はメイドじゃないのに！）"
+    },
+    {
+      "Name": "気難しいゲスト",
+      "Text": "そもそも、雇われメイドとはいえ、基本の所作くらい学んだらどうなんだい？\nその辺のロボットの方がまだ優雅だよ。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あの……申し訳ございません。\nお客様のグラスは、既に注がれております。"
+    },
+    {
+      "Name": "気難しいゲスト",
+      "Text": "なにっ？そんなバカな。さっきまで確かに……！"
+    },
+    {
+      "Name": "気難しいゲスト",
+      "Text": "ほ、本当だ！いったい誰が淹れたというのだ……？\n音も気配も無かったのに……？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "（うそ！？一体何が起きたの？）"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（私も分からないよ……）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "うわーん！お客様が多すぎます！\nこのままではアリス、スネイルみたいになってしまいます！"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "おい！こんな所に皿が落ちてるじゃないか！"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "危ないだろ！早く何とかしてくれ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "も、申し訳ありません！\nですが、アリス今は他のお客様の対応が……"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "言い訳はそれだけか？私を誰だと思っているんだ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "う、うぅ……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ううぅ……申し訳ありません。お客様、少しお待ちください……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "あれ……？\nお皿が……どこにもありません。"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "何を言ってるんだ？ここに……"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "ど、どこにいったんだ！？"
+    },
+    {
+      "Name": "成金ゲスト",
+      "Text": "ぐぬぬ……\nパーティーに文句をつけて、オークションで優遇を受ける計画が……！"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "おい、一体何を作ってるんだ！\nこんな料理をお客様にお出しするつもりなのか？"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "よく見ろ！これのどこが焼けてるっていうんだ？\n生焼けですらないぞ！？"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "そこのメイド、お前もだ！\n給料を貰ってるんだから、もっとキビキビ動け！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "わあぁっ……すみません、すみません！"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "謝ってる暇があるならさっさと料理を持っていけ！せっかくの料理が冷めるじゃねえかって……"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "あ？"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "ここにあった料理……どこ行った？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "全て私が運びました。他にご指示は？"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "何だって？あの量を全部一人でか？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "もちろんです。私は優秀なメイドですから。"
+    },
+    {
+      "Name": "怒りが解けたシェフ",
+      "Text": "メ、メイド……？\nバニーガール、じゃないのか？"
+    },
+    {
+      "Name": "怒りが解けたシェフ",
+      "Text": "……よし、ホール班は交代で休憩に入って良いぞ！"
+    },
+    {
+      "Name": "怒ったシェフ",
+      "Text": "キッチン班は残れ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あれ……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "お久しぶりです。ピースピース。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "えええええっ！？"
+    },
+    {
+      "Text": "[ns] \"なるほど、ネルが……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい。「慈愛の怪盗」の情報を掴んだから、後は任せた、と。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "他にも任務があるのですが……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "それはさておき、まさか先生もいらっしゃるとは。"
+    },
+    {
+      "Text": "[s] \"トキに会えて嬉しいよ。よろしくね。\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "ありがとうございます、先生。私も嬉しいです。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "また、先輩方からこのような言葉を言われました。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "「私たちの不在、トキちゃんに任せたよ！」\n「良い報せを期待してる」――"
+    },
+    {
+      "Name": "トキ",
+      "Text": "――「道具と予算は存分に使って構いません。請求書は全て、セミナーの会計に回しておいてください」と。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そして――「普段は口にしねぇけど、お前のことは信頼してる」とも。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……ふっ。"
+    },
+    {
+      "Text": "[s] \"う、うん……よかったね。\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "――「慈愛の怪盗」は、既に予告状を送ってきたそうで。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "私にも見せていただけますでしょうか。"
+    },
+    {
+      "Text": "[s5] \"それは構わないけど、トキ……\""
+    },
+    {
+      "Text": "[s6] \"さっきから気になってるんだけど……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい、何でしょうか？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい、何でしょうか？"
+    },
+    {
+      "Text": "[s] \"……どうしてバニーガールなの？\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "本気で仰っているのですか、先生。"
+    },
+    {
+      "Text": "[s] \"えっ！？\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "C&Cの潜入作戦といえば、バニーでしょう？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "かつて、オデュッセイア海洋高等学校のクルーズ船に潜入した先輩方の記録からそうであると判断しておりますが……"
+    },
+    {
+      "Text": "[s] \"あっ、それには色々な事情が……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s] \"な、何でもないよ。トキはそのままで……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "何故そのような苦い顔をされているのかは分かりませんが……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "先生がそう仰るなら、気にしない事としましょう。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ともかく、今は怪盗の件を解決しなければなりませんから。\nそれと――"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あう……あ、あうううぅ……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……い、居ません……こ、ここには誰も居ません……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "こういう時、一体どうすれば良いのでしょうか？"
+    },
+    {
+      "Text": "[s7] \"分からない事を聞いてくれるのは嬉しいけど……\""
+    },
+    {
+      "Text": "[s8] \"ごめんね、必ずしも大人が答えを知っているわけでは……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "そうですか……ところで、皆さんは一体何故ここに？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そうですか……ところで、皆さんは一体何故ここに？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ぜ、全然怖くないし！\nいざとなったら格闘ゲームでボコボコにしてやるんだから！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん、気をつけて。\nこの人……不利になったらチート装備に変えてくるよ！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "アリスちゃんをまた奪われるわけには、いかない……けど……\nううぅ、でも……"
+    },
+    {
+      "Text": "[ns] \"……私が代わりに説明するね。\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "C&Cに間違われ、依頼を引き受けてしまった、と……なるほど。\n先生がメイド服を借りていったのは、このためだったのですね。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ど、どうしよう、お姉ちゃん？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "もう終わりだよぉぉぉ！\nどうしよう！？ネル先輩に怒られる！！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "うわーん！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "いえ、先輩方に報告はしません。\n私は任務を遂行しに来ただけですから。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ゲーム開発部の存在は想定外でしたが……"
+    },
+    {
+      "Text": "[s] \"本当に大丈夫なの？後で何か言われたり……\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい、大丈夫です。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "私を置いて行ったのは先輩方ですし……多少のイレギュラーがあろうとも、任務が達成できるなら問題ありません。"
+    },
+    {
+      "Text": "[ns9] \"あれ、電気が……\""
+    },
+    {
+      "Text": "[ns10] \"ちょっと待って、もしかして……！\""
+    },
+    {
+      "Name": "一同",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "一同",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "ゲストA",
+      "Text": "な、何が起きてるんだ？電気が全て消えた！"
+    },
+    {
+      "Name": "ゲストB",
+      "Text": "一体何が起きているのですか？[ruby=めいたろう]明太郎[/ruby]さん？\n説明をお願いします！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "お、落ち着いてください！皆様、ご安心を。\n停電は一時的なものですから、すぐに復旧します。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "いえ、そうはさせませんよ――"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "誰だ……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ある者は、こう言いました。\n――「価値ある物は、その手に収めてこそだ」と。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "たとえ人目に触れぬまま……何年、何十年と経過し――\nいつしか人々から忘れ去られようとも。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "しかし、それは本当に正しいのでしょうか？\n美術品とは、広く知られてこそ、その価値を証明できるのでは？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "まさか……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ある者は、[ruby=わたくし] 私 [/ruby]を[ruby=ぬすびと]盗人[/ruby]と蔑み――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そしてまた、ある者は私を[ruby=とがびと]咎人[/ruby]と罵る。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "人は生まれながらにして名を持つわけではありません。\n呼び名とは、他者から与えられるもの。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "故に、私は――その名を受け入れました。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そう、我が名は――"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――「慈愛の怪盗」。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제4화;인사드립니다. 뿅."
+    },
+    {
+      "Text": "[ns] \"안녕, 아리스. 청소 열심이네.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇습니다, 선생님! 지금의 아리스는 메이드 용사니까요!"
+    },
+    {
+      "Text": "[s] \"메이드 용사?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "메이드와 용사의 경지에 이른 끝에 있는 최강의 존재입니다! 최강과 최강이 합쳐진 상급직입니다!"
+    },
+    {
+      "Text": "[s] (아리스에게 메이드란 건 대체 어떤 걸까……)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그보다 선생님은 괜찮습니까? 이렇게 새벽부터 깨어 있어도 괜찮은 건가요?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "선생님은 조심해야 합니다. 잘 자고, 푹 쉬고, 잘 먹지 않으면 안 되는 겁니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스는 끄떡없습니다! 모모이들과 게임을 하다 보면 자주 밤을 새우곤 했으니까요!"
+    },
+    {
+      "Text": "[s1] \"선생님은 아리스가 열심히 하는 것만 봐도 힘이 나니까……\""
+    },
+    {
+      "Text": "[s2] \"모모이에게는 자주 밤을 새우면 안 된다고 말해둬야겠네……\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "아, 역시 하품했습니다! 청소는 아리스에게 맡겨 두고, 선생님은 들어가서 쉬는 게 어떻습니까?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "무엇보다 지금은 새벽 5시 20분이 막 지났으니까요!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "저기, 아리스 쨩……? 바닥 닦기 끝났으면, 이쪽 먼지 털기 도와줄래?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "알았습니다, 유즈! 아리스, 먼지 털기 모드로 전환합니다!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "후아아아아아암……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "졸려어……"
+    },
+    {
+      "Text": "[s] \"다들 새벽부터 고생이 많네……\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐…… 5시 20분부터 7시 40분까지는 특별히 더 저택을 지켜 달라고 했으니까……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그러는 김에 겸사겸사 간단한 청소도 부탁받은 거고요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "수당은 따로 계산해 준다고 했으니 불만은 없지만……"
+    },
+    {
+      "Name": "모모이",
+      "Text": "졸~려~"
+    },
+    {
+      "Text": "(그렇게 무사히 오전이 지나가고, 오후가 되었다.)"
+    },
+    {
+      "Text": "(약속된 대로 파티가 개최되었고, 파티장은 생각보다도 더…… 혼잡했다.)"
+    },
+    {
+      "Name": "까다로운 게스트",
+      "Text": "이봐. 잔이 아직도 비었지 않나. 내 말이 들리지 않았던 겐가?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어? 아, 미안……"
+    },
+    {
+      "Name": "모모이",
+      "Text": "죄송합니다. 금방 가져다드릴게요."
+    },
+    {
+      "Name": "까다로운 게스트",
+      "Text": "자네의 실수는 곧 주인의 평판과도 직결되는 것이니, 그 점을 잊지 말아야 해!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "(으그그극……! 뭐야, 대체! 애초에 우리는 정식 메이드도 아니라고!)"
+    },
+    {
+      "Name": "까다로운 게스트",
+      "Text": "애초에 말이지. 아무리 고용된 몸이라고는 하지만 기본적인 양식은 갖추고 있어야 할 것 아닌가? 그게 되어 있지 않아서야……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "저…… 실례합니다만, 잔이 이미 채워져 있는 것 같은데요?"
+    },
+    {
+      "Name": "까다로운 게스트",
+      "Text": "뭣? 그럴 리가. 내 분명 확인하고 이야기를 꺼낸 것인데……!"
+    },
+    {
+      "Name": "까다로운 게스트",
+      "Text": "저, 정말이다! 대체 누가, 어느 사이에 기척도 내지 않고 이런 훌륭한 접객을……?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "(정말?! 어떻게 된 거야, 미도리?)"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(나도 모르겠어……)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "끄앙! 손님분들이 너무 많습니다! 이대로는 아리스가 스네일처럼 되고 말 겁니다!"
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "이봐! 여기 접시가 떨어졌잖아!"
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "다행히 깨지지는 않았지만, 놀란 내 심장은 어떻게 할 거야!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "죄, 죄송합니다! 그렇지만 지금의 아리스는 꼼짝할 수가……"
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "지금 그걸 변명이라고 하고 있나? 빨리 상황을 정리하지 못해?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "하, 하지만……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "으우우…… 조금만 비켜 주세요, 손님들……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "어라……? 접시가…… 치워졌습니다."
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "무슨 헛소리를 하는 거야? 분명히 떨어진 접시가……"
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "아니, 어느새?!"
+    },
+    {
+      "Name": "벼락부자 게스트",
+      "Text": "으으음…… 파티에 트집을 잡아 조금이라도 경매에서 유리한 위치에 올라서겠다는 내 계획이……!"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "이 느림보들, 뭐 하고 있는 거야! 이렇게 망친 걸 내놓으라는 거냐?"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "똑똑히 봐라! 이게 구운 농어로 보여? 방생하면 살아나서 바다로 돌아갈 거다!"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "그리고, 메이드들은 뭐 하고 있는 거야! 급여를 받았으면 제대로 일을 해야지!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "우와아아아, 죄송해요. 죄송해요!"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "죄송하다면 다야? 음식이 쌓인 지 하도 오래돼서 남은 열기만으로도 화력발전을 할 수 있겠다! 빨리 움직…… "
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "여?"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "음식들이 전부…… 어디로 갔지?"
+    },
+    {
+      "Name": "???",
+      "Text": "제가 전부 날랐습니다. 또 지시하실 일은 없습니까?"
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "뭐라고? 그렇게 많이 쌓여 있었던 걸 전부?"
+    },
+    {
+      "Name": "토키",
+      "Text": "물론입니다. 저는 우수한 메이드이기에."
+    },
+    {
+      "Name": "화가 풀린 주방장",
+      "Text": "메…… 메이드? 바니걸……이 아니라?"
+    },
+    {
+      "Name": "화가 풀린 주방장",
+      "Text": "……좋아. 다들 가 봐."
+    },
+    {
+      "Name": "화가 난 주방장",
+      "Text": "주방 팀! 너희들은 아니야! 집합!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "어……"
+    },
+    {
+      "Name": "토키",
+      "Text": "오랜만에 뵙는군요. 피스 피스."
+    },
+    {
+      "Name": "미도리",
+      "Text": "어어어어어어?!"
+    },
+    {
+      "Text": "[ns] \"그렇구나. 네루가……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "예. <자애의 괴도>가 이 저택으로 향하고 있으니 뒤를 부탁한다고. "
+    },
+    {
+      "Name": "토키",
+      "Text": "그 밖에도 따로 언질 받은 임무가 있습니다만……"
+    },
+    {
+      "Name": "토키",
+      "Text": "그건 그렇고, 선생님이 먼저 와 계셨을 줄은. 이건 천운이라고 해야겠군요."
+    },
+    {
+      "Text": "[s] \"나도 토키를 보니 반가운데?\""
+    },
+    {
+      "Name": "토키",
+      "Text": "감사합니다. 선생님."
+    },
+    {
+      "Name": "토키",
+      "Text": "또 선배들은 이렇게도 말했습니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "'지금 믿을 수 있는 것은 토키밖에 없으니, C&C의 이름에 부끄럽지 않은 활약을 기대한다. 좋은 소식을 기다리겠다.'"
+    },
+    {
+      "Name": "토키",
+      "Text": "'도구와 예산은 마음대로 사용해도 좋다. 청구는 세미나의 회계 앞으로 돌리도록.'"
+    },
+    {
+      "Name": "토키",
+      "Text": "'이런 말은 자주 하지 않지만, 믿고 있다. 언제나.'"
+    },
+    {
+      "Name": "토키",
+      "Text": "……훗."
+    },
+    {
+      "Text": "[s] \"아니, 거기서 '어떻습니까?' 하는 표정을 지어도 말이지……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "먼저 공유받은 정보에 따르면, <자애의 괴도>는 항상 예고장을 보낸다고 하더군요."
+    },
+    {
+      "Name": "토키",
+      "Text": "그 예고장을 볼 수 있다면, 사건 해결에 큰 도움이 될 것이라고 생각합니다."
+    },
+    {
+      "Text": "[s5] \"그런데 말이야, 토키……\""
+    },
+    {
+      "Text": "[s6] \"조금 전부터 토키에게 신경 쓰이는 게 있어서 그런데……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "예. 무엇인가요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "예. 무엇인가요?"
+    },
+    {
+      "Text": "[s] \"……왜 바니걸이야?\""
+    },
+    {
+      "Name": "토키",
+      "Text": "……"
+    },
+    {
+      "Name": "토키",
+      "Text": "실망했습니다. 선생님."
+    },
+    {
+      "Text": "[s] \"어째서?!\""
+    },
+    {
+      "Name": "토키",
+      "Text": "C&C의 은밀 잠입 공작 임무에는, 바니걸 슈트가 정복이잖습니까."
+    },
+    {
+      "Name": "토키",
+      "Text": "저는 분명히 숙지했습니다. 예전 오디세이아 해양학교의 호화 크루즈선에 잠입했던 선배들의 기록을요."
+    },
+    {
+      "Text": "[s] \"앗, 거기에는 여러 가지 사정이……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "?"
+    },
+    {
+      "Text": "[s] \"으, 으응. 아니야. 괜찮아. 다 괜찮아. 토키는 이대로 좋아……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "왜 모든 것을 포기하는 표정을 지으시면서 한숨을 내쉬시는지 모르겠습니다만……"
+    },
+    {
+      "Name": "토키",
+      "Text": "선생님께서 그러하시다면, 그런 것이겠지요."
+    },
+    {
+      "Name": "토키",
+      "Text": "그보다, 지금 직면한 또 하나의 문제는……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아으, 아, 아우우우우……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "……없어요…… 여기엔 아무도 없어요……"
+    },
+    {
+      "Name": "토키",
+      "Text": "……"
+    },
+    {
+      "Name": "토키",
+      "Text": "이럴 때는 어떻게 해야 할까요, 선생님?"
+    },
+    {
+      "Text": "[s7] \"확실히, 잘 모를 때는 어른에게 물어보는 게 맞긴 한데……\""
+    },
+    {
+      "Text": "[s8] \"미안. 어른도 항상 모든 일에 답을 갖고 있는 것은 아니야……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇습니까…… 그런데 여러분은 여기서 무엇을 하고 계시는 중인가요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇습니까…… 그런데 여러분은 여기서 무엇을 하고 계시는 중인가요?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "너, 너 같은 건 하나도 안 무서우니까! 여차하면 격투 게임으로 물리쳐 주마!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니…… 조심해야 해. 저 사람, 불리해지면 옷을 벗어 던지고 치트키를 쓰니까."
+    },
+    {
+      "Name": "유즈",
+      "Text": "아리스 쨩을 또 빼앗길 수는 없지만…… 우우우, 그렇지만……"
+    },
+    {
+      "Text": "[ns] \"……내가 대신 설명할게……\""
+    },
+    {
+      "Name": "토키",
+      "Text": "C&C의 의뢰…… 그렇군요. 이걸 위해서 메이드복을 준비해 달라고 하셨던 것이고……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "어, 어떻게 하지, 언니?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "이제 끝인가?! 네루 선배한테 얻어맞는 거야?!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "끄앙!"
+    },
+    {
+      "Name": "토키",
+      "Text": "아뇨. 선배들께 보고하지는 않을 겁니다. 저는 미션을 수행하러 왔을 뿐이니까요."
+    },
+    {
+      "Name": "토키",
+      "Text": "게임개발부 여러분이 계셨을 줄은 예상하지 못하고 있었습니다만……"
+    },
+    {
+      "Text": "[s] \"정말 괜찮겠어? 우리 멋대로 행동한 건데.\""
+    },
+    {
+      "Name": "토키",
+      "Text": "네. 괜찮습니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "어차피 선배들도 저를 빼놓고 작전을 나가셨는데, 제가 반대로 행동한다고 해도 상관없겠지요."
+    },
+    {
+      "Text": "[ns9] \"어라? 갑자기 불이…… 어째서……\""
+    },
+    {
+      "Text": "[ns10] \"가만, 벌써 시간이…… 7시 38분……?!\""
+    },
+    {
+      "Name": "모두",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "모두",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "게스트 A",
+      "Text": "뭐, 뭐야? 불이 전부 꺼졌어!"
+    },
+    {
+      "Name": "게스트 B",
+      "Text": "무슨 일이라도 있나? 메이타로 씨, 메이타로 씨?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "지, 진정하십시오. 여러분! 일시적인 정전일 뿐입니다. 금방 정상화하도록 하겠습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "아뇨. 그렇게 되지는 않을 거예요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "누구……?"
+    },
+    {
+      "Name": "???",
+      "Text": "어떤 사람들은 말하죠. 가치 있는 것은 소유되어야 한다고."
+    },
+    {
+      "Name": "???",
+      "Text": "소유하고, 제한하며, 밖으로 새어 나가지 않도록 엄중하게 관리되어야 한다고요."
+    },
+    {
+      "Name": "???",
+      "Text": "정말 그럴까요? 진정 그것이 가치 있는 것이라면, 모두와 공유되어야 하는 것이 아닐까요?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "설마……!"
+    },
+    {
+      "Name": "???",
+      "Text": "어떤 사람들은 저를 좀도둑이라고 표현해요."
+    },
+    {
+      "Name": "???",
+      "Text": "또 다른 사람들은 저를 범죄자라고 표현하죠."
+    },
+    {
+      "Name": "???",
+      "Text": "우리는 이름을 갖고 태어나지 못하니, 호칭이란 타자에게서 받아들여지는 것."
+    },
+    {
+      "Name": "???",
+      "Text": "그렇기에 저는 저에게 붙인 당신들의 언어를 받아들이기로 했어요."
+    },
+    {
+      "Name": "???",
+      "Text": "그래요. 일반적으로 불리워지는 저의 이름은."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "<자애의 괴도> 랍니다."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 4; Hello There. Hop."
+    },
+    {
+      "Text": "[ns] \"Hi there, Aris. You're busy cleaning!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes, I am! Because I am a hero maid!"
+    },
+    {
+      "Text": "[s] \"What is a hero maid?\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "An advanced job! A merging of the strongest. Only someone who has mastered both the class of hero and maid can evolve to this form."
+    },
+    {
+      "Text": "[s] \"(Aris really admires maids...)\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "I am busy cleaning, but what are you doing up so early, Sensei?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Proper sleep, rest, and food are very important! Please take care of yourself."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Sensei isn't invincible like me! Momoi and the others and I are used to staying up all night playing video games!"
+    },
+    {
+      "Text": "[s1] \"All your energy is giving me energy!\" "
+    },
+    {
+      "Text": "[s2] \"You know, Momoi needs to stop keeping everyone up all night...\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Sensei! You yawned! You must go get some rest and leave the cleaning to us!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is very early for Sensei to be up, after all!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Are you almost done with mopping the floor, Aris...? Would you mind helping with dusting?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I am finished, Yuzu! Now transferring to dusting mode!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "*yawn*"
+    },
+    {
+      "Name": "Midori",
+      "Text": "So sleepy..."
+    },
+    {
+      "Text": "[s] \"Everyone's got their work cut out for them, so early too.\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Well, the original job was to stop the thief, and the calling card said she would come between 5:20 AM and 7:40 AM."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Meitaro just added the cleaning on top, since we were already up."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "We are being paid extra for it, so I can't really complain, but..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I'm so...sleepy..."
+    },
+    {
+      "Text": "Time passed from morning to afternoon without a single incident."
+    },
+    {
+      "Text": "The guests began arriving and the party began on schedule, but the job was even more...involved than we were originally led to believe."
+    },
+    {
+      "Name": "Picky Guest",
+      "Text": "You. My glass is still empty. Perhaps you didn't hear me the first time?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? Oh, uh..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I'm very sorry... I'll refill it right away."
+    },
+    {
+      "Name": "Picky Guest",
+      "Text": "Hmph. You'd do well to keep in mind that your actions reflect upon your employer."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "(What is he saying?! I'm not even a real maid, you jerk!)"
+    },
+    {
+      "Name": "Picky Guest",
+      "Text": "I know you're just temp hires, but does your agency not teach you even the basics? To not be able to fill a glass—"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Excuse me, but your glass is full."
+    },
+    {
+      "Name": "Picky Guest",
+      "Text": "Do you think I'm an idiot? I know what an empty glass looks like, and it's like this!"
+    },
+    {
+      "Name": "Picky Guest",
+      "Text": "O-Oh? Wait... Wh-When did someone refill my glass? I didn't even notice it..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "(What the heck?! Did you see that, Midori?)"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(I did, but I don't know how it happened...)"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Ack! There are too many guests! I am going to be squished like a slime mob!"
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "You, there! There's a plate on the floor!"
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "Thankfully it isn't broken, and I didn't injure myself! But I was still quite shocked!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I-I am sorry! I am trying but I am being s-squished...!"
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "How lazy! I insist you do your job, and clean it!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "B-But..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "U-Ugh! I-I am sorry, but I must get through, guests...!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Huh? I am confused. There is no plate..."
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "Do you have no eyes? The plate is right there!"
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "What?! Who picked it up?!"
+    },
+    {
+      "Name": "Windfall Mogul Guest",
+      "Text": "Um... I was only trying to criticize the event in an attempt to barter a better deal at the auction... How unfortunate..."
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "Are your feet made of lead?! I can't send a cold dish to service!"
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "Look at this! Does this look like grilled sea bass to you? If we release it, it'll come back to life and swim into the sea!"
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "What's wrong with you maids? If you want your money, work for it!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Augh! You're right! Sorry! I'm so sorry!"
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "\"Sorry\" doesn't deliver food! There's so many dishes waiting to go out, you'd think we were holding Thanksgiving dinner back here. Hurry up and— "
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "And..."
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "Where...did all the food go...?"
+    },
+    {
+      "Name": "???",
+      "Text": "I delivered everything. What would you like me to do next?"
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "What do you mean? You delivered all those dishes?!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Such things are child's play for a capable maid."
+    },
+    {
+      "Name": "Calm Chef",
+      "Text": "Y-You said you're a maid...not a...bunny?"
+    },
+    {
+      "Name": "Calm Chef",
+      "Text": "Well, uh, I guess that's all I needed. You can all go now."
+    },
+    {
+      "Name": "Angry Chef",
+      "Text": "Not you, kitchen staff! Front and center!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Um..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "It's been a while. Peace, peace."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Whaaat?! And don't say \"peace\" when you're holding up peace signs! It's unnecessary!"
+    },
+    {
+      "Text": "[ns] \"So that's what happened. It was Neru...\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes. She informed me of the Benevolent Thief's plans and asked me to secure the mansion. "
+    },
+    {
+      "Name": "Toki",
+      "Text": "Although I did receive another mission as well..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Regardless, I'm really...pleased with this unexpected meeting, Sensei."
+    },
+    {
+      "Text": "[s] \"Pleasure's all mine, Toki.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Name": "Toki",
+      "Text": "You know, before I left, the other members told me something..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "They said, \"You're the only one we can rely on for this job, Toki. We trust you'll bring back good news and results befitting a C&C agent.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "\"Complete your objective at any cost. No tool or need is too expensive. Just submit an expense report to Seminar.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "\"I know we don't say this enough, but we all have faith in you.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Heehee."
+    },
+    {
+      "Text": "[s] \"That happy little smirk tells me you were very excited to tell me this...\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes, I was. I was also told that the Benevolent Thief always sends a calling card before the actual heist."
+    },
+    {
+      "Name": "Toki",
+      "Text": "If you don't mind, I believe I can be of assistance."
+    },
+    {
+      "Text": "[s5] \"I feel like you're leaving out something important...\" "
+    },
+    {
+      "Text": "[s6] \"There's something that's been on my mind...\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Hm? What do you mean?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes? What is it?"
+    },
+    {
+      "Text": "[s] \"...Why are you wearing a bunny costume?\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I'm disappointed in you, Sensei."
+    },
+    {
+      "Text": "[s] \"Because of what?!\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "You should know this already. Personally, I've studied C&C's previous infiltration cases, especially the Odyssey Maritime School cruise infiltration."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I have concluded that a bunny costume must be the operation uniform for C&C infiltration work."
+    },
+    {
+      "Text": "[s] \"Oh... Oh, no. That situation was entirely different...\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "...?"
+    },
+    {
+      "Text": "[s] \"Never mind. At the end of the day, Toki, you'll always be you. And that's a good thing.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Your words are kind, but the heavy sigh afterwards sounded very defeated..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "But I will take your words at face value."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I believe we have a more...pressing issue at hand."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Ugh... Aaaaaagh..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...Don't look...here... No one's home..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "What do I do, Sensei?"
+    },
+    {
+      "Text": "[s7] \"It makes sense to ask your teacher about bewildering situations...\" "
+    },
+    {
+      "Text": "[s8] \"I'm sorry to say that teachers don't always have the answers...\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "I see... In that case, may I ask just what is happening here?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I see... In that case, may I ask just what is happening here?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I-I'm not afraid of you! I can take you on in a fight...a-a fighting game!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Be careful, Momoi. Last time she started losing, she changed classes and cheated!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "W-We don't wanna lose Aris again...but...!"
+    },
+    {
+      "Text": "[s] \"...Let me explain.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "You accepted a request for C&C, which is why you asked me to find you maid uniforms. I see..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "I-Is it all over for us, Momoi...?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I don't know! What do we do? Is Neru gonna kill us for real this time?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Eek!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I won't report you. It is not over, and Neru won't kill you. I'm here to finish my mission, nothing more."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Although I had no idea the Game Development Department would be a part of that mission..."
+    },
+    {
+      "Text": "[s] \"Are you sure? We acted completely on our own, under your name.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes, I'm sure."
+    },
+    {
+      "Name": "Toki",
+      "Text": "If my fellow members can go on a mission without me, I can go do as I please without them."
+    },
+    {
+      "Text": "[ns9] \"That suddenly became very personal...\" "
+    },
+    {
+      "Text": "[ns10] \"We lost track of time! It's...7:38?\""
+    },
+    {
+      "Name": "All",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "All",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "Guest A",
+      "Text": "What's going on? The lights went out!"
+    },
+    {
+      "Name": "Guest B",
+      "Text": "What is all this? Meitaro? Meitaro!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "P-Please keep calm everyone! This is just a temporary black out. The lights will come back momentarily."
+    },
+    {
+      "Name": "???",
+      "Text": "A foolish hope."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Who...?"
+    },
+    {
+      "Name": "???",
+      "Text": "The more value an object holds, the more desperately society seeks to own it. To control it."
+    },
+    {
+      "Name": "???",
+      "Text": "The elite \"protect\" these valuable items, so that they stay in the hands of the worthy: themselves."
+    },
+    {
+      "Name": "???",
+      "Text": "But is that the way it should be? No! If something really is so valuable, then it should be freely enjoyed by the masses!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "It couldn't be...!"
+    },
+    {
+      "Name": "???",
+      "Text": "The rumors whisper of an elusive thief..."
+    },
+    {
+      "Name": "???",
+      "Text": "While others sneer at me as a mere criminal."
+    },
+    {
+      "Name": "???",
+      "Text": "On the day we are born, we are pure: without titles, without labels. And so we accept the ones others gift us."
+    },
+    {
+      "Name": "???",
+      "Text": "I, too, have been graciously bestowed a title by you members of society."
+    },
+    {
+      "Name": "???",
+      "Text": "Yes. I have embraced the name you have gifted me."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "It is nice to meet you. I am the Benevolent Thief."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 4;ฉันมาแล้วค่ะ ดึ๋งๆ"
+    },
+    {
+      "Text": "[ns] \"สวัสดีอาริสึ ตั้งใจทำความสะอาดจังเลยนะ\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่ค่ะคุณครู! ก็ตอนนี้อาริสึเป็นผู้กล้าเมดนี่คะ!"
+    },
+    {
+      "Text": "[s] \"ผู้กล้าเมด?\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ผู้กล้าเมดก็คือที่สุดของทั้งเมดและผู้กล้าไงคะ! คนที่เป็นที่สุดของทั้งสองสาย แบบนั้นถึงได้แข็งแกร่ง\nขั้นสุดเลยค่ะ!"
+    },
+    {
+      "Text": "[s] (สำหรับอาริสึแล้ว เมดคืออะไรกันนะ...)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "จะว่าไป คุณครูไหวเหรอคะ? อดหลับอดนอนตั้งแต่เช้ามืดแบบนี้ จะไม่เป็นไรเหรอคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "คุณครูต้องดูแลตัวเองนะคะ ต้องนอนให้เต็มอิ่ม พักผ่อนให้เพียงพอ แล้วก็รับประทานอาหารที่มี\nประโยชน์ด้วยค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ส่วนอาริสึไหวแน่นอนค่ะ! ที่ผ่านมาอาริสึเล่นเกมโต้รุ่งกับพวกโมโมอิจนชินแล้วค่ะ!"
+    },
+    {
+      "Text": "[s1] \"แค่ครูเห็นอาริสึตั้งใจทำภารกิจ ครูก็มีแรงแล้วละ...\""
+    },
+    {
+      "Text": "[s2] \"ต้องไปบอกโมโมอิแล้วสินะว่าอย่าโต้รุ่งให้มันบ่อยนัก...\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ๊ะ คุณครูหาวออกมาแล้ว! อาริสึจะจัดการทำความสะอาดเองค่ะ ส่วนคุณครูเข้าไปพักผ่อนเถอะนะคะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ตอนนี้มันก็เพิ่งจะ 05:20 น. แล้วด้วย!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "นี่ อาริสึจัง...? ถ้าถูพื้นเสร็จแล้ว มาช่วยฉันปัดฝุ่นทางนี้หน่อยได้ไหม?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ได้เลยค่ะยูสึ! อาริสึเปลี่ยนเข้าสู่โหมดปัดฝุ่นค่ะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฮ้าววววว..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ง่วงจัง..."
+    },
+    {
+      "Text": "[s] \"ทุกคนต้องเหนื่อยกันตั้งแต่ฟ้ายังไม่สางเลยนะ...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ทำไงได้ล่ะ... ก็ผู้ว่าจ้างขอให้ดูแลคฤหาสน์ตั้งแต่ 05:20น. จนถึง 07:40 น. เลยนี่นา..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แล้วระหว่างนั้นก็ขอให้ทำความสะอาดง่ายๆ ไปด้วยอีกค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ที่จริงมันก็ไม่มีปัญหาหรอก ยังไงซะงานตรงนี้เราจะได้เบี้ยเลี้ยงแยกต่างหากอีกที..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แต่มันง่วงนี่สิ ง่วง~ จาง~"
+    },
+    {
+      "Text": "(ช่วงเช้าผ่านไปได้ด้วยดี และก็ผ่านมาถึงช่วงเย็น)"
+    },
+    {
+      "Text": "(งานปาร์ตี้จัดขึ้นตามเวลาที่กำหนด และในงานก็... วุ่นวายมากกว่าที่คิด)"
+    },
+    {
+      "Name": "ผู้มาเยือนที่จู้จี้",
+      "Text": "นี่เธอ แก้วของฉันยังว่างอยู่เลยนะ หรือว่าไม่ได้ยินที่ฉันพูดเมื่อกี้?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ๊ะ? ขะ... ขอโทษ...."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ขอโทษค่ะ ฉันจะไปเอาเครื่องดื่มมาให้เดี๋ยวนี้ค่ะ"
+    },
+    {
+      "Name": "ผู้มาเยือนที่จู้จี้",
+      "Text": "ความผิดพลาดของเธอจะทำให้เจ้าของงานถูกวิจารณ์นะ อย่าลืมข้อนี้สิ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "(อึกกก...! อะไรของหมอนี่เนี่ย! พวกเราไม่ได้เป็นเมดจริงๆ จังๆ สักหน่อย!)"
+    },
+    {
+      "Name": "ผู้มาเยือนที่จู้จี้",
+      "Text": "แค่เริ่มก็เป็นอย่างนี้แล้ว ถึงจะบอกว่าถูกจ้างมาเพราะรูปลักษณ์ก็เถอะ แต่อย่างน้อยก็ควรรู้เรื่องการ\nบริการขั้นพื้นฐานสิ? ถ้าเรื่องแค่นี้ยังไม่มีละก็..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คือ... ประทานโทษนะคะ แต่คุณได้เครื่องดื่มไปแล้วนะคะ?"
+    },
+    {
+      "Name": "ผู้มาเยือนที่จู้จี้",
+      "Text": "อะไรกัน? จะเป็นไปได้ยังไง เมื่อกี้ฉันก็เห็นๆ อยู่ว่ามันไม่มี...!"
+    },
+    {
+      "Name": "ผู้มาเยือนที่จู้จี้",
+      "Text": "จะ... จริงด้วย! ใครแอบมารินเครื่องดื่มแบบไม่ให้รู้ตัวแบบนี้นะ ดูแลแขกได้ยอดเยี่ยมเลยแฮะ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "(อะไรเนี่ย?! เป็นแบบนี้ได้ไงน่ะมิโดริ?)"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(ฉันก็ไม่รู้เหมือนกัน...)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แงงง! แขกมากันเยอะมากเลยค่ะ! ไหนว่างานไม่ใหญ่แน่ไงคะ!"
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "นี่เธอ! จานตรงนี้มันหล่นแล้วนะ!"
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "โชคดีอยู่หรอกที่มันไม่แตก แต่ฉันก็ตกใจไปแล้วนะ จะรับผิดชอบยังไง!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ขะ... ขอโทษค่ะ! แต่ตอนนี้อาริสึขยับไปไหนไม่ได้เลยค่ะ..."
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "จะยกข้ออ้างแบบนั้นเหรอ? รีบมาเคลียร์สถานการณ์เร็วๆ เข้าสิ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ตะ... แต่ว่า..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "งือ... ช่วยหลบหน่อยนะคะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เอ๋...? จาน... หายไปแล้วค่ะ"
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "พูดอะไรของเธอ? เมื่อกี้มันยังตกอยู่ตรงนี้เลย..."
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "เอ๋? ใครเก็บไปตอนไหนน่ะ?!"
+    },
+    {
+      "Name": "ผู้มาเยือนที่รวยอู้ฟู่",
+      "Text": "ฮึ่ม... อุตส่าห์วางแผนการว่าจะจับผิดงานปาร์ตี้เพื่อให้ได้รับการดูแลเป็นอย่างดีในวันประมูลแท้ๆ...!"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "นี่ พวกจอมขี้เกียจ ทำอะไรพวกเธอน่ะ! จะเอาอาหารแบบนี้ไปเสิร์ฟให้แขกงั้นเหรอ?"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "ดูให้ดีสิ! นี่มันเหมือนปลากระพงย่างตรงไหน? มันยังไม่สุกดีเลยนะ ปลามันยังดิ้นอยู่เลยไม่เห็นเหรอไง!"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "แล้วพวกเมดไปทำอะไรกันหมด! มาทำงานให้มันคุ้มค่าจ้างหน่อยสิ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "หวาาา... ขอโทษค่ะ ขอโทษด้วยค่ะ"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "ขอโทษแล้วมันจบเหรอ? อาหารจัดใส่จานไว้ซ้อนกันขนาดนี้ แค่ควันที่ออกจากอาหารก็จะทำให้ทั้งครัว\nเป็นทะเลหมอกได้แล้ว! ยังไม่รีบไปเสิร์ฟ..."
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "อีก?"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "อาหารทั้งหมด... หายไปไหนแล้วน่ะ?"
+    },
+    {
+      "Name": "???",
+      "Text": "ฉันเอาไปเสิร์ฟหมดแล้วค่ะ จะสั่งงานอะไรเพิ่มไหมคะ?"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "ว่าไงนะ? อาหารเยอะขนาดนั้น เอาไปเสิร์ฟแป๊บเดียวหมดเลยเหรอ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แน่นอนค่ะ ก็ฉันเป็นเมดที่สมบูรณ์แบบไงคะ"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่ใจเย็น",
+      "Text": "มะ... เมดเหรอ? ไม่ใช่... บันนี่เกิร์ลหรอกเหรอ?"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่ใจเย็น",
+      "Text": "... งั้นก็ดี ทุกคนไปได้แล้ว"
+    },
+    {
+      "Name": "หัวหน้าเชฟที่หัวร้อน",
+      "Text": "ทีมห้องครัว! ไม่ใช่พวกเธอ! มารวมตัวกัน!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เอ่อ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่ได้เจอกันนานเลยนะคะ พีซ พีซ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เอ๋?????!"
+    },
+    {
+      "Text": "[ns] \"แบบนี้นี่เอง เนรุคง...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ <จอมโจรแห่งความเสน่หา> กำลังมาที่คฤหาสน์นี้ ก็เลยมาขอให้ฉันช่วยอีกแรงค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "นอกจากนั้นฉันยังได้ภารกิจอื่นมาด้วยค่ะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "จะว่าไป ไม่คิดเลยนะคะว่าคุณครูจะมาที่นี่อยู่ก่อนแล้ว คงต้องเรียกว่าเป็นโชคชะตาแล้วละมั้งคะ"
+    },
+    {
+      "Text": "[s] \"ครูก็ดีใจที่ได้เจอโทคินะ\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ขอบคุณค่ะคุณครู "
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "พวกรุ่นพี่ก็บอกฉันไว้ค่ะว่า..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "\"ตอนนี้คนที่เชื่อใจได้มีแค่โทคิเท่านั้น หวังว่าจะทำผลงานออกมาให้ไม่เสียชื่อ C&C นะ แล้วพวกเราจะ\nรอฟังข่าวดี\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "\"ใช้อุปกรณ์และงบประมาณตามใจได้เลย แล้วค่อยไปทำเรื่องเบิกกับบัญชีของเซมิน่าเอา\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "\"พวกฉันอาจไม่ได้พูดแบบนี้บ่อยๆ แต่ก็เชื่อใจเธอเสมอนะ\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "...... ฮุฮุ"
+    },
+    {
+      "Text": "[s] \"ครูดีใจด้วยนะที่ได้ยินแบบนั้น...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "จากข้อมูลที่ฉันได้มา เห็นว่า <จอมโจรแห่งความเสน่หา> มักจะส่งจดหมายเตือนให้อีกฝ่ายค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันคิดว่าถ้าได้เห็นจดหมายเตือนนั้น ฉันอาจจะช่วยคลี่คลายสถานการณ์ได้บ้างค่ะ"
+    },
+    {
+      "Text": "[s5] \"โทคิ แต่ว่า...\""
+    },
+    {
+      "Text": "[s6] \"ครูมีบางอย่างที่กังวลเกี่ยวกับโทคิน่ะ...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ มีอะไรเหรอคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ มีอะไรเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"... ทำไมถึงเป็นบันนี่เกิร์ลเหรอ?\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "น่าผิดหวังจังเลยค่ะคุณครู"
+    },
+    {
+      "Text": "[s] \"ทำไมล่ะ?!\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ก็เครื่องแบบในการทำปฏิบัติการลับของ C&C คือชุดบันนี่เกิร์ลนี่คะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันทำการบ้านมาอย่างดีเลยค่ะ มีบันทึกของพวกรุ่นพี่ว่าแต่ก่อนเคยมาทำภารกิจบนเรือสำราญสุดหรู\nของโรงเรียนการเดินเรือโอดิสซีย์ด้วยค่ะ"
+    },
+    {
+      "Text": "[s] \"อ๊ะ แต่ตอนนั้นมันมีเหตุผลหลายอย่างเลย...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "?"
+    },
+    {
+      "Text": "[s] \"อะ... อืม ไม่มีอะไรหรอก ไม่เป็นไร โทคิใส่ชุดนี้ได้เลย...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ทำไมคุณครูถึงทำหน้าเหมือนยอมแพ้ทุกอย่างและถอนหายใจออกมากันล่ะคะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แต่ช่างเถอะค่ะ ถ้าคุณครูว่าอย่างนั้น ก็คงจะเป็นอย่างนั้นค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "และที่สำคัญกว่านั้นคือ ปัญหาอย่างหนึ่งที่เราเผชิญอยู่..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะ... อ่า... อ่าาาาา....."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "... ไม่มีค่ะ... ที่นี่ไม่มีใครเลยค่ะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ถ้าเจอเรื่องแบบนี้ต้องทำยังไงเหรอคะคุณครู?"
+    },
+    {
+      "Text": "[s7] \"ตอนที่ไม่แน่ใจ เราควรถามจากผู้ใหญ่...\""
+    },
+    {
+      "Text": "[s8] \"ขอโทษนะ ผู้ใหญ่ไม่ได้มีคำตอบสำหรับทุกสิ่งเสมอไปหรอก...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "งั้นเหรอคะ... ว่าแต่ทุกคนมาทำอะไรกันที่นี่เหรอคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "งั้นเหรอคะ... ว่าแต่ทุกคนมาทำอะไรกันที่นี่เหรอคะ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฉะ... ฉันไม่กลัวคนอย่างเธอหรอก! ฉันจะเอาชนะด้วยเกมต่อสู้ไปเลย!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่โมโมอิ... ระวังหน่อยนะ คนนั้นน่ะ ถ้าเสียเปรียบขึ้นมาแล้วจะถอดเสื้อผ้าแล้วใช้สูตรโกงนะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เราจะให้อาริสึจังถูกชิงตัวไปอีกไม่ได้... งือ... แต่ก็..."
+    },
+    {
+      "Text": "[ns] \"... เดี๋ยวครูไปอธิบายแทนให้เอง...\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ภารกิจของ C&C... อย่างนี้เองเหรอคะ ที่มาขอให้ช่วยเตรียมชุดเมดให้ก็เพื่อการนี้นี่เอง..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะ... เอายังไงดีล่ะพี่โมโมอิ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "นี่เราจบเห่แล้วเหรอ?!  เราจะถูกรุ่นพี่เนรุกินหัวกันแล้วสินะ?!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แงงง!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่หรอกค่ะ ฉันไม่ไปรายงานพวกรุ่นพี่หรอกค่ะ ฉันมาทำภารกิจก็เท่านั้น"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แต่ก็ไม่คาดคิดเลยนะคะว่าชมรมพัฒนาเกมทุกคนจะมาอยู่ที่นี่..."
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรจริงเหรอ? แต่พวกเราถือวิสาสะกันขนาดนี้เลยนะ\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ ไม่เป็นไรหรอกค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ยังไงพวกรุ่นพี่ก็ทิ้งฉันออกไปทำปฏิบัติการกันอยู่ดี ถึงฉันจะทำย้อนคำสั่งก็คงไม่เป็นไรหรอกค่ะ"
+    },
+    {
+      "Text": "[ns9] \"เอ๋?\" ทำไมจู่ๆ... ไฟก็...\""
+    },
+    {
+      "Text": "[ns10] \"เดี๋ยวนะ นี่มัน... 07:38 น. แล้วเหรอ...?!\""
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "ผู้มาเยือน A",
+      "Text": "อะ... อะไรกัน? ไฟดับทั้งคฤหาสน์เลย!"
+    },
+    {
+      "Name": "ผู้มาเยือน B",
+      "Text": "เกิดเรื่องอะไรขึ้นเหรอ? คุณเมทาโร่ คุณเมทาโร่?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "จะ... ใจเย็นๆ ก่อนครับทุกคน ไฟแค่ดับชั่วคราวเท่านั้นครับ ผมจะรีบไปจัดการให้เป็นปกติเดี๋ยวนี้ครับ"
+    },
+    {
+      "Name": "???",
+      "Text": "ไม่หรอกค่ะ มันจะไม่เป็นปกติหรอก"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "นั่นใครน่ะ...?"
+    },
+    {
+      "Name": "???",
+      "Text": "มีบางคนบอกไว้ว่า สิ่งที่มีค่าก็ควรค่าแก่การครอบครอง"
+    },
+    {
+      "Name": "???",
+      "Text": "และต้องถูกเก็บ จำกัด และดูแลอย่างเคร่งครัด ไม่ให้รั่วไหลไปข้างนอก"
+    },
+    {
+      "Name": "???",
+      "Text": "มันจะจริงอย่างที่ว่าไหมคะ? ถ้ามันเป็นของที่มีค่าจริงๆ ก็ควรจะแบ่งให้กับทุกคนสิคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อย่าบอกนะว่า...!"
+    },
+    {
+      "Name": "???",
+      "Text": "บางคนเรียกฉันว่าหัวขโมยค่ะ"
+    },
+    {
+      "Name": "???",
+      "Text": "และบางคนก็เรียกฉันว่าอาชญากร"
+    },
+    {
+      "Name": "???",
+      "Text": "เราไม่ได้เกิดมาพร้อมชื่อของตัวเอง คำเรียกของเราจึงถูกกำหนดโดยคนอื่น"
+    },
+    {
+      "Name": "???",
+      "Text": "เพราะอย่างนั้นฉันจึงจะยอมรับภาษาที่พวกคุณใช้เรียกฉันค่ะ"
+    },
+    {
+      "Name": "???",
+      "Text": "ใช่แล้วค่ะ ชื่อที่เรียกฉันกันโดยทั่วไปก็คือ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "<จอมโจรแห่งความเสน่หา> ค่ะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第4話;向您問好，蹦"
+    },
+    {
+      "Text": "[ns]「辛苦了，愛麗絲。打掃得真認真呢。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "當然囉，老師！\n因為現在的愛麗絲是女僕勇者！"
+    },
+    {
+      "Text": "[s]「女僕勇者？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "就是超越女僕和勇者境界的最強存在！\n最強與最強結合而成的高等職業！"
+    },
+    {
+      "Text": "[s] （對愛麗絲來說，女僕究竟是什麼呢……？）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "話說回來，老師這個時間還醒著沒問題嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "請珍惜生命哦。\n不在旅館休息的話是不會回復體力的。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲完全沒問題！\n因為常常和桃井他們一起熬夜玩遊戲！"
+    },
+    {
+      "Text": "[s1]「我從努力的愛麗絲身上獲得了元氣哦，沒問題的。」"
+    },
+    {
+      "Text": "[s2]「得和桃井說不能熬夜玩遊戲才行……」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "啊，老師打哈欠了！\n打掃就交給愛麗絲，老師請去睡一覺吧！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "重要的是現在剛過了凌晨5點20分！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "愛麗絲醬……那邊的櫃子擦完了的話，可以麻煩你接著打掃這裡嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "知道了，柚子！\n愛麗絲，切換為擦地板模式！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "呼啊啊啊啊啊……"
+    },
+    {
+      "Name": "綠",
+      "Text": "好睏……"
+    },
+    {
+      "Text": "[s]「大家都努力到現在，真是辛苦了……」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊哈哈……畢竟委託人說5點20分到7點40分要特別警戒……"
+    },
+    {
+      "Name": "綠",
+      "Text": "因為還被順便委託了打掃工作，身體的活動讓人更想睡了也是事實……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "雖然會追加打掃部分的報酬，所以也沒什麼不滿，不過……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "好～睏～啊～"
+    },
+    {
+      "Text": "（……就這樣平安無事地到了下午）"
+    },
+    {
+      "Text": "（依照計畫舉辦的派對比想像中還要混亂）"
+    },
+    {
+      "Name": "難搞的賓客",
+      "Text": "喂，我的杯子空了。\n什麼時候才要幫我補滿啊？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦？啊，抱歉……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "非，非常抱歉。我馬上拿來給您。"
+    },
+    {
+      "Name": "難搞的賓客",
+      "Text": "女僕的失態可是會直接造成對主人的批評，你們到底在做什麼！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "（唔咕咕咕……！老虎不發威當我是病貓啊！\n　再說我們本來就不是真正的女僕！）"
+    },
+    {
+      "Name": "難搞的賓客",
+      "Text": "再說了，就算只是雇來的女僕，也該學過基本的能力吧？\n那邊的機器人都比你們優雅多了。"
+    },
+    {
+      "Name": "綠",
+      "Text": "那個……非常抱歉。\n客人您的杯子已經裝滿了。"
+    },
+    {
+      "Name": "難搞的賓客",
+      "Text": "什麼？怎麼可能。\n剛才明明就……！"
+    },
+    {
+      "Name": "難搞的賓客",
+      "Text": "還，還真的！究竟是誰補滿的……？\n完全沒有感覺到任何聲音和氣息啊……？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "（騙人！？發生什麼事了？）"
+    },
+    {
+      "Name": "綠",
+      "Text": "（我也不知道……）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚哇～！客人太多了！\n再這樣下去，愛麗絲要變得跟史萊魯一樣了！"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "喂！這裡有盤子掉了！"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "這樣很危險的！趕快想想辦法！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "非，非常對不起！\n可是愛麗絲現在在服務其他客人……"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "那能算是藉口嗎？你以為我是誰啊！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚，嗚嗚……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚嗚……真的很抱歉。這位客人，請稍等一下……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "咦……？\n盤子……是在哪裡呢？"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "你在胡說什麼啊？不就在……"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "跑，跑哪去了！？"
+    },
+    {
+      "Name": "暴發戶賓客",
+      "Text": "咕奴奴……\n我那在派對上找碴，讓自己在拍賣會受到優待的計畫啊……！"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "喂，你們到底在做什麼啊！\n打算端出這種料理給客人嗎？"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "看清楚了！這到底哪裡烤過了啊？\n這連半熟都不算吧！？"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "那邊的女僕，你也一樣！\n拿了薪水就給我好好做事！"
+    },
+    {
+      "Name": "綠",
+      "Text": "哇啊……對不起，對不起！"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "有空道歉還不趕快把料理端出去！好不容易做好的料理都要冷……"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "啊？"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "剛才還在這的料理……跑哪去了？"
+    },
+    {
+      "Name": "???",
+      "Text": "我全都送出去了。是否還有其他指示呢？"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "你說什麼？一個人就把那麼大量的食物都送出去了？"
+    },
+    {
+      "Name": "季",
+      "Text": "那是當然。因為我是優秀的女僕。"
+    },
+    {
+      "Name": "氣消的主廚",
+      "Text": "女，女僕……？\n不是兔女郎嗎？"
+    },
+    {
+      "Name": "氣消的主廚",
+      "Text": "……很好，大廳組的可以換班去休息了！"
+    },
+    {
+      "Name": "生氣的主廚",
+      "Text": "廚房組給我留下！"
+    },
+    {
+      "Name": "綠",
+      "Text": "咦……"
+    },
+    {
+      "Name": "季",
+      "Text": "好久不見了。Peace，Peace。"
+    },
+    {
+      "Name": "綠",
+      "Text": "咦咦咦咦咦！？"
+    },
+    {
+      "Text": "[ns]「原來如此，寧瑠他……」"
+    },
+    {
+      "Name": "季",
+      "Text": "是的。\n掌握了「慈愛的怪盜」的情報後，前輩表示之後就交給我了。"
+    },
+    {
+      "Name": "季",
+      "Text": "雖然還有其他任務在身……"
+    },
+    {
+      "Name": "季",
+      "Text": "話說回來，沒想到老師會在這裡。"
+    },
+    {
+      "Text": "[s]「很高興能見到季哦。請多指教。」"
+    },
+    {
+      "Name": "季",
+      "Text": "非常感謝您，老師。我也很高興。"
+    },
+    {
+      "Name": "季",
+      "Text": "此外，前輩們還這麼跟我說了。"
+    },
+    {
+      "Name": "季",
+      "Text": "「我們不在的時候，一切就交給季醬囉！」\n「期待聽到好消息」──"
+    },
+    {
+      "Name": "季",
+      "Text": "──「道具和預算隨意使用沒關係，請把所有申請書都送給研討會的會計」。"
+    },
+    {
+      "Name": "季",
+      "Text": "還有──「雖然平常沒說出來，不過我信任你」。"
+    },
+    {
+      "Name": "季",
+      "Text": "……呵。"
+    },
+    {
+      "Text": "[s]「嗯，嗯……那真是太好了呢。」"
+    },
+    {
+      "Name": "季",
+      "Text": "──「慈愛的怪盜」似乎已經送出預告信了呢。"
+    },
+    {
+      "Name": "季",
+      "Text": "能請您讓我也過目一下嗎？"
+    },
+    {
+      "Text": "[s5]「那倒是沒關係，不過季……」"
+    },
+    {
+      "Text": "[s6]「我從剛才就很在意……」"
+    },
+    {
+      "Name": "季",
+      "Text": "是，怎麼了嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "是，怎麼了嗎？"
+    },
+    {
+      "Text": "[s]「……為何是兔女郎呢？」"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Name": "季",
+      "Text": "您是認真這麼問的嗎，老師。"
+    },
+    {
+      "Text": "[s]「咦！？」"
+    },
+    {
+      "Name": "季",
+      "Text": "C&C的潛入作戰，不就是要穿兔女郎裝嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "我從前輩們之前潛入奧德賽海洋高級中學的豪華郵輪的紀錄中是這麼判斷的……"
+    },
+    {
+      "Text": "[s]「啊，那是因為各種原因……」"
+    },
+    {
+      "Name": "季",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s]「沒，沒什麼。季保持現況就好……」"
+    },
+    {
+      "Name": "季",
+      "Text": "雖然不清楚老師為何露出那種糾結的表情……"
+    },
+    {
+      "Name": "季",
+      "Text": "既然老師都這麼說了，我就不去在意了。"
+    },
+    {
+      "Name": "季",
+      "Text": "總之，現在必須解決怪盜的事件才行。\n此外──"
+    },
+    {
+      "Name": "綠",
+      "Text": "啊嗚……啊，啊嗚嗚嗚……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……沒有……這，這裡沒有任何人……"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Name": "季",
+      "Text": "這種時候該怎麼做才好呢？"
+    },
+    {
+      "Text": "[s7]「雖然我很高興你遇到不懂的事情會來問我……」"
+    },
+    {
+      "Text": "[s8]「抱歉，大人也未必總是知道所有事情的答案……」"
+    },
+    {
+      "Name": "季",
+      "Text": "是嗎……話說回來，各位為何會在這裡呢？"
+    },
+    {
+      "Name": "季",
+      "Text": "是嗎……話說回來，各位為何會在這裡呢？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "我，我一點也不怕你哦！\n有必要的話，我會用格鬥遊戲揍扁你的！"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐，小心一點。\n這個人……只要陷入不利就會換上作弊裝備。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "不能再讓愛麗絲醬，被搶走……可是……\n嗚嗚，可是……"
+    },
+    {
+      "Text": "[ns]「……我來說明吧。」"
+    },
+    {
+      "Name": "季",
+      "Text": "被誤認成C&C接下了委託，是嗎……原來如此。\n老師之所以會借女僕裝，就是因為這個原因啊。"
+    },
+    {
+      "Name": "綠",
+      "Text": "怎，怎麼辦，姐姐？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "已經完蛋了啊啊啊！\n怎麼辦！？要被寧瑠前輩罵了！！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚哇～！？"
+    },
+    {
+      "Name": "季",
+      "Text": "不，我不會向前輩們報告。\n因為我只是來執行任務而已。"
+    },
+    {
+      "Name": "季",
+      "Text": "雖然遊戲開發部的存在在意料之外……"
+    },
+    {
+      "Text": "[s]「真的沒關係嗎？之後會不會被找麻煩……」"
+    },
+    {
+      "Name": "季",
+      "Text": "是，沒關係的。"
+    },
+    {
+      "Name": "季",
+      "Text": "丟下我不管的也是前輩們……就算多少出現一些意外，只要能完成任務就沒有問題。"
+    },
+    {
+      "Text": "[ns9]「咦，電力……」"
+    },
+    {
+      "Text": "[ns10]「等等，難道說……！」"
+    },
+    {
+      "Name": "所有人",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "所有人",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "賓客A",
+      "Text": "發，發生什麼事了？整間房子都停電了！"
+    },
+    {
+      "Name": "賓客B",
+      "Text": "究竟發生了什麼？明太郎先生？\n請你說明！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "請，請冷靜！各位請放心。\n只是暫時停電而已，馬上就會恢復正常的。"
+    },
+    {
+      "Name": "???",
+      "Text": "不，這可不行──"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是誰……？"
+    },
+    {
+      "Name": "???",
+      "Text": "有人曾經這麼說過。\n──「有價值的事物就該為人所有」。"
+    },
+    {
+      "Name": "???",
+      "Text": "即便就此不見天日……經過數年，數十年──\n就算有朝一日被人們所遺忘亦然如此。"
+    },
+    {
+      "Name": "???",
+      "Text": "然而，這真的是正確的嗎？\n所謂的藝術品，不正是因為廣為人知，才得以證明它的價值嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "難道是……！"
+    },
+    {
+      "Name": "???",
+      "Text": "有人將我蔑稱為小偷──"
+    },
+    {
+      "Name": "???",
+      "Text": "也有人責罵我為罪人。"
+    },
+    {
+      "Name": "???",
+      "Text": "人們生而無名，稱呼亦是由他人給予。"
+    },
+    {
+      "Name": "???",
+      "Text": "因此──我接受了那個名號。"
+    },
+    {
+      "Name": "???",
+      "Text": "沒錯，我的名字就是──"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "──「慈愛的怪盜」。"
+    }
+  ]
+}

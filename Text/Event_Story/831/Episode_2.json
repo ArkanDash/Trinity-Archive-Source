@@ -1,0 +1,2892 @@
+{
+  "TitleJP": "トラブルメーカー？",
+  "TitleKR": "트러블메이커?",
+  "TitleEN": "Troublemaker?",
+  "TitleTH": "นักสร้างปัญหา(?)",
+  "TitleTW": "麻煩製造者？",
+  "DescJP": "ミレニアムに到着するも、遭難者は既に姿を消していた。エイミが教えてくれた手がかりを元に、捜索しようとすると突如として爆発音が鳴り響く。その場所に向かうと、遭難者の1人――御坂美琴が立っていた。混乱する彼女に対し、ヒマリはこの世界の事、そして元の世界に戻る手段を探してみると伝える。そうしてヒマリが手段を探している間、エイミと先生は御坂美琴がこの世界に馴染めるよう準備を進めるのだった。",
+  "DescKR": "밀레니엄에 도착했지만 조난자들은 이미 사라진 상태였다. 에이미가 말해 준 단서로 함께 조난자들을 찾아 나선 선생님은 미사카 미코토를 발견하여 함께 특무부실로 돌아온다. 히마리는 미사카 미코토에게 그들을 이쪽으로 불러옴과 동시에 원래 있던 곳으로 돌아갈 수 있는 설비를 찾아보겠다고 말하고 그동안 에이미와 함께 키보토스의 상식을 갖추기로 한다.",
+  "DescEN": "Sensei arrives at Millennium, but the strangers have already disappeared. Following Eimi's clues, Sensei finds Misaka Mikoto, and together they return to the task force office. Himari tells Misaka that she'll search for a way to return the strangers to their home. In the meantime, Misaka must learn how to navigate life in Kivotos.",
+  "DescTH": "คุณครูไปถึงมิลเลเนียม แต่ผู้ประสบภัยเหล่านั้นก็หายไปแล้ว คุณครูออก\nตามหาผู้ประสบภัยตามเบาะแสที่เอมิบอกมา และพบกับมิซากะ มิโคโตะ\nจึงพากลับมาที่ห้องชมรมด้วยกัน ฮิมาริบอกมิซากะ มิโคโตะว่าจะหาสิ่งที่\nเรียกพวกเธอมาที่นี่ และหาเครื่องมือที่ทำให้กลับไปยังที่ที่พวกเธอเคยอยู่\nได้ และระหว่างนี้เธอกับเอมิก็ช่วยกันเตรียมข้อมูลต่างๆ ของคิโวทอสให้",
+  "DescTW": "抵達千年之後，遇難者已經消失無蹤。老師透過英美提供的線索一起尋找遇難者時發現了御坂美琴，於是便和他一起回到了特異現象搜查部。陽葵對御坂美琴說明了情況，並對設施展開了調查。在此期間，陽葵請老師英美一起為御坂美琴建立奇普托斯的常識。",
+  "DialogJP": [
+    {
+      "Text": "第1話;トラブルメーカー？"
+    },
+    {
+      "Text": "（エイミから連絡をもらい、ミレニアムにやって来た）"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……あ。先生、こっち。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "来てくれてありがとう。\nこっちもちょっとまだ混乱してて。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "この先にある、部長が用意してくれた第二保健室に一旦連れてきたんだけど……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……でも、今ちょっと問題が発生してて。"
+    },
+    {
+      "Text": "[s1] \"……問題？\""
+    },
+    {
+      "Text": "[s2] \"何かあったの？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "先生に連絡した後、戻ったら……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うーん……説明するよりも、見てもらった方が早いね。"
+    },
+    {
+      "Text": "[ns3] \"あれ……。\""
+    },
+    {
+      "Text": "[ns4] \"誰もいないけど……？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……そうなの。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ついさっきまで、別の世界から来た3人がここで眠ってたんだけど。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "先生に連絡するために、少し席を外したら……見ての通りいなくなってて。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "起きて、どこかに行っちゃったのか……\nそれとも、最初から寝たフリをしていたのか。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "真相は分からないけど……とにかくいなくなっちゃった。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あ、部長にはもう伝えてあるよ。\n珍しく動揺してたかも。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "「もしかすると、この街で時空の歪みが……」――"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "とか言ってたような。\nでも、まずは身元不明人として3人を保護するのが先決。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "先生と合流したら、全員捜して連れてくるようにってさ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そういうわけで……先生、力を貸してくれない？"
+    },
+    {
+      "Text": "[s5] \"もちろん。そうと決まったら急ごうか。\""
+    },
+    {
+      "Text": "[s6] \"状況は分かった。その人たちの特徴は？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ありがとう、先生は話が早くて助かる。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "えっと……3人とも、初めて見る制服を着てたよ。\nそれと、誰も銃を持ってなかった。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あ、でも……念のため、捜索中は常に警戒してね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ショートカットの子がいたんだけど……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……搬送中、突然その子の身体から電気が放たれたの。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん、まさに今みたいな音も一緒にしてた。"
+    },
+    {
+      "Text": "[s7] \"急ごう、エイミ！！\""
+    },
+    {
+      "Text": "[s8] \"そういう大事な情報は先に話して！\""
+    },
+    {
+      "Text": "（急いで爆発音が聞こえた方に向かった）"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "たぶん、この辺りのはず……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……先生、あそこ。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "行く先々で喧嘩を吹っかけられるわ、当たり前のようにみんな銃を持ち歩いてるわ……どうなってるのよ、この街は。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "何よ、アンタ達。なんか用？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "そっちのピンク髪は……見覚えあるわね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん。たしかに、廃墟からミレニアムに連れてきたのは私だけど……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "どうして覚えてるの？\n意識はなかったと思うけど……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それに……目が覚めた途端、事件を起こすとは思わなかった。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……！？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "誤解よ！それじゃ、まるで私のせいみたいじゃない！！"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "コイツらが、いきなり……"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "う、うぐっ……な、何だったんだ、さっきのは……"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "爆発に巻き込まれて……？\nいや、身体がビリッとしたような……"
+    },
+    {
+      "Text": "[s9] \"……良かった。\""
+    },
+    {
+      "Text": "[s10] \"幸い、みんな意識はあるみたいだね。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……そっか。銃を持ってないの、珍しいから。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "さっきから、よく聞こえないんだけど？\n言いたいことがあるなら、ハッキリ言ってもらえる？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……ま、そんなモノぶら下げてるってことは、穏便な話し合いってわけじゃなさそうだけど。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "そこに転がってるのと同じ目に遭いたくなかったら……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "な、なんで能力が……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……本当に誤解なのかな。"
+    },
+    {
+      "Text": "[s11] \"落ち着いてほしい。私たちは話し合いに来たんだ。\""
+    },
+    {
+      "Text": "[s12] \"まだうまく状況が飲み込めてないんじゃないかな？\""
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "うーん……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……そう、ね。まず、アンタ達は誰なの？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "というか、そもそもここどこ？\n学園都市……じゃないわよね。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "みんなして物騒なモノ持ち歩いて、頭の上には何か浮かべてるし……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "もしかして、これもインディアンポーカーの……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "いや、状況からいって違う。前後の記憶がつながらないもの。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "やっぱり、夢……？\n夢じゃなかったら、どう説明を……"
+    },
+    {
+      "Text": "[s13] \"インディアンポーカー……？\""
+    },
+    {
+      "Text": "[s14] \"……だ、大丈夫？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "転移の影響で、記憶が混乱してるのかも。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……部長の言った通りだね、先生。"
+    },
+    {
+      "Text": "[s15] \"まだあんまり意識がハッキリしてなさそうだね。\""
+    },
+    {
+      "Text": "[s16] \"……つまり、彼女は別の世界から？\""
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……先生？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "そっちのアンタが……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "先生？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……アンタ、教師だったの？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "じゃあ、その隣にいるのは……？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ミレニアムサイエンススクール1年、特異現象捜査部の[ruby=いずみもと]和泉元[/ruby]エイミ。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……生……徒？？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "その格好で……学校に通ってるの？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s17] \"……はっ。\""
+    },
+    {
+      "Text": "[s18] \"ま、待って。これは本当に誤解で……！\""
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……教師が生徒にこんな格好させるなんて、おかしいでしょうがよ！？"
+    },
+    {
+      "Text": "（……最悪の印象で初対面を迎えてしまった後）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "おおよその状況は理解しました。\n原理の解明には至っておりませんが、そこは仕方ありません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ミレニアムの廃墟……いかに不可思議な現象が起きたとしても不思議ではありません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですが、それにしても……\nまさか異なる世界から人が転移してくるとは……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ログを確認したところ、私たちの調査が及んでいない「施設」から、大きなエネルギー反応の記録を見つけました。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "サラッと言ってるけど、とんでもない事じゃないのソレ。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "別の世界に転移だなんて……そんな馬鹿げた話を信じろって言うの？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "正直、あまりにも現実味がなくて、嘘なんじゃないかって思ってるけど……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "でもまぁ……今の私を騙したところで、何もメリットがないか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、この超天才病弱美少女ハッカーを疑っているのですか？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長の残念な言動を聞いて疑う気持ちは理解できるけど……\n部長の言ってることは正しいよ。そうでもないと説明がつかない状況だし。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "エイミ……！？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "今回に限らず、私たち特異現象捜査部は科学的に証明しがたい様々な現象をこれまで確認してきた。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "不思議な現象がひとつ増えたところで、何もおかしくはない。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "むしろ、転移よりも驚いたのは……えっと。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……[ruby=みさか]御坂[/ruby][ruby=みこと]美琴[/ruby]よ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……美琴が電気を操る「超能力者」という事実のほう。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "いきなり下の名前で呼び捨て……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "ま、いっか。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "とにかく、その……ここは私の知ってる学園都市とは違うのね。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "じゃあ、ここには能力者がいないの？\n研究機関や能力開発施設も？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "少なくとも、「能力」と呼ばれる力は観測されておりません。\n能力開発なんて、考えはしても実行には至らないでしょう。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "その……別に否定するつもりはないんだけど、頭の上に変なのが浮かんでたり、銃を持ち歩くのは普通なの……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、何かおかしいところでも？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "美琴は何を言ってるの？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？？？？？？？？？？？？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "えっ？私の方が、おかしいの……？？？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それに、ヘイローが浮かんでいるのは……美琴さんも、でしょう？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "え、ええっ！？ほ、本当だ……！？\nこれ、いつから！？"
+    },
+    {
+      "Text": "[s19] \"そういえば、他の2人は……？\""
+    },
+    {
+      "Text": "[s20] \"どこにいるか、心当たりはないかな。\""
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……他の2人？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "ちょっとまだ記憶が曖昧で……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……たしか「インディアンポーカー」を使って横になったはず。\nその時は1人だったし……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "インディアンポーカーを、使って……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "ああ、ごめん。知らないわよね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "トランプのゲームなら知ってるよ。\nでも「使う」ものではないから。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "私たちの世界でも、一般的にはそうなんだけど……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "そういう名前の技術があってね。\n微弱な電気信号を流して他人の夢を再現する事ができるんだけど……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "だから、この世界に来た時も最初は夢の中なのかな――って思って。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "残りの2人も……誰かは分からないけど、たぶん同じタイミングでインディアンポーカーを使ったんだと思う。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なるほど……そのインディアンポーカーと呼ばれる明晰夢のようなアイテムと廃墟の\n「施設」が相互に作用した、と。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……とても興味深いお話ですね。\nこれは本格的に調べる価値がありそうです。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "興味深いって……事件に巻き込まれたこっちの身にもなってよね。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "戻るためには私も「施設」に行く必要がありそうだし……\n協力してくれる、と思って良いのかしら？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……さっそくだけど、何から始める？\nまずは残りの2人を探すか、それとも廃墟で手がかりを……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "やる気があるのは喜ばしいのですが、廃墟に行くのは後にしましょう。\nミレニアムの廃墟は広大ですから、準備をしなくては遭難してしまいます。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "残りのお2人は……そうですね。\nそちらの情報も、私が集めておきましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですので、皆さんには先に行ってもらいたいところが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……エイミ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん、分かった。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "話は通しておきましたので、取りに行ってもらえればと。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……取りに行くって、何を？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ついてきて。移動しながら説明する。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "別の世界から来たとはいえ……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そのままだと、余計目立ってトラブルに巻き込まれるから。\n美琴もそれは嫌でしょ？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "キヴォトスで安全に活動するためにも、色々と準備が必要。"
+    },
+    {
+      "Text": "[s21] \"なるほど、ということは……。\""
+    },
+    {
+      "Text": "[s22] \"郷に入っては郷に従え、だね。\""
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……何の話？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "さっきは、美琴が無防備だから余計なトラブルに巻き込まれたの。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それを防ぐためにも……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……キヴォトスの「常識」を身につけてもらわないと。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;트러블메이커?"
+    },
+    {
+      "Text": "(에이미의 연락을 받고 밀레니엄으로 찾아갔다.)"
+    },
+    {
+      "Name": "에이미",
+      "Text": "……아. 선생님. 이쪽이야."
+    },
+    {
+      "Name": "에이미",
+      "Text": "정확한 시간에 찾아왔네. 기다리면서 시간을 낭비할 필요도 없으니 좋아."
+    },
+    {
+      "Name": "에이미",
+      "Text": "바로 이 안이 부장이 마련해준 병실이야. 확보한 조난자들을 데려온 장소이기도 하고."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……지금은 약간의 문제가 발생하긴 했지만서도."
+    },
+    {
+      "Text": "[s1] \"……약간의 문제?\""
+    },
+    {
+      "Text": "[s2] \"무슨 일이라도 있었어?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "맞아. 나도 선생님에게 연락한 뒤 다시 와서 확인했거든."
+    },
+    {
+      "Name": "에이미",
+      "Text": "이런 건 직접 보여주는 편이 보다 확실하겠지."
+    },
+    {
+      "Text": "[ns3] \"음? 여기는……?\""
+    },
+    {
+      "Text": "[ns4] \"아무도 없는데……?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "……바로 그게 문제야."
+    },
+    {
+      "Name": "에이미",
+      "Text": "선생님에게 연락을 취한 뒤 돌아오고 보니, 보다시피 아무도 없었거든."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응? 무슨 이야기냐니?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "말 그대로야. 세 명이 잠들어 있었는데, 나중에 보니 모두 어딜 가버렸는지 사라졌다는 거지."
+    },
+    {
+      "Name": "에이미",
+      "Text": "아마 깨어나서 밖으로 나갔다거나……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장에게는 이야기했냐고? 물론 이야기했어. 동요하지 않으려고 노력하는 목소리도 잘 들었고."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……\"아무 일도 없을 수도 있지만, 엄청난 일이 일어날 수도 있다.\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장이 한 말이야. 어쨌든 신원을 비롯한 모든 부분이 불명인 사람들이니까."
+    },
+    {
+      "Name": "에이미",
+      "Text": "선생님이 오기로 했으니, 합류하면 즉시 세 사람을 찾아서 모두 다시 데려오라고 했어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그런 의미에서, 선생님이 괜찮다면 도움을 요청하고 싶어. 괜찮을까?"
+    },
+    {
+      "Text": "[s5] \"당연하지. 혹시 모르니 서두르자.\""
+    },
+    {
+      "Text": "[s6] \"그 사람들, 혹시 특징 같은 거 있어?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "역시 선생님과의 대화는 빨라서 좋네. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "말했듯이 세 명이고, 키보토스에 없는 학원의 교복을 입고 있었어. 그리고 셋 중 누구도 총을 들고 있지 않았고."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그리고 내가 확인한 바로, 셋 중에 한 명은 이송 과정에서, 무의식중에."
+    },
+    {
+      "Name": "에이미",
+      "Text": "전기를……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……방출한 적이 있어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 방금 전 소리와 동일한 소리였어."
+    },
+    {
+      "Text": "[s7] \"이, 일단 소리가 난 곳으로! 빨리!!\""
+    },
+    {
+      "Text": "[s8] \"제일 중요한 걸 마지막에 말했어!!\""
+    },
+    {
+      "Text": "(에이미와 함께, 서둘러 폭발 소리가 난 곳으로 달려왔다.)"
+    },
+    {
+      "Name": "에이미",
+      "Text": "소리는 분명 이 근방에서……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……저기 있어, 선생님."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……하아."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "여긴 대체 어딘데 이렇게 가는 곳마다 시비가 걸리는 거야. 왜 다들 당연하다는 듯이 총 같은 걸 들고 있고……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……응?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭐야. 그쪽도 뭔가 나한테 용무가 있어서 온 분위기인데."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭔가……. 한쪽은 묘하게 어디선가 본 것 같기도 하고."
+    },
+    {
+      "Name": "에이미",
+      "Text": "둘 다 맞아. 용무가 있어서 왔고, 본 적도 있지. 기억하고 있을 줄은 몰랐지만."
+    },
+    {
+      "Name": "에이미",
+      "Text": "폐허에서 너희들을 발견하고 데려온 게 나야. 그때엔 의식이 없었는데……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "일어나자마자 이런 식으로 사건을 발생시킬 거라곤 생각하지 않았거든."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……?!"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "무슨 말을 그렇게 하는 거야? 사건이라니, 누가 보면 내가 일을 벌인 줄 알겠네!"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "엄연한 정당방위였거든!? 여기 이 녀석들이 다짜고짜……."
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "으, 으으……. 뭐, 뭐였지. 방금……."
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "뭔가 지지직……하고 퍼엉……했는데……."
+    },
+    {
+      "Text": "[s9] \"……뭔가 예상이 가네.\""
+    },
+    {
+      "Text": "[s10] \"다행히 별일은 없었구나.\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "……과연. 확실히 총도 없이 거리를 활보하는 학생이라, 특이해 보일 수 있겠어."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아까부터 계속 왜 혼잣말을……. 전혀 알아듣질 못하겠잖아."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아무튼 그쪽도 손에 그런 걸 들고 있는 걸 보니, 딱히 대화하러 온 생각은 아닌 것 같은데……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭣 하면 저 녀석들이랑 마찬가지로……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……응?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭐야. 왜 전력이……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "다짜고짜 싸울 생각부터 하는 건 그쪽인 것 같은데."
+    },
+    {
+      "Text": "[s11] \"우린 싸우러 온 게 아니야.\""
+    },
+    {
+      "Text": "[s12] \"일단 여러모로 대화가 필요할 것 같아.\""
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "으, 으응……?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "음……. 그, 그래……? 그럼 뭐야? 당신들은……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아니. 애초에 여기는 어디야? 학원도시에서는 이런 장소 본 적이 없는데."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "다들 뭔가……. 총 같은 걸 들고 다니고, 머리 위에는 이상한 걸 띄우고 다니고……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "이것도 인디언 포커의……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아냐. 뭔가 달라. 인디언 포커라면 지금의 내가 나일 리도 없고, 여러모로 말이 안 돼."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "진짜 뭐지……? 역시 꿈은 아닌 건가? 꿈이 아니라면 대체……."
+    },
+    {
+      "Text": "[s13] \"인디언 포커……?\""
+    },
+    {
+      "Text": "[s14] \"뭔가 혼잣말을…….\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "혼잣말을 횡설수설하는 건 정신적으로 이상이 있는 사람의 특징이지."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그게 아니라면……. 선생님. 역시 부장 말이 맞는 것 같고."
+    },
+    {
+      "Text": "[s15] \"확실히, 뭔가 길을 잃은 느낌이.\""
+    },
+    {
+      "Text": "[s16] \"……키보토스 사람이 아니라는거지.\""
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……응?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……선생님……이라고?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그 쪽의 어른……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "선생님이라고?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "당신……. 교사였어?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그럼 그 옆은……?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "밀레니엄 사이언스 스쿨 1학년. 초현상특무부의 이즈미모토 에이미."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……학……생??"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그 복장으로……. 학생……이라고?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "……?"
+    },
+    {
+      "Text": "[s17] \"……헉.\""
+    },
+    {
+      "Text": "[s18] \"설마, 여기서 '그 의문'을…….\""
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……교사가 '이런 차림'의 학생이랑 같이 다닌다고!?"
+    },
+    {
+      "Text": "(……뭐라 대답하기 힘든 질문을 받으며, 우선 세 사람 중 한 명과 만났다.)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……과연."
+    },
+    {
+      "Name": "히마리",
+      "Text": "대략적인 상황은 이해가 가는군요. 원리에 대한 설명은 어렵겠지만, 그 부분은 어쩔 수 없는 것이겠죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "밀레니엄의 폐허라는 곳은, 그 이름만으로도 온갖 난해하고 비상식적인 일들을 가능케 하는 곳이니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "다른 세계의 사람들을 이쪽 세계로 '전이'시켰다……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아무래도 그곳에 있던, 아직 저희가 찾지 못했던 설비들 중 하나가 에너지 반응을 보인 모양이에요."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "굉장히 담담한 얼굴로 말하고 있지만, 사실 엄청난 내용인 거 아니야?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "다른 세계라고? 이세계 전이……? 그런 이야기를 지금 나더러 믿으라는 거야?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "솔직히 꽤나 허무맹랑한 소리라, 대충 아무렇게나 지어내는 게 아닌가 싶은 정도인데."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "물론 지금 상황 자체가 좀 이해가 잘 안되긴 하지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머나. 다른 사람도 아닌 저에게 의문을 품으시는 건가요? 이 초천재병약미소녀해커……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "물론 부장의 말투나 행동양식은 그런 인식을 받기에 충분하지만, 유감스럽게도 지금은 아니야. 나도 동의하고 있어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "에이미……!?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "그리고 비단 이번 일뿐만이 아니더라도, 우리 초현상특무부는 지금까지 다양한 종류의 '이상 현상'들과 접해왔어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "이제 와서 한 가지가 추가된다 해도, 우리 입장에선 그렇게 믿기 어려운 상황은 아니라는 거지."
+    },
+    {
+      "Name": "에이미",
+      "Text": "오히려 더욱 특이한 건이라고 하면, 그보다 그쪽……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……미사카 미코토."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……미코토가 전기를 다룰 수 있는 '초능력자'라는 쪽이 더 놀라운 일에 가깝다고 생각해."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "내가 알려주긴 했지만, 바로 성씨가 아니라 이름을……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭐, 상관없나."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아무튼 그러니까……. 즉, 비슷하게 생기긴 했지만 두 곳은 전혀 다른 학원도시라는 건가."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그럼 여기는 능력자가 없는 거야? 그런 걸 개발하는 연구단지나 기관도 없고?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "적어도 말씀하신 부분 같은 케이스는 없군요. 초능력자를 만드는 실험이라니, 솔직히 상상 속에서나 나올 법한 이야기고요."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "딱히 부정할 생각은 없지만, 학생들마다 머리 위에 이상한 거 달고 총질하는 곳도 정상은 아니라고 생각하는데."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머나. 그럴 리가요? 학생이 총 쓰는 것 정도는 당연한 상식 아닌가요? 그렇지 않나요, 에이미?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 그게 맞지. 다들 그렇게 이야기할걸."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……????????????"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭐……지? 내가 이상한 거라고……???"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그리고 머리 위에 헤일로가 떠 있는 건……. 지금의 미코토 씨도 마찬가지고 말이죠."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……응?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "으, 응!? 뭐야. 진짜네……!? 언제 이런 게 생긴 거야!?"
+    },
+    {
+      "Text": "[s19] \"그러고 보니! 두 사람이 더 있었다 했었지?\""
+    },
+    {
+      "Text": "[s20] \"남은 일행들에 대해선 짚이는 바가 없어?\""
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……?? 일행……? 짚이는바?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……음. 글쎄……. 기억이 가물가물한걸."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "일단 여기로 오기 전 내 마지막 기억은 '인디언 포커'라는 걸 썼다는 거고, 그걸 쓸 때는 나 혼자였어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "인디언 포커……?"
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "아, 으음. 그렇겠네. 여기서는 처음 듣는 이야기겠지."
+    },
+    {
+      "Name": "에이미",
+      "Text": "인디언 포커라는 것 자체는 물론 알고 있어. 하지만 여기서는 평범한 게임의 일종이거든."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그건 뭐 우리도 기본적으로는 같은데……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "요지는 그것을 본떠 만든 특정한 기술이 있고, 그 기술을 사용하면 다른 사람이 저장해 둔 꿈을 볼 수 있다는 거였어."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "그래서 나도 처음에는 여기가 누군가의 꿈속인가-같은 식으로 생각했었고."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "나머지 둘도……. 누군지는 모르지만, 비슷한 느낌이라면 아마 각자 다른 곳에서 인디언 포커를 시도해 본 거겠지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그리고 그 인디언 포커라는 것의 작용과, 밀레니엄 폐허의 특정 설비가 엮여서……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇군요. 이건 꽤나 흥미로운 이야기인걸요? 좀 더 진지하게 찾아볼 만하겠어요."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "흥미롭다니, 이쪽은 대사건에 휘말린 상황이라고."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "뭐, 그래도 딱히 적으로 여길 필요는 없을 거 같고, 돌아가기 위해서는 그 '설비'라는 게 뭔지도 같이 찾아봐야 할 것 같고……."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "일단은 한 배를 탔다고 봐도 무방하겠지? 그럼 난 뭘 하면 돼? 나머지 둘을 찾는다? 그 밀레니엄 폐허라는 곳으로 가 본다?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "의욕 있는 것은 좋지만, 설비 쪽은 아직 괜찮아요. 밀레니엄 폐허는 지나치게 광활해서, 무턱대고 찾으러 들어갔다간 또 조난될 뿐이거든요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "나머지 둘을 찾는 일은……. 그러네요. 제가 마음만 먹는다면 그리 어렵지 않을 테지요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "오히려 그보다 급한 건……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……에이미."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 알았어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이야기는 이미 해 두었으니, 지금쯤 찾으러 가면 받을 수 있을 거예요."
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "또 자기들끼리만 아는 이야기야? 급한 거라니? 받는다니, 대체 무슨 이야긴데?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "우선 따라와. 설명은 가는 길에 해도 충분하니까."
+    },
+    {
+      "Name": "에이미",
+      "Text": "하지만 그 전에, 아무리 다른 곳에서 온 사람이라고는 해도……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "아까처럼 매번 눈에 띄거나 관심을 사선 비효율적이야. 그런 걸 원하진 않겠지?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "키보토스에서 활동하려면, 일단 키보토스에 자연스러운 모습이 돼야 해."
+    },
+    {
+      "Text": "[s21] \"……아하. 과연, 이해했어.\""
+    },
+    {
+      "Text": "[s22] \"키보토스에선 키보토스의 법……이란 건가.\""
+    },
+    {
+      "Name": "미사카 미코토",
+      "Text": "……?? 무슨 이야기를……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "지금 미코토가 지니고 있지 않아서 이상하고, 눈에 띄고, 그래서 아까 같은 상황에도 걸렸던 것."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그 부분을 해결하기 위해……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……키보토스의 '상식'을 받으러 갈 거야."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;Troublemaker?"
+    },
+    {
+      "Text": "I headed to Millennium at Eimi's request."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Ah. Sensei. This way."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Your timing is ideal. We must take immediate action."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The president arranged this hospital room for us. It's where I brought the strangers I found in the ruins."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...Unfortunately, we've had some trouble."
+    },
+    {
+      "Text": "[s1] \"What kind of trouble?\""
+    },
+    {
+      "Text": "[s2] \"Did something happen?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I came back here shortly after I contacted you."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Perhaps it would be better if I show you."
+    },
+    {
+      "Text": "[ns3] \"Hm? That's strange...\""
+    },
+    {
+      "Text": "[ns4] \"There's no one here.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "And that is the problem."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "When I returned, as you can see, no one was here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Hm? Is my explanation insufficient?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's just as I've said. Three people were sleeping here, and now they are gone."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Maybe they woke up and went outside, or..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I informed the president. The inflection of her voice indicated that she was trying to suppress her agitation at the situation."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...\"It may be nothing, or it may be a matter of enormous proportions.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "That's what she told me. We just don't know enough about those strangers."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Since you were already on your way, she advised me that we should wait for you and look for them together."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You're here now. Would you mind helping me?"
+    },
+    {
+      "Text": "[s5] \"Sure. We should begin our search right away.\""
+    },
+    {
+      "Text": "[s6] \"Can you describe them for me?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "As expected of Sensei, you're quick and to the point. "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "There were three of them. Their uniforms don't belong to any academy I know of in Kivotos. Oh, and none of them were carrying guns."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Finally, in the process of being transported here, one of them... While still unconscious..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...discharged..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...a burst of electricity."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Oh. It sounded just like that."
+    },
+    {
+      "Text": "[s7] \"Follow that sound! Quickly!\""
+    },
+    {
+      "Text": "[s8] \"You saved the most important info for last!\""
+    },
+    {
+      "Text": "Eimi and I hurried to the source of the explosion."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The sound definitely came from somewhere nearby..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Over there, Sensei."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Where am I? Why is everyone picking a fight with me? Wait, more importantly, why are they all walking around with guns...?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...Oh?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "The way you're looking at me makes me think you have business with me, too."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Hm... You seem familiar somehow."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You're right on both counts. I have business with you, and we've met. I didn't think you'd remember."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I'm the one who found you in the ruins. You were unconscious at the time..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I didn't expect you to cause an incident like this as soon as you woke up."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You say I'm causing an incident? The way you're talking, you'd think I'd done something wrong!"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "I'm just defending myself! These girls here..."
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "Ugh... What the heck was that...?"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "There was a zap...and something exploded...and then..."
+    },
+    {
+      "Text": "[s9] \"I'm getting a picture of what happened.\""
+    },
+    {
+      "Text": "[s10] \"Thank goodness we got here before it got serious.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Indeed. A student walking in public unarmed is sure to draw unwanted attention."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "What are you two muttering about...? I don't understand a thing you're saying."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Anyway, seeing as you're strutting around with some heavy firepower, I'm guessing you're not exactly here to talk..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Just like those guys over there..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "What the...? My power..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It appears to be you who are not interested in talking."
+    },
+    {
+      "Text": "[s11] \"We're not here to fight.\""
+    },
+    {
+      "Text": "[s12] \"Why don't we hash this out like civilized people?\""
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Um..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Well, sure then, let's talk. So, what's your deal...?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Actually, first off, where am I? This isn't any part of Academy City I've ever seen."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You've all got...guns or something, and you have these weird things floating over your heads..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Is this all part of Indian Poker's...?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "No, that can't be. I wouldn't be myself if it was Indian Poker, for starters."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "What's going on here...? If this isn't a dream, then what's..."
+    },
+    {
+      "Text": "[s13] \"Indian Poker...?\""
+    },
+    {
+      "Text": "[s14] \"She's talking to herself...\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Mumbling nonsensically to oneself is a hallmark of mental illness."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "But if we discount such illness... Sensei, I believe the president was correct after all."
+    },
+    {
+      "Text": "[s15] \"She definitely seems lost.\""
+    },
+    {
+      "Text": "[s16] \"...She's not from Kivotos.\""
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Sensei...?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "So this adult..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...is a teacher?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "So if you're a teacher..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Then the person next to you is...?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Izumimoto Eimi, first-year at Millennium Science School and member of the Super Phenomenon Task Force."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...A...first-year...?!"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You're a...student...in that outfit?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...?"
+    },
+    {
+      "Text": "[s17] \"...Oof.\""
+    },
+    {
+      "Text": "[s18] \"She asked it. She actually asked it...\""
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You teach at a school where students dress like THIS?!"
+    },
+    {
+      "Text": "Though she asked some difficult questions, I met the first of the three castaways..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...I see."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I understand the general situation. I don't know how this happened, but I guess that part can't be helped."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The ruins of Millennium are a place where all sorts of esoteric and unorthodox things are possible."
+    },
+    {
+      "Name": "Himari",
+      "Text": "For people from another world to have been transported to ours..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "My suspicion is that some undiscovered machinery deep in the ruins had a sort of energy reaction."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You're saying it very casually, but you realize how crazy this all sounds, right?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Travel to another world? Energy reactions...? You really expect me to believe that?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Honestly, it's all pretty farfetched. I have to wonder if you're just making it up."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Admittedly, I don't exactly have any theories of my own, but..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh my. You're questioning me, of all people? The delicate-yet-beautiful super genius hacker..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I understand how the president talks and behaves comes across, but unfortunately, in this case, I agree with her."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Eimi...?!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Besides, this isn't the first time that the Super Phenomenon Task Force has encountered an anomaly."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "One more mysterious occurrence isn't that hard to believe."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "If anything, the most unusual thing here..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...is you, Misaka Mikoto."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "To think that Mikoto is an \"esper\" who can manipulate electricity..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "I guess I'm the one who filled you in, but to call me by my given name immediately..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Well, fine. That's fine."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Anyway... The short version is, although they look similar, there are two different Academy Cities."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "And this one doesn't have any espers, or any organizations or institutions working on researching them?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I don't know of any cases like the one you're describing. The idea of an experiment creating an esper is, frankly, something I couldn't even imagine."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "That's fair. But then again, I couldn't have imagined a place where all the students have glowing shapes over their heads or shoot guns everywhere."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, my. But it's common sense for a student to carry a firearm, isn't it, Eimi?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Yes. Nobody would argue with that."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...???"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "What...? And you think I'm weird...?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "And about the halo floating above my head... You have one too, Mikoto."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "H-Huh?! I really do...! Where did this come from?!"
+    },
+    {
+      "Text": "[s19] \"Come to think of it, Eimi said there were two others with you.\""
+    },
+    {
+      "Text": "[s20] \"Can you tell us anything about the rest of your group?\""
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...? My...group...?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Hm. Well... I don't remember much."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "The last thing I remember before coming here is that I used an Indian Poker. I was the only one around when I used it."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "What do you mean by Indian Poker?"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Oh, of course. You must not have that here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Indian Poker... It's a card game. At least, that's all it is in this world."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Well, sure, it's also the name of a card game where I'm from, but..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "The short version is that it's something you can use to see other people's dreams."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "That's what I thought this was at first. Somebody else's dream."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "The other two... I don't know who they are, but if they appeared when I did, I'd guess they were probably also using Indian Poker themselves."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And the effect of this so-called \"Indian Poker,\" coupled with certain machinery in the Millennium ruins, is what..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I see. It's an interesting theory. I'll have to look into it."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "\"Interesting?\" This isn't some game!"
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "Well, there's no need for us to be enemies. I guess I should help you find that machinery so I can go home..."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "I think it's safe to say we're on the same side, right? So what should I do? Find the other two? Go back to those ruins?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm glad you're motivated, but I still need to look into that machinery. The ruins are so vast that you'll only get lost if you wander about aimlessly."
+    },
+    {
+      "Name": "Himari",
+      "Text": "As for finding the other two... Hm. It shouldn't be too hard if I put my mind to it."
+    },
+    {
+      "Name": "Himari",
+      "Text": "There's a much more pressing matter..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Eimi."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Indeed."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I've already sent word. If we go now, we'll be able to get one for her."
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "You're talking nonsense again. What am I getting?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Follow me. I'll explain on the way."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Even if you are from another world..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "If you keep attracting attention, it'll make our job very inefficient. You don't want that, do you?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "If you want to walk around in Kivotos, you first have to look like you belong here."
+    },
+    {
+      "Text": "[s21] \"...Aha. I get it.\""
+    },
+    {
+      "Text": "[s22] \"When in Kivotos...\""
+    },
+    {
+      "Name": "Misaka Mikoto",
+      "Text": "...? What are you..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's because you didn't have one that you stood out earlier, leading to that...situation."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "To solve this..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...we'll introduce you to the \"customs\" of Kivotos."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;นักสร้างปัญหา(?)"
+    },
+    {
+      "Text": "(คุณครูได้รับโทรศัพท์จากเอมิจึงมุ่งหน้าไปที่มิลเลเนียม)"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...อ่า คุณครู ทางนี้"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มาตรงเวลาพอดีเลยนะ ดีจังที่ฉันไม่ต้องเสียเวลารอ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ข้างในนี้คือห้องผู้ป่วยที่หัวหน้าจัดหาไว้ให้น่ะ แล้วก็เป็นที่ที่ฉันพาพวกผู้ประสบภัยที่เจอมาด้วย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...ตอนนี้เหมือนจะมีปัญหานิดหน่อยด้วยแหละ"
+    },
+    {
+      "Text": "[s1] \"...มีปัญหานิดหน่อยเหรอ?\""
+    },
+    {
+      "Text": "[s2] \"มีเรื่องอะไรหรือเปล่า?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อื้ม หลังจากวางสายจากคุณครู ฉันก็มาตรวจสอบอีกครั้งน่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่เรื่องแบบนี้น่ะ ให้คุณครูได้เห็นกับตาน่าจะชัดเจนกว่าเนอะ"
+    },
+    {
+      "Text": "[ns3] \"หืม? ที่นี่...?\""
+    },
+    {
+      "Text": "[ns4] \"ไม่เห็นมีใครเลยนี่...?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...นี่แหละคือปัญหา"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "พอฉันคุยกับคุณครูเสร็จแล้วกลับมาดู ก็ไม่มีใครอยู่อย่างที่เห็นเลย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หืม? มีเรื่องอะไรน่ะเหรอ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ก็ตามที่บอกเลย เมื่อกี้สามคนนั้นยังนอนหลับกันอยู่ แต่พอมาดูอีกทีก็ไม่รู้ว่าหายไปอยู่ที่ไหนกันแล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อาจจะตื่นแล้วออกไปข้างนอกก็ได้..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฉันบอกหัวหน้าแล้วหรือยังน่ะเหรอ? ก็ต้องบอกแล้วสิ หัวหน้าบอกว่าจะพยายามไม่ให้จิตใจกระสับ\nกระส่ายด้วย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...\"นี่อาจจะไม่เป็นเรื่องอะไรก็ได้ แต่ก็อาจจะเป็นเรื่องใหญ่ได้เหมือนกัน\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้าบอกไว้ว่าอย่างนั้นน่ะ ยังไงพวกเขาก็มีตัวตนไม่ชัดเจนอยู่แล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แล้วหัวหน้าก็บอกด้วยว่าในเมื่อคุณครูจะมาที่นี่แล้ว ถ้าได้เจอกันก็ให้ออกไปตามหาทั้งสามคนนั้น\nกลับมาทันที"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เพราะงั้นถ้าคุณครูไม่ว่าอะไร ฉันก็อยากขอความช่วยเหลือหน่อย พอจะช่วยได้ไหมล่ะ?"
+    },
+    {
+      "Text": "[s5] \"ได้แน่นอน รีบไปกันเถอะ\""
+    },
+    {
+      "Text": "[s6] \"คนพวกนั้นมีลักษณะพิเศษอะไรบ้างไหม?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฉันละชอบจริงๆ ที่คุยกับคุณครูง่ายแบบนี้ "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อย่างที่ฉันบอกไปว่ามีสามคน และพวกเขาก็ไม่ได้ใส่ชุดนักเรียนของโรงเรียนในคิโวทอสด้วย และสามคนนั้นก็ไม่มีใครพกปืนติดตัวเลย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "และจากที่ฉันตรวจสอบมา ระหว่างที่ส่งตัวพวกเขามา หนึ่งในสามคนนั้น ถึงจะ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หมดสติ แต่ก็..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...ปล่อยไฟฟ้าออกมาได้"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม เสียงเหมือนที่เราได้ยินเมื่อกี้เลย"
+    },
+    {
+      "Text": "[s7] \"งะ... งั้นก็ไปตามเสียงนั้นก่อน! เร็วเข้า!!\""
+    },
+    {
+      "Text": "[s8] \"ทำไมเอาสิ่งที่สำคัญที่สุดมาพูดตอนท้ายล่ะ!!\""
+    },
+    {
+      "Text": "(คุณครูกับเอมิรีบวิ่งไปยังจุดที่เกิดเสียงระเบิด)"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เสียงน่าจะมาจากรอบๆ นี้นี่นา..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...อยู่ตรงนั้นไง คุณครู"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...เฮ้อ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "นี่มันที่แบบไหนกัน ทำไมไม่ว่าจะไปไหนก็เกิดเรื่องอยู่เรื่อยเลยนะ แล้วทำไมทุกคนถึงถือปืนกัน\nเหมือนเป็นเรื่องปกติเลยล่ะ..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...หืม?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "อะไรกัน ทำไมบรรยากาศเหมือนกับว่าคุณมีธุระอะไรจะคุยกับฉันเลย"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "แล้วก็... อีกคนหนึ่งก็คลับคล้ายคลับคลาว่าเคยเจอมาก่อน"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถูกต้องทั้งสองอย่างเลย ฉันมีธุระจะคุยด้วยก็เลยมาหาน่ะ แล้วเราก็เคยเจอกันมาก่อนแล้ว แต่ก็ไม่รู้\nหรอกนะว่าจะจำได้หรือเปล่า"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฉันคือคนที่ไปเจอพวกเธอในพื้นที่รกร้างแล้วพาออกมา แต่ว่าตอนนั้นสลบกันอยู่..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่คิดเลยนะว่าพอฟื้นกันแล้วก็จะออกมาก่อเรื่องกันแบบนี้เลย"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...?!"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "พูดอะไรแบบนั้น? ก่อเรื่องงั้นเหรอ ใครมาเห็นเข้าคงคิดว่าฉันไปสร้างปัญหาอะไรไว้มั้ง!"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ฉันก็แค่ป้องกันตัวเองนะ!? พวกเธอนี่ จู่ๆ ก็มากล่าวหาอะไรกันก็ไม่รู้..."
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "อึก... อึกกก... มะ... เมื่อกี้มันอะไรกัน..."
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "เหมือนมีเสียง เปรี๊ยะๆ... แล้วก็เกิดแรงอัดจนตัวลอย..."
+    },
+    {
+      "Text": "[s9] \"...พอจะเดาอะไรได้แล้ว\""
+    },
+    {
+      "Text": "[s10] \"ดีแล้วละที่ไม่เกิดเรื่องอะไร\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "... งั้นเหรอ พอเป็นนักเรียนที่เดินเตร็ดเตร่ตามถนนโดยไม่มีปืน เลยอาจดูแปลกๆ ตาได้สินะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "พูดอะไรอยู่คนเดียวตั้งแต่เมื่อกี้แล้ว... ใครจะไปฟังรู้เรื่องกันล่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "เอาเถอะ ดูจากที่เธอก็ถืออาวุธอะไรคล้ายๆ กันแล้ว แบบนี้ไม่น่าจะเข้ามาแค่เจรจาสินะ..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ถ้าเข้ามาทำอะไรละก็ ได้เจอดีแบบพวกนั้น..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...หืม?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "อะไรกัน ทำไมไฟฟ้าถึง..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "น่าจะเป็นเธอมากกว่านะที่เอาแต่คิดว่าจะต้องต่อสู้กันน่ะ"
+    },
+    {
+      "Text": "[s11] \"พวกเราไม่ได้จะมาต่อสู้หรอกนะ\""
+    },
+    {
+      "Text": "[s12] \"ครูว่าเราต้องคุยกันหลายๆ เรื่องเลยละ\""
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "หะ... หืม......?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "อืม... งะ... งั้นเหรอ...? ถ้างั้นพวกคุณคือ...?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ไม่สิ แล้วที่นี่มันที่ไหน? ฉันไม่เคยเห็นสถานที่แบบนี้ในเมืองแห่งการศึกษามาก่อนเลย"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ทำไมทุกคน... ถึงพกอาวุธที่คล้ายปืนติดตัว แล้วก็ยังมีอะไรแปลกๆ ลอยอยู่บนหัวอีก..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "นี่เป็นอะไรของอินเดียนโปกเกอร์..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ไม่สิ ไม่เหมือนกัน ถ้าเป็นอินเดียนโปกเกอร์ ตอนนี้ฉันคงไม่เป็นฉันแบบนี้ อะไรหลายๆ อย่างมันดูไม่\nเข้ากันเลย"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "นี่มันอะไรกัน...? มันไม่ใช่ความฝันจริงๆ เหรอเนี่ย? ถ้าไม่ใช่ความฝัน แล้วงั้น..."
+    },
+    {
+      "Text": "[s13] \"อินเดียนโปกเกอร์...?\""
+    },
+    {
+      "Text": "[s14] \"พูดอะไรอยู่คนเดียวน่ะ...\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "การพูดวกไปวนมาคนเดียวเป็นลักษณะพิเศษของคนที่มีความผิดปกติทางใจอยู่แล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าไม่ใช่อย่างนั้นละก็... คุณครู เหมือนว่าที่หัวหน้าพูดจะถูกจริงๆ นะ"
+    },
+    {
+      "Text": "[s15] \"รู้สึกเหมือนกับหลงทางมาเลย\""
+    },
+    {
+      "Text": "[s16] \"...ไม่ใช่ชาวคิโวทอสสินะ\""
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...หืม?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "... คุณครู... งั้นเหรอ?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ผู้ใหญ่คนนั้น..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "เป็นคุณครูงั้นเหรอ?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "คุณ... เป็นครูหรอกเหรอ?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "แล้วคนข้างๆ คนนั้นล่ะ...?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อิซุมิโมโตะ เอมิ ชั้นปีที่ 1 จากชมรมปรากฏการณ์ลี้ลับแห่งโรงเรียนวิทย์มิลเลเนียม"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "... เป็น... นักเรียน??"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ใส่ชุดนี้เนี้ยนะ... เป็นนักเรียน... งั้นเหรอ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...?"
+    },
+    {
+      "Text": "[s17] \"...เฮือก\""
+    },
+    {
+      "Text": "[s18] \"อย่าบอกนะว่าที่ 'ถาม' อยู่...\""
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...คนเป็นครูไปไหนมาไหนกับนักเรียนที่ใส่ 'ชุดแบบนี้' งั้นเหรอ!?"
+    },
+    {
+      "Text": "(...คุณครูเจอคำถามที่ลำบากใจจะตอบ แต่ก็ได้เจอกับหนึ่งในสามคนที่หายไปแล้ว)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "... งั้นเหรอ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พอจะเข้าใจสถานการณ์คร่าวๆ แล้วละค่ะ มันยากที่จะอธิบายเรื่องหลักการ แต่ก็คงหลีกเลี่ยงไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "สถานที่ที่เรียกว่าพื้นที่รกร้างของมิลเลเนียม เป็นที่ที่ทำให้เกิดเรื่องราวต่างๆ ที่ซับซ้อนและไม่ธรรมดา"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มัน 'ย้าย' ผู้คนจากโลกอื่นมายังโลกนี้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "บางทีเครื่องมือหรืออุปกรณ์บางอย่างที่อยู่ที่นั่นที่พวกฉันยังหาไม่เจอ มันน่าจะมีปฏิกิริยาทางพลังงาน\nน่ะค่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ถึงจะพูดด้วยสีหน้านิ่งๆ ก็เถอะ แต่นี่มันเรื่องใหญ่มากเลยไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ย้ายมายังโลกนี้? จากโลกอื่นเนี่ยนะ...? จะให้ฉันเชื่อเรื่องแบบนั้นได้ยังไง?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "พูดตามตรงนะ ฉันว่ามันค่อนข้างไร้สาระ น่าจะเป็นเรื่องที่แต่งมาเองมากกว่า"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ต่อให้ฉันจะยังไม่ค่อยเข้าใจสถานการณ์ตอนนี้ก็เถอะ แต่ก็..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตายจริง นี่คุณสงสัยในตัวฉันเหรอคะ? ฉันคือแฮ็กเกอร์สาวผู้มีรอยยิ้มสดใสเลยนะ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มันก็เข้าใจได้อยู่หรอกที่คำพูดหรือพฤติกรรมของหัวหน้าจะทำให้ฝ่ายตรงข้ามคิดแบบนั้น แต่น่าเสียดายที่ตอนนี้ไม่ใช่ เพราะฉันก็เห็นด้วยเหมือนกัน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอมิ...!?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "นอกจากเรื่องในครั้งนี้แล้ว ที่ผ่านมาชมรมปรากฏการณ์ลี้ลับของเราได้เจอกับ 'ปรากฏการณ์แปลกๆ' มาแล้วหลายรูปแบบ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ต่อให้มีมาเพิ่มอีกเรื่องหนึ่งตอนนี้ พวกเราก็ไม่ได้มองว่ามันเป็นสถานการณ์ที่น่าเหลือเชื่อหรอก"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ในทางกลับกัน สิ่งที่พิเศษไปกว่านั้น น่าจะเป็นคุณ..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...มิซากะ มิโคโตะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...การที่มิโคโตะเป็น 'ผู้ใช้พลังจิต' ที่ใช้ไฟฟ้าได้เป็นเรื่องที่น่าตกใจกว่าเสียอีก"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ฉันบอกชื่อนามสกุลเต็มไปเลยนะ แต่เรียกฉันง่ายๆ ด้วยชื่อ ไม่ใช่นามสกุลงั้นเหรอ..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "แต่ก็นะ คงไม่เป็นอะไรหรอก"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "เอาเถอะ สรุปว่ามีสถานที่สองแห่งที่คล้ายกัน แต่เป็นคนละเมืองแห่งการศึกษางั้นเหรอ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ถ้าอย่างนั้นที่นี่ก็ไม่มีผู้ใช้พลังจิต? แล้วก็ไม่มีศูนย์วิจัยหรือสถาบันที่พัฒนาอะไรแบบนั้นด้วย?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่างน้อยก็ไม่มีอะไรที่คล้ายกับที่พูดนะคะ การวิจัยสร้างผู้ใช้พลังจิตงั้นเหรอคะ พูดตามตรงเรื่องนี้\nมันน่าจะเกิดขึ้นได้ในจินตนาการมากกว่า"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ฉันไม่ได้คิดจะไม่ยอมรับหรอกนะ แต่การที่นักเรียนทุกคนมีอะไรแปลกๆ ลอยอยู่บนหัว และพกปืนกันทั่วก็ไม่ใช่เรื่องปกติหรือเปล่า"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตายจริง คิดแบบนั้นได้ยังไงกัน? การที่นักเรียนมีปืนมันเป็นเรื่องพื้นฐานอยู่แล้วไม่ใช่เหรอคะ? ว่าไหมคะ เอมิ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม ใช่สิ ไปถามคนอื่นก็ต้องพูดแบบนี้กันหมด"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "......????????????"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "อะไรเนี่ย...? สรุปแล้วคนที่แปลกก็คือฉันงั้นเหรอ...???"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และเรื่องที่พวกเรามีฮาโลลอยอยู่บนหัวน่ะ... ตอนนี้คุณมิโคโตะก็มีเหมือนกันนะคะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...หืม?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "หะ... หา!?  อะไรกัน มีจริงๆ ด้วย...!?  ฉันมีอะไรแบบนี้ตั้งแต่ตอนไหนเนี่ย!?"
+    },
+    {
+      "Text": "[s19] \"จะว่าไป! เห็นว่ายังมีอีกสองคนใช่ไหม?\""
+    },
+    {
+      "Text": "[s20] \"พอรู้ไหมว่าเพื่อนที่เหลือไปอยู่ไหน?\""
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "......?? เพื่อนที่เหลือ...? ไปอยู่ไหน?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "...อืม ไม่รู้สิ... ฉันพอจะจำได้รางๆ น่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ก่อนอื่นเลย สิ่งสุดท้ายที่ฉันจำได้ก่อนจะมาที่นี่ก็คือ ฉันใช้ 'อินเดียนโปกเกอร์' และตอนที่ใช้ ฉันก็อยู่คนเดียว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อินเดียนโปกเกอร์...?"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "อ่า อืม นั่นน่ะสินะ คนทางนี้คงไม่เคยได้ยินอะไรแบบนั้น"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าสิ่งที่เรียกว่าอินเดียนโปกเกอร์น่ะ ฉันรู้อยู่ แต่ว่าสำหรับที่นี่แล้ว มันเป็นแค่ประเภทเกมธรรมดาๆ เท่านั้น"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "สำหรับพวกฉัน โดยพื้นฐานแล้วมันก็คล้ายๆ กันอยู่..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "แต่แก่นสำคัญก็คือ พวกฉันมีเทคโนโลยีเฉพาะที่ทำขึ้นตามสิ่งนั้น และถ้าใช้เทคโนโลยีนั้น ก็จะสามารถเห็นความฝันที่คนอื่นเก็บเอาไว้ได้"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "เพราะแบบนี้ ตอนแรกฉันเลยคิดว่าที่นี่คือความฝันของใครสักคนน่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "ส่วนอีกสองคน... ฉันไม่รู้หรอกนะว่าเป็นใคร ต่างคนก็คงต่างไปร่ายอินเดียนโปกเกอร์จากคนละที่กัน\nจนเจอเรื่องคล้ายๆ แบบฉันน่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และผลที่เกิดจากสิ่งที่เรียกว่าอินเดียนโปกเกอร์ ก็เชื่อมต่อกับเครื่องมือเฉพาะบางอย่างในพื้นที่รกร้าง\nของมิลเลเนียม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่างนี้เองสินะ นี่เป็นเรื่องที่น่าสนุกไม่เบาเลยนะคะ? ฉันต้องศึกษาหาคำตอบอย่างจริงจังแล้วละค่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "น่าสนุกงั้นเหรอ นี่ฉันกำลังพัวพันกับเรื่องใหญ่เลยนะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "แต่ก็เอาเถอะ ยังไงก็ไม่จำเป็นต้องเป็นศัตรูกัน และต่อไปก็น่าจะต้องมาหาคำตอบด้วยกันว่า 'เครื่องมือ' อันนั้นคืออะไร ฉันจะได้กลับไปโลกของฉันได้..."
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "คิดว่าเราลงเรือลำเดียวกันแล้วกันเนอะ? งั้นให้ฉันทำอะไรดีล่ะ? ไปหาอีกสองคนที่เหลือเหรอ? งั้นฉันไปพื้นที่รกร้างมิลเลเนียมนะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันก็ดีหรอกนะคะที่คุณกระตือรือร้น แต่เรื่องเครื่องมือเอาไว้ก่อนก็ได้ค่ะ พื้นที่รกร้างของมิลเลเนียม\nนั้นกว้างใหญ่มาก ถ้าบุ่มบ่ามเข้าไปก็อาจจะประสบภัยอีกครั้งก็ได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เรื่องการตามหาอีกสองคนที่เหลือน่ะ... จริงด้วยนะคะ ถ้าฉันตั้งใจ ก็ไม่มีอะไรยากหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ในทางกลับกัน เรื่องด่วนที่เราต้องทำก่อนน่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "... เอมิ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม เข้าใจแล้ว"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เราได้คุยกันไว้ล่วงหน้าแล้ว ฉันว่าถ้าไปหาตอนนี้ก็น่าจะรับมาได้เลยค่ะ"
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "คุยเรื่องอะไรที่รู้กันเองอีกแล้วนะ เรื่องด่วนงั้นเหรอ? แล้วต้องไปรับอะไรด้วย นี่มันเรื่องอะไรกัน?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตามฉันมาก่อนเถอะ แล้วฉันจะอธิบายให้ฟังระหว่างเดินทาง"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่ก่อนที่จะไป ต่อให้เธอเป็นคนที่มาจากโลกอื่นก็เถอะ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่การเป็นจุดสนใจหรือทำตัวให้คนอื่นสนใจแบบนั้นทุกครั้งมันไม่ดีหรอกนะ เธอคงไม่อยากเป็นแบบนั้นใช่มั้ย?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าจะอยู่ในคิโวทอส ก่อนอื่นเธอก็ต้องทำตัวเป็นธรรมชาติให้เหมือนกับชาวคิโวทอส"
+    },
+    {
+      "Text": "[s21] \"... อ้อ อืม เข้าใจแล้ว\""
+    },
+    {
+      "Text": "[s22] \"เข้าเมืองตาหลิ่ว ต้องหลิ่วตาตาม... อะไรแบบนี้สินะ\""
+    },
+    {
+      "Name": "มิซากะ มิโคโตะ",
+      "Text": "......??  หมายความว่ายังไง..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตอนนี้มิโคโตะยังไม่มีสิ่งนั้น ก็เลยยังดูแปลกและน่าสะดุดตา ก็เลยเจอสถานการณ์แบบเมื่อกี้ไง"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "และเพื่อแก้ไขเรื่องนั้น..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "... เราก็เลยต้องไปเอา 'ของพื้นๆ' ของคิโวทอสมาน่ะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;麻煩製造者？"
+    },
+    {
+      "Text": "（接到英美的聯絡，於是前往了千年）"
+    },
+    {
+      "Name": "英美",
+      "Text": "……啊，老師，請往這邊。"
+    },
+    {
+      "Name": "英美",
+      "Text": "老師來的真準時。\n不必花費多餘的時間真是件好事。"
+    },
+    {
+      "Name": "英美",
+      "Text": "這裡面就是部長準備的病房，也是讓帶回來的遇難者暫時停留的場所。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……但是現在出了一點問題。"
+    },
+    {
+      "Text": "[s1]「……一點問題？」"
+    },
+    {
+      "Text": "[s2]「發生了什麼事嗎？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，我聯絡老師之後進行了一次確認……"
+    },
+    {
+      "Name": "英美",
+      "Text": "果然還是直接讓老師看看比較快吧。"
+    },
+    {
+      "Text": "[ns3]「嗯，這裡是……？」"
+    },
+    {
+      "Text": "[ns4]「一個人都沒有啊……？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "……這就是問題所在。"
+    },
+    {
+      "Name": "英美",
+      "Text": "聯絡老師之後回來一看，就發現這裡像老師現在看到的一樣空無一人。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯？還是不太明白？"
+    },
+    {
+      "Name": "英美",
+      "Text": "就是字面上的意思。\n本來應該睡在這裡的三個人全都不知去向了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "或許是醒來之後到外頭去了吧……"
+    },
+    {
+      "Name": "英美",
+      "Text": "問我有沒有告訴部長？當然有。\n不過從部長的聲音可以明顯聽出他很努力在維持冷靜。"
+    },
+    {
+      "Name": "英美",
+      "Text": "「可能什麼事都沒有，但也可能發生大事。」──"
+    },
+    {
+      "Name": "英美",
+      "Text": "──部長是這麼說的。\n簡單來說，他們都是來歷不明的人。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以部長要我跟老師會合後趕緊把那三個人都帶回來。"
+    },
+    {
+      "Name": "英美",
+      "Text": "如果老師願意的話，能請老師幫忙嗎？"
+    },
+    {
+      "Text": "[s5]「當然可以。以防萬一，我們趕緊行動吧。」"
+    },
+    {
+      "Text": "[s6]「那些人有什麼特徵嗎？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "跟老師溝通果然很有效率，真好。"
+    },
+    {
+      "Name": "英美",
+      "Text": "就如我之前所說，他們一共有三個人。\n身穿非奇普托斯學園的制服，並且三人手上都沒有槍。"
+    },
+    {
+      "Name": "英美",
+      "Text": "此外據我所知，三人當中的一人在移送過程中曾經無意識地……"
+    },
+    {
+      "Name": "英美",
+      "Text": "釋放出了……"
+    },
+    {
+      "Name": "英美",
+      "Text": "……電力。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，就像剛才聽到的一樣。"
+    },
+    {
+      "Text": "[s7]「先，先往聲音傳來的方向走吧！動作快！！」"
+    },
+    {
+      "Text": "[s8]「最重要的事怎麼最後才說！！」"
+    },
+    {
+      "Text": "（急忙和英美一起跑向傳出爆炸聲的地點）"
+    },
+    {
+      "Name": "英美",
+      "Text": "聲音確實是從這附近……"
+    },
+    {
+      "Name": "英美",
+      "Text": "……在那裡，老師。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "這裡到底是什麼地方，為什麼走到哪裡都有人來挑釁……\n而且所有人都理所當然地拿著槍……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "怎麼了？找我有事嗎？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "其中一個人……是不是在哪裡見過？"
+    },
+    {
+      "Name": "英美",
+      "Text": "兩個都對。我們的確有事找你，而且也確實見過面。\n沒想到你居然會有印象。"
+    },
+    {
+      "Name": "英美",
+      "Text": "在廢墟發現並把你們帶來這裡的人就是我。\n不過當時你們都沒有意識……"
+    },
+    {
+      "Name": "英美",
+      "Text": "想不到才剛醒來就這樣惹事。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……！？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "話不是這麼說的吧？要是別人聽到一定會誤以為是我造成的！！"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "這明顯是正當防衛好嗎！？\n還不是這些傢伙突然就……"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "呃，唔……剛，剛剛是怎麼回事……"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "好像聽見滋滋滋的聲音……而且還……砰了一聲……"
+    },
+    {
+      "Text": "[s9]「……好像能想像那個情境。」"
+    },
+    {
+      "Text": "[s10]「幸好大家都沒什麼大礙。」"
+    },
+    {
+      "Name": "英美",
+      "Text": "……確實。沒帶槍就走在路上的學生，看起來的確很顯眼。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "為什麼從剛才就一直自言自語……我完全聽不清楚你在說什麼。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "不過看你手上拿著那個東西，應該不是來聊天的吧……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "就像剛才那些傢伙一樣……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "搞什麼，為什麼能力……"
+    },
+    {
+      "Name": "英美",
+      "Text": "突然就想動手的好像是你吧……"
+    },
+    {
+      "Text": "[s11]「我們不是來打架的。」"
+    },
+    {
+      "Text": "[s12]「我們可能需要好好談談。」"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "呃，嗯……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "是，是嗎……？\n那……你們是誰？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "或者說，這裡到底是哪裡？\n我在學園都市從沒看過這種地方。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "大家好像……都拿著槍，頭上還飄著怪怪的東西……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "難道這也是印地安撲克的……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "不，應該不是。\n如果是印地安撲克的話，現在的我不應該存在才對，真搞不懂。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "到底是怎麼回事……？\n果然是夢嗎？如果不是的話究竟……"
+    },
+    {
+      "Text": "[s13]「印地安撲克……？」"
+    },
+    {
+      "Text": "[s14]「好像在自言自語……」"
+    },
+    {
+      "Name": "英美",
+      "Text": "語無倫次地自言自語是精神異常者的特徵。"
+    },
+    {
+      "Name": "英美",
+      "Text": "否則……\n老師，部長說的果然沒錯。"
+    },
+    {
+      "Text": "[s15]「確實有種迷路的感覺。」"
+    },
+    {
+      "Text": "[s16]「……這代表他們不是奇普托斯的人。」"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "他是……老師……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "那個大人……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "是老師？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "你……是老師嗎？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "那在你旁邊的是……？"
+    },
+    {
+      "Name": "英美",
+      "Text": "我是千年科學學園1年級，特異現象搜查部的和泉元英美。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……學……生？？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "穿成這樣……卻說是……學生？"
+    },
+    {
+      "Name": "英美",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s17]「……呃。」"
+    },
+    {
+      "Text": "[s18]「難道你現在想問的是『那個問題』……！？」"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……老師怎麼會跟「穿成這樣」的學生走在一起！？"
+    },
+    {
+      "Text": "（……被問了很難回答的問題，但總之先見到了三人中的其中一人）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……原來如此。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "情況我大致明白了。\n雖然要說明原理很困難，不過這也沒辦法。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "因為千年的廢墟……無論發生多麼不可思議的現象都不足為奇。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "話雖如此，居然讓其他世界的人「轉移」到了這個世界……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "或許是該處的某個我們尚未發現的設施產生了能量反應。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "雖然你一臉淡定，不過說的內容也太可怕了吧？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "別的世界？異世界轉移……？是要我相信那種話嗎？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "坦白講，你剛才所說的話……簡直荒謬到讓我覺得是不是隨口編出來的。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "雖然現在的狀況的確讓我摸不著頭緒就是了……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，你在質疑我這個超天才病弱美少女駭客所說的話嗎……？"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長的語氣和行為的確會讓人產生那種感覺。\n不過遺憾的是，那並不適用於現在的情況，因為我也同意部長的看法。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "英美……！？"
+    },
+    {
+      "Name": "英美",
+      "Text": "除了這次事件之外，我們特異現象搜查部至今已經接觸過無數的「異常現象」。"
+    },
+    {
+      "Name": "英美",
+      "Text": "因此就算再碰到什麼新的異常現象，對我們來說也不是難以接受的事。"
+    },
+    {
+      "Name": "英美",
+      "Text": "硬要說的話，我反而覺得你，那個……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……我叫御坂美琴。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……你是能操控電力的「超能力者」這件事，反而更讓我驚訝，美琴。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "雖然名字是我告訴你的沒錯，直接用名字稱呼別人會不會有點……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "算了，無所謂。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "總之……你們的意思是這裡雖然長得很像學園都市，實際上卻是另一個世界嗎？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "所以這裡沒有任何能力者？也沒有開發這類能力的研究團體或機關？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "至少就我所知，並沒有聽過類似的案例。\n而且你說開發超能力的實驗？老實說，這種事對我而言只存在於科幻故事當中。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "我沒有要否定的意思……不過像你們這種每個學生頭上都漂浮著奇怪的光環，\n還會沒事拿槍互相攻擊的世界，應該也沒普通到哪裡去吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，怎麼會呢？學生拿槍保護自己不是理所當然的事嗎？\n你說對吧，英美？"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，沒錯。不管你問誰，答案都是一樣的。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……？？？？？？？？？？？？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "什……麼？難道真正奇怪的人……是我？？？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "而且你雖然說頭上有光環這件事很奇怪……你現在頭上不也有光環嗎，美琴同學。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "咦咦！？還，還真的有……！？\n這東西是什麼時候冒出來的！？"
+    },
+    {
+      "Text": "[s19]「話說還有兩個人對吧？」"
+    },
+    {
+      "Text": "[s20]「你對其他兩人的去向有沒有什麼頭緒？」"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "……其他兩人？\n……頭緒？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "這個嘛……我的記憶並不是很清楚。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "只記得在來到這裡之前正在玩一種叫「印地安撲克」的東西……\n不過當時身邊並沒有其他人。"
+    },
+    {
+      "Name": "英美",
+      "Text": "印地安撲克……？"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "啊，也對，你們應該不知道吧？"
+    },
+    {
+      "Name": "英美",
+      "Text": "印地安撲克本身我們是知道，不過那在我們這裡只是一種普通的撲克牌遊戲。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "這點在我們那邊也是一樣的……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "但我們最近研發出了一種類似的新技術。\n只要利用它，我們就可以窺探別人預先儲存的夢。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "所以一開始我才會以為這裡應該也只是某個人的夢境──之類的地方。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "至於其他兩人……雖然不知道是誰，假如他們和我的情況一樣的話，\n我想他們本來應該也在某個地方玩印地安撲克吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "然而那名為印地安撲克的東西，卻和千年廢墟裡的某個設施產生了相互影響……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "原來如此，真是有趣。\n看來我們有必要認真找找那個設施了。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "有趣？我現在可是被捲入了一起不得了的事件裡耶。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "不過無論如何，既然我們沒有互相為敵的理由，\n而且就算是為了回到原本的世界，我也必須查清楚那個「設施」究竟是什麼……"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "也就是說，我們現在應該可以算是同一艘船上的夥伴吧？\n那我該做什麼好呢？找到其他兩個人？還是要先去一趟那個叫做千年廢墟的地方？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然態度積極是好事，不過設施那邊的事暫時還不要緊。\n況且千年廢墟腹地遼闊，要是貿然前往的話很可能會迷路的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "至於尋找其他兩人的事……只要我有心要找並不會很困難。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "所以眼下更重要的事情是……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……英美。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，知道了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我已經事先通知過，現在過去應該就能拿到東西了才對。"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "又在說一些我聽不懂的話了。\n重要的到底是什麼事啊？要去拿的東西又是什麼？"
+    },
+    {
+      "Name": "英美",
+      "Text": "總之先跟我們來吧。\n路上應該有足夠的時間跟你說明。"
+    },
+    {
+      "Name": "英美",
+      "Text": "不過在那之前，就算你是別的世界的訪客……"
+    },
+    {
+      "Name": "英美",
+      "Text": "要是像剛才一樣持續引起旁人注意的話，會大幅降低我們辦事的效率。\n我想美琴應該也不樂見發生這種情況吧？"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以如果你想要在奇普托斯自由地活動，就必須打扮得像奇普托斯的人一樣。"
+    },
+    {
+      "Text": "[s21]「……啊哈，原來如此，我明白了。」"
+    },
+    {
+      "Text": "[s22]「奇普托斯有奇普托斯的法則……是這個意思吧？」"
+    },
+    {
+      "Name": "御坂美琴",
+      "Text": "什麼意思……？？"
+    },
+    {
+      "Name": "英美",
+      "Text": "就是因為你身上缺少了那個東西，大家才會覺得你很奇怪、突兀，\n進而導致你被捲入剛才那樣的事件。"
+    },
+    {
+      "Name": "英美",
+      "Text": "為了解決這個問題……"
+    },
+    {
+      "Name": "英美",
+      "Text": "……我們要去取得奇普托斯的「常識」。"
+    }
+  ]
+}

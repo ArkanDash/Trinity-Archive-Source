@@ -1,0 +1,2322 @@
+{
+  "TitleJP": "最終戦：押し出しゲーム",
+  "TitleKR": "최종전: 밀어내기 게임",
+  "TitleEN": "Final Round: Knock-Out",
+  "TitleTH": "รอบสุดท้าย: เกมผลักตกน้ำ",
+  "TitleTW": "最終戰：推落對決",
+  "DescJP": "友達としてレンゲに応え、真剣勝負を挑むキキョウ。これまでの歩み、互いの成長を振り返りながら戦う中で、キキョウは自分だけでなく、応援してくれたみんなのためにも諦めないと語る。勝負を制したのはレンゲだったが、負けたキキョウも教わった泳ぎで海面へと上がり、成長した姿を周囲に見せるのだった。",
+  "DescKR": "백화요란의 명예와 우정을 위해 뜨거운 대결을 펼치는 키쿄와 렌게. 승자는 과연…….",
+  "DescEN": "The Hyakkaryouran hostility continues! Kikyou and Renge fight a heated duel of honor and friendship. And the winner is...",
+  "DescTH": "คิเคียวกับเรนเกะเปิดการต่อสู้อันดุเดือดเพื่อศักดิ์ศรีและมิตรภาพแห่ง\nเฮียกกะเรียวรัน ใครกันจะเป็นผู้ชนะ?",
+  "DescTW": "為了百花繚亂的榮譽與友情，桔梗與蓮華展開激烈對決。勝者究竟是……？",
+  "DialogJP": [
+    {
+      "Text": "第9話;最終戦：押し出しゲーム"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "皆さ～ん！まずは、100人から勝ち残った4人に拍手を！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "そしてここからは……4人が1人になる戦い……！\nその第1試合が始まります！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "青コーナー！神機妙算な策で相手を翻弄する、百花繚乱の作戦参謀！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "水が苦手という噂は本当なのか！？[ruby=きりゅう]桐生[/ruby]キキョウ！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "誰？その噂流してるの。"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "続いて赤コーナー！百花繚乱の突撃隊長にして猪突猛進の鬼教官！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "ピンク色のハートで青春を追いかけるのは……[ruby=ふわ]不破[/ruby]レンゲ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……誰だよ、この紹介文書いたの。"
+    },
+    {
+      "Text": "[ns] \"…………！？\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "先生？どうかしました？"
+    },
+    {
+      "Text": "[s] \"あ、いや、急に寒気がしただけ……。\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "そうですか……？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "まぁ、気を取り直して！選手のお二方。準備はよろしいですね……？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "いざ尋常に～\n――勝負！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……何だよ、仕掛けてこないのか？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "それはこっちのセリフ。\n丸腰の私なんて怖くないでしょう？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "へっ、無策のやつがそんな目するかよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……やっぱり諦めてなかったんだな？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……真剣勝負がしたいって言ったのはあんたでしょ？\nなら、それに応えるのが「友達」だからね。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "じゃ、正々堂々戦って、勝ちをもらうとしようかな。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "さあ？それはどうだろうね。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ふぅん？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "御託はもういいよ。来ないならこっちから行くけど。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そうこなくっちゃ。それなら――"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "直接確かめてやるよ……！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "さぁ始まりましたーっ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "へぇ、意外とやるじゃん。\n部屋で本ばっか読んでたやつの力じゃないな？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "体力作りぐらい、私だってしてるから。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "それに……力さえ上回れば私に勝てると思った？\n本当、昔から何も変わらないね。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "昔？どのぐらい昔だ？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "あれは七歳の時……\n一緒にブランコに乗って、どっちが高く漕げるか競争したよね。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……え？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "結果は私の勝ち。\nだってあなた、力任せに漕いでるだけだったもの。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "罰ゲームはたしか……一週間、お菓子を買いに行かされてたんだっけ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "い、いつの話をしてるんだよ！？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……今だけど！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ぐっ！？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "ここでキキョウ選手の足払いが決まったぁ！\nレンゲ選手、倒れてしまいました！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "このまま決めさせてもらうよ。"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "キキョウ選手、畳みかけます！\n寝技に持ち込まれたレンゲ選手、これは少々苦しいか～？"
+    },
+    {
+      "Text": "[ns] \"相手の動きを封じて、じわじわと体力を奪う作戦だ！\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "まるでこんがらがった糸のように相手を絡めとる動き！\nもがくレンゲ選手ですが抜け出せません！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "くっ、なかなかやるじゃん……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "でも、これで終わっちゃいられないよなっ……！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "完璧に押さえこんだと思ったのに。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "お前から学んだんだよ、頭を使って力を温存する方法をな。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それに、何を狙ってんのかも見ておきたかったし。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……レンゲも成長してるんだね。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "さっきの技、トライアングルチョークだったか？\nまさかあんな技まで仕込んでるとは思わなかったよ。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "あれは「あやとり」の応用よ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あんな「あやとり」があるかぁ！！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "複雑に絡み合うって意味では、似てるかも？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……まぁ、そういうことにしてあげるよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "で、次はどうするつもりだ？\n忠告しておくけど、同じ手は食わないからな？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "キキョウ先輩……戦うことを選んだんですのね。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "チームじゃなくて、自分のために戦ってる。嬉しいね。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですが、このまま持久戦になったら、やはりレンゲ先輩のほうが有利でしょうか……。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "状況的にはそうだね。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "でも……キキョウにとってはそうじゃないかもしれない。\nなにせキキョウは――"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "百花繚乱の作戦参謀！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "きっと奇策を駆使してレンゲ先輩の隙を突くはずですの！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……こういうのはどう？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "どこ踏んでるのさ。そこには何も……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "うわっ！？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "キキョウ選手！浮き島を揺らしてレンゲ選手の体勢を崩しましたっ！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "このまま押し出す……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "させないよ……！！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "はぁ……はぁ……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ふうぅぅぅ……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……なあ、どうして急に本気で戦う気になったんだ？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "レンゲが真剣に戦いたいって言ったから。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それだけじゃないだろ？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "それは……。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……諦めたくなかったの。もう、私一人の戦いじゃない。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……どういう意味だ？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "もちろん、最初は棄権しようと思ってた。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ここでレンゲに勝ちを譲れば、百花繚乱としては優勝に近づくから。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "でも……よくよく考えたら、それじゃダメだって気づいたの。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "……みんなが、こんな私を応援してくれた。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ナグサ先輩、ユカリ。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "力を貸してくれたみんな。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "先生と、たくさんの観客。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "あとは……レンゲ、あんたも。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "私は自分の弱さを隠すために必死になってた。\nそれでも、そんな私をみんなは応援してくれた。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "だから……最後まで諦めない。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "百花繚乱の誇りにかけて。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "私を信じてくれたみんなに応えるために。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "レンゲと私――みんなとの「友情」のために。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そう！それだよそれ！\nやっとらしくなってきたじゃん！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それじゃ、続きをやろうか。こっからは……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "青春の時間だよ！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "す、凄まじい戦いです！目が追い付きません……！"
+    },
+    {
+      "Text": "[ns1] \"「力」のレンゲか！\""
+    },
+    {
+      "Text": "[ns2] \"「技」のキキョウか！\""
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "くっ……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "これで……決める！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "絶対に……負けない！"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "あれは……！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "なんと……！！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "この勝負の行方は……！？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "勝者は……！"
+    },
+    {
+      "Text": "[ns] \"[ruby=ふわ]不破[/ruby]レンゲ……！\""
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "（……）"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "（……そっか。負けちゃったんだ、私）"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "（体が重い。このまま、海の底へ沈んでいくみたい……）"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "（……でも、ここで終わるわけにはいかない。\nレンゲに教えてもらったんだから）"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "（証明するんだ。私も、やればできるんだって……！）"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ぷはぁっ……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "おっ、うまくなってるじゃん！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ふうぅぅぅ……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "これで、もう水は怖くないな。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "うん、まだぎこちないけど。"
+    },
+    {
+      "Text": "[ns] \"二人とも、最高だったよ！\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "感動的な試合でしたわ……！"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "本当にお疲れ様。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "みんな……ありがとう。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;최종전: 밀어내기 게임"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "여러분~! 우선, 100인 중 살아남은 4인에게 박수를!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "그리고 여기서부터는…… 4인 중 1인만이 남는 싸움……! \n그 첫 번째 경기가 시작됩니다!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "먼저 청코너! 신기묘산의 수로 상대를 제압하는 백화요란의 작전참모!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "물을 무서워한다는 소문은 정말일까?! 키류 키쿄!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "누구야? 그 소문을 퍼트린 게."
+    },
+    {
+      "Name": "시즈코",
+      "Text": "홍코너! 백화요란의 돌격대장이자 저돌맹진의 귀신교관!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "동시에 핑크빛 마음으로 청춘을 좇는 소녀! 후와~ 렌게!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……누구야, 저 소개문 적은 사람."
+    },
+    {
+      "Text": "[ns] \"……?!\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "선생님? 갑자기 왜 그러세요?"
+    },
+    {
+      "Text": "[s] \"아, 아무것도 아니야. 갑자기 오한이 느껴져서.\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "으음……?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "아무튼 이제 경기를 시작할게요! 선수들! 자리에 서주시고……!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "자, 정정당당하게― 승부!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "뭐야? 안 덤비는 거야?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그건 내가 할 말인데. 왜 가만히 있어? 나는 무방비 상태라고."
+    },
+    {
+      "Name": "렌게",
+      "Text": "헹, 무방비한 사람이 그런 눈빛을 하고 있겠냐고."
+    },
+    {
+      "Name": "렌게",
+      "Text": "너…… 포기하지 않았구나?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……진지하게 싸우고 싶다며? 그렇다면 그 마음에 응하는 게 친구의 도리겠지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그럼, 정정당당히 싸워서 이겨보도록 할까."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "글쎄? 내가 보기엔 오히려 이쪽이 유리한걸."
+    },
+    {
+      "Name": "렌게",
+      "Text": "어떤 면에서?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "잡답은 이제 됐어. 안 올 거면 이쪽에서 갈게."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그래? 그럼 어디……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "직접 몸으로 확인해 볼까……!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "자 시작했습니닷!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "오, 뭐야? 방에서 책만 읽던 녀석의 힘이 아닌데?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "체력 단련이라면 나도 꾸준히 했거든."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그나저나…… 힘이라면 날 이길 수 있다고 생각했나 봐? 정말 어렸을 때부터 하나도 안 변했네."
+    },
+    {
+      "Name": "렌게",
+      "Text": "어렸을 때?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "일곱 살 때, 같이 그네를 타다가 누가 더 높이 올라가는지 경쟁했던 거 기억 나?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……어?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "후후, 결국 내가 이겼지. 넌 힘만으로 그네를 밀고 있었으니까."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그때 나한테 져서 일주일 동안 과자 심부름했던 것도 기억나?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "어, 언제 적 이야기를 하는 거야!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……바로 지금 이야기!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "큭?!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "오……! 키쿄 선수! 렌게 선수의 다리를 걸어 넘어뜨립니다!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "이대로 승기를 굳히겠어……!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "키쿄 선수! 렌게 선수를 다리로 감싸 누르기 시작했습니다!"
+    },
+    {
+      "Text": "[ns] \"상대의 힘을 빼서 바다에 빠뜨릴 생각이야!\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "엉킨 실타래처럼 상대를 옭아매는 기술! 과연 렌게 선수는 빠져나올 수 있을 것인가!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "크윽, 제법 잔머리를……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "하지만 이렇게 밀릴까 보냐! 으랴아앗……!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "거기서 일어났다고……?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "잔머리 쓰는 건 너한테 배워서 말이야. 적당히 힘을 아껴서 밀리는 척해 봤지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "네가 어떻게 나올까 궁금했거든."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……단순히 힘만 좋은 건 아니었구나. 너도 꽤 발전했어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "방금 그건 트라이앵글 초크였나? 네가 그런 기술까지 익혔을 줄은 몰랐네."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "실뜨기의 기초거든."
+    },
+    {
+      "Name": "렌게",
+      "Text": "세상에 그런 실뜨기가 어디 있어!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "상대를 옭아맨다는 점에선 비슷하지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "후우, 뭐 그렇다 치자고."
+    },
+    {
+      "Name": "렌게",
+      "Text": "다음엔 어떻게 나올 거야? 경고하지만 같은 수는 안 통해……!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "키쿄 선배…… 역시 기권하지 않으시는군요."
+    },
+    {
+      "Name": "나구사",
+      "Text": "응. 정말 다행이네. 팀이 아니라 자신을 위해 싸워줘서."
+    },
+    {
+      "Name": "유카리",
+      "Text": "하지만 이대로 싸움이 이어지면 렌게 선배가 유리한 것 아니어요?"
+    },
+    {
+      "Name": "나구사",
+      "Text": "응. 모든 정황이 렌게에게 유리한 건 사실이야."
+    },
+    {
+      "Name": "나구사",
+      "Text": "하지만…… 키쿄에게 있어서는 그렇지 않을지도 몰라. \n왜냐면 키쿄는……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "백화요란의 작전참모!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "분명 신기묘산의 수로 상대의 허를 찌르실 것이어요!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "빈틈……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "어딜 밟는 거야? 거기는 바닥……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "우왓?!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "아! 키쿄 선수! 바닥의 탄성을 이용해 렌게 선수의 중심을 무너뜨렸습니다!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "이대로 밀어 떨어뜨려 주겠어……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "순순히 당할까 보냐……!!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "하아, 하아, 하아……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "후우우우우……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "이제 와서 새삼 궁금해졌는데 말이야, 왜 기권할 것처럼 말하다가 갑자기 진지하게 싸우는 거야?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "말했잖아. 네가 진지하게 싸우고 싶다 했으니까."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그런 이유만은 아닌 것 같은데?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그건……."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……쉽게 포기할 수 없었어. 이건 나만의 싸움이 아니니까."
+    },
+    {
+      "Name": "렌게",
+      "Text": "응? 너만의 싸움이 아니라고?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "솔직히 말해서 처음엔 포기하려 했어."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "여기서 너에게 승리를 양보해 팀에게 유리한 선택을 하자고."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "하지만…… 곰곰이 생각해 보니 그러면 안 될 것 같더라."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……모두가 부족한 날 응원해 줬어."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "나구사 선배, 유카리."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "힘을 빌려줬던 사람들."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "선생님과 수많은 관객."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "마지막으로, 렌게 너까지."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "난 약점을 숨기기 위해 모두를 속였어. 하지만 다들 이런 날 계속 응원해 줬지."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그러니까…… 끝까지 포기하지 않을 거야."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "백화요란의 명예로운 승리를 위해서."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "나를 믿고 응원해 준, 많은 사람들의 마음에 보답하기 위해서."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "마지막으로 너와 나, 모두와의 우정을 위해서."
+    },
+    {
+      "Name": "렌게",
+      "Text": "핫……! 그렇게 나와야지!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그럼, 계속해 볼까. 이제부터는……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "청춘의 시간이야!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "정말로 치열한 접전입니다! 누가 이길지 예측 불가!"
+    },
+    {
+      "Text": "[ns1] \"과연! 힘의 렌게인가!\""
+    },
+    {
+      "Text": "[ns2] \"기교의 키쿄인가!\""
+    },
+    {
+      "Name": "키쿄",
+      "Text": "크윽……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "이걸로 내 승리야……!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "절대로…… 지지 않아!"
+    },
+    {
+      "Name": "나구사",
+      "Text": "저건……!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "선배들……!!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "과연 이 승부의 행방은……!!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "승자……!"
+    },
+    {
+      "Text": "[ns] \"후와 렌게……!\""
+    },
+    {
+      "Name": "키쿄",
+      "Text": "(…….)"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "(……그런가. 져버렸구나, 나.)"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "(몸이 무거워. 이대로 밑바닥에 가라앉는 기분이야.)"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "(……하지만 그럴 순 없지. 렌게에게 배웠잖아?)"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "(보여주는 거야. 나도 할 수 있다는 걸……!)"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "푸하아앗……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "오, 이제 잘하잖아!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "후우우우우……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "이제 물 무섭지 않나 봐."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "응, 아직 어색하지만."
+    },
+    {
+      "Text": "[ns] \"최고다! 둘 다!\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "선배들……! 정말 멋진 경기였사와요……!!"
+    },
+    {
+      "Name": "나구사",
+      "Text": "정말 모두 수고했어."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "정말…… 고마워. 모두."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;Final Round: Knock-Out"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And welcome back, everyone! Please give a warm round of applause to our remaining players! Out of the original 100, only these four remain!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Who will be the last one standing amongst these stand-out competitors? There's only one way to find out!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "First off, we have the operations officer of the Hyakkaryouran. Her enemies shake in their boots when she comes on the scene, for her tactical skills fall second to no one!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "The incomparable Kiryuu Kikyou! But is it true that this flawless tactician is afraid of water?!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And who, precisely, is spreading such rumors?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And of course, we have the Hyakkaryouran's assault squad Captain! She's a force of nature who's known for her \"Act first, think later,\" policies!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "But at her core, she's a girl just like the rest of us, searching desperately for the meaning of \"youth\" with her innocent heart! Fuwa Renge!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Who is writing these introductions?"
+    },
+    {
+      "Text": "[ns] \"...?!\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Sensei? What's wrong?"
+    },
+    {
+      "Text": "[s] \"N-Nothing. I just felt a chill, but it must have been the wind.\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Hm...?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "W-Well, anyways! Let's get this match underway! Players, to your positions!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Now, a fair and square showdown! Let's begin!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "So? Come at me!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Those are my words. I'm utterly defenseless, so why are you standing there listlessly?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Bah! You don't look defenseless to me at all!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "You...haven't given up."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "How could I? I couldn't call myself a friend if I met your sincerity with underhanded tactics."
+    },
+    {
+      "Name": "Renge",
+      "Text": "That's right. I'm going to win this, fair and square."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Is that so? I do believe I have the upper hand here."
+    },
+    {
+      "Name": "Renge",
+      "Text": "What makes you say that?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "A tactician never reveals her secrets. If you won't come, then I will."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Oh, yeah?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Then I'll just have to find out for myself!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And it's begun!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Hm? I wouldn't expect a bookworm like you to put up such a fight!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I am of the Hyakkaryouran. I would never neglect my physical training."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And your problem remains the same as it always was, even when we were children. You maintain your philosophy of brute force, no matter the situation."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Huh? What about when we were kids?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Do you recall our swinging competition when we were seven? To see who could swing higher?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Fufu. Perhaps you've blocked the memory. I won, because you did as you always do. You relied purely on your strength."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I can still recall the taste of the snacks you bought me for an entire week as punishment."
+    },
+    {
+      "Name": "Renge",
+      "Text": "That's ancient history!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Haven't you heard? History repeats itself!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Ugh?!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Oh my gosh! In a swift move, Kikyou kicks out Renge's feet from under her and knocks her down!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And with this...!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "She's wrapped her legs around Renge and has her in a tight hold! Ah! She's taking her down!"
+    },
+    {
+      "Text": "[ns] \"Her plan must be to drain Renge's strength and push her off!\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "It's no easy task to get out of a hold like this one! Will Renge be able to break free?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Ugh! You and your big brain!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "But don't think I'll go down without a fight! Get off!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Ugh. How did you get out...?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "I'm not the same kid who couldn't figure out how to swing higher! I learned from the best, after all. I held back some of my strength, in case you did something like that."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I wanted to see what you were planning first."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...You're right. It seems a few neurons are firing in that musclehead of yours."
+    },
+    {
+      "Name": "Renge",
+      "Text": "What about you? Since when can you do a triangle choke?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "It's one of the fundamentals of knitting."
+    },
+    {
+      "Name": "Renge",
+      "Text": "What kind of knitting have you been doing?!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...I knitted my target."
+    },
+    {
+      "Name": "Renge",
+      "Text": "*sigh* I guess it makes sense to you."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I hope you have a few other tricks up your sleeve, because that won't work on me again!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I knew Kikyou would not surrender so easily!"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "I'm happy to see her fight, not for the sake of others, but for herself."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "However, the physical nature of this brawl sways the balance in Renge's favor, does it not?"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "That is true. Some would say the scales are tipped towards her."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "However, they fail to realize one thing about Kiryuu Kikyou."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "She is the operations officer of the Hyakkaryouran!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "And she comes second to no one in her tactical skills!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...You're exposed."
+    },
+    {
+      "Name": "Renge",
+      "Text": "What're you doing? The floor..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Gah?!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Ah! How smart! Kikyou utilized the platform's elasticity to whip herself forward! And Renge's off balance!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I will push you off!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "I won't let you...!!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "*huff* *puff* *huff*"
+    },
+    {
+      "Name": "Renge",
+      "Text": "*wheeeeze*"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Tell me something. What happened? You seemed hell-bent on giving up earlier."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "As I said. I simply answered your call."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Is that really it?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "That's..."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...It wasn't my fight to surrender, in the end."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Huh? What do you mean by that?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I had every intention of bowing out as soon as the match began."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "My duty is to the Hyakkaryouran. Always."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "This time, however... This time, I felt I was beholden to more than simply our team."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...I felt my duty was to those who placed their faith in me, despite all that I lacked."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "To Nagusa and Yukari."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "To those who lent me aid."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "To Sensei and the audience."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And...to you, Renge."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I deceived everyone for my own, selfish reasons. Yet, no one turned their back on me."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "So I will not—cannot give up here."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "For the sake of the Hyakkaryouran's honor."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And for all those who have pushed me forward."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And for our friendship. All of ours."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Hah! That's what I like to hear."
+    },
+    {
+      "Name": "Renge",
+      "Text": "From here on out..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "This is our blazing youth!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "I'm completely enraptured! It's anyone's game at this point!"
+    },
+    {
+      "Text": "[ns1] \"Will it be Renge's overwhelming power...\""
+    },
+    {
+      "Text": "[ns2] \"...or Kikyou's infallible technique?!\""
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Ugh...!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Take this!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I...will! Not! Lose!"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "That's...!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Kikyou! Renge...!!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Just who will come out on top?!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And the winner is..."
+    },
+    {
+      "Text": "[ns] \"Fuwa Renge!\""
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "(...)"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "(...I see. I lost.)"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "(I can feel myself sinking. My limbs are leaden with exhaustion.)"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "(...However, I can't let Renge's efforts go to waste.)"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "(I want to show her...)"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "*gasp*"
+    },
+    {
+      "Name": "Renge",
+      "Text": "You were swimming like a pro!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "*wheeeze*"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Is it safe to say you're not afraid of water anymore?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I suppose you could say that."
+    },
+    {
+      "Text": "[ns] \"You're the best! Both of you!\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "My upperclassmen are simply dazzling! I am in utter awe!"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "Excellent work, you two."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Thank you...everyone."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;รอบสุดท้าย: เกมผลักตกน้ำ"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ทุกคนคะ~! ขอเสียงปรบมือให้ 4 ผู้เข้าแข่งขันที่อยู่รอดจากทั้งหมด 100 คนด้วยค่ะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "และจากนี้เป็นต้นไป... เราจะต่อสู้เพื่อหาผู้ชนะเพียงคนเดียวจาก 4 คน...! \nเราจะเริ่มการแข่งขันคู่แรกเลยค่ะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เริ่มจากมุมน้ำเงิน! ที่ปรึกษายุทธศาสตร์ของเฮียกกะเรียวรันที่ปราบคู่ต่อสู้ด้วยกลยุทธ์ที่มหัศจรรย์\nและชาญฉลาด!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "จริงหรือเปล่าคะที่เขาลือกันว่าคุณกลัวน้ำ?! คุณคิริว คิเคียว!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ใครเป็นคนปล่อยข่าวลือน่ะ?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "มุมแดง! หัวหน้าหน่วยจู่โจมและผู้ฝึกอสูรที่แน่วแน่ของเฮียกกะเรียวรัน!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ในขณะเดียวกันก็ใฝ่ฝันถึงการเป็นวัยรุ่นด้วยหัวใจสดใสสีชมพู! ฟูวะ~ เรนเกะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ใครเป็นคนเขียนบทให้เนี่ย...?"
+    },
+    {
+      "Text": "[ns] \"......?!\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "คุณครู? จู่ๆ เป็นอะไรไปเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"มะ... ไม่มีอะไรมากหรอก ครูแค่รู้สึกเสียวสันหลังขึ้นมาน่ะ\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เอาละค่ะ มาเริ่มเกมกันเลยดีกว่า! เชิญผู้เข้าแข่งขันยืนประจำตำแหน่งเลยค่ะ...!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เอาละ เปิดศึกประชันกัน~ อย่างยุติธรรม!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อะไรกัน? ไม่บุกเข้ามาเหรอ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันต่างหากล่ะที่ต้องถามอย่างนั้น ทำไมเอาแต่ยืนนิ่งล่ะ? ฉันไม่ได้ป้องกันตัวเลยนะตอนนี้"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เฮอะ คนที่ไม่ได้ป้องกันตัวเลยไม่มีทางมองกันด้วยแววตาแบบนั้นหรอก"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เธอ... ไม่ได้ยอมแพ้สินะ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ไหนว่าอยากสู้จริงจังไงล่ะ...? งั้นเพื่อนอย่างฉันก็ต้องตอบสนองต่อความรู้สึกนั้นให้สิ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "งั้นเรามาสู้และเอาชนะอย่างยุติธรรมกันเถอะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "อืม... แต่ฉันว่าฉันได้เปรียบกว่านะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ในเรื่องไหนเหรอ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เลิกคุยยื้อเวลากันได้แล้ว ถ้าเธอไม่บุกเข้ามา ฉันจะบุกเข้าไปเอง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "งั้นเหรอ? ก็ลองดูสิ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "มาพิสูจน์ด้วยฝีมือกันเลย...!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เอาละ เริ่มแล้วค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "โอ้ อะไรกัน? เด็กที่เอาแต่อ่านหนังสืออยู่แต่ในห้องไม่น่าจะแรงดีแบบนี้นี่นา?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันฝึกร่างกายอยู่ตลอดเถอะนะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ว่าแต่... คิดว่าจะชนะฉันด้วยพละกำลังได้งั้นเหรอ? ตอนเด็กเธอเป็นยังไง ตอนนี้ก็ยังเหมือนเดิมไม่เปลี่ยนเลยนะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ตอนเด็กงั้นเหรอ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ยังจำได้หรือเปล่าล่ะ? ตอนเรา 7 ขวบ เราเคยแข่งกันว่าใครจะไกวชิงช้าได้สูงกว่ากัน"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฮุฮุ สุดท้ายฉันก็ชนะ เพราะเธอเอาแต่เหวี่ยงด้วยแรงกายเท่านั้นน่ะสิ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ตอนนั้นเธอแพ้ฉันจนต้องไปซื้อขนมมาให้ฉันเป็นอาทิตย์เลย จำไม่ได้เหรอ?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นะ... นั่นมันเรื่องตั้งแต่ตอนไหน!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ตอนนี้ไงล่ะ...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อึก?!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "โอ้...! ผู้เข้าแข่งขันคิเคียวกวาดขาผู้เข้าแข่งขันเรนเกะจนล้มลงไปแล้วค่ะ!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ขอปิดจบละนะ...!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ผู้เข้าแข่งขันคิเคียวเอาขาเกี่ยวผู้เข้าแข่งขันเรนเกะไว้แล้วค่ะ!"
+    },
+    {
+      "Text": "[ns] \"จะทำให้คู่ต่อสู้หมดแรงแล้วโยนลงทะเลสินะ!\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "กลยุทธ์รัดคู่ต่อสู้เหมือนการเล่นพันด้าย! ผู้เข้าแข่งขันเรนเกะจะหลุดออกมาได้หรือเปล่า!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อึก... ใช้กลอุบายที่แยบยลงั้นเหรอ...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แต่คิดว่าฉันจะยอมให้ง่ายๆ หรือไง! ย้ากก...!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ลุกขึ้นมาได้งั้นเหรอ...?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เห็นอย่างนี้ฉันเรียนรู้การใช้กลอุบายมาจากเธอนะ ฉันแค่แกล้งติดกับเพื่อรักษาแรงของตัวเองเอาไว้\nต่างหากล่ะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แล้วฉันก็อยากรู้ด้วยว่าเธอจะมาไม้ไหน"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "การมีดีแค่พละกำลังก็ไม่ใช่เรื่องดีเสมอไป... เธอเองก็พัฒนาขึ้นมากเลยนะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เมื่อกี้คือท่าไทรแองเกิลโช้กใช่มั้ย? ไม่ยักรู้เลยนะว่าเธอก็เรียนศิลปะการป้องกันตัวแบบนั้นมาด้วย"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "มันเป็นพื้นฐานของการเล่นพันด้ายน่ะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "การเล่นพันด้ายแบบนั้นมีที่ไหนกัน!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "มันคล้ายกันตรงที่เรารัดฝ่ายตรงข้ามไว้ได้ไง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เฮอะ ถ้าเธอจะว่าอย่างนั้นละก็นะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แล้วต่อไปจะงัดอะไรมาสู้? ขอเตือนไว้เลยนะว่าวิธีเดิมน่ะใช้ไม่ได้ผลหรอก...!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่คิเคียว... ไม่ยอมแพ้ให้จริงๆ ด้วยสินะเจ้าคะ"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "อื้อ ค่อยยังชั่วนะที่คิเคียวเลือกสู้เพื่อตัวเองมากกว่าเพื่อทีม"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่ถ้าการต่อสู้ดำเนินไปแบบนี้ รุ่นพี่เรนเกะจะยิ่งได้เปรียบกว่าหรือเปล่าเจ้าคะ?"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ใช่แล้วละ ทุกสถานการณ์ล้วนเป็นผลดีกับเรนเกะหมดเลย"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "แต่ว่า... คิเคียวอาจไม่คิดอย่างนั้นก็ได้ นั่นก็เพราะว่า คิเคียวคือ..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ที่ปรึกษายุทธศาสตร์ของเฮียกกะเรียวรัน!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่คิเคียวต้องใช้กลยุทธ์ที่มหัศจรรย์และชาญฉลาดแน่นอนเจ้าค่ะ!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เจอช่องโหว่...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เหยียบอะไรของเธอน่ะ? ตรงนั้นมันพื้น..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เหวอ?!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "อ๊ะ! ผู้เข้าแข่งขันคิเคียวใช้ประโยชน์จากความยืดหยุ่นของพื้น จนทำให้ผู้เข้าแข่งขันเรนเกะเสียหลัก\nไปแล้วค่ะ!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ขอผลักลงทะเลทั้งอย่างนี้ละนะ...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "คิดว่าฉันจะยอมตกไปง่ายๆ เหรอ...!!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "แฮ่ก... แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฮู่วววว..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "พอคิดดูแล้วก็น่าสงสัยนะ ทำไมพูดเหมือนคนจะยอมแพ้ แต่พอแข่งเข้าจริงๆ ก็เข้าโหมดจริงจังขึ้นมา\nซะงั้น?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ก็เธอเป็นคนบอกเองนี่ว่าอยากสู้แบบจริงจัง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นั่นไม่น่าจะใช่เหตุผลทั้งหมดนะ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เหตุผลก็คือ..."
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันยอมแพ้ง่ายๆ ไม่ได้น่ะ... เพราะนี่ไม่ได้เป็นแค่การต่อสู้ของฉัน"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "หืม? ไม่ใช่แค่การต่อสู้ของเธองั้นเหรอ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "บอกตามตรงว่าตอนแรกฉันก็ตั้งใจจะยอมแพ้"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันจะถอยให้เธอชนะ แล้วเลือกสิ่งที่เป็นประโยชน์ต่อเฮียกกะเรียวรันมากกว่า"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "แต่ว่า... พอมาคิดทบทวนดูแล้ว การทำแบบนั้นมันไม่ถูกต้อง"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ถึงฉันจะยังบกพร่องอยู่มาก แต่ทุกคนก็เชียร์ฉัน..."
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ทั้งรุ่นพี่นางุสะ ยูคาริ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "คนอื่นที่คอยให้กำลังใจฉัน"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "คุณครูและผู้ชมมากมาย"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "สุดท้ายก็... เธอด้วยไงล่ะ เรนเกะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันโกหกทุกคนเพื่อปกปิดจุดอ่อนของตัวเอง ถึงอย่างนั้นทุกคนก็ยังเชียร์ฉันคนนี้"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เพราะงั้น... ฉันจะไม่ยอมแพ้หรอก"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เพื่อชัยชนะที่สมศักดิ์ศรีของเฮียกกะเรียวรัน"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เพื่อตอบแทนคนเหล่านั้นที่เชื่อมั่นในตัวฉัน"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "และสุดท้าย เพื่อมิตรภาพของฉันกับเธอ และของทุกคน"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฮึ่ม...! ต้องแบบนี้สิ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ดีละ งั้นก็มาต่อกันเลย จากนี้ไป..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "คือช่วงเวลาของวัยรุ่น!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เป็นการต่อสู้ที่ห้ำหั่นกันจริงๆ เลยค่ะ! เดาไม่ออกเลยว่าใครจะชนะ!"
+    },
+    {
+      "Text": "[ns1] \"จะเป็นเรนเกะที่มากับพละกำลัง!\""
+    },
+    {
+      "Text": "[ns2] \"หรือเป็นคิเคียวที่มากับกลยุทธ์!\""
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "อึก...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แบบนี้ฉันชนะแน่นอน...!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันไม่... แพ้ให้เด็ดขาด!"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "นั่นมัน...!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่ทั้งสองคน...!!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ใครกันที่จะเป็นผู้ชนะ...!!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "และผู้ชนะก็คือ...!"
+    },
+    {
+      "Text": "[ns] \"ฟูวะ เรนเกะ...!\""
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "(...)"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "(เป็นอย่างนี้สินะ... ฉันแพ้เข้าให้แล้ว)"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "(รู้สึกหนักตัวจัง ราวกับว่าจะจมไปจนถึงพื้นเลย)"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "(แต่จะให้เป็นแบบนี้ไม่ได้สิ... ฉันเรียนจากเรนเกะมาแล้วนี่นา)"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "(ต้องทำให้เห็นสิ ว่าฉันก็ทำได้เหมือนกัน...!)"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "เฮือกกก...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "โอ้ ทำได้แล้วนี่!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฮู่วววว..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ตอนนี้คงไม่กลัวน้ำแล้วสินะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "อื้อ ถึงจะยังเกร็งๆ อยู่ก็เถอะ"
+    },
+    {
+      "Text": "[ns] \"ทั้งคู่ยอดเยี่ยมมากเลย!\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่...! เป็นการแข่งขันที่วิเศษมากเจ้าค่ะ...!!"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ทุกคนทำได้ดีมาก"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ขอบใจ... จริงๆ นะ ทุกคน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;最終戰：推落對決"
+    },
+    {
+      "Name": "靜子",
+      "Text": "讓各位觀眾久等了～！\n首先，請大家給從100人之中脫穎而出的4名選手們一個熱情的掌聲！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "接下來的戰鬥，將持續到只剩下1個人為止……！\n第一場比賽即將開始！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "首先是藍方！\n擅長以神機妙算的戰術壓制對手，百花繚亂的作戰參謀！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "有傳聞表示他十分怕水，究竟是否屬實呢！？\n有請桐生桔梗！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "到底是誰散播那種謠言的。"
+    },
+    {
+      "Name": "靜子",
+      "Text": "再來是紅方！百花繚亂的突擊隊長，豬突猛進的鬼教官！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "同時也是追逐粉紅青春的花樣少女！不破～蓮華！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……這誰寫的介紹詞啊。"
+    },
+    {
+      "Text": "[ns]「……！？」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "老師？怎麼了嗎？"
+    },
+    {
+      "Text": "[s]「沒，沒事。只是突然打了個冷顫而已。」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "嗯……？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "總之比賽即將開始！請選手們就位……！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "好，依照慣例──光明正大～一決勝負！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "怎麼？不打算先攻嗎？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "這是我要說的話。\n為什麼站著不動？我現在可是毫無防備哦。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哼，毫無防備的人會露出那種眼神嗎？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你……果然沒打算主動放棄啊？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……你不是說想認真打一場嗎？\n那麼回應那份心意，就是朋友應盡的本分。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "既然如此，我就來光明正大地贏下這場比賽吧。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "是嗎？我倒覺得優勢在我呢。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "怎麼說？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "閒話就到此為止。\n你不過來的話，我可要先上了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "是嗎？那就……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "用身體直接確認吧……！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "比賽開始了！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哦？怎麼，這種力量可不像是只待在房裡看書的傢伙會有的啊？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "體能鍛鍊我也一直有在做。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "而且……你該不會以為光靠力量就能贏我吧？\n真是從小到大一點都沒變呢。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "從小？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "還記得七歲那年，我們一起比過誰的鞦韆盪得更高嗎？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "呵呵，最後是我贏了。\n因為你只是一味用蠻力在推鞦韆而已。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "當時輸了之後，你好像幫我跑腿買了一個星期的零食對吧？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "喂，那都多久以前的事了！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……現在也是一樣！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "咕唔！？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "哦……！桔梗選手！用勾腿將蓮華選手絆倒了！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "就這樣拿下勝利……！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "桔梗選手開始用雙腿纏住蓮華選手！"
+    },
+    {
+      "Text": "[ns]「他打算耗盡對手的體力，再將其推進海裡！」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "如亂線般纏繞的技巧！蓮華選手能順利脫身嗎！？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "咕唔，還挺會耍花招的嘛……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "但我可不會就這樣認輸！\n哈啊啊啊……！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "竟然站起來了……？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這招可是跟你學的。\n我剛才只是裝作被壓制，趁機保存體力而已。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "畢竟我也想看看你究竟會怎麼應對啊。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……原來不是只有蠻力啊。看來你也進步了不少呢。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "剛才那招是三角絞嗎？\n沒想到你居然連這種技巧都會。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "那是翻花繩的基本技巧。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這是哪門子的翻花繩啊！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "至少在纏住對手這點上有共通點吧。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……好吧，還算有點道理。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "不過你接下來該怎麼辦呢？\n好心提醒你一下，再用同樣的招數可是行不通的哦……！"
+    },
+    {
+      "Name": "紫",
+      "Text": "桔梗前輩……果然沒有棄權呢。"
+    },
+    {
+      "Name": "名草",
+      "Text": "嗯，他並不是為了團隊，而是為自己而戰……真是太好了。"
+    },
+    {
+      "Name": "紫",
+      "Text": "不過這樣下去的話，蓮華前輩是不是更有優勢呢？"
+    },
+    {
+      "Name": "名草",
+      "Text": "沒錯。從各方面來看，確實都是蓮華佔優。"
+    },
+    {
+      "Name": "名草",
+      "Text": "然而……對桔梗來說或許未必如此。\n畢竟桔梗他可是……"
+    },
+    {
+      "Name": "紫",
+      "Text": "百花繚亂的作戰參謀！"
+    },
+    {
+      "Name": "紫",
+      "Text": "前輩他想必會用神出鬼沒的戰術來擊敗對手吧！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "有破綻……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你踩哪裡啊？那裡可是地板……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哇！？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "啊！桔梗選手！利用地板的彈性破壞了蓮華選手的重心！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "就這樣把你推下去……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "別想得逞……！！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "哈啊，哈啊，哈啊……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "呼……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "話說我突然有點好奇……原本打算放棄的你，為什麼又認真起來了？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "剛才不是說了嗎？因為你說想認真打一場。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "理由應該不止這個吧？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "是因為……"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……我無法輕易放棄。因為這不是我一個人的戰鬥。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "嗯？不是你一個人的戰鬥？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "老實說，我一開始確實打算放棄。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "想著如果將勝利讓給你，對團隊而言會更加有利。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "不過……在仔細思考之後，我發覺那樣是不對的。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……大家都在為這樣的我加油。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "名草前輩、紫。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "借給我力量的人們。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "老師和無數的觀眾。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "還有蓮華你也是。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我明明為了隱藏自己的弱點而欺騙了大家，大家卻依然支持著我。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "所以……我會堅持到最後。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "為了百花繚亂的榮耀。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "為了回報相信我、為我加油的所有人。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "以及為了你和我──為了大家的「友情」。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哈……！這樣才對嘛！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那我們就繼續吧。\n從現在開始……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "是青春的時間！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "真是激烈的攻防！誰會勝出完全無法預測！"
+    },
+    {
+      "Text": "[ns1]「究竟是擁有壓倒性『力量』的蓮華！」"
+    },
+    {
+      "Text": "[ns2]「還是『技巧』更勝一籌的桔梗呢！」"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "咕嗚……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這下就是我贏了……！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我絕對……不會輸！"
+    },
+    {
+      "Name": "名草",
+      "Text": "那是……！"
+    },
+    {
+      "Name": "紫",
+      "Text": "前輩們……！！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "這場勝負的結果究竟是……！！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "勝者是……！"
+    },
+    {
+      "Text": "[ns]「不破蓮華……！」"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "（……）"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "（……這樣啊。是我輸了嗎）"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "（身體好沉，感覺就像要沉入海底一樣）"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "（……但是不能就這樣坐以待斃。蓮華不是教過我了嗎？）"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "（我必須向大家證明……我也能做到！）"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "噗哈……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哦，已經游得很不錯了嘛！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "呼……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "看來你已經不怕水了。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "嗯，雖然還有點生疏就是了。"
+    },
+    {
+      "Text": "[ns]「你們兩個都非常棒哦！」"
+    },
+    {
+      "Name": "紫",
+      "Text": "前輩們……！真是場精彩的比賽……！！"
+    },
+    {
+      "Name": "名草",
+      "Text": "大家都辛苦了。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "大家……真的很謝謝你們。"
+    }
+  ]
+}

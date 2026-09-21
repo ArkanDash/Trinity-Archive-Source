@@ -1,0 +1,687 @@
+{
+  "TitleJP": "初めての景色（２）",
+  "TitleKR": "첫 풍경 2",
+  "TitleEN": "The First Sight 2",
+  "TitleTH": "ทิวทัศน์แรก 2",
+  "TitleTW": "第一道風景（２）",
+  "DescJP": "日の出を見て帰ってきたヴェリタス一同は、キャンプ場の周辺に集まっている多数の記者を発見する。実はマキが洞窟に描いた壁画が新しい古代壁画として勘違いされてしまい、報道陣が集まっているのだとか。先生とチヒロはこの騒ぎを収拾するのに苦労するのだった。",
+  "DescKR": "해돋이를 보고 돌아온 베리타스 부원들은 캠프 주위에 모인 다수의 기자들을 발견한다. 알고 보니 마키가 동굴에 그린 벽화가 새로운 고대 벽화로 오인되어 기자들이 몰려든 것. 선생님과 치히로는 이 소동을 정리하느라 한동안 애를 먹는다.",
+  "DescEN": "The Veritas members return after seeing the sunrise and find a number of reporters gathered around the camp. They find out that the murals Maki painted in the cave were mistaken for ancient artwork. It takes a while for Sensei and Chihiro to sort out the misunderstanding.",
+  "DescTH": "หลังจากดูพระอาทิตย์ขึ้นและกลับลงมา สมาชิกเวอริทัสก็เจอกับนักข่าว\nมากมายที่มารวมตัวกันรอบๆ แคมป์ จนได้รู้ว่านักข่าวเข้าใจผิดว่าภาพบน\nผนังที่มากิไปทำไว้คือภาพวาดฝาผนังโบราณใหม่ที่ยังไม่ถูกค้นพบ คุณครูกับจิฮิโระจึงต้องเหน็ดเหนื่อยกับการจัดการความโกลาหลนี้",
+  "DescTW": "看完日出回來後，貝里塔斯的成員們發現營地周圍聚集了許多記者。打聽之下，才知道是因為真紀繪製的壁畫被誤認為是新發現的古代壁畫，所以吸引了大批記者前來。老師與千尋花了不少心力才平息這場騷動。",
+  "DialogJP": [
+    {
+      "Name": "ハレ",
+      "Text": "……あれ、何の音だろう。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "初日の出を見てる間に、いっぱいテントが増えてるね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "この数時間で、キャンプブームでも起きたのでしょうか……？"
+    },
+    {
+      "Text": "[s] \"どうだろうね……？\""
+    },
+    {
+      "Name": "マイ",
+      "Text": "クロノスチャンネルをご覧の皆さん、こんにちは！緊急編成でお送りします。「キヴォトスドラマチック」の進行を務める[ruby=かざまき]、風巻マ[/ruby]イです！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "本日、私たちはここに新たな遺跡が発見されたとの報告を受け、取材に参りました！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "すでにSNSで噂が広まり、元旦にもかかわらず山の麓には遺跡目当ての方が押し寄せています！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "果たして今回発見された遺跡は、キヴォトスの考古学にどのような影響を与えるでしょうか！これより、私たちは――"
+    },
+    {
+      "Name": "マイ",
+      "Text": "おや？あちらに見えるのは……！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "視聴者の皆さん！\n今まさに、キヴォトスで最も熱いあの方――「[USERNAME]先生」の姿を捉えました！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "早速、シャーレの先生にインタビューを行ないたいと思います！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "こんにちは、[USERNAME]先生！クロノスチャンネルです！"
+    },
+    {
+      "Text": "[s1] \"あけましておめでとうございます。\""
+    },
+    {
+      "Text": "[s2] \"今年もよろしくね、マイ。\""
+    },
+    {
+      "Name": "マイ",
+      "Text": "あけましておめでとうございます！\n新年早々こんな特ダネを……"
+    },
+    {
+      "Name": "マイ",
+      "Text": "……いえ、先生にお会いできて嬉しい限りです！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "まさか[USERNAME]先生もいらっしゃるとは思いませんでした。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "やはり今回発見された遺跡には、それほどの価値があると！"
+    },
+    {
+      "Text": "[s3] \"……新しい遺跡？\""
+    },
+    {
+      "Text": "[s4] \"何の話をしてるのか、よく分からないんだけど……\""
+    },
+    {
+      "Name": "マイ",
+      "Text": "あれ、ご存じないんですか？"
+    },
+    {
+      "Name": "マイ",
+      "Text": "ここの洞窟で、壁画が発見されたとのニュースがSNSでものすごい話題になっているのですが……"
+    },
+    {
+      "Name": "マイ",
+      "Text": "今まで発見されてきた採取や狩猟の様子とは異なり、何でも大きな塔や機械のようなオーパーツがいくつも描かれているのだとか！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "それに、なんと塔の上に凶暴な怪物のようなものまで……"
+    },
+    {
+      "Name": "マイ",
+      "Text": "この絵を発見した方たちは、「終末の預言」だと騒ぎを起こし、D.U.でひと悶着があったそうです。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "そこでなのですが……シャーレの先生はどうお考えでしょうか？"
+    },
+    {
+      "Text": "[ns] \"……マキ。\""
+    },
+    {
+      "Name": "マキ",
+      "Text": "あ、あ、あたしのせいじゃないよ！？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "いや……壁画を描いたのはあたし、だけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "昨日、キャンプ場に戻る前に綺麗にしておくよう言ったでしょ……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あ、あのときはコタマ先輩を探さなきゃと思って、ついうっかり……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "というか、よくよく考えたらさ……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "それだけあたしの絵がすごかったってことだよね！？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ちょっとは反省しなさい！！"
+    },
+    {
+      "Text": "（その後、集まっていた人たちに事情を説明するのは一苦労した……）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "하레",
+      "Text": "……어라, 이게 무슨 소란이지?"
+    },
+    {
+      "Name": "마키",
+      "Text": "일출을 보고 오는 사이에 주변에 새로운 텐트가 잔뜩 늘어났어."
+    },
+    {
+      "Name": "코타마",
+      "Text": "그사이에 갑자기 새로운 캠핑 붐이라도 일어난 걸까요……?"
+    },
+    {
+      "Text": "[s] \"글쎄……\""
+    },
+    {
+      "Name": "마이",
+      "Text": "안녕하세요, 크로노스 채널 시청자 여러분! 긴급 편성 취재 다큐멘터리, <걸어서 역사 속으로>의 진행자 카자마키 마이입니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "오늘 저희는 이곳 히가시알프스에서 새로운 유적이 발견되었다는 소식을 듣고 급히 취재를 나왔는데요!"
+    },
+    {
+      "Name": "마이",
+      "Text": "그새 SNS를 통해 소문이 퍼져 나갔는지, 새해 첫날인데도 불구하고 이곳 캠핑장에는 유적을 탐사하려는 사람들이 잔뜩 모여 있습니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "과연 이번에 발견된 유적이 앞으로 키보토스 고고학에 어떤 영향을 끼칠지 귀추가—"
+    },
+    {
+      "Name": "마이",
+      "Text": "어라? 저 사람은……"
+    },
+    {
+      "Name": "마이",
+      "Text": "시청자 여러분! 말씀드리는 순간. 키보토스에서 제일 뜨거운 명사, [USERNAME] 선생님의 모습이 카메라에 포착되었습니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "지금부터 샬레의 선생님을 모시고 긴급 인터뷰를 진행하도록 하겠습니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "안녕하세요, [USERNAME] 선생님! 크로노스 채널입니다!"
+    },
+    {
+      "Text": "[s1] \"다들 안녕!\""
+    },
+    {
+      "Text": "[s2] \"마이도 새해 복 많이 받아.\""
+    },
+    {
+      "Name": "마이",
+      "Text": "물론이지요! 새해 첫날부터 이런 특종……"
+    },
+    {
+      "Name": "마이",
+      "Text": "아니, 선생님을 뵙게 되어서 정말 운이 좋다고 생각하고 있었답니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "그나저나 [USERNAME] 선생님께서도 이곳에 계신 걸 보니……"
+    },
+    {
+      "Name": "마이",
+      "Text": "역시, 이번에 새로 발견된 유적은 엄청난 가치를 지닌 물건인 게 틀림없군요!"
+    },
+    {
+      "Text": "[s3] \"……새로 발견된 유적?\""
+    },
+    {
+      "Text": "[s4] \"무슨 소리인지 잘 모르겠는데……\""
+    },
+    {
+      "Name": "마이",
+      "Text": "어라? 못 들으셨나요?"
+    },
+    {
+      "Name": "마이",
+      "Text": "이곳 히가시알프스에 있는 자연 동굴에서 새로운 고대 벽화가 발견되었다며, SNS상에서 지금 엄청난 화제가 되고 있는데요……"
+    },
+    {
+      "Name": "마이",
+      "Text": "사냥이나 채집을 주로 다룬 기존의 동굴 벽화와는 달리, 이번 벽화에는 거대한 탑이나 기계 장치처럼 보이는 오파츠들이 잔뜩 묘사되어 있다고 합니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "심지어 탑 위에는 흉측한 모습의 괴물이 묘사되어 있기도 한데요……"
+    },
+    {
+      "Name": "마이",
+      "Text": "그 괴물 그림을 본 몇몇 사람들이 '종말의 예언'이라며 연초부터 거리에서 난리를 피워 D.U.에서는 작은 소동이 일어난 모양입니다."
+    },
+    {
+      "Name": "마이",
+      "Text": "그래서, 샬레의 선생님께서는 이번 발견을 어떻게 생각하시나요?"
+    },
+    {
+      "Text": "[ns] \"………마키.\""
+    },
+    {
+      "Name": "마키",
+      "Text": "내, 내 잘못 아니거든?!"
+    },
+    {
+      "Name": "마키",
+      "Text": "물론 그 벽화를 그린 사람은 내가 맞지만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "분명 어제 동굴을 떠나기 전에 벽화는 깨끗이 지워 두라고 했을 텐데……"
+    },
+    {
+      "Name": "마키",
+      "Text": "하, 하지만 그때는 코타마 선배를 찾느라 정신이 없어서 깜박했는걸……"
+    },
+    {
+      "Name": "마키",
+      "Text": "게다가 솔직히 말하자면……"
+    },
+    {
+      "Name": "마키",
+      "Text": "그만큼 내 그림이 인상적이었다는 뜻 아닐까?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "조금이라도 반성하는 모습을 보여!"
+    },
+    {
+      "Text": "(이후, 사람들에게 마키가 그린 벽화의 정체에 대해 해명하느라 한동안 애를 먹었다……)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Hare",
+      "Text": "...Huh, what's all that noise?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "The campsite filled with tents while we were climbing the mountain."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Is camping the first fad of the new year?"
+    },
+    {
+      "Text": "[s] \"I wonder...\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "Hello and welcome to the Kronos Channel! I'm Kazamaki Mai, host of the new investigative series \"Walking Through History!\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "We're reporting live from the Higashi Alps to bring you the latest on the new discovery that's rocking the scientific community!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Word of the discovery blazed across social media like a wildfire, and even though it's New Year's Day this campground is packed with people eager to find out more!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "There's no telling how our understanding of Kivotos itself will change with—"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Oh? Hold on a moment—that face!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Attention, viewers! Kivotos' biggest celebrity, [USERNAME] Sensei, has been caught on camera at the site of the discovery!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "We're going live to the Sensei of Schale to bring you an official statement on these momentous events!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Hello, [USERNAME] Sensei! You're live on the Kronos Channel!"
+    },
+    {
+      "Text": "[s1] \"Hello, everyone!\""
+    },
+    {
+      "Text": "[s2] \"Happy New Year, Mai.\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "Can you imagine that'd I'd get a scoop like this on the very first day of the year—"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Er, I mean, we're so lucky to run into you today!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "More importantly, seeing that you're here now, [USERNAME] Sensei..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Is Schale prepared to confirm the rumors swirling around the new discovery?"
+    },
+    {
+      "Text": "[s3] \"...New discovery?\""
+    },
+    {
+      "Text": "[s4] \"Schale has no comment at this time.\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "Oh? Playing dumb, Sensei?"
+    },
+    {
+      "Name": "Mai",
+      "Text": "You must be here to investigate the ancient mural some hiking students discovered on the walls of a natural cavern here in the Higashi Alps! Not even Schale can deny the incredible attention it's garnered on social media!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Unusually for cave paintings, which experts say typically depict imagery related to hunting and gathering, this mural appears to show an array of modern artifacts, like a giant tower and mechanical parts!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "On top of that, it's been reported that the crowning feature of the mural is a terrifying monster lurking at the top of the tower..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "The students who discovered the mural threw the D.U. into an uproar when they reached the holiday crowds and began proclaiming that they had discovered a \"prophecy of the apocalypse!\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "So, Sensei, can Schale protect our viewers from this imminent danger? What steps are you taking to ensure that Kivotos will survive?"
+    },
+    {
+      "Text": "[ns] \"...Maki.\""
+    },
+    {
+      "Name": "Maki",
+      "Text": "I-It's not my fault!!"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Well, I'm the one who drew those paintings, sure, but..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I believe I asked you to clean up that mural before we left the cave yesterday..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "B-But I was so busy helping you look for Kotama that I forgot..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Besides..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Isn't it kind of cool that my art has such a tremendous impact?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Show a little remorse!"
+    },
+    {
+      "Text": "The panic was eventually quelled when Maki and I gave an exclusive interview explaining the origins of the mural...even if rumors of a cover-up lingered for months afterwards."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "ฮาเระ",
+      "Text": "เอ๋ นี่มันเรื่องวุ่นวายอะไรกัน?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ระหว่างที่เราไปดูพระอาทิตย์ขึ้นแล้วกลับมา มีเต็นท์ผุดขึ้นเพียบเลย"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "หรือว่าจู่ๆ การตั้งแคมป์ก็บูมขึ้นมาอีกครั้งคะ...?"
+    },
+    {
+      "Text": "[s] \"ไม่รู้สิ...\""
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "สวัสดีค่ะ ผู้ชมช่องโครโนสทุกท่าน! ทุกท่านกำลังอยู่กับคาซามากิ มาอิ จากรายการสารคดีด่วน <ก้าวเข้าสู่ประวัติศาสตร์> ค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "วันนี้พวกเราได้ยินข่าวลือว่ามีการค้นพบร่องรอยอารยธรรมโบราณแห่งใหม่ในเทือกเขาฮิงาชิ ก็เลยรีบมาเก็บข้อมูลอย่างรวดเร็วค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ข่าวลือนี้แพร่กระจายในโซเชียลมีเดียในช่วงที่ผ่านมา แม้ว่าวันนี้จะเป็นวันแรกของปีใหม่ แต่ก็มีผู้คนมากมายมารวมตัวกันเพื่อสำรวจร่องรอยอารยธรรมโบราณค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ตอนนี้มีการคาดเดาออกมาหลายกระแสเลยค่ะว่าร่องรอยอารยธรรมโบราณนี้จะส่งผลอะไรทางด้าน\nโบราณคดีของคิโวทอส..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "เอ๋? คนนั้น..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ท่านผู้ชมทุกท่าน! ระหว่างที่ฉันรายงานอยู่นี้ กล้องก็จับภาพของคุณครู [USERNAME] ที่เป็นคนดังที่สุดในคิโวทอสได้ค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ฉันจะเข้าไปขอสัมภาษณ์ด่วนจากคุณครูชาเล่ต์เดี๋ยวนี้เลยค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "สวัสดีค่ะ คุณครู [USERNAME]! นี่คือช่องโครโนสค่ะ!"
+    },
+    {
+      "Text": "[s1] \"สวัสดีทุกคน!\""
+    },
+    {
+      "Text": "[s2] \"ขอให้เป็นปีที่ดีนะ มาอิ\""
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "แน่นอนอยู่แล้วค่ะ! ฉันงานเข้าจนได้ทำข่าวพิเศษตั้งแต่วันแรกของปีเลย..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ไม่สิ ฉันกำลังคิดว่าตัวเองโชคดีที่ได้เจอคุณครูน่ะค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "จะว่าไป การที่คุณครู [USERNAME] มาอยู่ที่นี่ด้วย..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "แสดงว่าร่องรอยอารยธรรมโบราณที่ค้นพบใหม่ในครั้งนี้ต้องเป็นสิ่งที่มีคุณค่ามากแน่นอนค่ะ!"
+    },
+    {
+      "Text": "[s3] \"ร่องรอยอารยธรรมโบราณที่ค้นพบใหม่...?\""
+    },
+    {
+      "Text": "[s4] \"พูดถึงอะไรเหรอ...\""
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "เอ๋? ยังไม่ได้ข่าวเหรอคะ?"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ตอนนี้ในโซเชียลมีเดียกำลังลุกเป็นไฟ เพราะมีการค้นพบภาพวาดฝาผนังโบราณในถ้ำที่อยู่ใน\nเทือกเขาฮิงาชิค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ภาพวาดฝาผนังนี้ต่างจากภาพวาดในถ้ำทั่วไปซึ่งจะเกี่ยวกับการล่าหรือการเก็บเกี่ยวเป็นหลัก เพราะองค์ประกอบของภาพวาดที่เพิ่งค้นพบนี้เป็นสิ่งที่คาดว่าเป็นวัตถุหลงยุคที่ดูเหมือนหอคอย หรือเครื่องจักรกลขนาดใหญ่ค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ได้ยินว่าบนหอคอยมีรูปสัตว์ประหลาดดุร้ายอยู่ด้วยนะคะ..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "คนที่เห็นภาพสัตว์ประหลาดนั้นต่างพูดกันว่านี่เป็น 'คำพยากรณ์วันสิ้นโลก' จนมีจลาจลเล็กๆ บนถนน\nใน D.U. ตั้งแต่ต้นปีเลยค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "คุณครูจากชาเล่ต์มีความเห็นอย่างไรต่อการค้นพบครั้งนี้บ้างคะ?"
+    },
+    {
+      "Text": "[ns] \"มากิ...\""
+    },
+    {
+      "Name": "มากิ",
+      "Text": "มะ... ไม่ใช่ความผิดของฉันสักหน่อย!"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ถึงแม้ฉันจะเป็นคนวาดภาพบนผนังนั่นเองก็เถอะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันบอกแล้วไม่ใช่เหรอว่าให้ลบภาพที่วาดให้เกลี้ยงก่อนออกมาจากถ้ำน่ะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ตะ... แต่ตอนนั้นฉันก็ยุ่งกับการตามหารุ่นพี่โคทามะจนลืมไป..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "และถ้าจะให้พูดตามตรง..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ภาพที่ฉันวาดมันก็น่าประทับใจมากเลยนี่เนอะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แสดงความสำนึกผิดบ้างหน่อยเถอะ!"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็ต้องลำบากกับการชี้แจงว่าภาพวาดฝาผนังนั่นเป็นฝีมือของมากิ...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "晴",
+      "Text": "……咦，怎麼鬧哄哄的？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "在我們看日出回來的時候，周圍多了很多新帳篷。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "這段期間突然掀起新的露營風潮了嗎？"
+    },
+    {
+      "Text": "[s]「這個嘛……」"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "克洛盧斯頻道的各位觀眾！\n我是緊急紀錄片「走入歷史」的主持人風卷麻衣！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "我們聽說東阿爾卑斯這裡發現了新的遺跡，於是便趕緊前來採訪！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "不知道是不是消息透過SNS迅速傳播的關係，\n儘管今天是新年第一天，露營場依然滿是想探索遺跡的人群！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "這次發現的遺跡會對今後奇普托斯的考古學帶來什麼樣的影響呢？\n真是令人非常關注──"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "咦？那個人是……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "各位觀眾！在我進行報導的時候，\n攝影機捕捉到奇普托斯最炙手可熱的[USERNAME]老師的身影！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "我們這就去邀請夏萊的老師接受緊急採訪！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "你好，[USERNAME]老師！這裡是克洛盧斯頻道！"
+    },
+    {
+      "Text": "[s1]「大家好啊！」"
+    },
+    {
+      "Text": "[s2]「新年快樂，麻衣。」"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "新年快樂！\n今年第一天就能遇到這種獨家新聞──"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "──不對，是能見到老師真幸運！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "話說回來，從[USERNAME]老師也在這裡來看……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "這次新發現的遺跡一定價值連城！"
+    },
+    {
+      "Text": "[s3]「……新發現的遺跡？」"
+    },
+    {
+      "Text": "[s4]「我不知道你在說什麼……」"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "咦？老師沒聽說嗎？"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "有人在東阿爾卑斯的自然洞穴發現了新的古代壁畫，現在已經在SNS上引發熱議……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "有別於先前以狩獵或採集為主的石洞壁畫，\n據說這次發現的壁畫上描繪著巨塔與很多看似機械裝置的歐帕茲！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "而且塔上還畫著窮凶惡極的怪物……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "曾見到那幅畫的某些人將其稱為「末日預言」……\n因而從年初就在街上鬧事，似乎在D.U.引起了不小的騷動。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "請問夏萊的老師對這次的發現有什麼看法呢？"
+    },
+    {
+      "Text": "[ns]「……真紀。」"
+    },
+    {
+      "Name": "真紀",
+      "Text": "那，那不是我的錯哦！？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "雖然壁畫確實是我畫的沒錯……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "昨天明明有叮嚀你在離開洞穴前要把壁畫擦乾淨……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "可，可是那時候為了找小玉前輩而手忙腳亂，不小心就忘記了……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "而且……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "這是不是代表我的畫很令人印象深刻？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你反省一下好嗎！"
+    },
+    {
+      "Text": "（後來費了不少心思向大家解釋真紀畫的壁畫的來歷……）"
+    }
+  ]
+}

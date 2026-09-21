@@ -1,0 +1,2867 @@
+{
+  "TitleJP": "時計の無い心臓",
+  "TitleKR": "시계가 없는 심장",
+  "TitleEN": "The Heart Without a Clock",
+  "TitleTH": "ศูนย์กลางที่ไม่มีนาฬิกา",
+  "TitleTW": "沒有時鐘的心臟",
+  "DescJP": "予告したものは必ず盗むと悪名高い「慈愛の怪盗」――七囚人の一人だという彼女からの予告状は、謎掛けでできていた。一同は、怪盗の予告した美術品が何なのか、謎解きに勤しむのだった。",
+  "DescKR": "예고한 물건은 무슨 일이 있어도 훔쳐 가는 <자애의 괴도>를 막기 위해 예고장의 해독부터 시작한 게임개발부 일행. 그리고 유즈의 활약으로 예고장의 비밀을 푸는 데 성공한다.",
+  "DescEN": "The members of the Game Development Department start by deciphering the Calling Cards in order to stop the Benevolent Thief, who steals the the things that they've marked without fail. With Yuzu's help, they succeed in unlocking the secret of the Calling Card.",
+  "DescTH": "เพื่อขัดขวาง <จอมโจรแห่งความเสน่หา> ผู้มีชื่อเสียงว่าสามารถขโมย\nของได้ทุกสิ่ง ชมรมพัฒนาเกมก็เริ่มตีความข้อความที่อยู่ในจดหมาย\nเตือนของจอมโจร สุดท้ายก็ไขความลับที่ซ่อนในจดหมายได้ด้วยความ\nเฉลียวฉลาดของยูสึ",
+  "DescTW": "為了竭盡所能阻止預告的物品被「慈愛的怪盜」竊取，遊戲開發部一行人決定先開始解讀預告函。多虧柚子的活躍表現，成功解開預告函的祕密了。",
+  "DialogJP": [
+    {
+      "Text": "第3話;時計の無い心臓"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "「慈愛の怪盗」……って、誰？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛の怪盗」は、かの悪名高き「七囚人」の一人。\n本当の名は存じておりませんが……"
+    },
+    {
+      "Text": "[s1] \"「七囚人」……！？\""
+    },
+    {
+      "Text": "[s2] \"ワカモと同じ……？\""
+    },
+    {
+      "Name": "明太郎",
+      "Text": "その通りです。\n「災厄の狐」と呼ばれるワカモは、現れるたびに辺りを焦土と化していきますが……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "その通りです。\n「災厄の狐」と呼ばれるワカモは、現れるたびに辺りを焦土と化していきますが……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛の怪盗」は……ターゲットにしたものは必ず盗んでいくことで有名です。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "「怪盗」っていうか……ただの犯罪者じゃん！それに変な名前！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ほう……「慈愛の怪盗」に対してそのような反応をされるとは……\n流石はC&C。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ですが……「慈愛の怪盗」の所業は、到底無視できるものではありません。\n予告状が届いたが最後。どのような警備も無意味で、宝は奪われてきました……。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "もっとも、予告状があまりにも難解なため、盗られるまで何が狙われているのか分からない、というのも大きいのでしょうが。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "パンパカパーン！クエスト内容の更新です。次は「慈愛の怪盗」と対決です！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "その予告状……私たちも見て……良いですか？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ええ、もちろんです。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "こちらをどうぞ。"
+    },
+    {
+      "Text": "1日に22回、向き合う2人の旅人。"
+    },
+    {
+      "Text": "正確な2人。計り知れない20。そして半歩。"
+    },
+    {
+      "Text": "月の届かない場所、止まった舞とアンティキティラの裏側。"
+    },
+    {
+      "Text": "一度も授与された事の無い、贅沢であるが不遇な剣のもとへ伺います。\n――慈愛の怪盗"
+    },
+    {
+      "Name": "一同",
+      "Text": "これは……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛の怪盗」の予告状です。まずもって、これを読み解くのが難しく……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "にもかかわらず「慈愛の怪盗」は、「堂々と予告状を送り、盗みを成功させた」と自らの犯行を流布するのです。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ああ、何度読んでも分かりません。\n1日に22回、向き合う2人の旅人とは、一体何を指すのでしょう？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "この屋敷に、1日22回も顔を合わせてる人が居るってことじゃないかな？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "なに言ってるの、お姉ちゃん。\nそもそもどうやって顔を合わせた回数をカウントするの？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリス、分かりました！この旅人たちはNPCのことです。\nクエストカウンターのNPCなら、1日に20回どころか、もっと会えます！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "アリスちゃん……現実にクエストカウンターのNPCは居ないよ……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "そんな事ありません！\nユズは特定の場所に行くと会う事ができ、話をしたらクエストをくれます！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ううぅ……完全には否定できないけど……"
+    },
+    {
+      "Text": "[ns] \"1日に22回なら、大体1時間に1回ペースだね……。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "1日は24時間だから、2時間は会わないんですね……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "24時間……もしかして……？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "すみません……明太郎さん。\nこの屋敷に、アナログ時計はありますか……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "え、ええ……ホールの真ん中に、大きな壁掛けの時計があります……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "少し……その時計を見ても良いですか……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "はい、それはもちろんです。もしかして、なにか手掛かりが……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ユズちゃん、何か分かったの？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "私の考えが正しければ……この予告状は……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "やっぱり……！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ど、どうしたのユズ？\n時間ならスマホで分かるよ？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ううん、違うの。スマホ……というか、デジタル時計じゃ分かりにくくて。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……1行目と2行目の途中までは解読できたと、思う……！"
+    },
+    {
+      "Name": "一同",
+      "Text": "！！！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えっ！？どういう事？どうやって！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "「1日に22回向き合う2人の旅人」は……\nたぶん、アナログ時計の短針と長針のことを言ってるんだと思う。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ですがユズ、1日は24時間です。2回多いです！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "そう……わたしも最初はそう思ってた。でもね、アリスちゃん。\n時計の針は午前と午後でそれぞれ11回……\n[ruby=・   ・    ・   ・  ・ ・  ・    ・   ・   ・   ・   ・    ・   ・]合計して22回しか重ならない[/ruby]。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "短針は毎分0.5度ずつ移動して、長針は毎分6度ずつ移動するから……\n12時の所だけ2回重なって、残りの20回は違う時刻に重なるんだけど……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "11時から12時の間は、針が重ならないから……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "おおっ……流石はC&C、驚きの推理力！\nでは、その続きも既に？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えーっと\n「そして半歩。月の届かない場所、止まった舞とアンティキティラの裏側」。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "「一度も授与された事の無い、贅沢であるが不遇な剣のもとへ伺います」だよね？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "半歩、半歩……ここも時間の事だと思うけど。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "半歩……半分……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あ！もしかして30分のことじゃない？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ユズちゃん、時計の針が重なる瞬間で、30分前後になるのって何時か分かる？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "それなら、5時27分から7時38分の間……かな？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "つまり、怪盗はその時間に侵入してくるという事ですか？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "でも「月の届かない場所、止まった舞とアンティキティラの裏側」が分かってないよ……これってどういう意味だろう？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "アンティキティラ……アンティキティラ……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "んんっ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "何か、心当たりでもありましたか？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "い、いえ何も！アンティキティラの裏側なんて、本当に突拍子も無い話ですね。しかし……「授与された事の無い、贅沢であるが不遇な剣」でしたら、心当たりがあります。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "おそらく……明後日から展示される美術品の事でしょう。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "こちらになります。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "……！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "叙任式の絵です。\n主人から剣を渡される事で騎士となる光景を描いた1枚ですね。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "絵画に描かれた剣であれば、「一度も授与された事の無い」に当てはまるのでは？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "そういう意味では、「不遇」とも言えるでしょう。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "言われてみれば……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "こちらの絵画は、ちょうどオークションに出品予定の貴重な一品でして、お求めの方も多いはず。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "嗚呼、この大切な絵画を狙うだなんて……\n皆様のお力が無ければ、何も出来ずに奪われる様をただ見ているだけでした。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "狙われている品も判明したことですし、皆様にはこちらの絵画を全力で守っていただきたく……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "え？\n他にも貴重な物があるんじゃ……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "いえいえ！予告状の謎は解けたのですから、後はこれを守っていただければ！\nはっはっは、間抜けな「慈愛の怪盗」め……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "まさか奴も、これほど優秀な皆様がいらっしゃるとは、夢にも思わないでしょう！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あはは。そ、そうかな？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "でも……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "お、お役に立てて……何よりです……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "クエストクリアです！\n次は絵を守る連続クエストですね！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "そして大変恐縮なのですが、皆様に追加でお願いしたい事がございまして……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……なんでしょうか？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "明日から3日間、この屋敷の警備をお任せしても良いでしょうか？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "構いませんが……もし、予告状の解が間違ってたら？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "もちろん、怪盗の狙いが別にある可能性も否定できません。\n……ですが、皆様が捕らえてくだされば良いだけのこと。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛の怪盗」は神出鬼没で有名ですが、C&Cの実力の前では赤子も同然。\nはっはっは、そうですよね？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是非ともお願い致します。報酬は十分にご用意しますので……そうですね、"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "コレくらいでいかがでしょう？"
+    },
+    {
+      "Name": "一同",
+      "Text": "！！！？？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（ほ……本当に、こんな金額を……？）"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "（1人1台、最新のプライステーションPro7に……ZBOXシリーズZも買えちゃう！いやいや、2台ずつ買ってもお釣りが出るよね！）"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "（ど、どうしよう？ミドリ！？）"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（私に聞かれても！）"
+    },
+    {
+      "Text": "[ns] （……まずは落ち着こう）"
+    },
+    {
+      "Text": "[ns] \"一度、私たちだけで話し合っても良いでしょうか？\""
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ああ、これは気が利かず失礼を。それでは、私は席を外しておりますね。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "はああああ……ありがとう、先生。\n頭がパンクするところだったよ……。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ど、どうしましょう、先生？\n「七囚人」だなんて、もう私たちの手には負えません……。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "帰りたい……ロッカー……心の故郷……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "みんな、どうしてそんな反応をしているのですか……？\nアリス、一体どうすれば良いのでしょう……。"
+    },
+    {
+      "Text": "[s3] \"まずは依頼をどうするか決めようか？\""
+    },
+    {
+      "Text": "[s4] \"本当の事を話して、辞退しようか？\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……依頼を辞退したら、一体どうなるんでしょうか……？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……依頼を辞退したら、一体どうなるんでしょうか……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "たぶん……依頼人は抗議すると思う。\n今になって嘘でしたなんて言ったら、ミレニアム全体の問題になるかも……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そ、そうなったらネル先輩も、絶対怒る……よね？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "想像したくない……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ですがモモイ！これはアリスたちに与えられたクエストです！\n一度受注したクエストは最後までやるべきだと、モモイが言っていました。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "なのに、破棄しても良いのですか……？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あ、アリス……！も、もちろんその通りなんだけど……！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "でも……私たちには荷が重いよ……"
+    },
+    {
+      "Text": "[s] \"時には、クエストに逆らう事も必要かもしれないね。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "先生？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "それは……どういう？"
+    },
+    {
+      "Text": "[s] \"なにも怪盗と戦う必要はないんじゃないかな。\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "戦わなくても、良い……？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "私、先生の言いたい事が分かったかも！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "要は怪盗に何も奪われなければ私たちの勝ちって事でしょ？"
+    },
+    {
+      "Name": "一同",
+      "Text": "！！！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "もうここまで来ちゃったし、先生も一緒にいる。\nそれに屋敷の防犯設備もすごいんでしょ？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "怪盗と正面から戦ったり、捕まえる必要は無い。\nお宝を盗られなければ良いんだよ！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "たしかに、それならまだ可能性はあるかも……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "わたし達は……C&C相手に戦った経験もあるし……\nもっと凄い戦いも、してきたから……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "それを活かせば……"
+    },
+    {
+      "Text": "[s] \"成功したら、報酬が貰えるかもしれない。でも、リスクはあるよ。\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "（確かに、その報酬さえあれば……わたし達ゲーム開発部の……）"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "じゃあ、決まりだね？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "はあ……本当に大丈夫かな。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "私達ならできるよ！\nそれに、これってC&Cに貸しを作るチャンスじゃない？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "本来は、C&Cが受けるはずだったんだし！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリス、頑張ります！\n先生と一緒なら、アリスたちは無敵です！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "……お気持ちは固まったのですね。\n引き受けてくださりありがとうございます。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "それでは先ほど申し上げた通り、\n[ruby=・  ・   ・]3日間[/ruby]この屋敷と美術品を守っていただきたく思います。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "3日間でいいんですか？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ええ。明日から開催するイベントの期間中だけで構いません。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "初日はゲストを集めてパーティーを、2日目は美術品の展示。\nそして最終日に……美術品のオークションを開催する予定です。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……か、怪盗は、その3日のうち、どこかで来る……ということですね……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ええ、おそらく。\n初日はパーティー会場で給仕をしながら守っていただければと思います。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えっ、給仕……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ええ。木を隠すなら森の中と申しますでしょう？\n正体を隠して会場に紛れるには最適かと。\nちょうど皆様、給仕に最適な格好をなされておりますし。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "念のためお伝えしておきますが……ゲストに怪盗が紛れ込んでいる可能性もあります。\n油断なさらぬよう、くれぐれもご注意を。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（何か、引っかかるような……）"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（予告状の解は、本当に合っているのかな……？\n　他の可能性もありそうなのに……）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;시계가 없는 심장"
+    },
+    {
+      "Name": "모모이",
+      "Text": "<자애의 괴도>라는 게 뭐야?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "<자애의 괴도>는…… 그 무시무시한 일곱 죄수 중 하나인, 어떤 도둑의 이명입니다."
+    },
+    {
+      "Text": "[s1] \"일곱 죄수……?!\""
+    },
+    {
+      "Text": "[s2] \"와카모처럼……?\""
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇습니다. 와카모가 나타나는 곳 어디든 폭발과 폭연을 몰고 다니는 것으로 유명하다면."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇습니다. 와카모가 나타나는 곳 어디든 폭발과 폭연을 몰고 다니는 것으로 유명하다면."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "<자애의 괴도>는…… 원하는 것이라면 무엇이든 훔치고 만다는 소문으로 유명하지요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그러니까 도둑이 스스로를 괴도라고 말하고 다닌다는 거야? 완전 웃겨! 그리고 이름 센스 이상해!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "으, 으음……! 이것은 또 신선한 반응……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "하지만 <자애의 괴도>의 전적은 무시할 수 있는 것이 아닙니다. 예고한 물건은 무슨 일이 있어도 반드시 훔쳐 가는 것으로 특히 유명하죠."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "예고장이 워낙 난해한 내용으로 쓰여 있어서, 범행이 일어난 다음에야 그 물건을 노리고 있었다는 것을 알게 되는 경우가 많아서 그런 것 같기도 합니다만."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇군요! 퀘스트 내용 갱신입니다. <자애의 괴도>와의 대결입니다! 뽜밤뽜밤!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "그 예고장…… 저희도 볼 수…… 있을까요?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇지 않아도 보여드리려 했습니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "여기, 예고장입니다."
+    },
+    {
+      "Text": "하루에 스물두 번 마주하는 두 나그네"
+    },
+    {
+      "Text": "정확한 둘. 헤아릴 수 없는 스물. 그리고 반걸음"
+    },
+    {
+      "Text": "달이 닿지 않는 자리, 멈춘 춤사위와 안티키테라의 뒤편."
+    },
+    {
+      "Text": "한 번도 수여된 적 없는, 호사스럽지만 불우한 검을 위해 찾아 뵙겠습니다."
+    },
+    {
+      "Name": "모두",
+      "Text": "이건…… 도대체?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "예. <자애의 괴도>의 예고장입니다. 이 예고장을 해석하는 것부터 큰일이어서……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "이래 놓고 나중에 자신은 정정당당하게 예고장을 보냈다, 자신의 범행은 일반적인 절도와 다르다고 소문을 내곤 하니, 기가 찰 노릇입니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "첫 줄부터 문제죠. 하루에 스물두 번 마주하는 두 나그네라니, 도대체 무엇일까요?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어딘가엔 그런 사람들도 있는 거 아닐까? 하루에 스무 번씩 만나는……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "무슨 소리야. 잠도 안 자고 만난다는 거야? 하루에 스물두 번이라는 거, 생각해 보면 말도 안 되는 숫자라고."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스, 알았습니다! 이 나그네분들은 NPC인 겁니다. 일일 퀘스트 NPC라면 하루에 스무 번이 아니라 그 이상도 만날 수 있습니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "아리스 쨩…… 현실에 일일 퀘스트 NPC는 없어……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇지 않습니다! 유즈는 현실에 존재하는 일일 퀘스트 NPC입니다! 특정한 장소에 가면 만날 수 있고, 말을 걸 수 있고, 퀘스트를 줍니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "우우우…… 완전히 아니라고만은 할 수 없다는 게 슬퍼……"
+    },
+    {
+      "Text": "[ns] \"하루에 스물두 번이면, 평균적으로 한 시간에 한 번꼴이겠네……\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "하루는 24시간이니까 두 시간이 비는 겁니다……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "시간…… 시간……?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "저, 메이타로 씨. 여기에 혹시 아날로그식 시계 있나요……?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "예? 그야…… 홀 한가운데에 제법 커다란 아날로그 벽시계가 있기는 합니다만……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "잠시…… 그 시계를 볼 수 있을까요……?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "네. 그야 문제없습니다. 그런데 시계는 무엇 때문에……?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "유즈 쨩? 뭔가 알아냈어?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "내 생각이 맞다면…… 이 예고장은……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "역시……!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "왜, 왜 그래. 유즈? 지금 몇 시인지 궁금했어? 그런 건 휴대폰 화면만 봐도 되잖아."
+    },
+    {
+      "Name": "유즈",
+      "Text": "아니야, 모모이. 휴대폰…… 디지털시계로는 알 수 없어."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그리고 지금…… 첫 번째 줄과 두 번째 줄 중간까지는 해석한 것 같아……!"
+    },
+    {
+      "Name": "모두",
+      "Text": "!!!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어떻게? 어떻게? 혼자만 알고 있지 말고!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "'하루에 스물두 번 마주하는 두 나그네'라는 것은…… 아마도, 아날로그 시계의 시침과 분침을 뜻하는 것일 거야."
+    },
+    {
+      "Name": "아리스",
+      "Text": "하지만 유즈, 하루는 스물네 시간입니다."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그렇기 때문이야. 아리스 쨩. 시곗바늘은 11번씩 두 번…… 하루에 22번밖에 겹치지 않아."
+    },
+    {
+      "Name": "유즈",
+      "Text": "시침은 분당 0.5도를 이동하고, 분침은 분당 6도씩 이동하니까…… 12시에만 두 번 정각에 겹치고, 나머지 20번은 애매한 시각에 겹치지."
+    },
+    {
+      "Name": "유즈",
+      "Text": "11시에서 12시 사이에는 겹치는 시각이 아예 없으니까……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "오오, 대단합니다! 과연 C&C군요. 그렇다면 나머지 예고장의 의미는 또 무엇일까요?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "'그리고 반걸음. 달이 닿지 않는 자리, 멈춘 춤사위와 안티키테라의 뒤편.'"
+    },
+    {
+      "Name": "모모이",
+      "Text": "'한 번도 수여된 적 없는, 호사스럽지만 불우한 검을 위해 찾아 뵙겠습니다.' 지?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "반걸음, 반걸음…… 내 생각에는 이 부분까지도 시간을 의미하는 것 같아."
+    },
+    {
+      "Name": "모모이",
+      "Text": "시간…… 반걸음이 무슨 시간……"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아! 혹시 30분쯤을 뜻하는 건가?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "유즈 쨩. 시곗바늘이 겹치는 시간 중에 30분 전후가 되는 때, 구할 수 있어?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "5시 27분쯤부터 7시 38분쯤 사이…… 일까?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇다면 괴도는 그 시간에 침입하겠군요?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "'달이 닿지 않는 자리, 멈춘 춤사위와 안티키테라의 뒤편'…… 이건 무슨 의미지?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "안티키테라…… 안티키테라……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "으흠?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "뭔가, 짐작 가는 것이라도 있으세요?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "아, 아뇨! 안티키테라의 뒤편이라니, 정말로 뜬금없군요. 그렇지만 '수여된 적 없는 호사스럽지만 불우한 검'에 대해서는 짐작이 갑니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "아마도…… 모레 전시될 미술품 중 하나이겠지요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "바로 이것입니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "이 그림은 무엇입니까?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "기사를 서임하는 그림입니다. 기사 서임에는 검을 쓰는 것이 관례였다고 하지요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그림에 그려진 검이라면, 수여될 수 없는 것이 당연하지 않겠습니까?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그림은 보통 실재하지 않는 것을 그려낸 것이니까요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "듣고 보니, 그럴듯한데?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "마침 이 그림은 경매에 올려질 귀한 그림이어서, 찾는 분들이 많을 겁니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그런 그림을 훔쳐가겠다고 이런 식으로 예고하다니…… 여러분들의 안목이 없었다면 눈 뜨고 당할 뻔했군요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그러면 여러분들은 이 그림을 지키는 데 전력을 다해 주시기 바랍니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "어? 다른 예술품들이나 그림들은 괜찮아?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "네! 이미 예고장의 비밀은 풀린 것이나 다름없으니까요! 멍청한 자애의 괴도 같으니……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "이렇게 유능하고 뛰어난 C&C 여러분들이, 이 자리에 와 주셨을 줄은 꿈에도 몰랐겠죠!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아하하, 그, 그런가?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "하지만……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "도, 도움이 되었다니…… 다행이에요……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "퀘스트의 비밀이 풀리고 있습니다! 다음은 그림을 지키는 것이군요!"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그리고 여러분께…… 그렇군요. 추가로 부탁드리고 싶은 일이 생겼습니다."
+    },
+    {
+      "Name": "미도리",
+      "Text": "네?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "내일부터 3일간, 이 저택의 보안을 지켜 주실 수 있겠습니까? "
+    },
+    {
+      "Name": "유즈",
+      "Text": "하지만…… 예고장의 해석이…… 틀렸다면요?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "물론 괴도가 다른 것을 노릴 수도 있겠지요. 그렇지만 그 경우에는 여러분께서 직접 괴도를 막아 주시면 될 일 아닐까요?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "<자애의 괴도>는 신출귀몰하기로 유명하지만, C&C의 명성에 비하면 아무것도 아닐 테니까요. 그렇지 않습니까? 하하하."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "꼭 좀 부탁드립니다. 보상은 섭섭지 않게 해 드리지요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "이 정도면 어떻겠습니까?"
+    },
+    {
+      "Name": "모두",
+      "Text": "!!!???"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(괘, 괜찮은 건가? 이 정도 금액을 보수로 받는다고……?)"
+    },
+    {
+      "Name": "모모이",
+      "Text": "(모두에게 최신형 플라이 스테이션 프로 7에…… ZBOX시리즈 Z까지! 한 사람당 두 대씩 사 줘도 남을 정도잖아!)"
+    },
+    {
+      "Name": "모모이",
+      "Text": "(어, 어떡하지? 미도리?!)"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(자꾸 나한테 묻지 마!)"
+    },
+    {
+      "Text": "[ns] (다들 당황했네…… 뭔가 해야겠는데.)"
+    },
+    {
+      "Text": "[ns] \"잠시…… 저희끼리 이야기를 좀 나누고 싶습니다만, 괜찮을까요?\""
+    },
+    {
+      "Name": "메이타로",
+      "Text": "네? 아, 그렇군요. 작전 회의라도 열고 싶으신 모양이군요. 알겠습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "하아아아아…… 고마워, 선생님. 긴장 때문에 죽는 줄 알았어."
+    },
+    {
+      "Name": "미도리",
+      "Text": "어, 어떡하죠, 선생님? 일곱 죄수라니, 점점 더 저희가 감당할 수 없는 일이 되어 버려서……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "돌아가고 싶어…… 캐비닛…… 마음의 고향으로……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "? 어째서 모두들 이런 반응인가요……? 아리스, 뭔가를 잘못 알고 있는 것입니까?"
+    },
+    {
+      "Text": "[s3] \"우선 문제의 범위를 줄여 보자. 이 일을 계속해야 할까?\""
+    },
+    {
+      "Text": "[s4] \"아니면 사실대로 이야기하고 그만둬야 할까?\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "……그만두고 싶다고 솔직하게 말씀드리면, 어떻게 되는 걸까요……?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "……그만두고 싶다고 솔직하게 말씀드리면, 어떻게 되는 걸까요……?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아마도…… 의뢰인분은 정식으로 항의할 거야. 게임개발부와 C&C, 그리고 어쩌면 밀레니엄 전체에까지도."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그, 그렇게 되면 네루 선배에게 엄청 혼…나겠지?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "상상도 하고 싶지 않아……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "하지만 모모이! 이건 저희들에게 주어진 퀘스트입니다! 한 번 수락한 퀘스트는 책임감을 가지고 해야 한다고 모모이가 말했잖아요?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그런데 도망쳐도 되는 건가요……?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아, 아리스! 무, 물론 그 말도 맞긴 한데……!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "하지만…… 우리가 정말 이런 걸 할 수 있을 리가……."
+    },
+    {
+      "Text": "[s] \"때로는 말이야. 퀘스트를 거스르는 것도 필요할지도 몰라.\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "선생님?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "무슨…… 말씀이시죠? "
+    },
+    {
+      "Text": "[s] \"우리가 해야 할 일은, 괴도와 싸운다거나 괴도를 잡는 게 아니야.\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "네? 그게 무슨 뜻이세요……?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "잠깐만! 나, 선생님이 무슨 말을 하려는지 알 것 같아."
+    },
+    {
+      "Name": "모모이",
+      "Text": "생각해 봐. 그냥, 괴도에게 아무것도 빼앗기지 않으면 우리의 승리 아냐?"
+    },
+    {
+      "Name": "모두",
+      "Text": "!!!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "애초에 여기까지 와 버렸고, 선생님도 함께야. 더구나 방범시설도 대단하대!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "괴도와 싸우거나 물리치거나 잡을 필요는 없어. 단지 물건만을 지키면 되는 거야!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "확실히, 그 방법으로 간다면 가능성이 있을지도……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "우리는…… 이미, C&C와 겨뤄 본 경험도 있고, C&C와 함께…… 싸워 본 경험도 있어…… 그리고 그보다 더한 일도……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "그 경험을 이번에도 살릴 수 있다면, 어쩌면……"
+    },
+    {
+      "Text": "[s] \"성공하면 보수를 받을 수 있을지도 몰라. 하지만 리스크는 있어.\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "(확실히, 그 보수만 있다면 우리 게임개발부의……)"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그러면, 결정된 거지?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "하아…… 괜찮을까, 우리들. "
+    },
+    {
+      "Name": "모모이",
+      "Text": "헹. 생각해 보라고. 나중에 네루 선배에게 실컷 생색내 줄 수 있는 기회잖아?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "보기에 따라서는, 그 C&C에게 빚을 하나 만들어 둘 수 있기도 하고!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스, 할 수 있을 것 같습니다. 그리고 선생님과 함께라면 우리는 무적입니다!"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇군요. 잘 알겠습니다. 감사드립니다, 여러분."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇다면 앞서 말씀드린 대로 3일간, 이 집과 미술품들을 지켜 주셨으면 합니다."
+    },
+    {
+      "Name": "미도리",
+      "Text": "왜 3일이죠?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "내일부터 사흘 동안, 이 저택에서 행사를 개최할 예정이거든요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "첫날은 게스트분들을 모으는 파티, 두 번째 날은 미술품 전시회. 그리고 마지막 날에 미술품 경매를 열 예정입니다."
+    },
+    {
+      "Name": "유즈",
+      "Text": "……괴도가 그 3일 중 언젠가에…… 여기에 올 것이라는 거군요……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇겠지요. 첫날은 파티장에서 접객을 도우시면서, 현장을 지켜 주시면 감사하겠습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "엑, 접객이라고……?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그렇습니다. 일종의 정체 위장 겸 현장 체크라고 보시면 될 것 같습니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "혹시 또 모릅니다만, 게스트 중에 괴도와 연관된 분이 계실지도 모르는 일이니까요. "
+    },
+    {
+      "Name": "미도리",
+      "Text": "(그 그림……)"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(그림만을 지키면 된다고 그렇게 간단히 확언하다니…… 정말 그래도 되는 걸까? 뭔가가…… 마음에 걸려.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3;The Heart Without a Clock"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Who or what is the Benevolent Thief?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Your question is who. She is one of the infamous Seven Prisoners...and a renowned thief."
+    },
+    {
+      "Text": "[s1] \"Isn't Wakamo one of the Seven Prisoners...?!\""
+    },
+    {
+      "Text": "[s2] \"That's just like Wakamo!\""
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Indeed. The Fox of Calamity is known for the blazing inferno and devastation she wreaks wherever she goes."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Indeed. The Fox of Calamity is known for the blazing inferno and devastation she wreaks wherever she goes."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "And the Benevolent Thief earned her notoriety stealing anything and everything her heart desired."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What a weird name! And what kinda thief tells everyone that they're a thief? Hahaha!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Momoi..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Y-You have a rather cavalier attitude about the matter..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "But please do not underestimate the Benevolent Thief. She has always successfully followed through on her calling cards."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Although, some would say it's only because the cards' riddles are so cryptic and convoluted. The object is stolen before they can even be solved!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "We will not underestimate our new enemy! Bum bum bum! It is time for a new quest! Fight the Benevolent Thief!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Could we...see the calling card...please?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I'm glad you asked. I brought it with me today."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Here, the calling card."
+    },
+    {
+      "Text": "Two travelers meet twenty-two times a day."
+    },
+    {
+      "Text": "Precisely two. But an unclear twenty. A half-step"
+    },
+    {
+      "Text": "behind the frozen dance and Antikythera, no moonlight shines."
+    },
+    {
+      "Text": "The sad sword of opulence never awarded to another will be mine."
+    },
+    {
+      "Name": "All",
+      "Text": "...What?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I understand your confusion. The Benevolent Thief's calling cards are all as muddled and indecipherable as this one."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "She claims to be better than other thieves, since she sends a warning ahead of time. But they're all just too cryptic!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Even from the very first line, it makes no sense. What kind of travelers meet twenty-two times a day?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Some people might see each other over twenty times a day, right? I mean, we see each other all the time!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "That's different from meeting someone twenty-two different times in one day. There's no way that would happen."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I have solved the puzzle! The travelers are NPCs. You can easily run into NPCs more than twenty times a day while doing your dailies."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Aris...there's no daily quest NPCs in real life..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But Yuzu is a daily quest NPC in my real life! I am able to meet her in the same spot every day, talk to her there, and she gives me quests!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...I can't exactly say she's wrong... And she's not even trying to be mean..."
+    },
+    {
+      "Text": "[ns] \"Twenty-two times a day would make it roughly every hour or so...\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "But one day is twenty-four hours. We are missing two hours..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Hours...time...?"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Meitaro... Do you have...an analogue clock?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "How did you know? We have a large clock hanging in middle of the hall."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...Could I look at it please?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "That's no problem at all, but what interest could you have in a clock?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Did you figure something out, Yuzu?"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "If I'm understanding correctly...this calling card..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...I was right!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You were right...about the time? We could've checked our phones or something instead of coming all the way to the hall."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "It's wasn't that... I really needed to look at an actual, analogue clock."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "And now that I have, I think I solved the first part, at least..."
+    },
+    {
+      "Name": "All",
+      "Text": "...!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You did? What is it? Come on. Spill!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "The two travelers that meet twenty-two times a day, I realized that was referring to the hands of a clock... That's why I needed an analogue one..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But, Yuzu, I thought a day is twenty-four hours. Not twenty-two."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "You're right, Aris. But the hands of a clock only actually overlap eleven times throughout the day. So, twenty-two."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "The hour hand moves 0.5 degrees every minute while the minute hand moves 6 degrees every minute... so they overlap at 12 o' clock two times a day, and the other 20 times are at awkward times of day."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "They never overlap between 11 and 12 o' clock..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I expect nothing less from C&C! Do you have any ideas on the rest of the calling card?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "...behind the frozen dance and Antikythera, no moonlight shines"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "\"The sad sword of opulence never awarded to another will be mine,\" right?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "And what did \"half step\" mean... That must be another reference to a clock!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "A clock... a half step on a clock would mean..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Oh! Like, the half-hour mark!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Yuzu, can you figure out at what time the hour and minute hands overlap after the half-hour point?"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Between 5:27 and 7:38... I think?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "That is when the thief will attempt to break in!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "\"...Antikythera, no moonlight shines.\" What does that mean?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Antikythera... Antikythera..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Wait!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Do you know something about Antikythera?!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "N-No! I don't understand that portion at all, but I did just remember something about the \"sad sword of opulence.\""
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I believe it must be referring to a piece of art I'll be displaying at the exhibition."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "It's this painting here."
+    },
+    {
+      "Name": "Aris",
+      "Text": "What is this image?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "It's an old knighting ceremony. Traditionally, a sword is used when bestowing a knighthood."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "So it's an unfortunate sword because it can't leave its painting, and it can never be awarded to anyone else."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "It's a bit metaphorical, but it fits the description."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I think it makes sense!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "This is one of our most highly anticipated pieces for the upcoming auction..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "What would I have done without you? I would have never guessed they were intending to steal something so priceless."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I will leave the protection of this art piece in your capable hands for the remainder of your time here."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Just this one? You're not worried about the other pieces?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Of course not! We've solved the Benevolent Thief's riddle and know exactly where she'll strike next!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Haha! I'm sure she didn't expect to meet her match in C&C!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Aha...haha... I guess not?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "But..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Glad to be of service..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "The first step of this quest has been completed! Our next objective is to protect the artwork!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Actually, perhaps I could expand the scope of the next...\"quest\" slightly."
+    },
+    {
+      "Name": "Midori",
+      "Text": "What do you mean?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I would like for C&C to oversee the security of this estate for the next three days, starting tomorrow. "
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "But we're not...100% sure our solution to the calling card is right..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Well, yes. But in the event we are incorrect and the thief targets another item, it wouldn't be a problem, would it?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "The Benevolent Thief may be the most elusive thief known to Kivotos, but I'm sure she's nothing against seasoned agents of your caliber. Hahaha."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I would appreciate it immensely. And, of course, you will be compensated handsomely."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Would this amount be agreeable?"
+    },
+    {
+      "Name": "All",
+      "Text": "?!?!?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(Th-There's no way right? How deep is this clients' pockets?!)"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "(Everyone could have their own, personal FlyStation Pro AND a ZBOX Series X, twice over!)"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "(Midori! What do we do?!)"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(I don't have the answers to everything! And especially not this!)"
+    },
+    {
+      "Text": "[ns] \"(They're overwhelmed by the amount. I have to intervene, quickly!)\""
+    },
+    {
+      "Text": "[ns] \"We need a moment to discuss everything, privately. If you don't mind.\""
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Of course. Please, go ahead. I've presented you with quite a bit of information."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Phew! Good save, Sensei! I needed a second to breathe."
+    },
+    {
+      "Name": "Midori",
+      "Text": "This has totally spiraled out of control. We can't handle one of the Seven Prisoners!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I want to go home... I want my cabinet...my computer..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "What is wrong? This is a very simple quest, is it not?"
+    },
+    {
+      "Text": "[s3] \"Let's take it one step at a time. Do you want to keep going?\" "
+    },
+    {
+      "Text": "[s4] \"If you want, we can come clean and go home.\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "What would happen if we quit?"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "What would happen if we quit?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "The usual procedure would be to file an official complaint... It would be submitted to Seminar to review, and the Game Development Department and C&C would both be involved."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "A-And then Neru would find out and kill us!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Please don't remind me..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I am still confused! Momoi, you have always told me it is our duty to keep our word and finish a quest once it has started!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "But we should...quit? And not fulfill our hero's duty?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "No, Aris! Everything you're saying is right..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "But there are some things even heroes can't handle..."
+    },
+    {
+      "Text": "[s] \"When the quest is overwhelming, it can be easy to forget the real job.\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Sensei?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "What does that mean? "
+    },
+    {
+      "Text": "[s] \"Our job isn't to fight this thief, let alone catch them.\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Have you been paying attention? That's exactly what it is."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wait! I think I get what Sensei is trying to say."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "It's right there in the print! All we were asked to do was to make sure nothing gets stolen!"
+    },
+    {
+      "Name": "All",
+      "Text": "...!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Look, everyone. We've come so far already, and you heard Meitaro! They've got an awesome security system already. Worst comes to worst, Sensei'll bail us out."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "We don't need to fight the thief or even catch them. We just need to protect the artwork!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "It's not impossible..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "We've fought against...fought with...and even fought for C&C... We've done a lot and grown a lot."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "If we can tap into all those experiences... Then maybe we could make it work...just maybe."
+    },
+    {
+      "Text": "[s] \"It'll take a lot of hard work, but there's a big reward at the end of it.\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "(And with that amount of money, we could... we might be able to...)"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Sounds like we're all decided, right?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "*sigh* Do we really think this is a good idea? "
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Heh, think about it. If we pull this off, we get to rub it in Neru's face later!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I mean, just imagine! C&C are gonna be the ones who owe US one!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I believe we will succeed! After all, our party has the Sensei-buff!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I'm happy to hear your decision. Thank you, everyone."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Then, as agreed upon, C&C will manage the security of my estate and the art within it for the next three days."
+    },
+    {
+      "Name": "Midori",
+      "Text": "If you don't mind me asking, why three days?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "For the next three days, I will be holding an event here."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "The first day will be for guest reception, the second for gallery viewings, and the auction will be the grand finale."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "You expect that the thief will strike during the event, so you hired extra security."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Precisely. Ah! And I would appreciate it if you would help out with the guest reception on the first day as well."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? The reception?!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "As I said. Consider it undercover work as you secure the perimeter. "
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "It will help you gather information as well. One of the guests could be related to the thief. "
+    },
+    {
+      "Name": "Midori",
+      "Text": "(What about the painting...?)"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(Wasn't our job just to protect one painting? Now we're running security and a reception? Something just seems...off.)"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3; ศูนย์กลางที่ไม่มีนาฬิกา"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "<จอมโจรแห่งความเสน่หา> คืออะไรเหรอ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "<จอมโจรแห่งความเสน่หา>... คือสมญานามของโจรคนหนึ่ง ที่เป็นหนึ่งในเจ็ดอาชญากรที่น่ากลัวครับ"
+    },
+    {
+      "Text": "[s1] \"เจ็ดอาชญากร...?!\""
+    },
+    {
+      "Text": "[s2] \"เหมือนวาคาโมะน่ะเหรอ...?\""
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ใช่ครับ ถ้าวาคาโมะมีชื่อเสียงเรื่องการพกระเบิดและประทัดไปทุกที่ที่ปรากฏตัวละก็"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ใช่ครับ ถ้าวาคาโมะมีชื่อเสียงเรื่องการพกระเบิดและประทัดไปทุกที่ที่ปรากฏตัวละก็"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "<จอมโจรแห่งความเสน่หา> ก็คงเป็นคนดังที่เลื่องลือกันว่าสามารถขโมยได้ทุกอย่างที่ต้องการครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แปลว่าขโมยคนนั้นสถาปนาตัวเองว่าเป็นจอมโจรแล้วขโมยข้าวของไปเรื่อยเหรอ? ตลกชะมัด! แถมยังใช้ชื่อที่ไม่ได้เรื่องด้วย!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่......"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อ่า... อืม...! ไม่ยักรู้ว่าจะมีปฏิกิริยาแบบนี้เลยนะครับ..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แต่เราไม่อาจมองข้ามการกระทำของ <จอมโจรแห่งความเสน่หา> ได้ครับ เธอมีชื่อเสียงเป็นพิเศษใน\nการขโมยของที่เธอบอกไว้ ไม่ว่าจะเกิดอะไรขึ้นก็ตาม"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "และเนื้อหาที่ระบุในจดหมายเตือนก็ซับซ้อนมาก ส่วนใหญ่กว่าจะรู้ว่าเธอจ้องขโมยอะไรไปก็หลังจาก\nที่เธอได้ของชิ้นนั้นไปแล้วครับ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "งั้นเหรอคะ! อัปเดตรายละเอียดเควสค่ะ นี่คือการเผชิญหน้ากับ <จอมโจรแห่งความเสน่หา> ค่ะ! ปาปัม ปาปัม ป๊าม!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "พวกฉันขอดู... จดหมายเตือนอันนั้น... หน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ผมก็ว่าจะให้ดูอยู่พอดีครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "นี่ครับ จดหมายเตือนที่ว่า"
+    },
+    {
+      "Text": "นักเดินทางสองคนมาพบกันวันละ 22 ครั้ง"
+    },
+    {
+      "Text": "อย่างแน่นอน 2 ครั้ง ไม่แน่นอน 20 ครั้ง และอีกครึ่งก้าว"
+    },
+    {
+      "Text": "ที่ที่แสงจันทร์สาดไม่ถึง ด้านหลังของท่าเต้นที่หยุดแล้วกับแอนทิคีเธรา"
+    },
+    {
+      "Text": "ฉันจะไปที่นั่นเพื่อดาบที่หรูหราแต่อาบโชคร้าย ดาบที่ไม่เคยถูกส่งมอบมาก่อน"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "นี่มัน... อะไรกันเนี่ย?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ครับ นี่แหละครับจดหมายเตือนจาก <จอมโจรแห่งความเสน่หา> แค่ตีความจดหมายก็ถือว่ายากแล้ว..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "พอเธอส่งมาก็ไปปล่อยข่าวลืออย่างว่าตัวเองส่งจดหมายเตือนมาแล้วอย่างกล้าหาญ และอาชญากรรม\nของเธอก็แตกต่างจากการโจรกรรมทั่วไปด้วยครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ปัญหามันติดตั้งแต่ประโยคแรกแล้วครับ นักเดินทางสองคนมาพบกันวันละ 22 ครั้ง นี่มันอะไรกันครับ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "น่าจะมีคนแบบนั้นมาพบกันสักแห่งก็ได้นะ? เจอกันวันละ 22 ครั้ง..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คนบ้าอะไรเนี่ย เจอกันตั้งวันละ 22 ครั้ง ไม่หลับไม่นอนกันเหรอ? ลองคิดดูนะ เจอกันวันละ 22 ครั้ง\nมันเป็นไปได้ที่ไหนกันเล่า"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึเข้าใจแล้วค่ะ! นักเดินทางที่ว่าคือ NPC ค่ะ ถ้าเป็น NPC ของเควสรายวันละก็ อาจจะได้เจอกัน\nมากกว่าวันละ 22 ครั้งก็ได้ค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อาริสึจัง... ในชีวิตจริงน่ะมันไม่มี NPC เควสรายวันหรอกนะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไม่หรอกค่ะ! ยูสึเป็น NPC เควสรายวันที่อยู่ในโลกแห่งความเป็นจริงค่ะ! เป็นคนที่พบได้หากไปใน\nสถานที่เฉพาะ แล้วก็ยังพูดคุยด้วยได้ แถมยังให้เควสได้ด้วยค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "งือ... จะให้ปฏิเสธว่าไม่ใช่ก็ไม่ได้ซะด้วยสิ..."
+    },
+    {
+      "Text": "[ns] \"ถ้าเจอวันละ 22 ครั้ง เฉลี่ยแล้วก็เท่ากับชั่วโมงละครั้งเลยแฮะ...\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "วันหนึ่งมี 24 ชั่วโมง งั้นก็แปลว่าไม่ได้เจอกัน 2 ชั่วโมงค่ะ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เวลา... เวลา...?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "คือว่า คุณเมทาโร่คะ ที่นี่พอจะมีนาฬิกาอนาล็อกบ้างไหมคะ...?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ครับ? อืม... จริงๆ ที่ห้องโถงก็มีนาฬิกาแขวนผนังแบบอนาล็อกเรือนใหญ่อยู่นะครับ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "พวกฉัน... ขอดูนาฬิกานั่นหน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ได้ครับ ไม่มีปัญหา ว่าแต่จะดูไปทำไมเหรอครับ...?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ยูสึจัง? ไขปริศนาอะไรได้งั้นเหรอ?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ถ้าฉันคิดถูก... จดหมายเตือนนี้ก็คือ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ใช่จริงด้วย...!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ทะ... ทำไมเหรอ? ยูสึ? อยากรู้ว่าตอนนี้กี่โมงงั้นเหรอ? ถ้าสงสัยแค่เวลา ก็ดูเอาจากมือถือก็ได้นี่นา"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ไม่ใช่อย่างนั้นหรอก โมโมอิ ฉันต้องดูนาฬิกาอนาล็อกของจริงน่ะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "และตอนนี้... ฉันว่าฉันตีความบรรทัดแรกจนถึงกลางบรรทัดที่ 2 ได้แล้วละ...!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "!!!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ยังไงเหรอ? ตีความได้ว่าไง? อย่ารู้อยู่คนเดียวสิ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ที่บอกว่า 'นักเดินทางสองคนมาพบกันวันละ 22 ครั้ง'... อาจจะหมายถึงเข็มสั้นกับเข็มยาวของนาฬิกา\nอนาล็อกก็ได้"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่วันหนึ่งมี 24 ชั่วโมงนะคะ ยูสึ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เพราะอย่างนั้นแหละ อาริสึจัง เข็มนาฬิกามาเจอกัน 11 ครั้ง 2 รอบ... ในวันหนึ่งซ้อนกันแค่ 22 ครั้ง"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เข็มสั้นขยับ 0.5 องศาต่อนาที ส่วนเข็มยาวจะขยับ 6 องศาต่อนาที... ดังนั้นตอนเที่ยงวันและเที่ยงคืน\nเท่านั้นที่จะซ้อนกันพอดี ส่วนที่เหลืออีก 20 ครั้งจะซ้อนกันแบบคลุมเครือ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "และตั้งแต่ 11 โมงถึงเที่ยง เข็มจะไม่มาซ้อนกันเลย ตอนห้าทุ่มถึงเที่ยงคืนก็ด้วย..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "โอ้ สุดยอดไปเลยครับ! นี่สินะ C&C! ถ้างั้นส่วนอื่นในจดหมายเตือนจะตีความได้ว่ายังไงเหรอครับ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "'และอีกครึ่งก้าว ที่ที่แสงจันทร์สาดไม่ถึง ด้านหลังของท่าเต้นที่หยุดแล้วกับแอนทิคีเธรา'"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "'ฉันจะไปที่นั่นเพื่อดาบที่หรูหราแต่อาบโชคร้าย ดาบที่ไม่เคยถูกส่งมอบมาก่อน' ใช่ไหมนะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ครึ่งก้าว... ครึ่งก้าว... ฉันว่าตรงนี้ก็น่าจะหมายถึงเวลานะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เวลา... ครึ่งก้าวมันคือเวลาไหนนะ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ้อ! หรือว่าหมายถึง 30 นาที?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ยูสึจัง ในเวลาที่เข็มนาฬิกาซ้อนกัน มีตอนไหนที่อยู่ก่อนและหลังเวลา 30 นาทีบ้างไหม?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ตั้งแต่ 05:27 น. ถึง 07:38 น. ไหมนะ...?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้างั้นจอมโจรที่ว่าก็จะบุกเข้ามาตอนนั้นสินะคะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "'ที่ที่แสงจันทร์สาดไม่ถึง ด้านหลังของท่าเต้นที่หยุดแล้วกับแอนทิคีเธรา'... แล้วอันนี้แปลว่าอะไรน่ะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แอนทิคีเธรา... แอนทิคีเธรา..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "หืม?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะไรน่ะ พอจะเดาอะไรได้เหรอคะ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "มะ... ไม่มีครับ! ด้านหลังแอนทิคีเธรา... มันแปลกประหลาดยังไงชอบกล แต่ท่อนที่บอกว่า 'ดาบที่หรูหราแต่อาบโชคร้าย ดาบที่ไม่เคยถูกส่งมอบมาก่อน' ผมพอจะเดาได้อยู่ครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "มันอาจจะเป็นหนึ่งในผลงานศิลปะที่จะจัดแสดงในวันมะรืนน่ะครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ชิ้นนี้ครับ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ภาพนี้มันอะไรกันเหรอคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ภาพการแต่งตั้งอัศวินครับ และในการแต่งตั้งอัศวินก็จะใช้ดาบเป็นธรรมเนียมครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ถ้าเป็นดาบที่อยู่ในภาพวาดละก็ ต้องเป็นดาบที่ไม่มีการส่งมอบอยู่แล้วนี่ครับ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "สิ่งที่อยู่ในภาพวาดมันจับต้องไม่ได้อยู่แล้วครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฟังๆ ดูก็เหมือนจะเป็นอย่างนั้นนะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แล้วภาพนี้ก็จะถูกนำมาประมูลอยู่พอดี ดังนั้นน่าจะมีคนไม่น้อยเลยครับที่อยากได้"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "จอมโจรส่งจดหมายมาเตือนว่าจะมาขโมยภาพวาดนี้เหรอเนี่ย... ถ้าไม่ได้ความเฉียบแหลมของทุกคน พวกผมคงงานเข้าไปแล้วครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ถ้างั้นผมต้องขอให้ทุกคนช่วยกันปกป้องภาพนี้ไว้แล้วละครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เอ๋? แล้วผลงานชิ้นอื่นๆ ล่ะ ไม่ต้องดูแลก็ได้เหรอ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ครับ! ก็เราตีความจดหมายเตือนได้แล้วนี่ครับ! จอมโจรแห่งความเสน่หานี่สมองทึ่มเสียจริง..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "เขาคงคิดไม่ถึงหรอกครับว่า C&C ที่ยอดเยี่ยมจะมาโชว์ศักดาในงานนี้!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แหะๆๆ งะ... งั้นเหรอ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "โล่งอกไปทีนะคะ... ที่พวกฉันก็เป็นประโยชน์..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เราไขความลับของเควสกันได้แล้วค่ะ! ต่อไปก็คือการปกป้องภาพวาดสินะคะ!"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อ้อ แล้วก็... ผมมีเรื่องที่ต้องขอร้องทุกคนอีกเรื่องครับ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ตั้งแต่พรุ่งนี้เป็นต้นไป ทุกคนช่วยมารักษาความปลอดภัยของคฤหาสน์นี้ให้สัก 3 วันได้ไหมครับ? "
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แต่ว่า... ถ้าเราตีความจดหมายเตือน... ผิดไปล่ะคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "จริงอยู่ที่จอมโจรอาจเพ่งเล็งผลงานชิ้นอื่นก็ได้ แต่หากเป็นอย่างนั้น ทุกคนก็ช่วยสกัดจอมโจรนั่นให้ได้ ใช่หรือเปล่าล่ะครับ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ถึง <จอมโจรแห่งความเสน่หา> จะมีชื่อเสียงโด่งดังในเรื่องการหลบหนี แต่หากเทียบกับกิตติศัพท์ของ C&C แล้ว คงเทียบกันไม่ติดหรอกครับ ว่าไหมครับ ฮ่ะฮ่ะฮ่า"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ต้องขอรบกวนด้วยนะครับ แล้วผมจะตอบแทนให้อย่างสมน้ำสมเนื้อเลยครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ประมาณนี้เป็นไงครับ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "!!!???"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(กะ... ก็โอเคอยู่ไหมนะ? เราจะได้ค่าตอบแทนตั้งขนาดนั้นเลยเหรอ...?)"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "(เงินตั้งขนาดนี้ถ้าเอาไปซื้อไพล์สเตชั่น โปร 7 รุ่นใหม่ล่าสุด... แล้วก็ ZBOX ซีรีย์ Z ละก็! ต่อให้ซื้อมา\nแจกคนละเครื่องก็ยังเหลืออีกตั้งเยอะเลย!)"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "(อะ... เอาไงดี? มิโดริ?!)"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(อย่าเอาแต่ถามฉันสิ!)"
+    },
+    {
+      "Text": "[ns] (ทุกคนดูตกใจกันมากเลย... ต้องทำอะไรสักอย่างแล้ว)"
+    },
+    {
+      "Text": "[ns] \"ขอพวกเรา... คุยกันสักครู่ได้ไหม?\""
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ครับ? อ้อ ได้สิครับ คงอยากประชุมปฏิบัติการก่อนสินะครับ ได้ครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แหะๆๆๆ... ขอบคุณนะคุณครู นึกว่าจะตื่นเต้นจนตุยเย่ไปแล้วซะอีก"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ทะ... ทำยังไงดีคะคุณครู? เขาเป็นหนึ่งในเจ็ดอาชญากรเลย พวกฉันไม่น่าจะรับมือได้แล้วค่ะ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อยากกลับแล้ว... อยากกลับตู้... อยากกลับเซฟโซนแล้ว..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "?  ทำไมทุกคนถึงเป็นแบบนี้กันล่ะคะ...? อาริสึเข้าใจอะไรผิดไปหรือเปล่าคะ?"
+    },
+    {
+      "Text": "[s3] \"มาคิดทีละสเต็ปก่อนดีกว่า เราทำงานนี้กันต่อไหม?\""
+    },
+    {
+      "Text": "[s4] \"หรือว่าจะบอกความจริงแล้วถอนตัวดี?\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "... ถ้าบอกไปตามตรงว่าไม่อยากทำ แล้วจะเป็นยังไงเหรอคะ...?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "... ถ้าบอกไปตามตรงว่าไม่อยากทำ แล้วจะเป็นยังไงเหรอคะ...?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ผู้ว่าจ้างก็อาจจะ... มาเอาเรื่องเราจริงจังก็ได้ อาจจะมาประท้วงที่ชมรมพัฒนาเกมไม่ก็ C&C ดีไม่ดีอาจ\nจะมาทั่วมิลเลเนียมเลยก็ได้"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถะ... ถ้าเป็นอย่างนั้นเราคงโดนรุ่นพี่เนรุอาละวาดใส่... ใช่ไหม?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไม่อยากจะนึกภาพเลย..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "โมโมอิ! แต่นี่คือเควสที่พวกเราได้มานะคะ! โมโมอิเคยพูดไว้ว่าถ้ารับเควสมาแล้วก็ต้องรับผิดชอบ\nเควสนั้นไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่นี่จะมาวิ่งหนีกันดื้อๆ แบบนี้เลยเหรอคะ...?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อะ... อาริสึ! ฉะ... ฉันเคยพูดอย่างนั้นไว้ก็จริง...!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แต่ว่า... เราจะรับมือภารกิจนี้กันไหวเหรอ..."
+    },
+    {
+      "Text": "[s] \"บางทีเราอาจจะต้องสวนทางเควสดูนะ\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "คุณครู?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "หมายความว่ายังไงเหรอคะ...? "
+    },
+    {
+      "Text": "[s] \"งานที่เราต้องทำไม่ใช่การต่อสู้หรือจับตัวจอมโจรหรอก\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คะ? หมายความว่ายังไงคะนั่น....?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เดี๋ยวนะ! โอเค... ฉันพอจะเข้าใจแล้วละว่าคุณครูจะสื่ออะไร"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ลองคิดดูนะ เราแค่ต้องทำให้จอมโจรขโมยอะไรไปไม่ได้ใช่ไหมล่ะ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "!!!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ไหนๆ เราก็มาถึงตรงนี้แล้ว และคุณครูก็อยู่ด้วยทั้งคน แถมของอำนวยความสะดวกในการป้องกัน\nอาชญากรรมของคฤหาสน์นี้ก็สมบูรณ์แบบอีก!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เราไม่จำเป็นต้องต่อสู้หรือจับจอมโจรนั่นหรอก แค่ปกป้องงานศิลปะไว้ก็พอ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ถ้าทำแบบนั้นก็อาจจะเป็นไปได้อยู่หรอก..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "พวกเรา... ก็เคยมีประสบการณ์ต่อสู้กับ C&C มาก่อน... แล้วก็เคยต่อสู้เคียงบ่าเคียงไหล่ C&C ด้วย... แถมยังเคยทำเรื่องหนักหนากว่านี้มาแล้วอีก..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ประสบการณ์พวกนั้นอาจทำให้เราผ่านเรื่องนี้ไปได้ก็ได้นะ..."
+    },
+    {
+      "Text": "[s] \"ถ้าทำสำเร็จก็อาจจะได้รับค่าตอบแทน แต่ยังไงก็มีความเสี่ยง\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "(แต่ด้วยค่าตอบแทนขนาดนั้น ชมรมพัฒนาเกมของเราคง...)"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "งั้นถือว่าตัดสินใจได้แล้วใช่ไหม?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เฮ้อ... จะโอเคกันใช่ไหมน่ะ ทุกคน "
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "นี่ ลองคิดกันดูนะ นี่คือโอกาสดีที่เราจะเอาเรื่องนี้ไปโม้กับรุ่นพี่เนรุได้เชียวนะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "มองอีกแง่หนึ่ง C&C อาจเป็นหนี้บุญคุณเราเลยก็ได้!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึคิดว่าตัวเองทำได้ค่ะ และยิ่งมีคุณครูอยู่ทั้งคน พวกเราจะไร้เทียมทานแน่นอนค่ะ!"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อย่างนี้นี่เองสินะครับ เข้าใจแล้วครับ ขอบคุณนะครับทุกคน"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ถ้าอย่างนั้นช่วยคุ้มกันคฤหาสน์หลังนี้กับผลงานศิลปะให้ 3 วันนะครับ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ทำไมต้อง 3 วันเหรอคะ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "เพราะเราจะจัดงานที่คฤหาสน์นี้เป็นเวลา 3 วัน เริ่มตั้งแต่พรุ่งนี้น่ะครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "วันแรกจะเป็นปาร์ตี้ที่มีแต่แขกมาเข้าร่วม ส่วนวันที่ 2 เป็นการแสดงนิทรรศการงานศิลปะ และวันสุดท้ายจะเป็นวันประมูลงานศิลปะครับ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แปลว่าจอมโจรคนนั้น... อาจเข้ามาในระหว่าง 3 วันนี้สินะคะ..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "น่าจะเป็นอย่างนั้นครับ ในวันแรก ผมอยากให้ทุกคนช่วยมาต้อนรับแขกในงานปาร์ตี้ แล้วก็ช่วยคุ้มกัน\nสถานที่จัดงานด้วยครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เอ๋? ต้อนรับแขกเหรอ...?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ใช่ครับ มองว่าเป็นการอำพรางตัวเพื่อตรวจเช็กในที่จัดงานก็ได้ครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "เพราะในบรรดาแขกที่เข้ามาร่วมงาน อาจจะมีใครที่เกี่ยวข้องกับจอมโจรก็ได้ "
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(ภาพนั้น...)"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(ไหนตอนนั้นบอกแค่ว่าให้ปกป้องภาพวาดนั้นไว้ไง แบบนี้ก็ได้เหรอ? ทำไมมัน... เหมือนมีอะไรแปลกๆ เลย)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;沒有時鐘的心臟"
+    },
+    {
+      "Name": "桃井",
+      "Text": "「慈愛的怪盜」是……誰？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛的怪盜」是惡名昭彰的「七罪人」之中的一人。\n雖然真正的名字並不清楚……"
+    },
+    {
+      "Text": "[s1]「『七罪人』……！？」"
+    },
+    {
+      "Text": "[s2]「跟若藻一樣……？」"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "正是如此。\n如果說被稱為「災厄之狐」的若藻，會將所到之處化為焦土……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "正是如此。\n如果說被稱為「災厄之狐」的若藻，會將所到之處化為焦土……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "那麼「慈愛的怪盜」……便是以絕對會盜走其目標而聞名。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "與其說是「怪盜」……不就只是個犯罪者嗎！而且名字好怪！"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "哦……面對「慈愛的怪盜」竟然是那種反應……\n不愧是C&C。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "但是……「慈愛的怪盜」的行動終究是無法忽視的。\n一旦收到了預告信，不管什麼樣的警備都沒有意義，寶物終究會被奪走……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "不過說到底，由於預告信相當難以解讀，\n導致在被盜走前都無法得知究竟被盯上的是什麼，這也是很大的原因吧。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "乓啪喀乓！任務內容已更新。\n接下來是與「慈愛的怪盜」對決！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "那封預告信……可以……讓我們看一下嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "當然沒問題。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "請看這個。"
+    },
+    {
+      "Text": "1天22次，相會的2名旅人。"
+    },
+    {
+      "Text": "正確的2人。無法計算的20。以及半步。"
+    },
+    {
+      "Text": "月亮無法觸及的場所，靜止的舞與安迪基西拉的後方。"
+    },
+    {
+      "Text": "我將拜訪從未被授予，奢華而不幸的劍所在之處。\n　　　　　　　　　　　　　　　──慈愛的怪盜"
+    },
+    {
+      "Name": "所有人",
+      "Text": "這是……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是「慈愛的怪盜」的預告信。\n首先，要加以解讀就已經相當困難……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "不僅如此，\n「慈愛的怪盜」還以「光明正大送出預告信，並且成功完成偷盜」宣告自己的犯行。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "啊啊，無論看了幾次都無法理解。\n1天22次，相會的2名旅人，指的究竟是什麼呢？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "是不是這棟房子裡有一天會見面22次的人？"
+    },
+    {
+      "Name": "綠",
+      "Text": "你在說什麼啊，姐姐。\n再說見面的次數又要怎麼數呢？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲知道了！這些旅人們指的是NPC。\n如果是任務櫃台的NPC別說是20次，要見更多次都沒問題！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "愛麗絲醬……現實中是沒有任務櫃檯NPC的……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒有那種事！\n柚子只要去特定的地方就能見到，對話之後就能收到任務！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "嗚嗚……無法完全否認……"
+    },
+    {
+      "Text": "[ns]「1天22次的話，大約是1小時1次的節奏呢……」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "因為1天是24小時，有2小時見不到的意思嗎……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "24小時……難道……？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "不好意思……明太郎先生。\n這間屋子裡有類比時鐘嗎……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "有，有的……在大廳正中央有個大型的壁鐘……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "可以……讓我們看一下那個時鐘嗎……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "可以，當然沒問題。\n莫非，有什麼頭緒了嗎……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "柚子醬，你知道些什麼了嗎？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "如果我想得沒錯……這封預告信……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "果然沒錯……！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "怎，怎麼了嗎柚子？\n時間的話看手機也知道呀？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "不，不是的。\n用手機……或者說數位時鐘是很難理解的。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……我想，應該已經解讀完第1行和第2行的一半了……！"
+    },
+    {
+      "Name": "所有人",
+      "Text": "！！！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦！？什麼意思？怎麼做到的！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "「1天見面22次的2名旅人」……\n我想指的應該是類比時鐘上的短針和長針。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "可是柚子，1天有24小時。多了2次！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "沒錯……我一開始也是這麼想的。可是呢，愛麗絲醬。\n時鐘的指針會在午前和午後各重疊11次，也就是說[ruby=  ・     ・     ・     ・     ・     ・   ・  ・   ・  ]一共只會重疊22次[/ruby]。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "短針每分鐘會移動0.5度，長針每分鐘會移動6度……\n有2次會在12點整時重疊，其餘的20次則會在不同的時刻重疊……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "而11點到12點之間，指針並不會重疊……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "哦哦……不愧是C&C，真是驚人的推理能力！\n那麼，接下來的部分也已經解讀完成了嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那個……\n「以及半步。月亮無法觸及的場所，靜止的舞與安迪基西拉的後方」。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "「我將拜訪從未被授予，奢華而不幸的劍所在之處」是這樣吧？"
+    },
+    {
+      "Name": "綠",
+      "Text": "半步，半步……我認為這指的也是時間。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "半步……一半……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊！會不會是指30分！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "柚子醬，可以算出指針交疊的瞬間有沒有在30分前後的嗎？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "那樣的話，就是5點27分到7點38分之間……嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "也就是說，怪盜會在那個時間入侵是嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "不過「月亮無法觸及的場所，靜止的舞與安迪基西拉的後方」還不清楚……\n這是什麼意思呢？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "安迪基西拉……安迪基西拉……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "嗯！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "有什麼頭緒嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "沒，沒有！安迪基西拉的後方什麼的，真是句無厘頭的話呢。\n不過「從未被授予，奢華而不幸的劍」我倒是有點想法。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "恐怕……是在說後天要展示的藝術品吧。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "就是這個。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這是什麼畫呢？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是任命儀式的畫作。\n是描繪從主人手中收下了劍，成為騎士的一幅畫。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "如果是繪畫中的劍，自然就「從未被授予」了對吧？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "在這個意義上，也能說是「不幸」吧。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "聽你這麼一說……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "這幅畫正好是預計在拍賣會上拍賣的貴重作品，希望得到它的人應該不在少數。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "啊啊，竟然會盯上如此重要的畫作……\n如果沒有各位的力量，或許就只能眼睜睜地看著它被奪走了吧。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "既然已經找出被盯上的物品，希望各位能盡全力守護這幅畫……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦？\n不是還有其他貴重的物品嗎……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "不不不！既然已經解開預告信的謎團，接下來就只要守住它就行了！\n哈哈哈，愚蠢的「慈愛的怪盜」……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "他做夢也不會想到會有如此優秀的各位在這裡吧！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊哈哈。是，是嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "但是……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "能，能幫上忙……真是太好了……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "任務達成了！\n接下是守護畫作的連續任務！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "此外雖然冒昧，還有其他事想拜託各位……"
+    },
+    {
+      "Name": "綠",
+      "Text": "……什麼事呢？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "從明天開始的3天內，可以請各位負責這棟宅邸的警備嗎？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這倒不成問題……但如果預告信的解讀錯了呢？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "當然，無法否定怪盜的目標另有其物的可能性。\n……但是，只要各位抓住怪盜就沒問題了。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛的怪盜」雖然以神出鬼沒聞名，但是在C&C的實力面前就像小孩子一樣。\n哈哈哈，我說的沒錯吧？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "萬事拜託了。\n我會準備足夠的報酬……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "大約是這麼多，各位意下如何呢？"
+    },
+    {
+      "Name": "所有人",
+      "Text": "！！！？？"
+    },
+    {
+      "Name": "綠",
+      "Text": "（真……真的能收下這麼多錢……？）"
+    },
+    {
+      "Name": "桃井",
+      "Text": "（能1人買1台最新的PrayStation Pro7……還有ZBOX Series Z！\n　不不不，就算1人買2台都還有剩！）"
+    },
+    {
+      "Name": "桃井",
+      "Text": "（怎，怎麼辦啊？綠！？）"
+    },
+    {
+      "Name": "綠",
+      "Text": "（你問我也不知道啊！）"
+    },
+    {
+      "Text": "[ns] （……先讓大家冷靜下來吧）"
+    },
+    {
+      "Text": "[ns]「可以讓我們單獨討論一下嗎？」"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "啊啊，是我思慮不周，真是失禮了。\n那麼我就先離開了。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哈啊啊啊啊……謝謝你，老師。\n我的腦袋差點就爆炸了呢……"
+    },
+    {
+      "Name": "綠",
+      "Text": "怎，怎麼辦，老師？\n竟然是「七罪人」，只靠我們已經無法承擔了……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "好想回去……置物櫃……心的故鄉……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "大家為什麼都是這種反應呢……？\n愛麗絲，究竟該怎麼做才好……"
+    },
+    {
+      "Text": "[s3]「先決定該怎麼處理這個委託吧？」"
+    },
+    {
+      "Text": "[s4]「要告訴對方真相然後放棄嗎？」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……如果放棄委託的話，情況究竟會變成什麼樣子呢……？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……如果放棄委託的話，情況究竟會變成什麼樣子呢……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "我想……委託人或許會抗議吧。\n事到如今才說這一切都是騙人的，說不定會成為整個千年的問題……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那，那樣寧瑠前輩絕對會生氣……的吧？"
+    },
+    {
+      "Name": "綠",
+      "Text": "不想想像……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不過桃井！這是交給愛麗絲與夥伴們的任務！\n桃井說過，一旦接受任務就應該做到最後才對。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "就這樣放棄真的好嗎……？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "愛，愛麗絲……！\n確，確實是這麼說沒錯……！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "可是……這對我們來說太沉重了……"
+    },
+    {
+      "Text": "[s]「有時候不遵守任務或許也是必要的。」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "老師？"
+    },
+    {
+      "Name": "綠",
+      "Text": "那是……什麼意思呢？"
+    },
+    {
+      "Text": "[s]「我們也沒有一定要跟怪盜戰鬥對吧。」"
+    },
+    {
+      "Name": "綠",
+      "Text": "不必跟怪盜戰鬥……？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "我，我好像明白老師的意思了！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "簡單來說，只要不被怪盜偷走任何東西，就等於是我們贏了不是嗎？"
+    },
+    {
+      "Name": "所有人",
+      "Text": "！！！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "反正都已經走到這一步了，而且老師也在。\n何況這間宅邸的防盜措施也很厲害不是嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "我們沒有必要和怪盜戰鬥，也不必抓住他。\n只要寶物不被偷走就行了！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "確實，這樣或許還有一點可能性……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我們……也有和C&C戰鬥的經驗……\n就連更厲害的戰鬥也經歷過了……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "只要能活用那些經驗……"
+    },
+    {
+      "Text": "[s]「成功的話或許就能獲得報酬，不過也有風險哦。」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "（沒錯，如果能獲得那些報酬……我們遊戲開發部的……）"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那決定了吧？"
+    },
+    {
+      "Name": "綠",
+      "Text": "唉……真的沒問題嗎。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "我們一定做的到的！\n而且這也是個讓C&C欠我們一份人情的機會不是嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "畢竟這本來是C&C該接受的委託嘛！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲會加油的！\n只要跟老師在一起，愛麗絲跟夥伴們就是無敵的！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "……看來各位已經得出結論了呢。\n非常感謝各位願意接受我的委託。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "那麼就如同先前所說，希望各位能在接下來的[ruby=・]3[/ruby][ruby= ・     ・ ]天內[/ruby]保護這棟房子和藝術品。"
+    },
+    {
+      "Name": "綠",
+      "Text": "只要這3天就好了嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是的。只要負責從明天開始的活動期間就可以了。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "第一天是集結嘉賓們舉行派對，第二天是藝術品的展示。\n至於最後一天……預計將會舉行藝術品的拍賣會。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……怪，怪盜會，在這3天的其中一天出現……對吧……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "或許正是如此。\n希望各位能在第一天的派對會場一邊招待客人，一邊維護現場的秩序。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦，招待客人……？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "是的。有句話說藏木於林對吧？我認為隱藏身分混入會場或許是最適當的選擇。\n正好各位的打扮也非常適合。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "以防萬一先告訴各位……怪盜混入嘉賓中的可能性也是有的。\n還請務必注意，切勿大意。"
+    },
+    {
+      "Name": "綠",
+      "Text": "（總覺得不太對勁……）"
+    },
+    {
+      "Name": "綠",
+      "Text": "（預告信的解讀真的正確嗎……？\n　明明還有其他的可能性……）"
+    }
+  ]
+}

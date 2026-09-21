@@ -1,0 +1,2477 @@
+{
+  "TitleJP": "餌",
+  "TitleKR": "미끼",
+  "TitleEN": "Bait",
+  "TitleTH": "เหยื่อล่อ",
+  "TitleTW": "誘餌",
+  "DescJP": "先生が、事件のお礼に持ってきてくれた牛肉を食べ、楽しいひと時を過ごすRABBIT小隊。前回の作戦当時の監視カメラを確認していたところ、SRTの装備を着た不審な影を目撃する。SRTの装備は学園外不出のものであるはずなのにどうやって手に入れたのかと思案したところ、以前、武器商人に装備を売った事を思い出したRABBIT小隊一同は、罪悪感を晴らすべく、密かに犯人を捕まえることを決心するのだった。",
+  "DescKR": "선생님이 가져온 소고기를 구워 먹으며 즐거운 한때를 보내는 RABBIT 소대와 선생님. 모에의 도움으로 지난 작전 당시의 CCTV를 살펴보던 중, 소대원들은 SRT의 장비를 착용한 수상한 그림자를 목격한다. 이전에 무기상에게 장비를 팔았던 사실을 떠올린 RABBIT 소대는 자신들이 선생님을 곤경에 빠뜨렸다는 죄책감에 은밀히 범인을 잡기로 결심한다. ",
+  "DescEN": "RABBIT Squad and Sensei spend an enjoyable time grilling and eating the beef Sensei brought. While viewing CCTV footage of their past operations, thanks to Moe, see a suspicious shadow wearing SRT equipment. Remembering that they sold equipment to an arms dealer before, RABBIT Squad feels guilty for putting Sensei in danger and decides to secretly catch the culprit themselves.",
+  "DescTH": "กองทหาร RABBIT กับคุณครูช่วยกันย่างเนื้อวัวที่คุณครูเอามาให้ และเพลิด\nเพลินกับการลิ้มรสเนื้อวัวชั้นเลิศ และขณะที่นั่งดูภาพกล้องวงจรปิดของ\nปฏิบัติการที่ผ่านมา สมาชิกกองทหารก็สังเกตเห็นเงาของคนน่าสงสัยที่\nสวมเครื่องแบบของสถาบัน SRT เข้า เหล่าสมาชิกกองทหาร RABBIT นึกถึงเรื่องการขายอุปกรณ์ให้กับพ่อค้าอาวุธขึ้นมา จึงรู้สึกผิดต่อคุณครู\nและคิดจะจับกุมคนร้ายอย่างลับๆ",
+  "DescTW": "RABBIT小隊和老師一邊烤牛肉來吃，一邊度過愉快的時光。小隊成員們在萌幫助下查看上次作戰當時的監視錄影，看見配戴SRT裝備的可疑黑影。RABBIT小隊想起之前向武器商出售裝備的事情，對於讓老師陷入困境感到內疚，於是下定決心要祕密逮捕犯人。",
+  "DialogJP": [
+    {
+      "Text": "第3話;餌"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……うん、これくらい焼けば十分だろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それじゃあ――"
+    },
+    {
+      "Name": "一同",
+      "Text": "いただきます！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こ、この味……背徳的すぎる……！！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "一口食べると脂がじゅわっと広がって……\n凝縮された旨味が口いっぱいに……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "今まで食べてきた牛肉はいったい何だったんだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "口に入れた瞬間にとろけて……脂が甘い……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "本当に上質なお肉ですね……。\nあまりの贅沢に、舌が申し訳なくなるくらい……。"
+    },
+    {
+      "Text": "[ns] \"お肉はたっぷりあるから、たくさん食べてね。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ありがとうございます。ですが……本当に大丈夫なのでしょうか？\nお礼とはいえ、こんなに高いお肉を頂いて……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……そうだね、あの時の報酬にしては豪華すぎる。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "もしかして……このお肉は私たちを罠にはめるための餌だったとか！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "甘い食べ物で相手を陥れる……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "こ、これが噂のハニートラップ……？"
+    },
+    {
+      "Text": "[s1] \"それはちょっと意味が違う気が……。\""
+    },
+    {
+      "Text": "[s2] \"純粋なお礼だから、気にしないで。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "……まあいい、こんな罠ならいくらでもかかってやる。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……まあいい、こんな罠ならいくらでもかかってやる。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "高級牛肉で腹を満たすなんて経験、\nSRT特殊学園に帰ってもできないだろうからな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "だねぇ。やっすい豚肉の缶詰ならいくらでも食べられるだろうけど。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うッ……せっかく良い肉を食べているというのに、思い出させるな……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "たしかに、SRTの屋外戦で配られる食糧は、いつも塩漬けの豚肉でしたね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "宿営訓練で、4日以上豚肉の缶詰だけだった時もありました……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "朝っぱらからギトギトの缶詰を食べるしかなかったあの時か……。\nあんな最悪な経験はもうコリゴリだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "でも……どうしてSRTの補給品には豚の缶詰ばっかりなんだろ……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "せめてコーンビーフとかツナ缶があればいいのに……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それはまあ、一番安いからだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "お偉いさん方は数字ごっこが好きだからな。\n「補給品は常に最低入札価格で納品すべきである」という格言もあるくらいだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "豚肉の缶詰は安い上に保存期間も長い。\nだから昔から戦闘食として愛用されてきたんだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "どれだけ愛用されていたかと言うと……\nとあるトリニティの小説家が、食事に出てくる豚肉の缶詰に飽き飽きして、\n自分の作品に登場する食べ物をすべて豚肉の缶詰に変えて抗議したくらいだ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いま別に豚肉の缶詰食べてないんだからその話しなくても良くない？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "黙れ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "その小説家なら私も知っています。確かその人の作品に、\n聖杯を探す騎士団が野生のウサギと戦う話がありましたよね？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そういうのもあったな――それがどうかしたのか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……RABBIT小隊が創設されたばかりの頃、先輩に聞いたんです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "「[ruby=RABBIT]ウサギ[/ruby]」は可愛らしい名前ですが、\n強い力を執行するSRTの小隊名としては相応しくないのかもしれない、と。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そうしたら、先輩は、その作品の内容を踏まえて話してくれたんです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "「ウサギは一見温厚で可愛い動物だが、\n一度怒ると武装した騎士にも挑む恐ろしい獣」だ、と。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "たしかにあの小説で聖杯を探していた騎士団は、\n洞窟を守っていたウサギに首を噛まれて逃げ出していたな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "外見だけで舐めてかかるから、後悔することになるんだ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "その話の結末はどうなるの？\n騎士団はウサギに負けて聖杯を探すのを諦めたとか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "いや、ウサギは騎士団が使った手榴弾で一網打尽になるが……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "やっぱり……どれだけ強いウサギでも、\n手榴弾の前には無力な存在なんだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たちの未来も……きっと……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "気にするな、所詮はただの例え話だろ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ひとまず今は、この高級肉の味に集中しようじゃないか。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ところで先生。カイザーPMCとの一件で、紛失した物等はありませんでしたか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "シャーレには連邦生徒会関連のものがたくさんあるでしょうし、少し心配で……。"
+    },
+    {
+      "Text": "[s] \"特にないとは思うけど……。\""
+    },
+    {
+      "Text": "[ns3] \"事件の後片付けはまだ終わってないし。\""
+    },
+    {
+      "Text": "[ns4] \"今度、時間を作って確認してみるね。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "それなら、いま確認してあげるよ～"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それなら、いま確認してあげるよ～"
+    },
+    {
+      "Name": "サキ",
+      "Text": "今？どうやるんだ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "モエちゃん……まさか、カイザーPMCと裏で情報を取引してたり……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "んなわけないでしょ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "防犯カメラの記録だよ。\nシャーレの出入口付近の防犯カメラをハッキングすれば、\n誰がいつ建物に出入りしたのか、何を持って行ったのか分かるからさ～"
+    },
+    {
+      "Name": "モエ",
+      "Text": "先生が拉致されてからシャーレの奪還までにそんな時間もかかってないし、出入りした人数も多くないだろうから、怪しい物を持ってる人がいればすぐに特定できると思うよ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "おおっ、モエにしては賢いな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なんだ、高級肉を食べて頭が回るようになったのか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ぶっ飛ばされたいのかなぁ！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ええっと……防犯カメラのクラウドサーバーセキュリティをハッキングして……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……できた！これが事件当日の映像だよ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ……これ、奪還作戦の時の……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こっちのバイザーメットを被っているやつら、\nカイザーのSOFかSOAPとかいう連中だったよな？\n派手な武器を持ってたにしては大したことなかったな。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ミユが狙撃で敵の注意をそらしてくれたおかげです。\n正面突破していたら、こちらもそれなりの被害を被っていたでしょう。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "サキちゃんとミヤコちゃんが先に突入してくれたお陰だよ……。\nふたりが敵の位置を伝えてくれたから、スムーズに狙撃できて……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ふふ、楽しかったな……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……なんか卒業アルバムを見返すみたいな感じになってない？\n兵士の持ち物をよく見てってば！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うーん……ここからは私たちが見張っていたから、もう少し巻き戻して……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ん？この覆面の兵士は誰？\nカイザーPMCの所属じゃなさそうだけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こいつら……入る時には持ってなかった荷物を持ってるね。"
+    },
+    {
+      "Text": "[s] \"何を持ってるか確認できそう？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "画像が粗いからそこまでは……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でも、動きからしてかなり訓練された兵士だね。\n武器もかなりの高級品で……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……サキ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ああ、今の装備は……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あれ？二人とも、何で急に真顔になってるの？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "シャーレから物を盗んだ身元不明の兵士……SRTの装備を使っているようです。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ど、どういうこと……？SRTの装備って……？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "リーダーらしき人物が使っているレーザーサイトは、\n赤外線と可視光を併せ持つ二重複合サイトというものだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "高価な上に、ナイトビジョンが無いとまともに使えないから\nSRTの生徒用に支給されたもの以外、正式に生産された記録がない。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "加えて兵士たちが使っているトランシーバーも、恐らくSRTで作られた製品だ。\nカイザーインダストリー産のものとはデザインが全く違うからな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "え？どうしてそんな！？"
+    },
+    {
+      "Text": "[s] \"ん？何か分かったの？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "な、何でもない！ただ戦術の話で熱くなっただけで……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "しーっ、モエ。静かにしてください。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ご、ごめん……びっくりしちゃって……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "でも、外部の兵士がSRTの装備を持ってるなんて……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……部外者がSRTの装備を入手できるとしたら、手段は2つだけです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "SRTを襲って装備を奪うか――"
+    },
+    {
+      "Name": "サキ",
+      "Text": "――SRTの生徒に直接譲ってもらうか、だな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いやいや、さすがに2つ目はないでしょ～\n素人の傭兵集団じゃあるまいし、SRTの隊員がPMC兵士に装備を渡すわけ――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、ある意味原点というか、古典的な取引方法だけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私たちが持っている貴重な物を渡して、その対価として武器やら弾薬やらを貰うってわけ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そういえば、この前キャンプが浸水した時に\nあまり使わない特殊部隊用装備を一部売却していましたね……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そういえばあの武器商人……顔も隠してたし、怪しかったね……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "待って。それじゃ私たちの売った武器は、\nシャーレを襲撃したやつらの手に渡ってたってこと？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……くそ、これじゃ先生に感謝されるどころか謝罪すべき立場じゃないか。"
+    },
+    {
+      "Text": "[ns5] \"ところでみんな、もうお腹はいっぱい？\""
+    },
+    {
+      "Text": "[ns6] \"お肉、まだまだあるよ。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ええと、それが……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ええと、それが……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あぁ～、気にしないで！お肉ならもうお腹いっぱい食べたから！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "わ、私も……もう限界、かも……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それに、ちょっと急用を思い出してさ。"
+    },
+    {
+      "Text": "[s] \"急用……？何かあったの？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "いちいち聞くな！先生には関係ないだろう！？"
+    },
+    {
+      "Text": "[s] \"じゃあ、余ったお肉はシャーレの冷蔵庫に入れておくね。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "はい、お願いします。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "その……私たちが売った武器がシャーレの襲撃に使われたかもしれないって話は、\n先生に言うべきじゃないかな……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たちのせいで、先生が大変な目に遭ったかもしれないのに……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……もちろん謝罪はします。\nですが、今は犯人捜しが先でしょう。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ああ、私もそう思う。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それに、先生は事件の後処理でしばらく忙しいだろうから……\n心配事を増やすのはやめておいた方がいい。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "犯人を捕まえて、盗んだ物を返してもらってから……\n先生に事情を話して謝りましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "モエ、取引した武器がどこに流れたか追跡できますか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "できるよ、電子装備の固有のキー値を追跡すれば良いだけだし。\nちょっと時間はかかると思うけど。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ではお願いします。\n残りのみなさんはいつでも出動できるよう、装備の点検をお願いします。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "SRTの装備を使って悪事を働いた盗人に……\n目に物見せてやりましょう。"
+    },
+    {
+      "Text": "[ns] \"あ、豚肉も少し余ってたような……。\""
+    },
+    {
+      "Text": "[ns9] \"あれ、みんな……？\""
+    },
+    {
+      "Text": "[ns10] \"どこ行ったんだろう……？\""
+    },
+    {
+      "Text": "次回;予期せぬ再会"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;미끼"
+    },
+    {
+      "Name": "사키",
+      "Text": "음…… 이만하면 충분히 잘 구워진 것 같은데."
+    },
+    {
+      "Name": "사키",
+      "Text": "그럼……"
+    },
+    {
+      "Name": "일동",
+      "Text": "잘 먹겠습니다!"
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐야, 뭐야, 이거? 내가 그동안 먹어본 고기 중 제일 맛있는 것 같아!"
+    },
+    {
+      "Name": "사키",
+      "Text": "촘촘히 박힌 지방이 자아내는 부드러운 식감과 고급 소고기 특유의 이 풍부한 감칠맛……"
+    },
+    {
+      "Name": "사키",
+      "Text": "이 등심에 비하면 도시락에 들어있는 소고기는 다 가짜나 다름없어……"
+    },
+    {
+      "Name": "미유",
+      "Text": "입에 넣자마자 바로 녹아내리는 게…… 마치 부드러운 푸딩을 먹는 것 같아……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "정말 좋은 고기네요…… 오랜만에 호화로운 음식을 먹어서 그런지, 혀에 죄책감이 들 정도예요."
+    },
+    {
+      "Text": "[ns] \"고기는 충분하니까, 천천히 많이 먹어.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "저…… 아무리 지난번 일의 답례라지만, 괜찮으신가요? 이렇게나 비싼 소고기를 저희에게 잔뜩 사주셔도……"
+    },
+    {
+      "Name": "모에",
+      "Text": " ……그러게. 우리가 한 일의 대가라지만, 너무 호화로운데."
+    },
+    {
+      "Name": "모에",
+      "Text": "설마…… 이 소고기가 우리를 함정에 빠트리기 위한 미끼였다던가?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "달콤한 음식으로 상대를 함정에 빠트린다니……"
+    },
+    {
+      "Name": "미유",
+      "Text": "이게 그 말로만 듣던 허니 트랩……?"
+    },
+    {
+      "Text": "[s1] \"허니 트랩은 그런 뜻이 아니야…….\""
+    },
+    {
+      "Text": "[s2] \"순수한 호의일 뿐이니 부담 갖지 말고 먹어.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "아무렴 어때. 이런 함정이라면 일부러라도 걸려줄 용의가 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "아무렴 어때. 이런 함정이라면 일부러라도 걸려줄 용의가 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "이런 고급 소고기만으로 배를 채우는 진귀한 경험은 SRT 학원에 돌아가도 못해볼 테니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "그러게. 싸구려 돼지고기 통조림만으로 배를 채우는 경험은 이미 충분히 해봤지만. 후후."
+    },
+    {
+      "Name": "사키",
+      "Text": "으윽…… 모처럼 맛있는 고기를 먹고 있는데, 입맛 떨어지는 소리를……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "확실히, SRT의 야전 배급 식량에는 언제나 염장 돼지고기가 포함되어 있었죠."
+    },
+    {
+      "Name": "미야코",
+      "Text": "한 번은 부대 외부에서 진행한 숙영 훈련이 예상보다 길어지는 바람에 사흘 넘게 돼지고기 통조림만으로 식사를 때운 적도 있었으니까요……"
+    },
+    {
+      "Name": "사키",
+      "Text": "아침부터 기름지고 느글거리는 돼지고기 통조림을 먹어야 했던 그때의 추억은…… 다시는 경험하고 싶지 않아……."
+    },
+    {
+      "Name": "미유",
+      "Text": "그런데 SRT의 보급품에는 어째서 돼지고기 통조림이 그렇게 많이 보급되는 걸까?"
+    },
+    {
+      "Name": "미유",
+      "Text": "최소한 콘비프나 참치 캔을 몇 개 섞어 주어도 괜찮은 식사를 할 수 있을 텐데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 이유야 뻔하지. 그게 제일 저렴하니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "높으신 분들은 언제나 숫자를 좋아하거든. 오래된 격언에 '보급품은 항상 최저 입찰가로 납품된 물건임을 명심하라'라는 말도 있을 정도니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "특히 돼지고기 통조림은 잡육을 염장해서 만든 물건이라, 저렴하고 보존 기한이 길어서 오래전부터 전투 식량으로 애용되어 왔거든."
+    },
+    {
+      "Name": "사키",
+      "Text": "보급된 돼지고기 통조림의 숫자가 얼마나 많았는지, 어느 트리니티의 소설가는 학교 급식에 나오는 돼지고기 통조림이 너무 많다며 자신의 작품 속에 등장하는 음식을 모두 돼지고기 통조림으로 바꾸어 항의한 일도 있었을 정도니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "와, 정말 알고 싶지 않았던 내용이었어요."
+    },
+    {
+      "Name": "사키",
+      "Text": "시끄러워."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그러고 보니 그 소설가의 작품 중에 성배를 찾는 기사단이 야생 토끼와 싸우는 에피소드가 있지 않았었나요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "응, 분명 그런 이야기도 있었지. 그런데 그건 갑자기 왜?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 소대가 막 창설되었을 때, 선배들에게 이런 질문을 했었거든요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "[ruby=RABBIT]'토끼'[/ruby]라는 소대명은 귀엽긴 하지만, 강력한 힘을 집행하는 SRT의 소대명으로는 다소 어울리지 않는 게 아닐까, 하고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그러자 선배들이 그 작품의 대사를 인용해서 답변을 해주셨어요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "'토끼는 일견 유순하고 귀여워 보이는 동물이지만, 화가 나면 무장한 기사단을 상대로도 싸움을 거는 무시무시한 짐승'이라고."
+    },
+    {
+      "Name": "사키",
+      "Text": "그거라면 일리 있네. 소설 속의 이야기이긴 하지만 성배를 찾던 기사단은 동굴을 지키던 토끼에게 목을 물어 뜯겨 달아나거든."
+    },
+    {
+      "Name": "사키",
+      "Text": "겉모습만 보고 상대를 얕잡아보면 누구든 그렇게 험한 꼴을 당하게 되는 거야."
+    },
+    {
+      "Name": "모에",
+      "Text": "그래서, 그 에피소드의 결말은 어떻게 되는데? 결국 기사단은 토끼 때문에 성배를 찾는 걸 포기하나?"
+    },
+    {
+      "Name": "사키",
+      "Text": "아니. 기사단이 던진 수류탄에 토끼는 산산조각이 나서 죽지만……"
+    },
+    {
+      "Name": "미유",
+      "Text": "역시…… 아무리 흉포한 토끼라도 총과 수류탄 앞에서는 무력한 존재일 뿐……"
+    },
+    {
+      "Name": "미유",
+      "Text": "우리의 미래도 마찬가지일 거야……"
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 이제 와서 고전 소설의 결말이 중요한 건 아니잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "지금은 이 호화로운 소고기의 맛을 즐기는 데 집중하자고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그런데 선생님, 지난번 카이저 PMC가 샬레를 점거했을 때 무언가 사라진 물건이나 서류는 없었나요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "샬레 건물에는 총학생회와 관련된 귀중품이 많다 보니 조금 걱정되네요……"
+    },
+    {
+      "Text": "[s] \"딱히 없는 것 같은데……\""
+    },
+    {
+      "Text": "[ns3] \"사건 이후로 내부 시설 대부분이 엉망이 되었는지라.\""
+    },
+    {
+      "Text": "[ns4] \"한 번 시간을 내서 확인해 봐야 할 것 같아.\""
+    },
+    {
+      "Name": "모에",
+      "Text": " ……그거라면 내가 지금 바로 확인해 줄 수 있지."
+    },
+    {
+      "Name": "모에",
+      "Text": " ……그거라면 내가 지금 바로 확인해 줄 수 있지."
+    },
+    {
+      "Name": "사키",
+      "Text": "갑자기 무슨 수로?"
+    },
+    {
+      "Name": "미유",
+      "Text": "설마 모에 쨩…… 무기를 주고받는 대가로 카이저 PMC와 몰래 정보 교환을……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그럴 리가 있겠냐!"
+    },
+    {
+      "Name": "모에",
+      "Text": "주변의 CCTV 기록 말이야. 샬레 건물의 출입문을 비추고 있는 근처의 CCTV 영상을 해킹하면 누가 언제 건물에 출입했는지, 무엇을 들고 갔는지 확인할 수 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "어차피 선생님이 납치되고 나서 샬레가 탈환될 때까지는 오래 걸리지 않았고. 출입 인원도 특정할 수 있으니, 누군가 수상한 물건을 가지고 빠져나갔다면 영상으로 확인할 수 있을 거야."
+    },
+    {
+      "Name": "사키",
+      "Text": "오, 모에 답지 않은 똑똑한 발상인데."
+    },
+    {
+      "Name": "사키",
+      "Text": "갑자기 비싼 고기를 먹었더니 탈이라도 난 거 아냐?"
+    },
+    {
+      "Name": "모에",
+      "Text": "시끄러워. 폭파시켜버린다!"
+    },
+    {
+      "Name": "모에",
+      "Text": "건물의 CCTV 영상을 보관하고 있는 클라우드 서버의 보안 정도야 휴대용 단말기 정도로 쉽게 해킹할 수 있으니까……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……됐다! 사건 당일의 주변 영상이야."
+    },
+    {
+      "Name": "미유",
+      "Text": "아…… 이거 탈환전 당시 영상이네."
+    },
+    {
+      "Name": "사키",
+      "Text": "여기 바이저 헬멧을 쓰고 있는 녀석들이 카이저의 SOF인지 SOAP인지 하는 녀석들이었지? 화려한 무기에 비해 생각 외로 시시한 녀석들이었는데."
+    },
+    {
+      "Name": "미야코",
+      "Text": "미유가 저격으로 적의 주의를 흩트려 준 덕분이지요. 정면 돌파를 시도했더라면 저희 쪽에서도 피해를 감내해야 했을 겁니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "그때는…… 사키 쨩과 미야코 쨩이 먼저 돌입해서 적의 위치를 전달해 준 덕분에 더 수월하게 저격할 수 있었어."
+    },
+    {
+      "Name": "사키",
+      "Text": "후후, 즐거웠었지……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……왜 갑자기 지난 졸업 앨범을 들춰 보는 분위기가 된 건데? 샬레에 출입하는 병사들의 손이나 잘 확인하라니까?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "음…… 이 시간대에는 우리가 직접 감시하고 있었으니까. 시간을 조금만 더 뒤로 돌려보면……"
+    },
+    {
+      "Name": "모에",
+      "Text": "응? 이 얼굴을 가린 병사들은 누구지? 카이저 PMC 소속은 아닌 것 같은데."
+    },
+    {
+      "Name": "모에",
+      "Text": "이 녀석들…… 샬레의 건물 지하에서 뭔가 가져간 것 같아. 들어올 때는 없었던 짐이, 나갈 때는 손에 들려 있어."
+    },
+    {
+      "Text": "[s] \"어떤 물건인지 확인할 수 있어?\""
+    },
+    {
+      "Name": "모에",
+      "Text": "화면의 해상도가 나빠서 그건 잘 모르겠어. 게다가 워낙 빠르게 움직이고 있어서……"
+    },
+    {
+      "Name": "모에",
+      "Text": "호오, 움직임을 보니 제법 잘 훈련된 병사들 같은데. 무기도 꽤나 고급품이고……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……사키도 눈치챘나요."
+    },
+    {
+      "Name": "사키",
+      "Text": "……응. 맞아. 저 장비는 분명……"
+    },
+    {
+      "Name": "모에",
+      "Text": "왜? 무슨 일인데 그렇게 심각한 표정으로 이야기를 나누고 있는 거야?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "샬레의 지하에서 물건을 훔쳐 간 저 신원 미상의 병사들이…… SRT의 장비를 사용하고 있는 것 같습니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그게 무슨 소리야? SRT의 장비라니……?"
+    },
+    {
+      "Name": "사키",
+      "Text": "리더로 보이는 인물이 사용하고 있는 저 레이저 포인터. 적외선 포인터와 가시광선 포인터가 모두 포함된 이중 복합 포인터야."
+    },
+    {
+      "Name": "사키",
+      "Text": "워낙 고가의 물건인 데다가 야간 투시 장비가 없으면 쓸모가 없기 때문에 SRT 학생용으로 지급된 것 이외에는 공식적으로 생산된 기록이 없거든."
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 병사들이 무전을 주고받을 때 사용하는 저 다기능 무전기도…… 확신하긴 어렵지만 SRT의 제식 제품이야. 디자인이 카이저 인더스트리에서 생산되는 것과는 완전히 달라."
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐라고? 어떻게 그럴 수가 있는데?!"
+    },
+    {
+      "Text": "[s] \"……응? 무슨 문제라도 있어?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "아, 아무것도 아니야! 그냥 전술에 관한 토론을 하던 중에 목소리가 높아진 것뿐이라……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "쉿, 모에. 목소리를 낮춰주세요."
+    },
+    {
+      "Name": "모에",
+      "Text": "미, 미안…… 나도 모르게 놀라서."
+    },
+    {
+      "Name": "미유",
+      "Text": "하지만 무슨 수로 외부의 병사들이 SRT의 장비를 손에 넣을 수 있는데?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "외부인이 SRT의 장비를 손에 넣으려면 두 가지 방법뿐이겠지요……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "SRT의 소대를 습격하여 장비를 노획했거나……"
+    },
+    {
+      "Name": "사키",
+      "Text": "SRT의 학생으로부터 직접 양도받았거나."
+    },
+    {
+      "Name": "모에",
+      "Text": "에이, SRT의 소대가 무슨 얼치기 용병 집단도 아니고. PMC 병사들에게 장비를 넘겨주는 일이 있을 리가—"
+    },
+    {
+      "Name": "모에",
+      "Text": "물물교환은 인류의 가장 고전적인 거래 방식이라고도 하잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그러니까 우리가 갖고 있는 귀한 물건을 건네주고, 대금으로 멀쩡한 무기와 탄약을 받아오는 거야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "아."
+    },
+    {
+      "Name": "사키",
+      "Text": "아."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그러고 보니 지난번에 캠프가 침수되었을 때, 긴급도가 높지 않은 특수부대용 장비를 일부 매각하긴 했었지요……"
+    },
+    {
+      "Name": "미유",
+      "Text": "게다가 그 무기 상인들…… 얼굴도 보여주지 않았고, 어딘가 수상했었지……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그럼 샬레를 습격한 녀석들에게 우리가 무기를 팔았다는 뜻이야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "……젠장. 이래서야 감사의 인사를 받기는커녕 사과를 해야 할 처지잖아."
+    },
+    {
+      "Text": "[ns5] \"다들 더 안 먹어?\""
+    },
+    {
+      "Text": "[ns6] \"고기, 아직 많이 남았는데……\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "아, 저희는 그게……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "아, 저희는 그게……"
+    },
+    {
+      "Name": "모에",
+      "Text": "아아~ 신경 쓰지 마. 고기라면 이미 충분히 먹었으니까."
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 저도 배가 불러서…… 더는 못 먹을 것 같아요."
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 갑자기 급하게 처리해야 할 일이 떠올라서 말이야."
+    },
+    {
+      "Text": "[s] \"급한 일이라면…… 화장실?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "아니거든! 섬세함 없기는……"
+    },
+    {
+      "Text": "[s] \"그럼 남은 고기는 샬레의 냉장고에 보관해 둘게.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "네, 그럼 부탁드리겠습니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "저…… 우리가 판매한 무기가 샬레의 습격에 사용되었다는 사실에 대해서는 선생님께 말씀드려야 하지 않을까?"
+    },
+    {
+      "Name": "미유",
+      "Text": "우리 때문에 선생님이 고생을 하셨다고 생각하니 마음이 불편해서……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……물론 사과를 드려야지요. 하지만 지금은 범인을 찾는 것이 우선입니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "나도 그 의견에 동의해. 선생님은 지난 사건의 뒷정리를 하느라 아직도 바쁘실 테니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "우리의 실수 때문에 걱정거리를 하나 더 늘리는 건 염치없는 일이야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "범인을 찾아 그들이 샬레에서 가져간 물건을 되돌려 받은 뒤에…… 선생님께는 따로 사과를 드리도록 하죠."
+    },
+    {
+      "Name": "미야코",
+      "Text": "모에. 혹시 지난번 판매한 무기가 어디로 흘러 들어갔는지 경로를 추적할 수 있나요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "조금 시간이 걸리겠지만 문제없어. 전자 장비에 포함된 고유 키값을 추적하면 그 무기상들이 어디로 갔는지 추적할 수 있을 테니까."
+    },
+    {
+      "Name": "미야코",
+      "Text": "알겠습니다. 그럼 나머지 대원 여러분은 즉시 출동할 수 있도록 장비의 점검을 부탁드리겠습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "SRT의 장비를 불의를 행하는 데 사용한 그 무기상들에게…… 진가를 보여줍시다."
+    },
+    {
+      "Text": "[ns] \"그러고 보니 남는 돼지고기도 조금 있었는데……\""
+    },
+    {
+      "Text": "[ns9] \"미야코……? 사키……?\""
+    },
+    {
+      "Text": "[ns10] \"다들 어디 간 거야……?\""
+    },
+    {
+      "Text": "다음화;예상치 못한 재회"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3; Bait"
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's ready! Grilled to perfection!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Then, without further ado..."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Thank you for the meal!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Wh-Wh-Whoa! It beats my wildest dreams!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "The melt-in-your-mouth texture from all that marbling and that amazing, rich flavor only top-notch beef can bring..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It makes every other piece of beef I've ever eaten seem fake... They just pale in comparison."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Yummy... So yummy... It's so soft it's like it's m-melting in my mouth. Like pudding..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I can't remember the last time we've indulged in something like this... I almost feel guilty."
+    },
+    {
+      "Text": "[ns] \"There's more than enough meat, so help yourselves.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Sensei... Even if it's to thank us, isn't this a bit much? This must have been really expensive..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Yeah! I'm a little suspicious... The reward seems to outrank the deed here."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Is this beef...a part of one of your evil schemes?!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Y-You tried to lure us in with d-delicious food!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "This must be the \"honey trap\" I've heard of before..."
+    },
+    {
+      "Text": "[s1] \"It's not! And that is NOT what honey trap means at all!\" "
+    },
+    {
+      "Text": "[s2] \"I have no ulterior motives. You all need to learn to accept gifts.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "You know what? I don't even care if it's a trap."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You know what? I don't even care if it's a trap."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is a rare opportunity to stuff ourselves with the highest quality beef imaginable! We wouldn't even be able to experience this at SRT."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Although, I HAVE had the experience of filling my stomach with cheap, canned pork back at SRT. Yum."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ugh... Can you not ruin the best meal of my life with the thought of canned pork?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We did eat a lot of pork, didn't we? All our field rations had pork in one form or another."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I remember one time our field training went longer than we'd planned and we had to survive on canned pork for over three days..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ick... That slimy taste of canned pork is definitely something I could've done without remembering... Thanks, Miyako."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I never realized... Why is it all pork?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Wh-Why couldn't we have corned beef...? Or some tuna, at least..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's just cost-efficient. Duh."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Higher-ups only see numbers, you know? They say it in our textbooks: When it comes to supplies, quantity over quality. You can't feed an army if you consider comfort or indulgences."
+    },
+    {
+      "Name": "Saki",
+      "Text": "That's why canned pork has been a go-to combat ration for so long. It's made from preserved meat, making it cost-effective with a lengthy shelf life. Even regular academies caught wind and started using them for school lunches."
+    },
+    {
+      "Name": "Saki",
+      "Text": "At one point, the cafeterias were using so much of it that some Trinity novelist tried to protest by swapping out all mentions of any food in their work with \"canned pork\" instead and distributing it all over campus."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Wow. Thanks so much. I definitely needed to know that. Not. N-e-r-d."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Shut up, you maniac arsonist!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Speaking of, didn't that Trinity novelist have an episode in their work where a group of knights on a quest for the Holy Grail ended up battling a wild rabbit?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I remember something along those lines, but what about it?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Way back when, I asked the seniors about our name. Sometime around when the RABBIT squad first came to be."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I was wondering why we had been named after a cute, harmless animal. SRT was supposed to be the symbol of discipline and justice, not fuzzy paws and floppy ears."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "She didn't answer in the way I expected at all. Instead, she recited a quote from that novel."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "\"The rabbit is not to be underestimated for its docile and adorable appearance. Proud and territorial, the rabbit becomes a fearsome beast that can fend off even brave knights when provoked.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "I think I remember that part. The knights searching for the Holy Grail try to enter a cave guarded by a rabbit, and it rips out their throats."
+    },
+    {
+      "Name": "Saki",
+      "Text": "And that's why we learned in our Tactics & Strategy classes to never underestimate an opponent from how they look."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, don't leave us on a cliffhanger. Does the rabbit beat up all the knights and they give up and go home?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Th-That... Um, the knights throw a grenade at the rabbit, and it ends up in little bits..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-Because no rabbit is strong enough to fight guns...or grenades...or bombs...or bad guys..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We're gonna end up blown up like the rabbit in the story!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey! The ending to some stupid book they made us read in school has nothing to do with us."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The only thing you should be concerning yourself with right now is this sumptuous beef."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This is a little out of the blue, Sensei, but it's been on my mind recently. I was wondering if any sensitive documents disappeared during Kaiser's occupation of Schale..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I was worried because of the amount of data on the General Student Council that's stored in the Schale building..."
+    },
+    {
+      "Text": "[s] \"There wasn't anything in particular that stood out... \""
+    },
+    {
+      "Text": "[ns3] \"But we didn't do a thorough search. The facilities were so trashed.\" "
+    },
+    {
+      "Text": "[ns4] \"Now that you're saying it, maybe I should double check...\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "I can do it! Gimme a sec..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I can do it! Gimme a sec..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Check? From here? How?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Moe... Did you give Kaiser intel for more weapons...?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hey! That was one time, okay?!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "But that's not what I'm doing! I just have to slip into Schale's server and pull the surveillance footage. We can check the entrances to see who was there and what they took."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Kaiser's occupation of the building after Sensei's abduction was pretty short-lived. We just have to narrow down our search to the exits during that time frame and make sure nothing important was taken."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Huh. A surprisingly good idea from Moe."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Are you okay? Did eating such nice food make you go crazy?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Shut up! I'll blow you up!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ugh. Ignoring the muscle-head, I should be able to get into the cloud server and snag the CCTV footage pretty easily..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee! Yup! There it is. Surveillance footage from the day of the attack."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Ah... This is around when we retook the building."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The guys in the helmets were Kaiser's super elite SOF? SOAP or whatever, right? They had impressive weapons, but they sure didn't know how to use them."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It was only as easy as it was because of Miyu's sniping. Without her, we would've had to take damage in a full-frontal assault."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "R-Really...? But I couldn't have done it w-without Saki taking point and relaying their locations... Miyako too..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Heehee. That's what a squad is for. That was a fun operation..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We're starting to sound like old women reminiscing on our glory days. Stop gabbing and help me check this footage to see if any Kaiser soldiers took anything with them!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, I guess we wouldn't find anything here... Let me go back a little bit..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Who are those soldiers? Those masks and uniforms don't look like Kaiser."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Right there... It looks like they're bringing something out of the basement. Do you see their hands? They weren't holding that when they went in."
+    },
+    {
+      "Text": "[s] \"Can you tell what it is?\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Not really... The video quality sucks, and they're moving fast."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Way too fast, actually. No wasted movements, deft handling of advanced weaponry..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Saki, you see it too, right?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "The video is grainy, but I'd recognize that equipment anywhere..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "All right, all right! Doom and Gloom over there, would you like to share with the class?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You're right that those soldiers didn't look like Kaiser... That's SRT equipment they're using."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-But we have all of SRT's remaining equipment..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The leader's laser pointer... It's a dual compound one with both infrared and visible light capabilities."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's super pricey and pretty much useless without night vision gear, so they've only ever really been made for SRT students."
+    },
+    {
+      "Name": "Saki",
+      "Text": "And that radio they're using to communicate... I can't be certain, but it looks a lot like SRT's. All of SRT's equipment is especially designed to meet our needs, and they definitely don't look anything like Kaiser's communication technologies."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Are you serious?! But how could they have gotten their hands on them?"
+    },
+    {
+      "Text": "[s] \"Huh? Did you say something?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Uh, n-no! Not at all! I got a little excited talking about tactics... You know how it is!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I know it's not in your nature, Moe, but you have to be quiet. Sensei can't know until we figure out what's going on here."
+    },
+    {
+      "Name": "Moe",
+      "Text": "You're right, sorry. It's just so unbelievable."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I think so too... I don't know how random people would be able to get SRT's equipment like that..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There're only two ways I can think of."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "First, they raided an SRT squad or base and looted the equipment."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The only other way would be if an SRT student provided them."
+    },
+    {
+      "Name": "Moe",
+      "Text": "That's what's unbelievable. No SRT student would be stupid enough to hand over equipment to PMC soldiers. We're elite agents, not some brutish, greedy..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "People've been bartering for things they want since before we could talk."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And so, easy peezy lemon squeezy, we'll trade off our valuable items for new and wonderful incendiaries...and weapons!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ah."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ah."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It seems we may have been the stupid SRT students. We sold off some non-essential equipment to recoup our losses when the camp was flooded."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "D-Do you remember those arms dealers? They had big masks on so we couldn't see their faces..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "So you're telling me... We, the RABBIT squad, are the ones who supplied Schale's invaders with weapons?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "...And here we are, gorging ourselves on high-quality meat, given to us to thank us for fighting off said invaders..."
+    },
+    {
+      "Text": "[ns5] \"Is everyone full? Are you sure you don't want more?\" "
+    },
+    {
+      "Text": "[ns6] \"Stop talking and come eat! There's still so much left!\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We're... Well, uh..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We're... Well, uh..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, geez! I think this is what they call a food baby..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-M-Me too! Yeah! The f-fullest I've ever been..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Whoa! I suddenly remembered something super urgent I have to take care of today. Right now!"
+    },
+    {
+      "Text": "[s] \"What could be super urgent so suddenly? Do you need a bathroom?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ugh, no! You have no filter when you talk, Sensei!"
+    },
+    {
+      "Text": "[s] \"I'm just teasing. I'll save the rest of the meat for you at Schale, then.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Are we not gonna tell Sensei about selling weapons to the bad guys?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I feel bad... If not for us... Sensei wouldn't have gone through all of that stuff..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I feel guilty as well, Miyu. And we will tell Sensei and apologize later, but first we need to apprehend the culprits."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyako's right. If we go to Sensei now, all we're doing is bringing them another problem. They have enough on their plate as it is, dealing with the Restoration Project and everything else."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The last thing Sensei needs is another thing to worry about, especially because of something we did."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes. We'll find the culprits, retrieve the stolen goods, and then give Sensei a proper apology."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "To start, I'll need your help, Moe. We need to collect information, anything you can on where the weapons went after we sold them."
+    },
+    {
+      "Name": "Moe",
+      "Text": "It might take a bit, but it's doable. If I trace the unique key values embedded in the electronics, I'll hopefully be able to trace their path."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "For the rest of you, please begin routine checks of all our gear. Quickly, so we're prepared to leave as soon as Moe has what we need."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I won't let those arms dealers sully SRT's equipment with their injustices any longer."
+    },
+    {
+      "Text": "[ns] \"I know you said you were full, but I forgot about the extra pork...\""
+    },
+    {
+      "Text": "[ns9] \"Miyako...? Saki...?\""
+    },
+    {
+      "Text": "[ns10] \"Where did everyone go...?\""
+    },
+    {
+      "Text": "Next Episode;An Unexpected Reunion"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;เหยื่อล่อ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อืม.. ย่างแค่นี้ก็น่าจะพอแล้วนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้างั้นก็..."
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "จะทานให้อร่อยเลยค่ะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อะไรเนี่ย เนื้อนี่มันอะไรกัน? เป็นเนื้อที่อร่อยที่สุดเท่าที่ฉันเคยกินมาเลย!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เนื้อสัมผัสนุ่มๆ จากริ้วชั้นไขมันที่แทรกตัวบนเนื้อ และก็รสกลมกล่อมอันเป็นเอกลักษณ์ของเนื้อวัว\nคุณภาพสูง..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เทียบกับเนื้อสันนอกนี่แล้ว เนื้อที่อยู่ในข้าวกล่องที่เรากินๆ กันนี่อย่างกับเนื้อปลอมเลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "พอใส่ปากก็ละลาย... เหมือนกับได้กินพุดดิ้งนุ่มๆ ยังไงยังงั้น..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เป็นเนื้อคุณภาพเยี่ยมจริงๆ เลยนะคะ... ฉันไม่ได้กินอาหารหรูๆ แบบนี้มานานจนรู้สึกผิดกับลิ้นตัวเอง\nเลยค่ะ"
+    },
+    {
+      "Text": "[ns] \"ครูหิ้วเนื้อมาพอสำหรับทุกคนเลย ค่อยๆ กินกันนะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอ่อ... ถึงจะบอกว่านี่เป็นการตอบแทนเรื่องคราวก่อนก็เถอะ แต่การซื้อเนื้อวัวชั้นดีราคาแพงมาให้พวก\nฉันแบบนี้จะไม่เป็นไรเหรอคะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... นั่นน่ะสิ ถึงจะเป็นการตอบแทนเรื่องที่พวกเราไปช่วย แต่แบบนี้มันก็ฟู่ฟ่าเกินไปนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หรือว่า... เนื้อนี่คือเหยื่อที่ใช้ล่อพวกฉันให้ติดกับรึเปล่า?!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "หลอกให้อีกฝ่ายตกหลุมพรางด้วยอาหารอร่อยๆ งั้นเหรอ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ที่เขาเรียกกันว่าแผนนารีพิฆาต...?"
+    },
+    {
+      "Text": "[s1] \"แผนนารีพิฆาตไม่ได้มีความหมายแบบนั้นนะ...\""
+    },
+    {
+      "Text": "[s2] \"นี่เป็นแค่น้ำใจจากครูน่ะ ไม่ต้องเกรงใจหรือคิดมากกันนะ\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงจะใช่ก็ไม่เห็นเป็นไรเลย ถ้าเป็นกับดักอร่อยๆ แบบนี้ละก็ ฉันเต็มใจติดกับให้เลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงจะใช่ก็ไม่เห็นเป็นไรเลย ถ้าเป็นกับดักอร่อยๆ แบบนี้ละก็ ฉันเต็มใจติดกับให้เลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ประสบการณ์ล้ำค่าที่ได้อิ่มท้องด้วยเนื้อวัวเกรดพรีเมียมแบบนี้น่ะ ต่อให้ได้กลับไปสถาบัน SRT ก็คงหา\nไม่ได้หรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นั่นน่ะสิ ปกติเราประทังท้องกันด้วยหมูผัดกระป๋องราคาถูกๆ นี่เนอะ ฮุฮุ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อึก... กำลังกินเนื้ออร่อยๆ อยู่แท้ๆ อย่าพูดให้ไม่อยากอาหารสิ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จริงค่ะ อาหารต่อสู้กลางแจ้งที่ทาง SRT แจกให้ก็มีแต่หมูหมักเกลือมาตลอดเลยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มีครั้งหนึ่งที่การฝึกจัดค่ายพักชั่วคราวที่จัดขึ้นโดยกองทหารภายนอกกินเวลานานกว่าที่คิด เราก็เลยต้องกินเนื้อหมูในกระป๋องติดต่อกันสี่วันเลยค่ะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ต้องมากินเนื้อหมูกระป๋องที่มันๆ และน่าชวนแหวะตั้งแต่เช้า.. ฉันไม่อยากเจอประสบการณ์แบบนั้นอีก\nแล้ว..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ว่าแต่ทำไมเสบียงของแจกของ SRT ถึงมีเนื้อหมูกระป๋องเยอะขนาดนั้นนะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อย่างน้อยก็น่าจะมีคอร์นบีฟ หรือไม่ก็ทูน่ากระป๋องมาให้บ้างสิ จะได้กินได้โดยที่ไม่เบื่อ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เหตุผลมันก็แน่นอนอยู่แล้ว ก็มันราคาถูกที่สุดยังไงล่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกคนตำแหน่งสูงๆ เค้าก็ดูกันแต่ตัวเลขกันทั้งนั้นแหละ ถึงกับมีคำกล่าวในคติพจน์เก่าว่า 'จำไว้ว่าเสบียงของกองทหารต้องเป็นสินค้าที่เสนอราคาต่ำสุดเสมอ' เลยละ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โดยเฉพาะเนื้อหมูกระป๋องที่เอาเศษเนื้อมาหมักเกลือ ที่ทั้งราคาถูกและเก็บรักษาได้นานมากๆ ก็เลย\nถูกใช้เป็นอาหารหลักในยามต่อสู้มานานแล้ว"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เสบียงเนื้อหมูกระป๋องมีมากเสียจนนักเขียนนิยายคนหนึ่งในทรีนิตี้อยากจะคัดค้านขึ้นมา เธอเลยแต่ง\nนิยายของตัวเองให้อาหารทุกอย่างในนิยายเป็นเนื้อหมูกระป๋องหมดเลยด้วย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว้าว แต่นี่ไม่ใช่ข้อมูลที่ฉันอยากรู้เลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หนวกหูน่า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... จะว่าไป ในนิยายของนักเขียนคนนั้นมีตอนที่อัศวินออกตามหาจอกศักดิ์สิทธิ์แล้วไปต่อสู้กับกระต่าย\nป่าด้วยนี่คะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใช่ มันมีเรื่องแบบนั้นอยู่ด้วย ว่าแต่ทำไมจู่ๆ ก็พูดเรื่องนี้ขึ้นมากันล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ตอนที่เพิ่งก่อตั้งกองทหาร RABBIT ฉันเคยถามพวกรุ่นพี่แบบนี้น่ะค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การใช้ชื่อกองทหารว่า [ruby=RABBIT]'กระต่าย'[/ruby] ก็ฟังดูน่ารักดี แต่มันดูไม่เหมาะสมสำหรับการตั้งเป็นชื่อ\nกองทหารของ SRT ที่มีพลังแข็งแกร่งหรือเปล่า ประมาณนี้น่ะค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พอถามไปแบบนั้น พวกรุ่นพี่ก็ตอบแบบอ้างอิงนิยายเรื่องนั้นว่า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "'ถ้ามองผ่านๆ จะเห็นว่ากระต่ายเป็นสัตว์ที่ดูอ่อนโยนและน่ารัก แต่เมื่อโกรธขึ้นมา จะกลายเป็นสัตว์\nน่ากลัวที่พอจะต่อสู้กับกองอัศวินติดอาวุธได้เลย'"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็ฟังดูมีเหตุผลนะ ถึงนี่จะเป็นเรื่องในนิยายก็เถอะ แต่อัศวินที่ตามหาจอกศักดิ์สิทธิ์ถึงกับโดนกระต่าย\nที่เฝ้าถ้ำกัดคอเข้าให้เลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้าดูถูกฝ่ายตรงข้ามเพราะดูจากแค่ภายนอก ไม่ว่าใครก็ต้องตกอยู่ในสภาพแบบนั้นกันทั้งนั้นแหละ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แล้วตอนจบของเรื่องนั้นเป็นยังไงเหรอ? อัศวินเลิกตามหาจอกศักดิ์สิทธิ์เพราะกระต่ายหรือเปล่า?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เปล่า ในตอนจบกระต่ายโดนระเบิดมือที่อัศวินปาใส่จนตัวแหลกไม่เป็นชิ้นดีเลยละ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ว่าแล้วเชียว... ต่อให้เป็นกระต่ายที่ดุร้ายแค่ไหน แต่พออยู่ต่อหน้าปืนกับระเบิดมือแล้วก็ต้องขยาดกัน\nหมดสินะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อนาคตของพวกเราก็น่าจะไม่ต่างกันเลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอาเหอะ ตอนจบของนิยายโบราณๆ มันจะเป็นยังไงก็ไม่สำคัญอยู่แล้วนี่?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตอนนี้มาโฟกัสกับรสชาตินุ่มลิ้นของเนื้อวัวพรีเมียมนี้กันดีกว่า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ว่าแต่คุณครูคะ ตอนที่ไคเซอร์ PMC บุกมายึดชาเล่ต์คราวก่อน มีสิ่งของหรือเอกสารอะไรหายไปบ้าง\nไหมคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ในอาคารชาเล่ต์มีของมีค่าที่เกี่ยวกับองค์การนักเรียนอยู่ไม่น้อย ฉันก็เลยเป็นกังวลน่ะค่ะ..."
+    },
+    {
+      "Text": "[s] \"ไม่น่าจะมีอะไรหายไปนะ...\""
+    },
+    {
+      "Text": "[ns3] \"ส่วนใหญ่พวกข้าวของข้างในก็กระจัดกระจายกันหมด\""
+    },
+    {
+      "Text": "[ns4] \"เห็นทีต้องหาเวลาไปตรวจสอบดูหน่อยแล้วละ\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... ถ้าเป็นเรื่องนั้น ฉันตรวจสอบให้ได้ตอนนี้เลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... ถ้าเป็นเรื่องนั้น ฉันตรวจสอบให้ได้ตอนนี้เลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ด้วยวิธีไหนกันล่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "โมเอะจัง อย่าบอกนะว่า... จะไปแอบแลกเปลี่ยนข้อมูลกับไคเซอร์ PMC เพื่อตอบแทนเรื่องอาวุธน่ะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "จะเป็นแบบนั้นได้ยังไงเล่า!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "จากบันทึกกล้องวงจรปิดแถวนั้นต่างหาก ถ้าเราแฮ็กวิดีโอจากกล้องวงจรปิดที่ถ่ายแถวๆ ประตูเข้าออก\nอาคารชาเล่ต์ได้ เราก็จะเช็กได้ว่าใครเข้าออกอาคารไปตอนไหนบ้างและถืออะไรกลับไปบ้างยังไงล่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตั้งแต่ตอนที่คุณครูโดนลักพาตัวจนถึงตอนที่ยึดชาเล่ต์คืนมาได้ก็ไม่ได้กินเวลานานเท่าไรด้วย ถ้ามีใครที่ถือของน่าสงสัยๆ ออกมา เราก็น่าจะเห็นได้จากวิดีโอนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หืม เป็นแผนการที่ฉลาด ไม่สมกับเป็นโมเอะเลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หรือว่าพอได้กินเนื้อราคาแพง สมองก็เลยดีขึ้นมา?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หนวกหูน่า เดี๋ยวก็จุดระเบิดซะเลยนี่!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เรื่องระบบการรักษาความปลอดภัยของคลาวด์เซิร์ฟเวอร์ที่มีวิดีโอจากกล้องวงจรปิดของอาคารละก็ ใช้แค่เครื่องปลายทางแบบพกพาก็แฮ็กได้แล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... เจอแล้ว! วิดีโอจากบริเวณรอบๆ ในวันที่เกิดเหตุ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ๊ะ... นี่มันวิดีโอก่อนที่จะยึดชาเล่ต์กลับมาได้นี่นา"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกที่ใส่หมวกกันน็อกมีกระบังหน้าตรงนี้คือพวก SOF หรือ SOAP ของไคเซอร์ใช่ไหม? พอเทียบกับ\nอาวุธชิ้นใหญ่โตที่ถือมาด้วยแล้ว พวกนั้นดูเป็นคนธรรมดามากกว่าที่คิดอีกแฮะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ต้องขอบใจที่มิยุช่วยลอบยิงเบี่ยงเบนความสนใจของศัตรูได้เลยนะคะ ถ้าพวกนั้นบุกเข้ามาด้านหน้า พวกเราเองก็คงได้รับความเสียหายไปไม่น้อยเลยค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถ้าเป็นตอนนั้น... ต้องขอบคุณซากิจังกับมิยาโกะจังที่ช่วยเปิดงานให้ก่อนมากกว่า ฉันก็เลยรู้ตำแหน่ง\nของศัตรูจนลอบยิงได้โดยที่ไม่ต้องลำบากอะไรมากน่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮุฮุ ตอนนั้นฉันสนุกมากเลยละ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "...ทำไมจู่ๆ บรรยากาศถึงเหมือนเรากลับไปเปิดหนังสือรุ่นดูอีกครั้งเลยล่ะ? บอกให้สังเกตมือของทหาร\nที่เดินเข้าออกชาเล่ต์ ไม่ใช่ให้มารำลึกความหลังกันสักหน่อย!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อืม... ช่วงนั้นพวกเราน่าจะยืนสังเกตการณ์กันอยู่นะ งั้นลองเลื่อนไปดูในเวลาหลังจากนั้นหน่อย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หืม? ทหารที่ปิดหน้าพวกนี้เป็นใครกันน่ะ? ไม่เห็นเหมือนคนของไคเซอร์ PMC เลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เจ้าคนพวกนี้... เหมือนจะหยิบเอาอะไรออกมาจากชั้นใต้ดินของอาคารชาเล่ต์เลย ตอนเข้าไปก็ไปแบบ\nมือเปล่าๆ แต่พอตอนออกมากลับมีของติดมือมาด้วย"
+    },
+    {
+      "Text": "[s] \"เช็กดูได้ไหมว่าของที่ว่าคืออะไร?\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หน้าจอไม่ค่อยละเอียดเท่าไรเลย แถมพวกนั้นยังเดินกันเร็วมากๆ เลยด้วย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หืม ดูจากการเคลื่อนไหวแล้ว ดูเป็นทหารที่ได้รับการฝึกมาไม่ใช่เล่นๆ เลยนะ อาวุธที่ใช้ก็อยู่ในระดับ\nแนวหน้าอีก..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... ซากิเองก็สังเกตุเห็นเหมือนกันสินะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... อืม ใช่ อุปกรณ์อันนั้นมัน..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทำไมๆ? คุยเรื่องอะไรกันอยู่เหรอ ทำไมถึงทำหน้าเครียดกันขนาดนั้นล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกทหารปริศนาที่ขโมยของออกจากชั้นใต้ดินของชาเล่ต์... เหมือนกำลังใช้อาวุธของ SRT อยู่เลยค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ... หมายความว่ายังไง? อุปกรณ์ของ SRT งั้นเหรอ...?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เห็นคนที่ท่าทางเหมือนเป็นหัวหน้าไหม ตัวชี้เลเซอร์ที่เธอใช้อยู่เป็นตัวชี้แบบคู่ที่มีทั้งรังสีอินฟราเรด และก็แสงที่มองเห็นได้"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นอกจากจะเป็นของที่ราคาแพงหูฉี่แล้ว มันจะไม่มีประโยชน์เลยถ้าไม่มีอุปกรณ์ในการมองเห็นตอน\nกลางคืน ตัวชี้นี้เลยไม่มีบันทึกการผลิตอย่างเป็นทางการ นอกจากจะแจกจ่ายให้กับนักเรียน SRT น่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แถมวิทยุสื่อสารมัลติฟังก์ชันที่พวกทหารเอาไว้ติดต่อแบบไร้สายนั่นก็ด้วย... ถึงจะยังฟันธงไม่ได้ แต่มันก็\nมีส่วนที่จะเป็นอุปกรณ์ของ SRT อยู่นะ ดูจากดีไซน์แล้ว มันไม่เหมือนกับของผลิตจากไคเซอร์ อินดัสทรี อย่างสิ้นเชิงเลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าไงนะ? มันจะเป็นแบบนั้นได้ยังไง?!"
+    },
+    {
+      "Text": "[s] \"...หืม? มีปัญหาอะไรเหรอ?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มะ.. ไม่มีอะไรหรอก! แค่กำลังเถียงกันเรื่องยุทธวิธี เสียงมันก็เลยดังขึ้นน่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ชู่ว โมเอะ ลดเสียงลงหน่อยค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ขะ... ขอโทษที... ฉันเผลอตกใจเข้าน่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่ทำไมทหารภายนอกถึงมีอุปกรณ์ของ SRT อยู่ในมือได้ล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าคนนอกจะยึดอุปกรณ์ของ SRT มาใช้ ก็มีอยู่ด้วยกันแค่สองวิธีค่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าไม่บุกโจมตีหน่วยทหารของ SRT แล้วแย่งอุปกรณ์มา..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็ได้รับมาจากนักเรียน SRT โดยตรง"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "บ้าน่า กองทหาร SRT ไม่ใช่กลุ่มทหารรับจ้างกิ๊กก๊อกนะ พวกเราไม่มีทางเอาอุปกรณ์ไปให้ทหาร PMC ใช้หรอก—"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "การแลกเปลี่ยนคือวิธีการซื้อขายที่คลาสสิกที่สุดของมนุษยชาติ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เพราะงั้นเราจะใช้ของมีค่าที่เรามีไปแลกกระสุนกับอาวุธมาใช้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จะว่าไป ตอนที่ค่ายของเราถูกน้ำท่วมคราวก่อน เราขายอุปกรณ์สำหรับหน่วยรบพิเศษบางส่วนที่ยัง\nไม่มีความจำเป็นต้องใช้ไปนี่คะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แถมพวกค้าอาวุธพวกนั้นก็ปิดหน้าไม่ให้พวกเราเห็น แล้วก็มีท่าทางแปลกๆ ด้วย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "งั้นก็แปลว่าพวกเราขายอาวุธให้กับพวกที่เข้ามาบุกรุกชาเล่ต์งั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... บ้าจริง แบบนี้เราไม่ควรได้รับคำขอบคุณ แต่ต้องไปขอโทษชาเล่ต์มากกว่าสิ"
+    },
+    {
+      "Text": "[ns5] \"ทุกคนไม่กินแล้วเหรอ?\""
+    },
+    {
+      "Text": "[ns6] \"เนื้อยังเหลืออีกเยอะเลยนะ...\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อ่า พอดีว่าพวกฉัน..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อ่า พอดีว่าพวกฉัน..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่มีอะไร~ ไม่ต้องใส่ใจหรอก พวกเรากินเนื้อกันไปเยอะแล้วละ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉะ... ฉันก็อิ่มแล้วเหมือนกันค่ะ... ให้กินต่อคงไม่ไหวแล้ว"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันเพิ่งนึกขึ้นมาได้ด้วยน่ะว่ายังมีเรื่องด่วนที่ต้องไปทำอยู่อีกน่ะ"
+    },
+    {
+      "Text": "[s] \"เรื่องด่วนงั้นเหรอ... หรือว่าข้าศึกบุก?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่ใช่ซะหน่อย! ใครมันจะท่อตรงขนาดนั้นกันเล่า..."
+    },
+    {
+      "Text": "[s] \"งั้นครูจะเอาเนื้อที่เหลือใส่ตู้เย็นที่ชาเล่ต์ไว้นะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ ถ้างั้นก็รบกวนด้วยนะคะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นี่... เราไม่ต้องบอกคุณครูเหรอว่าอาวุธที่เราขายไปถูกเอามาใช้ในการบุกรุกชาเล่ต์เมื่อคราวก่อนน่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "พอคิดว่าคุณครูต้องลำบากเพราะพวกเรา ฉันก็รู้สึกไม่ดีเลย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... แน่นอนว่าเราต้องไปขอโทษค่ะ แต่ตอนนี้สิ่งแรกที่ต้องทำคือการจับคนร้ายค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันเองก็เห็นด้วยนะ เดี๋ยวคุณครูก็คงจะยุ่งๆ วุ่นๆ กับการเก็บกวาดเหตุการณ์ที่ผ่านมา"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้าจะให้คุณครูต้องมากังวลเพราะความผิดพลาดที่พวกเราก่อ มันก็ดูน่าละอายใจไปหน่อยนะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราควรตามหาตัวคนร้ายและให้เอาของที่ขโมยจากชาเล่ต์มาคืนก่อน... แล้วจากนั้นค่อยขอโทษคุณครู\nเถอะค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โมเอะ พอจะสืบเส้นทางให้หน่อยได้ไหมคะว่าอาวุธที่เราขายไปมันถูกส่งไปที่ไหน?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อาจจะต้องใช้เวลาหน่อย แต่ก็สืบได้สบายมาก แค่ไล่หาจากค่าคีย์ของอุปกรณ์อิเล็กทรอนิกส์ เราก็รู้ได้แล้วว่าพวกคนค้าอาวุธพวกนั้นส่งต่ออาวุธของเราไปไว้ที่ไหน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เข้าใจแล้วค่ะ ถ้างั้นทุกคนที่เหลือก็ขอให้ตรวจสอบอุปกรณ์และอาวุธของตัวเองให้พร้อมต่อการ\nระดมพลในทันทีด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มาทำให้พวกคนค้าอาวุธที่เอาอุปกรณ์ของ SRT ไปใช้อย่างไร้ศีลธรรมได้เห็นกันค่ะว่าคุณค่าที่แท้จริง\nของเราคืออะไร"
+    },
+    {
+      "Text": "[ns] \"จะว่าไป เรายังมีเนื้อหมูเหลืออยู่อีกหน่อยนะ...\""
+    },
+    {
+      "Text": "[ns9] \"มิยาโกะ...? ซากิ...?\""
+    },
+    {
+      "Text": "[ns10] \"ทุกคนไปไหนกันหมดน่ะ...?\""
+    },
+    {
+      "Text": "ตอนต่อไป;การพบกันโดยบังเอิญ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;誘餌"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯……這樣應該烤得差不多了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那麼……"
+    },
+    {
+      "Name": "全體",
+      "Text": "我要開動囉！"
+    },
+    {
+      "Name": "萌",
+      "Text": "這，這個味道……實在太罪惡了……！！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "一口就能感受到油花在口中蔓延……\n凝結的鮮味充滿整個口腔……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "跟它比起來，至今為止吃過的牛肉到底都是些什麼東西啊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這種入口即化的感覺……還有香甜的油脂……"
+    },
+    {
+      "Name": "都子",
+      "Text": "真的是很棒的肉呢……\n也許是因為實在太奢侈，舌頭都產生罪惡感了……"
+    },
+    {
+      "Text": "[ns]「肉有很多，多吃點哦。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "那個……真的沒關係嗎？\n雖然說是上次事情的謝禮，竟然買這麼多昂貴的牛肉給我們……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……說的也是，以那時的報酬來說確實太豪華了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "該不會……這些肉是想讓我們掉入陷阱的誘餌！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "用香甜的食物來讓對方掉入陷阱……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這，這就是傳說中的蜜糖陷阱……？"
+    },
+    {
+      "Text": "[s1]「感覺意思好像有點不太一樣……」"
+    },
+    {
+      "Text": "[s2]「只是單純的謝禮，不用想太多。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……算了，如果是這種陷阱，要我上當幾次都行。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……算了，如果是這種陷阱，要我上當幾次都行。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "像這種只用高級牛肉填飽肚子的經驗，就算回到SRT特殊學園也體驗不到吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "就是啊。不過廉價的豬肉罐頭應該想吃多少都沒問題。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔……難得在吃好吃的牛肉，別讓我想起來啊……"
+    },
+    {
+      "Name": "都子",
+      "Text": "確實，SRT的野戰配給糧食一直都是鹽漬豬肉。"
+    },
+    {
+      "Name": "都子",
+      "Text": "還有在某次宿營訓練中，曾經只吃豬肉罐頭吃了四天以上……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "是在說一大早就只能吃油膩膩的豬肉罐頭的那個時候啊……\n那種糟透的回憶再也不想經歷了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "不過……SRT的補給品為什麼全都是豬肉罐頭呢？"
+    },
+    {
+      "Name": "美優",
+      "Text": "至少給一些玉米牛肉或鮪魚罐頭也行啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這個嘛，想必是因為最便宜吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那些偉大的人最喜歡玩數字遊戲了。\n甚至有「補給品應當永遠為最低價格供應的物品」這樣的格言。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "豬肉罐頭不只價格低廉，保存期限也很長。\n因此從很久以前就經常被用為戰鬥糧食。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "要說有多愛用的話……甚至有某位三一的小說家因為餐點實在出現太多豬肉罐頭，\n多到把自己作品內出現的所有食物都換成豬肉罐頭來抗議。"
+    },
+    {
+      "Name": "萌",
+      "Text": "現在又不是在吃豬肉罐頭，用不著說這些事吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "少囉嗦。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那位小說家我也知道。\n記得在他的作品中也有尋找聖杯的騎士團和野生兔子戰鬥的故事對吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "確實是有沒錯──怎麼了嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT小隊剛成立的時候，我有問過前輩這個問題。"
+    },
+    {
+      "Name": "都子",
+      "Text": "[ruby=RABBIT]「兔子」[/ruby]雖然是個可愛的名字，\n但作為執行強大力量的SRT小隊名會不會不適合，這樣。"
+    },
+    {
+      "Name": "都子",
+      "Text": "然後前輩們就引用了那部作品的台詞來回答。"
+    },
+    {
+      "Name": "都子",
+      "Text": "「兔子乍看之下是溫馴可愛的動物，\n　但一旦生起氣來就會變成連挑戰武裝的騎士都不怕的猛獸」。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我記得在小說中，尋找聖杯的騎士團被守在洞穴裡的兔子撕咬脖子而逃跑了吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "要是光看外表就瞧不起對方，遲早會悔不當初的。"
+    },
+    {
+      "Name": "萌",
+      "Text": "話說那個故事的結尾是什麼？\n騎士團因為敗給兔子就放棄尋找聖杯了嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "沒有，兔子被騎士團丟出的手榴彈一網打盡了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "果然……無論是多強的兔子，在手榴彈面前也是無力的存在啊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們的未來也……肯定會……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "別在意，那也只是個比喻而已不是嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "現在還是專心享受這個豪華牛肉的美味吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "話說回來，老師。\n上次凱薩PMC佔據夏萊的時候，有沒有弄丟什麼東西呢？"
+    },
+    {
+      "Name": "都子",
+      "Text": "夏萊應該會有很多和聯邦學生會有關的物品，我有點擔心……"
+    },
+    {
+      "Text": "[s]「應該是沒有……」"
+    },
+    {
+      "Text": "[ns3]「不過事件過後的整理也還沒結束。」"
+    },
+    {
+      "Text": "[ns4]「之後我會抽空確認一下。」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……想要的話，我現在就可以幫你確認哦～"
+    },
+    {
+      "Name": "萌",
+      "Text": "……想要的話，我現在就可以幫你確認哦～"
+    },
+    {
+      "Name": "咲希",
+      "Text": "現在要怎麼檢查？"
+    },
+    {
+      "Name": "美優",
+      "Text": "萌醬……你該不會在背地裡和凱薩PMC偷偷交換情報……"
+    },
+    {
+      "Name": "萌",
+      "Text": "怎麼可能會呢！"
+    },
+    {
+      "Name": "萌",
+      "Text": "我是說附近監視器的記錄。只要駭入夏萊入口附近的監視器，\n就能知道誰在什麼時候出入了大樓，又拿走了什麼東西呀～"
+    },
+    {
+      "Name": "萌",
+      "Text": "反正從老師被綁架到奪回夏萊為止也沒過多少時間，出入的人數應該也不多，\n要是有人拿走了可疑的東西應該一下就能發現才對。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哦哦，以萌來說真是個不錯的想法啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "怎麼，是吃了高級牛肉之後連腦袋都變好了嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "少囉嗦！你是想被我炸飛是不是！"
+    },
+    {
+      "Name": "萌",
+      "Text": "我看看……駭入監視器影像的雲端伺服器安全系統之後……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……成功了！這就是事件當天的影像。"
+    },
+    {
+      "Name": "美優",
+      "Text": "啊……這個是奪還作戰時的……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這些帶著面罩頭盔的傢伙，就是凱薩那些叫做SOF還是SOAP的傢伙對吧？\n明明武器這麼華麗，實力卻不怎麼樣啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "多虧美優用狙擊擾亂了敵人的注意力。\n如果正面突破的話，我們想必也會出現一定的損害吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "是因為咲希醬和都子醬率先突入……\n告知敵人的位置，我才能順利地狙擊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呵呵，真開心……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……為什麼突然變成在回顧畢業紀念冊的氛圍了？\n仔細檢查士兵們帶的東西啊！"
+    },
+    {
+      "Name": "萌",
+      "Text": "唔嗯……從這裡開始就是我們親自監視的，所以稍微倒轉一點……"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗯？這個遮住臉的士兵是誰？\n好像不是隸屬於凱薩PMC。"
+    },
+    {
+      "Name": "萌",
+      "Text": "這些傢伙……拿著進入時還沒有的東西呢。"
+    },
+    {
+      "Text": "[s]「可以確認他們拿著什麼東西嗎？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "畫面的解析度太差所以看不太清楚……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不過，他們的動作看起來像是訓練有素的士兵。\n武器也是相當高級的……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……咲希。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……啊啊，那個裝備是……"
+    },
+    {
+      "Name": "萌",
+      "Text": "怎麼了？你們兩個怎麼突然那麼嚴肅？"
+    },
+    {
+      "Name": "都子",
+      "Text": "那些從夏萊偷走東西的身分不明的士兵……好像用著SRT的裝備。"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那是什麼意思……？\nSRT的裝備……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "看起來像是隊長的人使用的那隻雷射筆，是包含紅外線和可見光的雙重複合雷射筆。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不只價格高昂，還無法在沒有夜視裝備的情況下使用，\n因此除了發放給SRT的學生使用之外，並沒有正式生產的記錄。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "還有那些士兵們使用的對講機……恐怕也是SRT的制式產品。\n畢竟設計和凱薩工業生產的完全不同。"
+    },
+    {
+      "Name": "萌",
+      "Text": "什麼？怎麼會這樣！？"
+    },
+    {
+      "Text": "[s]「……嗯？知道些什麼了嗎？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "沒，沒什麼！\n只是在討論戰術的時候激動了一點……"
+    },
+    {
+      "Name": "都子",
+      "Text": "噓，萌，請小聲一點。"
+    },
+    {
+      "Name": "萌",
+      "Text": "抱，抱歉……我嚇了一跳……"
+    },
+    {
+      "Name": "美優",
+      "Text": "不過，外部的士兵居然會拿著SRT的裝備……"
+    },
+    {
+      "Name": "都子",
+      "Text": "外部人士想得到SRT的裝備只有兩種方法……"
+    },
+    {
+      "Name": "都子",
+      "Text": "一種是襲擊SRT奪走裝備──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不然就是讓SRT的學生直接轉讓了吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不不不，SRT又不是什麼二流的傭兵集團。\n怎麼可能把裝備交給PMC士兵──"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，也算是某種回歸原點的古典交易方法。"
+    },
+    {
+      "Name": "萌",
+      "Text": "交出我們持有的貴重物品，收下等價的武器和彈藥。"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "這麼說來，之前營地淹水的時候確實賣出了一些不常使用的特殊部隊用裝備呢……"
+    },
+    {
+      "Name": "美優",
+      "Text": "而且那個武器商人……也不肯露臉，相當可疑呢……"
+    },
+    {
+      "Name": "萌",
+      "Text": "等等，也就是說我們把武器賣給了襲擊夏萊的傢伙嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……可惡，這樣一來別說是被老師感謝，反而應該要道歉了吧。"
+    },
+    {
+      "Text": "[ns5]「大家都已經吃飽了嗎？」"
+    },
+    {
+      "Text": "[ns6]「肉還有很多哦。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "呃，那個……"
+    },
+    {
+      "Name": "都子",
+      "Text": "呃，那個……"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊啊～別在意！\n我們已經吃夠多肉了。"
+    },
+    {
+      "Name": "美優",
+      "Text": "我，我也是……好像，吃不下了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "而且突然想起了一件要立刻處理的急事。"
+    },
+    {
+      "Text": "[s]「急事……？要上廁所？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "才不是咧！真是不夠細心……"
+    },
+    {
+      "Text": "[s]「那我把剩下的肉放在夏萊的冰箱裡哦。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "好的，那就麻煩你了。"
+    },
+    {
+      "Name": "美優",
+      "Text": "那個……我們賣掉的武器可能被用來襲擊夏萊這件事，是不是該跟老師說一聲……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "有可能是因為我們，老師才會遇到那麼危險的事……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……當然會向老師道歉。\n不過現在應該先找出犯人才對。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "是啊，我也同意。\n而且老師還在忙著進行事情的事後處理……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "還是不要再增加讓老師擔心的事比較好。"
+    },
+    {
+      "Name": "都子",
+      "Text": "等我們找到犯人，取回被偷走的東西之後……再跟老師說明和道歉吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "萌，有辦法追蹤交易後的武器流向哪裡了嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒問題，只要追蹤電子設備的固定金鑰就行了。\n不過可能需要一點時間。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼就交給你了。\n其他隊員請進行裝備的檢查，以便隨時出動。"
+    },
+    {
+      "Name": "都子",
+      "Text": "來給用SRT的裝備做壞事的那些小偷……一點顏色瞧瞧吧。"
+    },
+    {
+      "Text": "[ns]「啊，豬肉好像也還剩了一些……」"
+    },
+    {
+      "Text": "[ns9]「咦，大家……？」"
+    },
+    {
+      "Text": "[ns10]「跑去哪裡了呢……？」"
+    },
+    {
+      "Text": "下一話;出乎意料的重逢"
+    }
+  ]
+}

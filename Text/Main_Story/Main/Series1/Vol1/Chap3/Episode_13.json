@@ -1,0 +1,3632 @@
+{
+  "TitleJP": "人質",
+  "TitleKR": "인질",
+  "TitleEN": "Hostage",
+  "TitleTH": "ตัวประกัน",
+  "TitleTW": "人質",
+  "DescJP": "ノノミはネフティス側と会い説得を試みるが、逆に人質となってしまう。 ネフティスはノノミを利用して契約を無効にしようと対策委員会を脅迫する。それを受け、ホシノは自分ひとりで問題を解決しようとするが、その前にシロコが立ちはだかる。",
+  "DescKR": "노노미는 네프티스 측과 만나 설득하려 하지만 오히려 인질로 잡혀가게 된다. 네프티스 측은 아비도스 학생들에게 노노미를 이용해 계약을 무효로 할 것을 협박한다. 호시노가 혼자 나서려던 순간, 시로코가 앞을 막아선다.",
+  "DescEN": "Nonomi attempts to negotiate with Nephthys, but instead, she is taken hostage. They threaten the Abydos students, using Nonomi as leverage to void their contract. As Hoshino tries to handle it alone, Shiroko steps in her way.",
+  "DescTH": "โนโนมิไปพบกับเนฟธิสและพยายามโน้มน้าว แต่กลับถูกจับเป็นตัวประกัน ทางเนฟธิสข่มขู่นักเรียนอะบิดอสว่าจะใช้โนโนมิเพื่อทำให้สัญญาเป็นโมฆะ ในขณะที่โฮชิโนะจะเดินออกไปคนเดียว ชิโรโกะก็มาขวางไว้",
+  "DescTW": "野乃美和奈芙蒂斯雙方會面，打算說服對方，沒想到反而被綁為人質。奈芙蒂斯利用野乃美，威脅阿拜多斯學生要使契約無效。就在星野打算獨自出面的那瞬間，白子擋在了前面。",
+  "DialogJP": [
+    {
+      "Text": "第13話;人質"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ただいま。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "おかえり、シロコ先輩。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……あ、ドアちゃんと閉めてよ。風が入ってくるじゃない。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ご、ごめん。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "おかえりなさい、先輩。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あ、そうだ。\nついでに電気もつけてくれない？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "う、うん。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "いや～セリカちゃん。先輩をそうやってこき使ってると、\nいつかバチが当たるかもしれないよ？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "なっ、"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "みんなも面倒くさがって電気つけようとしなかったじゃない！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……それで、先生は？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "詳しい情報は、何も……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "病院に搬送されたけど、命に別状はないみたいだね。\nでも、まだ目は覚めないって。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "うーん……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あんな事故に巻き込まれて傷ひとつなかっただけでも、\n不幸中の幸いでしょう。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ひとまず安心だわ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……でも、先生の手は借りられそうにないね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どうにかして、方法を探さないと。\nまずは契約を継続して、それから列車砲を……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……ほかの学園に協力してもらうのは、どうでしょうか？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "先生がいないと、難しいんじゃないかなぁ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……旧庁舎までの距離を考えたら、そろそろ出発しないと。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "はぁ……やるしかないわね。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ところで、ノノミは？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先輩なら、用事があると言って出ていきましたよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……いつ戻ってくるんだろ？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ちょっと心配だね……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "執事さん……指示された通り、みんなには内緒で来ました。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そのようだな。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "学校からずっと[ruby=つ]尾[/ruby]けてきたが、間違いない。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……あなたは！\n執事さんはどこですか！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……私ならこちらにおります、お嬢様。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ですが、まさかそちらからいらっしゃるとは思っていませんでした。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それは……。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "もしかして、考えが変わったのですか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ハイランダーに入学し、ネフティスに戻ってくる決心がついた、と。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ち、違います！"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "でしたら、なぜわざわざこちらに……？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "私がハイランダーの生徒会長にならなくても……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "列車砲の問題を解決する方法はあるはずです。\n……ネフティスになら。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ネフティスは、私募ファンドともハイランダーとも協力関係にありますよね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "会社の力を集約すれば、きっと……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "アビドス生徒会も、対策委員会も、かけがえのない場所なんです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……どうか、お願いします。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "それは難しいお願いですね。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "どんな犠牲も払わずに、望んだものを手に入れようだなんて。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……！"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "お嬢様、世間はそこまで甘くありません。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "わがままを言えば何とかなるとお思いですか？\n中学生の頃から、成長していないのですね。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "方法なら、すでにお伝えしました。\nお嬢様がハイランダーに入学すれば解決するのです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そ、それは……。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "強制的に入学させてしまっても良いのですが……\nできればご自身の意志で決めていただきたく思っています。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "もっとも、ほかに手がないとは言いませんが。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そ、それは何ですか！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……教えてもらいたいのなら、何か言うことはありませんか？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "お嬢様がセイント・ネフティスグループに反抗して損害を与えた結果、\nどれだけの人が苦労したのかご存知で？"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "身内に頭を下げさせたところで、何になるんだ。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "スオウさん、あなたの意見は求めていません。\nこれは、[ruby=・   ・   ・   ・   ・]ネフティス[/ruby]の話ですので。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……はい。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……申し訳、ありませんでした。\n執事さんだけでなく、ネフティスの皆さんにまでご迷惑をおかけして……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "本当に、申し訳ありませんでした……。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……それくらいで良いでしょう。\n失礼な物言いをしてしまい、こちらこそ謝罪いたします。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "では、私たちの計画をお教えします。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "我々は、こう考えていました。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "対策委員会が列車砲の存在を知れば、放っておくはずはない。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "なんとかして総会に出席し、契約の継続を申し出る、と。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……「シャーレ」の手を借りてでも。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "先生の力は、我々も知っております。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "小鳥遊ホシノ不在の状況でも、カイザーPMCは歯が立たなかったほどですから。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "そこで対策に、私募ファンドは大量の兵士を動員するだろうと考えました。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……おそらく先生なら、どうにかしてしまうでしょうが。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ただ、それも私たちの思惑なのです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……え！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "「シャーレ」と「私募ファンド」が正面衝突すれば、どちらも損害は免れません。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "そのタイミングでネフティスは兵力を投入し、\n漁夫の利を得る手はずになっています。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……え！？ "
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ま、待ってください！\nネフティスと私募ファンドは協力関係にあるのでは……！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……表向きは、お嬢様が仰る通りですね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……！"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "い、いつからそんな計画を！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "始めからです。\n元はと言えば、私たちの所有物だったのですよ。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "あれさえ手に入れてしまえば、ネフティスの復活は早まることでしょう。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "当時はとんだ損失を与えてくれましたが、\n巡り巡って宝の山になってくれるとは。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "にしても、先生はいつ戻ってくるのやら。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "シャーレの助けなしに、お嬢様が会場にたどり着くことは不可能でしょうし……。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "計画が狂ってしまうのではないかと、不安でしたが……。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "こうして、のこのこやって来てくださるとは。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "あんたは利用されたんだ、ご令嬢。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "きゃっ……！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（執事さん……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（初めから、こうするつもりで……）"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ユメ先輩、どうして……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どこにいるんですか、先輩……。\nお願いです……帰ってきてください。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "先輩、私が間違ってました……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ユメ先輩。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（ああ……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（今日も見つけられなかったんですね……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（いったい、いつまであの砂漠を彷徨うのでしょうか……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（毎日、毎日……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（どうして、そこまで……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（全部忘れて、ここを去っていれば……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（夢だったことに、していれば……） "
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（ここまで苦しまずに済んだのに……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（どうして……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（これは、私にも言えることです……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（忘れてしまえば……全部夢だったのなら良かったのに）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "（あの日、私は……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……ホシノ、先輩。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ご苦労様でした、スオウさん。\nお嬢様から学生証とカードを取り上げてください。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……ハイランダーの生徒会長になるよう言っていたのは、嘘だったのか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "当然でしょう。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "お嬢様には、生徒会長よりも相応しい[ruby=役割]人質[/ruby]を果たしてもらいます。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "仮にも、ネフティスのご令嬢なんじゃないのか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ええ。ですが、これは理事会が決定した方針ですので。\nもちろん、危害を加えるつもりはありませんが。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "では、対策委員会に連絡して、総会に出席するよう伝えるとしましょう。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "もし欠席した場合、お嬢様がハイランダーに転校することになる、とも。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……契約を続行させて良いのか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "その逆です。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "「アビドス生徒会」には、生徒会組織としての実態がなかったと主張させます。 \nそうすれば、契約そのものが無効となり、鉄道の権利はネフティスのものに。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "シャーレの先生こそいませんが、\nお嬢様の身を預かっていると言えば、それなりにやってくれるでしょう。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……まあ、どちらが勝とうと構いません。\n最後に立っているのは、ネフティスですから。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "どう転ぼうと、列車砲はネフティスのものになる算段というわけか。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "ええ、ではお嬢様をお連れしてください。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "私は対策委員会に連絡をしてきます。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ごめんなさい、皆さん……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "けほっ、けほっ……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "最初から、アビドスにいてはいけない存在だったんです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "どこまで行っても、ネフティスの者ですから。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "罪悪感でアビドスに来たような私に、残る資格はありません。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "皆さんは、私の存在なんて忘れてください。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "生徒会長を……アビドス生徒会を、なかったことにしなくて良いんです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "先生なら、列車砲を見つけて破壊してくださいます。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……とのことです。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "対策委員会の皆様は、債権者団体の総会で\nアビドス生徒会は非認可の存在だったと宣言するだけで良いのです。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "そうすれば、あの契約自体が無効になります。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "お嬢様は先ほど、ああ言っておりましたが……\n本心では皆様と過ごしたいことでしょう。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……総会まで、猶予は残されていません。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "皆様が賢い選択をしてくださるよう、祈っています。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……ノノミ先輩。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そ、そんな……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ノノミ……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "せ、先輩、どこ行くの！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……総会だよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あの執事の言いなりになるってこと！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "これ以上、大切な人を失いたくないんだ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "で、ですが、私たちだけでは……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "そうだよ、ホシノ先輩。\n先生の連絡を待とう。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……みんなは待ってて。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "はい！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "一人で行くの！？\nあんな数の敵、どうやっても勝てないでしょ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……勝てるよ、[ruby=・]私[/ruby]なら。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ノノミを助けたら、今度は私募ファンドとネフティスを倒すつもりだよね？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "えっ！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あとのことは、気にしなくて良いよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "対策委員会[ruby=・   ・]には[/ruby]、何の責任もないから。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "どういう意味よ、先輩！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "責任を負うのは、私だけで良い。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "だから、みんなはここに残って。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ホシノ先輩が言う、「みんな」って？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "対策委員会のみんなだよ。\nシャーレの認可を受けた、本当の生徒会組織。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "し、シロコ先輩！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……危ないでしょ、シロコちゃん。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "勝負しよう、先輩。\n……付いてきて。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ちょっ、シロコ先輩！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "しょ、勝負……！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……久しぶりの勝負だね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "おじさん、年甲斐もなくワクワクしてきたよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ま、待ってください……！\nホシノ先輩、シロコ先輩！？ "
+    },
+    {
+      "Name": "セリカ",
+      "Text": "どうして、こんなことに……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "せ、セリカちゃん……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ああ、もう！行くしかないでしょ！"
+    },
+    {
+      "Text": "次回;[ruby=みんな]対策委員会[/ruby]"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제13화;인질"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……다녀왔습니다……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "어서와, 시로코 선배."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……아, 그리고 문 좀 꼭 닫아줘. 바람 들어오잖아."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 응."
+    },
+    {
+      "Name": "아야네",
+      "Text": "다녀오셨어요. 선배. 씻고 오신다더니 빨리 오셨네요?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아, 그리고 선배. 불도 좀 켜줘. 이제 슬슬 일어나야 하니까."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응."
+    },
+    {
+      "Name": "호시노",
+      "Text": "이야~ 세리카 쨩, 선배를 그렇게 부려 먹으면 나중에 벌받을 지도 모른다고?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐야? 누가 부려 먹긴?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아무도 귀찮아서 불을 켜려고 하지 않았잖아!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "으음……. 선생님 소식은?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……좀 전 뉴스 말곤 한 번도 없었어요."
+    },
+    {
+      "Name": "호시노",
+      "Text": "즉, 병원으로 실려 갔지만 큰 부상은 없음. 하지만 아직 깨어나지 못하는 것 같다고……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으음……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그치만 저런 사고에 휘말렸는데도 상처 하나 없다니……. 불행 중 다행이라면 다행이랄까……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 그런 신기한 일을 달고 사는 사람이니까. 그래도 큰일이 아니어서 안심했어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……그렇다고 해도, 이제 선생의 도움을 받는 건 포기해야 해."
+    },
+    {
+      "Name": "호시노",
+      "Text": "방법을 찾지 않으면 안 돼……. 열차포의 권리를 확보하고, 두 번 다시 저런 게 움직이지 못하게 부숴버릴 방법을……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "다른 학원의 도움을 받는 건……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아니. 선생이 없는 상황에선 어렵겠지. "
+    },
+    {
+      "Name": "시로코",
+      "Text": "도움을 청하려고 해도 시간이 부족해. 채권단 총회가 열리는 중앙역까지의 거리를 생각하면 지금 슬슬 출발해야 해."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "하아…… 마음의 준비를……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "그런데 노노미는? 안 보이는데……?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 노노미 선배는 볼일 있다고 잠깐 밖에 나갔어요. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "그러게, 나간 지 꽤 되지 않았어……? 이제 슬슬 돌아와야 할 텐데?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……으음. 살짝 걱정되기 시작하는걸. 노노미 쨩, 무슨 일이려나……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……. 약속대로 혼자 왔어요. 집사님."
+    },
+    {
+      "Name": "???",
+      "Text": "그래. 알고 있어."
+    },
+    {
+      "Name": "스오우",
+      "Text": "학교에서부터 계속 따라왔었거든. 다행히 미행은 없더군."
+    },
+    {
+      "Name": "노노미",
+      "Text": "당신은……?! 집사님은 어디에 있죠?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……저는 여기 있습니다. 영애님. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그런데 별일이네요. 영애님 쪽에서 먼저 저를 찾아오다니. 무슨 일이시죠?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그게……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "설마…… 생각이 바뀌신 겁니까? 하이랜더로 돌아와서 학생회장이 되시겠다고요?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "잘 생각하셨습니다! 그거라면 저 열차포의 소유권을 저희 네프티스가 독점할 방법이 분명 있을 거예요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "아니에요……! 저는 대책위원회를 떠나지 않을 거예요……! 그게 아니라……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그러면요……? 왜 저를 찾아오신 거죠?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……. 제가 하이랜더의 학생회장이 되지 않더라도…… "
+    },
+    {
+      "Name": "노노미",
+      "Text": "분명 열차포를 해결할 방법이 네프티스에겐 있을 거예요……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네프티스는 사모펀드의 일원이기도 하고, 또 하이랜더와 협력 관계이니…… 사모펀드보다 훨씬 더 거대한 기업 그룹이잖아요. "
+    },
+    {
+      "Name": "노노미",
+      "Text": "네프티스의 모든 힘과 권력을 이 문제에 집중한다면 분명……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "대책위원회, 아비도스 학생회……. 그 둘은 시로코 쨩과 호시노 선배에겐 그 무엇과도 바꿀 수 없는 소중한 장소예요……. "
+    },
+    {
+      "Name": "노노미",
+      "Text": "설령 이름뿐일지라도…… 그걸 지킬 방법이 있다면…… 뭐든 방법을……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……크크, 크크크크!! 정말이지 너무 순진하시군요, 영애님. 세상을 바라보는 관점이 얄팍해요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "결국 그 어떤 희생도, 대가도 없이 원하는 것을 가지고 싶다는 거잖습니까?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "아시겠습니까, 영애님? 세상에 그런 건 없습니다. 모든 것은 기브앤테이크. 억지를 부린다고 해결되는 것은 아무것도 없어요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그런 억지에 누가 귀 기울여 줄 것 같습니까?! 세상을 너무 모르는군요! 이래서야 중학생 때랑 다를 게 없지 않습니까. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "방법이라면 이미 말씀드렸습니다. 영애님이 하이랜더로 재입학하시면 됩니다. 그럼 모든 게 해결될 거예요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그, 그건……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "뭐, 지금이라도 영애님을 강제로 재입학해 버리는 것도 가능하지만요. 하지만 기업의 영애님께 어찌 그럴 수야 있겠습니까. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……. <사모펀드>에 열차포를 뺏기지 않을 방법…… 그거야 당연히 있습니다. 저희가 지금 준비하고 있는 계획이 있어요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그, 그게 뭐죠?!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "잘못을 비십시오. 영애님."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……!!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "억지를 부려서 세인트 네프티스 그룹에 반항하고 손해를 끼친 것에 대해 사과하고 용서를 구하세요. 영애님. 그럼 알려드리겠습니다."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……어이. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "끼어들지 마세요. 스오우 군. 이건 중요한 겁니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네. 알겠어요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "죄송합니다. 집사님…… 네프티스 기업과 모두에게…… "
+    },
+    {
+      "Name": "노노미",
+      "Text": "손해를 끼치게 되어……. 죄송해요……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "좋습니다, 좋아요. 화가 좀 풀리네요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그 정도면 됐습니다…… 그럼 저희의 계획을 알려드리죠."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "원래 계획은 이랬습니다. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "대책위원회가 열차포의 존재를 알게 된다면, 자신들의 사상과 반대되는 이 물건을 그대로 놔둘 리 없다고 생각했습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "어떻게든 총회에 참석해서 계약을 유지하려고 하겠죠. 자신들의 강력한 조력자인 <샬레>의 선생의 도움을 받아서요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "아마 그 학생회장처럼 열차포를 아비도스의 소유로 둬서 누구도 손댈 수 없게 만들려고 하던가, 아니면 어떻게든 찾아내서 부수던가…… 어느 쪽이든 움직일 거라 생각했습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그 선생의 힘은 이미 충분히 확인했습니다. 그건…… 위험하죠."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "<샬레>의 지원을 받는 대책위원회는 그 카이저PMC마저도 막아내는 것이 불가능했습니다. 심지어 그때는 그 타카나시 호시노도 없었는데도. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그래서 <사모펀드>는 엄청난 숫자의 병력을 아비도스로 끌어모았죠. 그 정도라면 천하의 <샬레>라도 돌파하지 못할 거라고 생각하겠지만……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "하지만 그 선생은…… 그리고 당신들은 그런 것 따윈 개의치 않을 거구요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그리고…… 그거야말로 저희가 바라던 그림이었죠."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네?!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "<샬레>와 <사모펀드>의 충돌. 둘 다 엄청난 피해를 입겠죠. 누가 이기든 상관없습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그렇게 두 세력이 공멸해 갈 때, 그때 저희가 동맹을 투입, <사모펀드>와 대책위원회 모두를 처리해버리면 되니까요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……?! 네?! "
+    },
+    {
+      "Name": "노노미",
+      "Text": "동맹……?! 자, 잠깐만요?! 그 말은……!!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "네. 저희의 목적은 <사모펀드> 녀석들을 처리하고 <열차포>를 독점하는 것입니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……!!! "
+    },
+    {
+      "Name": "노노미",
+      "Text": "그, 그런…… 처, 처음부터 그럴 계획으로……?!"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "물론이죠!! 그 열차포는 원래 저희 것입니다! 누구에게도 뺏길 수 없어요!! "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그게 있다면 네프티스의 부활을 10년은 더 앞당길 수 있을 겁니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "설마 사기꾼에게 속았다고 생각하고 내다 버린 그 고철이 진짜로 동작할 거라곤……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그랬는데 말이죠……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "하지만 그 선생이 아직 아비도스에 돌아오지 않았더군요. 당신들이 총회에 참석하려면 샬레의 도움이 반드시 필요할 텐데……. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그래서 계획이 틀어지나 불안했는데……. 큭큭큭……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "큭큭큭…… 그런데 영애님이 이렇게까지 저희를 도와주실 줄은."
+    },
+    {
+      "Name": "스오우",
+      "Text": "당신은 이용당한 거야. 영애님."
+    },
+    {
+      "Name": "노노미",
+      "Text": "꺄악……?!!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(아아…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(그랬던 건가요…….)"
+    },
+    {
+      "Name": "호시노",
+      "Text": "유메 선배…… 어째서…… 어째서……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "어디 있는 거예요…… 선배…… 제가 잘못했어요…… 제발…… 제발……. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "선배……. 으흐흐흑…… 흐흐흑……. 제가, 제가 잘못했어요…… 제가……. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "……. 유메 선배……. 으흐흐흑……. "
+    },
+    {
+      "Name": "노노미",
+      "Text": "(아아…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(오늘도…… 당신은 원하는 걸 찾지 못했나 보네요…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(그리고 내일 또다시 그 황야를 헤매는 일을 반복하겠죠…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(매일 매일…… 지치지도 않고……. 어째서…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(어째서……? 대체 무엇을 위해서……?)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(그냥 전부 잊어버리고 아비도스를 떠났다면 좋았을 텐데…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(이곳에서 있었던 일들은 전부 꿈이었다고, 그러니 그저 잊어버리면 된다고 생각했더라면……) "
+    },
+    {
+      "Name": "노노미",
+      "Text": "(그러면 최소한 고통스럽진 않았을 텐데…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(어째서…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(저는…… 어째서 이곳에 남기로 했었던 걸까요…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(그저 잊어버렸으면…… 모두 꿈이었다고 해버렸으면 좋았을 텐데…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "(저는…….)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "호시노 선배……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……수고했습니다. 스오우 군. 영애님의 학생증과 카드를 뺏으세요."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……하이랜더로 돌아와서 학생회장이 되라고 운운한 건 거짓말이었나?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "뭐, 그렇죠. 우리 말을 듣지 않는 사람이 권력을 쥐면 어떻게 되겠습니까."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그녀는 대신 훌륭한 인질이 되어 줄 겁니다."
+    },
+    {
+      "Name": "스오우",
+      "Text": "가문의 영애를 인질로……?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "이사회에서 허락한 사안이에요. 아아, 물론 해를 끼칠 생각은 없습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "이제 대책위원회에 연락해서, 채권단 총회에 참석하라고 할 겁니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "만약 우리의 말을 듣지 않는다면 영애님은 하이랜더 학원으로 전학 보내버릴 거라고요."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……총회에 참석해서? 그 계약을 유지하라고 요구하진 않을 거 아냐?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "물론입니다. 그 반대입니다. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "쿠치나시 유메와 타카나시 호시노의 <아비도스 학생회>가 가짜 조직이었음을 자백하라고 협박해야죠. "
+    },
+    {
+      "Name": "스오우",
+      "Text": "과연. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "대책위원회가 샬레의 지원 없이 거기까지 도달할 수는 없을 테지만, 그래도 영애님을 되찾기 위해 최대한 노력하겠죠. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "대책위원회가 최대한 난리를 부려줘야 저희가 <사모펀드>를 마무리하기 쉬워집니다."
+    },
+    {
+      "Name": "스오우",
+      "Text": "그리고 그들이 사모펀드의 봉쇄를 뚫는다고 해도, 학생회를 부정해야 하니 <열차포>는 너희의 것이 될 거고. 완벽하군. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그럼 영애님을 약속된 장소로 옮겨주십시오. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그럼 저는 대책위원회에 연락하러 가겠습니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "(치익) ……죄송해요 호시노 선배…… 제가…… 실수했어요……. "
+    },
+    {
+      "Name": "노노미",
+      "Text": "쿨럭, 쿨럭……. 시로코 쨩…… 아야네 쨩…… 세리카 쨩……. 쿨럭. 호시노 선배……"
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는…… 저는 처음부터 여기 있어선 안 되는 사람이었어요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는 네프티스니까…… 가해자니까…… "
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는…… 죄책감 때문에 억지로 여기에 남아있었던 것뿐이니까……. 그러니 하이랜더로 돌아가도…… 상관없던 거예요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는 선배가 죄책감에서 벗어나 자유롭게 살아갔으면 좋겠어요…… 그러니……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저 때문에 유메 회장을…… 아비도스 학생회를 가짜로 만들지 마세요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "분명 선생님과 함께라면…… 열차포를 파괴할 방법을……. 분명……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……그렇게 됐습니다. 타카나시 호시노, 그리고 대책위원회 여러분."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "어떻게든 채권단 총회에 참석해서 아비도스 학생회가 사칭이었다는 걸 자백해 주세요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "타카나시 호시노와 쿠치나시 유메의 학생회 활동 그 모든 게 비인가였다는 걸 공증해 주시면 됩니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그러면 영애님은 하이랜더의 지하 감옥이 아니라 여러분들과 함께 지낼 수 있을 겁니다. "
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……해가 떠오르고 있군요. 총회가 얼마 남지 않았습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그럼 현명한 선택 하시길."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……노, 노노미 선배."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그, 그런……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "노노미……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그렇군. 그렇게 된 거려나."
+    },
+    {
+      "Name": "세리카",
+      "Text": "서, 선배 어디가?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "지금 바로 출발해야지. 노노미 쨩을 구하려면 저 녀석이 시키는 대로 하지 않으면 안되잖아."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐라고?! 저 말을 따른다고?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "또다시 내 소중한 사람들을 잃을 수 없어. 유메 선배도 지키지 못했으면서 이제 노노미 쨩 마저도 잃게 된다면…… 선배 실격이겠지. "
+    },
+    {
+      "Name": "아야네",
+      "Text": "그, 그치만 그 병력을 저희만으로는……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "맞아. 선생님을 기다려야 해. 선배. 분명히 연락이 올 거야."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아니. 거기 가는 건 나 혼자야."
+    },
+    {
+      "Name": "아야네",
+      "Text": "네?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "혼자?! 그건 또 무슨 소리야?! 선배 혼자서 그 봉쇄를 뚫을 수 있다고? "
+    },
+    {
+      "Name": "호시노",
+      "Text": "아아. 가능해. 내가 그러려고 마음먹었으니까."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……알겠어. 호시노 선배는 노노미를 구한 뒤에 <사모펀드>도, 네프티스도 전부 처리해 버릴 생각이지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……. 끄응."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐어?! 뒷감당을 어떻게 하려고?! "
+    },
+    {
+      "Name": "호시노",
+      "Text": "뒷감당은 하지 않아도 돼. 내가 <아비도스 학생회>를 부정해버리면, 나는 더 이상 부학생회장이 아니게 되니까. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "그러니 내가 사모펀드를 와해시키고 열차포를 파괴해 버려도, 대책위원회에겐 아무런 피해가 가지 않을 거야."
+    },
+    {
+      "Name": "세리카",
+      "Text": "무, 무슨 소리야?! 그럼 선배는?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "이다음엔 정학, 교정국. 자퇴…… 그리고 키보토스를 떠나는 순서이려나?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그러니까 너희는 따라오면 안 돼."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "너희는? "
+    },
+    {
+      "Name": "시로코",
+      "Text": "너희, 라는 건 정확하게 뭐야?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "응? 그야, 대책위원회잖아. 대책위원회야말로 선생님이 인증한 진짜 학생회니까. 그게 맞아."
+    },
+    {
+      "Name": "세리카",
+      "Text": "시, 시로코 선배?! 갑자기 총을……?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "시로코 쨩?! 위, 위험하잖아?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "옥상으로 올라와. 승부야."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐야, 뭐야 이거?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "스, 승부……?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "헤에~ 그런가. 오랜만이네…… 이건. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "청춘 드라마 같아서 설레는걸?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "자, 잠깐만요……?! 호시노 선배, 시로코 선배?! "
+    },
+    {
+      "Name": "세리카",
+      "Text": "대, 대체 지금 무슨 일이……. 무슨 바보 같은 일이……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어, 어떡하지, 세리카 쨩?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "당연히 따라가야지!"
+    },
+    {
+      "Text": "다음화;너희, 그리고 우리"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 13;Hostage"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I'm back."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Welcome back, Shiroko."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ah, can you get the door behind you? The wind's blowing in."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um, yeah."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Welcome back, Shiroko! You washed up and got back here so quickly!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Oh, could you grab the light too? I need to start waking up."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Mm."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You're gonna get yourself in trouble ordering Shiroko around like that, Serika."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-What?! I wasn't being bossy or anything!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Everyone gets a little lazy about turning on the lights!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um... Any news on Sensei?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "No, nothing new yet..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "All we know is that Sensei's in the hospital. No serious injuries, but they haven't woken up yet either."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I suppose we can be grateful they came out of such a terrible accident relatively unscathed..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "It's like miracles follow around in Sensei's shadow. I'm glad they're okay."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "For now, we're gonna have to assume we can't get any support from Sensei, though."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "We have to figure it out on our own. Some kind of way to secure the rights to the Train Cannon and make sure it never moves again."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Can we request aid from another academy?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...No. That's not something we can pull off without Sensei. "
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "There's no time, anyway. If we want to make it all the way to Central Station on time for the meeting, we need to leave now."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ah... I'm not mentally prepared for this..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I don't see Nonomi. Where'd she go?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Ah, she stepped out for a little bit. She said she had something to take care of. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "That was a while ago, no? She should be back by now."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Hm. What's going on with her? I can't help but worry a little..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Butler? I came alone, as promised."
+    },
+    {
+      "Name": "???",
+      "Text": "I can confirm."
+    },
+    {
+      "Name": "Suou",
+      "Text": "I trailed you after you departed Abydos. No one followed."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "You?! Where's my butler?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I'm here, Miss. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I was surprised by your request. I didn't think you would reach out to me. Did something happen?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "But..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Perhaps...you've changed your mind? You wish to return to Highlander and become president?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "At last, you've made the correct choice! This way, Nephthys will be able to take full ownership of the Train Cannon without a problem."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "No! That wasn't my intention at all... I won't leave the Foreclosure Task Force!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "What then? What was the purpose of all this?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Even if I don't become Highlander's student council president... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Nephthys must have some way to solve the Train Cannon ownership issue."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Nephthys is a member of the private equity fund and a partner with Highlander, so...they're a majority holder in the private equity fund. "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "If Nephthys focuses all its power and authority on this problem, surely..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Both the Foreclosure Task Force and the Abydos Student Council...are irreplaceable, precious things to Shiroko and Hoshino... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It may just be a name, but if there's some way to protect them...any way..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "...Hah... Hahahaha! You truly are the picture of naivete, Miss. Your view of the world is so shallow."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "In other words, you'd like to get exactly what you want with zero cost or sacrifice to you."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Do you understand, Miss? There's no such thing as a free lunch. Everything is give and take. You can't solve anything with your unreasonableness."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Do you really expect people to listen to this nonsense? You don't understand how the real world works! You're no different from when you were in middle school. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I've told you the solution already. Return to Highlander Academy. Then everything will be solved."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Th-That's..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "You know, I could forcibly re-enroll you right now, but I don't want to do that to you. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Well, of course, there is a solution we're working on. A way to keep the Train Cannon from the private equity fund."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Wh-What is it?!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Beg for forgiveness, Miss."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...!!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Apologize, and beg for forgiveness for defying the Nephthys group and causing us harm. Do that, and I'll tell you."
+    },
+    {
+      "Name": "Suou",
+      "Text": "...Hey. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Don't interfere, Suou. This is important."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Yes. Understood."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I apologize, Butler...everyone at Nephthys... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I'm sorry for...all the damage I caused..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Good, very good. Some of my anger is finally dissipating."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I suppose that was satisfactory. I'll tell you our plan now."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Our original plan was as follows. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "We believed that once the Foreclosure Task Force became aware of the Train Cannon, they wouldn't be able to ignore the situation. Its very existence goes against their morals and values."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "With help from their ever-present ally, Sensei of Schale, they would do their utmost to attend the general meeting and maintain the contract."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Just like that student council president, they'd attempt to maintain Abydos' ownership of the Train Cannon, or even find a way to destroy it."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "That Sensei... We've seen the reach of their power. Allowing that path would have been...dangerous."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "The Foreclosure Task Force, supported by Schale, could not even be stopped by Kaiser PMC. And that was all done without Takanashi Hoshino. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "And so, the private equity fund gathered an enormous number of troops in Abydos. They probably thought even the mighty Schale wouldn't be able to break through that kind of force..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "But Sensei...and all of you would likely be undeterred, even by that."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Which is...exactly what we hoped for."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...What?!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "It doesn't matter to us who wins. What matters is that a clash between Schale and the private equity fund would cause great losses on both sides."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "As the two forces battle to their destruction, we would send in our allies and eradicate both the private equity fund and the Foreclosure Task Force in one fell swoop."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "What do you mean?! "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "\"Your allies\"...? D-Doesn't that mean...?!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Yes. Our ultimate goal is to eliminate the private equity fund and monopolize the Train Cannon."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...!!! "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That... From the very beginning, that was your plan?!"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Absolutely! The Train Cannon was ours to start with! Ours! We won't let anyone take it! "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "With it, we'll be able to accelerate Nephthys' revival by at least ten years."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Who would have thought that the scrap metal we discarded, thinking we'd been scammed, would actually be operational...?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "However..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "It seems that Sensei has not returned to Abydos yet. The Foreclosure Task Force will not be able to successfully attend the meeting without Schale's assistance. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I was beginning to worry the plan was falling apart... Heeheehee."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Heeheehee...but I didn't think you would help us like this."
+    },
+    {
+      "Name": "Suou",
+      "Text": "You've been used, Miss."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Eek...?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Ah...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(That's how it was...)"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Why...? Yume, why?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Where are you...? I'm sorry.... Please... Please... "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Yume... *sob* I'm...I'm sorry... I... "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...Yume... *sob*.... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Ah...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(I guess you didn't find what you were looking for today...again...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(And tomorrow, you'll wander through that wasteland...again.)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Day after day...without ever tiring... Why...?)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Why...? For what...?)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(It would have been better if I had just forgotten everything and left Abydos...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(If I had written off everything that happened here as a dream and forgotten it.) "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Then, at least there would have been no pain...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Why...?)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Why...did I decide to remain here...?)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(Yes... I should've dismissed it as a dream...let it slip from memory...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "(I...)"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Hoshino..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "...Well done, Suou. Take Miss' student ID and credit card."
+    },
+    {
+      "Name": "Suou",
+      "Text": "...Was the offer to return to Highlander and become the student council president a lie?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Naturally. It wouldn't benefit us to put someone who refuses to follow orders in power."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "She will serve as an excellent hostage instead."
+    },
+    {
+      "Name": "Suou",
+      "Text": "The family's heir...as a hostage...?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Yes. The board authorized this course of action. Of course, we have no plans to harm her."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Now, we'll contact the Foreclosure Task Force and demand they attend the general creditors' meeting."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "If they refuse to listen, we only need to threaten to transfer Nonomi to Highlander Academy."
+    },
+    {
+      "Name": "Suou",
+      "Text": "To what end? You don't wish for them to maintain the contract, do you?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Of course not. The exact opposite. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "We'll have them confess that Kuchinashi Yume and Takanashi Hoshino's Abydos Student Council was a counterfeit organization. "
+    },
+    {
+      "Name": "Suou",
+      "Text": "I see. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Regardless, without Schale's assistance, the Foreclosure Task Force will likely be unable to reach the meeting. But that won't stop them from doing everything in their power to recover Nonomi. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "And the more chaos they cause, the more opportunity for us to eradicate the private equity fund entirely."
+    },
+    {
+      "Name": "Suou",
+      "Text": "And even if they are successful in their assault on the private equity fund's blockade, they'll simply be forced to renounce the previous student council, and the Train Cannon will fall into your hands. A rather perfect plan. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Then, please move Nonomi to the promised location. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I will go contact the Foreclosure Task Force."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "*tchhhk* ...I'm sorry, Hoshino... I...made a mistake... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "*cough* *cough*... Shiroko... Ayane... Serika... *cough* Hoshino..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "From the beginning...I never should've come here..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I am a member of Nephthys...a perpetrator... "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I stayed purely out of guilt...so it doesn't matter if I return to Highlander..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I only wish that all of you can live guilt-free...unshackled."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Please don't reject President Yume...and the Abydos Student Council as something fake because of me..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Sensei will help, and you'll find a way to destroy the Train Cannon. I believe in you."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "...And that's your current situation. Takanashi Hoshino, Foreclosure Task Force."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Find a way to attend the general creditors' meeting, and confess that the Abydos Student Council was a counterfeit organization."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "You will certify that all activities conducted by Takanashi Hoshino and Kuchinashi Yume's student council were unauthorized."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Only then will Nonomi be allowed to stay with you all, rather than the Highlander underground prison. "
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "...The sun is rising. There's not much time until the meeting."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I hope you make a wise decision."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "...N-Nonomi."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Th-That's..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Nonomi..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Hm. So that's how things are shaking out..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Hoshino?! Where are you going?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I need to leave now. We'll have to do as he says, if we want Nonomi back."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-What?! You want to listen to that jerk?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I won't lose another person I care about. I've already lost Yume... If I fail Nonomi too... "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "B-But, against that kind of force..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "She's right. We need to wait for Sensei. They're going to come help. I know it."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "No one's waiting for anyone. I'm going alone."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "What do you mean alone?! You're going to break through that blockade, all by yourself?! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Yeah. I can do it. I've made up my mind."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...You'll take care of the private equity fund, fight off Nephthys, and rescue Nonomi?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...Gah."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What do you mean, \"gah?!\" How're you gonna deal with the fallout? "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "What fallout? I go in, deny the Abydos Student Council, and then I won't be the vice president anymore. "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I'll dismantle the private equity fund, destroy the Train Cannon, and none of it will fall on the Foreclosure Task Force."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What kind of solution is that?! What about YOU?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Hm... Well, for me, it'd be suspension, a chat with the Corrections Bureau, expulsion... I guess leaving Kivotos would be the final step?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "That's why you guys are going to stay put."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...!!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "\"You guys\"? "
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "What exactly do you mean by \"you guys\"?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You guys, as in the Foreclosure Task Force. Isn't that obvious? The real student council, approved by Sensei. This way, everything'll be tied up nicely, with a little bow on top."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Sh-Shiroko? Who're you shooting at?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "That's dangerous, Shiroko!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Meet me on the rooftop. It's a showdown."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-Wh-What is even happening?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "A...showdown?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Heh. A showdown, eh? It's been a minute, hasn't it? "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Am I in a teen drama right now? I've got butterflies!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "W-Wait...! Hoshino, Shiroko?! "
+    },
+    {
+      "Name": "Serika",
+      "Text": "What is happening right now...? This is ridiculous..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Wh-What do we do, Serika?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "We gotta follow them, duh!"
+    },
+    {
+      "Text": "Next Episode;You, and Us"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 13;ตัวประกัน"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "กลับมาแล้ว..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เข้ามาสิ รุ่นพี่ชิโรโกะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อ้อ แล้วก็ปิดประตูให้แน่นเลยนะ เดี๋ยวลมเข้าน่ะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อื้ม"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "กลับมาแล้วเหรอคะ รุ่นพี่ เห็นว่าจะไปอาบน้ำ กลับมาเร็วกว่าที่คิดเอาไว้อีกนะคะ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อ้อ รุ่นพี่... เปิดไฟให้ด้วยสิ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เดี๋ยวเหอะ~ เซริกะจังใช้รุ่นพี่ซะขนาดนั้น เดี๋ยวต่อไปอาจจะถูกทำโทษก็ได้นะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะ... อะไรน่ะ? ใครใช้งานใครที่ไหน?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ก็ทุกคนขี้เกียจเปิดไฟกันเองไม่ใช่หรือไง!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม... แล้วข่าวของคุณครูล่ะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "นอกจากข่าวเมื่อกี้นี้ เราก็ไม่ได้ข่าวอะไรเพิ่มอีกเลยค่ะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ที่เรารู้ตอนนี้ก็คือ คุณครูถูกส่งตัวไปโรงพยาบาลแล้ว และถึงจะไม่ได้รับบาดเจ็บมาก แต่เหมือนจะยัง\nนอนไม่ได้สติอยู่..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เจออุบัติเหตุร้ายแรงขนาดนั้น แต่ไม่มีบาดแผลเลยได้ยังไงกัน... ต้องเรียกว่าเป็นโชคดีในโชคร้าย\nหรือเปล่านะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ก็นะ คุณครูเป็นคนที่เจอเรื่องประหลาดแบบนั้นบ่อยๆ อยู่แล้ว แต่ก็ดีแล้วละที่ไม่ได้เป็นอะไร"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่ถึงยังไงเราก็ต้องล้มเลิกที่จะขอความช่วยเหลือจากครูนะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เราต้องหาวิธีให้ได้... วิธีที่จะทำให้เราได้สิทธิ์ของปืนแม่เหล็กไฟฟ้ามา แล้วทำลายไม่ให้มันเคลื่อนไหวได้อีก..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ขอความช่วยเหลือจากโรงเรียนอื่นมั้ยคะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ได้หรอก... ถ้าไม่มีครู ให้ทำแบบนั้นคงเป็นเรื่องยาก"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ต่อให้ทำเรื่องขอความช่วยเหลือ แต่เวลาก็ไม่พออยู่ดี ถ้าต้องไปให้ถึงสถานที่จัดการประชุมสมัชชา\nเจ้าหนี้ให้ทันเวลา ตอนนี้เราต้องออกเดินทางกันแล้วนะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เฮ้อ... ยังเตรียมใจไม่ได้เลย..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ว่าแต่โนโนมิล่ะ? โนโนมิหายไปไหน...?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ้อ รุ่นพี่โนโนมิบอกว่ามีธุระ ก็เลยออกไปข้างนอกค่ะ "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "แต่ก็ออกไปนานแล้วไม่ใช่เหรอ...? ควรจะต้องกลับมาแล้วสิ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "อืม... เริ่มเป็นห่วงขึ้นมาแล้วสิ โนโนมิจังออกไปทำอะไรที่ไหนนะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉันมาคนเดียวตามที่สัญญาแล้วค่ะ... คุณพ่อบ้าน"
+    },
+    {
+      "Name": "???",
+      "Text": "อื้ม รู้อยู่แล้วละ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ฉันตามมาตั้งแต่ที่โรงเรียนแล้วน่ะ ยังดีนะที่ไม่มีใครสะกดรอยตามมา"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "นี่คุณ...?! แล้วคุณพ่อบ้านล่ะคะ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ผมอยู่ตรงนี้ครับ... คุณหนู "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แต่คาดไม่ถึงเลยนะครับ คุณหนูเป็นฝ่ายมาหาผมก่อนแบบนี้ มีเรื่องอะไรหรือเปล่าครับ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คือว่า..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "หรือว่า... คุณหนูเปลี่ยนใจแล้วครับ? จะกลับมาที่ไฮแลนเดอร์แล้วเป็นประธานสภานักเรียนเหรอครับ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "คิดดีแล้วละครับ! ถ้าทำอย่างนั้น เนฟธิสของเราก็จะมีวิธีผูกขาดกรรมสิทธิ์ปืนแม่เหล็กไฟฟ้าได้อย่าง\nแน่นอนครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ไม่ใช่ค่ะ...! ฉันจะไม่จากคณะกรรมการแผนงานไปหรอกค่ะ...! ฉันไม่ได้จะทำแบบนั้น..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ถ้างั้น...? มาหาผมทำไมเหรอครับ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ต่อให้ฉันไม่ได้เป็นประธานสภานักเรียนของไฮแลนเดอร์... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แต่วิธีจัดการปืนแม่เหล็กไฟฟ้าก็จะอยู่ที่เนฟธิสแน่นอนค่ะ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เนฟธิสเป็นทั้งสมาชิกของกองทุนไพรเวทอิควิตี้ และยังมีความสัมพันธ์แบบร่วมมือกับทางไฮแลนเดอร์\nด้วย... เพราะงั้นก็จะเป็นกลุ่มธุรกิจที่ใหญ่กว่ากองทุนไพรเวทอิควิตี้มากเลยนี่คะ "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ถ้าคลี่คลายปัญหาโดยใช้อำนาจทั้งหมดของเนฟธิสละก็..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คณะกรรมการแผนงานและสภานักเรียนอะบิดอส... เป็นสถานที่ที่มีค่ามากสำหรับชิโรโกะจัง และรุ่นพี่โฮชิโนะนะคะ... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ถึงมันจะเป็นแค่ชื่อ... แต่ถ้ามีวิธีที่จะรักษามันไว้ได้ละก็..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "หึหึ หึหึหึหึ!! ไร้เดียงสาจริงๆ เลยนะครับ คุณหนู มุมมองที่คุณหนูมีต่อโลกช่างตื้นเขินเหลือเกินครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "สุดท้ายแล้วก็อยากได้สิ่งที่ต้องการโดยไม่ต้องมีการเสียสละหรือตอบแทนใดๆ เลยใช่มั้ยครับ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "...!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "คุณหนูรู้อะไรมั้ยครับ? โลกใบนี้ไม่มีอะไรแบบนั้นหรอกครับ ทุกอย่างมีได้ก็ต้องมีเสีย การดื้อดึงไม่ได้ช่วยแก้ปัญหาอะไรได้หรอกครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "คิดว่าใครจะมารับฟังความดื้อดึงแบบนั้นอยู่ครับ?! ไม่รู้จักโลกใบนี้เลยสินะครับ! แบบนี้ก็ไม่ต่างกับตอน\nเป็นนักเรียนม.ต้นหรอกครับ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เรื่องวิธีน่ะ ผมบอกไปหมดแล้วครับ คุณหนูแค่ต้องกลับไปเข้าเรียนที่ไฮแลนเดอร์ครับ แล้วทุกอย่างก็จะคลี่คลายได้"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "บะ... แบบนั้นมัน..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "จะให้ผมบังคับให้ทางนั้นรับคุณหนูเข้าเรียนตอนนี้เลยก็ยังได้ครับ แต่ผมจะทำเช่นนั้นกับคุณหนูของ\nองค์กรได้อย่างไรล่ะครับ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "วิธีที่จะไม่สูญเสียปืนแม่เหล็กไฟฟ้าให้กับ <กองทุนไพรเวทอิควิตี้> ไป... มันมีอยู่แน่นอนครับ ตอนนี้พวกเรากำลังเตรียมแผนการอยู่ครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ผะ... แผนการอะไรเหรอคะ?!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ขอโทษสำหรับความผิดพลาดสิครับ คุณหนู"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ขอโทษที่ต่อต้านและก่อความเสียหายต่อเซนต์เนฟธิสกรุ๊ป และอ้อนวอนขอการให้อภัยสิครับคุณหนู แล้วผมถึงจะบอกให้ครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "นี่..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "อย่ามาแทรกแซงเลยครับ สุโอ นี่เป็นเรื่องสำคัญครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ... เข้าใจแล้วค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ขอโทษนะคะ คุณพ่อบ้าน... และทุกคนในเนฟธิส... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉันขอโทษที่... สร้างความเสียหายให้ค่ะ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ดีครับ ดีเลย ผมหายโกรธขึ้นมาหน่อยแล้วละครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แค่นั้นก็พอแล้วละครับ... งั้นผมจะบอกแผนการของเราให้ฟังครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เดิมทีแล้วแผนการเป็นอย่างนี้ครับ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เราคิดว่าถ้าคณะกรรมการแผนงานรู้ถึงการมีอยู่ของปืนแม่เหล็กไฟฟ้า ก็คงไม่ปล่อยสิ่งที่ขัดต่อ\nอุดมการณ์ของพวกตนไว้ครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แล้วก็ต้องทำทุกวิถีทางเพื่อเข้าร่วมประชุมและคงสัญญานั้นไว้ จากการขอความช่วยเหลือจากครู <ชาเล่ต์> ผู้เป็นผู้สนับสนุนที่เข้มแข็งน่ะครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "โดยอาจจะทำให้อะบิดอสได้เป็นเจ้าของปืนแม่เหล็กไฟฟ้าเหมือนประธานสภานักเรียนคนนั้น จะได้ไม่มีใครมาแตะต้องปืนได้ หรือไม่ก็คงไปตามหาแล้วทำลายมัน... ไม่ว่าจะเลือกทางไหน ทางเราก็คิดว่ายังไงคณะกรรมการแผนงานก็ต้องเคลื่อนไหวครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "และพวกเราก็รับรู้ถึงพลังของครูคนนั้นมาแล้ว และมันก็... อันตรายครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ก่อนหน้านี้คณะกรรมการแผนงานได้รับการสนับสนุนจาก <ชาเล่ต์> จนแม้แต่ไคเซอร์ PMC ก็ยัง\nขัดขวางไว้ไม่ได้ครับ ทั้งๆ ที่ในตอนนั้นไม่มีทาคานาชิ โฮชิโนะอยู่ด้วยแท้ๆ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ทาง <กองทุนไพรเวทอิควิตี้> ก็เลยรวบรวมกองกำลังมากมายมาไว้ที่อะบิดอสยังไงล่ะครับ ทางกองทุนอาจจะคิดว่าถ้าทำแบบนั้น ต่อให้เป็น <ชาเล่ต์> ก็คงฝ่าแนวกีดขวางไม่สำเร็จ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แต่ครูคนนั้น... และคณะกรรมการแผนงานทุกคนก็ไม่ได้สนใจอะไรเรื่องพวกนั้นเลยครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "และ... นั่นก็คือสิ่งที่พวกผมต้องการเลยครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คะ...?!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ถ้ามีการปะทะกันระหว่าง <ชาเล่ต์> กับ <กองทุนไพรเวทอิควิตี้> ทั้งสองฝ่ายคงได้รับความเสียหาย\nไม่ใช่น้อยๆ เลยว่ามั้ยครับ ส่วนใครจะเป็นฝ่ายชนะ ผมไม่ได้สนใจหรอกครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "และเมื่อทั้งสองฝ่ายย่อยยับไปด้วยกัน ตอนนั้นพวกผมก็จะเรียกแนวร่วม แล้วจัดการ <กองทุนไพรเวทอิควิตี้> และคณะกรรมการแผนงานไปด้วยกันเลยครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อะไรนะคะ...?! "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แนวร่วม...?! ดะ... เดี๋ยวนะคะ! หมายความว่ายังไง...!!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ครับ เป้าหมายของพวกผมก็คือการจัดการ <กองทุนไพรเวทอิควิตี้> แล้วครอบครองปืนแม่เหล็กไฟฟ้า\nแต่เพียงฝ่ายเดียวครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "...!!! "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "มะ... ไม่จริง... คุณวางแผนไว้แบบนี้ตั้งแต่แรกเหรอคะ...?!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แน่นอนสิครับ!! ปืนแม่เหล็กไฟฟ้าเป็นของพวกเราตั้งแต่แรกแล้ว! จะให้ใครแย่งไปไม่ได้เด็ดขาดครับ!"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ถ้ามีอาวุธชิ้นนั้น เนฟธิสก็คงฟื้นตัวและกลับมาแข็งแกร่งได้เร็วขึ้น 10 ปีเลยครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ไม่คิดเลยนะครับว่าเศษเหล็กที่เราไม่สนใจใยดีเพราะคิดว่าถูกนักต้มตุ๋นหลอกเข้าจะใช้งานได้จริงๆ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "มันก็เป็นอย่างนั้นละครับ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แต่ว่าครูคนนั้นก็ยังไม่กลับมาที่อะบิดอสสินะครับ ถ้าพวกคุณหนูจะเข้าร่วมการประชุม ก็ต้องขอความช่วยเหลือจากชาเล่ต์... "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ผมก็เลยกังวลว่าถ้าเป็นแบบนี้ แผนจะพังหรือเปล่า... หึหึหึ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "หึหึหึ... แต่ก็ไม่คิดเลยนะครับว่าคุณหนูจะมาช่วยพวกเราถึงที่แบบนี้"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "คุณถูกใช้งานแล้วละ คุณหนู"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ๊ายย...?!!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(อ่า...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(เป็นอย่างนั้นเหรอคะ...)"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ยูเมะ... ทำไม... ทำไมกันนะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "อยู่ที่ไหนคะ... รุ่นพี่... ฉัน... ฉันผิดไปแล้วค่ะ... ขอร้องละ... ได้โปรด..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่... ฮือออ... ฮึก... ฉัน... ฉันผิดไปแล้วค่ะ... ฉันน่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ยูเมะ... ฮือออ... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(อ่า...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(วันนี้... คุณก็ยังไม่เจอสิ่งที่ต้องการสินะคะ)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(และในวันพรุ่งนี้ ก็จะไปยังที่รกร้างแล้วก็เตร็ดเตร่ตามหาอีก...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ทำแบบนี้ทุกวันๆ... โดยไม่เหน็ดเหนื่อย... ทำไมกันนะ...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ทำไมกันนะ...? ทำไปเพื่ออะไรกัน...?)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ก็แค่ลืมเรื่องทุกอย่างแล้วออกจากอะบิดอสไปก็ได้นี่...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ถ้าคิดว่าทุกเรื่องที่เคยเกิดขึ้นที่นี่คือความฝัน แล้วลืมมันไปให้หมด...) "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(อย่างน้อยก็คงไม่ต้องมาเจ็บปวดอยู่อย่างนี้...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ทำไมล่ะ...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ทำไมฉัน... ถึงตัดสินใจที่จะอยู่ที่นี่ต่อ...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ทำไมไม่ลืมทุกอย่างไป... ทำไมไม่คิดว่าทุกอย่างคือฝันไป...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ฉัน...)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "รุ่นพี่โฮชิโนะ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ขอบคุณครับ... สุโอ ไปยึดบัตรนักเรียนกับบัตรเครดิตของคุณหนูมาเลยครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ที่บอกว่าถ้ากลับไปที่ไฮแลนเดอร์แล้วจะได้เป็นประธานสภานักเรียน เป็นเรื่องโกหกงั้นเหรอ...?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ก็ใช่ครับ ถ้าคนที่ไม่ฟังคำของเราได้อำนาจขึ้นมา คิดว่าจะเกิดอะไรขึ้นล่ะครับ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เธอจะมาเป็นตัวประกันชั้นดีให้เราแทนครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "จะจับคุณหนูของวงศ์ตระกูลเป็นตัวประกัน...?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เรื่องนี้ทางคณะกรรมการบริหารอนุญาตแล้วครับ อ้อ แน่นอนว่าผมไม่คิดจะทำร้ายเธอหรอกครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ผมจะติดต่อคณะกรรมการแผนงานแล้วสั่งให้ไปเข้าร่วมการประชุมสมัชชาเจ้าหนี้ครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ถ้าพวกนั้นไม่ฟังคำของผม ผมก็จะย้ายคุณหนูไปที่ไฮแลนเดอร์ครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ให้ไปเข้าร่วมการประชุม...? แล้วให้บอกว่าจะคงสัญญานั้นไว้น่ะเหรอ...?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "มันต้องตรงกันข้ามแน่นอนอยู่แล้วสิครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ต้องขู่ให้สารภาพว่า <สภานักเรียนอะบิดอส> โดยคุจินาชิ ยูเมะกับทาคานาชิ โฮชิโนะ เป็นกลุ่มจอมปลอมต่างหากละครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "งั้นเหรอ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ถ้าไม่ได้รับการสนับสนุนจากชาเล่ต์ คณะกรรมการแผนงานก็คงไปไม่ถึงที่นั่นอยู่แล้ว แต่ยังไงทางนั้น\nก็คงพยายามอย่างถึงที่สุดเพื่อให้ได้คุณหนูกลับไปครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "คณะกรรมการแผนงานต้องก่อเรื่องวุ่นวายให้มากที่สุด พวกผมจะได้จัดการกับ <กองทุนไพรเวทอิควิตี้> ได้ง่ายขึ้นครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "และต่อให้พวกเธอฝ่าแนวป้องกันของกองทุนไปได้ ก็ต้องปฏิเสธการมีอยู่ของสภานักเรียนถึงจะได้ <ปืนแม่เหล็กไฟฟ้า> ไป สมบูรณ์แบบเลยนะ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "พาคุณหนูไปยังที่ที่ตกลงกันไว้ได้เลยครับ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ส่วนผมจะไปติดต่อคณะกรรมการแผนงานครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "(ซ่า) ขอโทษนะคะ รุ่นพี่โฮชิโนะ... ฉันทำพลาดแล้วค่ะ... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แค่ก... แค่ก... ชิโรโกะจัง... อายาเนะจัง... เซริกะจัง... แค่กๆ รุ่นพี่โฮชิโนะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉัน... ไม่ควรมาอยู่ตรงนี้ตั้งแต่แรกแล้วเลยค่ะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉันคือเนฟธิส... ฉันคือฝ่ายที่ผิด... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เพราะฉัน... แค่ฝืนใจอยู่ที่นี่เพราะรู้สึกผิด... เพราะงั้นต่อให้ฉันต้องไปไฮแลนเดอร์... ก็ไม่เป็นไรค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉันอยากให้รุ่นพี่หลุดพ้นจากความรู้สึกผิด แล้วได้ใช้ชีวิตอย่างอิสระค่ะ... เพราะงั้น..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อย่าทำให้ประธานยูเมะ... และสภานักเรียนอะบิดอสเป็นสภาจอมปลอม... เพราะฉันเลยค่ะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ถ้ามีคุณครูอยู่ด้วย... ก็คงต้องหาวิธีทำลายปืนแม่เหล็กไฟฟ้า... ได้แน่..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เรื่องมันก็เป็นอย่างนี้ละครับ ทาคานาชิ โฮชิโนะ และคณะกรรมการแผนงานทุกคน"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ไปเข้าร่วมการประชุมสมัชชาเจ้าหนี้ แล้วก็สารภาพไปเถอะครับว่าสภานักเรียนอะบิดอสเป็นสภาจอม\nปลอม"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แล้วก็ให้การรับรองว่าทุกกิจกรรมของสภานักเรียนที่ทาคานาชิ โฮชิโนะกับคุจินาชิ ยูเมะทำนั้นเป็น\nเรื่องที่ไม่ได้รับการอนุมัติ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "แล้วคุณหนูก็จะได้ไปอยู่กับพวกคุณ แทนที่จะได้อยู่ในคุกใต้ดินของไฮแลนเดอร์ครับ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "พระอาทิตย์กำลังขึ้นแล้วครับ... อีกไม่นานก็จะเริ่มการประชุมแล้ว"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "หวังว่าจะเลือกอย่างชาญฉลาดนะครับ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ระ... รุ่นพี่โนโนมิ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มะ... ไม่นะ..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "โนโนมิ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "งี้นี่เอง เป็นแบบนี้สินะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ระ... รุ่นพี่ จะไปไหนน่ะ!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เราต้องออกเดินทางกันเลยสิ ถ้าจะไปช่วยโนโนมิจัง เราก็ต้องทำตามที่คนเลวคนนั้นสั่ง"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "วะ... ว่าไงนะ?! จะทำอย่างที่เขาสั่งเหรอ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันไม่อยากเสียคนสำคัญของฉันไปอีกแล้ว รุ่นพี่ยูเมะฉันก็ปกป้องเอาไว้ไม่ได้ และถ้าต้องมาเสียโนโนมิจังไปอีกคน... ฉันก็คงเป็นรุ่นพี่ไม่ได้หรอก "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ตะ... แต่ว่ากองกำลังตั้งเยอะขนาดนั้น ลำพังพวกเราคง..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ใช่ เราต้องรอคุณครู รุ่นพี่ เดี๋ยวคุณครูก็ติดต่อมานะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ละ... ฉันจะไปที่นั่นคนเดียว"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "คนเดียวเหรอ?! เหลวไหลน่า! รุ่นพี่จะฝ่าคนพวกนั้นเข้าไปคนเดียวน่ะเหรอ? "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "อืม ฉันทำได้น่า ตั้งใจไว้แล้วละว่าจะทำอย่างนั้น"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ก็ได้... หลังจากช่วยโนโนมิแล้ว รุ่นพี่คิดว่าจะจัดการทั้ง <กองทุนไพรเวทอิควิตี้> และเนฟธิสให้หมดไป\nเลยใช่มั้ย?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฮึ่ม..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?! แล้วจะรับมือตอนสุดท้ายนั่นยังไง?! "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ต้องห่วงหรอก ถ้าฉันปฏิเสธการมีอยู่ของ <สภานักเรียนอะบิดอส> ฉันก็จะไม่ใช่รองประธานนักเรียน\nอีกต่อไป "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เพราะงั้นต่อให้ฉันทำลายกองทุนไพรเวทอิควิตี้และปืนแม่เหล็กไฟฟ้า คณะกรรมการแผนงานก็จะไม่\nได้รับความเสียหายอะไร"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "มะ... หมายความว่ายังไงน่ะ?! แล้วรุ่นพี่ล่ะ?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ต่อไปก็คงโดนพักการเรียน ไปอยู่ห้องคุมขัง ลาออก... แล้วก็ออกจากคิโวทอสไป"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เพราะงั้นพวกเธอห้ามตามมาเด็ดขาด"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "พวกเธองั้นเหรอ? "
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "รุ่นพี่หมายถึงอะไรกันแน่?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หืม? ก็คณะกรรมการแผนงานไง คณะกรรมการแผนงานคือสภานักเรียนตัวจริงที่ได้รับการรับรองจาก\nคุณครู"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ระ... รุ่นพี่ชิโรโกะ?! ทำไมจู่ๆ ก็เอาปืนออกมาล่ะ...?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ชิโรโกะจัง?! อะ... อันตรายนะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ขึ้นมาบนดาดฟ้า มาดวลกัน"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นะ... นี่มันเรื่องอะไรกัน?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ดะ... ดวลกันงั้นเหรอ...?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แหะๆ~ เอางั้นเหรอ? ไม่ได้ทำแบบนี้มานานเลยนะ "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เหมือนเป็นฉากหนึ่งในละครวัยรุ่นเลย น่าตื่นเต้นดีแฮะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ดะ... เดี๋ยวนะคะ...?! รุ่นพี่โฮชิโนะ รุ่นพี่ชิโรโกะ?! "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นะ... นี่มันอะไรกัน... นี่มันเรื่องเหลวไหลอะไรกัน..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ทะ... ทำยังไงดี เซริกะจัง?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ก็ต้องตามไปสิ!"
+    },
+    {
+      "Text": "ตอนต่อไป;พวกเธอ และพวกเรา"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第13話;人質"
+    },
+    {
+      "Name": "白子",
+      "Text": "我回來了……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "歡迎回來，白子前輩。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……啊，記得關一下門。\n不然風都吹進來了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔，嗯。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "歡迎回來，前輩。\n你說會洗完澡再來，結果這麼快就回來了嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊，對了前輩，幫忙開個燈吧。差不多也該振作了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯。"
+    },
+    {
+      "Name": "星野",
+      "Text": "哎呀～茜香醬這樣叫前輩做東做西的，之後說不定會遭天譴的唷？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什，什麼啦？我哪有？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "還不是因為大家都懶得開燈！"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔嗯……老師有消息嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……除了剛才的新聞之外，完全沒有。"
+    },
+    {
+      "Name": "星野",
+      "Text": "也就是說，雖然被送到醫院但傷勢不重。\n可是好像還沒醒過來……"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "被捲入那種事故還能毫髮無傷……該說是不幸中的大幸嗎……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "畢竟老師本來就是個不可思議的人。\n幸好沒出什麼大事，感覺放心多了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……不過既然如此，現在也只能放棄接受老師的幫助了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "得想出辦法才行……\n既能取得列車砲的權利，又能把它破壞到再也動不了的那種……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "向其他學園請求協助怎麼樣呢……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……不，那在少了老師的情況下恐怕很難吧。"
+    },
+    {
+      "Name": "白子",
+      "Text": "而且就算想求助，時間也不夠。\n考慮到這裡和召開債權團大會的中央車站的距離，現在差不多該出發了。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "唉……只能做好心理準備了……"
+    },
+    {
+      "Name": "白子",
+      "Text": "話說野乃美呢？怎麼沒看到人……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊，野乃美前輩剛才說有事要出去一下。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這麼說來他已經出去很久了吧……？\n應該差不多該回來了才對啊？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……唔嗯，讓人有點擔心。\n野乃美醬怎麼了呢……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……我照約定自己來了，管家。"
+    },
+    {
+      "Name": "???",
+      "Text": "嗯，我知道。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "我從學校就一直跟著你，幸好沒有被人跟蹤。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "你是……！？管家人在哪裡？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……我在這裡，大小姐。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "不過大小姐居然會主動找我，這可真稀奇。\n有什麼事嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那個……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "難道……大小姐改變主意了嗎？\n要回高地人鐵道學園擔任學生會長？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "這是個明智的決定！\n如此一來，我們奈芙蒂斯就能獨佔列車砲的所有權了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不是的……！我不會離開對策委員會……！"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "不是……？\n那您找我究竟有何貴幹？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "就算我不擔任高地人鐵道學園的學生會長…… "
+    },
+    {
+      "Name": "野乃美",
+      "Text": "奈芙蒂斯也應該有解決列車砲問題的方法才對……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "奈芙蒂斯既是私募基金的一員，又和高地人鐵道學園有合作關係……\n應該是個比私募基金更龐大的企業集團。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "只要把所有力量集中在這個問題上，我相信一定可以……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "對策委員會，以及阿拜多斯學生會……\n對白子醬和星野前輩來說，兩者都具有無可取代的意義……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "哪怕只有名字也好……\n只要能守住它們，我什麼都願意做……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……哈哈，哈哈哈哈！！\n多麼天真的想法啊，大小姐。您看待世界的觀點實在太膚淺了。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "所以說白了，您不就是不願意付出任何犧牲和代價，卻想讓事情如您所願嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……！"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "明白我的意思嗎，大小姐？\n世界可沒有那麼美好，任何事情都是有代價的。任性無法解決任何問題。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "您以為所有人都願意配合您的任性嗎！？\n實在太不懂人情世故了！簡直就和國中生沒兩樣。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "方法我已經說過了──只要大小姐進入高地人鐵道學園就讀，一切就會迎刃而解。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那，那個……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "當然要現在強制您入學也不是不行，但我實在不想對企業的大小姐做出這種事。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "不被「私募基金」搶走列車砲的方法……當然不僅如此。\n我們正在準備一項計畫。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "是，是什麼計畫！？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請您認錯吧，大小姐。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……！！"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請為您反抗聖奈芙蒂斯集團，以及因而造成集團損失一事道歉，大小姐。\n只要您願意低頭認錯，我就告訴您計畫的內容。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……喂。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請你不要插手，蘇芳同學。\n這是很重要的事。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……是，我知道了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "非常抱歉。\n是我害管家……以及奈芙蒂斯的大家…… "
+    },
+    {
+      "Name": "野乃美",
+      "Text": "遭受了損失……真的很對不起……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "很好，這樣我多少也消了一點氣。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那麼……我這就向您說明。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "計畫的內容是這樣的。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我們認為對策委員會一旦得知列車砲的存在，\n勢必不會對這種違背自身理念的東西置之不理。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "因此一定會設法參加大會，表明維持契約的意願。\n──藉由自己的強大幫手「夏萊」老師的幫助。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "也許是打算像那個學生會長一樣，讓阿拜多斯取得列車砲的所有權……\n又或者是設法找出列車砲並將其破壞……無論手段為何，他一定會有所行動。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我們已經充分理解那位老師的力量。\n那股力量……相當危險。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "得到「夏萊」支援的對策委員會，就連凱薩PMC都無法招架……\n而且當時甚至還缺少了小鳥遊星野的力量。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "所以「私募基金」才會把數量龐大的兵力集中到阿拜多斯。\n那種程度的兵力，我想就算是了不起的「夏萊」也難以突破……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "但是那個老師……以及對策委員會的成員，想必不會在意那種事吧。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "而這……就是我們期望看見的。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……咦！？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "「夏萊」和「私募基金」的衝突──無論誰勝誰負，都勢必會造成雙方莫大的傷害。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "而我們只要趁著兩敗俱傷的時機投入同盟的兵力，\n將「私募基金」和對策委員會一網打盡就行了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……什麼！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "同盟……！？請，請等一下！？\n那句話的意思是……！！"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "沒錯，我們的目的是處理掉「私募基金」的傢伙並獨佔「列車砲」。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……！！！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "怎，怎麼會……你們打從一開始就計畫那麼做嗎……！？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那當然！！列車砲本來就是我們的！不能被任何人搶走！！"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "只要有了它，就能讓奈芙蒂斯的復活提早10年。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "沒想到當初以為是場騙局而隨意處置的廢鐵，竟然真的能運作……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "但是……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那個老師卻遲遲沒有回到阿拜多斯。\n然而如果想參加大會，就不能少了夏萊的幫助……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "本來還很擔心計畫會失敗的……呵呵呵……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "沒想到能獲得大小姐的鼎力協助。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "你被人利用了，大小姐。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "呀啊……！！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（啊啊……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（原來是這麼回事……）"
+    },
+    {
+      "Name": "星野",
+      "Text": "夢前輩……為什麼……為什麼……"
+    },
+    {
+      "Name": "星野",
+      "Text": "你在哪裡……前輩……\n是我錯了……拜託……拜託……"
+    },
+    {
+      "Name": "星野",
+      "Text": "前輩……嗚嗚嗚嗚……嗚嗚嗚……\n我，我錯了……我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "夢前輩……嗚嗚嗚嗚……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（啊啊……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（看來……今天也沒找到想找的東西呢……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（明天恐怕也會在那片沙漠中徘徊吧……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（日復一日……不厭其煩地……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（為什麼……？究竟是為了什麼……？）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（明明只要忘記一切，離開阿拜多斯……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（把這裡發生的事，全都當成一場夢就行了……） "
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（這樣至少不會感到痛苦……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（為什麼……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（而我……當初又為什麼會決定留在這裡呢……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（明明只要忘記這裡……只當作是一場夢就行了……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（我……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "星野前輩……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……辛苦你了，蘇芳。\n請回收大小姐的學生證和卡片吧。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……你說要讓他回到高地人鐵道學園擔任學生會長，這是騙人的嗎？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那當然。\n怎麼能讓不服從我們指示的人掌握權力呢？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "不過相對的，他將會成為一名優秀的人質。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "要把家族的大小姐當作人質……？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "這是理事會允許的。\n啊啊，當然我並不打算傷害他。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我稍後會聯絡對策委員會，要求他們參加債權團的大會。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "同時告訴他們如果不照做，我就讓大小姐轉學到高地人鐵道學園。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……參加大會？\n你該不會要求他們維持那份契約吧？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我當然不會那麼做。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我的目的是強迫他們承認梔子夢和小鳥遊星野的「阿拜多斯學生會」是冒牌的組織。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "原來如此。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "缺少夏萊支援的對策委員會應該無法到達那裡，\n不過還是會為了奪回大小姐而盡最大的努力吧。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "對策委員會必須盡可能引起騷動，這樣我們才能輕鬆收拾「私募基金」。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "而就算他們突破私募基金的封鎖，也同樣必須否定學生會的存在。\n這麼一來「列車砲」仍然會歸奈芙蒂斯所有。真是完美的計畫。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那麼請把大小姐送到說好的地點。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "我這就去聯絡對策委員會。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "（滋滋）對不起，星野前輩……這都是我的錯……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "咳咳，咳咳……白子醬……綾音醬……茜香醬……咳咳。\n星野前輩……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我……打從一開始就不該待在這裡……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "因為我是奈芙蒂斯的人……因為我是加害者…… "
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我只是……因為罪惡感而硬是留在這裡而已……\n所以就算必須回到高地人鐵道學園……也是罪有應得……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我希望前輩能擺脫愧疚，過上自由的生活……所以……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "請別因為我而讓夢會長……讓阿拜多斯學生會變成虛假的存在……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "只要有老師在……一定能找到破壞列車砲的辦法的……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……事情就是這樣。\n小鳥遊星野，以及對策委員會的各位。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請各位無論如何都要出席債權團大會，並宣告阿拜多斯學生會只是個冒名的組織。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "只要公證小鳥遊星野和梔子夢的學生會活動，都是未經認可的就行了。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "這樣大小姐就不必生活在高地人鐵道學園的地下牢房，而是能繼續和各位待在一起。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……太陽已經升起，大會也將於不久後開始。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "希望各位能做出明智的選擇。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……野，野乃美前輩。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "怎，怎麼會……"
+    },
+    {
+      "Name": "白子",
+      "Text": "野乃美……"
+    },
+    {
+      "Name": "星野",
+      "Text": "原來如此，事情演變成這樣了啊。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "前，前輩，你要去哪裡！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "得趕快出發才行。\n如果想救野乃美醬，也只能照那傢伙說的做了。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "你，你說什麼！？真的要照他說的做嗎？"
+    },
+    {
+      "Name": "星野",
+      "Text": "我不能再失去重要的人了。\n之前的我沒能保護夢前輩，如果現在又失去野乃美醬……我還有什麼資格當前輩呢。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "但，但是只靠我們很難對付那些兵力……"
+    },
+    {
+      "Name": "白子",
+      "Text": "沒錯，應該等老師才對，前輩。\n老師一定會聯絡我們的。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……不，要去那裡的人只有我一個。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "要一個人去！？什麼意思啊！？\n前輩一個人能突破封鎖嗎？"
+    },
+    {
+      "Name": "星野",
+      "Text": "啊啊，當然可以。因為我已經下定決心了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……我知道了。\n星野前輩打算在救出野乃美之後，把「私募基金」和奈芙蒂斯全部處理掉吧？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼！？你打算怎麼承擔後果啊！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "後果怎樣都無所謂。\n只要否定了「阿拜多斯學生會」，我就不再是副學生會長了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "這樣一來，就算我瓦解私募基金並破壞列車砲，\n應該也不會對「對策委員會」造成任何影響才對。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什，什麼意思！？那前輩你怎麼辦！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "接下來的流程應該是停學、矯正局、退學……然後離開奇普托斯吧？"
+    },
+    {
+      "Name": "星野",
+      "Text": "所以你們不可以跟過來。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "你們？"
+    },
+    {
+      "Name": "白子",
+      "Text": "「你們」指的是什麼？"
+    },
+    {
+      "Name": "星野",
+      "Text": "嗯？當然是指對策委員會囉。\n對策委員會才是經過老師認證的……阿拜多斯真正的學生會。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "白，白子前輩！？為什麼突然開槍……！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "白子醬！？這樣很危險耶？"
+    },
+    {
+      "Name": "白子",
+      "Text": "跟我到屋頂上一決勝負。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這，這是什麼情況！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "一，一決勝負……！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "嘿～這樣啊。\n還真是……久違了呢。"
+    },
+    {
+      "Name": "星野",
+      "Text": "就像青春連續劇一樣，讓人心癢難耐。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "請，請等一下……！？星野前輩、白子前輩！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "現，現在到底是……什麼詭異的情況……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "該，該怎麼辦，茜香醬？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "當然要跟上去啊！"
+    },
+    {
+      "Text": "下一話;你們，以及我們"
+    }
+  ]
+}

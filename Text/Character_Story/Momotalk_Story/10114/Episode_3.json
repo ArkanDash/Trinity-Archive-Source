@@ -1,0 +1,2142 @@
+{
+  "TitleJP": "ウェイトレスのサービス",
+  "TitleKR": "웨이트리스의 서비스",
+  "TitleEN": "Service of a Waitress",
+  "TitleTH": "แฟนเซอร์วิสของพนักงานเสิร์ฟ",
+  "TitleTW": "服務生的服務",
+  "DescJP": "ジュリから匿って欲しいと連絡を受ける先生。聞くところによると、大会に優勝して「今月のウェイトレス」に選ばれたことで、来店する客からツーショット写真を頼まれ、さらには町を歩いているだけでも声を掛けられるなど、知名度が上がりすぎたことにより苦労をしているらしい。先生は、取り乱すジュリをシャーレの休憩室に招いて落ち着かせ、しばしの休息の一時を共にする。そんな先生に対し、ジュリはお礼としてスペシャルパフェを振る舞うのだった。甘みの中に塩気がある独特の味に先生は舌鼓を打ち、共に楽しい時間を過ごしていく……。",
+  "DescKR": "이 달의 웨이트리스로 선발된 나머지, 지나치게 유명인이 되어 버린 주리. 사람들의 시선을 잠시 피하기 위해 샬레로 몸을 숨긴 주리는, 선생님만의 웨이트리스가 되어 파르페를 대접한다.",
+  "DescEN": "The competition made Juri a local celebrity, causing her all kinds of stress. She takes refuge in Schale, where she decides to play the part of Sensei's personal waitress and prepares a special parfait.",
+  "DescTH": "หลังจากได้รับคัดเลือกให้เป็นพนักงานเสิร์ฟดีเด่นประจำเดือน จูริก็กลาย\nเป็นคนดังขึ้นมา จูริมาซ่อนตัวที่ชาเล่ต์เพื่อหลบเลี่ยงสายตาของคนอื่น จนได้มาเป็นพนักงานเสิร์ฟส่วนตัวของคุณครูและเสิร์ฟพาร์เฟต์ให้",
+  "DescTW": "結果獲選為本月服務生的茱莉變成了名人，有名到讓人困擾的地步。茱莉為了暫時躲避人們的視線而躲到了夏萊，成為只屬於老師的服務生，親手為老師端上百匯。",
+  "DialogJP": [
+    {
+      "Text": "ウェイトレスのサービス"
+    },
+    {
+      "Text": "（ジュリを待っていると、慌ただしいノック音が聞こえてきた！）"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "せんせぇ～！"
+    },
+    {
+      "Text": "[s] \"ジュリ、ひとまず落ち着いて！\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "は、はい……ぐすん。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "い、いえ……ストーカーとかではありません。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "先に話してから来るべきでしたね。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "その、「今月のウェイトレス」に選ばれたおかげか……。"
+    },
+    {
+      "Text": "[ns1] \"カフェを訪れるお客さんが……\""
+    },
+    {
+      "Text": "[ns2] \"10倍も増えちゃったの！？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "最初は何とか対応していました。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "売上が伸びてマネージャーさんは喜んでくれましたし、\n新しい常連客もできたんですが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "その、ツーショット写真なんかも頼まれるようになってしまいまして……。"
+    },
+    {
+      "Name": "お客さんA",
+      "Text": "めっちゃ可愛いです、ジュリさん！\nこういうポーズをお願いして良いですか？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "その、えっと……はい。"
+    },
+    {
+      "Name": "お客さんB",
+      "Text": "おぉ、最高です！\nもう少し照れた表情ください！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "うぅ……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "チャンネルをご覧の皆さん、こんにちは！\nクロノス報道部です！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "今日は最近話題の[ruby=うしまき]牛牧[/ruby]ジュリさんにインタビューを行っていきます！\nではまず、自己紹介からお願いします！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "は、はじめまして、ジュリと言います……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "噂によりますと、ジュリさんは有名なウェイトレス選抜大会で……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "大きなグラスを振り回し、ライバルを一撃で倒したと聞きましたが、それは本当でしょうか！？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい！？そ、そんなことしてませんよ！\nたしかに重たいグラスを運ぶ種目はありましたが……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "なんとっ！\nチャンネルをご覧の皆さん、どうやら噂は本当でした！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "いやはや、さすがは大会優勝者です。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ち、違います！\nですから、私は……！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "それでは次の質問へ！\nこれも噂によると、ジュリさんはミレニアム製のロボットと対決して……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "「いつか終焉は訪れ、私のようなウェイトレスは消え去る」。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "「しかし、まだその時ではない。人類が敗北するには、まだ早い」――というハードボイルドなセリフを残し……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "生意気なミレニアム製のロボットに打ち勝ち、自爆を命じたのは本当ですか！？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい！？そ、それも違います！\n私はただ……！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あのロボットが急に自爆しようとしたので、止めようと……。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "なるほど、やはり噂は本当のようですね！！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "皆さんご存知の通り、私たちクロノススクールはキヴォトスで最も迅速に真実のみを報道しております！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "今回も無事、ジャーナリスト精神に則り取材できたことを心より嬉しく思います！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "インタビューに快く応じてくださり、ありがとうございました！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ですから、話を聞いてくださいっ！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ぐすん……。"
+    },
+    {
+      "Text": "[ns3] \"……。\""
+    },
+    {
+      "Text": "[ns4] \"大変だったね……。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "いつの間にかネットにも噂が広まっていたらしくて……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あのクロノスの方は、一応ポジティブな記事を書いてくださったようで、マネージャーさんからもお祝いしてもらいましたけど……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "でも急に名前が広まったせいで、町を歩いているとサインを求められたり……。"
+    },
+    {
+      "Text": "[s] \"みんなに注目されて嫌だった……？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "いえ、そういうわけではありません。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "親切な方ばかりですし、皆さん好意的ですから……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "決して嫌では……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ただ、ウェイトレスの仕事に縛られているような気がして……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "こちらが忙しくなった分、給食部の仕事に出られなくなってしまい……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "先輩にも、申し訳ない気持ちが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そろそろウェイトレスを辞めて、給食部に戻るべきではないかと思ったんです。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "私のせいで、カフェにも少なからず迷惑はかかっているはずですし……。"
+    },
+    {
+      "Text": "[s] \"ジュリ、よければ場所を変えようか？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……場所、ですか？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ここは先生の休憩室では……？"
+    },
+    {
+      "Text": "[s5] \"そうだよ。\""
+    },
+    {
+      "Text": "[s6] \"ここなら落ち着けると思って。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい……？"
+    },
+    {
+      "Text": "[s] \"それに騒ぎなら、いずれ収まるからね。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "私がその気になれば、給食部にはいつでも戻れる、と……？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……たしかに、そうですね。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "私に寄せられている関心は、いずれ収まるはずですし。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "クロノス報道部の方が訪れた時は、驚いてしまいましたが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あの方たちは、常に面白そうなものを探しているだけですからね……えへへ。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "それで先生？\nどうして私をここに連れてきたんですか？"
+    },
+    {
+      "Text": "[s] \"今ジュリに必要なのは、一人の時間だと思ってね。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "一人の時間……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そういえば、最近ずっと忙しくて休む暇もありませんでしたね。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "もちろん給食部の時も、お昼休みの前後はバタバタしていましたけど。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "今に比べると、たしかに……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ありがとうございます、先生。\n少し気持ちが楽になりました。"
+    },
+    {
+      "Text": "（その後も、しばらく他愛もない話が続いた）"
+    },
+    {
+      "Text": "（必ずしも、すべての物事に意味を見出す必要はないのだから）"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あれ……もうこんな時間ですか！？"
+    },
+    {
+      "Text": "[s7] \"あっという間だね。\""
+    },
+    {
+      "Text": "[s8] \"仕事の時も、こんな感じだと良いのになぁ……。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……そういえば、つい先生のお時間を奪ってしまいましたね。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "気にしなくても大丈夫、と先生は仰いますが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あの、先生？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "もしよろしければ、パフェはいかがですか？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "カフェで色々と教わったので……。"
+    },
+    {
+      "Text": "[s] \"……ジュリのパフェ？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい！\nあっ、その……無理に、食べる必要は……ありませんよ？"
+    },
+    {
+      "Text": "[s9] \"ここは「カフェ・シャーレ」ということで……。\""
+    },
+    {
+      "Text": "[s10] \"店員さん、ジュリのスペシャルパフェを一つください。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "！！！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "は、はい！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "少々お待ちください、[ruby=・   ・   ・]お客様[/ruby]！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "食材は……あっ、すぐに買ってきます！"
+    },
+    {
+      "Text": "（休憩室でジュリのスペシャルパフェを待っていると……）"
+    },
+    {
+      "Text": "[wa:950]― [log=주리 아르바이트]「カフェ・シャーレ」にご来店くださり[/log]"
+    },
+    {
+      "Text": "[wa:1690]― [log=주리 아르바이트]ありがとうございます！[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]はい、[wa:720]ご注文のスペシャルパフェです！[/log]"
+    },
+    {
+      "Text": "[wa:800]― [log=주리 아르바이트]ふふっ……[wa:1550]不思議な気分です。[/log]"
+    },
+    {
+      "Text": "[wa:1610]― [log=주리 아르바이트]ここは先生のためのカフェで――[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]私はそのカフェの……[wa:1930]たった一人のウェイトレス……。[/log]"
+    },
+    {
+      "Text": "[wa:960]― [log=주리 아르바이트]先生、[wa:1210]ご存知ですか？[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]パフェって……[wa:1640]「完璧」という意味なんだそうです。[/log]"
+    },
+    {
+      "Text": "[wa:1430]― [log=주리 아르바이트]お料理の腕は[wa:930]まだ完璧どころか……[/log]"
+    },
+    {
+      "Text": "[wa:2150]― [log=주리 아르바이트]まだまだですけど……[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]いつかは……[wa:1570]私も作れたらなと思います。[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]「パフェ」……[wa:1970]完璧なお料理を。[/log]"
+    },
+    {
+      "Text": "[ns] \"それじゃあ、いただきます！\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ど、どうぞ……！"
+    },
+    {
+      "Text": "（一瞬、食べるのを躊躇してしまったが、勇気を振り絞ってみると……）"
+    },
+    {
+      "Text": "[ns11] \"あれ……意外といけるかも？\""
+    },
+    {
+      "Text": "[ns12] \"甘いのに塩気もあって……美味しい！\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "本当ですか！？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ど、どうして塩気も感じるのか、よく分かりませんが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "でも先生が美味しく食べてくださって……私、幸せです！"
+    },
+    {
+      "Text": "[ns] \"わっ、ジュリ！？\""
+    },
+    {
+      "Text": "（抱きついてきたジュリを何とか落ち着かせて……）"
+    },
+    {
+      "Text": "（その後もパフェを食べながら、楽しい時間を過ごした）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "웨이트리스의 서비스"
+    },
+    {
+      "Text": "(주리를 기다리고 있자니, 다급한 노크 소리가 들렸다!)"
+    },
+    {
+      "Name": "주리",
+      "Text": "선생니임~!"
+    },
+    {
+      "Text": "[s] \"어서 와, 주리! 그리고 일단 진정하자!\""
+    },
+    {
+      "Name": "주리",
+      "Text": "네, 네에……. 훌쩍……."
+    },
+    {
+      "Name": "주리",
+      "Text": "무슨 일이냐고요? 스토킹 같은 것이라도 당하고 있는 거냐고요?"
+    },
+    {
+      "Name": "주리",
+      "Text": "아뇨, 스토킹 같은 건 아니긴 한데……."
+    },
+    {
+      "Name": "주리",
+      "Text": "네. 확실히 그것부터 말씀드려야겠네요."
+    },
+    {
+      "Name": "주리",
+      "Text": "그러니까 말이죠, 선생님. 제가 어쩌다 이 달의 웨이트리스에 선발된 건 좋았는데요……."
+    },
+    {
+      "Text": "[ns1] \"카페에 방문하는 손님들의 숫자가.\""
+    },
+    {
+      "Text": "[ns2] \"대충 세어 봐도, 열 배는 넘게 늘어났다고?!\""
+    },
+    {
+      "Name": "주리",
+      "Text": "처음에는, 잘 대응했어요."
+    },
+    {
+      "Name": "주리",
+      "Text": "당연히 매출도 늘어나서 매니저님도 좋아하셨고, 저를 알아봐 주시는 분들도 계셨고……."
+    },
+    {
+      "Name": "주리",
+      "Text": "엄청 부끄럽기는 했지만, 힘내라고 응원해 주시는 분들도 계셨었고요. 같이 사진을 찍자는 분들이라든가……."
+    },
+    {
+      "Name": "손님 A",
+      "Text": "귀여워요, 주리 씨! 혹시 특별 포즈 같은 거, 해 주실 수 있나요?"
+    },
+    {
+      "Name": "주리",
+      "Text": "가, 감사합니다. 그런데 특별 포즈라니…… 그런 거, 해 본 적이 없는데요……."
+    },
+    {
+      "Name": "손님 B",
+      "Text": "아, 지금 표정 정말 귀여웠어요! 포즈보다 지금 표정이 더 나은 것 같아요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그런, 가요……?"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "안녕하세요, 여러분! 현장 단독 돌격 취재, 크로노스 보도부입니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "이번에는 지금 가장 화제가 되고 있는 분인, 우시마키 주리 씨와 인터뷰를 나눠 보려고 하는데요! 우선 인사 부탁드립니다!"
+    },
+    {
+      "Name": "주리",
+      "Text": "아, 안녕하세요? 주리라고…… 합니다……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "네! 저희가 제보받은 대로라면, 주리 씨는 그 유명한 <이 달의 웨이트리스 선발 대회>에서……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "거대 유리잔에 가득 찬 커피로, 경쟁자들의 방해를 일격에 날려버렸다던데, 그것이 사실인가요?!"
+    },
+    {
+      "Name": "주리",
+      "Text": "네에?!?! 저, 저는 그런 적 없어요! 무거운 커피잔을 운반하기는 했지만, 그건 어디까지나 대회 종목이었고……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "이럴 수가, 들으셨나요. 시청자 여러분! 지금 저희의 제보가 절반은 맞았던 것으로 판명되었습니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "이거야말로 이 달의 웨이트리스로 선발되신 분에게 어울리는, '무력'이라고밖에 할 수 없겠네요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "아뇨! 아니에요! 저는 그런 게 아니라, 그게, 그러니까……!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "그러면 다음 질문입니다! 또 하나의 제보에 따르면, 주리 씨는 밀레니엄제 로봇과의 대결에서……"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "'언젠가 끝은 올 거다. 나와 같은 웨이트리스들은 결국 사라지게 되겠지.'"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "'하지만 그것이 오늘은 아니다. 인간은 아직 패배하도록 만들어지지 않았다.'라는 하드보일드한 대사를 남기며……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "그 건방진 밀레니엄제 로봇에게 승리하며, 로봇이 자폭하도록 만들어 버리셨다는데, 이것은 사실인가요?!"
+    },
+    {
+      "Name": "주리",
+      "Text": "아니에요! 정말 아니에요!!! 저는 그런 게 아니라, 그게, 그러니까……!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그, 로봇분이 갑자기 자폭하려고 하셔서, 간신히 말리기는 했는데요……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "들으셨습니까, 여러분! 이번에도 저희의 제보가 절반은 맞았습니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "아시다시피 저희 크로노스 스쿨은 키보토스에서 가장 신속하고 정확하며 공정한 보도를 전해드리는 것을 목표로 하고 있으며."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "이번에도 그 목표를 지킬 수 있어서 정말로 다행이라고 생각합니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "아울러 주리 씨와 같은 분들이 든든하게 자리를 지켜 주시는 한, 키보토스의 미래는 정말로 밝고 창창하다고밖에는–"
+    },
+    {
+      "Name": "주리",
+      "Text": "조금이라도 좋으니 제 말을 정확히 들어주세요–!!!"
+    },
+    {
+      "Name": "주리",
+      "Text": "훌쩍……."
+    },
+    {
+      "Text": "[ns3] \"…….\""
+    },
+    {
+      "Text": "[ns4] \"그 뭐냐, 고생 많았어. 특히 마지막…….\""
+    },
+    {
+      "Name": "주리",
+      "Text": "그리고 저는 잘 몰랐는데, 어느새 인터넷에도 소문이 전부 퍼져 있다더라고요……."
+    },
+    {
+      "Name": "주리",
+      "Text": "막상 크로노스 분들이 기사를 긍정적으로 작성해 주셔서요. 매니저님께서도 축하해 주셨고……."
+    },
+    {
+      "Name": "주리",
+      "Text": "축하해 주시는 것은 기쁘고 감사했지만, 퇴근길에도 저를 알아보고 사인해 달라는 분까지 계셨어서……."
+    },
+    {
+      "Text": "[s] \"그런 시선들이 부담스러웠던 거야?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "……."
+    },
+    {
+      "Name": "주리",
+      "Text": "아뇨. 그런 것은 아니에요."
+    },
+    {
+      "Name": "주리",
+      "Text": "저를 알아봐 주시고, 좋아해 주시고, 저와 같이 사진을 찍거나 얼굴을 보고 싶다고 말씀해 주시는 분들이 그렇게 많았는데……."
+    },
+    {
+      "Name": "주리",
+      "Text": "그런 것이 부담스럽다거나 싫은 것은, 아니에요."
+    },
+    {
+      "Name": "주리",
+      "Text": "그렇지만 역시, 웨이트리스 일에 조금 매이게 된 것 같아서요."
+    },
+    {
+      "Name": "주리",
+      "Text": "급양부 일정도 그만큼 빡빡해지고, 약간이지만 예전만큼은 대응하지 못하게 된 느낌도 있고."
+    },
+    {
+      "Name": "주리",
+      "Text": "그러다 보니 선배에게도 많이 미안하기도 하고요……."
+    },
+    {
+      "Name": "주리",
+      "Text": "네……. 슬슬, 선배와 급식실이 기다리는 동아리로 돌아가야 하지 않을까, 그런 생각이 들었어요."
+    },
+    {
+      "Name": "주리",
+      "Text": "……저에 대한 관심이 조금 과열되다 보니, 카페 자체에도 폐를 끼치게 된 것 같고요……."
+    },
+    {
+      "Text": "[s] \"우리, 자리를 조금 옮길까?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "자리…… 요?"
+    },
+    {
+      "Name": "주리",
+      "Text": "여기는…… 선생님께서 사용하시는 휴게실 아닌가요?"
+    },
+    {
+      "Text": "[s5] \"맞아. 그리고 지금만큼은.\""
+    },
+    {
+      "Text": "[s6] \"외부로부터 완전히 단절된 곳이기도 하지.\""
+    },
+    {
+      "Name": "주리",
+      "Text": "네……?"
+    },
+    {
+      "Text": "[s] \"우선 말이야, 이 '현상'은…… 머지않아 가라앉을 거야.\""
+    },
+    {
+      "Name": "주리",
+      "Text": "그리고 급양부로 돌아가는 문제는, 언제든 제 의지대로 그렇게 할 수 있을 거라고요……?"
+    },
+    {
+      "Name": "주리",
+      "Text": "……."
+    },
+    {
+      "Name": "주리",
+      "Text": "그건…… 그렇겠네요. 선생님. 네. 이런 게 오래 갈 리가 없죠."
+    },
+    {
+      "Name": "주리",
+      "Text": "크로노스 스쿨 분들이 찾아오셨을 때는 조금 놀라기는 했지만……."
+    },
+    {
+      "Name": "주리",
+      "Text": "에헤헤. 그분들은 항상 재미있는 일을 찾아다니시곤 하니까요."
+    },
+    {
+      "Name": "주리",
+      "Text": "그런데 굳이 장소를 바꾸신 이유가 있으신가요?"
+    },
+    {
+      "Text": "[s] \"지금 주리에게 필요한 건, 혼자만의 시간인 것 같아서.\""
+    },
+    {
+      "Name": "주리",
+      "Text": "혼자만의 시간……."
+    },
+    {
+      "Name": "주리",
+      "Text": "그러고 보니, 요즘 그런 걸 가진 적이 거의 없었네요."
+    },
+    {
+      "Name": "주리",
+      "Text": "급양부에서 동아리 활동을 했을 때는…… 물론 점심시간 전후로는 엄청 정신없었지만."
+    },
+    {
+      "Name": "주리",
+      "Text": "지금에 비하면 확실히…… 네. 그랬었던 것 같아요."
+    },
+    {
+      "Name": "주리",
+      "Text": "감사합니다, 선생님. 신경 써 주셔서요."
+    },
+    {
+      "Text": "(그 뒤로 한참 동안, 우리는 서로 아무 의미 없는 이야기를 했다.)"
+    },
+    {
+      "Text": "(의미가 있어야만 무언가를 할 수 있는 것은 아니니까.)"
+    },
+    {
+      "Name": "주리",
+      "Text": "어……? 어느새 시간이 이렇게 되었네요?!"
+    },
+    {
+      "Text": "[s7] \"그러게. 시간 참 잘 간다…….\""
+    },
+    {
+      "Text": "[s8] \"일할~ 때도~ 이렇게~ 시간이~ 가면~ 얼마나~ 좋을까~\""
+    },
+    {
+      "Name": "주리",
+      "Text": "생각해 보니…… 저, 선생님께 너무 실례되는 일을 한 것 같아요……."
+    },
+    {
+      "Name": "주리",
+      "Text": "신경 쓰지 않아도 된다고 하셔도, 제가 신경 쓰이는걸요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "……."
+    },
+    {
+      "Name": "주리",
+      "Text": "저, 선생님?"
+    },
+    {
+      "Name": "주리",
+      "Text": "괜찮으시다면…… 카페에서 스페셜 파르페를 만드는 법을 배웠는데."
+    },
+    {
+      "Name": "주리",
+      "Text": "한 번, 드셔 보시겠어요?"
+    },
+    {
+      "Text": "[s] \"주리의…… 파르페?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "네! 저기, 너무 무리하실 필요는…… 없으시니까요?"
+    },
+    {
+      "Text": "[s9] \"흠…… 좋습니다. 여기는 '카페 샬레'.\""
+    },
+    {
+      "Text": "[s10] \"주문은 주리 씨의 스페셜 파르페 하나로.\""
+    },
+    {
+      "Name": "주리",
+      "Text": "!!!"
+    },
+    {
+      "Name": "주리",
+      "Text": "네, 네!"
+    },
+    {
+      "Name": "주리",
+      "Text": "잠시만 기다려 주세요. '손님'."
+    },
+    {
+      "Name": "주리",
+      "Text": "재료는…… 근처 편의점에서도 충분히 구할 수 있으니까요!"
+    },
+    {
+      "Text": "(그렇게 휴게실에서 주리의 스페셜 파르페를 기다렸다.)"
+    },
+    {
+      "Text": "[wa:950]― [log=주리 아르바이트]카페 '샬레'에 오신 것을[/log]"
+    },
+    {
+      "Text": "[wa:1850]― [log=주리 아르바이트]환영합니다.[wa:160] [/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]네, [wa:720]주문하신 스페셜 파르페입니다![/log]"
+    },
+    {
+      "Text": "[wa:800]― [log=주리 아르바이트]후훗……. [wa:1510]신기한 기분이네요.[/log]"
+    },
+    {
+      "Text": "[wa:1210]― [log=주리 아르바이트]어떻게 보면 여기는 선생님만을 위한 카페이고.[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]제가 그 카페의 [wa:1970]한 명뿐인 웨이트리스라니…….[/log]"
+    },
+    {
+      "Text": "[wa:960]― [log=주리 아르바이트]선생님, [wa:1090]알고 계신가요?[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]파르페는…… [wa:1640]완벽하다는 뜻을 갖고 있대요.[/log]"
+    },
+    {
+      "Text": "[wa:1430]― [log=주리 아르바이트]물론 저는 [wa:930]아직 완벽은 커녕,[/log]"
+    },
+    {
+      "Text": "[wa:2110]― [log=주리 아르바이트]능숙하지도 않지만…….[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]언젠가는……[wa:1610] 저도 만들고 싶어요.[/log]"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]'파르페'…… [wa:1930]완벽한 요리를요.[/log]"
+    },
+    {
+      "Text": "[ns] \"그러면, 감사히 먹겠습니다!\""
+    },
+    {
+      "Name": "주리",
+      "Text": "어, 어떠신가요……!"
+    },
+    {
+      "Text": "(솔직하게, 약간의 각오를 하지 않았다고 하면 거짓말이 되겠지만…….)"
+    },
+    {
+      "Text": "[ns11] \"어……? 이거 뭔가, 신기하게 먹을 만한데?\""
+    },
+    {
+      "Text": "[ns12] \"단맛도 단맛이지만, 짠맛과 감칠맛이 강하게……!\""
+    },
+    {
+      "Name": "주리",
+      "Text": "정말인가요?!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그렇다고는 해도, 어째서 파르페에서 짠맛과 감칠맛이 강하게 느껴지는 것인지는, 저도 잘 모르겠지만……."
+    },
+    {
+      "Name": "주리",
+      "Text": "다행이에요…… 정말 다행이에요……. 선생님! 저 지금 엄청나게 기쁜 거 있죠?"
+    },
+    {
+      "Text": "[ns] \"우왓, 주리! 조금 진정해!\""
+    },
+    {
+      "Text": "(갑자기 안기듯이 달려든 주리를 진정시키고.)"
+    },
+    {
+      "Text": "(우리는 밤늦게까지 즐거운 시간을 보낸 후, 각자의 자리로 돌아갔다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Service of a Waitress"
+    },
+    {
+      "Text": "While waiting for Juri, I suddenly heard the sound of urgent knocking."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Senseiii!"
+    },
+    {
+      "Text": "[s] \"Hey there, Juri! Why don't we calm down a little bit?\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "O-Okay... *sniffle*"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Hmm? I look like I'm being stalked?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "No, it's not that..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "But I do have something I need to tell you about."
+    },
+    {
+      "Name": "Juri",
+      "Text": "You know, Sensei, I was really lucky to be selected as Waitress of the Month, and I'm not complaining about that, but..."
+    },
+    {
+      "Text": "[ns1] \"...So you're telling me...\""
+    },
+    {
+      "Text": "[ns2] \"You have 10 times as many customers now?!\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "At first, I was able to handle them."
+    },
+    {
+      "Name": "Juri",
+      "Text": "The Manager was thrilled, since it meant more money, and a lot of the customers recognized me..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "It was super embarrassing, but some of them were kind enough to give me words of encouragement. Some asked for selfies..."
+    },
+    {
+      "Name": "Customer A",
+      "Text": "You're so cute, Juri! Could you strike a pose for us?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Th-Thank you. A pose...? I haven't really done that before..."
+    },
+    {
+      "Name": "Customer B",
+      "Text": "Oh, that expression was so cute! Way cuter than any pose you can make!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Is that so...?"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Hello, everyone! This is the Kronos School of Journalism, with an on-site report!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "We're here to interview the latest person of interest, Ushimaki Juri herself! Can you say hello to the viewers?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "H-Hello. I'm...Juri..."
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Yep! Now according to the information we received, Juri recently participated in the Waitress of the Month competition..."
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Is it true that you swept away all your opponents with a huge glass full of coffee?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "What?! N-No, that never happened! I did move some giant cups of coffee, but that was just one of the events..."
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Goodness, did you hear that, viewers?! It sounds like the information we got was at least half right!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Truly, a fine feat of strength, worth of the Waitress of the Month!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "No! Not at all! I didn't do that, I, um...!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Moving onto the next question! According to another report we received, you battled a Millennium robot!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Apparently you said: \"A day may come when waitresses fail and we forsake our duties...\""
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "\"...but it is not this day! Humans aren't created to fail!\" right to the face of that mechanical menace!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "And then you claimed victory from that arrogant robot and forced it to self-destruct! Is there any truth to that?!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "No! That's not what happened! What I did was, well, um...!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "The robot did TRY to self-destruct, so I managed to convince it to not do that..."
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Did you hear that, everyone?! Again, a report that was almost HALF-true!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "As you all know, we here at the Kronos School aim to give the most accurate, most balanced, FASTEST reports in Kivotos."
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "And we're very grateful that we were able to fulfill our duties yet again!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "With people like Juri fighting on the front line for us, all this reporter can say is that the future of Kivotos still shines bright—"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Please just listen and let me finish!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "...*sniffle*"
+    },
+    {
+      "Text": "[ns3] \"...\""
+    },
+    {
+      "Text": "[ns4] \"Well, you did your best. Especially that last bit...\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "I didn't know this, but word spread all over the internet too..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "The students at Kronos ended up writing a positive report. The Manager congratulated me too..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "It's not like I didn't appreciate the acknowledgements, but people even asked for autographs on my way home..."
+    },
+    {
+      "Text": "[s] \"All that attention sounds uncomfortable.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "It's...not quite that."
+    },
+    {
+      "Name": "Juri",
+      "Text": "So many people recognized me, they liked me, they asked me to take pictures with them or just wanted to see my face..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "I don't DISlike that, and I'm not uncomfortable with it."
+    },
+    {
+      "Name": "Juri",
+      "Text": "But at the same time, it feels like I'm being tied down to my job as a waitress."
+    },
+    {
+      "Name": "Juri",
+      "Text": "The work I have at the School Lunch Club is getting more hectic, and I feel like I can't properly take care of everything the way I used to."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Which makes me feel guilty for letting down everyone else there..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "...so I'm starting to wonder if I should just go back to the cafeteria full-time, where my seniors are waiting."
+    },
+    {
+      "Name": "Juri",
+      "Text": "But with so many fans coming to the cafe just for me, if I leave now, that'll leave the cafe in the lurch..."
+    },
+    {
+      "Text": "[s] \"Real quick, do you want to take this conversation somewhere else?\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Somewhere...else?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "So this is your lounge, huh?"
+    },
+    {
+      "Text": "[s5] \"That it is. And for the moment...\""
+    },
+    {
+      "Text": "[s6] \"It's completely cut off from the outside.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Hmm...?"
+    },
+    {
+      "Text": "[s] \"The kind of celebrity you're experiencing usually dies down fast.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "And then after it does, I can just go back to the School Lunch Club whenever I want to?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "You're... You're right, Sensei. Yeah. Something like this isn't going to last long."
+    },
+    {
+      "Name": "Juri",
+      "Text": "The Kronos School students surprised me, but..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Heeheehee. They always have a nose for a story, I guess."
+    },
+    {
+      "Name": "Juri",
+      "Text": "By the way, why exactly are we in here?"
+    },
+    {
+      "Text": "[s] \"You looked like you could use some time alone, Juri.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Some time alone..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Now that you mention it, I haven't had any of that lately."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Even when it was just the School Lunch Club...lunch time's always been crazy there."
+    },
+    {
+      "Name": "Juri",
+      "Text": "And NOW, well, yeah, \"time alone\" has not been a thing lately."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Thank you, Sensei. For thinking of me."
+    },
+    {
+      "Text": "For a while afterwards, we continued to talk about whatever came to mind."
+    },
+    {
+      "Text": "Not everything in the world needs purpose or meaning. Sometimes, we can just hang out and do nothing."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Oh my goodness... Where did the time go?!"
+    },
+    {
+      "Text": "[s7] \"Time flies when you're having fun, I guess...\""
+    },
+    {
+      "Text": "[s8] \"I wish time would go this fast when I'm working.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "You know, I... I think I've been selfish with you, Sensei."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Even if you tell me not to worry about it, I... I'm going to."
+    },
+    {
+      "Name": "Juri",
+      "Text": "..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "But hey, Sensei?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "If you'd like...I learned how to make a specialty parfait at the cafe."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Do you want to try it?"
+    },
+    {
+      "Text": "[s] \"A parfait...from you, Juri?\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Yep! I mean, you don't really have to...if you don't want to."
+    },
+    {
+      "Text": "[s9] \"Hmm... Very well. This place is now 'Cafe Schale'.\""
+    },
+    {
+      "Text": "[s10] \"Let me order one specialty parfait from Ms. Juri, please.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "*gasp*"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Yes, of course!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Please wait for one moment, dear \"customer.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "As for the ingredients...oh there's that convenience store nearby!"
+    },
+    {
+      "Text": "And so, I waited in the lounge for Juri's special parfait."
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Welcome to...[/log][wa:990] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Cafe \"Schale\"! [/log][wa:1690] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Yes, here's the special parfait you ordered![/log][wa:10] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Fufu... This is an interesting feeling...[/log][wa:1310] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]This is a cafe just for you, Sensei.[/log][wa:770] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]And I'm the only waitress here...[/log][wa:1650] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Sensei, did you know?[/log][wa:1730] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]Parfait...means \"perfect\".[/log][wa:1520] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]I'm not perfect.[/log][wa:2360] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]I'm not even proficient.[/log][wa:1630] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]But one day...I want to make...[/log][wa:1090] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]the perfect parfait.[/log][wa:1810] "
+    },
+    {
+      "Text": "[ns] \"Thank you for the treat!\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "H-How is it...?!"
+    },
+    {
+      "Text": "I would be lying if I said I didn't brace myself just in case, but..."
+    },
+    {
+      "Text": "[ns11] \"Huh... This is...not bad!\""
+    },
+    {
+      "Text": "[ns12] \"It's sweet, but it's also really salty and savory too...!\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Really?!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Now I don't know why you're getting salty and savory from a parfait, but..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Thank goodness... Thank goodness, Sensei! I'm so happy right now!"
+    },
+    {
+      "Text": "[ns] \"Whoa, Juri! Calm down!\""
+    },
+    {
+      "Text": "Juri threw herself into my arms. I calmed her down."
+    },
+    {
+      "Text": "We spent the rest of the day together, until we went back to our own places late at night."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "แฟนเซอร์วิสของพนักงานเสิร์ฟ"
+    },
+    {
+      "Text": "(ระหว่างที่กำลังรอจูริ คุณครูก็ได้ยินเสียงเคาะประตูอย่างเร่งรีบ!)"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คุณครู~!"
+    },
+    {
+      "Text": "[s] \"เข้ามาสิ จูริ! แล้วก็ใจเย็นๆ ก่อนนะ!\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ ค่ะ... (สะอื้น)"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "สงสัยว่าฉันมีเรื่องอะไร และฉันกำลังโดนสะกดรอยตามหรือเปล่าน่ะเหรอคะ?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ไม่ใช่หรอกค่ะ ไม่ใช่การสะกดรอยตามหรอก..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ ฉันคงต้องเล่าตั้งแต่เรื่องนั้นสินะคะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ที่จริงฉันก็ดีใจอยู่หรอกค่ะที่ได้รับคัดเลือกเป็นพนักงานเสิร์ฟดีเด่นประจำเดือน แต่ว่า..."
+    },
+    {
+      "Text": "[ns1] \"มีลูกค้ามาร้านเยอะมากเลยงั้นเหรอ?\""
+    },
+    {
+      "Text": "[ns2] \"ตอนนี้ลูกค้าของร้านเพิ่มขึ้นเป็นสิบเท่าเลยงั้นเหรอ?!\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ตอนแรกฉันก็รับมือไหวอยู่หรอกค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แน่นอนว่าพอยอดขายเพิ่มขึ้น คุณผู้จัดการร้านก็ดีอกดีใจ แถมยังมีลูกค้าหลายคนที่จำฉันได้ด้วย..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แม้ฉันจะเขินมาก แต่ก็มีลูกค้าที่คอยเชียร์และให้กำลังใจฉันค่ะ แล้วก็มีลูกค้าที่ขอถ่ายรูปด้วยกันด้วย..."
+    },
+    {
+      "Name": "ลูกค้า A",
+      "Text": "น่ารักจังเลยค่ะ คุณจูริ! ช่วยโพสท่าสวยๆ ด้วยได้มั้ยคะ?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ขะ... ขอบคุณค่ะ ท่าสวยๆ งั้นเหรอคะ... ฉันไม่เคยโพสท่าอะไรแบบนั้นหรอกค่ะ..."
+    },
+    {
+      "Name": "ลูกค้า B",
+      "Text": "อ๊ะ หน้าตอนนี้กำลังน่ารักเลย! แบบนี้น่าจะน่ารักกว่าโพสท่าอีกค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "งะ... งั้นเหรอคะ...?"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "สวัสดีค่ะผู้ชมทุกท่าน! นี่คือการรายงานข่าวจากสถานที่จริงของชมรมข่าวโครโนสค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "วันนี้เราจะมาสัมภาษณ์คุณอุชิมากิ จูริ ที่กำลังได้รับความสนใจเป็นอย่างมากในตอนนี้ค่ะ! ช่วยแนะนำตัวก่อนเลยค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "สะ... สวัสดีค่ะ ฉันชื่อ... จูริค่ะ..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ค่ะ! ตามข้อมูลที่เราได้มา ใน <การแข่งขันพนักงานเสิร์ฟดีเด่นประจำเดือน> ที่โด่งดัง..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "จริงหรือเปล่าคะที่คุณจูริโยนแก้วกาแฟขนาดยักษ์ใส่คู่แข่งจนหน้าหงายได้ในครั้งเดียวเลย?!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ?!?! ฉะ... ฉันไม่เคยทำอะไรแบบนั้นนะคะ! ฉันได้ยกแก้วกาแฟหนักๆ ก็จริง แต่นั่นก็เป็นแค่การ\nแข่งขันเท่านั้น ไม่ใช่การทำไปเพื่อทำร้ายใคร..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ตายจริง ทุกท่านได้ยินหรือเปล่าคะ! การรายงานข้อมูลของพวกฉันถูกครึ่งหนึ่งค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "นี่สินะคะที่เรียกกันว่า 'พละกำลัง' ของพนักงานเสิร์ฟดีเด่นอย่างแท้จริง!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ไม่ค่ะ! ไม่ใช่อย่างนั้นนะคะ! ฉันไม่ได้ใช้กำลังของตัวเองโจมตีคนอื่น...!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ไปที่คำถามถัดไปเลยค่ะ! จากอีกข้อมูลที่เราได้มา ในการประชันกับหุ่นยนต์ของมิลเลเนียม คุณจูริได้ทิ้งคำพูดอย่างร้ายกาจไว้ว่า..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "'สักวันหนึ่งจุดจบจะมาถึง แล้วเหล่าพนักงานเสิร์ฟอย่างฉันก็คงหายไปในที่สุด'"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "'แต่มันไม่ใช่วันนี้หรอก มนุษย์ไม่ได้ถูกสร้างออกมาให้ยอมแพ้หรอกนะ'..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ว่ากันว่าคุณจูริเอาชนะหุ่นยนต์ของมิลเลเนียมที่อวดดีแล้วระเบิดพวกนั้นทิ้งไปเลย นั่นเป็นเรื่องจริงหรือเปล่าคะ?!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ไม่ค่ะ! ไม่ใช่อย่างนั้นอย่างแน่นอนค่ะ!!! ฉันไม่ได้ทำอย่างนั้นเลยนะคะ...!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "หุ่นยนต์เหล่านั้นพยายามจะระเบิดทำลายตัวเอง ฉันก็เลยไปห้ามไว้ต่างหาก..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ได้ยินหรือเปล่าคะผู้ชมทุกท่าน! ครั้งนี้ข้อมูลของเราก็ถูกตั้งครึ่งหนึ่งค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "อย่างที่ทุกท่านทราบว่าโรงเรียนโครโนสของเรามีเป้าหมายในการรายงานข่าวที่รวดเร็ว แม่นยำ และเป็นธรรมที่สุดในคิโวทอส"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ฉันโล่งใจจริงๆ ค่ะที่เราก็รักษาเป้าหมายนั้นไว้ได้อีกครั้ง!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ตราบใดที่เรามีคนที่ยืนหยัดอย่างคุณจูริ อนาคตของคิโวทอสก็คงสดใสและรุ่งเรืองตลอดไป..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ได้โปรดฟังที่สิ่งที่ฉันพูดให้ชัดเจนด้วยเถอะค่ะ!!!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "(สะอื้น...)"
+    },
+    {
+      "Text": "[ns3] \"......\""
+    },
+    {
+      "Text": "[ns4] \"ต้องเหนื่อยน่าดูเลยนะ โดยเฉพาะตอนสุดท้าย...\" "
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฉันก็ไม่รู้ว่าเป็นแบบนั้นไปได้ยังไง แต่ตอนนี้ข่าวลือก็แพร่ไปทั่วอินเทอร์เน็ตแล้วค่ะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ที่จริงทางโครโนสก็เขียนข่าวให้ในเชิงบวก คุณผู้จัดการร้านก็มาแสดงความยินดีกับฉันด้วย..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฉันก็ดีใจและรู้สึกขอบคุณสำหรับการแสดงความยินดีอยู่หรอกนะคะ แต่หลังเลิกงานแล้วก็ยังมีคนที่จำ\nฉันได้และมาขอลายเซ็นฉัน"
+    },
+    {
+      "Text": "[s] \"ลำบากใจที่มีคนเข้าหาแบบนั้นเหรอ?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "......"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ไม่หรอกค่ะ ไม่ใช่อย่างนั้นหรอก"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "มีคนมากมายที่จำฉันได้ พวกเขาชื่นชอบในตัวฉัน ทั้งขอถ่ายรูป แล้วยังบอกฉันว่าอยากเจอตัวจริงๆ สักครั้งด้วย..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฉันไม่ได้ไม่ชอบหรือรู้สึกว่าหนักใจหรอกค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ปัญหาก็คือ เรื่องแบบนี้ทำให้ฉันเริ่มผูกพันกับงานของพนักงานเสิร์ฟน่ะค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ตอนนี้ตารางงานของชมรมโภชนาการก็แน่นกว่าเดิมด้วย แล้วฉันก็แอบรู้สึกว่าจัดการได้ไม่ดีเหมือนแต่\nก่อน"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "พอเป็นแบบนี้ ฉันก็รู้สึกผิดต่อรุ่นพี่มากๆ เลยค่ะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ... ฉันเริ่มคิดว่าต้องกลับไปยังชมรมที่มีรุ่นพี่และโรงอาหารรออยู่แล้วค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "พอผู้คนให้ความสนใจในตัวฉันมากเกินไป มันก็สร้างปัญหาให้กับทางคาเฟ่ด้วยค่ะ..."
+    },
+    {
+      "Text": "[s] \"ครูว่าเราเปลี่ยนที่กันดีมั้ย?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เปลี่ยนที่... งั้นเหรอคะ?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ที่นี่... คือห้องพักผ่อนที่คุณครูใช้นี่คะ?"
+    },
+    {
+      "Text": "[s5] \"ใช่แล้วละ ที่นี่ไม่มีใครเข้ามาหรอก\""
+    },
+    {
+      "Text": "[s6] \"ใช่แล้วละ เป็นที่ที่ตัดขาดกับโลกภายนอกได้ดีเลยละ\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ...?"
+    },
+    {
+      "Text": "[s] \"สิ่งที่จูริเจอในตอนนี้... เดี๋ยวมันก็จะค่อยๆ สงบลงนะ\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ส่วนเรื่องการกลับไปชมรมโภชนาการ ฉันจะทำเมื่อไรก็ได้ที่ฉันต้องการงั้นเหรอคะ...?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "......"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "มันก็... คงจะเป็นอย่างนั้นนะคะคุณครู ใช่แล้วค่ะ เรื่องแบบนี้คงไม่มีทางอยู่ตลอดไปหรอกค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แม้ว่าตอนที่คนจากโรงเรียนโครโนสมาหา ฉันจะแอบตื่นเต้นอยู่นิดหน่อยก็เถอะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แหะๆๆ ก็นักเรียนจากที่นั่นชอบหาเรื่องสนุกๆ มาทำข่าวอยู่ตลอดนี่คะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ว่าแต่ทำไมคุณครูถึงอยากให้เปลี่ยนสถานที่งั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"ครูคิดว่าจูริน่าจะต้องการเวลาส่วนตัวบ้างน่ะ\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เวลาส่วนตัว..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "จะว่าไป หมู่นี้ฉันก็แทบจะไม่มีเวลาส่วนตัวเลยค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ตอนทำงานของชมรมที่ชมรมโภชนาการ... แน่นอนว่าฉันจะยุ่งมากในช่วงก่อนและหลังเวลาอาหาร\nกลางวัน"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ถ้าเทียบกับตอนนี้แล้ว... ใช่ค่ะ ฉันยุ่งเกือบทั้งวันจนไม่มีเวลาให้ตัวเองเลยค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ขอบคุณที่เอาใจใส่กันนะคะ คุณครู"
+    },
+    {
+      "Text": "(หลังจากนั้นทั้งสองคนก็พูดคุยเรื่องไร้สาระนู่นนี่กันอยู่พักใหญ่)"
+    },
+    {
+      "Text": "(เพราะบางอย่างก็ไม่จำเป็นต้องมีสาระอยู่ตลอดก็ได้)"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เอ๋...? เวลาล่วงเลยมาขนาดนี้แล้วเหรอคะ?!"
+    },
+    {
+      "Text": "[s7] \"นั่นสินะ คุยเพลินจนลืมเวลาไปเลย...\""
+    },
+    {
+      "Text": "[s8] \"ตอนทำงาน~ ถ้าเวลาผ่านไปเร็วๆ แบบนี้~ ก็ดีสินะ~\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "พอมาคิดดูแล้ว... เหมือนว่าฉันมาเสียมารยาทกับคุณครูเป็นอย่างมากเลยค่ะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ต่อให้บอกว่าไม่ต้องคิดมาก แต่ฉันก็ยังคิดมากอยู่ดีค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "......"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "อืม คุณครูคะ?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฉันเรียนวิธีทำสเปเชียลพาร์เฟต์มาจากคาเฟ่ด้วย... ถ้าคุณครูไม่ว่าอะไรละก็"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ให้ฉันทำให้ แล้วคุณครูลองชิมดูหน่อยมั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"พาร์เฟต์... ของจูริงั้นเหรอ?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ! แต่ก็ไม่ต้องถึงกับ... ฝืนกินก็ได้ค่ะ"
+    },
+    {
+      "Text": "[s9] \"ฮืม... ดีเลย งั้นก็เปิด 'คาเฟ่ชาเล่ต์' กัน\""
+    },
+    {
+      "Text": "[s10] \"งั้นขอสเปเชียลพาร์เฟต์ของคุณจูริหน่อยนะ\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "!!!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ ค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ช่วยรอสักครู่นะคะ 'คุณลูกค้า'"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฉันจะ... รีบไปซื้อวัตถุดิบจากร้านสะดวกซื้อแถวนี้มาค่ะ!"
+    },
+    {
+      "Text": "(แล้วคุณครูก็รอชิมสเปเชียลพาร์เฟต์ของจูริอยู่ในห้องพักผ่อน)"
+    },
+    {
+      "Text": "― [log=주리 아르바이트]ยินดีต้อนรับสู่[/log][wa:910] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]คาเฟ่ 'ชาเล่ต์' ค่ะ [/log][wa:1490] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]ค่ะ สเปเชียลพาร์เฟต์ที่สั่งได้แล้วค่ะ![/log][wa:10] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]ฮุฮุ รู้สึกแปลกใหม่จังเลยค่ะ[/log][wa:1830] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]ในแง่หนึ่ง ที่นี่คือคาเฟ่สำหรับคุณครูเท่านั้น[/log][wa:410] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]แล้วฉันก็ได้เป็นพนักงานเสิร์ฟคนเดียวของคาเฟ่นี้...[/log][wa:970] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]คุณครู รู้หรือเปล่าคะ?[/log][wa:1690] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]คำว่าพาร์เฟต์... แปลว่าสมบูรณ์แบบค่ะ[/log][wa:1120] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]แน่นอนว่าฉันยังไม่สมบูรณ์แบบ[/log][wa:1880] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]แล้วก็ยังไม่เก่งเท่าไรด้วย...[/log][wa:1430] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]แต่สักวันหนึ่ง... ฉันก็คิดว่าอยากทำให้ได้ค่ะ[/log][wa:570] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]ทำ 'พาร์เฟต์'... หรืออาหารที่สมบูรณ์แบบน่ะค่ะ[/log][wa:810] "
+    },
+    {
+      "Text": "[ns] \"เอาละ ถ้างั้นครูจะกินให้อร่อยเลย!\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ปะ... เป็นยังไงบ้างคะ...!"
+    },
+    {
+      "Text": "(ที่จริงถ้าบอกไปว่าไม่ได้เตรียมใจไว้ก็คงเป็นการโกหก...)"
+    },
+    {
+      "Text": "[ns11] \"หืม...? มีรสเค็มที่กลมกล่อม ใช้ได้เลยนะเนี่ย?\""
+    },
+    {
+      "Text": "[ns12] \"นอกจากรสหวานแล้ว รสเค็มที่กลมกล่อมก็โดดเด่นเลยนะ...!\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "จริงเหรอคะ?!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถึงคุณครูจะพูดเหมือนชมกัน แต่ฉันก็ไม่เข้าใจเท่าไรค่ะว่าทำไมพาร์เฟต์ถึงมีรสเค็มและรสกลมกล่อมได้..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ถึงยังไงก็โล่งอกไปทีนะคะ... โล่งอกจริงๆ เลย... คุณครู! รู้หรือเปล่าคะว่าตอนนี้ฉันมีความสุขมาก\nเลยค่ะ"
+    },
+    {
+      "Text": "[ns] \"เดี๋ยว จูริ? ใจเย็นๆ ก่อน!\""
+    },
+    {
+      "Text": "(จู่ๆ จูริก็เข้ามากอดจนคุณครูต้องทำให้เธอสงบลง)"
+    },
+    {
+      "Text": "(หลังจากใช้เวลาอย่างสนุกสนานด้วยกันจนถึงดึกดื่น ทั้งสองคนก็บอกลากัน)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "服務生的服務"
+    },
+    {
+      "Text": "（在等待茱莉的時候，突然傳來了急切的敲門聲！）"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "老師～！"
+    },
+    {
+      "Text": "[s]「快進來吧，茱莉！還有你先冷靜！」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "好，好的……嗚嗚……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "問我發生了什麼？是不是遇到跟蹤狂了？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不，不是跟蹤狂……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗯，應該要先從這件事說起……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "事情是這樣的，老師。\n我獲選本月服務生雖然很好……"
+    },
+    {
+      "Text": "[ns1]「咖啡廳的來客數……」"
+    },
+    {
+      "Text": "[ns2]「大概增長了十倍以上！？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "一開始還算能應付過來。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "營業額的相應增加讓經理很高興，也有人認出我來……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然有點害羞，但許多人都會為我加油打氣，還有人想跟我合照……"
+    },
+    {
+      "Name": "客人A",
+      "Text": "你本人好可愛哦，茱莉同學！\n可以請你擺幾個特別的姿勢嗎？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "謝，謝謝你。\n可是特別的姿勢……我從來沒有嘗試過……"
+    },
+    {
+      "Name": "客人B",
+      "Text": "啊，剛才的表情真的很可愛耶！\n比起特別的姿勢，我更喜歡剛才的表情！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "是，是這樣嗎……？"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "大家好！克洛盧斯新聞部來進行現場的獨家突擊採訪了！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "這次我們要訪問的是最近的話題人物──牛牧茱莉同學！\n請先跟大家打個招呼吧！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "大，大家好？我的名字叫做……茱莉……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "嗯！根據爆料指出，茱莉同學在知名的「服務生選拔大會」上……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "用裝滿咖啡的巨大玻璃杯，一舉擊退了眾多競爭者的干擾，這是真的嗎！？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "咦咦！？沒，沒有啦！\n雖然確實有端很重的咖啡杯，但那只是大會的比賽項目而已……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "什麼！各位觀眾們都聽到了嗎？\n他本人親自證實了爆料內容至少有一半是真的！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "居然擁有如此高強的「武力」，真不愧是本月服務生！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不！不是！我沒有那樣，我剛才是說……！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "那麼下一個問題！\n根據另一個爆料，茱莉同學在與千年製機器人的對決中留下了……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "「我的時代總有一天會畫下句點。像我這樣的服務生遲早會被淘汰──」"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "「但那並不是今天──人類敗北的時候尚未到來！」這樣硬派的宣言之後……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "打敗了傲慢的千年製機器人還讓它自爆了，請問這是事實嗎！？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不是！真的不是！！！\n我才沒有做那種事，實際上只是……！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "因為那個機器人突然說要自爆，我好不容易才阻止了它……"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "各位有聽到嗎！他再次證實了爆料的可信程度！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "眾所周知，我們克洛盧斯學園致力於向奇普托斯提供最迅速準確公正的報導。"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "這次也很榮幸能貫徹這個目標！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "有像茱莉同學這樣優秀的人始終堅守著自己的崗位，\n奇普托斯的未來，想必會是一片光明──"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "拜託好好聽我解釋──！！！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗚嗚……"
+    },
+    {
+      "Text": "[ns3]「……」"
+    },
+    {
+      "Text": "[ns4]「那個，真是辛苦你了。尤其是最後那段……」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "詳情我也不太清楚，但謠言好像已經傳遍網路了……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然克洛盧斯的報導寫得很正面，經理他也有恭喜我……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "大家的祝賀也讓我感到高興跟感謝，\n可是就連下班回家的路上都有人認出我，跟我要簽名……"
+    },
+    {
+      "Text": "[s]「大家的關注會讓你有壓力嗎？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不，不是那樣的。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "有很多人認出我、喜歡我，想一起拍照或見我一面……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "我不覺得這是種困擾，或者感到有壓力。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "只是，這讓我有種被服務生的工作綁住了的感覺。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "就連供給部的工作也漸漸開始應付不過來……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "對前輩很不好意思……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "所以……我正在思考，自己是不是該回到前輩和廚房都在等待我的社團去了。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "況且大家對我的過度追捧，好像也對咖啡廳造成了一些負面影響……"
+    },
+    {
+      "Text": "[s]「我們換個地方聊聊吧？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "換個地方……？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "這裡……不是老師的休息室嗎？"
+    },
+    {
+      "Text": "[s5]「沒錯，而且現在……」"
+    },
+    {
+      "Text": "[s6]「這裡完全與外部隔絕。」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗯……？"
+    },
+    {
+      "Text": "[s]「首先我想說的是，這個『現象』……很快就會平息下來。」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "至於要不要回到供給部，隨時都可以照我的意思去做……？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "這……說的也是呢，老師。\n這種狀況應該不會持續太久才對。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然克洛盧斯學園的人出現的時候，我真的嚇了一大跳……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "耶嘿嘿。畢竟那些人總是在到處挖掘新鮮事嘛。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不過老師為什麼要特地換個地方呢？"
+    },
+    {
+      "Text": "[s]「因為我覺得，茱莉現在最需要的就是屬於自己的時間。」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "自己的時間……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "這麼說來，我最近好像真的很久沒有屬於自己的時間了呢。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然供給部在午餐時間前後也非常忙碌……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不過和現在相比……嗯，好像真的是這樣沒錯呢。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "謝謝老師這麼為我著想。"
+    },
+    {
+      "Text": "（之後的好一段時間內，都和茱莉聊著一些沒什麼意義的瑣事）"
+    },
+    {
+      "Text": "（畢竟人生本來就不是凡事都要追求某些意義）"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "咦……？不知不覺間已經這麼晚了！？"
+    },
+    {
+      "Text": "[s7]「就是說啊，時間過得好快……」"
+    },
+    {
+      "Text": "[s8]「如果工作的時候～時間也這樣過就好了～」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "回頭想想……我好像對老師做了很失禮的事……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "就算老師說沒關係，我還是會很在意！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "那個，老師？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "如果你不介意的話……我在咖啡廳學到了特製百匯的食譜。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "老師願意嚐嚐看嗎？"
+    },
+    {
+      "Text": "[s]「茱莉的……百匯？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗯！不過如果不喜歡的話……不用勉強哦？"
+    },
+    {
+      "Text": "[s9]「嗯……好，那麼現在這裡就是『Café．Schale』。」"
+    },
+    {
+      "Text": "[s10]「請給我一份茱莉同學的特製百匯。」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "！！！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "好，好的！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "請您稍等，「客人」。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "食材……在附近的便利商店應該就能買齊！"
+    },
+    {
+      "Text": "（於是就這樣，在休息室等待茱莉製作特製百匯）"
+    },
+    {
+      "Text": "— [log=주리 아르바이트]歡迎光臨[/log][wa:1310] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]「Café．Schale」！[/log][wa:1690] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]來，這是您點的特製百匯！[/log][wa:960] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]呵呵……感覺真不可思議。[/log][wa:2430] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]這裡是老師專屬的咖啡廳──[/log][wa:1650] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]我則是那間咖啡廳裡……唯一的服務生……[/log][wa:2170] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]老師，你知道嗎？[/log][wa:2210] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]百匯這個詞……似乎有「完美」的意思。[/log][wa:1800] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]雖然我的料理技術別說是完美……[/log][wa:2360] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]甚至還差的很遠……[/log][wa:2190] "
+    },
+    {
+      "Text": "― [log=주리 아르바이트]但是有朝一日……我也希望能夠做出來。[/log][wa:1610] "
+    },
+    {
+      "Text": "— [log=주리 아르바이트]「Parfait」……完美的料理。[/log][wa:1890] "
+    },
+    {
+      "Text": "[ns]「那麼，我要開動了！」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "怎，怎麼樣呢……！"
+    },
+    {
+      "Text": "（坦白講，要說自己一點都不緊張是騙人的……）"
+    },
+    {
+      "Text": "[ns11]「嗯……雖然味道有點獨特，但還不錯耶？」"
+    },
+    {
+      "Text": "[ns12]「除了甜味之外，鹹味和鮮味也很強烈……！」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "真的嗎！？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖，雖然我自己也不知道為什麼百匯會有強烈的鹹味和鮮味……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不過真是太好了……\n老師！我真的非常開心！"
+    },
+    {
+      "Text": "[ns]「哇啊，茱莉！你先冷靜！」"
+    },
+    {
+      "Text": "（連忙安撫突然撲到自己懷中的茱莉）"
+    },
+    {
+      "Text": "（共度愉快的時光到深夜之後，才各自回到了自己的崗位上）"
+    }
+  ]
+}

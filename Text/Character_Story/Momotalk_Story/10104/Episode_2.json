@@ -1,0 +1,2312 @@
+{
+  "TitleJP": "面倒見",
+  "TitleKR": "사고방식을 바꾸어서",
+  "TitleEN": "Attitude Adjustment",
+  "TitleTH": "เปลี่ยนวิธีคิด",
+  "TitleTW": "換個思考方式",
+  "DescJP": "梅花園の園児たちの来訪を控え、どう対応するべきかレイジョは困っていた。玄武商会で起こる数々のトラブルは手際よく解決できるのだが、子どもとの接し方がわからないのだという。しかし食事に来ていた先生の子どもとの接し方を目にしたことで、ある種のコツをつかみ、レイジョは園児たちと仲良くなることに成功したのだった。",
+  "DescKR": "현무상회에서 매일같이 일어나는 문제들을 능숙하게 처리하는 레이죠. 그러나 아이들에 대한 접객은 서투르다고 레이죠는 토로한다. 선생님은 그저 이야기를 잘 들어 주는 것으로 충분하다고 레이죠에게 이야기한다.",
+  "DescEN": "Reijo is great at taking care of the problems that arise, almost daily, in the Black Tortoise Promenade. However, she feels that her hospitality toward children is lacking. Sensei tells Reijo that her being a good listener for them is enough.",
+  "DescTH": "เรย์โจวจัดการกับปัญหาที่เกิดขึ้นเป็นประจำในย่านการค้าเทพเต่าดำได้\nอย่างชำนาญ แต่เธอก็เปิดใจออกมาว่ายังไม่คุ้นเคยกับการต้อนรับเด็กๆ คุณครูจึงบอกกับเรย์โจวว่าแค่ช่วยฟังเรื่องราวของเด็กๆ ก็เพียงพอแล้ว",
+  "DescTW": "令女熟練地處理著玄武商會的日常紛爭，然而他卻透露自己其實不擅長接待小孩子，於是老師便告訴他只要好好傾聽對方說的話就行了。",
+  "DialogJP": [
+    {
+      "Text": "面倒見"
+    },
+    {
+      "Text": "玄武商会本店"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "お口に合いましたか、先生。"
+    },
+    {
+      "Text": "[s1] \"最高だったよ！\""
+    },
+    {
+      "Text": "[s2] \"今度はレイジョの料理も食べてみたいな。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "でしたら良かったです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ぜひ、またいつでもお越しください"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……私の料理、ですか？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "たしかに、普段は会長の補佐をしていますが……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "いつか、先生に料理を振る舞うのも悪くありませんね。"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "レイジョさん、食材が届いていない店舗があるようです！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "む、どこのお店ですか？"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "京華坊です！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "ど、どうすれば？\nこのままではお昼の営業が……！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ひとまず、本店の倉庫から一部の食材を搬入しましょう。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "それで数時間は持ち堪えられるはずです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "あとは虹正路3番街の天興楼からも、回してもらいましょうか。\nトラックを二台、飛ばしてください。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "連絡は私が入れておきます。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "食材の費用は、営業終了後に計算して報告してください。"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "はい、分かりました！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ふぅ、何とかなりそうですね。"
+    },
+    {
+      "Name": "食堂の客",
+      "Text": "ここが噂の玄武商会……。"
+    },
+    {
+      "Name": "食堂の客",
+      "Text": "お～い、一番美味い料理を持ってきてくれ！"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "えっと、それは……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": ""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "まずは席にご案内します、こちらへどうぞ。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ご来店ありがとうございます。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "料理長のオススメ料理があるのですが、いかがでしょうか？"
+    },
+    {
+      "Name": "食堂の客",
+      "Text": "おお、そんなメニューが？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "通常はお出ししていませんが、お客様には特別です。"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "わ、私も初めて聞きましたが……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……大丈夫です、合わせてください。"
+    },
+    {
+      "Name": "食堂の客",
+      "Text": "何か問題でも？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "いえ、食材の在庫を確認したところ、問題なさそうです。\nでは、アワビ料理をコースでお出しします。"
+    },
+    {
+      "Name": "食堂の客",
+      "Text": "そいつは楽しみだ！"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "ほ、本当に大丈夫ですか！？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "一番美味しい料理、と言っていましたから。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "それに、安い料理を出すと逆に腹を立てる方もいますし。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "それでは、お客様……失礼いたします。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "至急、厨房に伝えてください。"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "はい、分かりました！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "まったく……今日に限って、どうしてこう忙しいのか。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "私は確かに支払いましたよ！"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "ですが……。"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "二重にお金を取るつもりだろう！？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "どうされましたか、お客様？"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "アプリで支払ったのに、決済できてないと言いがかりをつけてきたんだ！"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "これが玄武商会のやり口か！"
+    },
+    {
+      "Name": "玄武商会のメンバー",
+      "Text": "いえ、お客様……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "私たちにミスがあったのなら、きちんとお詫びします。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ですが、その前にアプリの支払履歴と防犯カメラを確認してもよろしいでしょうか？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "[ruby=・   ・   ・]手違い[/ruby]があってはいけませんから。"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "なっ……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "明細なら、すぐお出ししていただけるかと。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "監視カメラの映像も5分ほど時間を頂ければ、確認が終わるはずです。"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "え～っと、たしかアレだ……ちゃんと支払えてなかったような気もするな。"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "だ、だから監視カメラまで確認する必要は……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "いえ、誤りがあってはいけませんから。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "それと……当然ですが、この会話もカメラで記録されています。"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "ろ、録音だと！？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "お客様、顔色が……どこか具合でも悪いのでしょうか？"
+    },
+    {
+      "Name": "食堂の客B",
+      "Text": "大丈夫だ、何でもないっ！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "お騒がせして申し訳ありません、先生。"
+    },
+    {
+      "Text": "[s] \"手際が良くて驚いたよ。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "きゅ、急に褒めてどうされました？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "もちろん、そう言っていただけるのは嬉しいのですが……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "この程度の問題は、よくありますから。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……ただ今日は、なぜかトラブルが多かったような気もしますね。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "まだ大事なイベントは始まっていないというのに……。"
+    },
+    {
+      "Text": "[s] \"まだ何かあるの？\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "その、実は……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……このあと、梅花園の園児が団体で来る予定なんです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "自分で言うのも恥ずかしい限りですが……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "どのように子どもと接して良いのか分からず……。"
+    },
+    {
+      "Text": "[s] \"なかなか正解は見つからないよね。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "先生でもそうでしたか。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "小さい子は可愛くて純粋ですが、\nその分、何が起こるか分からないですし……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……えっ。\n先生も手伝ってくださるんですか？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "なるほど……ここは素直に甘えさせていただきます。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ありがとうございます、先生。"
+    },
+    {
+      "Name": "梅花園の園児A",
+      "Text": "せんせー、このイカ、お花みたい！"
+    },
+    {
+      "Text": "[s] \"すごい不思議だね。\""
+    },
+    {
+      "Name": "梅花園の園児B",
+      "Text": "タコさんウィンナーってなにー？"
+    },
+    {
+      "Name": "梅花園の園児B",
+      "Text": "タコさんなの？ウィンナーなの？"
+    },
+    {
+      "Text": "[s] \"タコの形をしてるウィンナーだよ。\""
+    },
+    {
+      "Name": "梅花園の園児B",
+      "Text": "なら食べてみたい！"
+    },
+    {
+      "Name": "梅花園の園児B",
+      "Text": "この前ね、梅花園でね、ブロッコリーピーマンチャーハンが出てきて――"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "先生は子どもたちの対応に慣れているんですね……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "よろしければ、コツを聞いてもよろしいでしょうか？"
+    },
+    {
+      "Text": "[s3] \"コツってほどじゃないけど……。\""
+    },
+    {
+      "Text": "[s4] \"なにも問題を解決する必要はないんじゃないかな。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "あえて問題を解決しない、と……？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……たしかに、相談事でも聞くだけで良い場合はありますね。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "参考になりました、先生。"
+    },
+    {
+      "Text": "[s] \"レイジョもやってみる？\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……はい、もとより、自分の仕事ですから。"
+    },
+    {
+      "Name": "梅花園の園児C",
+      "Text": "エビ餃子好きー！"
+    },
+    {
+      "Name": "梅花園の園児C",
+      "Text": "けど豚まんも好き！"
+    },
+    {
+      "Name": "梅花園の園児C",
+      "Text": "あとはー、焼き餃子も揚餃子も好きー！\nなんかいっぱい具が入ってる餃子も！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "いろんな餃子が好きなんですね。"
+    },
+    {
+      "Name": "梅花園の園児C",
+      "Text": "あっ。でも、ワカメ餃子は嫌い……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "そ、それは餃子なんでしょうか……？"
+    },
+    {
+      "Name": "梅花園の園児D",
+      "Text": "……外食文化が広がるのは胸が痛みます。\nそれほどまでに、料理をする時間がなくなってしまったという証左なのです。"
+    },
+    {
+      "Name": "梅花園の園児D",
+      "Text": "時間の節約のために外食をしますが、そうして浮かせた時間を仕事のために使ってしまうのですから……。"
+    },
+    {
+      "Name": "梅花園の園児D",
+      "Text": "経営者だとしてもこの問題からは逃れられません……システム上どうしてもそうなってしまっているから……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "その、どうかしましたか……？"
+    },
+    {
+      "Name": "梅花園の園児D",
+      "Text": "いえ……何も問題がないことが、とても悲しいのです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……無事、終わりましたね。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "子どもたちにしがみつかれたり、\nお店でかくれんぼが始まろうとした時は戸惑いましたが……。"
+    },
+    {
+      "Text": "[s] \"それだけ仲良くなれたってことじゃないかな。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……はい、また遊びにきたい、と言っていました。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "何度聞いても、「また」と言ってもらえるのは嬉しいですね。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "とても不思議な経験でした。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ありがとうございます。先生。"
+    },
+    {
+      "Text": "[s] \"私は特に何もしてないよ。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "先生にとっては、そうかもしれませんが……とても、助かりました。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "これからも、ご指導をよろしくお願いいたします。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "사고방식을 바꾸어서"
+    },
+    {
+      "Text": "현무상회 본점"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "식사는 입에 맞으셨습니까. 선생님?"
+    },
+    {
+      "Text": "[s1] \"최고였어!\""
+    },
+    {
+      "Text": "[s2] \"레이죠의 요리도 먹어 보고 싶네.\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그렇습니까. 다행이군요. 여기에서부터는 영업적인 인사말이긴 합니다만."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "다음에도, 저희 현무상회를 찾아 주시면 감사하겠습니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "제 요리…… 말씀이십니까? "
+    },
+    {
+      "Name": "레이죠",
+      "Text": "확실히 저는, 현무상회에서 요리사라기보다는 매니저 일을 담당하고 있기는 합니다만……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네. 언젠가 직접, 샬레에서라도 만들어 드릴 기회가 있으면 좋겠습니다."
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "그, 급한 보고입니다! 오늘치 식재료가 도착하지 않은 상점이 있다고 합니다!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "어디죠?"
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "화퇴로 서편의 경화원입니다!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "경화원이면…… 네. 거기군요. 알겠습니다."
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "어, 어떻게 하죠? 이대로라면 오후 장사가 거의 불가능할 것 같다고 하는데요……!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "우선, 당장 모자란 것은 본점 창고에서 조달하도록 하죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "물론 그걸로는 세 시간…… 아니, 두 시간 정도밖에는 버티지 못할 겁니다. 그러니."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "남는 운송 인력을 홍정로 3번가 신흥루로 보내도록 하십시오. 운송 트럭 2대를 차출할 수 있을 겁니다. 연락은 제가 넣어 두도록 하죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "신흥루는 오늘 휴점이니, 충분히 충당할 수 있을 겁니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "대금은 우선 본점이 급한 대로 부담하고, 금일 영업 종료 후 정산 시간에 누락 없이 처리하도록 해 주세요."
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "네! 알겠습니다!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "후우. 어떻게든 되었군요."
+    },
+    {
+      "Name": "식당 손님",
+      "Text": "여기가 그 산해경의 현무상회인가?"
+    },
+    {
+      "Name": "식당 손님",
+      "Text": "자, 자~! 뭐든 좋으니, 여기에서 가장 맛있는 요리를 주문하겠어!"
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "네, 네? 그러니까, 그런 건……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "우선 자리를 안내해 드리겠습니다. 이쪽으로 오시지요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "저희 현무상회를 방문해 주셔서 진심으로 감사드립니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "특별한 메뉴를 주문하신 손님께, 오늘의 주방장 추천 요리를 제안 드리고 싶은데, 어떠실까요?"
+    },
+    {
+      "Name": "식당 손님",
+      "Text": "오, 그런 것이 있었단 말인가? 메뉴판에는 없었던 것 같은데!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그야말로 특별한 메뉴니까요."
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "저, 저희에게 그런 건 없지 않았나요?!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "사실은 그렇습니다만…… 이런 때에는 손님의 정신적인 만족감을 충족시키는 것이 중요하죠."
+    },
+    {
+      "Name": "식당 손님",
+      "Text": "음? 무슨 문제라도 있는 건가?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네. 마침 주방장으로부터 메뉴에 관한 이야기를 전달받았습니다. 오늘의 추천 요리는…… 전복 코스 요리라고 하는군요."
+    },
+    {
+      "Name": "식당 손님",
+      "Text": "전복! 그것도 코스! 기대되네!"
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "그, 그건 조금 비싸지 않을까요?!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "손님이 처음부터 가격을 신경 쓰지 않겠다고 이야기했으니까요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "이런 손님은 오히려 적당하고 저렴한 가격의 요리를 내어 오면, 자신이 대접받지 못했다고 생각하여 화를 내는 타입입니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그러면, 손님. 조금만 기다려 주시길 바랍니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "주방에 빠르게 이야기해 두세요."
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "네. 알겠습니다!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "이것 참, 오늘따라 정신이 없군요. 선생님께서도 와 계신데……."
+    },
+    {
+      "Name": "???",
+      "Text": "저는 분명히 계산을 했다고요!"
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "그렇지만 손님 ……."
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "알겠어요. 저에게서 이중으로 돈을 뜯어 가겠다는 거군요!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "무슨 일이십니까, 손님?"
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "저는 분명 결제 앱으로 돈을 냈는데, 갑자기 결제가 되지 않았다며 두 번 돈을 내라고 하고 있지 뭐예요?!"
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "이게 소문으로만 듣던 현무상회의 접객이라는 건가요?"
+    },
+    {
+      "Name": "현무상회 부원",
+      "Text": "하지만 저희는……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "자, 자. 알겠습니다. 저희 상회 측에서 실수가 있었다면, 제가 분명히 사과드리겠습니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "하지만 그 전에, CCTV를 확인하고 전자 결제 회사의 거래 내역을 송신 받아 보아도 되겠습니까?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "이런 일은 '확실하고 명확한' 확인이 필요한 법이니까 말이죠."
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "네……? CCTV……? 거래 내역……?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그렇습니다. 저희 현무상회 본점에는, 어디에든 CCTV가 설치되어 있어서, 만일의 사태에 충분히 대비할 수 있도록 준비가 완료된 상황이라서요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "거래 내역 송신도 그리 오래 걸리지 않을 겁니다. 5분 정도만 기다려 주시면 전부 확인받으실 수 있을 겁니다."
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "음. 그게. 저기. 생각해 보니 제가 결제 앱이 켜졌는지 확실히 확인하지 않았던 것 같네요."
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "그러니까 굳이 그렇게까지 하나하나 큰 수고를 들여 확인하지 않아도……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아닙니다. 큰 수고라고 말씀하실 만 한 일도 아니고, 마땅히 저희가 부담해야 하는 일이기도 하지요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그리고 혹시 모르니 말씀드리는 것입니다만, 저희 현무상회의 CCTV는 녹음 기능도 포함되어 있으니 말이지요."
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "노, 녹음이라고요?!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네. 그냥 생각이 나서 말씀드려 보는 것입니다. 그런데 괜찮으신가요, 손님? 어디 편찮으신 부분이라도 있으신가요?"
+    },
+    {
+      "Name": "식당 손님 B",
+      "Text": "아, 아닙니다. 아니에요! 정말 아무것도 아니니까요!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "죄송합니다. 선생님. 뭔가 정신이 없었네요."
+    },
+    {
+      "Text": "[s] \"감탄했어…….\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네? 가, 갑자기 무슨 말씀이십니까?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아…… 상황에 대처하는 수완이 놀라울 정도였다고요?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그, 칭찬해 주셔서 감사합니다. 그렇지만 이 정도는 상회 일을 하다 보면 빈번하게 일어나는 일이라서요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……오늘은 어째서인지 조금, 다른 날보다 급한 일이 많이 일어난 것 같기는 하지만요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "정작 가장 중요한 접객 이벤트는 시작도 하지 않았는데, 벌써부터 이러면 어쩌려는 건지……."
+    },
+    {
+      "Text": "[s] \"뭔가 또 있어?\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그게…… 이런 말씀을 드리는 게 맞는 건지 잘 모르겠습니다만……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……매화원 원생들이 단체로 방문하기로 되어 있습니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그, 스스로 말씀드리자니 부끄럽기도 합니다만."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……아이들은 조금, 다루기 어려워서요……."
+    },
+    {
+      "Text": "[s] \"누구라도 그건 쉽지 않을 거야…….\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "알아주셔서 감사합니다. 선생님."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아이들은 분명 귀엽고 순수하지만…… 보통 손님들과 달리, 자기주장만을 내세우는 경우가 많다 보니 말이죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네? 선생님께서 할 수 있는 만큼이라도 도움을 주시겠다고요? 그렇지만 그래서는……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아, 알겠습니다. 이럴 때는 호의를 받아 주었으면 좋겠다는 말씀이시군요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "감사합니다. 선생님. 잘 부탁드리겠습니다."
+    },
+    {
+      "Name": "매화원 원생 A",
+      "Text": "선생님, 선생님! 여기 보세요! 이 오징어는 꽃처럼 생겼어요! 대단하죠?"
+    },
+    {
+      "Text": "[s] \"그러게. 대단하네. 칼집을 잘 내면 이런 모양이 된대.\""
+    },
+    {
+      "Name": "매화원 원생 B",
+      "Text": "있잖아요, 선생님. 문어 소시지라는 게 있다던데, 여기에선 먹어 볼 수 없나요?"
+    },
+    {
+      "Name": "매화원 원생 B",
+      "Text": "그런데 문어 소시지는 문어살로 만든 소시지인 건가요? 저 문어 별로 안 좋아하는데……. 너무 질기잖아요!"
+    },
+    {
+      "Text": "[s] \"그게 아니라, 문어 소시지는 문어 모양으로 만든 소시지야.\""
+    },
+    {
+      "Name": "매화원 원생 B",
+      "Text": "어, 진짜요? 그러면 먹어 보고 싶어요! 혹시 선생님 거짓말하는 거 아니죠?"
+    },
+    {
+      "Name": "매화원 원생 B",
+      "Text": "예전에 매화원에서는요, 맛있는 소고기 볶음밥이라면서 피망이랑 브로콜리를 같이 썰어서 볶아 준 적이 있었어요……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "선생님께서는, 아이들을 정말 잘 돌보시는군요. 대단하십니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "괜찮으시다면…… 비법을 여쭈어봐도, 될까요……?"
+    },
+    {
+      "Text": "[s3] \"비법이라고 할 것까진 없지만.\""
+    },
+    {
+      "Text": "[s4] \"이럴 때는 구태여 문제를 '해결'하려고 하지 않아도 돼.\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네? 문제가 있는데 해결을 하려 하지 않다니요. 그건 무슨 말씀이신지……?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아…… 어떤 문제는 그저 잘 들어주는 것만으로 해결되기도 한다고요?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……그렇게는, 솔직히 생각해 본 적이 없었습니다."
+    },
+    {
+      "Text": "[s] \"레이죠도 해 볼래?\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "알겠습니다. 이건 원래 제가 해야 할 일이기도 했고요."
+    },
+    {
+      "Name": "매화원 원생 C",
+      "Text": "저는 새우만두가 좋아요! 돼지고기만두도 좋고요!"
+    },
+    {
+      "Name": "매화원 원생 C",
+      "Text": "속에 아무것도 없는 만두도 좋고, 구운 만두도, 튀긴 만두도……."
+    },
+    {
+      "Name": "매화원 원생 C",
+      "Text": "어? 그런데 그러면 저는 무슨 만두를 좋아하는 거죠?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "트, 특별히 싫어하는 만두가 없다면, 무슨 만두든 다 좋아하는 것 아닐까요……?"
+    },
+    {
+      "Name": "매화원 원생 C",
+      "Text": "듣고 보니 그렇네요! 아…… 그렇지만 미역으로 만든 만두는 싫어요……. 미끌거려요……."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그건 이미 만두가 아닌 무언가가 아닐까요……?"
+    },
+    {
+      "Name": "매화원 원생 D",
+      "Text": "……외식 문화가 확산된다는 건 사실 가슴 아픈 일이죠. 다들 요리할 시간이 없어졌다는 증거거든요."
+    },
+    {
+      "Name": "매화원 원생 D",
+      "Text": "시간을 아끼기 위해 음식점에서 식사를 해결하지만, 그렇게 아낀 시간은 보통 더 많은 업무를 하기 위해 사용되곤 하죠."
+    },
+    {
+      "Name": "매화원 원생 D",
+      "Text": "심지어 고용주라고 해도 이 문제로부터 자유로울 수는 없어요. 시스템이 모든 것을 결정하게 되는 거죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그…… 음식에 뭔가, 문제라도 있습니까……?"
+    },
+    {
+      "Name": "매화원 원생 D",
+      "Text": "오히려 아무 문제도 없다는 것이, 더더욱 슬픈 일일지도 몰라요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……무사히 끝났군요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "아이들이 자꾸 제 몸에 매달리거나, 숨바꼭질을 하려고 해서 조금 당황하기는 했습니다만……."
+    },
+    {
+      "Text": "[s] \"그만큼 레이죠와 친해졌다는 뜻이 아닐까?\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네. 가능하면 다음에 또 오고 싶다고 이야기해 주었으니까요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "접객을 하는 입장에서는, 몇 번을 들어도 기쁜 말입니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "뭔가, 신기한 경험이었네요. 여러 가지로요."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "감사합니다. 선생님. "
+    },
+    {
+      "Text": "[s] \"나는 별로 한 게 없었던 것 같지만.\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "선생님께서는 그렇게 생각하실지 몰라도, 저에게는 그렇지 않았습니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "앞으로도 많은 지도 편달 부탁드리겠습니다. 선생님."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Attitude Adjustment"
+    },
+    {
+      "Text": "Black Tortoise Promenade Main Restaurant"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Was the food to your taste, Sensei?"
+    },
+    {
+      "Text": "[s1] \"It was the best!\""
+    },
+    {
+      "Text": "[s2] \"I want to try your cooking, though.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Is that so? I'm glad. I know this is just the standard script, but..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...I truly do hope you return to the Black Tortoise Promenade."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Did you say...my cooking? "
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I've been working as a manager for the Black Tortoise Promenade, rather than as a chef, for a while now..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Okay. One day, I'll find the opportunity to cook you a meal at Schale."
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "E-Emergency! One of our shops hasn't received today's ingredients yet!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Which shop?"
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "Jinghua Garden of Huo Tui West!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Jinghua Garden... I know where that is. Okay."
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "Wh-What should we do? They say that there's no way they'll be ready for the afternoon shift, not at this rate!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "For now, we'll get them emergency supplies from the main restaurant's storage."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Of course that'll only buy us a little time, three...probably two hours at most."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I'm rerouting all remaining transport personnel to Xinxinglou 3rd, on Hong Jing Road. There should be two trucks available. I'll handle the communications."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Since Xinxinglou is on holiday, they'll be able to help out with extra ingredients."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Since it's an emergency, the main restaurant will cover the cost, for now. But collect their payment after business hours."
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "Yes! Understood!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "*sigh* That's sorted out, somehow."
+    },
+    {
+      "Name": "Diner",
+      "Text": "Is this Black Tortoise Promenade of Shanhaijing?"
+    },
+    {
+      "Name": "Diner",
+      "Text": "Now, I don't care what it is, just bring me the most delicious dish you have to offer!"
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "Wh-What? Well, that's..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": ""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Absolutely. Let's get you seated first. Right this way."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Thank you very much for visiting the Black Tortoise Promenade today."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Since you've requested something a little special, I'd like to recommend our chef's special. Would that be to your liking?"
+    },
+    {
+      "Name": "Diner",
+      "Text": "That's a menu item? I didn't see it anywhere!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "That's why it's extra-special, just for you."
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "W-We have something like that?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Nope. But satisfying a customer's needs is part of running a restaurant."
+    },
+    {
+      "Name": "Diner",
+      "Text": "Hm? Is there a problem?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Not at all. The chef has informed me that their special today is the abalone course."
+    },
+    {
+      "Name": "Diner",
+      "Text": "Abalone! And a whole course at that! I look forward to it!"
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "W-Wouldn't that be a bit expensive?!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "The guest stated from the beginning that they only want the best of the best."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "These kinds of customers want to feel like they're in the lap of luxury. They'll be offended by an \"affordable\" dish."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "We'll bring the course out to you right away, honored guest."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Hurry and inform the kitchen."
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "Yes! Understood!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Ah, geez. It's more chaotic than usual. With Sensei here, too."
+    },
+    {
+      "Name": "???",
+      "Text": "I told you I already paid!"
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "But..."
+    },
+    {
+      "Name": "Diner B",
+      "Text": "I see what you're doing! You're trying to scam me!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "What seems to be the problem here?"
+    },
+    {
+      "Name": "Diner B",
+      "Text": "I already paid through your payment app, but the waiter's saying that it didn't go through! She's trying to make me pay twice!"
+    },
+    {
+      "Name": "Diner B",
+      "Text": "What happened to the famous Black Tortoise Promenade service?"
+    },
+    {
+      "Name": "Black Tortoise Promenade Member",
+      "Text": "But we—"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I absolutely understand your frustration. If a mistake was made, I sincerely apologize on everyone's behalf."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Per our standard procedure, do you mind waiting a moment while I check our CCTV and confirm with the e-payment company?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "It's always best to confirm the details, so all parties feel comfortable and confident."
+    },
+    {
+      "Name": "Diner B",
+      "Text": "Huh...? CCTV...? Transaction details...?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "To ensure the best service to all our customers, the Black Tortoise Promenade's main restaurant has CCTV installed throughout the premises."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "It should only take around five minutes. I'll go ahead and confirm the transaction details as well."
+    },
+    {
+      "Name": "Diner B",
+      "Text": "Um. Now that you mention it...maybe I just didn't open the payment app properly...or something..."
+    },
+    {
+      "Name": "Diner B",
+      "Text": "I would hate for you to go to all that trouble..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Oh, no. It's nothing of the sort. It's our duty to ensure that these kinds of situations are handled correctly."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Of course, all of our CCTVs include a built-in recording function. In case that matters."
+    },
+    {
+      "Name": "Diner B",
+      "Text": "R-Recording?!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Yes, I just thought I'd mention it. Just in case. Are you feeling well, honored guest? Is something wrong?"
+    },
+    {
+      "Name": "Diner B",
+      "Text": "A-Ah it's nothing! It's really nothing!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I'm sorry, Sensei. It's so hectic today."
+    },
+    {
+      "Text": "[s] \"I'm impressed...\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Wh-What?! What are you talking about?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "You...thought the way I dealt with all these situations was amazing?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I appreciate the compliment, but this is par for the course, working at the Promenade."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...Although not every day is this chock-full with urgent issues."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "The most important event of the day hasn't even started yet, and we're already swimming in it."
+    },
+    {
+      "Text": "[s] \"What's that?\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I don't know if I'm supposed to disclose this..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Well, there's a group reservation for Plum Blossom Garden."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "This is embarrassing to admit..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...but I have a hard time handling kids."
+    },
+    {
+      "Text": "[s] \"No one has an easy time with that.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Thank you for understanding, Sensei."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Children are cute and innocent...but, unlike normal customers, they're pretty obstinate and insistent."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Huh? You'll help me as much as you can, Sensei? But..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Ah. All right. I suppose it's okay to accept a favor here and there."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Thank you, Sensei. I'll be counting on you."
+    },
+    {
+      "Name": "Plum Blossom Garden Student A",
+      "Text": "Sensei, Sensei! Look over here! This squid looks like a flower! Isn't that amazing?"
+    },
+    {
+      "Text": "[s] \"It is. The chef cut them to make them look like that.\""
+    },
+    {
+      "Name": "Plum Blossom Garden Student B",
+      "Text": "Hey, Sensei. I heard there are these things called octopus sausages. Why don't they have them here?"
+    },
+    {
+      "Name": "Plum Blossom Garden Student B",
+      "Text": "Are octopus sausages made of octopuses? I don't like octopuses... They're too hard to eat!"
+    },
+    {
+      "Text": "[s] \"Octopus sausages are regular sausages, just shaped like octopuses.\""
+    },
+    {
+      "Name": "Plum Blossom Garden Student B",
+      "Text": "Oh, really? Then I wanna try! Are you lying, Sensei? You better not be lying!"
+    },
+    {
+      "Name": "Plum Blossom Garden Student B",
+      "Text": "One time, back at school, they told me lunch was yummy beef fried rice...but it had peppers and broccoli!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I'm impressed, Sensei. You're really good with children."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "If you don't mind...could you...teach me?"
+    },
+    {
+      "Text": "[s3] \"There's not that much to teach.\""
+    },
+    {
+      "Text": "[s4] \"But, you know, you don't have to solve their problems.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Huh? Aren't problems meant to be solved? What do you mean?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Some things can sort themselves out...if I just lend a listening ear?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...I've never thought about it that way."
+    },
+    {
+      "Text": "[s] \"Would you like to try, Reijo?\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Yes. This is my responsibility, after all."
+    },
+    {
+      "Name": "Plum Blossom Garden Student C",
+      "Text": "I like shrimp dumplings! And pork dumplings!"
+    },
+    {
+      "Name": "Plum Blossom Garden Student C",
+      "Text": "I like plain dumplings, pan-fried dumplings, deep-fried dumplings..."
+    },
+    {
+      "Name": "Plum Blossom Garden Student C",
+      "Text": "Wait...but then what's my favorite dumpling?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I-If you can't pick a favorite, maybe you like all dumplings...?"
+    },
+    {
+      "Name": "Plum Blossom Garden Student C",
+      "Text": "Oh my gosh, you're totally right! But! I don't like seaweed dumplings. They're all slimy and stuff!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Maybe those aren't actually dumplings...?"
+    },
+    {
+      "Name": "Plum Blossom Garden Student D",
+      "Text": "...It's a sad thing that the culture of eating out is flourishing. Because it's proof that nobody has time to cook anymore."
+    },
+    {
+      "Name": "Plum Blossom Garden Student D",
+      "Text": "You eat at a restaurant to save time, but often, the time you save is spent to do even more work."
+    },
+    {
+      "Name": "Plum Blossom Garden Student D",
+      "Text": "Even employers aren't free from this problem. The system ends up determining everything."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Ah... Was there an issue with your dish...?"
+    },
+    {
+      "Name": "Plum Blossom Garden Student D",
+      "Text": "The fact that there was no issue, might be what makes it even more sad."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...It's finally over."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "The children kept trying to climb on me and play hide-and-seek, which scared me a little..."
+    },
+    {
+      "Text": "[s] \"That just means they feel that comfortable with you.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Yes... They said they'd like to come visit us again."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "As someone in the service industry, that's something I'm always happy to hear."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "It was an interesting experience. In many ways."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Thank you, Sensei. "
+    },
+    {
+      "Text": "[s] \"I don't think I did much.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "It might seem that way to you, but, for me, you made a world of difference."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I'll look forward to your next lesson, Sensei."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "เปลี่ยนวิธีคิด"
+    },
+    {
+      "Text": "สำนักงานใหญ่ ย่านการค้าเทพเต่าดำ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อาหารถูกปากมั้ยคะ คุณครู?"
+    },
+    {
+      "Text": "[s1] \"อร่อยเหาะไปเลยละ!\""
+    },
+    {
+      "Text": "[s2] \"อื้อ ครูก็อยากกินอาหารที่เรย์โจวทำบ้างนะ\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อย่างนั้นเหรอคะ? โล่งอกไปทีนะคะ คำนี้อาจจะฟังเหมือนคำพูดทางธุรกิจก็ได้"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่คราวหน้าก็แวะมาฝากท้องที่ย่านการค้าเทพเต่าดำของเราอีกนะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อาหาร... ที่ฉันทำงั้นเหรอคะ? "
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันไม่ใช่เชฟของย่านการค้าเทพเต่าดำหรอกค่ะ งานของฉันออกจะไปทางผู้จัดการมากกว่าค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ค่ะ แต่ก็หวังว่าต่อไปฉันจะมีโอกาสทำอาหารให้ทานนะคะ อย่างน้อยก็ที่ชาเล่ต์ก็ได้ค่ะ"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ระ... รายงานด่วนค่ะ! มีร้านค้าที่ยังไม่ได้วัตถุดิบอาหารของวันนี้ค่ะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ที่ไหนคะ?"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ที่คยองฮวาวอน ทางฝั่งตะวันตกของสวนหม้อไฟค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ที่นั่นเองน่ะเหรอ... ค่ะ เข้าใจแล้วค่ะ"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ทะ... ทำยังไงดีคะ? ถ้ายังไม่มีวัตถุดิบ บ่ายนี้ก็คงขายอาหารไม่ได้แน่ๆ เลยค่ะ...!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เราจะส่งของที่ขาดจากสำนักงานใหญ่ไปให้ก่อนค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่แค่ของที่เรามี... ก็น่าจะขายได้แค่ 3 ชั่วโมง ไม่สิ แค่ 2 ชั่วโมงก็น่าจะขายหมดแล้วค่ะ เพราะงั้น..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "จะส่งเจ้าหน้าที่ขนส่งที่เหลือไปถนนสายใหม่ที่ 3 แล้วก็ให้ใช้รถบรรทุก 2 คันค่ะ ฉันจะเป็นฝ่าย\nติดต่อไปให้เองค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "วันนี้ร้านค้าในถนนสายใหม่ที่ 3 ปิดทำการ น่าจะพอช่วยเรื่องวัตถุดิบได้บ้างค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เรื่องค่าใช้จ่าย ทางสำนักงานใหญ่จะรับผิดชอบให้ก่อน แล้วพอทำการค้าของวันนี้เสร็จ ก็ให้จัดการ\nเรื่องบัญชีอย่าให้มีตกหล่นนะคะ"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ค่ะ! เข้าใจแล้วค่ะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฮู่ว... จัดการเสร็จจนได้นะคะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร",
+      "Text": "ที่นี่คือย่านการค้าเทพเต่าดำของซานไห่จิงใช่มั้ย?"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร",
+      "Text": "ดีละ~! ฉันจะสั่งอาหารที่อร่อยที่สุดของที่นี่ คิดว่าเมนูไหนเด็ดก็จัดมาเลย!"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "คะ... คะ? เอ่อ... แบบนั้นมัน..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": ""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันจะพาไปที่โต๊ะก่อนนะคะ เชิญทางนี้ค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ขอบคุณที่มาอุดหนุนย่านการค้าเทพเต่าดำของเรานะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "สำหรับคุณลูกค้าที่สั่งเมนูพิเศษ ฉันอยากเสนอเป็นเมนูแนะนำประจำวันของหัวหน้าเชฟค่ะ รับเป็นเมนูนี้ดีมั้ยคะ?"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร",
+      "Text": "โอ้ ถ้าหัวหน้าเชฟแนะนำ ก็ต้องอร่อยเลยใช่มั้ย? แต่ไม่เห็นมีเขียนไว้ในเมนูเลยแฮะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ถึงได้เรียกว่าเป็นเมนูพิเศษยังไงล่ะคะ"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "พะ... พวกเราไม่มีเมนูแบบนั้นไม่ใช่เหรอคะ?!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "มันก็จริงอยู่ค่ะ... แต่ในเวลาแบบนี้ เราก็ควรตอบสนองความพึงพอใจทางจิตใจของลูกค้าสิคะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร",
+      "Text": "หืม? มีปัญหาอะไรอย่างนั้นเหรอ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ไม่มีหรอกค่ะ พอดีฉันเพิ่งทราบจากหัวหน้าเชฟมาน่ะค่ะ เมนูแนะนำประจำวันของวันนี้ก็คือ... หอยเป๋าฮื้อแบบฟูลคอร์สค่ะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร",
+      "Text": "หอยเป๋าฮื้อ! มาเป็นคอร์สด้วยเหรอ! น่าตื่นเต้นจัง!"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ตะ... แต่มันน่าจะแพงอยู่นะคะ?!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่ลูกค้าบอกว่าไม่ติดเรื่องราคาตั้งแต่แรกนี่คะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ลูกค้าแบบนี้น่ะ ถ้าเราเสนออาหารที่ราคาถูกให้ พวกเขาอาจจะคิดว่าตัวเองไม่ได้รับการต้อนรับอย่างเหมาะสม แล้วฟาดงวงฟาดงาเอาได้ค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ถ้าอย่างนั้น ช่วยรอสักครู่นะคะคุณลูกค้า"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "รีบไปแจ้งในครัวเถอะค่ะ"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "ค่ะ เข้าใจแล้วค่ะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คุณครูอุตส่าห์มาที่นี่แท้ๆ แต่วันนี้ฉันงานยุ่งมากเลยค่ะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "แต่ฉันจ่ายเงินไปแล้วนะ!"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "คุณลูกค้าคะ แต่ว่า..."
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "อ๋อ คิดจะเก็บเงินจากฉัน 2 รอบสินะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "มีเรื่องอะไรเหรอคะ คุณลูกค้า?"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "ฉันจ่ายเงินผ่านแอปฯ ไปแล้ว แต่ทางนี้ก็มาบอกว่าการจ่ายเงินของฉันไม่สำเร็จ แล้วก็จะขอให้จ่ายอีก\nรอบนี่สิ!"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "หรือว่านี่จะเป็นการต้อนรับลูกค้าของย่านการค้าเทพเต่าดำที่เขาร่ำลือกัน?"
+    },
+    {
+      "Name": "สมาชิกย่านการค้าเทพเต่าดำ",
+      "Text": "แต่ว่าพวกฉัน..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เอาละๆ ฉันเข้าใจแล้วค่ะ ถ้าเป็นความผิดพลาดจากย่านการค้าของเรา ฉันก็ต้องขอโทษด้วยค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่เราขอตรวจสอบกล้องวงจรปิด และขอดูประวัติการทำธุรกรรมของบริษัทที่ชำระเงินก่อนได้มั้ยคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เรื่องแบบนี้ต้องตรวจสอบให้ 'ชัดเจนและแน่ใจ' น่ะค่ะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "หืม...? กล้องวงจรปิด...? ประวัติการทำธุรกรรม...?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ใช่ค่ะ ที่ร้านสำนักงานใหญ่ของย่านการค้าเทพเต่าดำมีการติดตั้งกล้องวงจรปิดไว้เพื่อเตรียมพร้อม\nรับมือกับเหตุฉุกเฉินในทุกเมื่อค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แล้วการขอดูประวัติการทำธุรกรรมก็ใช้เวลาไม่นานด้วยค่ะ ช่วยรอพวกฉันตรวจสอบประมาณ 5 นาที\nนะคะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "อืม เอ่อ... คือว่า... พอมาคิดดูแล้ว หมู่นี้แอพฯ จ่ายเงินของฉันมันก็ไม่ค่อยเสถียรน่ะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "เพราะงั้นพวกเธอไม่ต้องเช็กอะไรให้ลำบากก็ได้..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ไม่หรอกค่ะ เรื่องแค่นี้ไม่ลำบากหรอกค่ะ นี่เป็นงานของพวกเราอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คุณลูกค้าอาจจะยังไม่ทราบนะคะว่ากล้องวงจรปิดของย่านการค้าเทพเต่าดำบันทึกเสียงได้ด้วยค่ะ"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "บะ... บันทึกเสียงเหรอ?!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ค่ะ ฉันแค่บอกให้ทราบ เพราะเพิ่งนึกขึ้นได้น่ะค่ะ ว่าแต่ เป็นอะไรหรือเปล่าคะคุณลูกค้า? รู้สึกไม่สบายตรงไหนหรือเปล่าคะ?"
+    },
+    {
+      "Name": "ลูกค้าร้านอาหาร B",
+      "Text": "ปะ... เปล่า ไม่เลย! ฉันไม่ได้เป็นอะไรเลย!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ต้องขอโทษด้วยค่ะ คุณครู วันนี้ฉันงานยุ่งจนหัวหมุนเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"น่าประทับใจมากเลย...\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คะ? จะ... จู่ๆ ก็พูดเรื่องอะไรคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อ่า... ฉันมีไหวพริบในการจัดการสถานการณ์อย่างน่าประหลาดใจงั้นเหรอคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เอ่อ... ขอบคุณที่ชมค่ะ แต่พอทำงานในย่านการค้า ก็จะเจอกับเรื่องแบบนั้นบ่อยๆ ค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่ว่าวันนี้เหมือนจะมีเรื่องเร่งด่วนมากกว่าวันอื่นๆ นะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เรายังไม่ทันได้จัดกิจกรรมต้อนรับลูกค้าที่สำคัญที่สุดเลยแท้ๆ แต่ก็ดันมาเจอเรื่องแบบนี้กันก่อน..."
+    },
+    {
+      "Text": "[s] \"ยังมีอะไรอีกเหรอ?\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คือว่า... ฉันไม่รู้ว่าควรบอกเรื่องแบบนี้หรือเปล่า..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่เดี๋ยวจะมีคณะนักเรียนจากสวนต้นบ๊วยแวะมาทานอาหารน่ะค่ะ..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันอายที่จะพูดแบบนี้ด้วยตัวเองค่ะ แต่ว่า..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันเข้าหาลูกค้าที่เป็นเด็กๆ... ไม่ค่อยเก่งน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"นั่นน่าจะเป็นเรื่องยากของทุกคนนะ...\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ขอบคุณที่เข้าใจค่ะ คุณครู"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เด็กๆ ก็น่ารักและไร้เดียงสาอยู่หรอกค่ะ... แต่ลูกค้าเด็กๆ ต่างจากลูกค้าทั่วไปตรงที่จะเอาแต่ใจน่ะค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คะ? คุณครูจะช่วยเท่าที่พอทำได้งั้นเหรอคะ? แต่ว่า..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ขะ... เข้าใจแล้วค่ะ ในเวลาแบบนี้ฉันควรจะรับน้ำใจของคนอื่นไว้สินะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ขอบคุณค่ะ คุณครู ต้องขอรบกวนด้วยนะคะ"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย A",
+      "Text": "คุณครู คุณครู! ดูตรงนี้สิคะ! ปลาหมึกตัวนี้ดูเหมือนดอกไม้เลยค่ะ! ยอดไปเลยค่ะ!"
+    },
+    {
+      "Text": "[s] \"นั่นสินะ ถ้าหั่นให้ดีก็จะเป็นรูปดอกไม้สินะ ยอดไปเลย\""
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย B",
+      "Text": "คุณครูคะ ที่นี่มีไส้กรอกปลาหมึกยักษ์ขายมั้ยคะ?"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย B",
+      "Text": "จะว่าไป ไส้กรอกปลาหมึกยักษ์ทำจากเนื้อปลาหมึกยักษ์จริงๆ หรือเปล่าคะ? หนูไม่ค่อยชอบปลาหมึก\nยักษ์เลย... ก็มันเหนียวนี่คะ!"
+    },
+    {
+      "Text": "[s] \"ไม่ใช่หรอก มันคือไส้กรอกที่มีรูปร่างเหมือนปลาหมึกยักษ์เฉยๆ น่ะ\""
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย B",
+      "Text": "เอ๋ จริงเหรอคะ? ถ้างั้นหนูก็อยากลองกินดูค่ะ! คุณครูไม่ได้โกหกใช่มั้ยคะ?"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย B",
+      "Text": "เมื่อก่อนที่สวนต้นบ๊วยบอกว่าจะทำข้าวผัดเนื้ออร่อยๆ ให้ แต่ก็ใส่พริกหยวกกับบรอกโคลีมาด้วยค่ะ..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คุณครูดูแลเด็กๆ ดีมากเลยนะคะ น่าทึ่งจังเลยค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ถ้าไม่ว่าอะไรละก็... ช่วยบอกเคล็ดลับกับฉันหน่อยได้มั้ยคะ?"
+    },
+    {
+      "Text": "[s3] \"ไม่ต้องพยายามแก้ไขปัญหาให้เด็กๆ ก็ได้\""
+    },
+    {
+      "Text": "[s4] \"ถ้าเด็กๆ มีปัญหา เราไม่จำเป็นต้องหาทางแก้ไขตลอดก็ได้\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คะ? มีปัญหา แต่ว่าไม่จำเป็นต้องแก้ปัญหางั้นเหรอคะ? หมายความว่ายังไงคะ...?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อ้อ... แค่ช่วยรับฟังปัญหาของเด็กๆ ก็ถือว่าช่วยได้แล้วงั้นเหรอคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันไม่เคยคิดในทางนั้นมาก่อนเลยนะคะ..."
+    },
+    {
+      "Text": "[s] \"เรย์โจวก็ลองดูมั้ยล่ะ?\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ได้ค่ะ นั่นเป็นสิ่งที่ฉันต้องทำตั้งแต่แรกอยู่แล้วนี่คะ"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย C",
+      "Text": "เกี๊ยวกุ้งก็อร่อยค่ะ! เกี๊ยวหมูก็อร่อยเหมือนกันค่ะ!"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย C",
+      "Text": "เกี๊ยวที่ไม่มีไส้ก็อร่อย จะนึ่งหรือจะทอดก็อร่อยทั้งนั้นค่ะ..."
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย C",
+      "Text": "เอ๋? ถ้าอย่างงั้นหนูชอบเกี๊ยวอะไรที่สุดเหรอคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ถะ... ถ้าไม่มีเกี๊ยวที่ไม่ชอบเป็นพิเศษ ก็ถือว่าชอบเกี๊ยวทุกอย่างเลยมั้ยคะ...?"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย C",
+      "Text": "นั่นสินะคะ อย่างที่พี่พูดเลยค่ะ! อ๊ะ... แต่ว่าหนูไม่ชอบเกี๊ยวที่ทำจากสาหร่ายค่ะ... มันลื่นๆ น่ะค่ะ..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "นั่นไม่ใช่เกี๊ยว แต่เป็นอาหารอย่างอื่นหรือเปล่าคะ...?"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย D",
+      "Text": "วัฒนธรรมการรับประทานอาหารนอกบ้านเป็นเรื่องที่น่าเศร้าใจเหมือนกันนะคะ นั่นเป็นสิ่งที่พิสูจน์ว่า\nผู้คนไม่มีเวลาทำอาหารกันน่ะค่ะ"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย D",
+      "Text": "เรามาทานอาหารข้างนอกเพื่อประหยัดเวลา แต่เวลาที่ประหยัดไปก็จะเอาไปทำงานอื่นมากขึ้นค่ะ"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย D",
+      "Text": "เรื่องนี้เป็นเรื่องที่แม้แต่นายจ้างก็ยังประสบพบเจอเลยนะคะ ระบบมันกลายเป็นแบบนี้ไปแล้วค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เอ่อ... มีปัญหาอะไรเกี่ยวกับอาหารหรือเปล่าคะ...?"
+    },
+    {
+      "Name": "นักเรียนสวนต้นบ๊วย D",
+      "Text": "บางทีการไม่มีปัญหาอะไรเลยก็อาจจะเป็นเรื่องน่าเศร้ายิ่งกว่าเดิมนะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "จบลงได้ด้วยดีแล้วค่ะ..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ตอนเด็กๆ มาติดสอยห้อยตามและพยายามเล่นซ่อนหาในร้าน ฉันก็ตกใจอยู่นิดหน่อยค่ะ..."
+    },
+    {
+      "Text": "[s] \"แปลว่าเด็กๆ เริ่มสนิทกับเรย์โจวแล้วน่ะ\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ค่ะ พวกเธอบอกว่าถ้ามีโอกาสก็อยากจะมาอีกครั้งด้วยค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ในฐานะของผู้ให้บริการแล้ว นั่นเป็นคำที่ฟังกี่ครั้งก็ดีใจค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เป็นประสบการณ์ที่น่าทึ่งในหลายๆ แง่เลยละค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ขอบคุณค่ะ คุณครู "
+    },
+    {
+      "Text": "[s] \"แต่ครูแทบไม่ได้ช่วยอะไรเลยนะ\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คุณครูอาจคิดแบบนั้น แต่สำหรับฉันแล้วไม่ใช่เลยค่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ต่อไปก็ขอคำแนะนำอีกนะคะ คุณครู"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "換個思考方式"
+    },
+    {
+      "Text": "玄武商會總店"
+    },
+    {
+      "Name": "令女",
+      "Text": "請問餐點還合您的胃口嗎，老師？"
+    },
+    {
+      "Text": "[s1]「超棒的！」"
+    },
+    {
+      "Text": "[s2]「之後也想吃吃看令女做的料理呢。」"
+    },
+    {
+      "Name": "令女",
+      "Text": "是嗎？那真是太好了。\n接下來我要說點生意人的客套話。"
+    },
+    {
+      "Name": "令女",
+      "Text": "今日非常感謝您蒞臨玄武商會，期待您的下次光臨。"
+    },
+    {
+      "Name": "令女",
+      "Text": "我做的料理……是嗎？"
+    },
+    {
+      "Name": "令女",
+      "Text": "其實我在玄武商會負責的是經紀人的工作，而不是廚師……"
+    },
+    {
+      "Name": "令女",
+      "Text": "不過好吧，希望之後有機會能親自在夏萊為老師下廚。"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "緊，緊急通報！有間店家還沒收到今天的食材！"
+    },
+    {
+      "Name": "令女",
+      "Text": "是哪裡？"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "火鍋路西側的瓊花園！"
+    },
+    {
+      "Name": "令女",
+      "Text": "瓊花園的話……嗯，原來是那裡啊。\n我知道了。"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "該，該怎麼辦？\n這樣下去的話，下午根本做不了生意……！"
+    },
+    {
+      "Name": "令女",
+      "Text": "不夠的食材先從總店的倉庫調貨吧。"
+    },
+    {
+      "Name": "令女",
+      "Text": "雖然那些頂多只能撐三……不，是兩個小時左右。\n那麼……"
+    },
+    {
+      "Name": "令女",
+      "Text": "把空閒的運送人力都派到虹正路3號的新興樓。\n我會聯絡一下，把兩台卡車也派過去支援。"
+    },
+    {
+      "Name": "令女",
+      "Text": "新興樓今天休息，應該可以補足才對。"
+    },
+    {
+      "Name": "令女",
+      "Text": "現在情況緊急，貨款就先由總店支付。\n後續就等今天打烊結帳的時候再檢查是否有遺漏吧。"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "是！我知道了！"
+    },
+    {
+      "Name": "令女",
+      "Text": "呼，總算搞定了。"
+    },
+    {
+      "Name": "餐廳客人",
+      "Text": "這裡就是山海經的玄武商會嗎？"
+    },
+    {
+      "Name": "餐廳客人",
+      "Text": "來來來～！隨便什麼都好，我要點這裡最好吃的菜！"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "咦，咦？\n您這麼說……"
+    },
+    {
+      "Name": "令女",
+      "Text": ""
+    },
+    {
+      "Name": "令女",
+      "Text": "我先幫您帶位吧。請跟我來。"
+    },
+    {
+      "Name": "令女",
+      "Text": "誠摯感謝您蒞臨玄武商會。"
+    },
+    {
+      "Name": "令女",
+      "Text": "由於您剛才表示要點最好吃的料理，個人建議本日的主廚推薦，您覺得如何呢？"
+    },
+    {
+      "Name": "餐廳客人",
+      "Text": "哦，還有那種料理啊？但菜單上好像沒有耶！"
+    },
+    {
+      "Name": "令女",
+      "Text": "因為那是特殊料理。"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "我，我們有那種料理嗎！？"
+    },
+    {
+      "Name": "令女",
+      "Text": "實際上當然沒有……但這種時候應該優先將情緒價值提供給客人。"
+    },
+    {
+      "Name": "餐廳客人",
+      "Text": "嗯？有什麼問題嗎？"
+    },
+    {
+      "Name": "令女",
+      "Text": "不是的，主廚剛才正好跟我說了有關料理的事。\n今天的推薦料理……是鮑魚套餐。"
+    },
+    {
+      "Name": "餐廳客人",
+      "Text": "鮑魚！而且還是套餐！真令人期待！"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "那，那個不是很貴嗎！？"
+    },
+    {
+      "Name": "令女",
+      "Text": "客人從頭到尾都沒提到過價格吧。"
+    },
+    {
+      "Name": "令女",
+      "Text": "如果端出物美價廉的料理，這種客人反而還會因為覺得自己沒有受到款待而生氣呢。"
+    },
+    {
+      "Name": "令女",
+      "Text": "那麼，這位客人。還請您稍等片刻。"
+    },
+    {
+      "Name": "令女",
+      "Text": "盡快告知廚房吧。"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "是，我知道了！"
+    },
+    {
+      "Name": "令女",
+      "Text": "真是的，今天怎麼特別忙啊。\n難得老師也來了說……"
+    },
+    {
+      "Name": "???",
+      "Text": "我明明已經結過帳了！"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "但是客人……"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "我知道了。你們是想從我身上剝兩次皮對吧！"
+    },
+    {
+      "Name": "令女",
+      "Text": "客人，請問發生什麼事了嗎？"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "我剛才明明用付款APP付過錢了，\n但你們的員工卻突然說付款失敗，還要我再付一次！？"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "這就是大名鼎鼎的玄武商會的待客之道嗎？"
+    },
+    {
+      "Name": "玄武商會成員",
+      "Text": "但是我們……"
+    },
+    {
+      "Name": "令女",
+      "Text": "您的意思我明白了。\n如果是我們商會的疏失，稍後一定會向您致歉。"
+    },
+    {
+      "Name": "令女",
+      "Text": "不過在那之前，可以先讓我們查看監視器，拿到電子簽核公司的交易明細嗎？"
+    },
+    {
+      "Name": "令女",
+      "Text": "畢竟這種事情需要「確實明確地」確認清楚。"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "咦……？監視器……？交易明細……？"
+    },
+    {
+      "Name": "令女",
+      "Text": "是的。作為應對突發事態的準備，我們玄武商會總店到處都安裝了監視器。"
+    },
+    {
+      "Name": "令女",
+      "Text": "傳送交易明細也不會花費太多時間。\n您只需要靜候5分鐘，所有事項就能確認完畢。"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "呃～那個，就是……仔細想想，我剛才好像沒確認付款APP到底有沒有開啟。"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "所以也不必勞煩你們一一確認……"
+    },
+    {
+      "Name": "令女",
+      "Text": "您快別這麼說。\n這本來就是我們應該承擔的責任，您不需要感到過意不去。"
+    },
+    {
+      "Name": "令女",
+      "Text": "以防萬一也通知您一聲，我們玄武商會的監視器含有錄音功能。"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "錄，錄音！？"
+    },
+    {
+      "Name": "令女",
+      "Text": "是的。碰巧想到就提醒您一下。\n話說客人您還好嗎？有沒有覺得哪裡不舒服？"
+    },
+    {
+      "Name": "餐廳客人B",
+      "Text": "沒，沒事，我很好！真的沒什麼！"
+    },
+    {
+      "Name": "令女",
+      "Text": "非常抱歉，老師。我忙得暈頭轉向的。"
+    },
+    {
+      "Text": "[s]「真是令人欽佩……」"
+    },
+    {
+      "Name": "令女",
+      "Text": "嗯？您，您為何突然這麼說？"
+    },
+    {
+      "Name": "令女",
+      "Text": "啊……處理狀況的手腕很厲害？"
+    },
+    {
+      "Name": "令女",
+      "Text": "感謝您的讚美。\n商會的工作做久了，常常會碰到這種事。"
+    },
+    {
+      "Name": "令女",
+      "Text": "……雖然今天的緊急狀況，不知為何比平時還多就是了。"
+    },
+    {
+      "Name": "令女",
+      "Text": "真正重要的活動都還沒開始就這樣的話，真不知該如何是好……"
+    },
+    {
+      "Text": "[s]「還有其他活動嗎？」"
+    },
+    {
+      "Name": "令女",
+      "Text": "那個……不知道該不該跟您說這些……"
+    },
+    {
+      "Name": "令女",
+      "Text": "……其實稍後會有梅花園的學生團體來訪。"
+    },
+    {
+      "Name": "令女",
+      "Text": "雖，雖然自己這麼說有點不好意思……"
+    },
+    {
+      "Name": "令女",
+      "Text": "但小孩子有時實在有點不受控……"
+    },
+    {
+      "Text": "[s]「這對任何人來說都不容易……」"
+    },
+    {
+      "Name": "令女",
+      "Text": "謝謝您的理解。老師。"
+    },
+    {
+      "Name": "令女",
+      "Text": "孩子們雖然既可愛又單純……但他們和普通客人不同，經常會堅持己見。"
+    },
+    {
+      "Name": "令女",
+      "Text": "嗯？老師會盡可能幫忙？\n可是……"
+    },
+    {
+      "Name": "令女",
+      "Text": "我，我明白了。\n這種時候坦率地接受好意才是上策吧。"
+    },
+    {
+      "Name": "令女",
+      "Text": "謝謝您，老師。\n那就請您多多指教了。"
+    },
+    {
+      "Name": "梅花園學生A",
+      "Text": "老師老師！你看這邊！\n這隻魷魚長得好像花哦！很厲害吧？"
+    },
+    {
+      "Text": "[s]「就是說呀，真厲害。聽說要刀工好才能切成這樣哦。」"
+    },
+    {
+      "Name": "梅花園學生B",
+      "Text": "老師老師。\n聽說有一種食物叫章魚香腸，在這裡能吃到嗎？"
+    },
+    {
+      "Name": "梅花園學生B",
+      "Text": "還有章魚香腸是用章魚做成的香腸嗎？\n可是我不太喜歡章魚耶……因為太難咬斷了！"
+    },
+    {
+      "Text": "[s]「不是那樣的。章魚香腸是做成章魚模樣的香腸哦。」"
+    },
+    {
+      "Name": "梅花園學生B",
+      "Text": "真的嗎？那我也想吃吃看！老師沒有騙我吧？"
+    },
+    {
+      "Name": "梅花園學生B",
+      "Text": "之前梅花園就有發生過，\n明明說是好吃的牛肉炒飯，結果卻把青椒和花椰菜切成塊一起炒……"
+    },
+    {
+      "Name": "令女",
+      "Text": "老師相當擅長照顧小孩子呢。真是太厲害了。"
+    },
+    {
+      "Name": "令女",
+      "Text": "不介意的話……可以向您請教一下祕訣嗎……？"
+    },
+    {
+      "Text": "[s3]「倒稱不上是什麼祕訣。」"
+    },
+    {
+      "Text": "[s4]「但有時候並不是非得『解決』問題不可。」"
+    },
+    {
+      "Name": "令女",
+      "Text": "咦？明明問題發生了卻不要嘗試解決？\n這是什麼意思……？"
+    },
+    {
+      "Name": "令女",
+      "Text": "啊……有時候只要好好傾聽就行了？"
+    },
+    {
+      "Name": "令女",
+      "Text": "這……老實說，我並沒有這樣想過。"
+    },
+    {
+      "Text": "[s]「令女要不要也試試看？」"
+    },
+    {
+      "Name": "令女",
+      "Text": "我明白了。\n畢竟這本來就是我應該做的事。"
+    },
+    {
+      "Name": "梅花園學生C",
+      "Text": "我喜歡吃蝦餃！豬肉餃也喜歡！"
+    },
+    {
+      "Name": "梅花園學生C",
+      "Text": "沒有內餡的餃子也很棒，還有煎餃子、炸餃子……"
+    },
+    {
+      "Name": "梅花園學生C",
+      "Text": "咦？但說來說去，我到底喜歡什麼餃子呢？"
+    },
+    {
+      "Name": "令女",
+      "Text": "如，如果沒有特別不喜歡的種類，應該能算是全部都喜歡吧……？"
+    },
+    {
+      "Name": "梅花園學生C",
+      "Text": "聽你這麼一說，確實是呢！\n啊……可是我討厭用海帶做的餃子……因為滑滑的……"
+    },
+    {
+      "Name": "令女",
+      "Text": "那個已經不是餃子，是其他食物了吧……？"
+    },
+    {
+      "Name": "梅花園學生D",
+      "Text": "……外食文化的普及其實是件令人心痛的事。\n因為那正是眾人都沒有時間料理的證據。"
+    },
+    {
+      "Name": "梅花園學生D",
+      "Text": "雖然在餐廳用餐是為了節省時間，\n但因此省下來的時間，往往會被用來做更多的工作。"
+    },
+    {
+      "Name": "梅花園學生D",
+      "Text": "甚至就連雇主也無法迴避這個問題。體系已經決定了一切。"
+    },
+    {
+      "Name": "令女",
+      "Text": "那個……食物有什麼問題嗎……？"
+    },
+    {
+      "Name": "梅花園學生D",
+      "Text": "沒有任何問題……反而更令人難過。"
+    },
+    {
+      "Name": "令女",
+      "Text": "……順利結束了呢。"
+    },
+    {
+      "Name": "令女",
+      "Text": "雖然孩子們總是掛在我身上，或是想玩捉迷藏，讓人有點不知所措……"
+    },
+    {
+      "Text": "[s]「那不就代表他們和令女變得很要好嗎？」"
+    },
+    {
+      "Name": "令女",
+      "Text": "是的，他們說有機會的話，之後還想再來。"
+    },
+    {
+      "Name": "令女",
+      "Text": "從接待客人的立場來看，這種話無論聽見幾次依然很讓人高興呢。"
+    },
+    {
+      "Name": "令女",
+      "Text": "從各個方面來說，今天的經驗都十分新鮮。"
+    },
+    {
+      "Name": "令女",
+      "Text": "非常謝謝您，老師。"
+    },
+    {
+      "Text": "[s]「我其實也沒做什麼。」"
+    },
+    {
+      "Name": "令女",
+      "Text": "老師您或許是這麼想的，但我並不這麼認為哦。"
+    },
+    {
+      "Name": "令女",
+      "Text": "以後也請多多指教，老師。"
+    }
+  ]
+}

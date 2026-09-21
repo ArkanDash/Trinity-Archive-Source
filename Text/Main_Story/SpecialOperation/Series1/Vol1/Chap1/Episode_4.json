@@ -1,0 +1,2312 @@
+{
+  "TitleJP": "「データ収集（３）PMC発掘区域1」",
+  "TitleKR": "정보수집 3 - PMC 발굴지 1",
+  "TitleEN": "Research Part 3: PMC Excavation Site 1",
+  "TitleTH": "รวบรวมข้อมูล 3 - เขตขุดค้น PMC 1",
+  "TitleTW": "蒐集情報(3)PMC挖掘區域1",
+  "DescJP": "デカグラマトンに場所を逆探知されてしまった特異現象捜査部は、セキュリティの厳重な場所に新たな部室を作る。ヒマリは新しい作戦の前に「デカグラマトンの預言者」と「生命の樹」について先生に説明し、まずは前回カイザーPMCがアビドスの砂漠で何をしていたのか調べることに。",
+  "DescKR": "데카그라마톤을 피해 새로운 곳에 초현상특무부의 부실을 마련한 에이미와 히마리. 히마리는 새로운 작전을 시작하기에 앞서 선생님에게 <데카그라마톤의 예언자>와 <생명의 나무>에 대해 설명하고, 새로운 증거를 찾기 위해 아비도스의 발굴지로 향한다.",
+  "DescEN": "Eimi and Himari escape Decagrammaton and set up a club room for the Super Phenomenon Task Force. Before starting a new operation, Himari explains what the prophets of Decagrammaton and the Tree of Life are to Sensei before heading to the excavation site of Abydos to find new evidence.",
+  "DescTH": "เอมิกับฮิมาริที่หลบหนี <เดคาแกรมมาทอน> มาจัดเตรียมห้องชมรมปรากฏ\nการณ์ลี้ลับในสถานที่ใหม่ ก่อนเริ่มแผนการใหม่ ฮิมาริอธิบายเกี่ยวกับ\n<ผู้เลื่อมใสของเดคาแกรมมาทอน> กับ <ต้นไม้แห่งชีวิต> ให้คุณครูฟัง\nจากนั้นก็มุ่งหน้าไปหาหลักฐานชิ้นใหม่ในเขตขุดค้นอะบิดอส",
+  "DescTW": "英美和陽葵避開十字神名，在新的地方設立特異現象搜查部的部室。陽葵在開始新作戰前向老師說明「十字神名的預言者」和「生命之樹」，並前往阿拜多斯的挖掘地尋找新證據。",
+  "DialogJP": [
+    {
+      "Text": "第4話;「データ収集（３）PMC発掘区域」"
+    },
+    {
+      "Text": "ミレニアム自治区・外郭地域"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あ、先生。待ってた。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "新しい部室の準備、できたよ。"
+    },
+    {
+      "Text": "[s] \"新しい部室？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん。前に使ってたところは、デカグラマトンに侵入されちゃったから。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "侵入された時に機材も全部壊しちゃったし、同じ場所に留まるのも危ないし。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "だから、ヒマリ部長が新しい場所を用意したの。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長いわく、キヴォトスで一番安全な場所らしいけど……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "まあ、詳しいことは部長に聞けば分かるよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "秘密のエリアにあるから、はぐれないようについてきてね。"
+    },
+    {
+      "Text": "[s] \"うん、よろしく。\""
+    },
+    {
+      "Text": "エイミの後を追って迷路のように入り組んだ路地に入り、エレベーターを乗り換え……ようやくその場所へとたどり着いた。"
+    },
+    {
+      "Text": "特異現象捜査部・部室"
+    },
+    {
+      "Text": "[ns] \"ここは……。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長、先生を連れてきたよ……部長？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……部長？ヒマリ部長？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……っ！"
+    },
+    {
+      "Text": "[ns] \"ヒマリ……！？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ひゃうっ！？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "な、何ですかエイミ……！？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……先生を連れてきたよ、部長。"
+    },
+    {
+      "Text": "[s] \"……おはよう、ヒマリ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "えー、今のはですね……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……見なかったことにしていただきましょう。お待ちしておりましたよ、先生。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ようやく先生にご紹介できますね……ここが「特異現象捜査部」の新たな部室です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私が発明した特殊なファイアウォールシステムで保護されている、キヴォトスで最も安全な場所。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私とエイミ……そして先生だけが存在を知っている、トップシークレットの空間です。いかがです？まるで秘密組織のアジトみたいじゃないですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……何ですかその目は。私の顔に何かついてますか？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長、よだれ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そんな顔されても……部屋がこんなに温かいから眠くなるんじゃないの？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "室内の設定温度を12度にしよう。涼しくなったら目も覚めるはず。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "何をしてるんですかエイミ。私が真っ当なコンディションで作業するためには、少なくとも「3」から始まる数字にしていただかなくては。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "3度？別に良いけど。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "エイミ、ここは冷蔵庫じゃありません。二桁に決まってるではありませんか。"
+    },
+    {
+      "Text": "[ns] \"あの、二人とも……。\""
+    },
+    {
+      "Text": "[ns3] \"こっちではエアコンが唸ってて……。\""
+    },
+    {
+      "Text": "[ns4] \"あっちではヒーターが唸ってるんだけど……。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長、電気代が勿体ない。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長、電気代が勿体ない。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ならエイミが諦めてください。それに電気代ならリオ宛に請求されますので、問題ありません。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そうなったら、残りの手段は……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "待ってください、ここは知識人らしく話し合いで解決しましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "一旦座ってくださいエイミ。エイミ？"
+    },
+    {
+      "Text": "[s] エアコンとヒーターの電源を切る。"
+    },
+    {
+      "Text": "[ns] \"暑くも寒くもない気温に設定したから、これで許してくれない？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん。暑いけど、耐えられないほどじゃない。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……仕方ないですね。これくらいの方が、頭も冴えるかもしれませんし。"
+    },
+    {
+      "Text": "[s] \"うん、ありがとう。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それで……次はどういう作戦でいくの？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……まず、私たちの目標はデカグラマトンの正体を明かすことです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "前回はその情報を集めている途中、デカグラマトンに私たちの存在が気づかれてしまいました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いくら油断していたとはいえ、屈辱ですね……ミレニアム随一の天才美少女ハッカーである私の名誉は大いに傷つきました。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "（美少女は関係ないんじゃ……？）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "向こうは私たちを認知しましたが、こちらはまだ向こうの正体をほとんど知り得ていません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まずはこの状況をひっくり返さない限り、相手にずっとペースを握られたまま……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そこで、まずはデカグラマトンの「預言者」を見つけることにしようかと。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "「預言者」……確かに直接デカグラマトンを探すより、そっちの方が近道かもしれないね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。そもそもデカグラマトンが「人工知能」と定義されるのであれば、「預言者」という概念には違和感がつきまとっていました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "自身のクローンでもなく、命令を遂行する部下でもなく。独立して行動し、デカグラマトンを取り巻く存在……それを 「預言者」、と表現しています。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なぜそのような命名をしたのかは分かりません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "しかしこの「預言者」について調べることで、きっと私たちは「デカグラマトン」に近づけるでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これまでに観測された「預言者」は全部で3つ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": " 「ビナー」、「ケセド」、そして…… 「ホド」。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "先生から伝え聞いたこと、そしてこれらの名前。そこから推測するに、これらは「生命の樹」と呼ばれる古代の伝承と関係があります。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "生命の樹……?"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これが「生命の樹」。今のキヴォトスでは知ることがほとんど不可能な、忘れられてしまった伝承の一つです。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "不可能………？じゃあ、ヒマリ先輩はどうして知ってるの？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「ほとんど」不可能というだけですよ。エイミ、私のあだ名をご存知ですか？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……浄化槽に浮かぶ一輪の花？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "半分は正解です。もう半分はそれ、リオのあだ名じゃないですか。あだ名を混ぜてはいけません、常識ですよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……そんな常識ある？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「全知」の学位を持つ私に対して「常識」に関する問いかけとは、なかなか挑戦的ですね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そういえばそうだったね……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "その学位、噂程度にしか聞いたことなかったけど。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それにしても、仰々しい名前だね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "うふふ……世の中、イメージ作りが大事な時も多いのですよ、エイミ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[s] \"……そろそろ本題に入っても良いかな？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……そうですね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ごめん先生、また部長のペースに乗せられてた。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ、"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私がエイミのペースに乗せられたんです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "とにかく本題に戻りましょう、こちらをご覧ください。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "この「生命の樹」には、全部で10個の「セフィラ」と呼ばれるものが存在します。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": " 「ビナー」、「ケセド」、「ホド」………デカグラマトンの「預言者」は、このセフィラの名を冠しているのです。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "その仮説が正しいなら、まだ私たちが知らない「預言者」があと7つ……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "生命の樹は「神の摂理へと至る道」を意味するそうです。つまり、10のセフィラを通じて神となる……これはデカグラマトンの主張と一致します。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "神になるためにハッキングを繰り返すAI……もはやオカルトの領域ですが、この目でその存在を確認してしまった以上無視はできません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「生命の樹」、「セフィラ」、「神の摂理に至る道」……これらの意味を知るには、この10の「預言者」たちを調べていくのが一番かと。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "調べるって……具体的には？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "探し出します。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "まあ、そうだよね。でもこっちが把握してる「預言者」は2つだけで、「ホド」はまだ実際に観測すらできてないけど。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "やれることから手を付けていくしかありません。そのうちに他の方法も見つかるかもしれませんし。"
+    },
+    {
+      "Text": "[s] \"そうだね。それじゃあ早速始めようか。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん、異論無し。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それではまず「ビナー」と「ケセド」を探し出し、これらのデータを確保するため……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「特異現象捜査部」、あらためて始動です。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "次の目標は、またアビドス砂漠？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "前に襲撃された時、それまでに集めたデータが消失したからってこと？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ、あの程度すぐに復旧できますが、"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これには別の理由があります。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "別の理由？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "カイザーPMCです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "たしかカイザーPMCは、アビドスの砂漠で何かを掘り出そうとしていました。正体や目的は全く分かりませんが……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ビナーが出現する場所で、どうしてそんなことをしていたのか。推測は尽きません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もしかしたらデカグラマトンと何らかの関係がある可能性もあります。なので、そこを一度探ってみようかと。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "なるほど。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あれ、つまりカイザーのデータベースに侵入するってこと？大丈夫？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私を誰だと思ってるんですか、エイミ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私は「ヴェリタス」の元部長であり、ミレニアム最高峰の病弱美少女、ヒマリですよ？「きっかけ」……即ち何かちょっとした「情報」さえあれば、私企業のデータベースへ出入りすることくらい簡単なことです。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……「病弱美少女」の部分、関係あるかな？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "本社ならともかく、PMCのセキュリティなら難しくもないでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "試してみる価値は十分にあります。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "まあ、部長がそう言うなら。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "じゃあ行こっか。目標はカイザーPMCに関する「情報」。"
+    },
+    {
+      "Text": "[s] \"よし、それじゃあ出発。\""
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제4화;정보수집 3 - PMC 발굴지"
+    },
+    {
+      "Text": "밀레니엄 자치구의 외곽 지역"
+    },
+    {
+      "Name": "에이미",
+      "Text": "안녕, 선생님. 기다리고 있었어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "드디어 새로운 부실이 준비되었어."
+    },
+    {
+      "Text": "[s] \"새로운 부실?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 저번 작전 때 쓰던 곳은 데카그라마톤에게 노출되어 버렸잖아? "
+    },
+    {
+      "Name": "에이미",
+      "Text": "위치까지 들켜버려서 역으로 우리가 해킹당할 뻔했었고. 그쪽의 기재들도 죄다 부숴버려서 더 이상 쓸 수 없거든."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그래서 히마리 부장이 단단히 마음 먹고 새로운 장소를 준비해 두었어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장의 말대로라면, 이 키보토스에서 데카그라마톤으로부터 가장 안전한 장소라고 하던데……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "뭐, 자세한 건 가서 부장에게 듣는 게 좋을 거 같아."
+    },
+    {
+      "Name": "에이미",
+      "Text": "다른 사람들에게도 비밀인 구역이니까, 여기서부터는 나를 잘 따라와 줘. "
+    },
+    {
+      "Text": "[s] \"알겠어.\""
+    },
+    {
+      "Text": "(에이미를 따라서 후미진 골목길 안쪽으로 들어가, 몇번의 엘리베이터를 갈아타고, 몇 개의 비밀 문을 지나서 간신히 어떤 장소에 도달할 수 있었다.)"
+    },
+    {
+      "Text": "초현상특무부 부실"
+    },
+    {
+      "Text": "[ns] \"여기는…….\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장. 선생님을 데려왔어. ……부장? "
+    },
+    {
+      "Name": "에이미",
+      "Text": "……부장? 히마리 선배?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "……설마?!"
+    },
+    {
+      "Text": "[ns] \"히마리……?!\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "끼햐아아앙--??!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "뭐, 뭐죠? 무슨 일이?! 뭔가……. 어라, 에이미?!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "……선생님을 모셔 왔어. 부장."
+    },
+    {
+      "Text": "[s] \"……안녕, 히마리.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 어…… 음……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "……안녕하세요, 선생님. 기다리고 있었습니다. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "드디어 선생님에게 소개드릴 수 있게 되었네요. 이곳이 바로 저희 <초현상특무부>의 부실입니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "특별히 제가 발명한 특수 방화벽 시스템으로 철저하게 보호되고 있는…… 말하자면 키보토스에서 데카그라마톤으로부터 가장 안전한 장소."
+    },
+    {
+      "Name": "히마리",
+      "Text": "지금 시점에서는 저와 에이미, 그리고 선생님만이 존재를 알고 있는, 존재 자체가 극비인 공간이죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후……. 어떠신가요? 마치 비밀 컬트 집단의 아지트 같은 느낌이지 않나요? 참고로 자고 있었던 건 아니에요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장. 이쪽에 침이 흐르고 있어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그렇게 원망스러운 얼굴을 해 봤자……. 부실의 온도를 너무 높여놔서 졸린 거 아냐?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "실내 적정 온도는 12도 정도가 딱 좋으니까, 시원해지면 잠도 깰 거야."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨, 무슨 소릴 하는 거죠? 숫자가 이상하잖아요? 제가 최상의 컨디션으로 작업을 하기 위해서는 실내 온도 앞자리가 3은 되어야 해요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "3도? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "여기가 냉장고인가요? 두자리 숫자라구요. 당연히."
+    },
+    {
+      "Text": "[ns] \"저기…… 여러분…….\""
+    },
+    {
+      "Text": "[ns3] \"한쪽에서 격렬하게 에어컨이 돌아가고 있고…….\""
+    },
+    {
+      "Text": "[ns4] \"다른 한쪽에서는 격렬하게 히터가 돌아가고 있는데요…….\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "포기해. 부장. 전기가 아깝지 않아?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "포기해. 부장. 전기가 아깝지 않아?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "에이미야말로 포기하시죠. 참고로 전기 요금은 리오 앞으로 청구될 예정이에요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "철두철미하네. 그럼 남은 방법은 그것뿐인가."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네? 그것?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……아뇨아뇨. 또 왜 그런 결론으로 귀결되는 거죠? 지성인답게 여기서는 대화로 해결해야 하지 않겠어요?"
+    },
+    {
+      "Text": "[s] 에어컨과 히터의 전원을 끈다."
+    },
+    {
+      "Text": "[ns] \"중간 온도로 맞췄으니까, 둘 다 조금만 참아 줘.\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "……. 알겠어. 덥긴 하지만 못 견딜 정도는 아니니까."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……흠. 별 수 없군요. 이 정도로 쌀쌀한 편이 머리를 식히는데도 도움이 될 것 같으니까요."
+    },
+    {
+      "Text": "[s] \"……고마워. 모두.\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장. 그러면 우리의 다음 작전 계획은 뭐야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……우리의 목표는 데카그라마톤이라는 존재의 정체를 밝히는 것이었죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그것을 위해 정보 수집을 진행하다가…… 오히려 데카그라마톤에게 우리들의 존재가 발각되는 사태가 벌어졌습니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아무리 방심하고 있었다지만 이런 굴욕을 당하다니……. 밀레니엄의 최강의 해커이자 미소녀인 제 명예에 흠집이 나버렸네요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "(미소녀는 관계 없지 않아?)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "저쪽은 우리를 인지하고 있지만, 우리는 저쪽의 정체를 전혀 모른다……. 지금 우리에게 유리한 상황은 아닌 거죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "지금 이 상황을 뒤집지 않는 이상, 이 싸움은 계속 저쪽의 흐름에 끌려가게 될 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러니 지금부터는 목표를 수정해서, 데카그라마톤의 <예언자>를 찾아내는 것을 최우선 목표로 삼겠습니다."
+    },
+    {
+      "Name": "에이미",
+      "Text": "예언자…… 말이지. 이해했어. 직접 찾는 것보다는 그쪽이 확실히 지름길이겠네."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 데카그라마톤을 정보생명체라고 정의한다면 확실히 예언자라는 개념은 이상하죠. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "자신의 <클론>도 아니고, 명령을 수행하는 <부하>도 아닌, 독립적으로 판단하고 행동하는 <추종자>……. 그중에서도 <예언자>라는 표현을 쓰다니."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……뭐, 그렇게 명명한 이유는 아직 모르겠지만."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이 예언자의 정보를 수집하고 분석하면 우리는 조금 더 저 정체불명의 AI에 대해 알 수 있게 될 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "지금까지 확인된 예언자는 모두 셋."
+    },
+    {
+      "Name": "히마리",
+      "Text": "<비나>, <헤세드>, 그리고 아마도…… <호드>까지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이들의 이름, 그리고 선생님이 증언한 것을 기반으로 추측해보건대, 이들은 모두 <생명의 나무>라고 불리는 고대의 비의와 관계가 있는 것 같아요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "생명의 나무……?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "이것이 바로 <생명의 나무>입니다. 현재 키보토스에서는 알아내는 것이 거의 불가능한, 잊혀진 비의 중 하나예요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "불가능……? 그럼 히마리 선배는 어떻게 알고 있는 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머? 거의 불가능한 것이지, 절대 불가능한 것은 아니니까요. 에이미? 제 별칭이 뭔지 아세요?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "어. ……정화조에 둥둥 떠 있는 한 떨기 꽃……?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨아뇨. 절반만 맞았어요. 게다가 앞에 건 리오의 별명이잖아요. 이상하게 섞으면 안되죠. 에이미. 키보토스의 상식이잖아요. 학생의 본분이잖아요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……. 상식이었나."
+    },
+    {
+      "Name": "히마리",
+      "Text": "천재. 뭐든지 다 알고 있는 <전지> 학위의 소유자라고 불린다고요. 저에게 이정도야 식은 죽 먹기예요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……응."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그런데 전부터 궁금했는데, 그런 학위가 밀레니엄에 진짜 있어? "
+    },
+    {
+      "Name": "에이미",
+      "Text": "소문은 들었지만 진짜 그런 학위가 있다는 건 들어보질 못했는데. 무엇이든지 안다니, 너무 굉장한 이름이잖아."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후……. 이 세상에선 때로 이미지 메이킹을 위한 포퓰리즘이 필요한 상황도 있는 법이에요, 에이미."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……."
+    },
+    {
+      "Text": "[s] \"어…… 저기. 여러분. 슬슬 다시 본론으로 돌아갔으면 하는데.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 네……. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "미안. 선생님. 또 부장에게 휘말려버렸어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨아뇨. 휘말린 건 제쪽이라고요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……아무튼. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "다시 본론으로 넘어갈게요. 자, 이걸 보시면……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이 <생명의 나무>에는 모두 10개의 <세피라>라는 속성이 존재하고 있어요. 데카그라마톤의 예언자들은 바로 이 세피라의 이름을 표방하고 있고요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "<비나>, <헤세드>, <호드>……. 모두 세피라의 이름이죠."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그렇다면 아직 우리가 알지 못하는 예언자가 7명이 더 있다는 걸까? 그만큼이나 더 있는 건가……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "생명의 나무는 <신의 섭리로 향하는 길>을 상징한다고 해요. 즉, 10개의 세피라를 통해 신이 된다…… 이것은 데카그라마톤의 주장과 일치해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "무슨 이야기인지 전혀 알 수 없는 오컬트의 영역이지만…… 그런 존재가 실존하고 있다는 것을 두 눈으로 확인한 이상, 이 정보는 무시할 수 없어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "생명의 나무…… 세피라…… 신의 섭리에 이르는 길…… 이것들의 의미를 알아내려면…… 이 10개의 예언자들의 정보를 확보할 수밖에 없어요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "정보를 확보……? 어떻게 해야 하지?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "직접 그들과 조우해야겠죠."
+    },
+    {
+      "Name": "에이미",
+      "Text": "음…… 역시 그건가. 하지만 알려져 있는 예언자는 둘 뿐이야. 그중에 호드는 추측일 뿐이고."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇죠. 하지만…… 할 수 있는 일부터 시작할 수밖에 없어요. 그 도중에 새로운 방법을 찾아낼 지도 모르고."
+    },
+    {
+      "Text": "[s] \"이해했어. 그럼 바로 시작해보자.\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 그럼 나도 이견없어. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그럼, 초현상특무부의 다음 임무는, <비나>와 <헤세드>를 찾아내어 이들의 데이터를 확보한다…… 라는 것이 되겠네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "<초현상특무부>의 데카그라마톤 분석 작전. 다시 시작하겠습니다."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그럼 다음 목표는 다시 아비도스 사막이야? 부장?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "사막에서 수집했던 데이터는…… 해킹을 막으려고 컴퓨터를 파괴해버렸을 때 전부 소실됐잖아."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 하지만 그 정도는 복구할 수 있어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그것보다는…… 조금 더 신경쓰이는 게 있어요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "뭔데?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "바로 카이저 PMC예요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "확실히 그들은 아비도스의 사막에서 무언가 발굴하고 있었죠. 정체나 목적은 전혀 알려지지 않았지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "비나가 출몰하는 곳에서 그런 일을 벌이고 있다는 것 자체가 의심스러워요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어쩌면 그들이 데카그라마톤과 관계가 있을 지도 모르고요. 그쪽을 한 번쯤은 체크해볼 필요는 있는 거죠."
+    },
+    {
+      "Name": "에이미",
+      "Text": "흐음. 뭐, 듣고 보니 확실히 그럴 수도."
+    },
+    {
+      "Name": "에이미",
+      "Text": "카이저 기업의 DB에 침투하겠다는 거잖아? 부장, 그래도 괜찮은 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "저를 누구라고 생각하시는 거죠, 에이미?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "제가 바로 <베리타스>의 선대 부장이자, 밀레니엄 최고의 병약 미소녀 히마리예요. 이런 사기업의 DB 정도야 안 들키고 내 집 드나들 듯 들어갈 수 있어요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……병약 미소녀는 관계 없지 않아?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "게다가 카이저 본사가 아닌 PMC의 기록이라면, 훨씬 보안이 취약할 테고……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "밑져야 본전이니 시도해볼 가치는 충분해요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "음…… 뭐. 부장이 그렇게 생각했다면야."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그럼 다시 출동이야. 목표는 카이저 PMC가 가지고 있는 정보를 탈취하는 것. "
+    },
+    {
+      "Text": "[s] \"좋아. 그럼 출발.\""
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 4;Research Part 3: PMC Excavation Site"
+    },
+    {
+      "Text": "Millennium District Outskirts"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Welcome, Sensei. We've been waiting."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The new club room is finally ready."
+    },
+    {
+      "Text": "[s] \"New club room?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "We were exposed to Decagrammaton in our temporary room due to the lack of security.  "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It seemed like more trouble than it was worth to try to fix all of the destroyed equipment."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "So, President Himari decided to find a new location."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "According to the president, there is nowhere safer from Decagrammaton in Kivotos now."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "She'll fill you in on the details. This way."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "This is a top-secret facility, so please don't get lost.  "
+    },
+    {
+      "Text": "[s] \"Lead the way.\""
+    },
+    {
+      "Text": "I followed Eimi into a maze of back alleys, elevators, and hidden doors before we finally reached our destination."
+    },
+    {
+      "Text": "Super Phenomenon Task Force Club Room"
+    },
+    {
+      "Text": "[ns] \"Wait. Isn't this...?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I've brought Sensei with me.  "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "President?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Are you serious?"
+    },
+    {
+      "Text": "[ns] \"Himari?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "President... "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Ahhhhh?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Where am I? Who are you?! Oh, Eimi."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Sensei has arrived, President."
+    },
+    {
+      "Text": "[s] \"Good morning.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh. Ahem.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Welcome, Sensei. You've finally made it.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'd like to officially welcome you to the Super Phenomenon Task Force's club room.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "This place is protected by a firewall system invented by yours truly. Naturally, there is nowhere safer in Kivotos than behind the barricade of my genius."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The three of us here are the only ones who know this place exists."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee. Doesn't it feel like a secret organization? What? No, of course I wasn't sleeping before."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The drool on the side of your mouth suggests otherwise."
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's not my fault you fell asleep. Maybe it's because of how abnormally high you set the thermostat."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The ideal indoor temperature is about fifty-five degrees. The cold helps stimulate your brain."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Are you insane? The temperature must be in at least the eighties for me to work comfortably."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Huh? Did I mishear you? Maybe you meant eight degrees.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Am I a popsicle stick? I don't want to work in a freezer."
+    },
+    {
+      "Text": "[ns] \"Um... You two...\""
+    },
+    {
+      "Text": "[ns3] \"On the left side, the AC is on full blast...\""
+    },
+    {
+      "Text": "[ns4] \"On the right side, the heater is on full blast...\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's because of the president! Aren't you worried about electricity?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "See, president? Aren't you worried about electricity?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Your demands are unreasonable, Eimi. And the electric bill will go to Rio anyways."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You've shown all your cards. It's time for my last resort.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Huh? Last resort?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...! No, absolutely not. Do not take even one step closer. Can't we resolve this in a civilized manner?"
+    },
+    {
+      "Text": "[s] Change the thermostat."
+    },
+    {
+      "Text": "[ns] \"This is what actual room temperature is.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...A bit warm, but survivable conditions."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I suppose a bit of a chill could help keep me awake."
+    },
+    {
+      "Text": "[s] \"Good compromise, everyone.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "President, what's our plan?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Our original goal remains the same. To uncover the mystery of Decagrammaton."
+    },
+    {
+      "Name": "Himari",
+      "Text": "However, as we all well know, Decagrammaton found us first."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm still recovering from the shame. To think this could happen to me, the most brilliant and beautiful hacker in Millennium."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "(I don't think beauty has any role here.)"
+    },
+    {
+      "Name": "Himari",
+      "Text": "They know of us, but we're still at square one. It's never ideal for your enemy to be better informed than you."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Knowledge is power. We won't be able to overcome Decagrammaton without it."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have therefore come up with a new plan of attack. We will first find the prophets."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Prophets? Why the prophets?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Even if Decagrammaton is some sort of organic technology, the concept of prophets stands out as odd. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "They're neither clones nor subordinates mindlessly following Decagrammaton, but rather fervent followers with free will.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "And their names have been bothering me..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We will collect and analyze the prophets' data, and in turn learn more about this mysterious AI."
+    },
+    {
+      "Name": "Himari",
+      "Text": "There are three confirmed prophets as of now."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Binah, Chesed, and maybe...Hod."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Based on their names and Sensei's testimony, I believe them to be related to an ancient fable called the \"Tree of Life.\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "What is that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "This is the Tree of Life. It's a long-lost secret, forgotten in nearly all of Kivotos."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Forgotten? Then how do you know about it, Himari?  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "I did say nearly, didn't I? Eimi, what is my nickname?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Um... The Flower That Floats in the Septic Tank? "
+    },
+    {
+      "Name": "Himari",
+      "Text": "How many times must I tell you? \"Septic Tank\" is reserved for Rio. How can you have so little common sense?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "That's supposed to be common sense?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Anyways, I'm Millennium's Resident Genius, with a degree in omniscience. Of course I know Kivotos' secrets."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I've been meaning to ask, but.... Does a degree like that really exist?  "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I've heard some weird rumors, but I've been unable to confirm. I don't understand it. How can anyone know everything?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee. Eimi, one day you must learn how to wield the power of the people."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...That makes no sense."
+    },
+    {
+      "Text": "[s] \"So, about the prophets...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Ah. Yes, of course.  "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Sorry, Sensei. I got carried away."
+    },
+    {
+      "Name": "Himari",
+      "Text": "No, no. This one may have been my fault."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Anyways...  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Looking back at the Tree of Life..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Within it, there are ten attributes known as \"Sephiroth.\" The prophets of Decagrammaton have claimed the names of these Sephiroth."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Binah, Chesed, and Hod...  "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Wouldn't that mean there are seven more prophets? That's a lot more than we estimated.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Tree of Life symbolizes \"the road to the providence of God.\" In other words, it's about becoming a god through the ten Sephiroth...which is consistent with Decagrammaton's claims."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm still gathering more data, but...if it's confirmed to exist we can't just ignore it."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Tree of Life...Sephiroth...the road to the providence of God... To understand how these all connect, we need to secure data from the prophets."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "How do you plan on that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "The first step is to take them down."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "We only know two of the ten prophets. Hod is still unconfirmed."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We'll start where we can. We may find answers along the way."
+    },
+    {
+      "Text": "[s] \"Makes sense to me. Let's do this, team!\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Affirmative.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "If everyone is in agreement, the next mission of the Super Phenomenon Task Force is to find Binah and Chesed to secure their data."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Super Phenomenon Task Force's Decagrammaton analysis mission begins anew."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Is our first target the Abydos Desert again, President?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "We lost all our data when we were hacked."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, it is. But the data is of no concern, I've already restored most of it."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm more concerned with another issue."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "What could be more important than our data?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's Kaiser PMC. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "We don't know what or why they were excavating in the Abydos Desert."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's too much of a coincidence that it was precisely at Binah's last known sighting."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I wouldn't be surprised if Kaiser's mystery project was related to Decagrammaton. We should investigate."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You do have a point."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You plan to infiltrate Kaiser's DB? President, is that wise?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Who do you think I am, Eimi?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm Himari, the first president of Veritas and the most delicate yet beautiful girl in Millennium. I can go in and out of the DB of a private enterprise anytime I want."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...Always have to slip in the beauty comment."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Besides, they're bound to be less vigilant with PMC's data. It's not connected to Kaiser HQ.  "
+    },
+    {
+      "Name": "Himari",
+      "Text": "There's nothing to lose by trying."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I'll take your word for it, President."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "We have our mission. Our objective is to steal data from Kaiser PMC.  "
+    },
+    {
+      "Text": "[s] \"All right. Let's do this.\""
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3; รวบรวมข้อมูล 3 - เขตขุดค้น PMC"
+    },
+    {
+      "Text": "นอกเขตปกครองตนเอง มิลเลเนียม"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "สวัสดีคุณครู กำลังรออยู่เลย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ในที่สุดห้องชมรมใหม่ก็พร้อมใช้งานแล้วละ"
+    },
+    {
+      "Text": "[s] \"ห้องชมรมใหม่?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม ก็เพราะจุดยุทธศาสตร์อันก่อนถูกเดคาแกรมมาทอนเปิดโปงไปแล้วนี่นา "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถูกระบุตำแหน่งแถมยังเกือบโดนแฮ็ก อุปกรณ์ของทางฝั่งนั้นก็ถูกทำลายไปหมดจนใช้งานไม่ได้แล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เพราะแบบนั้นหัวหน้าฮิมาริก็เลยตัดสินใจหาสถานที่ใหม่"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตามที่หัวหน้าบอก ที่นั่นเป็นสถานที่ที่ปลอดภัยจากเดคาแกรมมาทอนมากที่สุดในคิโวทอส..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "นั่นแหละ รายละเอียดก็ไปฟังจากหัวหน้าเอาอีกทีนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เขตแถวนี้คนทั่วไปไม่ค่อยรู้จัก จากนี้ไปก็เดินตามฉันมาให้ดีๆ ละ"
+    },
+    {
+      "Text": "[s] \"เข้าใจแล้ว\""
+    },
+    {
+      "Text": "(จากนั้นก็เดินตามเอมิเข้าไปในซอยเปลี่ยว แล้วก็ขึ้นลิฟต์อีกหลายครั้ง ผ่านประตูลับอีกนับไม่ถ้วน\nอย่างยากลำบาก สุดท้ายก็มาถึงยังที่แห่งหนึ่ง)"
+    },
+    {
+      "Text": "ห้องชมรมปรากฏการณ์ลี้ลับ"
+    },
+    {
+      "Text": "[ns] \"ที่นี่คือ...\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้า พาคุณครูมาแล้ว ...หัวหน้า? "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...หัวหน้า? รุ่นพี่ฮิมาริ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หรือว่า...?!"
+    },
+    {
+      "Text": "[ns] \"ฮิมาริ...?!\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้า... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อะเอ๋??!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อะ... อะไรเหรอ? มีอะไรรึเปล่า?! มีอะไร... เอ๊ะ เอมิเหรอ?!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "พาคุณครูมาแล้วละ... หัวหน้า"
+    },
+    {
+      "Text": "[s] \"...หวัดดี ฮิมาริ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ่า... อืม... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "สวัสดีค่ะคุณครู กำลังรออยู่เลยค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ในที่สุดก็ได้พาคุณครูมาที่นี่แล้วสินะคะ ที่นี่คือห้องของ <ชมรมปรากฏการณ์ลี้ลับ> ของพวกเราค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ที่นี่ได้รับการป้องกันอย่างแน่นหนาด้วยไฟร์วอลล์แบบพิเศษที่ฉันคิดค้นขึ้น... หรือก็คือที่นี่ปลอดภัย\nจากเดคาแกรมมาทอนมากที่สุดในคิโวทอสค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เป็นพื้นที่ลับสุดยอดที่ตอนนี้มีเพียงแค่ฉัน เอมิ และคุณครูเท่านั้นที่รู้ว่ามีอยู่ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... เป็นยังไงบ้างคะ? เหมือนเป็นกองบัญชาการของลัทธิลับๆ เลยใช่มั้ยล่ะคะ? แล้วก็เมื่อกี้ฉันไม่ได้นอนหลับอยู่หรอกนะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้า ตรงนี้มีคราบน้ำลายด้วยนะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ทำหน้าไม่พอใจแบบนั้นฉันก็ไม่สนหรอกนะ... แล้วนี่อุณหภูมิในห้องมันสูงเกินไปจนชวนง่วงรึเปล่าน่ะ? "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อุณหภูมิในห้องควรจะอยู่ที่ 12 องศาถึงจะพอดีนะ ถ้ารู้สึกสบายขึ้นก็จะตื่นเองแหละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่สิ พูดอะไรน่ะ? ตัวเลขมันแปลกๆ รึเปล่า? เพื่อให้อยู่ในสภาพที่เหมาะสมกับการทำงานมากที่สุด เลขตัวหน้าของอุณหภูมิในห้องจะต้องเป็นเลข 3 สิคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "3 องศาเหรอ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นห้องชมรมหรือตู้เย็นกันคะ? หมายถึงเลขสองหลักสิคะ"
+    },
+    {
+      "Text": "[ns] \"คือว่า...ทุกคน...\""
+    },
+    {
+      "Text": "[ns3] \"ฝั่งหนึ่งแอร์กำลังทำงานหนักเลย...\""
+    },
+    {
+      "Text": "[ns4] \"อีกฝั่งฮีตเตอร์กำลังทำงานอย่างดุเดือดเลยนะ...\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ยอมแพ้เถอะหัวหน้า ไม่เสียดายค่าไฟเหรอ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ยอมแพ้เถอะหัวหน้า ไม่เสียดายค่าไฟเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอมินั่นแหละค่ะต้องเป็นฝ่ายยอมแพ้ ส่วนเรื่องค่าไฟน่ะยังไงก็ต้องไปทวงที่ริโอะอยู่แล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เตรียมรับมือไว้ถี่ถ้วนเลยสินะ ถ้างั้นก็เหลือทางออกเดียวแล้ว "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ? นั่นมัน?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...ไม่นะคะ ทำไมถึงเป็นแบบนั้นไปได้ล่ะ? เราควรจะแก้ปัญหาด้วยการพูดคุยกันแบบผู้มีสติปัญญา\nไม่ดีกว่าเหรอคะ?"
+    },
+    {
+      "Text": "[s] ปิดทั้งแอร์และฮีตเตอร์"
+    },
+    {
+      "Text": "[ns] \"ปรับให้อุณหภูมิอยู่ระหว่างกลางแล้ว ทั้งสองคนอดทนก่อนนะ\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...เข้าใจแล้ว ถึงจะร้อนก็จริง แต่ไม่ถึงกับทนไม่ได้ล่ะนะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...ฮึ่ม ช่วยไม่ได้นะคะ หนาวขนาดนี้ก็คงจะช่วยให้หายหัวร้อนได้บ้างละค่ะ"
+    },
+    {
+      "Text": "[s] \"...ขอบคุณนะ ทั้งสองคน\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้า ถ้าอย่างงั้นแผนการต่อไปของเราคืออะไรล่ะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เป้าหมายของเราก็คือการเปิดเผยธาตุแท้ของเจ้าเดคาแกรมมาทอน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และเพื่อการนั้นเราเลยพยายามรวบรวมข้อมูล... แต่ว่าตัวตนของพวกเรากลับถูกเปิดเผยต่อเดคาแกรม\nมาทอน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ว่าจะประมาทขนาดไหน แต่ถึงกับต้องเจอเรื่องเสียศักดิ์ศรีแบบนี้ รู้สึกเสียเกียรติในฐานะแฮ็กเกอร์\nที่แข็งแกร่งที่สุดและสาวน้อยน่ารักแห่งมิลเลเนียมเลยค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "(เรื่องนี้มันเกี่ยวกับสาวน้อยน่ารักตรงไหนล่ะเนี่ย?)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงแม้ว่าฝั่งนั้นจะรับรู้ถึงตัวตนของเราแล้ว แต่เราไม่รู้อะไรเกี่ยวกับฝั่งนั้นเลย... ตอนนี้ฝั่งเรากำลัง\nเสียเปรียบค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าหากเราไม่พลิกสถานการณ์ ฝั่งนั้นก็จะเป็นฝ่ายได้เปรียบในการต่อสู้นี้ต่อไปค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพราะแบบนั้นเราจึงต้องเปลี่ยนเป้าหมายใหม่ ต่อจากนี้การตามหา <ผู้เลื่อมใส> ของเดคาแกรมมาทอน จะเป็นเป้าหมายที่สำคัญที่สุดค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ผู้เลื่อมใสอย่างนั้นเหรอ... เข้าใจแล้ว วิธีนั้นคงจะเป็นทางลัดสินะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ ถ้านิยามว่าเดคาแกรมมาทอนเป็นสิ่งมีชีวิตเชิงสารสนเทศละก็ แนวคิดเรื่องผู้เลื่อมใสมันก็ดู\nน่าประหลาดใช่ไหมล่ะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ใช่ <ร่างโคลน> ของตัวเอง แล้วก็ไม่ใช่ <ลูกน้อง> ที่อยู่ใต้บังคับบัญชา แต่เป็น <สาวก> ที่สามารถ\nตัดสินใจและลงมือทำด้วยตัวเองได้... และยังเลือกใช้คำว่า <ผู้เลื่อมใส> "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...ก็นะ ถึงจะยังไม่รู้เหตุผลที่เรียกแบบนั้นก็เถอะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ถ้ารวบรวมข้อมูลของผู้เลื่อมใสแล้วนำมาวิเคราะห์ พวกเราก็อาจจะได้รู้เกี่ยวกับ AI ปริศนาตัวนี้มาก\nขึ้นก็ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ผู้เลื่อมใสที่ตรวจสอบได้ตอนนี้มีทั้งหมดสามคน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "<บีนาห์> <เชเซ็ด> และก็น่าจะ... <HOD>"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าให้ลองเดาจากชื่อเหล่านี้ และข้อมูลที่คุณครูบอกมา พวกนี้ทั้งหมดน่าจะเรียกว่า <ต้นไม้แห่งชีวิต> ซึ่งมีความเกี่ยวข้องกับความลับในสมัยโบราณค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ต้นไม้แห่งชีวิตเหรอ...?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นี่ก็คือ <ต้นไม้แห่งชีวิต> ที่ถูกลืมเลือนและแทบจะไม่มีใครในคิโวทอสรู้จักอีกแล้วค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่มีใครรู้จัก...? ถ้าอย่างนั้นรุ่นพี่ฮิมาริรู้จักได้ยังไงล่ะ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "โอ๊ะ? ก็แค่แทบไม่มีใครรู้จักแล้วน่ะ ไม่ใช่ไม่มีใครรู้จักแล้ว เอมิ? รู้มั้ยคะว่าฉายาของฉันคืออะไร?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม... ดอกไม้ที่ไหลไปมาอยู่ในบ่อบำบัดน้ำเสีย? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ใช่ค่ะ ถูกแค่ครึ่งหนึ่ง ส่วนหลังนั่นมันฉายาของริโอะนี่ค่ะ เอามาผสมกันมั่วๆ แบบนี้ไม่ได้นะคะเอมิ นี่เป็นความรู้พื้นฐานในคิโวทอสเลยนะ เป็นหน้าที่ของนักเรียนที่ต้องรู้นะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...ความรู้พื้นฐานเหรอ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อัจฉริยะ หรือที่เรียกว่าเจ้าของใบปริญญา 'รอบรู้' ผู้ที่รู้เกี่ยวกับทุกสิ่ง ข้อมูลแค่นี้สำหรับฉันมันหาง่าย\nเหมือนปอกกล้วยเข้าปากค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่ว่านะ ฉันสงสัยมานานแล้ว ที่มิลเลเนียมมีปริญญาสาขานั้นจริงๆ เหรอ? "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เคยได้ยินข่าวลือมาบ้างก็จริง แต่ไม่เคยได้ยินว่ามีปริญญาสาขานั้นด้วย ผู้ที่รู้เกี่ยวกับทุกสิ่งนี่มัน... เป็นชื่อที่ยิ่งใหญ่ไปหน่อยรึเปล่า"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... การจะสร้างภาพลักษณ์ในโลกแบบนี้ ในบางสถานการณ์ประชานิยมก็เป็นเรื่องที่จำเป็นนะคะ เอมิ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "..."
+    },
+    {
+      "Text": "[s] \"คือ... ทุกคน เรากลับเข้าเรื่องกันดีมั้ย\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ่า... ได้ค่ะ "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ขอโทษทีนะ คุณครู ถูกหัวหน้าพาออกนอกเรื่องอีกแล้ว"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ใช่นะคะ ที่ถูกพาออกนอกเรื่องน่ะคือฉันต่างหาก"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอาเถอะ... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "กลับเข้าเรื่องเลยแล้วกันนะคะ เอาละ ถ้าดูตรงนี้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ที่ <ต้นไม้แห่งชีวิต> มีสิ่งที่เรียกว่า <เซฟีรอธ> สถิตอยู่ทั้งหมด 10 อย่าง และผู้เลื่อมใสของเดคาแกรมมาทอนก็ใช้ชื่อตามเซฟีรอธเหล่านี้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "<บีนาห์> <เชเซ็ด> <HOD> ทั้งหมดเป็นชื่อของเซฟิร่า "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แสดงว่ายังมีผู้เลื่อมใสที่เรายังหาไม่เจออีก 7 คนอย่างงั้นเหรอ? ยังมีอีกเยอะขนาดนั้นเลย... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ต้นไม้แห่งชีวิตคือสัญลักษณ์แทน <เส้นทางไปสู่พระเจ้า> หรือก็คือจะเป็นพระเจ้าได้โดยใช้เซฟีรอธทั้ง 10 สอดคล้องกับภารกิจของเดคาแกรมมาทอน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะเป็นแนวคิดเชิงไสยศาสตร์ที่ไม่เข้าใจเลยสักนิด... แต่เราก็ปล่อยข้อมูลพวกนี้ไปเฉยๆ ไม่ได้ นอกจากว่าจะไปดูให้เห็นด้วยตาของตัวเองก่อน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ต้นไม้แห่งชีวิต... เซฟีรอธ... เส้นทางไปสู่พระเจ้า... ถ้าจะหาความหมายของสิ่งเหล่านี้... เราก็จำเป็นต้องหาข้อมูลที่แน่ชัดเกี่ยวกับผู้เลื่อมใสทั้ง 10 ค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หาข้อมูลที่แน่ชัด...? แล้วมันต้องทำยังไงล่ะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็ต้องเผชิญหน้ากับพวกเขาด้วยตัวเองไงคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม... อย่างนั้นสินะ แต่ว่าผู้เลื่อมใสที่เรารู้จักมีแค่สองคน และที่เกี่ยวกับ HOD ก็ยังเป็นแค่การคาดเดา\nเท่านั้น"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นสินะคะ แต่ว่า... เราต้องทำเท่าที่เราทำได้ไปก่อน ระหว่างนั้นอาจจะเจอหนทางใหม่ก็ได้"
+    },
+    {
+      "Text": "[s] \"เข้าใจแล้วละ ถ้างั้นก็มาเริ่มกันเลยเถอะ\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม ฉันเองก็ไม่คัดค้านอะไร "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ถ้างั้นภารกิจต่อไปของชมรมปรากฏการณ์ลี้ลับก็คือการค้นหาข้อมูลเกี่ยวกับ <บีนาห์> และ <เชเซ็ต> สินะคะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปฏิบัติการวิเคราะห์เดคาแกรมมาทอนของ <ชมรมปรากฏการณ์ลี้ลับ> เริ่มต้นอีกครั้งแล้วละค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "งั้นเป้าหมายต่อไปก็คือทะเลทรายอะบิดอสเหรอ? หัวหน้า?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ข้อมูลที่รวบรวมได้จากทะเลทราย... สูญหายไปหมดแล้วตอนที่พยายามจะป้องกันการถูกแฮ็กด้วยการ\nทำลายเครื่องคอมพิวเตอร์นี่นา"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็ใช่ แต่ว่าแค่นั้นสามารถกู้คืนได้อยู่แล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันมีเรื่อง... ที่ต้องกังวลมากกว่านั้นอยู่น่ะค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อะไรเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็คือ PMC ไคเซอร์ค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พวกนั้นจะต้องกำลังขุดค้นอะไรบางอย่างอยู่ที่ทะเลทรายอะบิดอสแน่นอน แม้ว่าเราจะไม่รู้ตัวตน หรือเป้าหมายของพวกนั้นเลยก็ตาม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่การที่ทำแบบนั้นตรงสถานที่ที่บีนาห์เคยปรากฏตัวขึ้นก็น่าสงสัยมากพอแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "บางทีพวกนั้นอาจเกี่ยวข้องกับเดคาแกรมมาทอนก็ได้ อย่างน้อยพวกเราก็ควรไปตรวจสอบสักครั้งค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฮึ่ม นั่นสินะ อาจจะเป็นแบบนั้นก็ได้"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หมายความว่าจะแทรกแซงเข้าไปใน DB ของธุรกิจไคเซอร์ใช่มั้ย? หัวหน้า ทำแบบนั้นได้เหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอมิคิดว่าฉันเป็นใครกันคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันคือฮิมาริ อดีตหัวหน้าชมรม <เวอริทัส> สาวน้อยแสนน่ารักที่ขี้โรคที่สุดแห่งมิลเลเนียม แค่ธุรกิจเล็กๆ อย่าง DB ฉันสามารถแทรกแซงเข้าไปได้ง่ายเหมือนเดินเข้าบ้านเลยค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...แล้วมันเกี่ยวกับสาวน้อยน่ารักขี้โรคตรงไหนล่ะเนี่ย?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และเป้าหมายของเราก็คือบันทึกของ PMC ไม่ใช่สำนักงานใหญ่ของไคเซอร์ การป้องกันจะต้อง\nหละหลวมกว่าแน่ๆ... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะไม่สำเร็จก็ไม่เสียหายอะไร มันคุ้มค่าที่จะลองดูนะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อืม... ถ้าหัวหน้าคิดแบบนั้นละก็"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้างั้นก็ลงมือปฏิบัติการกันเลย เป้าหมายคือการโจรกรรมข้อมูลจาก PMC ไคเซอร์ "
+    },
+    {
+      "Text": "[s] \"เอาละ งั้นก็ลุยกันเลย\""
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第4話;蒐集情報(3)PMC挖掘區域"
+    },
+    {
+      "Text": "千年自治區・外圍地區"
+    },
+    {
+      "Name": "英美",
+      "Text": "你好，老師。我正在等你。"
+    },
+    {
+      "Name": "英美",
+      "Text": "新的部室總算準備好了。"
+    },
+    {
+      "Text": "[s] 「新部室？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯。你還記得之前作戰時使用的地方，被十字神名入侵了吧？"
+    },
+    {
+      "Name": "英美",
+      "Text": "除了位置已經暴露，差點遭到駭入之外，當時的設備也全都損壞，沒辦法再用了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以陽葵部長下定決心，準備了新的地點。"
+    },
+    {
+      "Name": "英美",
+      "Text": "雖然部長說那裡是整個奇普托斯，面對十字神名最安全的地方……"
+    },
+    {
+      "Name": "英美",
+      "Text": "詳細情形還是直接聽部長說明比較好吧。"
+    },
+    {
+      "Name": "英美",
+      "Text": "因為是個對外保密的區域，接下來請跟緊我哦。"
+    },
+    {
+      "Text": "[s] 「麻煩你了。」"
+    },
+    {
+      "Text": "（跟在英美後面進入迷宮般的小巷、轉乘無數次電梯、通過無數個隱藏門之後……\n　總算抵達了那個地方）"
+    },
+    {
+      "Text": "特異現象搜查部・部室"
+    },
+    {
+      "Text": "[ns]「這裡是……」"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長，我把老師帶來了。\n……部長？"
+    },
+    {
+      "Name": "英美",
+      "Text": "……部長？陽葵部長？"
+    },
+    {
+      "Name": "英美",
+      "Text": "莫非……！？"
+    },
+    {
+      "Text": "[ns] 「陽葵……！？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呀啊啊啊──！？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "怎，怎麼了？發生什麼事了！？\n咦，英美……！？"
+    },
+    {
+      "Name": "英美",
+      "Text": "……我把老師帶來了哦，部長。"
+    },
+    {
+      "Text": "[s] 「……早安，陽葵。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，嗯……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……您好，老師。恭候多時了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "終於能向老師介紹了呢……我們「特異現象搜查部」的新部室。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這裡被我所發明的特殊防火牆系統保護，是奇普托斯面對十字神名最安全的地方。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "目前為止只有我、英美和老師知道這個地點，是連存在本身都極度機密的空間。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵呵……感覺如何呢？簡直就像神祕邪教組織的據點對吧？\n順帶一提，剛才我並沒有在睡覺。"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長，你嘴邊還有口水。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "英美",
+      "Text": "就算用那種表情看我也沒用啊……\n是不是因為把房間溫度調得這麼高才會想睡？"
+    },
+    {
+      "Name": "英美",
+      "Text": "室內舒服的溫度大約是12度左右，而且環境涼快一點的話應該也會比較清醒吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不對，這數字顯然有問題吧？\n為了讓我在最佳狀態下工作，室溫必須是由「3」開頭的數字才對。"
+    },
+    {
+      "Name": "英美",
+      "Text": "3度？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這裡對你來說難道是冰箱嗎？當然是二位數囉。"
+    },
+    {
+      "Text": "[ns] 「那個……兩位……」"
+    },
+    {
+      "Text": "[ns3] 「一邊狂開冷氣……」"
+    },
+    {
+      "Text": "[ns4] 「一邊狂開暖氣……」"
+    },
+    {
+      "Name": "英美",
+      "Text": "快放棄吧部長。這樣很浪費電費的哦？"
+    },
+    {
+      "Name": "英美",
+      "Text": "快放棄吧部長。這樣很浪費電費的哦？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "英美才應該放棄吧。\n順帶一提，電費預計會向莉央申請，所以不用擔心。"
+    },
+    {
+      "Name": "英美",
+      "Text": "真頑固。那剩下的手段就只有……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嗯？什麼？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……不不不，你為什麼又得出了那個結論呢？\n這種時候難道不該像個文明人，好好坐下來用對話解決問題嗎？"
+    },
+    {
+      "Text": "[s] 關掉冷氣和暖氣的電源"
+    },
+    {
+      "Text": "[ns] 「我調整成折衷的溫度了，麻煩你們兩位稍微忍耐一下吧。」"
+    },
+    {
+      "Name": "英美",
+      "Text": "……好吧。\n雖然熱，不過也沒到無法忍受的程度。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……沒辦法了。\n這種程度的寒冷，或許也有助於維持頭腦清醒吧。"
+    },
+    {
+      "Text": "[s] 「……謝謝你們。」"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長，下一次的作戰計畫是什麼呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……我們的目標是找出十字神名的真面目。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然為此蒐集了不少情報……結果卻反而被十字神名發現了我們的存在。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "儘管是因為一時大意，居然受到了這種恥辱……\n我身為千年最強駭客，以及美少女的名譽受到了巨大的傷害。"
+    },
+    {
+      "Name": "英美",
+      "Text": "（跟美少女沒關係吧……？）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對方已經對我們有所察覺，而我們卻完全不清楚對方的身分……\n如今的狀況對我們並不樂觀。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不先設法扭轉這個情況的話，這場戰鬥只會永遠被對方的節奏牽著走……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "因此，我打算對目標進行修正，將找出十字神名的「預言者」列為最優先的事項。"
+    },
+    {
+      "Name": "英美",
+      "Text": "預言者……我懂了。\n跟直接找出十字神名相比，這的確可能是捷徑呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯。而且如果將十字神名定義為「情報生命體」，\n那麼「預言者」這個概念就有顯得有些違和了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "並非自身的「克隆」，也不是執行命令的「部下」──\n而是獨立做出判斷與行動的「追隨者」……甚至還用上了「預言者」這個詞。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……雖然如此命名的原因，目前也還不得而知就是了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過藉由對預言者進行調查，我們想必可以更了解那個身分不明的AI吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "目前為止觀測到的預言者一共有三名。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "「薇娜」、「赫賽德」……或許就連「霍德」也是。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "從這些名字與老師的證言來看，\n我推測它們與名為「生命之樹」的古代密儀有所關聯。"
+    },
+    {
+      "Name": "英美",
+      "Text": "生命之樹……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這就是「生命之樹」。\n是現今的奇普托斯幾乎無從得知、被人遺忘的密儀之一。"
+    },
+    {
+      "Name": "英美",
+      "Text": "幾乎無從得知……？\n那陽葵前輩為什麼知道呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，「幾乎」無從得知，並不代表那是「絕對」不可能的呀。\n英美，你知道我的別名嗎？"
+    },
+    {
+      "Name": "英美",
+      "Text": "……漂浮在化糞池的一朵花？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不不不，你只說對了一半。\n前半部分是莉央的別名才對。把別名隨便混在一起是不行的，英美。\n這是奇普托斯的常識，也是身為學生的本分。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……有那種常識嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對於身為天才，擁有無所不知的「全知」學位的我而言，這種程度根本不算什麼。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……嗯。"
+    },
+    {
+      "Name": "英美",
+      "Text": "這麼說來，我以前就很好奇了。\n千年真的有那個學位嗎？"
+    },
+    {
+      "Name": "英美",
+      "Text": "我一直都只在傳聞裡聽過，但不曉得實際上到底有沒有那個學位。\n無所不知……想想還真是誇張的名字呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "唔呵呵……這世上有很多營造形象的重要時刻唷，英美。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……"
+    },
+    {
+      "Text": "[s] 「那個……兩位，我們是不是該進入正題了？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，嗯……"
+    },
+    {
+      "Name": "英美",
+      "Text": "抱歉，老師。\n又被部長的節奏帶著走了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不不不，被帶走節奏的是我才對。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我們言歸正傳吧。來，請看這邊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個「生命之樹」之中，一共存在10個名為「質點」的屬性。\n而十字神名的預言者們，則被冠上了這些質點之名。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "「薇娜」、「赫賽德」、「霍德」……全都是出自質點的名字。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以我們不知道的預言者還有七個是嗎？\n居然這麼多啊……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "生命之樹似乎象徵著「通往神之天理的道路」。\n經由10個質點成為神……這和十字神名的主張是一致的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然這已經是令人不明所以的神祕學的領域……\n但既然我們已親眼確認其存在的事實，就無法對這個情報視而不見。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "「生命之樹」、「質點」、「通往神之天理的道路」……\n想得知它們所代表的意義，就必須掌握這10個「預言者」的情報。"
+    },
+    {
+      "Name": "英美",
+      "Text": "掌握情報……？\n該怎麼做呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "直接與它們進行接觸。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯……我想也是。\n但是目前掌握的預言者只有兩個，而「霍德」甚至還只是推測而已。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "確實如此，不過……現在也只能從能做的事開始著手了。\n或許在過程中可以找到其他方法也說不定。"
+    },
+    {
+      "Text": "[s] 「說的也是。那就趕緊開始吧。」"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，我沒有異議。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "好的，那麼下一個任務就是找出「薇娜」和「赫賽德」，並確保它們的資料……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "「特異現象搜查部」的十字神名分析作戰，再次啟動。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以下一個目標又是阿拜多斯砂漠嗎，部長？"
+    },
+    {
+      "Name": "英美",
+      "Text": "之前在沙漠蒐集到的情報……都在為了阻止駭入而破壞電腦的時候消失了對吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的，不過那種程度要復原不成問題。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "與其說是這個原因……應該說有件事讓我有點在意。"
+    },
+    {
+      "Name": "英美",
+      "Text": "是什麼事？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那就是凱薩PMC。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我記得他們正在阿拜多斯砂漠試圖挖掘出某樣東西。\n雖然完全不清楚那究竟是什麼，也不明白這麼做的目的……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "然而在薇娜出現的地點做那種事情本身就相當可疑。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "或許他們會和十字神名有關聯。\n所以我想再對那附近進行一次搜索。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，聽起來確實挺有道理的。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以我們是要入侵凱薩的資料庫囉？\n部長，這麼做沒問題嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "你忘記我是什麼人了嗎，英美？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我可是「貝里塔斯」的前部長，也是千年最優秀的病弱美少女陽葵。\n要不留痕跡地出入私人企業的資料庫，對我而言根本是易如反掌。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……病弱美少女的部分跟這件事有關係嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對方也不是凱薩總公司而是PMC，安全等級只會更低……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "即便失敗也不會有損失，我認為非常值得一試。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯……好吧。既然部長都這麼說了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "那麼再次出發吧。\n目標是凱薩PMC所擁有的「情報」。"
+    },
+    {
+      "Text": "[s] 「好，出發。」"
+    }
+  ]
+}

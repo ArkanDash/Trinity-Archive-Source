@@ -1,0 +1,3277 @@
+{
+  "TitleJP": "衝突（１）",
+  "TitleKR": "충돌 1",
+  "TitleEN": "Collision 1",
+  "TitleTH": "ปะทะ 1",
+  "TitleTW": "衝突（１）",
+  "DescJP": "カンナと生活安全局の手によって、助けられた先生。先生が囚えられている間に起こった連邦生徒会を取り巻く環境について教えてもらいながら、一行は外を目指す――その一方、リンの招集により集まった各自治区の生徒たちは、先生の不在により連邦生徒会に対しての不満を募らせ……そんな中、リンに対しての不信任決議案が可決してしまう。",
+  "DescKR": "칸나의 도움을 받아 감옥에서 탈출하는 선생님. 잠시 한숨을 돌린 뒤, 칸나는 선생님이 납치당한 이후 어떠한 일들이 일어났는지 설명한다.",
+  "DescEN": "Sensei escapes from prison with Kanna's help. After a brief rest, Kanna explains what happened while Sensei was under lock and key.",
+  "DescTH": "คุณครูหลบหนีออกจากคุกได้ด้วยความช่วยเหลือของคันนะ หลังจากพัก\nหายใจกันสั้นๆ คันนะก็อธิบายเหตุการณ์ที่เกิดขึ้นหลังจากที่คุณครูได้ถูก\nลักพาตัวไป",
+  "DescTW": "老師在環奈的協助下逃出了監牢。稍微喘了一口氣後，環奈開始說明老師被綁架後發生的事情。",
+  "DialogJP": [
+    {
+      "Text": "第9話;衝突（１）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……あちらとはどのように……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "戒厳令が……しかし、連邦生徒会は……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……ヴァルキューレは……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ジェネラルから連絡……あとは……"
+    },
+    {
+      "Text": "[ns1] \"…………。\""
+    },
+    {
+      "Text": "[ns2] 目を開ける。"
+    },
+    {
+      "Text": "[ns3] （シッテムの箱が見当たらない……） "
+    },
+    {
+      "Text": "[ns4] （持って行かれてしまったのだろうか）"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士",
+      "Text": "……まだ待機中だ。\nあの箱、ハッキングどころか電源すら入らないと聞いた。"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士",
+      "Text": "本社のデータセンターが接続を試したところ、\n8社がシャットダウンしたらしい。"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士",
+      "Text": "残された手段は、あの先生だけか。"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士",
+      "Text": "……あ？今、銃声が聞こえなかったか？"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "銃声？"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士",
+      "Text": "おい、上だ！"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "行くぞ！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "はぁ……はぁ……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ご無事ですか？\n[USERNAME]先生。"
+    },
+    {
+      "Text": "[ns] （この声は……）"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ご無事で何よりです。\nここを見つけるのにかなり苦労しましたが……諦めなくてよかった。"
+    },
+    {
+      "Text": "[s] \"カンナ……！？\" "
+    },
+    {
+      "Name": "カンナ",
+      "Text": "――ああ。私のような三流悪党のことを、覚えていてくださりましたか。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "今開けますので少々お待ちを……ゴホッ、ゴホッ。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……くっ｡"
+    },
+    {
+      "Text": "[s] \"カンナ､その傷は……\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "これは……大したものではありません、お気になさらず。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "はぁ、ふぅ……さあ、お手をどうぞ。"
+    },
+    {
+      "Text": "[ns] 檻から出る。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "聞きたいことは色々とあるかと思いますが、まずはここから出るのが最優先です。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "私の後に続いてください。"
+    },
+    {
+      "Text": "[ns] ついて行く。"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士A",
+      "Text": "なっ、何だ！？"
+    },
+    {
+      "Name": "ヴァルキューレに偽装したPMC兵士B",
+      "Text": "ぐはっ！？"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "こいつらは、ヴァルキューレの生徒に変装したPMC兵です……ゴホッ、ゴホッ。"
+    },
+    {
+      "Text": "[s] \"そうだね。私もさっき知ったところ……ここは……？\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "D.U.に位置した、ヴァルキューレ第3分校です。\n予算の都合で新入生合宿に使われていた建物ですが……"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "いつの間にか、カイザーの手に渡っていたようです。"
+    },
+    {
+      "Text": "[s] \"カイザー……\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "おそらく、ヴァルキューレ内部に協力者がいるのでしょう。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "カイザーがどこまでヴァルキューレに魔の手を伸ばしているのか、\n私にも分かりかねますが…… "
+    },
+    {
+      "Name": "カンナ",
+      "Text": "原因の一端は、私のような堕落した警察が居たからでもありましょう。"
+    },
+    {
+      "Text": "[s] \"……カンナ。\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……信号を送ったので、あとは裏門に向かうだけです。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "封鎖されたD.U.から脱出できるルートをご用意しました。"
+    },
+    {
+      "Text": "[s5] \"封鎖……脱出……？\""
+    },
+    {
+      "Text": "[s6] \"一体何があったの？\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……行きましょう。"
+    },
+    {
+      "Text": "[ns] ついて行く。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "これは……ここで落ち合う予定でしたが、もう警備が強化されていますね……"
+    },
+    {
+      "Name": "PMC兵士A",
+      "Text": "誰だ！！"
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "こっちだ、撃て！！"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "くっ……！先生、危険です！"
+    },
+    {
+      "Text": "[ns] \"カンナ！！\""
+    },
+    {
+      "Name": "PMC兵士A",
+      "Text": "ぐはっ！？ "
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "援軍が、まだ……いたとは……。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "先生！大丈夫ですか！？"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "うう……らしくない事しちゃった、どうしてこんなことに……"
+    },
+    {
+      "Text": "[s7] \"キリノ！フブキ！！\""
+    },
+    {
+      "Text": "[s8] \"生活安全局、来てくれたんだ！\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "はぁ……はぁ……なんとか、間に合ったか。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "み、見ました！？本官の完璧でパーフェクトな射撃――あれ、カンナ公安局長！？"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "あちゃー、だいぶ痛そうだね……大丈夫？"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "気にするな。お前らの荷物になるつもりは無い。\n退路でも確保しておけ。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "分かりました！では先生、本官とフブキの後に続いてください！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "敵にはまだバレてないみたいだし、狂犬――いや、カンナ局長も気を付けてついてきてね。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "すごい警戒態勢です……うぅ。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "はぁ……はぁ……ちょっと、まて……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "キリノ、局長がちょっと辛そう。\n少しスピードを落とそう。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "あっ、し、失礼しました！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "休憩しよっか。あっちの建物に入ろう。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "はい、行きましょう。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "ここなら安全かと。 "
+    },
+    {
+      "Name": "フブキ",
+      "Text": "でも時間が無いね。休んだらすぐに移動しないと。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ここは……はぁ……はぁ……。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "カンナ局長…… "
+    },
+    {
+      "Name": "フブキ",
+      "Text": "何で似合わないことなんかしたのさ。\n公安局長らしく取り調べでもしてればよかったのに……わざわざこんなとこまで来てさぁ……"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "責任を、転嫁するわけにはいかなかった……"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "ま、そんな事だろうとは思ったけど。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "利害関係が複雑に絡み合った、この状況下で……\n部下に、規律を無視してついてこいと……言えるわけがないだろう。"
+    },
+    {
+      "Text": "[s] \"私がいない間に、一体何があったの？\""
+    },
+    {
+      "Name": "キリノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "それは……"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……6時間前、カイザーPMCが連邦生徒会を襲撃しました。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "カイザーPMCを指揮する高位指揮官……通称「ジェネラル」は、行政委員会を解散させ、サンクトゥムタワーを掌握。D.U.全域に戒厳令を敷きました。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "D.U.を行き来する交通網・通信網は全て遮断され、\nヴァルキューレを含む他の機関も行政権を失い、命令を待っている状態となり……"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "現在のD.U.の治安は、戒厳令を通じてPMCが掌握しています。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "私が、こうして先生を連れ出してカイザーPMCに敵対している今の状態は、\n組織の命令に背いているも同然という事です。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "生活安全局の生徒は治安維持の組織ではないため、\n「偶然鉢合わせた上官の命令に従った」と言えば、責任を問われることはないでしょう。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "ほ、本官はそんなこと気にしません！\n正義のためには、この程度――"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "お前らが居なくなったら、キヴォトスの交通整理は？\n生活に困った市民はどうなる？"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "各々が持つ能力や立場が異なる以上、負うべき責任もまた、違う。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "私の任務にお前らを巻き込んだことは……後で改めて詫びさせてくれ。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "……ま、私はマスタードーナッツのグレーズド・ドーナッツをひと箱で十分かな。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ドーナッツなら好きなだけ持っていくといい。公安局のオフィスに山ほどある。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "本題に戻ります。\n先生が行方不明になってからの事ですが―― "
+    },
+    {
+      "Name": "カンナ",
+      "Text": "行政官が「非常対策委員会」を設立。\n各自治区の代表を招集したことは既にご存じだと思います。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "そこに先生も出席される予定でした。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "しかし直後……シャーレから出発したはずの先生の行方が分からなくなり……"
+    },
+    {
+      "Name": "リン",
+      "Text": "どうですか？"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "ダメ。どこにも見当たらない。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "リン先輩……"
+    },
+    {
+      "Name": "リン",
+      "Text": "……分かりました。モモカは引き続き先生の行方を追ってください。\n手段は問いません。必ず、見つけてください。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "分かった～\nやってみるね……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "非常対策委員会の招集を取りやめる事はできませんので、予定通り進めます。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "先輩……防衛室のカヤさんとも、連絡が取れません……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……アビドスは急用で欠席とのことです。\nミレニアムのリオさんからも返事は無く……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "シャーレの先生が出席すると聞いて招集に応じた方もいるというのに……\nこのままでは……"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "先生不在のまま、非常対策委員会は設立されるも――"
+    },
+    {
+      "Name": "リン",
+      "Text": "……以上が、キヴォトス全域に出現した、超高濃度エネルギー体現象の全貌です。"
+    },
+    {
+      "Name": "リン",
+      "Text": "アビドス砂漠、D.U.近郊の廃墟化した遊園地、ミレニアム郊外の閉鎖地域、トリニティとゲヘナの境界付近、ミレニアム近郊の新しい都市……\nそしてD.U.のサンクトゥムタワー。"
+    },
+    {
+      "Name": "リン",
+      "Text": "この現象を解明するためには、各自治区の協力が必要不可欠です。\n何卒ご協力のほど、よろしくお願いします。"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "その前に一つ。先生はどちらにいらっしゃるのでしょうか？\n「シャーレ」も、この非常対策委員会に参加すると伺ったのですが。"
+    },
+    {
+      "Name": "リン",
+      "Text": "そ、それは……"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "本件以上に急を要する案件で、「シャーレ」と話し合わなくてはなりません。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "急を要する案件……サクラコさん、それはどのような？"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "それは……ここでお話するには、少し……"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "シスターフッドは、まだ何か私たちに隠し立てしている事があるというのですか！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "私たちも、先生に伝えたいことがある。本件と密接に関係することだ。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あの子、寝てるけど大丈夫？\nセイアちゃんが発言してるのに、眠くなるなんてことある？"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "マコト先輩、起きてください……今、みんな先輩に注目してます……。"
+    },
+    {
+      "Name": "マコト",
+      "Text": "キキキッ……寝ているわけではない。子守歌未満の騒ぎが不愉快だっただけだ。"
+    },
+    {
+      "Name": "イブキ",
+      "Text": "ねえ～、これいつ終わるの？\nイブキ、朝ごはん食べてないし、お腹すいた……"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "へえ、子守歌……？\nじゃあ、私がもっと深い眠りに――"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ミカ、座ってくれ。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あははっ、これは椅子を引こうとしただけ☆"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "お待ちください、まだお返事を聞けておりません。\n先生はどちらにいらっしゃるのですか？"
+    },
+    {
+      "Name": "マコト",
+      "Text": "聞いても無駄だ。どうせ連邦生徒会が匿ってるんだろう！\nつまり、この会は意味が無いってことだ！ "
+    },
+    {
+      "Name": "マコト",
+      "Text": "これは連邦生徒会の陰謀だ！\nこの程度の目論見も見抜けず、学園の頂点に君臨する者と言えるのか？キキキッ。"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "ああもう、先輩が余計なこと言うから、事態がややこしく……"
+    },
+    {
+      "Name": "リン",
+      "Text": "皆さん……お静かに願います。\n先生の行方は、私たちも現在探している最中です。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "行方を探している……？\n先生が姿を消したということでしょうか。"
+    },
+    {
+      "Name": "マコト",
+      "Text": "これ以上の議論は無意味。\n相手がシャーレならばまだしも、連邦生徒会と話すことなんぞ無い。イロハ、イブキ、サツキ！帰るぞ！"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "えっ？ま、待ってください……！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……たしかにこの状況、不審な点が少なくなりません。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そうですね。私たちの方でも現状を分析しましょうか、セイアさん、ミカさん。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……これは、どうにも協力できる状況ではなさそうだね。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "待て！プリンが無いじゃないかプリンが！\nおいらがわざわざこんな所まで出向いたというのに！"
+    },
+    {
+      "Name": "親衛隊",
+      "Text": "会長、学園から緊急連絡が。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……なにっ、クーデターだと！？\nおいらが席を外している間に！ "
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "今度は「真冬の乾布摩擦連盟」？そんな連盟なんてあったか……？\nまぁいい！トモエ、帰るぞ！クーデターの鎮圧だ！"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……はぁ、なかなかそう簡単にはいきませんね……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "これ、いつまでやるの……？"
+    },
+    {
+      "Name": "リン",
+      "Text": "……次の会議はどちらの学園でしょう？"
+    },
+    {
+      "Name": "連邦生徒会の行政官",
+      "Text": "はい、次は――"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "――次は無いわ。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "！！"
+    },
+    {
+      "Name": "アユム",
+      "Text": "ざ、財務室長……！"
+    },
+    {
+      "Name": "リン",
+      "Text": "アオイ……。"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "防衛室長が行方不明になったの。\nこの「非常対策委員会」によって、誰よりも権限を侵害される者が……\nよりにもよってこのタイミングで。"
+    },
+    {
+      "Name": "リン",
+      "Text": "それは……"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "そして、シャーレの先生まで行方不明に。\nねえ……偶然にしては出来過ぎていると思わない？"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "SRTの解体後に生まれた空白を、PMCで埋め合わせようとしたことも確認したわ。\n無記名で取引されていたけれど、帳簿から追跡すればすぐに分かる。"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "私設企業に連邦生徒会の権力を分け与える計画……\nこれがあなたの狙いなのかしら？"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "リン行政官――あなたが裏で糸を引いていたの？\nどこから、あなたの計画だったのかしら。\nSRTの解散？シャーレの樹立？それとも――"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "――連邦生徒会長の失踪？"
+    },
+    {
+      "Name": "リン",
+      "Text": "私は……"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "ごめんなさい、リン先輩。\n――ここまでにしましょう。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "そ、それは…… "
+    },
+    {
+      "Name": "アオイ",
+      "Text": "あなたの不信任決議案よ。\n行政委員会の過半数である6人が、リン行政官の不信任に同意したわ。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……！"
+    },
+    {
+      "Name": "アオイ",
+      "Text": "こっちは正式に発効された命令書。\n先輩の行政命令は、再信任投票があるまで、すべて停止される事になる。"
+    },
+    {
+      "Text": "次回;衝突（２）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;충돌 1"
+    },
+    {
+      "Name": "???",
+      "Text": "……그쪽은 어떻게……"
+    },
+    {
+      "Name": "???",
+      "Text": "계엄령이…… 하지만…… 총학생회에선……."
+    },
+    {
+      "Name": "???",
+      "Text": "……발키리는……."
+    },
+    {
+      "Name": "???",
+      "Text": "제너럴에게서 연락……. 그리고……."
+    },
+    {
+      "Text": "[ns1] \"……………………….\""
+    },
+    {
+      "Text": "[ns2] 눈을 뜬다."
+    },
+    {
+      "Text": "[ns3] (싯딤의 상자가 보이지 않는다…….)"
+    },
+    {
+      "Text": "[ns4] (설마 적들이 가져가 버린 걸까…….)"
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사",
+      "Text": "……아직 대기 중이야. 그 상자라는 거, 아예 해킹은커녕 전원을 켜는 것 자체가 불가능하다던데."
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사",
+      "Text": "접속을 시도했다가 본사의 데이터 센터 8개가 셧다운됐다고 해."
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사",
+      "Text": "그럼 이제 남은 방법은 저 선생뿐인가……."
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사",
+      "Text": "……응? 방금 총소리 못 들었어?"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "총소리?"
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사",
+      "Text": "이런. 위쪽이야!"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "가보자!"
+    },
+    {
+      "Name": "???",
+      "Text": "하아…… 하아……."
+    },
+    {
+      "Name": "???",
+      "Text": "무사하십니까, [USERNAME] 선생님……?"
+    },
+    {
+      "Text": "[ns] (이 목소리는…….)"
+    },
+    {
+      "Name": "칸나",
+      "Text": "다행입니다…… 이곳을 찾아내느라 꽤나 고생했지만…… 보람이 있군요."
+    },
+    {
+      "Text": "[s] \"칸나……!?\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "절 기억하고 계시군요. 저 같은 삼류 악당은 당연히 잊어버리셨을 줄 알았는데……"
+    },
+    {
+      "Name": "칸나",
+      "Text": "기다리십시오. 지금 열어드리겠습니다……. 쿨럭, 쿨럭……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "……크윽."
+    },
+    {
+      "Text": "[s] \"칸나, 그 상처는 대체…….\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "이 상처 말입니까……? 별것 아닙니다. 신경 쓰지 마십시오."
+    },
+    {
+      "Name": "칸나",
+      "Text": "하아, 하아…… 됐습니다. 자, 나오십시오."
+    },
+    {
+      "Text": "[ns] 감옥 밖으로 나간다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "이쪽입니다. 선생님. ……묻고 싶은 게 많으시겠지만 일단 안전한 곳으로 간 뒤에."
+    },
+    {
+      "Name": "칸나",
+      "Text": "저를 따라오십시오."
+    },
+    {
+      "Text": "[ns] 따라간다."
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사 A",
+      "Text": "뭐, 뭐야?!"
+    },
+    {
+      "Name": "발키리로 위장한 PMC 병사 B",
+      "Text": "크윽?!"
+    },
+    {
+      "Name": "칸나",
+      "Text": "이 녀석들은 발키리 학생들이 아닙니다. 변장한 PMC 병사들입니다…… 쿨럭, 쿨럭……."
+    },
+    {
+      "Text": "[s] \"그건 알고 있어. 그런데 여기는…….\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "D.U.에 위치한 발키리 경찰학교의 제3분교입니다. 예산 부족으로 인해 발키리의 신입생 수련회 때나 쓰던 건물인데……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "어느새인가 카이저 코퍼레이션의 수중에 넘어가 있었던 것 같습니다……."
+    },
+    {
+      "Text": "[s] \"카이저가…….\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "분명 발키리 내부자의 도움이나 방관이 있었겠죠."
+    },
+    {
+      "Name": "칸나",
+      "Text": "발키리 조직 내부에 카이저 그룹이 어디까지 손을 뻗치고 있는지는 저도 알지 못하지만……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "그 원인은…… 말하자면 저 같이 타락한 경찰들이 존재하고 있었기 때문이겠죠."
+    },
+    {
+      "Text": "[s] \"………칸나.\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "……됐습니다. 신호는 보냈고, 이제 건물의 후문으로 가시면 됩니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "봉쇄된 D.U.를 탈출할 수 있는 방편을 마련해 두었습니다."
+    },
+    {
+      "Text": "[s5] \"탈출……? 봉쇄라니……?\""
+    },
+    {
+      "Text": "[s6] \"대체 무슨 일이 있었던 거야?\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "……가시죠."
+    },
+    {
+      "Text": "[ns] 따라간다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "……낭패군요. 이미 경계가 강화되었나. 이쪽에서 만나기로 했는데……."
+    },
+    {
+      "Name": "PMC 병사 A",
+      "Text": "누구냐!!"
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "여기다! 찾았어! 쏴라!!"
+    },
+    {
+      "Name": "칸나",
+      "Text": "큭! 위험합니다, 선생님!"
+    },
+    {
+      "Text": "[ns] \"칸나!!\""
+    },
+    {
+      "Name": "PMC 병사 A",
+      "Text": "크, 크윽?!"
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "지, 지원이 더 있었……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "선생님! 괜찮으세요?!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "으으…… 나답지 않게 이게 무슨 일이람, 대체."
+    },
+    {
+      "Text": "[s7] \"키리노! 후부키!!\""
+    },
+    {
+      "Text": "[s8] \"생활안전국이 와줬구나!\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "하아…… 하아…… 다행히 시간에 맞춰왔군."
+    },
+    {
+      "Name": "키리노",
+      "Text": "보셨습니까? 보셨나요? 본관의 완벽하고 퍼펙트한 사격을…… 어라?! 칸나 국장님?! "
+    },
+    {
+      "Name": "후부키",
+      "Text": "우와…… 엉망진창이네. 괜찮은 거야?"
+    },
+    {
+      "Name": "칸나",
+      "Text": "이 정도는 아무것도 아니야. 귀관들의 짐이 될 생각은 없으니 걱정 말고 퇴로부터 확보해라."
+    },
+    {
+      "Name": "키리노",
+      "Text": "네! 알겠습니다! 선생님, 본관과 후부키를 따라와 주세요! "
+    },
+    {
+      "Name": "후부키",
+      "Text": "자, 아직까진 적들에게 들키진 않은 것 같으니까. 미친개…… 아니, 칸나 국장도 조심해서 따라오라고."
+    },
+    {
+      "Name": "키리노",
+      "Text": "으으, 경계가 심해요……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "하아…… 하아…… 잠깐만…… 기다려…… 하아……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "키리노, 칸나 국장이 힘들어하고 있어. 천천히 가야 할 거 같은데."
+    },
+    {
+      "Name": "키리노",
+      "Text": "그, 그렇군요. 실례했습니다!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "조금만 쉬어야 할 거 같아. 저쪽 빈 건물로 일단 들어가자."
+    },
+    {
+      "Name": "키리노",
+      "Text": "네, 가시죠."
+    },
+    {
+      "Name": "키리노",
+      "Text": "여기라면 괜찮을 것 같습니다. "
+    },
+    {
+      "Name": "후부키",
+      "Text": "그치만 시간이 없다구. 조금만 숨을 돌리고 바로 이동해야 해."
+    },
+    {
+      "Name": "칸나",
+      "Text": "여기는……. 하아…… 하아……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "국장님……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "그러니까 왜 어울리지도 않는 일을 하는 거야? 공안국장이면 공안국장답게 무서운 얼굴로 취조나 할 것이지. 굳이 현장에 나와서……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "책임을 돌릴 수가 없었어……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "……음, 뭐. 그럴 것 같았지만."
+    },
+    {
+      "Name": "칸나",
+      "Text": "복잡한 이해관계가 얽힌 이 상황에서. 부하들에게 규율을 어기고 저를 따라오라고, 도무지 명령할 수가 없었습니다."
+    },
+    {
+      "Text": "[s] \"내가 없는 사이에 무슨 일이 벌어졌는지 가르쳐줘.\""
+    },
+    {
+      "Name": "키리노",
+      "Text": "……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "그건……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "……카이저 PMC가 6시간 전에 총학생회를 습격했습니다. "
+    },
+    {
+      "Name": "칸나",
+      "Text": "카이저 PMC를 지휘하는 고위 지휘관…… 통칭 <제너럴>은 행정위원회를 해산시키고 생텀 타워를 장악, D.U. 전역에 계엄령을 선포했습니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "D.U.를 오가는 모든 교통망과 통신망은 차단되었고, 발키리를 포함한 다른 기관도 행정 권한을 잃고 명령 대기 상태……"
+    },
+    {
+      "Name": "칸나",
+      "Text": "현재 D.U.의 모든 치안은 계엄을 통해 카이저 PMC에게 이관되었습니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "지금 제가 이렇게 선생님을 모시고 카이저 PMC를 적대하고 있는 것 자체가 치안 조직으로서 명령 불복종인 상태나 다름없습니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "생활안전국의 학생들은…… 애초부터 치안 유지 조직이 아니니, '우연히' 어울린 상급자의 명령을 이행했다고 증언하면 책임은 면할 수 있겠지요."
+    },
+    {
+      "Name": "키리노",
+      "Text": "하, 하지만 본관은 그런 건 신경 쓰지 않습니다! 정의를 위해서라면 때로는 이런 각오도—"
+    },
+    {
+      "Name": "칸나",
+      "Text": "귀관들이 없어지면 키보토스의 교통은 누가 책임지지? 곤경에 빠진 시민들은 또 누가 안내하고?"
+    },
+    {
+      "Name": "칸나",
+      "Text": "모두 각자의 능력이 다른 만큼, 책임질 수 있는 임무 또한 다른 법이야."
+    },
+    {
+      "Name": "칸나",
+      "Text": "내 임무에 귀관들을 끌어들인 벌충은…… 나중에 꼭 하도록 하지."
+    },
+    {
+      "Name": "후부키",
+      "Text": "……뭐, 나는 나중에 마스터 도너츠의 글레이즈드 도넛 한 더즌이면 충분하니까."
+    },
+    {
+      "Name": "칸나",
+      "Text": "……도넛이라면 원하는 만큼 가져가. 공안국 사무실에 쌓여있으니까."
+    },
+    {
+      "Name": "칸나",
+      "Text": "……. 선생님이 행방불명되신 후…… 무슨 일들이 벌어졌는지…… 제가 알고 있는 정보를 말하자면……. "
+    },
+    {
+      "Name": "칸나",
+      "Text": "수석행정관이 비상대책위원회를 개최, 각 자치구의 대표들을 소환한 것은 알고 계실 겁니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "거기엔 선생님도 참석 예정이었으니까요."
+    },
+    {
+      "Name": "칸나",
+      "Text": "하지만 그 직후 샬레 건물에서 출발했다는 선생님의 행방이 묘연해졌고……."
+    },
+    {
+      "Name": "린",
+      "Text": "어떤가요?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "틀렸어. 선생의 흔적은 어디에도 보이지 않아. "
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "선배……. "
+    },
+    {
+      "Name": "린",
+      "Text": "……알겠습니다. 모모카는 선생님의 행방을 계속 찾아주세요. 수단과 방법을 가리지 말고 작은 흔적이라도 좋으니까 반드시 찾아주세요."
+    },
+    {
+      "Name": "모모카",
+      "Text": "흐응. 알겠어. 노력은 해보겠지만……."
+    },
+    {
+      "Name": "린",
+      "Text": "비대위를 취소할 수는 없으니…… 예정대로 진행할 수밖에 없겠네요."
+    },
+    {
+      "Name": "아유무",
+      "Text": "하지만 선배……. 방위실의 카야 씨도 연락이 되지 않고……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "……아비도스는 급한 일이 생겨서 불참한다고 해요. 밀레니엄의 리오 씨에게는 대답이 없고……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "게다가 그중에는 샬레의 선생님이 참석한다는 것을 알고 소환에 응한 사람들도 많은데…… 이대로라면……."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "선생님 없이 비대위가 진행되었으나……"
+    },
+    {
+      "Name": "린",
+      "Text": "……이상이 현재 키보토스 전역에 발현한 초고위급 에너지 질량체 현상의 전모입니다."
+    },
+    {
+      "Name": "린",
+      "Text": "아비도스 사막, D.U. 근교의 버려진 유원지, 밀레니엄 외곽의 폐쇄지, 트리니티와 게헨나 사이의 접견 지역, 밀레니엄 근교의 신도시, ……그리고 D.U. 생텀 타워."
+    },
+    {
+      "Name": "린",
+      "Text": "이 현상을 조사하기 위해 각 자치구의 협력이 필요합니다."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "잠깐만요, 선생님은 어디 계시죠? 분명 <샬레>도 이 비대위에 참석한다고 들었는데요."
+    },
+    {
+      "Name": "린",
+      "Text": "그, 그건……."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "지금 이 사태보다 더 급한 상황이 있습니다. <샬레>와 논의가 필요해요."
+    },
+    {
+      "Name": "미네",
+      "Text": "더 급한 상황? 그게 무엇입니까, 사쿠라코 님?"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "그, 그건…… 여기서 말씀드리기가……."
+    },
+    {
+      "Name": "미네",
+      "Text": "또 뭘 숨기고 있는 겁니까, 시스터후드는!"
+    },
+    {
+      "Name": "세이아",
+      "Text": "저희도 선생님에게 전하지 않으면 안 되는 것이 있습니다. 이 사태와 밀접한 관련이 있는 일입니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "응? 뭐야? 앞에 쟤 자는데? 괜찮아? 지금 세이아 쨩이 말하고 있는데 엄청 편한가 봐?"
+    },
+    {
+      "Name": "이로하",
+      "Text": "마코토 선배 일어나세요……. 지금 전부 선배를 쳐다보고 있다고요……."
+    },
+    {
+      "Name": "마코토",
+      "Text": "킥킥킥……. 자는 게 아니다. 이로하. 자장가도 못되는 소음이 불쾌했을 뿐."
+    },
+    {
+      "Name": "이부키",
+      "Text": "저기, 이거 언제 끝나? 이부키, 배고파. 오늘 아침도 못 먹었는데……."
+    },
+    {
+      "Name": "미카",
+      "Text": "흐응? 자장가? 잘됐네, 응. 그럼 좀 더 깊은 잠에 들 수 있게 내가……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "미카. 앉아주세요."
+    },
+    {
+      "Name": "미카",
+      "Text": "하하하☆ 이건 그냥 의자를 당기려고 한 거였어. 응."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "잠깐만요. 아직 대답을 듣지 못했어요. 선생님은 어디에 계신 거죠?"
+    },
+    {
+      "Name": "마코토",
+      "Text": "물어보나 마나지. 총학생회가 숨기고 있는 거겠지! 그러니까 이 자리는 의미가 없다는 거다!"
+    },
+    {
+      "Name": "마코토",
+      "Text": "이 자리는 총학생회의 음모야! 그 정도 꿍꿍이도 파악하지 못해서야 한 학원의 지배자라고 할 수 있겠나!"
+    },
+    {
+      "Name": "이로하",
+      "Text": "선배가 그런 소리하면……."
+    },
+    {
+      "Name": "린",
+      "Text": "여러분…… 조용히 해주세요. 선생님은 지금 저희도 행방을 찾고 있는 중이고……."
+    },
+    {
+      "Name": "미네",
+      "Text": "행방을 찾고 있다……? 선생님이 사라졌다는 뜻입니까?"
+    },
+    {
+      "Name": "마코토",
+      "Text": "더이상의 논의는 무의미하다. 샬레라면 모를까 총학생회랑 할 이야기는 없어! 이로하, 이부키! 사츠키! 돌아간다!"
+    },
+    {
+      "Name": "이로하",
+      "Text": "네? 자, 잠깐만요……!"
+    },
+    {
+      "Name": "미네",
+      "Text": "……이 상황, 확실히 수상한 게 한두 개가 아닙니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "네. 저희도 저희 나름대로 이 상황을 분석해보겠습니다. 세이아 씨, 미카 씨."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……이 상황. 협력을 기대할 수 있는 상태는 아니네요."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "그런데 잠깐! 푸딩이 없잖나! 푸딩! 이 몸께서 친히 여기까지 왔는데!"
+    },
+    {
+      "Name": "친위대",
+      "Text": "회장…… 학원에서 급한 전갈입니다."
+    },
+    {
+      "Name": "체리노",
+      "Text": "……뭐?! 쿠데타가?! 내가 자리를 비운 사이에 또……!?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "이번엔 또 어디라고? 한겨울냉수마찰총연맹? 그런 데가 있었나……? 아무튼 돌아가자, 토모에! 쿠데타를 진압하러 가는 거야!"
+    },
+    {
+      "Name": "아유무",
+      "Text": "……하아. 뭔가 잘 진행이 안되네요……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "언제까지 해야 하는 거야, 이거……."
+    },
+    {
+      "Name": "린",
+      "Text": "……다음 회의는 어디 어디 차례죠?"
+    },
+    {
+      "Name": "총학생회 행정관",
+      "Text": "네. 수석 행정관님. 다음 자치구는……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "다음은 없어."
+    },
+    {
+      "Name": "모모카",
+      "Text": "!!"
+    },
+    {
+      "Name": "아유무",
+      "Text": "재, 재무실장님……!!"
+    },
+    {
+      "Name": "린",
+      "Text": "아오이……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "방위실장이 행방불명되었어. 이 비대위를 통해 가장 많은 권한 침해를 받을 사람이 하필 지금 타이밍에 없어지다니."
+    },
+    {
+      "Name": "린",
+      "Text": "그건……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "그리고 동시에 샬레의 선생님도 행방불명. 우연이라고 하기엔 공교롭지 않아? "
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "SRT의 해체 후 생긴 공백을 PMC를 이용해서 메꾸려고 한 것도 확인되었어. 무기명으로 거래되었지만, 재무제표를 추적해서 알아낼 수 있었지."
+    },
+    {
+      "Name": "아오이",
+      "Text": "사설 기업에게 총학생회의 권력을 나눠주는 계획…… 이것도 당신이 한 거야?"
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "수석행정관. 이 모든 사태의 배후에 당신이 있는 거야? 어디서부터가 당신의 계획이지? SRT의 해산? 샬레의 수립? 아니면……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "총학생회장의 실종……?"
+    },
+    {
+      "Name": "린",
+      "Text": "그런, 저는……."
+    },
+    {
+      "Name": "아오이",
+      "Text": "미안해. 린 선배. 여기까지야. "
+    },
+    {
+      "Name": "아유무",
+      "Text": "그, 그건……. "
+    },
+    {
+      "Name": "아오이",
+      "Text": "린 선배의 문책결의안이야. 행정위원회 과반수 6인이 수석행정관의 불신임에 동의했어. "
+    },
+    {
+      "Name": "린",
+      "Text": "……!!"
+    },
+    {
+      "Name": "아오이",
+      "Text": "이건 정식으로 발효된 명령서야. 이제 선배는 앞으로 있을 재신임 투표 전까지 모든 행정명령이 중지될 거야."
+    },
+    {
+      "Text": "다음화;충돌 2"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9; Collision 1"
+    },
+    {
+      "Name": "???",
+      "Text": "How did they..."
+    },
+    {
+      "Name": "???",
+      "Text": "Martial law... But...the General Student Council..."
+    },
+    {
+      "Name": "???",
+      "Text": "Valkyrie..."
+    },
+    {
+      "Name": "???",
+      "Text": "A message from the general...and..."
+    },
+    {
+      "Text": "[ns1] \"...\""
+    },
+    {
+      "Text": "[ns2] Open your eyes."
+    },
+    {
+      "Text": "[ns3] \"(I don't see the Shittim Chest...)\""
+    },
+    {
+      "Text": "[ns4] \"(Did they take the Shittim Chest...?)\""
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student",
+      "Text": "We're still standing by. They haven't had any success turning on the Chest, let alone hacking it."
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student",
+      "Text": "They tried to connect to it with our servers, and eight of HQ's data centers were shut down."
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student",
+      "Text": "The only solution may be to utilize Sensei."
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student",
+      "Text": "Did you hear that?! Was that a gunshot?"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Gunshot?!"
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student",
+      "Text": "It's coming from above!"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Let's go!"
+    },
+    {
+      "Name": "???",
+      "Text": "*pant* *pant*"
+    },
+    {
+      "Name": "???",
+      "Text": "Fancy seeing you here, [USERNAME] Sensei."
+    },
+    {
+      "Text": "[ns] \"(That voice...)\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "What a relief... I went through hell to find this place, but at least you're okay."
+    },
+    {
+      "Text": "[s] \"Kanna...?!\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Huh. You remember me. I didn't think a third-rate villain like me would play a big enough role in your story."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Let me... *cough cough* ...get you out now... *cough*"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Ugh."
+    },
+    {
+      "Text": "[s] \"Kanna, what happened? Why are you so injured?\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Oh, this? Perils of the job, don't worry about it."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "*pant* *pant* ...Okay. It should be open."
+    },
+    {
+      "Text": "[ns] Leave the cell."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "This way, Sensei... I'm sure you have a lot of questions, but we need to get somewhere safe first."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Follow behind me."
+    },
+    {
+      "Text": "[ns] Follow Kanna."
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student A",
+      "Text": "Wh-What?!"
+    },
+    {
+      "Name": "PMC Soldier Disguised as a Valkyrie Student B",
+      "Text": "Gah?"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "They're all PMC soldiers disguised... *cough* as Valkyrie students... *cough cough*"
+    },
+    {
+      "Text": "[s] \"I knew that, but where are we?\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "It's the third satellite school of Valkyrie Police School at D.U. It was only used for new Valkyrie student training because of the lack of budget..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I didn't realize it fell into the hands of the Kaiser Corporation..."
+    },
+    {
+      "Text": "[s] \"Kaiser...\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "They must have had help from someone within Valkyrie."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I don't know how far the Kaiser Group's hand reaches within Valkyrie..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "But... I know this couldn't have happened like this without corruption in the ranks."
+    },
+    {
+      "Text": "[s] \"...Kanna.\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "What's done is done. I've sent the signal. We need to make our way to the back entrance of the building."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I've prepared a way to escape the blocked D.U."
+    },
+    {
+      "Text": "[s5] \"Escape...? Blocked...?\""
+    },
+    {
+      "Text": "[s6] \"What the hell is happening?\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "...We have to keep moving."
+    },
+    {
+      "Text": "[ns] Follow her."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "This is bad. They're already on high alert. This was our designated meeting spot."
+    },
+    {
+      "Name": "PMC Soldier A",
+      "Text": "Who's there?!"
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "It's them! Fire!"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Sensei, watch out!"
+    },
+    {
+      "Text": "[ns] \"Kanna!\""
+    },
+    {
+      "Name": "PMC Soldier A",
+      "Text": "A-Ack?!"
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "R-Reinforcements...!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Sensei! Are you okay?!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Ugh... I can't believe this is happening."
+    },
+    {
+      "Text": "[s7] \"Kirino! Fubuki!\""
+    },
+    {
+      "Text": "[s8] \"The Public Safety Bureau!\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "*pant pant* Just in time."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Did you see that? My shot! It was perfect! ...Huh?! Director Kanna?!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Whoa... You're a mess. Are you okay?"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "The last thing we need in this situation is another burden. Focus on the mission and secure the retreat route."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Understood, Director! Sensei, please follow me and Fubuki! "
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I think it was just those two guards so far. Feral Hound... I mean, Director Kanna, we'll lead the way."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Security's real tight... Ugh..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "*pant* *pant* Just...need a moment... *pant*"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Kirino, Director Kanna is heavily injured. We need to slow down."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Y-You're right. My apologies!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Time for my expertise: taking a break. Quick, everyone, into this empty building."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "On it!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "We should be safe for the time being. "
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Emphasis on \"the time being.\" We can't dilly-dally for too long."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "This place is... *pant* *pant*"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Director..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "If you don't mind me asking, what are you doing out here? Your job as the Public Peace Bureau director is interrogation. Why go to all this effort?"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I...I had to take responsibility..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "...I should have figured as much."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "The situation is too complex with too many conflicting parties. I couldn't ask my subordinates to break the law if I wasn't willing to do it myself."
+    },
+    {
+      "Text": "[s] \"Update me on what's happened since I was captured.\""
+    },
+    {
+      "Name": "Kirino",
+      "Text": "..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "That's..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "...Kaiser PMC attacked the General Student Council six hours ago."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "A high-ranking commander of Kaiser PMC known as the general...took over and disbanded the Administration Board, occupied the Sanctum Tower, and declared martial law all over D.U."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "All transportation and communication networks to and from D.U. have been cut off, and other agencies, including Valkyrie, have lost administrative authority and are awaiting orders..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Currently, all D.U. security has been transferred to Kaiser PMC through martial law."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "The fact that I, the leader of a security organization, am now helping you and antagonizing Kaiser PMC is tantamount to disobeying the law."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "The Public Safety Bureau students…aren't a public security organization in the first place, so if I testify that you've fulfilled the order of a superior you \"accidentally\" got involved with, you two could at least avoid responsibility."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "I don't care if I'm breaking their laws! I'll do anything to serve justice, real justice!"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Don't be so short-sighted. Without you, who will be in charge of traffic in Kivotos? Especially in times like these, who will help citizens in trouble?"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "You and I have different abilities, which means we each have to do our utmost to fulfill what duties only we can fulfill."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "When I can, I'll compensate you for putting you in such a precarious situation."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "All I want is a dozen glazed donuts from Master Donuts."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "If that's all you want, stuff yourself full. There's a whole pile of them in the Public Peace Bureau office."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Back to the subject, Sensei. I don't have the whole picture, but I'll tell you everything I know."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "As you know, the chief officer held an Emergency Response Committee and summoned representatives from each district."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "We were all expecting your presence there, Sensei."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "But, as you well know, you went missing from Schale."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Any update?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Zilch. Sensei's disappeared without a trace. "
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Rin..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Okay. Continue searching, Momoka. No matter what it takes, no matter how small the clue, find something."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "I mean, I'll try..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "We can hardly cancel the Emergency Response Committee at this point. We'll proceed as planned."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "But we can't get a hold of Chief of Defense Kaya either..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Abydos seems to have had an emergency they need to attend to. Rio of Millennium hasn't even responded."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "And most organizations only agreed to participate on the condition of Sensei's presence at the meeting..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "The Emergency Response Committee meeting was carried out without you there, Sensei..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...This is the full picture of the ultra-high energy mass phenomena currently manifesting throughout Kivotos."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The Abydos Desert, the abandoned amusement park near D.U., the closed area in the Millennium outskirts, the border area between Trinity and Gehenna, that new town near Millennium...and the D.U. Sanctum Tower."
+    },
+    {
+      "Name": "Rin",
+      "Text": "We are requesting the cooperation of each district to investigate this potential threat."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Where is Sensei? I was told that Schale will be participating in the Emergency Response Committee."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Th-That..."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "We have more urgent matters to discuss with Schale. Are they not here?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "What could be more urgent than this, Sakurako?"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "It is...a delicate matter."
+    },
+    {
+      "Name": "Mine",
+      "Text": "What cannot be discussed here? What is the Sisterhood hiding this time?!"
+    },
+    {
+      "Name": "Seia",
+      "Text": "We have something we believe to be related to this incident that we must discuss with Sensei as well."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Now, what could this be? She couldn't possibly be sleeping while Seia is talking, could she? I'd expect at least a modicum of respect from Gehenna."
+    },
+    {
+      "Name": "Iroha",
+      "Text": "Makoto, please get up... Everyone is looking at you..."
+    },
+    {
+      "Name": "Makoto",
+      "Text": "Heeheehee. I'm not sleeping, Iroha. I'm just tuning out all the nonsense."
+    },
+    {
+      "Name": "Ibuki",
+      "Text": "Are we done yet? Ibuki didn't get to have breakfast, and Ibuki's hungry!!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "...Nonsense? Now that I think about it, if you're having trouble sleeping, I'm considered something of an expert at helping people sleep. Permanently."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Mika, it's fine. Please sit down."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Heehee. ☆ I was just adjusting my chair. I wasn't getting up, promise."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Back to my original question. Where is Sensei?"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "The General Student Council is obviously hiding Sensei! This meeting is pointless!"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "This whole thing is a conspiracy! Haven't you nitwits figured that out yet?"
+    },
+    {
+      "Name": "Iroha",
+      "Text": "Makoto, if you throw a wild accusation out there like that..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Order, please. We're doing everything we can to locate Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Locate...? Has Schale's Sensei disappeared?"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "I see no point in discussing this further without Schale's presence. We have nothing to say to the General Student Council. Iroha, Ibuki, Satsuki, we're leaving!"
+    },
+    {
+      "Name": "Iroha",
+      "Text": "W-Wait a minute, Makoto...!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "I find all the circumstances of this situation incredibly suspicious."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I must agree with Mine. Seia, Mika, the Tea Party will proceed independently of the General Student Council."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Yes. They can't expect us to trust them with the current situation."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Wait! There's no pudding! How can there be no pudding when I came all the way here?"
+    },
+    {
+      "Name": "State Guard",
+      "Text": "President... There's an urgent message from the academy."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "What?! A coup d'etat again while I was gone?!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Where did it happen this time? The Midwinter Cold Water Friction Federation? I've never heard of them... Anyway, let's go back, Tomoe! Let's go subdue the coup!"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "*sigh* I guess we shouldn't have expected anything less..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Do we have to keep doing this...?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "What's the next district to discuss?"
+    },
+    {
+      "Name": "General Student Council Chief Officer",
+      "Text": "Yes, Chief Officer! The next district is..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "There is none."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "!"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Ch-Chief of Finance!"
+    },
+    {
+      "Name": "Rin",
+      "Text": "Aoi..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "I have topics I would like to discuss. The chief of defense's disappearance is oddly convenient. The Emergency Response Committee infringes upon her office and rights more so than any other department."
+    },
+    {
+      "Name": "Rin",
+      "Text": "That's..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "Not only that, Schale's Sensei is suddenly missing. Isn't that too much of a coincidence?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "I've also confirmed that PMC was used to fill the void created after SRT disbanded. The exchange was anonymous, but I was able to figure it out by tracking the financial metrics."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "A plan to hand over the General Student Council's power to private companies... Was this all part of your greater scheme?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "Chief Officer. Are you the mastermind of all these incidents? Has everything gone to plan? The dissolution of SRT? The establishment of Schale? And what about..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "The missing president of the General Student Council?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "...! That's... I...!"
+    },
+    {
+      "Name": "Aoi",
+      "Text": "I'm sorry, Rin. That's enough."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Th-That..."
+    },
+    {
+      "Name": "Aoi",
+      "Text": "Here's the motion of Rin's censure. A majority of six members of the Administration Board agreed that they have no confidence in Chief Officer Rin."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...!"
+    },
+    {
+      "Name": "Aoi",
+      "Text": "This is the formally issued order. Now all executive orders will be suspended until a vote of confidence is conducted."
+    },
+    {
+      "Text": "Next Episode; Collision 2"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;ปะทะ 1"
+    },
+    {
+      "Name": "???",
+      "Text": "ทางนั้นล่ะเป็นยังไงบ้าง..."
+    },
+    {
+      "Name": "???",
+      "Text": "ประกาศกฎอัยการศึกไปแล้ว... แต่ว่า... ทางองค์การนักเรียนก็..."
+    },
+    {
+      "Name": "???",
+      "Text": "....... ส่วนวัลคิรี่ก็......"
+    },
+    {
+      "Name": "???",
+      "Text": "นายพล... ติดต่อมา... และ..."
+    },
+    {
+      "Text": "[ns1] \"................\""
+    },
+    {
+      "Text": "[ns2] ลืมตา"
+    },
+    {
+      "Text": "[ns3] (ไม่เห็นกล่องแห่งซิสดิมแล้ว...)"
+    },
+    {
+      "Text": "[ns4] (พวกศัตรูไปกันหมดแล้วเหรอ...)"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่",
+      "Text": "...... ยังสแตนด์บายอยู่ กล่องอะไรนั่นน่ะ อย่าว่าแต่จะแฮ็กเลย แค่กดเปิดยังทำไม่ได้ด้วยซ้ำ"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่",
+      "Text": "เห็นว่าแค่พยายามเชื่อมต่อ ศูนย์ข้อมูลของสำนักงานใหญ่ก็ปิดตัวไป 8 จุดแล้ว"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่",
+      "Text": "ตอนนี้วิธีเดียวที่เหลือคือครูคนนั้นเหรอ..."
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่",
+      "Text": "หืม? ได้ยินเสียงปืนเมื่อกี้ไหม?"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "เสียงปืน?"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่",
+      "Text": "บ้าจริง มาจากข้างบน!"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "รีบไปกันเถอะ!"
+    },
+    {
+      "Name": "???",
+      "Text": "แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Name": "???",
+      "Text": "ปลอดภัยดีหรือเปล่าคะ คุณครู [USERNAME]?"
+    },
+    {
+      "Text": "[ns] (เสียงนี้มัน...)"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "โล่งอกไปทีค่ะ... ฉันลำบากมากเลยกว่าจะหาที่นี่เจอ... แต่ก็คุ้มค่ากับความลำบากนะคะ"
+    },
+    {
+      "Text": "[s] \"คันนะ...!?\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ยังจำฉันได้สินะคะ คิดว่าจะลืมวายร้ายอย่างฉันไปแล้วเสียอีก..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "รอหน่อยนะคะ ฉันจะเปิดให้เดี๋ยวนี้ค่ะ... แค่ก... แค่ก..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "อึก..."
+    },
+    {
+      "Text": "[s] \"คันนะ ได้แผลนั้นมาจากไหน...\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แผลนี่น่ะเหรอคะ...? แค่นิดหน่อยเอง ไม่ต้องห่วงหรอกค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แฮ่ก... แฮ่ก... ได้แล้วค่ะ ออกมาเร็วเข้าค่ะ"
+    },
+    {
+      "Text": "[ns] ออกมาจากห้องขัง"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ทางนี้ค่ะคุณครู ......คุณครูคงมีหลายเรื่องที่อยากถาม แต่ตอนนี้ไปที่ที่ปลอดภัยกันก่อนเถอะค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ตามฉันมาค่ะ"
+    },
+    {
+      "Text": "[ns] ตามไป"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่ A",
+      "Text": "อะ... อะไรเนี่ย?!"
+    },
+    {
+      "Name": "ทหาร PMC ที่ปลอมตัวเป็นวัลคิรี่ B",
+      "Text": "อึก?!"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "คนพวกนี้ไม่ใช่นักเรียนวัลคิรี่ แต่เป็นทหาร PMC ที่ปลอมตัวมาค่ะ..."
+    },
+    {
+      "Text": "[s] \"ครูรู้อยู่แล้ว แต่ว่าที่นี่มัน...\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "โรงเรียนสาขาที่ 3 ของสถาบันฝึกตำรวจวัลคิรี่ที่อยู่ใน D.U. ค่ะ เพราะงบประมาณมีไม่เพียงพอ อาคาร\nนี้ก็เลยถูกใช้เป็นที่ใช้จัดอบรมนักเรียนใหม่ของวัลคิรี่..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แต่วันดีคืนดีมันก็ตกไปอยู่ในมือของไคเซอร์ คอร์เปอเรชั่นเข้าน่ะค่ะ..."
+    },
+    {
+      "Text": "[s] \"ไคเซอร์งั้นเหรอ...\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "อาจมีคนในที่ให้ความช่วยเหลือหรือหลับหูหลับตามากไปน่ะค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ฉันเองก็ไม่รู้เหมือนกันว่าไคเซอร์กรุ๊ปได้ตัวคนของวัลคิรี่ไปมากแค่ไหนแล้ว..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แต่ถ้าถามเหตุผลละก็... ฉันว่าเป็นเพราะที่นี่ยังมีตำรวจเลวๆ เหมือนฉันอยู่น่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"...... คันนะ\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ช่างเถอะค่ะ ฉันส่งสัญญาณไปแล้ว ทีนี้ก็ไปที่ประตูหลังของอาคารได้แล้วค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ฉันเตรียมวิธีหลบหนีออกจาก D.U. ที่ถูกปิดล้อมไว้ให้แล้วค่ะ"
+    },
+    {
+      "Text": "[s5] \"หลบหนี...? ปิดล้อมงั้นเหรอ...?\""
+    },
+    {
+      "Text": "[s6] \"นี่มันเรื่องอะไรกันเนี่ย?\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "....... ไปเถอะค่ะ"
+    },
+    {
+      "Text": "[ns] ตามไป"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ล้มเหลวสินะคะ... การป้องกันหนาแน่นขึ้นมาแล้วค่ะ นัดกันว่าจะมาเจอที่นี่แท้ๆ..."
+    },
+    {
+      "Name": "ทหาร PMC A",
+      "Text": "ใครน่ะ!!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "ตรงนี้! หาเจอแล้ว! ยิงเลย!!"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "อึก! อันตรายค่ะ คุณครู!"
+    },
+    {
+      "Text": "[ns] \"คันนะ!!\""
+    },
+    {
+      "Name": "ทหาร PMC A",
+      "Text": "อะ... อึก...!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "มะ... มีกองกำลังเสริมเหรอ..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "คุณครู! เป็นยังไงบ้างคะ?!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "มะ... ไม่สมกับเป็นเธอเลยแฮะ นี่มันเรื่องอะไรกันเนี่ย"
+    },
+    {
+      "Text": "[s7] \"คิริโนะ! ฟุบุกิ!!\""
+    },
+    {
+      "Text": "[s8] \"สำนักรักษาความปลอดภัยมาช่วยสินะ!\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แฮ่ก... แฮ่ก... โล่งอกไปทีนะที่มาทันเวลา"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "เห็นแล้วใช่มั้ยคะ? เห็นการยิงที่สมบูรณ์แบบของฉันหรือเปล่าคะ...? เอ๋?! หัวหน้ากรมฯ?!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "โห... เละตุ้มเป๊ะเลยนะ ยังโอเคอยู่ไหม?"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แค่นี้ไม่เท่าไรหรอก ไม่ต้องสนใจแล้วกลับไปเถอะ ฉันไม่อยากเป็นภาระของพวกเธอ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ค่ะ! รับทราบค่ะ! คุณครูคะ ตามฉันกับฟุบุกิมาเถอะค่ะ! "
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เอาละๆ เหมือนว่าเราจะยังไม่ถูกพวกศัตรูจับได้นะ หมาบ้า... ไม่สิ หัวหน้ากรมฯ เองก็ตามมาด้วยสิ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "อึก... การป้องกันแน่นหนามากเลยค่ะ..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แฮ่ก... แฮ่ก... รอเดี๋ยว... แฮ่ก..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "คิริโนะ หัวหน้ากรมฯ คันนะเหนื่อยแย่แล้ว เราน่าจะต้องลดฝีเท้าลงหน่อยนะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "งะ... งั้นเหรอคะ ขอโทษด้วยค่ะ!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เราเข้าไปพักในอาคารร้างทางนั้นกันก่อนเถอะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ได้ค่ะ ไปกันเลยค่ะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ที่นั่นน่าจะปลอดภัยอยู่นะคะ "
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "แต่เรามีเวลาไม่มากแล้ว เข้าไปพักแป๊บเดียวแล้วก็ต้องไปต่อเลยนะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ที่นี่มัน... แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "หัวหน้ากรมฯ..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ทำไมถึงทำเรื่องที่ไม่เหมาะสมกับตัวเองเลยล่ะ? ถ้าเป็นหัวหน้ากรมฯ ก็ไปอยู่สอบสวนด้วยใบหน้าที่\nน่ากลัวๆ ให้สมกับตำแหน่งสิ ทำไมถึงต้องออกมาที่นี่ด้วย..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ฉันปัดความรับผิดชอบไม่ได้น่ะ..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "....... อืม ก็นะ ก็น่าจะเป็นอย่างนั้น"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ในสถานการณ์ที่มีส่วนได้ส่วนเสียที่วุ่นวายแบบนี้ ฉันสั่งให้ลูกน้องฝืนวินัยและทำตามฉันไม่ได้หรอกค่ะ"
+    },
+    {
+      "Text": "[s] \"บอกครูหน่อยได้ไหมว่าเกิดอะไรขึ้นบ้างตอนที่ครูไม่อยู่\""
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เรื่องนั้น..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ไคเซอร์ PMC ไปบุกองค์การนักเรียนเมื่อ 6 ชั่วโมงก่อนค่ะ... "
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ผู้บัญชาการสูงสุดที่สั่งการไคเซอร์ PMC  หรือที่เรียกทั่วไปว่า <นายพล> สั่งยุบคณะกรรมการบริหาร และควบคุมแซงค์ทัมทาวเวอร์ไว้ แถมยังประกาศกฎอัยการศึกทั่วพื้นที่ D.U. เลยค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ทุกเครือข่ายการจราจรและเครือข่ายการสื่อสารใน D.U. ถูกปิดกั้น หน่วยงานอื่นๆ รวมทั้งวัลคิรี่ก็เสีย\nอำนาจบริหารและต้องรอคำสั่ง..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ความสงบเรียบร้อยของ D.U. ตอนนี้ถูกโยกย้ายไปอยู่ภายใต้การจัดการของไคเซอร์ PMC ผ่านกฎ\nอัยการศึกค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ในฐานะองค์กรรักษาความปลอดภัย การที่ฉันพาคุณครูมาที่นี่และทำตัวเป็นปฏิปักษ์กับไคเซอร์ PMC ก็ถือว่าเป็นการฝ่าฝืนคำสั่งค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "พวกนักเรียนจากสำนักรักษาความปลอดภัยไม่ใช่คนขององค์กรรักษาความปลอดภัยตั้งแต่แรก ถ้าพวกเธอทำตามคำสั่งของผู้บังคับบัญชา ก็ยังเลี่ยงความรับผิดชอบได้อยู่ค่ะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ตะ... แต่ฉันไม่สนใจเรื่องแบบนั้นหรอกค่ะ! เพื่อความยุติธรรมแล้ว บางครั้งฉันก็ต้อง..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ถ้าไม่มีพวกเธอ แล้วใครจะรับผิดชอบการจราจรในคิโวทอสล่ะ? แล้วชาวเมืองที่ตกอยู่ในอันตรายล่ะ ใครจะไปช่วยเหลือ?"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ทุกคนมีความสามารถที่แตกต่างกัน หน้าที่ที่ต้องรับผิดชอบก็ย่อมต่างกันไปด้วย"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ที่ฉันพาพวกเธอมาลำบากในงานของฉันแบบนี้... ไว้ฉันจะขอโทษและตอบแทนทีหลังนะ"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "...... อืม ฉันขอแค่มาสเตอร์โดนัทเคลือบเกรซสักโหลเดียวก็พอ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "...... ถ้าเป็นโดนัท เอาไปได้ไม่อั้นเลย มันมีอยู่เต็มสำนักงานกรมความมั่นคงสาธารณะเลยละ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "คุณครู... อยากรู้ใช่ไหมคะว่าเกิดอะไรขึ้นบ้างหลังจากที่คุณครูหายตัวไป... "
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "คุณครูน่าจะทราบแล้วนะคะว่าหัวหน้าฝ่ายบริหารเรียกตัวแทนนักเรียนจากแต่ละเขตปกครองตนเองขึ้น\nมาเพื่อจัดตั้งคณะกรรมการมาตรการฉุกเฉิน"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "เดิมทีแล้วคุณครูก็ต้องเข้าร่วมการจัดตั้งนั้นด้วยนี่คะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แต่ไม่นานหลังจากนั้น ก็มีข่าวว่าคุณครูหายตัวไปทันทีหลังจากที่ออกมาจากอาคารชาเล่ต์..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "เป็นยังไงบ้างคะ?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ไม่ดีเลย เราไม่เจอร่องรอยของคุณครูเลย"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "รุ่นพี่... "
+    },
+    {
+      "Name": "ริน",
+      "Text": "รับทราบค่ะ โมโมกะช่วยตามหาคุณครูไปเรื่อยๆ นะคะ ช่วยทำทุกวิถีทางเพื่อหาร่องรอยให้ได้ด้วยนะคะ ต่อให้เป็นร่องรอยเล็กๆ ก็ตามค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ฮึ่ม เข้าใจแล้ว ฉันจะลองพยายามดู..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ฉันยกเลิกคณะกรรมการมาตรการฉุกเฉินไม่ได้... เพราะงั้นฉันต้องดำเนินการตามแผนเดิมค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "รุ่นพี่... แต่คุณคายะจากสำนักป้องกันก็ติดต่อไม่ได้นะ..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ส่วนอะบิดอสก็บอกว่ามีเรื่องด่วน เลยมาเข้าร่วมไม่ได้ค่ะ ส่วนมิลเลเนียม เรายังไม่ได้รับคำตอบจาก\nคุณริโอะ..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "นอกจากนี้ยังมีอีกหลายคนที่ตอบรับคำเชิญของเราเพราะรู้ว่าคุณครูจากชาเล่ต์จะมาเข้าร่วมด้วย... ถ้าเป็นอย่างนี้ละก็..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "คณะกรรมการมาตรการฉุกเฉินจะทำงานโดยไร้คุณครูได้ไหมนะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... และนั่นคือสถานการณ์ทั้งหมดของปรากฏการณ์กลุ่มมวลสารพลังงานเข้มข้นที่เกิดขึ้นทั่วคิโวทอส\nตอนนี้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทะเลทรายอะบิดอส สวนสนุกร้างชานเมือง D.U. พื้นที่ปิดชายขอบมิลเลเนียม เขตชายแดนระหว่าง\nทรีนิตี้กับเกเฮนน่า เมืองใหม่ในชานเมืองมิลเลเนียม... แล้วก็ D.U. แซงค์ทัมทาวเวอร์"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เราต้องการความร่วมมือจากทุกเขตปกครองตนเองในการตรวจสอบปรากฏการณ์นี้ค่ะ"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "เดี๋ยวนะคะ แล้วคุณครูอยู่ไหนเหรอคะ? ได้ยินมาว่า <ชาเล่ต์> ก็จะเข้าร่วมในคณะกรรมการมาตรการ\nฉุกเฉินด้วยนี่คะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "คะ... คือว่า..."
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "ตอนนี้มีสถานการณ์ที่เร่งด่วนกว่าสถานการณ์นี้ค่ะ เราต้องหารือกับ <ชาเล่ต์> ค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "สถานการณ์ที่เร่งด่วนกว่า? สถานการณ์อะไรเหรอคะ คุณซากุระโกะ?"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "อืม... คือว่า... ฉันไม่รู้ว่าควรพูดตรงนี้ไหม..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มีเรื่องอะไรที่ปิดบังกันอีกอยู่เหรอคะ ชมรมซิสเตอร์!"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "พวกฉันก็มีเรื่องที่ต้องบอกคุณครูเหมือนกันค่ะ เป็นเรื่องที่เกี่ยวข้องกับสถานการณ์นี้ด้วยค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม? อะไรน่ะ? ทำไมถึงมีคนนอนหลับอยู่ตรงข้างหน้านั้นด้วยล่ะ? แบบนี้ก็ได้เหรอ? เซอาจังกำลังพูด\nอยู่นะ ไม่ให้เกียรติกันบ้างเลย"
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "รุ่นพี่มาโคโตะ ตื่นเถอะค่ะ... ตอนนี้ทุกคนกำลังจ้องรุ่นพี่อยู่นะคะ..."
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "หึหึหึ... ไม่ได้หลับสักหน่อย อิโรฮะ เราแค่เบื่อจะฟังเสียงพูดที่ไม่เข้าหู ก็เลยฟุบลงไปน่ะ"
+    },
+    {
+      "Name": "อิบูกิ",
+      "Text": "นี่ๆ เราจะคุยจบกันตอนไหนเหรอ? อิบูกิหิวข้าวแล้ว วันนี้ยังไม่ได้กินอะไรสักอย่างเลยนะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม? ไม่เข้าหูงั้นเหรอ? อื้อ งั้นฉันจะช่วยสงเคราะห์ให้ได้นอนหลับสบายๆ นะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มิกะ นั่งลงเถอะค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แหะๆๆ☆ ฉันก็แค่จะดึงเก้าอี้นิดหน่อยเอง"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "เดี๋ยวนะคะ ฉันยังไม่ได้คำตอบเลยค่ะ ตอนนี้คุณครูอยู่ที่ไหนคะ?"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "ไม่ต้องถามก็รู้คำตอบอยู่แล้ว ก็ถูกองค์การนักเรียนเอาตัวไปซ่อนไว้น่ะสิ! เพราะฉะนั้นที่เรามากันตอนนี้\nมันก็ไม่มีความหมาย!"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "การประชุมนี้เป็นกลอุบายขององค์การนักเรียน! ถ้ายังมองแผนการร้ายขนาดนี้ไม่ออก จะเรียกตัวเองว่าเป็นผู้ปกครองของโรงเรียนได้ยังไง!"
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "ถ้ารุ่นพี่ว่าอย่างนี้ละก็..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทุกคนคะ... กรุณาอยู่ในความสงบด้วยค่ะ ตอนนี้พวกฉันเองก็กำลังตามหาร่องรอยของคุณครูอยู่..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ตามหาร่องรอยอยู่...? แปลว่าคุณครูหายตัวไปเหรอคะ?"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "ไม่ต้องหารือให้เปล่าประโยชน์แล้ว ถ้าเป็นชาเล่ต์ก็ว่าไปอย่าง แต่ถ้าเป็นองค์การนักเรียน เราไม่มีอะไรจะคุยด้วย! อิโรฮะ อิบูกิ! ซัตสึกิ! กลับ!"
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "คะ? ดะ... เดี๋ยวก่อนค่ะ!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "สถานการณ์นี้... มันมีอะไรน่าสงสัยหลายอย่างเลยค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ใช่ค่ะ พวกฉันก็จะวิเคราะห์สถานการณ์นี้ด้วยวิธีของตัวเองดูค่ะ คุณเซอา คุณมิกะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "...... ดูเหมือนว่านี่จะไม่ใช่สถานการณ์ที่เราจะให้ความร่วมมือได้แล้วค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เดี๋ยวก่อนสิ! ยังไม่ได้แจกพุดดิ้งเลยนะ! ไหนล่ะพุดดิ้ง! เราอุตส่าห์ถ่อมาถึงที่นี่เลยนะ!"
+    },
+    {
+      "Name": "กองกำลังป้องกัน",
+      "Text": "ประธาน... มีข่าวด่วนมาจากโรงเรียนค่ะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ว่าไงนะ?! ปฏิวัติเหรอ?! คิดจะยึดอำนาจตอนเราไม่อยู่อีกแล้วเหรอ...!?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ครั้งนี้ฝีมือของใครอีก? สหพันธ์ประหยัดค่าน้ำหน้าหนาว? มีชื่อแบบนี้ไหมนะ...? ช่างเถอะ เรารีบกลับไปดีกว่า โทโมเอะ! เราต้องไปปราบปรามการรัฐประหาร!"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เฮ้อ... ไม่ค่อยราบรื่นเท่าไรเลยนะคะ..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "จะต้องอยู่ไปถึงเมื่อไรเนี่ย..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... การประชุมครั้งหน้าจัดที่ไหนเหรอคะ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ องค์การนักเรียน",
+      "Text": "ค่ะ ท่านหัวหน้าฝ่ายบริหาร ครั้งหน้าจะเป็นที่..."
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "ไม่มีครั้งหน้าหรอกนะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "!!"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ทะ.. ท่านหัวหน้าฝ่ายการเงิน...!!"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อาโออิ..."
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "หัวหน้าสำนักป้องกันหายตัวไป คนที่จะถูกรุกรานสิทธิมากที่สุดจากคณะกรรมการมาตรการฉุกเฉิน ดันมาหายตัวไปตอนนี้"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรื่องนั้น..."
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "แล้วคุณครูจากชาเล่ต์ก็หายตัวไปพร้อมกันอีก มันไม่บังเอิญไปหน่อยเหรอ? "
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "นอกจากนี้ยังพบว่ามีการใช้ PMC เพื่ออุดช่องว่างที่เกิดขึ้นหลังจากยุบ SRT ด้วย ถึงจะเป็นการซื้อ\nขายแบบไม่ระบุชื่อ แต่ก็สามารถแกะรอยจากดัชนีการเงินได้อยู่ดี"
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "แผนการแบ่งอำนาจขององค์การนักเรียนให้กับองค์กรธุรกิจ... นี่ก็เป็นฝีมือของคุณเหรอ?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "หัวหน้าฝ่ายบริหาร คุณอยู่เบื้องหลังสถานการณ์ทั้งหมดนี้รึเปล่า? แผนของคุณเริ่มตั้งแต่ตรงไหน? ตั้งแต่ยุบ SRT? หรือตั้งแต่ก่อตั้งชาเล่ต์? หรือว่า..."
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "ตั้งแต่ประธานองค์การนักเรียนหายตัวไป...?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรื่องนั้นน่ะ ฉัน..."
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "ขอโทษนะรุ่นพี่ริน พอแค่นี้เถอะ "
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คะ... คือว่า... "
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "เราลงมติไม่ไว้วางใจรุ่นพี่ริน คณะกรรมการบริหารส่วนใหญ่จำนวน 6 คนเห็นชอบว่าไม่ไว้วางใจ\nหัวหน้าฝ่ายบริหาร "
+    },
+    {
+      "Name": "ริน",
+      "Text": "......!!"
+    },
+    {
+      "Name": "อาโออิ",
+      "Text": "คำสั่งนี้มีผลบังคับใช้อย่างเป็นทางการแล้ว จากนี้ไปจนกว่าจะมีการลงมติไว้วางใจใหม่ รุ่นพี่จะต้อง\nระงับการสั่งบริหารจัดการทั้งหมด"
+    },
+    {
+      "Text": "ตอนต่อไป;ปะทะ 2"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;衝突（１）"
+    },
+    {
+      "Name": "???",
+      "Text": "……那邊怎麼樣……"
+    },
+    {
+      "Name": "???",
+      "Text": "戒嚴令已……但是，聯邦學生會……"
+    },
+    {
+      "Name": "???",
+      "Text": "……女武神……"
+    },
+    {
+      "Name": "???",
+      "Text": "將軍傳來聯絡……還有……"
+    },
+    {
+      "Text": "[ns1]「…………」"
+    },
+    {
+      "Text": "[ns2]睜開眼睛"
+    },
+    {
+      "Text": "[ns3]（沒看見希迪姆的箱子……）"
+    },
+    {
+      "Text": "[ns4]（被拿走了嗎）"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵",
+      "Text": "……還在待機中。\n我聽說那個箱子別說是駭入了，連電源都無法開啟。"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵",
+      "Text": "在嘗試與總公司的數據中心連線後，\n似乎有8間公司都被斷電了。"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵",
+      "Text": "剩下的方法只有那個老師了吧。"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵",
+      "Text": "……啊？剛才的槍聲你有聽見嗎？"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "槍聲？"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵",
+      "Text": "喂，在上面！"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "走吧！"
+    },
+    {
+      "Name": "???",
+      "Text": "哈啊……哈啊……"
+    },
+    {
+      "Name": "???",
+      "Text": "您平安無事嗎？[USERNAME]老師……"
+    },
+    {
+      "Text": "[ns]（這個聲音是……）"
+    },
+    {
+      "Name": "環奈",
+      "Text": "您沒事真是太好了。\n為了找出這個地方費了不少功夫……幸好沒有放棄。"
+    },
+    {
+      "Text": "[s]「環奈……！？」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "──啊啊。我這種三流的惡人，您居然還記得啊。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "我現在就為您開門，請稍等……咳咳。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……唔。"
+    },
+    {
+      "Text": "[s]「環奈，你的傷……」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這是……沒什麼，請您別在意。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "哈，呼……來，請把手伸出來。"
+    },
+    {
+      "Text": "[ns]離開監牢"
+    },
+    {
+      "Name": "環奈",
+      "Text": "我想您應該有很多問題想問，不過目前離開這裡才是最優先的。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "請跟我來。"
+    },
+    {
+      "Text": "[ns] 跟上去"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵A",
+      "Text": "什，什麼！？"
+    },
+    {
+      "Name": "偽裝成女武神的PMC士兵B",
+      "Text": "嗚呃！？"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這些傢伙是偽裝成女武神學生的PMC士兵……咳咳，咳咳。"
+    },
+    {
+      "Text": "[s]「是啊。我也是剛剛才知道……這裡是……？」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這是位於D.U.的女武神第3分校。\n因為預算不足的關係，本來是用於新生合宿的建築物……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "不知何時卻落入了凱薩的手中。"
+    },
+    {
+      "Text": "[s]「凱薩……」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "恐怕，在女武神內部有他們的協力者吧。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "凱薩的魔掌究竟已經伸向女武神的何處，\n我無從得知……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "不過部分的原因，就是因為有我這種墮落的警察存在。"
+    },
+    {
+      "Text": "[s]「……環奈。」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……我已經發送了信號，接下來前往後門吧。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "已經準備好能逃出被封鎖的D.U.的路線了。"
+    },
+    {
+      "Text": "[s5]「封鎖……逃出……？」"
+    },
+    {
+      "Text": "[s6]「到底發生什麼事了？」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……走吧。"
+    },
+    {
+      "Text": "[ns] 跟上去"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這是……本來預計在這裡碰頭的，警備已經加強了嗎……"
+    },
+    {
+      "Name": "PMC士兵A",
+      "Text": "什麼人！！"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "在這裡！開火！！"
+    },
+    {
+      "Name": "環奈",
+      "Text": "唔……！老師，危險！"
+    },
+    {
+      "Text": "[ns]「環奈！！」"
+    },
+    {
+      "Name": "PMC士兵A",
+      "Text": "呃啊！？"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "居然……還有援軍……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "老師！您沒事吧！？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "唔唔……真不像是我會做的事，事情怎麼會變成這樣……"
+    },
+    {
+      "Text": "[s7]「桐乃！吹雪！！」"
+    },
+    {
+      "Text": "[s8]「生活安全局，你們來了啊！」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "哈啊……哈啊……幸好趕上了。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "你，你有看到嗎！？本官完美又精準的射擊──咦，環奈公安局長！？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "哇啊，好像很痛呢……還好嗎？"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這不算什麼。我並不想成為你們的累贅。\n確保撤退的路線吧。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "我知道了！那麼老師，請跟著本官和吹雪！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "似乎還沒被敵人發現，狂犬──不，環奈局長也要小心地跟上來哦。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "真是驚人的警戒狀態……嗚。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "哈啊……哈啊……稍微，等等……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "桐乃，局長似乎有點吃力。\n稍微放慢速度吧。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "啊，失，失禮了！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "先稍作休息，進入那邊的建築物吧。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "好，走吧。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "我想這裡應該是安全的。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "不過沒時間了。稍微喘口氣就得趕快移動。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "這裡是……哈啊……哈啊……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "環奈局長……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "為什麼要做這種不適合你的事呢？\n明明像個公安局長好好調查就好了……居然還特地跑到這種地方……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "我可不能，把責任轉嫁給別人……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "我想也是。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "在這個利害關係錯綜複雜的情況下……\n我總不能，命令部下違反規則……跟上來吧。"
+    },
+    {
+      "Text": "[s]「我不在的期間，究竟發生了什麼事？」"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "這個嘛……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……6小時前，凱薩PMC襲擊了聯邦學生會。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "指揮凱薩PMC的高階指揮官……通稱「將軍」解散了行政委員會，掌握了聖所之塔。並在D.U.全區發布了戒嚴令。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "往來D.U.的所有交通網與通訊網都被切斷，\n包含女武神在內的其他機關也失去行政權限，目前處於等待命令的狀態……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "現在D.U.的治安由於戒嚴令的關係，掌握在凱薩PMC手裡。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "而我，像這樣救出老師並與凱薩PMC敵對的行為，\n就和違背了組織的命令沒什麼兩樣。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "生活安全局的學生並不是維持治安的組織，\n因此只要說是「遵從碰巧遇見的上司的命令」，應該就不會被追究責任了吧。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "本，本官並不在意那種事！\n為了正義，這種程度──"
+    },
+    {
+      "Name": "環奈",
+      "Text": "如果你們不在了，奇普托斯的交通怎麼辦？\n生活遇到困難的居民會怎麼樣呢？"
+    },
+    {
+      "Name": "環奈",
+      "Text": "既然各自所擁有的能力與立場不同，應該背負的責任也不一樣。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "把你們牽扯進我的任務……之後再讓我好好賠罪吧。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "……我的話只要一箱Master Donut的糖霜甜甜圈就夠了。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "甜甜圈想拿多少都可以。公安局的辦公室裡多的像山一樣。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "回歸正題吧。\n在老師下落不明之後──"
+    },
+    {
+      "Name": "環奈",
+      "Text": "行政官設立了「緊急對策委員會」並召集了各個自治區的代表。\n這點我想您應該知道。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "因為老師本來也預計會參加。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "但在那之後……本應從夏萊建築物出發的老師便不知去向……"
+    },
+    {
+      "Name": "琳",
+      "Text": "情況如何？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "沒辦法，到處都找不到老師的蹤跡。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "步",
+      "Text": "琳前輩……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……我知道了。桃香請繼續追查老師的行蹤。\n無論使用任何手段，請一定要找到老師。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "知道了～\n我會試試看的……"
+    },
+    {
+      "Name": "琳",
+      "Text": "因為無法取消緊急對策委員會的召集，將依照計畫進行。"
+    },
+    {
+      "Name": "步",
+      "Text": "前輩……與防衛室的香耶同學也無法取得聯絡……"
+    },
+    {
+      "Name": "步",
+      "Text": "……阿拜多斯因為緊急狀況將會缺席。\n千年的莉央同學也沒有任何回應……"
+    },
+    {
+      "Name": "步",
+      "Text": "有很多人都是因為夏萊的老師會參加才回應了召集……\n這樣下去的話……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "在老師不在的情況下，即使設立了緊急對策委員會──"
+    },
+    {
+      "Name": "琳",
+      "Text": "……以上就是在奇普托斯各處出現的超高濃度能量體現象的全貌。"
+    },
+    {
+      "Name": "琳",
+      "Text": "阿拜多斯沙漠、D.U.近郊的廢棄遊樂園、千年郊外的封鎖地區、三一與格黑娜的邊界附近、千年近郊的新都市……以及D.U.的聖所之塔。"
+    },
+    {
+      "Name": "琳",
+      "Text": "為了查明此一現象，各自治區的協助是必不可少的。\n還請各位協助。"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "請先稍等。老師在哪裡呢？\n我聽說「夏萊」也會參加緊急對策委員會。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這，這個……"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "現在有比這更迫切的案件必須和「夏萊」討論。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "更迫切的案件……櫻子同學，你指的是？"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "這……在這裡說的話，有點……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "修女會又有事隱瞞著我們嗎！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我們也有事要向老師傳達。是和本案有密切關係的事。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "那孩子在睡覺耶，還好嗎？\n聖亞醬明明在發言，是覺得很想睡嗎？"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "真琴前輩，請起來……現在大家都在看著前輩……"
+    },
+    {
+      "Name": "真琴",
+      "Text": "嘻嘻嘻……我並不是在睡覺。只是覺得那個連搖籃曲都算不上的噪音很不舒服而已。"
+    },
+    {
+      "Name": "伊吹",
+      "Text": "吶～什麼時候才會結束？\n伊吹沒吃早餐，肚子餓了……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嘿，搖籃曲……？\n那我就讓你睡得更熟──"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "彌香，坐下吧。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊哈哈，我只是想拉一下椅子而已☆"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "請等一下，我還沒有聽到回答。\n老師在哪裡呢？"
+    },
+    {
+      "Name": "真琴",
+      "Text": "不用問也知道。八成是被聯邦學生會藏起來了吧！\n也就是說，這個會議根本就毫無意義！"
+    },
+    {
+      "Name": "真琴",
+      "Text": "這是聯邦學生會的陰謀！\n連這點程度的陰謀都沒看穿，還能稱得上是君臨於學園頂點之人嗎？嘻嘻嘻。"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "啊啊真是的，都怪前輩說出那種話，情況越來越複雜了……"
+    },
+    {
+      "Name": "琳",
+      "Text": "各位……請安靜一點。\n我們也正在尋找老師的行蹤。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "尋找行蹤……？\n意思是老師下落不明嗎？"
+    },
+    {
+      "Name": "真琴",
+      "Text": "繼續討論也沒有意義。\n對方是夏萊就算了，我們和聯邦學生會無話可說！伊呂波、伊吹、皐月！回去了！"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "咦？請，請等一下……！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……以目前的情況來看，可疑之處確實不少。"
+    },
+    {
+      "Name": "渚",
+      "Text": "沒錯。我們也試著分析眼前的情況吧，聖亞同學、彌香同學。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……看來，這不像是可以合作的狀況呢。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "慢著！怎麼沒有布丁啊！\n咱都特地跑到這種地方來了！"
+    },
+    {
+      "Name": "親衛隊",
+      "Text": "會長，學園傳來了緊急消息。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……什麼，政變！？\n在咱外出的期間！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "這次是「寒冬的乾布摩擦聯盟」？還有那種聯盟啊……？\n算了，無所謂！智惠，回去了！去鎮壓政變！"
+    },
+    {
+      "Name": "步",
+      "Text": "……唉，看來沒有那麼簡單呢……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "這種事要做到什麼時候呢……？"
+    },
+    {
+      "Name": "琳",
+      "Text": "……下次會議是哪些學園呢？"
+    },
+    {
+      "Name": "聯邦學生會行政官",
+      "Text": "是，下次是──"
+    },
+    {
+      "Name": "碧",
+      "Text": "──沒有下次了。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "！！"
+    },
+    {
+      "Name": "步",
+      "Text": "財，財務室長……！"
+    },
+    {
+      "Name": "琳",
+      "Text": "碧……"
+    },
+    {
+      "Name": "碧",
+      "Text": "防衛室長下落不明了。\n因為這個「緊急對策委員會」而受到權限侵害最嚴重的人……\n偏偏在這個節骨眼消失。"
+    },
+    {
+      "Name": "琳",
+      "Text": "那是……"
+    },
+    {
+      "Name": "碧",
+      "Text": "而且，夏萊的老師也下落不明。\n我說……要說這是偶然，未免也太巧了吧？"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "碧",
+      "Text": "還確認到SRT解散後出現的空缺將會由PMC填補這件事。\n雖然是無記名交易，但只要追蹤帳簿馬上就會知道。"
+    },
+    {
+      "Name": "碧",
+      "Text": "將聯邦學生會的權力分給私人企業的計畫……\n這就是你的目的嗎？"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "碧",
+      "Text": "琳行政官──是你在背後穿針引線的嗎？\n從哪裡開始是你的計劃呢？\nSRT的解散？夏萊的成立？還是──"
+    },
+    {
+      "Name": "碧",
+      "Text": "──聯邦學生會長的失蹤？"
+    },
+    {
+      "Name": "琳",
+      "Text": "我……"
+    },
+    {
+      "Name": "碧",
+      "Text": "對不起，琳前輩。\n──到此為止吧。"
+    },
+    {
+      "Name": "步",
+      "Text": "那，那是……"
+    },
+    {
+      "Name": "碧",
+      "Text": "是對你的不信任案唷。\n行政委員會過半數的6名成員，同意了琳行政官的不信任案。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……！"
+    },
+    {
+      "Name": "碧",
+      "Text": "這是正式生效的命令書。\n前輩的行政命令，直到再信任投票通過為止將會全部停止。"
+    },
+    {
+      "Text": "下一話;衝突（２）"
+    }
+  ]
+}

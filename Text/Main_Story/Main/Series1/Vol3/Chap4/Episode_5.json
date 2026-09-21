@@ -1,0 +1,2092 @@
+{
+  "TitleJP": "不可解な探求者",
+  "TitleKR": "불가해한 탐구자들",
+  "TitleEN": "Inscrutable Seekers",
+  "TitleTH": "ผู้ค้นคว้าที่ไม่อาจเข้าใจได้",
+  "TitleTW": "無法理解的探究者",
+  "DescJP": "「ゲマトリア」の会合を目撃してしまったセイアは、ベアトリーチェがアリウススクワッドを使って先生を始末しようとしている事を知る。既にアリウス自治区がゲマトリアの手に落ちている事実に気づいたと同時に、ゲマトリアにその存在を勘付かれてしまったセイアは、急いで現実に戻って、この事実を誰かに伝えなければと焦る。時を同じくして、セイアと話し合うべく呼び出されたミカが部屋を訪れ――。",
+  "DescKR": "세이아가 목격한 것은 <게마트리아>의 구성원들이 논쟁하는 광경이었다. <게마트리아>의 구성원 중 '베아트리체'는 아리우스 스쿼드를 이용해 선생님을 처리할 것이라고 선언하는데, 그 순간 무언가 낌새를 채고 회의를 해산시킨다. 세이아는 정신적으로 큰 충격을 받은 채 현실로 돌아오고, 그 순간 미카가 세이아를 찾아온다.",
+  "DescEN": "Seia witnesses a group of Gematria members arguing in what she thinks is a dream. Among the Gematria members is Beatrice. She declares she will use the Arius Squad to eliminate Sensei, but senses Seia's presence and quickly ends the meeting. Seia is greatly shocked and wakes up from the dream. Then, Mika comes to visit her.",
+  "DescTH": "สิ่งที่เซอาได้เห็นคือภาพของสมาชิก <เกมาเทรีย> ที่กำลังโต้เถียงกันขณะที่สมาชิก <เกมาเทรีย> ที่ชื่อ 'เบียทริซ' เสนอให้ใช้ประโยชน์จากสควอด\nของอาเรียสเพื่อกำจัดคุณครู และในตอนนั้นเองเบียทริซก็สังเกตเห็นเซอา\nเมื่อเซอากลับมาสู่โลกแห่งความเป็นจริงก็รู้สึกสะเทือนใจอย่างรุนแรง\nและมิกะก็มาหาเซอาพอดี",
+  "DescTW": "聖亞目睹的是<蓋瑪特利亞>成員們爭論的情景。<蓋瑪特利亞>的成員中，「貝雅特里榭」放話將利用奧利斯小隊把老師處理掉，接著在那一瞬間察覺到什麼，所以解散了會議。聖亞在精神上受到巨大衝擊的狀態下回到現實。並在那個瞬間，彌香來找聖亞了。",
+  "DialogJP": [
+    {
+      "Text": "第5話;不可解な探求者"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "要請によって、私は自分の力を貴下に貸したのは覚えているな？"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "戒律を守護せし者たちを[ruby=ミメシス]複製[/ruby]して、そちらの計画に付き合わせた件だ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ、とても感謝していますよ、マエストロ。おかげさまで、私は領地でさらに大きな力を得ることができました。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "私は貴下がそれを利用する事を許可した覚えはない。そも、私の作品をそのように使うことは許可していないはずだ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あの現象はあなたの所有物ではないはずですよ、マエストロ。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……不躾だな。私は所有権を主張しているわけではない、それは――"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "不躾？よくもまぁ……私にそんな口を。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "まぁまぁ……お二人とも落ち着いてください。事を荒立てないでくださいよ。"
+    },
+    {
+      "Name": "デカルコマニー",
+      "Text": "そういうこった！"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "……失礼しました。マエストロはきっと、普遍的な現象を通じて独創的な解釈をすることは、自分なりの表現法だと考えているのでしょう。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "しかし、それはマダムの立場では別段考慮する必要がない部分かもしれません。私たちは皆、この世界を解釈する方法が違いますから。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "――つまり、私がマエストロの武器を勝手に奪ったことが気に食わない、ということですよね？"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……貴下が行うのは芸術ではない。そこには美学も何もなく、ただ兵器を生み出すだけの行為だ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ、そうです。何か問題でも？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "それに、あなただけではありません。私は黒服が提供した技術力も、ゴルコンダが解釈したテクストもそのように使っています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私はあなたたちの芸術に興味はありません。「ゲマトリア」の一員になる時から主張してきた話だと思いますが。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "クックックッ……その通り。それはそれで良いのではと、私はそう思っています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "仲間同士で争う必要はないかと。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "彼女はキヴォトスに自分だけの領地を確保しています。私たちの計画に最も必要な存在ですから。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "アリウス自治区ですね。あそこのすべての生徒と学園を自分の支配下に置くなんて、確かにそれは偉業です。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……！！）"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "黒服のアビドスは残念でしたが……おっと、失礼。皮肉を言っているつもりではありません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ククッ……お気になさらず。たしかに惜しかったですが――あの先生の存在は私の計算に入ってなかったので。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……「シャーレ」。例のあの者ですね。私たちの敵対者。"
+    },
+    {
+      "Name": "デカルコマニー",
+      "Text": "そういうこった！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……！！）"
+    },
+    {
+      "Name": "黒服",
+      "Text": "いいえ。あの者とは対敵してはいけません。むしろ私たちの仲間に引き入れたほうが良いでしょう。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "私としても大変気に入っている。あの者は、私たちの理解者になってくれるかもしれない。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "私はまだ判断を保留していますが……もしベアトリーチェのように私たちの一員になってくれるなら……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "愚かで怠惰な思考ですね。「シャーレ」の先生は必ず排除しなければなりません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "説明が必要なようですね。ええ、せっかくですので一つずつ順を追っていきましょうか。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "[ruby=みその]聖園[/ruby]ミカがアリウス自治区を訪れて以降、彼女に多くのことを手伝っていただきました。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……ミカ？）"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そう……いわば聖園ミカは私にインスピレーションを与えてくれる……ミューズとでも言いましょうか。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "「エデン条約」を利用して太古の威厳を確保するというアイデアも、予知夢の大天使を真っ先に処分すべきだという判断も、彼女のおかげで実現できたのです。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "預言者だなんて厄介な存在はさっさと排除するに限りますからね。珍しい技術を提供してくれたデカルコマニー……いえ、ゴルコンダに感謝します。"
+    },
+    {
+      "Name": "デカルコマニー",
+      "Text": "そういうこった！"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "私はテクストを提供しただけで、それを形にしたのはマダムですよ。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "それに、むしろその技術がマダムの足を引っ張っていませんでしたか？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ……ですが、生贄の体に予め植えておいた防御システムのおかげで助かりました。感謝します、黒服。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……クックックッ。無名の司祭たちの技術が役に立ってよかったです。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そして、聖園ミカが最後にくれたインスピレーションが……まさに「シャーレ」の先生についてのことでした。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "彼女が先生をトリニティに招待したので、私はその存在について認識し、考察できたのです。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私がアリウス自治区をターゲットにしたのは、純粋にそこが秘匿された場所であるからで、それ以上の意味はありませんでした。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "「トリニティ」や「ゲヘナ」……それらに向けられた怒りと憎悪など……私にとってはどうでもいいこと。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "「憎悪」は子どもたちを統制するための手段に過ぎず、「エデン条約」は守護者の力を得るための方法に過ぎず、「スクワッド」は使い捨ての道具でしかない。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "聖園ミカが先生をトリニティに連れてこなかったら、私もあの者の事など歯牙にもかけなかったでしょう。ですが……あの活躍をこの目で見てしまった……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "アレが介入すると、私が持っているすべての意味が変わってしまいます。あの者は危険です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そこで気づいたのです。私の計画を果たすためには、真っ先に「先生」を消さなければならないということに。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "まさに[ruby=敵対者]アンタゴニスト[/ruby]ですね……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ふむ……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私の決定が気に入らないようですが――どうせ私たちは各々の目的を追求するだけの存在。あなた方に私を妨害する権利はないでしょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……ええ、そのような権利はありません。思うままになさってください、ベアトリーチェ。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "しかし、あなたの計画というものが何なのか、私たちに具体的に教えてくれたことはありませんでした。マダム、あなたはアリウス自治区で何をしているのですか？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "祭壇を用意しています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "祭壇……？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あなたがアビドスでしようとしていた事と本質的には変わりません。ただ、私は契約をするつもりはないですが。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ほう、契約の代わりに儀式ですか……本来その二つは変わらないと考えることもできますが……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "それを実行する上で、先生の存在が必ず邪魔になると？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ、そうです……既に手は打ってあります。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "「スクワッド」が先生を処理してくれることでしょう。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……！！！）"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……なるほど、スクワッドですか。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "廃棄しようとしていた消耗品ですが、先生を殺せば許す機会を与えると伝えました。彼女たちにとっては断ることができない提案ですから。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "い、いけない……！先生が……危険……！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……うっ！？）"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……どうやら、ネズミが潜り込んでいるようですね。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……！！"
+    },
+    {
+      "Name": "ゴルコンダ",
+      "Text": "ここに？ここには我々以外誰も……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "少々話しすぎたようです。私はこれで帰るとします。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "マエストロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……はぁ、はぁ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……はぁ、はぁ、はぁ……はぁ……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（先程の光景は……一体……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "う、うぅっ……！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ゲホ、ゲホゲホ……！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（アリウス自治区は、既にゲマトリアに支配されていた……！？）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ゲホ、ゲホッ……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……体が、言うことを聞かない。意識が……でも……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（アリウスの生徒たちの「教育」も、自治区の位置を今まで見つけられなかったのも……あの正体不明の技術も……ヘイローを壊す爆弾も……すべて……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（ゲマトリアと関係があるとしたら……すべて辻褄が合う……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（「スクワッド」が先生を追っているのであれば……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（先生が危険だ……早く誰かに知らせねば……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（彼女たちは既に一度先生を攻撃している……恐らく、このキヴォトスで最も危険な……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（……ヘイローを壊す爆弾）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（私の命が狙われて……エデン条約が決裂して……みんなが怪我をして……先生が危険にさらされたのも……すべて……）"
+    },
+    {
+      "Name": "セイア",
+      "Text": "（そのすべての……始点があるとしたら……それは……）"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "えっと……その、こんにちは。セイアちゃん……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……ミカ。"
+    },
+    {
+      "Text": "次回;折れてしまった羽"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제5화;불가해한 탐구자들"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "그래. 요청에 따라 나는 나의 힘을 귀하에게 빌려주었다."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "계율의 수호자들을 미메시스 하여 귀하의 계획에 어울려주었지."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그 부분에 대해서는 감사하게 생각하고 있어요. 마에스트로. 덕분에 저는 저의 영지에서 더욱더 큰 힘을 얻을 수 있게 되었지요."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "아니, 난 그것을 귀하가 멋대로 이용해도 된다고 허락한 적이 없다. 내 작품의 방법론을 그렇게 사용하는 것을 용납할 수 없다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "미메시스 현상이 당신의 소유물은 아닐 텐데요. 마에스트로."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "무례하군. 나는 소유권을 주장하는 것이 아니다. 그것은……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "무례하다고? 감히 나에게?"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "자, 자……. 두 분 다 진정해주세요. 여기서 언성을 높이지 않았으면 좋겠습니다. "
+    },
+    {
+      "Name": "데칼코마니",
+      "Text": "그렇다!"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "……실례했습니다. 마에스트로의 입장에서는 보편적인 현상을 통해 독창적인 해석을 하는 것은 자신만의 고유한 표현법이라고 생각하는 것입니다."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "……."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "하지만 그것은 마담의 입장에서는 딱히 고려할 필요가 없는 부분이겠죠. 우리 모두는 이 세계를 해석하는 방법이 다르니까요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "쉽게 말해서. 제가 마에스트로의 무기를 멋대로 빼앗아서 기분 나쁘다, 그런 얘기겠죠?"
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "……귀하가 행하는 것은 예술이 아니다. 그건 어떠한 미학도 없이 그저 병기를 만드는 것뿐."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네. 맞아요. 그리고 거기에 무슨 문제가?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그리고 비단 당신뿐인 건 아니에요. 저는 검은 양복이 제공한 기술력도, 골콩트가 해석한 텍스트도 그런 식으로 사용하고 있습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "저는 당신들의 예술에 관심이 없어요. <게마트리아>의 일원이 될 때부터 강조했던 얘기일 텐데요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "큭큭큭……. 그렇습니다. 그건 그거대로 좋지 않나, 그렇게 생각하고 있습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "동지들끼리 그 주제로 싸울 필요는 없다고 생각합니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그녀는 키보토스에 자신만의 영지를 확보한 존재. 우리들의 계획에 가장 절실히 필요한 존재이니까요."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "아리우스 자치구였었죠. 모든 학생과 학원을 자신의 지배하에 두다니, 확실히 그건 대단한 업적이죠."
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……!!)"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "검은 양복의 아비도스는 아쉬웠지만요. ……이런. 실례했습니다. 비꼬려는 의도는 아니었어요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "큭큭…… 괜찮습니다. 확실히 그 선생의 존재는 제 계산에 없었으니까요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……<샬레>. 예의 그자 말이군요. 우리들의 대적자."
+    },
+    {
+      "Name": "데칼코마니",
+      "Text": "그렇다!"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……!!)"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아뇨. 그자와는 대적해서는 안됩니다. 오히려 우리의 동료로 만드는 편이 낫습니다."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "나 역시 그자가 마음에 들었다. 그는 우리들의 이해자가 되어 줄지도 모른다."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "저는 아직까진 판단을 보류 중이지만……. 그자가 베아트리체처럼 우리들의 일원이 되어준다면……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "우둔하고 게으른 생각들이군요. 아니요, <샬레>의 선생은 반드시 제거해야 합니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "……."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "설명이 필요한가 보군요. 좋아요. 모처럼 좋은 날이기도 하니, 하나씩 얘기해볼까요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "미소노 미카가 아리우스 자치구를 찾아온 이래로, 저는 그녀에게서 많은 도움을 받았습니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……미카?)"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그래…… 말하자면 미소노 미카는 저에게 영감을 주는…… 뮤즈라고 할까요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "<에덴조약>을 이용해 고대의 위엄을 확보한다는 아이디어도, 그 예지몽의 대천사를 가장 먼저 처리해야 한다는 결정도 그녀 덕분에 할 수 있었습니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "예언자라니, 그것만큼 무서운 방해꾼은 없으니까요. 모처럼 희귀한 기술을 제공해 준 데칼코마니…… 아니, 골콩트에게도 감사드리죠."
+    },
+    {
+      "Name": "데칼코마니",
+      "Text": "그렇다!"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "저는 그저 텍스트를 제공했을 뿐, 그걸 폭탄의 형태로 만든 건 마담이었죠. "
+    },
+    {
+      "Name": "골콩트",
+      "Text": "게다가 오히려 그 기술이 마담을 곤란하게 만들 뻔하지 않았나요?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네. 하지만 제물의 몸에 심어둔 방어 시스템 덕분에 살았죠. 도움에 감사드리죠. 검은 양복."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……큭큭큭. 무명사제들의 기술이 도움이 되었다니 다행이군요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그 미소노 미카가 최후에 주었던 영감이 바로……. <샬레>의 선생에 대한 것이었습니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그녀가 선생을 트리니티로 초대했기 때문에, 저는 그 존재에 대해 인식하고 고찰할 수 있었던 거죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "제가 아리우스 자치구를 타깃으로 삼은 것은 순전히 그곳이 숨겨져 있는 장소이기 때문, 그 이상의 의미는 없었습니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "<트리니티>니, <게헨나>니…… 그들에게 팽배한 분노와 증오 같은 건…… 저에게는 아무래도 상관없는 것들이었죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "<증오>는 아이들을 통제하기 위한 수단일 뿐이고, <에덴조약>은 수호자의 힘을 얻기 위한 방법일 뿐이고, <스쿼드>는 쓰고 버리는 도구일 뿐."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "미소노 미카가 선생을 트리니티에 데려오지 않았다면, 저도 선생을 신경 쓰지 않았겠죠. 하지만…… 그 이후 선생이 보여준 결과들을 보면……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "샬레의 선생이 개입하면 제가 가진 그 모든 의미들이 달라져버립니다. 그자는 위험해요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그래서 깨달은 거죠. 제 계획을 완수하기 위해선, 그 무엇보다 가장 먼저 <선생>부터 사라져야 한다는 것을요."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "그야말로 [ruby=대적자]안타고니스트[/ruby]로군요……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "흐음……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "제 결정이 마음에 들지 않나 보군요. 어차피 우리는 각자의 목표를 추구할 뿐, 저를 막을 권리는 없을 텐데요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……. 네. 그런 권리는 없죠. 뜻대로 하십시오. 베아트리체."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "……."
+    },
+    {
+      "Name": "골콩트",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "하지만 그 계획이라는 것이 무엇인지 우리에게 구체적으로 알려준 적은 없었습니다. 마담, 아리우스 자치구에서 무엇을 하고 있는 겁니까?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "제단을 준비하고 있어요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "제단……?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "당신이 아비도스에서 하려던 것과 본질적으로 다르지 않아요. 다만, 저는 계약 같은 걸 할 생각은 없지만."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호오. 계약 대신 의식이라……. 사실 그 두 개는 별반 다르지 않다고 볼 수도 있지만……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "다만, 그것을 실행하는 데 있어서 선생의 존재가 반드시 방해될 것이다?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네. 맞아요. ……사실을 말하자면, 이미 손을 써 두었죠. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "<스쿼드>가 선생을 처리할 겁니다. "
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……!!!)"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "……. "
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……스쿼드가."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "폐기하려고 했던 소모품들이지만, 선생을 죽이면 용서해줄 수도 있다고 했거든요. 그들에겐 거절할 수 없는 제안이겠죠."
+    },
+    {
+      "Name": "세이아",
+      "Text": "아, 안 돼……! 선생님이…… 위험……! "
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……읍?!)"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……. 잠깐만. 우리를 훔쳐보는 자가 있어요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……!!"
+    },
+    {
+      "Name": "골콩트",
+      "Text": "여기에 말인가요? 여긴 아무도……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "쓸데없이 많이 떠든 것 같네요. 회담은 끝이에요. 돌아갑니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "마에스트로",
+      "Text": "……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……하아, 하아. "
+    },
+    {
+      "Name": "세이아",
+      "Text": "………하아, 하아, 하아……. 하아……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "(지금 그건…… 대체…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "우, 우웁……!"
+    },
+    {
+      "Name": "세이아",
+      "Text": "쿨럭, 쿨럭쿨럭……!"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(아리우스 자치구는 게마트리아에게 지배당하고 있었다고요……?!)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "쿨럭, 쿨럭, 쿨럭, 쿨럭쿨럭쿨럭……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……몸이, 말을 듣지 않아요. 정신이…… 흐려서…… 하지만…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(아리우스 학생들의 그 <교육>도, 자치구의 위치를 여지껏 찾지 못했던 것도…… 그 정체불명의 기술도…… 그 헤일로를 부수는 폭탄도……. 모두…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(게마트리아와 관계되었다면…… 모든 것이 맞아떨어져요…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(<스쿼드>가 선생님을 쫓고 있다면…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(선생님이 위험해요…… 어서 빨리 누군가에게 알려야…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(그들은 이미 한번 선생님을 공격하는 데 성공했던 자들……. 아마도 이 키보토스에서 가장 위험한…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(……헤일로를 부수는 폭탄.)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(제 목숨이 노려지고…… 에덴조약이 결렬되고…… 모두가 다치고…… 선생님이 위험에 처해진 것도……. 모두…….)"
+    },
+    {
+      "Name": "세이아",
+      "Text": "(그 모든 일들의…… 시작점이 있었다면…… 그건 바로…….)"
+    },
+    {
+      "Name": "미카",
+      "Text": "어…… 저기…… 안녕. 세이아 쨩……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……미카."
+    },
+    {
+      "Text": "다음화;부러져버린 것들"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 5; Inscrutable Seekers"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "..."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "I graciously permitted you access to my art. To the very expression of my soul."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "To help you, I went so far as to bring forth the guardians of the commandments as Mimesises. I brought your crass plan to fruition."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And I'm so, very grateful for your assistance. Just behold the strength of my estate now."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "I don't need your trite appreciation. Your current misappropriation of my work is a direct insult to me. And insulting me is not a wise move."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Oh! My sincerest, deepest apologies. I was unaware you personally devised the Mimesis phenomenon!"
+    },
+    {
+      "Name": "Maestro",
+      "Text": "You dare jest? Your insolence knows no bounds."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Hah! I've never been accused of insolence by an inferior."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "Hahaha! Shall we all try some breathing exercises together? Perhaps it'll help you keep your voices down.  "
+    },
+    {
+      "Name": "Decalcomania",
+      "Text": "But of course!"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "What an entertaining conundrum! On one hand, our distinguished Maestro claims the Mimesis process belongs to he who harnessed it."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "..."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "But then our dearest Madame asserts one cannot claim ownership just because one holds the leash! Fascinating, fascinating!"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "For once in your brainless existence, learn to keep your opinions to yourself, Golconde. You fabricate meaning behind what is nothing more than a temper tantrum."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "You defile my work and then dare to belittle me? You are creating weapons with no consideration for artistry! You have no understanding of metaphors! Of passion!"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Please, your hysterics are unbecoming. There is no need for art where there is power. And your supposed art would never have seen the light of day without Black Suit and Golconde's assistance."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Tell me, Maestro. Are you afraid? Do you fear the power I have amassed with your work? ...Perhaps you fear we have no need for you any longer."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Mark my words, speak to me of your little art project again and I will leave here with my estate. And you will be left with nothing but your passion."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Hahaha! What's done is done, both of you."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Let's not lose our heads over semantics. No offense, Golconde."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Beatrice, you've secured your own estate in Kivotos. This alone makes her invaluable to our plan, Maestro."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "She's subdued every single one of those angry little students in the Arius district! Hahaha! It's a wonderful step forward for us all. "
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...!)"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "I mean, did we not all see the disaster that was Black Suit's Abydos... Oh, dear! Why, that was rather rude of me!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Haha! You're only speaking the truth, Golconde. I'll admit, I didn't factor the teacher into my plans."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "...Schale. That Sensei is a nuisance."
+    },
+    {
+      "Name": "Decalcomania",
+      "Text": "But of course!"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...!)"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "A nuisance, yes. But one that could become an invaluable asset if persuaded to our side."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "Ah, Sensei! Now there's one who understands art!"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "What if we could turn them into one of us? Like we did with Beatrice! She could certainly use a friend."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "All of you are foolish beyond comprehension. We must eliminate the Schale educator or all we have done will be for naught."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "..."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "*sigh* Must I always be surrounded by incompetence?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Allow me to explain in terms you three can understand. It all begins with Misono Mika."
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...Mika?)"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Mika is my muse, my inspiration. There's a metaphor that'll resonate with you."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "It was thanks to her I came up with the idea of securing those ancient powers through the Eden Treaty. Without Mika, I would never have realized and subsequently dealt with the overwhelming threat of the prophetic archangel."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I must thank you and Decalcomania again, Golconde, for providing me such rare technology."
+    },
+    {
+      "Name": "Decalcomania",
+      "Text": "But of course!"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "Oh, please! I only had the recipe. Without our esteemed cook, there would have been no bomb.  "
+    },
+    {
+      "Name": "Golconde",
+      "Text": "I actually felt a little bad about that! Hahaha! Didn't our little masterpiece get you into trouble?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Almost. But thanks to Black Suit, I was able to plant a defense system in the body of an offering."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Always happy to help. The nameless priests' technology proved more helpful than I expected."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Indeed, it did. And that brings me to the final inspiration that Misono Mika provided me: Sensei."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Had that girl not reached out to Schale, I wouldn't have been given the opportunity to observe Sensei with my own eyes."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "This was when I came to see Sensei's power. When I targeted Arius, it was simply due to their isolation and anonymity. No one would find me there."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Trinity, Gehenna, Arius... It didn't matter which one of them it was. I couldn't care less for their little conflicts, all the festering hate between them."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "What mattered was that hatred is a convenient means for control. The Eden Treaty was simply a way to gain new power. Squad, the rest of them, they were all disposable at best."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "But Sensei... They charged through my perfectly set scene spewing nonsense about saving the students and their dreams. And somehow, their methods worked."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I will not underestimate Schale and their teacher again. Their involvement alters the very purpose of our work."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Sensei must be eliminated."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "Beatrice is all fired up! She's found herself a worthy opponent!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Hm... I can't necessarily say I agree."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Will you stop me? We may have fallen in together under a common goal, but taking orders isn't my strong suit."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...I'm well aware. Do as you wish, Beatrice."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "..."
+    },
+    {
+      "Name": "Golconde",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "What I'm much more curious about however, is what your plans are for the Arius district."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I'm preparing an altar."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Fascinating. To what end?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "The same end you attempted to achieve in Abydos. I felt a ritual more...suited to my tastes."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Haha! You certainly aren't the type to enter into a fair pact. But your methods fulfill the conditions all the same. Excellent work."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "And you really believe Sensei is powerful enough to stand in your way?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Yes, which is why I've already taken measures to prevent that.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I'm sending Squad to eliminate Sensei."
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...!!!)"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "... "
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Squad, hm?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I promised them forgiveness for Sensei's head. Whether or not I actually do, that'll depend on my mood."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Sensei is in danger! I have to warn someone!  "
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...Huh?!)"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "....An insignificant fly is eavesdropping."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...!"
+    },
+    {
+      "Name": "Golconde",
+      "Text": "One, two, three, four... I only count four!"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "That's enough. We're done here."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Maestro",
+      "Text": "..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "*pant* *pant* "
+    },
+    {
+      "Name": "Seia",
+      "Text": "*huff* *puff* *huff* *puff*"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(What...did I just see...?)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "U-Ugh!"
+    },
+    {
+      "Name": "Seia",
+      "Text": "*cough cough*"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(The Arius district was being controlled by Gematria?!)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "*cough* *cough cough*"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(Everything feels so...foggy... Focus, Seia...!)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(The training of the Arius students, why the district was so elusive...and the foreign technology...the halo-shattering bomb...)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(It...It all ties back to Gematria... It all makes sense.)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(And Squad is after Sensei's life.)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(Sensei's in danger...! I have to tell someone!)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(They almost died during the Eden Treaty attack...)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(...And their bomb...there's nothing more dangerous in all of Kivotos.)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(My life was threatened... The Eden Treaty broke down... Everyone got hurt... Sensei nearly died...)"
+    },
+    {
+      "Name": "Seia",
+      "Text": "(The starting point of all of this...it's...)"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Um... Hi, Seia..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Mika."
+    },
+    {
+      "Text": "Next Episode; Broken Things"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 5;ผู้ค้นคว้าที่ไม่อาจเข้าใจได้"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "ใช่แล้ว ผมให้ท่านยืมพลังของผมตามที่ขอ"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "ผมมิเมซิสผู้พิทักษ์บรรทัดฐานเพื่อให้เข้ากับแผนการของท่าน"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เรื่องนั้นฉันยังรู้สึกขอบคุณจนถึงทุกวันนี้ค่ะเมสโตร เพราะมันทำให้ฉันได้รับพลังมากขึ้นจากในเขตแดน\nของฉัน"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "เดี๋ยวก่อน ผมไม่เคยอนุญาตให้ใช้สิ่งนั้นได้ตามอำเภอใจสักหน่อย ผมไม่ยอมให้ใช้กลวิธี\nของผมแบบนั้น"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "แต่มิเมซิสมันไม่ได้เป็นกรรมสิทธิ์ของคุณนี่คะ เมสโตร"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "ไม่มีมารยาทเอาเสียเลย ผมไม่ได้อ้างเรื่องสิทธิ์สักหน่อย ผมแค่..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ไม่มีมารยาทเหรอ? กล้าดียังไงถึงพูดกับฉันแบบนี้?"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "เอาละๆ ทั้งคู่ใจเย็นๆ ก่อน อย่าพูดเสียงดังที่นี่จะดีกว่านะครับ "
+    },
+    {
+      "Name": "เดคาโคมาเนีย",
+      "Text": "ใช่!"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "ต้องขอโทษด้วยครับ เมสโตรคงคิดว่าการตีความที่แปลกใหม่ด้วยปรากฏการณ์ทั่วไปคือการแสดงออก\nเฉพาะตัวของเขา"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "......"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "แต่ในมุมมองของมาดาม นั่นอาจจะเป็นสิ่งไม่จำเป็นต้องพิจารณาเป็นพิเศษก็ได้ครับ เพราะวิธีการตีความโลกใบนี้ของเราทุกคนต่างกัน"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถ้าให้สรุปง่ายๆ คือ เมสโตรอารมณ์ไม่ดีที่ฉันแย่งอาวุธของเขามาใช้ตามใจชอบ แบบนี้ใช่ไหมคะ?"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "สิ่งที่ท่านกระทำไม่ใช่ศิลปะ มันเป็นเพียงการสร้างอาวุธที่ไม่มีซึ่งสุนทรียศาสตร์ใดๆ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ก็ใช่ค่ะ แล้วมันมีปัญหาอะไรเหรอคะ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "อีกอย่าง ฉันไม่ได้ใช้แต่วิธีของคุณหรอกนะคะ ฉันใช้ทั้งเทคโนโลยีที่สูทดำจัดหาให้ และใช้ข้อความที่\nโกลคอนดาตีความให้ด้วยค่ะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันไม่ได้สนใจศิลปะของคุณหรอกค่ะ เรื่องนี้ฉันน่าจะเน้นย้ำไปแล้วตั้งแต่ตอนเข้ามาเป็นสมาชิก <เกมาเทรีย> นะคะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึหึ... ใช่ครับ ผมคิดว่านั่นไม่น่าจะใช่สิ่งที่ดีนัก"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "และคิดว่าพวกพ้องไม่จำเป็นต้องมาทะเลาะกันด้วยเรื่องแบบนี้นะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เบียทริซเป็นคนที่มีเขตแดนเป็นของตัวเองในคิโวทอส เลยเป็นคนที่จำเป็นที่สุดต่อแผนการของ\nเราครับ"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "เขตปกครองตนเองอาเรียสสินะครับ การให้นักเรียนทุกคนและโรงเรียนทุกแห่งอยู่ใต้อำนาจการปกครอง\nของตัวเองถือเป็นความสำเร็จที่ยิ่งใหญ่เลยละครับ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(...!)"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "แต่ก็น่าเสียดายอะบิดอสของสูทดำนะครับ โอ๊ะ... ต้องขออภัยด้วยครับ กระผมไม่ได้ตั้งใจจะเหน็บแนม\nนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึ... ไม่เป็นไรหรอกครับ ก็ครูคนนั้นไม่ได้อยู่ในการคำนวณของผมนี่นา"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หมายถึงคนใน <ชาเล่ต์> สินะคะ... ศัตรูตัวฉกาจของพวกเรา..."
+    },
+    {
+      "Name": "เดคาโคมาเนีย",
+      "Text": "ใช่!"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(...!!)"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ไม่ได้นะครับ เราต้องไม่เป็นปฏิปักษ์กับคนคนนั้น เอามาเป็นพวกเราน่าจะดีกว่านะครับ"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "ผมก็ถูกใจครูคนนั้นเหมือนกันครับ คนคนนั้นอาจจะมีผลประโยชน์ต่อพวกเราก็ได้"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "แม้ว่ากระผมจะยังตัดสินใจไม่ได้... แต่หากคนคนนั้นเข้ามาเป็นสมาชิกของเราเหมือนกับเบียทริซละก็..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เป็นความคิดที่โง่เขลาจังเลยนะคะ เราต้องกำจัดครูจาก <ชาเล่ต์> นั่นให้ได้ต่างหากค่ะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "......"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "อยากได้คำอธิบายสินะคะ ได้ค่ะ ไหนๆ วันนี้ก็เป็นวันดี งั้นฉันจะไล่ให้ทีละข้อเลยค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ตั้งแต่มิโซโนะ มิกะมาที่เขตปกครองตนเองอาเรียส ฉันก็ได้รับความช่วยเหลือมากมายจากเธอ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(มิกะ...?)"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถ้าจะให้พูดง่ายๆ... มิโซโนะ มิกะคือคนที่ให้แรงบันดาลใจกับฉันค่ะ... จะเรียกว่าเป็นมิวส์ได้ไหมนะ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ทั้งไอเดียในการใช้ <สนธิสัญญาเอเดน> เพื่อให้ได้มาซึ่งความสง่างามของอดีตกาล ทั้งการตัดสินใจว่า\nต้องกำจัดนางฟ้าแห่งความฝันเป็นอันดับแรก... ฉันได้ทั้งหมดนี้มาเพราะมิกะค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "มันไม่มีอะไรน่ากลัวได้เท่ากับผู้เลื่อมใสแล้วละค่ะ ต้องขอบคุณเดคาโคมาเนีย... ไม่สิ... ขอบคุณโกลคอนดาด้วยนะคะที่ให้เทคโนโลยีล้ำค่ามาใช้"
+    },
+    {
+      "Name": "เดคาโคมาเนีย",
+      "Text": "ใช่!"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "ผมแค่ให้ข้อความเท่านั้น มาดามต่างหากครับที่ทำให้มันเป็นระเบิดขึ้นมา "
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "แถมเทคโนโลยีนั้นยังเกือบทำให้มาดามต้องลำบากไม่ใช่หรือครับ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ค่ะ โชคดีที่รอดมาได้ด้วยระบบป้องกันที่ฝังไว้ในร่างของเครื่องสังเวย ขอบคุณที่ช่วยนะคะสูทดำ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึหึ... โชคดีนะครับที่เทคโนโลยีของพวกนักบวชนิรนามมีประโยชน์"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "และแรงบันดาลใจสุดท้ายที่ฉันได้มาจากมิโซโนะ มิกะ... ก็เกี่ยวกับครูจาก <ชาเล่ต์> ค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เธอเชิญครูคนนั้นมาที่ทรีนิตี้ ฉันเลยได้รู้จักและได้ศึกษาครูคนนั้นค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ที่ฉันเอาเขตปกครองตนเองอาเรียสเป็นเป้าหมาย เพราะมันเป็นที่ที่ซ่อนอยู่อย่างมิดชิดก็เท่านั้น ไม่มีเหตุผลอะไรอื่นเป็นพิเศษค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ความโกรธและความแค้นที่เต็มเปี่ยมใน <ทรีนิตี้> หรือ <เกเฮนน่า> อะไรนั่น... สำหรับฉันแล้วมันไม่สำคัญ\nเลยค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "<ความแค้น> เป็นเพียงวิธีที่ใช้ครอบงำเด็กๆ ส่วน <สนธิสัญญาเอเดน> ก็เป็นเพียงวิธีให้ได้มาซึ่งพลัง\nแห่งผู้พิทักษ์ และ <สควอด> ก็เป็นเครื่องมือที่ใช้แล้วทิ้งก็เท่านั้นค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถ้ามิโซโนะ มิกะไม่เชิญครูคนนั้นมาที่ทรีนิตี้ ฉันก็คงไม่ใส่ใจครูหรอกค่ะ แต่ว่า... พอได้เห็นผลงานของ\nครูหลังจากนั้น..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันก็เกิดความคิดว่าหากครูจากชาเล่ต์เข้ามาแทรกแซง ทุกคุณค่าที่ฉันมีอยู่จะเปลี่ยนไป คนคนนั้นเป็นคนอันตรายค่ะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันก็เลยตระหนักได้ค่ะ ว่าหากจะทำให้แผนการของฉันสำเร็จ <ครู> จะต้องหายไปก่อนเป็นอันดับแรก"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "ก็เลยตั้งให้เป็น[ruby=ศัตรูตัวฉกาจ]แอนทาโกนิสต์[/ruby]สินะครับ..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "สงสัยจะไม่ถูกใจการตัดสินใจของฉันสินะคะ ยังไงเราก็ต่างทำตามเป้าหมายของตัวเอง เพราะฉะนั้นไม่มีใครมีสิทธิ์ขวางฉันได้หรอกค่ะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ครับ... ไม่มีสิทธิ์แบบนั้นหรอกครับ ทำตามที่ต้องการเลยครับ เบียทริซ"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "......"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่มาดามยังไม่เคยบอกผมเลยว่าแผนการที่ว่านั่นคืออะไรกันแน่ ตอนนี้มาดามกำลังทำอะไร\nในเขตปกครองตนเองอาเรียสเหรอครับ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันกำลังเตรียมแท่นพิธีอยู่ค่ะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แท่นพิธี...?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "มันไม่ต่างจากสิ่งที่คุณตั้งใจจะทำในอะบิดอสหรอกค่ะ แต่ว่า... ฉันไม่มีความคิดจะทำสัญญาอะไร"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หืม... ทำพิธีแทนสัญญา... ที่จริงแล้วทั้งสองอย่างอาจดูไม่ต่างกันเท่าไรนะครับ..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ว่าแต่ การมีตัวตนของครูจะเป็นสิ่งกีดขวางการทำสิ่งนั้นเหรอครับ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ใช่ค่ะ ที่จริงฉันลงมือไปแล้วด้วยค่ะ... "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "<สควอด> จะไปจัดการครูคนนั้นค่ะ "
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(...!!!)"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "...... "
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "สควอด..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ตอนแรกฉันคิดว่าจะใช้แล้วทิ้ง แต่หากสควอดไปปลิดชีวิตครูได้ฉันก็ว่าจะยกโทษให้ค่ะ อีกอย่างนั่นเป็นข้อเสนอที่พวกนั้นปฏิเสธไม่ได้ด้วยค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มะ... ไม่นะ! คุณครู... อันตราย...! "
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(อึก...?!)"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "...... เดี๋ยวก่อนค่ะ มีคนแอบมองพวกเราอยู่"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...!"
+    },
+    {
+      "Name": "โกลคอนดา",
+      "Text": "อยู่ที่นี่เหรอครับ? แต่ที่นี่ไม่มีใครเลย..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ท่าทางฉันจะพูดอะไรไปเยอะเลยนะคะ จบการคุยเท่านี้เถอะค่ะ กลับก่อนนะคะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมสโตร",
+      "Text": "......"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แฮ่ก... แฮ่ก... "
+    },
+    {
+      "Name": "เซอา",
+      "Text": "เฮ่อ... แฮ่ก... แฮ่ก... เฮ้อ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(พวกนั้นมัน... อะไรกัน...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "อะ... อึกก...!"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แค่กๆ แค่กๆๆ...!"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(เขตปกครองตนเองอาเรียสถูกเกมาเทรียยึดครองอยู่งั้นเหรอคะ...?!)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แค่ก... แค่ก... แค่กๆๆ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(ร่างกายไม่ให้ความร่วมมือเลย สติ... เลือนราง... แต่ก็...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(ทั้ง <การศึกษา> ของนักเรียนอาเรียส... ทั้งตำแหน่งของเขตปกครองตนเองที่ไม่สามารถหาได้... ทั้งเทคโนโลยีนิรนาม... และระเบิดที่ทำลายฮาโล... ทั้งหมดมัน...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(ถ้ามันเกี่ยวข้องกับเกมาเทรีย... ทุกอย่างก็ลงตัวหมดเลยค่ะ...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(หาก <สควอด> กำลังไล่ล่าคุณครูอยู่...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(คุณครูกำลังตกอยู่ในอันตรายค่ะ... ฉันต้องรีบไปบอกคนอื่น...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(คนพวกนั้นคือคนที่โจมตีคุณครูสำเร็จไปแล้วครั้งหนึ่ง... สิ่งนั้นอันตรายที่สุดในคิโวทอส...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(ระเบิดที่ทำลายฮาโลได้...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(การที่ชีวิตของฉันถูกเพ่งเล็ง...  การที่สนธิสัญญาเอเดนล้มเหลว... การที่ทุกคนบาดเจ็บ... และการที่คุณครูตกอยู่ในอันตราย... ทั้งหมดนี้...)"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "(หากเรื่องทั้งหมดนี้... มีจุดเริ่มต้น... ก็คงเป็น...)"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ่า... คือ... หวัดดีนะ... เซอาจัง..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มิกะ..."
+    },
+    {
+      "Text": "ตอนต่อไป;สิ่งที่แตกหัก"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第5話;無法理解的探究者"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "我接受邀請助閣下一臂之力，這件事閣下還記得吧？"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "就是[ruby=Mimesis]複製[/ruby]出戒律的守護者們協助閣下的計劃這件事。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "當然，我很感激你哦，瑪艾斯托洛。託你的福，我才能夠在領地裡獲得更強大的力量。"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "我可不記得有允許閣下利用它們。不如說，用那種方式使用我的作品是不被允許的吧。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "那個現象可不是你的所有物哦，瑪艾斯托洛。"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……真是無禮啊。我並不是在主張所有權，而是──"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "無禮？你竟然敢……對我說這種話啊。"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "好了好了……請兩位冷靜一點吧。請別把事情搞亂了。"
+    },
+    {
+      "Name": "轉印",
+      "Text": "沒錯！"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "……失禮了。瑪艾斯托洛想必是將透過普遍的現象得出獨創解釋這件事，視為自己的獨有的表現方式了吧。"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "不過從夫人的立場來看，這部分或許沒有必要考慮吧。畢竟我們每個人解釋這個世界的方法都不一樣。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "──也就是說，我擅自奪走瑪艾斯托洛的武器這件事讓你不高興了，是這樣嗎？"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……閣下的行為並非藝術。在那之中不存在美學，只不過是為了讓兵器的誕生的行為而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯，就是這樣。有什麼問題嗎？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "再說了，我並不是只對你這樣。黑色西裝人提供的技術和戈爾孔特解釋的文本我也都是這麼使用的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我對你們的藝術沒有興趣。我從加入「蓋瑪特利亞」開始就一直是這麼說的吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "呵呵呵……確實如此。這樣也不錯，我也是這麼想的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "同伴之間沒有必要互相爭鬥。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "他在奇普托斯裡取得了屬於自己的領地。對我們的計劃來說是不可或缺的存在。"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "你指的是奧利斯自治區吧。竟然能夠支配那裡所有的學生和學園，確實能稱得上是偉業。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……！！）"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "黑色西裝人的阿拜多斯雖然遺憾地……哎呀，失禮了。我並沒有諷刺你的意思。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "呵呵……不用在意。確實是很遺憾──那位老師的存在確實不在我的計算之中。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……「夏萊」。是之前那個人吧。我們的敵人。"
+    },
+    {
+      "Name": "轉印",
+      "Text": "沒錯！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……！！）"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不。不能跟那個人敵對。反而應該讓他加入我們才對。"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "我也相當中意他。那個人說不定能夠成為我們的理解者。"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "雖然我暫時保留我的判斷……不過如果能像貝雅特里榭一樣成為我們的一員的話……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "真是愚蠢又怠惰的想法呢。「夏萊」的老師是一定要排除的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "看來需要說明呢。好吧，機會難得，我們就一件一件來吧。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "自從聖園彌香來訪奧利斯自治區後，他就幫了我們很多忙。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……彌香？）"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯……正是聖園彌香給了我靈感……也可以說是繆斯吧。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "利用「伊甸園條約」確保太古的威嚴這個點子，還有需要最優先處理掉預知夢的大天使這個判斷，也是多虧了他才能實現。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "預言家之類麻煩的存在肯定得盡快排除。我很感謝提供稀奇技術的轉印……不，戈爾孔特哦。"
+    },
+    {
+      "Name": "轉印",
+      "Text": "沒錯！"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "我只不過是提供了文本而已，實際讓它成形的可是夫人你呀。"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "不如說，那個技術扯了夫人的後腿吧？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "確實……不過，幸好有事先在祭品身上設下防衛系統。這點我很感謝你喔，黑色西裝人。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……呵呵呵。無名祭司們的技術能夠派上用場真是太好了。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "至於聖園彌香給我的最後一個靈感……正是關於「夏萊」老師的事情。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "因為他將老師招待到了三一，我才能夠認知到他的存在並進行觀察。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我之所以將奧利斯自治區作為目標，單純只是因為那是個被隱藏的場所而已，並沒有其他意圖。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "「三一」和「格黑娜」……他們對這兩個學園的憤怒和憎恨……對我來說根本無所謂。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "「憎恨」只不過是控制小孩的手段，「伊甸園條約」只不過是獲得守護者之力的方法，「奧利斯小隊」只不過是用完即丟的道具而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "如果聖園彌香沒有把老師帶到三一的話，我也不會注意到那個老師吧。不過……親眼看到他的活躍之後……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "如果被老師介入的話，我所擁有的一切意義都將會改變。那個人很危險。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "於是我意識到了。要完成我的計畫，首先就必須要把「老師」給除掉才行。"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "完全是[ruby=反派角色]antagonist[/ruby]呢……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "呼姆……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "你們似乎不太滿意我的決定呢──反正我們只不過是追求各自的目標而已，你們也沒有妨礙我的權利吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……沒錯，並沒有那種權利。隨你高興吧，貝雅特里榭。"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不過，你的計畫究竟是什麼，你還沒有具體告訴過我們吧。夫人，你在奧利斯自治區裡打算做什麼呢？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我正在準備祭壇。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "祭壇……？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "和你打算在阿拜多斯做的事情本質上是相同的。不過我並沒有簽訂契約的打算。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "哦，代替契約的儀式啊……本來這兩種方式可以認為沒什麼不同……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "如果你打算這麼做的話，老師的存在肯定會成為阻礙的哦？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯……我已經安排好了。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "「奧利斯小隊」會把老師處理掉的。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……！！！）"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……原來如此，奧利斯小隊啊。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "雖然是打算要捨棄的消耗品，不過我告訴他們只要殺掉老師就饒了他們。對他們來說，這是無法拒絕的提案吧。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "不，不好了……！老師……很危險……！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……唔！？）"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……看來有老鼠混進來了呢。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……！！"
+    },
+    {
+      "Name": "戈爾孔特",
+      "Text": "這裡嗎？這裡除了我們以外誰也……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "話說得有點多了。我就先回去了。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "瑪艾斯托洛",
+      "Text": "……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……哈啊，哈啊。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……哈啊。哈啊。哈啊……哈啊……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（剛才看到的景象……究竟是……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "嗚，嗚嗚……！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "咳，咳咳……！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（奧利斯自治區已經被蓋瑪特利亞控制了……！？）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "咳，咳……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……身體不聽使喚。意識快要……可是……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（奧利斯學生們所受的「教育」、自治區的位置一直沒有被發現的原因……那個未知的技術……還有破壞光環的炸彈……全部……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（如果都跟蓋瑪特利亞有關的話……一切就說得通了……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（如果「奧利斯小隊」正在追殺老師的話……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（老師就危險了……得趕快讓其他人知道才行……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（他們已經攻擊過老師一次了……恐怕是奇普托斯中最危險的……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（……破壞光環的炸彈）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（我的命被人盯上……伊甸園條約決裂……大家都受了傷……讓老師陷入危險的……全部……）"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "（如果說這一切……存在著起點的話……那就是……）"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯……那個，你好呀，聖亞醬……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……彌香。"
+    },
+    {
+      "Text": "下一話;被折斷的羽翼"
+    }
+  ]
+}

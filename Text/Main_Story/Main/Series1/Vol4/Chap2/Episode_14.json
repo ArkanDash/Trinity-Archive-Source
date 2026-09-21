@@ -1,0 +1,3057 @@
+{
+  "TitleJP": "囚人のジレンマ",
+  "TitleKR": "죄수의 딜레마",
+  "TitleEN": "Prisoner's Dilemma",
+  "TitleTH": "สถานการณ์ลำบากของผู้ทำผิด",
+  "TitleTW": "囚徒困境",
+  "DescJP": "夜遅くにシャーレに戻った先生は、エンジェル24がお弁当の発注停止の憂き目に遭っている事を知る。お弁当が買えないままオフィスに戻った先生の元に、FOX小隊が訪れ、いなり寿司を差し入れ、RABBIT小隊の居場所を教えてくれるのだった。",
+  "DescKR": "늦은 저녁, 공원의 정리를 마치고 샬레로 돌아온 선생님은 소라로부터 도시락 발주가 모두 취소되었다는 소식을 듣게 된다. 저녁을 거른 채 집무실로 돌아온 선생님에게 뜻밖의 손님이 찾아와 유부초밥을 건넨다.",
+  "DescEN": "Late in the evening, Sensei returns to Schale after cleaning up the park and learns from Sora that all the lunch orders have been canceled. When Sensei returns to their office, having skipped dinner, an unexpected visitor arrives and offers them inarizushi.",
+  "DescTH": "คุณครูกลับมาที่ชาเล่ต์หลังจัดการเรื่องสวนสาธารณะเสร็จแล้วก็ได้รู้ข่าวจาก\nโซระว่าคำสั่งซื้อข้าวกล่องทั้งหมดถูกยกเลิก คุณครูที่กลับมาถึงสำนักงานทั้งๆ ที่ยังไม่ได้กินข้าวเย็น ก็ได้พบกับผู้มาเยือนที่คาดไม่ถึงที่มาหาพร้อมกับซูชิ\nเต้าหู้หวาน...",
+  "DescTW": "夜裡，老師整理好公園後回到夏萊，從小空那邊聽說便當訂單被全部取消的消息。辦公室出現意外的訪客，為沒吃晚餐就回到辦公室的老師帶來豆皮壽司。",
+  "DialogJP": [
+    {
+      "Text": "第14話;囚人のジレンマ"
+    },
+    {
+      "Text": "（荷物を片付けて子ウサギ公園から帰ったら、ずいぶんと遅い時間になってしまった……）"
+    },
+    {
+      "Text": "エンジェル24コンビニ"
+    },
+    {
+      "Text": "（お弁当の棚を見てみると……）"
+    },
+    {
+      "Text": "[ns] \"あれ？お弁当が一つもない……？\""
+    },
+    {
+      "Name": "ソラ",
+      "Text": "す、すみません……今日は全部売り切れてしまって。"
+    },
+    {
+      "Text": "[s1] \"今日の夕飯をコンビニ弁当にしようと思ってたのに……\""
+    },
+    {
+      "Text": "[s2] \"そうなると、廃棄もなかったり……？\""
+    },
+    {
+      "Name": "ソラ",
+      "Text": "はい……いつも廃棄されていたもやし弁当も……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "それと、何故か昨日からうちの店舗だけお弁当の発注が禁止されてしまって……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "理由を聞いても、新しい行政命令だ、としか教えてもらえず……\n発注していたお弁当も全部キャンセルされちゃって……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "もう、残ってるのはミネラルウォーターくらいしかないんです……"
+    },
+    {
+      "Text": "[s] \"もしかして、パンとかお茶も……？\""
+    },
+    {
+      "Name": "ソラ",
+      "Text": "はい。パンはもちろん、各種飲み物も発注できなくて……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "今日は開店休業状態になっちゃいました。\nご不便をおかけして申し訳ありません……"
+    },
+    {
+      "Text": "[s3] \"ソラが謝る事じゃないよ。\""
+    },
+    {
+      "Text": "[s4] （これは……もしかして、私への当てつけなのかな……？）"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "せ、先生……その、最近D.U.で起こっている事について、\n何か知っていたりしますか？"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "一昨日、市内で騒ぎが起きたからか、人がいなくて……\n本社も不穏な空気ですし……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "サービス業の新たな規則だ、とぶ厚いマニュアルが送られてきたり……\n行政命令を遵守しているか確認する、とカイザーセキュリティの怖い人たちがお店にやってきたり……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "「エンジェル24」が閉店して、代わりに「カイザー26」になってしまうかもしれないという噂まで流れていて……一体どうすればいいんでしょう？"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "「カイザー26」は、毎日26時間勤務でも足りないくらい労働環境が過酷らしいですし……そんな所で働いたら過労死しちゃいます……。"
+    },
+    {
+      "Text": "[ns5] \"26ってそういう意味だったんだ……\""
+    },
+    {
+      "Text": "[ns6] \"毎日26時間勤務って、不可能では……？\""
+    },
+    {
+      "Text": "[ns] \"ソラはもう晩ごはん食べた？\""
+    },
+    {
+      "Name": "ソラ",
+      "Text": "はい。私はお弁当を持ってきたので大丈夫です。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "昨日、肉じゃがを作りすぎちゃって――"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "あ、えっと……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "その……もし、良かったら……"
+    },
+    {
+      "Text": "[ns] \"だ、大丈夫！気にしないで！\""
+    },
+    {
+      "Text": "（さすがにソラのお弁当をもらうわけにはいかないので、慌ててシャーレの執務室に戻った）"
+    },
+    {
+      "Text": "シャーレ・執務室"
+    },
+    {
+      "Text": "[ns] \"お腹すいた……。\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "「\"FOX EATS\"で―す！」"
+    },
+    {
+      "Name": "？？？",
+      "Text": "「[USERNAME]様、お弁当頼まれましたよね？」"
+    },
+    {
+      "Text": "[ns] \"えっと、頼んでいませんが……。\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "「おかしいですね……おいなりさん1人前をこちらに届けてほしいというオーダーを受けたんですよ」"
+    },
+    {
+      "Name": "？？？",
+      "Text": "「確認しますので、少しドアを開けていただけますか？」"
+    },
+    {
+      "Text": "[ns7] ドアを開ける。"
+    },
+    {
+      "Text": "[ns8] ドアを開けない。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "「……ありがとうございます」"
+    },
+    {
+      "Text": "[ns9] \"君たちは、あの時の……？\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "こんばんは、先生。またお会いできて嬉しいです。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "やあ！元気してた？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "はぁ……また会う事になるなんて……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "先生は、お夕飯もう食べました？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……仕方ないですね。\nここで引き返すのも……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……設置完了、起爆準備。"
+    },
+    {
+      "Text": "[s10] \"……何をしているの？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "3……2……1……"
+    },
+    {
+      "Text": "[ns11] \"待って、今開けるから――\""
+    },
+    {
+      "Name": "オトギ",
+      "Text": "おっと、思ってたより派手だったね。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "オトギ！ブリーチングに一体どれだけの爆薬を使ったのよ？\nドアがフレームごと飛んでいったじゃない！"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "ごめんごめん。CQBには慣れてなくてさ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あはは……すみません、先生。\nドアはすぐ修理しますので……"
+    },
+    {
+      "Text": "[s12] \"君たちは、あの時の……？\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "こんばんは……というには少しおこがましい状況ですが……\nまたお会いできて嬉しいです、先生。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "先生は、お夕飯もう食べました？"
+    },
+    {
+      "Text": "[ns] \"まだだよ。\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……やっぱり。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "今回の行政命令で、コンビニの物流に影響が出てしまったみたいで……"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "影響も何も、言いなりにならないから意地悪してるだけじゃない。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "小学生じゃあるまいし……こんな事するなんて、ほんとバカみたい。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "まあでも、敵の野営中に兵糧を断つのは戦略の一つだよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "いくら強い意思を持っていたとしても、お腹を空かせてしまっては戦えないからね。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "別に、先生はシャーレで野営をしているわけじゃないと思うよ……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ええと、とりあえず。私たちFOX EATS……\nいえ、FOX小隊が簡単なお食事を用意してきました。"
+    },
+    {
+      "Text": "[ns] \"これは……いなり寿司？\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "はい。以前も私が作ったおいなりさんを食べたことがありますよね？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "美味しそうに食べてくださっていたので……あの時と同じレシピで作ってきました。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "たくさんありますから、好きなだけ召し上がってください。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "まぁ、私たちが持ってきた食べ物を口にするのは気が引けると思うけど――"
+    },
+    {
+      "Text": "[ns] おいなりさんをいただく。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……ふつーに食べてるよ？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "え……？マジ……？\nヤバ……警戒心とかないの……？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あの、大丈夫ですか……？"
+    },
+    {
+      "Text": "[s13] \"大丈夫、美味しいよ。\""
+    },
+    {
+      "Text": "[s14] \"味もいい感じに染みてて、ご飯もほどよい固さで最高だよ！\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "いえ、そういう意味ではなくて……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "私たちが言うのも違うかもしれませんが……\n毒が入っているかもとか、疑ったりしないのですか？"
+    },
+    {
+      "Text": "[s] \"……え？このおいなりさんに毒入ってるの？\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "いえ、入っていませんが……"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "あのね、何か勘違いしてるみたいだけど……今の私たちは敵対関係にあるのよ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "シャーレの先生ならもう知ってるでしょ？私たちFOX小隊は、SRT特殊学園復活のためにカヤ連邦生徒会長代行と手を組んでる。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "カヤ連邦生徒会長代行の提案を断ったのに、協力者の私たちが何の下心もなく食べ物を持ってくるとでも思ったわけ？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "いくらお人好しでも限度ってものがあるでしょ……"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "「敵に塩を送る」なんて言ったりもするけどさぁ、\n普通は敵が送ってきた物には手を出さない方が賢明だよねぇ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "戦場だとさぁ、敵に奪われた時のために、わざと不良弾薬を持っておく事があるし……"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "SRTでも「敵陣では自分で持ってきた食べ物以外は水も飲むな」と繰り返し教えているくらいなんだけど……"
+    },
+    {
+      "Text": "[ns] \"私は君たちの敵じゃないからね。\""
+    },
+    {
+      "Text": "[ns] \"……ただの先生だよ。\""
+    },
+    {
+      "Name": "オトギ",
+      "Text": "うーん……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "……聞いてた通りの人みたいね。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "敵じゃなくても、簡単に人を信じると後で痛い目をみますよ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "すぐに信用するというのは、相手に対して未熟だという印象を与えてしまいますから……交渉事で損をしやすいんです。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "社会では、他人に対しては最初から疑ってかかって……\nちゃんと警戒しないと損をしてしまう――"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……先生も大人ですから、ご存知ですよね？"
+    },
+    {
+      "Text": "[s] \"疑って失うものより、信じて得るものの方が多いからね。\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "……ふぅん。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "先生は「囚人のジレンマ」を知らないの？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "お互いが相手に有利な選択をすれば何の損害も受けないけど、\n相手が自分を裏切れば余罪を被ることになる状況で――どんな選択が一番「合理的」なのかを論じたもので……"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "つまり――相手の選択とは関係なく、裏切った方が得だから、\n常に裏切りを選ぶのよ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "実際、私たちもこれまでたくさんの「囚人」と相対してきたけど……\nわざと相手の有利になるような選択をする人は一人もいなかったわ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "……大人の言う「信頼」も、本質的には同じ。"
+    },
+    {
+      "Text": "[s15] \"なんだか難しい話だけど……興味深いね。\""
+    },
+    {
+      "Text": "[s16] \"……さすがSRTのエリートだね！\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ふん、エリートじゃなくてもこの程度は知ってて当然――"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "じゃなくて……！"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "チョロい……"
+    },
+    {
+      "Text": "[s] \"でも、現実では違うんじゃないかな？\""
+    },
+    {
+      "Name": "オトギ",
+      "Text": "もちろん、これを現実に置き換えて考えるなら、色んな変数も加味しないとねぇ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "この選択がもたらした結果が、未来にどんな影響を及ぼすかとか……"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……でも先生。この話は一本勝負でも終われるよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "敗者が永遠に戻って来られない野生の社会で最も有効なのは\n「常に相手を裏切って恐怖を抱かせる事」――All-Defect戦略。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……これが終わったら、私たちは二度と戻って来られないかもしれません。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "でも、私たちは武器ですから。\n先生の選択を覚えることもありません。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "この選択が他の生徒に影響を与えることもないでしょう。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それでも私たちを……生徒を信頼するのですか？"
+    },
+    {
+      "Text": "[s] \"うん、信頼するよ。\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "口ではなんとだって――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……落ち着いて、クルミ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "みんなが今日のことさえ約束できないのに、\n先生は明日の可能性に賭けるのですね。"
+    },
+    {
+      "Text": "[ns] \"もちろん。\""
+    },
+    {
+      "Text": "[ns17] \"私は先生だからね。\""
+    },
+    {
+      "Text": "[ns18] \"明日の大人になる子供たちを導くのが役割だから。\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "……変な人。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……本当に、噂通りというか。"
+    },
+    {
+      "Text": "[s] \"それに「信頼」の強さは君たちが証明してくれてるからね。\""
+    },
+    {
+      "Text": "[ns19] \"FOX小隊は小隊長に対する信頼が厚いチームだと聞いてるよ。\""
+    },
+    {
+      "Text": "[ns20] \"FOX小隊の強みは、隊員同士の信頼関係にあると思ってるよ。\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ユキノちゃん、ですか……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "……まあ、一応そうね。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……小隊長だし。"
+    },
+    {
+      "Text": "[ns] \"……どうかしたの？\""
+    },
+    {
+      "Name": "ニコ",
+      "Text": "いえ、何も……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "FOX小隊の絆は何よりも強固ですからね。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "少なくとも、タヌキみたいな先生の一言で揺らぐようなことは絶対にないわ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……一応、小隊長になる前からの親友だしね。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ありがとうございました。先生のお心は確認できたみたいですし……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "お弁当もお届けしましたので、私たちはそろそろ帰りましょうか。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "夜分に大変失礼しました。\n急に質問攻めにしてしまって申し訳ないです……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "そのお詫びにはならないかもしれませんが、\n何か私たちに聞きたいことはありますか？"
+    },
+    {
+      "Text": "[s21] \"RABBIT小隊がそっちに合流したって聞いたけど……\""
+    },
+    {
+      "Text": "[s22] \"RABBIT小隊のみんなは元気？\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "RABBIT小隊はいま……"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "小隊の位置は一応機密扱いだから、ちょっと言いづらいね……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……シャーレ前の停留所から、新木呂尾方面の10番バスに乗って終点で下車し、乾いた渓谷に沿って東に1kmほど歩いていくと地図にはない施設があります。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "放棄されたキャンプ場に見えるかもしれませんが、そこは連邦生徒会長が失踪する前にSRT生の訓練と作戦のために建てられた軍事施設です。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……RABBIT小隊は、そこにいます。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あの子たちの安否は、[USERNAME]先生がその目で確かめてください。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ちょっと、ニコ！どうして言っちゃうの？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "彼女達が滞在している宿営地の場所は2級機密に当たるのよ？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "大丈夫、安否を聞くぐらいなら問題にはならないから。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "でも、バレたら怒られちゃいそうだから……ユキノちゃんには内緒にしてね。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "本当に、あんたねぇ……！"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "はぁ……どうなっても知らないわよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "副小隊長の命令だし、従うしかないよねぇ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ふふっ、ありがと。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それに[USERNAME]先生があの子たちを変えられるなら、いつかは私たちも……"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それでは、また……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "いえ、お元気で――先生。"
+    },
+    {
+      "Text": "（FOX小隊員が帰った後、残ったおいなりさんを食べながら、これからのことについて考えた）"
+    },
+    {
+      "Text": "（……ニコが持ってきてくれたおいなりさんは、以前より少しだけ味が濃い気がした）"
+    },
+    {
+      "Text": "次回;SRTの正義"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제14화;죄수의 딜레마"
+    },
+    {
+      "Text": "(코우사기 공원에서 짐을 정리하고 샬레로 돌아오니 이미 늦은 저녁 시간이었다……)"
+    },
+    {
+      "Text": "샬레 건물, 엔젤 24 편의점"
+    },
+    {
+      "Text": "(도시락을 구입하기 위해 매대로 가보니……)"
+    },
+    {
+      "Text": "[ns] \"어라? 도시락이 하나도 없네?\""
+    },
+    {
+      "Name": "소라",
+      "Text": "죄, 죄송합니다. 선생님…… 오늘은 남아 있는 도시락이 없어요."
+    },
+    {
+      "Text": "[s1] \"오늘은 편의점 도시락으로 저녁을 해결하려 했는데……\""
+    },
+    {
+      "Text": "[s2] \"폐기 도시락도 없는 거야?\""
+    },
+    {
+      "Name": "소라",
+      "Text": "네. 평소에는 팔리지 않아서 언제나 폐기되던 숙주 도시락조차도……"
+    },
+    {
+      "Name": "소라",
+      "Text": "그게, 어째서인지 어제부터 엔젤 24의 샬레 지점에서만 도시락 발주가 금지되어서요."
+    },
+    {
+      "Name": "소라",
+      "Text": "그 이유를 물어보았지만 새로운 행정명령 때문이라는 답만 돌아오고, 이미 발주한 도시락도 모두 취소되어서……"
+    },
+    {
+      "Name": "소라",
+      "Text": "지금 편의점에 남아 있는 물건이라고는 생수 정도밖에……"
+    },
+    {
+      "Text": "[s] \"빵이나 음료수도 없는 거야……?\""
+    },
+    {
+      "Name": "소라",
+      "Text": "네. 빵은 물론이고 음료수까지 발주가 금지되었다고 해서……"
+    },
+    {
+      "Name": "소라",
+      "Text": "오늘은 하루 종일 개점휴업 상태네요. 불편을 끼쳐드려 죄송합니다……."
+    },
+    {
+      "Text": "[s3] \"괜찮아, 소라의 잘못이 아닌걸.\""
+    },
+    {
+      "Text": "[s4] (생각했던 것보다 쪼잔한 방식의 복수인걸……)"
+    },
+    {
+      "Name": "소라",
+      "Text": "저, 선생님…… 혹시 요새 D.U.에서 벌어지고 있는 일에 대해 뭔가 알고 계신가요?"
+    },
+    {
+      "Name": "소라",
+      "Text": "그제 시내에서 소란이 생겼던 이후로는 지나가는 사람들의 발길도 뚝 끊기고, 본사의 분위기도 심상치 않아서요."
+    },
+    {
+      "Name": "소라",
+      "Text": "손님 응대에 필요한 새 규칙이라며 두꺼운 매뉴얼 북이 들어오기도 하고, 행정명령을 준수하고 있는지 확인한다며 카이저 시큐리티의 무서운 가드들이 가게를 순찰하기도 하고……"
+    },
+    {
+      "Name": "소라",
+      "Text": "거기에 더해 들리는 소문에 의하면 <엔젤 24> 매장도 곧 모두 폐점하고, 대신 그 자리에는 <카이저 26>이 들어올지도 모른다던데…… 이를 어쩌죠?"
+    },
+    {
+      "Name": "소라",
+      "Text": "<카이저 26>은 하루에 26시간을 일해야 할 정도로 근무 환경이 가혹하다던데, 그런 곳에서 일하면 과로로 쓰러지고 말 거예요……"
+    },
+    {
+      "Text": "[ns5] \"26이 그런 의미였구나……\""
+    },
+    {
+      "Text": "[ns6] \"그래도 하루에 26시간 일하는 건 불가능하지 않을까……?\""
+    },
+    {
+      "Text": "[ns] \"소라는 저녁 먹었어?\""
+    },
+    {
+      "Name": "소라",
+      "Text": "네, 저는 도시락을 싸 왔기 때문에 괜찮아요."
+    },
+    {
+      "Name": "소라",
+      "Text": "어제 저녁에 고기 감자조림을 너무 많이 만들어버려서, 오늘 저녁에 일하면서 먹을 도시락 반찬으로—"
+    },
+    {
+      "Name": "소라",
+      "Text": "아, 저……"
+    },
+    {
+      "Name": "소라",
+      "Text": "혹시라도 제 도시락이 필요하시다면……"
+    },
+    {
+      "Text": "[ns] \"괘, 괜찮아! 신경 쓰지 마!\""
+    },
+    {
+      "Text": "(차마 소라의 도시락을 받을 수는 없었기에 정중히 사양하고 샬레 집무실로 돌아왔다.)"
+    },
+    {
+      "Text": "샬레 집무실"
+    },
+    {
+      "Text": "[ns] \"배고프다…….\""
+    },
+    {
+      "Name": "???",
+      "Text": "<안녕하세요, 'FOX EATS' 입니다!>"
+    },
+    {
+      "Name": "???",
+      "Text": "<[USERNAME] 고객님, 도시락 배달 주문 시키셨었죠?>"
+    },
+    {
+      "Text": "[ns] \"……음식 주문을 한 적은 없는데요?\""
+    },
+    {
+      "Name": "???",
+      "Text": "<이상하네요…… 분명 유부초밥 도시락 1인분을 이곳 샬레 집무실에 배달해 달라는 주문을 받았는 걸요.>"
+    },
+    {
+      "Name": "???",
+      "Text": "<혹시 모르니 확인을 위해 잠깐 문을 열어 주실 수 있으신가요?>"
+    },
+    {
+      "Text": "[ns7] 문을 열어준다."
+    },
+    {
+      "Text": "[ns8] 문을 열어주지 않는다."
+    },
+    {
+      "Name": "???",
+      "Text": "<……감사합니다.>"
+    },
+    {
+      "Text": "[ns9] \"너희는 그때의……?\""
+    },
+    {
+      "Name": "니코",
+      "Text": "좋은 저녁이네요, 선생님. 다시 만나 뵙게 되어 반갑습니다."
+    },
+    {
+      "Name": "오토기",
+      "Text": "안녕!"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "이 어른을 또 보러 오게 되다니……"
+    },
+    {
+      "Name": "니코",
+      "Text": "늦은 시간인데, 저녁 식사는 어떻게 하셨나요?"
+    },
+    {
+      "Name": "???",
+      "Text": "<……하는 수 없네요. 여기까지 와서 돌아가는 것도 어려우니……>"
+    },
+    {
+      "Name": "???",
+      "Text": "<……접착성 폭약 설치 완료. 기폭 개시.>"
+    },
+    {
+      "Text": "[s10] \"……뭐 하려는 거야?\""
+    },
+    {
+      "Name": "???",
+      "Text": "<3…… 2…… 1……>"
+    },
+    {
+      "Text": "[ns11] \"잠깐 기다려, 지금 열어줄 테니까—\""
+    },
+    {
+      "Name": "오토기",
+      "Text": "이런, 생각보다 크게 부서졌네."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "오토기, 브리칭하는 데 도대체 폭약을 얼마나 쓴 거야? 출입문이 프레임째로 날아갔잖아!"
+    },
+    {
+      "Name": "오토기",
+      "Text": "미안, 저격수라 CQB에는 익숙하지가 않아서."
+    },
+    {
+      "Name": "니코",
+      "Text": "아하하…… 죄송합니다, 선생님. 부서진 문은 금방 수리해 드릴게요……"
+    },
+    {
+      "Text": "[s12] \"너희는 그때의……?\""
+    },
+    {
+      "Name": "니코",
+      "Text": "좋은 저녁…… 이라고 하기에는 면목 없는 상황입니다만, 다시 만나게 되어 반갑습니다. 선생님."
+    },
+    {
+      "Name": "니코",
+      "Text": "늦은 시간인데, 저녁 식사는 어떻게 하셨나요?"
+    },
+    {
+      "Text": "[ns] \"아직이야.\""
+    },
+    {
+      "Name": "니코",
+      "Text": "안 그래도 식사는 아직 하지 않으셨을 거라고 생각했습니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "이번 신규 행정명령으로 인해 샬레의 편의점 물류 유통에 차질이 생긴 듯하여……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "차질은 무슨. 단순히 자기 말을 들어주지 않는다고 심술을 부리는 것에 불과하잖아?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "초등학생도 아니고, 먹는 걸로 장난을 치다니…… 유치해."
+    },
+    {
+      "Name": "오토기",
+      "Text": "하지만 농성 중인 적을 상대하기 위해 병참을 차단하는 건 중요한 전략이야."
+    },
+    {
+      "Name": "오토기",
+      "Text": "아무리 강경한 사상가라 하더라도 배를 곯으면서까지 투쟁을 계속할 수는 없는 법이거든."
+    },
+    {
+      "Name": "니코",
+      "Text": "딱히 선생님께서는 샬레의 집무실에서 농성을 하고 계신 건 아니지만……"
+    },
+    {
+      "Name": "니코",
+      "Text": "일단은 저희 FOX EATS…… 아니, FOX 소대에서 선생님을 위해 간단한 식사를 준비해 왔답니다."
+    },
+    {
+      "Text": "[ns] \"……이건 유부초밥인가?\""
+    },
+    {
+      "Name": "니코",
+      "Text": "네. 전에 한 번 제가 만든 유부초밥을 드셔 보셨지요?"
+    },
+    {
+      "Name": "니코",
+      "Text": "다행히도 입에 맞으셨던 것 같아서, 그때 만든 것과 같은 유부초밥을 다시 준비해 왔어요."
+    },
+    {
+      "Name": "니코",
+      "Text": "양은 충분히 준비했으니까, 편하신 대로 마음껏 드세요."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "물론 이 시점에서 우리들이 준비한 음식을 먹는 건 꺼려지겠지만—"
+    },
+    {
+      "Text": "[ns] 니코가 가져온 유부초밥을 먹는다."
+    },
+    {
+      "Name": "오토기",
+      "Text": "……먹었는데?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "에……? 의심없이 먹는다고……? 진짜……?"
+    },
+    {
+      "Name": "니코",
+      "Text": "저, 괜찮으신가요……?"
+    },
+    {
+      "Text": "[s13] \"괜찮아. 맛있는데?\""
+    },
+    {
+      "Text": "[s14] \"유부도 부드럽고 밥도 고슬고슬해서 최고야!\""
+    },
+    {
+      "Name": "니코",
+      "Text": "아뇨. 그런 뜻이 아니라……"
+    },
+    {
+      "Name": "니코",
+      "Text": "저희가 할 말은 아니지만…… 이 도시락에 독이 들어있을 수도 있다는 의심은 하지 않으셨나요?"
+    },
+    {
+      "Text": "[s] \"……응? 이 유부초밥 안에 독 들었어?\""
+    },
+    {
+      "Name": "니코",
+      "Text": "아뇨. 그건 아니지만……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "저기, 뭔가 착각하고 있는 것 같은데…… 지금의 우리는 적대 관계라고."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "샬레의 선생님이라면 알고 있잖아? 우리 FOX 소대는 현재 SRT 학원의 부활을 위해 카야 총학생회장 대행에게 협력하고 있어."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그런데 카야의 제안을 단칼에 거절했으면서, 그 협력자인 우리가 아무런 꿍꿍이도 없이 음식을 가져왔을 거라고 생각하는 거야?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "아무리 사람이 좋아도 유분수지……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "뭐— '적에게 보내는 소금'이라는 표현도 있지만, 보통은 적이 보내온 물건에는 손을 대지 않는 게 현명하지."
+    },
+    {
+      "Name": "오토기",
+      "Text": "작전 중에는 일부러 적이 노획할 때를 대비해서 소지품에 불량 탄약을 섞어 둘 때도 있을 정도니까."
+    },
+    {
+      "Name": "오토기",
+      "Text": "그래서 SRT 학원에서도 '적진에서는 안전을 위해 직접 가져온 음식 이외에는 물도 함부로 마시지 말라'고 거듭 가르치긴 하지만……"
+    },
+    {
+      "Text": "[ns] \"난 너희들의 적이 아니야.\""
+    },
+    {
+      "Text": "[ns] \"……그저 선생님일 뿐이지.\""
+    },
+    {
+      "Name": "오토기",
+      "Text": "으음……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "……들은 대로의 사람이네."
+    },
+    {
+      "Name": "니코",
+      "Text": "굳이 적이 아니더라도 사람을 쉽게 믿어서 좋을 건 없으니까요."
+    },
+    {
+      "Name": "니코",
+      "Text": "사람을 신뢰하는 모습을 쉽게 보이면, 미숙하고 불안하다는 인상을 주어 협상에서 손해를 보거든요."
+    },
+    {
+      "Name": "니코",
+      "Text": "사회에서는 낯선 이를 의심하고, 불신하고, 경계하지 않으면 손해를 본다는 것을."
+    },
+    {
+      "Name": "니코",
+      "Text": "……선생님도 어른이시니까, 알고 계시잖아요?"
+    },
+    {
+      "Text": "[s] \"의심해서 잃는 것보다, 신뢰해서 얻는 것이 더 많은 법이야.\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "……궤변이야."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "선생님은 <죄수의 딜레마>라는 게임 이론을 알고 있어?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "서로가 상대에게 유리한 선택을 하면 아무런 손해도 입지 않지만, 상대가 자신을 배신하면 상대의 여죄까지 뒤집어쓰게 되는 상황에서 어떤 선택이 제일 '합리'적인지 논하는 이론."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "이 이론에 따르면 죄수는 상대의 선택과 무관하게 배신하는 것이 언제나 이득이기 때문에 언제나 배신을 택하게 되지."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "실제로도 우리는 그동안 수많은 <죄수>를 다뤄왔지만, 일부러 남 좋은 일을 자처하는 바보는 단 한 명도 없었어."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "……어른들이 말하는 신뢰라는 것도, 결국 이와 다르지 않아."
+    },
+    {
+      "Text": "[s15] \"뭔가 어려운 이론이지만…… 흥미롭네.\""
+    },
+    {
+      "Text": "[s16] \"……역시 SRT의 엘리트들이구나!\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "뭐, 엘리트가 아니더라도 이 정도의 게임 이론은 누구나 충분히—"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "아니, 지금 칭찬할 때가 아니잖아……?!"
+    },
+    {
+      "Name": "오토기",
+      "Text": "너무 칭찬에 무르잖아……"
+    },
+    {
+      "Text": "[s] \"그렇지만 실제로는 다르지 않을까?\""
+    },
+    {
+      "Name": "오토기",
+      "Text": "물론 게임 이론을 현실에 적용하기 위해서는 여러 가지 변수를 더 적용해야지."
+    },
+    {
+      "Name": "오토기",
+      "Text": "이 선택이 가져온 결과가 다음 게임에 어떤 영향을 끼칠지도 고려해야 한다든가……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "……하지만 선생님, 이 게임은 단판 승부로도 끝날 수 있어."
+    },
+    {
+      "Name": "오토기",
+      "Text": "패자는 영원히 돌아오지 못하는, 피드백이 없는 야생의 사회에서 제일 주효한 전략은 '언제나 상대를 배반하여 공포를 안겨주는' All-Defect 전략이지."
+    },
+    {
+      "Name": "니코",
+      "Text": "……이번 일이 끝나면 저희는 다시 돌아오지 않을지도 몰라요."
+    },
+    {
+      "Name": "니코",
+      "Text": "게다가 저희는 무기이기 때문에 선생님의 선택을 기억하지도 않죠."
+    },
+    {
+      "Name": "니코",
+      "Text": "이 선택이 다른 학생에게 영향을 미치는 일도 없을 겁니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "그런데도 저희를…… 학생을 신뢰하시나요?"
+    },
+    {
+      "Text": "[s] \"믿어.\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "우리를 놀릴 생각이라면 더 이상은—"
+    },
+    {
+      "Name": "오토기",
+      "Text": "……진정해, 쿠루미."
+    },
+    {
+      "Name": "니코",
+      "Text": "모두가 오늘의 일도 기약하지 못하는데, 선생님은 내일의 가능성에 승부를 거시는군요."
+    },
+    {
+      "Text": "[ns] \"당연하지.\""
+    },
+    {
+      "Text": "[ns17] \"나는 선생님이니까.\""
+    },
+    {
+      "Text": "[ns18] \"내일의 어른이 될 아이들을 가르치는 사람이니까.\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "……이상한 어른이야."
+    },
+    {
+      "Name": "오토기",
+      "Text": "……정말 소문만큼이나 이상한 어른이네."
+    },
+    {
+      "Text": "[s] \"게다가 신뢰의 강점은 너희가 직접 증명하고 있잖아?\""
+    },
+    {
+      "Text": "[ns19] \"FOX 소대는 소대장에 대한 신뢰가 두터운 팀이라고 들었어.\""
+    },
+    {
+      "Text": "[ns20] \"FOX 소대의 강점은 그 신뢰에서 나오는 거겠지.\""
+    },
+    {
+      "Name": "니코",
+      "Text": "유키노 쨩, 말인가요……."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "……뭐, 일단은 그렇지."
+    },
+    {
+      "Name": "오토기",
+      "Text": "……소대장이니까."
+    },
+    {
+      "Text": "[ns] \"……무슨 문제라도 있는 거야?\""
+    },
+    {
+      "Name": "니코",
+      "Text": "아뇨. 아무 문제도 없습니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "FOX 소대의 유대는 그 무엇보다 견고하니까요."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "최소한 너구리 같은 선생님의 말 한 마디에 흔들릴 정도는 절대 아니지."
+    },
+    {
+      "Name": "오토기",
+      "Text": "……일단은 소대장이기 이전에 오래 알고 지낸 친구니까."
+    },
+    {
+      "Name": "니코",
+      "Text": "알겠습니다. 선생님의 진심은 충분히 확인한 것 같네요."
+    },
+    {
+      "Name": "니코",
+      "Text": "도시락도 전달 드렸으니, 저희는 그럼 이만 슬슬 돌아가 볼까요."
+    },
+    {
+      "Name": "니코",
+      "Text": "갑자기 찾아와 질문만 쏟아내고 돌아가는 것 같아 어쩐지 죄송하네요……"
+    },
+    {
+      "Name": "니코",
+      "Text": "대신이라기 뭣하지만 뭔가 저희에게 특별히 궁금하신 점은 없으신가요?"
+    },
+    {
+      "Text": "[s21] \"RABBIT 소대의 소대원들이 그쪽에 합류했다고 들었는데……\""
+    },
+    {
+      "Text": "[s22] \"RABBIT 소대는 다들 잘 지내고 있어?\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "RABBIT 소대는 아마도 지금……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "소대의 위치는 일단은 기밀이라, 말해주기가 곤란한 걸……"
+    },
+    {
+      "Name": "니코",
+      "Text": "……샬레 앞 정류장에서 신키로오 방면 10번 버스를 타고 종점에서 내린 다음, 마른 계곡을 따라 동쪽으로 1km 정도 걸어가면 지도에는 나오지 않는 시설 하나가 보일 거예요."
+    },
+    {
+      "Name": "니코",
+      "Text": "버려진 캠핑장처럼 보일 수도 있지만, 그곳은 총학생회장이 실종되기 전에 SRT 학생들의 훈련과 작전을 위해 건설된 군사 시설입니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "……RABBIT 소대는 그곳에 머무르고 있습니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "아이들의 안부는, [USERNAME] 선생님께서 직접 확인해 주세요."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "잠깐, 니코! 어째서 그걸 말해주는 거야?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "SRT의 소대가 머무르고 있는 숙영지의 위치는 2급 기밀에 해당한다고?"
+    },
+    {
+      "Name": "니코",
+      "Text": "괜찮아. 안부를 묻는 것 정도라면 문제 되지 않으니까."
+    },
+    {
+      "Name": "니코",
+      "Text": "하지만 그래도 들키면 혼날 것 같으니까…… 유키노 쨩에게는 비밀로 해줄래?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "너는 정말……!"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "어휴…… 난 모르는 일이야."
+    },
+    {
+      "Name": "오토기",
+      "Text": "부소대장님이 까라면 까야지, 어쩌겠어?"
+    },
+    {
+      "Name": "니코",
+      "Text": "후후, 고마워."
+    },
+    {
+      "Name": "니코",
+      "Text": "게다가 [USERNAME] 선생님께서 그 아이들을 변화시킬 수 있다면, 언젠간 우리들도……"
+    },
+    {
+      "Name": "니코",
+      "Text": "그럼, 다음에……"
+    },
+    {
+      "Name": "니코",
+      "Text": "아니, 건강하세요. 선생님."
+    },
+    {
+      "Text": "(FOX 소대원들이 돌아간 후, 남은 유부초밥을 먹으며 앞으로의 일에 대해 고민했다.)"
+    },
+    {
+      "Text": "(……니코가 가져온 유부초밥은 전에 먹었던 것에 비해 간이 센 것처럼 느껴졌다.)"
+    },
+    {
+      "Text": "다음화;SRT의 정의"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 14; Prisoner's Dilemma"
+    },
+    {
+      "Text": "By the time I left Kousagi Park and returned to Schale, it was already late into the evening..."
+    },
+    {
+      "Text": "Schale Building, Angel 24 Convenience Store"
+    },
+    {
+      "Text": "I approached the counter to pick up a bento, but..."
+    },
+    {
+      "Text": "[ns] \"Huh? There's none left?\""
+    },
+    {
+      "Name": "Sora",
+      "Text": "I'm sorry, Sensei. We ran out today."
+    },
+    {
+      "Text": "[s1] \"I just needed something to eat...\" "
+    },
+    {
+      "Text": "[s2] \"Is there anything else? Some expired ones?\""
+    },
+    {
+      "Name": "Sora",
+      "Text": "No, sorry... We ran out of every single bento in stock..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "For some reason, only this Angel 24, located in Schale, didn't get any of the bentos since yesterday."
+    },
+    {
+      "Name": "Sora",
+      "Text": "I tried to find out why but was told it's due to a new order and that even the scheduled bentos were canceled..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "All we have left for sale is water..."
+    },
+    {
+      "Text": "[s] \"So there's no bread or any other kind of drinks...?\""
+    },
+    {
+      "Name": "Sora",
+      "Text": "Yeah... Basically anything to eat or drink..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "I know I'm still here, but we've pretty much just been closed today. I'm sorry for the inconvenience..."
+    },
+    {
+      "Text": "[s3] \"It's okay. It's not your fault, Sora.\""
+    },
+    {
+      "Text": "[s4] \"(This is a much pettier method of revenge than I expected...)\""
+    },
+    {
+      "Name": "Sora",
+      "Text": "Um, Sensei? Do you know anything about what's been going on in D.U.?"
+    },
+    {
+      "Name": "Sora",
+      "Text": "After the coup and stuff, it's been completely dead here. I haven't heard anything from the store's main branch."
+    },
+    {
+      "Name": "Sora",
+      "Text": "They gave us these new manuals to memorize, but there were so many regulations! And then these scary Kaiser guards come in sometimes to make sure we're following all their rules..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "People are saying that all the Angel 24 shops are gonna close and be replaced with Kaiser 26 shops... My job..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "I've heard really scary things about the Kaiser 26 shops. I heard they have to work a full twenty-six hours in a day, Sensei! I don't think I could last..."
+    },
+    {
+      "Text": "[ns5] \"I was wondering where the 26 came from...\""
+    },
+    {
+      "Text": "[ns6] \"...It's impossible to work 26 hours a day...\""
+    },
+    {
+      "Text": "[ns] \"Were you able to eat despite all that?\""
+    },
+    {
+      "Name": "Sora",
+      "Text": "Yes. Luckily, I packed myself lunch today."
+    },
+    {
+      "Name": "Sora",
+      "Text": "I made too much meat and potato stew yesterday, so I just brought the leftovers for dinner..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "Oh, um..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "If you want, you can have mine."
+    },
+    {
+      "Text": "[ns] \"N-No! It's okay, really!\""
+    },
+    {
+      "Text": "I couldn't bring myself to take Sora's dinner so I politely refused and headed back to the Schale Executive Office."
+    },
+    {
+      "Text": "Schale Executive Office"
+    },
+    {
+      "Text": "[ns] \"I'm starving...\""
+    },
+    {
+      "Name": "???",
+      "Text": "Hey, FOX EATS delivery here!"
+    },
+    {
+      "Name": "???",
+      "Text": "I've got a food delivery for someone named... [USERNAME]?"
+    },
+    {
+      "Text": "[ns] \"Uh... I didn't order any food, though.\""
+    },
+    {
+      "Name": "???",
+      "Text": "Odd... I have an order for an inarizushi bento, supposed to be delivered right here to the Schale Executive Office."
+    },
+    {
+      "Name": "???",
+      "Text": "If you open the door, I can verify the details for you!"
+    },
+    {
+      "Text": "[ns7] Open the door."
+    },
+    {
+      "Text": "[ns8] Don't open the door."
+    },
+    {
+      "Name": "???",
+      "Text": "...Thank you."
+    },
+    {
+      "Text": "[ns9] \"You guys...?\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "Good evening, Sensei. It's been a while."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Hey, hey."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "I can't believe we came all this way just to see you..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's rather late. Have you had dinner yet?"
+    },
+    {
+      "Name": "???",
+      "Text": "What else do you want me to do? We can't just leave without giving them the food!"
+    },
+    {
+      "Name": "???",
+      "Text": "Adhesive explosives secure. Everyone, take cover"
+    },
+    {
+      "Text": "[s10] \"Hold on! What's going on here?\""
+    },
+    {
+      "Name": "???",
+      "Text": "Three... two... one..."
+    },
+    {
+      "Text": "[ns11] \"Wait, wait, wait! I can just–!\""
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Wow, that did a little more than I expected."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Otogi, how much did you put on that charge? The door's completely blown off!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Oops, my bad. I'm a sniper, don't blame me for not knowing how explosives work."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Hahaha... So sorry, Sensei. We'll get that door fixed right up for you, scout's honor."
+    },
+    {
+      "Text": "[s12] \"You guys...?\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "I'd say good evening, but given the circumstances... Still, we're genuinely glad to see you again, Sensei."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's rather late. Have you had dinner yet?"
+    },
+    {
+      "Text": "[ns] \"Not yet.\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "We had a feeling you hadn't."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I heard there were...some unexpected hiccups in the supply chain as we transitioned power, and Schale's store was somehow...missed..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You really tried there, Niko. We all know it's just someone throwing a petty fit."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Messing with food supplies, really? That's just childish."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "But pretty tactical, if you think about it."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "An empty stomach is going to win out over your ideals every time."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's not as if Sensei is staging a sit-in at Schale's executive office though. It's...a little bit immature."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Well, for now, we from FOX EATS... I mean, the FOX Squad will provide supplies where we can."
+    },
+    {
+      "Text": "[ns] \"Is this inarizushi?\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "Yep. Do you remember the ones from last time?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "You seemed to enjoy them, so I made more for you this time."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Go ahead and enjoy."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Though I understand and wouldn't be offended if you're a bit wary, given the current situation..."
+    },
+    {
+      "Text": "[ns] Eat Niko's inarizushi."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...They're already eating, Niko."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Wait... Did you just...eat it? Just like that?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "Are you, well, not in your right state of mind perhaps?"
+    },
+    {
+      "Text": "[s13] \"I was so hungry... This is so good. I'm great, actually.\" "
+    },
+    {
+      "Text": "[s14] \"The fried tofu is smooth and the rice is just the right texture!\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "That's not what I meant..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I know it sounds odd for me to suggest it, but...did it ever cross your mind that we might have tampered with it?"
+    },
+    {
+      "Text": "[s] \"...Huh? Like, poison? Is this...?\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "Well, no, but..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Sensei, I think you're missing the point. We're kind of on opposite sides right now."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "I'm sure you're well aware that we've allied with Acting President Kaya so that she'll support the revival of SRT."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Shortly after rejecting Kaya to her face, people who work for her come offering food, and you don't suspect any ulterior motives?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Are you naive or are you stupid?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "I know they say to keep your enemies close, but not so close you would eat their food!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "You know, on the battlefield, sometimes we leave behind faulty ammunition for enemies to loot. It's a similar concept!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "That's why SRT Academy teaches its students to never touch the food and water rations that belong to the enemy."
+    },
+    {
+      "Text": "[ns] \"But I'm not your enemy.\""
+    },
+    {
+      "Text": "[ns] \"...I'm just your teacher.\""
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Hmm..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You truly do live up to your reputation."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Nothing good comes from such unconditional trust, even with allies or friends."
+    },
+    {
+      "Name": "Niko",
+      "Text": "If people see you as overly trusting, they might think you're naive and unreliable, which can hinder negotiations."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Those who aren't wary or skeptical of others' motives tend to get the short end of the stick in life."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Knowing this, why do you continue the way you do?"
+    },
+    {
+      "Text": "[s] \"I've learned that trust yields more benefits than suspicion ever could.\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "...Philosophies and ideals."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Do you know about the Prisoner's Dilemma, Sensei?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "It's a psychological theory. Two prisoners are separated and given two options. If neither betrays the other, both prisoners are free to go. But if one chooses to cooperate and the other doesn't, only the betrayer goes free."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "In summary, two prisoners can either cooperate for mutual benefit or betray each other for personal gain. Typically, they end up betraying one another because it's the optimal choice."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "While it's just a theory, it emphasizes the need for self-preservation. We've dealt with all kinds of criminals, and I've never once seen someone sacrifice their well-being for someone else's benefit."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "...The so-called trust that adults brag about is no different."
+    },
+    {
+      "Text": "[s15] \"It's complicated, but your perspective is interesting!\""
+    },
+    {
+      "Text": "[s16] \"You really are SRT's elite force!\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "It's basic game theory. You hardly need specialized training to..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "What... D-D-D-Did you just compliment us?!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Oh, no. You've found her weak spot. All fear the compliment!"
+    },
+    {
+      "Text": "[s] \"But your theory... I think reality will often surprise you.\""
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Real life is more nuanced than some simple game theories, true."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "What effects will your decisions have on the future? Will the results of this game affect the next?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...But Sensei, this game isn't really about winning this round, or losing that one."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "The most effective method in winning anything is to make sure the loser can't return. Plant so much fear in your opponent, so much distrust and betrayal, they'll never oppose you again."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Sensei, you'll likely never see us again when everything is said and done."
+    },
+    {
+      "Name": "Niko",
+      "Text": "We probably won't even remember your answer to this game, Sensei. We're weapons who can only point forward."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's an insignificant decision that no one'll care about at the end of the day."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Given that, do you still trust us?"
+    },
+    {
+      "Text": "[s] \"I do.\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "If you're not going to take us seriously, then–"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Kurumi. Chill out."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Even if we say we'll walk out of here today and forget all of this happened, you'll hang your hat on tomorrow's potential?"
+    },
+    {
+      "Text": "[ns] \"Of course.\""
+    },
+    {
+      "Text": "[ns17] \"My job is to teach you how to get to tomorrow, in whatever way you want.\" "
+    },
+    {
+      "Text": "[ns18] \"That's the whole point. For my students to become tomorrow's adults.\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "...You're quite the character, Sensei."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...Just as weird as they say."
+    },
+    {
+      "Text": "[s] \"You know, your squad, the FOX Squad, is a testament to the power of trust.\""
+    },
+    {
+      "Text": "[ns19] \"I've seen how much trust the FOX Squad has in their leader.\""
+    },
+    {
+      "Text": "[ns20] \"The trust you have in Yukino is the core of your strength.\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "Our trust in Yukino..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "...Well, you're not wrong."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "She is our squad leader, after all."
+    },
+    {
+      "Text": "[ns] \"...Is there something wrong with that?\""
+    },
+    {
+      "Name": "Niko",
+      "Text": "No, not at all."
+    },
+    {
+      "Name": "Niko",
+      "Text": "The FOX Squad's bonds have always been unbreakable."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "So you can stop trying to slide your way in with your pretty words."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "She's our friend. She always has been, since before she became our squad leader."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Well, this has certainly been an illuminating night."
+    },
+    {
+      "Name": "Niko",
+      "Text": "We've delivered your food, so our mission here is complete."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It appears we dropped by unannounced, attacked you with a barrage of questions, and are now unceremoniously leaving. My apologies."
+    },
+    {
+      "Name": "Niko",
+      "Text": "To make up for it, did you want to ask us anything?"
+    },
+    {
+      "Text": "[s21] \"Is the RABBIT Squad happy with their decision?\" "
+    },
+    {
+      "Text": "[s22] \"How are the RABBITs? Are they adjusting well? \""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "The RABBIT Squad is..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Our team locations are classified, so we can't divulge that..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "...Take the 10 bus headed towards Shinkirou from the station in front of Schale, get off the final stop and walk 1 km east following the dried up valley, and you'll find a facility that's not on the map."
+    },
+    {
+      "Name": "Niko",
+      "Text": "It'll look like a deserted camp, but it's actually a fully operational training facility for SRT students, active since before the General Student Council President disappeared."
+    },
+    {
+      "Name": "Niko",
+      "Text": "The RABBIT Squad is stationed there right now."
+    },
+    {
+      "Name": "Niko",
+      "Text": "You can ask how they're doing yourself."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Niko! You can't just tell them that!"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "The location of SRT squads is second class confidential information!"
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's fine. They're not in prison, and they should be able to have visitors."
+    },
+    {
+      "Name": "Niko",
+      "Text": "But, um, if you could keep this under wraps, especially from Yukino..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "I just can't with you."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Whatever. I have no thoughts on this anymore."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "I'm technically outranked here, Deputy Squad Leader."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Heehee. Thanks both of you."
+    },
+    {
+      "Name": "Niko",
+      "Text": "If Sensei can get through to those girls, maybe there's hope for us too..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Until next–"
+    },
+    {
+      "Name": "Niko",
+      "Text": "...Take care of yourself, Sensei."
+    },
+    {
+      "Text": "After they took off, I savored the remaining inarizushi as I wondered what to do next."
+    },
+    {
+      "Text": "...For some reason, Niko's inarizushi was even more delicious than last time."
+    },
+    {
+      "Text": "Next Episode; SRT's Justice"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 14;สถานการณ์ลำบากของผู้ทำผิด"
+    },
+    {
+      "Text": "(กว่าจะเก็บของในโคะอุซางิ การ์เด้นเสร็จและกลับมาถึงชาเล่ต์ ก็เป็นเวลาค่ำแล้ว...)"
+    },
+    {
+      "Text": "ร้านสะดวกซื้อเอ็นเจล 24 ณ อาคารชาเล่ต์"
+    },
+    {
+      "Text": "(คุณครูเดินไปที่ชั้นวางสินค้าเพื่อซื้อข้าวกล่อง...)"
+    },
+    {
+      "Text": "[ns] \"เอ๋? ไม่มีข้าวกล่องเหลือเลยเหรอ?\""
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ขะ... ขอโทษค่ะคุณครู... วันนี้ไม่มีข้าวกล่องค่ะ"
+    },
+    {
+      "Text": "[s1] \"มื้อเย็นวันนี้กะจะฝากท้องไว้กับข้าวกล่องร้านสะดวกซื้อแท้ๆ...\""
+    },
+    {
+      "Text": "[s2] \"ที่ใกล้หมดอายุจนจะโละทิ้งแล้วก็ไม่มีเหรอ?\""
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ค่ะ แม้แต่ข้าวกล่องที่ขายไม่ค่อยดีจนเหลือทิ้งทุกวันก็ไม่มีค่ะ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "คือว่าจากนี้ร้านเอ็นเจล 24 ถูกสั่งห้ามไม่ให้ขายข้าวกล่องแล้วค่ะ แล้วก็เป็นเฉพาะที่สาขาชาเล่ต์เท่านั้น\nด้วย..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ฉันถามเหตุผลจากต้นทางแล้วนะคะ แต่ทางนั้นก็บอกว่าเป็นเพราะคำสั่งบริหารฉบับใหม่ และข้าวกล่อง\nที่สั่งไปทั้งหมดก็ถูกยกเลิกไปค่ะ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ตอนนี้ของที่เหลือในร้านสะดวกซื้อมีแต่น้ำเปล่าค่ะ..."
+    },
+    {
+      "Text": "[s] \"ขนมปังหรือเครื่องดื่มก็ไม่มีเหรอ...?\""
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ค่ะ ทั้งขนมปังและเครื่องดื่มก็ถูกสั่งห้ามเหมือนกันค่ะ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "วันนี้ไม่ต่างกับปิดร้านเลยละค่ะ ขอโทษที่วันนี้เป็นร้านไม่สะดวกซื้อนะคะ..."
+    },
+    {
+      "Text": "[s3] \"ไม่เป็นไร ไม่ใช่ความผิดโซระสักหน่อย\""
+    },
+    {
+      "Text": "[s4] (นี่เป็นการแก้แค้นที่รุนแรงกว่าที่คิดไว้อีกแฮะ...)"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "เอ่อ คุณครู... คุณครูจะพอทราบเรื่องที่เกิดขึ้นอยู่ใน D.U. ไหมคะ?"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "หลังจากเกิดความวุ่นวายในเมืองเมื่อวานซืน ผู้คนก็เลยไม่ค่อยสัญจรกันเท่าไร บรรยากาศในสำนักงาน\nใหญ่ก็เลยไม่ปกติค่ะ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ฉันได้สมุดคู่มือเล่มหนาที่เป็นกฎใหม่ที่เอาไว้ใช้ในการต้อนรับลูกค้า แถมการ์ดน่ากลัวๆ จากไคเซอร์ ซิเคียวริตี้ก็เทียวมาลาดตระเวนที่ร้านและดูว่าเราทำตามคำสั่งบริหารอยู่หรือเปล่า..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "นอกจากนั้นยังมีข่าวลือว่า ร้านสาขาของ <เอ็นเจล 24> จะถูกปิดทั้งหมดเร็วๆ นี้ และอาจจะมีร้าน <ไคเซอร์ 26> เข้ามาแทนค่ะ... ทำยังไงดีคะ?"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ได้ยินมาว่าสภาพแวดล้อมในการทำงานของ <ไคเซอร์ 26> แย่มากจนเหมือนต้องทำงาน 26 ชั่วโมง ต่อวันเลย ถ้าฉันต้องทำงานในที่แบบนั้น มีหวังคงได้เป็นลมไปแน่ๆ เลยค่ะ..."
+    },
+    {
+      "Text": "[ns5] \"เลข 26 หมายถึงแบบนี้สินะ...\""
+    },
+    {
+      "Text": "[ns6] \"แต่วันหนึ่งเราจะทำงาน 26 ชั่วโมงไม่ได้อยู่แล้วนี่...?\""
+    },
+    {
+      "Text": "[ns] \"แล้วนี่โซระกินข้าวเย็นแล้วยังน่ะ?\""
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ค่ะ ฉันห่อข้าวมากินแล้วละค่ะ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "เมื่อวานตอนเย็นฉันทำมันฝรั่งต้มไว้เยอะเลย ก็เลยเอามาเป็นกับข้าวมื้อเย็นของวันนี้ค่ะ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "อ่า เอ่อ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ถ้าเกิดว่าคุณครูอยากได้ข้าวกล่องของฉันละก็..."
+    },
+    {
+      "Text": "[ns] \"มะ... ไม่เป็นไร! ไม่ต้องห่วงครูหรอก!\""
+    },
+    {
+      "Text": "(คุณครูไม่สามารถรับข้าวกล่องจากโซระได้ จึงปฏิเสธและกลับมาที่สำนักงานชาเล่ต์)"
+    },
+    {
+      "Text": "สำนักงานชาเล่ต์"
+    },
+    {
+      "Text": "[ns] \"หิวจัง...\""
+    },
+    {
+      "Name": "???",
+      "Text": "<สวัสดีค่ะ นี่คือ 'FOX EATS' ค่ะ!>"
+    },
+    {
+      "Name": "???",
+      "Text": "<คุณลูกค้า [USERNAME] สั่งข้าวกล่องไว้ใช่ไหมคะ?>"
+    },
+    {
+      "Text": "[ns] \"... ไม่ได้สั่งอะไรนะ?\""
+    },
+    {
+      "Name": "???",
+      "Text": "<แปลกจังเลยนะคะ... พอดีว่าทางเราได้รับออเดอร์ข้าวกล่องซูชิเต้าหู้หวาน 1 ที่ ให้มาส่งที่สำนักงาน\nชาเล่ต์น่ะค่ะ>"
+    },
+    {
+      "Name": "???",
+      "Text": "<ช่วยเปิดประตูเพื่อเป็นการยืนยันหน่อยได้ไหมคะ?>"
+    },
+    {
+      "Text": "[ns7] เปิดประตู"
+    },
+    {
+      "Text": "[ns8] ไม่เปิดประตูให้"
+    },
+    {
+      "Name": "???",
+      "Text": "<... ขอบคุณนะคะ>"
+    },
+    {
+      "Text": "[ns9] \"นี่พวกเธอ...?\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "สวัสดีตอนค่ำค่ะคุณครู ดีใจที่ได้มาเจอกันอีกนะคะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ว่าไงๆ!"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไม่คิดเลยแฮะว่าจะได้มาเจอผู้ใหญ่คนนี้อีก..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "นี่ก็ค่ำแล้ว รับประทานอาหารเย็นไปหรือยังคะ?"
+    },
+    {
+      "Name": "???",
+      "Text": "<... งั้นก็ช่วยไม่ได้นะคะ มาถึงที่นี่แล้ว จะให้กลับไปเลยก็คงเสียเที่ยวแย่...>"
+    },
+    {
+      "Name": "???",
+      "Text": "<... ติดตั้งดินระเบิดสุดเหนียวเรียบร้อย เริ่มจุดระเบิด>"
+    },
+    {
+      "Text": "[s10] \"... จะทำอะไรน่ะ?\""
+    },
+    {
+      "Name": "???",
+      "Text": "<3... 2... 1...>"
+    },
+    {
+      "Text": "[ns11] \"รอเดี๋ยวๆ ครูไปเปิดให้เดี๋ยวนี้แหละ...!\""
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แย่ละ พังมากกว่าที่คิดไว้อีกแฮะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "โอโทกิ ใช้ดินระเบิดไปเท่าไรกันเนี่ย? ประตูพังไปทั้งบานแล้วนะ!"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ขอโทษที ก็สไนเปอร์อย่างฉันไม่ถนัดงาน CQB นี่นา"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แหะๆๆ... ขอโทษนะคะคุณครู พวกฉันจะรีบซ่อมประตูที่พังให้เลยค่ะ..."
+    },
+    {
+      "Text": "[s12] \"นี่พวกเธอ...?\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถึงพวกฉันจะไม่มีหน้ามาพูดว่า 'สวัสดีตอนค่ำ' แต่ยังไงก็... ยินดีที่ได้พบกันอีกครั้งนะคะ คุณครู"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "นี่ก็ค่ำแล้ว คุณครูรับประทานอาหารเย็นไปหรือยังคะ?"
+    },
+    {
+      "Text": "[ns] \"ยังเลย\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "พวกฉันคิดไว้แล้วละค่ะว่าคุณครูน่าจะยังไม่ได้ทานข้าว"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "คำสั่งบริหารฉบับใหม่นี้น่าจะทำให้การขนส่งสินค้าในร้านสะดวกซื้อสาขาชาเล่ต์ผิดพลาดน่ะค่ะ..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "คลาดคงคลาดเคลื่อนอะไรกันล่ะ ทางนั้นเอาแต่ใจตัวเองที่คนอื่นไม่ยอมฟังคำสั่งต่างหาก"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไม่ใช่เด็กประถมแล้วสักหน่อย ยังเอาเรื่องของกินมาล้อเล่นกันอยู่ได้... คนอะไรไม่รู้จักโต"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่การปิดกั้นการขนส่งเพื่อรับมือกับศัตรูที่กำลังประท้วงอยู่ก็ถือเป็นกลยุทธ์ที่ดีเลยนะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ต่อให้เป็นผู้มีอุดมการณ์แรงกล้าขนาดไหน ถ้าท้องหิวก็คงไม่มีแรงจะยืนหยัดต่อสู้หรอก"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถึงคุณครูจะไม่ได้ประท้วงอยู่ที่สำนักงานของชาเล่ต์ด้วยก็เถอะ..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ FOX EATS... ไม่สิ กองทหาร FOX ของเราก็เตรียมอาหารง่ายๆ มาให้คุณครูแล้วละค่ะ"
+    },
+    {
+      "Text": "[ns] \"...ซูชิเต้าหู้หวานเหรอ?\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ค่ะ คุณครูเคยทานซูชิเต้าหู้หวานที่ฉันทำให้มาครั้งหนึ่งแล้วใช่ไหมคะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฉันเห็นว่ามันน่าจะถูกปากคุณครูน่ะค่ะ ครั้งนี้ก็เลยเตรียมซูชิเต้าหู้หวานแบบเดียวกันมาให้ค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฉันเตรียมมาให้เยอะเลย คุณครูทานให้เต็มอิ่มเลยนะคะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ฉันรู้ดีว่าตอนนี้คุณครูคงจะไม่อยากกินอาหารที่พวกเราเตรียมมาให้ แต่ยังไงก็..."
+    },
+    {
+      "Text": "[ns] กินซูชิเต้าหู้หวานที่นิโกะเอามาให้"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... กินไปแล้วแฮะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เอ๋...? หยิบไปกินโดยที่ไม่สงสัยอะไรเลยงั้นเหรอ...? ถามจริง...?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "มะ...ไม่เป็นไรจริงๆ เหรอคะ?"
+    },
+    {
+      "Text": "[s13] \"อื้ม อร่อยออก\""
+    },
+    {
+      "Text": "[s14] \"เต้าหู้ก็นุ่ม ข้าวก็สุกร่วนดี เยี่ยมไปเลยละ!\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่ค่ะ ฉันไม่ได้หมายถึงรสชาติ..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "มันออกจะแปลกที่ฉันจะพูดอย่างนี้... แต่คุณครูไม่สงสัยเลยเหรอคะว่าข้าวกล่องนี้อาจจะมียาพิษก็ได้?"
+    },
+    {
+      "Text": "[s] \"...หืม? มียาพิษในซูชิเต้าหู้หวานนี้เหรอ?\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่มีค่ะ ไม่ใช่อย่างนั้นหรอก..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "นี่ ฉันว่าเราน่าจะมีการเข้าใจผิดอะไรบางอย่าง... ตอนนี้พวกเราคือศัตรูกันนะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "คุณครูชาเล่ต์ก็น่าจะรู้ไม่ใช่เหรอว่าตอนนี้กองทหาร FOX กำลังจับมือกับรักษาการฯ คายะเพื่อฟื้นฟู\nสถาบัน SRT อยู่"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "แต่คนที่ปฏิเสธข้อเสนอของคายะอย่างเฉียบขาด กลับคิดว่าอาหารที่ผู้สมคบคิดเตรียมมาให้จะไม่มีพิษ\nภัยอะไรเลยงั้นเหรอ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถึงจะเป็นคนดีแค่ไหนก็เถอะ ยังไงก็ต้องมีขีดจำกัดบ้างสิ..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่ก็นะ ถึงจะมีคำกล่าวที่ว่า 'ส่งเกลือไปให้ศัตรู' แต่ปกติแล้วการไม่แตะต้องของที่ศัตรูส่งมาให้น่าจะ\nเป็นความคิดที่ฉลาดกว่า"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "และในระหว่างการปฏิบัติการ บางครั้งก็มีการผสมกระสุนที่มีตำหนิไว้ในสัมภาระเพื่อเตรียมพร้อมเวลา\nถูกศัตรูจับไปด้วย"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เพราะแบบนี้สถาบัน SRT ถึงได้ย้ำนักย้ำหนาว่า 'เพื่อความปลอดภัยในการทำปฏิบัติการ ห้ามกินอะไร\nนอกจากอาหารที่ห่อมาเองเท่านั้น ต่อให้เป็นแค่น้ำเปล่าก็ไม่ได้'"
+    },
+    {
+      "Text": "[ns] \"ครูไม่ใช่ศัตรูของพวกเธอนี่นา\""
+    },
+    {
+      "Text": "[ns] \"... ครูเป็นแค่คุณครูของนักเรียนก็เท่านั้นเอง\""
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "... เป็นคนอย่างที่ได้ยินมาเลย"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ถึงจะไม่ใช่ศัตรู ก็ไม่ควรเชื่อใจคนอื่นง่ายเกินไปนะคะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถ้าเราดูเป็นคนเชื่อคนง่าย คนอื่นจะรู้สึกว่าเรายังไม่โตและโอนอ่อนไปเรื่อย และแบบนี้จะเสียเปรียบใน\nการเจรจาค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ในสังคมเราน่ะ ถ้าเจอคนแปลกหน้าแล้วยิ่งต้องสงสัย ไม่เชื่อใจ และระวังตัวไว้ค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "... คุณครูเองก็เป็นผู้ใหญ่ น่าจะรู้เรื่องแบบนี้ดีไม่ใช่เหรอคะ? "
+    },
+    {
+      "Text": "[s] \"พอเชื่อใจแล้วได้อะไรกลับมา มีให้เห็นกว่าระแวงแล้วสูญเสียอะไรไปนะ\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "... คารมคมคายไม่เบาเลยนะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "คุณครูรู้จักเกมของผู้ใหญ่ที่ชื่อ <สถานการณ์ลำบากของผู้ทำผิด> หรือเปล่า?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถ้าต่างฝ่ายต่างเลือกสิ่งดีๆ ให้ฝ่ายตรงข้าม ก็จะไม่เสียหายอะไร แต่หากฝ่ายตรงข้ามทรยศเราจนอยู่ใน\nสถานการณ์ที่ต้องรับความผิด ก็จะถกเถียงกันว่าทางเลือกไหนที่ 'เหมาะสม' ที่สุด"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ตามทฤษฎีนี้แล้ว คนผิดมักจะเลือกที่จะทรยศเสมอไม่ว่าอีกฝ่ายจะเลือกอะไร เพราะตัวเองจะคำนึงถึง\nแต่ผลประโยชน์ที่ตัวเองจะได้รับ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อันที่จริงเราก็จัดการกับ <คนผิด> มาตั้งเยอะ และในนั้นก็ไม่มีใครเลยที่เลือกในสิ่งที่เป็นประโยชน์กับ\nฝ่ายตรงข้าม"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "... ความเชื่อใจที่ผู้ใหญ่พูดถึง สุดท้ายก็ไม่ได้ต่างไปจากนี้หรอก"
+    },
+    {
+      "Text": "[s15] \"ดูเป็นทฤษฎีที่ยาก... แต่ก็น่าสนใจดีนะ\""
+    },
+    {
+      "Text": "[s16] \"... สมกับเป็นนักเรียนหัวกะทิของ SRT เลยนะ!\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถึงจะไม่ใช่เด็กหัวกะทิ แต่ทฤษฎีเกมแค่นี้ใครๆ ก็ควรจะรู้..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไม่สิ นี่ไม่ใช่เวลามาชมกันสักหน่อย...!"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เอะอะก็เอาแต่ชม..."
+    },
+    {
+      "Text": "[s] \"แต่ในความเป็นจริง มันก็น่าจะแตกต่างกันนะ?\""
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ก็จริงอยู่ว่าถ้าจะเอาทฤษฎีจากเกมมาใช้ในชีวิตจริง เราก็ต้องเอาตัวแปรต่างๆ มาคิดด้วย"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เช่นต้องพิจารณาว่าผลจากการเลือกนี้จะส่งผลกระทบอะไรต่อเกมถัดไป..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... แต่เกมนี้ก็จบด้วยการแข่งขันรอบเดียวได้นะคุณครู"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "กลยุทธ์ที่สำคัญที่สุดในสังคมป่าเถื่อนที่ผู้แพ้ไม่มีวันหวนกลับมาได้ก็คือ 'กลยุทธ์ All-Defect ที่หักหลัง และทำให้ฝ่ายตรงข้ามหวาดกลัว'"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "... ถ้างานนี้จบลง พวกฉันอาจไม่มีวันหวนกลับมาก็ได้ค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แถมพวกฉันก็มีบทบาทเป็นแค่อาวุธ ไม่มาจำการเลือกของคุณครูหรอกค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "การเลือกนี้จะไม่ส่งผลกระทบต่อนักเรียนคนอื่นด้วยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ถึงอย่างนั้น... ก็จะเชื่อใจนักเรียนอย่างพวกฉันเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"เชื่อสิ\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถ้าคิดจะพูดแกล้งพวกเราละก็ อย่า..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... ใจเย็นก่อน คุรุมิ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถึงทุกคนจะคาดหวังกับเรื่องในวันนี้ไม่ได้ แต่คุณครูก็เลือกที่จะเดิมพันกับความเป็นไปได้ของวันพรุ่งนี้\nสินะคะ"
+    },
+    {
+      "Text": "[ns] \"แน่นอนอยู่แล้ว\""
+    },
+    {
+      "Text": "[ns17] \"ก็ครูเป็นคุณครูนี่นา\""
+    },
+    {
+      "Text": "[ns18] \"ก็ครูเป็นคุณครูที่ต้องสอนเด็กที่จะโตขึ้นเป็นผู้ใหญ่ในวันข้างหน้านี่นา\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "... เป็นผู้ใหญ่ที่แปลกจริงๆ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... แปลกคนแฮะ เหมือนที่เขาลือๆ กันเลยนะ"
+    },
+    {
+      "Text": "[s] \"ไม่รู้เหรอว่าตอนนี้พวกเธอกำลังพิสูจน์ให้เห็นจุดแข็งของการเชื่อใจอยู่?\""
+    },
+    {
+      "Text": "[ns19] \"ครูได้ยินมาว่ากองทหาร FOX เป็นทีมที่เชื่อใจหัวหน้ากองเอามากๆ\""
+    },
+    {
+      "Text": "[ns20] \"จุดแข็งของกองทหาร FOX ก็คงออกมาจากความเชื่อใจนั่นละนะ\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "หมายถึงยูกิโนะจังใช่ไหมคะ..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "... ก็นะ มันก็จริง"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... ก็เป็นหัวหน้ากองนี่นา"
+    },
+    {
+      "Text": "[ns] \"... มีปัญหาอะไรกันงั้นเหรอ?\""
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่มีค่ะ ไม่มีปัญหาอะไรทั้งนั้นค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "สายสัมพันธ์ของกองทหาร FOX แข็งแกร่งกว่าสิ่งอื่นใดอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อย่างน้อยเราก็ไม่มีทางหวั่นไหวกับคำพูดของคุณครูที่เหมือนกับแรคคูนหรอก"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... เธอเป็นเพื่อนเก่าเพื่อนแก่ที่เรารู้จักมานานก่อนจะมาเป็นหัวหน้ากองอีกน่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เข้าใจแล้วค่ะ ฉันได้เห็นความจริงใจของคุณครูเพียงพอแล้วค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ในเมื่อส่งข้าวกล่องเสร็จแล้ว งั้นพวกฉันกลับกันก่อนดีกว่าค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "จู่ๆ พวกฉันก็แวะมาหา แล้วก็เอาแต่ถามคำถามนู่นนี่แล้วก็กลับ... แบบนี้รู้สึกผิดยังไงก็ไม่รู้นะคะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่รู้ว่าแบบนี้จะถือเป็นการตอบแทนได้ไหม แต่คุณครูอยากถามอะไรพวกฉันเป็นพิเศษไหมคะ?"
+    },
+    {
+      "Text": "[s21] \"ได้ยินมาว่าสมาชิกกองทหาร RABBIT ไปจับมือกับทางนั้น...\""
+    },
+    {
+      "Text": "[s22] \"กองทหาร RABBIT สบายดีกันไหม?\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ตอนนี้กองทหาร RABBIT..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "อยู่ในสถานที่ลับสุดยอด เราก็เลยยังบอกไม่ได้..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "... จากป้ายรถประจำทางหน้าชาเล่ต์ ให้นั่งรถบัสสาย 10 ที่มุ่งหน้าไปยังชินคิโรโอะ แล้วลงที่ป้ายสุดท้าย จากนั้นเดินไปทางตะวันออกประมาณ 1 กม. ก็จะเจออาคารที่ไม่ปรากฏในแผนที่ค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "มันอาจดูเหมือนสถานที่ตั้งแคมป์ร้าง ที่นั่นคืออาคารทหารที่สร้างไว้ให้นักเรียน SRT ใช้ฝึกฝน และปฏิบัติการจริงตั้งแต่ก่อนที่ประธานองค์การนักเรียนจะหายตัวไปค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "... และตอนนี้กองทหาร RABBIT ก็อยู่ที่นั่นค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "คุณครู [USERNAME] ไปตรวจสอบเองเถอะค่ะว่าเด็กพวกนั้นสบายดีกันหรือเปล่า"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เดี๋ยวสิ นิโกะ! ทำไมถึงบอกไปล่ะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ค่ายพักแรมของกองทหาร SRT เป็นข้อมูลลับสุดยอดระดับ 2 เชียวนะ!"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่เป็นไรหรอก ก็แค่ไปดูว่าอยู่สบายกันหรือเปล่า แค่นี้ไม่ใช่ปัญหาหรอก"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ถ้าโดนจับได้ พวกเราจะโดนดุ... งั้นช่วยเก็บเป็นความลับไม่ให้ยูกิโนะจังรู้ได้ไหม?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "จริงๆ เลยนะเธอเนี่ย...!"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เฮ้อ... ฉันไม่รู้ด้วยแล้ว"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ถ้าเป็นคำสั่งของรองหัวหน้ากอง ก็คงต้องทำตามสิเนอะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฮุฮุ ขอบใจนะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "และถ้าคุณครู [USERNAME] สามารถเปลี่ยนแปลงเด็กพวกนั้นได้ สักวันพวกเราเองก็คง..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถ้างั้นก็... ไว้เจอกัน..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไม่สิ ดูแลสุขภาพด้วยนะคะคุณครู"
+    },
+    {
+      "Text": "(หลังจากกองทหาร FOX กลับไป คุณครูก็กินซูชิเต้าหู้หวานที่เหลือพร้อมกับคิดเกี่ยวกับงานในอนาคต)"
+    },
+    {
+      "Text": "(... รู้สึกว่าซูชิเต้าหู้หวานที่นิโกะเอามาให้มีรสจัดจ้านกว่าของที่เคยกิน)"
+    },
+    {
+      "Text": "ตอนต่อไป;ความยุติธรรมของ SRT"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第14話;囚徒困境"
+    },
+    {
+      "Text": "（收拾完行李，從兔寶寶公園回來的時候已經很晚了……）"
+    },
+    {
+      "Text": "夏萊大樓．天使24便利商店"
+    },
+    {
+      "Text": "（看向便當的陳列架時……）"
+    },
+    {
+      "Text": "[ns]「咦？連一個便當都沒有……？」"
+    },
+    {
+      "Name": "空",
+      "Text": "不，不好意思……今天便當都賣光了。"
+    },
+    {
+      "Text": "[s1]「本來還想說今天晚餐要吃便利商店便當的……」"
+    },
+    {
+      "Text": "[s2]「也就是說，連過期便當都沒有……？」"
+    },
+    {
+      "Name": "空",
+      "Text": "是的……就連總是被報廢的豆芽菜便當也……"
+    },
+    {
+      "Name": "空",
+      "Text": "此外，只有我們分店不知為何從昨天開始被禁止進貨便當……"
+    },
+    {
+      "Name": "空",
+      "Text": "即使詢問原因，對方也只說是最新的行政命令……\n就連已經預訂的便當也全都被取消了……"
+    },
+    {
+      "Name": "空",
+      "Text": "現在店裡就只剩下礦泉水而已了……"
+    },
+    {
+      "Text": "[s]「連麵包跟飲料也沒有……？」"
+    },
+    {
+      "Name": "空",
+      "Text": "是的。不只是麵包，就連各種飲料也都無法進貨……"
+    },
+    {
+      "Name": "空",
+      "Text": "今天幾乎是半停業狀態。\n造成麻煩真是非常抱歉……"
+    },
+    {
+      "Text": "[s3]「沒關係，這不是空的錯。」"
+    },
+    {
+      "Text": "[s4]（報復方式還真是比想像中更加微妙……）"
+    },
+    {
+      "Name": "空",
+      "Text": "老，老師……那個，關於最近D.U.發生的事，\n老師知道些什麼嗎？"
+    },
+    {
+      "Name": "空",
+      "Text": "自從前天市區發生騷動以後，人潮就突然消失了……\n總公司的氣氛也有點詭異……"
+    },
+    {
+      "Name": "空",
+      "Text": "凱薩保全送來了一本厚厚的指南，說是服務業的新規則……\n還派了一些凶神惡煞的人到店裡來，說是要確認有沒有遵守行政命令……"
+    },
+    {
+      "Name": "空",
+      "Text": "我還聽見「天使24」可能會關門大吉，由「凱薩26」取而代之的傳聞……\n該怎麼辦才好呢？"
+    },
+    {
+      "Name": "空",
+      "Text": "「凱薩26」的工作環境似乎糟糕到一天工作26小時也不夠的程度……\n在那種地方工作的話，我一定會過勞死的……"
+    },
+    {
+      "Text": "[ns5]「原來26是這個意思啊……」"
+    },
+    {
+      "Text": "[ns6]「一天工作26小時是不可能的吧……？」"
+    },
+    {
+      "Text": "[ns]「空有吃過晚餐了嗎？」"
+    },
+    {
+      "Name": "空",
+      "Text": "嗯。我有帶便當來所以沒問題。"
+    },
+    {
+      "Name": "空",
+      "Text": "昨天不小心做了太多馬鈴薯燉肉──"
+    },
+    {
+      "Name": "空",
+      "Text": "啊，那個……"
+    },
+    {
+      "Name": "空",
+      "Text": "如果……不介意的話……"
+    },
+    {
+      "Text": "[ns]「沒，沒關係！不用擔心我！」"
+    },
+    {
+      "Text": "（再怎麼說也不能收下空的便當，於是慌忙回到了夏萊的辦公室）"
+    },
+    {
+      "Text": "夏萊．辦公室"
+    },
+    {
+      "Text": "[ns]「肚子好餓……」"
+    },
+    {
+      "Name": "???",
+      "Text": "「『FOX EATS』到囉！」"
+    },
+    {
+      "Name": "???",
+      "Text": "「[USERNAME]客人，您有點外送便當對吧？」"
+    },
+    {
+      "Text": "[ns]「呃，我沒有點外送啊……」"
+    },
+    {
+      "Name": "???",
+      "Text": "「真奇怪……我們有接到送一人份的豆皮壽司到這裡的訂單呀」"
+    },
+    {
+      "Name": "???",
+      "Text": "「為了進行確認，可以請您開門一下嗎？」"
+    },
+    {
+      "Text": "[ns7] 開門"
+    },
+    {
+      "Text": "[ns8] 不開門"
+    },
+    {
+      "Name": "???",
+      "Text": "「……非常感謝」"
+    },
+    {
+      "Text": "[ns9]「你們是那時候的……？」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "你好，老師。很高興能再見到你。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "嗨！"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "唉……想不到居然還會再見到你……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "老師吃過晚飯了嗎？"
+    },
+    {
+      "Name": "???",
+      "Text": "「……真沒辦法，也不能就這麼回去……」"
+    },
+    {
+      "Name": "???",
+      "Text": "「……設置完成，準備引爆。」"
+    },
+    {
+      "Text": "[s10]「……在做什麼？」"
+    },
+    {
+      "Name": "???",
+      "Text": "「3……2……1……」"
+    },
+    {
+      "Text": "[ns11]「等等，我現在就開門──」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "哎呀，威力比想像中還大呢。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "御伽！你在破門的時候到底用了多少炸藥啊？\n連門帶框都被你炸飛了不是嗎！"
+    },
+    {
+      "Name": "御伽",
+      "Text": "抱歉抱歉，畢竟我是狙擊手，所以不太習[ruby=限制空間戰鬥]慣CQB嘛[/ruby]。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "啊哈哈……不好意思，老師。\n我們會馬上把門修好的……"
+    },
+    {
+      "Text": "[s12]「你們是那時候的……？」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "你好……雖然是讓人有點哭笑不得的情況……\n很高興能再見到你，老師。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "老師吃過晚飯了嗎？"
+    },
+    {
+      "Text": "[ns]「還沒有哦。」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……果然如此。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "因為這次行政命令的關係，似乎影響到了便利商店的物流……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "說什麼影響，不過就是有人因為不對他言聽計從就故意搗亂吧。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "又不是小學生……竟然做出這種事，真像個笨蛋。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "不過，在敵人野營時切斷對方的兵糧也是一種戰略。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "無論有著多麼堅強的意志，肚子餓了也是無法戰鬥的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我覺得老師應該也不是在夏萊野營吧……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那個，總之我們FOX EATS……\n不對，FOX小隊準備了一些簡單的餐點。"
+    },
+    {
+      "Text": "[ns]「這是……豆皮壽司？」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "是的。老師之前也吃過我做的豆皮壽司對吧？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "看你吃得好像挺開心的……所以就做了跟當時作法相同的豆皮壽司過來。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我準備了很多，請盡量吃吧。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "嘛，我想他大概也不敢吃我們帶來的食物吧──"
+    },
+    {
+      "Text": "[ns] 吃下豆皮壽司"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……這麼輕易就吃了？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "咦……？真假……？\n這傢伙不妙啊……沒有警戒心嗎……？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那個，沒問題嗎……？"
+    },
+    {
+      "Text": "[s13]「沒問題，很好吃哦。」"
+    },
+    {
+      "Text": "[s14]「不只相當入味，飯也軟硬適中，真是太好吃了！」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不，我不是那個意思……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "雖然好像不該由我們這麼問……\n老師都不會懷疑裡面有沒有下毒嗎？"
+    },
+    {
+      "Text": "[s]「……嗯？這個豆皮壽司有毒嗎？」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不，這倒是沒有……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "我說，你好像誤會了什麼……我們現在可是敵對關係哦。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "既然是夏萊的老師，應該已經知道了吧？\n我們FOX小隊為了讓SRT特殊學園復活，已經跟香耶聯邦學生會長代理聯手了。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "明明拒絕了香耶聯邦學生會長代理的提議，\n卻認為與他聯手的我們會不帶任何企圖地帶食物來給你嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "人就算再怎麼好也該有個限度吧……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "雖然也有「贈鹽予敵」這類的故事沒錯，但通常不碰敵人送的東西才是明智之舉吧？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "在戰場上，有時也會考量被敵人奪走的情況而故意帶著品質不良的子彈……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "在SRT也被多次強調「在敵陣中除了自己帶來的食物外連水都不要喝」這句話……"
+    },
+    {
+      "Text": "[ns]「我不是你們的敵人。」"
+    },
+    {
+      "Text": "[ns]「……只是老師而已。」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "……看來是個跟傳聞中一樣的人啊。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "就算不是敵人，輕易相信別人的話之後可是會吃到苦頭的哦。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "要是太容易相信他人會給人不成熟的印象……很容易在交涉中吃虧的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "在社會裡，最好時刻對他人保持懷疑……\n若是沒有多加提防就會遭受損失……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……老師也是大人，這點道理應該懂吧？"
+    },
+    {
+      "Text": "[s]「因信任而獲得的東西，往往比因懷疑而失去的東西來得多。」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "……哼。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "老師沒聽過「囚徒困境」嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "就是在雙方都做出有利於對方的選擇就沒有人會蒙受損失，\n但一旦對方背叛自己就會被加重罪刑的狀況下──\n討論什麼樣的選擇最為「合理」的理論……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "也就是說──無論對方的選擇為何，都因為背叛較為有利而永遠會選擇背叛。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "實際上，我們也面對過無數的「囚徒」……\n然而從來沒有任何一個人做出有利於對方的選擇。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "……大人口中的「信任」，在本質上也是一樣的。"
+    },
+    {
+      "Text": "[s15]「聽起來有點複雜……不過挺有趣的呢。」"
+    },
+    {
+      "Text": "[s16]「……真不愧是SRT的菁英！」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "哼，就算不是菁英，知道這種程度的事也是理所──"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "不對，現在不是稱讚別人的時候吧……！"
+    },
+    {
+      "Name": "御伽",
+      "Text": "真好搞定……"
+    },
+    {
+      "Text": "[s]「不過，現實還是多少有點不同吧？」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "當然，如果要套用在現實情況的話，就必須再增加各式各樣的變數才行。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "像是這個選擇所帶來的結果，會對未來造成什麼樣的影響之類的……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……但是老師，這個遊戲也可以一局定勝負。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "在敗者永遠無法回來的野生社會中，\n最有效的就是「永遠背叛對方，使其抱持恐懼」──All-Defect戰略"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……等這次的事情結束後，我們也許再也不會回來了。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "而且我們是武器，並不會記得老師所做的選擇。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "這個選擇也不會影響到其他學生。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "即便如此，你還是相信我們……相信學生嗎？"
+    },
+    {
+      "Text": "[s]「相信。」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "只是嘴上說說當然──"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……冷靜點，胡桃。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "大家明明連今天的事都無法承諾，老師卻願意把希望賭在明天的可能性上呢。"
+    },
+    {
+      "Text": "[ns]「當然。」"
+    },
+    {
+      "Text": "[ns17]「因為我是老師。」"
+    },
+    {
+      "Text": "[ns18]「引導明天就可能成為大人的孩子們就是我的職責。」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "……怪人。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……真的跟傳聞中一模一樣。"
+    },
+    {
+      "Text": "[s]「況且，你們不也向我證明了『信任』的強大之處嗎？」"
+    },
+    {
+      "Text": "[ns19]「我聽說FOX小隊是對小隊長相當信任的隊伍。」"
+    },
+    {
+      "Text": "[ns20]「我認為FOX小隊的強大，正是來自隊員間的信任關係哦。」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "你是說雪乃醬嗎……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "……嘛，是沒錯啦。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……畢竟是小隊長嘛。"
+    },
+    {
+      "Text": "[ns]「……怎麼了嗎？」"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不，沒什麼……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "FOX小隊的羈絆比什麼都堅固。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "至少絕對不會因為像狸貓的老師的一句話就動搖。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……畢竟在他成為小隊長以前，我們就已經是好友了啊。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "謝謝你。那麼既然已經了解老師的真實想法……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "而且便當也已經送到，我們差不多該回去了。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "這麼晚來打擾真是非常抱歉。\n突然向老師提問也有點過意不去……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "雖然可能算不上是補償，老師有沒有問題想問我們的呢？"
+    },
+    {
+      "Text": "[s21]「我聽說RABBIT小隊和你們會合了……」"
+    },
+    {
+      "Text": "[s22]「RABBIT小隊的大家過得還好嗎？」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "RABBIT小隊現在……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "小隊的位置姑且算是機密，不太方便告訴老師呢……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……從夏萊前的公車站搭乘開往新木呂尾的十號公車並在終點站下車，\n之後沿著乾涸的溪谷往東走1km左右就能看見一座地圖上沒有標示的設施。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "雖然看起來像是座廢棄的露營場，\n不過那裡其實是聯邦學生會長在失蹤前為SRT學生的訓練和作戰建造的軍事設施。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……RABBIT小隊就在那個地方。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那些孩子們是否安好，就請[USERNAME]老師親自確認吧。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "等等，仁子！為什麼要說出來啊？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "他們所在的營地位置可是二級機密哦？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "沒關係，只是問問是否安好不會出問題的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不過如果被抓包的話會被罵的……你們要跟雪乃醬保密哦。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "你真的是……！"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "唉……發生什麼事我可不管喔。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "畢竟是副小隊長的命令，我們還能說不嗎？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "呵呵，謝謝。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "如果[USERNAME]老師能讓那些孩子改變的話，說不定我們總有一天也……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那麼，後會有期……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不，請保重──老師。"
+    },
+    {
+      "Text": "（FOX小隊離開後，一邊吃著剩下的豆皮壽司，一邊思考著未來的方向）"
+    },
+    {
+      "Text": "（……仁子帶來的豆皮壽司，味道似乎比之前重了一些）"
+    },
+    {
+      "Text": "下一話;SRT的正義"
+    }
+  ]
+}

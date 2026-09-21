@@ -1,0 +1,1792 @@
+{
+  "TitleJP": "テルマエ·アカエ（３）",
+  "TitleKR": "테르마이 아카이 3",
+  "TitleEN": "Thermae Akai 3",
+  "TitleTH": "สู้ต่อไป เรดวินเทอร์! 3",
+  "TitleTW": "檔案浴場（３）",
+  "DescJP": "どの学園の入浴施設も、レッドウィンターには合わないと感じた2人は、最後にミレニアムサイエンススクールの入浴施設を見学するのだった。",
+  "DescKR": "어느곳에서도 마음에 드는 시설을 발견하지 못한 노도카와 시구레는, 마지막으로 밀레니엄 학원의 목욕 시설을 구경한다.",
+  "DescEN": "Unable to find any facilities they like, Nodoka and Shigure finally visit the bathhouse at Millennium Academy.",
+  "DescTH": "โนโดกะกับชิกุเระค้นหาห้องอาบน้ำที่ถูกใจที่สุดไม่ได้ จนสุดท้ายก็\nตัดสินใจแวะไปสำรวจห้องอาบน้ำของโรงเรียนมิลเลเนียม",
+  "DescTW": "感覺沒有一個學園的沐浴設施適合赤冬的兩人，最後參觀了千年科學學園的沐浴設施。",
+  "DialogJP": [
+    {
+      "Text": "テルマエ・アカエ（３）"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "結局、ここに来ることになるとは……"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "仕方ないよ。それぞれ欠点があったんだし。"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "それはそうだけど……"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "ミレニアムサイエンススクールだけは避けたかったのに……"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "……どうして？"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "ミレニアムサイエンススクールといえば、最先端の技術が有名だよね？"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "休憩室のコーヒーマシーンにさえ人工知能が搭載されてるって噂があるくらいだから……入浴施設の設備なんて、私たちには絶対に手が届かないよ……"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "噂なんて[ruby=おおげさ]大袈裟[/ruby]に広がるものじゃない？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "とりあえず、値段だけでも聞いてこうよ。"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "うん……"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "き、緊急撤去！？"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "私たちの改造した入浴施設に、何か問題でもありましたか！？"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "い、いえ。その……[ruby=・   ・]現状[/ruby]、問題はありませんが……"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "後ほど、他の学園の方が寮の浴場を見学されるので……"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "セミナーの審査を通ってないエンジニア部の発明品を、他の学園の方に見せるのはちょっと……"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "それはおかしい。私たちエンジニア部だって、ミレニアムサイエンススクールの一員として、発明品を外部に披露する資格があるはずだ。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "それに外部からお客さんが来るというのなら、なおさら私たちに任せた方が良いのでは？"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "いえ、むしろ……そもそも皆さんはこれまで――"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "あの、すみません……レッドウィンター連邦学園の者ですが……"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "も、もう到着したんですか！？"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "申し訳ありませんが……まだお見せする準備が整っていなくて……"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "そうなんですか？\n問題ないように見えますけど……"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "その通り。新しい入浴施設の準備は完璧さ。"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "ウ、ウタハ部長……！"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "新しい入浴施設……？"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "新型入浴施設の機能については、私から説明しましょう！"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "まずはこちら。浴槽に搭載された最先端の人工知能が、使用者のコンディションに合わせリアルタイムで水温を調整してくれます！"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "使用者の肌状態を自動的に分析してくれるので、温度を設定する必要はありません！"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "給湯器は、周辺のエネルギー源から熱を吸収するヒートポンプ式。\n冷媒としても使える……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "冷媒を活用した冷蔵庫もあるから、入浴中に冷たい飲み物が飲めるよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "冷蔵庫つきの浴槽……それはいいね。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "それと、この入浴施設には面倒くさがり屋のための自動入浴補助機能もあるんだ。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "複数のロボットアームが音声認識で動作し、身体を自動で洗ってくれる。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "この浴槽ひとつで、複数の家電代わりになるんだ。"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "あの……お話を聞いていると、確かにすごそうですけど……"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "これほどの機能があるとすると……やっぱり導入にはお金がかかりますよね……？"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "お代のことでしたら、心配無用です！"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "この新型入浴施設はまだ試作品ですので、製作費を除く設置費や修理費は全て、私たちエンジニア部で負担いたします！"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "運転中に発生した事故については責任を負わない、という制約はつくけど……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "……この額でどう？"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "こんなに安いの！？"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "すぐに契約します！"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "あの……ひとつ先に申し上げておきますと……"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "エンジニア部の発明品は性能こそ確かなのですが、いつも予想外の機能が追加されることで悪名高いので……"
+    },
+    {
+      "Name": "ミレニアム寮長",
+      "Text": "安全性のテストが終わるまで時間もかかりますし……他の学園の施設を取り入れた方が……"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "大丈夫です！機能が追加されるならむしろお得じゃないですか！"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "うん、その通りだとも。タダでおまけまで付いてくるのに、断る理由は無いね。"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "サービス、サービス。"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "レッドウィンター連邦学園の使者として、この場で承認します！"
+    },
+    {
+      "Name": "ノドカ",
+      "Text": "私たちレッドウィンター連邦学園の寮に、新型入浴施設の設置をお願いします！"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "お任せください！"
+    },
+    {
+      "Text": "レッドウィンター連邦学園・学生寮"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふむ……これが特別クラスのやつらがミレニアムサイエンススクールから取り入れたという入浴施設か……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "見た目は普通だが……ミレニアムの理屈バカがレッドウィンター連邦学園の生徒をサボタージュさせようと、怪しい機能を仕込んでいるかもしれない。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "我がレッドウィンター連邦学園生の安全のためにも、この生徒会長であり、環境美化部部長兼、書記長兼、運動部代表兼等々の……おいらがじっくり試さねばな。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……別に好奇心で先に入ろうとしているわけではないぞ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふむむ……説明書によると、人工知能を搭載したロボットが自動で身体を洗ってくれるらしいな。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "聞いてるか、人工知能。このチェリノ様の頭を洗うんだ。"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "＜自動入浴補助機能を起動します＞"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "おお……本当に自動で頭を洗ってくれるとは……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "うむ……悪くない……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……うぅ！ちょっと待て！目に泡が入ったじゃないか！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もっと優しく洗わんか！さもなければ、お前を粛清するぞ！"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "＜粛清……＞"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "＜申し訳ありません。「粛清」の意味が理解できませんでした。自動入浴補助機能を再開します>"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "粛清の意味すら理解できないのか、ポンコツめ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もうよい、おいらが自分で洗う！手を退けてくれ！"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<警告、ロボットアームの作動中に立ち上がるとケガの原因になります>"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<……使用者の安全のため、拘束モードに切り替えます>"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ううっ……？ロボットアームが身体を締め付けて、動けない……？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "放せ！お風呂はもうよいと言ったはずだ！"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<十分な入浴効果を得るためには、身体を洗う前に5分以上お湯で肌を温めるのが推奨されます>"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<普段は手の届かない耳や首の後ろなど、隅々までお流しします>"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "やっ、やめるのだ！これは命令だぞ！"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<使用者の急激な心拍数増加を確認……>"
+    },
+    {
+      "Name": "お風呂ロボット",
+      "Text": "<状態安定に効果的なクラシック音楽を再生します……>"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "やめろおおおおお！"
+    },
+    {
+      "Text": "（しばらくして……）"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "あら、チェリノちゃん。今日のお風呂は随分と長かったですね。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "水の滴る姿がシャワーを浴びたばかりのチワワみたいで……可愛いです、ふふ。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "お肌もモチモチ……今日は石鹸を使ってよく洗えたんですね？"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "ミレニアムサイエンススクールから取り入れた新しい入浴施設、気に入ってもらえたようで良かったです。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……だ……"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……これを作ったやつらは、全員粛清だ！"
+    },
+    {
+      "Text": "（その後、エンジニア部の新型入浴施設は撤去され、227号特別クラスの生徒たちは再び旧校舎に追いやられる事となった……）"
+    },
+    {
+      "Text": "（この件でミレニアムサイエンススクールとレッドウィンター連邦学園の関係性に若干のヒビが入り、いくつか問題が発生したが……それはまた別のお話）"
+    },
+    {
+      "Text": "テルマエ・アカエ"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "테르마이 아카이 3"
+    },
+    {
+      "Name": "노도카",
+      "Text": "결국 이곳이 마지막인가……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "어쩔 수 없잖아. 방문한 목욕 시설마다 저마다의 단점이 있었으니까."
+    },
+    {
+      "Name": "노도카",
+      "Text": "그건 그렇긴 하지만……"
+    },
+    {
+      "Name": "노도카",
+      "Text": "그래도 밀레니엄 학원의 물건만큼은 구입하고 싶지 않았는데."
+    },
+    {
+      "Name": "시구레",
+      "Text": "……어째서?"
+    },
+    {
+      "Name": "노도카",
+      "Text": "뭔가 밀레니엄 학원에서 제작한 물건이라고 하면, 기본적으로 엄청난 수준의 첨단 기술이 포함되어 있다는 인상이 강하잖아?"
+    },
+    {
+      "Name": "노도카",
+      "Text": "휴게실에서 커피를 뽑아주는 자판기에도 인공지능이 달려 있다는 소문이 있는데, 목욕 시설은 더더욱 비용이 만만치 않을 거야……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "에이…… 그래도 그건 너무 터무니없는 소문 아닐까?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "일단 가격을 문의하고 난 뒤에 돌아가도 늦지는 않으니까."
+    },
+    {
+      "Name": "노도카",
+      "Text": "으응……"
+    },
+    {
+      "Name": "코토리",
+      "Text": "기, 긴급 철거라니요?!"
+    },
+    {
+      "Name": "코토리",
+      "Text": "저희가 새로 개조한 기숙사 목욕 시설에 무슨 문제가 있었나요?"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "아, 아뇨. 특별히 당장 문제가 있는 건 아니지만……"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "잠시 뒤에 다른 학원에서 오신 특사 여러분이 저희 기숙사를 견학하실 예정이거든요."
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "그런데 세미나의 검토도 받지 않은 엔지니어 부의 발명품을 다른 학원의 학생들에게 보여주는 건 조금……"
+    },
+    {
+      "Name": "우타하",
+      "Text": "이해할 수가 없군. 우리도 엄연한 밀레니엄 사이언스 스쿨의 일원으로서, 우리가 만든 발명품을 외부에 선보일 자격이 있을 텐데."
+    },
+    {
+      "Name": "우타하",
+      "Text": "오히려 그렇게 중요한 자리에 선보일 물건이라면 우리 엔지니어 부에게 맡겨주는 편이 더 낫지 않겠어?"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "하지만 여러분이 그동안 만든 물건은ㅡ"
+    },
+    {
+      "Name": "노도카",
+      "Text": "저, 죄송합니다…… 붉은겨울 학원에서 왔는데요."
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "버, 벌써 오셨나요?!"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "죄송합니다…… 아직 시설의 정리가 완전히 끝나지 않아서요."
+    },
+    {
+      "Name": "노도카",
+      "Text": "그런가요? 겉으로 보기에는 이미 깨끗하게 다 정리된 것처럼 보이는데……"
+    },
+    {
+      "Name": "우타하",
+      "Text": "음, 그 말대로야. 새로운 목욕 시설의 준비는 완벽해!"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "우, 우타하 부장……!"
+    },
+    {
+      "Name": "노도카",
+      "Text": "새로운 목욕 시설이요……?"
+    },
+    {
+      "Name": "코토리",
+      "Text": "이번에 밀레니엄 기숙사에 새롭게 설치한 목욕 시설의 기능에 대해서는 제가 직접 설명드리겠습니다!"
+    },
+    {
+      "Name": "코토리",
+      "Text": "먼저, 가운데 위치한 이 신형 욕조는 첨단 인공지능이 탑재되어 있기 때문에, 사용자의 니즈에 맞추어 실시간으로 물의 온도를 조절할 수 있지요."
+    },
+    {
+      "Name": "코토리",
+      "Text": "욕조에 탑재된 첨단 인공지능이 사용자의 피부 온도와 반응을 자동으로 분석하기 때문에 귀찮게 온수와 냉수를 섞을 필요가 없어요!"
+    },
+    {
+      "Name": "히비키",
+      "Text": "거기에 더해 물을 덥히는 데 쓰이는 보일러는 주변의 열원으로부터 열을 흡수하는 히트 펌프 방식이기 때문에 냉매로도 사용할 수 있지……"
+    },
+    {
+      "Name": "히비키",
+      "Text": "이 냉매를 활용한 냉장고 기능도 욕조에 포함되어 있기 때문에, 목욕 중에 차가운 음료수를 마실 수도 있어……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "냉장고가 딸린 욕조라니…… 그거 멋진데?"
+    },
+    {
+      "Name": "우타하",
+      "Text": "그리고 이 목욕 시설에는 게으름뱅이들을 위한 자동 목욕 보조 기능도 포함되어 있거든."
+    },
+    {
+      "Name": "우타하",
+      "Text": "욕조에 설치된 인공지능에게 음성으로 명령하면 여러 개의 로봇 팔이 튀어나와 몸을 자동으로 깨끗이 씻겨주지."
+    },
+    {
+      "Name": "우타하",
+      "Text": "이 욕조 하나만으로도 여러 개의 가전을 대체할 수 있다고."
+    },
+    {
+      "Name": "노도카",
+      "Text": "저…… 이야기만 들으면 정말 멋진 제품이긴 한데요……"
+    },
+    {
+      "Name": "노도카",
+      "Text": "역시 이 정도의 기술이 집약된 목욕용품을 구입하려면 돈이 많이 들겠죠……?"
+    },
+    {
+      "Name": "코토리",
+      "Text": "비용에 대해서는 걱정하지 않으셔도 좋아요!"
+    },
+    {
+      "Name": "코토리",
+      "Text": "이 신형 목욕 시설은 아직 테스트를 충분히 거치지 않은 시제품이기 때문에 제작비만 받고 시공부터 수리까지 저희 엔지니어부에서 직접 책임져 드립니다!"
+    },
+    {
+      "Name": "히비키",
+      "Text": "물론 시운전 중에 발생하는 사고에 대해서는 책임지지 않는다는 계약서를 추가해야 하지만……"
+    },
+    {
+      "Name": "히비키",
+      "Text": "……이 정도까지 할인해 줄 수 있어."
+    },
+    {
+      "Name": "노도카",
+      "Text": "이러면 평범한 목욕 시설보다 훨씬 저렴하잖아요?"
+    },
+    {
+      "Name": "노도카",
+      "Text": "계약할게요! 바로 밀레니엄과 계약하겠어요!"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "저, 외부 학원에서 오신 분이라 잘 모르시는 것 같은데……"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "저희 엔지니어부의 발명품은 성능만큼은 확실하지만, 늘 예상치 못한 부가 기능이 하나씩 추가되는 것으로 악명이 높거든요……"
+    },
+    {
+      "Name": "밀레니엄 기숙사장",
+      "Text": "안전성 테스트를 하려면 시간이 더 걸릴 것 같으니, 이번에는 다른 학원의 시설을 사용하시는 것이……"
+    },
+    {
+      "Name": "노도카",
+      "Text": "상관없어요. 오히려 구입한 제품에 추가 기능이 있다면 더 좋은 게 아닌가요?"
+    },
+    {
+      "Name": "우타하",
+      "Text": "음, 좋은 자세야. 공짜로 덤을 준다는 데 거절하는 건 손해 보는 짓이지."
+    },
+    {
+      "Name": "히비키",
+      "Text": "서비스~ 서비스~"
+    },
+    {
+      "Name": "노도카",
+      "Text": "붉은겨울 학원의 특사로서 즉시 승인하겠습니다!"
+    },
+    {
+      "Name": "노도카",
+      "Text": "엔지니어부 여러분이 제작한 신형 목욕 시설을 저희 붉은겨울 학원의 기숙사에도 설치해 주세요!"
+    },
+    {
+      "Name": "코토리",
+      "Text": "맡겨만 주세요!"
+    },
+    {
+      "Text": "붉은겨울 학원 공용 기숙사"
+    },
+    {
+      "Name": "체리노",
+      "Text": "흐음…… 이게 이번에 특별반 녀석들이 밀레니엄 학원에서 새로 들여온 목욕 시설인가……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "겉보기에는 멀쩡해 보이지만, 밀레니엄의 헛똑똑이들이 붉은겨울 학원을 사보타주하기 위해 수상한 장치를 추가했을지도 몰라."
+    },
+    {
+      "Name": "체리노",
+      "Text": "그렇다면 붉은겨울 학원의 학생회장이자, 미화부장이자, 서기장이자, 체육부장 등인…… 이 몸이 학생들의 안전을 위해 먼저 시험해 보지 않을 수 없지."
+    },
+    {
+      "Name": "체리노",
+      "Text": "……절대로 개인적인 호기심 때문에 먼저 들어가 보려는 게 아니니까!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "어디 보자…… 설명서에 따르면 욕조에 설치된 인공지능이 자동으로 목욕을 시켜준다고?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "여봐라, 인공지능. 이 체리노님의 머리를 감겨 보거라."
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<네, 자동 목욕 보조 기능을 활성화합니다.>"
+    },
+    {
+      "Name": "체리노",
+      "Text": "오오…… 신기하군. 로봇 팔이 마치 사람 손처럼 머리를 감겨주고 있어."
+    },
+    {
+      "Name": "체리노",
+      "Text": "으음…… 생각보다 나쁘지 않은데……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……으읏! 잠깐, 눈에 비누가 들어갔잖아!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "좀 더 상냥하게 머리를 감기지 못할까! 숙청해 버린다!"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<숙청………>"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<죄송합니다. '숙청'의 의미를 이해하지 못했습니다. 자동 목욕 보조 기능을 재개합니다.>"
+    },
+    {
+      "Name": "체리노",
+      "Text": "숙청이라는 표현도 이해하지 못하다니, 형편없는 지능의 로봇이로군!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "됐다! 머리는 내가 직접 감을 테니, 이 손 치우거라!"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<주의. 로봇 팔이 작동하는 중에 욕조에서 이탈하면 부상의 위험이 있습니다.>"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<……사용자의 안전을 위해 구속 모드로 전환합니다.>"
+    },
+    {
+      "Name": "체리노",
+      "Text": "우읏……? 로봇 팔이 움직이지 못하게 몸을 억죄고 있잖아……?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "이거 놔라! 목욕은 이제 되었다니까?"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<충분한 목욕 효과를 보기 위해서는 비누칠을 하기 전에 더운물에 피부를 5분 이상 이완시키는 게 좋습니다.>"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<그리고 비누칠을 할 때는 평소에 손이 잘 닿지 않는 귀 뒤와 손목 등을 집중적으로 문질러 주는 게 좋습니다.>"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그만! 그만해! 이건 명령이다!"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<사용자의 급격한 심박수 변환을 확인……>"
+    },
+    {
+      "Name": "목욕 로봇",
+      "Text": "<심신 안정에 도움이 되는 클래식 음악을 연주하겠습니다……>"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그마아아아안!"
+    },
+    {
+      "Text": "(잠시 뒤……)"
+    },
+    {
+      "Name": "토모에",
+      "Text": "어머나, 체리노 쨩. 오늘은 꽤 오랫동안 탕에 들어가 계셨네요."
+    },
+    {
+      "Name": "토모에",
+      "Text": "흠뻑 젖은 모습이 샤워를 막 마치고 나온 치와와 같아 보여서…… 뭔가 귀엽네요. 후후."
+    },
+    {
+      "Name": "체리노",
+      "Text": "……."
+    },
+    {
+      "Name": "토모에",
+      "Text": "게다가 피부도 뽀송뽀송해 보이는 게…… 오늘은 열심히 비누칠을 해서 제대로 씻으신 모양이군요?"
+    },
+    {
+      "Name": "토모에",
+      "Text": "밀레니엄 학원에서 들여온 새 목욕 시설이 마음에 드시는 것 같아 다행이에요."
+    },
+    {
+      "Name": "체리노",
+      "Text": "……이야……"
+    },
+    {
+      "Name": "토모에",
+      "Text": "……네?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……이 목욕 시설을 만든 녀석들은 모두 숙청이야!"
+    },
+    {
+      "Text": "(이후 엔지니어 부에서 설치한 신형 목욕 시설은 모두 철거되었고, 227호 특별반 학생들은 다시 구교사로 쫓겨나게 되었다……)"
+    },
+    {
+      "Text": "(이 일로 인해 한동안 밀레니엄 학원과 붉은겨울 학원 사이의 관계가 서먹해져 여러 가지 문제가 추가로 발생했지만…… 그것은 또 다른 이야기이다.)"
+    },
+    {
+      "Text": "테르마이 아카이"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Thermae Akai 3"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "So this is the final location..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "There's no helping it. Each of the other bathing facilities we toured had serious drawbacks."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "You're right, but..."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "I really don't wanna buy anything from Millennium Academy."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "...Why not?"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "Don't all of Millennium Academy's inventions use bleeding-edge, high maintenance technology?"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "I heard rumors that the coffee vending machine in their break room is equipped with AI. I can't even image what their baths will be like..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Come now... I'm sure that's just gossip."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "We can always just ask how much it costs and call it quits."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "Yeah..."
+    },
+    {
+      "Name": "Kotori",
+      "Text": "A-An emergency decommission?!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "Is there a problem with the modifications we made to the dorm's bathing facilities?"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "N-No. They seem to be working fine..."
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "It's just that a delegation from another academy is coming to tour the dorms today."
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "Showing them the Engineering Department's work before Seminar has a chance to evaluate your modifications just feels..."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "But we're members of Millennium Science School. We have the right to show off our inventions to the world."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "In fact, wouldn't it be better for the Engineering Department to show off our new facilities on such an important occasion, since we can explain how they work?"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "But modifications you've made so far—"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "Um, excuse me... We're here from Red Winter Academy?"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "Y-You're here already!"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "I'm terribly sorry... But we're not completely ready to present the facility."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "No? But from what I can tell, it looks like everything is clean and ready to go..."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Yes, precisely, the new baths are ready to go!"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "P-President Utaha!"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "So your facilities needed renovation as well?"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "They sure did! And as part of the design team, I'm happy to explain the functionality of Millennium's newly installed baths to you myself!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "First, the brand new bath tub in the center is equipped with a state of the art AI, which analyzes the user's needs and adjusts the water temperature automatically."
+    },
+    {
+      "Name": "Kotori",
+      "Text": "By scanning the water and the user's skin in real time, the AI eliminates the need to add more water yourself!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "The boiler that warms the water works on the heat pump principal, absorbing heat from the surrounding area, so it doubles as a cooling system as well..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "With that built-in cooling, the tub also includes an attached refrigerator, which allows the user to enjoy a cool drink as they soak!"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "A bath tub with a fridge attached... Amazing..."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Our bathing facility also includes an auto-bathing function for exceptionally lazy students."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "The user can issue verbal commands to the on-board AI and instruct it to wash their body with its multiple autonomous robot arms."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "This single tub is capable of replacing a whole suite of bathroom gadgets."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "Well... It really does sound fantastic, at least on paper..."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "A bath tub featuring this much technology must cost a fortune, right...?"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "Oh, you don't have to worry about the cost at all!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "This state of the art bathing facility has been installed on a trial basis, and hasn't completed its final testing yet. The Engineering Department would only charge you the cost of materials, and we'd take care of everything from maintenance to repairs!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Of course, we would have to add a clause to your contract absolving the department from responsibility for any accidents that might occur during your trial period..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "...But that's as low as we can go."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "Wait, this is way cheaper than the other bathing facilities we've looked at."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "We'll sign! We'll sign a contract with Millennium right away!"
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "Um, you may not be aware, since you're from another academy..."
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "But...our Engineering Department's inventions are notorious for having at least one unexpected feature, even though they're sure to perform well overall..."
+    },
+    {
+      "Name": "Millennium Dormitory Manager",
+      "Text": "It will take time to run the full battery of safety tests, so I would recommend contracting the facilities of another academy..."
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "That's not a problem. Isn't it better when something you purchase has additional features?"
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Mm, that's a great attitude. You can't say no to a freebie!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "That's called good service!"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "As Red Winter Academy's special envoy, I authorize this for immediate approval!"
+    },
+    {
+      "Name": "Nodoka",
+      "Text": "We request that the Engineering Department install their state of the art bathing facilities in Red Winter Academy's dorms!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "Just leave it to us!"
+    },
+    {
+      "Text": "Red Winter Academy Communal Dormitory"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hmmm... So this is the new bath tub those Spec Ops students brought over from Millennium Academy?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "It seems normal, but you can never underestimate the wiles of the reactionary intelligentsia. There's always the possibility that Millennium sabotaged their own device to strike out at Red Winter Academy..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "In light of that concern, Red Winter Academy's student council president, head of beautification, Great Leader, head of physical education, and other roles shall take the danger upon herself...and be the first to try it out!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "...I'm definitely not going first because I'm curious!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Let's see... According to the manual, the on-board AI automatically washes the user?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hey, AI! I command you to wash my hair!"
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Confirmed. Activating auto-bath function."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Oh, interesting... Robot arms are cleaning my hair like human hands."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hmm...this isn't bad at all..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "...Agh! Wait! It got soap in my eye!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Can't you wash my hair more gently?! I'll purge you!"
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Purge..."
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "My apologies. I do not understand the meaning of \"purge.\" Re-engaging auto-bath function."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "What kind of AI doesn't know how to run a purge?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Enough! I will wash my own hair, release me!"
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Warning. Leaving the bath tub while the robot arms are active risks injury."
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "...Activating confinement mode for user safety."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Huh...? Why are the robot arms holding me in place?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Let me go! I'm done bathing!"
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "For a proper bath experience, it is recommended to relax your skin in hot water for at least 5 minutes before soaping up."
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Proper application of soap must also include areas that are usually neglected, including behind the ears and wrists."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Stop! Stop it! I order you to stop!"
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Detecting rapid increase in user pulse..."
+    },
+    {
+      "Name": "Bath Bot",
+      "Text": "Activating classical music for a soothing bath experience..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Stop!"
+    },
+    {
+      "Text": "Some time later..."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "Oh my, President Cherino. That was a long bath you took."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "You look like a chihuahua who fell into a bubble bath... It's actually quite cute."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "..."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "And your skin looks so soft! You must have taken the extra time for a truly thorough wash."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "I'm thrilled to see that you enjoy the new bathing facilities we've imported from Millennium Academy."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "—urge..."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "...Hm?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "...All of the people responsible for this bath will be purged!"
+    },
+    {
+      "Text": "Soon after, the brand new bathing facilities designed by the Engineering Department were forcibly dismantled and the counter-revolutionary saboteurs of Spec Ops No. 227 were chased back to the Former Institute..."
+    },
+    {
+      "Text": "This caused some additional problems between Millennium and Red Winter Academy for a while, but that's a story for another time..."
+    },
+    {
+      "Text": "Thermae Akai"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "สู้ต่อไป เรดวินเทอร์! 3"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ตอนนี้ก็เหลือที่นี่เป็นที่สุดท้ายแล้วสินะ..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ช่วยไม่ได้นี่นา ห้องอาบน้ำทุกที่ที่ไปมาก็มีข้อด้อยที่แตกต่างกัน"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "เรื่องนั้นมันก็จริงอยู่..."
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "แต่ยังไงฉันก็ไม่ค่อยอยากซื้อสินค้าจากโรงเรียนมิลเลเนียมเท่าไรเลย"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "...ทำไมล่ะ?"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "เวลาพูดถึงอะไรสักอย่างที่ทางมิลเลเนียมผลิตขึ้นมา เราก็จะรู้สึกประทับใจว่าของพวกนั้นมีเทคโนโลยี\nระดับสูงประกอบอยู่ด้วยใช่ไหมล่ะ?"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "มีข่าวลือว่าตู้ขายกาแฟอัตโนมัติในห้องพักผ่อนของพวกนั้นมีเอไอติดตั้งอยู่ในตู้ด้วยนะ เพราะงั้นพวก\nสุขภัณฑ์ห้องอาบน้ำก็คงจะราคาแพงหูฉี่แน่ๆ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เอ๋... แต่ข่าวลือพวกนั้นไม่ดูไร้สาระไปหน่อยเหรอ?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เราลองไปถามเรื่องราคาดูก่อนแล้วค่อยกลับก็ไม่เสียหายนี่นา"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "อื้อ..."
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ระ...รื้อถอนฉุกเฉินงั้นเหรอคะ?!"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "สุขภัณฑ์ห้องอาบน้ำที่เพิ่งนำมาติดตั้งในหอพักของเรามีปัญหาอะไรงั้นเหรอคะ?"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "ปะ...เปล่าค่ะ ตอนนี้มันไม่ได้มีปัญหาอะไรเป็นพิเศษหรอกค่ะ..."
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "แต่ว่าอีกสักพักทางคณะตัวแทนพิเศษจากโรงเรียนอื่นจะมาทัศนศึกษาดูสุขภัณฑ์ห้องอาบน้ำในหอพัก\nของพวกเราค่ะ"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "การแสดงสิ่งประดิษฐ์ของทางชมรมวิศวกรรมที่ยังไม่ได้รับการอนุมัติจากทางเซมิน่าให้ตัวแทนจาก\nโรงเรียนอื่นดู มันค่อนข้างจะ..."
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "ไม่เห็นเข้าใจเลย ในฐานะนักเรียนของทางโรงเรียนวิทย์มิลเลเนียม พวกเราเองก็มีสิทธิ์ที่จะแสดงสิ่ง\nประดิษฐ์ของเราสู่สายตาโลกภายนอกเหมือนกันนะ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "แล้วอีกอย่าง ถ้าเป็นการโชว์สิ่งของในโอกาสสำคัญๆ แบบนี้ ปล่อยให้เป็นหน้าที่ของทางชมรม\nวิศวกรรมอย่างพวกเราไม่ดีกว่าเหรอ?"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "แต่ว่าสิ่งประดิษฐ์ที่พวกคุณเคยทำออกมามัน..."
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ขะ...ขอโทษนะคะ... คือว่าพวกเรามาจากสหภาพเรดวินเทอร์ค่ะ"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "มะ...มาถึงแล้วเหรอคะ?!"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "ต้องขอโทษด้วยนะคะ... คือว่าตอนนี้เรายังทำความสะอาดห้องอาบน้ำไม่เสร็จดีเลยค่ะ"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "อย่างนั้นเหรอคะ? แต่พอดูจากข้างนอกแบบนี้ เหมือนจะทำความสะอาดเสร็จเรียบร้อยดีแล้วเลยนะคะ ..."
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "อื้อ ก็ตามที่เห็นนั่นแหละ สุขภัณฑ์ห้องอาบน้ำแบบใหม่ของเราจัดเตรียมไว้พร้อมแล้ว!"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "หะ...หัวหน้าอุทาฮะ...!"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "สุขภัณฑ์ห้องอาบน้ำแบบใหม่เหรอคะ...?"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ฉันจะอธิบายเรื่องฟังก์ชันของสุขภัณฑ์ห้องอาบน้ำที่ติดตั้งใหม่ในหอพักของมิลเลเนียมให้ฟังเองค่ะ!"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "อันดับแรก อ่างอาบน้ำขนาดใหญ่ที่ตั้งอยู่ตรงกลางนั่น เราได้ทำการติดตั้งระบบเอไอที่ทันสมัยเอาไว้ มันจึงสามารถปรับอุณหภูมิน้ำให้เหมาะสมกับผู้ใช้งานได้เรียลไทม์ค่ะ"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ระบบเอไอจะทำการวิเคราะห์อุณหภูมิของผิวหนังและปฏิกิริยาตอบสนองของผู้ใช้งานโดยอัตโนมัติ เพราะงั้นจึงไม่จำเป็นต้องมาคอยนั่งผสมน้ำร้อนน้ำเย็นให้ยุ่งยากค่ะ!"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "นอกจากนี้เครื่องต้มน้ำที่ใช้ทำน้ำร้อนเป็นรุ่นที่ออกแบบมาให้ดูดซับพลังงานความร้อนจากบริเวณรอบๆ เพราะงั้นเลยใช้เป็นตัวทำความเย็นไปในตัวได้..."
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "และอ่างอาบน้ำก็มีติดตั้งตู้เย็นเอาไว้ในตัวอยู่แล้ว เพราะงั้นเราก็จะสามารถดื่มเครื่องดื่มเย็นๆ ในขณะ\nแช่น้ำได้..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "อ่างอาบน้ำที่มีตู้เย็นในตัวงั้นเหรอ... สุดยอดเลยแฮะ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "อีกอย่างอ่างอาบน้ำอันนี้น่ะ มีฟังก์ชันอาบน้ำอัตโนมัติสำหรับคนขี้เกียจด้วยนะ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "แค่ออกคำสั่งกับระบบเอไอที่ติดตั้งอยู่ ก็จะมีแขนกลจากอ่างอาบน้ำออกมาช่วยทำความสะอาดร่าง\nกายให้เองอัตโนมัติ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "แค่อ่างอาบน้ำอันนี้อันเดียวก็ทดแทนเครื่องใช้ไฟฟ้าในบ้านหลายๆ อย่างได้แล้วละ"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "โห... แค่ฟังจากที่เล่าก็รู้สึกว่าเป็นอุปกรณ์ที่สุดยอดมากเลยค่ะ..."
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "การจะซื้ออุปกรณ์ที่มีเทคโนโลยีล้ำสมัยแบบนี้คงจะต้องใช้เงินจำนวนมากเลยสินะคะ...?"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ไม่ต้องกังวลเรื่องค่าใช้จ่ายหรอกค่ะ!"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "เนื่องจากสุขภัณฑ์อาบน้ำใหม่ตัวนี้ยังเป็นตัวต้นแบบที่ยังอยู่ในขั้นตอนการทดสอบเครื่อง เราเลยจะ\nเก็บแค่ค่าอุปกรณ์ที่ใช้ในการผลิตเท่านั้น และทางชมรมวิศวกรรมของเราก็จะดูแลให้ตั้งแต่การติดตั้ง\nไปจนถึงการซ่อมบำรุงเลยค่ะ!"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "แน่นอนว่าอาจจะต้องขอระบุเพิ่มว่าพวกเราจะไม่รับผิดชอบใดๆ ต่ออุบัติเหตุที่เกิดขึ้นระหว่างทดลอง\nใช้เข้าไปในสัญญาด้วย..."
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "...ลดราคาให้ได้เท่านี้น่ะ"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ราคาถูกกว่าสุขภัณฑ์อาบน้ำทั่วๆ ไปอีกนะคะ?"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ฉันตกลงเซ็นสัญญาค่ะ! ฉันจะเซ็นสัญญากับทางมิลเลเนียมค่ะ!"
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "คือว่า... พวกคุณมาจากเขตปกครองอื่นคงไม่ค่อยรู้อะไรนัก แต่ว่า..."
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "สิ่งประดิษฐ์ของทางชมรมวิศวกรรมของเราได้รับการยืนยันว่าเป็นสิ่งประดิษฐ์ที่มีประสิทธิภาพมากก็\nจริง... แต่ก็ขึ้นชื่อเรื่องว่ามักจะมีฟังก์ชันอื่นๆ ที่คาดไม่ถึงรวมอยู่ด้วยนะคะ..."
+    },
+    {
+      "Name": "หัวหน้าหอพัก มิลเลเนียม",
+      "Text": "อีกทั้งดูเหมือนว่าอาจต้องใช้เวลานานในการทดสอบด้านความปลอดภัย เพราะงั้นฉันเลยอยากแนะนำ\nให้ใช้สุขภัณฑ์ของทางสถาบันอื่นน่าจะดีกว่า..."
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ไม่เป็นไรเลยค่ะ ถ้าสุขภัณฑ์ที่ซื้อมีฟังก์ชันเพิ่มนอกเหนือจากฟังก์ชันพื้นฐานก็เป็นเรื่องดีนี่คะ?"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "อืม ความคิดดีจริงๆ การปฏิเสธของแถมฟรีๆ ถือว่าเสียเปรียบสินะ"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "ให้บริการ~ ออกดูแล~"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ในฐานะตัวแทนพิเศษของทางสหภาพเรดวินเทอร์ ฉันอนุมัติค่ะ!"
+    },
+    {
+      "Name": "โนโดกะ",
+      "Text": "ทุกคนคะ ช่วยไปติดตั้งสุขภัณฑ์ห้องอาบน้ำแบบใหม่นี้ที่หอพักของสหภาพเรดวินเทอร์ด้วยนะคะ!"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ปล่อยให้เป็นหน้าที่พวกเราได้เลยค่ะ!"
+    },
+    {
+      "Text": "หอพักรวม สหภาพเรดวินเทอร์"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อืม... นี่คือสุขภัณฑ์อาบน้ำแบบใหม่ที่พวกห้องพิเศษเลือกซื้อมาจากทางโรงเรียนมิลเลเนียมงั้นเหรอ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ภายนอกก็เรียบหรูดูดีอยู่หรอก แต่พวกฉลาดแกมโกงอย่างพวกมิลเลเนียมอาจจะเพิ่มฟังก์ชันอะไร\nแปลกๆ สำหรับก่อวินาศกรรมในสหภาพเรดวินเทอร์ไว้ก็ได้..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เพราะงั้นในฐานะประธานสภานักเรียนและเลขาธิการของสหภาพเรดวินเทอร์ หัวหน้าฝ่ายกีฬา และอื่นๆ... เราคงไม่มีทางเลือกนอกจากทดสอบสุขภัณฑ์อันนี้ด้วยตัวเองแล้วละ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราไม่ได้ทำเพราะความอยากรู้อยากเห็นส่วนตัวหรอกนะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ไหนดูซิ... คู่มือเขียนไว้ว่าออกคำสั่งช่วยอาบน้ำกับระบบเอไอได้ด้วยสินะ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ฟังเราให้ดี เจ้าระบบไอเอ... จงสระผมให้ท่านเชริโน่ผู้นี้ซะ"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<รับคำสั่ง เปิดใช้งานระบบอาบน้ำอัตโนมัติ>"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "โอ้วววว... น่าสนใจจริงๆ แขนกลที่เหมือนมือคนนี่กำลังสระผมให้เรา..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อืม... ก็ไม่ได้แย่อย่างที่คิดนะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "...อึก! เดี๋ยวสิ ยาสระผมมันเข้าตาเราแล้วนะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ช่วยนุ่มนวลกว่านี้หน่อยไม่ได้หรือไง! แบบนี้ต้องกวาดล้าง!"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<กวาดล้าง...>"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<ขออภัย ฉันไม่เข้าใจความหมายของคำว่า 'กวาดล้าง' เปิดใช้ระบบอาบน้ำอัตโนมัติอีกครั้ง>"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ไม่เข้าใจคำว่ากวาดล้างงั้นเรอะ! ช่างเป็นระบบเอไอที่มีความฉลาดต่ำเตี้ยเรี่ยดินซะจริงๆ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "พอแล้ว! เราจะสระผมเอง เอามือออกไปจากหัวเราเดี๋ยวนี้!"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<ข้อควรระวัง หากออกจากอ่างอาบน้ำขณะเปิดใช้ระบบอัตโนมัติ อาจได้รับอันตรายได้>"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<...เปิดใช้งานโหมดกักขัง เพื่อความปลอดภัยของผู้ใช้งาน>"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อึ่ก...!? แขนกลรัดตัวเราจนขยับไม่ได้เลย..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ปล่อยเราเดี๋ยวนี้นะ! บอกว่าเราจะเลิกอาบน้ำแล้วไงเล่า?"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<เพื่อให้ผู้ใช้งานได้รับประสิทธิภาพจากการอาบน้ำอย่างเพียงพอ ขอแนะนำให้ถูสบู่ทิ้งไว้ก่อนล้างออก\nอย่างน้อย 5 นาที>"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<และในตอนที่ถูสบู่ โปรดอย่าลืมถูสบู่ที่บริเวณหลังใบหูและข้อมือของคุณ...>"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "พอแล้ว! พอสักที! เราบอกว่าให้หยุดไงเล่า!"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<ตรวจพบอัตราการเต้นของหัวใจผู้ใช้งานเปลี่ยนแปลงฉับพลัน...>"
+    },
+    {
+      "Name": "หุ่นยนต์อาบน้ำ",
+      "Text": "<ระบบจะเปิดเพลงคลาสสิกช่วยให้ผ่อนคลายความตึงเครียด...>"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "พอได้แล้วววววว!"
+    },
+    {
+      "Text": "(หลังจากนั้นพักใหญ่...)"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "ตายจริง เชริโน่จัง วันนี้ใช้เวลาในอ่างอาบน้ำซะนานเลยนะคะ"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "สภาพดูเหมือนลูกหมาชิวาว่าที่เปียกโชกไปทั้งตัวแบบนี้... ดูน่ารักดีเหมือนกันนะคะ ฮิฮิ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "......"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "แถมผิวพรรณก็ดูเนียนนุ่มเปล่งปลั่งกว่าเดิม... วันนี้คงตั้งใจอาบน้ำถูสบู่อย่างดีเลยสินะคะ?"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "ค่อยยังชั่วหน่อยที่เชริโน่จังชอบสุขภัณฑ์ห้องอาบน้ำแบบใหม่จากโรงเรียนมิลเลเนียมแบบนี้ค่ะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "...นี่..."
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "...คะ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "...กวาดล้างเจ้าพวกที่สร้างสุขภัณฑ์ห้องอาบน้ำแบบนี้ให้หมดเลย!"
+    },
+    {
+      "Text": "(หลังจากนั้น สุขภัณฑ์ห้องอาบน้ำแบบใหม่จากทางมิลเลเนียมก็ถูกรื้อถอนออกไปทั้งหมด และนักเรียนห้องพิเศษ 227 ก็ถูกขับไล่ให้ไปอยู่ที่อาคารเรียนเก่าอีกครั้ง...)"
+    },
+    {
+      "Text": "(จากเรื่องที่เกิดขึ้น ทำให้ความสัมพันธ์ระหว่างทางสหภาพเรดวินเทอร์และโรงเรียนมิลเลเนียม\nตึงเครียดขึ้น และนำไปสู่ปัญหาเรื่องต่างๆ... อีกพักใหญ่)"
+    },
+    {
+      "Text": "สู้ต่อไป เรดวินเทอร์!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "檔案浴場（３）"
+    },
+    {
+      "Name": "和香",
+      "Text": "這裡是最後一個地方了嗎……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "這也沒辦法。\n誰叫我們去的每個沐浴設施都各有缺點。"
+    },
+    {
+      "Name": "和香",
+      "Text": "雖然是這樣沒錯……"
+    },
+    {
+      "Name": "和香",
+      "Text": "但我還是不想採購千年科學學園的東西。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "……為什麼？"
+    },
+    {
+      "Name": "和香",
+      "Text": "說到千年科學學園製作的東西，給人的印象不都是技術力超群嗎？"
+    },
+    {
+      "Name": "和香",
+      "Text": "聽說他們連休息室的咖啡機都搭載了人工智慧……\n那沐浴設施肯定也是要價不菲……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "是嗎……會不會是謠言被傳得太誇張了？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "總之先問過價格再回去也不遲。"
+    },
+    {
+      "Name": "和香",
+      "Text": "唔……"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "緊，緊急拆除！？"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "我們新改造的宿舍沐浴設施有什麼問題嗎？"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "不，不是的。\n暫時並沒有特別的問題……"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "只是因為稍後會有其他學園的特使來參觀我們的宿舍……"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "要把未經研討會審查的工程師部發明給其他學園的學生看，實在是有點……"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "無法理解。\n身為千年科學學園的一員，我們應該有資格向外界展示我們創造的發明才對。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "如果是要在那麼重要的場合展示的話，交給我們工程師部準沒錯吧？"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "不過各位這段期間製作的東西都──"
+    },
+    {
+      "Name": "和香",
+      "Text": "不，不好意思……我們是從赤冬聯邦學園來的。"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "這，這麼快就來了嗎！？"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "很抱歉……設施還沒完全整理好。"
+    },
+    {
+      "Name": "和香",
+      "Text": "是嗎？看起來已經整理得相當乾淨了……"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "正是如此。\n新的沐浴設施準備得很完美！"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "詠，詠葉部長……！"
+    },
+    {
+      "Name": "和香",
+      "Text": "新的沐浴設施……？"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "由我來為各位說明本次千年宿舍安裝的新型沐浴設施吧！"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "首先，位於中間的浴盆搭載最先進的人工智慧，能根據使用者的需求即時調節水溫。"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "它會自動分析使用者的皮膚溫度，省去混合冷熱水時的麻煩！"
+    },
+    {
+      "Name": "響",
+      "Text": "用來加熱水的鍋爐採用從周圍熱源吸收熱量的熱泵式，所以也能當冷媒使用……"
+    },
+    {
+      "Name": "響",
+      "Text": "而運用此冷媒功能的冰箱也配置在了浴盆內，所以在沐浴時能喝到冰涼的飲料……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "附帶冰箱的浴盆……似乎還不賴？"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "而且這個沐浴設施還包含專為懶人設計的自動沐浴輔助功能。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "只要對人工智慧發出語音命令，浴盆就會彈出數隻機器手臂，自動進行身體的清潔。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "光是這個浴盆就能代替好幾種家電。"
+    },
+    {
+      "Name": "和香",
+      "Text": "嗯……這麼聽起來，感覺確實是個很棒的產品……"
+    },
+    {
+      "Name": "和香",
+      "Text": "但這種集尖端技術於一身的沐浴用品，應該要花很多錢吧……？"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "費用的部分不用擔心！"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "因為這款新型沐浴設施是尚未經過充分測試的試驗品，\n只要願意負擔製作費用，從施工到維修都會由我們工程師部直接負責！"
+    },
+    {
+      "Name": "響",
+      "Text": "不過同時也需要簽訂額外契約，同意我們不對任何測試期間發生的事故負責……"
+    },
+    {
+      "Name": "響",
+      "Text": "……兩位覺得這個價格如何。"
+    },
+    {
+      "Name": "和香",
+      "Text": "這甚至比普通的沐浴設施還要便宜吧？"
+    },
+    {
+      "Name": "和香",
+      "Text": "我簽我簽！馬上來簽約吧！"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "那個，你們是其他學園的學生，所以可能不太清楚……"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "工程師部的發明在性能方面確實無庸置疑，\n不過卻總是會附加一些意想不到的功能，導致相當惡名昭彰……"
+    },
+    {
+      "Name": "千年舍監",
+      "Text": "要進行安全測試的話，恐怕需要更多的時間，所以還是選其他學園的設施比較好……"
+    },
+    {
+      "Name": "和香",
+      "Text": "這不成問題。\n買來的產品有附加功能不是更好嗎？"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "說得真好。拒絕免費的贈品百害而無一利。"
+    },
+    {
+      "Name": "響",
+      "Text": "賺爛了～賺爛了～"
+    },
+    {
+      "Name": "和香",
+      "Text": "我以赤冬聯邦學園特使的身分立刻同意！"
+    },
+    {
+      "Name": "和香",
+      "Text": "請在我們赤冬聯邦學園的宿舍安裝工程師部製作的新型沐浴設施吧！"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "儘管交給我們吧！"
+    },
+    {
+      "Text": "赤冬聯邦學園．學生宿舍"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "哼呣……這就是特別班的傢伙們從千年科學學園引進的新沐浴設施嗎……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "外表看起來雖然不錯……\n不過千年那些自作聰明的傢伙們，可能會為了破壞赤冬聯邦學園而加入可疑的功能。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "因此，身為赤冬聯邦學園的學生會長兼環境美化部長、書記長、體育部長……\n為了學生們的安危，必須身先士卒。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……絕對不是好奇心作祟才先進去的！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "咱瞧瞧……說明書上寫浴盆裡安裝的人工智慧能自動幫人洗澡？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "喂，人工智慧。快來幫咱洗頭。"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜是，啟動自動沐浴輔助功能＞"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "喔喔……真神奇。\n機器手臂就像人的手一樣替咱洗頭。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "哼呣……看來比想像中來得好……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……唔！等等，泡泡都跑進眼睛裡了！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "就不能再溫柔一點嗎！肅清你喔！"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜肅清……＞"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜非常抱歉，我不清楚「肅清」的意思。恢復自動沐浴輔助功能＞"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "連肅清這個詞都不懂，這人工智慧真笨！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "算了！咱自己洗，把手拿開！"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜警告。若在機器手臂運作時離開浴盆，會有受傷的風險＞"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜……為確保使用者的安全，將切換至束縛模式＞"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "唔唔……？身體被機器手臂勒住，無法動彈……？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "還不快放開！咱都說不用再洗了！"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜為了獲得充分的沐浴效果，最好在塗抹肥皂之前，在熱水中放鬆皮膚5分鐘以上＞"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜另外，在塗抹肥皂時，最好集中搓揉平常不太會觸碰的耳後和手腕等部位＞"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "快，快住手！這是命令！"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜偵測到使用者的心率驟變……＞"
+    },
+    {
+      "Name": "洗澡機器人",
+      "Text": "＜將播放有助安定身心的古典音樂……＞"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "住手啊啊啊啊啊！"
+    },
+    {
+      "Text": "（一段時間後……）"
+    },
+    {
+      "Name": "智惠",
+      "Text": "哎呀，潔莉諾醬。今天洗澡洗得挺久的呢。"
+    },
+    {
+      "Name": "智惠",
+      "Text": "濕透的樣子看起來就像剛洗完澡的吉娃娃……真可愛，呵呵。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……"
+    },
+    {
+      "Name": "智惠",
+      "Text": "而且皮膚看起來光滑柔嫩……看來今天有好好用肥皂洗澡呢？"
+    },
+    {
+      "Name": "智惠",
+      "Text": "從千年科學學園引進的新沐浴設施能讓您滿意，真是太好了。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……清……"
+    },
+    {
+      "Name": "智惠",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……把打造這個沐浴設施的傢伙全部肅清！"
+    },
+    {
+      "Text": "（之後，工程師部安裝的新型沐浴設施被全數拆除，\n　227號特別班的學生也再度被趕回舊校舍……）"
+    },
+    {
+      "Text": "（千年科學學園和赤冬聯邦學園的關係因此一度變得緊張，\n　進而引發了後續一連串的問題……但這又是另一個故事了）"
+    },
+    {
+      "Text": "檔案浴場"
+    }
+  ]
+}

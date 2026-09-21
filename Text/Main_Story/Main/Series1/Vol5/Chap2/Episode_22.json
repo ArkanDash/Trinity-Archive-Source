@@ -1,0 +1,2387 @@
+{
+  "TitleJP": "祭りは続く",
+  "TitleKR": "축제는 계속되어야 한다",
+  "TitleEN": "The Festival Must Go On",
+  "TitleTH": "งานเทศกาลต้องดำเนินต่อไป",
+  "TitleTW": "祭典必須繼續 ",
+  "DescJP": "祭りの準備に勤しむカホは、百鬼夜行にヒトツメが出現したことに驚きつつ、対応に奔走する。和楽まつりの開催は困難……そう思われたとき、ニヤからカホへの伝言を携えて、忍術研究部が現れた。その伝言とは、「これまで通りでいい」――その意味を理解したカホは、和楽まつり開催のために動き出す。",
+  "DescKR": "갑자기 축제장 주변을 뒤덮은 백물어에 카호는 당황해한다. 그때, 인법연구부의 학생들이 나타나 '축제를 속행하라'는 니야의 전언을 전달한다.",
+  "DescEN": "Kaho panics as the Artifact Spirits suddenly overtake the festival. The Ninjutsu Research Club arrives and delivers Niya's message to resume the festivities.",
+  "DescTH": "คาโฮะตกใจกับตำนานร้อยเรื่องราวลี้ลับที่จู่ๆ ก็โผล่มาอยู่รอบๆ สถานที่จัด\nงานเทศกาล ขณะนั้นนักเรียนจากชมรมวิจัยศาสตร์นินจาก็ปรากฏตัว\nแล้วนำสารจากนิยะมาบอกว่า 'ให้จัดงานเทศกาลต่อไป'",
+  "DescTW": "祭典場地突遭百物語圍攻，佳穗驚慌失措。此刻，忍術研究部學生現身，傳達仁耶「繼續祭典」的命令。",
+  "DialogJP": [
+    {
+      "Text": "第22話;祭りは続く"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "カホ様……カホ様！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "……そんなに慌てて、今度はどうしました？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "和楽まつりの開始まで1時間を切っているのです。\n火急の用以外は、部室に居るニヤ様に、とお伝えしたはずですが。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "まさか、またニヤ様が……？"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "はい。[ruby=・]ま[/ruby][ruby=・]た[/ruby]消えてしまいました……それよりも……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "こ、こんな時にまで……！？\n今回こそはと、あれだけお願いしたのに……！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "ああ、「それよりも」とは……？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "和楽まつり直前にニヤ様が消えたことよりも、深刻な問題が？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "もしや、主役にして至高のアイドル、チセちゃんに何か異変が――"
+    },
+    {
+      "Name": "チセ",
+      "Text": "ここに居るよ～"
+    },
+    {
+      "Name": "カホ",
+      "Text": "ああ、チセちゃん。ご無事だったのですね。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "とすれば、一体何が……？"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "その……外に出られた方が早いかと思われます。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "こ、これは一体……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "学園全体を目玉が覆っている……。"
+    },
+    {
+      "Name": "チセ",
+      "Text": "あっちこっちいっぱいー。"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "……先ほど、会場付近にあの目玉が突然現れたのです。"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "お祭り運営委員会のシズコさんも心当たりがないとのことで、てっきりカホ様の方で用意された出し物なのかと……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "チセちゃんの可愛さをアピールするのに、あのような不気味なものは飾りません！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "ですが、シズコさんも知らないとは……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "いや、あの気味の悪い瞳……どこかで見たことが……。"
+    },
+    {
+      "Name": "チセ",
+      "Text": "カホー、あれとにらめっこしてもいい～？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "いけません！"
+    },
+    {
+      "Name": "魑魅一座A",
+      "Text": "げっ、なにこの目玉。"
+    },
+    {
+      "Name": "魑魅一座B",
+      "Text": "気持ちわる……瞬きしてるよ？"
+    },
+    {
+      "Name": "魑魅一座A",
+      "Text": "撃ってみる？ビックリして逃げるかも。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "お、お待ちください！正体が分かるまで、不用意に刺激を与えな――"
+    },
+    {
+      "Name": "魑魅一座A",
+      "Text": "弾が……通り抜けた？"
+    },
+    {
+      "Name": "魑魅一座A",
+      "Text": "全然手応えないんだけど……。"
+    },
+    {
+      "Name": "魑魅一座B",
+      "Text": "うわっ、増えたぞ！？"
+    },
+    {
+      "Name": "魑魅一座A",
+      "Text": "っていうかこれ……前の火事のときの化け物じゃん……！"
+    },
+    {
+      "Name": "魑魅一座B",
+      "Text": "う、うちらじゃ無理だ！逃げろー！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "……付喪神。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "花鳥風月部の仕業ですね。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "よりによって百花繚乱が不在の今とは……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "いえ、今だからこそでしょうね……いずれにせよ、最悪のタイミングです。"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "か、カホ様。私たちはどうしたら……？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "まずは来場者とスタッフ全員に、あの「目」との交戦は避けるよう伝えてください！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "そして、みなさんをできる限り遠くに避難させるのです！"
+    },
+    {
+      "Name": "陰陽部の部員",
+      "Text": "で、ですが学園中にあの目が出現しているようです。どこに逃げたら……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "そ、それは……！"
+    },
+    {
+      "Name": "陰陽部の部員A",
+      "Text": "カホ副部長！あの目に加え、前回現れた怪物たちも出現しました！市民を襲っています！"
+    },
+    {
+      "Name": "陰陽部の部員B",
+      "Text": "まるで待ち伏せでもしていたかのようで――"
+    },
+    {
+      "Name": "陰陽部の部員C",
+      "Text": "逃げ場がありません！"
+    },
+    {
+      "Name": "陰陽部の部員B",
+      "Text": "このままでは、和楽まつりが中止に……。"
+    },
+    {
+      "Name": "陰陽部の部員C",
+      "Text": "カホ様、どうしたら……！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "……ニヤ様。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "せめてここに、ニヤ様が居れば。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "私にできることは、あくまで現状把握と整理にすぎません……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "この状況を打開することは……。"
+    },
+    {
+      "Name": "チセ",
+      "Text": "……カホ。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "申し訳ございません、チセちゃん。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "今日まで精一杯お祭りの準備に励んでいただきましたが、今回和楽まつりは――"
+    },
+    {
+      "Name": "チセ",
+      "Text": "ううん、そうじゃなくて。"
+    },
+    {
+      "Name": "チセ",
+      "Text": "そこに忍者がいる～"
+    },
+    {
+      "Name": "カホ",
+      "Text": "忍者……？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "[ruby=にんじゅつけんきゅうぶ]忍術研究部[/ruby]、ここに参上！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "カホ殿、ご無事でしたか！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "と、突然怪物が現れて……時間がかかってしまいました！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "忍術研究部の皆さんが、なぜこちらに……？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "もしかして助けに来てくださったのですか？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "もちろんだよ！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "[USERNAME]先生からお願いされていまして！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "そしてこちらにニヤ殿からのお便りがあります！ニンニン！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "[USERNAME]先生……？\nそれに、ニヤ様から……？"
+    },
+    {
+      "Text": "（約30分前……）"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "にゃは……この有り様、みっともないですねぇ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "紛い物の影とはいえ、簡単には倒せませんか。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "アヤメ委員長ったら手強いんだから～"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "怪談が始まりましたか。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ここまでは想定通り……しかし、監禁されてしまっては打つ手なし、です。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "あ～ん……もう切れる手札がないなぁ……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ニヤ殿！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "助けに来たよ！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "お、お怪我はありませんか？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "忍術研究部のみなさん……？なぜこちらに……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "実は、先ほどから後を尾けていたのです！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "先生殿から護衛の依頼があってねー。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "先生が皆さんに……？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "は、はいっ！百花繚乱が不在の隙に、陰陽部が狙われるかもしれないから、とのことで。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ふふーん、闇の中でひっそりと見守る……まさに忍者の務めだね！"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "つまり……私がアヤメ委員長の影と戦っていた時も、見守ってたんです？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "それは……ええっと……ビックリして動けなかったというか……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "加勢しても、アヤメ委員長は止められなかった気がするっていうか……。"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "はい……気圧されてしまって、一歩も動けませんでした……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "で、でも！忍者の本分は正面突破じゃないからね！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "「急がば回れ」！不利な状況は避け、機を見て忍び寄る！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "最初から、ニヤ殿が一人になるこのときを待ってたんだよ！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "さすがです部長！忍び足の術、ですね！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "さあ、ニヤ殿！いまのうちにここから抜け出そう！"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "……ありがたい申し出ですが、難しいでしょう。"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "えっ……！？ど、どうしてですか？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "今の百鬼夜行は、あちこちにヒトツメがいますから。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ヒトツメはすべてを見渡し、見通す。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "あの目が百鬼夜行にいる限り、全ての事柄が筒抜けでしょう。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "百鬼夜行を出るも入るも、勘づかれて先回りされるはず。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "この会話も……覗き見てるかもしれませんね？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "わ、我々の計画がバレバレだなんて！？ど、どこ！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "あ、あっちか？それともこっち！？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "ど、どうしましょう……計画を立てても、それが全て知られるのでは……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ツクヨ殿！諦めてはいけません！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "主殿の依頼とあらば、どんな危険な任務にも全力を尽くすのが忍者です！"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ふふ、いいこと言いますね。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "孤立無援の八方塞がり。とはいえ、何もしないならそれこそ愚策。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "見られていようと、[ruby=・]こ[/ruby][ruby=・]れ[/ruby][ruby=・]ま[/ruby][ruby=・]で[/ruby][ruby=・]通[/ruby][ruby=・]り[/ruby]にやればいいんですよ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "忍術研究部の皆さん、ひとつ……お祭り会場にいるカホに伝言をお願いできます？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "――お祭りはどんな時も続けるべきである、と。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "ニヤ様が……そのようなことを？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そうなんだってば！この状況でお祭りをやろうだなんて本気なの！？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "で、でも、陰陽部の部長さんがそう仰るのですから……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "ちなみに、他には何か仰っていませんでしたか？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ええっと、陰陽部は百鬼夜行の均衡を維持する組織だから、[ruby=・]こ[/ruby][ruby=・]れ[/ruby][ruby=・]ま[/ruby][ruby=・]で[/ruby][ruby=・]通[/ruby][ruby=・]り[/ruby]調和を保つだけでいいって……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "忍術研究部の皆さん、申し訳ないのですが……。\nもう一つお願いを聞いていただけないでしょうか？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "はいっ、なんなりと！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "直ちにお祭り運営委員会のシズコさんを、こちらにお連れいただけませんか？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "シズコさんが到着次第……和楽まつりは、予定通り開催いたします！"
+    },
+    {
+      "Text": "次回;四面和楽歌"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제22화;축제는 계속되어야 한다"
+    },
+    {
+      "Name": "음양부원",
+      "Text": "카호 님, 카호 님!"
+    },
+    {
+      "Name": "카호",
+      "Text": "……또 무슨 일이 있기에 이리 호들갑이신가요."
+    },
+    {
+      "Name": "카호",
+      "Text": "와라쿠 축제의 개회까지 1시간도 남지 않았으니, 어지간히 급한 일이 아니라면 음양부 부실에 계신 니야 님께 전달해 달라고 말씀드렸을텐데요."
+    },
+    {
+      "Name": "카호",
+      "Text": "설마, 니야 님이 또 도망치셨나요?"
+    },
+    {
+      "Name": "음양부원",
+      "Text": "네, 니야 님은 '또' 사라지셨습니다. 그런데 그것보다……"
+    },
+    {
+      "Name": "카호",
+      "Text": "이렇게 중요한 때 또 자리를 비우시다니. 이번만큼은 절대로 게으름 피우지 마시라고 신신당부를 했었는데……!"
+    },
+    {
+      "Name": "카호",
+      "Text": "그나저나, '그것보다—' 라니요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "와라쿠 축제를 앞둔 이 때에 니야 님이 사라진 것보다 더 큰 문제가 생겼단 말씀이신가요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "설마 마이 스위트 아이돌, 치세 쨩의 신변에 무슨 문제라도—"
+    },
+    {
+      "Name": "치세",
+      "Text": "나는 여기 있어~"
+    },
+    {
+      "Name": "카호",
+      "Text": "아, 치세 쨩. 다행히 무사했군요."
+    },
+    {
+      "Name": "카호",
+      "Text": "그럼 치세 쨩의 일도 아니라면 무슨 문제가……?"
+    },
+    {
+      "Name": "음양부원",
+      "Text": "그게…… 직접 나와서 보시는 게 빠를 것 같습니다."
+    },
+    {
+      "Name": "카호",
+      "Text": "이게, 도대체……"
+    },
+    {
+      "Name": "카호",
+      "Text": "학원 전체를 둘러싼 저 눈은 도대체, 무엇이지요?"
+    },
+    {
+      "Name": "치세",
+      "Text": "온 사방에 데굴데굴 눈알이 한가득—"
+    },
+    {
+      "Name": "음양부원",
+      "Text": "그게…… 조금 전, 갑자기 행사장 주변에 거대한 눈 모양의 기물이 잔뜩 나타났습니다."
+    },
+    {
+      "Name": "음양부원",
+      "Text": "마츠리부의 시즈코 씨도 아는 바가 없다고 하셨습니다만, 혹시라도 카호 님께서 따로 준비하신 와라쿠 축제의 특별 어트랙션일까 싶어서."
+    },
+    {
+      "Name": "카호",
+      "Text": "치세 쨩의 귀여움을 어필하는 행사에 저런 흉측한 기물을 설치할 리가 없잖습니까!"
+    },
+    {
+      "Name": "카호",
+      "Text": "그나저나 시즈코 씨도 아는 바가 없다면, 저 눈들은 도대체—"
+    },
+    {
+      "Name": "카호",
+      "Text": "저 꺼림칙하고 낯이 익은 시선은, 어쩐지 전에 마주한 적이 있는 기분입니다만……"
+    },
+    {
+      "Name": "치세",
+      "Text": "카호, 저 커다란 눈이랑 눈싸움해도 돼~?"
+    },
+    {
+      "Name": "카호",
+      "Text": "안 됩니다!"
+    },
+    {
+      "Name": "망량즈 A",
+      "Text": "으엑, 뭐야? 이 눈알들은."
+    },
+    {
+      "Name": "망량즈 B",
+      "Text": "기분 나빠…… 살아 있는 것처럼 계속 깜박거리고 있잖아."
+    },
+    {
+      "Name": "망량즈 A",
+      "Text": "혹시 총으로 쏴 버리면 겁을 먹고 도망치지 않을까?"
+    },
+    {
+      "Name": "카호",
+      "Text": "자, 잠시만 기다려 주세요. 정체를 파악하기 전까지 불필요하게 기물을 자극하는 것은 피해야—"
+    },
+    {
+      "Name": "망량즈 A",
+      "Text": "총알이…… 그대로 관통했어?"
+    },
+    {
+      "Name": "망량즈 A",
+      "Text": "도대체 이게 뭐지? 뭔가 신기루를 쏘는 듯한 기묘한 느낌인데—"
+    },
+    {
+      "Name": "망량즈 B",
+      "Text": "으악, 더 늘어나기 시작했어!"
+    },
+    {
+      "Name": "망량즈 A",
+      "Text": "게다가 이건…… 지난번 화재 때의 그 괴물……"
+    },
+    {
+      "Name": "망량즈 B",
+      "Text": "우, 우리가 어찌 할 수 있는 상대가 아니야…… 모두 도망쳐!"
+    },
+    {
+      "Name": "카호",
+      "Text": "……츠쿠모가미."
+    },
+    {
+      "Name": "카호",
+      "Text": "화조풍월부가 만들어 낸 괴이로군요."
+    },
+    {
+      "Name": "카호",
+      "Text": "하필이면 백화요란이 자리를 비운 이 시기에 나타나다니……"
+    },
+    {
+      "Name": "카호",
+      "Text": "아니, 오히려 일부러 이 시기를 노리고 왔을 가능성도 배제할 수 없겠군요. 어느 쪽이든 타이밍이 좋지 않아요."
+    },
+    {
+      "Name": "음양부원",
+      "Text": "카, 카호 님. 저희는 어찌하면 좋을까요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "우선 축제장에 있는 모든 관객과 스태프에게 방송을 통해 알리세요. 절대로 저 괴물과 교전해서는 안 된다고!"
+    },
+    {
+      "Name": "카호",
+      "Text": "그리고 나머지 인원들은 가능한 저 눈의 시야가 닿지 않는 장소까지 시민들을 대피시켜 주세요!"
+    },
+    {
+      "Name": "음양부원",
+      "Text": "하, 하지만 온 학원에 저 눈의 시선이 닿지 않는 곳이 없는데. 어디로 도망쳐야 하나요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "그, 그건 그러니까……"
+    },
+    {
+      "Name": "음양부원 A",
+      "Text": "카호 부부장님! 눈알에 이어 지난번 화재 때 나타났던 것과 같은 낡은 물건 형태의 괴물이 나타나 시민들을 습격하고 있다고 합니다!"
+    },
+    {
+      "Name": "음양부원 B",
+      "Text": "도망치는 곳마다 지켜보고 있었던 것처럼 괴물이 길목을 차단해서……"
+    },
+    {
+      "Name": "음양부원 C",
+      "Text": "어디로 가도 저 시선에서 벗어날 수가 없습니다!"
+    },
+    {
+      "Name": "음양부원 B",
+      "Text": "이대로라면 와라쿠 축제의 진행은 불가피……"
+    },
+    {
+      "Name": "음양부원 C",
+      "Text": "……카호 님, 저희는 어찌하면 좋을까요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "……니야 님."
+    },
+    {
+      "Name": "카호",
+      "Text": "최소한 니야 님만이라도 이 장소에 있었더라면."
+    },
+    {
+      "Name": "카호",
+      "Text": "제가 할 수 있는 일이라고는 현상을 파악하고, 상황을 정리하는 것뿐이라."
+    },
+    {
+      "Name": "카호",
+      "Text": "저는, 이 위기를 타개할 묘책 같은 건 떠올릴 수가 없는데……."
+    },
+    {
+      "Name": "치세",
+      "Text": "……카호."
+    },
+    {
+      "Name": "카호",
+      "Text": "미안해요, 치세 쨩."
+    },
+    {
+      "Name": "카호",
+      "Text": "그동안 열심히 준비했지만, 아무래도 이번 와라쿠 축제는 중단해야—"
+    },
+    {
+      "Name": "치세",
+      "Text": "아니. 그게 아니야."
+    },
+    {
+      "Name": "치세",
+      "Text": "저기에, 닌자가 있어."
+    },
+    {
+      "Name": "카호",
+      "Text": "닌자……?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "인법연구부, 여기에 등장!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "카호 공, 무사하셨군요!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "가, 갑자기 괴물들이 나타나서 따돌리느라…… 시간이 걸렸어요!"
+    },
+    {
+      "Name": "카호",
+      "Text": "인법연구부 여러분? 여기에는 어쩐 일로……"
+    },
+    {
+      "Name": "카호",
+      "Text": "혹시 이 괴물들을 함께 무찌르기 위해 와 주셨나요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "무, 물론 그쪽도 도울 수 있다면 돕겠지만, 지금은 더 급히 전달해야 할 일이 있다고 할까……"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네, [USERNAME] 선생님께서 저희에게 따로 부탁하신 일이 있었거든요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "니야 님의 전갈을 가지고 돌아왔습니다, 닌닌!"
+    },
+    {
+      "Name": "카호",
+      "Text": "[USERNAME] 선생님……? 그리고, 니야 님의 전갈……?"
+    },
+    {
+      "Text": "(약 30분 전……)"
+    },
+    {
+      "Name": "니야",
+      "Text": "냐하하…… 이것 참, 꼴사납게 당해버렸네."
+    },
+    {
+      "Name": "니야",
+      "Text": "역시 썩어도 준치. 그림자라 할지라도 백화요란의 부장은 그리 호락호락한 존재가 아니라는 건가."
+    },
+    {
+      "Name": "니야",
+      "Text": "역시 만만한 상대가 아니라니까, 아야메 부장은~"
+    },
+    {
+      "Name": "니야",
+      "Text": "슬슬 괴담이 퍼질 시기인가."
+    },
+    {
+      "Name": "니야",
+      "Text": "여기까지는 예견한 상황이라 할 수 있겠지만, 이렇게 묶여 있어서야 사건이 흘러가는 걸 관망할 수밖에 없으니."
+    },
+    {
+      "Name": "니야",
+      "Text": "아아~ 최소한 이렇게 될 줄 알았더라면, 쓸 수 있는 패 하나 정도는 남겨 둘걸 그랬네."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "니야 공!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "니야 부장, 우리가 구하러 왔어!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "괘, 괜찮으신가요. 니야 부장님?"
+    },
+    {
+      "Name": "니야",
+      "Text": "……인법연구부 여러분? 이 장소는 어떻게 알고……"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "사실 아까 전부터 계속 따라왔었습니다!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그게, 사실 선생 공이 떠나기 전에 따로 우리에게 특별히 의뢰를 했었거든."
+    },
+    {
+      "Name": "니야",
+      "Text": "선생님이 여러분께 의뢰를요……?"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네, 넵! 백화요란 여러분께서 자리를 비우면 음양부를 노리는 무리가 있을지도 모른다고, 니야 부장님을 몰래 호위해달라고 부탁하셨거든요……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "후후, 어둠 속에서 은밀히 대상을 호위하는 것도 닌자의 임무이니까!"
+    },
+    {
+      "Name": "니야",
+      "Text": "그렇다는 말은, 아까 아야메 부장의 그림자가 저를 습격했을 때부터 지켜보고 계셨다는 말씀……?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그, 그게 그러니까…… 아야메 부장이 니야 부장을 갑자기 습격했을 때, 당황해서 바로 대처하지 못한 건 사실이지만……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그때 우리가 가세했다 하더라도 아야메 부장을 막을 순 없었을 거야."
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "소, 솔직히 그 움직임을 지켜보는 것만으로도 발이 떨어지지 않았을 정도였어요……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "하, 하지만 언제나 정면승부만이 상책은 아니니까!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "불리한 상황을 피해 유리한 때를 기다렸다가, 허를 찌르는 것 또한 닌자의 기책!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그래서 니야 공이 혼자 남을 때까지 몰래 뒤를 밟아 따라왔지!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "과연, 부장! 살금살금의 술법이로군요!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "자, 니야 공! 지켜보는 사람이 없는 지금, 어서 우리와 함께 여기를 빠져나가는 거야!"
+    },
+    {
+      "Name": "니야",
+      "Text": "……아니, 이제는 어디로도 도망칠 수 없습니다."
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네……?! 어, 어째서인가요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "괴담과 함께 백귀야행을 뒤덮고 있는 저 눈, 히토츠메 때문입니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "히토츠메는 어디서나 바라볼 수 있는 동시에, 모든 것을 바라보는 눈."
+    },
+    {
+      "Name": "니야",
+      "Text": "저 눈이 백귀야행을 뒤덮고 있는 한, 백귀야행에서 벌어지는 모든 일은 그녀의 시야 아래에 있다고 해도 과언이 아니지요."
+    },
+    {
+      "Name": "니야",
+      "Text": "백귀야행을 빠져나가려고 해도, 외부에서 백귀야행으로 들어오려 해도, 아야메와 백물어가 이를 보고 먼저 움직일 것입니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "아니, 어쩌면 저희가 도망칠 계획을 짜고 있는, 지금 이 상황도 지켜보고 있을지도요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "우, 우리의 계획이 들켰다고? 어, 어디서 지켜보고 있었단 말이야?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "저, 저쪽이냐?! 아니면 저쪽?!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "어, 어쩌죠……? 그럼 저희는 이대로 어떤 계획을 세우더라도, 꼼짝없이 황혼에 잡아먹히고 말 텐데……"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "츠쿠요 공, 그렇다고 해도 포기해서는 안 됩니다!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군의 명령을 지키기 위해서라면 어떤 위태로운 상황에서도 전력을 다하는 것이 닌자니까요!"
+    },
+    {
+      "Name": "니야",
+      "Text": "후후, 그 말이 옳습니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "비록 고립무원, 진퇴유곡의 상황이지만 아무것도 하지 않을 수는 없으니까요."
+    },
+    {
+      "Name": "니야",
+      "Text": "저희는 언제나 그랬던 것처럼 '조화롭게' 하던 일을 계속하면 되는 것이랍니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "인법연구부 여러분. 저를 구하는 대신, 와라쿠 축제장에 있을 카호에게 제 말을 전달해 주시겠어요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "—축제는 어떤 상황에서도 계속되어야 한다고."
+    },
+    {
+      "Name": "카호",
+      "Text": "니야 님이…… 그렇게 말씀하셨다고요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그렇다니까! 이렇게 혼란스러운 상황에 와라쿠 축제를 속행하라니, 이게 가능한 일이긴 하냐구~!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "하, 하지만 음양부의 부장님이 그렇게 말씀하셨다면…… 뭔가 특별한 계책이라도 있는 게 아니실까요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "혹시 니야 님께서 그 이외의 말씀은 없으셨나요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그, 글쎄…… 음양부의 목적은 백귀야행의 균형을 유지하는 데 있으니, '조화롭게' 하던 일을 계속하라고……"
+    },
+    {
+      "Name": "카호",
+      "Text": "……그렇군요."
+    },
+    {
+      "Name": "카호",
+      "Text": "인법연구부 여러분, 여기까지 오시느라 수고가 많으셨습니다만, 한 가지만 더 부탁드려도 괜찮을까요?"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네, 이즈나에게 맡겨만 주세요!"
+    },
+    {
+      "Name": "카호",
+      "Text": "지금 바로 마츠리운영관리부의 시즈코 씨를 모시고 와 주시겠어요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "마츠리부가 도착하는 대로…… 와라쿠 축제를 속행하겠습니다!"
+    },
+    {
+      "Text": "다음화;사면화락"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 22;The Festival Must Go On"
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "Kaho, Kaho!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "...What is it now? Why are you in such a panic?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "There's less than an hour until the Waraku Festival starts. This had best be as urgent as you're making it seem. Otherwise, Niya should handle it back at the Yin-Yang Club room."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Or...don't tell me Niya has slipped away again?"
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "Yes, Niya has disappeared again. But more importantly..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Now?! Of all times?! I warned her until I was blue in the face that her usual tactics would not be tolerated this time."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "But what is more important than our president's negligence?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "What could possibly be more pressing than her disappearing moments before the Waraku Festival begins?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Surely nothing has befallen my sweet idol Chise..."
+    },
+    {
+      "Name": "Chise",
+      "Text": "I'm right here!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Ah, Chise. What a relief."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Well, if it doesn't have to do with Chise, I hardly see the problem."
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "...I think it'd be easier if you just came and saw for yourself."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "What on earth...?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Are those...eyes? All over the district?"
+    },
+    {
+      "Name": "Chise",
+      "Text": "Eyeballs...rolling, rolling, rolling around..."
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "Yes! Just a few moments ago, they appeared out of nowhere, and everywhere!"
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "Shizuko from the Festival Department has no idea where they came from, so we thought that maybe they were some special attraction you'd arranged for the Waraku Festival."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "This festival is meant to showcase Chise's adorable cuteness! You dare suggest I would decorate it with these...things?!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "But if even Shizuko doesn't know, then those eyes must be..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "This unsettling gaze... There's a strange familiarity to it."
+    },
+    {
+      "Name": "Chise",
+      "Text": "Kaho, can we do a staring contest with that big eye?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Absolutely not!"
+    },
+    {
+      "Name": "Mouryo A",
+      "Text": "Ugh, what the heck are these eyeballs?"
+    },
+    {
+      "Name": "Mouryo B",
+      "Text": "How creepy... Look! It's blinkin'! You think they're alive?"
+    },
+    {
+      "Name": "Mouryo A",
+      "Text": "Maybe if we shoot 'em they'll get scared and, uh, roll away..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "W-Wait a moment! Until we know what we're dealing with, we should abstain from engaging—"
+    },
+    {
+      "Name": "Mouryo A",
+      "Text": "The bullet...passed right on through?"
+    },
+    {
+      "Name": "Mouryo A",
+      "Text": "What the heck?! It's like I was shootin' at some illusion!"
+    },
+    {
+      "Name": "Mouryo B",
+      "Text": "Ah, they're multiplyin'!"
+    },
+    {
+      "Name": "Mouryo A",
+      "Text": "Ain't that...the monster from the last fire?!"
+    },
+    {
+      "Name": "Mouryo B",
+      "Text": "This is way out of our league... Run for it!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "...Artifact Spirits."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "This is the work of Nature's Beauty."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Of all times, they make their move when the Hyakkaryouran are absent..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Or perhaps...that is precisely why they've chosen to act now. Regardless, it's less than ideal."
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "Wh-What do we do, Vice President?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "First, send out a broadcast to all the guests and staff currently in the festival grounds. They must not engage with the monsters!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "All available staff should focus on safely evacuating every last civilian!"
+    },
+    {
+      "Name": "Yin-Yang Club Member",
+      "Text": "B-But...those eyeballs are everywhere. Where can we even take them?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "W-Well..."
+    },
+    {
+      "Name": "Yin-Yang Club Member A",
+      "Text": "Vice President Kaho! On top of the eyeballs, the same old-object monsters from last time have appeared! They're attacking everyone in sight!"
+    },
+    {
+      "Name": "Yin-Yang Club Member B",
+      "Text": "It's like they were waiting for us... They've blocked off every escape route!"
+    },
+    {
+      "Name": "Yin-Yang Club Member C",
+      "Text": "We can't escape their gazes!"
+    },
+    {
+      "Name": "Yin-Yang Club Member B",
+      "Text": "Are we going to have to call off the festival?"
+    },
+    {
+      "Name": "Yin-Yang Club Member C",
+      "Text": "What do we do, Vice President?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "...Niya."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "If only Niya were here, at least..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "The best I can do is to evaluate the situation and maintain safety and order..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "It's beyond my capabilities to formulate a counterattack..."
+    },
+    {
+      "Name": "Chise",
+      "Text": "...Kaho."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "I'm sorry, Chise."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "All your hard work...and we're going to have to call off the Waraku—"
+    },
+    {
+      "Name": "Chise",
+      "Text": "No. That's not it."
+    },
+    {
+      "Name": "Chise",
+      "Text": "Look. A ninja."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "A ninja...?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "The Ninjutsu Research Club is here!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Kaho! You're safe!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "We got delayed...because of the monsters... We had to shake them off!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Ninjutsu Research Club? How are you...?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Are you here to help take down these monsters?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Um, yes! Technically! But we actually have an urgent message to deliver!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Yes, [USERNAME] Sensei gave us a very important mission...!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "And we have a message from Niya! Nin nin!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "[USERNAME] Sensei...? And a message from Niya...?"
+    },
+    {
+      "Text": "About 30 minutes earlier..."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Nyahaha... How embarrassing."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Even as a shadow, fighting the Hyakkaryouran president is no walk in the park."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ayame truly lives up to her reputation, now doesn't she?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "I suppose her ghost story will begin snaking its tendrils through Hyakkiyako about now."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Everything unfolded exactly as I expected...besides me ending up down here. Now all I can do is observe the final acts."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ai-yah. I suppose I should've prepared at least one ace up my sleeve."
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Niya!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "President Niya, we've come to rescue you!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Are...you okay, President Niya?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "...Ninjutsu Research Club? How did you find me...?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "The three of us have been following you!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "You see, Sensei bestowed a very special mission upon us before they left."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Sensei did...?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Y-Yes, ma'am! They were worried...that with the Hyakkaryouran away, someone could attack the Yin-Yang Club. So Sensei asked us to secretly guard you, President Niya..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Fufu. And working in the shadows to provide discreet protection is the ninja way!"
+    },
+    {
+      "Name": "Niya",
+      "Text": "...So you mean to tell me that you stood idly by while I was being ambushed by Ayame's shadow?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "W-Well... It happened out of nowhere, you know? We were taken completely off guard!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "And more realistically, we really couldn't have done anything against her..."
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Yeah...just watching the way she moved...made me too scared to do anything..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Sometimes you just have to know when to pick your battles!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Avoid disadvantageous situations, and catch the enemy off guard when they least expect it! That's the ninja way too!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "So we shadowed you until you were alone!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Wow, President! That's how we do things, sneaky-style!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "This is the perfect chance! We'll get you out of here, Niya!"
+    },
+    {
+      "Name": "Niya",
+      "Text": "...No. The time for running has long passed."
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Huh...? What...do you mean?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "The Hitotsume and Artifact Spirits have already spread all across Hyakkiyako."
+    },
+    {
+      "Name": "Niya",
+      "Text": "And nothing escapes Hitotsume's gaze."
+    },
+    {
+      "Name": "Niya",
+      "Text": "As long as Hyakkiyako is under its watchful gaze, there's nowhere to hide."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Whether we try to leave or enter Hyakkiyako, Ayame and the Phantom Fable will be there."
+    },
+    {
+      "Name": "Niya",
+      "Text": "In fact, they might even be watching us now, as we speak."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Our plan's been exposed? Wh-Where are they watching from?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "There?! Or over there?!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "What...should we do...? If they can...see all our plans...we're all going to be swallowed up by the spirit realm..."
+    },
+    {
+      "Name": "Izuna",
+      "Text": "No, Tsukuyo! We can't give up!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Ninjas always fulfill their lord's order! No matter how dangerous, or at what cost!"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Fufu. I like your style."
+    },
+    {
+      "Name": "Niya",
+      "Text": "We're cut off and boxed in, but no response is the worst response."
+    },
+    {
+      "Name": "Niya",
+      "Text": "So we do as we've always done. We maintain balance."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ninjutsu Research Club members, instead of rescuing me, could you deliver a message to Kaho at the Waraku Festival?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "...The festival must go on."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Niya...said that?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Truly? She wants us to hold the Waraku Festival under these conditions? What could she be thinking?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "B-But since she's the president of the Yin-Yang Club...she must have some kind of plan, right?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Did Niya say anything else?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Um... She said that the Yin-Yang Club should do what it's always done, which is to maintain balance in Hyakkiyako."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "...Hm."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Ninjutsu Research Club members, I'm sorry to ask after you've come all this way, but could I ask just one more favor of you?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Yes! Leave it to Izuna!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Could you please bring Shizuko from the Festival Operations Department here immediately?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Once Shizuko arrives, we'll hold a festival that no one will ever forget!"
+    },
+    {
+      "Text": "Next Episode;Festive Songs For All"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 22;งานเทศกาลต้องดำเนินต่อไป"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "คุณคาโฮะ คุณคาโฮะ!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "มีเรื่องอะไรอีกคะ ทำไมถึงร้อนรนขนาดนั้นล่ะ...?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อีกไม่ถึงชั่วโมงก็จะเริ่มเทศกาลวาราคุแล้ว ฉันบอกแล้วนี่คะว่าถ้าไม่ใช่เรื่องเร่งด่วนมากก็ให้ไปบอก\nคุณนิยะที่อยู่ในห้องชมรมหยินหยางแทน"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "หรือว่าคุณนิยะหนีไปไหนอีกแล้วเหรอคะ?"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "ใช่ค่ะ คุณนิยะหนีไป 'อีกแล้ว' ค่ะ แต่สิ่งที่สำคัญกว่านั้น..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "หายตัวไปในเวลาสำคัญๆ อีกแล้ว ครั้งนี้ฉันอุตส่าห์ย้ำนักย้ำหนาแล้วว่าห้ามขี้เกียจเด็ดขาด...!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ว่าแต่ 'สิ่งที่สำคัญกว่านั้น' ที่ว่าคืออะไรคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "มีปัญหาอื่นที่ใหญ่กว่าการที่คุณนิยะหายตัวไปก่อนจะเริ่มเทศกาลวาราคุอีกเหรอคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "หรือว่าเกิดปัญหาอะไรกับชิเซะจัง ไอดอลที่น่ารักของฉัน..."
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "ฉันอยู่นี่~"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อ๊ะ ชิเซะจัง โล่งอกไปทีที่ยังอยู่ดีนะคะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "งั้นถ้าไม่ใช่เรื่องของชิเซะจัง แล้วมันเป็นปัญหาอะไรกัน...?"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "ฉันว่า... คุณคาโฮะออกไปดูเองน่าจะเร็วกว่าค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "เกิดอะไรขึ้นกันแน่..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อะไรกันคะ ทำไมถึงมีลูกตาอยู่ทั่วโรงเรียนแบบนี้?"
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "มีลูกตากลอกกลิ้งไปทุกที่เลย..."
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "คือว่า... จู่ๆ ก็มีวัตถุรูปร่างคล้ายลูกตาขนาดยักษ์ปรากฏอยู่ทั่วสถานที่จัดงานเลยค่ะ"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "คุณชิซุโกะจากชมรมจัดงานเทศกาลบอกว่าไม่รู้เรื่อง เราก็เลยสงสัยว่าเป็นอะไรที่คุณคาโฮะเตรียมไว้\nเป็นพิเศษเพื่อเทศกาลวาราคุหรือเปล่า"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "นี่เป็นเทศกาลโปรโมตความน่ารักของชิเซะจัง แล้วฉันจะไปเอาของที่น่าเกลียดแบบนี้มาไว้ในงานทำไม\nกันล่ะคะ!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "แต่ถ้าคุณชิซุโกะก็ไม่รู้เรื่องนี้ แล้วลูกตาพวกนั้นมัน..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "สายตาที่คุ้นเคยและน่าอึดอัดแบบนั้น รู้สึกเหมือนเคยเห็นมาก่อนเลย..."
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "คาโฮะ ฉันขอแข่งจ้องตากับตาโตๆ นั่นได้มั้ย~?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ไม่ได้นะคะ!"
+    },
+    {
+      "Name": "ปีศาจ A",
+      "Text": "แหวะ อะไรเนี่ย? ตาพวกนี้?"
+    },
+    {
+      "Name": "ปีศาจ B",
+      "Text": "เห็นแล้วหงุดหงิดชะมัด... มันกะพริบตาได้เหมือนมีชีวิตอยู่จริงๆ เลย"
+    },
+    {
+      "Name": "ปีศาจ A",
+      "Text": "ถ้าเอาปืนยิง มันจะกลัวจนกลิ้งหนีไปมั้ยนะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ช่วยรอสักครู่นะคะ ถ้าเรายังไม่รู้ตัวตนของมัน ฉันว่าเราไม่ควรไปยั่วยุมันโดยไม่จำเป็น..."
+    },
+    {
+      "Name": "ปีศาจ A",
+      "Text": "กระสุน... ทะลุผ่านไปดื้อๆ เลยเหรอ?"
+    },
+    {
+      "Name": "ปีศาจ A",
+      "Text": "นี่มันอะไรกันน่ะ? รู้สึกแปลกๆ เหมือนยิงภาพลวงตาอย่างนั้นละ..."
+    },
+    {
+      "Name": "ปีศาจ B",
+      "Text": "อ๊ากก มันเริ่มมีเยอะขึ้นแล้ว!"
+    },
+    {
+      "Name": "ปีศาจ A",
+      "Text": "นี่มัน... ปีศาจตอนที่เกิดไฟไหม้เมื่อคราวก่อน..."
+    },
+    {
+      "Name": "ปีศาจ B",
+      "Text": "พะ... พวกเราทำอะไรเจ้าพวกนี้ไม่ได้หรอก... ทุกคนหนีเร็ว!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ซึคุโมะคามิ..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ปีศาจที่ชมรมความงามของธรรมชาติสร้างขึ้นมาสินะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "บังเอิญมาปรากฏตัวตอนที่เฮียกกะเรียวรันไม่อยู่พอดีด้วย..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ไม่สิ พวกนี้อาจตั้งใจมาในจังหวะนี้ก็ได้ แต่ไม่ว่าจะเป็นทางไหนก็แย่อยู่ดีค่ะ"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "ทะ... ท่านคาโฮะ พวกฉันควรทำยังไงดีคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ก่อนอื่นไปประกาศให้ผู้ชมงานเทศกาลกับทีมงานในสถานที่จัดงานรู้ก่อนค่ะ บอกให้ทุกคนรู้ว่าอย่าสู้\nกับปีศาจพวกนั้นเด็ดขาด!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ส่วนคนที่เหลือก็ให้ไปอพยพชาวเมืองไปที่อื่นให้พ้นจากสายตาของลูกตาพวกนั้นค่ะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง",
+      "Text": "ตะ... แต่ลูกตาพวกนั้นมีอยู่ทั่วโรงเรียนเลยค่ะ เราต้องหนีไปไหนเหรอคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อะ... เอ่อ... ไปที่..."
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง A",
+      "Text": "รองหัวหน้าคาโฮะ! นอกจากลูกตาแล้วยังมีปีศาจที่มีรูปร่างเป็นวัตถุเก่าๆ เหมือนที่เคยโผล่มาตอนเกิด\nไฟไหม้ครั้งที่แล้วด้วยค่ะ ตอนนี้พวกนั้นก็กำลังจู่โจมชาวเมืองอยู่ด้วย"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง B",
+      "Text": "ไม่ว่าจะหนีไปทางไหนก็เจอปีศาจมาขวางทางค่ะ ราวกับพวกมันคอยเฝ้าดูเราอยู่อย่างนั้นละ..."
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง C",
+      "Text": "ไม่ว่าจะไปทางไหนก็หนีจากสายตาพวกนั้นไม่พ้นเลยค่ะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง B",
+      "Text": "ถ้าเป็นแบบนี้ต่อไป เทศกาลวาราคุก็คงจัดต่อไม่ได้..."
+    },
+    {
+      "Name": "สมาชิกชมรมหยินหยาง C",
+      "Text": "ท่านคาโฮะ... พวกเราควรทำยังไงดีคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "นิยะ..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อย่างน้อยถ้านิยะอยู่ที่นี่ละก็..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "สิ่งที่ฉันทำได้มีแค่ทำความเข้าใจและจัดการสถานการณ์ค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ฉันคิดหาทางออกจากวิกฤตนี้ไม่ได้เลย..."
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "คาโฮะ..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ขอโทษนะคะ ชิเซะจัง"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "เราอุตส่าห์เตรียมงานกันมาอย่างดี แต่ฉันว่าเราคงต้องยกเลิกเทศกาลวาราคุครั้งนี้..."
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "ไม่หรอก ที่ฉันจะบอกก็คือ"
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "มีพวกนินจาอยู่ตรงโน้นน่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "นินจา...?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ชมรมวิจัยศาสตร์นินจา ได้เวลาออกโรง!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ท่านคาโฮะ ปลอดภัยดีใช่มั้ยคะ?"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "จะ... จู่ๆ พวกปีศาจก็โผล่มา... พวกฉันใช้เวลานานเลยค่ะกว่าจะกันพวกนั้นออกไปได้!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ชมรมวิจัยศาสตร์นินจาทุกคน มาทำอะไรกันที่นี่..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "พวกคุณมาช่วยเรากำจัดปีศาจพวกนั้นเหรอคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "พะ... พวกข้าน้อยก็อยากช่วยเรื่องนั้นหรอกนะ แต่ตอนนี้พวกข้าน้อยมีเรื่องเร่งด่วนกว่านั้นที่จะบอก..."
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ใช่ค่ะ พอดีคุณครู [USERNAME] ขอให้พวกฉันช่วยทำอะไรบางอย่างน่ะค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "พวกฉันมาพร้อมข้อความจากคุณนิยะค่ะ นินนิน!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "คุณครู [USERNAME] เหรอคะ...? แล้วก็ข้อความจากคุณนิยะด้วย...?"
+    },
+    {
+      "Text": "(ราวๆ 30 นาทีก่อน...)"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อะฮะฮ่า... โธ่เอ๊ย น่าอายชะมัดเลย"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "นี่สินะที่บอกว่าต่อให้ทองสึกก็ยังเป็นทองอยู่ดี ถึงจะเป็นแค่เงา แต่เงาของหัวหน้าเฮียกกะเรียวรันก็\nเก่งกาจไม่เบาสินะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ไม่ใช่คู่ต่อสู้ที่ง่ายเลยนะ หัวหน้าอายาเมะเนี่ย~"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "เรื่องลึกลับเริ่มกระจายไปหรือยังนะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "จนถึงจุดนี้อาจพูดได้ว่าเป็นสถานการณ์ที่เป็นไปตามคาด แต่ถ้าเราถูกมัดอยู่อย่างนี้ ก็คงทำได้แค่เฝ้าดูสถานการณ์ที่เกิดขึ้นเท่านั้น"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "เฮ้อ~ อย่างน้อยถ้ารู้ว่าจะเป็นแบบนี้ ฉันเตรียมแผนการอะไรไว้บ้างก็ดี"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ท่านนิยะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หัวหน้านิยะ พวกเรามาช่วยแล้ว!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ปะ... เป็นยังไงบ้างคะ หัวหน้านิยะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ชมรมวิจัยศาสตร์นินจา...? รู้จักที่นี่ได้ยังไง..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ที่จริงพวกฉันตามมาตั้งแต่เมื่อกี้แล้วค่ะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "คือว่า... ก่อนที่ท่านอาจารย์จะออกเดินทางไป ท่านอาจารย์ฝากให้พวกเราทำภารกิจพิเศษน่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "คุณครูฝากให้พวกคุณทำภารกิจเหรอคะ...?"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ค่ะ ค่ะ! คุณครูบอกว่าถ้าเฮียกกะเรียวรันไม่อยู่ ก็อาจมีใครมาเล่นงานชมรมหยินหยางก็ได้ คุณครูก็เลยขอให้พวกฉันคอยคุ้มกันหัวหน้านิยะอย่างลับๆ ค่ะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ฮุฮุ การคุ้มกันคนอื่นอย่างลับๆ ในความมืดคืองานของนินจาอยู่แล้ว!"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "งั้นก็หมายความว่า... ทุกคนเฝ้าดูฉันตั้งแต่ตอนที่ฉันถูกเงาของหัวหน้าอายาเมะโจมตีแล้วเหรอคะ...?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อะ... เอ่อ... เรื่องนั้นน่ะ ตอนที่จู่ๆ หัวหน้าอายาเมะก็เข้ามาจู่โจมหัวหน้านิยะ พวกข้าน้อยเองก็มัวแต่\nตกใจกันจนไม่รู้จะช่วยยังไง..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "แต่ต่อให้พวกข้าน้อยจะไปสมทบด้วยในตอนนั้น ยังไงก็สยบหัวหน้าอายาเมะไม่ได้หรอก"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "บะ... บอกตามตรงว่าแค่ดูการเคลื่อนไหวของหัวหน้าอายาเมะ ขาของฉันก็ก้าวไม่ออกแล้วค่ะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ตะ... แต่การต่อสู้ตัวต่อตัวก็ไม่ใช่แผนการที่ดีที่สุดเสมอไปนี่นา!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "คอยหลีกเลี่ยงสถานการณ์ที่เสียเปรียบแล้วค่อยโจมตีในจังหวะที่ได้เปรียบ นั่นก็เป็นกลยุทธ์ของนินจา\nเหมือนกันนะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ข้าน้อยก็เลยแอบตามท่านนิยะมาจนกระทั่งเหลืออยู่ตัวคนเดียวนี่ละ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "แบบนี้สินะ หัวหน้า! ใช้ศาสตร์ย่างก้าวแบบไร้สุ้มเสียงสินะคะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เอาละ ท่านนิยะ! รีบออกไปจากที่นี่พร้อมกับพวกข้าน้อยเถอะ!"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ไม่ได้หรอก... ตอนนี้เราไม่มีที่ให้หนีไปแล้วค่ะ"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ...?! ทะ... ทำไมล่ะคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ตอนนี้มีลูกตาฮิโตสึเมะปกคลุมอยู่ทั่วเฮียกคิยาโคเลยค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฮิโตสึเมะเป็นตาที่มองได้จากทุกที่ และมองเห็นได้ทุกอย่างด้วยค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ตราบใดที่มีลูกตาพวกนั้นอยู่ทั่วเฮียกคิยาโค ทุกๆ เรื่องที่เกิดขึ้นในเฮียกคิยาโคก็จะอยู่ในการรับรู้ของ\nเธอคนนั้นค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ต่อให้จะพยายามออกจากเฮียกคิยาโค หรือจะมีใครจากข้างนอกเข้ามาในเฮียกคิยาโค อายาเมะกับตำนานร้อยเรื่องราวก็จะรู้ได้และชิงเคลื่อนไหวก่อนค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "บางทีตอนนี้พวกนั้นอาจจะกำลังจับตาดูพวกเราที่กำลังวางแผนหนีออกไปอยู่ก็ได้ค่ะ"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ผะ... แผนการของพวกเราถูกเปิดเผยงั้นเหรอ? อะ... แอบดูอยู่จากตรงไหนน่ะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ทะ... ทางโน้นเหรอ?! หรือว่าทางนั้น?!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ทะ... ทำยังไงดีล่ะคะ...? ถ้าอย่างงั้นต่อให้พวกเราจะวางแผนอะไร ก็ต้องถูกห้วงอัสดงกลืนกิน\nอย่างหนีไม่พ้นเหรอ..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ท่านสึคุโยะ ถึงจะเป็นอย่างนั้นแต่ว่าอย่าเพิ่งยอมแพ้สิคะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นินจาคือผู้ที่ยอมทุ่มสุดตัวแม้ในสถานการณ์อันตรายเพื่อทำตามคำสั่งของนายท่านนะคะ!"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฮุฮุ พูดถูกแล้วละค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "แม้เราจะอยู่ในสถานการณ์ที่โดดเดี่ยวเดียวดายหรือกลืนไม่เข้าคายไม่ออก แต่เราจะไม่ทำอะไรเลยไม่ได้หรอกค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "พวกเราแค่ต้องจัดการเรื่องนี้ให้ 'กลมกลืน' เหมือนที่เคยทำมาตลอดค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ชมรมวิจัยศาสตร์นินจาทุกคนคะ แทนที่พวกคุณจะช่วยฉันที่นี่ ฉันขอให้พวกคุณไปบอกอะไรกับคาโฮะ\nที่อยู่ในสถานที่จัดงานเทศกาลได้มั้ยคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "บอกคาโฮะว่าไม่ว่าสถานการณ์จะเป็นยังไง แต่งานเทศกาลก็ต้องดำเนินต่อไปค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "คุณนิยะ... ฝากมาบอกอย่างนั้นเหรอคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ใช่แล้ว! แต่จะให้จัดเทศกาลวาราคุต่อท่ามกลางความวุ่นวายแบบนี้น่ะเหรอ มันจะเป็นไปได้หรือไง~!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ตะ... แต่ถ้าหัวหน้าชมรมหยินหยางพูดอย่างนั้น... ก็แสดงว่าอาจจะมีแผนการหรือชั้นเชิงอะไรอยู่ก็ได้\nนะคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "คุณนิยะพูดอะไรเพิ่มเติมจากนี้มั้ยคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อะ... อืม... พูดว่าจุดประสงค์ของชมรมหยินหยางก็เพื่อรักษาสมดุลในเฮียกคิยาโค เพราะงั้นก็ให้ทำงานต่อไปให้มีความ 'กลมกลืน'..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อย่างนี้เองสินะคะ..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ขอบคุณชมรมวิจัยศาสตร์นินจาทุกคนนะคะ พวกคุณคงเหนื่อยกันมาก แต่ฉันขอร้องอะไรอีกสักอย่าง\nได้มั้ยคะ?"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ค่ะ! วางใจอิซุนะได้เลยค่ะ!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ช่วยพาคุณชิซุโกะจากชมรมจัดงานเทศกาลมาที่นี่ตอนนี้เลยได้มั้ยคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ถ้าชมรมจัดงานเทศกาลมาถึง... ฉันจะจัดเทศกาลวาราคุต่อทันทีค่ะ!"
+    },
+    {
+      "Text": "ตอนต่อไป;บทเพลงแห่งความปรองดอง"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第22話;祭典必須繼續"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "佳穗大人，佳穗大人！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "看你慌成這樣……有什麼事嗎？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "距離和樂祭的開幕只剩不到一個小時。\n除了十萬火急的事情之外，都請向部室裡的仁耶大人報告……我應該交代過了才對。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "難道仁耶大人又逃走了嗎？"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "是的，仁耶大人「又」消失了。\n不過比起這個……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "居然在這麼重要的時刻又不見人影……\n我明明已經再三叮囑過他，這次絕對不能偷懶的……！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "話說回來，你剛才說「比起這個」是什麼意思？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "難道在和樂祭即將開始的此刻，還有比仁耶大人消失更嚴重的問題嗎？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "該不會是我的甜心偶像，知世醬出了什麼事──"
+    },
+    {
+      "Name": "知世",
+      "Text": "我在這裡唷～"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "啊，知世醬。幸好你平安無事。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "如果跟知世醬無關的話，究竟發生了什麼……？"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "那個……我想您親自出來看看會更好理解。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "這，這是怎麼回事……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "圍繞整個學園的那些眼球到底是什麼？"
+    },
+    {
+      "Name": "知世",
+      "Text": "四面八方都是滾來滾去的眼球──"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "就是……剛才會場周圍突然出現了大量巨型的眼球型物體。"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "因為就連節慶營運管理部的靜子同學也表示完全不知情，\n我本以為這是佳穗大人為和樂祭準備的特別裝置……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "我怎麼可能在宣傳知世醬可愛的活動裡，擺上那種詭異的東西！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "既然連靜子同學也沒有頭緒的話，這些眼睛到底是──"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "這種令人不快卻又似曾相識的視線，總覺得好像在哪裡見過……"
+    },
+    {
+      "Name": "知世",
+      "Text": "佳穗，可以跟那些大眼睛打雪仗嗎～？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "不可以！"
+    },
+    {
+      "Name": "妖怪劇團A",
+      "Text": "嘔，這些眼球是什麼鬼啊……"
+    },
+    {
+      "Name": "妖怪劇團B",
+      "Text": "有夠噁心……還像活著一樣在不停眨眼。"
+    },
+    {
+      "Name": "妖怪劇團A",
+      "Text": "要不要開槍看看？說不定會嚇跑它們。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "請，請先等一下！\n在弄清楚底細之前，不要隨意刺激那些東西──"
+    },
+    {
+      "Name": "妖怪劇團A",
+      "Text": "子彈……直接穿過去了？"
+    },
+    {
+      "Name": "妖怪劇團A",
+      "Text": "這到底是什麼啊？\n感覺就像幻影一樣詭異──"
+    },
+    {
+      "Name": "妖怪劇團B",
+      "Text": "糟糕，數量開始增加了！"
+    },
+    {
+      "Name": "妖怪劇團A",
+      "Text": "這不是……上次火災時出現過的那種怪物嗎……"
+    },
+    {
+      "Name": "妖怪劇團B",
+      "Text": "我，我們沒辦法對付它們……大家快逃！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "……付喪神。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "是花鳥風月部製造的怪異。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "偏偏選在百花繚亂不在的時候出現……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "不，或許是對方有意為之也說不定。\n無論如何，時機都太糟了。"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "佳，佳穗大人。我們該怎麼做呢？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "先用廣播通知會場裡所有的觀眾和工作人員，絕對不要與那些怪異交戰！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "其他人則盡可能把市民疏散到那些眼睛的視線範圍之外！"
+    },
+    {
+      "Name": "陰陽部成員",
+      "Text": "可，可是整個學園沒有任何地方能避開那些眼睛的視線，我們該往哪裡逃呢？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "這，這……"
+    },
+    {
+      "Name": "陰陽部成員A",
+      "Text": "佳穗副部長！\n除了那些眼球之外，跟上次火災時一樣的舊物怪物也出現了！它們正在襲擊市民！"
+    },
+    {
+      "Name": "陰陽部成員B",
+      "Text": "不管往哪裡逃，好像都被怪物堵住了……"
+    },
+    {
+      "Name": "陰陽部成員C",
+      "Text": "完全無法擺脫那些視線！"
+    },
+    {
+      "Name": "陰陽部成員B",
+      "Text": "再這樣下去的話，和樂祭恐怕得被迫中止……"
+    },
+    {
+      "Name": "陰陽部成員C",
+      "Text": "……佳穗大人，我們該怎麼辦？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "……仁耶大人。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "要是仁耶大人能在這裡就好了。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "我能做的，就只有掌握現狀並整理情況。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "實在想不出能突破危機的計策……"
+    },
+    {
+      "Name": "知世",
+      "Text": "……佳穗。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "對不起，知世醬。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "雖然我們努力準備了這麼久，但看來這次和樂祭只能中止──"
+    },
+    {
+      "Name": "知世",
+      "Text": "不。不需要那樣。"
+    },
+    {
+      "Name": "知世",
+      "Text": "那邊，有忍者。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "忍者……？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "忍術研究部，登場！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "佳穗閣下，您平安無事真是太好了！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "因為怪物突然出現的關係，花了一些時間才甩掉它們……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "忍術研究部的各位？\n你們怎麼會在這裡……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "難道是為了對付這些怪物嗎？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "能，能幫上忙的話當然沒問題，不過現在有更緊急的事要傳達……"
+    },
+    {
+      "Name": "月夜",
+      "Text": "是的，我們是受[USERNAME]老師的委託而來！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "還帶回了仁耶大人的口信，忍忍！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "[USERNAME]老師……？\n還有仁耶大人的口信……？"
+    },
+    {
+      "Text": "（約30分鐘前……）"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "喵哈哈……竟然會被抓住，真是沒臉見人呢。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "不愧是百花繚亂的委員長……即便只是影子也不好對付呢。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "菖蒲委員長果然不是省油的燈～"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "怪談差不多該開始蔓延了吧。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "雖然到目前為止還在預料之中……\n不過被這樣綁著，也只能眼睜睜地看著事態發展下去。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "啊啊～要是早知道會變成這樣的話，就該預留一張底牌才對。"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "仁耶閣下！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "仁耶部長，我們來救你了！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "您，您沒事吧，仁耶部長？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……忍術研究部的各位？\n你們怎麼會知道這個地方……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "其實伊樹菜跟夥伴們，剛才就一直跟在您身後了！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "因為老師他在離開之前，特別委託了我們一件事。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "老師委託了你們……？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "是，是的！老師他說如果百花繚亂離開，可能會有人趁機對陰陽部不利，\n所以請我們暗中保護仁耶部長……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "哼哼～暗中守護目標，也是忍者的職責哦！"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "也就是說……剛才菖蒲委員長的影子襲擊我的時候，你們就在一旁看著？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "這，這個嘛……當時我們的確因為太慌張的關係，沒能立刻出手……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "而且就算我們都衝上去，恐怕也無法阻止菖蒲委員長。"
+    },
+    {
+      "Name": "月夜",
+      "Text": "老，老實說，光是看他的動作，我們的腳就動彈不得……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "不，不過正面硬拚並不是唯一的辦法！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "避開不利的局面，等待時機來個出其不意才是忍者的妙計！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "所以我們就一路跟了過來，等待仁耶大人獨自一人的機會！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "不愧是部長！潛行之術真高明！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "來，仁耶大人！現在就跟我們一起離開這裡吧！"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……不，現在已經無處可逃了。"
+    },
+    {
+      "Name": "月夜",
+      "Text": "咦……！？\n為，為什麼呢？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "因為那隻籠罩整個百鬼夜行的眼睛──「一目」。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "一目既能從任何地方看見，也能看穿一切。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "只要那隻眼睛覆蓋著百鬼夜行，這裡發生的所有事情就都在他的視線之下。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "無論任何人想進出百鬼夜行，菖蒲和百物語都會先一步行動。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "甚至連我們正在策劃逃跑的此時此刻，或許都被他看在眼裡也說不定哦？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "我，我們的計畫被看穿了？是，是從哪裡看的？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "那，那邊嗎！？還是這邊！？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "怎，怎麼辦……？\n這樣無論我們怎麼計畫，最終都會被黃昏吞噬……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "月夜閣下，即便如此也不能放棄！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "忍者為了遵守主公的命令，無論多麼危險都要全力以赴！"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "呵呵，說得沒錯。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "雖然我們孤立無援又進退兩難，也不能坐以待斃。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "只要像往常一樣「和諧地」做該做的事就行了。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "忍術研究部的各位。\n麻煩先暫時擱置救我的事，替我向在和樂祭會場的佳穗傳個話吧。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "──祭典無論如何都必須進行下去。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "仁耶大人他……真的這麼說嗎？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "對啊！現在情況這麼混亂，到底要怎麼繼續舉辦和樂祭嘛～！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "不，不過既然是陰陽部部長的命令……或許他有什麼特別的計策？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "仁耶大人還有其他指示嗎？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "這，這個嘛……\n他還說陰陽部的使命是維持百鬼夜行的均衡，\n所以要「和諧地」把該做的事持續下去……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "……我明白了。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "忍術研究部的各位。\n雖然你們想必已經很勞累了……可以再拜託你們一件事嗎？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "是，交給伊樹菜吧！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "那麼，能麻煩各位立刻將節慶運營管理部的靜子同學帶來這裡嗎？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "等節慶部抵達之後……我們就會繼續舉辦和樂祭！"
+    },
+    {
+      "Text": "下一話;四面和樂"
+    }
+  ]
+}

@@ -1,0 +1,2732 @@
+{
+  "TitleJP": "自身の証明",
+  "TitleKR": "자신의 증명",
+  "TitleEN": "Proof of Self",
+  "TitleTH": "พิสูจน์ตัวเอง",
+  "TitleTW": "自我證明",
+  "DescJP": "ミレニアムEXPOの一週間前、誰が代表として参加するのか、ティーパーティーの議論は白熱していた。呼び出しを受けてティーパーティーを訪れた先生は、どちらも譲らないナギサとセイアの仲裁に入る。先生はセイアの肩を持ち、先生の判断だからとナギサは納得する。ミレニアムEXPOでの役割を果たすことで、自身の証明をしようと、セイアはその決意を新たにした。",
+  "DescKR": "호출을 받고 티파티를 찾은 선생님은 언쟁의 원인을 파악한다. 세이아의 파견을 불안해하던 나기사는 선생님을 믿는다는 말을 하며 수긍하고, 세이아는 이번 기회를 통해 자신을 증명하고자 한다.",
+  "DescEN": "Sensei gets a call and goes to the Tea Party to find out what the conflict is. Nagisa, anxious about Seia's trip, eventually concedes, saying she believes in Sensei. Seia hopes to use this opportunity to prove herself.",
+  "DescTH": "คุณครูไปที่สภาน้ำชาตามคำขอแล้ววิเคราะห์สาเหตุของเรื่องวิวาทที่เกิดขึ้น นางิสะกังวลเกี่ยวกับการส่งเซอาไปเป็นตัวแทนนักเรียน แต่เธอก็บอกว่า\nเชื่อใจคุณครูและยอมรับแต่โดยดี ส่วนเซอาก็บอกว่าจะใช้โอกาสนี้ในการ\nพิสูจน์ตนเอง",
+  "DescTW": "接到呼叫而前往茶會的老師了解了爭吵的原因。因為聖亞被派出而一直感到不安的渚，最終說自己會相信老師，並且同意了。聖亞希望可以通過這次的機會證明自己。",
+  "DialogJP": [
+    {
+      "Text": "第1話;自身の証明"
+    },
+    {
+      "Text": "[log]1週間前[/log]"
+    },
+    {
+      "Name": "？？？",
+      "Text": "何故ですか？そもそも、お忘れかもしれませんが――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "忘れるも何も、元は私の管轄。戻るだけさ。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "君はもしかして――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "――「[ruby=ゆりぞの]百合園[/ruby]セイア」にはできない、と。\nそう考えているのかい？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そうではなく……"
+    },
+    {
+      "Text": "[ns] \"……ん？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "セイアちゃん、今日はなんかご機嫌斜め？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "今頃気づいたのか。君らしいといえばそうだが……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "言い方ちょっとキツくない！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "セイアさん落ち着いてください。\nミカさんも、まずはセイアさんのお話を伺いましょう。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "はぁ……これ以上、言の葉を紡ぐ必要があるのかね？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ちゃんとお話しようって決めたばっかだと思うけど？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "お二人とも……これではティーパーティー同士で争っていると思われかねません。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そもそも「争い」になるのかね？\n決定権はナギサにしかないだろう？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "セイアちゃん！"
+    },
+    {
+      "Text": "[ns1] \"な、何事……？\""
+    },
+    {
+      "Text": "[ns2] 音がする方に向かう。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "先生……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "何でここに……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "さっきの聞こえちゃってた……？\nえっと……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "別にケンカしてたわけじゃないよ！ただ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はぁ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "――私がお呼びしたのです。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ナギサが……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんが？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "杞憂であればよかったのですが……念のため。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "本来は自分たちで解決すべきことですが。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……あっ！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "悩んだり、不安がある時は誰かにちゃんと相談する。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……そう約束したもんね？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "なるほど……たしかにそうだね。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "しかし……先生を呼び出してまで説き伏せようとはね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "もー、セイアちゃん、そういう言い方良くないと思う！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "私は本気です。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "これは、セイアさんの身を案じてこそ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "その点、どうかご理解ください……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そうだよ！ナギちゃんはセイアちゃんが心配で言ってるんだよ。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "たしかに普段は、誤解されるようなことばっかするけど……！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさん……。"
+    },
+    {
+      "Text": "[ns3] \"詳しい話を聞いてもいいかな？\""
+    },
+    {
+      "Text": "[ns4] \"お互いにちゃんと理由があるはずだから、話し合おう。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それは私より、セイアさんのほうが適任かと。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "よろしければ、説明をお願いしても？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……意外だね。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "私の知っているナギサはそのような振る舞いをしなかったと記憶しているが。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そういう日だってあると思うよ……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんはセイアちゃんのために言ってるんだし……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃん……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……失言だった。済まない。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "私とて理解はしている。君たちが納得できるような――"
+    },
+    {
+      "Name": "セイア",
+      "Text": "いや、君たちを「安心」させられるような根拠が必要なのだと。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "もちろん、ナギサの言葉を疑うべくもない。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "しかし君たちが私の心配をしてくれるというならば。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "その権利は同様に、私にも有って然るべきじゃないのかい？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "セイアさん……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……済まない、先生。内輪のことで時間を取ってしまった。私から経緯を説明しよう。"
+    },
+    {
+      "Text": "[s5] \"ありがとう、よろしくね。\""
+    },
+    {
+      "Text": "[s6] \"何があったの？\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "……来たる「ミレニアム[ruby=エキスポ]EXPO[/ruby]」に、誰が「トリニティの代表」として参加するかで話が平行線になっていてね。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ミレニアムEXPOは、ミレニアムサイエンススクールが主催する、大規模な技術披露の場だ。此度の開催にあたっては、生徒間交流を目的に、トリニティも参加することになっている。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "そこに……ナギサと私、それぞれ自分が出席すべきだと主張しているのだよ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……最近のナギサの業務量は常の倍以上となっている。\n疲労も蓄積しているだろう。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ただでさえ綱渡りを続けている現状だ。\n外交に回す余力が今の彼女に残っているとは到底思えない。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "そもそも、このような対応は従来であれば私が担っていた。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "もちろん今なお、私はティーパーティーとしての資格も不足なく満たしている。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……だが、ナギサは私の療養と安全を優先すべきだと譲らなくてね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "確かに、セイアさんの状態は良くなりました。ですがそれは相対的なものに過ぎません。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "寛解はしていますが、完治とは言い切れない。\nこれは私個人の感想ではなく、救護騎士団の見解でもあります。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ましてやセイアさんは頼みの綱――予知能力を失っています。\n不測の事態に備えることも叶いません。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "私からすれば、セイアさんは保護対象に他ならないのです。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "またその話かい？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そういった面ではミカさんの方が安心と言えます。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんは私のこと何だと思ってるのかなぁ？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミレニアムサイエンススクール周辺は、比較的治安の良いエリアです。\n犯罪に巻き込まれる可能性も、そう高くはないでしょう。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "しかし摩訶不思議な実験が日常的に行われており、\nそれによる事故が他の学園より頭一つ抜けて多いのも事実。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "万が一、セイアさんが不慮の事故にでも遭ったら……"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ナギサ、君ならば事故に巻き込まれないという保証でもあるのかい？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……私はセイアさんのことを言っているのです。私とは関係ありません。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "それはなんか違くない……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "というか、何で私は候補に居ないの？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさんは現状「トリニティの代表」としての立場に、無理がありますので……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あ……えへへ。そうだった、ごめんね。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "もしミカが向かうことになっていたら……\n今度はどんな問題を起こすのかと、気が気じゃなかっただろうね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。 "
+    },
+    {
+      "Text": "[s7] \"……とりあえず、話し合いができるようになったみたいでよかった。\""
+    },
+    {
+      "Text": "[s8] \"私はセイアの気持ちを応援してあげたいかな。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "先生、嬉しいお言葉ですが今は……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……えっ？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "セイアさんに賛成、ですか？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……セイアさんに？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "先生？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……私に、か？"
+    },
+    {
+      "Text": "[s9] \"私もついていくなら大丈夫じゃないかな。\""
+    },
+    {
+      "Text": "[s10] \"何かあったらすぐに連絡するから。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あれぇ……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "なんか意外……先生呼ばない方がよかったんじゃないかな、これ？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……彼女が受け入れるか次第ではあるが。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ええと……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "なるほど……先生のお考えはそうなのですね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ふぅ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "わかりました。では先生の仰るようにいたしましょう。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……ナギサ？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あっさり認めちゃうんだ！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "本当にいいの……？ナギちゃん。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "みなさんの私に対するイメージは一体……？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "なにも、セイアさんの外出を禁じたいわけではありません。\n身の安全を第一に考えているだけですので。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "正直、先生がセイアさんに同行してくださったとしても、安全が保障されるとは考えにくいです。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ええ、私が心配性というのはよくわかっています。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それに、これまでも幾度となく私たちを助けてくださった先生のことですから。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "今回も先生ならなんとかしてくださる、と――"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そう――信じております。"
+    },
+    {
+      "Text": "[s11] \"ありがとね、ナギサ。\""
+    },
+    {
+      "Text": "[s12] \"きっと、なんとかなるから。心配しないで。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はい……どうか、無事に終わりますよう。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……ナギサ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "先生を信じるのだね……私ではなく。"
+    },
+    {
+      "Text": "[log]現在[/log]"
+    },
+    {
+      "Name": "セイア",
+      "Text": "自身が一番理解しているとも。結局これは――己の問題である、と。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "「預言の力を失った百合園セイアに価値はない」"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……あの二人がそう思っていないことなど、百も承知だ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "しかし、私も所詮は子供。\n感情を完全に制御できるわけではない。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "つまるところ、不完全で脆く……発展途上の存在なのだから。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "然ればこそ、ミレニアムEXPOへの参加は固持せざるを得なかった。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "やり遂げれば、他の誰でもなく……自分で自分を認められる、そう思ったんだ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……私の我儘に、先生を付き合わせてしまったね。"
+    },
+    {
+      "Text": "[s13] \"そんなことないよ。\""
+    },
+    {
+      "Text": "[s14] \"必要な過程だよ。決して悪いことじゃない。\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "また君は……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "そうか。少し気が楽になったよ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……ならば。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "一つ、お願いを聞いてはもらえないだろうか。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "この試練を通して「証明」するために。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……自分の足で立てると、実感するために。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "今回のミレニアムEXPOでの活動を……"
+    },
+    {
+      "Name": "セイア",
+      "Text": "先生、君が別途――"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……到着か。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "ひとまず後で……また説明しよう。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;자신의 증명"
+    },
+    {
+      "Text": "[log]1주일 전[/log]"
+    },
+    {
+      "Name": "???",
+      "Text": "이해가 가지 않는군요. 혹시 잊으신 것 같아 말씀드리자면……."
+    },
+    {
+      "Name": "???",
+      "Text": "원래부터 이런 쪽은 제 일이었습니다. 원래도 나기사보다 제가 더 자주 맡았던 일이에요."
+    },
+    {
+      "Name": "???",
+      "Text": "그런데 이제 와서 제가……."
+    },
+    {
+      "Name": "???",
+      "Text": "……아니, 설마 '이제는' 할 수 없을 거라고 생각하시는 건가요?"
+    },
+    {
+      "Name": "???",
+      "Text": "그런 의미가 아니라는 거 알고 계시잖습니까, 세이아 씨. 저는 단지……."
+    },
+    {
+      "Text": "[ns] \"……?\""
+    },
+    {
+      "Name": "???",
+      "Text": "세, 세이아 쨩? 왜 그래? 엄청 기분 나빠 하고 있잖아. 뭐가 그렇게 기분이 안 좋은 거야?"
+    },
+    {
+      "Name": "???",
+      "Text": "그걸 여태 느끼지도 못했단 말인가요? 그런 점은 미카 다운 일이긴 합니다만……."
+    },
+    {
+      "Name": "???",
+      "Text": "세이아 쨩!?"
+    },
+    {
+      "Name": "???",
+      "Text": "진정하세요, 세이아 씨. 미카 씨도 우선 세이아 씨의 말을 들어보고 이야기하죠."
+    },
+    {
+      "Name": "???",
+      "Text": "이걸 다시 설명하고 있어야 하다니, 지금의 상황이 통탄스럽네요."
+    },
+    {
+      "Name": "???",
+      "Text": "왜 또 말을 그렇게 해……."
+    },
+    {
+      "Name": "???",
+      "Text": "우선 두 분 모두 진정을……. 밖에서 다른 분들이 들으면 저희끼리 분쟁이라도 났다고 오해하겠습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "분쟁의 여지가 있을까요? 나기사가 모두 결정하는 지금의 티파티에서."
+    },
+    {
+      "Name": "???",
+      "Text": "세이아 쨩!!!"
+    },
+    {
+      "Text": "[ns1] \"대체 무슨 일이……?\""
+    },
+    {
+      "Text": "[ns2] 소리가 난 쪽으로 들어간다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "선생님……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "어라? 선생님? 선생님이 어째서 여기에……??"
+    },
+    {
+      "Name": "미카",
+      "Text": "설마 방금 그거 다 들은 거야? 그, 그건 그러니까……. 어……. 그게……."
+    },
+    {
+      "Name": "미카",
+      "Text": "아, 아니! 절대 싸운 거라던가 그런 게 아니고! 우리는 그냥……!!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "하아……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "제가 부탁드렸습니다. 뭔가 일이 이렇게 될 거라고 생각해서요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "나기사……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩이?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "노파심이길 바랐지만, 아쉽게도 제 우려대로 흘러가고 있었습니다. 선생님께서 상황을 정리해 주셨으면 합니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "본래라면 이런 건 저희들 선에서 알아서 해결해야 하는 것이 맞겠지만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……아!"
+    },
+    {
+      "Name": "미카",
+      "Text": "불안하거나 어려울 때에는, 혼자 고민하지 말고 다른 사람이나 어른의 도움을 받는다!"
+    },
+    {
+      "Name": "미카",
+      "Text": "……라고 약속했었지. 우리들!"
+    },
+    {
+      "Name": "세이아",
+      "Text": "과연……. 그렇게 된 거군요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "선생님까지 동원해서 절 설득하려 하다니, 어디까지 진심인 건가요? 나기사."
+    },
+    {
+      "Name": "미카",
+      "Text": "또 저렇게 말하네!!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "저는 늘 진심입니다. 농담이면 농담이라고 처음부터 말씀드렸겠죠."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그리고 이 진심은 세이아 씨를 걱정해서 그러는 거라는 겁니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그 부분만큼은 오해 없이 알아주시기를……. 진심으로 바라고 있답니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "맞아, 맞아! 나기 쨩은 어디까지나 세이아 쨩을 걱정해서 그러는 거라고!"
+    },
+    {
+      "Name": "미카",
+      "Text": "물론 평상시에도 오해 살 만한 짓을 많이 하긴 하지만 말이야!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "당신이 할 말입니까……."
+    },
+    {
+      "Text": "[ns3] \"무슨 일인지 설명해 줄 수 있을까?\""
+    },
+    {
+      "Text": "[ns4] \"모두에게 나름의 이유가 있겠지. 대화를 해보자.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "여기서는 제가 말씀드리는 것보다, 세이아 씨가 직접 말씀드리는 게 조금 더 분위기를 풀기 좋을 거 같군요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "세이아 씨. 괜찮으시다면 상황 설명을 부탁드려도 괜찮을까요?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "……? 이건 의외로군요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "제가 아는 나기사라면 곧바로 설명을 이어서, 상황을 자신에게 유리하게 만들려 할 줄 알았는데요."
+    },
+    {
+      "Name": "미카",
+      "Text": "세이아 쨩, 오늘 좀 너무하지 않아!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "그래도 나기 쨩은 어디까지나 세이아 쨩을 걱정해서……!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……미안해요. 방금은 정말로 제가 지나쳤네요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "발끈해서 나온 말이라, 진심은 아니었어요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "알고 있어요. 분명 나기사도 납득할 만한…… 아니, '안심할 만한' 근거가 필요한 거겠죠."
+    },
+    {
+      "Name": "세이아",
+      "Text": "당신이 저를 걱정하고 있다는 사실은 의심한 적 없습니다. 어떻게……"
+    },
+    {
+      "Name": "세이아",
+      "Text": "…………."
+    },
+    {
+      "Name": "세이아",
+      "Text": "어떻게 제가, 다른 사람도 아닌 당신의 진의를 의심하겠어요. ……그건 있을 수는 없죠."
+    },
+    {
+      "Name": "나기사",
+      "Text": "세이아 씨……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "다만 그걸 감안해도, 지금은 확실히 과하다고 느끼고 있기 때문입니다. 특히나 이번 일에서는 말이죠."
+    },
+    {
+      "Text": "[s5] \"과하다?\""
+    },
+    {
+      "Text": "[s6] \"이번 일에서는?\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "우선 논쟁의 주제에 대해 말씀드리는 것이 좋겠군요. 간단하게 말해, <밀레니엄 엑스포>에 참가할 <트리니티 대표>에 대한 이야기입니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "밀레니엄에서 주최하는 커다란 기술 시연 행사고, 이번 기간에는 저희 학교에서 학생들을 동원해 교류하기로 하였습니다만,"
+    },
+    {
+      "Name": "세이아",
+      "Text": "나기사는 자신이 직접 가야 한다 말하고 있고, 저는 제가 가야 한다고 말하고 있죠."
+    },
+    {
+      "Name": "세이아",
+      "Text": "저의 근거는 나기사가 지금 가지고 있는 과도한 업무량과 피로."
+    },
+    {
+      "Name": "세이아",
+      "Text": "나기사의 근거는 저의 건강 회복과 안전 보장입니다. 여기서 갈리고 있는 것입니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "우선 저는 티파티의 정식 일원으로서 참석 자격에 아무런 문제가 없습니다. 애초에, 예전에도 이런 식의 가벼운 외교 행사는 제가 진행했어요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "지금의 나기사는 트리니티 내부 업무로 이미 과로 상태입니다. 출장 업무까지 다녀왔다간 그 업무조차 마비되겠죠. ……그건 옳지 않아요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "반면 나기사가 내세우는 문제, 즉 우려사항은 제 건강과 안전……입니다만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "비록 세이아 씨의 건강 상태는 분명 전보다 좋아졌습니다만, 확실히 말해 이제야 겨우 '환자' 수준을 벗어난 상태입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "이건 제 주관이 아니라 구호기사단의 객관적인 의견이에요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "또한 저희 같은 티파티 주요 인사들은 언제 어디서, 무슨 의도로 급습이나 공격을 당해도 이상하지 않습니다만,"
+    },
+    {
+      "Name": "나기사",
+      "Text": "세이아 씨의 경우에는 예전과 달리 미리 예상하고 대비할 수도 없게 됐지요. 솔직히 말씀드리자면, 제 입장에서 '보호 대상'입니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "또 그 이야기를……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "어쩔 수 없는 건 어쩔 수 없는 겁니다. 그런 면에서는 오히려 미카 씨가 더 안전하다고 생각하고 있으니까요."
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩은 나를 뭐라고 생각하는 걸까……?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "밀레니엄 사이언스 스쿨은 분명 치안이 안정된 곳에 속합니다. 범죄 쪽의 걱정은 가능성이 낮아요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "가능성이 낮지만, 신기술 개발이 많고 그로 인한 '사고'는 오히려 다른 학교들보다 많은 편입니다. 그 경우는 간과할 수 없어요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "천에 하나, 만에 하나라도 세이아 씨가 그곳에서 불의의 사고에 휘말린다는 건……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "어리석은 이야기입니다. 그렇게 따지면 나기사 본인은 사고에 휘말리지 않는다는 건가요?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……저는 세이아 씨에 대해 이야기하고 있는 겁니다. 제 이야기는 상관없어요."
+    },
+    {
+      "Name": "미카",
+      "Text": "그건 뭔가 좀 말이 안 맞는데……."
+    },
+    {
+      "Name": "미카",
+      "Text": "그러고 보니 나는 왜 후보군에 언급도 없어?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "그야 미카 씨는 현재 '트리니티를 대표해서' 가기에 무리가 있는 입장이다 보니……."
+    },
+    {
+      "Name": "미카",
+      "Text": "아……. 맞다. 에헤헤, 미안……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그 이전에 미카를 보냈다간 어떤 문제를 만들지 몰라, 상정한 적도 없을 겁니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "…………."
+    },
+    {
+      "Text": "[s7] \"결국 서로를 걱정하고 있던 거였네.\""
+    },
+    {
+      "Text": "[s8] \"일단 사이가 좋아 보여서 다행이야.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "선생님, 좋은 말씀 감사합니다만 지금은 그럴 때가……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "선생님께서는 세이아 씨의 의견에 동의하신다고요?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……세이아 씨의 의견이요?"
+    },
+    {
+      "Name": "미카",
+      "Text": "선생님?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "선생님……? 제 의견……을?"
+    },
+    {
+      "Text": "[s9] \"괜찮다면 나도 동행할 테니까.\""
+    },
+    {
+      "Text": "[s10] \"무슨 일이 생긴다면, 내가 바로 말해줄게.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "어라……."
+    },
+    {
+      "Name": "미카",
+      "Text": "뭔가 의외네. 이러면 나기 쨩, 괜히 선생님 부른 게 돼 버렸잖아? 생각이랑 다르게 흘러갔네?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "물론 그녀가 이걸 '받아들일지'는 별개의 문제이지만 말이에요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……음……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그러시군요. 선생님께서는 그렇게 생각하고 계시군요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……하아."
+    },
+    {
+      "Name": "나기사",
+      "Text": "알겠습니다. 그러면 그 부분은, 선생님의 보장까지 있으니 믿고 맡기는 것으로."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……나기사?"
+    },
+    {
+      "Name": "미카",
+      "Text": "웬일이야? 그렇게나 쿨하게!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "뭔가 나기 쨩 답지 않은 즉답이잖아? 괜찮은 거야?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "여러분, 대체 제 이미지는……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "말씀드렸다시피 저는 세이아 씨의 외출을 막으려는 게 아닙니다. 세이아 씨의 안전을 보장하려는 것일 뿐이지요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "솔직히 선생님께서 동의하신다 한들, 그것이 보장된다고는 '생각하기 어려운 게' 사실입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "솔직히 말씀드리죠, 저도 이게 제 불안 증세라는 걸 압니다. 알지만……. 그래요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그래도 선생님이시니, 선생님께서 지금까지 해주신 것들이 있으시니."
+    },
+    {
+      "Name": "나기사",
+      "Text": "이 부분만큼은 '어떻게든 해 주실 것'이라는 믿음으로 덮어 보려는 것입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 선생님을 믿는 것입니다."
+    },
+    {
+      "Text": "[s11] \"고마워, 나기사.\""
+    },
+    {
+      "Text": "[s12] \"아무 일 없을 거야. 걱정하지 마.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "저도 그랬으면 좋겠네요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "나기사……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "제가 아니라, 선생님을 믿는 것……입니까."
+    },
+    {
+      "Text": "[log]현재[/log]"
+    },
+    {
+      "Name": "세이아",
+      "Text": "저도 알고는 있습니다. 결국 이건, 저 스스로의 문제. 일종의 자격지심."
+    },
+    {
+      "Name": "세이아",
+      "Text": "\"예언도 없고 아무런 힘도 없는 유리조노 세이아는 쓸모가 없다.\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "나기사가…… 아니, 두 사람이 그렇게 생각하지 않는다는 것 정도는 저도 알고 있습니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "알고 있지만 저도 역시 아직 어린지라, 제 스스로의 감정을 완전히 통제하지 못하고 있다고 봐야겠죠."
+    },
+    {
+      "Name": "세이아",
+      "Text": "결국 그렇게 나약하고 불완전한……. 그런 존재들이니까요. 저희 모두는."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그래서 사실 더욱더, 이 밀레니엄 엑스포의 참관과 학생 인솔을 하고자 했던 겁니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "뭔가를 해내야…… 다른 누군가가 아닌, 저 스스로가 저를 인정해 줄 것 같았기 때문입니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "다 한심한 어리광이지요. 선생님께서도 알고 계셨겠지만요."
+    },
+    {
+      "Text": "[s13] \"그렇지 않아. 훌륭한 시도라 생각해.\""
+    },
+    {
+      "Text": "[s14] \"꼭 필요한 과정이야. 절대 나쁘지 않아.\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "또 그렇게 말씀해 주시는 건가요?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "감사합니다. 조금은 마음이 가벼워지네요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그러면…… 선생님. 혹시 괜찮으시다면……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "어쩌면 선생님께 조금 무리한 요구가 될 수 있겠지만, 한 가지 부탁을 드려도 괜찮을까요?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "정말로 어리광이고 억지입니다만, 그래도 제가 저 스스로를 받아들이고 인정하기 위해서."
+    },
+    {
+      "Name": "세이아",
+      "Text": "오롯이 저 스스로의 힘으로 할 수 있다는 감각을 직접 느끼기 위해서."
+    },
+    {
+      "Name": "세이아",
+      "Text": "이번 일정, 그러니까 밀레니엄 엑스포에서 제가 활동하는 데에, 선생님께서는……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……따로……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……도착했군요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "우선 내리시죠. 내리신 뒤에……. 상황을 봐서 다시 말씀드리겠습니다."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;Proof of Self"
+    },
+    {
+      "Text": "[log]1 Week Ago[/log]"
+    },
+    {
+      "Name": "???",
+      "Text": "...Incomprehensible! In case you need a reminder..."
+    },
+    {
+      "Name": "???",
+      "Text": "...this sort of task has always been MY responsibility. I have far more experience with it than Nagisa does."
+    },
+    {
+      "Name": "???",
+      "Text": "So why are you saying that...?"
+    },
+    {
+      "Name": "???",
+      "Text": "...Wait, do you not think I have what it takes anymore?"
+    },
+    {
+      "Name": "???",
+      "Text": "You know I don't mean it like that, Seia. I'm just..."
+    },
+    {
+      "Text": "[ns] \"...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "S-Seia? What's wrong? You're quite upset. Why?"
+    },
+    {
+      "Name": "???",
+      "Text": "Must you ask? You never change, do you, Mika?"
+    },
+    {
+      "Name": "???",
+      "Text": "Seia?!"
+    },
+    {
+      "Name": "???",
+      "Text": "Easy, Seia. Mika, let's hear her out before we say anything more."
+    },
+    {
+      "Name": "???",
+      "Text": "Oh, wonderful, let me explain it all over again..."
+    },
+    {
+      "Name": "???",
+      "Text": "Again, what is going on with this attitude of yours?"
+    },
+    {
+      "Name": "???",
+      "Text": "Both of you, please calm down. If anyone hears this, they might misunderstand and think we're having an argument."
+    },
+    {
+      "Name": "???",
+      "Text": "Oh, but what's there to argue about? Apparently, Nagisa simply decides everything now."
+    },
+    {
+      "Name": "???",
+      "Text": "Seia!!"
+    },
+    {
+      "Text": "[ns1] \"What's going on in there?\""
+    },
+    {
+      "Text": "[ns2] Follow the voices."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "Sensei...?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Huh? Sensei? What are you doing here...?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "You, um, did you happen to overhear that? We were just..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "W-Well, we weren't fighting! Not at all! We just..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I called Sensei here. I thought we might need help."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Nagisa...?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "YOU did?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I was hoping it wouldn't come to this, but seeing as it has, we clearly need a mediator. Who better than Sensei?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Normally, we'd settle this ourselves, but..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...Ah!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "\"When you're worried, don't worry alone, get help from a friend or an adult.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "That's the rule we set for ourselves, right?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "...Very well, I see it all clearly now."
+    },
+    {
+      "Name": "Seia",
+      "Text": "You called in Sensei to bolster yourself and have me sidelined, didn't you, Nagisa?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "There you go again!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Listen to me. I'm very serious."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And I'm serious because I'm worried about you, Seia."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "If nothing else, I sincerely hope you can understand that."
+    },
+    {
+      "Name": "Mika",
+      "Text": "That's right, that's right! Nagi's only being pushy because she's worried about you, Seia!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sometimes she's unclear and gets misunderstood, but NOT this time!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You're one to talk..."
+    },
+    {
+      "Text": "[ns3] \"Can someone tell me what's happening?\""
+    },
+    {
+      "Text": "[ns4] \"I'm sure everyone here has their reasons. Let's talk.\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Well, I suppose we might as well let Seia explain."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Seia, if you wouldn't mind..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...Huh. How uncharacteristic of you."
+    },
+    {
+      "Name": "Seia",
+      "Text": "I'd expected you to blather to Sensei right away, and color this whole talk with your own opinions."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Seia, that's too far."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Again, Nagi is only doing this because she's worried about you!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Nagi..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...I'm sorry. That WAS too far."
+    },
+    {
+      "Name": "Seia",
+      "Text": "I lost my temper. I truly didn't mean it."
+    },
+    {
+      "Name": "Seia",
+      "Text": "And I understand. Nagisa, you wish to be reassured — well, convinced — that you needn't worry about me at all."
+    },
+    {
+      "Name": "Seia",
+      "Text": "I never once doubted that your worries were sincere. How could I?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Your sincerity is well beyond question, and always has been."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Seia..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "But even so, I feel you've overstepped. Especially given the specific issue at hand."
+    },
+    {
+      "Text": "[s5] \"Overstepped?\""
+    },
+    {
+      "Text": "[s6] \"What issue?\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "Let me explain the topic of debate. Put simply, we're determining which of us will represent the Tea Party at the Millennium Expo."
+    },
+    {
+      "Name": "Seia",
+      "Text": "It's a grand demonstration of technology, hosted by Millennium, and we agreed to hold an exchange with students from our school."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Nagisa has nominated herself, and I've nominated myself in turn."
+    },
+    {
+      "Name": "Seia",
+      "Text": "My main concern is her workload and fatigue."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Hers is my health and safety. And so, we have a conflict to resolve."
+    },
+    {
+      "Name": "Seia",
+      "Text": "To begin with, I have no trouble representing the Tea Party. I've facilitated many such diplomatic events in the past."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Nagisa is already overworked with Trinity's internal affairs. Were she to leave now, she would have to put too much on hold, and that would be...counterproductive."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Conversely, as I said, Nagisa has raised the issue of my health and safety. But..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Her health has improved, a great deal, but she's barely out of \"patient\" status."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And that is not my personal opinion, it's an objective statement from the Remedial Knights."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "For all of us in the Tea Party, the constant threat of attack is a fact of life..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Seia can no longer predict and prepare for them like she used to. To be honest, I think she needs protection."
+    },
+    {
+      "Name": "Seia",
+      "Text": "There it is again..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "There's no point in sugarcoating it. Even Mika can defend herself better than you can now."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Just what is that supposed to mean...?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Now, I concede that Millennium Science School is a safer place than most, and an attack there is unlikely."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "That being said, their technology is often unstable, and so they're prone to accidents. We can't ignore that risk."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "If, by some stroke of bad luck, Seia were caught in such an accident..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "And why would your luck be any better than mine?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...I'm talking about you, Seia. It has nothing to do with me."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Something doesn't quite make sense there..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "By the way, why am I not even being considered for this?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Well, Mika, you're in a bit of a difficult position to represent Trinity at the moment..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ah... Right. Ehehe, sorry..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Sending Mika is a risk neither of us are willing to take."
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Text": "[s7] \"So you two are both worried about each other.\""
+    },
+    {
+      "Text": "[s8] \"It sounds like you really care.\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "That's kind of you, Sensei, but now's not the time for..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...What?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You agree with Seia?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...With Seia, really?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sensei?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "You agree with me?"
+    },
+    {
+      "Text": "[s9] \"What if I were to come along?\""
+    },
+    {
+      "Text": "[s10] \"I could let you know right away if something happens.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Huh..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "That was unexpected. I suppose calling Sensei didn't quite go the way you thought, did it, Nagi?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "Although she has yet to agree..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Hmm..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I see. So that's your proposal, Sensei."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Understood. If you say you can keep her safe, then I will trust you."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...Nagisa?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "You're so agreeable all of a sudden. What happened?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Just making up your mind instantly like that? Are you okay?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "What sort of person do you think I am, exactly?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I already said I don't wish to stop her from going. I only wish to guarantee her safety."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And honestly, even with Sensei there, her safety can't be \"guaranteed,\" not completely."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Of course, much of this comes from my own anxiety. I know that. But still..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Well, regardless, we all know Sensei has a long history of success."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And my faith in that success outweighs my anxiety, as much as anything can."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Yes. Sensei, I believe in you."
+    },
+    {
+      "Text": "[s11] \"Thank you, Nagisa.\""
+    },
+    {
+      "Text": "[s12] \"Don't worry. I won't let anything go wrong.\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You carry all my hopes with you."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Nagisa, you..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...You trust Sensei...but not me."
+    },
+    {
+      "Text": "[log]Back in the Present[/log]"
+    },
+    {
+      "Name": "Seia",
+      "Text": "I know this is my own internal problem. A lack of self-esteem, in a way."
+    },
+    {
+      "Name": "Seia",
+      "Text": "\"What good is Seia if she can't predict anything? She's useless now!\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "I don't think Nagisa would ever actually say that, or even think it. I don't think either of them would."
+    },
+    {
+      "Name": "Seia",
+      "Text": "But even though I know that in my head...well, I'm still immature in some ways, particularly when it comes to my emotions."
+    },
+    {
+      "Name": "Seia",
+      "Text": "We all have our gaps and flaws, I suppose."
+    },
+    {
+      "Name": "Seia",
+      "Text": "That's why I wanted this Millennium Expo job, to lead students there."
+    },
+    {
+      "Name": "Seia",
+      "Text": "I feel like I need to accomplish something, to make myself acknowledge my own worth."
+    },
+    {
+      "Name": "Seia",
+      "Text": "But it's all just a tantrum, isn't it, Sensei?"
+    },
+    {
+      "Text": "[s13] \"Not at all. You're helping yourself heal.\""
+    },
+    {
+      "Text": "[s14] \"It's all part of the process. There's nothing wrong with it.\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "Always so encouraging."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Thank you. That does make me feel a bit better."
+    },
+    {
+      "Name": "Seia",
+      "Text": "In that case, Sensei...if it sits well with you..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...might I ask for one more favor?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "This may be childish of me, and certainly stubborn, but if I wish to fully embrace and acknowledge myself..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...to experience my own competence and confidence..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...while I'm out and about at the Millennium Expo, could you possibly..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "...not follow m—"
+    },
+    {
+      "Name": "Seia",
+      "Text": "...We're here."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Well, on with it, then. We'll speak again soon, no doubt."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;พิสูจน์ตัวเอง"
+    },
+    {
+      "Text": "[log]1 สัปดาห์ก่อน[/log]"
+    },
+    {
+      "Name": "???",
+      "Text": "ไม่เห็นเข้าใจเลยค่ะ ฉันจะขอพูดเพื่อเตือนความจำอีกครั้งนะคะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ปกติแล้วงานแบบนี้คืองานของฉันค่ะ เดิมทีแล้วฉันเคยรับหน้าที่ในงานแบบนี้มากกว่านางิสะอีกนะคะ"
+    },
+    {
+      "Name": "???",
+      "Text": "แต่ตอนนี้กลายเป็นว่า..."
+    },
+    {
+      "Name": "???",
+      "Text": "ไม่สิ... หรือว่าคิดว่า 'จากนี้ไป' ฉันจะทำไม่ได้แล้วคะ?"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณเซอา คุณก็รู้ไม่ใช่เหรอคะว่าฉันไม่ได้หมายความแบบนั้นน่ะ? ฉันก็แค่..."
+    },
+    {
+      "Text": "[ns] \"...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "ซะ... เซอาจัง? เป็นอะไรเหรอ? ทำไมดูอารมณ์เสียจังเลยล่ะ? มีเรื่องอะไรทำให้อารมณ์ไม่ดีเหรอ?"
+    },
+    {
+      "Name": "???",
+      "Text": "เพิ่งจะมารู้สึกได้เอาตอนนี้เหรอคะ? แต่ก็นะ ก็สมกับที่เป็นมิกะแล้วละค่ะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "เซอาจัง!?"
+    },
+    {
+      "Name": "???",
+      "Text": "ใจเย็นๆ ก่อนค่ะ คุณเซอา คุณมิกะก็ฟังคุณเซอาก่อนแล้วค่อยพูดนะคะ"
+    },
+    {
+      "Name": "???",
+      "Text": "ฉันต้องอธิบายเรื่องนี้อีกครั้งเหรอคะ ฉันละผิดหวังกับสถานการณ์นี้จังเลยค่ะ"
+    },
+    {
+      "Name": "???",
+      "Text": "พูดแบบนั้นอีกแล้ว..."
+    },
+    {
+      "Name": "???",
+      "Text": "ทั้งสองคนใจเย็นๆ ก่อนนะคะ... ถ้าใครคนอื่นมาได้ยินเข้า คงเข้าใจผิดว่าพวกเรากำลังโต้เถียงกันเอง\nแล้วค่ะ"
+    },
+    {
+      "Name": "???",
+      "Text": "มีโอกาสโต้เถียงด้วยเหรอคะ? สภาน้ำชาตอนนี้น่ะ นางิสะเป็นคนตัดสินใจทุกอย่างเลยไม่ใช่เหรอ"
+    },
+    {
+      "Name": "???",
+      "Text": "เซอาจัง!!!"
+    },
+    {
+      "Text": "[ns1] \"เกิดอะไรขึ้นเนี่ย...?\""
+    },
+    {
+      "Text": "[ns2] เดินไปตามเสียง"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "...?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "คุณครู...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ๋? คุณครู? ทำไมคุณครูถึงมาอยู่ตรงนี้...??"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อย่าบอกนะว่าเมื่อกี้ได้ยินหมดเลย? ระ... เรื่องนั้นน่ะ คือว่า... อ่า... คือว่า..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... ไม่ใช่นะ! เราไม่ได้ทะเลาะหรืออะไรกันเลย! พวกเราก็แค่...!!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันเป็นคนขอร้องให้คุณครูมาเองค่ะ พอดีฉันมีความรู้สึกว่าเรื่องจะออกมาเป็นอย่างนี้น่ะค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "นางิสะ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังน่ะเหรอ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันหวังว่ามันจะเป็นแค่ความกังวลที่เปล่าประโยชน์ แต่ก็น่าเสียดายที่มันออกมาเป็นอย่างที่กังวลเอาไว้ ฉันเลยอยากให้คุณครูช่วยจัดการสถานการณ์ตอนนี้หน่อยค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แม้ว่าปกติแล้วเรื่องแบบนี้พวกฉันจะเป็นคนหาทางออกกันเองก็เถอะค่ะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ๊ะ...!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เวลาวิตกกังวลหรือเจอเรื่องยากลำบาก ก็อย่ากังวลอยู่คนเดียว แต่ให้รับความช่วยเหลือจากคนอื่น หรือจากผู้ใหญ่!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "พวกเรา... เราสัญญากันไว้อย่างนั้นนี่เนอะ!"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ก็เลยเป็นอย่างนี้สินะคะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ถึงกับเรียกคุณครูมาช่วยโน้มน้าวเลยเหรอ ทำแบบนี้ถือว่าจริงใจแล้วเหรอคะ นางิสะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "พูดแบบนี้อีกแล้ว!!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันจริงใจเสมอค่ะ ถ้าฉันล้อเล่น ฉันก็บอกว่าล้อเล่นไปตั้งแต่แรกแล้วค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "และที่ฉันทำอย่างจริงใจแบบนี้ ก็เพราะว่าฉันเป็นห่วงคุณเซอาค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันหวังจากใจจริงว่า... คุณเซอาจะไม่เข้าใจผิดในส่วนนี้นะคะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ใช่แล้วละ ใช่แล้ว! ที่นางิจังทำแบบนี้ก็เพราะเป็นห่วงเซอาจังนะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถึงแม้ว่าปกติแล้วจะทำอะไรให้น่าเข้าใจผิดอยู่บ่อยๆ ก็เถอะ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นั่นคือสิ่งที่พูดออกจากปากคุณเหรอคะ..."
+    },
+    {
+      "Text": "[ns3] \"อธิบายกับครูหน่อยได้มั้ยว่าเกิดอะไรขึ้น?\""
+    },
+    {
+      "Text": "[ns4] \"ไหนใครช่วยอธิบายได้มั้ยว่านี่มันเรื่องอะไรกัน?\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันว่าถ้าให้คุณเซอาบอกด้วยตัวเอง บรรยากาศน่าจะดีกว่าให้ฉันพูดนะคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณเซอา ช่วยอธิบายสถานการณ์ให้คุณครูฟังหน่อยได้มั้ยคะ?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "น่าแปลกใจนะคะ...?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันคิดว่านางิสะจะอธิบายต่อ เพื่อทำให้สถานการณ์เป็นประโยชน์ต่อตัวเองเสียอีกค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เซอาจัง วันนี้พูดแรงไปแล้วนะ!?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แต่ถึงยังไงนางิจังก็เป็นห่วงเซอาจังนะ ก็เลย...!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจัง..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ขอโทษค่ะ... เมื่อกี้ฉันพูดแรงเกินไปจริงๆ ค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันพูดไปแบบนั้นเพราะโกรธน่ะค่ะ นั่นไม่ได้มาจากใจจริงของฉันหรอก"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันรู้ดีค่ะ ฉันรู้ว่านางิสะต้องการหลักฐานที่เชื่อถือได้... ไม่สิ ต้องเรียกว่าหลักฐานที่จะ 'วางใจได้' มากกว่า"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันไม่เคยสงสัยในสิ่งที่คุณเป็นห่วงฉันเลยค่ะ คุณก็ไม่ใช่ใครอื่น..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันจะไปสงสัยในความตั้งใจจริงของคุณได้ยังไงกันคะ เรื่องแบบนั้นไม่มีทางเกิดขึ้นหรอกค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณเซอา..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แต่ถึงฉันจะคำนึงถึงเรื่องนั้น แต่ฉันก็รู้สึกว่ามันเกินไปจริงๆ โดยเฉพาะในเรื่องนี้น่ะค่ะ"
+    },
+    {
+      "Text": "[s5] \"เกินไป?\""
+    },
+    {
+      "Text": "[s6] \"โดยเฉพาะในเรื่องนี้?\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันควรต้องบอกหัวข้อของเรื่องที่เรากำลังถกเถียงกันอยู่ตอนนี้ก่อนนะคะ พูดง่ายๆ ก็คือ เรากำลัง\nคุยกันเรื่อง <ตัวแทนของทรีนิตี้> ที่จะไปเข้าร่วมงาน <มิลเลเนียม เอ็กซ์โป> ค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "งานนั้นเป็นงานสาธิตเทคโนโลยีขนาดใหญ่ที่มิลเลเนียมเป็นเจ้าภาพจัดขึ้น และเราจะมีการส่งนักเรียน\nไปดูงานนั้นในตลอดระยะเวลางานด้วยค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "นางิสะบอกว่าตัวเองควรเป็นคนที่ต้องไป ส่วนฉันก็คิดว่าฉันควรต้องไปค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "เหตุผลของฉันก็คือภาระงานและความเหนื่อยล้าที่มากเกินไปของนางิสะในตอนนี้"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ส่วนเหตุผลของนางิสะก็คือเรื่องฟื้นฟูสุขภาพกับความปลอดภัยของฉัน เราเห็นต่างกันในส่วนนี้ละค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ในฐานะของสมาชิกอย่างเป็นทางการของสภาน้ำชา ฉันคิดว่าตัวเองไม่มีปัญหาในเรื่องคุณสมบัติการ\nเข้าร่วมค่ะ ส่วนงานที่เกี่ยวกับวิเทศสัมพันธ์ในลักษณะนี้ ที่ผ่านมาฉันก็เคยทำมาแล้วด้วย"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ตอนนี้แค่งานภายในของทรีนิตี้ก็ทำให้นางิสะงานล้นมือจนเหนื่อยแล้วค่ะ ถ้าต้องออกไปทำงาน\nข้างนอกอีก งานภายในของโรงเรียนตอนนี้ก็คงเป็นอัมพาต... ถ้าจะทำแบบนั้นก็ไม่ถูกหรอกค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ในทางกลับกัน ปัญหาที่นางิสะเสนอ หรือก็คือความกังวลของนางิสะ... ก็คือเรื่องสุขภาพ และความปลอดภัยของฉันค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถึงแม้ตอนนี้สุขภาพของคุณเซอาจะดีขึ้นกว่าแต่ก่อนอย่างเห็นได้ชัด แต่ถ้าจะพูดให้ชัดเจน ก็ต้องบอกว่าเพิ่งจะหลุดออกจากการเป็น 'คนไข้' เองค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นี่ไม่ใช่ความคิดเห็นส่วนตัวของฉัน แต่เป็นความคิดเห็นที่เป็นกลางจากชมรมอัศวินบรรเทาทุกข์ค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นอกจากนี้ การที่บุคคลสำคัญในสภาน้ำชาอย่างพวกเราจะถูกบุกจู่โจมหรือโจมตีไม่ว่าที่ไหน เมื่อไร และด้วยเรื่องอะไรก็ไม่นับว่าเป็นเรื่องแปลก"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่ถ้าเป็นคุณเซอาละก็ ตอนนี้เราคงคาดการณ์หรือเตรียมการล่วงหน้าไม่ได้เหมือนเมื่อก่อน ถ้าจะให้พูดตรงๆ ละก็ ฉันมองว่าคุณเซอาคือ 'คนที่ต้องได้รับการคุ้มครอง' ค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "พูดเรื่องนี้อีกแล้ว..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เรื่องที่ช่วยไม่ได้ก็ต้องทำใจยอมรับค่ะ ถ้าพิจารณาในเรื่องนั้น ฉันว่าคุณมิกะปลอดภัยกว่าค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังคิดยังไงกับฉันกันเนี่ย...?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แน่นอนว่าโรงเรียนวิทย์มิลเลเนียมก็อยู่ในสถานที่ที่ปลอดภัยค่ะ เรื่องอาชญากรรมก็แทบไม่ต้องกังวล\nเลยด้วย"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่ถึงยังไง ที่นั่นก็มีการพัฒนาเทคโนโลยีใหม่ๆ อยู่บ่อยๆ จึงเกิด 'อุบัติเหตุ' จากการพัฒนามากกว่า\nในโรงเรียนอื่นค่ะ เรื่องนี้เรามองข้ามไม่ได้หรอกค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ต่อให้จะมีโอกาสแค่ 0.0001% แต่ถ้าคุณเซอาไปข้องเกี่ยวกับอุบัติเหตุที่ไม่คาดฝันที่โรงเรียนนั้น\nขึ้นมาละก็..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "เหลวไหลค่ะ ถ้าจะพูดเรื่องนี้ หมายความว่าตัวเองไม่เคยไปข้องเกี่ยวกับอุบัติเหตุอะไรเลยเหรอคะ นางิสะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันกำลังพูดถึงเรื่องของคุณเซอาค่ะ... ส่วนเรื่องของฉันมันไม่เกี่ยวค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้างั้นมันก็ไม่ถูกสิ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "จะว่าไป ทำไมฉันถึงไม่ถูกเสนอเป็นตัวแทนบ้างล่ะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นั่นเป็นเพราะตอนนี้ยังยากที่จะให้คุณมิกะไปเป็น 'ตัวแทนของทรีนิตี้' ยังไงล่ะคะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ่า... จริงสินะ แหะๆๆ ขอโทษนะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ที่ฉันไม่เคยเสนอชื่อของมิกะ ก็เพราะห่วงว่ามิกะจะไปสร้างปัญหาอะไรน่ะค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "..."
+    },
+    {
+      "Text": "[s7] \"สุดท้ายทุกคนก็เป็นห่วงกันเองสินะ\""
+    },
+    {
+      "Text": "[s8] \"ค่อยยังชั่วนะที่เห็นทุกคนเป็นห่วงกัน\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ขอบคุณสำหรับคำพูดดีๆ นะคะคุณครู แต่ตอนนี้ฉันว่าไม่ใช่เวลามาชื่นชม..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณครูบอกว่าเห็นด้วยกับความเห็นของคุณเซอางั้นเหรอคะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ความเห็นของคุณเซอาเนี่ยนะคะ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "คุณครู?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "คุณครู...? เห็นด้วยกับความคิดเห็น... ของฉันเหรอ?"
+    },
+    {
+      "Text": "[s9] \"ถ้านางิสะไม่ว่าอะไร ครูจะติดตามไปด้วยเอง\""
+    },
+    {
+      "Text": "[s10] \"ถ้าเกิดเรื่องอะไรจะรีบบอกเลย\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ๋..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "คิดไม่ถึงเลยนะ ถ้างั้นแบบนี้นางิจังก็เรียกคุณครูมาเสียเที่ยวน่ะสิ? ไม่เป็นไปอย่างที่คิดแฮะ?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แต่อีกปัญหาหนึ่งก็คือ แล้วเธอคนนั้นจะ 'ยอมรับ' ข้อเสนอนี้หรือเปล่าค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "อย่างนี้สินะคะ คุณครูคิดอย่างนี้สินะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เข้าใจแล้วค่ะ ในเมื่อคุณครูรับประกันในส่วนนั้น ฉันก็จะเชื่อและยอมให้ไปค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "นางิสะ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะไรกันเนี่ย? ยอมง่ายๆ แบบนี้เลยเหรอ!?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "รีบตอบในทันทีแบบนี้ไม่สมกับเป็นนางิจังเลยนะ? แบบนี้ไม่เป็นอะไรเหรอ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ทุกคนคะ ไม่ทราบว่ามองฉันเป็นคนยังไง..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "อย่างที่ฉันบอกไปว่าฉันไม่ได้พยายามจะห้ามไม่ให้คุณเซอาออกไปข้างนอกค่ะ ฉันก็แค่คำนึงถึงความ\nปลอดภัยของคุณเซอาน่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "พูดตามตรงว่าต่อให้คุณครูจะเห็นด้วยกับคุณเซอา แต่มันก็ยัง 'ยากที่จะคิด' ว่าจะไม่เกิดเหตุอะไรค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันจะพูดตามตรงค่ะ ฉันรู้ว่านี่คืออาการวิตกกังวลของฉันเอง ฉันรู้ค่ะ... แต่ก็"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่ในเมื่อคนที่จะไปด้วยคือคุณครู และที่ผ่านมาคุณครูก็ช่วยเหลือพวกเราหลายอย่าง"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "งั้นฉันก็จะพยายามปกปิดความกังวลด้วยความเชื่อที่ว่า 'ไม่ว่ายังไงคุณครูก็จะจัดการให้ได้'"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ... ฉันเชื่อคุณครูค่ะ"
+    },
+    {
+      "Text": "[s11] \"ขอบใจนะ นางิสะ ครูจะไม่ให้เกิดเรื่องอะไรหรอก\""
+    },
+    {
+      "Text": "[s12] \"ไม่ต้องห่วงนะ จะไม่มีเรื่องอะไรหรอก\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันเองก็หวังว่าจะเป็นอย่างนั้นค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "นางิสะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ไม่ได้เป็นเพราะเชื่อใจฉัน แต่เป็นเพราะเชื่อใจคุณครู... อย่างนั้นหรอกเหรอคะ?"
+    },
+    {
+      "Text": "[log]ปัจจุบัน[/log]"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันเองก็รู้ค่ะว่าสุดท้ายแล้วนี่คือปัญหาของฉันเอง มันคือปมอย่างหนึ่งน่ะค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "\"ยูริโซโนะ เซอาที่พยากรณ์ไม่ได้และไม่มีพลังอะไรน่ะเป็นคนไร้ประโยชน์\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันพอจะรู้ดีค่ะว่านางิสะ... ไม่สิ ฉันพอจะรู้ดีว่าทั้งสองคนไม่ได้คิดแบบนั้นค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันรู้ดีค่ะ แต่เพราะฉันเองและทุกคนก็ยังเด็ก ก็เลยยังควบคุมอารมณ์ของตัวเองทั้งหมดไม่ได้"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "สุดท้ายพวกฉันก็เลยทั้งอ่อนแอและบกพร่อง... พวกฉันทุกคนก็เป็นแบบนี้ละค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ที่จริงเพราะอย่างนั้น ฉันก็เลยอยากเป็นผู้นำนักเรียนไปดูงานมิลเลเนียม เอ็กซ์โปครั้งนี้ค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันรู้สึกว่าต้องทำอะไรสักอย่าง... ไม่ใช่เพื่อให้ใครคนอื่น แต่เป็นเพื่อให้ตัวฉันเองเกิดความยอมรับใน\nตัวเองค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "เป็นการทำตัวเหมือนเด็กที่น่าสมเพชใช่มั้ยล่ะคะ ฉันรู้ว่าคุณครูก็รู้ดีค่ะ"
+    },
+    {
+      "Text": "[s13] \"ไม่หรอก ครูว่าเป็นการกระทำที่ยอดเยี่ยมเลยนะ\""
+    },
+    {
+      "Text": "[s14] \"นี่คือกระบวนการที่ต้องเกิดอยู่แล้ว ไม่มีอะไรแย่หรอก\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "พูดอย่างนี้กับฉันอีกแล้วเหรอคะ?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ขอบคุณค่ะ แบบนี้ฉันก็โล่งใจขึ้นมาหน่อยน่ะค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ถ้างั้น... คุณครูคะ ถ้าคุณครูไม่ว่าอะไร..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "บางทีนี่อาจเป็นการขอที่มากเกินไปก็ได้ แต่ฉันขอรบกวนคุณครูสักอย่างได้มั้ยคะ?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันทั้งทำตัวเหมือนเด็กและเอาแต่ใจ แต่เพื่อให้ฉันยอมรับในตัวเองได้"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "และเพื่อให้รู้สึกได้เองว่าฉันคนนี้สามารถทำอะไรด้วยตัวเองได้"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ในระหว่างที่ฉันไปเป็นผู้นำนักเรียนที่ไปดูงานในมิลเลเนียม เอ็กซ์โปครั้งนี้ ขอให้คุณครู..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แยก..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มาถึงแล้วสินะคะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ลงกันก่อนเถอะค่ะ ไว้ลงไปแล้ว... ฉันจะพิจารณาสถานการณ์แล้วอธิบายให้ฟังอีกรอบค่ะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;自我證明"
+    },
+    {
+      "Text": "[log]一週前[/log]"
+    },
+    {
+      "Name": "???",
+      "Text": "我實在是無法理解。\n請容我提醒你一下……"
+    },
+    {
+      "Name": "???",
+      "Text": "這種事本來就是由我負責，而且我在這方面的經驗也更豐富。"
+    },
+    {
+      "Name": "???",
+      "Text": "但我現在……"
+    },
+    {
+      "Name": "???",
+      "Text": "……等等，你該不會認為「現在」的我已經做不到了吧？"
+    },
+    {
+      "Name": "???",
+      "Text": "你明明很清楚我不是那個意思，聖亞同學。\n我只是……"
+    },
+    {
+      "Text": "[ns] 「……？」"
+    },
+    {
+      "Name": "???",
+      "Text": "聖，聖亞醬你怎麼了？為什麼那麼生氣？\n有什麼事惹你不高興了嗎？"
+    },
+    {
+      "Name": "???",
+      "Text": "你現在才發覺嗎？\n雖然這的確很有你的風格……"
+    },
+    {
+      "Name": "???",
+      "Text": "聖亞醬！？"
+    },
+    {
+      "Name": "???",
+      "Text": "請你先冷靜一點，聖亞同學。\n彌香同學你也是，我們先聽聽聖亞同學怎麼說吧。"
+    },
+    {
+      "Name": "???",
+      "Text": "竟然要我重新解釋一遍，現在的狀況簡直令人痛心疾首。"
+    },
+    {
+      "Name": "???",
+      "Text": "為什麼要把話說得這麼嚴重……"
+    },
+    {
+      "Name": "???",
+      "Text": "請你們兩位都先冷靜下來……\n要是被外面的人聽到，可能會以為我們之間起了什麼紛爭的。"
+    },
+    {
+      "Name": "???",
+      "Text": "我們怎麼可能會起什麼紛爭呢？\n現在的茶會不都是你說了算嗎？"
+    },
+    {
+      "Name": "???",
+      "Text": "聖亞醬！！！"
+    },
+    {
+      "Text": "[ns1]「到底發生了什麼事……？」"
+    },
+    {
+      "Text": "[ns2] 往聲音傳來的方向走去"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "老師……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "咦？老師？老師怎麼會在這裡……？？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "難道你剛才都聽到了嗎？\n其，其實我們……呃……那個……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不，不是！我們絕對沒有在吵架！剛才只是……！"
+    },
+    {
+      "Name": "渚",
+      "Text": "唉……"
+    },
+    {
+      "Name": "渚",
+      "Text": "是我拜託老師過來的。\n因為我早就料想到事情會變成這樣。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "是渚……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "是渚醬你？"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然我也希望只是我多慮了，可惜事情還是朝著我擔心的方向發展。\n還請老師替我們釐清一下情況。"
+    },
+    {
+      "Name": "渚",
+      "Text": "儘管這種事情，本來應該由我們自己私下處理的……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……啊！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "但是在感到不安徬徨的時候，不要獨自一個人煩惱，要積極尋求他人或大人的幫助！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……我們曾經這樣承諾過，對吧！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "原來如此……確實有這麼回事。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "竟然不惜請出老師來說服我，你這麼做究竟有幾分是真心的呢，渚？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "你怎麼又這樣說話啦！"
+    },
+    {
+      "Name": "渚",
+      "Text": "我一直都是真心的。\n如果要開玩笑的話，我肯定會事先告訴你們。"
+    },
+    {
+      "Name": "渚",
+      "Text": "況且我這麼做的目的，是出於對聖亞同學的擔心。"
+    },
+    {
+      "Name": "渚",
+      "Text": "唯有這點，我由衷地盼望……你不要誤會我。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "沒錯沒錯！渚醬無論什麼時候都一直擔心著聖亞醬哦！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "雖然他平時經常做一些會讓人誤會的舉動就是了！"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學沒資格這麼說吧……"
+    },
+    {
+      "Text": "[ns3]「可以告訴我究竟發生了什麼事嗎？」"
+    },
+    {
+      "Text": "[ns4]「我想你們一定都有各自的理由，大家一起好好溝通吧。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "這種時候跟我相比，或許由聖亞同學親自說明，更能夠緩和氣氛吧。"
+    },
+    {
+      "Name": "渚",
+      "Text": "聖亞同學。\n如果你願意的話，可以麻煩你說明事情的來龍去脈嗎？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……？\n這還真是出乎我的預料。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我認識的渚應該會搶著說明原委，並將情況描述成對自己有利的局面才對。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "聖亞醬，你今天會不會有點太過分了！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬再怎麼說也是因為擔心你才會……！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……對不起，我確實說得太過分了。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "剛才是我一時激動，那並不是我的本意。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我知道你也需要一個能夠接受……不，是能「讓你安心」的保證。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我從來沒有懷疑過你對我的關心。\n我怎麼……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "…………"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我怎麼會懷疑你的真心呢……那是絕對不可能的。"
+    },
+    {
+      "Name": "渚",
+      "Text": "聖亞同學……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "不過即使如此，我還是認為你做得太超過了。\n尤其這次的事更是如此。"
+    },
+    {
+      "Text": "[s5]「太超過？」"
+    },
+    {
+      "Text": "[s6]「這次的事？」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "還是先向老師說明我們在爭論什麼吧。\n簡單來說，我們正在討論該由誰來擔任參加「千年博覽會」的「三一代表」。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "千年博覽會是千年科學學園主辦的巨型技術展覽活動，\n而我們學園也會派學生去參加博覽會，藉此和各校展開交流。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "渚主張由自己親自出面，而我則主張該由我前往。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我這麼主張的目的，是因為渚目前負擔的龐大工作量，已經到了分身乏術的地步。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "而他則是擔心我的復原情況與人身安全。\n這就是我們意見分歧的原因。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "身為茶會的正式成員，我自然具備代表三一學園的資格。\n而且過往這種相對輕鬆的外交活動，也一直都是由我負責出面的。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "渚現在光是處理三一內部的工作就已經很不容易了。\n要是再派他去出差的話，我們內部的事務恐怕會完全停擺……這樣是不對的。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "而渚反對的原因，或者說他擔心的則是我的健康和安全……"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然聖亞同學的健康狀況確實有所好轉，\n但坦白說也不過是剛擺脫「病患」的身份而已。"
+    },
+    {
+      "Name": "渚",
+      "Text": "這並非出自我的主觀判斷，而是救護騎士團所下的客觀結論。"
+    },
+    {
+      "Name": "渚",
+      "Text": "況且像我們這種茶會的核心幹部，隨時都有遭受有心人士襲擊和暗殺的風險。"
+    },
+    {
+      "Name": "渚",
+      "Text": "然而聖亞同學現在，已經不再具備能提早察覺危險並加以防範的能力。\n我可以坦承地告訴各位，他在我眼裡是個「必須接受保護的對象」。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "又是這件事嗎……"
+    },
+    {
+      "Name": "渚",
+      "Text": "從人身安全的層面來看，我反而覺得由彌香同學去更安全。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我在渚醬眼裡究竟是什麼樣子呢……？"
+    },
+    {
+      "Name": "渚",
+      "Text": "千年科學學園是個治安狀況穩定的自治區，發生犯罪的可能性相對較低。"
+    },
+    {
+      "Name": "渚",
+      "Text": "話雖如此，由於那裡是新科技的研發重地，\n因而導致的「意外」遠高於其他學園也是事實。"
+    },
+    {
+      "Name": "渚",
+      "Text": "萬一，我是說萬一聖亞同學真的被捲入了不可預期的意外之中……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "你這個說法太荒謬了。\n真要這麼說的話，難道你自己就不會被捲進意外之中嗎？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……我說的是聖亞同學的情況，和我沒有任何關係。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "這好像有點前後矛盾……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "話說為什麼你們都不把我考慮進去呢？"
+    },
+    {
+      "Name": "渚",
+      "Text": "因為彌香同學現在確實不太適合擔任「三一的代表」……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……對哦。\n耶嘿嘿，抱歉……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "即便撇除這點，我們也無法預料派你去會衍生什麼樣的問題。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "…………"
+    },
+    {
+      "Text": "[s7]「所以結論就是你們互相在擔心彼此嘛。」"
+    },
+    {
+      "Text": "[s8]「太好了，幸好你們三個關係依舊很好。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "老師，雖然我很感謝您這麼說，但現在不是說這些的時候……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "渚",
+      "Text": "老師您同意聖亞同學的看法？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……您是認真的嗎？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "老師？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "老師……？\n你說你同意……我的看法？"
+    },
+    {
+      "Text": "[s9]「如果你們不介意的話，我會陪他一起去的。」"
+    },
+    {
+      "Text": "[s10]「這樣要是發生什麼事的話，我也能立刻通知你們。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哎呀……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "有點意外。這樣渚醬找老師來不就是扯了自己的後腿嗎？\n事情的發展好像有點出乎我的預料呢。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "但他會不會「接受」這個決定，又是另一回事了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "渚",
+      "Text": "原來如此，老師是這麼想的啊。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "渚",
+      "Text": "我明白了。\n既然老師願意幫忙，這件事就交給聖亞同學去辦吧。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……渚？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "太陽打西邊出來了嗎？\n你竟然答應得這麼爽快！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "這麼快下決定很不像渚醬的作風哦？這樣真的好嗎？"
+    },
+    {
+      "Name": "渚",
+      "Text": "我在各位眼裡的形象究竟是……"
+    },
+    {
+      "Name": "渚",
+      "Text": "正如剛才所說，我並沒有刻意阻攔聖亞同學離開三一。\n我的目的只不過是要保障他的安全罷了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "坦白說即便老師同意，我還是「難以認定」這麼做就沒有後顧之憂。"
+    },
+    {
+      "Name": "渚",
+      "Text": "其實我自己也清楚，這些或許都只是我過度的擔憂。\n雖然心裡清楚……卻依然無法放下。"
+    },
+    {
+      "Name": "渚",
+      "Text": "不過既然老師……至今為我們做了那麼多的老師願意出面的話……"
+    },
+    {
+      "Name": "渚",
+      "Text": "我願意努力用信任壓抑心中的焦慮，相信老師無論如何都會替我們解決問題。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……沒錯，我相信老師。"
+    },
+    {
+      "Text": "[s11]「謝謝你，渚。」"
+    },
+    {
+      "Text": "[s12]「什麼事也不會發生的，別擔心。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "如果真是如此，那就再好不過了。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "渚……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "你信任的不是我……而是老師嗎。"
+    },
+    {
+      "Text": "[log]現在[/log]"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "其實我也知道，這終究是我自己的問題。\n是我的自卑感在作祟。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "「無法預言又沒有力量的百合園聖亞派不上用場」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我非常清楚渚……不，是他們兩個絕不會有這種想法。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "但我還是無法妥善控制自己的情緒，這或許是因為我還太年輕的緣故吧。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "畢竟我們大家……終究還是如此脆弱而不成熟的孩子。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "不過也正因如此，我才會更想來參加千年博覽會並擔任領隊。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "因為我總覺得自己必須做點什麼……才能讓我認可我自己。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "說白了就是在耍任性罷了。\n老師你應該也清楚吧？"
+    },
+    {
+      "Text": "[s13]「我反而認為這是一次很不錯的嘗試。」"
+    },
+    {
+      "Text": "[s14]「這是個必要的過程，絕對不是什麼任性。」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "老師又要說這種話嗎？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "不過謝謝你。我感覺心情輕鬆了不少。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "既然如此……如果老師不介意的話……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "或許這個要求對老師有點過分，但我可以拜託你一件事嗎？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我也明白這麼說真的很任性，但這一切都是為了讓我能夠認可我自己。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "為了讓我能明確感受到自己可以有所成就。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "所以在這次的出差，也就是千年博覽會期間……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "希望老師你不要……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……好像到了呢。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我們先下車吧。\n等下車之後……我再找機會跟你說明。"
+    }
+  ]
+}

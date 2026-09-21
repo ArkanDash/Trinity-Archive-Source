@@ -1,0 +1,2782 @@
+{
+  "TitleJP": "先輩の影",
+  "TitleKR": "선배의 그림자",
+  "TitleEN": "A FOX's Shadow",
+  "TitleTH": "เงาของรุ่นพี่",
+  "TitleTW": "前輩的影子",
+  "DescJP": "FOX小隊の先輩と久方ぶりの邂逅を果たしたRABBIT小隊。ニコが作ったいなり寿司を食べながら近況を報告していた。しかし、束の間の楽しい時間はすぐに終わりを告げる――ミヤコが襲撃理由を問うと、ユキノはミヤコ達に対し、FOX小隊に合流するよう提案する。困惑するミヤコ達の前に、遅れてやってきた先生は、「少し時間をくれ」と伝え、RABBIT小隊を連れて子ウサギ公園に戻るのだった。",
+  "DescKR": "오랜만에 FOX 소대와 마주하게 된 RABBIT 소대의 소대원들은 니코가 준비한 유부초밥을 나눠 먹으며 즐겁게 근황을 이야기한다. 하지만 즐거운 시간도 잠시뿐. 미야코가 습격에 대해 캐묻자, 유키노는 본심을 드러내며 FOX 소대에 합류하라는 제안을 건네고 미야코는 혼란스러워한다. 뒤늦게 RABBIT 소대를 쫓아 온 선생님은 잠시 시간을 달라며, RABBIT 소대를 데리고 코우사기 공원으로 돌아간다.",
+  "DescEN": "The members of FOX Squad and RABBIT Squad are reunited and catch up with each other over some inarizushi that Niko has prepared. The pleasant time is short-lived however, as Miyako asks about the ambush. Yukino reveals her true intentions and proposes that Miyako join FOX Squad, causing her to feel conflicted. After catching up to everyone, Sensei asks for a bit of time and takes them back to Kousagi Park.",
+  "DescTH": "เหล่าสมาชิกกองทหาร RABBIT ได้พบกับสมาชิกกองทหาร FOX หลังจาก\nที่ไม่ได้เจอกันนาน นิโกะแบ่งซูชิเต้าหู้หวานให้กับทุกคนและแบ่งปันเรื่อง\nราวความเป็นอยู่กันอย่างสนุกสนาน แต่ว่าเวลาแห่งความสุขก็สั้นนัก\nเมื่อมิยาโกะถามเกี่ยวกับเรื่องการลอบโจมตี ยูกิโนะก็เผยสิ่งที่คิดออกมา\nและยื่นข้อเสนอให้มิยาโกะมาเข้าร่วมกับกองทหาร FOX ทำให้มิยาโกะ\nสับสน คุณครูที่ไล่ตามสมาชิกกองทหาร RABBIT มาจนทันได้เจรจาขอเวลา และพาเหล่าสมาชิกกองทหาร RABBIT กลับไปยังโคะอุซางิ การ์เด้น",
+  "DescTW": "遇見許久未見的FOX小隊，RABBIT小隊成員們一起分享仁子準備的豆皮壽司，愉快地聊起近況。不過也只開心了一下而已。當都子追究起襲擊的事，雪乃便透露真正的來意，邀請對方加入FOX小隊，讓都子感到混亂。晚一步追上RABBIT小隊的老師要求對方給自己一點時間，便帶著RABBIT小隊回到兔寶寶公園。",
+  "DialogJP": [
+    {
+      "Text": "第5話;先輩の影"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ねえ、これってどういうこと？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "近くの[ruby=Node]ノード[/ruby]で防犯カメラをチェックしてたら、\n後ろから紙袋を被せられて……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "わ、私も……隠れてたら後ろから襲われて……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "目隠しされたままよく分からないところに投げ込まれて……コロコロ転がされて……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ……まだ気持ち悪い……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "で、どうしてサキまで仲良く一緒に縛られてるわけ？\nミヤコと一緒に突入したんじゃなかったの？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それが……私にもよく分からないんだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "中央通路に突入する時、頭に大きな衝撃を受けて……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "気づいたら、こうなってた。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "つまり……私たち、拉致されたってこと？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "詳しい状況はさっぱりだけど……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちっ……油断しすぎた。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ねえ……私たちが奇襲を掛けた相手って、違法取引をする武器商人だったよね……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "なら、こうして私たちを生かしてるのは、どこかに売り飛ばすためなんじゃ……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "研究施設に送られて新兵器の実験に使われたり……\nひらひらの服を着せられてあんなことやこんなことをされちゃうとか……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……最後のは違うんじゃない？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "心配するな。まだミヤコが残っている。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "きっとミヤコなら助けに来てくれるはず――"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "みんな、無事でしたか！？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミヤコ……！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ミヤコちゃん、助けに来てくれたんだね……！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あ……えっと……それがですね……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……私も、捕まってしまいまして。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "これで4人目……全員失格。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "SRTのCQB試験だったら、赤点だったところだな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そ、その装備、まさか……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "FOX小隊の先輩方……？\nど、どうしてここに……。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "まあ、カンタンに言うと――後輩のために用意したドッキリってとこかな。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "最近キヴォトスのあちこちで活躍してるって聞いたから、\n少しは成長してると思ったのに……思い違いだったみたいね。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "知らない場所に突入する時にバックアップなしで突っ込むなんて……\n自分から「狙ってください」って言ってるようなものよ。ピクニックにでも来たつもり？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "まあまあクルミちゃん。もう終わったんだし、その辺で。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "彼女たちも、こういう状況は想定していなかったんだと思うよ。\nそれに、普通の傭兵や武器商人を相手にするなら、あの戦術で十分だもの。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……甘い。敵が自身の想定通りに現れるとは限らないんだぞ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……すみません。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "と、とりあえずおやつにしよっか！\n私、おいなりさんいっぱい作ってきたんだ！"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "食べながらお話しよう、ね？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "お互いに……積もる話がたくさんあると思うから。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……はい。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "もう！細かいことばっか気にしすぎ。\nそんなんだから反応が遅くなるのよ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "さっきみたいに銃を取り回しづらい場所で、敵が違う方向から現れたらどうするの？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……副武装に切り替えて撃つ、とか？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "教範ではそうね。\nでも、実戦では「ストックでそのまま叩きつける」のが正解よ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "武装を変えるより、ストックを使った方が素早く敵に攻撃できるの。\nまぁ、敵の防護服や距離によって正解は変わるけど……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ううっ……教範と違う実戦状況は苦手だ……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "そう簡単にベテランにはなれないわ。\nもっと頑張ることね。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "うーん、この食感は……イクラかな？\n意外とおいなりさんに合うんだねぇ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ちょっと、取らないでよ！後で食べようと思って残しておいたのに！"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "あはは、ごめんってば。\n後輩の前でそんなにカリカリしないでよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "ほら、卵入りあげるから。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "卵はいらない！イクラがいいの！"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "こらこら、ケンカしないの。\nおいなりさんはまだいっぱいあるんだから。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "はい、ミユちゃんも遠慮せず食べてね。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "わ、わわ……私なんかがこんな立派なおいなりさんを頂いていいんでしょうか……？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "もちろん。みんなで食べようと思って作ってきたんだから。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、ありがとうございます……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……お、おいしいっ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "はあ～、ニコ先輩のおいなりさん、いつぶりだろう？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "これだけ色んな薬味がたっぷり入ったおいなりさん、どこにも売ってないよ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ふふっ、ありがとう。朝早くから準備してた甲斐があるな。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "特に、油揚げ用の煮汁は私のオリジナルレシピだからね。\nあんまり他にはないと思うよ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "（……そういえば最近、これと似たおいなりさんを食べたような……\n　気のせいか……？）"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あの……お聞きしたいんですが、\nどうやって私の場所を見つけたんですか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "自分で言うのもなんですが……結構うまく隠れていたと思うのですが……。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "あ、もしかして君がミユ？\n偽装訓練で満点取ったって噂の！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ひ、ひぃっ……！？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "ほんと、完璧な偽装だったよ！\nニコが座標を教えてくれるまで全然わかんなかったもん！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、ありがとうございます……ち、近いです……。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "特殊なカモフラージュ装備でも使ってるの？\nスコープの倍率も気になるなぁ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "う、ううう…………。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "と、とにかく、武器を買ったのがFOX小隊の先輩だと分かってよかった。\nSRTの武器が悪いことに使われる事はなさそうだからな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "だねぇ。それに先輩たちが払ったお金なら、出所を心配する必要もないし。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "………。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あの、先輩方。一ついいですか？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ええ、もちろんよ。何でも聞いて？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……事件の時、先輩がシャーレから持ち出したのは何だったんですか？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ええっと……それは……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そして――SRTの閉鎖が決まった時、なぜ連邦生徒会の建物を襲ったのですか？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それは……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "まだ君たちには教えられない。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……機密、ですか？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "違う。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "今はまだ、君たちが「我々」の味方ではないからだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "待ってくれ。\n私たちは同じSRT隊員じゃないのか……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ど、どうしてそんな……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……一つ問おう。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "[ruby=・  ・]任務[/ruby]で、シャーレの先生と敵対しろと言われたらどうする？"
+    },
+    {
+      "Name": "一同",
+      "Text": "………。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "そう、君たちは判断できない。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "武器は――自ら判断しないからこそ、価値があるのだから。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "困難をきわめる作戦の遂行、大変ご苦労であった。[ruby=つきゆき]月雪[/ruby]小隊長。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "――本日をもってRABBIT小隊は解体とする。\n各小隊員はこれより、FOX小隊の支隊として動くように。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "解体……？RABBIT小隊を……？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "誤解をしないでほしい。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "我々としても、不利益を与えるつもりはない。\n月雪小隊長が持つ裁量権は尊重しよう。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "なに、突然の事故で後輩に背負わせた責任を、我々が再び背負うというだけの事だ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "以後、困難な選択はすべて我々に任せるといい。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが……SRT特殊学園復活のためでしたら、私たちにも覚悟が――"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "全員、長きに渡るキャンプで疲弊しているのでは？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "………。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "これ以上、SRT特殊学園再建のために責任を負う必要はない。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "あとは我々に委ねて、各小隊員は武器としての本分を果たすように。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……私たち、RABBIT小隊は……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……さあ、月雪小隊長――決めるんだ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "武器としての本分を、忘れたわけじゃないのだろう？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "躊躇いを抱いたまま、錆びたナイフで正義を振り翳す事ほど無様なことはない。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私、たちは……。"
+    },
+    {
+      "Text": "[ns] \"……ちょっと待って！\""
+    },
+    {
+      "Name": "オトギ",
+      "Text": "あれ、侵入者？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "どうしてここが……！？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……[USERNAME]先生？"
+    },
+    {
+      "Text": "[s1] \"こんにちは、FOX小隊のみんな。\""
+    },
+    {
+      "Text": "[s2] \"この前のいなり寿司、美味しかったよ。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "……[USERNAME]先生？どうしてここに？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "………。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……[USERNAME]先生？どうしてここに？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ま、まさか私たちの後をつけて……？"
+    },
+    {
+      "Text": "[s3] \"いつの間にかみんないなくなってたから……。\""
+    },
+    {
+      "Text": "[s4] \"街で話を聞きながら探してたんだ。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……お初にお目にかかります、[USERNAME]先生。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "お噂はかねがねお伺いしております。連邦生徒会長の不在でパニック状態だったキヴォトスをまとめてくださったそうですね。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……SRT特殊学園を代表し、厚くお礼申し上げます。"
+    },
+    {
+      "Text": "[s] \"どういたしまして。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "ですが、月雪小隊長と話しているのはSRT特殊学園内のこと。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "故に、後のことは私たちにお任せ頂きたく存じます。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "先生は……生徒の意志を尊重する大人だとお伺いしておりますので。"
+    },
+    {
+      "Text": "[s] \"それはもちろん。\""
+    },
+    {
+      "Text": "[ns5] \"でも、急な話でみんなも戸惑っているみたいだから。\""
+    },
+    {
+      "Text": "[ns6] \"ミヤコにも、もう少し時間をくれないかな？\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……かしこまりました。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "さすがはシャーレの先生。\nあらゆる生徒の信頼を得ている方らしい発言ですね。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "私たちは……あなたのような大人が――大嫌いです。"
+    },
+    {
+      "Text": "[s] \"……そっか。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……D-Dayを控えた今、わざわざ先生と敵対する必要はない。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "――FOX小隊、撤収。\n各小隊員はHQに復帰し、次の作戦に備えるように。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……月雪小隊長。\n今、貴官のスマホに座標を一つ送信した。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "私の提案に乗る気があるのなら、その場所に。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私は……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……いつかは君たちも、理解できる日が来るはずだ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "………。"
+    },
+    {
+      "Text": "次回;後輩の苦悩"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제5화;선배의 그림자"
+    },
+    {
+      "Name": "모에",
+      "Text": "……이게 어떻게 된 일이야? 누가 설명 좀 해줬으면 좋겠는데."
+    },
+    {
+      "Name": "모에",
+      "Text": "나는 근처 노드에서 CCTV를 확인하고 있었는데, 갑자기 누가 뒤에서 두건을 씌우더니 나를 강제로 여기로 끌고 왔어……"
+    },
+    {
+      "Name": "미유",
+      "Text": "우으으…… 나, 나도 은신 중이었는데 갑자기 누군가 뒤에서 덮쳐와서……"
+    },
+    {
+      "Name": "미유",
+      "Text": "눈을 가린 채 뭔가 커다란 통 같은데 던져 넣어진 다음, 데굴데굴 굴려지면서 끌려와서……"
+    },
+    {
+      "Name": "미유",
+      "Text": "으으…… 아직도 속이 메슥거려……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그나저나 사키, 너는 어째서 여기에 우리랑 같이 묶여 있는 거야? 너는 미야코랑 같이 건물에 돌입한 거 아니었어?"
+    },
+    {
+      "Name": "사키",
+      "Text": "……끄응. 그게…… 나도 잘 모르겠어."
+    },
+    {
+      "Name": "사키",
+      "Text": "중앙 통로로 돌입하던 중, 갑자기 머리에 큰 충격을 받은 것까지는 기억하는데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "정신을 차리고 보니 여기에 너희들이랑 같이 묶여 있네."
+    },
+    {
+      "Name": "모에",
+      "Text": "지금 상황이 어떻게 돌아가고 있는지 확신할 수는 없겠지만……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……우리, 납치된 거지?"
+    },
+    {
+      "Name": "사키",
+      "Text": "쳇…… 너무 방심했어."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그러고 보니 우리가 기습하려고 했던 상대는, 사람들의 눈을 피해 불법적인 거래를 하는 무기 브로커였었지……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "이렇게 우리를 산채로 묶어 한데 붙잡아 두었다는 건…… 분명 어디에 팔아넘길 속셈일 거야……"
+    },
+    {
+      "Name": "미유",
+      "Text": "무기 연구 시설에 넘겨서 신무기를 실험하는 데 쓴다든가…… 하늘하늘한 옷을 입혀서 대답할 때마다 강제로 '냥-' 이라는 어미를 붙이게 한다든가……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……마지막의 가정은 조금 이상하지 않아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "너무 걱정하지 마, 미유. 다른 건 몰라도 미야코가 여기 없다는 건 아직 잡히지 않았다는 뜻이니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "조금만 기다리면 분명 우리를 구하러 와 줄 거야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "다들…… 무사하셨나요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "미야코……!"
+    },
+    {
+      "Name": "미유",
+      "Text": "미야코 쨩, 구하러 와줬구나……!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "아, 저 그게…… 그러니까……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……저도 붙잡혔어요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "이걸로 4명째…… 전원 실격인가."
+    },
+    {
+      "Name": "유키노",
+      "Text": "이게 SRT의 CQB 시험이었더라면 전원 낙제를 면치 못했었겠군."
+    },
+    {
+      "Name": "모에",
+      "Text": "저 장비는, 설마……"
+    },
+    {
+      "Name": "사키",
+      "Text": "FOX 소대의 선배들……? 어째서 이곳에……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "뭐, 간단하게 설명하자면— 이 모든 게 후배들을 위해 여우 언니들이 준비한 서프라이즈 파티였다는 뜻이지."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "참나…… 요새 키보토스 곳곳에서 활약했다고 해서 조금이나마 성장했을까 기대했더니, 조금도 성장하지 않았네."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "처음보는 장소에 돌입하는 데 백업도 없이 따로따로 돌입하다니, 저격당하기 딱 좋은 포지션이잖아. 소풍이라도 나온 줄 알아?"
+    },
+    {
+      "Name": "니코",
+      "Text": "하하…… 너무 거칠게 몰아세우지 마, 쿠루미 쨩."
+    },
+    {
+      "Name": "니코",
+      "Text": "후배들도 이런 상황은 예측하지 못했을 테고, 평범한 용병이나 브로커를 상대하는 거라면 이 정도의 전술 기동만으로도 충분했을 테니까."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……언제나 예상한 곳에서 예상한 적이 나타나지는 않지. 방심은 금물이야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……죄송합니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "우, 우선은 간식부터 먹고 시작할까? 이럴 줄 알고 유부초밥을 잔뜩 준비해 왔거든."
+    },
+    {
+      "Name": "니코",
+      "Text": "이야기는 우선 배부터 채우고 계속하자."
+    },
+    {
+      "Name": "니코",
+      "Text": "우리도 그렇지만, 너희들도…… 하고 싶은 말이 잔뜩 있을 테니까."
+    },
+    {
+      "Name": "미야코",
+      "Text": "네……."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "(우물우물) 그러니까— 계속 사소한 걸 신경 쓰면서 움직이니까 반응 속도가 느리잖아."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "잘 봐. 아까처럼 주무기의 총구를 돌리기 어려운 협소한 복도에서 적이 다른 방향에서 나타났어. 그럼 어떻게 할 거야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "……보조무기로 전환해서 사격한다?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "교범에서는 보통 그렇게 말하지만, 아까와 같은 상황에서의 정답은 '개머리판으로 그대로 내려친다'야."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "개머리판을 사용하는 편이 무장을 교체하는 것보다 훨씬 빠르게 적에게 일격을 가할 수 있거든. 물론 적이 입고 있는 방호복이나 교전 거리에 따라 답은 달라지겠지만."
+    },
+    {
+      "Name": "사키",
+      "Text": "으으…… 교범과 다른 실전 상황은 언제나 골치 아프다니까……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그렇게 쉽게 베테랑이 될 수 있을 거라고 생각 했어? 아직 한참 멀었다고. 후후."
+    },
+    {
+      "Name": "오토기",
+      "Text": "(우물우물) 오, 이 식감은 연어알인가? 연어알의 짭조름한 감칠맛이 생각 외로 유부초밥이랑 잘 어울리는 걸……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "잠깐! 그거 내가 먹으려고 아껴 둔 건데— 먼저 손대지 마!"
+    },
+    {
+      "Name": "오토기",
+      "Text": "후배들 앞에서 쪼잔하게 유부초밥 가지고 성내지 마."
+    },
+    {
+      "Name": "오토기",
+      "Text": "자, 여기 계란 소보로 맛."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "계란은 됐거든? 나도 연어알 먹을 거야!"
+    },
+    {
+      "Name": "니코",
+      "Text": "후후…… 유부초밥은 종류별로 충분히 준비해 왔으니까. 싸우지 말고 다들 천천히 먹어."
+    },
+    {
+      "Name": "니코",
+      "Text": "자, 미유 쨩도 눈치 보지 말고 먹어."
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 저요……? 저 같은 게 이런 호화로운 유부초밥을 먹어도 괜찮을까요……?"
+    },
+    {
+      "Name": "니코",
+      "Text": "물론이지. 다 같이 먹으려고 싸 온 거니까."
+    },
+    {
+      "Name": "미유",
+      "Text": "가, 감사합니다……"
+    },
+    {
+      "Name": "미유",
+      "Text": "……마, 맛있어!"
+    },
+    {
+      "Name": "모에",
+      "Text": "아아~ 니코 선배의 유부초밥이라니. 이게 얼마 만에 먹어보는 거야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "이렇게 화려한 고명이 잔뜩 들어간 유부초밥은 키보토스 어디에서도 먹을 수 없다니까."
+    },
+    {
+      "Name": "니코",
+      "Text": "후후, 아침부터 열심히 밥을 짓느라 고생한 보람이 있네."
+    },
+    {
+      "Name": "니코",
+      "Text": "특히 유부를 절일 때 쓴 이 단촛물의 배합은 나만 알고 있는 특급 기밀이거든."
+    },
+    {
+      "Name": "사키",
+      "Text": "(어라? 그러고 보니 최근에도 이 유부초밥을 먹었던 것 같은데…… 착각인가……?)"
+    },
+    {
+      "Name": "미유",
+      "Text": "저…… 그런데 제가 매복하고 있던 곳은 어떻게 알아차리신 건가요?"
+    },
+    {
+      "Name": "미유",
+      "Text": "제 입으로 말씀드리긴 그렇지만…… 제법 잘 숨어 있었다고 생각했는데……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "아, 네가 미유였구나? 위장 훈련에서 만점을 받았다던 그 화제의 신입생!"
+    },
+    {
+      "Name": "미유",
+      "Text": "히, 히이익……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "정말 소문처럼 완벽한 위장이더라. 어찌나 잘 숨어 있었는지 니코가 좌표를 알려주기 전까지는 눈앞에서도 찾기 어려울 정도였다니까!"
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 저기…… 가, 감사합니다…… 그런데 거리가……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "뭔가 특수 카모플라쥬 장비라도 사용하는 거야? 조준경 배율은?"
+    },
+    {
+      "Name": "미유",
+      "Text": "우으, 우으으……"
+    },
+    {
+      "Name": "사키",
+      "Text": "여하튼 무기를 사 간 그 브로커들이 FOX 소대의 선배들이었다면 SRT의 무기가 나쁜 일에 쓰이지 않았을까 걱정할 필요는 없겠네."
+    },
+    {
+      "Name": "모에",
+      "Text": "그러게. 선배들이 준 돈이라면 돈의 출처를 염려할 필요도 없고……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "………."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저, 선배들. 저도 하나 여쭈어도 괜찮을까요?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그야 물론이지. 무엇이든 물어보라고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……지난번 쿠데타 당시, 선배들이 샬레의 지하실에서 가져간 물건은 무엇이었나요?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "어, 그건…… 그러니까……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그리고, SRT의 폐쇄가 결정되었을 때. 총학생회 건물은 어째서 습격하신 건가요?"
+    },
+    {
+      "Name": "니코",
+      "Text": "그게……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "아직 너희에게는 알려줄 수 없다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……기밀인가요?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "아니."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……너희가 '우리'의 아군인지 확신할 수 없기 때문이다."
+    },
+    {
+      "Name": "사키",
+      "Text": "잠깐 기다려, 선배. 우리는 같은 SRT 대원이잖아……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "어째서 그런 말씀을……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "그렇다면 질문을 하나 하지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "지금의 너희는 샬레의 선생님을 적대할 수 있나?"
+    },
+    {
+      "Name": "일동",
+      "Text": "………."
+    },
+    {
+      "Name": "유키노",
+      "Text": "그래. 너희는 판단할 수 없겠지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "무기는 스스로 판단하지 않아야 그 가치가 있는 법이니까."
+    },
+    {
+      "Name": "유키노",
+      "Text": "그동안 어려운 작전을 수행하느라 수고가 많았다, 츠키유키 소대장."
+    },
+    {
+      "Name": "유키노",
+      "Text": "오늘부로 RABBIT 소대는 해체한다. 각 소대원은 이후 FOX 소대의 분견대로서 활동하도록."
+    },
+    {
+      "Name": "미야코",
+      "Text": "해체……? RABBIT 소대를요……?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "오해는 하지 않았으면 좋겠는데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "불이익을 주려는 것이 아니다. 츠키유키 소대장이 보유하고 있는 소대장으로서의 재량권은 존중하지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "다만…… 갑작스러운 사고로 후배들이 짊어지게 된 책임을 선배들이 다시 가져가겠다는 것뿐이야."
+    },
+    {
+      "Name": "유키노",
+      "Text": "망설임을 수반하는 괴로운 선택은 우리에게 맡겨 둬."
+    },
+    {
+      "Name": "미야코",
+      "Text": "하지만…… SRT 학원의 부활을 위해서라면, 저희도 어느 정도는 각오를—"
+    },
+    {
+      "Name": "유키노",
+      "Text": "오랜 야영으로 인해 소대원들도 많이 지쳤겠지."
+    },
+    {
+      "Name": "미야코",
+      "Text": "………."
+    },
+    {
+      "Name": "유키노",
+      "Text": "SRT 학원의 부활을 위해 더 이상 책임을 짊어질 필요는 없다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "책임은 높은 사람들이 질 테니, 각 소대원들은 무기로서의 본분을 다하도록."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희, RABBIT 소대는……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "자, 츠키유키 소대장. 결정해."
+    },
+    {
+      "Name": "유키노",
+      "Text": "책임과 판단을 맡기고 무기로서의 본분을 다할 것인지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "아니면 망설임을 품은 채 녹슨 칼로 정의를 휘두를 것인지."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희는……"
+    },
+    {
+      "Text": "[ns] \"……잠시만 기다려 줘!\""
+    },
+    {
+      "Name": "오토기",
+      "Text": "……침입자?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "어떻게 이 장소를 알고……?!"
+    },
+    {
+      "Name": "니코",
+      "Text": "……[USERNAME] 선생님?"
+    },
+    {
+      "Text": "[s1] \"너희들이 그 FOX 소대구나? 만나서 반가워.\""
+    },
+    {
+      "Text": "[s2] \"지난번에 준 유부초밥은 잘 먹었어.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "……[USERNAME] 선생님? 설마, 공원부터 우리를 쫓아온 거야?"
+    },
+    {
+      "Name": "니코",
+      "Text": "………."
+    },
+    {
+      "Name": "사키",
+      "Text": "……[USERNAME] 선생님? 설마, 공원부터 우리를 쫓아온 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "뒤를 밟히고 있는 줄은 몰랐었는데……"
+    },
+    {
+      "Text": "[s3] \"다시 공원에 돌아가 봤더니 다들 없어서……\""
+    },
+    {
+      "Text": "[s4] \"주변에 물어보면서 따라오느라 고생했어.\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "실제로 뵙는 건 처음이군요, [USERNAME] 선생님."
+    },
+    {
+      "Name": "유키노",
+      "Text": "총학생회장의 부재로 혼란이 된 키보토스를 수습하는 데 지대한 공을 세우셨다고 들었습니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……SRT 특수학원을 대표하여, 깊은 감사의 인사를 드립니다."
+    },
+    {
+      "Text": "[s] \"별말씀을.\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "다만 지금 제가 츠키유키 소대장에게 하고 있는 이야기는 SRT 학원의 일이기 때문에."
+    },
+    {
+      "Name": "유키노",
+      "Text": "이후의 문제는 저희에게 맡겨 주셨으면 합니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "선생님께서는 학생의 결정을 존중하는 어른이시라고 들었습니다만."
+    },
+    {
+      "Text": "[s] \"그야 물론이야.\""
+    },
+    {
+      "Text": "[ns5] \"하지만 갑작스러운 만남에 다들 곤란해하는 것 같으니까.\""
+    },
+    {
+      "Text": "[ns6] \"미야코에게도 조금만 더 시간을 주면 안 될까?\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "……알겠습니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "역시 모든 학생이 믿고 따른다는, 그 샬레의 선생님다운 말씀이시군요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "선생님, 저희는 당신 같은 어른이 제일 싫습니다."
+    },
+    {
+      "Text": "[s] \"하하…… 역시, 기운 넘치네……\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "……D-Day를 앞둔 시점에서 굳이 선생을 적대할 필요는 없겠지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "FOX 소대, 전원 철수. 각 소대원은 HQ로 복귀하여 다음 작전에 대비하도록."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……츠키유키 소대장. 방금 귀관의 핸드폰으로 좌표 하나를 송신했다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "내가 건넨 제안에 대해 확신이 든다면 그 장소로 찾아오도록."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저는……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……너희들도 언젠가는 우리를 이해하게 될 거야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "………."
+    },
+    {
+      "Text": "다음화;후배의 고뇌"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 5;A FOX's Shadow"
+    },
+    {
+      "Name": "Moe",
+      "Text": "What the hell is happening? Someone better start talking."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I was monitoring the surveillance cameras, when I was ambushed! Someone forced a hood over my head and dragged me here."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-M-Me too...! I was in my position, and s-someone came up super quietly and..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "They b-b-blindfolded me... I got rolled around and around and around in a big barrel..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Ugh... I think I'm gonna throw up..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Why are you slacking off with us, Saki? I thought you and Miyako had breached the building already."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We had, but then... Ugh. I can't remember."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I went into the center aisle to avoid the barricade, but I was ambushed and knocked out..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I don't remember what happened after that. I just remember waking up here."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, we don't know where we are or who brought us here, but I do know one thing!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "...We let ourselves get abducted, didn't we?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Don't make me say it... Ugh. It was pure carelessness."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I just realized something... These suspects are arms brokers, r-right? So they do lots of illegal trades?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Super bad guys like them would normally...k-kill us, right? If we're alive, maybe they're going to...going to... They're going to sell us to someone!!!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "They're gonna sell us to some research facility and test weapons on us and torture us... O-Or, or... What if they make us dress up in a cat costume and meow for them?! That would be even worse!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "...I don't even want to know where that last fear came from."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's okay, Miyu. Look, Miyako isn't with us, which means she hasn't been caught yet."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Just sit tight and plan how we're gonna get back at these guys once she rescues us."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Is everyone okay? Uninjured?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyako!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Miyako! Right on time! See, I told you she'd come to rescue us!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Oh... About that..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm more of a prisoner than a rescuer in this situation."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "This is the last... Disqualified."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "If this was SRT's CQB test, every last one of you would have been disqualified."
+    },
+    {
+      "Name": "Moe",
+      "Text": "That equipment, are you..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Aren't you the FOX Squad?! I don't understand what's happening here..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "What? You don't like parties? We decided to organize a little surprise welcoming party for our successors."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "C'mon now... I thought you would've grown up a little after your recent adventures in Kivotos, but it looks like you're still the same old you, huh?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Did you think you were coming to a tea party? I couldn't believe my eyes when you just rushed into an unknown building with no backup and no recon."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Oh, dear. Haha. You shouldn't be so harsh on them, Kurumi."
+    },
+    {
+      "Name": "Niko",
+      "Text": "At least students who take the CQB test know that they're taking it. How could they have predicted us being here? If they'd been up against ordinary arms dealers like they thought, their plan would've been perfect."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...The next time an enemy appears unexpectedly on the battlefield, should we just ask them to politely leave? You all were unprepared."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm sorry..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Anyways! I'm sure you must be hungry after all that excitement. I made a bunch of inarizushi for everyone!"
+    },
+    {
+      "Name": "Niko",
+      "Text": "We can worry about operations and preparedness after everyone's stomachs are full."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I know there's probably a million questions running through your mind, and, trust me, we have a whole lungful of things we want to say too. But let's enjoy a meal together first."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Okay..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Nom, nom. I mean, I'd be slow to react too if I worried about as many things as you do during the middle of an operation."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Imagine you're in a tight corridor like Miyako was before, and it's tricky to maneuver your primary weapon. Now, there's an enemy approaching from a different direction. What's your plan?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Um, I think you're supposed to switch to your sidearm and shoot..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "And you think right, if you're following the manual. But you need to evaluate the situation in front of you. It's always gonna be different. Here you should smash them as hard as you can with your gun's buttstock."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "In close quarters like that, the fastest one wins. You were the one who was ambushed, so the enemy wouldn't expect a full frontal attack like that. And all this changes depending on the enemy's armor, distance, strength..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ugh. Real-world situations are so different from the textbooks..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You think all it took was a mission or two to be a veteran? You've got a lot to learn. Heehee."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Mmm. Is this salmon roe? It pairs surprisingly well with the inarizushi."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Hey! I was saving that for myself. Hands off!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Chill out, it's just inarizushi. Do you really want to embarrass yourself in front of the little ones?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Here, just have the egg soboro flavored one."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "No thanks. I'll stick with the salmon roe."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Heehee. I brought enough of each kind, so there's no need to fight."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Miyu, here. Don't be shy, dig in."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "R-Really...? Even I can have some?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "Of course! In fact, I think this one right here has your name on it."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-Thanks..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It's so good!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ah! It feels like forever since I've had Niko's cooking."
+    },
+    {
+      "Name": "Moe",
+      "Text": "You won't find inarizushi with this many toppings anywhere else in Kivotos."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Heehee. Getting up early was totally worth it all of a sudden."
+    },
+    {
+      "Name": "Niko",
+      "Text": "You'll always be able to recognize my inarizushi from anyone else's because of my secret marinade!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "(Hm. Why do I feel like I've had this inarizushi recently... Am I just imagining it?)"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Um... If it's okay to ask... How did you f-find me?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I thought I found a really good spot...so I was kinda surprised..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Miyu, right? The star student who aced the concealment training!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "E-Eek..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "You did really well, actually. We wouldn't have noticed if Niko hadn't pointed you out. Good job."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-Thank...you... Wh-Why are you getting...closer...and closer..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "You were just so hidden. What's your process? Do you have some kind of special camo gear? What zoom is your scope set at?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-Waaaaaaah!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Anyways, if our seniors in FOX Squad were the ones buying the weapons, I guess we don't have anything to worry about."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If it came through them, I'm sure the funds were clean too."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Actually, I'd like to ask a question."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Of course, shoot."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What did you guys take from Schale's basement during the coup?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "O-Oh... Well... That..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "More importantly, I've been wondering this for a long time now. You disappeared without a word when SRT's closure was decided. The next thing we knew, you were storming the General Student Council building... Why?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "Ah..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "I can't share that information with you yet."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Is it confidential...?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "No."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It's not that. We needed to determine if you could be reliable allies."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hold on. Aren't we all on the same team? The SRT?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Wh-What did we do wrong...?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Let me ask you a question."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "If we ordered you, could you stand against Sensei on the battlefield? Right now, at this very moment?"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "See? You're not ready to decide."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "A weapon has one purpose and is useless if it can't perform it."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Thanks for your hard work on this mission, Squad Leader Tsukiyuki."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "As of today, the RABBIT Squad is disbanded. You all will now be part of the FOX Squad."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "D-Disbanded? O-Our squad?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Don't misunderstand."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "I'm not penalizing you for an unsatisfactory performance. I value your leadership."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "We're just relieving you of burdens you never should have had to shoulder."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Let us bear the difficult work from here on out."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But we want to help restore SRT Academy... We never gave up..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Yes. You've all worked hard. That, on top of your living situations, seems to have worn your squad down."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "There is no longer a need to bear the responsibility of reviving SRT Academy."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "That responsibility was always ours. Yours has always been to be a weapon in our toolbox."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "That's not what we... We... The RABBIT Squad–"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Squad Leader Tsukiyuki, you have to decide."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Will you step up and fulfill your duty as a sharpened blade?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Or will you waver and fight for justice with your rusted edge?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We..."
+    },
+    {
+      "Text": "[ns] \"Hold on!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "We've got company."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Who? How could they have found us?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "...[USERNAME] Sensei?"
+    },
+    {
+      "Text": "[s1] \"You guys are the FOX Squad, right? Nice to meet you.\""
+    },
+    {
+      "Text": "[s2] \"Hello, FOX Squad. I really enjoyed the inarizushi last time.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "[USERNAME] Sensei? Did you follow us from the park?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "[USERNAME] Sensei? Did you follow us from the park?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I didn't notice w-we were being tailed..."
+    },
+    {
+      "Text": "[s3] \"Well, you guys left the park so suspiciously, so I came to find you.\" "
+    },
+    {
+      "Text": "[s4] \"You all were acting weird, so I asked around and tracked you down.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "I believe this is our first meeting, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "I've been wanting to thank you for your working in cleaning up the mess created by the Student Council President's sudden departure."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "On behalf of SRT Academy, I would like to express my gratitude."
+    },
+    {
+      "Text": "[s] \"Just doing my job.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "But what I'm discussing with Squad Leader Tsukiyuki is internal SRT Academy business."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "So, we'd appreciate it if you could leave this matter to us."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "I've heard that you are not one to undermine a students' decision or authority."
+    },
+    {
+      "Text": "[s] \"Consider your authority the opposite of undermined.\""
+    },
+    {
+      "Text": "[ns5] \"But my students look like they need time to process.\" "
+    },
+    {
+      "Text": "[ns6] \"But I think you need to give Miyako some space.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Understood."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It seems you're the kind of adult students inherently trust and follow."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It's your type that tends to be the most...aggravating."
+    },
+    {
+      "Text": "[s] \"Haha. I'm glad your situation hasn't dampened your spirit.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...This fight can wait until D-Day. It won't be long, anyway."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "FOX Squad, stand down. Head back to HQ for the next mission."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Squad Leader Tsukiyuki, I've sent a location to your phone."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Come find me there, if you are able to see things the right way."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "One day... You'll understand."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Text": "Next Episode;A RABBIT's Distress"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 5;เงาของรุ่นพี่"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... นี่มันเรื่องอะไรกันเนี่ย? ใครก็ได้ช่วยอธิบายทีสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันกำลังเช็กกล้องวงจรปิดที่อยู่ใกล้เคียงอยู่ แต่จู่ๆ ก็มีคนใส่ผ้าคลุมผมมาดึงตัวฉันจากข้างหลัง แล้วก็ลากตัวฉันมาที่นี่..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮือ... ฉันก็กำลังซ่อนตัวอยู่ แต่ก็มีใครไม่รู้วิ่งมาจับตัวจากข้างหลัง..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แล้วก็ปิดตาฉันแล้วโยนลงไปในถังอะไรใหญ่ๆ จากนั้นก็กลิ้งไปกลิ้งมา..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "โอย... ยังรู้สึกคลื่นไส้อยู่เลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "จะว่าไปแล้วซากิ ทำไมเธอถึงมาถูกมัดอยู่ที่นี่กับพวกเราได้ล่ะ? เธอไม่ได้เข้าไปในอาคารพร้อมมิยาโกะ\nหรอกเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... ฮึ่ย ที่จริง... ฉันเองก็ไม่รู้อะไรเลยเหมือนกัน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันจำได้แค่ว่าตอนที่เดินเข้าไปในทางโถงกลาง จู่ๆ หัวฉันก็ถูกกระแทกเข้าอย่างแรง..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พอได้สติอีกที ถึงได้รู้ว่าตัวเองมาถูกมัดอยู่กับพวกเธอนี่แหละ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตอนนี้เราไม่รู้เลยว่าสถานการณ์เป็นยังไง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่พวกเรา... ถูกลักพาตัวมาใช่มั้ย?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ชิ... ดันประมาทไปซะได้"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "จะ... จะว่าไปแล้วฝ่ายตรงข้ามที่เราพยายามจะโจมตีคือนายหน้าค้าอาวุธผิดกฎหมายที่หลบหนีสายตา\nผู้คนถูกไหม...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถ้าพวกเขาจับเราไว้ด้วยกันทั้งเป็นแบบนี้... แสดงว่าต้องเอาพวกเราไปขายที่ไหนแน่เลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "บางทีอาจจะส่งเราไปทดลองอาวุธใหม่ที่ศูนย์วิจัยอาวุธ... หรือไม่ก็บังคับให้ใส่ชุดมุ้งมิ้งๆ แล้วก็ให้เรา\nพูดคำว่า 'เมี๊ยว' หลังทุกประโยคที่พูด..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... อย่างหลังมันไม่แปลกไปหน่อยเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่ต้องกังวลให้มากนะ มิยุ ถึงเรื่องอื่นจะยังไม่รู้ แต่การที่มิยาโกะไม่ได้อยู่ที่นี่ ก็ยังถือว่าเธอยังไม่โดนจับ และเรายังไม่จบเห่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้ารอต่ออีกหน่อย เดี๋ยวมิยาโกะก็มาช่วยเราแน่นอน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทุกคน... ปลอดภัยกันใช่ไหมคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยาโกะ...!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มิยาโกะจัง มาช่วยเราแล้วนี่เอง...!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อ่า... เอ่อ... คือว่า..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... ฉันก็ถูกจับมาเหมือนกันค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "โดนเก็บเรียบ... ทั้ง 4 คนเลยนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้านี่เป็นการสอบ CQB ของ SRT คงได้สอบตกจนซ้ำชั้นกันทั้งกลุ่มแน่ๆ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เดี๋ยวนะ อุปกรณ์นั่นมัน..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "รุ่นพี่จากกองทหาร FOX...? ทำไมถึงมาอยู่ที่นี่ได้..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ถ้าจะให้อธิบายสั้นๆ ละก็ ทั้งหมดนี่ก็คือเซอร์ไพรส์ปาร์ตี้ที่พวกเราเตรียมไว้ให้รุ่นน้องน่ะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เฮ้อ... เห็นว่าช่วงนี้ทำผลงานได้ดีในคิโวทอส ก็เลยแอบคาดว่าจะพัฒนาขึ้นมาบ้างสักหน่อยเสียอีก สุดท้ายแล้วก็ยังเหมือนเดิมกันอยู่เลย"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เข้ามาในสถานที่ที่ไม่เคยมาทั้งที แต่ก็แยกกันเข้ามาแบบไม่มีกำลังสนับสนุนได้ไง แบบนี้ก็ถูกยิงง่ายน่ะสิ นี่คิดว่ามาปิกนิกกันเหรอ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แหะๆ... อย่าตำหนิน้องๆ เกินไปเลยนะ คุรุมิจัง"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "รุ่นน้องคงคาดเดาสถานการณ์แบบนี้ไม่ได้ และถ้าเป็นการปะทะกับสถานการณ์หรือนายหน้าธรรมดาๆ แค่ใช้กลยุทธ์นี้ก็น่าจะเพียงพอแล้วละ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... ศัตรูไม่ออกมาจากที่ที่เราคิดไว้หรอก ห้ามประมาทเด็ดขาด"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... ต้องขออภัยด้วยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "งะ... งั้นเรามากินของว่างกันก่อนแล้วค่อยเริ่มไหม? ฉันพอจะรู้ว่ามันต้องเป็นแบบนี้ ก็เลยเอาซูชิเต้าหู้หวานมาด้วยน่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ไว้กินให้อิ่มท้องแล้วก็ค่อยมาคุยกันต่อเถอะนะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "นอกจากพวกเราแล้ว... ฉันว่าพวกเธอก็น่าจะมีอะไรที่อยากจะพูดอยู่ไม่น้อยเลยละ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "(ง่ำๆๆ) ก็เป็นซะอย่างนี้ไง พอพวกเธอเอาแต่ใส่ใจเรื่องเล็กๆ น้อยๆ การตอบสนองก็เลยช้าลงไปด้วย"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ลองคิดตามนะ เธอกำลังอยู่ในทางเดินแคบๆ ขนาดที่หยิบอาวุธหลักออกมายิงก็ยังยาก แต่ก็มีศัตรูโผล่\nออกมาในอีกด้านหนึ่ง แบบนี้ต้องทำยังไง?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... ก็ยิงด้วยอาวุธรองแทน...?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถ้าเป็นสถานการณ์แบบนี้ ในคู่มือของเราจะบอกว่า 'ให้ใช้พานท้ายปืนฟาดไปเลย'"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "การใช้พานท้ายปืนมันเร็วกว่าการเปลี่ยนอาวุธ แล้วก็ทำให้ศัตรูหงายเก๋งไปเลยได้ด้วย ถึงผลจะแตกต่างกันออกไปตามระยะปะทะหรือชุดป้องกันที่ศัตรูใส่อยู่ก็เถอะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮึ่ย... พอเจอสถานการณ์จริงที่ต่างไปจากคู่มือทีไรนี่มันน่าปวดหัวชะมัด..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "คิดว่าผู้เชี่ยวชาญมันเป็นกันได้ง่ายๆ หรือไง? ยังต้องฝึกกันอีกเยอะเลยละ ฮุฮุ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "(ง่ำๆๆ) หืม? สัมผัสที่คุ้นเคยนี่มัน ไข่ปลาแซลมอนเหรอ? รสเค็มและกลมกล่อมของไข่ปลาแซลมอน\nเข้ากับซูชิเต้าหู้หวานมากกว่าที่คิดแฮะ..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เดี๋ยวก่อน! ชิ้นนั้นฉันเก็บไว้กินทีหลังนะ ห้ามแตะต้องเด็ดขาด!"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "อย่าหัวร้อนเรื่องซูชิเต้าหู้หวานต่อหน้ารุ่นน้องไปเลยน่า"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เอ้านี่ เอาหน้าไข่ไปกินซะสิ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไม่เอาเหอะ! ฉันก็จะกินไข่ปลาแซลมอนนะ!"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฮุฮุ.. อย่าทะเลาะกันนะทุกคน ฉันเตรียมซูชิเต้าหู้หวานมาหลายหน้าเลย แล้วก็ค่อยๆ กินกันด้วยละ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "นี่ มิยุจังก็ไม่ต้องสนใจพวกพี่เขามากไปนะ กินได้ตามสบายเลย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉะ... ฉันเหรอคะ...? ให้คนอย่างฉันกินซูชิเต้าหู้หวานที่ดูหรูหราแบบนี้ได้เหรอคะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แน่นอนสิ ก็ฉันห่อมากินด้วยกันไง"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ขะ... ขอบคุณค่ะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "งือ... อร่อยสุดๆ เลย!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ้ามมม~ ไม่ได้กินซูชิเต้าหู้หวานของรุ่นพี่นิโกะมานานแค่ไหนแล้วนะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ซูชิเต้าหู้หวานเครื่องแน่นและรสเด็ดแบบนี้ หากินจากที่อื่นในคิโวทอสไม่ได้เลยละ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฮุฮุ ได้ยินแบบนี้ก็ถือว่าคุ้มค่าที่ตั้งใจลุกขึ้นมาหุงข้าวตั้งแต่เช้าเลยแฮะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "อ้อ สูตรน้ำส้มสายชูที่ใช้ตอนหมักเต้าหู้เป็นสูตรพิเศษที่ฉันรู้คนเดียวด้วยละ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "(เอ๋? จะว่าไป เหมือนเพิ่งได้กินซูชิเต้าหู้หวานแบบเดียวกันมาเลย... หรือว่าจะจำผิดนะ...?)"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เอ่อ... ว่าแต่พวกรุ่นพี่รู้ได้ไงเหรอคะว่าฉันมาดักซุ่มอยู่ที่ไหน?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "จะให้พูดเองมันก็จะดูเหมือนอวยตัวเอง... แต่ฉันว่าฉันซ่อนตัวได้เก่งอยู่นะคะ..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "อ้อ งั้นเธอคือมิยุสินะ? นักเรียนใหม่ที่เป็นที่พูดถึงเพราะได้คะแนนเต็มจากการฝึกพรางตัว!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮะ... เฮือก..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "พรางตัวได้สมบูรณ์แบบตามข่าวลือเลยละ ถ้านิโกะไม่บอกพิกัดมา ต่อให้ซ่อนอยู่ตรงหน้าฉันก็คงหา\nไม่เจอแน่ๆ ถือว่าซ่อนตัวได้แนบเนียนมากเลย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ... เอ่อ... ขะ... ขอบคุณค่ะ... ว่าแต่รู้ได้ยังไง..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เธอใช้อุปกรณ์พรางตัวแบบพิเศษอะไรทำนองนั้นเหรอ? แล้วปกติใช้อัตราการขยายกล้องสโคปเท่าไร\nงั้นเหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "งะ... งือ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ยังไงก็เหอะ ถ้านายหน้าที่ซื้ออาวุธของเราไปคือรุ่นพี่จากกองทหาร FOX งั้นก็ไม่ต้องกังวลว่าอาวุธ\nของ SRT จะถูกเอาไปใช้ในเรื่องที่ไม่ดีสิเนอะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นั่นน่ะสิ ถ้าเป็นเงินที่ได้มาจากพวกรุ่นพี่ ก็ไม่ต้องกังวลเกี่ยวกับที่มาของเงินด้วย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "........."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คือว่า รุ่นพี่คะ ฉันขอถามอะไรบ้างได้หรือเปล่าคะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ได้สิ อยากถามอะไรก็ถามมาได้เลย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... ตอนที่เกิดการปฏิวัติคราวก่อน พวกรุ่นพี่เอาของอะไรออกไปจากชั้นใต้ดินของชาเล่ต์เหรอคะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อ่า... เอ่อ... คือว่า..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... แล้วก็ตอนที่ SRT ถูกสั่งปิด ทำไมถึงบุกเข้าไปในอาคารองค์การนักเรียนกันเหรอคะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เรื่องนั้นน่ะ..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "พวกเรายังบอกพวกเธอไม่ได้หรอก"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... เป็นความลับเหรอคะ?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เปล่า"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... เรายังไม่แน่ใจว่าพวกเธอคือ 'พันธมิตร' ของเราหรือเปล่าต่างหากล่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เดี๋ยวก่อนสิรุ่นพี่ พวกเราเป็นนักเรียนของ SRT เหมือนกันนะ...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ทำไมถึงพูดอย่างนั้นล่ะ..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้างั้นฉันขอถามอะไรอย่างหนึ่งสิ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ตอนนี้พวกเธอคิดว่าตัวเองเป็นปฏิปักษ์กับคุณครูของชาเล่ต์ได้หรือเปล่าล่ะ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "........."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "จริงสิ พวกเธอคงตัดสินใจไม่ได้สินะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "อาวุธต้องไม่ตัดสินใจอะไรเอง ถึงจะมีคุณค่า"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ที่ผ่านมาคงเหนื่อยกับการทำปฏิบัติการยากๆ มามากเลยสินะ หัวหน้ากองสึคิยูกิ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ตั้งแต่วันนี้เป็นต้นไป กองทหาร RABBIT จะถูกยุบ จากนี้ให้สมาชิกทุกคนย้ายมาอยู่กองทหาร FOX แทน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ยุบ...? ยุบกองทหาร RABBIT เหรอคะ...?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "อย่าเข้าใจผิดกันเลยนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เราไม่ได้จะให้พวกเธอเสียผลประโยชน์หรอก เราเคารพสิทธิในการตัดสินใจของสึคิยูกิในฐานะหัวหน้า\nกองทหารนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แต่ว่านี่... คือการที่รุ่นพี่เอาความรับผิดชอบที่จู่ๆ รุ่นน้องก็ต้องมาแบกรับไปจากเหตุการณ์ที่เกิดขึ้น\nกลับมาก็เท่านั้น"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "การเลือกสิ่งที่เจ็บปวดที่ตามมาพร้อมกับความลังเลนั่นน่ะ เรื่องนี้ปล่อยให้พวกเราเป็นคนจัดการเถอะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ถ้าเป็นการทำเพื่อการฟื้นฟูสถาบัน SRT ละก็... พวกฉันเตรียมตัวไว้..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "พวกเธอคงเหนื่อยกันมามากกับการใช้ชีวิตในค่ายมาเป็นเวลานานแล้วเลยละสิท่า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "........."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "จากนี้ไปเธอไม่ต้องแบกรับความรับผิดชอบเพื่อการฟื้นฟูสถาบัน SRT ต่ออีกแล้วละ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "คนที่ตำแหน่งสูงกว่าจะเป็นคนรับผิดชอบเอง สมาชิกกองทหารแต่ละคนให้กลับมาทำหน้าที่หลักในการ\nเป็นอาวุธ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "กองทหาร RABBIT ของพวกฉัน..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เอาละ หัวหน้ากองสึคิยูกิ ถึงเวลาตัดสินใจแล้ว"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ว่าจะฝากความรับผิดชอบและการตัดสินใจให้รุ่นพี่ แล้วไปทำหน้าที่เป็นอาวุธ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "หรือว่าจะโอบกอดความลังเลแล้วใช้อำนาจด้วยมีดที่ขึ้นสนิมนั่น"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกฉัน..."
+    },
+    {
+      "Text": "[ns] \"... รอเดี๋ยวก่อน!\""
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "... ผู้บุกรุกเหรอ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ทำไมถึงรู้จักที่นี่ได้ล่ะ...?!"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "...คุณครู [USERNAME]?"
+    },
+    {
+      "Text": "[s1] \"พวกเธอคือกองทหาร FOX สินะ? ยินดีที่ได้รู้จักนะ\""
+    },
+    {
+      "Text": "[s2] \"ซูชิเต้าหู้หวานที่ให้คราวก่อนอร่อยมากเลย\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...คุณครู [USERNAME]? อย่าบอกนะว่าตามพวกเรามาจากสวนสาธารณะน่ะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "........."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...คุณครู [USERNAME]? อย่าบอกนะว่าตามพวกเรามาจากสวนสาธารณะน่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ไม่ยักรู้เลยว่าถูกสะกดรอยตามมาด้วย..."
+    },
+    {
+      "Text": "[s3] \"ครูกลับไปหาที่สวนสาธารณะอีกรอบน่ะ แต่ก็ไม่เจอใครเลย...\""
+    },
+    {
+      "Text": "[s4] \"ก็เลยไปถามจากคนแถวนั้น เลยหาทุกคนเจอที่นี่น่ะ\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เป็นครั้งแรกที่ได้เจอตัวจริงๆ เลยนะคะ คุณครู [USERNAME]"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ฉันได้ยินมาว่าคุณครูต้องพยายามอย่างมากในการจัดการคิโวทอสที่สับสนอลหม่านไปทั่วจากการที่\nประธานองค์การนักเรียนหายไปน่ะค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... ต้องขอกล่าวขอบคุณในฐานะตัวแทนของสถาบันพิเศษ SRT ด้วยนะคะ"
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรหรอก ครูยินดี\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แต่ตอนนี้ฉันกำลังคุยกับหัวหน้ากองสึคิยูกิเรื่องสถาบัน SRT อยู่"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เพราะงั้นเลยอยากให้คุณครูปล่อยให้พวกฉันจัดการปัญหานี้เองค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ฉันได้ยินมาว่าคุณครูคือผู้ใหญ่ที่เคารพการตัดสินใจของนักเรียนน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"ครูเคารพอยู่แล้ว\""
+    },
+    {
+      "Text": "[ns5] \"แต่คิดว่าการเจอกันอย่างกะทันหันทำให้ทุกคนลำบากใจอยู่น่ะ\""
+    },
+    {
+      "Text": "[ns6] \"ขอเวลาให้มิยาโกะได้คิดอีกหน่อยได้ไหม?\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "...... เข้าใจแล้วค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "สมกับเป็นคุณครูชาเล่ต์ที่เชื่อใจนักเรียนทุกคนอย่างที่เขาลือกันเลยนะคะ "
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "คุณครูคะ พวกฉันเกลียดผู้ใหญ่อย่างคุณเอามากๆ เลยละค่ะ"
+    },
+    {
+      "Text": "[s] \"แหะๆ... พลังเหลือล้นกันจังเลยนะ...\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... ก่อนวัน D-Day แบบนี้ พวกฉันคงไม่มีความจำเป็นที่จะต้องเป็นปฏิปักษ์กับคุณครูหรอก"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "กองทหาร FOX ถอนกำลังทั้งหมด ให้แต่ละคนกลับกองบัญชาการและเตรียมตัวเพื่อปฏิบัติการต่อไป"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... หัวหน้ากองสึคิยูกิ ฉันส่งพิกัดไปให้ทางโทรศัพท์ของเธอแล้วนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าตัดสินใจเรื่องข้อเสนอในวันนี้ได้แล้วก็ให้ไปหาฉันที่พิกัดนั้น"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉัน..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... แล้วสักวันหนึ่งพวกเธอจะเข้าใจพวกเรา"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "........."
+    },
+    {
+      "Text": "ตอนต่อไป;ความทุกข์ใจของรุ่นน้อง"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第5話;前輩的影子"
+    },
+    {
+      "Name": "萌",
+      "Text": "……這是怎麼回事？\n有沒有人能解釋一下？"
+    },
+    {
+      "Name": "萌",
+      "Text": "我在附近的[ruby=Node]節點[/ruby]檢查監視器的時候，\n突然被從背後套上了紙袋……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我，我也是……在躲藏時突然被從背後襲擊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "被矇著眼睛丟進不知道什麼地方……被咕嚕咕嚕地滾了過來……"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚……還是好不舒服……"
+    },
+    {
+      "Name": "萌",
+      "Text": "話說，為什麼連咲希都跟我們一起被相親相愛地綁在這裡了？\n你不是和都子一起突入大樓了嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這……我也不太清楚。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "在進攻中央通道的時候，頭部突然受了重擊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "等回過神來就被綁在這裡了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "也就是說……我們被綁架了嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "雖然還不清楚詳細狀況……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呿……太大意了。"
+    },
+    {
+      "Name": "美優",
+      "Text": "吶……對我們發動奇襲的，是會進行違法交易的武器商人對吧……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "那像這樣饒我們一命，是不是為了把我們賣到某個地方去……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "像是被送去研究機構用於新武器的實驗……\n或是要我們穿上軟綿綿的衣服做各種事情，\n又或是強迫我們每次回話都要在結尾加上「喵～」之類的……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……最後的那個有點奇怪吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不用擔心，美優。還有都子在。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子他一定會來救我們的才──"
+    },
+    {
+      "Name": "都子",
+      "Text": "大家都沒事吧！？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子……！"
+    },
+    {
+      "Name": "美優",
+      "Text": "都子醬，你來救我們啦……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "啊，那個……這個嘛……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我也被抓住了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "這樣就是第4個人了……全員失敗。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果這是SRT的CQB考試，你們就要被當掉了吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "那，那個裝備，該不會是……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "FOX小隊的前輩們……？\n為，為什麼會在這裡……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "嘛，簡單來說──這是為了後輩們準備的驚喜派對。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "聽說你們最近在奇普托斯各地都很活躍，還期待你們有所成長了呢……\n看來是想太多了。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "突入陌生地點時竟然沒人掩護就進攻……\n就像是自己說著「請盯上我吧」一樣。你們以為是來野餐的嗎？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "哎呀哎呀胡桃醬，事情都結束了，就說到這邊吧。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "他們應該也沒預料到這種情況哦。\n況且如果對方是普通的傭兵或武器商人，那個戰術也已經很足夠了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……太天真了。\n敵人可不會總是依照自己的預期現身啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……對不起。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "總，總之先來吃點點心吧！\n我準備了很多豆皮壽司哦。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "邊吃邊聊好嗎？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我想……我們對彼此都有很多話想說吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "（嚼嚼）真是的──你們太在意瑣碎的事了，所以反應才會這麼慢的啊。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "要是像剛才一樣，敵人在難以變更武器方向的地點從反方向出現該怎麼做？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……切換成輔助武器射擊，之類的嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "教戰手冊是這麼寫的沒錯。\n但實戰中的正確解答是「用槍托直接敲下去」。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "比起替換武器，直接使用槍托更能快速地對敵人發動攻擊。\n當然，答案是會隨著敵人的防護衣或交戰距離而改變沒錯……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔唔……和教戰手冊不同的實戰狀況總是讓人很頭痛……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "要成為老手可沒那麼容易。\n還需要繼續努力。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "（嚼嚼）唔嗯～這個口感……是鮭魚卵嗎？\n意外的和豆皮壽司很搭呢。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "等等，別碰那個啊！\n那是我留下來要之後再吃的！"
+    },
+    {
+      "Name": "御伽",
+      "Text": "啊哈哈，抱歉抱歉。\n不要在後輩面前這麼一板一眼的嘛～"
+    },
+    {
+      "Name": "御伽",
+      "Text": "來，這個有蛋的給你。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "我不要蛋！\n我喜歡的是鮭魚卵！"
+    },
+    {
+      "Name": "仁子",
+      "Text": "好了好了，不要吵架。\n豆皮壽司還有很多的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "來，美優醬也不要有壓力，隨意吃吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "我，我我……我這種人真的可以吃這麼棒的豆皮壽司嗎……？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "當然囉。\n我就是做來給大家吃的。"
+    },
+    {
+      "Name": "美優",
+      "Text": "謝，謝謝……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……好，好好吃！"
+    },
+    {
+      "Name": "萌",
+      "Text": "哈啊～仁子前輩的豆皮壽司都多久沒吃到啦？"
+    },
+    {
+      "Name": "萌",
+      "Text": "放了這麼多配料的豆皮壽司，可是哪裡都買不到的哦的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "呵呵，謝謝誇獎。\n不枉費我一大早就開始準備呢。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "特別是這個煮豆皮的醬汁可是我的原創配方。\n我想應該是僅此一家的哦。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "（……仔細想想，最近好像也吃過類似的豆皮壽司……是錯覺嗎……？）"
+    },
+    {
+      "Name": "美優",
+      "Text": "那個……我想問一個問題，前輩是怎麼找出我埋伏的地方的呢？"
+    },
+    {
+      "Name": "美優",
+      "Text": "雖然這麼說不太好意思……但我覺得應該躲得很好才對呀……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "啊，你就是美優嗎？\n那位據說在偽裝訓練獲得滿分的新生！"
+    },
+    {
+      "Name": "美優",
+      "Text": "噫，噫噫……！？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "真是相當完美的偽裝呢！\n在仁子告訴我座標之前，我甚至完全沒有注意到！"
+    },
+    {
+      "Name": "美優",
+      "Text": "謝，謝謝……太，太近了……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "你用了什麼特殊的迷彩裝備嗎？\n我還很好奇瞄準鏡的倍率！"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚，嗚嗚嗚……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "總，總之，買走那些武器的人是FOX小隊的前輩們就太好了。\n這樣SRT的武器應該就不會被用來做壞事了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "就是說啊。\n而且既然是前輩們給的錢，也不用擔心來源。"
+    },
+    {
+      "Name": "都子",
+      "Text": "…………"
+    },
+    {
+      "Name": "都子",
+      "Text": "那個，前輩們。\n我可以問一個問題嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "當然可以囉。儘管問吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……上次事件時，前輩們從夏萊拿走的是什麼東西呢？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "呃……那個是……"
+    },
+    {
+      "Name": "都子",
+      "Text": "還有──決定要關閉SRT時，為何襲擊了聯邦學生會的大樓呢？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那個……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "現在還不能告訴你們。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是機密，是嗎？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "不。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "因為目前，你們還不是「我們」的友軍。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "先等一下。\n我們不都是SRT隊員嗎……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "為什麼這麼說……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……我問你們一個問題。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果[ruby= ・     ・ ]任務[/ruby]要求你們與夏萊的老師為敵，你們會怎麼做？"
+    },
+    {
+      "Name": "全體",
+      "Text": "…………"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "沒錯，你們無法判斷。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "武器──正因為不會自己做出判斷，才有其價值。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "一直以來執行各種困難的作戰真是辛苦你了，月雪小隊長。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "──RABBIT小隊自即刻起解散。\n各小隊員今後將以FOX小隊的分隊行動。"
+    },
+    {
+      "Name": "都子",
+      "Text": "解散……？RABBIT小隊……？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "希望你們不要誤會。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "我們也不希望對你們不利。\n就尊重月雪小隊長擁有的裁量權吧。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "沒什麼，只是重新由我們來背負因突如其來的事故而讓後輩背負的責任罷了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "今後，困難的選擇全部交給我們就行了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "但是……如果是為了讓SRT特殊學園復活的話，我們也有一定的覺悟──"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "長期的露宿生活已經讓所有人都很勞累了吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "…………"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "已經不必，負起重建SRT特殊學園的責任了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "把剩下的事交給我們，各小隊員只要做好身為武器的本分即可。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們，RABBIT小隊……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "來吧，月雪小隊長──做出決定吧。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "是要把責任和判斷交給我們，做好身為武器的本分──"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "還是要繼續抱持著猶豫，以生鏽的刀刃宣揚正義呢？"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們……"
+    },
+    {
+      "Text": "[ns]「……先等一下！」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……入侵者？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "怎麼會知道這裡……！？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……[USERNAME]老師？"
+    },
+    {
+      "Text": "[s1]「你們就是FOX小隊？很高興見到你們。」"
+    },
+    {
+      "Text": "[s2]「之前的豆皮壽司非常好吃哦。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……[USERNAME]老師？你怎麼會來這裡？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "…………"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……[USERNAME]老師？你怎麼會來這裡？"
+    },
+    {
+      "Name": "美優",
+      "Text": "難，難道是跟在我們後面……？"
+    },
+    {
+      "Text": "[s3]「因為大家都突然不見了……」"
+    },
+    {
+      "Text": "[s4]「所以我就在街上四處打聽邊找你們。」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "初次見面，[USERNAME]老師。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "久仰大名，聽說老師安頓了因聯邦學生會長不在而陷入混亂的奇普托斯。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……我代表SRT特殊學園，致上最深的謝意。"
+    },
+    {
+      "Text": "[s]「不用客氣。」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "但是，我正在跟月雪小隊長討論的是SRT特殊學園內部的事。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "因此，希望老師能把之後的問題交給我們處理。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "我聽說……老師是個會尊重學生意志的大人。"
+    },
+    {
+      "Text": "[s]「那當然。」"
+    },
+    {
+      "Text": "[ns5]「但是大家好像都對這麼突然的問題感到很困擾。」"
+    },
+    {
+      "Text": "[ns6]「可以再給都子一點時間嗎？」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……我明白了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "不愧是夏萊的老師。\n真像是能獲得所有學生信賴之人的發言。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "我們……最討厭像你這樣的大人了。"
+    },
+    {
+      "Text": "[s] 「哈哈……果然很有活力呢……」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……D-Day即將到來的現在，沒必要刻意與老師為敵。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "──FOX小隊在此撤退。\n請各小隊員回到HQ，進行下次作戰的準備。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……月雪小隊長。\n我剛才傳送了一個座標到你的手機裡。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果你有意接受我的提案，就到那裡去吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……你們總有一天也會了解的。"
+    },
+    {
+      "Name": "都子",
+      "Text": "…………"
+    },
+    {
+      "Text": "下一話;後輩的苦惱"
+    }
+  ]
+}

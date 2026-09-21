@@ -1,0 +1,2467 @@
+{
+  "TitleJP": "私たちの憎悪",
+  "TitleKR": "우리의 것인 증오",
+  "TitleEN": "Our Own Hatred",
+  "TitleTH": "ความเกลียดชังของเรา",
+  "TitleTW": "屬於我們的憎恨",
+  "DescJP": "先生と対峙したスバルは、エデン条約後にアリウスが見捨てられたことへの憎悪をぶつける。トリニティの意向を汲み、アリウスを見過ごした先生の選択を断罪し、「アリウスのやり方」で生きると宣言。先生とスクワッドにアリウスからの退去を要求する。そんな中、サオリはスバルの「やり方」の先に何があるのかと問いかける。",
+  "DescKR": "선생님 일행은 포르타 파시스에서 '무언가 달라진' 스바루와 만난다.",
+  "DescEN": "Something seems different about Subaru when Sensei and the Squad catch up with her at Porta Pacis.",
+  "DescTH": "กลุ่มของคุณครูได้พบกับสุบารุที่ 'มีบางอย่างแปลกไป' ที่ปอร์ตาปาซิส",
+  "DescTW": "老師一行人在波塔帕西斯遇見「有所改變」的昴。",
+  "DialogJP": [
+    {
+      "Text": "第1話;私たちの憎悪"
+    },
+    {
+      "Name": "スバル",
+      "Text": "正直……少し、驚いています。\nまさかこのポルタパシスに先生がいらっしゃるとは。"
+    },
+    {
+      "Text": "[s] \"生徒が急にいなくなったら、探しに行くものだからね。”"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……随分と面倒見が良いのですね。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "黙っていなくなる生徒なんて、放っておけばいいじゃないですか。"
+    },
+    {
+      "Text": "[s] \"……無断欠席の生徒がいたら、心配にもなるよ。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "……そもそも、授業なんてお願いした覚えもありませんが。"
+    },
+    {
+      "Text": "[s1] \"生徒はどうして生徒なんだと思う？"
+    },
+    {
+      "Text": "[s2] \"学園に通って、勉強するから生徒なんだと思っているよ。"
+    },
+    {
+      "Text": "[ns] “学ぶからこそ、生徒なんだよ。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "ですがそれは……[ruby=・]先[/ruby][ruby=・]生[/ruby][ruby=・]の[/ruby][ruby=・]基[/ruby][ruby=・]準[/ruby][ruby=・]で[/ruby][ruby=・]定[/ruby][ruby=・]め[/ruby][ruby=・]ら[/ruby][ruby=・]れ[/ruby][ruby=・]た[/ruby]勉強ですよね？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "アリウスには、アリウスなりのやり方があります。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "私たちの意思を否定して……トリニティの勉強を押しつけるおつもりなのですか？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……「そんなつもりはない」とでも？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ふふっ。おっしゃらずとも分かりますよ、そのくらい。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "今の私は、ええ……そういうことが理解できるようになったみたいでして。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "少なくとも――アリウス分校での出来事については。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "まぁ、それはそれとして。\nアリウス[ruby=・   ・]分校[/ruby]。私はこの呼び方があまり好きではありません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "だって……それは、どこかに属する学園を意味であることをするでしょう？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ではここで、一つ質問です。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "どうして、あの日――"
+    },
+    {
+      "Name": "スバル",
+      "Text": "トリニティが、何百年ぶりかに……アリウスに土足で踏み込んだ――あの日。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "[ruby=みその]聖園[/ruby]ミカ、ベアトリーチェ、そして……スクワッドが、勝手に自分たちの運命を決めてしまった――あの日。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "その陰で……[ruby=私たち]他のアリウス生たち[/ruby]は、自らの道すら選べなくなってしまった――あの日。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "先生はどうして……[ruby=みその]聖園[/ruby]ミカやスクワッドに対しては、あれほどまで慈しんでくださったのに――"
+    },
+    {
+      "Name": "スバル",
+      "Text": "[ruby=私たち]他のアリウス生たち[/ruby]には、同じように手を差し伸べてくれなかったのですか？"
+    },
+    {
+      "Text": "[ns] \"それは……。”"
+    },
+    {
+      "Text": "（その瞬間、「あの日」の直後に交わした会話を思い出した）"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "このようなことを申し上げるのは、大変心苦しいのですが――"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "先生には、アリウス分校の件から手を引いていただきたいのです。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "本来、この問題は[ruby=自分たち]トリニティ[/ruby]で解決すべきもの。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "だというのに……先生の力をお借りする結果となってしまって、面目次第もございません。"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "パテル分派の[ruby=・]臨[/ruby][ruby=・]時[/ruby][ruby=・]代[/ruby][ruby=・]表[/ruby]として――"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "そして、サンクトゥス分派の[ruby=・]臨[/ruby][ruby=・]時[/ruby][ruby=・]代[/ruby][ruby=・]表[/ruby]として――"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "心より、お詫び申し上げます。"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "……重ねて、申し訳ございません。ご説明を失念しておりました。\nパテル分派の[ruby=・]代[/ruby][ruby=・]表[/ruby]は、今なおミカ様ですが――"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "しばらくは、第一線から退かざるを得ないでしょう。\n先生もご存知の通り、聴聞会は中断されたままですから。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "セイア様についても同様です。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "今回のアリウス攻防戦に参加こそされましたが、未だ全快とは言えません。\nしばらくは療養を続けられる予定です。"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "ですので、[ruby=・]臨[/ruby][ruby=・]時[/ruby][ruby=・]代[/ruby][ruby=・]表[/ruby]である私たちの言葉を以って、パテル分派及びサンクトゥス分派の総意だと捉えていただいて構いません。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "あるいは……ナギサ様率いるフィリウス分派は、また別の意見を出されるかもしれませんが。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "ですが、ティーパーティの意思は、多数決によって決定されます。"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "これほどの大事ですし、少数意見も尊重されてしかるべきですが……過半数の意見を覆すには至りません。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "ですから……先生。どうか、私たちの行く末を見守っていていただきたいのです。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "私たちの問題を、私たち自身で解決させてください。"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "もちろん、先生が動いてくだされば――"
+    },
+    {
+      "Name": "ティーパーティーの生徒A",
+      "Text": "ずっと早く、もっと良い形で、決着するのかもしれません。"
+    },
+    {
+      "Name": "ティーパーティーの生徒B",
+      "Text": "けれど、大人に頼り切ってしまえば……生徒の成長する機会がなくなってしまいますから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……そういうことだったのですね。"
+    },
+    {
+      "Text": "[ns] \"！？\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "ふふっ、そんなに驚かないでください。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "およそ分かる、と言ったではないですか。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ですが……先生は少しばかり信じすぎているのでは？\n生徒を――それも、トリニティの上層部を。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "サンクトゥス分派とパテル分派、それぞれの臨時代表。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "代表が職務を離れた途端、その座に収まった生徒たち。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "何の後ろ盾もなく、そんなことができたとでも？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "あそこは……いつ何時だって、生馬の目を抜くような場所だというのに。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ともあれ、理解はしました。そういう事情であれば、先生に大きな責任は無い――\nどころか、全く無いとさえ言えるかもしれません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "まあ、あの日以降も変わらず、アリウスは地獄の渦中だったという事実は変わりませんが。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "今後は気をつけたほうが良いかと。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "先生の立場では、悪意をもって近づく生徒がいたとして……\nその罠から逃れるのは難しいでしょうから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "事実、先生は見落とされていたわけですから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "アリウスに残された子が、勇気を振り絞って踏み出した外の世界で――"
+    },
+    {
+      "Name": "スバル",
+      "Text": "どこにも馴染めず、周囲の視線に耐え切れず……結局、「[ruby=自分]アリウス[/ruby]は、[ruby=自分]アリウス[/ruby]の生き方しかできない」と挫折してしまうかもしれない。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "この世界のどこにも、[ruby=自分]アリウス[/ruby]の居場所はないのだと。\n大きな傷を負って、アリウスに戻らざるをえないかもしれない。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "その可能性を、見落としたんです。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "トリニティの上層部を信じる、という選択の結果として。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "それとも……他の学園に掛かりきりで、\nアリウスなんて端から気にも留めていなかったのでしょうか。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "[ruby=いま]現在[/ruby]は、過去を礎にした建築物です。\nすべての過去は、現在と無関係ではありません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……過去は過去。過去の憎悪は、現在を生きる者には関係ない。そう言う人だっているでしょう。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ですが私は、その意見にはどうしても賛同できません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "過去の結果として、現在のアリウスがあり……\nいま現在、アリウスは雁字搦めにされているのですから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "先生は言いましたよね。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "学園に通って勉強をするのが生徒だ、と。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "でしたら、私はこう答えましょう。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ポルタパシス――ここに記録されているすべてが、\n私たちにとっての「勉強」です。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "生徒の本分が「勉強」であるならば……私はちゃんと行動してきたと思いますよ。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "その本分を守るために、ここへ来たのですから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "もしも、「これは勉強じゃない」と先生がおっしゃるのなら。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "私は聞きたい。\n勉強に優劣や区別をつけることが、教育者の姿勢なのですか――と。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "罰は、受け継がれていくものです。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "その事実だけは――誰もが認めなければならない。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "過去の「恩恵」だけを享受して、「罰」を背負わない。\n……そんなことは認められません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "「罰」を背負わないと言うのなら、過去が残したあらゆるものすべて――"
+    },
+    {
+      "Name": "スバル",
+      "Text": "知識、知恵、資産、すべての権利や権力をも――「罰」と同じように、拒むべきでしょう。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……欲しいものだけを選び取る？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "[ruby=私たち]アリウス[/ruby]からすれば、吐き気をもよおすような傲慢でしかありません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "あの日、先生はトリニティのやり方を尊重することにし……\nだから、アリウスには干渉しなかった。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "そんな先生を……私は許しません。\n[ruby=・]罪[/ruby][ruby=・]の[/ruby][ruby=・]無[/ruby][ruby=・]い[/ruby][ruby=・]者[/ruby]を、許すことはできませんから。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "ですがその代わり……アリウスにも、「アリウスのやり方」で生きる自由を、認めてほしいのです。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "トリニティには、トリニティのやり方があったように。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "まさか、一方だけ尊重して、もう一方は認めないなどとは……おっしゃいませんよね？"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "[ruby=私たち]アリウス[/ruby]は――馴染めないんです。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "外の世界は、魅力的かもしれません。\nですが、そこに[ruby=私たち]アリウス[/ruby]の居場所はありませんでした。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "実際、適応できずに戻ってきた子はたくさんいます。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "だから私は、その子たちを受け入れて、アリウスのやり方で進む道を示しました。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "試験も、勉強も、要りません。\n[ruby=私たち]アリウス[/ruby]は、[ruby=私たち]アリウス[/ruby]の生き方で生きていきます。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "だから……お願いします。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "スクワッドを連れて、アリウスから立ち去ってください。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "そうしていただけるなら、先生やスクワッドに、決して危害を加えません。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "「黙示録の天使」については……。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "こちらで、どうにかします。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "少なくとも「ラッパ吹きの天使」は、私が確実に対処できますから。"
+    },
+    {
+      "Text": "[s] \"「ラッパ吹きの天使」……？\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "おや、この名を聞いて、先生にも心当たりが？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "さすがです。生徒のこととなれば、何であれ察しがいい。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "であるならば、私たちの願いも……理解していただけると信じています。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "スバル",
+      "Text": "さあ、お帰りはあちらです。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "後ろで控えているスクワッドの皆さんも、ご一緒に。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "そして――"
+    },
+    {
+      "Name": "スバル",
+      "Text": "もう二度と、この地を訪れないでください。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……今まで、お疲れ様でした。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "スバル。アリウスのやり方、と言っていたな。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……サオリ。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "言い残したことがあるのなら、伺いましょう。"
+    },
+    {
+      "Name": "スバル",
+      "Text": "それを口実に戻ってこられても、面倒なだけですから。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "言い残したこと……ではないな。一つ、聞きたいことがあるんだ。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "お前の言うアリウスのやり方――"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "その先には……何があるんだ？"
+    },
+    {
+      "Name": "スバル",
+      "Text": "……！"
+    },
+    {
+      "Text": "次回;それでも"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;우리의 것인 증오"
+    },
+    {
+      "Name": "스바루",
+      "Text": "솔직히 말씀드리자면, 놀랐다는 이야기를 드리고 싶네요. 이 포르타 파시스까지 찾아오시다니요."
+    },
+    {
+      "Text": "[s] \"학생이 가출했는데, 당연히 데리러 와야지.\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "가출이라뇨. 누가 들으면 오해하겠네요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저희의 집은 여기, 아리우스입니다. 애초에 나간 적도 없어요."
+    },
+    {
+      "Text": "[s] \"……학생이 등교를 거부했는데, 당연히 데리러 와야지.\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "……애초에 저희, 수업해 달라고 한 적 없는데요……."
+    },
+    {
+      "Text": "[s1] \"어허. 학생의 정의가 뭐니.\""
+    },
+    {
+      "Text": "[s2] \"학교에 다니면서 공부하는 사람이잖아.\""
+    },
+    {
+      "Text": "[ns] \"학생이란 건 모름지기, 공부를 해야 학생인 거란다!\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇지만 그 공부도 결국, 선생님의 기준에서 이루어지는 것 아닌가요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "아리우스는, 아리우스의 방식으로 공부해 나가면 되는 것이라고 생각합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "아니면 아리우스에게 트리니티의 공부를 강요하려 하시는 건가요?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "하하. 그런 말은 하지 않았다는 표정을 하고 계시는군요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "네. 선생님께서는 이야기하지 않으셨지만"
+    },
+    {
+      "Name": "스바루",
+      "Text": "지금의 저는, 어째서인지 그런 것들을 알 수 있게 되었습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "적어도 아리우스 분교 안…… 이 근처에서 일어나는 일들이라면 말이죠."
+    },
+    {
+      "Name": "스바루",
+      "Text": "……애초에, 아리우스 분교라는 이름 자체가 조금 마음에 들지 않기는 하네요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그건 결국 어딘가에 종속된 학교라는 의미니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그러면 여기에서 깜짝 질문 하나. 대답해 주실 수 있으신가요, 선생님?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "어째서 그날."
+    },
+    {
+      "Name": "스바루",
+      "Text": "트리니티가 아리우스에 몇백 년 만에 감히 발을 들인 날."
+    },
+    {
+      "Name": "스바루",
+      "Text": "미소노 미카와 베아트리체, 그리고 스쿼드가 멋대로 자신들의 운명을 결정지은 날."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그리고 그랬기 때문에, 다른 모든 아리우스는 오히려 스스로를 결정할 수 없게 되었던 날."
+    },
+    {
+      "Name": "스바루",
+      "Text": "선생님은 어째서 미소노 미카와 스쿼드를 보살폈던 만큼."
+    },
+    {
+      "Name": "스바루",
+      "Text": "다른 아리우스를 보살펴 주지 않으셨나요?"
+    },
+    {
+      "Text": "[ns] \"그건……!\""
+    },
+    {
+      "Text": "(순간, '그날' 직후 나누었던 대화가 머릿속을 스쳤다.)"
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "이런 말씀을 드리게 되어서 죄송하지만."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "선생님은, 아리우스 분교의 문제에서 이만 손을 떼 주셨으면 합니다."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "네. 아리우스 분교의 문제는, 본디 저희 트리니티가 자체적으로 해결했어야 하는 문제였으니까요."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "오히려 여기까지 선생님의 도움을 구하게 된 것에, 면목이 없다고밖에 말씀드릴 것이 없습니다."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "현 파테르 분파의 임시 대표로서."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "그리고 현 상투스 분파의 임시 대표로서."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "선생님께, 진심으로 사과드리고자 합니다."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "미카 님은 분명 아직도 파테르 분파의 대표이시지만, 당분간은 일선에서 물러나셔야 할 겁니다."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "선생님께서도 아시다시피, 중단되었던 청문회를 속행하셔야 하기도 하고요."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "세이아 님은 이번 아리우스 공방전에 분명히 참여하셨지만."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "아직 몸이 완전히 회복되지 않으신 탓에, 잠시 동안은 다시 요양을 취하셔야 할 것 같습니다."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "그러니 지금은 이것이, 파테르 분파와 상투스 분파의 총의라고 보아주시면 감사하겠습니다."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "나기사 님의 필리우스 분파는 다른 의견을 제시하실 수도 있겠습니다만."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "본디 티파티의 의사 결정 구조는 다수결로 이루어지도록 되어 있으니까요."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "특히 이렇게 학원에 있어서 중대한 문제일수록, 한 분파는 타 분파의 다수 의견을 결코 무시할 수 없기도 하고요."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "그러니, 선생님. 저희의 문제를 저희가 해결할 수 있도록 지켜보아 주세요."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "저희에게 조금만 더 기회를 허락해 주셨으면 합니다."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "물론 선생님께서 나서 주신다면, 저희가 하는 것보다도."
+    },
+    {
+      "Name": "티파티 부원 A",
+      "Text": "훨씬 빠르고 효율적이며 좋은 모습으로 모든 것이 마무리 지어질 가능성이 높겠습니다만."
+    },
+    {
+      "Name": "티파티 부원 B",
+      "Text": "모든 것을 어른에게 의지하면, 학생이 성장할 부분이 없어지는 것도 사실일 테니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "아하, 그러셨군요."
+    },
+    {
+      "Text": "[ns] \"?!?!\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "하하하. 그렇게 너무 놀라지 마세요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "이 근처에서 일어나는 일이라면, 대강 알 수 있다고 말씀드렸잖아요?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "하지만 선생님도 순진하시군요. 아니면 학생을 너무 믿으셨거나요. 그것도, 트리니티의 상층부를 말이죠."
+    },
+    {
+      "Name": "스바루",
+      "Text": "상투스 분파와 파테르 분파의 임시 대표."
+    },
+    {
+      "Name": "스바루",
+      "Text": "두 분파의 대표가 잠시 직을 수행하지 못하게 된 상황에서, 곧바로 그 자리를 대행한 학생들이."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그 트리니티의 상층부에서, 아무것도 없이 그 위치에 갈 수 있었을까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그곳은 아무리 스스로 자기들의 현실을 부정하고 싶어도, 독사의 소굴이라는 사실을 떨쳐낼 수 없는 곳일 텐데요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "알겠습니다. 그런 것이었다면 일단 선생님의 귀책은 매우 적거나, 아예 없는 것이라고도 해석할 수 있겠군요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇다고 해서 아리우스가 그날 이후로도, 지옥의 한복판에서 한 발짝도 벗어날 수 없었다는 사실은 변하지 않겠지만요."
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "조심하세요. 선생님. 선생님은 지금의 위치상, 어떤 학생들이 나쁜 마음을 먹고 선생님을 속이려고 하면."
+    },
+    {
+      "Name": "스바루",
+      "Text": "웬만해서는, 그 올가미에서 벗어날 수 없으실 테니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는 가끔 이런 생각을 하곤 했습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "아리우스 아이들이 용기를 내어 나아가 본 세상에서, 오히려 더욱 큰 상처를 받고 돌아와야 했을 때."
+    },
+    {
+      "Name": "스바루",
+      "Text": "어디에서도 적응하지 못하고, 주위의 시선을 견디지 못한 끝에, 살아온 대로밖에 살아갈 수 없다며 좌절하곤 했을 때."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그래서 세상 어디에도 아리우스 아이들이 있을 곳이 없다는 사실을 절감하곤 했을 때."
+    },
+    {
+      "Name": "스바루",
+      "Text": "……아리우스가 트리니티로부터 추방되지 않았다면, 우리 아이들은 어떤 모습으로 살아갈 수 있었을까, 하고요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "선생님은 그런 생각, 한 번은 해 보셨나요?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "아니면 다른 학교들 사정을 돌보느라 너무 바빠서, 아리우스 같은 것은 아예 신경 쓸 대상도 아니셨나요?"
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "……현재는 과거라는 기반 위에 만들어진 건축물입니다. 모든 현재는 과거와 결코 무관하지 않죠."
+    },
+    {
+      "Name": "스바루",
+      "Text": "누군가는 이것을, 우리의 것이 아닌 증오라고 이야기하겠지만."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는 여전히, 그 관점에 동의하기 어렵다고 대답하겠습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그 과거의 결과로 다다르게 된 것이 지금 아리우스의 현재이며, 그 현재가 모든 방식으로 아리우스를 옭아매고 있기 때문입니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "공부라는 이야기를 하셨던가요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "학교에 나와 공부를 하는 것이야말로 학생이라고요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇다면 저는 이런 대답을 돌려드리고자 합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "포르타 파시스. 여기에 기록된 모든 것이, 우리의 공부라고요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "학생의 본분이 공부라고 하셨죠? 그렇다면 저는 제대로 행동한 것 같네요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는 그 본분을 지키기 위해, 이곳으로 온 것이었으니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그런 건 공부가 아니라고, 만에 하나 선생님이 말씀하신다면."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는, 공부에 차등과 구분을 두는 것이 교육자의 자세인 것이냐고 되묻고자 합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "인간의 죄는, 인간에게 이어집니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그 사실만은, 모두가 인정해야 합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "과거의 모든 혜택은 이어받으려 하면서, 그 죄는 이어받지 않겠다고 하는 것은 모순입니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "만일 과거의 죄를 이어받지 않겠다고 거부하겠다면, 과거가 남긴 다른 모든 것들에 대해서도 마찬가지여야 합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "지식, 지혜, 유산, 물질적 풍요, 그리고 지금 행사할 수 있는 모든 권리와 권력……."
+    },
+    {
+      "Name": "스바루",
+      "Text": "자기들의 배를 불려 줄 그런 것들은 당연하다는 듯이 받으려 하면서, 과거의 죄를 책임지지 않겠다고 하는 것은."
+    },
+    {
+      "Name": "스바루",
+      "Text": "아리우스가 보기에는, 구역질 나는 위선일 뿐입니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그날, 선생님이 트리니티의 방식을 인정하셨기에, 아리우스에 그 이상 간섭하지 않으셨다는 점은 이해했습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는 그 부분에서 선생님을…… 용서하지 않으려 합니다. 죄가 없는 자를 용서할 수는 없는 일이니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "하지만 아리우스에게도, <아리우스의 방식>으로 살아갈 자유를 허락해 주셨으면 합니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "트리니티에 트리니티의 방식이 있었듯, 아리우스에도 아리우스의 방식이 있는 것이니까요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "설마 한쪽은 존중하고, 한쪽은 존중하지 않겠다는 말씀은 하지 않으시겠지요?"
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "우리는, 어울리지 않아요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "바깥의 삶이라는 것은 달콤해 보이지만, 거기에 아리우스가 있을 자리는 없었습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "말씀드렸듯이, 바깥에 적응하지 못하고 돌아온 아리우스의 아이들은 많았습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "저는 그 아이들을 거두고, 아리우스의 방식으로 나아갈 길을 제시했죠."
+    },
+    {
+      "Name": "스바루",
+      "Text": "시험도 공부도 필요 없어요. 우리는 살아온 대로 살 겁니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇기에 이 시점에서 부탁드리고 싶은 것은, 하나뿐입니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "스쿼드와 함께, 아리우스를 조용히 떠나 주세요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇게만 해 주신다면, 저는 선생님과 스쿼드에게 아무런 해를 끼치지 않겠습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "<계시록의 천사>는……."
+    },
+    {
+      "Name": "스바루",
+      "Text": "……."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그 부분은 저희가 처리하겠습니다. 이 부분은 장담 드릴 수 있습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "적어도 <나팔 부는 천사>는, 제가 확실하게 어떻게든 할 수 있는 것이니까요."
+    },
+    {
+      "Text": "[s] \"<나팔 부는 천사>......?\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "제가 그 이름을 붙였다는 것에 대해, 무언가가 있다고 생각하고 계시는군요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "맞습니다. 역시 선생님이시네요. 학생에 대한 것이라면, 그게 무엇이든 이해가 빠르시군요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그렇다면 다시 한번, 제가 아리우스의 방식대로 살아가겠다고 말씀드린 것 역시, 이해해 주실 거라고 믿어요."
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "스바루",
+      "Text": "자. 나가는 길은 여기입니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "뒤에 따라오고 있는 스쿼드 역시, 이 길을 따라 나가 주시면 될 것 같습니다."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그리고."
+    },
+    {
+      "Name": "스바루",
+      "Text": "다시는 이곳을 찾지 말아 주세요."
+    },
+    {
+      "Name": "스바루",
+      "Text": "모두, 지금까지 수고 많으셨습니다."
+    },
+    {
+      "Name": "사오리",
+      "Text": "아리우스의 방식이라고 했나, 스바루?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "……사오리."
+    },
+    {
+      "Name": "스바루",
+      "Text": "마지막으로 할 말이 남아 있나요? 그렇다면 듣도록 하죠."
+    },
+    {
+      "Name": "스바루",
+      "Text": "그 일을 빌미 삼아 다시 아리우스로 돌아오려고 한다면, 서로 곤란해질 뿐이니까요."
+    },
+    {
+      "Name": "사오리",
+      "Text": "마지막으로 할 말…… 까지는 아니겠다만, 묻고 싶은 것이라면 있다."
+    },
+    {
+      "Name": "사오리",
+      "Text": "네가 이야기하는 아리우스의 방식 말인데."
+    },
+    {
+      "Name": "사오리",
+      "Text": "그 앞에는, 무엇이 있지?"
+    },
+    {
+      "Name": "스바루",
+      "Text": "……!"
+    },
+    {
+      "Text": "다음화;그럼에도 불구하고"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;Our Own Hatred"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I have to say, I'm surprised. I didn't expect you to come all the way to Porta Pacis."
+    },
+    {
+      "Text": "[s] \"It's my solemn duty to fetch runaway students.\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Me? A runaway? You know, some people might not like what that implies."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Our home is right here, in Arius. How can I be a runaway, when I've never left home?"
+    },
+    {
+      "Text": "[s] \"...A student is refusing to come to school. I had to come.\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...We never asked you to teach us in the first place."
+    },
+    {
+      "Text": "[s1] \"Ahem. What is a 'student,' exactly?\""
+    },
+    {
+      "Text": "[s2] \"Someone who goes to school and studies, right?\""
+    },
+    {
+      "Text": "[ns] \"You can't be a student without studying too!\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You mean, \"without studying\" according to your methods and teachings, right?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Arius will study according to Arius' methods and teachings."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Or are you trying to force Trinity's way of life and studying onto Arius?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Haha. You look so affronted, as if to say, \"I never said anything like that!\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Maybe not in so many words. However..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I can understand these things now, for whatever reason."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "At least, I can see what's happening inside Arius, and around us."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...To begin with, I'm not even fond of the name, \"Arius Satellite School.\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "\"Satellite\" implies that we're a subsidiary to another entity."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "So, pop quiz time, Sensei. I wonder what answer you'll come up with."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Tell me something..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...about the day Trinity set foot in Arius, for the first time in centuries..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The day Misono Mika, Beatrice, and the Squad decided to change their fates on a whim."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Yes. They changed their fates, at the cost of every other Arius students' free will."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Why is it that you so meticulously cared for Misono Mika and the Squad..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...while you neglected the Arius students who remained here?"
+    },
+    {
+      "Text": "[ns] \"That's...!\""
+    },
+    {
+      "Text": "I immediately flashed back to a conversation I had that day."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "I'm sorry to say this, but..."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "Sensei, we are formally requesting that you step away from the Arius Satellite School...issue."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "Yes, this particular matter is one of Trinity's doing, so it must be Trinity's responsibility as well."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "Truly. We're deeply ashamed to have had you clean up our mess."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "As the acting representative of the Pater faction..."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "And as the acting representative of the Sanctus faction..."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "We would like to sincerely apologize."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "Mika is still the official representative of the Pater faction, but she will naturally need to step down from her position for an undetermined amount of time."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "As you well know, she must resume her halted hearing."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "Seia did participate in the recent Arius operation..."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "...however, she has not fully recovered and will need to rest for some time."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "Considering these circumstances, this is the collective stance of the Pater and Sanctus factions as of now."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "Nagisa's Filius faction may hold a different opinion..."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "...but Tea Party decisions are made by a majority vote."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "Especially on matters this critical to the academy, no single faction can ignore the majority opinion of the others."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "So please, Sensei, trust in us to resolve our own issues."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "We only ask that you give us a little more time."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "Naturally, your presence would be a welcome one."
+    },
+    {
+      "Name": "Tea Party Member A",
+      "Text": "This entire process would, surely, move along more quickly, efficiently, and justly."
+    },
+    {
+      "Name": "Tea Party Member B",
+      "Text": "But how will we students ever grow if we let adults do the difficult work for us?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Aha. I see."
+    },
+    {
+      "Text": "[ns] \"What?!?!\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Hahaha. Don't be so surprised."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Weren't you listening? I have a rough understanding of anything that happens in Arius."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "But you're quite naive, Sensei. Or maybe too trusting? Your trust in Trinity's upper ranks was misplaced."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The acting representatives of the Sanctus and Pater factions."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "They wasted no time filling the hole when the actual leaders couldn't serve."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Do you really think they could have done that so quickly, with all of Trinity's red tape, without any political backing?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "No matter how much they try to deny it, Trinity's upper ranks are still a den of vipers."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Fine. If that's how it was, then your responsibility could be minimal, maybe even nonexistent."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "But that changes nothing. It doesn't change the fact that Arius hasn't taken a single step out of our rotting pit of hell since that day."
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You should be more careful, Sensei. In your current position, if a student with malice really wanted to deceive you..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You'd hardly be able to escape their trap."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "There's this thing I think about, sometimes."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "When some Arius students finally gathered all their courage and managed to step out into the world, only to return even more damaged..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "When they couldn't find anywhere to fit in, or when they couldn't endure the judgmental glares anymore... They fell into despair, saying they'd go back to the only life they knew..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "When they realized there was nowhere else in the world Arius students belonged...."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...If Arius had not been exiled from Trinity, what kind of lives could we have lived?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Do you ever think about that too, Sensei?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Or have you been too busy with other schools to spare even a thought for Arius?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...The present is a structure built atop the foundation of the past. No present exists independent of what came before."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Some say this hatred is not ours to bear."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "But I must say, I disagree with them."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The Arius of today is still paying the consequences of our past. And that alone binds us to Arius, in every way possible."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You talk of \"studying.\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "What makes someone a student? Going to school and studying?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Look around. This right here is my response."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Porta Pacis, and everything recorded here, that is what we should study."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "That's a student's duty, right? To study? Then kudos to me."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I came here to fulfill that duty."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "And if you try to say this isn't studying..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...then I can't help but wonder if a true educator would discriminate against and deny ways of learning that aren't \"approved\" by them."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The sins of one generation are inherited by the next."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "It is not something to be argued. It is a simple truth."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "How can one seek to reap the benefits of their past, while attempting to disregard its sins?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "If you intend to reject the sins of your past, then you must also reject everything else to do with that past."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The knowledge, wisdom, legacy, material wealth, and every right and authority you exercise today..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "To claim the things that benefit you, while denying the sins committed to attain them..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "From Arius' perspective, it's nothing but nauseating hypocrisy."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I understand why you refrained from further intervention in Arius. Because, at that time, you accepted Trinity and their ways."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "There is nothing to forgive, in that regard. I see no sin in what you did."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "However, you should then allow Arius to live as we do."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Just as Trinity has its way, so does Arius."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Surely you see how unfair it'd be to accept one, but not the other?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "We don't fit in."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Life outside may look enticing, but there's no place for Arius in that world."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Just ask the many Arius students who returned because they couldn't adapt to it."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I took those students in and showed them a path forward, the Arius way."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "We don't need exams or studying. We'll live the way we've always lived."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "So at this point, there's only one thing I need from you."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Leave Arius. Quietly. And take the Squad with you."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "That's all you have to do. And I won't let anyone harm any of you."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The Angels of Revelation..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Just leave that to us. You can take my word for it."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "I can handle the Trumpeting Angels, at the very least."
+    },
+    {
+      "Text": "[s] \"'Trumpeting Angels'...?\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You picked up on that name quickly, didn't you?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "You do live up to your name, Sensei. When it comes to your students, you don't miss a beat."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "In that case, I trust you'll also understand what I meant when I said I'd live in the Arius way?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Subaru",
+      "Text": "All right. The exit is this way."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "The Squad lingering behind you can head right out along this path too."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "And..."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Please. Don't ever come back here again."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Thanks for everything until now, all of you. See you."
+    },
+    {
+      "Name": "Saori",
+      "Text": "\"The Arius way,\" you said?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...Saori."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "Do you still have something left to say? I'll hear you out."
+    },
+    {
+      "Name": "Subaru",
+      "Text": "If you're thinking of using this as a pretext to come back to Arius, you're only making trouble for both sides."
+    },
+    {
+      "Name": "Saori",
+      "Text": "I have no final words left for you. Just a question."
+    },
+    {
+      "Name": "Saori",
+      "Text": "It's about this \"Arius way\" you keep talking about."
+    },
+    {
+      "Name": "Saori",
+      "Text": "What lies ahead of it?"
+    },
+    {
+      "Name": "Subaru",
+      "Text": "...!"
+    },
+    {
+      "Text": "Next Episode;In Spite of Everything"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;ความเกลียดชังของเรา"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าจะให้พูดตรงๆ คงต้องบอกว่าฉันประหลาดใจที่คุณครูเดินทางมาถึงปอร์ตาปาซิสเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"นักเรียนหนีออกจากบ้านมา ครูก็ต้องมาตามตัวสิ\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "หนีออกจากบ้านงั้นเหรอคะ? ถ้าใครมาได้ยินคงเข้าใจผิดนะคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "บ้านของพวกฉันก็คือที่นี่ ที่อาเรียสค่ะ ฉันไม่เคยออกไปจากที่นี่ตั้งแต่แรกอยู่แล้ว"
+    },
+    {
+      "Text": "[s] \"ก็ถ้านักเรียนไม่เข้าเรียน ครูก็ต้องมาตามตัวสิ...\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่พวกฉันไม่เคยขอให้มาช่วยสอนหนังสือตั้งแต่แรกนะคะ..."
+    },
+    {
+      "Text": "[s1] \"เดี๋ยวเหอะ ทุกคนเป็นนักเรียนนะ\""
+    },
+    {
+      "Text": "[s2] \"ลืมไปแล้วเหรอว่าพวกเราเป็นนักเรียน\""
+    },
+    {
+      "Text": "[ns] \"เป็นนักเรียนก็ต้องไปโรงเรียนแล้วเรียนหนังสือสิ!\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่สุดท้ายแล้วการเรียนนั่นก็มาจากมาตรฐานของคุณครูไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันคิดว่าอาเรียสต้องเรียนตามวิถีของอาเรียสค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "หรือว่าคุณครูพยายามจะยัดเยียดการเรียนแบบทรีนิตี้ให้อาเรียสอยู่คะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฮ่าฮ่า ทำหน้าเหมือนจะบอกว่า \"ไม่เคยพูดอย่างนั้น\" เลยนะคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ใช่ค่ะ คุณครูไม่ได้พูดอย่างนั้น"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่ด้วยเหตุผลบางอย่าง ตอนนี้ฉันพอจะเข้าใจเรื่องพวกนี้แล้วค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "อย่างน้อยก็เข้าใจเรื่องที่เกิดขึ้น... ภายในโรงเรียนสาขาอาเรียสแห่งนี้"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ก่อนอื่นเลย ฉันไม่ค่อยถูกใจชื่อโรงเรียนสาขาอาเรียสสักเท่าไรค่ะ..."
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ก็มันบ่งบอกว่าเราเป็นโรงเรียนที่อยู่ใต้บังคับบัญชาของที่อื่นนี่คะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "งั้นฉันขอถามอะไรสักอย่าง คุณครูพอจะช่วยตอบได้มั้ยคะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ทำไมวันนั้น"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "วันที่ทรีนิตี้เหยียบย่างเข้าสู่อาเรียสเป็นครั้งแรกในรอบหลายร้อยปี"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "วันที่มิโซโนะ มิกะ เบียทริซ และสควอดกำหนดโชคชะตาของตัวเองกันตามอำเภอใจ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "วันที่ส่งผลให้อาเรียสทุกคนตัดสินใจด้วยตัวเองไม่ได้"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "วันนั้นทำไมคุณครูถึงไม่ใส่ใจอาเรียส"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "เหมือนกับที่ใส่ใจมิโซโนะ มิกะกับสควอดล่ะคะ?"
+    },
+    {
+      "Text": "[ns] \"เรื่องนั้น...!\""
+    },
+    {
+      "Text": "(จู่ๆ บทสนทนาที่เกิดขึ้นหลังจาก 'วันนั้น' ก็แวบเข้ามาในสมอง)"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "ฉันขอโทษที่พูดแบบนี้นะคะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "แต่คุณครูคะ ช่วยวางมือจากปัญหาในโรงเรียนสาขาอาเรียสเถอะค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "ใช่แล้วค่ะ ปัญหาเกี่ยวกับโรงเรียนสาขาอาเรียสเป็นสิ่งที่ทรีนิตี้ต้องแก้ไขด้วยตัวเองค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "ฉันบอกได้แค่ฉันรู้สึกละอายใจที่ต้องมาขอความช่วยเหลือจากคุณครูถึงที่นี่"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "ในฐานะตัวแทนชั่วคราวคนปัจจุบันของกลุ่มปาเตอร์"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "และตัวแทนชั่วคราวคนปัจจุบันของกลุ่มซางตุส"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "ฉันขออภัยคุณครูเป็นอย่างสูงค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "คุณมิกะยังเป็นตัวแทนของกลุ่มปาเตอร์อยู่ก็จริง แต่ก็ต้องถอยออกมาจากตรงนั้นสักระยะค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "อย่างที่คุณครูทราบว่าคุณมิกะต้องเข้ารับการสืบพยานที่ถูกระงับไปก่อนด้วยค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "ส่วนคุณเซอาก็เข้าร่วมการต่อสู้กับอาเรียสอย่างชัดเจน"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "แต่ร่างกายก็ยังฟื้นตัวไม่เต็มที่ ก็เลยต้องไปพักฟื้นอีกสักระยะค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "เพราะงั้นฉันก็เลยอยากให้คุณครูช่วยมองว่านี่คือฉันทามติของกลุ่มปาเตอร์กับกลุ่มซางตุสค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "ถึงแม้กลุ่มฟีเลียสของคุณนางิสะอาจเสนอความคิดเห็นที่แตกต่างออกไป"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "แต่โครงสร้างการตัดสินใจของสภาน้ำชาก็ถูกออกแบบให้ยึดมติของเสียงข้างมากอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "ยิ่งเป็นเรื่องปัญหาที่สำคัญของโรงเรียน ในกลุ่มกลุ่มหนึ่งก็ย่อมไม่อาจเพิกเฉยต่อเสียงข้างมากจาก\nกลุ่มอื่นๆ ค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "เพราะงั้น คุณครูคะ โปรดช่วยแค่เฝ้าดู และให้พวกฉันได้แก้ไขปัญหาของตัวเองด้วยเถอะค่ะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "หวังว่าคุณครูจะให้โอกาสพวกฉันอีกสักนิดนะคะ"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "แน่นอนว่าถ้าคุณครูเป็นคนออกมาจัดการเอง"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา A",
+      "Text": "ก็จะจัดการทุกอย่างได้รวดเร็วและมีประสิทธิภาพมากกว่าพวกฉันอยู่แล้ว"
+    },
+    {
+      "Name": "สมาชิกสภาน้ำชา B",
+      "Text": "แต่ถ้าต้องพึ่งพาผู้ใหญ่ทุกเรื่อง นักเรียนก็คงไม่มีโอกาสได้พัฒนาตัวเองค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "อ้อ เป็นอย่างนี้เองสินะคะ"
+    },
+    {
+      "Text": "[ns] \"?!?!\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฮ่าฮ่าฮ่า ไม่ต้องตกใจถึงขนาดนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันบอกไปแล้วนี่คะว่าถ้าเป็นเรื่องที่เกิดขึ้นที่นี่ ฉันก็พอรู้ได้น่ะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่คุณครูก็ช่างไร้เดียงสานะคะ หรือว่าเชื่อใจนักเรียนมากเกินไป โดยเฉพาะพวกชนชั้นสูงของทรีนิตี้น่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ตัวแทนชั่วคราวของกลุ่มปาเตอร์และกลุ่มซางตุส"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ในกรณีที่ตัวแทนของทั้ง 2 กลุ่มไม่สามารถปฏิบัติหน้าที่ได้ชั่วคราว ก็จะมีนักเรียนคนอื่นเข้ารับหน้าที่นั้นแทน"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูคิดว่านักเรียนพวกนั้นเข้าไปอยู่ตรงนั้นได้โดยไม่มีเบื้องหลังอะไรในชนชั้นสูงงั้นเหรอคะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ต่อให้พวกนั้นจะพยายามปฏิเสธความจริงของตัวเองมากแค่ไหน พวกนั้นก็ไม่อาจลืมความจริงที่ว่า\nที่นั่นคือรังงูพิษได้หรอกค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันเข้าใจแล้วค่ะ ถ้าเป็นอย่างนั้น ก็คงตีความได้ว่าคุณครูต้องรับผิดชอบต่อเรื่องนั้นน้อยมาก หรือไม่ก็ไม่ต้องรับผิดชอบเลยตั้งแต่แรก"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถึงมันจะไม่ได้เปลี่ยนแปลงความจริงที่ว่า นับตั้งแต่วันนั้นเป็นต้นมา อาเรียสก็ไม่อาจหลุดพ้นจาก\nขุมนรกได้ก็ตามทีค่ะ"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ระวังนะคะ คุณครู ถ้ามีนักเรียนกลุ่มไหนที่มีเจตนาร้ายและพยายามหลอกลวงคุณครูจากสถานการณ์\nปัจจุบันละก็"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูอาจจะหนีออกจากกับดักนั้นไม่ได้ก็ได้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "บางครั้งฉันก็คิดแบบนี้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "เวลาที่เด็กๆ อาเรียสตัดสินใจออกไปเผชิญโลกภายนอกอย่างกล้าหาญ แต่ก็ต้องกลับมาพร้อมบาดแผลที่ใหญ่กว่าเดิม"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "เวลาที่ต้องยอมจำนนกลับมาใช้ชีวิตตามเดิม เพราะปรับตัวกับที่ไหนไม่ได้และไม่อาจอดทนต่อสายตา\nคนรอบข้างได้"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "และในเวลาที่ฉันตระหนักได้ว่าเด็กๆ อาเรียสไม่มีที่ไหนในโลกให้ไปอีกแล้ว"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันจะคิดว่าถ้าอาเรียสไม่ได้ถูกทรีนิตี้ขับไล่ออกมา เด็กๆ ของพวกเราจะได้มีชีวิตแบบไหนกัน แบบนี้น่ะค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แล้วคุณครูเคยคิดแบบนั้นบ้างมั้ยคะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "หรือว่ายุ่งกับการใส่ใจและดูแลธุระของโรงเรียนอื่น จนไม่มีเวลามาใส่ใจอาเรียสเลย?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ปัจจุบันถูกสร้างขึ้นโดยมีอดีตเป็นรากฐานค่ะ... และทุกอย่างในตอนนี้ ก็ล้วนแล้วแต่เป็นผลมาจากอดีตทั้งสิ้น"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ใครบางคนอาจบอกว่านี่คือความเกลียดชังที่พวกเราไม่ได้เป็นเจ้าของ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่ฉันก็จะตอบว่า ฉันยังไม่เห็นด้วยกับมุมมองนั้นอยู่ดีค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "นั่นก็เพราะอาเรียสในปัจจุบันเป็นผลลัพธ์จากอดีตนั้น และปัจจุบันก็ผูกมัดอาเรียสไว้ในทุกรูปแบบค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูพูดเรื่องการเรียนไว้ใช่มั้ยคะ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ที่บอกว่านักเรียนต้องไปโรงเรียนและเรียนหนังสือ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้างั้นฉันก็จะให้คำตอบแบบนี้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ทุกสิ่งที่บันทึกไว้ในปอร์ตาปาซิสคือการเรียนของพวกเราค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูบอกไว้ว่าหน้าที่หลักของนักเรียนก็คือการเรียนใช่มั้ยคะ? ถ้างั้นฉันก็คงทำถูกแล้วละค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ก็ฉันมาที่นี่เพื่อทำหน้าที่หลักที่ว่านั่นไงคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าคุณครูจะบอกว่าการทำแบบนั้นไม่ใช่การเรียนละก็"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันก็อยากถามกลับว่า การแบ่งระดับและการแยกย่อยการเรียนคือสิ่งที่เหมาะสมแล้วที่คนเป็นครูจะทำ\nหรือเปล่าค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "บาปของมนุษย์ส่งต่อจากรุ่นสู่รุ่นค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ข้อเท็จจริงนี้เป็นสิ่งที่ทุกคนต้องยอมรับ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "มันไม่สมเหตุสมผลเลยค่ะที่คนเราอยากได้ผลประโยชน์ทั้งหมดจากอดีต แต่ไม่อยากได้บาปจากอดีตนั้นเอง"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าจะปฏิเสธที่จะรับบาปจากในอดีต เราก็ต้องปฏิเสธสิ่งอื่นๆ ที่อดีตทิ้งไว้ให้ด้วยสิคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ความรู้ ปัญญา มรดก ความมั่งคั่งทางวัตถุ สิทธิและอำนาจทั้งหมดที่ใช้ได้ในตอนนี้..."
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คนพวกนั้นพยายามจะรับสิ่งที่จะทำให้ตัวเองสุขสบาย แต่ปฏิเสธที่จะรับผิดชอบ\nต่อบาปในอดีตของตัวเอง"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "สำหรับอาเรียสแล้ว นี่คือความหน้าซื่อใจคดที่น่ารังเกียจค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ในวันนั้น ฉันเข้าใจว่าคุณครูยอมรับวิธีการของทรีนิตี้ ก็เลยไม่เข้ามาแทรกแซงอาเรียสอีก"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "และฉันก็... จะไม่ให้อภัยคุณครูในส่วนนั้นค่ะ ก็เราให้อภัยคนบริสุทธิ์ไม่ได้อยู่แล้วนี่คะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แต่ฉันก็อยากให้คุณครูอนุญาตให้อาเรียสได้มีอิสระในการใช้ชีวิตตาม <วิถีของอาเรียส> ด้วยค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าทรีนิตี้มีวิถีของทรีนิตี้ อาเรียสก็มีวิถีของอาเรียสเหมือนกันค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูคงไม่บอกว่าเคารพอีกฝ่ายหนึ่ง แต่จะไม่เคารพอีกฝ่ายหนึ่งหรอกใช่มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "พวกเราไม่เหมาะกับตรงนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ชีวิตข้างนอกนั้นดูหวานหอมก็จริง แต่ข้างนอกนั้นไม่มีที่สำหรับอาเรียสค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "อย่างที่ฉันบอกไปว่ามีเด็กอาเรียสหลายคนที่ออกไปข้างนอกแต่ก็ต้องกลับมาเพราะปรับตัวไม่ได้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ฉันโอบรับเด็กพวกนั้นกลับมา และแนะแนวทางที่ถูกต้องตามแบบฉบับของอาเรียสให้ได้"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ส่วนเรื่องการเรียนหรือการสอบน่ะไม่จำเป็นหรอกค่ะ เราจะใช้ชีวิตเหมือนที่เคยเป็นมา"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "เพราะงั้น ณ จุดนี้ ฉันเลยมีเรื่องอยากขอร้องคุณครูแค่เรื่องเดียวค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ได้โปรดออกไปจากอาเรียสอย่างเงียบๆ พร้อมกับพวกสควอดเถอะค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าทำอย่างนั้น ฉันก็จะไม่ทำร้ายคุณครูหรือสควอดแต่อย่างใดค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ส่วน <ทูตสวรรค์แห่งวิวรณ์>..."
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "..."
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "พวกฉันจะจัดการกันเองค่ะ เรื่องนั้นฉันรับประกันให้ได้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "นั่นก็เพราะอย่างน้อย <นางฟ้าเป่าแตร> เป็นสิ่งที่ฉันรับมือได้อย่างแน่นอนค่ะ"
+    },
+    {
+      "Text": "[s] \"นางฟ้าเป่าแตร...?\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "คุณครูคงคิดว่าฉันยกชื่อนั้นขึ้นมาด้วยเหตุผลบางอย่างสินะคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถูกต้องค่ะ สมกับที่เป็นคุณครูเลยนะคะ พอเป็นเรื่องของนักเรียนแล้วก็เข้าใจได้ง่ายและรวดเร็วจริงๆ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "งั้นฉันจะเชื่อว่าคุณครูก็จะเข้าใจนะคะ ที่ฉันบอกไปว่าจะใช้ชีวิตตามวิถีของอาเรียสน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "เอาละ ทางออกอยู่ตรงนี้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ส่วนสควอดที่กำลังตามมา ก็ขอให้ออกไปทางนี้ด้วยนะคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "แล้วก็"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ช่วยอย่ามาที่แห่งนี้อีกนะคะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ที่ผ่านมาทุกคนทำกันเต็มที่แล้วค่ะ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "เมื่อกี้บอกว่าวิถีของอาเรียสงั้นเหรอ สุบารุ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ซาโอริ..."
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "มีอะไรที่อยากพูดเป็นอย่างสุดท้ายเหรอคะ? ถ้ามี ฉันก็จะฟังให้ค่ะ"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "ถ้าจะใช้เรื่องนั้นเป็นข้ออ้างในการกลับมายังอาเรียส มันก็จะยิ่งลำบากกับทั้ง 2 ฝ่ายนะคะ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "นี่ไม่ใช่สิ่งที่ฉันอยากพูดเป็นอย่างสุดท้ายหรอก... แต่ฉันมีเรื่องอยากจะถาม"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "วิถีของอาเรียสที่เธอพูดถึงน่ะ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "เบื้องหน้าของสิ่งนั้น มันมีอะไรรออยู่งั้นเหรอ?"
+    },
+    {
+      "Name": "สุบารุ",
+      "Text": "...!"
+    },
+    {
+      "Text": "ตอนต่อไป;ถึงจะเป็นอย่างนั้นก็ตาม"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;屬於我們的憎恨"
+    },
+    {
+      "Name": "昴",
+      "Text": "老實說，我很驚訝。\n老師居然會找到波塔帕西斯這裡來。"
+    },
+    {
+      "Text": "[s]「有學生離家出走，我當然得來接回去才行。」"
+    },
+    {
+      "Name": "昴",
+      "Text": "說什麼離家出走，要是別人聽到會誤會的。"
+    },
+    {
+      "Name": "昴",
+      "Text": "我們的家就在[ruby=這裡]奧利斯[/ruby]──從來不曾離開過。"
+    },
+    {
+      "Text": "[s]「……有學生曠課，我當然得來接回去才行。」"
+    },
+    {
+      "Name": "昴",
+      "Text": "……我們打從一開始就沒有希望老師來上課吧。"
+    },
+    {
+      "Text": "[s1]「咳哼。學生的定義是什麼呢？」"
+    },
+    {
+      "Text": "[s2]「是到學校讀書的人對吧？」"
+    },
+    {
+      "Text": "[ns]「就是要學習才能被稱為學生！」"
+    },
+    {
+      "Name": "昴",
+      "Text": "但是那所謂的學習，終究必須按照老師的標準來進行不是嗎？"
+    },
+    {
+      "Name": "昴",
+      "Text": "我認為我們奧利斯，只需要用奧利斯的方式學習就夠了。"
+    },
+    {
+      "Name": "昴",
+      "Text": "還是說，你打算強迫奧利斯接受三一的學習方式呢？"
+    },
+    {
+      "Name": "昴",
+      "Text": "哈哈……一副「我沒說過那種話」的表情呢。"
+    },
+    {
+      "Name": "昴",
+      "Text": "沒錯，老師你確實不曾這麼說過。"
+    },
+    {
+      "Name": "昴",
+      "Text": "不過不知為何……現在的我似乎變得能夠理解那些事情了。"
+    },
+    {
+      "Name": "昴",
+      "Text": "至少在這奧利斯分校……這附近發生的事情是如此。"
+    },
+    {
+      "Name": "昴",
+      "Text": "……雖然我其實不太喜歡「奧利斯分校」這個名字。"
+    },
+    {
+      "Name": "昴",
+      "Text": "畢竟……這就代表我們是附屬於其他學園的學校啊。"
+    },
+    {
+      "Name": "昴",
+      "Text": "那麼，現在來個突擊考試吧。\n可以請你回答我嗎，老師？"
+    },
+    {
+      "Name": "昴",
+      "Text": "為什麼在那一天──"
+    },
+    {
+      "Name": "昴",
+      "Text": "三一時隔數百年踏入奧利斯的那一天。"
+    },
+    {
+      "Name": "昴",
+      "Text": "聖園彌香、貝雅特里榭和小隊擅自決定了自己命運的那一天。"
+    },
+    {
+      "Name": "昴",
+      "Text": "因而導致其他奧利斯的學生無法決定自己命運的那一天。"
+    },
+    {
+      "Name": "昴",
+      "Text": "為何老師沒有像照顧聖園彌香和小隊一樣──"
+    },
+    {
+      "Name": "昴",
+      "Text": "──照顧其他奧利斯的學生呢？"
+    },
+    {
+      "Text": "[ns]「那是……！」"
+    },
+    {
+      "Text": "（剎那間，「那天」之後的對話從腦海中閃過）"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "必須對老師說這種話，我們也感到非常抱歉……"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "不過希望老師在此之後，停止介入與奧利斯分校有關的問題。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "是的。畢竟奧利斯分校的問題，本來就該由我們三一自行解決。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "結果反而讓老師幫忙到這個地步，我們實在深感慚愧。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "身為聖父派的臨時代表──"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "以及聖靈派的臨時代表──"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "在此向老師致上誠摯的歉意。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "即便彌香大人仍是聖父派的代表，短時間內也必須從第一線退下來。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "誠如老師所知，本應進行的聽證會不過是處於中斷狀態罷了。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "而聖亞大人雖然確實參與了這次的奧利斯攻防戰……"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "不過由於身體尚未完全康復，暫時還需要再次進行靜養。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "因此，希望老師您能將其視為聖父派和聖靈派的共同意志。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "也許以渚大人為首的聖子派可能會提出異議……"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "不過茶會的決策，本來就是以多數決來決定的。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "尤其是在這類關係到學園的重大問題，一個派系絕對不能忽視其他派系的多數意見。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "所以……希望老師能在一旁守望著我們。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "請給我們一個機會，讓我們自己解決自己的問題吧。"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "當然，若是由老師您親自出面的話……"
+    },
+    {
+      "Name": "茶會成員A",
+      "Text": "事情很可能以更加妥善而有效率的方式收尾。"
+    },
+    {
+      "Name": "茶會成員B",
+      "Text": "不過假如凡事都依賴大人，學生將無法有所成長……這也是不爭的事實。"
+    },
+    {
+      "Name": "昴",
+      "Text": "啊哈，原來如此啊。"
+    },
+    {
+      "Text": "[ns]「！？！？」"
+    },
+    {
+      "Name": "昴",
+      "Text": "呵呵，請老師不必太過驚訝。"
+    },
+    {
+      "Name": "昴",
+      "Text": "我剛才不是說過了嗎？\n在這附近發生的事情，我大致上都能知道。"
+    },
+    {
+      "Name": "昴",
+      "Text": "不過，老師實在有點過於天真了。\n或者應該說……過度相信學生了吧。\n尤其是對於三一的高層。"
+    },
+    {
+      "Name": "昴",
+      "Text": "聖靈派和聖父派的臨時代表……"
+    },
+    {
+      "Name": "昴",
+      "Text": "他們可是在各自派系的代表暫時無法履行職務的狀況下，立刻上位的學生們啊。"
+    },
+    {
+      "Name": "昴",
+      "Text": "在三一的環境之下，你覺得他們有可能僅憑一己之力登上高層的位子嗎？"
+    },
+    {
+      "Name": "昴",
+      "Text": "無論他們再怎麼否認，也無法擺脫那裡有如毒蛇窩一般的事實。"
+    },
+    {
+      "Name": "昴",
+      "Text": "我明白了。如果事情是那樣的話──\n老師的責任可以說是非常小，甚至要說完全沒有也不為過。"
+    },
+    {
+      "Name": "昴",
+      "Text": "但是即便如此──\n也無法改變奧利斯在那天之後，依舊連一步也未能踏出地獄中心的事實。"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "昴",
+      "Text": "往後還請小心一點，老師。\n以老師現在的立場來看，如果有心懷惡意的學生打算欺騙你……"
+    },
+    {
+      "Name": "昴",
+      "Text": "老師恐怕會無法從中脫身也說不定。"
+    },
+    {
+      "Name": "昴",
+      "Text": "我有時會這麼想。"
+    },
+    {
+      "Name": "昴",
+      "Text": "當奧利斯的孩子們鼓起勇氣走向世界，卻帶著更深的傷痕回來的時候……"
+    },
+    {
+      "Name": "昴",
+      "Text": "無論在哪裡都無法適應、難以忍受周圍的目光，\n最終絕望地認為只能按照原本的方式活下去的時候……"
+    },
+    {
+      "Name": "昴",
+      "Text": "以及深刻感受到，世界上沒有奧利斯學生的容身之處的時候……"
+    },
+    {
+      "Name": "昴",
+      "Text": "我總是會想……如果奧利斯不曾被三一放逐，我們的孩子將會過著什麼樣的生活。"
+    },
+    {
+      "Name": "昴",
+      "Text": "老師你有曾經這麼想過嗎？"
+    },
+    {
+      "Name": "昴",
+      "Text": "還是因為忙著照顧其他學校，所以根本沒有把奧利斯視為需要關心的對象？"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "昴",
+      "Text": "……現在是搭建於過去這個基礎上的建築。\n所有過去都與現在息息相關。"
+    },
+    {
+      "Name": "昴",
+      "Text": "也許有些人會說，這股憎恨並不屬於我們。"
+    },
+    {
+      "Name": "昴",
+      "Text": "但我的回答是，這個觀點我實在難以苟同。"
+    },
+    {
+      "Name": "昴",
+      "Text": "因為過去所帶來的結果，就是奧利斯的現在──\n而這個現在正以各種可能的方式，緊緊束縛著奧利斯。"
+    },
+    {
+      "Name": "昴",
+      "Text": "老師剛才提過有關學習的話題對吧。"
+    },
+    {
+      "Name": "昴",
+      "Text": "說是到學校讀書的才是學生。"
+    },
+    {
+      "Name": "昴",
+      "Text": "那麼我想這樣回答你。"
+    },
+    {
+      "Name": "昴",
+      "Text": "波塔帕西斯──這裡記載的一切，就是我們要讀的書。"
+    },
+    {
+      "Name": "昴",
+      "Text": "你說過學習是學生的本分對吧？\n這麼看來，我的行為似乎並沒有錯。"
+    },
+    {
+      "Name": "昴",
+      "Text": "因為我正是為了遵守本分而來到這裡的。"
+    },
+    {
+      "Name": "昴",
+      "Text": "假如老師要告訴我，說這樣並不是讀書學習的話……"
+    },
+    {
+      "Name": "昴",
+      "Text": "那我反倒想問你──將學習劃分為三六九等，是身為教育者應有的態度嗎？"
+    },
+    {
+      "Name": "昴",
+      "Text": "人類的罪，是會由人類繼承下去的。"
+    },
+    {
+      "Name": "昴",
+      "Text": "唯有這個事實，所有人都必須承認。"
+    },
+    {
+      "Name": "昴",
+      "Text": "只想繼承過去的所有恩惠，卻不願一並承擔過去的罪孽……真是自相矛盾。"
+    },
+    {
+      "Name": "昴",
+      "Text": "如果拒絕承擔過去的罪孽──那麼對過去留下的一切都應該一視同仁地拋棄才對。"
+    },
+    {
+      "Name": "昴",
+      "Text": "知識、智慧、遺產、物質上的富足，以及如今得以行使的所有權利與權力……"
+    },
+    {
+      "Name": "昴",
+      "Text": "理所當然地享受那些好處，卻不願為過去的罪孽負起責任。"
+    },
+    {
+      "Name": "昴",
+      "Text": "從奧利斯的立場看來，那不過是令人作嘔的偽善罷了。"
+    },
+    {
+      "Name": "昴",
+      "Text": "那天……老師選擇尊重三一的做法，因此沒有繼續干涉奧利斯的事。"
+    },
+    {
+      "Name": "昴",
+      "Text": "對於這個部分……我並不打算原諒老師。\n畢竟沒有罪過的人，是無法被原諒的。"
+    },
+    {
+      "Name": "昴",
+      "Text": "不過相對地，我希望老師也允許奧利斯以「奧利斯的方式」自由地活下去。"
+    },
+    {
+      "Name": "昴",
+      "Text": "就像三一有屬於三一的方式一樣，奧利斯也有屬於奧利斯的方式。"
+    },
+    {
+      "Name": "昴",
+      "Text": "老師總不會只尊重一邊，而不尊重另一邊吧？"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "昴",
+      "Text": "我們……無法融入外界。"
+    },
+    {
+      "Name": "昴",
+      "Text": "即便外面的生活看似美好，那裡卻沒有奧利斯的容身之處。"
+    },
+    {
+      "Name": "昴",
+      "Text": "就如我剛才所說，有許多無法適應外界的孩子重新回到了奧利斯。"
+    },
+    {
+      "Name": "昴",
+      "Text": "而我收留了那些孩子，並為他們指引了以奧利斯的方式前進的道路。"
+    },
+    {
+      "Name": "昴",
+      "Text": "考試也好，學習也罷……這些我們都不需要。\n我們會按照一直以來的方式生活下去。"
+    },
+    {
+      "Name": "昴",
+      "Text": "所以現在，我只想拜託老師一件事情。"
+    },
+    {
+      "Name": "昴",
+      "Text": "請和小隊一起，安靜地離開奧利斯吧。"
+    },
+    {
+      "Name": "昴",
+      "Text": "只要能做到這點，我就不會對老師和小隊造成任何傷害。"
+    },
+    {
+      "Name": "昴",
+      "Text": "至於「啟示錄的天使」……"
+    },
+    {
+      "Name": "昴",
+      "Text": "……"
+    },
+    {
+      "Name": "昴",
+      "Text": "我向你承諾會由我們來處理。"
+    },
+    {
+      "Name": "昴",
+      "Text": "至少對於「吹號的天使」，我有能夠確實解決的方法。"
+    },
+    {
+      "Text": "[s]「『吹號的天使』……？」"
+    },
+    {
+      "Name": "昴",
+      "Text": "老師似乎認為……我之所以取這個名字是有用意的呢。"
+    },
+    {
+      "Name": "昴",
+      "Text": "沒錯。真不愧是老師。\n只要是關於學生的事，反應總是快得出奇。"
+    },
+    {
+      "Name": "昴",
+      "Text": "既然如此，相信老師也已經理解我所謂「以奧利斯的方式活下去」的意思了。"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "昴",
+      "Text": "來，出去的路在這邊。"
+    },
+    {
+      "Name": "昴",
+      "Text": "跟在老師後面的小隊，也請沿著這條路出去吧。"
+    },
+    {
+      "Name": "昴",
+      "Text": "還有……"
+    },
+    {
+      "Name": "昴",
+      "Text": "請永遠不要再來到這裡了。"
+    },
+    {
+      "Name": "昴",
+      "Text": "各位，至今為止辛苦了。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "你說「奧利斯的方式」是嗎，昴？"
+    },
+    {
+      "Name": "昴",
+      "Text": "……沙織。"
+    },
+    {
+      "Name": "昴",
+      "Text": "最後還有什麼話想說嗎？\n那我就姑且聽聽看吧。"
+    },
+    {
+      "Name": "昴",
+      "Text": "畢竟要是你想拿這件事當藉口回到奧利斯，只會讓彼此都感到為難而已。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "倒也不是什麼最後的話……我只想問你一個問題。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "你所謂的「奧利斯的方式」……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "在那前方……究竟有什麼呢？"
+    },
+    {
+      "Name": "昴",
+      "Text": "……！"
+    },
+    {
+      "Text": "下一話;即便如此"
+    }
+  ]
+}

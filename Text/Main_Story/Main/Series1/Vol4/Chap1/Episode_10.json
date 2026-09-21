@@ -1,0 +1,2122 @@
+{
+  "TitleJP": "無所有と焼肉弁当",
+  "TitleKR": "무소유와 야키니쿠 도시락",
+  "TitleEN": "Non-Possession and Yakiniku Bentos",
+  "TitleTH": "การไม่เป็นเจ้าของและข้าวกล่องหน้าเนื้อย่าง",
+  "TitleTW": "無所有和燒肉便當",
+  "DescJP": "先生を誘拐したのは「所確幸」と名乗る放浪者のグループだった。「非所有」を掲げつつ廃棄弁当でどうにか食いつないでいた彼らは、後から公園にやってきたRABBIT小隊に食料を独占されたと憤り、彼女たちと交渉をしようとする。しかし交渉は決裂、先生の作戦によって誘導されたRABBIT小隊は「所確幸」のアジトに攻め込むのだった。",
+  "DescKR": "선생님을 납치한 것은 '소확행'이라는 로봇 히피 그룹이었다. 그들은 선생님이 RABBIT 소대를 시켜 근처의 폐기 도시락을 독점하고 있다며 화를 낸다. 소확행의 리더, 데카르트는 선생님을 통해 RABBIT 소대와의 교섭을 시도하지만 결렬되고 만다.",
+  "DescEN": "A robot hippie group called Pursuers kidnaps Sensei. They're angry Sensei ordered the RABBIT Squad to monopolize the discarded bento around the area. The leader of the Pursuers, Descartes, tries to negotiate with the RABBIT Squad for Sensei's release but they don't care.",
+  "DescTH": "ผู้ที่ลักพาตัวคุณครูมาคือกลุ่มหุ่นยนต์ฮิปปี้ที่ชื่อว่า 'ความสุขเล็กๆ' พวกเขา\nโกรธที่คุณครูสั่งให้กองทหาร RABBIT ผูกขาดและครอบครองข้าวกล่อง\nเหลือทิ้งในบริเวณนี้ไว้แต่เพียงผู้เดียว เดการ์ต หัวหน้ากลุ่มความสุขเล็กๆ\nพยายามเจรจาต่อรองกับกองทหาร RABBIT ผ่านคุณครูแต่ก็ล้มเหลว",
+  "DescTW": "綁架老師的是名為「所確幸」的機器人嬉皮組織。他們因為老師命令RABBIT小隊去獨佔附近便利商店的報廢便當而大為光火。所確幸的隊長笛卡爾雖然透過老師試著和RABBIT小隊交涉卻失敗了。",
+  "DialogJP": [
+    {
+      "Text": "第10話;無所有と焼肉弁当"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……おや、お目覚めですか。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "体調はいかがです？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "問題無さそうでしたら何よりです。下手なおもてなしで何かあったらどうしようかと……なにせ私たちも、キヴォトスの外の方をお迎えするのは初めてでして。"
+    },
+    {
+      "Text": "[s] \"……あなたは？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "ご挨拶が遅れました、私の名前はデカルト。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "この組織、「[ruby=・]所[/ruby]有せずとも[ruby=・]確[/ruby]かな[ruby=・]幸[/ruby]せを探す集い」……通称「所確幸」を率いるリーダーです。"
+    },
+    {
+      "Text": "[s1] \"？？？\""
+    },
+    {
+      "Text": "[s2] \"しょかっこう……？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "お耳に入れたのは初めてでしょうか？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "お耳に入れたのは初めてでしょうか？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "清貧な人生を追い求める方であれば、一度は聞いたことがあるのではと思ったのですが……なるほど。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "まあ、そうかもしれないとは思っていました。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "何せあなたは、部下を使って食べ物を強奪していたようですからね。"
+    },
+    {
+      "Text": "[s] \"えっと、何の話……？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "とぼけるのも大概にしなさい！私の仲間たちがこの目ではっきり見たのです、あなたとウサ耳の生徒たちが仲良くしているのを！"
+    },
+    {
+      "Text": "[s3] \"ウサ耳ってことは……。\""
+    },
+    {
+      "Text": "[s4] \"RABBIT小隊のみんなのこと？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あの生徒たちの呼称については、特に興味ありません。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あの生徒たちの呼称については、特に興味ありません。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "大事なのはただ、あなた方が我々の求道を邪魔する、貪欲な者たちであるということ。"
+    },
+    {
+      "Text": "[s] \"何か邪魔をしちゃったっけ……？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "……私たちは時にこう呼ばれます。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "「穀潰し」、あるいは「社会の膿」、と……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "しかし、それはどちらも的を射ていません。私たちは何もしていないのではなく……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "ただ、「無所有」を実践しているだけなんです！"
+    },
+    {
+      "Text": "[s] \"話の流れが見えてこない……。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "キヴォトスの人々は、あまりにも多くの物を所有しています。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "新しい戦車、高い小銃、ミサイルを防ぐためのバンカーなどなど……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "こういった欲望はしかし、満たされるものではありません。より上に、より高く……それらは最終的に、人生を疲弊させるだけなのです。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "真の幸せは「所有」ではなく、「無所有」から生まれるもの……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "生存に必要な最低限のもの以外を全て手放し、無為自然の在り方を維持する……それでこそ、真の幸福に辿り着けるのです。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "そこで私たちは働かず、所有せずの「無所有」を実践して生活していたのです。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "ところがある日、ここに招かれざる客がやって来ました。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "ウサ耳を付けて、何やら高価な武装を手にしたその生徒たちは、次々に廃棄弁当を手にしていきました。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "彼女たちが通った後、そこにはぺんぺん草も残らず……もやし弁当一つすら残っていなかったのです。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "ただでさえ「焼肉弁当」などは廃棄の対象になりにくいのに……それを含めて、独り占めを……！"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "こんな非常識な行為が、許されて良いのでしょうか！？"
+    },
+    {
+      "Text": "[s] \"えっと、「贅沢な嗜好品には興味が無い」って話だったのでは……？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "そ、それはそうですが……。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "とにかく！ラビット小隊なのかウサギ小隊なのか知りませんが、あの暴挙を許すわけには行きません！"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "そして、あなたが彼女たちのリーダーと見ました……さあ、約束してください。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "今後「焼肉弁当」が廃棄されていたら、それは私たち「所確幸」に譲ると！"
+    },
+    {
+      "Text": "[s5] \"あの子たちは、私の部下じゃないよ。\""
+    },
+    {
+      "Text": "[s6] \"あの子たちはただ、私の生徒たちであって。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "部下であろうが生徒であろうが、どちらでも構いません。あなたの言うことなら聞くのでしょう？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "部下であろうが生徒であろうが、どちらでも構いません。あなたの言うことなら聞くのでしょう？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "……何ですかその微妙な表情は。先生だというのに、自分の生徒たちも律することができないのですか？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "全く、仕方ありませんね……。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "こうなったらスマホだけ寄こして、そこでおとなしくしていてください。私が交渉するとします。"
+    },
+    {
+      "Text": "[s] \"多分無駄だと思うけど……。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "えぇっと……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "これですかね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……何の用ですか？私たちは今、食事の準備で忙しいんですが。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あぁ、あなたが「RABBIT小隊」のリーダーですか？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "私たちは真の幸せを追求する都市の求道者、「所有せずとも確かな幸せを探す集い」……略して「所確幸」の――"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "……き、切られた？"
+    },
+    {
+      "Text": "[s] \"詐欺か何かだと思ったんだろうね……。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "こ、これだから真理を知らない凡人たちは……。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "み、みなさん？どうやら「いたずら電話」か何かだと誤解されてるようですが……。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あなたたちの先生は捕らえました。こちらの要求に素直に応じなければ、今から先生に残酷な仕打ちを――"
+    },
+    {
+      "Name": "サキ",
+      "Text": "好きにすれば？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "……また切れた！？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "どういうことだ、あなたは本当に「先生」なのか！？これっぽっちも心配されてないじゃないか！？"
+    },
+    {
+      "Text": "[s] \"まあ、複雑な事情があって……。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "くそっ、せっかくシャーレの先生を人質にしたというのに……これでは高級弁当が……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "こうなったら、他の方法を……。"
+    },
+    {
+      "Text": "[s] \"ちょっと試しに、私が電話をしても良い？\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あなたが直接交渉すると？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "別に構いませんが、その振りをして警察に通報……などとという小細工は止めた方が良いですよ。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "私たち「所確幸」の武装は、ヴァルキューレを軽く凌駕していますからね！"
+    },
+    {
+      "Text": "[s] RABBIT小隊に電話をかける。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ああもう、何なの先生……こっちは夜遅くまで作業してて疲れてるってのに。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "大した用事じゃないならもう――"
+    },
+    {
+      "Text": "[s] \"実は廃棄された和牛ステーキ弁当を見つけて……\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "はははっ！"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "あれだけ自信満々だったのに、自分だって無視されているではないですか！"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "はぁ、こうなったらもう他の生徒を脅して……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "SRTだ！部外者はどけ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "サキ、私たちは今SRTの任務中ではないので、名乗らない方が……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そ、それよりここに、本当に最高級の和牛が……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "和牛ステーキのお弁当なんて、SRTにいた頃にも食べたことなかった……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うん、絶対にそう言ってた。間違いない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "逆探知の結果から推測するに、すぐその辺にいるはず！急いで！"
+    },
+    {
+      "Text": "[s] \"いやー、優秀だ……。\""
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あっ、先生……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "和牛ステーキ弁当はどこだ！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "迅速な収集は任務の基本。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "賞味期限が切れているとしたらその旨味は刻一刻と減ってしまうため、今すぐに確保を……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "と思ったのですが、お弁当はどこですか？"
+    },
+    {
+      "Text": "[s] \"えっと、それが……。\""
+    },
+    {
+      "Name": "デカルト",
+      "Text": "はははっ！まんまと私たちの計画に騙されましたね！"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "欲望の果て、それはあたかも存在しない虚像のようなもの……"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "欲に負け、その虚像に魅せられた者たちは、いつしか破滅へと足を踏み入れる他ありません。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "何言ってるか分からないけど……和牛ステーキ弁当は無いってことか？"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "勿論です。どうしてそんなものが廃棄されてると思ったのですか。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "どうかこれをきっかけとして、「無所有」の素晴らしさに気づかれてはいかがでしょうか。"
+    },
+    {
+      "Name": "デカルト",
+      "Text": "さあ、同志たちよ。彼女たちにそれを教えてあげましょう！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うわっ、何だこいつら！？服はボロボロなのに、武器だけやたら最新式で……！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ほ、包囲されちゃった……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "まずは落ち着きましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "基本は狭い所に誘導した上での各個撃破です、そうすればこの数でも……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まぁ、武器だけが良かったところで関係無い。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "私たちSRTを舐めるな！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "2階にいる狙撃手は、私の方で全部どうにか……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミヤコ、前方は私とミユでどうにかするから、後ろは頼む。それで良いか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……はい、それで行きましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "閃光弾を使いますので、その合図で散開してください。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それでは……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "作戦開始！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제10화;무소유와 야키니쿠 도시락"
+    },
+    {
+      "Name": "???",
+      "Text": "……드디어 정신을 차리신 모양이군요."
+    },
+    {
+      "Name": "???",
+      "Text": "동지들의 접대가 서툴러, 혹시 몸에 무슨 문제라도 생기신 게 아닌지 걱정했습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "저희도 키보토스 밖에서 오신 분을 모시는 건 처음이라서요."
+    },
+    {
+      "Text": "[s] \"……당신은?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "인사가 늦었군요. 제 이름은 데카르트."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이곳의 조직— <소유하지 않고도 확실한 행복을 찾는 모임>, 줄여 <소확행>을 이끌고 있는 리더입니다."
+    },
+    {
+      "Text": "[s1] \"소유하지 않고……?\""
+    },
+    {
+      "Text": "[s2] \"소확행……?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이런, 이런. 저희의 이름을 처음 들어보셨습니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이런, 이런. 저희의 이름을 처음 들어보셨습니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "청빈한 삶을 추구하는 자라면 누구나 한 번쯤은 들어본 이름일 텐데, 선생님께서는 청빈과는 거리가 먼 삶을 살아오셨나 보군요."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "하긴, 그럴 거라고 이미 예상하고 있었습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신은 부하들을 시켜 남의 음식을 강탈하기나 하는 탐욕스러운 인간이니까요!"
+    },
+    {
+      "Text": "[s] \"무슨 말인지 모르겠는데…….\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "시치미 떼지 마십시오! 저와 동지들이 이 눈으로 똑똑히 당신과 토끼 귀를 단 그 학생들이 이야기를 나누는 광경을 보았으니까요!"
+    },
+    {
+      "Text": "[s3] \"토끼 귀를 단 학생이라면……\""
+    },
+    {
+      "Text": "[s4] \"RABBIT 소대를 말하는 거야?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신이 그 학생들을 무어라 부르고 있는지는 관심 없습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신이 그 학생들을 무어라 부르고 있는지는 관심 없습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "저희에게 당신들은 그저 구도를 방해하는 탐욕스러운 방해자일 뿐이니까요."
+    },
+    {
+      "Text": "[s] \"우리가 무얼 방해했는데?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "……혹자들은 저희를 이렇게 부르곤 하죠."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "<사회의 거머리>, <니트>, <거지>, <어째서 일하지 않는 거야-> 라고……."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "하지만 그것은 실제와 다릅니다. 저희는 일하지 않는 것이 아닙니다……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "저희는 무소유를 실천하고 있을 뿐입니다!"
+    },
+    {
+      "Text": "[s] \"무소유……?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "키보토스의 사람들은 너무나도 많은 것을 소유하려 하고 있습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "새로 나온 전차나, 값비싼 소총, 미사일을 막아주는 아늑한 벙커 등등……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "하지만 이 소유에 대한 욕망은 아무리 채워도 마르지 않고 계속 불어나, 결국은 삶을 피폐하게 만들고 맙니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "진정한 행복이란 소유가 아닌 무소유에서 비롯되는 법……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "생존에 필요한 것을 제외한 모든 것을 내려놓고 무위자연의 삶을 유지해야 진정한 행복에 도달할 수 있는 것입니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "그래서 저희는 일하지 않고, 소유하지 않고, 이런 낡은 건물 아래에서 무소유의 삶을 이어 나가기로 했습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "그런데 어느 날, 이곳에 불청객이 찾아왔습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "토끼 귀를 달고 값비싼 장비로 무장한 그 학생들은 자신들의 아지트에 먹고 남을 정도의 폐기 도시락을 쌓아 놨음에도 불구하고 탐욕스럽게 새로운 도시락을 앗으려 했습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "그들이 지나간 자리에는 숙주 도시락조차 남아있지 않았습니다……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "안 그래도 야키니쿠 도시락은 폐기가 잘 안 되는 고급 도시락인데…… 그런 사치품을 혼자 독점하려 하다니……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이는 최소한의 상도덕을 무시한 몰상식한 행위가 아닙니까?!"
+    },
+    {
+      "Text": "[s] \"사치품에는 관심이 없다며……?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "그, 그건 그렇지만……."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "여하튼! RABBIT 소대인지 토끼 소대인지 모를 그 학생들의 폭거를 두고만 볼 수는 없습니다!"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "보아하니 당신이 그들의 리더처럼 보이던데…… 이 자리에서 약속해주시겠습니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "앞으로 이 일대의 야키니쿠 도시락은 우리 <소확행>의 소유라는 것을 말이지요!"
+    },
+    {
+      "Text": "[s5] \"그 아이들은 내 부하가 아니야.\""
+    },
+    {
+      "Text": "[s6] \"그 아이들은 내 학생일 뿐이야.\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "부하든 학생이든, 선생이라면 당신의 말을 들을 게 아닙니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "부하든 학생이든, 선생이라면 당신의 말을 들을 게 아닙니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "……어째서 그런 표정을 지으시는 거죠? 당신은 당신의 학생들도 제대로 다루지 못하는 겁니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "쳇…… 하는 수 없지."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "그 자리에 얌전히 계시지요. 저희가 당신의 휴대폰으로 대신 교섭을 시도하겠습니다."
+    },
+    {
+      "Text": "[s] \"소용없는 일일 텐데…….\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "주소록에 RABBIT 소대가…… "
+    },
+    {
+      "Name": "데카르트",
+      "Text": "아, 여기에 있군."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……무슨 일이시지요, 선생님? 저희는 식사 준비로 바쁩니다만."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "아, 당신이 <RABBIT 소대>의 리더입니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "저희는 진정한 행복을 구도하는 도시의 수도자, <소유하지 않고도 확실한 행복을 찾는 모임>, 줄여서 <소확행>의—"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "……끄, 끊었어?"
+    },
+    {
+      "Text": "[s] \"보이스 피싱으로 오해한 거 아닐까?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "으읏…… 이래서 진리를 깨우치지 못한 범인들은……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "여, 여러분? 뭔가 장난 전화라고 오해하신 모양입니다만……."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신들의 선생님은 저희가 붙잡고 있습니다. 저희의 요구를 순순히 따르지 않으면 지금부터 선생님께 잔혹한 일을……"
+    },
+    {
+      "Name": "사키",
+      "Text": "아, 그래. 알아서 즐겁게들 놀고 계셔."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "……또 끊었어?!"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신 뭐야. 진짜 선생 맞아? 어째서 학생들이 이렇게 조금도 걱정을 하지 않는 건데?!"
+    },
+    {
+      "Text": "[s] \"거기에는 복잡한 사정이 있어서…….\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "젠장, 모처럼 샬레의 선생님을 인질로 비싼 도시락을 잔뜩 뜯어낼 기회라고 생각했는데……."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이렇게 된 이상 다른 방법을 찾아야……."
+    },
+    {
+      "Text": "[s] \"내가 대신 전화를 해도 괜찮을까?\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "당신이 직접 말입니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "……상관은 없지만, 혹시라도 경찰에 신고할 작정이시라면 포기하시는 게 좋을 겁니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "저희 소확행의 동지들은 어지간한 경찰들보다 수준 높은 무기로 무장하고 있으니까요!"
+    },
+    {
+      "Text": "[s] RABBIT 소대에 직접 전화를 건다."
+    },
+    {
+      "Name": "모에",
+      "Text": "으으…… 뭔데, 선생님. 나는 어젯밤 늦게까지 작업을 하느라 피곤하다고."
+    },
+    {
+      "Name": "모에",
+      "Text": "계속 이상한 장난을 칠 거라면……."
+    },
+    {
+      "Text": "[s] \"여기에 버려진 최고급 와규 도시락이 있어.\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "하! 그렇게 자신만만해하더니, 이게 뭡니까?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "이번에도 또 전화를 끊지 않았습니까!"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "쳇, 이렇게 된 이상 다른 학생을 협박해서 먹을만한 걸 뜯어내야……."
+    },
+    {
+      "Name": "사키",
+      "Text": "SRT다! 모두 물러서!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "사키, 지금 저희는 SRT의 공무를 수행 중인 게 아니니 일단 신분은 숨기는 게……."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그보다 진짜 여기에 최고급 와규 도시락이 있는 게 맞아?"
+    },
+    {
+      "Name": "미유",
+      "Text": "최고급 와규가 들어간 도시락은 SRT 학원에 있을 때도 먹어본 적이 없는데……."
+    },
+    {
+      "Name": "모에",
+      "Text": "샬레의 선생님이 그렇게 말했으니까, 틀림없어."
+    },
+    {
+      "Name": "모에",
+      "Text": "선생님의 번호를 역추적해서 휴대 전화의 위치를 파악했으니까 분명 아직도 그 근처에 있을 거야!"
+    },
+    {
+      "Text": "[s] \"엄청나게 빨리 도착했네…….\""
+    },
+    {
+      "Name": "미유",
+      "Text": "아, 선생님이다."
+    },
+    {
+      "Name": "사키",
+      "Text": "선생님, 여기에 최고급 와규 도시락이 있다는 게 정말 사실이야?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "신속한 수거는 폐기 도시락의 생명과도 직결되는 중대 사안."
+    },
+    {
+      "Name": "미야코",
+      "Text": "유통기한이 이미 지난 폐기 도시락은 매초가 지날 때마다 가치가 급속도로 떨어지지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그래서 이곳에 와규 도시락이 있다는 말을 듣고 달려왔습니다만……."
+    },
+    {
+      "Text": "[s] \"그게, 그러니까…….\""
+    },
+    {
+      "Name": "데카르트",
+      "Text": "하하하! 저희의 계획에 완벽히 속으셨군요."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "인간의 욕망이 도달할 수 있는 끝은 존재하지 않는 허상과도 같은 법……"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "탐욕에서 빠져나오지 못한 인간만이 그 허상에 홀려, 끝내 파멸에 발을 딛곤 하지요."
+    },
+    {
+      "Name": "사키",
+      "Text": "그 말은…… 여기에 최고급 와규 도시락이 없다는 거야?"
+    },
+    {
+      "Name": "데카르트",
+      "Text": "물론입니다. 애초에 판매되는 곳도 거의 없는 최고급 와규 도시락이 폐기로 나올 리가 없잖습니까."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "부디 이번 기회에 교훈을 얻어 무소유의 즐거움을 깨달으시길 바라겠습니다."
+    },
+    {
+      "Name": "데카르트",
+      "Text": "자, 동지들. 이 욕망에 찬 아귀들에게 본때를 보여줍시다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "우앗, 이 녀석들 뭐야? 다 떨어진 옷을 입고 있는 주제에 무기는 최신식으로 무장하고 있어!"
+    },
+    {
+      "Name": "미유",
+      "Text": "포, 포위됐어……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "여러분, 잠시만 기다려주세요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "적을 좁은 곳으로 유인하여 각개격파하면 피해 없이 상대를—"
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 아무리 무기가 좋아도 결국은 잔챙이일 뿐이잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "아무리 대단한 무기로 무장하고 있다 하더라도 우리 SRT에 비할 바가 못 되지!"
+    },
+    {
+      "Name": "미유",
+      "Text": "2층에 있는 저격수라면…… 처리할 수 있을 것 같아."
+    },
+    {
+      "Name": "사키",
+      "Text": "미야코, 전방에 위치한 적은 나와 미유가 처리할 테니까 뒤를 부탁해! 그래도 괜찮지?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……알겠습니다. 그럼 교전은 여러분의 재량에 맡기겠습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "제가 신호와 함께 섬광탄을 사용할 테니, 소대원 여러분은 그때를 노려 산개해주세요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그럼 바로……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "돌입합니다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 10; Non-Possession and Yakiniku Bentos"
+    },
+    {
+      "Name": "???",
+      "Text": "You're finally awake."
+    },
+    {
+      "Name": "???",
+      "Text": "I do apologize for the poor hospitality of my comrades."
+    },
+    {
+      "Name": "???",
+      "Text": "We don't often deal with guests, you must understand."
+    },
+    {
+      "Text": "[s] \"You are?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Ah, where are my manners? I am Descartes."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I am the leader of this organization, the Pursuers of Non-Possessive Happiness, or the Pursuers for short."
+    },
+    {
+      "Text": "[s1] \"Non-possessive happiness?\""
+    },
+    {
+      "Text": "[s2] \"The Pursuers?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "You mean to say you've never heard of our organization?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "You mean to say you've never heard of our organization?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We are well-known amongst those pursuing a lifestyle of minimalism and peace. To not have heard of us, you must lead an egregious life of excess."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Of course, I already knew that."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I already knew that you're a selfish human who orders your minions to rob poor folk of their food!"
+    },
+    {
+      "Text": "[s] \"I don't think I follow...\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Don't play dumb! I have seen you and those rabbit-eared students plotting and scheming together!"
+    },
+    {
+      "Text": "[s3] \"Do you mean the SRT students?\""
+    },
+    {
+      "Text": "[s4] \"Are you talking about the RABBIT Squad?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "It makes no difference what they're called."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "It makes no difference what they're called."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We call them greedy pigs. You are sabotaging our path to enlightenment."
+    },
+    {
+      "Text": "[s] \"What did we sabotage now?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "...Society calls us by many names."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Leeches, NEETs, Homeless, Good-for-Nothing Layabouts..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "But such names are facetious. To call us layabouts...!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We are noble ones pursuing non-possessiveness!"
+    },
+    {
+      "Text": "[s] \"Non-possessiveness?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "The people of Kivotos today wish to possess everything they lay their eyes upon."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "The newest tanks, expensive rifles, cozy bunkers that block missiles..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "And so they buy more and more, wishing to fill the gaping hole within them with possessions. The more they purchase, the bigger it grows, until it consumes their very being!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "True happiness comes not from having, but from NOT having..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "One must be willing to release their attachment to worldly possessions, to let go of the shackles of society and only indulge in what we must to survive! To be free!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We are not leeches upon society. We chose this life: to not work, to not own, to not possess. We freed ourselves of material greed and instead feed our souls with our impoverished lifestyle."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "But then, in the midst of our noble pursuit, a group of intruders arrived."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "These intruders donned rabbit ears and the most expensive equipment on the market. Their insatiable appetite knew no bounds, plundering every bento they could lay their greedy fingers upon."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "They're like a virus, devouring all in sight. They refuse to leave behind even a mung bean sprout bento..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Yakiniku bentos are so popular that they're rarely discarded as it is... To monopolize such a luxury solely for themselves..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "This senselessness is a slap in the face to all we stand for!"
+    },
+    {
+      "Text": "[s] \"Don't you stand for letting go of material attachments?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I-I... Well... You see..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Don't change the subject! Either way, we cannot just stand idly by and allow this squad of rabbits or bunnies or what have you to carry on with their greedy acts."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Now, the reason I brought you here is to make a demand."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "As the leader of these miscreants, you will tell them that from now on, all yakiniku bentos belong to the Pursuers!"
+    },
+    {
+      "Text": "[s5] \"Those kids aren't my subordinates.\""
+    },
+    {
+      "Text": "[s6] \"They're really just my students.\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Student or subordinate, what does it matter? As their teacher, simply make them listen to you."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Student or subordinate, what does it matter? As their teacher, simply make them listen to you."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Don't look at me like that. Are you truly so incompetent you cannot control your students?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I didn't want it to come to this."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Don't move an inch. I'll call them on your cell phone and make my demands."
+    },
+    {
+      "Text": "[s] \"I'm trying to tell you, they're not going to care...\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Now, where is the RABBIT Squad in your contacts list? "
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Here it is."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes, Sensei? We're busy making dinner."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Am I speaking to the leader of the RABBIT Squad?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We are the Pursuers of Non-possessive Happiness, or the Pursuers for short, a collective of monks in this city in search of true happiness. We are noble—"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "They...hung up?"
+    },
+    {
+      "Text": "[s] \"Maybe they thought you were a phishing scam?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Ugh... This is why enlightenment eludes these deplorable students..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Hello? Don't hang up, this isn't a prank call."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "We have your precious Sensei hostage. If you don't meet our demands, you'll never see Sensei again."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Oh, okay. Tell Sensei I said bye-bye."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "They just hung up?! Again?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Are you really their Sensei? How could these callous students not show the slightest bit of concern for you? What is wrong with all of you?"
+    },
+    {
+      "Text": "[s] \"It's kind of a long story...\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Drat! I thought our plan was flawless! I was supposed to be rolling in expensive bentos by the end of this..."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I didn't plan for their absolute lack of enlightenment!"
+    },
+    {
+      "Text": "[s] \"How about I try calling them?\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "You, personally?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "I'll allow it. However, trying to call the police would end very badly for everyone."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "The Pursuers are all very heavily armed, and not afraid to fight for our noble cause!"
+    },
+    {
+      "Text": "[s] Call the RABBIT Squad yourself."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ugh... Again, Sensei? I stayed up all night and I wanna go to sleep."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If you call us one more time..."
+    },
+    {
+      "Text": "[s] \"There's an abandoned top-quality wagyu bento here.\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Hah! Did you think your precious students would care if they heard your voice?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "You got hung up on! Just like me!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Ugh. The only way to salvage this situation is to blackmail some other students with the Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "SRT! Everyone, back up!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Saki, it's against protocol to use the academy's name when we're not on official business..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I want the top-quality wagyu bento, please."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I've n-never had wagyu meat before, even at SRT."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I promise, Sensei said there was some there."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I traced their cell right to where you are, so bring us home some meat!"
+    },
+    {
+      "Text": "[s] \"Wow, I didn't even know you could move that fast.\""
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Oh... Hi, Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Sensei, where's the top-quality wagyu bento?!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Rapid collection is the key to preserving the freshness of a bento."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Once a discarded bento passes its expiration date, every second counts."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "So, as soon as Moe informed us of your call, we dropped everything and came as fast as we could."
+    },
+    {
+      "Text": "[s] \"Uh, so the thing is...\""
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Bahahaha! You completely fell for our plan!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "You came here driven by your human desire and were led astray by it!"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Imbeciles like you who are driven by greed are consumed by it until it leads them to utter ruin!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "What's this weirdo saying? Where's the top-quality wagyu bento?"
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Of course there's no wagyu bento here. They always sell out immediately when they're in stock."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "But what we do have here, is a lesson on the joys of non-possession."
+    },
+    {
+      "Name": "Descartes",
+      "Text": "Comrades, rise! Let us instill our noble cause in these greedy goblins!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Who the hell are these guys? They appear homeless, but all their weapons are state-of-the art!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-We're surrounded..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Don't panic."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Lure them to a tight space. We'll funnel them through a choke point and pick them off one-by-one."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You think we're scared of your weapons? Small-fry are still small-fry."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Throw whatever you can at us. You're no match against SRT elites!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I can p-probably take down the snipers on the second floor."
+    },
+    {
+      "Name": "Saki",
+      "Text": "All right, I'll help you with that and deal with the front. Miyako, you have our backs?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Always. Stay safe."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Watch out for my signal before the flash grenade. That's your cue to spread out in formation."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Well then..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT Squad, move!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 10;การไม่เป็นเจ้าของและข้าวกล่องหน้าเนื้อย่าง"
+    },
+    {
+      "Name": "???",
+      "Text": "ในที่สุดก็ได้สติแล้วสินะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ฉันล่ะกังวลว่าการต้อนรับของพวกพ้องของฉันจะทำให้ร่างกายคุณเกิดปัญหาอะไรขึ้นมา"
+    },
+    {
+      "Name": "???",
+      "Text": "พวกเราไม่เคยเจอคนนอกคิโวทอสมาก่อนน่ะ"
+    },
+    {
+      "Text": "[s] \"คุณคือ...?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ลืมแนะนำตัวไปเลย ฉันชื่อว่าเดการ์ต"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "เป็นหัวหน้ากลุ่ม <ความสุขเล็กๆ> ที่ย่อมาจาก <กลุ่มผู้แสวงหาความสุขเล็กๆ แบบไม่ต้องครอบครอง>"
+    },
+    {
+      "Text": "[s1] \"ความสุขเล็กๆ...?\""
+    },
+    {
+      "Text": "[s2] \"แบบไม่ต้องครอบครอง...?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "อะไรกัน ไม่เคยได้ยินชื่อกลุ่มพวกเรามาก่อนเลยงั้นเหรอ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "อะไรกัน ไม่เคยได้ยินชื่อกลุ่มพวกเรามาก่อนเลยงั้นเหรอ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "คนที่แสวงหาชีวิตที่ปราศจากความโลภในทรัพย์สมบัติน่าจะต้องเคยได้ยินชื่อของเราบ้าง หรือว่าชีวิต\nของคุณครูจะยังห่างไกลกับเรื่องแบบนี้?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "แต่ก็นะ ฉันก็เดาไว้แล้วแหละว่าต้องเป็นอย่างนี้"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "เพราะคุณคือมนุษย์โลภมากที่สั่งให้ลูกน้องออกไปปล้นอาหารของคนอื่นยังไงล่ะ!"
+    },
+    {
+      "Text": "[s] \"พูดอะไรของคุณน่ะ...\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "อย่ามาทำเป็นไม่รู้หน่อยเลย! ฉันและพวกพ้องเห็นคุณกับกลุ่มนักเรียนหูกระต่ายคุยกัน! เห็นมากับตาของตัวเองเลย! "
+    },
+    {
+      "Text": "[s3] \"กลุ่มนักเรียนหูกระต่ายงั้นเหรอ...\""
+    },
+    {
+      "Text": "[s4] \"หมายถึงกองทหาร RABBIT ใช่ไหม?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ไม่สำคัญหรอกว่าเด็กพวกนั้นจะใช้ชื่อกลุ่มว่าอะไร"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ไม่สำคัญหรอกว่าเด็กพวกนั้นจะใช้ชื่อกลุ่มว่าอะไร"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "สำหรับพวกเราแล้ว พวกคุณก็เป็นแค่คนโลภมากที่ขัดขวาง \"การแสวงหาสัจธรรม\" ของพวกเรา"
+    },
+    {
+      "Text": "[s] \"พวกเราไปขัดขวางอะไร?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "คนอื่นพากันถามพวกเราว่าทำไมไม่ไปหางานทำ"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "และเรียกเราว่าปลิงของสังคมบ้าง คนขี้แพ้บ้าง พวกขอทานบ้าง"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "แต่ว่าความจริงพวกเราไม่ใช่แบบนั้น ไม่ใช่ว่าเราไม่ทำงานสักหน่อย..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "พวกเราแค่ไม่ต้องการครอบครองสิ่งใดเลย!"
+    },
+    {
+      "Text": "[s] \"ไม่ครอบครองสิ่งใด...?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ผู้คนในคิโวทอสต่างเป็นเจ้าของสิ่งของมากมายนับไม่ถ้วน"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ทั้งรถถังรุ่นใหม่ ปืนไรเฟิลราคาแพง หรือแม้แต่บังเกอร์ที่ช่วยป้องกันมิสไซล์..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "แต่ความปรารถนาที่จะครอบครองของพวกนี้เป็นสิ่งที่ไม่มีที่สิ้นสุด นับวันมันจะยิ่งเพิ่มขึ้นเรื่อยๆ จนทำให้ชีวิตย่ำแย่"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ความสุขที่แท้จริงคือการไม่ครอบครองสิ่งใดเลยต่างหาก..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "เราต้องปล่อยวางทุกอย่างยกเว้นแต่สิ่งจำเป็นเพื่อความอยู่รอด แล้วใช้ชีวิตตามธรรมชาติที่ปราศจาก\nการแต่งเติม จะได้เข้าถึงความสุขที่แท้จริงได้"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "พวกเราก็เลยไม่ทำงาน ไม่เป็นเจ้าของ และมาใช้ชีวิตที่ไม่ครอบครองสิ่งใดในอาคารเก่าๆ นี่"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "แต่อยู่มาวันหนึ่งก็มีแขกที่ไม่ได้รับเชิญโผล่มา"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "นักเรียนพวกนั้นใส่หูกระต่ายและติดอาวุธราคาแพง หอบข้าวกล่องหมดอายุไปมากมายขนาดที่กินกัน\nทุกคนแล้วยังเหลือ แถมยังโลภมากอยากได้ข้าวกล่องใหม่อีก"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ทุกที่ที่พวกนั้นไปจะไม่มีอะไรเหลือเลย ขนาดข้าวหน้าถั่วงอกยังไม่เหลือ..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ไหนจะข้าวหน้าเนื้อย่างที่เป็นแรร์ไอเทมอีก... พวกนั้นผูกขาดสิ่งของฟุ่มเฟือยแบบนั้นเพียงผู้เดียว..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "นี่คือการกระทำไร้มารยาท การกระทำที่ขาดจริยธรรม!"
+    },
+    {
+      "Text": "[s] \"ไหนว่าไม่สนใจสิ่งของฟุ่มเฟือยไง...?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "กะ... ก็จริงอยู่ แต่ว่ามัน..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "เอาเถอะ! พวกเราทนเห็นพฤติกรรมแย่ๆ ของกองทหาร RABBIT หรือกองทหารกระต่ายอะไรนั่นไม่ได้!"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ดูทรงแล้วคุณน่าจะเป็นหัวหน้าของเด็กพวกนั้นสินะ... สัญญาอะไรกับเราหน่อยสิ"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ขอให้พวกเราชาว <ความสุขเล็กๆ> ได้เป็นเจ้าของข้าวกล่องหน้าเนื้อย่างในย่านนี้ต่อไปด้วย!"
+    },
+    {
+      "Text": "[s5] \"เด็กๆ พวกนั้นไม่ใช่ลูกน้องสักหน่อย\""
+    },
+    {
+      "Text": "[s6] \"เด็กๆ พวกนั้นเป็นแค่ลูกศิษย์น่ะ\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฉันไม่สนหรอกว่าจะเป็นลูกน้องหรือลูกศิษย์ แต่พวกนั้นน่าจะฟังคำสั่งของคนที่เป็นครูไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฉันไม่สนหรอกว่าจะเป็นลูกน้องหรือลูกศิษย์ แต่พวกนั้นน่าจะฟังคำสั่งของคนที่เป็นครูไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ทำไมถึงทำหน้าแบบนั้นล่ะ? คุณจัดการนักเรียนของตัวเองไม่ได้รึไง?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฮึ่ม... งั้นก็ช่วยไม่ได้"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "อยู่ที่นี่อย่างสงบเสงี่ยมไปก็แล้วกัน พวกเราจะใช้โทรศัพท์ของคุณเจรจาต่อรองดู"
+    },
+    {
+      "Text": "[s] \"ไม่น่ามีประโยชน์นะ...\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ไหนลองหาชื่อกองทหาร RABBIT ในรายชื่อซิ... "
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "เจอแล้ว"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มีเรื่องอะไรเหรอคะคุณครู...? พวกฉันกำลังยุ่งกับการเตรียมอาหารค่ะ"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ธะ... เธอคือหัวหน้า <กองทหาร RABBIT> ใช่ไหม?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "พวกเราคือ <กลุ่มผู้แสวงหาความสุขเล็กๆ แบบไม่ต้องครอบครอง> หรือย่อสั้นๆ ว่า <ความสุขเล็กๆ>"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "วะ... วางไปแล้วเหรอ?"
+    },
+    {
+      "Text": "[s] \"สงสัยจะคิดว่าเป็นแก๊งคอลเซ็นเตอร์\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "หนอย... พวกคนร้ายที่ไม่รับรู้ความจริง..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฮะ... ฮัลโหล พวกเธออาจจะคิดว่าเราเป็นแก๊งคอลเซ็นเตอร์..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "แต่เราจับตัวคุณครูของพวกเธอมา ถ้าไม่ทำตามที่เราขอละก็ คุณครูของพวกเธอจะได้ลิ้มรสความ\nป่าเถื่อน..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อ้อ งั้นเหรอ เล่นให้สนุกนะ"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "วางสายไปอีกแล้วเหรอ?!"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "อะไรกัน? เป็นครูจริงหรือป่าว? ทำไมพวกนักเรียนถึงไม่เป็นห่วงเลยล่ะ?!"
+    },
+    {
+      "Text": "[s] \"คือว่าเรื่องมันซับซ้อนน่ะ...\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "โธ่เว้ย! อุตส่าห์จับตัวคุณครูจากชาเล่ต์มาเป็นตัวประกัน คิดว่านี่จะเป็นโอกาสที่จะได้กินข้าวกล่อง\nแพงๆ แล้วซะอีก..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "งั้นก็ต้องหาวิธีอื่น..."
+    },
+    {
+      "Text": "[s] \"เดี๋ยวขอโทรเองได้ไหม?\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "นี่แกจะเป็นคนพูดสายเองงั้นรึ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ให้โทรเองก็ได้อยู่หรอก แต่ถ้าจะโทรแจ้งตำรวจละก็ ล้มเลิกความคิดนั้นจะดีกว่า"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "พวกเราชาวความสุขเล็กๆ มีอาวุธที่เหนือกว่าตำรวจพวกนั้น!"
+    },
+    {
+      "Text": "[s] โทรหากองทหาร RABBIT"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "งืม... ว่าไงอีกคุณครู เมื่อคืนฉันทำงานโต้รุ่งจนเพลียเลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าจะโทรมาแกล้งกันอีกละก็..."
+    },
+    {
+      "Text": "[s] \"ที่นี่มีข้าวกล่องหน้าเนื้อวากิวชั้นดีด้วยนะ\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฮึ่ม! ไหนว่าโทรเองแล้วจะได้ผลไง?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "โดนตัดสายใส่อีกรอบแล้วเนี่ย!"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ขืนยังเป็นแบบนี้ คงต้องไปข่มขู่ขอของกินจากนักเรียนคนอื่น..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทุกคนหลบไป! SRT มาแล้ว!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ซากิ ตอนนี้เราไม่ได้ทำภารกิจของ SRT อยู่นะ เอาเป็นว่าเรื่องการเปิดเผยตัวตน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ว่าแต่ที่นี่มีข้าวกล่องหน้าเนื้อวากิวชั้นดีจริงๆ เหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตอนอยู่สถาบัน SRT ยังไม่เคยได้กินข้าวกล่องที่มีเนื้อวากิวเลย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ต้องมีสิ ก็คุณครูจากชาเล่ต์บอกฉันมาแบบนี้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันเช็กตำแหน่งของคุณครูจากเบอร์โทรศัพท์แล้ว คุณครูต้องยังอยู่แถวๆ นั้นแน่นอน!"
+    },
+    {
+      "Text": "[s] \"มาถึงเร็วจังเลย...\""
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ๊ะ คุณครูนี่นา"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่ที่มีข้าวกล่องหน้าเนื้อวากิวชั้นดีจริงๆ เหรอคุณครู?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การเก็บอย่างรวดเร็วส่งผลอย่างมากกับความสดใหม่ข้าวกล่องเหลือทิ้งนะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณค่าข้าวกล่องที่หมดอายุจะลดลงในทุกๆ วินาทีเลยด้วย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พอได้ยินว่าที่นี่มีข้าวกล่องหน้าเนื้อวากิว พวกเราก็เลยรีบมา..."
+    },
+    {
+      "Text": "[s] \"เอ่อ... คือว่า...\""
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ฮ่ะฮ่ะฮ่า! ตกหลุมพรางของเราจนได้"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ความปรารถนาของมนุษย์ช่างไม่มีที่สิ้นสุดจริงๆ..."
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "มนุษย์ที่ไม่อาจหลุดพ้นจากความโลภได้ย่อมก้าวขาเข้าไปสู่ความพินาศเสมอ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พูดอย่างนี้แปลว่า... ที่นี่ไม่มีข้าวกล่องหน้าเนื้อวากิวชั้นดีงั้นเหรอ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ก็ไม่มีน่ะสิ มันไม่มีขายตั้งแต่แรก แล้วจะเอาที่ไหนมาเหลือทิ้งล่ะ?"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "ถ้าได้ข้อคิดจากครั้งนี้แล้วก็ไปดื่มด่ำกับการใช้ชีวิตที่ไร้ซึ่งการครอบครองซะเถอะ"
+    },
+    {
+      "Name": "เดการ์ต",
+      "Text": "พวกพ้องทั้งหลาย มาสั่งสอนปีศาจแห่งความปรารถนาพวกนี้กัน!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อะไรของพวกแกเนี่ย? ใส่เสื้อผ้าขาดรุ่งริ่งแต่มีอาวุธใหม่ล่าสุดครบมือเลย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ระ... เราโดนล้อมเอาไว้แล้ว..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "รอเดี๋ยวก่อนนะคะทุกคน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราแค่ต้องล่อศัตรูไปในที่แคบๆ แล้วก็..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงจะมีอาวุธดีๆ แต่ถ้าใช้ไม่เป็นก็จบอยู่ดีไม่ใช่รึไง?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ยังไงก็เทียบชั้นกับนักเรียน SRT อย่างพวกเราไม่ได้หรอก!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันว่าเราน่าจะจัดการสไนเปอร์ที่อยู่ชั้น 2 ได้นะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยาโกะ ฉันกับมิยุจะจัดการศัตรูข้างหน้าเอง ฝากเธอจัดการข้างหลังหน่อยนะ! ไหวใช่ไหม?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไหวค่ะ งั้นฝากทุกคนปะทะแทนฉันด้วยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันจะให้สัญญาณพร้อมระเบิดแสง ถึงตอนนั้นให้ทุกคนกระจายกำลังนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้างั้นก็..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เริ่มปฏิบัติการ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第10話;無所有和燒肉便當"
+    },
+    {
+      "Name": "???",
+      "Text": "……哦，你醒了嗎。"
+    },
+    {
+      "Name": "???",
+      "Text": "身體如何？"
+    },
+    {
+      "Name": "???",
+      "Text": "沒問題那就再好不過了。我還在想要是因為招待不周而出什麼狀況該如何是好……\n畢竟我們也是第一次迎接奇普托斯外部的客人。"
+    },
+    {
+      "Text": "[s] 「……你是？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "抱歉介紹晚了，我的名字是笛卡爾。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "是率領這個，「就算無[ruby=．]所[/ruby]有也要蒐集[ruby=．]確[/ruby]實的[ruby=．]幸[/ruby]福」……通稱「所確幸」組織的隊長。"
+    },
+    {
+      "Text": "[s1] 「？？？」"
+    },
+    {
+      "Text": "[s2] 「所確幸……？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "是第一次聽說嗎？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "是第一次聽說嗎？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "若是追求過清貧人生的人，我想應該至少有聽過才對……原來如此。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "不過我也猜到會不會是那樣。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "畢竟你似乎派出部下試圖搶走食物。"
+    },
+    {
+      "Text": "[s] 「那個，什麼意思……？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "裝傻也沒用！我的夥伴們親眼看見，你和兔耳朵學生相處得很融洽！"
+    },
+    {
+      "Text": "[s3] 「你說兔耳朵……」"
+    },
+    {
+      "Text": "[s4] 「是指RABBIT小隊的大家嗎？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "我對那些學生的稱呼並不是特別感興趣。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "我對那些學生的稱呼並不是特別感興趣。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "重點在於，你們妨礙了我們的求道，是群貪欲之人。"
+    },
+    {
+      "Text": "[s] 「我們有妨礙了什麼嗎……？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "……我們有時被這麼稱呼。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "「飯桶」，或是「社會的腫瘤」……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "但其實哪個都不對。我們並不是無所事事……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "只是在實踐「無所有」而已！"
+    },
+    {
+      "Text": "[s] 「我不懂你想說什麼……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "奇普托斯的人們，擁有太多東西了。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "新型戰車、高價手槍、抵禦導彈的堡壘等等……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "然而這些慾望卻沒有被滿足。想要更好、想爬更高……那些想法最終只會讓人生疲憊而已。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "真正的幸福不是「擁有」，而是由「無所有」產生的……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "放下生存所需最低限度以外的一切，維持自然無為的存在方式……這才能抵達真正的幸福。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "所以我們不工作，實踐了不擁有的「無所有」生活。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "然後某一天，這裡來了不速之客。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "戴著兔耳朵，拿著高價武裝的那些學生，接二連三搶走廢棄便當。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "她們經過的地方寸草不生……連豆芽菜便當都不留下。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "明明「燒肉便當」這類的東西本來就很少成為廢棄品了……\n她們卻連這些都想獨佔……！"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "這種沒有常理的行為，豈能被原諒！？"
+    },
+    {
+      "Text": "[s] 「那個，原本不是在談論『對奢侈品沒興趣』嗎……？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "雖，雖然是那樣沒錯……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "總之！不管她們是RABBIT小隊還是兔子小隊，我們都不能原諒這種暴行！"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "而我們認為你是她們的隊長……因此請和我做約定吧。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "今後「燒肉便當」被廢棄的話，必須讓給我們「所確幸」！"
+    },
+    {
+      "Text": "[s5] 「那些孩子不是我的部下哦。」"
+    },
+    {
+      "Text": "[s6] 「那些孩子只是我的學生。」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "不管是部下還是學生都無所謂。\n他們會聽你說的話對吧？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "不管是部下還是學生都無所謂。\n他們會聽你說的話對吧？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "……那是什麼微妙的表情。明明是老師，卻連自己的學生都約束不了嗎？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "真是沒辦法呢……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "這樣的話請把手機給我，在那裡老實待著。由我來交涉。"
+    },
+    {
+      "Text": "[s] 「我想應該沒用……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "我來看看……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "是這個嗎。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……有什麼事嗎？我們正忙著準備用餐。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "啊啊，你就是「RABBIT小隊」的隊長嗎？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "我們是追求真正幸福的都市求道者，「就算無所有也要蒐集確實的幸福」……\n簡稱「所確幸」的──"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "……被，被掛斷了？"
+    },
+    {
+      "Text": "[s] 「應該認為是詐欺還是什麼的吧……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "所，所以才說這些不懂真理的凡人……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "各，各位？你們似乎誤以為這是「騷擾電話」之類的了……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "我抓住了你們的老師。\n不老實答應我們的要求的話，老師馬上就會受到殘酷的對待──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "隨你高興啊？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "……又掛斷了！？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "怎麼回事啊，你真的是「老師」嗎！？絲毫都不擔心你耶！？"
+    },
+    {
+      "Text": "[s] 「嘛，有複雜的原因……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "可惡，好不容易將夏萊的老師當作人質……這樣高級便當就……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "這樣只能用其他方法……"
+    },
+    {
+      "Text": "[s] 「可以試著換我打電話嗎？」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "由你直接交涉？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "可以是可以……但勸你不要耍小心機，趁機向警察通報比較好唷。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "因為我們「所確幸」的武裝，能輕鬆凌駕女武神呢！"
+    },
+    {
+      "Text": "[s] 撥電話給RABBIT小隊"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊啊真是，老師是怎樣啊……這邊作業到深夜很累的說。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不是重要的事就──"
+    },
+    {
+      "Text": "[s] 「其實我找到了被廢棄的和牛牛排便當……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "哈哈哈！"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "明明那麼自信滿滿，自己不也被無視了嗎！"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "哈啊，這樣的話只能威脅其他學生……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我們是SRT！閒雜人等讓開！"
+    },
+    {
+      "Name": "都子",
+      "Text": "咲希，我們現在並不是在進行SRT的任務，還是不要報上名號比較好……"
+    },
+    {
+      "Name": "美優",
+      "Text": "比，比起那個，這裡真的有最高級的和牛……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "和牛牛排便當什麼的，在SRT的時候也沒吃過……"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗯，老師絕對是那麼說的。不會有錯。"
+    },
+    {
+      "Name": "萌",
+      "Text": "根據反偵測的結果來推測，應該就在那附近！快點！"
+    },
+    {
+      "Text": "[s] 「哎呀～真是優秀呢……」"
+    },
+    {
+      "Name": "美優",
+      "Text": "啊，老師……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "和牛牛排便當在哪裡！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "迅速收集是任務的基本。"
+    },
+    {
+      "Name": "都子",
+      "Text": "賞味期限到期之後，美味程度每分每秒都會減少，必須馬上確保……"
+    },
+    {
+      "Name": "都子",
+      "Text": "所以說便當在哪裡？"
+    },
+    {
+      "Text": "[s] 「這個，那個嘛……」"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "哈哈哈！徹底被我們的計劃騙了呢！"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "慾望的盡頭，就是個海市蜃樓般的幻覺……"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "輸給慾望被幻覺魅惑的人，總有一天只會踏入毀滅。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "雖然不知道在說什麼……反正沒有和牛牛排便當嗎？"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "當然。怎麼會認為那樣的東西會被廢棄呢。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "請以此為契機，察覺到「無所有」的美好吧。"
+    },
+    {
+      "Name": "笛卡爾",
+      "Text": "來吧，同志們。來教教她們吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗚哇，這些傢伙是怎樣！？明明衣服破破爛爛的，只有武器是最新型……！"
+    },
+    {
+      "Name": "美優",
+      "Text": "被，被包圍了……"
+    },
+    {
+      "Name": "都子",
+      "Text": "先冷靜下來吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "基本上只要引誘到狹窄的地方一一擊破，這些數量也不是問題……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘛，和只有武器好沒關係。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "別小看我們SRT了！"
+    },
+    {
+      "Name": "美優",
+      "Text": "2樓的狙擊手，我會全部想辦法解決……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子，前方我和美優會想辦法處理，後方就拜託你了。這樣可以嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……好的，那麼上吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我會使用閃光彈，請以那個為信號散開。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼……"
+    },
+    {
+      "Name": "都子",
+      "Text": "作戰開始！"
+    }
+  ]
+}

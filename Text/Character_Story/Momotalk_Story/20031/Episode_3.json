@@ -1,0 +1,1977 @@
+{
+  "TitleJP": "温かく",
+  "TitleKR": "따듯하게",
+  "TitleEN": "Warmly",
+  "TitleTH": "อย่างอบอุ่น",
+  "TitleTW": "溫暖地",
+  "DescJP": "シグレは銭湯を訪れる客に提供する飲み物を作ることに。先生はそんなシグレの様子を見守っていたが……その間に終電を逃してしまう。帰れなくなってしまった先生は、シグレと一緒に旅館で泊まることになるのだった。",
+  "DescKR": "목욕탕에서 일일 우유 바텐더로 일하게 된 시구레. 선생님은 시구레를 지켜보다가 막차를 놓치게 되고, 숙소를 구하지 못한 선생님을 위해 시구레는 직원 숙소의 한 곁을 내어준다.",
+  "DescEN": "Shigure gets a job as milk bartender for a day at the bathhouse. Sensei watches Shigure at work and ends up missing the last train home. With nowhere else to stay, Sensei ends up sleeping in the employee quarters at Shigure's invitation.",
+  "DescTH": "ชิกุเระได้ทำงานเป็นบาร์เทนเดอร์นมประจำวันที่โรงอาบน้ำ คุณครูเฝ้าดู\nชิกุเระทำงานจนตกรถเที่ยวสุดท้ายและหาที่พักไม่ได้ ชิกุเระจึงให้คุณครู\nพักที่ห้องพักของพนักงาน",
+  "DescTW": "時雨在浴場擔任一日調奶師。老師為了照顧時雨錯過末班車卻找不到留宿的地方，時雨將員工宿舍的一側讓給老師。",
+  "DialogJP": [
+    {
+      "Text": "温かく"
+    },
+    {
+      "Text": "（シグレが言っていたフルーツ牛乳バーが気になって、彼女が働いている温泉を訪れた）"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "あ、先生。いらっしゃい。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "今、ちょうどバーの営業を始めようと思ってたところだよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "温泉の営業が始まった直後に入ったお客さんが、そろそろ出てくるはずだから。"
+    },
+    {
+      "Text": "[s] \"フルーツ牛乳バーって、具体的に何をするの？\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "モモトークで言った通りだよ、先生。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "お客さんから注文が来たら好みを聞いて、\nその場で材料をブレンドして最高のフルーツ牛乳を作るの。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "少し面倒な方法だから、\n最初はこの施設の人も戸惑ってたみたいだったけど……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "「好きにさせてもらえるなら給料はいらない」って伝えたら、\n数日だけ許可してくれたんだ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "私は新しいレシピをたくさん試せるし、お客さんは最高のフルーツ牛乳が飲める。\nお互いにとってプラスじゃない？ "
+    },
+    {
+      "Text": "[s1] \"シグレが楽しいならいいんだけど……。\""
+    },
+    {
+      "Text": "[s2] \"変な材料を入れないか不安だなぁ……。\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ふふっ。そんなに不安なら、そこで私の働く姿を見守ってて。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "えーっと……\n牛乳の準備は終わったし、ミキシンググラスとマドラーも用意したから……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "よし、それじゃ……営業開始だね。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "ふぅ……いいお湯だった。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "けど長い時間入ってたからか、少し喉が渇いたな……。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "すみません、フルーツ牛乳ありますか？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "うん、あるよ。どんな味にする？"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "ど、どんな味か？急にそう言われると悩みますけど……。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "そうですね……甘すぎない感じでお願いします。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "甘すぎない、か……わかった。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "はい。甘さ控えめ、三種のベリーで作ったトリプルベリー牛乳だよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "リンゴンベリーとクランベリーをブレンドした後、\nラズベリーを加えて食感を足したんだ。飲んでみて。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "では……。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "あっ、ちょうどいい甘さです！\nベリーの酸味も牛乳のまろやかさと相まって、そんなに強くないし……。"
+    },
+    {
+      "Name": "温泉客A",
+      "Text": "なにより、こんなに高級感のあるフルーツ牛乳は初めてです！"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ふふっ、気に入ってくれてよかった。"
+    },
+    {
+      "Name": "温泉客B",
+      "Text": "あの、私は牛乳を飲むといつもお腹が痛くなるんですけど……。"
+    },
+    {
+      "Name": "温泉客B",
+      "Text": "私でも飲めるものはありますか……？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "もちろん。ちょっと待ってね。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "はい、牛乳の代わりに豆乳で作ったトロピカル豆乳だよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "トロピカルフルーツを使って、さっぱりとした味に仕上げてみたんだ。"
+    },
+    {
+      "Name": "温泉客B",
+      "Text": "本当だ、お腹が全然痛くならない……\nこれならいくらでも飲めそうです！"
+    },
+    {
+      "Name": "温泉客B",
+      "Text": "ありがとうございます！\nこんなお風呂上がりらしいことができる日が来るなんて、夢みたい……！"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ふふっ、どういたしまして。けど飲み過ぎるのもよくないから、\n今日はこの一杯だけで我慢してね。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "はぁ……仕事が忙しかったせいか、\n温泉に浸かったのに全然疲れが取れてない気がする……。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "何か疲れが取れる飲み物はない？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "うーん、疲れてるなら……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "はい、妖怪MAXフルーツ味だよ。"
+    },
+    {
+      "Text": "[ns] \"それ、もはやフルーツ牛乳ではないんじゃ……？\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "一人前のバーテンダーなら、お客さんに合わせて\nどんな飲み物でも提供できないといけないから。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "すぐに疲れをとりたいなら、フルーツ牛乳よりはエナジードリンクだよね。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "思ってたのとは違うものがでてきたけど……\n飲んだら少し元気が出てきたかも。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "今の私に一番必要なものだった。気遣ってくれてありがとう。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ふふっ、どういたしまして。"
+    },
+    {
+      "Text": "（シグレのフルーツ牛乳バーは大好評で、\n多くのお客さんがフルーツ牛乳を注文しに休憩室を訪れた）"
+    },
+    {
+      "Text": "（その様子をずっと見守っていたら、いつの間にか随分時間が経っていた……）"
+    },
+    {
+      "Text": "[ns] \"あっ、どうしよう……。\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ん、何かあった？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "……ああ、シャーレに戻る終電を逃しちゃったんだ？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "でも、そんなに困ることはないでしょ？だってここは温泉だよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "客室はたくさんあるし、一泊して明日帰れば――"
+    },
+    {
+      "Name": "支配人",
+      "Text": "その……悪いけど、今日は部屋が全部埋まってるんだ。"
+    },
+    {
+      "Name": "支配人",
+      "Text": "今日、シグレさんのフルーツ牛乳を飲んだお客様たちが、\n明日も飲みたいからと宿泊を延長されてね……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "……やれやれ、本気を出しすぎちゃったみたい。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "どうする、先生？泊まれる部屋、ないみたいだけど。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "でも、今日みたいな寒い日に\n先生を外で寝かせるわけにもいかないし……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "あ。じゃあ私の宿舎に泊まっていく？"
+    },
+    {
+      "Text": "[s] \"シグレの……？\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "うん。ここで働く従業員には、職員用の宿舎が提供されてるんだよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "少し狭いけど、外で寝るよりはマシだと思う。"
+    },
+    {
+      "Text": "[s3] \"他に方法はなさそうだし……。\""
+    },
+    {
+      "Text": "[s4] \"じゃあ、一晩だけお邪魔しようかな。\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ふふっ、わかった。\nならすぐにここを片付けて、部屋に案内してあげる。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "どう？意外と居心地のよさそうな部屋でしょ？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "お布団は敷いておいたから。そこで寝ればいいよ。"
+    },
+    {
+      "Text": "[ns5] \"あの……シグレさん？\""
+    },
+    {
+      "Text": "[ns6] \"なんだか布団が一枚しかないような……。\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "ん？\nそりゃそうだよ。もともと一人用の部屋だから。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "でも、頑張れば二人で入れると思うし……。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "だから、遠慮しなくていいよ？"
+    },
+    {
+      "Text": "[wa:650]― [log=시구레 온천ND]はい、[wa:230]先生。[/log]"
+    },
+    {
+      "Text": "[wa:1100]― [log=시구레 온천ND]お布団の外は[wa:610]寒いでしょ？[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]意地張らないで[wa:1000]こっちにおいでよ。[/log]"
+    },
+    {
+      "Text": "[wa:800]― [log=시구레 온천ND]お布団も[wa:480]ふかふかだし、[wa:1380]温まってるよ？[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]こっちなら[wa:540]すぐ寝付けると思う。[/log]"
+    },
+    {
+      "Text": "[wa:1000]― [log=시구레 온천ND]もし、[wa:900]お布団だけじゃ[wa:700]寒いなら……[/log][wa:150] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]私が湯たんぽの[wa:960]代わりになるよ。[/log]"
+    },
+    {
+      "Text": "[wa:550]― [log=시구레 온천ND]え？[wa:1100]元々あった[wa:660]湯たんぽ……？[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]えっ[wa:260]とね……[wa:1530]中身、[wa:1620]飲んじゃった。[/log]"
+    },
+    {
+      "Text": "[wa:780]― [log=시구레 온천ND]その、[wa:1060]お布団の中がさ……[/log]"
+    },
+    {
+      "Text": "[wa:1720]― [log=시구레 온천ND]モルスを温めるのに[wa:1160]ちょうどいい温度で……[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]さっき仕事してる時に、[/log]"
+    },
+    {
+      "Text": "[wa:1800]― [log=시구레 온천ND]湯たんぽの中身を[wa:970]特製モルスに[wa:630]入れ替えたの。[/log]"
+    },
+    {
+      "Text": "[wa:480]― [log=시구레 온천ND]でも……[wa:560]しょうがないよね？[/log][wa:50] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]こうなっちゃった以上、[/log]"
+    },
+    {
+      "Text": "[wa:1220]― [log=시구레 온천ND]体を温める方法は[wa:2020]他にないし……[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]だから今夜は、[/log]"
+    },
+    {
+      "Text": "[wa:1300]― [log=시구레 온천ND]先生が[wa:620]湯たんぽの[wa:630]代わりになってよ。[/log]"
+    },
+    {
+      "Text": "[ns] 湯たんぽの中のモルスを飲む。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "……あれ？急にどうしたの、先生？"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "もしかして、喉が渇いたとか？"
+    },
+    {
+      "Text": "[s7] \"……このモルス、発酵してるみたい。\""
+    },
+    {
+      "Text": "[s8] \"やけにツンとした匂いがする。\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "え？そんなはずないよ。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "このモルスには酵母も砂糖も入れてないのに。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "それにまだ、漬けてから1日しか経ってないんだよ。\nなのに発酵するなんて……。"
+    },
+    {
+      "Text": "[s9] \"でも、妙に顔がぽかぽかするし。\""
+    },
+    {
+      "Text": "[s10] \"間違いない！発酵している！\""
+    },
+    {
+      "Text": "[ns11] \"身体も熱くなってきたから、布団はいらなさそう。\""
+    },
+    {
+      "Text": "[ns12] \"だからシグレが一人で使って！\""
+    },
+    {
+      "Name": "シグレ",
+      "Text": "……ふぅん、そういうことか。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "まあ、わかったよ。\n暑がってる先生を、無理やりお布団に入れるわけにもいかないし。"
+    },
+    {
+      "Name": "シグレ",
+      "Text": "でも、寒くなったらいつでも帰ってきていいからね？\nスペースは空けておくから。"
+    },
+    {
+      "Text": "（その後、畳の上で身体を丸めて夜を明かした）"
+    },
+    {
+      "Text": "（幸い何事も起こらなかったが、寒い場所で寝たせいか、\nその後軽い風邪をひいてしまった……）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "따듯하게"
+    },
+    {
+      "Text": "(시구레가 말한 우유 바텐딩이 궁금해서 그녀가 일하는 온천장으로 직접 찾아가 보았다.)"
+    },
+    {
+      "Name": "시구레",
+      "Text": "아, 어서 와. 선생님."
+    },
+    {
+      "Name": "시구레",
+      "Text": "안 그래도 방금 막 바텐딩 영업을 개시하려던 참이었어."
+    },
+    {
+      "Name": "시구레",
+      "Text": "탕에 첫 손님이 들어간 지 1시간 정도 지났으니, 슬슬 후르츠 밀크를 찾는 손님이 찾아오지 않을까 싶어서."
+    },
+    {
+      "Text": "[s] \"우유 바텐딩이라니…… 도대체 무얼 어떻게 하는 거야?\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "말 그대로야, 선생님."
+    },
+    {
+      "Name": "시구레",
+      "Text": "목욕을 마치고 나온 손님이 후르츠 밀크를 주문하면 손님의 취향을 듣고 즉석에서 재료를 블렌딩해 최고의 후르츠 밀크를 내오는 거지."
+    },
+    {
+      "Name": "시구레",
+      "Text": "다소 번거로운 방식이라 처음에는 이 온천장에서도 난색을 표했지만……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "내가 급여는 필요 없으니, 마음대로 음료를 만들 수만 있게 해 달라고 하니 며칠간 시험 삼아 허가를 해주었어."
+    },
+    {
+      "Name": "시구레",
+      "Text": "나는 새로운 레시피를 잔뜩 시험해 볼 수 있고, 손님들은 최고의 후르츠 밀크를 마실 수 있으니…… 서로 이득 아니겠어?"
+    },
+    {
+      "Text": "[s1] \"시구레가 즐겁다면 상관없지만……\""
+    },
+    {
+      "Text": "[s2] \"혹시 이상한 재료를 넣지는 않을까 조금 불안한 걸……\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "후후, 정 불안하면 그쪽에 앉아서 내가 일하는 걸 지켜봐."
+    },
+    {
+      "Name": "시구레",
+      "Text": "우유의 준비도 끝났고, 믹싱 글라스와 머들러도 챙겼으니……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "자, 그럼…… 우유를 섞고 목욕물을 바꿔 줄 시간이군."
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "후우…… 좋은 탕이었어……"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "다만 오랫동안 탕에 있었더니 조금 목이 마른 걸……"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "저기, 혹시 후르츠 밀크 있나요?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "응, 있어. 어떤 맛의 후르츠 밀크로 줄까?"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "여, 여러 가지 맛이 있는 건가요? 갑자기 그렇게 말씀하시니 조금 고민되는데……"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "잘은 모르겠지만, 너무 달지 않은 맛으로 부탁드려요."
+    },
+    {
+      "Name": "시구레",
+      "Text": "너무 달지 않은 맛이라…… 알겠어."
+    },
+    {
+      "Name": "시구레",
+      "Text": "자, 세 가지 종류의 열매를 섞어서 만든 트리플 베리 밀크야."
+    },
+    {
+      "Name": "시구레",
+      "Text": "단맛이 강하지 않은 링곤베리와 크랜베리를 섞어 블렌딩 한 뒤에 라즈베리로 식감을 살렸어. 어서 마셔봐."
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "어디……"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "정말로 많이 달지 않네요. 열매의 산미도 우유의 고소한 맛과 섞여 자극적이지 않고……"
+    },
+    {
+      "Name": "온천객 A",
+      "Text": "이런 고급스러운 맛의 후르츠 밀크는 처음 먹어보는 것 같아요!"
+    },
+    {
+      "Name": "시구레",
+      "Text": "후후, 마음에 든 것 같아서 다행이네."
+    },
+    {
+      "Name": "온천객 B",
+      "Text": "저기, 저는 위장이 좋지 않아서 우유를 마시면 언제나 배앓이를 하는데……"
+    },
+    {
+      "Name": "온천객 B",
+      "Text": "혹시 제가 마실 수 있을 만한 후르츠 밀크도 있을까요?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "물론이지. 잠시만 기다려 줘."
+    },
+    {
+      "Name": "시구레",
+      "Text": "자, 우유 대신 두유를 써서 만든 트로피컬 소이 밀크야."
+    },
+    {
+      "Name": "시구레",
+      "Text": "거기에 소화에 도움이 되는 열대 과일을 넣어 부드러운 맛을 더했지."
+    },
+    {
+      "Name": "온천객 B",
+      "Text": "정말이다…… 기름진 맛이 덜해서 이거라면 얼마든지 마실 수 있겠어요."
+    },
+    {
+      "Name": "온천객 B",
+      "Text": "위장이 약한 저도 온천욕을 마치고 후르츠 밀크를 즐길 수 있다니, 꿈만 같네요……!"
+    },
+    {
+      "Name": "시구레",
+      "Text": "아무리 맛있어도 너무 많이 마시면 배탈이 날 수 있으니까. 오늘은 이 한 잔으로 만족하도록 해."
+    },
+    {
+      "Name": "선도부원",
+      "Text": "피곤해…… 선도부 일로 지쳐서 그런지, 온천에 들어갔다 나왔는데도 피로가 여전한 것 같아……"
+    },
+    {
+      "Name": "선도부원",
+      "Text": "뭔가 마실 만한 것 좀 받을 수 있을까?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "음, 몸 상태가 그렇다면……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "자, 요괴 MAX 후르츠 맛이야."
+    },
+    {
+      "Text": "[ns] \"이건 후르츠 밀크도 아니잖아……?\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "훌륭한 바텐더라면 손님의 상태에 맞추어 어떤 음료라도 제공할 줄 알아야 하니까."
+    },
+    {
+      "Name": "시구레",
+      "Text": "단기간에 피로를 가시게 하려면 역시 후르츠 밀크보다는 에너지 드링크지!"
+    },
+    {
+      "Name": "선도부원",
+      "Text": "예상과는 다른 게 나오긴 했지만…… 마시고 나니 조금은 기운이 돋는 것 같네."
+    },
+    {
+      "Name": "선도부원",
+      "Text": "지금의 내게 가장 필요했던 거였어. 신경 써줘서 고마워."
+    },
+    {
+      "Name": "시구레",
+      "Text": "별말씀을."
+    },
+    {
+      "Text": "(시구레의 바텐딩은 큰 호평을 받아, 많은 손님들이 다양한 종류의 후르츠 밀크를 주문하기 위해 계속해서 휴게실을 찾았다.)"
+    },
+    {
+      "Text": "(시구레의 바텐딩을 지켜보느라 시간 가는 줄 모르고 계속 온천장에 머물렀다……)"
+    },
+    {
+      "Text": "[ns] \"이런, 큰일인 걸……\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "왜 그래, 선생님?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "……응? 내가 일하는 모습을 지켜보다가 샬레로 돌아가는 막차 시간을 놓치고 말았다고?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "뭘 그렇게 고민하는 거야? 여기는 온천장이잖아."
+    },
+    {
+      "Name": "시구레",
+      "Text": "객실이라면 충분히 있으니까, 하루 묵었다가 내일 돌아가면—"
+    },
+    {
+      "Name": "지배인",
+      "Text": "저기…… 미안하지만, 시구레. 오늘은 남은 방이 없어."
+    },
+    {
+      "Name": "지배인",
+      "Text": "오늘 바텐딩을 경험한 손님들이 내일도 시구레의 후르츠 밀크를 맛보고 싶다고 숙박을 연장하셔서 말이야……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "이런…… 생각한 것 이상으로 의욕을 내버렸나."
+    },
+    {
+      "Name": "시구레",
+      "Text": "어쩌지, 선생님? 추가로 묵을 수 있는 객실이 없다고 하는데."
+    },
+    {
+      "Name": "시구레",
+      "Text": "하지만 오늘처럼 추운 날씨에 선생님을 밖에서 자도록 놔둘 수는 없고……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "아, 그럼 내 숙소에서 자고 가는 건 어때?"
+    },
+    {
+      "Text": "[s] \"시구레의 숙소……?\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "응. 온천장에서 일하는 종업원들에게 제공되는 직원용 숙소가 따로 있거든."
+    },
+    {
+      "Name": "시구레",
+      "Text": "조금 좁기는 하지만 밖에서 새우잠을 자는 것보다는 훨씬 괜찮을 거야."
+    },
+    {
+      "Text": "[s3] \"다른 방법은 없는 것 같으니……\""
+    },
+    {
+      "Text": "[s4] \"그럼 하룻밤만 실례할게.\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "후후, 잠시만 기다려 줘. 금방 치우고 방으로 안내해 줄게."
+    },
+    {
+      "Name": "시구레",
+      "Text": "후후, 작지만 생각했던 것보다 훨씬 아늑하지?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "침구는 이쪽에 미리 깔아 두었어. 여기서 자면 돼."
+    },
+    {
+      "Text": "[ns5] \"저기…… 시구레 양?\""
+    },
+    {
+      "Text": "[ns6] \"어쩐지 이불이 한 장뿐인 것 같은데……\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "응? 그야 당연하잖아. 애초에 한 사람을 위해 준비된 침실이니까."
+    },
+    {
+      "Name": "시구레",
+      "Text": "이불이 조금 작긴 하지만, 사이좋게 붙어서 누우면 두 사람은 충분히 덮을 수 있고……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "……그러니까 이제 선생님에게 남은 선택지는 딱 하나뿐이야."
+    },
+    {
+      "Text": "[wa:650]― [log=시구레 온천ND]자, [wa:130]선생님.[/log]"
+    },
+    {
+      "Text": "[wa:1000]― [log=시구레 온천ND]이불 바깥은 [wa:660]춥지?[/log]"
+    },
+    {
+      "Text": "[wa:200]― [log=시구레 온천ND]고집부리지 말고 [wa:900]이리로 와.[/log] [wa:100] "
+    },
+    {
+      "Text": "[wa:700]― [log=시구레 온천ND]이불도 [wa:480]푹신푹신하고, [wa:1380]따듯하다구?[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]이 안이라면 [wa:450]금방 잠들 수 있을 거야.[/log]"
+    },
+    {
+      "Text": "[wa:900]― [log=시구레 온천ND]혹시 [wa:700]이불을 덮어도 [wa:850]춥다면……[wa:280] [/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]내가 대신 탕파가 되어줄 테니까.[/log] [wa:860] "
+    },
+    {
+      "Text": "[wa:450]― [log=시구레 온천ND]응? [wa:1000]원래 있던 [wa:660]탕파……?[/log]"
+    },
+    {
+      "Text": "[wa:300]― [log=시구레 온천ND]그러니까…… [wa:1650]전부, [wa:1520]마셔버렸어.[/log]"
+    },
+    {
+      "Text": "[wa:680]― [log=시구레 온천ND]그게, [wa:1060]이불 안이 말이야,[/log]"
+    },
+    {
+      "Text": "[wa:1520]― [log=시구레 온천ND]모르스를 덥히기에 [wa:1160]딱 좋은 온도여서.[/log]"
+    },
+    {
+      "Text": "[wa:100]― [log=시구레 온천ND]아까 일하던 중에[/log]"
+    },
+    {
+      "Text": "[wa:1800]― [log=시구레 온천ND]탕파의 내용물을 [wa:870]특제 모르스로 [wa:630]바꾸어 두었거든.[/log]"
+    },
+    {
+      "Text": "[wa:480]― [log=시구레 온천ND]그래도 [wa:560]어쩔 수 없잖아?[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]이렇게 되었으니[/log]"
+    },
+    {
+      "Text": "[wa:1320]― [log=시구레 온천ND]몸을 덥힐 만한 [wa:2020]다른 수단도 없고.[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]그러니까 오늘 밤은[/log]"
+    },
+    {
+      "Text": "[wa:1300]― [log=시구레 온천ND]선생님이 [wa:980]탕파가 되어줘.[/log][wa:520] "
+    },
+    {
+      "Text": "[ns] 탕파 속의 모르스를 마신다."
+    },
+    {
+      "Name": "시구레",
+      "Text": "……응? 갑자기 뭐 하는 거야, 선생님?"
+    },
+    {
+      "Name": "시구레",
+      "Text": "갑자기 모르스를 들이키다니…… 혹시 목이 말랐었던 거야?"
+    },
+    {
+      "Text": "[s7] \"……이 모르스, 아무래도 발효된 것 같아.\""
+    },
+    {
+      "Text": "[s8] \"묘하게 옅은 술 냄새가 나는걸.\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "뭐? 그럴 리가 없어."
+    },
+    {
+      "Name": "시구레",
+      "Text": "이 모르스에는 발효에 필요한 효모도 설탕도 넣지 않았는걸."
+    },
+    {
+      "Name": "시구레",
+      "Text": "게다가 담근 지 하루밖에 지나지 않았는데 알코올이 만들어질 리가……"
+    },
+    {
+      "Text": "[s9] \"아니, 몸에 열이 나는 걸 보니 확실해……\""
+    },
+    {
+      "Text": "[s10] \"이 음료는 술이 분명해!\""
+    },
+    {
+      "Text": "[ns11] \"술기운 탓인지 열이 나서 이불은 필요 없겠어.\""
+    },
+    {
+      "Text": "[ns12] \"이불은 시구레 혼자 덮고 자도록 해.\""
+    },
+    {
+      "Name": "시구레",
+      "Text": "호오, 그렇게 빠져나가겠다는 건가……"
+    },
+    {
+      "Name": "시구레",
+      "Text": "뭐, 알겠어. 선생님이 덥다는데, 내가 억지로 이불 안으로 끌어당길 수는 없으니까."
+    },
+    {
+      "Name": "시구레",
+      "Text": "대신, 이불 한쪽은 밤새도록 계속 비워둘 테니까…… 추워지면 언제든 들어와야 해?"
+    },
+    {
+      "Text": "(이후, 차가운 다다미 위에서 몸을 웅크린 채 간신히 밤을 지새웠다……)"
+    },
+    {
+      "Text": "(다행히 아무 일도 없었지만, 추운 곳에서 잠이 든 탓인지 이후 가벼운 감기에 걸리고 말았다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Warmly"
+    },
+    {
+      "Text": "I was curious about the milk bartending that Shigure mentioned, so I headed to the hot spring she worked at."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Hey there, Sensei."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I was just about to start work."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "It's been about an hour since the first person went into the bath, so I should have some customers soon."
+    },
+    {
+      "Text": "[s] \"So... What exactly does milk bartending entail?\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Exactly what it sounds like, Sensei."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "After their bath, a customer comes to me and tells me what they like. Then I blend a fresh glass of fruit milk that's perfect for them."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "The owner of the hot spring wasn't so sure about the idea at first..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "But I told them that I don't need to get paid as long as I can make the drink as I please, so they agreed to try it out."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I can test out all the recipes I want, and the customers get to enjoy the best fruit milk they ever had... It's a win-win."
+    },
+    {
+      "Text": "[s1] \"As long as you're happy with that, Shigure...\""
+    },
+    {
+      "Text": "[s2] \"Just don't put anything weird in the milk...\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Heehee. Why don't you sit over there and watch me work?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I've got fresh milk, my mixing glasses, my muddler..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Now then... I'd better mix the milk and change the bathwater."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "Whew... What a fine bath..."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "But soaking in that hot water for so long has made me terribly thirsty..."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "Excuse me. Do you have any fruit milk?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Yes, we do! What flavor would you like?"
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "Y-You have more than one? I don't know what to say to that..."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "I don't know. Nothing too sweet."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Not too sweet...? Leave it to me."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Here you go. One triple berry milk."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "It has blended lingonberry and cranberry, which aren't very sweet at all, and added raspberry for flavor. Give it a try."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "Let's see..."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "It really isn't too sweet. And the milk balances the sourness of the berries so it isn't overwhelming..."
+    },
+    {
+      "Name": "Hot Springs Guest A",
+      "Text": "I've never had fruit milk with such luxurious flavor before!"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Heehee, I'm glad you like it."
+    },
+    {
+      "Name": "Hot Springs Guest B",
+      "Text": "Excuse me, but I happen to be lactose intolerant. Milk gives me the most dreadful tummy aches..."
+    },
+    {
+      "Name": "Hot Springs Guest B",
+      "Text": "But I would still love to try one of your fruit milks, if you please."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Of course. Just a moment."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Here you go. This is a tropical soy milk—and it's completely lactose free!"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "The tropical fruits should help with your digestion."
+    },
+    {
+      "Name": "Hot Springs Guest B",
+      "Text": "You're right... It's got this light, clean flavor. I could drink cups and cups of this!"
+    },
+    {
+      "Name": "Hot Springs Guest B",
+      "Text": "Look at me, enjoying a nice fruit milk after a hot bath like everyone else... It's a dream come true!"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I'm glad it tastes good, but if you have too much, you'll still have an upset stomach. Why don't we keep it to one glass for today?"
+    },
+    {
+      "Name": "Prefect Team Member",
+      "Text": "So tired... Even after a hot bath, I'm beat... The Prefect Team sure does demand a lot..."
+    },
+    {
+      "Name": "Prefect Team Member",
+      "Text": "What would you recommend to drink?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Hmm, if you're that fatigued..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Here you go. One fruit-flavored Frenzy Max."
+    },
+    {
+      "Text": "[ns] \"Does that count as fruit milk...?\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "A good bartender provides whatever drink best fits the customer's needs."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "In the short term, at least, an energy drink is more effective than fruit milk when you're exhausted!"
+    },
+    {
+      "Name": "Prefect Team Member",
+      "Text": "This isn't what I expected...but I do feel myself perking up."
+    },
+    {
+      "Name": "Prefect Team Member",
+      "Text": "Thanks for looking out. That was just what I needed!"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "It was nothing."
+    },
+    {
+      "Text": "Shigure's bartending was a huge success. As the day went on, more and more customers filled the break room looking for custom-mixed fruit milks."
+    },
+    {
+      "Text": "I lost track of time, entranced as I was by Shigure's bartending..."
+    },
+    {
+      "Text": "[ns] \"Oh, this isn't good...\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "What is it, Sensei?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "...Huh? You were so mesmerized by my bartending that you missed the last train to Schale?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "What's the problem? You're at a hot spring."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I'm sure they'll let you use a room here, so stay the night and—"
+    },
+    {
+      "Name": "Manager",
+      "Text": "About that... Sorry, Shigure. We don't have any more rooms available today."
+    },
+    {
+      "Name": "Manager",
+      "Text": "Everybody you served decided to extend their stays here so they could have more of your fruit milk tomorrow..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Oh no... I guess I overdid it."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "What are we going to do, Sensei? They don't have any open rooms."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "You can't sleep outside. You'll freeze to death..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Oh! Why don't you stay in my room?"
+    },
+    {
+      "Text": "[s] \"Your room...?\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Yeah. They have separate rooms for hot spring employees."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "It's a bit cramped, but it beats spending a night out in the cold."
+    },
+    {
+      "Text": "[s3] \"It looks like I have no choice...\""
+    },
+    {
+      "Text": "[s4] \"I'll be in your care for the night.\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Heehee! Give me a moment to finish up here, then I'll show you to the room."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Heehee... Maybe it's small, but it's cozy, right?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I already laid out the futon. You can sleep in there."
+    },
+    {
+      "Text": "[ns5] \"Um... Shigure?\""
+    },
+    {
+      "Text": "[ns6] \"I only see one futon...\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Huh? Obviously. The room is meant for one person."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "I know the futon is a bit small, but if we squeeze in tight, it should cover both of us..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "...You have no choice, right?"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Now, Sensei.[/log][wa:580] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Isn't it cold outside the futon?[/log][wa:780] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Don't be stubborn. Climb in.[/log][wa:760] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]The futon is nice and fluffy and warm, you know?[/log][wa:1360] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Bundled up in here, you'll fall asleep in no time.[/log][wa:10] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]And if the futon isn't warm enough... [/log][wa:1890] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Then I volunteer to be your own personal heater.[/log] [wa:10] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]Hm? I did have a hot water bottle to keep the bedding warm...[/log][wa:230] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]But the thing is... I drank it up.[/log][wa:2790] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]See, the inside of the futon[/log][wa:1180] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]was the perfect temperature for mors.[/log][wa:2000] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]So before work,[/log][wa:10] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]I emptied the hot water bottle and filled it with mors.[/log][wa:2140] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]But what's done is done.[/log][wa:600] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]That's our situation,[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]and there's no other way to warm up.[/log][wa:2660] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]So for tonight,[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]you'll just have to be the heater.[/log][wa:2000] "
+    },
+    {
+      "Text": "[ns] Drink the rest of the mors."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Huh? What are you doing, Sensei?"
+    },
+    {
+      "Name": "Shigure",
+      "Text": "You drank up all the mors... Were you that thirsty?"
+    },
+    {
+      "Text": "[s7] \"...I'm pretty sure that mors was fermented.\""
+    },
+    {
+      "Text": "[s8] \"I could smell the alcohol.\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "What? No way."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "This mors didn't have any yeast or sugar. You can't have fermentation without yeast or sugar."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Besides, it's only been in there for a day, so it couldn't have already—"
+    },
+    {
+      "Text": "[s9] \"No, I already feel my body heating up...\""
+    },
+    {
+      "Text": "[s10] \"That was definitely alcohol!\""
+    },
+    {
+      "Text": "[ns11] \"The mors has me feeling nice and toasty.\""
+    },
+    {
+      "Text": "[ns12] \"You can have the futon for yourself, Shigure.\""
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Ah-ha. So that's your play..."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "Suit yourself. If you're comfortable out there, I can't force you to get under the covers, Sensei."
+    },
+    {
+      "Name": "Shigure",
+      "Text": "But I'll be sure to leave some space for you under here... If you do get cold, don't hesitate to climb in."
+    },
+    {
+      "Text": "And so I spent the rest of the night shivering on top of cold tatami mats, unable to sleep..."
+    },
+    {
+      "Text": "But I survived, no worse for wear save for a slight cold when I woke in the morning."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "อย่างอบอุ่น"
+    },
+    {
+      "Text": "(คุณครูสงสัยเกี่ยวกับงานบาร์เทนเดอร์นมที่ชิกุเระพูดถึง จึงลองไปที่โรงอาบน้ำที่ชิกุเระทำงาน)"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "อ๊ะ เข้ามาสิ คุณครู"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันกำลังจะเริ่มทำหน้าที่บาร์เทนเดอร์นมของที่นี่อยู่พอดีเลย"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ลูกค้าคนแรกของเราลงไปอาบน้ำประมาณ 1 ชั่วโมงแล้ว อีกเดี๋ยวคงมีลูกค้ามาหานมรสผลไม้ดื่มแล้ว\nละ"
+    },
+    {
+      "Text": "[s] \"บาร์เทนเดอร์นมงั้นเหรอ... มันคืองานอะไรเนี่ย?\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ความหมายก็ตามนั้นเลยคุณครู"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ถ้าลูกค้าที่อาบน้ำเสร็จออกมาสั่งนมรสผลไม้ ฉันก็จะถามรสนิยมของลูกค้าและทำนมผลไม้รสชาติ\nยอดเยี่ยมให้จากหน้าบาร์ยังไงล่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "มันเป็นวิธีการขายที่ค่อนข้างยุ่งยาก ตอนแรกทางโรงอาบน้ำก็ไม่ค่อยพอใจนักหรอก..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "แต่ฉันก็มาทำให้แบบไม่เอาค่าจ้าง และขอแค่ให้ได้ทำเครื่องดื่มได้ตามใจชอบ ที่นี่ก็เลยอนุญาตให้ทำ\nคล้ายๆ เป็นการฝึกงานน่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันสามารถทดสอบสูตรใหม่ๆ ได้ ส่วนลูกค้าก็ได้ดื่มนมรสผลไม้รสเลิศ... แบบนี้ถือว่าได้ประโยชน์ทั้ง\nสองฝ่ายเลยละ"
+    },
+    {
+      "Text": "[s1] \"ถ้าชิกุเระสนุกกับงาน ก็ไม่มีปัญหาหรอก...\""
+    },
+    {
+      "Text": "[s2] \"แต่ครูแค่กังวลว่าจะใส่วัตถุดิบแปลกๆ ไปด้วยน่ะสิ...\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฮุฮุ ถ้ากังวลขนาดนั้นละก็ ไปนั่งตรงนั้นแล้วดูฉันทำงานได้เลย"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันเตรียมนมเสร็จแล้ว ส่วนแก้วผสมกับไม้คนผสมเครื่องดื่มก็เตรียมไว้แล้วด้วย..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เอาละ... ถึงเวลาผสมนมแล้วก็ไปเปลี่ยนน้ำในบ่อออนเซ็นแล้วสินะ"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "ฮู่ววว... บ่ออาบน้ำที่นี่ดีมากเลย"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "แต่พอแช่น้ำนานคอก็แห้งขึ้นมาเลยแฮะ..."
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "เอ่อ มีนมรสผลไม้ขายมั้ยครับ?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "อื้ม มีสิ อยากได้นมรสผลไม้แบบไหนเหรอ?"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "อ้อ มีหลายรสเหรอครับ? ถ้าถามแบบนี้ ก็คิดหนักอยู่นะ..."
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "เอาเป็นว่า ขอที่ไม่หวานมากแล้วกันครับ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ขอที่ไม่หวานมาก... เข้าใจแล้ว"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เอ้านี่! นี่คือนมทริปเปิ้ลเบอร์รีที่ทำจากผลไม้ 3 ชนิด"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันเลือกใช้ลินกอนเบอร์รีและแครนเบอร์รีที่มีรสไม่หวานมาก พอปั่นให้เข้ากันแล้วก็ใส่ราสเบอร์รีช่วย\nเพิ่มเนื้อสัมผัสด้วย ลองดื่มดูสิ"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "ไหนลองซิ..."
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "ไม่หวานมากจริงๆ ด้วยครับ รสเปรี้ยวนิดๆ ของผลไม้กับความกลมกล่อมของนมเข้ากันได้ดีเลย..."
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น A",
+      "Text": "นมรสผลไม้รสเลิศแบบนี้ เพิ่งเคยกินเป็นครั้งแรกเลยครับ!"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฮุฮุ โล่งอกไปทีนะที่ชอบ"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น B",
+      "Text": "เอ่อ พอดีว่าผมท้องไส้ไม่ค่อยดี ดื่มนมทีไรเป็นได้วิ่งเข้าห้องน้ำทุกทีเลย..."
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น B",
+      "Text": "พอจะมีนมรสผลไม้ที่เป็นมิตรต่อลำไส้บ้างมั้ยครับ?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ต้องมีอยู่แล้ว รอเดี๋ยวนะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เอ้านี่! นี่คือนมถั่วเหลืองทรอปิคอล ฉันเอานมถั่วเหลืองมาใช้แทนนมวัวน่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "แล้วก็ใส่ผลไม้เขตร้อนที่มีรสนุ่มๆ และช่วยในการย่อยอาหารลงไปด้วย"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น B",
+      "Text": "สุดยอดเลย... มันไม่ค่อยเลี่ยนมาก แบบนี้ผมน่าจะดื่มได้โดยไม่ต้องกังวลเลยละ"
+    },
+    {
+      "Name": "ลูกค้าออนเซ็น B",
+      "Text": "ในที่สุดคนที่ท้องไส้ไม่ค่อยดีอย่างผม ก็ดื่มนมรสผลไม้หลังแช่น้ำร้อนได้แล้ว นี่ผมไม่ได้ฝันไปใช่มั้ย\nเนี่ย...!"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ต่อให้อร่อยแค่ไหน แต่ถ้าดื่มมากเกินไปก็อาจจะท้องเสียได้นะ วันนี้ดื่มแค่แก้วเดียวก็พอ"
+    },
+    {
+      "Name": "คณะกรรมการวินัย",
+      "Text": "งานของคณะกรรมการวินัยทำฉันเหนื่อยไปหมดเลย ขนาดแช่น้ำอุ่นๆ มาแล้วยังไม่หายเพลียร่างเลย..."
+    },
+    {
+      "Name": "คณะกรรมการวินัย",
+      "Text": "มีอะไรให้ดื่มบ้างมั้ย?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "อืม ถ้ารู้สึกเหนื่อยละก็..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "เอานี่! นี่มอนสเตอร์แม็กซ์รสผลไม้"
+    },
+    {
+      "Text": "[ns] \"แต่นี่มันไม่ใช่นมรสผลไม้ด้วยซ้ำ...?\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "บาร์เทนเดอร์ที่ดีต้องรู้ว่าจะต้องแนะนำเครื่องดื่มอะไรที่เหมาะกับสภาพร่างกายและจิตใจของลูกค้าน่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ถ้าอยากบรรเทาความเมื่อยล้าได้เร็วๆ เครื่องดื่มชูกำลังได้ผลดีกว่านมรสผลไม้อยู่แล้ว!"
+    },
+    {
+      "Name": "คณะกรรมการวินัย",
+      "Text": "ถึงจะได้เครื่องดื่มที่เกิดคาดไปหน่อย... แต่พอดื่มแล้วก็รู้สึกกระปรี้กระเปร่าขึ้นมาเลยแฮะ"
+    },
+    {
+      "Name": "คณะกรรมการวินัย",
+      "Text": "มันเป็นเครื่องดื่มที่ร่างกายฉันต้องการเลยละ ขอบคุณที่ใส่ใจรายละเอียดเป็นอย่างดีเลยนะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ขอบคุณอะไรกัน เรื่องเล็กน้อยน่า"
+    },
+    {
+      "Text": "(บาร์นมรสผลไม้ของชิกุเระได้รับเสียงตอบรับที่ดี จนมีลูกค้าหลายคนแวะเวียนเข้ามาที่ห้องพักผ่อน เพื่อสั่งนมรสผลไม้หลายประเภทดื่มกัน)"
+    },
+    {
+      "Text": "(คุณครูเฝ้าดูชิกุเระทำงานจนลืมเวลา จึงต้องค้างแรมที่โรงอาบน้ำ...)"
+    },
+    {
+      "Text": "[ns] \"ตายละ เป็นเรื่องแล้วสิ...\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ทำไมเหรอคุณครู?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "...หืม? เอาแต่ดูฉันทำงานจนไม่ทันขึ้นรถเที่ยวสุดท้ายกลับชาเล่ต์งั้นเหรอ?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ไม่เห็นต้องกังวลขนาดนั้นเลย ที่นี่คือโรงอาบน้ำนะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "มีห้องพักให้นอนค้างคืนตั้งหลายห้อง คืนนี้ก็นอนที่นี่แล้วพรุ่งนี้ค่อยกลับ..."
+    },
+    {
+      "Name": "ผู้ดูแล",
+      "Text": "คือ... ขอโทษนะ ชิกุเระ วันนี้เราไม่มีห้องเหลือเลย"
+    },
+    {
+      "Name": "ผู้ดูแล",
+      "Text": "ลูกค้าที่มาบาร์นมรสผลไม้วันนี้บอกว่าพรุ่งนี้อยากจะลองชิมนมรสผลไม้ของชิกุเระอีก ก็เลยจะนอนค้าง\nที่นี่กันอีกคืน..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "โอ้โห... จริงจังมากกว่าที่คิดเอาไว้อีกแฮะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ทำยังไงดีล่ะคุณครู? ทางนี้บอกว่าไม่มีห้องพักว่างเลย"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "แต่ว่าในคืนที่อากาศหนาวแบบนี้ ฉันคงปล่อยให้คุณครูนอนสั่นอยู่ข้างนอกไม่ได้..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "อืม งั้นมานอนที่ห้องฉันมั้ย?"
+    },
+    {
+      "Text": "[s] \"ห้องชิกุเระเหรอ...?\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ใช่ โรงอาบน้ำนี้มีห้องพักแยกสำหรับพนักงานอยู่น่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ถึงมันจะแคบไปหน่อย แต่ก็ดีกว่าต้องไปนอนขดเป็นกุ้งอยู่ข้างนอกนะ"
+    },
+    {
+      "Text": "[s3] \"คงไม่น่ามีวิธีอื่นแล้ว...\""
+    },
+    {
+      "Text": "[s4] \"งั้นครูขอรบกวนคืนหนึ่งนะ\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฮุฮุ งั้นรอเดี๋ยวนะ ฉันจะไปเตรียมที่นอนแล้วพาไปที่ห้อง"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฮุฮุ ห้องเล็กแต่ก็อบอุ่นกว่าที่คิดใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันปูที่นอนไว้ให้ทางนี้แล้ว คุณครูนอนตรงนี้ได้เลย"
+    },
+    {
+      "Text": "[ns5] \"นี่... ชิกุเระ?\""
+    },
+    {
+      "Text": "[ns6] \"เหมือนมันจะมีผ้าห่มแค่ผืนเดียวนะ...\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "หืม? มันก็แน่นอนอยู่แล้วนี่ ก็นี่เป็นห้องนอนสำหรับคนเดียวตั้งแต่แรกอยู่แล้ว"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ถึงผ้าห่มจะผืนเล็กไปหน่อย แต่ถ้านอนเบียดๆ กันก็น่าจะใช้ห่มสองคนได้นะ..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "...เพราะงั้น ตอนนี้คุณครูมีทางเลือกแค่อย่างเดียวแล้วละ"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เอาละ คุณครู[/log][wa:580] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]อยู่นอกผ้าห่ม หนาวใช่มั้ย?[/log][wa:1020] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]อย่าดื้อเลยน่า เข้ามาเถอะ[/log][wa:880] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ผ้าห่ม ทั้งนุ่มนิ่ม ทั้งอบอุ่นเลยนะ?[/log][wa:1840] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ถ้ามาอยู่ข้างในนี้ แป๊บเดียวก็หลับแล้วละ[/log][wa:10] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ถ้าหากว่า แค่นอนห่มผ้า แล้วยังไม่หายหนาวละก็...[/log][wa:1530] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เดี๋ยวฉันเป็นกระเป๋าน้ำร้อนให้เอง[/log] [wa:300] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]หืม? กระติกน้ำร้อนที่มีอยู่น่ะเหรอ...?[/log][wa:1150] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เอ่อ คือว่า... ฉันดื่มไปหมดแล้วน่ะ[/log][wa:2790] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]พอดีว่าข้างในผ้าห่ม[/log][wa:1540] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ทำให้มอร์สอุ่นขึ้นได้ ในอุณหภูมิที่พอดีเลย[/log][wa:1800] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เมื่อกี้ระหว่างทำงาน[/log][wa:10] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ฉันเปลี่ยนน้ำในขวดให้เป็นมอร์สสูตรพิเศษ[/log][wa:2780] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]แต่ยังไงก็ช่วยไม่ได้นี่นา?[/log][wa:520] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]ในเมื่อเป็นแบบนี้แล้ว[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เราไม่มีวิธีอื่นที่จะทำให้ร่างกายอบอุ่นแล้ว[/log][wa:2380] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]เพราะงั้นคืนนี้[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]คุณครูต้องมาเป็นกระเป๋าน้ำร้อนให้ฉันแล้วละ[/log][wa:1680] "
+    },
+    {
+      "Text": "[ns] ดื่มมอร์สที่อยู่ในขวดน้ำร้อน"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "...หืม? อยู่ๆ ก็ทำอะไรน่ะคุณครู?"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ยกมอร์สดื่มแบบไม่มีปี่ไม่มีขลุ่ยเลย... คอแห้งเหรอ?"
+    },
+    {
+      "Text": "[s7] \"...สงสัยมอร์สนี้จะถูกหมักมานะ\""
+    },
+    {
+      "Text": "[s8] \"ได้กลิ่นเหล้าอ่อนๆ แปลกๆ ด้วย\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ว่าไงนะ? ไม่มีทาง!"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ฉันไม่ได้ใส่ยีสต์หรือน้ำตาลที่จำเป็นในการหมักลงไปในมอร์สนี้เลยนะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "แถมมอร์สนี้ยังหมักแค่วันเดียวเองด้วย ยังไม่น่าจะมีแอลกอฮอล์นี่นา..."
+    },
+    {
+      "Text": "[s9] \"ครูตัวร้อนขนาดนี้ ต้องมีแอลกอฮอล์แน่นอน...\""
+    },
+    {
+      "Text": "[s10] \"ในขวดนี้ต้องเป็นเหล้าแน่ๆ!\""
+    },
+    {
+      "Text": "[ns11] \"ตัวครูน่าจะร้อนเพราะฤทธิ์เหล้า งั้นคงไม่ต้องใช้ห่มผ้าแล้วละ\""
+    },
+    {
+      "Text": "[ns12] \"ชิกุเระห่มผ้านอนคนเดียวได้เลย\""
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "โอ้โห ใช้มุกนี้เหรอเนี่ย..."
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ก็ได้ เข้าใจแล้ว คุณครูบอกเองว่าร้อน จะให้ฉันไปดึงตัวให้เข้ามาอยู่ในผ้าห่มได้ยังไงล่ะ"
+    },
+    {
+      "Name": "ชิกุเระ",
+      "Text": "ถ้างั้น... ฉันจะแบ่งผ้าห่มไว้ให้ฝั่งหนึ่ง... ถ้าหนาวก็เข้ามาห่มนะ"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็นอนขดตัวอยู่บนเสื่อทาทามิทั้งคืน...)"
+    },
+    {
+      "Text": "(โชคดีที่ไม่มีเรื่องอะไรเกิดขึ้น แต่น่าจะเพราะนอนในที่ที่อากาศหนาว คุณครูเลยเป็นหวัด)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "溫暖地"
+    },
+    {
+      "Text": "（因為好奇時雨所說的牛奶吧檯而來到了他工作的溫泉浴場）"
+    },
+    {
+      "Name": "時雨",
+      "Text": "啊，老師，歡迎光臨。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "我正打算開始吧檯的營業呢。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "第一個客人進去泡澡後過了約1個小時，應該差不多會有客人來買水果牛奶了。"
+    },
+    {
+      "Text": "[s]「牛奶吧檯……具體來說該怎麼做呢？」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "就是字面上的意思，老師。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "如果有泡完澡的客人上門就根據客人的喜好，當場調配出最美味的水果牛奶。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "因為這種做法相對麻煩，一開始這間溫泉浴場也有點為難……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "但我說「不需要付薪水，只要讓我隨意製作飲料就行」，\n所以他們就允許我實驗幾天。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "我可以嘗試新的配方，客人也能喝到最好喝的水果牛奶……簡直是雙贏對吧？"
+    },
+    {
+      "Text": "[s1]「時雨開心的話倒無所謂……」"
+    },
+    {
+      "Text": "[s2]「我擔心你會不會加奇怪的材料……」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "呵呵，如果那麼擔心的話，就在那邊看我工作吧。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "牛奶準備完畢，調飲杯和攪拌棒也準備就緒……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "好，那麼……是時候混合牛奶、更換洗澡水了。"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "呼……好棒的溫泉……"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "但是泡久了好像有點口渴……"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "不好意思，請問有水果牛奶嗎？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "嗯，有哦。想喝什麼口味的呢？"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "有，有很多口味嗎？\n突然被這麼一問，有點傷腦筋耶……"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "這個嘛……麻煩給我不會太甜的口味。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "不會太甜的口味啊……知道了。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "來，這是混合三種莓果的三合一莓果牛奶。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "我加入了甜味不強的越橘和蔓越莓，然後再用樹莓增添口感。試喝看看吧。"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "我喝喝看……"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "甜味恰到好處呢。\n莓果的酸味和牛奶的香醇融合在一起，味道不會過於刺激……"
+    },
+    {
+      "Name": "泡湯客A",
+      "Text": "我第一次喝到風味這麼高級的水果牛奶！"
+    },
+    {
+      "Name": "時雨",
+      "Text": "呵呵，你能喜歡真是太好了。"
+    },
+    {
+      "Name": "泡湯客B",
+      "Text": "那個，我腸胃不好，喝牛奶老是會拉肚子……"
+    },
+    {
+      "Name": "泡湯客B",
+      "Text": "請問有我能喝的水果牛奶嗎？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "當然，請稍等。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "來，這是用豆奶代替牛奶製成的熱帶豆奶。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "還加入了有助於消化的熱帶水果增添柔和風味。"
+    },
+    {
+      "Name": "泡湯客B",
+      "Text": "真的耶……油脂的味道變少了，這樣感覺要喝多少都沒問題！"
+    },
+    {
+      "Name": "泡湯客B",
+      "Text": "真沒想到腸胃不好的我也能在泡完溫泉後喝到水果牛奶，簡直像在做夢一樣……！"
+    },
+    {
+      "Name": "時雨",
+      "Text": "不管飲料有多好喝，喝太多還是會喝壞肚子的哦。\n今天就喝這杯忍耐一下吧。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "好累……可能是因為風紀委員會的工作太忙，泡完溫泉還是一樣累……"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "可以給我一點喝的嗎？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "嗯，感到疲勞的話……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "來，這是妖怪MAX水果風味。"
+    },
+    {
+      "Text": "[ns]「這已經不是水果牛奶了吧……？」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "優秀的酒保就該配合客人的情況，提供任何種類的飲料。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "如果想在短時間內消除疲勞，比起水果牛奶，能量飲料更有效！"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "雖然和預期不太一樣……但喝了之後好像稍微有點力氣了。"
+    },
+    {
+      "Name": "風紀委員",
+      "Text": "這是現在的我最需要的。謝謝你的用心良苦。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "不敢當。"
+    },
+    {
+      "Text": "（時雨的水果牛奶吧檯大受好評，\n　大量的客人為了點各種水果牛奶而不斷來到休息室）"
+    },
+    {
+      "Text": "（為了看時雨調製牛奶而一直待在溫泉浴場，不知不覺時間就過去了……）"
+    },
+    {
+      "Text": "[ns]「哎呀，糟糕……」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "怎麼了，老師？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "……嗯？你說為了看我工作的樣子而錯過了回夏萊的末班車？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "沒什麼好傷腦筋的吧？\n這裡可是溫泉浴場唷。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "空房還有很多，住一晚再回去就──"
+    },
+    {
+      "Name": "經理",
+      "Text": "那個……不好意思，時雨同學。\n今天已經沒有空房了。"
+    },
+    {
+      "Name": "經理",
+      "Text": "今天喝過水果牛奶的客人都說明天也想喝，所以延長了住宿時間……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "糟糕……一不小心就努力過頭了。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "怎麼辦，老師？\n好像沒有其他能住的客房了。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "今天天氣這麼冷，總不能讓老師睡在外面……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "啊，那到我房裡睡怎麼樣？"
+    },
+    {
+      "Text": "[s]「時雨的房間……？」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "嗯，這裡有提供宿舍給在溫泉浴場工作的員工。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "雖然可能有點小，但應該比縮著身體睡在外面來的好。"
+    },
+    {
+      "Text": "[s3]「好像也沒有其他辦法了……」"
+    },
+    {
+      "Text": "[s4]「那我就打擾一晚了。」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "呵呵，稍等一下哦。\n我收拾完就帶你回房間。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "呵呵，雖然小歸小，不過比想像中舒適吧？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "棉被已經先鋪好了，老師可以睡這邊唷。"
+    },
+    {
+      "Text": "[ns5]「那個……時雨同學？」"
+    },
+    {
+      "Text": "[ns6]「這裡只有一條棉被耶……」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "嗯？那不是當然的嗎？\n因為這間寢室本來就是準備給一個人用的。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "雖然棉被有點小，但只要緊緊貼在一起，兩個人蓋一條還是沒問題的……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "……所以現在，老師只有一個選擇唷？"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]來，老師。[/log][wa:860] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]棉被外面很冷對吧？[/log][wa:1700] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]別固執了，過來這邊吧。[/log][wa:1440] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]棉被軟綿綿的，還很溫暖唷？[/log][wa:2760] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]我想在這裡很快就能睡著。[/log][wa:810] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]如果，只蓋棉被還是會冷…… [/log][wa:2850] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]我可以當你的熱水袋唷。[/log][wa:1220] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]咦？原本的熱水袋……？[/log][wa:2230] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]那個……裡面，都被我喝光了。[/log][wa:3590] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]因為，棉被裡……[/log][wa:1980] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]正好是適合加熱漿果汁的溫度……[/log][wa:2880] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]剛才工作的時候，[/log][wa:140] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]就把熱水袋裡面換成特製漿果汁了。[/log][wa:3700] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]不過……這也沒辦法吧？[/log][wa:1120] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]既然事已至此，[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]又沒有其他能讓身體暖和的方法……[/log][wa:3460] "
+    },
+    {
+      "Text": "― [log=시구레 온천ND]所以今晚，[/log]"
+    },
+    {
+      "Text": "― [log=시구레 온천ND]老師就當我的熱水袋吧。[/log][wa:2920] "
+    },
+    {
+      "Text": "[ns] 喝掉熱水袋裡的漿果汁"
+    },
+    {
+      "Name": "時雨",
+      "Text": "……咦？老師在做什麼？"
+    },
+    {
+      "Name": "時雨",
+      "Text": "突然把漿果汁喝掉……難道是口渴了嗎？"
+    },
+    {
+      "Text": "[s7]「……這個漿果汁好像發酵了。」"
+    },
+    {
+      "Text": "[s8]「有股淡淡的酒味。」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "什麼？應該不太可能吧。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "這份漿果汁裡沒有加發酵所需的酵母和糖哦。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "而且才泡一天就產出酒精什麼的……"
+    },
+    {
+      "Text": "[s9]「不，我的身體在發熱，我很確定……」"
+    },
+    {
+      "Text": "[s10]「這飲料一定是酒！」"
+    },
+    {
+      "Text": "[ns11]「可能是酒讓身體熱了起來，好像不需要蓋棉被了。」"
+    },
+    {
+      "Text": "[ns12]「棉被就讓時雨一個人蓋吧。」"
+    },
+    {
+      "Name": "時雨",
+      "Text": "哦～想這樣溜走啊……"
+    },
+    {
+      "Name": "時雨",
+      "Text": "好吧，我知道了。\n既然老師說熱，我也不能硬把老師拉到棉被裡。"
+    },
+    {
+      "Name": "時雨",
+      "Text": "不過，我整晚都會在棉被裡空出老師的位置……\n如果覺得冷的話隨時都可以進來，知道嗎？"
+    },
+    {
+      "Text": "（之後，在冰冷的榻榻米上縮著身體勉強度過一夜……）"
+    },
+    {
+      "Text": "（雖然很慶幸什麼事都沒發生，\n　但可能是在很冷的地方睡覺的關係，之後得了輕微的感冒）"
+    }
+  ]
+}

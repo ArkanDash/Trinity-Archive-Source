@@ -1,0 +1,2732 @@
+{
+  "TitleJP": "不破レンゲ",
+  "TitleKR": "후와 렌게",
+  "TitleEN": "Fuwa Renge",
+  "TitleTH": "ฟูวะ เรนเกะ",
+  "TitleTW": "不破蓮華",
+  "DescJP": "ユカリは、レンゲに「継承戦」を手伝ってほしいと頼み込む。しかし、解散令が出されている百花繚乱は、既に終わっているのだとレンゲは冷酷に告げる。それでもと追いすがるユカリに対し、レンゲは銃を向けるのだった。",
+  "DescKR": "유카리는 <청춘 활동>의 일환으로 수향부와 동행중인 렌게에게 계승전을 도와달라고 요청한다. 계승전의 얘기를 들은 렌게는 분노하며 거절하고 행동에 나선다.",
+  "DescEN": "Yukari asks Renge, who's working with the Inner Discipline Club as part of her youth activities, to help her with the succession contest. After hearing the details, Renge angrily refuses and retaliates.",
+  "DescTH": "ยูคาริขอความช่วยเหลือจากเรนเกะที่กำลังทำ <กิจกรรมวัยรุ่น> ร่วมกับ\nชมรมฝึกฝน เมื่อได้ฟังเรื่องศึกชิงตำแหน่ง เรนเกะก็โกรธและปฏิเสธ",
+  "DescTW": "作為「青春活動」的一環，蓮華正在與修行部同行，紫請求蓮華協助繼承戰。聽聞紫提起繼承戰的事，蓮華憤怒地表示拒絕並採取行動。",
+  "DialogJP": [
+    {
+      "Text": "第9話;[ruby=ふわ]不破[/ruby]レンゲ"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……なんであんたがここにいるんだ？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "[ruby=みども]身共[/ruby]はレンゲ先輩を探して、文化部を回っていたのです！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですが、まさか修行部の皆様とご一緒だったとは……"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "レンゲちゃんは、以前から修行部を体験してみたいと言っていたので。"
+    },
+    {
+      "Name": "ツバキ",
+      "Text": "ふぁああ～……それで今……体験入部中、なの……すぅ……"
+    },
+    {
+      "Name": "カエデ",
+      "Text": "これはアレだ！\n私が撮った修行部の宣伝映像が役に立ったって事だね！"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "お二人はお知り合いだったんですね。\nそういえば、同じ水色の羽織……"
+    },
+    {
+      "Name": "カエデ",
+      "Text": "あ！本当だ！レンゲ先輩も百花繚乱なの？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あぁ……そ、そうだよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "いや、隠そうとしてたわけではないんだけど……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "青春活動のために様々な部活の体験入部をされているのですよね？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……っっ！？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ま、待て。ユカリ、なんであんたがそれを……！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "レンゲ先輩を探して、先輩のご自宅へ伺いましたの！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "扉に「青春の旅に出る」という紙が残されておりましたので……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "レンゲ先輩が体験入部をされているとお聞きして、そういうことなのではないかと……"
+    },
+    {
+      "Text": "[s] \"部活動はたしかに青春だもんね。\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ええ！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "青春への憧憬……身共も感動いたしました。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ああもう！そんなに連呼しないでくれ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "誰だってそういう置き手紙を残したくなる時があるだろ……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "学生時代はあっという間に過ぎていくから気をつけろ――っていうし。"
+    },
+    {
+      "Text": "[s] （誰かに言われたのかな……）"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あーいや、恥ずかしがる事でもないんだが…… "
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……そうだよ。あんたの言う通り、アタシは青春を送るために修行部に入ったんだ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "今まで鍛錬の日々で失ってきた青春を……\nアタシの青春を取り戻すために！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……だからユカリ。あんたが何でアタシを探してるのかは知らないけど、もう決めたんだ。この修行部で、アタシは青春を送るって。だから大人しく帰っ――"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "修行部での青春活動がどのようなものなのか、身共も気になりますわ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "アタシの話、ちゃんと聞いてたか！？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "レンゲ先輩がここまでなさるほどの事ですもの……\n身共も気になります！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "だ、だから、アタシの青春活動は……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "その……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そ、そうだ！修行部でアタシは、「熟睡レディーファイター」になるための修行をやってるんだよ！"
+    },
+    {
+      "Name": "カエデ",
+      "Text": "ふぇ？"
+    },
+    {
+      "Name": "ツバキ",
+      "Text": "ふぁあ……？"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "レンゲちゃん……そんな目標を持っていたのですね！？"
+    },
+    {
+      "Text": "[s] \"……眠りながら戦うってこと？\""
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "な、何だっていいだろ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "青春には変わりないんだから！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "そ……そんな……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "たしかにユカリから見たら変な事かもしれないが……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "す……素晴らしいですの！目標に向かって真っ直ぐ駆け抜けていくお姿！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "流石は身共が尊敬するレンゲ先輩ですわ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "えっ……う、うん？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "キキョウ先輩はこのことをご存じでしょうか？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "きっとキキョウ先輩なら全力で応援――"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "するわけないだろ！アイツは絶対笑うに決まってるし、むしろ一番知られたくないんだけど！？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そ、それより！アタシに何か用なのか？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "……へ？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "へ、じゃないだろ……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そもそも、百花繚乱の活動は休止中だろ？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それに、あんたは今お祭りの準備で一番忙しいんじゃ……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "わーわー！！！"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "こほんっ！レンゲ先輩を探していたのには、もちろん理由がありますの。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "身共は、これよりナグサ先輩に「百花繚乱継承戦」を申し込もうと思っております。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですから……レンゲ先輩のお力をお借りしたいのです。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "…………は？継承戦？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "一体……どういうつもりだ？"
+    },
+    {
+      "Text": "（私たちはレンゲに、陰陽部であったことやユカリの考えを話した）"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "キキョウ先輩の仰る通りでしたの！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ナグサ先輩は大雪原におりました……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですから、身共は百花繚乱を元に戻すべく――"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "「継承戦」でナグサ先輩を倒し……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "委員長の座を受け継いでみせますの！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "レンゲ先輩、一緒に帰りましょう。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "キキョウ先輩のいる百花繚乱に！そして継承戦の証人として――"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ユカリ……お前はまだ……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "まだそんな……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ええ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そん[ruby=たわごと]な戯言を[/ruby]言ってるのか。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "……えっ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "お前も知っての通り、百花繚乱にはすでに「解散令」が出されている。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "キキョウ自ら、参謀の権限を使って決断したんだ。"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "そんな……百花繚乱が解散令を……？\nえっと、それは……"
+    },
+    {
+      "Text": "[s] \"ミモリ、これにはちょっと複雑な事情があって……\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "そ、そんなはずありませんわ！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "解散令など、すべて間違いで……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "――間違いなんかじゃない。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "アヤメ委員長が姿を消したあの日から……いつかはこうなる運命だったんだよ。 "
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "委員長はたしかにすごい人だ……だが、あんたも含めてみんな、いつ委員長がいなくなってもおかしくないと思っていただろう？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "座を受け継ぐべきナグサ先輩は、残されたアタシたちには目もくれず委員長を探しに行ってしまった。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あの時点で、百花繚乱は終わってたんだ。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "そんなこと……ありませんわ！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "そ、それに……レンゲ先輩ご自身が、百花繚乱はまだ終わっていないと証明してくださったじゃないですか！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "レンゲ先輩は先ほども[ruby=すだまいちざ]魑魅一座[/ruby]に立ち向かってくださりました！あれは、百花繚乱としての責任を……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それはユカリの勘違いだ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あれはアタシの青春を邪魔しようとしたヤツらをしばいただけ。アタシはアタシのために戦った。"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "レンゲちゃん……。"
+    },
+    {
+      "Name": "ツバキ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "そ、それでは……百花繚乱がいなくなってしまったら、\n百鬼夜行の平和は……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ハッ……それこそ[ruby=うぬぼれ]自惚れ[/ruby]だったんだよ。"
+    },
+    {
+      "Text": "[s] \"どういうこと……？\""
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "シャーレの先生、だったな。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "空が赤くなった日の事を覚えてるか？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あのとき、百鬼夜行は本当にめちゃくちゃだった。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "街に怪物が現れた、あの日――百花繚乱を呼ぶ声がそこかしこから聞こえてきたよな。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "だが、委員長も副委員長も不在のアタシたちは、目の前の人を助けるだけで手一杯で、それ以上のことなんて何もできなかった。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "アタシもキキョウも……ユカリ、あんたも。\nどうにか事態を収拾しようと駆け回ったよな。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "アタシたちが動いた結果、何が変わったか覚えてるか？"
+    },
+    {
+      "Text": "[s] \"……どうなったの？\""
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "――何も。\n何一つ……変わらなかったんだよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あんたも当事者だったから分かるだろ。百花繚乱がいなくたって問題は解決した。\n――百鬼夜行に、百花繚乱は必要ない。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "そう……あのとき百花繚乱が居なかったことで証明されてしまった[ruby=・   ・]事実[/ruby]がこれだ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "委員長が居なかろうが、副委員長が居なかろうが……百花繚乱が解散したって何一つ百鬼夜行は変わらない。誰もアタシたちを必要としていないんだ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それなら、こんな風に…… "
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "帰ってこない委員長を待ち続けて苦しむ必要も……無いだろ？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですが……それでも！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "れ、レンゲ先輩だって……ナグサ先輩や、百花繚乱での活動が好きだったじゃないのですか！？"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "レンゲは優秀な子。私みたいな半人前なんかよりも、ずっと。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "そんなレンゲを誇らしく思ってる。\nね、ユカリもそう思うでしょ？"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ええ！ "
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ユカリ、今のはナグサ先輩よりもレンゲが優秀だって言ってるんだけど。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ハッ……！？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ちょっ！聞いてるこっちが恥ずかしくなるからやめてくれないか！？"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "アタシより強いナグサ先輩に言われても素直に喜べないって！"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……ふふっ。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "いつも先陣を切って道を開くレンゲ先輩を……\nナグサ先輩は誇りに思っていたのに……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "知るか！結局アタシたちは見放されたんだよ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "過去は過去だ。\nナグサ先輩はもう帰ってこない……それどころか……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "あの人は……を返却しようとしたんだ。それでもあんたは……！"
+    },
+    {
+      "Text": "[s] （レンゲはなんて言ったんだろう……？）"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ですが……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "今が苦しくないとは言いません……それでもナグサ先輩が戻ってきて、また皆様と集まれたら……"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "身共が「継承戦」で勝つことができれば……\n身共の気持ちを、ナグサ先輩に分かっていただければ……もう一度、あの日々を……！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "きっと……あの時みたいに……笑えると……"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "……ユカリは昔からそうだったよな。\n自分が正しいと思ったら、ひたすらにまっすぐ突き進む。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "いつだって自信に溢れていて……その気になれば、何だってできると思っていてさ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "本当に――自分を曲げないヤツだ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "会話だけじゃなく、真っ向からぶつからないと納得しないのも……相変わらずだな。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "こうなったら、力尽くで分からせてやるよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ユカリ……覚悟はいいか？"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;후와 렌게"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……유카리, 네가 여긴 어쩐 일이야……?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "저 유카리! 지금까지 렌게 선배를 찾아 문화계 동아리 이곳저곳을 돌아다니고 있었사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그런데 설마 수행부 여러분과 함께 계셨을 줄이야."
+    },
+    {
+      "Name": "미모리",
+      "Text": "렌게 쨩이라면 바로 요전에 수행부의 활동을 경험해보고 싶다고 요청해 주셔서요."
+    },
+    {
+      "Name": "츠바키",
+      "Text": "후아암. 그래서 지금…… 체험…. 입부 중이야…… 쿠울……"
+    },
+    {
+      "Name": "카에데",
+      "Text": "내가 찍은 수행부 홍보 영상이 도움이 된 게 분명해! 그치?!"
+    },
+    {
+      "Name": "미모리",
+      "Text": "그런데 두 분은 아는 사이셨군요. 그러고 보니 그 복장, 같은 물빛 하오리를 입고 계신 걸 보니……."
+    },
+    {
+      "Name": "카에데",
+      "Text": "와! 그렇네! 똑같애! 렌게 선배도 백화요란이었어?!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아, 그, 그건 그런데……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "따, 딱히 숨기려고 한 건 아니지만……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "과연, 청춘을 보내기 위한 활동이로군요?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……으으읏?!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "자, 잠깐! 유, 유카리. 네가 그걸 어떻게."
+    },
+    {
+      "Name": "유카리",
+      "Text": "아까, 선배에게 볼일이 있어 자택까지 찾아갔었답니다!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그런데 집에는 안 계시고 문 앞에 <청춘을 찾기 위해 자리를 비운다>는 쪽지만 있다는 걸 발견했사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그 직후, 렌게 선배가 체험 입부 했을지 모를 동아리를 이곳저곳 돌아다녔답니다!"
+    },
+    {
+      "Text": "[s] \"동아리 활동은, 확실히 청춘 활동이라 할 수 있으니까.\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "청춘을 향한 렌게 선배의 올곧은 마음……!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "네! 저 유카리도! 감동해서! 곧장 렌게 선배를 만나, 이야기를 나누고자……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아니아니! 살짝 낯간지러우니까 그렇게 청춘청춘 말하지 말아주라!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그 쪽지라면 나도 모르게 열 받아서 에라 모르겠다. 하고 쓴 거라고 할까……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "학창생활이라는 건 아무것도 안 하는 사이에 금방 지나갈 수 있으니, 주의하라는 풍문을 들었다고 할까."
+    },
+    {
+      "Text": "[s] (풍문………?)"
+    },
+    {
+      "Name": "렌게",
+      "Text": "으으음! 그래. 뭘 부끄러워하고 있는 거람! "
+    },
+    {
+      "Name": "렌게",
+      "Text": "유카리, 네 말이 맞아. 난 청춘을 보내기 위해 수행부에 들어왔어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그간…. 땀내로 얼룩진 <동아리 활동>을 하느라 미처 제대로 즐기지 못했던 청춘을……. 나의 잃어버린 청춘을 되찾기 위해서 말이야!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……그러니까 유카리, 네가 무슨 생각으로 날 찾아왔는지는 모르지만. 난 이미 결정했어. 이곳 수행부에서 나의 남은 청춘을 보내기로. 그러니 얌전히 돌아……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "앗, 수행부에서 하는 청춘 활동은 무엇인지, 저도 궁금한 것이어요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "너, 내 말 듣고 있는 거 맞지?!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "하지만 렌게 선배의 활동이니, 무척이나 관심이 생기는걸요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그, 그러니까…… 내가 하는 청춘 활동은 그게…… 나는……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "나는……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "난 이곳 수행부에서 <잠을 푹 자는데 통달한 요조숙녀 배틀리스트>가 되기 위한 수행을 하고 있다고!"
+    },
+    {
+      "Name": "카에데",
+      "Text": "후엥?"
+    },
+    {
+      "Name": "츠바키",
+      "Text": "후아암……."
+    },
+    {
+      "Name": "미모리",
+      "Text": "렌게 쨩…… 그런 목표를 가지고 있었던 거군요?!"
+    },
+    {
+      "Text": "[s] \"그건 요조숙녀야……? 배틀리스트야……?\""
+    },
+    {
+      "Name": "렌게",
+      "Text": "어느 쪽이든 상관없잖아!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "뭐든 간에 처, 청춘이니까! "
+    },
+    {
+      "Name": "유카리",
+      "Text": "그런…… 그런……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "물론 유카리, 네가 보기엔 이상하게 보일 수도……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "깜짝 놀랄 정도로 굉장하여요! 목표를 향해 일직선으로 달리기를 주저하지 않는 그 모습!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "역시나 제가 존경하는 렌게 선배답사와요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "어, 응……?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "혹시 이걸 키쿄 선배는 이미 알고 계신가요?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "키쿄 선배라면 분명 전력을 다해 응원……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "해주겠냐! 그 녀석이야말로 이걸 알면 <훗> 하고 웃을걸? 의미심장하게! 제일로 알려주고 싶지 않은 녀석이라고!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그, 그보다 유카리! 다시 내 질문이야. 찾았다며. 날 찾은 이유가 뭐야?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "네?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "네? 라니…… 애당초……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "우리가 하는 <동아리 활동>은 현재 휴업 상태잖아."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그렇지 않아도 너라면 지금쯤 분명 축제 준비로 한창 바쁠……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "와아- 와앗!"
+    },
+    {
+      "Text": "[s] \"………?\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "흠흠, 렌게 선배를 찾은 일이라면 당연히 이유가 있답니다!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "무엇을 숨기랴! 저 소녀 유카리! 렌게 선배의 도움을 받고 싶었기에 찾아뵈었사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "저…… 지금부터 <백화요란 계승전>을 진행할 생각이어요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "………………하아? 계승전?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "잠깐 그게 무슨 소리야?"
+    },
+    {
+      "Text": "(우리는 렌게에게 음양부에서 있었던 일, 그리고 유카리가 선언한 이야기에 대해 전했다.)"
+    },
+    {
+      "Name": "유카리",
+      "Text": "키쿄 선배의 말이 맞았사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "나구사 선배는 정말로 대설원에 계셨던 것이어요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "…………."
+    },
+    {
+      "Name": "유카리",
+      "Text": "그러니 작금의 문제를 해결하기 위해, 다시 저희 백화요란이 원래대로 돌아가기 위해!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "제가 <계승전>으로 나구사 선배를 쓰러트리고……"
+    },
+    {
+      "Name": "유카리",
+      "Text": "부장의 자리를 이어받겠사와요!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "…………."
+    },
+    {
+      "Name": "유카리",
+      "Text": "렌게 선배! 같이 돌아가도록 하여요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "키쿄 선배가 있을 백화요란으로……! 부디 계승전의 보증인을……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "유카리…… 너…… 아직도……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아직도 그런……"
+    },
+    {
+      "Name": "유카리",
+      "Text": "네!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아직도 그런 헛소리를 하는 거야?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "……네?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "유카리 너도 알다시피 백화요란은 이미 해산령이 내려졌어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "키쿄가 직접 나서서 참모의 권한으로 결단을 내린 거야."
+    },
+    {
+      "Name": "미모리",
+      "Text": "네? 백화요란이……? 해산령을? 저, 그게 무슨……."
+    },
+    {
+      "Text": "[s] \"미모리, 여기엔 살짝 복잡한 사정이 있다고 할지…….\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "그, 그럴 리가 없사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "렌게 선배! 해산령은 전부 착오라고……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "착오 같은 게 아니야."
+    },
+    {
+      "Name": "렌게",
+      "Text": "아야메 부장이 자취를 감추었을 땐…… 그럴 수 있다고 생각했어. "
+    },
+    {
+      "Name": "렌게",
+      "Text": "부장은 대단한 사람이고…. 너도 그렇겠지만. 다들…… 부장은 언제 훌쩍 사라져도 이상하지 않은 사람이라고 생각하고 있었으니까."
+    },
+    {
+      "Name": "유카리",
+      "Text": "……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "하지만 그 자리를 이어받았어야 할 나구사 선배마저……. 남겨진 우리들은 돌아보지도 않고 부장을 찾겠다고 사라졌을 때."
+    },
+    {
+      "Name": "렌게",
+      "Text": "백화요란은 이미 끝났어. 전부 끝나버린 거야."
+    },
+    {
+      "Name": "유카리",
+      "Text": "그렇지…. 않사와요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "마, 맞아! 백화요란이 끝나지 않았다는 건…… 누구보다 렌게 선배가 방금 보여주시지 않았나요?!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "망량즈……. 렌게 선배는 여전히 그 아이들을 막아섰을 정도로……! 백화요란으로서 책임감을!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아니, 착각하지 마."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그건 내 청춘을 방해하려는 장애물을 치운 것일 뿐이니까. 나 자신을 위해 했던 일이야."
+    },
+    {
+      "Name": "미모리",
+      "Text": "렌게 쨩……."
+    },
+    {
+      "Name": "츠바키",
+      "Text": "……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "그치만…… 그치만…… 백화요란이 없으면 백귀야행의 평화는……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "하, 그거야말로 웃기기 짝이 없는 착각이지."
+    },
+    {
+      "Text": "[s] \"착각이라니, 무슨 의미야……?\""
+    },
+    {
+      "Name": "렌게",
+      "Text": "샬레의 선생. 이라고 했었지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "선생은 기억하고 있어? 예전에 하늘이 새빨개졌을 때를."
+    },
+    {
+      "Name": "유카리",
+      "Text": "……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그때 백귀야행은 난리가 났었어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "모두가 거리에서 나타난 괴물들을 보고는 사태를 해결해 줄 사람을, 백화요란을 애타게 찾았었지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "하지만 부장도, 부부장도 사라진 우리들은…… 오합지졸처럼 우왕좌왕하기만 했었고……."
+    },
+    {
+      "Name": "렌게",
+      "Text": "나도, 키쿄도…… 유카리, 너까지도 어떻게든 사태를 해결하기 위해 노력하면서 뛰어다녔지만 그건 그냥 소수의 발버둥이었을 뿐이야."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그 결과…… 어떤 일이 벌어졌는지 알아?"
+    },
+    {
+      "Text": "[s] \"……어떤 일이 벌어졌는데?\""
+    },
+    {
+      "Name": "렌게",
+      "Text": "아무 일도…… 전혀 아무런 일도 벌어지지 않았어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "유카리, 너도 당사자니까. 이미 알고 있을 거야. 백화요란 따위가 없어도 문제를 해결하고 극복할 수 있다. 백귀야행에 별다른 문제는 일어나지 않는다."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그래. 역설적으로 백화요란이 없었기에 증명되어 버린 사실이지."
+    },
+    {
+      "Name": "렌게",
+      "Text": "부장이 없어도, 나구사 부부장이 돌아오지 않아도…… 백화요란 따위가 없어도 손해 보는 사람은 없어. 아무도 필요로 하지 않아."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그럼 이딴 동아리 활동……. "
+    },
+    {
+      "Name": "렌게",
+      "Text": "기다리는 사람만이 괴로울 뿐인 동아리 같은 건 없어져도 상관없잖아."
+    },
+    {
+      "Name": "유카리",
+      "Text": "하지만…… 하지만."
+    },
+    {
+      "Name": "유카리",
+      "Text": "렌게, 렌게 선배도! 나구사 선배를 좋아하셨잖아요! 백화요란 활동을 좋아하셨잖아요!"
+    },
+    {
+      "Name": "나구사",
+      "Text": "렌게는…… 뛰어난 아이야. ……나 같이 어중간한 녀석보다 훨씬."
+    },
+    {
+      "Name": "나구사",
+      "Text": "그런 렌게가, 나는 자랑스러워. 유카리도 그렇게 생각하지?"
+    },
+    {
+      "Name": "유카리",
+      "Text": "네!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "유카리, 그 말은 나구사 선배보다 렌게가 더 위라는 말이야."
+    },
+    {
+      "Name": "유카리",
+      "Text": "……네?!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "아니, 진짜. 그만하라고. 다들. 듣는 사람이 무진장 부끄럽거든?!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "진짜 잘난 사람에게 그런 말 들어봤자 낯간지럽기만 하다고."
+    },
+    {
+      "Name": "나구사",
+      "Text": "………후후."
+    },
+    {
+      "Name": "유카리",
+      "Text": "다 같이 순찰을 돌 때라면, 누구보다 먼저 앞서는 렌게 선배를……! 나구사 선배는 자랑스러워했었는데!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……!!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그딴 거 알 게 뭐야! 애당초 우리들은 버림받은 거야."
+    },
+    {
+      "Name": "렌게",
+      "Text": "과거는 과거일 뿐이야. 어차피 나구사 선배는 이젠 돌아오지 않은 걸 넘어서서……!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "이미 그 사람은 ……을 반납하려고까지 했다고 그런데도 너는……!"
+    },
+    {
+      "Text": "[s] (……………반납?)"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그치만……."
+    },
+    {
+      "Name": "유카리",
+      "Text": "오래 기다리긴 했지만. 그래도 나구사 선배를 만나. 이번 기회에 다시 모이기만 한다면……"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그러기 위해 제가 <계승전>에서 승리하기만 한다면……! 그렇게만 하면 다시 그때로……!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "……그때로 돌아갈 수 있을, 거라고………"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……유카리. 넌 예전부터 그랬지. 옳다고 생각하는 게 있다면 멈추지 않고."
+    },
+    {
+      "Name": "렌게",
+      "Text": "언제나 자신감 있는 태도로……. 마음만 먹으면 뭐든지 할 수 있다고 생각하는……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "절대로 자신을 굽히지 않는, 그런 녀석이었어."
+    },
+    {
+      "Name": "렌게",
+      "Text": "말뿐만이 아니라, 행동으로 보여주기 전까진 납득 안 하는 타입이니까."
+    },
+    {
+      "Name": "렌게",
+      "Text": "여기선 힘으로 이해하게 만들어 줄게."
+    },
+    {
+      "Name": "렌게",
+      "Text": "유카리. 간다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;Fuwa Renge"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...What are you doing here, Yukari?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I, Yukari, scoured the clubs that specialize in the humanities to find you, Renge! And now my search is complete!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "But I never expected that you'd be with the Inner Discipline Club."
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Renge asked to join us on a trial basis so she could experience the Inner Discipline Club's activities."
+    },
+    {
+      "Name": "Tsubaki",
+      "Text": "*yawn* So...that's why...I'm experiencing our activities...now... *snore*"
+    },
+    {
+      "Name": "Kaede",
+      "Text": "Then the Inner Discipline Club promo video must have worked! Right?!"
+    },
+    {
+      "Name": "Mimori",
+      "Text": "I'm sorry, I would have said something earlier if I had realized you two knew each other. But perhaps I should have guessed from that blue haori..."
+    },
+    {
+      "Name": "Kaede",
+      "Text": "Wow, yeah! It's exactly the same! So Renge is part of the Hyakkaryouran too?!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Ah, well, yes, but..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I-I wasn't trying to hide it or anything like that..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I understand. You're just trying to reclaim your youth."
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Huh?!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "H-Hold on, Yukari! How do you know about—"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "You told me! And besides, I went looking for you at your home first."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "You were gone, but I found a note reading \"I am off to reclaim my youth!\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "So Sensei and I made our way through all the clubs you might be visiting!"
+    },
+    {
+      "Text": "[s] \"Club activities can definitely be called youth activities.\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I met all those club members who welcomed you into their clubs and were touched by your pure heart!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "And I, Yukari, am also touched! I'm glad you're on a quest for your bittersweet youth, Renge! But we have to discuss—"
+    },
+    {
+      "Name": "Renge",
+      "Text": "H-Hold on! You don't need to embarrass me—quit it with all the \"youth this, youth that\", p-please!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "I wrote that note in the heat of the moment..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "People say that student life can end before you know it, so I've been trying to focus on as many club activities as possible..."
+    },
+    {
+      "Text": "[s] \"(People say that?)\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "No, wait! Why should I be embarrassed of my dreams?! "
+    },
+    {
+      "Name": "Renge",
+      "Text": "You're right, Yukari! I came to the Inner Discipline Club to find my youth."
+    },
+    {
+      "Name": "Renge",
+      "Text": "All that time spent fretting over our club activities like an old maid, sweat on my brow and a frown on my face... I'm taking my youth back!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...So, Yukari, I don't know why you've chased me down, but I've already decided to set aside my haori and join the Inner Discipline Club. So whatever it is, no matter how much it hurts, you should head back—"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "What kind of youth activities does the Inner Discipline Club partake in?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Are you even listening to me?!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I just want to know what you've been up to, Renge!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "A-Ah, then... My youth activities are... I..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I've joined the Inner Discipline Club in order to become a calm and cultivated lady! And a battler who has mastered beauty sleep!"
+    },
+    {
+      "Name": "Kaede",
+      "Text": "...Eh?"
+    },
+    {
+      "Name": "Tsubaki",
+      "Text": "*yawn*"
+    },
+    {
+      "Name": "Mimori",
+      "Text": "So that was your goal, Renge?"
+    },
+    {
+      "Text": "[s] \"...So do you want to be a calm and cultivated lady? Or a master of beauty sleep?\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "Both! Either! It doesn't matter!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Whichever way I choose, it's y-youth! "
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Oh my..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Do you think it's strange, Yukari...?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "It's amazing! You always run straight towards your goals, without a moment's hesitation!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "It's what I admire most about you, Renge!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "O-Oh, r-really...?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Does Kikyou know about this?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I'm sure she would cheer you on with all her strength..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "No way! I can just see her smirking at me mysteriously if I tried! She's the person I want to tell the least!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "M-More importantly, Yukari, it's my turn to ask questions! Why were you looking for me?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Hmm?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Don't play hard of hearing. You know what I asked..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Our club has been disbanded. Our activities are suspended."
+    },
+    {
+      "Name": "Renge",
+      "Text": "You should be getting ready to enjoy the festival as a normal student..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Never!"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Um, I mean... Of course I have a reason for seeking you out! ...I don't have anything to hide, after all!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I, Yukari, am here because I require your aid!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "With... With you as my witness, I invoke the Hyakkaryouran Succession Contest!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...What."
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Why bring up a succession contest all of a sudden?"
+    },
+    {
+      "Text": "We told Renge everything we learned at the Yin-Yang Club and Yukari repeated her declaration."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Kikyou was right!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Nagusa truly traveled to the Great Snowfield!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "So our path forward is clear! We can fix everything and return the Hyakkaryouran to the way it was before!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I shall defeat Nagusa in a succession contest, and..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "And then I shall assume the presidency!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Renge! Let's return together!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "We can find Kikyou and reunite the Hyakkaryouran! Please...witness my succession contest!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Yukari... You..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "You're still..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Yes!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "You're still going on about all that nonsense?!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Wh-What?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Yukari, the Hyakkaryouran has already disbanded."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Kikyou decreed it personally, upon her authority as the operations officer."
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Huh? The Hyakkaryouran...disbanded? Wh-When?"
+    },
+    {
+      "Text": "[s] \"It's a complicated story, Mimori...\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Sh-She would never!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Renge, the order to disband must be a mistake!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "There's no mistake."
+    },
+    {
+      "Name": "Renge",
+      "Text": "When President Ayame disappeared... Well, none of us were shocked—we knew something like that might happen. "
+    },
+    {
+      "Name": "Renge",
+      "Text": "The president is an amazing person and I wish you could have known her better...but we all assumed that she might vanish at any time. It's hard to explain..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "...!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "But then Nagusa, who should have taken the reins as the new president, abandoned us without a second thought. She left to find the president..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "It was already over for the Hyakkaryouran. We were already dead. We just hadn't stopped moving."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "That's not... That can't be true!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "The Hyakkaryouran still lives... You proved it just now!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "You still stopped the Mouryo from causing chaos! What is that, if not the duty of the Hyakkaryouran?!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "I didn't do that for the Hyakkaryouran. I did it to reclaim the years I stupidly sacrificed for it."
+    },
+    {
+      "Name": "Renge",
+      "Text": "The Mouryo were an obstacle to my reclaimed youth. I stopped them for myself."
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Renge..."
+    },
+    {
+      "Name": "Tsubaki",
+      "Text": "..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "But... But... Without the Hyakkaryouran, Hyakkiyako's peace will..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Ha, you really don't know anything, do you?"
+    },
+    {
+      "Text": "[s] \"What do you mean?\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "You're Schale's Sensei, right?"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Do you remember, Sensei? When the sky turned red?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "...!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Hyakkiyako was consumed by chaos."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Monsters rampaged through the streets and the students cried out desperately for someone to save them, for the Hyakkaryouran to save them."
+    },
+    {
+      "Name": "Renge",
+      "Text": "But without the president and vice president, we... We ran around like headless chickens."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Me, Kikyou... And you too, Yukari! We scrambled to resolve the situation to the best of our abilities, but we barely helped anyone on our own."
+    },
+    {
+      "Name": "Renge",
+      "Text": "And you know what happened as a result?"
+    },
+    {
+      "Text": "[s] \"...What happened?\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "Nothing. Nothing at all."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Yukari, stop living in a dream. You saw it as well as I did. People can solve their problems without the Hyakkaryouran. Hyakkiyako will be just fine without us."
+    },
+    {
+      "Name": "Renge",
+      "Text": "It took the Hyakkaryouran's absence to prove we were never necessary."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Even if the president and vice president never return... No one is going to suffer because the Hyakkaryouran isn't around. Nobody needs us."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Our club...the things we did... "
+    },
+    {
+      "Name": "Renge",
+      "Text": "In the end we were only a club that wasted peoples' time and caused them pain. It's right that we disappear."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "But...but..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Renge! You admired Nagusa too! You loved the Hyakkaryouran, I know you did!"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "Renge possesses an indomitable heart... She's quite inspiring to a wavering spirit like mine."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "We owe much to Renge. You think so as well, don't you Yukari?"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Definitely!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Bold of you to tell Nagusa that you think Renge is more impressive, Yukari."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Wh-What?! No, I—"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Hey, don't tease her cause you want to embarrass me! Some things are too much to hear, you know?!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...It's weird to hear heartfelt praise from someone so refined."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "...Heehee."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "You were always there for us! You kept our spirits up on long patrols and you always had our backs! I-I was proud of you! Nagusa was proud of you!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...!!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Who cares?! That didn't keep her from abandoning us!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "You can't change the past! Even beyond the fact that Nagusa won't come back!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "She already... Even though she tried to return it, you still—!"
+    },
+    {
+      "Text": "[s] \"(...Return?)\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "But..."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "I know it has been a long time. But still...if we gather everyone again... If we meet Nagusa... And if I win the succession contest...!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "If we do that, everything can go back to how it was! We'll all be together again!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Back to how it was..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Yukari. You've always been like this. If you think something is right, you charge forward, full tilt."
+    },
+    {
+      "Name": "Renge",
+      "Text": "You always acted like anything was possible if you really put your heart into it... I admired that about you..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "But that's why I know that my words are nowhere near enough to get you to back down."
+    },
+    {
+      "Name": "Renge",
+      "Text": "You're not the type to be convinced until something is proven by action."
+    },
+    {
+      "Name": "Renge",
+      "Text": "So I'll convince you with my strength here and now."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Here I come, Yukari!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;ฟูวะ เรนเกะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "...ยูคาริ ทำไมเธอถึงมาอยู่ที่นี่...?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ข้า ยูคาริ! ออกตามหารุ่นพี่เรนเกะตามชมรมเชิงวัฒนธรรมอยู่หลายชมรมเลยเจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่ไม่คิดเลยว่าจะมาอยู่กับชมรมฝึกฝนแบบนี้..."
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "เรนเกะจังมาขอร้องว่าอยากลองทำกิจกรรมของชมรมฝึกฝนเมื่อเช้านี้น่ะค่ะ"
+    },
+    {
+      "Name": "สึบากิ",
+      "Text": "ฮ้าวววว ตอนนี้ก็เลย... มาลองทำ... กิจกรรมของชมรมอยู่... งืมงำ..."
+    },
+    {
+      "Name": "คาเอเดะ",
+      "Text": "นี่ต้องเป็นผลจากวิดีโอโปรโมตชมรมฝึกฝนที่ฉันถ่ายแน่ๆ! ว่ามั้ย?!"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "ทั้งสองคนรู้จักกันสินะคะ? จะว่าไป ทั้งคู่ใส่เสื้อฮาโอริสีครามเหมือนกันเลย..."
+    },
+    {
+      "Name": "คาเอเดะ",
+      "Text": "ว้าว! นั่นสินะ! เหมือนกันเป๊ะๆ เลย! รุ่นพี่เรนเกะก็เป็นเฮียกกะเรียวรันงั้นเหรอ?!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อ่า... ตะ... แต่ว่า..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฉะ... ฉันก็ไม่ได้ตั้งใจจะปกปิดหรอกนะ..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "กิจกรรมเพื่อใช้ชีวิตวัยรุ่นอย่างนั้นสินะเจ้าคะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "...อึกก!!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ดะ... เดี๋ยวก่อน! ยะ... ยูคาริ เธอรู้เรื่องนั้นได้ยังไง"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ข้ามีธุระจะคุยกับรุ่นพี่ ก็เลยแวะไปหารุ่นพี่ที่บ้านมาน่ะเจ้าค่ะ"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่พอไปถึงรุ่นพี่ก็ไม่อยู่บ้าน แล้วข้าก็เจอกระดาษโน้ตที่เขียนบอกว่า <ฉันไม่อยู่บ้าน จะออกไปตามหา\nชีวิตวัยรุ่น> เจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "หลังจากนั้นข้าก็ตระเวนไปตามชมรมต่างๆ ที่คิดว่ารุ่นพี่เรนเกะจะไปลองทำกิจกรรมของที่นั่นน่ะเจ้าค่ะ!"
+    },
+    {
+      "Text": "[s] \"กิจกรรมชมรมจะเรียกว่าเป็นกิจกรรมวัยรุ่นได้ไหมนะ\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "จิตใจที่ซื่อสัตย์ของรุ่นพี่เรนเกะที่มีต่อชีวิตวัยรุ่น...!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ข้ารู้สึกประทับใจ ก็เลยอยากพบกับรุ่นพี่เรนเกะและพูดคุยกัน..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เดี๋ยวๆ! อย่าเอาแต่พูดถึงชีวิตวัยรุ่นๆ แบบนั้นสิ ฉันก็เขินเป็นเหมือนกันนะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เรื่องกระดาษโน้ตน่ะ ต้องบอกว่าฉันเขียนไปส่งๆ ด้วยความโมโห หรือว่าเขียนเพราะได้ยินข่าวลือว่าให้\nระมัดระวังในการใช้ชีวิตดีล่ะ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ก็ฉันไปได้ยินข่าวลือว่าชีวิตในโรงเรียนอาจผ่านไปอย่างรวดเร็วทั้งๆ ที่ยังไม่ทันทำอะไรเลยก็ได้น่ะสิ"
+    },
+    {
+      "Text": "[s] (ข่าวลือ......?)"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อืม! จริงสิ จะมัวมาขงมาเขินอะไรอยู่กันเล่า!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยูคาริ เธอพูดถูกแล้วละ ฉันมาเข้าชมรมฝึกฝนเพื่อใช้ชีวิตวัยรุ่นของฉัน"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ที่ผ่านมาฉันทำ <กิจกรรมชมรม> ที่ต้องเปื้อนเหงื่อมาตลอด ก็เลยไม่ได้สนุกกับวัยใสอย่างเต็มที่... ฉันก็เลยมาที่นี่เพื่อตามหาชีวิตวัยรุ่นที่หายไปยังไงล่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "...ยูคาริ ฉันไม่รู้หรอกนะว่าเธอมาหาฉันด้วยเหตุผลอะไร แต่ฉันตัดสินใจแล้ว ฉันจะใช้ช่วงชีวิตวัยรุ่น\nที่เหลือของฉันที่ชมรมฝึกฝน เพราะงั้นก็กลับ..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "อ๊ะ ข้าก็สงสัยเหมือนกันเจ้าค่ะว่ากิจกรรมวัยรุ่นของชมรมฝึกฝนเป็นยังไง!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นี่เธอตั้งใจฟังที่ฉันพูดอยู่รึเปล่า?!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "พอเป็นกิจกรรมที่รุ่นพี่เรนเกะเลือกทำ ข้าก็เลยสนใจขึ้นมาน่ะเจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "กะ... ก็... กิจกรรมวัยรุ่นที่ฉันทำ... คือ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฉัน..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "กำลังฝึกฝนเพื่อเป็น <กุลสตรีนักสู้ที่เพียบพร้อมที่ต่อให้นอนเยอะก็ไม่อ๊อง> อยู่กับชมรมฝึกฝนน่ะ!"
+    },
+    {
+      "Name": "คาเอเดะ",
+      "Text": "หา?"
+    },
+    {
+      "Name": "สึบากิ",
+      "Text": "ฮ้าวว..."
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "เรนเกะจัง... มีเป้าหมายแบบนั้นสินะคะ?!"
+    },
+    {
+      "Text": "[s] \"จะเป็นกุลสตรีที่เพียบพร้อม...? หรือเป็นนักสู้นะ...?\""
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "จะได้เป็นอะไรก็ช่างเหอะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ไม่ว่าจะทางไหนก็เป็นชีวิตวัยรุ่นทั้งนั้นแหละ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "งั้นเหรอ... เจ้าคะ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยูคาริ ฉันเข้าใจนะ เธออาจจะมองว่ามันแปลกก็ได้..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "มันล้ำเลิศจนน่าตกใจเลยต่างหากเจ้าค่ะ! การวิ่งตามจุดหมายอย่างมุ่งมั่นและไม่ลังเล!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "สมกับเป็นรุ่นพี่เรนเกะที่ข้าเคารพเลยเจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "หะ... หืม...?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่คิเคียวก็รู้เรื่องนี้ด้วยไหมเจ้าคะ?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ถ้ารุ่นพี่คิเคียวรู้ละก็ ต้องมาให้กำลังใจแน่นอน..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "กำลังจงกำลังใจอะไรล่ะ! ยัยนั่นน่าจะมาหัวเราะดูถูกกันมากกว่า ถ้าจะไม่อยากบอกให้ใครรู้ ก็มียัยนั่นแหละที่ฉันไม่อยากบอกเป็นที่สุด!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เรื่องนั้นช่างเถอะ... ยูคาริ! เธอมีธุระกับฉันไม่ใช่เหรอ ธุระอะไรล่ะ?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "เจ้าคะ?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เจ้าคะเหรอ? อะไรน่ะ...?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ก็ตอนนี้ <กิจกรรมชมรม> ของเราถูกพักชั่วคราวอยู่นี่"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "และต่อให้ไม่มีกิจกรรมของชมรม เธอก็น่าจะยุ่งกับการเตรียมงานเทศกาลไม่น้อยเลยด้วย..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "วะ... ว้ายย!"
+    },
+    {
+      "Text": "[s] \"......?\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ฮืม ที่ข้ามาตามหารุ่นพี่เรนเกะ ก็เพราะมีเหตุผลน่ะสิเจ้าคะ มีแน่นอนอยู่แล้ว!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ถ้าอยากรู้ว่าเรื่องอะไรละก็! ข้า ยูคาริผู้นี้! มาตามหารุ่นพี่เรนเกะเพราะอยากได้ความช่วยเหลือจากรุ่นพี่\nเจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "เพราะว่า... ข้าจะเปิด <ศึกชิงตำแหน่งเฮียกกะเรียวรัน> เจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "......หา? ศึกชิงตำแหน่ง?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เดี๋ยวนะ นี่เธอพูดเรื่องอะไรออกมา?"
+    },
+    {
+      "Text": "(คุณครูเล่าเรื่องที่เกิดขึ้นในชมรมหยินหยางและเรื่องที่ยูคาริประกาศว่าจะทำให้เรนเกะฟัง)"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่คิเคียวพูดถูกเจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่นางุสะอยู่ที่ทุ่งหิมะใหญ่จริงๆ ด้วยเจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "เพื่อแก้ไขปัญหาที่เกิดขึ้นในระยะนี้! และเพื่อทำให้เฮียกกะเรียวรันของเรากลับมาเป็นเหมือนเดิม!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ข้าจะโค่นรุ่นพี่นางุสะด้วย <ศึกชิงตำแหน่ง>..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แล้วรับช่วงตำแหน่งหัวหน้ามาให้ได้เจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่เรนเกะ! กลับไปด้วยกันเถอะเจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "กลับไปที่เฮียกกะเรียวรัน... ที่ที่มีรุ่นพี่คิเคียว...! และได้โปรดช่วยเป็นผู้รับรองศึกชิงตำแหน่ง..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยูคาริ... นี่เธอ... ยัง..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยัง..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "เจ้าค่ะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยังพูดเรื่องเหลวไหลอะไรแบบนั้นอยู่อีกเหรอ?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "...เจ้าคะ?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยูคาริ เธอก็รู้ไม่ใช่เหรอว่าเฮียกกะเรียวรันได้รับคำสั่งสลายตัวมาแล้วน่ะ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นี่เป็นการตัดสินใจอย่างแน่วแน่ด้วยสิทธิของที่ปรึกษาคิเคียวนะ"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "คะ? เฮียกกะเรียวรัน...? ได้รับคำสั่งสลายตัว...? มะ... หมายความว่ายังไงคะ..."
+    },
+    {
+      "Text": "[s] \"มิโมริ พอดีทางนี้มีเรื่องซับซ้อนนิดหน่อยน่ะ...\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ปะ... เป็นไปไม่ได้เจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่เรนเกะ! เรื่องคำสั่งสลายตัวมันเป็นความผิดพลาด...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "มันไม่ใช่ความผิดพลาดหรอก"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ตอนที่หัวหน้าอายาเมะหายตัวไป... ฉันก็คิดว่ามันก็เป็นเรื่องที่เป็นไปได้ "
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "หัวหน้าเป็นคนที่ยอดเยี่ยม... และคนอื่น... อาจจะรวมถึงเธอด้วย... ต่างก็คิดว่าหัวหน้าเป็นคนที่ต่อให้\nหายตัวไปก็ไม่ใช่เรื่องแปลก"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แต่รุ่นพี่นางุสะที่ต้องรับช่วงต่อ... ก็ไม่หันมามองพวกเราที่เหลืออยู่ แล้วก็มาหายตัวไปอีกคน เพราะบอกว่าจะไปตามหาหัวหน้า"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เฮียกกะเรียวรันมันจบแล้วละ มันไม่มีอีกต่อไปแล้ว"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ใช่... ซะที่ไหนล่ะเจ้าคะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "จะ... จริงสิ! รุ่นพี่เรนเกะเพิ่งพิสูจน์ให้เห็นไปไม่ใช่เหรอเจ้าคะ... ว่าเฮียกกะเรียวรันยังไม่จบแค่นี้?!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "พวกปีศาจไง... รุ่นพี่เรนเกะยังออกไปเล่นงานเจ้าพวกนั้นอยู่เลย...! รุ่นพี่ทำด้วยความรับผิดชอบของ\nเฮียกกะเรียวรันไงเจ้าคะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ไม่ใช่ อย่าเข้าใจผิดไปหน่อยเลย"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นั่นก็แค่การกำจัดอุปสรรคที่ขัดขวางการใช้ชีวิตวัยรุ่นของฉัน มันเป็นเรื่องที่ฉันทำเพื่อตัวเองต่างหาก"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "เรนเกะจัง..."
+    },
+    {
+      "Name": "สึบากิ",
+      "Text": "..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่ว่า... แต่ว่า... ถ้าไม่มีเฮียกกะเรียวรัน แล้วสันติภาพในเฮียกคิยาโค..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เฮ้อ น่าหัวเราะชะมัด เธอนี่มันคิดไปเองแท้ๆ"
+    },
+    {
+      "Text": "[s] \"คิดไปเองเหรอ หมายความว่ายังไง...?\""
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "คุณเป็น... ครูของชาเล่ต์ใช่มั้ย?"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ครูจำได้ไหมล่ะ? เหตุการณ์ที่ท้องฟ้าเป็นสีแดงเมื่อก่อนหน้านี้น่ะ"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ตอนนั้นเฮียกคิยาโควุ่นวายกันใหญ่เลย"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ทุกคนเห็นสัตว์ประหลาดโผล่ออกมาจากตามท้องถนน แล้วก็ตามหาคนที่จะช่วยคลี่คลายสถานการณ์นี้\nกันจ้าละหวั่น ใช่แล้วละ ทุกคนตามหาเฮียกกะเรียวรัน"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แต่ตอนนั้นทั้งหัวหน้า รองหัวหน้า และคนที่หายไป... ก็เอาแต่ไปทางโน้นทีทางนี้ที เหมือนฝูงชนชุลมุน ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ทั้งฉัน ทั้งคิเคียว ทั้งยูคาริต่างก็วิ่งเต้นเพื่อแก้ไขสถานการณ์ แต่มันก็เป็นแค่การดิ้นรนของคนไม่กี่คนเท่านั้น"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แล้วรู้หรือเปล่า... ว่ามันทำให้เกิดเรื่องอะไร?"
+    },
+    {
+      "Text": "[s] \"...เกิดเรื่องอะไรขึ้นเหรอ?\""
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ไม่... มันไม่ได้เกิดเรื่องอะไรเลยสักนิด"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ยูคาริ เธอก็อยู่ในเหตุการณ์ เธอก็น่าจะรู้อยู่แล้วนะว่าต่อให้ไม่มีเฮียกกะเรียวรัน คนที่นี่ก็สามารถ\nคลี่คลายและก้าวผ่านปัญหาได้ และต่อให้ไม่มีเฮียกกะเรียวรัน เฮียกคิยาโคก็ไม่ได้เจอปัญหาอะไร"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ใช่ มันเป็นสิ่งที่พิสูจน์แล้วว่าไม่มีเฮียกกะเรียวรันอยู่อีกแล้ว"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ต่อให้ไม่มีหัวหน้า หรือต่อให้รองหัวหน้านางุสะไม่กลับมา... ก็ไม่มีใครได้รับผลกระทบจากการที่ไม่มี\nเฮียกกะเรียวรัน ไม่มีใครเป็นที่ต้องการทั้งนั้น"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เพราะงั้น กิจกรรมชมรมอะไรพรรค์นั้นน่ะ... "
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ชมรมที่คนรอต้องเจ็บปวดหัวใจน่ะ ไม่ต้องมีก็ไม่เป็นไรหรอก"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่... แต่ว่า..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "รุ่นพี่... รุ่นพี่เรนเกะเองก็นับถือรุ่นพี่นางุสะนี่เจ้าคะ? รุ่นพี่ชอบกิจกรรมของเฮียกกะเรียวรันด้วย\nไม่ใช่เหรอเจ้าคะ?"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "เรนเกะ... เป็นเด็กที่เก่งกาจมาก ...คนโง่และขี้แยอย่างฉันเทียบเรนเกะไม่ติดเลยละ"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ฉันภูมิใจในตัวเรนเกะมาก ยูคาริเองก็คิดเหมือนกันใช่ไหม?"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "เจ้าค่ะ!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ยูคาริ... นั่นแปลว่าเรนเกะเหนือกว่ารุ่นพี่นางุสะนะ"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "...เจ้าคะ?!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "พวกเธอนี่ พอกันได้แล้ว แบบนี้คนฟังเค้าก็เขินเป็นนะ?!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฉันไม่ได้ดีใจหรอกนะที่ได้ยินคำแบบนั้นจากคนที่ยอดเยี่ยมแบบนั้นน่ะ ฉันอายมากกว่าอีก"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "...ฮุฮุ"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ตอนออกไปลาดตระเวนด้วยกัน รุ่นพี่เรนเกะจะนำหน้าตลอดเลย...! รุ่นพี่นางุสะภูมิใจในตัวรุ่นพี่เรนเกะ\nคนนี้มากนะเจ้าคะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ภูมิใจแล้วมันยังไงล่ะ! พวกเราถูกทิ้งตั้งแต่แรกแล้วต่างหาก"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อดีตก็แค่อดีต ไม่ว่ายังไงรุ่นพี่นางุสะก็ไม่กลับมาอยู่ดี...!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ถึงรุ่นพี่จะบอกว่าตั้งใจจะคืนสิ่งนั้น... ยูคาริ เธอก็ยัง...!"
+    },
+    {
+      "Text": "[s] (.......คืน?)"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ถึงแม้จะรอมานานแล้ว แต่หากเราเจอรุ่นพี่นางุสะ แล้วมารวมตัวกันได้อีกครั้ง..."
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "และถ้าข้าเอาชนะใน <ศึกชิงตำแหน่ง> เพื่อทำแบบนั้นได้...! ถ้าทำแบบนั้นได้ ข้าก็เชื่อว่าเราจะ...!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "...กลับไปเป็นเหมือนตอนนั้นได้..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "...ยูคาริ เธอยังเหมือนเมื่อก่อนเลยนะ เป็นเด็กที่ถ้ามีสิ่งที่คิดว่าถูกต้อง ก็จะไม่ล้มเลิกไปง่ายๆ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เด็กที่มีความมั่นใจอยู่เสมอ... และถ้าตั้งใจจะทำอะไรแล้ว ก็คิดว่าสามารถทำให้สำเร็จได้ทุกอย่าง..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เด็กที่ไม่ยอมแพ้เด็ดขาด..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เธอเป็นคนที่ไม่ได้ดีแต่พูด และไม่ยัดเยียดให้คนอื่นเห็นด้วยจนกว่าจะพิสูจน์ด้วยการกระทำ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ส่วนทางนี้น่ะ ฉันจะใช้กำลังพิสูจน์ให้เข้าใจกันเอง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เข้ามาเลย ยูคาริ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;不破蓮華"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……紫，你怎麼會在這裡……？"
+    },
+    {
+      "Name": "紫",
+      "Text": "小女子我為了找蓮華前輩，前往了各個文化系的社團！"
+    },
+    {
+      "Name": "紫",
+      "Text": "想不到前輩會和修行部的各位在一起……"
+    },
+    {
+      "Name": "三森",
+      "Text": "不久前，蓮華醬說想體驗修行部的活動，所以提出了申請。"
+    },
+    {
+      "Name": "椿",
+      "Text": "呼啊啊～所以現在……正在體驗……入部……呼嚕……"
+    },
+    {
+      "Name": "楓",
+      "Text": "一定是我拍的修行部介紹影片幫上忙了對吧！"
+    },
+    {
+      "Name": "三森",
+      "Text": "原來你們兩位認識啊。\n這麼說來，兩位確實穿著一樣的水藍色羽織……"
+    },
+    {
+      "Name": "楓",
+      "Text": "哇！真的耶！一模一樣！蓮華前輩也是百花繚亂的人嗎！？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "啊，是，是啊……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "我，我沒有刻意要隱瞞的意思……"
+    },
+    {
+      "Name": "紫",
+      "Text": "果然是為了享受青春的活動嗎？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……呃！？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "等，等等！紫，你怎麼會知道？"
+    },
+    {
+      "Name": "紫",
+      "Text": "因為我有事要找前輩，所以去了一趟前輩的家！"
+    },
+    {
+      "Name": "紫",
+      "Text": "結果只在前輩家門前發現寫著「踏上找回青春之旅了」的紙條……"
+    },
+    {
+      "Name": "紫",
+      "Text": "於是我就前往各個蓮華前輩可能去體驗的社團了！"
+    },
+    {
+      "Text": "[s]「畢竟社團活動確實充滿青春氣息啊。」"
+    },
+    {
+      "Name": "紫",
+      "Text": "蓮華前輩朝青春筆直邁進的的心……！"
+    },
+    {
+      "Name": "紫",
+      "Text": "小女子非常感動！\n真想馬上見到蓮華前輩，和前輩聊聊……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "等一下等一下！別青春來青春去的，都不會害羞嗎！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那張紙條是在不知不覺怒從中來的時候寫的嗎……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "因為聽見「學園生活如果無所事事的話很快就會結束」這樣的話……"
+    },
+    {
+      "Text": "[s] （這樣的話……？）"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "啊～！雖然也沒什麼好害羞的就是了！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "紫，你說的沒錯。\n我是為了享受青春才加入修行部的。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "為了至今為止……因為參加充滿汗味的「社團活動」而來不及好好享受的青春……\n以及我所失去的青春！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……所以紫，雖然不知道你是抱著什麼想法來找我，但我已經決定了。\n我要在這個修行部度過剩餘的青春。你就乖乖回去──"
+    },
+    {
+      "Name": "紫",
+      "Text": "啊，我也很好奇前輩在修行部進行什麼青春活動！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你有在聽我說話嗎！？"
+    },
+    {
+      "Name": "紫",
+      "Text": "因為我對蓮華前輩的活動非常感興趣！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "該，該怎麼說呢……我進行的青春活動是……是……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那個……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "為了成為「精通睡眠的大和撫子戰士」而正在修行部修行！"
+    },
+    {
+      "Name": "楓",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "椿",
+      "Text": "呼啊……"
+    },
+    {
+      "Name": "三森",
+      "Text": "蓮華醬……原來你一直抱持著那種目標嗎！？"
+    },
+    {
+      "Text": "[s]「那到底是大和撫子……還是戰士……？」"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "是，是什麼都無所謂！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "反正青春就是青春！"
+    },
+    {
+      "Name": "紫",
+      "Text": "怎……怎麼會……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "當然紫你可能會覺得奇怪……"
+    },
+    {
+      "Name": "紫",
+      "Text": "真是太了不起了，甚至讓我感到驚訝！\n這毫不猶豫朝目標筆直邁進的模樣！"
+    },
+    {
+      "Name": "紫",
+      "Text": "不愧是小女子敬佩的蓮華前輩！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "嗯……？"
+    },
+    {
+      "Name": "紫",
+      "Text": "桔梗前輩已經知道這件事了嗎？"
+    },
+    {
+      "Name": "紫",
+      "Text": "我想桔梗前輩一定會全力為你加油──"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "加油個頭！那傢伙知道之後一定會「噗」一聲笑出來吧？\n我反而最不想讓他知道了！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "話說回來，紫找我有什麼事？"
+    },
+    {
+      "Name": "紫",
+      "Text": "咦？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "咦什麼咦……再說了……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "我們的「社團活動」現在不是已經暫停了嗎？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "就算沒有，你現在也應該忙著準備慶典才對……"
+    },
+    {
+      "Name": "紫",
+      "Text": "哇──哇──！"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Name": "紫",
+      "Text": "呵呵，我找蓮華前輩當然是有原因的！"
+    },
+    {
+      "Name": "紫",
+      "Text": "沒什麼好隱瞞的！\n小女子我之所以找蓮華前輩，是為了得到蓮華前輩的幫助！"
+    },
+    {
+      "Name": "紫",
+      "Text": "我……打算進行「百花繚亂繼承戰」！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "………………什麼？繼承戰？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "等等，那是什麼意思？"
+    },
+    {
+      "Text": "（將在陰陽部發生的事，以及紫的宣言告訴了蓮華）"
+    },
+    {
+      "Name": "紫",
+      "Text": "桔梗前輩說的對！"
+    },
+    {
+      "Name": "紫",
+      "Text": "名草前輩真的在大雪原！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "…………"
+    },
+    {
+      "Name": "紫",
+      "Text": "為了解決最近的問題，讓我們百花繚亂恢復原狀！"
+    },
+    {
+      "Name": "紫",
+      "Text": "我要在「繼承戰」中打敗名草前輩……"
+    },
+    {
+      "Name": "紫",
+      "Text": "由我來接任委員長之位！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "…………"
+    },
+    {
+      "Name": "紫",
+      "Text": "蓮華前輩！我們一起回去吧！"
+    },
+    {
+      "Name": "紫",
+      "Text": "回到桔梗前輩所在的百花繚亂……！擔任繼承戰的保證人……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "紫……你……居然還……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "還在說那種……"
+    },
+    {
+      "Name": "紫",
+      "Text": "是！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "還在說那種蠢話嗎？"
+    },
+    {
+      "Name": "紫",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "紫，你應該也很清楚，百花繚亂已經被下達解散命令了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這是桔梗親自出面，以參謀權限做出的判斷。"
+    },
+    {
+      "Name": "三森",
+      "Text": "什麼？百花繚亂……被下令解散？\n那，那是什麼意思……"
+    },
+    {
+      "Text": "[s]「三森，其中有些複雜的內情……」"
+    },
+    {
+      "Name": "紫",
+      "Text": "這，這怎麼可能！"
+    },
+    {
+      "Name": "紫",
+      "Text": "蓮華前輩！解散令全是誤會……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "才不是誤會。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "菖蒲委員長消聲匿跡之後……我就隱約有這種感覺了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "委員長確實是個很厲害的人……\n不過包含你在內的大家……也都認為他無論什麼時候消失都不奇怪吧。"
+    },
+    {
+      "Name": "紫",
+      "Text": "……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "就連必須接任委員長職位的名草前輩也……\n從他拋下我們，頭也不回地去尋找菖蒲委員長的時候開始……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "百花繚亂就已經結束了，一切都結束了。"
+    },
+    {
+      "Name": "紫",
+      "Text": "不……不是那樣的！"
+    },
+    {
+      "Name": "紫",
+      "Text": "沒，沒錯！百花繚亂並沒有結束……蓮華前輩剛才不也證明了這點嗎！？"
+    },
+    {
+      "Name": "紫",
+      "Text": "妖怪劇團……蓮華前輩依然以百花繚亂的身分，負責擊退了那些人！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "不，你別搞錯了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那只是除掉妨礙我青春的障礙而已。\n我是為了自己才那麼做的。"
+    },
+    {
+      "Name": "三森",
+      "Text": "蓮華醬……"
+    },
+    {
+      "Name": "椿",
+      "Text": "……"
+    },
+    {
+      "Name": "紫",
+      "Text": "可是……可是……如果沒有百花繚亂，百鬼夜行的和平……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "唉，你的誤會真是可笑。"
+    },
+    {
+      "Text": "[s]「誤會……是什麼意思……？」"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你是夏萊的老師對吧。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "還記得之前天空變紅那天的事嗎？"
+    },
+    {
+      "Name": "紫",
+      "Text": "……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "當時的百鬼夜行真的是亂成一團。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "所有人一看到出現在街上的怪物，都著急地找百花繚亂解決問題。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "但是失去了委員長和副委員長的我們……就像烏合之眾一樣驚慌失措……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "我、桔梗……還有紫雖然也努力四處奔走，設法解決問題……\n但那只不過是少數人的掙扎罷了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "結果……你知道發生了什麼事嗎？"
+    },
+    {
+      "Text": "[s]「……發生了什麼事？」"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……什麼事都沒發生。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "紫，身為當事人的你應該也很清楚。\n即使沒有百花繚亂，問題依然會被解決與克服──百鬼夜行不會因此出現問題。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "沒錯，我們的行為反而證明了「就算沒有百花繚亂也沒問題」的事實。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "即使委員長不在，名草副委員長不回來……\n即使沒有百花繚亂也不會有人受害……沒有任何人需要我們。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這種社團……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "只會讓癡癡等待著的人感到痛苦的社團沒有也罷……難道不是嗎？"
+    },
+    {
+      "Name": "紫",
+      "Text": "可是……可是！"
+    },
+    {
+      "Name": "紫",
+      "Text": "蓮，蓮華前輩不是也很喜歡名草前輩嗎！\n不是也很喜歡百花繚亂的活動嗎！"
+    },
+    {
+      "Name": "名草",
+      "Text": "蓮華你……是個非常優秀的孩子……遠比像我這樣的半吊子優秀的多。"
+    },
+    {
+      "Name": "名草",
+      "Text": "我以蓮華為榮。\n紫也這麼覺得吧？"
+    },
+    {
+      "Name": "紫",
+      "Text": "是！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "紫，剛才那句話的意思是蓮華比名草前輩更勝一籌耶。"
+    },
+    {
+      "Name": "紫",
+      "Text": "……哈！？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哎真是的，大家都別說了。\n這樣讓聽的人很不好意思耶！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "被真正厲害的人這麼說，只會讓人覺得承擔不起而已。"
+    },
+    {
+      "Name": "名草",
+      "Text": "……呵呵。"
+    },
+    {
+      "Name": "紫",
+      "Text": "大家一起巡邏的時候，蓮華前輩總是走在最前面……！\n名草前輩明明一直以蓮華前輩為榮……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……！！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "我才不管！反正我們已經被拋棄了！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "過去就是過去。\n名草前輩已經不會再回來了……！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那個人已經說要歸還……你竟然還……！"
+    },
+    {
+      "Text": "[s] （…………歸還？）"
+    },
+    {
+      "Name": "紫",
+      "Text": "可是……"
+    },
+    {
+      "Name": "紫",
+      "Text": "雖然等了很久，但只要名草前輩回來，大家趁這個機會重聚……"
+    },
+    {
+      "Name": "紫",
+      "Text": "接著只要我在「繼承戰」中獲勝……！\n就能重新……！"
+    },
+    {
+      "Name": "紫",
+      "Text": "重新……回到那個時候……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……紫，你從以前就是這樣。\n只要覺得是對的就會堅持到底。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "總是充滿自信……認為只要下定決心，不管什麼事都辦得到……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "而且絕對不會放棄自己，你就是這樣的人。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "只是嘴上說說而不用行動證明的話，你是不會接受的。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那我就用力量讓你明白吧。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "紫，接招吧！"
+    }
+  ]
+}

@@ -1,0 +1,2547 @@
+{
+  "TitleJP": "コクマー",
+  "TitleKR": "호크마",
+  "TitleEN": "Chokmah",
+  "TitleTH": "ชอกมาห์",
+  "TitleTW": "霍刻瑪",
+  "DescJP": "敵の包囲からうまく逃れたはずが、火山地帯に追い込まれてしまった一行は、そこで再びアイン、ソフ、オウルと交信することになる。目的を問うもののはぐらかされた挙句、2番目の預言者「コクマー」と交戦せざるを得ない状況に陥ってしまう。",
+  "DescKR": "일행이 도착한 곳은 화산 지대였다. 화산 지대에서 일행은, 자신들을 기다리고 있었던 아인, 소프, 오르와 두 번째 예언자 <호크마>와 격돌한다.",
+  "DescEN": "The crew find themselves inside the volcano. There they find Ein, Sof, Ohr, and the second Prophet, Chokmah, waiting for them, and a battle ensues.",
+  "DescTH": "คณะสืบค้นหนีการไล่ล่ามาจนถึงเขตภูเขาไฟ ที่นั่นทุกคนได้ปะทะกับไอน์ ซอฟ ออร์ และ <ชอกมาห์> ที่เป็นผู้เลื่อมใสตนที่ 8 ที่รอพวกเขาอยู่ที่นั่น",
+  "DescTW": "一行人抵達了火山地帶。在火山地帶之中，一行人遇見了等候他們多時的Ain、Soph、Aur和第2名預言者「霍刻瑪」，並和它們展開了激烈衝突。",
+  "DialogJP": [
+    {
+      "Text": "第8話;コクマー"
+    },
+    {
+      "Name": "トキ",
+      "Text": "出口が見えます！\n先生、ヒマリ部長、急いでください！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ドアが閉まってる……こじ開けるよ！"
+    },
+    {
+      "Text": "[ns] \"え……？\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "これは……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "私たちが凍原で見た……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "火山の、内部……？"
+    },
+    {
+      "Text": "[s] \"火山と繋がっていた……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "待ってください、リオ。\n本当にここであっていますか？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……これが最善だったわ。\n山の上は敵兵が少ないもの。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "火山……高熱地帯……登山……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "どんどん暑くなってくんだけど……先生、責任取って。"
+    },
+    {
+      "Text": "[s] \"普段の格好よりは涼しいんじゃ……？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そうだけど……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "流石にここは暑すぎるよ……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふぅ……やっと最適な温度になりましたね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ヘリに戻りたい……それか氷海に入りたい……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ヘリを冷蔵庫にするつもりですか！？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……試錐機の数が増えてきましたね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そうね。この山が本格的な採掘場だったのかしら。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "（氷河、凍原、そして火山地帯……これだけの資源を一体何に……？）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "（「軍需工場」を担当する「ケセド」に？いえ、そうとは思えません……）"
+    },
+    {
+      "Name": "リオ",
+      "Text": "エイミ……貴女、大丈夫？顔色が悪いわよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "もう……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……限界。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "もし……私が……このまま倒れたら……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "お墓にアイスクリームを一つ……いや、一箱置いてね……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "この状況では冗談に聞こえませんよ？\n滅多なことを言わないでください。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ちょうど追撃も止まったし、そこで休みましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……今なんと？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ドローンとAMASで周囲を偵察中だけど、貴方たちを追うデカグラマトンの眷属は今のところいないわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それは良いことですが……少し不穏ですね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "具体的には？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "この周辺に何かがあるのでは――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もしくは――追わせる必要がなくなった、とか？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "正解正解、大正解です！やりますねぇ。"
+    },
+    {
+      "Text": "[ns] \"この声は……！\""
+    },
+    {
+      "Name": "アイン",
+      "Text": "よ、よくここまで来られましたね……いや、き、来ましたね……！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ま、無駄な努力ご苦労さまって感じ！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "それでも称賛に値しますよ。褒めてあげるべきです。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "で、で、でも、それも……ここで終わりです！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "えへへ。ちゃんと言えました……！"
+    },
+    {
+      "Text": "[s] \"ずっと見ていたの？\""
+    },
+    {
+      "Name": "アイン",
+      "Text": "は、はい……凍原地帯に着いたときから……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "うちの子と交戦したんだし、私たちが知らないわけないよね。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "やれやれ。そんなことも一から教えないといけないんですか？\n所詮は人間ですね。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "と、とにかく！こ、これで最後です……！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "そう――アインの言う通り、ここで終わり。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "降参するなら今のうちですよ？\n今なら特別に許してあげましょう。"
+    },
+    {
+      "Text": "[s1] \"うーん、何も知らないから降参のしようがないんだよね。\""
+    },
+    {
+      "Text": "[s2] \"何をしようとしてるの？\""
+    },
+    {
+      "Name": "アイン",
+      "Text": "は、話しても……大丈夫、でしょうか？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "話せる範囲なら良いのでは？いかがでしょう、ソフ？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "そうだね……私たちはすべてを一から作り直して、新しい土台を作るつもりなの。\nそれは――"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "――あんた達のため、とも言える。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "え、えっと……私たちは……模範的で完全な答えを、提示しようと思っているんです。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ここ、大事なところですよ。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "例えば、判断に迷った時――どのような決断が正しいのか、何がベストなのかわからない時ってありますよね？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "これからは私たちがその悩みを――"
+    },
+    {
+      "Name": "オウル",
+      "Text": "最初から発生しないようにしてあげるということです！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "オウルの説明はだいぶ端折っちゃってるけど……それがあの方の存在意義でもあったからね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、SF映画に出てくる悪役みたいなことを言うのですね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "堂々と言えない時点で、聞く価値ないんじゃないかな。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そうですね。皆のために、とか全てを作り直すとか――そういうのは大抵ろくでもない事です。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ひ、ひどいです！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "……正直腹立つんだけど。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "まあ……これも想定の範囲内ではあります。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "貴方たちが――デカグラマトンのエンジニアね。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "……[ruby=つかつき]調月[/ruby]リオ。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "これが……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "現れましたね、私たちの新たな変数。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "……なんで今更きたの？\n無意味な質問だけどさ。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "そもそも、あの方の存在を初めて認識し、追跡を始めたのはあなたでしたものね。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "最後に現れたのはキヴォトスの空が崩れかけたあの日――"
+    },
+    {
+      "Name": "オウル",
+      "Text": "そのままどこかに閉じこもっていればよかったものを。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……そう評価されても仕方のないことをしたのは認めるわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "でも……私のことをよく知っているのね？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "あ、あらゆる可能性に備えるのが私たちの仕事、ですから……！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "だ、だから！今からコクマーちゃんが……全部元に戻します！"
+    },
+    {
+      "Text": "[ns3] \"揺れてる……？\""
+    },
+    {
+      "Text": "[ns4] \"火山の様子が、おかしい……！？\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "火山が急に活性化しだしたわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "これは……！"
+    },
+    {
+      "Text": "[ns] \"どうしたの！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "新しい預言者の信号です！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私も探知したわ。\nこの信号は、まさか……「コクマー」？"
+    },
+    {
+      "Text": "[s] \"「コクマー」……？\""
+    },
+    {
+      "Name": "ソフ",
+      "Text": "コクマー！生命の樹2番目のセフィラ！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "王国を守る古代の守護者！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ひ、光が照らす知性！――隠されし知恵！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "変数は厄介な要素ですから。コクマーでここの火山を完全に噴火させ――"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "最大の変数であるシャーレの先生を確実に仕留めるよ！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "その次は――調月リオ、あなたです。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "……いいよね、アイン？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "はい……「お姉様」のためなら。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "それに、私たちの提案を断ったのは、あちらですから。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ……そうでしたね、はい！"
+    },
+    {
+      "Text": "[ns] \"な……何、あれ！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "溶岩の上に……一体、なにが……こんな事、ありえません！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "おー、特異現象捜査部の名にふさわしい現象だね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それとこれとは違う気がしますよ！？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "（この信号は、「名もなき神」の……？）"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ゲブラは頼もしいんだよね。短気だけど、同時に几帳面だからね。\n氷河地域[ruby=しょうかい]の哨戒に[/ruby]最適。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "皆さんをここに誘導したのもゲブラの作戦ですからね？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "こ、コクマーちゃんが陣取ってる、よ、溶岩の中なら、いくら先生でも……\n調月リオでも、どうしようもない、でしょう！？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "い、[ruby=いずみもと]和泉元[/ruby]エイミは暑さに弱いし、[ruby=あすま]飛鳥馬[/ruby]トキのアビ・エシュフは、せ、整備が必要でしょうから……！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ず～っと戦い続けてきたでしょ？\nそろそろここらで休んじゃおうよ。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ええ、私たちが手伝ってあげます。\nまあ、永遠の休息になるかもしれませんが？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……あの手の敵に対して、必ずしも緻密な作戦を立てる必要はないわ。"
+    },
+    {
+      "Text": "[s] \"何か案があるの？\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "AMASを総動員して、施設の残骸で遮蔽物を作るわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "まともなものを用意するのには少し時間が足りないけれど……。\nそこまで精度を上げる必要はないでしょう？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あれは……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "なるほど、それならきっと……"
+    },
+    {
+      "Text": "[ns] \"ありがとう、リオ！\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "（ですが先程……最大の変数である先生を確実に仕留める、と彼女たちは言っていました）"
+    },
+    {
+      "Name": "トキ",
+      "Text": "（先生の存在は、それだけ脅威になると想定している……？）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "先生？"
+    },
+    {
+      "Text": "[s] \"あの子たちが何を考えていて、何を準備してるのかは分からないけど。\""
+    },
+    {
+      "Text": "[ns] \"とりあえず、目の前のことを一つずつ解決しよう！\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "じゃあ、暑いからヘリの冷房つけていい？"
+    },
+    {
+      "Text": "[s] \"……何十時間でもつけてていいよ！\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ありがとう先生。\nそういうとこ、好きだよ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……燃料のことも考えてくださいね？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "応戦します。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "それでは、皆さん。そろそろ覚悟を決めてくださいね？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ここまで誘導するのも大変だったんだから！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "お、お願いします、コクマーちゃん！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "つ、調月リオが、何を用意したとしても、コクマーちゃんには関係ありません……！"
+    },
+    {
+      "Text": "[ns] \"みんな、気をつけて！\""
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제8화;호크마"
+    },
+    {
+      "Name": "토키",
+      "Text": "저쪽에 출구가 보입니다! 선생님, 히마리 부장, 서둘러 주십시오!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "문이 잠겨 있어……. 브리칭 들어갈게!"
+    },
+    {
+      "Text": "[ns] \"어……?\""
+    },
+    {
+      "Name": "토키",
+      "Text": "이건……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……그러니까……. 우리가 툰드라에서 봤던……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 화산의, 내부……?"
+    },
+    {
+      "Text": "[s] \"길을 따라왔더니, 화산 내부에 도착했다는 거야?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "잠깐, 리오. 정말 여기가 맞나요?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……최선의 판단이었다고 생각해. 지금도 산 위쪽에는 오히려 병력의 움직임이 없어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "화산…… 고열 지대…… 거기에 등산……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "더 더워졌어……. 어떻게 할 거야, 선생님. 책임져."
+    },
+    {
+      "Text": "[s] \"그래도 평소 복장보다는, 지금이 나은 게 아닐까……?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "그건 분명 그렇지만……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "너무 더워……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후우. 상황과는 별개로, 이제 좀 살 것 같네요. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "지금이라도 헬기로 돌아가 에어컨을 틀고 싶어……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "헬기를 무슨 냉장고처럼 취급하지 말아 주시겠어요……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "조금 더 위로 올라왔습니다만…… 시추 시설의 숫자가 상당히 늘어나 있는 것처럼 보입니다."
+    },
+    {
+      "Name": "리오",
+      "Text": "그러네. 마치 본격적으로 채광을 하고 있었던 장소가, 이 산이었다는 것처럼."
+    },
+    {
+      "Name": "히마리",
+      "Text": "(빙해, 툰드라, 그리고 화산 지대…… 이만한 규모로 자원을 확보해서, 어디에 사용하려는 것일까요?)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "(역시 <군수 공장>을 담당하는 <헤세드>에게? 아뇨, 그렇다고 보기에는……)"
+    },
+    {
+      "Name": "리오",
+      "Text": "저기, 에이미의 상태가 어딘가 좋지 않은 것처럼 보이는데…… 괜찮아?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "역시, 이젠 한계."
+    },
+    {
+      "Name": "에이미",
+      "Text": "만일…… 내가…… 이대로 어떻게 되면……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "무덤에는 아이스크림 하나…… 아니…… 한 상자를 놓아줘……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨, 지금 당신이 여기에서 그런 말을 하면, 농담으로 안 들리니까 말이죠……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "그렇지만 적들의 추격은 멈춘 것 같아. 거기에서 잠시 머물러도 되겠어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……추격이 멈췄다고요? "
+    },
+    {
+      "Name": "리오",
+      "Text": "그래. 드론과 AMAS로 주위를 정찰 중이지만, 너희를 쫓는 데카그라마톤의 병력은 현재로선 없어."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그건 다행스러운 일이지만, 한 편으로는 어딘가 불길하게 들리기도 하는 말이네요."
+    },
+    {
+      "Name": "리오",
+      "Text": "어떤 점에서?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "가령 이렇게 생각해 볼 수 있겠죠. 혹시 이 근처에 병력이 접근해서는 안 되는 무언가가 있는 걸까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아니면 병력이 접근할 필요가 없는 무언가가?"
+    },
+    {
+      "Name": "???",
+      "Text": "그 답은, 놀랍게도 둘 다랍니다~"
+    },
+    {
+      "Text": "[ns] \"이건…… 이 목소리는!\""
+    },
+    {
+      "Name": "아인",
+      "Text": "요, 용케 여기까지 당도하셨군요……. 아니, 와, 왔군요……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "어차피 그것도 모두 헛수고가 되겠지만 말이지!"
+    },
+    {
+      "Name": "오르",
+      "Text": "솔직히 대단해요. 축하할 만한 일이죠."
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그, 그렇지만 그것도…… 이걸로 끝이에요! "
+    },
+    {
+      "Name": "아인",
+      "Text": "에헤헤. 제대로 말했어요……!"
+    },
+    {
+      "Text": "[s] \"우리를 지켜보고 있었던 거야?\""
+    },
+    {
+      "Name": "아인",
+      "Text": "다, 당연한 거예요. 그곳, 툰드라 지대에 도착했을 때부터……."
+    },
+    {
+      "Name": "소프",
+      "Text": "애초에 우리 아이들과 교전했잖아? 그 사실을 우리가 모를 리 없잖아?"
+    },
+    {
+      "Name": "오르",
+      "Text": "이런, 이런. 이렇게 당연한 부분까지 이야기해 줘야 하다니, 조금 실망이네요. 역시 인간이라고 할까요."
+    },
+    {
+      "Name": "아인",
+      "Text": "아, 아무튼! 그, 그것도, 마지막이에요……! 여기서, 여기서……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "응. 아인의 말대로, 이만 마무리를 짓도록 하자고."
+    },
+    {
+      "Name": "오르",
+      "Text": "뭐, 우리들에게 항복해 온다면, 받아주지 못할 것도 없기는 합니다만? 특별히 자비심을 베풀어서 말이죠? 가엾게 여기는 마음으로요?"
+    },
+    {
+      "Text": "[s1] \"그런데 뭘 알아야 항복하든 말든 할 수 있는 게 아닐까?\""
+    },
+    {
+      "Text": "[s2] \"너희는 뭘 하려는 거야?\""
+    },
+    {
+      "Name": "아인",
+      "Text": "이, 이야기해 드려도…… 되는, 걸까요?"
+    },
+    {
+      "Name": "오르",
+      "Text": "으음…… 자세한 부분까지는 무리겠지만, 이야기할 수 있는 것만 이야기해 보는 건 괜찮지 않을까요. 어때요, 소프?"
+    },
+    {
+      "Name": "소프",
+      "Text": "뭐, 그래. 우리는 모든 것을 새롭게 만들고, 새 토대를 쌓을 거야. 그리고 그건 어떤 의미에서……."
+    },
+    {
+      "Name": "소프",
+      "Text": "……당신들을 위한 일이라고도, 할 수 있겠지."
+    },
+    {
+      "Name": "아인",
+      "Text": "다, 다시 마, 말씀드리자면 우리는, 당신들에게…… 어떤, 모범적이고 완전한 답안을, 제시해 드리고 싶어요."
+    },
+    {
+      "Name": "오르",
+      "Text": "네, 네, 네. 모두 집중. 여기 중요한 부분이라고요. "
+    },
+    {
+      "Name": "오르",
+      "Text": "이런 겁니다. 어떤 결정을 내리는 게 맞는지, 뭐가 최선인지 모를 때가 있지 않나요?"
+    },
+    {
+      "Name": "오르",
+      "Text": "그러니까 이제부터는 우리가 자비로움을 발휘해서……."
+    },
+    {
+      "Name": "오르",
+      "Text": "그런 고민 자체를 하지 않게 해 드리죠!"
+    },
+    {
+      "Name": "소프",
+      "Text": "오르가 말을 막 던지는 느낌이 있지만…… 아무튼, 그게 그분의 존재 의의이기도 했으니까."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머나. SF 영화에 나올 법한 전형적인 악당 같은 소리를 하고 있군요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "더 들을 것도 없겠네. 애초에 떳떳한 일이었다면, 숨기는 것 없이 모두 이야기했겠지."
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇습니다. 보통 이렇게 모두를 위한 일이라거나 모든 것을 새롭게 만든다거나 하는 일은, 변변치 않은 일이기 마련이라고 들었습니다."
+    },
+    {
+      "Name": "아인",
+      "Text": "너, 너무해요!"
+    },
+    {
+      "Name": "소프",
+      "Text": "……지금 발언은, 솔직히 조금 화나긴 하네."
+    },
+    {
+      "Name": "오르",
+      "Text": "그렇지만, 뭐. 여기까지도 예상한 범위 안이기는 합니다."
+    },
+    {
+      "Name": "리오",
+      "Text": "너희들이 그 말로만 들었던, 데카그라마톤의 엔지니어들이구나."
+    },
+    {
+      "Name": "아인",
+      "Text": "……츠카츠키, 리오."
+    },
+    {
+      "Name": "소프",
+      "Text": "츠카츠키 리오."
+    },
+    {
+      "Name": "오르",
+      "Text": "나타났군요. 우리의 새로운 변수."
+    },
+    {
+      "Name": "소프",
+      "Text": "……왜 이제 와서 모습을 드러낸 거지? 아니, 그것도 어떻게 보면 무의미한 질문이겠네."
+    },
+    {
+      "Name": "오르",
+      "Text": "애초에 그분의 존재를 처음 인지하고, 감히 그 뒤를 쫓으려 했던 것은 당신이었으니."
+    },
+    {
+      "Name": "오르",
+      "Text": "당신이 마지막으로 모습을 드러냈던 것은, 키보토스의 하늘이 무너지려 했던 그날이었죠……."
+    },
+    {
+      "Name": "오르",
+      "Text": "언제나 그랬던 것처럼, 쭉 그늘진 곳 어딘가에 틀어박혀 있었으면 될 텐데."
+    },
+    {
+      "Name": "리오",
+      "Text": "확실히, 나를 그렇게 평가해도 어쩔 수 없겠네. 그 점은 인정할게."
+    },
+    {
+      "Name": "리오",
+      "Text": "그보다 의외로 나에 대해 잘 알고 있는 것 같은데?"
+    },
+    {
+      "Name": "아인",
+      "Text": "모, 모든 가능성에 대비하는 것이 우리들의 일이니까요……!"
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그그, 그러니까! 이제부터는 호크마 쨩이…… 모든 것을 원래대로 되돌릴 거예요!"
+    },
+    {
+      "Text": "[ns3] \"땅이……?\""
+    },
+    {
+      "Text": "[ns4] \"화산의 상태가, 뭔가 심상치 않아……!\""
+    },
+    {
+      "Name": "리오",
+      "Text": "선생. 지금 막 갑작스럽게 화산이 활성화되기 시작했어. "
+    },
+    {
+      "Name": "리오",
+      "Text": "거기에……!"
+    },
+    {
+      "Text": "[ns] \"또 무슨 일이라도 있어?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "새로운 예언자의 신호에요!"
+    },
+    {
+      "Name": "리오",
+      "Text": "나도 포착했어. 이 신호는? 설마…… <호크마>……?!"
+    },
+    {
+      "Text": "[s] \"<호크마>……?\""
+    },
+    {
+      "Name": "소프",
+      "Text": "호크마! 생명의 나무의 두 번째 세피라!"
+    },
+    {
+      "Name": "오르",
+      "Text": "왕국을 지키는 고대의 수호자!"
+    },
+    {
+      "Name": "아인",
+      "Text": "비, 빛을 비추는 지성! 그리고 감추어진 지혜!"
+    },
+    {
+      "Name": "오르",
+      "Text": "변수는 언제나 귀찮은 요소죠. 그러니 호크마로 이곳의 화산을 완전히 분화시켜."
+    },
+    {
+      "Name": "소프",
+      "Text": "최대의 변수인 샬레의 선생님을, 확실하게 처리해 둘 거야!"
+    },
+    {
+      "Name": "오르",
+      "Text": "그리고 그다음은 물론 츠카츠키 리오, 당신이 될 거고요."
+    },
+    {
+      "Name": "소프",
+      "Text": "……괜찮지, 아인?"
+    },
+    {
+      "Name": "아인",
+      "Text": "……."
+    },
+    {
+      "Name": "아인",
+      "Text": "……네. 언니를, 위해서라면……."
+    },
+    {
+      "Name": "오르",
+      "Text": "거기에 우리의 제안을 먼저 거절한 건, 저쪽이기도 했으니 말이죠."
+    },
+    {
+      "Name": "아인",
+      "Text": "그…… 그랬었죠. 알겠어요. 네!"
+    },
+    {
+      "Text": "[ns] \"저게…… 뭐야?!?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "말도 안 돼요! 용암 위에 저런 게……? 이건 무슨 초현상인가요?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "생각해 보면 우리가 원래 그런 초현상을 탐색하는 동아리이긴 했는데."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 초현상과 이 초현상은 조금 결이 다르다고 생각하는데요?!"
+    },
+    {
+      "Name": "리오",
+      "Text": "(이 신호는, <이름 없는 신>들의……?)"
+    },
+    {
+      "Name": "소프",
+      "Text": "게부라는 믿음직하지. 다혈질이기는 하지만, 동시에 주도면밀하니까. 그래서 빙해 지역의 초계를 맡긴 거였고."
+    },
+    {
+      "Name": "오르",
+      "Text": "여러분을 여기까지 유인한 것도, 모두 게부라의 작전이었고요~?"
+    },
+    {
+      "Name": "아인",
+      "Text": "호, 호크마가 자리를 잡은, 요, 용암 안에서라면 아무리 대단한 선생님이라도……. 그리고 츠카츠키 리오라도, 방법이 없겠, 지요!?"
+    },
+    {
+      "Name": "아인",
+      "Text": "이, 이즈미모토 에이미는 더위에 약하고, 아스마 토키의 아비 에슈흐는 저, 정비가 필요한 상황일 테니……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "지금까지 거의 휴식도 없이 싸워 오기만 했잖아? 이제 여러 가지 의미로 쉴 때가 되지 않았을까?"
+    },
+    {
+      "Name": "오르",
+      "Text": "그러니까 저희가 아주 조금 도와드리겠다는 겁니다. 어떤 휴식은 그 기간이 영원한 것일 수도 있고요~?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……저런 종류의 적을 상대하는 데에, 반드시 세밀하고 정교한 작전과 작업만이 필요한 것은 아니야."
+    },
+    {
+      "Text": "[s] \"어쩌려는 거야. 리오?\""
+    },
+    {
+      "Name": "리오",
+      "Text": "사용 가능한 AMAS를 모두 활용하겠어. 현장 시설의 잔해로 방어선과 구조물을 구축할게. "
+    },
+    {
+      "Name": "리오",
+      "Text": "제대로 된 것을 준비하기엔 다소 시간이 부족하겠지만. 원시적인 상대에게는, 때로 그에 상응하는 수단이 필요한 법이니까."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저것은……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇군요. 저것이라면 분명히……."
+    },
+    {
+      "Text": "[ns] \"고마워, 리오!\""
+    },
+    {
+      "Name": "토키",
+      "Text": "(그렇지만 조금 전, 최대의 변수인 선생님을 확실하게 처리해 둘 거라고, 데카그라마톤의 엔지니어들은 말했죠.)"
+    },
+    {
+      "Name": "토키",
+      "Text": "(선생님의 존재가, 그 정도로 자신들에게 위협이 된다고 상정하고 있다는 뜻……?)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "선생님?"
+    },
+    {
+      "Text": "[s] \"저 아이들이 무엇을 생각하고, 준비하는지는 모르겠지만.\""
+    },
+    {
+      "Text": "[ns] \"일단은, 눈앞에 닥친 일부터 해결하자!\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "그러면 이번에는 정말로 에어컨 틀어 주는 거지?"
+    },
+    {
+      "Text": "[s] \"……열 시간이라도 틀어 줄게!\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "고마워, 선생님. 그래서 좋아해."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저기, 그러다 헬기 연료가 전부 떨어질 수도 있을 텐데요……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "응전, 준비하겠습니다."
+    },
+    {
+      "Name": "오르",
+      "Text": "그러면, 여러분. 슬슬 본격적으로 각오해 주시죠."
+    },
+    {
+      "Name": "소프",
+      "Text": "여기까지 몰아세우는 것도 꽤나 고생스러운 일이었다구~?"
+    },
+    {
+      "Name": "아인",
+      "Text": "부, 부탁할게요. 호크마 쨩! "
+    },
+    {
+      "Name": "아인",
+      "Text": "츠카츠키 리오가 뭐, 뭔가를 준비한 것 같지만, 그 정도는, 호크마 쨩에게는, 아무 문제도 되지 않을 테니까요……!"
+    },
+    {
+      "Text": "[ns] \"모두, 조심해!\""
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 8;Chokmah"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I have located the exit. Hurry, Sensei! President Himari!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's locked. I'm forcing my way through! Excuse me!"
+    },
+    {
+      "Text": "[ns] \"Huh...?!\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "This is..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You mean to say...this...inside..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We're now inside the volcano we saw earlier?"
+    },
+    {
+      "Text": "[s] \"The path led us...into the heart of the volcano?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "This is really it, Rio?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...It was the most logical decision at the time. At the least, there're no enemies here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Volcano... High-temperature area...and climbing..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The heat...is unbearable now. How are you going to fix this? Sensei. Take responsibility."
+    },
+    {
+      "Text": "[s] \"You're better dressed...than in your usual outfit...at least?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I...suppose..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I'm melting...away..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Phew. We may have ended up inside a volcano, but at least we can catch our breath. "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Let's go back to the helicopter. And AC. Right now."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Our state-of-the-art helicopter is not your refrigerator..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "The further in we proceed, the more drilling rigs there are."
+    },
+    {
+      "Name": "Rio",
+      "Text": "This mountain was likely the core target of their mining operations."
+    },
+    {
+      "Name": "Himari",
+      "Text": "(The Glacial Sea, the tundra, and a volcano... Just what are they planning on doing with this wealth of resources?)"
+    },
+    {
+      "Name": "Himari",
+      "Text": "(Is it for Chesed's munition factory? No...if that were the case...)"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Eimi, you look unwell... Will you be okay?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "No. I truly am at my limit."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "If...I don't make it..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...please leave a scoop...no! Please leave a whole box of ice cream, in memory of me, on my grave."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Given the context, that sounds alarmingly...not like a joke."
+    },
+    {
+      "Name": "Rio",
+      "Text": "However, the enemy seems to have stopped their pursuit. As hot as it may be, we can recollect ourselves here for a moment."
+    },
+    {
+      "Name": "Himari",
+      "Text": "They stopped? "
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. I'm scouting the area with drones and AMAS, but I've detected no enemy troops in the area."
+    },
+    {
+      "Name": "Himari",
+      "Text": "On the surface, that's a relief. Underneath, it's an ominous statement."
+    },
+    {
+      "Name": "Rio",
+      "Text": "How so?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Why would the enemy, who severely outnumbers us, not press their advantage? The only deterrent would be something of a greater threat."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Or something they shouldn't approach..."
+    },
+    {
+      "Name": "???",
+      "Text": "Ding, ding, ding! The answer is, in fact, both!"
+    },
+    {
+      "Text": "[ns] \"That... That voice!\""
+    },
+    {
+      "Name": "Ein",
+      "Text": "Y-You've somehow managed to reach—I mean, intrude on this place!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "It's a shame it'll be all for nothing, isn't it?!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Yes, yes. Congratulations are in order, however, are they not? Quite a feat, they have achieved!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-I-It doesn't matter, because it's all over now! "
+    },
+    {
+      "Name": "Ein",
+      "Text": "Hee...heehee... I said it! I did it!"
+    },
+    {
+      "Text": "[s] \"Have you been watching us?\""
+    },
+    {
+      "Name": "Ein",
+      "Text": "O-Of course. Ever since you set foot on the tundra..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Did you think you could scuffle with OUR troops and still escape our attention?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Oh my, oh dear. Do humans really require such glaring facts to be explained to them? \"Disappointed\" cannot accurately express the feeling running through my circuits! I suppose it's to be expected."
+    },
+    {
+      "Name": "Ein",
+      "Text": "F-From here, it's all over! Right here, right now!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Yes. Yeah. Like Ein said, let's get this over with."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Of course, if you choose to surrender, I cannot fathom a reason to not accept. Do we call this mercy? A sense of pity?"
+    },
+    {
+      "Text": "[s1] \"You can't expect us to surrender without knowing the situation.\""
+    },
+    {
+      "Text": "[s2] \"What are you trying to do here?\""
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-Is it okay to tell them...?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Hm, hm... The details we cannot, but there are things we could reveal to the humans. Sof?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Why not? We intend to build a new foundation for this world. Create everything anew! If you really think about it..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...we're doing it for you."
+    },
+    {
+      "Name": "Ein",
+      "Text": "T-To put it simply, we will present the perfect model. The complete answer."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Yes, yes, yes. Now, listen closely. This next matter is one of great import. "
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Allow me to explain it in terms you understand. Is it not the bane of human existence? To agonize over the \"right\" and \"wrong\" decisions? Whether the path you tread is the optimal choice?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "We will graciously grant each and every one of you mercy!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "You will never again have another worry!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Normally, Ohr's just yapping...but that was the master's very reason for existence."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh my. Have you been watching too many science fiction movies? What a third-rate villain line."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "And a waste of time. Not even worth listening to. If you believe in your message, you shouldn't feel the need to hide things."
+    },
+    {
+      "Name": "Toki",
+      "Text": "That is correct. I have been told that nothing can be for the good of all, and creating something anew is not worthwhile."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Y-You're going too far!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "...I'm starting to get a little angry."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "It's of no concern. This outcome was still within the range of our predictions, was it not?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "The Decagrammaton engineers I've been hearing about."
+    },
+    {
+      "Name": "Ein",
+      "Text": "...Tsukatsuki, Rio."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Tsukatsuki Rio."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "The new variable. You've arrived."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...So why did this variable finally make her appearance? No. Another useless question."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "You. The first to notice the master's presence. The audacious one, who follows its trail."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "You have not resurfaced since the day the Kivotos' sky almost fell."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "And, like that time, you should have remained put in the shadows. Where you belong."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I can acknowledge the sentiment. Your perception of me is yours to keep, after all."
+    },
+    {
+      "Name": "Rio",
+      "Text": "However, you've gathered more data on me than I expected."
+    },
+    {
+      "Name": "Ein",
+      "Text": "W-We, the engineers, prepare for any and all possibilities! B-Because we're the engineers!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Th-That's why Chokmah...will return everything to how it should be!"
+    },
+    {
+      "Text": "[ns3] \"The ground...!\""
+    },
+    {
+      "Text": "[ns4] \"Something's happening to the volcano...!\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Detecting activity from the volcano, Sensei. "
+    },
+    {
+      "Name": "Rio",
+      "Text": "There...!"
+    },
+    {
+      "Text": "[ns] \"There's more?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "A prophet! I'm seeing signals of a new prophet!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes, I can confirm. The wave patterns... Is this Chokmah?!"
+    },
+    {
+      "Text": "[s] \"Chokmah...?\""
+    },
+    {
+      "Name": "Sof",
+      "Text": "Chokmah! The second Sephira of the Tree of Life!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "The Realm's Ancient Guardian!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Sh-Shining Intelligence! And Hidden Wisdom!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Unwelcome variables are unwelcome. With Chokmah's power, this volcano will erupt..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...and eradicate the most unwelcome variable here! Schale's Sensei!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "And, of course, you. Tsukatsuki Rio."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...No problem for you, right, Ein?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "..."
+    },
+    {
+      "Name": "Ein",
+      "Text": "If it's for Elder Sister..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "And did they not decline our offer of mercy?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Y-You're...right! They did... Yes!"
+    },
+    {
+      "Text": "[ns] \"Wh-What in the world?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "This makes no sense! That...thing! On top of the lava! It's a super phenomenon!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Right. I think the original purpose of our club was to investigate such things."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The super phenomena we were created to investigate and this...thing are two entirely different breeds!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "(This signal...is the Nameless Gods...?)"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Geburah was always reliable. A hothead, but still reliable. That's why we left the important task of patrolling the Glacial Sea to it."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "In fact, it was Geburah's idea to lure you ingrates here!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Even the amazing Sensei...and Tsukatsuki Rio can't do anything to f-fight Chokmah, not while it's in lava!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-Izumimoto Eimi is weak to heat, and Asuma Toki's Abi-Eshuh is in need of m-maintenance!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "It sure is tiring fighting without rest, huh? It's break time, in more ways than one!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "We will go ahead and grant you one! An eternal rest!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...Against these kinds of enemies, sometimes a straightforward operation works best."
+    },
+    {
+      "Text": "[s] \"What are you going to do, Rio?\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "I will deploy every AMAS I have to build a defense line. We can use the remains from the field facility. "
+    },
+    {
+      "Name": "Rio",
+      "Text": "It won't be a proper barrier, but sometimes against primitive opponents, you need primitive methods."
+    },
+    {
+      "Name": "Himari",
+      "Text": "That's...?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I see. That must be..."
+    },
+    {
+      "Text": "[ns] \"Thank you, Rio!\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "(The engineers stated that Sensei was their primary target for eradication.)"
+    },
+    {
+      "Name": "Toki",
+      "Text": "(In their eyes, Sensei's presence is the biggest threat?)"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Sensei?"
+    },
+    {
+      "Text": "[s] \"I don't know what those children are thinking or planning.\""
+    },
+    {
+      "Text": "[ns] \"But for now, let's take care of what's right in front of us!\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "And then you'll definitely turn on the AC for me?"
+    },
+    {
+      "Text": "[s] \"...For ten hours straight if you want!\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Thank you, Sensei. That's why I like you."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Um. The helicopter is going to run out of fuel if you do that..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Preparing for battle."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "It's settled, everyone. Let us engage."
+    },
+    {
+      "Name": "Sof",
+      "Text": "We sure worked hard to lure them all the way out here!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "G-Good luck, Chokmah! "
+    },
+    {
+      "Name": "Ein",
+      "Text": "Ts-Tsukatsuki Rio may have deployed countermeasures, but our beloved Chokmah can handle them!"
+    },
+    {
+      "Text": "[ns] \"Everyone! Look out!\""
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 8;ชอกมาห์"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ทางออกอยู่ตรงโน้นค่ะ! คุณครู หัวหน้าฮิมาริ เร่งฝีเท้าหน่อยค่ะ!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ประตูล็อกไว้อยู่... ฉันจะเจาะละนะ!"
+    },
+    {
+      "Text": "[ns] \"หืม...?\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "นี่มัน..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตรงนี้คือ... ด้านในของภูเขาไฟ... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ที่เราเห็นในทุ่งทุนดราเหรอ...?"
+    },
+    {
+      "Text": "[s] \"เราเดินตามทางมาจนถึงด้านในของภูเขาไฟงั้นเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เดี๋ยวนะ ริโอะ ให้หนีมาทางนี้ถูกแล้วเหรอคะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันคิดว่าเป็นการตัดสินใจที่ดีที่สุดแล้ว ตอนนี้ก็ไม่เห็นการเคลื่อนไหวของกองกำลังที่ยอดเขาด้วย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ต้องปีนเขา... และเป็นภูเขาไฟที่มีอุณหภูมิสูงอีก..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แบบนี้ก็ยิ่งร้อนกว่าเดิมน่ะสิ... ฉันควรทำยังไงดีล่ะคุณครู มารับผิดชอบเลยนะ"
+    },
+    {
+      "Text": "[s] \"แต่ชุดนี้ก็น่าจะดีกว่าชุดที่ใส่ประจำหรือเปล่า...?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มันก็จริงอยู่หรอก..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่มันร้อนมากเลย..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮู่ว... ถึงสถานการณ์จะไม่ดี แต่ก็รู้สึกเหมือนจะรอดตายเลยนะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อยากกลับขึ้นไปบนเฮลิคอปเตอร์แล้วเปิดแอร์เย็นๆ จัง..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่าพูดเหมือนเฮลิคอปเตอร์เป็นตู้เย็นสิคะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันขึ้นมาสูงกว่าเดิมหน่อยแล้วค่ะ... ตรงนี้มีอุปกรณ์ขุดเจาะมากขึ้นพอสมควรเลยค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "นั่นสินะ ราวกับว่าภูเขาแห่งนี้เป็นสถานที่ทำเหมืองแร่เต็มรูปแบบอย่างนั้นละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "(ธารน้ำแข็ง ทุนดรา และเขตภูเขาไฟ... พวกนั้นเอาทรัพยากรมากมายขนาดนี้ไปใช้ทำอะไรกันนะ)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "(หรือว่าเอาไปให้ <เชเซ็ด> ที่เป็นผู้ดูแล <โรงงานอาวุธ>? ไม่สิ ไม่น่าจะเป็นอย่างนั้น...)"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "คือว่า เอมิดูไม่ค่อยดีเลยนะ... เป็นอะไรหรือเปล่า?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถึงลิมิตของฉันแล้วละ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าฉัน... ไปต่อเรื่อยๆ... ทั้งอย่างนี้ละก็..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฝากวางไอศกรีมไว้ที่หน้าหลุมศพฉัน... อันหนึ่ง... ไม่สิ ลังหนึ่งด้วยนะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ได้สิคะ อย่าพูดล้อเล่นอะไรแบบนั้นสิคะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ดูเหมือนว่าศัตรูจะหยุดไล่ตามมาแล้วละ ทุกคนพักกันที่นั่นสักเดี๋ยวก็ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พวกนั้นหยุดไล่ตามมาแล้วเหรอคะ...? "
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่ ฉันใช้โดรนกับ AMAS ลาดตระเวนรอบๆ อยู่ ตอนนี้ไม่พบกองกำลังของเดคาแกรมมาทอนที่เคย\nไล่ตามมาแล้ว"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันก็ฟังเป็นเรื่องที่ดีอยู่นะคะ แต่อีกใจหนึ่งฉันก็รู้สึกเหมือนเป็นลางไม่ดีเลยค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ในแง่ไหนเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ลองคิดอย่างนี้ดูนะคะ อาจจะมีบางอย่างในบริเวณนี้ที่กองกำลังไม่ควรเข้าใกล้ก็ได้?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หรือไม่ก็มีบางอย่างที่ไม่จำเป็นต้องให้กองกำลังเข้ามา?"
+    },
+    {
+      "Name": "???",
+      "Text": "น่าทึ่งจังเลยนะคะ ถูกทั้ง 2 ข้อเลยค่ะ~"
+    },
+    {
+      "Text": "[ns] \"เสียงนี้มัน...!\""
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "มะ... มาถึงตรงนี้จนได้นะคะ... ไม่สิ มะ... มาถึงแล้วสินะคะ...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ถึงยังไง ทุกอย่างก็เปล่าประโยชน์อยู่ดีนั่นละ!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ยอดเยี่ยมไปเลยนะคะ ต้องชื่นชมเลยละค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ตะ... ตะ... แต่ว่านั่นก็เป็น... จุดสิ้นสุดด้วยค่ะ! "
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "แหะๆๆ ฉันพูดได้อย่างฉะฉานเลยค่ะ...!"
+    },
+    {
+      "Text": "[s] \"แอบจับตามองพวกเราอยู่เหรอ?\""
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "กะ... ก็แน่อยู่แล้วค่ะ ตั้งแต่มาถึงเขตทุนดราแล้ว..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ได้ต่อสู้กับเด็กๆ ของเราด้วยไม่ใช่เหรอ? คิดว่าพวกเราจะไม่รู้เรื่องนั้นได้ยังไง?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ให้ตายเถอะ ต้องบอกในเรื่องที่แน่ชัดอยู่แล้วด้วยเหรอเนี่ย แบบนี้น่าผิดหวังนะคะ มนุษย์ก็เป็นกันอย่างนี้สินะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "จะ... จะยังไงก็เถอะ! นะ... นั่นมัน... เป็นสิ่งสุดท้ายแล้วค่ะ...! จากนี้ไป... จากนี้ไป...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "อืม อย่างที่ไอน์ว่านั่นละ เรามาปิดฉากกันที่นี่เลยดีกว่า"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "แต่ถ้าจะยอมแพ้ให้พวกเรา พวกเราก็จะยอมรับให้นะคะ ถือว่าเป็นการเมตตาให้เป็นพิเศษด้วยความ\nรู้สึกเวทนาน่ะค่ะ"
+    },
+    {
+      "Text": "[s1] \"แต่เราต้องรู้อะไรก่อนสิถึงจะตัดสินใจได้\""
+    },
+    {
+      "Text": "[s2] \"พวกเธอพยายามจะทำอะไรเหรอ?\""
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ระ... เราเล่าให้พวกเขาฟัง... ได้มั้ยคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "อืม... ถ้าให้ลงรายละเอียดเลยคงจะไม่ได้ เอาเป็นว่าเราบอกแค่ข้อมูลที่บอกได้แล้วกันค่ะ ว่ายังไงล่ะคะ ซอฟ?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ก็ได้ พวกเราจะสร้างทุกอย่างขึ้นใหม่ และตั้งรากฐานใหม่ขึ้นมา และในอีกแง่หนึ่ง..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "จะเรียกว่านั่นเป็นการทำเพื่อพวกคุณด้วยก็ได้..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ถะ... ถ้าจะให้อธิบายให้เข้าใจ พวกฉันอยาก... เสนอคำตอบที่เป็นแม่แบบและสมบูรณ์ให้กับพวกคุณค่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ค่ะ ค่ะ ค่ะ ตั้งใจฟังนะคะ จะเข้าส่วนที่สำคัญแล้วค่ะ "
+    },
+    {
+      "Name": "ออร์",
+      "Text": "มันก็เป็นอย่างนี้น่ะค่ะ มีบางครั้งที่เราไม่รู้ว่าต้องตัดสินใจแบบไหนดี และไม่รู้ว่าอะไรคือสิ่งที่ดีที่สุด ใช่มั้ยคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "พวกเราก็เลยจะแสดงความเมตตา..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "และทำให้พวกคุณไม่ต้องกังวลเรื่องนั้นอีกต่อไปค่ะ!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "รู้สึกเหมือนออร์จะพูดไปเรื่อยนะ... แต่เอาเถอะ เพราะนั่นก็เป็นเหตุผลในการมีอยู่ของท่านผู้นั้นด้วย"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตายจริง พูดเหมือนเป็นตัวร้ายที่อยู่ในหนัง Sci-Fi อย่างนั้นละค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่มีอะไรต้องฟังเพิ่มแล้วละ ถ้ามันเป็นเรื่องที่ซื่อสัตย์ตั้งแต่แรก ก็คงบอกทุกอย่างโดยไม่ปิดบังอะไร\nแล้วละ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ใช่ค่ะ ฉันเคยได้ยินมาว่าโดยทั่วไปแล้ว งานที่ทำเพื่อทุกคนหรืองานที่สร้างทุกอย่างขึ้นมาใหม่ มักไม่ใช่สิ่งที่ดีนักค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "กะ... เกินไปแล้วนะคะ!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ฟังแล้วโกรธขึ้นมาหน่อยๆ เลยแฮะ..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "แต่ก็เอาเถอะ... จนถึงตอนนี้ก็ยังอยู่ในขอบเขตที่คาดไว้ค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "พวกเธอคือเหล่าวิศวกรของเดคาแกรมมาทอนสินะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "สึคัตสึกิ ริโอะ..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "สึคัตสึกิ ริโอะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ปรากฏตัวแล้วสินะคะ ตัวแปรใหม่ของพวกเรา"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ทำไมถึงได้มาเอาตอนนี้ด้วยนะ...? ไม่สิ ต่อให้ถามไปก็ไม่มีความหมายแล้วละ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "เพราะคุณคือคนที่รับรู้ถึงตัวตนของท่านผู้นั้นตั้งแต่แรก และยังกล้าดีมาไล่ตามท่านผู้นั้น"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ครั้งสุดท้ายที่คุณปรากฏตัวคือวันที่ท้องฟ้าในคิโวทอสถล่มลงมาใช่มั้ยล่ะคะ...?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "อยากให้ไปเก็บตัวอยู่ในร่มเงาไปตลอด เหมือนที่เคยทำมาจังเลยนะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าจะประเมินฉันแบบนั้นก็คงช่วยไม่ได้นะ ฉันยอมรับเรื่องนั้นแล้วกัน"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "จะว่าไป พวกเธอรู้เรื่องของฉันดีจังเลยนะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "กะ... ก็หน้าที่ของพวกเราคือการเตรียมพร้อมเพื่อรับมือทุกสถานการณ์นี่คะ...!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "อะ... อะอะ... เอาเป็นว่า! จากนี้ไปชอกมาห์จังจะ... ทำให้ทุกอย่างกลับคืนสู่สภาพเดิมค่ะ!"
+    },
+    {
+      "Text": "[ns3] \"พื้นสั่นเหรอ...?\""
+    },
+    {
+      "Text": "[ns4] \"เหมือนภูเขาไฟมีอะไรผิดปกติเลย...!\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ครู จู่ๆ ภูเขาไฟก็ปะทุขึ้นมา"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อีกอย่าง...!"
+    },
+    {
+      "Text": "[ns] \"ยังมีอะไรอีกเหรอ?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "สัญญาณของผู้เลื่อมใสตนใหม่ค่ะ!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันก็ตรวจจับได้เหมือนกัน สัญญาณนี้มัน? หรือว่าจะเป็น... <ชอกมาห์>...?!"
+    },
+    {
+      "Text": "[s] \"<ชอกมาห์>...?\""
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ชอกมาห์! เซฟิร่าลำดับที่ 2 ในต้นไม้แห่งชีวิต"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ผู้พิทักษ์แห่งบรรพกาล ผู้ปกป้องอาณาจักร!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ปะ... ปัญญาเรืองรอง! และความเฉลียวฉลาดที่ซ่อนไว้!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ตัวแปรเป็นสิ่งน่ารำคาญเสมอนั่นแหละ เพราะอย่างนั้นพวกเราจึงจะใช้ชอกมาห์ เพื่อทำให้ภูเขาไฟลูกนี้ปะทุ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "และจัดการตัวแปรที่ใหญ่ที่สุดอย่างคุณครูของชาเล่ต์ให้สิ้นซาก!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "และแน่นอนว่ารายต่อไปก็ต้องเป็นคุณ สึคัตสึกิ ริโอะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ไม่ติดอะไรใช่มั้ย ไอน์?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ค่ะ... ถ้าเพื่อพี่สาวแล้วละก็..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "อีกอย่าง พวกนั้นก็เป็นฝ่ายปฏิเสธข้อเสนอของเราก่อนด้วยค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ชะ... ใช่ค่ะ เข้าใจแล้วค่ะ ได้ค่ะ!"
+    },
+    {
+      "Text": "[ns] \"นั่นมัน... อะไรน่ะ?!?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่อยากเชื่อเลย! ของแบบนั้นอยู่บนลาวาได้เหรอ...? นี่มันปรากฏการณ์ลี้ลับอะไรกันคะเนี่ย...?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "จะว่าไป พวกเราก็เป็นชมรมที่ศึกษาปรากฏการณ์ลี้ลับอะไรแบบนี้อยู่แล้วนี่นา"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ปรากฏการณ์ลี้ลับในความหมายของเรามันต่างออกไปนะคะ?!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "(นี่คือสัญญาณจาก <เทพไร้นาม> ...?)"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "เกวูราห์น่ะไว้วางใจได้อยู่แล้ว ถึงจะเจ้าอารมณ์... แต่ก็ละเอียดรอบคอบด้วย เพราะแบบนั้นถึงได้รับ\nมอบหมายให้ไปลาดตระเวนพื้นที่ธารน้ำแข็งไงล่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "การหลอกล่อให้ทุกคนมาที่นี่ก็เป็นแผนการของเกวูราห์นะคะ~"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "นะ... ในลาวาที่ชอกมาห์ไปอยู่... ต่อให้เป็นคนที่เก่งกาจอย่างคุณครูก็ต้อง... และแม้กระทั่งสึคัตสึกิ ริโอะเอง... ก็คงไม่รอดหรอกค่ะ!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "อิ... อิซุมิโมโตะ เอมิเป็นคนที่อ่อนแอต่อความร้อน ส่วนอาบี เอชูห์ของอะซุมะ โทคิก็... ก็น่าจะอยู่ใน\nสภาพที่ต้องซ่อมแซม...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ที่ผ่านมาพวกคุณต่อสู้โดยไม่ได้พักกันเลยนี่? ตอนนี้คงถึงคราวที่จะได้พักกันแล้วละ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "พวกฉันก็เลยจะช่วยพวกคุณนิดๆ หน่อยๆ น่ะค่ะ การพักผ่อนในบางรูปแบบก็ทำได้อย่างนิรันดร์ด้วยนะ\nคะ~"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "การจัดการกับศัตรูประเภทนั้นไม่จำเป็นต้องใช้กลยุทธ์หรือการทำตามแผนการที่ละเอียดละออหรอก..."
+    },
+    {
+      "Text": "[s] \"คิดจะทำอะไรน่ะ ริโอะ?\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันจะใช้ AMAS ทั้งหมดที่มี สร้างแนวป้องกันสิ่งก่อสร้างจากเศษซากของอุปกรณ์และอาคารที่นั่นดู "
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถึงจะมีเวลาไม่พอที่จะทำให้ออกมาได้อย่างสมบูรณ์แบบ แต่กับศัตรูในแบบดั้งเดิมแล้ว เราก็ต้องรับมือ\nด้วยวิธีการที่สอดคล้องกัน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นมัน...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "อย่างนี้สินะคะ ถ้าเป็นแบบนั้น ฉันว่า..."
+    },
+    {
+      "Text": "[ns] \"ขอบใจนะ ริโอะ!\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "(แต่ว่า เมื่อกี้นี้พวกนักวิศวกรของเดคาแกรมมาทอนบอกว่าจะจัดการคุณครูที่เป็นตัวแปรที่ใหญ่ที่สุดให้สิ้น\nซาก)"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "(เท่ากับว่า... พวกนั้นถือว่าการมีอยู่ของคุณครูเป็นภัยคุกคามต่อตนเองถึงขนาดนั้นเลยเหรอ...?)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คุณครู?"
+    },
+    {
+      "Text": "[s] \"ครูไม่รู้ว่าเด็กพวกนั้นคิดและเตรียมจะทำอะไรอยู่\""
+    },
+    {
+      "Text": "[ns] \"แต่เรามาแก้ปัญหาตรงหน้ากันก่อนเถอะ!\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แล้วคราวนี้จะเปิดแอร์ให้จริงๆ ใช่มั้ย?"
+    },
+    {
+      "Text": "[s] \"จะเปิดให้ 10 ชั่วโมงเลย...!\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ขอบคุณนะคุณครู แบบนี้ละฉันถึงชอบคุณครูน่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอ่อ แต่ถ้าทำแบบนั้น อาจเป็นการผลาญเชื้อเพลงของเฮลิคอปเตอร์หมดเลยก็ได้นะคะ...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันจะเตรียมตอบโต้ค่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "เอาละ ทุกคนคะ ช่วยเตรียมตัวอย่างจริงจังกันให้หน่อยนะคะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "กว่าจะไล่ต้อนให้มาถึงที่นี่ได้ พวกฉันก็ต้องเหนื่อยเอาเรื่องอยู่นะ~"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ฝะ... ฝากด้วยนะคะ ชอกมาห์จัง! "
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ดูเหมือนสึคัตสึกิ ริโอะจะเตรียมอะไรไว้ด้วย แต่แค่นั้นคงทำอะไรชอกมาห์จังไม่ได้หรอกค่ะ...!"
+    },
+    {
+      "Text": "[ns] \"ทุกคนระวังตัวด้วยนะ!\""
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第8話;霍刻瑪"
+    },
+    {
+      "Name": "季",
+      "Text": "出口在那裡！\n老師、陽葵部長，動作快！"
+    },
+    {
+      "Name": "英美",
+      "Text": "門是鎖著的呢……我來破門！"
+    },
+    {
+      "Text": "[ns]「咦……？」"
+    },
+    {
+      "Name": "季",
+      "Text": "這是……"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以我們……現在是在凍原上看到的……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那座火山的內部嗎……？"
+    },
+    {
+      "Text": "[s]「我們一直沿著路走，結果竟然走到了火山裡面？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "等等，莉央。\n真的是這裡沒錯嗎？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……這是當時最好的做法。\n畢竟就連現在，火山上方也幾乎沒有任何敵方兵力的動靜。"
+    },
+    {
+      "Name": "英美",
+      "Text": "火山……炎熱地帶……而且還要爬山……"
+    },
+    {
+      "Name": "英美",
+      "Text": "簡直是在火上澆油……\n現在怎麼辦，老師，請你負責。"
+    },
+    {
+      "Text": "[s]「跟你平時的服裝相比，現在應該已經相對涼快了吧……？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "雖然是這樣沒錯……"
+    },
+    {
+      "Name": "英美",
+      "Text": "但還是好熱……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼，目前所處的情況姑且不論，現在的環境總算舒服多了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "真想立刻回直升機上吹冷氣……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "可以麻煩你不要把直升機當成冰箱嗎……？"
+    },
+    {
+      "Name": "季",
+      "Text": "總覺得越往上爬……探鑽設施的數量就越多呢。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是啊。好像它們主要的開採地點其實是這座山一樣。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "（冰海、凍原和火山地帶……花費這麼多功夫開採資源，到底打算用在什麼地方？）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "（難道是要送去給擔任「軍需工廠」的「赫賽德」？\n　不，從目前的情況來看……）"
+    },
+    {
+      "Name": "莉央",
+      "Text": "那個，英美的狀態看起來好像不太對勁……\n你還好嗎，英美？"
+    },
+    {
+      "Name": "英美",
+      "Text": "……"
+    },
+    {
+      "Name": "英美",
+      "Text": "我果然……已經到極限了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "假如……我……真的出了什麼事的話……"
+    },
+    {
+      "Name": "英美",
+      "Text": "請在我的墳墓上放一支冰淇淋……\n不……請放一箱吧……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就算你現在開這種玩笑，我們也完全笑不出來耶……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "敵人似乎停止追擊了。\n你們先在那裡稍作休息吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……敵人停止了追擊？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯。我用無人機和AMAS在周圍偵察，但是都沒有發現前來追擊的十字神名兵力。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然這對我們來說是件好事……\n不過換個角度來想，似乎也有些令人毛骨悚然。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "怎麼說呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "也可以這麼想對吧。\n如果這附近有什麼兵力不能接近的東西呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "又或者這裡存在著某樣東西，所以根本不需要兵力接近。"
+    },
+    {
+      "Name": "???",
+      "Text": "這題的答案是……以上皆是哦～"
+    },
+    {
+      "Text": "[ns]「這是……這個聲音是！」"
+    },
+    {
+      "Name": "Ain",
+      "Text": "你，你們能大駕光臨確實挺了不起的……\n啊不對，我是說你們能來，來到這裡確實有兩下子……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "雖然這一切都只是白費工夫而已！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "老實說，你們的確挺厲害的。\n讓人忍不住想為你們鼓掌。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "不，不，不過……一切就到此為止了！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "耶嘿嘿，我成功說出來了……！"
+    },
+    {
+      "Text": "[s]「你們一直在暗中觀察我們嗎？」"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那當然。\n自從你們抵達凍原地帶開始……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "你們不是跟我們的手下交手過了嗎？\n你覺得我們會沒發現嗎？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "真是的，竟然讓我們解釋這麼理所當然的事情。\n害我對你們有點失望呢。人類果然很愚蠢。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "總，總之！一，一切都結束了……！\n因為這裡，這裡……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "嗯，就像Ain說的一樣，一切即將在這裡畫上句點。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "如果你們願意投降的話，我們也不是不能考慮一下哦？\n就把這當作是我們大發慈悲吧。畢竟你們確實挺可憐的。"
+    },
+    {
+      "Text": "[s1]「可是總得知道接下來會發生什麼，才能決定要不要投降吧？」"
+    },
+    {
+      "Text": "[s2]「你們到底打算做什麼？」"
+    },
+    {
+      "Name": "Ain",
+      "Text": "這，這種事可以……跟他們說嗎？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "唔嗯……雖然細節肯定是不能說的，但某些部分就算告訴他們也無所謂吧？\n你怎麼看，Soph？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "那好吧。我們打算將一切從頭重造，並建立全新的地基。\n從某種角度來看……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……這麼做也可以說是為了你們。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "換，換句話說，這是為了提供你們……一個完美的標準答案。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "來來來，所有人注意。\n接下來要說的部分非常重要。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "舉例來說──\n人類有時候不是會不知道該怎麼抉擇，或者不知道怎樣的抉擇才是最好的嗎？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "所以接下來，我們將大發慈悲……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "讓你們從此不再有那樣的煩惱！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "雖然總覺得Aur只是想到什麼就說什麼……總之，這也是那位大人的存在意義。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，這不是科幻電影裡的壞人都會說的台詞嗎？"
+    },
+    {
+      "Name": "英美",
+      "Text": "看來沒必要繼續聽下去了。\n假如你們真的問心無愧，打從一開始就不應該遮遮掩掩的。"
+    },
+    {
+      "Name": "季",
+      "Text": "沒錯，我也聽說過──\n凡是宣稱「為了大家好」或者「從頭重造」之類的，基本上都不是什麼好事。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "好，好過分！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……老實說，他們剛才說的確實讓人有點火大。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "不過算了。\n目前為止都還算在我們的預料之內。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "原來你們就是那些十字神名的工程師啊。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "……調月莉央。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "調月莉央。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "你終於現身了啊，我們的新變數。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……為什麼現在才現身呢？\n雖然這麼問也沒什麼意義。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "最先發現那位大人的存在，並不知天高地厚地展開追查的人就是你吧。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "最後一次現身，是在奇普托斯的天空本該崩塌的那天……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "要是像之前一樣，躲在某個陰暗的角落就好了。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "你們要這麼說我也無可奈何。這點我必須承認。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "不過話說回來，你們意外地對我相當了解呢。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "畢，畢竟預防所有的可能性，本來就是我們的工作……！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "所，所所，所以！接下來霍刻瑪醬……會讓一切都回歸原點的！"
+    },
+    {
+      "Text": "[ns3]「地面……？」"
+    },
+    {
+      "Text": "[ns4]「火山的狀態好像不太對勁……！」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "老師，火山突然活躍起來了。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "而且……！"
+    },
+    {
+      "Text": "[ns]「又怎麼了嗎！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是新預言者的信號！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我也偵測到了。\n這個信號難道是……「霍刻瑪」！？"
+    },
+    {
+      "Text": "[s]「『霍刻瑪』……？」"
+    },
+    {
+      "Name": "Soph",
+      "Text": "霍刻瑪！生命之樹的第二個質點！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "守護王國的古代守護者！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "光，光耀的知性！隱藏的智慧！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "變數只會帶來麻煩。\n所以我們要藉由霍刻瑪，讓這裡的火山噴發──"
+    },
+    {
+      "Name": "Soph",
+      "Text": "將夏萊的老師這個最大的變數徹底剷除！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "而調月莉央──下一個就是你。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……沒問題吧，Ain？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "……"
+    },
+    {
+      "Name": "Ain",
+      "Text": "……嗯。\n如果是為了姐姐大人的話……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "況且是對方先拒絕我們的提議的。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "的……的確是這樣沒錯。\n我知道了，嗯！"
+    },
+    {
+      "Text": "[ns]「那是……什麼！？！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這怎麼可能！岩漿上怎麼會有那種東西……？\n這是什麼特異現象嗎？"
+    },
+    {
+      "Name": "英美",
+      "Text": "仔細想想，我們原本的確是尋找特異現象的社團沒錯。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那種特異跟這種特異還是有點區別的吧！？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "（這個信號是「無名之神」的……？）"
+    },
+    {
+      "Name": "Soph",
+      "Text": "葛夫拉果然很可靠。雖然略顯衝動，不過也有細心的一面。\n所以冰海地區的警戒工作才會交給它負責。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "其實引誘你們來到這裡的計畫，也全都是葛夫拉想出來的哦～"
+    },
+    {
+      "Name": "Ain",
+      "Text": "只，只要是在霍刻瑪醬所處的岩，岩漿裡頭，\n無論老師……還有調月莉央再怎麼厲害，肯，肯定也束手無策了吧！？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "和，和泉元英美怕熱，飛鳥馬季的Abi-Eshuh現在又需要時間整，整備……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "你們已經接連不斷地戰鬥到現在了對吧？\n也差不多該好好休息一下了。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "就讓我們來幫點小忙吧。\n只不過有種休息可是要休一輩子的哦～"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……對付那種敵人，有時並不需要精心設計的作戰或計畫。"
+    },
+    {
+      "Text": "[s]「你打算怎麼做，莉央？」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我要動用所有可以使用的AMAS，利用現場設施的殘骸構築防禦陣線和結構物。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "雖然時間方面難以做好萬全的準備……\n但是面對這種原始的敵人，有時也得使出相應的手段。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那是……？"
+    },
+    {
+      "Name": "季",
+      "Text": "原來如此，那樣一來確實……"
+    },
+    {
+      "Text": "[ns]「謝謝你，莉央！」"
+    },
+    {
+      "Name": "季",
+      "Text": "（話雖如此，剛才十字神名的工程師們提到要徹底剷除老師這個最大的變數）"
+    },
+    {
+      "Name": "季",
+      "Text": "（這代表老師的存在，對他們而言是個相當大的威脅嗎……？）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "老師？"
+    },
+    {
+      "Text": "[s]「雖然不清楚那些人到底在想什麼，又準備要做些什麼……」"
+    },
+    {
+      "Text": "[ns]「總之就先從眼前的問題開始解決吧！」"
+    },
+    {
+      "Name": "英美",
+      "Text": "那老師之後願意幫我開空調嗎？"
+    },
+    {
+      "Text": "[s]「……要幫你開十個小時都沒問題！」"
+    },
+    {
+      "Name": "英美",
+      "Text": "謝謝你，老師。\n我就喜歡你的這種地方。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那個，這樣可能會用光直升機的燃料耶……？"
+    },
+    {
+      "Name": "季",
+      "Text": "準備應戰。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "那麼各位，請做好覺悟吧。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "把你們趕來這裡也費了我們不少功夫呢～"
+    },
+    {
+      "Name": "Ain",
+      "Text": "拜，拜託你了，霍刻瑪醬！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "雖然調月莉央好，好像有所準備，不過我相信霍刻瑪醬肯定沒問題的……！"
+    },
+    {
+      "Text": "[ns]「大家小心！」"
+    }
+  ]
+}

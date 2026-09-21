@@ -1,0 +1,3242 @@
+{
+  "TitleJP": "食料調達を始めよう",
+  "TitleKR": "식량 조달 작전",
+  "TitleEN": "Food Delivery Operation",
+  "TitleTH": "แผนจัดหาอาหาร",
+  "TitleTW": "開始籌措糧食吧",
+  "DescJP": "翌朝、RABBIT小隊の様子を見に行った先生は、彼女たちがお腹を空かせていることを知る。シャーレからの食糧供給は不要だと断る彼女たちに、「ここならばシャーレと関係なく食べ物がもらえるよ」と、メモを渡す。半信半疑でメモの場所に向かった一行は、そこで「コンビニ廃棄弁当」を受け取れると知り……。",
+  "DescKR": "다음 날, 공원을 찾은 선생님은 아무것도 먹지 못한 채 굶주리고 있는 소대원들을 마주한다. 소대원들은 선생님이 건네는 호의를 계속해서 거절하고, 선생님은 대신 공짜 음식을 얻을 수 있는 장소를 알려준다. 그 장소에 도착한 소대원들은 공짜 음식이 다름 아닌 '편의점 폐기 도시락'임을 알게 된다.",
+  "DescEN": "The next day, Sensei visits the park and finds the squad members starving. They continue to decline Sensei's help, so Sensei tells them about a place to get free food instead. When the squad members arrive there, they learn that the free food is discarded bentos from a nearby convenience store.",
+  "DescTH": "วันรุ่งขึ้นคุณครูไปที่สวนสาธารณะและได้พบกับสมาชิกกองทหารที่หิวโหย เพราะไม่ได้กินอะไรเลย สมาชิกกองทหารยังคงไม่รับน้ำใจ คุณครูจึงแนะนำ\nสถานที่ที่ถ้าไปแล้วจะได้อาหารฟรีมากิน สมาชิกกองทหารไปถึงที่นั่นและได้\nรู้ว่าอาหารฟรีที่ว่านั่นก็คือ \"ข้าวกล่องเหลือทิ้งจากร้านสะดวกซื้อ\" ที่ถึงวัน\nหมดอายุแล้ว",
+  "DescTW": "隔天，來到公園的老師見到餓著肚子什麼都沒吃的小隊成員。小隊成員不斷拒絕老師的好意，於是老師告訴他們能免費得到食物的地方。抵達該處的小隊成員得知那並不是免費食物，而是「便利商店報廢的便當」。",
+  "DialogJP": [
+    {
+      "Text": "第6話;食料調達を始めよう"
+    },
+    {
+      "Text": "（翌朝、みんなが無事に過ごせているかを確認するため公園を訪れていた）"
+    },
+    {
+      "Text": "子ウサギ公園前"
+    },
+    {
+      "Text": "[ns1] \"うわっ！？\""
+    },
+    {
+      "Text": "[ns2] \"と、トラップ……！？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "……なんだ、先生か。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "何か変な動きしてるから、不審者か野良犬と思った。"
+    },
+    {
+      "Text": "[s3] \"野良犬って……。\""
+    },
+    {
+      "Text": "[s4] \"公園に罠とか危ないでしょ！？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "そうは言っても仕方ないだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そうは言っても仕方ないだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "侵入者を防ぐためには、これくらいやらないと。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あ、先生じゃん。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そこの足元、気を付けた方が良いよ。地雷埋まってるから。"
+    },
+    {
+      "Text": "[s5] \"えぇ！？\""
+    },
+    {
+      "Text": "[s6] \"待って待って、一歩も動けない！地雷どの辺！？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "どの辺だったかな……具体的な場所は忘れちゃった。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "どの辺だったかな……具体的な場所は忘れちゃった。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まあ、爆発したらそこにあるよ。"
+    },
+    {
+      "Text": "[s] \"どうしてそんな危険なものを次々と……！？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "危険も何も、最小限の自衛手段だ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そうそう、何ならこれじゃ全然足りないくらいだよ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "できれば公園の外周部分に、対戦車地雷とか色んなトラップを仕掛けておきたいところなのに。"
+    },
+    {
+      "Text": "[s] \"明らかにやり過ぎなのでは……。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "警戒において「やり過ぎ」なんてことはない。常に万全の準備をしておかないと。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "少し油断したら、またあのワンコみたいな警察がやってくるとも分からないしね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "サキ、モエ、"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何か問題でもありましたか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ひっ、せせ、先生……！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……おはようございます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "早朝から何か用ですか？"
+    },
+    {
+      "Text": "[s7] \"大丈夫かなって思って。\""
+    },
+    {
+      "Text": "[s8] \"何か困ってることとかある？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "見ての通り、何の問題もありません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "見ての通り、何の問題もありません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "SRT特殊学園は、キャンプ生活に慣れてますから。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "これくらい、SRTなら朝飯前。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "当然の素養だ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それにここは水が使えるし、むしろ快適なくらいだね。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "日陰も多くて、隠れやすいですし……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですので、気にしなくても大丈夫です。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "別に何も問題無いから、さっさと帰れ！"
+    },
+    {
+      "Text": "[ns] \"今のって……。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "……雷が近いのかもしれないな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それは無理があるでしょ……どうして我慢できなかったのさ……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "仕方ないだろ、生理現象なんだから！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……あらためてですが、何も問題はありませんので――"
+    },
+    {
+      "Text": "[ns] \"……本当に？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あーもう、イライラしたら余計にお腹空いてきた……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そ、その実は……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ああもう、何も食べてないんだよ！悪かったな！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "水はありますが、逆に言うと水しかありませんから……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "補給も何も、あてにはできませんし……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くそっ、こうなるならSRTから食料を持ってくるんだった……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "対空ミサイルを持ってくるなら、普通に考えて食料の方が……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "何言ってんの、ミサイルだって大事じゃん！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "何よりも綺麗だし！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それより、その地味に重い教範の方が問題でしょ。それを捨てて食べ物を入れとけば良かったのに……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "バカ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "学生が教範を捨てるわけにいかないだろ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "お店で買おうにも、学校の口座が停止されてしまってるので……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たちきっと、このまま飢え死するんだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ、SRTに帰りたい……。"
+    },
+    {
+      "Text": "[ns] カバンからカップ麺を取り出す。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、あれって……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……カップ麺？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ミッシンの鶏ガラ醤油ラーメン……！私の大好物……！"
+    },
+    {
+      "Text": "[s9] \"他にも色々持ってきたから。\""
+    },
+    {
+      "Text": "[s10] \"一緒に食べない？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ま、まあ？先生がどうしてもって言うんなら？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ま、まあ？先生がどうしてもって言うんなら？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……待ってください。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "簡単に受け取ってはいけません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "追い詰められた環境において、重要な物資を提供する素振りを見せ、その見返りとしてさらに大事なものを要求する……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "よくある手口です、真意も分からない段階で受け取るわけにはいきません。"
+    },
+    {
+      "Text": "[s] \"いや、特に見返りとかは……。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "はっ、信じられるとでも思ったか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "元々作戦時は、持参したもの以外は胃に入れないなんてのは普通のこと。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "安全性も保障されてない食べ物を、やすやすと口にするわけ無いだろ。"
+    },
+    {
+      "Text": "[s] カップ麺の蓋を開ける。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なっ……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "おい、食べないって言ってるだろ！？"
+    },
+    {
+      "Text": "[ns] お湯を注ぐ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くぅっ……！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "良い匂い……ますますお腹空いてきた……。"
+    },
+    {
+      "Text": "[s11] \"せっかくだし、食べたら？\""
+    },
+    {
+      "Text": "[s12] \"冷めちゃうよ？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……結構です。そんな形で私たちの意志を折ろうとしても無駄なこと。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "一度引っ掛かってしまえば、先生の策略に巻き込まれ続けることになりますし。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "た、"
+    },
+    {
+      "Name": "サキ",
+      "Text": "たかがカップ麺で降参してたまるか！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、まあ、もっとご馳走とかで釣られるならまだしも……"
+    },
+    {
+      "Text": "[s] \"じゃあとりあえずお先に……\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "うっ、ぐっ……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "めちゃくちゃ良い匂いが……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ま、負けてたまるか……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こういう時こそ深呼吸！！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "薬物を使った拷問への対処として、学園で習っただろ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "脳が刺激されたところで、意志が折れなければ問題無い！別の方法で誤魔化すんだ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ、耐えないと……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私たちは決して、拷問には屈しません……！"
+    },
+    {
+      "Text": "[ns] 温泉卵を入れる。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……あ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "今の、もしかして……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "この段階で卵は反則だわ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ、絶対美味しい……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あそこまでされたら、もう……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……っ、我慢できない！"
+    },
+    {
+      "Text": "[s] \"……食べる？\""
+    },
+    {
+      "Name": "一同",
+      "Text": "食べる！！"
+    },
+    {
+      "Text": "[s13] \"はい。ところで……やっぱり、ヴァルキューレに行くって手は無し？\""
+    },
+    {
+      "Text": "[s14] \"少なくとも食糧問題は一旦そうした方が……。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "やはり私たちの忍耐力を揺さぶった上で、交渉をしようと。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "本当の姿を現したな、この下種め。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "やっぱり、世の中は醜いもの……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "おぞましい手段を使ってくるじゃん………。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何をされても、私たちの学園に対する気持ちは変わりません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "確かに空腹もあります、不便です。それでもこうしなければ、私たちの信念は守れません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それを差し出してまで、悠々自適な生活など要らないのです。"
+    },
+    {
+      "Text": "[ns] 持ってきたメモを渡す。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……これは？"
+    },
+    {
+      "Text": "[s15] \"情けに見える形が嫌なら、これはどうかなって思って。\""
+    },
+    {
+      "Text": "[s16] \"とりあえず私からって形じゃなくて、食べ物を貰えるよ。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ここに行けば、何かがあると？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ここに行けば、何かがあると？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何をされても心は変わらないと、既に何度も言ったはずですが……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（本当に、何を考えているのか……）"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……分かりました。どういった内容かは分かりませんが、これは受け取っておきます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あくまで、受け取るだけです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あいつ、本当に何を考えてるんだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "先生も、私たちのことを分かってくれようとしてるのかな……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "甘いよ、ミユ。そんな簡単に心を許したら、危ない目に遭うよ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "でも、さっきの表情は割と真剣だった。てきとうなことを考えてるわけじゃなさそうだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "もしかしたら今後、SRTを復活させるのに手を貸してくれたり……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "書かれてた住所、ここですね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "もうお腹が空きすぎて一歩も歩けない……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……ここ、シャーレのオフィスじゃないか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ここに呼んで、一体何を……？"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "あれ、確かそろそろ……？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "えっと、[USERNAME]先生の紹介で来たんだけど。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "あっ、お待ちしておりました……！"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "先生からお話は聞いています。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "「廃棄品」を、代わりに処分してくださるんですよね！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……は？"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "ここはあんまりお客さんも来ないので、廃棄品が多いんです……勿体ないのですが……。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "毎回生ゴミ用のビニール袋に入れて処理するのですが、それも結構手間でして……"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "それを代わりにやってくださる……？というようなことを先生から聞きまして、助かりました。こちらに集めておきましたので。"
+    },
+    {
+      "Name": "一同",
+      "Text": "………。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "……あ、あれ？もしかして何か手違いが……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いや、大丈夫大丈夫！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あとは任せて！"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "そ、そうでしたか。えっと……それとは関係ありませんが、体調は大丈夫ですか？何だか顔色が悪いような……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それはお腹が空……いや、まあ色々とあってね！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "他に何か、賞味期限切れのものとかあるかな？全部持っていくけど。"
+    },
+    {
+      "Name": "ソラ",
+      "Text": "あっ、はい！ありますので、ちょっと待っててください……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "待て待て待て！モエ、これは色々ダメだろ！？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "廃棄弁当を貰うなんて、そんな……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でもこれ捨てられちゃうんでしょ。まだ食べられるのに、勿体ないじゃん。確かにこれは「情け」って感じじゃないし。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "で、でも私たちSRTが、こんな……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、サキが食べないなら別に良いけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私が美味しく頂くから！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "た、食べないとは言ってないだろ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うっ、うっ……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たち、これからはこうして廃棄弁当を貰いながら過ごしていくんだ……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "[USERNAME]先生……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "この屈辱、忘れませんからね……。"
+    },
+    {
+      "Text": "次回;ニンジン作戦（１）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제6화;식량 조달 작전"
+    },
+    {
+      "Text": "(다음 날 아침. 미야코 일행이 잘 지내고 있는지 확인하기 위해 공원을 찾았다.)"
+    },
+    {
+      "Text": "코우사기 공원 앞"
+    },
+    {
+      "Text": "[ns1] \"우, 우왓?!\""
+    },
+    {
+      "Text": "[ns2] \"누가 이런 곳에 덫을 파 놓은 거야?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐야, 샬레의 선생님이었나."
+    },
+    {
+      "Name": "사키",
+      "Text": "아침부터 웬 지저분한 들개 같은 게 덫에 걸렸기에 뭔가 했었네."
+    },
+    {
+      "Text": "[s3] \"지저분한 들개라니…….\""
+    },
+    {
+      "Text": "[s4] \"이런 곳에 덫을 놓으면 위험하잖아?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "그렇게 말해도 어쩔 수 없잖아."
+    },
+    {
+      "Name": "사키",
+      "Text": "그렇게 말해도 어쩔 수 없잖아."
+    },
+    {
+      "Name": "사키",
+      "Text": "기지에 침입하는 적을 막을 수 있다면 무슨 수라도 써야지."
+    },
+    {
+      "Name": "모에",
+      "Text": "어라, 선생님인가."
+    },
+    {
+      "Name": "모에",
+      "Text": "그쪽 발밑 조심해. 어젯밤에 그 근처에 지뢰를 심어놨거든."
+    },
+    {
+      "Text": "[s5] \"지, 지뢰?!\""
+    },
+    {
+      "Text": "[s6] \"어디에 설치했는데?!\""
+    },
+    {
+      "Name": "모에",
+      "Text": "글쎄. 나도 생각 없이 묻어 두어서 잘 모르겠는걸."
+    },
+    {
+      "Name": "모에",
+      "Text": "글쎄. 나도 생각 없이 묻어 두어서 잘 모르겠는걸."
+    },
+    {
+      "Name": "모에",
+      "Text": "그 주위를 걷다가 발밑에서 '펑!' 소리가 나면 거기가 지뢰가 묻힌 곳이야. 크히히."
+    },
+    {
+      "Text": "[s] \"어째서 공원에 이런 위험한 물건을 가져오는 거야?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "위험한 물건이라니! 이건 다 우리의 아지트를 지키기 위한 최소한의 자위 수단이거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "맞아. 사실은 이것도 부족할 정도라고!"
+    },
+    {
+      "Name": "모에",
+      "Text": "마음 같아서는 공원 가장자리를 따라 대전차 지뢰랑 인계 철선도 잔뜩 설치하고 싶었는데……."
+    },
+    {
+      "Text": "[s] \"그건 좀 지나치지 않을까…….\""
+    },
+    {
+      "Name": "사키",
+      "Text": "경계에 지나침은 없어. 작전 중인 요원이라면 언제나 최선의 상태를 유지해야지."
+    },
+    {
+      "Name": "모에",
+      "Text": "조금이라도 방심하면 그 승냥이 같은 경찰들이 언제 들이닥칠지 모른다고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "사키, 모에. 무슨 문제가 있나요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "갑자기 소란스러워진 느낌인데……."
+    },
+    {
+      "Name": "미유",
+      "Text": "히, 히이이…… 서, 선생님……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "안녕하세요, 선생님."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이른 아침부터 이 공원에는 무슨 일이시죠?"
+    },
+    {
+      "Text": "[s7] \"어젯밤에는 잘 잤어?\""
+    },
+    {
+      "Text": "[s8] \"불편한 곳은 없는지 확인하러 왔어.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "보시다시피 아무런 문제도 없습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "보시다시피 아무런 문제도 없습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희 SRT 특수학원의 학생들에게 야영 생활은 익숙하니까요."
+    },
+    {
+      "Name": "사키",
+      "Text": "야지에 텐트를 치고 야영을 하는 것쯤은 간단하지."
+    },
+    {
+      "Name": "사키",
+      "Text": "생존 훈련은 SRT 요원의 기본 소양이라고."
+    },
+    {
+      "Name": "모에",
+      "Text": "게다가 여기는 수도도 전기도 있으니 무더운 날씨에도 쾌적하게 작전을 수행할 수 있어."
+    },
+    {
+      "Name": "미유",
+      "Text": "볕을 피할 장소도 많아서 경계를 서기에도 좋아요……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그러니 저희는 신경 쓰지 마시고, 선생님께서는 이만 돌아가 주셨으면 합니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "암, 암. 우리에게는 어떤 문제도 없으니까!"
+    },
+    {
+      "Text": "[ns] \"방금 그 소리는…….\""
+    },
+    {
+      "Name": "사키",
+      "Text": "처, 천둥이 쳤나? 마른하늘에 천둥이 치다니 이상하네~"
+    },
+    {
+      "Name": "모에",
+      "Text": "바보 사키. 어째서 이 상황에서 꼬르륵 소리를 내는 거야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "어, 어쩔 수 없잖아? 이건 자연스러운 생리 현상이라고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "우으, 우으으……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "다시 한번 말씀드리지만, 저희는 조금의 부족함도 없이 잘 지내고 있으니까—"
+    },
+    {
+      "Text": "[ns] \"……정말?\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……."
+    },
+    {
+      "Name": "모에",
+      "Text": "으으. 짜증을 냈더니 더 배가 고파졌어……."
+    },
+    {
+      "Name": "미유",
+      "Text": "그게 사실은……."
+    },
+    {
+      "Name": "사키",
+      "Text": "그래! 어제부터 아무것도 못 먹었다고!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "공원을 정비해서 만든 이 기지엔 먹을 거라고는 식수대의 물밖에 없으니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "보급을 요청하려 해도 저희에게 지원을 해줄 학원은 남아있지 않으니……."
+    },
+    {
+      "Name": "사키",
+      "Text": "젠장. 생각해보면 SRT에서 식량을 가져올 수도 있었잖아."
+    },
+    {
+      "Name": "사키",
+      "Text": "쓸 일도 없는 대공 미사일은 왜 챙긴 거야? 그걸 챙길 시간에 전투식량을 몇 개라도 더 가져올 걸 그랬네."
+    },
+    {
+      "Name": "모에",
+      "Text": "무슨 소리야! 미사일은 중대 사항이거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "게다가 폭발하는 모습이 얼마나 예쁜데!"
+    },
+    {
+      "Name": "모에",
+      "Text": "그러는 사키야말로 쓸 일도 없는 교범을 잔뜩 챙겨왔으면서."
+    },
+    {
+      "Name": "사키",
+      "Text": "너야말로 무슨 소리야!"
+    },
+    {
+      "Name": "사키",
+      "Text": "학생이 교범을 버리다니, 그게 말이 된다고 생각해?"
+    },
+    {
+      "Name": "미유",
+      "Text": "근처의 가게에서 음식을 사려고 해도 학생 계좌가 정지되어서 남아있는 돈도 없고……."
+    },
+    {
+      "Name": "미유",
+      "Text": "이제 저희에게 관심을 가져 주는 사람도 없으니, 저희는 이대로 굶어 죽을 게 분명해요……."
+    },
+    {
+      "Name": "미유",
+      "Text": "우으으…… 예전의 SRT 학원으로 돌아가고 싶어……."
+    },
+    {
+      "Text": "[ns] 컵라면을 꺼낸다."
+    },
+    {
+      "Name": "미유",
+      "Text": "저건……"
+    },
+    {
+      "Name": "사키",
+      "Text": "컵라면이잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "밋신의 닭뼈 간장 라멘……! 나 저거 엄청 좋아하는데……."
+    },
+    {
+      "Text": "[s9] \"다른 맛도 여러 가지 있어.\""
+    },
+    {
+      "Text": "[s10] \"다 같이 먹을래?\""
+    },
+    {
+      "Name": "모에",
+      "Text": "어쩔 수 없네. 선생님이 억지로 호의를 베풀겠다면 어쩔 수 없이—"
+    },
+    {
+      "Name": "모에",
+      "Text": "어쩔 수 없네. 선생님이 억지로 호의를 베풀겠다면 어쩔 수 없이—"
+    },
+    {
+      "Name": "미야코",
+      "Text": "기다려주세요, 모두."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님이 건네는 물건을 함부로 받아서는 안 됩니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "절박한 환경에 처한 사람에게 필요한 물건을 제공하고, 대가로 소중한 것을 앗아가는 건 오래전부터 악용되어 온 수탈 수법……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님의 의도를 확실하게 파악하기 전까지 함부로 빚을 늘려서는 안 됩니다."
+    },
+    {
+      "Text": "[s] \"그냥 주는 건데……\""
+    },
+    {
+      "Name": "사키",
+      "Text": "흥, 그 말을 믿으라고?"
+    },
+    {
+      "Name": "사키",
+      "Text": "작전 중에는 안전을 위해 직접 가져온 음식 이외에는 물도 입에 대지 않는 게 상식이거늘."
+    },
+    {
+      "Name": "사키",
+      "Text": "본심도 목적도 알 수 없는 수상한 어른이 내미는 음식을 입에 댈 리가 없잖아?"
+    },
+    {
+      "Text": "[s] 컵라면을 뜯는다."
+    },
+    {
+      "Name": "사키",
+      "Text": "……뭐, 뭐 하는 거야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "정말로 우린 안 먹는다니까?!"
+    },
+    {
+      "Text": "[ns] 끓는 물을 붓고 3분을 기다린다."
+    },
+    {
+      "Name": "사키",
+      "Text": "으윽……"
+    },
+    {
+      "Name": "미유",
+      "Text": "냄새만 맡고 있어도 배가 고파지는 것 같아……."
+    },
+    {
+      "Text": "[s11] \"……정말 안 먹을 거야?\""
+    },
+    {
+      "Text": "[s12] \"빨리 먹지 않으면 식는다고?\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……신경 쓰지 마세요, 여러분. 이것은 저희의 의지를 꺾으려는 간교한 공작입니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이 정도의 회유책에 넘어갔다가는 계속 선생님의 술수에 휘말리게 됩니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "마, 맞아!"
+    },
+    {
+      "Name": "사키",
+      "Text": "겨우 싸구려 컵라면일 뿐이잖아? 저 정도의 음식은 신경도 안 쓰인다고."
+    },
+    {
+      "Name": "모에",
+      "Text": "우리를 먹을 것으로 회유하려 했다면, 좀 더 맛있는 음식을 가져오는 게—"
+    },
+    {
+      "Text": "[s] \"그럼 어쩔 수 없지만…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "으으, 더는 못 참겠어……"
+    },
+    {
+      "Name": "모에",
+      "Text": "선생님이 국물을 들이켤 때마다 풍겨 나오는 라멘 특유의 진한 육수 냄새가 엄청나게 자극적인걸……."
+    },
+    {
+      "Name": "사키",
+      "Text": "사실 나도 괴롭지만, 겨우 컵라면에 인내심을 잃을 수는……."
+    },
+    {
+      "Name": "사키",
+      "Text": "모두! 숨을 깊게 들이쉬고 정신을 집중해!"
+    },
+    {
+      "Name": "사키",
+      "Text": "학원에서 향정신성 약물을 이용한 고문에 대처하는 방법은 배웠었지?"
+    },
+    {
+      "Name": "사키",
+      "Text": "아무리 강력한 유혹이 뇌를 자극하더라도, 의지만 꺾이지 않으면 이겨낼 수 있으니까!"
+    },
+    {
+      "Name": "미유",
+      "Text": "지금은 괴롭지만…… 한번 참아볼게……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희는 그런 값싼 회유에 결코 굴하지 않을 테니까요!"
+    },
+    {
+      "Text": "[ns] 온천 계란을 넣는다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……아."
+    },
+    {
+      "Name": "사키",
+      "Text": "……방금 라면에 넣은 거, 온천 계란 맞지?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……응. 살짝 반숙으로 익은 흰자와 젤리처럼 굳은 노른자의 모양을 보니 분명해."
+    },
+    {
+      "Name": "미유",
+      "Text": "진하고 짭조름한 국물이 설익은 계란에 스며들어서…… 감칠맛이 나는 푸딩처럼 변하고 있어……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "저렇게 만반의 준비를 갖춘 채 먹는다면, 싸구려 컵라면이라도……"
+    },
+    {
+      "Name": "사키",
+      "Text": "맛있을 게 분명하잖아!"
+    },
+    {
+      "Text": "[s] \"……먹고 싶어?\""
+    },
+    {
+      "Name": "일동",
+      "Text": "네!"
+    },
+    {
+      "Text": "[s13] \"발키리 경찰학교로 전학을 간다면\""
+    },
+    {
+      "Text": "[s14] \"라면 정도는 마음껏 먹을 수 있을 텐데…….\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "역시 저희의 신념을 테스트하기 위해 일부러 그런 짓을 하셨군요."
+    },
+    {
+      "Name": "사키",
+      "Text": "드디어 본색을 드러내는군. 이 사악한 어른 같으니라고."
+    },
+    {
+      "Name": "미유",
+      "Text": "역시…… 이 세상은 더럽고 추악해요……."
+    },
+    {
+      "Name": "모에",
+      "Text": "역겨운 수단을 쓰다니……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "누차 말씀드리지만, 저희는 전학을 갈 생각이 조금도 없습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "비록 공원에서의 야영 생활이 배고프고 불편하기는 하지만, SRT 학원 때부터 저희가 품어왔던 신념을 지킬 수 있는 유일한 장소니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "안락한 생활은 신념을 대신할 수 없습니다."
+    },
+    {
+      "Text": "[ns] 종이쪽지에 주소를 적어 건넨다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……이건?"
+    },
+    {
+      "Text": "[s15] \"내가 주는 음식이 아니면 괜찮은 거지?\""
+    },
+    {
+      "Text": "[s16] \"이 주소에 가면 음식을 공짜로 받을 수 있어.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……네? 대가 없이 저희에게 도움을 주시겠다고요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……네? 대가 없이 저희에게 도움을 주시겠다고요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "이러신다고 저희가 마음을 고쳐먹는 일은 없을 거라고, 이미 말씀드렸습니다만……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "(……갑자기 돌변한 선생님의 저의가 의심스럽긴 하지만…….)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "알겠습니다. 저희도 지금은 상황이 여의치 못하니, 이번만큼은 선생님의 호의를 받도록 하지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "도움을 주셔서 감사합니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "의외네. 저 너구리 같은 샬레의 선생이 갑자기 공짜로 도움을 준다니."
+    },
+    {
+      "Name": "미유",
+      "Text": "혹시 선생님도 우리의 진심을 듣고 마음이 바뀐 게 아닐까?"
+    },
+    {
+      "Name": "모에",
+      "Text": "무르구나, 미유. 어른의 결심 같은 건 달콤한 말 몇 마디로 쉽게 바뀌는 게 아니라고. 삼류 소설을 너무 많이 본 거 아냐?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그래도 아까 쪽지를 건네줄 때의 표정은 꽤 진지했어. 단순한 변덕만은 아니었을 거야."
+    },
+    {
+      "Name": "사키",
+      "Text": "어쩌면 나중에 SRT 학원을 부활시키는 데 도움을 받을 수 있을지도……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님이 가르쳐 주신 주소는 이 근처네요."
+    },
+    {
+      "Name": "모에",
+      "Text": "음식은 어디에 있는 거야? 이제는 배가 고파서 한 발자국도 못 걷겠어~"
+    },
+    {
+      "Name": "사키",
+      "Text": "어라? 그러고 보니 이 앞의 건물은 샬레 사무실이 위치한 그 빌딩이잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "안 쓰는 무기라면 몰라도, 여기에 무슨 음식이 있다는 거지?"
+    },
+    {
+      "Name": "소라",
+      "Text": "곧 오실 때가 되었는데……."
+    },
+    {
+      "Name": "사키",
+      "Text": "저기, [USERNAME] 선생님 소개로 왔는데."
+    },
+    {
+      "Name": "소라",
+      "Text": "아, 기다리고 있었습니다."
+    },
+    {
+      "Name": "소라",
+      "Text": "여러분들이 선생님께서 말씀하셨던 그……"
+    },
+    {
+      "Name": "소라",
+      "Text": "<폐기 도시락 처리업자> 분들이시군요!"
+    },
+    {
+      "Name": "사키",
+      "Text": "폐, 폐기 도시락 처리업자……?"
+    },
+    {
+      "Name": "소라",
+      "Text": "네. 저희 편의점은 손님이 없어서 들여놓은 도시락이나 즉석식품이 자주 폐기처리 되거든요."
+    },
+    {
+      "Name": "소라",
+      "Text": "그래서 매번 음식물 쓰레기 봉투를 사서 버리는데, 그것도 꽤 번거로운 일이라서요."
+    },
+    {
+      "Name": "소라",
+      "Text": "그런데 아까 선생님께서 폐기 도시락을 가져갈 분들이 오신다고 해서 한데 따로 모아두었어요."
+    },
+    {
+      "Name": "일동",
+      "Text": "………."
+    },
+    {
+      "Name": "소라",
+      "Text": "앗, 혹시 제가 무슨 실수라도 한 걸까요? 사실 처리업자가 아니시라든가……."
+    },
+    {
+      "Name": "모에",
+      "Text": "아니, 우리 폐기 도시락 처리업자 맞아!"
+    },
+    {
+      "Name": "모에",
+      "Text": "제대로 찾아왔네!"
+    },
+    {
+      "Name": "소라",
+      "Text": "그럼 괜찮지만…… 어쩐지 표정이 다들 안 좋아 보이시는데요."
+    },
+    {
+      "Name": "모에",
+      "Text": "그건 배가 고파서…… 아니, 일이 고돼서 그런 걸 거야. 하, 하하!"
+    },
+    {
+      "Name": "모에",
+      "Text": "그리고 혹시 유통기한이 지난 우유나 음료수도 없을까?"
+    },
+    {
+      "Name": "소라",
+      "Text": "앗, 네. 잠시만 기다려주세요. 폐기 예정인 음식물은 모두 가져올게요."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐 하는 거야, 모에! 폐기 도시락을 받다니!"
+    },
+    {
+      "Name": "사키",
+      "Text": "우리가 거지야?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "그럼 이 음식들을 다 버릴 거야? 아직 충분히 먹을 수 있는 상태인데?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그렇지만 우린 엘리트인데…… SRT 특수학원의 정예 요원인데……!"
+    },
+    {
+      "Name": "모에",
+      "Text": "흥, 안 먹을 거면 신경 끄시지."
+    },
+    {
+      "Name": "모에",
+      "Text": "여기 있는 도시락은 내가 다 먹을 테니까!"
+    },
+    {
+      "Name": "사키",
+      "Text": "자, 잠깐! 안 먹는다고는 안 했거든?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "우린 정말로 이제 끝났어……"
+    },
+    {
+      "Name": "미유",
+      "Text": "앞으로는 제대로 된 밥도 먹지 못한 채 이렇게 구걸이나 하며 살아가게 될 거야……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "[USERNAME] 선생님……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이 원한, 절대로 잊지 않겠습니다."
+    },
+    {
+      "Text": "다음화;당근 작전 1"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 6;Food Delivery Operation"
+    },
+    {
+      "Text": "The next morning, I went to the park to check on how the RABBIT Squad was doing."
+    },
+    {
+      "Text": "In Front of Kousagi Park"
+    },
+    {
+      "Text": "[ns1] \"Wh-Whoa!\""
+    },
+    {
+      "Text": "[ns2] \"Who put a trap here?!\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "The Schale Sensei?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Here I thought it was a dirty, stray dog."
+    },
+    {
+      "Text": "[s3] \"A dirty stray dog... You wound me.\""
+    },
+    {
+      "Text": "[s4] \"Why is there a trap here?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's your fault for getting caught."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Isn't it obvious?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We're securing the perimeter against possible intruders."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Is that our least favorite Sensei?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ooh, I'd be careful. I buried a mine around there."
+    },
+    {
+      "Text": "[s5] \"This is overkill!\""
+    },
+    {
+      "Text": "[s6] \"Where is it?!\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee. I dunno where it is, though."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee, I dunno."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Let's see... How to find it... I guess if something goes ka-boom, voila! We found it!"
+    },
+    {
+      "Text": "[s] \"You guys are turning this park into a war zone!\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Well, how else are we supposed to protect ourselves?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "This is basic procedure!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Apparently using anti-tank mines and exploding trap wire aren't basic procedure though..."
+    },
+    {
+      "Text": "[s] \"I'm guessing Miyako told you that...\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "When on a mission, you can never be too prepared."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Never be lulled into a false sense of security. That's what losers do."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Saki, Moe... Are you both okay?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I heard a lot of noise coming from over here."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "E-Eeek... I-It's Sensei."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Hello, Sensei."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What business do you have, before the sun is even up?"
+    },
+    {
+      "Text": "[s7] \"How did you sleep last night?\""
+    },
+    {
+      "Text": "[s8] \"I wanted to see if you needed anything.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Fine. You shouldn't worry yourself so much."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There's nothing for you to worry about here."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "SRT students are well-trained for these kinds of situations."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Yeah! We could pitch a tent and get a fire going with our eyes closed."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Survival skills are a must for any SRT student."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, we're hardly in the wilderness here. We have running water and electricity. It's practically a 5-star hotel!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And there's lots of shade too, so lookout duty isn't bad."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The situation is entirely under control, Sensei. You may leave."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Yep, yep, yup! No issues whatsoever. Nada! Zero! Zilch!"
+    },
+    {
+      "Text": "[ns] \"Was that noise...\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "I-It was thunder. Maybe we should prepare for a thunderstorm."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Saki! Your tummy betrayed us all, you dummy."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's not like I can stop it from happening, all right?!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I wanna go home..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "As I said, we're all quite content here."
+    },
+    {
+      "Text": "[ns] \"...Is that so?\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "You ever heard the term \"hangry\"? It means I'm angry because I'm hungry!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Y-You see, Sensei..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You know what, fine! Yeah! We haven't seen a single crumb of food since yesterday."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This base was built from a retrofitted park, and the only consumable thing is water from the drinking fountains."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And there isn't anywhere we can request supplies from."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ugh. We should have gotten food rations from SRT Academy."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Who brought this anti-aircraft missile instead? Can you eat an anti-aircraft missile? Huh?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hey! Don't come after my missiles just because you're hungry."
+    },
+    {
+      "Name": "Moe",
+      "Text": "They're important too! Think about the glitz and glamor of its KA-BOOM!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "And anyway, Miss Hypocritical. Didn't you just bring a bunch of textbooks? Why don't you eat the paper?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Th-The blasphemy!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We're still SRT students. How could a dedicated student possibly leave their textbooks behind?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-There are some shops around, but our student accounts were suspended so we have no money."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And now we're going to be left here, forgotten and starved. Slowly wasting away into nothingness..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I wanna go back to the SRT building... It's not fair."
+    },
+    {
+      "Text": "[ns] Produce an instant cup ramen."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Is that..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Is that instant cup ramen?!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Th-The Mitoshin brand chicken soy sauce ramen! I normally only drool this much for explosives."
+    },
+    {
+      "Text": "[s9] \"I brought a lot of different flavors.\""
+    },
+    {
+      "Text": "[s10] \"There's enough for everyone.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, if the ever-generous Sensei is simply insisting we take the ramen, what's a li'l girl like me to do?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, if the ever-generous Sensei is simply insisting we take the ramen, what's a li'l girl like me to do?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Stop right there."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I would beware of accepting that."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Providing essential goods to people in desperate circumstances only to extract whatever they want in return is an extortion tactic as old as time."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We don't know what Sensei's true motivations are. Don't be fooled by their supposed kindness."
+    },
+    {
+      "Text": "[s] \"I really just don't want you to starve to death.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Are you looking down on us, Sensei?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Any agent worth their salt knows not to consume anything you didn't personally pack during an operation."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'll never accept your extortion food!"
+    },
+    {
+      "Text": "[s] Open the instant cup ramen."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Wh-What are you doing?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We really aren't going to eat a single bite, you know!"
+    },
+    {
+      "Text": "[ns] Add boiling water and wait three minutes."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Urgh..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Is this a new form of t-torture?"
+    },
+    {
+      "Text": "[s11] \"It smells pretty good, huh?\""
+    },
+    {
+      "Text": "[s12] \"It's getting colder as we speak.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Stay strong, RABBIT Squad! See Sensei's cunning tactics to break down our will?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I guarantee Sensei is waiting for us to take the bait to attack!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Th-That's right!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Do you really think you'll break my will with a cup of cheap instant ramen?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I want something a hundred times yummier if you're going to extort me!"
+    },
+    {
+      "Text": "[s] \"If that's really what you want. More for me.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "S-Saki, I'm losing concentration..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Can't you smell the umami in the savory broth? Sensei's every slurp drives me closer to madness!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Stay strong, Moe. The elite students of SRT can't be brought down by one measly cup of ramen."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Everyone! Take a deep breath and focus!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Remember how we learned to counteract torture methods with antipsychotic drugs at the academy?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "The stimulus of the ramen's smell may be strong, but our will is stronger!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "This is worse torture than tickling...but I'll do my best."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We'll never give up on SRT Academy, Sensei!"
+    },
+    {
+      "Text": "[ns] Add an onsen egg."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Th-Th-That just now. That was an onsen egg, wasn't it?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "L-Look at the soft consistency of the yolk. It can only be one thing."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "The thick, salty broth is seeping into the barely set egg...turning it into a savory pudding-like treat..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Prepared with all the fixings like that...even that cheap instant ramen cup..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...Must be delicious!"
+    },
+    {
+      "Text": "[s] \"...Do you want some?\""
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Yes!"
+    },
+    {
+      "Text": "[s13] \"I think they might have some at Valkyrie.\""
+    },
+    {
+      "Text": "[s14] \"Valkyrie has even better ramen, I've heard.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I knew it. As I said, an extortion trick as old as time."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You've revealed your true colors, you evil grown-up!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I agree! That was m-mean, Sensei..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I thought I was the crazy one around here..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'll reiterate. We have no intention of transferring schools."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You thought you could take advantage of our abysmal situation. But we will remain here, where we can preserve the convictions and justice we've always fought for at SRT Academy."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Creature comforts are no substitute for conviction."
+    },
+    {
+      "Text": "[ns] Hand over an address written on a piece of paper."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What's this?"
+    },
+    {
+      "Text": "[s15] \"It's okay to get food from anyone but me, right?\""
+    },
+    {
+      "Text": "[s16] \"Go to this address and you can get fed for free.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You're offering us food? For nothing in return?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You're offering us food? For nothing in return?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I've made it clear, we're not students you can help, Sensei."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(Sensei's sudden shift in tactics is suspicious to the say least, but...)"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Understood. I don't believe we have much choice but to accept."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "So... Thank you. Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Do you really believe that wily Sensei has no evil intentions sending us here?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Maybe our conviction swayed Sensei's mind."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Puh-lease, Miyu. Ugh, this is why I can't stand you. Do you really think our googly eyes and grumbly tummies made someone like Sensei go, \"Oh dear, I have to help these poor students out of the goodness of my heart?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "I-I don't know. Sensei seemed sincere when they gave us the note."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Maybe they'd even help us bring back SRT."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This should be the place."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Wh-Where's the food? Saki, catch me. I think I'm gonna faint from hunger."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Wait, isn't this where the Schale office is?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "There's only old weapons and junk..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "They should be here by now."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey, [USERNAME] Sensei directed us here."
+    },
+    {
+      "Name": "Sora",
+      "Text": "Ah, yes! I'm glad you found it!"
+    },
+    {
+      "Name": "Sora",
+      "Text": "I'm so happy Sensei set this up for me! You must be..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "...The Bento Disposal Specialists!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "B-Bento Disposal Specialists?!"
+    },
+    {
+      "Name": "Sora",
+      "Text": "Yes! Our convenience store isn't the most popular, so we end up having a lot of old product."
+    },
+    {
+      "Name": "Sora",
+      "Text": "Usually I have to get rid of them myself, but it's a lot of work for someone as small as me."
+    },
+    {
+      "Name": "Sora",
+      "Text": "So when Sensei told me they found some people to come dispose of them for me, I was so happy! They're right here."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "..."
+    },
+    {
+      "Name": "Sora",
+      "Text": "Oh no! Did I offend you? Oh my gosh, are you not the disposal specialists?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh no, not at all! That's us! The Bento Disposal Specialists at your service!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "We just weren't sure if this was the right place!"
+    },
+    {
+      "Name": "Sora",
+      "Text": "Oh, that's a relief... But th-the looks on your faces are a little scary right now..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Because we're hungry!! *ahem* I mean, because we work so hard, you know? Hah! Haha!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "You don't happen to have any old milk or drinks, do ya?"
+    },
+    {
+      "Name": "Sora",
+      "Text": "Oh yes, of course! Let me bring you everything right now!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Are you stupid, Moe? Accepting expired lunches?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "How could you stoop so low?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "They're about to expire, not expired, okay?! What else are we supposed to do, Miss Superiority?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "B-But... We're the RABBIT Squad of SRT Academy! Elites of the elite!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, go get your panties in a bunch somewhere else!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'm gonna enjoy every last delectable bite of lunch myself."
+    },
+    {
+      "Name": "Saki",
+      "Text": "W-W-Wait a second! I didn't say I wouldn't eat! Please, Moe!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Is this the end for us?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Is this our lives now? Begging for food like stray dogs, never knowing the sweet comfort of a home-cooked meal..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "[USERNAME] Sensei..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I will never, ever forget this insult. Never."
+    },
+    {
+      "Text": "Next Episode;Operation Carrot 1"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 6; แผนจัดหาอาหาร"
+    },
+    {
+      "Text": "(เช้าวันต่อมา คุณครูไปที่สวนสาธารณะเพื่อดูว่ามิยาโกะและเพื่อนๆ เป็นอย่างไรบ้าง)"
+    },
+    {
+      "Text": "หน้าโคะอุซางิ การ์เด้น"
+    },
+    {
+      "Text": "[ns1] \"เย้ยยย?!\""
+    },
+    {
+      "Text": "[ns2] \"ใครเอากับดักมาวางในที่แบบนี้?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อะไรเนี่ย คุณครูจากชาเล่ต์งั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็ว่าอยู่ว่าตัวอะไรมาติดกับดักตั้งแต่เช้า"
+    },
+    {
+      "Text": "[s3] \"ตัวอะไร... เลยเหรอ?\""
+    },
+    {
+      "Text": "[s4] \"เอากับดักมาวางในที่แบบนี้มันอันตรายนะ\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็มันช่วยไม่ได้นี่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็มันช่วยไม่ได้นี่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เราต้องทำทุกวิถีทางเพื่อป้องกันไม่ให้ศัตรูบุกรุกฐานของเรา"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ้าว คุณครูเหรอ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ระวังตรงเท้าด้วยนะ เมื่อคืนฉันฝังกับระเบิดไว้แถวๆ นั้นน่ะ"
+    },
+    {
+      "Text": "[s5] \"กะ... กับระเบิด?!\""
+    },
+    {
+      "Text": "[s6] \"ฝังไว้ตรงไหน?!\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันก็ฝังไปเรื่อย จำตำแหน่งที่แน่นอนไม่ได้ซะด้วยสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่รู้สิ ฉันก็ฝังไปเรื่อย จำตำแหน่งที่แน่นอนไม่ได้หรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าเดินๆ อยู่แล้วเกิดเสียง 'ตู้ม!' ที่เท้า ก็แสดงว่ากับระเบิดอยู่ตรงนั้นแหละ ฮิฮิ"
+    },
+    {
+      "Text": "[s] \"ทำไมเอาของอันตรายๆ มาไว้ที่สวนสาธารณะล่ะ?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ของอันตรายงั้นเหรอ? นี่เป็นวิธีป้องกันตัวเองแบบพื้นฐานของพวกเราต่างหาก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใช่ จริงๆ นี่ยังน้อยไปด้วยซ้ำนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใจจริงฉันอยากวางกับระเบิดรถถังแล้วก็เอาลวดหนามมาไว้รอบๆ สวนสาธารณะไปเลย..."
+    },
+    {
+      "Text": "[s] \"นั่นมันมากเกินไปหรือเปล่า...\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่มีอะไรมากไปสำหรับการป้องกันเขตแดนหรอก ผู้ที่อยู่ระหว่างการปฏิบัติหน้าที่ต้องรักษาเขตแดน\nให้ดีที่สุด"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าประมาทแม้แต่นิดเดียว พวกตำรวจหมาในก็อาจจะบุกเข้ามาเมื่อไหร่ก็ได้"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ซากิ โมเอะ มีปัญหาอะไรเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำไมเหมือนได้ยินเสียงโวยวายอะไรเลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮะ... เฮือก... คุณครู!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "สวัสดีค่ะคุณครู"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มาทำอะไรที่สวนสาธารณะแต่เช้าคะ?"
+    },
+    {
+      "Text": "[s7] \"เมื่อคืนนอนหลับกันสบายไหม?\""
+    },
+    {
+      "Text": "[s8] \"ครูมาเช็กดูน่ะว่ามีตรงไหนไม่สะดวกหรือเปล่า\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก็อย่างที่เห็นค่ะ เราไม่มีปัญหาอะไร"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก็อย่างที่เห็นค่ะ เราไม่มีปัญหาอะไร"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นักเรียนสถาบันพิเศษ SRT อย่างพวกเราคุ้นเคยกับการใช้ชีวิตในค่ายอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ให้มากางเต็นท์ตั้งค่ายมันไม่ใช่เรื่องยากเย็นอะไรหรอก"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "การฝึกเอาตัวรอดคือทักษะพื้นฐานของชาว SRT อยู่แล้ว"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แถมที่นี่ยังมีทั้งน้ำไฟให้ใช้ ในวันที่อากาศร้อนพวกเราก็ยังปฏิบัติการได้อย่างไร้ปัญหา"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มีที่ให้หลบแดดเยอะด้วย แบบนี้เหมาะต่อการยืนเฝ้ายามดีค่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เพราะงั้นไม่ต้องเป็นห่วงพวกเราหรอกนะคะ คุณครูกลับไปเถอะค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกเราอยู่ได้! (จ๊อกๆ) ไม่เห็นจะมีปัญหาอะไรเลย! (จ๊อกๆ)"
+    },
+    {
+      "Text": "[ns] \"เสียงเมื่อกี๊มัน...\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฟะ... ฟ้าผ่ารึป่าว? ฟ้าก็โล่ง แปลกจังเลยน้าที่มีฟ้าผ่า"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ซากิเอ๊ย ทำไมถึงมาท้องร้องเอาตอนนี้นะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็มันช่วยไม่ได้นี่! มันเป็นเรื่องธรรมชาติของร่างกายนะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ่า... อืม..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก็อย่างที่บอกไปค่ะว่าเราสบายดี ไม่มีตรงไหนที่เป็นปัญหาเลย..."
+    },
+    {
+      "Text": "[ns] \"แน่นะ?\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อึก... ยิ่งโมโหก็ยิ่งหิว..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ที่จริงแล้ว พวกเรา..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "บอกก็ได้! พวกเรายังไม่ได้กินอะไรเลยตั้งแต่เมื่อวาน!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฐานที่อยู่ในสวนสาธารณะไม่มีอะไรให้กินหรอกค่ะ นอกจากน้ำที่ใช้รดต้นไม้ริมทาง"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถึงจะขอเสบียงเพิ่ม แต่ก็ไม่มีโรงเรียนไหนอยากสนับสนุนหรอก..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โธ่เว้ย! ทำไมตอนนั้นไม่เอาของกินมาจาก SRT ด้วยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทีมิสไซล์ที่เปล่าประโยชน์น่ะเอามาทำไมก็ไม่รู้ เอาเวลาขนมิสไซล์ไปหยิบเสบียงอาหารสำหรับสู้รบ\nซะยังจะดีกว่า"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พูดอะไรของเธอ! มิสไซล์เป็นสิ่งจำเป็นนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แถมตอนระเบิดยังตระการตามากด้วย!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าแต่คนอื่น ทีตัวเองยังขนหนังสือเรียนที่เปล่าประโยชน์มาตั้งเยอะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พูดอะไรของเธอ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เป็นนักเรียนแล้วจะให้ทิ้งหนังสือเรียนมาได้ยังไงกันเล่า?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถึงจะอยากไปซื้ออาหารจากร้านค้าใกล้ๆ แต่บัญชีนักเรียนก็ถูกระงับ เงินก็ไม่มีเหลือแล้วด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตอนนี้ไม่มีใครมาสนใจพวกเราแล้วละค่ะ ฉันว่าพวกเราคงได้อดตายกันอย่างนี้แหละ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แง... อยากกลับสถาบัน SRT ที่จากมาจัง..."
+    },
+    {
+      "Text": "[ns] ยื่นบะหมี่แบบถ้วยให้"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นั่นมัน...?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "บะหมี่ถ้วยนี่นา?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ราเม็งมิชชินรสกระดูกไก่ตุ๋นซีอิ๊ว...! ฉันชอบกินอันนี้มากเลย..."
+    },
+    {
+      "Text": "[s9] \"มีรสอื่นด้วยนะ เยอะแยะเลย\""
+    },
+    {
+      "Text": "[s10] \"มากินด้วยกันไหม?\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ช่วยไม่ได้นะ คุณครูอุตส่าห์ฝืนใจมาช่วยกันแบบนี้ จะปฏิเสธน้ำใจก็กระไรอยู่..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ช่วยไม่ได้นะ คุณครูอุตส่าห์ฝืนใจมาช่วยกันแบบนี้ จะปฏิเสธน้ำใจก็กระไรอยู่..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "รอเดี๋ยวก่อนสิคะ ทุกคน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราจะรับของที่คุณครูให้โดยพลการไม่ได้นะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การให้ของที่จำเป็นแก่คนที่อยู่ในสภาพแวดล้อมที่สิ้นหวังเพื่อแลกกับการพรากสิ่งที่มีค่าไปคือวิธีของ\nคนหน้าเลือดที่ใช้กันมาตั้งแต่สมัยก่อน..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราจะติดหนี้บุญคุณเพิ่มไม่ได้จนกว่าจะรู้จุดประสงค์ที่แท้จริงของคุณครูค่ะ"
+    },
+    {
+      "Text": "[s] \"ครูแค่จะให้เฉยๆ เอง...\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮึ่ม คิดว่าฉันจะเชื่อเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เพื่อความปลอดภัยของพวกเรา ในระหว่างปฏิบัติการเราจะไม่หยิบอะไรเข้าปากเลยนอกจากอาหาร\nที่เตรียมมาเอง ขนาดน้ำยังไม่กินเลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้ายังไม่รู้เจตนาที่แท้จริง คิดว่าเราจะกินอาหารของผู้ใหญ่ที่น่าสงสัยเหรอ?"
+    },
+    {
+      "Text": "[s] เปิดฝาบะหมี่ถ้วย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทะ... ทำอะไรน่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็บอกแล้วไงว่าไม่กิน!!"
+    },
+    {
+      "Text": "[ns] เทน้ำร้อนใส่แล้วรอ 3 นาที"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แค่ได้กลิ่นก็หิวขึ้นมาแล้ว..."
+    },
+    {
+      "Text": "[s11] \"จะไม่กินจริงๆ เหรอ?\""
+    },
+    {
+      "Text": "[s12] \"ถ้าไม่รีบกินเดี๋ยวเส้นอืดหมดนะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไม่ต้องใส่ใจหรอกค่ะทุกคน นี่คือแผนการที่จะทำลายความตั้งใจของพวกเราค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าเราพลั้งใจไปกับมิตรไมตรีจอมปลอม ต่อไปคงได้เป็นเหยื่อกลอุบายของคุณครูแน่ๆ ค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ชะ... ใช่แล้ว!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มันก็แค่บะหมี่ถ้วยราคาถูกๆ เอง ฉันไม่สนใจอาหารแบบนั้นหรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าคุณครูอยากปลอบเราด้วยอาหารละก็ คงจะซื้ออะไรที่อร่อยกว่านี้มาแล้ว..."
+    },
+    {
+      "Text": "[s] \"ถ้างั้นก็ช่วยไม่ได้...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทะ... ทนไม่ไหวแล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เวลาคุณครูซดน้ำซุป กลิ่นของน้ำซุปเข้มข้นมันลอยมาเตะจมูกตลอดเลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันเองก็ไม่อยากเป็นแบบนี้หรอกนะ แต่บะหมี่ถ้วยก็อาจทำให้ฉันหมดความอดทนได้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทุกคน! หายใจเข้าลึกๆ แล้วตั้งสติ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เราเคยเรียนวิธีรับมือกับการทรมานด้วยยาที่มีผลต่อระบบประสาทที่โรงเรียนมาแล้วไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่ว่าสิ่งล่อใจจะกระตุ้นสมองมากแค่ไหน แต่ถ้าความตั้งใจแน่วแน่ก็สามารถฝืนทนได้!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถึงมันจะทรมานไปสักหน่อย... แต่ฉันจะลองอดทนดู..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกเราจะไม่ยอมแพ้ให้กับการปลอบโยนอะไรนี่หรอกค่ะ!"
+    },
+    {
+      "Text": "[ns] ใส่ไข่ออนเซ็นเข้าไป"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อ๊ะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ที่เพิ่งใส่ไปน่ะ... ไข่ออนเซ็นใช่ไหม?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อืม... ฉันเห็นไข่ขาวกึ่งสุกกึ่งดิบและไข่แดงที่เด้งเหมือนเยลลี่... ต้องใช่แน่ๆ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "น้ำซุปข้นๆ เค็มพอดีซึมเข้าไปในไข่กึ่งสุกกึ่งดิบ... ตอนนี้ไข่กลายเป็นพุดดิ้งรสกลมกล่อมแล้ว..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้ากินพร้อมกันในคำเดียวละก็ ถึงจะเป็นบะหมี่ถ้วยราคาถูกก็เถอะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แบบนั้นมันจะต้องอร่อยมากแน่ๆ!"
+    },
+    {
+      "Text": "[s] \"อยากกินเหรอ?\""
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Text": "[s13] \"ถ้าย้ายไปเรียนที่สถาบันฝึกตำรวจวัลคิรี่ล่ะก็...\""
+    },
+    {
+      "Text": "[s14] \"ที่สถาบันฝึกตำรวจวัลคิรี่น่าจะมีราเม็งอร่อยๆ เยอะเลยนะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูจงใจทำแบบนี้เพื่อทดสอบความเชื่อมั่นของพวกเราสินะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เผยตัวตนออกมาแล้วสินะ... ผู้ใหญ่นิสัยไม่ดี"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คิดไม่ผิดเลยค่ะ... โลกนี้ทั้งสกปรกและชั่วร้าย.."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "วิธีนี้มันน่าขยะแขยงที่สุด..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ขอบอกอีกครั้งนะคะว่าพวกเราไม่มีความคิดที่จะย้ายโรงเรียนแม้แต่น้อย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถึงการตั้งแคมป์ในสวนสาธารณะจะไม่สะดวกสบายและเราต้องหิวโหยก็เถอะ แต่นี่ก็เป็นที่เดียวที่\nพวกเราสามารถรักษาความเชื่อของเราไว้ได้ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การใช้ชีวิตสะดวกสบายไม่สามารถทดแทนความเชื่อของเราได้หรอกค่ะ"
+    },
+    {
+      "Text": "[ns] เขียนที่อยู่ใส่กระดาษแล้วยื่นให้"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นี่คือ...?"
+    },
+    {
+      "Text": "[s15] \"ถ้าไม่ใช่อาหารที่ครูให้ก็ถือว่าใช้ได้ใช่ไหม?\""
+    },
+    {
+      "Text": "[s16] \"ไปตามที่อยู่นี้นะ ที่นั่นมีอาหารฟรีให้\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คะ...? จะช่วยพวกเราโดยไม่หวังสิ่งตอบแทนเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คะ...? จะช่วยพวกเราโดยไม่หวังสิ่งตอบแทนเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกฉันบอกไปแล้วนี่คะว่าจะไม่เปลี่ยนใจ ต่อให้มายื่นน้ำใจให้กันแบบนี้ก็เถอะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(จู่ๆ ก็เริ่มสงสัยเจตนาที่แท้จริงของคุณครูขึ้นมาเลย...)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก็ได้ค่ะ ไหนๆ ตอนนี้พวกเราก็อยู่ในสถานการณ์ไม่สู้ดีสักเท่าไร ครั้งนี้จะขอรับน้ำใจจากคุณครูไว้แล้ว\nกันค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ขอบคุณที่มาช่วยนะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แปลกชะมัด ครูที่รู้หน้าแต่ไม่รู้ใจมาช่วยเราแบบไม่หวังผลตอบแทนเหรอเนี่ย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "หรือว่าคุณครูเปลี่ยนใจเพราะได้รับฟังความในใจของพวกเรา?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มิยุนี่ไม่รู้อะไรเลย การตัดสินใจของผู้ใหญ่น่ะไม่ได้เปลี่ยนแปลงกันได้ง่ายดายด้วยคำพูดหวานๆ ไม่กี่คำหรอกนะ อ่านนิยายเยอะไปรึเปล่าน่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ตอนยื่นกระดาษที่เขียนที่อยู่ให้ สีหน้าครูดูจริงจังมากนะ ฉันว่าคงไม่มีกลโกงอะไรหรอก"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ดีไม่ดีครูอาจมาช่วยเราเรื่องฟื้นฟูสถาบัน SRT ในอนาคตก็ได้นะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ที่อยู่ที่คุณครูเขียนให้อยู่แถวๆ นี้เลยค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไหนล่ะอาหาร? ตอนนี้ฉันหิวจนเดินไม่ไหวแล้วนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอ๋? มาดูดีๆ แล้ว อาคารที่อยู่ข้างหน้าคืออาคารที่มีสำนักงานชาเล่ต์อยู่นี่?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ที่นี่มีอาหารใช่ไหม? ไม่ใช่ว่ามีแต่อาวุธที่ไม่ได้ใช้นะ?"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ป่านนี้ควรจะมาถึงได้แล้วนะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอ่อคือ... พอดีคุณครู [USERNAME] แนะนำให้เรามาที่นี่น่ะ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "อ้อ ฉันกำลังรออยู่เลยค่ะ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ตามที่คุณครูบอกไว้ พวกคุณคือ..."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "<คนจากบริษัทเคลียร์ข้าวกล่องที่ขายไม่ได้แล้ว> ใช่ไหมคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คนจากบริษัทเคลียร์ข้าวกล่องที่ขายไม่ได้แล้ว...?"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ร้านสะดวกซื้อที่นี่ไม่ค่อยมีลูกค้าน่ะค่ะ เราก็เลยต้องทิ้งข้าวกล่องกับอาหารสำเร็จรูปอยู่บ่อยๆ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "เวลาจะทิ้งของพวกนี้ก็ต้องซื้อถุงขยะใส่เศษอาหารมาใส่ ถือว่าเป็นงานที่ค่อนข้างยุ่งยากเลยค่ะ"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "แต่เมื่อสักครู่คุณครูมาบอกว่าจะมีคนมารับข้าวกล่องที่จะทิ้ง ฉันก็เลยเก็บรวมไว้ให้ต่างหากแล้วค่ะ"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "........."
+    },
+    {
+      "Name": "โซระ",
+      "Text": "ฉันทำอะไรผิดไปหรือเปล่าคะ? หรือว่าพวกคุณไม่ได้มาจากบริษัทเคลียร์ข้าวกล่อง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่ใช่ เรานี่แหละบริษัทเคลียร์ข้าวกล่อง!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หาร้านอยู่ตั้งนานเลย!"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "หาเจอก็ดีแล้วค่ะ... ว่าแต่ทำไมสีหน้าแต่ละคนถึงไม่ดีอย่างนี้ล่ะคะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ก็เราหิวไง... มะ... ไม่ใช่ๆ เพราะเราเหนื่อยจากงานน่ะ แหะๆๆ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้างั้นมีนมหรือเครื่องดื่มอะไรที่หมดอายุด้วยไหม?"
+    },
+    {
+      "Name": "โซระ",
+      "Text": "อ๊ะ งั้นรอฉันเดี๋ยวหนึ่งนะคะ ฉันจะเอาอาหารที่ใกล้จะโละทิ้งแล้วมาให้ทั้งหมดเลยค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทำอะไรของเธอน่ะโมเอะ! จะเอาข้าวกล่องที่เหลือทิ้งเหรอ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เราเป็นขอทานรึไง?!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แล้วจะทิ้งอาหารพวกนี้หมดเลยเหรอ? มันยังกินได้อยู่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่พวกเราคือนักเรียนหัวกะทินะ... แถมเป็นถึงกองทหารแนวหน้าของสถาบันพิเศษ SRT เลยด้วย...!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮึ่ม ถ้าไม่กินก็อยู่เฉยๆ ไปสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "งั้นข้าวกล่องตรงนี้ฉันจะกินให้เรียบเลย!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ดะ... เดี๋ยวสิ! ฉันไม่ได้บอกว่าไม่กินสักหน่อย!!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เรามาถึงจุดจบจริงๆ แล้วสินะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ต่อไปเราคงไม่ได้กินข้าวดีๆ แล้วก็ต้องใช้ชีวิตเยี่ยงขอทานไปเรื่อยๆ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครู [USERNAME]..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันจะไม่ลืมความเจ็บแค้นนี้เลยค่ะ"
+    },
+    {
+      "Text": "ตอนต่อไป; ปฏิบัติการแคร์รอต 1"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第6話;開始籌措糧食吧"
+    },
+    {
+      "Text": "（隔天早上，為了確認大家是否平安，來到了公園）"
+    },
+    {
+      "Text": "兔寶寶公園前"
+    },
+    {
+      "Text": "[ns1] 「嗚哇！？」"
+    },
+    {
+      "Text": "[ns2] 「陷，陷阱……！？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……什麼嘛，是老師啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "動作這麼奇怪，我還以為是可疑人士或野狗跑來了。"
+    },
+    {
+      "Text": "[s3] 「野狗……」"
+    },
+    {
+      "Text": "[s4] 「在公園設陷阱很危險的吧！？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就算那麼說也沒辦法吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就算那麼說也沒辦法吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "為了防範入侵者，這種程度的準備還是得做。"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊，這不是老師嘛。"
+    },
+    {
+      "Name": "萌",
+      "Text": "那裡的腳邊，注意點比較好唷。因為有埋地雷。"
+    },
+    {
+      "Text": "[s5] 「咦咦！？」"
+    },
+    {
+      "Text": "[s6] 「等等等等，一步也動不了！地雷在哪邊！？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "是在哪邊呢……具體的位置忘記了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "是在哪邊呢……具體的位置忘記了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "總之給它炸炸看就知道啦。"
+    },
+    {
+      "Text": "[s] 「為什麼接二連三放這麼危險的東西……！？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哪有什麼危險，這是最基本的自衛手段。"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒錯沒錯，不如說這樣完全不夠呢！"
+    },
+    {
+      "Name": "萌",
+      "Text": "如果可以的話，我還想在公園的外圍部分設置反戰車地雷之類的陷阱呢。"
+    },
+    {
+      "Text": "[s] 「明顯做過頭了吧……」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "在警戒上沒有什麼「做過頭」。必須時刻做好萬全的準備。"
+    },
+    {
+      "Name": "萌",
+      "Text": "稍微掉以輕心的話，那個像狗狗一樣的警察搞不好又會跑來呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "咲希、萌，"
+    },
+    {
+      "Name": "都子",
+      "Text": "有什麼問題嗎？"
+    },
+    {
+      "Name": "美優",
+      "Text": "噫，老老，老師……！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……早安。"
+    },
+    {
+      "Name": "都子",
+      "Text": "一大早有什麼事嗎？"
+    },
+    {
+      "Text": "[s7] 「想說來看看大家過得好不好。」"
+    },
+    {
+      "Text": "[s8] 「有什麼困擾的事嗎？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "如你所見，什麼問題都沒有。"
+    },
+    {
+      "Name": "都子",
+      "Text": "如你所見，什麼問題都沒有。"
+    },
+    {
+      "Name": "都子",
+      "Text": "因為SRT特殊學園，很習慣露營生活。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種程度，對SRT來說是家常便飯。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "是當然的素養。"
+    },
+    {
+      "Name": "萌",
+      "Text": "而且這裡可以用水，不如說很舒適呢。"
+    },
+    {
+      "Name": "美優",
+      "Text": "陰暗處也很多，很容易躲藏……"
+    },
+    {
+      "Name": "都子",
+      "Text": "所以，請你不用在意。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "也沒什麼問題，快點回去！"
+    },
+    {
+      "Text": "[ns] 「剛才的是……」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……附近好像打雷了呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "那也太牽強了吧……為什麼沒能忍住啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我也沒辦法，這是生理現象啊！"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚嗚……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我再重申一次，什麼問題都沒有──"
+    },
+    {
+      "Text": "[ns] 「……真的嗎？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊──真是，煩躁起來反而肚子更餓了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那個，其實……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喔唷對啦，我們什麼都沒吃啦！不行喔！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "雖然有水，不過反過來說只有水而已……"
+    },
+    {
+      "Name": "都子",
+      "Text": "補給什麼的完全沒有著落……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "該死，早知道就從SRT把糧食帶來了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "與其帶對空導彈，正常思考帶糧食還比較……"
+    },
+    {
+      "Name": "萌",
+      "Text": "在說什麼啊，導彈也很重要耶！"
+    },
+    {
+      "Name": "萌",
+      "Text": "而且比什麼都漂亮！"
+    },
+    {
+      "Name": "萌",
+      "Text": "比起這個，那個一看就很重的手冊才有問題吧。把那個丟掉放食物進去不就好了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "笨蛋！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "學生怎麼能丟掉教戰手冊！"
+    },
+    {
+      "Name": "美優",
+      "Text": "就算要去商店買，學校給的戶頭也被停止了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們肯定，會就這樣餓死的……"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚嗚，好想回SRT……"
+    },
+    {
+      "Text": "[ns] 從背包取出杯麵"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那是……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……杯麵？"
+    },
+    {
+      "Name": "萌",
+      "Text": "目清的雞骨醬油拉麵……！我最喜歡的……！"
+    },
+    {
+      "Text": "[s9] 「我還帶來了其他各種東西。」"
+    },
+    {
+      "Text": "[s10] 「一起吃吧？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……嘛，嘛？老師說什麼也要的話？"
+    },
+    {
+      "Name": "萌",
+      "Text": "……嘛，嘛？老師說什麼也要的話？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……請等一下。"
+    },
+    {
+      "Name": "都子",
+      "Text": "不能輕易收下。"
+    },
+    {
+      "Name": "都子",
+      "Text": "在被逼進絕境的狀況下，裝作提供重要物資，再要求回報更重要的東西……"
+    },
+    {
+      "Name": "都子",
+      "Text": "這是常有的手段，在弄清楚對方的用意前不能收下。"
+    },
+    {
+      "Text": "[s] 「不，沒有特別要什麼回報……」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哈，你以為我會相信嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "作戰時，除了自帶的東西以外都不食用也是很正常的。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不能保障安全性的食物，怎麼可能輕易放進嘴裡。"
+    },
+    {
+      "Text": "[s] 打開杯麵的蓋子"
+    },
+    {
+      "Name": "咲希",
+      "Text": "什……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喂，不是說不吃了嗎！？"
+    },
+    {
+      "Text": "[ns] 注入熱水"
+    },
+    {
+      "Name": "咲希",
+      "Text": "咕……！"
+    },
+    {
+      "Name": "美優",
+      "Text": "好香……肚子越來越餓了……"
+    },
+    {
+      "Text": "[s11] 「機會難得，吃吧？」"
+    },
+    {
+      "Text": "[s12] 「要冷掉了唷？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……不用了。我們不會被這種方式動搖意志。"
+    },
+    {
+      "Name": "都子",
+      "Text": "一旦上鉤，就會一直被老師的策略牽著鼻子走。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "怎，"
+    },
+    {
+      "Name": "咲希",
+      "Text": "怎麼能因為區區一碗杯麵就投降！"
+    },
+    {
+      "Name": "萌",
+      "Text": "就，就是啊，如果用更好吃的東西引誘那還好說……"
+    },
+    {
+      "Text": "[s] 「那總之我先吃了……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "唔，咕……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "聞起來超香的呀……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "才，才不會輸呢……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種時候就要深呼吸！！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "大家都有在學園學到，要如何對應藥物拷問對吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就算大腦被刺激，只要意志不屈服的話就沒問題！用別的方法蒙騙過去！"
+    },
+    {
+      "Name": "美優",
+      "Text": "唔，要忍住才行……"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們絕對，不會屈服於拷問……！"
+    },
+    {
+      "Text": "[ns] 加入溫泉蛋"
+    },
+    {
+      "Name": "都子",
+      "Text": "……啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "剛才的，該不會是……"
+    },
+    {
+      "Name": "萌",
+      "Text": "在這個階段加蛋太犯規了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "唔，絕對很好吃……"
+    },
+    {
+      "Name": "都子",
+      "Text": "被那麼做的話，已經……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……忍不住了！"
+    },
+    {
+      "Text": "[s] 「……要吃嗎？」"
+    },
+    {
+      "Name": "全體",
+      "Text": "要吃！！"
+    },
+    {
+      "Text": "[s13] 「來。話說回來……果然還是不打算去女武神嗎？」"
+    },
+    {
+      "Text": "[s14] 「至少那樣糧食的問題會比較……」"
+    },
+    {
+      "Name": "都子",
+      "Text": "果然是打算動搖我們的忍耐力，再進行交涉。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "露出真面目了啊，這個惡人。"
+    },
+    {
+      "Name": "美優",
+      "Text": "果然，世上都是醜陋的事物……"
+    },
+    {
+      "Name": "萌",
+      "Text": "用了很恐怖的手段嘛……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不管受到何種對待，我們對學園的感情都不會改變。"
+    },
+    {
+      "Name": "都子",
+      "Text": "確實會感到飢餓與不便。但若不這麼做，就沒辦法守護我們的信念。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們不會為了悠遊自在的生活而捨棄它。"
+    },
+    {
+      "Text": "[ns] 交出帶來的筆記"
+    },
+    {
+      "Name": "都子",
+      "Text": "……這是？"
+    },
+    {
+      "Text": "[s15] 「如果不喜歡被施捨的感覺，那就看看這個吧。」"
+    },
+    {
+      "Text": "[s16] 「總之能讓你們不依賴我就拿到食物。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……只要去這裡，就能拿到些什麼是嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……只要去這裡，就能拿到些什麼是嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "我已經說很多次了，不管怎樣都無法改變我們的心意……"
+    },
+    {
+      "Name": "都子",
+      "Text": "（這個人到底在想什麼呢……）"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我知道了。雖然不知道是什麼樣的內容，這個我就收下了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "終究只是，收下而已。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那傢伙，真的是在想什麼啊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "老師也是試著要了解我們嗎……"
+    },
+    {
+      "Name": "萌",
+      "Text": "太天真了唷，美優。那麼簡單就妥協，會吃苦頭唷？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不過剛才的表情還挺認真的。似乎不是想隨便呼嚨人。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "搞不好今後，還會幫忙復興SRT……"
+    },
+    {
+      "Name": "都子",
+      "Text": "筆記上寫的住址就是這裡呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "肚子已經餓到一步都走不動了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……這裡不就是夏萊的辦公室嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "把我們叫來這裡，到底要……？"
+    },
+    {
+      "Name": "空",
+      "Text": "奇怪，應該差不多該……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那個，我們是[USERNAME]老師介紹來的。"
+    },
+    {
+      "Name": "空",
+      "Text": "啊，恭候多時了……！"
+    },
+    {
+      "Name": "空",
+      "Text": "有從老師那邊聽說了。"
+    },
+    {
+      "Name": "空",
+      "Text": "各位會幫我們處理「廢棄品」對吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……哈啊？"
+    },
+    {
+      "Name": "空",
+      "Text": "這裡沒什麼客人會來，所以廢棄品很多……非常浪費……"
+    },
+    {
+      "Name": "空",
+      "Text": "雖然每次都放入廚餘用垃圾袋處理，不過那樣也非常麻煩……"
+    },
+    {
+      "Name": "空",
+      "Text": "老師說會有人代為處理的樣子……？\n真是幫大忙了。東西都集中在這邊了。"
+    },
+    {
+      "Name": "全體",
+      "Text": "………"
+    },
+    {
+      "Name": "空",
+      "Text": "……咦？\n難道是我有什麼誤會嗎……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "不，沒問題沒問題！"
+    },
+    {
+      "Name": "萌",
+      "Text": "之後就交給我們吧！"
+    },
+    {
+      "Name": "空",
+      "Text": "是，是這樣嗎。那個……雖然和這個沒有關係，各位身體還好嗎？感覺臉色很差……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "因為肚子……不，反正說來話長啦！"
+    },
+    {
+      "Name": "萌",
+      "Text": "還有其他什麼，例如賞味期限到期的東西嗎？順便全部拿走吧。"
+    },
+    {
+      "Name": "空",
+      "Text": "啊，好！有的，請稍等一下……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "等等等等等等！萌，這各種意義上都不好吧！？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "怎麼能收廢棄便當……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "但是這些要丟掉對吧。明明還能吃，很浪費耶。而且確實也沒有「施捨」的感覺。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "但，但是我們SRT，這種……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，咲希不吃的話也沒關係。"
+    },
+    {
+      "Name": "萌",
+      "Text": "我會好好吃掉的。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我，我沒有說不吃吧！"
+    },
+    {
+      "Name": "美優",
+      "Text": "唔，唔……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們以後要像這樣靠廢棄便當過活啊……"
+    },
+    {
+      "Name": "都子",
+      "Text": "[USERNAME]老師……"
+    },
+    {
+      "Name": "都子",
+      "Text": "這份恥辱，我不會忘記的……"
+    },
+    {
+      "Text": "下一話;胡蘿蔔作戰（１）"
+    }
+  ]
+}

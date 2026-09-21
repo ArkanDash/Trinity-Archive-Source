@@ -1,0 +1,2567 @@
+{
+  "TitleJP": "招かれざる客",
+  "TitleKR": "공원의 불청객",
+  "TitleEN": "Uninvited Guest in the Park",
+  "TitleTH": "แขกที่ไม่ได้รับเชิญในสวนสาธารณะ",
+  "TitleTW": "不速之客",
+  "DescJP": "先生の作戦の下、フブキとキリノたちはRABBIT小隊の確保に成功。捕まってもなお眼光の消えない彼女たちの今後をカンナに尋ねると、これからヴァルキューレで取り調べが行われるとのこと。希望すれば取り調べに参加できると聞いた先生は……。",
+  "DescKR": "승리에 취해 방심하고 있던 RABBIT 소대의 소대원들은 선생님의 작전에 넘어가 패배하고, 모두 체포되고 만다. ",
+  "DescEN": "The members of the RABBIT Squad get carried away in triumph and fall for Sensei's plan. They're quickly defeated and arrested. ",
+  "DescTH": "สมาชิกกองทหาร RABBIT ประมาทกับชัยชนะของตัวเองจนพ่ายแพ้ให้กับ\nแผนการของคุณครูและโดนจับกุมได้ยกกอง ",
+  "DescTW": "沉浸在勝利的喜悅而放鬆戒心的RABBIT小隊隊員們，被老師的作戰攻擊而戰敗，並全數被逮捕。",
+  "DialogJP": [
+    {
+      "Name": "サキ",
+      "Text": "……ん？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "どしたの？何か問題でもあった？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "何か、また兵が出てきた。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "もう誰も残ってないと思ってたけど……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まさかとは思うが、生活安全局……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "じゃあザコじゃん、聞いて損した。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それくらいだったら、ミユがてきとうに処理してくれるでしょ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そうなんだけど、何か気になるっていうか……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……まあ、心配し過ぎか。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "暗い、怖い……早く学校に帰りたい……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……もう学校、閉鎖されたんだった。私が帰れる場所は……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "こうなったら今さらもう、ヴァルキューレにも……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "このまま私は、寂しく忘れられていくんだろうな……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たち、いつまでこうやって……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "え、煙幕弾……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "きゃあっ！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ど、どこから……？だって相手はもう……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "連絡も何も無かったのに……と、とにかく状況の報告を……！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "だ、誰ですか……！？"
+    },
+    {
+      "Name": "不審者",
+      "Text": "えーっと……"
+    },
+    {
+      "Name": "不審者",
+      "Text": "ほら、私だよ私。RABBIT小隊の……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "RABBIT小隊……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "え、サキちゃん？"
+    },
+    {
+      "Name": "不審者",
+      "Text": "そうそう！"
+    },
+    {
+      "Name": "不審者",
+      "Text": "何か間違って煙幕弾が爆発してたみたいだから、様子を見に来たって感じ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "で、でもサキちゃん、さっき「持ち場から絶対離れるな」って言ってたような……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "それに、声が……"
+    },
+    {
+      "Name": "不審者",
+      "Text": "あー、ちょっと煙を吸ったせいで……げほっ、げほっ！"
+    },
+    {
+      "Name": "不審者",
+      "Text": "ま、とにかく大丈夫だよ。だから銃は一旦置いておこう？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "（……怪しい。口調も声も、サキちゃんとは全然……）"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "（こういう時こそ、合言葉を……）"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……「クローバー」。"
+    },
+    {
+      "Name": "不審者",
+      "Text": "……え？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "サキちゃんは、ちゃんと知ってるでしょ？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "こ、答えられなかったら、すぐに撃ちます……！"
+    },
+    {
+      "Name": "不審者",
+      "Text": "「クローバー」！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……え、えっ？"
+    },
+    {
+      "Name": "不審者",
+      "Text": "何か言った？この辺雑音が多くてよく聞こえなくてさ。ところで……この言葉に対する答え、ちゃんと知ってるよね？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "え、そ、そんな……！？"
+    },
+    {
+      "Name": "不審者",
+      "Text": "答えられなかったら、撃っちゃうよ？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "に、「ニンジン」！"
+    },
+    {
+      "Name": "不審者",
+      "Text": "ふーん、なるほどね。了解。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "え、あ、あっ……？"
+    },
+    {
+      "Name": "不審者",
+      "Text": "心理戦で追い込まれると弱いかも……先生の言う通りだったね。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "合言葉、教えてくれてありがと。じゃあね、ウサギの狙撃手ちゃん。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "だ、騙された……！？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……何だ、今の銃声？近くないか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まさか、ミユがやられた……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まっさかぁ、生活安全局でしょ？装備とかの面も含めて、ミユがやられるレベルじゃないよ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それはそうだろうけど……ミユとの連絡が取れない。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "行ってくる。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "モエ、支援は頼んだ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いや支援も何も、もう弾薬残ってないけど？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……は、どうして？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "さっき言ったじゃん、「ド派手に」「全部使って」って。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ドローン追撃する時に、全部パーッとね♪"
+    },
+    {
+      "Name": "サキ",
+      "Text": "はぁ！？おまっ、嘘だろ！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "後のことなんて考え無しに、全部一回につぎ込む……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "その火花はそりゃあ美しいよね、興奮する……はあ、はあ……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "本当に文字通り「全部」使うやつがいるかバカ！後のこと考える必要があるだろ、今は！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "この状況で弾薬がゼロって、後はどうしたら――"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "今の爆発は……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "サキ、モエ、どういう状況ですか？報告を！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "応答が無い……奇襲されましたか。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですから警戒をと言ったのですが……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "仕方ありません、まずは拠点を移して応戦を……"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "止まってください！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "先生の言った通り、ここでしたか……！動かないように！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "市民の皆さんが使う公園の占拠、そして違法な武器を用いてのデモ……"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "申し訳ありませんが、拘束させていただきます！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "本官の指示に従い、手を上げて投降してください！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（面倒なことになりましたね……もうここまで来ていたとは）"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（武装は制式拳銃だけ……恐らく、初弾は回避できるはず……）"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "う、動かないでください！本当に撃ちますよ！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……言いなりには、なりません！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "は、発砲します！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "っ！！銃口の向きは、見えていたのに……！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "回避されること前提で、直前までわざと違う方向を……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "油断したのは、私も……でしたか……。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "……め、命中しました！？！？"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "も、もしかして本官も、遂に射撃能力が向上したのでしょうか……？"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "やはり努力は実を結ぶもの……。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "そして正義もまた、いつだって勝利するもの……ということですね！"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "信じられません……。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "まさか本当に生活安全局の生徒だけで、SRTを制圧するとは……。"
+    },
+    {
+      "Text": "[s] \"二人とも頑張ってくれたからね。\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "なるほど……これが[USERNAME]先生のお力。その上、姿勢も謙虚と来るとは。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "生徒たちの噂もまた、本当だったということですね。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……ヴァルキューレ警察学校を代表して、感謝いたします。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "見ましたか、先生！？私の完璧な射撃！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "まさに警備局のみなさんのような、鮮やかな一撃でした……！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "いやー、あんな古い手法がまだ通じるとはね……。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "ま、先生の作戦ありきとはいえ……上手くできたみたいで何より。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "これはもう、20日分くらい特別休暇を貰えるんじゃないんかな。ふふっ……。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "貴様らの殊勲は認めよう。しかしそれは、私のような立場に決められるようなことではない。もっと上層部の方々の管轄だ。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ご苦労だった。報酬については、来月の賞罰の発表を待つように。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "何だ、すぐ貰えるわけじゃないのか……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "ガッカリだよ。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "ですが来月なんてもうすぐです！もしかしたら本当に警備局に……！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "いやー、私そっちは要らない……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "むしろ断る……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あんな頭の悪そうなやつらに、私たちが……？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "お前が言うな、弾薬を一気に使い果たす、なんて相当頭の悪い行動をしたくせに。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "何言ってるのさ、一瞬の輝きより大事なものなんて無いっての！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "もう終わりなんだ……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "SRTも、RABBIT小隊も、私も……全部奪われて、寂しく消える運命なんだ……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[s1] \"初めまして。\""
+    },
+    {
+      "Text": "[s2] \"SRT特殊学園の生徒たち……だよね？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "……お前と話すことなんて一つも無い！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……お前と話すことなんて一つも無い！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "何なに、冷やかし？それともバカにしに来たの？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……あなたがあの生活安全局を指揮した、「大人」ですか？"
+    },
+    {
+      "Text": "[s] \"うん、そうだよ。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……そうですか。あなたがあの、多くの生徒たちの悩みを解決し、生徒たちから信頼されている、超法規的捜査権を持った「シャーレの先生」……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……先生。私たちは、あなたのような大人が一番嫌いです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "地獄に落ちろ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "もう二度と会わないだろうね。"
+    },
+    {
+      "Text": "[ns] \"うーん、元気だ。\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "気にする必要はありません。負かされたことでイライラしてるんでしょう。"
+    },
+    {
+      "Text": "[s] \"あの子たちは、これからどうなるの？\""
+    },
+    {
+      "Name": "カンナ",
+      "Text": "まずは取り調べです。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "普段ならその後、ヴァルキューレが処罰を決める流れなのですが……。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ある程度連邦生徒会が関わりましたので、恐らくそうはなりませんね。防衛室長が処遇を決めることになるかと。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "ご希望でしたら、取り調べの様子を見ることも可能かと思います。"
+    },
+    {
+      "Name": "カンナ",
+      "Text": "では、ひとまずお疲れ様でした。"
+    },
+    {
+      "Text": "次回;それぞれの事情"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "사키",
+      "Text": "……으응? 뭐지?"
+    },
+    {
+      "Name": "모에",
+      "Text": "왜 그래? 감시 장비에 무슨 문제라도 생겼어?"
+    },
+    {
+      "Name": "사키",
+      "Text": "아니. 한 무리의 병력이 이쪽으로 접근하고 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "분명 경비국과 공안국의 학생들은 모두 무력화 시켰을 텐데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그렇다면 이 인원은 생활안전국 학생들인가?"
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐야. 생활안전국의 잔챙이들이라면 별문제도 아니잖아."
+    },
+    {
+      "Name": "모에",
+      "Text": "그 정도의 오합지졸은 근처에서 잠복 중인 미유가 알아서 다 처리해 줄 거라고."
+    },
+    {
+      "Name": "사키",
+      "Text": "그건 그렇지만 뭔가 분위기가 이상한데……."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 상관없으려나."
+    },
+    {
+      "Name": "미유",
+      "Text": "으으…… 어둡고, 무서워…… 빨리 학교로 돌아가고 싶어……."
+    },
+    {
+      "Name": "미유",
+      "Text": "아니, SRT 학교 건물은 이미 폐쇄되었으니…… 이제 내가 돌아갈 수 있는 곳은 없구나."
+    },
+    {
+      "Name": "미유",
+      "Text": "설령 이제 와서 발키리 경찰학교에 가겠다고 해도 전학을 받아 줄 리도 없고……."
+    },
+    {
+      "Name": "미유",
+      "Text": "결국 나는 모두의 기억 밖에서 쓸쓸하게 잊히게 될 거야……."
+    },
+    {
+      "Name": "미유",
+      "Text": "……우리는 언제까지 이곳에 머무르고 있어야 하는 걸까."
+    },
+    {
+      "Name": "미유",
+      "Text": "……어라?"
+    },
+    {
+      "Name": "미유",
+      "Text": "이, 이건…… 연막탄?"
+    },
+    {
+      "Name": "미유",
+      "Text": "꺄악?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "어, 어디서 날아온 거지……? 적이 접근한다는 연락은 없었는데……"
+    },
+    {
+      "Name": "미유",
+      "Text": "어, 어쨌든 빨리 상황 보고를……."
+    },
+    {
+      "Name": "미유",
+      "Text": "누, 누구세요?! 우, 움직이면 쏠 겁니다!"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "어, 그게 그러니까……"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "왜 있잖아? 나야, 나! SRT 학원, RABBIT 소대의 일원인……"
+    },
+    {
+      "Name": "미유",
+      "Text": "RABBIT 소대의 일원이라면……"
+    },
+    {
+      "Name": "미유",
+      "Text": "혹시 사키 쨩?"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "응, 맞아! 나는 사키야."
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "신호용 연막이 터진 것 같아서 무슨 일인지 보러 내려왔어."
+    },
+    {
+      "Name": "미유",
+      "Text": "하지만 사키 쨩, 아까 전까지는 절대로 자리를 이탈하지 말라고 하지 않았어?"
+    },
+    {
+      "Name": "미유",
+      "Text": "게다가 목소리도 어쩐지 이상한 걸……."
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "그건…… 연기를 들이마셔서 그래. 콜록, 콜록!"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "여하튼 괜찮으니까, 총은 일단 내려놓고 이야기를 하자."
+    },
+    {
+      "Name": "미유",
+      "Text": "(……의심스러워. 아무리 문제가 생겼다지만, 말투도 목소리도 평소의 사키 쨩과는 다른데…….)"
+    },
+    {
+      "Name": "미유",
+      "Text": "(우선은 침착하게 수하를…….)"
+    },
+    {
+      "Name": "미유",
+      "Text": "……<클로버>."
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "응? 그게 무슨 소리야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "암구호야. 사키 쨩이라면 암구호의 문어와 답어를 제대로 기억하고 있겠지?"
+    },
+    {
+      "Name": "미유",
+      "Text": "제, 제대로 답하지 못하면 바로 쏴 버릴 테니까!"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "어, 그게…… <클로버>!"
+    },
+    {
+      "Name": "미유",
+      "Text": "어, 어라? 내가 먼저 물어봤는데?"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "뭐라고? 이 주변에 소음이 심해서 안 들렸는데. 여하튼 암구호를 물었으면 답을 해야겠지?"
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그런……"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "빨리 대답해! 대답하지 않으면 적으로 간주하고 쏴 버릴 테니까!"
+    },
+    {
+      "Name": "미유",
+      "Text": "아, 알겠어! ……<당근>!"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "그렇구나. 문어는 <클로버>, 답어는 <당근>이란 말이지……."
+    },
+    {
+      "Name": "미유",
+      "Text": "……어? 그게 무슨 소리야?"
+    },
+    {
+      "Name": "거동수상자",
+      "Text": "설마 했는데 선생의 판단이 정확했네. 이곳에 잠복 중인 저격수는 역시 몰아붙이는 방식의 심리전에 약해."
+    },
+    {
+      "Name": "후부키",
+      "Text": "덕분에 암구호는 잘 들었어. 그럼 잘 가, 토끼 저격수 쨩."
+    },
+    {
+      "Name": "미유",
+      "Text": "소, 속았다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "……이상하네. 총성이 점차 가까워지고 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "설마 미유가 생활안전국 학생들에게 당해버린 건가?"
+    },
+    {
+      "Name": "모에",
+      "Text": "에이, 그럴 리가 없잖아. 생활안전국이 갖추고 있는 장비라고 해봐야, 좀도둑이나 제압할 수 있는 수준의 총기가 고작인걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "하지만 미유와의 통신도 끊겼고, 뭔가 이상해."
+    },
+    {
+      "Name": "사키",
+      "Text": "내가 직접 나가봐야겠어."
+    },
+    {
+      "Name": "사키",
+      "Text": "모에, 추가 탄약 지원을 부탁해."
+    },
+    {
+      "Name": "모에",
+      "Text": "응? 남은 탄약은 없는데?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그게 무슨 소리야? 남은 탄약이 없다니?"
+    },
+    {
+      "Name": "모에",
+      "Text": "아까 말했잖아? 남아 있는 탄약을 다 써서 화려한 불꽃놀이를 벌일 거라고."
+    },
+    {
+      "Name": "모에",
+      "Text": "여기 남아있던 포탄과 탄약은 아까의 드론을 격추하는 데 전부 써버렸어. ♪"
+    },
+    {
+      "Name": "사키",
+      "Text": "그 말이 단순한 수사 표현이 아니었다고?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "뒷일은 조금도 생각하지 않고 가지고 있는 모든 폭약을 터트려 화려하게 산화시킨다……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그만큼 흥분되는 상황도 어디 또 없지. 하아, 하아……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그건 진짜 뒷일을 생각할 필요가 없을 때의 일이지!"
+    },
+    {
+      "Name": "사키",
+      "Text": "불꽃놀이를 하느라 전투에 쓸 탄약까지 날려 먹다니, 그런 바보 같은 경우가—"
+    },
+    {
+      "Name": "미야코",
+      "Text": "방금의 폭발은……?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "사키, 모에. 방금의 폭발은 뭔가요? 보고해주세요!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……틀렸네요. 응답이 없는 걸로 보아 아무래도 기습에 당한 것 같네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이래서 방심하지 말고 경계를 철저히 하라고 당부를 한 건데……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "어쩔 수 없지요. 후일을 도모하기 위해서라도 우선은 거점을 옮겨 응전을 계속해야—"
+    },
+    {
+      "Name": "키리노",
+      "Text": "거기 서세요, 이 악당!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "[USERNAME] 선생님의 말씀대로 이번 소동의 주동자는 역시 이곳에 숨어있었군요!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "시민이 사용해야 할 공원을 무단으로 점거하고, 불법 무기를 사용하여 공권력에 불응하다니……"
+    },
+    {
+      "Name": "키리노",
+      "Text": "이는 키보토스에서도 용서받지 못할 중대한 범죄입니다!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "순순히 본관의 지시에 따라 손을 올리고 투항하세요!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "(……귀찮게 되었네요. 적의 선봉이 벌써 이곳까지 접근했을 줄이야.)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "(하지만 상대의 무장은 생활안전국에 지급되는 짧은 총열의 제식 권총뿐. 상황을 맞추어 빠르게 기동하면 초탄 정도는 회피할 수 있을지도…….)"
+    },
+    {
+      "Name": "키리노",
+      "Text": "자, 잠시만요. 움직이지 마세요! 정말로 쏠 거라고요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……당신 뜻대로 움직여주지는 않을 겁니다!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "저, 정지! 발포합니다!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……어라? 상대의 총구는 분명 다른 곳을 향하고 있었는데……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "설마 처음부터 회피를 염두에 두고 일부러 다른 곳을 조준하는 것처럼 기만했던 건가요……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "방심을 한 건 저 역시도 마찬가지일지도……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "어라? 저, 정말로 명중한 건가요? 이 거리에서, 제 총알이?"
+    },
+    {
+      "Name": "키리노",
+      "Text": "어느새 본관도 모르는 사이에 사격 실력이 부쩍 성장한 걸까요."
+    },
+    {
+      "Name": "키리노",
+      "Text": "아니, 이는 당연한 결과입니다. 조금 전의 사격은 불의의 범죄자를 제압하기 위한 정의의 일격이었고……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "정의는 언제나 승리하는 법이니까요!"
+    },
+    {
+      "Name": "칸나",
+      "Text": "……믿기지가 않는군요."
+    },
+    {
+      "Name": "칸나",
+      "Text": "믿고 맡기겠다고 말씀드리기는 했지만 정말 생활안전국의 학생들만으로 SRT 학원의 정예들을 제압하시다니……."
+    },
+    {
+      "Text": "[s] \"학생들이 열심히 노력해 준 덕분이지.\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "……과연, 이것까지 포함해서 [USERNAME] 선생님의 실력이군요."
+    },
+    {
+      "Name": "칸나",
+      "Text": "어째서 학생들이 선생님을 믿고 따르는지 조금은 알 것 같습니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "다시 한번 발키리 경찰학교를 대표하여 감사의 인사를 드리겠습니다."
+    },
+    {
+      "Name": "키리노",
+      "Text": "선생님, 선생님! 보셨습니까? 본관이 완벽한 사격으로 상대를 제압하는 모습을!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "후후, 이만하면 본관의 사격 솜씨도 경비국의 학생들 못지않지요?"
+    },
+    {
+      "Name": "후부키",
+      "Text": "이야, 할머니들 상대로나 쓰이던 '나야, 나' 범죄 수법이 설마 엘리트들 상대로 먹힐 줄이야……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "물론 선생의 조언이 있기도 했지만, 내 임기응변 실력도 제법 괜찮았지?"
+    },
+    {
+      "Name": "후부키",
+      "Text": "이 정도 활약이라면 19박 20일 포상 휴가 정도는 받아야겠어. 후후……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "(한숨) ……귀관들은 정말 눈치라고는 조금도 없군."
+    },
+    {
+      "Name": "칸나",
+      "Text": "물론 이번 작전에서 귀관들이 보여준 작전 수행 능력은 대단히 우수했다만, 귀관들의 처우는 발키리 경찰학교의 높으신 분들이 결정하는 것이지, 내가 사사로이 정하는 것이 아니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "귀관들은 본 업무로 복귀하여 다음 달에 있을 상벌위원회를 기대하고 있도록."
+    },
+    {
+      "Name": "후부키",
+      "Text": "뭐야, 내일 당장 휴가를 갈 수 있는 게 아니었어?"
+    },
+    {
+      "Name": "후부키",
+      "Text": "좋다 말았네."
+    },
+    {
+      "Name": "키리노",
+      "Text": "하지만 다음 달이라면 얼마 남지 않았어요! 어쩌면 정말로 경비국으로 전과할 수 있을지도……!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "그거, 오히려 더 나쁜 거 아니야?"
+    },
+    {
+      "Name": "후부키",
+      "Text": "그게 상이라면 난 안 받을래……."
+    },
+    {
+      "Name": "모에",
+      "Text": "……뭐야. 우리를 제압한 게 저런 머리 나빠 보이는 반편이들이었어?"
+    },
+    {
+      "Name": "사키",
+      "Text": "누가 누구더러 반편이라는 거야? 전장에서 불꽃놀이를 한답시고 탄약을 모조리 날려 먹은 반편이가 할 소리가 아닐 텐데."
+    },
+    {
+      "Name": "모에",
+      "Text": "무슨 소리야, 불꽃놀이는 중대 사항이었거든?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "우으…… 다 끝났어……."
+    },
+    {
+      "Name": "미유",
+      "Text": "SRT 학원도, RABBIT 소대도, 나도…… 결국은 모두 다 빼앗기고 방치돼서 쓸쓸하게 사라지고 말 거야……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……."
+    },
+    {
+      "Text": "[s1] \"안녕.\""
+    },
+    {
+      "Text": "[s2] \"너희가 SRT 학원의 그 학생들이지?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "당신과 할 이야기는 한마디도 없거든?!"
+    },
+    {
+      "Name": "사키",
+      "Text": "당신과 할 이야기는 한마디도 없거든?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "어차피 우리를 조롱하러 온 거지? 다 알고 있어!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……당신이 생활안전국의 경찰 학생들을 지휘한 그 '어른'인가요?"
+    },
+    {
+      "Text": "[s] \"맞아.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "그렇군요. 당신이 모든 학생이 믿고 따르는 어른이자, 초법적 수사권을 갖고 학생들의 고민을 해결해준다는 그 샬레의 선생님……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님. 저희는 당신 같은 어른이 제일 싫습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "지옥에나 떨어져."
+    },
+    {
+      "Name": "모에",
+      "Text": "두번 다시 안 봤으면 좋겠네."
+    },
+    {
+      "Text": "[ns] \"음, 역시 기운 넘치네.\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "불량 학생들의 평가 같은 건 신경 쓰지 마십시오. 분명 패배의 분에 못 이겨 제멋대로 지껄이는 소리일 테니까요."
+    },
+    {
+      "Text": "[s] \"저 학생들은 앞으로 어떻게 되는 거야?\""
+    },
+    {
+      "Name": "칸나",
+      "Text": "저들의 처우는 범행 동기를 취조한 이후에 결정될 예정입니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "평소라면 발키리 경찰학교의 내규에 따라 처벌 수위를 결정했겠지만……."
+    },
+    {
+      "Name": "칸나",
+      "Text": "이번 사건은 총학생회의 이미지에도 심한 손상을 끼친 탓에, 아마 방위실장께서 직접 저들의 처우를 결정하실 것 같군요."
+    },
+    {
+      "Name": "칸나",
+      "Text": "원하신다면 취조를 참관하러 발키리 경찰학교에 직접 방문하셔도 괜찮습니다."
+    },
+    {
+      "Name": "칸나",
+      "Text": "오늘은 대단히 수고가 많으셨습니다. 그럼 이만……."
+    },
+    {
+      "Text": "다음화;그 소대원들의 사정"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Saki",
+      "Text": "...What in the world?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "What's got your knickers in a twist? Is there something wrong with surveillance?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "No, but there are troops approaching."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Didn't we incapacitate the Security and Public Peace Bureaus?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "They sent out the Public Safety Bureau of all people?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hahaha! I'll eat those small fries for dessert!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Eh, well. Miyu's got the area covered. They'll go boom no problem."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I guess. But why would they send such useless students..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Well, I'm sure it'll be fine."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-Was that another bug? I'm scared... I wanna go home."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Oh...but they closed the SRT building, so I don't have a home to go to."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And Valkyrie would never let me join them now..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I'm just gonna be left here forgotten and alone..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Are they sure I can't leave yet...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A smoke b-bomb?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Eek!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "They didn't warn me any enemies were approaching!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I need to report this right away."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "D-Don't move! Or I'll shoot!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Um...."
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "I-It's me! I'm a student of SRT Academy and the RABBIT Squad..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "The RABBIT Squad?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "S-Saki?"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Y-Yeah!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "The smoke signal went off, so I came to see if you were okay."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "But Saki, you were the one who said to not leave our positions no matter what."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-And you sound kinda funny..."
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "D-Do I? I...inhaled some smoke! *cough cough* That must be why I'm so raspy!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Anyway, stop pointing your gun at a fellow squad member."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "(...This is weird. She doesn't talk or sound like Saki at all...)"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "(Use your brain, Miyu!)"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "...Clover."
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Wh-What did you say?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "You don't know? Saki would know the watchword and the countersign!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Y-You better answer or I'll shoot!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "W-Well... Um... Clover!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Huh?! I said it first!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "It's so loud here, I can't hear anything you're saying! You better answer quick!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-But... That doesn't..."
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Answer! Or you'll be considered an enemy of SRT Academy and I'll shoot!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "F-Fine! Carrot!"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Perfect. The watchword is \"clover,\" and the countersign is \"carrot.\""
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Wh-What do you mean?"
+    },
+    {
+      "Name": "Suspicious Target",
+      "Text": "Sensei said the sniper would be easy to manipulate. Gotta give it to them, that was easy as cake!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Thanks so much for the password. Bye-bye, little rabbit."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "L-Liar!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Does it seem like the gunshots are getting closer?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyu couldn't have been defeated by the Public Safety Bureau, could she?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hah! You think those silly little pretend police officers with pea shooters could take down our Miyu?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Her communications were cut off though. Something's wrong."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'll go out there to assess the situation."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Moe, more ammo please."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ammo? There's none left. Na-da. Not even a a single dust speckle."
+    },
+    {
+      "Name": "Saki",
+      "Text": "B-But how?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee. They all went ka-boom for our fireworks show!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "We used eeeverything, bombs, ammo, and all, to blow up the drone."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Y-You actually used all of it?!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Blowing everything up at once? With no care for the consequences?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Nothing could excite me more! Hahahaha! *pant pant*"
+    },
+    {
+      "Name": "Saki",
+      "Text": "But there are consequences! The mission isn't complete!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "How could you just waste all our ammo? Are you stupid?!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What was that explosion?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Saki, Moe. Please report! Are you okay?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Communications are down. They must have been attacked."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I told them over and over again to stay vigilant."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I need to make preparations to move our base and rebuild our strategy..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Stop there, disruptor of peace!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Just as [USERNAME] Sensei said, their leader was hiding here!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Occupying a park meant for citizens and using illegal weapons to defy public authority..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "The severity of your crimes cannot be emphasized enough!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Drop your weapons and surrender!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(I didn't expect their vanguard to arrive so quickly. What to do...)"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(The Public Safety Bureau is only armed with short-barreled standard pistols. I can win this, but I have to act decisively and quickly.)"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "W-Wait! Stop moving or I'll shoot! Seriously!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "No! I won't come quietly!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Stop! Or I'll shoot! For real this time!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "H-How? W-Wasn't she pointing her gun in a different direction?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Did she deliberately goad me into running and predict my movement?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I-I may have been outsmarted this time."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "W-W-Wait! D-Did I actually hit her? From this far away?"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Heh. I guess my shooting skills really have improved."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "I'm not surprised! I call that move Strike of Justice, made just to subdue criminals!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "And justice always prevails!"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I'm beat."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Not that I didn't have faith in you, but I had absolutely zero faith in the Public Safety Bureau students."
+    },
+    {
+      "Text": "[s] \"It's all thanks to the students' hard work.\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Maybe that's what your real talent is, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I'll admit, I had my doubts. But I think I understand how you've garnered the trust you have."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "I'd like to thank you on behalf of Valkyrie Police School once again."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Sensei, Sensei! Did you see my Strike of Justice take down the bad guys?"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "I might be at the level of the Security Bureau students now!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I didn't think even a child could be tricked by my method, let alone some elites..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I mean, it was Sensei's plan, but I did pretty good on the spot, right?"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I can't wait for my month-long vacation. Heehee."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Do I really have to put up with this?"
+    },
+    {
+      "Name": "Kanna",
+      "Text": "While you did perform well in this mission, it's not a one-stop ticket to whatever you want. The Valkyrie Police School executives will be the ones to evaluate your performance and eventual compensation."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Right now, return to your regular duties and wait for the Reward and Punishment Committee next month."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I have to wait until next month for my vacation?"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Hmph."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "One month is nothing! In one month's time, I might be a member of the Security Bureau!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Why do you say that like it's a good thing?"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "If that's the reward, I hope I have the option to say no."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We were really caught by a bunch of dummies like that?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Who's a fool? Huh? Isn't it you for turning our ammo into your self-gratifying fireworks display?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Are you questioning the importance and beauty of explosions? If you are, then I'll—"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-It's all over... Gone..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "SRT Academy, the RABBIT Squad, my home... Now I'm really going to be forgotten for good... Not just by my squad members..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Text": "[s1] \"Hi there, RABBIT Squad.\""
+    },
+    {
+      "Text": "[s2] \"How're you holding up?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "We have nothing to discuss with you!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We have nothing to discuss with you!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "You here to gloat about your victory? Huh?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Are you the \"grown-up\" who led the Public Safety Bureau students?"
+    },
+    {
+      "Text": "[s] \"I just gave them a few suggestions.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Hm. The legendary Schale Sensei. Trusted by all, stepping in and waving their extrajudicial authority like a magic wand to solve any problem."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's grown-ups like you I can't stand the most."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I hope you trip and stub your toe."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If I see you again, it's ka-boom for you."
+    },
+    {
+      "Text": "[ns] \"Haha. What a fun group.\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Please disregard those insurgents' insults. They're just bitter and angry."
+    },
+    {
+      "Text": "[s] \"What'll you do with them?\""
+    },
+    {
+      "Name": "Kanna",
+      "Text": "We'll investigate their motives and go from there."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Valkyrie Police School would normally be the one to issue the punishment, but..."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "With all the commotion and reporters, the General Student Council's reputation is at stake now. I expect the chief of defense will step in."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "If you want, visit Valkyrie to audit the investigation."
+    },
+    {
+      "Name": "Kanna",
+      "Text": "Thanks again for your work today. I expect I'll see you again."
+    },
+    {
+      "Text": "Next Episode; The Squad's Circumstances"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "ซากิ",
+      "Text": "หืม...? อะไรเนี่ย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มีอะไรเหรอ? อุปกรณ์ตรวจจับมีปัญหาอะไรงั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่มีหรอก แต่มีกองกำลังเข้ามาทางนี้เพิ่มน่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกสำนักความมั่นคงกับกรมความมั่นคงสาธารณะก็โดนเล่นงานจนหมดเรี่ยวแรงไปแล้วนี่นา..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หรือว่าพวกนั้นคือสำนักรักษาความปลอดภัย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เหอะๆ ถ้าเป็นสำนักรักษาความปลอดภัยจริงๆ ก็ไม่มีอะไรน่าห่วง"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มิยุก็กำลังซ่อนตัวอยู่ใกล้ๆ เดี๋ยวมิยุคงจัดการเด็กเมื่อวานซืนพวกนั้นให้เอง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่บรรยากาศมันแปลกๆ แฮะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่เป็นอะไรหรอกน่า"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ทะ... ทั้งมืดทั้งน่ากลัว... อยากกลับโรงเรียนไวๆ แล้ว..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ไม่สิ อาคารโรงเรียน SRT ถูกทำลายหมดแล้ว... เราไม่มีที่ให้ไปแล้วสินะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถึงตอนนี้จะไปบอกใครว่าอยากเข้าสถาบันฝึกตำรวจวัลคิรี่ แต่ก็คงไม่มีใครรับเข้าเรียน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "สุดท้ายแล้วเราคงค่อยๆ เลือนหายไปจากความทรงจำของทุกคน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เราต้องอยู่ที่นี่ไปถึงเมื่อไรกันนะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เอ๋...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นะ... นี่มัน... ระเบิดควัน?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ๊ายยย?!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มาจากทางไหนเนี่ย...? ไม่เห็นมีใครแจ้งว่าศัตรูมาทางนี้เลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ต้องรีบรายงานสถานการณ์..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นะ... นั่นใครคะ?! อย่าขยับนะ ไม่งั้นฉันยิงนะคะ!"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "เอ่อ... คือ..."
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "จำไม่ได้เหรอ? ฉันไง! สมาชิกกองทหาร RABBIT จากสถาบัน SRT..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "สมาชิกกองทหาร RABBIT เหรอ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "หรือว่าจะเป็นซากิจัง?"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "อื้ม ใช่แล้ว! ฉันเอง ซากิ"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "ฉันเห็นม่านควันส่งสัญญาณ ก็เลยแวะเข้ามาดูว่าเกิดอะไรขึ้นน่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่เมื่อกี๊ซากิจังเพิ่งบอกกับฉันเองนี่นาว่าอย่าออกจากตรงนี้เด็ดขาด?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อีกอย่าง เสียงของซากิจังมันดูแปลกๆ..."
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "นั่นน่ะ... ฉันสำลักควันเข้าไป เสียงเลยเป็นแบบนี้น่ะ แค่กๆ แค่กๆ!"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "เอาเป็นว่า วางปืนก่อนแล้วออกมาคุยกันเถอะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "(น่าสงสัยชะมัด... ทั้งเสียง ทั้งสำเนียงการพูด ไม่เหมือนกับซากิจังเลย...)"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "(ก่อนอื่นต้องสุขุมไว้แล้วติดต่อคนอื่น...)"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "<โคลเวอร์> ..."
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "หืม? อะไรกันเหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "รหัสลับไงล่ะ คนอย่างซากิจังต้องจำทั้งคำถามและคำตอบได้อย่างถูกต้อง ว่าไหม?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถะ... ถ้าตอบไม่ถูก ฉันจะยิงทันทีเลย!"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "อ่า... ถ้างั้นก็... <โคลเวอร์>!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ... เอ๋? ฉันเป็นคนถามก่อนไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "ว่าไงนะ? แถวนี้เสียงดังรบกวนจนไม่ค่อยได้ยินเลย ช่างเถอะ ฉันถามรหัสลับไปแล้วก็ตอบมาสิ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ... เอ่อ..."
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "รีบตอบเร็วเข้า! ถ้าไม่ตอบแสดงว่าเป็นศัตรู แล้วฉันจะยิงให้เละเลย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "กะ... ก็ได้! <แคร์รอต>!"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "อย่างนี้เองเหรอ ถ้าถามว่า <โคลเวอร์> ให้ตอบว่า <แคร์รอต> สินะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "หืม...? หมายความว่ายังไง?"
+    },
+    {
+      "Name": "บุคคลน่าสงสัย",
+      "Text": "คุณครูคิดถูกจริงๆ ด้วย สไนเปอร์ที่ซ่อนตัวอยู่ที่นี่ไม่ถนัดกับสงครามประสาทแบบไล่ต้อน"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เรารู้รหัสลับแล้ว ถ้างั้นก็ไปดีมาดีนะ สไนเปอร์กระต่าย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถะ... ถูกหลอกเข้าแล้ว!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แปลกจัง... ทำไมเสียงปืนดังใกล้เข้ามาเรื่อยๆ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หรือว่ามิยุจะโดนนักเรียนจากสำนักรักษาความปลอดภัยเล่นงาน?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่หรอก ไม่มีทาง แต่ถึงจะใช่ขึ้นมา อาวุธของสำนักรักษาความปลอดภัยคงจะเป็นแค่ปืนต๊อกต๋อย\nที่เอาไว้ปราบหัวขโมยในเมืองแค่นั้น"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่สัญญาณจากมิยุก็หายไปดื้อๆ ต้องมีอะไรแปลกๆ แน่"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คงต้องไปดูด้วยตัวเองซะแล้วสิ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โมเอะ ขอกระสุนเพิ่มหน่อย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หืม? เราไม่มีกระสุนเหลือแล้วนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หมายความว่ายังไง? ไม่มีกระสุนเหลือเลยงั้นเหรอ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ก็บอกไปแล้วนี่นาว่าจะใช้กระสุนที่เหลือจุดดอกไม้ไฟให้ได้ร้อนวูบวาบกัน"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ส่วนลูกปืนใหญ่กับกระสุนที่เหลือตรงนี้ก็ใช้ยิงโดรนหมดแล้ว ♪"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เมื่อกี๊ไม่ได้แค่พูดเล่นหรอกเหรอ?!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "การได้ยิงปืนจนกระสุนหมดคลังโดยไม่แคร์ว่าจะเกิดอะไรตามมา..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "คงไม่มีอะไรที่ตื่นเต้นไปกว่านี้แล้วล่ะ ฮ่าฮ่า..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ตอนนี้เราจะมาทำเป็นไม่รู้ร้อนรู้หนาวอะไรเลยไม่ได้นะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใช้กระสุนสำหรับต่อสู้ไปกับการเล่นจุดดอกไม้ไฟหมดเลยงั้นเหรอ ทำแบบนี้ไม่ต่างอะไรกับคนโง่..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เสียงระเบิดเมื่อกี๊มัน...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ซากิ โมเอะ เสียงระเบิดเมื่อกี๊คืออะไรเหรอคะ? ช่วยรายงานด้วยค่ะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โดนเข้าแล้ว... ไม่มีการตอบรับแบบนี้ สงสัยจะโดนซุ่มโจมตีค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อุตส่าห์เตือนแล้วทั้งทีว่าอย่าประมาท..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ช่วยไม่ได้ค่ะ แบบนี้เราต้องย้ายฐานทัพแล้วค่อยโต้ตอบกลับ อย่างน้อยก็เพื่อวางแผนในอนาคต..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "หยุดตรงนั้นเลยนะคนร้าย!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "แกนนำความวุ่นวายในครั้งนี้มาซ่อนอยู่ที่นี่ตามที่คุณครู [USERNAME] บอกไว้เลยค่ะ!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "มายึดสวนสาธารณะของชาวเมืองโดยไม่ได้รับอนุญาต แถมยังใช้อาวุธผิดกฎหมายในการปฏิเสธ\nอำนาจรัฐอีก..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ถือเป็นอาชญากรรมร้ายแรงในคิโวทอสที่ยกโทษให้ไม่ได้ค่ะ!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ยกมือขึ้นและยอมจำนนตามที่ฉันบอกเถอะค่ะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(น่ารำคาญชะมัด ผู้บัญชาการของอีกฝ่ายบุกเข้ามาถึงที่นี่แล้วเหรอเนี่ย)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(แต่ถึงยังไงอาวุธของพวกนั้นคงเป็นแค่ปืนพกลำสั้นๆ ของสำนักรักษาความปลอดภัย ถ้าเราเคลื่อน\nไหวอย่างทันท่วงทีก็น่าจะหลบกระสุนได้บ้าง...)"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ดะ... เดี๋ยวก่อนค่ะ ห้ามขยับนะคะ! ฉันยิงจริงๆ นะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันไม่ทำตามหรอกค่ะ!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ยะ... หยุดนะ! ฉันยิงจริงนะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอ๋...? เมื่อกี๊ปากกระบอกปืนของฝ่ายตรงข้ามหันไปทางอื่นนี่นา..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "หรือนี่เป็นการตบตาด้วยการเล็งไปที่อื่นเพราะกลัวเราหนีไปอีกทาง..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราประมาทไปงั้นเหรอ..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "เอ๋? ยะ... ยิงโดนจริงๆ เหรอเนี่ย? ฉันยิงถูก... ในระยะขนาดนั้นเนี่ยนะ?"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ฉันยิงแม่นขึ้นได้ถึงขนาดที่ตัวเองก็ไม่รู้ตัวมาก่อนเลยค่ะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ไม่สิ ของมันแน่อยู่แล้ว ก็การยิงเมื่อกี๊คือไม้ตายแห่งความยุติธรรมที่เอาไว้ใช้ปราบอาชญากร..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "และความยุติธรรมก็ย่อมเอาชนะได้ทุกเมื่อ!"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ไม่น่าเชื่อเลยนะคะ..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ฉันขอให้คุณครูช่วยเพราะเชื่อในการสั่งการก็จริง แต่ก็ไม่คิดเลยว่าสำนักรักษาความปลอดภัยจะ\nปราบนักสู้มือหนึ่งของสถาบัน SRT จนอยู่หมัดได้..."
+    },
+    {
+      "Text": "[s] \"เพราะนักเรียนพวกนั้นมีความพยายามยังไงล่ะ\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "งั้นเหรอคะ... ฉันว่าต้องให้เครดิตความสามารถของคุณครู [USERNAME] ด้วยนะคะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ตอนนี้ฉันเริ่มเข้าใจแล้วค่ะว่าทำไมพวกนักเรียนถึงเชื่อและทำตามคำสั่งของคุณครู"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ในนามตัวแทนของสถาบันฝึกตำรวจวัลคิรี่ ฉันขอขอบคุณคุณครูอีกครั้งนะคะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "คุณครูคะ คุณครู! คุณครูเห็นฉันเผชิญหน้ากับศัตรูด้วยฝีมือการยิงปืนที่ไร้ที่ติไหมคะ?"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ฮิฮิ ฝีมือฉันพอเทียบเท่านักเรียนสำนักความมั่นคงได้เลยว่าไหมคะ?"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เฮ้อ นึกไม่ถึงเลยว่าวิธีเฉพาะที่ใช้กับพวกคุณยายจะเอามาเล่นงานนักเรียนหัวกะทิได้..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "คำแนะนำจากคุณครูก็ช่วยได้เยอะอยู่ แต่สกิลจัดการปัญหาเฉพาะหน้าของฉันก็ไม่ใช่ย่อยเลย\nเหมือนกันใช่ไหมล่ะ?"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "แบบนี้คงได้วันพักร้อนสัก 19 คืน 20 วันเลยล่ะ ฮุฮุ..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "(ถอนหายใจ) ไม่รู้อะไรเอาซะเลยนะคะ..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "จริงอยู่ว่าความสามารถของพวกเธอในปฏิบัติการครั้งนี้ยอดเยี่ยมมาก แต่การให้รางวัลเป็นการ\nตัดสินใจของผู้ใหญ่ในสถาบันฝึกตำรวจวัลคิรี่ต่างหาก ไม่ใช่ว่าพวกเธอจะมากำหนดเองได้สักหน่อย"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "คณะกรรมการรางวัลและการลงโทษจะพิจารณาผลงานของเธอในเดือนหน้า จะได้รางวัลเป็นอะไร\nก็รอดูตอนนั้นแล้วกัน"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "อะไรกัน ไม่ได้จะให้พักร้อนพรุ่งนี้เลยหรอกเหรอ?"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "คนเค้าอุตส่าห์ดีใจ..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "แต่ใกล้จะถึงเดือนหน้าแล้วนะคะ! ดีไม่ดีเราอาจได้ย้ายไปสำนักความมั่นคงก็ได้...!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "แบบนั้นมันจะยิ่งแย่กว่าเดิมน่ะสิ"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ถ้าได้รางวัลแบบนั้น ฉันขอไม่รับดีกว่า..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อะไรกัน คนที่ปราบพวกเราได้คือเด็กหัวขี้เลื่อยพวกนั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กล้าเรียกคนอื่นว่าเด็กหัวขี้เลื่อยเหรอ? คำนั้นเหมาะกับคนที่ผลาญกระสุนจนหมดเกลี้ยงเพราะจะ\nจุดดอกไม้ไฟมากกว่าซะอีก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พูดอะไรบ้าๆ น่ะ ดอกไม้ไฟคือส่วนหนึ่งของการต่อสู้นะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "จะ... จบสิ้นแล้วสินะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ทั้งสถาบัน SRT กองทหาร RABBIT แล้วก็เราด้วย... สุดท้ายแล้วทุกคนก็จะถูกปล่อยปละละเลย แล้วก็ค่อยๆ หายไป"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "......"
+    },
+    {
+      "Text": "[s1] \"หวัดดี"
+    },
+    {
+      "Text": "[s2] \"พวกเธอคือนักเรียนจากสถาบัน SRT ใช่ไหม?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันไม่มีอะไรจะคุยกับคุณหรอกนะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันไม่มีอะไรจะคุยกับคุณหรอกนะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มาที่นี่เพื่อจะมาหัวเราะเยาะพวกเราใช่ไหม? ฉันรู้หรอกน่า!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณคือ... 'ผู้ใหญ่' ที่สั่งการนักเรียนตำรวจจากสำนักรักษาความปลอดภัยใช่ไหมคะ?"
+    },
+    {
+      "Text": "[s] \"ใช่แล้ว\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อย่างนี้นี่เองสินะคะ ผู้ใหญ่ที่นักเรียนทุกคนเชื่อมั่นและทำตาม บุคคลจากองค์กรที่อยู่นอกเหนือ\nกฎหมายและคอยช่วยแก้ปัญหาของนักเรียน คุณครูจากชาเล่ต์ท่านนี้นี่เอง..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ พวกฉันเกลียดผู้ใหญ่อย่างคุณเอามากๆ เลยละค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ภัยสังคมชัดๆ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ขออย่าให้ได้เจอกันอีกเลย"
+    },
+    {
+      "Text": "[ns] \"อืม... พลังเหลือล้นกันจังเลยนะ\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "อย่าไปสนใจการตัดสินของเด็กเกเรพวกนั้นเลยค่ะ สงสัยเพราะโมโหที่พ่ายแพ้จากการสู้รบก็เลย\nพูดจาไม่ดีน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"แล้วเด็กพวกนั้นจะเป็นยังไงต่อเหรอ?\""
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "เราจะสอบสวนแรงจูงใจในการก่อเหตุก่อนแล้วค่อยพิจารณาการลงโทษค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ปกติแล้วระดับการลงโทษจะเป็นไปตามกฎภายในของสถาบันฝึกตำรวจวัลคิรี่..."
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "แต่เหตุการณ์ครั้งนี้สร้างความเสียหายต่อภาพลักษณ์ขององค์การนักเรียนเป็นอย่างมาก เป็นไปได้\nว่าหัวหน้าสำนักป้องกันน่าจะเป็นคนพิจารณาโทษของเด็กพวกนั้นด้วยตัวเองค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "ถ้าคุณครูอยากเข้าไปสังเกตการณ์การสอบสวนก็มาที่สถาบันฝึกตำรวจวัลคิรี่ได้ค่ะ"
+    },
+    {
+      "Name": "คันนะ",
+      "Text": "วันนี้ขอบคุณมากเลยนะคะ งั้นฉันขอตัวก่อนค่ะ..."
+    },
+    {
+      "Text": "ตอนต่อไป;เหตุผลของกองทหาร"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "咲希",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "萌",
+      "Text": "怎麼了嗎？有什麼問題嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "對方好像又出兵了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我還以為對面已經沒人了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "難不成是生活安全局……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "那就是雜魚嘛，白問了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "美優三兩下就能處理好了吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "是那樣沒錯，但總覺得不對勁……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……嘛，是我過度擔心吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "好黑，好恐怖……想趕快回去學校……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……學校已經，被關閉了啊。我能回去的地方……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這樣的話事到如今，不如去女武神……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這樣下去，我會孤零零的被遺忘吧……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們，要像這樣到什麼……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "煙，煙幕彈……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "呀啊！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "從，從哪裡……？對手明明已經……"
+    },
+    {
+      "Name": "美優",
+      "Text": "完全沒有任何聯絡……總，總之先回報……！"
+    },
+    {
+      "Name": "美優",
+      "Text": "請，請問是誰……！？"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "那個……"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "是我啦，是我是我。RABBIT小隊的……"
+    },
+    {
+      "Name": "美優",
+      "Text": "RABBIT小隊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "咦，咲希醬？"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "對對！"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "煙幕彈好像不小心爆炸了，所以我來看看情況。"
+    },
+    {
+      "Name": "美優",
+      "Text": "可，可是咲希醬，你剛才好像有說「絕對不要離開崗位」……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "而且，聲音……"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "啊──因為吸到了一點煙……咳咳，咳咳！"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "嘛，總之別擔心啦。先把槍放下吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "（……好可疑。口吻和聲音完全不像咲希醬……）"
+    },
+    {
+      "Name": "美優",
+      "Text": "（這種時候就要用暗號……）"
+    },
+    {
+      "Name": "美優",
+      "Text": "……「幸運草」。"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲希醬，一定知道吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "回，回答不了的話，我會立刻開槍……！"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "「幸運草」！"
+    },
+    {
+      "Name": "美優",
+      "Text": "……咦，咦？"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "你說了什麼嗎？這邊雜音很多聽不太清楚。話說回來……關於這個暗號的答案，你知道吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "咦，怎，怎麼這樣……！？"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "回答不了的話，就開槍了唷？"
+    },
+    {
+      "Name": "美優",
+      "Text": "胡，「胡蘿蔔」！"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "哼～原來如此啊。了解。"
+    },
+    {
+      "Name": "美優",
+      "Text": "咦，啊，啊……？"
+    },
+    {
+      "Name": "可疑的人",
+      "Text": "可能不善應付心理戰……就如老師所說呢。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "謝謝你告訴我暗號。再見囉，兔子的狙擊手醬。"
+    },
+    {
+      "Name": "美優",
+      "Text": "被，被騙了……！？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……剛才的槍聲是怎麼回事？不覺得很近嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "難道美優被打敗了……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "怎麼可能，是生活安全局耶？包含裝備在內的各個層面，美優都不可能被打敗呀。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "雖然是那樣沒錯……沒辦法聯絡上美優。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我去看看。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "萌，支援拜託你了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒得支援啦，已經沒彈藥了呀？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……哈啊，為什麼？"
+    },
+    {
+      "Name": "萌",
+      "Text": "剛才不是說要「大幹一場」、「用光」嗎。"
+    },
+    {
+      "Name": "萌",
+      "Text": "追擊無人機時，全部砰！掉了♪"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哈啊！？你，騙人的吧！？"
+    },
+    {
+      "Name": "萌",
+      "Text": "不顧後果，一次性全部投入……"
+    },
+    {
+      "Name": "萌",
+      "Text": "那個火花還真美，好興奮……哈啊，哈啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哪有真的如字面上「用光」的傢伙啊！笨蛋！我們現在必須為將來設想吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這個狀況沒了彈藥，之後該怎麼──"
+    },
+    {
+      "Name": "都子",
+      "Text": "剛才的爆炸是……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "咲希、萌，什麼狀況？請回報！"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒有回應……被偷襲了嗎。"
+    },
+    {
+      "Name": "都子",
+      "Text": "所以才說了要警戒……"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒辦法了，首先轉移據點應戰……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "請停下！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "如老師所說真的在這裡……！請不要動！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "佔領各位市民使用的公園，還使用違法武器示威……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "不好意思，請你束手就擒吧！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "請聽從本官的指示，將手舉起來！"
+    },
+    {
+      "Name": "都子",
+      "Text": "（這下麻煩了……竟然已經來到這裡）"
+    },
+    {
+      "Name": "都子",
+      "Text": "（武裝只有制式手槍……第一槍我應該能躲開……）"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "請，請不要動！真的會開槍唷！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……這我可恕難從命！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "本，本官要開槍了！"
+    },
+    {
+      "Name": "都子",
+      "Text": "──！！我明明有看清楚槍口的方向……！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "難道她預判我會躲開，故意最後一刻打向其他方向……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "看來我也，掉以輕心了……嗎……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "……命，命中了！？！？"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "難，難道本官的射擊能力終於也進步了嗎……？"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "果然努力是會結果的……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "而正義也是，無論何時都會勝利……就是這樣吧！"
+    },
+    {
+      "Name": "環奈",
+      "Text": "真不敢相信……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "沒想到真的只以生活安全局的學生，就壓制了SRT……"
+    },
+    {
+      "Text": "[s] 「多虧兩位努力了呢。」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "原來如此……這就是[USERNAME]老師的力量。而且還如此謙虛。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "看來學生們的傳言，都不是空穴來風。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……我謹代表女武神警察學園，感謝您。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "看見了嗎，老師！？我完美的射擊！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "正如警備局的大家一樣，漂亮的一擊……！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "哎呀～沒想到那麼古老的手法還行得通呢……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "嘛，雖然全靠老師的作戰……能順利成功就好。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "這下應該能給個20天左右的榮譽假吧。嘻嘻……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "……哈啊。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "我認同你們的功績，但那不是我這種立場可以決定的事。\n是更上層長官的管轄範圍。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "辛苦了。關於報酬，等下個月的獎懲公告吧。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "什麼啊，不是立刻拿到嗎……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "真失望啊。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "不過下個月就快到了！搞不好真的可以到警備局……！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "呃，那個就免了……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "給我我也不要……"
+    },
+    {
+      "Name": "萌",
+      "Text": "我們竟然被那種一臉蠢樣的傢伙……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "你還有臉說，你還不是一樣蠢到把彈藥一口氣耗盡。"
+    },
+    {
+      "Name": "萌",
+      "Text": "你在說什麼呀，沒有東西能比瞬間的光輝還重要！"
+    },
+    {
+      "Name": "美優",
+      "Text": "已經結束了啊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "SRT也是，RABBIT小隊也是，我也是……命中注定要全部被奪走，寂寞的消失……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Text": "[s1] 「初次見面。」"
+    },
+    {
+      "Text": "[s2] 「你們是SRT特殊學園的學生們……對吧？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……我們跟你沒什麼好說的！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……我們跟你沒什麼好說的！"
+    },
+    {
+      "Name": "萌",
+      "Text": "什麼什麼，潑冷水？還是來嘲笑我們的？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……你就是指揮那個生活安全局的，「大人」嗎？"
+    },
+    {
+      "Text": "[s]「嗯，沒錯唷。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是這樣嗎。你就是那個，解決大量學生們的煩惱，受到學生們信賴，持有超法規搜索權的「夏萊的老師」……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……老師。我們最討厭像你這樣的大人了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "下地獄吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "再也不見。"
+    },
+    {
+      "Text": "[ns] 「嗯……真有精神啊。」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "請別在意。她們只是因為打輸而正覺得煩躁吧。"
+    },
+    {
+      "Text": "[s] 「那些孩子，接下來會怎麼樣？」"
+    },
+    {
+      "Name": "環奈",
+      "Text": "首先是審訊。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "平常在那之後，會交由女武神決定如何懲處……"
+    },
+    {
+      "Name": "環奈",
+      "Text": "但這次有些牽扯上聯邦學生會，恐怕不會那樣吧。應該會由防衛室長下決定。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "若您需要，應該能讓您觀看審訊的狀況。"
+    },
+    {
+      "Name": "環奈",
+      "Text": "那麼，總之今日辛苦您了。"
+    },
+    {
+      "Text": "下一話;各自的情況"
+    }
+  ]
+}

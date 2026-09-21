@@ -1,0 +1,2472 @@
+{
+  "TitleJP": "忍者襲来！",
+  "TitleKR": "닌자, 습격해오다!",
+  "TitleEN": "Attack of the Ninjas!",
+  "TitleTH": "นินจาบุกจู่โจม!",
+  "TitleTW": "忍者襲來！",
+  "DescJP": "まだ認可を得ておらず、正式な部活ではない「忍術研究部」。先生ならその認可を出せたりするのではないかと思い、彼女たちはシャーレにやってきたのだと言う。それを安易に出してしまうのも難しいなと先生が悩んでいると、そこに同じ百鬼夜行の「陰陽部」であるカホが訪れ……？",
+  "DescKR": "어느 날 갑자기 인법연구부 멤버들이 샬레의 선생님을 찾아온다. 인법연구부가 정식 동아리가 될 수 있도록 선생님이 협력해 주었으면 한다면서, 미치루가 미인계 등으로 선생님을 곤혹스럽게 만드는 그때. 마침 음양부의 카호가 샬레를 찾아온다.",
+  "DescEN": "One day, the Ninjutsu Research Club suddenly visits Sensei at Schale. They want Sensei to help them in their mission to become an official club. As Michiru is trying to convince Sensei, Kaho from the Yin-Yang Club shows up at Schale.",
+  "DescTH": "สมาชิกชมรมวิจัยศาสตร์นินจามาหาคุณครูที่ชาเล่ต์อย่างกะทันหัน\nพวกเธออยากให้คุณครูร่วมมือกันเพื่อให้ชมรมวิจัยศาสตร์นินจาได้เป็น\nชมรมอย่างเป็นทางการ แต่มิจิรุก็ทำให้คุณครูจนปัญญาด้วยวิชาเสน่ห์\nยวนใจ ในตอนนั้นเองคาโฮะจากชมรมหยินหยางก็มาที่ชาเล่ต์พอดี",
+  "DescTW": "某天忍術研究部的成員們突然來找夏萊的老師。就在三千留聲稱希望老師可以幫忙，讓忍術研究部成為正式社團，發動美人計等讓老師感到困惑的那個時候。正好陰陽部的佳穗來到夏萊。",
+  "DialogJP": [
+    {
+      "Text": "プロローグ;忍者襲来！"
+    },
+    {
+      "Text": "シャーレ・休憩室"
+    },
+    {
+      "Text": "（シャーレの業務が終わり、休憩していたところ……）"
+    },
+    {
+      "Text": "[ns] \"あれ、電気が……？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "ふっふっふ！無事に潜入に成功！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "わぁ……本当に、潜入できちゃうなんて……あの、噂のシャーレに……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "忍者の鉄則その壱！「忍者とはいついかなる状況でも、躊躇わずに挑戦するもの」！だからね！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "これで、シャーレを我が手中に……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "すごいことに、なってきましたね……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "忍者であるならば、後先まで考えず、とにかくやってみることも、大切……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "部長のその精神、忘れないように、メモしておきます……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……それ、褒めてるんだよね？何か曲解されてない？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "えっと、とにかく早く行こう！忍者走りでね、シュタタタタタタッって！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "はいっ、シュタタタタタタッ……！"
+    },
+    {
+      "Text": "[ns] \"えっと……。\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "………へ？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "あ、え………？"
+    },
+    {
+      "Text": "[s] \"君たちは……？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "あ、あああ慌てないでツクヨ！こういう時こそ思い出すの！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "忍者の鉄則！その弐ッ！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "あっ、はいっ！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "「忍者とはどんな窮地でも、決して諦めないもの」……！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そう！というわけでこうなったら、二人で同時に「アンブッシュ・術」だよっ！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "え、それって、良いんでしょうか……？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "大丈夫大丈夫、GO！"
+    },
+    {
+      "Text": "[s] \"いや、ちょっ、待っ――\""
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "あ、部長。電気が……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "何でぇっ！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナ、参上です！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "あっ、イズナちゃん……！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "主殿の声が聞こえたので、シュババっと参りました！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "あの声、もしや主殿の危機……！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "そうとあっては、黙っていられません！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナ、加勢いたします！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "イズナ待ったぁ！それは計画と違――"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ニンニンっ！"
+    },
+    {
+      "Text": "[s] \"うわああっ！？\""
+    },
+    {
+      "Text": "（その後なんとか説得に成功し、急に襲ってきた三人を落ち着かせることができた）"
+    },
+    {
+      "Text": "シャーレ・オフィス"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "もーっ、イズナ！あれじゃ作戦と違うじゃん！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "うう……でも部長！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "主殿の声を聴いてしまった瞬間、いてもたってもいられず……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "やはり忍者として、ジッとしていることはできませんでした！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "いやいやいや、それは良いことだけど！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "でも、その……素早く駆けつけてきたイズナちゃん……。"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "その、すっごくカッコ良かったと、思うよ。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "えへへっ！ありがとうございます、ツクヨ殿！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "えへへ……。"
+    },
+    {
+      "Text": "[s] \"えっと、イズナの知り合い……なのかな？どうしてここに……？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ん？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "あー、えっと、その……私たちは……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "あ、主殿……！？まさか……！"
+    },
+    {
+      "Text": "[s] \"……まさか？\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナと共に過ごした日々を、忘れてしまったのですか！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "もしかして、先ほどの衝撃ですべての記憶を失ったという展開ですか！？"
+    },
+    {
+      "Text": "[s] \"いや、そうじゃなくてイズナのことは勿論知っ――\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "そういえばイズナ、忍者ドラマで見たことがあります！主を守るために我が身を賭した忍者が、不意に襲われ……！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ついに記憶喪失になってしまう、涙なしでは見られないあの展開を！それが、主殿に降りかかってしまったという……！？"
+    },
+    {
+      "Text": "[s] \"イズナ、待っ――\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナと主殿が初めて会ったあの瞬間を……！イズナの夢を応援してくれると言ったあの時を……！忘れてしまったのですか！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "幾つもの修羅場を潜り抜け、あの天下の大悪党……"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "世界を支配しようとしていたあの大魔王「ニャン天丸」を、イズナたちと一緒に倒したではありませんか！あの思い出まで、失われてしまったのですか……！？"
+    },
+    {
+      "Text": "[s] \"そ、そこまでの一大イベントは記憶に無いけど……。\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナ、悲しいです……ですが、ご安心ください！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "たとえ主殿が全て忘れてしまったとしても……思い出はまた、重ねていけば良いのですから！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナは何があっても、主殿の忠実な忍者です！そして主殿は、いつまでもイズナの主殿ですから！ニンニン！"
+    },
+    {
+      "Text": "[s1] \"それは嬉しいけど、そうじゃなくて……。\""
+    },
+    {
+      "Text": "[s2] \"イズナ以外の子は初対面だよね、初めまして。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "なるほど、私たちの正体について知りたいと……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "それではあらためて……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ドーモ、お初にお目にかかります、先生殿……小生、ミチルと申す。"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "初め、まして……！ツクヨと、言います……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "そして、イズナはイズナです！主殿！"
+    },
+    {
+      "Text": "[s] \"こんにちは……って、先生「殿」？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ふっふっふ……何を隠そう私たち3人は、そう！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "さあイズナ、ツクヨ！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "はい、部長！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "はいっ……！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "いざ、忍者流ハイパー決めポーズだよっ！"
+    },
+    {
+      "Text": "[s] \"忍者流、ハイパー……？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "忍者とは何なのか！そして、忍法とは何なのか！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "忍者の、真髄……！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その本質を研究し、探究し、そして究明する……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "忍者の魅力を広めるために暗躍する、キュートな忍者三人組！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "なのです！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "泣く子も笑う、"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "百鬼夜行連合学院最強の忍者集団！"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その名も、「忍術研究部」！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "です！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "です……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そして、私が忍術研究部の部長！[ruby=ちどり]千鳥[/ruby]ミチル！"
+    },
+    {
+      "Text": "[s] \"なるほど……？それで、忍術研究部がどうしてここに？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ふっふっふ……ふーっふっふっふ！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "先生殿は今、こう考えてるんでしょ。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "「なんてカッコよくて可憐な、美少女忍者たちなんだろう！」……と。"
+    },
+    {
+      "Text": "[s] \"う、うん……。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そして、こうも思ったはず。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "「この子たちを応援したい！その成長中の翼を広げ、広い世界へと羽ばたけるように、大人の力で支えてあげたい！」……と。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "みなまで言わずとも分かるよ。そうなると思って、これを準備しておいたの！"
+    },
+    {
+      "Text": "[ns] \"「部活の認可に関する推薦状」……？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "さあ、ここにサインを！"
+    },
+    {
+      "Text": "[s3] \"これを貰うために、ここへ？\""
+    },
+    {
+      "Text": "[s4] \"っていうことは忍術研究部は、まだ正式な部活じゃないってこと？\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "部長、そうだったのですか？イズナ、今初めて知りました！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "私も、てっきり……先生に挨拶するため、なのかな、って……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そ、それもあるけど！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "……こほん。先生殿の噂は聞いてるよ。何でもすんごいパワーがあるんだって！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その力があれば、部活の認可も叶えられる……でしょ！？だからお願い！"
+    },
+    {
+      "Text": "[s] \"それはちょっと難しいかな……。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "なっ……！？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "えっ……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "？？？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ど、どうして……！？まさか先生殿も……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "「忍者を研究する部活なんて、そんなよく分からない活動は認められない」ってこと……！？"
+    },
+    {
+      "Text": "[s] \"そうじゃなくて、普通にちゃんとした手続きが必要なんじゃない？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そ、それはそうだけど……でも……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "で、でも！カホはこんな活動、絶対に認めてくれない！"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その、えっと……そう！承認がおりるまですごく時間がかかるし、かなり厳しいし……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "か、カホさんってそんなに厳しい方……でしたっけ……？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そ、そうじゃない時もあるけど……と、とにかくお願い、先生殿！"
+    },
+    {
+      "Text": "[s] \"うーん、何とかしてあげたいのは山々だけど……。\""
+    },
+    {
+      "Text": "[ns] \"またお客さん……？\""
+    },
+    {
+      "Name": "カホ",
+      "Text": "……初めまして、先生。私は陰陽部の副部長、[ruby=くわかみ]桑上[/ruby]カホと申します。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "陰陽部よりシャーレへと依頼したいことがありまして、こちらへ参りました。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "少々お時間をいただけますでしょうか？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "うにゃっ！噂をすればなんとやら……！？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "……あら。"
+    },
+    {
+      "Text": "[s] \"陰陽部ってことは、百鬼夜行の……？\""
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "프롤로그;닌자, 습격해오다!"
+    },
+    {
+      "Text": "샬레의 휴게실"
+    },
+    {
+      "Text": "(샬레의 오전 업무를 예정보다 일찍 끝내고, 잠시 휴게실에 들러 쉬고 있을 때였다.)"
+    },
+    {
+      "Text": "[ns] \"어라? 왜 불이…….\""
+    },
+    {
+      "Name": "???",
+      "Text": "후후, 무사히 잠입 완료!"
+    },
+    {
+      "Name": "???",
+      "Text": "저, 정말로 저희…… 자, 잠입해버린 거네요. 말로만 듣던 그, 그 샤, 샬레에……!"
+    },
+    {
+      "Name": "???",
+      "Text": "닌자의 철칙 그 첫 번째! <닌자란! 자고로 언제 어디서든 망설이지 않고 도전해야 하는 법!>"
+    },
+    {
+      "Name": "???",
+      "Text": "이것으로 샬레도 손에 넣는다!"
+    },
+    {
+      "Name": "???",
+      "Text": "앗, 과연……!"
+    },
+    {
+      "Name": "???",
+      "Text": "닌자라면 자고로 앞뒤 재지 않고 일단 저지르고 보는 것도 중요하다……"
+    },
+    {
+      "Name": "???",
+      "Text": "부장님의 말씀! 잊지 않도록 메, 메모할게요!"
+    },
+    {
+      "Name": "???",
+      "Text": "저기…… 그거 칭찬 맞지……?"
+    },
+    {
+      "Name": "???",
+      "Text": "하여간 바로 가자! 샤샤샥-! 닌자 이동이닷!"
+    },
+    {
+      "Name": "???",
+      "Text": "네, 넷! 샤, 샤샤샥, 이, 이에요오……!"
+    },
+    {
+      "Text": "[ns] \"저기, 너희들…….\""
+    },
+    {
+      "Name": "???",
+      "Text": "………어?"
+    },
+    {
+      "Name": "???",
+      "Text": "네엣………?"
+    },
+    {
+      "Text": "[s] \"너흰 누구야……?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "우냐앗! 당황하지 마! 츠쿠요! 내가 몇 번이나 말했잖아!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "닌자의 철칙! 그 두 번째!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "앗, 네, 넵!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "<닌자란! 자고로 어떤 궁지에 몰리더라도, 어떠한 역경에 부딪치더라도 포기하지 않는 법!>"
+    },
+    {
+      "Name": "미치루",
+      "Text": "바로 여기서 츠쿠요와 나! 둘이서 동시에 <앰부쉬>야!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "……네? 여, 여……. 여기서 말인가요오?!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "간닷!"
+    },
+    {
+      "Text": "[s] \"아니, 자, 잠깐, 기다ㄹ-?!\""
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "앗, 부장님. 전등이……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "응?!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나……! 등장! 이에요!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "앗, 이즈나 쨩!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "저 이즈나! 주군의 목소리를 듣고, 지금 막 나타났습니다!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주, 주구운……?! 설마 주군께서는 지금 위기일발?!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "아, 안 돼요! 그건 안 되는 일이에요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나! 가세하겠습니다!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "잠깐, 이즈나앗-! 이건 계획이랑 다르잖……."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "에잇-! 닌닌-!"
+    },
+    {
+      "Text": "[s] \"우, 우와아앗?!\""
+    },
+    {
+      "Text": "(약 10분 정도의 실랑이 끝에 간신히, 덮쳐온 세 명에게서 빠져나올 수 있었다.)"
+    },
+    {
+      "Text": "샬레의 사무실"
+    },
+    {
+      "Name": "미치루",
+      "Text": "우갸악! 이즈나! 갑자기 덮쳐오면 어떡해! 작전이랑 다르잖아!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "우으……. 하지만 부장!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군이 도움을 요청하는 목소리를 들은 순간, 저 이즈나! 저도 모르게 발이 움직여 버렸어요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네……! 그야말로 닌자처럼!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "아니, 물론 그 마음을 모르는 건 아니지만!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "그, 그래도, 이, 이즈나 쨩이 재빠르게 달려왔을 때의 그, 모, 모습……."
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "머, 멋졌어요. 이, 이즈나 쨔앙."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "에헤헷! 칭찬, 고맙습니다. 츠쿠요 공!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "에, 에헤헤……."
+    },
+    {
+      "Text": "[s] \"그러니까, 이즈나의 지인…인가? 어째서 여기에……?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "응?"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네?! 아, 저, 저, 저기, 그러니까. 저, 저, 저희는……."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "앗, 주, 주군……?! 설마……!"
+    },
+    {
+      "Text": "[s] \"설마?\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나와 함께 했던 날들을 잊어버리신 건가요?!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "혹시 방금 전의 충격으로 기억을 전부 잃어버렸다는 전개인가요?!"
+    },
+    {
+      "Text": "[s] \"그런 게 아니라, 이즈나는 물론 기억을…….\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "그러고 보면, 이즈나……. 닌자 드라마에서 본 적 있었어요! 주군을 지키기 위해 몸을 던진 닌자가 습격을 받아……."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "끝내 기억상실증에 걸려 버리는, 눈물 없이는 볼 수 없는 전개를! 그런데 여기선 주군이?!"
+    },
+    {
+      "Text": "[s] \"이즈나, 잠깐, 좀 진정…….\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군…… 전부 잊어버리셨나요! 이즈나가 주군과 처음 만났던 그 순간을……! 이즈나의 꿈을 응원해준다고 말했던 그때를……!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "그 뒤로도 갖은 수라장 끝에 마침내 냥텐마루라고 부르는 천하의 대악당을……."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "세계를 지배할 야욕을 품었던 그 대마왕을 이즈나, 그리고 동료들과 함께 쓰러트렸던 그 추억까지 전부 잊어버리시고야 만 건가요?!"
+    },
+    {
+      "Text": "[s] \"아니, 그 정도로 엄청난 이벤트를 겪었던 기억은 없는데?!\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나, 슬프지만. 그래도 괜찮아요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "설사 주군께서 전부 잊어버리셨더라도 추억은, 다시 쌓아가면 되는 거니까요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나는 언제나 주군의 닌자! 주군은…… 언제나 이즈나의 주군이니까요! 닌닌!"
+    },
+    {
+      "Text": "[s1] \"이즈나, 고마운 말이지만. 그런 심각한 설정이 아니니까!\""
+    },
+    {
+      "Text": "[s2] \"그냥 다른 두 사람과 초면이라 물어본 거니까!\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "후후후. 과연, 우리가 누군지 궁금하다. 이거지."
+    },
+    {
+      "Name": "미치루",
+      "Text": "흠흠……!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "도-모, 처음 뵙겠습니다. 선생=공. 소생은 미치루라고 하오."
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "아, 그, 처, 처, 처음 뵙겠습니다……! 츠, 츠쿠요라고, 하, 합니다아……."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "그리고 이즈나는 이즈나예요! 주군!"
+    },
+    {
+      "Text": "[s] \"아, 안녕……이 아니라……. 선생, 공?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "우햐햣! 무엇 숨기랴! 이 자리에 모인 우리 3인방! 내 소개해 드리 오리다!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "이즈나! 츠쿠요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네! 부장!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네, 넷! 부, 부, 부장님……!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "닌자 하이퍼 합체다!"
+    },
+    {
+      "Text": "[s] \"닌자, 뭐……?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "닌자란 무엇인가! 나아가 닌자가 사용하는 인법이란 무엇인가!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "무, 무엇인가!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그 본질을 연구하고 탐구하고, 또한 궁구하는……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "무릇 닌자의 매력을 널리 알리기 위해 활동하는, 귀엽고 아리따운 소녀 우리 삼인방!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "삼인방이에요~!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "우는 아이도 듣고 나면 방긋 웃게 된다는,"
+    },
+    {
+      "Name": "미치루",
+      "Text": "백귀야행 학원-! 최강의 닌자 동아리!"
+    },
+    {
+      "Text": "[s] \"……?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "이름하여어어!! <인법연구부>라 이름을 대겠소이다!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네! 대겠소이다~♪"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "대, 대겠, 대, 대겠, 소이다아……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "그리고 내가 바로 그 인법연구부의 부장! 치도리 미치루란 말씀!"
+    },
+    {
+      "Text": "[s] \"으음, 그래서 인법연구부가 여긴 어쩐 일이야?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "크흠. 흠흠. 크흠! 흠흠흠흠!!!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "선생 공은 우리를 보고 이렇게 생각했을 거야."
+    },
+    {
+      "Name": "미치루",
+      "Text": "아마 '이 소녀들! 닌자! 닌자다! 너무나도 굉장하고 멋진! 미소녀 닌자가 나타났다!' 라고."
+    },
+    {
+      "Text": "[s] \"아니, 그런 건 딱히…….\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "그럼 당연히 이런 생각도 했을 거야."
+    },
+    {
+      "Name": "미치루",
+      "Text": "'아아! 이 소녀들을 응원하고 싶다! 널따란 날개를 펼치고, 가슴에 품은 풍운의 꿈을 펼치도록 응원하고 싶구나!'……라고."
+    },
+    {
+      "Name": "미치루",
+      "Text": "응응. 이해해. 나라도 완전 그랬을 테니까. 그래서 준비했어!"
+    },
+    {
+      "Text": "[ns] \"<정식 동아리 인가 추천서>……?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "그러니 자! 여기에! 사인을 부탁해!"
+    },
+    {
+      "Text": "[s3] \"정식 동아리 인가를 받기 위해 찾아온 거야……?\""
+    },
+    {
+      "Text": "[s4] \"그보다 인법연구부는 정식 동아리가 아니었던 거야?\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네? 부장?! 그런 계획이었나요?! 이즈나 몰랐어요!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "앗, 저, 저도…… 어, 어디까지나 서, 선생님께 안부 인사를 하러 온 줄로만……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "무, 물론 그것도 있지만……!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "……흠흠! 선생 공의 소문은 들었어. 뭐든 해결할 수 있는 엄청난 파워가 있다고!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그러니! 도와주라! 선생 공이 도와준다면 정식 동아리가 되는 것쯤이야……!"
+    },
+    {
+      "Text": "[s] \"안 돼. 그럴 수 없어.\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "뭣……?!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네, 네엣?"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "캥……?!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "뭐, 뭐냐고! 설마…… 선생 공…… 선생 공도……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "<닌자를 연구하는 동아리라니, 그런 웃기지도 않는 동아리 활동은 인정해줄 수 없어.> 같은 말을 하려고……!"
+    },
+    {
+      "Text": "[s] \"정식 동아리가 되기 위해선 따로 절차가 있는 거지?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "응? 아, 그, 그건 그런데…… 그게, 그러니까………"
+    },
+    {
+      "Name": "미치루",
+      "Text": "하, 하지만! 카호는 이런 건 전혀 받아주지 않는단 말이야!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "엄청 깐깐하고……! 또 그래! 깐깐하거든!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "……?"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "카, 카호 씨가 그렇게 깐깐한 분……이셨던가요……?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "응? 그러니까. 이 부분을 선생 공이 어떻게 좀……"
+    },
+    {
+      "Text": "[s] \"그러니까 못 해준대도…….\""
+    },
+    {
+      "Text": "[ns] \"어라…… 손님?\""
+    },
+    {
+      "Name": "카호",
+      "Text": "처음 뵙겠습니다. 선생님. 저는 음양부 소속의 부부장, 쿠와카미 카호."
+    },
+    {
+      "Name": "카호",
+      "Text": "음양부로서 샬레에게 정식으로 의뢰할 건이 있어 찾아왔습니다만."
+    },
+    {
+      "Name": "카호",
+      "Text": "잠시 함께 가주실 수 있을까요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "우왓! 호랑이도 제 말하면 나타난다더니……!"
+    },
+    {
+      "Name": "카호",
+      "Text": "……어라, 여러분은……"
+    },
+    {
+      "Text": "[s] \"어, 음양부의 정식 의뢰……?\""
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Prologue; Attack of the Ninjas!"
+    },
+    {
+      "Text": "Schale Lounge"
+    },
+    {
+      "Text": "I decided to take a quick break at the lounge after finishing up some tasks ahead of schedule at Schale."
+    },
+    {
+      "Text": "[ns] \"Huh? Did that light just...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "We snuck in without a hitch. Heehee."
+    },
+    {
+      "Name": "???",
+      "Text": "W-We... We really did it! We really infiltrated the infamous Schale..."
+    },
+    {
+      "Name": "???",
+      "Text": "Ninja rule number one! A ninja must be willing to take on anything, anytime, anywhere, without hesitation!"
+    },
+    {
+      "Name": "???",
+      "Text": "This is how we'll take over Schale!"
+    },
+    {
+      "Name": "???",
+      "Text": "Oh! Yes, of course!"
+    },
+    {
+      "Name": "???",
+      "Text": "As a ninja, you need to take action instead of being timid and indecisive...!"
+    },
+    {
+      "Name": "???",
+      "Text": "What wise words from our president! Let me put that in my notebook."
+    },
+    {
+      "Name": "???",
+      "Text": "Uh... That was as a compliment, right...?"
+    },
+    {
+      "Name": "???",
+      "Text": "Okay, time to go! Whup-whup-whup! Ninjas on the move!"
+    },
+    {
+      "Name": "???",
+      "Text": "Oh, uh, yes! Whup-whup-whup...!"
+    },
+    {
+      "Text": "[ns] \"Uh, you guys...\""
+    },
+    {
+      "Name": "???",
+      "Text": "Eh?"
+    },
+    {
+      "Name": "???",
+      "Text": "Huh?!"
+    },
+    {
+      "Text": "[s] \"Who are you...?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Argh! Don't panic! Tsukuyo! How many times do I have to tell you?!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Rule two of being a ninja!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Ooh! I-I know!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "A ninja never gives up, no matter the adversity!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Tsukuyo! Time for our special two-person ambush, you and me! Right here, right now!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Wh-What? Right now?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Yes, right now!"
+    },
+    {
+      "Text": "[s] \"Hey, wait a second!\""
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Huh? President! The light..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Never fear! Izuna is here!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Izuna...?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I made my way here as quickly as my ninja legs could carry me, my lord!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "M-My lord...?! Could it be what I heard was a cry for help?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "You're in danger?! That can't be!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I, Izuna, will defend my lord!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Izuna! Stop! That's not the plan!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Hiyah! Nin-nin!"
+    },
+    {
+      "Text": "[s] \"Uh, wha?!\""
+    },
+    {
+      "Text": "After tussling for about ten minutes, I was finally able to extricate myself from the scuffle."
+    },
+    {
+      "Text": "Schale Office"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Why'd you pop out like that, Izuna?! That wasn't part of the plan!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "B-B-But...President!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I heard my lord's pleading cries, and my body acted on its own!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "L-Like a true ninja!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "It's not that I don't understand your motives but..."
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Y-You know the way Izuna rushed over without a second thought..."
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "She looked so valiant!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Heehee! I thank thee for the compliment, dear Tsukuyo!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Eek! Heh...heehee...heh..."
+    },
+    {
+      "Text": "[s] \"So, you're Izuna's friends... What are you doing here?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "W-Well... Uh...the thing... You see... W-w-w-we're..."
+    },
+    {
+      "Name": "Izuna",
+      "Text": "M-My lord?! Say it is not so...! Please!"
+    },
+    {
+      "Text": "[s] \"...Not what?\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Have you already forgotten the time you spent with your dear retainer?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Did the trauma of their ambush make you lose your memory?!"
+    },
+    {
+      "Text": "[s] \"What? No. Of course I remember you, Izuna.\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I've seen this before in a ninja drama... A ninja selflessly put herself in harm's way trying to protect her lord..."
+    },
+    {
+      "Name": "Izuna",
+      "Text": "...But ended up with amnesia after being attacked! The plot twist left me in tears. But now, in my story, my lord is the one with amnesia!"
+    },
+    {
+      "Text": "[s] \"Stop with the amnesia theory for a second, Izuna...\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Have you truly forgotten everything? Even the moment where your Izuna became your official retainer? When you encouraged my hopes and dreams?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "The villainous saga of the Date Meowru...? All the twists and turns?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "All our precious memories of putting a stop to the evil overlord together and saving the world? Have those wonderful times truly been erased from your memory?"
+    },
+    {
+      "Text": "[s] \"I don't recall saving the world! Ever!\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I, Izuna, am devastated to hear this. But it'll be okay, my lord!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Even if you've forgotten our memories, we can just make new ones!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Memory or not, I will always be your faithful ninja! And you...you my precious lord."
+    },
+    {
+      "Text": "[s1] \"Thanks, Izuna, but that wasn't what I meant!\""
+    },
+    {
+      "Text": "[s2] \"I was just asking who your friends were!\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Fufufu. So you want to know who we are?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Ahem!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Domo! Pleased to make your acquaintance, Honorable Sensei. I am Michiru."
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Uhh! Um, p-p-pleased to meet you...! I-I'm Tsukuyo..."
+    },
+    {
+      "Name": "Izuna",
+      "Text": "And it is I, Izuna, my lord!"
+    },
+    {
+      "Text": "[s] \"Hi, everyone... Sorry, did you say Honorable Sensei?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Bahaha! Why beat around the bush? Allow me to introduce our ninja squad!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Izuna! Tsukuyo!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Yes, President!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Y-Yes, P-P-President!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Ninjas, hyper unite!"
+    },
+    {
+      "Text": "[s] \"Ninjas...what...?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "You must be wondering, just what is a ninja? What is this \"ninjutsu\" I speak of?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Wh-What is it?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Ninjas are always learning, always exploring, and always seeking more..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "We the trio of three work tirelessly to spread all aspects of ninja charm!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Trio of three!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "With us on the case, even crying babies find their smiles!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "The premier ninja club of the Hyakkiyako Academy!"
+    },
+    {
+      "Text": "[s] \"Ninja club?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "We are the one and only! The Ninjutsu Research Club!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Yes! The one and only. ♪"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Th-The one and, uh, o-o-only..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "And I am the president of this very club! Chidori Michiru!"
+    },
+    {
+      "Text": "[s] \"That's great and all, but what are you all doing here?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "W-Well... Um... Hmm... Ahem!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "I understand, Honorable Sensei. When you first saw us you must have thought..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "\"Wow! Real-life ninjas! A trio of three awesome and adorable ninjas have appeared like ninjutsu!\""
+    },
+    {
+      "Text": "[s] \"Not my exact words...\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Then, Honorable Sensei, this very next thought appeared in your head!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "\"Yes! I would love to support these girls! I hope they one day grasp their ninja dreams in their hands and live the life they deserve!\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Don't worry, such thoughts are natural when faced with ninjas. I would feel the same way, so I have prepared something to help you!"
+    },
+    {
+      "Text": "[ns] \"An official club-accreditation recommendation form?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Yes, yes! Just sign on the dotted line, please?"
+    },
+    {
+      "Text": "[s3] \"You came here for an official club accreditation?\""
+    },
+    {
+      "Text": "[s4] \"Does this mean the Ninjutsu Research Club isn't an official club?\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "This was your plan all along, President?! I had no idea!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Me neither... I thought we were just saying hi to Sensei..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "W-Well... That too, I guess?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "...Anyway. Your reputation precedes you, Honorable Sensei! Tales of your achievements have spread across the lands, of your ability to solve any problem that comes across your path!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "So helping us become an official club will be a snap!"
+    },
+    {
+      "Text": "[s] \"Sorry. No can do.\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "S-Sensei?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "MY LORD?!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "What are you saying?! Honorable Sensei...please... Don't tell me..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Don't tell me even you don't believe in the ninja way and think that \"a club for studying ninjas is a total joke!\""
+    },
+    {
+      "Text": "[s] \"There's an actual process you have to undergo to become official, right?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "That...?! Well... Technically, yes. But the thing is..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "That inconsiderate Kaho refuses to listen to anything we say!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "She's a total stickler for no good reason! She's super strict!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "...?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "That doesn't really sound like Kaho to me..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Ahem! Anyways! Honorable Sensei, please listen to our pleas."
+    },
+    {
+      "Text": "[s] \"My answer's the same.\""
+    },
+    {
+      "Text": "[ns] \"Oh... Another guest?\""
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Pleasure, Sensei. I'm the vice president of the Yin-Yang Club, Kuwakami Kaho."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "I'm here on behalf of the Yin-Yang Club to make an official request to Schale."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Please, could I have a moment of your time?"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Whoa! Speak of the devil!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Are you...?"
+    },
+    {
+      "Text": "[s] \"Uh, an official request from the Yin-Yang Club?\""
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "บทเริ่มต้น;นินจาบุกจู่โจม!"
+    },
+    {
+      "Text": "ห้องพักผ่อนที่ชาเล่ต์"
+    },
+    {
+      "Text": "(งานช่วงเช้าของชาเล่ต์เสร็จเร็วกว่ากำหนด เลยตั้งใจมาพักที่ห้องพักผ่อน)"
+    },
+    {
+      "Text": "[ns] \"เอ๋? ทำไมไฟถึงได้...\""
+    },
+    {
+      "Name": "???",
+      "Text": "ฮุฮุ ลอบเข้ามาได้สำเร็จ!"
+    },
+    {
+      "Name": "???",
+      "Text": "พะ... พวกเราลอบเข้ามายัง... ชะ... ชาเล่ต์ที่เคยได้ยินมา... จะ... จนได้สินะคะ...! "
+    },
+    {
+      "Name": "???",
+      "Text": "กฎเหล็กของนินจาข้อแรก! <นินจาน่ะ! จะต้องไม่ลังเลที่จะเผชิญความท้าทายไม่ว่าเมื่อไร ไม่ว่าที่ไหน!>"
+    },
+    {
+      "Name": "???",
+      "Text": "เพราะงั้นเราก็เลยมาที่ชาเล่ต์แห่งนี้!"
+    },
+    {
+      "Name": "???",
+      "Text": "อ๊ะ หรือว่า...!"
+    },
+    {
+      "Name": "???",
+      "Text": "ถ้าเป็นนินจาละก็ต้องลงมือทำเลยโดยไม่ต้องคิดหน้าคิดหลัง..."
+    },
+    {
+      "Name": "???",
+      "Text": "คำพูดของท่านหัวหน้า! ฉะ... ฉันจะจำไว้ไม่ลืมเลยค่ะ!"
+    },
+    {
+      "Name": "???",
+      "Text": "นั่นมัน... คำชมใช่มั้ยเนี่ย...?"
+    },
+    {
+      "Name": "???",
+      "Text": "เอาละไปกันเถอะ ฉึบฉับๆๆ! นินจาเคลื่อนตัว...!"
+    },
+    {
+      "Name": "???",
+      "Text": "คะ... ค่ะ! ฉะ... ฉึบฉับๆ ค่ะ...!"
+    },
+    {
+      "Text": "[ns] \"คือว่า...พวกเธอ...\""
+    },
+    {
+      "Name": "???",
+      "Text": "...เอ๋?"
+    },
+    {
+      "Name": "???",
+      "Text": "คะ...?"
+    },
+    {
+      "Text": "[s] \"พวกเธอเป็นใครน่ะ...?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อ๊าก! ไม่ต้องตกใจไป! สึคุโยะ! ข้าน้อยบอกหลายครั้งแล้วไงเล่า!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "กฎเหล็กของนินจา! ข้อที่สอง!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "อ๊ะ คะ...ค่ะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "<นินจาน่ะ! ไม่ว่าจะถูกต้อนจนมุมหรือต้องเผชิญกับความยากลำบากแค่ไหน ก็จะไม่มีวันยอมแพ้เด็ดขาด! >"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เอาละสึคุโยะ! เราสองคนมา <ซุ่มโจมตี> พร้อมกันเถอะ!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ...? ตะ... ตะ... ตรงนี้เลยเหรอคะ?!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ลุยเลย!"
+    },
+    {
+      "Text": "[s] \"ระ... รอเดี๋ยวก่อนสิ?!\""
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "อ๊ะ ท่านหัวหน้า หลอดไฟมัน..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หืม?!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อิซุนะ...! ปรากฏตัว! แล้วค่ะ!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "อ๊ะ อิซุนะจัง!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อิซุนะน่ะ! พอได้ยินเสียงเรียกของนายท่านก็รีบมาเลยค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นะ...นายท่าน?! หรือว่านายท่านกำลังตกอยู่ในสถานการณ์คับขัน?!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "มะ...ไม่ได้นะ! แบบนั้นไม่ได้เด็ดขาดค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อิซุนะ! จะทำการช่วยเหลือเดี๋ยวนี้ค่ะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เดี๋ยวสิ อิซุนะ! นี่มันไม่เหมือนที่คุยกันไว้นี่นา..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อ๊ะ! นินนิน!"
+    },
+    {
+      "Text": "[s] \"อะ... อะไรกันเนี่ย?!\""
+    },
+    {
+      "Text": "(หลังจากโต้เถียงกันอยู่เกือบ 10 นาที ในที่สุดก็หลบออกมาจากสามคนนั้นได้)"
+    },
+    {
+      "Text": "สำนักงานชาเล่ต์"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อ๊าก! อิซุนะ! จู่ๆ ก็โจมตีแบบนี้ได้ยังไง! ทำไมไม่ทำตามแผนล่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อืม... แต่ว่า หัวหน้า!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "พอได้ยินเสียงนายท่านร้องขอความช่วยเหลือ อิซุนะก็! ก็ขยับไปเองโดยที่ไม่รู้ตัวเลยค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ใช่แล้วค่ะ...! ราวกับนินจาเลยค่ะ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เดี๋ยวสิ ก็ไม่ใช่ว่าข้าน้อยจะไม่เข้าใจความรู้สึกหรอกนะ!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ตะ... แต่ยังไงก็เถอะ ตะ... ตอนที่อิซุนะจังวิ่งมาอย่าง ระ... รวดเร็วนั่น..."
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "มะ... มัน... ทะ... เท่มากเลยค่ะ อิซุนะจัง"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ฮิฮิ! ขอบคุณที่ชมนะคะ ท่านสึคุโยะ!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "แหะๆๆ..."
+    },
+    {
+      "Text": "[s] \"แล้วนี่คนรู้จักของอิซุนะเหรอ? ทำไมถึงมาอยู่ที่นี่...?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "คะ?"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ?! อ๊ะ คะ... คือว่า พะ... พะ... พวกเรา..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อ๊ะ นายท่าน...?! อย่าบอกนะว่า...!"
+    },
+    {
+      "Text": "[s] \"อย่าบอกนะว่า?\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นายท่านลืมคืนวันที่เคยมีร่วมกันกับอิซุนะไปแล้วงั้นเหรอคะ?!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "หรือว่าเมื่อกี้นี้ตกใจมากจนสูญเสียความทรงจำไปหมดแล้วเหรอคะ?!"
+    },
+    {
+      "Text": "[s] \"ไม่ใช่แบบนั้นนะ ก็ต้องจำอิซุนะได้อยู่แล้ว...\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "จะว่าไป... อิซุนะก็เคยเห็นในละครนินจานะคะ! ที่นินจากระโจนเข้าไปปกป้องนายท่านของตัวเองแล้ว\nถูกโจมตี..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "จากนั้นก็สูญเสียความทรงจำไป ช่างเป็นเรื่องราวที่น่าเศร้าจนต้องหลั่งน้ำตาเลยค่ะ! แต่ว่าตอนนี้\nนายท่าน?!"
+    },
+    {
+      "Text": "[s] \"อิซุนะ เดี๋ยวสิ ใจเย็นก่อน...\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นายท่าน... ลืมไปหมดแล้วสินะคะ! ตอนที่อิซุนะเจอกับนายท่านครั้งแรก...! ตอนนั้นนายท่านบอกว่าจะ\nสนับสนุนความฝันของอิซุนะ...!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "และหลังจากนั้นเมื่อสถานการณ์โกลาหลจบลง ก็ได้เผชิญหน้ากับจอมวายร้ายเนียนเต็นมารุ..."
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ความทรงจำที่เคยต่อสู้กับวายร้ายที่คิดจะครอบครองโลกร่วมกันกับอิซุนะและเพื่อนๆ อย่าบอกนะคะ\nว่าลืมความทรงจำพวกนั้นไปหมดแล้ว?!"
+    },
+    {
+      "Text": "[s] \"เดี๋ยวสิ ไม่เห็นจำได้เลยว่าเคยเจอเรื่องใหญ่โตแบบนั้นด้วย?!\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ถึงอิซุนะจะเจ็บปวดหัวใจ แต่ก็ไม่เป็นไรค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ถึงแม้ว่านายท่านจะลืมความทรงจำทั้งหมดไปแล้ว แต่เราก็สร้างขึ้นมาใหม่ได้นี่คะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ไม่ว่าเมื่อไรอิซุนะก็เป็นนินจาของนายท่าน! นายท่านก็... คือนายท่านของอิซุนะเสมอค่ะ! นินนิน!"
+    },
+    {
+      "Text": "[s1] \"ขอบใจนะอิซุนะ แต่มันไม่ใช่เรื่องร้ายแรงขนาดนั้นหรอก!\""
+    },
+    {
+      "Text": "[s2] \"ครูแค่ถามเพราะว่าเพิ่งเจออีกสองคนครั้งแรกเท่านั้นเองนะ!\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ฮุฮุฮุ สงสัยว่าพวกเราเป็นใครอย่างนั้นสินะ แบบนี้นี่เอง"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ฮึ่ม...!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ยินดีที่ได้รู้จักค่ะ ท่านอาจารย์ ข้าน้อยมีนามว่ามิจิรุ"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "อ่า ยะ... ยะ... ยินดีที่ได้รู้จักค่ะ...! สึ... สึคุโยะค่ะ"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ส่วนอิซุนะก็คือ อิซุนะค่ะ! นายท่าน!"
+    },
+    {
+      "Text": "[s] \"สะ... สวัสดี... เดี๋ยวนะ… ท่านอาจารย์เหรอ?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อะฮะฮ่า! ไม่มีอะไรต้องซ่อนเร้น! พวกเราทั้งสามมารวมตัวกันที่นี่แล้ว! จะขอแนะนำตัว ณ บัดนี้!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อิซุนะ! สึคุโยะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ค่ะ! หัวหน้า!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ...ค่ะ! ทะ... ทะ... ท่านหัวหน้า!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "นินจาไฮเปอร์รวมตัว!"
+    },
+    {
+      "Text": "[s] \"นินจา อะไรนะ...?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "นินจานั้นคืออะไร! แท้จริงแล้วคาถาที่นินจาใช้คืออะไรกันแน่!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "มะ... มันคืออะไรกันแน่!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "วิจัย ค้นคว้า และศึกษาแก่นแท้ของนินจา..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "พวกเราสาวน้อยน่ารักน่าเอ็นดูทั้งสามคนทำหน้าที่เผยแพร่เสน่ห์ของนินจาให้เป็นที่รู้จักในวงกว้าง!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "พวกเราทั้งสามคนค่ะ~!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "แม้แต่เด็กที่ร้องไห้ พอเห็นพวกเราแล้วก็จะยิ้มออกมาอย่างสดใส"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "สุดยอดชมรมนินจา! แห่งสหพันธ์เฮียกคิยาโค!"
+    },
+    {
+      "Text": "[s] \"...?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ชื่อของพวกข้าน้อยก็คือ!! <ชมรมวิจัยศาสตร์นินจา> อย่างไรเล่า!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ค่ะ! อย่างไรเล่า~♪"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ยะ... อย่าง ระ... ไรเล่า..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "และข้าน้อยก็คือหัวหน้าของชมรมวิจัยศาสตร์นินจา! จิโดริ มิจิรุนั่นเอง!"
+    },
+    {
+      "Text": "[s] \"อืม... แล้วชมรมวิจัยศาสตร์นินจามาทำอะไรที่นี่เหรอ?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อะแฮ่ม ฮึ่มฮึ่ม อะแฮ่ม! ฮึ่มมม ฮึ่มมม!!!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ท่านอาจารย์เห็นพวกเราแล้วอาจจะคิดแบบนี้สินะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ประมาณว่า 'เด็กสาวเหล่านี้! เป็นนินจา! ยอดเยี่ยมมาก! เท่มาก! นินจาสาวน้อยสุดน่ารัก!' แบบนี้สินะคะ"
+    },
+    {
+      "Text": "[s] \"เปล่านะ ไม่ได้คิดแบบนั้นเลย...\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หรือว่าจะคิดแบบนี้ใช่ไหมนะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อ่า! อยากจะสนับสนุนเด็กๆ พวกนี้จัง! อยากจะคอยช่วยให้สยายปีกบินไปให้ถึงความฝันที่หวังเอาไว้!'\n...แบบนั้นสินะ"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อื้ออ เข้าใจแล้ว ถ้าเป็นข้าน้อยก็คงคิดแบบเดียวกัน ก็เลยเตรียมมาแล้วล่ะ!"
+    },
+    {
+      "Text": "[ns] \"<จดหมายรับรองให้เป็นชมรมทางการ>...?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ถ้าแบบนั้นก็เอาละ! นี่! ฝากเซ็นให้ด้วยนะ!"
+    },
+    {
+      "Text": "[s3] \"จะขอจดหมายรับรองการเป็นชมรมทางการงั้นเหรอ?\""
+    },
+    {
+      "Text": "[s4] \"ชมรมวิจัยศาสตร์นินจายังไม่ใช่ชมรมทางการงั้นเหรอ?\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "คะ? หัวหน้า?! แผนการเป็นอย่างนั้นเหรอคะ?! อิซุนะไม่เห็นรู้เรื่องเลยค่ะ!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "อ๊ะ ฉะ... ฉันก็... นะ... นึกว่าพวกเราแค่มา ถะ... ถามไถ่ความเป็นอยู่ของ คะ... คุณครูเฉยๆ เท่านั้น..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "กะ... ก็มาเพราะแบบนั้นด้วยอยู่หรอก...!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "...ฮึ่ม! ข้าน้อยเคยได้ยินเรื่องเกี่ยวกับท่านอาจารย์มาด้วย ได้ยินว่ามีพลังมหาศาลที่แก้ไขได้ทุกปัญหา!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เพราะฉะนั้น! ได้โปรดช่วยข้าน้อยด้วยเถอะ! ถ้าได้ท่านอาจารย์ช่วยเหลือละก็ ชมรมเราจะต้องเป็น\nชมรมทางการได้แน่นอน...!"
+    },
+    {
+      "Text": "[s] \"ไม่ได้ ทำแบบนั้นไม่ได้หรอก\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ว่าไงนะ...!!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ...คะ?"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "เอ๋...?!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ว่าอะไรนะ! หรือว่า… ท่านอาจารย์ ท่านอาจารย์ก็..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "จะบอกว่า... <ชมรมที่วิจัยนินจาอย่างงั้นเหรอ ไม่ยอมรับชมรมที่ไม่น่าสนใจพรรค์นั้นหรอก> อย่างนั้น\nสินะ...!"
+    },
+    {
+      "Text": "[s] \"ถ้าจะเป็นชมรมทางการก็ต้องทำไปตามขั้นตอนสิ?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หืม? อ่า คือ... คือว่า... คือว่าเรื่องนั้น..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ตะ... แต่ว่า! ก็คาโฮะบอกว่าจะไม่มีวันยอมรับเรื่องนี้เด็ดขาดเลยน่ะสิ!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ยืนกรานอย่างหนักแน่นสุดๆ...! ใช่!  ยืนกรานเลยล่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "...?"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ... คุณคาโฮะเป็นคนเข้มงวด... ขนาดนั้นเลยเหรอคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หืม? อย่างนั้นแหละ เพราะงั้นเรื่องนี้เลยต้องขอให้ท่านอาจารย์ช่วย..."
+    },
+    {
+      "Text": "[s] \"ถึงจะอย่างนั้นครูก็ช่วยไม่ได้หรอกนะ...\""
+    },
+    {
+      "Text": "[ns] \"เอ๊ะ... มีแขกมาเหรอ?\""
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ยินดีที่ได้พบค่ะคุณครู ฉันคือรองหัวหน้าชมรมหยินหยาง คุวาคามิ คาโฮะค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ฉันมาที่นี่เพราะว่ามีธุระต้องติดต่อกับชาเล่ต์อย่างเป็นทางการในนามของชมรมหยินหยางค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "รบกวนไปด้วยกันสักครู่ได้ไหมคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ว้าก! พูดถึงก็โผล่ออกมาเลยเหรอเนี่ย...!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "เอ๊ะ... ทำไมทุกคนถึง..."
+    },
+    {
+      "Text": "[s] \"ธุระของชมรมหยินหยางเหรอ?\""
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "序幕;忍者襲來！"
+    },
+    {
+      "Text": "夏萊．休息室"
+    },
+    {
+      "Text": "（結束夏萊的工作，正在休息時……）"
+    },
+    {
+      "Text": "[ns]「咦？停電了……？」"
+    },
+    {
+      "Name": "???",
+      "Text": "哼哼哼！\n順利潛入成功！"
+    },
+    {
+      "Name": "???",
+      "Text": "哇……居然真的潛入了……那個，傳說中的夏萊……！"
+    },
+    {
+      "Name": "???",
+      "Text": "忍者鐵則其一！\n「忍者無論面對任何情況，都要毫不猶豫向其挑戰」！"
+    },
+    {
+      "Name": "???",
+      "Text": "就這樣讓夏萊落入我的手中……！"
+    },
+    {
+      "Name": "???",
+      "Text": "事情變得很不得了了呢……！"
+    },
+    {
+      "Name": "???",
+      "Text": "對忍者而言，不管三七二十一先試著去做也很重要……"
+    },
+    {
+      "Name": "???",
+      "Text": "部長的這份精神，我會寫下來避免忘記的……！"
+    },
+    {
+      "Name": "???",
+      "Text": "……那個，你是在稱讚我吧？"
+    },
+    {
+      "Name": "???",
+      "Text": "算了，總之快走吧！\n記得要用忍者跑法哦，咻噠噠噠噠噠噠的那種！"
+    },
+    {
+      "Name": "???",
+      "Text": "是！咻噠噠噠噠噠噠……！"
+    },
+    {
+      "Text": "[ns]「那個……」"
+    },
+    {
+      "Name": "???",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "???",
+      "Text": "啊，咦……？"
+    },
+    {
+      "Text": "[s]「你們是……？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "別，別別別別慌啊月夜！\n這種時候更該回想起來！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "忍者鐵則！其二！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "啊，是！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "「忍者無論陷入任何困境，都絕對不會放棄」……！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "沒錯！既然事已至此，我們兩個要同時使出「埋伏之術」哦！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "……咦？\n沒，沒問題嗎……？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "沒問題沒問題，GO！"
+    },
+    {
+      "Text": "[s]「不是，先，等──」"
+    },
+    {
+      "Name": "月夜",
+      "Text": "啊，部長。電燈……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "怎麼會！？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜，登場！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "啊，伊樹菜醬……！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜聽見主公的聲音，就咻啪啪地趕來了！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "剛才那個聲音……難道主公陷入危機了……！？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "如果是的話可不能袖手旁觀！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜，前來助陣！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "等等，伊樹菜！這跟計畫好的不一樣──"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "忍忍！"
+    },
+    {
+      "Text": "[s]「嗚哇啊啊！？」"
+    },
+    {
+      "Text": "（之後總算是成功說服了來襲的3人，讓他們冷靜了下來）"
+    },
+    {
+      "Text": "夏萊．辦公室"
+    },
+    {
+      "Name": "三千留",
+      "Text": "真是的，伊樹菜！\n這跟作戰不一樣吧！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "嗚嗚……但是部長！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜聽見主公聲音的瞬間，身體就不自覺地動了起來……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "果然身為一名忍者，無法對那種情況坐視不管！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "不不不，那確實是件好事啦！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "可是，那個……飛快跑過來的伊樹菜醬……"
+    },
+    {
+      "Name": "月夜",
+      "Text": "那個，我覺得，真的非常帥氣哦。"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "耶嘿嘿！謝謝稱讚，月夜閣下！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "耶嘿嘿……"
+    },
+    {
+      "Text": "[s]「那個，你們是伊樹菜的朋友……是嗎？為什麼會來這裡……？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "啊～這個，是這樣的……我們是……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "主，主公……！？\n莫非……！"
+    },
+    {
+      "Text": "[s]「……莫非？」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "您忘記了與伊樹菜一起度過的日子了嗎！？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "這難道是因為剛才的衝擊失去了所有記憶的劇情發展嗎！？"
+    },
+    {
+      "Text": "[s]「不是那樣的，我當然還記得伊樹菜──」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "這麼說來，伊樹菜有在忍者連續劇裡看過！\n為了保護主公而奮不顧身的忍者受到襲擊……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "結果喪失了記憶，讓人不禁落淚的劇情！\n那種劇情發生在主公身上了嗎……！？"
+    },
+    {
+      "Text": "[s]「伊樹菜，等──」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜與主公初次相遇的那個瞬間……！\n說會支持伊樹菜的夢想的那個時候……！主公全都忘了嗎！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "歷經無數難關，終於將那個超級大壞蛋……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "將試圖支配世界的那個大魔王「喵天丸」打倒的，不就是主公、伊樹菜跟夥伴們嗎！\n主公連那件事都忘記了嗎……！？"
+    },
+    {
+      "Text": "[s]「我，我是不記得有發生過那麼大的事件啦……」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜很難過……但是請放心！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "就算主公忘記了一切……也只要重新累積回憶就可以了！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "因為伊樹菜永遠是主公忠誠的忍者！\n而主公也永遠是伊樹菜的主公！忍忍！"
+    },
+    {
+      "Text": "[s1]「你這麼說我很高興。但我不是那個意思……」"
+    },
+    {
+      "Text": "[s2]「除了伊樹菜之外的孩子都是初次見面吧，很高興認識你們。」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "原來如此，你想知道我們是誰啊……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "那麼就……！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "幸會，初次見面，老師大人……小生，名喚三千留。"
+    },
+    {
+      "Name": "月夜",
+      "Text": "初次，見面……！\n我，我叫月夜……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜叫伊樹菜！主公！"
+    },
+    {
+      "Text": "[s]「你們好呀……呃，老師『大人』？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "哼哼哼！沒什麼好隱瞞的！我們三人就是……沒錯！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "來吧伊樹菜、月夜！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "是！部長！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "是……！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "擺出忍者流最強招牌動作！"
+    },
+    {
+      "Text": "[s]「忍者流，最強……？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "何謂忍者！何謂忍法！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "忍者的，真諦……！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "我們是研究、探究、深究其本質的……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "為了推廣忍者的魅力而暗中活躍的，可愛動人的忍者三人組！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "沒錯！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "哭泣的孩子也會破涕為笑，"
+    },
+    {
+      "Name": "三千留",
+      "Text": "百鬼夜行聯合學園最強的忍者集團！"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "名為「忍術研究部」！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "的說！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "的說……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "而我就是忍術研究部的部長！千鳥三千留！"
+    },
+    {
+      "Text": "[s]「原來如此……？那忍術研究部來這裡有什麼事嗎？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "哼哼哼……哼～哼哼哼！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "老師大人現在應該是這麼想的吧。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "「真是群無比帥氣又惹人憐愛的美少女忍者啊！」 ……這樣。"
+    },
+    {
+      "Text": "[s]「呃，嗯……」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "此外，應該也會這麼想才對。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "「真想為這些孩子們加油！真想以大人的力量幫助他們伸展成長中的羽翼，\n　朝著廣闊的世界展翅飛翔！」……這樣。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "即使不說出口我也知道。\n我已經預料到事情會這麼發展，因此準備了這個！"
+    },
+    {
+      "Text": "[ns]「『正式社團認可推薦信』……？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "來吧！請在這裡簽名！"
+    },
+    {
+      "Text": "[s3]「你們是為了這個而來的嗎？」"
+    },
+    {
+      "Text": "[s4]「也就是說，忍術研究部還不是正式的社團？」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "部長？原來是這樣嗎？\n伊樹菜現在才知道！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "我也是……還，還以為肯定是為了，向老師問好才來的……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "當，當然也有那個打算！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "……咳咳！我聽說了老師大人的傳聞。\n據說是有能解決一切的強大力量！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "如果有這個力量的話，就能讓社團獲得認可……對吧！？所以拜託了！"
+    },
+    {
+      "Text": "[s]「這可能有點困難……」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "什麼……！？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "咦……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "咦……？？？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "為，為什麼呢……！？\n莫非老師大人……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "老師大人也覺得「無法認可研究忍者這種莫名其妙的社團活動」嗎……！？"
+    },
+    {
+      "Text": "[s]「不是這樣的。要成為正式社團是需要通過一定的手續的吧？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "是，是沒錯啦……可是……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "可，可是！\n佳穗他一定不會認可這種活動的！"
+    },
+    {
+      "Name": "三千留",
+      "Text": "還有，那個……對了！\n到獲得認可需要花費非常多時間，而且還很嚴格……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "……？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "佳，佳穗同學是那麼嚴格的人……嗎？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "也，也是有沒那麼嚴格的時候啦……總，總之請想想辦法吧，老師大人！"
+    },
+    {
+      "Text": "[s]「唔嗯，我是很想幫你……」"
+    },
+    {
+      "Text": "[ns]「又有客人……？」"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "初次見面，老師。\n我是陰陽部的副部長，名叫桑上佳穗。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "陰陽部有件事想委託夏萊，因而前來報訪。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "方便占用您一些時間嗎？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "嗚喵！說人人到……！？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "……哎呀。"
+    },
+    {
+      "Text": "[s]「陰陽部不就是百鬼夜行的……？」"
+    }
+  ]
+}

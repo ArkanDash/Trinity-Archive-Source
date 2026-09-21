@@ -1,0 +1,4007 @@
+{
+  "TitleJP": "アビドス生徒会（２）",
+  "TitleKR": "아비도스 학생회 2",
+  "TitleEN": "Abydos Student Council 2",
+  "TitleTH": "สภานักเรียนอะบิดอส 2",
+  "TitleTW": "阿拜多斯學生會（２）",
+  "DescJP": "ホシノを除いた対策委員会の面々は、ホシノの過去を知るために生徒会室へと足を踏み入れることに。が、そこへホシノが現れる。",
+  "DescKR": "아야네와 세리카는 유메의 죽음에 관해 조사하기 시작한다. 유메의 죽음에 관한 단서를 찾던 와중 호시노가 이를 발견한다.",
+  "DescEN": "Ayane and Serika begin to investigate Yume's death. As they search for clues, Hoshino discovers something significant.",
+  "DescTH": "อายาเนะกับเซริกะเริ่มสืบหาความจริงเกี่ยวกับการตายของยูเมะ ระหว่างที่\nกำลังค้นหาเบาะแสที่เกี่ยวข้อง โฮชิโนะก็เจอตัวพวกเธอ",
+  "DescTW": "綾音與茜香對夢的死亡展開調查。在尋找與夢的死亡有關的線索途中，星野查到了一些端倪。",
+  "DialogJP": [
+    {
+      "Text": "第9話;アビドス生徒会（２）"
+    },
+    {
+      "Text": "アビドス砂漠閉鎖地区セクター35-9"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ユメ先輩、何も見つかりませんよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……こっちもハズレみたい、うぅ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ごめんね、ホシノちゃん。\nもう、ここまでみたい……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……良いから立ってください。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "私のことは置いていって良いから……今までありがとね、ホシノちゃん。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ああ、もう！\nなんの真似ですか！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ふふっ。ごめんねホシノちゃん、冗談だから。\n次の駅には何かあるかもしれないし、行ってみよっか。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どこも同じだと思いますよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "高価な展示品があったとしても、とっくに前生徒会が売り払ってますから。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "う～ん……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "もう帰りましょう。\n宝探しなんて、時間の無駄です。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "えっ！？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ホシノちゃんも、最初はすっごいノリノリだったよね？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そ、それは……！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……って、先輩。\n手帳、落としましたよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "あ、ありがとう！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "良かった～。\n危うくホシノちゃんの大事な手帳を失くしちゃうところだったよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……いつから私の手帳になったんですか。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "え、えーっと……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "見て見て、ホシノちゃん。リュックサック型の水筒だって！\n便利そうじゃない？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "いえ。むしろ動く時、邪魔になります。\nしかも、高い割にクオリティも微妙そうですし……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "た、たしかに……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ちょっと高すぎるかも。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そんな物を買うくらいなら、弾丸を補充しませんか？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……その通り、だね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ひとつ気になったんですが……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "どうしたの？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "先輩は、どうやって生徒会長になったんですか？\n一人しかいない生徒会なんて、聞いたことありませんよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……あはは。やっぱり、気になるよね。\n実は、ちゃんとした選挙が開催されたわけじゃないの。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そ、そうなんですか？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "挙手投票で私を会長に選任したら、\n前の役員は全員いなくなっちゃったんだ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そんなやり方で……！？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……あの時のアビドスは、もうまともな状態じゃなかったから。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ユメ先輩は、面倒事を押し付けられたんですね。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "それは違うよ、ホシノちゃん。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "私は望んで受け入れたの。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……どうしてですか？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "生徒会長としての権限があれば、\nアビドスを守れるかもしれないと思ったからだよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "いざ会長になってみたら、そんなことはなかったんだけどね。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "でも……これがあれば大丈夫！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……これって？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "じゃーん！生徒会長手帳だよ！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "これでも毎日ちゃんと書いてるんだから！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どこにでも売ってる学習帳じゃないですか……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "が、学習帳じゃなくて、生徒会長手帳！\nほとんど私の日記みたいなものだけど……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "いつか、ホシノちゃんに受け継いでもらうんだ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そんな未来は訪れませんよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ど、どうして！？ "
+    },
+    {
+      "Name": "ユメ",
+      "Text": "って、そうだよね。\nホシノちゃんは生徒会でもないし……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "もう何回も断られてるのに、\nいつも一緒にいてくれるから勘違いしちゃってた……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "い、いや……そうじゃなくて！！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……あまりにもダサいのが、ちょっと。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "え、そう？\n可愛いと思うけど……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どこがですか！？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "あ、そっか。\nホシノちゃんはお魚さんが好きだもんね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "な、何のことですか？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "この前、可愛いクジラさんのノートをずっと見てたでしょ？\nホシノちゃんの目、すっごくキラキラしてたよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "気のせいです！\nあと、クジラは魚じゃありません！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ふふっ、やっぱり好きなんだね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "もう知りません、先輩！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "先輩？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ユメ先輩！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……あ、ごめんね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "何してるんですか？\n早く見つけて帰りますよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……見て、ホシノちゃん。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "アビドスの夜は、星がきれいだね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "周りに何もないですから。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "それだけが理由なのかな……？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "というか、星なんかより足元を見てください！\nそんなんだから、いつまでも落とし物が見つからないんですよ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "この近くにあるはずなんですよね？\nああ、もう。どうしてこんな面倒くさいお願いを……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "だって……困っている人は見過ごせないから。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "あれ……？ "
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "急に風が……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ほ、ホシノちゃん、早く帰ろう！砂嵐だよ！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "もう道が……あれ、コンパスどこに入れたかな……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……ひぃん、また忘れちゃったみたい。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あれほど忘れないよう言ったのに……！\n砂嵐が来たら遭難することくらい、分かってるじゃないですか！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "うぅ、ごめんね……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "はぁ、もう……念のため持ってきておいて正解でした。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "わあっ、さすがホシノちゃん！\n持つべきものは頼れる後輩だね！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "余計なこと言ってないで、早く行きますよ！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "先生もホシノ先輩も、連絡がつかないわね。\nいつまで待たせるのよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "セリカちゃん、そこの工具を取ってくれる？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ノノミ先輩とシロコ先輩も、どっか行っちゃったし。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "セリカちゃん、ハンマーもお願い。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "生徒会長とホシノ先輩の間には、何があったんだろ……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……それは、先輩にしか分からないよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "はぁ……でも、話してくれそうにないし。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そうだね……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……よし、できた。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "腰、大丈夫？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "うん、大丈夫。\nそれに、こういう時は手を動かしてるほうが、気持ちが楽になるから。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "なら良いんだけど……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……ねえ、セリカちゃん。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "私たちだけで、生徒会室に行ってみよう。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……生徒会室って、あの鍵がかかってる部屋よね？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "きっと、あそこには生徒会長の秘密が隠されてるはず。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "そうかもしれないけど……大丈夫かな、勝手に入っても。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "セリカちゃんが心配してるように、怒られるかもしれないね。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……でも、これ以上ホシノ先輩を待っている余裕はないから。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "確認、しよう。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ま、待ってよ！アヤネちゃん！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ふぅ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あれ……？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "なんで雨雲号が出てるんだろ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……アヤネちゃん、怒ってるかなぁ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ホシノちゃん、ここが新しい校舎だよ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "新しいって……ただの別館じゃないですか。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "それはそうだけど……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "……もう、私たちだけになっちゃったね。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "いなくなった人たちのことは忘れましょう。\n期待するだけ無駄だったんです。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "そういう言い方は良くないと思うの。\nだって、悪いのは砂漠化でしょ？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。 "
+    },
+    {
+      "Name": "ユメ",
+      "Text": "自分の自治区を離れるのは、誰しもつらいんだよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……でも、結局みんなアビドスを捨てたじゃないですか！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "みんなじゃないよ、ホシノちゃんがいる。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。 "
+    },
+    {
+      "Name": "ユメ",
+      "Text": "それに……私も、ね？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……先輩。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "これからは、二人で頑張っていこう。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "私がホシノちゃんを守るから、ホシノちゃんは私を守ってね？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……先輩は自分のことだけ考えてください。\n弱いんですから。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "そ、"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "そんな言い方しなくてもぉ……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "というか、ホシノちゃんが特別強いだけじゃない？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……いえ。\nもっと、強くならないと。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そのためにも……まずは先輩、これを受け取ってください。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "うん……？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "生徒会に入ってくれるの！？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "やっ……って、どうして……？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "生徒会かどうかに拘ってる意味がないと思ったので。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……どうせ、先輩とはこれからもずっと一緒でしょうし。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……あ、でもあのダサい手帳は受け取りませんから。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "やったぁ！ありがとう、ホシノちゃん！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "夢……？ううん、奇跡だよ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……先輩、苦しいです。\n夢じゃないので、そんなに抱きしめられたら死んじゃいますよ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "そうだ、記念に写真撮ろうよ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "別に、わざわざ撮らなくても……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "お祝いの時は、"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "記念に写真を撮るものだから！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ほら、ホシノちゃん。ちゃんとカメラ見て？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ち、近いです先輩。\n……あ、当たってるんですが。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "恥ずかしがってないで、もっと近くおいで？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "いやいや、苦しいですって。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ふふっ。それじゃ、はいチーズ！"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "ここが新しい生徒会室だよ！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……狭いですね。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "うっ……。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "でも、今日からここでアビドス生徒会は生まれ変わるの！\n今は二人しかいないけど、いつかは……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……いつかは？"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "えへへ。"
+    },
+    {
+      "Name": "ユメ",
+      "Text": "いつかは後輩も入ってきて、きっと賑やかになると思うの！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "失礼、します……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ま、待ってよアヤネちゃん。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あれ……。 "
+    },
+    {
+      "Name": "セリカ",
+      "Text": "思ったよりきれいね？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……うん。\n誰かが掃除してたんだと思う。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "もしかして、ホシノ先輩が？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "シロコ先輩！？ "
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あれ……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "の、ノノミ先輩！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……もしかして、先輩がここの掃除をしてたの？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうですが……皆さんは何を？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先輩たちも、気になってたんですね。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "うん……生徒会長に何があったのか、知りたくて。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あはは……みんな、同じことを考えていたとは。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "私は、掃除をしておこうと思って……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "と言っても、自己満足ですけどね。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "何かあるよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "キャビネット……？ "
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あっ、それは……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……生徒会長とホシノ先輩の個人ロッカーみたい。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "生徒会長のキャビネットは、扉が開いてますね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……何も入っていないようです。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ホシノ先輩のほうも開けてみる。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "シロコ先輩！？\nどうしてピッキングツールなんて持ち歩いてるのよ！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん、ちょっとした趣味。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あれ、鍵はかかっていないみたいですよ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "良かった……ホシノ先輩に怒られるところだった。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "勝手に入ってる時点で、怒られるような気もしますが……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "何か入ってましたか？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……装備品。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "防弾チョッキにサイドアーム……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ホシノ先輩の物だと思う。\n使い込まれてるけど、手入れがされてる。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "こんなにすごそうな装備……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "当時のホシノ先輩、何してたんだろ……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ほ、ホシノ先輩！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "うわあっ！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ほ、ホシノ先輩、これは……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "勝手に開けちゃダメでしょ～！"
+    },
+    {
+      "Text": "次回;あの日"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;아비도스 학생회 2"
+    },
+    {
+      "Text": "아비도스 사막 폐쇄지구 섹터 35-9"
+    },
+    {
+      "Name": "호시노",
+      "Text": "유메 선배. 이쪽은 아무것도 없어요."
+    },
+    {
+      "Name": "유메",
+      "Text": "……우웅. 여기도 꽝이야. 실패야. 으흐흑. "
+    },
+    {
+      "Name": "유메",
+      "Text": "미안해, 호시노 쨩. 나는 여기까지야. 좌절과 절망으로 꺾여버렸어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……부끄러우니까 일어나세요. 선배. "
+    },
+    {
+      "Name": "유메",
+      "Text": "아니, 나는 무리야. 그동안 고마웠어, 호시노 쨩. 건강해야 해. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "아, 좀, 그만해요!"
+    },
+    {
+      "Name": "유메",
+      "Text": "이렇게 된 이상 다음 역으로 가볼까? 거긴 분명 당첨일지도……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아뇨. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "다른데도 마찬가지일 거예요. 값비싼 보물들이 전시되어 있는 아비도스 회장들의 전시관?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그런 게 진짜 있었다면 진작에 예전 학생회 녀석들이 찾아내서 팔아치웠겠죠."
+    },
+    {
+      "Name": "유메",
+      "Text": "우웅…… 역시 그렇겠지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "시간 낭비했어요. 돌아가요. 괜히 무슨 보물찾기를 한다고……."
+    },
+    {
+      "Name": "유메",
+      "Text": "그치만 그 얘기를 듣자마자 같이 신나게 달려왔잖아?"
+    },
+    {
+      "Name": "유메",
+      "Text": "그런데 이제 꽝이니까 시니컬 모드……? "
+    },
+    {
+      "Name": "호시노",
+      "Text": "아, 아니…… 그렇다기보다는……. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "……그것보다, 선배. 땅바닥에 수첩 흘렸어요."
+    },
+    {
+      "Name": "유메",
+      "Text": "앗, 내 수첩!? "
+    },
+    {
+      "Name": "유메",
+      "Text": "하아~ 큰일 날 뻔했어. 하마터면 호시노 쨩의 소중한 수첩을 잃어버릴 뻔했어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……제 수첩 아니거든요? 그보다 바닥에 그렇게 막 눕지 마세요. 학생회장의 체면도 같이 땅에 떨어지잖아요."
+    },
+    {
+      "Name": "유메",
+      "Text": "우웅……."
+    },
+    {
+      "Name": "유메",
+      "Text": "이것봐, 호시노 쨩. 등에 배낭처럼 메는 물통이래. 편해 보이지? 하나 살까?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "아뇨. 움직일 때 거추장스럽습니다. 게다가 가격에 비해 퀄리티도 별로구요. "
+    },
+    {
+      "Name": "유메",
+      "Text": "그래?"
+    },
+    {
+      "Name": "유메",
+      "Text": "우웅, 1만엔……? 비, 비싸네……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그런 것보다 탄환을 더 확보해 두는 게 좋습니다. 그건 언제나 부족하니까요."
+    },
+    {
+      "Name": "유메",
+      "Text": "그건 그래."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……선배. 궁금한 게 있습니다."
+    },
+    {
+      "Name": "유메",
+      "Text": "응?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "어떻게 학생회장이 되신 거죠? 이상한 질문이 아니라, 학생회는 지금 선배 혼자뿐이잖아요. 학생회장 선거 같은 게 개최되었다는 건 들어본 적 없는데……. "
+    },
+    {
+      "Name": "유메",
+      "Text": "우웅…… 그러게. 제대로 된 정식 절차 같은 건 없었어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그, 그래요?"
+    },
+    {
+      "Name": "유메",
+      "Text": "헤헤…… 전임 학생회들이 떠나기 전에 찬반 거수투표를 해서 나에게 회장직을 넘기고 갔거든."
+    },
+    {
+      "Name": "호시노",
+      "Text": "네?! 거수투표요……? 엄청 얼렁뚱땅이잖아요?! 그런 걸로 학생회장을 선출한 거예요? "
+    },
+    {
+      "Name": "유메",
+      "Text": "그러게. ……실은 꽤 오래전부터 그런 식으로 회장직을 여기저기 떠넘기고 있었나 봐. 아비도스는 지금 행정 인프라도 없으니까."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……그 녀석들, 애초에 학생회를 활동할 생각도 없었던 거네요. 그러다가 떠나기 전에 귀찮은 짐을 유메 선배에게 떠넘긴 거구요."
+    },
+    {
+      "Name": "유메",
+      "Text": "아니. 호시노 쨩. 그렇지 않아."
+    },
+    {
+      "Name": "유메",
+      "Text": "학생회장이 된 건 내가 원한 일이었어. 이건 적당히 넘겨받은 건 아니야. 호시노 쨩."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그, 그래요……?"
+    },
+    {
+      "Name": "유메",
+      "Text": "응. 아비도스를 지킬 수만 있다면…… 내가 할 수 있는 책임이나 권한이 더 많은 편이 낫다고 생각했거든. "
+    },
+    {
+      "Name": "유메",
+      "Text": "우웅…… 물론 회장이 된다고 해서 갑자기 엄청난 힘과 권력이 생기거나 그런 건 아니었지만."
+    },
+    {
+      "Name": "유메",
+      "Text": "그래도 나름대로 준비는 열심히 했달까……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "준비요?"
+    },
+    {
+      "Name": "유메",
+      "Text": "짜안~ 학생회장 수첩! "
+    },
+    {
+      "Name": "유메",
+      "Text": "왜 한숨 쉬는 거야, 호시노 쨩? 이래 봬도 매일매일 활동 일지를 적고 있단 말야? 진지한 거라구?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "150엔짜리 연습장이 그 아비도스 학생회장의 수첩이라니……."
+    },
+    {
+      "Name": "유메",
+      "Text": "여, 연습장이 아니라 학생회장 수첩인데……. 물론 지금은 일기장 같은 느낌이지만……. "
+    },
+    {
+      "Name": "유메",
+      "Text": "그, 그렇게 싫은 얼굴을 해도 어쩔 수 없거든? 이거 언젠가는 호시노 쨩이 물려받을 거니까."
+    },
+    {
+      "Name": "호시노",
+      "Text": "아뇨. 그럴 일은 없습니다."
+    },
+    {
+      "Name": "유메",
+      "Text": "어, 어째서?! "
+    },
+    {
+      "Name": "유메",
+      "Text": "그, 그렇지? 생각해 보면 호시노 쨩은 학생회도 뭐도 아닌데……. 미안해……."
+    },
+    {
+      "Name": "유메",
+      "Text": "학생회 가입도 몇 번이나 거절당해 놓고…… 같이 있어 준다고 내가 멋대로 착각해 버렸어……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "아, 아니…… 그, 그게 아니라!!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……디자인이 마음에 안 들어요."
+    },
+    {
+      "Name": "유메",
+      "Text": "어, 그래? 귀엽다고 생각하는데……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아뇨. 완전 별로예요. 이 바나나는 뭐예요? 센스 별로예요!!"
+    },
+    {
+      "Name": "유메",
+      "Text": "흐응~ 호시노 쨩은 이런 팬시한 거 관심 없는 거야? 아니면 자기가 좋아하는 물고기 디자인이 아니라고 그러는 거야?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "네?! 누, 누가 물고기를 좋아한다고……?"
+    },
+    {
+      "Name": "유메",
+      "Text": "그치만 저번에 귀여운 고래 노트를 한참 쳐다봤잖아? 그것도 눈을 반짝반짝 빛내면서 말야? 나는 다 알고 있거든?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그, 그렇지 않거든요! 그리고 고래는 물고기가 아니라구요!!"
+    },
+    {
+      "Name": "유메",
+      "Text": "그래? 그치만 귀여운 건 사실이지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "선배!!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "선배. 찾았어요?"
+    },
+    {
+      "Name": "유메",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "유메 선배!"
+    },
+    {
+      "Name": "유메",
+      "Text": "아, 호시노 쨩? "
+    },
+    {
+      "Name": "호시노",
+      "Text": "뭐하세요? 얼른 찾아서 돌아가자고요. 여기는 밤이 되면 기온이 꽤 떨어지니까."
+    },
+    {
+      "Name": "유메",
+      "Text": "……응."
+    },
+    {
+      "Name": "유메",
+      "Text": "호시노 쨩. 봐봐. 아비도스의 밤하늘은…… 엄청 선명한 편이지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그야 주변에 도시가 없어서 그런 거죠. 시골일수록 별이 밝다고 하잖아요."
+    },
+    {
+      "Name": "유메",
+      "Text": "그런가……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그리고 하늘을 쳐다볼 시간에 한 번이라도 더 아래를 확인해 주세요! 그 시민분이 흘리고 갔다는 유실물을 얼른 찾아서 돌아가자구요! "
+    },
+    {
+      "Name": "호시노",
+      "Text": "분명 이 근처라고 했는데. 그러니까 그런 성가신 부탁은 왜 괜히 받아서……."
+    },
+    {
+      "Name": "유메",
+      "Text": "그치만…… 곤란에 빠진 사람을 못 본척하면 안 되잖아. "
+    },
+    {
+      "Name": "유메",
+      "Text": "어라……? "
+    },
+    {
+      "Name": "호시노",
+      "Text": "갑자기 바람이……."
+    },
+    {
+      "Name": "유메",
+      "Text": "호, 호시노 쨩! 얼른 돌아가자! 모래폭풍이야!"
+    },
+    {
+      "Name": "유메",
+      "Text": "도, 돌아가는 길이…… 나침반이…… 어딨더라……"
+    },
+    {
+      "Name": "유메",
+      "Text": "으아?! 나침반을 또 안 가져왔어! "
+    },
+    {
+      "Name": "호시노",
+      "Text": "거참!! 잘 챙기라고 했잖아요! 사막에서 길을 잃으면 꼼짝없이 조난당한단 말이에요! "
+    },
+    {
+      "Name": "유메",
+      "Text": "어, 으응. 미, 미안해……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "괜찮아요. 제가 가지고 있으니까."
+    },
+    {
+      "Name": "유메",
+      "Text": "우와아- 역시, 호시노 쨩이야! 믿음직한 후배!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "쓸데없는 소리 하지 말고 달려요, 선배! 얼른 가요!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "하아. 선생님도, 호시노 선배도 연락이 안 되고. 언제까지 기다려야 하는 거야?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "응. 세리카 쨩, 거기 용접봉 좀 줄래? "
+    },
+    {
+      "Name": "세리카",
+      "Text": "노노미 선배랑 시로코 선배도 기다리다 지쳐 어디론가 가버렸고."
+    },
+    {
+      "Name": "아야네",
+      "Text": "세리카 쨩, 망치. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "그런데 그 마지막 학생회장님은…… 어째서 그런 일을 겪은 걸까? "
+    },
+    {
+      "Name": "아야네",
+      "Text": "……그러게. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "호시노 선배가 엄청 말하기 싫어하는 것 같던데……. "
+    },
+    {
+      "Name": "아야네",
+      "Text": "……응."
+    },
+    {
+      "Name": "아야네",
+      "Text": "끄응- "
+    },
+    {
+      "Name": "세리카",
+      "Text": "아야네 쨩, 허리 괜찮아?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……응. 이럴 땐 뭐라도 있어야 마음이 편해지고 생각도 정리되거든."
+    },
+    {
+      "Name": "세리카",
+      "Text": "생각?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "세리카 쨩."
+    },
+    {
+      "Name": "아야네",
+      "Text": "학생회실을 털자."
+    },
+    {
+      "Name": "세리카",
+      "Text": "아니, 갑자기 시로코 선배 같은 대사를…… 학생회실이라면 잠겨 있던 그 창고로 쓰고 있는 교실?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "거기에 분명 학생회장에 대한 비밀이 숨겨져 있을 거야. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "그건 그럴 것 같지만…… 괜찮을까, 호시노 선배 허락 없이 들어가도? 분명 화낼 거 같은데."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……. 창고라면 딱히 잠가둘 필요는 없잖아. "
+    },
+    {
+      "Name": "아야네",
+      "Text": "게다가 지금은 호시노 선배의 개인 창고라는 느낌으로 방치해두고 있었지만…… 그래도 우리에게 딱히 숨기는 게 없다면 잠가둘 필요까진 없을 테고."
+    },
+    {
+      "Name": "아야네",
+      "Text": "응. 그치만 지금은…… 거기를 꼭 확인해 봐야겠어."
+    },
+    {
+      "Name": "세리카",
+      "Text": "기, 기다려! 아야네 쨩!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "하아. 도착해버렸다."
+    },
+    {
+      "Name": "호시노",
+      "Text": "으응? 물구름호? 이게 왜 밖에 나와 있지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "헤에~ 아야네 쨩, 화가 많이 났나 보네."
+    },
+    {
+      "Name": "호시노",
+      "Text": "더 혼나기 전에 얼른 가야겠다."
+    },
+    {
+      "Name": "유메",
+      "Text": "도착했어! 호시노 쨩! 여기가 새로운 아비도스 학교야! "
+    },
+    {
+      "Name": "호시노",
+      "Text": "분교의 별관 건물로 내쫓긴 거지만요."
+    },
+    {
+      "Name": "유메",
+      "Text": "그건 그렇지만……."
+    },
+    {
+      "Name": "유메",
+      "Text": "그리고 여기로 이사하면서 남은 학생들도 모두 떠나버렸고…… 이제 아비도스 학교에 남은 학생은 나랑 호시노 쨩 2명뿐이 되어버렸어……. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "뭐, 애초에 그런 녀석들이니까요. 떠난 사람들을 신경 쓰지는 않습니다."
+    },
+    {
+      "Name": "유메",
+      "Text": "아냐. 호시노 쨩. 나쁜 건 어디까지나 천재지변이잖아. 거기에 고통받아 온 사람들을 그렇게 말하면 안 돼."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……. "
+    },
+    {
+      "Name": "유메",
+      "Text": "오랫동안 지내온 자치구를 떠나는 게 얼마나 괴로웠겠어?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그치만…… 아비도스를 지키기 위해 남겠다고 결정한 사람은 한 명도 없잖아요!"
+    },
+    {
+      "Name": "유메",
+      "Text": "호시노 쨩이 있잖아?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "유메",
+      "Text": "그리고 나도 있고. 그렇지?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……네. 생각해 보니 그러네요."
+    },
+    {
+      "Name": "유메",
+      "Text": "응. 그러니까, 남아 있는 우리둘은 앞으로도 더욱 서로를 아끼지 않으면 안 돼. 그렇지? 호시노 쨩?"
+    },
+    {
+      "Name": "유메",
+      "Text": "그래서 내가 호시노 쨩을 지켜줄 거야. 호시노 쨩은 다치는 걸 신경 쓰지 않으니까, 내가 앞에서 이렇게 방패로……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아니, 제가 선배를 지켜줘야죠. 선배는 약하니까."
+    },
+    {
+      "Name": "유메",
+      "Text": "뭐? 그, 그건 사실이지만……"
+    },
+    {
+      "Name": "유메",
+      "Text": "아니, 그래도 그건 호시노 쨩이 특별히 강해서 그런 거잖아!"
+    },
+    {
+      "Name": "유메",
+      "Text": "그리고 원래 선배가 후배를 지켜주는 법인데……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……네. 알고 있어요. 그러니까 저도 더 노력하지 않으면 안 되겠죠……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "자…… 선배. 받으세요."
+    },
+    {
+      "Name": "유메",
+      "Text": "응? 뭐야? 이거?"
+    },
+    {
+      "Name": "유메",
+      "Text": "학생회 가입 신청서?!"
+    },
+    {
+      "Name": "유메",
+      "Text": "진짜야, 호시노 쨩? 드디어 마음이 바뀐 거야?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "바뀌었다기보다는…… 더 이상은 도망칠 곳이 없으니까요."
+    },
+    {
+      "Name": "호시노",
+      "Text": "이미 선배랑 같이 있는게 너무 자연스러워져서…… 이젠 제가 학생회든 아니든 딱히 상관이 없는 것 같고……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "이렇게 된 이상 선배랑 끝까지 노력하는 수밖에 없을 것 같아서……. 아, 그래도 그 수첩은 안 받을 겁니다."
+    },
+    {
+      "Name": "유메",
+      "Text": "우와아-! 기뻐! 엄청 기뻐! 호시노 쨩!"
+    },
+    {
+      "Name": "유메",
+      "Text": "이건 꿈……? 아니면 기적……일까? 응! 맞아! 기적이 일어난 게 분명해!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……숨 막힙니다. 선배. 기적 전에 제가 죽겠는데요."
+    },
+    {
+      "Name": "유메",
+      "Text": "맞아! 이럴 때가 아니야! 사진! 사진! 기념사진을 찍어야지!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "네? 사, 사진요? 그렇게까지 호들갑 떨 일은 아니지 않을까요. 선배?"
+    },
+    {
+      "Name": "유메",
+      "Text": "아냐! 원래 축하할 일이 있으면 기념사진을 찍는 거야!"
+    },
+    {
+      "Name": "유메",
+      "Text": "이리로 와! 호시노 쨩!"
+    },
+    {
+      "Name": "유메",
+      "Text": "자아, 자! 호시노 쨩 저쪽을 봐."
+    },
+    {
+      "Name": "호시노",
+      "Text": "가깝습니다. 선배. 닿고 있는데요? 닿고 있습니다."
+    },
+    {
+      "Name": "유메",
+      "Text": "부끄러워하지 말고. 자아, 좀 더 가까이. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "아뇨, 더 당기고 있잖아요. 숨 막히는데요. 떨어지면 안 될까요?"
+    },
+    {
+      "Name": "유메",
+      "Text": "쨔안-!"
+    },
+    {
+      "Name": "유메",
+      "Text": "자아, 여기가 새로운 학생회실이야, 어때, 호시노 쨩?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……좁은데요."
+    },
+    {
+      "Name": "유메",
+      "Text": "그렇지? 그건 그렇지만!"
+    },
+    {
+      "Name": "유메",
+      "Text": "그래도 여기서 아비도스 학생회는 새롭게 시작하는 거야. 학생회장과 부학생회장…… 아직은 두 명뿐이지만 그래도 언젠가는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "언젠가는?"
+    },
+    {
+      "Name": "유메",
+      "Text": "헤헤헤……."
+    },
+    {
+      "Name": "유메",
+      "Text": "이곳에도 우리들의 후배들로 잔뜩 시끌벅적해질 때가 오겠지……?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "실례합니다……?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "기다려, 아야네 쨩. 여기 오랫동안 사용하지 않은 곳이라 먼지가 엄청……. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "어라……. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "엄청 지저분할 줄 알았는데 생각보다 깔끔하네?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……응. 누군가가 주기적으로 청소하고 있었던 게 분명해."
+    },
+    {
+      "Name": "세리카",
+      "Text": "누가? 설마 호시노 선배인가? ……아니, 아무리 그래도 그럴 리는 없겠지. "
+    },
+    {
+      "Name": "시로코",
+      "Text": "으음."
+    },
+    {
+      "Name": "세리카",
+      "Text": "깜짝이야?! 시로코 선배?! "
+    },
+    {
+      "Name": "노노미",
+      "Text": "어라……? 시로코 쨩? 그리고……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "노, 노노미 선배도?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "빗자루랑 먼지떨이를 들고……? 선배가 여기 청소하고 있었던 거였어?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그, 그렇긴 한데…… 모두들 여기서 뭐 하고 계신 거예요?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네. 선배들도 지금 상황을 이해하기 위해 여기로 온 거였군요."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응…… 유메 학생회장이 실종된 게 아니라 헤일로가 파괴된 거라면…… 무슨 일이 있었는지 알아내야 할 것 같아서."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "네. 저희도 같은 생각으로…… 그런데 여기 청소는 노노미 선배가 하신 거예요?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네. 가끔씩 생각날 때마다……. 호시노 선배 몰래……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그치만 여기 있는 물건은 전부 잡동사니뿐이어서……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "이쪽에 뭔가 있어."
+    },
+    {
+      "Name": "세리카",
+      "Text": "캐비닛……? "
+    },
+    {
+      "Name": "노노미",
+      "Text": "앗, 거긴……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "<3학년 쿠치나시 유메>와 <1학년 타카나시 호시노>……. 개인 사물함이야."
+    },
+    {
+      "Name": "아야네",
+      "Text": "학생회 시절에 사용하던 물건인가 봐요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네에. 학생회장님의 캐비닛은 비어 있지만…… 호시노 선배 것은……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……잠겨 있어? 내가 열어볼게."
+    },
+    {
+      "Name": "세리카",
+      "Text": "시로코 선배?! 뭐야, 그 도구는?! 락픽 세트가 왜 여고생 가방에서 나오는 거야?!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "으응…… 취미로 약간……. "
+    },
+    {
+      "Name": "노노미",
+      "Text": "아, 아뇨. 열려 있어요……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으응."
+    },
+    {
+      "Name": "세리카",
+      "Text": "다행이다. 시로코 선배가 호시노 선배에게 혼날 뻔했어."
+    },
+    {
+      "Name": "노노미",
+      "Text": "주인 몰래 열어보는 것도 마찬가지로 혼날 일 같지만……. "
+    },
+    {
+      "Name": "아야네",
+      "Text": "뭐가 들어 있나요?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……무기와 장비들이야."
+    },
+    {
+      "Name": "아야네",
+      "Text": "이건…… 방탄조끼와 보조 무기…… 이 장비들은……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 아마 호시노 선배가 옛날에 쓰던 것 같아. 낡았지만 관리는 나름 잘 되어 있어."
+    },
+    {
+      "Name": "세리카",
+      "Text": "엄청난 무기들이네……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭔가 혼자서 전쟁이라도 치를 셈이었던 거야, 호시노 선배는……?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "호, 호시노 선배?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "우, 우와아?! 들켰다?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "호, 호시노 선배……. 저, 저기……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으음……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "으아~ 뭐 하는 거야, 이 말썽쟁이 녀석들~!"
+    },
+    {
+      "Text": "다음화;그날"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;Abydos Student Council 2"
+    },
+    {
+      "Text": "Abydos Desert, Restricted District Sector 35-9"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "There's nothing here, Yume."
+    },
+    {
+      "Name": "Yume",
+      "Text": "*sigh* No luck here, either? Waaah, another failure! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "I'm sorry, Hoshino. I've been crushed by frustration and despair. This is where it ends for me."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Please get up... You're embarrassing me. "
+    },
+    {
+      "Name": "Yume",
+      "Text": "I simply can't go on! Take care of yourself, Hoshino. I'll never forget everything you did for me. "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Will you please STOP?!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "This might've been a failure, but maybe the next one? Success could just be one stop away..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "There won't be anything there. "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It's going to be the same no matter where we go. If this \"Abydos Presidents' Exhibition Hall,\" with all those valuable treasures, actually existed..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...the previous student council members would've found it and sold everything off ages ago."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Hm... I guess you're right..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Let's go back. This was a waste of time. We shouldn't have gotten excited about a fantasy treasure hunt."
+    },
+    {
+      "Name": "Yume",
+      "Text": "But you were so excited! You rushed over here super fast when I told you about it."
+    },
+    {
+      "Name": "Yume",
+      "Text": "You're just back in grumpy-mode because it was a dead-end! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "N-No... It's more so... "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...Anyway, you dropped your notebook."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Gah?! My notebook! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Phew! I almost lost your precious notebook, Hoshino... What a close call!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Don't associate me with that notebook! More importantly, don't lie on the floor like that again! What would people say about the student council if they saw you?!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Y-Yes, ma'am..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Look, Hoshino! It's a water bottle you can wear like a backpack! Should I get one?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "No way. It's too expensive for what it is. And it's going to be bulky if you need to make quick maneuvers. "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Aw, really?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Eek! 10,000 yen? Th-That IS pricey..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Our money would be better spent on ammunition. We're always in short supply."
+    },
+    {
+      "Name": "Yume",
+      "Text": "That's true!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...I have a question."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Yes?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "How did you become the student council president? Not to be rude or anything, but I didn't hear any news of an election. And you're the only member of the student council to begin with. "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Don't worry, you're completely right! I didn't become president through any kind of formal procedure."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "R-Really?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Heehee. You see, before the previous student council left, they conducted a show-of-hands vote and, ta-da! I became the president."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Huh?! You became president off of some raised hands? I can't think of a more informal way for you to be elected! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Yup! I guess, since Abydos doesn't have any sort of administrative infrastructure, that's how they've been electing presidents for a while!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Those people didn't care about running the student council at all. They just offloaded the dead weight onto you and ran away?!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "No, Hoshino. It wasn't like that at all."
+    },
+    {
+      "Name": "Yume",
+      "Text": "I didn't become president by matter of convenience. I wanted it. I wanted to be president."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "R-Really...?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Really! I thought I might be better equipped to protect Abydos if I had more authority and responsibility. "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Although, now that I'm thinking about it, becoming president didn't exactly give me all that much power! Hahaha!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "But I worked hard in my own way, to prepare for the position!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Prepare?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Ta-da! The Official Abydos Student Council President Notebook! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "What was that big sigh, Hoshino?! Believe it or not, I'm being super serious! I've been keeping a daily activity log!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You're telling me this 150 yen kiddie notebook is your preparation?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "I-It's not just a kiddie notebook! I told you! It's the Official Abydos Student Council President Notebook! Although these days it reads more like a diary... "
+    },
+    {
+      "Name": "Yume",
+      "Text": "D-Don't make that disapproving face! It doesn't change how I feel! And one day, this precious log will be yours, Hoshino!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "No way. Not in a million years."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Wh-Why not?! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "R-Right... You're not even an official member... I'm sorry for overstepping..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "You turned down all my invitations to join the student council...but...for some reason, I thought you'd always be by my side."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Wait, no! That's... That's not what I meant!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I just...don't like the design..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Wha— Really?! I thought it was really cute..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...What about a banana is cute? You've got terrible taste!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Hm! Maybe you're just not into fancy stuff, Hoshino. Oh! Or is it because it's not a fish?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Huh?! I-I don't like fish! What're you talking about?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "I saw a sparkle in your eyes when you were at the market, looking at that whale notebook! You just couldn't tear yourself away. You should know, Hoshino, nothing escapes me!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I so was not! And more importantly, whales aren't fish!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Really? Huh. But you think they're cute anyways, right?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Yume!!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Did you find it?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Yume!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Ah. Hoshino? "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "What're you spacing out for? We've gotta hurry and find this thing so we can head back. The temperature in this area drops fast once the sun goes down."
+    },
+    {
+      "Name": "Yume",
+      "Text": "...Mhm."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Look over here, Hoshino. Isn't Abydos' night sky...just so bright?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It's because we're out in the middle of nowhere. There's no light pollution from the city to dull the view of the stars."
+    },
+    {
+      "Name": "Yume",
+      "Text": "I see..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "More important than stargazing, redirect your attention to the ground. We need to find that citizen's lost item and get back home. "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "According to their information, it should be somewhere around here. Geez. Why're you always accepting these pain-in-the-butt requests?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Well, because...it's wrong to turn away someone in need of help, isn't it? "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Ah? "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "The wind's picking up!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Hoshino! It's a sandstorm! We need to leave right now!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Th-The way back...the compass... Where...?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Ah?! I forgot to bring the compass again! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Again?! I even reminded you to pack it! We're screwed if we get lost in the desert! "
+    },
+    {
+      "Name": "Yume",
+      "Text": "I know... I-I'm sorry."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It's okay. I had a feeling, so I brought one."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Wow! You're the best, Hoshino! My amazing, dependable—"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "There's no time for compliments! Run! Hurry!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "*sigh* I really can't get a hold of Sensei or Hoshino. How long do we have to wait here?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Mm. Can you hand me the welding rod, Serika? "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Nonomi and Shiroko got bored of waiting and wandered off."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Hammer, please, Serika. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "The former student council president... What happened to her? "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...I wonder. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Hoshino really didn't wanna talk about it. "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Mhm."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Ugh... "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Does your back hurt, Ayane?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It's okay. During times like these, keeping my hands busy helps me clear my head."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Clear your head?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Serika."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Let's break into the student council room."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Huh? You sound like Shiroko right now. Isn't that the classroom they used for storage? It's always locked..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "There has to be answers about the student council president there. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Probably...but Hoshino might get mad. Maybe we should ask her."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...If it was just a regular storage room, it wouldn't be locked up the way it is. "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We've regarded it as Hoshino's personal storage and left it alone...but if there was nothing to hide, it wouldn't be locked up."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Yes. We have no choice. We need to go see."
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Wait! Ayane!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "*sigh* I guess I'm here."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Huh? Why's the Water Cloud outside?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Uh-oh. Ayane must be real mad."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I guess I should stop dilly-dallying before I get in more trouble."
+    },
+    {
+      "Name": "Yume",
+      "Text": "We're here! Hoshino! This is the brand-new Abydos! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You can market it that way, but we're just being forced into one of Abydos' annexes..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "You're not wrong there..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "And all the other students left! It's just you and me now, Hoshino. The last students of Abydos High School! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "They were gonna leave eventually anyway. I don't care about them."
+    },
+    {
+      "Name": "Yume",
+      "Text": "We can't blame the people who were just looking to ease their suffering, Hoshino. It's really the natural disasters' fault!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "... "
+    },
+    {
+      "Name": "Yume",
+      "Text": "Consider how hard it must be to leave the place they called home, some of them for their whole lives!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It doesn't matter! Not a single person decided to stay and protect Abydos, their so-called home!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "You did, didn't you, Hoshino?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "And I'm here, too! Right?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...When you put it that way, yeah."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Yup! So the last two students of Abydos will have each other's backs! More so than ever. Right, Hoshino?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "I'll protect you, no matter what! You never seem to mind getting hurt, but you can use me as a shield—"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "No way. You're the weak one, so I'll protect you."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Huh? W-Well, you're not wrong, but..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "...it's only because you're especially strong!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "The senior is supposed to look out for her junior, you know..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Yeah. I get it. That's why...well, I just feel like I should put in more effort."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "So, here. Take it."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Huh? What is it?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "A student council membership form?!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "You mean it, Hoshino? You changed your mind?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I didn't change my mind, more so... I just... I don't have anywhere left to run."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It's not about the student council. It's just, being with you feels... It feels natural."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I don't really see any other option than staying with you...but that doesn't mean I'll take the notebook!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Wow! WOW! There aren't words to describe how happy I am, Hoshino! I'm beyond happy!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Is this a dream? Or maybe a miracle…? Yeah! That's it! It's definitely a miracle!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...I can't breathe. At this rate, I might die before this miracle plays out."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Wait, that's right! I can't let this moment slip by! We need to take a picture! A commemorative pic to remember this moment forever!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "C-Commemorative picture? I don't think this situation really warrants that... Yume?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "What're you even saying?! We're celebrating! Of course we need to take a picture!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Come here, Hoshino!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Perfect! Next, look over there, Hoshino!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Close... Too close! We're...We're definitely touching!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Not yet! Come closer! C'mon, don't be shy! "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You're holding me way too tight, Yume! I'm gonna suffocate. Back off!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Ta-da!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "This is our new student council office! What do you think, Hoshino?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...It's small."
+    },
+    {
+      "Name": "Yume",
+      "Text": "It really is! But still...!"
+    },
+    {
+      "Name": "Yume",
+      "Text": "This is a new beginning for the Abydos Student Council. I know, I know, it's just the two of us, the president and vice president, right now, but someday..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Someday?"
+    },
+    {
+      "Name": "Yume",
+      "Text": "Heeheehee..."
+    },
+    {
+      "Name": "Yume",
+      "Text": "Someday, this whole place will be filled to the brim with our underclassmen and fellow members, right?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Excuse me?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "One sec, Ayane. No one really uses this room anymore, so it might be super...dusty...? "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Huh? "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Not a speck of dust... I was expecting it to be a disaster in here."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "You're right. It appears it's been pretty well-maintained."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Do you think it was Hoshino? But what reason would she have to keep an abandoned room clean? "
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Whoa?! Shiroko?! "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Wait...? Shiroko and..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...N-Nonomi, too?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Are those...brooms and dusters? You were the one cleaning?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Y-Yes, that's correct. But what are you two doing here?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...I see. So everyone came to the same conclusion about the situation."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Mm. If Student Council President Yume's halo was really destroyed...we need to know why."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes, I agree entirely. But...have you been maintaining this room all this time?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Well, yes. Just here and there, when it crossed my mind. I...I never told Hoshino."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "However, it appears to just be a collection of odds and ends in here."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "There's something here."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Cabinets...? "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Ah. Those..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "\"3rd Year, Kuchinashi Yume\" and \"1st Year, Takanashi Hoshino\"... Must be their lockers."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "They probably used it during their time as student council members."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That's what I'd assume. The Student Council President's cabinet is empty, but Hoshino's..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...Locked? Let me try."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What the heck is that, Shiroko?! Why is a high school girl carrying around a lockpicking set?!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um. Consider it a hobby? "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It's okay. It's already open, anyway."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Mm."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Phew. I got scared that you were gonna get in trouble with Hoshino."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "We did still open it without her permission... I wouldn't say we're in the clear. "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "What's inside?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...Weapons and equipment."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "A bulletproof vest...extra sidearms... All this equipment..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Mhm. They're probably Hoshino's, from a long time ago. They're well-maintained, though."
+    },
+    {
+      "Name": "Serika",
+      "Text": "That's some serious firepower."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Was Hoshino gonna fight a one-woman war or something?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "H-Hoshino?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Whoa?! Busted!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "H-Hoshino... U-Um..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "U-Umm..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Whoa! What're you rascals up to?"
+    },
+    {
+      "Text": "Next Episode;That Day"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;สภานักเรียนอะบิดอส 2"
+    },
+    {
+      "Text": "พื้นที่ปิด ทะเลทรายอะบิดอส เขต 35-9"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ยูเมะ ทางนี้ไม่มีอะไรเลยค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม... ตรงนี้ก็ด้วย... เราคว้าน้ำเหลวแล้วละ ฮือ... "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ขอโทษนะ โฮชิโนะจัง ฉันคงไม่ไหวแล้ว ฉันหมดแรงให้กับความท้อแท้และสิ้นหวังแล้ว"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ลุกขึ้นเถอะค่ะ รุ่นพี่ "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่ละ มันเกินกำลังของฉันแล้ว ที่ผ่านมาขอบใจมากนะ โฮชิโนะจัง ดูแลตัวเองด้วยล่ะ "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "โธ่เอ๊ย พอเถอะค่ะ!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ในเมื่อเป็นแบบนี้แล้ว งั้นไปสถานีถัดไปกันเลยมั้ย? ที่นั่นเราอาจจะโชคดีก็ได้..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ค่ะ... "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ว่าที่ไหนก็เหมือนกันหมดนั่นละค่ะ ถ้ามันมีที่อย่างหอนิทรรศการของประธานสภานักเรียนอะบิดอส\nที่มีสมบัติราคาแพงจัดแสดงอยู่จริงๆ ละก็"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "พวกสภานักเรียนคนเก่าคงมาค้นหาและขายไปแล้วตั้งแต่แรกแล้วค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม... ก็น่าจะเป็นอย่างนั้นนะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เราเสียเวลาเปล่าแล้วละ กลับกันเถอะค่ะ ไม่น่ามาตามหาสมบัติอะไรกันเลย..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แต่พอได้ยินเรื่องนั้น โฮชิโนะจังก็ตื่นเต้นแล้วก็รีบตามมาเลยไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แต่แล้วพอคว้าน้ำเหลวก็เข้าโหมดถากถางกันเลย...?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ปะ... เปล่า... ไม่ใช่อย่างนั้นนะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "นี่ รุ่นพี่ยูเมะ สมุดโน้ตหล่นไปกองกับพื้นแล้ว"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อ๊ะ สมุดโน้ตของฉัน!?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เฮ้อ~ เกือบเป็นเรื่องใหญ่แล้วมั้ยล่ะ เกือบทำสมุดโน้ตที่มีค่าของโฮชิโนะจังหายซะแล้ว"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ใช่ของฉันสักหน่อยนะคะ...? อีกอย่าง อย่าลงไปนอนกับพื้นดื้อๆ แบบนั้นสิคะ เกียรติของประธาน\nสภานักเรียนคลุกฝุ่นไปหมดแล้วนะคะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ดูนี่สิ โฮชิโนะจัง นี่เป็นขวดน้ำที่สะพายไว้ข้างหลังเหมือนสะพายเป้น่ะ ดูสะดวกดีเนอะ? ซื้อสักขวดมั้ย?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ค่ะ ตอนเคลื่อนไหวมันน่าจะรุ่มร่ามค่ะ แถมพอเทียบกับราคาแล้ว คุณภาพก็ไม่ได้ดีเด่อะไรด้วย"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "งั้นเหรอ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม... หมื่นเยน...? พะ... แพงจัง..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เอาเงินนั่นไปซื้อกระสุนปืนมาเพิ่มจะดีกว่าอีกค่ะ กระสุนยิ่งมีไม่พออยู่เรื่อยเลยนี่คะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "มันก็จริงหรอกนะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่... ฉันมีเรื่องสงสัยค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ทำไมถึงมาเป็นประธานสภานักเรียนได้ล่ะคะ? ฉันไม่ได้จะถามอะไรแปลกๆ นะ แต่ตอนนี้สภานักเรียน\nมีแค่รุ่นพี่คนเดียวนี่คะ แล้วฉันก็ไม่เคยได้ยินเลยว่ามีการจัดการเลือกตั้งประธานสภานักเรียนด้วย..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม... นั่นสินะ ไม่ได้มีขั้นตอนอย่างเป็นทางการหรอก"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "งะ... งั้นเหรอคะ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แหะๆ... ก่อนที่พวกสภานักเรียนรุ่นก่อนจะจากไป พวกเธอมีการยกมือลงคะแนนไว้ แล้วส่งต่อตำแหน่ง\nประธานสภาให้ฉันน่ะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คะ?! ยกมือลงคะแนนเสียงเหรอคะ...? แบบนั้นมันชุ่ยมากเลยนะ?! เลือกประธานสภานักเรียนด้วยวิธีนั้น\nกันเหรอคะ? "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "นั่นสิ... แต่ที่จริงน่าจะมีการโยนภาระตำแหน่งประธานสภานักเรียนกันด้วยวิธีนั้นมานานแล้วน่ะ\nเพราะตอนนี้อะบิดอสก็ไม่มีโครงสร้างพื้นฐานด้านการบริหารด้วย"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คนพวกนั้นไม่คิดที่จะทำงานสภานักเรียนตั้งแต่แรกสินะคะ แล้วก่อนที่จะจากไป ก็ทิ้งภาระก้อนใหญ่ไว้\nให้รุ่นพี่ยูเมะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่หรอก โฮชิโนะจัง ไม่ใช่อย่างนั้นหรอกนะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "โฮชิโนะจัง ใช่ว่าฉันจะรับตำแหน่งนี้มาส่งๆ หรอกนะ ฉันอยากเป็นประธานสภานักเรียนอยู่แล้วน่ะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "งะ... งั้นเหรอคะ...?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อื้ม ขอเพียงแค่รักษาอะบิดอสไว้ได้... ฉันคิดว่าถ้าตัวเองมีความรับผิดชอบหรือสิทธิ์ที่มากขึ้น ก็จะเป็นการดีกว่าน่ะ "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม... ถึงฉันจะไม่ได้มีพลังหรืออำนาจล้นมือทันทีหลังจากได้เป็นประธานสภานักเรียนก็เถอะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แต่ถึงอย่างนั้นฉันก็ตั้งใจเตรียมตัวมาอย่างดี..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เตรียมตัวเหรอคะ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "นี่ไง~ สมุดโน้ตของประธานสภานักเรียน! "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ทำไมถึงถอนหายใจแบบนั้นล่ะ โฮชิโนะจัง? เห็นอย่างนี้ฉันก็จดบันทึกงานที่ทำในทุกวันเลยนะ ฉันไม่ได้ทำเล่นๆ นะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "สมุดเปล่าราคา 150 เยนคือสมุดโน้ตของประธานสภานักเรียนอะบิดอสงั้นเหรอ..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "มะ... ไม่ใช่สมุดเปล่านะ นี่มันสมุดโน้ตของประธานสภานักเรียนต่างหาก... ถึงตอนนี้มันจะเหมือนสมุด\nบันทึกประจำวันก็เถอะ... "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ถะ... ถึงจะทำหน้าเหมือนไม่ชอบก็ช่วยไม่ได้หรอกนะ เพราะสักวันหนึ่งโฮชิโนะจังก็ต้องรับช่วงไปอยู่ดี"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ค่ะ ไม่มีทางเป็นอย่างนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ทะ... ทำไมล่ะ?! "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "นะ... นั่นสินะ พอมาคิดดูแล้ว โฮชิโนะจังก็ไม่ได้เป็นสภานักเรียนสักหน่อย... ขอโทษนะ..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ทั้งๆ ที่โดนปฏิเสธการเข้าสภานักเรียนมาก็หลายครั้งแล้ว... แต่ฉันก็ยังเข้าใจผิดว่าจะอยู่ด้วยกัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "มะ... ไม่ใช่แบบนั้นนะคะ!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันไม่ชอบลายมันน่ะค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เอ๋ งั้นเหรอ? ฉันว่ามันน่ารักดีออก..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ค่ะ... ไม่เห็นจะน่ารักตรงไหนเลย แล้วกล้วยตรงนี้มันอะไรกันคะ? ไม่เห็นจะเข้ากันเลย!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ฮึ่ม~ โฮชิโนะจังไม่สนใจในความแฟนซีแบบนี้เลยเหรอ? หรือว่าเป็นเพราะสมุดไม่ได้เป็นลายปลาที่\nโฮชิโนะชอบน่ะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คะ?! คะ... ใครบอกว่าชอบปลาคะ...?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เห็นครั้งที่แล้วยืนจ้องสมุดบันทึกปลาวาฬที่น่ารักอยู่พักหนึ่งเลยนี่? จ้องแบบตาเป็นประกายเลยด้วย ฉันรู้หมดแหละ!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "มะ... ไม่ใช่แบบนั้นสักหน่อยค่ะ! อีกอย่าง วาฬไม่ใช่ปลานะคะ!!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "งั้นเหรอ? แต่ที่มันน่ารักคือเรื่องจริงใช่มั้ย?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ เจอหรือยังคะ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ยูเมะ!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อ่า โฮชิโนะจัง?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ทำอะไรอยู่คะ? รีบหาแล้วกลับกันเถอะค่ะ เดี๋ยวถ้ากลางคืนแล้วที่นี่อุณหภูมิจะลดลงอีกนะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "โฮชิโนะจัง ดูสิ ท้องฟ้ายามค่ำคืนของอะบิดอส... เห็นดาวชัดเลยเนอะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ก็แถวนี้ไม่มีตึกรามบ้านช่องยังไงล่ะคะ ยิ่งอยู่ในที่ชนบทยิ่งเห็นดาวน่ะค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "งั้นเหรอ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "และถ้ามีเวลาเหม่อมองฟ้าอยู่ ก็เอาเวลานั้นมามองพื้นสักหน่อยเถอะค่ะ! เราต้องหาของที่ชาวเมือง\nคนนั้นทำหล่นหายแล้วรีบกลับกันสิคะ! "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เห็นเขาบอกว่าอยู่แถวนี้นี่นา จะไปตอบรับคำขอร้องที่น่ารำคาญแบบนั้นมาทำไมก็ไม่รู้..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แต่ว่า... เราจะเมินเฉยคนที่กำลังเจอปัญหาอยู่ไม่ได้นี่นา"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เอ๋...? "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "จู่ๆ ลมก็พัด..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ฮะ... โฮชิโนะจัง! รีบกลับกันเถอะ! นี่มันพายุทราย!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ตะ... ต้องกลับทางไหนเนี่ย... เข็มทิศ... อยู่ไหนนะ..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อ๊ะ...?! ลืมเอาเข็มทิศมาอีกแล้ว!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "โธ่เอ๊ย!! ก็บอกแล้วนี่คะว่าให้เอาติดตัวมาด้วย! ถ้าเราหลงทางในทะเลทราย ก็เท่ากับว่าเจออุบัติภัย\nโดยที่หนีไม่พ้นเลยนะคะ! "
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อะ... อืม... ขะ... ขอโทษนะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่เป็นไรค่ะ ฉันมีอยู่ค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ว้าว โฮชิโนะจังนี่สุดยอดไปเลย! รุ่นน้องที่พึ่งพาได้ของฉัน!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เลิกพูดอะไรเพ้อเจ้อแล้ววิ่งเถอะค่ะรุ่นพี่! เร็วเข้าค่ะ!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เฮ้อ... ติดต่อไม่ได้ทั้งคุณครูทั้งรุ่นพี่โฮชิโนะเลย ต้องรอไปถึงเมื่อไรเนี่ย?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อื้ม เซริกะจัง ส่งลวดเชื่อมตรงนั้นให้หน่อยสิ "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รุ่นพี่โนโนมิกับรุ่นพี่ชิโรโกะก็รอไม่ไหวจนไปไหนกันแล้วก็ไม่รู้"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เซริกะจัง ค้อน "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าแต่ท่านประธานสภานักเรียนคนสุดท้าย... ทำไมถึงได้เจอเรื่องแบบนั้นนะ? "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "นั่นสินะ... "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รุ่นพี่โฮชิโนะก็ดูไม่อยากพูดถึงมากๆ เลยด้วย... "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "โอย..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อายาเนะจัง ปวดเอวเหรอ? ไหวหรือเปล่า?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อืม... เวลาแบบนี้ต้องทำอะไรสักหน่อย จะได้สบายใจและเป็นการจัดการความคิดด้วยน่ะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ความคิดเหรอ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เซริกะจัง"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไปค้นห้องสภานักเรียนกันเถอะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เดี๋ยวสิ ทำไมจู่ๆ ก็พูดเหมือนเป็นรุ่นพี่ชิโรโกะไปได้ล่ะ... ห้องสภานักเรียนคือห้องเรียนที่ใช้เป็นห้อง\nเก็บของที่ล็อกอยู่ไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ที่นั่นต้องมีความลับเกี่ยวกับประธานสภานักเรียนซ่อนอยู่แน่นอน"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "มันก็อาจจะเป็นอย่างนั้นหรอกนะ... แต่เราจะเข้าไปทั้งๆ ที่ไม่ได้รับอนุญาตจากรุ่นพี่โฮชิโนะได้เหรอ? ฉันว่ารุ่นพี่น่าจะโกรธนะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ถ้าเป็นแค่ห้องเก็บของ... ก็ไม่เห็นจะต้องล็อกเอาไว้ก็ได้นี่"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แถมตอนนี้มันเหมือนเป็นห้องเก็บของส่วนตัวของรุ่นพี่โฮชิโนะมากกว่า... และถ้าไม่มีอะไรต้องซ่อน\nพวกเราละก็ ฉันว่าก็ไม่จำเป็นต้องล็อกเอาไว้หรอก"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อืม ยังไงก็ต้อง... ไปตรวจสอบที่นั่นดูแล้วละ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ระ... รอด้วยสิ! อายาเนะจัง!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฮ่า... มาถึงแล้ว"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หืม? สตอร์มคลาวด์? ทำไมมาอยู่ข้างนอกล่ะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แหะๆ~ สงสัยอายาเนะจังจะหัวร้อนเข้าให้แล้วสินะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รีบเข้าไปก่อนจะโดนดุมากกว่านี้ดีกว่า"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "มาแล้ว~ โฮชิโนะจัง! ที่นี่คือโรงเรียนอะบิดอสแห่งใหม่ละ! "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ถึงจะถูกไล่ออกมาอยู่อาคารย่อยก็เถอะค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "มันก็จริงอยู่หรอกนะ..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "พวกนักเรียนที่เหลือระหว่างย้ายมายังอาคารนี้ก็ออกไปกันหมดแล้ว... ตอนนี้โรงเรียนอะบิดอส\nมีนักเรียนเหลือแค่ฉันกับโฮชิโนะจัง 2 คนเอง..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เอาเถอะค่ะ พวกนั้นก็เป็นคนแบบนี้ตั้งแต่แรกแล้วนี่คะ ฉันไม่สนใจคนที่จากไปแล้วหรอกค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่หรอก โฮชิโนะจัง ที่เป็นอย่างนี้เพราะภัยพิบัติจากธรรมชาติต่างหาก เราจะพูดแบบนั้นกับคนที่ได้รับ\nความเดือดร้อนจากเรื่องนี้ไม่ได้นะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ฉันว่าการออกจากเขตปกครองตนเองที่ตัวเองอยู่มานานก็คงไม่ใช่เรื่องน่าดีใจนักหรอก"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่ว่า... ไม่มีใครตัดสินใจที่จะอยู่เพื่อปกป้องอะบิดอสเลยสักคนนี่คะ!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ก็มีโฮชิโนะจังไง?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แล้วก็ฉันด้วย ใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ค่ะ... พอมาคิดดูแล้วมันก็ใช่อยู่หรอกค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อืม เพราะงั้นต่อไปเราสองคนที่เหลืออยู่จะต้องรักและหวงแหนกันให้มากขึ้น ฉันพูดถูกมั้ย โฮชิโนะจัง?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เพราะงั้นฉันเลยจะปกป้องโฮชิโนะจังยังไงล่ะ ฉันไม่อยากให้โฮชิโนะจังต้องบาดเจ็บ อย่างน้อยก็ให้ฉันได้เป็นโล่ให้..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่สิคะ ฉันต่างหากที่ต้องปกป้องรุ่นพี่ ก็รุ่นพี่อ่อนแอนี่นา"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ว่าไงนะ? ตะ... แต่มันก็จริงอยู่หรอก..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่สิ ที่ฉันดูอ่อนแอก็เป็นเพราะว่าโฮชิโนะจังเก่งมากเป็นพิเศษต่างหากล่ะ!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "อีกอย่าง รุ่นพี่ต้องปกป้องรุ่นน้องสิมันถึงจะถูก..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ค่ะ... ฉันรู้ค่ะ เพราะงั้นฉันถึงต้องพยายามขึ้นอีกยังไงล่ะคะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "นี่ค่ะรุ่นพี่ รับไปสิคะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "หืม? นี่มันอะไรเหรอ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ใบสมัครเข้าร่วมสภานักเรียน?!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "จริงเหรอ โฮชิโนะจัง? ในที่สุดก็เปลี่ยนใจแล้วเหรอ?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ต้องบอกว่าฉันไม่มีที่ให้หนีไปแล้วมากกว่าค่ะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันอยู่กับรุ่นพี่บ่อยจนเป็นเรื่องธรรมดาไปแล้ว... และจากนี้ต่อให้ต้องเป็นหรือไม่เป็นสภานักเรียน ฉันก็ไม่สนแล้วค่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ในเมื่อมันเป็นแบบนี้แล้ว ฉันก็ไม่มีทางเลือกอื่นนอกจากพยายามกับรุ่นพี่อย่างถึงที่สุด... อ้อ แต่ยังไง\nฉันก็จะไม่รับสมุดโน้ตไว้นะคะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ว้าว! ดีใจจัง! ฉันดีใจมากเลยละโฮชิโนะจัง!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "นี่มันความฝันหรือเปล่า...? หรือจะเป็นปาฏิหาริย์...? อื้อ! ใช่แล้วละ! ต้องเกิดปาฏิหาริย์ขึ้นแน่ๆ!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันหายใจไม่ออกแล้วค่ะรุ่นพี่ แบบนี้ฉันอาจตายก่อนเกิดปาฏิหาริย์ก็ได้นะคะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "จริงสิ! นี่ไม่ใช่เวลามากอดกันอยู่! ถ่ายรูป! ถ่ายรูป! ต้องถ่ายรูปเป็นที่ระลึกไว้สิ!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คะ? ถะ... ถ่ายรูปเหรอคะ? มันไม่ใช่เรื่องน่าตื่นเต้นถึงขนาดนั้นเลยนะคะรุ่นพี่"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่หรอก! ปกติเวลามีเรื่องน่าฉลองก็ต้องถ่ายรูปเก็บไว้อยู่แล้ว!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "มาทางนี้เร็ว! โฮชิโนะจัง!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เอาละ! โฮชิโนะจัง มองไปทางโน้นนะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ใกล้ไปแล้วค่ะ รุ่นพี่ เกือบจะโดนตัวฉันแล้วนะคะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ไม่ต้องเขินหรอกน่า เอาละ ใกล้กว่านี้อีกหน่อย "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เดี๋ยวสิ จะดึงเข้าไปขนาดนั้นเลยเหรอคะ ฉันหายใจไม่ออกนะ อยู่ห่างกันหน่อยไม่ได้เหรอคะ?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ท้าดา!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "นี่ไง ห้องสภานักเรียนใหม่ของเรา เป็นไงบ้างล่ะโฮชิโนะจัง?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ห้องแคบจังเลยค่ะ"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "เนอะ? แต่ก็เอาเถอะ!"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "ยังไงสภานักเรียนอะบิดอสก็จะเริ่มขึ้นใหม่ที่นี่ ถึงตอนนี้จะมีแค่ประธานสภานักเรียนกับรองประธาน\nสภานักเรียน... แต่สักวันหนึ่ง..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "สักวันหนึ่ง?"
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "แหะๆๆ..."
+    },
+    {
+      "Name": "ยูเมะ",
+      "Text": "สักวันหนึ่งก็คงมีรุ่นน้องของเราเข้ามาส่งเสียงดังโวยวายละเนอะ...?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ขอเสียมารยาทหน่อยนะคะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รอก่อน อายาเนะจัง ที่นี่ไม่ได้ใช้งานมานานแล้ว น่าจะมีฝุ่นเยอะเลย... "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เอ๋... "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นึกว่าที่นี่ต้องรกมากๆ ซะอีก แต่กลับสะอาดกว่าที่คิดเอาไว้อีกนะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อืม... อย่างกับว่ามีใครเข้ามาทำความสะอาดเป็นประจำอย่างนั้นเลย"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ใครกัน? หรือว่าจะเป็นรุ่นพี่โฮชิโนะ? ไม่สิ... ไม่มีทางเป็นแบบนั้นหรอก "
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ตกใจหมดเลย?! รุ่นพี่ชิโรโกะ?! "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เอ๋...? ชิโรโกะจัง? แล้วก็..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ระ... รุ่นพี่โนโนมิ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ถือไม้กวาดกับไม้ปัดฝุ่นอยู่ด้วย...? รุ่นพี่มาทำความสะอาดที่นี่กันอยู่หรอกเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ่า... มันก็ใช่อยู่หรอก... ว่าแต่ทุกคนมาทำอะไรกันที่นี่เหรอคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ... พวกรุ่นพี่ก็มาที่นี่เพราะอยากทำความเข้าใจสถานการณ์กันสินะคะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม... ถ้าประธานสภานักเรียนยูเมะไม่ได้หายตัวไป แต่โดนทำลายฮาโลละก็... ฉันว่าเราต้องหาคำตอบ\nให้ได้ว่าเกิดเรื่องอะไรขึ้นน่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ พวกฉันก็คิดแบบนั้นเหมือนกันค่ะ... ว่าแต่รุ่นพี่โนโนมิเป็นคนทำความสะอาดที่นี่เหรอคะ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ... เวลาคิดถึงก็จะแอบรุ่นพี่โฮชิโนะเข้ามาน่ะค่ะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แต่ว่าของทุกอย่างที่นี่ก็เป็นแค่พวกของจุกจิก..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ทางนี้เหมือนมีอะไรอยู่เลย"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ตู้ใส่ของ...? "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ๊ะ นั่นมัน..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ล็อกเกอร์ส่วนตัวของ <คุจินาชิ ยูเมะ ชั้นปีที่ 3> กับ <ทาคานาชิ โฮชิโนะ ปีที่ 1>"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คงเป็นของใช้สมัยที่เป็นสภานักเรียนสินะคะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่ค่ะ... ตู้ของท่านประธานสภานักเรียนว่างเปล่า... แต่ของรุ่นพี่โฮชิโนะมัน..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ล็อกอยู่เหรอ...? ฉันจะลองเปิดเอง"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รุ่นพี่ชิโรโกะ?! นั่นอะไรน่ะ?! เด็กผู้หญิงม.ปลายพกเซ็ตเครื่องมืองัดกุญแจไว้ในกระเป๋าด้วยเหรอ?!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม... พอดีงานอดิเรกฉันมัน... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "มะ... ไม่ค่ะ มันไม่ได้ล็อกอยู่หรอกค่ะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "งั้นก็โล่งอกไปที รุ่นพี่ชิโรโกะเกือบได้โดนรุ่นพี่โฮชิโนะดุเข้าแล้วไง"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แต่การแอบเปิดโดยที่เจ้าของไม่รู้ก็น่าจะโดนดุอยู่ดีนะคะ... "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ข้างในมีอะไรเหรอคะ?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อาวุธแล้วก็พวกอุปกรณ์น่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "นี่มัน... เสื้อกั๊กกันกระสุนกับอาวุธเสริม... ส่วนอุปกรณ์พวกนี้ก็..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม น่าจะเป็นของที่รุ่นพี่โฮชิโนะเคยใช้เมื่อก่อนน่ะ ถึงจะเก่าแล้วแต่ก็ได้รับการดูแลรักษาอย่างดีเลย"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อาวุธไม่ใช่เล่นๆ เลยนะเนี่ย..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หรือว่ารุ่นพี่โฮชิโนะคิดจะก่อสงครามอะไรน่ะ...?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ระ... รุ่นพี่โฮชิโนะ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "วะ... ว้ายย?! โดนจับได้แล้ว!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ระ... รุ่นพี่โฮชิโนะ... อะ... เอ่อ..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อืม..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เดี๋ยวเถอะน้า~ ทำอะไรกันอยู่น่ะ พวกเด็กจอมซน~!"
+    },
+    {
+      "Text": "ตอนต่อไป;วันนั้น"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;阿拜多斯學生會（２）"
+    },
+    {
+      "Text": "阿拜多斯沙漠封鎖地區35-9"
+    },
+    {
+      "Name": "星野",
+      "Text": "夢前輩，這裡什麼都沒有。"
+    },
+    {
+      "Name": "夢",
+      "Text": "……這裡也沒有呢。\n我又失敗了，嗚嗚嗚。"
+    },
+    {
+      "Name": "夢",
+      "Text": "對不起，星野醬。\n我已經被挫折和絕望擊垮……只能到此為止了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……這樣我很為難。\n快起來吧，前輩。"
+    },
+    {
+      "Name": "夢",
+      "Text": "不，我已經不行了。\n這段時間謝謝你，星野醬。要保重哦。"
+    },
+    {
+      "Name": "星野",
+      "Text": "啊啊，拜託別鬧了！"
+    },
+    {
+      "Name": "夢",
+      "Text": "既然這樣，我們到下一站看看吧？\n說不定就在那裡……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……不。"
+    },
+    {
+      "Name": "星野",
+      "Text": "其他地方應該也一樣吧。"
+    },
+    {
+      "Name": "星野",
+      "Text": "展示著貴重寶物的阿拜多斯學生會長展示館？\n如果真的有那種東西，早就被學生會的人找出來賣光了。"
+    },
+    {
+      "Name": "夢",
+      "Text": "唔嗯……好像也是？"
+    },
+    {
+      "Name": "星野",
+      "Text": "真是浪費時間。\n趕快回去吧，沒事尋什麼寶……"
+    },
+    {
+      "Name": "夢",
+      "Text": "可是星野醬不是一聽到尋寶兩個字就開心地跟過來了嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "因為撲空就進入了悲觀模式……？"
+    },
+    {
+      "Name": "星野",
+      "Text": "不，不是……與其這麼說……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……對了，前輩。\n你的手冊掉到地上了。"
+    },
+    {
+      "Name": "夢",
+      "Text": "啊，我的手冊！？"
+    },
+    {
+      "Name": "夢",
+      "Text": "呼～還好還好～\n差點就把星野醬重要的手冊弄丟了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……那什麼時候變成我的手冊了？\n還有請不要隨便就躺在地上。學生會長的顏面都跟著掃地了。"
+    },
+    {
+      "Name": "夢",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "夢",
+      "Text": "你看，星野醬。\n是能像背包一樣背在背上的水壺，看起來很方便吧？要不要買一個？"
+    },
+    {
+      "Name": "星野",
+      "Text": "不用了。感覺活動的時候就會礙手礙腳的。\n而且以它的價位來看，品質實在一言難盡。"
+    },
+    {
+      "Name": "夢",
+      "Text": "是嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "哇，要1萬元……？\n好，好貴……"
+    },
+    {
+      "Name": "星野",
+      "Text": "與其買那種東西，不如多買一點子彈吧。\n子彈永遠不嫌多。"
+    },
+    {
+      "Name": "夢",
+      "Text": "這倒是沒錯。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……前輩，我有個問題想問你。"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "星野",
+      "Text": "你是怎麼當上學生會長的？\n學生會現在只有前輩一個人，我也從沒聽說過學生會長選舉之類的事……"
+    },
+    {
+      "Name": "夢",
+      "Text": "唔嗯……的確是沒有經過正式的流程。"
+    },
+    {
+      "Name": "星野",
+      "Text": "是，是嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "呵呵……只是前任學生會的成員在離開之前，\n透過舉手表決的方式，把會長的職位交給我而已。"
+    },
+    {
+      "Name": "星野",
+      "Text": "什麼！？舉手表決……？\n這也太隨便了吧！？學生會長是這樣選出來的嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗯……其實好像很久之前就是用這種方式，把會長的職位推來推去了。\n畢竟現在的阿拜多斯，就連行政的基礎設施都沒有。"
+    },
+    {
+      "Name": "星野",
+      "Text": "所以那些傢伙，本來就沒打算好好進行學生會的活動……\n而且還在離開之前，把麻煩全都推給了夢前輩是吧。"
+    },
+    {
+      "Name": "夢",
+      "Text": "不，星野醬。不是這樣的。"
+    },
+    {
+      "Name": "夢",
+      "Text": "成為學生會長是我的意願。\n並不是被他們強迫的，星野醬。"
+    },
+    {
+      "Name": "星野",
+      "Text": "是，是嗎……？"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗯，只要能守護阿拜多斯……我認為自己的責任和權限越多越好。"
+    },
+    {
+      "Name": "夢",
+      "Text": "當然……實際上並沒有因為當上會長，就突然獲得很大的力量和權力就是了。"
+    },
+    {
+      "Name": "夢",
+      "Text": "不過我還是有用自己的方式努力準備……"
+    },
+    {
+      "Name": "星野",
+      "Text": "準備？"
+    },
+    {
+      "Name": "夢",
+      "Text": "鏘～學生會長手冊！"
+    },
+    {
+      "Name": "夢",
+      "Text": "為什麼要嘆氣呢，星野醬？\n別看我這樣，我可是每天都有認真寫活動日誌的哦！"
+    },
+    {
+      "Name": "星野",
+      "Text": "阿拜多斯學生會長的手冊，居然是150元就能買到的練習本……"
+    },
+    {
+      "Name": "夢",
+      "Text": "這，這不是練習本，是學生會長手冊啦……\n當然現在可能更像是我的日記本……"
+    },
+    {
+      "Name": "夢",
+      "Text": "就算露出厭惡的表情也沒用的哦？\n這本手冊總有一天會傳給星野醬的。"
+    },
+    {
+      "Name": "星野",
+      "Text": "不。那種事不會發生。"
+    },
+    {
+      "Name": "夢",
+      "Text": "為，為什麼！？"
+    },
+    {
+      "Name": "夢",
+      "Text": "不過想想也有道理，畢竟星野醬不是學生會的人……對不起……"
+    },
+    {
+      "Name": "夢",
+      "Text": "雖然已經被你拒絕了很多次……\n因為你還是陪在我身邊的關係，所以才誤會了……"
+    },
+    {
+      "Name": "星野",
+      "Text": "不，不是……我不是那個意思！！"
+    },
+    {
+      "Name": "星野",
+      "Text": "……我只是不喜歡那個設計而已。"
+    },
+    {
+      "Name": "夢",
+      "Text": "咦，是嗎？我覺得很可愛呀……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……到底哪裡可愛了啊。\n這根香蕉是怎麼回事？一點品味都沒有！！"
+    },
+    {
+      "Name": "夢",
+      "Text": "哦～所以星野醬對這種花俏的東西沒興趣嗎？\n還是因為不是你喜歡的小魚設計才這麼說？"
+    },
+    {
+      "Name": "星野",
+      "Text": "啊！？你，你說誰喜歡魚……？"
+    },
+    {
+      "Name": "夢",
+      "Text": "你之前不是一直盯著可愛的鯨魚筆記本嗎？\n兩隻眼睛都看到發亮了，我可是都知道的唷？"
+    },
+    {
+      "Name": "星野",
+      "Text": "才，才沒有！而且鯨魚也不是魚！！"
+    },
+    {
+      "Name": "夢",
+      "Text": "是嗎？所以你也不否認很可愛吧？"
+    },
+    {
+      "Name": "星野",
+      "Text": "前輩！！"
+    },
+    {
+      "Name": "星野",
+      "Text": "前輩，找到了嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "夢前輩！"
+    },
+    {
+      "Name": "夢",
+      "Text": "啊，星野醬？"
+    },
+    {
+      "Name": "星野",
+      "Text": "你在做什麼？找完了就趕快回去吧。\n這裡晚上的氣溫會下降很多。"
+    },
+    {
+      "Name": "夢",
+      "Text": "……嗯。"
+    },
+    {
+      "Name": "夢",
+      "Text": "星野醬你看。阿拜多斯夜裡的星星……很亮對吧？"
+    },
+    {
+      "Name": "星野",
+      "Text": "是因為周圍沒有都市的關係吧。\n不是都說越鄉下的地方，星星就會越亮嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "這樣啊……"
+    },
+    {
+      "Name": "星野",
+      "Text": "話說與其花時間看天空，不如多看地上幾眼吧！\n我們得趕快找到那個市民弄掉的東西才行！"
+    },
+    {
+      "Name": "星野",
+      "Text": "應該就在這附近才對。\n真受不了，何必沒事答應這種麻煩的請求呢……"
+    },
+    {
+      "Name": "夢",
+      "Text": "可是……總不能對陷入困難的人視而不見吧。"
+    },
+    {
+      "Name": "夢",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "星野",
+      "Text": "突然起風了……"
+    },
+    {
+      "Name": "夢",
+      "Text": "星，星野醬！我們趕快回去吧！沙塵暴要來了！"
+    },
+    {
+      "Name": "夢",
+      "Text": "回，回去的路是……指南針……在哪裡……"
+    },
+    {
+      "Name": "夢",
+      "Text": "哇！？我又沒帶指南針來了！"
+    },
+    {
+      "Name": "星野",
+      "Text": "真是的！！不是跟你說過要記得帶嗎！\n沒有指南針的話，要是在沙漠裡迷路就完蛋了！"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗚嗚，對，對不起……"
+    },
+    {
+      "Name": "星野",
+      "Text": "沒關係，還好我有帶著。"
+    },
+    {
+      "Name": "夢",
+      "Text": "哇啊～不愧是星野醬！真是可靠的後輩！"
+    },
+    {
+      "Name": "星野",
+      "Text": "別再說這些有的沒的了！快走吧，前輩！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "唉，老師和星野前輩都聯絡不上。\n到底要等到什麼時候啊？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "茜香醬，可以幫我拿一下焊條嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "野乃美前輩和白子前輩也都等得不耐煩，不知道跑去哪裡了。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "茜香醬，錘子。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "可是最後一位學生會長……為什麼會遇到那種事呢？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……就是說啊。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "星野前輩好像很不想說的樣子……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……嗯。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "呃唔── "
+    },
+    {
+      "Name": "茜香",
+      "Text": "綾音醬，你的腰還好嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……嗯。\n這種時候必須做點什麼，才能讓心情和思緒變得冷靜和清晰。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "思緒？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "茜香醬。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "我們去洗劫學生會室吧。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不是，你怎麼突然說話跟白子前輩一樣……\n是指那間上了鎖，被當倉庫使用的教室嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那裡一定藏有學生會長的秘密。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "是有這個可能……可是不經星野前輩的允許就進去好嗎？\n他一定會生氣的。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……如果只是倉庫的話，就不必特意上鎖了吧。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "而且現在感覺只是星野前輩的個人倉庫而已……\n如果不是有事瞞著我們，根本不必上鎖。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "嗯，現在……果然必須確認才行。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "等，等等！綾音醬！"
+    },
+    {
+      "Name": "星野",
+      "Text": "呼，到了到了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "嗯？雨雲號怎麼跑到外面來了？"
+    },
+    {
+      "Name": "星野",
+      "Text": "哎呀～看來綾音醬好像很生氣呢。"
+    },
+    {
+      "Name": "星野",
+      "Text": "得在挨罵前走快點才行。"
+    },
+    {
+      "Name": "夢",
+      "Text": "我們到囉！星野醬！這裡就是新阿拜多斯高中！"
+    },
+    {
+      "Name": "星野",
+      "Text": "只是分校的別館而已吧。"
+    },
+    {
+      "Name": "夢",
+      "Text": "雖然是這樣沒錯……"
+    },
+    {
+      "Name": "夢",
+      "Text": "而且在遷移到這裡的同時，其他學生也全都離開了……\n現在還留在阿拜多斯高中的，就只剩下我跟星野醬2個人而已……"
+    },
+    {
+      "Name": "星野",
+      "Text": "反正他們本來就是那樣的人。\n離不離開其實也無所謂。"
+    },
+    {
+      "Name": "夢",
+      "Text": "不，星野醬。這是自然災害的錯。\n我們不應該對受害者說那種話。"
+    },
+    {
+      "Name": "星野",
+      "Text": "…… "
+    },
+    {
+      "Name": "夢",
+      "Text": "離開待了這麼久的自治區，一定很難受吧。"
+    },
+    {
+      "Name": "星野",
+      "Text": "但是……沒有任何人決定留下來保護阿拜多斯啊！"
+    },
+    {
+      "Name": "夢",
+      "Text": "不是有星野醬在嗎？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "夢",
+      "Text": "而且還有我。對吧？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……這個嘛，確實是這樣沒錯。"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗯，所以今後我們兩個必須更珍惜彼此才行。\n對吧星野醬？"
+    },
+    {
+      "Name": "夢",
+      "Text": "星野醬就由我來保護。\n不用害怕受傷哦，因為我會在前面用盾牌保護你……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……是我保護前輩才對吧。畢竟前輩很弱。"
+    },
+    {
+      "Name": "夢",
+      "Text": "咦？這，這麼說好像也……"
+    },
+    {
+      "Name": "夢",
+      "Text": "不對，是星野醬特別強吧！"
+    },
+    {
+      "Name": "夢",
+      "Text": "而且，本來就該由前輩保護後輩……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……我知道。\n所以我也必須更加努力……"
+    },
+    {
+      "Name": "星野",
+      "Text": "來……前輩，請收下。"
+    },
+    {
+      "Name": "夢",
+      "Text": "嗯？這是什麼？"
+    },
+    {
+      "Name": "夢",
+      "Text": "加入學生會的申請書！？"
+    },
+    {
+      "Name": "夢",
+      "Text": "真的嗎，星野醬？你終於改變心意了嗎？"
+    },
+    {
+      "Name": "星野",
+      "Text": "與其說改變心意……應該說我也無處可逃了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "和前輩在一起這件事已經變得太過自然……\n不管是不是學生會的人，好像都已經無所謂了……"
+    },
+    {
+      "Name": "星野",
+      "Text": "既然如此，似乎只能和前輩一起努力到底……\n啊，不過我還是不會收下那本手冊的。"
+    },
+    {
+      "Name": "夢",
+      "Text": "哇──！好開心！我真的很開心！星野醬！"
+    },
+    {
+      "Name": "夢",
+      "Text": "這是夢嗎……？還是……奇蹟？\n嗯！沒錯！一定是奇蹟！"
+    },
+    {
+      "Name": "星野",
+      "Text": "……我喘不過氣了，前輩。\n在奇蹟發生之前我就要沒命了。"
+    },
+    {
+      "Name": "夢",
+      "Text": "對了！現在不是說這些的時候！\n照片照片！我們來拍照紀念吧！"
+    },
+    {
+      "Name": "星野",
+      "Text": "拍，拍照？不必那麼誇張吧，前輩？"
+    },
+    {
+      "Name": "夢",
+      "Text": "不行！發生值得慶祝的事情就該拍照留念！"
+    },
+    {
+      "Name": "夢",
+      "Text": "過來這邊！星野醬！"
+    },
+    {
+      "Name": "夢",
+      "Text": "來！星野醬，看那邊。"
+    },
+    {
+      "Name": "星野",
+      "Text": "靠太近了啦，前輩。\n碰到了哦？碰到了啦。"
+    },
+    {
+      "Name": "夢",
+      "Text": "不用害羞～來，再靠近一點。"
+    },
+    {
+      "Name": "星野",
+      "Text": "不是，我又不能呼吸了，可以離遠一點嗎？"
+    },
+    {
+      "Name": "夢",
+      "Text": "鏘──！"
+    },
+    {
+      "Name": "夢",
+      "Text": "來，這裡是新的學生會室哦。\n覺得怎麼樣呀，星野醬？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……好小。"
+    },
+    {
+      "Name": "夢",
+      "Text": "對吧？不過雖然空間很小！"
+    },
+    {
+      "Name": "夢",
+      "Text": "但是阿拜多斯學生會將從這裡重新開始。\n雖然現在……只有學生會長和副學生會長兩個人，不過總有一天……"
+    },
+    {
+      "Name": "星野",
+      "Text": "總有一天？"
+    },
+    {
+      "Name": "夢",
+      "Text": "耶嘿嘿……"
+    },
+    {
+      "Name": "夢",
+      "Text": "這裡也會因為我們的後輩，變成熱鬧的地方吧……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "打擾了……？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "等等我，綾音醬。\n這裡很久沒使用了，灰塵好重……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "本來還以為會很髒，結果比想像中還乾淨耶？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……嗯。想必是有人會定期來打掃吧。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "是誰？難道是星野前輩？\n……不，應該不太可能。"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔嗯。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "白子前輩！？嚇我一跳！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "咦……白子醬？\n還有……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "野，野乃美前輩也在！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "而且還拿著掃把和雞毛撢子……？\n原來是前輩在打掃這裡嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "是，是這樣沒錯……大家在這裡做什麼呢？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……這樣啊。\n原來前輩們也是為了瞭解現況才來這裡。"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯……如果夢學生會長不是失蹤，而是光環被破壞的話……\n必須查出發生了什麼事才行。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "我們的想法也一樣……\n這裡是野乃美前輩在打掃的嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……嗯。\n偶爾想到的時候……都會背著星野前輩……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不過這裡就只有一些雜物而已……"
+    },
+    {
+      "Name": "白子",
+      "Text": "這邊有東西。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "置物櫃……？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "啊，那是……"
+    },
+    {
+      "Name": "白子",
+      "Text": "「3年級．梔子夢」和「1年級．小鳥遊星野」……是個人置物櫃吧。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "也許是學生會時期使用的東西。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……嗯。\n學生會長的置物櫃是空的……但是星野前輩的……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……鎖著嗎？我來開開看。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "白子前輩！？那是什麼東西！？\n為什麼女高中生的背包裡會有開鎖工具組！？"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔嗯……這只是我的興趣而已……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不，不用了。櫃子並沒有上鎖……"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "太好了。白子前輩差點就要被星野前輩教訓一頓了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "雖然背著主人偷偷打開也一樣會挨罵就是了……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "裡面有什麼？"
+    },
+    {
+      "Name": "白子",
+      "Text": "……是武器和裝備。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "這是……防彈背心和輔助武器……這些裝備是……"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯，好像是星野前輩以前用過的。\n雖然舊，但是保養得很好。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這些武器真不得了……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "星野前輩是打算獨自打仗嗎……？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "星，星野前輩！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "唔，唔哇啊！？被發現了！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "星，星野前輩……那個……"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔，唔嗯……"
+    },
+    {
+      "Name": "星野",
+      "Text": "喂～你們這些搗蛋鬼在做什麼～！"
+    },
+    {
+      "Text": "下一話;那一天"
+    }
+  ]
+}

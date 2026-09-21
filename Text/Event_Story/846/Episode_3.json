@@ -1,0 +1,2457 @@
+{
+  "TitleJP": "消えた列車を追って",
+  "TitleKR": "사라진 열차를 찾아서",
+  "TitleEN": "In Search of a Missing Train",
+  "TitleTH": "ตามหารถไฟที่หายไป",
+  "TitleTW": "尋找消失的列車",
+  "DescJP": "システムの誤作動で発車した列車を追いかけることになった三人は、助っ人として先生を呼び、地下鉄へ乗り込むことに。車内で一行はスケバンたちにカツアゲをされそうになるが、「未来に期待していない」アオバのマイナスオーラによって、撃退に成功する。",
+  "DescKR": "한눈판 사이에 사라진 화물 열차. 쌍둥이는 선생님의 도움을 요청하고, 일행은 열차를 찾아 나선다.",
+  "DescEN": "The freight train disappeared in the blink of an eye. The twins ask Sensei for help, and the group heads out in search of the train.",
+  "DescTH": "รถไฟบรรทุกสินค้าหายไปในชั่วพริบตา ฝาแฝดขอความช่วยเหลือจาก\nคุณครูและออกเดินทางเพื่อตามหารถไฟ",
+  "DescTW": "一分神，列車便從一行人的視線裡消失了。雙胞胎向老師尋求協助，於是一行人便展開行動，出發尋找列車。",
+  "DialogJP": [
+    {
+      "Text": "第2話;消えた列車を追って"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "勝手に発車しちゃったの？システムの誤作動で？"
+    },
+    {
+      "Name": "駅員A",
+      "Text": "は、はい……。\n一応、乗務員室の権限で制御はできるのですが――"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "い、今、乗務員室には誰もいないんですけど……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "なんでこっち見るのさ。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、遊んでなければ、こんなことにはならなかったのに……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "悩んでても始まらないし！追いかけるよ！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "イレギュラー発生ー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ま、まずは路線図を確認して――"
+    },
+    {
+      "Name": "駅員A",
+      "Text": "今からなら、地下鉄に乗ったほうが早いですよ。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "おっけ。急ぐよ。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "地下鉄ーめんどくさーい……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "――てなわけでさ。"
+    },
+    {
+      "Text": "[ns1] \"なるほど。\""
+    },
+    {
+      "Text": "[ns2] \"だいたい状況は分かったよ。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、あなたは……もしかして、シャーレの先生ですか！？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "な、なんで先生がここに……？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ヒカリが呼んだー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "どうして！？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "困ったら呼んでいいって言われたからー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "そ、そんなの社交辞令だと思いますけど……！？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "えっ……わ、私に……何か……？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あっ、え、えと……貨物輸送管理部2年、[ruby=うつみ]内海[/ruby]アオバ、です……。"
+    },
+    {
+      "Text": "[s] \"よろしく、アオバ。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "よ、よろしくはしなくても……いいですけど……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "え？2年生だったの？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "は、はい……お二人は1年生ですよね？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "アオバが先輩ー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "い、いまさら先輩扱いされたいとも思ってないですけど……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "そもそも期待してないし……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "おっ、来た来た！乗り込めー！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ほいー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "はぁ、どうして私がこんな連中と一緒に……。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "うおー、ゆれるゆれるー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "地下鉄ならこんなもんでしょ。ま、しゃーないしゃーない。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "そ、そういうのはよくないと思うんですけど……。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "どういうのー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "わ、悪口は言わないほうが……。\nは、ハイランダーの制服を着ているんですし……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "なんで？事実っしょ？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "じ、事実だとしても……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "[ruby=時と場所と場合]TPO[/ruby]ってあるじゃないですか……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "難しいこと考えて大変だね。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "なんでこんなのが幹部をやれてるんだろ……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "そんなことより、後のことを考えなきゃ。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "どうやって言い訳する？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "時間通りならー問題ないかなー？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ！たしかに！パパッとリカバリーしちゃおっか。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "おい、あれ見ろよ。"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "ん？ハイランダーの連中じゃん。"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "そういやこの前、運賃を値上げしたんだっけ。いい迷惑だぜ……。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "勝手なことされると参っちゃうよな。\nま、うちらは金払ってないからいいけどよ。"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "つーか、地下鉄ってハイランダーなんだっけ？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "列車も地下鉄も似たようなもんだろ？"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "関係ないね。どうせ金持ってんだろうし、ちょっとくらい分けてもらおうぜ。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "つり革体操ー、インフィニティ・スパイラル・スピンー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ、10点！10点！10点！"
+    },
+    {
+      "Text": "[ns3] \"ヒカリ、つり革にぶら下がるのはやめようか。\""
+    },
+    {
+      "Text": "[ns4] \"ノゾミも、あまり大声は出さないでね。\""
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "はーい。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ごめんなさーい。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "せ、先生の言うことは素直に聞くんですね……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、あの……すべての幹部がこうってわけじゃないので……。\nは、ハイランダーのこと、誤解しないでくださいね……。"
+    },
+    {
+      "Text": "[s] \"今は私がついているから大丈夫だよ。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "はい……。\nうぅ……こっちまで恥ずかしくなってくるんですけど……。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "おい、ハイランダー！"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "お前ら、地下鉄の運賃を上げたんだってな？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "うちらみてぇな貧乏人は乗るなって言いてぇのか？あぁん？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "地下鉄は私らの所管じゃないよ？"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "え……あ、そうなの？"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "所管じゃないからなんだってんだ！"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "お前らだって列車走らせるだけで金とってるじゃねぇか。\n代わりに責任取れっつってんだよ！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "い、言いがかり過ぎるんですけど……。"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "とにかく、そのなんだ……？イシャキン……？ってもんをよこせ！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "慰謝料のことー？"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "それだ、それ！バイショーしろ、バイショウ！"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "てか、お前今うちらのこと馬鹿にした？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "こりゃ「イシャキン」追加だぜ～。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ノゾミ、お金あるー？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ううん？運賃も先生が出してくれたじゃん。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ヒカリたちもーびんぼー。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "おい、んなこと通じると思ってんのか？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "金がねぇなら弾でもよこせ！"
+    },
+    {
+      "Text": "[ns] \"みんな、ちょっと落ち着こうか……。\""
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "あん？大人ぁ？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "ちょうどいい。大人なら金もあんだろ？お前が払ってくれてもいいんだぜ？"
+    },
+    {
+      "Text": "[s5] \"私もお金に余裕があるわけじゃないんだけど……。\""
+    },
+    {
+      "Text": "[s6] \"とりあえず、落ち着いて話を……！\""
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "話して解決するわけねぇだろ！？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "うちらだってこんなことしたくないんだよ！"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "でも勉強は嫌いだし、金もない！もう喧嘩以外やることないんだぜ！？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "成績悪いのにー性格も悪いのー？"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "あぁん！？ナメてんのか！？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "わ、私も、その気持ち分かります……。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "あぁん？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "わ、私も古典のテスト、毎回赤点なので……よく分かります。"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "なんだ、お前も勉強できねぇのか。そんで？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "で、でも……勉強がイヤで逃げたのは、ご自身の選択ですよね……？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "なら、そ、その結果も、素直に受け入れるべきでは……？"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "はぁ！？なんでだよ！？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "なんでそんなこと言うんだよ。ちょっとくらい優しくしてくれたっていいじゃねぇか！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ど、どうしてですか……？"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "……そりゃ、誰だって優しくされてぇだろ？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、頭お花畑なんですね……。\nせ、世界はもともと冷たくて酷いんですけど……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "だ、誰も責任なんて取ってくれやしないのに、どうして人任せでいられるんですか……？"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "だ、だって！う、うちらだって愛されたいんだぜ！？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ふ、ふふ……期待をするから、失望するんです……。\nお、お馬鹿さん、ですね……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "だ、誰だって……傷つくのは嫌じゃないですか……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "き、期待しなければ、傷つくこともないのに……ふふふ……。"
+    },
+    {
+      "Name": "スケバンB",
+      "Text": "こ、こいつ……。"
+    },
+    {
+      "Name": "スケバンC",
+      "Text": "なんか……もういいか。"
+    },
+    {
+      "Name": "スケバンA",
+      "Text": "い、行くぞ……！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "よく撃退したね！\nすっごいマイナスオーラじゃん！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ふ、普通だと思うんですけど……？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "生きてて楽しくないのー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "え……？生きるのに……楽しさって要ります……？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "もっっっちろん！！楽しくないなら、やる必要も、理由もないじゃん？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "あぐりー。"
+    },
+    {
+      "Text": "[ns7] \"人生は、人それぞれだからね。\""
+    },
+    {
+      "Text": "[ns8] \"アオバが、少しでも未来に期待できるようになるといいね。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "き、期待しないで……おきます……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、ここです。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "大人しく待っててくれよ～？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "うぉー、ロストトレインー。"
+    },
+    {
+      "Text": "[ns] \"行こう、アオバ。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "は、はい……。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;사라진 열차를 찾아서"
+    },
+    {
+      "Name": "노조미",
+      "Text": "그러니까, 자동 발차 시스템이 멋대로 열차를 보내 버렸다고?"
+    },
+    {
+      "Name": "역무원 A",
+      "Text": "네, 네에…… 발차 신호가 올 때 운전실에서 끄면 되긴 하는데……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "……그때는 아마 다들 역무실에 있었겠네요……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "뭐야? 왜 그렇게 봐?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "귀, 귀찮다고 역무실로 들어온 게 누구였더라……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "시끄러워~! 어쨌든 다른 역으로 가버렸으니, 찾으러 가야 된다고."
+    },
+    {
+      "Name": "히카리",
+      "Text": "슈퍼 귀찮은 일 발생-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "이, 일단 그쪽으로 가는 노선을 알아보고……"
+    },
+    {
+      "Name": "역무원 A",
+      "Text": "지금 시간에는 지하철을 타시는 게 더 빠르실 거예요…… 아마……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "후, 가자. 어쩔 수 없지. 빨리 찾아야 늦지 않을 테니까."
+    },
+    {
+      "Name": "히카리",
+      "Text": "우우- 지하철 귀찮아……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "……그렇게 된 거야."
+    },
+    {
+      "Text": "[ns1] \"그렇구나.\""
+    },
+    {
+      "Text": "[ns2] \"잘 불러줬어.\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "자, 잠깐만요……! 이, 이분이 그 샬레의 선생님?! 이신가요? 맞나요?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "왜, 왜 갑자기 선생님까지 부르신 거예요? 무슨 일이 일어나고 있는 거죠??"
+    },
+    {
+      "Name": "히카리",
+      "Text": "히카리가 불렀어-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그, 그러니까 갑자기 왜요?!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "선생님이- 곤란한 일 생기면 불러달라고 했으니까-?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아니, 그런 건 그냥 으레 하는 말이잖아요. 의미 없는 말이잖아요오……!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "히, 히익…… 저, 저 말씀이신가요……? 아앗……!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "저, 저는 화물운송 관리부 2학년 우츠미 아오바라고 해요……"
+    },
+    {
+      "Text": "[s] \"반가워, 아오바. 잘 부탁해.\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "저, 저도 잘 부탁…… 드려요?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "엥? 2학년이었어?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "네, 네에…… 간부님들은 1학년이죠?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "학년도- 나이도 숫자에 불과-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그, 그렇게 밑밥 깔지 않으셔도 간부님들한테 선배 대접 받을 생각은 없으니까요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "애초에 기대도 안 했고……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "아, 왔다! 얼른 타자구!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "호이-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "진짜 어쩌다 저런 분들이랑 같이 행동하게 됐담……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "우오- 엄청 흔들흔들-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "열차라면 흔들림도 적었을 텐데. 뭐, 체급이 작으니 어쩔 수 없지."
+    },
+    {
+      "Name": "아오바",
+      "Text": "가, 간부님들…… 좀만 조용히……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "왜-?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아니…… 우리 학교 교복 입고 지하철 욕하지 마시라구요오……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "욕이라니? 사실을 말한 것뿐인데."
+    },
+    {
+      "Name": "아오바",
+      "Text": "사실이라고 다 말해도 되는 게 아니니까……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아니, 이런 걸 몰라요……? 발화는 때와 장소를 가려야 한다구요……?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "무슨 소린지 모르겠네. 말도 못 해?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "이, 이래서 평소에 눈치 볼 일 없는 간부님들은~~!!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "아~ 이번 임무는 좀 긴장하라고 신신당부를 듣고 온 참인데."
+    },
+    {
+      "Name": "노조미",
+      "Text": "열차 잃어버린 거 뭐라고 변명한담?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "들키지 않으면- 변명 필요 없어-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐, 그건 맞지! 좋아. 빨리 찾아버리자고."
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "어이, 저기 봐."
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "응? 하이랜더 녀석들이잖아."
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "저 녀석들…… 이번에 지하철 이용 요금도 인상한 주제에 뻔뻔하게 잘도 돌아다니네?"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "아아, 매일 무임승차하고 있으니 별로 상관은 없지만."
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "그런데 하이랜더가 지하철도 관리하던가?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "몰라? 열차나 지하철이나 비슷한 거 아냐?"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "저 녀석들, 이번 기회에 손 좀 봐줄까."
+    },
+    {
+      "Name": "히카리",
+      "Text": "손잡이 체조- 인피니티 스파이럴 스핀-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐, 손잡이가 있으니 이런 게 좋네! 열차에도 도입할까!"
+    },
+    {
+      "Text": "[ns3] \"히카리, 내려오는 게 좋겠어.\""
+    },
+    {
+      "Text": "[ns4] \"노조미도 목소리를 조금만 낮추자.\""
+    },
+    {
+      "Name": "히카리",
+      "Text": "응- 히카리 선생님 말 잘 들어-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "좀 시끄러웠나? 오케이~"
+    },
+    {
+      "Name": "아오바",
+      "Text": "서, 선생님이 말씀하시는 건 잘 듣네요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "저기…… 모든 간부들이 이런 건 아니니까요…… 하이랜더 학원을 오해하지 말아 주세요, 선생님……"
+    },
+    {
+      "Text": "[s] \"지금은 내가 같이 있으니까 괜찮아.\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "네에…… 왜, 왜 부끄러움은 내 몫인 걸까……"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "어이, 하이랜더!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "이번에 네 녀석들, 지하철 요금을 올렸겠다?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "우리같이 가난한 학생들은 어떻게 하라고 대중교통 요금을 올리는 거야, 아앙?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "지하철은 우리 소관 아닌데?"
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "앗, 그래? 지식이 늘었다. 크큭!"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "그런 식으로 회피하려 해도 소용없다 이거야."
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "너희들도 열차로 돈 받아먹고 있으면서. 대신해서 책임 지라고!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "와, 완전 억지……"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "그런 의미에서 우리에게 그…… 뭐지? 정신 피해 보장? 그걸 줘야겠어!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "정신적 피해 보상-?"
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "그래, 그거! 종이 한 장 차이구만!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "지금 우리가 공부도 못하는 문제아라고 깔보는 거야?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "아아, 위로금이 필요할 것 같은데. 엄청나게 상처였다고, 방금 그거?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "노조미, 돈 있어-?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "아니? 우리 표값도 선생님이 내줬잖아."
+    },
+    {
+      "Name": "히카리",
+      "Text": "돈 없어- 우리 왕 거지-"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "어이, 그런 말로 넘어갈 것 같아? 지금? 아앙?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "돈이 없으면 총알이라도 내놓으라고!"
+    },
+    {
+      "Text": "[ns] \"얘들아, 조금만 진정하고……\""
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "뭐야, 이건? 어른?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "어른이면 지갑도 두둑하겠지? 어때, 불우한 학생들을 위해 기부라도 좀?"
+    },
+    {
+      "Text": "[s5] \"내 지갑은 생각보다 얇을 텐데……\""
+    },
+    {
+      "Text": "[s6] \"일단 흥분을 가라앉히자……!\""
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "지금 우리가 흥분 안 하게 생겼어?!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "시험 점수는 나쁘고! 공부는 싫고! 돈도 없고!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "지금 이렇게 지하철 타서 아무한테나 시비 거는 거 말고는 청춘의 답답한 기분을 풀 방법이 없다고!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "성적도 나쁜데- 성격도 안 좋아-?"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "이게! 뜨거운 맛을 기어코 볼 테냐?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "저, 저도 그 기분 알아요……"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "아앙?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "저, 저도 고전 25점 받아서…… 그 마음은 잘 알겠어요……"
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "하하, 너도 공부 못 하는구만. 그래서?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "하, 하지만…… 공부가 싫어서 안 한 건 본인의 선택이었으니까……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그 결과도 본인이 받아들여야 하지 않나요……?"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "웃기지 마! 그런 거 받아들이고 싶지 않으니까!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "왜 세상은 항상 우리에게 냉정한 건데? 우리도 행복해지고 싶다고!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "왜, 왜 세상이 여러분에게 따뜻해야 한다고 생각하시나요……?"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "왜냐니…… 따뜻하면 좋잖아?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "머리 꽃밭이네요…… 세, 세상은 냉혹하고 춥디추운 곳인데…… 아무도 나를 책임져주지 않는데……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "어째서 그런, 느긋하고 순진무구한 생각을 하시게 된 건가요……?"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "그, 그러면 안 돼? 나도 사랑받고 싶거든?!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "후, 후후…… 그렇게 헛된 기대를 품고 있으니까 실망하는 거예요…… 머, 멍청하긴……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "기대하지 않으면 상처받을 일도 없는데…… 후후후……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그래서 저는 아무 기대도 하지 않고 사는데…… 후후!!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "이, 이 자식……"
+    },
+    {
+      "Name": "불량배 C",
+      "Text": "썩었어…… 엄청……"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "가, 가자…… 엮여서 좋을 게 없을 것 같아."
+    },
+    {
+      "Name": "노조미",
+      "Text": "이야, 마이너스 오오라로 물리쳤네! 제법이잖아?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "이, 이게 마이너스인가요…… 그냥 평범한 거 아닌가요……?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "기대하지 않으면- 무슨 재미로 살아-?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "예……? 사는데…… 재미가 필요한가요……?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "완~전!! 재미있지 않은 일은 할 필요도 없고, 할 이유도 없잖아?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "히카리도 동의-"
+    },
+    {
+      "Text": "[ns7] \"다양한 삶의 방식이 있으니까.\""
+    },
+    {
+      "Text": "[ns8] \"아오바도 일상에 기대를 할 수 있게 되면 좋겠네.\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "그, 글쎄요…… 헤헤…… 아니어도 별 상관은 없으니까요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아, 내릴 때가 되었네요."
+    },
+    {
+      "Name": "노조미",
+      "Text": "여기 있겠지? 있어야 하는데. 있을 거야!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "우오- 로스트 트레인-"
+    },
+    {
+      "Text": "[ns] \"가자, 아오바.\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "네, 네에."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;In Search of a Missing Train"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "You're saying the automatic departure system sent the train off on its own?"
+    },
+    {
+      "Name": "Station Employee A",
+      "Text": "Y-Yes... Every train has an override switch in the driver's compartment, but..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "...I suppose everyone was here in the station office when it happened..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "What? Why are you looking at me like that?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "If only someone had been in that compartment, doing their job..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Shut up! Anyway, it went off to a different station, so we just need to track it down."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Super annoying."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "L-Let's see what lines we can take to go after it..."
+    },
+    {
+      "Name": "Station Employee A",
+      "Text": "I think the subway would be fastest right now, probably."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "*sigh* All right, let's go. We've got to take care of this fast if we want to make the delivery on time."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Boo. The subway sucks."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "...And that's where we are with this."
+    },
+    {
+      "Text": "[ns1] \"I see.\""
+    },
+    {
+      "Text": "[ns2] \"Thank you for calling me.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "H-Hold on...! You called Schale's Sensei?!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wh-Why are you bringing them into this? What's going on??"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Nozomi no call. Hikari call."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "S-So why?!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Because...Sensei said to call if we ever need any help."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "That's just what people say when they're being polite. It doesn't mean anything!!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "E-Eek... They want to talk to ME...? Ah...!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "H-Hi, I'm Utsumi Aoba. ...Second-year from the Freight Logistics Department."
+    },
+    {
+      "Text": "[s] \"Hi, Aoba. Nice to meet you.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "N-Nice to meet you...too?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Eh? You're a second-year?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Y-Yes... You officers are first-years, right?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Eh, those are all just numbers."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I wasn't trying to pull rank on you..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I didn't even expect any special treatment in the first place..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Ah, found it! Let's go!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Awright!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Seriously, HOW did I end up tagging along with these people...?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Ooh. Wobble-wobble."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "It wouldn't BE this wobbly if it were a train. Though I guess that's just how subway cars are, since they're smaller..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "O-Officers...could you please tone it down a little...?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Why?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Well...belittling the subway, ON the subway, WHILE wearing our school uniform is not a good look for the school."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Belittling? I'm just saying how it is."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "It's true, but that doesn't mean you should say it out loud."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wait, are you just...not aware of that concept? Do you know what the word \"tact\" means?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "No idea. What's the point of holding back like that?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "...And they made you both officers."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Okay, you know what, though...the higher-ups did say to take this mission seriously."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Annnd there's not a good excuse for losing a train."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "No get caught, no need excuse!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahya, that's true! All right, let's get this taken care of."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Hey, look over there."
+    },
+    {
+      "Name": "Thug C",
+      "Text": "Hm? Oh. Highlanders."
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Jacking up the subway prices, and then showing up to lord it over us. That's a power move."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "I mean, not that it matters in our case, since we're free-riding."
+    },
+    {
+      "Name": "Thug C",
+      "Text": "I didn't know Highlander people ran subways."
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Maybe? Trains, subways, they're not that different."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Well, while they're here, maybe we should teach them a lesson."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Handle...stretching. Infinity...spiral...spin."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahya, these handles are great, though! Maybe we should put 'em on the trains too!"
+    },
+    {
+      "Text": "[ns3] \"Hikari, maybe give that a rest.\""
+    },
+    {
+      "Text": "[ns4] \"You too, Nozomi.\""
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Whatever you say, Sensei."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Was I being too loud? Okay."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Huh. They listen to Sensei."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Sensei, listen, not all of our officers are like this. Please don't judge our entire academy on them."
+    },
+    {
+      "Text": "[s]\" It's fine. I'm here to help and supervise all three of you.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "And yet I'm the only one with any shame..."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Yo, Highlanders!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "How dare you raise the subway fare!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "How are students like us supposed to pay that, huh?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "We...don't run the subway, though."
+    },
+    {
+      "Name": "Thug C",
+      "Text": "Ah, is that so? I learned something new. Heehee!"
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Oh no, you're not getting out of this."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Rails are rails. You make money off the rails, so you're responsible."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "(What kind of logic is that...?)"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Yeah, you should pay us...what's it called again? Emotional distress compensation! Yeah, that!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Emotional distress compensation?"
+    },
+    {
+      "Name": "Thug C",
+      "Text": "You heard me! You're as responsible as anybody else for this!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "You think you're better than us, don't you? You think we're just a bunch of delinquents who can't study?"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "That hurts. Thaaat hurts. I'm gonna need something to make me feel a WHOLE lot better."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Nozomi, you have any money?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Nope. Sensei paid for our tickets."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "No money. We're super poor."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Oh, you seriously think we're gonna believe that? Huh?"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Fine, if you're broke, you can pay us in ammo!"
+    },
+    {
+      "Text": "[ns] \"Everyone, let's take a breath...\""
+    },
+    {
+      "Name": "Thug C",
+      "Text": "Who's this? An adult?"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Ooh, adults have money. Why don't you reach into that big, thick wallet and make a donation to some poor students, huh?"
+    },
+    {
+      "Text": "[s5] \"My wallet is probably thinner than you'd expect...\""
+    },
+    {
+      "Text": "[s6] \"First, let's all calm down.\""
+    },
+    {
+      "Name": "Thug C",
+      "Text": "You're asking us to calm down NOW?!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Our grades are bad, studying's boring, and our wallets are empty..."
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Picking a fight with random people on the subway is the only way we can express the accumulated frustrations of all our failed dreams and disappointments!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Bad grades AND a bad attitude."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "You little...! You really want a piece of me?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I know how you feel..."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Wha?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I got a 25 percent in Classics... I do know what it means to fail..."
+    },
+    {
+      "Name": "Thug C",
+      "Text": "Okay, so you're bad at studying too. So what?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "B-But...if you CHOSE not to study, because you didn't want to..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Shouldn't you also accept the results of that...?"
+    },
+    {
+      "Name": "Thug A",
+      "Text": "I don't wanna!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Can't we just chill and be happy? Why's the world have to be so, you know, cold all the time?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wh-Why do you think the world should be kind to you...?"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "What do you mean \"why\"? It'd be nice, that's why!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "That's...naive of you to say. Th-The world is a cold, harsh place. There's no one out there waiting to take responsibility for you."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Honestly, it's kind of astonishing that you're still so innocent and wishful."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "A-Are we not allowed to wish for things now? I want to be loved too, you know!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "F-Fufu... Such meaningless wants and expectations only set you up for more disappointment. You have so much to learn..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "If you have no expectations, you won't be hurt so easily. You'll never be disappointed again... Fufufu..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "That's why I never look forward to anything. Fufu."
+    },
+    {
+      "Name": "Thug B",
+      "Text": "Y-You..."
+    },
+    {
+      "Name": "Thug C",
+      "Text": "Oh, she is, like, tainted... Seriously..."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "L-Let's go...as far away from them as possible."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Wow, you chased them away with your negative aura! Not bad!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I wouldn't call it \"negative.\" Just \"neutral.\" Normal, even...right?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "No expecties, though? Expecties are fun!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Hm? Fun is...not a necessity of mine."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Well, it should be! Everything needs to be fun! Don't you think?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "I think so, yeah!"
+    },
+    {
+      "Text": "[ns7] \"There are many different ways to approach life.\""
+    },
+    {
+      "Text": "[ns8] \"I hope you find something to look forward to every day, Aoba.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I wonder... Heehee... Well, even if I never do, it doesn't really matter."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Ah, this is our stop."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "The train's gotta be here, right? It HAS to be here. It's GOING to be here!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Yeah, this is gonna be the train lost-and-found."
+    },
+    {
+      "Text": "[ns] \"Let's go, Aoba.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "R-Right."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;ตามหารถไฟที่หายไป"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "สรุปว่าระบบออกตัวอัตโนมัติส่งรถไฟออกไปเองงั้นเหรอ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี A",
+      "Text": "ค่ะ ค่ะ... ที่จริงตอนมีสัญญาณออกตัว ถ้าห้องควบคุมปิดสัญญาณก็น่าจะไร้ปัญหา..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตอนนั้นทุกคนน่าจะไปอยู่กันที่สำนักงานของสถานีนะคะ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อะไรกัน? ทำไมถึงมองอย่างนั้นล่ะ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ละ... แล้วใครล่ะคะที่บอกว่าอยากไปนอนเล่นในสำนักงานของสถานี..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "หนวกหูน่า~! ในเมื่อรถไฟออกไปสถานีอื่นแล้ว งั้นเราก็ต้องไปตามกลับมา"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ขี้ เกียจ จัง"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "กะ... ก่อนอื่นเรามาหาเส้นทางไปที่นั่นกัน..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี A",
+      "Text": "เวลานี้ถ้านั่งรถไฟใต้ดินไป ก็น่าจะถึงได้เร็วกว่าค่ะ... น่าจะนะคะ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฮู่ว งั้นก็ช่วยไม่ได้ ไปกันเถอะ ไปเร็วก็คงหาเจอเร็วแหละนะ"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ง่าา ไม่อยากขึ้นรถไฟใต้ดินเลย..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "เรื่องมันก็เป็นอย่างนี้ละ..."
+    },
+    {
+      "Text": "[ns1] \"อย่างนี้นี่เองสินะ\""
+    },
+    {
+      "Text": "[ns2] \"ทำถูกแล้วละที่เรียกครูมา\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ดะ... เดี๋ยวก่อนค่ะ...! ทะ... ท่านนี้คือคุณครูของชาเล่ต์เหรอคะ?! ใช่มั้ยคะ? ใช่ใช่มั้ย?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ทำไมจู่ๆ ถึงเรียกคุณครูมาเลยล่ะคะ? มีเรื่องอะไรเกิดขึ้นงั้นเหรอ??"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ฮิคาริเรียกมาเอง"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "จะ... จู่ๆ ทำไมถึงทำแบบนั้นล่ะคะ?!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ก็คุณครูเคยบอกไว้ว่าถ้ามีเรื่องอะไรก็ให้บอกน่ะ"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "นั่นเป็นคำที่เราพูดกันเป็นมารยาทเฉยๆ ไม่ใช่เหรอคะ? มันไม่มีความหมายอะไรนี่นา...!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฮะ... เฮือก... ถะ... ถามฉันเหรอคะ...? อ๊ะ...!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉะ... ฉันชื่ออุตสึมิ อาโอบะ ชั้นปีที่ 2 สังกัดฝ่ายบริหารการขนส่งสินค้าค่ะ"
+    },
+    {
+      "Text": "[s] \"ยินดีที่ได้รู้จักนะ อาโอบะ ครูฝากตัวด้วยนะ\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉะ... ฉันก็ขอ... ฝากตัวด้วยค่ะ"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "เอ๋? อยู่ชั้นปีที่ 2 หรอกเหรอ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ ค่ะ... ท่านผู้บริหารอยู่ชั้นปีที่ 1 ใช่มั้ยล่ะคะ?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ชั้นปีกับอายุ เป็น แค่ ตัว เลข"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตะ... ต่อให้ไม่พูดแบบนั้น ฉันก็ไม่คิดว่าท่านผู้บริหารต้องปฏิบัติตัวกับฉันอย่างรุ่นพี่รุ่นน้องหรอกค่ะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉันไม่ได้คาดหวังตั้งแต่แรกแล้วด้วย..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อ๊ะ มาแล้ว! รีบไปกันเถอะ!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โฮ่"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "จริงๆ เลย ทำไมฉันถึงต้องมาเดินทางกับคนแบบนี้ด้วยนะ..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โห สั่นมากเลย"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "รถไฟของเราสั่นน้อยกว่านี้อีก แต่ก็นะ รถไฟใต้ดินน้ำหนักเบากว่า งั้นก็ช่วยไม่ได้"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ท่านผู้บริหารคะ... อยู่เงียบๆ ดีกว่า..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ทำไมล่ะ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "เปล่าค่ะ... ก็ตอนนี้เราอยู่ในชุดนักเรียนกันอยู่ อย่าพูดแซะรถไฟใต้ดินเลยค่ะ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "พูดแซะอะไร? ฉันแค่พูดเรื่องจริงต่างหาก"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "แต่ก็ใช่ว่าเรื่องจริงจะพูดได้ทุกเรื่องนะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "นี่ไม่รู้กันจริงๆ เหรอ...? จะพูดอะไรก็ต้องดูกาลเทศะกันบ้างสิคะ...?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "บ่นอะไรไม่เห็นเข้าใจเลย พวกฉันจะพูดอะไรไม่ได้เลยหรือไง?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "กะ... ก็แบบนี้ละค่ะ พวกคุณถึงได้ชื่อว่าเป็นผู้บริหารที่โนสนโนแคร์น่ะ~~!!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "เฮ้อ~ เบื้องบนเพิ่งกำชับให้ฉันทำภารกิจครั้งนี้ออกมาให้ดีด้วย"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "งั้นเรื่องที่รถไฟหายไป เราจะแก้ตัวว่าอะไรดี?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ถ้าไม่โดนจับได้ ก็ไม่ต้องแก้ตัวหรอก"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮ่า มันก็จริงนะ! ดีละ งั้นก็รีบไปหารถไฟกันเถอะ"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "อ๊ะ ดูโน่นสิ"
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "หืม? พวกไฮแลนเดอร์นี่นา"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ยัยพวกนั้น... ขึ้นค่ารถไฟใต้ดินแล้วยังมาเดินหน้าตาเฉยอยู่อีก?"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "อ๊ะ แต่พวกเราแอบขึ้นมาแบบไม่ได้จ่ายค่าโดยสาร งั้นก็ไม่ได้รับผลกระทบอะไร"
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "ว่าแต่ไฮแลนเดอร์ก็บริหารรถไฟใต้ดินด้วยหรือเปล่านะ?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ไม่รู้สิ รถไฟกับรถไฟใต้ดินมันก็คล้ายๆ กันไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "ขึ้นค่าโดยสารแล้วน่าจะได้เงินกันเยอะ งั้นไปไถเงินกันมั้ยพวกเรา?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ห่วงจับยิมนาสติก อินฟินิตี้ สไปรัล สปิน"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮ่า พอมีห่วงจับก็ทำแบบนั้นได้เนอะ! เอามาติดในรถไฟด้วยดีมั้ย?"
+    },
+    {
+      "Text": "[ns3] \"ฮิคาริ ครูว่าเลิกโหนดีกว่านะ\""
+    },
+    {
+      "Text": "[ns4] \"โนโซมิ เบาๆ เสียงลงหน่อย\""
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "อื้อ ฮิคาริเชื่อฟังคุณครูอยู่แล้ว"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฉันเสียงดังไปงั้นเหรอ? โอเค~"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ทีกับคุณครูละว่านอนสอนง่ายเลยนะคะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "เอ่อ... ผู้บริหารทั้งหมดของเราไม่ได้เป็นแบบนี้หรอกค่ะ... เพราะงั้นก็อย่าเข้าใจสถาบันการรถไฟ\nไฮแลนเดอร์ผิดเลยนะคะ คุณครู"
+    },
+    {
+      "Text": "[s] \"ตอนนี้มีครูอยู่ด้วย ไม่เป็นไรหรอก\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ... ตะ... แต่ทำไมฉันอายแทนด้วยก็ไม่รู้..."
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "นี่ ไฮแลนเดอร์!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "พวกเธอขึ้นค่ารถไฟใต้ดินกันอีกแล้วเหรอ?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "มาขึ้นค่าโดยสารขนส่งมวลชนแบบนี้ แล้วนักเรียนที่ไม่มีเงินอย่างพวกเราจะทำยังไง ห้ะ?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "พวกเราไม่ได้บริหารรถไฟใต้ดินสักหน่อย?"
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "อ๊ะ งั้นเหรอ? ไม่บอกไม่รู้เลยนะเนี่ย คิกคิก!"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "ต่อให้เฉไฉไปก็ไม่มีประโยชน์อะไรหรอกน่า"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "พวกเธอก็หาเงินจากรถไฟเหมือนกันไม่ใช่เหรอ? งั้นก็มารับผิดชอบแทนกันสิ!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มะ... ไม่ยุติธรรมเลย..."
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "เพราะงั้นก็ให้อันนั้นพวกเราเลย... มันเรียกว่าอะไรนะ? เงินชดเชยความเสียหายทางจิตใจ? จ่ายมาซะดีๆ!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เงินชดเชยความเสียหายทางจิตใจ? มีค่าอะไรแบบนั้นด้วยเหรอ?"
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "ใช่ อันนั้นแหละ! จ่ายแค่นิดหน่อย ขนหน้าแข้งไม่ร่วงหรอก!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "เห็นว่าพวกฉันเป็นเด็กมีปัญหา เรียนก็ไม่ได้เรื่อง แล้วยังชอบกุเรื่องอีกหรือไง?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ไม่ได้การละ เห็นทีต้องเรียกค่าปลอบขวัญด้วย เมื่อกี้มันเจ็บปวดมากเลยรู้มั้ย?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โนโซมิ มีเงินมั้ย?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ไม่มีหรอก ขนาดค่าตั๋วคุณครูยังจ่ายให้พวกเราเลย"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เงิน หมด บ๋อ แบ๋"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "นี่ คิดว่าพวกฉันจะยอมให้หรือไง? ห้ะ?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ถ้าไม่มีเงินก็เอากระสุนมาก็ได้!"
+    },
+    {
+      "Text": "[ns] \"ทุกคนใจเย็นๆ กันก่อนนะ...\""
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "อะไรเนี่ย? ผู้ใหญ่เหรอ?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "เป็นผู้ใหญ่ก็ต้องมีเงินในกระเป๋าใช่มั้ย? อยากบริจาคให้นักเรียนด้อยโอกาสหน่อยมั้ยล่ะ?"
+    },
+    {
+      "Text": "[s5] \"สงบสติอารมณ์ก่อนดีกว่า ครูกระเป๋าแบนกว่าที่คิดนะ...\""
+    },
+    {
+      "Text": "[s6] \"สงบสติอารมณ์ก่อนดีกว่า อีกอย่าง ครูก็กรอบอยู่...!\""
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "จะให้สงบสติอารมณ์ได้ยังไงล่ะ?!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ทำข้อสอบก็ได้คะแนนต่ำเตี้ยเรี่ยดิน! แต่ก็ขี้เกียจอ่านหนังสือ! แล้วยังไม่มีเงินอีก!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ตอนนี้ไม่มีวิธีอื่นที่จะคลายความหงุดหงิดของวัยรุ่นได้นอกจากการนั่งรถไฟใต้ดินแล้วเที่ยวหาเรื่องคน\nอื่นแล้วละ!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "คะแนนแย่ นิสัยก็แย่ด้วยเหรอ?"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "เดี๋ยวเหอะ! อยากโดนดีหรือไง?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉะ... ฉันก็เข้าใจความรู้สึกนั้นค่ะ..."
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉะ... ฉันก็ได้ 25 คะแนนในการสอบวิชาวรรณกรรมคลาสสิก... ก็เลยเข้าใจความรู้สึกของพวกคุณค่ะ..."
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "ฮ่าฮ่า เธอก็เรียนไม่ได้เรื่องเหมือนกันสินะ เข้าใจแล้วมันยังไงกันล่ะ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตะ... แต่ว่า... การไม่อ่านหนังสือเพราะขี้เกียจเป็นสิ่งที่ตัวเองเลือกเอง..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตัวเองก็ควรยอมรับผลลัพธ์นั้นไม่ใช่เหรอคะ...?"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "อย่ามาตลกน่า! พวกฉันไม่อยากยอมรับเรื่องพรรค์นั้นหรอก!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ทำไมโลกถึงเย็นชากับพวกฉันเสมอเลย? พวกฉันก็อยากมีความสุขเหมือนกันนะ!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ทำไมถึงคิดว่าโลกนี้ต้องใจดีกับทุกคนด้วยล่ะคะ...?"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ถามมาได้... ถ้าใจดีมันก็ดีไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "อยู่ในโลกแห่งจินตนาการกันเหรอคะ... ละ... โลกนี้ทั้งโหดร้ายและเย็นชา... ไม่มีใครรับผิดชอบ หรือสนใจฉันกันสักคน..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "แล้วทำไมพวกคุณถึงคิดอะไรใสซื่อและโลกสวยกันแบบนั้นคะ...?"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "ละ... แล้วมันไม่ได้หรือไง? ฉันก็อยากได้รับความรักเหมือนกันนะ?!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฮุ... ฮุฮุ... ถ้าคาดหวังลมๆ แล้งๆ แบบนั้น ตอนผิดหวังมันเจ็บนะคะ... อะ... อ่อนต่อโลกกันจริงๆ เลย..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถ้าไม่คาดหวังก็ไม่มีเรื่องให้ผิดหวัง... ฮุฮุฮุ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉันก็เลยใช้ชีวิตแบบไม่คาดหวังอะไรเลยค่ะ... ฮุฮุ!!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ยะ... ยัยนี่นี่..."
+    },
+    {
+      "Name": "นักเลง C",
+      "Text": "มองโลกในแง่ร้ายเกินไปแล้ว..."
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "ไปกันเถอะ... เข้าไปยุ่งด้วยก็ไม่มีอะไรดีขึ้นมาหรอก"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ว้าว ชนะได้ด้วยเนกาทีฟ ออร่า! ใช้ได้เลยนี่นา?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "นะ... เนกาทีฟอะไรกันล่ะคะ... มันก็ความคิดปกติไม่ใช่เหรอ...?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ถ้าไม่คาดหวัง แล้วเราจะสนุกกับชีวิตได้ยังไง?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "คะ...? การใช้ชีวิต... ต้องสนุกด้วยเหรอคะ?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ก็ใช่น่ะสิ~!! อะไรที่ไม่สนุกก็ไม่เห็นจำเป็นต้องทำเลย"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ฮิคาริเห็นด้วย"
+    },
+    {
+      "Text": "[ns7] \"การมีความหวังในชีวิตก็ไม่ใช่เรื่องแย่เสมอไปหรอกนะ\""
+    },
+    {
+      "Text": "[ns8] \"ครูอยากให้อาโอบะมีเรื่องให้คาดหวังในชีวิตบ้างนะ\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มะ... ไม่รู้สิคะ... แหะๆ... ฉันว่าฉันสะดวกแบบนี้น่ะค่ะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "อ๊ะ ถึงสถานีที่ต้องลงแล้วค่ะ"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "รถไฟคงอยู่ที่นี่ละเนอะ? ต้องอยู่นะ ต้องอยู่แหละ!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โอ้ว ลอสต์ เทรน"
+    },
+    {
+      "Text": "[ns] \"ไปกันเถอะ อาโอบะ\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ ค่ะ..."
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;尋找消失的列車"
+    },
+    {
+      "Name": "希望",
+      "Text": "所以是自動發車系統擅自發車了？"
+    },
+    {
+      "Name": "站務員A",
+      "Text": "是，是的……本來收到發車信號的話，只要在駕駛室把信號關掉就好了……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "不過那個時候，大家好像都在站務室……"
+    },
+    {
+      "Name": "希望",
+      "Text": "怎樣？為什麼要那樣看我？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "當，當時說不想在外面等，擅自跑去站務室的人是誰……"
+    },
+    {
+      "Name": "希望",
+      "Text": "少囉嗦～！\n總之列車跑到其他車站去了，得去把它找回來才行。"
+    },
+    {
+      "Name": "光",
+      "Text": "超麻煩事件發生～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我查一下去那邊的路線……"
+    },
+    {
+      "Name": "站務員A",
+      "Text": "現在這個時間好像……搭地鐵會比較快……"
+    },
+    {
+      "Name": "希望",
+      "Text": "呼，沒辦法了，走吧。\n我們得快點找到，否則會來不及的。"
+    },
+    {
+      "Name": "光",
+      "Text": "嗚嗚～搭地鐵好麻煩……"
+    },
+    {
+      "Name": "希望",
+      "Text": "……事情就是這樣。"
+    },
+    {
+      "Text": "[ns1]「原來是這樣啊。」"
+    },
+    {
+      "Text": "[ns2]「那你們就找對人了。」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "等，等一下……！\n這，這位是，那個夏萊的老師！？真的嗎？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "為，為什麼突然連老師都叫來了？"
+    },
+    {
+      "Name": "光",
+      "Text": "是光叫老師來的～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "所，所以是為什麼！？"
+    },
+    {
+      "Name": "光",
+      "Text": "因為老師說過～遇到麻煩就找他～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "不是，那只是客套話而已吧。\n又不是真的有那個意思……！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "唔……我，我嗎……？\n啊啊……！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我是貨物輸送管理部2年級的內海青葉……"
+    },
+    {
+      "Text": "[s]「你好，青葉。請多多指教。」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "也，也請老師多多……指教……"
+    },
+    {
+      "Name": "希望",
+      "Text": "咦？原來你是2年級啊？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "是，是的……兩位幹部是1年級對吧？"
+    },
+    {
+      "Name": "光",
+      "Text": "年級和年齡～都只是數字而已～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "不，不用強調這個沒關係。\n我沒有要兩位幹部把我當成前輩的意思……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "反正我本來就不抱期待……"
+    },
+    {
+      "Name": "希望",
+      "Text": "啊，來了！快上車吧！"
+    },
+    {
+      "Name": "光",
+      "Text": "嘿咻～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我到底為什麼要和這些傢伙一起行動……"
+    },
+    {
+      "Name": "光",
+      "Text": "唔哦～超搖超晃～"
+    },
+    {
+      "Name": "希望",
+      "Text": "要是火車就不會晃得這麼嚴重了。\n不過這也沒辦法，誰叫這個車體小得要命呢。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "兩，兩位幹部……請降低音量……"
+    },
+    {
+      "Name": "光",
+      "Text": "為什麼～？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "不是……兩位還穿著我們學園的制服，最好不要在地鐵上大聲抱怨……"
+    },
+    {
+      "Name": "希望",
+      "Text": "抱怨又怎樣？我們只是說出事實而已。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "就算是事實，也不是什麼話都能說啊……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "兩位不懂這個道理嗎……？\n說話要分時間跟場合……"
+    },
+    {
+      "Name": "希望",
+      "Text": "聽不懂你在說什麼耶。\n連說說也不行嗎？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "難，難怪你們這些幹部平常根本不把人放在眼裡～！！"
+    },
+    {
+      "Name": "希望",
+      "Text": "啊～這次任務還被特地交代要把皮繃緊一點的說。"
+    },
+    {
+      "Name": "希望",
+      "Text": "結果居然把列車搞丟了，之後要怎麼解釋啊？"
+    },
+    {
+      "Name": "光",
+      "Text": "只要不被發現～就不需要解釋～"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈，說得沒錯！\n好，快點找回車子吧。"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "喂，你們看那邊。"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "嗯？是高地人那些傢伙。"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "那些傢伙……最近才剛漲票價而已，竟然敢厚著臉皮在這裡大搖大擺的？"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "就是說啊。\n不過我們每天都搭免錢的，其實也沒差就是了。"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "話說地鐵也是高地人負責管的嗎？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "誰知道？列車跟地鐵不是差不多嗎？"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "趁這個機會給那些傢伙一點教訓吧。"
+    },
+    {
+      "Name": "光",
+      "Text": "吊環體操～無限螺旋迴轉～"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈，這種拉環真好玩耶！\n不如在列車上也加裝拉環吧！"
+    },
+    {
+      "Text": "[ns3]「光，不要玩拉環哦。」"
+    },
+    {
+      "Text": "[ns4]「希望也要小聲一點。」"
+    },
+    {
+      "Name": "光",
+      "Text": "嗯～光會乖乖聽老師的話～"
+    },
+    {
+      "Name": "希望",
+      "Text": "我太吵了嗎？OK～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "老，老師開口就這麼聽話……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "那個……不是每個幹部都像他們這樣的……\n希望老師不要誤會高地人學園……"
+    },
+    {
+      "Text": "[s]「現在有我在，不用擔心。」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "好的……為，為什麼明明丟臉的人是他們，感到羞恥的卻是我呢……"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "喂，高地人的傢伙！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "你們最近漲了地鐵票價對吧？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "提高大眾交通工具的費用，是要我們這種窮學生怎麼辦？說說看啊？"
+    },
+    {
+      "Name": "希望",
+      "Text": "地鐵不歸我們管耶？"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "啊，是嗎？\n長知識了呢。呵呵！"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "就算撇清責任也沒用。"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "誰叫你們也是靠列車賺錢，所以必須為地鐵的漲價負責！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "完，完全是在無理取鬧……"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "所以說必須給我們那個……叫什麼來著？\n精神補貼是嗎？要給我們那個才行！"
+    },
+    {
+      "Name": "光",
+      "Text": "精神損害賠償～？"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "沒錯，就是那個！\n跟剛才說的差不多嘛！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "現在是在瞧不起我們這些問題學生沒讀書嗎？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "還得再給我們慰問金！你們的歧視已經傷害到我了！"
+    },
+    {
+      "Name": "光",
+      "Text": "希望，你有錢嗎～？"
+    },
+    {
+      "Name": "希望",
+      "Text": "沒啊？車票錢也是老師付的。"
+    },
+    {
+      "Name": "光",
+      "Text": "我們沒錢～超窮的～"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "喂，你以為說那種話就可以糊弄過去是不是？回答我啊？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "沒錢就拿子彈來抵！"
+    },
+    {
+      "Text": "[ns]「大家先稍微冷靜一下……」"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "你誰啊？大人？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "大人應該很有錢才對吧？\n怎麼樣，要不要救濟一下可憐的學生啊？"
+    },
+    {
+      "Text": "[s5]「我的錢包應該比你們想像中要薄很多……」"
+    },
+    {
+      "Text": "[s6]「總之先別這麼激動……！」"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "你要我們怎麼能不激動！？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "成績爛！不愛讀書又沒錢！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "除了像現在這樣在地鐵上找人吵架之外，沒有其他方法能發洩青春期的憂鬱啊！"
+    },
+    {
+      "Name": "光",
+      "Text": "成績差就算了～個性也那麼差哦～？"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "混蛋！你欠教訓是不是？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我能明白那種心情……"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "啊？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我的古文也只考了25分……所以很能理解你們……"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "哈哈，你也不會讀書是吧。所以呢？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "可，可是……因為討厭讀書而不讀書，這是個人的選擇……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "但不管結果好壞，都應該自己承擔不是嗎……？"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "開什麼玩笑！誰要承擔那種東西啊！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "為什麼這個世界總是對我們這麼無情？\n我們也想要幸福啊！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "為，為什麼會覺得世界應該對你們溫柔呢……？"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "哪有為什麼……溫柔一點不是很好嗎？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "你們的腦袋就跟花田一樣呢……\n這，這個世界既殘酷又無情……沒人有義務要為我們負責……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "那種天真爛漫的想法到底是從哪裡來的呢……？"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "難，難道不行嗎？我們也想被愛啊！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "呵，呵呵……就是因為滿腦子都是那種虛無飄渺的期待，所以才會更失望……\n真，真是一群笨蛋呢……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "只要不抱期待就不會受傷……呵呵……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "所以我對這個世界已經沒有任何期待了……哈哈！！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "這，這傢伙……"
+    },
+    {
+      "Name": "小流氓C",
+      "Text": "還真夠負面的……"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "走，走吧……繼續糾纏下去肯定沒好事。"
+    },
+    {
+      "Name": "希望",
+      "Text": "哇，用負能量擊退問題學生了！\n你還挺厲害的嘛？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "這，這樣算是負能量嗎……我覺得很正常啊……？"
+    },
+    {
+      "Name": "光",
+      "Text": "沒有期待的話～活著有樂趣嗎～？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "咦……？\n活著……需要樂趣嗎……？"
+    },
+    {
+      "Name": "希望",
+      "Text": "當～然！！\n沒有樂趣的事，根本沒必要也沒理由去做！"
+    },
+    {
+      "Name": "光",
+      "Text": "光也同意～"
+    },
+    {
+      "Text": "[ns7]「每個人都有自己的生活方式。」"
+    },
+    {
+      "Text": "[ns8]「希望青葉有一天，也能對生活抱有期待。」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "這，這個嘛……嘿嘿……\n就算不期不待也沒關係啦……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "啊，該下車了。"
+    },
+    {
+      "Name": "希望",
+      "Text": "車子應該在這裡吧？\n拜託一定要在這裡哦～？"
+    },
+    {
+      "Name": "光",
+      "Text": "唔哦～Lost Train～"
+    },
+    {
+      "Text": "[ns]「走吧，青葉。」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "好，好的。"
+    }
+  ]
+}

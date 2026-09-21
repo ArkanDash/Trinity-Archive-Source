@@ -1,0 +1,2892 @@
+{
+  "TitleJP": "日常の亀裂（１）",
+  "TitleKR": "일상 속의 균열 1",
+  "TitleEN": "A Fissure in Everyday Life 1",
+  "TitleTH": "รอยร้าวในชีวิตประจำวัน 1",
+  "TitleTW": "日常的龜裂（１）",
+  "DescJP": "一件落着したかに見えたアビドス砂漠に、カイザーPMCが多く出入りしているのを目撃した対策委員会は、先生に助力を求める事を決める。一方、危機を乗り越えたゲーム開発部は、メディカルチェックを受けたアリスに異常がない事を確認するも＜key＞が消えた確証はない。各地で取り戻した平穏が、少しずつ崩れていくような違和感が続く中、ヒマリはリオの私室で「さらなる特異現象に備えよ」というメッセージを見つけ――",
+  "DescKR": "아비도스 발굴지에서 무언가를 발견한 카이저 PMC와 이변을 감지한 대책위원회. 아리스의 몸에 아무런 이상이 없다는 소식에 기뻐하는 게임개발부. 한편, 히마리는 자취를 감춘 리오가 남긴 정보를 확인한다.",
+  "DescEN": "Kaiser PMC discovers something at the Abydos Excavation Site, and the Foreclosure Task Force detects something unusual. The Game Development Department are delighted to learn that nothing about Aris' body is out of the ordinary. Meanwhile, Himari looks into information left behind by Rio, who has disappeared without a trace.",
+  "DescTH": "คณะกรรมการแผนงานรู้ถึงเหตุการณ์ที่คาดไม่ถึงและไคเซอร์ PMC ที่ค้น\nพบของบางอย่างในเขตขุดค้นอะบิดอส ชมรมพัฒนาเกมพากันยินดีกับ\nข่าวที่ไม่มีสิ่งผิดปกติในร่างกายของอาริสึอีกต่อไป อีกด้านหนึ่ง ฮิมาริได้\nยืนยันข้อมูลที่ริโอะปกปิดไว้",
+  "DescTW": "在阿拜多斯挖掘地發現某個東西的凱薩PMC，以及查覺到異變的對策委員會。聽到愛麗絲的身體沒有任何異常的消息後，遊戲開發部覺得很開心。另一方面，陽葵確認隱藏足跡的莉央留下的情報。",
+  "DialogJP": [
+    {
+      "Text": "第3話;日常の亀裂（１）"
+    },
+    {
+      "Text": "アビドス砂漠・発掘区域"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "み、見つかりました！"
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "見つかったのか？"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "は、はい！例の座標から、約135m×23m×13mの構造体を発見しました……！！ "
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "間違いない……！至急、ジェネラルに報告せよ！大至急だ！"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "は、はい！！"
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "あと、連邦生徒会の防衛室にも連絡しておけ。\nそちらは専用の通信網でな。"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "はい！"
+    },
+    {
+      "Text": "アビドス市街地"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "PMC兵士A",
+      "Text": "急げ、移動するぞ！"
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "はっ！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "カイザーPMC……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "PMCの兵力が、砂漠の方に移動してた？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん。今までとは全然規模が違った。 "
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ふ～ん、何かあったのかな？\nあいつら最近静かだったのにね。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ここ数日、あちこちでカイザーPMCが移動しているのを見ました……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あいつら、他人の自治区で好き勝手して！ほんと許せない。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "アビドス砂漠で何かあったのでしょうか？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "こっそり見に行ってみる？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "シロコちゃん、それはちょっと……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あそこはカイザーの土地だから、勝手に行ったら怒られちゃうよ～。\n前もそれで揉めたじゃん？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうだ、先生に相談してみましょう！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そうしたいのはやまやまですが……最近、お忙しいみたいで……\n連絡したら、迷惑をかけてしまわないでしょうか？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "迷惑かどうかは先生が決める事じゃないの？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうですよアヤネちゃん。連絡する前から決めてしまっては、先生も何もできませんし……それに、先生ならきっと手伝ってくれます☆"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん。それに、この間先生から連絡きたばっかだし。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先生からですか？先輩に？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "シロコ先輩がスタンプ爆撃でもしたからじゃないの？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "いや、今回は違う。\n先生の方から。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "そりゃシロコちゃんだってスタ爆ばっかじゃないでしょ～"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "もう、先輩がそうやっていつも甘やかすから！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "うーん……そうかなぁ～？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "んー……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "まぁまぁ、シロコちゃんはそういう所が可愛いんですから☆"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あはは……それで、先生は何と？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "特に何も……。\nただ、最近元気？とか、無事？とか……そんな感じの内容。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "へぇ……それはそれで、なんだか素っ気ないねぇ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "とりあえず、私が先生に連絡してみますね。\n一度アビドスに来ていただけないか、と。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうですね☆アヤネちゃん、お願いします！"
+    },
+    {
+      "Text": "ミレニアム・ゲーム開発部部室"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん、これはダメだよ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "え、なんで！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "私たちが作ってるのは「剣と魔法のRPG」でしょ？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そうだけど……それがどうしたの？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "どうしたの？じゃないよ……なんで主人公が宇宙戦艦に乗ってるの？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "敵が宇宙海賊だからね！それなら主人公は宇宙戦艦に乗らないと！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "勇者が宇宙戦艦に乗ってどうするのさ……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "なんで！宇宙勇者だよ！？良いじゃん！ "
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ユズはどう思う？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "わ、わたしは……悪く、ないと思う……\n最近流行ってるダダイスムみたいな感じで……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ほら！ユズもこれはイケるって！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ええ……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "「宇宙勇者」は素晴らしいと思います！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "アリスちゃん？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "アリス！おかえり！大丈夫だった！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "エンジニア部はなんて……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "簡単な身体検査とメディカルチェックをしましたが、特に異常はなかったそうです。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それと、ヴェリタスのみなさんが、定期的に検査をしようと仰ってくださったので、そうすることになりました。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "そ、そうなんだ……じゃあアリスちゃんは、もう大丈夫なんだね？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あの時の変なヤツ……何だっけ、ケイ……だっけ？\nあいつは？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ケイじゃなくて「[ruby=キー]＜Key＞[/ruby]」じゃないかな、お姉ちゃん……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "名前なんて分かればなんでもいいよ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい。「ケイ」は発見できませんでした。 "
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "結局「ケイ」でいくの？\n……まあ、いっか。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "今のエンジニア部の技術では「ケイ」が消えたのかどうか確認できないようです。\nなので、ヴェリタスと協力してみるそうです！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "そっか……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あいつ、アリスを勝手に王女だか何かにしようとして！も～！\n次会ったらタダじゃおかないんだから！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "アリスちゃんは、いいの……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい、アリスは問題ありません。\n今度「ケイ」に会ったら300%……いや10万%ビーム砲を発射します！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "あと、アリスも宇宙勇者は素晴らしいと思います。\n宇宙戦艦に乗る勇者パーティー！素敵です！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "でしょでしょ？こう、胸に響くものがあるよね。\nなんたって、宇宙戦艦はロマンだから！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスもいつか、宇宙戦艦に乗ることができるでしょうか？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "そ、それはちょっと無理じゃないかな……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えっ？でもなんかエンジニア部がそういうの作ってなかった？\nアリスのレールガンもその一つだったよね？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "今の技術では、難しいよ……ロマンだから、みんな挑戦してるんだし……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そうなの！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "不可能に挑戦するのは素晴らしいです！\nそれが、ロマンなんですね！アリスは理解しました。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "よし！そういうわけで、次回作は宇宙勇者パーティーのスペースオペラもので決まりっ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！素晴らしいです！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "じゃ、じゃあ、ジャンルも弾幕シューティングに変えよっか……。\nすっごいハードな難易度で、コンティニューもスペシャルボムも無い――"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "はぁ……やっぱりこうなっちゃった。"
+    },
+    {
+      "Name": "Key",
+      "Text": "……。"
+    },
+    {
+      "Name": "Key",
+      "Text": "「ケイ」……"
+    },
+    {
+      "Name": "Key",
+      "Text": "王女よ……あなたは自分の存在理由である「王女」を否定し……\n私の存在理由である「鍵」をも否定するのですか。"
+    },
+    {
+      "Name": "Key",
+      "Text": "存在理由を失った鍵は、もはや鍵ではない……そう呼ばれる必要もないように。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……分かりました。 "
+    },
+    {
+      "Name": "ケイ",
+      "Text": "それならば、私はあなたを見守る事とします。\n王女……いえ、「アリス」。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "しかし、誰も存在理由から逃れることはできません。\nアリス、それが私たちが迎える運命です。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "そして然るべき時が来たら……私は――"
+    },
+    {
+      "Text": "セミナー・執務室 "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――面倒事を全て私に押し付けるのですね、リオ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「名もなき神」の遺産に手をつけた挙げ句、計画が破綻した途端、「後は頼む」――だなんて。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "どのような事件を起こしたとしても、\n堂々としてこそ「ビッグシスター」の名に相応しいと思いますけど……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まあ……新雪のように高潔で、清水の如く透き通る私ですから、\nあなたのそんな我儘だって理解して差し上げましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "さて……あなたは、私に何を伝えたかったのでしょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。 "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これは――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なるほど……仮説に推測を加えた解釈ではありますが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これほどのデータを確保したのであれば……\nあなたのその偏執的とも言える妄想も、少しは理解できそうです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "さすがは、ビッグシスター、といったところでしょうか……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……まあ、だとしても「全知」と呼ばれる超天才病弱美少女の私の方が、優れているのですけどね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それは部長が勝手に言ってるだけでしょ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ひゃっ……！？\nエ、エイミ、いつから……"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "新雪がどうとか言ってた辺りから？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "特異現象捜査部は、元々リオ会長の直属組織でしょ。\n私もこの場所は知ってるよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "それで、会長はなんて？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね……重要な情報は厳重なセキュリティ下にあるので、確認に時間がかかるとは思いますが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "要約すると、「別の『特異現象』に備えろ」――と。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "どういうこと？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――これはビッグシスターからの警告です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "近い将来――キヴォトスに未曾有の危機が訪れるでしょう。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "――私は、何をすれば良いでしょうか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ひゃあっ……！？い、いつから……！？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "会長の専属メイドの……トキ……？ "
+    },
+    {
+      "Name": "トキ",
+      "Text": "お二人がここにいらっしゃる少し前からです。\nここは隠れられる場所が多いので。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "へえ、さすがはエージェント。全然気付かなかった。 "
+    },
+    {
+      "Name": "エイミ",
+      "Text": "てっきり会長についていったんだと思ってたけど。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "いえ。会長は、私に「これからは自由に暮らしなさい」と残して去りました。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ですが、何をどう自由にすればいいのか……私には分からず……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そうして、会長と過ごしたこの場所にいたらお二人が現れたのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "元はC&Cの所属ですから、そちらに身を寄せることになったと聞きましたが……断られたのでしょうか？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "いえ、先輩方には良くしていただいております。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ですが……その、 "
+    },
+    {
+      "Name": "トキ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……なるほど。おおよその状況は理解できました。 "
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "意外と可愛いところがあるのですね、トキは。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "もしも……何か危機が迫っているのでしたら、私もお力になりたいです。\nそれがどのような事態であろうと。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……どうする、部長？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "答えなど明白でしょう、エイミ？\n協力者は多ければ多いほど良いものですよ。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……ありがとうございます。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "さて、これからですが――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――まずは「シャーレ」の協力を仰ぎましょう。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "やっぱ、そうだよね。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……。"
+    },
+    {
+      "Text": "次回;日常の亀裂（２）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;일상 속의 균열 1"
+    },
+    {
+      "Text": "아비도스 사막 발굴지"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "차, 찾은 것 같습니다!"
+    },
+    {
+      "Name": "PMC 간부",
+      "Text": "찾았다고?"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "네, 넵! 전달받은 좌표의 지하에서 약 135m X 23m X 13m 크기의 구조체를 발견했습니다……!!"
+    },
+    {
+      "Name": "PMC 간부",
+      "Text": "확실하군……! 지금 당장 제너럴에게 연락드려라! 긴급사항이다!!"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "네, 넵!!"
+    },
+    {
+      "Name": "PMC 간부",
+      "Text": "그리고 총학생회의 방위실장에게도 연락해라. 아, 그쪽은 방첩 통신망으로."
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "네!"
+    },
+    {
+      "Text": "아비도스 시내"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "PMC 병사 A",
+      "Text": "서둘러! 이동한다!"
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "넵!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "카이저 PMC……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "PMC 병력들이 사막 쪽으로 이동하고 있었다고?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 지금까지와는 전혀 다른 규모였어. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "흐음~ 무슨 일이라도 있는 건가. 그 녀석들 한동안 조용했잖아."
+    },
+    {
+      "Name": "아야네",
+      "Text": "요 며칠 사이에 카이저 PMC의 이동이 잦아진 건 맞아요……. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "젠장…… 그놈들 남의 자치구를 제집 드나들듯이……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "아비도스 사막에 무슨 일이라도 있는 걸까요? 거기는 카이저의 사유지라 저희가 접근할 수가 없어서……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "몰래 확인해보면 돼."
+    },
+    {
+      "Name": "노노미",
+      "Text": "시로코 쨩……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "이야, 우리 시로코 쨩이 그랬다간 예전의 일이 반복될 뿐이잖아. 조금은 과거에서 교훈을 얻어야지. "
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으응……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "맞아요. 이번엔 선생님과 논의를 해보는 게 좋을 거 같아요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그건 그렇지만…… 선생님, 최근엔 훨씬 더 바빠진 것 같아서…… 저희의 연락이 폐가 되진 않아야 할 텐데……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "폐가 될 리가 없잖아. 우리와 선생님 사이인데!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "응응, 맞아요. 아야네 쨩. 선생님이라면 분명 발 벗고 나서줄 거예요."
+    },
+    {
+      "Name": "시로코",
+      "Text": "맞아. 참고로 저번엔 선생님이 연락해서 그냥 특별한 이유 없이 내 안부를 물어보기도 했어."
+    },
+    {
+      "Name": "아야네",
+      "Text": "선생님이요? 선배에게만?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "시로코 선배 이 타이밍에 자랑을……?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 자랑이 아니라 사실 보고."
+    },
+    {
+      "Name": "호시노",
+      "Text": "으헤~ 눈치 없기는. 이럴 땐 원하는 리액션을 해주는 게 예의라구. 시로코 쨩~ 너무해. 이 아저씨는 질투 나버린다고!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아냐! 그런 거 자꾸 받아주니까 시로코 선배 버릇 나빠져 버리잖아! 가끔씩은 엄격하게 해야지!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "음…… 그런가."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으음……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "응응! 시로코 쨩은 강아지처럼 귀여우니까요. 어쩔 수 없어요☆"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아하하…… 그럼 선생님이 뭐라고 하시던가요?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "그냥…… 안부만 묻고…… 별일 없는지……. 특별한 내용이 있는 건 아니었어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "흐음. 그렇구만. 그건 또 그거대로 찝찝한 느낌인데……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그러면 제가 선생님에게 연락을 드려볼게요. 한번 아비도스로 와달라고."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네, 아야네 쨩. 부탁할게요."
+    },
+    {
+      "Text": "밀레니엄 게임개발부"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니, 이 컨셉은 안돼. "
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐? 어째서?! 엄청 좋다고 생각했는데!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "우리가 만드는 건 검과 마법이 나오는 RPG로 하기로 했잖아. "
+    },
+    {
+      "Name": "모모이",
+      "Text": "그런데?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그런데가 아니라…… 그런데 어째서 주인공이 우주 전함을 타고 다니는 거야?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그거야 악당들이 우주 해적이니까! 악을 무찌르는 게 주인공의 역할이니까 그렇지!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "용사가 우주 전함을 타고 있으면 안 된다구……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "아냐! 엄청 느낌 좋잖아! 우주 용사! "
+    },
+    {
+      "Name": "모모이",
+      "Text": "유즈는 어떻게 생각해?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "나, 난…… 나쁘지 않을지도……. 요즘 유행한다는 다다이즘 같은 느낌으로……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "거봐! 무슨 소린지 모르겠지만 이건 먹힌다니까!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "뭐야 그게……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 우주 용사는 좋은 것 같습니다. "
+    },
+    {
+      "Name": "미도리",
+      "Text": "아리스 쨩?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아리스! 돌아왔구나!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "엔지니어부에선 뭐래……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. 간단한 신체검사와 이것저것 건강 체크를 했는데 아리스에게서는 아무 이상도 발견하지 못했다고 합니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그래서 베리타스 분들이 정기적으로 검사를 하자고 하셔서 알겠다고 했습니다."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그, 그렇구나……. 그럼 아리스 쨩은 괜찮다는 거지?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그때 만났던 그 이상한 녀석…… 뭐였지, 케이……? 그 녀석은 못 찾아낸 거야?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "케이가 아니라 키<Key>가 아닐까, 언니……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐든 상관없잖아. 복잡한 이름보단 간단한 게 좋으니까. 네이밍의 규칙이라고."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. <케이>는 발견되지 않았습니다."
+    },
+    {
+      "Name": "미도리",
+      "Text": "케이로 결정 난 거야? 뭐, 상관없으려나……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "지금 엔지니어부의 기술로는 <케이>가 사라진 건지 확인할 수 없다고 해서, 베리타스 분들과 협력해본다고 했습니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "그렇구나……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그 이상한 녀석! 아리스를 멋대로 왕녀인지 뭔지로 만들려고 했어! 만약 다음에 만나게 되면 절대 가만 안 둬!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아리스 쨩은 괜찮은 거야……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. 저는 문제 없습니다. 다음에 <케이>를 만나게 되면 이번엔 300% ……아니, 100,000% 빔 포를 먹여주겠습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그리고 아리스도 우주 용사는 좋은 것 같습니다. 우주 전함을 타는 용사 파티! 좋은 것 같습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그렇지? 울림이 있잖아. 우주 전함은 로망이니까!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 언젠가 우주 전함을 탈 수 있을까요?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그건 좀 무리이지 않을까, 아리스 쨩……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "응? 그래? 엔지니어부는 뭔가 그런 걸 준비하고 있던데? 아리스의 레일건도 그렇잖아."
+    },
+    {
+      "Name": "유즈",
+      "Text": "현재 키보토스의 기술력으론 우주 전함은 무리야……. 그냥 로망이니까 다들 불가능한 것에 도전해보고 싶은 거고……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그런 거였어?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그치만 불가능에 도전하는 건 좋은 것 같습니다. 그것이 로망이군요! 아리스도 이해했습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "좋아! 그런 의미로 다음 작품은 우주 용사와 그 파티의 스페이스 오페라물로 가는 거야! 이걸로 결정!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 좋은 것 같습니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "그럼 장르도 탄막슈팅계로 바꾸자. 엄청 하드한 난이도로……. 컨티뉴도 전멸 폭탄도 없는……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "……하아. 역시 이렇게 될 줄 알았어."
+    },
+    {
+      "Name": "Key",
+      "Text": "……."
+    },
+    {
+      "Name": "Key",
+      "Text": "케이……"
+    },
+    {
+      "Name": "Key",
+      "Text": "왕녀여…… 당신은 자신의 [ruby=왕녀]존재 목적[/ruby]을 부정하고…… 저의 [ruby=열쇠]존재 목적[/ruby]도 부정하는 건가요."
+    },
+    {
+      "Name": "Key",
+      "Text": "존재를 잃은 열쇠는 더 이상 열쇠가 아닌 거군요. 그렇게 불릴 필요도 없듯이."
+    },
+    {
+      "Name": "케이",
+      "Text": "……알겠습니다."
+    },
+    {
+      "Name": "케이",
+      "Text": "그렇다면 저는 일단 당신을 지켜보도록 하겠습니다. 왕녀…… 아니, 아리스."
+    },
+    {
+      "Name": "케이",
+      "Text": "하지만 그 누구도 존재 목적에서 벗어날 수 없습니다. 아리스, 그것이 우리들이 맞이해야 할 운명입니다."
+    },
+    {
+      "Name": "케이",
+      "Text": "그리고 그때가 되면…… 저는……."
+    },
+    {
+      "Text": "세미나의 집무실"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……흐음."
+    },
+    {
+      "Name": "히마리",
+      "Text": "귀찮은 일은 전부 저에게 다 떠넘기는군요. 리오."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇게 위험한 <이름없는 신들>의 유산에까지 손을 뻗어놓고, 계획이 실패하자 정보를 왕창 던져놓고는 뒤를 부탁한다, 라니……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그정도 사건을 벌여놓고도 얼굴을 뻔뻔하게 드러내 줘야 그 <빅 시스터>라는 별명이 울지 않을 텐데요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "뭐, 그치만 만년설처럼 순수하고 청초한 1급 미네랄 워터 같은 저니까 당신의 그런 부탁도 양해해 드리도록 하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어디…… 무슨 말을 저에게 전하고 싶었던 건가요, 당신은."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……………."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이건……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "……가설에 억측을 더한 해석이지만, 그렇군요……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "이 정도의 정보까지 확보해 두었으니…… 당신의 그 편집증적인 망상도 이제 조금은 이해가 되네요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "과연 빅 시스터……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……뭐, 그렇다고 해도 <전지>라고 불리는 천재병약미소녀인 제가 훨씬 더 대단하지만요. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "그건 부장이 멋대로 만들어낸 거잖아."
+    },
+    {
+      "Name": "히마리",
+      "Text": "깜짝이야……! 에이미, 어, 언제부터……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "만년설 어쩌고 할 때부터?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "초현상특무부는 원래 리오 회장의 직속 조직이었잖아? 나도 여기의 위치 정도는 알고 있어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그래서, 회장이 남긴 말이 뭐야? 부장?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "일단 제일 중요한 정보들은 블랙박스에 꽁꽁 숨겨두어서 확인하는데 시간이 걸리겠지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……그러네요. 요악하자면, 또 다른 <초현상>을 대비하지 않으면 안 된다…… 그런 말이네요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 이건 말하자면 빅 시스터의 경고예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "매우 매우 위험한…… 일이 벌어질 것이라는 경고……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……."
+    },
+    {
+      "Name": "토키",
+      "Text": "그럼 이제 우리는 뭘 하면 되죠?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "까, 깜짝이야……?! 어, 언제부터……?!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "회장의 전속 메이드 토키……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "두 분이 오기 전부터 있었습니다. 여기는 숨어 있을 만한 곳이 많거든요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "헤에. 과연 에이전트구나. 기척을 전혀 눈치채지 못했어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그런데 회장을 따라간 게 아니었구나."
+    },
+    {
+      "Name": "토키",
+      "Text": "네. 회장은 저에게 <이제부터 자유롭게 지내도록 해>, 라는 말을 남기고 사라졌습니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "뭘 자유롭게 지내라는 건지…… 어떻게 해야 하는지 저는 도무지 알 수가 없어서……."
+    },
+    {
+      "Name": "토키",
+      "Text": "회장이 있던 이곳에서 시간을 보내고 있었는데…… 두 분이 오신 거죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "흐음……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만 토키는 C&C에 몸을 의탁한 거 아니었어요? 애초에 거기 소속이기도 했고…… 설마 거기서 거부하던가요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "아뇨. 그렇지는 않습니다. 선배들은 친절하게 대해주었습니다. 하지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만?"
+    },
+    {
+      "Name": "토키",
+      "Text": "그게……."
+    },
+    {
+      "Name": "토키",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……흐음. 대충 알 것 같네요. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저는 토키가 좀 더 뻔뻔한 줄 알았는데 말이에요. 의외의 면이 있네요."
+    },
+    {
+      "Name": "토키",
+      "Text": "하지만 뭔가 위험한 일이 벌어질 것이라면…… 저도 돕고 싶습니다. 그게 무엇이든지요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……어떡할 거야, 부장?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "제가 어떻게 할지는 뻔하지 않나요? 협력자는 많을수록 좋죠."
+    },
+    {
+      "Name": "토키",
+      "Text": "네!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후, 좋아요. 그럼 지금부터 해야 할 일은 명확해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "에이미, 지금부터는 <샬레>의 힘이 필요해요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 역시 그렇겠지?"
+    },
+    {
+      "Name": "토키",
+      "Text": "……."
+    },
+    {
+      "Text": "다음화;일상 속의 균열 2"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3; A Fissure in Everyday Life 1"
+    },
+    {
+      "Text": "Abydos Desert Excavation Site"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "I-I think I found it!"
+    },
+    {
+      "Name": "PMC Officer",
+      "Text": "...! You found it?!"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Y-Yes, I believe so! I've located some kind of underground structure measuring about 132 m x 23 m x 13 m at specified coordinates."
+    },
+    {
+      "Name": "PMC Officer",
+      "Text": "That must be it! Contact the general right away! This is of utmost urgency!"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Yes! On it!"
+    },
+    {
+      "Name": "PMC Officer",
+      "Text": "And use the anti-espionage network to contact the chief of defense of the General Student Council too."
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Yes!"
+    },
+    {
+      "Text": "Downtown Abydos"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "PMC Soldier A",
+      "Text": "Hurry! Go, go, go!"
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "Yes!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Kaiser PMC..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "The PMC troops are moving towards the desert?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Mm. On an unprecedented scale."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Whatever could they be doing? I wish they would've just stayed quiet."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "What Shiroko said is true. I've noticed mobilization of Kaiser PMC troops all over the area recently. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Those jerks really think they can just trample down our district like it's their backyard."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "They must be doing something in the Abydos Desert. We have no visibility there since it's still considered Kaiser property."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We can survey the area unofficially, undetected."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Shiroko..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I love your enthusiasm, little one, but let's try to learn from our past mistakes. That didn't work well for us the first time either. "
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Y-You're right..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I agree with Hoshino! Maybe we can ask Sensei what to do next."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I would love to consult Sensei as well, but they've been especially busy recently... We might just be a bother..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What nonsense are you spewing?! Sensei'll make time for us."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Let's have some faith, Ayane. Sensei has always helped us whenever we needed it."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "They're right. Sensei wouldn't have messaged me to check in on how I was doing if they didn't care enough to help."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "You got a text from Sensei?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Shiroko, you braggart! Don't rub it in our faces!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I wasn't trying to brag about anything. I'm just reporting the facts."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Heehee. If Shiroko's happy, we should just leave her be. Although, I wish Sensei had checked in on me too..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "No way! Shiroko's so spoiled because you always leave her be! You have to lay down the law sometimes!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Y-You really think so?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um... I..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Look at those big puppy eyes! How can you stay mad at her? ☆"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Hahaha... More importantly, what did Sensei say?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Just asked how I was doing. It was nothing special, really?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Interesting... Just out of nowhere? For no reason?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We can get to the bottom of it easily. I'll send Sensei an invitation to come to Abydos."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That sounds like the perfect plan! Thank you, Ayane!"
+    },
+    {
+      "Text": "Millennium Game Development Department"
+    },
+    {
+      "Name": "Midori",
+      "Text": "This concept is no good."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What? Why?! I thought it was great!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "We chose a fantasy genre RPG with a combat system based around swords and magic. "
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Yes, and...?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "And the main character of our fantasy RPG is riding around on an intergalactic battleship."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "They're fighting evil space pirates! How is the main character going to rise up and defeat evil without a battleship to fight them?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "And I'm trying to tell you that RPG heroes don't fly on spaceships..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Well, why not? I think \"Space Hero\" has a really nice ring to it!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What do you think, Yuzu?"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I-I... It's not too bad... It has a kind of Dadaist vibe people like these days..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "See?! I might not know what that means, but she said it was super cool!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "You too, Yuzu?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I like the space hero too."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Aris?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Aris! You're back!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "How was visiting the Engineering Department?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "They performed a simple physical examination and various health checks, but said nothing was abnormal."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Veritas has asked me to complete regular examinations. Like weekly quests."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Th-That's good... I hope you're feeling okay..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What about that weird thing that tried to take over your body... Kei? Did you manage to find Kei?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Do you ever pay attention? Its name is Key, not Kei."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Stop sweating the little details! Kei sounds better than Key anyways!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "No. We have not found Kei."
+    },
+    {
+      "Name": "Midori",
+      "Text": "We're just going with Kei? I guess it doesn't matter either way..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "The Engineering Department does not currently have the technology to identify if Kei is still inside of me, so Veritas is also helping me now."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...As long as you're okay with it."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Of course she's not okay! That weirdo tried to turn Aris into some robot princess thing! Don't worry Aris, I'll kick its butt if it ever comes near you again!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Really, though. Are you okay, Aris?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I am good. The next time I see Kei, I will release my laser beam at three hundred percent. No, I will do it at one hundred thousand percent!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "And I very much like Momoi's space hero. A party of heroes on an intergalactic battleship! It is a good idea."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You get me! I really love it because riding on an intergalactic battleship is my life's dream!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Will I ever get to ride a battleship as well?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "I don't think that'll be possible, Aris..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What do you mean? The Engineering Department told me they were making a huge ship that can sail the skies with real fancy technology, like with Aris' railgun."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "There's no technology in Kivotos fancy enough for a flying battleship. It's a pipe dream that'll just leave you wanting."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "R-Really...?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is okay! Dreams are meant to achieve the impossible. I have learned this from my adventures."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Aris is right! I'm inspired! Okay, our new story for the game is going to be a space opera about a party of space heroes!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! I like this idea very much!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Let's change the genre to a bullet hell shooter with an extremely hard difficulty...with no continues or annihilation bombs..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "*sigh* ...I knew this was gonna happen."
+    },
+    {
+      "Name": "Key",
+      "Text": "..."
+    },
+    {
+      "Name": "Key",
+      "Text": "Kei..."
+    },
+    {
+      "Name": "Key",
+      "Text": "Princess... Do you deny...the very purpose of your existence... The purpose of mine?"
+    },
+    {
+      "Name": "Key",
+      "Text": "A key deprived of its function is no longer a key. It is rejected."
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Understood."
+    },
+    {
+      "Name": "Kei",
+      "Text": "I shall keep watch over you from the shadows, princess... Aris."
+    },
+    {
+      "Name": "Kei",
+      "Text": "But one day you will reach the end of the road and you will no longer be able to deny your purpose. Aris, you will be forced to accept our fate."
+    },
+    {
+      "Name": "Kei",
+      "Text": "And when the time comes..."
+    },
+    {
+      "Text": "Seminar Executive Office"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Hm."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Aren't you offloading the worst of your tasks off to me, Rio?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "First you invoke the dangerous legacy of the Nameless Gods, fail, and now you turn around and ask me to process and analyze heaps and heaps of data."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well, I suppose being remorselessly shameless after nearly causing the end of the world is the privilege of our Big Sister."
+    },
+    {
+      "Name": "Himari",
+      "Text": "You are blessed by my presence in your life, for I am as pure and beautiful as mineral water from an ice cap. I will benevolently grant you a favor."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Now then, what did you want to tell me?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "This..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's not concrete. It's an interpretation of speculation on top of a hypothesis, but I still see it... "
+    },
+    {
+      "Name": "Himari",
+      "Text": "With this... I can empathize with your apparently paranoid delusions that led you to such drastic matters. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "I must admit, Big Sister is a fitting name for you indeed."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I am nearly as impressed by you as I am by myself, the delicate genius beauty known for her mastery of the Omniscience. "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "But you made up the Omniscience degree."
+    },
+    {
+      "Name": "Himari",
+      "Text": "You startled me...! Eimi, h-how long have you..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Ever since you were saying something silly about ice caps?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Wasn't the Super Phenomenon Task Force originally under the direct control of President Rio? I know where that is."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "So, did the president leave us a message?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I haven't gotten to everything. The most important data left is locked up in her black box, so it'll take me some time to sort through it."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But the biggest takeaway is this: we must prepare for a supernatural phenomenon of a staggering degree."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "What do you mean?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Consider it a warning from Big Sister."
+    },
+    {
+      "Name": "Himari",
+      "Text": "A warning that something ominous lurks on the horizon."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "What is our next course of action?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Eek! How did you sneak up on me too? If you keep startling me like this, my perfect face could form a wrinkle!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "The president's exclusive maid, Toki...?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I have been here from the beginning. There are many places to take cover in here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Wow, that must be the skills of a special agent. I didn't catch a single hint of your presence."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You didn't go with the president?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "No. She told me to do as I pleased from this point forward and disappeared."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I'm still trying to understand what that order meant."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I was hoping to find some answers in the place where the president resided most often when the two of you came."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Did you not join the C&C after Rio's departure? You came from them originally... Did they reject you?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "No. The upperclassmen were very kind to me, however..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "However?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "How do I say this..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Ah. I understand the situation. "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I wouldn't have taken you for the shy type."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Making friends may not be my strong suit, but if something dangerous is threatening Kivotos, that's where my talents shine. I can help."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...What do you think, President?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "One as wise as me knows better than to turn away a genuine offer of help."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Thank you!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee. Excellent. Our next steps are clear."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Eimi, we'll need to enlist Schale's help to move forward."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Understood."
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Text": "Next Episode; A Fissure in Everyday Life 2"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;รอยร้าวในชีวิตประจำวัน 1"
+    },
+    {
+      "Text": "เขตขุดค้นในทะเลทรายอะบิดอส"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "จะ.. เจอแล้วครับ!"
+    },
+    {
+      "Name": "เจ้าหน้าที่อาวุโส PMC",
+      "Text": "หาเจอแล้วเหรอ?"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ครับผม! เจอเครื่องกลขนาด 135m x 23m x 13m อยู่ใต้ดินตามพิกัดที่ได้รับมาครับ...!!"
+    },
+    {
+      "Name": "เจ้าหน้าที่อาวุโส PMC",
+      "Text": "ต้องใช่แน่ๆ ...! รีบติดต่อนายพลเดี๋ยวนี้เลย! นี่เป็นเรื่องเร่งด่วนสุดๆ!!"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ครับผม!!"
+    },
+    {
+      "Name": "เจ้าหน้าที่อาวุโส PMC",
+      "Text": "ติดต่อหัวหน้าสำนักป้องกันขององค์การนักเรียนด้วย อ้อ ติดต่อผ่านเครือข่ายลับละ"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ครับ!"
+    },
+    {
+      "Text": "เมืองคิโวทอส"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ทหาร PMC A",
+      "Text": "เร็วเข้า! รีบไป!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "ครับ!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "PMC ไคเซอร์......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "กองกำลัง PMC กำลังมุ่งหน้าไปทางทะเลทรายงั้นเหรอ?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม ครั้งนี้กองกำลังขนาดต่างกว่าเดิมอย่างสิ้นเชิงเลย "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หืม~ หรือว่าจะมีเรื่องอะไรเกิดขึ้นกันนะ เจ้าพวกนั้นไม่ออกมาก่อกวนอะไรอยู่พักใหญ่แล้วนี่"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไม่กี่วันมานี้พวกไคเซอร์ PMC เคลื่อนไหวกันบ่อยขึ้นด้วยละค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "บ้าจริง... เจ้าพวกนั้นบุกเข้ามาในเขตปกครองตนเองเหมือนเป็นบ้านของตัวเองเลย..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "จะมีเรื่องอะไรในทะเลทรายอะบิดอสหรือเปล่าคะ? แต่ที่นั่นคือพื้นที่ส่วนบุคคลของไคเซอร์ พวกเราก็เลยเข้าไปไม่ได้..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "แอบสืบเอาก็ได้นี่"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ชิโรโกะจัง..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เดี๋ยวเถอะชิโรโกะจัง เดี๋ยวก็เกิดเรื่องแบบคราวนั้นซ้ำๆ อีกหรอก เรียนรู้จากบทเรียนในอดีตบ้างสิ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ.. อืม..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่ค่ะ ครั้งนี้เราน่าจะปรึกษากับคุณครูดูนะคะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มันก็จริงอยู่ค่ะ... แต่ว่าหมู่นี้เหมือนคุณครูจะงานยุ่งขึ้นกว่าเดิมมากเลย... หวังว่าเราจะไม่ไปเป็นภาระ\nของคุณครูนะคะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "จะเป็นแบบนั้นได้ยังไง พวกเรากับคุณครูไม่ใช่คนแปลกหน้ากันสักหน่อยนี่!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อื้ม ใช่ค่ะ อายาเนะจัง ถ้าเป็นคุณครูละก็ ต้องรีบมาช่วยพวกเราแน่นอนค่ะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ใช่ คราวก่อนคุณครูก็ติดต่อฉันมา แล้วก็ถามสารทุกข์สุกดิบฉันแบบไม่มีเหตุผลอะไรพิเศษด้วย"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คุณครูน่ะเหรอคะ? ติดต่อรุ่นพี่คนเดียวเหรอ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นี่รุ่นพี่ชิโรโกะกำลังอวดพวกเราเหรอ...?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้อ ไม่ได้อวดนะ แค่พูดตามความจริงเท่านั้นเอง"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แหะๆ~ ไม่รู้อะไรกันซะเลยนะ แบบนี้เราต้องรีแอคตามที่คนพูดต้องการสิถึงจะมีมารยาท ชิโรโกะจังเนี่ย~ ล้ำหน้าเกินไปแล้ว แบบนี้ลุงอิจฉานะ!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ต้องไม่ใช่แบบนี้สิ! ไปเออออห่อหมกกับพี่เค้าบ่อยๆ จนพี่เค้านิสัยเสียแล้วเนี่ย! บางทีก็ต้องเข้มงวดบ้างสิ!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "อืม... งั้นเหรอ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อืม..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อื้ม! ก็ชิโรโกะจังน่ารักเหมือนลูกหมาตัวน้อยเลยนี่คะ มันช่วยไม่ได้สิน้า☆"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แหะๆๆ... แล้วคุณครูว่ายังไงบ้างเหรอคะ?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ก็แค่... ถามความเป็นอยู่... นอกจากนั้นก็ไม่มีอะไร... ไม่มีเรื่องอะไรพิเศษหรอก..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฮืม... อย่างนี้นี่เอง แต่พูดอย่างนี้แล้วก็ยิ่งคาใจนะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ถ้างั้นฉันจะติดต่อคุณครูแล้วขอให้ช่วยมาที่อะบิดอสดูนะคะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ อายาเนะจัง รบกวนด้วยค่ะ"
+    },
+    {
+      "Text": "ชมรมพัฒนาเกมมิลเลเนียม"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่โมโมอิ ใช้คอนเซ็ปต์นี้ไม่ได้นะ "
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? ทำไมล่ะ?! คอนเซ็ปต์นี้ออกจะปังนะ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เราตกลงกันว่าจะสร้างเกม RPG ที่มีดาบและเวทมนตร์ไม่ใช่เหรอ "
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แล้วไงอ่ะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แล้วไงงั้นเหรอ? พี่ให้ตัวเอกขึ้นยานรบอวกาศเนี่ยนะ? ทำไมถึงฉีกคอนเซ็ปต์ไปได้ล่ะ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ก็ฝ่ายตัวร้ายเป็นโจรสลัดอวกาศนี่นา! ตัวเอกต้องเอาชนะความชั่วร้ายให้ได้ไง!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "จะให้นักรบขึ้นยานรบอวกาศได้ที่ไหนกันเล่า..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ทำไมล่ะ! เท่ออกจะตาย! นักรบอวกาศไง! "
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ยูสึล่ะ คิดว่าไง?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฉะ.. ฉัน... ก็ไม่ได้คิดว่ามันแย่อะไร... มันให้อารมณ์เหมือนลัทธิดาดาที่กำลังดังอยู่ตอนนี้ด้วย..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เห็นไหมล่ะ! ฉันไม่รู้หรอกนะว่าลัทธินั่นเป็นยังไง แต่มันเจ๋งดีออก!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะไรของเค้า..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึก็ชอบนักรบอวกาศค่ะ "
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อาริสึจัง?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อาริสึ! มาแล้วเหรอ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ชมรมวิศวกรรมว่ายังไงบ้าง...?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "กลับมาแล้วค่ะ ทางนั้นช่วยตรวจร่างกายและสุขภาพขั้นพื้นฐานให้ แล้วก็บอกว่าไม่พบความผิดปกติ\nอะไรในตัวอาริสึค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เวอริทัสบอกให้อาริสึตรวจร่างกายเป็นประจำด้วย อาริสึก็เลยตอบตกลงไปค่ะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "งะ.. งั้นสินะ... งั้นก็แปลว่าอาริสึจังไม่เป็นอะไรใช่ไหม?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "คนแปลกๆ ที่เจอครั้งก่อนชื่ออะไรนะ เคย์...? ยังหาไม่เจอเหรอ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไม่ใช่เคย์ <Key> ต่างหากล่ะพี่..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แค่ชื่อผิดเอง ไม่เห็นจะเป็นอะไรเลย ใช้ชื่อง่ายๆ มันสะดวกกว่าไม่ใช่เหรอ นี่เป็นกฎการตั้งชื่อเลยนะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ ยังไม่เจอ <เคย์> เลยค่ะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ตกลงใช้ชื่อเคย์เหรอ? เอาเถอะ คงไม่เป็นไรหรอกมั้ง..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ตอนนี้เทคโนโลยีของชมรมวิศวกรรมยังตรวจสอบไม่ได้ว่า <เคย์> หายไปจริงหรือเปล่า เวอริทัสก็เลยบอกว่าจะเข้ามาช่วยค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "งั้นเองเหรอ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หน็อยแน่! กล้าดียังไงจะมาทำให้อาริสึของเราเป็นธิดาอะไรนั่นน่ะ! ถ้าครั้งหน้าได้เจอกันอีก ฉันไม่ปล่อยให้รอดไปได้แน่!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แต่อาริสึจังจะไม่เป็นอะไรใช่ไหม...?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ ไม่มีปัญหาค่ะ ต่อไปถ้าได้เจอ <เคย์> อาริสึจะใช้ลำแสงบีม 300%... ไม่สิ 100,000% ไปเลยค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แล้วก็... อาริสึเองก็ชอบนักรบอวกาศเหมือนกันค่ะ ปาร์ตี้ของนักรบบนยานรบอวกาศ! ฟังดูเข้าท่าเลยนะคะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ใช่ไหมล่ะ? บอกแล้วว่าต้องปัง ยานรบอวกาศมันออกจะชวนฝัน!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "สักวันหนึ่งอาริสึจะได้ขึ้นยานรบอวกาศกับเขาบ้างไหมคะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เรื่องนั้นน่าจะยากอยู่นะอาริสึจัง..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? งั้นเหรอ? แต่เห็นว่าชมรมวิศวกรรมกำลังเตรียมสร้างอะไรทำนองนั้นอยู่นะ? เรื่องปืนเรลกันของ\nอาริสึก็ด้วย"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เทคโนโลยีของคิโวทอสตอนนี้ยังไม่ถึงขั้นสร้างยานรบอวกาศหรอก... แต่พอมันเป็นเรื่องชวนฝัน ทุกคนก็เลยอยากจะลองดูน่ะ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เป็นงี้เองเหรอ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่การท้าทายทำเรื่องที่เป็นไปไม่ได้ก็เป็นสิ่งที่ดีนะคะ นี่สินะคะที่เรียกว่าชวนฝัน! อาริสึเข้าใจแล้วค่ะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ดีละ! ถ้างั้นเกมใหม่ของเราจะเป็นคอนเซ็ปต์นักรบอวกาศที่ตั้งตี้เปิดศึกระหว่างดวงดาว! เอาตามนี้เลย!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! ดีเลยค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "งั้นก็เปลี่ยนประเภทเกมให้เป็นประเภทยิงกันเถอะ ตั้งความยากระดับซูเปอร์ฮาร์ดเลย... ถ้าตายแล้วต้องเริ่มใหม่หมด แล้วก็ไม่มีระเบิดทำลายล้างให้ใช้ด้วย..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เฮ้อ... คิดไว้แล้วว่าจะต้องเป็นแบบนี้"
+    },
+    {
+      "Name": "Key",
+      "Text": "......"
+    },
+    {
+      "Name": "Key",
+      "Text": "เคย์..."
+    },
+    {
+      "Name": "Key",
+      "Text": "ท่านธิดา... ท่านจะปฏิเสธทั้ง[ruby=ธิดา]วัตถุประสงค์ของการดำรงอยู่[/ruby]ของตน... และ[ruby=กุญแจ]วัตถุประสงค์ของการดำรงอยู่[/ruby] ของฉันเลยเหรอคะ?"
+    },
+    {
+      "Name": "Key",
+      "Text": "กุญแจที่สูญเสียตัวตนไม่อาจเป็นกุญแจได้อีกต่อไป และไม่อาจมีชื่อเรียกได้ดังเดิมค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "......ก็ได้ค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ถ้าอย่างนั้นฉันจะเฝ้าดูท่านค่ะท่านธิดา ไม่สิ... อาริสึ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "แต่ก็ไม่มีใครหลุดพ้นจากวัตถุประสงค์ของการดำรงอยู่ได้ค่ะ นั่นคือโชคชะตาที่เราต้องเผชิญค่ะอาริสึ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "และเมื่อตอนนั้นมาถึง... ฉันก็คง..."
+    },
+    {
+      "Text": "ห้องสำนักงาน เซมิน่า"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮืม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอาแต่เรื่องน่ารำคาญมาให้ฉันจัดการทั้งนั้นเลยสินะคะ ริโอะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงกับไปแตะต้องมรดกของ <เหล่าทวยเทพไร้นาม> ที่อันตราย และพอแผนการล้มเหลว ก็ทิ้งข้อมูลไว้มากมายให้ฉันคอยตามเก็บ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะสร้างเรื่องไว้ขนาดนั้นก็เถอะ แต่ยังไงก็ต้องเชิดหน้าอย่างสง่าผ่าเผยสิคะ ถึงจะสมกับชื่อ <บิ๊กซิสเตอร์>..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ก็นะ ยังไงฉันก็เป็นดั่งน้ำแร่ชั้นหนึ่งที่บริสุทธิ์และสะอาดดั่งหิมะที่เพิ่งตกใหม่ๆ อยู่แล้ว ก็ต้องตอบ\nรับคำขอเช่นนั้นจากคุณสิคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ว่าไงล่ะคะ... คุณอยากจะบอกอะไรกับฉันคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "............"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นี่มัน... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การตีความโดยการเพิ่มสมมติฐาน... อย่างนั้นสินะคะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ในเมื่อได้ข้อมูลมาขนาดนี้แล้ว... ฉันก็พอจะเข้าใจความเพ้อฝันที่น่าหวาดระแวงของคุณแล้วค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "บิ๊กซิสเตอร์..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ถึงยังไง... ผู้มีรอยยิ้มสดใสฮีลใจเหมือนยาวิเศษที่ได้ชื่อว่าเป็น <ผู้รอบรู้> อย่างฉันก็ยอดเยี่ยม\nกว่าอยู่แล้วละค่ะ "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "นั่นเป็นสิ่งที่หัวหน้าคิดเอาเองนะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตกใจหมดเลย...! เอมิ... มะ... มาตั้งแต่เมื่อไรกัน..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตั้งแต่พูดเพ้อเจ้อว่าเป็นหิมงหิมะอะไรนั่นไง"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "......"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ชมรมปรากฏการณ์ลี้ลับเป็นชมรมที่ขึ้นตรงต่อประธานริโอะตั้งแต่แรกไม่ใช่เหรอ? ฉันเองก็พอรู้สถานะ\nของชมรมดีนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตกลงว่าประธานบอกไว้ว่ายังไงล่ะหัวหน้า?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่างแรกเลยก็คือ ข้อมูลที่สำคัญที่สุดถูกซ่อนไว้อย่างแน่นหนาในกล่องดำ เลยต้องใช้เวลาตรวจสอบ\nนานสักหน่อย..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นสิ... ถ้าอย่างนั้นก็สรุปได้ว่า... เราต้องเตรียมพร้อมสำหรับ <ปรากฏการณ์ลี้ลับ> อีกอย่างหนึ่งสิคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หา?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ นี่คือคำเตือนของบิ๊กซิสเตอร์ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คำเตือนว่าจะเกิดเรื่องที่... อันตรายมากๆ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ถ้างั้นพวกเราต้องทำยังไงเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อุ๊ย ตะ... ตกใจหมดเลย!! มะ.. มาตั้งแต่เมื่อไรกัน...?!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "โทคิ... เมดของประธาน...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันอยู่ที่นี่ตั้งแต่ก่อนที่คุณทั้งสองคนจะมาอีกค่ะ ที่นี่เป็นแหล่งหลบซ่อนชั้นดีเลยค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "สมแล้วที่เป็นสายลับ พวกฉันไม่รู้เลยว่ามีคนอยู่ที่นี่ด้วย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "จะว่าไปแล้ว เธอไม่ได้ตามประธานไปหรอกรึไง?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ ประธานบอกกับฉันว่า <ตั้งแต่นี้ไปให้ใช้ชีวิตอย่างอิสระ> แล้วก็หายไปเลยค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แต่ฉันไม่รู้เลยค่ะว่าต้องใช้ชีวิตอย่างอิสระกับอะไร... แล้วต้องทำยังไง... "
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันก็เลยมาอยู่ในที่ที่ประธานเคยอยู่... จนทั้งสองคนเข้ามานี่แหละค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮืม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่โทคิไปฝากฝังตัวเองไว้กับ C&C ไม่ใช่เหรอคะ? แถมสังกัดอยู่ที่นั่นตั้งแต่แรกด้วย... หรือว่าโดน\nทางนั้นปฏิเสธมาคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่ค่ะ ไม่ใช่แบบนั้นหรอกค่ะ พวกรุ่นพี่ใจดีกับฉันค่ะ แต่ว่า..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ว่า?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แบบว่า..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮืม... ฉันพอจะเดาได้แล้วค่ะ "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันคิดว่าโทคิจะไร้ยางอายกว่านี้ซะอีก มีมุมที่คาดไม่ถึงด้วยนะคะเนี่ย"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ถ้าจะมีเรื่องอันตรายอะไรเกิดขึ้น... ฉันเองก็อยากช่วยค่ะ ฉันช่วยได้ทุกอย่างเลยค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "...... เอาไงดีล่ะหัวหน้า?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันก็ชัดเจนอยู่แล้วนี่คะว่าฉันจะทำยังไง ยิ่งมีคนมาช่วยเยอะก็ยิ่งดีสิคะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุ ดีเลยค่ะ สิ่งที่เราต้องทำจากนี้มันชัดเจนมากค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอมิ จากนี้เราต้องการความช่วยเหลือจาก <ชาเล่ต์> ค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อื้ม มันก็ต้องเป็นอย่างนั้นแหละ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Text": "ตอนต่อไป;รอยร้าวในชีวิตประจำวัน 2"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;日常的龜裂（１）"
+    },
+    {
+      "Text": "阿拜多斯沙漠．挖掘區域"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "找，找到了！"
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "找到了嗎？"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "是，是的！在那個座標底下，發現了約135m×23m×13m的構造物……！！"
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "肯定沒錯……！立刻向將軍報告！現在立刻！"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "是，是！"
+    },
+    {
+      "Name": "PMC幹部",
+      "Text": "然後，也聯絡聯邦學生會的防衛室一聲。\n記得要用專用的通訊網。"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "是！"
+    },
+    {
+      "Text": "阿拜多斯市區"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "PMC士兵A",
+      "Text": "動作快，要移動了！"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "是！"
+    },
+    {
+      "Name": "白子",
+      "Text": "凱薩PMC……"
+    },
+    {
+      "Name": "星野",
+      "Text": "PMC的兵力正在往沙漠移動？"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯，規模和以往完全不同。"
+    },
+    {
+      "Name": "星野",
+      "Text": "哼～嗯，發生什麼事了嗎？\n明明最近還挺安分的。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "這幾天四處都能看見凱薩PMC正在移動……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "那些傢伙，對別人的自治區為所欲為！真是無法原諒。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "是阿拜多斯沙漠發生什麼事了嗎？"
+    },
+    {
+      "Name": "白子",
+      "Text": "要不要偷偷去看一下？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "白子醬，那樣有點……"
+    },
+    {
+      "Name": "星野",
+      "Text": "那裡是凱薩的土地，隨意進入的話可是會被罵的唷～\n之前也因為這樣發生過糾紛不是嗎？"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "對了，和老師商量看看吧！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "我也很想這麼做……不過老師最近似乎很忙……\n如果聯絡老師，會不會造成他的困擾呢？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "困不困擾是老師決定的吧？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "就是呀綾音醬。如果在聯絡前就那樣認定的話，老師也無能為力……而且，老師一定會幫助我們的☆"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯。而且老師之前才剛聯絡過我。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師傳來聯絡嗎？只聯絡前輩？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不是因為白子前輩狂刷貼圖嗎？"
+    },
+    {
+      "Name": "白子",
+      "Text": "不，這次不是。\n是老師主動找我的。"
+    },
+    {
+      "Name": "星野",
+      "Text": "就算是白子醬也不會每次都狂刷貼圖的嘛～"
+    },
+    {
+      "Name": "茜香",
+      "Text": "真是的，前輩每次都這麼寵她！"
+    },
+    {
+      "Name": "星野",
+      "Text": "唔嗯……有嗎～？"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "哎呀哎呀，白子醬就是這種地方可愛嘛☆"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊哈哈……那，老師說了什麼呢？"
+    },
+    {
+      "Name": "白子",
+      "Text": "沒什麼特別的……\n都是「最近怎麼樣？」、「還好嗎？」之類的……這種內容。"
+    },
+    {
+      "Name": "星野",
+      "Text": "嘿……總覺得有點冷淡呢。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "總之，我來試著聯絡老師吧。\n問他能不能來一趟阿拜多斯。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯☆綾音醬，拜託你囉！"
+    },
+    {
+      "Text": "千年．遊戲開發部"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐，這樣不行唷。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦，為什麼！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "我們要做的不是「劍與魔法的RPG」嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "是沒錯……怎麼了嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "什麼怎麼了……為什麼主角會搭上宇宙戰艦呢？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "因為敵人是宇宙海賊呀！既然如此主角就得搭上宇宙戰艦才行！"
+    },
+    {
+      "Name": "綠",
+      "Text": "勇者怎麼會搭上宇宙戰艦……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "怎麼了嗎？主角可是宇宙勇者唷！？不覺得很棒嗎！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "柚子你覺得呢？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我，我覺得……或許，還不錯……\n像是最近流行的達達主義的感覺……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "看吧！柚子也說可以！"
+    },
+    {
+      "Name": "綠",
+      "Text": "咦咦……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲覺得「宇宙勇者」非常棒！"
+    },
+    {
+      "Name": "綠",
+      "Text": "愛麗絲醬？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "愛麗絲！歡迎回來！還好嗎！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "工程師部怎麼說……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "進行了簡單的身體檢查和健康狀況的確認，不過似乎沒有什麼異常。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "還有，貝里塔斯的大家跟愛麗絲說要定期進行檢查，愛麗絲也答應了。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這，這樣啊……那愛麗絲醬已經沒事了對吧？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "當時那個奇怪的傢伙……叫什麼，Kei……來著？\n那傢伙呢？"
+    },
+    {
+      "Name": "綠",
+      "Text": "不是Kei，是＜Key＞才對吧，姐姐……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "只要能認得出是誰，名字叫什麼無所謂啦！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是。沒有發現「Kei」的蹤跡。"
+    },
+    {
+      "Name": "綠",
+      "Text": "結果決定是「Kei」了嗎？\n……算了，就這樣吧。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "以工程師部目前的技術似乎無法確認「Kei」是否已經消失。\n所以貝里塔斯似乎會一起幫忙！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這樣啊……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那傢伙，想擅自讓愛麗絲變成王女還是什麼的！真是的！\n下次見面絕對要給他好看！"
+    },
+    {
+      "Name": "綠",
+      "Text": "愛麗絲醬可以接受嗎……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗯，愛麗絲沒有問題。\n下次見到「Kei」時會發射300%……不，會發射100,000%的光束砲！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "還有，愛麗絲也覺得宇宙勇者非常棒。\n搭乘宇宙戰艦的勇者隊伍！真是棒極了！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "對吧對吧？胸口有股悸動的感覺對吧？\n畢竟宇宙戰艦就是浪漫啊！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲也有搭上宇宙戰艦的一天嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "那，那可能有點困難吧……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦？不過工程師部不是有打算要做嗎？\n愛麗絲的電磁砲也是其中的一部份對吧？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "以現在的技術來看，是很困難的……不過因為是浪漫，所以大家都在挑戰……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "原來是這樣嗎！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "挑戰不可能真是了不起！\n那就是浪漫對吧！愛麗絲明白了！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "很好！那麼，下一個作品就決定是宇宙勇者隊伍的太空歌劇了！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！感覺真棒！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "那，那，類型就換成彈幕射擊遊戲吧……\n做成超高難度，無法接關也沒有全滅炸彈的──"
+    },
+    {
+      "Name": "綠",
+      "Text": "唉……果然又變成這樣了。"
+    },
+    {
+      "Name": "Key",
+      "Text": "……"
+    },
+    {
+      "Name": "Key",
+      "Text": "「Kei」……"
+    },
+    {
+      "Name": "Key",
+      "Text": "王女啊……妳要否定自己的[ruby=王女]存在目的[/ruby]……以及我的[ruby=鑰匙]存在目的[/ruby]嗎？"
+    },
+    {
+      "Name": "Key",
+      "Text": "失去存在目的的鑰匙已經不再是鑰匙……也沒有必要被這麼稱呼。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……我明白了。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "那麼，我會守望著妳的。\n王女……不，「愛麗絲」。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "但是，沒有人能擺脫自己存在的目的。\n愛麗絲，這就是我們要面對的命運。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "到了那個時候……我──"
+    },
+    {
+      "Text": "研討會．辦公室"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼呣……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "──把麻煩的事全都推給我了呢，莉央。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "向「無名之神」的遺產動手，一但計劃失敗就說「之後拜託你了」──什麼的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然我認為無論引發什麼樣的事件，\n都能堂堂正正地面對才對得起「大姐頭」的名號……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "算了……如新雪般高潔、如清水般通透的我，\n就理解你的那股任性吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼……你想向我傳達什麼呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "…………"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個是──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "原來如此……雖然是以假設推測而來的解釋……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "既然已經掌握了這麼多的資料……\n你那能稱的上是偏執的妄想，我似乎也稍微能理解了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不愧是，被稱為大姐頭的人啊……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……不過儘管如此，還是被稱為「全知」的超天才病弱美少女的我更厲害就是了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "那只是部長自己亂編的吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "噫呀……！\n英，英美，你從什麼時候……"
+    },
+    {
+      "Name": "英美",
+      "Text": "從你說新雪還是什麼的時候？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "英美",
+      "Text": "特異現象搜查部本來就是莉央會長的直屬組織不是嗎？\n我也知道這裡的位置唷。"
+    },
+    {
+      "Name": "英美",
+      "Text": "所以，會長說了些什麼呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個嘛……重要的情報藏在嚴密的安全系統裡，我想可能還需要一些時間才能確認……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過簡單來說，「要對別的『特異現象』做好準備」──就是這樣。"
+    },
+    {
+      "Name": "英美",
+      "Text": "這是什麼意思？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "──這是來自大姐頭的警告。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不久的將來──奇普托斯將面臨前所未有的危機。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……"
+    },
+    {
+      "Name": "季",
+      "Text": "──我該做什麼呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呀啊……！？你，你什麼時候……！？"
+    },
+    {
+      "Name": "英美",
+      "Text": "會長的專屬女僕……季……？"
+    },
+    {
+      "Name": "季",
+      "Text": "在兩位來到這裡的稍早之前。\n因為這裡有很多地方可以藏身。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嘿，不愧是特務。我完全沒發現。"
+    },
+    {
+      "Name": "英美",
+      "Text": "我還以為你一定是和會長一起離開了。"
+    },
+    {
+      "Name": "季",
+      "Text": "不。會長留下「今後自由地生活吧」這句話後就離開了。"
+    },
+    {
+      "Name": "季",
+      "Text": "但是，該怎麼自由生活呢……我並不清楚……"
+    },
+    {
+      "Name": "季",
+      "Text": "於是我便一直待在這個會長曾待過的地方，接著兩位就出現了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼呣……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "你本來就是C&C所屬，我聽說你投靠了他們……是被拒絕了嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "不，前輩們都很照顧我。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……？"
+    },
+    {
+      "Name": "季",
+      "Text": "但是……那個，"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……原來如此。我理解大致上的狀況了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "意外地有可愛的一面呢，季。"
+    },
+    {
+      "Name": "季",
+      "Text": "如果……有危機即將來臨的話，我也想出一份力。\n無論那是什麼樣的危機。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……該怎麼辦呢，部長？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "答案很明顯吧，英美？\n幫手當然是越多越好囉。"
+    },
+    {
+      "Name": "季",
+      "Text": "……非常感謝。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼，接下來──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "──首先請求「夏萊」的協助吧。"
+    },
+    {
+      "Name": "英美",
+      "Text": "果然，是這樣呢。"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Text": "下一話;日常的龜裂（２）"
+    }
+  ]
+}

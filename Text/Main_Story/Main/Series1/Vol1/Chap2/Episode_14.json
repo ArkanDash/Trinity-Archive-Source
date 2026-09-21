@@ -1,0 +1,2707 @@
+{
+  "TitleJP": "アビドス攻防戦（１）",
+  "TitleKR": "아비도스 공방전 1",
+  "TitleEN": "The Abydos Siege Part 1",
+  "TitleTH": "สงครามปิดล้อมอะบิดอส 1",
+  "TitleTW": "阿拜多斯攻防戰（１）",
+  "DescJP": "アビドスが攻撃されていることに対し約束が違うと黒服に詰め寄るホシノだったが、最初から狙いはあなただったと告げる黒服に拘束されてしまう。同時刻、精神的にも追い詰められ、絶体絶命のアビドス対策委員会。そこに現れたのは、アビドスを去ったはずの便利屋68だった。",
+  "DescKR": "카이저 PMC에 도착한 호시노는 아비도스 고교가 공격받고 있다는 소식을 듣고 항의하지만, 검은 양복은 되려 호시노를 구속해 버린다. 절체절명의 순간, 떠났던 흥신소 68 일행이 아비도스에 나타나 대책위원회를 돕는다.",
+  "DescEN": "After joining up with Kaiser PMC, Hoshino defects when she learns that Abydos High School is under attack, but is then arrested by Black Suit. When all hope seems lost, Problem Solver 68 returns to Abydos to lend their aid to the Foreclosure Task Force.",
+  "DescTH": "เมื่อถึงที่ PMC ไคเซอร์ โฮชิโนะก็ได้ทำการประท้วงหลังจากรู้ข่าวเรื่อง\nโรงเรียนอะบิดอสถูกโจมตี แต่ทว่าชายสวมสูทดำได้เข้ามาจับกุม\nโฮชิโนะเอาไว้ ช่วงเวลาสิ้นหวัง หน่วยรับจ้างสารพัด 68 ที่ออกไปจาก\nอะบิดอสแล้วได้ปรากฏตัวขึ้นอีกครั้งเพื่อช่วยเหลือคณะกรรมการแผนงาน",
+  "DescTW": "抵達凱薩PMC的星野，聽到阿拜多斯高中正遭受攻擊的消息後表示抗議，但卻反而被黑色西裝人拘禁。在千鈞一髮之際，先前離開的便利屋68一行人出現在阿拜多斯，幫了對策委員會一把。",
+  "DialogJP": [
+    {
+      "Text": "第14話;アビドス攻防戦（１）"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "こんにゃろっ！！！"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "何者かの接近を確認……カイザーの理事です！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "ふむ。学校まで出向こうと思ったのだが、お出迎えとは感心だ。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "これは何の真似ですか？企業が街を攻撃するなんて……いくらあなたたちが土地の所有者だとしても、そんな権利は無いはずです！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "それに、学校はまだ私たちアビドスのものです！進攻は明白な不法行為！連邦生徒会に通報しますよ！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "スカウトなんて、最初から嘘だったってこと？……いや、それよりもホシノ先輩はどこ？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "この悪党め……ホシノ先輩を返して！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "……くくくっ、何を言ってるのやら。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "連邦生徒会に通報だと？面白いことを言うじゃないか、今すぐにでもやってみたらどうだ？"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "君たちはこの状況について、今まで何度も連邦生徒会に嘆願してきたのだろう？それで、一度でも動いてくれたことがあったか？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "無かったはずだ。何せ連邦生徒会は今、動けないからな。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "連邦生徒会でなくても良い。今までどこか他の学園が、君たちのことを助けてくれたことはあったか？……そろそろ分かっただろう？"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "誰一人、君たちに手を差し伸べる者はいない。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "アビドスの最後の生徒会メンバー、[ruby=たかなし]小鳥遊[/ruby]ホシノが退学した。アビドスの生徒会は、もう存在しないも同然。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "君たちはもう、何者でもない。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "！！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "公的な部活も、委員会も、生徒会も、自治区すらも無いアビドスは、学園都市の学校として自立・存続が不可能だと判断……"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "仕方ないな、この自治区の主人である我がカイザーコーポレーションが、あの学校を引き受けるとしよう。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "そうだな、新しい学校の名前は「カイザー職業訓練学校」にでもしようか。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "！！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "え……？な、何を言ってるの……！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "生徒会が無くても、アビドスには対策委員会がある！！私たちがまだいるのに、そんな言い分が通じるはずないでしょ！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "それは……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……アヤネちゃん？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "対策委員会は、公式に許可を受けている委員会じゃない……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……えっ！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "対策委員会が出来た時には、もうアビドスには生徒会が無かったから……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "え、えっ……！？"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "そうだ。所詮非公認の委員会、正式な書類の承認も下りていない。つまり、君たちの存在を示すものは何も無い。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "だが喜べ。アビドス高等学校が無くなれば、君たちはもうあの借金地獄からは解放されるのだからな。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "な、何で……何をしてる！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どうして、どうしてアビドスを、街を攻撃するんだ！！"
+    },
+    {
+      "Name": "黒服",
+      "Text": "どうしてと言われましても……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "何もおかしいことなどありませんよ、ホシノさん。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あの借金の大半はきちんと返済させていただきますとも。それが、私たちの間に交わされた約束ですから。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "それはそうとして……あなたが退学してしまい、残念ながらアビドス高等学校にはこれ以上、公的な生徒会メンバーが残っていないようですね。それでは学校は成り立たないでしょう。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちが何故、あんなくだらない企業の、詐欺紛いの行為を支援していたのだと思いますか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "自治区の土地を奪ったところで、ブラックマーケットのような無法地帯が一つ増えるだけです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そんな場所は、このキヴォトスにいくらでもあります。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "しかし……もし、企業を主体とした新たな学園が誕生したら……？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "アビドスに現れるその新しい存在は、果たしてこのキヴォトスにどんな影響をもたらすでしょうか？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……っ！"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……しかし、これは単なる余興に過ぎません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ホシノさん、私たちの目的は最初からあなたでした。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたに契約書へサインをしてもらうこと、あなたに関する全ての権利を頂くこと。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "その目的のために利害関係が一致したので、カイザーコーポレーションに協力していた。ただそれだけのことです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "何か勘違いされていたようですね……誤解を招いたのなら謝罪しましょう。しかし私は最初から、カイザーの所属ではありません。「私共の企業」がカイザーコーポレーションだとは、一度も言っていないはずです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたのようなキヴォトス最高の神秘を手に入れたというのに、まさか、勿体ない形で消耗させるなんてことは致しません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたを実験体として研究し、分析し、理解する。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "この興味深い実験こそが、私たちが観測を渇望していたもの。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "つまりは、そういうことです。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……そっか。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "私は……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……また、大人に騙されたんだ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ごめん、みんな。私のせいで、全部……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "シロコちゃん、ノノミちゃん、セリカちゃん、アヤネちゃん……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ユメ先輩。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ごめん……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "私は……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "先生……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そんな、そんなことになったら、今までの私たちの努力が……。"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "……ほう、まさか本気だったのか？"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "本気で何百年もかけて、借金を返済するつもりだったと？"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "これは驚きだ。てっきり、最後に諦める時「でも頑張ったから」と自分を慰める言い訳をするために、ほどほどに頑張っているのだと思っていたが……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……っ！！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "いったい君たちは、どうしてあんなに努力していたんだ？何のために？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あんた、それ以上言ったら……"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "撃つよ。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "で、ですが……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……今ここで戦って、何かが変わるんでしょうか？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "アヤネちゃん！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "今も、すごい数の兵力がこちらに向かって来ています……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "たとえ、戦って勝てたとしても……その後はどうすれば……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "学校が無くなったら、もう戦う意味がありません。学校をどうにか取り戻せたとしても、私たちにはまだ、大きな借金が残ったまま……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……アヤネちゃん。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "アヤネ……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "取引された土地だって戻ってきません。何より、ホシノ先輩もいない、生徒会も無い、こんな状態で……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "私たちみたいな非公認の委員会なんかに、これ以上、一体何が……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "どうして、どうして私たちだけ、こんな……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ホシノ先輩……私たち、どうすれば……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "アヤネちゃん……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Text": "ドカアアァァァァン！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "！？"
+    },
+    {
+      "Name": "PMC兵士A",
+      "Text": "なっ！？き、北の方で大きな爆発を確認！"
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "合流予定のブラボー小隊が巻き込まれて――！！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "何！？"
+    },
+    {
+      "Text": "ドカアアァァァァン！！"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "東の方でも確認！合流予定だったマイク小隊も、大量のC4の爆発で……！！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "何が起きている！？アビドスの連中は、ここにいるので全員のはず……！！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "全く……大人しく聞いていれば、何を泣き言ばっかり言ってるのかしら……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "目には目を、歯には歯を。無慈悲に、孤高に、我が道の如く[ruby=まきょう]魔境[/ruby]を行く……"
+    },
+    {
+      "Name": "アル",
+      "Text": "それが、あなたたち覆面水着団のモットーじゃなかったの？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……あ、あなたは！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "何をすればいいのか分からない、どうすればいいのかも分からない。やる事なす事、全部失敗に終わる……"
+    },
+    {
+      "Name": "アル",
+      "Text": "ここを潜り抜けたところで、この先にも逆境と苦難しかない……"
+    },
+    {
+      "Name": "アル",
+      "Text": "だから何なのよっっっ！！！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "え、えっ……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "仲間が危機に瀕してるんでしょう！？それなのに、くだらないことばっかり考えて、このまま全部奪われて、それで納得できるわけ！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "あなたたちは、そんな情けない集団だったの！？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "いやいや、アルちゃんその辺で勘弁してあげなよ。メガネっ娘ちゃんは繊細なんだから、こういう時もあるって。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ど、どうしてあなたたちが……！？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あはっ。それにしても、私の可愛いメガネっ娘ちゃんを泣かした罪は重いよ？だからもうこれは……"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ぶっ殺すしかないよねっ！！！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "ふふっ、ふふふふふ……準備はできています、アル様。仕込んだ爆弾もまだまだたくさんありますので……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はあ。ただ、ラーメンを食べに来ただけのはずなのに……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……埋めておいた爆弾で、敵の増援を遮断。その間に敵の指揮官を無力化させて、指揮体系を崩壊させる。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "これで相手集団を一気に瓦解させる……本来なら、風紀委員会相手に使うはずの戦術だったけど。ま、予行演習ってことにしておこうか。"
+    },
+    {
+      "Name": "アル",
+      "Text": "目を開けなさい。腑抜けた状態のあなたたちに今から、真のアウトローの戦い方を見せてあげるわ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ハルカ。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "はいっ！"
+    },
+    {
+      "Text": "ドカアアァァァァン！！"
+    },
+    {
+      "Text": "ドドドドドドドドォォン！！"
+    },
+    {
+      "Text": "ドカアアアァァァァァァァン！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "うわぁっ！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "さあ、今こそ協業の時よ！合わせられるわよね、先生！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "そこの[ruby=対策委員会]腰抜けたち[/ruby]に、今こそ真のハードボイルドの力を見せつけてやるわ！"
+    },
+    {
+      "Text": "[ns] \"……よし、やろう！\""
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제14화;아비도스 공방전 1"
+    },
+    {
+      "Name": "세리카",
+      "Text": "그만둬!! 이 녀석들!!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "카이저 이사, 위치 확인되었습니다!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "이런, 이런. 우리가 학교로 찾아가려고 했는데, 여기까지 마중을 나와준 건가?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "이게 무슨 짓이죠? 기업이 도시를 공격하다니, 아무리 당신들이 소유자라고 해도 이럴 권리는 없을 텐데요!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "게다가 학교는 아직 저희 아비도스의 것입니다! 이것은 명백한 불법 행위! 총학생회에 불법행위를 규탄할 거예요!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……호시노 선배는 어디에 있지? 스카웃 같은 건 처음부터 거짓말이었던 거군."
+    },
+    {
+      "Name": "세리카",
+      "Text": "호시노 선배를 돌려줘! 이 나쁜 놈들아!!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "……큭. 큭큭."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "총학생회에 규탄? 재미있는 소리를 하는군."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "너희들의 처지를 몇 번이나 총학생회에 탄원하지 않았던가? 그래서 그들이 움직인 적이 있었던가?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "없을 거다. 총학생회는 지금 움직이지 못하니까."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "아니면, 다른 누가 도와준 적이 있었나? 다른 학원들은? 아니었을 거다."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "너희는 언제나 혼자였다."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "아비도스의 마지막 학생회 타카나시 호시노가 자퇴했기에, 아비도스 학생회는 이제 사라졌다. "
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "너희는 이제 아무 것도 아니다."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "!!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "이제 공식적인 동아리도, 공식적인 학생회도, 자치구도 없는 아비도스는 학원도시의 학교로서 자립이 불가능하다고 판단,"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "이 자치구의 주인인 우리 카이저 코퍼레이션이 학교를 인수해주겠다."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "그래, 새롭게 세워질 학교의 이름은 카이저 사립 직업훈련 학원이 좋겠군."
+    },
+    {
+      "Name": "아야네",
+      "Text": "!!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐……? 무, 무슨 소리야? 그게?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "무슨 헛소리야?! 학생회는 없더라도…… 아비도스엔 대책위원회가 있잖아!! 우리가 있다고!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……. 그, 그런……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……아야네 쨩?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "대책위원회는 공식적으로 허가를 받은 동아리가 아니야……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……뭐?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "만들어질 때 이미 학생회가 없었으니까……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐……?!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "그래. 비공인된 동아리 따위 정식 서류에 승인도 나 있지 않지. 너희는 유령에 불과하다."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "하지만 기뻐해도 괜찮다. 이제 그 지긋지긋한 빚갚기에서는 해방될 테니까 말야."
+    },
+    {
+      "Name": "호시노",
+      "Text": "무, 무슨 짓이야?! 약속이 다르잖아!!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "어째서 아비도스를 공격하는 거야!! 어째서!!"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아뇨. 약속은 지켰습니다. 호시노 씨."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 빚은 탕감해 드렸습니다. 확실하게 약속한 만큼."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "하지만 당신이 자퇴해버려서, 애석하게도 아비도스 학교에는 더 이상 공식적인 학생회가 남아있지 않은 것 같군요."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……!!"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리가 왜 이런 시시한 기업의 부동산 사기 행각을 지원했다고 생각합니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "키보토스의 자치구의 땅을 뺏어봤자, 블랙 마켓 같은 무법지구가 하나 더 늘어나는 것에 불과합니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그런 곳이야 이 키보토스엔 시시할 정도로 많죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "하지만…… 이 아비도스에 기업이 주인인 새로운 학원이 탄생하게 된다면……?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇게 되면 과연 이 키보토스에 어떤 변화가 생기게 될까?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……!!"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……아아. 그러나 이것은 단순한 여흥거리에 불과합니다. 호시노 씨."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "저희의 목표는 처음부터 당신이었습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신에게 계약서를 쓰게 하는 것. 모든 권리를 이양받는 것."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 이해관계가 일치했기에 카이저와 협력했던 것뿐입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "카이저 PMC와 종신 계약? ……그런 얘기를 한 적은 없습니다. 오해를 하셨다면 죄송하군요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신같은 키보토스 최고급의 신비를 손에 넣어서 그런 식으로 소모할 생각은 없습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호시노는 연구하고 분석해서 파악한다. 즉, 실험용으로 쓴다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이것이야말로 우리들이 관측하고픈 흥미로운 실험입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그러니 너무 애석하게 생각하지 마시길."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그렇구나."
+    },
+    {
+      "Name": "호시노",
+      "Text": "지금까지……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "나는…… 또 어른에게 속아버린 거구나."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "…… 미안해. 모두들. 내가 다 망쳐버렸어."
+    },
+    {
+      "Name": "호시노",
+      "Text": "시로코 쨩. 노노미 쨩. 세리카 쨩. 아야네 쨩……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "유메 선배……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "미안해……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "나는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "…………."
+    },
+    {
+      "Name": "호시노",
+      "Text": "선생님……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "지금까지 우리들이 한 노력들은……."
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "응? 설마 진심이었던 거냐?"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "몇백년 동안 빚을 갚을 셈이었다고? "
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "적당히 하다가 포기할 때 자신은 최선을 다 했다고 변명하기 위한 핑계거리인줄 알았는데."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……!!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "대체 너희들은 왜 버티고 있었던 거지? 대체 왜?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "……네놈들. 뚫린 입이라고 감히……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응전한다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그치만……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……싸운다고 해서…… 뭐가 달라지죠?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아야네 쨩?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "지금도 엄청난 숫자의 병력이 이쪽으로 진격하고 있어요……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "설령, 싸워서 이긴다고 해도…… 그다음은…… 어떻게 해야하죠……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "학교가 없어지면…… 싸우는 의미가 없어져 버려요. 학교를 어떻게든 되찾는다고 해도, 우리의 빚은 사라지지 않아요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……아야네 쨩."
+    },
+    {
+      "Name": "시로코",
+      "Text": "아야네……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "이미 거래된 땅도 돌아오지 않아요…… 호시노 선배도 없고…… 학생회도 없는 상태에서 우리 같은 비공인 동아리가……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "대체 무엇을……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어째서……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어째서 우리들만……. 이렇게……. 호시노 선배……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "아야네 쨩……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Text": "콰콰콰콰콰콰아아아아아앙--!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "?!"
+    },
+    {
+      "Name": "PMC 병사 A",
+      "Text": "그읏-!? 북쪽에서 대규모 폭발이!"
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "합류 중이던 브라보 소대, 포, 폭발에 휘말려서- 사라졌습니다?!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "무, 뭐?! "
+    },
+    {
+      "Text": "콰콰콰콰콰콰콰콰콰아아아아아앙--!!"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "동쪽에서 합류 중이던 마이크 소대가!! 대량의 C4 폭발에……!!?"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "뭐, 뭐냐?! 여기엔 아비도스 놈들 말고 다른 놈들은 없을 텐데……?!"
+    },
+    {
+      "Name": "???",
+      "Text": "뭐하는 거야. 이 바보 녀석들."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……?!"
+    },
+    {
+      "Name": "???",
+      "Text": "눈에는 눈. 이에는 이. 인정사정 보지 않고 고고하게 인외마경의 길을 걷는다."
+    },
+    {
+      "Name": "아루",
+      "Text": "그게 수영복 복면단의 모토 아니었나? "
+    },
+    {
+      "Name": "아야네",
+      "Text": "……아, 다, 당신은?!"
+    },
+    {
+      "Name": "아루",
+      "Text": "목표가 보이지 않고, 방법도 찾을 수 없고, 하는 일도 모조리 실패에 실패."
+    },
+    {
+      "Name": "아루",
+      "Text": "인정 받지도 못하고, 앞으로 기다리고 있는 건 역경과 고난 밖에 없다…… "
+    },
+    {
+      "Name": "아루",
+      "Text": "그딴 게 무슨 상관이야!!!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 아으……?"
+    },
+    {
+      "Name": "아루",
+      "Text": "그런 하찮은 것 따위에 얽매여서 동료가 위기에 처했는데, 바보처럼 보고만 있겠다는 거냐!!"
+    },
+    {
+      "Name": "아루",
+      "Text": "정말 한심하기 짝이 없군!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "이야, 아루 쨩. 좀 봐 주라고. 안경 쨩은 히스테리 심한 타입이니까. 그럴 수도 있는 거야."
+    },
+    {
+      "Name": "아야네",
+      "Text": "네, 네……?!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아하하~ 그치만 귀여운 안경 쨩을 울려버린 죄는 꽤 크다고? 그러니까……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "쳐 죽여버려야겠어-!!!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "후후후. 후후후후후후. 저는 준비되었어요, 아루 님. 아직 폭탄은 잔뜩 있으니……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아…… 라멘 먹으러 다시 왔다가 어째서 이런 꼴이……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "매설해둔 폭약으로 적의 증원은 차단해두었다. 그 사이 적의 지휘관을 무력화시켜 지휘 체계를 와해시킨다."
+    },
+    {
+      "Name": "카요코",
+      "Text": "그러면 이 병력은 지휘체계를 상실하게 될 거다. 원래는 선도부에게 쓸 전술이었지만……. "
+    },
+    {
+      "Name": "아루",
+      "Text": "좋아. 지금부터 진정한 무법자의 싸움을 보여주지. "
+    },
+    {
+      "Name": "아루",
+      "Text": "시작해, 하루카."
+    },
+    {
+      "Name": "하루카",
+      "Text": "(꾸욱-)"
+    },
+    {
+      "Text": "콰콰콰콰아아아아아아아아아앙-!!"
+    },
+    {
+      "Text": "콰콰아아아아아아앙-!!"
+    },
+    {
+      "Text": "콰콰콰콰아아아아아아앙-!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 아아아?!"
+    },
+    {
+      "Name": "아루",
+      "Text": "자아, 협업이다! 선생!"
+    },
+    {
+      "Name": "아루",
+      "Text": "저 [ruby=대책위원회]바보 녀석들[/ruby]에게 하드보일드가 뭔지 가르쳐 주자고!"
+    },
+    {
+      "Text": "[ns] \"응! 가자, 흥신소!\""
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 14;The Abydos Siege Part 1"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Back off! Unless you've got a death wish!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Kaiser Director's location confirmed!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "My, my. We were just about to visit your school, and yet here you are, coming all this way to greet us?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "What do you think you're doing?! A corporation attacking a city? Just because you own the land doesn't give you that kind of right!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "And the school still belongs to us, the students of Abydos! This is outright illegal! We'll take this straight to the General Student Council!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...Where is Hoshino? So that whole \"scouting\" story was a lie from the start."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Give Hoshino back, you bastards!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "...Heh. Hah... Haha."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "Take it to the General Student Council? Oh, that's rich."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "How many times have you petitioned for the General Student Council's help? How many of those prayers have gone unanswered?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "No, of course they didn't. Because they can't do anything right now."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "For that matter, has anyone else ever given you their aid? The other academies, perhaps? I doubt it."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "You've always been alone."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "With Takanashi Hoshino officially withdrawing, the Abydos Student Council is no more."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "You are nothing now."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "!!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "Abydos no longer has an official club, a student council, or even a recognized district. That means it can no longer sustain itself as a school in the Academy City."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "But don't worry. As the rightful owners of this land, Kaiser Corporation will graciously take the school off your hands."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "How does the Kaiser Training Academy sound? It's a fitting name for the new school."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "!!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-What are you talking about?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "That's nonsense! Even if the student council is disbanded, Abydos still has the Foreclosure Task Force! We're right here!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "This can't be happening..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ayane?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The Foreclosure Task Force isn't an authorized club."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The Student Council was long gone by the time it was created."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What do you mean?!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "That's right. An unregistered club like yours? There's no official paperwork backing you up. You're nothing but ghosts."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "But try to look on the bright side. Now you're finally free from all that tedious debt."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "What are you doing?! This wasn't the deal!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Why are you attacking Abydos?! Why?!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "No, we kept our word, Hoshino."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "The debt has been settled, exactly as promised."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "But since you went ahead and withdrew...it seems Abydos no longer has an official student council, does it?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Tell me, why do you think we backed this petty corporate land grab?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Snatching up a Kivotos district is meaningless. At worst, it just creates another lawless zone, another Black Market."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "And we've got more than enough of those."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "But...what if a brand-new school, owned by a corporation, was established here in Abydos?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "What kind of change do you think that would bring to Kivotos?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Ah...but this? This was nothing more than a sideshow, Hoshino."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You were our true objective from the very start."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Getting you to sign the contract, transferring all rights over to us."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "That was the only reason we cooperated with Kaiser."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "A lifetime contract with Kaiser PMC? Hah...we never said anything of the sort. If you misunderstood, well...that's unfortunate."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "To think we'd waste something as valuable as Kivotos' highest-grade mystic on mere labor? Ridiculous."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Takanashi Hoshino is to be studied, analyzed, understood. You, in other words, are a test subject, nothing more."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "That's the experiment we truly wish to observe."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So don't take it too personally."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Now I get it."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "All this time..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...I was being manipulated by adults yet again."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I'm sorry, everyone. This is my fault."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Shiroko. Nonomi. Serika. Ayane."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "and Yume..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I'm so sorry."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Sensei..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Then everything we worked for...was for nothing?"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "Oh? Don't tell me you were serious about it."
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "Did you really think you could pay off that debt over a few hundred years? "
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "I assumed it was just an excuse, something to tell yourselves so you could pretend you tried before eventually giving up."
+    },
+    {
+      "Name": "Serika",
+      "Text": "...!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "But you didn't quit. You kept struggling. Why? What for?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "...You bastard. Shut your mouth before I shut it for you..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Engaging."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "But..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "And then what? What happens after we fight?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "...Ayane?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "They're still sending wave after wave of soldiers our way..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Even if we somehow win...then what?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "If the school disappears, what are we even fighting for? And even if we take it back...our debt isn't going anywhere."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Ayane."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Ayane..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The land is already gone. It won't come back. Hoshino is gone. The student council is gone. And us? We're just an unrecognized club..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...What can we even do...?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Why...?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Why is it always us...? Why do we have to suffer like this...? Hoshino..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Oh, Ayane..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Text": "*kabooooom*"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...?!"
+    },
+    {
+      "Name": "PMC Soldier A",
+      "Text": "What?! Massive explosion detected to the north!"
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "Bravo Squad was c-caught in the blast on their way in. They're not responding!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "Wh-What?!"
+    },
+    {
+      "Text": "*BOOM*"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Mike Squad was hit in the east! Massive C4 explosion detected!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "What's happening? The only people in that area should be Abydos residents!"
+    },
+    {
+      "Name": "???",
+      "Text": "What are you idiots doing?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...?!"
+    },
+    {
+      "Name": "???",
+      "Text": "An eye for an eye, a tooth for a tooth. Forsake mercy and walk the path of chaos."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Wasn't that the Masked Swimsuit Gang's motto? "
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Wha— Y-You are?!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "There's no finish line in sight, you can't find a way to get there, and everything you do is failure after failure. "
+    },
+    {
+      "Name": "Aru",
+      "Text": "No one sees how hard you struggle, and the only things waiting for you are more hardships and rough days ahead..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "But who cares?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh...?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Are you really going to let something like that get in the way of rescuing your friend?!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Pathetic. Absolutely pathetic!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Sheesh, Aru, lighten up a little. Little Miss Four-Eyes is the neurotic type. She can't help it."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Haha! But making my adorable Little Miss Four-Eyes cry is a pretty serious crime. Which is why..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "...I'm gonna rip these guys apart!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Heh heh heh. I'm ready, Aru. We still have plenty of bombs left..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* I only came back for more ramen. Why am I getting dragged into this?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "I've set up explosives to cut off enemy reinforcements. While they're stuck, we take out their commander and break their chain of command."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "That should leave them completely disorganized. Originally, this strategy was meant for dealing with the Prefect Team, but..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Perfect. Time to show them what real outlaws fight like."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Light it up, Haruka."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "*click*"
+    },
+    {
+      "Text": "*kaboooooom*"
+    },
+    {
+      "Text": "*boooooom*"
+    },
+    {
+      "Text": "*kabooooom*"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "What in the world?!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Back us up, Sensei!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Let's show the Foreclosure Idiot Force what it means to be hard-boiled!"
+    },
+    {
+      "Text": "[ns] \"Let's go, Problem Solvers!\""
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 14;สงครามปิดล้อมอะบิดอส 1"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "พอได้แล้ว!! เจ้าพวกนี้นี่!!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "พบตำแหน่งของกรรมการไคเซอร์แล้วค่ะ!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "แย่จริง พวกฉันจะไปหาในโรงเรียนสักหน่อย แต่ออกมารับกันถึงที่นี่เลยงั้นรึ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "นี่มันเรื่องอะไรกันคะ? มาโจมตีเมืองของเราได้ยังไง? ถึงพวกคุณจะเป็นเจ้าของที่ดิน แต่ก็ไม่มีสิทธิ์จะทำ\nแบบนี้นะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อีกอย่าง โรงเรียนยังเป็นของอะบิดอสนะคะ! นี่มันละเมิดกฎหมายอย่างชัดเจนค่ะ! ฉันจะไปร้องเรียน\nการกระทำผิดกฎหมายนี้ต่อองค์การนักเรียนค่ะ!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "...รุ่นพี่โฮชิโนะอยู่ที่ไหน? หลอกกันสินะว่าจะทาบทามตัวไปทำงานด้วย"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เอารุ่นพี่โฮชิโนะคืนมานะ! พวกคนนิสัยไม่ดี!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "หึหึ หึหึหึ"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "จะไปร้องเรียนกับองค์การนักเรียนเหรอ? พูดอะไรน่าตลกจังเลยนะ"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "พวกเธอก็เคยไปร้องทุกข์กับองค์การนักเรียนอยู่หลายต่อหลายครั้งแล้วไม่ใช่รึไง? แล้วพวกนั้นช่วยอะไร\nบ้างไหมล่ะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......."
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ไม่เคยเลย... เพราะตอนนี้องค์การนักเรียนทำอะไรไม่ได้ไงล่ะ"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "หรือว่าพวกเธอเคยได้รับความช่วยเหลือจากคนอื่นหรือโรงเรียนอื่น? ก็ไม่เคยนี่?"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "พวกเธอโดดเดี่ยวมาตลอด"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ทาคานาชิ โฮชิโนะ สภานักเรียนคนสุดท้ายของอะบิดอสได้ลาออกจากโรงเรียนไปแล้ว เท่ากับว่าไม่มี\nสภานักเรียนอะบิดอสอีกต่อไป "
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ตอนนี้พวกเธอไม่มีความหมายอะไรแล้ว"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "!!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ตอนนี้อะบิดอสไม่มีทั้งชมรมและสภานักเรียนที่เป็นทางการ อีกทั้งยังไม่มีสิทธิ์ในเขตปกครองตนเอง\nจึงถูกประเมินว่าอยู่เป็นเอกเทศเองไม่ได้ในฐานะโรงเรียนในเมืองแห่งการศึกษา"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ไคเซอร์ คอร์เปอเรชั่นที่เป็นเจ้าของเขตปกครองตนเองนี้จะรับช่วงโรงเรียนของพวกเธอเอง"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "จริงสิ ตั้งชื่อใหม่เป็น \"โรงเรียนฝึกอาชีพเอกชนไคเซอร์\" น่าจะดีนะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "!!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ...? พะ... พูดอะไรออกมาน่ะ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "พูดอะไรเพ้อเจ้อ?! ถึงจะไม่มีสภานักเรียน แต่อะบิดอสก็ยังมีคณะกรรมการแผนงานนะ!! อะบิดอสยังมีพวกเราอยู่!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มะ... ไม่หรอกค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อายาเนะจัง...?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คณะกรรมการแผนงานเป็นชมรมที่ยังไม่ได้รับรองอย่างเป็นทางการ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ...?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เพราะตอนที่ก่อตั้งขึ้นมา สภานักเรียนก็ไม่มีอยู่แล้ว..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรนะ?!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ถูกต้อง ชมรมที่ไม่ได้รับการรับรองน่ะ ไม่มีสิทธิ์หรือไม่มีชื่อในเอกสารทางการ เพราะงั้นพวกเธอไม่ต่าง\nอะไรกับวิญญาณหรอก"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "แต่ก็มีเรื่องที่น่าดีใจอยู่นะ ตอนนี้หลุดออกจากการชดใช้หนี้ที่น่าเบื่อหน่ายแล้วนี่"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ทำอะไรน่ะ?! ไม่เหมือนที่สัญญาไว้นี่นา!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ทำไมถึงโจมตีอะบิดอสล่ะ!! ทำไม!!"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ไม่นี่ครับ ผมทำตามสัญญาแล้วนะคุณโฮชิโนะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผมยกเลิกหนี้ให้แล้วครับ ตามจำนวนที่สัญญากับคุณเอาไว้"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่ว่าพอคุณลาออกแล้ว มันก็น่าเสียดายที่จะต้องนับว่าสภานักเรียนอย่างเป็นทางการของโรงเรียน\nอะบิดอสเองก็ได้หายไปด้วย"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คิดว่าทำไมพวกเราถึงจะมาสนับสนุนการฉ้อโกงอสังหาริมทรัพย์ของธุรกิจแบบนั้นเหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงแย่งที่ดินของเขตปกครองตนเองของคิโวทอสมาได้ ก็คงเป็นแค่การเพิ่มเขตปลอดกฎหมาย\nอย่างตลาดมืดอีกแห่งหนึ่งขึ้นมาเท่านั้น"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ที่แบบนั้นมีอยู่มากมายในคิโวทอสแล้วละครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่ว่า... หากมีโรงเรียนใหม่ที่มีนักธุรกิจเป็นเจ้าของเกิดขึ้นในอะบิดอสล่ะ...?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าเกิดเรื่องแบบนั้นจริงๆ จะเกิดความเปลี่ยนแปลงอะไรในคิโวทอสกันนะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...อ่า แต่นี่เป็นเพียงความสนุกสนานเล็กๆ น้อยๆ เท่านั้นนะครับ คุณโฮชิโนะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะเป้าหมายของพวกเราตั้งแต่แรก... ก็คือคุณนั่นละครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ทั้งการให้คุณเขียนหนังสือสัญญา ทั้งการโอนสิทธิ์ทั้งหมดของคุณมา"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ที่ผมไปร่วมมือกับไคเซอร์ เป็นเพราะเรามีผลประโยชน์ร่วมกันก็เท่านั้น"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าทำให้เข้าใจผิดก็ขอโทษด้วยแล้วกันนะครับ แต่ผมไม่เคยบอกว่าสัญญาเป็นของไคเซอร์ PMC"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ได้ตัวนักเรียนระดับสูงสุดของคิโวทอสอย่างคุณมาอยู่ในมือทั้งที ผมไม่คิดที่จะทำให้เสียของหรอก"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะผมจะทั้งศึกษา วิเคราะห์ และทำความเข้าใจ 'ทาคานาชิ โฮชิโนะ' อย่างละเอียด หรือพูดง่ายๆ ก็คือ\nใช้เป็นตัวทดลองยังไงล่ะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ต้องเป็นการทดลองที่สนุกที่พวกเราอยากจับตาดูแน่ๆ ครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะฉะนั้น อย่าได้เสียใจมากเกินไปนักเลยครับ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แบบนี้นี่เองสินะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "นี่ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ถูกพวกผู้ใหญ่หลอกอีกแล้วสินะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": ""
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "...ขอโทษนะทุกคน เป็นฉันเองที่ทำให้ทุกอย่างพัง"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ชิโรโกะจัง โนโนมิจัง เซริกะจัง อายาเนะจัง"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รุ่นพี่ยูเมะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": ""
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ขอโทษนะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": ""
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันน่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คุณครู..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ความพยายามที่พวกเราทำกันมา..."
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "หืม? นี่เธอตั้งใจจะทำแบบนั้นจริงเหรอ?"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ตั้งใจจะใช้หนี้ต่อไปเป็นร้อยๆ ปีเลยน่ะรึ?"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "คิดว่านี่เป็นข้ออ้างที่ใช้แก้ตัวว่าตัวเองทำได้ดีที่สุดแล้วในตอนที่อยากจะล้มเลิกแล้วเสียอีก"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ทำไมพวกเธอถึงได้ทนอะไรกันมาขนาดนี้นะ? ทำไมกัน?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "พวกแก... หยุดพล่ามได้แล้ว..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "สู้กลับเลย"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เราสู้ไปแล้ว... มันจะมีอะไรเปลี่ยนแปลงเหรอคะ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อายาเนะจัง?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ตอนนี้ก็มีกองกำลังจำนวนมากบุกมาทางนี้ด้วยนะคะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "สมมติว่าเราสู้ชนะขึ้นมา... แล้วหลังจากนั้นล่ะ... มันจะเป็นยังไงเหรอคะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ถ้าไม่มีโรงเรียน... มันก็ไม่มีความหมายอะไรที่ต้องต่อสู้ และถึงจะได้โรงเรียนกลับคืนมา แต่พวกเราก็ยัง\nมีหนี้ที่ต้องชดใช้อยู่ดี..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อายาเนะจัง..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อายาเนะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ที่ดินที่ถูกขายไปแล้วก็คงไม่ได้คืนมาหรอกค่ะ รุ่นพี่โฮชิโนะก็ไม่อยู่แล้ว... สภานักเรียนก็ไม่มี... ชมรมที่\nไม่ได้รับการรับรองอย่างพวกเรา... "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ทำไมนะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ทำไมกัน..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ทำไมต้องเป็นพวกเราตลอด... ทำไม... รุ่นพี่โฮชิโนะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อายาเนะจัง..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Text": "ตู้มมมมมมมมมมม!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "?!"
+    },
+    {
+      "Name": "ทหาร PMC A",
+      "Text": "อึ้กก! เกิดระเบิดขนาดใหญ่ทางทิศเหนือ!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "ทหารหน่วยบราโว่ที่มาเสริมกำลัง.. ถะ.. ถูกระเบิดจนปลิวหายไปแล้ว!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "หา???! "
+    },
+    {
+      "Text": "ตู้มมมมมมมมมมมมมมม!!"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ทหารหน่วยไมค์ที่เสริมกำลังอยู่ทางตะวันออก!! โดนระเบิด C4 ขนาดใหญ่...!!?"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "ว่าไงนะ?! ที่นี่ไม่น่ามีใครนอกเหนือจากพวกเด็กอะบิดอสแล้วนี่...?!"
+    },
+    {
+      "Name": "???",
+      "Text": "ทำอะไรกันอยู่น่ะ ยัยงี่เง่าพวกนี้"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...?!"
+    },
+    {
+      "Name": "???",
+      "Text": "ตาต่อตา ฟันต่อฟัน โดดเดี่ยวบนเส้นทางแห่งความโหดร้ายโดยปราศจากความเห็นอกเห็นใจ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ใช่คติของกองกำลังหน้ากากมิสึกิหรือเปล่านะ? "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "พะ... พวกคุณคือ?!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "มองเป้าหมายไม่เห็น หาทางออกไม่ได้ แถมยังล้มเหลวในงานที่ทำครั้งแล้วครั้งเล่า"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ไม่เป็นที่ยอมรับ สิ่งที่รออยู่ข้างหน้ามีแต่ความทุกข์และความยากลำบาก "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "แล้วใครสนเรื่องพวกนั้นกันเล่า!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อะ... อ่า...?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เพื่อนๆ ต้องตกอยู่ในวิกฤตเพราะถูกผูกมัดจากคนไม่ดีแบบนี้ เธอจะเอาแต่ทนดูเหมือนคนโง่งั้นเหรอ?!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "น่าสมเพชชะมัด!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "นี่อารุจัง เอาแต่พอดีเถอะ เด็กแว่นคนนั้นคงผ่านอะไรมาเยอะน่ะ "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ... คะ?"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อะฮ่าฮ่า~ การทำให้น้องแว่นน่ารักร้องไห้มันเป็นบาปมากเลยนะรู้ไหม? ถ้าอย่างงั้น..."
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฉันจะให้พวกแกได้ชดใช้บาปที่ก่อไว้เอง!!!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ฮุฮุฮุ ฮุฮุฮุฮุฮุฮุฮุฮุฮุ ฉันพร้อมแล้วค่ะท่านอารุ ยังมีระเบิดเหลืออีกเยอะเลย..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เฮ้อ... แค่จะแวะมากินราเม็ง แต่ทำไมถึงมาเจอเรื่องแบบนี้ได้นะ..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เราขัดขวางการเพิ่มกองกำลังด้วยระเบิดที่เราฝังไว้แล้ว ระหว่างนี้ก็ไปทำให้ผู้บัญชาการของศัตรูอ่อน\nกำลังลงเถอะ การสั่งการจะได้หยุดชะงัก"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ถ้าไม่มีการสั่งการ กองกำลังก็จะหยุดการโจมตี นี่เป็นกลยุทธที่เราใช้กับคณะกรรมการวินัยน่ะ..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เอาละ มาแสดงให้เห็นกันเลยว่าคนนอกกฎหมายต่อสู้กันแบบไหน "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เริ่มได้เลย ฮารุกะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "(กด)"
+    },
+    {
+      "Text": "บึ้มมมมมมมมมมมมมมม!!"
+    },
+    {
+      "Text": "บึ้มมมมมมม!!"
+    },
+    {
+      "Text": "ตู้มมมมมมมมมมม!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อะ... อ๊าา?!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ตอนนี้แหละ เข้ามาร่วมวงกันได้เลยค่ะ คุณครู!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "มาสั่งสอนหนูน้อยคณะกรรมการแผนงานพวกนั้นกัน ว่าความร้ายกาจที่แท้มันจริงเป็นยังไง!"
+    },
+    {
+      "Text": "[ns] \"อื้ม! ไปกันเลย หน่วยรับจ้างสารพัด!\""
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第14話;阿拜多斯攻防戰（１）"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這些傢伙！！！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "已確認凱薩董事的位置！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "哼，本來打算親自去學校的，結果你們居然跑到這裡迎接我啊？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "這是在做什麼？\n企業竟然攻擊城市……就算你們是這片土地的所有人也沒有權力這麼做吧！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "而且學校還是我們阿拜多斯的所有物！\n你們這明顯是違法行為！我會向聯邦學生會檢舉！"
+    },
+    {
+      "Name": "白子",
+      "Text": "挖角一開始就是個謊言？\n……不，比起這個，星野前輩在哪裡？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這個壞蛋……把星野前輩還給我們！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "……呵，呵呵。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "向聯邦學生會檢舉？這話還真有趣呢。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "你們不是已經把面臨的困難報告給聯邦學生會無數次了嗎？\n然後呢？他們有採取任何行動嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "八成沒有吧。因為聯邦學生會現在什麼也做不了。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "還是說有其他人幫助你們？比如其他學園？\n……差不多該理解了吧？"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "沒有任何人會對你們伸出援手。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "由於最後的學生會成員小鳥遊星野退學，阿拜多斯學生會已經消滅。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "你們已經什麼都不是了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "！！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "連正式的社團、學生會，甚至自治區都沒有的阿拜多斯……\n將被認定無法作為學園都市的學校自立。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "因此就由這個自治區的主人──我們凱薩公司來接收學校吧。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "我想想，新學校的名字就叫「凱薩職業訓練學校」怎麼樣 。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "！！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦……？你，你在說什麼……！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "就算沒有學生會，阿拜多斯還有對策委員會！！還有我們在！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "這，這……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……綾音醬？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "對策委員會並不是受到正式許可的社團……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……咦！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "對策委員會成立的時候，阿拜多斯已經沒有學生會了……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦，咦……！？"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "沒錯。你們只是個非正式的社團，也沒有獲得文件的許可。\n換句話說，就跟幽靈沒什麼兩樣。"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "不過你們也不必難過。\n阿拜多斯高中消失之後，你們就能從債務的地獄解放了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "你，你們在做什麼！？這跟約好的不一樣吧！！"
+    },
+    {
+      "Name": "星野",
+      "Text": "為什麼要攻擊阿拜多斯！！為什麼！！"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不，我並沒有違背約定，星野小姐。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我確實如約免除了債務的金額。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "然而遺憾的是，由於你退學的關係──\n阿拜多斯高中似乎已經沒有正式的學生會成員存在了。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……！！"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "你覺得我們為什麼要支援這種無聊至極的企業不動產詐欺行為？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "即使奪走奇普托斯自治區的土地，也只是多了一個像黑市一樣的無法地帶而已。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "那種地方在奇普托斯到處都是。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不過……如果在阿拜多斯誕生了一間由企業主導的新學園……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "──究竟會為奇普托斯帶來什麼變化呢？"
+    },
+    {
+      "Name": "星野",
+      "Text": "──！！"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……啊啊，不過這也只是餘興節目而已。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "星野小姐，我們的目標從一開始就是你。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "讓你簽下合約，得到你的所有權利。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "之所以協助凱薩，也是只是因為利害關係一致罷了。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "終身成為凱薩PMC的傭兵？我從來沒有這麼說過。\n如果曾讓你產生那種誤解的話，我在此向你致歉。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "既然獲得了像你這種奇普托斯最高級的神祕，我並不打算以那種方式使用。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "對星野小姐進行研究、分析、加以理解──"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "這才是我們想觀測的有趣實驗。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "因此請不必感到遺憾。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……原來如此。"
+    },
+    {
+      "Name": "星野",
+      "Text": "我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……又被大人欺騙了啊。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……抱歉，大家。\n都是因為我，讓這一切都白費了……"
+    },
+    {
+      "Name": "星野",
+      "Text": "白子醬、野乃美醬、茜香醬、綾音醬……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……夢前輩。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "對不起……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "…………"
+    },
+    {
+      "Name": "星野",
+      "Text": "老師……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我們至今為止的努力……"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "哦？你們難道是認真的嗎？"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "真的打算還清數百年份的債務？"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "我還以為你們只會做做樣子，好讓放棄的時候能安慰自己「已經盡力了」呢。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "──！！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "你們為何要堅持下去？究竟是為了什麼？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "你這傢伙，要是敢再說下去……"
+    },
+    {
+      "Name": "白子",
+      "Text": "我要開槍了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "但，但是……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "就算在這裡戰鬥……又能改變什麼呢？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "綾音醬！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "現在也有數量驚人的兵力正朝這裡前進……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "即便贏了……之後又該怎麼辦……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "失去學校的話……我們就沒有戰鬥的理由了。\n就算想辦法奪回學校，留下的債務也不會消失……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……綾音醬。"
+    },
+    {
+      "Name": "白子",
+      "Text": "綾音……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "已經交易出去的土地也不會回來……\n沒有星野前輩……沒有學生會的情況下，我們這種非正式的社團……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "究竟又能做什麼呢……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "為什麼……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "為什麼只有我們……會像這樣……\n星野前輩……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "綾音醬……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Text": "（哐哐哐哐哐哐啷啷啷啷啷啷──！）"
+    },
+    {
+      "Name": "綾音",
+      "Text": "！？"
+    },
+    {
+      "Name": "PMC士兵A",
+      "Text": "什麼──！？確，確認到北方發生大規模爆炸！"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "預計會合的BRAVO小隊被捲入其中──！！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "什麼！？ "
+    },
+    {
+      "Text": "（哐哐哐哐哐哐哐哐哐啷啷啷啷啷啷啷──！）"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "東方也確認到了！預計會合的MIKE小隊也因為大量C4的爆炸……！！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "怎麼回事！？這裡應該沒有阿拜多斯以外的人才對啊……！！"
+    },
+    {
+      "Name": "???",
+      "Text": "真受不了，這些笨蛋們在做什麼啊……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……！？"
+    },
+    {
+      "Name": "???",
+      "Text": "以眼還眼，以牙還牙。不管人情世故，孤高地走在眾人所畏懼的魔境……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "那不是你們泳裝蒙面團的座右銘嗎？ "
+    },
+    {
+      "Name": "綾音",
+      "Text": "……你，你是！？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "看不見目標，找不到方法，所作所為全都以失敗收場……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "不被別人承認，前方充斥著逆境和苦難……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "那又怎麼樣──！！！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦，咦……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "夥伴明明正陷入危機，你們卻要糾結這些雞毛蒜皮的小事，像笨蛋一樣坐以待斃嗎！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "你們難道是那麼沒用的社團嗎！"
+    },
+    {
+      "Name": "無月",
+      "Text": "哎呀，亞瑠醬就放過他吧。\n眼鏡妹可是很纖細的，偶爾就是會有這種時候嘛。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦咦……！？"
+    },
+    {
+      "Name": "無月",
+      "Text": "啊哈哈～不過話說回來，把我可愛的眼鏡妹弄哭可是重罪唷？\n所以……"
+    },
+    {
+      "Name": "無月",
+      "Text": "只能殺光你們了吧──！！！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "呵呵呵，呵呵呵呵呵呵……\n我準備好了，亞瑠大人。設置好的炸彈還有很多很多……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……本來只是來吃拉麵而已，怎麼會變成這樣……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "以事前埋下的炸藥截斷敵人的增援，趁機癱瘓敵方指揮官並瓦解指揮系統。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "這樣一來就能一口氣瓦解敵方集團。\n這本來是要用來對付風紀委員會使用的戰術……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "張大雙眼好好看清楚吧。這才是真正法外之徒的戰鬥方式。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "遙香。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "（嗶）"
+    },
+    {
+      "Text": "（哐哐哐哐啷啷啷啷啷啷啷啷啷啷──！）"
+    },
+    {
+      "Text": "（哐啷啷啷啷啷啷啷啷──！）"
+    },
+    {
+      "Text": "（哐哐哐哐啷啷啷啷啷啷啷──！）"
+    },
+    {
+      "Name": "綾音",
+      "Text": "嗚哇──！？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "來吧，合作的時候到囉！老師！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "讓[ruby=對策委員會]那些笨蛋[/ruby]見識真正硬派的實力吧！"
+    },
+    {
+      "Text": "[ns] 「……好，我們上吧！」"
+    }
+  ]
+}

@@ -1,0 +1,2002 @@
+{
+  "TitleJP": "ミレニアムのハッカー",
+  "TitleKR": "밀레니엄의 해커",
+  "TitleEN": "The Millennium Hackers",
+  "TitleTH": "แฮ็กเกอร์แห่งมิลเลเนียม",
+  "TitleTW": "千年的駭客",
+  "DescJP": "ミレニアムのハッカー集団、ヴェリタスを訪れたノアと先生。はじめはノアの訪問を警戒していたヴェリタスも、ノアの真摯な言葉に心を開き、彼女を助けることに。一方、チヒロはミレニアムのサーバーに誰かがハッキングを試みた形跡があると二人に告げ――。",
+  "DescKR": "밀레니엄의 해커 집단, 베리타스를 방문한 노아와 선생님. 처음에는 노아의 방문을 경계하던 베리타스도 노아의 진심이 담긴 부탁에 마음을 열고 그녀를 돕기로 한다. 한편, 치히로는 밀레니엄 서버에 누군가가 해킹 시도를 했다는 사실을 알게 된다.",
+  "DescEN": "Noa and Sensei pay a visit to Veritas, Millennium Science School's hacker group. Though the members of Veritas initially regard Noa's visit with suspicion, Noa's heartfelt request wins them over and they agree to help with the festival. Meanwhile, Chihiro finds out that someone has attempted to hack into Millennium's servers.",
+  "DescTH": "โนอากับคุณครูไปหาเวอริทัส กลุ่มแฮ็กเกอร์ของมิลเลเนียม ในตอนแรก\nเวอริทัสไม่ค่อยต้อนรับโนอาสักเท่าไร แต่พอได้ฟังคำขอร้องอย่างจริงใจ\nของโนอาก็เปิดใจและตัดสินใจว่าจะช่วยเธอ ในขณะเดียวกัน จิฮิโระก็พบ\nว่ามีใครบางคนพยายามที่จะแฮ็กเซิร์ฟเวอร์ของมิลเลเนียม",
+  "DescTW": "乃愛和老師前往千年學園的駭客集團「貝里塔斯」。在乃愛的真誠的請求下，起初對乃愛的來訪感到警戒的貝里塔斯也決定敞開心房幫助他。另一方面，千尋得知了有人嘗試入侵千年學園的伺服器。",
+  "DialogJP": [
+    {
+      "Text": "第2話;ミレニアムのハッカー"
+    },
+    {
+      "Text": "ヴェリタス・ハッカー休憩室"
+    },
+    {
+      "Name": "マキ",
+      "Text": "……コタマ先輩、何か聞こえる？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "帯域の周波数をスキャン中……特に変わった現象は確認されてないです。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "うーん、おかしいな……ハレ先輩は？\nドローンカメラで何か捉えられた？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "うん。こっちの映像も特に変化はない。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "どう見ても今……セミナーの執務室には誰もいない。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "そんなはずないのに……もう一度プロキシを迂回してみようか……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……何してるの？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あっ、先輩！ちょうどよかった。\n今、セミナーの閉回路監視カメラをハッキングしてて……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "セミナーの執務室を……？\n……どうして？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "さっきハレ先輩がエナジードリンクを買いに行ったら、\n[USERNAME]先生がユウカ先輩と一緒に、セミナーの執務室に入るのを見たらしくて。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "こんな夜遅くに、生徒と先生がこそこそと密会だなんて……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "きっと二人でこっそり面白い事を……\nいえ、怪しい事を企んでいるに違いないです。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "真理の守護と知識を探究するヴェリタスの一員として、\n黙って見過ごすわけにはいかないからね。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "というわけで、チヒロ先輩もハッキング手伝って！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "この時期にシャーレの先生がセミナーを訪れるとしたら、\n明日の大運動会に関する事じゃないの？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "極端な邪推はよくないよ、マキ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "で、でも……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それとマキ、さっきのハッキングの件なんだけど……\nログを消す時は跡が残らないよう注意しなよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "サーバーが攻撃されてるって、1時間前からアラームが鳴ってたから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "私だったら、記録を消す前にロジックボムでも仕掛けておく。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あ、そうだ。\nうっかりしてた……。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あれ？\nっていうか、セミナーの監視カメラサーバーも先輩が管理してたの？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "あんたたち……私がミレニアム全体のセキュリティアドバイザーも担ってるって忘れたの？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……ところで、大運動会には出ないつもり？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "大運動会に？\nなんで私たちが？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "盗聴ならともかく、セミナー主管のお祭りに参加する気はありません。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "運動は嫌……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……そうだと思ったけど。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まぁ、生徒会主管の行事に、\n生徒会長と仲が悪い私たちヴェリタスが参加するのは変な事かもしれないけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "大運動会はセミナー主管の行事でもあるけど、\n学園問わず全てのキヴォトスの生徒が参加する祭典でもあるから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "この時くらい、みんなには所属を忘れてお祭りを楽しんでほしいんだけど……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "それは私も同感です。\n[ruby=こうりんたいさい]晄輪大祭[/ruby]は、所属関係なく公平に楽しめることを目的とした、みんなのお祭りですからね。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "[USERNAME]先生と、ノア先輩……？\nい、いつの間に！？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "こんばんは、皆さん。\nセミナーの書記、[ruby=うしお]生塩[/ruby]ノアです。"
+    },
+    {
+      "Text": "[ns] \"やあ、久しぶりだね。\""
+    },
+    {
+      "Name": "マキ",
+      "Text": "[USERNAME]先生とノア先輩……かなり妙な組み合わせだね。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "こんな夜遅くに、セミナーの役員がヴェリタスの部室に何の用事？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "それにシャーレの先生まで……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、そう警戒しないでください。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ここに来たのは、皆さんにお手伝いをお願いしたいからなんです。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "……お手伝い？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "既にご存知の通り、\nミレニアムで開催される「晄輪大祭」がもう明日に迫っています。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "私たちセミナーは、これを完璧な行事とするために努力をしてきましたが……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "不運にも開会を目前に控えた本日、事故が相次いで発生し、\nその事後処理をしていたユウカちゃんも過労がピークを迎え……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "まあユウカ先輩、普段から激務だもんね……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ユウカはこの機会に、ちょっと休んだ方がいいと思う。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "はい……なので、ユウカちゃんがやっていた\n「晄輪大祭」の電子周りの処理を、他の方にお願いできないかと思い……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "このような大型行事の電算処理作業ができるのは、\nヴェリタスの皆さんしか思い当たらず……。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ふふっ、それはそうだね。\nミレニアムで、ヴェリタス以上にコンピューターを使いこなせる部活は存在しないし！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……思ったより簡単なお願いだね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ミレニアムすべての建物に、RF送信モジュールを設置する必要がなくなりました。"
+    },
+    {
+      "Text": "[s] \"君たちは、何しようとしてたの……？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……この子たちが言った通り、作業を手伝う事自体は難しくないよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "でも、「セミナーの役員」が「ヴェリタス」に、この手のお願いをしてもいいの？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ミレニアムの威信がかかった「晄輪大祭」の準備を、[ruby=ヴェリタス]うち[/ruby]みたいな非認可の部活に任せた事がリオ会長の耳に入ったら、かなり面倒になると思うけど。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "そうかもしれませんね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "リオ会長とヒマリ部長の仲の悪さは、私もよく聞いていますから。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "無用な面倒事に巻き込まれるのは、私もごめんです。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……ですが、セミナーの名ではなく、\n私、[ruby=うしお]生塩[/ruby]ノア個人からのお願いなら、いかがでしょう？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "セミナーではなく、困っている後輩を助ける程度なら\n大丈夫なのではないでしょうか？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……そう言われたら、仕方ない。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "リオ会長の事は知ったことじゃないけど、[ruby=ミレニアム]うち[/ruby]の後輩が困ってるってことなら、まあ手を貸すのもやぶさかじゃないかな。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、ありがとうございます。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それで、何をすれば良い？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "作業リストはユウカちゃんが用意したものがありますので……\nこちらを参照していただければと。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "破損していない備品の在庫状況把握と、選手名簿をまとめて関連校に送信……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まあ、これくらいなら難しくないと思う。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "備品だけ、現場に行って数量をチェックして……あとはマクロですぐ終わりそうだね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、やっぱりヴェリタスにお願いしてよかったです。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "あ、そうだ……さっき、気になることがあったんだけど。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "私が席を外していた時、ミレニアムのサーバーに悪意のあるタイプの攻撃が仕掛けられてたみたい。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "悪意のある……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "うん……まあ、ファイアウォールにすぐ遮られたけど。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……ただ、大運動会に恨みでも持ってるのか、関連の設備と機器だけを集中的に狙って攻撃してたんだよね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……それは奇遇ですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ちょうどエンジニア部の部長も、似たようなお話をされていました。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "偶然か故意かは後で明らかになるだろうけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "確かなのは、運動会を邪魔しているのは部外者ではないって事かな。\nIPを追跡したら、ミレニアム内部から信号がキャッチされたんだ。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "あら……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "もしかしたら、今夜はそういった勢力が襲ってくるかもしれないから……\n先生も、気をつけてね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、お客様を安全にご案内することも、[ruby=セミナー]生徒会[/ruby]の義務ですから。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ミレニアムにいる間は、私が責任を持って[USERNAME]先生をエスコートします。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……そうだね。まあ、心配はいらないだろうけど。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、信頼してくださってありがとうございます。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "それでは、私たちは他の業務が残っていますので……電算業務はお願いいたしますね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "じゃあ、私たちは頼まれた書類作業を始めようか。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "マキ、ここにある選手リストを種目別にまとめてくれる？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あ、選手名簿なら、もう表で整理しておいたよ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "はい、このファイル。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "え？さっき渡されたばっかりなのに……いつやったの？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ふっふっふ……こんなこともあろうかと、事前に選手名簿を調べておいたの。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "他校の名簿を一気に確保できるチャンスは少ないから……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "各学園の生徒たちの個人情報やスリーサイ……パーソナルデータなど……面白いものがたくさん得られました。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……管理者の許可もなく、勝手に個人情報を抜き取って加工したの？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "やっぱりあんたたちには、正しいハッカー倫理についてもう一度説明する必要があるね！"
+    },
+    {
+      "Name": "マキ",
+      "Text": "で、でも今回は役に立ったでしょ？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "今回だけ大目に見てよ、先輩～！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "2화;밀레니엄의 해커"
+    },
+    {
+      "Text": "베리타스 해커 휴게실"
+    },
+    {
+      "Name": "마키",
+      "Text": "……코타마 선배, 뭔가 들려?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "주파수 대역 스캔 중…… 현재까지 특별한 이상 동향은 발견되지 않았습니다."
+    },
+    {
+      "Name": "마키",
+      "Text": "으음, 이상하네…… 하레 선배는? 드론 카메라에 뭔가 포착된 건 없어?"
+    },
+    {
+      "Name": "하레",
+      "Text": "응. 이쪽도 영상에 별다른 변화는 없어."
+    },
+    {
+      "Name": "하레",
+      "Text": "아무리 봐도 세미나 집무실에는 아무도 없는 것 같은데……"
+    },
+    {
+      "Name": "마키",
+      "Text": "그럴 리가 없는데. 다시 한번 프록시를 우회해볼까……?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……지금 뭐 하고 있는 거야?"
+    },
+    {
+      "Name": "마키",
+      "Text": "앗, 선배. 마침 잘 왔어. 방금 세미나 집무실의 폐쇄회로 감시장치를 해킹하고 있었거든."
+    },
+    {
+      "Name": "치히로",
+      "Text": "세미나의 집무실을……? ……갑자기 왜?"
+    },
+    {
+      "Name": "마키",
+      "Text": "그게, 아까 하레 선배가 에너지 드링크를 사러 편의점에 나갔다가 [USERNAME] 선생님이 유우카 선배와 세미나의 집무실로 들어가는 걸 보았다고 했거든."
+    },
+    {
+      "Name": "코타마",
+      "Text": "이런 야심한 밤에 학생과 선생이 남들의 눈을 피해 몰래 만남을 갖다니……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "분명 둘이서 몰래 재미있는 일을…… 아니, 수상한 일을 꾸미고 있는 게 분명합니다."
+    },
+    {
+      "Name": "마키",
+      "Text": "진리를 수호하고 지식을 탐구하는 베리타스의 일원으로서, 이를 가만히 두고 볼 수는 없지."
+    },
+    {
+      "Name": "마키",
+      "Text": "자. 치히로 선배도 같이 와서 해킹하는 걸 도와줘!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……어휴."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이 시기에 샬레의 선생님이 밀레니엄의 학생회를 방문했다면, 내일 있을 대운동회에 관련된 일 때문이겠지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "지나친 억측은 좋지 않아, 마키."
+    },
+    {
+      "Name": "마키",
+      "Text": "하지만……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 마키. 아까 서버의 해킹 건 말인데, 덤프 파일을 뒤져 개인 키를 찾아낸 건 좋은 시도였지만 로그를 지울 때는 흔적이 남지 않도록 주의해."
+    },
+    {
+      "Name": "치히로",
+      "Text": "한 시간 전부터 CCTV 서버가 공격받고 있다며 알람이 시끄럽게 울리고 있었거든."
+    },
+    {
+      "Name": "치히로",
+      "Text": "나라면 기록을 지우기 전에 논리 폭탄이라도 하나 터트렸을 거야."
+    },
+    {
+      "Name": "마키",
+      "Text": "아, 맞다. 깜박했었네……"
+    },
+    {
+      "Name": "마키",
+      "Text": "어라? 그보다 세미나의 CCTV 서버도 선배가 관리하고 있었던 거야?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……너희들은 어째서 내가 밀레니엄의 보안 자문을 맡고 있다는 사실을 왜 계속 잊어버리는 거야?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……그나저나 너희들은 이번 대운동회에 안 나갈 거야?"
+    },
+    {
+      "Name": "마키",
+      "Text": "대운동회에? 우리가 왜?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "도청이라면 모르겠지만, 세미나에서 주관하는 축제에 직접 참가하는 건 사양입니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "게다가 체육 활동은 질색이야……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……역시 그런 반응인가."
+    },
+    {
+      "Name": "치히로",
+      "Text": "물론 학생회가 주관하는 행사에, 학생회장과 사이가 나쁜 우리 베리타스가 참가하는 건 이상한 일일지도 모르지만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "대운동회는 세미나 주관의 행사이기도 하지만, 학원을 가리지 않고 모든 키보토스 학생들이 참가하는 평화의 제전이기도 하니까."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이 시기만큼은 모두가 소속을 잊고 순수하게 축제를 즐겨주었으면 좋겠는데……"
+    },
+    {
+      "Name": "노아",
+      "Text": "그건 저도 동감이에요. 황륜대제는 차별 없이 공평하게 즐길 수 있는 모두의 축제니까요."
+    },
+    {
+      "Name": "마키",
+      "Text": "[USERNAME] 선생님이랑 노아 선배……? 어, 어느 틈에?"
+    },
+    {
+      "Name": "노아",
+      "Text": "안녕하세요, 여러분. 세미나의 서기, 우시오 노아입니다."
+    },
+    {
+      "Text": "[ns] \"안녕. 다들 오랜만이야.\""
+    },
+    {
+      "Name": "마키",
+      "Text": "[USERNAME] 선생님과 노아 선배라…… 꽤나 묘한 조합이네."
+    },
+    {
+      "Name": "하레",
+      "Text": "이렇게 야심한 밤에 세미나의 임원이 베리타스의 부실에는 무슨 일로 찾아온 거지?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "그것도 샬레의 선생님까지 대동하고……"
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, 너무 경계하지 마세요."
+    },
+    {
+      "Name": "노아",
+      "Text": "제가 이곳에 찾아온 이유는 여러분들을 훼방 놓으려는 게 아니라, 도움을 하나 요청하고 싶어서거든요."
+    },
+    {
+      "Name": "마키",
+      "Text": "……도움?"
+    },
+    {
+      "Name": "노아",
+      "Text": "알고 계시겠지만 저희 밀레니엄 학원에서 개최하는 <황륜대제>의 개최일이 이제 하루 앞으로 다가왔습니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "저희 세미나에서는 기한 내에 완벽한 행사를 준비하기 위해 여러모로 노력해 왔습니다만……"
+    },
+    {
+      "Name": "노아",
+      "Text": "불운하게도 개회를 앞두고 크고 작은 사고가 잇달아 발생하는 바람에, 그 뒤처리를 하던 유우카 쨩이 과로로 지쳐버려서요."
+    },
+    {
+      "Name": "마키",
+      "Text": "뭐, 유우카 선배는 평소에도 늘 격무에 시달리고 있었으니까……"
+    },
+    {
+      "Name": "하레",
+      "Text": "유우카는 이 기회에 조금 쉬어두는 게 좋다고 생각해."
+    },
+    {
+      "Name": "노아",
+      "Text": "네. 그래서 부득이하게 유우카 쨩이 맡고 있던 <황륜대제>의 전산처리 업무를 다른 학생분께 부탁드리고자 했습니다만……"
+    },
+    {
+      "Name": "노아",
+      "Text": "이런 대형 행사의 전산 처리 작업을 할 수 있는 재원을 찾으려 하니, 아무리 찾아봐도 베리타스의 여러분 이외에는 적임자가 없어서요."
+    },
+    {
+      "Name": "마키",
+      "Text": "후후, 그건 그렇지. 밀레니엄에서 베리타스보다 더 컴퓨터를 잘 다루는 동아리는 존재하지 않으니까!"
+    },
+    {
+      "Name": "하레",
+      "Text": "……생각했던 것보다는 간단한 부탁이네."
+    },
+    {
+      "Name": "코타마",
+      "Text": "밀레니엄의 모든 건물에 RF 송신 모듈을 설치할 필요가 없어져서 다행입니다."
+    },
+    {
+      "Text": "[s] \"너희는 뭘 하려고 했었던 거야……?\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "……뭐, 부원들이 말한 것처럼 전산 처리 작업을 돕는 건 어려운 일이 아니야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "하지만 '세미나의 임원'이 베리타스에 이런 부탁을 해도 괜찮겠어?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "밀레니엄의 위신이 걸린 <황륜대제>의 준비를, 베리타스와 같은 비인가 동아리에게 맡겼다는 사실이 리오 회장의 귀에 들어가면 꽤나 귀찮아질 텐데."
+    },
+    {
+      "Name": "노아",
+      "Text": "그건 그럴지도 모르겠네요."
+    },
+    {
+      "Name": "노아",
+      "Text": "리오 회장과 히마리 부장 사이의 악연은 저도 익히 들어 알고 있으니까요."
+    },
+    {
+      "Name": "노아",
+      "Text": "괜히 세미나의 이름을 빌렸다가 곤란한 일에 휘말리는 건 저 역시 사양이랍니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "……하지만 세미나의 이름으로 드리는 부탁이 아니라, 저 우시오 노아 개인이 드리는 부탁이라면 어떠신가요?"
+    },
+    {
+      "Name": "노아",
+      "Text": "세미나를 돕는 일이라면 눈치가 보여도, 곤궁에 빠진 후배를 도와주는 일 정도는 괜찮지 않을까요?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……그렇게 말한다면 어쩔 수 없지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "리오 회장이야 어찌 되든 알 바가 아니지만, 우리 귀여운 후배님들에게는 죄가 없으니까."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, 귀엽게 봐주셔서 감사합니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그래서, 어떤 일을 도와주면 좋을까?"
+    },
+    {
+      "Name": "노아",
+      "Text": "남은 업무 목록은 유우카 쨩이 미리 정리해 둔 문서가 있으니, 이쪽을 참고 부탁드립니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "파손되지 않은 비품의 재고 현황을 파악하고, 선수 명단을 정리해서 관련교에 발송하고……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "뭐, 이 정도면 어렵지 않겠어."
+    },
+    {
+      "Name": "치히로",
+      "Text": "문서 정리는 매크로를 만들어서 한 번에 처리하고, 비품 정도만 현장에 가서 수량을 체크하면 금방 끝날 것 같아."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, 역시 베리타스에 부탁하길 잘했네요."
+    },
+    {
+      "Name": "치히로",
+      "Text": "아, 참. 그러고 보니 아까 신경 쓰이는 일이 하나 있었는데."
+    },
+    {
+      "Name": "치히로",
+      "Text": "내가 자리를 비운 사이, 밀레니엄의 서버에 악의적인 공격 시도가 몇 차례 가해졌던 것 같아."
+    },
+    {
+      "Name": "노아",
+      "Text": "악의적인 공격이라면……?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "뭐…… 패킷을 가로채서 데이터를 위조하거나, 바이러스를 심는 크래킹 시도 같은 것 말이지. 다행히 아마추어적인 수법이라 금세 방화벽에 가로막힌 것 같지만."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……다만 그 녀석들은 대운동회에 원한이라도 가진 것처럼, 대운동회에 필요한 설비와 기기만을 집중적으로 노려서 공격해왔어."
+    },
+    {
+      "Name": "노아",
+      "Text": "어머, 그것참 우연이네요."
+    },
+    {
+      "Name": "노아",
+      "Text": "안 그래도 아까 엔지니어부의 부장님도 비슷한 말씀을 하셨거든요."
+    },
+    {
+      "Name": "치히로",
+      "Text": "우연인지 필연인지는 나중에 밝혀지겠지만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "확실한 건, 운동회를 방해하고 있는 건 외부인이 아니야. 공격자 IP를 역추적해 보니 밀레니엄 학원 내부에서 신호가 잡혔거든."
+    },
+    {
+      "Name": "노아",
+      "Text": "어머나……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "오늘 밤은 수상한 학생들이 습격해 올 수도 있으니까…… 선생님도 다치지 않게 조심해."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, 학원을 방문한 손님을 안전하게 안내하는 것 또한 [ruby=세미나]학생회[/ruby]의 의무니까요."
+    },
+    {
+      "Name": "노아",
+      "Text": "밀레니엄에 계신 동안에는 제가 책임지고 [USERNAME] 선생님을 에스코트하겠습니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……그러게. 노아와 함께 있다면 큰 걱정은 없겠지만."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후. 신뢰해 주셔서 감사합니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "그럼 저희는 다른 문제를 해결하고 올 테니, 그동안 전산 업무는 부탁드리겠습니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "자, 그럼 우리는 그사이에 노아가 부탁한 서류 업무를 진행해 둘까?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "마키, 여기에 있는 선수 명단을 종목별로 정리해 줄래?"
+    },
+    {
+      "Name": "마키",
+      "Text": "아, 선수 명단이라면 이미 깔끔하게 표로 정리해 두었어."
+    },
+    {
+      "Name": "마키",
+      "Text": "……여기 파일."
+    },
+    {
+      "Name": "치히로",
+      "Text": "응? 선수 명단은 방금 노아에게서 건네받은 건데, 어떻게 벌써 정리한 거야?"
+    },
+    {
+      "Name": "마키",
+      "Text": "그게…… 이런 일이 있을지도 모르겠다 싶어서, 사전에 선수 명단을 조사해 뒀거든."
+    },
+    {
+      "Name": "하레",
+      "Text": "다양한 학교의 학생 명단을 한 번에 확보할 기회는 드무니까……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "각 학교 학생들의 퍼스널 데이터와 같은, 재미있는 정보를 잔뜩 얻을 수 있었습니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……관리자의 허가도 없이 멋대로 개인정보를 빼내서 가공했다고?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "역시 너희들에게는 올바른 해커 윤리에 대해 다시 한번 설명할 필요가 있겠어!"
+    },
+    {
+      "Name": "마키",
+      "Text": "하, 하지만 이번에는 도움이 되었잖아?"
+    },
+    {
+      "Name": "마키",
+      "Text": "한 번만 봐줘, 선배~!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2; The Millennium Hackers"
+    },
+    {
+      "Text": "Veritas Hackers' Lounge"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Kotama... Do you hear anything yet?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Nothing. I'll keep scanning the frequency band."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Really? I would've expected something by now. How's the drone looking, Hare?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Looking like...nothing."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Maybe there's just no one there."
+    },
+    {
+      "Name": "Maki",
+      "Text": "No way. We should try bypassing the proxy again."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...What is going on here?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Just the person we needed! We're hacking the monitoring equipment in the Seminar Executive Office."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Why?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Hare was buying some more energy drinks, and guess who she sees? [USERNAME] Sensei following Yuuka into the office!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "We immediately formed a hypothesis on why a student and a teacher would enter a room alone at night."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "They must be doing something fun! ...I mean, suspicious!"
+    },
+    {
+      "Name": "Maki",
+      "Text": "We at Veritas are the protectors of truth and seekers of knowledge! It was my duty to investigate."
+    },
+    {
+      "Name": "Maki",
+      "Text": "So...can you help us hack the system, Chihiro? Pretty please?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Your hypothesis is incorrect. The Halo Festival is tomorrow. It makes perfect sense for Sensei to be visiting Seminar."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Don't create narratives to suit your own needs, Maki."
+    },
+    {
+      "Name": "Maki",
+      "Text": "B-But..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Furthermore, I've told you time and time again. Caution and care. I was impressed when you found the key by going through the dump files, but you left your fingerprints all over when you erased the logs."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I knew you reckless kids were attacking the CCTV server an hour ago. The alarms went off pretty much as soon as you began."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I know it takes more work, but you need to use a logic bomb before erasing the logs. It's about the details, Maki, the details."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Ah, darn. I totally forgot."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Oh my... Ugh! I also forgot that you're the one who manages the CCTV servers!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...I am Millennium's security advisor, you know. A fact you three constantly forget."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Enough of that, you learned your lesson. Aren't you all going to the field day?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "The Halo Festival stuff? Us? Seriously?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "I will never participate in a festival hosted by Seminar! Although, I guess I could go to plant some wire taps..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I don't like exercise. End of story."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...I shouldn't have asked."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I get that it's weird and that we're not on the best terms with the student council."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But this isn't Seminar's event. It's by the students and for the students, regardless of their club or academy."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Would it kill you three to leave your computers and drones for one festival? Get some fresh air?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "How kind of you to say. And I agree! The Halo Festival is meant for anyone and everyone."
+    },
+    {
+      "Name": "Maki",
+      "Text": "[USERNAME] Sensei? Noa? H-How did you sneak in here?!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Thank you for the warm welcome. It seems my reputation precedes me."
+    },
+    {
+      "Text": "[ns] \"Hey. It's been a while.\""
+    },
+    {
+      "Name": "Maki",
+      "Text": "This is a duo I wasn't expecting to see together."
+    },
+    {
+      "Name": "Hare",
+      "Text": "And what's a fancy Seminar executive doing down here? At this time of night?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Late at night...with just Sensei..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I promise whatever your thinking isn't right. Heehee."
+    },
+    {
+      "Name": "Noa",
+      "Text": "And I don't want to interfere with whatever it is you're up to. I'm here to ask for help."
+    },
+    {
+      "Name": "Maki",
+      "Text": "You? Asking us? For help?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "As you were discussing earlier, the Kivotos Halo Festival hosted by your very own school begins tomorrow."
+    },
+    {
+      "Name": "Noa",
+      "Text": "While Seminar has done our utmost to ensure the event is a resounding success, we can hardly account for everything."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Unfortunately, in these last hours leading up to the event, a series of incidents has rendered Yuuka completely exhausted from managing them."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Yuuka does work like a maniac, non-stop, all the time..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Seriously! She should get some rest before the actual event!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "We're in complete agreement. That's why I need you. While Yuuka rests, I need someone to process and send out the last of the data she was sorting through."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Naturally, Veritas' club members are the best fit for this job."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Heehee! I guess she does have some sense! Nobody's better than us when it comes to computers."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...I was expecting something way worse."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "You're just...handing over data? I guess at least I won't need to install RF transmission modules in every building anymore."
+    },
+    {
+      "Text": "[s] \"What on earth were you trying to do...?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Don't ask. We can do it, Noa. It's an easy task for us."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But is it really okay for Seminar to be coming to us for help?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I wouldn't want to be within a hundred feet of President Rio if she found out an unauthorized club like Veritas was a part of the preparations for the Halo Festival of all things."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I wouldn't want to be either!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "I'm well aware of President Rio's feelings about President Himari. And vice versa."
+    },
+    {
+      "Name": "Noa",
+      "Text": "But let's not over-complicate things with politics."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Consider this a request from me, Noa. Not from Seminar."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I would never try to force you to cooperate with Seminar, but...wouldn't you feel even a teeny, tiny bit guilty turning down a desperate student in need?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "You sure know how to paint a picture."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I don't think President Rio will approve, but it's not like my adorable protégés have personally done anything wrong. I don't see why they shouldn't get to participate in the festival in some form."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Heehee. Thank you for being a good sport."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "So? What's the data?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yuuka compiled everything in a list here. Take a look."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Let's see... She just needs an inventory of current equipment and...to put together athlete rosters to send out to the schools."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "That should be relatively simple."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'll make a macro to process all the data at once and organize it into quantities. We'll do a check of the actual equipment inventory to compare, and that should be it."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Heehee. I knew you were the ones for the job."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Oh, before I forget. There was one thing bothering me earlier."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I took a break earlier, and just in that short time there were several malicious attacks on Millennium's server."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Really? What kind of attacks?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "They were trying to crack the passwords to intercept packets and forge data...and plant viruses. Don't worry, they were childish attempts at best. Our firewall blocked it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The thing that bothered me about it was that all their attacks were focused on equipment and facilities we need for the field day. It felt deliberate."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Another coincidence..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "The president of the Engineering Department mentioned something of a similar nature earlier."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I've never been a big believer of coincidences."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I reverse tracked the attacker's IP, and the signal came from within the school. A Millennium student is trying to disrupt the festival, I think. "
+    },
+    {
+      "Name": "Noa",
+      "Text": "Oh, my..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We don't know what could happen tonight, so please be careful, Sensei."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Haha! Ensuring visitors' safety is Seminar's absolute, top priority. It's laughable anything would happen to them."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I'll be by [USERNAME] Sensei's side every second they're here. Don't worry."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I won't, then. Keep them safe."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Heehee. I don't take your trust lightly."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Well, there's much to be done before the big day! Thank you for handling this."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "All right. Let's get to it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Maki, I need you to organize the athlete rosters based on which events they'll be participating in, please."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Already done! Look at how neat my tables are!"
+    },
+    {
+      "Name": "Maki",
+      "Text": "It's this file right here."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "You already organized it? I haven't even seen you sit down at your computer yet."
+    },
+    {
+      "Name": "Maki",
+      "Text": "I, um, totally predicted this might happen, so I actually already made the athlete rosters a few days ago... Yup, that's definitely why I did it."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Translation: making rosters of students from different schools sounded like a fun and rare opportunity."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "So, I took a bunch of personal data along with some fun facts about students from every school!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...To summarize, you stole personal information without the administrator's permission?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I was hoping to avoid this... But you three need another ethics lesson. Right now."
+    },
+    {
+      "Name": "Maki",
+      "Text": "B-B-But, it kinda ended up being super helpful in the end, right?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Please! Have mercy! For once in my life!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่2;แฮ็กเกอร์แห่งมิลเลเนียม"
+    },
+    {
+      "Text": "ห้องพักผ่อนแฮ็กเกอร์ เวอริทัส"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "...รุ่นพี่โคทามะ ได้ยินเสียงอะไรมั้ย?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "กำลังสแกนคลื่นความถี่... ตอนนี้ยังไม่พบแนวโน้มอะไรที่ผิดปกติ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อืม แปลกจัง... รุ่นพี่ฮาเระล่ะ? กล้องโดรนตรวจพบอะไรได้บ้างมั้ย?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อืม ภาพจากกล้องทางนี้ก็ไม่มีอะไรผิดปกติเหมือนกัน"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เหมือนจะไม่มีใครอยู่ที่ห้องสำนักงานเซมิน่าเลยนะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ไม่น่าเป็นไปได้นะ ถ้างั้นเราเอาพร็อกซี่วนดูอีกรอบดีมั้ย...?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...ทำอะไรกันอยู่น่ะ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อ๊ะ รุ่นพี่ มาพอดีเลย เมื่อกี๊ฉันเพิ่งแฮ็กเข้าไปในระบบกล้องวงจรปิดของห้องสำนักงานเซมิน่าน่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ห้องสำนักงานเซมิน่าเหรอ...? ทำไมจู่ๆ ถึงทำแบบนั้นล่ะ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "คือว่า เมื่อกี๊รุ่นพี่ฮาเระออกไปซื้อเครื่องดื่มชูกำลังที่ร้านสะดวกซื้อ แล้วบังเอิญเห็นคุณครู [USERNAME] กับรุ่นพี่ยูกะกำลังเดินกลับมาที่ห้องสำนักงานเซมิน่ากันน่ะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ไม่น่าเชื่อเลยว่าคุณครูกับนักเรียนจะหลบสายตาผู้คนแล้วมาเจอกันตอนกลางค่ำกลางคืนแบบนี้..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "คงจะทำเรื่องสนุกๆ กันสองคน... ไม่สิ ต้องกำลังวางแผนอะไรที่น่าสงสัยอยู่แน่ๆ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ในฐานะสมาชิกของเวอริทัสที่มีหน้าที่พิทักษ์ความจริงและสืบค้นความรู้ ฉันอยู่เฉยๆ ไม่ได้หรอก"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เอาละ รุ่นพี่จิฮิโระก็มาช่วยกันแฮ็กเถอะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าคุณครูจากชาเล่ต์มาเจอกับนักเรียนของมิลเลเนียมในช่วงนี้ ก็คงจะเป็นเพราะเรื่องงานมหกรรม\nแข่งขันกีฬาที่จะจัดขึ้นในวันพรุ่งนี้ยังไงล่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คาดเดาเรื่องที่เกินขอบเขตไปมันไม่ดีนะ มากิ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แล้วก็นะมากิ ที่บอกว่าแฮ็กเซิร์ฟเวอร์เมื่อกี๊น่ะ การที่พยายามหาคีย์ส่วนตัวโดยเข้าไปค้นที่ดัมพ์ไฟล์ก็\nถือว่าพยายามได้ดี แต่ระวังอย่าให้หลงเหลือร่องรอยเอาไว้ด้วยล่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เมื่อ 1 ชั่วโมงก่อนมีสัญญานเตือนแจ้งว่าเซิร์ฟเวอร์ CCTV ถูกบุกรุกดังขึ้นด้วย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าเป็นฉันคงจะระเบิดบอมบ์ลอจิกก่อนที่จะลบบันทึกข้อมูลน่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อ่า จริงด้วย ลืมไปเลย..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เอ๊ะ? หมายความว่ารุ่นพี่เป็นคนดูแลเซิร์ฟเวอร์ CCTV ของเซมิน่าอยู่เหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...ทำไมพวกเธอถึงได้ลืมอยู่เรื่อยเลยล่ะว่าฉันเป็นคนรับหน้าที่ดูแลระบบรักษาความปลอดภัยของ\nมิลเลเนียมน่ะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...จะว่าไปแล้ว พวกเธอจะไม่เข้าร่วมงานมหกรรมแข่งขันกีฬาครั้งนี้เหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "งานมหกรรมแข่งขันกีฬา? ทำไมพวกเราต้องทำอะไรด้วยล่ะ?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถ้าเป็นการไปดักฟังก็ไม่แน่ แต่ถ้าจะให้เข้าร่วมงานเทศกาลที่จัดโดยเซมิน่าก็ต้องขอปฏิเสธค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อีกอย่างถ้าให้ไปทำกิจกรรมออกกำลัง ขอผ่านดีกว่า..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...คิดไว้แล้วว่าต้องเป็นแบบนี้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แน่นอนว่าการที่พวกเราที่ไม่ได้มีความสัมพันธ์อันดีกับประธานสภานักเรียน จะให้ไปเข้าร่วมกิจกรรมที่\nจัดโดยสภานักเรียน มันก็คงจะดูแปลกๆ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถึงงานมหกรรมแข่งขันกีฬานี้จะเป็นกิจกรรมที่จัดโดยเซมิน่า แต่ก็ยังเป็นเทศกาลแห่งความสงบสุขที่\nนักเรียนทุกสถาบันทั่วคิโวทอสมาเข้าร่วมด้วย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันคิดว่าถ้าทุกคนลืมสังกัดตัวเองไปสักพัก แล้วมาสนุกกับงานเทศกาลก็คงจะดีนะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันก็คิดแบบนั้นเหมือนกันค่ะ ฮาโลเฟสติวัลเป็นกิจกรรมที่ทุกคนสามารถสนุกด้วยกันได้โดยไม่มีการ\nแบ่งแยกค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "คุณครู [USERNAME] กับรุ่นพี่โนอา...? มาตั้งแต่เมื่อไรกันน่ะ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "สวัสดีทุกคนนะคะ เลขาของเซมิน่า อุชิโอะ โนอาค่ะ"
+    },
+    {
+      "Text": "[ns] \"ว่าไงทุกคน ไม่เจอกันนานเลยนะ\""
+    },
+    {
+      "Name": "มากิ",
+      "Text": "คุณครู [USERNAME] กับรุ่นพี่โนอา... เป็นคู่ที่คาดไม่ถึงเลยนะเนี่ย"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ดึกดื่นแบบนี้คณะกรรมการของเซมิน่ามีธุระอะไรที่ห้องชมรมของเวอริทัสเหรอ?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถึงขนาดที่ต้องพาคุณครูของชาเล่ต์มาด้วย..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ ไม่ต้องกังวลไปหรอกค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันไม่ได้มาขัดขวางการทำงานของทุกคนหรอกค่ะ แต่จะมาขอความช่วยเหลือบางอย่างน่ะค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ขอความช่วยเหลือ...?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ทุกท่านคงจะทราบดีค่ะว่าฮาโลเฟสติวัลที่จะจัดขึ้นที่โรงเรียนมิลเลเนียมของพวกเรากำลังจะเริ่มขึ้นใน\nวันพรุ่งนี้แล้ว"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ทางเซมิน่าได้ทุ่มเทและพยายามเตรียมการหลายอย่างเพื่อให้กิจกรรมครั้งนี้สมบูรณ์แบบภายในเวลา\nที่กำหนด..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "แต่ก็โชคร้ายที่มีทั้งอุบัติเหตุใหญ่และเล็กเกิดขึ้นอย่างต่อเนื่องในขณะที่วันพิธีเปิดใกล้เข้ามา ทำให้ยูกะจังที่คอยเก็บกวาดต้องเหนื่อยล้ามากค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ก็นะ ปกติรุ่นพี่ยูกะก็ทำงานหนักอยู่ตลอดเลยนี่..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ก็เลยคิดว่าจะใช้โอกาสนี้ให้ยูกะได้พักผ่อนอย่างนั้นสินะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ค่ะ ฉันเองก็อยากจะฝากงานการประมวลข้อมูลของ <ฮาโลเฟสติวัล> ที่ยูกะจังเป็นคนรับผิดชอบใน\nตอนแรกให้นักเรียนคนอื่นทำอยู่หรอกนะคะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "แต่การจะหานักเรียนที่มีความสามารถในการประมวลข้อมูลของกิจกรรมขนาดใหญ่แบบนี้ ก็นึกถึงใคร\nไม่ออกนอกจากสมาชิกของเวอริทัสน่ะค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ฮึฮึ มันก็แน่อยู่แล้วสิ ที่มิลเลเนียมคงไม่มีชมรมอื่นที่เชี่ยวชาญเรื่องคอมพิวเตอร์มากไปกว่าเวอริทัสอีก\nแล้วละ!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "...เป็นคำขอที่ง่ายกว่าที่คิดเอาไว้อีกนะเนี่ย"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แบบนี้ก็ไม่ต้องไปติดตั้งโมดูลส่งสัญญาน RF ตรงทุกอาคารในมิลเลเนียมแล้วสินะ"
+    },
+    {
+      "Text": "[s] \"พวกเธอคิดจะทำอะไรกันน่ะ...?\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...ก็อย่างที่พวกสมาชิกบอกน่ะ จะให้เราช่วยเรื่องประมวลข้อมูลมันไม่ใช่เรื่องยากอะไรหรอก"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่ว่าการที่ 'คณะกรรมการของเซมิน่า' มาขอร้องเวอริทัสแบบนี้มันจะไม่เป็นอะไรเหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "การเตรียมงาน <ฮาโลเฟสติวัล> ที่มีหน้าตาของมิลเลเนียมเป็นประกัน มาขอให้เวอริทัสช่วยแบบนี้ ถ้าไปถึงหูประธานริโอะเข้า คงจะไม่พอใจมากแน่ๆ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อาจจะเป็นแบบนั้นก็ได้นะคะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "เรื่องความสัมพันธ์ที่ไม่ค่อยดีของประธานริโอะกับหัวหน้าฮิมาริ พวกเราเองก็รู้อยู่แก่ใจค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันคงไม่ขอใช้ชื่อเซมิน่าไปยุ่งเกี่ยวกับเรื่องยุ่งยากนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "...แต่ถ้าไม่ได้ขอในฐานะเซมิน่า แต่ในฐานะอุชิโอะ โนอา ทุกคนจะว่ายังไงคะ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ถึงจะไม่อยากช่วยงานเซมิน่า แต่ถ้าเป็นการช่วยเหลือรุ่นน้องตาดำๆ คนหนึ่งก็คงจะได้ใช่มั้ยคะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...ถ้าพูดแบบนั้นมันก็ช่วยไม่ได้นะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ประธานริโอะจะว่ายังไงก็ช่าง แต่รุ่นน้องแสนน่ารักของเราไม่ได้ทำอะไรผิดสักหน่อย"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ ขอบคุณที่เอ็นดูฉันนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ว่าแต่จะให้ช่วยงานอะไรล่ะ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "รายการของงานที่ยังต้องทำอยู่ในเอกสารที่ยูกะจังเตรียมเอาไว้แล้ว ใช้อ้างอิงจากอันนี้ได้เลยค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตรวจสอบสถานะอุปกรณ์ในคลังที่ไม่เสียหาย จัดการรายชื่อนักกีฬาแล้วส่งไปให้โรงเรียนที่เกี่ยวข้อง..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "งานแค่นี้ก็ไม่ยากเท่าไรหรอก"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เอกสารก็สร้างแมโครขึ้นมาจัดการให้เสร็จในรวดเดียว ส่วนอุปกรณ์ก็ไปตรวจนับจำนวนเองที่คลังก็ไม่\nน่าจะยากอะไร"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ คิดถูกจริงๆ เลยละค่ะที่มาขอให้ทางเวอริทัสช่วย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อ่า จริงสิ จะว่าไปแล้ว มีบางอย่างที่ฉันสงสัยมาตั้งแต่เมื่อกี้แล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตอนที่ฉันไม่อยู่ เหมือนว่าเซิร์ฟเวอร์ของมิลเลเนียมจะถูกบุกรุกโดยมีเจตนาร้ายหลายครั้งเลยนะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ถ้าเป็นการบุกรุกที่มีเจตนาร้าย...หรือว่า?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ก็นะ... อาจจะเป็นการดักจับแพ็กเก็ตเพื่อปลอมแปลงข้อมูลหรือไม่ก็เป็นการแฮ็กเพื่อปล่อยไวรัส โชคดีไปที่ใช้วิธีแบบพวกมือสมัครเล่นก็เลยถูกไฟร์วอลล์กันเอาไว้ได้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...แต่ว่าพวกนั้นมุ่งโจมตีไปที่อุปกรณ์กับของอำนวยความสะดวกที่ใช้ในงานมหกรรมแข่งขันกีฬา เหมือนกับว่ามีความแค้นอะไรกันมาก่อนเลยละ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "โอ๊ะ บังเอิญจังเลยนะคะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ก่อนหน้านี้หัวหน้าชมรมวิศวกรรมก็พูดเหมือนกันเลยค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เดี๋ยวก็รู้เองแหละว่าเรื่องบังเอิญหรือจงใจกันแน่..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่ที่แน่ใจได้เลยก็คือ คนที่กำลังขัดขวางงานกีฬาครั้งนี้ไม่ใช่คนนอก เพราะว่า IP ของผู้ที่โจมตีมี\nตำแหน่งที่ตั้งอยู่ภายในโรงเรียนมิลเลเนียมนี่แหละ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ตายจริง..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คืนนี้อาจจะมีนักเรียนน่าสงสัยลงมือโจมตีก็ได้... คุณครูเองก็ระวังตัวอย่าให้บาดเจ็บนะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ ยังไงก็เป็นหน้าที่ของ[ruby=เซมิน่า]สภานักเรียน[/ruby]ที่จะต้องดูแลความปลอดภัยของแขกที่มายังโรงเรียนของเราค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ระหว่างที่อยู่ในมิลเลเนียม ฉันจะรับหน้าที่คอยดูแลคุณครู [USERNAME] เองค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...นั่นสินะ ถ้าอยู่กับโนอาก็คงไม่มีอะไรต้องห่วง"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ ขอบคุณที่เชื่อใจฉันนะคะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ถ้าอย่างนั้นเราขอตัวไปจัดการปัญหาอื่นก่อน ระหว่างนั้นก็ขอฝากงานประมวลข้อมูลด้วยนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เอาละ ถ้างั้นพวกเราก็มาจัดการงานเอกสารที่โนอาขอให้ช่วยกันเลยมั้ย?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มากิ เธอช่วยจัดรายชื่อนักกีฬาพวกนี้ตามประเภทหน่อยได้มั้ย?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อ่า ถ้าเป็นรายชื่อนักกีฬาละก็ ฉันแบ่งไว้เป็นตารางเรียบร้อยแล้วละ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "...ไฟล์นี้น่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "หืม? เพิ่งจะได้รายชื่อนักกีฬามาจากโนอาเมื่อกี๊เองนะ จัดการเสร็จแล้วเหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "คือว่า... ฉันคิดว่าอาจจะมีเรื่องแบบนี้เกิดขึ้น ก็เลยสืบรายชื่อนักกีฬามาไว้ล่วงหน้าแล้วน่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ก็โอกาสที่จะได้ตรวจสอบรายชื่อของนักเรียนจากหลายๆ โรงเรียนมันมีไม่บ่อยนักนี่..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แล้วก็ยังมีทั้งข้อมูลส่วนตัวและข้อมูลที่น่าสนใจของนักเรียนแต่ละโรงเรียนด้วยนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...ขโมยเอาข้อมูลส่วนตัวของคนอื่นมาโดยที่ไม่ได้รับอนุญาตงั้นเหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "สงสัยคงต้องสอนหลักจริยธรรมเบื้องต้นของแฮ็กเกอร์ให้พวกเธอใหม่แล้วสินะ!"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ตะ... แต่ว่าครั้งนี้มันก็เป็นประโยชน์อยู่ไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ปล่อยไปสักครั้งเถอะนะ รุ่นพี่~!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;千年的駭客"
+    },
+    {
+      "Text": "貝里塔斯．駭客休息室"
+    },
+    {
+      "Name": "真紀",
+      "Text": "……小玉前輩，有聽見什麼嗎？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "正在掃描頻率……目前沒有發現特殊的異常動向。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "唔嗯，好奇怪……晴前輩呢？無人機有拍到什麼嗎？"
+    },
+    {
+      "Name": "晴",
+      "Text": "嗯，這邊的影像也沒有變化。"
+    },
+    {
+      "Name": "晴",
+      "Text": "不管怎麼看……現在研討會辦公室似乎都沒有人在。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "不可能啊……再繞過一次代理伺服器試試吧……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……你們在做什麼？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "啊，前輩！你來得正好。\n我們剛才駭入了研討會辦公室的閉路監視器……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "研討會辦公室……？\n為什麼突然這麼做？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "剛才晴前輩去便利商店買能量飲料，\n看見[USERNAME]老師和優香前輩一起走進了研討會的辦公室。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "學生和老師在深夜時避開他人視線偷偷見面……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "他們一定是偷偷在進行有趣的……不對，一定是在策畫可疑的事。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "身為守護真理與探究知識的貝里塔斯成員，我們不能坐視不管。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "來吧，千尋前輩。幫我們一起駭進去吧！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "夏萊的老師如果在這個時間點拜訪研討會，肯定是和明天的大運動會有關吧？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "過度的揣測並非好事，真紀。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "但是……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "還有，真紀，關於剛才伺服器的駭入……\n搜尋傾印檔案後找出私密金鑰是不錯的嘗試，但清除Log時要注意別留下痕跡。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "因為一個小時前，監視器的伺服器就因為受到攻擊，警報響個不停。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "換作是我的話，在清除記錄前，就會先引爆一枚邏輯炸彈。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "啊，對耶。\n我完全忘了……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "咦？\n話說回來，研討會的監視器伺服器也是前輩負責管理的嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你們啊……難道忘了我還負責千年的安全顧問嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……話說回來，你們不參加這次的大運動會嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "大運動會？\n我們為什麼要參加？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "要竊聽倒是可以考慮，但要參加研討會舉辦的慶典還是算了吧。"
+    },
+    {
+      "Name": "晴",
+      "Text": "而且我最討厭體育活動了……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……果然是這種反應嗎。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "雖然和學生會長關係惡劣的貝里塔斯，\n如果去參加學生會舉辦的活動是有點奇怪……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不過大運動會雖然是由研討會主辦，\n卻同時也是奇普托斯所有學園的學生們一起參加的慶典。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這種時候還是希望大家能先放下自己所屬的社團，好好享受慶典活動啊……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "這點我也認同。\n因為晄輪大祭就是大家打破藩籬、一起公平享樂的慶典。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "[USERNAME]老師和乃愛前輩……？\n什，什麼時候來的！？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "大家好。\n我是研討會的書記，生塩乃愛。"
+    },
+    {
+      "Text": "[ns]「嗨，好久不見。」"
+    },
+    {
+      "Name": "真紀",
+      "Text": "[USERNAME]老師和乃愛前輩……真是奇妙的組合。"
+    },
+    {
+      "Name": "晴",
+      "Text": "研討會的幹部在三更半夜來到貝里塔斯的部室有什麼事？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "而且還有夏萊的老師同行……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，請不必這麼警戒。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我之所以會來，並不是為了阻撓各位，而是想要向各位尋求協助。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "……協助？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "相信各位也知道，距離我們千年舉辦的「晄輪大祭」只剩下一天。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我們研討會為了在期限內將活動準備到完美，付出了許多努力……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "不幸的是，在開幕前卻接二連三地發生各種意外，\n負責善後的優香醬也因為過勞而到了極限……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "畢竟優香前輩平常就肩負了沉重的工作……"
+    },
+    {
+      "Name": "晴",
+      "Text": "我認為趁這個機會讓優香休息一下會比較好。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "是的……因此，我希望能請其他人處理優香醬負責的「晄輪大祭」電算業務……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "而能夠處理這種大型活動電算作業的，就只有貝里塔斯的各位了……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "呵呵，是沒錯啦。\n畢竟在千年，沒有比貝里塔斯更擅長操作電腦的社團了！"
+    },
+    {
+      "Name": "晴",
+      "Text": "……委託的內容比想像中還簡單呢。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "幸好不需要在千年的所有建築物安裝RF發收模組。"
+    },
+    {
+      "Text": "[s]「你們本來是想做什麼……？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……就如同這些孩子們說的一樣，協助電算處理作業並非難事。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不過「研討會的幹部」可以向「貝里塔斯」發出委託嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "把攸關千年威信的「晄輪大祭」準備工作交給貝里塔斯這種不被承認的社團……\n這件事如果傳到莉央會長耳中，應該會很麻煩吧。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "也許會吧。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "畢竟我早已聽說莉央會長和陽葵部長的關係十分惡劣。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我也不樂見因為擅自使用研討會的名義而被捲入麻煩。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……所以就拋開研討會，以我生塩乃愛個人的名義委託各位怎麼樣呢？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "既然協助研討會容易引人注目，那麼幫助陷入困境的後輩應該就沒問題了吧？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……既然你都這麼說了，那就沒辦法了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "雖然不知道莉央會長會做何反應，但可愛的後輩們畢竟是無辜的。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，承蒙前輩的憐愛。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "所以，有什麼我們能幫忙的呢？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "優香醬已經將剩餘的業務彙整好了……\n請參考這份文件吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "掌握沒有毀損的備品庫存狀況，整理選手名單後發送給相關學園……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯，小事一樁。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "備品的話，只要去現場確認數量……之後再用巨集一次搞定就行了。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，果然來拜託貝里塔斯是正確的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "啊，對了……剛才有件事讓人很在意。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我不在的時候，千年的伺服器遭到數次的惡意攻擊。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "惡意攻擊……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯……雖然很快就被防火牆擋下了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……但對方似乎是對大運動會不滿，只攻擊大運動會需要的設備與機器。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……這還真是巧呢。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "剛才工程師部的部長也說過類似的話。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "是偶然還是蓄意，之後就會水落石出……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "可以確定的是，妨礙運動會的並非是外部人士。\n逆向追蹤攻擊者的IP後，發現信號是從千年學園內部捕捉到的。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "哎呀……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "他們今晚可能會發動襲擊……\n老師也要注意安全。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，維護訪客的安全，同樣也是[ruby=研討會]學生會[/ruby]的義務。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "老師待在千年的期間，我會負責護送[USERNAME]老師。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……確實。有乃愛陪著，應該不需要太擔心。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，感謝前輩的信賴。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "那麼，我們還得去解決其他問題……電算業務就拜託了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "那麼，我們開始著手處理被託付的文書作業吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "真紀，可以幫我依照項目整理選手名單嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "啊，選手名單的話，已經整理好了。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "來，檔案在這裡。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯？不是才剛收到嗎……什麼時候整理好的？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "呵呵呵……為了以防萬一，我事先調查過選手名單了。"
+    },
+    {
+      "Name": "晴",
+      "Text": "難得有機會一次取得多所學校的學生名單……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "可以看到各學園學生的個人資訊、三圍等有趣的情報。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……在沒有經過管理者許可的情況下，擅自竊取個人資料並加工？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "果然還是得跟你們再說明一下正確的駭客倫理才行！"
+    },
+    {
+      "Name": "真紀",
+      "Text": "可，可是，這次不是幫上忙了嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "這次就放過我們吧，前輩～！"
+    }
+  ]
+}

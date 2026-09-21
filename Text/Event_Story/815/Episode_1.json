@@ -1,0 +1,2637 @@
+{
+  "TitleJP": "夏はまだ終わらない",
+  "TitleKR": "여름은 아직 끝나지 않은 채로",
+  "TitleEN": "Summer Isn't Over Yet",
+  "TitleTH": "ยังไม่ทันจบฤดูร้อน",
+  "TitleTW": "夏天尚未結束",
+  "DescJP": "シャーレに戻ってきた先生を待ち受けていたのは、百鬼夜行連合学院のニヤとミモリ、そしてフィーナだった。曰く、百夜堂の事で相談があり、そして、シズコはいま自分達が先程までいた「ロスト・パラダイス・リゾート」にいるのだと……。再びリゾートに戻ってきた一行の前に「覆面水着団」が襲いかかってくるのだった。",
+  "DescKR": "일정을 마치고 샬레로 돌아온 선생님을 맞이해준 건 니야, 미모리, 그리고 피나였다. 시즈코가 곤경에 처했단 그들의 말에 선생님은 다시 바다로 향하지만, 그곳에서 선생님은 시즈코와 함께 <수영복 복면단>의 습격을 받게 된다.",
+  "DescEN": "Niya, Mimori, and Pina greet Sensei just as they return to Schale. After hearing that Shizuko is in trouble, Sensei heads to the beach again where Shizuko is being attacked by the Masked Swimsuit Gang.",
+  "DescTH": "นิยะ มิโมริ และพีน่าออกมารับคุณครูที่กลับมาหลังจากเสร็จงานที่ชาเล่ต์\nเมื่อได้รู้จากทั้งสามว่าชิซุโกะกำลังตกที่นั่งลำบาก คุณครูก็มุ่งหน้าไปที่ทะเล\nเมื่อไปถึงคุณครูกับชิซุโกะก็ถูก <กองกำลังหน้ากากมิสึกิ> บุกทำร้าย",
+  "DescTW": "等待老師回到夏萊的是，百鬼夜行聯合學院的仁耶和三森，以及菲娜。據說，有百夜堂的事需要商量，還有，靜子正位於剛才的「失樂園渡假勝地」……。再次回到渡假勝地一行人的面前「泳裝蒙面團」襲擊了過來。",
+  "DialogJP": [
+    {
+      "Text": "プロローグ;夏はまだ終わらない"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先生、着きましたよ！"
+    },
+    {
+      "Text": "[s1] \"送ってくれてありがとう、アヤネ。\""
+    },
+    {
+      "Text": "[s2] \"そっちも忙しいのに、ごめんね。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "とんでもないです！先生にはいつもお世話になっていますから。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "それに、みんなと約束しましたし……先生を無事にシャーレまで送り届けるって。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……って、今は無駄話をしている場合じゃありませんでした。\n先生、荷物を持ってすぐオフィスに――"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "――あれ？入口に誰かいますね……"
+    },
+    {
+      "Text": "[s] \"えっ？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "あら～先生。ひょっとして、今休暇から帰ってきたところです？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "しかもこ～んなかわいい子と一緒に？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "は、はい！？か、か、かわいい……ですか！？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "んふふ、その初々しい反応。初めてカホと会った時を思い出すわぁ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ほんと、可愛らしい。"
+    },
+    {
+      "Text": "[s] \"ニ、ニヤ……？\""
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "もう、ニヤさん。先生と隣の生徒さんが困ってるじゃないですか。\n今日の目的をどうかお忘れなく。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "にゃはは～、ごめんごめん。\nつい楽しくなってしまって～。"
+    },
+    {
+      "Text": "[s] \"ミモリも一緒って……なんだか珍しい組み合わせだね。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "まあ、雑談はこれくらいにして。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "――百鬼夜行として正式に相談したいことがあり、こちらに参った次第です。"
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "ノォォォォ！！センセイ！大変デース！"
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "委員長が……！委員長とウミカがぁぁぁあ！！"
+    },
+    {
+      "Text": "[s] \"フィーナまで！？シズコに何かあったの？\""
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "それがですね…シズコちゃんがどうやら大変な事になっているらしく……"
+    },
+    {
+      "Text": "[s] \"百夜堂に行ってシズコに詳しい話を……。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "シズコさんなら、いま百夜堂にはいませんよ。"
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "委員長は海に行きマシタ！"
+    },
+    {
+      "Text": "[s] \"…………海？\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ええ。聞いた話ですが、シズコさんは今――"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "「ロスト・パラダイス・リゾート」？だったかにいるらしく……"
+    },
+    {
+      "Text": "[s] \"「ロスト・パラダイス・リゾート」？どこかで聞いたような……。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先生……そこって、さっきまで私たちがいたリゾートじゃないですか？"
+    },
+    {
+      "Text": "[s] \"……えっ？\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "皆さん、もう降りて大丈夫ですよ。"
+    },
+    {
+      "Name": "チセ",
+      "Text": "とうちゃ～く。"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "ここが「ロスト・パラダイス・リゾート」ですか……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "正確にはちょっと違うんですけどね……。"
+    },
+    {
+      "Text": "[s] \"アビドスの件で大変なのに……本当にありがとう、アヤネ。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "いえいえ！私もちょうど戻らなきゃと思っていたところでしたので。\nまたこうして先生と一緒に戻る事になるとは思いませんでしたが……。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "みなさん、無事に到着したみたいですね～♪"
+    },
+    {
+      "Text": "[s] \"うん、到着したよ。……ニヤは来なかったけどね。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "にゃはは～♪まあ、私とアツ～い時間を過ごしたいという先生のお気持ちはわからなくもないですが。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "陰陽部の部長である以上、おいそれと席を外すわけにはいきませんからねぇ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "代わりと言ってはなんですが、チセとミモリさんが一緒なわけですし。\n私への愛はそのお二人に伝えてくださいな～。"
+    },
+    {
+      "Text": "[s] \"はいはい……。\""
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "アハハ……"
+    },
+    {
+      "Name": "チセ",
+      "Text": "うん、部長の代わりにがんばるね～。"
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "センセイ、すみマセン！フィーナも委員長を助けるためにご一緒したかったデス！でも――"
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "フィーナには、百夜堂のシマを守るという使命が……！"
+    },
+    {
+      "Text": "[s] \"大丈夫だよ。こっちは私たちに任せて。\""
+    },
+    {
+      "Name": "フィーナ",
+      "Text": "はい、センセ――いや、お頭！"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "シズコさんは、多分そこの「海の家」にいるはずです。"
+    },
+    {
+      "Text": "[s] \"「海の家」……か。\""
+    },
+    {
+      "Text": "[ns] \"んん！？\""
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "あちらで何かあったみたいですね。"
+    },
+    {
+      "Name": "チンピラA",
+      "Text": "つ、強い！これがリゾート狩りを企んでいるという、例の黒幕の力なんだな！"
+    },
+    {
+      "Name": "チンピラB",
+      "Text": "侮れないな……！百鬼夜行のお祭り運営委員会！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "だーかーらー！あなた達が何を言ってるのか、さっぱり分かんないんですけど！！"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "そうですよ！いきなりやってきてお店の邪魔して！何なんですか！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "今日だけで5回目ですよ！5回目！\nイズナも、そろそろ堪忍袋の緒が切れてしまいそうです！"
+    },
+    {
+      "Name": "チンピラA",
+      "Text": "この状況でもとぼけるとはな……さすが黒幕だ。"
+    },
+    {
+      "Name": "チンピラB",
+      "Text": "今回はこの辺で勘弁しておいてやる！だが、これで終わりだと思うなよ！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "なんでだろ……勝ったはずなのに、全然スッキリしないんですけど！？"
+    },
+    {
+      "Text": "[s] \"シズコ？\""
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "シズコちゃん……！"
+    },
+    {
+      "Name": "チセ",
+      "Text": "タヌキさんこんにちは～。"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "えっ！？先生！？それにミモリとチセも！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "あ、主殿！？"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "シャーレの先生！？"
+    },
+    {
+      "Text": "[s] \"えっと……何があったの？\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "それが、その……うぅ……"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "うわあぁぁぁぁぁぁん！！！ぜん゛ぜぇ゛～！\nほんと、今日は「大変」って言葉じゃ片付かないレベルなんです～！！"
+    },
+    {
+      "Text": "百夜堂 ロスト・パラダイス・リゾート支店"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "まさか、主殿がお越しくださるなんて！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "もしかして、イズナの活躍を見に来てくれたんですか？ニンニン！"
+    },
+    {
+      "Text": "[s] \"用事があってね。ところで、どうしてイズナがここに？\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "イズナはシズコ殿の依頼で護衛をしておりました！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "きっとシズコ殿は、将来キヴォトス最強の忍者となるイズナの可能性を見抜いたに違いありません！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "えっ？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "忍者って目新しいし、"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "宣伝効果あるかな～と思ってお願いはしたけど……。"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "へっ！？それじゃあ、イズナの真価を見抜いていたわけではないのですかー！？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "（しゅん）"
+    },
+    {
+      "Text": "[s] \"バイトをしているイズナも可愛いよ。\""
+    },
+    {
+      "Name": "イズナ",
+      "Text": "そ、そうですか？えへへっ♪"
+    },
+    {
+      "Text": "[s3] \"そういえば、ニヤとフィーナから聞いたよ。\""
+    },
+    {
+      "Text": "[s4] \"シズコとウミカが大変だって。\""
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "たしかに、大変と言えば大変ですね。実は――"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "今日、営業妨害が5回！半日で5回もあったんです！"
+    },
+    {
+      "Text": "[s] \"それは災難だったね……。\""
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "はい……今日、お店を開けるや否や変なお客様が続々とやってきて……。\n「権利者を倒す！」だの「リゾート狩り」だのとわけの分からない事を……"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "ひょっとして、私が知らないお祭りとかだったんでしょうか？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "いやいや！そんなわけないでしょ！"
+    },
+    {
+      "Text": "[s] \"「権利者」……「リゾート狩り」……。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あの、シズコさん。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "つかぬ事をお聞きしますが……「リゾート使用権」などが当たったりしましたか？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "え？いや、私たちは……"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "フッフッフ……。\n実は、私たちお祭り運営委員会は「リゾート使用権」を正式に購入したのです！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "あくまで事業の一環として、だけどね。"
+    },
+    {
+      "Text": "[s] \"「購入」ということは、あの穴だらけの契約書にサインを？\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "え？穴だらけって、どういうことですか？"
+    },
+    {
+      "Text": "[s] \"ん？\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "んん？"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "えっと……どうも話が噛み合ってないみたいですね。"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "アヤネさんは何かご存知ですか？"
+    },
+    {
+      "Name": "ミモリ",
+      "Text": "先生と一度こちらにいらしたと仰ってましたし。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "それが……私もこの状況をどう説明すればいいのか……。"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "えっ？先生、ここに来たことあるんですか？"
+    },
+    {
+      "Text": "[s] \"えっと……実は、この群島全体で「リゾート狩り」というのが起きてるんだ。\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "それって、さっきのスケバンたちが言っていたヤツですよね？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "えっと……あの契約書には不備があって……\n他にも権利を持っていると主張している人がいる……？どうして……？"
+    },
+    {
+      "Text": "（混乱しているシズコに、現在ここで起きている事の説明をすることに）"
+    },
+    {
+      "Text": "[s] \"まず、シズコが持っている使用権を確認しようか。\""
+    },
+    {
+      "Text": "（本契約書の契約者は、「ロスト・パラダイス・リゾート」の「使用権限」を得る）"
+    },
+    {
+      "Text": "（上記の「使用権限」とはリゾート内全ての土地、備品及び設備にする権限及び\n　それにより得た全ての収益と資源もまた所有できるものとして）"
+    },
+    {
+      "Text": "（契約書の所有者はその全ての権利を保障されるものする）"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "……えっと、契約内容はちゃんと合意したものですけど……\nどの辺に不備があるんですか？"
+    },
+    {
+      "Text": "[s] \"問題はその契約書……水着スケバンを含めて複数人が持っているんだ。\""
+    },
+    {
+      "Text": "（アビドスでセリカがくじに当選して「リゾート使用権」を手に入れたこと、\n　そしてヘルメット団も同じようなものを持っていたことを話した）"
+    },
+    {
+      "Text": "（最初はまるで島だけに限られた使用権のように見えていた契約書が、実際にはこの\n「ロスト・パラダイス・リゾート」群島全体の権利を含めている契約書であること）"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "つまり……先生の仰る通りであれば、「ロスト・パラダイス・リゾート」には\n私たち以外にも同じ契約書を持った方が集まっていて――"
+    },
+    {
+      "Name": "ウミカ",
+      "Text": "契約書の不備に気付いて、お互いに自分の利権を主張するため「リゾート狩り」をしているという事ですね！？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "いや、それこそ意味がわからないですよ！\nっていうか、先生はどうしてそんなこと――"
+    },
+    {
+      "Text": "[s] \"ついさっきまでアヤネ達とその騒動に巻き込まれていて……。\""
+    },
+    {
+      "Text": "[ns]（そういえば、この群島のどこかにまだシロコたちが……）"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "わわっ！また敵襲ですか！？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "今度は誰！？これで6回目よ！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "は～い、しゅ～ご～う。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "みんなで仲良く！登場です☆"
+    },
+    {
+      "Text": "[s] \"あ、あれは……！！\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "やっと見つけたわよ！「リゾート狩り」の元凶！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "百鬼夜行連合学院のお祭り運営委員会ってのはあんた達？\n私たちを騙したツケ、ここで払ってもらうんだから！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "そう、これは……正義の裁き。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ふふ☆「正義」の裁きですよ～。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "それじゃあ、みんな。準備はいい～？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ええ、行くわよ！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "………………えっ？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "えええええっ！？あ、あれ、先輩たちですよね！？"
+    },
+    {
+      "Text": "[ns] \"……もう、何がなんだか……。\""
+    },
+    {
+      "Name": "シズコ",
+      "Text": "これって……"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "一体どういう状況なのよぉぉぉぉおお！？"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "프롤로그;여름은 아직 끝나지 않은 채로"
+    },
+    {
+      "Name": "아야네",
+      "Text": "앗, 도착했어요. 선생님! "
+    },
+    {
+      "Text": "[s1] \"헬기로 여기까지 데려다줘서 고마워.\""
+    },
+    {
+      "Text": "[s2] \"아야네도 바쁠 텐데. 수고했어.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "아뇨! 별말씀을요!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "모두에게 선생님을 샬레까지 안전하게 모셔 드리고 온다고 약속했으니까요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "자, 이러고 있을 게 아니라. 짐을 가지고 얼른 샬레의 사무실로……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어라……? 선생님, 샬레 입구 앞에 누군가가……."
+    },
+    {
+      "Text": "[s] \"응?\""
+    },
+    {
+      "Name": "???",
+      "Text": "어라~ 선생님. 혹시 휴가를 다녀오시는 참이신가요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "후후후~ 그것도 이렇~게나 귀여운 아이와 함께~?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네, 네엣?! 귀, 귀여……?!"
+    },
+    {
+      "Name": "니야",
+      "Text": "어머나~ 마치 카호와 처음 만났을 때가 생각나는 풋풋한 반응~"
+    },
+    {
+      "Name": "니야",
+      "Text": "우후후~ 귀여워라~"
+    },
+    {
+      "Text": "[s] \"어라, 니야……?\""
+    },
+    {
+      "Name": "미모리",
+      "Text": "니야 씨, 선생님도 그렇고, 타교의 학생분까지 당황하고 계시잖아요. 지금은 따로 급한 일이 있어 찾아뵌 거니까……."
+    },
+    {
+      "Name": "니야",
+      "Text": "실례했네요~ 그냥 무척 재미있는 광경이다 싶어서~"
+    },
+    {
+      "Text": "[s] \"거기에 미모리도 함께라니, 의외의 조합……\""
+    },
+    {
+      "Name": "니야",
+      "Text": "잡담은 이 정도로 해두고."
+    },
+    {
+      "Name": "니야",
+      "Text": "선생님. 백귀야행의 학생으로서 정식으로 용무가 있어 찾아뵈었답니다~"
+    },
+    {
+      "Name": "피나",
+      "Text": "우와아앙~! 선생님! 큰일이 나버렸습니다!"
+    },
+    {
+      "Name": "피나",
+      "Text": "부장이……! 부장과 우미카가……!"
+    },
+    {
+      "Text": "[s] \"피나까지, 무슨 소리야? 시즈코에게 무슨 일이라도 생긴 거야?\""
+    },
+    {
+      "Name": "미모리",
+      "Text": "그게…… 아무래도 시즈코 쨩이 곤경에 처한 모양이에요."
+    },
+    {
+      "Text": "[s] \"알았어. 그럼 일단 백야당으로 가서 시즈코에게 자세한 이야기를…….\""
+    },
+    {
+      "Name": "니야",
+      "Text": "아, 시즈코 양이라면 지금 백야당에 없답니다."
+    },
+    {
+      "Name": "피나",
+      "Text": "부장은 바다에 갔습니다!"
+    },
+    {
+      "Text": "[s] \"……바다?\""
+    },
+    {
+      "Name": "니야",
+      "Text": "네, 전해 듣기로는 현재 마츠리부의 부장이 가 있는 곳의 이름이 분명……."
+    },
+    {
+      "Name": "니야",
+      "Text": "……<로스트 파라다이스 리조트> 라고 하는 곳이었던가요?"
+    },
+    {
+      "Text": "[s] \"<로스트 파라다이스 리조트>……? 어디선가 들어본 듯한…….\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "저희가 있던, 그곳…… 말인가요?"
+    },
+    {
+      "Text": "[s] \"……응?\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "네! 여러분, 도착했어요."
+    },
+    {
+      "Name": "치세",
+      "Text": "응. 도착했어~"
+    },
+    {
+      "Name": "미모리",
+      "Text": "이곳이로군요. <로스트 파라다이스 리조트>라는 곳이……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "정확히 말하자면 조금 다르지만요……."
+    },
+    {
+      "Text": "[s] \"아비도스 건으로 바쁠 텐데, 고마워. 아야네가 데려다줘서 살았네.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "네? 아, 아뇨. 저도 마침 돌아가 봐야 했으니까요. 이렇게 선생님과 다시 같이 오게 될 줄은 몰랐지만요……."
+    },
+    {
+      "Name": "니야",
+      "Text": "모두 무사히 도착하신 모양이네요~♪"
+    },
+    {
+      "Text": "[s] \"그러는 니야는 정작 오지 않았지만 말이야…….\""
+    },
+    {
+      "Name": "니야",
+      "Text": "냐하핫~ 물론 저와 여름 바다를 거닐고 싶어하시는 선생님의 뜨~겁고 열렬한 마음은 이해하지마안~"
+    },
+    {
+      "Name": "니야",
+      "Text": "저 니야, 음양부 부장된 몸으로서 함부로 자리를 비울 순 없기에"
+    },
+    {
+      "Name": "니야",
+      "Text": "대신이랄까. 그 자리엔 치세와 미모리 씨도 함께 계시옵사오니, 제게 보내주실 애정은 그 두 분에게 전달 부탁드리옵지요~"
+    },
+    {
+      "Text": "[s] \"뭐, 그런 걸로 해두자.\""
+    },
+    {
+      "Name": "미모리",
+      "Text": "아하하……."
+    },
+    {
+      "Name": "치세",
+      "Text": "응, 니야 부장 대신, 힘낼게-"
+    },
+    {
+      "Name": "피나",
+      "Text": "선생님! 죄송합니다-! 피나도! 마음 같아선 부장이 위기란 걸 알고, 그곳까지 함께 달려가고 싶었지만!"
+    },
+    {
+      "Name": "피나",
+      "Text": "피나에겐……! 백야당의 구역을 지켜야 하는 사명이……!"
+    },
+    {
+      "Text": "[s] \"으응, 괜찮아. 여긴 우리에게 맡겨줘.\""
+    },
+    {
+      "Name": "피나",
+      "Text": "네! 선생님……! 아니! 두목!"
+    },
+    {
+      "Name": "니야",
+      "Text": "마츠리 부의 부장이라면, 그곳에 있는 <바다의 집>에 있을 거예요."
+    },
+    {
+      "Text": "[s] \"<바다의 집>이란 말이지…….\""
+    },
+    {
+      "Text": "[ns] \"으, 응?!\""
+    },
+    {
+      "Name": "미모리",
+      "Text": "선생님! 저쪽에서 소란이에요!"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "가, 강해! 역시나 이것이 <로스트 파라다이스 리조트>에서 리조트 사냥을 기획한 흑막의 힘인가!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "우습게 볼 수 없구나! 백귀야행 학원의 마츠리운영관리부!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "그! 러! 니! 까! 당신네들이 무슨 소리를 하는지, 전혀 모르겠다니까?!"
+    },
+    {
+      "Name": "우미카",
+      "Text": "맞아요! 갑자기 쳐들어와서 장사를 방해하기나 하고!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "오늘만 해도 벌써 다섯 번째 습격이에요!"
+    },
+    {
+      "Name": "불량배 A",
+      "Text": "이런 와중에도 모른 척하기라니 역시 뒤로 음흉한 꿍꿍이를 가진 흑막답군!"
+    },
+    {
+      "Name": "불량배 B",
+      "Text": "지금은 비록 후퇴하지만! 우리가 이대로 끝날 거라고 생각하지 마라!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "뭔가…… 이겼는데도 전혀 개운한 기분이 아니야?!"
+    },
+    {
+      "Text": "[s] \"시즈코?\""
+    },
+    {
+      "Name": "미모리",
+      "Text": "시즈코 쨩……!"
+    },
+    {
+      "Name": "치세",
+      "Text": "안녕~~ 너구리 씨~~"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "앗?! 선생님이랑…… 다른 사람들까지?"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군!"
+    },
+    {
+      "Name": "우미카",
+      "Text": "샬레의 선생님께서 방문을? "
+    },
+    {
+      "Text": "[s] \"저기…… 무슨 일이 있는 거야?\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "으……."
+    },
+    {
+      "Name": "시즈코",
+      "Text": "우와아앙~! 선생님~! 하루 종일 진짜 난리도 아니었어요-!"
+    },
+    {
+      "Text": "백야당 로스트 파라다이스 리조트 지점"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군께서 직접 찾아와주시다니-!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "앗! 혹시 이즈나의 활약을 지켜보러 오신 건가요?! 닌닌!"
+    },
+    {
+      "Text": "[s] \"따로 볼일이 있었달까……. 이즈나까지 여기 있는 건 좀 의외네.\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "이즈나는 시즈코 공의 부탁으로 호위 임무를 진행하고 있었어요!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "필시! 시즈코 공이 미래에 키보토스 최강의 닌자가 될 이즈나의 가능성을 알아본 거예요!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "응……?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "아니, 난 그냥 닌자의 가능성에 대해 좀 깨달았달까"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "홍보 효과를 위해서라고 할까."
+    },
+    {
+      "Name": "이즈나",
+      "Text": "네엣?! 이즈나의 진가를 알아보고 닌자로서 임무를 맡긴 게 아니었나요!?"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "(시무룩)"
+    },
+    {
+      "Text": "[s] \"이즈나는 귀엽고 멋지니까. 아르바이트생도 어울려!\""
+    },
+    {
+      "Name": "이즈나",
+      "Text": "앗?! 주군?! 그런 건가요?! 에헤헷-!"
+    },
+    {
+      "Text": "[s3] \"그건 그렇고 니야와 피나에게 들었어.\""
+    },
+    {
+      "Text": "[s4] \"백야당의 모두가, 시즈코랑 우미카가 곤경에 처한 것 같다고.\""
+    },
+    {
+      "Name": "우미카",
+      "Text": "앗~ 말씀대로 곤경이라면 곤경이겠네요~ 그도 그럴게~"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "……선생님! 벌써 다섯 번이에요! 고작 반나절 만에 문제아들에게 습격을 받은 횟수가!"
+    },
+    {
+      "Text": "[s] \"그건 고생이었겠네…….\""
+    },
+    {
+      "Name": "우미카",
+      "Text": "네~ 오늘 가게를 오픈하자마자, 문제아분들이 몰려들어서는 <최종 권리자를 쓰러트리겠다>라느니, <리조트 사냥이다!> 라느니 하면서 외치시던 게"
+    },
+    {
+      "Name": "우미카",
+      "Text": "혹시 제가 모르는 축제의 일종이었던 걸까요?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "아니아니아니! 그럴 리 없지!"
+    },
+    {
+      "Text": "[s] \"주최자…… 거기에 리조트 사냥이라면…….\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "저기……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "혹시 시즈코 씨도 <리조트 사용권>에 당첨되어서 여기 오신 건가요?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "응? 아니, 우리는……."
+    },
+    {
+      "Name": "우미카",
+      "Text": "후후- 저희 마츠리운영관리부는 이곳 <로스트 파라다이스 리조트의 사용권>을 정식으로 구매해서 찾아왔어요!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "네. 어디까지나 사업의 일환으로……."
+    },
+    {
+      "Text": "[s] \"당첨이 아니라 구매……? 그 허점투성이의 계약서를……?\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "네? 허점투성이……? 무슨, 말씀이신가요?"
+    },
+    {
+      "Text": "[s] \"응?\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "……??"
+    },
+    {
+      "Name": "미모리",
+      "Text": "……저기 뭔가, 아무래도 서로 오해가 있는 모양이에요."
+    },
+    {
+      "Name": "미모리",
+      "Text": "아야네 양. 알고 계신 게 있지 않으신가요?"
+    },
+    {
+      "Name": "미모리",
+      "Text": "선생님과 먼저 이곳에 계셨다고 들었는데요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "저기, 그게 말이죠. 저도 이걸 어떻게 설명해야 할지……."
+    },
+    {
+      "Name": "시즈코",
+      "Text": "선생님께선 이미 이곳에 와 계셨다……?"
+    },
+    {
+      "Text": "[s] \"일단 시즈코. 이곳 군도 전체에서 <리조트 사냥>이란 게 일어나고 있어.\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "수영복 불량배들이 말했던, 그거 말인가요……?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "계약서에 허점이 있어서, 그 권리를 가졌다고 주장하는 사람들이 모두 이 군도에서 치고받고 싸우고 있다……?"
+    },
+    {
+      "Text": "(여전히 혼란스러워하는 시즈코를 위해, 현재 이곳에서 벌어지고 있는 일에 대한 자세한 내막을 설명하기 시작했다.)"
+    },
+    {
+      "Text": "[s] \"시즈코가 가지고 있는 사용권엔 이런 조항이 있을 거야.\""
+    },
+    {
+      "Text": "(본 계약서의 계약자는, <로스트 파라다이스 리조트>의 '사용 권한'을 얻는다.)"
+    },
+    {
+      "Text": "(상기한 '사용 권한'이란 리조트의 모든 토지, 물품 및 설비 일체의 권한과 그로 인해 창출된 모든 수익과 자원 또한 소유할 수 있는 것으로서)"
+    },
+    {
+      "Text": "(계약서의 소유자는 그 모든 권리를 '절대적'으로 보장받는다.)"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "……네. 이건 계약서니까. 그건 당연한……"
+    },
+    {
+      "Text": "[s] \"문제는 그 계약서, 수영복 불량배를 포함해 가지고 있는 사람이 더 있을 거야.\""
+    },
+    {
+      "Text": "(아비도스에서 세리카가 당첨되어 그 <리조트 사용권>을 가지게 된 일, 그리고 헬멧단 또한 같은 걸 가지고 있었단 사실을 이야기했다.)"
+    },
+    {
+      "Text": "(그리고 그것이 처음엔 마치 섬 하나에 국한된 사용권처럼 포장되었지만, 실제로는 이곳 <로스트 파라다이스 리조트> 군도 전체의 권리를 포함하고 있는 계약서란 것까지 전부.)"
+    },
+    {
+      "Name": "우미카",
+      "Text": "즉 선생님의 말씀대로라면, 이곳 <로스트 파라다이스 리조트>에는 저희 말고도 같은 계약서를 가진 다수의 분들이 모여 있고."
+    },
+    {
+      "Name": "우미카",
+      "Text": "계약서의 허점을 뒤늦게 깨닫고는, 각자 서로가 가진 걸 빼앗기 위해 <리조트 사냥>이라는 이름으로 와장창하고 있단 말씀이로군요?!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "아니아니아니, 저기, 영문을 모르겠는……데요? 그보다 선생님은 어떻게 그런 걸-"
+    },
+    {
+      "Text": "[s] \"바로 직전까지 아야네랑 현재진행형으로 그 사건에 휘말리고 있었거든.\""
+    },
+    {
+      "Text": "[ns] (그러고 보면 아직 아비도스 아이들도 이 군도에 있을 텐데……)"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "앗! 또 적습인가요?!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "우와아앙~! 이걸로 여섯 번째라구?! 이번엔 또 누구얏?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "이리 오너라~"
+    },
+    {
+      "Name": "노노미",
+      "Text": "모두 다 함께 등장이에요☆"
+    },
+    {
+      "Text": "[s] \"앗, 잠깐?! 너희들……?!\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "드디어 찾았어! 이 <리조트 사냥>의 원흉!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "너희가 백귀야행 학원의 마츠리운영관리부지?! 우릴 속이고 고생시킨 대가를 톡톡히 치르게 해주겠어!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 정의의 심판이야."
+    },
+    {
+      "Name": "노노미",
+      "Text": "후후☆ 정의의 심판이에요~"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그럼 모두~ 해치울까~?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "간다앗!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아…………"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아아아앗?! 서, 서, 선배들?!?!"
+    },
+    {
+      "Text": "[ns] \"……이젠 대체 뭐가 뭔지…….\""
+    },
+    {
+      "Name": "시즈코",
+      "Text": "그러니까……"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "이게 대체 무슨 상황인 거냐구우우우?!?!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Prologue;Summer Isn't Over Yet"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We've arrived, Sensei.  "
+    },
+    {
+      "Text": "[s1] \"Thanks for the helicopter ride.\""
+    },
+    {
+      "Text": "[s2] \"I know you're busy, Ayane. Thank you.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Don't mention it!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I promised everyone I'd bring you back to Schale safely."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Here. I'll help you bring your luggage in."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh? Sensei... There's someone blocking the entrance."
+    },
+    {
+      "Text": "[s] \"Hm?\""
+    },
+    {
+      "Name": "???",
+      "Text": "Ah, Sensei! Are you coming back from vacation?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Heehee. You're living the high life. Vacations AND cute girls?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "H-Huh?! C-Cute...?!"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Aww, your reaction reminds me of the first time I met Kaho."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Heehee. You're just adorable."
+    },
+    {
+      "Text": "[s] \"...Niya...?\""
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Niya, please focus on our urgent business. I believe your actions are embarrassing Sensei and their student."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Heehee. I just couldn't help myself. Sorry, sorry."
+    },
+    {
+      "Text": "[s] \"Mimori too... What an unexpected combination...\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Okay. Enough small talk."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Sensei, I'm here on official business as a Hyakkiyako student."
+    },
+    {
+      "Name": "Pina",
+      "Text": "Waaah! Sensei! We're in trouble! Big trouble!"
+    },
+    {
+      "Name": "Pina",
+      "Text": "The president...! The president and Umika...!"
+    },
+    {
+      "Text": "[s] \"Pina?! Did something happen to Shizuko?\""
+    },
+    {
+      "Name": "Mimori",
+      "Text": "You see, it seems Shizuko is in a spot of trouble."
+    },
+    {
+      "Text": "[s] \"I'll talk to her. Let's go to Momoyodou.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "That's the crux of the problem. That's not where she is."
+    },
+    {
+      "Name": "Pina",
+      "Text": "The president is at the beach!"
+    },
+    {
+      "Text": "[s] \"...The beach?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Yes, I was told the president of the Festival Department is in a place called..."
+    },
+    {
+      "Name": "Niya",
+      "Text": "...The Lost Paradise Resort."
+    },
+    {
+      "Text": "[s] \"The Lost Paradise Resort... It can't be...\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "B-But... Isn't that where we just were?"
+    },
+    {
+      "Text": "[s] \"...It is.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We've arrived safely, everyone."
+    },
+    {
+      "Name": "Chise",
+      "Text": "Yay. We're here."
+    },
+    {
+      "Name": "Mimori",
+      "Text": "This is the Lost Paradise resort?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It...exceeds expectations in many ways."
+    },
+    {
+      "Text": "[s] \"Thanks for bringing us here. You have a lot on your plate already.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "O-Oh! No, please don't thank me! I had to return anyway... I just wasn't expecting it to be with you."
+    },
+    {
+      "Name": "Niya",
+      "Text": "It looks like everyone arrived safely! ♪"
+    },
+    {
+      "Text": "[s] \"Why didn't you come, Niya...?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ahaha! Are you asking me on a romantic beach date, Sensei?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Unfortunately, as the president of the Yin-Yang Club, I can't just slip away whenever I please."
+    },
+    {
+      "Name": "Niya",
+      "Text": "So I sent Chise and Mimori on my behalf. Please take care of them for me!"
+    },
+    {
+      "Text": "[s] \"That sounds like an excuse...\""
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Ha...haha..."
+    },
+    {
+      "Name": "Chise",
+      "Text": "Yes. I will do my best on behalf of the president."
+    },
+    {
+      "Name": "Pina",
+      "Text": "Sensei! I'm sorry! Knowing that the president is in crisis, I wanted to go too!"
+    },
+    {
+      "Name": "Pina",
+      "Text": "But I have a mission to protect the Momoyodou area...!"
+    },
+    {
+      "Text": "[s] \"Do your job. We got this.\""
+    },
+    {
+      "Name": "Pina",
+      "Text": "Yes, Sensei...! I mean, boss!"
+    },
+    {
+      "Name": "Niya",
+      "Text": "The president of the Festival Department should be at the Beach Shack."
+    },
+    {
+      "Text": "[s] \"The Beach Shack, you say...\""
+    },
+    {
+      "Text": "[ns] \"H-Huh?!\""
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Sensei! Let us investigate the commotion."
+    },
+    {
+      "Name": "Thug A",
+      "Text": "Th-That power. Is this the evil power that planned the Resort Hunt?!"
+    },
+    {
+      "Name": "Thug B",
+      "Text": "We can't underestimate the Festival Operations Department of the Hyakkiyako Academy!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "I told you! I have no idea what you're talking about!"
+    },
+    {
+      "Name": "Umika",
+      "Text": "You're the ones who barged into our business unprovoked!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Th-Th-This is the fifth time today!"
+    },
+    {
+      "Name": "Thug A",
+      "Text": "A liar to the end, I see."
+    },
+    {
+      "Name": "Thug B",
+      "Text": "We may be retreating now, but you better watch your back!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "I...I don't really feel like we won."
+    },
+    {
+      "Text": "[s] \"Shizuko?\""
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Shizuko...!"
+    },
+    {
+      "Name": "Chise",
+      "Text": "Hi. Little raccoon!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Huh?! Sensei...and others?!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "My lord!"
+    },
+    {
+      "Name": "Umika",
+      "Text": "Schale's Sensei?!  "
+    },
+    {
+      "Text": "[s] \"Umm... Nice day at the beach?\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "W... Wa..."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "WAAAH! Sensei! It's been such a terrible day!"
+    },
+    {
+      "Text": "Momoyodou of the Lost Paradise Resort"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "I can't believe you came all the way here, my lord!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Have you come to evaluate Izuna's progress? Nin nin!"
+    },
+    {
+      "Text": "[s] \"This was actually a pleasant surprise.\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Wow! It must've been fate then! Izuna is here on an escort mission, at Shizuko's request!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Shizuko recognized Izuna's potential to be the strongest ninja in all of Kivotos and hired her!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Oh, no. I just saw the potential in ninjutsu as a concept."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "It'll be great for promotional events!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "What?! You mean you didn't think Izuna was a super-cool, super-strong ninja?!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "(disappointed)"
+    },
+    {
+      "Text": "[s] \"Izuna, being a part-timer is an important job too.\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Really?! If my lord says so, Izuna has to do her best!"
+    },
+    {
+      "Text": "[s3] \"Anyway, Niya and Pina sent me here.\""
+    },
+    {
+      "Text": "[s4] \"Everyone was saying that Shizuko and Umika are in trouble.\""
+    },
+    {
+      "Name": "Umika",
+      "Text": "I suppose we're in a spot of trouble..."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Sensei! We've already been attacked five times just today! Five! Times!"
+    },
+    {
+      "Text": "[s] \"I'm sorry that happened...\""
+    },
+    {
+      "Name": "Umika",
+      "Text": "All we did was open up shop, and gangsters were swarming us screaming, \"We'll defeat the proprietor!\" and other strange things."
+    },
+    {
+      "Name": "Umika",
+      "Text": "Perhaps this \"Resort Hunt\" they referred to is a fun festival?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Why would they be attacking us over a festival?!"
+    },
+    {
+      "Text": "[s] \"The proprietor...and the Resort Hunt...\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Pardon me, but..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "By any chance, did you win a resort vacation to this place?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Huh? Not exactly, I mean..."
+    },
+    {
+      "Name": "Umika",
+      "Text": "Heehee. The Festival Operations Department purchased a contract for the Lost Paradise Resort and came here!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Yes, as a part of our business."
+    },
+    {
+      "Text": "[s] \"You didn't read the fine print, did you?\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Fine print? What do you mean?"
+    },
+    {
+      "Text": "[s] \"Hm?\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "...?"
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Um, there appears to be some sort of misunderstanding."
+    },
+    {
+      "Name": "Mimori",
+      "Text": "Ayane, are you able to enlighten us?"
+    },
+    {
+      "Name": "Mimori",
+      "Text": "You came here on vacation with Sensei, correct?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Oh, yes...but that's... Well, it's difficult to explain."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Can Sensei explain for us, then?"
+    },
+    {
+      "Text": "[s] \"The Resort Hunt you heard about is happening all over the archipelago.\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "That's why those Swimsuit Thugs are here?"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And because of some loophole, people are all fighting each other to stake their claims?"
+    },
+    {
+      "Text": "I went on to explain all of the details of the Resort Hunt to them."
+    },
+    {
+      "Text": "[s] \"You should be able to see it on your contract.\""
+    },
+    {
+      "Text": "The owner of this contract obtains the \"right to use\" the Lost Paradise Resort."
+    },
+    {
+      "Text": "The above \"right to use\" refers to the rights of all land, goods, and facilities of the resort, as well as all revenue and resources generated by the resort."
+    },
+    {
+      "Text": "The owner's rights are \"absolute\"."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "I don't see anything wrong with this contract."
+    },
+    {
+      "Text": "[s] \"The problem lies in the fact that everyone has the same contract.\""
+    },
+    {
+      "Text": "I told her how Serika won the \"vacation\" in Abydos and how the Helmet Gangsters had a contract as well."
+    },
+    {
+      "Text": "I also explained how the contract appeared exclusive to one island, but in fact included rights for the entire archipelago of the Lost Paradise resorts."
+    },
+    {
+      "Name": "Umika",
+      "Text": "What you're saying is many people came to the Lost Paradise Resort with the same contract as us."
+    },
+    {
+      "Name": "Umika",
+      "Text": "And this Resort Hunt began when they realized there was a loophole and began fighting for ownership."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Wait, wait, wait. This is crazy! How do you even know all this?"
+    },
+    {
+      "Text": "[s] \"Ayane and I had to find out the hard way.\""
+    },
+    {
+      "Text": "[ns] \"(Come to think of it, the Abydos students should still be here...)\""
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Ack! Another dishonorable ambush?!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Five times a day is more than enough! Leave us alone!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "This way!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Reporting for duty! ☆"
+    },
+    {
+      "Text": "[s] \"...You guys...?\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "We've come to take down the criminals behind the Resort Hunt."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Hyakkiyako Academy's Festival Operations Department! I'll never forgive your lies and deceit!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Yeah. It's time for justice."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Yup, yup! Righteous justice! ☆"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Let's get them!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "You don't have to tell me twice!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Oh, dear."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "H-H-Hey! What are you doing?!"
+    },
+    {
+      "Text": "[ns] \"...I have no explanation.\""
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Wh—"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "What the heck is going on here?!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "บทเริ่มต้น;ยังไม่ทันจบฤดูร้อน"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ๊ะ มาถึงแล้วค่ะคุณครู! "
+    },
+    {
+      "Text": "[s1] \"ขอบใจที่ขับเฮลิคอปเตอร์มาส่งถึงที่นี่เลยนะ\""
+    },
+    {
+      "Text": "[s2] \"อายาเนะเองก็น่าจะงานยุ่ง ขอบใจนะ\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไม่เป็นไรค่ะ ฉันยินดีมากเลยละค่ะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ก็ฉันสัญญากับทุกคนไว้ว่าจะส่งคุณครูให้ถึงชาเล่ต์อย่างปลอดภัยนี่คะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เอาละ นี่ไม่ใช่เวลามาโอ้เอ้อยู่ ต้องรีบขนของไปสำนักงานชาเล่ต์..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เอ๋...? คุณครูคะ มีใครบางคนอยู่หน้าทางเข้าชาเล่ต์..."
+    },
+    {
+      "Text": "[s] \"หืม?\""
+    },
+    {
+      "Name": "???",
+      "Text": "อ๊ะ~ คุณครู เพิ่งกลับมาจากพักร้อนเหรอคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฮุฮุฮุ~ แถมยังกลับมากับเด็กน่ารักๆ~ แบบนี้ด้วย"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ... คะ?! นะ... น่ารัก...?!"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ตายจริง~ ปฏิกิริยาที่มีชีวิตชีวาแบบนี้~ เหมือนตอนที่ได้เจอคาโฮะเป็นครั้งแรกเลย~"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อุฮุฮุ~ น่ารักจังเลยน้า~"
+    },
+    {
+      "Text": "[s] \"นิยะ...?\""
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "คุณนิยะ ตอนนี้ทั้งคุณครูและคุณนักเรียนจากโรงเรียนอื่นกำลังสับสนแล้วนะคะ เรามาที่นี่\nก็เพราะมีเรื่องด่วน เพราะฉะนั้น..."
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ขอโทษที่เสียมารยาทนะคะ~ ฉันก็แค่คิดว่าภาพตรงหน้ามันน่าสนุกดี~"
+    },
+    {
+      "Text": "[s] \"ทำไมมาอยู่กับมิโมริได้ล่ะ... เป็นการรวมตัวที่คาดไม่ถึงเลย...\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "เลิกคุยเล่นแล้วมาเข้าเรื่องกันเลยดีกว่า"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "คุณครูคะ ฉันมาที่นี่อย่างเป็นทางการในฐานะนักเรียนเฮียกคิยาโค เพราะมีภาระงานที่ต้องทำค่ะ"
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "ว้ากกกก~! คุณครู! เกิดเรื่องใหญ่แล้วละค่ะ!"
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "หัวหน้าน่ะ...! หัวหน้ากับอุมิกะ...!"
+    },
+    {
+      "Text": "[s] \"พีน่าก็มาด้วย? เกิดอะไรขึ้นกับชิซุโกะงั้นเหรอ?\""
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "คือว่า... ชิซุโกะจังกำลังตกอยู่ในสถานการณ์ที่ยากลำบากน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"เข้าใจแล้ว ครูจะรีบไปที่ร้านเฮียกคิยาโคแล้วฟังเรื่องราวจากชิซุโกะ...\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อา... ตอนนี้ชิซุโกะไม่ได้อยู่ที่ร้านเฮียกคิยาโคค่ะ"
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "หัวหน้าออกไปที่ทะเลแล้วค่ะ!"
+    },
+    {
+      "Text": "[s] \"ทะเล...?\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ใช่ค่ะ จากที่ได้ยินมา ที่ที่หัวหน้าชมรมเทศกาลไปอยู่ตอนนี้ก็คือ..."
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "<ลอสต์ พาราไดซ์ รีสอร์ต> อะไรนี่สักอย่างนี่แหละค่ะ"
+    },
+    {
+      "Text": "[s] \"<ลอสต์ พาราไดซ์ รีสอร์ต>...? เหมือนเคยได้ยินที่ไหนมาก่อนเลย...\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ที่ที่พวกฉันอยู่... ใช่ที่นั่นมั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"หืม...?\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มาถึงแล้วค่ะทุกคน!"
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "อื้ม มาถึงแล้ว~"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "ที่นี่เองเหรอคะ <ลอสต์ พาราไดซ์ รีสอร์ต>..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ถ้าจะพูดให้ชัดเจนละก็ มันค่อนข้างจะ..."
+    },
+    {
+      "Text": "[s] \"แค่เรื่องของอะบิดอสก็น่าจะยุ่งมากแล้ว ขอบใจนะที่มาส่งนะ\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ? มะ... ไม่ขนาดนั้นหรอกค่ะ ฉันต้องมาที่นี่อยู่แล้วน่ะค่ะ แต่ไม่คิดเลยว่าจะได้มากับคุณครูอีกรอบ..."
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ท่าทางทุกคนจะไปถึงกันโดยสวัสดิภาพนะคะ~♪"
+    },
+    {
+      "Text": "[s] \"อื้ม ถึงนิยะจะไม่ได้ตามมาด้วยก็เถอะ...\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อะฮ่าฮ่า~ ฉันรู้ค่ะว่าคุณครูร้อนรุ่มใจ~ อยากเดินเล่นริมทะเลฤดูร้อนกับฉันมากแค่ไหน~"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "แต่ในฐานะของหัวหน้าชมรมหยินหยาง ฉันคงไปจากที่นี่โดยพลการไม่ได้"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ก็เลยส่งคุณชิเซะกับคุณมิโมริไปเป็นตัวแทนอยู่กับคุณครูที่นั่น หากจะส่งความรักอะไรให้ฉัน ก็ฝากสองคนนั้นมานะคะ~"
+    },
+    {
+      "Text": "[s] \"เอาที่สบายใจแล้วกัน...\""
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "แหะๆๆ..."
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "อื้ม ฉันจะเป็นตัวแทนของหัวหน้าเอง..."
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "คุณครู! ซอรี่ค่ะ! พอรู้ว่าหัวหน้าตกอยู่ในวิกฤต ใจจริงพีน่าก็อยากจะตามไปถึงที่นั่นเลย!"
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "แต่ว่าพีน่า...! มีภารกิจต้องปกป้องพื้นที่ร้านเฮียกคิยาโค...!"
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรหรอก ปล่อยให้เป็นหน้าที่ของครูและคนทางนี้เถอะ\""
+    },
+    {
+      "Name": "พีน่า",
+      "Text": "ค่ะคุณครู...! ไม่สิ! บอส!"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "หัวหน้าชมรมเทศกาลน่าจะไปอยู่ที่ <ร้านริมทะเล> นะคะ"
+    },
+    {
+      "Text": "[s] \"<ร้านริมทะเล> งั้นเหรอ...\""
+    },
+    {
+      "Text": "[ns] \"เอ๊ะ... เอ๋?!\""
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "คุณครูคะ! มีเสียงชุลมุนมาจากทางโน้นค่ะ!"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "กะ... เก่งชะมัด! นี่สินะอำนาจมืดที่วางแผนล่ารีสอร์ตใน <ลอสต์ พาราไดซ์ รีสอร์ต>!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ประมาทพวกเธอไม่ได้จริงๆ นะ! ชมรมจัดงานเทศกาล สหพันธ์เฮียกคิยาโค!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ก็! บอก! อยู่! นี่! ไง! ว่าฉันไม่เข้าใจเลยว่าพวกคุณพูดเรื่องอะไรอยู่!!"
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "นั่นสิคะ! จู่ๆ ก็บุกเข้ามาขัดขวางกิจการกันอยู่ได้!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "แค่วันนี้วันเดียวก็บุกเข้ามาห้ารอบแล้วนะคะ!"
+    },
+    {
+      "Name": "นักเลง A",
+      "Text": "ยังจะมาแกล้งทำเป็นใสซื่ออยู่อีก สมแล้วที่เป็นอำนาจมืดที่มีเล่ห์เหลี่ยมแอบแฝง!"
+    },
+    {
+      "Name": "นักเลง B",
+      "Text": "ถึงตอนนี้พวกฉันจะต้องเผ่นแน่บไปก่อน! แต่ก็อย่าคิดนะว่าเรื่องมันจะจบแค่นี้!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ทำไมนะ... ทำไมถึงชนะแต่ก็ไม่ได้รู้สึกดีเลย?!"
+    },
+    {
+      "Text": "[s] \"ชิซุโกะ?\""
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "ชิซุโกะจัง...!"
+    },
+    {
+      "Name": "ชิเซะ",
+      "Text": "ว่าไง~~ คุณแรคคูน~~"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "อ๊ะ?! คุณครู... แล้วก็คนอื่นด้วย?"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นายท่าน!"
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "คุณครูจากชาเล่ต์มาเยี่ยมร้านเหรอ? "
+    },
+    {
+      "Text": "[s] \"เกิดเรื่องอะไรขึ้นเหรอ?\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เอ่อ..."
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ฮือออ~! คุณครู~! เกิดเรื่องวุ่นวายทั้งวันเลยค่ะ!"
+    },
+    {
+      "Text": "ร้านเฮียกคิยาโค สาขาลอสต์ พาราไดซ์ รีสอร์ต"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นายท่านมาหาพวกเราถึงที่นี่เลย!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อ๊ะ! หรือว่ามาดูฝีมือของอิซุนะเหรอคะ?! นินนิน!"
+    },
+    {
+      "Text": "[s] \"มีธุระอื่นต้องทำน่ะ... ว่าแต่ ทำไมอิซุนะถึงมาอยู่ที่นี่ล่ะ?\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อิซุนะได้รับคำขอร้องจากท่านชิซุโกะให้มาปฏิบัติภารกิจคุ้มกันค่ะ!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ท่านชิซุโกะเห็นความเป็นไปได้ที่อิซุนะจะเป็นสุดยอดนินจาแห่งคิโวทอสในอนาคตค่ะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เปล่านะ ฉันแค่เห็นว่านินจาน่าจะช่วยได้..."
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ช่วยในการโปรโมตร้านอะไรทำนองนี้น่ะ"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "คะ?! ไม่ได้เห็นคุณค่าที่แท้จริงของอิซุนะแล้วมอบหมายหน้าที่ในฐานะนินจาให้หรอกเหรอคะ!?"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "(หางลู่หูตก)"
+    },
+    {
+      "Text": "[s] \"อิซุนะทั้งน่ารักและเท่ เหมาะกับการเป็นเด็กพาร์ทไทม์เหมือนกันนะ\""
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อ๊ะ?! นายท่าน?! คิดอย่างนั้นเหรอคะ?! ฮิฮิฮิ!"
+    },
+    {
+      "Text": "[s3] \"ครูได้ยินเรื่องจากนิยะและพีน่ามาแล้วน่ะ\""
+    },
+    {
+      "Text": "[s4] \"ได้ยินว่าชิซุโกะและอุมิกะกำลังลำบากกันอยู่น่ะ\""
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "อ๊ะ~ พอมาคิดๆ ดูแล้ว~ จะเรียกว่ากำลังลำบากอยู่ตามที่พูดก็ได้ค่ะ~"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "คุณครูคะ! นี่ก็ห้าครั้งเข้าไปแล้วนะคะ! เพิ่งจะผ่านไปแค่ครึ่งวันเอง แต่พวกเด็กเจ้าปัญหาก็บุกมา\nถึงห้าครั้งแล้วค่ะ!"
+    },
+    {
+      "Text": "[s] \"คงจะเหนื่อยกันมากเลยนะ...\""
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "ค่ะ~ ตั้งแต่เปิดร้านวันนี้ พวกเด็กเจ้าปัญหาก็บุกเข้ามาแล้วบอกว่าจะ <จัดการผู้มีสิทธิ์ขั้นสุดท้าย> แล้วก็เอาแต่ตะโกนว่า <นี่คือการล่ารีสอร์ตนะ!> อะไรก็ไม่รู้"
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "หรือว่าที่นี่มีเทศกาลอะไรที่ฉันไม่รู้หรือเปล่าคะ?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ไม่ๆๆๆ! ไม่มีทาง!"
+    },
+    {
+      "Text": "[s] \"ผู้มีสิทธิ์ขั้นสุดท้าย... การล่ารีสอร์ต...\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คือว่า..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไม่ทราบว่าคุณชิซุโกะก็มาที่นี่เพราะได้ <ตั๋วใช้งานรีสอร์ต> หรือเปล่าคะ?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "หืม? ไม่นะ พวกฉันน่ะ..."
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "ฮุฮุ ชมรมจัดงานเทศกาลซื้อ <ตั๋วใช้งานรีสอร์ต ลอสต์ พาราไดซ์ รีสอร์ต> มาอย่างเป็นทางการ\nต่างหากค่ะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ใช่แล้ว นี่เป็นส่วนหนึ่งของการทำธุรกิจ..."
+    },
+    {
+      "Text": "[s] \"ไม่ได้ถูกรางวัล แต่ซื้อมา...? หนังสือสัญญาที่เต็มไปด้วยช่องโหว่นั่นน่ะนะ...?\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "คะ? เต็มไปด้วยช่องโหว่...? มะ... หมายถึงอะไรกันคะ?"
+    },
+    {
+      "Text": "[s] \"หืม?\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "......??"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "เอ่อ... ฉันว่าน่าจะมีการเข้าใจผิดกันอยู่นะคะ"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "คุณอายาเนะไม่รู้หรอกเหรอคะ?"
+    },
+    {
+      "Name": "มิโมริ",
+      "Text": "มาอยู่ที่นี่กับคุณครูก่อนพวกเราอีกไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เอ่อ... คือว่า ฉันก็ไม่รู้ว่าจะอธิบายยังไงดี..."
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "คุณครูมาอยู่ที่นี่ก่อนแล้วเหรอ...?"
+    },
+    {
+      "Text": "[s] \"ฟังนะชิซุโกะ ทั่วทั้งหมู่เกาะนี้กำลังมี <การล่ารีสอร์ต> อยู่\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "การล่ารีสอร์ต... ที่แยงกี้ชุดว่ายน้ำพวกนั้นพูดถึงเหรอคะ?"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ในหนังสือสัญญามีช่องโหว่ ทุกคนที่อ้างสิทธิ์นั้นก็เลยกำลังต่อสู้กันอยู่บนหมู่เกาะแห่งนี้...?"
+    },
+    {
+      "Text": "(เมื่อเห็นว่าชิซุโกะกำลังสับสน คุณครูก็เริ่มอธิบายเบื้องหลังเกี่ยวกับสิ่งที่เกิดขึ้นที่นี่ให้เธอฟังอย่าง\nละเอียด)"
+    },
+    {
+      "Text": "[s] \"ตั๋วใช้งานที่ชิซุโกะมีอยู่ น่าจะมีข้อกำหนดแบบนี้อยู่นะ\""
+    },
+    {
+      "Text": "(ผู้ทำสัญญาของหนังสือสัญญานี้ได้รับ 'สิทธิ์ในการใช้งาน' ลอสต์ พาราไดซ์ รีสอร์ต)"
+    },
+    {
+      "Text": "('สิทธิ์ในการใช้งาน' หมายถึงสิทธิ์ในที่ดินทั้งหมดของรีสอร์ต ของใช้ อุปกรณ์ทั้งหมด และสามารถเป็นเจ้าของทรัพยากร รวมถึงรายได้ทั้งหมดที่เกิดขึ้น)"
+    },
+    {
+      "Text": "(เจ้าของสัญญาจะได้รับสิทธิ์ทั้งหมดนี้ 'อย่างไม่มีข้อจำกัด')"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ค่ะ... เพราะนี่เป็นหนังสือสัญญา มันก็แน่อยู่แล้วที่..."
+    },
+    {
+      "Text": "[s] \"ปัญหาก็คือนอกจากพวกแยงกี้นั่น ยังมีคนอื่นอีกที่มีหนังสือสัญญานั้นอยู่\""
+    },
+    {
+      "Text": "(จากนั้นคุณครูก็เล่าให้ชิซุโกะฟังว่าเซริกะจากอะบิดอสเองก็มี <ตั๋วใช้งานรีสอร์ต> ที่ได้มา\nจากการถูกรางวัลและแก๊งหมวกกันน็อกก็มีสิ่งนี้อยู่เหมือนกัน)"
+    },
+    {
+      "Text": "(ตอนแรกมันถูกทำให้เชื่อว่าเป็นตั๋วใช้งานที่จำกัดเฉพาะเกาะๆ เดียว แต่ที่จริงแล้วมันเป็นหนังสือ\nสัญญาที่รวมสิทธิ์ของทั้งหมู่เกาะ <ลอสต์ พาราไดซ์ รีสอร์ต>)"
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "ถ้าเป็นตามอย่างที่คุณครูว่า ก็แปลว่าที่ <ลอสต์ พาราไดซ์ รีสอร์ต> แห่งนี้ยังมีคนอื่นที่มีหนังสือ\nสัญญาเหมือนกันกับพวกฉันอยู่"
+    },
+    {
+      "Name": "อุมิกะ",
+      "Text": "และพอรู้ถึงช่องโหว่ของหนังสือสัญญา แต่ละคนก็วุ่นวายกับการ <ล่ารีสอร์ต> เพื่อแย่งในสิ่งที่\nอีกฝ่ายมีงั้นเหรอคะ?!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "เดี๋ยวๆๆ ไม่เห็นจะเข้าใจสถานการณ์เลย...สักนิดค่ะ ว่าแต่ทำไมคุณครูถึงรู้..."
+    },
+    {
+      "Text": "[s] \"พอดีครูเพิ่งไปอยู่ในความวุ่นวายนั้นกับอายาเนะมาน่ะ\""
+    },
+    {
+      "Text": "[ns] (จะว่าไป เด็กๆ อะบิดอสน่าจะยังอยู่ในหมู่เกาะแห่งนี้นะ...)"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "อ๊ะ! ศัตรูมาจู่โจมอีกแล้วเหรอคะเนี่ย?!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ฮือออ~! งั้นนี่ก็ครั้งที่หกแล้วนะ?! ใครอีกล่ะคราวนี้?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "มานี่เลย~"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "มาพร้อมหน้าพร้อมตากันเลยค่ะ☆"
+    },
+    {
+      "Text": "[s] \"อ๊ะ เดี๋ยวนะ?! พวกเธอคือ...?!\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หาเจอจนได้! คนสั่งการ <ล่ารีสอร์ต>!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "พวกเธอคือชมรมจัดงานเทศกาลจากสหพันธ์เฮียกคิยาโคใช่มั้ย?! พวกเธอต้องชดใช้ที่มาหลอกกัน และทำให้พวกเราลำบาก!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม แบบนี้แหละยุติธรรม"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฮิฮิ☆ พิพากษาอย่างยุติธรรมไงคะ~"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ถ้างั้นทุกคนก็~ มาลุยกันเลยมั้ย~?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ลุยยย!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ๊าาาาา?! ระ... ระ... รุ่นพี่...?!?!"
+    },
+    {
+      "Text": "[ns] \"นี่มัน... อะไรกันเนี่ย...\""
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "นั่นน่ะสิ..."
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "นี่มันเรื่องอะไรกันเนี่ยยยย?!?!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "序章;夏天尚未結束"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師，我們到了唷！"
+    },
+    {
+      "Text": "[s1] 「謝謝你送我回來，綾音。」"
+    },
+    {
+      "Text": "[s2] 「明明你也很忙的，真是不好意思。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "別客氣！我們平時總是受老師的照顧呀。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "而且，也和大家約好了……要把老師平安地送回夏萊。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……現在不是說這些的時候了。\n老師，我這就幫你拿行李到辦公室──"
+    },
+    {
+      "Name": "綾音",
+      "Text": "──咦？門口好像有誰在……？"
+    },
+    {
+      "Text": "[s] 「嗯？」"
+    },
+    {
+      "Name": "???",
+      "Text": "哎呀～老師。難道說，你剛放完假回來嗎？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "而且還跟這～麼可愛的孩子一起？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "什，什麼！？可，可，可愛……嗎！？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "呵呵，這麼純真的反應，讓我想起第一次見到佳穗的時候呢。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "唔呵呵～真可愛。"
+    },
+    {
+      "Text": "[s] 「仁，仁耶……？」"
+    },
+    {
+      "Name": "三森",
+      "Text": "真是的，仁耶同學，老師和旁邊的同學都很困擾喔。\n請別忘記今天來的目的。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "喵哈哈～抱歉抱歉。\n不小心就玩過頭了～"
+    },
+    {
+      "Text": "[s] 「竟然連三森都在……感覺真是少見的組合呢。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "嘛，閒聊就先到此為止。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "──我們百鬼夜行有想進行正式協商的事情，所以才會來這裡的。"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "Noooo！！老師！大事不好了！"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "部長他……！部長和海花他們啊啊啊啊！！"
+    },
+    {
+      "Text": "[s] 「連菲娜都在！？靜子發生什麼事了嗎？」"
+    },
+    {
+      "Name": "三森",
+      "Text": "說來話長……靜子醬遇到不得了的事了……"
+    },
+    {
+      "Text": "[s] 「我到百夜堂去問問靜子詳情……」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "靜子同學的話現在不在百夜堂喔。"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "部長他去海邊了！"
+    },
+    {
+      "Text": "[s] 「…………海邊？」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "沒錯。雖然我只是聽說的，但靜子同學現在──"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……是「失樂園渡假勝地」嗎？\n好像就在那裡的樣子……"
+    },
+    {
+      "Text": "[s] 「『失樂園渡假勝地』？怎麼好像在哪裡聽過……」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師……那不就是我們剛才還在的渡假勝地嗎？"
+    },
+    {
+      "Text": "[s] 「……咦？」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "大家，已經可以下來了唷。"
+    },
+    {
+      "Name": "知世",
+      "Text": "到～了。"
+    },
+    {
+      "Name": "三森",
+      "Text": "這就是「失樂園渡假勝地」嗎……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "雖然嚴格說起來有點不太對……"
+    },
+    {
+      "Text": "[s] 「明明阿拜多斯的事情已經很累了……真謝謝你，綾音。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "不會不會！我也覺得差不多該回來了。\n雖然沒想到會這樣和老師一起回來……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "大家好像都平安到達了呢～♪"
+    },
+    {
+      "Text": "[s] 「嗯，我們到了唷……雖然仁耶你沒有來。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "喵哈哈～♪我也不是不理解老師想和我一起度過火熱～時間的心情……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "但身為陰陽部的部長，沒辦法隨意離開崗位呢。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "雖然不算是代替我，但知世和三森也都一起去了。\n請把對我的愛傳給他們吧～"
+    },
+    {
+      "Text": "[s] 「是是是……」"
+    },
+    {
+      "Name": "三森",
+      "Text": "啊哈哈……"
+    },
+    {
+      "Name": "知世",
+      "Text": "嗯，會代替部長好好加油喔～"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "老師，對不起！雖然菲娜也想一起去幫忙靜子部長，可是──"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "菲娜還有著守護百夜堂的使命……！"
+    },
+    {
+      "Text": "[s] 「沒關係的。這邊就交給我們吧。」"
+    },
+    {
+      "Name": "菲娜",
+      "Text": "好的，老師──不對，頭兒！"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "靜子同學應該就在「海之家」那裡。"
+    },
+    {
+      "Text": "[s] 「『海之家』……嗎。」"
+    },
+    {
+      "Text": "[ns] 「嗯！？」"
+    },
+    {
+      "Name": "三森",
+      "Text": "那邊好像發生什麼事了呢。"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "好，好強！這就是策畫這次渡假勝地狩獵的幕後黑手的實力嗎！"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "真是不容小覷啊……！百鬼夜行的節慶營運管理部！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "所──以──說──！你們在說什麼，我完全聽不懂啊！！"
+    },
+    {
+      "Name": "海花",
+      "Text": "就是說啊！突然就跑來店裡搞破壞！到底在搞什麼啊！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "這已經是今天的第5次了唷！第5次！伊樹菜的忍耐程度也快要到極限了！"
+    },
+    {
+      "Name": "小流氓A",
+      "Text": "事到如今還在裝傻啊……真不愧是幕後黑手。"
+    },
+    {
+      "Name": "小流氓B",
+      "Text": "這次就先放你們一馬！但是別以為這樣就結束了！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "為什麼呢……明明是我們贏了，卻一點也不爽快！？"
+    },
+    {
+      "Text": "[s] 「靜子？」"
+    },
+    {
+      "Name": "三森",
+      "Text": "靜子醬……！"
+    },
+    {
+      "Name": "知世",
+      "Text": "狸貓同學你好呀～"
+    },
+    {
+      "Name": "靜子",
+      "Text": "咦！？老師！？還有三森和知世也來了！？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "主，主公！？"
+    },
+    {
+      "Name": "海花",
+      "Text": "夏萊的老師！？"
+    },
+    {
+      "Text": "[s] 「那個……發生什麼事了？」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "那個，是……嗚……"
+    },
+    {
+      "Name": "靜子",
+      "Text": "嗚哇啊啊啊啊啊啊啊！！！老～師～！\n今天真的已經不是用「糟糕」就能形容的等級了～！！"
+    },
+    {
+      "Text": "百夜堂．失樂園渡假勝地分店"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "沒想到主公竟然會來呢！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "難道是來看伊樹菜的活躍的嗎？忍忍！"
+    },
+    {
+      "Text": "[s] 「因為有點事情要處理……話說回來，伊樹菜怎麼會在這裡呢？」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "伊樹菜受靜子閣下委託，正在進行護衛工作！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "靜子閣下肯定是看出伊樹菜將來會成為奇普托斯最強忍者的潛力了！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "咦？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "我只是覺得忍者很新奇，"
+    },
+    {
+      "Name": "靜子",
+      "Text": "應該能有宣傳效果吧～之類的而已……"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "咦！？這麼說，並不是看出了伊樹菜的真正價值嗎！？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "（嗚嗚）"
+    },
+    {
+      "Text": "[s] 「打工中的伊樹菜也很可愛哦。」"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "真，真的嗎？耶嘿嘿♪"
+    },
+    {
+      "Text": "[s3] 「話說回來，我聽仁耶和菲娜說了。」"
+    },
+    {
+      "Text": "[s4] 「靜子和海花好像遇到了困難。」"
+    },
+    {
+      "Name": "海花",
+      "Text": "確實，要說困難的話真的挺困難的呢。其實──"
+    },
+    {
+      "Name": "靜子",
+      "Text": "今天已經被妨礙營業5次了！才半天就已經5次了！"
+    },
+    {
+      "Text": "[s] 「那還真是悽慘啊……」"
+    },
+    {
+      "Name": "海花",
+      "Text": "是的……今天不管店有沒有開都一直有奇怪的客人找上門來……\n說著什麼「打倒掌權者！」、「渡假勝地狩獵」這種聽不懂的東西……"
+    },
+    {
+      "Name": "海花",
+      "Text": "難道說這是什麼我們不知道的慶典嗎？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "不不！這不可能吧！"
+    },
+    {
+      "Text": "[s] 「『掌權者』……『渡假勝地狩獵』……」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那個，靜子同學。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "冒昧請教你一下……你們是不是抽到了「渡假勝地使用權」呢？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "咦？不，我們是……"
+    },
+    {
+      "Name": "海花",
+      "Text": "哼哼哼……\n其實我們節慶營運管理部正式買下了「渡假勝地使用權」！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "只是作為事業的一環而已喔。"
+    },
+    {
+      "Text": "[s] 「你說『買下了』，是在那個漏洞滿滿的契約書上簽名了嗎？」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "咦？你說漏洞滿滿是什麼意思？"
+    },
+    {
+      "Text": "[s] 「嗯？」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "……？？"
+    },
+    {
+      "Name": "三森",
+      "Text": "那個……看來牛頭不對馬嘴呢。"
+    },
+    {
+      "Name": "三森",
+      "Text": "綾音同學知道些什麼嗎？"
+    },
+    {
+      "Name": "三森",
+      "Text": "我聽說你之前已經跟老師來過一次了。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那是……我該怎麼說明這個情況才好呢……"
+    },
+    {
+      "Name": "靜子",
+      "Text": "咦？老師你來過這裡了嗎？"
+    },
+    {
+      "Text": "[s] 「呃……事實上，這整個群島正在發生『渡假勝地狩獵』。」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "是剛才那些太妹說的那個嗎？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "呃……有漏洞的契約書……\n還有其他主張擁有權力的人……？為什麼……？"
+    },
+    {
+      "Text": "（對混亂的靜子說明了這裡正在發生的事）"
+    },
+    {
+      "Text": "[s] 「首先，先確認一下靜子手上的使用權吧。」"
+    },
+    {
+      "Text": "（本合約的簽約人將獲得「失樂園渡假勝地」的「使用權利」）"
+    },
+    {
+      "Text": "（上述「使用權利」係指在渡假勝地內所有的土地、備品和設備的使用權以及\n　從中獲得的所有收益及資源的所有權）"
+    },
+    {
+      "Text": "（本合約的所有人將保有以上所有權利）"
+    },
+    {
+      "Name": "靜子",
+      "Text": "……那個，我覺得合約內容很正常啊……\n是哪裡有漏洞呢？"
+    },
+    {
+      "Text": "[s] 「問題是那份合約書……包含泳裝太妹在內有很多人都有。」"
+    },
+    {
+      "Text": "（說明了茜香在阿拜多斯抽到了「渡假勝地使用權」\n　還有頭盔團也有著一樣的東西的事）"
+    },
+    {
+      "Text": "（以及乍看之下像是僅限於各島內使用權的合約，\n　實際上卻涵蓋整個「失樂園渡假勝地」群島）"
+    },
+    {
+      "Name": "海花",
+      "Text": "也就是說……如果老師說的事是真的，\n在「失樂園渡假勝地」裡聚集了和我們有著一樣契約的其他人──"
+    },
+    {
+      "Name": "海花",
+      "Text": "因為發現了合約裡的漏洞，為了主張自己的權利而開始了「渡假勝地狩獵」是嗎？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "不，這才讓人搞不懂吧！\n話說回來，為什麼老師這麼清楚這件事──"
+    },
+    {
+      "Text": "[s] 「不久之前我和綾音他們一起被捲入了那場騷動裡……」"
+    },
+    {
+      "Text": "[ns]（這麼說來，白子他們還在這個群島的某處……）"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "哇哇！又有敵襲嗎！？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "這次又是誰！？這已經是第6次了耶！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "來～集合～"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "大家一起和善地登場☆"
+    },
+    {
+      "Text": "[s] 「那，那是……！！」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "終於找到你們了！「渡假勝地狩獵」的罪魁禍首！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "百鬼夜行聯合學園的節慶營運管理部就是你們？\n竟然敢欺騙我們，就在這裡付出代價吧！"
+    },
+    {
+      "Name": "白子",
+      "Text": "沒錯，這就是……正義的裁決。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "呵呵☆是「正義」的裁決唷～"
+    },
+    {
+      "Name": "星野",
+      "Text": "那麼，大家。準備好了嗎～？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "嗯，要上囉！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "…………咦？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦咦咦咦咦！？那，那是前輩他們對吧！？"
+    },
+    {
+      "Text": "[ns] 「……這到底是怎麼回事……」"
+    },
+    {
+      "Name": "靜子",
+      "Text": "這到底……"
+    },
+    {
+      "Name": "靜子",
+      "Text": "到底是什麼情況啊啊啊啊啊啊！？"
+    }
+  ]
+}

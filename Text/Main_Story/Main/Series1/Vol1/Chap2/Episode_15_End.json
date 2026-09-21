@@ -1,0 +1,482 @@
+{
+  "TitleJP": "アビドス攻防戦（２）",
+  "TitleKR": "아비도스 공방전 2",
+  "TitleEN": "The Abydos Siege Part 2",
+  "TitleTH": "สงครามปิดล้อมอะบิดอส 2",
+  "TitleTW": "阿拜多斯攻防戰（２）",
+  "DescJP": "激しい戦闘の末、PMCの兵士を退却させることに成功。ホシノを取り戻す方法を見つけるため、先生は黒服の元へと向かった。",
+  "DescKR": "난전 끝에 PMC 병사들은 후퇴하고, 선생님은 호시노를 구할 방법을 찾기 위해 직접 검은 양복을 찾아간다.",
+  "DescEN": "The PMC forces finally retreat following an arduous battle. Later, Sensei seeks out Black Suit personally to negotiate Hoshino's return.",
+  "DescTH": "หลังการต่อสู้จบลงเหล่าทหาร PMC ได้ล่าถอยไป และคุณครูได้ไป\nเผชิญหน้ากับชายสวมสูทดำซึ่งๆ หน้าเพื่อจะหาทางช่วยโฮชิโนะออกมา",
+  "DescTW": "混戰結束後PMC士兵撤退。老師為了尋找解救星野的方法，直接去找黑色西裝人。",
+  "DialogJP": [
+    {
+      "Name": "PMC兵士",
+      "Text": "理事、傷が……！！すぐに治療を！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "くっ、一度退却だ！兵力の再整備に入れ！"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "は、はいっ！！"
+    },
+    {
+      "Name": "カイザーPMC理事",
+      "Text": "覚えておけ、この代償は高くつくぞ……！"
+    },
+    {
+      "Name": "PMC兵士A",
+      "Text": "たっ、退却命令っ！"
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "本部から退却命令。"
+    },
+    {
+      "Name": "PMC兵士B",
+      "Text": "繰り返す、本部から退却命令が下った――"
+    },
+    {
+      "Name": "PMC兵士C",
+      "Text": "戦列を整え、HQに帰投せよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "敵兵力、退却していきます……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ふぅ……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "いや～、あれこそ正に本物の三流悪党のセリフって感じだね。「覚えておけー」なんて実際に初めて聞いたよ。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "想定通り、大体上手く行った。風紀委員会相手でも通用すると良いけど……。"
+    },
+    {
+      "Text": "[s] \"……とりあえず、帰ろうか。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……はい、先生。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "きっとこの次は……今までで一番大きな戦いになると思います。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "まずは帰って、ホシノ先輩を助ける方法を探さないといけません。"
+    },
+    {
+      "Text": "キヴォトス・某所"
+    },
+    {
+      "Text": "[ns] 入る。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……お待ちしておりました、[USERNAME]先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたとは一度こうして、顔を合わせてお話ししてみたかったのですよ。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Text": "次回;大人の戦い"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "PMC 병사",
+      "Text": "이사님! 상처가……!! 가서 치료받으셔야 합니다!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "크, 크윽! 나는 후퇴한다! 병력을 재정비해라!"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "네, 넵!!"
+    },
+    {
+      "Name": "카이저 PMC 이사",
+      "Text": "네놈들……!! 이 행위의 대가는 반드시 비싸게 치르게 될 거다!"
+    },
+    {
+      "Name": "PMC 병사 A",
+      "Text": "--------------!!"
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "본부로 부터 후퇴 명령."
+    },
+    {
+      "Name": "PMC 병사 B",
+      "Text": "반복한다. 본부로부터 후퇴명령-"
+    },
+    {
+      "Name": "PMC 병사 C",
+      "Text": "전열을 갖춰 HQ로 복귀하라."
+    },
+    {
+      "Name": "아야네",
+      "Text": "적…… 후퇴하고 있습니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "이야~ 저게 진짜 3류 악당의 진정한 대사네."
+    },
+    {
+      "Name": "카요코",
+      "Text": "예측대로군. 선도부도 같은 결과가 나오면 좋겠지만……."
+    },
+    {
+      "Text": "[s] \"일단 돌아갈까.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네. 선생님."
+    },
+    {
+      "Name": "아야네",
+      "Text": "지금부터 앞에 있을 싸움은…… 지금보다는 훨씬 더 크고 힘들겠죠."
+    },
+    {
+      "Name": "아야네",
+      "Text": "돌아가서 호시노 선배를 구할 방법을 모색해야 해요."
+    },
+    {
+      "Text": "키보토스의 모처"
+    },
+    {
+      "Text": "[ns] 들어간다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……기다리고 있었습니다. [USERNAME] 선생님."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신과 얼굴을 보며 이야기하고 싶었습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Text": "다음화;어른의 싸움"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "PMC Soldier",
+      "Text": "Director, you're badly wounded! You need to be treated immediately!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "U-Ugh! I'm pulling out! Reorganize our forces!"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Yes, sir!"
+    },
+    {
+      "Name": "Kaiser PMC Director",
+      "Text": "You...! You'll pay dearly for this!"
+    },
+    {
+      "Name": "PMC Soldier A",
+      "Text": "...!"
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "HQ has given the order to retreat."
+    },
+    {
+      "Name": "PMC Soldier B",
+      "Text": "I repeat. HQ has given the order to retreat."
+    },
+    {
+      "Name": "PMC Soldier C",
+      "Text": "Maintain the line and return to HQ."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "They're falling back..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Whoa. Now that was straight out of the third-rate villain handbook."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Exactly as planned. Hopefully, the Prefect Team took care of their business."
+    },
+    {
+      "Text": "[s] \"Should we head back for now?\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes, we should."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The battles have only just begun. They're going to be much bigger and much tougher than this."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We need to head back and figure out a way to rescue Hoshino."
+    },
+    {
+      "Text": "Somewhere in Kivotos"
+    },
+    {
+      "Text": "[ns] Go inside."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I've been waiting for you, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I'd like to have a word with you, face-to-face."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Text": "Next Episode;Battle Between Adults"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ท่านครับ! แผล...!! ต้องไปทำแผลก่อนนะครับ!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "อึกก! ฉันจะล่าถอยก่อน! จัดการกองกำลังด้วย!"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ครับ!!"
+    },
+    {
+      "Name": "กรรมการไคเซอร์ PMC",
+      "Text": "พวกแก...!! พวกแกจะต้องชดใช้สิ่งที่ทำอย่างสาสม!"
+    },
+    {
+      "Name": "ทหาร PMC A",
+      "Text": "......!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "คำสั่งถอนกำลัง!!"
+    },
+    {
+      "Name": "ทหาร PMC B",
+      "Text": "คำสั่งถอนกำลัง!!"
+    },
+    {
+      "Name": "ทหาร PMC C",
+      "Text": "จัดแถวและกลับกองบัญชาการ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ศัตรูถอนกำลังแล้วค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "แหมๆ~ เมื่อกี้มันบทพูดของวายร้ายตัวจริงเลยนี่นา"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เป็นไปตามคาดเลย อยากให้เวลาสู้กับพวกคณะกรรมการวินัยแล้วผลออกมาเป็นแบบนี้บ้างจัง..."
+    },
+    {
+      "Text": "[s] \"เรากลับกันก่อนไหม?\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...ค่ะ คุณครู"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "การต่อสู้ที่รอเราอยู่ข้างหน้าจะต้องยิ่งใหญ่และยากลำบากกว่านี้แน่เลยละค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เรากลับไปคิดหาวิธีช่วยรุ่นพี่โฮชิโนะกันก่อนเถอะค่ะ"
+    },
+    {
+      "Text": "ที่แห่งหนึ่งในคิโวทอส"
+    },
+    {
+      "Text": "[ns] เข้าไป"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "กำลังรออยู่เลยครับ คุณครู [USERNAME]"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผมอยากพบและพูดคุยกับคุณมานานแล้วละครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Text": "ตอนต่อไป;การต่อสู้ของผู้ใหญ่"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "PMC士兵",
+      "Text": "董事！您受傷了……！！請立刻接受治療！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "先撤退！重整兵力！"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "是，是──！！"
+    },
+    {
+      "Name": "凱薩PMC董事",
+      "Text": "給我記住……！！之後一定要讓你們付出代價……！"
+    },
+    {
+      "Name": "PMC士兵A",
+      "Text": "──────！！"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "本部下令撤退。"
+    },
+    {
+      "Name": "PMC士兵B",
+      "Text": "重複一次，本部下令撤退──"
+    },
+    {
+      "Name": "PMC士兵C",
+      "Text": "整理好隊形，返回HQ。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "敵軍正在撤退……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……"
+    },
+    {
+      "Name": "無月",
+      "Text": "哎呀～那才真的是三流壞蛋會說的台詞吧。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "大致跟預期一樣。要是對付風紀委員會也能奏效就好了……"
+    },
+    {
+      "Text": "[s] 「總之先回去吧。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……是，老師。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "我想今後的戰鬥……應該會比以往更加艱困。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "必須先回去思考救出星野前輩的方法才行。"
+    },
+    {
+      "Text": "奇普托斯．某處"
+    },
+    {
+      "Text": "[ns] 進去"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……恭候多時了，[USERNAME]老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我一直都想跟你面對面談談。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Text": "下一話;大人的戰鬥"
+    }
+  ]
+}

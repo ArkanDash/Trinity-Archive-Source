@@ -1,0 +1,2187 @@
+{
+  "TitleJP": "Collateral Damage",
+  "TitleKR": "Collateral Damage",
+  "TitleEN": "Collateral Damage",
+  "TitleTH": "Collateral Damage",
+  "TitleTW": "Collateral Damage",
+  "DescJP": "先生の要請でこそ泥の検挙を手伝うことになったモエ。遠赤外線追尾式ドローンで犯人を逮捕することに成功するも、モエは衝動に耐えられずミサイルを発射し……街をめちゃくちゃにしてしまう。どうしてミサイルを発射したのかと問いかける先生に対し、モエは自身には破滅願望があるのだと告白するのだった。",
+  "DescKR": "선생님의 요청으로 좀도둑 검거를 돕게 된 모에. 모에는 열추적 드론을 활용하여 범인을 체포하는 데 성공하지만, 마지막에 충동을 참지 못하고 미사일을 발사해 거리를 엉망으로 만들고 만다. 상황이 정리된 후 모에는 자신의 선택으로 일을 망쳐버리는 것에 묘한 카타르시스를 느낀다며 자신의 취향을 고백한다.",
+  "DescEN": "At Sensei's request, Moe assists in the arrest of some petty thieves. Despite a job well done, she ruins it all when she flippantly decides to launch a missile to destroy the area. She explains to a flabbergasted Sensei that ruining things on purpose is strangely cathartic for her.",
+  "DescTH": "โมเอะมาช่วยคุณครูจับกุมหัวขโมย เธอใช้โดรนตรวจจับความร้อนและจับ\nคนร้ายได้สำเร็จ แต่สุดท้ายก็อดใจไม่ไหวที่จะยิงมิสไซล์ออกไปจนถนนทั้ง\nเส้นปั่นป่วน เมื่อเคลียร์สถานการณ์ได้แล้ว โมเอะก็บอกว่าเธอรู้สึกได้ปลด\nปล่อยอารมณ์ที่รุนแรงและสารภาพว่าเธอมีรสนิยมเช่นนี้",
+  "DescTW": "在老師的請求下，幫忙抓到小偷的萌。萌雖然成功利用熱能追蹤無人機捕捉了犯人，但最後沒能忍住衝動發射了導彈，將街道炸成一團亂。在收拾善後之後，萌說對於因為自己的選擇而壞事的狀況有種獲得淨化的感覺，不隱藏地說出了自己的愛好。",
+  "DialogJP": [
+    {
+      "Text": "Collateral Damage"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……なるほど。ジャマーを持ってるこそ泥がブラックマーケットに逃げ込んで追跡が難しい、と。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "この辺は道も入り組んでるし、防犯カメラに頼らなきゃいけない区画も多い。\nジャマーを持っている相手なら、なおさら追跡は難しいだろうね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こんな時は、電子防護機構が搭載されたSRTの遠赤外線追尾式ドローンを使うといいよ。私に助けを求めたのはいい判断だね。くひひ……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ところで先生、本当に私の助けを借りて大丈夫……？"
+    },
+    {
+      "Text": "[s1] \"ど、どういう意味……？\""
+    },
+    {
+      "Text": "[s2] \"何か問題でもあるの？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "いや……作戦準備も完璧だよ。すぐにドローンを展開して容疑者を追跡できる。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いや……作戦準備も完璧だよ。すぐにドローンを展開して容疑者を追跡できる。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ただ……許可が下りた状態で思う存分火器を使うの、いつぶりだろうと思って……全身がむずむずしちゃって……。"
+    },
+    {
+      "Text": "[s] \"「思う存分に」なんて言ってないよ！？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "大丈夫、大丈夫。細かいこと気にしない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……じゃあ、始めよっか？"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "ハァ、ハァ……ここまで逃げたら、さすがについて来てないよな？"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "少し高かったけど、ジャマーを買っておいてよかったぜ。"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "これさえあれば防犯カメラにも映らないし、無人機だって私の存在に気づかない。誰にも見られる心配なく盗みに入れそうだな。"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "このままいけばすぐに元金を回収でき――"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "う、うわっ！何だ、このドローンは！？"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "どうして私のジャマーが効かないんだ！"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "あっ、いて！いててて！ひ、ひとまず逃げるぞ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "くひひ……逃げても無駄だよ。\n地面にでも潜らない限り、私が操作するドローンからは逃れられない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でも、すぐ捕まっちゃうとつまらないから、もうちょっと頑張ってくれない～？"
+    },
+    {
+      "Text": "[s3] \"あの…… モエ？\""
+    },
+    {
+      "Text": "[s4] \"あまり過激な事は……。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "大丈夫、大丈夫。こう見えても一応、真剣に取り組んでるよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "大丈夫、大丈夫。こう見えても一応、真剣に取り組んでるよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "今のところはね……くひひ。"
+    },
+    {
+      "Text": "[s] \"今のところは……！？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "あ！あっちの方でまた信号を掴んだみたいだね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょっと待っててね先生。もう一回やってくるから。"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "あっ、いてて！痛いってば！もうやめてってば！"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "ううっ……もう耐えられない！降参！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……え～？もう降参なの？"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "いくら逃げても、ドローンに見つかるんじゃ耐えられねーよ！"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "盗んだ物は全部返すから！もうやめてくれ！"
+    },
+    {
+      "Text": "[s5] \"お疲れ様、モエ。\""
+    },
+    {
+      "Text": "[s6] \"もうドローンは撤収させて大丈夫だよ。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……まだミサイル撃ってもないのに？"
+    },
+    {
+      "Text": "[s] \"……泥棒を捕まえるのにミサイルは必要ないよ。\""
+    },
+    {
+      "Text": "[ns7] \"それに、そのあたりには引火しやすいものが多いから……。\" "
+    },
+    {
+      "Text": "[ns8] \"爆発が起きたら困るよ。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "……え～、今ミサイルを発射したら困るの？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……え～、今ミサイルを発射したら困るの？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……そっか。\n私が今、このボタンを押したら取り返しのつかない事になっちゃうのかぁ……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "きっと、それには重大な責任が伴うんだろうね……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そして重大な責任には……とてつもない快楽が……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "はぁ……はぁ、はぁ……。"
+    },
+    {
+      "Text": "[s] \"モ、モエさん……？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "……やっぱり我慢できない！！"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "お、おい……ドローンが変な色に光ってるぞ……。"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "ま、まさかあれミサイルじゃないよな？ここで発射しようとかしてないよな……？"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "今ミサイルを発射したら、この一帯がめちゃくちゃになるかもしれないんだぞ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "無責任に何もかもめちゃくちゃにしちゃうなんて……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "もっと我慢できない！\n……はぁ、はぁ。"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "待ってくれ！降参するって言っただろ！"
+    },
+    {
+      "Name": "こそ泥",
+      "Text": "やめろぉぉぉおお！"
+    },
+    {
+      "Text": "（……その後、気絶した泥棒は無事警察に引き渡せたが、\n　ミサイルによってめちゃくちゃになった街を掃除するのが大変だった）"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……なんでそんな目で見るの。"
+    },
+    {
+      "Text": "[s] \"なんで、降参したのにミサイルを飛ばしたの……？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "それは……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そこに、ボタンがあるから？"
+    },
+    {
+      "Text": "[s] \"名言風に言われても……。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "私だって……あの状況でミサイルを使わない方がよっぽど合理的で冷静な判断だってことくらい分かってる。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でも理性とは別に……なんというか……\n絶対押しちゃいけないボタンが目の前にあると……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "理性が麻痺して……我慢できなくなっちゃうの……\nはぁ、はぁ……。"
+    },
+    {
+      "Text": "[s] \"難しいね……。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "……先生さ、ドミノしたことある？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "倒れやすい四角い形のブロックを隙間なく並べていくヤツ。\nすごく集中力と忍耐が必要なんだよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "一度でもブロックを倒しちゃうと、これまで積み上げた努力がすべて水の泡になるかもしれないの。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でも、それとは別に……精巧に並べられたドミノを見ると、壊したくなる時ってあるじゃない？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "時間をかけて完成した作品が……たった一瞬の行動ですべて崩れてしまうの……\nそれ眺めてると、何とも形容できない痺れるようなカタルシスが……\nはぁ、はぁ……。"
+    },
+    {
+      "Text": "[s] \"分かる気もするけど……\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "そう！\n私が求めているのは、ドミノを壊すような快感なの！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "オペレーターの仕事ってさ、たくさんのボタンと向き合うことになるじゃん。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "中には非常事態にしか触っちゃいけないボタンも多い。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "仕事に集中しているときは気づかないけど……\nたまに、そのボタンを押した後のことを想像する時があるの。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "このボタンを押すと、一体どんなことが起きてしまうのか……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そう考え出すと、私……止まらなくなっちゃって……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "すべてがめちゃくちゃに……粉々に砕けて……！\n収拾がつかない事態になっちゃうんだろうねぇ……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それを想像するだけで、私……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "はぁ……はぁ、はぁ……。"
+    },
+    {
+      "Text": "[s] \"お、落ち着いて……！\""
+    },
+    {
+      "Text": "[ns9] \"とにかく……今日は手伝ってくれてありがとう。\""
+    },
+    {
+      "Text": "[ns10] \"な、何か飲み物いる？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "ありがと～ちょうど喉が渇いてたの。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ありがと～ちょうど喉が渇いてたの。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "キンキンに冷えたスポーツドリンクがあったら……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ってあれ？\nなにこれ、初めて見た……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……＜爆裂・神おしるこ＞？"
+    },
+    {
+      "Text": "[s11] \"ホットのおしるこだね。\""
+    },
+    {
+      "Text": "[s12] \"今日みたいな暑い日にはちょっと……。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "そうだね……こんな暑い日にアツアツのおしるこなんか食べたら、水分補給どころか脱水になっちゃうかもしれない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そうだね……こんな暑い日にアツアツのおしるこなんか食べたら、水分補給どころか脱水になっちゃうかもしれない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そんな中、わざわざおしるこを選ぶなんて――自滅行為だよね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……でも、言い換えたら、この「おしるこボタン」は破滅につながる選択肢。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょーっと腕を伸ばして、このボタンを押すだけで取り返しのつかない結果を招くことができるって思ったら……はぁ、はぁ……！"
+    },
+    {
+      "Text": "[s] \"ちょっと、モエ！待っーー\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "はぁ、はぁ……\n本当に押しちゃった……！ "
+    },
+    {
+      "Name": "モエ",
+      "Text": "この熱くてどっしりした重み……\nこんな日にこんなもの食べたら……本当に大変なことになりそうだよね？\nくひひっ……。"
+    },
+    {
+      "Text": "[s] \"新しいの買ってあげるから、無理しないでね。\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "いや、飲むよ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "自分の手で選んだ破滅は、自分でキッチリ責任を取らないと意味がないの。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "これは私が責任を持って飲む！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……あっ、熱っ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "どろっとしたおしるこが喉を通って、身体から火が出ちゃいそう……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "もう……今は缶を口に近づけるだけで汗が止まらないくらい……。"
+    },
+    {
+      "Text": "[s] \"本当に大丈夫……？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "大丈夫……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "むしろ、イイ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "これまでは周りを破滅させるボタンにしか手を出さなくて気づかなかったけど……自分を破滅に導くボタンってのもなかなか……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "すっごく興奮しちゃった……いろんな意味で……。\nはぁ、はぁ……♥"
+    },
+    {
+      "Text": "（……そしてモエは、苦しみながらも熱いおしるこを全部飲み干した）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "Collateral Damage"
+    },
+    {
+      "Name": "모에",
+      "Text": "……그렇군. [ruby=ECM]전파교란장치[/ruby]를 가지고 있는 좀도둑이 블랙마켓으로 도망치는 바람에 추적이 어렵게 되었다는 건가……"
+    },
+    {
+      "Name": "모에",
+      "Text": "확실히, 이 일대는 길도 복잡하고 CCTV 영상에 의존해야 하는 구간도 많으니까. 교란장치를 갖고 있는 상대라면 추적이 어렵겠지."
+    },
+    {
+      "Name": "모에",
+      "Text": "이런 상황이라면 [ruby=전파교란방지]ECCM[/ruby] 대책이 완비된 SRT의 열추적 드론을 쓰는 게 제일이긴 해. 나에게 도움을 요청한 건 좋은 판단이었어. 쿠히히……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그런데 정말 괜찮겠어, 선생님? 내 도움을 받아도……?"
+    },
+    {
+      "Text": "[s1] \"무슨 뜻인지는 모르겠는데……\""
+    },
+    {
+      "Text": "[s2] \"작전에 무슨 문제라도 있어?\""
+    },
+    {
+      "Name": "모에",
+      "Text": "아니, 작전 준비는 완벽해. 지금이라도 바로 드론을 전개해서 용의자를 추적할 수 있어."
+    },
+    {
+      "Name": "모에",
+      "Text": "아니, 작전 준비는 완벽해. 지금이라도 바로 드론을 전개해서 용의자를 추적할 수 있어."
+    },
+    {
+      "Name": "모에",
+      "Text": "다만 오랜만에 허락을 받고 화기를 잔뜩 쓸 수 있다고 생각하니, 온몸이 근질거려서……"
+    },
+    {
+      "Text": "[s] \"잔뜩 써도 된다고 하지는 않았는데…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "괜찮아, 괜찮아. 그런 사소한 건 신경 쓰지 말라고."
+    },
+    {
+      "Name": "모에",
+      "Text": "……그럼 바로, 시작해 볼까?"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "헉, 헉…… 여기까지 왔으면 더는 쫓아오지 못하겠지?"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "조금 비싸긴 했지만 전파교란장치를 구입하길 잘했어."
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "이 교란장치만 있으면 CCTV에도 찍히지 않고, 무인기도 내 존재를 알아차리지 못하니, 들킬 걱정 없이 편리하게 도둑질을 할 수 있겠어."
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "이대로 가면 금세 원금을 회수할 수—"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "우, 우앗?! 뭐야, 이 드론들은?!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "어째서 내 전파교란장치가 듣질 않는 거지?"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "앗, 따가. 앗, 따가워! 이, 일단 도망치자!"
+    },
+    {
+      "Name": "모에",
+      "Text": "후후, 도망쳐도 소용없다고. 땅을 파고 들어가지 않는 한, 내가 오퍼레이팅 하는 드론에게선 벗어날 수 없으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "다만 금방 잡히면 시시하니까, 좀 더 열심히 도망쳤으면 좋겠네~"
+    },
+    {
+      "Text": "[s3] \"저기…… 모에?\""
+    },
+    {
+      "Text": "[s4] \"너무 과격하게 하진 말았으면 하는데…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "괜찮아, 괜찮아. 나도 일단은 진지하게 작전에 임하고 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "괜찮아, 괜찮아. 나도 일단은 진지하게 작전에 임하고 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "아직까지는…… 말이지. 쿠히히."
+    },
+    {
+      "Text": "[s] \"아직은……?!\""
+    },
+    {
+      "Name": "모에",
+      "Text": "아, 저쪽 방향에서 다시 신호가 잡힌 모양이네."
+    },
+    {
+      "Name": "모에",
+      "Text": "선생님, 잠시 기다려줘. 다시 한번 총알을 잔뜩 쏟아내고 올 테니까……!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "앗, 따가! 아프다고! 이제 그만해!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "우우…… 더는 못 참겠어! 항복이야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "……응? 벌써 항복이라고?"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "어디에 숨더라도, 어디로 도망치더라도, 드론이 귀신같이 쫓아와 무차별 사격을 가하니 견딜 수가 없어!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "훔친 물건은 모두 돌려놓을 테니, 이제 제발 사격을 멈춰줘!"
+    },
+    {
+      "Text": "[s5] \"수고했어. 모에.\""
+    },
+    {
+      "Text": "[s6] \"이제 드론은 철수시켜도 돼.\""
+    },
+    {
+      "Name": "모에",
+      "Text": "……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……아직 미사일은 쏘지도 않았는데?"
+    },
+    {
+      "Text": "[s] \"……도둑을 잡는 데 미사일은 필요 없어.\""
+    },
+    {
+      "Text": "[ns7] \"게다가 그 근처에는 가연성 물질이 잔뜩 있어서……\""
+    },
+    {
+      "Text": "[ns8] \"폭발이라도 일어나면 곤란해…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "……지금 미사일을 쏘면 곤란해질 거라고?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……지금 미사일을 쏘면 곤란해질 거라고?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……그렇군. 내가 지금 이 발사 버튼을 누르면, 돌이킬 수 없는 결과가 발생하는 건가……."
+    },
+    {
+      "Name": "모에",
+      "Text": "분명 그 결과에는 엄청난 책임이 뒤따르겠지……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그리고 엄청난 책임에는 엄청난 쾌락이……"
+    },
+    {
+      "Name": "모에",
+      "Text": "하아…… 하아, 하아……."
+    },
+    {
+      "Text": "[s] \"저기, 모에 씨……?\""
+    },
+    {
+      "Name": "모에",
+      "Text": "……역시 못 참겠어!!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "자, 잠깐…… 드론이 이상한 빛으로 빛나고 있는데……"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "서, 설마 저거 미사일이야? 지금 여기서 발사하려는 거야?"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "지금 미사일을 쏘면 이 일대가 엉망이 될지도 모른다고?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "무책임하게 엉망진창으로 만들어 버린다니……"
+    },
+    {
+      "Name": "모에",
+      "Text": "더더욱 못 참겠어! 하아, 하아……"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "잠깐! 항복한다고 했잖아!"
+    },
+    {
+      "Name": "좀도둑",
+      "Text": "그만둬어어어어어어!"
+    },
+    {
+      "Text": "(……이후 기절한 좀도둑은 경찰에 인계했지만, 미사일로 엉망이 된 거리를 정리하느라 한동안 고생을 했다.)"
+    },
+    {
+      "Name": "모에",
+      "Text": "……."
+    },
+    {
+      "Name": "모에",
+      "Text": "……왜 그런 눈으로 쳐다보는 거야."
+    },
+    {
+      "Text": "[s] \"어째서 상황이 끝난 뒤에 미사일을 날린 거야…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "그건, 그게 그러니까……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그 앞에 미사일 버튼이 있었으니까?"
+    },
+    {
+      "Text": "[s] \"어딘가의 등산가처럼 말해도…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "나도 알아, 안다고. 그 상황에서 미사일을 쏘지 않고 끝내는 게 훨씬 더 이성적이고 합리적인 판단이라는 것은."
+    },
+    {
+      "Name": "모에",
+      "Text": "하지만 이성과는 별개로, 뭔가 절대로 눌러서는 안 되는 버튼이 눈앞에 있으면……"
+    },
+    {
+      "Name": "모에",
+      "Text": "이성이 마비되고, 참을 수가 없게 되어버려…… 하아, 하아……"
+    },
+    {
+      "Text": "[s] \"이해하기 어렵네……\""
+    },
+    {
+      "Name": "모에",
+      "Text": "……선생님. 도미노 패를 세우는 걸 본 적 있어?"
+    },
+    {
+      "Name": "모에",
+      "Text": "넘어지기 쉬운 직사각형 모양의 블록을 촘촘히 쌓는 도미노 게임은 고도의 집중력과 인내력을 필요로 하지."
+    },
+    {
+      "Name": "모에",
+      "Text": "한 번이라도 실수로 패를 쓰러트리면 그동안 쌓아 온 노력이 모두 물거품이 되어버릴 수도 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "하지만 그와는 별개로 정교하게 잘 쌓인 도미노 블록을 보면 무너트리고 싶어질 때가 있잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "오랜 기간 사람의 노력을 들여 완성한 작품이, 단 한순간의 조작으로 와르르 무너져 내리는 걸 보면…… 뭔가 형용할 수 없는 저릿저릿한 카타르시스가…… 하아, 하아……"
+    },
+    {
+      "Text": "[s] \"알 것 같기도 한데……\""
+    },
+    {
+      "Name": "모에",
+      "Text": "그래! 내가 원하는 건 도미노를 무너트리는 그런 종류의 쾌감이야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "오퍼레이터 일을 하다 보면 수많은 버튼을 마주하게 돼."
+    },
+    {
+      "Name": "모에",
+      "Text": "그중에는 비상 상황이 아니라면 절대로 만져서는 안 되는 버튼도 잔뜩 있지."
+    },
+    {
+      "Name": "모에",
+      "Text": "바쁘게 일을 할 때는 알아차리지 못하지만…… 가끔 그 버튼을 눌렀을 때의 결과를 상상하게 될 때가 있어."
+    },
+    {
+      "Name": "모에",
+      "Text": "이 버튼을 누르면 과연 어떤 일이 벌어질까……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그러면 난…… 손을 멈출 수가 없어……"
+    },
+    {
+      "Name": "모에",
+      "Text": "모든 게 엉망이 되겠지…… 박살 나겠지……! 수습도 정리도 안 되는 난장판이 되겠지!"
+    },
+    {
+      "Name": "모에",
+      "Text": "그걸 상상하는 것만으로 나는…… 나는……!"
+    },
+    {
+      "Name": "모에",
+      "Text": "하아, 하아, 하아아……"
+    },
+    {
+      "Text": "[s] \"이, 일단 진정해…….\""
+    },
+    {
+      "Text": "[ns9] \"여하튼 오늘은 일을 도와줘서 고마워.\""
+    },
+    {
+      "Text": "[ns10] \"자판기 음료수라도 괜찮다면 하나 살게.\""
+    },
+    {
+      "Name": "모에",
+      "Text": "아, 고마워. 안 그래도 오늘은 날이 더워서 목이 마르던 참이었거든."
+    },
+    {
+      "Name": "모에",
+      "Text": "아, 고마워. 안 그래도 오늘은 날이 더워서 목이 마르던 참이었거든."
+    },
+    {
+      "Name": "모에",
+      "Text": "될 수 있으면 시원한 스포츠 드링크를……"
+    },
+    {
+      "Name": "모에",
+      "Text": "어라? 이 캔은 뭐지? 처음 보는 음료수인데……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……<폭렬 갓 단팥죽>?"
+    },
+    {
+      "Text": "[s11] \"뜨겁게 덥힌 캔 단팥죽이네.\""
+    },
+    {
+      "Text": "[s12] \"오늘 같이 더운 날 먹기는 좀…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "그렇네. 이렇게 더운 날 뜨거운 단팥죽을 먹었다가는, 수분 보충이 되기는커녕 땀을 잔뜩 흘려 탈진할지도 모르니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "그렇네. 이렇게 더운 날 뜨거운 단팥죽을 먹었다가는, 수분 보충이 되기는커녕 땀을 잔뜩 흘려 탈진할지도 모르니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "이 수많은 선택지 중 단팥죽을 고르는 건 파멸에 가까운 행위지."
+    },
+    {
+      "Name": "모에",
+      "Text": "……하지만 다시 말하자면 이 단팥죽 버튼이야말로 파멸로 이어지는 유일한 선택지."
+    },
+    {
+      "Name": "모에",
+      "Text": "손가락을 들어 이 버튼을 누르는 것만으로도 돌이킬 수 없는 결과를 낳을 수 있다고 생각하니…… 하아, 하아……"
+    },
+    {
+      "Text": "[s] \"잠깐, 모에. 기다려—\""
+    },
+    {
+      "Name": "모에",
+      "Text": "하아, 하아…… 정말로 뽑아버렸다……."
+    },
+    {
+      "Name": "모에",
+      "Text": "이 뜨끈하고 묵직한 감각…… 이 날씨에 이런 걸 먹었다간 정말로 큰일 나겠지? 후후후……"
+    },
+    {
+      "Text": "[s] \"새로 사줄 테니까 억지로 마시진 마.\""
+    },
+    {
+      "Name": "모에",
+      "Text": "아니, 그럴 순 없지!"
+    },
+    {
+      "Name": "모에",
+      "Text": "내 손으로 택한 파멸인데, 내 손으로 책임지지 않으면 의미가 없으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "이건 내가 책임지고 마실게!"
+    },
+    {
+      "Name": "모에",
+      "Text": "……우앗! 뜨거워!"
+    },
+    {
+      "Name": "모에",
+      "Text": "걸쭉한 팥죽이 목을 타고 내려가면서 온몸을 뜨겁게 자극해서……"
+    },
+    {
+      "Name": "모에",
+      "Text": "이제는 캔을 입에 가져다 대는 것만으로도 땀이 줄줄 흘러내릴 정도야……"
+    },
+    {
+      "Text": "[s] \"정말로 괜찮은 거 맞아……?\""
+    },
+    {
+      "Name": "모에",
+      "Text": "괜찮아…… 아니, "
+    },
+    {
+      "Name": "모에",
+      "Text": "오히려 좋아!"
+    },
+    {
+      "Name": "모에",
+      "Text": "그동안 주변을 파멸시키는 버튼에만 손을 대와서 알아차리지 못했는데, 자신을 파멸로 이끄는 버튼을 직접 손으로 누르는 것도 제법……"
+    },
+    {
+      "Name": "모에",
+      "Text": "여러 가지 의미로 엄청나게 흥분돼…… 하아, 하아……♥"
+    },
+    {
+      "Text": "(……이후, 모에는 괴로워하면서도 뜨거운 단팥죽 캔을 끝까지 마셨다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Collateral Damage"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I get it now. I couldn't track it because the thief scampered to the Black Market with an electronic jamming device."
+    },
+    {
+      "Name": "Moe",
+      "Text": "The area itself is like a maze of alleys, some places are hard to see even with security footage. A jamming device is pretty effective."
+    },
+    {
+      "Name": "Moe",
+      "Text": "No sweat! I'll fire up SRT's heat-seeking drone, complete with ECCM countermeasures. You came to the right person for help. Heeheehee."
+    },
+    {
+      "Name": "Moe",
+      "Text": "But did you really think this one through, Sensei?"
+    },
+    {
+      "Text": "[s1] \"I'm not sure what you mean...\""
+    },
+    {
+      "Text": "[s2] \"Is there a problem with the operation?\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "No, the operation is perfect. I can find the suspect with a click of a button at this point."
+    },
+    {
+      "Name": "Moe",
+      "Text": "No, the operation is perfect. I can find the suspect with a click of a button at this point."
+    },
+    {
+      "Name": "Moe",
+      "Text": "But having permission to use a whole bunch of explosives and guns after so long...! Am I drooling?"
+    },
+    {
+      "Text": "[s] \"I said you could use exactly as much as is necessary, to clarify.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, Sensei. Always huffing and puffing about the trivial details."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Let's get this show started. Mister Criminal, meet heat drone~"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "*pant* *pant* ...Did I finally lose them?"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "I guess this jamming device thing was worth the price tag."
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Not even drones can get a read on me with this thing! I can steal anything I want!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "I can keep this going forever!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "H-How did these drones find me?!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Why isn't this stupid device working?"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Ow! That hurts! Ugh! Get away from me!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heeheehee! Unless you can tunnel underground, there's nowhere my drone can't find you! Is that what it is? Are you a mole, Mister Criminal?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, wait! I haven't been in the field in ages! Don't get caught too fast, okay? Run, run, run as fast as you can!"
+    },
+    {
+      "Text": "[s3] \"Hey... Moe? Let's reel it back a little.\""
+    },
+    {
+      "Text": "[s4] \"I think you're being a bit...cruel.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Shhh, Sensei. I'm taking this operation very seriously, I promise."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Shhh, Sensei. I'm taking this operation very seriously, I promise."
+    },
+    {
+      "Name": "Moe",
+      "Text": "For now, at least. Heehee."
+    },
+    {
+      "Text": "[s] \"For now...?!\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ah! I got another read on him heading north."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Save that thought, Sensei! Time for a bullet hailstorm!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Ow! Ow! OUCH! Stop it! Stop it!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Ugh! No more! I give up!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Already...? That's...that's it?"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Yeah, that's it! What do you expect?! I can't hide from your drones or your bullets anywhere!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "I'll give everything back, so just please stop shooting me!"
+    },
+    {
+      "Text": "[s5] \"Good job, Moe. The job's done.\""
+    },
+    {
+      "Text": "[s6] \"You can pull back the drones now, Moe.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...But I haven't fired any missiles yet."
+    },
+    {
+      "Text": "[s] \"Consider that a good thing.\""
+    },
+    {
+      "Text": "[ns7] \"There's way too many flammable items around here.\" "
+    },
+    {
+      "Text": "[ns8] \"We'd be in trouble if you used missiles somewhere like this.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "I guess we'd get in trouble if I set fire to the whole area..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We would be in trouble? If I made everything go ka-boom?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "So, you're telling me, that pressing this launch button will incur horrible and irreversible consequences?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Obviously, great consequences come with great responsibility..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And with great responsibility comes great, great pleasure..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "*huff* *puff*"
+    },
+    {
+      "Text": "[s] \"M-Moe...? You doing okay there?\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'm antsy! I can't keep it in!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "W-Wait... The drone is shining a weird color..."
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "I-Is she about to shoot a missile at me?! Is she insane?"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "She'll wreck the entire city if she shoots one here!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "The entire city, you say?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "This is like a fever dream! *pant* *pant*"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Wait! Please! I already surrendered!"
+    },
+    {
+      "Name": "Petty Thief",
+      "Text": "Noooooooo!"
+    },
+    {
+      "Text": "After that, the petty thief was taken down and handed over to the police. But there was a lot of clean up to do because of a certain, bomb-crazed agent."
+    },
+    {
+      "Name": "Moe",
+      "Text": "..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Why are you looking at me like that?"
+    },
+    {
+      "Text": "[s] \"Why did you shoot the missile? It was already over.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hm... Because..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh! I know! The button was right in front of me!"
+    },
+    {
+      "Text": "[s] \"That's really not even an excuse.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Because I don't have one! Look, obviously it'd be the sane, rational thing to not press the button."
+    },
+    {
+      "Name": "Moe",
+      "Text": "But when I see a big, red button in front of me that I absolutely shouldn't press, I go insane!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "My frontal lobe shuts down and my id takes over! *pant* *pant*"
+    },
+    {
+      "Text": "[s] \"I'm trying really hard to understand, Moe.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Sensei. Have you ever seen dominoes being placed?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "In dominoes, the rectangular blocks fall very easily because they're closely stacked. So setting them up requires a high level of patience."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Knock over one, and say bye-bye to all your hard work. Boo-hoo, so sad."
+    },
+    {
+      "Name": "Moe",
+      "Text": "But when you see those precarious dominoes painstakingly lined up piece by piece, don't you feel the urge to knock them down?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "When I see someone's long, hard work collapse with a single touch...it's an indescribable, tingling catharsis... *pant* *pant*"
+    },
+    {
+      "Text": "[s] \"I can't exactly relate, but I think I get it.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Good! So now, understand this. The one and only thing I want out of life, is to experience the pleasure you derive from knocking down those dominoes!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Being the team's operator and communications whiz, I use a lot of buttons all the time."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And there are a lot of buttons I should never touch unless it's an emergency."
+    },
+    {
+      "Name": "Moe",
+      "Text": "In my free time, I just imagine what would happen if I pressed those buttons."
+    },
+    {
+      "Name": "Moe",
+      "Text": "How much firepower would I detonate...from just one push?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "The thought overcomes me! My hands moves of their own accord...!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "If I just press it, everything around me will be destroyed! Buildings, bridges, everything reduced to rubble with my single touch!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Just imagining it makes me feel... I... I...!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "*huff* *puff*"
+    },
+    {
+      "Text": "[s] \"C-Calm down. I understand now.\""
+    },
+    {
+      "Text": "[ns9] \"Well, thanks for your help today.\""
+    },
+    {
+      "Text": "[ns10] \"Do you want something from the vending machine to-go?\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "It was my pleasure. Can we grab something from the vending machine first?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, thanks. Today was pretty hot, so I'm thirsty."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'd like a cool sports drink..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, what's this can? I've never seen this before..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Ultra Explosive Red Bean Soup?"
+    },
+    {
+      "Text": "[s11] \"It's a warm can of red bean soup.\""
+    },
+    {
+      "Text": "[s12] \"It's too warm today for soup.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "...If I eat hot red bean soup, I might end up sweating profusely and get dehydrated."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...If I eat hot red bean soup, I might end up sweating profusely and get dehydrated."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Choosing red bean soup while I have all these other options would be a destructive choice."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...But the red bean soup button is the only option that leads to destruction."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If I lift my finger and press this button, I'll reach the point of no return... *pant* *pant*"
+    },
+    {
+      "Text": "[s] \"Wait, Moe. Hold on!\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "*pant* *pant* ...I really did it..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "This warm and heavy feeling... If I eat something like this on a hot day, what'll happen? Heeheehee."
+    },
+    {
+      "Text": "[s] \"I'll get you something else. Don't force yourself.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "No, that ruins the purpose."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I chose this path. If I don't take responsibility, it's all meaningless!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Bottoms up, Sensei!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Whoa! It's hot!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Thick red bean soup is going down my throat, stimulating my whole body with heat..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Now just holding the can to my mouth is enough to make me sweat..."
+    },
+    {
+      "Text": "[s] \"Are you sure you're okay...?\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "I-I'm good... I'm...  "
+    },
+    {
+      "Name": "Moe",
+      "Text": "I feel alive!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Until now, I've only been destroying my surroundings. This self-destructive behavior is..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...it's exhilarating!"
+    },
+    {
+      "Text": "Despite my many protests, Moe continued to scarf down the rest of the red bean soup while going red in the face."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "Collateral Damage"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เข้าใจแล้ว เจ้าหัวขโมยที่มีเครื่องรบกวนสัญญาณวิทยุหนีเข้าไปที่ตลาดมืด เลยติดตามพิกัดต่อไม่ได้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ที่ตลาดมืดมีช่วงตึกและถนนที่ซับซ้อน ถึงจะดึงภาพจากกล้องวงจรปิดมาดูได้ก็จริง แต่การไล่ตาม\nอีกฝ่ายที่มีเครื่องรบกวนสัญญาณวิทยุน่ะ ไม่ใช่เรื่องง่ายๆ เลยนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "สถานการณ์แบบนี้ ควรใช้โดรนตรวจจับความร้อนของ SRT สำหรับรับมือเจ้าเครื่องรบกวนสัญญาณนี่\nคิดถูกแล้วแหละที่มาขอให้ฉันช่วย ฮิฮิฮิ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าแต่ให้ฉันช่วยไม่เป็นไรจริงๆ เหรอคุณครู...?"
+    },
+    {
+      "Text": "[s1] \"หมายความว่ายังไงงั้นเหรอ...?\""
+    },
+    {
+      "Text": "[s2] \"มีปัญหาอะไรรึเปล่า?\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เปล่า ไม่มีอะไรหรอก เตรียมพร้อมแล้วละ ให้ปล่อยโดรนออกติดตามผู้ต้องสงสัยตอนนี้เลยก็ได้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เปล่า เรื่องปฏิบัติการเตรียมพร้อมแล้ว ให้ปล่อยโดรนออกติดตามผู้ต้องสงสัยตอนนี้เลยก็ได้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่มันนานมากแล้ว ที่ไม่ได้รับอนุญาตให้ใช้อาวุธเต็มกำลังแบบนี้น่ะ เลยตื่นเต้นจนสะท้านไปทั้งตัว..."
+    },
+    {
+      "Text": "[s] \"ครูไม่ได้บอกให้ใช้อาวุธเต็มกำลังซะหน่อย...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "โธ่ คุณครู... ข้ามเรื่องเล็กๆ น้อยๆ แบบนั้นไปเถอะน่า"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้างั้นมาเริ่มกันเลยมั้ย?"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "แฮ่กๆ... มาถึงที่นี่แล้วก็คงหนีพ้นแล้วละมั้ง?"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ถึงเจ้าเครื่องรบกวนสัญญาณวิทยุนี่จะราคาแพงจนร้องขอชีวิตก็เถอะ แต่ถือว่าดีเลยที่ตัดสินใจซื้อมา..."
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ขอแค่มีเครื่องรบกวนสัญญาณเครื่องนี้ก็จะหลบกล้อง CCTV ได้ แม้แต่โดรนก็ยังตรวจจับฉันไม่ได้\nต่อไปก็ไม่ต้องกังวลว่าจะถูกจับได้เวลาไปขโมยอะไรแล้ว"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ถ้าเป็นแบบนี้ ไม่นานก็ได้ทุนค่าเจ้าเครื่องนี่คืนแล้วละ—"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "วะ... ว้าก?! อะไรกันเนี่ย โดรนพวกนี้มันอะไรกันเนี่ย?!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ทำไมเครื่องรบกวนสัญญาณวิทยุของฉันถึงไม่ได้ผลล่ะเนี่ย?"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "อ๊ะ เจ็บนะ เจ็บนะว้อย! ปะ...ไปให้พ้นนะเฟ้ย!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮี่ๆ... หนีไปก็ไม่มีประโยชน์หรอก ถ้าไม่ขุดรูแล้วหนีลงดินไปก็หนีโดรนของฉันไม่ได้หรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ว่าถ้าจับได้ทันทีเลยมันก็จะธรรมดาไปหน่อย เพราะงั้นช่วยตั้งใจหนีกว่านี้หน่อยแล้วกันนะ หึหึ~"
+    },
+    {
+      "Text": "[s3] \"คือว่าโมเอะ...?\""
+    },
+    {
+      "Text": "[s4] \"ครูว่าไม่ต้องจัดหนักมากก็ได้นะ...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "โธ่เอ๊ย คุณครู ฉันกำลังปฏิบัติภารกิจอย่างจริงจังอยู่นะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เปล่าซะหน่อย ฉันก็แค่กำลังปฏิบัติภารกิจอย่างจริงจังอยู่เท่านั้นเอง"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ว่าตอนนี้น่ะ มันยังไม่ถึงเวลาปิดฉากก็เท่านั้นเอง ฮิฮิฮิ..."
+    },
+    {
+      "Text": "[s] \"ยังไม่ถึงเวลาปิดฉากเรอะ...?!\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ... เหมือนจะจับสัญญาณได้จากทางนั้นอีกแล้ว"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "คุณครู รอเดี๋ยวนะ ฉันจะสาดกระสุนยิ่งใหญ่อลังการให้ดูเลย...!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "อ๊ะ เจ็บนะ โอ๊ยยย บอกว่าเจ็บไงเล่า! พอซะที!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ฮือ... ทนไม่ไหวแล้ว ขอยอมแพ้!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หืม...? แค่นี้ก็ยอมแพ้แล้วเหรอ?"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ถึงจะหนีไปซ่อนตัวที่ไหน เจ้าโดรนนี่ก็ตามมาเหมือนวิญญาณอาฆาต แถมยิงไม่เลือกหน้าแบบนี้\nฉันจะทนไหวได้ยังไงเล่า!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ฉันจะคืนของทั้งหมดที่ขโมยให้ เพราะงั้นตอนนี้เลิกยิงได้แล้ว!"
+    },
+    {
+      "Text": "[s5] \"เก่งมากเลย โมเอะ\""
+    },
+    {
+      "Text": "[s6] \"งั้นเรียกโดรนกลับมาได้แล้วล่ะ\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันยังไม่ได้ยิงมิสไซล์เลยนะ...?"
+    },
+    {
+      "Text": "[s] \"แค่จับขโมยเอง ไม่ต้องยิงมิสไซล์ก็ได้\""
+    },
+    {
+      "Text": "[ns7] \"อีกอย่างแถวนี้มีวัตถุไวไฟอยู่เยอะด้วย เดี๋ยวก็ระเบิดหรอก...\""
+    },
+    {
+      "Text": "[ns8] \"ถ้าพวกวัตถุไวไฟแถวนี้เกิดระเบิดขึ้นมาจะแย่เอานะ...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าเกิดระเบิดแถวนี้ เราจะเจอปัญหากันเหรอ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าเกิดระเบิดแถวนี้ จะเกิดปัญหาเหรอ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หมายความว่าถ้าฉันกดปุ่มยิงมิสไซล์ตอนนี้... จะทำให้เกิดผลลัพธ์เลวร้ายที่เปลี่ยนแปลงไม่ได้งั้นเหรอ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เห็นได้ชัดเลยนะ ว่าผลลัพธ์ที่ยิ่งใหญ่จะมาพร้อมกับความรับผิดชอบที่ใหญ่ยิ่ง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "และผลลัพธ์ที่ยิ่งใหญ่จะมาพร้อมกับความพึงพอใจที่ใหญ่ยิ่ง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แฮ่ก.. แฮ่ก..."
+    },
+    {
+      "Text": "[s] \"เอ่อ คุณโมเอะ...?\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "โอ๊ยยยย ฉันทนไม่ไหวแล้ว!!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ดะ... เดี๋ยวสิ โดรนนั่นปล่อยแสงแปลกๆ ออกมาแล้ว...!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "นะ...นั่นมันมิสไซล์เรอะ!? เธอคิดจะยิงมิสไซล์ที่นี่งั้นเหรอ?!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ถ้ายิงมิสไซล์มาตรงนี้ละก็ เมืองจะราบเป็นหน้ากลองเลยนะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เมืองจะราบเป็นหน้ากลองงั้นเหรอ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มะ...ไม่ไหวแล้ว มะ... เหมือนฝันเลย แฮ่กๆ..."
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "เดี๋ยวสิ! ฉันบอกว่ายอมแพ้แล้วไงเล่า!"
+    },
+    {
+      "Name": "หัวขโมย",
+      "Text": "ไม่นะ~~~!!"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็จับตัวหัวขโมยที่หมดสติส่งตำรวจ และต้องเหนื่อยกับการเก็บกวาดบริเวณ\nที่ถูกมิสไซล์ระเบิดเสียหายอยู่พักใหญ่...)"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทำไมมองฉันแบบนั้นล่ะ"
+    },
+    {
+      "Text": "[s] \"ควบคุมสถานการณ์ได้แล้ว ทำไมถึงยิงมิสไซล์อีกล่ะ\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อืม... คือว่าเรื่องนั้น..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ก็ปุ่มกดยิงมันอยู่ตรงหน้าเลยนี่นา?!"
+    },
+    {
+      "Text": "[s] \"ตอบแบบนั้นได้ด้วยเหรอ...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันรู้อยู่แล้วแหละ ว่าตอนนั้นถ้าไม่ยิงมิสไซล์ สถานการณ์ก็จะจบลงได้แบบสงบเรียบร้อยมากกว่า"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่พอฉันเห็นปุ่มสีแดงปุ่มใหญ่ๆ ที่แปะป้ายไว้ว่าห้ามกดอยู่ตรงหน้า..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอเห็นแบบนั้น ความชั่งใจของฉันก็จะลดลง แล้วก็... อดใจไม่ไหวน่ะ แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Text": "[s] \"เข้าใจยากจัง...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "คุณครู เคยเห็นการเรียงแถวโดมิโนรึเปล่า?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เกมโดมิโนเป็นเกมที่ต้องใช้สมาธิและความพยายามอย่างมาก เพราะการนำบล็อกสี่เหลี่ยมเล็กๆ\nมาวางต่อแบบชิดๆ กัน มันจะล้มง่ายมากๆ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าเกิดทำพลาดแค่ครั้งเดียวแล้วทำแถวโดมิโน่ล้มละก็ ความพยายามที่ทำมาตลอดก็จะสูญสลาย\nกลายเป็นฝุ่นผงไปในพริบตา"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ว่าเวลาเราเห็นแถวโดมิโน่ที่เรียงต่อกันเป็นระเบียบแบบนั้น บางครั้งเราก็จะรู้สึกว่าอยากจะปัด\nให้มันล้มๆ ไปเลยใช่มั้ยล่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอได้เห็นผลงานที่ทุ่มเทเวลาและความพยายามสร้างขึ้นมาพังทลายลงไปในชั่วพริบตาน่ะ...\nมันรู้สึกเหมือนได้ปลดปล่อยอารมณ์ขั้นสุด... แบบบรรยายไม่ถูกเลย แฮ่กๆ... แฮ่กๆ..."
+    },
+    {
+      "Text": "[s] \"ไม่ค่อยเข้าใจ แต่ก็พอนึกภาพออก\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใช่แล้ว! สิ่งที่ฉันต้องการก็คือความรู้สึกแบบตอนกองโดมิโน่ล้มนั่นแหละ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอได้มาทำหน้าที่เป็นโอเปอเรเตอร์ของกองทหาร ฉันต้องกดปุ่มต่างๆ หลายปุ่มอยู่ตลอดเวลา"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "และในบรรดาปุ่มพวกนั้น ก็จะมีบางปุ่มที่เป็นปุ่มที่ \"ห้ามกด\" เด็ดขาด ยกเว้นแค่ในกรณีฉุกเฉินเท่านั้น"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตอนที่งานยุ่ง ฉันก็ไม่ค่อยได้สังเกตพวกมันเท่าไรหรอก... แต่ก็มีบางครั้งที่แอบจินตนาการไปไกล\nว่าจะเกิดอะไรขึ้นบ้าง ถ้ากดปุ่มต้องห้ามพวกนั้นไปน่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอคิดว่าพอกดปุ่มนั่นแล้วจะปล่อยระเบิดไปกี่ลูกกัน..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอคิดแบบนั้น... มันก็อดใจไม่ไหว บังคับมือตัวเองไม่ได้จริงๆ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เกิดเรื่องวุ่นวาย เรื่องโกลาหลครั้งใหญ่...! เมืองพังพินาศจากการกดปุ่มแค่ปุ่มเดียว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอจินตนาการไปแบบนั้นแล้วฉันก็... ฉันก็...!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แฮ่ก... แฮ่ก... แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Text": "[s] \"เอ่อ ใจเย็นๆ ก่อนนะ...\""
+    },
+    {
+      "Text": "[ns9] \"เอาเป็นว่าขอบคุณที่มาช่วยงานวันนี้นะ\""
+    },
+    {
+      "Text": "[ns10] \"เดี๋ยวครูเลี้ยงเครื่องดื่มกระป๋องนะ\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ ขอบคุณนะ คุณครูจะเลี้ยงเครื่องดื่มกระป๋องเหรอ พอดีเลย ตอนนี้ร้อนจนคอแห้งไปหมดแล้ว"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ... ขอบคุณนะ พอดีเลย ตอนนี้ร้อนจนคอแห้งไปหมดแล้ว"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "งั้นฉันขอเป็นสปอร์ต ดริ้งค์ เย็นๆ นะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เอ๋? กระป๋องนี้มันอะไรน่ะ? เพิ่งเคยเห็นครั้งแรกเลย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "<ซุปถั่วแดงหวาน ก็อด บอมบ์> เหรอ...?"
+    },
+    {
+      "Text": "[s11] \"ซุปถั่วแดงหวานกระป๋องแบบอุ่นร้อนนี่นา\""
+    },
+    {
+      "Text": "[s12]  \"กินของร้อนๆ ในวันที่อากาศร้อนแบบนี้ คงไม่ดีเท่าไร...\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้ากินซุปร้อนๆ ในวันที่อากาศร้อนแบบนี้ อาจทำให้เหงื่อออกเยอะจนขาดน้ำก็ได้นะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นั่นสินะ ถ้ากินซุปร้อนๆ ในวันที่อากาศร้อนแบบนี้ อาจทำให้เหงื่อออกเยอะจนขาดน้ำก็ได้นะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ในบรรดาตัวเลือกทั้งหมด ถ้าเลือกกินซุปถั่วแดงหวานก็เหมือนกับวางบอมบ์ให้ตัวเองเลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่คิดอีกที ซุปถั่วแดงหวานนี่ก็เป็นตัวเลือกเดียวที่จะนำไปสู่ความพังพินาศได้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พอคิดว่าถ้าใช้นิ้วกดปุ่มนี้แล้ว จะทำให้เกิดผลลัพธ์ที่คาดไม่ถึงอีกขึ้นมา... ฉันก็... แฮ่กๆ... แฮ่กๆ..."
+    },
+    {
+      "Text": "[s] \"เดี๋ยวก่อน โมเอะ รอก่อน—\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แฮ่ก... แฮ่ก กดออกมาซะแล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "สัมผัสที่อุ่นร้อนและเหนียวหนืดแบบนี้... ถ้ากินเข้าไปตอนอากาศร้อนๆ จะเป็นยังไงนะ? ฮิฮิฮิ..."
+    },
+    {
+      "Text": "[s] \"เดี๋ยวครูซื้อให้ใหม่ก็ได้ ไม่ต้องฝืนกินหรอก\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่ต้องทำแบบนั้นหรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หนทางแห่งหายนะที่ฉันเลือกมากับมือ... ถ้าฉันไม่รับผิดชอบด้วยตัวเอง มันก็ไร้ความหมายสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันจะรับผิดชอบโดยการดื่มมันเอง!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หวา~ ร้อนจัง!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "รสสัมผัสของซุปถั่วแดงหวานเหนียวๆ ข้นๆ ที่ไหลลงไปตามลำคอทำให้ร่างกายรู้สึกร้อนวาบ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตอนนี้แค่ยกกระป๋องจ่อไว้ที่ปาก ก็พอจะทำให้เหงื่อออกได้แล้ว..."
+    },
+    {
+      "Text": "[s] \"ไม่เป็นอะไรแน่นะ...?\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่เป็นไร... ไม่สิ "
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แบบนี้แหละดีแล้ว!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ที่ผ่านมาฉันเคยแต่จะกดปุ่มที่สร้างความพินาศให้กับคนอื่นๆ มาตลอด แต่ไม่เคยสัมผัสความรู้สึก\nความพินาศที่เกิดขึ้นกับตัวเอง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มันเร้าใจมากเลยล่ะ! แฮ่ก... แฮ่ก...♥"
+    },
+    {
+      "Text": "(ถึงโมเอะจะเอาแต่บ่นว่าร้อน แต่ก็ไม่ยอมวางกระป๋องซุปถั่วแดงเลย...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "Collateral Damage"
+    },
+    {
+      "Name": "萌",
+      "Text": "……原來如此，小偷帶著[ruby=ECM]電波干擾裝置[/ruby]逃進黑市，所以很難追蹤行蹤……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這一帶的道路的確相當複雜，也有很多地方必須仰賴監視器。\n要是對方有干擾裝置的話，想找到人可說是難上加難。"
+    },
+    {
+      "Name": "萌",
+      "Text": "這種時候，只要使用搭載[ruby=反電波干擾]ECCM[/ruby]功能的SRT熱成像自動追蹤無人機就行了。\n找我協助是正確的決定，嘻嘻嘻……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不過老師，真的確定要找我幫忙嗎……？"
+    },
+    {
+      "Text": "[s1] 「這，這是什麼意思……？」"
+    },
+    {
+      "Text": "[s2] 「有什麼問題嗎？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒有……作戰準備一切順利，我可以立刻派出無人機追蹤嫌犯。"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒有……作戰準備一切順利，我可以立刻派出無人機追蹤嫌犯。"
+    },
+    {
+      "Name": "萌",
+      "Text": "只不過……好久沒有獲得允許可以盡情使用槍械……讓我全身心癢難耐……"
+    },
+    {
+      "Text": "[s] 「我沒說過你可以盡情使用……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒事沒事。不要在意那種小細節。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……那麼，馬上開始吧。"
+    },
+    {
+      "Name": "小偷",
+      "Text": "哈啊，哈啊……都跑到這裡來了，應該不會再追過來了吧？"
+    },
+    {
+      "Name": "小偷",
+      "Text": "雖然這個電波干擾裝置有點貴，不過還真是買對了。"
+    },
+    {
+      "Name": "小偷",
+      "Text": "只要有這東西就不會被監視器拍到，無人機也偵測不到我。\n可以盡情偷東西，不用擔心被發現了。"
+    },
+    {
+      "Name": "小偷",
+      "Text": "繼續這樣下去，很快就能把錢賺回來──"
+    },
+    {
+      "Name": "小偷",
+      "Text": "唔，唔哇！？搞什麼啊這些無人機！？"
+    },
+    {
+      "Name": "小偷",
+      "Text": "為什麼不受電波干擾裝置的影響！？"
+    },
+    {
+      "Name": "小偷",
+      "Text": "啊，好痛！痛死了！我，我看我還是先逃吧！"
+    },
+    {
+      "Name": "萌",
+      "Text": "咯嘻嘻……逃也沒有用的。除非你鑽進地底，不然就絕對逃不過我操縱的無人機。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不過要是太快就被抓到，我也會很無聊的，所以拜託你多努力點吧～"
+    },
+    {
+      "Text": "[s3] 「那個……萌？」"
+    },
+    {
+      "Text": "[s4] 「還是不要太過火吧……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒問題，沒問題。別看我這樣，我也是很認真的。"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒問題，沒問題。別看我這樣，我也是很認真的。"
+    },
+    {
+      "Name": "萌",
+      "Text": "至少目前為止是這樣……咯嘻嘻。"
+    },
+    {
+      "Text": "[s] 「目前為止……！？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊！那個方向好像又收到訊號了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "老師，請再等我一下。再玩一次就好……"
+    },
+    {
+      "Name": "小偷",
+      "Text": "啊，好痛！好痛！快住手！"
+    },
+    {
+      "Name": "小偷",
+      "Text": "嗚嗚……我受不了了！我投降！"
+    },
+    {
+      "Name": "萌",
+      "Text": "……咦～？這麼快就投降啦？"
+    },
+    {
+      "Name": "小偷",
+      "Text": "不管躲到哪裡都會被那些無人機找到，叫人怎麼受得了！"
+    },
+    {
+      "Name": "小偷",
+      "Text": "我會把偷來的東西全部還回去！拜託放過我吧！"
+    },
+    {
+      "Text": "[s5] 「辛苦你了，萌。」"
+    },
+    {
+      "Text": "[s6] 「可以撤回無人機了唷。」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……可是我連導彈都還沒發射耶？"
+    },
+    {
+      "Text": "[s] 「……只是抓小偷而已，不需要用到導彈吧。」"
+    },
+    {
+      "Text": "[ns7] 「而且，這附近有很多可燃物……」"
+    },
+    {
+      "Text": "[ns8] 「要是爆炸的話就麻煩了。」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……咦～現在發射導彈會讓老師困擾啊？"
+    },
+    {
+      "Name": "萌",
+      "Text": "……咦～現在發射導彈會讓老師困擾啊？"
+    },
+    {
+      "Name": "萌",
+      "Text": "……原來如此。要是我現在按下這顆按鈕，會發生無法挽回的後果嗎……"
+    },
+    {
+      "Name": "萌",
+      "Text": "我想，肯定必須負起相當大的責任吧……"
+    },
+    {
+      "Name": "萌",
+      "Text": "越大的責任……會伴隨著無比的快樂……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "哈啊……哈啊，哈啊……"
+    },
+    {
+      "Text": "[s] 「那個，萌同學……？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……我果然還是忍不住！！"
+    },
+    {
+      "Name": "小偷",
+      "Text": "喂，喂……無人機怎麼發出了奇怪的光芒啊……"
+    },
+    {
+      "Name": "小偷",
+      "Text": "該，該不會是導彈吧？不可能打算在這裡發射吧……？"
+    },
+    {
+      "Name": "小偷",
+      "Text": "現在發射導彈的話，這一帶會被炸得亂七八糟耶！"
+    },
+    {
+      "Name": "萌",
+      "Text": "不負責任地把東西全部摧毀……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這下我更忍不住了！……哈啊，哈啊。"
+    },
+    {
+      "Name": "小偷",
+      "Text": "等等！我不是說我投降了嗎！"
+    },
+    {
+      "Name": "小偷",
+      "Text": "住手啊啊啊啊啊啊！"
+    },
+    {
+      "Text": "（……後來，雖然順利把昏倒在地的小偷交給了警方，\n　卻也費了好一番功夫清理被導彈炸得亂七八糟的街道）"
+    },
+    {
+      "Name": "萌",
+      "Text": "……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……老師，你幹嘛用那種眼神看我？"
+    },
+    {
+      "Text": "[s] 「為什麼犯人都投降了，你還要發射導彈……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "那是因為……"
+    },
+    {
+      "Name": "萌",
+      "Text": "因為按鈕就在那裡啊？"
+    },
+    {
+      "Text": "[s] 「就算你套用某登山家的名言也一樣……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "我知道啦……在那種情況下，不發射導彈才是最理性最冷靜的判斷。"
+    },
+    {
+      "Name": "萌",
+      "Text": "但怎麼說呢……不管理性不理性……如果有個絕對不能按的按鈕擺在我的眼前……"
+    },
+    {
+      "Name": "萌",
+      "Text": "我就會理性當機……無法壓抑自己……哈啊，哈啊……"
+    },
+    {
+      "Text": "[s] 「這真是個問題呢……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "……老師，你有排過骨牌嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "把容易倒下的四方形塊狀物緊密排列的那個遊戲。需要高度的耐心和集中力。"
+    },
+    {
+      "Name": "萌",
+      "Text": "要是不小心失手弄倒骨牌，就可能讓之前付出的努力全部化為泡影。"
+    },
+    {
+      "Name": "萌",
+      "Text": "但另一方面，看著那些精密排列的骨牌，不是也會有想把它們弄倒的時候嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "一個小小的舉動……就能瞬間讓耗費無數心力的成品毀於一旦……\n那種光景，具有一種難以形容的酥麻快感……哈，哈……"
+    },
+    {
+      "Text": "[s] 「我好像能夠明白你在說些什麼……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒錯！我想要的就是那種推倒骨牌時的快感！"
+    },
+    {
+      "Name": "萌",
+      "Text": "報務員在工作的時候會面對無數按鈕。"
+    },
+    {
+      "Name": "萌",
+      "Text": "其中也有很多非到緊急情況絕對不能按下去的按鈕。"
+    },
+    {
+      "Name": "萌",
+      "Text": "忙碌的時候不會想到……但我有時候就是會去想像按下那些按鈕的後果。"
+    },
+    {
+      "Name": "萌",
+      "Text": "按下去之後，到底會發生什麼事呢……"
+    },
+    {
+      "Name": "萌",
+      "Text": "只要一想到這點……我就會無法控制自己……"
+    },
+    {
+      "Name": "萌",
+      "Text": "所有東西都會灰飛煙滅吧……會被摧毀殆盡吧……！\n一定會導致難以收拾的局面吧……"
+    },
+    {
+      "Name": "萌",
+      "Text": "光是想到這些，我就……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "哈啊……哈啊，哈啊……"
+    },
+    {
+      "Text": "[s] 「冷，冷靜下來……！」"
+    },
+    {
+      "Text": "[ns9] 「總之今天很謝謝你幫忙。」"
+    },
+    {
+      "Text": "[ns10] 「我請你喝點東西吧？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "謝謝～我也正覺得渴呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "謝謝～我也正覺得渴呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "可以的話，我想喝冰涼的運動飲料……"
+    },
+    {
+      "Name": "萌",
+      "Text": "咦？這是什麼？第一次看到……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……「爆裂・神之紅豆湯」？"
+    },
+    {
+      "Text": "[s11] 「是熱紅豆湯呢。」"
+    },
+    {
+      "Text": "[s12] 「但今天這麼熱……」"
+    },
+    {
+      "Name": "萌",
+      "Text": "就是啊……如果天氣這麼熱還吃熱騰騰的紅豆湯，\n不僅無法補充水分，還可能會爆汗脫水吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "就是啊……如果天氣這麼熱還吃熱騰騰的紅豆湯，\n不僅無法補充水分，還可能會爆汗脫水吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "在這麼多飲料之中選擇紅豆湯──根本就是自取滅亡呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……但是換句話說，這個「紅豆湯的按鈕」正是通往滅亡的選項。"
+    },
+    {
+      "Name": "萌",
+      "Text": "光是想到只要伸手按下這個按鈕，就能引發無法挽回的後果……哈，哈……！"
+    },
+    {
+      "Text": "[s] 「等等，萌！等一──」"
+    },
+    {
+      "Name": "萌",
+      "Text": "哈啊，哈啊……我真的按下去了……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "這炙熱又沉重的觸感……在這種天氣吃這種東西……絕對會很不妙的吧？咯嘻嘻……"
+    },
+    {
+      "Text": "[s] 「我再買一個飲料給你，你不用勉強自己喝下去。」"
+    },
+    {
+      "Name": "萌",
+      "Text": "不，我要喝！"
+    },
+    {
+      "Name": "萌",
+      "Text": "這是我親手選擇的滅亡，要是我不好好承受後果就沒有意義了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "所以我要負起責任把這東西喝光！"
+    },
+    {
+      "Name": "萌",
+      "Text": "……哇，好熱！"
+    },
+    {
+      "Name": "萌",
+      "Text": "濃稠的紅豆湯順著喉嚨流下，全身就像是要著火一樣……"
+    },
+    {
+      "Name": "萌",
+      "Text": "現在……光是將罐子湊到嘴邊，汗水就會流個不停……"
+    },
+    {
+      "Text": "[s] 「真的沒問題嗎……？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒問題……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不如說這樣才好！"
+    },
+    {
+      "Name": "萌",
+      "Text": "一直以來我接觸的都只有讓周遭滅亡的按鈕，\n卻完全沒發現……讓自己滅亡的按鈕竟然會如此……"
+    },
+    {
+      "Name": "萌",
+      "Text": "從各方面來說……都令人相當興奮……哈啊，哈啊……♥"
+    },
+    {
+      "Text": "（……於是萌一邊面露痛苦，卻仍將熱騰騰的紅豆湯喝了個精光）"
+    }
+  ]
+}

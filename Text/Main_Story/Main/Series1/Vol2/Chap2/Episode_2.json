@@ -1,0 +1,3742 @@
+{
+  "TitleJP": "ゲーム開発部の平凡な日常",
+  "TitleKR": "게임개발부의 평범한 일상",
+  "TitleEN": "A Day at the Game Dev Department",
+  "TitleTH": "วันธรรมดาๆ ของชมรมพัฒนาเกม",
+  "TitleTW": "遊戲開發部的平凡日常",
+  "DescJP": "久方ぶりにゲーム開発部の部室を訪れた先生は、部員と共に次回作のアイデアを出すべく格ゲーで対戦をしていた。一通りプレイが終わり、アイデア出しをしていた一同の元に、ユズがオンライン対戦で10連勝を達成したとの報が届く。それを聞いたアリスがやる気を出してオンライン対戦に潜るも、チーターと当たってしまい――ユズの活躍によってなんとか事なきを得るのだった。そうして、ゲーム開発部の平穏な日常は流れていく。",
+  "DescKR": "오랜만에 게임개발부 부실을 찾아간 선생님. 부원들은 차기작 개발을 위해 여러가지 아이디어를 모으지만, 어느샌가 아리스의 게임 플레이를 지켜보는 자리로 바뀌게 된다. 아리스는 게임 플레이 도중 치터를 만나 고전하지만, 유즈의 화려한 활약으로 극적인 승리를 거둔다. 하지만 차기작의 기획은 진전을 이루지 못한 채, 평범한 일상이 흘러간다.",
+  "DescEN": "Sensei pays the Game Development Department a visit for the first time in a while. The members are fielding ideas for the development of their next project, but get distracted watching Aris playing a video game. Aris struggles mid-game upon encountering a cheating player, but gains a dramatic victory thanks to Yuzu's exhilarating performance. However, they fail to make any progress on plans for their next project, and decide to try again tomorrow.",
+  "DescTH": "คุณครูมาที่ห้องชมรมพัฒนาเกมอีกครั้งหลังจากที่ไม่ได้มานาน สมาชิก\nชมรมกำลังรวบรวมไอเดียเพื่อพัฒนาผลงานชิ้นต่อไป แต่จู่ๆ ก็เปลี่ยนแผน\nไปนั่งดู อาริสึเล่นเกมแทน อาริสึเจอศึกหนักเพราะฝ่ายตรงข้ามใช้สูตรโกง\nแต่ก็กลับมาชนะได้ด้วยเทคนิคแพรวพราวของยูสึ และหนึ่งวันธรรมดาๆ\nของชมรมก็ผ่านไป โดยที่แผนการพัฒนาผลงานชิ้นต่อไปยังไม่คืบหน้า",
+  "DescTW": "老師久違地前往遊戲開發部部室。成員們為了研發下一部作品而集思廣益，但不知不覺卻變成了觀看愛麗絲玩遊戲。愛麗絲在遊戲過程中遇見作弊玩家並陷入苦戰，但因為柚子活躍的表現而獲得戲劇般的勝利。但下一部作品的企劃沒有任何進展，生活就和平常沒有兩樣。",
+  "DialogJP": [
+    {
+      "Text": "第2話;ゲーム開発部の平凡な日常"
+    },
+    {
+      "Text": "（珍しくシャーレの仕事がなく、ちょうど時間ができたある日）"
+    },
+    {
+      "Text": "（ゲーム開発部から、部活動に付き合ってほしいという連絡があった）"
+    },
+    {
+      "Text": "（部活動といっても、何をするのか具体的な話は聞けずじまいで……）"
+    },
+    {
+      "Text": "ミレニアム・ゲーム開発部"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "おりゃあーっ！\n先生、覚悟して！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "今から、とっておきの必殺技……！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "モモイスプラッシュを見せてあげるんだから！！"
+    },
+    {
+      "Text": "（気がついたら、部室でモモイと格ゲーをしていた）"
+    },
+    {
+      "Text": "[s] \"とっておきの必殺技っ……！！\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふっふっふっ！私のコンボに死角はないよ！\n先生の！HPがなくなるまで！止まらない！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "やあーーっ！"
+    },
+    {
+      "Text": "（ドン！バタン！）"
+    },
+    {
+      "Text": "「Player MOMORIA LOSE！」"
+    },
+    {
+      "Text": "「WINNER！ Player [USERNAME]！」"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うわーん！なんで私のコンボが当たらないの！？"
+    },
+    {
+      "Text": "[s1] \"モモイは焦るとレバガチャしちゃうから……。\""
+    },
+    {
+      "Text": "[s2] \"そんな甘々コンボなんて通じないよ、モモイ！\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そんなっ！？\nもう私の攻撃パターンを見切ったの！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "というか、お姉ちゃん……先生は今日始めたばっかりの初心者だって言ってたよね。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うわっミドリ！！？あんまり辛い現実を突きつけないで！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "今のは無効！無効だから！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "もう一回！もう一回やって先生！\n今度は正真正銘とっておきのコンボを……。"
+    },
+    {
+      "Text": "[s] \"その言葉、もう8回目……。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "え！？もうそんなに！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "そうだよお姉ちゃん。その辺にしておこう？\n先生が困ってるでしょ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "で、でも負けたまま終わるのは、げ、ゲーマーとしてのプライドが……。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "またそんな事言って……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "じゃあ先生は負けたまま終わってもいいってこと？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うにゃあっ！？\nそれは……そ、そう、なる……？"
+    },
+    {
+      "Text": "[s] \"私は別に大丈夫だよ。\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "はあ。先生、あまりお姉ちゃんのこと甘やかしちゃダメですよ？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "というか、こんなに遊んでばっかりで……\nお姉ちゃん……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "今日の部活の目的、覚えてる？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あっ、そうだった……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……そうだった？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ち、違う！違うのミドリ！\nちゃんと覚えてるから！ね！"
+    },
+    {
+      "Text": "[s] \"そういえば、まだちゃんと話聞いてなかったね。\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "えっ、お姉ちゃん……先生に何も説明してないの……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "おね～～ちゃ～～ん？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "い、今！\n今から言うから！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "今日は、"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "次回作のアイデア出しをしようと思って！"
+    },
+    {
+      "Text": "[s] \"次回作……？\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "はい。うちもそろそろ次回作の準備をしようという話が出たんです。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そう！しかも、いつも捕まらない先生の手が空いたって聞いたから、\nこれはと思って呼んでみたの！"
+    },
+    {
+      "Text": "[s3] \"……あんまり顔出せてなくてごめんね。\""
+    },
+    {
+      "Text": "[s4] \"たしかに、ちょうど手が空いたところだね。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "まぁ、先生が忙しいのは知ってるから……\n来てくれてありがとう！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "とにかく！こうして先生に来てもらえたのだから、\n次回作の意見を聞けるんじゃないかな～って。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "それに、先生ならすごいアイデアをいっぱい出してくれるんじゃないかな～って……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そういうわけで、部室に来てもらいました！"
+    },
+    {
+      "Text": "[s] \"う、うん……ちょっと期待が重いような……。\""
+    },
+    {
+      "Text": "[ns] \"というか、ずっと格ゲーばっかやってるような……？\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あ、それはお姉ちゃんのアイデアなんです。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そう、ゲームを分析しようと思って！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "何も浮かんでない状態でぐるぐる悩んだって、いいアイデアは出て来ないじゃない？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "だからいろんな人気作をプレイして、その上でアイデアを出してみよう。\nという事になったんです。"
+    },
+    {
+      "Text": "[s] \"なるほど、一理あるね。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふふふ！でしょ？\n特にさっき先生とやってたこのゲーム。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "『カシオペアの拳～ウーパールーパー大列伝～』は、\n格ゲー界隈でも色んな意味で異端児と呼ばれてる人気ゲームなんだ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "参考になる点が多いゲームだから、これを分析したらきっと……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "次回作に役立つ素晴らしいアイデアが浮かんでくる！はず！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "うちの次回作は「まったりスローライフ系ダンジョン探索型RPG」なんです。"
+    },
+    {
+      "Text": "[s] \"それなのに格ゲー要素が入るの！？\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "何を言ってるの先生！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "たしかに一般人から見たら、ダンジョン探索型RPGと格ゲーに接点がなさそうに見えるかもしれないけど……。"
+    },
+    {
+      "Text": "[s] \"なさそうに見えるかもしれないけど……？\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふっふっふっ！見た目で判断するのはNGだよ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "次のミレニアムプライスを狙うなら、誰にも予想がつかないような新しい挑戦が必須！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そう、つまり！先入観を捨て、あらゆる偏見を乗り越えてこそ、\n新しい地平線の向こうへ行けるというもの……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "全く関係なさそうなジャンルの要素を組み合わせたら、\n意外と面白いゲームになるかもしれませんし。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あっ！ミドリ！私のセリフを奪わないでよ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃんがもったいぶって言わないからだよ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うわ～ん\nひどいよ～！"
+    },
+    {
+      "Text": "[s] \"みんな新作開発に全力なんだね。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ん？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あ……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふふふ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そりゃあ、もちろん！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "はい。私とお姉ちゃんだけじゃなく、ユズちゃんとアリスちゃんも。\nみんなで一緒に……。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "今度こそ、ミレニアムプライスを取ると約束しましたから。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うん。\nそれが、今私たちに与えられた「クエスト」なんだ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "モモイ！ミドリ！先生！\n非常事態です！"
+    },
+    {
+      "Text": "[s] \"こんにちは、アリス。どうしたの？\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あれ、どうしたのアリス？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ついに、ユズがオンライン10連勝を超えました！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "え？本当！？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "このバランスが終わったゲームで10連勝も！？"
+    },
+    {
+      "Text": "「WINNER！Player UZQueen！」"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ふあぁ……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "かっこよかったよ、ユズ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ユズちゃんはすごいね。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスは感動しました！\nさすが伝説の勇者「UZQueen」です！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "あっ、う、うん……？"
+    },
+    {
+      "Text": "[s] \"ユズおめでとう！完璧な勝利だったね！\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "でしょ！これがユズのパーフェクトスタイル「UZQueenモード」だよ！"
+    },
+    {
+      "Text": "[s] \"「UZQueen」モード……？\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "説明しよう！「UZQueenモード」とは！\n特定の状況下で発動するユズのバフスキルだよ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "いつもよりちょっと大胆になって、頭の回転は普段の1.5倍！\n動体視力は2.8倍も上昇するの！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "そんな設定、いつの間につけたの？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスも知っています！こういう時のユズはすごく強いです！\nアリスも「UZQueenモード」が欲しいです！"
+    },
+    {
+      "Text": "[s] \"「UZQueenモード」ってすごいんだね……！\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "せ、先生まで！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "そ、その……あうぅ……！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ふ、普通に頑張っただけ、なんだけど……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ユズの活躍を見ていたら、アリスもやる気が出てきました！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "次はアリスの番です！"
+    },
+    {
+      "Text": "（そうしてみんなが見守る中、アリスの格ゲー挑戦が始まった）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "モモイ、ミドリ、ユズ――そして先生みたいに、\nアリスも格ゲーで勇者になります！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃんは勇者というより、勇者に倒される役だと思うけど。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "妹よ！時には真実が痛い時もあるんだよ！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "あ、アリスちゃん……が、がんばれ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！アリス、頑張ります！"
+    },
+    {
+      "Text": "（Challengers Next Battle！！）"
+    },
+    {
+      "Text": "[ns] \"あっ、挑戦者が現れたみたいだね。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "モモイ相手に鍛えてきた腕前、見せます！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "やあっ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "えい！やあっ！はっ！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "全部回避されてる……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "いいえ！まだアリスの攻撃は終わっていません！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "いきます！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "え！？\n今のは……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "今、アリスが攻撃したのに、アリス側のHPが減ってなかった？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ま、まだ！\nアリスはでき……"
+    },
+    {
+      "Text": "[ns] \"今度はキャラクターが……消えた……？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "え、ええっ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "アリスの後ろに……現れた！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "あっ、ひゃっ……！\nあうっ！こ、攻撃！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスの攻撃が相手を通過してしまいました！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うわっ！？今度はキャラクターが透明になってる！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "それに……巨大化して画面全体を隠してるね。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "こ、今度は……は、判定が消えちゃったみたい。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "う、うわーん！\nこのプレイヤーに勝てません！"
+    },
+    {
+      "Text": "[s] \"これって、どう見ても……。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "何なのこいつ！どう見てもチート使ってるじゃん！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ひどい……こんな方法で勝って、楽しいのかな。"
+    },
+    {
+      "Text": "（Challengers Next Battle Again！！）"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "再戦要求！？\nどうせまたチートを使うつもりだよ！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "……どうしましょう？"
+    },
+    {
+      "Text": "[s] \"相手がチートを使っているなら……勝つのは難しいかも……。\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "もう断っちゃおうよ！こんなチーターに付き合う必要ないよ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "うん……アリスちゃん、残念だけど今回ばかりは……。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ま、まだ方法はあるよ……。"
+    },
+    {
+      "Text": "[ns] \"ユズ？\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……わたしに任せて。\nら、乱入するね。"
+    },
+    {
+      "Text": "3"
+    },
+    {
+      "Text": "2"
+    },
+    {
+      "Text": "1"
+    },
+    {
+      "Text": "（Battle！ START！）"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "！！！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あっ！また透明になるチートを使ったよ！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "大丈夫。\nさっき見てたら、キャラクターは透明になるけど、影はそのままだったから……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "影の長さを見て対処すればいい。"
+    },
+    {
+      "Text": "[s] \"す、すごい……！そんな方法があったなんて！\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "どうみても当たってるのに、ダメージが通ってない！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "また無敵チートを……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "多分、これは当たり判定を調整するチート。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "それなら、当たり判定が関係ない、確定ダメージを与えればいい。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "このキャラが持ってる挑発スキルは、\n妨害されなければ確定ダメージを与えられるから……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "モモイ！ミドリ！\nい、今の見ましたか！？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "本当だ……。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ダメージが通った！"
+    },
+    {
+      "Text": "[ns] \"あっ！相手が急に猛攻撃を始めたよ！\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "大丈夫。\n端でガードしたまま待機、フレームを読んで……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "相手が攻撃した瞬間に……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "後ろにジャンプ！\nそして強キックを出せば……"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "相手のキャラがダウン状態に！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "これで牽制した時は、確定反撃ができないと絶対に近付けない。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "相手の実力的に、多分できないと思ったから……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "こうやって、一つ一つ相手の弱点を突いていけば……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "勝てるよ。"
+    },
+    {
+      "Text": "「WINNER！Player UZQueen！」"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ふう……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "これで……勝った、よね？"
+    },
+    {
+      "Text": "[s] \"これが………UZQueen……！\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "すごい！すごいよユズ！\n「すごい」って言葉じゃ全然足りないくらいすごい！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！アリスも！ずっと夢中で見守ってました！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "相手がいくらチートを使っても、"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "私たちには「ハメ技」がある……ってことだね。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "うん……つ、使いすぎたらゲームが楽しくなくなっちゃうし、\nその……友達同士だと……ケンカになっちゃうから、好きじゃないけど……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "相手がチート使いなら遠慮は要らないかなって……\nこ、これも、ゲーム要素の一つだし。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "なるほど！ハメ技もゲーム要素の一部！\nアリス、理解しました！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "もしかしたら、再戦した時にハメ技を無力化するチートを使ってくるかもしれないけど……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……それでも、戦えば勝てるよ。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "うん……わたし達は、ゲーマーだから。"
+    },
+    {
+      "Text": "[s] \"ユズは本当にすごいよ。\""
+    },
+    {
+      "Name": "ユズ",
+      "Text": "あっ、せ、先生まで……その、た、大したことではないです。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "でも最後に勝てて、すごくスッキリしたー！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "これでゲームの分析もできた事だし……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん、企画会議を始めよっか？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "……ん、企画会議？何の？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "おね～ちゃ～ん！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そ、そ、そうだ！\nそうだったね！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "も、もちろん、やるってば！"
+    },
+    {
+      "Text": "（そうして、いつものようにゲーム開発部の日常は流れていく）"
+    },
+    {
+      "Text": "次回;～アリス、冒険を始めます！～"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;게임개발부의 평범한 일상"
+    },
+    {
+      "Text": "(그날따라 드물게도 샬레의 업무가 없어 마침 여유가 생겼던 어느 날.)"
+    },
+    {
+      "Text": "(게임개발부로부터 부활동에 어울려 달라는 연락을 받게 되었다.)"
+    },
+    {
+      "Text": "(부활동이라고 해도 무엇을 말하는 것인지 자세한 설명은 듣지 못한 채.)"
+    },
+    {
+      "Text": "밀레니엄 게임개발부"
+    },
+    {
+      "Name": "모모이",
+      "Text": "으랴아앗! 각오해! 선생님!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "지금부터 나만의 비장의 필살기……!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "모모이 스플래쉬를 보여줄 테니까……!!"
+    },
+    {
+      "Text": "(정신을 차려보니 어느새인가 모모이와 대전격투 게임을 플레이하게 되었다.)"
+    },
+    {
+      "Text": "[s] \"모모이 비장의 필살기……!!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "후후후! 내 비정한 콤보 공격에 사각은 없어! 선생님의 HP가 제로가 될 때까지! 멈추지 않을 거야!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "이야아압!"
+    },
+    {
+      "Text": "(쿵! 털썩!)"
+    },
+    {
+      "Text": "「Player MOMORIA LOSE!」"
+    },
+    {
+      "Text": "「WINNER! Player [USERNAME]!」"
+    },
+    {
+      "Name": "모모이",
+      "Text": "우와아앙! 어째서 내 콤보 공격이 하나도 맞지 않고 전부 빗나가는 건데?!"
+    },
+    {
+      "Text": "[s1] \"그야 모모이는 마음이 급해지면 일단 버튼부터 눌러버리니까…….\""
+    },
+    {
+      "Text": "[s2] \"욕심만 가득한 그런 콤보 공격 따위! 통하지 않는다고! 모모이!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐, 뭣이라?! 이미 나의 공격패턴은 전부 선생님에게 간파당해버렸다는 거야?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "심지어 선생님은 오늘 이 게임을 처음 해보는 입문자라고 했었지. 언니."
+    },
+    {
+      "Name": "모모이",
+      "Text": "우왓?! 너무 비정한 현실을 들이밀지 말아줘! 미도리!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "지금 건 무효! 무효니까!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "한 판만! 한 판만 더 해! 선생님! 다음번엔 정말로 내 비장의 콤보를……."
+    },
+    {
+      "Text": "[s] \"그런 말도 벌써 8판째야. 모모이…….\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "어?! 벌써 그렇게나?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "맞아, 언니. 적당히 해 둬. 선생님이 곤란해하시잖아."
+    },
+    {
+      "Name": "모모이",
+      "Text": "하, 하지만 이대로 진 채로 넘기는 건, 게, 게이머의 자존심이……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "또 그런 억지를……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "게다가 그 말은, 그럼 선생님은 진 채로 끝내도 된다는 거야?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "우뮤얏?! 말이 또 그, 그게 그렇게, 되나……?"
+    },
+    {
+      "Text": "[s] \"난 괜찮은데.\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "하아. 선생님. 너무 언니의 어리광을 받아 주시기만 하면 안 된다구요?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그보다 이렇게 놀 생각만 잔뜩인 거 보면 혹시라고는 생각하지만, 언니……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "오늘 부활동의 목적, 잊은 거 아냐?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "헉, 맞다……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "……맞다?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아, 아냐! 미도리! 확실하게 기억하고 있으니까! 응! 분명!"
+    },
+    {
+      "Text": "[s] \"그러고 보면 아직 오늘 부활동 내용, 제대로 듣지 못했지.\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니, 설마 선생님에게 제대로 설명도 하지 않고 모셔 왔다는 건……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언~~니~~?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아, 그, 그거라면 지, 지금! 응! 지금부터 말할 테니까!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "오늘 부활동의 목적은 다름이 아니라……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "차기작의 아이디어를 준비하는 거야!"
+    },
+    {
+      "Text": "[s] \"차기작……?\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "네, 저희 게임개발부에선 슬슬 다음 차기작을 준비하자는 이야기가 나왔거든요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "맞아! 그런 의미에서 평소 무지 바쁜 선생님에게 마침 여유가 생겼단 말을 듣고 부른 거야!"
+    },
+    {
+      "Text": "[s3] \"……자주 찾아오지 못해서 미안해.\""
+    },
+    {
+      "Text": "[s4] \"확실히 최근엔 일이 좀 줄었지.\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐, 선생님이 늘 바쁜 건 잘 알고 있으니까……. 오히려 일부러 이렇게 찾아와줘서 고맙다고나 할까~"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어쨌든! 선생님에게도 차기작의 아이디어에 대해 의견을 들어볼 수 있지 않을까~?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "선생님이라면 뭔가 굉장한 아이디어를 번쩍! 하고 꺼내줄지도~?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "라고 동아리의 모두와 이야기를 한 참에……. 이렇게 모셔왔다는 말씀!"
+    },
+    {
+      "Text": "[s] \"아, 으응……. 뭔가, 기대감이 무겁지만…….\""
+    },
+    {
+      "Text": "[ns] \"근데 잠깐. 그런 거치고는 아까부터 계속 대전격투 게임만 하지 않았나……?\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "아, 그건 언니가 의견을 냈던 거예요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "응! 분석이야! 분석!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "아무것도 없는 상태에서 머리를 맞대고 끙끙거린다고 한들, 좋은 아웃풋이 나온다는 보장은 없잖아?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그러니 여러 인기 게임들을 직접 플레이하면서 분석하고, 그걸 바탕으로 아이디어를 내보자. 이런 흐름이 된 거예요."
+    },
+    {
+      "Text": "[s] \"과연 일리가 있네.\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "후후후! 그치?! 특히나 방금 선생님이랑 함께 한 이 게임."
+    },
+    {
+      "Name": "모모이",
+      "Text": "<카시오페이아의 권 ~우파루파 대열전~>은 대전격투 게임계에서도 여러 가지 의미로 이단아라고 불리는 최고의 인기 게임 중 하나거든!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "제법 본받을 점이 많은 게임이니까. 이걸 샅샅이 파고들어서 분석한다면!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "분명 차기작에 걸맞은 멋진 아이디어를 떠올릴 수 있을 거야!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "무엇보다 저희의 다음 차기작은 <퀘스트를 수주하고 낚시와 농사를 즐기면서 캐릭터를 육성하는 힐링 계열의 던전공략 RPG> 게임이거든요."
+    },
+    {
+      "Text": "[s] \"어?! 그런데도 대전격투 게임의 요소가 들어가는 거야?!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "무슨 소리를 하는 거야. 선생님!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "물론 범인의 눈으로 보기엔, 얼핏 그런 던전공략 RPG와 대전격투 게임엔 접점이 없어 보일지 몰라도……."
+    },
+    {
+      "Text": "[s] \"없어 보일지 몰라도……?\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "후후후! 단순히 겉보기로만 판단하는 건 NG!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "다음 밀레니엄 프라이스의 수상을 노린다면, 그 누구도 예상치 못할 의외의 도전이 필요해!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "요컨대 고정관념을 벗어나 선입견을 탈피하고 편견을 뛰어넘어서야 비로소 새로운 지평의 너머로 갈 수 있는……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "전혀 연관이 없어 보이는 엉뚱한 두 장르의 요소를 합치면 의외로 재미있는 게임 아이디어가 나올지도 모르니까요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "앗! 미도리! 내 대사를 빼앗아 가면 어떡해!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니가 자꾸 뜸만 들이고 본론을 말하지 않아서 대신 말한 거뿐이야."
+    },
+    {
+      "Name": "모모이",
+      "Text": "으앙~ 너무해~"
+    },
+    {
+      "Text": "[s] \"응. 이러니저러니 해도, 모두 동아리 활동에 매진하고 있구나.\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "응?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "후후후!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그야 당연하지!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "네, 저랑 언니뿐만이 아니라, 유즈 쨩이랑 아리스 쨩까지 모두 다 함께……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "다음번엔 반드시 밀레니엄 프라이스의 콧대를 꺾어주겠다고 약속했으니까요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "응. 그것이 지금 우리에게 주어진…… 말하자면 <퀘스트>인 셈이지!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "모모이! 미도리! 선생님! 비상입니다!"
+    },
+    {
+      "Text": "[s] \"안녕, 아리스. 무슨 일이야?\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "응? 갑자기 왜 그래? 아리스."
+    },
+    {
+      "Name": "아리스",
+      "Text": "유즈가 드디어 온라인 배틀 10연승 도전에 들어갔습니다!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "어? 진짜?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐? 이 밸런스 망겜에서 10연승까지?!"
+    },
+    {
+      "Text": "「WINNER! Player UZQueen!」"
+    },
+    {
+      "Name": "유즈",
+      "Text": "후아아………"
+    },
+    {
+      "Name": "모모이",
+      "Text": "멋있었어! 유즈!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "유즈 쨩은 언제나 굉장하네."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 감탄했습니다! 역시 전설의 용사! UZQueen!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "앗, 으, 으응……?"
+    },
+    {
+      "Text": "[s] \"유즈! 굉장해! 퍼펙트한 승리였네!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "그치? 퍼펙트한 유즈! 그야말로 <UZQueen모드>야! "
+    },
+    {
+      "Text": "[s] \"UZQueen, 모드……?\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "설명하지! <UZQueen모드>란! 유즈가 특정한 상황에 처하면 발동되는 버프 스킬이야!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "평소보다 더욱 대담해지고 자신감이 넘치게 되고…… 두뇌회전은 평상시의 150%! 동체시력의 성능은 280%나 상승하는 상태를 말해!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그런 설정은 또 언제 붙인 거야?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 잘 알고 있습니다! 이럴 때의 유즈는 엄청 강합니다! 아리스도 UZQueen모드 같은 스킬이 갖고 싶습니다!"
+    },
+    {
+      "Text": "[s] \"굉장해! <UZQueen모드>!\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "서, 선생님까지?!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "아, 그, 그게……! 아으으!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "그, 그냥 평범하게 힘을 냈을 뿐인데……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "유즈의 활약을 보고 있으려니, 아리스도 가만히 있을 수 없습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "다음은 아리스의 차례입니다!"
+    },
+    {
+      "Text": "(그리하여 모두가 지켜보는 가운데, 아리스의 대전격투 게임 도전이 시작되었다.)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 모모이, 미도리, 유즈, 그리고 선생님처럼. 대전격투 게임에서 용사가 되겠습니다!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니는 용사라기보다는, 용사에게 당하는 잡몹 역할이었던 거 같지만."
+    },
+    {
+      "Name": "모모이",
+      "Text": "동생이여! 때로는 진실이 아플 때도 있다고?!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "아, 아리스 쨩…… 히, 힘내!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스! 힘내겠습니다!"
+    },
+    {
+      "Text": "(Challengers Next Battle!!)"
+    },
+    {
+      "Text": "[ns] \"아, 도전자가 나타났대.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스가 모모이를 상대로 단련해온 솜씨를 보여주겠습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "얍!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "음! 이얍! 얍."
+    },
+    {
+      "Name": "유즈",
+      "Text": "상대가 전부 가볍게 회피를……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아뇨! 아직 아리스의 공격은 끝나지 않았습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "이렇게 공격을 맞추면!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "어?! 방금……"
+    },
+    {
+      "Name": "모모이",
+      "Text": "방금 아리스가 공격을 맞춘 순간, 어째선지 아리스 캐릭터의 피가 닳지 않았어?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아, 아직! 아리스는 할 수 있……."
+    },
+    {
+      "Text": "[ns] \"앗, 이번엔 캐릭터가……. 사라졌어……?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "네, 네엣?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "이번엔 갑자기 아리스의 뒤에서 나타나서 공격을?!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아앗, 앗……! 아읏! 고, 공격!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스의 공격이 상대를 통과해버렸습니다!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "우왓?! 이번엔 캐릭터가 투명해졌어?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그다음엔…… 커져서 화면 전체를 가리기까지?!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "거기다 이번엔 히, 히트박스가…… 사라진 것 같아."
+    },
+    {
+      "Name": "아리스",
+      "Text": "끄, 끄앙! 아리스! 이 플레이어를 이길 수가 없습니다!"
+    },
+    {
+      "Text": "[s] \"이거, 아무리 봐도.\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐냐고! 이 녀석! 치트를 쓰고 있잖아!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "너무해. 이런 식으로 게임을 해봤자. 즐거울 리가 없는데."
+    },
+    {
+      "Text": "(Challengers Next Battle Again!!)"
+    },
+    {
+      "Name": "모모이",
+      "Text": "더구나 보란 듯이 대전을 재신청한다고?! 염치없기는! 어차피 또 치트를 쓰려는 거잖아!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "……그럼 어떻게 합니까?"
+    },
+    {
+      "Text": "[s] \"상대가 치트를 쓰고 있다면…… 이길 수 없을지도…….\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "그냥 거절해! 이런 얼간이랑 어울려줄 필요 없으니까!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "응, 아리스 쨩. 아쉽지만 이번엔……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "……아주, 방법이 없는 건, 아니야……."
+    },
+    {
+      "Text": "[ns] \"유즈?\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "여, 여기서부턴…… 내게 맡겨줘. 내 계정으로 난입할게."
+    },
+    {
+      "Text": "3"
+    },
+    {
+      "Text": "2"
+    },
+    {
+      "Text": "1"
+    },
+    {
+      "Text": "(Battle! START!)"
+    },
+    {
+      "Name": "유즈",
+      "Text": "!!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "앗! 또 상대방이 투명해지는 치트를 썼어!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "괜찮아. 아까 확인했던 거지만, 캐릭터의 모델링은 투명해져도, 그림자는 그대로 남아 있어."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그림자의 길이가 변하는 걸 보고 대처하면 돼."
+    },
+    {
+      "Text": "[s] \"괴, 굉장해……! 그런 방법이 있을 줄이야!\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "분명히 공격이 들어갔는데!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "대미지가 들어가지 않아! 또 무적 치트를……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "아마도 그건 히트박스를 조정하는 치트일 거야."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그럼 히트박스와 관계없이 강제적으로 대미지를 주는 기술을 쓰면 돼."
+    },
+    {
+      "Name": "유즈",
+      "Text": "마침, 내 캐릭터의 도발 스킬엔 방해받지만 않으면 강제적으로 10의 대미지를 주는 기믹이 있으니까……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "모모이! 미도리! 바, 방금 봤나요?!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "진짜로……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "대미지가 들어갔어!"
+    },
+    {
+      "Text": "[ns] \"앗! 상대가 갑자기 맹공을 시작했어!\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "괜찮아요. 공격의 프레임을 읽고, 구석에서 가드를 한 채 대기……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "상대가 공격하면서 타이밍을 놓친 순간에……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "뒤로 점프하면서 강발을 날리면."
+    },
+    {
+      "Name": "모모이",
+      "Text": "상대 캐릭터가 그로기 상태에 들어갔어!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "이 공격으로 견제했을[ruby=Delay Catch] 때, 딜캐를 못[/ruby]하면 절대로 접근할 수 없거든."
+    },
+    {
+      "Name": "유즈",
+      "Text": "상대의 실력은 그게 가능할 정도까진 아닌 거 같으니까."
+    },
+    {
+      "Name": "유즈",
+      "Text": "이런 방식으로 하나하나 상대방의 치트를 깨트리다 보면……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "이길 수 있어."
+    },
+    {
+      "Text": "「WINNER! Player UZQueen!」"
+    },
+    {
+      "Name": "유즈",
+      "Text": "후우……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "응, 이렇게 해서. 이겼지?"
+    },
+    {
+      "Text": "[s] \"이것이…… UZQueen……!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "괴, 굉장해! 아니, 단순히 굉장하단 말로 부족할 정도로 굉장해! 유즈!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스도! 내내 숨을 죽이고 지켜볼 수밖에 없었습니다!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "상대가 제아무리 치트를 쓰더라도,"
+    },
+    {
+      "Name": "미도리",
+      "Text": "우리에겐 게임에서 쓸 수 있는 <합법적인 꼼수>랑 <얍삽이>가 있다. 인 거네."
+    },
+    {
+      "Name": "유즈",
+      "Text": "응…… 물론 자주 쓰게 되면 게임의 재미를 떨어트리고, 그…… 친구끼리…… 서로 싸우게 되어서 좋아하는 방식은 아니지만……"
+    },
+    {
+      "Name": "유즈",
+      "Text": "상대가 치트 플레이어라면 봐줄 필요는 없으니까…… 이것도 결국엔 게임 플레이의 일부고."
+    },
+    {
+      "Name": "아리스",
+      "Text": "과연! 꼼수와 얍삽이도 게임 플레이의 일부! 아리스도 이해했습니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "물론 다음에 또 싸우게 됐을 때, 방금 했던 방식을 무력화하는 치트를 쓰면…… 또 고전하겠지만……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "……그렇다고 해도, 또 싸우면 이길 수 있어."
+    },
+    {
+      "Name": "유즈",
+      "Text": "응. 게이머니까."
+    },
+    {
+      "Text": "[s] \"정말 대단해. 유즈.\""
+    },
+    {
+      "Name": "유즈",
+      "Text": "앗, 서, 선생님까지…… 그, 벼, 별거 아닌걸요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "아! 그래도 마지막에 이겨서 엄청 통쾌했어!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그럼 이걸로 많은 아이디어를 얻었을 테니까."
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니, 바로 기획 회의를 시작할까?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "……응? 기획 회의? 무슨 기획 회의?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "…………."
+    },
+    {
+      "Name": "미도리",
+      "Text": "어~언~니!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "마, 마, 맞다! 그, 그랬었지!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "무, 물론 할 거니까!"
+    },
+    {
+      "Text": "(그렇게 여느 때와 마찬가지로 게임개발부의 평범한 일상은 흘러간다.)"
+    },
+    {
+      "Text": "다음화;~아리스, 모험을 시작합니다!~"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2; A Day at the Game Dev Department"
+    },
+    {
+      "Text": "It was a rare occasion where there was no work at Schale, and I had some free time."
+    },
+    {
+      "Text": "I received a request from the Game Development Department to participate in a club activity."
+    },
+    {
+      "Text": "Though I wasn't given any details on the activity itself."
+    },
+    {
+      "Text": "Millennium Game Development Department"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Hah! Get ready, Sensei!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "This is my super secret, ultimate move!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Momoi Splash!"
+    },
+    {
+      "Text": "Before I knew what was happening, I was playing a fighting game with Momoi."
+    },
+    {
+      "Text": "[s] \"Momoi's super-secret, ultimate move...!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Heeheehee! There are no blind spots in my cruel combo attack! I'm not gonna stop until your HP reaches zero!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Hiyaaaaaa!"
+    },
+    {
+      "Text": "*thud* *flop*"
+    },
+    {
+      "Text": "MOMORIA LOSES!"
+    },
+    {
+      "Text": "[USERNAME] WINS!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wahhh! How come my combo whiffed?!"
+    },
+    {
+      "Text": "[s1] \"You just press buttons without thinking when you're in a hurry.\""
+    },
+    {
+      "Text": "[s2] \"Your greedy combo attacks aren't gonna work on me, Momoi!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wh-What?! Did Sensei already figure out my attack patterns?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "I thought Sensei was a total beginner who never played this game before."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Hey! Don't rub it in, Midori!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "That one didn't count!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "One more! Let's do one more match, Sensei! I swear I'm gonna show you my secret combo..."
+    },
+    {
+      "Text": "[s] \"You've said that after each of the last eight matches, Momoi...\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? We've already played eight matches?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Yeah, that's enough. Sensei's too nice to say no to you."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "B-But I can't end on a loss. It hurts my pride as a gamer..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "This nonsense again..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "So it's okay for Sensei to end on a loss? Everything revolves around you?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What?! Oh... I didn't really think of that."
+    },
+    {
+      "Text": "[s] \"It's okay.\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "*sigh* Sensei, you shouldn't let her get away with things all the time."
+    },
+    {
+      "Name": "Midori",
+      "Text": "The only thing on your mind is the game..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "I hope you didn't forget the actual purpose of today's club activities."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "*gasp* Right...!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "...Right?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Oh, no! Midori! I remember, of course! Yeah, I swear!"
+    },
+    {
+      "Text": "[s] \"Come to think of it, I still don't know why I'm here...\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Don't tell me you brought Sensei here without explaining anything to them."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Hey!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I-I was planning on explaining right now! Duh!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "The purpose of today's club activity is..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "To begin brainstorming ideas for our next video game!"
+    },
+    {
+      "Text": "[s] \"The next video game?\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Yes, we at the Game Development Department think it's time to pursue a new endeavor."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Right! When we heard that you had some free time, which almost never happens, we had to have you here!"
+    },
+    {
+      "Text": "[s3] \"...I'm sorry I can't come more often.\""
+    },
+    {
+      "Text": "[s4] \"I've been less busy lately, for sure.\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Well, we all know how busy you are... We appreciate you coming out!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Anyway, we'd like to hear your opinions on our next project!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You might have incredible and fresh ideas to contribute!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "That's what we were all thinking...and that's why we asked you to be here!"
+    },
+    {
+      "Text": "[s] \"Oh, wow... That's a lot of pressure...\""
+    },
+    {
+      "Text": "[ns] \"But wait, how come we've only been playing this fighting game, then?\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Oh, that was her idea."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "It was market research, okay?! Research!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Just sitting around struggling to come up with ideas together doesn't guarantee good results!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "So we thought we could play popular games and analyze them to help get our juices flowing."
+    },
+    {
+      "Text": "[s] \"That actually does make sense.\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Heeheehee! Right?! Especially the game we were just playing..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "The Fist of Cassiopeia - Upalupa Great Battle is one of the most popular and controversial titles in the fighting game world!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "There's a lot to learn from this game. We should dig into it thoroughly and analyze it!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I'm sure we'll come up with some great ideas for our next project!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "So, our next project is basically a therapeutic dungeon strategy RPG where you take on quests, go fishing, farm, and develop your characters."
+    },
+    {
+      "Text": "[s] \"Huh?! What do fighting games have to do with that?!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What kind of question is that, Sensei?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "I know the connection between a dungeon strategy RPG and fighting games isn't immediately obvious, but..."
+    },
+    {
+      "Text": "[s] \"But...?\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Heeheehee! Well, you can't judge a book by its cover!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "To win the next Millennium Prize, we have to take risks that no one has ever even fathomed!!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "In short, forget the stereotypes, overcome your prejudices and reach for new horizons!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "We were thinking that combining elements from two seemingly unrelated genres might bring about a refreshing and interesting game."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Midori! I was getting to that part!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "You were taking too long to explain, so I just did it for you."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Waaah! You're so mean!"
+    },
+    {
+      "Text": "[s] \"Well, it's nice that everyone is putting in their all for your club activities.\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Really?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Ah..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Heehee!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Well, of course!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Right, Momoi and I, Yuzu, and Aris..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "We promised to totally rule the Millennium Prize next time."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Yes. That's our quest right now."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Momoi! Midori! Sensei! It is an emergency!"
+    },
+    {
+      "Text": "[s] \"Hi, Aris. What's going on?\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? What's wrong all of a sudden, Aris?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yuzu has finally entered the challenge to win ten online battles in a row!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Really?! No way!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What? Ten wins in a row?"
+    },
+    {
+      "Text": "UZQueen WINS!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Whoa..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "That was so cool, Yuzu!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Yuzu, you're always so amazing."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I was impressed too! You truly are a legendary hero, UZQueen!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Wh-What...? Huh?"
+    },
+    {
+      "Text": "[s] \"Yuzu! Amazing! That was a perfect victory!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Right? Perfect Yuzu! You were in UZQueen Mode! "
+    },
+    {
+      "Text": "[s] \"UZQueen Mode...?\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "UZQueen Mode is like a buff that's activated when Yuzu is in a high-intensity situation!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "It's a state that makes her feel bolder and more confident than usual...where her brain works 150% faster than normal and visual detection increases by 280%!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "You just made that up..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I know it too! Yuzu is very strong in that state! I would love to have a skill like UZQueen Mode!"
+    },
+    {
+      "Text": "[s] \"Incredible! UZQueen Mode!\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Sensei?!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Th-That's not...! Augh!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "It really isn't anything special..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Watching Yuzu's achievements, I am inspired to take action."
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is my turn next!"
+    },
+    {
+      "Text": "While everyone was watching, Aris' fighting game challenge began."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I will become a fighting game hero like Momoi, Midori, Yuzu, and Sensei!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Momoi is more like a trash mob monster..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Hey! Just because it's true, doesn't mean you should say it!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "A-Aris... Good luck!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! I will do my best!"
+    },
+    {
+      "Text": "Challenger for the next battle!"
+    },
+    {
+      "Text": "[ns] \"Oh, a challenger has appeared.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "I will show off the skills I obtained by training with Momoi!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Hiyap!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Hmm! Yah! Yup."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "The opponent is dodging all the attacks..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Not yet! This is only the beginning!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I got this!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Huh? What was that..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "When Aris hit the opponent, did her own character's HP go down?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I... I can do this!"
+    },
+    {
+      "Text": "[ns] \"Oh, now the opponent just... disappeared...?\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "H-Huh?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "The opponent ambushed Aris from behind!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "A-Ack! What do I...? Attack!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "The attack went right through the opponent? What the heck?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Woah?! Why are they suddenly invisible?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Now they're turning into a giant! They're covering the entire screen!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Wh-Why isn't the hitbox registering?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "A-Argh! I cannot beat this player!"
+    },
+    {
+      "Text": "[s] \"That player might be...\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What the heck? They have to be cheating!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Right? Ugh! Cheaters are the worst. They're not even enjoying the game!"
+    },
+    {
+      "Text": "Challenger for the next battle!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "They're challenging us again?! How shameless! That dirty cheater!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Wh-What should I do?"
+    },
+    {
+      "Text": "[s] \"If the player keeps cheating, you might not be able to win...\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Just deny the request! We have no reason to play with a cheater!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "I'm sorry, Aris. Sometimes games just aren't fair."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...It's not like there's no way to win."
+    },
+    {
+      "Text": "[ns] \"Yuzu?\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "L-Let me take this from here. I'll enter with my account."
+    },
+    {
+      "Text": "3"
+    },
+    {
+      "Text": "2"
+    },
+    {
+      "Text": "1"
+    },
+    {
+      "Text": "Battle START!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "...!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Ugh! See?! They're using the invisibility cheat again!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Don't worry. Look. The character might be invisible, but you can still see their shadow."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I can track the shadow and react that way."
+    },
+    {
+      "Text": "[s] \"A-Amazing! I had no clue!\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Hm... Your attack did land, but..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "It didn't deal any damage! They used the invincibility cheat again..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "It's not invincibility. They're changing where the hitbox is on their avatar."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I can counter it with a skill that deals damage ignoring the hitbox."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "My character's Taunt skill has a gimmick that forcibly deals ten times damage if not interrupted..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Momoi! Midori! D-Did you see that?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "She's crazy..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "You did it! You hurt them!"
+    },
+    {
+      "Text": "[ns] \"Oh! They're coming with their full power now!\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I can guard against it. I just have to keep an eye on the attack frames."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "There's a split moment after the enemy attacks when they're vulnerable..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Now! I can jump backwards and hit them with a jumping heavy kick."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "No way! Their character is stunned!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "If they don't know how to punish this keep-out move, they'll never be able to approach."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I don't think they know."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I'll break down their cheats one by one..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "And I can beat them."
+    },
+    {
+      "Text": "UZQueen WINS!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "See? I told you we weren't out of options."
+    },
+    {
+      "Text": "[s] \"That's my...UZQueen!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "A-Amazing! I mean there's no words to describe how amazing that was, Yuzu!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! I was holding my breath the whole time!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "I see. Even if the enemy is cheating..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "You can still cheese strats by using in-game tricks to counter them."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Yes... It's a dirty way of playing, though. I prefer not to use them. That's not the way the game is meant to be played."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "But if the other player decides to cheat, all the gloves are off. That's part of the game too."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I understand! Cheese and tricks are part of gameplay too!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Yes, exactly right. Although, I'm sure they can find cheats to counter the methods I used."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "But even if they did, I'd find another way to beat them."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Yup. That's what a gamer does, after all."
+    },
+    {
+      "Text": "[s] \"You're incredible, Yuzu.\""
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Oh...! Even S-Sensei complimented me... It's not a big deal..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Yes it is! It felt so good when you won!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "This experience was a great way to start brainstorming."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Shall we start the design meeting, then?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? The design meeting? What are you talking about?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "...Momoi."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "R-R-Right! I remember!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "O-Of course, we're gonna have a meeting!"
+    },
+    {
+      "Text": "And daily life at the Game Development Department continued as usual."
+    },
+    {
+      "Text": "Next Episode; Aris Goes on an Adventure!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;วันธรรมดาๆ ของชมรมพัฒนาเกม"
+    },
+    {
+      "Text": "(นานๆ ทีจะถึงวันที่คุณครูไม่มีงานของชาเล่ต์สักเท่าไร เลยพอจะมีเวลาให้ได้หายใจหายคอกันบ้าง)"
+    },
+    {
+      "Text": "(ในวันนั้นเอง คุณครูได้รับการติดต่อจากชมรมพัฒนาเกมให้ไปเข้าร่วมกิจกรรมของชมรม)"
+    },
+    {
+      "Text": "(ถึงจะบอกว่าเป็นกิจกรรมของชมรม แต่คุณครูก็ไม่ได้ฟังคำอธิบายว่าเป็นกิจกรรมแบบไหนกันแน่)"
+    },
+    {
+      "Text": "ชมรมพัฒนาเกมมิลเลเนียม"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ๊ากก! เตรียมใจไว้ได้เลย! คุณครู!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "จากนี้จะได้เจอท่าไม้ตายลับของฉัน...!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แล้วคุณครูจะได้เห็น โมโมอิ สแปลช...!!"
+    },
+    {
+      "Text": "(พอตั้งสติได้ คุณครูก็รู้สึกตัวว่ากำลังเล่นเกมต่อสู้อยู่กับโมโมอิ)"
+    },
+    {
+      "Text": "[s] \"ท่าไม้ตายลับของโมโมอิ...!!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฮุฮุฮุ! เจอการโจมตีคอมโบที่ไร้ความปรานีของฉันเข้าไป! ถ้า HP ของคุณครูยังไม่หมดหลอด ฉันก็ไม่เลิกโจมตีหรอก!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ย้าาา!"
+    },
+    {
+      "Text": "(ตึง! ฮวบ!)"
+    },
+    {
+      "Text": "「Player MOMORIA LOSE!」"
+    },
+    {
+      "Text": "「WINNER! Player [USERNAME]!」"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แงงงง! ทำไมการโจมตีคอมโบของฉันมันถึงไม่โดนเลยล่ะ ทำไมออกนอกวิถีหมดเลย?!"
+    },
+    {
+      "Text": "[s1] \"ก็พอโมโมอิใจร้อนก็จะรีบกดปุ่มเกินไปไงล่ะ...\""
+    },
+    {
+      "Text": "[s2] \"คอมโบที่มีแต่ความโลภแบบนั้นทำอะไรครูไม่ได้หรอก! โมโมอิ!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "วะ... ว่าไงนะ?! คุณครูมองการโจมตีทั้งหมดของฉันออกอย่างทะลุปรุโปร่งเลยเหรอ?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คุณครูบอกฉันว่าวันนี้เพิ่งได้ลองเล่นเกมนี้เป็นครั้งแรกด้วยนะ พี่โมโมอิ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หา??! อย่าให้พี่ต้องเจอกับความจริงที่โหดร้ายสิ มิโดริ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เมื่อกี้เป็นโมฆะ! โมฆะๆ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เอาอีกตา! ขออีกตาเดียวคุณครู! ต่อไปฉันจะใช้คอมโบลับสุดยอด..."
+    },
+    {
+      "Text": "[s] \"พูดแบบนี้มา 8 รอบแล้วนะ โมโมอิ...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม?! นี่เราเล่นมาขนาดนั้นแล้วเหรอ?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ใช่สิพี่ เอาให้มันพอดีๆ เถอะ คุณครูลำบากใจแล้วนะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แต่ถ้าจะปล่อยให้แพ้แบบนี้ กะ... เกมเมอร์อย่างฉันเสียศักดิ์ศรีนะ..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ดื้ออีกแล้ว..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แล้วที่พูดมาน่ะ หมายความว่าขอแค่คุณครูแพ้ก็พองั้นเหรอ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เมี้ยววว?!  ทะ.. ทำไมตีความไปอย่างนั้นล่ะ...?"
+    },
+    {
+      "Text": "[s] \"แต่จะให้ครูแพ้ก็ได้นะ\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เฮ้อ... คุณครูคะ จะยอมให้พี่เขาดื้อใส่แบบนี้ไม่ได้สิคะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อีกอย่าง ที่วันนี้พี่คิดแต่จะเล่นสนุกแบบนี้..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อย่าบอกนะคะว่าลืมจุดประสงค์ของการทำกิจกรรมชมรมในวันนี้ไปแล้ว?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เฮือก จริงสิ...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "จริงสิ...?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "มะ... ไม่ใช่นะ มิโดริ! พี่ยังจำได้แม่น! อื้ม! จำขึ้นใจเลย!"
+    },
+    {
+      "Text": "[s] \"จะว่าไป ครูยังไม่ได้ฟังเลยว่าวันนี้จะมีกิจกรรมอะไร\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่โมโมอิ หรือว่าพี่ชวนคุณครูมาโดยที่ยังไม่ได้อธิบายรายละเอียดให้ฟังเลย..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่คะ~~?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ้อ เรื่องรายละเอียด! อื้ม! ก็ตั้งใจจะอธิบายตอนนี้แหละ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "จุดประสงค์ของการทำกิจกรรมชมรมในวันนี้ ไม่ใช่อะไรอื่น..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แต่เป็นการเตรียมไอเดียสำหรับงานชิ้นต่อไป!"
+    },
+    {
+      "Text": "[s] \"งานชิ้นต่อไป...?\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ใช่ค่ะ ชมรมพัฒนาเกมของเราคุยกันว่าจะเตรียมผลงานชิ้นต่อไปอยู่ค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ใช่! แล้วพอรู้ว่าคุณครูที่แสนยุ่งเริ่มจะมีเวลาว่างกับเขาบ้าง ก็เลยชวนมาแบบนี้ไงล่ะ!"
+    },
+    {
+      "Text": "[s3] \"ขอโทษที่ไม่ได้มาหาบ่อยๆ นะ\""
+    },
+    {
+      "Text": "[s4] \"ช่วงนี้งานครูลดลงไปเยอะเลยละ\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ไม่เป็นไรหรอก ฉันรู้ดีว่าคุณครูก็งานรัดตัวอยู่ตลอด... พวกฉันมากกว่าที่ต้องขอบคุณที่คุณครูมา\nหากันแบบนี้~"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เข้าเรื่องเลยละกัน! คุณครูช่วยเสนอความเห็นเกี่ยวกับไอเดียของผลงานชิ้นต่อไปให้หน่อยได้ไหม~?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "พวกเราคุยกันในชมรมว่าคุณครูอาจจะมีไอเดียแจ่มๆ ก็ได้น่ะ~"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ก็เลยชวนคุณครูมาในวันนี้ไง!"
+    },
+    {
+      "Text": "[s] \"อ่อ... อืม... รู้สึกกดดันอยู่นะเนี่ย...\""
+    },
+    {
+      "Text": "[ns] \"แต่เดี๋ยวนะ เมื่อกี้เอาแต่เล่นเกมต่อสู้อย่างเดียวเลยไม่ใช่เหรอ...?\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อ๊ะ นั่นเป็นไอเดียของพี่เขาน่ะค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อื้ม! เพื่อการวิเคราะห์ไง จะได้ศึกษาข้อดีข้อเสียของเกมอื่น!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เพราะถ้าเริ่มจากศูนย์ ต่อให้รวมหัวกันคิดแทบตายก็อาจจะไม่ได้ผลลัพธ์อะไรก็ได้"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ฉันก็เลยเสนอให้ลองเล่นเกมฮิตหลายๆ เกม แล้วคิดหาไอเดียจากเกมพวกนั้น มันก็เป็นอย่างนี้แหละค่ะ"
+    },
+    {
+      "Text": "[s] \"ฟังดูมีเหตุผลนะ\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฮิฮิ! ใช่ไหมล่ะ?! โดยเฉพาะเกมนี้ที่เพิ่งเล่นกับคุณครูไป"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "<คาซิโอเปีย~ วูฟารูฟาแบตเทิล~> เป็นหนึ่งในเกมต่อสู้ที่ได้รับความนิยมมากที่สุด เรียกได้ว่าเป็นเกมที่มี\nเอกลักษณ์ในหลายแง่มุมเลยละ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ด้วยความที่มันเป็นเกมที่มีอะไรให้เอาเป็นแบบอย่างเยอะ ฉันเลยมองว่าถ้าเราสามารถเจาะลึก และวิเคราะห์\nมันได้ละก็!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เราก็จะออกไอเดียที่บรรเจิดสำหรับผลงานชิ้นใหม่ได้แน่นอน!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ผลงานชิ้นต่อไปของพวกเราคือ <เกม RPG ลงดันเจี้ยนที่ดีต่อใจ ที่ให้ตัวละครได้ทำเควส และสนุกสนานไปกับการปลูกผัก ตกปลา> ค่ะ"
+    },
+    {
+      "Text": "[s] \"หืม?! แต่จะใส่องค์ประกอบของเกมต่อสู้เข้าไปด้วยเหรอ?!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "พูดอะไรของคุณครูน่ะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แน่นอนว่าในสายตาของคนทั่วไป อาจมองว่าเกมดันเจี้ยน RPG กับเกมต่อสู้ไม่มีความเชื่อมโยงกันก็ได้ แต่ถึงยังไงก็เถอะ..."
+    },
+    {
+      "Text": "[s] \"แต่ถึงยังไงก็เถอะ...?\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฮิฮิ! เราจะมองแค่ภายนอกแล้วตัดสินไม่ได้สิ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถ้าอยากได้รางวัลในมิลเลเนียมไพรซ์ครั้งต่อไป เราต้องทำในสิ่งที่ท้าทายที่ไม่มีใครคาดคิดมาก่อน!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "โดยสรุปแล้ว เราต้องละทิ้งความยึดติด ขจัดความเห็นส่วนตัว และก้าวข้ามอคติ ถึงจะออกไปแตะขอบฟ้า\nได้...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ถ้าเราเอาองค์ประกอบของ 2 สิ่งที่ดูไม่เกี่ยวข้องกันเลยมารวมกันได้ นี่อาจจะเป็นไอเดียเกมสนุกๆ ได้เลยนะคะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ๊ะ! มิโดริ! เอาบทของฉันไปพูดได้ยังไง!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ก็พี่ชอบพาออกทะเล ฉันก็เลยพูดแทนให้ไง"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แง... เกินไปแล้วนะ~"
+    },
+    {
+      "Text": "[s] \"อืม ยังไงก็เถอะ ทุกคนดูจริงจังกับการทำกิจกรรมชมรมน่าดูเลยนะ\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฮิฮิฮิ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "มันก็แน่นอนอยู่แล้ว!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไม่ใช่แค่ฉันกับพี่นะคะ ทั้งยูสึจังกับอาริสึจังก็ช่วยกันด้วย..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เราสัญญากันไว้แล้วว่าจะคว้ารางวัลจากมิลเลเนียมไพรซ์ครั้งหน้ามาให้ได้ค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อืม จะมองว่านั่นคือ <เควส> ที่พวกเราได้รับมาก็ได้!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "โมโมอิ! มิโดริ! คุณครู! เกิดเรื่องด่วนแล้วละค่ะ!"
+    },
+    {
+      "Text": "[s] \"ว่าไงอาริสึ มีเรื่องอะไรเหรอ?\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? จู่ๆ ก็เกิดอะไรขึ้นงั้นเหรออาริสึ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ยูสึแข่งแบทเทิลออนไลน์ชนะ 10 ครั้งติดต่อกันแล้วค่ะ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "หืม? จริงเหรอ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ว่าไงนะ? ชนะ 10 ตารวดในเกมที่บาลานซ์พังแบบนั้นเนี่ยนะ?!"
+    },
+    {
+      "Text": "「WINNER! Player UZQueen!」"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เฮ้อออ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เท่สุดๆ ไปเลย! ยูสึ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "สงสัยต้องเรียกว่าเทพยูสึจังแล้วรึเปล่าเนี่ย"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึก็ประทับใจมากค่ะ สมแล้วที่เป็นผู้กล้าในตำนาน UZQueen!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "หะ... หะ... หืม......?"
+    },
+    {
+      "Text": "[s] \"ยูสึ! เยี่ยมมาก! ชนะแบบเพอร์เฟกต์เลยนะเนี่ย!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ใช่ไหมล่ะ? ถ้าอยู่ใน <โหมด UZQueen> ละก็ ยูสึคนขี้อายที่ชอบแอบในตู้ก็จะหายไปเลยละ!"
+    },
+    {
+      "Text": "[s] \"มะ... โหมด UZQueen?\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ฉันอธิบายให้! <โหมด UZQueen> ก็คือ! สกิลบัฟที่จะทำงาน เมื่อยูสึอยู่ในสถานการณ์พิเศษ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ส่งผลให้มีความกล้ามากขึ้นและมีความมั่นใจมากกว่าปกติ... สมองไวขึ้นกว่าปกติ 150%! ประสิทธิภาพ\nของสายตาเพิ่มขึ้น 280%!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไปมีบัฟแบบนั้นตั้งแต่เมื่อไรกันน่ะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึรู้ค่ะ! ตอนอยู่ในโหมด UZQueen ยูสึแข็งแกร่งมากค่ะ! อาริสึเองก็อยากได้สกิลแบบ โหมด UZQueen บ้างค่ะ! "
+    },
+    {
+      "Text": "[s] \"ยอดไปเลย! <โหมด UZQueen>!\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "คะ... คุณครูก็เป็นไปกับเขาด้วยเหรอ?!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "คะ... คะ... คือว่า...!  งืออออ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฉันก็แค่ทำเหมือนตอนปกติเองนะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "พอเห็นผลงานของยูสึแล้ว อาริสึเองก็คงจะอยู่เฉยๆ ไม่ได้แล้วละค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ต่อไปเป็นตาของอาริสึแล้วค่ะ!"
+    },
+    {
+      "Text": "(จากนั้นอาริสึก็เริ่มเล่นเกมต่อสู้ โดยมีทุกคนคอยดูอยู่ข้างๆ)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึก็จะเป็นผู้กล้าในเกมต่อสู้เหมือนกับโมโมอิ มิโดริ ยูสึ และคุณครูด้วยค่ะ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ฉันว่าพี่โมโมอิน่าจะเป็นมอนสเตอร์ไร้ประโยชน์มากกว่าผู้กล้านะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "น้องคนนี้นี่! บางครั้งความจริงมันก็เจ็บปวดนะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อะ... อาริสึจัง... พยายามเข้านะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! อาริสึ! จะพยายามค่ะ!"
+    },
+    {
+      "Text": "(Challengers Next Battle!!)"
+    },
+    {
+      "Text": "[ns] \"อ๊ะ มีผู้ท้าชิงแล้ว\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึจะโชว์ฝีมือที่ได้ฝึกฝนกับโมโมอิให้เห็นเองค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ย้าก!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ฮึบ! ย้ากก! ย้าก"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฝ่ายตรงข้ามหลบหลีกได้ทั้งหมดเลย..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไม่หรอกค่ะ! การโจมตีของอาริสึยังไม่จบแค่นี้ค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้าโจมตีให้เข้าเป้าแบบนี้ละก็...!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "หืม?! เมื่อกี้นี้มัน..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ตัวละครของอาริสึโจมตีได้เมื่อกี้นี้ แต่ทำไม HP ไม่ลดลงเลยล่ะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ดะ... เดี๋ยวสิคะ! อาริสึยังสู้ได้อยู่..."
+    },
+    {
+      "Text": "[ns] \"เอ๋? ตัวละคร... หายไปแล้ว...?\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "คะ... คะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "การโจมตีกะทันหันจากข้างหลังอาริสึนี่มัน?!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ๊ะ... อ๊ะ! ฮึ่ม! จะ... โจมตี!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "การโจมตีของอาริสึผ่านฝ่ายตรงข้ามไปแล้วค่ะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หา??! คราวนี้ตัวละครโปร่งใสขึ้นมาเหรอ?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "และต่อไป... ก็ตัวใหญ่ขึ้นจนบังหน้าจอได้ทั้งหมด?!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แถมตอนนี้... ขะ... ขอบเขตการโจมตีก็... หายไปด้วย"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แงงงงง! อาริสึเอาชนะผู้เล่นคนนี้ไม่ได้ค่ะ!"
+    },
+    {
+      "Text": "[s] \"ครูว่าดูยังไงก็...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ให้ตายสิ! ไอ้เจ้าบ้านี่! แบบนี้มันโกงกันชัดๆ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เกินไปแล้วนะ ถ้าเล่นเกมแล้วโกงกันแบบนี้ก็ไม่มีทางสนุกหรอก"
+    },
+    {
+      "Text": "(Challengers Next Battle Again!!)"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แถมยังมาท้าดวลใหม่อีกงั้นเหรอ?! หน้าไม่อายสุดๆ! เดี๋ยวก็โกงกันอีกอยู่ดีไม่ใช่เหรอ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "...ถ้างั้น เอาไงดีคะ?"
+    },
+    {
+      "Text": "[s] \"หากฝ่ายตรงข้ามโกง... เราก็คงชนะไม่ได้หรอก...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "กดปฏิเสธไปเลย! เราไม่จำเป็นต้องเป็นเพื่อนเล่นให้คนขี้โกงแบบนี้หรอก!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อื้ม อาริสึจัง... ฉันรู้ว่าเธอเสียดาย แต่ตานี้เธอ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ไม่ใช่ว่ามันจะไม่มีวิธีหรอกนะ..."
+    },
+    {
+      "Text": "[ns] \"ยูสึ?\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "จะ... จากตรงนี้ไป... ให้ฉันจัดการเอง ฉันจะเข้าไปสู้ด้วยไอดีของฉันเอง"
+    },
+    {
+      "Text": "3"
+    },
+    {
+      "Text": "2"
+    },
+    {
+      "Text": "1"
+    },
+    {
+      "Text": "(Battle! START!)"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "!!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ๊ะ! ฝ่ายตรงข้ามใช้สูตรโกงให้มองไม่เห็นตัวละครอีกแล้ว!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ไม่เป็นไร เมื่อกี้ฉันเช็กดูแล้ว ตัวละครโปร่งใสก็จริง แต่ว่าเงายังคงอยู่เหมือนเดิม"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เราแค่ต้องดูการเปลี่ยนขนาดของเงา แล้วก็ซัดกลับให้หงาย..."
+    },
+    {
+      "Text": "[s] \"สะ... สุดยอด...! คิดไม่ถึงวิธีนี้เลย!\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เราโจมตีเข้าไปแล้วนี่นา!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ทำไมอีกฝ่ายไม่โดนดาเมจเลย! หรือว่าใช้สูตรโกงให้เป็นอมตะ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "บางทีนั่นอาจเป็นสูตรโกงที่ปรับขอบเขตการโจมตีได้ก็ได้"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "งั้นเราก็แค่ต้องใช้เทคนิคสร้างดาเมจที่ไม่เกี่ยวข้องกับขอบเขตการโจมตี"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "สกิลยั่วยุของตัวละครฉันสามารถสร้างดาเมจได้แน่นอนหากไม่ถูกรบกวน..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "โมโมอิ! มิโดริ! หะ... เห็นเมื่อกี้ไหมคะ?!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ทำดาเมจ..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ได้ผลจริงๆ ด้วย!"
+    },
+    {
+      "Text": "[ns] \"อ๊ะ! ฝ่ายตรงข้ามเริ่มโจมตีเราแล้ว!\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ไม่เป็นไรค่ะ ตอนนี้แค่ต้องอ่านรูปแบบการโจมตี แล้วยืนตั้งการ์ดอยู่ในมุม..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "พอฝ่ายตรงข้ามพลาดจังหวะในการโจมตี..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ก็กระโดดถอยหลังแล้วเตะแรงๆ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ตัวละครอีกฝ่ายติดสตันไปแล้ว!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "พอใช้การโจมตีนี้เป็นตัวสกัดกั้น จะทำให้อีกฝ่ายใช้ประโยชน์จากการเคลื่อนไหวที่ช้าลงของฉันไม่ได้\nเพราะงั้นจะเข้าใกล้ฉันไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฉันคิดว่าความสามารถระดับฝ่ายตรงข้ามเนี่ย คงคิดไม่ถึงกลยุทธ์แบบนี้หรอกค่ะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ถ้าเราทำลายกลโกงของฝ่ายตรงข้ามได้ทีละอย่างๆ ละก็..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เราก็จะเอาชนะได้"
+    },
+    {
+      "Text": "「WINNER! Player UZQueen!」"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฮู่วว..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "เห็นมั้ยล่ะ? ทำแบบนี้ก็ชนะได้แล้ว"
+    },
+    {
+      "Text": "[s] \"ขอคารวะ UZQueen...!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "สะ... สุดยอดเลย...! ไม่สิ คำว่าสุดยอดยังน้อยไปเลย! ยูสึ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่ค่ะ! อาริสึเห็นด้วย! ฉันเฝ้าดูการต่อสู้จนแทบจะลืมหายใจไปเลยละค่ะ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ถึงอีกฝ่ายจะใช้กลโกงยังไง"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แต่พวกเราก็ชนะได้ด้วย <การโกงกลับโดยชอบธรรม> และ <การเล่นนอกกติกา>"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อืม... แต่ถ้าใช้วิธีนี้มากเกินไป ความสนุกของเกมก็จะลดลง... และก็จะพาลทะเลาะกันกับ... เพื่อนๆ ได้ ฉันเลยไม่ชอบวิธีนี้เท่าไรน่ะ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แต่ฉันยอมให้อีกฝ่ายใช้สูตรโกงเล่นกับเราไม่ได้... และการหาวิธีโต้กลับก็เป็นส่วนหนึ่งของการเล่นเกม\nอยู่แล้วด้วย"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ้อ! การโกงกลับและเล่นนอกกติกาคือส่วนหนึ่งของการเล่นเกม! อาริสึเข้าใจแล้วค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แน่นอนว่าถ้าเราได้สู้กับเขาอีกครั้ง และเขาหาสูตรโกงมาโต้กลับวิธีที่ใช้เมื่อกี้ได้... เราก็คงต้องลำบากกันอีก"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แต่ถึงจะโดนตอกกลับมา... เราก็แค่ต้องสู้ใหม่ให้ชนะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อืม ก็เราเป็นเกมเมอร์นี่นา"
+    },
+    {
+      "Text": "[s] \"สุดยอดไปเลย ยูสึ\""
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อ๊ะ... คะ... คุณครูก็ชมกับเขาด้วยเหรอคะ... ไม่ใช่เรื่องใหญ่อะไรเลยค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อื้อ! แต่ฉันดีใจมากเลยนะที่เราชนะในตอนท้าย!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไหนๆ เราก็ได้ไอเดียจากสิ่งนี้แล้ว"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "งั้นเรามาประชุมวางแผนงานเลยดีไหมพี่?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม...? ประชุมวางแผนงาน? แผนงานอะไรเหรอ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "........."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่คะ~~~!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ้อ! จะ... จริงด้วย! ชะ... ใช่เลย!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "จริงแท้... แน่นอนเลย!"
+    },
+    {
+      "Text": "(และหนึ่งวันธรรมดาๆ ของชมรมพัฒนาเกมก็ผ่านไปเช่นเคยเหมือนทุกวัน)"
+    },
+    {
+      "Text": "ตอนต่อไป;อาริสึจะเริ่มการผจญภัยแล้วค่ะ!~"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;遊戲開發部的平凡日常"
+    },
+    {
+      "Text": "（難得夏萊沒有工作，正好有點時間的某天）"
+    },
+    {
+      "Text": "（從遊戲開發部那裡，傳來了希望我能一起參加社團活動的聯絡）"
+    },
+    {
+      "Text": "（雖然說是社團活動，不過沒能問清楚具體要做什麼……）"
+    },
+    {
+      "Text": "千年．遊戲開發部"
+    },
+    {
+      "Name": "桃井",
+      "Text": "看招！\n老師，覺悟吧！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "現在就讓你看看，我終極的必殺技……！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "桃井噴射！！"
+    },
+    {
+      "Text": "（回過神來，已經和桃井在社辦玩起了格鬥遊戲）"
+    },
+    {
+      "Text": "[s]「終極的必殺技……！！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哼哼哼！我的Combo毫無死角唷！\n直到！老師的HP歸零為止！都不會停止！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "呀啊──！"
+    },
+    {
+      "Text": "（咚！碰！）"
+    },
+    {
+      "Text": "「Player MOMORIA LOSE！」"
+    },
+    {
+      "Text": "「WINNER！Player [USERNAME]！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗚哇啊啊！為什麼我的Combo打不中啊！？"
+    },
+    {
+      "Text": "[s1]「因為桃井只要慌了就會亂打一通……」"
+    },
+    {
+      "Text": "[s2]「那種小孩子Combo對我是沒用的唷，桃井！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "怎麼會！？\n我的攻擊模式已經被看透了嗎！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "話說，姐姐……妳說過老師是今天才開始玩的新手對吧。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗚哇，綠！！？不要把我推進這無情的現實中啊！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "剛才的不算！不算啦！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "再一場！再一場啦老師！\n這次會使出真正的終極Combo……"
+    },
+    {
+      "Text": "[s]「這句話已經說第8次了……」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦！？已經那麼多次了！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "就是啊，姐姐。適可而止吧？\n會讓老師困擾的。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "但，但是以失敗告終的話，身，身為玩家的自尊心……"
+    },
+    {
+      "Name": "綠",
+      "Text": "又說那種話……"
+    },
+    {
+      "Name": "綠",
+      "Text": "那老師以失敗告終就可以嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "唔喵！？\n那個……會，會那樣嗎……？"
+    },
+    {
+      "Text": "[s]「我不介意唷。」"
+    },
+    {
+      "Name": "綠",
+      "Text": "唉。老師，不可以太寵姐姐唷？"
+    },
+    {
+      "Name": "綠",
+      "Text": "話說回來，這樣一直玩一直玩……\n姐姐……"
+    },
+    {
+      "Name": "綠",
+      "Text": "今天社團活動的目的，妳還記得嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊，對齁……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "……對齁？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "不，不是！不是啦，綠！\n我記得很清楚！真的！"
+    },
+    {
+      "Text": "[s]「這麼說來，還沒詳細聽妳們說呢。」"
+    },
+    {
+      "Name": "綠",
+      "Text": "吶，姐姐……妳什麼都還沒跟老師說明嗎……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐～～姐～～？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "現，現在！\n我現在正要說！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "今天……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "要想出下一個作品的點子！"
+    },
+    {
+      "Text": "[s]「下一個作品……？」"
+    },
+    {
+      "Name": "綠",
+      "Text": "是的。大家也說差不多該開始為下一個作品做準備了。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "沒錯！而且，聽說平常非常忙碌的老師正好有空，\n所以才會找你過來！"
+    },
+    {
+      "Text": "[s3]「……抱歉，最近比較少過來呢。」"
+    },
+    {
+      "Text": "[s4]「確實，現在正好有空呢。」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯，我們也知道老師很忙……\n謝謝你願意過來！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "總之！既然老師都來了，\n可以聽聽你對下一個作品的意見嗎～"
+    },
+    {
+      "Name": "桃井",
+      "Text": "而且，如果是老師的話，應該可以想出很多很厲害的點子吧～"
+    },
+    {
+      "Name": "桃井",
+      "Text": "所以，就把老師請來這裡了！"
+    },
+    {
+      "Text": "[s]「啊，嗯……對我的期待好像有點沉重……」"
+    },
+    {
+      "Text": "[ns]「話說，好像一直都在玩格鬥遊戲……？」"
+    },
+    {
+      "Name": "綠",
+      "Text": "啊，那是姐姐的點子。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "沒錯，我想要分析遊戲！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "在腦袋空空的狀態下不管再怎麼煩惱，都想不出好點子不是嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "所以才要玩各種高人氣作品，從中想出新的點子。\n就是這麼回事。"
+    },
+    {
+      "Text": "[s]「原來如此，有道理呢。」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哼哼哼！對吧！？\n特別是剛剛和老師玩的遊戲。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "《仙后神拳～六角恐龍大列傳～》\n在格鬥遊戲界中，是在各種意義上被稱為異端的人氣遊戲哦！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "因為有許多地方可以參考，只要對這個遊戲進行分析……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "一定能想出對新作有幫助的好點子！應該吧！"
+    },
+    {
+      "Name": "綠",
+      "Text": "我們的下一個作品是「輕鬆慢活系地城探索RPG」。"
+    },
+    {
+      "Text": "[s]「卻要在裡面加入格鬥遊戲的元素！？」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "你在說什麼啊，老師！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "確實，在一般人的眼裡，可能會覺得地城探索RPG跟格鬥遊戲沒什麼交集……"
+    },
+    {
+      "Text": "[s]「沒什麼交集……？」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哼哼哼！光憑外表就做出判斷可是NG的唷！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "要以下次的千年大賞為目標的話，就必須要有誰也想像不到的那種新的挑戰！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "沒錯，也就是說！要捨棄先入為主的觀念、克服各式各樣的偏見，\n才能到達嶄新地平線的彼方……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "混合看似完全不相關的種類裡的要素，\n說不定遊戲會意外的有趣。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊！綠！不要搶我的台詞！"
+    },
+    {
+      "Name": "綠",
+      "Text": "還不是因為姐姐說的一副煞有其事的樣子。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗚哇～太過分了～"
+    },
+    {
+      "Text": "[s]「大家都對開發新作全力以赴呢。」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "綠",
+      "Text": "啊……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哼哼哼！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那是當然的！"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯。不只是我和姐姐，還有柚子醬和愛麗絲醬。\n大家一起……"
+    },
+    {
+      "Name": "綠",
+      "Text": "我們約好了，這次一定要拿下千年大賞。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯。\n那就是我們現在的「任務」！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "桃井！綠！老師！\n緊急狀況！"
+    },
+    {
+      "Text": "[s]「妳好呀，愛麗絲。怎麼了嗎？」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦，怎麼了嗎，愛麗絲？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "終於，柚子在線上對戰超過10連勝了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "咦？真的嗎！？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "在這個平衡用腳做的遊戲10連勝！？"
+    },
+    {
+      "Text": "「WINNER！Player UZQueen！」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "呼啊……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "太帥了！柚子！"
+    },
+    {
+      "Name": "綠",
+      "Text": "柚子醬真厲害呢。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲非常感動！\n不愧是傳說的勇者「UZQueen」！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "啊，呃，嗯……？"
+    },
+    {
+      "Text": "[s]「恭喜妳，柚子！真是完美的勝利呢！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "對吧！這就是柚子的完美型態「UZQueen模式」唷！ "
+    },
+    {
+      "Text": "[s]「『UZQueen模式』……？」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "我來說明吧！所謂的「UZQueen模式」！\n就是柚子在特定情況下會發動的增益技能唷！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "會變得比平時大膽一點，大腦運轉的速度是平常的1.5倍！\n動態視力則會上升2.8倍哦！"
+    },
+    {
+      "Name": "綠",
+      "Text": "那種設定是什麼時候加上的？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲也知道！這時候的柚子非常強大！\n愛麗絲也想要「UZQueen模式」！"
+    },
+    {
+      "Text": "[s]「『UZQueen模式』真厲害呀……！」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "連，連老師也！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "那，那個……啊嗚……！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "只，只是很普通地，努力了一下而已……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "看到柚子的活躍，愛麗絲也有幹勁了！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "接下來輪到愛麗絲了！"
+    },
+    {
+      "Text": "（就這樣在大家的注視下，愛麗絲開始挑戰格鬥遊戲）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "像桃井、綠、柚子──還有老師一樣，\n愛麗絲也要成為格鬥遊戲的勇者！"
+    },
+    {
+      "Name": "綠",
+      "Text": "與其說是勇者，我倒覺得姐姐是擔任被勇者打倒的角色。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "妹妹啊！有時候真相很傷人的唷！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "愛，愛麗絲醬……加，加油！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！愛麗絲，會加油的！"
+    },
+    {
+      "Text": "（Challengers Next Battle！！）"
+    },
+    {
+      "Text": "[ns]「啊，好像出現挑戰者了呢。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "與桃井鍛鍊得來的身手，讓他見識一下吧！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "呀啊！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嘿！呀啊！嚇！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "全部都被迴避了……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不！愛麗絲的攻擊還沒有結束！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "我要上了！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "咦！？\n剛才的是……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "剛才，明明是愛麗絲發動攻擊，但愛麗絲的HP是不是減少了！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "還，還沒完！\n愛麗絲做得到……"
+    },
+    {
+      "Text": "[ns]「這次是角色……消失了……？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "咦，咦咦！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "在愛麗絲的後面……突然出現了！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "啊，呀……！\n啊唔！攻，攻擊！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲的攻擊穿過對手了！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗚哇！？這次是角色變透明了！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "而且……還變大擋住了整個畫面呢。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這，這次是……Hit，Hitbox好像消失了。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚，嗚哇！\n贏不了這個玩家！"
+    },
+    {
+      "Text": "[s]「這，不管怎麼看都是……」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "這傢伙是怎樣！不管怎麼看都作弊了吧！"
+    },
+    {
+      "Name": "綠",
+      "Text": "好過分……用這種方法贏了，真的會開心嗎。"
+    },
+    {
+      "Text": "（Challengers Next Battle Again！！）"
+    },
+    {
+      "Name": "桃井",
+      "Text": "要求再戰！？\n肯定又打算作弊吧！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "……該怎麼辦？"
+    },
+    {
+      "Text": "[s]「如果對方作弊的話……可能有點難贏……」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "拒絕吧！沒必要理會這種作弊仔！"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯……愛麗絲醬，雖然很可惜，但這次就……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "還，還有辦法唷……"
+    },
+    {
+      "Text": "[ns]「柚子？」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……交給我吧。\n我，我來亂入。"
+    },
+    {
+      "Text": "3"
+    },
+    {
+      "Text": "2"
+    },
+    {
+      "Text": "1"
+    },
+    {
+      "Text": "（Battle！START！）"
+    },
+    {
+      "Name": "柚子",
+      "Text": "！！！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊！又用變透明的外掛了！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "沒關係。\n從剛才的戰鬥來看，雖然角色會變透明，但影子不會……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "只要看影子的長度就能應付了。"
+    },
+    {
+      "Text": "[s]「好，好厲害……！居然還有這種方法！」"
+    },
+    {
+      "Name": "綠",
+      "Text": "明明不管怎麼看都命中了，卻沒有造成傷害！"
+    },
+    {
+      "Name": "綠",
+      "Text": "又是無敵外掛……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我想，那應該是能調整Hitbox的外掛。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "既然如此，只要不管Hitbox，強制造成傷害就好。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這個角色的嘲諷技能，\n只要沒有被妨礙就能強制造成傷害……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "桃井！綠！\n妳，妳們剛剛有看到嗎！？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "真的……"
+    },
+    {
+      "Name": "綠",
+      "Text": "造成傷害了！"
+    },
+    {
+      "Text": "[ns]「啊！對方突然開始猛烈進攻了唷！」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "沒問題的。\n在角落防禦等待機會，看準每一幀……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "在對方攻擊的瞬間……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "往後跳！\n然後使出強踢擊的話……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "對方的角色倒地了！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "用這招牽制對手的時候，如果不能打出確定反擊就絕對不能接近。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "以對方的實力，我想應該做不到這點……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "只要像這樣，一個一個擊破對方的弱點……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "就能贏唷。"
+    },
+    {
+      "Text": "「WINNER！Player UZQueen！」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "呼……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "這樣就……贏了，對吧？"
+    },
+    {
+      "Text": "[s]「這就是……UZQueen……！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "好厲害！好厲害唷柚子！\n厲害到「厲害」這個詞都無法形容了！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗯！愛麗絲也這麼覺得！都快看到入迷了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "就算對方使用外掛，"
+    },
+    {
+      "Name": "綠",
+      "Text": "我們還有「套路技」……對吧。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "嗯……因，因為太常使用的話，遊戲就不好玩了，\n還有……如果對朋友使用……有可能會吵起來，所以我不太喜歡……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "不過如果對方作弊就不用考慮這麼多了……\n畢，畢竟，這也是遊戲的一環。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "原來如此！套路技也是遊戲的一環！\n愛麗絲理解了！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "也許下次遇到的時候，他會使用讓套路技無效的外掛也說不定……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "……儘管如此，只要戰鬥的話就能贏唷。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "嗯……因為我們，是玩家啊。"
+    },
+    {
+      "Text": "[s]「柚子真的很厲害唷。」"
+    },
+    {
+      "Name": "柚子",
+      "Text": "啊，連，連老師都這麼說……那個，這，這也沒什麼了不起的。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "不過最後能贏過他，真是令人痛快！"
+    },
+    {
+      "Name": "綠",
+      "Text": "這樣一來遊戲分析也完成了……"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐，開始企劃會議吧？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "……嗯？企劃會議？什麼企劃會議？"
+    },
+    {
+      "Name": "綠",
+      "Text": "……"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐～姐～！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "對，對，對了！\n還有這回事呢！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "當，當然要開囉！"
+    },
+    {
+      "Text": "（於是，遊戲開發部的日常一如既往地持續著）"
+    },
+    {
+      "Text": "下一話;～愛麗絲，冒險開始！～"
+    }
+  ]
+}

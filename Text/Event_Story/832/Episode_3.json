@@ -1,0 +1,1667 @@
+{
+  "TitleJP": "テント設営",
+  "TitleKR": "텐트 설치",
+  "TitleEN": "Pitch the Tent",
+  "TitleTH": "กางเต็นท์",
+  "TitleTW": "搭帳篷",
+  "DescJP": "キャンプ場に到着したヴェリタス一同。意欲的なチヒロと違って、部員たちは屋外での活動に疲れていた。テントを設営した後、自由時間になるとメンバーたちはそれぞれ休息を取りに行き、チヒロは先生と一緒に読書を始めるのだった。",
+  "DescKR": "캠핑장에 도착한 베리타스 멤버들. 의욕적인 치히로와는 달리 베리타스 멤버들은 간만의 야외 활동에 힘들어한다. 텐트를 설치한 후, 멤버들은 자유 시간을 즐기러 모두 흩어지고, 치히로는 선생님과 함께 독서를 시작한다.",
+  "DescEN": "Veritas members arrive at the camp site. Unlike Chihiro, who's very motivated, the other members have a hard time doing outdoor activities for the first time in...almost ever. After setting up a tent, the members split up to enjoy some free time, and Chihiro begins reading with Sensei.",
+  "DescTH": "สมาชิกเวอริทัสมาถึงสถานที่ตั้งแคมป์ จิฮิโระพกความตั้งใจมาตั้งแคมป์\nอย่างเต็มเปี่ยม แต่สมาชิกเวอริทัสคนอื่นเหน็ดเหนื่อยกับการออกมาทำ\nกิจกรรมกลางแจ้ง หลังจากกางเต็นท์เสร็จ สมาชิกเวอริทัสก็แยกย้ายกัน\nไปใช้เวลาส่วนตัว ส่วนจิฮิโระก็มาอ่านหนังสือกับคุณครู",
+  "DescTW": "貝里塔斯成員們抵達了露營地。與幹勁十足的千尋不同，面對久違的戶外活動，貝里塔斯成員們感覺十分吃力。搭好帳棚之後，所有成員們分頭享受自由時間，千尋則和老師在一起閱讀。",
+  "DialogJP": [
+    {
+      "Text": "第2話;テント設営"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "はい、到着。ここがミレニアムの「東アルプス」。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "今日はここ[ruby=ひがしだけさん]「東丈山」[/ruby]でキャンプするよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "明日は早朝に起きて、初日の出の時間に合わせて山頂に登る予定。\nみんな体力は温存しておいてね。"
+    },
+    {
+      "Text": "[s1] \"ミレニアムの近くに、こんな美しい自然があるなんて……\""
+    },
+    {
+      "Text": "[s2] \"ミレニアムは都市化された地域ってイメージだから意外かも。\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ミレニアムサイエンススクールの中心は先端技術が使われた建物が多いけど、他はそうでもないよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "自治区には「廃墟」みたいな未開発地区が、まだまだ存在する。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ここはあんまり注目されてないけど、キャンプやトレッキングを楽しむにはもってこいなんだ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……冷たい風が気持ちいいね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "みんな、気分はどう？\n新鮮な空気を吸って、心も身体もスッキリ――"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "――してなさそうだね。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "予想はしてたけど、本当に全く電波が届かないなんて……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "しかも一番近いコンビニが30km先……どこでエナドリを買えば……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "すでに体力の半分を失いました……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まだ着いたばっかりなのに……先が思いやられる。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "マキ、そこにある赤いポーチを取ってくれる？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "赤いポーチ……これ？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "うっ、重っ……何コレ？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "テント用のポール、野営をするんだからテントを張らないとね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それと、後ろにあるポーチも持ってきて。\nそこの荷物は全部テントの設営に使う道具だから。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "これ全部！？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "着いて早々、どうしてテントの設営を……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "安全で快適な部室があるのに、わざわざ野営をするなんて……\n非合理的な発想です。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まあ、別にテントを張らなくてもいいんだけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "この時期に野宿はだいぶ寒いと思うけど、いいの？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "うっ……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……仕方ありませんね。背に腹は代えられません。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ねえ先輩……もっと簡単な設営方法ないの？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ネットで見たんだけど、一瞬で設置できるテントもあったよ？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ポップアップテントね。たしかに設置が簡単で、初心者に人気だけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "構造的にかさばるし、天井が低いからあんまり大人数向けじゃないかな。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "生地も薄いし……冬に使うのは難しいかも。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それなら普通のテントを張った方が楽だよ。"
+    },
+    {
+      "Text": "[s3] \"チヒロはキャンプに詳しいんだね。\""
+    },
+    {
+      "Text": "[s4] \"よくキャンプに行ったりするの？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ん－キャンプ場を巡るほどではないんだけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "夜通しで作業する日も多くて、そういう時用の寝袋を探してたら他のアウトドアグッズにも興味が出てきてね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "仕事に余裕があるときは、郊外で日向ぼっこをしたりしてたんだ。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "日向ぼっこって、なんか……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "おばあちゃんみたい……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "……あ、あははっ！何も思ってないよ！？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……とにかく。日が暮れる前にはテントを張りたいから、みんなも手伝って。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "一緒にやればすぐ終わるから、そんな顔しない。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "うっ……分かったよ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "先輩。これ、こっちが表で合ってる？ "
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "うん、グランドシートの有無で座り心地も変わるし、底冷えも防止できるの。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "でもこれ、あんまり可愛くない……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "あくまで防寒対策だからね……？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ねえ、副部長……この棒、折れたりしない？\nほ、本当に曲げていいんだよね……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "大丈夫、もっと力を入れてもいいよ。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "でも……これ以上、曲げようとしても……んっ。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "わ、わっ……！マットが風で……！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "っ……！ここから手を離して、反対のペグが外れる方が面倒かな……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "私が押さえておくから、取ってきてもらえる？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "よし……後はロープを結んで、っと。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "これでテント設営は終わり、みんなお疲れ様。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "疲れた……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "体力が、もう底を尽きてしまいました……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ここから力仕事はもうないから、夕方までみんな自由に休んでて。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "自由に休んで、って言われても……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ネットもスマホも使えないのに、何をして過ごしたらいいのさ……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ゲームもネットサーフィンもできないし、ふかふかのソファも無いんだよ？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "はぁ……他にも色々できるでしょ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "この機会に、電子機器を使わないリフレッシュでもしてみたら？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "自然に囲まれてゆったりしてるだけでも、あっという間に時間は過ぎていくものだよ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ケチ……頑固……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "どこかに電波が飛んでるとこ、ないかな？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "高い場所なら電波をキャッチできるかもしれません。近くを散策してみましょう。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "せ、先輩。あたし達ちょっと散歩してくるね！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "うん、あんまり遠くに行かないようにね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ひとまず野営の準備はこれでいいかな。\n先生は何をするの？"
+    },
+    {
+      "Text": "[s5] \"残ってる仕事を片付けようかな。\""
+    },
+    {
+      "Text": "[s6] \"念のため、紙の報告書を持ってきたんだ！\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ダメ、今日は先生も仕事禁止。"
+    },
+    {
+      "Text": "[s] \"……どうして？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "今日くらいはゆっくり休んでほしいから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "一年の最後くらい、先生も仕事を忘れて身体を休めよう？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "手持ち無沙汰なら、私の本を貸してあげるから。"
+    },
+    {
+      "Text": "[s7] \"……『銃 可愛い 青春』？\""
+    },
+    {
+      "Text": "[s8] \"たしか、ずっと棚に置いてある本だよね。\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "こういう本って、普段はなかなか集中できなかったりするでしょう？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "でも、キャンプ場だったら意外と読書に集中できるんだ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それじゃ私も隣で本を読んでるから、何かあったら声かけてね。"
+    },
+    {
+      "Text": "（そしてしばらくの間、チヒロとゆっくり読書を楽しんだ）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;텐트 설치"
+    },
+    {
+      "Name": "치히로",
+      "Text": "자, 도착. 이곳이 밀레니엄 동쪽에 위치한 히가시알프스야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "우리는 이곳, 히가시다케 산밑에서 텐트를 치고 하룻밤 야영을 한 다음, 내일 새벽에 새해 첫 일출을 보러 산을 오를 거야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그전까지 특별한 일정은 없으니, 다들 이 근처에서 하고 싶은 걸 하면서 느긋하게 하루를 보내면 돼."
+    },
+    {
+      "Text": "[s1] \"밀레니엄 학원 근처에서 이렇게 아름다운 자연경관을 보게 되다니……\""
+    },
+    {
+      "Text": "[s2] \"밀레니엄 자치구는 도시화된 지역이라는 인식이 있었는데, 의외의 풍경이네.\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "밀레니엄 학원의 도심은 첨단 기술로 지어진 건물이 가득하지만, 모든 지역이 그런 것만은 아니야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "밀레니엄 자치구에는 <폐허>처럼 손이 닿지 않은 미개발 지구도 잔뜩 남아 있거든."
+    },
+    {
+      "Name": "치히로",
+      "Text": "평소에는 주목받는 일이 거의 없지만…… 캠핑이나 트래킹을 하기에는 이만큼 적합한 장소도 따로 없지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……나무 사이로 부는 차가운 솔바람이 기분 좋네."
+    },
+    {
+      "Name": "치히로",
+      "Text": "다들 기분은 어때? 모처럼 도시에서 벗어나 신선한 공기를 마시니 몸도 마음도 상쾌하—"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……지는 않은 것 같네."
+    },
+    {
+      "Name": "마키",
+      "Text": "예상은 했지만 정말로 전파가 아예 잡히지 않을 줄이야……"
+    },
+    {
+      "Name": "하레",
+      "Text": "심지어 가장 가까운 편의점이 30km 밖에 있다니…… 에너지 드링크는 어디서 구하지 ……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "이동하는 것만으로도 벌써 절반의 체력을 소모한 기분입니다……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "벌써부터 우는 소리를 내면 어떻게 해. 캠핑은 시작하지도 않았다고."
+    },
+    {
+      "Name": "치히로",
+      "Text": "마키, 차 트렁크에서 빨간색 파우치부터 꺼내 줄래?"
+    },
+    {
+      "Name": "마키",
+      "Text": "빨간색 파우치라면…… 이건가?"
+    },
+    {
+      "Name": "마키",
+      "Text": "윽, 무거워…… 이게 다 뭐야? 쇠 파이프?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "텐트용 폴대야. 야영을 하기로 했으니 텐트부터 쳐야지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 그 뒤에 있는 파우치도 전부 꺼내 줘. 거기에 있는 짐은 모두 텐트 치는 데 사용하는 도구니까."
+    },
+    {
+      "Name": "마키",
+      "Text": "이 무거운 게 전부 텐트 부품이라고?!"
+    },
+    {
+      "Name": "하레",
+      "Text": "오자마자 야영 준비를 하는 데 또 체력을 써야 한다니……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "안락하고 튼튼한 부실이 있는데, 굳이 야외에서 텐트를 치고 자려 한다니…… 비합리적인 발상입니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "뭐, 너희들이 원한다면 텐트 없이 노숙을 해도 괜찮아."
+    },
+    {
+      "Name": "치히로",
+      "Text": "하지만 이 시기에 난방 기구 없이 밖에서 밤을 나려면 몹시 추울 텐데…… 괜찮겠어?"
+    },
+    {
+      "Name": "하레",
+      "Text": "으윽……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "부부장이 그렇게 말한다면 하는 수 없지만……"
+    },
+    {
+      "Name": "마키",
+      "Text": "저기…… 선배, 더 간단한 방법은 없는 거야?"
+    },
+    {
+      "Name": "마키",
+      "Text": "인터넷에서 보니까 펼치기만 해도 자동으로 설치되는 텐트 같은 것도 있던데……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "팝업 텐트 말이구나. 물론 팝업 텐트는 설치가 간편해서 초보자들이 선호하긴 하지만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "구조 특성상 폴대와 텐트가 합쳐져 있기 때문에 접어도 부피가 커서 수납이 어렵고, 천장이 낮아서 여러 사람이 쓰는 대형 텐트에는 적합하지 않아."
+    },
+    {
+      "Name": "치히로",
+      "Text": "게다가 원단이 얇고 비바람과 추위에 약하기 때문에, 지금과 같은 겨울 시즌에 사용하기는 조금 여러모로 어렵지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이를 보강하기 위해 타프와 쉘터 등을 추가하다 보면 결국 평범한 텐트를 쓰는 편이 품이 더 적게 들 거야."
+    },
+    {
+      "Text": "[s3] \"뭔가…… 치히로는 캠핑에 익숙해 보이네.\""
+    },
+    {
+      "Text": "[s4] \"평소에도 자주 캠핑을 다니는 편이야?\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "글쎄. 일부러 캠핑장을 찾아다녔던 건 아니지만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "보안 업무의 특성상 밤샘 작업을 하는 일이 잦아서 말이야. 밤샘 작업 때 쓸 침낭을 알아보다 보니 캠핑 장비에도 조금씩 흥미가 생겨서……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "일이 바쁘지 않을 때는 조용한 교외에서 텐트를 펼쳐 놓고 가끔씩 해바라기를 하곤 했었어."
+    },
+    {
+      "Name": "하레",
+      "Text": "야외에서 해바라기라니, 뭔가……"
+    },
+    {
+      "Name": "마키",
+      "Text": "할머니 같은 취미……"
+    },
+    {
+      "Name": "마키",
+      "Text": "……라고 할 뻔했네! 하, 하하……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "여하튼 날이 저물기 전에 서둘러 텐트를 치고 싶으니까, 모두 이쪽으로 모여 봐."
+    },
+    {
+      "Name": "치히로",
+      "Text": "모두 힘내서 도와주면 금방 끝날 테니까. 너무 싫은 표정 짓지 말라고."
+    },
+    {
+      "Name": "마키",
+      "Text": "알겠어, 알겠어……"
+    },
+    {
+      "Name": "마키",
+      "Text": "선배, 이거 앞면이 이쪽 맞아? "
+    },
+    {
+      "Name": "치히로",
+      "Text": "응. 그라운드시트는 은박이 바닥을 향하도록 아래에 설치해 줘. 그렇게 해야 습기를 방지할 수 있거든."
+    },
+    {
+      "Name": "마키",
+      "Text": "하지만 아무리 봐도 이쪽이 더 예쁜 것 같은데……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "미관을 위해서 설치하는 시트가 아니거든……?"
+    },
+    {
+      "Name": "하레",
+      "Text": "부, 부부장…… 이 폴대, 부러지는 거 아냐? 지, 진짜 더 구부려도 돼……?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "괜찮아. 그 정도의 변형에는 견딜 수 있게 설게 되었으니까, 좀 더 힘껏 잡아당겨."
+    },
+    {
+      "Name": "하레",
+      "Text": "하지만 더 구부리려고 해도…… 힘이 안 들어가……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "우, 우앗…… 바람에 매트가 날아갑니다!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "자, 잠깐……! 지금 고정해 둔 팩이 뽑히면 더 위험하니까……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "이쪽은 내가 붙잡고 있을 테니까, 빨리 뛰어가서 잡아와!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "자, 이제 마지막으로 타프에 고정된 줄을 정리하면……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "설치는 이것으로 끝이야. 다들 수고 많았어."
+    },
+    {
+      "Name": "하레",
+      "Text": "지쳤어……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "텐트를 치느라 그나마 남아 있던 체력도 모두 소모하고 말았습니다……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "이제 저녁 시간까지 힘쓸 일은 없으니까, 다들 자유롭게 쉬도록 해."
+    },
+    {
+      "Name": "하레",
+      "Text": "자유롭게 쉬라고 해도……"
+    },
+    {
+      "Name": "마키",
+      "Text": "인터넷도 전자기기도 없는데 어떻게 쉬란 말이야?"
+    },
+    {
+      "Name": "마키",
+      "Text": "여기서는 게임도 못하고, 웹 서핑도 못하고, 푹신한 소파도 없는데……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……너희들은 소파에 누워서 게임하는 것 이외에는 쉬는 방법을 모르는 거야?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "이참에 전자기기 없이 휴식하는 법을 좀 익히도록 해."
+    },
+    {
+      "Name": "치히로",
+      "Text": "마음을 가라앉히고 거대한 자연 속에서 산책을 하다 보면, 어느새 시간이 훌쩍 흘러간 걸 깨닫게 될 거야."
+    },
+    {
+      "Name": "마키",
+      "Text": "치이…… 순 억지야."
+    },
+    {
+      "Name": "하레",
+      "Text": "어딘가 전파가 잡히는 곳은 없으려나?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "높은 곳이라면 핸드폰의 신호가 잡힐지도 모릅니다. 근처를 한 번 둘러보죠."
+    },
+    {
+      "Name": "마키",
+      "Text": "서, 선배. 우리는 잠깐 산책 좀 하고 올게!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "그래, 너무 멀리 가지는 말고."
+    },
+    {
+      "Name": "치히로",
+      "Text": "야영 준비는 이만하면 거의 끝난 것 같고…… 선생님은 이제 뭘 할 거야?"
+    },
+    {
+      "Text": "[s5] \"나는 밀린 업무를 처리하려고.\""
+    },
+    {
+      "Text": "[s6] \"혹시 몰라서 보고서 일부를 종이로 뽑아왔거든!\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "안 돼. 오늘은 선생님도 평소에 하던 업무는 금지야."
+    },
+    {
+      "Text": "[s] \"……어째서?\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "아까도 말했잖아? 이번 캠핑은 평소의 생활 습관에서 벗어나 여유로운 휴식을 즐기는 데 목적이 있다고."
+    },
+    {
+      "Name": "치히로",
+      "Text": "한 해의 마지막 날이니까. 선생님도 오늘만큼은 일은 잊고 정신적으로도 휴식을 취하도록 해."
+    },
+    {
+      "Name": "치히로",
+      "Text": "혹시 그냥 시간을 보내는 게 무료하다면 내가 가져온 책을 빌려줄게."
+    },
+    {
+      "Text": "[s7] \"……<총, 귀여움, 청춘>?\""
+    },
+    {
+      "Text": "[s8] \"서가에 늘 꽂혀만 있던 인문학 서적이네……\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "원래 이런 책은 일부러 시간을 내서 읽으려 하면 좀처럼 집중하기 어렵잖아?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "하지만 특별히 다른 할 일이 없는 캠핑장에서라면 이런 딱딱한 책도 재미있게 읽을 수 있지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그럼 나는 옆에서 책을 읽고 있을 테니까, 무슨 일이 있으면 불러줘."
+    },
+    {
+      "Text": "(이후, 한동안 그늘 아래에 앉아서 치히로와 함께 느긋이 독서를 즐겼다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;Pitch the Tent"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We're here. These are the Higashi Alps, the mountains on Millennium's eastern border."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We'll set up camp here at the base of Mt. Higashidake, sleep overnight, and climb the mountain early in the morning to catch the sunrise."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I don't have anything planned until then, so feel free to explore the area and enjoy the day after we set up camp."
+    },
+    {
+      "Text": "[s1] \"To see such beautiful natural scenery near Millennium...\""
+    },
+    {
+      "Text": "[s2] \"I thought Millennium was almost fully urbanized.\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The buildings at Millennium's heart may have been built with advanced technology, but the outskirts have more variety."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "There are quite a few places that haven't felt the touch of our technology, like the Millennium ruins."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "They aren't what we're known for...but we also have perfect campsites and hiking trails."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...I like listening to the breeze whispering through the pine trees."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "How is everyone feeling? Haven't your mind and body been refreshed by escaping the city and breathing the fresh air—"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Or not."
+    },
+    {
+      "Name": "Maki",
+      "Text": "I tried to prepare my heart, but there's really no signal at all..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "The nearest convenience store is over thirty kilometers away... Wh-Where will I get my energy drinks?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It feels like I've already lost half of my strength from travelling this far..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's too early to start grumbling. We haven't even started camping."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Maki, can you retrieve the red pouch from the car?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Red pouch... You mean this?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Ugh, it's heavy... What is all this? Steel pipes?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "They're poles for our group tent. We'll need to build the tent we'll be sleeping in."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Grab all of the bags that were behind that one. They have everything we need."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Why would a tent be this heavy?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Why do I have to use up my remaining energy bar on setting up camp right after arriving..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Building a tent and sleeping outdoors when we have a warm and comfortable club room... How illogical."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Well, feel free to sleep beneath the stars if you want."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But it gets chilly this time of year. It's going to be a long, cold night without anything to keep you warm... Is that okay?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Urgh..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It can't be helped, if the vice president says so..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Uh... Isn't there an easier way?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "I saw an ad for a tent that builds itself automatically online..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "You mean a pop-up tent. Pop-up tents are preferred by beginners because they're easy to set up..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But since their poles and tent fabric are combined, they take up a lot of space even after folding, making them difficult to store. They're also not suitable for large tents designed to hold multiple people due to their low ceilings."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "And they tend to be made with thin fabric, which makes them susceptible to rainy weather and cold temperatures. So, no, pop-up tents are less than ideal during the winter."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "You would need to add some tarp or build some kind of shelter to compensate. At that point, it's less of a hassle to set up a normal tent."
+    },
+    {
+      "Text": "[s3] \"Chihiro is quite the outdoorswoman.\""
+    },
+    {
+      "Text": "[s4] \"Have you gone camping often?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Well, it's not like I go to campsites or anything like that..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But my security work often requires me to pull all-nighters. I became interested in camping equipment when I was looking for portable sleeping bags..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Occasionally I set up a privacy tent and sunbathe outside of the academy when there's downtime between my jobs."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Sunbathing outside, that's like..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "A grandma's hobby..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "...O-Or a granddaughter's! Ha, haha..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Regardless, we should build the tent before the sun sets, so I want everyone to gather around."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Many hands make light work. So chin up, we'll be done in no time."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Fine, fine..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Chihiro, is this the front of the tent? "
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Yes. Make sure to spread out the ground sheet with the foil facing down. That way it will prevent moisture from forming."
+    },
+    {
+      "Name": "Maki",
+      "Text": "But it looks so much prettier this way..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's not a sheet for aesthetic purposes."
+    },
+    {
+      "Name": "Hare",
+      "Text": "V-Vice President... Are you sure this pole isn't going to break? C-Can I really bend it like this?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's fine. It's designed to withstand much more strain than that, so pull harder."
+    },
+    {
+      "Name": "Hare",
+      "Text": "But even if I try to bend it more... My strength is gone..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "W-Whoa, the mat is flying away!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "W-Wait! Someone might get hurt if that stake gets loose—"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'll hold this side down, so go secure it!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Finally, if we tie down the cord that's securing the tarp..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "That's the final step. Good work, everyone."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I'm exhausted..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Setting up the tent consumed all of my strength..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We don't have anything scheduled until dinnertime, so feel free to rest."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Even if you say we can rest..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "How can we relax without the internet or any electronic devices?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "I can't game, I can't surf the web—there isn't even a sofa to lounge on..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Do none of you have any notion of ways you can relax other than loafing around and playing video games?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "This is a chance to learn ways to rest without plugging yourselves in."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Take a walk and view the natural beauty around us. You'll be amazed at how quickly time flies by."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Ugh... What a joke..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Do you think I could get a signal from that hilltop?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It may be possible to connect to the phone network higher up. Let's look around."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Ch-Chihiro, we're going for a walk!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Good, but make sure to stay on the path!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Well, since the camp is ready now... Sensei, what will you do until dinner?"
+    },
+    {
+      "Text": "[s5] \"I have some work I need to catch up on...\""
+    },
+    {
+      "Text": "[s6] \"I printed out some reports to read!\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Absolutely not. Sensei, you're also forbidden from your usual work today."
+    },
+    {
+      "Text": "[s] \"...Why not?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The whole point of this camping trip is to escape from our unhealthy ruts and refresh ourselves in a new environment."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's the last day of the year. You should set aside your work and turn your mind towards something else, at least for today."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I can lend you one of the books I brought, if you need a way to pass the time."
+    },
+    {
+      "Text": "[s7] \"...'Guns, Charm, and Zeal,' the pop anthropology book?\""
+    },
+    {
+      "Text": "[s8] \"'The Shower Broker,' a biography of an infamous bath developer?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's hard to focus on these kinds of books when you try to make time for them on purpose, right?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But even dry books can be absorbing when you've removed outside distractions, like at a campsite."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'll be reading a book over here, so just call me if you need anything."
+    },
+    {
+      "Text": "Chihiro and I sat beneath the shade, passing peaceful hours reading together."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;กางเต็นท์"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เอาละ มาถึงแล้ว ที่นี่คือเทือกเขาฮิงาชิที่อยู่ในฝั่งตะวันออกของมิลเลเนียม"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เราจะกางเต็นท์กันที่เชิงเขาฮิงาชิทาเกะแล้วอยู่ที่นี่กันหนึ่งคืน แล้วพรุ่งนี้ตอนเช้ามืดเราจะปีนเขาไปดู\nพระอาทิตย์ขึ้นด้วยกัน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ระหว่างนี้จะยังไม่มีกำหนดการอะไรเป็นพิเศษ ให้ทุกคนทำในสิ่งที่อยากทำ แล้วก็ใช้เวลาแบบสบายๆ ได้เลย"
+    },
+    {
+      "Text": "[s1] \"ไม่คิดเลยว่าจะได้มาดูธรรมชาติสวยๆ ใกล้มิลเลเนียมแบบนี้...\""
+    },
+    {
+      "Text": "[s2] \"นึกว่ามิลเลเนียมเป็นเมืองเทคโนโลยี แต่ก็มีทิวทัศน์แบบนี้ด้วยสินะ\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แม้ศูนย์กลางของโรงเรียนมิลเลเนียมจะเต็มไปด้วยอาคารที่สร้างด้วยเทคโนโลยีชั้นสูง แต่ก็ไม่ใช่ว่าจะ\nเป็นอย่างนั้นทุกพื้นที่หรอกนะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ในเขตปกครองตนเองมิลเลเนียมก็มีเขตที่ยังไม่ได้พัฒนาที่เหมือนกับ <พื้นที่รกร้าง> อยู่หลายที่เหมือน\nกัน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถึงปกติจะไม่ค่อยมีใครสนใจเท่าไร... แต่ถ้าพูดถึงที่ตั้งแคมป์หรือเดินป่าแล้ว ไม่มีที่ไหนเหมาะสมกว่าที่\nนี่แล้วละ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ลมเย็นๆ ที่พัดผ่านต้นสนทำให้รู้สึกดีจัง..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ทุกคนรู้สึกยังไงกันบ้าง? ได้ออกจากเมืองมาสูดอากาศบริสุทธิ์แบบนี้ สดชื่นทั้งกายและใจเลยใช่มั้ย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่น่าจะใช่แฮะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ถึงจะพอเดาได้อยู่แล้วก็เถอะ แต่ไม่คิดเลยว่าจะจับคลื่นสัญญาณไม่ได้จริงๆ..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "แถมร้านสะดวกซื้อที่อยู่ใกล้ที่สุดก็อยู่ห่างไปตั้ง 30 กม. แบบนี้จะหาเครื่องดื่มชูกำลังได้จากที่ไหน..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แค่เดินทาง ฉันก็รู้สึกเหมือนใช้แรงหมดไปครึ่งหนึ่งแล้วค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ทำเป็นจะร้องไห้ตั้งแต่เริ่มทริปได้ยังไง เรายังไม่ได้ตั้งแคมป์เลยด้วยซ้ำนะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มากิ ช่วยเอากระเป๋าสีแดงออกมาจากท้ายรถให้หน่อยสิ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "กระเป๋าสีแดง... ใบนี้เหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อึก หนักจัง... ขนอะไรมาเนี่ย? ท่อเหล็กเหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เสาเต็นท์น่ะ เราจะตั้งแคมป์กัน ก็ต้องกางเต็นท์ก่อนสิ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แล้วก็ฝากเอากระเป๋าที่อยู่ข้างหลังนั่นออกมาให้หมดด้วยนะ สัมภาระทั้งหมดตรงนั้นคืออุปกรณ์ที่ใช้ใน\nการกางเต็นท์น่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ของหนักๆ ทั้งหมดนี่คือชิ้นส่วนของเต็นท์หมดเลยเหรอ?!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "มาถึงก็ต้องกางเต็นท์ทันทีเลยเหรอเนี่ย ต้องใช้พลังอีกแล้ว..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เรามีห้องชมรมที่ทั้งมั่นคงและสะดวกสบาย ทำไมต้องออกมากางเต็นท์นอนกลางแจ้งกันด้วย... ความคิดริเริ่มแบบนี้มันไร้เหตุผลนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าพวกเธอต้องการ จะพักแรมแบบไม่ต้องกางเต็นท์ก็ได้นะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่อากาศในตอนนี้น่ะ ถ้าอยู่กลางแจ้งแบบไม่มีอุปกรณ์ให้ความอบอุ่นก็คงจะหนาวแย่... จะไม่เป็นไรกันเหรอ?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถ้ารองหัวหน้าพูดแบบนั้นก็คงขัดไม่ได้..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เอ่อ... รุ่นพี่... ไม่มีวิธีที่ง่ายกว่านี้เหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ฉันเคยเห็นในอินเทอร์เน็ตว่ามีเต็นท์ที่กางออกได้เองด้วยนะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "หมายถึงเต็นท์สนามกางอัตโนมัติสินะ แน่นอนว่าเต็นท์สนามอัตโนมัติน่ะกางง่าย ก็เลยเป็นที่นิยมของ\nนักออกแคมป์มือใหม่..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่ด้วยโครงสร้างที่เสาและเต็นท์ติดอยู่ด้วยกัน มันเลยจัดเก็บลำบากเพราะมันมีขนาดใหญ่ ต่อให้พับแล้วก็เถอะ นอกจากนี้ยังมีเพดานต่ำ เลยไม่เหมาะที่จะใช้เป็นเต็นท์ที่นอนหลายๆ คน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อีกอย่าง ผ้าของเต็นท์สนามมักจะบางและไม่ค่อยทนลมฝน ก็เลยไม่เหมาะกับการเอามาใช้ในหน้า\nหนาวอย่างตอนนี้น่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ต่อให้จะเพิ่มหลังคาหรือที่กำบังอะไรเข้าไป สุดท้ายการใช้เต็นท์ธรรมดาก็สะดวกกว่าอยู่ดี"
+    },
+    {
+      "Text": "[s3] \"จิฮิโระดู... คุ้นเคยกับการออกแคมป์จังเลยนะ\""
+    },
+    {
+      "Text": "[s4] \"ปกติก็ชอบมาแคมป์ปิ้งบ่อยๆ เหรอ?\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อืม ฉันก็ไม่ถึงกับไปกางเต็นท์ตามลานแคมป์ปิ้งหรอกนะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่งานรักษาความปลอดภัยที่ฉันทำมักจะทำทั้งคืน พอต้องหาถุงนอนสำหรับทำงานโต้รุ่ง ฉันก็เลยเริ่มสนใจเกี่ยวกับอุปกรณ์แคมป์ปิ้งขึ้นมา..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตอนที่งานไม่ยุ่ง ฉันก็จะไปกางเต็นท์อยู่ที่ชานเมืองเงียบๆ แล้วบางครั้งก็นอนอาบแดดด้วย"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "นอนอาบแดดกลางแจ้งเหรอ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "งานอดิเรกเหมือนผู้สูงวัยเลยแฮะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เผลอพูดไปซะได้! แหะ... แหะๆ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันอยากรีบกางเต็นท์ให้เสร็จก่อนพระอาทิตย์ตก ทุกคนมารวมตัวกันทางนี้เร็วเข้า"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าทุกคนลงแรงช่วยกัน แป๊บเดียวก็เสร็จแล้วละ อย่าทำหน้าเหมือนไม่อยากทำขนาดนั้นสิ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ก็ได้ๆ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "รุ่นพี่ อันนี้ด้านหน้าใช่มั้ย? "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อื้ม ผ้าปูนั่นเอาไว้รองพื้นนะ ตอนปูก็ให้เอาด้านสีเงินปูลงบนพื้น ทำแบบนั้นจะได้ป้องกันความชื้นได้"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "แต่ว่าด้านนี้มันสวยกว่านะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "นั่นไม่ใช่ผ้าที่ปูตกแต่งเพื่อความสวยงามสักหน่อย..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ระ... รองหัวหน้า... เสานี้มันหักรึเปล่า? มะ... มันงอแบบนี้ได้ด้วยเหรอ...?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อื้ม ไม่เป็นไรหรอก มันถูกออกแบบมาให้ทนต่อการดัดแปลงอยู่แล้ว ดึงให้แรงกว่านั้นอีกหน่อยสิ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ฉันพยายามแล้วนะ... แต่ไม่มีแรงงอเสาเลย..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ว้ากก... เบาะปูพื้นปลิวตามลมไปแล้วค่ะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ดะ... เดี๋ยวก่อน...! ถ้าดึงส่วนที่ยึดไว้มันจะอันตรายนะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันจะจับตรงนี้เอาไว้ให้ รีบวิ่งไปเอาเบาะปูพื้นมาเร็ว!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เอาละ จากนี้ก็แค่จัดการเชือกที่ใช้ยึดหลังคา..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แค่นี้ก็เป็นอันเสร็จแล้ว ทุกคนทำได้ดีมาก"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เพลียร่างจัง..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ฉันใช้พลังที่เหลือไปกับการกางเต็นท์จนหมดเลยค่ะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "จากนี้ก็ไม่มีเรื่องที่ต้องใช้แรงไปจนถึงเวลาอาหารเย็นแล้วละ ทุกคนไปพักผ่อนกันตามสบายเถอะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "พักผ่อนตามสบายงั้นเหรอ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ไม่มีทั้งอินเทอร์เน็ตหรืออุปกรณ์อิเล็กทรอนิกส์ จะให้พักยังไงน่ะ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อยู่ที่นี่จะเล่นเกมก็ไม่ได้ ท่องเน็ตก็ไม่ได้ แถมไม่มีโซฟานิ่มๆ ให้นั่งอีก..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "นอกจากนั่งเล่นเกมบนโซฟาแล้ว พวกเธอไม่รู้จักวิธีพักผ่อนอื่นๆ เลยเหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "งั้นก็ใช้โอกาสนี้เรียนรู้วิธีการพักผ่อนโดยไม่ต้องใช้อุปกรณ์อิเล็กทรอนิกส์ก็แล้วกัน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าทำจิตใจให้สงบและไปเดินเล่นท่ามกลางธรรมชาติที่กว้างใหญ่ เวลาจะผ่านไปอย่างรวดเร็วโดยไม่รู้ตัว\nเลยละ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ชิ... บังคับกันนี่นา..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "จะมีตรงไหนที่จับคลื่นสัญญาณได้บ้างรึเปล่านะ?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถ้าเป็นที่สูงๆ ก็อาจจะมีสัญญาณโทรศัพท์ก็ได้นะคะ ลองไปดูรอบๆ กันเถอะค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ระ... รุ่นพี่ พวกเราไปเดินเล่นกันเดี๋ยวมานะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อื้อ อย่าไปไกลนักล่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เท่านี้การเตรียมตั้งแคมป์ก็น่าจะเสร็จแล้ว... งั้นจากนี้คุณครูจะทำอะไรเหรอ?"
+    },
+    {
+      "Text": "[s5] \"ครูว่าจะทำงานที่ค้างให้เสร็จน่ะ\""
+    },
+    {
+      "Text": "[s6] \"ครูเอาเอกสารรายงานมาทำด้วย\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่ได้สิ วันนี้คุณครูเองก็ห้ามทำงานด้วยเหมือนกัน"
+    },
+    {
+      "Text": "[s] \"...ทำไมล่ะ?\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เมื่อกี้ฉันก็บอกไปแล้วไม่ใช่เหรอ? การมาแคมป์ปิ้งครั้งนี้มีวัตถุประสงค์เพื่อออกจากนิสัยการใช้ชีวิต\nตามปกติ และเพลิดเพลินไปกับการพักผ่อนหย่อนใจแทน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "นี่เป็นวันสุดท้ายของปีแล้ว วันนี้คุณครูก็ลืมเรื่องงานไปก่อน แล้วมาพักทำจิตใจให้สบายๆ นะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าการอยู่เฉยๆ มันน่าเบื่อ ฉันจะให้ยืมหนังสือที่พกมาด้วยแล้วกัน"
+    },
+    {
+      "Text": "[s7] \"<ปืน ความน่ารักและวัยรุ่น>...?\""
+    },
+    {
+      "Text": "[s8] \"เป็นหนังสือที่ครูไม่เคยหยิบออกจากชั้นเลยแฮะ...\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ปกติแล้วถ้าตั้งใจหาเวลาอ่านหนังสือแบบนี้ มันก็ยากที่จะมีสมาธิอ่านใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่ถ้าเรามาตั้งแคมป์ที่ไม่มีอะไรอื่นให้ทำแบบนี้ ก็จะอ่านหนังสือเล่มหนาๆ ได้อย่างสนุกเลยละ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันจะอ่านหนังสืออยู่ข้างๆ ถ้ามีเรื่องอะไรก็เรียกด้วยนะ"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็นั่งอ่านหนังสือใต้ร่มไม้กับจิฮิโระอยู่ครู่ใหญ่)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;搭帳篷"
+    },
+    {
+      "Name": "千尋",
+      "Text": "好，我們到了。\n這裡就是位於千年東邊的「東阿爾卑斯」。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我們會在東岳山角搭帳篷露營一夜，明天清晨上山看日出。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "在那之前沒有特別的行程，大家可以在這附近做想做的事，悠閒地度過一天。"
+    },
+    {
+      "Text": "[s1]「居然能在千年學園附近看到這麼美的自然景觀……」"
+    },
+    {
+      "Text": "[s2]「我一直以為千年是高度都市化的地區，這片景色真是讓人意外。」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "千年學園的市中心確實充滿用尖端技術建造的建築，但並非所有地區都是這樣。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "自治區裡也有很多像「廢墟」一樣的未開發地區。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "雖然平常幾乎不受人關注……但沒有比這裡更適合露營或健行的地方了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……樹叢中吹來的涼風真舒服。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "大家心情如何？\n難得脫離都市呼吸到新鮮空氣，想必身心都很舒暢──"
+    },
+    {
+      "Name": "千尋",
+      "Text": "──看來並非如此呢。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "雖然有所預期，沒想到真的完全收不到電波……"
+    },
+    {
+      "Name": "晴",
+      "Text": "而且離最近的便利商店居然超過30km……\n這樣該去哪買能量飲料……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "感覺光是移動就耗費一大半的體力了……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "怎麼現在就在喊苦……露營都還沒開始呢。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "真紀，可以把後車廂的紅色袋子拿來給我嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "紅色袋子……是這個嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "唔，好重……這些東西是什麼啊？鐵管？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "是帳篷桿。\n我們可是來露營的，總得把帳篷搭起來吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "順便也把放在後面的袋子全都拿過來。\n那些都是搭帳篷會用到的工具。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "這些超重的東西都是帳篷的零件！？"
+    },
+    {
+      "Name": "晴",
+      "Text": "怎麼才剛抵達就要把體力用來準備帳篷……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "明明有舒適又牢固的部室，卻非要在野外搭帳篷睡覺……真是太不合理了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯，如果你們想要的話，不搭帳篷直接露宿也是一種選擇。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不過現在這個時期，要在沒有取暖用具的情況下在外頭過夜……\n我想應該會很冷……沒關係嗎？"
+    },
+    {
+      "Name": "晴",
+      "Text": "嗚……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "既然副部長都這麼說了，那也沒辦法……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "那個……前輩，沒有更簡單的方法嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "我在網路上看過只要打開就能自動搭設的帳篷……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你指的是自動帳篷啊。\n因為搭設簡便的關係，確實很受新手喜歡……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "但是從結構上來看，由於桿子和帳篷合而為一，即使經過折疊還是不好收納。\n再加上頂棚相對較低，不太適合當作多人使用的大型帳篷。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "而且單薄的布料不耐風雨和寒冷，從各方面來看都很難在冬季使用。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "與其為了彌補這些缺點而增加防水油布或遮蓋物，直接使用普通帳篷反而更省事。"
+    },
+    {
+      "Text": "[s3]「看來……千尋很瞭解露營耶。」"
+    },
+    {
+      "Text": "[s4]「你平時也常去露營嗎？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "怎麼說呢，我並不會刻意到露營場去露營……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "只是保安工作經常需要熬夜，才會在找睡袋的過程中慢慢對露營裝備產生興趣……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "偶爾有空的時候，我也會在安靜的郊外搭帳篷曬曬太陽。"
+    },
+    {
+      "Name": "晴",
+      "Text": "在野外曬太陽，總覺得……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "是老奶奶才會有的嗜好……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "……沒，沒有啦！哈哈哈……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "總之我想在天黑之前盡快把帳篷搭好，來這裡集合吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "大家一起合作，很快就搭好了。\n別露出一臉厭惡的表情嘛。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "知道了知道了……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "前輩，正面是這一邊對嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯，帳篷地墊的銀箔要朝向地面，這樣才能防止濕氣進入。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "可是怎麼看都是這面比較好看……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這地墊不是做好看的好嗎……？"
+    },
+    {
+      "Name": "晴",
+      "Text": "副，副部長……這根桿子會不會斷掉啊？\n真，真的可以再彎下去嗎……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "別擔心，它在設計上就能承受那種程度的形變，再用點力沒關係。"
+    },
+    {
+      "Name": "晴",
+      "Text": "可是就算我想再把它弄彎……也沒有這麼大的力氣……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "哇，哇啊……墊子被風吹走了！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "等等……！要是已經固定好的部分鬆掉會更危險……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我來抓住這邊，你快去把墊子拿回來！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "來，最後把固定在防水油布上的繩子整理一下……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "搭設完成，大家辛苦了。"
+    },
+    {
+      "Name": "晴",
+      "Text": "好累……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "才搭個帳篷，我的體力就已經用光了……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "在晚餐之前沒有需要體力的工作了，大家自由休息吧。"
+    },
+    {
+      "Name": "晴",
+      "Text": "就算你這麼說……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "現在沒有網路也沒有電子設備，要我們怎麼休息……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "這裡不能玩遊戲也不能上網，連鬆軟的沙發都沒有……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……你們除了躺在沙發上玩遊戲就沒有其他休息方式了嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "趁這個機會學一下不靠電子設備放鬆的方法吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "靜下心來在大自然中散步，你們就會發現時間在不知不覺中流逝。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "呿……這說法太牽強了。"
+    },
+    {
+      "Name": "晴",
+      "Text": "沒有能收到電波的地方嗎？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "說不定高處能收到手機訊號，到附近繞繞吧。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "前，前輩，我們去散步一下！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "好，別走太遠喔。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "露營準備差不多告一個段落了……老師現在要做什麼？"
+    },
+    {
+      "Text": "[s5]「我想處理沒做完的工作。」"
+    },
+    {
+      "Text": "[s6]「為了以防萬一，我把一部分的報告印出來了！」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不行，老師今天也不能做平常的工作。"
+    },
+    {
+      "Text": "[s]「……為什麼？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我剛才不是說了嗎？\n這次露營的目的是脫離日常生活，享受悠閒的休息時光。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "都到今年最後一天了，老師就忘記工作，好好讓精神放鬆一下吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "如果老師覺得這樣打發時間很無聊的話，我可以把帶來的書借你。"
+    },
+    {
+      "Text": "[s7]「……《槍、可愛、青春》？」"
+    },
+    {
+      "Text": "[s8]「是常常被束之高閣的人文學書籍……」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "平時如果刻意留時間讀這類的書，不是會很難集中精神嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "但換作是在沒有其他事能做的露營場，就連這類生硬的書也能讀得津津有味。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我也會在旁邊看書，有什麼事就叫我一聲吧。"
+    },
+    {
+      "Text": "（於是便坐在陰涼處，和千尋一起享受悠閒的讀書時光）"
+    }
+  ]
+}

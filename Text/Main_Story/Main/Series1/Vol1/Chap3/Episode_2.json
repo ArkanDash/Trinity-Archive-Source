@@ -1,0 +1,3082 @@
+{
+  "TitleJP": "招かれざる客",
+  "TitleKR": "불청객",
+  "TitleEN": "Uninvited Guests",
+  "TitleTH": "แขกที่ไม่ได้รับเชิญ",
+  "TitleTW": "不速之客",
+  "DescJP": "対策委員会は一つの情報を掴む。それは、ネフティスカンパニーがアビドス砂漠横断鉄道のすべての権利を手に入れる為に、カイザーの債権を買い入れたという事。彼らがなぜ砂漠横断鉄道の権利を購入したのか……と悩んでいた所、招かれざる客が現れる。",
+  "DescKR": "네프티스 컴퍼니가 아비도스 사막횡단철도의 모든 권리를 목적으로 카이저의 채권을 사들였다는 사실을 알게 된 대책위원회. 그들이 왜 이제 와서 사막횡단철도의 권리를 구매하였는지 고민하던 순간 침입자가 찾아온다.",
+  "DescEN": "The Foreclosure Task Force finds out that Nephthys bought out Kaiser's bonds to claim all rights to the Abydos trans-desert railway. As the task force muses on what prompted Nephthys to act, they are interrupted by intruders.",
+  "DescTH": "คณะกรรมการแผนงานได้มารู้เข้าว่าเนฟธิสคอมพะนีกวาดซื้อพันธบัตรของ\nไคเซอร์ไป เพราะอยากได้สิทธิ์ทั้งหมดในการจัดการรถไฟข้ามทะเลทราย ระหว่างที่ครุ่นคิดว่าทำไมพวกนั้นถึงมาซื้อสิทธิ์ของรถไฟข้ามทะเลทรายเอา\nป่านนี้ ก็มีผู้บุกรุกเข้ามา",
+  "DescTW": "對策委員會得知奈芙蒂斯公司買下凱薩的債券的目的，是完全買斷阿拜多斯沙漠橫貫鐵路的所有權利。正當對策委員會不解他們為何要買斷沙漠橫貫鐵路的所有權時，入侵者出現了。",
+  "DialogJP": [
+    {
+      "Text": "第2話;招かれざる客"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "げほっ、げほっ。\nうぅ……"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "ここで最後でしたっけ？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "あぁ、そのはず……"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "でも、こんな時期に倉庫を移転するなんて一体……"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "ここ、だいぶ長いこと放置されてたみたいですね……\n元々は何をする場所だったんでしょう？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "たしか学園の機密文書を保管してたとか、なんとか……"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "……機密文書？"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "とはいえ、もう要らないものなんでしょう。\nだからこそ処理が命じられたのでは？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "でも一応、書類に軽く目を通した方が良いんじゃ……？"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "……いえ、破棄で良いでしょう。\n時間もあまり無いことですし。"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "まあ、確かに……ん？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "っ！？"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "どうした！？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "柱が……！逃げろっ！"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "はぁ、はぁ……。\n……怪我は？"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "だ、大丈夫です。\nまさか、ここまで老朽化が進んでるだなんて……。"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "片付けようにも片付けられないな……\n一度、上に確認を……"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "ん？何だこれ。"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "何の書類ですか？"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "どれどれ……"
+    },
+    {
+      "Name": "ハイランダーの生徒A",
+      "Text": "「売買契約書――"
+    },
+    {
+      "Name": "ハイランダーの生徒B",
+      "Text": "――アビドス高等学校」？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "失礼しまーす……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あの方が、副生徒会長……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "どうして、一人でまだ……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ん？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "何か、視線が……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……気のせいか。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "はぁ、はぁ……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ビックリしました……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あんなに距離があったのに……\n噂には、聞いていましたが……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どんな噂？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……え、あ、その。\nホシノ、さん……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "へぇ……私の名前、知ってるんだ？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "えっと、あの……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "誰？\n私に何か用？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "わ、私は……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "どこの生徒？\n所属と学年は？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "別に年上だったところで容赦しないけど。\nそれくらい知ってるでしょ。私のことを、調べてたなら。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そ、そういう目的で来たわけでは……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あれ、その校章……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "は、はい。\n私も、アビドス自治区の学生で……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それと、まだ中学生です。\nもうすぐ卒業ですが……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……ちゅ、中学生？\nそうか、私より先輩に見えるけど……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あ、あはは……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……思い出した。\nそれ、私立ネフティス中学校の校章だよね？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あ、そ、それは……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……でもおかしいな。\nネフティスの本社は自治区の外に移転してだいぶ経つし……\nたしか学校も廃校って……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "私が卒業したら……その後、廃校になります。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……私立ネフティス中学校。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ネフティス企業傘下の、超エリート校。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ネフティスの後継者が残ってるとは聞いてたけど……\n……なるほどね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "君だったんだね、[ruby=いざよい]十六夜[/ruby]ノノミさん？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "最後に物見遊山でもしにきたの？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "かの高名な悪徳企業「ネフティス」のお嬢さんが、私たちの学校に何の用？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "わ、私は……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "回答によっては……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……！！？？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ヘイローの無事は保障しないよ。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ご、ごめんなさい、私は……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "私、は……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……言い過ぎちゃったかな。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ネフティス……"
+    },
+    {
+      "Text": "[s] \"ネフティスグループといえば……。\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "そのネフティスが、私たちの債権を買ったのよね？\n具体的にはそれで、何が問題なの？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それは――"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "セイント・ネフティスカンパニー。\nいわゆるネフティスグループは……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "アビドス土着の企業で、\n昔はキヴォトスの名だたる大企業と肩を並べてた。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "そんな企業が、アビドスに……！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "アビドスは元々、すごいところだったからね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "かつてキヴォトスで最も長い歴史を誇り……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "その強大さ故に、ありとあらゆる学園から恐れられ、\n或いは羨まれていた学校……それがアビドスでした。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……砂漠化が進んでしまう前の話、ですけれど。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……セイント・ネフティスカンパニーは、そんなアビドスの全盛期を共に過ごした企業です。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "しかし砂漠化が進むにつれて、\nアビドスと同様にネフティスもまた没落していきました。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "さらには、砂漠横断鉄道の損失を取り戻そうと無理をした結果、破産直前にまで至り……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "事業は中断を余儀なくされました。\n当時は大企業だったため、アビドス全体に取り返しのつかない損害が及び……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうして一人、また一人と、住民がアビドスを離れていくと、\nネフティスも全ての事業を畳んで去っていきました。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そんなアビドスをどうにか立て直すために、アビドス生徒会が借金を抱えることになり……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……そんなところだね。\n私が1年生のときにはもう、自治区でネフティスを見ることはほとんどなかったよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "つまりネフティスのせいで、私たちの自治区がこんなことになったってわけ！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "それはちょっと言い過ぎかなー。\nネフティスはアビドスが没落した理由の一つでしかないから。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ですが……ネフティスの失敗がなければ、\nアビドスが復興するチャンスはまだあったはずです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "止めを刺したのは、間違いなくネフティスでした。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ネフティスはアビドスにとって加害者なんです。\nそして――"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "――私の家が、運営している会社です。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……えっ？\nそうなの！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……はい。\n私はネフティスグループの人間です。"
+    },
+    {
+      "Text": "[s] \"ノノミ……\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……やっぱり、そうなんですね。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "やっぱり、って……アヤネちゃんは知ってたの？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "いえ、直接聞いていたわけでは……\nですが、ゴールドカードを持っている理由、それに……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それに――あの鉄道こそが、アビドスの衰退に拍車をかけたきっかけですし……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それが、世界を救うお役に立てるのなら……これ以上嬉しいことはないです。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ノノミ先輩が砂漠横断鉄道のシステムにアクセスしているところを見て、\n多分そうなんじゃないかなって……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "えっ、全然知らなかったのって私だけ！？\nホシノ先輩とシロコ先輩は？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……シロコ先輩は、知らなかったんだよね？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "う、うん。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……ノノミ先輩、どうして隠してたの？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そ、それは……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……ごめん。\nこうやって迫るようなことじゃないわよね。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "いえ……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "でも、ネフティスがアビドスからいなくなっても……\n先輩は残ってくれて良かった。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "一度、状況を整理しましょう！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "本日カイザーコーポレーションが、アビドスの負債の内45％を売却しました。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "その際に新規債権者が殺到し、債権が暴騰……なんと元値の4～5倍以上の金額にまで跳ね上がりました。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "債権の購入者は――セイント・ネフティス。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "カイザーはこの取引で、莫大な利益を得たことでしょう。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "ですが、どうしてこんな取引をしたのか。\nその理由までは分かりません。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "アヤネちゃん、ネフティスが買収によって得た権利の詳細を確認してもらえますか？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あ、はい……！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "この取引によって、ネフティスは……\nアビドス自治区内の特定施設及びインフラの所有権、そして開発権を得ています。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "土地の所有権を除いた全ての権利ですね。\nたしかに、土地は依然としてカイザーが……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "その「特定施設」というのは、どういったものが含まれていますか？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "物流を目的とした交通インフラと……\nそれに関連する施設、とあります。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "交通インフラなんて、そんなの残ってたっけ？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……「砂漠横断鉄道」。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ええっ！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "該当するものは、それしかないはずです。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "で、でもノノミ先輩。\nあれって工事途中で放置されてるはずじゃ……\nなのに、こんな高い値段で買ったの……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "それにネフティスは、\nかつて自らが手放した事業を、再び買い直したことにもなります。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……何が目的？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……私にも分かりません。\nいったい、どうして……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "も、もしかして……！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "石油でも見つかったとか！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "いやー無いない。\nもしあったら、アビドスはこんな状態になってないでしょ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "じゃあ、大量のレアアースが検出されたとか……？\nゲルマニウム何とか……だっけ？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "うへ～、相変わらず可愛いねぇセリカちゃんは。\nお金になりそうなものは、おじさんが全部調査済みだよ。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "けど、何も出なかった。石油も希少鉱物も、なーんにもね。\n……というか、ゲルマニウムは安いやつじゃない？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "そ、それは良いとして！\nなら、どうしてわざわざ権利を買ったのよ？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "それが分からないから、おじさんも困ってるんだよね～。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……敵？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "な、何よ急に！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "侵入者です！\n自治区で爆発反応を確認しました！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "まさか、カイザーコーポレーションが……！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ですがこの爆発は、攻撃のためというよりも……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "んー……もしかして、発掘地帯の方じゃない？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "いえ、違うようです……！これは……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "なっ……誰かがこちらの方へ……？\n規模は数十人、初めて見る制服です！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "一体何なの！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "判明しました！\n彼女たちは……"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "あはははっ、良いね良いねぇ！"
+    },
+    {
+      "Text": "次回;ハイランダー鉄道学園"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;불청객"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "콜록, 콜록. 으, 먼지……."
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "이제 여기만 옮기면 되나?"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "네. 이게 마지막 창고예요. 하필이면 이런 때에 창고 이전이라니……. "
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "콜록, 콜록…… 그런데 여긴 엄청 오랫동안 방치되어 있었나 보네요. "
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "그러게? 뭐 하는 곳이지? "
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "산학협력에 관계된 비문 수거실이라는데……. 어쨌든 중요한 문서들을 보관한 곳인가 보네요. "
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "아니, 옛날엔 중요했을지 몰라도 지금은 아니겠지. 중요한 문서면 이렇게 뒀을 리가 없잖아?"
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "뭐 어쨌든 시작하자. 이 서류 박스들을 서류 파쇄실로 옮기는 거야."
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "박스 안에 뭐가 있는지 안 뜯어봐도 되나요? "
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "에이~ 시간도 없는데 뭘 그렇게까지 해. 서둘러."
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "네. ……어, 어라?"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "으어어? 뭐, 뭐야? 피, 피해요! 선반 기둥이 부러졌……."
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "뭐, 뭐야?! 뭘 건든 거야?"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "제가 건든 게 아니에요! 멀쩡하던 게 갑자기……!"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "우와…… 다칠 뻔했다……."
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "뭐, 뭐야? 갑자기 강철 선반이 왜 부러지는 거야……."
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "하아. 이걸 어떻게 치우라고……."
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "응? 이건 또 뭐지……?"
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "재수가 없으려니까. 근데 뭐야, 그건?"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "박스 안에 있던 서류 같은데……"
+    },
+    {
+      "Name": "하이랜더 학생 A",
+      "Text": "매매계약서……? 아비도스 고등학교……?"
+    },
+    {
+      "Name": "하이랜더 학생 B",
+      "Text": "으음?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "여기가……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저 사람이……. 그 부학생회장……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "이제 혼자 남았으면서…… 어째서 아직도……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……흐응?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "이상하네…… 시선이 느껴졌는데……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "뭐어, 기분 탓인가……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "하아……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……. 크, 큰일날 뻔했어요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "이 거리에서 그런 게 느껴지나요……? 후아…… 이야기는 듣긴 했지만 정말로……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "무슨 이야기를 들었길래?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네, 호시노라는 분은……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "흐응? 뭐야, 내 이름도 알고 있어?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "아, 그, 그게…… 저……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "누구야, 너는? 나한테 볼일 있어?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "저, 저는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그게 아니면 다른 자치구의 학교에서 염탐하러 온 거야? 소속과 학년을 대."
+    },
+    {
+      "Name": "호시노",
+      "Text": "나에 대해 뭔가 알고 있는 것 같으니까, 잘 알고 있겠지? 나는 나보다 연상이라고 봐주거나 그러지 않아."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네? 아, 아니에요. 저, 저는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "가만…… 그 학교 마크…… 어디서 본 적 있는데……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네. 저, 저도…… 아, 아비도스 자치구의 학생이에요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그리고 여, 연상 아니에요, 중학생이에요. 곧 졸업하지만……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "헤에~? 중학생이라고……? 정말로? 나보다 선배 같은데?!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "아, 아하하……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……. 맞아, 기억났어. 그거, 사립 네프티스 중학교였지?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "아, 그, 그건……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그치만 뭔가 이상한데? 네프티스 본사는 이미 자치구 밖으로 이전한 지 오래잖아. 거기 소속의 학교도 모두 폐교됐을 텐데."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저희 중학교도 제가 졸업하고 나면 폐교될 거예요……. 제가 마지막 졸업생이라서……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……사립 네프티스 중학교. "
+    },
+    {
+      "Name": "호시노",
+      "Text": "네프티스 기업 휘하의 초엘리트 사립 학교."
+    },
+    {
+      "Name": "호시노",
+      "Text": "분명 네프티스 기업의 후계자가 초등학교인가 중학교인가에 있었다고 들었는데……. 흐음~ 그렇구만."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "아직 자치구를 떠나지 않았었나 보네. 이자요이 노노미 씨?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "아니면 곧 떠날 예정이려나? 뭐든 상관없지만."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그 악독한 네프티스의 영애님이 나한테 무슨 볼일이 있는 거야? 응? 아니면 이 학교에 볼일이 있는 건가?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "저, 저는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "하지만 조심해야 할 거야? 만약 네프티스가 이 학교에 손아귀를 뻗으려고 하는 거라면……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……!!?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "아무리 네프티스 영애님이라고 해도 네 헤일로는 무사하지 못할 거니까."
+    },
+    {
+      "Name": "노노미",
+      "Text": "죄…… 죄송해요……. 저는……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……너무 심했나."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "네프티스……."
+    },
+    {
+      "Text": "[s] \"네프티스 그룹이라면…….\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "아야네 쨩, 대체 뭐야? 네프티스라는 녀석들이 우리 채권을 사들인 게 무슨 문제가 되는 거야?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그건……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "세인트 네프티스 컴퍼니, 네프티스 그룹은……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……아주 오래 전부터 아비도스를 거점으로 성장해 왔던 토착 기업이야. 한때는 키보토스에서 가장 잘나가는 회사였을 때도 있었을걸?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "정말? 그런 기업이 아비도스에?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "아니, 그게 아니라 아비도스가 그만큼 대단했던 거야."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네 맞아요. 아비도스는…… 예전에는 키보토스에서 가장 강력하고 거대한 학원이었다고 해요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "모든 학원들이 이곳을 두려워하고 또 선망해 온……. 가장 오래된 역사를 가진 가장 강력하고 위대한 학원……. 그게 예전의 우리 아비도스였다고 해요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "뭐, 기상 이변이 발생하기도 전의, 아주 오래 전 이야기지만요~♧"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……세인트 네프티스 컴퍼니는, 그런 아비도스의 전성기를 함께 해온 토착 기업이었어요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "하지만…… 결과적으로 기상 이변으로 사막화가 가속되면서, 네프티스의 운명은 아비도스와 함께 몰락해 갔어요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그러다 <사막횡단철도>라는 실패한 사업을 위해 무리하게 자본을 끌어모았다가…… 파산 직전까지 몰려버렸고요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "결국 사업은 중단되고, 무리하게 끌어모은 자본은 곧 경제 위기라는 폭탄이 되어서 몰락해 가는 아비도스에 돌이킬 수 없는 타격을 주었고……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그것이 연쇄효과를 일으켜서, 학생들과 주민들이 아비도스를 떠나기 시작했고…… 아비도스 학생회는 무리하게 빚을 내기 시작했고……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그리고 결국…… 네프티스도 모든 사업을 청산하고 아비도스를 떠나버렸죠."
+    },
+    {
+      "Name": "호시노",
+      "Text": "뭐어~ 그렇지. 내가 1학년일 때부터 네프티스는 자치구에서 거의 보이지 않았으니까."
+    },
+    {
+      "Name": "세리카",
+      "Text": "결국 네프티스 녀석들이 벌인 사업 때문에 우리 자치구가 망했다는 거잖아?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그건 아니야, 세리카 쨩. 네프티스는 아비도스가 망한 이유 중의 하나일 뿐이야."
+    },
+    {
+      "Name": "노노미",
+      "Text": "응, 아니에요. 네프티스의 그 실책만 아니었어도 아비도스는 이 위기를 극복할 기회가 많이 있었을 거예요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "결과적으로 아비도스의 몰락에 쐐기를 박은 건 네프티스가 맞아요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네프티스는 아비도스의 가해자…… 몰락의 주동자들…… 그리고……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "바로 저희 가문의 기업이기도 해요."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐? 뭐라고?!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저는…… 세인트 네프티스 그룹의 영애예요."
+    },
+    {
+      "Text": "[s] \"노노미…….\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "……. 역시. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "아, 아야네 쨩? 아, 알고 있었던 거야? 이걸?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아니……. 선배의 황금 카드를 생각해 보면 어느 정도는 눈치챌 수 있으니까……. 게다가……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저 사막횡단철도야말로 아비도스의 몰락을 가속시킨 사업……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "그게 이렇게 세계를 구하는 일에 사용될 수 있다면…… 저에게 그보다 더 기쁜 일은 없을 거예요♧"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "노노미 선배가 버려져 있던 사막횡단철도의 기동 시스템에 접속하는 걸 보고 확신했어요."
+    },
+    {
+      "Name": "세리카",
+      "Text": "그, 그래? 나만 몰랐던 거야? 호시노 선배도 알고 있었고?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아…… 다행이다. 시로코 선배는 몰랐구나."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으음."
+    },
+    {
+      "Name": "세리카",
+      "Text": "하지만 어, 어째서 숨긴 거야, 선배?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그, 그건……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "아니…… 생각해 보면 딱히 먼저 말할만한 내용은 아니지……? 미안, 내가 너무 무신경하게 물어봤나 봐."
+    },
+    {
+      "Name": "노노미",
+      "Text": "아니에요, 세리카 쨩……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "그러고보면 네프티스 그룹이 아비도스를 떠났는데도 노노미 선배는 여기 계속 남아 있어 준 거구나?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그럼 지금 상황을 일단 정리해 보겠습니다!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "카이저 코퍼레이션은 오늘 자신들이 확보하고 있는 아비도스 부채의 약 45%를 부채 시장을 통해 팔아치웠어요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그 결과, 아비도스에 새로운 채권자들이 엄청나게 생겨났고…… 카이저는 이 거래로 막대한 수익을 남겼을 겁니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그리고 <세인트 네프티스>가 아비도스의 기반 시설 산업을 담보로 대출한 DLB(Derivative Linked Bond)의 채권을 집중적으로 사들인 것을 확인했습니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "그것도 원래 금액의 4~5배 이상으로요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네. 하지만 어째서 그런 거래를 했는지는…… 지금부터 확인해 봐야 해요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "아야네 쨩, 네프티스가 매수한 DLB 채권의 담보 권리를 분석해 줄래요?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 네……!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……해당 채권의 담보는 아비도스 자치구의 특정 시설 및 인프라의 소유권 및…… 개발권, 부수적 시설물의 모든 권리를 포함하고 있어요……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "토지 소유권을 제외한 모든 권리네요. 하긴, 토지 소유권은 여전히 카이저에게 있을 테고……"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그 <특정 시설>에는 어떤 것이 포함되어 있죠?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "어…… 물류 이동을 목적으로 한 교통 인프라와 거기에 귀속된 부가 시설이에요……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "물류 이동 교통 인프라……? 그런 게 자치구에 아직 남아 있던가?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……<사막횡단철도>."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐어?!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "거기 해당하는 인프라는 그것밖에 없어요……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "그, 그치만 노노미 선배. 그건 완공도 되지 않은 채 방치된 폐허나 마찬가지잖아……? 그걸 이렇게 비싼 가격에 샀다고……?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "게다가 네프티스는 자신들이 주도한 사업을 지금에 와서 몇 배나 비싼 값으로 되사들였다는 뜻이기도 해요……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "왜? 무슨 목적으로?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……그걸 모르겠어요. 대체 왜 그런……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "서, 설마……!?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "설마…… 거기서 석유 같은 게 발견된 거 아냐?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "없어없어. 세리카 쨩. 그런 게 있었으면 아비도스가 이런 꼴이 되지도 않았겠지."
+    },
+    {
+      "Name": "세리카",
+      "Text": "아, 아니면 요즘 유행한다는 희토류 같은 게 발견됐다거나…… 게르마늄 같은……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "으헤~ 이상한 데서 귀엽다니까, 세리카 쨩은. 돈 될만한 건 예전에 이 아저씨가 이미 다 찾아봤지."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그치만 아무것도 없더라구. 석유도, 비싼 지하자원도, 희귀광물도, 게르마늄도. 우리 자치구에는 전혀 없어. 그리고 게르마늄은 싸지 않나?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "그, 그러면 걔들이 왜 저런 짓을 한 거야?"
+    },
+    {
+      "Name": "호시노",
+      "Text": "그걸 모르겠단 말이지. 으음."
+    },
+    {
+      "Name": "시로코",
+      "Text": "경고음?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐야 갑자기?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "침입자예요! 자치구에 폭발 반응!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "설마 카이저 코퍼레이션이……?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 아니에요! 폭발의 패턴은…… 공격용이라기보단……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "공사용 폭탄 같은 건가? 발굴지 쪽이야, 아야네 쨩?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아뇨, 위치도 발굴지 쪽이 아니라…… 전혀 다른 쪽이에요. 잠시만요!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……"
+    },
+    {
+      "Name": "아야네",
+      "Text": "확인했습니다! 다, 다른 학교의 학생들이에요……! 수십 명에다가…… 저희가 처음 보는 학교예요! "
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐어?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "확인했습니다! 저들은……!!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐하핫-! 좋은데?"
+    },
+    {
+      "Text": "다음화;하이랜더 철도학원"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;Uninvited Guests"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "*cough* *cough* Ugh. The dust is getting in my throat."
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "This the last one?"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "Should be. Why did they have to schedule a cargo transport now of all times? "
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "*cough* These storage rooms haven't been touched in ages. "
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "Seriously though. What's this place even for? "
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "I guess they store inscriptions about academic industrial cooperation... Whatever that means. It's for important documents. "
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "These ancient things are important? They wouldn't be sitting here collecting dust if that were true."
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "Eh. Doesn't matter either way. Let's just get this over with. The boxes in that corner are marked for disposal."
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "Are you sure? Maybe we should open them up and double check... "
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "It'll be fine. We're on a tight schedule, so get a move on."
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "If you say— Eek?!"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "M-Move! Those shelves are gonna fall!"
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "How did the supports break?! What did you do?"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "M-Me?! I didn't even touch it!"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "Whoa. That was a close one."
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "How does a metal shelf just snap like that?"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "More importantly, how're we going to clean this all up?"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "Huh? What's this?"
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "Ugh. I can't believe this... What're you looking at?"
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "I don't know. A document that fell out of one of the boxes."
+    },
+    {
+      "Name": "Highlander Student A",
+      "Text": "A sales contract of some kind? From Abydos High School?"
+    },
+    {
+      "Name": "Highlander Student B",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Is this the place?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That student must be...the vice president..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "She's still persevering, all by herself. But...why...?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Hm. I thought someone was there."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Must've been my imagination..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Th-That was too close."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I heard she's a generational talent and all that, but how'd she notice me?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Generational talent? What else did you hear?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I heard that Hoshino is—"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Wow. You know my name too?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "A-About that! You see...!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You know me, but I don't know you. What's your business here?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I-I..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Nothing? Are you a spy? Who sent you? State your affiliation and year."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I'm sure you've heard the rumors. You might be older than me, but I won't go easy on you."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...M-Me? N-No, I'm not—"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Wait. I know that school emblem."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Y-Yup! I'm from the Abydos District too..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "A-And I'm actually younger than you... I'm graduating middle school this year."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You? A middle schooler? You look way older than me."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Aha...haha..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Oh, right. I know where I've seen it. Nephthys Private Middle School?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Y-Yup! That's me...!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "That doesn't explain much though. The Nephthys main office left the district ages ago, and all affiliated schools along with it."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "We're scheduled to close after my graduation. I'll be the last graduating class..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...Nephthys Private Middle School. "
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "An elite private school owned and operated by the Nephthys Group."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I get it now. I did hear that the Nephthys Group successor was around middle school age."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "So why haven't you left the district yet, Izayoi Nonomi?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Taking one last tour before you leave? Doesn't matter either way, I guess."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "But what's the infamous Nephthys Group's precious little daughter bothering me for? Or are you after the school?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I-I..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "If Nephthys is trying to come after this school..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Their little successor is going to find out just how easily a halo can shatter."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I-I'm sorry... I..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I...!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...I went a little too far."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Nephthys..."
+    },
+    {
+      "Text": "[s] \"The Nephthys Group...\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "Can you explain already, Ayane? What's with this Nephthys thing buying up our bonds?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That's... Well..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Saint Nephthys Company, or Nephthys Group..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It's a business that started out in Abydos and grew like crazy. It was one of the most successful companies in all of Kivotos at one point."
+    },
+    {
+      "Name": "Serika",
+      "Text": "All of Kivotos? From Abydos?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Mm. You're underestimating how influential Abydos was in the past."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "She's right. Abydos was...the best of the best."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Once upon a time, we were a force to be reckoned with. We were an academy with a rich history, the strongest students, and the best education. Once upon a time..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Well, then the sandstorms happened, and you know the rest!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "And during that golden age, the Saint Nephthys Company flourished right alongside Abydos High School."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "But the sand...wouldn't stop coming. The desertification of the district bled us dry, and Nephthys came tumbling down along with Abydos."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "The Trans-Desert Railway was a desperate attempt to bring in more commerce to the area...but it was too late. The venture nearly bankrupted them."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Business came to a screeching halt, and Nephthys spread their money too thin trying to make up for it. The result was an economic collapse that Abydos...well, it simply couldn't recover from."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "The Abydos Student Council did the best it could to offset the fallout, but both students and residents left Abydos in a mass exodus."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "And after all that...Nephthys decided to cut its losses. The company sold off all its business interests and left Abydos behind."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Them's the breaks! By the time I started my first year, Nephthys was just a bad memory."
+    },
+    {
+      "Name": "Serika",
+      "Text": "So you're telling me our district got totally screwed because of Nephthys' greed?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Hold your horses, Serika. They were just one piece in a long domino of disasters."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It's okay, Hoshino. She's entirely correct. Nephthys took a dangerous risk, and it was Abydos that paid the consequences."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Nephthys was the final nail in the coffin that entombed Abydos."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It was the core of Abydos' downfall. The antagonist in the story."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "And my family was its founder."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-Wh-What?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Yes... I'm the successor to the Saint Nephthys Group."
+    },
+    {
+      "Text": "[s] \"Nonomi...\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...I sort of knew. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "Y-You did, Ayane?! And you didn't tell me this entire time?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "No, no. It was just from the context clues. Her gold card was the initial indicator. But then..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "The trans-desert railway was the project that accelerated the downfall of Abydos..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "If we can use it to save the world... There would be nothing more gratifying for me. ♧"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "And when Nonomi was able to access the railway system, that essentially confirmed it for me."
+    },
+    {
+      "Name": "Serika",
+      "Text": "S-So I was the only one who didn't know?! What about Hoshino and Shiroko?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Oh, okay. Good. Shiroko didn't know either."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "U-Um."
+    },
+    {
+      "Name": "Serika",
+      "Text": "But WHY would you hide that this whole time?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "W-Well, I... Um..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ack! Sorry, that was super insensitive of me. I guess it's not the easiest thing to just bring up out of nowhere."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Don't worry, Serika."
+    },
+    {
+      "Name": "Serika",
+      "Text": "And at the end of the day, you stayed! You had every reason to leave with Nephthys, but you stayed this whole time."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "With that settled, I'll present the facts of the case."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The Kaiser Corporation sold off 45% of Abydos bonds to the black market today."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Kaiser likely made an exorbitant profit with these sales...and we now have a huge increase in creditors."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I've confirmed that Saint Nephthys bought up all the derivative bonds that were previously loaned out using Abydos' industrial facilities as collateral."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "At four to five times its original value, no less..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Which begs the question as to why... I'll have to look into it."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Would you be able to look at the collateral rights for the derivative bonds Nephthys purchased?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes! Let me see..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The collateral appears to include the following: development rights, ownership of specific facilities and infrastructure, as well as all ancillary facilities."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Essentially everything except real estate. That's expected. Kaiser wouldn't let go of that so easily."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Do you know which facilities were included?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I saw it somewhere... Here! Infrastructure for transportation and its subsidiary facilities..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Since when did we have transportation stuff left over?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...The Trans-Desert Railway."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "There's nothing else in the district that fits the description."
+    },
+    {
+      "Name": "Serika",
+      "Text": "B-But that doesn't make any sense! Why would they buy a project they left to rot in the desert? And for five times the price they sold it for?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It makes no sense on a business level. There has to be a motive we're not seeing..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "What could they possibly be trying to achieve?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...It's incomprehensible. I can't think of a single justification."
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Wait! What if...?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "What if they found an oil reservoir deep under the construction sites?"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "No chance, Serika. If that were even remotely possible, Abydos wouldn't be a ghost town right now."
+    },
+    {
+      "Name": "Serika",
+      "Text": "O-Okay. Well, what if it's some kind of super rare gem? Or element? Maybe they found germanium!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "You're as silly as you are adorable, Serika. I promise this desert's been squeezed of every last drop of value it could possibly hold."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "And it's not like people didn't try. There was just nothing to be found. No oil, no super rare gems, no germanium... Wait, Serika, germanium isn't really worth anything to begin with."
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Well, it's not like anyone else is coming up with an explanation!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "It really is a mystery..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "The emergency alarm?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-What happened?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "There's been explosions within the district! Intruders!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Kaiser?! Is it Kaiser?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I-It doesn't appear so! They're not targeting any buildings or causing any particular destruction."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Controlled detonations, maybe? Were they near the excavation site?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It doesn't appear so... Wait! One moment..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I found them!\nStudents from another academy?! I haven't seen those uniforms before...and there's dozens of them! "
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It appears that they're..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahyahya! That felt great!"
+    },
+    {
+      "Text": "Next Episode;Highlander Railroad Academy"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;แขกที่ไม่ได้รับเชิญ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "แค่ก แค่ก อึก... ฝุ่นเต็มไปหมดเลย..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "แค่ขนของตรงนี้ไปก็พอใช่มั้ย?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "ค่ะ นี่เป็นห้องสุดท้ายแล้วค่ะ ทำไมถึงต้องมาย้ายโกดังในเวลาแบบนี้ด้วยนะ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "แค่ก แค่ก... ดูเหมือนที่นี่จะถูกละเลยมานานมากเลยนะคะ "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "นั่นสิ เป็นที่ที่เอาไว้ทำอะไรกันแน่นะ? "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "เห็นว่าเป็นห้องเก็บเอกสารลับที่เกี่ยวกับความร่วมมือด้านอุตสาหกรรมและการศึกษา... คงเป็นที่เก็บเอกสารสำคัญๆ ละมั้งคะ "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "ไม่หรอก มันอาจจะเป็นของสำคัญเมื่อในอดีต แต่ตอนนี้อาจจะไม่สำคัญแล้วก็ได้ ถ้าเป็นเอกสารสำคัญ คงไม่ถูกปล่อยปละละเลยไว้แบบนี้หรอก"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "ช่างเถอะน่า มาเริ่มงานกันเถอะ เราต้องย้ายกล่องเอกสารพวกนี้ไปไว้ในห้องทำลายเอกสาร"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "เราเปิดกล่องดูได้ไหมคะว่าข้างในมีอะไรอยู่? "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "ไม่เอาน่า~ แค่เวลาขนย้ายก็ไม่ค่อยมีอยู่แล้ว จะเอาเวลาที่ไหนมาเปิดดูล่ะ เร่งมือเข้าเถอะ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "ค่ะ... เอะ... เอ๋?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "หืมมม? อะ... อะไรเนี่ย? ละ... หลบเร็วค่ะ! เสาชั้นวางของหักแล้ว..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "อะ... อะไรน่ะ?! ไปโดนอะไรเข้างั้นเหรอ?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "ฉันไม่ได้ทำอะไรเลยนะคะ! เมื่อกี้ยังไม่เห็นเป็นอะไรเลย แต่จู่ๆ มันก็...!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "เฮ้อ... เกือบเจ็บตัวซะแล้ว..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "อะ... อะไรกัน? ทำไมจู่ๆ ชั้นเหล็กถึงหักได้ล่ะ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "เฮ้อ แล้วจะเก็บยังไงเนี่ย..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "หืม? แล้วนี่อะไรอีก...?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "ดวงซวยจริงๆ เลย ว่าแต่นั่นมันอะไรน่ะ?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "เหมือนเอกสารที่อยู่ในกล่องเลยนะ... "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ A",
+      "Text": "สัญญาซื้อขาย...? โรงเรียนมัธยมอะบิดอส...?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนไฮแลนเดอร์ B",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ที่นี่มัน..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คนคนนั้นคือ... รองประธานนักเรียนเหรอ...?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ตอนนี้ก็เหลือตัวคนเดียวแล้ว... แล้วทำไมถึงยัง... "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หืม...? "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แปลกจัง... เหมือนมีใครมองอยู่เลย..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "คงจะคิดไปเองละมั้ง..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "กะ... เกือบเป็นเรื่องแล้วค่ะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "รู้สึกตัวได้จนถึงถนนตรงนี้เลยเหรอคะ...? ฮู่ว... ถึงจะเคยได้ยินเรื่องนั้นมาอยู่บ้างแล้วก็เถอะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ได้ยินเรื่องอะไรมาเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เรื่อง... ของคนที่ชื่อโฮชิโนะน่ะค่ะ... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หืม? อะไรกัน รู้จักชื่อฉันด้วยเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ่า... คะ... คือว่า... ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เธอเป็นใครน่ะ? มีธุระอะไรกับฉัน?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉะ... ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ถ้าไม่ได้มาหาฉัน งั้นเธอมาสอดแนมโรงเรียนที่อยู่ในเขตปกครองตนเองอื่นหรือไง? บอกโรงเรียนที่สังกัดกับชั้นปีมาเลยนะ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ถ้าเธอรู้เรื่องอะไรเกี่ยวกับฉันมา เธอก็น่าจะเข้าใจดีอยู่แล้วนี่? ฉันไม่ยอมใครถึงต่อให้อายุมากกว่าฉัน\nก็ตามหรอกนะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คะ...? มะ... ไม่ใช่อย่างนั้นค่ะ ฉะ... ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เดี๋ยวนะ... สัญลักษณ์โรงเรียนนั่น... เหมือนเคยเห็นจากที่ไหนมาก่อนเลย..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ ฉะ... ฉันก็เป็นนักเรียนของเขตปกครองตนเองอะบิดอสค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แล้วก็... ไม่ได้อายุมากกว่าด้วยค่ะ ฉันยังอยู่มัธยมต้นอยู่ค่ะ ถึงจะใกล้จบแล้วก็เถอะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เอ๋~? มัธยมต้นงั้นเหรอ...? จริงรึเปล่า? แต่เธอดูเหมือนเป็นรุ่นพี่ฉันเลยนะ?!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ่า... ฮะฮ่าฮ่า..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "จริงด้วย... นึกออกแล้วละ ที่นั่นคือโรงเรียนเอกชนมัธยมต้นเนฟธิสใช่มั้ย?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อ่า คะ... คือว่า... "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่มันก็แปลกๆ อยู่นะ? สำนักงานใหญ่ของเนฟธิสย้ายไปอยู่นอกเขตปกครองตนเองนานแล้วนี่นา ส่วนโรงเรียนในสังกัดก็น่าจะถูกปิดไปหมดแล้วด้วย"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "...... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "หลังจากฉันเรียนจบ โรงเรียนมัธยมต้นของฉันก็จะปิดลงเหมือนกันค่ะ... นั่นก็เพราะว่าฉันเป็นนักเรียน\nคนสุดท้ายที่จะเรียนจบ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "โรงเรียนมัธยมต้นเนฟธิส... "
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "โรงเรียนเอกชนชั้นยอดภายใต้การควบคุมของบริษัทเนฟธิส"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ได้ยินมาว่าทายาทของบริษัทเนฟธิสอยู่โรงเรียนประถมหรือมัธยมต้นด้วยนี่นา... อืม~ อย่างนี้นี่เอง"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "สงสัยจะยังไม่ออกไปจากเขตปกครองตนเองสินะ คุณอิซาโยอิ โนโนมิ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หรือว่าใกล้จะไปแล้วล่ะ? แต่ถึงยังไงมันก็ไม่เกี่ยวอะไรกับฉันหรอก"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ว่าแต่คุณหนูจากเนฟธิสที่ร้ายกาจมีธุระอะไรกับฉันเหรอ? หืม? หรือว่ามีธุระกับโรงเรียนนี้?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉะ... ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่ระวังไว้หน่อยก็ดีนะ เพราะถ้าเนฟธิสคิดจะขยายอำนาจมาถึงโรงเรียนนี้ละก็..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": ".....!!?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ต่อให้เป็นคุณหนูจากเนฟธิส ก็ใช่ว่าฮาโลของเธอจะปลอดภัยหรอกนะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ขะ... ขอโทษค่ะ... ฉัน..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉัน..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ฉันพูดแรงเกินไปรึเปล่านะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เนฟธิส..."
+    },
+    {
+      "Text": "[s] \"เนฟธิสกรุ๊ปงั้นเหรอ...\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อายาเนะจัง นี่มันอะไรกันน่ะ? ถ้าพวกเนฟธิสอะไรนั่นมากวาดซื้อพันธบัตรของเรา มันจะเป็นปัญหาอะไรเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เรื่องนั้นน่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เซนต์ เนฟธิส คอมพะนี... เนฟธิส กรุ๊ปน่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เป็นบริษัทท้องถิ่นที่ใช้อะบิดอสเป็นฐานเมื่อนานมาแล้ว... ในตอนนั้นน่าจะเป็นบริษัทที่รุ่งเรืองที่สุดใน\nคิโวทอสเลยละ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "จริงเหรอ? บริษัทแบบนั้นมาอยู่ในอะบิดอสเลยเหรอ?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ใช่อย่างนั้นสิ ต้องบอกว่าอะบิดอสน่ะเยี่ยมยอดจนมีบริษัทแบบนั้นมาตั้งรกรากต่างหาก"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่ค่ะ ฉันได้ยินมาว่าในอดีต อะบิดอสเป็นโรงเรียนที่ยิ่งใหญ่และมีอำนาจมากที่สุดในคิโวทอสเลยค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "โรงเรียนที่โรงเรียนอื่นๆ ต่างหวาดกลัวและอิจฉา... โรงเรียนที่ยิ่งใหญ่และมีประวัติศาสตร์ยาวนานที่สุด ... นั่นละค่ะโรงเรียนอะบิดอสของพวกเราในอดีต"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ถึงจะเป็นเรื่องราวในอดีตตั้งแต่ก่อนเกิดภัยพิบัติดินฟ้าอากาศก็เถอะค่ะ~♧"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เซนต์ เนฟธิส คอมพะนีเป็นบริษัทท้องถิ่นที่มียุคเฟื่องฟูมาพร้อมๆ กับอะบิดอสค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แต่ว่า... เมื่อเกิดภัยพิบัติทางดินฟ้าอากาศจนพื้นที่กลายเป็นทะเลทรายหนักเข้าๆ ชะตากรรมของ\nเนฟธิสก็พังพินาศไปพร้อมกับอะบิดอสค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "จากนั้นก็มีการรวบรวมเงินทุนอย่างเกินควรเพื่อกิจการ <ทางรถไฟข้ามทะเลทราย> ที่ไม่ประสบความ\nสำเร็จ... จนพวกเขาเกือบล้มละลายค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "สุดท้ายกิจการนั่นก็ถูกระงับไป ส่วนเงินทุนที่รวบรวมมาอย่างหนักก็กลายเป็นระเบิดที่ชื่อว่า\nวิกฤตเศรษฐกิจ และส่งผลเสียอย่างไม่อาจแก้ไขได้ต่ออะบิดอสที่กำลังย่อยยับ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "นั่นทำให้เกิดผลลูกโซ่ นักเรียนและชาวเมืองเริ่มพากันย้ายออกจากอะบิดอส... ส่วนสภานักเรียนอะบิดอสก็เริ่มติดหนี้ล้นพ้นตัว... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "และสุดท้าย... เนฟธิสก็ทิ้งกิจการทั้งหมดแล้วออกจากอะบิดอสไป"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "มันก็เป็นอย่างนั้นละ~ เนฟธิสแทบจะไม่ได้อยู่ในเขตปกครองตนเองของเราเลยตั้งแต่ฉันอยู่ชั้นปีที่ 1 แล้ว"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เท่ากับว่าเขตปกครองตนเองของเราต้องป่นปี้เพราะกิจการของพวกเนฟธิสน่ะสิ?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่ใช่แบบนั้นหรอก เซริกะจัง เนฟธิสเป็นแค่หนึ่งในสาเหตุที่อะบิดอสล่มจมน่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อื้ม ไม่ใช่หรอกค่ะ เพราะถ้าเนฟธิสไม่ล้มเหลวไปซะก่อน อะบิดอสก็มีโอกาสมากมายที่จะเอาชนะ\nวิกฤตนี้ได้ค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "สุดท้ายแล้วสิ่งที่ตอกลิ่มแห่งความหายนะของอะบิดอสก็คือเนฟธิสนั่นละค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เนฟธิสเป็นฝ่ายที่ทำให้อะบิดอสเสียหาย... เป็นผู้นำแห่งความพังพินาศ... และก็..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เป็นบริษัทของครอบครัวฉันด้วยค่ะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หะ... หา? ว่าไงนะ?!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉัน... มาจากเซนต์ เนฟธิส กรุ๊ปค่ะ"
+    },
+    {
+      "Text": "[s] \"โนโนมิ...\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "กะแล้วเชียว... "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะ... อายาเนะจัง? ระ... รู้เรื่องนี้อยู่แล้วงั้นเหรอ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไม่หรอก... แต่พอคิดถึงบัตรโกลเด้นการ์ดของรุ่นพี่ก็พอจะรู้อยู่บ้างน่ะ... ไม่ใช่แค่นั้นนะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "รถไฟข้ามทะเลทรายนั่นเป็นกิจการที่ทำให้อะบิดอสเข้าใกล้สู่ความพังพินาศเร็วขึ้นด้วย..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ในทางกลับกัน ถ้ามันสามารถเอามาใช้กอบกู้โลกได้... ฉันก็น่าจะดีใจอย่างถึงที่สุดเลยละค่ะ♧"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ตอนฉันเห็นรุ่นพี่โนโนมิเข้าถึงระบบเคลื่อนที่ของทางรถไฟข้ามทะเลทรายที่ถูกทิ้งไว้ ฉันก็มั่นใจค่ะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "งะ... งั้นเหรอ? นี่ฉันไม่รู้อยู่คนเดียวเหรอเนี่ย? รุ่นพี่โฮชิโนะก็รู้แล้วใช่มั้ย?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ฮู่ว... ค่อยยังชั่วหน่อย รุ่นพี่ชิโรโกะยังไม่รู้สินะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อืม"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "แต่ว่า ทะ... ทำไมถึงปิดเรื่องนี้ไว้ล่ะรุ่นพี่?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คะ... คือว่า..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "เดี๋ยวนะ... แต่มาพอคิดๆ ดูแล้ว มันก็ไม่ใช่เรื่องที่จู่ๆ จะมาบอกคนอื่นก่อนนี่เนอะ? ขอโทษนะ ฉันคิดน้อยไปหน่อยน่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ไม่หรอกค่ะ เซริกะจัง..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "จะว่าไป เนฟธิสกรุ๊ปก็ออกจากอะบิดอสไปแล้ว แต่รุ่นพี่โนโนมิก็ยังอยู่ที่นี่ต่อสินะ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ถ้างั้นฉันจะขอสรุปสถานการณ์ก่อนนะคะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "วันนี้ไคเซอร์ คอร์เปอเรชั่นขาย 45% ของหนี้อะบิดอสที่ตัวเองเป็นเจ้าของอยู่ในตลาดตราสารหนี้ค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "และนั่นส่งผลให้เจ้าหนี้รายใหม่ของอะบิดอสมีเพิ่มมากขึ้น... ส่วนไคเซอร์ก็จะได้รายได้มหาศาลจาก\nการซื้อขายครั้งนี้ค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แล้วก็ยืนยันแล้วว่าผู้ที่เข้าซื้อพันธบัตรที่ให้กู้ยืมสิทธิ์อุตสาหกรรมโครงสร้างพื้นฐานของอะบิดอสก็คือ <เซนต์ เนฟธิส> ค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แถมยังซื้อในราคาสูงกว่าเดิมถึง 4-5 เท่าเลยด้วย..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ ปัญหาก็คือทำไมทางนั้นถึงได้เข้ามาซื้อ... จากนี้ไปนี่คือสิ่งที่เราต้องตรวจสอบค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อายาเนะจัง ช่วยตรวจสอบสิทธิ์ของพันธบัตรที่เนฟธิสซื้อไปให้หน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ๊ะ... ได้ค่ะ...! "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "สิทธิ์พันธบัตรที่ว่ามีตั้งแต่สิทธิ์การเป็นเจ้าของอาคารและโครงสร้างพื้นฐานเฉพาะของเขตปกครองตน\nเองอะบิดอส... สิทธิ์ในการพัฒนา ไปจนถึงสิทธิ์ทุกอย่างในสิ่งอำนวยความสะดวกที่เกี่ยวข้องค่ะ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ได้สิทธิ์อื่นทั้งหมดยกเว้นแต่สิทธิ์การเป็นเจ้าของที่ดินสินะคะ แต่สิทธิ์การเป็นเจ้าของที่ดินก็คงจะเป็น\nของไคเซอร์เหมือนเดิม... "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แล้ว <โครงสร้างพื้นฐานเฉพาะ> ที่ว่านี้มีอะไรบ้างเหรอคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ่า... โครงสร้างพื้นฐานด้านการคมนาคมที่มุ่งเป้าเรื่องโลจิสติกส์และสิ่งอำนวยความสะดวกเพิ่มเติมที่\nเกี่ยวข้องค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "โครงสร้างพื้นฐานด้านการคมนาคมและโลจิสติกส์? เขตปกครองตนเองของเรายังมีอะไรแบบนั้นอยู่อีก\nเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "<ทางรถไฟข้ามทะเลทราย> ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "โครงสร้างพื้นฐานที่สอดคล้องกันก็มีแค่ทางรถไฟค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ตะ... แต่ว่า รุ่นพี่โนโนมิ... แต่ตรงนั้นมันไม่ต่างจากพื้นที่ทิ้งร้างที่ยังสร้างไม่เสร็จสมบูรณ์เลยนะ...? ทำไมถึงขายในราคาแพงลิบลิ่วขนาดนั้นล่ะ...?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เท่ากับว่าเนฟธิสมาซื้อคืนธุรกิจของตัวเองในราคาแพงหลายเท่าเอาตอนนี้ด้วยค่ะ..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ทำไมนะ? มีเป้าหมายอะไรกัน?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เรื่องนั้นฉันก็ไม่รู้ค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ระ... หรือว่า...!?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หรือว่า... มีการขุดค้นพบน้ำมันที่นั่นน่ะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ไม่มีหรอก เซริกะจัง ถ้ามันมีน้ำมันที่นั่นจริงๆ อะบิดอสคงไม่ตกอยู่ในสภาพแบบนี้หรอก"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หรือว่าจะเจอแร่ธาตุหายากที่เป็นที่พูดถึงตอนนี้... หรือจะเป็นเจอร์เมเนียมอะไรทำนองนั้น..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เซริกะจังนี่ก็~ ชอบทำตัวน่ารักแล้วมาพร้อมความคิดแปลกๆ แบบนี้อยู่เรื่อยเลย สมัยก่อนน่ะ ลุงคนนี้ไปพลิกแผ่นดินหามาหมดแล้วละว่ามีอะไรที่ทำเงินได้บ้าง"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่ก็ไม่มีอะไรเลย ทั้งน้ำมัน ทรัพยากรใต้ดินที่มีค่า แร่หายาก เจอร์เมเนียมอะไรนั่นด้วย เขตปกครองตนเองของเราไม่มีอะไรเลย อีกอย่าง เจอร์เมเนียมก็ไม่ได้แพงด้วยนะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ละ... แล้วคนพวกนั้นมาทำแบบนี้ทำไมล่ะ?"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เรื่องนั้นเรายังไม่รู้กันหรอก อืม..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "สัญญาณเตือน?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะ... อะไรน่ะ จู่ๆ ก็มีสัญญาณเตือน!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มีผู้บุกรุกค่ะ! พบปฏิกิริยาจากระเบิดในเขตปกครองตนเอง!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อย่าบอกนะว่าเป็นพวกไคเซอร์ คอร์เปอเรชั่น...?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มะ... ไม่ใช่ค่ะ! รูปแบบของการระเบิด... ไม่ใช่เป็นการโจมตี..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "เหมือนการก่อสร้างมากกว่างั้นเหรอ? ดังมาจากเขตขุดค้นเหรอ อายาเนะจัง?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ไม่ใช่ค่ะ ตำแหน่งไม่ได้อยู่ที่เขตขุดค้น... แต่เป็นอีกฝั่งไปเลยค่ะ สักครู่นะคะ! "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ได้ข้อมูลแล้วค่ะ! ปะ... เป็นกลุ่มนักเรียนจากโรงเรียนอื่นค่ะ...! มีหลายสิบคนเลย... ส่วนโรงเรียนก็... เป็นโรงเรียนที่เราไม่เคยรู้จักมาก่อนค่ะ! "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "พวกนั้นคือ...!!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮะฮะฮ่า! รู้สึกดีชะมัด!"
+    },
+    {
+      "Text": "ตอนต่อไป;สถาบันการรถไฟไฮแลนเดอร์"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;不速之客"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "咳咳，咳咳。\n唔，現在……"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "先把這個移到這裡就行了嗎？"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "嗯，這是最後一個倉庫了。\n不過為什麼偏偏在這個時候換倉庫……"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "咳咳，咳咳……這裡好像很久沒用了。"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "就是說啊。\n這個地方原本是做什麼用的啊？"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "聽說是保管跟產學合作相關的機密文件的儲藏室……\n反正就是個保管重要文件的地方吧。"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "以前可能是那樣沒錯，但現在八成已經不重要了吧。\n畢竟如果是重要文件，怎麼可能這樣隨便亂放呢？"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "總之就把這些文件箱搬到銷毀室吧。"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "可以把箱子打開看看裡面裝了什麼嗎？"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "哎呀～都沒時間了，何必還做這種事呢？動作快。"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "是……咦，咦？"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "嗯？這，這是……？\n快躲開！層架的柱子斷了……！"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "搞，搞什麼！？你碰了什麼嗎？"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "我沒有碰！原本還好好的，結果就突然……！"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "嗚哇……差點就受傷了……"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "怎，怎麼回事？鋼架怎麼會突然斷了……"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "唉，這下該怎麼收拾……"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "嗯？這是什麼……？"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "也太衰了吧。\n話說那是什麼？"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "好像是箱子裡的資料……"
+    },
+    {
+      "Name": "高地人鐵道學生A",
+      "Text": "買賣契約……？阿拜多斯高中……？"
+    },
+    {
+      "Name": "高地人鐵道學生B",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "這裡是……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那個人……那個副學生會長……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "都只剩下一個人了……怎麼還不……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……哼嗯？"
+    },
+    {
+      "Name": "星野",
+      "Text": "奇怪……總覺得有人在看我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "是我的錯覺嗎……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "呼……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……差，差點就被發現了……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "居然在這裡也能感覺得到……？\n呼……雖然有聽說過，沒想到真的……"
+    },
+    {
+      "Name": "星野",
+      "Text": "你聽說過什麼？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……咦，就是那位叫作星野的……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "嘿～？怎麼？你知道我的名字啊？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "啊，那個……我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "你是誰？找我有事嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我，我是……"
+    },
+    {
+      "Name": "星野",
+      "Text": "還是你是其他自治區的學園派來打探的？\n報上你的所屬跟年級。"
+    },
+    {
+      "Name": "星野",
+      "Text": "你好像知道我的一些事情，所以應該很清楚吧？\n──就算你年紀比我大，我也不會手下留情。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……嗯？\n不，不是那樣的……"
+    },
+    {
+      "Name": "星野",
+      "Text": "等等……那個校徽……好像在哪看過……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "是，是的。\n我也是……阿拜多斯自治區的學生……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "而且我還只是國中生。\n雖然馬上就要畢業了……"
+    },
+    {
+      "Name": "星野",
+      "Text": "什麼～？你是國中生……？\n真的嗎？怎麼看起來比我還像前輩！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "啊，啊哈哈……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……對了，我想起來了。\n是私立奈芙蒂斯中學對吧？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "啊，那，那個……"
+    },
+    {
+      "Name": "星野",
+      "Text": "不過有點奇怪……奈芙蒂斯的總部早就搬離自治區了吧？\n他們旗下的學校應該也已經廢校了才對。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "在我畢業之後，我的國中也會廢校……我是最後一屆畢業生……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……私立奈芙蒂斯中學。"
+    },
+    {
+      "Name": "星野",
+      "Text": "奈芙蒂斯集團旗下的頂尖菁英學校。"
+    },
+    {
+      "Name": "星野",
+      "Text": "我聽說奈芙蒂斯集團的繼承人還在念國小還是國中……哼～原來如此。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "原來你還沒離開自治區啊，十六夜野乃美同學？"
+    },
+    {
+      "Name": "星野",
+      "Text": "還是馬上就要離開了？\n雖然對我來說都無所謂。"
+    },
+    {
+      "Name": "星野",
+      "Text": "那個惡名昭彰的奈芙蒂斯集團千金找我有什麼事？\n為什麼要來這所學校？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我，我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "勸你最好謹慎回答哦？\n要是奈芙蒂斯打算對這所學校出手……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……！！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "就算你是奈芙蒂斯的千金，我也不保證你的光環會安然無恙。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "對……對不起……我……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……說得太過分了嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "奈芙蒂斯……"
+    },
+    {
+      "Text": "[s]「如果是奈芙蒂斯集團……」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "綾音醬，怎麼了嗎？\n奈芙蒂斯的那些傢伙買我們的債券會有什麼問題？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那個……"
+    },
+    {
+      "Name": "星野",
+      "Text": "聖奈芙蒂斯公司，或者說奈芙蒂斯集團……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……是一間從很久以前，就以阿拜多斯為據點發展的本土企業。\n某段時期甚至可以說是奇普托斯最成功的公司。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "真的假的？那種企業竟然會在阿拜多斯！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "這也代表曾經的阿拜多斯有多麼繁榮吧。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯……據說阿拜多斯……以前曾是奇普托斯最強大、最龐大的學園。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "足以讓所有學園都感到既畏懼又嚮往……\n歷史最悠久、最強大、最偉大的學園……指的就是以前的阿拜多斯。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "雖然這都是在氣候異常發生之前，非常久遠的故事～♧"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……至於聖奈芙蒂斯公司，則是與阿拜多斯一同經歷全盛時期的本土企業。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "然而……由於氣候異常造成沙漠化加速，奈芙蒂斯和阿拜多斯一同面臨了衰敗。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "為了「沙漠橫貫鐵路」這個失敗的事業而勉強籌措資金……被逼到破產邊緣。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "後來這項事業遭到中止，勉強籌措而來的資金成為了經濟危機的炸彈，\n對走向沒落的阿拜多斯造成了難以挽回的打擊……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "由於此事引發的連鎖效應，學生和居民們開始逃離阿拜多斯……\n而阿拜多斯學生會也開始硬著頭皮借錢……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "最終……奈芙蒂斯清算旗下所有事業，離開了阿拜多斯。"
+    },
+    {
+      "Name": "星野",
+      "Text": "是啊～沒錯。\n從我一年級的時候開始，自治區內就幾乎看不到奈芙蒂斯的痕跡了。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "所以意思就是奈芙蒂斯的事業搞垮了我們的自治區嗎！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "不是這樣的，茜香醬。\n奈芙蒂斯只是阿拜多斯沒落的原因之一而已。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不過……要不是因為奈芙蒂斯的錯誤決定，阿拜多斯應該有很多機會可以克服危機。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "從結果來看，奈芙蒂斯的確是造成阿拜多斯沒落的罪魁禍首。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "奈芙蒂斯就是禍害阿拜多斯的兇手……\n是導致阿拜多斯沒落的始作俑者……同時……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "也是我的家族所經營的事業。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什，什麼！？"
+    },
+    {
+      "Name": "星野",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我……是奈芙蒂斯集團的人。"
+    },
+    {
+      "Text": "[s]「野乃美……」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……果然沒錯。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "綾，綾音醬？你早就知道了嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "沒有……不過想想前輩的金卡，大概就能猜到了……而且……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "而且──那部列車，可以說是加速阿拜多斯衰退的契機……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "如果它能為拯救世界派上用場……那就再好不過了♧"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "當我看見野乃美前輩連上廢棄的沙漠橫貫鐵路系統的時候，我心裡就大致能確定了。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "是，是嗎？所以只有我不知道？\n星野前輩知道這件事嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊……還好白子前輩看起來也不知道。"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔，嗯。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不過前輩為什麼要隱瞞這件事呢？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那，那個……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不……仔細想想，這種事情本來就沒必要刻意提起對吧……？\n對不起，是我神經太大條了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "別這麼說，茜香醬……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不過就算奈芙蒂斯集團離開了阿拜多斯，野乃美前輩還是留在這裡呢？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "先整理一下目前的狀況吧！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "凱薩公司今天透過債券市場，出售了其持有約45%的阿拜多斯債權。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "結果造成阿拜多斯出現許多新的債權人……而凱薩則從中獲得了龐大的利益。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "目前已確認「聖奈芙蒂斯」集團──\n在市場上大量收購了以阿拜多斯基礎建設產業為擔[ruby=Derivatives Linked Bond]保的DLB。　[/ruby]"
+    },
+    {
+      "Name": "綾音",
+      "Text": "價格比原本的金額多出了4到5倍……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯，但問題是進行這些交易的原因……得調查一下才行。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "綾音醬，可以請你分析奈芙蒂斯藉由收購DLB獲得的權利嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊，嗯……！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……該債券擔保的，是阿拜多斯自治區內特定設施和基礎設施的所有權、開發權，\n以及其附屬設施的所有權利……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "也就是除了土地所有權以外的所有權利呢。\n也對，土地的所有權依舊是凱薩所有……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那「特定設施」包含了什麼呢？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "包含……用於物流的交通基礎建設，還有相關的附加設施……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "用於物流的交通基礎建設……？\n自治區裡還有那種東西嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……「沙漠橫貫鐵路」。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "除了那個之外，沒有相符的基礎設施了……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "不，不過野乃美前輩，那不是還沒完工就被放棄了嗎……？\n居然花大錢買那種東西……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "而且這也代表……奈芙蒂斯以數倍的價格，重新買回了他們曾經放棄的事業……"
+    },
+    {
+      "Name": "白子",
+      "Text": "目的是什麼？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……我也不清楚。\n究竟為什麼要做這種事……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "難，難道說……！！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "是不是……在那裡發現了石油之類的東西？"
+    },
+    {
+      "Name": "星野",
+      "Text": "不是不是，茜香醬。\n要是有那種東西的話，阿拜多斯就不會變成這副德性了。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊，還是發現了最近很流行的稀土類之類的東西……像是鍺之類的……"
+    },
+    {
+      "Name": "星野",
+      "Text": "唔嘿～茜香醬果然在某些地方很可愛呢。\n看起來值錢的東西已經被大叔我全都找遍了哦。"
+    },
+    {
+      "Name": "星野",
+      "Text": "不過卻什麼都沒有找到。\n無論是石油、昂貴的地下資源、稀有礦物、鍺……自治區裡什麼都沒有。\n話說鍺不是很便宜嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "那，那他們為什麼要這麼做啊？"
+    },
+    {
+      "Name": "星野",
+      "Text": "這點我也想不通呢。唔嗯……"
+    },
+    {
+      "Name": "白子",
+      "Text": "警報聲？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "怎，怎麼這麼突然！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "有入侵者！自治區出現了爆炸反應！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "難道是凱薩公司……！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "不，不是的！爆炸的模式與其說是攻擊……"
+    },
+    {
+      "Name": "星野",
+      "Text": "好像更接近施工炸彈？\n綾音醬，反應是出現在挖掘地帶嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "不，位置並不在挖掘地帶……而是在別的方向。\n請稍等！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "確認完畢！是其他學園的學生……！\n規模有數十人……是我們沒看過的學園！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "確認到了！他們是……！！"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈哈哈！還挺不錯的嘛？"
+    },
+    {
+      "Text": "下一話;高地人鐵道學園"
+    }
+  ]
+}

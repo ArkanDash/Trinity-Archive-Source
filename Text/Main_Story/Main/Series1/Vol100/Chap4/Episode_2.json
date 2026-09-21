@@ -1,0 +1,2587 @@
+{
+  "TitleJP": "抵抗（１）",
+  "TitleKR": "저항 1",
+  "TitleEN": "Resistance 1",
+  "TitleTH": "ต่อต้าน 1",
+  "TitleTW": "抵抗（１）",
+  "DescJP": "リオによってなんとか自爆シーケンスを食い止めることに成功した一同は、ウトナピシュティムへのハッキングを止めるべく作戦を立てる。それぞれの願いを乗せた、最後の作戦が開始するのだった。",
+  "DescKR": "당장의 파멸은 막았지만, 여전히 위태로운 상황. 우트나피쉬팀의 자폭을 막기 위해 다 함께 힘을 합친다.",
+  "DescEN": "Though the immediate disaster has been averted, Kivotos' future still teeters on the precipice. Everyone comes together to halt Utnapishtim's self-destruction sequence.",
+  "DescTH": "แม้ว่าจะขัดขวางความเสียหายได้ทันที แต่สถานการณ์ยังน่าเป็นห่วง ทุกคนรวมพลังเพื่อขัดขวางการระเบิดตัวเองของอุตนาพิชทิม",
+  "DescTW": "雖然阻止了眼前的破滅，但依舊是岌岌可危的狀況。為了防止生命守護者自爆，大家齊心協力共同合作。",
+  "DialogJP": [
+    {
+      "Text": "第2話;抵抗（１）"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あ、アル様……また空が……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "これ、ちょっとヤバいんじゃな～い？"
+    },
+    {
+      "Name": "アル",
+      "Text": "……急ぐわよ。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "アルちゃん……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "今、先生とカヨコが頑張っているのよ！！"
+    },
+    {
+      "Name": "アル",
+      "Text": "私達が立ち止まってどうするのよ！\nそんなんじゃ、二人に顔向けできないじゃない！！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あ、アル様……！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "……へぇ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "さ、行くわよ！今私達にできることをやらなくちゃ！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "は、はい！！どこまでもついていきます、アル様！！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "……やっぱ、ここぞって時のアルちゃんはカッコイイ♪"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……遠方に不自然な光を確認。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "データ上、測定不能な位置……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……万が一に備え、調査を実行します。"
+    },
+    {
+      "Name": "ヒナ",
+      "Text": "――状況は？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……再びサンクトゥムが出現したようです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "むぅ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "せ、先生……大丈夫かな……。"
+    },
+    {
+      "Name": "ヒナ",
+      "Text": "……了解、急ごう。敵の出現に備えて。"
+    },
+    {
+      "Name": "ヒナ",
+      "Text": "狙撃手は次の位置で待機。RABBIT小隊長は指揮をお願い。\nアリスがいない分、火力支援は私が担当する。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "了解。やってみよう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "了解です。"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "繰り返します。搭乗者は急いで避難してください。\n17秒後、「自爆シーケンス」が――"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ひ、ヒマリ先輩……これって、本当に止められるんですよね？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "少々、お待ち下さい……。"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "搭乗者は急いで避難してください。\n9秒後、「自爆シーケンス」が――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "くっ…………これ以上は、流石の私でも……もう……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――諦めるのはまだ早いわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "り、リオ！？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "「これ以上はもう？」――「天才」の貴女らしくない台詞ね、ヒマリ。"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "9秒後、「自爆シーケンス」が発動――9秒後、「自爆シーケンス」が発動――9秒後、「自爆シーケンス」が発動――"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "と……止まった？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "「多次元解釈」の抑制機能を利用して、強制的にウトナピシュティムを停止させたわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――ただ、あくまで足止めに過ぎない。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……そうですね。抑制が解けてしまえば、いずれにせよ船は深刻な被害を受けるでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――ですが、時間稼ぎにはなりますね。ありがとうございます、リオ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "どういたしまして……さあ、足止めが効いている間に解決しなくては。\n厄介なシステムとはいえ、攻略法は必ずあるはずよ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――でも、私一人での攻略は不可能。\nだから、不本意かもしれないけれど皆の力を貸してちょうだい。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……それは、[ruby= ・    ・    ・    ・    ・    ・    ・    ・ ]あなたらしくない[/ruby]台詞ですね、リオ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね――これだけの規模の船ですから、命令を中継する「端末」がどこかに存在しているはず。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "であれば、中継端末を破壊する事で、この状態を解除できると思います。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "物理的な通信を断つ手法ね。もちろん、それで解決はできるでしょうけれど――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ、一時的しのぎにしかなりません。\n予備の「端末」もあるでしょうし……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですが、その間にウトナピシュティムのシステムを復旧させ、\n「箱舟」の管制権を取り戻せれば……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「箱舟」の「自爆シーケンス」を起動できます。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そうね……そうすれば、念のために用意しておいた「脱出シーケンス」も使えるようになるはずよ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……あなたという人は、本当に。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……不要だったのなら、謝罪するわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いいえ。あなたの事は嫌いなままですが――今回ばかりは助かりましたよ、リオ。\nチーちゃん！「端末」の位置は分かりますか？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……了解、いま確認中。\n「箱舟」内部の通信が集中している場所が分かれば――"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ハードウェアの探知はハッキングじゃ限度があるよ！\n私たちの専門分野じゃなくない！？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "そうですね……正確な探知を行うには、「箱舟」そのものの設計図が必要です。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……エンジニア部の力が必要かな。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "――そういう事なら、任せてくれ。\n今確認しているよ。"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "「箱舟」の設計図を解析、構造図と「箱舟」の3D空間スキャンデータを分析中……"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "はい。通信量が多い場所から順に、ですね！\n――もうしばらくお待ちを！"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "リーダー……。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "不安なのは同じだ。\nだが――"
+    },
+    {
+      "Name": "アツコ",
+      "Text": "うん……信じて待とう。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "うーん……。"
+    },
+    {
+      "Name": "マコト",
+      "Text": "キキキッ……そう緊張するな。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "だ、誰が緊張してるって！？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "はぁ……はぁ……。"
+    },
+    {
+      "Text": "[ns] \"まだ、終わってないよ。\""
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……うん。まだ、いける。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "……見つけた！信号、ここから出てる！"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "チーちゃん、位置情報を送ったよ！\n「シャル・カリ・シャッリ回廊」だ！"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "「箱舟」の最下層セクションです！！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "位置を確認したよ、ありがとう。\nナビゲーションデータに切り替えて転送するね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ヒマリ、これを破壊すれば、箱舟との接続を解除できるはず。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「箱舟」最下層セクションに「シャル・カリ・シャッリ回廊」を確認。\nこれは……ここから1,200mほど下りなくてはなりませんね……。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "その上、そこのセキュリティシステムが難解でね……！\n今から解除方法を説明する――"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "私にお任せください…………"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "…………システムの全容、把握しました！"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "いつの間に……！？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "一度状況を整理いたします……「箱舟」の最下層「シャル・カリ・シャッリ回廊」にある「端末」を破壊するためには、セキュリティシステムを突破しなくてはなりません。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "現在、ウトナピシュティムはハッキングされた状態……ここからセキュリティシステムを突破するのは不可能です。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "まだ可能性があるとすれば……「箱舟」最東端と、最西端のセクションに存在する解除装置を同時に破壊すること。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "上手くいけば、約5秒ほどセキュリティシステムを停止させることができます。\nその間に端末を破壊すれば、あるいは――"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "5秒……？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ああもう！それしか無いのでしたら、すぐにチームを分けましょう。\n箱舟の東と西、最下層を担当するメンバーを――"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "問題は最下層担当です。\n1,200mをこの短時間で駆け抜けられる方なんて――"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "……うふふっ。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "フウカさん。ついに、やってまいりましたわ。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "え？何が？……まさか、アレじゃないよね？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "ええ、その通り。アレですよ……\nついに、フウカさんの才能が花開く時です。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "私は知っております……\nフウカさんが、どれほど自身の才能を磨き、努力してきたかを――"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "日々の鍛錬と精進を怠らない、その姿勢――"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "そう！！その才能――実力を、ついに発揮する時が来たのです！\nこれを運命といわずしてなんと言うのでしょう！！"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "はい、運転のお時間です～★"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "あ！給食部の部長が一番得意なやつだね！！"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "こういう時の適任といえば、フウカよね。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "ハルナ……？これ、わざとだよね？そうなんだよね？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "うふふっ、故意かどうかなど、さして重要ではありませんわ。\nフウカさんは、このために船に乗ったのでしょう？"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "……いや、宇宙食は？"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "とにかく！\n破壊は私たちに任せてちょうだい！！"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "うんうん！セキュリティシステムの方はよろしくね～！！"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "はいはい、わかったよ。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "東の解除装置は私たちが担当するわ！"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "はい！ここから向かうのが一番早いので☆"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "ささっと片付けちゃおっか。\n先生とシロコちゃんのところに行かないとだからね。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "はい！では、私がサポートします。\n行きましょう！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "では、西はアリスたちに任せてください！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ちょっ……ゲーム開発部！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "は、はい……！た、たぶんわたし達が、一番近いと思います……。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "そう……なら、私が案内するわ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "よし、行くよ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お、お姉ちゃん、待って……！"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "アリス、本当に大丈夫なんですね？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！問題ありません！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それに、「光の剣：アトラ・ハシースのスーパーノヴァ」もまだ壊れていませんから。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……その名前になったのですね。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい。もし良かったら、後でヒマリ先輩に見てもらいたいです。\nもしかしたら何か――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね。何か、お力になれるかもしれません……\nでは、気をつけてくださいね、アリス。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！行ってきます、ヒマリ先輩！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "フウカさん、準備はよろしいでしょうか？"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "はぁ……何でこんなことに……"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "私たちも準備OKだよ～！"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "「箱舟」でひと暴れできるなんて！ドキドキしちゃいます★"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "全員乗ったなら早く出発するわよ！時間がないんだってば！！"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "はぁ……1,200m下まで行くんだっけ……？\nまぁ、いつものデリバリーだと思えば――"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "さあ、出発ですよフウカさん！\n全てを終えたら最後に「グッ！」と親指を立てるのです！"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "イヤ。絶対やらないわよ。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "それじゃ……行くわよ！！"
+    },
+    {
+      "Name": "一同",
+      "Text": "うりゃああああああ――――！！！"
+    },
+    {
+      "Text": "次回;抵抗（２）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;저항 1"
+    },
+    {
+      "Name": "하루카",
+      "Text": "아, 아루 님…… 또다시 하늘이……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "이, 이거 조금 위험할지도……."
+    },
+    {
+      "Name": "아루",
+      "Text": "……. 흥. 서둘러, 모두."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아루 쨩……?"
+    },
+    {
+      "Name": "아루",
+      "Text": "지금 선생님이랑 카요코가 노력하고 있잖아!!"
+    },
+    {
+      "Name": "아루",
+      "Text": "잠깐 문제가 생겼다고 우리가 허둥대고 있으면 무슨 면목으로 두 사람을 보겠어!!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "아, 아루 님……!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "……헤에. "
+    },
+    {
+      "Name": "아루",
+      "Text": "지금 우리가 할 수 있는 일을 하는 거야! 자, 가자!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "네, 네!! 끝까지 따르겠습니다! 아루 님!!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "……. 역시 중요한 순간엔 멋있단 말이지. 아루 쨩은."
+    },
+    {
+      "Name": "토키",
+      "Text": "……. 저 너머에서 수상한 빛을 확인했습니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "데이터상으로는 아무런 반응이 없는 곳인데……."
+    },
+    {
+      "Name": "토키",
+      "Text": "……혹시 모르니 조사해 보겠습니다."
+    },
+    {
+      "Name": "히나",
+      "Text": "상황은?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……. 다시 성소가 현현하고 있는 것 같습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "끄응……."
+    },
+    {
+      "Name": "미유",
+      "Text": "선생님……. 괜찮은 걸까……."
+    },
+    {
+      "Name": "히나",
+      "Text": "알겠어. 서두르자. 적들이 나타나는 것을 대비한다."
+    },
+    {
+      "Name": "히나",
+      "Text": "저격수는 다음 위치로 가서 대기. RABBIT 소대장은 지휘를 부탁하지. 아리스가 없기 때문에 화력 집중은 내가 맡겠어."
+    },
+    {
+      "Name": "사키",
+      "Text": "그래. 해보자고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "네. 알겠습니다."
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "다시 한번 알려드립니다. 모든 탑승자들은 신속히 탈출하시기 바랍니다. 앞으로 17초 후 자폭 시퀀스 기동……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "히, 히마리 선배…… 이거 멈출 수 있는 거 맞지?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "기, 기다려주세요……!"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "신속히 탈출하시기 바랍니다. 앞으로 9초 후 자폭 시퀀스 기동……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "더, 더 이상은 무리……."
+    },
+    {
+      "Name": "리오",
+      "Text": "포기하지 마!!!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "리, 리오?!"
+    },
+    {
+      "Name": "리오",
+      "Text": "천재인 너답지 않은 말이야, 히마리. "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "9초 후 자폭 시퀀스 기동.……  9초 후 자폭 시퀀스 기동.…… 9초 후 자폭 시퀀스 기동.……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "머, 멎었어……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "다차원해석 억제 기능을 이용해서 강제로 우트나피쉬팀을 정지시켜 놨어."
+    },
+    {
+      "Name": "리오",
+      "Text": "하지만 이것도 임시방편에 불과해. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러네요. 어차피 다차원해석 억제가 끝나면 방주가 도망쳐 버릴 테니까……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "그래도 잠시 시간을 벌긴 했네요."
+    },
+    {
+      "Name": "리오",
+      "Text": "그래. 그동안 이걸 해결해야 해. 절대적 성능의 통제시스템이 여기에 있다고 해도, 반드시 공략법이 있을 거야. "
+    },
+    {
+      "Name": "리오",
+      "Text": "……. 하지만 그건 나 혼자서는 무리겠지. 모두의 도움이 필요해."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 그건 빅 시스터인 당신답지 않은 말이네요. 리오."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그러네요……. 아무리 절대적인 성능의 통제시스템이라고 해도 결국 그 명령을 중계하는 통신단말기가 있어야 해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 단말기를 찾아서 파괴하면 이 강제 연결은 해제될 거예요."
+    },
+    {
+      "Name": "리오",
+      "Text": "해킹에서 이길 수 없으니까 전선을 자르자는 거지? 물론 그러면 되겠지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그건 어디까지나 임시방편, 예비 단말기도 있을 테니까 잠시 시간을 버는 것뿐이죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만…… 그 사이에 우트나피쉬팀의 해킹을 복구하고, 먼저 점령했던 방주의 연산 장치의 통제권을 다시 확보하는 데 성공하면……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아트라하시스의 방주의 <자폭 시퀀스>를 재기동할 수 있어요."
+    },
+    {
+      "Name": "리오",
+      "Text": "그래. 그리고 내가 준비한 <탈출 시퀀스>도 사용할 수 있게 돼."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "리오",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "치 쨩! 방주의 통신단말기의 위치를 찾아줄 수 있어요?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……알겠어. 확인 중이야. 방주의 통신량을 분석해서…… 집중되는 곳을 찾으면……."
+    },
+    {
+      "Name": "마키",
+      "Text": "그치만 하드웨어 장치의 위치라면 우리 해킹으로는 한계가 있어! 이건 우리 전문이 아냐!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "네. 설계 도면과 구조도가 있어야 합니다. 그건……."
+    },
+    {
+      "Name": "하레",
+      "Text": "……엔지니어부, 도움이 필요해."
+    },
+    {
+      "Name": "우타하",
+      "Text": "……. 그래, 들었어. 지금 찾아보는 중이야. "
+    },
+    {
+      "Name": "히비키",
+      "Text": "응. 방주의 설계도를 해석 중이고…… 구조도와 방주의 3D 공간 스캔 데이터를 심층 분석해서……."
+    },
+    {
+      "Name": "코토리",
+      "Text": "네, 통신량이 가장 많은 구역부터 순서대로…… 조, 조금만 기다려 주세요!"
+    },
+    {
+      "Name": "히요리",
+      "Text": "리더……."
+    },
+    {
+      "Name": "사오리",
+      "Text": "그래. 나도 불안해. 하지만……."
+    },
+    {
+      "Name": "아츠코",
+      "Text": "응. 믿고 기다리자."
+    },
+    {
+      "Name": "미사키",
+      "Text": "……."
+    },
+    {
+      "Name": "이오리",
+      "Text": "끄응……."
+    },
+    {
+      "Name": "마코토",
+      "Text": "킥킥킥…… 긴장하지 마라."
+    },
+    {
+      "Name": "이오리",
+      "Text": "누, 누가 긴장했다는 거야!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "하아…… 하아……. "
+    },
+    {
+      "Text": "[ns] \"아니, 아직 끝난 게 아니야.\""
+    },
+    {
+      "Name": "시로코",
+      "Text": "……. 응. 아직, 아직이야."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "히비키",
+      "Text": "찾았어, 여기야! 해킹 신호는 이곳을 통해 전달되고 있어!"
+    },
+    {
+      "Name": "우타하",
+      "Text": "치히로. 지금 위치 전달할게! <사르칼리샤리의 회랑>이라는 곳이야!"
+    },
+    {
+      "Name": "코토리",
+      "Text": "방주 최하층의 섹터예요!!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "위치 확인했어! 지금 네비게이션 데이터로 전환해서 전송할게!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "저걸 파괴하면 우트나피쉬팀과 방주의 강제 연결이 해제될 거야!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 확인했어요. 방주 최하층 섹터의 <사르칼리샤리의 회랑>. 여기서부터 약 1200미터를 내려가야 하네요."
+    },
+    {
+      "Name": "우타하",
+      "Text": "그런데 저 섹터의 보안 시스템을 해제하는 게 꽤 복잡해!! 지금부터 방법을 설명할 테니까……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "저에게 주세요!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……확인했어요!!"
+    },
+    {
+      "Name": "우타하",
+      "Text": "벌써?!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "정리할게요. 방주 최하층 <사르칼리샤리의 회랑>의 통신단말기에 도착하려면, 먼저 그 앞을 가로막고 있는 거대 방벽부터 열어야 해요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "지금 우트나피쉬팀은 해킹당한 상태. 여기서는 그 방벽을 여는 건 불가능해요. "
+    },
+    {
+      "Name": "하나코",
+      "Text": "유일한 방법은 방주의 각 동쪽 끝 섹터와 서쪽 끝 섹터에 위치한 해제 장치 두 개를 동시에 파괴하는 거예요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그러면 방벽이 약 5초 정도 열릴 거예요! 그 안에 통신 단말기를 파괴하면 돼요!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "5초라고……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "시간이 없어요! 지금 바로 팀을 세 개로 나눠서 움직여야 해요. 방주의 동쪽과 서쪽, 그리고 최하층으로!!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……동쪽과 서쪽은 어떻게든 한다고 해도 문제는 최하층이에요. 1200미터 거리를 이 시간 안에 간다는 건……."
+    },
+    {
+      "Name": "하루나",
+      "Text": "……후후후후후."
+    },
+    {
+      "Name": "하루나",
+      "Text": "후우카 씨, 드디어 때가 왔습니다."
+    },
+    {
+      "Name": "후우카",
+      "Text": "응? 무슨 때? ……설마 내가 생각하는 그건 아니지?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "물론 그거 맞습니다. 후우카 씨. 드디어 후우카 씨의 재능이 세상에 빛날 순간이 와 버린 거죠."
+    },
+    {
+      "Name": "하루나",
+      "Text": "저는 알고 있습니다. 후우카 씨가 얼마나 오랫동안 자신의 재능을 갈고 닦아왔는지……."
+    },
+    {
+      "Name": "하루나",
+      "Text": "매일 매일 훈련하고 개선하고 실패를 반복해 온 그 노력, 그 집념이 어느 정도인지……."
+    },
+    {
+      "Name": "하루나",
+      "Text": "네!! 그 재능을, 그 노력을, 그 실력을 유감없이 발휘할 때가 온 것입니다!! 이것이야말로 운명!!"
+    },
+    {
+      "Name": "아카리",
+      "Text": "즉, 운전 말이죠~★"
+    },
+    {
+      "Name": "이즈미",
+      "Text": "맞아!! 급양부장이 세상에서 제일 잘하는 거! 바로 그거잖아!"
+    },
+    {
+      "Name": "준코",
+      "Text": "그래, 지금 이 상황에서 최고의 전문가라면 후우카밖에 없으니까."
+    },
+    {
+      "Name": "후우카",
+      "Text": "저기, 하루나? 이거 일부러 그러는 거지? 그렇지?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "그런 건 중요하지 않습니다! 후우카 씨는 사실 지금 이걸 위해서 이 배에 타고 있었던 거니까요!!"
+    },
+    {
+      "Name": "후우카",
+      "Text": "우주 식량 아니었어?"
+    },
+    {
+      "Name": "준코",
+      "Text": "아무튼!! 그거 파괴하는 건 우리가 맡을 테니까!! "
+    },
+    {
+      "Name": "이즈미",
+      "Text": "그래! 나머지는 방벽을 열어줘!!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "오케이 알겠어. 이해했다구."
+    },
+    {
+      "Name": "세리카",
+      "Text": "그래! 그럼 동쪽의 비상 해제 장치는 우리가 맡을게."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네! 여기서 저희가 제일 가깝거든요!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "얼른 해치우자고!! 빨리 선생과 시로코 쨩을 도우러 가야 하니까!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네! 제가 오퍼레이트하겠습니다! 가시죠!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 그럼 서쪽 끝은 저희가 맡겠습니다!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "게임개발부?!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "네, 네! 저희라면 빠르게 거기까지 도달할 수 있을 거예요……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "알겠어! 그럼 내가 가이드할게!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "좋아, 가자!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "어, 언니 같이 가……!!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아리스, 괜찮은 거죠?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 문제없습니다! "
+    },
+    {
+      "Name": "아리스",
+      "Text": "아, 그리고 아리스가 만들었던 <빛의 검: 아트라하시스의 슈퍼 노바>는 아직 부서지지 않고 있습니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……그 이름으로 확정인 거군요?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. 혹시 모르니까 히마리 선배가 확인해 주시면 좋을 것 같습니다. 어쩌면……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 어쩌면 도움이 될 수도……. 알겠어요. 제가 가서 볼게요. 그럼 아리스. 몸조심하세요."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "준비됐나요, 후우카 씨?"
+    },
+    {
+      "Name": "후우카",
+      "Text": "하아…… 어쩌다가 왜 이런 짓까지……."
+    },
+    {
+      "Name": "이즈미",
+      "Text": "우리도 탑승 완료~ "
+    },
+    {
+      "Name": "아카리",
+      "Text": "두근두근하네요, 지금부터 와장창★ 하러 가는 거죠?"
+    },
+    {
+      "Name": "준코",
+      "Text": "다 탔으면 빨리 출발해!! 시간 없다고!"
+    },
+    {
+      "Name": "후우카",
+      "Text": "하아…… 1200미터 아래까지 가는 거지……? 뭐, 늘 하던 대로 배달한다고 생각하고……."
+    },
+    {
+      "Name": "하루나",
+      "Text": "그럼 출발하시죠, 후우카 씨. 그리고 모든 것을 성공시킨 후 마지막에 엄지 척-! 을 하는 겁니다!"
+    },
+    {
+      "Name": "후우카",
+      "Text": "아니, 그딴 거 하지마. 하면 화낼 거야. 진짜로."
+    },
+    {
+      "Name": "후우카",
+      "Text": "그럼 간다아아아---!!"
+    },
+    {
+      "Name": "모두",
+      "Text": "우와아아아아--------!!!"
+    },
+    {
+      "Text": "다음화;저항 2"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2; Resistance 1"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "A-Aru. Look at the sky."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "It looks like things are gonna get dicey here again."
+    },
+    {
+      "Name": "Aru",
+      "Text": "...What about it? C'mon, you two!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "A-Aru?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Sensei and Kayoko are up there right now, pushing with all their might!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "If you're going to turn tail and cry over a little bump in the road like this, don't even think about facing them ever again!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Wow! Aru!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Heehee. "
+    },
+    {
+      "Name": "Aru",
+      "Text": "We're going to do everything we can from here!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Yes, yes! I'll follow you until the end, Aru!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "...Aru is so cool in critical moments."
+    },
+    {
+      "Name": "Toki",
+      "Text": "...What was that light?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I don't see any response in the data..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "...I should investigate just in case."
+    },
+    {
+      "Name": "Hina",
+      "Text": "What's the situation?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I think the sanctums are manifesting again."
+    },
+    {
+      "Name": "Saki",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "D-Do you think...Sensei's o-okay?"
+    },
+    {
+      "Name": "Hina",
+      "Text": "We don't have time to worry about that. Right now, we need to prepare for an attack."
+    },
+    {
+      "Name": "Hina",
+      "Text": "Sniper, go to the next location and wait. I need the RABBIT Squad leader to take the lead. Since Aris isn't here, I'll deal with the concentrated fire."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We'll do what we can."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes. Understood!"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "Repeat. All passengers are requested to evacuate quickly. Initiating self-destruct sequence in 17 seconds..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "H-Himari... Can we stop this?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "G-Give me a moment...!"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "Please evacuate quickly. Initiating self-destruct sequence in 9 seconds..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I-I can't... I've been defeated..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Don't give up!!!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "R-Rio?!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Is that the way a genius hacker talks? Himari? "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "Initiating self-destruct sequence in 9 seconds... Initiating self-destruct sequence in 9 seconds... Initiating self-destruct sequence in 9 seconds..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "D-Did it stop...?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I forcibly stopped Utnapishtim using the multidimensional analysis suppression function."
+    },
+    {
+      "Name": "Rio",
+      "Text": "But this is only a temporary measure."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I see. After all, the Ark will speed away after the multidimensional analysis suppression is over..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It did buy some time though."
+    },
+    {
+      "Name": "Rio",
+      "Text": "In the meantime, we have to figure this out. Even if it has a control system with impeccable performance, no program is perfect. There has to be a strategy to beat it. "
+    },
+    {
+      "Name": "Rio",
+      "Text": "I can't do it on my own. I'll need help."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I never thought I'd hear those words come out of your mouth, Big Sister."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Right... Even a control system that powerful should have a communication terminal that relays commands."
+    },
+    {
+      "Name": "Himari",
+      "Text": "If we find and destroy that terminal, the forced connection will be broken."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We can't stop the hack, so we cut the wires instead? That could work, but..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, it's only a temporary measure. There will be a spare terminal, so again, it's only buying time."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But...if we successfully recover Utnapishtim from the hack and secure control of the Ark's computational device..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We can restart the Ark of Atrahasis' self-destruct sequence."
+    },
+    {
+      "Name": "Rio",
+      "Text": "And the escape sequence I prepared will also become usable."
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Chi! Can you find the location of the Ark's communication terminal?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Already looking. I'm analyzing the Ark's traffic volume...to find where the concentration is..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "We can follow the calls, but finding the actual physical hardware is way beyond our abilities!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "We would need a blueprint and structural diagram."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...We'd need the Engineering Department's help."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "...Yes, I heard. I'm looking now."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "I'm doing my best... I have to interpret the Ark's blueprint... Analyzing the 3D spatial scan of the structural diagram is no walk in the park."
+    },
+    {
+      "Name": "Kotori",
+      "Text": "Yes, we're going in order, starting from the area with the highest traffic volume... P-Please give us a moment! We're going as fast as we can!"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Leader..."
+    },
+    {
+      "Name": "Saori",
+      "Text": "I know. I feel the same way. But..."
+    },
+    {
+      "Name": "Atsuko",
+      "Text": "Yes. Let's place our faith in them and wait."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "..."
+    },
+    {
+      "Name": "Iori",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "Heehee... Don't quiver now."
+    },
+    {
+      "Name": "Iori",
+      "Text": "Wh-Who says I'm quivering?!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "*pant* ... *pant*"
+    },
+    {
+      "Text": "[s] \"No, it's not over yet.\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We're not giving up. Not now. Not ever."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Got it! All of the hacking signals are passing through this area!"
+    },
+    {
+      "Name": "Utaha",
+      "Text": "I'm sending you the location now, Chihiro! It's a place called the Shar-Kali-Sharri Corridor!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "It's the sector at the very bottom of the Ark!!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Great work. I've got it. I'm converting it to navigational data and sending now."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "If we destroy that, the forced connection between Utnapishtim and the ark will be removed!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. It's done. The Ark's lowest sector, the Shar-Kali-Sharri Corridor. We have to go down twelve hundred meters from here."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "But disabling that sector's security system is quite complicated! I'll explain how..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Leave it to me!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "...Confirmed!"
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Already?!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I'll summarize. To reach the communication terminal in the Shar-Kali-Sharri Corridor at the lowest floor of the Ark, we must first open a huge barrier blocking the way."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Utnapishtim has been hacked, so it's impossible to open the barrier from here."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "The only way is to simultaneously destroy the two fail-safes located in the eastern and western sectors of the Ark."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Then the barrier will open for about five seconds, and we can destroy the communication terminal within that time!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "F-Five seconds...?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "It doesn't matter! We just have to do it! Divide into three teams: one go east, another west, and the last to the lowest floor!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Getting to the east and west sides won't be a problem, but the bottom floor... How are we supposed to travel twelve hundred meters within that time frame?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "...Heeheeheehee."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Fuuka. It's finally time."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "What do you mean by time? You better not be thinking what I think you're thinking."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Of course I am. Fuuka, this moment was created to allow you to showcase your talent to the entire world."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "You've been cultivating this talent for so long."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "You've trained every day to improve, despite repeated failure... I know how hard you work..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Yes! It's time to unleash that talent! That effort! That skill! This is destiny!"
+    },
+    {
+      "Name": "Akari",
+      "Text": "It's driving! ★"
+    },
+    {
+      "Name": "Izumi",
+      "Text": "Right! That's what the School Lunch Club president is best at!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "Yeah, you're the number one expert for this situation, Fuuka."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Haruna... Do you live to make my life miserable? Is that what this is?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "You're focusing on the wrong details! Fuuka, you're on this ship for this very moment!"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Not for your stupid space food?!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "Anyway! Destruction is our specialty! We got this! "
+    },
+    {
+      "Name": "Izumi",
+      "Text": "We'll blow things up! The rest of you go open the barrier!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Got it. We're on it."
+    },
+    {
+      "Name": "Serika",
+      "Text": "We'll take care of the emergency fail-safe in the east part!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "We're the closest ones to it right now!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Let's deal with this quickly, and then go help Sensei and Shiroko!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I'll get you guys there!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Then we will take the west side!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "The Game Development Department?!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Y-Yes! We can get there the fastest."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I trust in you. Let me show you the way."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Okay, let's go!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "D-Don't leave without me!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Aris, are you doing okay?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! No problems at all!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Oh, and the Sword of Light: Atrahasis Super Nova has not been destroyed as of yet."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...So that's the name we decided on?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes. Himari, can you please check on it just in case?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "That's probably for the best. I'll check, but take care of yourself, Aris."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Thank you!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Are you ready, Fuuka?"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "*sigh* How in the world did I get roped into this too?"
+    },
+    {
+      "Name": "Izumi",
+      "Text": "We're on board!"
+    },
+    {
+      "Name": "Akari",
+      "Text": "I'm so excited. We're gonna destroy everything!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "If everyone is here, let's go! We don't have time!"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "*sigh* Going down twelve hundred meters...? Well, let's think of this as just another delivery..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Let's go, Fuuka. When everything is successful, give us a thumbs up!"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Don't even try to make me do that. Or I'll actually get mad this time."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Then, let's GOOO!"
+    },
+    {
+      "Name": "All",
+      "Text": "AHHHHHH!"
+    },
+    {
+      "Text": "Next Episode; Resistance 2"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;ต่อต้าน 1"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ทะ... ท่านอารุ...... ท้องฟ้ามัน......"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "บะ... แบบนี้ดูท่าจะอันตรายนะ......"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "....... ฮึ่ม ทุกคนเร่งมือเข้าเถอะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อารุจัง......?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ตอนนี้คุณครูกับคาโยโกะกำลังพยายามอยู่นะ!!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ถ้าเจอปัญหาแค่นี้ก็ลุกลี้ลุกลนกันแล้ว แล้วต่อไปเราจะเอาหน้าที่ไหนไปเจอคนที่พยายามมากกว่าเรา\nกันล่ะ!!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ทะ... ท่านอารุ......!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "... โห"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ตอนนี้เราต้องทำในสิ่งที่พวกเราทำได้! เอาละ ไปกันเถอะ!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ค่ะ ค่ะ!!  ฉันจะทำตามคำสั่งของท่านอารุค่ะ!!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "....... อารุจังเนี่ย เวลาถึงตอนสำคัญๆ ละเท่ขึ้นมาเป็นกองเลยนะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "...... พบแสงแปลกๆ จากข้างนอกนั่นค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "จากข้อมูลแล้ว ที่นั่นเป็นสถานที่ที่ไม่มีการตอบสนองใดๆ......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "...... แต่ยังไงฉันก็จะตรวจสอบเผื่อไว้ค่ะ"
+    },
+    {
+      "Name": "ฮินะ",
+      "Text": "สถานการณ์ตอนนี้ล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "....... ดูเหมือนหอคอยกำลังจะกลับมาอีกครั้งค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮึ่ย......"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คุณครู...... จะไม่เป็นอะไรใช่มั้ย......"
+    },
+    {
+      "Name": "ฮินะ",
+      "Text": "เข้าใจแล้ว เตรียมตั้งรับการปรากฏตัวของศัตรูกัน"
+    },
+    {
+      "Name": "ฮินะ",
+      "Text": "สไนเปอร์ ไปประจำอยู่ในตำแหน่ง หัวหน้ากองทหาร RABBIT ฝากสั่งการด้วย ในเมื่ออาริสึไม่อยู่ที่นี่ ฉันจะคุมการระดมยิงเอง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ได้ มาลุยกันเลย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ รับทราบค่ะ"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "ประกาศให้ทราบอีกครั้ง ขอให้ผู้โดยสารทุกท่านอพยพจากเรือโดยไว เปิดวงจรระเบิดตัวเองในอีก 17 วินาที......."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ระ... รุ่นพี่ฮิมาริ...... เราจะหยุดวงจรนี้ได้ใช่ไหมคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ระ... รอเดี๋ยวค่ะ......!"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "ขอให้อพยพออกจากเรือโดยไว เปิดวงจรระเบิดตัวเองในอีก 9 วินาที......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มะ... ไม่ทันแล้ว......"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อย่ายอมแพ้นะ!!!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ระ... ริโอะ?!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เธอเป็นอัจฉริยะนะ ฮิมาริ "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "เปิดวงจรระเบิดตัวเองในอีก 9 วินาที...... เปิดวงจรระเบิดตัวเองในอีก 9 วินาที...... เปิดวงจรระเบิดตัวเองในอีก 9 วินาที......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ยะ... หยุดแล้วเหรอ......?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันใช้ฟังก์ชันควบคุมการวิเคราะห์พหุมิติเพื่อบังคับให้เรือรบอุตนาพิชทิมหยุดทำงานไว้ก่อน"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่มันก็ได้แค่ชั่วคราวเท่านั้นละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นสินะคะ ถ้าการควบคุมการวิเคราะห์พหุมิติหยุดลง เรืออะทราฮาซิสก็จะหลบรอดไปได้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ยังไงก็ซื้อเวลาไว้ได้อยู่นะคะ......"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่ ระหว่างนั้นเราต้องแก้ปัญหาเรื่องนี้ให้ได้ ถึงแม้ตรงนี้จะเป็นระบบควบคุมสมรรถนะสูงสุด แต่ยังไงมันก็ต้องมีวิธีโจมตี "
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "....... แต่ลำพังฉันคนเดียวคงทำไม่ได้ ฉันต้องการความช่วยเหลือจากทุกคน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "... พูดขอความช่วยเหลือออกมาแบบนั้น ไม่สมกับเป็นบิ๊กซิสเตอร์เลยนะคะ ริโอะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ นั่นสินะคะ...... ถึงจะเป็นระบบควบคุมสมรรถนะสูงสุด แต่สุดท้ายแล้วก็ต้องมีเครื่องปลายทางการ\nสื่อสารที่ส่งผ่านคำสั่งนั้นค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เราต้องหาเครื่องปลายทางแล้วทำลายทิ้งให้ได้ การเชื่อมต่อจะได้ถูกยกเลิกค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เราแก้ปัญหาด้วยการแฮ็กไม่ได้ ก็เลยจะให้ตัดสายไฟงั้นสินะ? ที่จริงมันก็ได้อยู่หรอก......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ แต่มันก็คงเป็นแค่การซื้อเวลาเพื่อแก้ปัญหาเฉพาะหน้า ยังไงซะมันก็น่าจะมีเครื่องปลายทาง\nเครื่องสำรองอยู่ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ว่า...... หากในระหว่างนั้นเราฟื้นฟูการถูกแฮ็กของอุตนาพิชทิมได้ แล้วยึดหน่วยประมวลผลของเรือ\nอะทราฮาซิสไว้ได้สำเร็จละก็......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เราก็จะสามารถเปิด <วงจรระเบิดตัวเอง> ของเรืออะทราฮาซิสได้ค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่ และถ้าเป็นแบบนั้น เราก็จะใช้ <วงจรหลบหนี> ที่ฉันเตรียมไว้ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "......."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จี้จัง! ช่วยหาตำแหน่งเครื่องปลายทางการสื่อสารของเรืออะทราฮาซิสให้หน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "... ได้เลย กำลังหาให้อยู่พอดี ต้องวิเคราะห์การสื่อสารของเรือ... และก็หาจุดที่มีการสื่อสารมากที่สุด..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ถ้าเป็นการหาตำแหน่งของอุปกรณ์ฮาร์ดแวร์ แค่การแฮ็กของพวกเราไม่น่าจะได้ผล เรื่องแบบนั้นเราไม่\nชำนาญหรอก!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ใช่ค่ะ เราต้องมีพิมพ์เขียวและแผนที่โครงสร้างค่ะ นั่นแปลว่า......"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "...... เราต้องการความช่วยเหลือของชมรมวิศวกรรม"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "....... อื้ม ได้ยินแล้วละ ตอนนี้กำลังหาให้อยู่เลย"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อื้ม ฉันกำลังดูพิมพ์เขียวของเรืออะทราฮาซิส..... แล้วก็วิเคราะห์เชิงลึกเกี่ยวกับข้อมูลพื้นที่ 3 มิติของ\nเรืออะทราฮาซิส......"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ต้องเรียงลำดับโซนที่พบการสื่อสารมากที่สุด...... ชะ... ช่วยรออีกนิดนะคะ!"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "หัวหน้า......"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "อืม ฉันก็กังวลเหมือนกัน แต่ว่า......"
+    },
+    {
+      "Name": "อาสึโกะ",
+      "Text": "อื้ม เรามาเชื่อมั่นและก็เฝ้ารอกันเถอะ"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "......."
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "ฮึ่ม......"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "หึหึหึ...... ไม่ต้องประหม่าไปหรอกน่า"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "คะ... ใครประหม่ากันไม่ทราบ!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "แฮ่ก...... แฮ่ก...... "
+    },
+    {
+      "Text": "[ns] \"ไม่ มันยังไม่จบแค่นี้\""
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "....... อื้ม ยังไม่จบแค่นี้หรอก"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......."
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "เจอแล้ว อยู่ตรงนี้! สัญญาณแฮ็กถูกส่งผ่านจากตรงนี้!"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "จิฮิโระ ฉันจะส่งตำแหน่งให้เดี๋ยวนี้ละ! ตรงนั้นมันมีชื่อว่า <ทางเดินชาร์-คาร์ริ-ชาร์ริ>"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "อยู่ในโซนใต้ที่สุดของเรือเลยค่ะ!!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตรวจสอบตำแหน่งแล้ว! ฉันจะแปลงเป็นข้อมูลเนวิเกชันแล้วส่งให้นะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าทำลายสิ่งนั้นได้ การเชื่อมระหว่างเรือรบอุตนาพิชทิมกับเรืออะทราฮาซิสก็จะถูกปลดออก!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ฉันเช็กให้แล้วค่ะ <ทางเดินชาร์-คาร์ริ-ชาร์ริ> ในโซนใต้สุดของเรืออยู่ลึกลงไปจากที่นี่ราวๆ 1,200 เมตรค่ะ "
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "แต่ระบบรักษาความปลอดภัยของโซนนั้นมันค่อนข้างซับซ้อนเลย!!  ฉันจะอธิบายวิธีให้......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ให้เป็นหน้าที่ของฉันได้เลยค่ะ!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "...... พบแล้วค่ะ!!"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "ไวจัง?!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฉันจะสรุปให้ฟังนะคะ ถ้าจะไปให้ถึงเครื่องปลายทางการสื่อสารที่อยู่ใน <ทางเดินชาร์-คาร์ริ-ชาร์ริ> ที่อยู่โซนใต้สุดของเรือ เราจะต้องเปิดกำแพงป้องกันขนาดใหญ่ที่ขวางอยู่ข้างหน้าก่อนค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ตอนนี้เรือรบอุตนาพิชทิมของเราอยู่ในสถานะถูกแฮ็ก เราเลยเปิดกำแพงป้องกันจากตรงนี้ไม่ได้ค่ะ "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "วิธีเดียวที่ทำได้คือให้ทำลายอุปกรณ์ปลดล็อกที่อยู่ในโซนตะวันออกกับโซนตะวันตกของเรือพร้อมๆ กันค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ถ้าทำลายได้ กำแพงป้องกันก็จะเปิดประมาณ 5 วินาที ที่เราต้องทำต่อก็คือเข้าไปทำลายเครื่องปลาย\nทางการสื่อสารที่อยู่ในนั้นค่ะ!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "5 วินาทีงั้นเหรอ......?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ไม่มีเวลาแล้วค่ะ! เราต้องแบ่งทีมเป็น 3 ทีมแล้วเคลื่อนไหวทันทีค่ะ ทีมฝั่งตะวันออก ทีมฝั่งตะวันตก แล้วก็ทีมชั้นใต้ดิน!!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "...... ฝั่งตะวันออกกับฝั่งตะวันตกไม่น่าเป็นห่วง แต่ปัญหาหนักน่าจะอยู่ที่ชั้นใต้ดินนะคะ ใครจะวิ่ง 1,200 เมตรได้ภายในเวลาสั้นๆ ล่ะคะ......"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "...... ฮุฮุฮุฮุฮุ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ในที่สุดก็ได้เวลากันแล้วนะคะ คุณฟูกะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "หืม? เวลาอะไร? ...... นี่เธอคงไม่ได้คิดถึงฉันอยู่หรอกใช่ไหม?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "จะให้คิดถึงคนอื่นได้ยังไงกันล่ะคะ คุณฟูกะ ในที่สุดก็ถึงเวลาแจ้งเกิดความสามารถของคุณฟูกะแล้วค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ฉันรู้ดีค่ะว่าที่ผ่านมาคุณฟูกะฝึกฝนความสามารถของตัวเองมานานแค่ไหน......"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ฉันรู้ดีว่าคุณฟูกะต้องมุ่งมั่นในการฝึกฝน ปรับปรุง และสู้กับความล้มเหลวซ้ำแล้วซ้ำเล่าทุกวัน..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ใช่แล้วค่ะ!! ถึงเวลาที่จะให้โลกได้เห็นความสามารถและความพยายามนั้นแล้วค่ะ!! นี่เป็นโชคชะตา!!"
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "มันคือการขับรถน่ะค่ะทุกคน~★"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "ใช่!! สิ่งที่หัวหน้าชมรมโภชนาการทำได้เก่งเกินใครในโลก! การขับรถยังไงล่ะ!"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ใช่ๆ ในสถานการณ์แบบนี้ ไม่มีใครที่เชี่ยวชาญไปกว่าฟูกะแล้วละ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "นี่ ฮารุนะ? เธอตั้งใจทำแบบนี้ใช่ไหม? บอกมานะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "เรื่องนั้นมันไม่สำคัญหรอกค่ะ! เพราะที่คุณฟูกะขึ้นเรือรบลำนี้มาก็เพื่อสิ่งนั้นไงคะ!!"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "ไม่ใช่เพราะเรื่องอาหารอวกาศหรอกเหรอ?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "เอาเถอะน่า!! พวกเราจะทำลายมันให้เอง!!"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "อื้ม! ที่เหลือก็ช่วยเปิดกำแพงป้องกันให้ด้วยนะ!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "โอเค เข้าใจแล้ว"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อื้ม! งั้นพวกฉันจะจัดการอุปกรณ์ปลดล็อกในฝั่งตะวันออกเอง"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่ค่ะ! พวกเราอยู่ใกล้ที่สุดน่ะค่ะ!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "รีบทำให้เสร็จเถอะ!!  เราต้องรีบไปช่วยครูกับชิโรโกะจังด้วยนะ!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ! ฉันจะเป็นโอเปอเรเตอร์ให้เองค่ะ! ไปเลยค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ได้ค่ะ! ถ้างั้นทางฝั่งตะวันตกให้เป็นหน้าที่ของพวกฉันค่ะ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ชมรมพัฒนาเกม?!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ค่ะ ใช่ค่ะ! พวกฉันน่าจะไปถึงที่นั่นได้เร็วอยู่ค่ะ......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เข้าใจแล้ว! ถ้างั้นฉันจะนำทางให้!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ดีละ ไปกันเลย!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ปะ... ไปด้วยกันสิพี่......!!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อาริสึ ไม่เป็นไรใช่ไหมคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! ไม่มีปัญหาค่ะ! "
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ้อ <ดาบแห่งแสง:ซูเปอร์โนวาแห่งอะทราฮาซิส> ที่อาริสึสร้างไว้ยังไม่เสียหายนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ตกลงให้ใช้ชื่อนั้นสินะคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ อาริสึอยากให้รุ่นพี่ฮิมาริช่วยดูให้ด้วยค่ะ เพราะว่าบางที..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ เพราะบางทีมันอาจเป็นประโยชน์ได้...... เข้าใจแล้วค่ะ ฉันจะเข้าไปตรวจสอบให้ค่ะ ระวังตัวด้วยนะคะ อาริสึ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "พร้อมแล้วหรือยังคะ คุณฟูกะ?"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "เฮ้อ...... ทำไมถึงต้องทำถึงขนาดนี้ด้วยนะ......"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "พวกเราก็ขึ้นรถแล้วเรียบร้อย~ "
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "ตื่นเต้นจังเลยค่ะ จากนี้ไปจะเป็นความโกลาหลแล้วใช่ไหมคะ?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ถ้าขึ้นมาครบทุกคนแล้วก็ไปกันเลย!! เราไม่มีเวลากันแล้วนะ!"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "เฮ้อ... ให้ลงไปข้างล่าง 1,200 เมตรใช่ไหม...? ก็ได้ๆ คิดซะว่าเราไปส่งอาหารเหมือนที่ทำกันอยู่ตลอด"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ออกตัวเลยค่ะ คุณฟูกะ ถ้าทุกอย่างสำเร็จไปได้ด้วยดี เราต้องยกนิ้วโป้งให้คุณฟูกะกันนะคะทุกคน!"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "ไม่เอา ไม่ต้องมาทำอะไรแบบนั้นเลย ถ้าทำละก็ฉันจะโกรธมากๆ เตือนแล้วนะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "งั้นก็ ไปกันเลยยยยย---!!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "เหวอออออออ-----------!!!"
+    },
+    {
+      "Text": "ตอนต่อไป;ต่อต้าน 2"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;抵抗（１）"
+    },
+    {
+      "Name": "遙香",
+      "Text": "亞，亞瑠大人……天空又再次……"
+    },
+    {
+      "Name": "無月",
+      "Text": "這個情況，是不是有～點不妙呀？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……加緊腳步吧。"
+    },
+    {
+      "Name": "無月",
+      "Text": "亞瑠醬……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "現在，老師和佳世子都在努力哦！！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我們怎麼能在這種時候放棄！\n這樣不就沒臉面對他們兩個了嗎！！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "亞，亞瑠大人……！"
+    },
+    {
+      "Name": "無月",
+      "Text": "……嘿～"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "走吧！我們也要做我們能做的事才行！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "是，是！！我會永遠追隨您的，亞瑠大人！！"
+    },
+    {
+      "Name": "無月",
+      "Text": "……關鍵時刻的亞瑠醬果然很帥氣♪"
+    },
+    {
+      "Name": "季",
+      "Text": "……遠方發現了不自然的光芒。"
+    },
+    {
+      "Name": "季",
+      "Text": "是資料上顯示無法測量的位置……"
+    },
+    {
+      "Name": "季",
+      "Text": "……為了以防萬一，開始進行調查。"
+    },
+    {
+      "Name": "陽奈",
+      "Text": "──情況如何？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……聖所似乎又再次出現了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呣……"
+    },
+    {
+      "Name": "美優",
+      "Text": "老，老師他……沒事吧……"
+    },
+    {
+      "Name": "陽奈",
+      "Text": "……了解，趕緊行動吧。做好應對敵人出現的準備。"
+    },
+    {
+      "Name": "陽奈",
+      "Text": "狙擊手前往下一個位置待機。請RABBIT小隊長負責指揮。\n因愛麗絲不在而缺少的火力支援由我負責。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "了解。試試看吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "了解。"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "再次通知。請所有搭乘者立刻進行避難。\n17秒後將啟動「自爆程式」──"
+    },
+    {
+      "Name": "優香",
+      "Text": "陽，陽葵前輩……真的能讓它停下來吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請再，稍等一會……！"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "請所有搭乘者立刻進行避難。\n9秒後將啟動「自爆程式」──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "唔…………已經，沒辦法了……就算是我也……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "──現在放棄還太早了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "莉，莉央！？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "「已經沒辦法了？」──真不像是你這個「天才」會說的台詞啊，陽葵。"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "9秒後將啟動「自爆程式」──\n9秒後將啟動「自爆程式」──\n9秒後將啟動「自爆程式」──"
+    },
+    {
+      "Name": "優香",
+      "Text": "停……停下來了？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我利用「多次元詮釋」的抑制功能強制停止了生命守護者。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "──但這只不過是權宜之計。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……是呢。只要抑制被解開，這艘船就會受到巨大的損傷吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "──但是，能爭取一點時間。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "得在這段期間解決問題才行。\n就算是個麻煩的系統，也一定會有攻略的方法。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "──但是，只靠我一個人是不可能的。\n各位或許不太情願，不過請把力量借給我。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……這句話，[ruby=  ・     ・     ・     ・     ・     ・     ・     ・  ]也不像是你會說的[/ruby]台詞呢，莉央。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "也對──畢竟是規模如此巨大的船，應該存在作為命令中繼點的「裝置」才對。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "既然如此，只要找出中繼裝置並將其破壞，應該就能解除連接狀態。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是在物理上切斷通訊的手法呢。\n當然，那樣應該能夠解決問題。不過──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯，那也只是一時的。\n這裡應該也會有備用的「裝置」……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "但是，只要在這段期間修復生命守護者的系統，\n再次取回「方舟」的控制權……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就能啟動「方舟」的「自爆程式」。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯……這樣一來，我為了預防萬一準備的「逃脫程式」應該也能使用了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "千醬！能找出「裝置」的位置嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……了解，正在確認中。\n只要找出「方舟」內部通訊集中的地方──"
+    },
+    {
+      "Name": "真紀",
+      "Text": "硬體的探知光靠駭入也是有極限的！\n這不是我們的專業領域吧！？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "沒錯……要正確進行探知的話，必須要有「方舟」本身的設計圖。"
+    },
+    {
+      "Name": "晴",
+      "Text": "……可能需要工程師部的力量。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "──這種事就交給我們吧。\n現在正在確認。"
+    },
+    {
+      "Name": "響",
+      "Text": "正在解析「方舟」的設計圖，分析構造圖與「方舟」的3D空間掃描資料……"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "嗯。從通訊量最多的地方開始依序尋找，對吧！\n──請再稍等一下！"
+    },
+    {
+      "Name": "日和",
+      "Text": "隊長……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "我也一樣不安。\n但是──"
+    },
+    {
+      "Name": "敦子",
+      "Text": "嗯……相信並等待吧。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……"
+    },
+    {
+      "Name": "伊織",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "真琴",
+      "Text": "嘻嘻嘻……不用那麼緊張。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "誰，誰緊張了啊！？"
+    },
+    {
+      "Name": "白子",
+      "Text": "哈啊……哈啊…… "
+    },
+    {
+      "Text": "[ns]「還沒結束。」"
+    },
+    {
+      "Name": "白子",
+      "Text": "……嗯。我還能，戰鬥。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "響",
+      "Text": "……找到了！信號是從這裡發出來的！"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "千醬，將位置的情報傳給你了！\n是「沙爾卡利沙瑞迴廊」！"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "是「方舟」最下層的區域！！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "確定位置了，謝謝。\n我會將其轉換為導航資料後再轉送！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "陽葵，只要破壞它應該就能解除與方舟的連結。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "確認為「方舟」最下層區域的「沙爾卡利沙瑞迴廊」。\n這……必須從這裡向下移動約1200m才行呢……"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "不僅如此，那裡的安全系統很難解除……！\n我現在就說明解除方法──"
+    },
+    {
+      "Name": "花子",
+      "Text": "交給我吧…………"
+    },
+    {
+      "Name": "花子",
+      "Text": "…………系統的全部內容，已經掌握了！"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "是在什麼時候……！？"
+    },
+    {
+      "Name": "花子",
+      "Text": "先整理一下狀況……\n如果想破壞位於「方舟」最下層「沙爾卡利沙瑞迴廊」裡的「裝置」，\n就必須先突破安全系統。"
+    },
+    {
+      "Name": "花子",
+      "Text": "目前生命守護者處於被駭入的狀態……從這裡突破安全系統是不可能的。"
+    },
+    {
+      "Name": "花子",
+      "Text": "要說有其他可能性的話……\n只有同時破壞位於「方舟」最東與最西區域的解除裝置這個方法了。"
+    },
+    {
+      "Name": "花子",
+      "Text": "順利的話，就能讓安全系統停止5秒左右。\n只要在這段時間內破壞裝置，也許──"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "5秒……？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "啊啊真是！如果只有這個方法的話，現在立刻分組行動吧。\n前往方舟的東邊和西邊，以及最下層──"
+    },
+    {
+      "Name": "花子",
+      "Text": "問題在於最下層。\n能在這麼短的時間內移動1200m的人──"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "……唔呵呵。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "風華同學。時機終於成熟了。"
+    },
+    {
+      "Name": "風華",
+      "Text": "嗯？什麼時機？\n……不會是我想的那個吧？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "嗯，沒錯，就是那個唷……\n終於到了風華同學的才能發光發熱的時候了。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "我非常清楚……\n風華同學一直以來是多麼努力地鍛鍊自身的才能──"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "日復一日，不怠於鍛鍊與精進的態度──"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "沒錯！！那份才能──那份實力，能夠發揮的時刻終於來臨了！\n這不是命運還能是什麼呢！！"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "來～開車時間到囉～★"
+    },
+    {
+      "Name": "泉",
+      "Text": "啊！是供給部的部長最擅長的事情對吧！！"
+    },
+    {
+      "Name": "淳子",
+      "Text": "這種時候最適合的人選，就是風華了吧。"
+    },
+    {
+      "Name": "風華",
+      "Text": "羽留奈……？你是故意的吧？我沒說錯吧？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "唔呵呵，是否故意並不重要。\n風華同學不就是為了這個才上船的嗎？"
+    },
+    {
+      "Name": "風華",
+      "Text": "……不是宇宙食物嗎？"
+    },
+    {
+      "Name": "淳子",
+      "Text": "總之！\n破壞就交給我們吧！！"
+    },
+    {
+      "Name": "泉",
+      "Text": "嗯嗯！安全系統就交給你們囉～！！"
+    },
+    {
+      "Name": "星野",
+      "Text": "好的好的，知道了唷。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "東邊的解除裝置就交給我們吧！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯！我們從這裡過去最快☆"
+    },
+    {
+      "Name": "星野",
+      "Text": "速速解決吧。\n我們還得去找老師和白子醬呢。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "是！那麼我來進行輔助。\n走吧！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那麼西邊請交給愛麗絲與夥伴們吧！"
+    },
+    {
+      "Name": "優香",
+      "Text": "等等……遊戲開發部！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "是，是……！我，我想我們應該，是離那裡最近的……"
+    },
+    {
+      "Name": "優香",
+      "Text": "是嗎……那我來帶路吧！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "好，走吧！"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐，姐姐，等等我……！"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "愛麗絲，真的沒問題嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！沒有問題！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "而且，「光之劍：阿特拉哈西斯的超新星」也還沒損壞。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……真的取了那個名字啊。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是的。可以的話，希望之後陽葵前輩能確認一下。\n說不定──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是呢。說不定能幫上什麼忙……\n那麼，請注意安全哦，愛麗絲。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！愛麗絲要出發了，陽葵前輩！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "風華同學，準備好了嗎？"
+    },
+    {
+      "Name": "風華",
+      "Text": "唉……事情為什麼會變成這樣……"
+    },
+    {
+      "Name": "泉",
+      "Text": "我們也準備好了唷～！"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "居然能在「方舟」上大鬧一番！真是令人興奮★"
+    },
+    {
+      "Name": "淳子",
+      "Text": "大家都上車了就趕快出發吧！沒時間了！！"
+    },
+    {
+      "Name": "風華",
+      "Text": "哈啊……要到距離1200m的底層對吧……？\n只要當成和平常一樣在送外送──"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "來，出發吧風華同學！\n在一切結束的最後「Good！」地豎起拇指！"
+    },
+    {
+      "Name": "風華",
+      "Text": "不要。絕對不要。"
+    },
+    {
+      "Name": "風華",
+      "Text": "那……要出發囉！！"
+    },
+    {
+      "Name": "所有人",
+      "Text": "哇啊啊啊啊啊────！！"
+    },
+    {
+      "Text": "下一話;抵抗（２）"
+    }
+  ]
+}

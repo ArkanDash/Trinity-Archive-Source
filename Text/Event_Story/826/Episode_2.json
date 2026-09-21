@@ -1,0 +1,2722 @@
+{
+  "TitleJP": "山海珍味",
+  "TitleKR": "진미가효",
+  "TitleEN": "Rare Delicacies, Tasty Treats",
+  "TitleTH": "กับแกล้มรสเลิศ",
+  "TitleTW": "山珍海味",
+  "DescJP": "ルミに玄武商会で手厚い手料理のもてなしを受ける先生。とても美味しい一品なのに、何故か店内には人が少なく、閑散としていた。事情を問うと、山海経の生徒会である玄龍門から、玄武商会があらぬ疑いをかけられてしまっているのだという。先生とルミ達は玄龍門に直談判しにいく事を決めるのだった。",
+  "DescKR": "루미와 현무상회 일원들의 극진한 대접을 받는 선생님. 하지만 그것도 잠시, 선생님은 산해경 내부의 양대 세력인 현무상회와 현룡문 사이의 불편한 기류를 알게 된다.",
+  "DescEN": "Sensei receives great hospitality from Rumi and the Black Tortoise Promenade members. However, it's not long before they sense the tension between the Black Tortoise Promenade and Genryumon, the major factions within Shanhaijing.",
+  "DescTH": "คุณครูได้รับการต้อนรับอย่างยิ่งใหญ่จากรูมิและเหล่าสมาชิกย่านการค้า\nเทพเต่าดำ แต่ว่าความรื่นเริงอยู่ก็เพียงชั่วขณะ คุณครูได้รู้เกี่ยวกับความ\nขัดแย้งระหว่างสองขั้วอำนาจใหญ่ของซานไห่จิง",
+  "DescTW": "老師受到瑠美和玄武商會的成員們盛情款待。但風平浪靜也只是一時而已，老師察覺到山海經內部的兩大勢力玄武商會和玄龍門之間流動著不和諧的氣息。",
+  "DialogJP": [
+    {
+      "Text": "第1話;[ruby=さんかいのちんみ]山海珍味[/ruby]"
+    },
+    {
+      "Text": "山海経・玄武商会"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "頭菜[ruby=フォーティャオチァン]の佛跳牆は[/ruby]どうだった？\n次は大菜を持ってくるね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "これは[ruby=ぜんかふく]全家福[/ruby]。干しナマコや、アワビ、サザエ、エビ、豚肉なんかを、いろんな野菜と一緒に煮込んだ料理だよ。"
+    },
+    {
+      "Text": "[ns] \"お、美味しい！初めての味だ……！\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "それなら良かった。\nお客さんの「美味しい」って言葉以上に嬉しいものはないからね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "さて、お次は湯菜のエビ団子スープ！"
+    },
+    {
+      "Text": "[s] \"まだ出てくるの！？\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "なに言ってるの？まだ大菜だよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "湯菜が終わっても、主食と点心が残ってるからね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "どっちもウチ自慢の味だから、ぜひ味わっていって！"
+    },
+    {
+      "Text": "[s1] \"気持ちは嬉しいけど、全部食べ切れるかな……。\""
+    },
+    {
+      "Text": "[s2] \"先生の胃袋は、そこまで大きくないんだよね……。\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "そ、そうなの……？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ま、これから忙しくなるだろうし、たくさん食べとかないとね！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ルミ会長、こちらいつ出しましょうか？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ちょっと待ってね。\n先生、まだ大菜の途中だからさ……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ああ、そうだ。せっかくだし挨拶したら？\n先生、この子はレイジョ。あたしの警護をしてくれてるんだ。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "[ruby=かやま]鹿山[/ruby]レイジョです。\nよろしくお願い致します。"
+    },
+    {
+      "Text": "[s] \"こんにちは、レイちゃん。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "レイ……ちゃん……？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "そんな風に呼ばれたのは、初めて、ですが……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あははっ、レイちゃんかぁ。いいね、それ。\nあたしも今度からレイちゃんって呼ぼうかな？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "ルミ会長、それはちょっと……。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……なるほど。\nまず会話の主導権を握ればいいのですね。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "カンフーにおいても、「先手」を取るのが大切だと映画から学びました。"
+    },
+    {
+      "Text": "[s] \"いや……仲良くなれるかなと思って……\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "相手の油断を誘うために、流れるような謙遜を……。\nこれが……シャーレの先生。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "まぁまぁ、レイジョ。そこまでにしといてあげて。\n先生が困ってるよ。"
+    },
+    {
+      "Text": "[s] \"なんか勘違いされてない！？\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あはは、普段は落ち着いてるんだけどさ。\nカンフーの話に繋がっちゃうと、ちょっと周りが見えなくなっちゃうんだよね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ま、先生のちょっと困った顔が見られて、あたしは面白かったけど。"
+    },
+    {
+      "Text": "[s3] \"ところで、さっきからお客さんがいないけど……\""
+    },
+    {
+      "Text": "[s4] \"もしかして、私が呼ばれたことに関係してる？\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あはは……そうだね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "それが――いや、説明するより、アレを見てもらった方が早いかな。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "レイジョ、先生を頼んだよ。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "はい、会長。"
+    },
+    {
+      "Text": "（ルミは前を向いたまま、後ろを親指で差した）"
+    },
+    {
+      "Text": "（肩越しに視線を向けると……）"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "……何か？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "「お客様」に指を差すとは、教育がなってないようだな。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "玄武商会がこんな接客態度だと知れ渡ったら……\nお店の評判に関わるかもしれないぞ？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "人気店だからって調子に乗ってるヤツらはこれだから……。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ま、見ての通りだよ。"
+    },
+    {
+      "Text": "[s] \"あの生徒たちは誰？\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "――玄龍門の構成員だよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "卵炒めだけで、ああやって何時間も居座ってるんだ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "そのせいで、他の客が寄りつかなくてさ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あっ、もちろん一品だけでも食べてもらえるのは嬉しいよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "大衆料理って、気軽に味わえるのが良いところだし。友達とお喋りしながら楽しく過ごしてもらえるなら、こっちとしても作り甲斐があるんだけど……。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "どちらかといえば、長時間の利用じゃなくて、あんな風に騒いでるのが問題でね……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "正直、もはや営業妨害のレベルなんだ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "まあ、あの子たちの目的はソレなんだろうけどさ……"
+    },
+    {
+      "Text": "[s] \"……流石に出ていってもらったら？\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "それが……玄龍門の生徒だから、そうするわけにもいかなくてね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あ、先生は詳しくないか。\n……玄龍門と、あたしたち玄武商会の関係。"
+    },
+    {
+      "Text": "[s5] \"噂通りなら、仲があまり……\""
+    },
+    {
+      "Text": "[s6] \"両者の争いには、誰も近寄りたがらないとか……\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "そうだね……ちょっと複雑な事情があってさ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "玄龍門は、山海経における生徒会組織なんだけど――"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "義と侠を重んじ、伝統に優るものなし、って考えでね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "伝統を大切にしようって気持ちは、あたしも分かるんだけど……"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "あれは大切にしているわけではありません。\n伝統の名のもとに、変化を恐れているだけです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "余所ではどんな顔をしているか知りませんが、玄武商会を……\nルミ会長の料理を、伝統に反するからといって[ruby=けな]貶[/ruby]したのは許せません！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "料理は発展してこそです！\n変化のない食卓には、いずれ飽きが来てしまいます！"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "玄武商会がどれだけ努力していると思ってるんだ！\nこちらの事情など、なにひとつ分かっていないクセに……！"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あたしは大丈夫だから、落ち着いてレイジョ。\nそんなに大きい声を出したら――"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "……面白そうな話をしてるじゃないか？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "全て聞こえているぞ。\nお前たちの企みは、ひとつ残らず明らかにしてやるからな。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "……こうなっちゃうから。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "玄龍門にも、それなりの事情があるのは理解するんだけどね……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "でも、あの保守的な運営方針は、もう少し何とかならないのかな～って思うよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "組織だって時代に合わせて変化しないと、ね？"
+    },
+    {
+      "Text": "[s] \"難しい問題だね……。\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "みんな、面と向かっては言えないけど、\n玄龍門の体制に反感を抱いてる生徒は結構いるからね。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "それもあって、うちが目立つ分なおさら目の敵にしてるんだろうけど……。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "なんだか最近ちょ～っと商会に関する嫌な噂が出回ってるんだよね。"
+    },
+    {
+      "Text": "[s] \"その噂、聞かせてくれる？\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "山海経では、「[ruby=まんねんじん]萬年参[/ruby]」という植物が採れるのですが――"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "収穫量が少なく、\n希少価値が高いから外部への持ち出しが厳しく制限されているんです。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "昨今、「萬年参」を[ruby=うち]玄武商会[/ruby]が学園外に密売しているという噂が広まっておりまして……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "その調査を口実に、玄龍門の構成員が居座るようになったってわけ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "これじゃあ、お客さんに食事を楽しんでもらうどころじゃないし……はぁ。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "本当にそれが「噂」だと思うのか？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "いーや、思わないね。\n玄武商会はいつも好き勝手に外部のものを持ち込んでいるし。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "そのせいで、山海経の伝統は廃れていく一方だ！"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "大人しく玄龍門に従っていれば、疑われなかったものを。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "伝統も大事だけど、変化を恐れてちゃ先はないよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "まずは柔軟に、いろんなことを受け入れないとね。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "我々の知ったことではない。\nそもそも、玄龍門に楯突いておいて、山海経で商売ができると思っているのか？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "全ては玄龍門あってこそだというのを努々忘れるなよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "はぁ……これ以上話しても、ラチが明かないね。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "なんだ、怖気づいたのか？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "後ろ暗いことがあるから、我々と話したくないのだろう？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "はいはい、それでいいよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "というわけで……依頼内容は、今ので大体わかったよね。\nあたしは「誤解」を解きたいんだ。――先生、手伝ってもらえるかな？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "一方的な誹りを受けているというのに、どこが「誤解」なんですか！？\nルミ会長は甘すぎます！もっと強気に出なくては……！"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "レイジョ、落ち着いて。力に力で対抗しても逆効果だよ。"
+    },
+    {
+      "Text": "[ns] \"2人は玄龍門の生徒なんだね？\""
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "……ん、誰だ？\n無関係の大人は、引っ込んでいてもらおうか。"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "たとえ外部の者だろうと、山海経にいる以上は、\n[ruby=うち]山海経[/ruby]のルールに従わってもらわなくてはな。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "つまり――玄武商会に長居するということは、\nそちら側についたとみなされる。"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "どちらについたほうが利口か、分からないわけじゃないよな。\nクックック……"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "言葉には気をつけたほうがいい。\nこの方はシャーレの「先生」です。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "なっ、シャーレの、先生……？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "お、おい……どうする！？"
+    },
+    {
+      "Text": "[s] \"玄龍門の代表に会わせてもらえるかな？\""
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "い、いくらシャーレの先生とはいえ、それは……"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "そ、そうだ！\n門主様は、そう簡単に会えるようなお方ではない！"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "へえ、それってキミ達が勝手に決めていいんだ？"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "な、何が言いたい？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "シャーレが、連邦生徒会長が認めた超法規的機関である事はキミ達も知ってるよね？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "そんなシャーレの先生を、無下に扱ってもいいのかな～？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "少なくとも……クロノスチャンネルは、このスクープを逃さないと思うよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "そうなったら山海経はも～っと風通しが良くなるね？"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "ままま、待ってくれ！\n少し考える時間をもらいたい！！"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "なに言ってるんだい。何事も即断即決。\nでないと、商売なんてやってけないよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ま、あたし達にとってはチャンスだからね。\n外部の人がたくさん来てくれたら、もっと繁盛するわけだしさ？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "ああ、最初からそういうつもりだったのか。分かってあげられなくて、ごめんね？\nまさか玄龍門が、寛大な心であたし達にチャンスをくれようとしてたなんて。"
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "チッ……！"
+    },
+    {
+      "Name": "玄龍門の構成員B",
+      "Text": "わ、分かった。門主様に伝えはしてやる。\nだが、もし突き返されても、文句は言うなよ。"
+    },
+    {
+      "Text": "[s] \"それだけでも十分だよ、ありがとう。\""
+    },
+    {
+      "Name": "玄龍門の構成員A",
+      "Text": "チッ……覚えてろよ、玄武商会。"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "相手の攻撃を受け流す[ruby=かけい]化勁[/ruby]の技術を、戦闘以外でも活かすとは……\nこれがシャーレの先生の力……"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "いや、違うから。\nレイジョ、早く戻ってきな。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "助かったよ。ありがとう、先生。\nこれに懲りて、しばらく来ないんじゃないかな？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "それで、具体的にどうするんだい？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "え？会ってみたら後は何とかなる……？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "あはは、そういう行き当たりばったりなところもあるんだ？\nますます先生のこと気に入ったよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "よし、レイジョ。\nそれじゃ、あたし達も行こっか？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "本当に大丈夫なんですか、会長？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "大丈夫、大丈夫。何とかなるよ。\nそれにキサキには、あたしも言いたいことがあるからね。"
+    },
+    {
+      "Text": "[s] \"じゃあ、行こうか。\""
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "……はい。万が一の時には、先生の安全を最優先にいたします。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "うん、任せたよ。"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "……と、その前に。邪魔が入っちゃったけど、最後まで料理は楽しんでいってね。\nレイジョ、エビ団子スープを温め直してくれる？"
+    },
+    {
+      "Name": "レイジョ",
+      "Text": "はい、ルミ会長。"
+    },
+    {
+      "Text": "[ns] \"こんなに食べて動けるかな……。\""
+    },
+    {
+      "Name": "ルミ",
+      "Text": "お腹いっぱいなら、残してくれていいんだよ？"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "食べ切れないくらいの「おもてなし」が出来たってことだからさ、あははっ。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "1화;진미가효: 진귀한 맛과 좋은 안주"
+    },
+    {
+      "Text": "현무상회"
+    },
+    {
+      "Name": "루미",
+      "Text": "두채로 준비한 불도장은 어땠어? 이제 주채로 넘어가자고. "
+    },
+    {
+      "Name": "루미",
+      "Text": "전가복을 만들어 봤어. 말린 해삼, 전복, 소라를 야채와 함께 볶아낸 요리지. 부재료로 돼지고기와 새우도 좀 섞어 봤고."
+    },
+    {
+      "Text": "[ns] \"마, 맛있어! 처음 먹어보는 맛이야……!\""
+    },
+    {
+      "Name": "루미",
+      "Text": "잘됐네. 주방장으로서는 손님이 맛있게 먹어 주면 최고지. "
+    },
+    {
+      "Name": "루미",
+      "Text": "다 먹으면 탕채로 넘어갈 테니까 준비해 둬. 새우 완자탕을 준비할 거야."
+    },
+    {
+      "Text": "[s] \"더 나오는 거야?!\""
+    },
+    {
+      "Name": "루미",
+      "Text": "무슨 소리야? 이제 시작인데."
+    },
+    {
+      "Name": "루미",
+      "Text": "탕채가 끝나면 면점과 첨채가 남아 있으니까."
+    },
+    {
+      "Name": "루미",
+      "Text": "양도 적당하게 한 입에서 두 입 거리 정도로만 준비했으니까, 편하게 즐겨."
+    },
+    {
+      "Text": "[s1] \"마음은 고마운데, 감당할 수 있을지 걱정이야……\""
+    },
+    {
+      "Text": "[s2] \"어른의 위장은…… 여고생만큼 튼튼하지 않단다……\""
+    },
+    {
+      "Name": "루미",
+      "Text": "그, 그런가?"
+    },
+    {
+      "Name": "루미",
+      "Text": "그래도 뭐, 힘내면 어떻게든 될 거야! 파이팅!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "회장님? 탕이 다 끓었습니다. 언제 내올까요?"
+    },
+    {
+      "Name": "루미",
+      "Text": "조금 기다려. 우리 손님…… 선생님이 아직 준비가 안 되신 것 같으니까."
+    },
+    {
+      "Name": "루미",
+      "Text": "이왕 온 김에 서로 인사라도 하는 게 어때? 여기는 레이죠. 고맙게도 내 경호를 맡고 있지."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "레이죠라고 합니다. 잘 부탁드립니다. 선생님."
+    },
+    {
+      "Text": "[s] \"안녕, 레이 쨩!\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "레이…… 쨩, 이요?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "신선하군요. 그렇게 불리는 것은 처음입니다."
+    },
+    {
+      "Name": "루미",
+      "Text": "레이 쨩인가. 좋네. 앞으로는 나도 그렇게 부를까?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……자제 부탁드립니다. 회장님."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "과연, 듣던 대로 이렇게 기선 제압을 하시는 거군요. 선생님."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "기선 제압은 쿵후의 기본이라고, 영화에서 보았습니다."
+    },
+    {
+      "Text": "[s] \"아니…… 난 그저 순수하게 반가워서……\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "상대를 방심하게 하기 위한 겸양까지. 과연 선생님이십니다."
+    },
+    {
+      "Name": "루미",
+      "Text": "자. 레이죠. 거기까지만 해 둬. 선생님이 당황하잖아."
+    },
+    {
+      "Text": "[s] \"나, 괜한 말을 한 건 아니지?!\""
+    },
+    {
+      "Name": "루미",
+      "Text": "하하하, 레이죠는 매사에 진지하지만, 쿵후 이야기만 나오면 사람이 바뀌거든."
+    },
+    {
+      "Name": "루미",
+      "Text": "뭐, 선생님이 당황하는 모습을 볼 수 있었다는 것만으로 이득을 본 것 같지만."
+    },
+    {
+      "Text": "[s3] \"그런데…… 오늘만 그런 건가? 손님이……\""
+    },
+    {
+      "Text": "[s4] \"나 말곤 손님이 없어 보이는데, 무슨 일이라도 있어?\""
+    },
+    {
+      "Name": "루미",
+      "Text": "아, 손님 말인가…… 아픈 데를 찔렸네. 그게 말이지……"
+    },
+    {
+      "Name": "루미",
+      "Text": "뭐, 차라리 직접 보는 게 좋으려나. 괜찮아. 무슨 일이 있으면 우리가……"
+    },
+    {
+      "Name": "루미",
+      "Text": "레이죠가 선생님을 지켜 줄 거야."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "말씀 받들었습니다. 회장님."
+    },
+    {
+      "Text": "(루미가 엄지손가락으로 등 뒤를 가리켰다.)"
+    },
+    {
+      "Text": "(그러자……)"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "앙? 뭐야, 문제라도 있다는 거냐?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "우린 손님이라고. 어디다 대고 삿대질이야!"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "현무상회의 접객은 엉망이구만."
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "이러니까 치졸한 돈벌이나 하는 거지, 나 참."
+    },
+    {
+      "Name": "루미",
+      "Text": "뭐…… 이런 상황이야."
+    },
+    {
+      "Text": "[s] \"저 학생들은 누구야?\""
+    },
+    {
+      "Name": "루미",
+      "Text": "현룡문 부원들……이라고 해 둘까."
+    },
+    {
+      "Name": "루미",
+      "Text": "계란 볶음 하나 시켜 놓고 몇 시간째 저러고 있어."
+    },
+    {
+      "Name": "루미",
+      "Text": "덕분에 접객이 안 되고 있는 상황이지."
+    },
+    {
+      "Name": "루미",
+      "Text": "아, 물론 난 계란 볶음이 나쁜 요리라고 말하는 건 아냐."
+    },
+    {
+      "Name": "루미",
+      "Text": "저렴하고 맛있는 요리에는 그 나름의 미학이라는 게 있기도 하고."
+    },
+    {
+      "Name": "루미",
+      "Text": "……그렇지만 그거 하나 시켜 놓고 몇 시간 동안 죽치고 앉아 있는 건 또 다른 문제지……"
+    },
+    {
+      "Name": "루미",
+      "Text": "솔직히 영업방해라고, 영업방해."
+    },
+    {
+      "Name": "루미",
+      "Text": "뭐, 저 친구들은 그러려고 온 게 맞긴 하지만……"
+    },
+    {
+      "Text": "[s] \"영업방해가 심하면, 나가게 할 수 있지 않아?\""
+    },
+    {
+      "Name": "루미",
+      "Text": "그게…… 현룡문 학생들이잖아."
+    },
+    {
+      "Name": "루미",
+      "Text": "아, 선생님은 잘 모르려나. 현룡문과 우리 현무상회의 관계."
+    },
+    {
+      "Text": "[s5] \"건너 건너 들은 적은 있어. 사이가 별로 안 좋다며?\""
+    },
+    {
+      "Text": "[s6] \"둘 사이의 분쟁에는 누구도 끼어들고 싶지 않아 한다는 이야기가……\""
+    },
+    {
+      "Name": "루미",
+      "Text": "그래…… 실제 사정은 조금 더 복잡하지만."
+    },
+    {
+      "Name": "루미",
+      "Text": "현룡문은 산해경에 있어, 다른 학교의 학생회 같은 조직이야."
+    },
+    {
+      "Name": "루미",
+      "Text": "의와 협, 전통을 중시하고, 그걸 최고의 가치로 여기지."
+    },
+    {
+      "Name": "루미",
+      "Text": "문제는 전통을 좀 지나치게 중시한다는 건데……"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그건 전통을 중시하는 게 아닙니다. 전통에 빠져 사는 것이죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "다른 건 몰라도 현무상회와…… 회장님의 요리를, 전통을 지키지 않았다며 깎아내리는 것은 용서할 수 없습니다!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "요리는 발전해야 합니다! 먹던 것만 먹으면 물려서 아무것도 못 먹게 될 테니까요!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "현무상회가 요리의 발전을 위해 얼마나 많은 노력을 하는지, 삭은 메추리알 껍질만큼도 모르면서……!"
+    },
+    {
+      "Name": "루미",
+      "Text": "자, 자. 진정해. 레이죠. 그렇지 않으면……"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "거기, 뭔가 우리 이야기를 하고 있는 것 같은데?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "대충 들린다고. 현무상회가 또 무슨 꿍꿍이를 꾸미고 있는지, 낱낱이 밝혀 줄 테니까 말이지."
+    },
+    {
+      "Name": "루미",
+      "Text": "……이렇게 된단 말이지."
+    },
+    {
+      "Name": "루미",
+      "Text": "현룡문이 전통을 유난히 중시하는 데에는 나름의 사정이 있겠지만……"
+    },
+    {
+      "Name": "루미",
+      "Text": "그 꽉 막힌 운영은 좀 어떻게 안 되나 싶어."
+    },
+    {
+      "Name": "루미",
+      "Text": "때와 상황에 맞춘 유연한 대응이야말로 조직 운영의 핵심인데 말이야."
+    },
+    {
+      "Text": "[s] \"뭔가, 복잡하구나……\""
+    },
+    {
+      "Name": "루미",
+      "Text": "……아무튼, 대놓고 이야기하지는 못하지만, 현룡문을 싫어하는 학생들도 제법 있어."
+    },
+    {
+      "Name": "루미",
+      "Text": "그리고 현룡문은 우리 현무상회를 그다지 좋게 보고 있지 않아."
+    },
+    {
+      "Name": "루미",
+      "Text": "그런데 최근 좀 꺼림칙한 소문이 돌기 시작했단 말이야. 그것도 우리 현무상회 쪽에 얽혀서."
+    },
+    {
+      "Text": "[s] \"꺼림칙한 소문?\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "산해경만의 희귀 식물인 만년삼이라는 것이 있습니다."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "생산량이 한정적이기에, 외부 반출이 엄격하게 제한되어 있죠."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "그런데 그 만년삼을, 저희 현무상회가 식재료에 섞어 학원 외부로 반출하고 있다는 소문입니다."
+    },
+    {
+      "Name": "루미",
+      "Text": "그걸 핑계로, 현룡문 부원들이 우릴 조사하겠다며 가게에 죽치고 앉아 있기 시작한 거지."
+    },
+    {
+      "Name": "루미",
+      "Text": "분위기가 이렇게 험악하니, 손님들의 발길도 끊길 수밖에 없었던 거고. 후우……"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "그게 과연 소문에 지나지 않을까?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "예전부터 마음에 안 들었다고, 현무상회는!"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "이것도 저것도 다 현무상회가 제멋대로 외부 물건을 들여와서 그런 거 아냐!"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "얌전히 현룡문의 지시를 따르고 있었다면 애초에 의심받지도 않았을 것을!"
+    },
+    {
+      "Name": "루미",
+      "Text": "이봐. 레이죠도 말한 것 같지만, 발전하지 않는 요리는 죽은 요리야."
+    },
+    {
+      "Name": "루미",
+      "Text": "그리고 무언가를 발전시키려면 다양한 것들을 받아들여야 하고."
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "그런 건 모르겠고, 현룡문의 지시를 따르지 않고서 산해경에서 장사를 할 수 있다고 생각하는 거냐!"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "현룡문이 있으니까 현무상회도 있을 수 있다는 사실을 잊지 말라고!"
+    },
+    {
+      "Name": "루미",
+      "Text": "이 논제는…… 여기까지만 하지. 쓸데없는 이야기만 더 키울 것 같은 느낌이고."
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "뭐야, 겁먹은 거냐? 그럴 만도 하지!"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "떳떳하지 못하니까 매사에 당당하지 못한 거라고!"
+    },
+    {
+      "Name": "루미",
+      "Text": "그래, 그래. 그런 걸로 하자."
+    },
+    {
+      "Name": "루미",
+      "Text": "그래서…… 의뢰 내용은 이거야. 우릴 도와주지 않겠어? 난 현무상회와 현룡문 사이의 오해를 풀고 싶거든."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "일방적인 비난을 오해라고 하는 것도 이상합니다! 여기서는 우리가 좀 더 강하게 나가야 합니다!"
+    },
+    {
+      "Name": "루미",
+      "Text": "진정해, 레이죠. 머리를 좀 식혀. 강한 힘에 강한 힘으로 나가면 될 일도 안 된다고."
+    },
+    {
+      "Text": "[ns] \"현룡문 부원들이라고 했지?\""
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "음? 당신은 또 뭐야?! 어른에 외부인이라고 해서 봐줄 줄 알아?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "외부인이라도 산해경에 들어온 이상 산해경의 법도를 따라야 한다! "
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "다시 말해…… 이 현무상회에 오래 머물러 있을수록 현룡문에 반대하는 세력으로 볼 수 있단 소리지!"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "처신 잘하라고. 흐흐흐……"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "말이 지나친 것 아닙니까? 이분은 샬레의 '선생님'이십니다."
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "어, 뭐라고? 샬레의 선생님……?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "이, 이럴 때는 어떻게 해야 하지?"
+    },
+    {
+      "Text": "[s] \"현룡문의 대표를 만나 보고 싶은데, 괜찮을까?\""
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "키사키 문주님을? 아, 아무리 선생님이라도 거기까지는……"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "그, 그래! 문주님은 아무나 뵐 수 있는 분이 아니니까! 우리만 해도……!"
+    },
+    {
+      "Name": "루미",
+      "Text": "호오, 그 문제를 너희들이 결정해도 괜찮은 거야?"
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "무슨 뜻이지?"
+    },
+    {
+      "Name": "루미",
+      "Text": "샬레에는 총학생회장이 부여한 초법적인 수사권이 있다고 들었어."
+    },
+    {
+      "Name": "루미",
+      "Text": "그런 샬레의 선생님의 방문을 거절했다고 하면, 무슨 일이 일어날까?"
+    },
+    {
+      "Name": "루미",
+      "Text": "지금 떠올릴 수 있는 건 이 정도겠군. 크로노스 채널에서는 이런 큰 특종을 놓치지 않을 거라는 것."
+    },
+    {
+      "Name": "루미",
+      "Text": "아, 그렇게 되면 드디어 산해경에도 본격적인 외부로부터의 바람이 불게 되려나?"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "잠깐, 잠깐만! 기다려! 생각을 좀 정리해 보자고!"
+    },
+    {
+      "Name": "루미",
+      "Text": "무슨 소리를. 발상이 떠올랐을 때, 그걸 전개해 보는 것이야말로 상업의 기초 중 하나라고."
+    },
+    {
+      "Name": "루미",
+      "Text": "아무튼…… 그렇게 되면 적어도 우리 현무상회에는 기회가 되겠네. 외부인들에게 한 그릇씩만 잘 팔아도 그게 얼마야?"
+    },
+    {
+      "Name": "루미",
+      "Text": "이거 몰라봐서 미안. 현무상회에게 기회를 주려는 현룡문의 큰 뜻을 우리가 놓치고 있었네."
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "켁……?!"
+    },
+    {
+      "Name": "현룡문 부원 B",
+      "Text": "조, 좋아. 말씀은 올려 보겠어! 하지만 결과가 어떻게 될지는 우리도 모르니까!"
+    },
+    {
+      "Text": "[s] \"그걸로 충분해.\""
+    },
+    {
+      "Name": "현룡문 부원 A",
+      "Text": "칫, 두고 보자. 현무상회!"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "이것이 상대의 힘을 역이용하는 쿵후의 [ruby=鬪路]투로[/ruby]…… 부드러움이 강한 것을 제압하듯이…… 메모, 메모……"
+    },
+    {
+      "Name": "루미",
+      "Text": "아니, 아니야. 레이죠. 돌아오라고."
+    },
+    {
+      "Name": "루미",
+      "Text": "결과적으로 영업 방해꾼들이 퇴장하게 되었군. 고마워, 선생님."
+    },
+    {
+      "Name": "루미",
+      "Text": "그런데, 현룡문 녀석들이 당황하는 모습은 나쁘지 않았지만, 어쩔 생각이야?"
+    },
+    {
+      "Name": "루미",
+      "Text": "뭐? 별생각은 없었다고? 일단 만나서 이야기를 나눠 보면 어떻게든 될 것 같았다고?"
+    },
+    {
+      "Name": "루미",
+      "Text": "의외로 막 나가는 면이 있었군, 선생님?"
+    },
+    {
+      "Name": "루미",
+      "Text": "하하하. 좋아. 마음에 들었어. 그러면 우리도 가 볼까, 레이죠?"
+    },
+    {
+      "Name": "레이죠",
+      "Text": "괜찮으시겠습니까, 회장님?"
+    },
+    {
+      "Name": "루미",
+      "Text": "괜찮아. 그리고 키사키 녀석에게는…… 나 역시 할 말이 있을 것 같으니까."
+    },
+    {
+      "Text": "[s] \"다 같이 가자.\""
+    },
+    {
+      "Name": "레이죠",
+      "Text": "……알겠습니다. 만일의 사태에는 선생님을 우선하도록 하겠습니다."
+    },
+    {
+      "Name": "루미",
+      "Text": "그래. 부탁할게."
+    },
+    {
+      "Name": "루미",
+      "Text": "그 전에 식사는 마저 끝내야지. 레이죠. 새우 완자탕 부탁해."
+    },
+    {
+      "Name": "레이죠",
+      "Text": "네. 잠시만 기다리십시오, 선생님."
+    },
+    {
+      "Text": "[ns] \"내 위장, 괜찮을까……\""
+    },
+    {
+      "Name": "루미",
+      "Text": "무리하지 말고, 힘들면 남기라고."
+    },
+    {
+      "Name": "루미",
+      "Text": "먹다 남을 정도로 풍족하게 차렸다는 것도, 준비하는 쪽의 보람이니 말이야. 하하하."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;Rare Delicacies, Tasty Treats"
+    },
+    {
+      "Text": "Black Tortoise Promenade"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "How was your Buddha's Temptation soup? Shall we move on to the main course? "
+    },
+    {
+      "Name": "Rumi",
+      "Text": "I've made Happy Family. It has dried sea cucumber, abalone, and conch, stir-fried with vegetables. You'll also find bits of pork and shrimp."
+    },
+    {
+      "Text": "[ns] \"I-I-It's delicious! I've never had anything like it!\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Wonderful. As head chef, there's nothing I love hearing more than a customer enjoying their food. "
+    },
+    {
+      "Name": "Rumi",
+      "Text": "After you're done with that, the next course is a nice shrimp wonton soup."
+    },
+    {
+      "Text": "[s] \"You mean there's more?!\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Of course there's more. We've just started!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "After the main soup, there's also noodles and dessert."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "I've portioned out each course to get the most flavor out of each dish, so please enjoy."
+    },
+    {
+      "Text": "[s1] \"Th-Thank you, but I'm not sure if I can eat that much...\""
+    },
+    {
+      "Text": "[s2] \"The stomach of an adult is no match for a high schooler's...\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Ah, is that so?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "In that case... I wish you good luck!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "President, soup's ready. Shall I bring it out?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Not yet. Our guest... Sensei doesn't seem to be ready."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "But since you're here, why don't you say hello? Reijo here works hard to keep me safe."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "The name's Reijo. Nice to meet you, Sensei."
+    },
+    {
+      "Text": "[s] \"It's a pleasure, Rei.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Did you call me...Rei...?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Intriguing. No one has called me that before."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Rei... Shall I call you that from now on, too?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "...Please show mercy, President."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "But Sensei, I'm impressed. You threw me off balance with your opening move."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "In the movies, keeping your foe off balance is a fundamental skill in kung fu."
+    },
+    {
+      "Text": "[s] \"It's nothing like that! I'm just being friendly...\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Ah, using modesty to catch your opponent off guard... You know your stuff!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "That's enough, Reijo. You're making Sensei sweat."
+    },
+    {
+      "Text": "[s] \"Did I say something wrong...?\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Don't pay her any mind. Reijo is as sharp as they come...until you get her going on about kung fu."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "I will say, I didn't mind seeing her put you on the spot..."
+    },
+    {
+      "Text": "[s3] \"Anyway! Did you close the restaurant just to serve me today?\""
+    },
+    {
+      "Text": "[s4] \"I expected it would be more crowded here, to tell the truth.\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Ah... That's why I asked you here, actually..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Perhaps you should see this for yourself. If anything happens..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "...Reijo will keep you safe."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "I'll see to it, President."
+    },
+    {
+      "Text": "Rumi pointed behind her with her thumb."
+    },
+    {
+      "Text": "And then..."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Huh? You got a problem?"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "It's rude to point. Don't you know we're customers?"
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Black Tortoise Promenade's customer service is the worst!"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "This is why they got to resort to dirty business."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "So... As you can see..."
+    },
+    {
+      "Text": "[s] \"Who are they?\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "They're...members of Genryumon."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "They order a single plate of stir-fried eggs, then loiter in the restaurant for hours."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "All of our other customers are scared off..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "And not by the stir-fried eggs, of course!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Our egg dishes are affordable, but as delicious as any delicacy. It's a beautiful thing..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "But you see how it's a problem for someone to take up a table after ordering just one thing?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "It's an obstruction of our business."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Well, that's the whole reason they came here, isn't it?"
+    },
+    {
+      "Text": "[s] \"You can't ask them to leave?\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Erm... They're from Genryumon..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Maybe you don't know about the relationship between the Black Tortoise Promenade and Genryumon."
+    },
+    {
+      "Text": "[s5] \"I take it you don't get along very well.\""
+    },
+    {
+      "Text": "[s6] \"I heard nobody's willing to get between you two...\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "In a nutshell, yes. The truth is a bit more complex, of course..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Genryumon is basically the student council of Shanhaijing."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "To them, there's nothing more important than honor and tradition."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Some might say they value tradition a little too much..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "They don't 'value' tradition. They're obsessed with it."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "If they had their way, the Black Tortoise Promenade would be stuck making the exact same recipes for a thousand years!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Cooking must evolve! It must progress! If you always eat the same meal every day, is that really living?!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "They don't understand the work we do here at all! We're pushing the limits of cuisine itself...!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "You may want to lower your voice, Reijo..."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Hey! You guys talking about us?"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "Just you wait, you Tortoise punks. We'll bust you so hard your grandkids'll be born in handcuffs."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "...I was trying to avoid this."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Genryumon has its reasons for putting so much effort into upholding tradition..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "But sometimes I wish they could be a little more flexible about it."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "You can't run a large organization well without a little flexibility, you know."
+    },
+    {
+      "Text": "[s] \"I see. It IS complicated...\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "...Yes. This isn't something I can discuss openly, but I hear quite a bit of grumbling about how Genryumon runs things."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "And Genryumon doesn't exactly look on us with kind eyes."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "But things have come to a head lately. There's this rumor, you see..."
+    },
+    {
+      "Text": "[s] \"What kind of rumor?\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "There's a plant that grows only in Shanhaijing. Ten-thousand-year ginseng."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Because it's so hard to grow, its distribution and use are strictly controlled. And export of the ginseng is forbidden."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "But rumor has it that the Black Tortoise Promenade has been smuggling ten-thousand-year ginseng off campus."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Ever since, we've had Genryumon members as regular 'customers' while they 'investigate us.'"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "And, thanks to their charming attitudes, all of our actual customers have been frightened away..."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Call it a rumor all you want. You can't fool us."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "The Black Tortoise Promenade thinks it can get away with anything!"
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "But you keep bringing in garbage from the outside. It'll catch up with you sooner or later!"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "If you just followed Genryumon's rules to begin with, we wouldn't have to be here!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Reijo already explained this, but cooking that doesn't evolve is already dead."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "That's true of everything! We have to embrace new things as a society."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Believe what you want. That doesn't mean you can just ignore Genryumon's orders."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "Hell, the Black Tortoise Promenade wouldn't exist without Genryumon!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Fine, fine. Genryumon gives us so much. Can we move on now?"
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Backing down already? You're just as spineless as I thought!"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "You won't blow us off so easy. We know you're hiding something!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "If you say so. Have a nice day."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "So... Will you help us? I want to get to the bottom of these tensions between Genryumon and Black Tortoise Promenade."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "They come here and pick a fight, and you call it 'tensions'? We should be fighting back!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Do keep your temper, Reijo. Lashing out will only make things harder for us in the long run."
+    },
+    {
+      "Text": "[ns] \"You two are from Genryumon, right?\""
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Hmm? Who's asking? Don't think we'll go easy on you just 'cause you're an adult!"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "Maybe you're not from around here, but we all follow Shanhaijing's rules here. That includes you. "
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "And that means... I'd be careful of the company you keep, stranger. You might get mistaken for an enemy of Genryumon."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "So pick your friends wisely... Heh heh heh..."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Watch your manners! This is the Sensei from Schale."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Wh-What? From Schale...?"
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "Oh, geez. What do we do...?"
+    },
+    {
+      "Text": "[s] \"I'd like to meet the leader of Genryumon.\""
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "You wanna meet Madam Kisaki? Even if you really are THAT Sensei..."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "Y-Yeah! Not just anyone can get a meeting with the president! Even us..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Interesting. I didn't realize this was a decision the two of YOU could make."
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "What's that supposed to mean?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "I heard Schale was granted extrajudicial authority by the President of the General Student Council."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "And if Genryumon refused to meet with Sensei... I wonder what would happen?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Why...if Kronos caught wind of this, it would be major news..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Gosh! I suppose that all kinds of reporters and investigators from the outside would come flooding into Shanhaijing."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "W-Wait! Hold on! Let me think about this..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Don't take too long. A good businesswoman seizes on her ideas straight away."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "On second thought, take your time. The Black Tortoise Promenade could make a fortune feeding all those outsiders..."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "I should thank you for providing us with such a wonderful business opportunity!"
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Tch..."
+    },
+    {
+      "Name": "Genryumon Member B",
+      "Text": "F-Fine! I'll pass on your message, but don't say I didn't warn you!"
+    },
+    {
+      "Text": "[s] \"That's all I ever wanted.\""
+    },
+    {
+      "Name": "Genryumon Member A",
+      "Text": "Hmph...! This isn't over, Black Tortoise Promenade!"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Sensei used \"soft power\" to turn those punks' power against them... I need to take notes...!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Come back to us, Reijo. Not everything is kung fu."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Ultimately, the students who were sabotaging our business are gone. Thank you, Sensei."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "While I did enjoy watching our Genryumon friends twist in the wind, I assume you have a plan?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "You...don't...? You're just going to go there and talk things out...?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Goodness. That's rather simplistic."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Hahaha! I like it! Shall we head out, Reijo?"
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Are you sure this is a good idea?"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Yes. Besides...I have something to say to Kisaki as well."
+    },
+    {
+      "Text": "[s] \"Let's all go together.\""
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Understood. I'll do everything in my power to keep Sensei safe."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Marvelous. Thank you."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "But...we haven't finished our meal! Reijo, bring out the shrimp wonton soup, if you will."
+    },
+    {
+      "Name": "Reijo",
+      "Text": "Yes, ma'am! I'll be right back with the next course, Sensei."
+    },
+    {
+      "Text": "[ns] \"I only hope my stomach survives...\""
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Don't force yourself. You can leave anything you can't finish."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "There's nothing wrong with having plenty of leftovers, after all. Hahaha!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;กับแกล้มรสเลิศ"
+    },
+    {
+      "Text": "ย่านการค้าเทพเต่าดำ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ซุปพระกระโดดกำแพงร้อนๆ เป็นยังไงบ้างล่ะ? ถ้าหมดแล้วเราจะต่อด้วยเมนูผัดเลยนะ "
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ฉันลองทำผัดทะเลรวมมิตรด้วยนะ อาหารผัดที่ทำจากปลิงทะเลแห้ง หอยเป๋าฮื้อ หอยสังข์ และก็ผักต่างๆ ผสมเนื้อหมูกับกุ้งเป็นวัตถุดิบเสริมด้วย"
+    },
+    {
+      "Text": "[ns] \"อะ... อร่อย! เพิ่งเคยได้กินรสชาติแบบนี้ครั้งแรกเลย...!\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เยี่ยมเลย พอเห็นลูกค้ารับประทานอย่างเอร็ดอร่อย หัวหน้าเชฟก็ดีใจที่สุดเลยละนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "หมดจานนี้ก็เตรียมท้องสำหรับเมนูซุปต่อได้เลย เราจะเตรียมแกงจืดลูกชิ้นกุ้งให้"
+    },
+    {
+      "Text": "[s] \"ยังมีอีกเหรอ?!\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พูดอะไรน่ะ? เราเพิ่งเริ่มเองนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พอจบเมนูซุปแล้วก็ยังเหลือเมนูเส้นกับเมนูผักอีก"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ถึงจะแค่อย่างละคำ แต่ก็ไม่ต้องกลัวไม่อิ่มนะ ในหนึ่งคำมันจะมีปริมาณเท่าสองคำเลยละ"
+    },
+    {
+      "Text": "[s1] \"ครูก็ขอบใจหรอกนะ แต่กลัวว่าจะกินไม่ไหวนี่สิ...\""
+    },
+    {
+      "Text": "[s2] \"กระเพาะผู้ใหญ่… ย่อยได้ไม่ดีเหมือนเด็กม.ปลายหรอกนะ...\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "งะ... งั้นเหรอ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ถ้าฮึดสู้ก็ไหวน่า! สู้ๆ นะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ต้มซุปเสร็จแล้วค่ะท่านประธาน ให้เสิร์ฟตอนไหนดีคะ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "รออีกแป๊บนะ ลูกค้า... ไม่สิ คุณครูของเราเหมือนจะยังไม่พร้อมน่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ไหนๆ ก็มาแล้ว มาทำความรู้จักกันเอาไว้สิ คนนี้คือเรย์โจว เธอมาเป็นผู้พิทักษ์ให้ฉันน่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันเรย์โจวค่ะ ฝากตัวด้วยนะคะ คุณครู"
+    },
+    {
+      "Text": "[s] \"สวัสดีเรย์จัง!\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เรย์จัง... เหรอคะ?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ไม่คุ้นหูเลยค่ะ เพิ่งจะเคยถูกเรียกแบบนี้เป็นครั้งแรกเลยนะคะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เรย์จังเหรอ? เพราะดีนะ ต่อไปฉันเรียกแบบนี้ด้วยดีไหม?"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อย่าดีกว่าค่ะ ท่านประธาน"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "คุณครูเนี่ย เริ่มต้นบทสนทนาได้อย่างมีชั้นเชิงอย่างที่คนเขาลือกันมาเลยนะคะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ฉันเคยเห็นในหนังด้วยค่ะว่าการชิงเริ่มก่อนคือพื้นฐานของกังฟู"
+    },
+    {
+      "Text": "[s] \"เปล่านะ... ครูก็แค่ทักทายที่ยินดีที่เราได้รู้จักกันเฉยๆ...\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ถ่อมตนเพื่อที่จะทำให้อีกฝ่ายเองก็ประหม่าไปด้วย สมกับที่เป็นคุณครูจริงๆ ค่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พอเถอะเรย์โจว คุณครูทำตัวไม่ถูกแล้ว"
+    },
+    {
+      "Text": "[s] \"ครูไม่ได้พูดอะไรไม่ดีออกไปใช่ไหม?!\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ฮ่าฮ่าฮ่า ถึงเรย์โจวจะเป็นคนจริงจังกับทุกเรื่อง แต่ถ้าพูดเรื่องกังฟูเมื่อไร เธอจะกลายเป็นคนละคนเลยละ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พอได้เห็นคุณครูเลิกลั่กแบบนั้นก็ถือว่าคุ้มดีนะ"
+    },
+    {
+      "Text": "[s3] \"ว่าแต่... เป็นเฉพาะวันนี้หรือเปล่านะ? ทำไมลูกค้าถึง..."
+    },
+    {
+      "Text": "[s4] \"นอกจากครูแล้วก็ไม่เห็นลูกค้าคนอื่นเลย มีเรื่องอะไรหรือเปล่า?\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อ๋อ ลูกค้าเหรอ... พูดแทงใจดำเลยนะเนี่ย เรื่องนั้นน่ะ..."
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ก็นะ ได้มาเห็นกับตาแบบนี้ก็น่าจะดีเหมือนกัน ไม่เป็นไรหรอกนะ ถ้าเกิดว่ามีเรื่องอะไรขึ้นมาละก็..."
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เรย์โจวจะปกป้องคุณครูให้เองนะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "รับคำสั่งค่ะ ท่านประธาน"
+    },
+    {
+      "Text": "(รูมิใช้นิ้วโป้งชี้ไปที่ด้านหลัง)"
+    },
+    {
+      "Text": "(ทันใดนั้น...)"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "หา? อะไรน่ะ มีปัญหาอะไรรึไง?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "พวกเราเป็นลูกค้านะ อย่ามาชี้หน้ากันสิยะ!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "ทำไมย่านการค้าเทพเต่าดำถึงต้อนรับลูกค้าไม่ได้เรื่องแบบนี้เนี่ย"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "เพราะแบบนี้ไงถึงได้เป็นแม่ค้าใจแคบอยู่แบบนี้ โธ่เอ๊ย"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ก็นะ... สถานการณ์มันก็เป็นแบบนี้แหละ"
+    },
+    {
+      "Text": "[s] \"นักเรียนพวกนั้นคือใครเหรอ?\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เรียกว่าเป็น... สมาชิกมังกรดำก็แล้วกัน"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มาสั่งผัดไข่แค่จานเดียว แล้วก็นั่งพูดบ่นแบบนั้นมาหลายชั่วโมงแล้วน่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ลูกค้าคนอื่นไม่เข้าเพราะพวกนั้นเลย"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อ๊ะ ฉันไม่ได้จะบอกว่าผัดไข่เป็นอาหารที่ไม่ดีหรอกนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อาหารอร่อยที่ราคาย่อมเยาว์มันมีสุนทรียศาสตร์ในตัวอยู่แล้ว"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ปัญหาอยู่ที่พวกนั้นมาสั่งอาหารแค่จานเดียวแล้วนั่งแช่แบบนั้นน่ะสิ..."
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ว่ากันตามตรง ทำแบบนั้นมันคือการขัดขวางกิจการน่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ถึงเจตนาของพวกเธอจะเป็นอย่างนั้นมาตั้งแต่แรกก็เถอะ..."
+    },
+    {
+      "Text": "[s] \"ถ้ามาขัดขวางกันมากเกินไป เราก็ให้พวกนั้นออกจากร้านได้นี่นา?\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ว่าพวกนั้น... เป็นนักเรียนของมังกรดำเลยนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อ้อ หรือคุณครูจะยังไม่รู้เรื่องความสัมพันธ์ระหว่างมังกรดำและย่านการค้าเทพเต่าดำ"
+    },
+    {
+      "Text": "[s5] \"เคยได้ยินมาบ้าง เห็นว่าไม่ค่อยถูกกันเหรอ?\""
+    },
+    {
+      "Text": "[s6] \"ได้ยินว่าไม่มีใครอยากยุ่งเรื่องทะเลาะวิวาทของทั้งสองฝ่าย...\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ใช่... อันที่จริงเรื่องราวมันซับซ้อนกว่านั้นอยู่หน่อยน่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มังกรดำคือองค์กรในซานไห่จิง เป็นองค์กรที่คล้ายกับสภานักเรียนในโรงเรียนอื่น"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พวกเธอให้ความสำคัญกับความชอบธรรม ความร่วมมือ และขนบธรรมเนียมเหนือสิ่งอื่นใด"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ปัญหาคือพวกเธอให้ความสำคัญกับขนบธรรมเนียมมากเกินไปหน่อย..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "นั่นไม่ใช่การให้ความสำคัญกับขนบธรรมเนียมหรอกค่ะ มันคือการใช้ชีวิตแบบหมกมุ่นในขนบธรรมเนียมต่างหาก"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เรื่องอื่นฉันไม่รู้หรอก แต่การลดเกียรติของย่านการค้าเทพเต่าดำและอาหารของท่านประธานด้วยการ\nบอกว่านี่เป็นการขัดต่อขนบธรรมเนียมน่ะ ฉันยกโทษให้ไม่ได้หรอกค่ะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "อาหารต้องพัฒนาต่อไปค่ะ! เพราะถ้ากินแต่ของเดิมๆ เราจะเบื่อจนไม่อยากกินอะไรเลยไงคะ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ย่านการค้าเทพเต่าดำพยายามพัฒนาอาหารกันตั้งเท่าไหร่ ไม่รู้อะไรแล้วยังจะมาพูดอีก...!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เอาละๆ ใจเย็นก่อนนะ เรย์โจว ถ้าไม่อย่างนั้น..."
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "เหมือนตรงนั้นกำลังคุยเรื่องพวกเรากันอยู่นะ?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ฉันก็ได้ยิน งั้นฉันจะเปิดโปงให้หมดเลยว่าย่านการค้าเทพเต่าดำกำลังวางแผนร้ายอะไรกันอยู่"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มันก็จะเป็นแบบนี้ไงล่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มังกรดำก็คงมีเหตุผลที่ทางนั้นให้ความสำคัญกับขนบธรรมเนียมอยู่หรอกนะ..."
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ฉันก็อยากหาทางออก ไม่ให้กิจการมันหยุดชะงักไปเลยแบบนี้น่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แผนรับมือที่ยืดหยุ่นตามจังหวะและสถานการณ์คือหัวใจสำคัญของการบริการองค์กรนะ"
+    },
+    {
+      "Text": "[s] \"ฟังดู... ซับซ้อนจังเลยนะ...\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ถึงเราจะพูดออกมาตรงๆ ไม่ได้ แต่เอาเป็นว่ามีนักเรียนที่เกลียดมังกรดำอยู่ไม่น้อยเลยละ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แถมมังกรดำก็ไม่ได้มองย่านการค้าเทพเต่าดำของเราในแง่ดีขนาดนั้นด้วย"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่เมื่อไม่นานมานี้มีข่าวลือน่าตะขิดตะขวงใจ เพราะมันเกี่ยวกับย่านการค้าเทพเต่าดำของเรา"
+    },
+    {
+      "Text": "[s] \"ข่าวลือน่าตะขิดตะขวงใจ?\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ที่ซานไห่จิงมีพืชหายากที่ชื่อว่าโสมหมื่นปีค่ะ แล้วมันก็มีแค่ที่นี่เท่านั้นด้วย"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เนื่องจากมีปริมาณจำกัด โสมหมื่นปีก็เลยถูกควบคุมการส่งออกอย่างเข้มงวด"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "แต่กลับมีข่าวลือว่าย่านการค้าเทพเต่าดำของเราส่งโสมหมื่นปีออกไปข้างนอกสถาบันโดยผสมไป\nกับวัตถุดิบอาหารน่ะค่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "สมาชิกมังกรดำก็เลยใช้ข้ออ้างนั้นมาตรวจสอบพวกเราแล้วก็เริ่มนั่งแช่ในร้าน"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พอบรรยากาศเริ่มไม่ชอบมาพากลแบบนี้ ลูกค้าก็เลยไม่ค่อยเข้าร้านกัน เฮ้อ..."
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "สรุปก็เป็นไปตามข่าวลืองั้นเหรอ?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ฉันไม่ชอบมานานแล้ว ย่านการค้าเทพเต่าดำเนี่ย!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "เป็นเพราะย่านการค้าเทพเต่าดำนำเข้าวัตถุดิบนู่นนี่จากภายนอกตามอำเภอใจแน่ๆ!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ถ้ายอมทำตามคำสั่งของมังกรดำอย่างว่าง่าย ก็คงไม่โดนสงสัยตั้งแต่แรกหรอก!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ดูสิๆ  เรย์โจวบอกไปแล้วไม่ใช่เหรอว่าอาหารที่ไม่มีการพัฒนา มันก็ไม่ต่างอะไรกับอาหารที่ตายไปแล้ว\nหรอกนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "และถ้าเราอยากพัฒนาอะไรสักอย่าง เราก็ต้องนำเข้าวัตถุดิบที่หลากหลาย"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "ฉันไม่สนเรื่องพรรค์นั้นหรอกนะ คิดจะทำมาค้าขายในซานไห่จิงโดยไม่ทำตามคำสั่งของมังกรดำงั้นเหรอ?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "อย่าลืมล่ะว่าย่านการค้าเทพเต่าดำมีทุกวันนี้ได้เพราะมังกรดำ!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เลิกพูดเรื่องนี้สักทีเถอะ แบบนี้วันนี้ทั้งวันฉันคงได้ฟังแต่เรื่องไร้สาระกันพอดี"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "อะไร กลัวหรือไง? ก็สมควรกลัวนะ!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "พวกวัวสันหลังหวะ ทำผิดแล้วคอยระแวงว่าคนอื่นจะรู้ละสิ!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "โอเคๆ พวกเธอว่าไงก็คงเป็นงั้นแหละ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ทั้งหมดนี้ก็คือ... ข้อมูลงานที่จะจ้างวาน คุณครูพอจะช่วยพวกฉันได้หรือเปล่าล่ะ? ฉันอยากคลายความเข้าใจผิดระหว่างย่านการค้าเทพเต่าดำกับมังกรดำน่ะ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "จะบอกว่าการประณามอยู่ฝ่ายเดียวคือความเข้าใจผิดมันก็แปลกๆ นะคะ! ถ้าแรงมาเราก็ต้องแรงกลับค่ะ แล้วก็ต้องแรงกว่าด้วย!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ใจเย็นน่า เรย์โจว ทำใจร่มๆ เข้าไว้ เอาเหล็กไปงัดเหล็ก มันไม่มีอะไรดีขึ้นหรอกนะ"
+    },
+    {
+      "Text": "[ns] \"พวกเธอคือสมาชิกมังกรดำใช่ไหม?\""
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "หืม? ใครอีกล่ะเนี่ย?! คิดว่าพอเป็นผู้ใหญ่จากต่างถิ่นแล้วเราจะอะลุ่มอล่วยให้งั้นเหรอ?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ตราบใดที่เข้ามาเหยียบซานไห่จิงแล้ว ต่อให้เป็นคนนอกก็ต้องทำตามกฎของซานไห่จิง! "
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "และยิ่งอยู่ย่านการค้าเทพเต่าดำนานเท่าไหร่ ก็จะยิ่งถูกมองว่าเป็นพวกต่อต้านมังกรดำมากขึ้นเท่านั้น!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ทำตัวให้ดีๆ เข้าละ ฮึฮึฮึ..."
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "พูดเกินไปหรือเปล่าคะ? ท่านนี้คือ 'คุณครู' จากชาเล่ต์นะคะ"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "หือ... ว่าไงนะ? คุณครูจากชาเล่ต์เหรอ...?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "จะ...เจอแบบนี้แล้วต้องทำยังไงล่ะเนี่ย?"
+    },
+    {
+      "Text": "[s] \"ครูอยากเจอหัวหน้ามังกรดำหน่อยได้ไหม?\""
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "เจอท่านประมุขคิซากิเหรอ? ตะ... แต่ถึงจะเป็นคุณครู ก็ใช่ว่าจะเจอได้นะ..."
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "ชะ... ใช่! ไม่ใช่ว่าทุกคนจะเข้าพบท่านประมุขได้หรอกนะ! ขนาดพวกเราเองยังยากเลย...!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "โฮ้ นี่พวกเธอตัดสินปัญหานั้นกันเองได้ด้วยงั้นเหรอเนี่ย?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "หมายความว่ายังไงน่ะ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ได้ยินว่าที่ชาเล่ต์ถือสิทธิ์อำนาจบางอย่างจากประธานองค์การนักเรียนด้วย"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ถ้าปฏิเสธไม่ให้คุณครูจากชาเล่ต์เข้าพบ มันจะเกิดอะไรขึ้นนะ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ฉันจะต้องไม่พลาดสกู๊ปพิเศษจากช่องโครโนสแน่นอน"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อ้อ แล้วถ้าเป็นแบบนั้นขึ้นมา คลื่นความสนใจลูกใหญ่จะพัดมาสู่ซานไห่จิงหรือเปล่านะ?"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "เดี๋ยวก่อน เดี๋ยวก่อน! ช้าก่อน! ขอฉันคิดก่อนสิ!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "จะต้องคิดอะไรล่ะ การลงมือทำทันทีหลังจากมีความคิดริเริ่มเป็นหนึ่งในพื้นฐานของการทำธุรกิจเลยนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่ก็เอาเถอะ... ถ้าเป็นแบบนั้นขึ้นมาจริงๆ อย่างน้อยก็ถือว่ามันเป็นโอกาสของย่านการค้าเทพเต่าดำนะ ได้ขายอาหารให้คนนอกสักคนละชาม คงจะทำเงินได้ไม่ใช่น้อยๆ เลยละ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ขอโทษที่ไม่ทันได้คิดนะ นี่ฉันเกือบจะพลาดน้ำใจอันยิ่งใหญ่จากมังกรดำที่มีต่อย่านการค้าเทพเต่าดำ\nไปซะแล้ว"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "หืม...?!"
+    },
+    {
+      "Name": "สมาชิกมังกรดำ B",
+      "Text": "กะ... ก็ได้! พวกฉันจะไปบอกท่านประมุขให้! แต่ไม่รู้ด้วยนะว่าผลจะออกมาเป็นยังไง!"
+    },
+    {
+      "Text": "[s] \"แค่นั้นก็พอแล้วละ\""
+    },
+    {
+      "Name": "สมาชิกมังกรดำ A",
+      "Text": "ชิ เดี๋ยวเราได้เห็นดีกันแน่ ย่านการค้าเทพเต่าดำ!"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "นี่มันกลยุทธ์ในการยืมมือฝ่ายตรงข้ามของกังฟู... พิชิตความแข็งแกร่งด้วยความอ่อนโยน... จดไว้ๆ..."
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "เปล่าสักหน่อย ไปกันใหญ่แล้วเรย์โจว"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "สุดท้ายพวกที่มาขัดขวางกิจการก็ยอมออกไปเองจนได้ ขอบคุณนะคุณครู"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "พอเห็นพวกมังกรดำทำตัวไม่ถูกมันก็ดีอยู่หรอกนะ ว่าแต่เราจะเอายังไงต่อดี?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ว่าไงนะ? ไม่มีแผนอะไรงั้นเหรอ? ลองนัดพูดคุยก่อนแล้วค่อยว่ากันงั้นเหรอ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "คุณครูก็มีมุมตอนที่ทำอะไรโดยไม่วางแผนก่อนเหมือนกันสินะ?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ฮ่าฮ่าฮ่า แบบนี้ละถูกใจฉันเลย ถ้างั้นเราก็ออกไปกันเถอะเรย์โจว"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "จะไม่เป็นอะไรเหรอคะ ท่านประธาน?"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ไม่เป็นไรหรอก อีกอย่าง... ฉันมีเรื่องจะคุยกับคิซากิด้วยอยู่พอดีเลย"
+    },
+    {
+      "Text": "[s] \"พวกเราก็ไปด้วยกันหมดนี่แหละ\""
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "เข้าใจแล้วค่ะ ถ้าเกิดเรื่องฉุกเฉินอะไรขึ้นมา ฉันจะให้ความสำคัญกับคุณครูก่อนค่ะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "อืม งั้นฝากด้วยนะ"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "แต่กองทัพต้องเดินด้วยท้องนะ เรย์โจว ขอซุปลูกชิ้นกุ้งชามหนึ่งทีสิ"
+    },
+    {
+      "Name": "เรย์โจว",
+      "Text": "ค่ะ รอสักครู่นะคะ คุณครู"
+    },
+    {
+      "Text": "[ns] \"กระเพาะครูจะไหวไหมนะ...\""
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ไม่ต้องฝืนกินเข้าไปหรอกนะ ถ้าไม่ไหวก็เหลือเอาไว้ก็ได้"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "ก็การเตรียมอาหารให้กินอย่างอิ่มหนำสำราญคือความภาคภูมิใจของเรายังไงล่ะ ฮ่าฮ่าฮ่า"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;山珍海味：珍饈佳餚"
+    },
+    {
+      "Text": "山海經．玄武商會"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "前菜的佛跳牆味道如何？\n我這就去把主菜拿來哦。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "這道是全家福。\n是用乾海參、鮑魚、螺肉、蝦子、豬肉，以及各種蔬菜一起燉煮的料理。"
+    },
+    {
+      "Text": "[ns]「真，真好吃！第一次嚐到這種味道……！」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "那真是太好了。\n身為主廚，沒有比聽見客人說「好吃」更讓人開心的事了。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "那麼下一道是湯品，鮮蝦丸子湯！"
+    },
+    {
+      "Text": "[s]「菜還沒上完嗎！？」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "你在說什麼呢？好菜還在後頭呢。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "喝完湯之後，還有主食跟點心在等著哦。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "每道都是我們店裡自豪的美味，希望你務必品嘗看看！"
+    },
+    {
+      "Text": "[s1]「你的心意我很高興，但我可能無福消受……」"
+    },
+    {
+      "Text": "[s2]「大人的腸胃並沒有女高中生那麼強健……」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "是，是嗎……？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "不過老師接下來就要開始忙碌了，不多吃一點可不行啊！"
+    },
+    {
+      "Name": "令女",
+      "Text": "瑠美會長，這道菜何時呈上比較好呢？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "先等一會吧。\n老師他還只吃到一半……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊，對了。既然都來了就打個招呼吧？\n老師，這孩子叫令女。負責我的護衛。"
+    },
+    {
+      "Name": "令女",
+      "Text": "我是鹿山令女。還請您多多指教。"
+    },
+    {
+      "Text": "[s]「你好呀，令醬。」"
+    },
+    {
+      "Name": "令女",
+      "Text": "令……醬……？"
+    },
+    {
+      "Name": "令女",
+      "Text": "被別人這麼稱呼，這還是，第一次……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊哈哈，令醬啊。\n真不錯呢。之後我也這樣叫你怎麼樣？"
+    },
+    {
+      "Name": "令女",
+      "Text": "瑠美會長，這樣有點……"
+    },
+    {
+      "Name": "令女",
+      "Text": "……原來如此。\n只要先掌握對話的主導權就行了是嗎。"
+    },
+    {
+      "Name": "令女",
+      "Text": "我從電影裡學過，在功夫裡「先發制人」是很重要的。"
+    },
+    {
+      "Text": "[s]「不是……我只是想打好關係而已……」"
+    },
+    {
+      "Name": "令女",
+      "Text": "為了讓對方放鬆戒備，自然而然地展現出謙遜的態度……\n這就是……夏萊的老師。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "好了好了，令女。\n就此打住吧，老師都不知如何是好了。"
+    },
+    {
+      "Text": "[s]「你們是不是誤會了什麼！？」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊哈哈，他平時總是很冷靜的說。\n但只要一談到功夫就會顧不得四周。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "不過能看到老師有點不知如何是好的表情，對我來說也挺有趣的。"
+    },
+    {
+      "Text": "[s3]「話說，我從剛才開始就沒看到有客人……」"
+    },
+    {
+      "Text": "[s4]「莫非，跟請我過來的原因有關嗎？」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊哈哈……這個嘛。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "是因為──不，與其在這裡說明，還是讓老師看看那個比較快吧。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "令女，老師就拜託你囉。"
+    },
+    {
+      "Name": "令女",
+      "Text": "遵命，會長。"
+    },
+    {
+      "Text": "（瑠美沒有回頭，就這麼將大拇指指向了背後）"
+    },
+    {
+      "Text": "（將視線越過其肩膀一看……）"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "……有事嗎？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "竟敢對「客人」指指點點的，看來是欠缺教育啊。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "要是玄武商會的待客之道是這副德行的事傳出去……\n可能會影響店裡評價的哦？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "所以才說這些因為是名店就得意忘形的傢伙們實在是……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "嗯，事情就如你所見。"
+    },
+    {
+      "Text": "[s]「那些學生們是誰？」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "──是玄龍門的成員哦。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "只點一份炒蛋就像那樣坐了好幾個小時。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "害的其他客人根本無法靠近。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊，當然，就算客人只點一道菜我也很高興哦。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "能輕鬆的品嘗到，這本來就是大眾料理的好處。\n能讓客人快樂地與朋友一邊享用一邊閒話家常，對我們來說也就有料理的價值了……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "硬要說的話，比起長時間佔用位置，那樣吵吵鬧鬧的才是最大的問題……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "老實說，這已經是妨礙營業的等級了。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "雖然這本來就是他們的目的就是了……"
+    },
+    {
+      "Text": "[s]「……不能請他們出去嗎？」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "這個嘛……他們畢竟是玄龍門的學生，我們實在沒辦法這麼做。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊，老師應該不清楚吧……玄龍門和我們玄武商會之間的關係。"
+    },
+    {
+      "Text": "[s5]「聽說你們的關係並不是很好？」"
+    },
+    {
+      "Text": "[s6]「聽說沒有人會想介入雙方之間的紛爭……」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "是呢……因為一些複雜的原因。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "玄龍門是山海經的學生會組織──"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "相當重視俠與義，將傳統奉為最高價值。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "重視傳統的心情，我也不是不能理解……"
+    },
+    {
+      "Name": "令女",
+      "Text": "但是那已經不是重視傳統了。\n只是以傳統的名義恐懼著變化而已。"
+    },
+    {
+      "Name": "令女",
+      "Text": "雖然不知道其他地方被如何對待，但是將玄武商會……\n將瑠美會長的料理，只因為違背傳統就加以貶低實在是不可饒恕！"
+    },
+    {
+      "Name": "令女",
+      "Text": "料理必須不斷進步才行！\n沒有變化的餐桌，終究會有吃膩的一天！"
+    },
+    {
+      "Name": "令女",
+      "Text": "他們知道玄武商會是多麼努力嗎！\n明明對我們的情況一無所知卻還……！"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "我沒事的，冷靜點吧，令女。\n那麼大聲的話──"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "……你們好像在說什麼有趣的事嘛？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "我們可是全都聽見了。\n你們這些傢伙的企圖，我們會一個一個查清楚的。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "……就會變成這樣。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "我能理解玄龍門方面應該也是有相應的理由才會這麼做……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "只是覺得那種保守的營運方針不能改一改嗎～之類的。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "組織也是要配合時代而變化的，不是嗎？"
+    },
+    {
+      "Text": "[s]「真是複雜的問題呢……」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "大家表面上雖然沒有多說什麼，\n但是對玄龍門的體制抱持反感的學生不在少數。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "也是因為這樣，玄龍門才會格外敵視我們吧……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "而且最近還開始出現與商會有關的、小～小的負面傳言。"
+    },
+    {
+      "Text": "[s]「負面傳言？」"
+    },
+    {
+      "Name": "令女",
+      "Text": "在山海經能夠採集到一種名叫「萬年蔘」的植物──"
+    },
+    {
+      "Name": "令女",
+      "Text": "由於採集量有限且稀有價值高，所以對外的輸出受到了嚴格的管制──"
+    },
+    {
+      "Name": "令女",
+      "Text": "然而近期卻出現了[ruby=我們]玄武商會[/ruby]向學園外部走私「萬年蔘」的傳聞……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "於是玄龍門的成員便以調查為藉口，開始窩在店裡不走。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "這樣一來，客人們要怎麼開心享用食物呢……唉。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "那真的只是「傳聞」而已嗎？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "不，我並不這麼認為。\n畢竟玄武商會總是擅自把外部的東西帶進來。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "都是因為這樣，山海經的傳統才會漸漸式微！"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "要是你們有乖乖服從玄龍門，根本就不會被懷疑。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "傳統雖然重要，不過要是害怕變化是不會有未來的。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "首先應該要將態度放軟，接受各種新事物才對。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "我們才不管那些。\n再說了，你們反抗玄龍門的指示，還妄想能在山海經做生意嗎？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "可別忘了一切都是因為有玄龍門才會存在的。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "唉……繼續說下去也得不出結論呢。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "怎麼，你怕了嗎？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "是因為有見不得人的事才會不想跟我們說話吧？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "是是是，就當作是那樣吧。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "事情就是這樣……委託的內容從剛才的對話應該大概能明白了吧。\n我希望能解開「誤會」──老師，你願意幫忙嗎？"
+    },
+    {
+      "Name": "令女",
+      "Text": "明明是單方面遭到誹謗，這怎麼會是「誤會」呢！？\n瑠美會長想得太天真了！不更強勢一點的話……！"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "令女，冷靜一點。\n正面硬碰硬只會造成反效果。"
+    },
+    {
+      "Text": "[ns]「你們兩位是玄龍門的學生對吧？」"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "……嗯，你是哪位？\n與事情無關的大人還是少多管閒事吧。"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "就算是外地人，既然進到山海經就要遵守[ruby=我們]山海經[/ruby]的規定。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "也就是說──長時間待在玄武商會，就會被視為他們那邊的人。"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "站在哪邊才是有利的，你不可能分不出來吧。\n咯咯咯……"
+    },
+    {
+      "Name": "令女",
+      "Text": "勸你們說話還是注意點比較好。\n這位是夏萊的「老師」。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "什麼？夏萊的老師……？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "喂，喂……該怎麼辦！？"
+    },
+    {
+      "Text": "[s]「能讓我見見玄龍門的代表嗎？」"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "就，就算是夏萊的老師，這也……"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "沒，沒錯！\n門主大人可不是那麼輕易就能見到的！"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "嘿～那是你們可以擅自決定的事嗎？"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "你，你什麼意思？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "你們也知道夏萊是聯邦學生會長承認的超越法規的機關對吧？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "隨意對待夏萊的老師真的沒問題嗎～？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "我想……至少克洛盧斯頻道是絕對不會放過這則頭條的哦。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "這樣一來山海經的氣氛是不是會變得更～好呢？"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "先先先，先等一下！\n給我一點思考的時間！！"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "說什麼傻話。任何事情都必須當機立斷。\n否則該怎麼做生意啊。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "不過……這對我們來說也是個機會。\n要是外地的客人大量湧入的話，我們也會變得更加繁盛吧？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊啊，你們一開始就是這麼打算的啊。沒能理解你們的用心良苦真抱歉呢？\n沒想到玄龍門居然會抱持著如此寬大的心胸給我們機會。"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "呿……！"
+    },
+    {
+      "Name": "玄龍門成員B",
+      "Text": "我，我知道了。我會轉達門主大人。\n但是如果被拒絕了可別找我抱怨啊。"
+    },
+    {
+      "Text": "[s]「這樣就夠了。」"
+    },
+    {
+      "Name": "玄龍門成員A",
+      "Text": "呿……給我記住，玄武商會。"
+    },
+    {
+      "Name": "令女",
+      "Text": "化解對方攻擊的化勁技術，居然在戰鬥以外的地方也能活用……\n這就是夏萊老師的力量……"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "不，不是那樣的。\n令女，快從功夫的世界裡回來。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "真是幫大忙了，謝謝你，老師。\n被這樣懲罰之後，短時間內應該不會再來了吧？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "不過老師，你具體來說打算怎麼做呢？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "咦？見面之後總會有辦法……？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "啊哈哈，原來老師也有走一步算一步的時候啊？\n我越來越喜歡老師了呢。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "好，令女。\n那麼我們也走吧？"
+    },
+    {
+      "Name": "令女",
+      "Text": "真的沒問題嗎，會長？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "沒事沒事。總會有辦法的。\n而且我也有話想對妃姬說。"
+    },
+    {
+      "Text": "[s]「那我們出發吧。」"
+    },
+    {
+      "Name": "令女",
+      "Text": "……遵命。\n要是有什麼萬一，我會以老師的安全為第一優先。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "嗯，拜託你囉。"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "……但是，在那之前。雖然受到了一點妨礙，還是要享用完料理哦。\n令女，可以把鮮蝦丸子湯再熱一熱嗎？"
+    },
+    {
+      "Name": "令女",
+      "Text": "遵命，瑠美會長。"
+    },
+    {
+      "Text": "[ns]「吃這麼多還動的了嗎……」"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "已經飽了的話，剩下來也沒關係唷？"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "畢竟這也就代表我們準備的「招待」豐盛到吃不完嘛，啊哈哈。"
+    }
+  ]
+}

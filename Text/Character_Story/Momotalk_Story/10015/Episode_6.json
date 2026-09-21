@@ -1,0 +1,2537 @@
+{
+  "TitleJP": "アリスの花丸シール",
+  "TitleKR": "아리스와 칭찬 스티커",
+  "TitleEN": "Aris and the Praise Stickers",
+  "TitleTH": "อาริสึกับสติกเกอร์คำชม",
+  "TitleTW": "愛麗絲與花丸貼紙",
+  "DescJP": "ゲーム開発部に先生を呼び出したアリスは、「先生の花丸シール」を見せながら、配るのを手伝ってほしいとお願いする。そうして全てのシールを配り終えた後、先生のために作ったもう一つのシールを手渡してくれるのだった。",
+  "DescKR": "게임개발부로 선생님을 부른 아리스는, <선생님의 칭찬 스티커> 실물 굿즈를 보여주며 모두에게 나눠 주자고 이야기한다. 모든 스티커를 나눠준 뒤, 아리스는 특별히 선생님을 위해 따로 만든, 또 다른 스티커를 건네주는데……",
+  "DescEN": "Aris calls Sensei to the Game Development Department. She reveals a set of real-life \"Sensei's Praise Stickers\" and suggests distributing them to the students. After handing them all out, Aris gives Sensei a special sticker she made just for them.",
+  "DescTH": "อาริสึเรียกให้คุณครูมาหาที่ชมรมพัฒนาเกม แล้วเอา <สติกเกอร์คำชมจากคุณครู> ให้ดูพร้อมเสนอว่าจะเอาไปแจกทุกคน หลังจากแจกสติกเกอร์จนหมด อาริสึก็ยื่นสติกเกอร์อื่นที่เธอทำขึ้น\nเป็นพิเศษให้คุณครู...",
+  "DescTW": "愛麗絲找老師到遊戲開發部，展示了「老師的花丸貼紙」的實品，並提議發給大家。發完所有貼紙後，愛麗絲拿出了另一張專門為老師特製的貼紙……",
+  "DialogJP": [
+    {
+      "Text": "アリスの花丸シール"
+    },
+    {
+      "Text": "（アリスと会うために、ゲーム開発部の部室へ向かった）"
+    },
+    {
+      "Text": "（到着した途端……）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "先生――！！！"
+    },
+    {
+      "Text": "[s] \"アリス～～！！！\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "本物の先生です！"
+    },
+    {
+      "Text": "（アリスは いきおいよく とびついた！）"
+    },
+    {
+      "Text": "（せんせいは たおれそうになった！）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "待ってましたよ！"
+    },
+    {
+      "Text": "[s] \"私も会いたかったよ。それで見せたいものって……？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "ふっふっふ、それは……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "こちらです！"
+    },
+    {
+      "Text": "（アリス は バッジのようなものを さしだした！）"
+    },
+    {
+      "Text": "[ns1] \"……バッジ？\""
+    },
+    {
+      "Text": "[ns2] \"「Good job」……って書いてある。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "バッジではなく、「花丸シール」です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "どこから説明しましょうか……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "以前、みんなでローグライクゲームを作りました。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "その中には滅多に手に入らない、とても運気の上がるアイテムがあったんです。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それがこの「先生の花丸シール」です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "持っているだけで強くなり、幸運値のステータスも上がる……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "とってもすごいアイテムなんです！"
+    },
+    {
+      "Text": "[s3] \"なるほど……。\""
+    },
+    {
+      "Text": "[s4] \"それをこうして、実際に作ってみたと。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "その通りです！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "というわけで先生、アリスと冒険に出ましょう！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "このシールを沢山配らないと！"
+    },
+    {
+      "Text": "（元気いっぱいのアリスに手を引かれ、外へ向かった）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "こんにちは！"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "やっ、アリス。\nそれに先生も、こんにちは。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "今日はどうしたの？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "「よくできましたシール」です！"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "「Good job」……へぇ、何だか嬉しいね。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "要するに、褒めてくれてるってこと？"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "先生も、ありがとうございます。"
+    },
+    {
+      "Text": "[s] \"うん、何か理由があったわけじゃないんだけど。\""
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "ふふっ。それでも、ありがとうございます。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "大切にするね、アリス。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい、絶対に良いことが起こるはずです！\nゲームでも幸運値が上がるので！"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "なるほど……ま、運に頼りたくなる時はあるよね。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "新素材の開発なんてのは、運次第みたいなところもあるし。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "乳鉢に素材を入れて、一つひとつ丁寧に擦って、焼いて――"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "それを今度は砕いて、混ぜて、回して、振って……。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "どれだけ考えても、何度繰り返しても……最後は祈るしかない。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "というわけで……次こそお願いします、「よくできましたシール」様！！！"
+    },
+    {
+      "Text": "[s] \"い、色々と大変なんだね……。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスも詳しくは知りませんが……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "きっと大丈夫です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "さあ、どんどん行きましょう！"
+    },
+    {
+      "Name": "新素材開発部員B",
+      "Text": "みんな、ちょっと来て！\n今、新しい数値が出た！"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "嘘！？"
+    },
+    {
+      "Name": "新素材開発部員B",
+      "Text": "本当だってば！"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "まさか……。"
+    },
+    {
+      "Name": "新素材開発部員A",
+      "Text": "……あのシールの効果？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "では、アリスはそろそろ行きます！\n上手くいきますように！"
+    },
+    {
+      "Name": "ミレニアムの生徒A",
+      "Text": "ありがとね、アリス。\nサーバーの相手してると、祈ることが多くて……。"
+    },
+    {
+      "Name": "ミレニアムの生徒A",
+      "Text": "あれ……？"
+    },
+    {
+      "Name": "ミレニアムの生徒A",
+      "Text": "サーバーエラーが直ってる……！？"
+    },
+    {
+      "Name": "ミレニアムの生徒B",
+      "Text": "お、これが例の「よくできましたシール」？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスと先生からのプレゼントです！\n大切にしてくれると嬉しいです！"
+    },
+    {
+      "Name": "ミレニアムの生徒B",
+      "Text": "勿論だよ、ありがとう。"
+    },
+    {
+      "Name": "ミレニアムの生徒B",
+      "Text": "っ……学食の抽選当たった！3等賞！"
+    },
+    {
+      "Name": "ミレニアムの生徒B",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミレニアムの生徒B",
+      "Text": "よっしゃ、今日は唐揚げも追加で！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "これを着けると、遠赤外線とマイナスイオンで血行が良くなります！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "銃の汚れを減らしたり、弾詰まりをなくしたりする効果まで！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "その名も、げるげるゲルマニウム・ブレスレット！！！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "……。"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "はぁ、全然売れないな……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "こんにちは！何か困ってるんですか？"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "えっ？"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "特に無……くもないかな。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ではこちらを！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "「よくできましたシール」です！幸運値のステータスを上げてくれます！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "ちょっ、押し売り！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "いえ、プレゼントです！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "みなさんに、幸せになってほしいので！"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "な、何なんだ……？"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "……ん？"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "……ず、ずっと詰まってた薬莢が、勝手に排出された！？"
+    },
+    {
+      "Name": "疑似科学部員",
+      "Text": "おかしいな。\nげるげるゲルマニウム・ブレスレットには、何の効果も無いはずだし……。"
+    },
+    {
+      "Text": "（アリスと一緒に、よくできましたシールを配り終え……）"
+    },
+    {
+      "Text": "（部室に戻って、二人でゲームをすることに）"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ありがとうございます、先生。"
+    },
+    {
+      "Text": "[s] \"ん？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "今日、アリスと一緒にいてくれたこと。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それに今こうして、一緒にゲームをしてくれることも！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ゲーム開発部でも、よく一緒にゲームはしますが……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "先生と二人で遊べる時間は、珍しいですから。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスにとってこれは、大事な経験値獲得チャンスです！"
+    },
+    {
+      "Text": "[s] \"なるほど……？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "なのでアリスは、こうして先生と一緒に過ごせて、とっても嬉しいです！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "どれくらい嬉しいかと言うと……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "二人でパーティーを組んで、この「花丸シール」を装備すれば……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "三日間徹夜で、ゲームができそうなくらいです！"
+    },
+    {
+      "Text": "[s5] \"そ、それはあんまり良くないかな……？\""
+    },
+    {
+      "Text": "[s6] \"三日の徹夜はもう厳しい……。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "そ、そうでしたか……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ですが、この「花丸シール」の効き目は本当にすごいんです！\nアリスもそうでした！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "格闘ゲームで体力が1ドットしか残っていない時に、\n相手の必殺技をジャストガードして――"
+    },
+    {
+      "Name": "アリス",
+      "Text": "レイジ状態から逆転、一撃の超必殺技を決められましたから！"
+    },
+    {
+      "Text": "[s] \"それはすごい！？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！\nモモイとの試合で、一度だけですが！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "その日の部室は――"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それは、それはもう……！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "爆発寸前の盛り上がりでした！"
+    },
+    {
+      "Text": "[s]\"私も見てみたかったなぁ……。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "……あっ。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "思えば、先生にシールを渡しそびれていました！"
+    },
+    {
+      "Text": "[s] \"あ、そういえば？\""
+    },
+    {
+      "Text": "[ns7] \"でも、貰っちゃって良いの？\""
+    },
+    {
+      "Text": "[ns8] \"これ「先生のよくできましたシール」じゃ……？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "確かにそうかもしれませんが……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "……大丈夫です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "実はアリス、先生専用の「アリスのよくできましたシール」を作っておいたんです！2枚だけ！"
+    },
+    {
+      "Text": "[s] \"「アリスのよくできましたシール」？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！\nこれは――"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスが先生を褒めるための「よくできましたシール」です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "先生のシールほど万能ではないですし、幸運値も上がらないかもしれませんが……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それでも、受け取ってもらえたら嬉しいです！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "これがあると、いつも繋がってるような気がします。"
+    },
+    {
+      "Text": "[ns] \"ありがとね、アリス。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい、先生。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "やっぱりアリスは、先生のことが大好きです。"
+    },
+    {
+      "Text": "[s] \"私も大好きだよ。\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "ありがとうございます！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "そしてこの隙に！二連続で葉蛾扇、そしてジャンプ強キックからの強パンチスタン……！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "そしてスペシャルアーツ、レベル3です！！！"
+    },
+    {
+      "Text": "[ns9] \"や、やられた！！！\""
+    },
+    {
+      "Text": "[ns10] \"感動してる間にウルトラコンボが！？\""
+    },
+    {
+      "Name": "アリス",
+      "Text": "ふっふっふ、血も涙も師弟の情も通じない修羅の道――"
+    },
+    {
+      "Name": "アリス",
+      "Text": "――これこそ、格ゲーの世界です！"
+    },
+    {
+      "Text": "（その後も、二人で仲良くゲームを続けた）"
+    },
+    {
+      "Text": "（アリスは対戦の合間、「アリスのよくできましたシール」を宝物のように見つめていた）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "아리스와 칭찬 스티커"
+    },
+    {
+      "Text": "(아리스의 말대로, 게임개발부실로 향했다.)"
+    },
+    {
+      "Text": "(그때……!)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "선생님!!!"
+    },
+    {
+      "Text": "[s] \"아리스!!!\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "와아! 선생님입니다!"
+    },
+    {
+      "Text": "(아리스가 있는 힘껏 달려와 안겼다!)"
+    },
+    {
+      "Text": "(선생님은(는) 거의 넘어질 뻔했다!)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "어서 오세요, 선생님! 기다리고 있었습니다!"
+    },
+    {
+      "Text": "[s] \"응! 그런데 보여 주고 싶다는 게 뭐야?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "후. 후. 후……. 그건 말이죠……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "이것입니다!"
+    },
+    {
+      "Text": "(아리스는(은) 작은 플라스틱 배지 같은 것을 건네 왔다!)"
+    },
+    {
+      "Text": "[ns1] \"이건…… 배지, 같은 거야?\""
+    },
+    {
+      "Text": "[ns2] \"'Good Job'이라고 쓰여 있네?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "배지가 아니라 <선생님의 칭찬 스티커> 실물 굿즈입니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그게 뭐냐고요? 어어, 그러니까……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "예전에, 모두와 힘을 합쳐 만들었던 로그라이크 게임이 있었습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "거기에서 정말 얻기 힘든, 행운의 유니크 아이템을 만들었는데……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그것이 <선생님의 칭찬 스티커>였습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "장비하거나 사용하지 않아도, 그저 인벤토리에 가지고만 있어도, 캐릭터가 강해지고 행운이 올라가는……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "정말 좋은 아이템이었습니다!"
+    },
+    {
+      "Text": "[s3] \"그래, 그래…….\""
+    },
+    {
+      "Text": "[s4] \"그래서 그 실물 굿즈를 만들었다는 거구나.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "맞습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그래서 이제부터, 이 칭찬 스티커를 모두에게 나눠드리려고 해요!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그러니까, 선생님. 함께 모험을 떠나죠!"
+    },
+    {
+      "Text": "(기운 넘치는 아리스에게 이끌려, 밖으로 향했다.)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "안녕하세요, 여러분!"
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "안녕, 아리스. 선생님도 안녕하세요?"
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "그래서 오늘은 무슨 일이야?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 칭찬 스티커를 전해드리러 왔습니다. 여기요!"
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "'Good Job'……. 그러네. 특별히 뭘 한 건 없지만, 왠지 기분이 좋아지는 느낌이야."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "그러고 보니 이거, 선생님이 칭찬해 주는 거나 마찬가지였지?"
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "감사합니다. 선생님."
+    },
+    {
+      "Text": "[s] \"어, 으응……. 내가 특별히 뭘 해준 건 없지만 말이야.\""
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "헤헤. 그래도 왠지 이런 게 좋아서요."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "고마워. 아리스. 잘 간직할게."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. 분명 좋은 일이 일어날 겁니다. 게임에서도 행운 스탯까지 올려 주는 아이템이었으니까요."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "행운……. 응. 그런 거라도 있으면 좋을 것 같아. "
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "……신소재를 개발하는 건, 가끔 복권을 긁는 거나 마찬가지일 때가 있거든."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "………막자사발에 재료를 넣고, 손으로 직접 하나하나 갈아준 다음 구워내고."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "그걸 또다시 부숴서 갈고, 섞고, 섞고, 돌리고, 흔들고……."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "그걸 무한히 반복하면서, 뭔가 새로운 결과가 나오기를 기도하는 과정이니까……."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "부탁이니까 이번 도자기는 제대로 만들어지게 해 주세요, 칭찬 스티커님!!!"
+    },
+    {
+      "Text": "[s] \"고, 고생이 많구나……?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스도 잘은 모르겠지만……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "분명히, 그렇게 될 겁니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그러면 아리스는 다른 분들에게 칭찬 스티커를 나눠드리러 가겠습니다!"
+    },
+    {
+      "Name": "신소재개발부 부원 B",
+      "Text": "야, 야! 빨리 와 봐! 지금 뭔가 새 그래프가 나왔어!"
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "어?! 정말로?!?!"
+    },
+    {
+      "Name": "신소재개발부 부원 B",
+      "Text": "그렇다니까! "
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "설마……."
+    },
+    {
+      "Name": "신소재개발부 부원 A",
+      "Text": "정말로, 칭찬 스티커가……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그러면 아리스는 가 보겠습니다. 힘내세요! 분명 모든 게 잘될 겁니다!"
+    },
+    {
+      "Name": "밀레니엄 학생 A",
+      "Text": "말만이라도 고마워. 서버를 다루다 보면, 기도라도 하고 싶어지거든."
+    },
+    {
+      "Name": "밀레니엄 학생 A",
+      "Text": "어……?"
+    },
+    {
+      "Name": "밀레니엄 학생 A",
+      "Text": "정말로 서버 오류가 고쳐졌잖아?!?!"
+    },
+    {
+      "Name": "밀레니엄 학생 B",
+      "Text": "아하. 이게 그 칭찬 스티커구나."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스와 선생님을 생각하며, 소중하게 간직해 주셨으면 합니다!"
+    },
+    {
+      "Name": "밀레니엄 학생 B",
+      "Text": "물론 그래야지. 고마워, 아리스."
+    },
+    {
+      "Name": "밀레니엄 학생 B",
+      "Text": "어라? 식권 추첨 3등 상에…… 당첨?"
+    },
+    {
+      "Name": "밀레니엄 학생 B",
+      "Text": "……."
+    },
+    {
+      "Name": "밀레니엄 학생 B",
+      "Text": "오늘은 가라아게 추가해서 먹어야지!"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "이것이야말로! 원적외선과 음이온을 방출해 혈액 순환에 좋고! "
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "총열의 탄매도 감소시켜 주며, 몸에 지니기만 해도 탄 걸림 현상까지 싸악 없애주는!"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "바로 게르게르 게르마늄 팔찌입니다!!!"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "……"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "하아……. 뭔가 장사가 잘 안되네……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "안녕하세요! 뭔가 잘 안되는 일이 있으신가요?"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "어? 특별히 그런 건……."
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "……아닌 것도 아니긴 한데……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇군요……. 그러면 이걸 드리겠습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "행운 스탯을 올려주는, 칭찬 스티커입니다!"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "뭐, 뭐야. 강매라도 할 셈이야?!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아닙니다. 그냥 드리는 겁니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스는, 더 많은 분이 행복해졌으면 하니까요!"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "뭐야, 대체……."
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "어? 지금 무슨 소리지?"
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "……! 저, 정말로 걸렸던 탄피가 알아서 배출됐어! "
+    },
+    {
+      "Name": "유사과학부원",
+      "Text": "이상하다……? 게르게르 게르마늄 팔찌에, 정말로 그런 효과는 없을 텐데……?"
+    },
+    {
+      "Text": "(그렇게 아리스와 함께, 많은 학생에게 칭찬 스티커를 나눠주고 게임개발부실로 돌아왔다.)"
+    },
+    {
+      "Text": "(하루의 마무리는 당연히…… 게임인 것이었다!)"
+    },
+    {
+      "Name": "아리스",
+      "Text": "감사합니다. 선생님."
+    },
+    {
+      "Text": "[s] \"응? 뭐가?\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "오늘 아리스와 함께해 주셔서요. 그리고……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "지금도 아리스와 같이, 이렇게 게임을 해 주셔서요."
+    },
+    {
+      "Name": "아리스",
+      "Text": "게임개발부 친구들과는 자주 같이 게임을 할 수 있지만……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "선생님과 단둘이서 하는 게임은, 좀처럼 드문 경험이니까요."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그 모든 것이 아리스에게는, 소중한 레어 경험치입니다."
+    },
+    {
+      "Text": "[s] \"에이, 이런 거 가지고 뭘.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "아닙니다. 아리스는 선생님과 같이 있다는 것이 너무 좋습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "얼마나 좋으냐고 한다면……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "선생님과 함께라면, 그리고 칭찬 스티커와 함께라면……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "오늘뿐만이 아니라, 3일은 밤새가며 게임을 할 수 있을 것 정도로요!"
+    },
+    {
+      "Text": "[s5] \"그렇게 게임만 하면 안 된단다…….\""
+    },
+    {
+      "Text": "[s6] \"선생님은 3일 밤샘은 무리에요…….\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "그, 그렇습니까……? 죄송합니다……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "하지만 선생님도 칭찬 스티커를 받으시면, 분명 뭐든지 더 잘할 수 있게 될 겁니다. 아리스는 그랬거든요!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "대전 게임에서 체력이 1픽셀 남았을 때, 필살기를 전부 저스트 가드하고!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "레이지 상태의 역전 일발 초필살기를 날릴 수도 있을 정도로요!"
+    },
+    {
+      "Text": "[s] \"그걸 진짜로 한 거야?!\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇습니다! 모모이와 싸울 때 한 번뿐이었지만!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그날은, 게임개발부실이……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "어어, 그러니까……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그야말로 폭발할 정도였습니다!"
+    },
+    {
+      "Text": "[s] \"나도 부르지!\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "그, 그러고 보니……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "끄앙! 죄송합니다, 선생님!"
+    },
+    {
+      "Text": "[s] \"괜찮아, 괜찮아.\""
+    },
+    {
+      "Text": "[ns7] \"하지만 그 스티커는, 일단 내가 주는 스티커란 거잖아?\""
+    },
+    {
+      "Text": "[ns8] \"그걸 선생님이 받아 봤자, 어딘가 어색할 것 같은데~\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "맞습니다. 선생님. 정말 중요한 부분을 이야기해 주셨습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그래서 말이지요……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스는 사실, 선생님 전용으로 <아리스의 칭찬 스티커>를 두 개 만든 것입니다!"
+    },
+    {
+      "Text": "[s] \"아리스의 칭찬 스티커?!\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스가 선생님께 드리는……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스가 선생님을 칭찬하는 스티커입니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "물론 선생님의 칭찬 스티커처럼 모든 것이 잘 되고, 행운 스탯이 오르거나 하지는 않겠지만……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그래도, 받아 주셨으면 좋겠습니다. 아리스도 같은 것을 가지고 있으니까요."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇게 해 주시면, 아리스는 언제나 선생님과 연결된 기분을 느낄 수 있을 것 같습니다."
+    },
+    {
+      "Text": "[ns] \"응. 당연히 그래야지.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "네. 선생님."
+    },
+    {
+      "Name": "아리스",
+      "Text": "역시 아리스는 선생님이 정말로 좋습니다."
+    },
+    {
+      "Text": "[s] \"선생님도 그래.\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "감사합니다. 선생님."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇게 말하는 사이, 2연 부채 날리기에 점프 강킥, 거기에서 이어지는 강펀치 스턴! "
+    },
+    {
+      "Name": "아리스",
+      "Text": "마지막으로 스페셜 아츠 레벨 3 초필살기입니다!!!"
+    },
+    {
+      "Text": "[ns9] \"다, 당했다!!!\""
+    },
+    {
+      "Text": "[ns10] \"아리스……! 듣기 좋은 말을 깔아두고 울트라 콤보라니!\""
+    },
+    {
+      "Name": "아리스",
+      "Text": "후후후……. 그렇습니다! 피도 눈물도 사제지간도 없는 수라의 길!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그것이 격투게임의 세계인 겁니다!"
+    },
+    {
+      "Text": "(그렇게 아리스와 사이좋게 게임을 계속했다.)"
+    },
+    {
+      "Text": "(아리스는 이길 때나 질 때나, <아리스의 칭찬 스티커>를 소중하다는 듯이 바라보곤 했다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Aris and the Praise Stickers"
+    },
+    {
+      "Text": "As Aris requested, I headed to the Game Development Department Room."
+    },
+    {
+      "Text": "As soon as I arrived..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Sensei!"
+    },
+    {
+      "Text": "[s] \"Aris!!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yay, it's Sensei!"
+    },
+    {
+      "Text": "Aris jumped into my arms with all her might..."
+    },
+    {
+      "Text": "I almost fell back into the hallway!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Welcome, Sensei! I have eagerly awaited your arrival!"
+    },
+    {
+      "Text": "[s] \"Thanks! What did you want to show me?\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Heeheehee! That would be..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...This!"
+    },
+    {
+      "Text": "She presented me with a small piece of plastic!"
+    },
+    {
+      "Text": "[ns1] \"Is this...some sort of...a badge?\""
+    },
+    {
+      "Text": "[ns2] \"'It says 'Good Job'... Hmm.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is not a badge. It is \"Sensei's Praise Sticker,\" an official piece of fan merchandise!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "You appear confused. Well..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "We all recently worked together to create a roguelike game."
+    },
+    {
+      "Name": "Aris",
+      "Text": "In it, we programmed a unique and lucky item that was excessively difficult to obtain..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...And it was called \"Sensei's Praise Sticker\"!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Even while unequipped, it strengthens your character and boosts your luck...all from the safety of your inventory."
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is a very rare and wonderful item!"
+    },
+    {
+      "Text": "[s3] \"Ah, I see...\""
+    },
+    {
+      "Text": "[s4] \"That's why you decided to make physical merch.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Correct!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I would like to properly distribute this Praise Sticker merchandise to everyone!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Then, Sensei, let us embark on a grand adventure!"
+    },
+    {
+      "Text": "Aris and her boundless enthusiasm led me outside."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Greetings, everyone!"
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Hi, Aris. Hello, Sensei."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "What brings you to the lab?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "I am here to distribute your Praise Sticker! Please, acquire it!"
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "\"Good Job,\" huh? Yeah, I haven't done much, but it feels nice to be recognized."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "And this is from Sensei, isn't it? You really think I'm doing okay?"
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Text": "[s] \"Oh, you're welcome... I didn't really do anything, though.\""
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Hehe, but I like it all the same."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Thank you so much, Aris. I love it."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes, and I am positive that good things are on the horizon. This item should raise your Luck stat!"
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Luck... Yeah, I'll take all I can get. "
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "...Developing new materials feels like playing the lottery."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "You pulverize mediums with the mortar and pestle, bake them..."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "...crush them into a powder again, grind, mix, mix again, shake, SHAKE..."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "It's basically endlessly repeating that, ultimately praying for a breakthrough."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Please, Lord Praise Sticker, allow my work to correctly synthesize this time!"
+    },
+    {
+      "Text": "[s] \"I-It must be a lot of work...?\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "While it's hard to know the future, my friend..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...You will succeed this time!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Now, I am off to distribute more Praise Stickers!"
+    },
+    {
+      "Name": "Material Development Club Member B",
+      "Text": "Hey, hey! Hurry, the meter is stabilizing! You've got to look!"
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "What?! Really?!"
+    },
+    {
+      "Name": "Material Development Club Member B",
+      "Text": "Yeah! "
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "Don't tell me..."
+    },
+    {
+      "Name": "Material Development Club Member A",
+      "Text": "...The Praise Sticker...really worked...?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Then, I must depart! Keep it up! Everything will turn out fantastically! Platinum!"
+    },
+    {
+      "Name": "Millennium Student A",
+      "Text": "Thanks for that. I never prayed in my life...until I had to maintain these servers."
+    },
+    {
+      "Name": "Millennium Student A",
+      "Text": "Huh...?"
+    },
+    {
+      "Name": "Millennium Student A",
+      "Text": "The server error cleared?!"
+    },
+    {
+      "Name": "Millennium Student B",
+      "Text": "Aha! So these are the stickers I've been hearing so much about..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! Please think fondly of me and Sensei as you cherish this sticker!"
+    },
+    {
+      "Name": "Millennium Student B",
+      "Text": "Of course. Thank you, Aris."
+    },
+    {
+      "Name": "Millennium Student B",
+      "Text": "Huh? I won...third place in the meal ticket raffle?"
+    },
+    {
+      "Name": "Millennium Student B",
+      "Text": "..."
+    },
+    {
+      "Name": "Millennium Student B",
+      "Text": "Sounds like I'm getting extra karaage today!"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "Look, it emits infrared and negative ions to improve your blood circulation! "
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "It also keeps your gun barrel clean of grime, and even just carrying it on your body will reduce bullet jamming! Statistically!"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "It's the ger-ger-germanium wristband! How could you not want it?!"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "..."
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "*sigh* Business isn't going well today..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Hello! Did you say that something was not going satisfactorily?"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "Hm? Well, there..."
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "...might be a little problem, yeah..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I see... Then put this in your inventory."
+    },
+    {
+      "Name": "Aris",
+      "Text": "It is a Praise Sticker that shall raise your luck stat!"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "Wh-What, is this a hustle? How much do you want?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Nothing. It is freely given..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...Because I would like more people to be happy!"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "What was that...?"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "Hm? What was that noise?"
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "...! The jammed bullet just popped out on its own! "
+    },
+    {
+      "Name": "Pseudoscience Club Member",
+      "Text": "Strange... Did the ger-ger-germanium wristband actually work...?"
+    },
+    {
+      "Text": "Aris and I distributed Praise Stickers to students all over campus before returning to the Game Development Department Room."
+    },
+    {
+      "Text": "And, of course, any good day must end with...a round of video games!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Text": "[s] \"Hm? For what?\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "For accompanying me today on my mission. And..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...for playing games with me like this."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I play with my Game Development Department companions quite frequently..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But it is a rare encounter...to play games alone with you, Sensei."
+    },
+    {
+      "Name": "Aris",
+      "Text": "It rewards me with precious and unique experience points."
+    },
+    {
+      "Text": "[s] \"Oh, it was nothing.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Do not say that. I genuinely enjoy spending time with you."
+    },
+    {
+      "Name": "Aris",
+      "Text": "If I were to quantify how much I enjoy this..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "If I were empowered by Sensei and a supply of Praise Stickers..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I could stay up three nights in a row playing video games!"
+    },
+    {
+      "Text": "[s5] \"You shouldn't overdo the video games...\""
+    },
+    {
+      "Text": "[s6] \"Three consecutive all-nighters would wear me out...\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "I-Is that so...? I apologize..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But I am certain that you would also benefit from a Praise Sticker, Sensei. Mine has functioned magnificently."
+    },
+    {
+      "Name": "Aris",
+      "Text": "When I had one pixel of HP left in a fighting game, I managed a \"just guard\" and blocked an ultimate attack!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "And I followed up with a super-ultimate reversal while in the rage state!"
+    },
+    {
+      "Text": "[s] \"You really pulled that off?!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes, once! It was against Momoi!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "That day, the Game Development Department Room..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...Uh, it..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "...quite literally almost exploded!"
+    },
+    {
+      "Text": "[s] \"You should've called me!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "N-Now that you mention it..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Ah! I am sorry, Sensei!"
+    },
+    {
+      "Text": "[s] \"It's okay, it's okay.\""
+    },
+    {
+      "Text": "[ns7] \"But if it's 'my' sticker, then...?\""
+    },
+    {
+      "Text": "[ns8] \"I feel like it would be awkward for me to wear one.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Correct, Sensei. That is a genuinely good point."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Which is why..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I made two Aris' Praise Stickers exclusively for you!"
+    },
+    {
+      "Text": "[s] \"Aris' Praise Sticker?!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! It is a special sticker, from me to you."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Your work deserves recognition!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Of course, unlike \"Sensei's Praise Sticker,\" it will not solve problems or increase your luck stat..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But I would like you to have it. I have an identical one."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Through this, I will always feel connected with you."
+    },
+    {
+      "Text": "[ns] \"Yes. Of course.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Right, Sensei."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I really like you."
+    },
+    {
+      "Text": "[s] \"Likewise.\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Name": "Aris",
+      "Text": "And while you are distracted, I shall execute a two-combo fan blow and a jumping kick, followed by a heavy punch stun! "
+    },
+    {
+      "Name": "Aris",
+      "Text": "Finishing off with the special-arts level-3 super-ultimate move!"
+    },
+    {
+      "Text": "[ns9] \"Y-You got me!!!\""
+    },
+    {
+      "Text": "[ns10] \"Aris...! I can't believe you'd be so sweet just to betray me!\""
+    },
+    {
+      "Name": "Aris",
+      "Text": "Fufufu. That is right! Witness the merciless, cold-blooded path of Asura!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Welcome to the world of fighting games!"
+    },
+    {
+      "Text": "Aris and I continued to play video games afterward."
+    },
+    {
+      "Text": "In between rounds, Aris always glanced at her \"Aris' Praise Sticker\" like it was precious piece of loot."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "อาริสึกับสติกเกอร์คำชม"
+    },
+    {
+      "Text": "(คุณครูมุ่งหน้ามาที่ห้องชมรมพัฒนาเกมตามที่อาริสึชวน)"
+    },
+    {
+      "Text": "(และในตอนนั้นเอง...!)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "คุณครู!!!"
+    },
+    {
+      "Text": "[s] \"อาริสึ!!!\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ว้าว! คุณครูจริงๆ ด้วยค่ะ!"
+    },
+    {
+      "Text": "(อาริสึวิ่งมากอดคุณครูด้วยแรงทั้งหมดที่มี!)"
+    },
+    {
+      "Text": "(แรงโถมตัวเข้ากอดของอาริสึทำเอาคุณครูเกือบล้ม)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เชิญค่ะคุณครู! อาริสึกำลังรออยู่เลยค่ะ!"
+    },
+    {
+      "Text": "[s] \"อื้อ! แล้วอยากให้ครูดูอะไรเหรอ?\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ฮุ ฮุ ฮุ... เรื่องนั้นน่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "นี่ค่ะ!"
+    },
+    {
+      "Text": "(อาริสึยื่นเข็มกลัดพลาสติกเล็กๆ มาตรงหน้า!)"
+    },
+    {
+      "Text": "[ns1] \"นี่มัน... เข็มกลัดไม่ใช่เหรอ?\""
+    },
+    {
+      "Text": "[ns2] \"มีเขียนไว้ว่า 'Good Job' ด้วยแฮะ\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไม่ใช่เข็มกลัดหรอกค่ะ แต่เป็นสินค้า <สติกเกอร์คำชมจากคุณครู> ของจริงเลยน่ะค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "มันคืออะไรน่ะเหรอคะ? เอ่อ คือ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เมื่อนานมาแล้ว มีเกมแนวโร้กไลก์เกมหนึ่งที่ทุกคนช่วยกันสร้างขึ้นมาค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "และเราก็สร้างไอเทมนำโชคพิเศษที่หายากมากๆ ขึ้นมาด้วย..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไอเทมอันนั้นก็คือ <สติกเกอร์คำชมจากคุณครู> ค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถึงจะแค่เก็บเอาไว้ในช่องเก็บของ ไม่ได้ใช้งานหรือติดตั้งไว้ที่อุปกรณ์ก็ช่วยเพิ่มความแข็งแกร่ง และโชคให้กับตัวละครได้..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เป็นไอเทมที่ดีมากๆ เลยค่ะ!"
+    },
+    {
+      "Text": "[s3] \"อื้อ อื้อ...\""
+    },
+    {
+      "Text": "[s4] \"เลยทำออกมาเป็นของจริงสินะ\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่แล้วค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เพราะงั้นตั้งแต่นี้ไป อาริสึเลยตั้งใจว่าจะแจกสติกเกอร์คำชมนี้ให้กับทุกคนเลยค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เอาละค่ะคุณครู เราออกไปผจญภัยด้วยกันเถอะค่ะ!"
+    },
+    {
+      "Text": "(คุณครูถูกอาริสึที่กำลังตื่นเต้นจูงมือพาออกไปข้างนอก)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "สวัสดีค่ะทุกคน!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "สวัสดีค่ะอาริสึ สวัสดีค่ะคุณครู"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "วันนี้มีอะไรถึงมาที่นี่เหรอคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! ฉันเอาสติกเกอร์คำชมมาให้ทุกคนค่ะ! นี่ไงคะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "สติกเกอร์ 'Good Job' เหรอ... ทั้งที่เราไม่ได้ทำอะไรเป็นพิเศษเลย แต่ไม่รู้ทำไมถึงรู้สึกอารมณ์ดีขึ้นมา"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "แต่พอคิดดูแล้ว สติกเกอร์นี่เหมือนกับการที่คุณครูเป็นคนชมเลยนะคะ"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "ขอบคุณนะคะ คุณครู"
+    },
+    {
+      "Text": "[s] \"เอ่อ อื้อ... ครูไม่ได้ทำอะไรเป็นพิเศษเลย\""
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "ฮิฮิ แต่ถึงอย่างนั้น ฉันก็ชอบมันนะคะ"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "ขอบคุณนะ อาริสึ จะเก็บไว้อย่างดีเลย"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ จะต้องมีเรื่องดีๆ เกิดขึ้นอย่างแน่นอนค่ะ เพราะมันก็เป็นไอเทมที่ช่วยเพิ่มค่าสถานะโชคในเกมนี่คะ"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "โชค... อื้อ ถ้ามีของแบบนั้นไว้ก็คงจะดีเหมือนกันนะ "
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "การพัฒนาวัสดุแบบใหม่บางครั้งมันก็ไม่ต่างอะไรกับการซื้อล็อตเตอร์รีเลยละ"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "... ใส่ส่วนผสมลงไปในที่บดยาและใช้มือค่อยๆ บดไป จากนั้นก็เอาไปเผา"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "แล้วก็เอามาทุบให้ละเอียด และนำมาบดใหม่ จากนั้นก็เอาไปผสมแล้วผสมอีก วนไปอย่างนั้น..."
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "มันเป็นขั้นตอนที่ต้องทำซ้ำไปซ้ำมาไม่รู้จบ และได้แต่ภาวนาให้มีผลลัพธ์ใหม่ๆ ปรากฏออกมา..."
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "เพราะงั้นขอร้องละค่ะ ช่วยทำให้เครื่องปั้นดินเผารอบนี้ออกมาสมบูรณ์แบบด้วยนะคะ ท่านสติกเกอร์คำชม!!!"
+    },
+    {
+      "Text": "[s] \"คะ... คงทำงานหนักกันน่าดูเลยสินะ...\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึก็ไม่ค่อยแน่ใจเหมือนกันค่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่ผลลัพธ์ต้องออกมาดีแน่ๆ ค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้างั้น อาริสึจะไปแจกสติกเกอร์คำชมให้กับคนอื่นๆ ต่อแล้วนะคะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ B",
+      "Text": "นี่ๆ! มาดูนี่เร็ว! มีลายใหม่ออกมาด้วยละ! "
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "เอ๋?! จริงเหรอ?!?!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ B",
+      "Text": "ก็ใช่น่ะสิ! "
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "อย่าบอกนะว่า..."
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาวัสดุใหม่ A",
+      "Text": "เป็นเพราะสติกเกอร์คำชม...?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "งั้นอาริสึไปก่อนนะคะ พยายามเข้านะคะ! ทุกอย่างต้องผ่านไปได้ด้วยดีแน่นอนค่ะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม A",
+      "Text": "แค่อวยพรกันแบบนี้ก็ขอบคุณแล้วละ พอต้องมาจัดการเซิร์ฟเวอร์เนี่ย จู่ๆ ก็อยากสวดมนต์ขึ้นมาเลย"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม A",
+      "Text": "เอ๋...?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม A",
+      "Text": "แก้ปัญหาเซิร์ฟเวอร์ได้แล้วจริงดิ?!?!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม B",
+      "Text": "อะฮ่า สติกเกอร์คำชมสินะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! อยากให้นึกถึงอาริสึกับคุณครู แล้วเก็บรักษาไว้ให้ดีนะคะ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม B",
+      "Text": "แน่นอน ต้องเก็บไว้อย่างดีอยู่แล้วละ ขอบคุณนะ อาริสึ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม B",
+      "Text": "เอ๋? ถูกรางวัลที่สาม... จากการจับฉลากบัตรซื้ออาหารเหรอ?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม B",
+      "Text": "......"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม B",
+      "Text": "งั้นวันนี้ต้องสั่งคาราอะเกะเพิ่มแล้ว"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "เจ้านี่ละ! มันจะปล่อยรังสีอินฟราเรดและไอออนลบ ซึ่งดีต่อการไหลเวียนโลหิต! "
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "นอกจากนี้ยังช่วยลดเขม่าดำจากกระสุนปืน แถมพกติดตัวไว้ยังช่วยเรื่องกระสุนขัดลำกล้องได้ด้วยนะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "เจ้าสิ่งนี้ก็คือกำไลเจอร์ เจอร์ เจอร์เมเนียมยังไงล่ะ!!!"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "......"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "เฮ้อ... ขายของไม่ค่อยดีเลยแฮะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "สวัสดีค่ะ! มีเรื่องอะไรที่ไม่เป็นดั่งใจเกิดขึ้นรึเปล่าคะ?"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "เอ๋? ก็ไม่ได้..."
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "มีอะไรเป็นพิเศษหรอก..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อย่างนั้นเหรอคะ... ถ้างั้นอาริสึจะให้สิ่งนี้ค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "สติกเกอร์คำชมที่ช่วยเพิ่มค่าสถานะโชคดีค่ะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "วะ... ว่าไงนะ จะมัดมือชกให้ซื้อรึไง?!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เปล่านะคะ แค่เอามาให้เฉยๆ ค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เพราะอาริสึอยากให้ผู้คนมีความสุขกันเยอะๆ เลยค่ะ!"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "อะไรของเด็กคนนั้นเนี่ย..."
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "เอ๋? เมื่อกี้เสียงอะไรน่ะ?"
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "......! ปะ... ปลอกกระสุนปืนที่ขัดลำกล้องอยู่หลุดออกมาแล้ว! "
+    },
+    {
+      "Name": "สมาชิกชมรมวิทยาศาสตร์เทียม",
+      "Text": "แปลกจังแฮะ... กำไลเจอร์ เจอร์ เจอร์เมเนียมไม่น่าจะช่วยเรื่องพวกนี้ได้นะ...?"
+    },
+    {
+      "Text": "(คุณครูกับอาริสึช่วยกันแจกสติกเกอร์คำชมให้กับนักเรียนคนอื่นๆ เสร็จแล้วก็กลับไปที่ห้องชมรม\nพัฒนาเกม)"
+    },
+    {
+      "Text": "(แน่นอนว่าทั้งสองคนก็ปิดท้ายวันนี้กันด้วย... การเล่นเกมนั่นเอง!)"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ขอบคุณนะคะ คุณครู"
+    },
+    {
+      "Text": "[s] \"หืม? อะไรเหรอ?\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เรื่องที่วันนี้คอยอยู่กับอาริสึค่ะ แล้วก็..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ขอบคุณที่ตอนนี้มาเล่นเกมกับอาริสึแบบนี้ด้วยค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถึงอาริสึจะเล่นเกมกับสมาชิกชมรมคนอื่นบ่อยๆ ก็จริง..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่โอกาสที่จะได้เล่นเกมกับคุณครูสองคนแบบนี้มันหายากมากๆ เลยค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ประสบการณ์เหล่านี้ถือเป็นสิ่งมีค่ามากๆ สำหรับอาริสึค่ะ"
+    },
+    {
+      "Text": "[s] \"โธ่ ไม่ใช่เรื่องใหญ่เลย\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไม่เลยค่ะ อาริสึมีความสุขมากที่ได้อยู่กับคุณครูค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้าถามว่าชอบมากแค่ไหนละก็..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้าได้อยู่กับคุณครูแล้วก็มีสติกเกอร์คำชมด้วยละก็..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "คงจะเล่นเกมต่อเนื่องได้โดยไม่หลับไม่นอนไปอีก 3 วันเลยค่ะ!"
+    },
+    {
+      "Text": "[s5] \"เล่นแต่เกมแบบนั้นไม่ได้นะ...\""
+    },
+    {
+      "Text": "[s6] \"ครูเล่นโต้รุ่งตลอด 3 วันไม่ได้หรอก...\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "งะ... งั้นเหรอคะ...? ขอโทษค่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่ถ้าคุณครูได้สติกเกอร์คำชมไปก็อาจจะทำทุกอย่างได้นะคะ เพราะอาริสึก็เป็นแบบนั้นค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถึงขั้นที่ถ้าเป็นเกมต่อสู้ ตอนที่ HP เหลือแค่ 1 พิกเซลแต่ก็ป้องกันท่าไม้ตายได้ทั้งหมด"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "และสวนกลับด้วยท่าไม้ตายสุดยอดตอนสถานะโกรธจนพลิกมาชนะได้ในหมัดเดียวเลยค่ะ!"
+    },
+    {
+      "Text": "[s] \"ทำแบบนั้นได้จริงๆ เหรอ?!\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่แล้วค่ะ! ถึงจะทำได้ครั้งเดียวตอนที่สู้กับโมโมอิก็เถอะค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "วันนั้นในห้องชมรมพัฒนาเกม..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เอ่อ คือว่า..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เรียกได้ว่าระเบิดพลังกันเลยทีเดียวค่ะ!"
+    },
+    {
+      "Text": "[s] \"น่าจะเรียกครูมาด้วย!\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "นะ.. นั่นสินะคะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แงงง! ขอโทษค่ะ คุณครู!"
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรนะ ไม่เป็นไร\""
+    },
+    {
+      "Text": "[ns7] \"แต่สติกเกอร์นั่นเป็นอันที่ครูให้ไปไม่ใช่เหรอ?\""
+    },
+    {
+      "Text": "[ns8] \"ถ้าเอาสติกเกอร์นั่นมาให้ครู ครูคงเขินแย่เลย~\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "จริงด้วยค่ะ คุณครู คุณครูพูดเรื่องสำคัญขึ้นมาพอดีเลยค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เพราะงั้น..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึก็เลยทำ <สติกเกอร์คำชมของอาริสึ> สำหรับคุณครูมาสองอันค่ะ!"
+    },
+    {
+      "Text": "[s] \"สติกเกอร์คำชมของอาริสึเหรอ?!\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! สติกเกอร์คำชมของอาริสึ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ที่มอบให้คุณครูค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แน่นอนว่ามันอาจไม่ได้ช่วยทำให้ทุกอย่างราบรื่นหรือเพิ่มค่าสถานะโชคดีได้เหมือนกับสติกเกอร์คำชม\nจากคุณครู..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่อาริสึก็อยากให้คุณครูรับไว้ค่ะ เพราะอาริสึก็จะพกไว้เหมือนกันค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้าคุณครูพกติดตัวไว้ มันจะทำให้รู้สึกเหมือนอาริสึกับคุณครูสื่อถึงกันอยู่เสมอๆ เลยค่ะ"
+    },
+    {
+      "Text": "[ns] \"อื้อ ครูจะพกไว้นะ\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ คุณครู"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อย่างที่คิดเลยค่ะ อาริสึน่ะชอบคุณครูจริงๆ ด้วยค่ะ"
+    },
+    {
+      "Text": "[s] \"ครูก็เหมือนกันนะ\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ขอบคุณนะคะ คุณครู"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ตอนที่คุยกันอยู่ก็ใช้ท่าเตะวงพัดสองจังหวะตามด้วยหมัดหนักๆ ที่ทำให้คู่ต่อสู้ชะงัก! "
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "และปิดท้ายด้วยท่าไม้ตายขั้นสุดยอด สเปเชียล อาร์ต เลเวล 3!!!"
+    },
+    {
+      "Text": "[ns9] \"ดะ... โดนจนได้!!!\""
+    },
+    {
+      "Text": "[ns10] \"อาริสึ...! จัดคอมโบโหดๆ ตอนพูดเรื่องซึ้งๆ อยู่ได้ด้วย!\""
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ฮุฮุฮุ... ต้องทำได้อยู่แล้วค่ะ! นี่คือวิถีปีศาจไร้เลือดและน้ำตา ไม่สนแม้แต่ความเป็นศิษย์อาจารย์!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "โลกแห่งเกมต่อสู้ยังไงล่ะคะ!"
+    },
+    {
+      "Text": "(คุณครูและอาริสึเล่นเกมกันต่อ)"
+    },
+    {
+      "Text": "(ไม่ว่าอาริสึจะแพ้หรือชนะ เธอก็จะมอง <สติกเกอร์คำชมของอาริสึ> ด้วยสายตาที่ชื่นชม)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "愛麗絲與花丸貼紙"
+    },
+    {
+      "Text": "（按照愛麗絲說的，前往了遊戲開發部的部室）"
+    },
+    {
+      "Text": "（就在這時……！）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "老師！！"
+    },
+    {
+      "Text": "[s]「愛麗絲！！！」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "哇！老師來了！"
+    },
+    {
+      "Text": "（愛麗絲全力往懷裡衝了過來！）"
+    },
+    {
+      "Text": "（老師差點就摔倒了！）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "你好呀，老師！愛麗絲一直在等你哦！"
+    },
+    {
+      "Text": "[s]「嗯！話說你想給我看的東西是什麼呢？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "哼哼哼……那就是……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這個！"
+    },
+    {
+      "Text": "（愛麗絲遞出了一個像是小塑膠徽章的東西！）"
+    },
+    {
+      "Text": "[ns1]「這是……徽章之類的嗎？」"
+    },
+    {
+      "Text": "[ns2]「上面寫著『Good Job』耶？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這不是徽章，而是「老師的花丸貼紙」的實體周邊哦！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "想知道那是什麼？\n唔嗯，該怎麼說呢……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "以前，大家曾經一起做過一款Roguelike遊戲。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "裡面有個真的很難取得的幸運系稀有道具……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那就是「老師的花丸貼紙」！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不需要裝備也不必使用，只要放在背包裡就能讓角色變強並提升幸運……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是個非常棒的道具！"
+    },
+    {
+      "Text": "[s3]「原來是這樣啊……」"
+    },
+    {
+      "Text": "[s4]「所以你把它做成實體周邊了啊。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "接下來，愛麗絲要把這個花丸貼紙發給大家！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "所以老師。一起去冒險吧！"
+    },
+    {
+      "Text": "（被充滿活力的愛麗絲拉著往外頭走去）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "大家好！"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "嗨，愛麗絲、老師。你們好呀。"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "今天有什麼事嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！愛麗絲是來送花丸貼紙給大家的。請收下！"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "「Good Job」……明明沒有做什麼特別的事，卻莫名感覺心情變好了呢。"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "話說，這不就等於是老師在稱讚我嗎？"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "非常感謝你，老師"
+    },
+    {
+      "Text": "[s]「啊，嗯……雖然我其實也沒做什麼。」"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "嘿嘿，不過我還是覺得挺好的。"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "謝謝你，愛麗絲。我會好好珍惜的。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是，一定會有好事發生的。\n因為這在遊戲裡面，也是能夠提升幸運值的道具哦。"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "幸運……嗯，如果真的有效的話就太好了。 "
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "畢竟開發新材料的過程，有時候就像在玩刮刮樂一樣。"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "把材料放進研缽裡，親手一一研磨後進行燒製……"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "接著再將其打碎、研磨、混合、混合、旋轉、搖晃……"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "不斷重複這個過程，並祈禱能夠出現某些新的結果……"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "拜託了，請讓這次的陶瓷成功燒出來吧，花丸貼紙大人！！！"
+    },
+    {
+      "Text": "[s]「你，你也挺辛苦的呢……」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "雖然愛麗絲也不太懂……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不過相信一定會順利的！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那麼，愛麗絲要去發花丸貼紙給其他人了！"
+    },
+    {
+      "Name": "新材料開發部成員B",
+      "Text": "喂，喂！快點過來！圖表上出現了新的走勢！"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "什麼！？真的假的！？！？"
+    },
+    {
+      "Name": "新材料開發部成員B",
+      "Text": "真的啦！ "
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "難道……"
+    },
+    {
+      "Name": "新材料開發部成員A",
+      "Text": "……真的是因為花丸貼紙？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那麼愛麗絲就先離開囉。\n請加油！一切都會順順利利的！"
+    },
+    {
+      "Name": "千年學生A",
+      "Text": "光是有你這麼說就夠了，謝謝。\n處理伺服器的時候，真的會讓人很想祈禱呢。"
+    },
+    {
+      "Name": "千年學生A",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "千年學生A",
+      "Text": "伺服器的錯誤真的修好了！？！？"
+    },
+    {
+      "Name": "千年學生B",
+      "Text": "啊，這就是那個花丸貼紙啊。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是的！希望你能想著愛麗絲和老師，好好珍惜它！"
+    },
+    {
+      "Name": "千年學生B",
+      "Text": "那是當然的。謝謝你，愛麗絲。"
+    },
+    {
+      "Name": "千年學生B",
+      "Text": "哎呀？抽中了……餐券抽獎的三等獎？"
+    },
+    {
+      "Name": "千年學生B",
+      "Text": "……"
+    },
+    {
+      "Name": "千年學生B",
+      "Text": "今天就加點炸雞塊來吃吧！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "這個東西會釋放遠紅外線和負離子，對血液循環很有幫助！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "還能減少槍管的火藥碎屑，只要戴在身上就能消除卡彈問題！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "其名為「無所不能的鍺手環」！！！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "……"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "唉……生意好像不太好呢……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "你好！請問你遇到什麼困難了嗎？"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "咦？這倒也……"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "……不能說完全沒有吧。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "原來如此啊……那麼請收下這個。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這是能夠提升幸運屬性的花丸貼紙！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "咦，咦咦？這是在強迫推銷嗎！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不，是要送給你的。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "因為愛麗絲希望能讓更多人得到幸福！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "到，到底是什麼情況啊……"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "咦？剛才那是什麼聲音？"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "……卡，卡住的彈殼真的自己排出來了！"
+    },
+    {
+      "Name": "疑似科學部員",
+      "Text": "真奇怪……？無所不能的鍺手環應該沒有那種效果才對啊……？"
+    },
+    {
+      "Text": "（就這樣和愛麗絲一起將花丸貼紙發給許多學生，並回到了遊戲開發部的部室）"
+    },
+    {
+      "Text": "（至於一天的收尾……當然得玩遊戲了！）"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "謝謝你，老師。"
+    },
+    {
+      "Text": "[s]「嗯？怎麼了嗎？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "謝謝你今天一直陪著愛麗絲。\n還有……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "現在也這樣陪愛麗絲一起玩遊戲。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "雖然愛麗絲常常和遊戲開發部的朋友們一起玩……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不過和老師兩個人單獨玩遊戲，卻是非常難得的經驗。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這一切對愛麗絲來說，都是珍貴的稀有經驗值。"
+    },
+    {
+      "Text": "[s]「哎呀，這點小事不算什麼。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不，愛麗絲非常喜歡和老師待在一起。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "要說有多喜歡的話……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "如果和老師在一起，再加上花丸貼紙……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不只是今天，感覺甚至能連續通宵打三天的電動哦！"
+    },
+    {
+      "Text": "[s5]「不能那樣一直打電動啦……」"
+    },
+    {
+      "Text": "[s6]「老師沒辦法熬夜三天……」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是，是嗎……？對不起……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不過如果老師也收到花丸貼紙的話，一定什麼事都能做得更好的。\n比如愛麗絲就是這樣！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "在格鬥遊戲只剩下1像素的體力時，不只能完全擋下所有必殺技……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "還能在暴怒狀態下使出逆轉的超必殺技呢！"
+    },
+    {
+      "Text": "[s]「你真的做到了嗎！？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯！雖然只有在跟桃井對戰時成功過一次而已！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那天，遊戲開發部的部室……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那個，該怎麼說呢……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "總之差點就要爆炸了呢！"
+    },
+    {
+      "Text": "[s]「下次也要揪我啦！」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "說，說的也是……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗚嗚！對不起，老師！"
+    },
+    {
+      "Text": "[s]「沒事沒事。」"
+    },
+    {
+      "Text": "[ns7]「不過那個貼紙，是用我的名義給的對吧？」"
+    },
+    {
+      "Text": "[ns8]「要是老師自己收下，感覺好像有點奇怪～」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯。老師說到關鍵了呢。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "就是因為這樣……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "所以愛麗絲，其實專門為老師做了兩張「愛麗絲的花丸貼紙」！"
+    },
+    {
+      "Text": "[s]「愛麗絲的花丸貼紙！？」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯！是愛麗絲要送給老師的……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲稱讚老師的貼紙！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "雖然沒有像老師的花丸貼紙那麼厲害，能讓一切順利和提升幸運值……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不過，還是希望老師可以收下。\n因為愛麗絲也帶著一樣的東西。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "這樣一來，愛麗絲就會有種隨時都跟老師連結在一起的感覺。"
+    },
+    {
+      "Text": "[ns]「嗯，當然要收下。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是的，老師。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲果然真的很喜歡老師。"
+    },
+    {
+      "Text": "[s]「老師也是一樣的哦。」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "非常謝謝你，老師。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "接著在說這些話的同時，使出二連扇飛加上跳躍強踢，接著用重拳打出暈眩！ "
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "最後是特殊技能等級3的超必殺技！！！"
+    },
+    {
+      "Text": "[ns9]「被，被打倒了！！！」"
+    },
+    {
+      "Text": "[ns10]「愛麗絲……！明明說了那麼多好話，結果居然用Ultra Combo對付我！」"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "哼哼哼……沒錯！這就是沒血沒淚，也沒有師徒情誼的修羅之道！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "格鬥遊戲的世界就是這樣的！"
+    },
+    {
+      "Text": "（就這樣和愛麗絲繼續開心地玩著電動）"
+    },
+    {
+      "Text": "（無論輸還是贏，愛麗絲總會珍惜地看著「愛麗絲的花丸貼紙」）"
+    }
+  ]
+}

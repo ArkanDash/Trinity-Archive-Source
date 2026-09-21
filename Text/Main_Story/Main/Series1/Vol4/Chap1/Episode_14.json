@@ -1,0 +1,1632 @@
+{
+  "TitleJP": "物々交換",
+  "TitleKR": "물물교환",
+  "TitleEN": "The Barter System",
+  "TitleTH": "แลกเปลี่ยนสินค้า",
+  "TitleTW": "以物易物",
+  "DescJP": "「まずは浸水してしまった武器を交換しよう！」と、補給部隊として昔からカイザーインダストリーと取引をしていたモエが率先して武器交換を持ちかけたものの、何者かが武器を買い占めていることを知らされる。結局カイザーと取引はできなかったものの、中古で武器を買い取ってくれる相手を見つけ、事なきを得たのだった。",
+  "DescKR": "RABBIT 소대의 보급 담당자인 모에는 <카이저 인더스트리>에\n침수된 장비를 팔아 저렴한 무기를 구입하려 하지만, 어찌 된 일인지 카이저 인더스트리의 무기가 모두 팔려나갔다는 소식을 전해 듣게 된다.",
+  "DescEN": "Moe, supply manager of the RABBIT Squad, tries to buy cheap weapons by selling submerged equipment to Kaiser Industries.To her shock, the sales representative informs her that someone had purchased every single weapon they had in stock.",
+  "DescTH": "โมเอะ ผู้ดูแลเสบียงของกองทหาร RABBIT เสนอให้ขายอาวุธที่จมน้ำให้กับ\n<ไคเซอร์ อินดัสทรี> แล้วเอาเงินมาซื้ออาวุธราคาถูกแทน แต่แล้วเธอก็ได้รู้ว่า\nมีคนซื้ออาวุธทั้งหมดของ <ไคเซอร์ อินดัสทรี> ไปแล้ว",
+  "DescTW": "RABBIT小隊的補給負責人萌雖然想要販賣泡了水的裝備給「凱薩工業」，卻得知了武器全都銷售一空的消息。",
+  "DialogJP": [
+    {
+      "Text": "第14話;物々交換"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "モエ、何か良い方法でもあるのですか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "で、でも今の私たちには、お金も口座も……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……っていうか一番最初に、派手に弾薬を消費したのはお前だけどな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いやいやいや、だからあれはあれで必要なタイミングだったんだって！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "とにかく、別にお金が無いからって補充ができないわけじゃない。"
+    },
+    {
+      "Text": "[s] \"まさか銀行を……。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "はぁ？何を言ってるんだ？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "市民の安全を守るべきSRTが、銀行強盗なんてするわけがありません。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そんな頭おかしい発想しないって、"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私が言いたいのは……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ズバリ、物々交換！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、ある意味原点というか、古典的な取引方法だけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私たちが持っている貴重な物を渡して、その対価として武器やら弾薬やらを貰うってわけ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "「私たちが持っている貴重な物」と言えば……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……焼肉弁当？賞味期限、切れてるけど……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そんなの誰も買わないでしょ。強いて言えばあの「所確幸」くらいで。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そうじゃなくて、あの大量のミサイルやら爆弾やらだよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "水に浸かってダメになったとはいえ、それだけで価値がゼロになったわけじゃない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "断腸の思いではあるけど、もっと良い持ち主のところに行った方が良いだろうし。"
+    },
+    {
+      "Text": "[s] \"なるほど……？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが、買い取ってくれるのでしょうか？元は高価なものとはいえ、ほとんど故障状態か、さびてしまった状態で……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、その辺については任せてよ。伝手があるからさ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "例えば、そうだなあ……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ブラックマーケットで武器を扱う「カイザーインダストリー」。あそこには傭兵たちからの、中古の武器に関する需要が絶えない。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あそこならこういう錆びたミサイルでも、何かしらの使い道を見出してくれる人がいるでしょ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "その分の代わりとして、カイザーグループのそこそこ良い品質の武器を貰えば良いってわけ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "へえ、モエにしてはまともな発想じゃん。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "体調はいつも通りか？もしかして昨日のナポリタン弁当で、食あたりとか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うるさいなぁ！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まあとにかく、営業所に電話してみよう。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "はい、こちら最高品質の武器をご提供する「カイザーインダストリー」でございます。どういったご用件でしょうか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "やあやあ、久しぶり！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私だよ、私。前にも色々買わせてもらった、SRT特殊学園の補給担当。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "あ、あの時のVVIPの……！？"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "ご無沙汰しております！"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "今回も新しいミサイルがご入用でしょうか？"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "それとも以前ご購入されたクラスター爆弾にも、何か問題でも……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……モエ、いつそんな買い物をしたのですか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "や、その、別に学園のお金じゃないし？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あくまで私用の爆弾！自費だから問題無し！"
+    },
+    {
+      "Text": "[s] \"「私用の爆弾」って何……？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "と、とにかく……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "今日は買う方じゃなくて、売る方で連絡したの。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "売る方……ですか？当店では基本、買い取りの方は……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "とはいえ、何も聞かずに断るわけにもいきませんね。まずはお話をお伺いしてもよろしいでしょうか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それがねー、実はコンビニでは手に入らないような高級装備が色々手元にあってさ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "誘導式対空ミサイルに、威力が調節可能なクラスターグレネードに、遠隔操作が可能なタイプの対戦車ロケット……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "な、何と……それらを売ってくださるのですか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うん、まあ若干錆びてたりするんだけど……多分大丈夫でしょ。"
+    },
+    {
+      "Text": "[s] \"……若干？\""
+    },
+    {
+      "Name": "モエ",
+      "Text": "（先生、シャラップ！！）"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "そういった特殊なものでしたら、需要は幾らでもあると思いますし……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "はい、喜んでお受けいたしましょう。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "ちなみに代金については、以前と同じ口座振り込みでよろしいでしょうか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あー、実はちょっとその口座使えなくなってて……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "代金の代わりに、現物でっていうのはどう？"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "現物……と言いますと？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょっと安めのやつで良いからさ、威力の高い武器が欲しいんだよね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "気化爆弾とか、白リン弾とか……はあ、はあ……！"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "じ、実は大変申し訳ないのですが……只今、武器の在庫が切れておりまして……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……え、いつもあんだけあるのに？全部？"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "はい……実は先日、匿名のお客様が全てお買い上げされまして。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "なっ……キヴォトスで戦争でもするつもり？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "誰がそんな大量に……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "それは、流石にお答えできないのですが……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "すみません、これは顧客の方々の秘密事項となりますので……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、まあそれはそうか……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "それでは残念ですが、今回のお取引は無かったことに……。"
+    },
+    {
+      "Name": "カイザーの営業マン",
+      "Text": "また何かありましたら、いつでもご連絡ください！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "な、何だその意味分からない状況……っていうか、当てが外れた……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ところでモエ、お前いつの間にカイザーインダストリーのVVIPになったんだ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そういえば色々と細かい計算が合わないことがありましたが、まさか……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "モエちゃん……横領罪で逮捕……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そ、それは今話すことじゃなくない！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "とりあえず今は補給の方が大事で……！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、まあ「カイザーインダストリー」だけが伝手じゃないから！中古オークションとかだって、幾らでも買い手はいるはず！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こういうのをわざわざオークションで買う奴なんかいるのか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "舐めるな！最近のオークションでは武器や弾薬はもちろん、ハッキング機器からちょっとした野菜まで何だって手に入る場所なんだぞ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "きっと今すぐにでも、爆弾を買わせてくださいってメッセージが――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……うわ、ほんとに来た。"
+    },
+    {
+      "Text": "次回;ささやかで確実な敗北"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제14화;물물교환"
+    },
+    {
+      "Name": "미야코",
+      "Text": "모에, 지금의 보급 문제를 해결할 좋은 방법이라도 있는 건가요?"
+    },
+    {
+      "Name": "미유",
+      "Text": "하지만 지금의 우리에겐 보급품을 살 돈은커녕, 돈을 입금할 수 있는 계좌조차도 없는걸……."
+    },
+    {
+      "Name": "사키",
+      "Text": "……해결책이라니. 불꽃놀이를 하느라 1개 포대의 탄약을 앞뒤 생각도 없이 통째로 날려 먹은 사람이 할 소리야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "날려 먹다니! 다시 말하지만 그때의 불꽃놀이는 중대 사항이었거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "여하튼! 돈이 없어도 보급품을 구할 방법은 충분히 있어."
+    },
+    {
+      "Text": "[s] \"설마 은행을 털…….\""
+    },
+    {
+      "Name": "사키",
+      "Text": "무슨 흉흉한 소리를 하는 거야?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "시민의 안전을 지켜야 할 SRT 대원들이 은행을 털다니, 있을 수 없는 일입니다."
+    },
+    {
+      "Name": "모에",
+      "Text": "그런 정신 나간 방법을 제안할 리가 없잖아."
+    },
+    {
+      "Name": "모에",
+      "Text": "내가 말하려고 했던 방법은……"
+    },
+    {
+      "Name": "모에",
+      "Text": "바로 물물교환이야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "물물교환은 인류의 가장 고전적인 거래 방식이라고도 하잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그러니까 우리가 갖고 있는 귀한 물건을 건네주고, 대금으로 멀쩡한 무기와 탄약을 받아오는 거야!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희가 갖고 있는 귀한 물건이라면……"
+    },
+    {
+      "Name": "미유",
+      "Text": "……유통기한 지난 야키니쿠 도시락?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……그걸 누가 사 간다고 팔아? <소확행>?"
+    },
+    {
+      "Name": "모에",
+      "Text": "내가 교환하려고 하는 물건은 캠프 외곽에 방치된 대량의 미사일과 폭탄들이야."
+    },
+    {
+      "Name": "모에",
+      "Text": "비록 비를 맞아 못 쓰게 되었다지만, 자식 같은 폭탄들을 팔아치우려니 마음속으로는 피눈물이 나지만……."
+    },
+    {
+      "Name": "모에",
+      "Text": "못 쓰는 상태로 저렇게 내버려 두느니, 차라리 좋은 주인을 찾아주어서 좋은 곳에서 폭발시키는 게 좋겠다는 생각도 들어서."
+    },
+    {
+      "Text": "[s] \"역시 폭발시키는 게 목적이구나……\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "하지만 아무리 비싼 미사일과 폭탄이라 해도 대부분이 고장 나고 녹이 슬었는데, 그걸 제값에 사줄 사람이 있을까요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그건 걱정하지 마. 내게는 오랜 보급계원 업무를 통해 쌓은 인맥이 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "예를 들자면……"
+    },
+    {
+      "Name": "모에",
+      "Text": "블랙마켓을 통해 무기를 주로 거래하는 카이저 그룹의 자회사, <카이저 인더스트리>에는 중고 무기를 구입하고 싶어 하는 가난한 용병들의 연락이 끊이질 않지."
+    },
+    {
+      "Name": "모에",
+      "Text": "그 <카이저 인더스트리>라면 필요한 사람들에게 이 녹슨 미사일들을 판매할 수 있을 거야."
+    },
+    {
+      "Name": "모에",
+      "Text": "그리고 그 대가로 카이저 그룹에서 생산하는 괜찮은 품질의 무기를 공급받을 수도 있고!"
+    },
+    {
+      "Name": "사키",
+      "Text": "오오, 모에답지 않은 똑똑한 발상인데."
+    },
+    {
+      "Name": "사키",
+      "Text": "어제 먹은 나폴리탄 도시락에 무슨 문제라도 있었던 거 아니야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "시끄러워. 폭파시켜버린다!"
+    },
+    {
+      "Name": "모에",
+      "Text": "자, 그럼 어서 영업소에 전화를 걸어볼까?"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "네. 언제나 최고 품질의 화기를 공급해드리는 <카이저 인더스트리>입니다. 무엇을 도와드릴까요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "아, 오랜만이야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "나야, 나. 저번에 연락했던 그 SRT 학원의 보급 담당인데……."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "앗…… 그때의 VVIP 고객님이시군요!"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "다시 모시게 되어 정말 영광입니다!"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "혹시 이번에도 새로운 미사일을 구입하시려는 건가요?"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "아니면 설마 지난번에 구입해가신 클러스터 폭탄에 뭔가 문제라도……?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……모에. 언제 그런 걸 구매한 거죠?"
+    },
+    {
+      "Name": "모에",
+      "Text": "고, 공금으로 구매한 거 아니거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그 폭탄은 사비로 구입한 물건이라고! 지극히 사적인 목적으로 구입한 거야!"
+    },
+    {
+      "Text": "[s] \"사적인 목적의 폭탄이 더 수상한데…….\""
+    },
+    {
+      "Name": "모에",
+      "Text": "여하튼 오늘은 무언가를 구매하고 싶어서 연락한 게 아니야."
+    },
+    {
+      "Name": "모에",
+      "Text": "무기를 팔고 싶어."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "판매요? 저희 영업소에서는 매입은 보통 하고 있지 않습니다만……."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "하지만 VVIP님의 의뢰니, 일단 어떤 물건을 팔고자 하시는지 들어볼 수 있을까요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "들으면 깜짝 놀랄걸? 총포상이나 편의점에서도 구하기 힘든 고급 무기가 잔뜩 있다고."
+    },
+    {
+      "Name": "모에",
+      "Text": "……적외선 영상 유도식 대공 미사일이랑 위력 조절용 집속 수류탄, 원격 발사가 가능한 대전차 로켓……"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "정말이십니까? 그런 구하기 힘든 장비들을 저희에게 파시겠다고요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "응. 물론 습기 때문에 조금 녹슨 부분이 있기는 하지만……."
+    },
+    {
+      "Text": "[s] \"조금이 아니잖아.\""
+    },
+    {
+      "Name": "모에",
+      "Text": "(시끄러워, 선생님! 거래를 방해하지 말라고!)"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "그런 특수 장비의 매매라면 언제나 수요가 있으니 거절할 이유가 없지요."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "좋습니다. 거래를 받아들이도록 하겠습니다."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "그럼 대금은 어떻게 처리해 드리면 좋을까요? 지난번의 계좌로 이체해 드리면 될까요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그게…… 그 계좌는 지금 사정이 있어서 사용할 수가 없어서……."
+    },
+    {
+      "Name": "모에",
+      "Text": "대신 대금을 무기와 탄약으로 대신 받을 수 없을까?"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "……무기요?"
+    },
+    {
+      "Name": "모에",
+      "Text": "응응. 조금 가격은 싸더라도 위력은 괜찮은 무기들이 있잖아."
+    },
+    {
+      "Name": "모에",
+      "Text": "발사관에 끼울 수 있는 열압력탄이라든가, 백린 연막탄이라든가……! 하아, 하아……."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "저…… 대단히 죄송합니다만, 지금 당사에서 보유하고 있는 무기의 재고가 마침 다 떨어져서요."
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐어? 그 많은 무기가 전부 팔려버렸다고?"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "예. 며칠 전에 익명의 고객님이 저희가 보유하고 있는 무기를 전부 구입해 가셨습니다."
+    },
+    {
+      "Name": "모에",
+      "Text": "누가 그 많은 무기를 전부 구입했는데?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그 사람은 키보토스 내에서 전쟁이라도 치를 셈이래?"
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "그건…… 기업 비밀입니다."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "VVIP님께서도 저희가 귀하의 구매 기록을 여기저기에 누출시킨다면 곤란하시지 않겠습니까?"
+    },
+    {
+      "Name": "모에",
+      "Text": "윽…… 그건 그렇지만……."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "그러니 아쉽지만 이번 거래는 없었던 것으로 하지요."
+    },
+    {
+      "Name": "카이저 영업사원",
+      "Text": "다음번에는 더 좋은 거래가 성사되기를 기대하겠습니다!"
+    },
+    {
+      "Name": "모에",
+      "Text": "어, 어쩌지…… 설마 <카이저 인더스트리>에 남은 무기 재고가 없었을 줄이야……."
+    },
+    {
+      "Name": "사키",
+      "Text": "모에. 그보다 네가 어떻게 <카이저 인더스트리>의 VVIP가 되었는지부터 알고 싶은데."
+    },
+    {
+      "Name": "미야코",
+      "Text": "어쩐지 그동안 소대 비품 장부에 미묘하게 누락된 재고가 생겨난다 싶었습니다만……."
+    },
+    {
+      "Name": "미유",
+      "Text": "모에 쨩…… 이제 공금 횡령죄로 잡혀가는 거야……?"
+    },
+    {
+      "Name": "모에",
+      "Text": "자, 잠깐……! 지금은 보급품을 구하는 게 우선이잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그런 사소한 일에 신경 쓰고 있을 때가 아니라고!"
+    },
+    {
+      "Name": "모에",
+      "Text": "<카이저 인더스트리>와의 거래는 불발되었지만, 중고 옥션에 무기를 올려놓았으니 곧 새로운 판매처를 찾을 수 있을 거야!"
+    },
+    {
+      "Name": "사키",
+      "Text": "이런 비싼 물건들을 누가 중고 옥션에서 사겠냐!"
+    },
+    {
+      "Name": "모에",
+      "Text": "중고 옥션을 무시하지 마! 옥션에선 해킹 장비부터 오늘 저녁 반찬거리까지 다 구할 수 있거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "봐, 지금도 막 폭탄을 구매하고 싶다는 메시지가……."
+    },
+    {
+      "Name": "모에",
+      "Text": "……정말 왔네?"
+    },
+    {
+      "Text": "다음화;소소하지만 확실한 패배"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 14; The Barter System"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Moe, do you have a solution for our supply issues?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-We have no money, and n-no way of making some."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Did you call yourself the \"supplies expert\"? Is this the same person who wasted all of our ammunition to make some stupid fireworks?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "You have no eye for art! Ammunition is never a waste in pursuit of the beauty of explosions. It was an essential sacrifice!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Do you want me to bail us out, or not? The wonderful person that I am, I can get us supplies without spending a single yen."
+    },
+    {
+      "Text": "[s] \"I really can't just stand by while you rob a bank.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "How could you suggest something so awful?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "SRT Academy exists to protect the citizens. We would never engage in such behavior."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Sensei, do you think so little of me?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "My tip-top secret for supplies acquisition is..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "The barter system!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "People've been bartering for things they want since before we could talk."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And so, easy peezy lemon squeezy, we'll trade off our valuable items for new and wonderful incendiaries...and weapons."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The problem with your plan lies in the fact that we have no valuables."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We have expired yakiniku bentos..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Are you a dummy? You think we're trading with those hypocrite monks?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "What we do have is the missiles and bombs at the outskirts of camp. My babies."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I can't believe I'm suggesting selling off my precious babies...even if they're water-damaged."
+    },
+    {
+      "Name": "Moe",
+      "Text": "But my bleeding heart will live knowing that a caring owner will love them the way I did. And then my beautiful, splendid babies will be detonated like they deserve."
+    },
+    {
+      "Text": "[s] \"It always ends in them being blown up...\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I agree those are very expensive explosives, but they're also very broken ones. How are we going to sell them?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Am I not literally this squad's unit supply specialist? I got connections you can't even dream of."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Just to name one..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "My little friend, Kaiser Industries, is a subsidiary of Kaiser Group, and they're the big guns for weapons in the Black Market. Heehee, get it? They sell to hard-up mercenaries who'll take anything they can get."
+    },
+    {
+      "Name": "Moe",
+      "Text": "So, if anyone's gonna take good care of my rusty little babies, it's Kaiser Industries."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And, voila! In return, I get you your ammunition and guns from Kaiser itself!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I...I'm in shock. Moe came up with a really good idea."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Was there something in the bento you ate yesterday? That must be it."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'll make you go ka-boom faster than you can say rabbit!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well then, would you like to see the expert at work?"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Greetings! Kaiser Industries, the leading purveyor of top-tier firearms. How may I help you?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Long time no talk, buddy!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "It's SRT Academy's supply manager. Heehee."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Our VIP client!"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Greetings! What a pleasure to speak with you again!"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "How can I help you today? We have some brand new missiles I think you would love."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Or... Oh, dear! Were there any issues with the cluster bomb you purchased? I would be glad to assist you with that as well."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Moe. Did he just say cluster bomb?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "A girl's gotta do what she's gotta do, right?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I used my own money, not SRT budget! And it was for personal reasons!"
+    },
+    {
+      "Text": "[s] \"Saying it was for personal reasons makes it even more suspicious.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "Actually, I wasn't looking to buy anything today."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I was hoping to sell."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Sell? Well, we don't usually allow purchases from our sales line."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "But our VIP clients have special privileges! What was it you were hoping to sell?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I hope you're ready, you might blow your circuits. I've got loads of state-of-the-art stuff, stuff you won't be able to find anywhere else."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Infrared image-guided anti-aircraft missiles, scalable cluster grenades, remote-controlled anti-tank rockets..."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "That is quite the list of rare weaponry! You're sure you're willing to sell them?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I know, I know. The deal of the century! Imagine how your boss would praise you. There's a small matter of a little rust, but you know how it is with the humid weather."
+    },
+    {
+      "Text": "[s] \"It's not a little.\""
+    },
+    {
+      "Name": "Moe",
+      "Text": "(Shut up, Sensei! I'm trying to make a deal here!)"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Well, such special equipment is always in demand. This is a little outside of protocol, but I suppose..."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Very well. I accept."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Is the same account we have on file still correct for payment?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ah, so you see, I've unfortunately been running into some issues with my account."
+    },
+    {
+      "Name": "Moe",
+      "Text": "It should be resolved soon, but until then I was hoping to be paid in weapons and ammo instead."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "...Weapons? Ammo?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I didn't stutter! I'm willing to let go of anti-aircraft missiles for a bunch of measly guns. Strong ones, of course."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Or if you have, you know, thermo-pressure grenades, or white phosphorus smoke grenades! *pant* *pant*"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "While I would love to assist you, we unfortunately just recently sold our entire stock of weapons."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Whaaat?! The entire stock?"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "Yes. An...anonymous customer recently bought us out."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Who on earth would buy that much firepower? Why?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "The only reason you would need that much is to go to war!"
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "I...cannot tell you that."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "As a VIP client, you must understand. You would be rather upset if we divulged your private purchase history, no?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Well, they all know about the cluster bombs now...but yeah..."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "I'm terribly sorry, but let's pretend this exchange never happened."
+    },
+    {
+      "Name": "Kaiser Salesperson",
+      "Text": "I do hope we have more fruitful dealings in the future!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "What in the world... What psychotic world do we live in that Kaiser Industries just...has no more weapons? What has this society come to?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "More importantly. Moe. When and how did you become a VIP client at Kaiser Industries?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I KNEW there were discrepancies with missing inventory in the squad's supply ledger... You told me I was crazy..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Moe... I don't want you to go to j-jail...!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "W-Wait a second! Can you guys go back to being worried about supplies?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Don't sweat the small details!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Kaiser Industries might have let me down, but you know what never does? Second-hand auctions! I already made a post, so just wait for the buyers to come rolling in!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Who's going to buy all that crazy equipment at some second-hand auction.?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "You may be an uncultured neophyte, but underestimating these auctions will be your first and final mistake!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Look! A message! I told you it wouldn't let me down!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Wait, seriously?"
+    },
+    {
+      "Text": "Next Episode; A Small but Certain Failure"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 14;แลกเปลี่ยนสินค้า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โมเอะมีวิธีดีๆ ที่จะแก้ปัญหาเรื่องของใช้เหรอคะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่เราไม่มีเงินซื้อข้าวของเครื่องใช้เลยนะคะ บัญชีให้ฝากเงินก็ไม่มีด้วย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "วิธีแก้ปัญหางั้นเหรอ... คนที่จุดดอกไม้ไฟจนกระสุนหมดไปเป็นกระสอบเนี่ยนะจะหาวิธีแก้ปัญหา?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "จะทำไม่ได้หรือไง!? อีกอย่างนะ ตอนนั้นดอกไม้ไฟมันเป็นสิ่งจำเป็นต้องทำต่างหาก!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เอาเถอะ! ถึงจะไม่มีเงิน แต่เราก็มีวิธีหาของใช้มาได้"
+    },
+    {
+      "Text": "[s] \"อย่าบอกนะว่าจะไปปล้นธนาคาร...?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พูดอะไรของคุณครูน่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "สมาชิกกองทหารจาก SRT ที่ต้องรักษาความสงบของพลเมืองไม่มีทางไปปล้นธนาคารหรอกค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใครจะไปเสนอให้ทำอะไรบ้าๆ แบบนั้นล่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "วิธีที่ฉันจะเสนอ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ก็คือการแลกเปลี่ยนสิ่งของต่างหากล่ะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "การแลกเปลี่ยนคือวิธีการซื้อขายที่คลาสสิกที่สุดของมนุษยชาติ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เพราะงั้นเราจะใช้ของมีค่าที่เรามีไปแลกกระสุนกับอาวุธมาใช้"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ของมีค่าที่เรามี..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ข้าวกล่องหน้าเนื้อย่างที่หมดอายุ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใครจะไปอยากได้ของแบบนั้นกันล่ะ...? แก๊ง <ความสุขเล็กๆ> รึไง?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "สิ่งที่ฉันจะเอาไปแลกก็คือมิสไซล์กับระเบิดจำนวนมากที่อยู่ในชายขอบของค่ายเราต่างหาก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถึงจะใช้แทบไม่ได้แล้วเพราะโดนฝน แต่พอคิดว่าต้องขายระเบิดที่ฉันรักเหมือนลูก น้ำตาก็เหมือนจะ\nไหลออกมาเป็นสายเลือดเลย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ถึงปล่อยเอาไว้เฉยๆ ก็ไม่มีประโยชน์อยู่ดี สู้ให้ไปอยู่กับเจ้าของดีๆ แล้วไประเบิดในที่ที่ดีกว่านี้น่าจะ\nดีกว่า..."
+    },
+    {
+      "Text": "[s] \"สุดท้ายเป้าหมายคืออยากให้เกิดระเบิดสินะ...\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ถึงจะเป็นระเบิดกับมิสไซล์ราคาแพง แต่ส่วนมากมันก็เสียหายและขึ้นสนิมแล้ว แบบนี้จะมีใครเอา\nของมาแลกอย่างสมราคาเหรอคะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เรื่องนั้นไม่ต้องห่วงหรอก ฉันมีคอนเน็กชั่นมากมายจากการทำปฏิบัติการจัดหาอาวุธยุทธภัณฑ์อยู่น่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ยกตัวอย่างเช่น..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "<ไคเซอร์ อินดัสทรี> ที่เป็นบริษัทลูกของไคเซอร์กรุ๊ป พวกนี้จะเอาอาวุธมือสองมาขายให้กับทหาร\nรับจ้างที่ไม่ค่อยมีเงินแต่อยากได้อาวุธไว้ใช้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันว่าต้องมีคนที่อยากซื้อมิสไซล์ขึ้นสนิมจาก <ไคเซอร์ อินดัสทรี> บ้างล่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "และพวกเราก็จะรับอาวุธคุณภาพดีที่ไคเซอร์กรุ๊ปผลิตเป็นของตอบแทน!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โอ้ เป็นแผนการที่ฉลาด ไม่สมกับเป็นโมเอะเลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ข้าวกล่องนาโปลิตันที่กินไปเมื่อวานมีอะไรผสมเข้าไปด้วยหรือเปล่าเนี่ย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หนวกหูน่า เดี๋ยวก็จุดระเบิดซะเลยนี่!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เอาล่ะ งั้นเราโทรหาสำนักงานพวกนั้นกันเลย"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "นึกถึงอาวุธคุณภาพสูงสุด นึกถึง <ไคเซอร์ อินดัสทรี> สวัสดีครับ ติดต่อเรื่องอะไรครับ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ! ไม่ได้คุยกันนานเลย!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่ฉันเอง เจ้าหน้าที่ฝ่ายเสบียงของสถาบัน SRT ที่เคยติดต่อมาคราวก่อน..."
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "อ๊ะ! คุณลูกค้า VIP ท่านนั้นสินะครับ!"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "เป็นเกียรติอย่างยิ่งที่ได้บริการอีกครั้งเลยละครับ!"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "ครั้งนี้ก็จะมาซื้อมิสไซล์รุ่นใหม่อีกเหรอครับ?"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "หรือว่าระเบิดคลัสเตอร์ที่ซื้อไปคราวก่อนมีปัญหาอะไร...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โมเอะ... ไปซื้ออะไรแบบนั้นมาเมื่อไหร่คะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉะ... ฉันไม่ได้เอาเงินส่วนกลางไปซื้อสักหน่อย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันเอาเงินส่วนตัวซื้อมาต่างหาก! ซื้อมาใช้เป็นวัตถุประสงค์ส่วนตัว!"
+    },
+    {
+      "Text": "[s] \"ซื้อมาใช้เพื่อวัตถุประสงค์ส่วนตัว... แปลกกว่าเดิมอีก\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เอาเถอะ วันนี้ฉันไม่ได้ติดต่อมาเพราะอยากซื้ออะไรหรอก"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันอยากขายอาวุธน่ะ"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "ขายเหรอครับ? ปกติสำนักงานของเราไม่รับซื้อของหรอกนะครับ..."
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "แต่ไหนๆ ก็เป็นลูกค้า VIP งั้นขอฟังรายละเอียดของของที่จะขายหน่อยแล้วกันครับ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "รับรองว่าได้ฟังแล้วจะต้องตกใจเลยแหละ ฉันมีอาวุธชั้นยอดมากมายที่หาซื้อไม่ได้จากพ่อค้าปืน\nหรือร้านสะดวกซื้ออยู่ด้วยนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทั้งขีปนาวุธนำวิถีด้วยอินฟราเรด ระเบิดแสงปรับอานุภาพ แล้วก็จรวดพิฆาตรถถังที่ยิงจากระยะไกลได้"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "พูดจริงหรือเปล่าครับ? จะขายอาวุธหายากพวกนั้นให้เราเหรอครับ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อื้ม แต่มันขึ้นสนิมนิดหน่อยเพราะความชื้นน่ะ..."
+    },
+    {
+      "Text": "[s] \"นั่นไม่เรียกว่านิดหน่อยนะ\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "(หนวกหูน่าคุณครู! คนจะขายของ อย่ามารบกวนสิ!)"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "ถ้าเป็นอาวุธพิเศษขนาดนั้นละก็ เราก็ไม่มีเหตุผลให้ปฏิเสธหรอกครับ"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "เราจะรับซื้อไว้เองครับ"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "เรื่องการชำระเงินเอายังไงดีครับ? ให้โอนเงินเข้าบัญชีเดิมเลยไหมครับ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เรื่องนั้น... พอดีฉันติดปัญหานิดหน่อยเลยใช้บัญชีนั้นไม่ได้แล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ขอรับเงินเป็นอาวุธกับกระสุนแทนจะได้รึเปล่าล่ะ?"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "อาวุธเหรอครับ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อื้ม อาวุธอานุภาพปานกลางที่ไม่ต้องแพงมากก็ได้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่างเช่น ระเบิดสุญญากาศที่เอาใส่ท่อตอร์ปิโดได้ หรือไม่ก็ระเบิดควัน…! แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "คือ... ต้องขออภัยด้วยนะครับ ตอนนี้อาวุธในคลังของเราหมดพอดีเลยครับ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าไงนะ? ขายอาวุธที่มีตั้งเยอะนั่นไปหมดแล้วเหรอ?"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "ใช่ครับ เมื่อไม่กี่วันก่อนมีลูกค้านิรนามมาขอซื้ออาวุธที่เรามีไปจนเกลี้ยงเลยครับ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "กว้านซื้อไปหมดเลยงั้นเหรอ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่ใครคิดจะก่อสงครามในคิโวทอสหรือไง?"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "มันเป็น... ความลับทางการค้าครับ..."
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "คุณลูกค้า VIP เองก็คงไม่อยากให้ข้อมูลซื้อขายอาวุธกับเรารั่วไหลออกไปเหมือนกันใช่ไหมครับ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อึก... มันก็ใช่อยู่หรอก..."
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "น่าเสียดายนะครับ การซื้อขายในครั้งนี้คงต้องยกเลิกไปก่อนครับ"
+    },
+    {
+      "Name": "พนักงานฝ่ายธุรกิจของไคเซอร์",
+      "Text": "หวังว่าจะได้ให้บริการในครั้งต่อไปนะครับ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทำยังไงดี... ใครจะไปคิดว่าอาวุธในคลังของไคเซอร์ อินดัสทรีจะโดนกว้านซื้อไปหมดแบบนี้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โมเอะ ตอนนี้ฉันสงสัยแล้วละว่าเธอไปเป็นลูกค้า VIP ของไคเซอร์ อินดัสทรีตั้งแต่เมื่อไรกัน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จะว่าไปที่ผ่านมาก็มีสิ่งของจำเป็นหายออกไปจากคลังอย่างน่าสงสัยอยู่นะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "โมเอะจัง... แบบนี้ก็ต้องโดนจับข้อหายักยอกของส่วนกลางน่ะสิ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ดะ... เดี๋ยวก่อน! ตอนนี้เรื่องเสบียงมันสำคัญกว่าไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่าไปสนใจเรื่องเล็กน้อยแบบนั้นเลยน่า!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถึงการซื้อขายกับไคเซอร์ อินดัสทรีจะไม่สำเร็จ แต่ฉันก็ตั้งขายไว้ในตลาดของมือสองเผื่อไว้แล้ว เดี๋ยวก็มีคนสนใจซื้อเองแหละ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใครจะมาซื้อของแพงๆ แบบนี้ในตลาดของมือสองกันล่ะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่าดูถูกตลาดของมือสองนะ! ในนั้นมีสินค้าตั้งแต่กับข้าวถุงยันอุปกรณ์การแฮ็กเลยนะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ดูสิๆ อาจจะมีข้อความจากคนที่อยากซื้อระเบิดเข้ามาก็แล้วได้..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "...มาจริงด้วยแฮะ?"
+    },
+    {
+      "Text": "ตอนต่อไป;ความพ่ายแพ้เล็กๆ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第14話;以物易物"
+    },
+    {
+      "Name": "都子",
+      "Text": "萌，你有什麼好方法嗎？"
+    },
+    {
+      "Name": "美優",
+      "Text": "但，但是現在的我們，錢和帳戶都……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……話說最一開始，瘋狂浪費彈藥的就是你啊。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不不不，我有說過那是必要的時機啊！"
+    },
+    {
+      "Name": "萌",
+      "Text": "總之，又不是沒有錢就沒辦法補充。"
+    },
+    {
+      "Text": "[s] 「該不會要搶銀行……」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哈啊？你在說什麼？"
+    },
+    {
+      "Name": "都子",
+      "Text": "必須守護市民安全的SRT，怎麼可能去當銀行強盜。"
+    },
+    {
+      "Name": "萌",
+      "Text": "才不是那種頭腦壞掉的想法呢，"
+    },
+    {
+      "Name": "萌",
+      "Text": "我想說的是……"
+    },
+    {
+      "Name": "萌",
+      "Text": "以物易物！"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，也算是某種回歸原點的古典交易方法。"
+    },
+    {
+      "Name": "萌",
+      "Text": "交出我們持有的貴重物品，收下等價的武器和彈藥。"
+    },
+    {
+      "Name": "都子",
+      "Text": "說到「我們持有的貴重物品」……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……燒肉便當？賞味期限到了耶……"
+    },
+    {
+      "Name": "萌",
+      "Text": "那種東西誰也不會買吧。真要說的話只有那個「所確幸」。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不是那些，而是大量的導彈和炸彈啦。"
+    },
+    {
+      "Name": "萌",
+      "Text": "雖然浸水報廢了，不過也不代表沒有價值。"
+    },
+    {
+      "Name": "萌",
+      "Text": "雖然是斷腸之痛，但它們能找到更好的主人也比較好吧。"
+    },
+    {
+      "Text": "[s] 「原來如此……？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "不過會有人買嗎？雖然原本是高價品，但現在幾乎都故障或生鏽了……"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，那方面就交給我吧。我有人脈。"
+    },
+    {
+      "Name": "萌",
+      "Text": "例如，我想想……"
+    },
+    {
+      "Name": "萌",
+      "Text": "在黑市經手武器的「凱薩工業」。\n那邊的傭兵們對二手武器的需求是源源不絕。"
+    },
+    {
+      "Name": "萌",
+      "Text": "那裡的話就算是這種生鏽導彈，也會有人能找出什麼用途吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "作為交換，我們可以收下凱薩集團品質還不錯的武器！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘿～以萌來說算是很正常的想法了嘛。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "身體沒事嗎？難道昨天的拿波里便當吃壞肚子了？"
+    },
+    {
+      "Name": "萌",
+      "Text": "吵死啦！？"
+    },
+    {
+      "Name": "萌",
+      "Text": "總之，撥電話給營業所看看吧。"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "您好，這裡是提供最高品質武器的「凱薩工業」。請問有什麼事呢？"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗨嗨，好久不見！"
+    },
+    {
+      "Name": "萌",
+      "Text": "是我啦，是我。之前也買了很多東西的，SRT特殊學園補給擔當。"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "那，那個時候的VVIP……！？"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "久疏問候了！"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "請問這次也需要新的導彈嗎？"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "還是說以前購買的集束炸彈有什麼問題嗎……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……萌，你什麼時候買了那種東西？"
+    },
+    {
+      "Name": "萌",
+      "Text": "呀，那個，反正不是學園的錢？"
+    },
+    {
+      "Name": "萌",
+      "Text": "只是私人用的炸彈！是自費的所以沒問題！"
+    },
+    {
+      "Text": "[s] 「『私人用的炸彈』是什麼……？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "總，總之……"
+    },
+    {
+      "Name": "萌",
+      "Text": "今天不是要買，而是要賣才聯絡的。"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "要賣嗎……？本店基本上對於買進業務……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "不過也不能什麼都不聽就拒絕呢。可以先請教原因嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "這個嘛……其實我手上有一些在便利商店買不到的高級裝備。"
+    },
+    {
+      "Name": "萌",
+      "Text": "像是誘導式對空導彈、可以調節威力的集束手榴彈、可以遠端操作的反戰車火箭……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "什，什麼……您願意把那些賣給我們嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗯，雖然有點生鏽了……不過應該沒問題吧。"
+    },
+    {
+      "Text": "[s] 「……有點？」"
+    },
+    {
+      "Name": "萌",
+      "Text": "（老師，Shut up！！）"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "如果是那種特殊的東西，我想需求應該要多少有多少……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "好的，我們很樂意接受。"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "順帶一提款項部分，和以前一樣匯入同一個帳戶就可以了嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊……其實那個帳戶出了點問題，現在沒辦法使用……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不收現金，用實物如何？"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "實物是指……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "稍微便宜點的東西就可以了，我想要高火力的武器。"
+    },
+    {
+      "Name": "萌",
+      "Text": "空爆燃燒彈、白磷彈之類的……哈啊，哈啊……！"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "其，其實，非常抱歉……目前武器的庫存都賣光了……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……咦，平常明明有那麼多？全沒了？"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "是的……其實前幾天，被匿名的客人全部買下了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "什……是打算在奇普托斯展開戰爭嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "是誰買那麼大量的……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "這部分我實在沒辦法回答……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "不好意思，這是對顧客們的保密政策……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這，這倒也是……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "那麼雖然很遺憾，這次的交易就當作沒發生過……"
+    },
+    {
+      "Name": "凱薩銷售員",
+      "Text": "如果還有其他事情的話，隨時歡迎聯絡！"
+    },
+    {
+      "Name": "萌",
+      "Text": "這，這什麼莫名其妙的狀況……害人期待落空了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "話說萌，你什麼時候變成凱薩工業的VVIP了啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "這樣想起來，以前有很多細項計算對不上，該不會……"
+    },
+    {
+      "Name": "美優",
+      "Text": "萌醬……會因為貪汙罪被逮捕……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "那，那不是現在該說的事吧！？"
+    },
+    {
+      "Name": "萌",
+      "Text": "總之現在補給的事比較重要……！"
+    },
+    {
+      "Name": "萌",
+      "Text": "反，反正也不是只有「凱薩工業」這條人脈！還有中古拍賣之類的，買家要多少都有！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種東西會有人特地在拍賣會買嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "別小看拍賣會！最近的拍賣會除了武器和彈藥，從駭客機器到蔬菜什麼都能入手！"
+    },
+    {
+      "Name": "萌",
+      "Text": "肯定現在也有，請讓我買炸彈的訊息──"
+    },
+    {
+      "Name": "萌",
+      "Text": "……嗚哇，還真的有。"
+    },
+    {
+      "Text": "下一話;小而確實的敗北"
+    }
+  ]
+}

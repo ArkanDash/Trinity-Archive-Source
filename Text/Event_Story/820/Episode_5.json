@@ -1,0 +1,917 @@
+{
+  "TitleJP": "これで勝ったと思うなよ！",
+  "TitleKR": "이걸로 끝이라고 생각하지 마라!",
+  "TitleEN": "This Isn't Over!",
+  "TitleTH": "อย่าคิดว่าจะจบแค่นี้นะ!",
+  "TitleTW": "別以為就這樣結束了！",
+  "DescJP": "ハルナ達に敗れたグルメヘルメット団は、彼女が美食研究会の一員である事を知り、恐怖に慄きながら増援を呼ぶ。そして、彼女たちはニャオフードの指示でここに来ていると口を滑らせ――",
+  "DescKR": "참새정에 패배한 구르메 헬멧단은 하루나 일행의 정체에 대해 묻는다. 하루나는 자신들을 미식연구회라고 소개하고, 구르메 헬멧단은 동료들에게 지원요청을 하며, 미식연구회는 응전한다.",
+  "DescEN": "After the Gourmet Helmet Gangsters are defeated, they demand to know who Haruna and the rest are. Haruna introduces the Gourmet Research Society. The Gourmet Helmet Gang makes a request for reinforcements, and the Gourmet Research Society fights back.",
+  "DescTH": "แก๊งหมวกกันน็อกคุรุเมะที่พ่ายแพ้ต่อร้านซุซุเมะได้ถามถึงตัวตนที่แท้จริง\nของฮารุนะ เธอแนะนำตัวว่ามาจากชมรมชิมอาหาร แก๊งหมวกกันน็อก\nคุรุเมะเรียกพรรคพวกมาเป็นกำลังเสริม ชมรมชิมอาหารจึงเข้ามารับมือ",
+  "DescTW": "在麻雀亭被擊敗後，饕餮頭盔團詢問羽留奈等人的身分。羽留奈介紹說一行人是美食研究會的成員，後來饕餮頭盔團向同伴尋求支援，美食研究會便迎敵應戰。",
+  "DialogJP": [
+    {
+      "Text": "第3話;これで勝ったと思うなよ！"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "はぁ、はぁ……！お前ら、いったい何なんだよ！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "それについては、私がお答えいたしましょう。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "我々は美食の極意を求めて旅する孤独な巡礼者。EAT or DIE。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "おいしいものを食べるためであれば、どんな苦難も乗り越えてみせる――それが私たち、ゲヘナの美食研究会ですわ。"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "美食研究会だって！？嘘だろ！？"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "食べ物のためなら火の海にだって飛び込むとかいう、ヤバい連中じゃん！？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "！？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "いや、違うって。"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "火の海だって食べ尽くすって話だよ！"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "それならブラックホールの胃袋を持つって話も納得だな……。"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "！？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "食べ過ぎの呪いで、肝心な時に食べられないみたいな話も聞いたような。"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "というか、"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "どうしてそんなテロリスト集団の美食研究会がスズメ亭なんかにいるんだ？"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "何よ、テロリストだなんて！失礼しちゃう！"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "私たちはただグルメ巡りをしているだけなんだから！\n途中でたまに問題が起こるだけよ！"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "美食研究会には良心の欠片もないって噂はどうやら本当のようだな。\n恐ろしい連中め……。"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "とにかく！お前たちがあたしらの邪魔をする権利はないからな！"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "そうだ、そうだ！もう女将は契約書にサインしてるんだからな！"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "あたしらは約束の期日が近づいてる事を伝えに来ただけなんだけど？"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "一体、どこが問題だって言うんだ？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "だよね？あたしたちは親切心で、確認に来てあげたんだから！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "面白いことを仰いますね。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "何故、親切だと自負しているのにヘルメットで顔を隠し、店主を脅しているのでしょう？"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "な、何か文句でもあるのかよ！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "それに――なぜ、スズメ亭とニャオフードのトラブルに、グルメヘルメット団が介入してくるのですか？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "ニャオフードとグルメヘルメット団の間に、何らかの関係があるのでしょうか？"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "えっ……もしかしてあたしら、やらかした？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "や、やっちまった……まずい、これが上層部に知られたらあたしらは……！"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "いや、まだ大丈夫だ。目撃者がいなけりゃ何も問題ない。"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "そうか！誰も見てなかったことにすればいいのか！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "いよいよ現実を受け入れることさえできなくなったようですわね。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "先ほどから私たちに指一本触れられなかったというのに……一体、何を言っているのでしょう？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "へっへっへ。急に態度変えたのには、それ相応の理由があるってことだ！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "理由……？"
+    },
+    {
+      "Name": "グルメヘルメット団D",
+      "Text": "そうだ！お前たち、今度こそ無事でいられると思うなよ！"
+    },
+    {
+      "Name": "グルメヘルメット団A",
+      "Text": "急にどうしたんだ？緊急の呼び出しなんて驚いたぞ。"
+    },
+    {
+      "Name": "グルメヘルメット団B",
+      "Text": "呼ばれたから来たけど……早く片付けて帰ろうよ。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "なるほど、"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "増員ですか……。"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "ようやく自分の立場を理解したのか？"
+    },
+    {
+      "Name": "グルメヘルメット団C",
+      "Text": "でも遅かったな！\nグルメヘルメット団に歯向かったらどうなるのか思い知るといい！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "いいえ――"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "理解したのは、あなた方も美食を汚すような方々と一緒だということですわ！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;이걸로 끝이라고 생각하지 마라!"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "헉, 헉……! 너희들, 대체 뭐야!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "거기에 대해서는, 제가 대답을 드려야겠군요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "미식의 극의를 찾아 떠나는 외로운 순례자들. EAT or DIE."
+    },
+    {
+      "Name": "하루나",
+      "Text": "맛있는 것을 먹기 위해서라면 어떤 고난도 두려워하지 않는다. 게헨나의 미식연구회입니다."
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "미식연구회?! 진짜냐?!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "먹기 위해서라면 불바다에 뛰어드는 것도 불사한다는?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "?!"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "아니야."
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "내가 듣기로는 이미 불바다쯤은 극복했다고 들었어. 다 먹어 치워서."
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "아, 그래서인가. 아무리 많은 음식도 먹어 없앨 수 있다는 소문이 도는 게."
+    },
+    {
+      "Name": "아카리",
+      "Text": "?!"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "그러다 저주받은 나머지 중요할 때마다 아무것도 먹을 수 없게 되었다는 말도 있던데?"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "아, 아무튼!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "그 우리보다 지독하다는 테러리스트 미식연구회가 왜 여기에 있는 거지?"
+    },
+    {
+      "Name": "준코",
+      "Text": "뭐야, 테러리스트라니!"
+    },
+    {
+      "Name": "준코",
+      "Text": "우린 그냥 맛집 순례를 하는 거야! 그 과정에서 약간 사소한 문제들이 발생할 뿐이고!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "미식연구회는 양심이 없다더니, 진짜였던 모양이군. 무서운 것들……"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "아무튼! 너희가 여기에서 우리를 방해할 권리는 없어!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "맞아, 맞아! 법과 계약은 우리 편이니까!"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "여기 주인장이 가게를 비우기로 한 기간이 다 돼 간다고!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "약속을 지키라고 알려 주는 게 문제 되는 건 아니잖아?"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "그래, 그래! 우린 그저 잊기 쉬운 사항을 일깨워 주러 온…… 친절한 이웃 같은 거라고!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "재미있는 말을 하는군요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "요즘 친절한 이웃은 헬멧을 쓰고 주인을 협박하는 모양이죠?"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "그, 그게 뭐 어때서! 살다 보면 그런 방법을 쓸 수도 있지!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "그보다, 어째서 냐오푸드와의 문제에 당신들 구르메 헬멧단이 끼어드는 거죠?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "이건 냐오푸드와 구르메 헬멧단 사이에 모종의 관계가 있다고 봐도 되는 건가요?"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "어……? 이거, 우리가 나서면 안 되는 일이었던 거 아냐?"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "윽?! 마, 망했다! 이게 윗선에 보고가 들어가면, 우린……!"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "아니, 잘 생각해 봐. 목격자가 없으면 완전범죄야."
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "그래, 그렇군! 아무도 무언가를 못 본 것으로 만들면 되겠네!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "이젠 현실을 인식하는 능력까지 떨어진 것 같군요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "조금 전까지 저희들에게 손끝 하나 대지 못했던 분들이, 뭐라고요?"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "헷헷헷…… 우리 같은 사람들이 태도를 바꿀 때는, 그럴 만한 이유가 있기 때문이지."
+    },
+    {
+      "Name": "하루나",
+      "Text": "이유……?"
+    },
+    {
+      "Name": "구르메 헬멧단 D",
+      "Text": "그래! 너희들도 이제 무사하지 못할 거다!"
+    },
+    {
+      "Name": "구르메 헬멧단 A",
+      "Text": "무슨 일이야! 왜 갑자기 긴급 호출하고 그래?"
+    },
+    {
+      "Name": "구르메 헬멧단 B",
+      "Text": "부르니까 오긴 왔다만, 빨리 처리하고 들어가 쉬자고."
+    },
+    {
+      "Name": "하루나",
+      "Text": "증원인가요?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "그렇군요. 이해했습니다."
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "이제 알았냐?"
+    },
+    {
+      "Name": "구르메 헬멧단 C",
+      "Text": "함부로 우리 구르메 헬멧단에게 덤볐다간, 험한 꼴을 당하게 될 거라는 걸!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "아뇨……"
+    },
+    {
+      "Name": "하루나",
+      "Text": "이해한 것은 당신들도 맛없는 요리를 내세우는 식당 같은 사람들이란 것입니다."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3; This Isn't Over!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "*pant* *pant* ...! Wh-Who even are you people?!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Allow me to answer you."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "We're pilgrims, and our holy sites are the gastronomic extremes of the world."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Undaunted by any hardship or obstacle standing between us and delicious food, we are none other than Gehenna's Gourmet Research Society. Eat or Die!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "The Gourmet Research Society?! Really?!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "The ones who jumped into a sea of fire for popcorn?!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "?!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "Where did you hear that nonsense?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "They didn't jump into a sea of fire, that's where they came from! They left because they already ate everything inside of it."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "Rumor has it that one of them has a black hole for a stomach. If you get too close to her mouth, you get sucked in."
+    },
+    {
+      "Name": "Akari",
+      "Text": "?!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "And don't they have some sort of curse? That no meal can be finished around them, because something always comes up."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "A-Anyway!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "What are those demonic terrorists from the Gourmet Research Society doing here?"
+    },
+    {
+      "Name": "Junko",
+      "Text": "Demonic?! Terrorists?!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "We just go around eating good food! A few explosions here and there are unavoidable in that process!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "I've heard how shameless the Gourmet Research Society is. Now I see all the rumors are true. How scary..."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "Listen up! You have no right to interrupt us here!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "Right! We have the power of contract law on our side!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "The owner here is supposed to vacate the premises!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "We're just here for a friendly reminder."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "Yeah! We're just being good neighbors! Except we're not actually neighbors...which means we're going out of our way to be nice!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "That's odd."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "I don't remember my neighbors ever wearing helmets and threatening people with guns."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "W-We don't threaten anybody with guns! We just threaten people while holding guns!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "So, why are the Gourmet Helmet Gangsters involved with Nyao Foods' supposed contract disputes?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Can we assume then the existence of a relationship between Nyao Foods and the Gourmet Helmet Gangsters?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "Wh-Whaaaaat? That's crazy talk..."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "W-We're toast if the higher-ups hear about this!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "Well, they won't hear about it if there are no witnesses."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "But there are witnesses... Oh! I get it now. Yeah! No witnesses!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Oh, I'm sorry, we must have given you a concussion since you can't seem to think straight anymore."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "You couldn't even touch us a moment ago, so where is this confidence coming from?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "Heh heh heh... Fools! When cowards like us change our attitude, there's always a good reason!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Whatever could you mean?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster D",
+      "Text": "No need for questions! Just turn around and realize your defeat!"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster A",
+      "Text": "What's going on? Why were you spamming us with emergency calls?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster B",
+      "Text": "I wanna get this out of the way, there's a meeting for pet rock owners that I want to go to."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Reinforcements?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "I see. How quaint."
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "Now do you get it?"
+    },
+    {
+      "Name": "Gourmet Helmet Gangster C",
+      "Text": "No one challenges the Gourmet Helmet Gangsters and gets away with it!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "No, not that..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "What I understand now is that you're no better than a restaurant serving spoiled food."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;อย่าคิดว่าจะจบแค่นี้นะ!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "แฮ่ก... แฮ่ก...! ยัยพวกนี้เป็นใครกันเนี่ย!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ฉันจะเป็นคนตอบเรื่องนั้นให้เองค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ผู้โดดเดี่ยวที่ออกเดินทางเพื่อแสวงหาอาหารรสเลิศ EAT or DIE"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ถ้าเพื่อการลิ้มรสอาหารแสนอร่อยแล้วละก็ ต่อให้ลำบากแค่ไหนพวกเราก็ไม่หวาดหวั่น เพราะพวกเรา\nคือชมรมชิมอาหารของเกเฮนน่าค่ะ"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ชมรมชิมอาหาร?! พูดจริงเรอะ?!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "พวกที่ยินดีกระโดดลงไปในทะเลเพลิงเพื่อของอร่อยๆ นั่นน่ะนะ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "?!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ไม่หรอก"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ฉันได้ยินมาว่าพวกนั้นเอาชนะทะเลเพลิงได้แล้ว เป็นพวกกินแหลกไม่สนใครเลย"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "งั้นเหรอ... ได้ยินว่าต่อให้มีอาหารกองมากมายแค่ไหน เจ้าพวกนั้นก็ฟาดเรียบได้ด้วย"
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "?!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ได้ยินว่าโดนสาปให้อดกินของอร่อยทุกๆ ครั้งที่มีเรื่องสำคัญเลยด้วยนะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "จะ...จะยังไงก็เถอะ!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "พวกชมรมชิมอาหารที่เป็นผู้ก่อการร้ายจอมโหดแบบนั้น ทำไมถึงมาอยู่ที่นี่ได้ล่ะ?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "อะไรนะ? ผู้ก่อการร้ายเรอะ!"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "พวกเราก็แค่ตามหาร้านอาหารอร่อยๆ แล้วระหว่างนั้นก็ชอบมีพวกเด็กเกเรโผล่ออกมาสร้างปัญหาให้ก็\nเท่านั้นเอง!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "ได้ยินว่าพวกชมรมชิมอาหารไม่มีจิตสำนึกด้วย ดูท่าจะเป็นเรื่องจริงซะด้วย คนน่ากลัวพวกนั้น..."
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ยังไงก็เถอะ! พวกเธอไม่มีสิทธิ์มาขวางพวกเราหรอกนะเฟ้ย!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "ใช่ ใช่แล้ว! ยังไงซะสัญญากับข้อกฎหมายก็อยู่ข้างพวกเรายังไงเล่า!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ตอนนี้ก็ถึงเวลาที่เจ้าของบอกว่าจะย้ายออกแล้วด้วย!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "พวกเราแค่มาบอกให้รักษาสัญญาก็เท่านั้นเอง คงไม่มีปัญหาใช่มั้ย?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ใช่แล้ว ใช่แล้ว! พวกเราก็แค่มาเตือนเรื่องที่ลืมกันง่ายๆ ก็เท่านั้น... เหมือนเพื่อนบ้านแสนดีไงเล่า!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ใช้คำพูดได้น่าสนใจดีนะคะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ชักจะสงสัยแล้วสิคะ ว่าเพื่อนบ้านที่แสนดีสมัยนี้ เค้าใส่หมวกกันน็อกแล้วมาข่มขู่เจ้าของร้านแบบนี้\nด้วยสินะคะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "ละ... แล้วจะทำไมล่ะ! ทำไปทำมามันก็ชินกับวิธีนี้ไปแล้วน่ะสิ!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ยิ่งกว่านั้น นี่เป็นปัญหาของทางเนียวฟู้ด ทำไมแก๊งหมวกกันน็อกคุรุเมะอย่างพวกคุณถึงเข้ามาวุ่นวาย\nด้วยล่ะคะ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "หรือว่าเรื่องนี้แก๊งหมวกกันน็อกคุรุเมะกับเนียวฟู้ดร่วมมือกันเหรอคะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "เอ๋...? หรือว่าพวกเราไม่ควรยุ่งเรื่องนี้งั้นเหรอ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "อึก?! ซะ...ซวยแล้ว! ถ้าเรื่องนี้ไปเข้าหูถึงเบื้องบนละก็ พวกเราได้กลายเป็นปุ๋ยกันแน่ๆ...!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "ไม่สิ ลองคิดดูสิ ถ้าไม่มีใครเห็นละก็... ถือเป็นอาชญากรรมที่สมบูรณ์แบบเลยนะ"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ใช่... จริงด้วย! แค่ทำให้ไม่มีผู้เห็นเหตุการณ์ก็พอแล้วนี่!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ดูท่าทางความสามารถในการพิจารณาสถานการณ์ก็ตกต่ำลงด้วยนะคะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ก่อนหน้านี้พวกคุณยังทำอะไรพวกเราไม่ได้แท้ๆ... จะยังพูดแบบนี้อีกเหรอคะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "ฮี่ๆๆ... เวลาที่คนอย่างพวกเรามีท่าทีเปลี่ยนไป มันก็มีเหตุผลอยู่นะ..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "เหตุผล...?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ D",
+      "Text": "ใช่แล้ว! ตอนนี้พวกเธอเจอดีแน่!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ A",
+      "Text": "มีอะไรกันน่ะ? ทำไมจู่ๆ ถึงเรียกรวมพลกะทันหันล่ะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ B",
+      "Text": "เรามาตามที่เรียกแล้ว รีบๆ จัดการแล้วไปนอนกันดีกว่า"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "กำลังสนับสนุนเหรอคะ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "อย่างนี้เองสินะคะ เข้าใจแล้วค่ะ"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "เข้าใจแล้วใช่มั้ยห้ะ?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก คุรุเมะ C",
+      "Text": "กล้ามาวุ่นวายกับแก๊งหมวกกันน็อกคุรุเมะของเราแบบนี้ จบไม่สวยแน่!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "เปล่าค่ะ..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ที่ฉันเข้าใจคือ... คุณเป็นพวกเดียวกับคนที่ยกย่องอาหารไม่อร่อยพวกนั้นค่ะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;別以為這樣就結束了！"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "哈啊，哈啊……！你們，究竟是什麼人啊！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "這個問題，就由我來回答吧。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "我等是為了追求美食的極意而踏上旅途的孤獨巡禮者。EAT or DIE。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "只要是為了美食，任何苦難都能克服──那便是我們格黑娜美食研究會。"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "美食研究會！？真的假的！？"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "聽說是群能為了食物縱身跳入火海的傢伙！？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "！？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "不，不對。"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "聽說是連火海都能吞下肚！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "如果是這樣的話，那胃裡有黑洞的傳聞也就合理了……"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "！？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "我還聽說因為暴食而被下了詛咒，所以每到重要的時刻就會吃不到食物。"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "總，總之！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "為什麼恐怖份子集團「美食研究會」會出現在麻雀亭這樣的地方？"
+    },
+    {
+      "Name": "淳子",
+      "Text": "什麼恐怖份子嘛！真是失禮！"
+    },
+    {
+      "Name": "淳子",
+      "Text": "我們只是在做美食巡禮而已！\n那些只是過程中的一點小插曲！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "看來美食研究會喪盡天良的傳言是真的。\n真是群可怕的傢伙……"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "總之！你們沒有在這裡妨礙我們的權利！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "對啊，對啊！老闆娘可是已經在契約上簽名了！"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "我們只不過是來提醒一下期限就快到了而已！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "告訴人家記得遵守約定有什麼問題嗎？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "就是啊就是啊！\n我們只是怕他忘了，所以才來提醒……就像友善的好鄰居一樣！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "你們說的話還真有意思呢。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "如果是來關心的，怎麼會用頭盔遮住臉，還威脅店主呢？"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "有，有什麼意見嗎！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "再加上──為什麼饕餮頭盔團會介入麻雀亭和喵食品之間的糾紛呢？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "喵食品和饕餮頭盔團之間有什麼關聯嗎？"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "哎……我們該不會搞砸了吧？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "完，完了……如果被上面的人知道的話，我們就……！"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "不，目前還沒事。只要沒有目擊者的話，就什麼事都沒發生。"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "是啊！只要沒有人看到就行了！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "看來你們還沒有看清現實啊。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "明明從剛才開始，就連一根手指都不敢輕舉妄動……現在為何又在胡言亂語呢？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "嘿嘿嘿……態度之所以會一百八十度急轉彎，當然是有相應的理由囉！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "理由……？"
+    },
+    {
+      "Name": "饕餮頭盔團D",
+      "Text": "沒錯！你們可別以為事情這樣就結束了！"
+    },
+    {
+      "Name": "饕餮頭盔團A",
+      "Text": "發生什麼事了？為什麼突然緊急呼叫？"
+    },
+    {
+      "Name": "饕餮頭盔團B",
+      "Text": "既然來都來了……趕緊把他們收拾掉吧。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "增援是嗎？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "原來如此，我明白了。"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "現在知道自己的立場了吧？"
+    },
+    {
+      "Name": "饕餮頭盔團C",
+      "Text": "但已經太遲了！\n這就讓你們瞧瞧，和我們饕餮頭盔團作對會是什麼下場！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "你的好意我心領了──"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "但我明白的，是你們不過是群玷汙美食的烏合之眾而已！"
+    }
+  ]
+}

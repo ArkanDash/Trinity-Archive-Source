@@ -1,0 +1,2272 @@
+{
+  "TitleJP": "屋台エリアの誘惑",
+  "TitleKR": "노점상의 유혹",
+  "TitleEN": "Temptation of Street Vendors",
+  "TitleTH": "ความยั่วยวนของร้านขายของข้างทาง",
+  "TitleTW": "攤販的誘惑",
+  "DescJP": "屋台エリアを散策していた先生は、パトロール中のハスミと出会う。曰く、お祭りムードに乗せられて羽目を外す生徒が増えるだとか。そんな二人の前に、美食研究会一同のハルナが現れ、お近づきの印にと屋台のトウモロコシを差し出してくる。カロリーの塊を食べるのは、と躊躇っているハスミに対し、食べても太らない体質だから気にした事などないと告げるハルナ。その言葉に傷ついたハスミは、打倒ゲヘナ学園を決意するのだった。",
+  "DescKR": "어느덧 축제 분위기가 무르익고, 스타디움 근처의 노점상 거리도 붐비기 시작한다. 실행위원 업무를 수행 중이던 하스미는 우연히 미식연구회의 부장, 하루나와 마주치고 특별히 관리하지 않아도 살이 찌지 않는다는 하루나의 도발(?)에 하스미는 격분하며 승부욕을 불태운다.",
+  "DescEN": "The festival is in full swing, and the street vendors by the Stadium start to bustle with activity. Hasumi is on Executive Committee duty when she runs into Haruna, the president of the Gourmet Research Society. Haruna says she is able to stay naturally skinny without effort, which provokes Hasumi into a competitive rage.",
+  "DescTH": "บรรยากาศของเทศกาลกำลังสนุกได้ที่ ถนนใกล้ๆ สนามแข่งขันกีฬาที่เต็ม\nไปด้วยร้านขายของก็เริ่มแออัด ฮาสุมิบังเอิญได้เจอกับฮารุนะ หัวหน้า\nชมรมชิมอาหารโดยบังเอิญระหว่างทำงานของคณะกรรมการจัดงาน ฮารุนะพูดยั่วโมโห(?)ว่าเธอไม่ได้ดูแลร่างกายอะไรเป็นพิเศษ แต่น้ำหนัก\nก็ไม่ขึ้น ฮาสุมิจึงหัวร้อนและลงแข่งด้วยความโมโห",
+  "DescTW": "慶典的氣氛在不知不覺間熱絡了起來，田徑運動場附近的攤販街道也開始變得擁擠。蓮實在進行實行委員的工作時，偶然遇見了美食研究會。羽留奈挑釁（？）說自己不會變胖，所以不用特別管理體重，這句話惹得蓮實火冒三丈，燃起了求勝慾望。",
+  "DialogJP": [
+    {
+      "Text": "第2話;屋台エリアの誘惑"
+    },
+    {
+      "Text": "アスレチックスタジアム・屋台エリア"
+    },
+    {
+      "Text": "（実行委員会の会議後、大運動会を見て回るために競技場の外に出た）"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "さあさ、お立ち会い！寄ってらっしゃい見てらっしゃい！\n[ruby=せんがいきょう]山海経[/ruby]名物「玄武商会」が[ruby=こうりんたいさい]晄輪大祭[/ruby]にやって参りましたよ～！"
+    },
+    {
+      "Name": "ルミ",
+      "Text": "普段であれば山海経でしか味わえない珍味が勢ぞろい！\n試合のお供にどうぞご賞味あれ！"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "あら、玄武商会の屋台ですよ。"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "私、玄武商会の料理を一度味わってみたかったんです！\nこんなところで巡り会えるなんて……行ってみませんか？"
+    },
+    {
+      "Name": "トリニティの生徒B",
+      "Text": "いいですけど……朝から重めの中華料理はちょっと……胃にきそうですね。"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "[ruby=ももよどう]百夜堂[/ruby]出張販売で～す！"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "新商品の「桜ソーダ」！\n試合のお供にいかがですか～？"
+    },
+    {
+      "Name": "シズコ",
+      "Text": "シズコお手製モナカもありますよ～！"
+    },
+    {
+      "Name": "ゲヘナの生徒A",
+      "Text": "あれ、「百夜堂」だ？"
+    },
+    {
+      "Name": "ゲヘナの生徒B",
+      "Text": "この前「百夜ノ春ノ桜花祭」に行った友達が、あそこの食べ物は本当においしいって言ってたような……"
+    },
+    {
+      "Name": "ゲヘナの生徒A",
+      "Text": "本試合が始まる前に食べてみようかな？"
+    },
+    {
+      "Text": "[ns] \"競技場の外もにぎやかだね……。\""
+    },
+    {
+      "Name": "不良生徒A",
+      "Text": "んー、ごちそうさま～"
+    },
+    {
+      "Name": "不良生徒A",
+      "Text": "腹も膨れたし、そろそろ他のとこ行く？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "そこ、お待ちなさい！"
+    },
+    {
+      "Name": "不良生徒A",
+      "Text": "あ、あれ？正義実現委員会の、副委員長……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "ゴミはきちんとゴミ箱に捨ててください。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "来た時よりも美しくとまでは言いませんが、最低限のごみ捨てくらいはしてください。"
+    },
+    {
+      "Name": "不良生徒A",
+      "Text": "（うっ、まさか大運動会でも正義実現委員会が活動していたとは……）"
+    },
+    {
+      "Name": "不良生徒A",
+      "Text": "す、すいませんでしたー！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "はぁ……お祭りの雰囲気に当てられているのか、羽目を外している生徒が多いですね。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "どうか、トリニティの権威を失墜させる生徒がこれ以上出ないといいのですが……"
+    },
+    {
+      "Text": "[s] \"また会ったね、ハスミ。\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……[USERNAME]先生？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "先程はお騒がせいたしました、またお会いできるとは。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "お祭りは楽しめていますでしょうか？"
+    },
+    {
+      "Text": "[s] \"うん、おかげさまで。\""
+    },
+    {
+      "Text": "[ns] \"ハスミは実行委員のお仕事中？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "はい。運営を手伝うほか、お祭りムードで羽目を外しすぎてしまった生徒を正しく導き、美化を整備することも仕事の一つですので。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "ですが、軽く会場を見て回ったところ……\n思った以上に施設が広く、生徒も多くて……どうにも。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "風紀を取り締まるだけで一日が終わってしまいそうなほどです。"
+    },
+    {
+      "Text": "[s] \"……本当に、選手として参加しなくていいの？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……それはもちろんです。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "実行委員の本分は試合の参加ではなく運営にありますから。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "もちろん実行委員が試合に参加できないわけではありませんが……"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "先ほどの会議でも申し上げた通り、トリニティには優秀な生徒がたくさんいますから。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "私は実行委員として、生徒の風紀と競技の運営に専念するつもりです。"
+    },
+    {
+      "Text": "[s] \"そっか……大変だね。\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "いえ、そうでもないですよ。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "キヴォトス中の生徒が待ちわびてきたお祭りですが、\n私にとっては、普段の業務の延長に過ぎませんから。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "ですので、いつも通り黙々と正義を実現するだけ――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "あら、こんな所でお会いするなんて……奇遇ですね。"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "あ、[USERNAME]先生だ。"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "やっほー先生！"
+    },
+    {
+      "Text": "[s1] \"やっほー！\""
+    },
+    {
+      "Text": "[s2] \"美食研究会も来てたんだ。\""
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "もちろんです。大運動会は様々な料理が楽しめる美食の祭典。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "もちろんです。大運動会は様々な料理が楽しめる美食の祭典。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "究極の美食を探求する私たち美食研究会がこの機を逃すなど、あり得ませんわ。"
+    },
+    {
+      "Text": "[s] \"大運動会が美食の祭典……？\""
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "ええ。「晄輪大祭」は、各学園の特色を見て回れる博覧会の役割も担っておりますから。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "ミレニアムの技術力であれば……\n高分子化合技術で特定の味を抽出したり、凝縮する事だってできるはず……"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "新技術で生み出された食べ物は、凝り固まった価値観の美食界隈にビッグバンをもたらしてくれる事でしょう。"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "その他にも「晄輪大祭」には様々な屋台がありますからね。"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "試合を応援しながら手軽に食べられる屋台料理は、\n大運動会でしか楽しめない名物なんですよ～"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "特に「玄武商会」や「百夜堂」など……普段は自治区に行かないと食べられないローカルな名店も屋台を出すので、それを食べるために来る生徒もいるくらいなんです★"
+    },
+    {
+      "Text": "[s] \"そういえば、他の学園の生徒を見たような……。\""
+    },
+    {
+      "Name": "イズミ",
+      "Text": "それにパン食い競争もあるからね！"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "試合に参加するだけでパンを思う存分食べられるなんて、最高だよ～"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "パン食い競争は大食い大会じゃないんだよ……？"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "そういえば、今回の大運動会の種目の中には自動でわんこそばをついでくれる機械と勝負する大食い大会もあると伺いましたが……"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "ふふ、どれだけ私を満足させてくれるか、今から楽しみですね～♥"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "みんな朝から浮かれて……バカみたい。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "あなた方は……"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "あら、そちらにいらっしゃるのは正義実現委員会の副委員長さんですね。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "（ただでさえゲヘナ生と会うのは気まずいのに……悪名高い問題児集団と噂の美食研究会と遭遇するだなんて……）"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "（少し……厄介なことになりましたね）"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "お会いできて嬉しいです。\n今は正義実現委員会の副委員長ではなく、晄輪大祭の実行委員を務めております。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "くれぐれも、「問題なくご安全に」お祭りを楽しんでいただければと思います。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "あら、ご歓待にあずかり光栄ですわ。"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "全く歓迎しているようには見えないんだけど……"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "そういえば、先ほど屋台で買ったこちら……"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "お砂糖とチーズをたっぷりかけて焼いたトウモロコシ、\nお近づきの印に一本、いかがでしょう？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……（ごくり）"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "あら……トウモロコシ、お嫌いでしたか？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "嫌いではないのですが……\nこんなに砂糖やチーズをかけて焼いたトウモロコシは……その……"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "このまま食べると少しカロリーが……\nいえ、間食には少し重くないですか？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "ふふ、カロリーを気にしてしまいましたか？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "心配する必要はありません。\nこの程度でしたら、軽く走れば十分消費できますわ。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "むしろ、晄輪大祭の運動で、痩せすぎてしまう事を心配した方が良いくらいです。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "痩せることを、心配……？"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "そういえば、ハルナは結構食べるのに痩せてるわよね。"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "何かダイエットでもしてるの？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "いえ、太らない体質なんです。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "それに、食べる事に罪悪感を持ってしまうなんて……\n私には耐えられませんわ。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "太らない体質……？\n耐えられない……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "そんな……そんな事……"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "絶対に許せません、ゲヘナ！"
+    },
+    {
+      "Text": "[s] \"は、ハスミ……？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "そうでなくても、あちこちから誘惑が多くて無理やり目をそらしているというのに……。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "目の前でこのような……絶対に許せません！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "先生の前ですから、我慢しようとしましたが……もう一度宣言します。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "どんな手を使ってでも[ruby=ゲヘナ]あなた達[/ruby]を破って\n[ruby=トリニティ]うちが[/ruby]総合優勝を取ってみせますから！"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "あら……何か逆鱗に触れてしまったようですね。"
+    },
+    {
+      "Text": "[s] \"……今のはハルナが悪いよ。\""
+    },
+    {
+      "Name": "アカリ",
+      "Text": "え？私たちは美味しい食べ物を勧めただけですよ？"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "うんうん！美味しいトウモロコシを食べないなんて……理解できないよ～"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "食べ物もらって怒りが収まるのはバカイズミくらいでしょうが……。"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "はあ……私は変な新メニューも大食い大会も参加するつもりなかったのに、どうしてついてきちゃったんだろ……"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "屋台料理もほとんど食べたことあるものだし、他の変わり種もなさそうだし……"
+    },
+    {
+      "Text": "[s] \"ジュンコ、\""
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "ん？"
+    },
+    {
+      "Text": "[s] \"普通に大運動会を楽しむのはどうかな？\""
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "普通に楽しむって言われても……"
+    },
+    {
+      "Name": "自動音声",
+      "Text": "まもなく「晄輪大祭」の第一試合が開始します。"
+    },
+    {
+      "Name": "自動音声",
+      "Text": "第一試合参加予定の選手の皆様は、控え室にお集まりください。"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "わぁ！そろそろ試合が始まるみたい！"
+    },
+    {
+      "Name": "イズミ",
+      "Text": "遅刻してパン食い競争のパンが無くなっちゃったらどうしよう？"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "まだ時間は十分です。"
+    },
+    {
+      "Name": "ハルナ",
+      "Text": "では、そろそろ各自で美食探求と参りましょうか？"
+    },
+    {
+      "Name": "アカリ",
+      "Text": "それでは、行ってきま～す♥"
+    },
+    {
+      "Name": "ジュンコ",
+      "Text": "……行ってくるわね。"
+    },
+    {
+      "Text": "（美食研究会を見送った後、観戦するためスタジアム内部に移動した）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;노점상의 유혹"
+    },
+    {
+      "Text": "애슬레틱 스타디움 외부 노점상"
+    },
+    {
+      "Text": "(실행위원회의 회의가 끝난 뒤, 대운동회의 풍경을 둘러보기 위해 경기장 밖으로 나왔다.)"
+    },
+    {
+      "Name": "루미",
+      "Text": "자자. 산해경 명물, <현무상회>가 황륜대제에 직접 찾아왔습니다!"
+    },
+    {
+      "Name": "루미",
+      "Text": "평소라면 산해경에서만 맛볼 수 있는 진미를 황륜대제의 경기와 함께 즐겨보세요!"
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "어머나, 현무상회에서도 대운동회에 노점을 낸 모양이네요."
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "전부터 현무상회의 음식은 한번 맛보고 싶었었는데, 마침 이런 곳에서 보게 되다니…… 한번 방문해 볼까요?"
+    },
+    {
+      "Name": "트리니티 학생 B",
+      "Text": "하지만 아침부터 무거운 중화요리는 조금…… 부담이 될 것 같네요."
+    },
+    {
+      "Name": "시즈코",
+      "Text": "백야당 출장 판매입니다!"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "이번에 새롭게 출시한 벚꽃 소다를 마시며 경기를 관람하시는 건 어떠신가요?"
+    },
+    {
+      "Name": "시즈코",
+      "Text": "간식으로 시즈코가 직접 만든 모나카도 있어요!"
+    },
+    {
+      "Name": "게헨나 학생 A",
+      "Text": "어라? <백야당>이잖아?"
+    },
+    {
+      "Name": "게헨나 학생 B",
+      "Text": "지난번 백야앵제에 다녀온 친구가 백야당의 음식이 그렇게 맛있다고 했는데……"
+    },
+    {
+      "Name": "게헨나 학생 A",
+      "Text": "본경기가 시작하기 전에 하나 먹어볼까?"
+    },
+    {
+      "Text": "[ns] \"경기장 밖도 떠들썩하네……\""
+    },
+    {
+      "Name": "불량 학생 A",
+      "Text": "아, 잘 먹었다~"
+    },
+    {
+      "Name": "불량 학생 A",
+      "Text": "배도 채웠으니, 슬슬 다른 장소로 이동해 볼까?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "거기, 잠깐 기다리세요!"
+    },
+    {
+      "Name": "불량 학생 A",
+      "Text": "어, 어라? 정의실현부의 부부장……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "음식을 먹고 나서 생긴 쓰레기는 제대로 쓰레기통에 버려야지요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "그렇게 아무 곳에나 버리면 다른 학생들이 열심히 꾸며 놓은 거리가 더러워지지 않습니까."
+    },
+    {
+      "Name": "불량 학생 A",
+      "Text": "(윽, 설마 대운동회에서도 정의실현부가 활동하고 있었을 줄이야……)"
+    },
+    {
+      "Name": "불량 학생 A",
+      "Text": "죄, 죄송합니다!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "하아…… 축제의 분위기에 취한 탓인지, 몸가짐이 흐트러진 학생들이 많이 보이네요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "부디 트리니티의 위신을 실추시키는 학생이 더 없어야 할 텐데……"
+    },
+    {
+      "Text": "[s] \"다시 만났네, 하스미.\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "……[USERNAME] 선생님?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "아까는 실례를 했습니다만, 이곳에서 다시 뵙게 되는군요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "축제는 어찌 즐겁게 보고 계신가요?"
+    },
+    {
+      "Text": "[s] \"응, 덕분에.\""
+    },
+    {
+      "Text": "[ns] \"하스미는 실행위원 일을 하는 중이야?\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "네. 경기의 운영을 돕는 것 외에도 축제의 분위기에 취한 학생들을 계도하고 미화를 정비하는 것도 운영위원의 업무 중 하나니까요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "하지만 가볍게 회장을 둘러보았는데도 생각보다 시설이 넓고 학생들도 많아서……"
+    },
+    {
+      "Name": "하스미",
+      "Text": "아무래도 오늘은 선도 업무만으로도 정신이 없을 것 같군요."
+    },
+    {
+      "Text": "[s] \"그나저나 대회에는 정말로 직접 참가하지 않을 거야?\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "……네? 그야 물론입니다."
+    },
+    {
+      "Name": "하스미",
+      "Text": "실행위원의 본분은 경기의 참가가 아닌 운영에 있으니까요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "물론 실행위원이 직접 경기에 참가할 수 없는 건 아닙니다만……"
+    },
+    {
+      "Name": "하스미",
+      "Text": "아까 말씀드렸듯이 트리니티에는 저보다 더 경기에서 활약할 수 있는 재원들이 있으니까요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "저는 실행위원을 맡게 된 이상 학생의 선도와 경기 운영에 전념할 생각입니다."
+    },
+    {
+      "Text": "[s] \"……고생이 많네.\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "아뇨. 새삼스러운 일도 아닙니다."
+    },
+    {
+      "Name": "하스미",
+      "Text": "키보토스의 학생들이 고대해 온 축제라 해도, 저에게는 평소와 같은 학원 업무의 연장일 뿐이니까요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "그저 평소처럼 묵묵히 정의를 실현하기만 하면 될 뿐—"
+    },
+    {
+      "Name": "???",
+      "Text": "어머나, 이런 곳에서 뵙게 되다니. 우연이군요."
+    },
+    {
+      "Name": "준코",
+      "Text": "아, [USERNAME] 선생님이다."
+    },
+    {
+      "Name": "이즈미",
+      "Text": "안녕, 선생님!"
+    },
+    {
+      "Text": "[s1] \"안녕!\""
+    },
+    {
+      "Text": "[s2] \"황륜대제에 미식연구회도 왔었구나.\""
+    },
+    {
+      "Name": "하루나",
+      "Text": "물론입니다. 대운동회는 평소에는 접할 수 없었던 다양한 음식을 즐길 수 있는 미식의 제전."
+    },
+    {
+      "Name": "하루나",
+      "Text": "물론입니다. 대운동회는 평소에는 접할 수 없었던 다양한 음식을 즐길 수 있는 미식의 제전."
+    },
+    {
+      "Name": "하루나",
+      "Text": "궁극의 미식을 탐구하는 저희 미식연구회가 이 기회를 놓칠 수는 없지요."
+    },
+    {
+      "Text": "[s] \"대운동회가 미식의 제전이라고……?\""
+    },
+    {
+      "Name": "하루나",
+      "Text": "네. <황륜대제>는 학원의 역량을 아낌없이 보여줄 수 있는 박람회의 역할도 하고 있으니까요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "밀레니엄의 기술력이라면 고분자 화합 기술을 통해 특정한 맛을 추출하거나 극대화하는 것도 가능할 터……"
+    },
+    {
+      "Name": "하루나",
+      "Text": "새로운 기술로 만들어진 음식들은 경직된 미식의 세계에 신기원을 가져다줄 테지요."
+    },
+    {
+      "Name": "아카리",
+      "Text": "그 외에도 <황륜대제>에는 다양한 종류의 음식을 판매하는 노점도 있으니까요."
+    },
+    {
+      "Name": "아카리",
+      "Text": "경기를 관람하며 간편하게 먹을 수 있는 길거리 음식도 대운동회에서만 즐길 수 있는 명물이랍니다."
+    },
+    {
+      "Name": "아카리",
+      "Text": "특히나 <현무상회>나 <백야당>처럼 평소에는 자치구로 찾아가지 않으면 먹기 힘든 로컬 맛집들도 가게를 내기 때문에 일부러 음식을 먹으러 경기장을 찾아오는 학생들도 있을 정도예요. ★"
+    },
+    {
+      "Text": "[s] \"그러고 보니 다른 학원의 학생들을 본 것 같기도……\""
+    },
+    {
+      "Name": "이즈미",
+      "Text": "그리고 빵 먹기 경주도 있잖아!"
+    },
+    {
+      "Name": "이즈미",
+      "Text": "달리기에만 참가하기만 해도 빵을 마음껏 먹을 수 있다니, 최고잖아?"
+    },
+    {
+      "Name": "준코",
+      "Text": "빵 먹기 경주는 많이 먹기 대회가 아니거든……?"
+    },
+    {
+      "Name": "아카리",
+      "Text": "그러고 보니 이번 대운동회의 종목 중에는 자동으로 완코소바를 뽑아주는 기계와 승부하는 많이 먹기 대회도 있다고 하던데……"
+    },
+    {
+      "Name": "아카리",
+      "Text": "후후, 그 기계가 얼마나 저를 만족시킬 수 있을지 벌써부터 기대되네요~ ♥"
+    },
+    {
+      "Name": "준코",
+      "Text": "다들 아침부터 들떠 가지고…… 바보 같아."
+    },
+    {
+      "Name": "하스미",
+      "Text": "이 학생들은……"
+    },
+    {
+      "Name": "하루나",
+      "Text": "어머나, 그러고 보니 그쪽에 계신 분은 정의실현부의 부부장님이시군요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "(안 그래도 게헨나의 학생은 마주하기 거북한 기분인데, 그중에서도 유독 악명높은 문제아 동아리와 바로 마주치게 될 줄이야……)"
+    },
+    {
+      "Name": "하스미",
+      "Text": "(조금…… 귀찮게 되었네요.)"
+    },
+    {
+      "Name": "하스미",
+      "Text": "반갑습니다. 지금은 정의실현부의 부부장이 아닌, 황륜대제의 실행위원이지만요."
+    },
+    {
+      "Name": "하스미",
+      "Text": "모쪼록 '문제없이 안전하게' 축제를 즐기다 가셨으면 좋겠군요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "후후, 환대에 감사드립니다."
+    },
+    {
+      "Name": "준코",
+      "Text": "전혀 환영하는 것처럼 안 보이는데……"
+    },
+    {
+      "Name": "하루나",
+      "Text": "아, 그러고 보니 아까 가판대에서 이런 걸 구입했는데……"
+    },
+    {
+      "Name": "하루나",
+      "Text": "설탕과 치즈를 잔뜩 뿌려 구운 옥수수 하나, 어떠신가요?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "…… (꿀꺽)"
+    },
+    {
+      "Name": "하루나",
+      "Text": "어머나. 옥수수, 싫어하시나요?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "싫어하진 않지만…… 이렇게 설탕과 치즈를 듬뿍 뿌려 구운 옥수수는……"
+    },
+    {
+      "Name": "하스미",
+      "Text": "이대로 먹으면 조금 칼로리가…… 아니, 간식으로는 조금 무겁지 않을까요?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "후후, 칼로리를 신경 쓰고 계셨나요?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "걱정하실 필요는 없습니다. 이 정도의 칼로리는 가볍게 뛰는 정도로 충분히 소비할 수 있으니까요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "오히려 대운동회 중에 계속 움직일 것을 생각하면 살이 빠지는 걸 걱정해야 하지 않을까요?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "살이 빠지는 걸 걱정한다고요……?"
+    },
+    {
+      "Name": "준코",
+      "Text": "그러고 보니 하루나는 먹는 양에 비해 꽤 마른 것 같네."
+    },
+    {
+      "Name": "준코",
+      "Text": "따로 다이어트라도 하는 거야?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "아뇨, 다이어트 같은 건 하지 않았습니다. 저는 살이 찌지 않는 체질이라서요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "게다가 음식을 먹는 것에 죄책감을 가져야 한다니, 제 입장에서는 그만큼 어리석은 행위도 없죠."
+    },
+    {
+      "Name": "하스미",
+      "Text": "……."
+    },
+    {
+      "Name": "하스미",
+      "Text": "살이 찌지 않는 체질…… 이라고요……? 어리석은 행위……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "절대…… 절대로……"
+    },
+    {
+      "Name": "하스미",
+      "Text": "절대로 용서 못 합니다, 게헨나!"
+    },
+    {
+      "Text": "[s] \"하, 하스미……?\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "안 그래도 여기저기서 맛있는 냄새가 나는 걸 억지로 외면하고 있었는데……"
+    },
+    {
+      "Name": "하스미",
+      "Text": "눈앞에서 뻔뻔하게 이런 도발을 하다니, 절대로 용서할 수 없습니다!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "선생님 앞이라 참으려 했지만…… 다시 한번 선언하겠습니다."
+    },
+    {
+      "Name": "하스미",
+      "Text": "무슨 수를 써서라도 [ruby=게헨나]당신들[/ruby]을 꺾고 종합 우승을 따낼 테니까요!"
+    },
+    {
+      "Name": "하루나",
+      "Text": "어머나. 무언가 역린을 건드린 모양이군요."
+    },
+    {
+      "Text": "[s] \"……방금은 하루나가 잘못했다고 생각해.\""
+    },
+    {
+      "Name": "아카리",
+      "Text": "네? 저희는 맛있는 음식을 권했을 뿐인걸요?"
+    },
+    {
+      "Name": "이즈미",
+      "Text": "응응, 맛있는 옥수수를 앞에 두고 화를 내다니…… 정말 이해할 수가 없네."
+    },
+    {
+      "Name": "준코",
+      "Text": "먹을 걸 준다고 화가 풀리는 건 바보 이즈미 정도뿐이겠지."
+    },
+    {
+      "Name": "준코",
+      "Text": "하아…… 나는 이상한 신메뉴에도 많이 먹기 대회에도 참가할 생각이 없었는데, 어쩌다가 여기까지 따라온 거지?"
+    },
+    {
+      "Name": "준코",
+      "Text": "노점상의 음식들도 대부분 먹어본 것뿐이라 맛있는 게 더 있을 것 같지도 않고……"
+    },
+    {
+      "Text": "[s] \"준코.\""
+    },
+    {
+      "Name": "준코",
+      "Text": "응?"
+    },
+    {
+      "Text": "[s] \"오늘은 평범하게 대운동회를 즐기도록 해.\""
+    },
+    {
+      "Name": "준코",
+      "Text": "평범하게 즐기라 해도……"
+    },
+    {
+      "Name": "안내 방송",
+      "Text": "안내 말씀드립니다. 잠시 후 <황륜대제>의 첫 번째 경기가 시작될 예정입니다."
+    },
+    {
+      "Name": "안내 방송",
+      "Text": "참가를 희망하시는 각 학원의 학생 여러분은 선수 대기실에 모여주시기를 바랍니다."
+    },
+    {
+      "Name": "이즈미",
+      "Text": "우, 우앗. 경기 시작하나 봐!"
+    },
+    {
+      "Name": "이즈미",
+      "Text": "너무 늦어서 빵 먹기 경주에 쓰일 빵이 다 떨어지면 어떡하지?"
+    },
+    {
+      "Name": "하루나",
+      "Text": "아직 시간은 충분해요."
+    },
+    {
+      "Name": "하루나",
+      "Text": "그럼 슬슬 흩어져서 각자의 미식을 탐구하고 올까요?"
+    },
+    {
+      "Name": "아카리",
+      "Text": "그럼, 다녀오겠습니다~ ♥"
+    },
+    {
+      "Name": "준코",
+      "Text": "……다녀올게."
+    },
+    {
+      "Text": "(그 후, 미식연구회를 배웅한 뒤 경기를 관람하기 위해 스타디움 내부로 이동했다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2; Temptation of Street Vendors"
+    },
+    {
+      "Text": "Outside the Athletic Stadium: Food Street"
+    },
+    {
+      "Text": "When the Executive Committee meeting was finally over, I decided to take a look around at all the vendor stalls set up for field day."
+    },
+    {
+      "Name": "Rumi",
+      "Text": "Over here! The Black Tortoise Promenade, the renowned food district of Shanhaijing, has arrived at the Kivotos Halo Festival!"
+    },
+    {
+      "Name": "Rumi",
+      "Text": "It's your once-in-a-lifetime chance to taste the delicacies of Shanhaijing while you watch the festivities!"
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "No way! Look! The Black Tortoise Promenade have a stall too!"
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "Are you serious? I've always wanted to try them! Should we get something?"
+    },
+    {
+      "Name": "Trinity Student B",
+      "Text": "It might be kind of unhealthy to have greasy food this early in the morning though..."
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Buy your Momoyodou entries here!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "Sip on our newest drink, the cherry blossom soda, as you cheer on your favorite athletes!"
+    },
+    {
+      "Name": "Shizuko",
+      "Text": "And try our bean paste mochi sandwich made by none other than me, Shizuko!"
+    },
+    {
+      "Name": "Gehenna Student A",
+      "Text": "Is that Momoyodou?"
+    },
+    {
+      "Name": "Gehenna Student B",
+      "Text": "My friend went to the Hyakkiyako Cherry Blossom Festival and said Momoyodou's food was the best part!"
+    },
+    {
+      "Name": "Gehenna Student A",
+      "Text": "We have enough time before the next event! Let's get some!"
+    },
+    {
+      "Text": "[ns] \"It's so packed outside of the stadium...\""
+    },
+    {
+      "Name": "Troublemaking Student A",
+      "Text": "Whew! I'm stuffed!"
+    },
+    {
+      "Name": "Troublemaking Student A",
+      "Text": "I've had my fill here. Let's go somewhere else."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Stop right there!"
+    },
+    {
+      "Name": "Troublemaking Student A",
+      "Text": "Huh? The Justice Task Force President?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Littering is against the law!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "The students worked hard to decorate this area. Please be respectful of their efforts."
+    },
+    {
+      "Name": "Troublemaking Student A",
+      "Text": "(Ugh... Why is the Justice Task Force on duty even during field day...)"
+    },
+    {
+      "Name": "Troublemaking Student A",
+      "Text": "I-I'm sorry..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "*sigh* Maybe they're caught up in the excitement of the festival, but there are so many irresponsible students."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I would expect them to do their utmost to uphold Trinity's reputation."
+    },
+    {
+      "Text": "[s] \"Nice to see you again, Hasumi.\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...[USERNAME] Sensei?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I didn't expect to run into you here, but I'm glad I did. I wanted to apologize for last time."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Despite everything, are you enjoying the festival?"
+    },
+    {
+      "Text": "[s] \"Very much so, and all thanks to you.\""
+    },
+    {
+      "Text": "[ns] \"Are you on duty, Hasumi?\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Yes, I am. As a member of the Executive Committee, it's my responsibility to make sure the festival doesn't get out of hand. Students emboldened by the hectic atmosphere could try to cause trouble."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I underestimated just how big the venue is, and the size of the crowd though."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "It'll certainly keep me on my toes all day."
+    },
+    {
+      "Text": "[s] \"Does that mean you won't get a chance to participate in the tournament?\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Participate? Naturally."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "The Executive Committee is in charge of operations, not participation."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Not that it would be against the rules for a member to participate, but..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "As I said before, there are other students who have trained considerably and are much more inclined to these kinds of games."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "So, instead, I'll take a back seat and ensure the games operate smoothly and the students are happy."
+    },
+    {
+      "Text": "[s] \"Sounds like you have a lot on your plate.\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Yes, but it's not too much."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "It's more or less the same as my regular duties, just applied to the Halo Festival."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "My job is to make sure justice is served. When or where I'm doing it doesn't change anything."
+    },
+    {
+      "Name": "???",
+      "Text": "Oh my! What a coincidence. Hello, Sensei."
+    },
+    {
+      "Name": "Junko",
+      "Text": "Ah! [USERNAME] Sensei."
+    },
+    {
+      "Name": "Izumi",
+      "Text": "Hi there, Sensei!"
+    },
+    {
+      "Text": "[s1] \"Hi, everyone! You're here!\" "
+    },
+    {
+      "Text": "[s2] \"The Gourmet Research Society is participating in the Halo Festival?\""
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Naturally! This field day is an opportunity to try the most delectable cuisines you've never so much as laid eyes on before."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Naturally! This field day is an opportunity to try the most delectable cuisines you've never so much as laid eyes on before."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "We of the Gourmet Research Society would never miss a culinary festival such as this one."
+    },
+    {
+      "Text": "[s] \"Did you just call it a culinary festival...?\""
+    },
+    {
+      "Name": "Haruna",
+      "Text": "I called it exactly what it is. The Halo Festival is an exhibition for students to show off their talents, correct?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "With Millennium's scientific prowess, it might even be possible to extract or amplify certain flavors through polymer compound technology..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "This kind of cooking could bring about exactly the revolution we've been looking for in an otherwise static culinary scene."
+    },
+    {
+      "Name": "Akari",
+      "Text": "Not only that, but you wouldn't believe all the different kinds of food stalls here!"
+    },
+    {
+      "Name": "Akari",
+      "Text": "Some vendors even make field day exclusive dishes meant to be enjoyed while watching the games!"
+    },
+    {
+      "Name": "Akari",
+      "Text": "You can even find prestigious establishments like the Black Tortoise Promenade and Momoyodou here! They're normally really inaccessible for the average student, so a lot of people come to the stadium just for the food! ★"
+    },
+    {
+      "Text": "[s] \"I've seen students from all different academies, now that I think about it.\""
+    },
+    {
+      "Name": "Izumi",
+      "Text": "Oh, oh! And there's even a bread-eating contest!"
+    },
+    {
+      "Name": "Izumi",
+      "Text": "You just have to participate in some race, and you get to eat all the bread you want! How incredible!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "...That's not normally how a food-eating contest works."
+    },
+    {
+      "Name": "Akari",
+      "Text": "Do you know what I heard? There's even an eating contest where you compete against a machine that automatically makes Wanko soba..."
+    },
+    {
+      "Name": "Akari",
+      "Text": "Heehee. I wonder if that machine is any match for me! ♥"
+    },
+    {
+      "Name": "Junko",
+      "Text": "Everyone is so excited... So dumb..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "These students..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Oh, who is this? If I recall correctly, are you the president of the Justice Task Force?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "(It's difficult to exist amiably with anyone from Gehenna... And why does it have to be the members of one of their most notorious clubs, of all people?)"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "(What an annoying situation.)"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "It's nice to meet you. Today, I'm just a member of the Executive Committee of the Kivotos Halo Festival, nothing more."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I hope you continue to enjoy the festival and stay safe."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Thank you for the warm welcome."
+    },
+    {
+      "Name": "Junko",
+      "Text": "\"Warm\" isn't exactly the adjective I'd use..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "By way of thanks, I purchased this from a stand earlier..."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "It's grilled corn topped with sugar and cheese. Would you like one?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "*gulp*"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Oh... My apologies. Do you dislike corn?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "No, no... It's not that... It's more the fact that it's combined with sugar and cheese."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "The calorie content with all of the add-ons... It's a bit heavy for a snack."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Oh, I see. That's your concern?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Well, I wouldn't worry at all. We're at a field day after all. You'll burn it all off in no time."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Actually, considering how much you'll be running around today, you should be concerned with losing too much weight!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Losing...too much...weight...?"
+    },
+    {
+      "Name": "Junko",
+      "Text": "Actually, I've never thought about how thin you are considering how much you eat, Haruna."
+    },
+    {
+      "Name": "Junko",
+      "Text": "Are you on some kind of secret diet?"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "I would never participate in such a farce. I simply do not gain weight."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "Diets induce guilt about something as glorious and beautiful as eating. How despicable and idiotic."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "You...don't gain weight...? Despicable? ...Idiotic?!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Never... Never..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I'll never forgive you, Gehenna!"
+    },
+    {
+      "Text": "[s] \"H-Hasumi...?\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Despite the continuous temptation, I've resisted the smells of the delicious treats wafting around me with every step I've taken!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "And then you dare to come around and taunt my efforts! Mock my struggles! I'll never forgive this injustice!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "For Sensei's sake, I was doing my utmost to maintain my calm. But I can't anymore!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I'll do anything and everything it takes. I'll take every one of you down!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "O-Oh my... It seems we touched a nerve..."
+    },
+    {
+      "Text": "[s] \"I actually think this one is your fault, Haruna.\""
+    },
+    {
+      "Name": "Akari",
+      "Text": "I don't get it. She just offered her some yummy food!"
+    },
+    {
+      "Name": "Izumi",
+      "Text": "Yeah! Who the heck gets mad about free, tasty corn?!"
+    },
+    {
+      "Name": "Junko",
+      "Text": "You'd have to be even stupider than Izumi to be mad about free food."
+    },
+    {
+      "Name": "Junko",
+      "Text": "*sigh* What am I doing here? I don't wanna do an embarrassing eating contest, even if the food is good..."
+    },
+    {
+      "Name": "Junko",
+      "Text": "And we already tried all the good food stalls at this point... Can I just go home?"
+    },
+    {
+      "Text": "[s] \"Junko.\""
+    },
+    {
+      "Name": "Junko",
+      "Text": "What?"
+    },
+    {
+      "Text": "[s] \"Why don't you try out some other field day activities?\""
+    },
+    {
+      "Name": "Junko",
+      "Text": "Even if I were to do that..."
+    },
+    {
+      "Name": "Announcement",
+      "Text": "Attention, please! The first game for the Kivotos Halo Festival will begin shortly."
+    },
+    {
+      "Name": "Announcement",
+      "Text": "Participating students from each academy must gather at the contestant lobby."
+    },
+    {
+      "Name": "Izumi",
+      "Text": "What?! A game is about the begin!"
+    },
+    {
+      "Name": "Izumi",
+      "Text": "They might run out of bread at the bread-eating race! We're late! We're doomed!"
+    },
+    {
+      "Name": "Haruna",
+      "Text": "We're not late yet. There's plenty of time."
+    },
+    {
+      "Name": "Haruna",
+      "Text": "How about we all split up so we can get to all the food we want to try?"
+    },
+    {
+      "Name": "Akari",
+      "Text": "Sounds good to me! Bye-bye! ♥"
+    },
+    {
+      "Name": "Junko",
+      "Text": "...Bye."
+    },
+    {
+      "Text": "After saying goodbye to the Gourmet Research Society, I went back inside the stadium to watch the game."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่2;ความยั่วยวนของร้านขายของข้างทาง"
+    },
+    {
+      "Text": "ร้ายขายของริมถนน นอกสนามแข่งขันกีฬา"
+    },
+    {
+      "Text": "(หลังจากสิ้นสุดการประชุมคณะกรรมการจัดงาน คุณครูก็ออกมานอกสนามกีฬาเพื่อดูบรรยากาศ\nรอบๆ งานมหกรรมแข่งขันกีฬา)"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มาเลยค่า เรายกเมนูเด็ดซานไห่จิงจาก <ย่านการค้าเทพเต่าดำ> มาให้ทุกคนถึงฮาโลเฟสติวัลแล้วค่ะ!"
+    },
+    {
+      "Name": "รูมิ",
+      "Text": "มาลิ้มลองอาหารเลิศรสที่ปกติหารับประทานได้ในซานไห่จิงเท่านั้นดู แล้วลุ้นตัวโก่งไปกับการแข่งขัน\nในฮาโลเฟสติวัลกันเลยค่ะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "ว้าว มีร้านจากย่านการค้าเทพเต่าดำในงานมหกรรมแข่งขันกีฬาด้วยเหรอคะเนี่ย"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "ฉันอยากชิมอาหารจากย่านการค้าเทพเต่าดำมานานแล้ว ไม่คิดเลยว่าจะได้มาเจอที่นี่... งั้นลองไปชิม\nกันดูหน่อยมั้ยคะ?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ B",
+      "Text": "แต่การกินอาหารจีนตั้งแต่เช้ามัน... น่าจะหนักไปหน่อยนะคะ"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "ร้านเฮียกคิยาโคเปิดขายนอกสถานที่ค่ะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "มาสนุกกับการชมกีฬาไปพร้อมกับเครื่องดื่มซากุระโซดาที่เพิ่งออกมาใหม่สิคะ!"
+    },
+    {
+      "Name": "ชิซุโกะ",
+      "Text": "มีขนมโมนากะที่ชิซุโกะทำเองด้วยนะคะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเกเฮนน่า A",
+      "Text": "เอ๋? นี่มัน <ร้านเฮียกคิยาโค> นี่นา?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเกเฮนน่า B",
+      "Text": "เพื่อนฉันที่ไปเทศกาลแห่งค่ำคืนสีขาวครั้งก่อนบอกว่าขนมในร้านเฮียกคิยาโคอร่อยมากเลยละ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเกเฮนน่า A",
+      "Text": "ระหว่างรอการแข่งขันเริ่ม เราลองไปกินดูหน่อยมั้ย?"
+    },
+    {
+      "Text": "[ns] \"บรรยากาศนอกสนามก็ครึกครื้นน่าดูแฮะ...\""
+    },
+    {
+      "Name": "เด็กเกเร A",
+      "Text": "งื้ม อร่อยสุดๆ ไปเลย~"
+    },
+    {
+      "Name": "เด็กเกเร A",
+      "Text": "กินจนอิ่มท้องแล้ว งั้นเราไปที่อื่นกันบ้างมั้ย?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "พวกคุณคะ หยุดตรงนั้นก่อนค่ะ!"
+    },
+    {
+      "Name": "เด็กเกเร A",
+      "Text": "เอ๊ะ เอ๋...? รองหัวหน้าชมรมทวงความยุติธรรม...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "รับประทานอาหารเสร็จแล้วก็เอาขยะไปทิ้งในถังขยะให้ดีๆ สิคะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถ้ากินแล้วทิ้งขยะส่งเดชไปทั่ว ถนนที่นักเรียนคนอื่นตั้งใจตกแต่งไว้มันจะสกปรกเอานะคะ"
+    },
+    {
+      "Name": "เด็กเกเร A",
+      "Text": "(อึ้ก... ชมรมทวงความยุติธรรมออกมาทำหน้าที่ในงานมหกรรมแข่งขันกีฬาด้วยเหรอเนี่ย...)"
+    },
+    {
+      "Name": "เด็กเกเร A",
+      "Text": "ขะ... ขอโทษค่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "เฮ้อ... ไม่รู้ว่าเป็นเพราะบรรยากาศของเทศกาลหรือเปล่า ฉันถึงเห็นแต่นักเรียนที่เอาแต่สนุก และไม่รักษากฎกันอยู่แบบนี้น่ะค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ขออย่าให้มีนักเรียนที่ทำให้ทรีนิตี้เสื่อมเสียชื่อเสียงอีกเลย..."
+    },
+    {
+      "Text": "[s] \"ได้เจอกันอีกแล้วนะฮาสุมิ\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "...... คุณครู [USERNAME]?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ได้เจอกันอีกแล้วนะคะ เมื่อกี้ต้องขอโทษด้วยนะคะที่เสียมารยาท "
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "สนุกกับงานเทศกาลมั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"อื้ม สนุกก็เพราะมีทุกๆ คนเลยนี่แหละ\""
+    },
+    {
+      "Text": "[ns] \"ฮาสุมิกำลังทำงานของคณะกรรมการจัดงานเหรอ?\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ค่ะ นอกจากช่วยจัดการการแข่งขันแล้ว การชี้แนะนักเรียนที่ทำผิดระหว่างสนุกกับงานเทศกาล และการรักษาพื้นที่ให้น่ามองก็เป็นงานของกรรมการจัดงานค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แต่ว่าสถานที่จัดงานมันกว้างกว่าที่คิดเอาไว้มาก และนักเรียนก็มากันเยอะกว่าที่คิดอีกน่ะค่ะ..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฉันว่าวันนี้แค่งานของคณะกรรมการอย่างเดียวก็ยุ่งไปหมดแล้วค่ะ"
+    },
+    {
+      "Text": "[s] \"จะว่าไป ฮาสุมิจะไม่เข้าร่วมการแข่งขันจริงๆ เหรอ?\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คะ...? ก็ต้องอย่างนั้นสิคะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หน้าที่หลักของคณะกรรมการจัดงานคือการจัดงาน ไม่ใช่การลงแข่งขันน่ะค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถึงจะไม่ได้มีกฎห้ามไม่ให้คณะกรรมการจัดงานลงแข่งขันเองก็เถอะค่ะ..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แล้วก็อย่างที่ฉันบอกไปก่อนหน้านี้ ในทรีนิตี้มีนักเรียนที่มีความสามารถโดดเด่นและเป็นเลิศในด้านการ\nแข่งขันกว่าฉันอีกค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ในเมื่อได้มาเป็นคณะกรรมการจัดงานแล้ว ฉันเลยเลือกที่จะทุ่มเทให้กับการจัดงาน และการชี้แนะพฤติกรรมของนักเรียนค่ะ"
+    },
+    {
+      "Text": "[s] \"ต้องเหนื่อยมากแน่ๆ เลย\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่หรอกค่ะ นี่ไม่ใช่เรื่องแปลกใหม่สำหรับฉันด้วยค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถึงนี่จะเป็นเทศกาลที่นักเรียนในคิโวทอสตั้งตารอกัน แต่สำหรับฉันมันคือการขยายเวลาทำงานของ\nโรงเรียนที่ฉันทำปกติในทุกวันอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ก็แค่ผดุงความยุติธรรมอย่างเงียบๆ เหมือนที่เคยทำอยู่เสมอแค่นั้น—"
+    },
+    {
+      "Name": "???",
+      "Text": "โอ๊ะ บังเอิญจังเลยนะคะที่เจอกันที่นี่"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "อ๊ะ คุณครู [USERNAME] นี่นา"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "ว่าไง คุณครู!"
+    },
+    {
+      "Text": "[s1] \"สวัสดี! ทุกคนมาร่วมงานเหมือนกันสินะ\""
+    },
+    {
+      "Text": "[s2] \"ชมรมชิมอาหารก็มาฮาโลเฟสติวัลด้วยเหรอเนี่ย\""
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ใช่แล้วค่ะ งานมหกรรมแข่งขันกีฬาคือมหกรรมแห่งอาหารรสเลิศมากมายที่หารับประทานในช่วงปกติ\nไม่ได้น่ะค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ใช่แล้วค่ะ งานมหกรรมแข่งขันกีฬาคือมหกรรมแห่งอาหารรสเลิศมากมายที่หารับประทานในช่วงปกติ\nไม่ได้น่ะค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ชมรมชิมอาหารของเราที่ต้องเฟ้นหาสุดยอดอาหารเลิศรสจะพลาดโอกาสดีๆ แบบนี้ไม่ได้ค่ะ"
+    },
+    {
+      "Text": "[s] \"งานมหกรรมแข่งขันกีฬาคือมหกรรมอาหารรสเลิศงั้นเหรอ...?\""
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ใช่ค่ะ ก็ <ฮาโลเฟสติวัล> ยังจัดเป็นงานออกร้านสินค้าที่ทำให้เห็นความสามารถของแต่ละโรงเรียนได้\nเต็มที่เลยนี่คะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ยิ่งเป็นมิลเลเนียมที่โดดเด่นเรื่องทักษะฝีมือแล้ว ก็อาจจะสกัดหรือเสริมรสชาติของอาหารได้ด้วย\nเทคโนโลยีรวมธาตุเคมีที่มีโมเลกุลสูง..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "และอาหารที่สร้างขึ้นจากเทคโนโลยีใหม่ก็จะนำความแปลกใหม่มาสู่โลกของอาหารที่ไร้มิติ..."
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "แถมในงาน <ฮาโลเฟสติวัล> ยังมีร้านที่ขายอาหารหลากหลายประเภทอีกด้วยค่ะ"
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "อาหารร้านริมทางที่หารับประทานได้ระหว่างเพลิดเพลินไปกับการชมกีฬาก็เป็นสิ่งที่พบได้เฉพาะใน\nงานมหกรรมแข่งขันกีฬาด้วยค่ะ"
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "ส่วนร้านอาหารท้องถิ่นที่อยู่ในเขตปกครองตนเองอื่นอย่าง <ร้านจากย่านการค้าเทพเต่าดำ> หรือ\n<ร้านเฮียกคิยาโค> ก็มาเปิดขายในงานนี้ด้วย ฉันว่าต้องมีนักเรียนที่มาสนามกีฬาเพียงเพราะอยากจะ\nชิมอาหารร้านเด็ดนี้เหมือนกันค่ะ ★"
+    },
+    {
+      "Text": "[s] \"จะว่าไป ครูก็เห็นนักเรียนจากโรงเรียนอื่นเหมือนกัน...\""
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "แล้วก็มีแข่งขันวิ่งกินขนมปังด้วยนะ!"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "แค่ลงแข่งวิ่งก็กินขนมปังได้ตามใจชอบด้วย แบบนั้นมันสุดยอดไปเลยเนอะว่ามั้ย?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "การแข่งขันวิ่งกินขนมปังไม่ใช่การแข่งกินแหลกนะ..."
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "จะว่าไป ฉันได้ยินมาว่างานมหกรรมแข่งขันกีฬาครั้งนี้มีการแข่งกินจุวังโกะโซบะให้ชนะเครื่องทำโซบะ\nอัตโนมัติด้วยนะ..."
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "ฮุฮุ เครื่องนั้นจะทำให้ฉันอิ่มเอมได้มากแค่ไหนน้า เริ่มตื่นเต้นแล้วสิคะ~♥  "
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ทุกคนจิตใจไม่สงบกันตั้งแต่เช้าเลย... บ้าบอชะมัด"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "นักเรียนกลุ่มนี้..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "อุ๊ย ท่านนี้คือรองหัวหน้าชมรมทวงความยุติธรรมสินะคะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "(ปกติได้เจอนักเรียนเกเฮนน่าก็อึดอัดใจอยู่แล้ว แต่นี่ต้องมาเจอชมรมจอมสร้างปัญหาที่มีเกียรติภูมิ\nเสื่อมเสียอีก...)"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "(เจอแบบนี้มัน... น่ารำคาญจริงๆ เลยนะคะ)"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ยินดีที่ได้พบค่ะ แต่ตอนนี้ฉันทำหน้าที่เป็นคณะกรรมการจัดงานของฮาโลเฟสติวัล ไม่ใช่รองหัวหน้า\nชมรมทวงความยุติธรรมค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หวังว่าจะสนุกกับงานเทศกาล 'อย่างปลอดภัยไร้ปัญหา' กันนะคะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ฮุฮุ ขอบคุณสำหรับการต้อนรับค่ะ  "
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ไม่เห็นจะเหมือนการต้อนรับเลย..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "อ้อ จริงสิ เมื่อกี้ฉันซื้อของพวกนี้มาจากแผงขายของด้วย..."
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ลองชิมข้าวโพดย่างน้ำตาลฉ่ำๆ ชีสเยิ้มๆ หน่อยมั้ยคะ?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "...... (กลืนน้ำลาย)"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ตายจริง ไม่ชอบข้าวโพดหรอกเหรอคะ?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่ได้ไม่ชอบหรอกค่ะ... แต่ถ้าเป็นข้าวโพดย่างที่มีทั้งน้ำตาลและชีสเยิ้มๆ แบบนี้..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ดูแล้วก็น่าจะหลายร้อยแคล... มันไม่หนักไปหน่อยสำหรับของว่างเหรอคะ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ฮุฮุ ปกติทานอาหารนับแคลด้วยเหรอคะ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ไม่ต้องกังวลหรอกค่ะ แคลอรีแค่นี้ แค่ออกไปวิ่งเดี๋ยวเดียวก็เผาผลาญหมดแล้วค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "อีกอย่าง ยิ่งต้องเคลื่อนไหวร่างกายในงานมหกรรมแข่งขันกีฬาแบบนี้ ยิ่งต้องกังวลว่าน้ำหนักจะลด\nมากกว่าสิคะ? "
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ต้องกังวลว่าน้ำหนักจะลดงั้นเหรอคะ...?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "จะว่าไป ฮารุนะก็ค่อนข้างผอมเลยนะ พอเทียบกับอาหารที่กินในแต่ละวันๆ น่ะ"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "หรือว่าเธอไดเอตเอาต่างหากเหรอ?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ไม่หรอกค่ะ ฉันไม่ได้ไดเอตอะไรเลย แค่เป็นคนที่กินเท่าไรๆ ก็ไม่อ้วนน่ะค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "การได้กินของอร่อย ทำไมต้องรู้สึกผิดด้วยล่ะคะ อีกอย่าง ฉันว่าการไดเอตเป็นการกระทำที่โง่เขลาค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "....."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "กะ... กินเท่าไร... ก็ไม่อ้วนเหรอคะ...? การกระทำที่โง่เขลา...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่... ไม่เด็ดขาด..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฉันไม่ยกโทษให้เด็ดขาด พวกเกเฮนน่า!"
+    },
+    {
+      "Text": "[s] \"ฮะ... ฮาสุมิ......?\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "อุตส่าห์ทำเป็นเมิน และปิดจมูกไม่ให้ได้กลิ่นของอร่อยๆ แถวนี้อยู่แท้ๆ..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แต่มายั่วยุต่อหน้าต่อตากันอย่างหน้าไม่อายกันแบบนี้ ยกโทษให้ไม่ได้ค่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฉันทนอยู่นานเพราะเห็นแก่คุณครู แต่ฉันจะประกาศกร้าวอีกครั้งค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่ว่าจะต้องใช้วิธีไหนก็ตาม ฉันก็จะเอาชนะ[ruby=เกเฮนน่า]พวกคุณ[/ruby] และคว้ารางวัลชนะเลิศคะแนนรวมมาให้ได้ค่ะ!"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ตายจริง ฉันไปพูดอะไรกระทบกระเทือนจิตใจหรือเปล่าคะเนี่ย?"
+    },
+    {
+      "Text": "[s] \"ครูว่าเมื่อกี้เป็นความผิดของฮารุนะนะ...\""
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "คะ? พวกฉันก็แค่แนะนำอาหารอร่อยๆ เท่านั้นเองนะคะ?"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "ใช่ๆ แล้วมาอารมณ์เสียต่อหน้าข้าวโพดแสนอร่อยทำไมน่ะ... ไม่เห็นจะเข้าใจเลย"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ก็คงจะมีแต่อิซุมิจอมเซ่อคนเดียวแหละที่คิดว่าถ้าให้ของกินแล้วจะหายโกรธน่ะ"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "เฮ้อ... ฉันไม่คิดที่จะลงแข่งกินจุเมนูใหม่แปลกๆ อะไรนั่นด้วยหรอก แล้วทำไมถึงได้ตามมาที่นี่ได้นะ?"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "แถมอาหารส่วนใหญ่ที่ขายในร้านริมทางก็ลองกินมาหมดแล้วด้วย ฉันว่ามันไม่น่าจะมีอะไรอื่นที่อร่อย\nแล้วละ..."
+    },
+    {
+      "Text": "[s] \"จุนโกะ\""
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "หืม?"
+    },
+    {
+      "Text": "[s] \"วันนี้มาสนุกกับงานแข่งขันกีฬาแบบปกติๆ เถอะนะ\""
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "ถึงจะให้สนุกแบบปกติๆ ก็เถอะ..."
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ประกาศ อีกสักครู่จะเริ่มการแข่งขันรายการแรกของ <ฮาโลเฟสติวัล> กันแล้วค่ะ"
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "นักเรียนจากแต่ละโรงเรียนที่ประสงค์จะเข้าแข่งขัน ขอให้มารวมตัวกันที่ห้องพักนักกีฬาด้วยค่ะ"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "ว้าย! การแข่งขันจะเริ่มแล้ว!"
+    },
+    {
+      "Name": "อิซุมิ",
+      "Text": "ถ้าขนมปังที่ใช้ในการแข่งวิ่งกินขนมปังหมดเพราะไปถึงช้าล่ะ จะทำยังไงดี?"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "ยังพอมีเวลาเหลืออยู่ค่ะ"
+    },
+    {
+      "Name": "ฮารุนะ",
+      "Text": "งั้นเราแยกกันไปตามหาอาหารรสเลิศของแต่ละคนกันดีมั้ยคะ?"
+    },
+    {
+      "Name": "อาคาริ",
+      "Text": "งั้นฉันขอตัวก่อนนะคะ~ ♥"
+    },
+    {
+      "Name": "จุนโกะ",
+      "Text": "...... ก็ได้ เดี๋ยวฉันมา"
+    },
+    {
+      "Text": "(หลังจากไปส่งชมรมชิมอาหารแล้ว คุณครูก็กลับเข้ามาในสนามแข่งเพื่อชมการแข่งขัน)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;攤販的誘惑"
+    },
+    {
+      "Text": "田徑運動場．攤販區"
+    },
+    {
+      "Text": "（實行委員會的會議結束後，為了參觀大運動會，於是便走到了運動場外）"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "來來來，看過來！看過來！\n山海經鼎鼎有名的「玄武商會」也來參加本次的晄輪大祭了！"
+    },
+    {
+      "Name": "瑠美",
+      "Text": "享受比賽的同時，也來品嘗一下平常只能在山海經才能吃到的美食吧！"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "哎呀，是玄武商會的攤位。"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "我早就想要品嘗看看玄武商會的料理了！\n竟然會在這種地方相遇……要去看看嗎？"
+    },
+    {
+      "Name": "三一學生B",
+      "Text": "好是好……但一早就吃重口味的中華料理……好像對胃不大好呢。"
+    },
+    {
+      "Name": "靜子",
+      "Text": "百夜堂分店登場！"
+    },
+    {
+      "Name": "靜子",
+      "Text": "推出新品「櫻花蘇打」！\n要不要買一杯來配著比賽喝呢～？"
+    },
+    {
+      "Name": "靜子",
+      "Text": "還有靜子親手製作的最中餅唷～！"
+    },
+    {
+      "Name": "格黑娜學生A",
+      "Text": "哎呀，這不是「百夜堂」嗎？"
+    },
+    {
+      "Name": "格黑娜學生B",
+      "Text": "上次參加過「百夜之春櫻花祭」的朋友都說那邊的食物超好吃的……"
+    },
+    {
+      "Name": "格黑娜學生A",
+      "Text": "要在比賽開始前先吃吃看嗎？"
+    },
+    {
+      "Text": "[ns]「運動場外也很熱鬧呢……」"
+    },
+    {
+      "Name": "不良學生A",
+      "Text": "嗯～多謝款待～"
+    },
+    {
+      "Name": "不良學生A",
+      "Text": "既然填飽肚子了，差不多該去別的地方了吧？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "那邊那位，請留步！"
+    },
+    {
+      "Name": "不良學生A",
+      "Text": "啊，哎呀？實現正義部的副部長……？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "請把垃圾妥善地扔進垃圾桶裡。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "就算不能恢復原狀，最起碼也該把垃圾清理乾淨。"
+    },
+    {
+      "Name": "不良學生A",
+      "Text": "（唔唔，沒想到實現正義部在大運動會期間也沒閒著……）"
+    },
+    {
+      "Name": "不良學生A",
+      "Text": "對，對不起──！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "唉……可能是受慶典氛圍影響，學生們開始放肆了起來。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "總之，希望不要再出現有損三一名聲的學生……"
+    },
+    {
+      "Text": "[s]「又見面了呢，蓮實。」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……[USERNAME]老師？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "剛才給您添麻煩了，沒想到還能再見到您。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "有好好享受慶典嗎？"
+    },
+    {
+      "Text": "[s]「嗯，多虧有你的幫忙。」"
+    },
+    {
+      "Text": "[ns]「蓮實正在執行實行委員的工作嗎？」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "是的。除了協助活動的運行之外，還得負責糾正那些被慶典氣氛沖昏頭的學生，\n以及維護環境整潔。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "但我簡單繞了一下會場……\n設施比想像的還要寬敞，學生也很多……難度挺高的呢。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "光是取締風紀，就要花掉一整天了。"
+    },
+    {
+      "Text": "[s]「……話說你真的不打算參加比賽嗎？」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……嗯？\n這是當然的。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "實行委員的本分不是參加比賽，而是維護運作。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "雖然也不是無法參加比賽……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "但正如剛才會議上說的，三一有很多優秀的學生。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我身為實行委員，只需專注在維護風紀和保證比賽的運作就好。"
+    },
+    {
+      "Text": "[s]「這樣啊……真是辛苦。」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "不，這沒什麼。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "對奇普托斯的學生來說，這是期盼已久的慶典，\n但對我來說，不過是平時業務的延伸。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "所以，只要和往常一樣，默默地實現正義──"
+    },
+    {
+      "Name": "???",
+      "Text": "哎呀，竟然能在這種地方遇見……真巧呢。"
+    },
+    {
+      "Name": "淳子",
+      "Text": "啊，是[USERNAME]老師。"
+    },
+    {
+      "Name": "泉",
+      "Text": "哈囉～老師！"
+    },
+    {
+      "Text": "[s1]「哈囉──！」"
+    },
+    {
+      "Text": "[s1]「美食研究會也來啦。」"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "那當然。大運動會可是能享受各種料理的美食慶典。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "那當然。大運動會可是能享受各種料理的美食慶典。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "對於「尋求終極美食」的我們來說，怎麼可能會放過這個機會。"
+    },
+    {
+      "Text": "[s]「大運動會是美食的慶典……？」"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "沒錯。「晄輪大祭」也兼具如博覽會一般，展現各學園特色的作用。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "如果是千年的話……\n使用高分子化合技術萃取特定口味，或是進行濃縮……"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "這種用新技術製作出的食物，肯定能為靜如死寂的美食界帶來一場大霹靂吧。"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "而且「晄輪大祭」還有各式各樣的小攤販。"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "邊觀賞比賽邊輕鬆地享用街頭小吃，\n這可是只有在大運動會上才能享受的專屬體驗唷～"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "特別是「玄武商會」和「百夜堂」……\n這種平常不去自治區就很難吃到的在地美食也會來擺攤，\n有不少學生因此慕名而來呢★"
+    },
+    {
+      "Text": "[s]「這麼說來，我好像看到了其他學園的學生……」"
+    },
+    {
+      "Name": "泉",
+      "Text": "而且，還有吃麵包競走！"
+    },
+    {
+      "Name": "泉",
+      "Text": "只要參加比賽就能盡情地吃麵包，真是太棒了～"
+    },
+    {
+      "Name": "淳子",
+      "Text": "吃麵包競走不是比吃的數量吧……？"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "這麼說來，聽說這次大運動會的項目中，\n也有和自動餵食蕎麥麵的機器決一勝負的大胃王比賽……"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "呵呵，到底能滿足我到什麼程度呢，真是令人期待～♥"
+    },
+    {
+      "Name": "淳子",
+      "Text": "大家才一早就這麼興奮……像笨蛋一樣。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "你們是……"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "哎呀，這位是實現正義部的副部長吧。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "（撞見格黑娜的學生本來就尷尬……\n　竟然還偏偏是最惡名昭彰的問題兒童集團──傳說中的「美食研究會」……）"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "（有點……棘手呢）"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "很高興見到大家。\n我現在的身分並非實現正義部的副部長，而是晄輪大祭的實行委員。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "希望大家都能「順利及安全地」享受慶典。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "呵呵，承蒙款待。"
+    },
+    {
+      "Name": "淳子",
+      "Text": "雖然看起來一點也不歡迎就是了……"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "對了，剛才在攤位上買了這個……"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "作為友好的象徵，\n要不要來一支撒滿了砂糖和起司的烤玉米呢？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……（吞口水）"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "哎呀……你不喜歡玉米嗎？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "並沒有不喜歡……\n只是像這樣撒滿了砂糖和起司……那個……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "卡路里也太……\n我是指以點心來說，也太重口味了吧？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "呵呵，你很在意卡路里嗎？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "不必擔心。\n只是這點程度的話，稍微跑一下就能充分消耗了。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "倒不如說，像晄輪大祭這種運動會，反而應該要擔心會變瘦吧？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "擔心會變瘦……？"
+    },
+    {
+      "Name": "淳子",
+      "Text": "這麼說來，羽留奈明明吃得不少卻很瘦呢。"
+    },
+    {
+      "Name": "淳子",
+      "Text": "是有另外節食嗎？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "不，我本來就是不會胖的體質。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "況且因為進食而產生罪惡感……這種事我實在無法忍受。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "不會胖的體質……？\n無法忍受……？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "像這種……這種行為……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "絕對不能原諒，格黑娜！"
+    },
+    {
+      "Text": "[s]「蓮，蓮實……？」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "這裡原本就已經到處都是誘惑了，我好不容易才把視線一一撇開……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "居然還在我眼前做出如此挑釁的行為……絕對不能原諒！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "剛才因為是在老師面前，我才忍住的……我要在此發出宣言。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "無論使用什麼手段，我們都會打敗[ruby=格黑娜]你們[/ruby]，取得總冠軍！"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "哎呀哎呀……好像不小心踩到地雷了呢。"
+    },
+    {
+      "Text": "[s]「……剛才是羽留奈的錯唷。」"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "嗯？我們只是推薦美食而已耶？"
+    },
+    {
+      "Name": "泉",
+      "Text": "嗯嗯！竟然拒絕美味的玉米……真是無法理解呀～"
+    },
+    {
+      "Name": "淳子",
+      "Text": "能因為收到食物而氣消的人，大概就只有笨蛋泉吧……"
+    },
+    {
+      "Name": "淳子",
+      "Text": "唉……我本來沒有打算要嘗試奇怪的新菜單和參加大胃王比賽的，為何會跟著來呢？"
+    },
+    {
+      "Name": "淳子",
+      "Text": "攤販的食物大部分都已經吃過了，好像也沒有其他特別的……"
+    },
+    {
+      "Text": "[s]「淳子。」"
+    },
+    {
+      "Name": "淳子",
+      "Text": "嗯？"
+    },
+    {
+      "Text": "[s]「就平凡地享受大運動會吧？」"
+    },
+    {
+      "Name": "淳子",
+      "Text": "就算你這樣說……"
+    },
+    {
+      "Name": "通知廣播",
+      "Text": "大會報告──\n「晄輪大祭」的第一場比賽即將開始。"
+    },
+    {
+      "Name": "通知廣播",
+      "Text": "請預定參加的選手，前往休息室集合。"
+    },
+    {
+      "Name": "泉",
+      "Text": "哇！比賽要開始了！"
+    },
+    {
+      "Name": "泉",
+      "Text": "太晚去的話，吃麵包競走的麵包要是被吃光的話怎麼辦？"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "時間還很充裕。"
+    },
+    {
+      "Name": "羽留奈",
+      "Text": "那麼，是時候各自去探索美食了吧？"
+    },
+    {
+      "Name": "亞伽里",
+      "Text": "那我們走囉～♥"
+    },
+    {
+      "Name": "淳子",
+      "Text": "……我走囉。"
+    },
+    {
+      "Text": "（目送美食研究會離開後，前往運動場觀賞比賽）"
+    }
+  ]
+}

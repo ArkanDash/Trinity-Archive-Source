@@ -1,0 +1,757 @@
+{
+  "TitleJP": "第5サンクトゥム「要塞都市エリドゥ近郊」",
+  "TitleKR": "제5 성소 공략 - 요새도시 에리두 근교",
+  "TitleEN": "Fifth Sanctum - Outskirts of the City of Eridu",
+  "TitleTH": "ปฏิบัติการบุกยึดหอคอยแห่งที่ 5 - ชานเมืองแห่งปราการเอริดู",
+  "TitleTW": "第5聖所「要塞都市埃里都近郊」",
+  "DescJP": "第5サンクトゥム攻略のため、要塞都市エリドゥ近郊に集まったセミナー。一方、温泉開発部はサンクトゥム攻略を手伝いつつ、新たな温泉を掘り起こさんとしているのだった。",
+  "DescKR": "제5 성소를 공략하기 위해 요새도시 에리두 근교에 모인 세미나 부원들. 한편 온천개발부는 성소 공략을 지원하면서 겸사겸사 새 온천을 찾기 위해 분주히 움직인다.",
+  "DescEN": "Members of the Seminar assemble at the outskirts of the Fortress City of Eridu to assault the Fifth Sanctum. The Hot Springs Department lends support, keeping an eye out for a new hot spring along the way.",
+  "DescTH": "สมาชิกชมรมเซมิน่ามารวมตัวกันที่ชานเมืองแห่งปราการเอริดูเพื่อบุกยึด\nหอคอยแห่งที่ 5 ทางด้านชมรมพัฒนาออนเซ็นกำลังยุ่งกับการค้นหา\nออนเซ็นแห่งใหม่ พร้อมกับสนับสนุนการบุกยึดหอคอย",
+  "DescTW": "研討會的成員為了攻略第5聖所而聚集在要塞都市埃里都近郊。溫泉開發部一方面支援攻略聖所，同時也為了尋找新的溫泉而四處奔波。",
+  "DialogJP": [
+    {
+      "Text": "第17話;第5サンクトゥム「要塞都市エリドゥ近郊」"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "よし、準備はいいかしら？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "はーい。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "ちょーっと待った！！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "何よコユキ。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "「はーい」じゃないですよ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "何で私がここにいるんですか！\nなんで流れるように準備の有無を聞くんですか！"
+    },
+    {
+      "Name": "ノア",
+      "Text": "何でって、コユキちゃん。\n「守護者」を倒しに行くからですよ？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "いや、だから！\nリオ会長のセキュリティシステムの件、解決したじゃないですか！"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ええ、そうですね。お疲れ様でしたコユキちゃん。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ほんと、いつ見ても超人的な才能なのよね……"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "つまり、私の役目は終わりましたよね！？\n大人しく反省部屋に帰っちゃダメですか？壁に向かって正座してますから！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ダメよ。第5サンクトゥムを攻略するには、ホドを地上に誘導しなきゃいけないの。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "だーかーら！！それを何で私たちがやるんですか！\n他にも人はいっぱいいるでしょう！？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "それはですね……この要塞都市には、リオ会長が作った防壁があるんです。\nホドを誘導しつつ、防壁を解体しなければならないのですが――"
+    },
+    {
+      "Name": "ノア",
+      "Text": "それは、コユキちゃんにしかできないことですから。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "駄々をこねるのはその辺にしなさい。\nこれを解決できるのは私たちしかいないの。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "出発～"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "うあぁああああ――なんで――！"
+    },
+    {
+      "Name": "温泉部の部員A",
+      "Text": "ここに杭を打て！"
+    },
+    {
+      "Name": "温泉部の部員B",
+      "Text": "了解！！"
+    },
+    {
+      "Name": "温泉部の部員C",
+      "Text": "粉砕完了！ガハハハッ！！\nこれでこの高速道路も綺麗に取り壊せるな！！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "おおーっ！良い感じー！\nいい外観になってきたねぇ～"
+    },
+    {
+      "Name": "メグ",
+      "Text": "カスミ部長、こっちはだいたい終わったよー！\n次の場所に移るね！"
+    },
+    {
+      "Name": "カスミ",
+      "Text": "ハーハッハッハ、良いぞ！建物は全部撤去してしまえ！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "OK、任せてー！ "
+    },
+    {
+      "Name": "温泉部の部員",
+      "Text": "開発だ！開発だー！！"
+    },
+    {
+      "Name": "カスミ",
+      "Text": "ハッハッハ！いいぞいいぞ！\nミレニアムの地下で温泉が見つかるまで、好きなだけ爆破してツルハシを振るうんだ！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ああ、都市が……建物が……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "一応、念のために聞くんだけど……インベイドピラーを撤去するフリして、\nミレニアム自治区を破壊したいわけじゃ、ないんだよね？"
+    },
+    {
+      "Name": "カスミ",
+      "Text": "ハーハッハッハ、何をおっしゃる！全ては温泉のためだ！ついでに「サンクトゥム」も撤去できて一石二鳥じゃないか！開発とは効率的にやるものだからな！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "温泉……？この自治区の地下に温泉なんてないですが……\n少し地層を分析すれば分かることでは……"
+    },
+    {
+      "Name": "カスミ",
+      "Text": "バカ者が！温泉というのはな、皆の心の中にあるものなのだよ！"
+    },
+    {
+      "Name": "カスミ",
+      "Text": "信じろ！信ずればそこに温泉は存在する！\nハーハッハッハッハッハ！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제17화;제5 성소 공략 - 요새도시 에리두 근교"
+    },
+    {
+      "Name": "유우카",
+      "Text": "자, 준비됐어?"
+    },
+    {
+      "Name": "노아",
+      "Text": "네~"
+    },
+    {
+      "Name": "코유키",
+      "Text": "잠깐 스톱!!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐야, 코유키?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "네~ 가 아니잖아요!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "뭔가요? 왜 제가 여기 있는 거죠? 왜 당연하다는 듯 준비됐냐고 묻는 거죠?"
+    },
+    {
+      "Name": "노아",
+      "Text": "왜라니요, 코유키 쨩. <수호자>를 공략하러 가야 하잖아요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "아니, 그러니까! 리오 회장의 보안 시스템을 제가 해제해 드렸잖아요!"
+    },
+    {
+      "Name": "노아",
+      "Text": "네, 그렇죠. 수고하셨어요, 코유키 쨩."
+    },
+    {
+      "Name": "유우카",
+      "Text": "정말 볼 때마다 신기에 가까운 재능이라니까……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "아니, 그러면 제 역할은 그걸로 끝이잖아요! 이제 얌전히 반성실로 돌아가면 안 될까요? 가서 벽보면서 반성하고 있을 테니까……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "안 돼. 5성소의 공략을 위해서는 호드를 지상으로 유인할 필요가 있다고."
+    },
+    {
+      "Name": "코유키",
+      "Text": "그러니까!! 그걸 왜 저희가 해야 하는 거예요!! 다른 사람들 많지 않아요?"
+    },
+    {
+      "Name": "노아",
+      "Text": "왜냐하면 이 요새도시의 곳곳에는 리오 회장이 만든 방벽이 있거든요. 호드를 유인하면서 앞을 가로막는 방벽을 해체해야 하는데……."
+    },
+    {
+      "Name": "노아",
+      "Text": "그건 코유키 쨩만이 할 수 있는 일이거든요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그만 투덜거리고, 가자. 이걸 할 수 있는 건 우리뿐이니까."
+    },
+    {
+      "Name": "노아",
+      "Text": "출발~"
+    },
+    {
+      "Name": "코유키",
+      "Text": "으아아아-!"
+    },
+    {
+      "Name": "온천 부원 A",
+      "Text": "여기, 여기에 말뚝을 박아!"
+    },
+    {
+      "Name": "온천 부원 B",
+      "Text": "오케이!!"
+    },
+    {
+      "Name": "온천 부원 C",
+      "Text": "발파 완료! 크하하하하!! 이 고속 도로도 전부 붕괴야!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "오오, 좋은 느낌인데? 여기도 점점 더 개발에 어울리는 모습이 되어가고 있잖아."
+    },
+    {
+      "Name": "메구",
+      "Text": "카스미 부장. 여기는 대충 완료된 거 같아! 다음 지역으로 이동할게!"
+    },
+    {
+      "Name": "카스미",
+      "Text": "좋아! 멀쩡히 서 있는 모든 건물들은 전부 철거해버려!"
+    },
+    {
+      "Name": "메구",
+      "Text": "오케이~! 맡겨줘."
+    },
+    {
+      "Name": "온천 부원",
+      "Text": "개발, 개발이다!!"
+    },
+    {
+      "Name": "카스미",
+      "Text": "와하하하핫! 그래! 밀레니엄 지하의 온천을 발견할 때까지 이 동네를 마음껏 폭파하고 철거하고 후벼파는 거야!"
+    },
+    {
+      "Name": "하레",
+      "Text": "도시가…… 건물이……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "혹시나 해서 묻는데…… 침식 타워를 철거하는 척하면서 밀레니엄 자치구를 파괴하러 온 건 아니지……?"
+    },
+    {
+      "Name": "카스미",
+      "Text": "응? 밀레니엄을 파괴하러 왔다니, 무슨 소리야? 이 모든 건 그저 온천을 위해서 일뿐! 거기에 겸사겸사 <성소>도 철거하고 말야! 일석이조! 개발은 효율적으로! 란 거지!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "온천…… 우리 자치구 지하에 온천 같은 건 없습니다만……. 조금만 지층을 분석해 봐도 알 수 있는데……."
+    },
+    {
+      "Name": "카스미",
+      "Text": "분석해 보니 없다? 지층만 봐도 알 수 있어? 이 헛똑똑이들아! 그런 나약한 마음으로 온천을 개발할 수 있겠냐!"
+    },
+    {
+      "Name": "카스미",
+      "Text": "믿어! 온천은 존재한다는 걸! 믿으면 거기에 온천은 분명히 답해줄 테니까! 와하하핫!!!"
+    },
+    {
+      "Name": "하레",
+      "Text": "……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 17; Fifth Sanctum - Outskirts of the City of Eridu"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Now, are you ready?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yes, ma'am."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "W-Wait, stop!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Is something wrong, Koyuki?"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Do you expect me to just smile and say \"Yes, Yuuka!\" in this situation?!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "What is going on? What am I even doing here?! Before you ask someone if they're ready to do something, you should really get their consent first!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Hm? I thought we explained it, Koyuki. We're going to defeat the guardian."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "B-But that's what I'm saying! I already disabled President Rio's stupid security system."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yes, yes. Good girl, Koyuki. You did very well."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Honestly, your talent is so mind boggling it should be studied as a scientific marvel."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Great! So I did what you asked me to! Can't you take me back to the Self-Reflection Room now? I should be, like, staring at the wall and reflecting on my wrongdoings, right?!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "No. We need to lure Hod to the ground to clear the fifth sanctum."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "That's what I'm trying to say!!! What do you mean WE?! Get anyone else, please!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "President Rio erected barriers all over the Fortress City. We have to dismantle the barriers blocking the way while luring out Hod..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "And you're the only one in this entire world who can do that, Koyuki."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "There is no \"anyone else.\" We're wasting precious time with your complaining."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Off we go!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "WAHHHHHH!!!"
+    },
+    {
+      "Name": "Hot Springs Department Member A",
+      "Text": "Here, drive a stake here!"
+    },
+    {
+      "Name": "Hot Springs Department Member B",
+      "Text": "Okay!"
+    },
+    {
+      "Name": "Hot Springs Department Member C",
+      "Text": "Detonation complete! Hahahaha! The freeway is collapsing!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Oh, this is great. It feels like the place is really under development now."
+    },
+    {
+      "Name": "Megu",
+      "Text": "President Kasumi, I think we're pretty much done here! We'll move to the next area!"
+    },
+    {
+      "Name": "Kasumi",
+      "Text": "Okay! Demolish every last building!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Understood! Demolish the buildings! Burn everything!"
+    },
+    {
+      "Name": "Hot Springs Department Member",
+      "Text": "Development! Development!"
+    },
+    {
+      "Name": "Kasumi",
+      "Text": "Wahahaha! Yeah! Until we find hot springs beneath Millennium, we'll explode, demolish, and dig up this town to our heart's content!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "The city... The buildings..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'm sorry, but I have to ask... You didn't come to destroy the Millennium district under the guise of demolishing the Erosion Tower, did you...?"
+    },
+    {
+      "Name": "Kasumi",
+      "Text": "Heeheehee! Destroy Millennium? What are you saying? All of this is for the hot springs! And we might as well demolish the sanctum too! Kill two birds with one stone! Development is all about efficiency!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Hot springs...? There's absolutely no chance of there being hot springs in our district... I'm sure you could have figured that out by analyzing the strata a little..."
+    },
+    {
+      "Name": "Kasumi",
+      "Text": "Analysis? Look at the strata? You scholarly folks! You'll never develop hot springs with that kind of a mindset! You feel it! You smell it!"
+    },
+    {
+      "Name": "Kasumi",
+      "Text": "You must believe that the hot springs exist! Then the hot springs will answer! Wahaha!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "..."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 17;ปฏิบัติการบุกยึดหอคอยแห่งที่ 5 - ชานเมืองแห่งปราการเอริดู"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เอาละๆ พร้อมกันหรือยัง?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ค่า~"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "หยุดก่อน!!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "มีอะไรเหรอ โคยูกิ?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แล้วทำไมถึงต้องตอบว่า ค่า~ ด้วยล่ะ?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ทำไมฉันถึงมาอยู่ที่นี่? แล้วทำไมถึงมาถามความพร้อมจากฉันด้วยล่ะคะ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "เป็นอะไรขึ้นมาคะ โคยูกิจัง เราต้องไปโจมตี <ผู้พิทักษ์> กันไงคะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ไม่สิ ทำไมต้องไปอีกล่ะ! ฉันช่วยปลดระบบรักษาความปลอดภัยของประธานริโอะให้แล้วนี่คะ!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ก็ใช่ค่ะ โคยูกิจังทำได้ดีแล้วละค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เห็นทีไรก็อดคิดไม่ได้ทุกทีเลยละว่ามีความสามารถเหนือมนุษย์..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "งั้นก็แปลว่าหน้าที่ของฉันเสร็จสิ้นแล้วสิคะ! ขอกลับห้องสำนึกผิดไปไม่ได้เหรอคะ? ฉันจะได้ไปยืนมองกำแพงแล้วสำนึกผิด..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ไม่ได้ เราต้องหลอกล่อให้ HOD ขึ้นมาบนดินเพื่อโจมตีหอคอยที่ 5 ด้วยสิ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แล้วไงคะ!!  แล้วทำไมต้องให้ฉันไปทำด้วยล่ะคะ!!  คนมีตั้งเยอะตั้งแยะไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ที่ต้องให้ช่วยต่อ เพราะเมืองแห่งปราการมีกำแพงที่ประธานริโอะสร้างไว้ทุกที่เลยค่ะ เราต้องหลอกล่อ HOD แล้วทำลายกำแพงที่ขวางทางข้างหน้าไปด้วย..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "และนั่นมีแต่โคยูกิจังเท่านั้นที่ทำได้ค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เลิกบ่นพึมพำแล้วไปกันเถอะ มีแต่พวกเราเท่านั้นแหละที่ทำได้"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ไปกันเลย~!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แง๊งงงงง-!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาออนเซ็น A",
+      "Text": "ตรงนี้ ตอกเสาเข็มตรงนี้เลย!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาออนเซ็น B",
+      "Text": "โอเค!!"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาออนเซ็น C",
+      "Text": "ระเบิดสำเร็จ! วะฮ่าฮ่าฮ่า!! ถล่มทางด่วนสายนี้ให้หมด!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "วู้ว รู้สึกดีชะมัด! เริ่มเห็นพื้นที่เป็นรูปเป็นร่างขึ้นมาแล้ว แบบนี้แหละที่เหมาะกับการพัฒนา"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "หัวหน้าคาสุมิ ตรงนี้เสร็จสมบูรณ์แล้วละ! ฉันจะไปที่ต่อไปเลยนะ!"
+    },
+    {
+      "Name": "คาสุมิ",
+      "Text": "ดีละ! รื้อเสาที่ตั้งตระหง่านอยู่ให้หมดเลย!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "โอเค~! วางใจได้เลย"
+    },
+    {
+      "Name": "สมาชิกชมรมพัฒนาออนเซ็น",
+      "Text": "พัฒนาเลยยย!!!"
+    },
+    {
+      "Name": "คาสุมิ",
+      "Text": "วะฮ่าฮ่าฮ่าา! เราจะระเบิดและทำลายละแวกนี้ให้ราบคาบ จนกว่าจะเจอน้ำพุร้อนใต้ดินของมิลเลเนียม!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ไม่นะ... ทั้งเมือง... ทั้งตึก..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ขอถามเผื่อไว้นะ พวกเธอไม่ได้แสร้งรื้อถอนเสากัดกร่อนเพื่อจะทำลายเขตปกครองตนเองมิลเลเนียม\nกันหรอกใช่ไหม...?"
+    },
+    {
+      "Name": "คาสุมิ",
+      "Text": "หืม? ทำลายมิลเลเนียมงั้นเหรอ? พูดอะไรเพ้อเจ้อ เราทำเพื่อออนเซ็นกันต่างหาก! แล้วก็ใช้โอกาสนี้\nรื้อถอน <หอคอย> ไปด้วยเลย! พัฒนาอย่างมีประสิทธิภาพ! ยิงปืนนัดเดียวได้นกสองตัวไงล่ะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "......"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เขตปกครองตนเองของเราไม่มีออนเซ็นอยู่ใต้ดินหรอกนะ... แต่ถ้าลองวิเคราะห์ชั้นดินดูสักหน่อย ก็ไม่น่าจะเสียหายอะไร..."
+    },
+    {
+      "Name": "คาสุมิ",
+      "Text": "ยัยทึ่มพวกนี้นี่! แค่วิเคราะห์และดูแค่ชั้นดินก็รู้แล้วเหรอ? จะพัฒนาออนเซ็นด้วยหัวใจที่อ่อนแอแบบนั้น\nได้ยังไง!"
+    },
+    {
+      "Name": "คาสุมิ",
+      "Text": "เชื่อในสิ่งที่ระเบิด ระเบิดในสิ่งที่เชื่อ! ออนเซ็นต้องมีอยู่จริง! วะฮ่าฮ่าฮ่า!!!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "......"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "......"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第17話;第5聖所「要塞都市埃里都近郊」"
+    },
+    {
+      "Name": "優香",
+      "Text": "好，都準備好了嗎？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "好了～"
+    },
+    {
+      "Name": "小雪",
+      "Text": "先等一下！！"
+    },
+    {
+      "Name": "優香",
+      "Text": "怎麼啦？小雪。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "該說的不是「好了～」吧！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "為什麼我會在這裡啊！\n為什麼要若無其事地問我準備好了沒啊！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "你問為什麼，小雪醬。\n因為要去打倒「守護者」呀？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "不，我是說！\n破解莉央會長的安全系統這件事，我不是已經解決了嗎！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "是啊，說得沒錯。辛苦你了，小雪醬。"
+    },
+    {
+      "Name": "優香",
+      "Text": "真的是，無論見識幾次都覺得是超人一樣的才能呢……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "也就是說，我的任務結束了對吧！？\n我不能乖乖回到反省室去嗎？我會面壁思過的！"
+    },
+    {
+      "Name": "優香",
+      "Text": "不行唷。想要攻略第5聖所，就必須把霍德引誘到地面上才行。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "所～以～說！！這種事為何要我們來做呢！！\n不是還有其他人嗎！？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "這是因為……這座要塞城市有莉央會長設置的防壁。\n在引誘霍德的同時，還必須解除擋在前面的防壁才行──"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "而這，是只有小雪醬能辦到的事哦。"
+    },
+    {
+      "Name": "優香",
+      "Text": "別再嘀嘀咕咕的了。\n能完成這個任務的就只有我們而已。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "出發～"
+    },
+    {
+      "Name": "小雪",
+      "Text": "嗚啊啊啊啊啊──為什麼──！"
+    },
+    {
+      "Name": "溫泉部成員A",
+      "Text": "在這裡打下木樁！"
+    },
+    {
+      "Name": "溫泉部成員B",
+      "Text": "了解！！"
+    },
+    {
+      "Name": "溫泉部成員C",
+      "Text": "粉碎完成！嘎哈哈哈！！\n這樣一來這條高速道路也能華麗地拆除了！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "哦哦～！感覺不錯！\n外觀越來越讚了呢～"
+    },
+    {
+      "Name": "惠",
+      "Text": "佳澄部長，這裡大致完成了唷！\n準備移動到下個地區囉！"
+    },
+    {
+      "Name": "佳澄",
+      "Text": "哈～哈哈哈，很好！把建築全都拆除吧！"
+    },
+    {
+      "Name": "惠",
+      "Text": "OK，交給我吧！"
+    },
+    {
+      "Name": "溫泉部成員",
+      "Text": "開發！開發囉──！！"
+    },
+    {
+      "Name": "佳澄",
+      "Text": "哈哈哈！很好很好！\n在發現千年地下的溫泉之前，盡情引爆、盡情開挖吧！"
+    },
+    {
+      "Name": "晴",
+      "Text": "啊啊，都市啊……建築物啊……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "以防萬一，我姑且還是問一下……\n你們沒有假裝在拆除入侵之柱，其實上只是想破壞千年自治區吧？"
+    },
+    {
+      "Name": "佳澄",
+      "Text": "哈～哈哈哈，你在說什麼！這一切都是為了溫泉！只是也會順便拆除「聖所」而已，簡直是一石二鳥對吧！開發就要講求效率啊！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "溫泉……？我們的自治區的地下並沒有溫泉……\n只要稍微分析一下地層不就知道了嗎……"
+    },
+    {
+      "Name": "佳澄",
+      "Text": "說什麼傻話！所謂的溫泉，是存在於大家的心裡的呀！"
+    },
+    {
+      "Name": "佳澄",
+      "Text": "去相信吧！只要相信，溫泉就會在那裡！\n哈～哈哈哈哈哈！"
+    },
+    {
+      "Name": "晴",
+      "Text": "……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……"
+    }
+  ]
+}

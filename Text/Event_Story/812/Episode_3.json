@@ -1,0 +1,3232 @@
+{
+  "TitleJP": "魔術師の塔へ",
+  "TitleKR": "마술사의 탑으로",
+  "TitleEN": "To the Magician's Tower",
+  "TitleTH": "มุ่งสู่หอคอยแห่งจอมเวท",
+  "TitleTW": "前往魔術師之塔",
+  "DescJP": "無残な姿の経典を見て発狂しかけるウイだったが、ヒナタや先生との会話を経て、復元を手伝ってくれることに。その作業のためには幾つか材料が必要ということで、先生とヒナタは材料探しへと出かける。",
+  "DescKR": "우이는 분해된 경전을 보자 격분하나, 곧 선생님과 히나타의 설득으로 복원 작업을 도와주겠다고 말한다. 이에 선생님과 히나타는 우이가 말한 세 가지 복원 재료를 구하러 나선다.",
+  "DescEN": "Ui becomes enraged at the sight of the destroyed scripture, but is soon convinced by the two to help with repairing it. Sensei and Hinata leave to gather the items Ui requested.",
+  "DescTH": "เมื่ออุยเห็นหนังสือที่ฉีกขาดเธอก็รู้สึกโกรธ แต่ด้วยการโน้มน้าวของคุณครู\nกับฮินาตะ เธอจึงรับปากว่าจะช่วยซ่อมแซมหนังสือให้ คุณครูกับฮินาตะจึง\nออกตามหาวัตถุดิบ 3 อย่างที่ใช้ในการซ่อมแซมหนังสือตามคำบอกของอุย",
+  "DescTW": "憂看到被分解的經典感到很激憤，但經過老師和日向的勸說，立即表示願意幫忙修復，因此老師和日向前去取得憂所說的三種修復材料。",
+  "DialogJP": [
+    {
+      "Text": "第2話;魔術師の塔へ"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "すみません、いらっしゃいますかー……？"
+    },
+    {
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……留守、なのでしょうか？シミコさんのお話ですと、いつもここにと仰ってましたが……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "どなたか、いらっしゃいますか……？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……あれ？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "開いてます、ね……？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "失礼しまーす……これ、入っても大丈夫なのでしょうか……？"
+    },
+    {
+      "Text": "[s1] \"入館証は貰ったんだし、大丈夫じゃないかな。\""
+    },
+    {
+      "Text": "[s2] \"シミコが大丈夫って言ってたし。\""
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "そ、そうですね、では……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "そ、そうですね、では……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "そういえばシミコさん、ちょっとだけ怒ってましたね。「古書館は委員長の所有物じゃないので！」と……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "シミコさんとしては、多くの方が利用できるようにしたい……という感じなのでしょうか？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "えっと、向こうの方にいらっしゃるんですかね……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……ひいぃっ！？"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "こ、この声は……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "なっ、だっ、だだだ誰ですか！？泥棒！？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "い、いえ違います！泥棒ではありません！！"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "決して怪しい者ではないです！ちゃんとここの入館証も持ってますし……！"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "私たちはその、こちらに図書委員会の委員長がいらっしゃると聞いて……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ど、どうしてです……？"
+    },
+    {
+      "Text": "[s3] \"とある本について、復元をお願いしたくって。\""
+    },
+    {
+      "Text": "[s4] \"古書の専門家の手を借りたくって。\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "そう、ですか……ところで今さらですが、どちら様で……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そう、ですか……ところで今さらですが、どちら様で……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "片方はシスターフッドのようですが、もうひとりは……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "あ、紹介が遅れてごめんなさい。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "仰る通り、私はシスターフッド所属のヒナタです。こちらは先生で……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……「先生」？先生ってあの、シャーレの……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "先生……先生……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "う、うーん……なるほど、先生……。"
+    },
+    {
+      "Text": "[ns5] \"あっ、出てきてくれた。\""
+    },
+    {
+      "Text": "[ns6] \"初めまして、こんにちは。\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こ、こんにちは……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こ、こんにちは……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "えっと、私は[ruby=こぜき]古関[/ruby]ウイ……この古書館の管理をしている、図書委員会の委員長、です……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "それで、その……先生がどうして……。"
+    },
+    {
+      "Text": "[s7] \"急に来ちゃってごめんね。\""
+    },
+    {
+      "Text": "[s8] \"「古書館の魔術師」さん、だよね？\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "いえ、それはまあ、えっと……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "う、うぅ……また誰がそういう……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "その入館証、大図書館の……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "シミコか……また変なことを……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "全く……用事があるなら自分が来るか、他の子でも送れば良いのに……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "今度厳しく言っておかないと……まあ聞かないだろうけど……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……すみません、今のは聞かなかったことに。その、特に先生と接点を持つのが嫌とかでは、ないので……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "隣のシスターの方は……"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "まあ、アレですが……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "「アレ」！？私もしかして、初見ですでに嫌われてます！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "それは、まあ……別にシスターフッドだからというわけではないですが、外の方々は大体一緒と言いますか……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "あと、もう少し声量を抑えてください。ここ、響くので……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "す、すみません……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……ふぅ。と、とりあえず本題に戻りますか……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "本の復元、でしたっけ……何か貴重な本でも……？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "な、何ですかその、奥歯にものが挟まったような物言いは……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……経典「だったもの」？それは一体……"
+    },
+    {
+      "Text": "[s] 粉々になった経典を見せる。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……え。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "あ……あぁ……！？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "せ、先生……？う、ウイさんが何だか大変なことに……！？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "全身が震えてますけど、大丈夫でしょうか……！？"
+    },
+    {
+      "Text": "[ns9] \"……マズそう。\""
+    },
+    {
+      "Text": "[ns10] 静かに耳を塞ぐ。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "せんせ――"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "せんせ――"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "なああああぁぁぁぁぁぁぁぁぁぁっ！！？！？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "ひいぃっ！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "い、いいいいい一体何てことを！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "な、何ですかこれは！？何をどうしたらこうなるんですか！？どうしてこの子こんな状態になったんですか！？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "う、ウイさん、一旦落ち着いていただいて……"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "お、落ち着く！？落ち着く！？！？これを見て「落ち着け」と言ってるんですか！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "無理言わないでください！こんな粉々状態を見せられてどうやって落ち着けと！？できるならやって見せてくださいよいえそっちは冷静ですね！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "そ、それにこの子、パッと見ただけで分かるくらいの貴重な古書じゃないですか！古代の経典ですよね！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "太古の公会議で使われてたような代物ですよ！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こんなの少なく見積もっても、学園レベルでの宝物じゃないですか！！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "そんな子を、どうしてこんな姿に……！！"
+    },
+    {
+      "Text": "[s11] \"一目見ただけでそこまで分かるんだね……。\""
+    },
+    {
+      "Text": "[s12] \"流石は専門家。\""
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "ご、ごめんなさい……！ですがその、私たちも何とか修復しようと……"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "ご、ごめんなさい……！ですがその、私たちも何とか修復しようと……"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "「修復」の意味知ってます！？もしかしたらあなた、重傷者に絆創膏を張るタイプですか！？言葉の意味分かってないんです！？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ど、どうしてこんな酷いことが……！！！"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "この子が持つ、ページ一枚一枚に込められていた記録の、貴重な価値が……！"
+    },
+    {
+      "Text": "[s13] \"あの、まず深呼吸を……。\""
+    },
+    {
+      "Text": "[s14] \"本当にごめん。だからこそ、古書館の魔術師にお願いしたくって。\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……っ！"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……っ！"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ふう、ふぅ……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ふぅ、すーっ……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "し、失礼しました、つい……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "そ、そうですね、まずは……はい。この子を蘇生させないとですね。何としてでも……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "あらためて、その……け、経緯を聞かせてもらえますか？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こ、この子がどんな子なのか、どこで発掘されてどうしてこうなったのか……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ひとつ残らず、しょ、詳細にお願いします……。"
+    },
+    {
+      "Text": "[ns] 一部始終を説明する。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……そうでしたか。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "い、いえ、"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "未だに信じがたいと言いますか、信じたくないほど呆れた話ではありましたが……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "本当にすみません……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……ま、まあ、嘘ではないのは理解しました。先生もこう言ってることですし。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "それより……明日の朝まで、ですか……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "相変わらず、外の方々の考えはよく分かりません……発掘してから2日しか経っていない子を……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "この子のコンディションや保存状態、発掘してから施すべき応急処置など眼中に無い、と……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "トリニティの経典たちは、古い子でもある程度しっかりした耐久処理が為されています。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ですが例外というのはいつも存在しますし、それは一目見て分かることではありません。見た目がどうであれ、心の中では深刻な病を患った子だって存在します。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ですのでこういった古書は、見つけ次第すぐに様々な確認が必要……なはず、だというのに。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……そうしなかったようですね。まあ見た目が普通だったのでしょう。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こ、この状態から考えると……この子は実のところ、耐久処理が為されてなかったのでしょう。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "特殊な素材且つ特殊な環境にあったことで、本来は朽ちても仕方ない年月を経ても無事だった。そ、それが急に外に出されて……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "そして、急激に腐食化が進み……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……強いて言うのであれば、そこのあなたが壊さなかったとしても……おそらく、数週間も経たずに壊れていたでしょう。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "そ、そんな……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "もしかしたら担当者は、「公開するまで無事なら、その後のことはどうでも良い」……という発想だったのかもしれませんが。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "おそらく、そこまでは考えもしなかったでしょう。いつもの事なかれ主義、そして不干渉。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……それはともかく。ここまでの状態になってしまうと、単刀直入に言ってこの子にはもうほとんど望みがありません。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "普通なら修復は、まず不可能でしょう。"
+    },
+    {
+      "Text": "[s15] \"そっか……。\""
+    },
+    {
+      "Text": "[s16] \"……ごめんね、急に無茶なことを言って。\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……普通なら、です。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s] \"つまり……。\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ま、まあ……放っておくというわけにもいきませんし……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "この子が持っている内容の価値は、おいそれと捨てられるものではありません……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "そ、それは確かに、経典ですし……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……それだけではありません。考えてもみてくださいよ？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "シスターフッド主催の式典、それが大聖堂ではなく「郊外の古い聖堂」で……"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "「古代の遺物だから古代の遺跡でやりましょう」なんてお話なわけがないでしょう？それに、トリニティ上層部の方々をわざわざ呼ぶんですよね？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……いつものことですが、また裏のある変な話が絡んでいそうな気がします。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "それに経典を移送するのが、経典を読めないシスター……"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "何から何までいつも通りです、相変わらずよく分かりません。よく分からないですが裏がありそうな感じです。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "詳しい内容は見てみないと分かりませんが、まあきっと重要な内容が書かれているのでしょう。それは分かります。そして……"
+    },
+    {
+      "Text": "[s] \"あんまりその中身を、誰にも読ませたくない？\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……でしょうね。まあ、どの程度の秘密なのかは分かりかねますが。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "トリニティの明かされていない歴史、それについて何かが分かる……かもしれませんね。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……「[ruby=みずごけにかわ]水苔膠[/ruby]」。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……はい？"
+    },
+    {
+      "Text": "[s] \"「みずごけにかわ」……？\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "はい。「水苔膠」、そして「精聖薬」が必要です。この本を復元するために。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "「精聖薬」はおそらく、病院で手に入るでしょう。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "「水苔膠」は……今の時代に、新たに手に入るものではありません。ただ、古い建物の窓枠などには使われているはずです。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "こ、この建物もまあ、そうなのですが……ここを壊すのは嫌なので。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "と、とにかくそれを、持ってきていただけたら……その材料を溶かして、何とか復元させます。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "ウイさん……！！"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……か、勘違いしないでください。シスターフッドの事情や、上層部の方々の話など知ったことではありません。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "た、ただ……こんなにも貴重な子が、このまま消えてしまうの見過ごせないだけです。それに、先生の頼みでもありますし……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "ご安心ください。普通なら無理ですが……私の腕は普通では、ないので。"
+    },
+    {
+      "Text": "[s17] \"ありがとう、ウイ。\""
+    },
+    {
+      "Text": "[s18] \"すぐに見つけてくるね。\""
+    },
+    {
+      "Name": "ウイ",
+      "Text": "は、はい……では、そんな感じで。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "は、はい……では、そんな感じで。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……あ。も、もう一つ。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "限定ケーキの「ミラクル5000」……ソルート川沿いに売ってるはずですので。とにかく真っ先に買ってきてください。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "……け、ケーキですか？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "さ、作業には、糖分が必要なので……。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "なるほど……？"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "えっと、つまりはそれもある意味、本の復元のために必要な材料……ということですか？"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ウイ",
+      "Text": "……急いでください。"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "は、はい……！"
+    },
+    {
+      "Name": "ヒナタ",
+      "Text": "急いで行ってきます……！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;마술사의 탑으로"
+    },
+    {
+      "Name": "히나타",
+      "Text": "……저기……. 계신가요……?"
+    },
+    {
+      "Text": "……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……아무도 안 계신 걸까요? 시미코 씨 말로는 항상 여기 계신다고 했었는데……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "아무도 안 계신가요……? 들어가도 괜찮을까요……?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "……어라……. 열려 있네요?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "실례합니다……?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "저기……. 아무도 안 계시나요……? 이렇게 마음대로 들어와도 괜찮은 걸까요……."
+    },
+    {
+      "Text": "[s1] \"괜찮아. 출입증은 받았으니까.\""
+    },
+    {
+      "Text": "[s2] \"시미코가 괜찮다고 했으니 괜찮을 거야.\""
+    },
+    {
+      "Name": "히나타",
+      "Text": "그, 그랬었죠……. 시미코 씨께서는 분명 그렇게 말씀해주시긴 했었죠……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "그, 그랬었죠……. 시미코 씨께서는 분명 그렇게 말씀해주시긴 했었죠……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "'고서관은 부장님의 전유물이 아니에요!'라고 하시면서……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "오히려 가급적 더 많은 사람이 이용할 수 있게 해야 한다……라고……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "그렇긴 하지만……. 저기, 정말 아무도 안 계신가요……?"
+    },
+    {
+      "Name": "???",
+      "Text": "……히이이익!?"
+    },
+    {
+      "Text": "[s] \"……??\""
+    },
+    {
+      "Name": "히나타",
+      "Text": "……? 이 목소리는……?"
+    },
+    {
+      "Name": "???",
+      "Text": "뭐, 뭐야……!? 누, 누구세요……!? 도둑……!?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "네, 네!? 아, 아뇨! 아니에요! 그럴 리가요!!"
+    },
+    {
+      "Name": "히나타",
+      "Text": "저희는 수상한 사람이 아니에요! 여, 여기 출입증도 있다고요……!"
+    },
+    {
+      "Name": "히나타",
+      "Text": "저희는 그저 이곳에 계시다는 도서부 부장님을 뵈러……!"
+    },
+    {
+      "Name": "???",
+      "Text": "추, 출입증……? 도서부 부장을 만나러 왔다고요……?"
+    },
+    {
+      "Name": "???",
+      "Text": "……그런데 도서부 부장은 왜요?"
+    },
+    {
+      "Text": "[s3] \"책 복원에 관한 일로 추천을 받았어.\""
+    },
+    {
+      "Text": "[s4] \"고서에 관한 전문가가 필요해서 찾아왔어.\""
+    },
+    {
+      "Name": "???",
+      "Text": "……그렇군요. 그런데 그 이전에 누구신지……."
+    },
+    {
+      "Name": "???",
+      "Text": "……그렇군요. 그런데 그 이전에 누구신지……."
+    },
+    {
+      "Name": "???",
+      "Text": "한 분은 시스터후드 쪽 분이신 것 같은데, 다른 한 분은 도통 잘……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……아아. 소개가 늦었네요. 죄송합니다."
+    },
+    {
+      "Name": "히나타",
+      "Text": "말씀하신 대로 저는 시스터후드 소속의 히나타라고 해요. 그리고 이분은……. 선생님이세요."
+    },
+    {
+      "Name": "???",
+      "Text": "……예?"
+    },
+    {
+      "Name": "???",
+      "Text": "……선생님이라고요? 선생님이라면 그…… 샬레에 오셨다는……. 그 선생님……?"
+    },
+    {
+      "Name": "???",
+      "Text": "선생님……. 선생님……."
+    },
+    {
+      "Name": "???",
+      "Text": "으음……. 선생님이라……. 으으음……."
+    },
+    {
+      "Text": "[ns5] \"아. 나타났다.\""
+    },
+    {
+      "Text": "[ns6] \"안녕.\""
+    },
+    {
+      "Name": "우이",
+      "Text": "……아……안녕하세요. 선생님……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……아……안녕하세요. 선생님……."
+    },
+    {
+      "Name": "우이",
+      "Text": "저는 여기……. 고서관을 관리하고 있는……. 도서부의 부장 코제키 우이……라고 합니다……."
+    },
+    {
+      "Name": "우이",
+      "Text": "그……. 그런데 선생님께서 제게는 무슨 일로……?"
+    },
+    {
+      "Text": "[s7] \"네가 도서부 부장인 우이로구나.\""
+    },
+    {
+      "Text": "[s8] \"반갑소. 당신이 이곳의 마술사요?\""
+    },
+    {
+      "Name": "우이",
+      "Text": "일단 그렇기는 한데요……."
+    },
+    {
+      "Name": "우이",
+      "Text": "으, 으으……. 누가 또 그런 소리를……. 싫어하는 별명인데……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……아. 그 출입증……. 분명 대도서관에서 발행한 거……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……으으……. 시미코 녀석……. 또 이런 식으로 사람을 보내다니……."
+    },
+    {
+      "Name": "우이",
+      "Text": "몇 번이나 싫다고 했는데……. 일이 있으면 본인이 오거나 다른 애들을 보내면 될 것을……."
+    },
+    {
+      "Name": "우이",
+      "Text": "나중에 다시 한번 따끔하게 한마디 해야겠어. ……전혀 먹히지는 않겠지만……. 으……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……아. 죄송합니다. 물론 선생님에 대한 이야기는 아니었어요."
+    },
+    {
+      "Name": "우이",
+      "Text": "그 옆의 시스터 분은……."
+    },
+    {
+      "Name": "우이",
+      "Text": "뭐, 해당 사항일 수도 있겠지만……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "예!? 저는 해당사항인 건가요!? 싫은 쪽이신 건가요!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "그야 결국 바깥사람이잖아요. 시스터든 뭐든……. 바깥사람들은 거의 거기서 거기니까……."
+    },
+    {
+      "Name": "우이",
+      "Text": "그리고 부탁이니 조금만 조용히 해주시겠어요……? 여기는 소리가 잘 울리거든요."
+    },
+    {
+      "Name": "히나타",
+      "Text": "그, 그렇군요……. 죄송합니다……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……후우. 아무튼 본론으로 돌아가서……."
+    },
+    {
+      "Name": "우이",
+      "Text": "고서 복원에 관한 이야기로 찾아오셨다고요. 오래된 책이라도 발굴하신 건가요……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "……네?"
+    },
+    {
+      "Name": "우이",
+      "Text": "발굴하긴 했는데……라니요? 뭔가 문제라도 생긴 건가요?"
+    },
+    {
+      "Name": "우이",
+      "Text": "……경전'이었던' 것? ……도대체 그게 무슨 말씀이신지……."
+    },
+    {
+      "Text": "[s] 조각조각 난 경전을 꺼내 보여준다."
+    },
+    {
+      "Name": "우이",
+      "Text": "……음? 이건……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "……어."
+    },
+    {
+      "Name": "우이",
+      "Text": "……아. 어어……. 음……. 어으…… 으……?? 흐엇……!?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "서, 선생님……? 우, 우이 씨의 상태가……!"
+    },
+    {
+      "Name": "히나타",
+      "Text": "괜찮으신 걸까요? 안면 근육과 팔이 떨리고 있으신데요……!?"
+    },
+    {
+      "Text": "[ns9] \"……뭔가 위험한 느낌!\""
+    },
+    {
+      "Text": "[ns10] 말없이 귀를 막는다."
+    },
+    {
+      "Name": "히나타",
+      "Text": "선……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "선……."
+    },
+    {
+      "Name": "우이",
+      "Text": "으아아아아아아-!?"
+    },
+    {
+      "Name": "히나타",
+      "Text": "……히이익!?!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "대, 대대, 대대대 대체 무슨! 무, 무슨 짓을……!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "뭐, 뭔가요. 이게!? 이게 대체 무슨 짓인가요!? 어쩌다가 이렇게 돼 버린 건가요, 이 아이!!!"
+    },
+    {
+      "Name": "히나타",
+      "Text": "우, 우이 씨. 우선 진정하시고……."
+    },
+    {
+      "Name": "우이",
+      "Text": "지, 지지, 진정? 진정이라고 했어요, 지금? 이걸 보여주고……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "산산조각이 났잖아요!! 어떻게 진정을 해요!? 일부러 망치려고 해도 이렇게는 힘들겠는데요!"
+    },
+    {
+      "Name": "우이",
+      "Text": "게다가 이 아이, 그냥 봐도 그냥 고서가 아니라 유물 수준의 고서잖아요! 경전이잖아요!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "아무리 적게 잡아도 고대 공의회에서나 썼을 법한 나이 같은데요!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "이쯤 되면 거의 이 학교의 보물급 아닌가요? 교보(校寶) 아닌가요, 이 아이!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "그런 애가 어떻게 이런 꼴이……!!"
+    },
+    {
+      "Text": "[s11] \"그걸 보고 그걸 맞춰낼 수 있다니…….\""
+    },
+    {
+      "Text": "[s12] \"확실히. 의심할 여지 없이 전문가.\""
+    },
+    {
+      "Name": "히나타",
+      "Text": "우, 우선 저희 말씀을 들어주세요. 우이 씨! 그러니까 저희도 어떻게든 고치고 회복시키려고……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "우, 우선 저희 말씀을 들어주세요. 우이 씨! 그러니까 저희도 어떻게든 고치고 회복시키려고……."
+    },
+    {
+      "Name": "우이",
+      "Text": "저기요! 회복은 부상자에게 쓰는 말이고요! 이건 사망자라니까요!? 회복이 아니라 죽은 자의 소생이라니까요!?"
+    },
+    {
+      "Name": "우이",
+      "Text": "어쩌다가, 어쩌다가 이런……. 이런 끔찍한 일이……!"
+    },
+    {
+      "Name": "우이",
+      "Text": "이 아이가 가진……. 페이지 한 장 한 장 품어져 있었을 기록들의 가치는 그야말로……!"
+    },
+    {
+      "Text": "[s13] \"진정해. 우선 심호흡을 하고…….\""
+    },
+    {
+      "Text": "[s14] \"그래서 더더욱 널 찾아온 거야. 고서관의 마술사님.\""
+    },
+    {
+      "Name": "우이",
+      "Text": "……!!"
+    },
+    {
+      "Name": "우이",
+      "Text": "……!!"
+    },
+    {
+      "Name": "우이",
+      "Text": "……후, 후우. 후우우……."
+    },
+    {
+      "Name": "우이",
+      "Text": "스읍……. 후우……. 후우우우우……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……죄, 죄송합니다……. 선생님 앞인데, 저도 모르게 그만……."
+    },
+    {
+      "Name": "우이",
+      "Text": "그, 그렇군요. 일단……. 네. 그렇죠. 저 아이는 되살려야만 하겠죠. 무슨 수를 써서라도……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……우선 선생님. 그럼……. 괜찮으시다면……. 자세한 이야기를 좀 들어볼 수 있을까요……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "이 아이가 정확히 어떤 아이고, 어디서 발굴되었고, 어떻게 된 건지……."
+    },
+    {
+      "Name": "우이",
+      "Text": "하나도 남김없이……. 전부 다요."
+    },
+    {
+      "Text": "[ns] 자초지종을 설명해 준다."
+    },
+    {
+      "Name": "우이",
+      "Text": "……그렇군요. 네……."
+    },
+    {
+      "Name": "우이",
+      "Text": "그렇게 된 거였군요."
+    },
+    {
+      "Name": "우이",
+      "Text": "솔직히 듣고도 믿기 힘들 정도로 어처구니없는 일이지만……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "죄송합니다……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……뭐……. 선생님께서 직접 보셨다고 하셨으니, 그 부분에 있어서는 틀림이 없겠지요."
+    },
+    {
+      "Name": "우이",
+      "Text": "그나저나 내일 아침이 경전 낭독 행사라……."
+    },
+    {
+      "Name": "우이",
+      "Text": "역시 바깥사람들의 사고는 도무지 좋아할 수가 없네요. 발굴한 지 이틀밖에 안 된 아이를? 정말로?"
+    },
+    {
+      "Name": "우이",
+      "Text": "이 아이의 컨디션과 보존 상태, 발굴 직후의 응급처치 같은 것은 다들 안중에도 없나 보죠?"
+    },
+    {
+      "Name": "우이",
+      "Text": "물론 트리니티의 경전들은 오래된 아이들이라 해도 대체로 내구성 처리들이 잘 돼 있어요."
+    },
+    {
+      "Name": "우이",
+      "Text": "하지만 언제나 예외는 존재하고, 겉보기에는 아주 멀쩡해 보이지만……. 속으론 심각한 병을 앓고 있는 아이들도 가끔 존재해요."
+    },
+    {
+      "Name": "우이",
+      "Text": "그러니 오래된 고서들은 찾아내자마자 그런 부분들에 하자가 없는지 면밀히 검수를 해야만 해요. 이 아이도 그래야만 했죠."
+    },
+    {
+      "Name": "우이",
+      "Text": "……그렇지만 그러지 않았네요. 일단 겉보기에 멀쩡했고, 발굴 당시에는 튼튼했을 테니까요."
+    },
+    {
+      "Name": "우이",
+      "Text": "아마도 이 아이는 모종의 이유로 그 당시 그런 내성 처리가 제대로 안 된 상태였을 거고……."
+    },
+    {
+      "Name": "우이",
+      "Text": "오히려 사실 진즉 썩어야 했는데……. 발굴 전에는 공기가 거의 통하지 않는 장소에 보존돼 있어 괜찮았던 걸 거예요."
+    },
+    {
+      "Name": "우이",
+      "Text": "그게 이제 발굴돼 세상으로 나오면서……. 급격히 부식화가 이루어진 거고……."
+    },
+    {
+      "Name": "우이",
+      "Text": "저 시스터 님이 그때 부서뜨리지 않았더라도, 몇 주 지나지 않아 알아서 부서졌겠죠."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……그, 그런……. 그럴 수가……."
+    },
+    {
+      "Name": "우이",
+      "Text": "뭐, 공개할 당시까지만 멀쩡하면 된다……라는 발상이었다면 그럴 수는 있었겠지만……."
+    },
+    {
+      "Name": "우이",
+      "Text": "아마 거기까지 생각하지도 않았을 거 같네요. 그냥 무사안일주의, 안전불감증에 따른 결과."
+    },
+    {
+      "Name": "우이",
+      "Text": "……어쨌든 이렇게 돼 버린 이상, 단도직입적으로 말해서 이 아이는 거의 가망이 없어요."
+    },
+    {
+      "Name": "우이",
+      "Text": "일반적인 방법으로는……. 불가능한 선이니까요."
+    },
+    {
+      "Text": "[s15] \"역시 너무 무리한 부탁이었던 거구나.\""
+    },
+    {
+      "Text": "[s16] \"……갑자기 이런 부탁을 해서 미안해.\""
+    },
+    {
+      "Name": "우이",
+      "Text": "……그렇지만."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……?"
+    },
+    {
+      "Text": "[s] \"……그렇지만?\""
+    },
+    {
+      "Name": "우이",
+      "Text": "네. 그렇지만……. 그렇다고 해도, 이대로 놔둘 순 없겠죠."
+    },
+    {
+      "Name": "우이",
+      "Text": "말씀드렸듯 이 아이가 가진 내용의 가치는, 그렇다고 해서 버릴 만큼 가벼운 게 아닐 테니까요."
+    },
+    {
+      "Name": "히나타",
+      "Text": "가벼운 게 아니라니……. 그, 그야 당연히 경전이니까……."
+    },
+    {
+      "Name": "우이",
+      "Text": "제발. 생각해 보세요. 그런 이야기가 아니잖아요? 이상한 부분들이 한두 가지가 아니라고요!"
+    },
+    {
+      "Name": "우이",
+      "Text": "굳이 시스터후드 주관의 공개 행사를 멀쩡한 대성당 놔두고 '교외의 고성당 유적'에서 한다?"
+    },
+    {
+      "Name": "우이",
+      "Text": "유물이니까 유적지에서 하겠다? 정말 단순히 그런 이유로, 그 고귀하신 트리니티의 고위층분들이 모두 행차하신다?"
+    },
+    {
+      "Name": "우이",
+      "Text": "진심으로……. 그게 말이 된다고 생각하시는 건 아니시죠?"
+    },
+    {
+      "Name": "우이",
+      "Text": "게다가 그런 경전의 상자를 이송하는데, 오히려 경전을 읽을 수도 없는 시스터님께 맡긴다고요?"
+    },
+    {
+      "Name": "우이",
+      "Text": "여기까지 가면 이미 수상쩍지 않다는 쪽이 억지잖아요? 그렇지 않나요?"
+    },
+    {
+      "Name": "우이",
+      "Text": "자세한 내용은 저도 봐야 알겠지만, 아무튼 이건 아주 중요한 내용이면서 동시에……."
+    },
+    {
+      "Text": "[s] \"……아무에게나 보여줄 수 없는 내용.\""
+    },
+    {
+      "Name": "우이",
+      "Text": "아무래도 그렇겠죠……. 어느 정도의 비밀인지는 아직 확신할 수 없지만……."
+    },
+    {
+      "Name": "우이",
+      "Text": "어쩌면 트리니티의 밝혀지지 않은 역사가 담겼을 수도 있는……. 그런 레벨의 아이예요."
+    },
+    {
+      "Name": "우이",
+      "Text": "……<물이끼 아교>."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……네?"
+    },
+    {
+      "Text": "[s] \"물이끼 아교?\""
+    },
+    {
+      "Name": "우이",
+      "Text": "네. 물이끼 아교. 그리고 <정성약>이 필요해요. 복원을 위해 이 책의 제작 방식을 그대로 따라야 하거든요."
+    },
+    {
+      "Name": "우이",
+      "Text": "정성약은 아마도 전문 병동에서 구하실 수 있을 거예요. 그리고 아교는……."
+    },
+    {
+      "Name": "우이",
+      "Text": "……지금 시대에는 새로 구할 수 없지만, 오래된 건물의 창틀 같은 데에서도 사용됐으니, 구해 오시면 제가 녹여서 쓰겠습니다. "
+    },
+    {
+      "Name": "우이",
+      "Text": "사실 따지고 보면 이 건물도 그런 건물이긴 하지만……. 그렇다고 여길 부술 순 없으니까요."
+    },
+    {
+      "Name": "우이",
+      "Text": "어쨌든 구해만 와 주신다면……. 이후에는 저도 어떻게든 해볼게요. 복원 작업……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……!! 우, 우이 씨……."
+    },
+    {
+      "Name": "우이",
+      "Text": "착각하지 말아 주세요. 시스터후드의 사정이나 높으신 분들 관심사 따위는 제가 알 바 아니거든요."
+    },
+    {
+      "Name": "우이",
+      "Text": "그저 저도, 이런……. 이런 귀중한 아이가, 이대로 사라져버리는 걸 바라지는 않으니까요."
+    },
+    {
+      "Name": "우이",
+      "Text": "선생님의 부탁이시기도 하고요……. 제가 할 수 있는 일이긴 하니까……."
+    },
+    {
+      "Text": "[s17] \"고마워, 우이.\""
+    },
+    {
+      "Text": "[s18] \"반드시 구해 올게.\""
+    },
+    {
+      "Name": "우이",
+      "Text": "네, 네. ……그럼 잘 부탁드립니다."
+    },
+    {
+      "Name": "우이",
+      "Text": "네, 네. ……그럼 잘 부탁드립니다."
+    },
+    {
+      "Name": "우이",
+      "Text": "……아. 그리고 한 가지 더."
+    },
+    {
+      "Name": "히나타",
+      "Text": "음? 한 가지 더요……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "……<미라클 5000 한정 케이크>. 지금 솔루트 강변에서 팔고 있을 거예요. 가장 먼저 구해주세요."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……네?"
+    },
+    {
+      "Name": "우이",
+      "Text": "작업할 때의 당분 공급을 위해 필요합니다. ……네, 네. 맞아요."
+    },
+    {
+      "Name": "히나타",
+      "Text": "어……. 그건……. 그러니까……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "결국 이것도……. 책 복원에 필요한 재료……란 말씀이신 거죠? 그렇죠……?"
+    },
+    {
+      "Name": "우이",
+      "Text": "……(찌릿)."
+    },
+    {
+      "Name": "우이",
+      "Text": "……당연하죠! 가장 급합니다."
+    },
+    {
+      "Name": "히나타",
+      "Text": "……아아. ……네, 네……."
+    },
+    {
+      "Name": "히나타",
+      "Text": "지금 바로 구해 오도록 할게요……."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;To the Magician's Tower"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Hello? Is anyone there?"
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Is there no one here? But Shimiko said she never leaves..."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Hello...? Can we come in?"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Oh."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "It's unlocked."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "I hope it's okay that we let ourselves in."
+    },
+    {
+      "Text": "[s1] \"Well, we were given library passes.\""
+    },
+    {
+      "Text": "[s2] \"Shimiko said it should be fine.\""
+    },
+    {
+      "Name": "Hinata",
+      "Text": "R-Right. I know that."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "R-Right. I know that."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "She had a scary look on her face and said, \"Just because she doesn't leave, it doesn't mean the president OWNS that library!\""
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Shimiko must be frustrated that more people don't visit this place."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Anyway, do you think she's around here somewhere?"
+    },
+    {
+      "Name": "???",
+      "Text": "Ahhhhhh!"
+    },
+    {
+      "Text": "[s] \"...?\""
+    },
+    {
+      "Name": "Hinata",
+      "Text": "It wasn't me. Whose voice was that just now?"
+    },
+    {
+      "Name": "???",
+      "Text": "Wh-Who goes there?! Are you burglars?!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "What? N-No, of course not!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "We're not here to steal anything! We even have library passes!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "We came here to meet the Library Committee president!"
+    },
+    {
+      "Name": "???",
+      "Text": "Library passes...? And you're here to see the president...?"
+    },
+    {
+      "Name": "???",
+      "Text": "Why? What do you want?"
+    },
+    {
+      "Text": "[s3] \"We heard she knows how to restore old books.\""
+    },
+    {
+      "Text": "[s4] \"We're looking for an expert on ancient texts.\""
+    },
+    {
+      "Name": "???",
+      "Text": "I see. And who might you be?"
+    },
+    {
+      "Name": "???",
+      "Text": "I see. And who might you be?"
+    },
+    {
+      "Name": "???",
+      "Text": "I can tell that one is from the Sisterhood, but I have no idea who you are."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "I'm sorry. I should introduce us."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Like you said, I'm from the Sisterhood. My name is Wakaba Hinata.\nThis here is...Sensei."
+    },
+    {
+      "Name": "???",
+      "Text": "What was that you just said?"
+    },
+    {
+      "Name": "???",
+      "Text": "Sensei? The Sensei from...Schale?"
+    },
+    {
+      "Name": "???",
+      "Text": "Sensei... Sensei..."
+    },
+    {
+      "Name": "???",
+      "Text": "Hmm... Sensei."
+    },
+    {
+      "Text": "[ns5] \"Oh. There you are.\""
+    },
+    {
+      "Text": "[ns6] \"Hi. Nice to meet you.\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "Um...yes. Hello."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Um...yes. Hello."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I'm Kozeki Ui, president of the Library Committee.\nI manage the old library..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "What is it again that brings you here, Sensei?"
+    },
+    {
+      "Text": "[s7] \"It's nice to finally meet you.\""
+    },
+    {
+      "Text": "[s8] \"So, you're the 'magician' people speak of?\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "Yes, same to you..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "*sigh* That infernal nickname... Who did you hear that from?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Ah. So your pass came from the Grand Library."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Tch. Shimiko... I should have known it was her."
+    },
+    {
+      "Name": "Ui",
+      "Text": "How many times have I told her not to do this? She could have come to see me herself or sent another of our members if it was so important."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I'll need to have a word with her later...though knowing her, she still won't listen.\n*sigh*..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Er, pay no mind to what I just said. It doesn't necessarily bother me to have contact with you, Sensei."
+    },
+    {
+      "Name": "Ui",
+      "Text": "As for the Sister accompanying you... "
+    },
+    {
+      "Name": "Ui",
+      "Text": "She's...another matter."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "What's that supposed to mean?! Are you uncomfortable with me being here?!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "It doesn't necessarily have anything to do with you being from the Sisterhood.\nYou're an outsider, and all outsiders are basically the same."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Also, would you please keep your voice down? The echo in this room isn't to be trifled with."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "S-Sorry..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "As I was going to say..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "You mentioned something about an old book?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Well...?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Why do you seem so nervous? Is there some kind of problem?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "What do you mean it \"used to be\" scripture? I don't understand."
+    },
+    {
+      "Text": "[s] Show Ui what remains of the ancient scripture book."
+    },
+    {
+      "Name": "Ui",
+      "Text": "What...is this?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Hmm?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Ah... Uh... Guh...?!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "S-Sensei? What's happening to her?"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Is Ui okay? Her entire body is shaking..."
+    },
+    {
+      "Text": "[ns9] \"Take cover!\""
+    },
+    {
+      "Text": "[ns10] Stay quiet and cover your ears."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Sen—"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Sen—"
+    },
+    {
+      "Name": "Ui",
+      "Text": "WHAAAAAAAAAT?!?!?!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Ahhh!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Wh-Wh-What have you done?!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "How COULD you?! Who did this?! How could this be possible?!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "P-Please calm down, Ui. I can explain—"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Keep calm?! After seeing THIS?!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Don't tell me to \"calm down\"! How am I supposed to \"calm down\" after laying eyes on this tragedy! I couldn't commit such an atrocity even if I tried!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Not only that, but this is no ordinary old book. It's ancient text—scripture!\nA bona fide artifact!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "The kind of text that was used by the councils of antiquity!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "This should be regarded as one of this school's treasures!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "What have you done to this poor, innocent work...?"
+    },
+    {
+      "Text": "[s11] \"I mean, the state it's in speaks for itself.\""
+    },
+    {
+      "Text": "[s12] \"Starting to see why your reputation precedes you.\""
+    },
+    {
+      "Name": "Hinata",
+      "Text": "P-Please hear us out, Ui! We want it to be restored more than anything,\nand—"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "P-Please hear us out, Ui! We want it to be restored more than anything,\nand—"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Restored?! You can only perform surgery on someone who is still alive!\nYou're asking me to raise the dead!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "How could something so tragic happen...?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "The invaluable history and records lost with each page destroyed...\nThis can't be happening..."
+    },
+    {
+      "Text": "[s13] \"Deep breaths, Ui. Deeeeeep breaths.\""
+    },
+    {
+      "Text": "[s14] \"Isn't there something the Magician of the Old Library can do?\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "...!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "...!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "*inhale*... *exhale*..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "*inhale*... *exhale*... Okay."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Forgive me. I'm sorry you had to see me like that, Sensei."
+    },
+    {
+      "Name": "Ui",
+      "Text": "As for...the matter at hand. This book must be restored—no matter the cost."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I want you to tell me everything from the very beginning."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Where was this book discovered? What happened to it after it was placed in your custody?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "I need to know every little detail."
+    },
+    {
+      "Text": "[ns] Tell Ui the whole story."
+    },
+    {
+      "Name": "Ui",
+      "Text": "All right. So that's everything."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I wish I could say I have closure..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "...but parts of your story sound so comedically preposterous that they're hard to believe."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "I swear it's the truth... I'm sorry."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Fortunately, Sensei is here to corroborate your story, so I'm sure everything is as you said."
+    },
+    {
+      "Name": "Ui",
+      "Text": "The reading is scheduled for tomorrow morning, is that right?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "I'll never understand how the outside world operates. It's only been two days since this book was discovered!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Did no one consider its condition, the need for preservation, or immediate treatment right after excavation?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "All of Trinity's scriptures, even the oldest ones, have undergone treatment to ensure their durability."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Though there are exceptions. Some works may seem pristine on the outside, but their pages are worse for wear. You can never judge a book by its cover—quite literally in these cases."
+    },
+    {
+      "Name": "Ui",
+      "Text": "That's why it's important to have old books evaluated as soon as they're found. This one was no exception."
+    },
+    {
+      "Name": "Ui",
+      "Text": "That obviously didn't happen. I'm surmising that it appeared to be in well enough condition on the outside and was in one piece upon being discovered."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Therefore, those who discovered the work didn't take its condition into account at all."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Realistically, a book this old would rot and be lost to history by now,\nbut the environment it was stored in may have been particularly void\nof air."
+    },
+    {
+      "Name": "Ui",
+      "Text": "And once it was exposed, it wouldn't take much for the pages to disintegrate."
+    },
+    {
+      "Name": "Ui",
+      "Text": "That leads me to believe that even if your...mishap had not happened,\nit was only a matter of time before it disintegrated on its own.\nI would have given it only a few weeks."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Th-That's terrible..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "It's possible that the ones in charge thought preservation could wait until after this big event they're planning. So as long as it lasted only a few days, there was nothing to worry about."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Though I doubt they had even that much foresight. This reeks of their usual complacent, ill-advised policymaking. No one likes to think of the worst possible outcome."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Regardless of where the truth lies, this book's hopes are looking bleak.\nThere's almost no hope of restoring it now."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I would call impossible under ordinary circumstances."
+    },
+    {
+      "Text": "[s15] \"I guess it's hopeless...\""
+    },
+    {
+      "Text": "[s16] \"Sorry we asked you to do the impossible.\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "I said, \"under ordinary circumstances\"."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "...?"
+    },
+    {
+      "Text": "[s] \"So...?\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "Naturally, I don't plan on just letting this go."
+    },
+    {
+      "Name": "Ui",
+      "Text": "As I said, this text is invaluable. It's not something we can easily give up on."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Naturally. It's scripture, after all..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "That's not what I meant. Don't you think there's something strange about all of this?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Why schedule a public event at the ruins of some old cathedral on the outskirts when it could have just as well been held at a modern cathedral?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "To set the mood because the book was an artifact? Do you think Trinity's higher-ups would go out of their way just for that?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "It doesn't make sense to me. Something else is at play."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Also, why put a Sister incapable of reading the text in charge of transporting it?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "You can't deny there's something suspicious about this, can you?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "I'll need to confirm it for myself, but there's little doubt in my mind that this book contained very important information. So important that..."
+    },
+    {
+      "Text": "[s] \"...it can't be revealed to just anyone.\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "Precisely! I can't say for certain just how grand the secret may be..."
+    },
+    {
+      "Name": "Ui",
+      "Text": "...but it could contain part of Trinity's history long lost to time."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Sphagnum moss glue."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Huh?"
+    },
+    {
+      "Text": "[s] \"Sphagnum moss glue?\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "Yes, we need sphagnum moss glue and some holy tonic. I have to follow the method that was used to produce this book in order to restore it."
+    },
+    {
+      "Name": "Ui",
+      "Text": "You should be able to procure holy tonic from a local hospital."
+    },
+    {
+      "Name": "Ui",
+      "Text": "The glue isn't something you can find readily available in this day and age,\nbut it was commonly used in window frames of old buildings and such.\nBring me some to melt down. "
+    },
+    {
+      "Name": "Ui",
+      "Text": "Come to think of it, this very building likely used sphagnum moss glue in its construction...but damaging it is not a viable option."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Anyway, I'll do my best to restore the text if you bring me those two materials."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "U-Ui...!"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Don't get the wrong idea. I couldn't care less about the Sisterhood or what Trinity's higher-ups are after."
+    },
+    {
+      "Name": "Ui",
+      "Text": "I simply don't want this text to be lost to history again."
+    },
+    {
+      "Name": "Ui",
+      "Text": "And if it's a favor for you, Sensei, then...I'll do what I can."
+    },
+    {
+      "Text": "[s17] \"Thanks, Ui.\""
+    },
+    {
+      "Text": "[s18] \"I'll bring you those materials.\""
+    },
+    {
+      "Name": "Ui",
+      "Text": "O-Okay. Good luck, then."
+    },
+    {
+      "Name": "Ui",
+      "Text": "O-Okay. Good luck, then."
+    },
+    {
+      "Name": "Ui",
+      "Text": "Oh, and one more thing."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "What is it?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "The Miracle 5,000 limited edition cake. It's available at the Solut River.\nPlease acquire that first."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "I require sugar to work."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Oh... I see..."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Does that mean it's another necessary material for book restoration?"
+    },
+    {
+      "Name": "Ui",
+      "Text": "(glare)"
+    },
+    {
+      "Name": "Ui",
+      "Text": "Go! Now!"
+    },
+    {
+      "Name": "Hinata",
+      "Text": "Y-Yes, ma'am."
+    },
+    {
+      "Name": "Hinata",
+      "Text": "We're going now..."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;มุ่งสู่หอคอยแห่งจอมเวท"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คือว่า... มีใครอยู่ไหมคะ...?"
+    },
+    {
+      "Text": "......"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ไม่มีใครอยู่เลยเหรอ? คุณชิมิโกะบอกว่าท่านหัวหน้าอยู่ที่นี่ตลอดเลยนี่นา..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "มีใครอยู่ไหมคะ...? ขอเข้าไปได้ไหมคะ...?"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "เอ๋? ประตูเปิดอยู่นี่นา?"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ขอโทษนะคะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คือว่า... มีใครอยู่ไหมคะ...? ขอฉันเสียมารยาทเข้าไปได้ไหมคะ?"
+    },
+    {
+      "Text": "[s1] \"ไม่เป็นไรหรอก เราได้บัตรเข้าออกมาแล้วนี่\""
+    },
+    {
+      "Text": "[s2] \"ชิมิโกะบอกว่าไม่เป็นไรนี่นา เข้าไปเถอะ\""
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ก็... ก็ใช่ค่ะ คุณชิมิโกะบอกไว้ว่า..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ก็... ก็ใช่ค่ะ คุณชิมิโกะบอกไว้ว่า..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "\"ห้องสมุดเก่าไม่ใช่ทรัพย์สินส่วนบุคคลของท่านหัวหน้านะคะ!\"..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "แล้วเราต้องอนุญาตให้คนอื่นเข้ามาใช้งานด้วย..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "แต่ว่า... มะ... ไม่มีใครอยู่จริงๆ เหรอคะเนี่ย...?"
+    },
+    {
+      "Name": "???",
+      "Text": "เฮือกกก!!"
+    },
+    {
+      "Text": "[s] \"...??\""
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "...? เสียงนี่มัน...?"
+    },
+    {
+      "Name": "???",
+      "Text": "อะ... อะไรกัน...?! ใครคะเนี่ย?! โจรเหรอ?!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ??! ไม่ใช่นะคะ! ไม่ใช่ค่ะ! ไม่ใช่อย่างนั้นนะคะ!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "พวกเราไม่ใช่คนน่าสงสัยค่ะ! นะ... นี่ค่ะ พวกเรามีบัตรเข้าออกมาด้วย...!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "พวกเราแค่มาหาท่านหัวหน้าชมรมอ่านหนังสือที่นี่..."
+    },
+    {
+      "Name": "???",
+      "Text": "บัตรเข้าออก...? มาหาหัวหน้าชมรมอ่านหนังสือเหรอคะ...?"
+    },
+    {
+      "Name": "???",
+      "Text": "ว่าแต่... มาด้วยเรื่องอะไรคะ?"
+    },
+    {
+      "Text": "[s3] \"มาปรึกษาเรื่องการฟื้นฟูหนังสือน่ะ\""
+    },
+    {
+      "Text": "[s4] \"อยากมาพบผู้เชี่ยวชาญด้านหนังสือโบราณน่ะ\""
+    },
+    {
+      "Name": "???",
+      "Text": "งั้นเหรอคะ... ว่าแต่... พวกคุณเป็นใครเหรอคะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "งั้นเหรอคะ... ว่าแต่... พวกคุณเป็นใครเหรอคะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ท่านนี้น่าจะมาจากชมรมซิสเตอร์ แต่อีกท่านหนึ่งไม่เคยเห็นมาก่อนเลย..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "อ้อ... ลืมแนะนำตัวไปเลยค่ะ ขอโทษนะคะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ฉันฮินาตะจากชมรมซิสเตอร์ค่ะ และท่านนี้ก็คือ... คุณครูค่ะ"
+    },
+    {
+      "Name": "???",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณครูเหรอคะ? คุณครู... ที่มาทำงานที่ชาเล่ต์น่ะเหรอคะ...? คุณครูท่านนั้นเหรอ?"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณครู... คุณครู..."
+    },
+    {
+      "Name": "???",
+      "Text": "อืม... คุณครูงั้นเหรอ... อืมม..."
+    },
+    {
+      "Text": "[ns5] \"อ๊ะ ออกมาแล้ว\""
+    },
+    {
+      "Text": "[ns6] \"สวัสดีนะ\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ๊ะ... สวัสดีค่ะ คุณครู..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ๊ะ... สวัสดีค่ะ คุณครู..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ฉันคือหัวหน้าชมรมอ่านหนังสือ... และเป็นคนดูแลห้องสมุดเก่า โคเซกิ อุยค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เอ่อ... คุณครูมีธุระอะไรกับฉันเหรอคะ...?"
+    },
+    {
+      "Text": "[s7] \"อุยคือหัวหน้าชมรมอ่านหนังสือนี่เอง\""
+    },
+    {
+      "Text": "[s8] \"ยินดีที่ได้รู้จักนะ จอมเวทแห่งห้องสมุดเก่า?\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "ฉะ... ฉันเองค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อะ... อึก... ใครเอาเรื่องนี้ไปพูดอีกแล้ว... ไม่ชอบฉายานี้เลย..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ๊ะ... บัตรเข้าออกหน้าตาแบบนี้... ออกให้โดยหอสมุดนี่นา..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อึก... ยัยชิมิโกะ... ส่งคนมาหาแบบนี้อีกแล้ว..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ก็บอกแล้วไงว่าไม่ชอบ... ถ้ามีเรื่องอะไรก็มาหาเอง ไม่ก็ให้สมาชิกชมรมคนอื่นมาหาก็ได้นี่..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "สงสัยจะต้องดุให้เข็ดอีกสักรอบแล้วสิ ถึงแม้จะไม่ยอมฟังอยู่ดีก็เถอะ... ฮึ่ม......"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ๊ะ... ขอโทษนะคะ ฉันไม่ได้หมายถึงคุณครูหรอกค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แค่มันอาจจะเกี่ยวกับ... "
+    },
+    {
+      "Name": "อุย",
+      "Text": "ซิสเตอร์ที่มาด้วยกันน่ะค่ะ..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ...?! เกี่ยวกับฉันเหรอคะ?! คุณไม่ชอบฉันเหรอคะ?!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ก็เป็นคนนอกนี่คะ ถึงจะเป็นซิสเตอร์ก็เถอะ... คนนอกไม่ค่อยจะมาที่นี่กันหรอกค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ้อ อีกอย่าง รบกวนเงียบๆ กันหน่อยได้ไหมคะ...? พอดีที่นี่ไม่ค่อยเก็บเสียงน่ะค่ะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ยะ... อย่างนั้นเหรอคะ ขอโทษค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เฮ้อ... ถ้างั้นก็มาคุยธุระเถอะค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เห็นบอกว่ามาที่นี่เพราะเรื่องการฟื้นฟูหนังสือโบราณ ไปค้นพบหนังสือโบราณมาเหรอคะ...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ไปค้นพบมาก็จริง...? แต่มีปัญหาอะไรเหรอคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "หนังสือที่ 'เคยเป็น' พระคัมภีร์? หมายความว่ายังไงคะเนี่ย...?"
+    },
+    {
+      "Text": "[s] ยื่นพระคัมภีร์ที่ขาดร่วงหลุดลุ่ยให้ดู"
+    },
+    {
+      "Name": "อุย",
+      "Text": "หืม? นี่มัน...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "เอ่อ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อืม... อืมมม... อืม... หืมม?!  เฮือก...!!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ.. คุณครูคะ! คุณอุยเค้า...!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "เป็นอะไรหรือเปล่าคะ? กล้ามเนื้อใบหน้ากับแขนสั่นเหมือนเจ้าเข้าเลย...!!"
+    },
+    {
+      "Text": "[ns9] \"แบบนี้อันตรายแล้ว!\""
+    },
+    {
+      "Text": "[ns10] ปิดหูโดยไม่พูดอะไร  "
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คุณ..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คุณ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อ๊าาาาาาา!?"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "เฮือก...!!!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "นะ... นี่มัน... อะไรกัน... คะเนี่ย! ทะ... ทำอะไรลงไป...!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "นี่มันอะไรกันคะ!! ทำอะไรลงไปคะ!?! ทำไมเด็กคนนี้ถึงอยู่ในสภาพแบบนี้ล่ะ!!!"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ... คุณอุยคะ... ใจเย็นๆ ก่อนนะคะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "จะ... ใจเย็นงั้นเหรอ? บอกให้ฉันใจเย็นงั้นเหรอคะ? เด็กคนนี้เป็นแบบนี้แล้วแท้ๆ...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "สภาพเสียหายจนทนดูไม่ได้แบบนี้! ฉันจะใจเย็นอยู่ได้ยังไงคะ?! ต่อให้ตั้งใจทำให้พัง สภาพขนาดนี้ยังถือว่าเป็นเรื่องยากเลยนะคะ!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อีกอย่าง เด็กคนนี้แค่ดูก็รู้ว่าไม่ใช่หนังสือเก่าธรรมดา แต่เป็นระดับวัตถุโบราณเลย! นี่มันพระคัมภีร์เลยนะคะ!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "คัมภีร์แบบนี้ต้องเขียนโดยสภาในสมัยโบราณแน่ๆ เลยนะคะ!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แล้วนี่ตั้งกี่ปีเข้ามาแล้ว? เด็กคนนี้เป็นมรดกทางวัฒนธรรมของโรงเรียนเลยนะคะ!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ไปทำอีท่าไหนถึงได้อยู่ในสภาพนี้ได้...?!"
+    },
+    {
+      "Text": "[s11] \"แค่ดูก็รู้แล้วเหรอว่าเป็นอะไร...\""
+    },
+    {
+      "Text": "[s12] \"นี่สินะผู้เชี่ยวชาญตัวจริง\""
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ฟะ... ฟังพวกเราก่อนนะคะคุณอุย เพราะเป็นแบบนี้ เราก็เลยอยากฟื้นฟูหนังสือเล่มนี้น่ะค่ะ..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ฟะ... ฟังพวกเราก่อนนะคะคุณอุย เพราะเป็นแบบนี้ เราก็เลยอยากฟื้นฟูหนังสือเล่มนี้น่ะค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "นี่คุณคะ! ฟื้นฟูงั้นเหรอ? แบบนี้ต้องเรียกว่าชุบชีวิตแล้วค่ะ! เราไม่ใช่แค่ต้องทำให้เด็กคนนี้อาการดีขึ้น แต่เราต้องมอบชีวิตให้ใหม่เลยนะคะ!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ทะ... ทำไม... ทำไมถึงเกิดเรื่องแบบนั้นกับเด็กคนนี้ได้...!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "รู้หรือเปล่าคะว่าแต่ละหน้าของเด็กคนนี้... มีบันทึกที่มีคุณค่ามากมายขนาดไหน...!"
+    },
+    {
+      "Text": "[s13] \"ใจเย็นๆ นะ หายใจเข้าลึกๆ ก่อน...\""
+    },
+    {
+      "Text": "[s14] \"พวกเราก็เลยมาหาเธอไงล่ะ ท่านจอมเวทแห่งห้องสมุดเก่า\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "......!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "......!!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "(หายใจเข้า...) ฮู้วววว..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "(หายใจออก...) ฮู่วว... ฮู่ววววว..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ขะ... ขอโทษค่ะ ฉันเผลอตัวไปน่ะค่ะ อยู่ต่อหน้าคุณครูแท้ๆ เลย..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เข้าใจแล้วค่ะ ก่อนอื่นคงต้อง... อืม ใช่แล้ว เราต้องชุบชีวิตเด็กคนนี้ค่ะ ไม่ว่าจะด้วยวิธีใดก็ตาม..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ก่อนที่จะทำแบบนั้น.... ถ้าคุณครูไม่ว่าอะไร... ฉันขอทราบข้อมูลอย่างละเอียดๆ หน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อย่างเช่น... เด็กคนนี้คือใคร ไปค้นพบน้องมาจากที่ไหน และไปเจอเรื่องอะไรมา..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ขอทุกข้อมูลที่มี อย่าให้ตกหล่นเลยนะคะ..."
+    },
+    {
+      "Text": "[ns] อธิบายทุกอย่างตั้งแต่ต้นจนจบ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ค่ะ... เป็นแบบนี้นี่เองสินะคะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เด็กคนนี้เจอเรื่องแบบนี้มานี่เอง..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ที่จริงฉันว่าเป็นเรื่องที่ฟังดูเป็นไปไม่ได้เลย..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ต้องขออภัยด้วยจริงๆ ค่ะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เอาเถอะ... คุณครูก็บอกเองว่าเห็นเหตุการณ์มากับตา ฉันก็คงต้องเชื่อแบบนั้นค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ว่า... งานอ่านพระคัมภีร์จะจัดขึ้นในวันพรุ่งนี้เช้า..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ฉันไม่ถูกใจความคิดอ่านของคนนอกเลยค่ะ เด็กคนนี้เพิ่งถูกค้นพบแค่ 2 วันเองนะ? จะเอาไปอ่านแล้วเหรอ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "เราต้องเช็กสภาพร่างกาย การเก็บรักษา และปฐมพยาบาลทันทีที่หาเด็กคนนี้พบไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ถึงแม้ปกติพระคัมภีร์ของทรีนิตี้จะเก่าแก่มากก็จริง แต่ก็จะได้รับการดูแลจนยังใช้งานได้อยู่"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ยังไงมันก็จะมีเด็กคนนี้ที่เป็นข้อยกเว้นเสมอ ถึงจะเห็นว่ายังดูปกติดีจากภายนอก... แต่ว่าเด็กๆ ที่เป็นโรคร้ายแรงอยู่ภายในก็มีให้เห็นค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "เพราะฉะนั้นแล้ว หากค้นพบหนังสือโบราณที่เก่าแก่ เราต้องตรวจสอบอย่างละเอียดทันทีว่ามีส่วน ที่ต้องได้รับการรักษาหรือเปล่าค่ะ และเด็กคนนี้ก็ควรได้รับการตรวจสอบเช่นกันค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ไม่มีใครทำแบบนั้นเลยใช่ไหมล่ะคะ? ตอนที่ค้นพบเข้า ถ้าดูจากภายนอกเด็กคนนี้คงยังดูปกติดีอยู่"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ในตอนที่ค้นพบก็อาจจะไม่ได้รับการดูแลอย่างดีนักด้วยเหตุผลบางอย่าง..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "เด็กคนนี้ควรจะเน่าเปื่อยไปแล้วด้วยซ้ำ ฉันคิดว่าตอนถูกเก็บรักษา... เด็กคนนี้คงได้อยู่ในที่ที่อากาศ เข้าไม่ถึงก็เลยยังปลอดภัยอยู่ค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่เมื่อได้ออกมาสู่โลกภายนอก... ก็เกิดการกัดกร่อนอย่างรวดเร็ว..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ถึงคุณซิสเตอร์จะไม่ไปแตะต้องเข้าจนเสียหาย ยังไงอีกสัก 2-3 สัปดาห์ เด็กคนนี้ก็ต้องขาดกระจุย\nเองอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ตายจริง... นี่ฉันทำอะไรลงไป..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "จริงๆ ถ้าคิดว่า 'พระคัมภีร์ควรอยู่ในสภาพดีก่อนเปิดอ่านในงาน' ก็ถือว่าคุณได้ 'ทำอะไรลงไป' อยู่..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่คุณคงไม่ได้ตั้งใจหรอก ไม่มีใครคาดคิดถึงผลลัพธ์ที่แย่ที่สุดเท่าที่จะเป็นไปได้เอาไว้อยู่แล้วล่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "จะยังไงก็เถอะ... ไหนๆ ก็มาถึงขั้นนี้แล้ว ฉันขอพูดอย่างตรงไปตรงมาเลยแล้วกัน... เด็กคนนี้แทบจะไม่มีความหวังแล้วค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ไม่มีวิธีปกติทั่วไป... ที่จะคืนชีวิตให้เด็กคนนี้ได้เลยค่ะ"
+    },
+    {
+      "Text": "[s15] \"มันเป็นเรื่องที่เกินความสามารถตั้งแต่แรกสินะ...\""
+    },
+    {
+      "Text": "[s16] \"ขอโทษนะที่มาขอให้ช่วยกะทันหันแบบนี้\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "...?"
+    },
+    {
+      "Text": "[s] \"แต่ว่า...?\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่ว่า... เราก็คงปล่อยให้เป็นแบบนี้ไม่ได้หรอกค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อย่างที่ฉันบอกไป เด็กคนนี้มีเนื้อหาที่มีคุณค่ามากเกินกว่าจะปล่อยทิ้งไปได้ค่ะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ใช่ค่ะ... คุณค่าของพระคัมภีร์..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ลองคิดดูให้ดีๆ สิคะ เรื่องนี้มันมีส่วนแปลกๆ หลายส่วนเลยนะคะ!"
+    },
+    {
+      "Name": "อุย",
+      "Text": "จะจัดงานแบบเปิดที่ควบคุมโดยชมรมซิสเตอร์ แต่ไปจัดที่ 'วิหารโบราณในเขตชานเมือง' แทนที่จะไปจัดในมหาวิหารที่สะอาดสะอ้าน"
+    },
+    {
+      "Name": "อุย",
+      "Text": "โบราณวัตถุต้องคู่กับโบราณสถานงั้นเหรอ? ผู้อาวุโสที่ทรงคุณค่าของทรีนิตี้ทั้งหมดจะมากันด้วย\nเหตุผลง่ายๆ แค่นี้เหรอคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "...พวกคุณคงไม่คิดว่ามันสมเหตุสมผลใช่ไหมคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ไหนจะยังมาฝากงานขนย้ายหีบพระคัมภีร์ให้กับซิสเตอร์ที่ไม่สามารถอ่านพระคัมภีร์ได้อีกนะคะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ถ้าจะไม่สงสัยอะไรเลยมันก็น่าแปลกอยู่ ว่าไหมล่ะคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ฉันเองก็ต้องอ่านดูถึงจะรู้ว่ามีเนื้อหาอะไร แต่ยังไงก็คงเป็นเนื้อหาที่สำคัญมาก และอีกอย่าง..."
+    },
+    {
+      "Text": "[s] \"เป็นสิ่งที่ให้ใครต่อใครเห็นไม่ได้\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "น่าจะเป็นอย่างนั้นค่ะ... ถึงจะยังมั่นใจไม่ได้ว่าเป็นความลับขนาดแค่ไหนก็เถอะ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "แต่บางทีมันอาจจะมีบันทึกทางประวัติศาสตร์ที่ยังไม่ถูกเปิดเผยของทรีนิตี้ก็ได้... เด็กคนนี้ต้องไม่ธรรมดาค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "<กาวมอส>......"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Text": "[s] \"กาวมอส?\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "ใช่ค่ะ เราต้องใช้กาวมอสและ <ยาศักดิ์สิทธิ์> การฟื้นฟูต้องทำตามวิธีการผลิตหนังสือค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "สำหรับยาศักดิ์สิทธิ์ ฉันว่าน่าจะหาได้จากอาคารพยาบาลเฉพาะทาง ส่วนกาวนั่น..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ถึงจะหาจากในยุคปัจจุบันไม่ได้แล้ว แต่มันก็ถูกใช้งานตามกรอบหน้าต่างของอาคารเก่า ถ้าหามาได้ฉันจะเอามาละลายแล้วลองใช้ดูค่ะ "
+    },
+    {
+      "Name": "อุย",
+      "Text": "จริงๆ อาคารนี้ก็ถือว่าเก่าเข้าขั้น แต่ถึงยังไงเราก็คงจะทำลายสถานที่นี้ไม่ได้หรอกนะคะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "เอาเถอะค่ะ เอาเป็นว่าถ้าหามาให้ฉันได้... ฉันจะใช้ความสามารถทั้งหมดที่มี... ในการฟื้นฟูเด็กคนนี้ "
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "......!! คุณอุย..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "อย่าเข้าใจผิดนะคะ ฉันไม่ได้อยากรู้สถานการณ์ของชมรมซิสเตอร์หรือสิ่งที่ผู้อาวุโสสนใจหรอกค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ฉันก็แค่... ไม่อยากให้เด็กคนนั้นที่มีค่าต้องหายไปทั้งอย่างนี้น่ะค่ะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อีกอย่าง นี่ก็เป็นคำขอร้องของคุณครู... และเป็นสิ่งที่ฉันทำได้..."
+    },
+    {
+      "Text": "[s17] \"ขอบใจนะอุย\""
+    },
+    {
+      "Text": "[s18] \"ครูจะไปหามาให้ได้เลย\""
+    },
+    {
+      "Name": "อุย",
+      "Text": "ค่ะ ถ้าอย่างนั้นก็รบกวนด้วยนะคะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ค่ะ ถ้าอย่างนั้นก็รบกวนด้วยนะคะ"
+    },
+    {
+      "Name": "อุย",
+      "Text": "อืม... แล้วก็มีอีกอย่างหนึ่ง..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "หืม? อีกอย่างเหรอคะ...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "<เค้กมิราเคิล 5000 ลิมิเต็ดเอดิชั่น>... ตอนนี้น่าจะมีขายอยู่ที่ริมแม่น้ำโซลูตค่ะ ช่วยไปซื้อมาให้ก่อนนะคะ ส่วนกาวค่อยเอาไว้ก่อนได้..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "ระหว่างทำงานเราต้องเติมน้ำตาลไปด้วยถึงจะมีแรงทำงานค่ะ อืม... ฉันเองก็ด้วยค่ะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "เอ่อ... งั้น... ก็เท่ากับว่า..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "เค้กนั้น... ก็ถือเป็นวัตถุดิบจำเป็นในการฟื้นฟูหนังสือ... งั้นเหรอคะ?"
+    },
+    {
+      "Name": "อุย",
+      "Text": "(คิดตาม) ..."
+    },
+    {
+      "Name": "อุย",
+      "Text": "ใช่ค่ะ...! จำเป็นมากเลยละค่ะ"
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "อ่า... ตามนั้นค่ะ..."
+    },
+    {
+      "Name": "ฮินาตะ",
+      "Text": "ฉันจะรีบไปหามาให้ก่อนเลยค่ะ..."
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;前往魔術師的高塔"
+    },
+    {
+      "Name": "日向",
+      "Text": "不好意思，有人在嗎……？"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Name": "日向",
+      "Text": "……沒有人在嗎？\n按照志美子同學所說，他應該一直都在這裡才對……"
+    },
+    {
+      "Name": "日向",
+      "Text": "請問有沒有人在……？"
+    },
+    {
+      "Name": "日向",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "日向",
+      "Text": "門開著呢……？"
+    },
+    {
+      "Name": "日向",
+      "Text": "打擾了……我們這樣進來真的沒問題嗎……？"
+    },
+    {
+      "Text": "[s1]「我們有拿到入館證，應該沒關係的。」"
+    },
+    {
+      "Text": "[s2]「志美子也說過沒問題。」"
+    },
+    {
+      "Name": "日向",
+      "Text": "是，是呢，那麼……"
+    },
+    {
+      "Name": "日向",
+      "Text": "是，是呢，那麼……"
+    },
+    {
+      "Name": "日向",
+      "Text": "這麼說來志美子同學剛才似乎有點生氣呢。\n還說「古書館不是委員長的所有物！」……"
+    },
+    {
+      "Name": "日向",
+      "Text": "也許志美子同學希望能讓更多人都能使用這個古書館……也說不定呢？"
+    },
+    {
+      "Name": "日向",
+      "Text": "那個，會不會是在那一邊呢……"
+    },
+    {
+      "Name": "???",
+      "Text": "……噫噫！？"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Name": "日向",
+      "Text": "這，這個聲音是……？"
+    },
+    {
+      "Name": "???",
+      "Text": "是，是，是是是誰！？小偷！？"
+    },
+    {
+      "Name": "日向",
+      "Text": "不，不對！我們不是小偷！！"
+    },
+    {
+      "Name": "日向",
+      "Text": "也絕對不是可疑人物！我們有通行證……！"
+    },
+    {
+      "Name": "日向",
+      "Text": "聽說圖書委員會的委員長會在這裡……！"
+    },
+    {
+      "Name": "???",
+      "Text": "……？"
+    },
+    {
+      "Name": "???",
+      "Text": "有，有什麼事嗎……？"
+    },
+    {
+      "Text": "[s3] 「我們想請他修復某一本書。」"
+    },
+    {
+      "Text": "[s4] 「我們想借用古書專家的力量。」"
+    },
+    {
+      "Name": "???",
+      "Text": "原來，是這樣啊……現在說可能有點晚了，不過你們是……？"
+    },
+    {
+      "Name": "???",
+      "Text": "原來，是這樣啊……現在說可能有點晚了，不過你們是……？"
+    },
+    {
+      "Name": "???",
+      "Text": "這位應該是修女會的成員，但另一位……"
+    },
+    {
+      "Name": "日向",
+      "Text": "啊，對不起這麼晚才自我介紹。"
+    },
+    {
+      "Name": "日向",
+      "Text": "正如你所說，我是修女會所屬的日向。而這位是老師……"
+    },
+    {
+      "Name": "???",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "???",
+      "Text": "……「老師」？\n你說的老師，是夏萊的……？"
+    },
+    {
+      "Name": "???",
+      "Text": "老師……老師……"
+    },
+    {
+      "Name": "???",
+      "Text": "唔，唔嗯……原來如此，是老師啊……"
+    },
+    {
+      "Text": "[ns5]「啊，出現了。」"
+    },
+    {
+      "Text": "[ns6]「初次見面，你好呀。」"
+    },
+    {
+      "Name": "憂",
+      "Text": "你，你好……"
+    },
+    {
+      "Name": "憂",
+      "Text": "你，你好……"
+    },
+    {
+      "Name": "憂",
+      "Text": "那個，我是古関憂……\n是管理這座古書館的，圖書委員會的委員長……"
+    },
+    {
+      "Name": "憂",
+      "Text": "那麼，請問……老師來這裡有什麼事……"
+    },
+    {
+      "Text": "[s7]「抱歉我們突然跑來。」"
+    },
+    {
+      "Text": "[s8]「你就是『古書館的魔術師』對吧？」"
+    },
+    {
+      "Name": "憂",
+      "Text": "呃，這個嘛……"
+    },
+    {
+      "Name": "憂",
+      "Text": "嗚，嗚……又是誰在說那種……"
+    },
+    {
+      "Name": "憂",
+      "Text": "那個入館證，是大圖書館的……"
+    },
+    {
+      "Name": "憂",
+      "Text": "是志美子啊……又做些奇怪的事……"
+    },
+    {
+      "Name": "憂",
+      "Text": "真是的……有事的話就自己過來，或是請其他孩子送來不就好了……"
+    },
+    {
+      "Name": "憂",
+      "Text": "下次得好好念念他才行……雖然我想他應該也不會聽進去……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……不好意思，剛才說的請當作沒聽見吧。\n那個，我也不是特別討厭與老師有所接觸……"
+    },
+    {
+      "Name": "憂",
+      "Text": "至於旁邊那位修女……"
+    },
+    {
+      "Name": "憂",
+      "Text": "就那樣吧……"
+    },
+    {
+      "Name": "日向",
+      "Text": "「那樣」！？\n難道我才初次見面就被討厭了嗎！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "這個嘛……不是因為你是修女會的人才這麼說，應該說外人幾乎都一個樣……"
+    },
+    {
+      "Name": "憂",
+      "Text": "還有，請你們降低音量。\n這裡會有回音……"
+    },
+    {
+      "Name": "日向",
+      "Text": "對，對不起……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……呼。總之先言歸正傳吧……"
+    },
+    {
+      "Name": "憂",
+      "Text": "剛才說要修復書本是嗎？\n……是什麼貴重的書嗎？"
+    },
+    {
+      "Name": "憂",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "憂",
+      "Text": "為，為什麼要一副欲言又止的樣子……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……「本來是」經典？\n那是什麼意思……"
+    },
+    {
+      "Text": "[s] 讓對方看被粉碎的經典"
+    },
+    {
+      "Name": "憂",
+      "Text": "……？"
+    },
+    {
+      "Name": "憂",
+      "Text": "……咦。"
+    },
+    {
+      "Name": "憂",
+      "Text": "啊……啊啊……！？"
+    },
+    {
+      "Name": "日向",
+      "Text": "老，老師……？\n憂，憂同學的狀況好像不太妙……！？"
+    },
+    {
+      "Name": "日向",
+      "Text": "全身都在顫抖，沒問題嗎……！？"
+    },
+    {
+      "Text": "[ns9]「……我看不妙。」"
+    },
+    {
+      "Text": "[ns10] 默默摀住耳朵"
+    },
+    {
+      "Name": "日向",
+      "Text": "老──"
+    },
+    {
+      "Name": "日向",
+      "Text": "老──"
+    },
+    {
+      "Name": "憂",
+      "Text": "吶啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！？！？"
+    },
+    {
+      "Name": "日向",
+      "Text": "噫噫！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "你，你你你你你你們到底做了什麼好事！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "這，這是怎麼回事！？到底要怎麼做才會變成這樣！？\n為什麼這個孩子變成這種狀態了啊！？"
+    },
+    {
+      "Name": "日向",
+      "Text": "憂，憂同學，請先冷靜下來……"
+    },
+    {
+      "Name": "憂",
+      "Text": "冷，冷靜！？冷靜！？！？\n你要我看了這個還要「冷靜」！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "請不要強人所難！看到這種幾乎粉碎的狀態要怎麼冷靜啊！？\n辦得到的話拜託你示範一下話說你還真冷靜啊！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "而，而且這孩子只看一眼就知道很貴重的古書不是嗎！\n是古代的經典對吧！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "可能是在太古的公會議上使用過的東西哦！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "就算只簡單估算也是學園等級的寶物吧！！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "那樣的孩子，怎麼會變成這副模樣……！！"
+    },
+    {
+      "Text": "[s11]「居然只看一眼就知道這麼多……」"
+    },
+    {
+      "Text": "[s12]「真不愧是專家。」"
+    },
+    {
+      "Name": "日向",
+      "Text": "對，對不起……！\n但是那個，我們也是非常想修復它……"
+    },
+    {
+      "Name": "日向",
+      "Text": "對，對不起……！\n但是那個，我們也是非常想修復它……"
+    },
+    {
+      "Name": "憂",
+      "Text": "知道「修復」這個詞的意思嗎！？難道你是會幫受重傷傷患貼OK蹦的那種人！？\n真的有明白詞語的意思！？"
+    },
+    {
+      "Name": "憂",
+      "Text": "怎，怎麼會發生這麼殘酷的事……！！！"
+    },
+    {
+      "Name": "憂",
+      "Text": "這孩子身上每一頁每一頁的紀錄，貴重的價值都……！"
+    },
+    {
+      "Text": "[s13]「那個，先深呼吸……」"
+    },
+    {
+      "Text": "[s14]「真的很抱歉。我們也是因此才會來拜託古書館的魔術師。」"
+    },
+    {
+      "Name": "憂",
+      "Text": "……！！"
+    },
+    {
+      "Name": "憂",
+      "Text": "……！！"
+    },
+    {
+      "Name": "憂",
+      "Text": "呼，呼……"
+    },
+    {
+      "Name": "憂",
+      "Text": "呼，嘶……"
+    },
+    {
+      "Name": "憂",
+      "Text": "失，失禮了，一時激動就……"
+    },
+    {
+      "Name": "憂",
+      "Text": "首先……嗯。得讓這孩子復活才行。無論如何都要……"
+    },
+    {
+      "Name": "憂",
+      "Text": "可以再，那個……重新告訴我事情的經過嗎？"
+    },
+    {
+      "Name": "憂",
+      "Text": "這，這孩子是什麼樣的孩子、是在哪裡出土、又是怎麼會變成這樣的……"
+    },
+    {
+      "Name": "憂",
+      "Text": "請一五一十地，詳，詳細告訴我……"
+    },
+    {
+      "Text": "[ns] 說明來龍去脈"
+    },
+    {
+      "Name": "憂",
+      "Text": "……原來是這樣啊。"
+    },
+    {
+      "Name": "憂",
+      "Text": "不，不……"
+    },
+    {
+      "Name": "憂",
+      "Text": "我還是難以置信，或者該說驚訝到不想相信……"
+    },
+    {
+      "Name": "日向",
+      "Text": "真的很抱歉……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……不，不過我已經知道這不是謊話了。\n畢竟老師也這麼說。"
+    },
+    {
+      "Name": "憂",
+      "Text": "比起這個……得趕在明天早上之前，是嗎……"
+    },
+    {
+      "Name": "憂",
+      "Text": "我還是不懂外面的人們都在想些什麼……\n居然會把才出土兩天的孩子弄成這樣……"
+    },
+    {
+      "Name": "憂",
+      "Text": "根本沒有人在乎這孩子的狀態、保存情況和出土後的應急處置……"
+    },
+    {
+      "Name": "憂",
+      "Text": "三一的經典，即便是古老的孩子也有做過一定程度的耐久處理。"
+    },
+    {
+      "Name": "憂",
+      "Text": "不過總是會有例外存在，而且沒辦法一眼就分辨出來。\n外表正常但內心卻罹患重病的孩子也是存在的。"
+    },
+    {
+      "Name": "憂",
+      "Text": "所以這種古書一旦出土就需要馬上進行各種檢查……的才對。"
+    },
+    {
+      "Name": "憂",
+      "Text": "……看來似乎並沒有這麼做呢。\n畢竟外表看起來還算正常。"
+    },
+    {
+      "Name": "憂",
+      "Text": "從這個狀態來看……事實上這個孩子應該沒有進行過耐久處理吧。"
+    },
+    {
+      "Name": "憂",
+      "Text": "只是因為特殊的素材和保存環境，才能在經歷本應腐朽的時光後仍保持原狀。\n然而卻突然接觸到了外部的環境……"
+    },
+    {
+      "Name": "憂",
+      "Text": "因此迅速遭到腐化……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……硬要說的話，即便你沒有加以破壞……恐怕也會在幾週內自然毀損吧。"
+    },
+    {
+      "Name": "日向",
+      "Text": "怎，怎麼會……"
+    },
+    {
+      "Name": "憂",
+      "Text": "也許負責人抱持著「只要在發表之前沒事就好，之後怎樣都無所謂」……\n這樣的心態吧。"
+    },
+    {
+      "Name": "憂",
+      "Text": "又或許根本就沒有思考過這件事。\n維持著得過且過的消極主義與不干涉的態度。"
+    },
+    {
+      "Name": "憂",
+      "Text": "……先不說這些了。\n既然已經變成這種狀態，老實說這孩子幾乎已經沒希望了。"
+    },
+    {
+      "Name": "憂",
+      "Text": "一般來說，想要修復是不可能的吧。"
+    },
+    {
+      "Text": "[s15]「這樣啊……」"
+    },
+    {
+      "Text": "[s16]「……抱歉，突然拜託你這麼荒唐的事。」"
+    },
+    {
+      "Name": "憂",
+      "Text": "……我說的是，一般的情況。"
+    },
+    {
+      "Name": "日向",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s]「也就是說……」"
+    },
+    {
+      "Name": "憂",
+      "Text": "畢竟……我也無法就這樣坐視不管……"
+    },
+    {
+      "Name": "憂",
+      "Text": "這孩子身上蘊含的價值可不能輕易放棄……"
+    },
+    {
+      "Name": "日向",
+      "Text": "這麼說也對，畢竟是經典……"
+    },
+    {
+      "Name": "憂",
+      "Text": "……不只是這樣而已！\n請你好好想想看！"
+    },
+    {
+      "Name": "憂",
+      "Text": "明明是由修女會主辦的典禮，地點卻不在大教堂而是「郊外的古教堂」……"
+    },
+    {
+      "Name": "憂",
+      "Text": "不可能只是因為「是古代的遺物所以就在古代遺跡舉行」這種理由吧？\n而且還特地請來了三一高層的那些人哦？"
+    },
+    {
+      "Name": "憂",
+      "Text": "……雖然不是什麼稀奇的事，不過我感覺事情並不單純。"
+    },
+    {
+      "Name": "憂",
+      "Text": "而且負責移送經典的，居然是看不懂經典的修女……"
+    },
+    {
+      "Name": "憂",
+      "Text": "從頭到尾都和往常一樣讓人摸不著頭緒。儘管如此還是覺得有什麼隱情。"
+    },
+    {
+      "Name": "憂",
+      "Text": "詳細內容要看過才知道，不過想必是寫著某些重要的內容吧。\n並且……"
+    },
+    {
+      "Text": "[s]「不是很想讓所有人都看見裡面的內容？」"
+    },
+    {
+      "Name": "憂",
+      "Text": "……也許吧。\n不過是何種程度的祕密就不得而知了。"
+    },
+    {
+      "Name": "憂",
+      "Text": "三一不為人知的歷史，或許能從中有所發現……也說不定呢。"
+    },
+    {
+      "Name": "憂",
+      "Text": "……「水苔膠」。"
+    },
+    {
+      "Name": "日向",
+      "Text": "……嗯？"
+    },
+    {
+      "Text": "[s]「『水苔膠』……？」"
+    },
+    {
+      "Name": "憂",
+      "Text": "沒錯。「水苔膠」。\n此外，為了修復這本書，「精聖藥」也是必要的。"
+    },
+    {
+      "Name": "憂",
+      "Text": "「精聖藥」應該能在醫院拿到。"
+    },
+    {
+      "Name": "憂",
+      "Text": "至於「水苔膠」……現在這個時代已經找不到新的了。\n不過應該會被用在老建築的窗框之類的地方。"
+    },
+    {
+      "Name": "憂",
+      "Text": "其，其實這棟建築也有使用……不過我不想破壞這裡。"
+    },
+    {
+      "Name": "憂",
+      "Text": "總，總之只要把這些東西拿過來並溶解……之後我會想辦法修復的。"
+    },
+    {
+      "Name": "日向",
+      "Text": "憂同學……！！"
+    },
+    {
+      "Name": "憂",
+      "Text": "……請，請不要誤會。\n不管是修女會的狀況還是高層的人，我都不在乎。"
+    },
+    {
+      "Name": "憂",
+      "Text": "我，我只是……不希望眼睜睜看著這麼寶貴的孩子就這麼消失而已。\n而且，這也是老師的委託……"
+    },
+    {
+      "Name": "憂",
+      "Text": "請放心吧。雖然一般人是辦不到的……\n但我的技術，和一般人不一樣。"
+    },
+    {
+      "Text": "[s17]「謝謝你，憂。」"
+    },
+    {
+      "Text": "[s18]「我們馬上就去找。」"
+    },
+    {
+      "Name": "憂",
+      "Text": "好，好的……那就拜託了。"
+    },
+    {
+      "Name": "憂",
+      "Text": "好，好的……那就拜託了。"
+    },
+    {
+      "Name": "憂",
+      "Text": "……啊。還，還有一樣東西。"
+    },
+    {
+      "Name": "日向",
+      "Text": "……？"
+    },
+    {
+      "Name": "憂",
+      "Text": "限定蛋糕「Miracle5000」……在索魯特河邊有賣。\n請先去買來吧。"
+    },
+    {
+      "Name": "日向",
+      "Text": "……蛋，蛋糕是嗎？"
+    },
+    {
+      "Name": "憂",
+      "Text": "因，因為作業的時候，必須要補充糖分……"
+    },
+    {
+      "Name": "日向",
+      "Text": "原來如此……？"
+    },
+    {
+      "Name": "日向",
+      "Text": "那個，也就是說某種意義上，那也是復原書本必須的材料……是這個意思嗎？"
+    },
+    {
+      "Name": "憂",
+      "Text": "……（怒瞪）"
+    },
+    {
+      "Name": "憂",
+      "Text": "……請趕快去。"
+    },
+    {
+      "Name": "日向",
+      "Text": "是，是……！"
+    },
+    {
+      "Name": "日向",
+      "Text": "我馬上就去……！"
+    }
+  ]
+}

@@ -1,0 +1,2702 @@
+{
+  "TitleJP": "一番大事なこと",
+  "TitleKR": "밴드에서 제일 중요한 것?",
+  "TitleEN": "What A Band Needs Most",
+  "TitleTH": "สิ่งสำคัญที่สุดของวงดนตรี",
+  "TitleTW": "樂團中最重要的是？",
+  "DescJP": "バンドで一番重要なことは？という質問に対し、放課後スイーツ部はそれぞれの意見を口にする。それは各自が担当する役割を示していた。なりゆきで担当楽器などが決まっていく中、一人だけ冴えない顔をしているアイリ。夜、アイリは先生のところを訪ね、曲選びについて悩みを打ち明かす。",
+  "DescKR": "아이리, 요시미, 나츠, 카즈사는 밴드에서 각자 중요하다고 여기는 역할인 작곡, 의상 디자인, 록, 보컬을 각각 맡게 된다. 열정에 불타는 멤버들 사이에서 웃음을 잃은 아이리는, 그날 밤 선생님께 자신의 작곡에 대한 고민을 털어놓으며 조언을 구한다.",
+  "DescEN": "Airi, Yoshimi, Natsu, and Kazusa take on important roles in the band: songwriting, costume design, rock, and vocals. Feeling disheartened among such passionate bandmates, Airi seeks advice from Sensei that night, sharing her concerns about her songwriting.",
+  "DescTH": "ไอริ โยชิมิ นัตสึ และคาซึสะแบ่งกันรับหน้าที่ที่แต่ละคนคิดว่าสำคัญใน\nวงดนตรี นั่นคือ แต่งเพลง ออกแบบเครื่องแต่งกาย ร็อก และร้องนำ สมาชิกในวงต่างก็กระตือรือร้น แต่ไอริที่ยิ้มไม่ออกก็มาระบายความกังวล\nเกี่ยวกับหน้าที่การแต่งเพลงและขอคำปรึกษาจากคุณครูในคืนนั้น",
+  "DescTW": "愛莉、喜美、夏和千紗將在樂團中各自擔任重要的角色，包含作曲、服裝設計、搖滾及主唱。在充滿熱情的成員之間，失去笑容的愛莉在那天晚上向老師吐露自己對於作曲的煩惱，並尋求建議。",
+  "DialogJP": [
+    {
+      "Text": "第2話;一番大事なこと"
+    },
+    {
+      "Text": "\"第一問：バンドに必要なものと言えば？\""
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "……え、いきなり何？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "バンドだったら……まあ、何はともあれ楽器でしょ。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "あとは、場所とか……？\n練習するにも、場所を確保しないと……。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……それは当然、[ruby=Rock]ロック[/ruby]に決まってる。"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "それと……観客？\n聴いてくれる人がいないと、意味ないと思うし。"
+    },
+    {
+      "Text": "\"第二問：バンドで「一番重要なもの」は？\""
+    },
+    {
+      "Name": "カズサ",
+      "Text": "うーん……やっぱりボーカル？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "ビジュアルじゃない？\n観客を集めるにも、演奏以前に見た目が大事だと思うし。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……ロック。やはりロックだよ。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "曲……ですかね？"
+    },
+    {
+      "Text": "[ns1] \"たしかに、どれも重要だね。\""
+    },
+    {
+      "Text": "[ns2] \"じゃあ今、自分で言った内容を……\""
+    },
+    {
+      "Text": "[ns3] \"それぞれが担当することにしよう！\""
+    },
+    {
+      "Text": "[ns4] \"あ、もちろん私に手伝えることがあったら言ってね。\""
+    },
+    {
+      "Name": "一同",
+      "Text": "……えっ。"
+    },
+    {
+      "Name": "一同",
+      "Text": "えええぇぇぇぇ～～！？！？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "は、はぁ！？ちょっと！\nこんな雑に決めちゃっていいの！？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "そりゃ最終的に、どれかしら担当することにはなるけど……。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "即興で定められた役割……これもまたロック。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "何がロックよ！\nさっきからロックロックうるさいわね！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "ナツはいつも通りでしょ。\n「ロマン」が「ロック」に変わっただけで。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "あはは……それはそうかも。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……あれ。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "ま、待ってください。\n担当と言っても、具体的には何を……？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "……ビジュアルって言っても、色々あると思うけど。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "バンドのロゴ、とか……？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "……え、衣装も！？\n別に、やりたくないわけじゃないけど……"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "まあ、やるからには私の好みで選ぶから！\nみんな、文句は禁止だからね！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "はぁ、変な衣装はやめてよ？"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "……あれ、待って。"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "さっき私、「ボーカル」って言っちゃったんだけど……。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "ボーカル就任、おめでと～！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "いやいや、待ってよ！\nほんとに良いの？こんな決め方で！"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "良いと思う！\nカズサちゃんの歌声、聞いてみたいな！"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "それに私、カズサちゃんの声すっごく好きだし……！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "おぉ、攻めるねアイリ……。"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "い、いやそれは……！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "あ、アイリに言われたからって、その……！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "っ……！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "あぁっ、もう！！"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "あははっ！\n最早やるって言ってるようなもんじゃない。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "ふふっ、これぞ青春……ああ、美しい春よ。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……さて、ロックとは何を？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "「ロックをする」……これまた興味深い問いかけだねぇ。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……えっ？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "バンドの運営とか、スケジュールの管理……？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……掃除とか？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "そ、それのどこにロックの要素が……？"
+    },
+    {
+      "Text": "[s5] \"ほら、ロックと苦労ってほぼ一緒だから。\""
+    },
+    {
+      "Text": "[s6] \"成功に向けた努力と情熱！それも「ロック」だよ！\""
+    },
+    {
+      "Name": "ナツ",
+      "Text": "えぇ……。"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "そういう言葉遊びを求めてるわけじゃ……。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "うんうん、まさにロックじゃないの！\nロックはハングリー精神が大事って言うでしょ！"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "青春は美しい、だっけ？\nじゃ、本番までよろしくね～ロック！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "くうっ……。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "……まさか今さら、「私はロックじゃない」なんて言わないわよね？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "せっ……！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "青春は……！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "く、苦労がつきもの……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "あはは……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "となると、私は……あれ、曲の担当ってことですよね？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "作曲の経験なんて、無いのに……。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "まぁ学園祭のバンドなんて、どこも大抵コピーバンドでしょ。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "だから別に、作曲する必要は無いんじゃない？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "まぁ期待してるわよ。\nでも、あんま難しい曲はやめてよね。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "う、うん！\nそれくらいなら……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……私でも、やれると思う。"
+    },
+    {
+      "Text": "[ns7] （……それくらいなら？）"
+    },
+    {
+      "Text": "[ns8] （……私でも？）"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "んじゃ、私はさっそく衣装を考えてくるわ！"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "決まったら文句言わずに着るのよ、分かった？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "それとナツ、明日のスケジュールは？"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "いや……ナツじゃなくてロックだったわね！"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……よくぞ聞いてくれた、悩める子羊よ。\n私はロック、未来を司る者。"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "順応するの早くない？"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "我々の明日の予定は……"
+    },
+    {
+      "Name": "ナツ",
+      "Text": "……楽器探し！"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "……だそうよ！"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "いつも遅刻してくるナツがスケジュール管理かぁ……。"
+    },
+    {
+      "Name": "カズサ",
+      "Text": "さすが先生、面白くなってきたね。"
+    },
+    {
+      "Text": "[s9] \"学園祭だからね！面白くないと！\""
+    },
+    {
+      "Text": "[s10] 笑って誤魔化す。"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "とりあえず時間も遅いし、今日は解散ね！"
+    },
+    {
+      "Name": "ヨシミ",
+      "Text": "明日の放課後は楽器屋さんに行くわよ！"
+    },
+    {
+      "Text": "[ns] \"……。\""
+    },
+    {
+      "Text": "（夜遅くまで仕事をしていると……）"
+    },
+    {
+      "Text": "[ns11] \"……アイリ？\""
+    },
+    {
+      "Text": "[ns12] 玄関のドアを開ける。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "し、失礼します……こんな時間にすみません。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……あっ、この衣装ですか？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "ヨシミちゃんがさっそく用意してくれたので、着てみました。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……えっ？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "私が来ると思って、待ってた……？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "ど、どうして……？"
+    },
+    {
+      "Text": "[s13] \"悩んでそうな表情だったから。\""
+    },
+    {
+      "Text": "[s14] \"何か話したそうにしてたからね。\""
+    },
+    {
+      "Name": "アイリ",
+      "Text": "やっぱり、先生にはお見通しでしたか……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "実は、相談したいことがありまして。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "最初は自分で、曲を決めようと思ったんですけど……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……その、意外と難しくって。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "えっと……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "ただ私の好きな曲を選ぶだけじゃ、ダメだと思うんです。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……先生は、どんな曲が正解だと思いますか？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "正解さえ分かれば、きっと……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……絶対に、入選したいんです。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "その為の一番良い曲……それに相応しい曲を選ばないといけないんです！"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……すみません、今のは気にしないでください。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "とにかく、上手くやりたくって。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "何と言えば良いのか、分からないんですけど……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "ベストを……尽くしたいんです……。"
+    },
+    {
+      "Text": "[ns15] \"じゃあ、最近一番良いなって思った曲は？\""
+    },
+    {
+      "Text": "[ns16] \"好きになった曲とか、すごいと思った曲でも良いけど。\""
+    },
+    {
+      "Name": "アイリ",
+      "Text": "一番良いと思った曲……？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "すごい、ですか……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "うーん……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……あっ。"
+    },
+    {
+      "Text": "[ns] \"……アイリ？\""
+    },
+    {
+      "Name": "アイリ",
+      "Text": "一応、あるんですが……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "その……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "路上ライブで聞いた曲が、すごく印象に残ってて。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "でも、トリニティの生徒なのかすら分からないんです。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "また探したとしても、見つかるかどうか……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "あの日だけ、たまたま演奏していた可能性もありますし……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……えっ？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "先生も一緒に探してくれるんですか……？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "で、でも、そんな簡単には見つからないと思いますよ！？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "それに私のわがままで、これ以上先生の貴重な時間を奪うわけには……。"
+    },
+    {
+      "Text": "[s17] \"大丈夫だよ。\""
+    },
+    {
+      "Text": "[s18] \"私は「先生」だからね。\""
+    },
+    {
+      "Name": "アイリ",
+      "Text": "先生……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……ありがとう、ございます。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "では、今度空いてる時間に……。"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "…………え？"
+    },
+    {
+      "Name": "アイリ",
+      "Text": "……今から、ですか？"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;밴드에서 제일 중요한 것?"
+    },
+    {
+      "Text": "\"Q. 밴드에 필요한 건 무엇일까요?\""
+    },
+    {
+      "Name": "요시미",
+      "Text": "음……? 갑자기 무슨 소리야?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "밴드에 필요한 거? ……악기?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "우선 장소…… 아닐까요? 연습도 해야 하고, 사람도 모아야 하고……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "록(Rock)이지. ……그것이 록이니까."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "관객……같은 소릴 하는 건 너무 유치하려나. 아무튼 그런 느낌이지만."
+    },
+    {
+      "Text": "\"Q. 그럼 밴드에 <제일 중요한 건> 뭐라고 생각하나요?\""
+    },
+    {
+      "Name": "카즈사",
+      "Text": "음……. 그렇게 물으면……. 역시 보컬이려나. 개인적으론 그걸 중시해서."
+    },
+    {
+      "Name": "요시미",
+      "Text": "의외로 디자인일 지도? 비주얼이 눈에 딱 띄어야 들으러 와주건 말건 할 테니까."
+    },
+    {
+      "Name": "나츠",
+      "Text": "록이지. ……그것이 록이니까."
+    },
+    {
+      "Name": "아이리",
+      "Text": "곡……이려나요? 그래도 역시 '밴드'니까……?"
+    },
+    {
+      "Text": "[ns1] \"좋아. 방금 그 말들을 기억해 줘.\""
+    },
+    {
+      "Text": "[ns2] \"방금 전 스스로 중요하다고 한 것들…….\""
+    },
+    {
+      "Text": "[ns3] \"축하합니다! 지금부터 그게 본인 담당이야!!\""
+    },
+    {
+      "Text": "[ns4] \"이제부터 각자가 해야 할 일이 바로 그거야.\""
+    },
+    {
+      "Name": "일동",
+      "Text": "뭐……."
+    },
+    {
+      "Name": "일동",
+      "Text": "뭐어어어어~~!?!?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "뭐, 뭐야!? 이렇게 갑자기!? 이렇게 막 그런 식으로 정해도 되는 거야, 이거!?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "어차피 밴드 하려면 누군가는 해야 할 것들 아니었냐고? 그, 그러네! 그건 그렇지만……!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "즉흥적인 선택으로 인한 즉흥적인 결말인가. 나쁘지 않아. 이 또한 록이지."
+    },
+    {
+      "Name": "요시미",
+      "Text": "뭐가 록이야!! 넌 또 말투가 왜 그렇게 바뀐 건데!!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "평소랑 똑같지 않나. '로망'이 '록'으로 바뀌었을 뿐."
+    },
+    {
+      "Name": "아이리",
+      "Text": "아하하……. 듣고 보니……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……어라."
+    },
+    {
+      "Name": "아이리",
+      "Text": "잠깐만요. 그러면 어떻게 되는 거죠? 각자 맡은 게……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "나는 비주얼……인가? 비주얼이 뭐지? 뭘 하면 되는 건데?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "……? 아아, 커버 이미지? 밴드 마크? 생각보다 뭐 많네?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "의상까지 고르는 거야? 아니, 뭐 싫다는 건 아니지만……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "그럼 내 취향대로 막 고를 테니까! 불만 가지지 않기다! 알겠지!? '담당 마음'이야!!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "후……. 벌써부터 괴악한 패션 센스의 미래가 걱정되는군."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "……아니, 잠깐."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "그럼 난 '보컬'이라고 했는데, 설마……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "밴드의 보컬이 되신 것을 축하합니다~."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "아, 아니 잠깐!! 이건 아니잖아! 뭐 이딴 식으로 보컬을 정하는 그룹이 다 있어!?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "그, 그래도 카즈사 쨩 목소리 좋으니까……! 노래……. 하면 잘 할 수 있지 않을까?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "나는 엄청……. 듣고 싶을 것 같기도……!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "오……. 여기서 아이리가 그런 말을 하면……."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "……!!! 그, 그런……!!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "아무리 그래도……! 아무리……! ……아이리라도……!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "크윽……!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "크아아아아악-!!"
+    },
+    {
+      "Name": "요시미",
+      "Text": "이야, 효과 대박인데. 안 하겠다는 말은 쏙 들어간 거 봐. 미쳤다, 미쳤어."
+    },
+    {
+      "Name": "나츠",
+      "Text": "후후, 그야말로 청춘이구만……. 청춘은 아름다운 거야……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "나는……. 록……. 록이라……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "'록'을 한다……. 이 또한 꽤 흥미로운 논제……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "……응? 선생님. 뭐라고 했어?"
+    },
+    {
+      "Name": "나츠",
+      "Text": "밴드의 운영 관리……? 스케줄……?"
+    },
+    {
+      "Name": "나츠",
+      "Text": "……청소……?"
+    },
+    {
+      "Name": "나츠",
+      "Text": "그, 그게 무슨……? 그게 대체 록이랑 무슨 상관이……. 그건 그냥 고생이잖아."
+    },
+    {
+      "Text": "[s5] \"몰랐어? 록은 고생이야.\""
+    },
+    {
+      "Text": "[s6] \"성공을 위한 열정과 노력. 그것이 '록'이니까.\""
+    },
+    {
+      "Name": "나츠",
+      "Text": "아니, 어……. 그……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "잠시……. 그런 말장난은……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "이야~! 맞다, 맞아! 그게 록이지! 원래 록은 헝그리한 거라고도 하니까!!"
+    },
+    {
+      "Name": "요시미",
+      "Text": "청춘은 아름다운 거라고, 그치!? 테스트까지 잘~ 부탁한다고! '록'!!!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "로……. 록……!? 청춘……!? 크윽……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "설마 여기까지 와서 갑자기 '나는 록이 아니야'라고 할 생각은 아니겠지? 응?"
+    },
+    {
+      "Name": "나츠",
+      "Text": "……!!!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "처…… 처……!!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "청춘은……!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "……괴로운 거야……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……아하하……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……어라. 그럼 저는……. '곡'……인가요?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "어…… 으음……. 갑자기 곡이라니, 작곡 같은 건 해 본 적 없는데……."
+    },
+    {
+      "Name": "요시미",
+      "Text": "아니, 뭐. 꼭 자작곡일 필요는 없을걸? 그냥 하고 싶은 곡 골라서 선정하면 되잖아."
+    },
+    {
+      "Name": "요시미",
+      "Text": "애초에 '아마추어 학생 밴드의 축하공연'인데 곡까지 바랄 리가 없지. 걱정할 거 없어."
+    },
+    {
+      "Name": "요시미",
+      "Text": " 기대하고 있다고~! 너무 어려운 곡 고르지는 말고! 하하!!"
+    },
+    {
+      "Name": "아이리",
+      "Text": "으, 응!! 곡 선정이라……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "나라도 그 정도는 할 수 있을지도……! 응!"
+    },
+    {
+      "Text": "[ns7] (……'나라도'……?)"
+    },
+    {
+      "Text": "[ns8] (……'할 수 있을지도'……?)"
+    },
+    {
+      "Name": "요시미",
+      "Text": "자, 자! 이러고 있을 시간이 없어! '비주얼 담당'인 나는 지금 당장 옷부터 구하러 갈 테니까 말이야!"
+    },
+    {
+      "Name": "요시미",
+      "Text": "구해서 여기 연습실에 놔둘 테니까, 이후로는 들른 순서대로 잘 갈아입도록. 알았지?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "그리고 보자……. 내일 일정은……. 나츠?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "아니…… '록!' 우리의 일정을 알려줘!"
+    },
+    {
+      "Name": "나츠",
+      "Text": "……아아. 일정인가. 잘 찾아왔네, 예언이 필요한 자여. 나는 록. 미래를 관장하는 자."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "적응 빠르네."
+    },
+    {
+      "Name": "나츠",
+      "Text": "우리의 미래……. 내일의 우리들은……."
+    },
+    {
+      "Name": "나츠",
+      "Text": "……악기부터 구해야겠지?"
+    },
+    {
+      "Name": "요시미",
+      "Text": "……라고 하신다!! 일정 담당께서!!"
+    },
+    {
+      "Name": "카즈사",
+      "Text": "이거 완전 편하네. 평소에 제일 일정 망치는 녀석에게 오히려 일정을 책임지게 하다니."
+    },
+    {
+      "Name": "카즈사",
+      "Text": "다시 봤어, 선생님. 이것이 어른의 관록……?"
+    },
+    {
+      "Text": "[s9] \"후후후……! 그 말 대로!!\""
+    },
+    {
+      "Text": "[s10] 아니지만 일단 웃어 둔다."
+    },
+    {
+      "Name": "요시미",
+      "Text": "오늘은 일단 여기서 끝!! 해산이다, 해산!!"
+    },
+    {
+      "Name": "요시미",
+      "Text": "다들 내일 학교 끝나고 악기 상점가에서 보자고!!"
+    },
+    {
+      "Text": "[ns] \"………….\""
+    },
+    {
+      "Text": "(그 날의 늦은 저녁. 쌓인 저녁 업무를 이어가고 있었다.)"
+    },
+    {
+      "Text": "[ns11] \"……아이리?\""
+    },
+    {
+      "Text": "[ns12] 샬레 현관문을 열어준다."
+    },
+    {
+      "Name": "아이리",
+      "Text": "시, 실례합니다……. 늦은 시간인데 죄송해요. 선생님."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……네, 네? 옷이요? 아아. 이거……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "요시미가 연습실에 가져다 놓았더라고요. 그래서 본 김에……. 하하……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……네?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "……올 거라고 생각하고 계셨……다고요? ……제가요?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "어, 어째서……?"
+    },
+    {
+      "Text": "[s13] \"뭔가 상담이 필요할 것 같았거든.\""
+    },
+    {
+      "Text": "[s14] \"곡 선정에 관해 이야기해 볼까.\""
+    },
+    {
+      "Name": "아이리",
+      "Text": "아, 아하하……. 역시 뭐든 알고 계시는군요, 선생님은."
+    },
+    {
+      "Name": "아이리",
+      "Text": "네. 맞아요. 사실 그 일 때문에 선생님께 말씀을 듣고 싶어서 왔어요……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "사실 처음에는 스스로 선택을 해 보려고 하기도 했지만, 아무래도 잘 안돼서요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "그……. 곡을 선정한다는 게……. 생각보다 쉽지가 않네요. 하하……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "음……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "으음……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "선생님께서는 어떻게 생각하시나요? 어떤 곡을 골라야 할까요? 어떤 게 최선일까요……?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "……네? 찾고 있는 곡이 어째서 '최선의 곡'……이냐고요?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "그야 당연히……. 최선의 곡을 골라야, 결과가 좋으니까……? 가장 잘 될 테니까……?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "어라. 아닌 가요? 뭔가 좀 다른 가요?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "……'좋아하는 곡'으로 하면 안 되냐고요? 아, 안 돼요! 그런 건! 그런 식으로는……!!"
+    },
+    {
+      "Name": "아이리",
+      "Text": "죄, 죄송해요. 저도 모르게 목소리가 커졌네요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "그렇지만……. 아무튼 이번에는 뭔가 최선의 것이었으면 좋겠어요. 가장 좋은 결과였으면 좋겠어요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……잘 했으면 좋겠어요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "뭔가 설명은 잘 안되지만……. 그런 기분이에요."
+    },
+    {
+      "Text": "[ns15] \"그럼 최근 들었던 것 중 제일 멋진 건 뭐야?\""
+    },
+    {
+      "Text": "[ns16] \"뭔가 딱 '이건 훌륭하다' 싶었던 곡은 없었어? 최근에.\""
+    },
+    {
+      "Name": "아이리",
+      "Text": "……최근 제일 멋졌던……?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "……이건 훌륭하다……?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "으음……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "…………?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "어……."
+    },
+    {
+      "Text": "[ns] \"……아이리?\""
+    },
+    {
+      "Name": "아이리",
+      "Text": "아, 아……! 죄, 죄송해요! 순간 생각이……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "그게……. 그……. 있……기는 있었는데요……. 있었지만……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "제목도 모르고 부른 사람도 지나치며 잠깐 본 것뿐이라, 찾을 수 있을지는……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "애초에 트리니티 학생 같지도 않았거든요. 축제 준비 기간이라 둘러보며 버스킹을 하고 있었던 걸 본 것뿐이에요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "물론 이 기간대에는 다른 학교 학생들이 밤낮을 가리지 않고, 거리 이곳저곳에서 버스킹을 하고 있다지만……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "설령 지금 있다 해도, 수소문으로 찾으려면 트리니티 교내를 다 뒤져야 할 텐데……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……네?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "뒤지면 되지 않느냐고요? ……같이 찾아보자고요?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "그, 그렇게 쉽게 말씀하실 일인가요? 트리니티 어디 있는 줄 알고……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "시간이 없냐고요? 아, 아뇨. 제 문제가 아니라 선생님께서 고작 그런 일에 얼마나 쓸지도 모를 시간을……!"
+    },
+    {
+      "Text": "[s17] \"그건 아이리가 신경 쓰지 않아도 돼.\""
+    },
+    {
+      "Text": "[s18] \"걱정하지 마. 제대로 '업무'니까.\""
+    },
+    {
+      "Name": "아이리",
+      "Text": "선생님……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……아, 알겠어요. 그러면 그렇게 알고 있을 게요."
+    },
+    {
+      "Name": "아이리",
+      "Text": "괜찮으신 시간은……."
+    },
+    {
+      "Name": "아이리",
+      "Text": "……?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "…………네?"
+    },
+    {
+      "Name": "아이리",
+      "Text": "……지금부터요?"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;What A Band Needs Most"
+    },
+    {
+      "Text": "\"Q. What are the things that a band needs?\""
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Hm...? What do you mean?"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Things that a band needs? ...Like, instruments?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "First, maybe a location... Right? For practice, and to accommodate people, and..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Rock. Simply put, a band needs to rock."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "An audience. If there's no one to listen, then there's no point. At least that's the feeling I get."
+    },
+    {
+      "Text": "\"Q. What do you think is the most important thing for a band?\""
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Hm, good question... I guess it'd have to be the vocals. That's what I care about the most."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Your look, your design. Your visuals have to pop so people come and listen in the first place."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Rock. Because... it's rock."
+    },
+    {
+      "Name": "Airi",
+      "Text": "The songs? What's a band without a good song?"
+    },
+    {
+      "Text": "[ns1] \"Very good. Please remember your answers.\""
+    },
+    {
+      "Text": "[ns2] \"The things you said were important just now...\""
+    },
+    {
+      "Text": "[ns3] \"Congratulations! Those are your roles and responsibilities from now on!!\""
+    },
+    {
+      "Text": "[ns4] \"That's exactly what I want you to work on, individually, from now on.\""
+    },
+    {
+      "Name": "Everyone",
+      "Text": "What...?"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Whaaat?!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "What?! You're deciding our roles just like that?!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Okay, yeah, we have to work on those things anyway if we're going to make a band, but still..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Swift decisions from a swift mind. This, too, is rock."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "How is this rock?! And why are you talking like that?!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "She's talking like she always does. She's just switched \"romance\" with \"rock.\""
+    },
+    {
+      "Name": "Airi",
+      "Text": "Ahaha... Well, when you put it that way..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Wait."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hold on. So how's this go again? What are we in charge of?"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "I'm... doing the visuals, I guess? What even are visuals? What am I supposed to do?"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "...We need a logo, an album cover... This is way more work than I thought!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "AND the outfits. I'm doing the outfits too. Well, maybe I can handle that part."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "All right, but it's all going to match MY tastes, got it? No complaining. If I feel it, you're wearing it!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Oof, we're all in for some fashion terrorism."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "...Wait, hold on."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "I said 'vocals', so... Oh, no..."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Congratulations. You're the band's lead vocalist!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "H-Hold on!! No, that CANNOT be how we decide this!"
+    },
+    {
+      "Name": "Airi",
+      "Text": "W-Well, you do have a good voice, Kazusa...and I bet you could sing too!"
+    },
+    {
+      "Name": "Airi",
+      "Text": "I... Well, I know I'd love to hear it."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Oh, Airi has spoken. There is no escape."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "...! B-But...!!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Still...even for...you, Airi...!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Ugh...!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Arghhh!!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Well, she's not saying no anymore. Nicely done, Airi."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Heehee. Ah, the wonders of youth."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "And I am in charge of... rock. Hm. Rock..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "But what does it mean to \"rock\"? That is the question."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "...Hm? Sensei. Did you say something?"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "You're asking me to handle operations, schedules..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "...Cleaning too?"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Wh-What's all this...? This isn't rock, it's just...chores and hard work!"
+    },
+    {
+      "Text": "[s5] \"Welcome to the life of a rock star.\""
+    },
+    {
+      "Text": "[s6] \"Hard work, passion, effort, THAT'S rock.\""
+    },
+    {
+      "Name": "Natsu",
+      "Text": "No, wait... Um..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Hold on... That's all just motivational claptrap!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Okay, I get it! Rock is about being hungry for success, and putting in the effort!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "We're young, we're driven, and we're in your capable hands! Let's rock!"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "So this is...rock. Argh..."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "You're not about to say, \"Let's NOT rock,\" are you? Hm?"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Hrm..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Y... Y...!!"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "Youth is..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "...actually quite painful..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Ahaha..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Right, and... I need to write a song."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm. Hmm... I've never done anything like that before."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Well, we don't have to write our OWN song, do we? We can just pick one and play that."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "I mean, it's going to be a bunch of amateur student bands. They're not expecting any brand-new material. No need to worry."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": " I'll play whatever you pick! As long as it's not too hard. Hee hee."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Y-Yeah, okay, I'll pick a song..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Even I can handle that, right? Probably..."
+    },
+    {
+      "Text": "[ns7] (...Even you...?)"
+    },
+    {
+      "Text": "[ns8] (...Probably...?)"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Okay! Let's get moving! I'll start getting our outfits together."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Once I finish, I'll leave them here in the practice room, so when you see them here, just go ahead and change. Got it?"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "And then for tomorrow, we're going to... What's on the schedule tomorrow, Natsu?"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Tell us our future, Mistress of Rock!"
+    },
+    {
+      "Name": "Natsu",
+      "Text": "...Ah. A schedule you seek. Welcome, you who are in need of prophecy. I am the Mistress of Rock, she who watches over the future."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "She got into character fast."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "I see the four of us tomorrow..."
+    },
+    {
+      "Name": "Natsu",
+      "Text": "...acquiring instruments, I guess."
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "...The Mistress has spoken! Our schedule is foretold!"
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "I guess she can't put us BEHIND schedule if she's the one making it up..."
+    },
+    {
+      "Name": "Kazusa",
+      "Text": "Good call, Sensei. Did you know this was going to work out?"
+    },
+    {
+      "Text": "[s9] \"Heeheehee... Indeed, as was foretold!\""
+    },
+    {
+      "Text": "[s10] \"Haha, no.\""
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Okay, that's it for today! Everybody get out of here!"
+    },
+    {
+      "Name": "Yoshimi",
+      "Text": "Let's all meet up and buy some instruments after school tomorrow."
+    },
+    {
+      "Text": "[ns] \"...\""
+    },
+    {
+      "Text": "Later that evening. I was finishing a pile of work."
+    },
+    {
+      "Text": "[ns11] \"...Airi?\""
+    },
+    {
+      "Text": "[ns12] Open the front door for her."
+    },
+    {
+      "Name": "Airi",
+      "Text": "E-Excuse me, I'm sorry I'm here so late, Sensei."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...H-Huh? The clothes? Oh, well these..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Yoshimi had put them in the practice room, and I saw they were there, so I... Ha ha..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "You thought I might come here...? Me...?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Wh-Why...?"
+    },
+    {
+      "Text": "[s13] \"I thought you might want to consult.\""
+    },
+    {
+      "Text": "[s14] \"Shall we talk about picking a song?\""
+    },
+    {
+      "Name": "Airi",
+      "Text": "Ah-ha... Hahaha... Like always, you know everything, Sensei."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Yep. That's the reason I came to talk to you..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I tried to pick one myself at first, but it didn't work out too well."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Picking a song for us to play, it's not as easy as I thought. Haha..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "What do you think, Sensei? Which song should I go with? What's the best choice?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Huh? Why am I looking for the \"best song\"?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Well, obviously, we want the best show, right? The best outcome?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Huh? Was that the wrong answer?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "My FAVORITE song? N-No, we can't do that one! That wouldn't work at all! Seriously, I..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I-I'm sorry. I didn't mean to raise my voice."
+    },
+    {
+      "Name": "Airi",
+      "Text": "But still... I just want to go for the gold here, you know?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "...I want us to do well."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I guess I'm not explaining it very well...but that's how I feel."
+    },
+    {
+      "Text": "[ns15] \"What's the best thing you've listened to lately?\""
+    },
+    {
+      "Text": "[ns16] \"Have you heard a song that made you think, 'Wow!'?\""
+    },
+    {
+      "Name": "Airi",
+      "Text": "The best thing I've listened to lately..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "'Wow,' huh?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Uh..."
+    },
+    {
+      "Text": "[ns] \"...Airi?\""
+    },
+    {
+      "Name": "Airi",
+      "Text": "Ah, ah...! I-I'm sorry! For a second, I..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "There was that one song..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I heard somebody sing a little bit of it as I was walking by. I don't know what it's called, and I don't know if I could find her again."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I don't even think she was a Trinity student. She was just out busking while people were prepping for the festival."
+    },
+    {
+      "Name": "Airi",
+      "Text": "I know students from other schools do busking all over the street, day and night, around this time of the year..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "But even if the singer is here, we'd have to search the entire Trinity campus to find her..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "You want to do that? Together?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Are you sure? We have no idea where in Trinity she might be..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "N-No, I'm not short on time, I just don't want to make you spend who-knows-how-long on something like this!"
+    },
+    {
+      "Text": "[s17] \"You don't have to worry about that, Airi.\""
+    },
+    {
+      "Text": "[s18] \"Don't worry. This is proper 'work'.\""
+    },
+    {
+      "Name": "Airi",
+      "Text": "Sensei..."
+    },
+    {
+      "Name": "Airi",
+      "Text": "...O-Okay. I'll keep that in mind."
+    },
+    {
+      "Name": "Airi",
+      "Text": "Sooo when would you be available?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Now?"
+    },
+    {
+      "Name": "Airi",
+      "Text": "...Really?"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;สิ่งสำคัญที่สุดของวงดนตรี"
+    },
+    {
+      "Text": "\"คำถาม: ถ้าจะทำวงดนตรี จำเป็นต้องมีอะไรบ้าง?\""
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "หืม...? ถามอะไรน่ะ?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "วงดนตรีต้องมีอะไรบ้างงั้นเหรอ? ก็... เครื่องดนตรีไง?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อย่างแรกน่าจะเป็น... สถานที่นะคะ? เราต้องมีพื้นที่ซ้อมดนตรีกันสิคะ"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ฉันว่าต้องเป็นความร็อก วงดนตรีก็ต้องร็อกสิ"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ผู้ชม... ตอบแบบนี้จะดูเชยไปมั้ยนะ แต่ฉันว่าก็ต้องให้ความรู้สึกประมาณนี้ละ"
+    },
+    {
+      "Text": "\"คำถาม: ถ้างั้นคิดว่า <สิ่งสำคัญที่สุด> ของวงดนตรีคืออะไร?\""
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "อืม... สิ่งสำคัญที่สุดคงเป็น... ตำแหน่งร้องนำรึเปล่า.. ส่วนตัวฉันคิดว่าแบบนั้นนะ"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "เรื่องภาพลักษณ์ก็สำคัญนะ ถ้าพวกเราดูดี คนก็ยิ่งอยากจะเข้ามาชม"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ความร็อกต่างหาก วงดนตรีก็ต้องร็อกสิ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "น่าจะเป็น... เพลงนะคะ? ก็เราทำ 'วงดนตรี' นี่นา...?"
+    },
+    {
+      "Text": "[ns1] \"ดีมาก ทุกคนจำสิ่งที่เพิ่งพูดไว้ล่ะ\""
+    },
+    {
+      "Text": "[ns2] \"สิ่งที่ตัวเองคิดว่าสำคัญน่ะ...\""
+    },
+    {
+      "Text": "[ns3] \"ยินดีด้วยนะ! นั่นคือหน้าที่ของแต่ละคน!!\""
+    },
+    {
+      "Text": "[ns4] \"จากนี้ไปแต่ละคนจะได้รับหน้าที่นั้นไป\""
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "วะ..."
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ว่าไงนะ~~!?!?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "อะ... อะไรกันน่ะ!? ทำไมจู่ๆ ถึงแบ่งหน้าที่กันแบบนั้นล่ะ ทำแบบนี้ก็ได้เหรอ!?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ถ้าจะทำวงดนตรี ก็ต้องรับผิดชอบเรื่องพวกนี้อยู่แล้วอย่างนั้นเหรอ? นะ... นั่นสินะ! มันก็จริงอยู่หรอก แต่ก็...!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "จะกำหนดแบบดื้อๆ ตามคำตอบที่รีบตอบไปโดยสัญชาติญาณเลยงั้นเหรอ? มันก็ไม่ได้แย่เท่าไรหรอกนะ แบบนี้แหละถึงจะร็อก"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ร็อกเริ้กอะไรกันเล่า!! แล้วทำไมคำพูดเธอถึงเปลี่ยนไปเป็นแบบนั้นน่ะ!!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ก็เหมือนอย่างที่เคยเป็นนั่นแหละ แค่เปลี่ยนจาก 'ความโรแมนติก' เป็น 'ความร็อก' ก็เท่านั้น"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "แหะๆๆ... จะว่าไปแล้วก็จริงนะ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เดี๋ยวนะคะ แล้วทีนี้งานของฉันจะเป็นยังไงเหรอคะ?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "เรื่องภาพลักษณ์ของวงงั้นเหรอ...? ถ้างั้นต้องทำอะไรนะ? มีอะไรที่เป็นภาพลักษณ์ของวงได้บ้างล่ะ?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "อืม... รูปถ่ายประจำวง? สัญลักษณ์ของวง? มีอะไรต้องทำเยอะกว่าที่คิดนะเนี่ย..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ต้องเลือกชุดด้วยเหรอ? ไม่หรอก ก็ใช่ว่าฉันจะไม่อยากทำ..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "งั้นฉันจะเลือกตามรสนิยมของตัวเองนะ! ห้ามบ่นกันด้วยล่ะ! เข้าใจใช่มั้ย!? เรื่องนี้ต้องตามใจคนที่ได้หน้าที่นี้ไป!!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "เฮ้อ... ชักจะกังวลว่าจะได้ใส่ชุดประหลาดๆ แล้วสิ"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "อ่า เดี๋ยวนะ..."
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "เมื่อกี้ฉันตอบไปว่า 'ร้องนำ' งั้นก็อย่าบอกนะว่า..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ดีใจด้วยนะที่ได้เป็นนักร้องนำของวงน่ะ~"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ดะ... เดี๋ยวก่อนสิ!! แบบนี้ก็มีด้วยเหรอ! มีวงดนตรีไหนที่กำหนดนักร้องนำแบบนี้ด้วยเหรอ!?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ตะ... แต่คาซึสะจังก็เสียงเพราะนะ... งั้นก็น่าจะร้องเพลงได้ดีหรือเปล่า?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "แล้วฉันก็... อยากฟังเพลงที่คาซึสะจังร้องด้วย...!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "โอ้... ถ้าไอริพูดถึงขนาดนี้แล้วละก็..."
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "...!! นะ... นั่นมันก็...!!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ถึงจะพูดอย่างนั้นก็เถอะ...! ต่อให้เป็นไอริก็เถอะ...!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "อึก...!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "อ๊ากกกก!!"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "โอ้โห ได้ผลดีเลยนะเนี่ย ก่อนหน้านี้คงอยากปฏิเสธ แต่ก็คงจะกลืนคำนั้นลงคอไปแล้วสินะ ไม่อยากจะเชื่อเลย"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ฮุฮุ นี่สินะวัยรุ่น... วัยรุ่นเป็นสิ่งสวยงามจังเลย..."
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ส่วนฉันก็... ความร็อก... ความร็อกงั้นเหรอ..."
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ต้องทำวงให้ 'ร็อก'... เป็นประเด็นที่น่าสนใจเลยนะเนี่ย..."
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "หืม...? ว่ายังไงนะคุณครู?"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "จัดการวงดนตรีเหรอ...? เรื่องตารางของวง...?"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "แล้วก็สถานที่ด้วย...?"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "มะ... หมายความว่ายังไง...? เรื่องพวกนั้นมันเกี่ยวกับความร็อกยังไง... นั่นมันงานที่ต้องลำบากต่างหาก"
+    },
+    {
+      "Text": "[s5] \"ร็อกก็คืออะไรแบบนั้นแหละ ไม่รู้หรอกเหรอ?\""
+    },
+    {
+      "Text": "[s6] \"พยายามเพื่อความสำเร็จ นั่นละสิ่งที่เรียกว่า 'ความร็อก' \" "
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "เดี๋ยวนะ... เอ่อ... คือ..."
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "เดี๋ยวก่อน... อย่าพูดอะไรเหลวไหลแบบนั้น..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "จริงด้วย~ ใช่แล้ว! นั่นละความร็อก! ร็อกต้องใส่พลังจนหอบแฮ่กๆ อยู่แล้ว!"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "วัยรุ่นเป็นสิ่งสวยงามจริงๆ เลยนะว่ามั้ย!? งั้นก็พยายามเข้านะ~ ตำแหน่งร็อกของวง! เอาให้ผ่านการคัดเลือกเลยนะ!!!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "ระ... ร็อก...!? วัยรุ่น...!? อึก..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "จะมาบอกว่าตัวเองไม่ร็อกตอนนี้ไม่ได้แล้วนะ คงไม่คิดจะบอกอย่างนั้นหรอกเนอะ? ใช่มั้ย?"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "......!!!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "วะ... วะ...!!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "วัยรุ่น...!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "น่าปวดหัวจริงๆ เลย..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "แหะๆๆ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เอ๋... แล้วถ้างั้นฉัน... ได้รับหน้าที่เกี่ยวกับ 'เพลง' เหรอคะ...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อ่า... อืม... เรื่องเพลงงั้นเหรอ... ฉันไม่เคยแต่งเพลงด้วยสิ..."
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "แต่เราก็ไม่จำเป็นต้องแต่งเพลงเองนี่ ก็แค่เลือกเพลงที่อยากเล่นมาก็พอแล้วไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "นี่เป็นแค่ 'การแสดงเปิดงานจากของวงดนตรีนักเรียนสมัครเล่น' ฉันว่าเราไม่ต้องแต่งเพลงใหม่หรอก ไม่ต้องกังวลไปหรอกนะ"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "แล้วฉันจะรอดูเพลงที่จะใช้นะ~! อย่าเลือกเพลงที่มันยากนักล่ะ! ฮ่าฮ่า!!"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อะ... อื้ม!! ถ้าเป็นการเลือกเพลง..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คนอย่างฉันน่าจะทำได้อยู่นะ...! อื้ม!"
+    },
+    {
+      "Text": "[ns7] ('คนอย่างฉัน'...?)"
+    },
+    {
+      "Text": "[ns8] ('น่าจะทำได้อยู่นะ' งั้นเหรอ...?)"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "เอาละๆ! นี่ไม่ใช่เวลาจะมาอยู่เฉยกันแล้ว! ฉันที่ต้องดูแล 'ภาพลักษณ์ของวง' จะออกไปหาเสื้อผ้า\nเดี๋ยวนี้เลย!"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ถ้าฉันหามาได้แล้วจะเอามาไว้ในห้องซ้อม หลังจากนั้นทุกคนก็มาเปลี่ยนเสื้อผ้ากันด้วยล่ะ เข้าใจมั้ย?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "เอาตามนั้นแล้วกัน... แล้วตารางของพรุ่งนี้ล่ะ...? นัตสึ?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ไม่สิ... ตำแหน่ง 'ร็อก'! บอกตารางของพวกเราหน่อย!"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "อ่า... ตารางงั้นเหรอ ถามถูกคนแล้วละ ฉันเป็นชาวร็อก ชาวร็อกคือผู้ควบคุมอนาคต"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ปรับตัวไวจังเลยนะ"
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "อนาคตของพวกเรา... วันพรุ่งนี้ของพวกเรา..."
+    },
+    {
+      "Name": "นัตสึ",
+      "Text": "คงต้องเริ่มจากไปหาเครื่องดนตรีกันก่อนสินะ...?"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ได้ยินแล้วใช่มั้ย?! ฝ่ายจัดการตารางของวงบอกว่าเราจะไปหาเครื่องดนตรีกัน!"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "คนที่ปกติยังจัดการตารางตัวเองไม่รอด จู่ๆ ก็ได้มาจัดการตารางของวงเหรอเนี่ย"
+    },
+    {
+      "Name": "คาซึสะ",
+      "Text": "ฉันต้องมองคุณครูใหม่เลยนะ นี่สินะดวงตาที่เฉียบแหลมของผู้ใหญ่..."
+    },
+    {
+      "Text": "[s9] \"ฮุฮุฮุ...! ก็อย่างที่ว่านั่นละ!!\""
+    },
+    {
+      "Text": "[s10] หัวเราะกลบเกลื่อนไปก่อน"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "ถ้างั้นวันนี้พอแค่นี้ก่อน!! แยกย้ายได้!!"
+    },
+    {
+      "Name": "โยชิมิ",
+      "Text": "พรุ่งนี้หลังเลิกเรียน ไปเจอกันที่ร้านขายเครื่องดนตรีนะทุกคน!!"
+    },
+    {
+      "Text": "[ns] \"......\""
+    },
+    {
+      "Text": "(เย็นวันนั้น คุณครูยังคงทำงานที่มีเยอะจนกองเป็นพะเนิน)"
+    },
+    {
+      "Text": "[ns11] \"ไอริ...?\""
+    },
+    {
+      "Text": "[ns12] เปิดประตูชาเล่ต์ให้"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ขะ... ขอโทษที่ฉันมารบกวนในเวลานี้นะคะคุณครู"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คะ...? ชุดนี้เหรอคะ? อ่า... ชุดนี้..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "โยชิมิเอามาวางไว้ในห้องซ้อมน่ะค่ะ ฉันก็เลยลองใส่ดู... แหะๆ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คุณครู... คิดไว้แล้วเหรอคะว่าฉันจะมาหา...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ทะ... ทำไมล่ะคะ...?"
+    },
+    {
+      "Text": "[s13] \"ไอริดูเหมือนอยากจะปรึกษาอะไรน่ะ\""
+    },
+    {
+      "Text": "[s14] \"เรามาคุยเรื่องการเลือกเพลงกันมั้ย?\""
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อ่า... แหะๆๆ คุณครูรู้ทุกอย่างเลยนะคะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ใช่แล้วค่ะ ที่จริงฉันมาเพราะอยากปรึกษากับคุณครูเรื่องนั้นค่ะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ฉันพยายามจะทำในสิ่งที่ตัวเองเลือกแล้ว แต่มันก็ไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คือว่า... เรื่องการเลือกเพลงน่ะค่ะ... มันยากกว่าที่คิดอีกค่ะ แหะๆ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อืมมม..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คุณครูคิดว่ายังไงบ้างคะ? ฉันควรเลือกเพลงแบบไหนดีคะ? ต้องเลือกแบบไหนถึงจะดีที่สุดเหรอคะ ...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คะ...? ทำไมฉันถึงอยากได้ 'เพลงที่ดีที่สุด'... น่ะเหรอคะ?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ก็... ถ้าเราเลือกเพลงที่ดีที่สุด ก็จะได้ผลลัพธ์ที่ดีไปด้วยนี่คะ...? แล้วมันก็จะออกมาดีที่สุดด้วย...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เอ๋? หรือว่าไม่ใช่คะ? ฉันคิดผิดเหรอคะ?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ทำไมไม่เลือก 'เพลงที่ชอบ' งั้นเหรอคะ? มะ... ไม่ได้นะคะ! ทำแบบนั้นไม่ได้หรอกค่ะ...!!"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ขะ... ขอโทษค่ะ ฉันเผลอพูดเสียงดังใส่คุณครูจนได้"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คือว่า... ครั้งนี้ฉันอยากเลือกสิ่งที่ดีที่สุด แล้วก็อยากให้ผลลัพธ์ออกมาดีที่สุดด้วยค่ะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ฉันอยากทำให้ได้ดีค่ะ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ถึงจะอธิบายออกมาเป็นคำพูดได้ยาก... แต่ฉันก็รู้สึกแบบนั้นค่ะ"
+    },
+    {
+      "Text": "[ns15] \"ถ้างั้นเพลงที่ดีที่สุดที่เพิ่งฟังมาคือเพลงอะไรเหรอ?\""
+    },
+    {
+      "Text": "[ns16] \"มีเพลงไหนที่คิดว่า 'เยี่ยมเลย ต้องแบบนี้ละ' บ้างมั้ย?\""
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เพลงที่ดีที่สุดที่เพิ่งฟังมา...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เพลงที่คิดว่ายอดเยี่ยม...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อืมมม..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "......?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อ่า..."
+    },
+    {
+      "Text": "[ns] \"ไอริ...?\""
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "อ๊ะ...! ขะ... ขอโทษค่ะ! พอดีฉันกำลังนึกถึง..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "เพลงที่... เอ่อ... มันก็มีเพลงที่ว่าอยู่หรอกนะคะ... แต่ว่า..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ฉันไม่รู้ชื่อเพลง แล้วก็ได้ฟังคนร้องเพลงนั้นแค่แป๊บเดียว ก็เลยไม่รู้ว่าจะหาเจอรึเปล่า..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คนที่ร้องเพลงนั้นเหมือนไม่ใช่นักเรียนทรีนิตี้น่ะค่ะ ฉันออกไปดูอะไรเรื่อยเปื่อยตอนช่วงเตรียมงาน\nเทศกาล แล้วก็ไปเจอคนที่มาเล่นดนตรีเปิดหมวกอยู่ริมถนนค่ะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "แน่นอนว่าในช่วงเวลานี้ นักเรียนจากโรงเรียนอื่นต่างก็มาเล่นดนตรีเปิดหมวกกันทั้งตอนกลางวัน และก็ตอนกลางคืน..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ถ้าจะหาคนที่ฉันเจอวันนั้น คงต้องพลิกแผ่นดินทรีนิตี้แน่เลยค่ะ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "งั้นก็ไปพลิกแผ่นดินกันเหรอคะ? คุณครูจะช่วยตามหาอีกแรงงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ทะ... ทำไมพูดง่ายอย่างนั้นล่ะคะ? คุณครูรู้เหรอว่าคนนั้นอยู่ที่ไหนในทรีนิตี้น่ะ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "สงสัยว่าฉันติดเรื่องเวลาหรือเปล่างั้นเหรอคะ? มะ... ไม่หรอกค่ะ สำหรับฉันน่ะไม่เป็นไรหรอก แต่ถ้าจะให้คุณครูมาเสียเวลากับเรื่องอะไรแบบนี้ละก็..."
+    },
+    {
+      "Text": "[s17] \"เรื่องนั้นไอริไม่ต้องคิดมากหรอกนะ\""
+    },
+    {
+      "Text": "[s18] \"ไม่ต้องห่วงหรอก นี่ก็เป็น 'หน้าที่' ของครูน่ะ\""
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คุณครู..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ขะ... เข้าใจแล้วค่ะ เอาเป็นว่าฉันเข้าใจดีแล้วละค่ะ"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คุณครูสะดวกตอนไหนก็บอกฉันนะคะ..."
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "ไอริ",
+      "Text": "ตอนนี้เลยเหรอคะ...?"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;樂團中最重要的是？"
+    },
+    {
+      "Text": "「問題一：組樂團需要什麼？」"
+    },
+    {
+      "Name": "喜美",
+      "Text": "咦……？這麼突然？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "組樂團需要什麼？\n……樂器吧？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "首先要有場地……對吧？\n除了練習的時候需要以外，也需要有能容納人群的空間……"
+    },
+    {
+      "Name": "夏",
+      "Text": "當然是[ruby=Rock]搖滾[/ruby]。\n……因為是搖滾。"
+    },
+    {
+      "Name": "千紗",
+      "Text": "然後就是觀眾吧……\n雖然這麼說有點搞笑，不過實際上就是這樣。"
+    },
+    {
+      "Text": "「問題二：樂團中『最重要的東西』是什麼？」"
+    },
+    {
+      "Name": "千紗",
+      "Text": "嗯……真要說的話……應該是主唱吧。\n我個人比較重視這個部分。"
+    },
+    {
+      "Name": "喜美",
+      "Text": "讓人意想不到的視覺設計？\n必須在視覺上引人注目，才能吸引到觀眾。"
+    },
+    {
+      "Name": "夏",
+      "Text": "搖滾。\n……因為是搖滾。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "應該是……曲子吧？\n畢竟是「樂團」……？"
+    },
+    {
+      "Text": "[ns1]「好。大家要記住剛才說的話。」"
+    },
+    {
+      "Text": "[ns2]「剛才每個人認為最重要的部分……」"
+    },
+    {
+      "Text": "[ns3]「恭喜！從現在起將由你負責！！」"
+    },
+    {
+      "Text": "[ns4]「就是接下來每個人要負責的項目。」"
+    },
+    {
+      "Name": "全體",
+      "Text": "咦……"
+    },
+    {
+      "Name": "全體",
+      "Text": "什麼～～！？！？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "什，什麼跟什麼啊！？這麼突然！？\n這種事是可以用這麼隨便的方法決定的嗎！？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "你說要組樂團的話，總得有人去做這些事？\n這，這麼說也沒錯啦！可是……！"
+    },
+    {
+      "Name": "夏",
+      "Text": "這就是即興的選擇產生的即興結果嗎？\n感覺不壞……這也很搖滾。"
+    },
+    {
+      "Name": "喜美",
+      "Text": "搖滾你個頭！！而且你的語氣怎麼變成這樣！！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "跟平常沒什麼不同吧。\n只是把「浪漫」換成「搖滾」而已。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "啊哈哈……聽起來似乎是這樣沒錯……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……咦。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "先，先等一下。\n所以我們各自負責的部分是……？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "我負責視覺……是嗎？視覺是什麼？要做些什麼？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "……哦哦，專輯封面跟樂團Logo？\n比想像中還多呢。"
+    },
+    {
+      "Name": "喜美",
+      "Text": "還包含挑選服裝嗎？\n這點我倒是不排斥……"
+    },
+    {
+      "Name": "喜美",
+      "Text": "那我就按照自己的喜好選囉！到時候可不准抱怨，知道嗎！？\n這可是「負責人的心意」啊！！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "唉……我已經有種會被你的時尚品味震驚的預感了。"
+    },
+    {
+      "Name": "千紗",
+      "Text": "……等等。"
+    },
+    {
+      "Name": "千紗",
+      "Text": "我剛剛說了「主唱」，該不會……"
+    },
+    {
+      "Name": "喜美",
+      "Text": "恭喜你成為樂團的主唱～"
+    },
+    {
+      "Name": "千紗",
+      "Text": "等，等一下！！這不對吧！哪有樂團會這樣決定主唱人選的！？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "但，但是千紗醬的聲音很好聽……！\n唱歌……應該也能唱得很好，對吧？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "我真的……很想聽聽看……！"
+    },
+    {
+      "Name": "夏",
+      "Text": "哦……愛莉居然在這種時候展開攻勢……"
+    },
+    {
+      "Name": "千紗",
+      "Text": "……！！！那，那個……！！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "再怎麼說也……！也太……！就算是愛莉……！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "唔唔……！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "哇啊啊啊啊啊──！！"
+    },
+    {
+      "Name": "喜美",
+      "Text": "哎呀，真是效果超群。\n他連一句拒絕的話都說不出口，根本被吃得死死的。"
+    },
+    {
+      "Name": "夏",
+      "Text": "呵呵，真是青春啊……青春是如此美麗……"
+    },
+    {
+      "Name": "夏",
+      "Text": "我的話……搖滾……搖滾……"
+    },
+    {
+      "Name": "夏",
+      "Text": "「搖滾」……相當值得深究呢……"
+    },
+    {
+      "Name": "夏",
+      "Text": "……嗯？老師你說什麼？"
+    },
+    {
+      "Name": "夏",
+      "Text": "樂團的營運管理……？日程表……？"
+    },
+    {
+      "Name": "夏",
+      "Text": "打掃……？"
+    },
+    {
+      "Name": "夏",
+      "Text": "那，那個……？這些跟搖滾有什麼關係……？只是做苦工而已吧。"
+    },
+    {
+      "Text": "[s5]「你不知道嗎？搖滾明星走紅前都得先經歷一番打滾。」"
+    },
+    {
+      "Text": "[s6]「為了成功而傾注熱情與努力──很『[ruby=勞苦]Rock[/ruby]』吧？」"
+    },
+    {
+      "Name": "夏",
+      "Text": "不是……那個……"
+    },
+    {
+      "Name": "夏",
+      "Text": "等等……玩笑話什麼的就……"
+    },
+    {
+      "Name": "喜美",
+      "Text": "呀啊～！沒錯沒錯！這就是搖滾！搖滾就是充滿掙扎和磨難的！！"
+    },
+    {
+      "Name": "喜美",
+      "Text": "青春是如此美麗，不是嗎！？\n到試鏡前就請多多指教囉～！Rock！！！"
+    },
+    {
+      "Name": "夏",
+      "Text": "搖……搖滾……！？青春……！？呃呃……"
+    },
+    {
+      "Name": "喜美",
+      "Text": "你該不會到了這個節骨眼才想說「我不搖滾」吧？嗯？"
+    },
+    {
+      "Name": "夏",
+      "Text": "……！！！"
+    },
+    {
+      "Name": "夏",
+      "Text": "青……青……！！"
+    },
+    {
+      "Name": "夏",
+      "Text": "青春是……！"
+    },
+    {
+      "Name": "夏",
+      "Text": "痛苦的……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "啊哈哈……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……咦。\n那麼我負責的是……「曲子」嗎？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "唔嗯……突然說要作曲，可是我從來沒有作曲的經驗……"
+    },
+    {
+      "Name": "喜美",
+      "Text": "也沒有一定要做原創曲吧？\n只要挑選自己想演奏的歌曲就行了。"
+    },
+    {
+      "Name": "喜美",
+      "Text": "畢竟本來就只是「業餘學生樂團的慶祝表演」，沒有人會期待聽到原創曲吧？\n不用擔心啦。"
+    },
+    {
+      "Name": "喜美",
+      "Text": "不過我還是很期待唷～！可別選太難的曲子哦！哈哈！！"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "唔，嗯！！選曲啊……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "就算是我也辦得到……！嗯！"
+    },
+    {
+      "Text": "[ns7]（「就算是我」……？）"
+    },
+    {
+      "Text": "[ns8]（「也辦得到」……？）"
+    },
+    {
+      "Name": "喜美",
+      "Text": "好了好了！沒時間磨蹭了！\n現在身為「視覺負責人」的我要去找服裝了！"
+    },
+    {
+      "Name": "喜美",
+      "Text": "我會把準備好的服裝放在練習室，大家到了之後就照順序換裝。知道了嗎？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "然後……明天的行程是……夏？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "哦不對……是「搖滾」！請告訴我們行程吧！"
+    },
+    {
+      "Name": "夏",
+      "Text": "……啊啊，行程是吧。這個問題問得很好，迷途的羔羊。\n我──搖滾──乃是掌管未來之人。"
+    },
+    {
+      "Name": "千紗",
+      "Text": "適應得還真快。"
+    },
+    {
+      "Name": "夏",
+      "Text": "我們的未來……明天的我們……"
+    },
+    {
+      "Name": "夏",
+      "Text": "……得先去準備樂器吧？"
+    },
+    {
+      "Name": "喜美",
+      "Text": "……行程負責人已經開示了！！"
+    },
+    {
+      "Name": "千紗",
+      "Text": "居然讓平時最容易搞砸行程的人管理行程，這可是步險棋啊。"
+    },
+    {
+      "Name": "千紗",
+      "Text": "老師又讓我長見識了。\n這就是大人的餘裕嗎……？"
+    },
+    {
+      "Text": "[s9]「哼哼哼……！正是如此！！」"
+    },
+    {
+      "Text": "[s10] 雖然並非本意，但決定以微笑帶過"
+    },
+    {
+      "Name": "喜美",
+      "Text": "今天就先到此為止！！解散，解散！！"
+    },
+    {
+      "Name": "喜美",
+      "Text": "大家明天放學後在樂器店見吧！！"
+    },
+    {
+      "Text": "[ns] 「……」"
+    },
+    {
+      "Text": "（當天深夜。埋頭處理著堆積如山的工作）"
+    },
+    {
+      "Text": "[ns11]「……愛莉？」"
+    },
+    {
+      "Text": "[ns12] 打開夏萊玄關的門"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "不，不好意思……這麼晚還來打擾你，老師。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……嗯？這套衣服？\n啊啊，這是……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "是喜美醬放在練習室的衣服。\n我正好看到了，所以就順手……哈哈……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "覺得我會來找老師……是嗎？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "為，為什麼……？"
+    },
+    {
+      "Text": "[s13]「感覺你可能需要一些諮詢。」"
+    },
+    {
+      "Text": "[s14]「是想談關於選曲的事吧。」"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "啊，啊哈哈……果然什麼都瞞不過老師呢。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "是的，沒錯。我確實是來請教老師的意見……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "原本其實也打算自己選的，結果卻還是選不出來。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "選曲這件事……比想像中還困難呢。哈哈……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "老師覺得該選什麼曲子好呢？怎麼樣的曲子才是最好的呢……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……嗯？為什麼要選「最好的曲子」？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "因為……選出好的曲子才能得到好的結果吧……？\n這樣表演才會最成功……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "咦？不是？這兩件事沒有關聯？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……為什麼不選自己「喜歡的曲子」就好了？\n不，不行！那樣是不行的……！！"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "對，對不起。\n不小心太激動了。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "但是……我這次無論如何都希望能選出最好的曲子……得到最好的結果。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……希望能做到最好。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "雖然很難用言語表達……但大概就是這種感覺。"
+    },
+    {
+      "Text": "[ns15]「那愛莉最近有聽到什麼很棒的曲子嗎？」"
+    },
+    {
+      "Text": "[ns16]「最近有聽到讓你覺得『真是太棒了』的曲子嗎？」"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "最近聽到很棒的曲子……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "真是太棒了……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "…………？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "哦……"
+    },
+    {
+      "Text": "[ns]「……愛莉？」"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "啊……！不，不好意思！\n我想得太入迷了……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "那個……雖然有……但是……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "我不知道那首歌叫什麼名字，就連唱歌的人也只是稍微看了一眼而已。\n不知道能不能找得到……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "而且他看起來也不像是三一的學生。\n只是在籌備學園祭的這段期間，偶然在閒晃時遇見他在街頭表演。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "更何況這段期間，也會有其他學園的學生不分晝夜地在街上表演……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "就算那個人還在，恐怕也得翻遍整個三一校園才行……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "那只要翻遍就行了？\n……要跟我一起去找找看？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "這，這是能輕易說出口的事嗎？\n現在就連該從三一的哪裡找起都不知道哦……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "我是不是不方便？\n不，不會，我擔心的不是自己，而是這樣會浪費老師很多時間……！"
+    },
+    {
+      "Text": "[s17]「愛莉不需要擔心這個。」"
+    },
+    {
+      "Text": "[s18]「別擔心。因為這也是我的『職責』。」"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "老師……"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……嗯，我明白了。那我就恭敬不如從命了。"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "請問老師什麼時候比較方便呢……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "…………咦？"
+    },
+    {
+      "Name": "愛莉",
+      "Text": "……現在？"
+    }
+  ]
+}

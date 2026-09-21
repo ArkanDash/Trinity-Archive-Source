@@ -1,0 +1,2707 @@
+{
+  "TitleJP": "闇を彷徨う者",
+  "TitleKR": "어둠 속을 방황하는 자",
+  "TitleEN": "Wandering in the Dark",
+  "TitleTH": "นักพเนจรในความมืดมิด",
+  "TitleTW": "徬徨於黑暗之人",
+  "DescJP": "RABBIT小隊は、夜戸浦村の不思議な噂を自分の目で確かめるべく、夜間作戦を開始するのだった。",
+  "DescKR": "야토우라 마을의 불가사의한 비밀을 직접 눈으로 확인하기 위해 RABBIT 소대원들은 야간 작전을 시작한다.",
+  "DescEN": "To personally witness the mysterious secret of Yatoura Village, the RABBIT Squad members begin a nighttime operation.",
+  "DescTH": "สมาชิกกองทหาร RABBIT ออกปฏิบัติการในช่วงกลางดึกเพื่อพิสูจน์\nเรื่องราวลึกลับของหมู่บ้านยาโตอูระ",
+  "DescTW": "RABBIT小隊成員們為了親眼確認夜戶浦村的不可思議祕密，展開夜間作戰。",
+  "DialogJP": [
+    {
+      "Text": "第4話;闇を[ruby=さまよ]彷徨[/ruby]う者"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "こちらRABBIT1。現在時刻2030、ランデブーポイントに到着しました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "日没まで約30分……今夜は新月です。\n総員、視覚外にも意識を向けてください。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こちらRABBIT2。今回の作戦には、もってこいの夜だな。  "
+    },
+    {
+      "Name": "サキ",
+      "Text": "相手からは見えないだろうが、こっちには暗闇でも見分けられる目がある。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "RABBIT4、スコープの交換は終わったか？  "
+    },
+    {
+      "Name": "ミユ",
+      "Text": "う、うん……思った以上に視界不良だったから、暗視スコープに替えたよ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "一応、赤外線ストロボも用意してきたけど……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ん？どうかしたのか？  "
+    },
+    {
+      "Name": "ミユ",
+      "Text": "なんか……昼よりも異臭が強くなってる気がする。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "なんて言えば良いのか分からないけど……\n村のあちこちから、生モノみたいな独特の臭いが……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……実は、私も感じていました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "鼻をつく悪臭だけではなく、\n微量のガスに触れているときのように肌がヒリヒリします……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "[USERNAME]先生、大丈夫ですか？"
+    },
+    {
+      "Text": "[ns1] \"たしかに変な臭いはするけど……\""
+    },
+    {
+      "Text": "[ns2] \"今のところ大丈夫かな。\""
+    },
+    {
+      "Name": "ミユ",
+      "Text": "この臭いも、何かの前兆だったらどうしよう……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ちょっと緊張する……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "悪臭程度でビビるな。漁村なんだから、生モノの臭いくらいするだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "臭いが強くなったのは、海風のせいじゃないか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まだまだだね、サキ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "海岸地域の夜は、陸から海に向かって風が吹くんだよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "陸は海に比べて比熱が低いから、気圧の差が生まれる。\n科学の時間に習ったでしょ？"
+    },
+    {
+      "Text": "[s] \"ここ、テストに出ます。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "う、うるさいな！それくらい、知ってる……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ともかく……RABBIT1、今回の目標地点はどこだ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "まずは、運送会社の方が言っていた「鬼の[ruby=がんしょう]岩礁[/ruby]」に向かいます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "日中は住民の視線があるので、動くなら今しかありません。\n無断で神聖な場所を調べたと知られたら、余計な争いを招くでしょうから。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それに、今日は海運会社の方が「近寄ってはいけない」と言っていた大潮の日です。\nもしかしたら、重要な情報を得られるかもしれません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2は私と共に目標地点の探索を。\nRABBIT4は、西の崖上で全方位を見渡して警戒お願いします。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "了解。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "み、ミヤコちゃ……RABBIT1……絶対に、無線を切らないでね……！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "はい、分かりました。\nRABBIT4も、異常が発生したらすぐに報告してください。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT3はランデブーポイントで待機し、後方支援をお願いします。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私たちの動きに気づいて、後を追ってくる住民がいるかもしれません。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "おっけ～、任せてよ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "では、日の出までにランデブーポイントに戻れるよう、急ぎましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ストップ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2。村を正面にして1時の方向、不審者を2人発見。\n目視で得られる情報を。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ん～、1人は釣り用の長靴を履いて、手には釣り具を持ってる……\n見るからに漁師だな……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "その人の前で、立ちはだかるようにしてるのは……\nこの村に駐在してるヴァルキューレの生徒か。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……なんか言い争ってるように見えるぞ？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT3、会話内容を掴んでください。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "指向性マイクを準備するから、ちょっと待ってねぇ。"
+    },
+    {
+      "Name": "ヴァルキューレの海警",
+      "Text": "……は、そろそろ作るのをやめてもらえませんか？"
+    },
+    {
+      "Name": "ヴァルキューレの海警",
+      "Text": "村を覆う……の臭いで、頭痛が止まらないんですよ！"
+    },
+    {
+      "Name": "漁師",
+      "Text": "……俺たちだって、好きで作ってるわけじゃない。"
+    },
+    {
+      "Name": "漁師",
+      "Text": "だが、エビが…………これを売るしか……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "それに……は、この村で伝統的な……年配の方も気に入って……"
+    },
+    {
+      "Name": "ヴァルキューレの海警",
+      "Text": "……は、地元の人だからであって、私たちは……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "……もうここに来て、1年は経つんだろう？\nいつまでピーピー言うつもりなんだ。"
+    },
+    {
+      "Name": "漁師",
+      "Text": "いい加減、村の一員として……"
+    },
+    {
+      "Name": "ヴァルキューレの海警",
+      "Text": "うぅぅ……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "それで、前に言った……はどうなった？"
+    },
+    {
+      "Name": "漁師",
+      "Text": "頼んでから1か月は経つが、まだなのか？"
+    },
+    {
+      "Name": "漁師",
+      "Text": "昨日も……のせいで、漁に出たヤツが怪我をするとこだった。"
+    },
+    {
+      "Name": "ヴァルキューレの海警",
+      "Text": "すみません。しかし私たちだけでは……の解決は難しく……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "これ以上、見て見ぬふりはできん。"
+    },
+    {
+      "Name": "漁師",
+      "Text": "放置すれば、いずれ村は闇に飲みこまれるだろう――"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……村の異臭は、意図したものってことか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それに闇に飲み込まれるって、どういうことだ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ほ、本当に大丈夫なんだよね？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "突然、陸が沈んだり……真っ暗な海底から謎の生き物が襲ってきたり……\nし、しないよね……！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "落ち着いてください、ミユ。そんな出来事は現実で起こりません。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "で、でも……ずっと暗いところにいるからか、ネガティブなことばかり考えちゃって……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "今度は……なんか、変な声まで聞こえて……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "どんな声ですか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "お経を唱えてるような声が……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ミヤコちゃ……RABBIT1、本当に、大丈夫なんだよね？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……その場で待っていてください、すぐにそちらへ向かいます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2、RABBIT4のコンディションが安定しないようなので、\nこれより一度撤収します。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "了解した。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……まあ、この異様な空気の前じゃ落ち着かない気持ちも分かるな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "住民の部外者を受け入れない言動……\n問題のタネはエビ漁にだけあるとは思えん。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "先生はどう思う？"
+    },
+    {
+      "Text": "[s3] \"確かに住民たちは怪しいけど……\""
+    },
+    {
+      "Text": "[s4] \"まずは、ミユの状態を見に行こう。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そうですね。ひとまず、情報の整理は集合してからにしましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……夏の夜は、意外と短いので。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……RABBIT4、大丈夫ですか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "おいRABBIT4、迎えに来たぞ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ……ああぁ……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "どうした、襲撃に遭ったのか！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、あっち……海辺に、昼に見た釣り人が……"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "頼む……これでダメなら、もうどうしようもないぜ……"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "「深きもの」でも何でもいいから、頼む……お願いだ。"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "さんどいっち～さんどいっち～……べ～ぐるふぁ～たん！"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "……本当に、この呪文で合ってるのか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、ああ、悪魔を、召喚しようとしてるんだ……！"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "だっ、誰だ、こんな夜遅くに……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それはこっちのセリフだぞ。ここで何をしてるんだ？"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "あ、えーっと……それは、その……"
+    },
+    {
+      "Name": "釣り人",
+      "Text": "チッ……捕まるのは勘弁だ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2、逃してはいけません！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "逃すか！！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "お、置いていかないで……！"
+    },
+    {
+      "Text": "[ns] \"みんな、ちょっと待っ――\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "ゼエ、ゼエ……あいつ、どこに行った？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "クマみたいな見た目のわりに、ウサギ並みの速さじゃないか……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……そういや、夢中で追いかけてたら道に迷ったみたいだな。\nここ、どこなんだ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うっ、なんだこの悪臭は――ウワァッ！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "だっ、大丈夫……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2、大丈夫ですか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "だ、大丈夫だ。何かヌルっとしたものを踏んだだけ……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "って、なんだコレは……魚の、内臓か……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ひ、ひぃいっ……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……あちこちに、魚の頭の骨が捨てられてますね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "今は使われなくなった調理場なのかもしれません。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "いや……最近使われた痕跡がある。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "この干物、まだ水気が残ってるぞ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "み……ミヤコちゃん、サキちゃん……ここに……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "RABBIT4、作戦中はコールサインで呼ぶようにって言っただろ……\nそれで、何か見つけたのか？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ここに……なみなみの、黒くて生臭い液体が……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "どれどれ……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ゔあっ……なんだ、この臭いは！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "村に広がる異臭は、これが原因だったのか！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……この干物からも、同じ臭いがしますね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "もしかして、わざと腐敗させるために放置している可能性も……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "どういうことだ？\nただでさえ漁獲量が減ってるみたいなのに、わざと魚を腐らせるなんて……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "疑いの目を向けたくはありませんでしたが……これでハッキリしました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "この村では、何らかの儀式のようなものを行っている可能性が――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "早朝から何事かと思えば……泥棒猫が入り込んだか。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "こんな村に観光だなんて最初からおかしいと思ってたが……やはり村の魚を狙ってたんだな。もう言い逃れはできんぞ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なっ、誰が泥棒猫だ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "腐った魚なんて、こっちから願い下げだ！"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "腐った魚だと……？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "ハッ……！まったく、相手にならんな！"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "知りもせず好き勝手言いおって……\nこれまでに来たヤツらと、何ひとつ変わりゃあせんな。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……この村では、いったい何が起きてるんですか？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "今さら、そんなことを聞いてどうすると？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "……悪いが、その質問には答えられんがな。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "ワシは人様の家に土足で上がり込むような奴と仲良くできるほど、\n器が大きくないもんでな。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "……若いモンたちに、[ruby=やとうら]夜戸浦[/ruby]村の怖さを教えてやろう。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "いつの間にか囲まれたぞ……！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "恐怖と戦うのには慣れています。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……総員、戦闘開始。まずは包囲を崩しましょう。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제4화;어둠 속을 방황하는 자"
+    },
+    {
+      "Name": "미야코",
+      "Text": "여기는 RABBIT 1. 현재 시각은 2030시. 지금 막 랑데부 포인트에 도착했습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "[ruby=해상박명종]EENT[/ruby]까지는 앞으로 약 30분. 그믐달이 뜬 무월광 취약 시기이기 때문에 소대원 모두 시야 확보에 유의 부탁드립니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "여기는 RABBIT 2. 오히려 작전을 하기에는 더없이 좋은 밤이야."
+    },
+    {
+      "Name": "사키",
+      "Text": "상대는 우리의 존재를 알아차릴 수 없겠지만, 우리는 어둠 속에서도 피아를 구분할 수 있는 눈을 가지고 있으니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "RABBIT 4, 조준경의 교체 작업은 끝났지?"
+    },
+    {
+      "Name": "미유",
+      "Text": "으, 응…… 시야가 생각했던 것보다 흐려서 [ruby=Night Level]NL 4 수준[/ruby]의 스코프로 교체했어."
+    },
+    {
+      "Name": "미유",
+      "Text": "적외선 스트로브의 상태도 괜찮은 것 같지만……"
+    },
+    {
+      "Name": "사키",
+      "Text": "왜? 다른 문제라도 있어?"
+    },
+    {
+      "Name": "미유",
+      "Text": "그게 뭔가…… 낮보다 비린내가 심해지지 않았어?"
+    },
+    {
+      "Name": "미유",
+      "Text": "무어라 형용할 수는 없지만…… 마을 곳곳에서 비릿하고 퀴퀴한 냄새가 풍겨 나오는 것 같은데."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……사실 저도 아까 전부터 비슷한 느낌을 받고 있습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "코를 찌르는 역한 비린내는 물론이고, 미량의 가스가 살포된 것처럼 피부가 따끔거리는 기분이 듭니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "[USERNAME] 선생님께서는 괜찮으신지요?"
+    },
+    {
+      "Text": "[ns1] \"조금 고약한 냄새가 나는 것 같긴 하지만……\""
+    },
+    {
+      "Text": "[ns2] \"큰 문제는 없는 것 같아.\""
+    },
+    {
+      "Name": "미유",
+      "Text": "혹시라도 이 비린내가 나쁜 징조면 어쩌지?"
+    },
+    {
+      "Name": "미유",
+      "Text": "솔직히 조금 긴장되는데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "비린내 따위에 지레 겁먹기는. 어촌에서 비린내가 풍기는 게 뭐 대수라고."
+    },
+    {
+      "Name": "사키",
+      "Text": "비린내가 갑자기 심해진 이유야…… 뭐, 바다 쪽에서 바람이 불어서 그런 거 아니겠어?"
+    },
+    {
+      "Name": "모에",
+      "Text": "바보구나, 사키."
+    },
+    {
+      "Name": "모에",
+      "Text": "원래 해안 지역은 밤에는 육지에서 바다 방향으로 육풍이 부는 법이라고."
+    },
+    {
+      "Name": "모에",
+      "Text": "육지는 바다에 비해 비열이 낮기 때문에 기압차가 생긴다고, 과학 시간 때 배우지 않았어?"
+    },
+    {
+      "Text": "[s] \"헷갈리기 쉬운 내용이니 암기하세요.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "시, 시끄러워! 그쯤은 나도 알고 있거든……?!"
+    },
+    {
+      "Name": "사키",
+      "Text": "……여하튼 RABBIT 1, 이번 작전의 목표 지점은 어디야?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "우선은 해운업자가 말했던 <도깨비의 암초>로 먼저 향합니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "주간에는 마을 사람들의 시선이 따가우니, 멋대로 신성한 암초를 조사하다가는 의도치 않은 원한을 살지도 모르니까요. 어둠이 짙은 심야의 작전에 적합합니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "더욱이 오늘은 해운업자가 직접 경고한, 그믐달이 뜬 사리 때이니…… 주민들이 이 마을에서 숨기고자 했던 의외의 정보를 얻을 수 있을지도 모릅니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2는 저와 함께 수색조를 꾸려 목표 지점의 탐색을, RABBIT 4는 서쪽 해안 절벽 위에서 사주 경계를 부탁드리겠습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "알겠어."
+    },
+    {
+      "Name": "미유",
+      "Text": "미, 미야코 쨩…… 아니, RABBIT 1. 이번 작전 중에는 절대로 무전 끄면 안 돼……!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "알겠습니다. RABBIT 4도 이상이 발생하면 지체 없이 보고해 주세요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그리고 RABBIT 3는 이곳 랑데부 포인트에서 머무르며 후방 지원을 부탁드리겠습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희가 자리를 비운 것을 알아채고 뒤를 쫓는 주민이 있을지도 모르니까요."
+    },
+    {
+      "Name": "모에",
+      "Text": "맡겨줘. 눈 크게 뜨고 지켜보고 있을 테니까."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그럼 [ruby=해상박명초]BMNT[/ruby]전까지 랑데부 포인트로 돌아올 수 있도록, 서둘러 이동합시다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……정지."
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2. 마을 쪽 45도 방향에 거수자 2인이 있습니다. 신원을 확인할 수 있나요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "음…… 한 사람은 낚시 장화를 신고 어구를 들고 있는 모습이 어부 같아 보이는 데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그리고 그 앞을 가로막은 채 말을 걸고 있는 사람은 이 마을의 발키리 해경 학생이야."
+    },
+    {
+      "Name": "사키",
+      "Text": "무언가 날카로운 목소리가 간헐적으로 나는 데. 싸우고 있는 건가?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 3, 대화 내용을 확인 부탁드립니다."
+    },
+    {
+      "Name": "모에",
+      "Text": "곧 지향성 마이크를 작동시킬 테니 잠시만 기다려 줘."
+    },
+    {
+      "Name": "발키리 해경",
+      "Text": "……는 이제 슬슬 그만 만들면 안 될까요?"
+    },
+    {
+      "Name": "발키리 해경",
+      "Text": "온 마을에 퍼진 ……의 냄새 때문에 머리가 아플 지경이라고요!"
+    },
+    {
+      "Name": "어부",
+      "Text": "……우리라고 이걸 좋아서 만드는 줄 알아?"
+    },
+    {
+      "Name": "어부",
+      "Text": "새우가 통 팔리지 않으니 지금은 이거라도 팔아야지."
+    },
+    {
+      "Name": "어부",
+      "Text": "게다가 ……는 마을의 오랜 전통이기도 하고, 나이 든 어르신들은 싫어하지 않으니까."
+    },
+    {
+      "Name": "발키리 해경",
+      "Text": "그건 이 마을에서 태어나 자라 온 주민 여러분이나 참을 수 있는 거지, 저희는—"
+    },
+    {
+      "Name": "어부",
+      "Text": "너희들도 이 마을에 온 지 1년이 넘었는데, 언제까지 그렇게 낯을 가리고 있을 거야?"
+    },
+    {
+      "Name": "어부",
+      "Text": "이제는 마을의 일원으로서 익숙해질 때도 되었잖아. 우는소리는 그만 내."
+    },
+    {
+      "Name": "발키리 해경",
+      "Text": "우으으……"
+    },
+    {
+      "Name": "어부",
+      "Text": "그나저나, 전에 말한 ……는 어떻게 된 거야?"
+    },
+    {
+      "Name": "어부",
+      "Text": "부탁한 지 벌써 한 달이 넘었는데, 아직 아무런 조치도 없는 거야?"
+    },
+    {
+      "Name": "어부",
+      "Text": "어제도 그 ……때문에 새벽 조업을 나가던 어부 하나가 크게 다칠 뻔했다고."
+    },
+    {
+      "Name": "발키리 해경",
+      "Text": "죄송합니다. 하지만 저희 힘으로 가능한 게 거의 없어서……"
+    },
+    {
+      "Name": "어부",
+      "Text": "하지만 이대로 상황을 방치할 수는 없어."
+    },
+    {
+      "Name": "어부",
+      "Text": "이대로 가면 온 마을이 어둠에 잠기게 될지도 몰라……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……마을을 뒤덮은 비린내가 의도된 것이라고?"
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 마을이 어둠에 잠기게 될지도 모른다니, 저게 도대체 무슨 소리야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 정말로 괜찮은 거겠지?"
+    },
+    {
+      "Name": "미유",
+      "Text": "갑자기 육지가 가라앉거나, 검은 해저가 솟아오른다거나…… 그런 일은 없겠지……?!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "진정하세요, 미유. 그런 일은 갑자기 일어나지 않으니까요."
+    },
+    {
+      "Name": "미유",
+      "Text": "하지만 시야가 어두워서 그런지, 계속 부정적인 생각이 들어……"
+    },
+    {
+      "Name": "미유",
+      "Text": "게다가 기분 탓인지…… 이제는 뭔가 이상한 소리도 들려오는 것 같아……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "어떤 목소리인가요?"
+    },
+    {
+      "Name": "미유",
+      "Text": "뭔가 경전을 외우는 것 같기도 하고…… 노래를 부르는 것 같기도 한데……"
+    },
+    {
+      "Name": "미유",
+      "Text": "미야코, 아니 RABBIT 1…… 정말로 괜찮은 거지……?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……지금 계신 곳에서 가만히 기다려 주세요. 저희가 금방 그쪽으로 가겠습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2. 현재 RABBIT 4의 상태가 좋지 않은 것 같으니, 회수 후 조를 다시 정비하는 게 좋을 것 같습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "확인. 나도 이견은 없어."
+    },
+    {
+      "Name": "사키",
+      "Text": "……하지만 상황이 이쯤 되니 나도 좀처럼 진정이 되지 않는걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "마을의 분위기도 그렇고, 주민들의 말과 행동도 그렇고…… 단순히 새우 조업과 관련된 문제라고 치부하기에는 다들 너무나 수상해."
+    },
+    {
+      "Name": "사키",
+      "Text": "선생님은 어떻게 생각해?"
+    },
+    {
+      "Text": "[s3] \"마을 사람들의 언행이 이상한 건 사실이지만……\""
+    },
+    {
+      "Text": "[s4] \"일단은 미유의 상태를 보러 가자.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "네. 일단 고민은 뒤로 미루고, 지금은 정보 수집에 집중합시다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……여름의 밤은 생각보다 길지 않으니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……RABBIT 4, 괜찮으신가요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "어이, RABBIT 4. 데리러 왔어."
+    },
+    {
+      "Name": "미유",
+      "Text": "아아…… 아아아……"
+    },
+    {
+      "Name": "사키",
+      "Text": "무슨 일이야. 그사이에 습격이라도 당한 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 저기…… 저기 바닷가에……"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "제발…… 이번에도 실패하면 정말 끝이라고……"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "<깊은 곳의 존재들>이든 뭐든, 누구든 좋으니 정말로 존재한다면 제발 좀 나타나 줘……"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "샌드위치— 샌드위치— 베이글 파탕—"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "……그나저나 이 주문이 정말 맞는 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "……악마를 소환하고 있다!"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "누, 누구야? 이런 야심한 밤에……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그건 우리가 할 소리다! 너야말로 여기서 무얼 하고 있는 거야?"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "그, 그건 그러니까……"
+    },
+    {
+      "Name": "낚시꾼",
+      "Text": "에잇, 귀찮아지기 전에 도망치자!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2, 놓쳐서는 안 됩니다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "놓칠까 보냐!"
+    },
+    {
+      "Name": "미유",
+      "Text": "가, 같이 가……!"
+    },
+    {
+      "Text": "[ns] \"잠깐만 다들 기다려—\""
+    },
+    {
+      "Name": "사키",
+      "Text": "헉, 헉…… 그 녀석, 어디로 간 거지?"
+    },
+    {
+      "Name": "사키",
+      "Text": "덩치는 곰 같은데 토끼처럼 재빠르기는……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그보다 정신없이 뒤를 쫓다 보니 길을 잃은 느낌이네. 여기가 어디지?"
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 아까 전부터 나던 비린내가 더 고약해진 느낌이…… 우왓?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "괘, 괜찮아……?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2, 괜찮으신가요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "무, 문제없어. 그저 뭔가 미끄러운 걸 밟고 미끄러진 것뿐이야."
+    },
+    {
+      "Name": "사키",
+      "Text": "그보다 이게 뭐지……? 생선 내장……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "히, 히이……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……곳곳에 손질되고 남은 생선의 머리뼈가 버려져 있군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "지금은 쓰이지 않는 버려진 덕장 같은 곳일까요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "버려진 장소라고 하기에는 최근에 사람이 다녀간 흔적이 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 건조대 위의 방치된 생선도 물기가 채 마르지 않았고……"
+    },
+    {
+      "Name": "미유",
+      "Text": "미, 미야코 쨩…… 사키 쨩…… 여기……"
+    },
+    {
+      "Name": "사키",
+      "Text": "RABBIT 4, 작전 중에는 호출명을 쓰라고 했잖아. ……그보다 무슨 일인데?"
+    },
+    {
+      "Name": "미유",
+      "Text": "여기 항아리 안에…… 검고 탁한 빛깔의 비린 물이 잔뜩……"
+    },
+    {
+      "Name": "사키",
+      "Text": "어디, 어디……"
+    },
+    {
+      "Name": "사키",
+      "Text": "윽, 비린내……!"
+    },
+    {
+      "Name": "사키",
+      "Text": "마을 전체를 뒤덮고 있던 악취가 모두 여기서 나던 거였나?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……건조대 위에 올려진 생선도 모두 썩은 것 같군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "마치 일부러 부패시키기 위해 이곳에 날생선을 방치한 것처럼 보입니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "이해할 수가 없어. 외부로는 어획량이 줄었다고 불평을 하면서, 한편으로는 일부러 생선을 썩히고 있었다니……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……이런 말을 하고 싶지는 않았지만, 이쯤 되니 의심의 여지가 없군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "마을 사람들은 정말로 이곳에서 수상한 종교의식을 치르고 있었을지도—"
+    },
+    {
+      "Name": "???",
+      "Text": "……새벽부터 덕장이 소란스럽다 싶더니만, 도둑고양이가 들었었나."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "처음부터 이 별 볼 일 없는 마을에 관광을 왔다고 해서 수상하게 여겼었는데…… 역시 이곳의 생선을 노리고 들어온 놈들이었군."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐? 도둑……?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그런 썩은 생선 따위, 누가 거저 준다고 해도 받을까 보냐!"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "썩은 생선……? 썩은 생선이라고……?!"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "하하, 정말 어처구니없는 녀석들이로군!"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "잘 알지도 못하면서 혓바닥만 멋대로 놀리는 꼴이 그동안 이 마을을 찾아온 외지인들과 하나도 다르지 않아……!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……이 마을에서 지금 무슨 일이 벌어지고 있는 거죠?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "이제 와서 그 질문을 던지는 건가."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "……미안하지만 그 질문에는 답할 수 없다."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "나는 남의 집 안방에 흙발로 쳐들어오는 무례한 녀석들과 담소를 나눌 정도로 친절하지 못하거든."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "……이 애송이들에게 야토우라 마을의 공포를 보여주자고."
+    },
+    {
+      "Name": "사키",
+      "Text": "어느새 포위당했나……!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "공포를 상대하는 일이라면 저희들도 익숙하지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……전원, 교전 개시. 전투 대형으로 산개합니다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 4;Wandering in the Dark"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 1 reporting. Current time is 20:30. I've arrived at the rendezvous point."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "T-minus 30 minutes until end of twilight. It's going to be a dark night due to the new moon, so prepare accordingly."
+    },
+    {
+      "Name": "Saki",
+      "Text": "RABBIT 2 reporting. This is an ideal night for this mission."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Local civilians won't see us, but we should be able to identify friends and foes."
+    },
+    {
+      "Name": "Saki",
+      "Text": "RABBIT 4, have you switched to your night vision scope?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Affirmative... It's darker than I expected, so I'm using an NL-4 scope."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "The infrared strobe also seems to be working well, but..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Yes? Is there a problem?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "D-Don't you smell that...? The fishy smell... It's gotten worse..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It's hard to describe, but...it's this fishy, musty smell that I've been smelling all over..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...I've noticed it, too."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There's a fishy smell, and then my skin gets itchy, like I've been sprayed with something."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "How are you doing, [USERNAME] Sensei?"
+    },
+    {
+      "Text": "[ns1] \"It's just a bad smell.\""
+    },
+    {
+      "Text": "[ns2] \"I haven't gotten itchy or anything...\""
+    },
+    {
+      "Name": "Miyu",
+      "Text": "What if the smell is...some kind of omen...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I don't like this..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is a fishing village. Of course there will be fishy smells."
+    },
+    {
+      "Name": "Saki",
+      "Text": "And if you think the fishy smell's getting worse, well... Maybe the wind is blowing it in from the ocean."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, Saki, you idiot."
+    },
+    {
+      "Name": "Moe",
+      "Text": "At night, wind blows from the land to the sea."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Were you sleeping in science class? The land cools down faster than the sea at night, which creates a pressure difference."
+    },
+    {
+      "Text": "[s] \"Be sure to write that down. It will be on the test.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "I don't need you to lecture me! I know that much...!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "RABBIT 1! What's our target?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Head out to Devil's Reef."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It seems to be something of a holy spot for the townsfolk, so our best chance to investigate it is under the cover of darkness."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's a new moon, so the tide will be at its lowest... If the CEO of Red Hook Express is right, then this is our best chance to see if the villagers are hiding something."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, take point and investigate the area on foot. RABBIT 4, provide overwatch support from the cliff on the west side."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Understood."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Miyako—I mean, RABBIT 1... Please don't turn your radio off no m-matter what...!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Affirmative. RABBIT 4, report any suspicious activity without delay."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 3, station yourself at the rendezvous point and watch our rear."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "If any villagers notice we're not at camp, I don't want them following us."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Leave it to me. I'll watch with both eyes."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Let's move. We'll meet up at the rendezvous point before sunrise."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Wait."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, there are two individuals at three o'clock. Can you ID?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I see them. One is wearing fishing boots and carrying a pole. He must be one of the fishermen."
+    },
+    {
+      "Name": "Saki",
+      "Text": "He's speaking with a Valkyrie Coast Guard. I think she's blocking his way."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I can just barely hear them... It sounds like they're arguing."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 3, can we get audio?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "On it. Just got to set up my directional mic..."
+    },
+    {
+      "Name": "Valkyrie Coast Guard",
+      "Text": "...stop making it already?"
+    },
+    {
+      "Name": "Valkyrie Coast Guard",
+      "Text": "The smell...spread through the whole town...head is killing me!"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "...making it because we like it?"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "...shrimp's not selling...got to make a living somehow."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "Besides...this town's traditions and folklore...the elders understand."
+    },
+    {
+      "Name": "Valkyrie Coast Guard",
+      "Text": "Maybe that's true for folks who're born and raised here, but for us, it's—"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "C'mon, you've been here for over a year now. Get used to it."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "You're practically one of us. Stop fighting it."
+    },
+    {
+      "Name": "Valkyrie Coast Guard",
+      "Text": "Ugh..."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "Anyhow, what happened to...I asked for?"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "It's been a month, and we're still waiting."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "Just yesterday...seriously hurt. He's lucky to still be alive..."
+    },
+    {
+      "Name": "Valkyrie Coast Guard",
+      "Text": "Look, I'm sorry, but there's nothing I can do..."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "We can't just leave it like that!"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "You're threatening to cast the whole village into darkness..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "So the fishy smell is caused by something they're doing...on purpose?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "And what does he mean, \"cast the whole village into darkness?\""
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Are we going to be okay...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-Is the land going to sink into the ocean? Are the w-waves going to rise up and consume us...?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Take deep breaths, Miyu. Nothing like that will happen."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-But...I c-can't help it... These thoughts keep filling my h-head..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And n-now...I'm hearing something..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What are you hearing?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It's like someone's reading scripture...or chanting..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Miyako! I mean, RABBIT 1! Are w-we...going to be okay...?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Hold your position. We'll be right there."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, we're pulling out and regrouping at RABBIT 4's position."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Affirmative. No objections."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I have to admit, I'm feeling a little nervous, too..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The eerie atmosphere in town, the creepy things the villagers say and do... There's more to this than just shrimp."
+    },
+    {
+      "Name": "Saki",
+      "Text": "What do you think, Sensei?"
+    },
+    {
+      "Text": "[s3] \"It's true, the villagers are acting a little strange...\""
+    },
+    {
+      "Text": "[s4] \"Our first priority is checking on Miyu.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Right. We can go over the evidence later."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Summer nights aren't as long..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 4, are you okay?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey, RABBIT 4. We're here to pick you up."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Ohh... Ohhh..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "What happened? Were you ambushed?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "O-Over there...by the shore..."
+    },
+    {
+      "Name": "Angler",
+      "Text": "Please... If I fail here, it's all over for me..."
+    },
+    {
+      "Name": "Angler",
+      "Text": "Whoever's out there... Deep Ones or no... If you really exist, please, come out..."
+    },
+    {
+      "Name": "Angler",
+      "Text": "Sandwich! Sandwich! Bagels and lox!"
+    },
+    {
+      "Name": "Angler",
+      "Text": "Are those really the words to the spell...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "H-H-He's summoning a demon!"
+    },
+    {
+      "Name": "Angler",
+      "Text": "Huh? Wh-Who's there?!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "That's what I want to know! What are YOU doing here?"
+    },
+    {
+      "Name": "Angler",
+      "Text": "W-Well..."
+    },
+    {
+      "Name": "Angler",
+      "Text": "I'm outta here!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, on him!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "He won't get away!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "P-Please don't leave me behind...!"
+    },
+    {
+      "Text": "[ns] \"Everyone, wait—\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "*pant* *pant* Where...did he go...?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "He's big as a bear, but as fast as a rabbit..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I was so busy chasing him, I don't know where we are... Do you...?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "And the smell has gotten worse... Whoa!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Are you all right...?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, are you okay?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'm okay. I just slipped on something...wet."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But what is this? Fish guts...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "E-Eek!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Here. There are fish bones, too. Stripped clean."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It looks like someone abandoned a drying rack out here."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Not abandoned. Someone's been here recently."
+    },
+    {
+      "Name": "Saki",
+      "Text": "And the fish on the rack aren't dry..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Miyako... Saki... Here..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "RABBIT 4, we're on a mission. Use our call signs. But what's the issue?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "This pot... There's something dark and thick and fishy..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Let me see."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Yuck...!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Is this where the bad smell was coming from?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The fish on the drying rack are all rotting."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It looks like someone left them here to spoil on purpose."
+    },
+    {
+      "Name": "Saki",
+      "Text": "That makes no sense! One minute they're complaining they aren't catching enough, the next they're leaving it to rot?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...I didn't want to say this, but the evidence is pointing in one direction."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Someone from the village may have been holding some kind of ritual—"
+    },
+    {
+      "Name": "???",
+      "Text": "...I was wondering who was making all this noise in the middle of the night."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "I knew no tourists in their right mind would come to a boring town like this. But you were lowly fish thieves, after all..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Fish...thieves...?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Sir, you could not pay me to take these rotten fish off your hands."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Oh, rotten fish, is it?!"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Hmph! There ain't a thought in your head, is there?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "You don't know nothing about us. You run your mouth about things you don't understand. Just like all the other outsiders!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What is happening in this town?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Oh, now you're demanding answers, eh?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "I don't have to tell you nothing."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "See, we don't much appreciate rude city-slickers stomping around and disturbing the peace."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Let me show you what we do to outsiders like you!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We're surrounded!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But we've faced off worse odds than this before..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Everyone, combat formation!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 4;นักพเนจรในความมืดมิด"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นี่คือ RABBIT 1 ขณะนี้เวลา 20:30 น. มาถึงจุดนัดพบแล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "EENT อยู่ห่างออกไปประมาณ 30 นาที เนื่องจากเป็นคืนจันทร์ข้างแรมที่แสงจันทร์ไม่สว่างนัก ขอให้สมาชิกทุกคนระมัดระวังเรื่องทัศนวิสัยเป็นพิเศษด้วยนะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่คือ RABBIT 2 คืนนี้ถือเป็นคืนที่เหมาะจะออกปฏิบัติการจริงๆ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฝ่ายตรงข้ามอาจไม่สังเกตเห็นพวกเรา แต่ว่าพวกเราระบุตัวฝ่ายเดียวกันได้แม้แต่ในความมืดนี่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "RABBIT 4 เปลี่ยนกล้องสโคปเสร็จแล้วใช่มั้ย?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ...อื้อ ระดับการมองเห็นต่ำกว่าที่คิด เลยเปลี่ยนเป็นกล้องสโคประดับ NL4 แล้วละ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ดูเหมือนว่าไฟกระพริบอินฟราเรดจะยังใช้ได้อยู่..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทำไมเหรอ? มีปัญหาอย่างอื่นอีกเหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คือว่า... ดูเหมือนกลิ่นคาวมันแรงขึ้นกว่าตอนกลางวันรึเปล่า?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันอธิบายไม่ถูกแต่ว่า... ดูเหมือนจะมีกลิ่นคาวอะไรบางอย่างโชยไปทั่วหมู่บ้านเลย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...อันที่จริง ฉันก็รู้สึกแบบนั้นมาสักพักแล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "กลิ่นเหม็นคาวพวกนี้นอกจากจะทำให้แสบจมูกแล้ว ยังทำให้แสบผิวเหมือนเวลาสัมผัสแก๊สอะไรบาง\nอย่างด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครู [USERNAME] ไม่เป็นไรใช่มั้ยคะ?"
+    },
+    {
+      "Text": "[ns1] \"เหมือนได้กลิ่นเหม็นๆ อะไรสักอย่าง...\""
+    },
+    {
+      "Text": "[ns2] \"สบายมาก ไม่มีปัญหา...\""
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถ้ากลิ่นเหม็นคาวพวกนี้เป็นสัญญาณที่ไม่ดีล่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "บอกตามตรง ฉันรู้สึกสั่นๆ นิดหน่อยแล้ว..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กลิ่นเหม็นคาวแค่นี้จะกลัวไปทำไมกัน หมู่บ้านชาวประมงก็ต้องมีกลิ่นคาวอยู่แล้วสิ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ที่จู่ๆ กลิ่นคาวก็แรงขึ้นแบบนี้... เพราะลมพัดเข้ามาจากทะเลไม่ใช่รึไง?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เธอนี่ไม่ฉลาดเลยนะ ซากิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ปกติที่ชายฝั่งทะเล ลมบกจะพัดจากพื้นดินออกทะเลในเวลากลางคืนนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตอนคาบวิทยาศาสตร์ไม่ตั้งใจเรียนหรือไง เลยไม่รู้ว่าพื้นดินมีความร้อนจำเพาะต่ำกว่าทะเล ทำให้เกิดความแตกต่างของความกดอากาศน่ะ?"
+    },
+    {
+      "Text": "[s] \"เรื่องนี้สับสนกันง่ายมาก ต้องจำไว้ให้ดีๆ นะ\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นะ...หนวกหูน่า! เรื่องนั้นฉันก็รู้เหมือนกันแหละน่า...?!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...ยังไงก็เถอะ RABBIT 1 เป้าหมายของปฏิบัติการนี้คือที่ไหนน่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก่อนอื่น พวกเราจะมุ่งหน้าไปที่ <แนวปะการังยักษ์> ที่ประธานคนนั้นพูดถึงกันค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ในช่วงกลางวัน มีชาวบ้านหลายคนที่คอยจับตาดูพวกเรา ถ้ามาสำรวจปะการังศักดิ์สิทธิ์ตามอำเภอใจ\nละก็ อาจทำให้พวกเขาไม่พอใจได้ค่ะ เพราะงั้นการออกปฏิบัติการในตอนกลางคืนจะเหมาะสมกว่าค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อีกอย่าง วันนี้ก็ยังเป็นคืนข้างแรมตามที่คุณคนนั้นบอกด้วย... ไม่แน่ว่าเราอาจจะได้ข้อมูลที่คาดไม่ถึง\nที่พวกชาวบ้านพยายามปกปิดไว้ก็ได้นะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 2 กับฉันจะออกสำรวจสถานที่เป้าหมายด้วยกัน ส่วน RABBIT 4 ช่วยเฝ้าระวังที่บริเวณหน้าผา\nทางชายฝั่งตะวันตกด้วยนะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เข้าใจแล้ว"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ...มิยาโกะจัง ไม่สิ RABBIT 1 ระ...ระหว่างปฏิบัติการห้ามปิดวิทยุสื่อสารเด็ดขาดเลยนะ...!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เข้าใจแล้วค่ะ RABBIT 4 เองก็เหมือนกัน ถ้าเกิดอะไรขึ้นก็รบกวนรายงานทันทีเลยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ส่วน RABBIT 3 ช่วยอยู่รอที่จุดนัดพบ และคอยสนับสนุนจากแนวหลังด้วยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อาจมีชาวบ้านที่สังเกตเห็นว่าพวกเราหายไป และแอบตามพวกเรามาก็ได้ค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ให้เป็นหน้าที่ฉันเอง เดี๋ยวจะเฝ้าระวังให้อย่างดีเลย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้างั้นก็รีบไปกันเถอะค่ะ จะได้กลับมาที่จุดนัดพบก่อนเวลา BMNT ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...รอเดี๋ยว"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 2 ตรง 45 องศาจากทิศทางหมู่บ้าน พบเงาคน 2 คนค่ะ ระบุตัวได้รึเปล่าคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อืม... คนหนึ่งใส่รองเท้าสำหรับตกปลา และถืออุปกรณ์ตกปลามาด้วย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ส่วนอีกคนที่ยืนขวางหน้าและคุยกับคนคนนั้นอยู่คือนักเรียนตำรวจน้ำ วัลคิรี่"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ดูเหมือนจะส่งเสียงโวยวายออกมาเป็นระยะ... ทะเลาะกันอยู่รึไงนะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 4 ช่วยตรวจสอบบทสนทนาของพวกเขาให้หน่อยค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันจะเปิดใช้ไมค์รับเสียงแบบกำหนดทิศทางให้ รอแป๊บหนึ่งนะ"
+    },
+    {
+      "Name": "ตำรวจน้ำ วัลคิรี่",
+      "Text": "เรา... พวกเราหยุดกันแค่นี้ไม่ดีกว่าเหรอคะ?"
+    },
+    {
+      "Name": "ตำรวจน้ำ วัลคิรี่",
+      "Text": "กลิ่นเหม็นคาว...ที่กระจายไปทั่วหมู่บ้านนั่น ตอนนี้ปวดหัวจนหัวจะระเบิดแล้วค่ะ!"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "...คิดว่าพวกเราทำแบบนี้เพราะชอบทำรึไง?"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "พวกเราขายกุ้งไม่ได้เลย เพราะงั้นอย่างน้อยก็ควรขายไอ้นี่สิ"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "อีกอย่าง... มันก็เป็นประเพณีเก่าแก่ของหมู่บ้านและพวกคนเฒ่าคนแก่ในหมู่บ้านก็ไม่ได้เกลียดด้วย"
+    },
+    {
+      "Name": "ตำรวจน้ำ วัลคิรี่",
+      "Text": "เรื่องนั้นเป็นเรื่องที่พวกคุณที่เกิดและเติบโตในหมู่บ้านนี้ทนได้ แต่ว่าฉันน่ะ..."
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "พวกเธอเองก็มาที่หมู่บ้านนี้ได้ 1 ปีแล้ว เมื่อไรจะชินกันสักที?"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "ตอนนี้ในฐานะสมาชิกคนหนึ่งของหมู่บ้าน พวกเธอก็ควรจะชินกันได้แล้ว เลิกงอแงเถอะน่า"
+    },
+    {
+      "Name": "ตำรวจน้ำ วัลคิรี่",
+      "Text": "ฮือ..."
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "ว่าแต่ว่า ... ที่พูดถึงเมื่อกี้น่ะ เป็นยังไงบ้าง?"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "นี่มันก็ผ่านมาหนึ่งเดือนแล้วนะ ไม่มีอะไรคืบหน้าเลยหรือยังไง?"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "เมื่อวานนี้ มันเป็นเพราะ... เลยทำให้ชาวประมงคนหนึ่งที่ออกไปหาปลาตอนเช้าเกือบได้รับบาดเจ็บ\nสาหัสเลยนะรู้มั้ย"
+    },
+    {
+      "Name": "ตำรวจน้ำ วัลคิรี่",
+      "Text": "ขอโทษด้วยค่ะ แต่ว่าแค่ลำพังพวกเราคงทำอะไรไม่ได้มาก..."
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "แต่ว่าก็คงจะปล่อยเรื่องนี้เอาไว้เฉยๆ ไม่ได้"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "ถ้าเป็นแบบนี้ต่อไปละก็ ทั้งหมู่บ้านอาจจะต้องตกอยู่ในความมืดมิดก็ได้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กลิ่นเหม็นคาวที่คลุ้งไปทั่วหมู่บ้านนั่น... มีคนจงใจทำงั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แล้วที่บอกว่าหมู่บ้านอาจตกอยู่ในความมืดก็ได้นั่น... หมายความว่ายังไงกันแน่น่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ...ไม่เป็นไรจริงๆ ใช่มั้ย?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คะ...คงไม่เกิดเรื่องแบบว่าจู่ๆ แผ่นดินก็ยุบลงไป แล้วก็มีหลุมลึกดำมืดใต้ทะเลโผล่ออกมาหรอก... ชะ...ใช่รึเปล่า...?!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ใจเย็นๆ ก่อนนะคะมิยุ เรื่องแบบนั้นไม่เกิดขึ้นอย่างกะทันหันหรอกค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "สงสัยเพราะทัศนวิสัยของฉันอยู่ในระดับต่ำเกินไป... ความคิดแง่ลบเลยผุดขึ้นมาเรื่อยๆ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อาจเป็นเพราะความรู้สึกของฉันด้วยละมั้ง... ตอนนี้รู้สึกเหมือนได้ยินเสียงแปลกๆ บางอย่างด้วย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เสียงแบบไหนเหรอคะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เหมือนเป็นเสียงท่องพระคัมภีร์... แต่ฟังอีกทีก็เหมือนเป็นเสียงร้องเพลงเลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มิยาโกะ ไม่สิ... RABBIT 1 ... แบบนี้มันจะไม่เป็นไรแน่ใช่มั้ย...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "รออยู่ตรงนั้นก่อนนะคะ พวกฉันจะรีบไปที่นั่นทันทีค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 2 ดูเหมือนว่าสถานการณ์ของ RABBIT 4 ไม่ค่อยดีเท่าไร พวกเรากลับไปรวมตัวแล้วแบ่งทีมกัน\nใหม่น่าจะดีกว่าค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ได้ เอาตามนั้น"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...แต่ว่าพอสถานการณ์เป็นแบบนี้ ฉันเองก็เริ่มประหม่าแล้วเหมือนกันนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทั้งบรรยากาศของหมู่บ้าน คำพูดและการกระทำของพวกชาวบ้านก็เหมือนกัน... ทุกอย่างดูน่าสงสัย\nเกินกว่าจะบอกว่าเป็นปัญหาที่เกี่ยวข้องกับการจับกุ้งเพียงอย่างเดียว..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คุณครูคิดว่ายังไงบ้างน่ะ?"
+    },
+    {
+      "Text": "[s3] \"การกระทำของคนในหมู่บ้านก็แปลกจริงๆ แหละ\""
+    },
+    {
+      "Text": "[s4] \"ก่อนอื่น เรารีบไปดูมิยุกันก่อนเถอะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ พักเรื่องนั้นเอาไว้ก่อน ตอนนี้มาโฟกัสเรื่องการหาข้อมูลกันเถอะค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...กลางคืนในฤดูร้อนมันไม่ได้ยาวนานเลยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...RABBIT 4 เป็นอะไรรึเปล่าคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่ RABBIT 4 พวกเรามาแล้ว"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ่า... อา...."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เป็นอะไรน่ะ ถูกจู่โจมระหว่างที่พวกเรากำลังมางั้นเหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นะ...นั่น... ที่ชายหาดตรงนั้น..."
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "ให้ตายเถอะ... ถ้าครั้งนี้ยังล้มเหลวอีกก็จบเห่กันจริงๆ แล้วนะ..."
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "จะเป็น <ตัวตนแห่งห้วงลึก> หรืออะไรก็ได้ทั้งนั้น ถ้ามีอยู่จริงละก็ ช่วยปรากฏตัวออกมาที..."
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "แซนด์วิช— แซนด์วิช—  เบเกิลอบร้อน—"
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "...คาถานี้มันใช่จริงๆ เหรอเนี่ย?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "...เขากำลังอัญเชิญปีศาจละ!"
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "นะ...นั่นใครน่ะ? กลางดึกกลางดื่นแบบนี้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกเราต่างหากที่ต้องเป็นฝ่ายถาม นายนั่นแหละมาทำอะไรที่นี่?"
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "ระ...เรื่องนั้นคือว่า..."
+    },
+    {
+      "Name": "นักตกปลา",
+      "Text": "ฮึ่ย รีบหนีก่อนที่เรื่องมันจะวุ่นวายขึ้นดีกว่า"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 2 ห้ามปล่อยให้หนีไปได้เด็ดขาดเลยนะคะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใครจะยอมให้หนีไปได้กันเล่า!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ระ...รอฉันด้วย...!"
+    },
+    {
+      "Text": "[ns] \"เดี๋ยวก่อนทุกคน รอเดี๋ยว—\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แฮ่ก แฮ่ก... เจ้านั่น... หายไปไหนแล้ว?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตัวโตอย่างกะหมี แต่วิ่งเร็วอย่างกับกระต่ายเลยแฮะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ยิ่งกว่านั้น พอวิ่งไล่ตามเจ้านั่นมาเป็นบ้าเป็นหลังแบบนี้... ดูเหมือนจะหลงทางซะแล้วละ ที่นี่คือที่ไหนกันเนี่ย?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อีกอย่าง... ได้กลิ่นคาวแรงขึ้นกว่าเมื่อกี้จนรู้สึกสะอิดสะเอียดแล้ว... ว้ากกกก?!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ปะ...เป็นอะไรรึเปล่า...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 2 เป็นอะไรรึเปล่าคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มะ...ไม่เป็นไร ฉันแค่เหยียบอะไรบางอย่างที่มันลื่นๆ เข้าเลยลื่นล้มน่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าแต่ว่านี่มันอะไรน่ะ...? ไส้ปลา...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮะ...ฮึก..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...มีพวกหัวปลาและเศษปลาที่ถูกหั่นทิ้งกระจัดกระจายอยู่เต็มไปหมดเลยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ที่นี่เป็นลานตากปลาร้างๆ ที่ไม่ได้ใช่แล้วรึเปล่าคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะบอกว่าร้างก็คงไม่ได้หรอกนะ มันมีร่องรอยอยู่ แสดงว่าเมื่อไม่นานมานี้มีคนมาที่นี่ด้วย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อีกอย่าง ปลาที่ตากไว้บนตะแกรงตากปลานั่นยังไม่แห้งดีเลยด้วยซ้ำ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ...มิยาโกะจัง... ซากิจัง... ทางนี้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "RABBIT 4 บอกแล้วไงว่าระหว่างปฏิบัติการให้เรียกด้วยโค้ดเนมน่ะ มีอะไรล่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "โถอันนี้... มันมีน้ำสีดำขุ่นๆ ที่มีกลิ่นคาวอยู่เยอะเลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไหน ขอดูหน่อยซิ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อึก... กลิ่นคาวสุดๆ...!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กลิ่นคาวที่เหม็นตลบอบอวลไปทั้งหมู่บ้านมาจากที่นี่งั้นเหรอ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ดูเหมือนปลาที่ตากไว้บนตะแกรงทั้งหมดจะเน่าแล้วด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดูเหมือนว่าจะตั้งใจเอาปลาสดมาทิ้งไว้ที่นี่ เพื่อให้มันเน่าเสียเลยนะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่เห็นเข้าใจเลย เห็นเอาแต่บ่นว่าจับปลาได้น้อยลง แต่กลับเอาปลามาทิ้งไว้ให้เน่าเสียแบบนี้เนี่ยนะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ฉันไม่อยากพูดแบบนี้เลย แต่ว่าในเมื่อเป็นแบบนี้แล้ว ก็ไม่มีข้อสงสัยอะไรแล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "บางทีชาวบ้านในหมู่บ้านนี้อาจจะทำพิธีกรรมทางศาสนาแปลกๆ ที่นี่จริงๆ ก็ได้—"
+    },
+    {
+      "Name": "???",
+      "Text": "...คิดว่าเกิดเรื่องอะไรน่าหนวกหูที่ลานตากปลาแต่เช้ามืด ที่แท้ก็พวกลูกแมวขโมยแอบเข้ามานี่เอง"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "รู้สึกแปลกๆ ตั้งแต่แรกแล้วว่าจะมาท่องเที่ยวอะไรในหมู่บ้านธรรมดาๆ แบบนี้... อย่างที่คิดไว้เลย เป้าหมายของพวกเธอก็คือปลาสินะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าไงนะ? ขโมยเหรอ...?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ปลาเน่าๆ พวกนี้เนี่ยนะ ใครให้ฟรีๆ ก็ไม่เอาหรอก!"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ปลาเน่า...? ปลาเน่างั้นเหรอ...?!"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ฮ่าฮ่า เด็กพวกนี้พูดอะไรไร้สาระจริงๆ!"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ทั้งที่ไม่รู้อะไรแท้ๆ แต่กลับทึกทักพูดกันเองตามใจชอบ พวกเธอก็ไม่ต่างจากพวกคนนอกคนอื่นๆ ที่เคยมาที่นี่กันหรอก...!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...เกิดเรื่องอะไรขึ้นที่หมู่บ้านนี้งั้นเหรอคะ?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "เพิ่งคิดจะมาถามเอาป่านนี้งั้นเหรอ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "...ขอโทษนะ แต่ฉันคงตอบคำถามนั้นไม่ได้หรอก"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ฉันไม่ได้ใจกว้างพอที่จะพูดคุยกับพวกคนป่าเถื่อนที่บุกรุกเข้ามาบ้านคนอื่นทั้งที่เท้าเปื้อนโคลนแบบนี้\nหรอกนะ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "...มาแสดงความน่ากลัวของหมู่บ้านยาโตอูระให้เจ้าเด็กอมมือพวกนี้เห็นกันเถอะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถะ...ถูกล้อมไว้ตั้งแต่ตอนไหนน่ะ...!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การเผชิญหน้ากับความน่ากลัวเป็นเรื่องที่พวกเราคุ้นเคยเป็นอย่างดีค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ทุกคน เตรียมเข้าปะทะ เริ่มต่อสู้ในรูปแบบกระจายตัวได้ค่ะ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第4話;徬徨於黑暗之人"
+    },
+    {
+      "Name": "都子",
+      "Text": "這裡是RABBIT1。\n現在時間2030，已抵[ruby=rendez-vous point]達會面地點。[/ruby]"
+    },
+    {
+      "Name": "都子",
+      "Text": "距離日落還有30分鐘……今晚是新月。\n請所有人同時留意視覺以外的情報。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這裡是RABBIT2。\n這種夜晚，真是非常適合這次的作戰啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "對方的視野想必會相當受限，\n而我可是有著在夜晚也能看清事物的眼睛。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "RABBIT4，狙擊鏡更換完成了嗎？"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗯，嗯……視野比想像中還差，所以換成了夜視瞄準鏡。"
+    },
+    {
+      "Name": "美優",
+      "Text": "紅外線瞄準鏡也有準備……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯？怎麼了嗎？"
+    },
+    {
+      "Name": "美優",
+      "Text": "總覺得……臭味好像比白天更重了。"
+    },
+    {
+      "Name": "美優",
+      "Text": "不知該怎麼形容……\n感覺村子到處都瀰漫著一股生物特有的腥味……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我也有這種感覺。"
+    },
+    {
+      "Name": "都子",
+      "Text": "不只是刺鼻的惡臭，皮膚也出現了如同接觸到微量氣體的刺痛感……"
+    },
+    {
+      "Name": "都子",
+      "Text": "[USERNAME]老師，你還好嗎？"
+    },
+    {
+      "Text": "[ns1]「確實有股奇怪的臭味……」"
+    },
+    {
+      "Text": "[ns2]「目前還算正常。」"
+    },
+    {
+      "Name": "美優",
+      "Text": "要是這股臭味是某種前兆該怎麼辦……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "有點緊張……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "臭味有什麼好怕的。\n這裡畢竟是漁村，多少會有腥味吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "至於腥味為什麼變重，不是因為海風的關係嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "你還太嫩了啊，咲希。"
+    },
+    {
+      "Name": "萌",
+      "Text": "在海岸地區的晚上，風是由陸地向海吹的哦。"
+    },
+    {
+      "Name": "萌",
+      "Text": "陸地的比熱低於海洋，所以會產生氣壓差。\n自然課不是有上過嗎？"
+    },
+    {
+      "Text": "[s]「這裡考試會考。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "少，少囉嗦！這種事我當然會……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "總之……RABBIT1，這次的目標地點是哪裡？"
+    },
+    {
+      "Name": "都子",
+      "Text": "首先要前往海運業者提過的「鬼岩礁」。"
+    },
+    {
+      "Name": "都子",
+      "Text": "白天會引起村民們的注目，所以我們能行動的時段就只有現在了。\n要是被村民發現我們擅自調查神聖的場所，可能會引起無謂的爭端。"
+    },
+    {
+      "Name": "都子",
+      "Text": "此外，今天是海運業者也說過「不能靠近」的大潮之日。\n說不定能獲得某些重要的情報。"
+    },
+    {
+      "Name": "都子",
+      "Text": "請RABBIT2和我一起進行目標地點的探索。\n請RABBIT4在西邊的懸崖上保持全方位的警戒。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "了解。"
+    },
+    {
+      "Name": "美優",
+      "Text": "都，都子醬……RABBIT1……絕對，不要切斷無線電哦……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "好的，我知道了。\nRABBIT4也是，如果發生異常狀況請立刻報告。"
+    },
+    {
+      "Name": "都子",
+      "Text": "請RABBIT3[ruby=rendez-vous point]在會面地點待[/ruby]命，並負責後勤支援。"
+    },
+    {
+      "Name": "都子",
+      "Text": "也許會有察覺到我們的動靜而跟過來的村民也說不定。"
+    },
+    {
+      "Name": "萌",
+      "Text": "OK～包在我身上。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼，請在日出之前返[ruby=rendez-vous point]回會面地點。[/ruby]大家趕緊出發吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……STOP。"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT2，在面對村子1點鐘方向發現2名舉止可疑的人物。\n請報告目視可得的情報。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯～其中一人穿著釣魚用的長靴、手裡拿著釣具……\n看起來像是漁夫……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "而在他面前，像是在擋著他的人……\n是派駐在這個村子的女武神學生吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……看起來好像正在爭論什麼哦？"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT3，請確認對話內容。"
+    },
+    {
+      "Name": "萌",
+      "Text": "我馬上準備指向性麥克風，稍等哦。"
+    },
+    {
+      "Name": "女武神的海警",
+      "Text": "……也差不多該停止生產了吧？"
+    },
+    {
+      "Name": "女武神的海警",
+      "Text": "瀰漫全村……的那股臭味道讓我頭痛個不停啊！"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "……我們也不是喜歡才這麼做的。"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "但是蝦子都……也只好賣這個……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "而且……是這個村子傳統的……老人家也喜歡……"
+    },
+    {
+      "Name": "女武神的海警",
+      "Text": "……因為是本地人，而我們……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "……你們來這裡也超過一年了吧？\n到底打算抱怨到什麼時候？"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "差不多也該做為村裡的一員……"
+    },
+    {
+      "Name": "女武神的海警",
+      "Text": "唔……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "所以咧，之前說的……怎麼樣了？"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "都已經過一個月了，還沒搞定嗎？"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "昨天也因為……的關係，差點害出去捕魚的漁夫受傷。"
+    },
+    {
+      "Name": "女武神的海警",
+      "Text": "不好意思。可是只靠我們……的解決會有困難……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "不能再繼續視而不見了。"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "要是放任不管，村子遲早會被黑暗吞噬的啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……也就是說村子裡的異臭是刻意造成的？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "村子會被黑暗吞噬又是什麼意思？"
+    },
+    {
+      "Name": "美優",
+      "Text": "真，真的沒問題吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "不會發生陸地突然下沉……或是被從漆黑的海底出現的謎樣生物襲擊……\n之，之類的事吧……！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "請冷靜下來，美優。\n現實是不會發生那種事的。"
+    },
+    {
+      "Name": "美優",
+      "Text": "可，可是……\n不知道是不是因為一直待在黑漆漆的地方，心裡一直冒出負面的想法……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這次……好像還聽見了奇怪的聲音……"
+    },
+    {
+      "Name": "都子",
+      "Text": "是什麼樣的聲音？"
+    },
+    {
+      "Name": "美優",
+      "Text": "是像在誦經一樣的聲音……"
+    },
+    {
+      "Name": "美優",
+      "Text": "都子……RABBIT1，真的，不會有問題吧？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……請暫時在原地等待，我們馬上就過去。"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT2，RABBIT4的狀態似乎不太穩定，暫時先撤退吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯，我也同意。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……面對這種異樣的氣氛，會冷靜不下來的心情我也能理解。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "村民們無法接受外地人的言行……\n實在讓人很難覺得問題的根源只有蝦子的產量。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "老師你怎麼看？"
+    },
+    {
+      "Text": "[s3]「村民們的確很奇怪……」"
+    },
+    {
+      "Text": "[s4]「不過還是先去看看美優的狀態吧。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "是。情報的整理就等到集合後再進行吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……畢竟夏天的夜晚意外的短暫。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……RABBIT4，你還好嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喂，RABBIT4，我們來接你囉。"
+    },
+    {
+      "Name": "美優",
+      "Text": "啊……啊啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "怎麼了，遭到襲擊了嗎！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那邊……早上見過的釣客，在海邊……"
+    },
+    {
+      "Name": "釣客",
+      "Text": "拜託了……這次也失敗的話真的就完了……"
+    },
+    {
+      "Name": "釣客",
+      "Text": "不管是「深處的存在」還是什麼都好，拜託……算我求你了。"
+    },
+    {
+      "Name": "釣客",
+      "Text": "三明治～三明治～貝果～湯！"
+    },
+    {
+      "Name": "釣客",
+      "Text": "……咒語真的是這樣沒錯嗎？"
+    },
+    {
+      "Name": "美優",
+      "Text": "……他，他他，他在召喚惡魔！"
+    },
+    {
+      "Name": "釣客",
+      "Text": "是，是誰，這麼大半夜的……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那是我們要說的台詞。\n你在這裡做什麼？"
+    },
+    {
+      "Name": "釣客",
+      "Text": "啊，那個……就是，因為……"
+    },
+    {
+      "Name": "釣客",
+      "Text": "嘖……我可不想被抓住啊！"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT2，不能讓他跑了！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "別想逃！！"
+    },
+    {
+      "Name": "美優",
+      "Text": "別，別丟下我……！"
+    },
+    {
+      "Text": "[ns]「大家，等等我──」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哈啊，哈啊……那傢伙，到底跑哪去了？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "外表明明看起來像隻熊，怎麼跑的跟兔子一樣快……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……話說回來，剛才只顧著追他，結果好像迷路了啊。\n這裡是什麼地方？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔，這股惡臭是怎麼回──唔哇！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "沒，沒事吧……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT2，你沒事吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我，我沒事。\n只是踩到什麼滑滑的東西而已……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "話說這是什麼……是魚的，內臟嗎……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "噫，噫噫……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……到處都是被丟棄的魚類頭骨呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "也許是已經不再使用的廚房。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不……有最近還在使用的痕跡。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這些魚乾也都還有水氣。"
+    },
+    {
+      "Name": "美優",
+      "Text": "都……都子醬，咲希醬……這邊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "RABBIT4，不是跟你說過作戰中要用代號嗎……\n所以呢，你發現了什麼？"
+    },
+    {
+      "Name": "美優",
+      "Text": "這裡……裝滿了黑漆漆的腥臭液體……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我看看……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔哇……這股臭味是怎麼回事！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "村子裡瀰漫的惡臭就是這個東西造成的嗎！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……那些魚乾也散發著相同的臭味呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "說不定也有故意放在這裡使其腐敗的可能性……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這是什麼情況？\n明明抱怨漁獲量減少，卻還刻意讓魚腐壞……"
+    },
+    {
+      "Name": "都子",
+      "Text": "雖然不想抱持著懷疑的眼光……不過這樣事情就搞清楚了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "這個村子，有進行著某種類似儀式行為的可能性──"
+    },
+    {
+      "Name": "???",
+      "Text": "七早八早的還以為發生什麼事了……原來是有小偷跑進來了啊。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "居然會來這種村子觀光，我一開始就覺得可疑……果真是盯上了村裡的魚啊。\n你們已經無法狡辯了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "什麼？小偷……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "腐壞的魚什麼的，送我們也不要！"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "居然說是腐壞的魚……？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "哈……！真是，簡直不可理喻！"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "什麼都不懂就大放厥詞……\n跟之前來到這裡的傢伙們根本沒兩樣。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……這座村子究竟發生了什麼？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "事到如今，問這個又有何用？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "……抱歉，我無法回答這個問題。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "老夫的器量可沒有大到足以和侵門踏戶的傢伙好好相處啊。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "……讓這些乳臭未乾的小鬼見識見識夜戶浦村的恐怖吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不知不覺就被包圍了……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們已經習慣與恐怖戰鬥了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……所有人，開始戰鬥。\n展開戰鬥隊形！"
+    }
+  ]
+}

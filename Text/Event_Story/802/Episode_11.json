@@ -1,0 +1,1847 @@
+{
+  "TitleJP": "返り咲く革命のイワン・クパーラ",
+  "TitleKR": "붉은겨울 학원의 혁명적 휴일",
+  "TitleEN": "Red Winter Academy's Revolutionary Holiday",
+  "TitleTH": "วันหยุดแห่งการปฏิวัติของสหภาพเรดวินเทอร์",
+  "TitleTW": "革命再起的伊凡．庫帕拉",
+  "DescJP": "無事に戦闘に勝利し、会長の座を取り戻したチェリノの手によって、マリナたちは粛清されることに。しかしイワン・クパーラ当日、チェリノに手を貸していた生徒たちが「約束を守れ」と再び蜂起し、チェリノはまたしても失脚するのだった。",
+  "DescKR": "쿠데타 세력을 무찌르고 회장의 자리를 되찾은 체리노는 마리나를 단호히 숙청한다. 하지만 이반 쿠팔라 축제 당일, 혁명에 동참했던 학생들이 공약을 지키라며 다시 쿠데타를 일으키고, 체리노는 또다시 실각한다.",
+  "DescEN": "After defeating the revolutionaries and regaining her position as president, Cherino kicks Marina out without hesitation. However, on the day of the Ivan Kupala Festival, the former revolutionaries stage another coup, demanding that Cherino keep her promises. Cherino is promptly overthrown once more.",
+  "DescTH": "หลังเอาชนะกลุ่มที่ทำปฏิวัติและได้ตำแหน่งประธานกลับคืนมา เชริโน่ก็กวาด\nล้างกลุ่มของมารินะอย่างเด็ดขาดแต่ในวันเทศกาลอีวาน คูปาลานี้นักเรียน\nที่เคยเข้าร่วมการปฎิวัติบอกให้เชริโน่รักษาสัญญาและเปิดฉากปฏิวัติขึ้น\nทำให้เชริโน่ถูกโค่นลงจากตำแหน่งอีกครั้ง",
+  "DescTW": "瑪麗娜等人遭到肅清，會長寶座重回潔莉諾的手中。然而在「伊凡．庫帕拉」慶典當天，幫助潔莉諾的學生們再次發動政變，要求潔莉諾「遵守約定」，使他再次下台了。",
+  "DialogJP": [
+    {
+      "Text": "第10話;返り咲く革命のイワン・クパーラ"
+    },
+    {
+      "Text": "レッドウィンター連邦学園・事務局"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "来た、見た、勝ったぁ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "トモエ、カムラッド！見たか？おいらの完璧な作戦で敵を粉砕するところを！"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "はい。本当に完璧な指揮でした、チェリノ会長！"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "それぞれ異なる所属の生徒たちを統一し、敵陣に向かって突き進むチェリノ会長……あのお姿はきっと生徒たちの心に深く刻み込まれ、レッドウィンター連邦学園の歴史の1ページとして永遠に語り継がれることでしょう。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "せっかくですし、後世の生徒たちもそのお姿が見られるように、画家を呼んで戦争画を描かせましょうか？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふむ。良い考えだな、トモエ秘書室長！すぐに進めるように！"
+    },
+    {
+      "Text": "[s] \"あれって、適当に叫んでるわけじゃなかったんだ……？\""
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "何を言ってるんだ、カムラッド！\nあれは士気を高めるための、勇敢なる戦場の叫び！「ウォークライ」というやつだ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もしあの声が愚図る子供の泣き声のようにでも聞こえたというのなら、お前の耳に問題があるに違いない！手配してやるから、すぐに病院に行って耳の治療を受けてこい！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふう……とにかく、また事務局に戻れて良かった。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "棚はおやつでいっぱいだし、玉座はフカフカだし、家に帰ってきたみたいにホッとする……。やはり我が執務室は、こうでないと！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "こうなったら今日は、この玉座に座ってポテトチップスを食べて、もう一歩も動かないぞ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "だがその前に……クーデターについて、言い訳でも聞こうか？マリナ委員長？"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "ううっ……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "マリナ、おいらが今までお前をどれだけ大切にし、信頼していたか……それなのに、よくもおいらの昼寝の時間を狙ってクーデターを起こしたな！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "許さないぞ！"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "面目次第もございません、チェリノ会長……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "うむ、うむ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "それで、おいらに反旗を翻した本当の理由はなんだ？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……やっぱりおいらがあの時、マリナのプリンをこっそり盗み食いしたことで、腹を立てたのか？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "それとも、マリナが大事にしている熊のぬいぐるみを、こっそり枕に使ったからか……？"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "……プリン？熊のぬいぐるみ？何のことでしょうか……？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "お、思い出せないならそれでいいのだ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "（あ、危ないところだった。危うくマリナが覚えてもいないことを、自分の口から白状するところだった！）"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……おっほん！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "それではプリンでも熊のぬいぐるみでもないなら、どんな理由でクーデターを起こしたのだ？"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "あの、それは……実はチェリノ会長の石像を不注意で割ってしまって……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "石像？何の石像だ？"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "新館の廊下にある、会長の石像です。先月、新館の増築を記念して、チェリノ会長の謹厳なお姿を石像にしてあそこに設置しました。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "（そ、そんな石像あったか……？確かにあったような気も、する……？）"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "しかし、不注意でその石像にぶつかって、お顔の髭の部分が割れてしまい……会長の権威をこの手で失墜させてしまいました。"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "故意ではなかったとはいえ、きっと会長にはお許しいただけないだろうと思い、それで……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "なんだ、そんな理由でクーデターを起こしたのか。"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "え？そんな理由、とは……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "マリナ、お前はレッドウィンター連邦学園における事務局の保安委員長であり、我が忠実な右腕として、今までたくさんの仕事をこなしてきた。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "いくらおいらが有能だとしても、お前がいなかったら今のこの座までは登れなかっただろう。お前を失うことに比べたら、石像の髭が割れるぐらい些細な問題だ。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "おいらは寛容だからな――そんな些細なことで粛清は下さないのだ。はははははっ！"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "会長……！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……とでも言うと思ったか！！"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "えっ、うわっ！？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "お前のせいでおいらがここしばらく、どれだけ苦労をしたと思う？昼寝もできないし、おやつも食べられない！生徒たちにはチビと言われるわ無視されるわ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "石像のことはどうでもいいが、クーデターを起こしたことについては許さない！"
+    },
+    {
+      "Name": "マリナ",
+      "Text": "チェ、チェリノ会長！どうかお許しを！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ダメだ！絶対に許してたまるものか！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "トモエ、今すぐマリナと親衛隊の連中を連れていき、一か月間トイレ掃除の刑に処するように！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "さあ、それでは粛清のパレードを始めるとしよう！"
+    },
+    {
+      "Text": "事件から一週間後、「イワン・クパーラ」当日"
+    },
+    {
+      "Text": "レッドウィンター連邦学園・正門"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "おかえりなさいませ、先生。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "チェリノ会長が中でお待ちです。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "こちらへ……。"
+    },
+    {
+      "Text": "レッドウィンター連邦学園・会長執務室"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふっふっふ。ようこそ、カムラッド。\n絶好のお祭り日和だな。"
+    },
+    {
+      "Text": "[s] \"うん、良かったね。\""
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "レッドウィンター連邦学園のめでたいお祭りを、こうやってカムラッドと過ごせることは、私としても大変喜ばしい。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "本来レッドウィンター連邦学園の「イワン・クパーラ」には、外部の者は入れない原則だったのだが……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "カムラッドには、この前の事件で多大な迷惑をかけたこともあるからな。生徒会長の権限で特別に招待したのだ。誇りに思うといい！ははは！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ところで別件なのだが、カムラッド。\n一週間前と比べて、何か変わったようには見えないか？"
+    },
+    {
+      "Text": "[s] \"何だか学園全体が綺麗になった気がするね。\""
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ふむ、それはマリナと保安委員たちが毎日頑張って学校を掃除してるからだろう。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "最初はトイレ掃除だけを任せようと思っていたのだが、想像以上に素晴らしい掃除の才能を見せてな。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "このままだと清掃部部長の職位を奪われてしまわないか、怖いぐらいだ。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……って、学校の見た目の話ではない！\nおいらに何か変わったことはないかと聞いてるのだ！"
+    },
+    {
+      "Text": "[s] \"身長がちょっと伸びた気がする。\""
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "そ、そ、それは本当か！？カムラッド！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "メジャーを持ってこい！今すぐに身長を測ろう！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……なんだ、ちっとも伸びていないじゃないか。\nおいらをからかってるのか、カムラッド！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "いくらシャーレの先生とはいえ、この偉大なチェリノ様をからかうなんて本来は許されないことなんだぞ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もちろん身長も重要だが……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "おいらが最初に言おうとしたのは、主に内面の変化のことだ。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "この前の騒動の後、おいらは今まであまり気にかけてこなかった、レッドウィンター連邦学園の生徒たちの苦情に、耳を傾けるようになった。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "トモエ秘書室長の話によれば、生徒たちの苦情に耳を傾け、共感し、解決策を約束するおいらの姿は「まるで先生がお仕事されている時の姿のようだった」、とのことで……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "先生の仕事とは、すなわち大人の仕事！凡百の生徒にはなかなかできない難しいことだ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "つまり、おいらはあの騒動を通じて、今までにないくらい大人の階段を上ったということだな！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "どうだ、カムラッド。以前と違って、おいらの内面から湧き出るような、大人の魅力が感じられないか？ふふふ……！"
+    },
+    {
+      "Text": "[s] \"ちなみに、他の生徒たちに言った約束は、全部守ったの？\""
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "ん、ん……？や、約束？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "それは、えっと……今すぐゲヘナ学園やトリニティ総合学園を攻撃するのは、やっぱり難しいし……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "それに227号特別クラスのやつは、あの後またおいらのことをチビと呼んだのだ！\n不敬罪に当たるから、やっぱり今すぐに復帰は認められない！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "約束は保留！しばらくはこのまま現状維持だ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "とにかく、カムラッド。今日は時間も十分にあるし、その、おいらと一緒に――"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "チェリノ会長、大変です！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……なんだ、トモエ秘書室長。\nカムラッドと二人っきりで話している時は邪魔をするなと言っただろう！"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "それが、緊急事態でして……旧校舎の「227号特別クラス」の生徒たちが、前回の約束を守れと事務局に押し寄せてきています！"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "その上、「知識解放戦線」と「工務部」の生徒たちも一緒になって……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "なに？忍耐力の無いやつらめ！\n騒ぎが収まったばかりというのに、お祭りが終わる前からまた次のクーデターか！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "マリナ保安委員長と親衛隊を送れ、クーデターを鎮圧させろ！"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "その、マリナ委員長は一晩中トイレ掃除をしていたせいでお疲れでして……戦える状態ではありません。"
+    },
+    {
+      "Name": "トモエ",
+      "Text": "親衛隊のメンバーもほとんど、前回の粛清で追い出されているか、謹慎中の身でして……。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "なんだ、となると……また逃げないといけないのか！？せっかくゆっくりできると思ったのに、今度はどこに逃げろと言うんだ！？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もう失脚はこりごりだあぁぁぁーーーーー！"
+    },
+    {
+      "Text": "革命のイワン・クパーラ"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제10화;붉은겨울 학원의 혁명적 휴일"
+    },
+    {
+      "Text": "붉은겨울 학원 사무국"
+    },
+    {
+      "Name": "체리노",
+      "Text": "왔노라, 보았노라, 이겼노라!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "보았느냐, 토모에, 콤라드? 이 몸이 완벽한 작전으로 적을 분쇄하는 모습을!"
+    },
+    {
+      "Name": "토모에",
+      "Text": "네. 정말 완벽한 지휘였습니다, 체리노 회장님!"
+    },
+    {
+      "Name": "토모에",
+      "Text": "각기 다른 소속의 학생들을 규합하여 적진을 향해 나아가는 체리노 회장님의 모습은 분명 학생들의 심상에 깊이 아로새겨져 붉은겨울 학원의 역사에 길이길이 구전되겠지요."
+    },
+    {
+      "Name": "토모에",
+      "Text": "아니, 이럴 게 아니라 후대의 학생들도 그 모습을 눈으로 볼 수 있도록 화가를 불러 기록화를 그리게 할까요?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "음. 좋은 생각이다, 토모에 총비서실장! 바로 진행하도록!"
+    },
+    {
+      "Text": "[s] \"내가 보기에는 막무가내로 소리만 지르는 것처럼 보였는데…….\""
+    },
+    {
+      "Name": "체리노",
+      "Text": "그게 무슨 망언인가, 콤라드! \n그것은 학생들의 사기를 돋우기 위한 용맹한 전장의 함성이었느니라! 워 크라이—라고!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그 목소리가 어린아이의 투정처럼 들렸더라면 당장 병원에 가서 귀 치료를 받고 오게나. 그대의 귀에 문제가 있는 게 분명하니!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "하아…… 어찌 되었든 간에 사무국에 다시 돌아오니 좋구나."
+    },
+    {
+      "Name": "체리노",
+      "Text": "찬장에는 간식이 가득하고, 옥좌는 푹신하니, 집에 돌아온 것처럼 마음이 편안해……. 역시 이 몸의 집무실이라면 이 정도는 되어야지!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "오늘 남은 하루는 이 옥좌에 눌러앉아 감자칩을 먹으며 한 발자국도 움직이지 않을 테다!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그전에…… 어디 한 번 쿠데타에 대한 변명을 들어보도록 할까, 마리나 위원장?"
+    },
+    {
+      "Name": "마리나",
+      "Text": "으윽……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "마리나. 내가 그동안 그대를 얼마나 아끼고 신뢰했었는데, 감히 이 몸의 낮잠 시간을 틈타 쿠데타를 일으키다니! "
+    },
+    {
+      "Name": "체리노",
+      "Text": "용서할 수 없어!"
+    },
+    {
+      "Name": "마리나",
+      "Text": "면목 없습니다, 체리노 회장님……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "흠, 흠!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그래서, 이 몸에게 반기를 들고 일어난 진짜 이유가 뭐지?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……역시 내가 그때 마리나의 푸딩을 몰래 훔쳐먹은 것 때문에 화가 난 거야?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "아니면 마리나가 아끼는 곰인형을 몰래 베고 자서……?"
+    },
+    {
+      "Name": "마리나",
+      "Text": "푸딩과 곰인형이요? 그게 무슨 말씀이신지……?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "기, 기억나지 않으면 떠올리지 않아도 괜찮느니라!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "(시, 실수할 뻔했네. 하마터면 마리나가 기억하지도 못하는 잘못을 내 입으로 먼저 실토할 뻔했어!)"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……엣헴!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그럼 푸딩도 곰인형도 아니라면 무슨 이유 때문에 쿠데타를 일으킨 거지?"
+    },
+    {
+      "Name": "마리나",
+      "Text": "저, 그게…… 사실은 체리노 회장님의 석상을 실수로 깨트려서……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "석상? 무슨 석상?"
+    },
+    {
+      "Name": "마리나",
+      "Text": "신관 복도에 있는 회장님의 석상 말입니다. 지난달 신관 증축을 기념하여 체리노 회장님의 근엄한 모습을 석상으로 만들어 그곳에 설치했었지요."
+    },
+    {
+      "Name": "체리노",
+      "Text": "(그, 그런 석상이 거기에 있었던가……? 기억이 나는 것 같기도 하고…….)"
+    },
+    {
+      "Name": "마리나",
+      "Text": "그런데 실수로 그 석상에 부딪혀서 얼굴의 수염 부분이 깨져 나가는 바람에…… 회장님의 권위를 제 손으로 실추시키고 말았습니다."
+    },
+    {
+      "Name": "마리나",
+      "Text": "고의가 아니었다고는 하지만, 분명 회장님께 용서받지 못할 거라 생각해서, 그만……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "뭐야. 겨우 그런 것 때문에 쿠데타를 일으킨 건가."
+    },
+    {
+      "Name": "마리나",
+      "Text": "네? 그 말씀은……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "마리나, 그대는 붉은겨울 학원 사무국의 보안위원장이자, 이 몸의 충실한 오른팔으로 그동안 수많은 일을 해왔었네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "위원장이 없었더라면 아무리 이 몸이 유능하다 하더라도 지금의 자리까지는 오를 수 없었겠지. 그대를 잃는 것에 비하면 석상의 수염이 깨지는 건 사소한 문제라네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "이 몸은 관대하니까— 그런 사소한 일로 숙청 따위는 하지 않는다고. 하하하!"
+    },
+    {
+      "Name": "마리나",
+      "Text": "회장님……!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……라고 말할 줄 알았냐!"
+    },
+    {
+      "Name": "마리나",
+      "Text": "우, 우앗?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "너 때문에 내가 얼마나 고생한 줄 알아? 낮잠도 제대로 못 자고, 간식도 제대로 못 먹고! 학생들에게는 꼬맹이라고 무시당하기만 하고!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "석상의 콧수염은 아무래도 상관없지만, 쿠데타를 일으킨 죄는 절대로 용서할 수 없어!"
+    },
+    {
+      "Name": "마리나",
+      "Text": "체, 체리노 회장님! 제발 한 번만 용서를!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "안 돼! 이번 일은 절대로 용서 못 해!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "토모에, 지금 당장 마리나와 그 일당을 끌고 가 화장실 청소 한 달 형에 처하도록!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "숙청 퍼레이드, 개시다!"
+    },
+    {
+      "Text": "사건이 벌어지고 일주일 뒤. 이반 쿠팔라 축제 당일."
+    },
+    {
+      "Text": "붉은겨울 학원 정문"
+    },
+    {
+      "Name": "토모에",
+      "Text": "어서 오십시오, 선생님."
+    },
+    {
+      "Name": "토모에",
+      "Text": "체리노 회장께서 안에서 기다리고 계십니다."
+    },
+    {
+      "Name": "토모에",
+      "Text": "이쪽으로……."
+    },
+    {
+      "Text": "붉은겨울 학원 회장 집무실"
+    },
+    {
+      "Name": "체리노",
+      "Text": "후, 후, 후. 어서 오게나. 콤라드. \n멋진 이반 쿠팔라가 되기를!"
+    },
+    {
+      "Text": "[s] \"멋진 이반 쿠팔라가 되기를, 체리노.\""
+    },
+    {
+      "Name": "체리노",
+      "Text": "붉은겨울 학원의 경사스러운 축제를 이렇게 콤라드와 함께 보낼 수 있다니, 이 몸도 기쁘기 그지없군."
+    },
+    {
+      "Name": "체리노",
+      "Text": "본래 이반 쿠팔라 축제에는 외부인을 들이지 않는 것이 원칙이지만……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "콤라드에게는 지난번의 사건 때 큰 실례를 끼쳤으니, 학생회장의 권한으로 그대를 특별 초청한 것이라네. 자랑스럽게 여겨도 좋아! 하하하!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그래서 말인데, 콤라드. \n일주일 전과 비교하여 무언가 바뀐 것처럼 보이지 않는가?"
+    },
+    {
+      "Text": "[s] \"학교가 좀 더 깨끗해진 것 같아.\""
+    },
+    {
+      "Name": "체리노",
+      "Text": "음, 그야 마리나와 보안위원들이 매일매일 열심히 학교를 청소하고 있기 때문이지."
+    },
+    {
+      "Name": "체리노",
+      "Text": "처음에는 화장실 청소만 맡기려고 했는데, 생각보다 청소에 탁월한 재능을 보여서 말이야."
+    },
+    {
+      "Name": "체리노",
+      "Text": "이대로 가다가는 청소부장의 직위를 빼앗기게 될까 두려울 정도라네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "……아니, 학교의 모습이 아니라! \n이 몸에게 바뀐 점이 없냐고 물은 것이네!"
+    },
+    {
+      "Text": "[s] \"체리노의 키가 좀 더 큰 것 같아.\""
+    },
+    {
+      "Name": "체리노",
+      "Text": "그, 그, 그게 정말인가? 콤라드!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "키재기용 줄자를 가져오게! 당장 키를 재봐야겠어!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……뭐야, 조금도 자라지 않았잖나. \n지금 나를 놀리는 겐가, 콤라드!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "콤라드가 아무리 샬레의 선생이라고는 하지만, 이 위대하신 체리노 님을 놀리는 것은 허락되지 않는다고!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "흠흠! 물론 키가 자라는 것도 중요하지만……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "내가 처음에 말하려고 했던 변화는 바로 내면의 변화를 말하는 것이었네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "지난번의 소동을 거치며 이 몸은 그동안 알지 못했던 붉은겨울 학원 학생들의 고충에 귀를 기울이게 되었지."
+    },
+    {
+      "Name": "체리노",
+      "Text": "토모에 비서실장의 말에 의하면 학생들의 고충을 들어주고, 공감하며, 해결책을 약속하는 이 몸의 모습은 마치 선생과도 같았다고 한다……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "선생의 일이란, 어른의 일! 평범한 학생 따위가 수행할 수 없는 어려운 일이지!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그 말인즉, 이 몸은 지난 소동을 거치며 그전까지는 경험해 보지 못한 어른의 계단을 올랐다는 뜻이다!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "어떤가, 콤라드. 전과는 달리 이 몸에게서 어른의 매력이 느껴지지 않는가? 후후후……!"
+    },
+    {
+      "Text": "[s] \"그때 다른 학생들에게 했던 약속들은 모두 지켰어?\""
+    },
+    {
+      "Name": "체리노",
+      "Text": "어, 어……? 야, 약속들 말인가?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그게…… 당장 게헨나 학원과 트리니티 학원을 공격하는 건 어려운 데다가……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "게다가 특별반의 학생들은 계속 나를 꼬맹이라고 부르지 않았나! \n괘씸죄를 물어서라도 당장 복권시켜줄 수는 없어!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "약속은 보류다! 당분간은 이대로 현상 유지이니라!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "여하튼, 콤라드. 오늘은 시간도 충분하니 나와 함께 오붓이—"
+    },
+    {
+      "Name": "토모에",
+      "Text": "체리노 회장님, 큰일입니다!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "뭔가, 토모에 총비서실장. \n콤라드와 단둘이 이야기할 때는 방해하지 말라고 했을 텐데!"
+    },
+    {
+      "Name": "토모에",
+      "Text": "그게…… <구교사 227호 특별반>의 학생들이 지난번의 약속을 지키라며 사무국으로 몰려들고 있습니다!"
+    },
+    {
+      "Name": "토모에",
+      "Text": "그뿐만이 아니라 <지식해방전선>과 <용역부>의 학생들도 함께……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "뭐라고? 이 참을성도 없는 녀석들 같으니라고! \n소동이 마무리된 지 얼마나 지났다고 축제가 끝나기도 전에 새로운 쿠데타라니!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "마리나 보안위원장과 친위대를 내보내 쿠데타를 진압하도록 해라!"
+    },
+    {
+      "Name": "토모에",
+      "Text": "하지만 마리나 위원장은 밤새도록 화장실 청소를 하느라 지쳐서…… 지금 싸울 수 있는 상태가 아닙니다."
+    },
+    {
+      "Name": "토모에",
+      "Text": "게다가 친위대원의 대부분도 지난번의 숙청으로 쫓겨나거나 근신 중이라……."
+    },
+    {
+      "Name": "체리노",
+      "Text": "뭐야, 또 도망쳐야 하는 거야? 이제는 어디로 도망치라고!?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "실각은 이제 지긋지긋해—!"
+    },
+    {
+      "Text": "혁명의 이반 쿠팔라"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 10;Red Winter Academy's Revolutionary Holiday"
+    },
+    {
+      "Text": "Red Winter Academy Secretariat"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "We came, we saw, and we conquered!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Comrade and Tomoe, did you see that? Did you see how brilliantly I led everyone to victory?"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "Of course. You performed exceptionally, President Cherino!"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "I'm sure tales of you rallying students of different walks of life to defeat the vile usurpers will live in the hearts of Red Winter students for years to come."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "How about we have a painter to capture this moment of valor so the next generation can experience it for themselves?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hmm, an excellent idea, Chief Secretary Tomoe! Go ahead and get on that!"
+    },
+    {
+      "Text": "[s] \"But you were just screaming the whole time...\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "That was merely your impression, Comrade! Those were valiant battle cries to swell the students' morale!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "If all you heard was a little girl screaming, you should get your ears checked!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Ahhh... It's nice to be back at the secretariat."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "The cupboard is packed with snacks, and the chair is nice and comfy. I'm exactly where I belong, the top office!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I'm going to spend the rest of the day sitting in this chair and eating potato chips, not moving a muscle!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "But before I rest...let's hear your excuse for staging this coup, \"Chairman\" Marina."
+    },
+    {
+      "Name": "Marina",
+      "Text": "*gulp*"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "You were a trusted comrade, Marina. How dare you take advantage of my nap to stage a coup?!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "You've committed an unforgivable crime!"
+    },
+    {
+      "Name": "Marina",
+      "Text": "I'm so ashamed, President Cherino..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hmph!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Out with it. Why did you betray me?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "...Were you mad because I stole your pudding?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Or maybe because I drooled on your favorite teddy bear...?"
+    },
+    {
+      "Name": "Marina",
+      "Text": "Pudding? Drool? What are you talking about...?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "P-Purely hypothetical possibilities, th-that's all! "
+    },
+    {
+      "Name": "Cherino",
+      "Text": "(Phew! I almost confessed for stuff she didn't even know I did!)"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Ahem!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "So if it wasn't one of those...hypotheticals, then why did you overthrow me?"
+    },
+    {
+      "Name": "Marina",
+      "Text": "Well, it's just...I accidentally broke your statue and—"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Statue? What statue?"
+    },
+    {
+      "Name": "Marina",
+      "Text": "The bust of you in the new building's hallway. The statue was made to commemorate the building's opening last month."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "(Wait, really? I guess I might have heard something about that...)"
+    },
+    {
+      "Name": "Marina",
+      "Text": "I accidentally bumped into the statue and its mustache broke off... Your authority was tarnished because of my negligence."
+    },
+    {
+      "Name": "Marina",
+      "Text": "Even though it wasn't on purpose, I knew there was no chance of forgiveness, so I—"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Wait! Was that really the only reason?"
+    },
+    {
+      "Name": "Marina",
+      "Text": "Huh? Does that mean...?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Marina, you've been my right hand as the security chairman for such a long time."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "No matter how talented I am, I never would have made it to where I am today without you. Losing a stone mustache is nothing compared to losing you."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I'm far too merciful to punish you for something like that..."
+    },
+    {
+      "Name": "Marina",
+      "Text": "President!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "...That's what you were hoping I would say, RIGHT?!"
+    },
+    {
+      "Name": "Marina",
+      "Text": "Wh-What the...?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Do you have any idea how much I suffered because of you? No nap! No snacks! The students all made fun of me and called me a little brat!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I couldn't care less about some measly mustache, but I'm never going to let you live down inciting this coup!"
+    },
+    {
+      "Name": "Marina",
+      "Text": "P-President Cherino! Please forgive me, just this once!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Denied! Never forgive! Never forget!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Tomoe! Take Marina and her followers and make them clean the bathrooms for a month!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Let the punishment rain down like hellfire!"
+    },
+    {
+      "Text": "One week later, on the day of the Ivan Kupala Festival..."
+    },
+    {
+      "Text": "Red Winter Academy Main Gate"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "Welcome, Sensei."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "President Cherino is waiting inside."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "If you'd please follow me..."
+    },
+    {
+      "Text": "Red Winter Academy Presidential Office"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Hahaha! Welcome, Comrade. Happy Ivan Kupala!"
+    },
+    {
+      "Text": "[s] \"Happy Ivan Kupala, Cherino.\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Getting to spend Red Winter Academy's festival with you makes me really happy, Comrade."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Normally, outsiders wouldn't be allowed in during the festival. "
+    },
+    {
+      "Name": "Cherino",
+      "Text": "However, in light of your immaculate service last time, I've granted you a special invite. You should feel quite honored, Comrade!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Tell me, does anything about the school seem different than it was a week ago?"
+    },
+    {
+      "Text": "[s] \"The campus is looking a bit cleaner.\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Oh, that? Marina and her goons have been cleaning the school every day."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I'd planned on having them just do the bathrooms, but as it turns out, they're a really good cleaning crew!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "At this rate, my title of Chief of Sanitation may be in jeopardy."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "But enough about that, I wasn't talking about the school! I meant have you noticed anything different about me!"
+    },
+    {
+      "Text": "[s] \"Did you get taller?\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Wait, r-really? Are you serious right now, Comrade?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Where's my measuring tape?! I need to check immediately!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "What's the meaning of this? I didn't grow at all! Are you making fun of me, Comrade?!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I don't care if you're from Schale, teasing me will not be tolerated!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Ahem! Yes, a height gain would be nice."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "But I was talking about an inner change."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Since the coup, I've made a point to listen to my students' concerns."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Chief Secretary Tomoe said that when I listened to the students, empathized with them, and promised to find a solution, I reminded her of you..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Think about it! You're a grown-up, so you can do stuff us students can only hope to do someday!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "If I remind Tomoe of you, that means I've ascended to a new level of greatness!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "So what do you think, Comrade? Are you taken aback at my newfound maturity?"
+    },
+    {
+      "Text": "[s] \"Have you kept all the promises you made to the students?\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Uh, what...? Which promises are we talking about?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Oh, those promises... Um... Well, we can't really launch an offensive on Gehenna or Trinity right now..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Besides, those Spec Ops students kept calling me a little brat! I can't let them get away with that!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Those promises are on hold until further notice! Things will stay exactly as they are for now!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Enough of that. You and I have plenty of time to enjoy the festival today, Comrade. Why don't we—"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "Ch-Cherino! We have an emergency!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "What is it now, Chief Secretary Tomoe? I told you not to interrupt me and Comrade!"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "Th-The students from Spec Ops No. 227 are storming the secretariat, demanding that you uphold your promise!"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "But it's not just them. The Knowledge Liberation Front and Labor Party are also with them..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Huuuh?! They're so impatient! The festival isn't even over, and we have another coup to deal with already?!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Deploy Security Chairman Marina and the State Guard to handle the coup!"
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "But Chairman Marina is exhausted from cleaning the bathrooms all night... She's in no condition to fight."
+    },
+    {
+      "Name": "Tomoe",
+      "Text": "And most of the State Guard were either dismissed or put on probation following the last coup..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "N-No way! Are you saying I have to run away again? Where am I supposed to go this time?!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I'm sick and tired of coups!"
+    },
+    {
+      "Text": "A Revolutionary Ivan Kupala"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 10;วันหยุดแห่งการปฏิวัติของสหภาพเรดวินเทอร์"
+    },
+    {
+      "Text": "สำนักเลขาธิการสหภาพเรดวินเทอร์"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราแค้น! เรามาล้างแค้น! แล้วเราก็ชนะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "โทโมเอะ สหาย เห็นเราเอาชนะศัตรูด้วยแผนการที่สมบูรณ์แบบแล้วใช่ไหม?"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "ค่ะ เป็นการสั่งการต่อสู้ที่สมบูรณ์แบบมากค่ะท่านประธานเชริโน่!"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "นักเรียนที่นี่จะต้องจดจำการระดมพลนักเรียนจากสังกัดต่างๆ แล้วมุ่งสู่ดินแดนของศัตรูอย่างกล้าหาญ\nของท่านประธานเชริโน่ และสิ่งนี้จะถูกจารึกในประวัติศาสตร์ของสหภาพเรดวินเทอร์แน่นอนค่ะ"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "จริงสิ เราเรียกจิตรกรมาวาดภาพประวัติศาสตร์ของเหตุการณ์ในวันนี้\nเพื่อให้นักเรียนรุ่นหลังได้เห็นกันดีไหมคะ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เป็นความคิดที่ดีเลยหัวหน้าเลขานุการโทโมเอะ! ไปจัดการเรื่องนี้ได้เลย!"
+    },
+    {
+      "Text": "[s] \"ครูเห็นเธอเอาแต่ออกคำสั่งด้วยความถือทิฐิมากกว่านะ\""
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "พูดอะไรออกมาน่ะสหาย!\nนั่นเป็นการส่งเสียงในสนามรบอย่างกล้าหาญเพื่อปลุกขวัญกำลังใจของนักเรียนต่างหาก!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถ้าสหายได้ยินเสียงนั้นเป็นเสียงบ่นพึมพำของเด็กล่ะก็ รีบไปโรงพยาบาลเพื่อตรวจหูดูดีกว่านะ\nหูของสหายน่าจะมีปัญหาแล้วล่ะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เฮ้อ... ในที่สุดก็ได้สำนักเลขาธิการคืนมาอีกครั้ง หายเหนื่อยแล้วล่ะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "มีของว่างใส่ไว้ล้นตู้ แถมที่นั่งประจำตำแหน่งก็เบาะนุ่มอีก รู้สึกดีเหมือนได้กลับมาบ้านเลย...\nสำนักงานของเราต้องสบายเบอร์นี้แหละ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ใช้เวลาที่เหลือของวันนี้นั่งกินมันฝรั่งทอดบนเก้าอี้นุ่มๆ นี่ดีกว่า! เราจะไม่ขยับไปไหนเลย!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "จริงสิ เราควรจะได้ฟังข้ออ้างเรื่องการปฏิวัติหน่อยว่าไหม หัวหน้าคณะฯ มารินะ?"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "อึ้ก....."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "มารินะ ที่ผ่านมาเราเคยเชื่อและไว้ใจเธอมาก\nกล้าดียังไงมายึดอำนาจในเวลานอนกลางวันที่สำคัญของเรา!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ยกโทษให้ไม่ได้!"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "ฉันละอายใจจริงๆ ค่ะท่านประธานเชริโน่..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ฮึ่ม ฮึ่ม!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เหตุผลจริงๆ ที่ลุกขึ้นมาต่อต้านเราคืออะไรงั้นรึ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เธอโกรธที่เราแอบกินพุดดิ้งของเธอเหรอ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "หรือว่าเพราะเรานอนหนุนตุ๊กตาหมีตัวโปรดของเธอ...?"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "พุดดิ้งกับตุ๊กตาหมี? ท่านประธานหมายถึงอะไรเหรอคะ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อ้อ! ถ้าจำไม่ได้ก็ไม่จำเป็นต้องนึกขึ้นมาหรอกนะ ไม่เป็นไร!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "(เกือบไปแล้วสิ เกือบสารภาพความผิดในสิ่งที่มารินะจำไม่ได้แล้ว!)"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "...อะแฮ่ม!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "งั้นถ้าไม่ใช่เพราะพุดดิ้งกับตุ๊กตาหมี แล้วเธอก่อปฏิวัติทำไมล่ะ?"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "เอ่อ... คือว่า... ฉันเผลอทำรูปปั้นของท่านประธานเชริโน่แตก..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "รูปปั้น? รูปปั้นอะไรเหรอ?"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "รูปปั้นท่านประธานที่จะเอาไปวางในทางเดินในตึกใหม่น่ะค่ะ เดือนที่แล้วเราทำรูปปั้น\nในท่าทางที่เคร่งขรึมของท่านประธานเพื่อฉลองตึกใหม่ แล้วก็เอาไปตั้งไว้ที่นั่นค่ะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "(มีรูปปั้นของเราอยู่ที่นั่นด้วยเหรอ...? จำไม่ได้เลยแฮะ...)"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "แต่ว่าตอนรูปปั้นล้ม ส่วนที่แตกดันเป็นหนวด...\nฉันผิดเองที่อำนาจของท่านประธานต้องพังทลายด้วยมือของฉันค่ะ"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "ถึงฉันจะไม่ได้ตั้งใจ แต่ก็คิดว่าท่านประธานคงไม่ยกโทษให้แน่ๆ ก็เลย..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อะไรกัน? นี่เธอก่อปฏิวัติเพราะเรื่องแค่นี้น่ะเหรอ?"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "คะ? พูดแบบนี้หมายความว่า..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "มารินะ เธอคือหัวหน้าคณะความมั่นคงแห่งสำนักเลขาธิการของสหภาพเรดวินเทอร์\nและเป็นมือขวาที่ซื่อสัตย์ของเรามานานนะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถ้าไม่มีหัวหน้าคณะฯ เราคงมาอยู่ในตำแหน่งนี้ไม่ได้ ถึงเราจะมีความสามารถแค่ไหนก็ตาม เทียบกับ\n"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราใจกว้างกว่าที่เธอคิดนะ เราไม่ลงโทษเธอเพราะเรื่องเล็กๆ แบบนั้นหรอก ฮ่ะฮ่ะฮ่า!"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "ท่านประธาน...!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "... คิดว่าเราจะพูดแบบเมื่อกี้จริงๆ เรอะ!"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "หะ... หา??"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "รู้ไหมว่าเราต้องออกไปลำบากมากแค่ไหน? นอนกลางวันก็ไม่ได้นอน ของว่างก็ไม่ได้กินอีก!\nแถมยังโดนพวกนักเรียนดูถูกว่าเป็นเด็กตัวกะเปี๊ยกด้วย!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถึงเราจะไม่สนใจเรื่องหนวดที่รูปปั้น แต่เรื่องที่เธอมาก่อการปฏิวัติแบบนี้เรายกโทษให้ไม่ได้!"
+    },
+    {
+      "Name": "มารินะ",
+      "Text": "ทะ.. ท่านประธานเชริโน่! ยกโทษให้ฉันสักครั้งเถอะค่ะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ไม่ได้! เรื่องนี้เรายกโทษให้ไม่ได้เด็ดขาด!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "โทโมเอะ เอาตัวมารินะกับพรรคพวกไป แล้วลงโทษขัดห้องน้ำเป็นเวลา 1 เดือน!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เริ่มพาเหรดการลงโทษได้!"
+    },
+    {
+      "Text": "1 สัปดาห์หลังจากเกิดเรื่อง วันงานเทศกาลอีวาน คูปาลา"
+    },
+    {
+      "Text": "ประตูหน้า สหภาพเรดวินเทอร์"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "เชิญค่ะคุณครู"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "ประธานเชริโน่กำลังรออยู่ข้างในค่ะ"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "เชิญทางนี้ค่ะ..."
+    },
+    {
+      "Text": "สำนักงานประธานสหภาพเรดวินเทอร์"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ฮุฮุฮุ... เข้ามาสิสหาย\nสุขสันต์วันอีวาน คูปาลา!"
+    },
+    {
+      "Text": "[s] \"สุขสันต์วันอีวาน คูปาลานะเชริโน่\""
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราปลื้มใจมากที่ได้ใช้เวลาในเทศกาลที่น่ายินดีของสหภาพเรดวินเทอร์กับสหาย"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เดิมทีแล้วเราไม่อนุญาตให้คนนอกเข้ามาเที่ยวเทศกาลอีวาน คูปาลาหรอกนะ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "แต่ฉันติดหนี้สหายตั้งแต่เหตุการณ์ครั้งที่แล้ว ก็เลยใช้สิทธิของประธานสภานักเรียน\nในการเชิญสหายมาเป็นพิเศษ ถือเป็นความภาคภูมิใจในชีวิตได้เลยนะ! ฮ่ะฮ่ะฮ่า!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "จริงสิสหาย จะว่าไปแล้ว...\nเห็นความเปลี่ยนแปลงอะไรใน 1 สัปดาห์ที่ผ่านมาบ้างไหม?"
+    },
+    {
+      "Text": "[s] \"โรงเรียนดูสะอาดขึ้นนะ\""
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อืมม นั่นเป็นเพราะมารินะและสมาชิกคณะความมั่นคงทำความสะอาดโรงเรียนอยู่ในทุกวัน"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ตอนแรกเราจะให้ทำความสะอาดห้องน้ำอย่างเดียว\nแต่พวกเขาดูมีพรสวรรค์ด้านการทำความสะอาดกว่าที่คิด"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถ้าขืนปล่อยไว้แบบนี้ สักวันตำแหน่งหัวหน้าฝ่ายทำความสะอาดของเราต้องโดนยึดไปแน่เลย"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เดี๋ยวสิ... เราไม่ได้ถามถึงความเปลี่ยนแปลงในโรงเรียนสักหน่อย!\nไม่เห็นความเปลี่ยนแปลงอะไรบนตัวเราบ้างเลยเหรอ?"
+    },
+    {
+      "Text": "[s] \"เชริโน่ดูสูงขึ้นกว่าที่เห็นครั้งล่าสุดนะ\""
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "จะ.. จะ.. จริงเหรอสหาย!?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ไปเอาสายวัดตัวมาเร็วเข้า! เราต้องวัดส่วนสูงดูแล้วล่ะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อะไรกัน... ไม่เห็นจะสูงขึ้นมาเลย นี่สหายล้อเราเล่นงั้นเหรอ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถึงสหายจะเป็นถึงครูจากชาเล่ต์ แต่ก็ไม่มีสิทธิ์มาแกล้งท่านเชริโน่ผู้ยิ่งใหญ่นะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ฮึ่มม! แม้ความสูงจะเป็นเรื่องสำคัญก็เถอะ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ความเปลี่ยนแปลงที่เราอยากพูดถึงก็คือการเปลี่ยนแปลงภายในต่างหาก"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "การต้องไปตกอยู่ในความวุ่นวายที่ผ่านมาทำให้เราได้รู้ถึงความลำบากใจ\nของนักเรียนในสหภาพเรดวินเทอร์ที่เราไม่เคยรู้มาก่อน"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "โทโมเอะบอกว่าการที่เราลงไปรับฟังความลำบากของนักเรียน เข้าอกเข้าใจคนที่เจอปัญหา\nแล้วสัญญาว่าจะหาวิธีแก้ปัญหาไปด้วยกัน มันเหมือนกับว่าได้เห็นเราในร่างของครูเลย..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "แต่งานของครูคืองานของผู้ใหญ่! เป็นงานยากที่นักเรียนธรรมดาทั่วไปทำไม่ได้!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "และนี่หมายความว่าเราได้ก้าวผ่านความวุ่นวาย และขึ้นบันไดสู่ความเป็นผู้ใหญ่\nที่เราเองก็ไม่รู้เลยว่ามีอยู่ก่อนจะเกิดเรื่องต่างๆ ขึ้น"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ว่าไงล่ะสหาย? สัมผัสได้ถึงเสน่ห์ของผู้ใหญ่จากเราหรือยัง? ฮุฮุฮุ.....!"
+    },
+    {
+      "Text": "[s] \"รักษาสัญญาที่ทำไว้กับนักเรียนหมดหรือยังล่ะ?\""
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อะ... อ่อ...? สะ... สัญญาน่ะเหรอ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ตอนนี้การไปบุกสถาบันเกเฮนน่าและสถาบันทรีนิตี้ยังเป็นเรื่องยากอยู่..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "แถมพวกนักเรียนจากห้องเรียนพิเศษก็ยังเรียกเราว่าเด็กตัวกะเปี๊ยกด้วย!\nเราปล่อยให้พวกนั้นทำแบบนี้ไม่ได้!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เลื่อนการรักษาสัญญาออกไปก่อน! ขออยู่แบบนี้ไปสักระยะก่อนแล้วกัน!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เอาเถอะสหาย ไหนๆ วันนี้เราก็มีเวลาแล้ว เราไปเที่ยวงาน..."
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "ท่านประธานเชริโน่! เกิดเรื่องใหญ่แล้วค่ะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "มีเรื่องอะไร หัวหน้าเลขานุการโทโมเอะ? เราบอกไว้แล้วไม่ใช่เหรอว่าอย่ารบกวนตอนกำลังคุยกับสหาย!"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "พวกนักเรียนจาก <อาคารเรียนเก่า ห้องพิเศษ 227> กำลังบุกมาที่สำนักเลขาธิการ\nเพราะต้องการให้เรารักษาสัญญาที่ทำไว้ค่ะ!"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "แถมยังมีนักเรียนจาก <ชมรมแนวร่วมปลดปล่อยความรู้> และ <ชมรมผู้รับจ้าง> แห่กันมาด้วย..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ว่าไงนะ? คนพวกนี้ไม่มีความอดทนเอาเสียเลย! เราเพิ่งจบเรื่องวุ่นวายไปไม่กี่วันเอง\nนี่เกิดการปฏิวัติอีกแล้วเหรอ? เทศกาลยังไม่ทันได้จบเลยด้วย!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ส่งหัวหน้าคณะฯ มารินะกับกองกำลังป้องกันออกไปจัดการคณะก่อปฏิวัติ!"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "แต่หัวหน้าคณะฯ มารินะเหน็ดเหนื่อยจากการทำความสะอาดห้องน้ำทั้งคืน...\nตอนนี้เธอไม่พร้อมต่อสู้หรอกค่ะ"
+    },
+    {
+      "Name": "โทโมเอะ",
+      "Text": "แถมสมาชิกกองกำลังป้องกันส่วนใหญ่ก็ถูกไล่ออก ไม่ก็ถูกคุมประพฤติจากการลงโทษครั้งล่าสุด..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "อะไรกัน? งั้นเราต้องหนีอีกรอบเหรอ? ทีนี้จะให้ไปที่ไหนล่ะ!?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราเบื่อกับการถูกปลดแล้วนะะะะ!"
+    },
+    {
+      "Text": "ปฏิวัติป่วน อีวาน คูปาลา"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第10話;革命再起的伊凡．庫帕拉"
+    },
+    {
+      "Text": "赤冬聯邦學園．事務局"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "我來，我見，我征服！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "智惠、同志！看到了嗎？咱以完美的作戰粉碎敵人的英姿！"
+    },
+    {
+      "Name": "智惠",
+      "Text": "是。真是無以倫比的指揮，潔莉諾會長！"
+    },
+    {
+      "Name": "智惠",
+      "Text": "潔莉諾會長團結了不同所屬的學生，朝著敵陣大步邁進的模樣……\n一定會深深刻印在學生們的心中，作為赤冬聯邦學園歷史上的一頁永遠流傳下去。"
+    },
+    {
+      "Name": "智惠",
+      "Text": "機會難得，為了讓後世的學生們也能一睹風采，何不找藝術家來畫張戰爭圖呢？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "哼呣。好主意啊，智惠秘書室長！立刻執行！"
+    },
+    {
+      "Text": "[s]「那個，不就只是隨便亂喊嗎……？」"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "你那是什麼話，同志！\n那是為了提振士氣的勇猛吶喊！是「戰吼」！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "如果覺得聽起來像是傻孩子的哭聲，那肯定是你耳朵有問題！馬上去醫院接受治療！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "呼嗚……總之，能再次回到事務局真是太好了。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "架子上擺滿了零食，軟綿綿的寶座，感覺就像回到家一樣踏實……\n咱的辦公室果然就應該像這個樣子！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "今天剩下的時間，咱要坐在這個寶座上舒舒服服地吃洋芋片，哪裡也不去！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "在那之前……先來聽聽你發動政變的理由吧？瑪麗娜委員長？"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "唔唔……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "瑪麗娜，咱是多麼重視你、信任你……沒想到你卻瞄準了咱睡午覺的時間發動政變！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "不可原諒！"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "我無顏以對，潔莉諾會長……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "嗯，嗯！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "所以，你背叛咱的真正原因為何？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……果然是因為咱那時偷吃了瑪麗娜的布丁，所以生氣了？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "還是因為咱偷偷用你心愛的熊娃娃當枕頭……？"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "……布丁？熊娃娃？什麼意思……？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "想，想不起來的話就算了！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "（好，好險。差點把瑪麗娜不記得的事情說溜嘴！）"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……咳哼！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "如果不是因為布丁或熊娃娃的話，到底有什麼理由要發動政變呢？"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "那個，其實是……我不小心摔破了潔莉諾會長的石像……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "石像？什麼石像？"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "是新館走廊上的會長石像。\n上個月，為了紀念擴建新館，製作了一尊潔莉諾會長莊嚴面貌的石像並設置在那裡。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "（有那種石像嗎……？感覺好像有又好像沒有……？）"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "因為失手撞到石像，石像臉上的鬍子部分碎了……是我的這雙手使會長的權威掃地。"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "雖然說不是故意的，但會長肯定不會原諒這種錯誤，所以就……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "什麼嘛，就為了那種理由發動政變嗎？"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "咦？那種理由的意思……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "瑪麗娜，你是赤冬聯邦學園事務局的保安委員長，\n作為咱最忠實的左右手，一直以來做了許多工作。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "就算咱再怎麼能幹，如果沒有你，也爬不到現在這個位置。\n比起失去你，石像的鬍子碎裂不過是小問題罷了。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "咱的心胸可是很寬厚的──才不會因為那種雞毛蒜皮小事就肅清人呢。哈哈哈哈哈！"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "會長……！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……你以為咱會這麼說嗎！"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "咦，嗚哇！？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "你知道因為你，咱這段時間吃了多少苦嗎？\n不能睡午覺，點心也沒得吃！還被其他學生叫小毛頭跟無視！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "石像的事無所謂，但發動政變就是不可原諒！"
+    },
+    {
+      "Name": "瑪麗娜",
+      "Text": "潔，潔莉諾會長！請原諒我！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "不！絕對不原諒你！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "智惠，現在立刻把瑪麗娜和其同夥拉出去，處以一個月的打掃廁所之刑！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "那麼，開始肅清大遊行吧！"
+    },
+    {
+      "Text": "事件發生一週後，「伊凡．庫帕拉」當日。"
+    },
+    {
+      "Text": "赤冬聯邦學園．正門"
+    },
+    {
+      "Name": "智惠",
+      "Text": "歡迎回來，老師。"
+    },
+    {
+      "Name": "智惠",
+      "Text": "潔莉諾會長正在裡面等您。"
+    },
+    {
+      "Name": "智惠",
+      "Text": "請跟我來……"
+    },
+    {
+      "Text": "赤冬聯邦學園．會長辦公室"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "呵呵呵。歡迎光臨，同志。\n今天是完美的慶典之日啊。"
+    },
+    {
+      "Text": "[s]「嗯，太好了。」"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "能和同志一起度過赤冬聯邦學園的節慶，咱也感到相當開心。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "本來赤冬聯邦學園是不允許外人參加「伊凡．庫帕拉」的……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "但因為之前的事件給同志添了不少麻煩，所以咱特別動用學生會長的權限邀請你來。這可是你的榮幸喔！哈哈哈！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "順便問一句，同志。\n和一週前相比，有什麼地方不一樣嗎？"
+    },
+    {
+      "Text": "[s]「感覺整個學園好像變漂亮了。」"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "嗯，那是因為瑪麗娜和保安委員們每天都很認真打掃學校。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "本來只打算叫她打掃廁所的，但她在打掃這方面表現出了超乎預期的天賦。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "這樣下去恐怕會失去整潔部長的職位，真是令人害怕。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……不對，不是在說學校的樣子！\n咱在問咱是不是有什麼變化！"
+    },
+    {
+      "Text": "[s]「感覺長高了一點。」"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "真，真，真的嗎！？同志！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "把捲尺拿來！咱要立刻量身高！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……搞什麼啊，根本沒有變高嘛。\n你是在取笑咱嗎，同志！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "就算你是夏萊的老師，取笑偉大的潔莉諾大人也是不允許的！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "長高當然也很重要……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "咱想講的主要是心境上的變化。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "在上次的騷動之後，咱開始傾聽以前一直不太在意的，赤冬聯邦學園學生們的抱怨。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "根據智惠秘書室長的說法，咱傾聽、同情學生們的意見並承諾解決方案，\n那幅模樣簡直就像「老師工作時的樣子」……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "老師的工作就是大人的工作！是普通的學生很難做到的事！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "也就是說，咱歷過那場騷動後，以前所未有的方式登上了大人的階梯！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "如何，同志。有沒有感受到從咱內心湧出的大人的魅力啊？呵呵呵……！"
+    },
+    {
+      "Text": "[s]「順帶一提，你兌現給學生們的承諾了嗎？」"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "嗯，嗯……？承，承諾？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "那個……現在要立刻對格黑娜學園和三一綜合學園發動攻擊有點困難……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "而且那個227號特別班的傢伙在那之後又一直叫咱小毛頭！\n這可是不敬罪，不能馬上允許他們回來！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "之前的承諾暫時擱置！暫時維持現狀！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "總之，同志。今天時間很充裕，那個，和咱一起──"
+    },
+    {
+      "Name": "智惠",
+      "Text": "潔莉諾會長，大事不好了！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……怎麼了，智惠秘書室長？ \n咱不是說過不要打擾咱和同志單獨談話嗎！"
+    },
+    {
+      "Name": "智惠",
+      "Text": "那個，是緊急情況……\n舊校舍的「227號特別班」的學生們正闖進事務局，要求您履行之前的承諾！"
+    },
+    {
+      "Name": "智惠",
+      "Text": "其中也包含了「知識解放戰線」和「工務部」的學生……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "什麼？一群沒耐心的傢伙！\n騷動才剛平息不久，又想在慶典結束前發動下一場政變嗎！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "派瑪麗娜保安委員長和親衛隊去鎮壓政變！"
+    },
+    {
+      "Name": "智惠",
+      "Text": "那個，瑪麗娜委員長因為徹夜掃廁所累壞了……目前是無法戰鬥的狀態。"
+    },
+    {
+      "Name": "智惠",
+      "Text": "大部分的親衛隊員都在上次的肅清中被開除，或是停職反省中……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "怎麼，這樣的話……又要逃亡了嗎！？\n好不容易能悠哉悠哉，這次又要咱逃去哪裡！？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "已經不想再下台了啦──！"
+    },
+    {
+      "Text": "革命的伊凡．庫帕拉"
+    }
+  ]
+}

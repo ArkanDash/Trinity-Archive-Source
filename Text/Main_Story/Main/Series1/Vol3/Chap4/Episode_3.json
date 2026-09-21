@@ -1,0 +1,3132 @@
+{
+  "TitleJP": "檻の中のお姫様",
+  "TitleKR": "감옥 안의 프린세스",
+  "TitleEN": "Jailed Princess",
+  "TitleTH": "เจ้าหญิงในคุก",
+  "TitleTW": "監牢中的公主",
+  "DescJP": "欠席すれば退学は免れないというのに、ミカが聴聞会に出ないつもりだとナギサに伝えられた先生。本人から話を聞くために彼女の檻を訪れると、ミカは自分はまだセイアに許されていない存在だし、断罪されるのも仕方がないのだと自嘲気味に笑う。けれど、その瞳にはまだ迷いがあるように見えた。セイアを説得するからナギサと三人で聴聞会に出席しよう、と励ます先生の言葉に胸を打たれ、ミカは前を向いて聴聞会に参加する決意を固めるのだった。",
+  "DescKR": "선생님은 미카를 만나기 위해 학원 감옥으로 향하고, 미카는 세이아가 아직 자신을 용서하지 않았다며 모든 것은 자신의 탓이라고 말한다. 미카로부터 세이아의 상태가 좋지 않다는 사실을 알게 된 선생님은 세이아의 방으로 향하고, 세이아로부터 키보토스가 멸망할 것이라는 말을 듣는다.",
+  "DescEN": "Sensei heads to the academy's prison to talk to Mika. She is upset and blaming herself, saying Seia had yet to forgive her. Sensei learns that Seia is not doing well, so they head to Seia's room. There, Seia gives Sensei a terrifying prophecy: all of Kivotos will be destroyed.",
+  "DescTH": "คุณครูไปที่คุกของโรงเรียนเพื่อพบมิกะ มิกะบอกกับคุณครูว่าเซอายังไม่ยก\nโทษให้ตัวเองและทุกอย่างที่เกิดขึ้นเป็นความผิดของตัวเอง คุณครูทราบ\nจากมิกะว่าสภาพร่างกายของเซอาไม่สู้ดีนัก จึงตรงไปที่ห้องของเซอา\nเซอาบอกกับคุณครูว่าคิโวทอสจะล่มสลาย",
+  "DescTW": "老師為了見彌香一面而前往學院監獄。彌香說聖亞還沒有原諒自己，還有這一切都是自己的錯。老師從彌香口中得知聖亞的狀態不好後，便前往聖亞的房間。然後從聖亞口中聽到「奇普托斯將會滅亡」的話。",
+  "DialogJP": [
+    {
+      "Text": "第3話;檻の中のお姫様"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "エデン条約の事件以来、トリニティ総合学園の情勢は複雑になりました。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "特にミカさんに対する世論はかなり悪化している状況です……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさんは既に自身の所属していた勢力のパテル分派から追放され、明日行われる聴聞会でティーパーティーの資格も剥奪されることが決定しています。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "過程や真相はともあれ――ミカさんはアリウス分校と結託してエデン条約の事件を起こした主犯ですから。"
+    },
+    {
+      "Text": "[s] \"……！！\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "聴聞会が開かれるまでにも、断罪を要求する騒動がたびたび発生し、私刑としてミカさんのいる檻の中に石を投げ込む生徒が現れたり……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "学園の掲示板にはミカさんに対する非難の書き込みが殺到し……パテル分派はミカさんが所属していたというだけで冷たい目で見られ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさんが使っていた本や所持品は押収され、大事に集めていた服やアクセサリーも焼却されて……。"
+    },
+    {
+      "Text": "[s] \"そんな事態に……。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……正義実現委員会が取り締まっていますが、学園全体に広がっているこの空気を払拭することは不可能に近いです。"
+    },
+    {
+      "Text": "[s1] \"……。\""
+    },
+    {
+      "Text": "[s2] \"そうだったんだ……。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ミカさんはトリニティにおいて公共の敵になっています。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ミカさんはトリニティにおいて公共の敵になっています。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それらすべてを、ミカさんの負うべき罰だと切り捨てる事もできますが……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……それでも、私はミカさんを弁護したいです。彼女は既に自分が犯した罪以上の代償を払っていますので。"
+    },
+    {
+      "Text": "[s3] \"そうだね……私も手伝うよ。\""
+    },
+    {
+      "Text": "[s4] \"私にできることはないかな？\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……はい、ありがとうございます先生。ですが……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……はい、ありがとうございます先生。ですが……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさん本人が……ご自身を弁護する意思がないようで……。"
+    },
+    {
+      "Text": "[s] \"ミカが……？\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさんは聴聞会を欠席しようとしています。そんな状態で行われる聴聞会は……間違いなく彼女の退学に直結するでしょう。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ですが……私では彼女に出席するよう説得することが叶わず……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "セイアさんならできたのかもしれませんが……彼女は今、それどころではありませんし。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……そこで、お願いがあるのですが。"
+    },
+    {
+      "Text": "[s] \"うん……私がミカに会って説得してみるね。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ありがとうございます。先生のお言葉ならきっと……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それに、ミカさんは先生を待っているようですので……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ふう。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "少し、安心しました。まだ何も解決してはいませんが……。"
+    },
+    {
+      "Text": "[s] \"ナギサは大丈夫……？\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "私……？ああ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "私は大丈夫ですよ……いつもと変わりありません。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ふふ、私のことを心配してくださるのは先生くらいですね。ありがとうございます。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それでは……後はよろしくお願いいたします。"
+    },
+    {
+      "Text": "ナギサと別れ、ミカの元に向かっていると……。"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "セイア様を害そうとした裏切り者を引きずり出せ！"
+    },
+    {
+      "Name": "トリニティの生徒B",
+      "Text": "アリウスと手を組んでエデン条約を台無しにした罪人がティーパーティーだなんて、許せません！"
+    },
+    {
+      "Name": "トリニティの生徒C",
+      "Text": "罪人には罰を！断罪を！"
+    },
+    {
+      "Name": "正義実現委員会部員",
+      "Text": "み、みなさん！この線の中から出ないでください！"
+    },
+    {
+      "Name": "トリニティの生徒D",
+      "Text": "裏切り者に罰を！！私たちを騙した代償を！！"
+    },
+    {
+      "Text": "[ns] （すごい空気だ……）"
+    },
+    {
+      "Text": "ミカが幽閉されている檻"
+    },
+    {
+      "Text": "[ns] \"ミカ……？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "しーっ。"
+    },
+    {
+      "Text": "[ns5] \"……？\""
+    },
+    {
+      "Text": "[ns6] （……かすかに音楽が聞こえる）"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……お待たせ。礼拝の時間だったの。今日は賛美歌を聞く日。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ここでも礼拝だけは必ず参加しなきゃいけないなんて、ちょっと過酷じゃない？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "こういうとこくらいは大目に見てくれてもいいのにね。"
+    },
+    {
+      "Text": "[s] \"でも、いい曲だね。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そうかな？聞いてて退屈じゃない？「ご慈悲を」とか「憐れみたまえ」とか――"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "[ruby=キリエ]Kyrie eleison[/ruby]なんて、名前も気に入らない。どうして見えもしない存在に縋らなきゃいけないの？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "「憐れみたまえ」だなんて口にしたところで悲惨なだけじゃん。そんなの自分にも、他人にもするものじゃないよ。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "でも歌は好きだよ！歌詞はちょっと微妙だけど。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あ、そうだ先生。私の歌聞いたことないよね？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "本来ならタダで聞かせるものじゃないけど、先生なら特別っていうか。こうやって会いに来てくれたし！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "塔に幽閉されたお姫様が、運命の人にセレナーデを歌うの。どう？物語のワンシーンみたいでしょ！"
+    },
+    {
+      "Text": "[s] \"塔じゃなくて檻だけどね。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うわぁ、そこで現実に戻しちゃう……？まぁ、事実だけど。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……それで、今日はどうしたの先生？"
+    },
+    {
+      "Text": "[s7]  \"一通りの事情は聞いたよ、ミカ。\""
+    },
+    {
+      "Text": "[s8]  \"聴聞会を欠席するんだって？ナギサが心配してるよ。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんは元気、だよね？……うん、良かった。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "多分、ナギちゃんの側にシスターフッドと救護騎士団長が一緒にいたでしょ？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……やっぱり。ティーパーティーの立場が危うくなればなるほど、他の勢力が幅を利かせるようになる。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ここまで直接的にティーパーティーを牽制するとは思わなかったけど……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……ナギちゃんのストレス、ひどそうだね。"
+    },
+    {
+      "Text": "[s] \"そうだね……ところで、来る時に広場の集団を見たよ。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あー……うん、そっか。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……まあ、今の私の立場は見た通りだよ。仕方ないよね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんは、私が聴聞会に出席すれば全てが丸く収まると思っているみたいだけど……トリニティはそんなに甘くない。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……あの事件以来、ティーパーティーの権威は地に墜ちた。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "学園内の世論も、政治的な立場もそう……当然だよね、私があんなことをしちゃったんだから。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そんなボロボロの状態で、ナギちゃんが私を庇えば庇うほど……"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "「ティーパーティー」の……ナギちゃんはおろか、セイアちゃんの立場すら危うくなっちゃう。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私なんかのために、そうなってほしくない。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "これは全て、私が払わなきゃいけない代償だから。"
+    },
+    {
+      "Text": "[s9]  \"でも、退学になるかもしれないって……。\""
+    },
+    {
+      "Text": "[s10] \"それに、ミカもこれまで色んな仕打ちを受けて……。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[s] \"もう十分、代償は払ってるんじゃない？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "で、でも……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……それでも、私のせいだから。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんと一緒に集めた、思い出が詰まった大切な宝物は、燃えちゃったみたいだけど……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私は、それでも許されない……セイアちゃんにもまだ、恨まれたままで……。"
+    },
+    {
+      "Text": "[s11] \"セイアはミカを恨んでない。私が保証するよ。\""
+    },
+    {
+      "Text": "[s12] \"セイアはもうミカを許してるよ。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "………ち、違う！そんなわけない……だって、何度も謝ろうとしたけどダメだった……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "………ち、違う！そんなわけない……だって、何度も謝ろうとしたけどダメだった……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "この間会った時だって……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "セイアちゃん、今日も顔色良くないよ。眠れなかったの？お肌もガサガサだよ？保湿クリーム貸してあげようか？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "えっと、セイアちゃん……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……あのさ、もし良かったらその……"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "一緒にご飯でも食べない？まあご飯って言っても、檻の中でロールケーキなんだけど！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "まったく、ナギちゃんも心が狭いよね。三食全部ロールケーキにするなんて！"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……ミカ。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "う、うん？食べる？"
+    },
+    {
+      "Name": "セイア",
+      "Text": "済まないが、今は……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あっ……そ、そうだよね？やっぱり、その……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "少し体調がすぐれなくてね……申し訳ないが、部屋に戻らせてもらうよ。"
+    },
+    {
+      "Text": "[ns] \"セイアが……？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "セイアちゃん、最近自分の部屋から出てこないし、誰も部屋に入れてないみたいで……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "寝たきりになってるって噂もあるくらいで……セイアちゃん、元々体が弱いから。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "それに、なんだか他にも悪い噂ばかりで……セイアちゃんの部屋からすすり泣きが聞こえたとか……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "セイアちゃんの言葉は、いつも分かりづらいけど……"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "多分、私は許されてないんだろうなって……。"
+    },
+    {
+      "Text": "[s13] \"セイアはミカを許すってたしかに言ってたよ。\""
+    },
+    {
+      "Text": "[s14] \"何か行き違いがあったんじゃないかな？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……ありがとう、先生。でもね、セイアちゃんが私を恨むのは別に構わないんだ……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……ありがとう、先生。でもね、セイアちゃんが私を恨むのは別に構わないんだ……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私はまだ、セイアちゃんにちゃんと「ごめんね」って言えてないから……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そんな状態で、私のせいでセイアちゃんの体調がもっと悪くなったり……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "セイアちゃんが、また無理をしてしまったら……私は……自分のことを絶対許せないと思う……。"
+    },
+    {
+      "Text": "[s] \"私がセイアに会ってみるよ。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "せ、先生が……？"
+    },
+    {
+      "Text": "[s] \"ミカがセイアにちゃんと「ごめんね」を言えるように。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……！"
+    },
+    {
+      "Text": "[s15] \"そうしたら……私とナギサ、セイア、ミカ、みんなで一緒に、\""
+    },
+    {
+      "Text": "[s16] \"みんなで明日の聴聞会に出席しよう！\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……ちょ、ちょっと待って。どうしてそんな……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "わ、私にそこまでする価値、あるかな……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私……二度と泣かないって誓ったのに、どうしてそんな……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……そんなこと言っちゃうの。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……うん、わかった。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そこまで言うなら……みんなと一緒に、聴聞会に行く。"
+    },
+    {
+      "Text": "[s] \"うん。決断してくれてありがとう、ミカ。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……正直、二度目のチャンスなんてないと思ってた……でも、これが運命なら……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私はやっぱり、塔の中に閉じ込められたお姫様だったのかな……?"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あ……な、何でもないよ、先生！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "それじゃあセイアちゃんを……よろしくね、先生。"
+    },
+    {
+      "Text": "[ns] セイアの部屋に足を運ぶ。"
+    },
+    {
+      "Text": "セイアの治療室"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……先生？"
+    },
+    {
+      "Text": "[s] \"セイア大丈夫？顔が真っ青だよ。\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "先生……無事、だったのか。いや、私の都合の良い夢かもしれないな。幻か、虚構か、或いはいずれも同じことかもしれないが……"
+    },
+    {
+      "Text": "[s] \"ど、どうしたの……？\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "いや、違うようだね……その瞳は――"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……そうか。今日は、君がトリニティを訪れる日だったな。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "済まない。最近の私はこれまでにも増して、夢と現実の境界が曖昧でね……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "現在、過去、未来……それらが絶え間なく私を包み込み、私が今何処に立っているのかも不明瞭になるくらいだ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "まあ、つまるところ気にしなくても良い……そう捉えてもらっても構わない。"
+    },
+    {
+      "Text": "[s] \"みんなが心配しているよ。何があったの？\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "……そうか。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "何があったか、という問いに正確に答えることは難しい――ただ、一つ言えるとするならば。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "私は今、誰にも告げられない未来を手にしてしまっている。だが先生、君になら……。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……私の言葉に、耳を傾けてもらえるかい？"
+    },
+    {
+      "Text": "[s] \"うん、もちろん。\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "ここからは、今まで君が経験してきた事件とは全く別種の……完全に異なる類のものだ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "だがどうか……荒唐無稽だと感じても、どうか聞いてほしい。"
+    },
+    {
+      "Text": "[s] \"……分かった。\""
+    },
+    {
+      "Name": "セイア",
+      "Text": "……過日、夢の使者が私に告げたんだ。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "言うなれば「予知夢」といった類の――つまりは何時しか至る未来の片鱗……もちろん、それ自体は日頃私が視ている世界の一つだが。"
+    },
+    {
+      "Name": "セイア",
+      "Text": "しかし、その日だけは様子が違っていた。そう、あの日私は――"
+    },
+    {
+      "Name": "セイア",
+      "Text": "……世界が、キヴォトスが終焉を迎える光景を視たんだ。"
+    },
+    {
+      "Text": "次回;夢と蜃気楼の狭間で"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;감옥 안의 프린세스"
+    },
+    {
+      "Name": "나기사",
+      "Text": "에덴조약 사태 이후, 지금 트리니티 학원의 정세는 굉장히 복잡해졌어요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "특히 그중에서도, 미카 씨에 대한 여론이 상당히 악화되고 있어요……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨는 이미 자신의 지지 세력인 파테르 분파에서 축출되었고, 내일 있을 청문회에서 티파티의 자격도 박탈되는 것이 확정되었어요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그 과정이나 진실이 어쨌든, 미카 씨는 아리우스 학원과 결탁해서 에덴조약 사태를 가져온 주범이니까요."
+    },
+    {
+      "Text": "[s] \"……!!\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "이미 탄핵을 요구하는 소요가 벌어지기도 했고, 미카 씨가 있는 감옥 교실 안으로 돌이나 폭탄을 던진다거나……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "학원 게시판에서는 미카 씨에 대한 비난 글이 폭주…… 미카 씨의 방은 온갖 오물과 쓰레기로 가득 차버렸고……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨가 쓰던 책과 소지품들은 전부 도난…… 애지중지하게 모았던 옷과 액세서리들은 원인 불명의 화재로 소실……."
+    },
+    {
+      "Text": "[s] \"……너무 심하잖아!!\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 정의실현부가 단속하고 있지만, 학원 전체에 팽배한 이 분위기를 막는 것은 불가능에 가까워요."
+    },
+    {
+      "Text": "[s1] \"…….\""
+    },
+    {
+      "Text": "[s2] \"그럴 수가…….\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……미카 씨는 트리니티에서 공공의 적이 되어 있어요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……미카 씨는 트리니티에서 공공의 적이 되어 있어요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그 모든 것들이 미카 씨가 받아야 할 마땅한 대가라고 볼 수도 있겠지만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……하지만 저는 미카 씨를 변호하고 싶어요. 미카 씨는 분명…… 자신이 저지른 일보다 더 많은 대가를 감당하고 있어요."
+    },
+    {
+      "Text": "[s3] \"응. 알겠어. 나도 도울게.\""
+    },
+    {
+      "Text": "[s4] \"내가 할 수 있는 일이 있을까?\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 고맙습니다. 선생님. 하지만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 고맙습니다. 선생님. 하지만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "정작 미카 씨 본인이…… 자신을 변호할 의사가 없는 것 같아요."
+    },
+    {
+      "Text": "[s] \"미카가……?\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨는 청문회에 참석하지 않으려고 해요. 그녀가 결석한 상태에서 벌어지는 청문회는……. 미카 씨의 퇴학으로 이어지게 될 거예요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "어떻게든 미카 씨를 청문회에 참석시켜야 그것을 막을 수 있지만…… 저로서는 역부족……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "세이아 씨가 있다면 좋겠지만 그녀는 현재 건강이 좋지 않아서 자신의 방에서 나올 수 없는 상태이고……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그래서…… 선생님. 부탁이 있습니다만……."
+    },
+    {
+      "Text": "[s] \"응. 내가 미카를 만나서 설득해볼게.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 감사합니다. 분명 선생님이라면…… 미카 씨도 마음을 돌릴 거라고 생각해요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨는 선생님의 방문을 기다리고 있는 것 같으니……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……하아. "
+    },
+    {
+      "Name": "나기사",
+      "Text": "이제야 조금 안심이 되네요. 아직 아무것도 해결된 건 없는데도……."
+    },
+    {
+      "Text": "[s] \"나기사는 괜찮은 거야……?\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "저 말인가요……? 아아. 네……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "저는 괜찮아요. ……언제나 그렇듯이요."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……후후. 걱정해주시는 건 역시 선생님뿐이네요. 고맙습니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그럼…… 그다음을 부탁드리겠습니다. "
+    },
+    {
+      "Text": "(나기사와 헤어지고 미카를 만나러 가기로 했다.)"
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "세이아 님을 해치려고 한 미카를 끌어내라!"
+    },
+    {
+      "Name": "트리니티 학생 B",
+      "Text": "아리우스와 손을 잡고 에덴조약을 망친 범인이 티파티라니, 용납할 수 없습니다!"
+    },
+    {
+      "Name": "트리니티 학생 C",
+      "Text": "그 마녀를 광장에 매달아버려요!!"
+    },
+    {
+      "Name": "정의실현부 부원",
+      "Text": "어, 여, 여러분. 이 선을 넘어오시면 안 됩니다!"
+    },
+    {
+      "Name": "트리니티 학생 D",
+      "Text": "배신자에게 대가를!! 우리를 속인 대가를!!"
+    },
+    {
+      "Text": "[ns] (이런 분위기인가…….)"
+    },
+    {
+      "Text": "미카가 유폐되어 있는 감옥 교실"
+    },
+    {
+      "Text": "[ns] \"미카……?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "쉿-. 선생님, 잠깐만."
+    },
+    {
+      "Text": "[ns5] \"……??\""
+    },
+    {
+      "Text": "[ns6] \"음악 소리……?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……. 응. 미안해, 기다렸지? 채플 수업 중이었거든. TV로 하는 거지만."
+    },
+    {
+      "Name": "미카",
+      "Text": "감옥에서도 채플 수업만큼은 꼭 들어야 한다니, 너무 가혹하지 않아? "
+    },
+    {
+      "Name": "미카",
+      "Text": "이런 부분은 좀 사정을 봐줘도 좋을 거 같은데 말이지."
+    },
+    {
+      "Text": "[s] \"그래도 좋은 음악이네.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "그런가? 지루하지 않아? 자비를 베풀라느니, 우리를 불쌍히 여기라느니 이상한 말들만 계속인데?"
+    },
+    {
+      "Name": "미카",
+      "Text": "[ruby=Kyrie Eleison]자비송[/ruby]이라니, 이름도 마음에 안 들잖아? 어째서 보이지도 않는 존재에게 애원해야 하는 거야?"
+    },
+    {
+      "Name": "미카",
+      "Text": "자기를 불쌍하게 여겨달라고 해봤자 비참할 뿐이잖아. 그런 건 자기에게도, 남에게도 하면 안 돼."
+    },
+    {
+      "Name": "미카",
+      "Text": "그래도 노래는 좋아해! 가사는 좀 별로지만. "
+    },
+    {
+      "Name": "미카",
+      "Text": "아, 그러네? 선생님, 내 노래 들어본 적 없지? 나중에 들려줄까?"
+    },
+    {
+      "Name": "미카",
+      "Text": "원래 공짜로는 안 되지만, 선생님이라면 특별히 괜찮달까, 응! 이렇게 만나러 와 주었으니까!"
+    },
+    {
+      "Name": "미카",
+      "Text": "탑에 갇힌 공주님이 운명의 사람에게 세레나데를 불러주는 동화 속 장면 같은 느낌으로!"
+    },
+    {
+      "Text": "[s] \"탑이 아니라 감옥이지만 말야.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "우와, 거기서 정곡을……. 뭐, 사실이지만."
+    },
+    {
+      "Name": "미카",
+      "Text": "……그래서, 오늘은 무슨 일이야, 선생님?"
+    },
+    {
+      "Text": "[s7] \"응. 이런저런 사정을 들었어. 미카.\""
+    },
+    {
+      "Text": "[s8] \"청문회에 참석하지 않겠다고 해서 나기사가 걱정하고 있어.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩은 잘 지내고 있는 거지? ……응, 다행이다."
+    },
+    {
+      "Name": "미카",
+      "Text": "아마 나기 쨩 옆에 시스터후드와 구호기사단장이 함께 있었지? 불청객 같은 느낌으로?"
+    },
+    {
+      "Name": "미카",
+      "Text": "역시 그렇구나? 권력이라는 건 진공 상태와도 같은 거라서, 티파티의 입지가 옅어질수록 그 주변의 다른 권력들이 치고 들어오거든."
+    },
+    {
+      "Name": "미카",
+      "Text": "그 두 사람이 왜 거기 있었냐면…… 그런 이유야. 이렇게까지 직접적으로 티파티를 견제할 줄은 몰랐겠지만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "끄응…… 나기 쨩…… 스트레스가 심하겠네."
+    },
+    {
+      "Text": "[s] \"오면서 광장에 모인 학생들을 봤어.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "어……. 으, 으응. "
+    },
+    {
+      "Name": "미카",
+      "Text": "……뭐 그렇게 됐어. 어쩔 수 없는 거니까. 게다가 난 남들이 뭐라 하는 걸 딱히 신경 쓰는 편도 아니고."
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩은 내가 청문회에 참석하면 모든 게 해결될 거라고 생각하는 것 같지만…… 그거야말로 순진한 생각일 뿐이야."
+    },
+    {
+      "Name": "미카",
+      "Text": "……. 응. 에덴조약 사태 이후, 티파티의 권위는 예전 같지 않게 되어 버렸어."
+    },
+    {
+      "Name": "미카",
+      "Text": "학원 내 여론도 그렇고, 정치적인 입지도 많이 떨어졌지. 응, 당연하달까. 내가 그런 일을 벌였으니까."
+    },
+    {
+      "Name": "미카",
+      "Text": "그런 상태에서 나기 쨩이 나를 변호하려고 할수록……"
+    },
+    {
+      "Name": "미카",
+      "Text": "<티파티>가…… 나기 쨩은 물론이고 세이아 쨩의 입지가 위태롭게 될 거야."
+    },
+    {
+      "Name": "미카",
+      "Text": "나 때문에 모두가 그런 위험을 무릅써서는 안 돼."
+    },
+    {
+      "Name": "미카",
+      "Text": "이 모든 건 내가 치러야 할 몫이니까."
+    },
+    {
+      "Text": "[s9] \"퇴학당할 수도 있다고 들었어.\""
+    },
+    {
+      "Text": "[s10] \"미카의 집이 불탔다고 들었어.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Text": "[s] \"이건 너무 심하다고 생각해.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "그, 그치만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "내…… 내 탓이…… 맞으니까…… 퇴학당해도……."
+    },
+    {
+      "Name": "미카",
+      "Text": "어…… 어릴 때부터 나기 쨩이랑 같이 모았던 추억이 담긴 소중한 물건들이…… 전부…… 불타버려도……."
+    },
+    {
+      "Name": "미카",
+      "Text": "나, 나는…… 용서받지 못했으니까…… 세이아 쨩도 아직 나를 미워하고 있고……."
+    },
+    {
+      "Text": "[s11] \"아니야. 세이아는 미카를 미워하지 않아. 내가 알고 있어.\""
+    },
+    {
+      "Text": "[s12] \"세이아는 미카를 이미 용서했어.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……아, 아냐……. 그렇지 않아……. 몇 번이고 사과하려고 했었지만…… 그때마다…… 매번……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……아, 아냐……. 그렇지 않아……. 몇 번이고 사과하려고 했었지만…… 그때마다…… 매번……."
+    },
+    {
+      "Name": "미카",
+      "Text": "저번에도…… 만났을 때도……."
+    },
+    {
+      "Name": "미카",
+      "Text": "세이아 쨩, 오늘도 엄청 진지한 얼굴이네? 잠을 못잤어? 피부도 엉망인데? 보습 로션 빌려줄까?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "저기, 세이아 쨩……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "어…… 그러니까……. 오늘 괜찮다면…… "
+    },
+    {
+      "Name": "미카",
+      "Text": "나랑 같이 식사하지 않을래? 감옥 교실에서 롤케이크를 먹는 거지만! "
+    },
+    {
+      "Name": "미카",
+      "Text": "정말이지, 나기 쨩도 속이 좁다니까. 이런 식으로 사람을 괴롭힐 거라고 생각은 못 했지만, 응."
+    },
+    {
+      "Name": "세이아",
+      "Text": "미카……."
+    },
+    {
+      "Name": "미카",
+      "Text": "으, 응?"
+    },
+    {
+      "Name": "세이아",
+      "Text": "미안하지만 지금은 그럴 상황이 아닙니다……."
+    },
+    {
+      "Name": "미카",
+      "Text": "어, 그…… 그렇지? 역시……. 저기……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "몸이 좋지 않아서…… 제 방으로 돌아가겠습니다."
+    },
+    {
+      "Text": "[ns] \"세이아가……?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "세이아 쨩, 요즘 자기 방에서 나오지도 않고 누구의 방문도 허용하지 않나 봐……. "
+    },
+    {
+      "Name": "미카",
+      "Text": "들리는 말로는 건강이 좋지 않다는 말도 있고…… 세이아 쨩, 원래 몸이 약하니까."
+    },
+    {
+      "Name": "미카",
+      "Text": "그치만 어쩐지 나쁜 얘기만 들려와서…… 세이아 쨩 방 안에서 울음 같은 게 들리기도 했다고……."
+    },
+    {
+      "Name": "미카",
+      "Text": "응, 그래서…… 세이아 쨩의 화법은 잘 이해하기 힘들지만…… "
+    },
+    {
+      "Name": "미카",
+      "Text": "아마 나는 용서 받을 수 없는 거겠지……."
+    },
+    {
+      "Text": "[s13] \"아냐. 뭔가 오해가 있는 거야.\""
+    },
+    {
+      "Text": "[s14] \"세이아는 분명 미카를 용서한다고 했어.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "하하하……. 응, 고마워, 선생님. 세이아 쨩이 나를 미워하는 건 괜찮지만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "하하하……. 응, 고마워, 선생님. 세이아 쨩이 나를 미워하는 건 괜찮지만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "난 아직 세이아 쨩에게 미안하다는 말도 하지 못했는데……."
+    },
+    {
+      "Name": "미카",
+      "Text": "괜히 내가 더 문제를 일으켜서 세이아 쨩의 건강이 더 나빠지기라도 한다면…… 나는……."
+    },
+    {
+      "Name": "미카",
+      "Text": "세이아 쨩이 다시 잘못되기라도 하면…… 나는……. 나를 절대 용서하지 못할 거니까……."
+    },
+    {
+      "Text": "[s] \"내가 세이아를 만나볼게.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "서, 선생님이……?"
+    },
+    {
+      "Text": "[s] \"그리고 미카가 세이아에게 제대로 사과를 할 수 있도록 할게.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……!"
+    },
+    {
+      "Text": "[s15] \"그다음엔…… 나와 나기사, 세이아, 미카 모두 함께,\""
+    },
+    {
+      "Text": "[s16] \"다 같이 내일의 청문회에 참석하는 거야!\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……. "
+    },
+    {
+      "Name": "미카",
+      "Text": "……. "
+    },
+    {
+      "Name": "미카",
+      "Text": "……자, 잠깐만. 있지, 무슨 그런……. 저기……. "
+    },
+    {
+      "Name": "미카",
+      "Text": "그, 그렇게까지 할…… 가치가 있는 거야? 나에게……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "나…… 다시는 울지 않을 거라고 다짐했는데, 어째서 그런 말을 하는 거야."
+    },
+    {
+      "Name": "미카",
+      "Text": "그런……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……응. 알겠어. 선생님."
+    },
+    {
+      "Name": "미카",
+      "Text": "그렇게까지 말한다면…… 그렇게 할게. 모두 다 함께…… 청문회에 갈게."
+    },
+    {
+      "Text": "[s] \"그래, 잘 생각했어. 미카.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……. 두 번째 기회 같은 건 없다고 생각했는데……. 운명 같은 건……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……. 응, 역시 탑 안에 갇힌 공주님이 맞을지도……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "으, 으응? 아, 아무것도 아니야! 선생님!"
+    },
+    {
+      "Name": "미카",
+      "Text": "그럼 세이아 쨩을…… 부탁할게, 선생님."
+    },
+    {
+      "Text": "[ns] 세이아의 방에 찾아간다."
+    },
+    {
+      "Text": "세이아의 치료실"
+    },
+    {
+      "Name": "세이아",
+      "Text": "……. 선생님? 선생님이신가요?"
+    },
+    {
+      "Text": "[s] \"세이아? 괜찮아? 얼굴이 창백한데?\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "아아…… 선생님. 살아계셨군요. 어째서……? 이건 꿈……? 선생님, 당신은 꿈인가요? 아니면 현실……? "
+    },
+    {
+      "Text": "[s] \"으, 으응……?\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……아아. 죄송해요, 선생님…… 그렇죠. 그건 아직……. 제가 잠깐 헷갈렸습니다……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그러네요. 오늘 선생님이 트리니티 학원을 방문하기로 했었죠. 네……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "죄송해요……. 최근의 저는…… 꿈과 현실을 잘 구분하지 못합니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "현재와 미래, 혹은 과거가 뒤엉켜서……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……. 아아, 어쩐지 이상한 이야기를 하고 있는 것 같네요……."
+    },
+    {
+      "Text": "[s] \"모두가 걱정하고 있어. 무슨 일이 있는 거야?\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "……그러네요."
+    },
+    {
+      "Name": "세이아",
+      "Text": "저는 확실히 괜찮……다고 말할 수는 없는 상태입니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그 누구에게도 말할 수 없는 문제에 직면했지만…… 하지만 선생님이라면……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "……선생님. 상담하고 싶은 게 있습니다."
+    },
+    {
+      "Text": "[s] \"응, 이야기 해줘.\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "……. 이 이야기는 지금까지 선생님이 겪었던 사건들과는 전혀 다른 종류의…… 그런 것일 거예요……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그러니…… 부디, 제 이야기를 진지하게 들어주셨으면 합니다……."
+    },
+    {
+      "Text": "[s] \"아, 알겠어.\""
+    },
+    {
+      "Name": "세이아",
+      "Text": "저는…… 얼마 전에 꿈을 꾸었습니다."
+    },
+    {
+      "Name": "세이아",
+      "Text": "그것은 말하자면 예지몽……. 언젠가 일어나게 될 현실의 편린…… 말하자면 저에게는 딱히 특별할 것 없는 그런 일이겠지만……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "하지만 저는 그 꿈에서……."
+    },
+    {
+      "Name": "세이아",
+      "Text": "키보토스가 멸망하는 광경을 보았습니다."
+    },
+    {
+      "Text": "다음화;꿈과 신기루 사이에서"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3; Jailed Princess"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Since the Eden Treaty incident, the situation at Trinity is...precarious at best."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The public's opinion of Mika is steadily declining."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "She's already been expelled by her supporters in the Pater faction, and it was confirmed that she'll be dismissed from the Tea Party at the hearing tomorrow."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "People are convinced Mika is the main culprit in colluding with the Arius Academy to bring about the Eden Treaty incident."
+    },
+    {
+      "Text": "[s] \"...!\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "There have been riots demanding her dismissal, not to mention stones and even bombs being thrown through her prison window."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The academy bulletin board was flooded with criticisms about Mika... They've utterly vandalized her room in anger."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Her clothes and accessories were burned, and her belongings pilfered. The perpetrators haven't been caught."
+    },
+    {
+      "Text": "[s] \"They're going way too far!\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Yes. The Justice Task Force is doing their best, but we can only do so much against this mob mentality."
+    },
+    {
+      "Text": "[s1] \"They don't even know the whole story.\""
+    },
+    {
+      "Text": "[s2] \"I can't believe this...\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Mika has become public enemy number one in Trinity."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Mika has become public enemy number one in Trinity."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The student body may think all of this is the price Mika must pay, but..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The punishment doesn't fit the crime. I want to help her."
+    },
+    {
+      "Text": "[s3] \"I'll help. Just tell me what to do.\" "
+    },
+    {
+      "Text": "[s4] \"Is there anything I can do?\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I thought you would say that."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I thought you would say that."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "But I don't think Mika is willing to defend herself."
+    },
+    {
+      "Text": "[s] \"What? Why not?\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "She refuses to even attend the hearing. If she isn't present... Well, it'll be an automatic expulsion."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I wish there was something I could do to convince her, but..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "If Seia were here, I'm sure she could do something... But as you've heard, she's currently bedridden."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "So, I have a favor to ask of you."
+    },
+    {
+      "Text": "[s] \"Okay. I'll try to convince Mika.\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Thank you, Sensei. If it's you, I'm sure she'll listen."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "She won't admit it, but she's been waiting for your visit."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "*sigh* "
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "That's at least a little off my plate, even if nothing's been resolved yet."
+    },
+    {
+      "Text": "[s] \"Are you okay, Nagisa?\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Me? Oh, yes..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Somehow, I always will be."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Heehee. I can always count on you to worry about me. Thank you."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Anyway... Good luck, Sensei.  "
+    },
+    {
+      "Text": "I said goodbye to Nagisa and went to go see Mika."
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "How dare she attack Seia? Bring her out!"
+    },
+    {
+      "Name": "Trinity Student B",
+      "Text": "It's repulsive that the witch is still part of the Tea Party!"
+    },
+    {
+      "Name": "Trinity Student C",
+      "Text": "Hang the traitor!"
+    },
+    {
+      "Name": "Justice Task Force Member",
+      "Text": "Stay back! D-Don't cross the line!"
+    },
+    {
+      "Name": "Trinity Student D",
+      "Text": "The traitor must pay for her crimes!"
+    },
+    {
+      "Text": "[ns] \"(Nagisa wasn't exaggerating...)\""
+    },
+    {
+      "Text": "Mika's Prison Room"
+    },
+    {
+      "Text": "[ns] \"Mika? It's me.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh, Sensei. Shhh."
+    },
+    {
+      "Text": "[ns5] \"...?\""
+    },
+    {
+      "Text": "[ns6] \"Is that music?\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sorry to keep you waiting. I had to finish chapel. They broadcast it on the TV, see?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Don't you think it's so mean they still make me take classes while I'm in prison?  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "I thought I'd at least get out of that."
+    },
+    {
+      "Text": "[s] \"It was beautiful music though.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "You really think so? I find it a bit boring. It's just that same strange line on repeat: \"have mercy on us.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Kyrie Eleison... Even the name is lame. Why plead to some guy up there I don't even know exists?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "And it looks weak to ask for pity, you know."
+    },
+    {
+      "Name": "Mika",
+      "Text": "But the melody is nice, I'll give you that! It's just an ideological disagreement.  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh, you know! You've never heard me sing, huh, Sensei? Do you want a performance?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "I don't normally sing for free, but I'll make an exception just for you!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Like in the fairy tales where the trapped princess sings to her lover from a tall tower!"
+    },
+    {
+      "Text": "[s] \"Except we're in prison, not a tower.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "And I come crashing back to a harsh reality."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...So what brings you to my humble abode, Sensei?"
+    },
+    {
+      "Text": "[s7] \"I heard about the situation, Mika.\""
+    },
+    {
+      "Text": "[s8] \"Why won't you attend the hearing? Nagisa is worried.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "How's Nagi been? Is she holding up?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "The Sisterhood and Remedial Knights leaders showed up uninvited?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "I'm not surprised. A lack of authority is like a vacuum. As the Tea Party's position diminishes, the lesser forces around it are sucked in."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I'm sure she didn't expect them to confront the Tea Party so directly like that."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Poor Nagi. Has her stomach been hurting? It always hurts when she's stressed."
+    },
+    {
+      "Text": "[s] \"Your safety is her biggest concern. I saw the crowds on my way here.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ah... You did...  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Well, what's a girl to do? I've never been one to care what others think of me anyway."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Nagi thinks she can defend me if I just attend the hearing, but we both know how naive she is."
+    },
+    {
+      "Name": "Mika",
+      "Text": "The Eden Treaty incident did a real number on the Tea Party's authority."
+    },
+    {
+      "Name": "Mika",
+      "Text": "As the public opinion of it dwindles, so does its political power. Obviously, it's my fault."
+    },
+    {
+      "Name": "Mika",
+      "Text": "And if she really insists on defending me in these conditions..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...the Tea Party, along with Nagi and Seia's positions, will be at risk."
+    },
+    {
+      "Name": "Mika",
+      "Text": "They can't shoulder that risk for me."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I've already cost them too much."
+    },
+    {
+      "Text": "[s9] \"You'll be expelled if you don't attend.\" "
+    },
+    {
+      "Text": "[s10] \"I heard about your room, and your things.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Text": "[s] \"I think they're going too far.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Y-You think so?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "I did mess up more than a little bit this time. Even if I get expelled..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...E-Even if they burned the precious mementos of Nagi's and my childhood..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...None of it erases what I did. And...Seia still hates me..."
+    },
+    {
+      "Text": "[s11] \"No, Seia could never hate you.\""
+    },
+    {
+      "Text": "[s12] \"Seia's already forgiven you.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "No, you don't understand. I tried to apologize a few times, but she..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "No, you don't understand. I tried to apologize a few times, but she..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "The last time I tried..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hi Seia! Looking serious as usual! Did you stay up late again? You have to take better care of your skin. Here, you can use my lotion!"
+    },
+    {
+      "Name": "Seia",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "S-Seia?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "So, um... Actually, I was wondering...  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Do you want to eat lunch together? I'm afraid the only thing on the menu in prison is roll cakes though. "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Nagi is seriously the meanest! Like seriously? Nothing but roll cakes?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "Mika..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Y-Yes?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "I'm sorry, but I don't have time."
+    },
+    {
+      "Name": "Mika",
+      "Text": "O-Oh...? Right! Sorry! You're probably really busy!"
+    },
+    {
+      "Name": "Seia",
+      "Text": "I'm not feeling well. I'm returning to my room."
+    },
+    {
+      "Text": "[ns] \"Seia...\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Seia's completely isolated herself. She doesn't come out, and no one goes in.  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "She's always been a bit weak, but she's been really sick these days. "
+    },
+    {
+      "Name": "Mika",
+      "Text": "And I keep hearing things... Like they can hear her crying in her room..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I don't always really get what Seia's thinking or saying, but...  "
+    },
+    {
+      "Name": "Mika",
+      "Text": "I can tell she doesn't want to make up."
+    },
+    {
+      "Text": "[s13] \"There must be some misunderstanding.\" "
+    },
+    {
+      "Text": "[s14] \"I promise, Seia really doesn't blame you.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh, Sensei. Thanks for trying to make me feel better. I've accepted my consequences..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh, Sensei. Thanks for trying to make me feel better. I've accepted my consequences..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I just wish I could give her a real apology."
+    },
+    {
+      "Name": "Mika",
+      "Text": "But I don't want to cause her any stress and affect her health..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I don't know how I'll go on if anything else happens to Seia."
+    },
+    {
+      "Text": "[s] \"I'll go check on her for you.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "S-Seriously?"
+    },
+    {
+      "Text": "[s] \"Of course. I want you to have your chance to apologize.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "...!"
+    },
+    {
+      "Text": "[s15] \"Then you, me, Nagisa, and Seia can go to the hearing together!\" "
+    },
+    {
+      "Text": "[s16] \"And the three of us will support you at your hearing!\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "... "
+    },
+    {
+      "Name": "Mika",
+      "Text": "... "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Wh-What are you saying, Sensei? "
+    },
+    {
+      "Name": "Mika",
+      "Text": "I don't deserve your help or forgiveness."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I really swore I'd never cry again. Why are you being so kind to me?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Well..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "You win, Sensei."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Since you insist, I'll have to comply. Time to face the music."
+    },
+    {
+      "Text": "[s] \"I'm proud of you, Mika. Really.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I've never really believed in fate... I'd given up on a second chance a long time ago."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Heehee. Maybe I really am a princess trapped in a tower?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Y-You didn't hear that, Sensei!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Please take care of Seia, then... Sensei."
+    },
+    {
+      "Text": "[ns] Go to Seia's room."
+    },
+    {
+      "Text": "Seia's Infirmary"
+    },
+    {
+      "Name": "Seia",
+      "Text": "Sensei? Is that you?"
+    },
+    {
+      "Text": "[s] \"Seia, you're so pale! What's wrong?\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "Hm? You're...alive? How can that...? Is this a dream? Sensei, a-am I awake? "
+    },
+    {
+      "Text": "[s] \"What do you mean...?\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "..."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Oh, I'm sorry. I was still waking up."
+    },
+    {
+      "Name": "Seia",
+      "Text": "It slipped my mind. You were meant to visit Trinity today."
+    },
+    {
+      "Name": "Seia",
+      "Text": "I'm sorry again. The line between my dreams and reality has been so blurred lately."
+    },
+    {
+      "Name": "Seia",
+      "Text": "The past, present, and future are all tangled up."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Ah, I'm just babbling."
+    },
+    {
+      "Text": "[s] \"Everyone is worried about you. What's going on?\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "Are they?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "I guess I can't hide it... I'm not doing well."
+    },
+    {
+      "Name": "Seia",
+      "Text": "If I'm to tell you this, no one else can know, okay?"
+    },
+    {
+      "Name": "Seia",
+      "Text": "...I've been grappling with an impossible problem."
+    },
+    {
+      "Text": "[s] \"Okay, I'm listening.\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "This is unlike anything you and I have ever experienced."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Please heed my words carefully."
+    },
+    {
+      "Text": "[s] \"I promise, I will.\""
+    },
+    {
+      "Name": "Seia",
+      "Text": "I had a...dream some time ago."
+    },
+    {
+      "Name": "Seia",
+      "Text": "As you know, my dreams are often predictive of the future, as if I've entered a piece of reality destined to happen."
+    },
+    {
+      "Name": "Seia",
+      "Text": "While these dreams happen often, this one shook me to my core."
+    },
+    {
+      "Name": "Seia",
+      "Text": "Sensei, I saw the fall of Kivotos."
+    },
+    {
+      "Text": "Next Episode; Between a Dream and a Mirage"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;เจ้าหญิงในคุก"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "หลังเกิดเรื่องสนธิสัญญาเอเดน สถานการณ์ในสถาบันทรีนิตี้ก็วุ่นวายขึ้นมากๆ เลยละค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "โดยเฉพาะเรื่องความเห็นของคนส่วนใหญ่ที่มีต่อคุณมิกะ ตอนนี้เรียกได้ว่ากำลังแย่เลยค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "กลุ่มปาเตอร์ที่เป็นอำนาจสนับสนุนคุณมิกะก็ไล่เธอออกแล้ว และในการสืบพยานพรุ่งนี้ เธอจะถูกตัดสิทธิ์ในสภาน้ำชาค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เพราะไม่ว่าขั้นตอนหรือความจริงจะออกมาเป็นอย่างไรก็ตาม คุณมิกะก็คือคนผิดที่สมรู้ร่วมคิดกับ\nโรงเรียนอาเรียสจนเกิดเหตุการณ์สนธิสัญญาเอเดนนั่นค่ะ"
+    },
+    {
+      "Text": "[s] \"......!!\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ตอนนี้มีทั้งการร้องเรียนให้ขับออกจากตำแหน่ง ไหนจะมีการปาก้อนหินและระเบิดเข้าไปในห้องเรียนคุก\nที่คุณมิกะอยู่อีก..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "บนกระดานข่าวของโรงเรียนก็มีแต่ทัวร์ลงคุณมิกะ... ส่วนในห้องคุณมิกะก็เต็มไปด้วยสิ่งสกปรก และขยะค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "หนังสือและสัมภาระที่คุณมิกะเคยใช้ก็ถูกขโมยไปทั้งหมด... เสื้อผ้าและเครื่องประดับที่เก็บสะสมมา\nอย่างทะนุถนอมก็หายไปในกองเพลิงที่หาสาเหตุไม่ได้..."
+    },
+    {
+      "Text": "[s] \"แบบนี้มันเกินไปแล้วนะ!!\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ... แม้ชมรมทวงความยุติธรรมจะควบคุมเรื่องนี้อยู่ แต่ก็แทบจะเป็นไปไม่ได้เลยที่เราจะยุติ\nบรรยากาศรุนแรงที่เอ่อล้นไปทั่วโรงเรียนแบบนี้ค่ะ"
+    },
+    {
+      "Text": "[s1] \"......\""
+    },
+    {
+      "Text": "[s2] \"เป็นไปได้ยังไง......\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะกลายเป็นศัตรูสาธารณะของทรีนิตี้ไปแล้วละค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะกลายเป็นศัตรูสาธารณะของทรีนิตี้ไปแล้วละค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คนอื่นอาจจะคิดว่าทั้งหมดนี้คือสิ่งที่คุณมิกะสมควรได้รับเพื่อชดใช้สิ่งที่ได้ทำไป..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่ถึงอย่างนั้นฉันก็อยากแก้ต่างให้คุณมิกะค่ะ เพราะว่าคุณมิกะ... กำลังชดใช้มากเกินกว่าสิ่งที่ตัวเอง\nได้ทำลงไปค่ะ "
+    },
+    {
+      "Text": "[s3] \"อื้ม ครูเข้าใจแล้ว ครูเองก็จะช่วย\""
+    },
+    {
+      "Text": "[s4] \"มีอะไรที่ครูพอจะช่วยได้บ้างไหม?\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ... ขอบคุณนะคะคุณครู แต่ว่า..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ขอบคุณนะคะคุณครู แต่ว่า..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ในความเป็นจริงแล้ว... ฉันว่าคุณมิกะไม่คิดอยากแก้ต่างให้ตัวเองเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"มิกะน่ะเหรอ...?\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะจะไม่เข้าร่วมการสืบพยานค่ะ และการสืบพยานที่ไม่มีเธอเข้าร่วม... อาจจะนำไปสู่การไล่เธอ\nออกจากโรงเรียนค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าจะขัดขวางเรื่องนั้น เราก็ต้องทำให้คุณมิกะเข้าร่วมการสืบพยานให้ได้ไม่ว่าจะด้วยวิธีใดก็ตาม... แต่ลำพังฉันคนเดียวคงทำไม่ได้..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าคุณเซอาอยู่ด้วยก็น่าจะดีอยู่หรอกค่ะ แต่ตอนนี้สภาพร่างกายเธอก็ยังไม่สู้ดีนัก จะให้ออกมาจาก\nห้องก็คงไม่ได้ค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เพราะงั้นคุณครู... ฉันมีเรื่องอยากขอร้อง..."
+    },
+    {
+      "Text": "[s] \"อื้ม ครูจะลองไปเกลี้ยกล่อมมิกะดู\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ... ขอบคุณนะคะ ถ้าเป็นคุณครูละก็... ฉันคิดว่าคุณมิกะจะเปลี่ยนใจค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ตอนนี้คุณมิกะคงรอให้คุณครูไปหาอยู่..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เฮ้อ... "
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ทีนี้ก็คงเบาใจได้บ้างแล้วค่ะ ถึงจะยังไม่มีอะไรคลี่คลายก็เถอะ..."
+    },
+    {
+      "Text": "[s] \"แล้วนางิสะล่ะ? จะไม่เป็นอะไรเหรอ...?\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันเหรอคะ...? อ๋อ... ค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันไม่เป็นไรหรอกค่ะ เหมือนทุกครั้งแหละค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฮุฮุ... คุณครูคือคนคนเดียวที่เป็นห่วงฉันเลยค่ะ ขอบคุณนะคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าอย่างนั้น... ฉันขอฝากด้วยนะคะ "
+    },
+    {
+      "Text": "(คุณครูแยกกับนางิสะและไปพบมิกะ)"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "มิกะพยายามทำร้ายคุณเซอา! เอาตัวคนร้ายออกมาซะสิ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ B",
+      "Text": "ไม่อยากจะเชื่อเลยว่าคนร้ายที่จับมือกับอาเรียสและทำลายสนธิสัญญาเอเดนคือสภาน้ำชา! แบบนี้เรารับไม่ได้!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ C",
+      "Text": "เอาแม่มดคนนั้นไปแขวนที่จัตุรัสเถอะค่ะ!!"
+    },
+    {
+      "Name": "ชมรมทวงความยุติธรรม",
+      "Text": "ทะ... ทะ... ทุกคนคะ ห้ามเกินเส้นนี้มานะคะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ D",
+      "Text": "คนทรยศจะต้องชดใช้!! ชดใช้ที่หลอกลวงพวกเรา!!"
+    },
+    {
+      "Text": "[ns] (บรรยากาศแบบนี้เองเหรอ...)"
+    },
+    {
+      "Text": "ห้องเรียนคุกที่มิกะถูกกักตัวอยู่"
+    },
+    {
+      "Text": "[ns] \"มิกะ...?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ชู่ว รอแป๊บนะคุณครู"
+    },
+    {
+      "Text": "[ns5] \"......??\""
+    },
+    {
+      "Text": "[ns6] \"เสียงดนตรี......?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... อื้ม รอนานรึเปล่า? ขอโทษนะ ฉันกำลังเข้าคลาสสวดมนต์น่ะ เรียนจากทาง TV..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถึงจะอยู่ในคุกแต่ก็ต้องเข้าคลาสสวดมนต์ด้วย โหดร้ายมากเลยเนอะว่าไหม? "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้าช่วยดูสถานการณ์กันหน่อยก็น่าจะดีเนอะ"
+    },
+    {
+      "Text": "[s] \"แต่เพลงก็เพราะดีนะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "งั้นเหรอ? ไม่น่าเบื่อหรอกเหรอ? ให้เมตตาเราบ้างละ ให้สงสารเราบ้างละ มีแต่คำแปลกๆ เต็มไปหมด"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เพลง[ruby=Kyrie Eleison]โปรดทรงเมตตา[/ruby]งั้นเหรอ? แค่ชื่อก็ไม่ถูกใจแล้ว ทำไมถึงต้องอ้อนวอนต่อสิ่งที่มองไม่เห็นด้วยล่ะ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถึงจะวอนขอให้สงสารตัวเอง แต่สุดท้ายก็มีแต่ความทุกข์ไม่ใช่หรือไง เรื่องแบบนี้จะให้ทำกับตัวเอง หรือคนอื่นก็ไม่ได้ทั้งนั้นนั่นแหละ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แต่ฉันก็ชอบทำนองเพลงอยู่หรอกนะ ถึงเนื้อเพลงจะใช้ไม่ได้ก็เถอะ "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ้อ จริงสิ คุณครูไม่เคยได้ยินเพลงนี้มาก่อนใช่ไหม? ไว้วันหลังฉันเปิดให้ฟังเอาไหมล่ะ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ปกติให้ฟังฟรีๆ ไม่ได้หรอกนะ แต่ถ้าเป็นคุณครูฉันจะยอมเปิดให้แล้วกัน ก็อุตส่าห์มาหาฉันแบบนี้ไง!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แบบฉากหนึ่งในเทพนิยายไง ที่เจ้าหญิงที่ถูกขังในหอคอยร้องเพลงรักในยามราตรีให้กับคนใน\nโชคชะตาของเธอน่ะ!"
+    },
+    {
+      "Text": "[s] \"แต่นี่มันคุกนะ ไม่ใช่หอคอย\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ว้าว จี้จุดกันอย่างนี้เลยเหรอ... ก็นะ มันก็จริงนี่เนอะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้างั้น วันนี้มาหาฉันเพราะเรื่องอะไรเหรอคุณครู?"
+    },
+    {
+      "Text": "[s7] \"อืม มีเหตุผลให้มาหานิดหน่อยน่ะ มิกะ\""
+    },
+    {
+      "Text": "[s8] \"นางิสะกำลังเป็นห่วงที่เธอจะไม่เข้าร่วมการสืบพยานนะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังสบายดีใช่ไหม? ... อืม โล่งอกไปที"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ชมรมซิสเตอร์กับชมรมอัศวินบรรเทาทุกข์มาหานางิจังใช่ไหมล่ะ? มาเหมือนแขกที่ไม่ได้รับเชิญเลย\nใช่ไหม?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เป็นอย่างนี้เองสินะ อำนาจก็เหมือนภาวะสุญญากาศ ยิ่งสถานะของสภาน้ำชาอ่อนแอลง อำนาจอื่นรอบๆ ตัวก็จะยิ่งเพิ่มมากขึ้น"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เพราะเป็นอย่างนี้ ทั้งสองคนนั้นถึงไปอยู่ที่นั่นไงล่ะ... ไม่นึกเลยว่าจะเข้ามาขัดขาสภาน้ำชาด้วยตัวเอง\nแบบนี้..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮึ่ม... นางิจังคงจะ... เครียดน่าดูเลยนะ"
+    },
+    {
+      "Text": "[s] \"ครูเห็นพวกนักเรียนมารวมตัวกันที่จัตุรัสด้วย\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ่อ... อื้ม... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ช่างเถอะ ก็มันช่วยไม่ได้นี่นา อีกอย่างฉันก็ไม่ใช่คนที่ใส่ใจคำพูดของคนอื่นอยู่แล้ว"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังคงจะคิดว่าทุกอย่างจะคลี่คลายได้หากฉันไปเข้าร่วมการสืบพยาน... แต่นั่นเป็นแค่ความคิดที่\nไร้เดียงสา  "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... อื้ม หลังจากเหตุการณ์สนธิสัญญาเอเดน อำนาจของสภาน้ำชาก็ไม่เหมือนเดิม"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เสียงส่วนใหญ่ของโรงเรียนก็ไม่สู้ดีนัก สถานะทางการเมืองก็ลดลงไปเยอะเลยด้วย แต่มันก็สมควรแล้วละ ก็ฉันไปก่อเรื่องขนาดนั้นไว้นี่นา"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "พอเป็นแบบนี้ แล้วยิ่งนางิจังจะมาแก้ต่างให้ฉันแล้วด้วย..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ตำแหน่ง <สภาน้ำชา> ของทั้งนางิจังและเซอาจังอาจจะเป็นอันตรายได้นะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันจะให้ทุกคนมาเสี่ยงอันตรายเพราะฉันไม่ได้"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เพราะทั้งหมดนี้คือสิ่งที่ฉันต้องรับผิดชอบ"
+    },
+    {
+      "Text": "[s9] \"มิกะอาจถูกไล่ออกเลยนะ\" "
+    },
+    {
+      "Text": "[s10] \"ครูได้ยินมาว่าข้าวของของมิกะถูกเผาไปหมดแล้วด้วย\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Text": "[s] \"นี่มันเรื่องใหญ่มากจริงๆ นะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ตะ... แต่ว่า..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉัน... เป็นคนผิดเอง... ต่อให้โดนไล่ออก..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... แม้ว่าข้าวของแห่งความทรงจำที่เก็บสะสมกับนางิจังมาตั้งแต่เด็กๆ... จะถูก... ไฟไหม้ไปหมด..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉะ... ฉันคง... ไม่ได้รับการยกโทษ... และเซอาจังก็คงจะเกลียดฉันอยู่..."
+    },
+    {
+      "Text": "[s11] \"ไม่ใช่นะ เซอาไม่ได้เกลียดมิกะ ครูรู้ดี\""
+    },
+    {
+      "Text": "[s12] \"เซอายกโทษให้มิกะแล้วนะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... ไม่หรอก... ไม่ใช่อย่างนั้นหรอก... ฉันพยายามจะขอโทษหลายครั้งแล้ว... แต่ทุกครั้งก็..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... ไม่หรอก... ไม่ใช่อย่างนั้นหรอก... ฉันพยายามจะขอโทษหลายครั้งแล้ว... แต่ทุกครั้งก็..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ครั้งที่แล้ว... ที่ได้เจอกันก็ด้วย..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เซอาจัง วันนี้ทำหน้าจริงจังอีกแล้วนะ นอนไม่หลับเหรอ? ผิวก็แย่ลงด้วย เอาโลชั่นบำรุงผิวของฉันไป\nใช้ไหม?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นี่... เซอาจัง...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ่อ... คือว่า... ถ้าไม่ติดอะไร... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "วันนี้ไปกินของหวานกับฉันไหม? ไปกินแยมโรลกัน! ถึงจะในห้องเรียนคุกก็เถอะ... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังนี่ใจแคบจริงๆ ไม่คิดเลยว่าจะทรมานกันแบบนี้เลย อื้ม"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มิกะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ขอโทษนะคะ แต่ตอนนี้ไม่ใช่เวลามาทำอะไรแบบนั้นหรอกค่ะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "งะ... งั้นเหรอ? ก็กะไว้อยู่แล้วแหละ... นี่..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันรู้สึกไม่ค่อยสบาย... ขอกลับห้องก่อนนะคะ"
+    },
+    {
+      "Text": "[ns] \"เซอาน่ะเหรอ...?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ช่วงนี้เซอาจังไม่ยอมออกจากห้องตัวเอง แถมยังไม่อนุญาตให้ใครเข้าไปเยี่ยมด้วย... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มีคนบอกว่าที่เธอทำอย่างนั้นเพราะร่างกายไม่แข็งแรง... ปกติเซอาจังไม่ค่อยแข็งแรงอยู่แล้วน่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แต่ที่ฉันได้ยินมามีแต่เรื่องไม่ดี... มีคนบอกว่าได้ยินเสียงร้องไห้ออกมาจากห้องของเซอาจังด้วย..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม... เพราะเป็นอย่างนี้ฉันถึงไม่อาจเข้าใจเซอาจังได้เลย "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันคงไม่มีวันถูกยกโทษให้หรอก..."
+    },
+    {
+      "Text": "[s13] \"ไม่หรอก ครูว่าต้องมีเรื่องเข้าใจผิด\""
+    },
+    {
+      "Text": "[s14] \"เซอาบอกว่ายกโทษให้มิกะแล้วจริงๆ นะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮ่าฮ่าฮ่า... อื้ม ขอบคุณนะคุณครู ต่อให้เซอาจังโกรธเกลียดฉันก็ไม่เป็นไรหรอก..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮ่าฮ่าฮ่า... อื้ม ขอบคุณนะคุณครู ต่อให้เซอาจังโกรธเกลียดฉันก็ไม่เป็นไรหรอก..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันอยากจะพูดขอโทษเซอาจังสักครั้ง..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แต่ถ้าฉันไปก่อปัญหาอะไรจนทำให้สุขภาพของเซอาจังแย่ลงอีกละก็... ฉันคง..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้าเซอาจังเป็นอะไรขึ้นมาอีกครั้ง... ฉันคง... คงไม่ได้รับการยกโทษอีกตลอดไป..."
+    },
+    {
+      "Text": "[s] \"ครูจะลองไปพบเซอาเอง\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "คะ... คุณครูน่ะเหรอ?"
+    },
+    {
+      "Text": "[s] \"และครูจะทำให้มิกะได้ขอโทษเซอาแบบเป็นทางการนะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...!"
+    },
+    {
+      "Text": "[s15] \"แล้วหลังจากนั้น... ครู นางิสะ และก็มิกะ...\" "
+    },
+    {
+      "Text": "[s16] \"จะไปเข้าร่วมการสืบพยานในวันพรุ่งนี้ด้วยกัน!\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ดะ... เดี๋ยวก่อน นี่มัน... เอ่อ... "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "คุณครูต้องทำเพื่อฉันถึงขนาดนี้... เลยเหรอ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันอุตส่าห์ตั้งใจว่าจะไม่ร้องไห้อีก... ทำไมถึงมาพูดแบบนี้กับฉันล่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "คุณครูเนี่ย..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม... เข้าใจแล้วละ คุณครู"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้าคุณครูพูดถึงขนาดนี้... ฉันคงต้องยอมแล้วละ ฉันจะไปเข้าร่วมการสืบพยานในวันพรุ่งนี้... พร้อมกับทุกคนนะ"
+    },
+    {
+      "Text": "[s] \"อื้ม คิดได้ดีแล้วละมิกะ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... คิดว่าจะไม่ได้รับโอกาสเป็นครั้งที่สองแล้วซะอีก... แต่โชคชะตานี้มัน..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "...... อืม บางทีฉันอาจจะเป็นเจ้าหญิงที่ถูกขังในหอคอยก็ได้..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หะ... หืม? มะ... ไม่มีอะไรหรอกคุณครู!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้างั้นฉันฝากเรื่องเซอาจัง... ด้วยนะคุณครู"
+    },
+    {
+      "Text": "[ns] ไปที่ห้องของเซอา"
+    },
+    {
+      "Text": "ห้องรักษาของเซอา"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "...... คุณครู? คุณครูเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"เซอา? เป็นยังไงบ้าง? หน้าซีดเชียว\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "อ่า... คุณครู ยังมีชีวิตอยู่สินะคะ ทำไมถึง...? นี่คือความฝันเหรอ...? คุณครู... นี่เป็นความฝันหรือเปล่าคะ? หรือว่า... ความจริง?"
+    },
+    {
+      "Text": "[s] \"หืม...?\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "......"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "อ่า... ขอโทษค่ะคุณครู... คงใช่แล้วละค่ะ เพราะเรื่องนั้นยัง... เอ่อ... พอดีฉันสับสนอะไรนิดหน่อยน่ะค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "จริงด้วยสินะคะ วันนี้คุณครูจะมาสถาบันทรีนิตี้นี่นา อืม... ค่ะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ขอโทษนะคะ.... ช่วงนี้ฉัน... แยกแยะระหว่างความฝันกับความจริงไม่ได้ค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "อดีต ปัจจุบัน อนาคต มันปนกันยุ่งเหยิงไปหมด..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "...... อ่า... ฉันมัวแต่พูดอะไรแปลกๆ ใช่ไหมคะ..."
+    },
+    {
+      "Text": "[s] \"ทุกคนเป็นห่วงเซอาอยู่นะ เกิดเรื่องอะไรขึ้นเหรอ?\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "นั่นสินะคะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "สภาพฉันในตอนนี้... คงบอกว่าไม่เป็นอะไรไม่ได้หรอกค่ะ "
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ถึงฉันจะกำลังเผชิญปัญหาที่ไม่สามารถบอกใครได้... แต่ถ้าเป็นคุณครูละก็..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "คุณครู... ฉันมีเรื่องอยากปรึกษาค่ะ"
+    },
+    {
+      "Text": "[s] \"อื้ม เล่าให้ครูฟังได้เลย\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "...... เรื่องนี้เป็นเรื่องที่แตกต่างจากทุกเรื่องที่คุณครูได้เจอมาค่ะ... ต่างอย่างสิ้นเชิงเลยค่ะ..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "เพราะฉะนั้น... ได้โปรดรับฟังเรื่องของฉันอย่างจริงจังด้วยนะคะ..."
+    },
+    {
+      "Text": "[s] \"อื้ม เข้าใจแล้ว\""
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ไม่นานมานี้... ฉันฝันบางอย่างค่ะ"
+    },
+    {
+      "Name": "เซอา",
+      "Text": "มันคือฝันที่บอกเหตุล่วงหน้า... เป็นส่วนหนึ่งของความจริงที่จะเกิดขึ้นในอนาคต... สำหรับฉันแล้วมัน\nอาจไม่ได้พิเศษอะไรมาก..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "แต่ในฝัน... ฉัน..."
+    },
+    {
+      "Name": "เซอา",
+      "Text": "ฉันเห็นภาพการล่มสลายของคิโวทอสค่ะ"
+    },
+    {
+      "Text": "ตอนต่อไป;ระหว่างความฝันกับภาพลวงตา"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;監牢中的公主"
+    },
+    {
+      "Name": "渚",
+      "Text": "從伊甸園條約的事件以來，三一綜合學園的情勢就變得相當複雜。"
+    },
+    {
+      "Name": "渚",
+      "Text": "特別是對彌香同學的輿論惡化相當嚴重……"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學已經被自己所屬的聖父派給驅逐，明天舉行的聽證會也決定要剝奪他茶會成員的資格。"
+    },
+    {
+      "Name": "渚",
+      "Text": "畢竟不管過程跟真相如何──彌香同學就是奧利斯分校勾結並引發伊甸園條約事件的主謀。"
+    },
+    {
+      "Text": "[s] 「……！！」"
+    },
+    {
+      "Name": "渚",
+      "Text": "就算在聽證會開始之前，也時常發生要向彌香同學定罪的騷動，也出現了動用私刑，向關著彌香同學的牢房裡丟石頭的學生……"
+    },
+    {
+      "Name": "渚",
+      "Text": "在學園的留言板上也全都是對彌香同學的指責……聖父派也只因為是彌香同學曾經所屬的派系就被人冷眼相待……"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學用過的書和物品都遭到扣押，珍藏的衣服和飾品也被燒毀……"
+    },
+    {
+      "Text": "[s] 「竟然會發生這種事……」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……實現正義部雖然進行了取締，但要消除這瀰漫在整個學園內的氛圍幾乎是不可能的。"
+    },
+    {
+      "Text": "[s1] 「……」"
+    },
+    {
+      "Text": "[s2] 「這樣啊……」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……彌香同學已經成為三一的公敵了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……彌香同學已經成為三一的公敵了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然我可以把這全都當作是彌香同學應該受到的懲罰……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……儘管如此，我還是想為彌香同學辯護。因為他已經付出了比犯下的罪更高的代價了。"
+    },
+    {
+      "Text": "[s3] 「是呀……我也會幫忙的唷。」"
+    },
+    {
+      "Text": "[s4] 「有沒有什麼我能幫上忙的呢？」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……嗯，謝謝你，老師。但是……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……嗯，謝謝你，老師。但是……"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學自己……似乎沒有要為自己辯護的意思……"
+    },
+    {
+      "Text": "[s] 「彌香他……？」"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學似乎不打算出席聽證會。在那種狀態下舉行的聽證會……毫無疑問會得出將他退學的結論吧。"
+    },
+    {
+      "Name": "渚",
+      "Text": "但是……我沒有成功說服他出席……"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然聖亞同學或許可以做到……不過他現在已經自顧不暇了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……所以，有件事想拜託你。"
+    },
+    {
+      "Text": "[s] 「嗯……我會去見彌香一面，想辦法說服他的。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "非常感謝。如果是老師出面的話一定……"
+    },
+    {
+      "Name": "渚",
+      "Text": "而且彌香同學似乎也在等著老師……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……呼。"
+    },
+    {
+      "Name": "渚",
+      "Text": "稍微安心一點了。雖然什麼事情都還沒解決……"
+    },
+    {
+      "Text": "[s] 「渚還好嗎……？」"
+    },
+    {
+      "Name": "渚",
+      "Text": "我……？啊啊……"
+    },
+    {
+      "Name": "渚",
+      "Text": "我沒事唷……就像往常一樣。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……呵呵，現在會擔心我的也就只有老師了呢。謝謝你。"
+    },
+    {
+      "Name": "渚",
+      "Text": "那麼……之後的事就拜託你了。"
+    },
+    {
+      "Text": "（向渚告別，正往彌香所在的地方移動時……）"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "把想要謀害聖亞大人的叛徒交出來！"
+    },
+    {
+      "Name": "三一學生B",
+      "Text": "和奧利斯聯手破壞伊甸園條約的罪人竟然會是茶會，不可原諒！"
+    },
+    {
+      "Name": "三一學生C",
+      "Text": "罪人就該受罰！定罪！"
+    },
+    {
+      "Name": "實現正義部成員",
+      "Text": "大，大家！請不要跨越這條線！"
+    },
+    {
+      "Name": "三一學生D",
+      "Text": "讓叛徒受到懲罰！！讓他付出欺騙我們的代價！！"
+    },
+    {
+      "Text": "[ns] （真可怕的氣氛……）"
+    },
+    {
+      "Text": "關著彌香的牢房"
+    },
+    {
+      "Text": "[ns] 「彌香……？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "噓──"
+    },
+    {
+      "Text": "[ns5] 「……？」"
+    },
+    {
+      "Text": "[ns6] （……好像能微微聽到音樂）"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……讓你久等了。剛才是禮拜的時間，今天是聽讚美歌的日子。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "就算在這裡也一定要參加禮拜才行，不覺得有點殘忍嗎？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "明明沒有必要要求這種事的。"
+    },
+    {
+      "Text": "[s] 「不過真是首不錯的曲子呢。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "是嗎？聽起來不會很無聊嗎？「請寬恕我們」和「請賜予我們憐憫」之類的──"
+    },
+    {
+      "Name": "彌香",
+      "Text": "[ruby=Kyrie eleison]垂憐經[/ruby]這個名字我也不喜歡。為什麼要依靠這些看不見的存在呢？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "竟然要說出「請賜予我們憐憫」這種話也太悲慘了吧。這種事不管是對自己還是對別人都不應該做唷。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不過曲子我很喜歡唷！雖然歌詞有點微妙就是了。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊對了老師。你沒有聽過我唱歌吧？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "這可不是隨便就能聽到的，因為是老師才有特別待遇喔，畢竟都特地來找我了嘛！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "被關在高塔裡的公主向命運的對象唱著小夜曲，怎麼樣？簡直像是故事中才會出現的場景對吧！"
+    },
+    {
+      "Text": "[s] 「雖然這裡不是高塔而是牢房就是了。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗚哇，一下就回到現實了……？算了，這也是事實。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……所以今天有什麼事呢，老師？"
+    },
+    {
+      "Text": "[s7]  「事情我都聽說了唷，彌香。」"
+    },
+    {
+      "Text": "[s8]  「你不想參加聽證會是嗎？渚很擔心你的唷。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬沒事，對吧？……嗯，那就好。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我猜修女會跟救護騎士團的團長都待在渚醬的身邊對吧？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……果然是這樣。畢竟茶會的立場越危險，對其他的勢力就越有利。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "沒想到他們會這麼直接的牽制茶會……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……渚醬的壓力肯定很大吧。"
+    },
+    {
+      "Text": "[s] 「對呀……話說回來，來這裡的時候，我看到廣場上那群人了唷。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……嗯，這樣啊。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……嘛，畢竟我的立場就跟你看到的一樣。這也沒辦法。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬好像覺得我只要出席聽證會的話一切都能圓滿結束……三一可不是這麼天真的地方。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……在事件之後，茶會的權威已經跌落谷底。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不管是校園內的輿論還是政治上的立場……那也是當然的，畢竟我做出了那種事情。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "在這種千瘡百孔的狀態下，渚醬越想保護我……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "「茶會」的……不只是渚醬，就連聖亞醬的立場都會陷入危險的。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我不希望他們為了我這種人變成那樣。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "這全都只是我該付出的代價。"
+    },
+    {
+      "Text": "[s9]  「不過，可能會被退學的……」"
+    },
+    {
+      "Text": "[s10] 「而且彌香也已經受到很多懲罰了……」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Text": "[s] 「已經付出了足夠的代價了不是嗎？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "可，可是……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……就算這樣，也都是因為我的錯。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "和渚醬一起收集的，充滿回憶的珍貴寶物好像都被燒掉了呢……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "儘管這樣，他們還是不願意原諒我……聖亞醬也還恨著我……"
+    },
+    {
+      "Text": "[s11] 「聖亞並不恨彌香，我可以保證唷。」"
+    },
+    {
+      "Text": "[s12] 「聖亞已經原諒彌香了唷。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……不，不對！不可能……因為，我每次想要道歉的時候都……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……不，不對！不可能……因為，我每次想要道歉的時候都……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "之前見面的時候也是……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "聖亞醬，今天臉色也不太好呢。沒睡好嗎？皮膚也很粗糙哦？要借你保濕乳液嗎？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "那個，聖亞醬……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……那個，如果可以的話……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "要不要一起吃飯？雖然說是吃飯，不過牢房裡只有蛋糕捲而已就是了！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "真是的，渚醬真是心胸狹窄，竟然三餐都只給我吃蛋糕捲！"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……彌香。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯，嗯？要吃嗎？"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "抱歉，現在有點……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……我，我想也是。果然，那個……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我有點不舒服……抱歉，我先回房間了。"
+    },
+    {
+      "Text": "[ns] 「聖亞他……？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "聖亞醬最近好像都不從房間裡出來，也不讓任何人進房間……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "也有傳聞聖亞醬已經只能躺在床上了……他的身體本來就不好。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "而且，似乎還有些不好的傳聞……像是能從聖亞醬的房間裡聽到啜泣聲之類的……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "雖然聖亞醬說的話總是很難懂……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我想他多半還沒有原諒我吧……"
+    },
+    {
+      "Text": "[s13] 「聖亞醬確實說過已經原諒彌香了唷。」"
+    },
+    {
+      "Text": "[s14] 「是不是有點誤會呢？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……謝謝你，老師。不過，聖亞醬就算要恨我也沒關係……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……謝謝你，老師。不過，聖亞醬就算要恨我也沒關係……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "畢竟我也還沒好好跟聖亞醬說過「對不起」呢……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "在這種狀態下，如果因為我害聖亞醬的身體更糟的話……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "如果聖亞醬又勉強自己的話……我肯定……無法原諒自己的……"
+    },
+    {
+      "Text": "[s] 「我會去見聖亞的唷。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "老，老師嗎……？"
+    },
+    {
+      "Text": "[s] 「為了讓彌香能好好跟聖亞說聲『對不起』。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……！"
+    },
+    {
+      "Text": "[s15] 「之後……我跟渚、聖亞、彌香，大家一起」"
+    },
+    {
+      "Text": "[s16] 「大家一起出席明天的聽證會吧！」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……等，等一下。為什麼要……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我，我有被這麼對待的價值嗎……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我……明明發誓不會再哭了，為什麼還……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……要對我說這種話呢。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……嗯，我知道了。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "既然老師都這麼說了……我會跟大家一起去聽證會的。"
+    },
+    {
+      "Text": "[s] 「嗯，謝謝你願意下定決心，彌香。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……老實說，我以為不會有第二次機會了……不過，這就是命運嗎……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "果然我是被關在高塔中的公主嗎……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……沒，沒什麼唷，老師！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "那聖亞醬就……拜託你了，老師。"
+    },
+    {
+      "Text": "[ns] 前往聖亞的房間"
+    },
+    {
+      "Text": "聖亞的治療室"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……老師？"
+    },
+    {
+      "Text": "[s] 「聖亞你還好嗎？臉色不太好唷。」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "老師……你沒事嗎。不，這或許也是自我滿足的夢吧。是幻影還是虛構呢，或者其實都一樣呢……"
+    },
+    {
+      "Text": "[s] 「怎，怎麼了嗎……？」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "不，似乎並非如此呢……那雙眼睛──"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……這樣啊。今天是你來三一的日子啊。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "抱歉。最近的我和以往比起來，夢境和現實的交界似乎更加曖昧……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "現在、過去、未來……這些不斷地包圍著我，讓我連現在究竟身處何處都難以辨別了。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "嘛，這些事不用在意也沒關係的……你要這樣理解也可以。"
+    },
+    {
+      "Text": "[s] 「大家都很擔心你唷，發生什麼事了？」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……這樣啊。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "發生什麼了，要精準回答這個問題有點困難──但是，有一點我可以說。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "我看見了無法告訴任何人的未來。但是，如果是老師你的話……"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……願意傾聽我的話嗎？"
+    },
+    {
+      "Text": "[s] 「嗯，當然了。」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "從這裡開始，是跟你過去經歷過的事件完全不同種類的……完全不一樣的事。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "但是拜託你……就算感到荒唐無稽也請你聽下去。"
+    },
+    {
+      "Text": "[s]「……我知道了。」"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……不久前，夢的使者告訴了我。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "可以說是「預知夢」之類的東西──也就是某天將到來的未來的碎片……當然，那只不過是我平常看見的其中一個世界而已。"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "但是，只有那天不同。沒錯，那一天──"
+    },
+    {
+      "Name": "聖亞",
+      "Text": "……我看見了世界，奇普托斯迎來終焉的景象。"
+    },
+    {
+      "Text": "下一話;於夢與海市蜃樓之間"
+    }
+  ]
+}

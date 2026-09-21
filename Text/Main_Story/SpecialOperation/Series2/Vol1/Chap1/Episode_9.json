@@ -1,0 +1,1927 @@
+{
+  "TitleJP": "手掛かり",
+  "TitleKR": "허상 추적",
+  "TitleEN": "Chasing Illusions",
+  "TitleTH": "ไล่ล่าภาพลวงตา",
+  "TitleTW": "虛像追蹤",
+  "DescJP": "陽炎を観察していて魅入られてしまったオトギの様子と、確かに撃ったはずなのに消えてしまった弾丸から、「くねくね」の発生条件と対処法の仮説を立てたFOX小隊。対策となりうる装備を用意し、討伐に向けて本格的に動き始める。",
+  "DescKR": "쿠네쿠네의 발생 조건과 대처 방법을 확인한 FOX 소대는 본격적인 사냥에 나선다.",
+  "DescEN": "Now aware of how the kunekune appears and what to do against it when it does, the FOX Squad starts their hunt in earnest.",
+  "DescTH": "หลังจากได้รู้เงื่อนไขการปรากฏตัวและวิธีรับมือกับคุเนะคุเนะแล้ว กองทหาร FOX ก็เริ่มปฏิบัติการล่าอย่างเต็มรูปแบบ",
+  "DescTW": "確認了扭來扭去的出現條件與應對方法後，FOX小隊正式展開了狩獵。",
+  "DialogJP": [
+    {
+      "Text": "第9話;手掛かり"
+    },
+    {
+      "Text": "シャーレの地下、FOX小隊作戦本部"
+    },
+    {
+      "Text": "[ns1] \"みんな大丈夫！？\""
+    },
+    {
+      "Text": "[ns2] \"ロアに襲われたって聞いたけど……無事？\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "んぐっ……！？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "（ごくり）"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……失礼いたしました。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "FOX小隊、約1時間30分前に帰還しています。"
+    },
+    {
+      "Text": "[s3] \"あ、ご飯中だったんだね。\""
+    },
+    {
+      "Text": "[s4] \"ごめん。出直そうか……？\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "いえ。乱れたところを見せてしまい……失礼しました。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あ、せっかくですし。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "よければ先生もご一緒しませんか？"
+    },
+    {
+      "Text": "[s] \"せっかくだけど、夜ごはん食べちゃったんだ。\""
+    },
+    {
+      "Text": "[ns] \"それは……油揚げの巾着？\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "そう。ニコが作ったの。あ、ちゃんと油揚げは外から持ち込んだから。\n休憩室の冷蔵庫の食材には手を出してないから安心して。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "以前、作戦中に知り合った油揚げ工場の方がいらっしゃいまして。\n定期的に質の良い油揚げを送ってくださるので、こうして時々作っているんです。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ま、そういうの抜きにしても、ニコの油揚げ料理ってほんと美味しいんだよね。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ん～……この具はキノコかな？油揚げの中から出てくる旨味がたまんない～"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "あのさ……さっきから気になってたんだけど、\nなんか私の巾着だけ豆しか入ってなくない？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "これ、罰ゲーム？私なにかしたっけ……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "文句言わないで食べなさい。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "鬼は外～福は内～ともいうでしょ？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "節分の豆は魔除けだけど、そういう意味じゃなくない？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "まぁ、味は悪くないけどさ。"
+    },
+    {
+      "Text": "[s] \"何があったの？\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "説明すると少々長くなるのですが……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……というわけで、FOX4に影響を及ぼした正体不明の白い個体は、\n白いかかし――通称「くねくね」と同一の存在であると判断できます。"
+    },
+    {
+      "Text": "[ns] \"体調は平気？変なところとかない？\""
+    },
+    {
+      "Name": "オトギ",
+      "Text": "へーきへーき。戻ってすぐ身体検査もしたけど、特に異常なし。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "むしろクルミに殴られた頭の方が痛いんだけど。コブできた気がする……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "恩知らずなこと言うじゃない。\nあと数秒遅れてたらどうなってたか分かんないんだからね？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "被害者たちみたいにならなかったのは不幸中の幸いだけど……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "でも、起きたら記憶が全部飛んでてさ。\nくねくねの姿も、「青い草原」があった方向も、全然思い出せないみたいなんだよね……。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "幸い、FOX3のボディカメラにその時の会話が残っているようだ。"
+    },
+    {
+      "Name": "録音音声",
+      "Text": "道路の向こう。青空の草原が見える。\n地図には載ってないし……蜃気楼？"
+    },
+    {
+      "Name": "録音音声",
+      "Text": "草が生い茂ってて……かかしが、1つ……その向こうで笑ってる白い服の人が――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……ねえ、私の声って本当にこんな感じ？聞くたびに、なんか妙な気分。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "元からそんな感じだから気にしないで。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "それにしても変よね。シロウナギ駅の近くに草原なんてないのに。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "蜃気楼だったんじゃないかな。陽炎が立つと、遠くの場所が見えたりするし。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "そういうのはアビドス大砂漠みたいに遮るものが何もない場所でしか起きないよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "ポイントロメオ――第3業務地区は建物で視界が遮られてるから、\nいくら像が歪んだって別の場所を観測できるはずがない。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "本来なら見えないはずの場所を見せてくる陽炎……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "とにかく、私たちの相手が「[ruby=ロア]理解を超えた不可解[/ruby]」だってことははっきりしたね。"
+    },
+    {
+      "Text": "[s5] \"これ以上手当たり次第に突っ込むのは危ないよ。\""
+    },
+    {
+      "Text": "[s6] \"この件はシャーレに任せて――\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "安全が確保できなければ引くのも、特殊部隊の美徳ではあります。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "ですが「兎」ならともかく、「狐」は用心深いだけじゃなく好奇心も旺盛な動物。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "新しい手掛かりを目の前にして引くのは……性分が許しません。"
+    },
+    {
+      "Text": "[s] \"……新たな手掛かり？\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "こちらをご覧いただけますか。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "これはFOX4が陽炎に呑まれた際、引き金を引いて排出された薬莢です。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "これがあるということは、飛んでいった弾丸もあるはず。\nですが地上に弾痕は一切見つかっていません。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "おそらく、あのロアと共に消えたのでしょう。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "対物狙撃銃の50口径弾は、決して無視できない物理エネルギーを持ちます。\n良くも悪くも、それに干渉したということは――"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "相手はただの幻ではなく、物理的に捉えられる「ターゲット」だという意味です。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "先生。このターゲットを他部隊へ引き継ぐ前に、\n後続の被害を減らすための威力偵察を、\nもう一度だけ実施させていただけないでしょうか。"
+    },
+    {
+      "Text": "[ns7] \"……分かった。次が最後だよ。\""
+    },
+    {
+      "Text": "[ns8] \"それと、その時は私も同行する。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "許可していただき、感謝します。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "相手が幻よりかは気が楽ね。\n形があるなら、爆薬をたっぷり食わせれば何かしら反応するでしょ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "なんだか、前に後輩相手に嫌な思いをした記憶が蘇りそうで……。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "で、どこでやるの？またポイントロメオ？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "状況を再現するのならば同じ地点が最適だが……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "もしも戦闘を想定するなら、私は別の場所でやるべきだと思う。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "どうして？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "考えてみて。開けた場所で「他の人には見えない敵」に向かって銃を乱射したら、\n市民から変な目で見られるかもしれない。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それに、昼の商業地区は人通りも多い。下手をすれば銃撃戦に巻き込む危険もある。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "さんせー。\nくねくねを処理した後にヴァルキューレの生徒と第2ラウンドをするのは、ねぇ？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……それは困るな。"
+    },
+    {
+      "Text": "[s9] \"市民の説得は私に任せて。\""
+    },
+    {
+      "Text": "[s10] \"後始末は私が責任を――\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "いえ。場所を変えます。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "作戦であっても、市民への被害は最小限にしなければなりません。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "作戦中に市民を危険にさらしたのであれば……それは私たちの責任です。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "なにより私たちは、まだ完全に赦免されたわけではありません。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "先生が仲裁に入れば、連邦生徒会長の立場が余計にこじれてしまいますから。"
+    },
+    {
+      "Text": "[s] \"……分かった。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "陽炎が観測できることを第一条件に場所を選定する。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "その上で、なるべく人通りが少なく、温度差による空気の流れが極端な場所が望ましい。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "了解。作戦地図で近くを探してみる。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "それと、もう1つ。気になることがあって……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "私たちが「くねくね」を認知した状態で、「普通の作戦」が成立するのかな？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "どういう意味……？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "前の作戦で、くねくねを見たオトギとは会話が成立しなくなっちゃったでしょ？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "退避命令すら通らない[ruby=NORDO]通信途絶[/ruby]状態で戦闘継続はできないよ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "じゃあ2人1組で、片方が観測、もう片方が引き金を引くのは？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "それもダメだ。取り憑かれることを前提にした作戦は組めない。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "場合によっては4人全員が戦闘不能になる可能性だってある。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "じゃあ防護ゴーグルをつけるのはどう？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "どうだろう。オトギも一応、照準器越しに陽炎を見てたよね。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "単にガラスや鏡を挟んでも意味はないと思う。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "厄介だな。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "こうなったら霊能力者を呼んでくるしかないのかな？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "つまりさ、相手を直視せずに形だけ観測できればいいんでしょ？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "だったら――これを使えば問題なくない？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……本当に、これでいけるの？"
+    },
+    {
+      "Text": "次回;闇の中へ"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;허상 추적"
+    },
+    {
+      "Text": "샬레 지하, FOX 소대 작전 본부"
+    },
+    {
+      "Text": "[ns1] \"다들 괜찮은 거야?!\""
+    },
+    {
+      "Text": "[ns2] \"로어에게 습격당했다고 들었는데…… 무사해?\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "읍, 우읍……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "(꿀꺽)"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……실례했습니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "FOX 소대, 약 1시간 30분 전에 복귀했습니다."
+    },
+    {
+      "Text": "[s3] \"아…… 식사 중이었구나.\""
+    },
+    {
+      "Text": "[s4] \"미안. 나중에 다시 올까……?\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "아닙니다. 오히려 의도치 않게 흐트러진 모습을 보여서…… 실례했습니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "아, 선생님! 마침 잘 오셨어요."
+    },
+    {
+      "Name": "니코",
+      "Text": "괜찮으시다면 선생님도 함께 식사하시겠어요?"
+    },
+    {
+      "Text": "[s] \"권유는 고맙지만, 이미 저녁은 먹은 뒤라서 괜찮아.\""
+    },
+    {
+      "Text": "[ns] \"그나저나 이건 유부 주머니인가……?\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "응. 니코가 만들었어. 참고로 유부는 밖에서 가져온 거야. 휴게실 냉장고에 있는 식재료는 손대지 않았으니 걱정하지 마."
+    },
+    {
+      "Name": "니코",
+      "Text": "예전에 작전 중에 알게 된 유부 공장의 직원 분이 계시거든요. 주기적으로 질 좋은 유부를 보내주셔서 종종 이렇게 유부 요리를 만들고 있답니다."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "뭐, 그것과는 별개로 니코가 만들어주는 유부 요리는 정말 맛있거든."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "으음…… 이건 버섯인가? 유부 사이로 배어나오는 감칠맛이 정말 좋네~"
+    },
+    {
+      "Name": "오토기",
+      "Text": "저기…… 그런데 어쩐지 아까 전부터 내 유부 주머니에는 콩만 가득 들어 있는 것 같은데."
+    },
+    {
+      "Name": "오토기",
+      "Text": "이거 벌칙 게임 같은 거 아니지?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "불만 갖지 말고 먹어. 안 그래도 작전 중에 들러붙은 귀신이 아직 몸 속에 남아 있을지도 모르니까."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "귀신은 밖으로, 복은 안으로!"
+    },
+    {
+      "Name": "오토기",
+      "Text": "……귀신을 쫓는 데 쓰이는 콩은 삶은 콩이 아니라, 볶은 콩 아니었던가?"
+    },
+    {
+      "Name": "오토기",
+      "Text": "뭐, 콩이 든 유부 주머니도 맛은 나쁘지 않지만."
+    },
+    {
+      "Text": "[s] \"귀신이 붙었다니, 그게 무슨 소리야?\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "조금 설명하자면, 이야기가 길어지겠습니다만……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……그렇기에 FOX 4에게 영향을 미친 미상의 흰색 개체는 피해자들이 목격한 하얀 허수아비, 통칭 <쿠네쿠네>와 동일한 개체라 판단됩니다."
+    },
+    {
+      "Text": "[ns] \"몸은 괜찮아? 이상한 곳은 없어?\""
+    },
+    {
+      "Name": "오토기",
+      "Text": "괜찮아. 돌아오자마자 신체검사도 했지만 별다른 이상은 없었어."
+    },
+    {
+      "Name": "오토기",
+      "Text": "오히려 쿠루미가 때린 뒤통수가 더 아플 지경인걸. 뭔가 혹이 생긴 것 같은데……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그게 무슨 배은망덕한 소리야? 몇 초만 늦었어도 큰일이 났을지도 모르는데."
+    },
+    {
+      "Name": "오토기",
+      "Text": "그래. 다른 피해자들처럼 되지 않은 건 천만다행이지만……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "다만 깨고 나니 기억이 모두 사라져서, 쿠네쿠네가 어떤 모습이었는지. 그 '푸른 초원'이 어느 방향에 있었는지는 도무지 떠올릴 수가 없단 말이지……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "다행히 FOX 3의 바디캠에 그 때의 대화가 기록되어 있는 모양이군."
+    },
+    {
+      "Name": "녹음된 음성",
+      "Text": "<……도로 너머로 파란 하늘의 초원이 보이는데.>"
+    },
+    {
+      "Name": "녹음된 음성",
+      "Text": "<무성히 자라난 풀 사이로 허름한 허수아비 하나가 있고, 그 너머에 뭔가 묘한 웃음을 짓고 있는 하얀 옷의 사람이—>"
+    },
+    {
+      "Name": "오토기",
+      "Text": "……저기, 내 목소리가 진짜로 이렇게 들려? 매번 들을 때마다 진짜 묘한 느낌이야."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "네 목소리는 원래 그랬으니까 그건 신경 쓰지 마."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그나저나 초원이라니, 이상하네. 시로우나기 역 근처에 초지 같은 건 존재하지 않는데."
+    },
+    {
+      "Name": "니코",
+      "Text": "혹시 신기루를 본 게 아닐까? 아지랑이가 피면 먼 곳에 있는 장소가 보이기도 하잖아."
+    },
+    {
+      "Name": "오토기",
+      "Text": "아니. 그런 종류의 신기루는 아비도스 대사막처럼 장애물이 없는 사막에서나 관측되는걸."
+    },
+    {
+      "Name": "오토기",
+      "Text": "포인트 로미오— 3업무 지구의 거리는 건물 때문에 시야가 제한되기 때문에 시야가 왜곡되더라도 다른 장소를 관찰할 수는 없었을 거야."
+    },
+    {
+      "Name": "니코",
+      "Text": "……본래는 보이지 않았을 장소를 보여주는 아지랑이라."
+    },
+    {
+      "Name": "니코",
+      "Text": "결국 우리가 상대하고 있는 적이 사람의 이해를 넘어선 [ruby=불가해]로어[/ruby]라는 점은 명확해졌네."
+    },
+    {
+      "Text": "[s5] \"역시 계속해서 무작정 부딪히는 건 위험해.\""
+    },
+    {
+      "Text": "[s6] \"유키노. 이번 일은 샬레에 맡기고, 다른 일을 찾아보는 게—\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "……안전이 확보되지 않으면 포기하는 것도 특수부대의 미덕이라 전에 말씀드렸지요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "하지만 '토끼'라면 모를까, '여우'는 조심성만큼이나 호기심도 많은 생물인지라."
+    },
+    {
+      "Name": "유키노",
+      "Text": "새로이 발견한 단서를 눈 앞에 두고 물러서는 건 다소 성미가 허락하지 않는군요."
+    },
+    {
+      "Text": "[s] \"……새로운 단서?\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "선생님, 잠깐 이쪽을 봐주시겠습니까?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "이건 FOX 4가 아지랑이에 홀렸을 때, 방아쇠를 당겨 사출한 탄피입니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "탄환은 이 탄피가 배출되는 것과 동시에 목표를 향해 날아갔지만, 지상에 탄환이 남긴 탄흔은 어디서도 찾을 수가 없었습니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "아마 그 허상과 함께 사라졌겠지요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "대물 저격총의 50구경 탄환은 절대로 무시할 수 없는 수준의 물리 에너지를 갖고 있습니다. 좋은 의미로든, 나쁜 의미로든 이에 간섭했다는 것은……"
+    },
+    {
+      "Name": "유키노",
+      "Text": "상대는 단순한 허깨비가 아닌, 물리적 억제가 가능한 타겟이라는 의미입니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "해당 타겟을 다른 부대에게 인계하기 전에, 후속 부대의 피해를 줄이기 위한 위력 정찰을 한 차례 더 시행하고 싶습니다."
+    },
+    {
+      "Text": "[ns7] \"……좋아. 다음 한 번뿐이야.\""
+    },
+    {
+      "Text": "[ns8] \"그리고 그 때는 나도 동행할 거야.\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "허가해 주셔서 감사합니다."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "허깨비를 상대하는 것보다는 마음이 편하네. 상대가 형체가 있는 존재인 이상 충분한 양의 폭약을 먹여주면 어떻게든 반응하겠지."
+    },
+    {
+      "Name": "니코",
+      "Text": "어쩐지 지난 번 후배에게 겪었던 나쁜 추억이 떠오를 것 같은데……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "그럼 다음 번 작전은 어디서 진행할 거야? 또 포인트 로미오에서?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "동일한 상황을 재현하기 위해서라면 같은 장소에서 작전을 진행하는 게 좋겠지만……"
+    },
+    {
+      "Name": "니코",
+      "Text": "전투를 상정하고 있다면, 나는 다른 장소에서 진행해야 한다고 생각해."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "어째서?"
+    },
+    {
+      "Name": "니코",
+      "Text": "생각해 봐. 개방된 장소에서 '다른 사람들에게는 보이지 않는 적'을 향해 총을 난사한다면, 시민들이 이상한 눈으로 쳐다볼지도 몰라."
+    },
+    {
+      "Name": "니코",
+      "Text": "게다가 낮의 상업구역에는 시민들도 많이 오가니 자칫하면 총격전에 휘말리게 될지도 모르고."
+    },
+    {
+      "Name": "오토기",
+      "Text": "그러게. 자칫하면 쿠네쿠네를 처리하고 2회전으로 발키리 학생들을 상대해야겠는데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……그건 곤란한데."
+    },
+    {
+      "Text": "[s9] \"시민들을 설득하는 일이라면 내게 맡겨도 돼.\""
+    },
+    {
+      "Text": "[s10] \"뒷일은 내가 책임질 테니까—\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "아닙니다. 장소는 바꾸겠습니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "아무리 작전이라도 시민들에게 가는 피해는 최소로 해야합니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "작전 중 시민의 안전에 문제가 생긴다면…… 그것은 저희의 책임입니다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "게다가 저희는 아직 완전히 사면을 받은 게 아니니까요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "오히려 선생님께서 중재를 하신다면 총학생회장의 입장이 더욱 곤란해질 겁니다."
+    },
+    {
+      "Text": "[s] \"유키노가 그렇다면 상관없지만…….\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "일단은 제한된 장소에서도 아지랑이를 관측할 수 있는지 확인하지."
+    },
+    {
+      "Name": "유키노",
+      "Text": "가능한 인적이 드물고 온도차가 다른 공기의 흐름이 극단적인 장소를 찾아보자."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "알겠어. 근처의 작전 지도를 확인해 볼게."
+    },
+    {
+      "Name": "니코",
+      "Text": "그리고 한 가지 더. 걱정되는 점이 있는데……"
+    },
+    {
+      "Name": "니코",
+      "Text": "우리가 <쿠네쿠네>를 인지한 상태에서 '정상적인 작전'이 가능할까?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "정상적인 작전……?"
+    },
+    {
+      "Name": "니코",
+      "Text": "왜. 오토기도 쿠네쿠네를 목격하자마자 대화가 통하지 않을 정도로 뭔가에 홀려 버렸잖아."
+    },
+    {
+      "Name": "니코",
+      "Text": "아무리 난전이라 하더라도 퇴각 명령도 통하지 않는 [ruby=통신두절]NORDO[/ruby] 상태에서 전투를 속행할 수는 없어."
+    },
+    {
+      "Name": "오토기",
+      "Text": "그럼 2인 1조로 한 사람이 관측하고, 다른 사람이 대신 방아쇠를 당기게 하는 건 어때?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "그것도 안 돼. 애초에 쿠네쿠네에게 홀리는 것을 전제로 작전을 진행할 수는 없어."
+    },
+    {
+      "Name": "유키노",
+      "Text": "자칫하다가는 네 명 다 행동불능 상태에 빠지게 될지도 몰라."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그럼 눈을 보호할 수 있는 보안경을 쓰고 작전을 진행하는 건 어떨까?"
+    },
+    {
+      "Name": "니코",
+      "Text": "글쎄. 오토기도 일단은 조준경 너머로 아지랑이를 관찰하고 있었잖아?"
+    },
+    {
+      "Name": "니코",
+      "Text": "단순히 유리창이나 거울을 덧대어 시선을 피하는 건 의미가 없을 거야."
+    },
+    {
+      "Name": "유키노",
+      "Text": "곤란하군. 가장 중요한 부분이 맹점이었을 줄이야……"
+    },
+    {
+      "Name": "오토기",
+      "Text": "역시 투시 능력을 가진 영능력자를 초빙하는 방법 밖에 없나?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "저기, 그러니까. 직접 상대를 바라보지 않으면서 상대의 형상을 관측하면 된다는 거지?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "그럼 '이 장비'를 쓰면 문제없지 않을까?"
+    },
+    {
+      "Name": "오토기",
+      "Text": "………"
+    },
+    {
+      "Name": "오토기",
+      "Text": "……이게 될까?"
+    },
+    {
+      "Text": "다음화;어둠 속으로"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;Chasing Illusions"
+    },
+    {
+      "Text": "Schale Basement, FOX Squad Operation Headquarters"
+    },
+    {
+      "Text": "[ns1] \"Is everyone okay?!\""
+    },
+    {
+      "Text": "[ns2] \"I heard you were ambushed by the Lore...!\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Hnnngh..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "*gulp*"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...Pardon me, Sensei."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "The FOX Squad returned approximately 90 minutes ago."
+    },
+    {
+      "Text": "[s3] \"Ah... You were eating.\""
+    },
+    {
+      "Text": "[s4] \"Should I come back later?\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "No, not at all. Rather, I'd like to apologize for the mess."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Ah, Sensei! Perfect timing."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Would you like to eat with us?"
+    },
+    {
+      "Text": "[s] \"Thank you for offering, but I've already had dinner.\""
+    },
+    {
+      "Text": "[ns] \"Oh, are these fried tofu pouches...?\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Yeah. Niko made them. By the way, we brought the deep-fried tofu all on our own. We didn't raid the lounge's refrigerator."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I met a tofu fryer on one of our missions. We occasionally get high-quality deep-fried tofu from them, and that's when I make dishes like this."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Even I'll admit that Niko knows her way around some tofu."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Hmm... Is this mushroom? I love the flavor seeping through the pouch."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Really? I feel like I've been eating nothing but beans..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "You're not hazing me, are you?!"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Stop complaining and eat. We need to exorcise that ghost that found you on the last mission."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Ghosts be gone! Blessings come in!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...Isn't it ROASTED beans that chase away ghosts? Not boiled?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Why don't you eat your tofu pocket and calm down?"
+    },
+    {
+      "Text": "[s] \"You mentioned ghosts?\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It's a long story..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...Which is why I believe that the unidentified presence that affected FOX 4 is the white scarecrow that the victims witnessed. They called it the \"kunekune.\""
+    },
+    {
+      "Text": "[ns] \"Are you okay? Do you feel well?\""
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Yeah, I'm good. I had a physical when I got back. They said I was fine."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "If anything, the back of my head hurts even more from Kurumi's slap. I think there might be a lump..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "How could you be so ungrateful? You would've been doomed if I hadn't stepped in!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Look. I'm thankful that I didn't end up a victim..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "...But you were still affected. You blacked out a huge chunk of what happened—like seeing the field, or what the kunekune looked like."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Your body cam was active. We can play it back."
+    },
+    {
+      "Name": "Recorded Voice",
+      "Text": "\"...Maybe it's a mirage... I know it wasn't on the map, but I see a field over the street.\""
+    },
+    {
+      "Name": "Recorded Voice",
+      "Text": "\"There's a shabby scarecrow in the middle of overgrown grass, and a person in white clothes with a creepy smile...\""
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...Ugh. Is this really MY voice? I hate listening to myself."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Yes. This is you. Get over it."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You mentioned a \"field.\" But we all know there's no greenery near Shiro Unagi Station."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Or maybe it was a mirage? You know, like how people see bodies of water in the distance that aren't there?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "No. Those only happen on flat, vacant land...like in Abydos. The haze makes people think they see water."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Point Romeo is in Business District 3. Since the view is broken up by buildings, I wouldn't have experienced any weird optical illusions."
+    },
+    {
+      "Name": "Niko",
+      "Text": "...Haze that reveals new, otherworldly places..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I think it's clear that we're dealing with something beyond a simple explanation. This is true Lore."
+    },
+    {
+      "Text": "[s5] \"You can't keep going in so brazenly.\""
+    },
+    {
+      "Text": "[s6] \"Yukino. Let Schale handle this, and you—\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...We are special forces. It is our responsibility to know when to retreat from an unwinnable fight. And this is not the time."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "\"Rabbits\" may behave otherwise, but \"foxes\" exercise curiosity as well as caution."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It goes against my nature to ignore a new clue."
+    },
+    {
+      "Text": "[s] \"...A new clue?\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Sensei, please take a look at this."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "This is the bullet casing that was ejected when FOX 4 pulled the trigger yesterday."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Clearly, she fired a round. The bullet flew towards the target but we could not find any bullet traces on the ground."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It likely disappeared with the illusion."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "50-caliber bullets, especially those shot from an anti-materiel sniper rifle, distribute a tremendous amount of physical energy. What I mean to say is, if the bullet hit the target and vanished with it..."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...then it is not an illusion. It has a physical form. And, therefore, we can defeat it."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Before you escalate this mission to another unit, I request one more reconnaissance mission for the FOX Squad."
+    },
+    {
+      "Text": "[ns7] \"...Okay. Just one more.\""
+    },
+    {
+      "Text": "[ns8] \"And I'll be tagging along.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Thank you for your accommodation."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "That's more like it! She's got a point—if they're corporeal, then we can shoot them, explode them, and take them down."
+    },
+    {
+      "Name": "Niko",
+      "Text": "This is getting a bit too familiar..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "So, where are we going? Point Romeo, again?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "While I agree that Point Romeo would be best if we sought to replicate the situation..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "...We're hoping for a confrontation. We need a better location."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Why?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "Consider the following. If we start sniping from afar at an enemy that no one else can see, then civilians would panic."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Additionally, there are too many potential casualties in the business district."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Yeah, good point. We don't need someone calling Valkyrie on us while we're fighting the kunekune."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...That would be unfortunate."
+    },
+    {
+      "Text": "[s9] \"If you need help with PR, leave it to me.\""
+    },
+    {
+      "Text": "[s10] \"I'll take responsibility for everything...\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Denied. We will change the location."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "No matter the mission, we must minimize any civilian harm."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "If anyone got caught in the crossfire... That would be on us."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Besides, we're not officially pardoned yet."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "If you intervened, Sensei, the General Student Council President would be in a bind."
+    },
+    {
+      "Text": "[s] \"If you say so, Yukino...\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "First, let's see if we can observe the haze in a controlled, confined space."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Let's look for a secluded area. We'll need extreme airflow with a temperature variance."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Got it. I'll check the map."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Ah, and I have one more concern."
+    },
+    {
+      "Name": "Niko",
+      "Text": "How should we approach this? We cannot use our usual method now that we're all aware of the kunekune."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "\"Our usual method\"...?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "The kunekune put Otogi in a trance, all because she looked at it. She wasn't listening to us."
+    },
+    {
+      "Name": "Niko",
+      "Text": "No matter how chaotic the battle may become, we cannot coordinate if we cannot communicate with each other. What if we need to retreat?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "What if we break into pairs? One person observes and the other pulls the trigger?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Denied. We are starting from a point of failure. We don't want ANYONE getting entranced by the kunekune."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "In a worst-case scenario, all four of us will be incapacitated."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "How about some protective eyewear?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "It could help. But Otogi watched through a scope, not with the naked eye, and she still was impacted."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Glass or mirrors may not be enough."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "This is troubling. How are we supposed to not look at what we're fighting?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "I guess it's time to call a psychic? How about the local medium?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Ah. So we need to see the enemy without looking directly at them, right?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "What if we use...these?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "..."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...Do you think it'll actually work?"
+    },
+    {
+      "Text": "Next Episode;Into Darkness"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;ไล่ล่าภาพลวงตา"
+    },
+    {
+      "Text": "กองบัญชาการกองทหาร FOX ชั้นใต้ดินชาเล่ต์"
+    },
+    {
+      "Text": "[ns1] \"ทุกคนเป็นยังไงบ้าง?!\""
+    },
+    {
+      "Text": "[ns2] \"ได้ยินว่าถูกตำนานเล่นงานเข้า... ปลอดภัยกันใช่มั้ย?\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "อะ... อึก..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "(อึ้ก)"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ขอโทษที่เสียมารยาทค่ะ..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "กองทหาร FOX กลับมาถึงเมื่อประมาณ 1 ชั่วโมง 30 นาทีที่แล้วค่ะ"
+    },
+    {
+      "Text": "[s3] \"อ่า... กินข้าวกันอยู่สินะ ขอโทษที\""
+    },
+    {
+      "Text": "[s4] \"ขอโทษที ไว้ครูลงมาหาใหม่ดีมั้ย...?\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ไม่เป็นไรค่ะ ฉันมากกว่าที่เผลอแสดงภาพที่ไม่น่าดูออกมาโดยไม่ได้ตั้งใจ ขอโทษด้วยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "อ๊ะ คุณครู! มาได้จังหวะพอดีเลยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "คุณครูก็มาทานข้าวด้วยกันมั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"ขอบใจที่ชวนนะ แต่ครูกินข้าวเย็นมาแล้วน่ะสิ\""
+    },
+    {
+      "Text": "[ns] \"ว่าแต่นี่คือถุงเต้าหู้ยัดไส้หรือเปล่า...?\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อื้อ นิโกะเป็นคนทำ ส่วนเต้าหู้ซื้อมาจากข้างนอกน่ะ พวกเราไม่ได้แตะต้องวัตถุดิบอาหารในตู้เย็นของ\nห้องพักผ่อนเลย ไม่ต้องห่วงหรอกนะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เมื่อก่อนระหว่างปฏิบัติการ ฉันบังเอิญรู้จักพนักงานโรงงานทำเต้าหู้ทอดคนหนึ่งค่ะ เขาจะส่งเต้าหู้ทอด\nคุณภาพดีมาให้เป็นประจำ เลยได้ทำเมนูจากเต้าหู้ทอดแบบนี้อยู่บ่อยๆ ค่ะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เมนูเต้าหู้ทอดฝีมือนิโกะนี่อร่อยจริงๆ นะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อืม... อันนี้เห็ดเหรอ? รสอูมามิจากเห็ดที่ซึมออกมาจากเต้าหู้ทอดนี่สุดยอดเลย~"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "นี่... ว่าแต่ทำไมถุงเต้าหู้ทอดของฉันถึงมีแต่ถั่วเต็มไปหมดเลยล่ะ?"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "นี่ไม่ใช่เกมลงโทษอะไรใช่มั้ย?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อย่าบ่นเลยน่า กินๆ เข้าไปเถอะ ยิ่งเพิ่งไปเจอเรื่องแบบนั้นมา ผีที่ติดตัวมาตอนปฏิบัติการ\nอาจจะยังไม่ออกจากตัวไปก็ได้"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไล่ผีออกไป รับโชคเข้ามา!"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่ถั่วที่ใช้ไล่ผี เขาใช้ถั่วคั่ว ไม่ใช่ถั่วต้มไม่ใช่เหรอ...?"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่ก็เอาเถอะ ถุงเต้าหู้ทอดไส้ถั่วก็อร่อยดีเหมือนกัน"
+    },
+    {
+      "Text": "[s] \"มีผีติดตัวมางั้นเหรอ หมายความว่ายังไงน่ะ?\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าจะอธิบาย คงต้องเล่ายาวสักหน่อยค่ะ..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เพราะงั้นก็เลยสันนิษฐานได้ว่า... ตัวตนสีขาวไม่ทราบชนิดที่ส่งผลกระทบต่อ FOX 4 เป็นตัวตนเดียว\nกับหุ่นไล่กาสีขาวที่ผู้เสียหายพบเห็น ที่รู้จักกันโดยทั่วไปในชื่อ <คุเนะคุเนะ> ค่ะ"
+    },
+    {
+      "Text": "[ns] \"แล้วร่างกายเป็นยังไงบ้าง? มีตรงไหนผิดปกติมั้ย?\""
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ฉันไม่เป็นไร พอกลับมาถึงฉันก็ไปตรวจร่างกายทันที แต่ก็ไม่ได้พบความผิดปกติอะไร"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่ถ้ามีตรงไหนที่เจ็บ ก็คงเป็นท้ายทอยที่โดนคุรุมิฟาดใส่น่ะ สงสัยจะโนเป็นลูกมะนาวแล้วมั้ง..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ฉันช่วยเอาไว้แท้ๆ พูดอะไรไม่รู้จักบุญคุณเลยนะ? ถ้าช้ากว่านั้นอีกแค่ไม่กี่วินาที อาจเกิดเรื่องใหญ่ไปแล้วก็ได้"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "นั่นสิ อย่างน้อยก็ถือว่าโชคดีมากที่ฉันไม่ได้ลงเอยเหมือนผู้เสียหายคนอื่น..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "พอได้สติขึ้นมา ความทรงจำเกี่ยวกับเรื่องนั้นก็หายไปหมด แถมจำไม่ได้ด้วยซ้ำว่าคุเนะคุเนะมีหน้าตา\nเป็นยังไง แล้วก็จำไม่ได้ด้วยซ้ำว่า 'ทุ่งหญ้าสีเขียว' นั่นมันอยู่ตรงไหน..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "โชคดีที่บทสนทนาตอนนั้นถูกบันทึกไว้ในบอดี้แคมของ FOX 3 นะ"
+    },
+    {
+      "Name": "เสียงที่ถูกบันทึกไว้",
+      "Text": "<ฉันกลับมองเห็นทุ่งหญ้าใต้ท้องฟ้าสีครามอยู่เลยถนนออกไป...>"
+    },
+    {
+      "Name": "เสียงที่ถูกบันทึกไว้",
+      "Text": "<กลางทุ่งหญ้าที่ขึ้นรก มีหุ่นไล่กาเก่าๆ ตัวหนึ่ง เลยออกไปก็มีคนในชุดสีขาวกำลังยิ้มอย่างประหลาด>"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เอ่อ... เสียงฉันฟังดูเป็นแบบนี้จริงๆ เหรอ? ฟังทีไรก็รู้สึกแปลกๆ ทุกทีเลย"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เสียงเธอก็เป็นแบบนี้อยู่แล้ว ไม่ต้องไปใส่ใจหรอก"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "แต่จะว่าไป ที่บอกว่าเห็นทุ่งหญ้า มันก็แปลกนะ แถวสถานีชิโระอุนางิไม่น่าจะมีทุ่งหญ้าอยู่เลยนี่นา"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "หรือว่าที่เห็นคือภาพลวงตา? เวลาเกิดไอร้อน บางทีก็มองเห็นภาพของสถานที่ที่อยู่ไกลออกไปได้\nไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ไม่ใช่หรอก ภาพลวงตาแบบนั้นจะเห็นก็แต่ในทะเลทรายโล่งๆ ที่ไม่มีสิ่งกีดขวาง อย่างทะเลทรายในอะบิดอส"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แถวจุดโรมิโอที่เป็นเขตธุรกิจ 3 มีอาคารบดบังทัศนวิสัยอยู่มาก ต่อให้เกิดการหักเหของภาพ ก็ไม่น่าจะมองเห็นสถานที่อื่นได้"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เป็นไอร้อนที่ทำให้มองเห็นสถานที่ที่ไม่ควรจะมองเห็นได้สินะ..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "งั้นก็สรุปได้ชัดเจนแล้วว่าศัตรูที่เรากำลังเผชิญอยู่คือ[ruby=สิ่งที่ไม่อาจเข้าใจได้]ตำนาน[/ruby]ที่อยู่เหนือความเข้าใจของมนุษย์"
+    },
+    {
+      "Text": "[s5] \"แบบนี้ถ้าบุกเข้าไปโดยไม่คิดหน้าคิดหลังก็คงจะอันตรายแล้วละ\""
+    },
+    {
+      "Text": "[s6] \"ยูกิโนะ ให้ชาเล่ต์จัดการเรื่องนี้ต่อ แล้วค่อยไปหาภารกิจอื่น...\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ก่อนหน้านี้ฉันเคยบอกไปแล้วใช่มั้ยคะ ว่าถ้าไม่มั่นใจในความปลอดภัย การยอมถอนตัวก็เป็นสิ่งที่หน่วยรบพิเศษควรทำ..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าเป็น 'กระต่าย' ก็คงอีกเรื่อง แต่ว่า 'จิ้งจอก' น่ะ เป็นสัตว์ที่นอกจากจะระมัดระวังแล้ว ก็ยังมีความอยากรู้อยากเห็นไม่แพ้กัน"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "พอมีเบาะแสใหม่อยู่ตรงหน้า จะให้ถอยกลับตอนนี้ก็คงขัดนิสัยพวกเราอยู่เหมือนกันค่ะ"
+    },
+    {
+      "Text": "[s] \"เบาะแสใหม่งั้นเหรอ...?\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "คุณครู ช่วยมาดูทางนี้สักครู่ได้มั้ยคะ?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "นี่คือปลอกกระสุนที่ดีดออกมาตอน FOX 4 ลั่นไกขณะถูกไอร้อนครอบงำค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แม้กระสุนจะถูกยิงไปยังเป้าหมายพร้อมกับปลอกกระสุนที่ดีดออกมา แต่ก็ไม่พบรอยกระสุนบนพื้น\nแม้แต่จุดเดียวค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "มันน่าจะหายไปพร้อมกับภาพลวงนั้นน่ะค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "กระสุนขนาด .50 ของปืนไรเฟิลซุ่มยิงต่อต้านยุทโธปกรณ์ มีพลังงานจลน์มหาศาลถึงขนาดที่ไม่อาจ\nมองข้ามได้ค่ะ ไม่ว่าจะในทางที่ดีหรือทางร้าย การที่มันเข้าไปแทรกแซงสิ่งนั้นได้ก็หมายความว่า..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ศัตรูไม่ใช่ผีหรือภาพหลอน แต่เป็นเป้าหมายที่สามารถจัดการได้ด้วยวิธีทางกายภาพค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ก่อนจะส่งมอบเป้าหมายนี้ให้กองอื่น ฉันอยากลาดตระเวนด้วยกำลังอีกครั้ง เพื่อลดความเสียหายที่อาจเกิดกับกองอื่นที่จะเข้าปฏิบัติการต่อค่ะ"
+    },
+    {
+      "Text": "[ns7] \"ได้... แต่แค่ครั้งเดียวนะ\""
+    },
+    {
+      "Text": "[ns8] \"ได้ แต่ต้องให้ครูไปด้วยนะ\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ขอบคุณที่อนุญาตค่ะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อย่างน้อยก็สบายใจกว่าต้องรับมือกับภาพหลอนละนะ ตราบใดที่อีกฝ่ายเป็นสิ่งที่จับต้องได้ ถ้าอัดระเบิดเข้าไปมากพอ ยังไงก็น่าจะตอบสนองบ้างละ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฟังแล้วชวนให้นึกถึงความทรงจำแย่ๆ ที่เคยโดนรุ่นน้องทำไว้เมื่อครั้งก่อนเลยนะ..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แล้วปฏิบัติการครั้งหน้าจะดำเนินการที่ไหนล่ะ? ที่จุดโรมิโออีกแล้วหรือเปล่า?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าต้องการจำลองสถานการณ์เดิมขึ้นมาอีกครั้ง การปฏิบัติการในสถานที่เดิมก็คงเหมาะที่สุด..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ถ้าจะมีการเปิดฉากสู้กัน ฉันคิดว่าควรเปลี่ยนไปปฏิบัติการที่อื่นดีกว่านะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ทำไมล่ะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ลองคิดดูนะ ถ้าเราไปยิงใส่ 'ศัตรูที่คนอื่นมองไม่เห็น' ในพื้นที่เปิดโล่ง ชาวเมืองคงจะมองเราด้วยสายตาแปลกๆ แน่"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แถมตอนกลางวันย่านการค้ายังมีคนพลุกพล่าน ถ้าเกิดพลาดขึ้นมา ชาวเมืองอาจโดนลูกหลงจาก\nการยิงปะทะก็ได้"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "นั่นสิเนอะ หลังจัดการคุเนะคุเนะเสร็จ คงต้องไปสู้กับนักเรียนวัลคิรี่ต่อเป็นยกสองแน่"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แบบนั้นคงลำบากแน่..."
+    },
+    {
+      "Text": "[s9] \"เรื่องเกลี้ยกล่อมชาวเมือง ครูจะจัดการให้เอง\""
+    },
+    {
+      "Text": "[s10] \"ส่วนเรื่องหลังจากนั้น ครูจะรับผิดชอบเอง...\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ไม่ค่ะ ฉันจะเปลี่ยนสถานที่ปฏิบัติการค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ไม่ว่าจะเป็นปฏิบัติการแบบไหน ก็ต้องทำให้ชาวเมืองได้รับผลกระทบน้อยที่สุด"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "และถ้าเกิดปัญหาเกี่ยวกับความปลอดภัยของชาวเมืองในระหว่างปฏิบัติการ... นั่นคือความรับผิดชอบของพวกเราค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "อีกอย่าง พวกเราก็ยังไม่ได้รับการยกโทษอย่างสมบูรณ์ด้วยนี่คะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าคุณครูเข้ามาช่วยไกล่เกลี่ย กลับจะทำให้ประธานองค์การนักเรียนตกอยู่ในสถานการณ์ที่ลำบากกว่า\nเดิมค่ะ"
+    },
+    {
+      "Text": "[s] \"ถ้านั่นเป็นความต้องการของยูกิโนะ ครูก็ไม่มีปัญหา...\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "งั้นก่อนอื่น มาลองตรวจสอบกันว่าในพื้นที่ปิดก็ยังสังเกตเห็นไอร้อนได้หรือเปล่า"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ลองหาสถานที่ที่คนพลุกพล่านน้อย มีความแตกต่างของอุณหภูมิสูง และมีกระแสอากาศแปรปรวนมากเป็นพิเศษกันดีกว่า"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เข้าใจแล้ว ฉันจะเช็กแผนที่ปฏิบัติการของบริเวณนี้ให้"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แล้วก็ยังมีอีกเรื่องหนึ่ง ฉันมีบางอย่างที่กังวล..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถ้าพวกเรารับรู้การมีอยู่ของ <คุเนะคุเนะ> แล้ว ยังจะ 'ปฏิบัติการตามปกติ' ได้หรือเปล่า?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ปฏิบัติการตามปกติ...?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ก็โอโทกิถูกบางอย่างครอบงำทันทีที่เห็นคุเนะคุเนะ จนคุยกันไม่รู้เรื่องเลยไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ต่อให้เป็นการต่อสู้ชุลมุนแค่ไหน เราก็สู้ต่อในสถานะ [ruby=การสื่อสารถูกตัดขาด]NORDO[/ruby] ที่แม้แต่คำสั่งถอนกำลังยังส่งไปไม่ถึงไม่ได้หรอก"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "งั้นเราจับคู่กัน ให้คนหนึ่งคอยสังเกตการณ์ ส่วนอีกคนเป็นคนลั่นไก แบบนี้ได้มั้ย?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ไม่ได้ เราจะวางแผนปฏิบัติการบนสมมติฐานว่าจะถูกคุเนะคุเนะครอบงำไม่ได้"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าเราไม่ระวัง เผลอๆ ทั้งสี่คนอาจหมดสภาพการต่อสู้พร้อมกันก็ได้"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "งั้นเราใส่แว่นตานิรภัยป้องกันดวงตา แล้วเข้าปฏิบัติการได้มั้ย?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฉันไม่แน่ใจเลย โอโทกิเองก็มองไอร้อนผ่านกล้องเล็งตั้งแต่แรกไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ใช้แค่กระจกหน้าต่างหรือกระจกเงามาคั่นเพื่อหลีกเลี่ยงการมองตรงๆ ก็คงไม่มีประโยชน์หรอก"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ชักลำบากแล้วสิ นึกไม่ถึงเลยว่าส่วนที่สำคัญที่สุดจะเป็นจุดบอด..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "หรือจะเหลือทางเดียวคือต้องเชิญผู้มีพลังจิตที่มองทะลุได้มาช่วย?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อืม สรุปว่า... ขอแค่ไม่จ้องมันตรงๆ แต่ขอให้มองเห็นรูปร่างของมันผ่านวิธีอื่นก็พอ ใช่มั้ย?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "งั้นถ้าใช้ 'อุปกรณ์นี้' ก็น่าจะไม่มีปัญหานะ?"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "มันจะได้ผลเหรอ...?"
+    },
+    {
+      "Text": "ตอนต่อไป;สู่ความมืดมิด"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;虛像追蹤"
+    },
+    {
+      "Text": "夏萊地下．FOX小隊作戰本部"
+    },
+    {
+      "Text": "[ns1] 「大家都還好嗎！？」"
+    },
+    {
+      "Text": "[ns2] 「聽說你們遭到怪談襲擊了……沒事吧？」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "唔，嗚唔……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "（咕嚕）"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……失禮了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "FOX小隊，大約在1小時30分鐘前歸隊了。"
+    },
+    {
+      "Text": "[s3] 「啊……原來你們正在吃飯啊。」"
+    },
+    {
+      "Text": "[s4] 「抱歉。我要不要晚點再來……？」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "不。反倒是我不小心讓您看到這副散漫的模樣……真是失禮了。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "啊，老師！您來得正好。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不介意的話，老師要不要也一起用餐呢？"
+    },
+    {
+      "Text": "[s] 「謝謝你的邀請，不過我已經吃過晚餐了。」"
+    },
+    {
+      "Text": "[ns] 「話說回來，這是豆皮福袋嗎……？」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "嗯。是仁子做的。順帶一提，豆皮是從外面帶來的。\n休息室冰箱裡的食材我都沒動，所以不用擔心。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我有位以前在作戰中認識的豆皮工廠員工。\n他會定期寄來品質很好的豆皮，所以我常常像這樣做一些豆皮料理。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "嗯，撇開那個不談，仁子做的豆皮料理真的很好吃。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "唔嗯……這是香菇嗎？從豆皮裡滲出來的鮮味真是好極了～"
+    },
+    {
+      "Name": "御伽",
+      "Text": "那個……我總覺得自己的豆皮福袋，好像從剛才開始就只塞滿了豆子耶。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "這該不會是什麼懲罰遊戲吧？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "別抱怨了趕快吃。\n在作戰中纏上的鬼魂，現在搞不好還留在你身體裡呢。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "鬼往外，福往內！"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……用來驅鬼的豆子不是水煮豆，而是炒豆吧？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "算了，反正裝了豆子的豆皮福袋吃起來也不錯。"
+    },
+    {
+      "Text": "[s] 「被鬼纏上是什麼意思？」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "說明起來可能會有點長……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……因此，我們判斷對FOX4造成影響的那個不明白色個體，\n是與受害者們目擊到的──通稱「扭來扭去」的白色稻草人相同的存在。"
+    },
+    {
+      "Text": "[ns] 「身體還好嗎？沒有哪裡不對勁吧？」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "沒事。我一回來就做了身體檢查，並沒有發現什麼異常。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "反而是被胡桃打的後腦勺還比較痛呢。\n感覺好像還腫了個包……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "這是什麼忘恩負義的話啊？\n要是再晚個幾秒，說不定就真的要出大事了。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "是啊。沒變得跟其他受害者一樣，真是不幸中的大幸……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "不過醒來之後記憶全都消失了。\n扭來扭去長什麼樣子、那片「藍色草原」在哪個方向，怎麼也想不起來……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "幸好FOX3的隨身攝影機裡，似乎記錄下了當時的對話。"
+    },
+    {
+      "Name": "錄製的語音",
+      "Text": "「……能在道路的另一頭看見一片藍天下的草原。」"
+    },
+    {
+      "Name": "錄製的語音",
+      "Text": "「茂密的草叢間立著一個破舊的稻草人，\n　在那之後還有一個身穿白衣、露出某種詭異笑容的人──」"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……那個，我的聲音聽起來真的是這樣嗎？\n每次聽都覺得有點微妙。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "你的聲音本來就是那樣，所以就別在意了。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "話說草原聽起來還真奇怪。\n白鰻車站附近根本就沒有草地啊。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "該不會是看到海市蜃樓了吧？\n陽炎升起的時候，有時也能看見遠處的地方不是嗎？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "不。那種海市蜃樓只有在像阿拜多斯大沙漠那種毫無障礙物的沙漠才觀測得到。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "Point Romeo──第三業務區的視野受到建築物的限制，\n就算受到扭曲也不可能觀察到其他地方。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……讓人看見原本看不到的地方的陽炎啊。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "看來我們的對手是超越人類理解的[ruby=不可解]怪談[/ruby]，這一點已經很明確了。"
+    },
+    {
+      "Text": "[s5] 「繼續盲目地正面對抗果然太危險了。」"
+    },
+    {
+      "Text": "[s6] 「雪乃。這次的事就交給夏萊，我們去找別的工作──」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……我之前說過如果無法確保安全，選擇放棄也是特殊部隊的一種美德吧。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "然而「兔子」姑且不論，「狐狸」可是好奇心和謹慎心一樣旺盛的動物。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "明明新的線索就在眼前卻選擇撤退，這多少有點違背我的個性呢。"
+    },
+    {
+      "Text": "[s] 「……新的線索？」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "老師，可以請您看一下這邊嗎？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "這是FOX4被陽炎迷惑時，扣下扳機射出的彈殼。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "子彈在這枚彈殼排出的同時射向了目標，但地面上卻怎麼也找不到子彈留下的彈痕。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "恐怕是和那個虛像一起消失了吧。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "反器材狙擊槍的50口徑子彈，擁有絕對不容忽視的物理能量。\n無論是好是壞，能干涉到它就意味著……"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "對方並非單純的幻影，而是能以物理手段加以遏制的目標。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "在將該目標移交給其他部隊之前，\n為了減少後續部隊的傷亡，我希望能再進行一次威力偵察。"
+    },
+    {
+      "Text": "[ns7] 「……好吧。就只有一次哦。」"
+    },
+    {
+      "Text": "[ns8] 「而且那個時候我也會同行。」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "感謝您的批准。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "比起對付幻影，這樣心裡反而踏實多了。\n只要對手是有形體的存在，吃下足量的炸藥總會有點反應的。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "總覺得之前對付後輩時那段不愉快的回憶又要浮現了……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "那麼下次作戰要在哪裡進行？\n一樣在Point Romeo嗎？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "要重現相同狀況的話，在相同地點作戰確實是最好的……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不過如果預期會發生戰鬥，我認為應該換個地方進行。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "為什麼？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "你想想看。\n要是在開放場所朝著「別人看不見的敵人」掃射，可能會被市民用奇怪的眼神看待。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "而且白天的商業區人來人往，一不小心就可能把市民捲入槍戰裡。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "說的也是。搞不好處理完扭來扭去之後，還得在第二回合對上女武神的學生們呢。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……那可就麻煩了。"
+    },
+    {
+      "Text": "[s9] 「說服市民的事就交給我吧。」"
+    },
+    {
+      "Text": "[s10] 「後續的事我會負責的──」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "沒關係。我會更換作戰地點。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "就算是作戰，對市民造成的傷害也必須降到最低。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果在作戰中讓市民的安全出了問題……那將是我們的責任。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "況且我們還沒有被完全赦免。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果老師出面調解的話，聯邦學生會長的立場會變得更加為難。"
+    },
+    {
+      "Text": "[s] 「既然雪乃都這麼說了……」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "總之，我們先確認在受限的場所是否也能觀測到陽炎吧。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "去找一個盡可能人煙稀少，並且因溫差導致空氣流動極為劇烈的地方。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "明白了。我來確認一下附近的作戰地圖。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "除此之外，還有一件事讓我有點擔心……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我們在認知到「扭來扭去」的狀態下，真的能進行「正常的作戰」嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "正常的作戰……？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "之前御伽不是一目擊到扭來扭去，就被某種東西迷惑到沒辦法正常對話了嗎？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "就算情況再混亂，我們也無法在連撤退命令都傳達不了的[ruby=通訊中斷]NORDO[/ruby]狀態下繼續戰鬥。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "那麼採取兩人一組……一個人負責觀測，另一個人扣下扳機如何？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "那也不行。我們不能一開始就以會被扭來扭去迷惑為前提進行作戰。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "搞不好四個人全都會陷入無法行動的狀態。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "那麼戴上能保護眼睛的護目鏡如何？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "很難說。御伽當初不也是隔著瞄準鏡在觀察陽炎嗎？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "單純隔著玻璃或鏡子來避開視線，應該是沒有意義的。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "真傷腦筋。沒想到最關鍵的部分竟然是盲點……"
+    },
+    {
+      "Name": "御伽",
+      "Text": "看來只能去聘請有透視能力的靈能力者了嗎？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "所以……只要不直接注視對方，又能觀測到對方的形狀就行了吧？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "那用「這個裝備」不就沒問題了嗎？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "…………"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……這真的行得通嗎？"
+    },
+    {
+      "Text": "下一話;進入黑暗之中"
+    }
+  ]
+}

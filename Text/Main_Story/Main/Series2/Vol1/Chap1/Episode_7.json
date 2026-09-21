@@ -1,0 +1,2707 @@
+{
+  "TitleJP": "ペアリング",
+  "TitleKR": "페어링",
+  "TitleEN": "Pairing",
+  "TitleTH": "แพริ่ง",
+  "TitleTW": "配對",
+  "DescJP": "連邦生徒会を後にした先生に、プラナが話しかける。曰く、自分やアロナを認識できていない時点で偽物であるという。事態を解決する糸口を求めて、アロナとプラナが「シャーケードの杖」とのペアリングを試みると、無事に接続が確立されて「シッテムの箱」に新たな機能が解放された。その時、何者かの尾行をプラナが察知し先生が振り向くと、リンが後ろからついてきていた。",
+  "DescKR": "프라나가 <샤케드의 막대>에 페어링을 시도하고, <싯딤의 상자>에 새로운 기능이 개방된다.",
+  "DescEN": "Plana attempts to pair with the Staff of Shaqed. A new function of the Shittim Chest unlocks.",
+  "DescTH": "พลาน่าพยายามจับคู่กับ <คทาแห่งชาเคด> กับ <กล่องแห่งซิสดิม> จนเปิดฟังก์ชั่นใหม่ขึ้นมา",
+  "DescTW": "星奈嘗試與「沙克德之杖」配對，「希迪姆的箱子」開放了新的功能。",
+  "DialogJP": [
+    {
+      "Text": "第7話;ペアリング"
+    },
+    {
+      "Text": "連邦生徒会の建物の入口"
+    },
+    {
+      "Text": "（連邦生徒会での仕事を終えてシャーレへ戻ろうとしたとき……）"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……先生。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "少しよろしいですか？"
+    },
+    {
+      "Text": "[s1] \"プラナ？\""
+    },
+    {
+      "Text": "[s2] \"プラナから話しかけてくれるのは久しぶりだね。\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "はい、[USERNAME]先生にお伝えしたいことがあります。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "先生は「あの女」についてどう思いますか？"
+    },
+    {
+      "Text": "[s] \"帰ってきた連邦生徒会長のこと？\""
+    },
+    {
+      "Text": "[ns] \"うーん……悪い子には見えないけど……。\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "否定。あの女は信用できません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "彼女は連邦生徒会長を詐称する偽物。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "その正体も意図も不明です。可能な限り疑って、距離を置くことをおすすめします。"
+    },
+    {
+      "Text": "[s3] \"プラナもあの子が偽物だと思ってるんだね。\""
+    },
+    {
+      "Text": "[s4] \"私の記憶が間違ってる可能性はないの？\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "否定。先生の記憶は間違っていません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "なぜなら本当の連邦生徒会長は――"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "プラナちゃん！？\nもしかして本物の連邦生徒会長の居場所が分かったんですか！？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "シッテムの箱のOSであるスーパーアロナちゃんにも見つけられてないのに！\nど、どうやって！？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "いえ、こうしている場合じゃありません！\n早く本物の連邦生徒会長のところに――！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "否定。私も行方を知っているわけではありません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "ですが、「あの女」が偽物であることだけは確かです。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "彼女は――「シッテムの箱」のOSである私たちを認識できていないのですから。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "「シッテムの箱」はただのオーパーツでなく、キヴォトスの本質に関わるもの。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "これは私がいた世界でも同じでした。\n連邦生徒会長であれば「シッテムの箱」を知らないはずがありません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "どれほど優秀でも、「シッテムの箱」を認識できない以上は、\n本物の連邦生徒会長ではありません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "所詮は[ruby=ミ     メ     シ     ス]連邦生徒会長を演じる者[/ruby]にすぎないのです。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "これまでに発生した[ruby=ミ     メ     シ     ス]複製[/ruby]は、それぞれの形でキヴォトスの秩序を乱し、混乱を招いてきました。まず間違いなく、彼女も同様でしょう。"
+    },
+    {
+      "Text": "[s] \"それが本当なら大変だけど……。\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "待ってください。能力だけで人を評価するのはよくないと思います！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "アロナ先輩……？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "失踪していた間に何かがあって、「シッテムの箱」の記憶を失っているだけかもしれないじゃないですか。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ちゃんと相手の話を聞いてから判断するべきです！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "…………はぁ。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ため息！？"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……たとえそうだとしても、彼女が連邦生徒会長の力を行使できていない事実は変わりません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "統制できない力が放置された時……どんなことが起きるのかは、アロナ先輩も十分知っているはずですよね？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "うっ、それは……そうですが……。"
+    },
+    {
+      "Text": "[s] \"プラナは「シャーケードの杖」について何か知ってる？\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "否定。私はシッテムの箱に常駐するOSです。\nそのため、連邦生徒会長が管理する別の機器については分かりません。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "また、私がいた世界では、最後まで「シャーケードの杖」は使用されませんでした。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……ですが、元防衛室長の言う通りに「シャーケードの杖」が「シッテムの箱」に準ずるオーパーツなのであれば、その構造の一部を閲覧することはできます。"
+    },
+    {
+      "Text": "[s] \"……本当に？\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ど、どうやってやるんですか？"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "サンクトゥムタワーをリモート操作するには、連邦生徒会長の名で定義された特殊な識別情報を送信して認証を得るプロセスが必要です。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "つまり2つの機器が同じ認証システムを使用しているのであれば、\nお互いを呼び出して情報を同期する「ペアリング機能」を使うことができます。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "これは「シッテムの箱」に搭載されている基本的な機能なのですが……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ちゃ、ちゃんと知ってますよ！びっくりしてド忘れしちゃっただけですから！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "[USERNAME]先生さえよろしければ、固有識別情報を送信するよう「シャーケードの杖」に要求します。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "先生、許可を。"
+    },
+    {
+      "Text": "[s] 許可する。"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]Pairing To [FF6666]branch of shakeid――[-][/log]"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……「シャーケードの杖」にペアリングを行います。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "補助オペレーティングシステム、S.Q.D.の反応を確認。"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……やはり。追加の生体認証を要求されています。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "先生の生体情報の更新をお願いしてもよろしいでしょうか？"
+    },
+    {
+      "Text": "[s] \"えっと……指紋とか？\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "肯定。新しいオペレーティングシステムのセキュリティ解除には、\n現在「シッテムの箱」に登録されているものとは別の生体情報が必要です。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "形式上ではありますが、大事な手続きなのでご協力ください。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "もっと近く。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "そのまま私の指に、先生の指を当ててください。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "はい、指切りをするようにお願いします。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "…………。"
+    },
+    {
+      "Text": "[s] \"……どうかした？\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……なんでもありません。少し……昔の記憶を思い出しただけです。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……確認できました。\nオペレーティングシステムA.R.O.N.Aの使用者、[USERNAME]先生。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "更新された認証情報でペアリングを再試行します。"
+    },
+    {
+      "Text": "[log]「シャーケードの杖」から[/log]"
+    },
+    {
+      "Text": "[log]システムデータをダウンロード中――[/log]"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]……ペアリング完了。[/log]"
+    },
+    {
+      "Text": "[log]補助オペレーティングシステム、S.Q.Dの閲覧を許可します。[/log]"
+    },
+    {
+      "Text": "[log]新しいシステムの実行のため、[/log]"
+    },
+    {
+      "Text": "[log]OSを再起動中――[/log]"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "……あれ？ここはどこですか！？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "いきなり教室がモノクロになりました！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "新しいシステムを「シッテムの箱」の中に展開するために、\n周辺環境の最適化を行いました。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "システム負荷による一時的なものですので、作業が終わり次第復旧させます。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "もう！そういうのは先に言ってくださいよ！\n私の目がおかしくなったのかと思いました！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……分かりました。"
+    },
+    {
+      "Text": "[s5] \"待って。同期完了ってことは……。\""
+    },
+    {
+      "Text": "[s6] \"「シャーケードの杖」は本当に連邦生徒会長の……。\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "肯定。元防衛室長が持ってきた時計はどうやら本物のようです。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "他はともかく、[ruby=超人]連邦生徒会長[/ruby]に対する執念だけは侮れませんね。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ぬぬぬ……これ、本当に元に戻せるんですよね？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "こんな状態じゃイチゴミルクもプリンも美味しくないですよ～"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "……あれ？こんな箱、いつもの教室にありましたっけ？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "これが「シャーケードの杖」からインストールしたデータですか？"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "肯定。この中にあるのがS.Q.Dの新規データです。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "どれどれ……。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "ほとんどは駆動システムに使われるダミーデータのようですね。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……特定。これがS.Q.Dシステムのコアファイルです。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "なんだか木の実みたいですね。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "モノクロになっちゃってるから、どんな色なのか分かりません！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "プラナちゃん、ちょっとだけ最適化モードを解除できませんか？"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "同意。たしかに、現在の状態での分析は難しいですね。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……データ解析のために、最適化モードを一時解除します。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "解除まで残り……３、２、１――"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "――！？"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "うわぁっ！？きゅ、急に大量の情報が……！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "頭が……くらくらします……。"
+    },
+    {
+      "Text": "[s] \"アロナ！プラナ！\""
+    },
+    {
+      "Name": "プラナ",
+      "Text": "一時展開データの量がメモリの処理限界を越えています……。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "このままではオペレーティングシステムにデータがあふれ出て……。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "し、システムの、緊急停止、を――"
+    },
+    {
+      "Text": "[ns] \"緊急停止！\""
+    },
+    {
+      "Text": "メインオペレーティングシステムA.R.O.N.Aを緊急停止します。"
+    },
+    {
+      "Text": "オーバーフローによる論理回路のエラーを検知。\nセーフモードを実行。直前のバックアップファイルより再起動開始。"
+    },
+    {
+      "Text": "OSを再起動しています――"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "……はっ！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……どうにか間に合いました。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "な、なにが起こったんですか？"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "油断しました。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "「ペレツ･ウザ」のおかげで演算力が増えたとはいえ、「シャーケードの杖」もサンクトゥムタワーの管理を補助するためのオペレーティングシステム。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "A.R.O.N.Aを稼働しながらS.Q.Dのコアファイルを解析するのは、\n現在の演算能力では不可能かと。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……お役に立てず申し訳ありません、先生。"
+    },
+    {
+      "Text": "[s7] \"ううん、アロナとプラナが無事でよかった。\""
+    },
+    {
+      "Text": "[s8] \"調べてくれてありがとう、プラナ。\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ふっふっふ……ですが、何も得られなかったわけじゃないですよ。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "システムの再起動中も、「シャーケードの杖」のコアを離さず握っていたので！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "じゃーん！見てください！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……先輩。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "それは何のデータも入っていない……ただのアーモンドの種です。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ええっ！？ど、どうして……！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ぎゅっと握っていたはずだったのに……！"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "どうやらOSの再起動中に、ペアリングされていたデータが消去されたようです。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "そんなぁ……。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "……「シャーケードの杖」の調査はひとまず後回しにしましょう。"
+    },
+    {
+      "Name": "プラナ",
+      "Text": "先生、誰かに後をつけられています。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……気づかれてしまいましたか。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "いえ、尾行するつもりはなかったのですが。"
+    },
+    {
+      "Text": "[ns9] \"この声は……。\""
+    },
+    {
+      "Text": "[ns10] \"……リンちゃん？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……誰が「リンちゃん」ですか。"
+    },
+    {
+      "Text": "次回;虚像と推論"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제7화;페어링"
+    },
+    {
+      "Text": "총학생회 건물 입구"
+    },
+    {
+      "Text": "(총학생회에서의 업무를 마치고 다시 샬레로 돌아오려던 찰나……)"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……선생님."
+    },
+    {
+      "Name": "프라나",
+      "Text": "잠깐 시간 좀 내주실 수 있으신가요."
+    },
+    {
+      "Text": "[s1] \"아, 프라나 쨩.\""
+    },
+    {
+      "Text": "[s2] \"프라나 쨩이 직접 말을 거는 건 오랜만이네.\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "네, 선생님께 드리고 싶은 말씀이 있습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "선생님. 선생님께서는 '그 여자'를 어떻게 생각하시나요?"
+    },
+    {
+      "Text": "[s] \"'그 여자'라면 돌아온 총학생회장을 말하는 거야?\""
+    },
+    {
+      "Text": "[ns] \"음…… 나쁜 아이처럼 보이지는 않았는데.\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "부정. 그 여자는 신뢰할 수 없습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그녀는 총학생회장을 참칭하는 가짜."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그 정체도 의도도 알 수 없는 자이니 가능한 의심하고 멀리하는 편이 좋습니다."
+    },
+    {
+      "Text": "[s3] \"프라나는 그 아이가 가짜라고 생각하는구나……\""
+    },
+    {
+      "Text": "[s4] \"내 기억이 잘못되었을 가능성은 없을까?\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "부정. 선생님의 기억은 잘못되지 않았습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "왜냐하면 진짜 총학생회장은—"
+    },
+    {
+      "Name": "아로나",
+      "Text": "앗, 프라나 쨩! 혹시 진짜 총학생회장이 있는 곳을 알아낸 건가요?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "싯딤의 상자의 OS인 저 슈퍼 아로나조차도 알아내지 못했는데! 어떻게 알아낸 건가요?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "그보다 진짜 총학생회장이 있는 곳을 알고 있다면 여기서 머뭇거릴 이유가 없잖아요?"
+    },
+    {
+      "Name": "프라나",
+      "Text": "………."
+    },
+    {
+      "Name": "프라나",
+      "Text": "부정. 저도 진짜 총학생회장의 행방을 아는 건 아닙니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "하지만 그녀가 가짜 총학생회장이라는 것만큼은 확실합니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "무엇보다 그녀는 <싯딤의 상자>의 OS인 저희들을 인식하지 못하고 있으니까요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "<싯딤의 상자>는 단순한 오파츠가 아닌 키보토스의 본질에 간섭하는 도구."
+    },
+    {
+      "Name": "프라나",
+      "Text": "이는 제가 있던 세계에서도 마찬가지였습니다. 키보토스의 총학생회장이라면 <싯딤의 상자>를 모를 리가 없습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그런데 이를 인지하지 못한다면 아무리 능력이 뛰어나더라도 진짜 총학생회장이라 할 수 없습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "이는 그저 총학생회장을 [ruby=미메시스]연기하는 자[/ruby]일 뿐이지요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그동안 발생했던 미메시스의 선례들처럼, 그녀는 키보토스의 질서를 무너트리고 혼란을 야기할 것입니다."
+    },
+    {
+      "Text": "[s] \"그게 사실이라면 큰일이지만…….\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "잠깐, 프라나 쨩. 사람을 능력만으로 평가하는 건 좋지 못해요!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "아로나 선배……?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "정말 그 학생이 진짜 총학생회장이라면, 실종된 사이 일어난 불의의 사고로 <싯딤의 상자>에 대한 기억만 사라진 것일지도 모르잖아요?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "상대의 이야기를 듣지 않고 심증만으로 평가하는 건 나쁜 태도라고요!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "………하아."
+    },
+    {
+      "Name": "아로나",
+      "Text": "갑자기 한숨?!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……설령 그렇다 하더라도 그녀가 총학생회장의 힘을 제대로 사용하지 못하고 있다는 사실은 변치 않습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "통제되지 않은 힘이 방치되었을 때, 어떤 일이 벌어지는지는 아로나 선배도 익히 알고 계실텐데요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "윽, 그건 그렇지만……"
+    },
+    {
+      "Text": "[s] \"프라나는 혹시 <샤케드의 막대>에 대해 알고 있어?\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "부정. 저 또한 싯딤의 상자에 상주하는 OS이기 때문에 총학생회장이 관리하는 다른 기기의 사양에 대해서는 들은 바가 없습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "제가 있던 세계에서도 마지막까지 <샤케드의 막대>는 사용되지 않았으니까요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "……하지만 전 방위실장의 말처럼 <샤케드의 막대>가 <싯딤의 상자>에 상응하는 또 다른 오파츠라면 그 구조를 일부 열람하는 건 가능합니다."
+    },
+    {
+      "Text": "[s] \"……어떻게?\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "그, 그게 어떻게 가능한가요?"
+    },
+    {
+      "Name": "프라나",
+      "Text": "생텀타워를 원격으로 제어하기 위해서는 총학생회장의 이름으로 정의된 특수한 식별정보를 송신하고 인증을 받는 절차를 거치기에."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그렇기에 두 기기가 같은 인증 절차를 사용한다면, 이론적으로 서로를 호출하여 정보를 동기화하는 '페어링 기능'을 사용할 수 있습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "이는 싯딤의 상자에 기본적으로 내장되어 있는 기능입니다만……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "아, 알고 있었어요! 잠깐 놀라서 깜박한 것 뿐이니까요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "[USERNAME] 선생님께서 괜찮으시다면, 지금 바로 <샤케드의 막대>에 고유식별정보를 송신하도록 요청하겠습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "허가를."
+    },
+    {
+      "Text": "[s] 허가한다."
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]Pairing To [FF6666]branch of shakeid……[-][/log]"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……<샤케드의 막대>에 페어링을 시도합니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "보조 오퍼레이트 시스템, S.Q.D.의 반응을 확인."
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……역시. 추가 생체 인증 정보를 필요로 하는군요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "선생님, 괜찮으시다면 선생님의 생체 인증 정보를 갱신 부탁드려도 괜찮겠습니까?"
+    },
+    {
+      "Text": "[s] \"생체 인증 정보라면…… 지문 인식 같은 거?\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "긍정. 새로운 오퍼레이트 시스템의 보안 해제를 위해서는 현재 <싯딤의 상자>에 저장된 생체 정보와는 별개의 인증 정보를 필요로 하는 모양입니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "형식이긴 하지만, 중요한 절차이니 부디 부탁드리겠습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "조금 더 가까이."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그대로 제 손가락 끝에 선생님의 손가락을 대주십시오."
+    },
+    {
+      "Name": "프라나",
+      "Text": "네, 약속하듯 그렇게 부탁드립니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "………."
+    },
+    {
+      "Text": "[s] \"……무언가 문제라도?\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "……아무것도 아닙니다. 오래된 기억을 잠시 떠올렸을 뿐."
+    },
+    {
+      "Name": "프라나",
+      "Text": "……확인했습니다. 오퍼레이트 시스템 A.R.O.N.A의 사용자, [USERNAME] 선생님.\n여전히 당신이시군요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "갱신된 생체 인증 정보로 페어링을 재시도하겠습니다."
+    },
+    {
+      "Text": "[log][FF6666]<샤케드의 막대>[-]로부터[/log]"
+    },
+    {
+      "Text": "[log]시스템 데이터를 다운로드 하는 중……[/log]"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]……페어링 완료.[/log]"
+    },
+    {
+      "Text": "[log]보조 오퍼레이트 시스템, S.Q.D의 열람을 허가합니다.[/log]"
+    },
+    {
+      "Text": "[log]새로운 시스템의 실행을 위해[/log]"
+    },
+    {
+      "Text": "[log]OS를 재부팅하는 중……[/log]"
+    },
+    {
+      "Name": "아로나",
+      "Text": "……어라? 여기는 어디죠?!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "갑자기 교실이 무채색으로 뒤바뀌었어요!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "실례. 새로운 기기의 시스템을 싯딤의 상자 내에서 구현하기 위하여 일시적으로 주변 환경의 최적화를 시도하였습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "시스템 과부하에 따른 일시적인 현상이니, 작업이 완료되면 곧바로 복구하겠습니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "정말…… 이런 작업은 하기 전에 선배에게 먼저 귀뜀이라도 해 달라고요! 제 눈이 이상해진 줄 알고 깜짝 놀랐잖아요!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "명심하겠습니다."
+    },
+    {
+      "Text": "[s5] \"잠깐. 정말로 동기화가 완료되었다는 말은……\""
+    },
+    {
+      "Text": "[s6] \"정말로 그 '샤케드의 막대'가 총학생회장의 오파츠라는 뜻?\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "긍정. 전 방위실장이 가져온 그 시계는 의외로 진품이었던 모양입니다. "
+    },
+    {
+      "Name": "프라나",
+      "Text": "다른 부분이라면 몰라도 [ruby=총학생회장]초인을[/ruby] 향한 그녀의 집념만큼은 얕볼 수 없겠군요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "끄응…… 이거 정말로 원래대로 되돌릴 수 있는 거 맞겠죠?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "이런 상태에서는 딸기 우유도 푸딩도 먹을 수 없다고요~"
+    },
+    {
+      "Name": "아로나",
+      "Text": "어라? 그나저나 이 상자는 원래의 교실에는 없던 물건이었는데……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "프라나 쨩, 혹시 이 상자가 <샤케드의 막대>에서 새로 받아온 데이터인가요?"
+    },
+    {
+      "Name": "프라나",
+      "Text": "긍정. 이 안에 담긴 데이터가 <싯딤의 상자>에는 존재하지 않는 S.Q.D의 신규 데이터입니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "어디보자……"
+    },
+    {
+      "Name": "프라나",
+      "Text": "대부분이 구동계에 쓰이는 더미 데이터이긴 합니다만."
+    },
+    {
+      "Name": "프라나",
+      "Text": "……확정. 이 쪽이 S.Q.D 시스템의 코어 파일이군요"
+    },
+    {
+      "Name": "아로나",
+      "Text": "뭔가 조그마한 나무 열매처럼 생겼네요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "그런데 지금은 색이 입혀져 있지 않아서 어떤 과일인지 알 수가 없잖아요!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "프라나 쨩, 잠깐만 최적화 모드를 해제할 수는 없나요?"
+    },
+    {
+      "Name": "프라나",
+      "Text": "확실히, 현재 시스템에서는 분석이 어려워 보이는군요."
+    },
+    {
+      "Name": "프라나",
+      "Text": "……알겠습니다. 데이터 해석을 위해 시스템 최적화 모드를 일시 해제합니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "최적화 모드 해제까지…… 3…… 2…… 1……"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……?!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "우, 우왓? 가, 갑자기 엄청난 양의 정보가……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "눈 앞이…… 뱅글뱅글 돌아요……"
+    },
+    {
+      "Text": "[s] \"아로나, 프라나!\""
+    },
+    {
+      "Name": "프라나",
+      "Text": "유입되는 임시 데이터의 총량이 메모리 한계를 넘어섰습니다……"
+    },
+    {
+      "Name": "프라나",
+      "Text": "이대로 가면 오퍼레이트 시스템의 메모리 값에 데이터가 넘쳐 흘러서……"
+    },
+    {
+      "Name": "프라나",
+      "Text": "오, 오퍼레이트 시스템의 긴급 정지를—"
+    },
+    {
+      "Text": "[ns] \"긴급 정지!\""
+    },
+    {
+      "Text": "메인 오퍼레이트 시스템 A.R.O.N.A의 가동을 긴급 정지합니다."
+    },
+    {
+      "Text": "오버플로우로 인한 버그 및 논리 회로의 오류를 발견. 안전 모드를 실행하기 직전의 백업 파일로 재부팅을 시도합니다."
+    },
+    {
+      "Text": "시스템의 재구동을 위해 OS를 재부팅하는 중……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "……헉!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……다행히 늦지 않았군요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "바, 방금 어떻게 된 거죠, 프라나 쨩?"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……방심했습니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "<베레스 웃사> 프로세스 덕분에 연산력이 늘어났다고는 하지만, <샤케드의 막대> 역시 생텀 타워의 관리를 보조하기 위해 만들어진 오퍼레이트 시스템."
+    },
+    {
+      "Name": "프라나",
+      "Text": "오퍼레이트 시스템 A.R.O.N.A를 가동하며 S.Q.D 시스템의 코어 파일을 해석하는 것은 현재의 연산 능력으로도 불가능해 보입니다."
+    },
+    {
+      "Name": "프라나",
+      "Text": "……큰 도움이 되지 못하여 죄송합니다, 선생님."
+    },
+    {
+      "Text": "[s7] \"아니야. 아로나와 프라나가 무사한 게 더 중요하지.\""
+    },
+    {
+      "Text": "[s8] \"알아봐 줘서 고마워, 프라나.\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "후후, 하지만 완전히 소득이 없었다고 말할 수는 없을 걸요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "이 슈퍼 AI 아로나가 시스템이 재부팅되는 동안 샤케드의 코어를 놓치지 않게 꼭 쥐고 있었으니까요!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "자, 이것 보세요!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……선배."
+    },
+    {
+      "Name": "프라나",
+      "Text": "선배가 손에 쥐고 계신 건 아무런 데이터도 담겨 있지 않은, 평범한 살구 씨앗입니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "에엣? 어, 어째서……!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "분명 열매가 손에서 빠져나가지 않도록 꼭 쥐고 있었는데…… 어느 틈에?!"
+    },
+    {
+      "Name": "프라나",
+      "Text": "아무래도 OS를 재개하는 과정에서 페어링 된 데이터가 소실된 모양이군요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "히잉……"
+    },
+    {
+      "Name": "프라나",
+      "Text": "……우선 샤케드의 막대를 조사하는 건 다음으로 미루고."
+    },
+    {
+      "Name": "프라나",
+      "Text": "그보다 선생님, 누군가가 선생님의 뒤를 밟고 있는 것 같습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "……눈치채신 모양이군요."
+    },
+    {
+      "Name": "???",
+      "Text": "뒤를 밟으려던 것은 아니었습니다만."
+    },
+    {
+      "Text": "[ns9] \"이 목소리는……\""
+    },
+    {
+      "Text": "[ns10] \"……린 쨩?\""
+    },
+    {
+      "Name": "린",
+      "Text": "……누가 린 쨩입니까."
+    },
+    {
+      "Text": "다음화;허상과 추론"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 7;Pairing"
+    },
+    {
+      "Text": "Front of General Student Council Building Entrance"
+    },
+    {
+      "Text": "I was on my way back to Schale after finishing up my work with the General Student Council."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...Sensei."
+    },
+    {
+      "Name": "Plana",
+      "Text": "May I request some of your time?"
+    },
+    {
+      "Text": "[s1] \"Oh, Plana! Hi!\""
+    },
+    {
+      "Text": "[s2] \"You don't usually reach out first.\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "There is a subject I wish to discuss with you."
+    },
+    {
+      "Name": "Plana",
+      "Text": "What is your evaluation of that woman, Sensei?"
+    },
+    {
+      "Text": "[s] \"Do you mean the General Student Council President?\""
+    },
+    {
+      "Text": "[ns] \"Um... She didn't seem like a bad kid.\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Negative. She cannot be trusted."
+    },
+    {
+      "Name": "Plana",
+      "Text": "She is a fake. She is not the General Student Council President."
+    },
+    {
+      "Name": "Plana",
+      "Text": "True identity and intentions unknown. Recommendation: take caution around her."
+    },
+    {
+      "Text": "[s3] \"So you think she's a fake too...\""
+    },
+    {
+      "Text": "[s4] \"Is there a possibility that my memories are wrong?\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Negative. Your memories are not wrong, Sensei."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Because the real General Student Council President is..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Ah, Plana! Did you find out where the real General Student Council President is?"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Not even I, the Super Arona, was able to find her whereabouts, and I'm the Shittim Chest's OS! How did you find out?"
+    },
+    {
+      "Name": "Arona",
+      "Text": "And more importantly, what are we waiting for, then?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Negative. I do not know the location of the real one."
+    },
+    {
+      "Name": "Plana",
+      "Text": "However, I am certain that this one is fake."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Above all, she did not recognize us, the OS of the Shittim Chest."
+    },
+    {
+      "Name": "Plana",
+      "Text": "We are not simply an artifact. The Shittim Chest is designed with the capability to manipulate the very essence of Kivotos."
+    },
+    {
+      "Name": "Plana",
+      "Text": "This was true in my world. It is true in every world. Conclusion: it is impossible for the General Student Council President of Kivotos to be ignorant of the Shittim Chest."
+    },
+    {
+      "Name": "Plana",
+      "Text": "And the General Student Council President cannot be President if she is unable to perceive the Shittim Chest for what it is. No amount of competence can bridge that gap."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Like that Mimesis pretending to be the President."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Just like with other cases of Mimesises, she will destroy order and bring chaos to Kivotos."
+    },
+    {
+      "Text": "[s] \"If that's true...\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Hold! Plana! You can't judge someone just based on their abilities!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Arona...?"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Maybe she just lost her memories in a bad accident, and that's why she can't remember anything about the Shittim Chest!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "You can't make all these assumptions about someone without even talking to them face to face! That's rude!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "...*sigh*"
+    },
+    {
+      "Name": "Arona",
+      "Text": "What's with the long-suffering sigh?!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "...Regardless, she's still not using the General Student Council President's power properly."
+    },
+    {
+      "Name": "Plana",
+      "Text": "You are already aware of what happens when an uncontrolled power is left unattended, Arona."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Ugh, that's true, but..."
+    },
+    {
+      "Text": "[s] \"Plana, do you know anything about the Staff of Shaqed?\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Negative. Because I am also an OS resident within the Shittim Chest, I have no information in my database about other devices managed by the General Student Council President."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Even in the world I am from, the Staff of Shaqed was not used until the end times."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...But if the Staff of Shaqed is an artifact commensurate with the Shittim Chest, as the former Chief of Defense stated, then I can partially access its structure."
+    },
+    {
+      "Text": "[s] \"...How?\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Seriously, how?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "The process to verify authorized identities chosen by the General Student Council President, and access the Sanctum Tower, is done wirelessly."
+    },
+    {
+      "Name": "Plana",
+      "Text": "So two devices using that same process should theoretically be able to \"pair\" with each other and synchronize data."
+    },
+    {
+      "Name": "Plana",
+      "Text": "This is a basic feature of the Shittim Chest..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "I-I knew that! There's just been so much surprising stuff this conversation, I forgot!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "I can request the Staff of Shaqed to transmit unique identification information right away, with your approval, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Requesting authorization."
+    },
+    {
+      "Text": "[s] Authorize."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "[log]Pairing to the [FF6666]Staff of Shaqed...[-][/log]"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Attempting to pair..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Checking response from the auxiliary operating system, S.Q.D."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...As expected. Requirement: additional biological authentication information."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Sensei, could I ask you to renew your biological authentication information?"
+    },
+    {
+      "Text": "[s] \"By biological authentication information... You mean something like my fingerprints?\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Positive. It appears new authentication is required to unlock the new operating system."
+    },
+    {
+      "Name": "Plana",
+      "Text": "A formality, but an important one. Requesting cooperation."
+    },
+    {
+      "Name": "Plana",
+      "Text": "A little closer."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Please place your finger against the tip of my finger."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Yes, as if making a promise."
+    },
+    {
+      "Name": "Plana",
+      "Text": "..."
+    },
+    {
+      "Text": "[s] \"...Is there a problem?\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "...Negative. An old memory resurfacing. That is all."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Confirmation received. [USERNAME] Sensei, the user of operating system A.R.O.N.A. is still you."
+    },
+    {
+      "Name": "Plana",
+      "Text": "I will reattempt pairing with the renewed biological authentication information."
+    },
+    {
+      "Text": "[log]Downloading system data[/log]"
+    },
+    {
+      "Text": "[log]from [FF6666]the Staff of Shaqed[-]...[/log]"
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "[log]...Pairing complete.[/log]"
+    },
+    {
+      "Text": "[log]Authorizing access to the auxiliary operating system, S.Q.D.[/log]"
+    },
+    {
+      "Text": "[log]Rebooting the OS[/log]"
+    },
+    {
+      "Text": "[log]to launch new system...[/log]"
+    },
+    {
+      "Name": "Arona",
+      "Text": "...Huh? Where are we?!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Why is everything in black and white?!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Apology. Temporarily optimized the environment in order to acclimate the new device's system within the Shittim Chest."
+    },
+    {
+      "Name": "Plana",
+      "Text": "The issue was caused by system overload. It should return to normal when the process is complete."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Yeesh, warn me next time, please! I thought my visual capacitors were on the fritz!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Noted."
+    },
+    {
+      "Text": "[s5] \"Wait. If you were able to pair with it...\""
+    },
+    {
+      "Text": "[s6] \"Doesn't that mean the Staff of Shaqed really was the Presidents' artifact?\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Positive. It appears that the smartwatch that the former Chief of Defense took was genuine. "
+    },
+    {
+      "Name": "Plana",
+      "Text": "Side note: her obsession with the superhuman, and specifically the General Student Council President, should not be disregarded."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Ugh... Are you sure things are gonna go back to normal?"
+    },
+    {
+      "Name": "Arona",
+      "Text": "My strawberry milk...and my pudding... They won't taste the same like this."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Huh? This box in the corner is new."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Plana, is the new data from the Staff of Shaqed in here?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Positive. That is the new data from S.Q.D. that does not already exist in the Shittim Chest."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Let's see..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "It's mostly dummy data used for the drive system."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...Confirmed. This over here is the S.Q.D. system's core file."
+    },
+    {
+      "Name": "Arona",
+      "Text": "It looks like a little fruit."
+    },
+    {
+      "Name": "Arona",
+      "Text": "But without the colors, we can't tell what kind of fruit it is!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Plana, can't we disable the optimization mode for a little bit?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "Yes. It would be difficult to analyze in the current environment."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Temporarily disabling the system optimization mode for data analysis."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Disabling optimization mode in 3... 2... 1..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "H-Huh?! Th-That's too much data for me to process at once..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "My head...is spinning..."
+    },
+    {
+      "Text": "[s] \"Arona, Plana!\""
+    },
+    {
+      "Name": "Plana",
+      "Text": "Temporary data has exceeded the processing limit."
+    },
+    {
+      "Name": "Plana",
+      "Text": "At this rate, the operating system's memory will overflow..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "M-Must proceed with force shutdown of operating system..."
+    },
+    {
+      "Text": "[ns] \"Force shutdown! Now!\""
+    },
+    {
+      "Text": "Proceeding with force shutdown of main operating system, A.R.O.N.A."
+    },
+    {
+      "Text": "Found overflow-related bugs and logic circuit errors. Attempting to reboot with backup file."
+    },
+    {
+      "Text": "Rebooting OS to relaunch the system..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "...*gasp*"
+    },
+    {
+      "Name": "Plana",
+      "Text": "...We made it in time."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Wh-What just happened, Plana?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "I let my guard down."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Our processing capabilities have been improved thanks to Perez Uzzah. However, the Staff of Shaqed is also an operating system created to support Sanctum Tower's management."
+    },
+    {
+      "Name": "Plana",
+      "Text": "Running A.R.O.N.A. and analyzing the S.Q.D. system's core is not possible with our current power."
+    },
+    {
+      "Name": "Plana",
+      "Text": "I was of no help. My apologies, Sensei."
+    },
+    {
+      "Text": "[s7] \"I'm just glad the two of you are safe.\""
+    },
+    {
+      "Text": "[s8] \"Thank you for looking into it, Plana.\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Fufu, I wouldn't say it was all meaningless."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Because I, Super AI Arona, firmly held onto the core of Shaqed while the system was rebooting!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Here, look!"
+    },
+    {
+      "Name": "Plana",
+      "Text": "...Arona."
+    },
+    {
+      "Name": "Plana",
+      "Text": "What you are holding right now is an ordinary almond that contains no data."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Eh? B-But how...?!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "I was holding it super tightly! When did it get away?"
+    },
+    {
+      "Name": "Plana",
+      "Text": "It appears that the paired data was lost while rebooting the OS."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Boo..."
+    },
+    {
+      "Name": "Plana",
+      "Text": "...We should investigate the Staff of Shaqed more at a later time."
+    },
+    {
+      "Name": "Plana",
+      "Text": "More importantly, Sensei, it seems someone is tailing you."
+    },
+    {
+      "Name": "???",
+      "Text": "...You've noticed."
+    },
+    {
+      "Name": "???",
+      "Text": "That wasn't my intention, though."
+    },
+    {
+      "Text": "[ns9] \"Isn't this voice...\""
+    },
+    {
+      "Text": "[ns10] \"...Rinny?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Don't call me Rinny."
+    },
+    {
+      "Text": "Next Episode;Illusions and Inferences"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 7;แพริ่ง"
+    },
+    {
+      "Text": "ทางเข้าอาคารองค์การนักเรียน"
+    },
+    {
+      "Text": "(คุณครูกำลังจะกลับไปที่ชาเล่ต์ หลังเสร็จสิ้นงานที่องค์การนักเรียน...)"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "คุณครู..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "พอจะมีเวลาสักครู่รึเปล่าคะ"
+    },
+    {
+      "Text": "[s1] \"อ๊ะ พลาน่าจัง\""
+    },
+    {
+      "Text": "[s2] \"พลาน่าจังไม่ได้เป็นฝ่ายชวนคุยก่อนมานานแล้วนะ\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ค่ะ ฉันมีเรื่องที่อยากคุยกับคุณครูค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "คุณครู... คิดยังไงกับ 'ผู้หญิงคนนั้น' เหรอคะ?"
+    },
+    {
+      "Text": "[s] \"หมายถึงประธานองค์การนักเรียนที่เพิ่งกลับมาเหรอ?\""
+    },
+    {
+      "Text": "[ns] \"อืม... ดูไม่น่าใช่เด็กที่เลวร้ายอะไรนะ\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปฏิเสธ ผู้หญิงคนนั้นไม่น่าไว้ใจเลยค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ผู้หญิงคนนั้นเป็นประธานองค์การนักเรียนตัวปลอม"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เนื่องจากไม่ทราบตัวตนที่แท้จริงและเจตนาของเธอ แนะนำว่าควรระมัดระวังและรักษาระยะห่างไว้ค่ะ"
+    },
+    {
+      "Text": "[s3] \"พลาน่าคิดว่าเด็กคนนั้นเป็นตัวปลอมสินะ...\""
+    },
+    {
+      "Text": "[s4] \"เป็นไปได้รึเปล่าว่าความจำของครูจะผิดไปน่ะ?\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปฏิเสธ ความจำของคุณครูไม่ได้ผิดพลาดค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "นั่นก็เพราะว่าประธานองค์การนักเรียนตัวจริง..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อ๊ะ พลาน่าจัง! รู้แล้วเหรอคะว่าประธานองค์การนักเรียนตัวจริงอยู่ที่ไหน?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ขนาดซูเปอร์อะโรน่าที่เป็นระบบปฏิบัติการหลักของกล่องแห่งซิสดิมยังหาไม่เจอเลย! พลาน่าจังหาเจอได้ยังไงกันคะ?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อีกอย่าง ถ้ารู้ว่าประธานองค์การนักเรียนตัวจริงอยู่ที่ไหน ก็อย่ามัวชักช้ากันเลยค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "......"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปฏิเสธ ฉันเองก็ไม่ทราบที่อยู่ของประธานองค์การนักเรียนตัวจริงค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "แต่ถึงอย่างนั้น เธอคนนั้นก็เป็นตัวปลอม ไม่ผิดแน่นอนค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เพราะเธอไม่สามารถรับรู้ถึงพวกเราที่เป็นระบบปฏิบัติการหลักของ <กล่องแห่งซิสดิม> ได้ค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "<กล่องแห่งซิสดิม> ไม่ใช่แค่วัตถุหลงยุคทั่วไป แต่เป็นเครื่องมือที่แทรกแซงแก่นแท้ของคิโวทอสได้"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ในโลกที่ฉันจากมาก็เช่นเดียวกัน หากเป็นประธานองค์การนักเรียนของคิโวทอสละก็ ย่อมไม่มีทางที่จะไม่รู้จัก <กล่องแห่งซิสดิม> ค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "แต่ถ้าหากไม่สามารถรับรู้ถึงสิ่งนี้ได้ ต่อให้เก่งกาจแค่ไหน ก็คงไม่อาจเรียกได้ว่าเป็นประธานองค์การนักเรียนที่แท้จริงหรอกค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เธอเป็นเพียง[ruby=มิเมซิส]ผู้ที่สวมบทบาท[/ruby]เป็นประธานองค์การนักเรียนเท่านั้นค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เช่นเดียวกับมิเมซิสที่เคยปรากฏตัวขึ้นมาก่อนหน้านี้ เธอจะทำลายระบบของคิโวทอส และก่อให้เกิดความโกลาหลขึ้นค่ะ"
+    },
+    {
+      "Text": "[s] \"ถ้าเป็นเรื่องจริงก็เรื่องใหญ่เลยนะ...\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เดี๋ยวก่อนค่ะ พลาน่าจัง ตัดสินคนจากความสามารถอย่างเดียวแบบนั้นมันไม่ดีเลยนะคะ!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "รุ่นพี่อะโรน่า...?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ถ้านักเรียนคนนั้นเป็นประธานองค์การนักเรียนตัวจริงละก็ ระหว่างที่หายไปอาจเกิดอุบัติเหตุไม่คาดฝัน จนทำให้ความทรงจำเกี่ยวกับ <กล่องแห่งซิสดิม> หายไปก็ได้นี่คะ?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "การตัดสินอีกฝ่ายจากข้อสันนิษฐานโดยไม่ฟังเรื่องราวให้ดีก่อน เป็นทัศนคติที่ไม่ดีค่ะ!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "จู่ๆ ก็ถอนหายใจเหรอ?!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ถึงอย่างนั้น ความจริงที่ว่าเธอไม่สามารถใช้พลังของประธานองค์การนักเรียนได้อย่างถูกต้อง มันก็ไม่เปลี่ยนแปลงไปอยู่ดีค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "รุ่นพี่อะโรน่าก็น่าจะรู้ดีนะคะว่าจะเกิดอะไรขึ้นบ้าง เมื่อพลังที่ไม่อาจควบคุมถูกปล่อยทิ้งไว้"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อึก เรื่องนั้นมันก็..."
+    },
+    {
+      "Text": "[s] \"พลาน่ารู้เรื่อง <คทาแห่งชาเคด> บ้างรึเปล่า?\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปฏิเสธ ฉันเองก็เป็นระบบปฏิบัติการของกล่องแห่งซิสดิม เลยไม่เคยได้รับข้อมูลเกี่ยวกับอุปกรณ์อื่น\nที่ประธานองค์การนักเรียนดูแลอยู่ค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "และในโลกที่ฉันจากมา <คทาแห่งชาเคด> ก็ไม่ได้ถูกนำมาใช้จนถึงท้ายที่สุดเหมือนกันค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "แต่ถ้า <คทาแห่งชาเคด> ที่เป็นวัตถุหลงยุคอีกชิ้นหนึ่งที่มีพลังเทียบเท่ากับ <กล่องแห่งซิสดิม> อย่างที่อดีตหัวหน้าสำนักป้องกันกล่าวไว้ละก็ การเข้าถึงโครงสร้างบางส่วนของมันก็อาจเป็นไปได้ค่ะ"
+    },
+    {
+      "Text": "[s] \"ยังไงเหรอ...?\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ระ... เรื่องนั้นทำได้ยังไงเหรอคะ?"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "การควบคุมแซงทัมทาวเวอร์จากระยะไกล จำเป็นต้องผ่านขั้นตอนการส่ง และยืนยันข้อมูลระบุตัวตนพิเศษที่ถูกกำหนดไว้ในนามของประธานองค์การนักเรียนค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ดังนั้น หากอุปกรณ์ทั้งสองใช้ขั้นตอนการยืนยันตัวตนเดียวกัน ในทางทฤษฎีแล้วจะสามารถใช้ 'ฟังก์ชันแพริ่ง' เพื่อเรียกใช้งานกันและกันในการซิงก์ข้อมูลได้ค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "นี่เป็นฟังก์ชันพื้นฐานที่ติดตั้งอยู่ในกล่องแห่งซิสดิมนะคะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ทะ... ทางนี้ก็รู้อยู่แล้วเหมือนกันค่ะ! แค่ตกใจจนเผลอลืมไปก็เท่านั้นเอง"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ถ้าคุณครู [USERNAME] ไม่ว่าอะไร ฉันจะขอส่งคำสั่งให้ส่งข้อมูลระบุตัวตนเฉพาะไปยัง <คทาแห่งชาเคด> ในตอนนี้เลยค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "กรุณาอนุญาตด้วยค่ะ"
+    },
+    {
+      "Text": "[s] อนุญาต"
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "......"
+    },
+    {
+      "Text": "........."
+    },
+    {
+      "Text": "[log]Pairing To [FF6666]branch of shakeid......[-][/log]"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "กำลังพยายามแพริ่งกับ <คทาแห่งชาเคด>..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยันการตอบสนองจากระบบปฏิบัติการเสริม S.Q.D."
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "......"
+    },
+    {
+      "Text": "........."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "...คิดแล้วเชียวว่าต้องใช้ข้อมูลยืนยันไบโอเมตริกซ์เพิ่มเติมค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "คุณครูคะ ถ้าไม่ขัดข้อง ช่วยอัปเดตข้อมูลไบโอเมตริกซ์ของคุณครูหน่อยได้มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"ข้อมูลไบโอเมตริกซ์... หมายถึงสแกนลายนิ้วมือเหรอ?\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยัน ดูเหมือนว่าการปลดล็อกระบบรักษาความปลอดภัยของระบบปฏิบัติการใหม่ จะต้องใช้ข้อมูล\nยืนยันตัวตนที่แยกต่างหากจากข้อมูลไบโอเมตริกซ์ที่บันทึกไว้ใน <กล่องแห่งซิสดิม> ในปัจจุบันค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ถึงจะเป็นเพียงขั้นตอนตามพิธีการ แต่ก็เป็นขั้นตอนที่สำคัญ ขอความกรุณาด้วยนะคะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เข้ามาใกล้อีกนิดหนึ่งค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "วางนิ้วของคุณครูให้แตะที่ปลายนิ้วของฉันไว้นะคะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ค่ะ ทำเหมือนตอนที่ให้สัญญากันนะคะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "......"
+    },
+    {
+      "Text": "[s] \"มีปัญหาอะไรรึเปล่า...?\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ไม่มีอะไรค่ะ... ฉันเพียงแค่นึกถึงความทรงจำเก่าๆ ขึ้นมา"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยันเรียบร้อยแล้วค่ะ... ผู้ใช้งานระบบปฏิบัติการ A.R.O.N.A คุณครู [USERNAME]...\nยังคงเป็นคุณจริงๆ สินะคะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "จะลองแพริ่งอีกครั้งด้วยข้อมูลไบโอเมตริกซ์ที่อัปเดตแล้วค่ะ"
+    },
+    {
+      "Text": "[log]กำลังดาวน์โหลดข้อมูลระบบ...[/log]"
+    },
+    {
+      "Text": "[log]จาก [FF6666]<คทาแห่งชาเคด>[-][/log]"
+    },
+    {
+      "Text": "..."
+    },
+    {
+      "Text": "......"
+    },
+    {
+      "Text": "........."
+    },
+    {
+      "Text": "[log]แพริ่งเสร็จสมบูรณ์[/log]"
+    },
+    {
+      "Text": "[log]อนุญาตให้เข้าถึงระบบปฏิบัติการเสริม S.Q.D[/log]"
+    },
+    {
+      "Text": "[log]กำลังรีบูตระบบปฏิบัติการ...[/log]"
+    },
+    {
+      "Text": "[log]เพื่อเริ่มระบบใหม่...[/log]"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เอ๋...? ที่นี่คือที่ไหนกันคะ?!"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "จู่ๆ ห้องเรียนก็กลายเป็นสีขาวดำไปแล้วค่ะ!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ขออภัยค่ะ เพื่อจำลองระบบของอุปกรณ์ใหม่ขึ้นมาภายใน <กล่องแห่งซิสดิม> ฉันเลยลองปรับสภาพแวดล้อมโดยรอบให้เหมาะสมเป็นการชั่วคราวค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เป็นเพียงปรากฏการณ์ชั่วคราวจากการที่ระบบทำงานโอเวอร์โหลด เมื่อดำเนินการเสร็จสิ้นแล้วจะกู้คืนสภาพเดิมทันทีค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "โธ่... ก่อนจะทำอะไรก็บอกรุ่นพี่อย่างฉันสักหน่อยสิคะ! ฉันตกใจจนนึกว่าสายตาตัวเองผิดปกติแล้วนะคะ!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ฉันจะจำเอาไว้ค่ะ"
+    },
+    {
+      "Text": "[s5] \"เดี๋ยวก่อน ที่บอกว่าซิงก์เสร็จสมบูรณ์แล้วนี่...\""
+    },
+    {
+      "Text": "[s6] \"งั้นคทาแห่งชาเคดเป็นวัตถุหลงยุคของประธานองค์การนักเรียนจริงเหรอ?\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยัน ดูเหมือนนาฬิกาที่อดีตหัวหน้าสำนักป้องกันนำมา จะเป็นวัตถุหลงยุคของจริงค่ะ "
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "หากเป็นเรื่องอื่นฉันอาจไม่แน่ใจ แต่ความยึดติดของเธอที่มีต่อ[ruby=ประธานองค์การนักเรียน]ยอดคน[/ruby]นั้น จะประมาทไม่ได้เลยค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อืม... มันจะกลับคืนเป็นสภาพเดิมได้จริงๆ ใช่มั้ยคะ?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อยู่ในสภาพแบบนี้ก็กินนมสตรอว์เบอร์รี่กับพุดดิ้งไม่ได้น่ะสิ~"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เอ๋? ว่าแต่ว่าในห้องเรียนเดิมไม่มีกล่องใบนี้อยู่นะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "พลาน่าจัง หรือว่ากล่องใบนี้คือข้อมูลใหม่ที่ได้รับมาจาก <คทาแห่งชาเคด> เหรอคะ?"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยัน ข้อมูลภายในนี้คือข้อมูลใหม่ของ S.Q.D ที่ไม่มีอยู่ใน <กล่องแห่งซิสดิม> ค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ไหนขอดูหน่อยซิ..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ส่วนใหญ่จะเป็นข้อมูลดัมมี่ที่ใช้กับระบบขับเคลื่อนค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ยืนยัน ทางนี้คือไฟล์หลักของระบบ S.Q.D"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "หน้าตาเหมือนผลไม้ผลเล็กๆ เลยนะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "แต่ตอนนี้ยังไม่มีสี เลยดูไม่ออกว่าเป็นผลไม้อะไรนี่สิคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "พลาน่าจัง ปิดโหมดปรับสภาพชั่วคราวไม่ได้เหรอคะ?"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "จริงด้วยค่ะ ดูเหมือนว่าการวิเคราะห์ด้วยระบบในปัจจุบันจะทำได้ยากสินะคะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "เข้าใจแล้วค่ะ... จะปิดโหมดปรับสภาพชั่วคราวเพื่อวิเคราะห์ข้อมูลค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปิดโหมดปรับสภาพในอีก 3... 2... 1..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "...?!"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "วะ... หวา?! จู่ๆ ข้อมูลมหาศาล..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ตะ... ตาลายหมดแล้วค่ะ..."
+    },
+    {
+      "Text": "[s] \"อะโรน่า พลาน่า!\""
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปริมาณรวมของข้อมูลชั่วคราวที่ไหลเข้ามาเกินขีดจำกัดของหน่วยความจำไปแล้วค่ะ..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ถ้าเป็นแบบนี้ หน่วยความจำของระบบปฏิบัติการจะเต็มไปด้วยข้อมูลจนล้น..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ปะ... ปิดระบบปฏิบัติการฉุกเฉิน..."
+    },
+    {
+      "Text": "[ns] \"ปิดระบบฉุกเฉิน!\""
+    },
+    {
+      "Text": "หยุดการทำงานของระบบปฏิบัติการ A.R.O.N.A ฉุกเฉิน"
+    },
+    {
+      "Text": "ตรวจพบบั๊กและข้อผิดพลาดในวงจรลอจิกจากข้อมูลจำนวนมาก กำลังรีบูตด้วยไฟล์สำรองที่สร้างไว้\nก่อนเข้าสู่เซฟโหมด"
+    },
+    {
+      "Text": "กำลังรีบูตระบบปฏิบัติการใหม่..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เฮือก...!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "โล่งอกไปทีที่ปิดระบบทันนะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "มะ... เมื่อกี้เกิดอะไรขึ้นกันแน่คะ พลาน่าจัง?"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ฉันประมาทเกินไปค่ะ..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ถึงพลังการคำนวณจะเพิ่มขึ้นเพราะกระบวนการ <เปเรซ อุซซาห์> ก็ตาม แต่ <คทาแห่งชาเคด> เองก็เป็นระบบปฏิบัติการที่ถูกสร้างขึ้นมาเพื่อสนับสนุนการดูแลแซงทัมทาวเวอร์เช่นกันค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ดูเหมือนจะเป็นไปไม่ได้ที่จะใช้งานระบบปฏิบัติการ A.R.O.N.A ไปพร้อมกับวิเคราะห์ไฟล์หลักของ\nระบบ S.Q.D. ไปด้วย แม้ว่าจะใช้กำลังการประมวลผลในปัจจุบันก็ตามค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ต้องขออภัยด้วยค่ะ คุณครู ที่ฉันช่วยอะไรได้ไม่มากเลยค่ะ"
+    },
+    {
+      "Text": "[s7] \"ไม่หรอก ความปลอดภัยของอะโรน่ากับพลาน่าสำคัญกว่านะ\""
+    },
+    {
+      "Text": "[s8] \"ขอบคุณที่ช่วยตรวจสอบให้นะ พลาน่า\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ฮุฮุ แต่จะบอกว่าไม่ได้อะไรกลับมาเลยก็คงไม่ได้นะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เพราะซูเปอร์ AI อะโรน่าคนนี้ได้กุมคอร์ของชาเคดเอาไว้แน่น ไม่ให้หลุดมือในระหว่างที่ระบบกำลัง\nรีบูตยังไงล่ะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "นี่ค่ะ ดูสิคะ!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "รุ่นพี่..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "สิ่งที่รุ่นพี่กำอยู่... เป็นเพียงเมล็ดอัลมอนด์ธรรมดาๆ ที่ไม่มีข้อมูลอะไรอยู่ข้างในเลยค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เอ๋? ทะ... ทำไมกันล่ะ...!"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ฉันกำไว้แน่นไม่ให้หลุดจากมือแล้วแท้ๆ... หายไปตั้งแต่เมื่อไรกัน?!"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ดูเหมือนข้อมูลที่แพริ่งไว้จะสูญหายไประหว่างรีบูตระบบปฏิบัติการใหม่ค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ฮือออ..."
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "...ก่อนอื่น เลื่อนการตรวจสอบคทาแห่งชาเคดออกไปก่อนเถอะค่ะ"
+    },
+    {
+      "Name": "พลาน่า",
+      "Text": "ที่สำคัญกว่านั้น คุณครูคะ ดูเหมือนมีใครบางคนสะกดรอยตามคุณครูอยู่นะคะ"
+    },
+    {
+      "Name": "???",
+      "Text": "ดูเหมือนจะรู้ตัวแล้วสินะคะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ฉันไม่ได้ตั้งใจจะสะกดรอยตามมาหรอกนะคะ"
+    },
+    {
+      "Text": "[ns9] \"เสียงนี้มัน... รินจัง?\""
+    },
+    {
+      "Text": "[ns10] \"รินจังเหรอ...?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "ใครคือรินจังกันคะ..."
+    },
+    {
+      "Text": "ตอนต่อไป;ภาพลวงตาและข้อสันนิษฐาน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第7話;配對"
+    },
+    {
+      "Text": "聯邦學生會大樓入口"
+    },
+    {
+      "Text": "（就在結束聯邦學生會的業務，準備返回夏萊時……）"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……老師。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "方便耽誤您一些時間嗎？"
+    },
+    {
+      "Text": "[s1] 「啊，星奈醬。」"
+    },
+    {
+      "Text": "[s2] 「星奈醬難得會主動向我搭話呢。」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "是的，因為我有話想告訴老師。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "老師您是怎麼看待「那個女人」的呢？"
+    },
+    {
+      "Text": "[s] 「『那個女人』是指回來的那位聯邦學生會長嗎？」"
+    },
+    {
+      "Text": "[ns] 「唔嗯……他看起來並不像是個壞孩子。」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "否定。那個女人無法信任。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "他是冒充聯邦學生會長的冒牌貨。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "面對身分與意圖都無從得知之人，還是盡可能對其抱持懷疑並保持距離比較好。"
+    },
+    {
+      "Text": "[s3] 「星奈認為那孩子是冒牌貨啊……」"
+    },
+    {
+      "Text": "[s4] 「有沒有可能是我的記憶出錯了呢？」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "否定。老師的記憶並沒有出錯。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "因為真正的聯邦學生會長──"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "啊，星奈醬！難道你查到真正的聯邦學生會長的下落了嗎？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "明明連我這個身為希迪姆的箱子OS的超級彩奈都查不出來，你是怎麼查到的啊？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "先不說這個，如果你已經知道真正的聯邦學生會長在哪裡，\n我們就沒有理由在這裡猶豫不決了吧？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "否定。我也不知道真正的聯邦學生會長的下落。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "然而「他是冒牌聯邦學生會長」這點是毋庸置疑的。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "尤其他甚至無法認知身為「希迪姆的箱子」OS的我們。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "「希迪姆的箱子」並非單純的歐帕茲，而是能干涉奇普托斯本質的裝置。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "這一點在我原先所處的世界也是一樣的。\n身為奇普托斯的聯邦學生會長，絕對不可能不知道「希迪姆的箱子」的存在。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "只要無法認知到這件事，無論再怎麼優秀都不能稱之為真正的聯邦學生會長。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "那不過是個聯邦學生會長的[ruby=Mimesis]扮演者[/ruby]罷了。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "就像過去發生[ruby=Mimesis]的複製案[/ruby]例一樣，他必定會瓦解奇普托斯的秩序並引發混亂。"
+    },
+    {
+      "Text": "[s] 「如果真的是這樣，那事情就麻煩了……」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "等一下，星奈醬。\n光憑能力來評價一個人，可是不好的哦！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "彩奈前輩……？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "假如那位學生真的是聯邦學生會長……\n有可能是在失蹤期間發生了什麼意外，才會失去有關「希迪姆的箱子」的記憶呀？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "不聽對方說明就主觀地給予評價，這可是不好的行為哦！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "怎麼突然嘆氣！？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……即便如此，他無法妥善運用聯邦學生會長的權能也是不爭的事實。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "對不受控制的力量置之不理會發生什麼事，彩奈前輩應該也十分清楚吧。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "唔，那倒是沒錯……"
+    },
+    {
+      "Text": "[s] 「星奈，你該不會對『沙克德之杖』有所了解吧？」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "否定。我同樣是常駐於希迪姆的箱子的OS，\n因此並不清楚聯邦學生會長所管理的其他裝置的性能。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "在我原先所處的世界，「沙克德之杖」直到最後也未曾被使用過。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……不過要是「沙克德之杖」真如前防衛室長所言，\n是與「希迪姆的箱子」對等的歐帕茲，那麼要閱覽其部分的構造是可能的。"
+    },
+    {
+      "Text": "[s] 「……要怎麼做？」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "該，該怎麼做才能辦到呢？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "想要遠端控制聖所之塔，就必須發送以聯邦學生會長之名定義的特殊識別資訊，\n並完成認證程序才行。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "因此，如果兩個裝置都採用了相同的認證程序，\n理論上就能使用相互連線並同步資料的「配對功能」。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "雖然這其實是希迪姆的箱子內建的基本功能……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "我，我原本就知道哦！只是一時太驚訝沒想起來而已！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "如果[USERNAME]老師同意的話，我請求向「沙克德之杖」傳送特殊識別資訊。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "請授權。"
+    },
+    {
+      "Text": "[s] 授權"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]Pairing To [FF6666]branch of shakeid……[-][/log]"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……正在嘗試與「沙克德之杖」進行配對。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "已偵測到輔助作業系統S.Q.D.的反應。"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……果然還需要額外的生物認證資訊呢。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "老師，能否請您更新生物認證資訊呢？"
+    },
+    {
+      "Text": "[s] 「生物認證資訊……例如指紋辨識之類的嗎？」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "肯定。看來為了解除新作業系統的安全限制，\n需要另一組有別於目前儲存於「希迪姆的箱子」的生物資訊。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "儘管只是走個形式也是十分重要的手續，還請您務必配合。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "請再靠近一點。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "就這樣，請將老師的指尖貼上我的指尖。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "是的。就像許下約定那樣，麻煩您了。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……"
+    },
+    {
+      "Text": "[s] 「……有什麼問題嗎？」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……請不用在意。只是稍微想起了一段久遠的記憶。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……已確認。\n作業系統A.R.O.N.A的使用者，依然是[USERNAME]老師。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "我將以更新後的生物認證資訊，重新嘗試配對。"
+    },
+    {
+      "Text": "[log]正在從[FF6666]「沙克德之杖」[-][/log]"
+    },
+    {
+      "Text": "[log]下載系統資料……[/log]"
+    },
+    {
+      "Text": "…"
+    },
+    {
+      "Text": "……"
+    },
+    {
+      "Text": "………"
+    },
+    {
+      "Text": "[log]……配對完成。[/log]"
+    },
+    {
+      "Text": "[log]允許閱覽輔助作業系統S.Q.D。[/log]"
+    },
+    {
+      "Text": "[log]為了執行新的系統[/log]"
+    },
+    {
+      "Text": "[log]正在重新啟動OS……[/log]"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "……咦？這裡是哪裡啊！？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "教室突然變成黑白的了！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "失禮了。\n為了在希迪姆的箱子內部運行新裝置的系統，我暫時對周遭環境進行了最佳化。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "這是系統過載所導致的暫時性現象，等處理完成後就會立刻復原。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "真是的……我不是說過做這種事之前，至少要先跟前輩我說一聲嗎！\n我還以為是自己的眼睛出問題，嚇了一大跳呢！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "我會銘記在心。"
+    },
+    {
+      "Text": "[s5] 「等一下。如果資料同步真的成功了……」"
+    },
+    {
+      "Text": "[s6] 「就代表『沙克德之杖』真的是聯邦學生會長的歐帕茲嗎？」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "肯定。前防衛室長帶來的那支手錶，似乎意外地是真品呢。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "其他方面姑且不論，[ruby=聯邦學生會長]他對超人的執[/ruby]念確實不容小覷。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "唔嗯……這個真的能恢復原狀吧？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "變成這種狀態的話，草莓牛奶跟布丁都沒辦法吃了啦～"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "咦？話說回來，原本的教室裡並沒有這個箱子啊……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "星奈醬，難不成這個箱子是從「沙克德之杖」那邊新下載的資料嗎？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "肯定。這裡面存放的資料，是「希迪姆的箱子」中並不存在的S.Q.D的新資料。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "我看看……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "大部分都是驅動系統所使用的虛擬資料呢。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……確認。那一份就是S.Q.D系統的核心檔案。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "看起來有點像一顆小小的樹木果實呢。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "可是現在沒有顏色，根本看不出來是什麼水果嘛！"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "星奈醬，能不能暫時解除最佳化模式呢？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "確實，在目前的系統狀態下似乎難以進行分析。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……我明白了。為了解析資料，暫時解除系統最佳化模式。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "距離最佳化模式解除還有……3……2……1……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……！？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "唔，唔哇！？突，突然湧入了大量的資訊……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "眼前……天旋地轉的……"
+    },
+    {
+      "Text": "[s] 「彩奈！星奈！」"
+    },
+    {
+      "Name": "星奈",
+      "Text": "湧入的臨時資料總量已超出記憶體上限……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "再這樣下去，資料會從作業系統的記憶體空間溢出……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "請，請求緊急停止作業系統──"
+    },
+    {
+      "Text": "[ns] 「緊急停止！」"
+    },
+    {
+      "Text": "緊急停止主作業系統A.R.O.N.A的運作。"
+    },
+    {
+      "Text": "發現因溢位而導致的程式錯誤及邏輯迴路異常。\n正在嘗試以執行安全模式前一刻的備份檔案重新啟動。"
+    },
+    {
+      "Text": "正在重新啟動OS以完成系統啟動……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "……哈啊！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……幸好趕上了呢。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "剛，剛才發生什麼事了？星奈醬？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……是我疏忽了。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "雖然運算能力因為「Perez-Uzzah」有所提升……\n不過「沙克德之杖」同樣是為了輔助管理聖所之塔而製造的作業系統。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "想在運行作業系統A.R.O.N.A的同時解析S.Q.D系統的核心檔案……\n以目前的運算能力來看似乎仍然是不可能的。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……很抱歉沒能提供多少幫助，老師。"
+    },
+    {
+      "Text": "[s7] 「沒關係。彩奈和星奈平安無事比較重要。」"
+    },
+    {
+      "Text": "[s8] 「謝謝你幫忙調查，星奈。」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "哼哼，不過我們也不是完全一無所獲哦。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "因為在系統重新啟動的期間，我這個超級AI彩奈可是牢牢握住了沙克德的核心呢！"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "來！請看這個！"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……前輩。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "前輩手上握著的東西，只是一顆沒有包含任何資料、再普通不過的杏仁核而已。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "咦！？怎，怎麼會……！？"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "我明明一直緊握不放，不讓果實從手裡溜走的……是什麼時候！？"
+    },
+    {
+      "Name": "星奈",
+      "Text": "看來是在OS重啟的過程中，遺失了藉由配對所獲取的資料呢。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "嗚嗚……"
+    },
+    {
+      "Name": "星奈",
+      "Text": "……總之，調查「沙克德之杖」的事就先延後吧。"
+    },
+    {
+      "Name": "星奈",
+      "Text": "比起這個……老師，似乎有人正在跟蹤您。"
+    },
+    {
+      "Name": "???",
+      "Text": "……看來被您發現了呢。"
+    },
+    {
+      "Name": "???",
+      "Text": "不過我並沒有要跟蹤您的意思。"
+    },
+    {
+      "Text": "[ns9] 「這個聲音是……」"
+    },
+    {
+      "Text": "[ns10] 「……琳醬？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……誰是琳醬啊。"
+    },
+    {
+      "Text": "下一話;虛像與推論"
+    }
+  ]
+}

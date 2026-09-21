@@ -1,0 +1,2397 @@
+{
+  "TitleJP": "天才ハッカーの嗜好",
+  "TitleKR": "천재 해커의 취향",
+  "TitleEN": "The Tastes of a Genius Hacker",
+  "TitleTH": "รสนิยมของแฮ็กเกอร์อัจฉริยะ",
+  "TitleTW": "天才駭客的嗜好",
+  "DescJP": "先生が休日だと知ったヒマリは、先生を隠れ家に招待し、一緒にゆったりとした一時を過ごす事に。そのうちに、ヒマリは自分のリクエスト曲を流すべく校内放送をハッキングし――ミレニアム校内にヒマリのお気に入りの曲が流れるのだった。",
+  "DescKR": "선생님이 휴일이라는 걸 안 히마리는 선생님을 자신만의 은신처로 초대한다. 그곳에서 함께 휴식을 취하며 여유로운 한때를 보내는 두 사람. 이어서 히마리는 자신의 신청곡을 틀기 위해 교내방송을 해킹하고 교실에는 히마리의 취향인 엔카 곡이 흘러나오기 시작한다.",
+  "DescEN": "Knowing that it's Sensei's day off, Himari invites Sensei to her secret hiding place. There, the two of them relax and enjoy their free time together. Himari subsequently hacks into the school broadcasting system to play her song request, and the classroom starts to fill with Himari's favorite enka music.",
+  "DescTH": "ฮิมาริรู้ว่าวันนี้เป็นวันหยุดของคุณครู จึงเชิญคุณครูไปยังที่ซ่อนของตัวเอง\nทั้งสองได้ใช้เวลาพักผ่อนอย่างสบายใจด้วยกัน ต่อมาฮิมาริได้แฮ็กวิทยุ\nของโรงเรียนเพื่อจะเปิดเพลงที่ตัวเองขอ สุดท้ายทั้งโรงเรียนก็ได้ฟังเพลง\nแนวเอ็นกะที่ฮิมาริชอบ",
+  "DescTW": "知道老師正值休假，陽葵便邀請老師去自己專屬的藏身地。兩個人在那個地方一起休息，度過悠閒的時光。陽葵為了播放自己想聽的歌曲，於是駭入校內的廣播系統，教室裡開始傳來陽葵喜歡的演歌。",
+  "DialogJP": [
+    {
+      "Text": "天才ハッカーの嗜好"
+    },
+    {
+      "Text": "（ヒマリから連絡をもらって、ミレニアムの部室棟までやって来た）"
+    },
+    {
+      "Text": "ミレニアムサイエンススクール・第8部室棟の廊下"
+    },
+    {
+      "Text": "[ns] \"ヒマリから送られてきた場所はここだけど……。\""
+    },
+    {
+      "Text": "（その時、何かが風の音を立てながら近づいてきた）"
+    },
+    {
+      "Text": "[ns] \"これって……ミレニアムの警備ドローン？\""
+    },
+    {
+      "Text": "[ns] \"あ、ついてきてってことかな？\""
+    },
+    {
+      "Text": "（ドローンに導かれるがまま進むと、そこは奥まったところにある部室だった）"
+    },
+    {
+      "Text": "（扉の横に貼られたドアプレートには、こんな言葉が書かれていた）"
+    },
+    {
+      "Text": "[ns] \"「息継ぎNG・円周率暗唱部」……？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "お待ちしておりました、先生。お入りください。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ、時間通りですね。ようこそいらっしゃいました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "案内、ご苦労さまでした。持ち場に戻ってくださいね。"
+    },
+    {
+      "Text": "[ns] \"ヒマリ？今のドローンは……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ミレニアムの警備ドローンですよ？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私は病弱美少女ですから、直接先生をお出迎えするのは難しいので。\nたまたま部室近くを警備していたドローンをハッキングし……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ええ、少しお借りしただけですとも。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あの子たち、可愛らしくて良い子でしょう？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "案内役として最適だと思うのです。"
+    },
+    {
+      "Text": "[ns] \"またそんなことを……\""
+    },
+    {
+      "Text": "[ns1] \"それで、ここはどこなの？\""
+    },
+    {
+      "Text": "[ns2] \"ドアプレートには、なんか妙な名前が書かれてたような……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "えっ……。\nそ、そんなに変な名前でしょうか……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……何か良い名前はないかと、三日三晩熟考を重ねた末に至った、とても知的で上品かつ、正体を隠すのにピッタリな……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まさにミレニアムが誇る天才美少女らしい良い名前だと思ったのですが……。"
+    },
+    {
+      "Text": "[s] （見るからに落ち込んでいる表情だ……！）"
+    },
+    {
+      "Text": "[ns] \"いや、その……言葉のあやだよ。個性豊かで素敵な名前だね。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ふふっ、うふふっ、そうでしょう？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "先生なら分かってくださると思いました♪"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "誰もが認めるミレニアム最高の天才清楚系病弱美少女ハッカーこと……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私、[ruby=あけぼし]明星[/ruby]ヒマリが考えた名前ですもの！"
+    },
+    {
+      "Text": "[ns] \"……それで、ヒマリはなぜここに？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうでした、まだ話の途中でしたね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "一言で説明すると……そうですね。\nここは私だけの秘密の「隠れ家」とでも申しましょうか。"
+    },
+    {
+      "Text": "[s] \"隠れ家？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。普段使用している特異現象捜査部とヴェリタスの部室は、「ビッグシスター」の監視下にありますからね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そこでミレニアムの管理システムをハッキングして、使われていない部室の許可証を発行したので、ここは私だけの空間となりました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……なぜそこまでするのか、ですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もちろん、休息のためです。\n私のような超天才清楚系病弱美少女には、おやすみの時間が……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ、脳の休息が必要不可欠なのです。"
+    },
+    {
+      "Text": "[s3] \"なるほど。でも行き来してるうちに場所がバレるんじゃない？\""
+    },
+    {
+      "Text": "[s4] \"さっきのドローンとか、あちこちにある防犯カメラとか……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。その程度のこと、この天才美少女ハッカーにとっては問題になりません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。その程度のこと、この天才美少女ハッカーにとっては問題になりません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ドローンの警備ルートはもちろんの事、必要に応じてハッキングし、ルート修正をするくらい造作もありません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "防犯カメラの死角も頭に入っていますし、ちょっとした映像の差し替えくらい赤子の手をひねるようなものです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私に隙などありません、無敵です！ふふふふふっ。"
+    },
+    {
+      "Text": "[s5] \"流石はヒマリ、スケールが違うね。\""
+    },
+    {
+      "Text": "[s6] \"でもそんな大事な場所に、私が来ても良かったの……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……はい。\nそれでしたら、何も問題ありません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "来ていただいて良かったといいますか、来ていただかなければ困ったといえば良いのか……。"
+    },
+    {
+      "Text": "[s] \"どういうこと？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "先生もご存知のように、私という存在は常に衆目を集めています。\nそう、それはまるで雲の上に咲く一輪の花のように。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "立てば芍薬、座れば牡丹……ため息を吐く姿は百合の花――と評されている天才美少女ではありますが……。"
+    },
+    {
+      "Text": "[s] \"よどみなくスラスラと……すごいね。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "だからこそ、周囲に隙を見せてはいけないと思っております。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "しかし……いくら私のように隙一つない完璧美少女であっても、常に気を張って生きていくわけにはいきません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "コホン……そうですね。\nここにお呼び立てした理由は……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "たまには、その……ほっとできる時間といいますか……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "何の見返りもなしに寄り添ってくれて、信頼できる人がいたらいいなと……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私のこのような一面を見せても一緒にいてくれる人の存在を思い出したのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですから……。"
+    },
+    {
+      "Text": "[s] \"うん……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……せっかく隠れ家を用意したものの、やはり一人で過ごすのは退屈でして。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "先生でしたら、その……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私の話し相手になってくれるのではないかと思い……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "勝手なことではありますが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そのような理由で……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "来ていただいたといいますか……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "（チラッ）"
+    },
+    {
+      "Text": "[s] \"なんだ。それならいつでも歓迎だよ、ヒマリ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ぁ。"
+    },
+    {
+      "Text": "[s] \"ヒマリ？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あ、いえ……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。\nやはり私の予想通りでした。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私の優れた頭脳にかかれば、一秒もかからずに導き出せましたけどね。\n今日は私の勝利です。"
+    },
+    {
+      "Text": "[ns] \"いつから勝負になってたの……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "些細なことを気にしてはいけませんよ。\n「付き合う」と、そう言ってくだされば、それで十分なのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……私たちの関係に「アンドゥ」はありませんので。"
+    },
+    {
+      "Text": "[s] \"安心していいよ、ヒマリ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では本日も一日よろしくお願いしますね、先生。"
+    },
+    {
+      "Text": "（そうして、ヒマリとのんびりとした午後のひとときを過ごすことになった）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……こうして先生と二人きりの時間を手に入れた今。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "普段の私なら、このあたりで天才病弱美少女の成し遂げた結果に「どや顔」するところですが……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "残念ながら、一つだけ思い通りにならないことがあるのです。"
+    },
+    {
+      "Text": "[s] \"どんな問題なの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "問題……というほどではありません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ご存知の通り、ミレニアムではお昼の校内放送でリクエスト曲が流れますよね。"
+    },
+    {
+      "Text": "[s7] \"そんな話、初めて聞いたけど。\""
+    },
+    {
+      "Text": "[s8] \"あれ、そうだっけ……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ミレニアムの生徒であれば、誰でも自由にリクエスト曲を申請できるのですが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なぜか私の送ったリクエスト曲がまったく選ばれないのです！"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "何度も何度も申し込んでいるというのに、一体なぜなのでしょう。\n先生はどうお考えですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "きっと私の感性が先進的すぎるがゆえに、いつの間にか他の生徒たちと分かり合えない壁ができてしまったのでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "知らないうちに悲劇のヒロインになってしまったのですね……。"
+    },
+    {
+      "Text": "[s] \"いや、そういうわけではないと思うけど……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ただ私は素敵な曲をミレニアムの皆さんと共有したかっただけなのですが……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……と、残念がっていた昨日までの私とは、今日でお別れです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "今日は私と先生、二人の隠れ家を記念して……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "少々「特別な方法」に手を出してみましょうか。"
+    },
+    {
+      "Text": "[ns] \"特別な方法……？\""
+    },
+    {
+      "Text": "（スピーカーから校内放送が流れ始めた）"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "ミレニアム校内放送をお聞きの皆さん、こんにちは！"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "本日もお昼の時間がやってきました！\nさっそくリクエスト、いってみましょう！"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "それでは一曲目のリクエストです。"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "ラジオネーム「ミレニアム最高の清楚系美少女」さん……。"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "あれ、またこの人……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あ、私のことですね。"
+    },
+    {
+      "Text": "[s] \"だと思った！\""
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "え～、これを流すの……？"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "いや、他にもリクエストはたくさん届いてるよね？"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "……えっ、"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "いきなりデータが消えた！？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ふふっ。"
+    },
+    {
+      "Text": "[ns] \"ねえ、ヒマリ。まさかとは思うんだけど……。\""
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "いくらなんでも、これはちょっとなぁ……。"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "あっ、ちょっと、なんで！"
+    },
+    {
+      "Name": "ミレニアムの生徒",
+      "Text": "誰か機械止めて！……止まらない！？どうして！？"
+    },
+    {
+      "Text": "（スピーカーから哀愁漂う曲調の演歌が流れ始めた）"
+    },
+    {
+      "Text": "[ns] \"ヒマリの言ってた素敵な曲って……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "以前、エンジニア部の部長からオススメされた曲です。"
+    },
+    {
+      "Text": "[s] \"ヒマリは演歌が好きなんだ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。隠れ家でゆったりとくつろぎながら、先生と同じ時間を、好きな曲を共有する……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "どうでしょう。風情を感じはしませんか？"
+    },
+    {
+      "Text": "[ns] \"分かる気はするけど……。\""
+    },
+    {
+      "Text": "[ns] \"うん……素敵な曲だね。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ、そうでしょう？ふふっ。"
+    },
+    {
+      "Text": "（スピーカーの向こうで慌てる放送部員のドタバタ音とヒマリの流した演歌を聴きながら……）"
+    },
+    {
+      "Text": "（夜の訪れまで、ヒマリと二人の時間を過ごした）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "천재 해커의 취향"
+    },
+    {
+      "Text": "(그렇게 히마리의 호출을 받고 밀레니엄 학원의 동아리관까지 찾아오게 되었다.)"
+    },
+    {
+      "Text": "밀레니엄 제8동아리관 복도"
+    },
+    {
+      "Text": "[ns] \"히마리가 알려준 장소는 여기인데, 여기서 어떻게 해야…….\""
+    },
+    {
+      "Text": "(그때 무언가가 바람 소리를 내며 근처로 다가왔다.)"
+    },
+    {
+      "Text": "[ns] \"이건…… 밀레니엄의 경비 드론?\""
+    },
+    {
+      "Text": "[ns] \"어, 이쪽으로 오라고……?\""
+    },
+    {
+      "Text": "(드론이 이끄는 대로 이동해 도착한 곳은, 제법 으슥한 구석에 놓인 동아리실의 문 앞이었다.)"
+    },
+    {
+      "Text": "(문 바로 옆에 부착된 명패엔 이런 글이 쓰여 있었다.)"
+    },
+    {
+      "Text": "[ns] \"<원주율 숨 안 쉬고 오래 외우기 동아리>……?\""
+    },
+    {
+      "Name": "???",
+      "Text": "기다리고 있었습니다. 선생님. 들어오세요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후, 늦지 않게 와 주셨군요. 어서 오세요. 선생님."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 여기까지 안내해줘서 고마워요. 그럼 다시 업무로 돌아가 주세요."
+    },
+    {
+      "Text": "[ns] \"히마리? 방금 그 드론은…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 그거라면 밀레니엄의 경비 드론이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저는 병약한 미소녀라서 직접 마중을 나가기가 어렵다 보니, 선생님의 안내역으로 마침 적당히 주변에 돌아다니는 걸 가볍게-"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 해킹했답니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "길 안내역으로는 제격이었죠?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "좋은 아이들이랍니다. 제법 귀엽기도 하고요. 드론."
+    },
+    {
+      "Text": "[ns] \"또 아무렇지도 않게 그런 일을…….\""
+    },
+    {
+      "Text": "[ns1] \"그래서 여긴 뭐 하는 곳이야?\""
+    },
+    {
+      "Text": "[ns2] \"명패에도 어쩐지 묘한 이름이 쓰여 있었는데.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "어, 어라? 그, 그, 그렇게 이상한 이름인가요? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "……좋은 이름이 어디 없을까. 사흘 밤낮을 고민한 끝에 떠올려낸, 무척이나 이지적이고 인텔리 하면서 정체를 숨기기에 딱 맞다고 생각한……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그야말로 밀레니엄의 천재 우등생다운 작명이라고 생각했었는데……."
+    },
+    {
+      "Text": "[s] (눈에 띄게 시무룩한 얼굴이네……!)"
+    },
+    {
+      "Text": "[ns] \"아니, 그, 묘하다고 할까. 개성 넘치고, 응, 좋다고 생각해.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……후후훗, 그런가요? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 그럴 거라고 생각했답니다♪"
+    },
+    {
+      "Name": "히마리",
+      "Text": "누가 뭐라고 해도 밀레니엄의 최고 천재 청초 병약 미소녀-"
+    },
+    {
+      "Name": "히마리",
+      "Text": "저 아케보시 히마리의 작명이니까!"
+    },
+    {
+      "Text": "[ns] \"……그래서 히마리는 왜 여기에?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 그런 이야기를 하고 있었죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "설명하자면, 그렇군요. 이곳은 저만의 비밀스러운 <은신처>라고 해둘까요?"
+    },
+    {
+      "Text": "[s] \"은신처?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 기존에 사용하고 있는 특무부실이나 베리타스의 부실 같은 경우엔, 아무래도 <빅 시스터>의 감시가 미치고 있으니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러니 이런 식으로 밀레니엄의 행정 전산 시스템을 해킹해서, 사용하지 않는 부실의 이용권리를 받아낸 뒤 저만의 공간으로 만든 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "왜 그런 일까지 하냐고요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "물론 휴식을 위해서죠. 저 같은 초천재 병약 미소녀에겐 잠자는 시간이……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아니, 뇌를 쉬어주는 것이 무척이나 중요하니까요."
+    },
+    {
+      "Text": "[s3] \"과연…… 하지만 오는 길에 들키면 위험한 거 아냐?\""
+    },
+    {
+      "Text": "[s4] \"아까 봤던 드론이라거나, 밀레니엄에 있는 CCTV라거나…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후. 물론 그 정도 이슈라면 이미 충분히 대응하고 있답니다?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후. 물론 그 정도 이슈라면 이미 충분히 대응하고 있답니다?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "드론의 통상 경비 루트를 파악하는 것쯤이야 식은 죽 먹기보다 간단한 일이고. 필요하다면 해킹으로 개입해서 루트를 손보는 것도 간단."
+    },
+    {
+      "Name": "히마리",
+      "Text": "때로는 CCTV의 순환 감시를 살짝 간섭하기도 하면서……. 이동에 필요한 사각지대는 얼마든지 만들고 있어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "문자 그대로 제 여가생활에 사각은 없답니다! 엣-헴!"
+    },
+    {
+      "Text": "[s5] \"그야말로 규모가 다른 이야기구나…….\""
+    },
+    {
+      "Text": "[s6] \"그런데 그렇게나 중요한 곳이라면, 내가 와도 괜찮은 건가?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 네, 그거라면…… 괜찮아요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "오히려 와 주셔서 감사하다고 할지. 아니, 꼭 와 주셔야만 했다고 할지."
+    },
+    {
+      "Text": "[s] \"응?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "선생님께서도 아시다시피, 저란 존재는 평소 모두가 동경하는 대상. 절벽 위에 피어난 한 떨기의 청초한 꽃."
+    },
+    {
+      "Name": "히마리",
+      "Text": "가만히 있어도 작약, 앉아 있기만 해도 모란, 그저 한숨짓는 모습을 보여주기만 해도 백합-이라는 평가를 받고 있는 천재 미소녀이지만."
+    },
+    {
+      "Text": "[s] \"망설임이라고는 하나도 찾아볼 수 없는 자기 PR이구나!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇기에 더욱 섣불리 다른 사람에게 빈틈을 보일 수는 없다고 생각해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만……. 아무리 저같이 단점 하나 찾을 수 없는 완벽한 미소녀라도 늘 긴장만 하고 살 수는 없는 법."
+    },
+    {
+      "Name": "히마리",
+      "Text": "엣-헴. 그러니까 무슨 이야기냐면."
+    },
+    {
+      "Name": "히마리",
+      "Text": "조금쯤은, 그, 마음을 푹 놓을 수 있는 시간이라고 할지……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아무런 대가 없이도 다가와 주고, 믿고 함께할 수 있는 사람이."
+    },
+    {
+      "Name": "히마리",
+      "Text": "제 본연의 모습을 보아도 화를 내지도, 핀잔도 주지 않던 사람이, 때마침 근처에 있지 않았던가~? 하는 생각에."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그게, 그러니까."
+    },
+    {
+      "Text": "[s] \"그러니까……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……모처럼의 은신처까지 마련하는 데는 성공했지만. 역시 혼자만 있는 건 심심하니까."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……선생님이라면, 그게……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "제 말 상대가 되어 주시지는 않을까-하는 아주 약간의, 그게."
+    },
+    {
+      "Name": "히마리",
+      "Text": "욕심이라고 할지. 바람이라고 할지……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그런…, 이유 때문에, 으음."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이 자리에 모셨다고나 할지……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "(힐끔)"
+    },
+    {
+      "Text": "[s] \"응, 뭐, 그런 용무라면 얼마든지 환영이야. 히마리.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……아."
+    },
+    {
+      "Text": "[s] \"응? 히마리? 왜 그래?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 아뇨."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후……. 역시나 제 예상대로네요-라고 생각했을 뿐이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저의 뛰어난 두뇌가 사전에 시뮬레이트한 결과와 똑같은 결과로군요. 음. 역시 제 승리네요."
+    },
+    {
+      "Text": "[ns] \"승리나 패배와 관련된 이야기였나……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "사소한 건 신경 쓰지 마시고……. 어울려 주시겠다고 하면 그걸로 충분해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 참고로 나중에 가서 무르고 싶다고 해도 안 되니까요?"
+    },
+    {
+      "Text": "[s] \"그런 거라면 걱정 안 해도 돼, 히마리.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그럼 오늘 하루 잘 부탁드린답니다? 선생님."
+    },
+    {
+      "Text": "(그렇게 히마리와 잠깐의 휴식 시간을 함께하며, 여유로운 오후 한때를 보내게 되었다.)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……라면서 선생님과의 휴식을 손에 넣은 지금. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "평소의 저라면 이쯤에서 천재 병약 미소녀가 이루어 낸 또 하나의 성취에 <의기양양한 얼굴>을 지을 참이겠습니다만."
+    },
+    {
+      "Name": "히마리",
+      "Text": "안타깝게도 최근에, 한 가지 마음대로 되지 않는 게 있어서 말이지요."
+    },
+    {
+      "Text": "[s] \"어라? 뭔가 문제라도 있어?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "문제라고 할 정도는 아니지만……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "선생님도 아시다시피, 밀레니엄 학원에서는 점심 무렵에, 방송부에서 신청곡을 틀어 주는 교내 방송을 하고 있잖아요?"
+    },
+    {
+      "Text": "[s7] \"처음 듣는 정보인걸!\""
+    },
+    {
+      "Text": "[s8] \"아, 응, 그, 그랬지? ……어, 그랬나?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 어떤 밀레니엄의 학생이라도 신청할 권리가 있는 그 방송에서……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어째서인지 제 곡은 전혀 선정해주지 않는 거 있죠?!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "지금까지 몇 번이나, 몇 번이나 신청을 했는데. 대체 왜 뽑아주지 않는 걸까요? 선생님께서는 어째서라고 생각하시나요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "설마 저의 감성이 너무 앞서 나간 나머지, 평범한 학생 여러분과는 더는 돌아올 수 없는 차이를 만들고야 말았다는 비극……?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "저, 눈치채지 못한 사이에, 비련의 히로인이 되어버린 게?"
+    },
+    {
+      "Text": "[s] \"아니, 아무래도 그렇지는 않겠지…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "저는 그저, 제가 좋아하는 멋진 노래를 밀레니엄의 모두와 나누고 싶었을 뿐인데……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……라며 아쉬워하기만 하던 저는 오늘부로 안녕."
+    },
+    {
+      "Name": "히마리",
+      "Text": "오늘은 저와 선생님, 우리 두 사람의 은신처가 생긴 것을 기념하여……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이번엔 조금 <특별한 방법>을 써보도록 하지요."
+    },
+    {
+      "Text": "[ns] \"응……? 특별한 방법?\""
+    },
+    {
+      "Text": "(그 순간 교실 스피커에선 교내 방송이 흘러나오기 시작했다.)"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "네! 밀레니엄 정기 교내 방송을 듣고 계시는 애청자 여러분, 모두 안녕하신가요?"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "오늘도 또 점심시간을 맞이해, 평소와 마찬가지로 돌아온 사연 신청곡 코너!"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "그럼 바로 이번 신청자분인데요."
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "닉네임이……."
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "<밀레니엄 최고의 청초한 미소녀>……? 또 이 사람이야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 마침 제가 신청한 곡이네요."
+    },
+    {
+      "Text": "[s] \"그럴 거라고 생각했지만!\""
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "아니아니, 진짜 곤란하다니까."
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "다른 사람으로……"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "뭐? 신청자가 그 이름밖에 없어? 나머지는 보는 앞에서 삭제돼? 해킹?"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "무슨 소리야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……후후."
+    },
+    {
+      "Text": "[ns] \"저기, 히마리……? 설마, 라고 생각하지만.\""
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "아무리 그래도 이 노래를 그대로 틀기에는 조금 저항감이……."
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "앗! 잠깐! 머, 멈춰! 왜 시스템이 멈추질 않는 거야?!"
+    },
+    {
+      "Name": "밀레니엄 학생",
+      "Text": "방송기기가 제멋대로 작동을?!"
+    },
+    {
+      "Text": "(그 직후, 스피커에선 구슬픈 곡조를 가진 엔카가 흘러나오기 시작했다.)"
+    },
+    {
+      "Text": "[ns] \"히마리가 평소 좋아하는 멋진 노래라는 게…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "이전에 엔지니어부의 부장에게 추천받은 곡이랍니다."
+    },
+    {
+      "Text": "[s] \"한 떨기의 청초한 꽃이 좋아하는 노래가 엔카…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후, 조용히 은신처에 앉아, 함께하고 싶은 사람과, 또한 함께 좋아하는 노래를 듣는다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그야말로…… 제법 정취가 있지요?"
+    },
+    {
+      "Text": "[ns] \"뭐어, 으음.\""
+    },
+    {
+      "Text": "[ns] \"응, 조금은…… 알 것 같아.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 그렇죠? 후후훗."
+    },
+    {
+      "Text": "(여전히 스피커 너머로 들려오는 방송부원들의 소동과 엔카를 함께 들으며…….)"
+    },
+    {
+      "Text": "(밤이 찾아올 때까지 히마리와 함께 시간을 보냈다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "The Tastes of a Genius Hacker"
+    },
+    {
+      "Text": "After receiving a call from Himari, I went to the Millennium clubhouse."
+    },
+    {
+      "Text": "Millennium Clubhouse Hallway"
+    },
+    {
+      "Text": "[ns] \"This is where Himari told me to go. What am I supposed to do here...?\""
+    },
+    {
+      "Text": "Then I heard whirring sounds approach me."
+    },
+    {
+      "Text": "[ns] \"Is this...a Millennium guard drone?\""
+    },
+    {
+      "Text": "[ns] \"You want me to...follow you?\""
+    },
+    {
+      "Text": "I followed the drone, and it led me to the door of a club room in a secluded corner of the building."
+    },
+    {
+      "Text": "The name plate next to the door had something written on it."
+    },
+    {
+      "Text": "[ns] \"Recite Pi in a Single Breath Club...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "I've been waiting for you, Sensei. Please, enter."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee, you got here just in time. Welcome, Sensei."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Thank you for guiding the way. You can go back to your regular duties now."
+    },
+    {
+      "Text": "[ns] \"Himari, what was up with that drone...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hm? Oh, that was a Millennium guard drone."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's hard to go out to greet you since I'm such a beautiful yet delicate flower, so I sent the drone to guide you to me."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And of course, I did that by hacking it. Delicately."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It worked well as a guide, right?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I've always found drones are quite nice and adorable."
+    },
+    {
+      "Text": "[ns] \"Still doing stuff like that I see...\""
+    },
+    {
+      "Text": "[ns1] \"So, what is this place?\""
+    },
+    {
+      "Text": "[ns2] \"Strange club name you got.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "O-Oh? I-I-Is it that weird?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Perhaps a better name could be found... I mulled it over day and night before deciding. I thought it sounded intelligent and mysterious..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I thought it was the sort of name a true Millennium genius would come up with..."
+    },
+    {
+      "Text": "[s] \"(She seems so disappointed!)\""
+    },
+    {
+      "Text": "[ns] \"I mean, it's strange, but mysterious, unique things often are, right?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Heehee. You really think so? "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Just as I thought! ♪"
+    },
+    {
+      "Name": "Himari",
+      "Text": "No matter what anyone says, only the beautiful super genius hacker of Millennium..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, only I, the one and only Akeboshi Himari, could come up with that name!"
+    },
+    {
+      "Text": "[ns] \"...So what is the one and only Himari doing here?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, right."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The best way to think of this place is as my secret hideout."
+    },
+    {
+      "Text": "[s] \"Hideout?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, both the task force club room and the Veritas club room are under the watchful gaze of Big Sister."
+    },
+    {
+      "Name": "Himari",
+      "Text": "So I hacked Millennium's administrative system, found an unused club room, and \"reserved\" it for my own, discreet use."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And why did I do all that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "To rest, of course. A delicate and beautiful super genius hacker like me requires a lot of sleep..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "My brain operates at such intensity that it is vital to give it regular breaks."
+    },
+    {
+      "Text": "[s3] \"I see... But won't it be bad if you get caught?\""
+    },
+    {
+      "Text": "[s4] \"By a drone, or the security cameras around Millennium, or...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heh heh heh. Surely you realize such petty obstacles warranted no more than an afterthought, no?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heh heh heh. Surely you realize such petty obstacles warranted no more than an afterthought, no?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Figuring out a drone's patrol route would be the obvious solution, but the good solution would be to simply hack and \"correct\" the route if necessary."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I often tweak CCTV coverage at my own convenience, creating as many blind spots as I wish..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Unlike my peerless life of leisure, which doesn't have a blind spot in sight!"
+    },
+    {
+      "Text": "[s5] \"What a grand scheme to give your brain a break...\""
+    },
+    {
+      "Text": "[s6] \"If this is such an important place, is it okay for me to be here?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, yes. You're fine."
+    },
+    {
+      "Name": "Himari",
+      "Text": "In fact, I'm glad you came. I need you to be here."
+    },
+    {
+      "Text": "[s] \"Why's that?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "As you know, I'm admired like a stunning flower caught in the sun, ever-blooming atop the edge of a wind swept cliff."
+    },
+    {
+      "Name": "Himari",
+      "Text": "In whispers made hushed by awe, they say I am a genius beauty who looks like a peony when I lie still, a camellia when I sit, and a lily when I sigh."
+    },
+    {
+      "Text": "[s] \"What bold self-promotion! Truly peerless!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, and like a flower in full bloom, I must be mindful of my own fragility, lest someone walks up and plucks me without a second thought."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And of course... even a flawless beauty such as myself needs time away from the tension that comes with admiration."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Ahem. So, uh, what I'm trying to say is..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I need some time to unwind..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Maybe with someone trustworthy. Perhaps someone who won't demand anything in return..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's possible that this hypothetical someone would see my true self and never get angry or scold me. I was wondering if I had someone like that around me."
+    },
+    {
+      "Name": "Himari",
+      "Text": "So...yeah."
+    },
+    {
+      "Text": "[s] \"Uh-huh. So...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "...I managed to prepare this perfectly secluded hideout, but it turns out seclusion is pretty boring."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And if it were you, Sensei..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I was thinking maybe I would enjoy sharing this seclusion with you..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Is that greedy? Or just a fleeting thought?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "So... Well... That..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "That's why I asked you to come."
+    },
+    {
+      "Name": "Himari",
+      "Text": "*nervous glance*"
+    },
+    {
+      "Text": "[s] \"I'm always open to something like that, Himari.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh."
+    },
+    {
+      "Text": "[s] \"Hm? Himari, something wrong?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "N-Nothing. It's nothing."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee... I was just internally gloating about predicting this outcome."
+    },
+    {
+      "Name": "Himari",
+      "Text": "My brilliant brain simulated this outcome, of course. Mm-hmm. A complete victory for me, as I expected."
+    },
+    {
+      "Text": "[ns] \"Was there something to win? ...Was there something to lose?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Does that really matter right now, Sensei? No, what matters...is that you'll hang out with me."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, and no flaking out on me. I'm serious, that's simply not allowed."
+    },
+    {
+      "Text": "[s] \"Trust me, you don't have to worry about that, Himari.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Thank you in advance for today, Sensei."
+    },
+    {
+      "Text": "I took a short break with Himari, and we had a leisurely afternoon."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I got to spend time with Sensei... "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Usually, I'd be brimming with smug confidence, celebrating another achievement expected of this beautiful super genius hacker."
+    },
+    {
+      "Name": "Himari",
+      "Text": "However, there's something preoccupying me."
+    },
+    {
+      "Text": "[s] \"Huh? What's wrong?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's not the end of the world, but..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "As you know, at Millennium, the broadcast department plays requested songs during lunchtime."
+    },
+    {
+      "Text": "[s7] \"I didn't know that!\""
+    },
+    {
+      "Text": "[s8] \"Oh, yeah. I totally knew that... I think?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Any Millennium student can request a song..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But how come they never play the songs I request?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have sent several requests, and yet none of them have ever been played. Why do you think that is, Sensei?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Is it because my sensibilities are too advanced? Have I risen so high that I've become alien to the ordinary students?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Must I be the tragic heroine of this tale?"
+    },
+    {
+      "Text": "[s] \"I mean, I don't think...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "I wanted to expose the students of Millennium to the beautiful songs that touched my heart..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But no longer will I be held back by the weight of my own magnanimity."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Today, to commemorate the grand opening of this secret hideout for the two of us..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have prepared a special surprise."
+    },
+    {
+      "Text": "[ns] \"Huh...? Special surprise?\""
+    },
+    {
+      "Text": "At that moment, the school broadcast resounded through the classroom speakers."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "All right! Dear listeners of the Millennium campus broadcast, how are you holding up today?"
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "It's lunchtime again, which means it's time to share the love with song requests!"
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "Let's look at today's requests."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "This request comes from..."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "\"Millennium's ever-blooming delicate flower...\" This person again?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, what a coincidence. That's my request."
+    },
+    {
+      "Text": "[s] \"Who else would it be!\""
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "No, no, sorry, Ms. Ever-Blooming Flower, we can't do this."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "Next up..."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "What? What do you mean there's only one request? The rest are being deleted? Hacked? What are you even talking about?"
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "Don't be ridiculous."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee."
+    },
+    {
+      "Text": "[ns] \"Um, Himari...? I know the answer, but what did you do?\""
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "Okay, I mean, maybe we just shelf today's song request segment..."
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "Hey! Wait! S-Stop! What do you mean you can't stop the system?! Is that a song lyric?!"
+    },
+    {
+      "Name": "Millennium Student",
+      "Text": "The broadcast has gone rogue!"
+    },
+    {
+      "Text": "Right after that, a melancholic enka melody started playing from the speakers."
+    },
+    {
+      "Text": "[ns] \"This is...a truly mysterious, unique song.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Engineering Department president recommended it to me."
+    },
+    {
+      "Text": "[s] \"I've heard music makes flowers grow, but enka...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heehee. Sitting peacefully in my hideout, listening to my favorite song with my favorite person..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It all sounds so...flawless, doesn't it?"
+    },
+    {
+      "Text": "[ns] \"Well, um.\""
+    },
+    {
+      "Text": "[ns] \"I think I get it.\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Right? Heehee."
+    },
+    {
+      "Text": "We listened to the enka music... and also the commotion of the broadcast staff..."
+    },
+    {
+      "Text": "We hung out together until sundown."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "รสนิยมของแฮ็กเกอร์อัจฉริยะ"
+    },
+    {
+      "Text": "(คุณครูมาที่อาคารชมรมของโรงเรียนมิลเลเนียมหลังจากได้รับการติดต่อจากฮิมาริ)"
+    },
+    {
+      "Text": "ทางเดินอาคารชมรม 8 มิลเลเนียม"
+    },
+    {
+      "Text": "[ns] \"ฮิมาริบอกให้มาที่นี่ แต่ว่าต้องไปทางไหนต่อล่ะ...?\""
+    },
+    {
+      "Text": "(จู่ๆ ก็มีบางอย่างเข้ามาใกล้ๆ และทำให้เกิดเสียงลมหวีดเบาๆ)"
+    },
+    {
+      "Text": "[ns] \"นี่มัน... โดรนรักษาความปลอดภัยของมิลเลเนียม?\""
+    },
+    {
+      "Text": "[ns] \"หืม? ให้เดินตามไปทางนั้นเหรอ..?\""
+    },
+    {
+      "Text": "(คุณครูเดินไปตามทางที่โดรนบินนำไป จนมาหยุดอยู่ที่หน้าห้องชมรมหนึ่ง)"
+    },
+    {
+      "Text": "(ที่ด้านข้างประตูมีแผ่นป้ายเขียนบางอย่างไว้ติดอยู่)"
+    },
+    {
+      "Text": "[ns] \"<ชมรมรำลึกการกลั้นหายใจระยะยาว>...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "กำลังรออยู่เลยค่ะคุณครู เชิญเข้ามาได้เลยค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุ มาเร็วจังเลยนะคะ เชิญเลยค่ะคุณครู"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ขอบคุณที่ช่วยนำทางคุณครูมาที่นี่ค่ะ ตอนนี้กลับไปทำงานได้แล้วค่ะ"
+    },
+    {
+      "Text": "[ns] \"ฮิมาริ? โดรนเมื่อกี้นี้...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๋อ นั่นเป็นโดรนรักษาความปลอดภัยของทางมิลเลเนียมค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันเป็นสาวน้อยร่างกายบอบบาง เลยไม่สะดวกที่จะออกไปรับคุณครูเอง จึงจำเป็นต้องหาอุปกรณ์\nที่อยู่รอบๆ เพื่อนำทางคุณครูมาที่นี่ ฉันก็เลยแฮ็ก--"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ... แฮ็กเข้าระบบโดรนค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เด็กๆ พวกนี้เหมาะที่จะใช้เป็นอุปกรณ์นำทางใช่มั้ยล่ะคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พวกเขาเป็นเด็กดีมากเลยนะคะ แถมน่ารักอีกด้วยค่ะ..."
+    },
+    {
+      "Text": "[ns] \"ทำเรื่องแบบนั้นได้หน้าตาเฉยเลยแฮะ...\""
+    },
+    {
+      "Text": "[ns1] \"ที่นี่คือที่ไหนเหรอ?\""
+    },
+    {
+      "Text": "[ns2] \"เมื่อกี้มีชื่อแปลกๆ เขียนอยู่ตรงป้ายข้างหน้าด้วย\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอ๋...? ชะ... ชื่อแปลกขนาดนั้นเลยเหรอคะ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันใช้เวลาคิดชื่อดีๆ ตั้งสามวันสามคืน กว่าจะคิดชื่อนี้มาได้ และคิดว่าเป็นชื่อที่แสนชาญฉลาด ดูดี และเหมาะที่จะใช้ปกปิดตัวจริง..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แล้วก็คิดว่าเป็นชื่อที่เหมาะสมกับนักเรียนอัจฉริยะแห่งโรงเรียนมิลเลเนียมแล้วแท้ๆ..."
+    },
+    {
+      "Text": "[s] (ทำหน้าบึ้งอย่างเห็นได้ชัดเลยแฮะ...!)"
+    },
+    {
+      "Text": "[ns] \"มันแปลกแบบดูมีเอกลักษณ์ดีน่ะ ครูว่าชื่อนี้ก็เลิศอยู่นะ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... อย่างนั้นเหรอคะ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันเองก็คิดอย่างนั้นค่ะ ♪"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ว่าใครจะพูดยังไง มันก็เป็นชื่อที่อัจฉริยะแห่งมิลเลเนียม สาวน้อยน่ารักผู้บอบบาง--"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ที่ชื่ออาเกโบชิ ฮิมาริคิดค้นขึ้นค่ะ!"
+    },
+    {
+      "Text": "[ns] \"แล้วฮิมาริมาทำอะไรอยู่ที่นี่เหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ ฉันกำลังจะพูดเรื่องนั้นพอดีเลยค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าให้อธิบายละก็ อืม... ที่นี่ก็คงจะเป็น <ที่ซ่อน> ลับของฉันละมั้งคะ?"
+    },
+    {
+      "Text": "[s] \"ที่ซ่อนเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่แล้วค่ะ ห้องชมรมปรากฏการณ์ลี้ลับหรือห้องของเวอริทัส คงจะถูกพวก <บิ๊กซิสเตอร์> จับตาดูอยู่แน่ๆ ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ดังนั้นฉันเลยเจาะระบบฝ่ายบริหารของมิลเลเนียมเพื่อให้ได้สิทธิ์การใช้ห้องเปล่า และเนรมิตที่นี่\nให้เป็นพื้นที่ส่วนตัวของฉันค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ทำไมฉันต้องทำถึงขนาดนั้นน่ะเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แน่นอนว่าเพื่อการพักผ่อนของตัวฉันค่ะ สำหรับสาวน้อยน่ารักแสนบอบบางอย่างฉันแล้ว เวลานอนน่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่สิ เวลาพักผ่อนเพื่อให้สมองได้ผ่อนคลายเป็นเรื่องสำคัญมากนะคะ"
+    },
+    {
+      "Text": "[s3] \"งี้นี่เอง... แต่ถ้าถูกจับได้จะไม่โดนเพ่งเล็งเหรอ?\""
+    },
+    {
+      "Text": "[s4] \"เดี๋ยวก็ถูกโดรน หรือกล้อง CCTV ตรวจจับได้หรอก\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... ไม่เป็นไรหรอกค่ะ ถ้าเรื่องโดรนหรือกล้อง CCTV ละก็ ฉันจัดการรับมือเรียบร้อยแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... ไม่เป็นไรหรอกค่ะ ถ้าเรื่องโดรนหรือกล้อง CCTV ละก็ ฉันจัดการรับมือเรียบร้อยแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การวิเคราะห์เส้นทางของโดรนรักษาความปลอดภัยน่ะ ง่ายกว่าการบวกเลขซะอีก แล้วถ้าจำเป็นละก็ ฉันก็สามารถแฮ็กเข้าระบบและปรับเปลี่ยนเส้นทางได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หรือบางครั้งก็แค่รบกวนการรับสัญญาณของ CCTV นิดๆ หน่อยๆ แล้วก็ปรับองศากล้องให้หันไปทาง\nจุดบอดในเส้นทางที่เราจะเคลื่อนไหว เท่านั้นก็ได้แล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เท่านี้เส้นทางชีวิตการพักผ่อนของฉันก็ไร้ที่ติแล้วค่ะ!"
+    },
+    {
+      "Text": "[s5] \"วางแผนเล่นใหญ่เกินเบอร์เหลือเกินนะ...\""
+    },
+    {
+      "Text": "[s6] \"แต่ว่าถ้าเป็นสถานที่สำคัญขนาดนั้น ให้ครูมาด้วยจะดีเหรอ...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ่า... ค่ะ ถ้าเรื่องนั้นละก็ไม่เป็นไรหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันควรขอบคุณคุณครูมากกว่าที่มาถึงที่นี่ค่ะ ไม่สิ ฉันคิดแล้วว่าคุณครูจะต้องมาค่ะ"
+    },
+    {
+      "Text": "[s] \"หืม?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คุณครูเองก็คงทราบดีว่าฉันเป็นบุคคลที่ทุกคนใฝ่ฝันอยากจะพบเจอ เหมือนกับดอกไม้ที่ผลิบานบน\nหน้าผาสูง... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เด็กสาวอัจฉริยะผู้ที่ได้รับการชื่นชมว่างดงามเหมือนดอกไม้แสนสวย เพียงยืนอยู่เฉยๆ ก็งดงาม\nราวกับดอกไม้ผา ครานั่งก็ยังคงงดงามเหมือนดอกโบตั๋น ต่อให้ถอนหายใจก็ยังงดงามเหมือนดอกลิลลี่\nสีขาวบริสุทธิ์..."
+    },
+    {
+      "Text": "[s] \"โปรโมตตัวเองได้หน้าตาเฉยมาก!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพราะงั้นแล้ว ฉันเลยคิดว่าไม่ควรเปิดเผยจุดอ่อน หรือข้อบกพร่องให้คนอื่นได้เห็นค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ว่า... สาวน้อยน่ารักที่สมบูรณ์แบบไร้ข้อบกพร่องอย่างฉัน จะให้รู้สึกระแวดระวังตัวจนรู้สึก\nตึงเครียดอยู่ตลอดเวลาก็คงไม่ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อะแฮ่ม สิ่งที่ฉันจะพูดก็คือ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้ามีช่วงเวลาที่สามารถผ่อนคลายได้อย่างเต็มที่..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "กับคนที่ไว้ใจ และเข้าหาฉันโดยไม่หวังสิ่งตอบแทนใดๆ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คนที่เห็นตัวตนแท้จริงของฉันแล้วไม่โกรธ ไม่ตำหนิ และคอยอยู่ข้างๆ ฉัน~"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คือว่า... "
+    },
+    {
+      "Text": "[s] \"คือว่า...?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะจัดเตรียมที่ซ่อนได้สมบูรณ์แล้ว แต่ฉันกลับเบื่อที่จะต้องอยู่คนเดียวน่ะค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คิดว่าถ้าเป็นคุณครูละก็..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อาจจะเป็นคนที่อยู่กับฉันได้ ก็...เท่านั้นค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จะเรียกว่าฉันโลภมาก...? หรือเรียกว่าคาดหวังไปเองดีล่ะคะ...?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพราะงั้น... อืม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันขอให้คุณครูมาที่นี่ เพราะแบบนั้นแหละค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "(เหลือบมอง)"
+    },
+    {
+      "Text": "[s] \"ถ้าเป็นแบบนั้น ครูก็ยินดีช่วยนะ ฮิมาริ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ่า..."
+    },
+    {
+      "Text": "[s] \"หืม? ฮิมาริ? เป็นอะไรเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปะ... เปล่าค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ... ฉันแค่คิดว่า 'เป็นอย่างที่คิดไว้' เลยน่ะค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็แค่ผลลัพธ์ที่เกิดขึ้น มันเหมือนกับผลลัพธ์ที่สมองอันชาญฉลาดของฉันประมวลผลเอาไว้ล่วงหน้าค่ะ นี่คงเป็นชัยชนะของฉันสินะคะ"
+    },
+    {
+      "Text": "[ns] \"มีอะไรที่ต้องวัดแพ้ชนะด้วยงั้นเหรอ...?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่าใส่ใจเรื่องเล็กๆ น้อยๆ นั่นเลยค่ะ... แค่คุณครูยอมทำตามคำขอของฉันก็พอแล้วละค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ บอกไว้ก่อนนะคะว่าจะมากลับคำกันทีหลังไม่ได้นะคะ"
+    },
+    {
+      "Text": "[s] \"ถ้าเรื่องนั้นไม่ต้องห่วงหรอกนะ ฮิมาริ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้นวันนี้ขอรบกวนด้วยนะคะคุณครู"
+    },
+    {
+      "Text": "(คุณครูใช้เวลาพักผ่อนกับฮิมาริ และใช้เวลาช่วงบ่ายไปอย่างสบายๆ)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...ตอนนี้ฉันได้ใช้เวลาพักผ่อนกับคุณครูแล้ว "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปกติแล้วเวลาแบบนี้ฉันจะต้องทำหน้ายิ้ม <อรุ่มเจ๊าะ> อย่างพึงพอใจ จากความสำเร็จที่สาวน้อย\nอัจฉริยะผู้น่ารักแสนบอบบางทำได้สำเร็จ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "น่าเสียดายที่ไม่นานมานี้มีเรื่องหนึ่งที่ไม่เป็นไปดั่งใจฉันอยู่ค่ะ"
+    },
+    {
+      "Text": "[s] \"เอ๋? มีปัญหาอะไรงั้นเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่เชิงว่าเป็นปัญหาหรอกค่ะ แต่ว่า..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่างที่คุณครูทราบดี ว่าที่โรงเรียนมิลเลเนียมของเรา ช่วงพักกลางวันทางชมรมกระจายเสียงจะเปิด\nเพลงที่เราขอไปค่ะ"
+    },
+    {
+      "Text": "[s7] \"เพิ่งเคยได้ยินเลยนะเนี่ย!\""
+    },
+    {
+      "Text": "[s8] \"งั้นเหรอ... มีด้วยงั้นเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเป็นนักเรียนมิลเลเนียมก็มีสิทธิ์ที่จะขอเพลงทุกคน..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ไม่รู้ทำไม พวกเธอถึงไม่เลือกเปิดเพลงที่ฉันขอไปเลยค่ะ?!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันขอเพลงไปตั้งหลายครั้ง แล้วทำไมพวกเธอไม่เลือกเปิดเพลงของฉันเลยล่ะคะ? คุณครูคิดว่าเป็นเพราะอะไรเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หรือว่าเพลงที่ฉันขอมันล้ำลึกเกินไป จนสร้างความแตกต่างให้กับนักเรียนคนอื่นๆ คะ...?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉัน... กลายเป็นตัวเอกของเรื่องราวแสนเศร้าไปโดยไม่รู้ตัวแล้วงั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"ไม่นะ ครูว่าคงไม่ใช่แบบนั้นหรอก...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันก็แค่... อยากแบ่งปันเพลงที่ชอบกับนักเรียนโรงเรียนมิลเลเนียมทุกคนก็เท่านั้นเอง..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่วันนี้ฉันจะไม่ยอมให้น้ำหนักของมารยาทที่พึงมีมาฉุดรั้งฉันเอาไว้อีกแล้วค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพื่อเป็นการฉลองที่สร้างที่ซ่อนของเราสองคน... ของคุณครูกับฉันได้สำเร็จ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คราวนี้มาลองใช้ <วิธีพิเศษ> กันสักหน่อยมั้ยคะ"
+    },
+    {
+      "Text": "[ns] \"หืม...? วิธีพิเศษ?\""
+    },
+    {
+      "Text": "(ขณะนั้นก็มีเสียงออกมาจากลำโพงที่ติดตั้งอยู่ในห้องเรียน)"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "ค่า~! สวัสดีนักเรียนโรงเรียนมิลเลเนียมทุกคนที่ฟังการออกอากาศอยู่นะคะ "
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "วันนี้เราก็มารับประทานมื้อเที่ยง พร้อมกับฟังเพลงที่ขอเข้ามากันเหมือนเดิมนะคะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "และผู้ที่ส่งคำขอมาคราวนี้..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "มาจากคุณ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "<สาวน้อยผู้บริสุทธิ์ผุดผ่องที่สุดในมิลเลเนียม>...? คนนี้อีกแล้วเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ เพลงที่ฉันขอละค่ะ"
+    },
+    {
+      "Text": "[s] \"คิดแล้วเชียว!\""
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "ไม่ไหวๆ แบบนี้ลำบากแน่ๆ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "ไหนดูคนอื่นซิ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "อะไรน่ะ? คนที่ขอเพลงมามีแต่คนนี้เหรอ? คนที่ขอเข้ามาคนอื่นๆ ถูกลบออกไปหมดเลยเหรอเนี่ย? ระบบโดนแฮ็กหรือไง?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "นี่มันอะไรกันเนี่ย?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ..."
+    },
+    {
+      "Text": "[ns] \"ฮิมาริ...? คงไม่ใช่แบบที่ครูคิดหรอกใช่มั้ย?\""
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "แต่ไม่ว่ายังไง เราก็คิดว่าไม่ควรเปิดเพลงนี้..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "อ๊ะ เดี๋ยวสิ! ยะ... หยุดนะ! ทำไมระบบมันไม่ยอมหยุดล่ะ?!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนมิลเลเนียม",
+      "Text": "ระบบอุปกรณ์กระจายเสียงทำงานเองเรอะ?!"
+    },
+    {
+      "Text": "(เสียงดนตรีที่แสนโศกเศร้าดังออกมาจากลำโพง)"
+    },
+    {
+      "Text": "[ns] \"เพลงโปรดของฮิมารินี่... ไม่ธรรมดาเลยนะ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หัวหน้าชมรมวิศวกรรมแนะนำเพลงนี้ให้ค่ะ"
+    },
+    {
+      "Text": "[s] \"เพลงที่ดอกไม้แสนบริสุทธ์ชื่นชอบ...เพลงเอ็นกะ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ นั่งฟังเพลงโปรดกับคนที่อยากอยู่ด้วยในที่ซ่อนแบบนี้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็ได้บรรยากาศดีนะคะ?"
+    },
+    {
+      "Text": "[ns] \"ก็นะ... อืม\""
+    },
+    {
+      "Text": "[ns] \"อื้อ ครูว่า... ครูเข้าใจแล้วละ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ? อย่างนั้นเหรอคะ ฮุฮุฮุ"
+    },
+    {
+      "Text": "(เสียงความวุ่นวายของชมรมกระจายเสียงยังคงดังคลอเพลงเอ็นกะออกมาจากลำโพงอย่างต่อเนื่อง...)"
+    },
+    {
+      "Text": "(คุณครูใช้เวลาอยู่กับฮิมาริจนถึงช่วงเย็น)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "天才駭客的嗜好"
+    },
+    {
+      "Text": "（接到陽葵的連絡後，來到了千年的社團大樓）"
+    },
+    {
+      "Text": "千年科學學園．第8社團大樓走廊"
+    },
+    {
+      "Text": "[ns]「陽葵告訴我的地方應該就是這裡……」"
+    },
+    {
+      "Text": "（就在此時，有個東西伴隨著風聲緩緩靠近）"
+    },
+    {
+      "Text": "[ns]「這是……千年的警備機器人？」"
+    },
+    {
+      "Text": "[ns]「啊，要我跟著它的意思嗎？」"
+    },
+    {
+      "Text": "（在機器人的帶領下抵達的，是位於深處的一間社團教室）"
+    },
+    {
+      "Text": "（門旁貼的門牌上寫著這樣的文字）"
+    },
+    {
+      "Text": "[ns]「『長時間不換氣的圓周率背誦部』……？」"
+    },
+    {
+      "Name": "???",
+      "Text": "恭候多時了，老師。請進。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵，時間剛剛好呢。歡迎您。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "引導工作辛苦了。請回到工作崗位吧。"
+    },
+    {
+      "Text": "[ns]「陽葵？剛才的機器人是……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是千年的警備機器人唷？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "因為我是病弱美少女，要親自迎接老師會有點困難。\n所以只好駭入碰巧在附近巡邏的機器人……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……嗯，只是稍微借用了一下而已。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那些孩子們都是可愛的好孩子對吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我認為非常適合用來接待。"
+    },
+    {
+      "Text": "[ns]「又做那種事……」"
+    },
+    {
+      "Text": "[ns1]「所以這裡是哪裡呢？」"
+    },
+    {
+      "Text": "[ns2]「門牌上好像寫著奇怪的名字……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "咦……\n那，那個名字真的有那麼奇怪嗎……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "為了想出好的名字，我苦思了三天三夜……\n好不容易才想出了這個充滿知性和智慧，同時非常適合隱藏身分的名字……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我還以為這是個與千年引以為傲的天才美少女相符的好名字……"
+    },
+    {
+      "Text": "[s]（一臉就是非常沮喪的表情……！）"
+    },
+    {
+      "Text": "[ns]「不，那個……是我用字遣詞的問題。是個很有個性的好名字呢。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……呵呵，呵呵呵，對吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我就知道老師能理解我♪"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "畢竟那可是公認千年最棒的天才清楚系病弱美少女駭客……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我，明星陽葵想出來的名字！"
+    },
+    {
+      "Text": "[ns]「……話說陽葵為什麼會在這裡呢？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對了，剛才話說到一半呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "用一句話來說明的話……嗯。\n這裡可以說是只屬於我的祕密「藏身地」吧。"
+    },
+    {
+      "Text": "[s]「藏身地？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯。因為平時使用的特異現象搜查部，\n以及貝里塔斯的部室都處於「大姐頭」的監視之下。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "所以我才會駭入千年的管理系統，\n獲得閒置部室的使用權，把這裡變成我專屬的空間。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……為什麼要做到這種程度，是嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "當然是為了休息。\n對我這種超天才清楚系病弱美少女來說，睡眠的時間……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不，大腦休息的時間是不可或缺的。"
+    },
+    {
+      "Text": "[s3]「原來如此。可是在往返的途中這裡不會被發現嗎？」"
+    },
+    {
+      "Text": "[s4]「像是剛才的機器人，或是到處都有的監視器之類的……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。這種程度的事，對我這個天才美少女駭客來說不成問題。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。這種程度的事，對我這個天才美少女駭客來說不成問題。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "機器人的巡邏路線自不用說，有需要的話，駭入系統更改路線簡直易如反掌。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "監視器的死角我也瞭若指掌，替換一下影像這種事也是輕而易舉。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我毫無破綻，是無敵的！呵呵呵呵呵。"
+    },
+    {
+      "Text": "[s5]「不愧是陽葵，格局完全不同呢。」"
+    },
+    {
+      "Text": "[s6]「不過這麼重要的地方，我真的可以來嗎……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……嗯。\n關於這點，完全沒有問題。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "該說您能來真是太好了，還是您不來我會很困擾呢……"
+    },
+    {
+      "Text": "[s] 「這是什麼意思？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如老師所知，我的存在總是受到眾人的矚目。\n沒錯，簡直就像是雲朵上綻放的一朵花一樣。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然我是有著立若芍藥坐如牡丹……\n嘆息時的姿態就像百合花一般──如此評價的天才美少女……"
+    },
+    {
+      "Text": "[s]「居然能這麼流暢地說個不停……真厲害。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "所以，我認為不能展現出不完美的一面。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "但是……就算是我這種毫無缺點的完美美少女，也不可能時時刻刻都繃緊神經。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "咳咳……所以，把老師請來這裡的理由就是……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "偶爾……該說是可以放鬆的時間嗎……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如果有個可以不求回報地陪在我身邊，又值得信賴的人就好了……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "於是我想到了，即使看到了我這樣的一面也願意陪在我身邊的那個人。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "所以簡單來說……"
+    },
+    {
+      "Text": "[s]「簡單來說……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……儘管成功準備了藏身地，但只有我一個人果然還是有點無聊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如果是老師的話，那個……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "說不定會願意陪我說話……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然是我的一廂情願……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "可以用這樣的理由……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請老師來這裡嗎……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "（偷看）"
+    },
+    {
+      "Text": "[s]「什麼嘛。那樣的話隨時歡迎喔，陽葵。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……啊。"
+    },
+    {
+      "Text": "[s]「陽葵？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，沒什麼……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。\n果然和我預想的一樣。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "用我這優秀的頭腦的話，不用一秒鐘就能推導出這種結果了哦。\n今天是我贏了。"
+    },
+    {
+      "Text": "[ns]「從什麼時候變成比賽了……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不可以在意這種枝微末節的小事唷。\n您願意對我說「陪我」就已經足夠了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……因為我們之間的關係沒有「Undo」功能。"
+    },
+    {
+      "Text": "[s]「放心吧，陽葵。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那今天就拜託您囉，老師。"
+    },
+    {
+      "Text": "（就這樣，和陽葵一起度過了一個悠閒的午後）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "順利像這樣獲得了和老師獨處的時間……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "換作是平常的我，應該已經對天才病弱美少女的豐功偉業擺出「得意表情」了……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "遺憾的是，有件事並沒有如我所願。"
+    },
+    {
+      "Text": "[s]「有什麼問題嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "問題……是沒有到這種程度。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如您所知，千年會在中午的校內廣播中撥放觀眾點的歌對吧。"
+    },
+    {
+      "Text": "[s7]「這件事我還是第一次聽說。」"
+    },
+    {
+      "Text": "[s8]「咦，是這樣嗎……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "只要是千年的學生，每個人都能自由地提出點歌的申請……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過不知為何，我點的歌完全不會被選中！"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "明明已經一而再再而三地提出申請了，究竟是為什麼呢？\n老師您怎麼想呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "想必是因為我的感性過於前衛，\n不知何時已經和其他學生之間產生了無法互相理解的高牆了吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我在不知不覺間成為悲劇的女主角了呢……"
+    },
+    {
+      "Text": "[s]「呃，我想原因並不是那樣……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我只不過是想和千年的大家共同欣賞美妙的歌曲而已……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……不過，今天就要和昨天為止遺憾的我說再見了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "作為我和老師兩人的藏身地紀念……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "稍微用點「特別的方法」吧。"
+    },
+    {
+      "Text": "[ns]「特別的方法……？」"
+    },
+    {
+      "Text": "（此時，音響中撥放起了校內廣播）"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "正在收聽千年校內廣播的聽眾們，大家好！"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "今天也到了午休時間！\n馬上進入點歌環節！"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "那麼是第一首歌。"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "暱稱「千年最棒的清楚系美少女」同學……"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "咦，又是這個人……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，是我呢。"
+    },
+    {
+      "Text": "[s]「我就知道！」"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "咦～真的要撥這首嗎……？"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "不是，還有很多其他人點的歌吧？"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "檔案突然消失了！？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……呵呵。"
+    },
+    {
+      "Text": "[ns]「那個，陽葵。應該不會是我想的那樣吧……」"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "再怎麼說，這首歌也有點……"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "啊，等一下，怎麼會！"
+    },
+    {
+      "Name": "千年學生",
+      "Text": "誰快來把機器停下來！……停不下來！？為什麼！？"
+    },
+    {
+      "Text": "（音響中撥放起了一首旋律淒涼的演歌）"
+    },
+    {
+      "Text": "[ns]「陽葵說的美妙歌曲是……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這是以前工程師部的部長向我推薦的歌曲。"
+    },
+    {
+      "Text": "[s]「原來陽葵喜歡演歌啊。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。像這樣在藏身地內悠哉地休息，和老師共享相同的時間與喜歡的歌曲……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "您覺得如何呢？是不是很有情調？"
+    },
+    {
+      "Text": "[ns]「好像能夠理解……」"
+    },
+    {
+      "Text": "[ns]「嗯……真是首好歌呢。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對吧？呵呵。"
+    },
+    {
+      "Text": "（聽著來自音響另一端，與廣播部成員慌張的騷動聲一同播放的演歌……）"
+    },
+    {
+      "Text": "（直到夜晚到來為止，和陽葵度過了兩人的時間）"
+    }
+  ]
+}

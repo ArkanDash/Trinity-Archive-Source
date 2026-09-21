@@ -1,0 +1,3607 @@
+{
+  "TitleJP": "出撃",
+  "TitleKR": "출격",
+  "TitleEN": "Mobilization",
+  "TitleTH": "ออกจู่โจม",
+  "TitleTW": "出擊",
+  "DescJP": "鋼鉄大陸を広げるための機械、レイバーとイェソド。一行は陽動でイェソドを突破しようと作戦を立てる。囮役はエイミが引き受けることになるのだった。",
+  "DescKR": "일행은 예소드 본체에 대한 공략 계획을 세운다.",
+  "DescEN": "The group devises a strategy to breach Yesod's main structure.",
+  "DescTH": "คณะสืบค้นวางแผนบุกโจมตีส่วนหลักของเยซ็อด",
+  "DescTW": "一行人制定了攻略耶索德本體的作戰計畫。",
+  "DialogJP": [
+    {
+      "Text": "第3話;出撃"
+    },
+    {
+      "Name": "リオ",
+      "Text": "では、状況を整理するわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「分かった事」と「やるべき事」がありますが、どちらから聞きたいですか？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "では、分かった事から話してください。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私たちを襲撃してきた個体の詳細が見えてきたわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "モデル名は、[ruby=Labor]レイバー[/ruby]。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "れいばー……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "労働者という意味よ。このモデルの役割からして、適切な名前とも言えるわね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "レイバーの種類は、私たちが把握した限りで3種類あるようです。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "現場で見たのだと……装甲みたいなのを纏った直方体のモデルがいたね。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "とても頑丈でした！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そのモデルは「防御型レイバー」と名づけていいと思います。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "次は、一目で分かるほど大きな砲を搭載したモデル。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "デザインは惜しいですけど……「砲塔型レイバー」と呼べそうです。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "あ、あとは……2つのプロトタイプみたいな……\nちょっと小さいモデルもいました……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では、そのモデルは「基本型レイバー」と呼びましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "一般的に、小さければ可愛く見えるものですが……\nこれはどうにもクモにしか思えなくて……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "クモが可愛くないと言うの？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もちろん、美学は主観によるものです。あなたの美的センスが変わっていることも理解していますが……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長も会長も、今はそれを話してる場合じゃないから。"
+    },
+    {
+      "Text": "[s] \"他にも分かった事はある？\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "ええ。これが最も重要だと思うわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "レイバーは周囲の無機物を、鋼鉄大陸に変化させることができるの。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "それは、つまり……？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "じゃあ、レイバーが鋼鉄大陸を広げてたってこと？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "間違いではないと思います。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "レイバーの量産が始まったのは、ある程度まで鋼鉄大陸が構築されてから、と考えるのが妥当でしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "レイバーが輸送船に近づいたのも、鋼鉄大陸に取り込もうとしていた可能性が高いと思われます。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "すべてのレイバーを調べたわけじゃないから、可能性の域はでないのだけれど。\nただ、そもそも全部調べるなんて、現実的ではないわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "気になるのは……\n鋼鉄大陸の内部構造をレイバーが再整備しているように見える点ね。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "再整備……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "構造物の建築や、損傷した箇所の修復――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "鋼鉄大陸の拡張過程で混入した無機物に対する同化作業などよ。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "あ、だから輸送船を……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん、「分かったこと」は理解したよ。じゃあ、「やるべき事」は？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "口にするだけなら簡単ですが――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――イェソドを突破する必要があります。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "現時点で判明している、9番目の預言者「イェソド」に関する情報を共有するわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "不思議なことに、イェソドには原型となるものが存在しない。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "それはどういう意味ですか？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "例えばホドの場合、元々はミレニアムの通信ユニットAI「ハブ」だった。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "コクマーは工作船で、ゲブラは無人探査機だったわね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "このように、AIシステムを基盤とする構造体が、そのAIごとデカグラマトンによってハッキングされることで、預言者に成ってきた。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "唯一の例外と言えるのがビナーね。\n初めて目撃されたのは、数十年前のアビドス砂漠だったから。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "イェソドも、例外だと？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ええ。これは推測なのだけれど――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "イェソドは、鋼鉄大陸がある程度構築された後に[ruby=・]作[/ruby][ruby=・]ら[/ruby][ruby=・]れ[/ruby][ruby=・]た[/ruby]のだと考えているわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そうでなければ、あれほど巨大なイェソドの信号を、今まで把握できなかった説明がつかないの。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "妥当な推理だと思います。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そしてそれを真と置くならば……\nイェソドはとても純粋である、ということになります。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "目的のためだけに作られた、「最適化」された預言者……ですか。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……おそらくは。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "あの巨大さと威力もまた、最適化の結果でしょうね。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "議論を深めるほど、打開策がなくなっていくような気がしますが……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "あ、アリスは……みんなは！きっと大丈夫です！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "勇者は……冒険に出る前から怖気づきません……うわーん！"
+    },
+    {
+      "Text": "[s] （すでに怖がっているように見えるけど……）"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "でも、弱点はあると思うよ。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "そうなんですか……？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あれ、壁の上からは動けないんじゃないかな。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "た、たしかに……\nゲームでも、超大型ボスは……簡単に移動できない、ものですから……。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ゲームに例えるつもりはなかったけど……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ、今のは的を射ているかもしれませんよ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なんであれ質量がある以上、避けられないものがあります。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "速度と耐久性の問題ね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうです。\n質量の大きい物を動かすには、その分多くのエネルギーが必要となります。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "エネルギーさえあれば、素早く動かすこともできますが、動くより先に耐久性に限界がくるはずです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もちろん、謎の物質の強度や耐久性については、まだ不可解なことが多いです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "とはいえ物質であるからには、必ず限界があると思います。"
+    },
+    {
+      "Text": "[s] \"つまり……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "要するに、こういうことです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "イェソドの攻撃には、動きに制約があると予想されます。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それを基に作戦を考えると――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――陽動を用いた短期決戦になるわね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……その通りです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "イェソドの攻撃……より厳密に言えば「腕を振るう攻撃」は、脅威そのものです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "とはいえ予想通りなら、動きは鈍いはず。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "回避に専念すれば、チャンスを作ることができるかもしれない。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "大きさに物を言わせた、[ruby=・]面[/ruby]への影響力はいったん無視します。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "少なくとも、数回イェソドの注意を逸らすには十分かと。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そして、その隙に本隊は輸送船で移動し――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "壁の上から、イェソドを奇襲するのです。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ヒマリ……この作戦を、[ruby=・]貴[/ruby][ruby=・]女[/ruby]が提案するのね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……[ruby=・]以[/ruby][ruby=・]前[/ruby][ruby=・]の[/ruby]あなたなら、相談もなく強行していたのでは？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "今の貴女は、こんな作戦を私より先に提示するくらい――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――いいえ、違うわ。それだけ、私たちが窮地に追い込まれているということね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……時間がありません。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ええ……。"
+    },
+    {
+      "Text": "[s1] \"みんな、ちょっと待って。\""
+    },
+    {
+      "Text": "[s2] \"その作戦って……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そうよ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "これは、誰かを囮にしてイェソドを倒す作戦。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "しかも囮の安全を保証できない上に、イェソドを必ず仕留められる確証もない。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "つまり、極めて危険な作戦になる……ということよ。"
+    },
+    {
+      "Text": "[s3] \"私は……賛成できない。\""
+    },
+    {
+      "Text": "[s4] \"みんなの……先生として。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "でも、これ以上の手段が思いつかないの。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "で、では……！アリスが……！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ダメよ、アリス。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "どうしてですか？まだ見習いですが、アリスは勇者です！\nだから、みんなを――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そう。貴女が、勇者だからよ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "貴女はきっと、[ruby=・]切[/ruby][ruby=・]り[/ruby][ruby=・]札[/ruby]になる。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……それには、私も含まれるのですよね？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……ええ。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "相変わらず、あなたは冷たく振舞うのですね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……慣れているわ、こんなこと。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "私は、あなたのそういうところが嫌いです。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "我慢できないくらい……怒りが込み上げてくるんです……！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ケイはいつも怒っていませんか？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "それはそうですが……ああもう！そういう意味じゃないでしょう！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "これは別のベクトルで怒っているんです！火に油を注がないでください！！"
+    },
+    {
+      "Text": "[s] \"本当に……他の方法はないの？\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Text": "（場の空気が重く沈み込んだ）"
+    },
+    {
+      "Text": "（それでも時間は容赦なく過ぎていく……）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "じゃあ、私がやるよ。"
+    },
+    {
+      "Text": "[ns] \"！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "エイミ！？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "要は、注意を引けばいいんだよね？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "で、でも……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "エイミさん！先生も心配したように……！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "大丈夫。これが一番効率的だよ。\n「たぶん」なんて言葉が要らないくらい、明確に。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "現場のことは慣れてるし、私、結構頑丈で素早いんだ。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "で、でも……もしも上手くいかなかったら……！"
+    },
+    {
+      "Text": "[s5] \"エイミ、もう一度考え直してくれない……？\""
+    },
+    {
+      "Text": "[s6] \"私は……君たちが怪我するのを見たくないんだ……。\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "！？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "！？"
+    },
+    {
+      "Text": "（そっと、エイミが抱きしめてきた）"
+    },
+    {
+      "Text": "[s] \"え、エイミ……？\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "やっぱり先生の身体……ぬるくていいね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "大丈夫だよ、先生。"
+    },
+    {
+      "Text": "[s] \"でも……！\""
+    },
+    {
+      "Name": "エイミ",
+      "Text": "うん。分かってるよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "でも、大丈夫。\n私たちのことを考えてくれるなら――"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "私たちを、信じて。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "先生が生徒を助けるのが当たり前なら、生徒が先生の力になりたいって思うのも、当然じゃない？"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そうだなぁ……私にもしものことがあったら――"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "思いっきり先生のこと恨むから。一生責任とってね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "じゃあ、行ってくる。"
+    },
+    {
+      "Text": "[ns] \"エイミ！\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……作戦開始です。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ええ、取りかかりましょう。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "エイミを無事に帰らせるために、私たちも覚悟を決めるべきだわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そうでしょう、先生？"
+    },
+    {
+      "Text": "[s] \"……やるべきことを、教えてほしい。\""
+    },
+    {
+      "Text": "[ns] \"では、各自持ち場へ。\""
+    },
+    {
+      "Name": "トキ",
+      "Text": "エンジンの修理状況を報告します。\n緊急離陸および緊急着陸、いずれも可能な状態です。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "これより私は、格納庫へ移動し降下準備に入ります。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！アリスもトキについていきます！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "が、頑張ります……！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ヒマリ、あとは頼んだわ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……トキとアリスは、私たちの最大戦力であり切り札です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ユズは、こういった任務で意外な活躍を見せる可能性があります。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですが……リオ、あなたまで行く必要があるのですか？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……現場にも、戦術の指揮官が必要よ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それは、あなたの責任感や負い目からくる感情的な行動では？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……行ってくるわね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はぁ……\n最近、私の人望が失われているような気がするのですが、どう思いますか？"
+    },
+    {
+      "Text": "[s] \"みんな、ヒマリを信頼してるからだと思うよ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ、そういうことにしておきましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "さて、おしゃべりはこのくらいにして……始めましょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では、先生？"
+    },
+    {
+      "Text": "[s] \"作戦開始！\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "格納庫、聞こえますか？状況を教えてください。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ただいま格納庫に到着しました。ポッドに搭乗します。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "アリス、手順は分かっていますね？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！もちろんです！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "えっと……何から始めるんでしたっけ……？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "わ、わたしが教えてあげるね、アリスちゃん……。\nこれは、ゲームのマニュアルみたいなもので……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ではユズ、アリスを頼みます。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "降下準備完了。いつでもどうぞ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "発進！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "本当、あり得ない大きさだね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "さて。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "効率的にいこっか。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "まずは――"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "――目の前の敵から。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;출격"
+    },
+    {
+      "Name": "리오",
+      "Text": "그러면, 상황을 정리해 보도록 하자."
+    },
+    {
+      "Name": "히마리",
+      "Text": "알아낸 사실이 한 가지 있고, 해결해야 할 문제가 한 가지 있어요. 어느 쪽부터 할까요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "보통 해결해야 '할' 문제는 부담스럽기 마련이니, 알아낸 사실부터 이야기해 보죠."
+    },
+    {
+      "Name": "리오",
+      "Text": "우선 확실하게 알아낸 것은, 티페레트의 종자 보관소와 이곳에서 우리를 습격해 왔던, 데카그라마톤의 신규 병종에 대한 것이야."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 우선 그 병종의 모델명은, [ruby=Labor]레이버[/ruby]라고 하는 것 같아요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "레이… 버?"
+    },
+    {
+      "Name": "리오",
+      "Text": "작업자라는 뜻이야. 이 병종 모델의 역할에 비추어 보면, 어울리는 이름이라고도 할 수 있겠지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "레이버의 종류에는, 적어도 지금까지 우리가 알게 된 정보만으로 한정한다면, 최대 3종류가 있는 것으로 보여요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "응 현장에서도 느꼈어. 우선 겉을 장갑으로 단단하게 두른, 직육면체 모양의 모델이 있었지."
+    },
+    {
+      "Name": "아리스",
+      "Text": "맞습니다! 엄청나게 튼튼했습니다!"
+    },
+    {
+      "Name": "토키",
+      "Text": "직관적으로 그 모델은 방어형 레이버라고 이름 붙여도 좋을 것 같군요."
+    },
+    {
+      "Name": "리오",
+      "Text": "다음으로는, 방어형 레이버에 비해서는 장갑의 강도가 낮지만, 한눈에 알 수 있을 만큼 커다란 포탑을 장착한 모델이 있었어."
+    },
+    {
+      "Name": "미도리",
+      "Text": "디자인적인 측면에서는 아쉽기는 하지만…… 그건 포탑형 레이버라고 부를 수 있겠네요."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그, 그리고…… 아마 제가 보기에는, 나머지 두 모델의 원형처럼 보이는 상대적으로 조그마한 레이버가 있었어요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "원형처럼 보인다는 측면에서, 그 모델을 기본형이라고 부르도록 하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……보통 작다고 하면 귀엽게 보이는 부수 효과가 있기 마련인데, 이건 어떻게 봐도 거미처럼 생겨서 그런지 그런 느낌은 들지 않네요……."
+    },
+    {
+      "Name": "리오",
+      "Text": "거미는 귀엽지 않다는 느낌인 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "보통은 그래요. 물론 당신의 미적 감각은 어딘가 독특하긴 하고, 미학이란 건 기본적으로 주관의 영역에 속하는 부분이기도 한데……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "자, 자. 그 부분은 넘어가자. 부장, 회장."
+    },
+    {
+      "Text": "[s] \"또 알아낸 건 없어?\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……있어. 그리고, 어쩌면 이게 가장 중요한 부분일 거야."
+    },
+    {
+      "Name": "리오",
+      "Text": "그 레이버들은, 기본적으로 주위의 무기물을 강철대륙의 구성 성분으로 변화시킬 수 있어."
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇다는 것은……?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어? 그러면 그 녀석들이 처음부터, 이 강철대륙인가 뭔가 하는 걸 넓혀 가고 있었단 소리야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "처음부터 그랬던 것은 아니었을 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "레이버들이 양산되기 시작한 시기는, 강철대륙의 기본적인 구조와 크기가 구축된 다음부터였을 테니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "다만 레이버들이 우리의 수송선에 접근한 이유 자체는, 이 수송선을 자기들 강철대륙의 일부로 만들기 위해서였을 가능성이 높지만요."
+    },
+    {
+      "Name": "리오",
+      "Text": "모든 레이버들의 구축 기록을 살펴본 것도 아니고, 애초에 그렇게 하는 게 불가능한 일이기도 하지만."
+    },
+    {
+      "Name": "리오",
+      "Text": "가능한 부분까지 조사한 결과, 레이버들은 지금 급속도로 넓어진 강철대륙의 내부 구조를 재정비하고 있는 것으로 보여."
+    },
+    {
+      "Name": "미도리",
+      "Text": "재정비라고 하면…… 어떤……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "가령 구조물을 건축한다든가, 손상된 부분을 수리한다든가."
+    },
+    {
+      "Name": "리오",
+      "Text": "그리고 강철대륙의 확장 과정에서 유입된 무기물에, 동화작용을 실시한다든가."
+    },
+    {
+      "Name": "유즈",
+      "Text": "아, 그래서 우리의 수송선을……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "하나는 알았어. 그러면 해결해야 할 문제란 건 뭐야, 부장?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 부분은, 이야기를 꺼내는 것만이라면 간단하겠네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "바로, 예소드를 돌파하는 일이죠."
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "리오",
+      "Text": "지금까지 알아낸 아홉 번째 예언자 예소드에 대한 정보를, 우선 정리하도록 할게."
+    },
+    {
+      "Name": "리오",
+      "Text": "특이하게도 예소드에게는, 원형이 되는 형상이 없어."
+    },
+    {
+      "Name": "토키",
+      "Text": "그건 어떤 의미입니까, 리오 님?"
+    },
+    {
+      "Name": "리오",
+      "Text": "가령 호드는, 밀레니엄 사이언스 스쿨의 통신망 가설 유닛인 <허브hub>였지."
+    },
+    {
+      "Name": "리오",
+      "Text": "호크마는 공작선이었고, 게부라는 무인 탐사기였어."
+    },
+    {
+      "Name": "리오",
+      "Text": "그런 식으로 예언자들은, 기존에 존재하던 AI 시스템 기반의 구조체가, AI째로 데카그라마톤에 의해 해킹되는 것으로 만들어지곤 했어."
+    },
+    {
+      "Name": "리오",
+      "Text": "유일한 예외라고 볼 수 있는 것이 비나 정도이겠지만…… 비나의 최초 목격 기록은 수십 년 전 아비도스 사막이었으니."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만 예소드는 그렇지 않다는 말이군요, 리오."
+    },
+    {
+      "Name": "리오",
+      "Text": "그래. 이건 내 추측 같은 것이지만……."
+    },
+    {
+      "Name": "리오",
+      "Text": "예소드는 아마도, 강철대륙이 어느 정도 구축된 이후 그 기반 위에서 비로소 만들어진 예언자였을 거야."
+    },
+    {
+      "Name": "리오",
+      "Text": "그게 아니라면, 우리가 저렇게나 거대한 예소드의 신호를 지금까지 파악하지 못했을 리가 없었을 테니까."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그건 타당한 추론이라고 보여요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇다는 것은, 예소드는 다른 예언자들처럼 어떤 구조체에 덧씌워지거나 원형을 가질 필요 없이."
+    },
+    {
+      "Name": "히마리",
+      "Text": "순수하게 목적성을 가지고 만들어진, '최적화'된 예언자라는 뜻도 되겠군요?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……아마도."
+    },
+    {
+      "Name": "리오",
+      "Text": "그 말도 안 되는 크기와 위력 역시, 그 최적화의 결과물이겠지."
+    },
+    {
+      "Name": "케이",
+      "Text": "……어째 이야기를 하면 할수록, 답이 없다는 결론으로 가까워지고 있는 것 같은데 말이죠……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "아, 아닙니다! 아리스는…… 우리는! 분명 할 수 있습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "요, 용사는…… 모험을 떠나기 전부터 겁을 먹어서는 안 됩니다……. 끄앙!"
+    },
+    {
+      "Text": "[s] (이미 살짝 겁먹고 있는 것 같기도 하지만…….)"
+    },
+    {
+      "Name": "에이미",
+      "Text": "하지만 강철대륙에서 만들어졌기 때문에, 그나마 다행인 부분도 있는 것 같네."
+    },
+    {
+      "Name": "미도리",
+      "Text": "그게 뭔가요, 에이미 씨?"
+    },
+    {
+      "Name": "에이미",
+      "Text": "저거, 저 방벽 위에 고정된 채 움직이지 못하는 것으로 보이잖아?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "네, 네에……. 게임에서도, 초거대 보스는 함부로 자리를 옮기지 못하곤…… 하죠……."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……모든 걸 게임으로 비유할 생각은 아니었는데 말야……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후. 하지만 유즈가 날카로운 부분을 짚어 준 것인지도 모르죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아무리 데카그라마톤의 예언자나 최적화된 구조체라도, 질량을 가지고 실체화된 이상, 피할 수 없는 것이 있으니까요."
+    },
+    {
+      "Name": "리오",
+      "Text": "피할 수 없는 것……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "그렇구나. 속도와 내구도의 문제겠네."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그래요. 거대한 질량을 움직이기 위해서는, 그만한 에너지가 필요하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "출력을 과도하게 집중시켜 거대 질량체를 빠르게 움직일 수도 있겠지만, 이 경우에는 내구도에 한계가 생길 것이고요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "물론 이 강철대륙을 이루고 있는, 수수께끼의 물질들의 강도나 경도, 내구도에 대해서 우리가 정확히 알고 있지는 못하지만."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇다고는 해도, 질량을 가지고 실체화된 이상, 무한의 내구도를 가지는 건 불가능한 일이니까요."
+    },
+    {
+      "Text": "[s] \"그렇다는 것은……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 이런 거죠, 선생님."
+    },
+    {
+      "Name": "히마리",
+      "Text": "예소드의 공격에는, 거대 질량체로서 갖는 움직임의 제약이 있을 것이라는 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 사실에 입각해서 작전을 설립해 보자면……."
+    },
+    {
+      "Name": "리오",
+      "Text": "……양동 작전이겠네."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그래요. 뭐, 당신이라면…… 당연히 이 정도 흐름은 따라와야 하겠지요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "예소드의 공격, 더 정확히는 그 팔을 휘둘러서 가해지는 공격은…… 분명 치명적이고 강력하겠지만."
+    },
+    {
+      "Name": "히마리",
+      "Text": "필연적으로, 상대적인 느림과 둔중함을 갖게 될 거예요."
+    },
+    {
+      "Name": "리오",
+      "Text": "우리 중 충분히 민첩하고 현장 대응이 가능한 사람이 있다면, 그 공격을 한 두 번 정도는 피할 수도 있다는 소리지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "근본적으로 그 엄청난 크기 때문에 생겨나는 한계 역시 존재하겠습니다만."
+    },
+    {
+      "Name": "히마리",
+      "Text": "적어도, 예소드의 시선을 어느 정도 돌리는 데에는 문제가 없겠죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그리고 그사이에 우리는 수송선으로……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "방벽 위로의 강습 작전을, 결행할 겁니다."
+    },
+    {
+      "Name": "리오",
+      "Text": "마치 나 같은 제안을 하는구나, 히마리……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……예전의 당신이라면, 누구보다 먼저 이 방안을 독선적으로 강행했겠죠."
+    },
+    {
+      "Name": "리오",
+      "Text": "지금의 너는, 이런 방안을 먼저 제시할 정도로……."
+    },
+    {
+      "Name": "리오",
+      "Text": "……아니, 아니구나. 그만큼 우리가 내몰려 있다는 뜻에 더 가깝겠네."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……시간이 없어요, 리오."
+    },
+    {
+      "Name": "리오",
+      "Text": "그래……. 그렇지."
+    },
+    {
+      "Text": "[s1] \"잠깐만, 다들 조금 기다려 줘.\""
+    },
+    {
+      "Text": "[s2] \"내가 따라가고 있지 못한 것 같아서, 다시 물어보겠는데…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "리오",
+      "Text": "맞아, 선생."
+    },
+    {
+      "Name": "리오",
+      "Text": "이건, 누군가가 미끼가 된 사이에 예소드를 쓰러트려야 한다는, 그런 이야기야."
+    },
+    {
+      "Name": "리오",
+      "Text": "심지어 그 미끼의 안전을 보장할 수도 없고, 우리가 예소드를 반드시 쓰러트릴 수 있다는 확신도 없지."
+    },
+    {
+      "Name": "리오",
+      "Text": "누군가를 사지로 내모는 작전이 될 가능성이 높은…… 그런, 방안인 거야."
+    },
+    {
+      "Text": "[s3] \"나는…… 찬성하기 어려울 것 같아.\""
+    },
+    {
+      "Text": "[s4] \"너희들의…… 선생님으로서.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "하지만 나와 히마리는, 이 방안 말고는 내세울 수단이 없어."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그, 그러면……! 이번에도 아리스가……!"
+    },
+    {
+      "Name": "케이",
+      "Text": "……."
+    },
+    {
+      "Name": "리오",
+      "Text": "너는 안 돼. 아리스."
+    },
+    {
+      "Name": "아리스",
+      "Text": "어, 어째서인가요? 아리스는 견습이지만 용사니까, 손에 닿는 모두를……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "바로 그렇기 때문이야. 네가 용사니까."
+    },
+    {
+      "Name": "리오",
+      "Text": "네가, 아마도 우리의 비장의 수단이 될 수 있을 테니까."
+    },
+    {
+      "Name": "케이",
+      "Text": "……그 말은, 저 역시 그 수단에 포함될 것이라는 뜻이겠네요?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……그래. 그 말이 맞아."
+    },
+    {
+      "Name": "케이",
+      "Text": "여전히 차가운 듯이 보이려고 노력하는군요, 리오."
+    },
+    {
+      "Name": "리오",
+      "Text": "……익숙하니까. 이런 일."
+    },
+    {
+      "Name": "케이",
+      "Text": "전 당신의 그런 점이 싫어요."
+    },
+    {
+      "Name": "케이",
+      "Text": "정말이지 참을 수 없을 만큼…… 화가 난다고요……!"
+    },
+    {
+      "Name": "토키",
+      "Text": "케이는 언제나 화를 내고 있지 않았습니까?"
+    },
+    {
+      "Name": "케이",
+      "Text": "그것도 맞긴 한데…… 아, 진짜! 그런 뜻이 아니잖습니까!"
+    },
+    {
+      "Name": "케이",
+      "Text": "불도 뜨겁고 마그마도 뜨겁지만! 마그마가 아무튼 더 뜨거운 법이잖아요! 왜 불 난 데 맨틀을 퍼다가 끼얹는 거냐구요!!!"
+    },
+    {
+      "Text": "[s] \"정말로…… 다른 방법은 없는 거야?\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Text": "(분위기가 돌연 무겁게 내려앉았다.)"
+    },
+    {
+      "Text": "(그러는 사이에도, 시간은 그저 일정하게 흐르고만 있었다…….)"
+    },
+    {
+      "Name": "???",
+      "Text": "그러면, 내가 다녀올게."
+    },
+    {
+      "Text": "[ns] \"?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "어, 어어? 에이미?!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 그러니까, 시선과 시간을 잘 끄면 되는 거지?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그, 그건 조금……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "마, 맞아요! 에이미 씨! 선생님께서도 걱정하셨지만……!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "괜찮아. 이게 제일 효율적이야. '아마도'나 '어쩌면' 같은 수식어를 붙일 필요가 없을 만큼, 명확하게."
+    },
+    {
+      "Name": "에이미",
+      "Text": "어차피 현장은 익숙하고, 나, 제법 튼튼하고 빠르니까."
+    },
+    {
+      "Name": "유즈",
+      "Text": "하, 하지만……! 만에 하나, 잘못되기라도 하면……!"
+    },
+    {
+      "Text": "[s5] \"한 번만 더 생각해 줘, 에이미……!\""
+    },
+    {
+      "Text": "[s6] \"나는…… 너희들이 다치는 걸 보고 싶지 않아……!\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "?!"
+    },
+    {
+      "Name": "리오",
+      "Text": "?!"
+    },
+    {
+      "Text": "(에이미가, 조용히 다가와 안겼다.)"
+    },
+    {
+      "Text": "[s] \"에, 에이미……?\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "역시 선생님의 몸, 미지근해서 좋네."
+    },
+    {
+      "Name": "에이미",
+      "Text": "괜찮아, 선생님."
+    },
+    {
+      "Text": "[s] \"하지만……!\""
+    },
+    {
+      "Name": "에이미",
+      "Text": "응. 무슨 말인지 알아."
+    },
+    {
+      "Name": "에이미",
+      "Text": "하지만 그래도, 나는 괜찮아."
+    },
+    {
+      "Name": "에이미",
+      "Text": "정말로 우리들을 생각해 준다면, 이번에는 우리들을 믿어 줘."
+    },
+    {
+      "Name": "에이미",
+      "Text": "선생님이 학생을 돕는 것이 당연하다면, 학생이 선생님을 돕고 싶어 하는 것도 당연한 일이니까."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그러다 만에 하나 내가 크게 다치게 되면."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그때는 실컷 선생님을 원망할 테니까, 평생 책임져 줘."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그러면, 다녀올게."
+    },
+    {
+      "Text": "[ns] \"에이미!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……모두, 움직이죠."
+    },
+    {
+      "Name": "리오",
+      "Text": "그래. 바로 시작하자."
+    },
+    {
+      "Name": "리오",
+      "Text": "에이미가 안전하게 돌아오게 하려면, 우리부터 먼저 각오를 해야 해."
+    },
+    {
+      "Name": "리오",
+      "Text": "그렇지, 선생?"
+    },
+    {
+      "Text": "[s] \"……무엇부터 해야 하는지, 이야기해 줘.\""
+    },
+    {
+      "Text": "[ns] \"그러면, 각자 위치로.\""
+    },
+    {
+      "Name": "토키",
+      "Text": "엔진 수리 현황 보고합니다. 현재 긴급 이륙 및 긴급 착륙 모두 가능한 상태입니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "그러면 저는 지금부터, 격납고로 이동해 강하 준비에 들어가겠습니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스도 토키와 함께 가겠습니다!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "히. 힘낼게요……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "뒤를 부탁할게, 히마리."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……토키와 아리스는, 우리의 최대 전력이자 히든카드고."
+    },
+    {
+      "Name": "히마리",
+      "Text": "유즈는 의외로 이런 임무에서, 뜻밖의 활약을 보일 가능성이 있다고는 하지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "당신이 직접 가는 게 맞는 건가요, 리오?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……현장에도, 전술 통제관은 필요해."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그것이 당신의 책임감이나, 부채 의식에 기반한 감정적인 행동은 아니고요?"
+    },
+    {
+      "Name": "리오",
+      "Text": "…………다녀올게."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하아…… 어쩔 수 없죠. 저 말이에요. 요새 뭔가, 사람 복이 점점 줄어들고 있는 것 같지 않으세요, 선생님?"
+    },
+    {
+      "Text": "[s] \"어…… 내가 있는 걸로, 안 될까?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후훗. 그 말씀을 듣고 보니, 아직 최고의 행운이 제 곁에 남아 있는 것 같네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "드랍 포드 준비 완료입니다. 언제든 강하 가능해요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러면, 선생님?"
+    },
+    {
+      "Text": "[s] \"최전선 지휘관의 판단에 따라, 자의적으로 출격.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "격납고, 들리나요? 상황은 어떻죠?"
+    },
+    {
+      "Name": "토키",
+      "Text": "지금 막 격납고에 도착했음을 보고드립니다. 드랍 포드에 탑승하겠습니다."
+    },
+    {
+      "Name": "토키",
+      "Text": "아리스. 절차는 알고 있죠?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 아리스, 확실하게 숙지했습니다!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "어…… 그런데, 뭐부터 해야 했었죠……?"
+    },
+    {
+      "Name": "유즈",
+      "Text": "내, 내가 도와줄게, 아리스 쨩……. 이런 건 일종의…… 게임 매뉴얼, 같은 거니까……."
+    },
+    {
+      "Name": "토키",
+      "Text": "그러면 아리스를 부탁하겠습니다. 유즈."
+    },
+    {
+      "Name": "리오",
+      "Text": "강하 준비 완료. 언제든 시작해도 좋아, 히마리."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러면."
+    },
+    {
+      "Name": "히마리",
+      "Text": "수송선을, 위치로 출격시키도록 하죠. "
+    },
+    {
+      "Name": "에이미",
+      "Text": "정말, 말도 안 되는 크기네."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그러면 너무 겁먹지 말고, 긴장하지 말고."
+    },
+    {
+      "Name": "에이미",
+      "Text": "효율적으로 가 볼까."
+    },
+    {
+      "Name": "에이미",
+      "Text": "우선은–"
+    },
+    {
+      "Name": "에이미",
+      "Text": "–주둔 병력부터."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3;Mobilization"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Now then, let's review the situation."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We've learned something new, and we've gained a new problem. Which should we discuss first?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Taking care of a \"problem\" tends to be the harder part, so begin with what we've learned."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We finally have verifiable data on the new Decagrammaton units that attacked us in Tiphareth's seed vault and here."
+    },
+    {
+      "Name": "Himari",
+      "Text": "This particular unit is called a Laborer."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "\"Labor...er\"?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. A worker. A fitting name for its functionality."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Based on the data we've gathered so far, we've been able verify three different types of Laborers."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Yes. I noticed that as well. The rectangular model was outfitted with heavy armor."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! That is correct! It was very difficult to pierce!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Simply put, a Defensive Laborer."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Next, this Laborer had lighter armor than the Defensive, but a large turret attached to it."
+    },
+    {
+      "Name": "Midori",
+      "Text": "The design's a little... But let's call that one the Turret Laborer!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "A-And... There was this smaller Laborer that looked like the base form of the other two..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "In that case, we can call it the Basic Laborer. The others are likely built from this one."
+    },
+    {
+      "Name": "Himari",
+      "Text": "While items that are smaller than normal are usually regarded as cute, this spider-like...thing has no redeeming qualities in that department."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Doesn't everyone think spiders are cute?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Not to most... Although, when it comes to aesthetics, you hardly are like \"most\" people..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "President. Ms. Rio, let's move on."
+    },
+    {
+      "Text": "[s] \"Did you find out anything else?\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. And this is the most important discovery by far."
+    },
+    {
+      "Name": "Rio",
+      "Text": "It would appear that Laborers are responsible for converting organic matter into material for the Steel Continent."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Which means...?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "So they've been the ones...building this Steel Continent thingie?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Likely not from the very beginning."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Laborers were probably mass manufactured after the Steel Continent was already created."
+    },
+    {
+      "Name": "Himari",
+      "Text": "However, I'd surmise that the Laborers approached our transport ship to turn it into part of the Steel Continent."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We weren't able to view the data logs for every single Laborer. With how many there are, that'd be impossible."
+    },
+    {
+      "Name": "Rio",
+      "Text": "But from what we saw, it seems the Laborers are reorganizing the interior structure of the Steel Continent that has expanded at an incredible pace."
+    },
+    {
+      "Name": "Midori",
+      "Text": "What do you mean by...\"reorganizing\"?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "They're building its exterior structure, while maintaining repairs to any damaged parts."
+    },
+    {
+      "Name": "Rio",
+      "Text": "All while converting inorganic matter for the Steel Continent to further absorb."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "And that's why they went after our ship..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I see. Then what is the problem, President?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well, it's much easier said than done."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We'll need to break through Yesod's defense."
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Let's review the data we have on Yesod, the ninth prophet."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Oddly enough, Yesod does not have a form of origin."
+    },
+    {
+      "Name": "Toki",
+      "Text": "What does that mean, Ms. Rio?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "For example, Hod was once \"Hub,\" Millennium's communication network unit."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Chokmah used to be an auxiliary ship, and Geburah was an unmanned exploration probe."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The prophets we've encountered thus far were all created by Decagrammaton hacking an already existing AI system."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The exception to that being Binah, since it's an unexplained phenomenon that was first observed in the Abydos desert dozens of years ago."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But you're saying Yesod is not like that, Rio."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. This is just my assumption..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "But the most probable explanation is that Yesod was born from the Steel Continent."
+    },
+    {
+      "Name": "Rio",
+      "Text": "That would explain why we weren't able to differentiate the signals of a giant like that until it was attacking us."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. I believe that's a fair conclusion."
+    },
+    {
+      "Name": "Himari",
+      "Text": "So, unlike the other prophets, Yesod isn't an AI evolved to adapt to Decagrammaton's purposes..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...but rather a prophet created and optimized for their purposes."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...I think."
+    },
+    {
+      "Name": "Rio",
+      "Text": "It would explain its monstrous size and strength, if it was created purely for the purpose of defending the Steel Continent."
+    },
+    {
+      "Name": "Kei",
+      "Text": "It'd seem we're all problems and no solutions here."
+    },
+    {
+      "Name": "Aris",
+      "Text": "D-Do not concern yourself! I— We! We can do this!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "A h-hero...is never afraid...before an adventure... *sniff*"
+    },
+    {
+      "Text": "[s] \"(I think she's already a bit scared...)\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's not all bad. If it's part of the Steel Continent, it'll have weaknesses we can use."
+    },
+    {
+      "Name": "Midori",
+      "Text": "Like what?"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Look. It looks like it's stuck on the wall."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Y-Yeah... Even in games, giant bosses can't really move freely either..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...I'm not making a video game reference every time I speak, you know..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Fufu. Perhaps Yuzu has a good point."
+    },
+    {
+      "Name": "Himari",
+      "Text": "As long as it has a mass, even Decagrammaton's prophet or an \"optimized being\" is still bound by the rules of physics."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Bound by...?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Ah. So it's a matter of speed and durability."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Correct. To move a huge amount of mass, you need a lot of energy."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The faster something is, the less durable it'll be. And vice versa."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Naturally, we must consider that we have yet to even identify what kind of alloy the Steel Continent is made of. We're woefully ignorant of its hardness and strength."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But as long as it has mass and a form, it can't be impenetrable."
+    },
+    {
+      "Text": "[s] \"Wouldn't that mean...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, Sensei."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yesod's greatest limitation is its speed."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And if we were to come up with a plan based on that fact..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...You want to use a decoy."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. If it were you... Well, I'm not surprised you came to the same conclusion."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yesod's attack, when it brings down its arm, is powerful and devastating."
+    },
+    {
+      "Name": "Himari",
+      "Text": "So, inevitably, we'll need to counter it with agility and speed."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The decoy will need to be fluid enough to respond to any situation, and they'll likely be able to dodge at least two attacks."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Fundamentally, its enormous size is intimidating, but it means Yesod has its limits as well."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Something too quick for it to hit will divert its attention for long enough."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Long enough for us to fly over it with the transport ship..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...and carry out an ambush from atop the wall."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I can't help but rationally be in agreement with your plan, Himari."
+    },
+    {
+      "Name": "Himari",
+      "Text": "In the past, you would have carried it out without even conferring with us, no?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "And, yet, we're at the point now where you suggest it without my prompting..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I suppose that means we've arrived at the edge."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...We're running out of time, Rio."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. I know."
+    },
+    {
+      "Text": "[s1] \"Wait, everyone. Give me a second.\""
+    },
+    {
+      "Text": "[s2] \"I don't think I'm following, so just asking to make sure...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You're right, Sensei."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We're saying that the only way to take down Yesod is by using someone as bait."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We can't guarantee that person's safety, nor that this plan will even work."
+    },
+    {
+      "Name": "Rio",
+      "Text": "To put it bluntly, we'll be sending someone into danger with little chance of victory."
+    },
+    {
+      "Text": "[s3] \"I...don't think I can agree to this method.\""
+    },
+    {
+      "Text": "[s4] \"As... As your teacher.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "We have no other options."
+    },
+    {
+      "Name": "Aris",
+      "Text": "I-In that case...! Once again, I will...!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "No, Aris. You can't."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Wh-Why? While I may only be an apprentice, I am still a hero, so I must...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "That's exactly why. It's because you're the hero."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You're our hidden ace. Our trump card for the final stand."
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Am I included in that as well?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...Yes."
+    },
+    {
+      "Name": "Kei",
+      "Text": "You're still so cold and Rio-like."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...It's how I'm used to being."
+    },
+    {
+      "Name": "Kei",
+      "Text": "I hate that part about you!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "It really, truly infuriates me! I can't hold it in anymore!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Aren't you always angry, Kei?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Well, yes, but... This is different! Different, okay!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Fire's hot, and magma is also hot! But magma is hotter! Wh-Why are you making things worse?!"
+    },
+    {
+      "Text": "[s] \"Is there...really no other way?\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Text": "The atmosphere in the room was heavy as everyone considered the gravity of the situation."
+    },
+    {
+      "Text": "But, as Himari said, we were running out of time."
+    },
+    {
+      "Name": "???",
+      "Text": "I'll go. I can do it."
+    },
+    {
+      "Text": "[ns] \"What?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "H-Huh? Eimi?!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "My mission is to divert its attention and buy time for the assault team to get into position, yes?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Y-You make it sound so simple!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Sh-She is right, Eimi! Sensei will worry about you, but I will as well!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's the most efficient method. There's no room for \"probably\" or \"maybe\" here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I'm more comfortable in the field, anyway. And strong. And fast."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "B-But...! If something goes wrong...!"
+    },
+    {
+      "Text": "[s5] \"You have to reconsider, Eimi...!\""
+    },
+    {
+      "Text": "[s6] \"I can't watch you get hurt!\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "?!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "?!"
+    },
+    {
+      "Text": "Eimi's hug was soft and gentle, just like her."
+    },
+    {
+      "Text": "[s] \"E-Eimi...?\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "As I thought, Sensei. You're warm. And soft."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Don't worry so much, Sensei."
+    },
+    {
+      "Text": "[s] \"But...!\""
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I know."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "But I'll be okay."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "If you care about me, trust me."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It may be a teacher's duty to help their students, but it's a student's desire to help their teacher."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Anyways, if I do get hurt..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...then I'll just have to put all the blame on you, Sensei. And you'll have to take care of me for the rest of my life."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Then, I'll see you soon."
+    },
+    {
+      "Text": "[ns] \"Eimi!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Begin the operation."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Affirmative."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We will NOT waste the chance Eimi is giving us."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Right, Sensei?"
+    },
+    {
+      "Text": "[s] \"...Tell me where you need me.\""
+    },
+    {
+      "Text": "[ns] \"Everyone, to your positions.\""
+    },
+    {
+      "Name": "Toki",
+      "Text": "Reporting engine repair status. Emergency takeoff and landing should be possible."
+    },
+    {
+      "Name": "Toki",
+      "Text": "I will go to the hangar and prepare for descent."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! I will join Toki!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I-I'll do my best...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I'll leave the rest to you, Himari."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...I understand that Toki and Aris are our strongest forces at the moment."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And Yuzu has proven herself time and again in this operation..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But you as well, Rio?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...We'll need an on-site operator and strategist as well."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And you're not still trying to pay back some imagined debt for your past wrongs?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...I'll see you soon, Himari."
+    },
+    {
+      "Name": "Himari",
+      "Text": "*sigh* I suppose I'll have to leave well enough alone. Sensei, don't you think that I don't have enough good, loyal subordinates by my side?"
+    },
+    {
+      "Text": "[s] \"Uh... How about me?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Fufu. After hearing that, it seems that I still have the best of fortunes with me."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Drop pod is ready for descent."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well then, Sensei?"
+    },
+    {
+      "Text": "[s] \"Let's move out!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hangar, do you copy? What's the situation?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Arrived at the hangar. We will be boarding drop pods shortly."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Aris. You are aware of the procedure?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! I memorized it very well!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Uh... I just need a reminder on the first step!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I-I'll help you, Aris... This is sort of like...a game manual..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Then I'll leave Aris to you, Yuzu."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Ready to descend, Himari."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well, then."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Dispatching ship to the target drop location. "
+    },
+    {
+      "Name": "Eimi",
+      "Text": "It's even bigger up close."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Now's not the time for nerves."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Now is the time for efficiency."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Let's start with..."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...those stationed forces first."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;ออกจู่โจม"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เรามาสรุปสถานการณ์กันเถอะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตอนนี้มีหนึ่งเรื่องที่เราค้นพบ และมีหนึ่งปัญหาที่เราต้องแก้ค่ะ จะเริ่มจากเรื่องไหนก่อนดีคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ถ้าเริ่มจากปัญหาที่ 'ต้องแก้' เดี๋ยวจะหมดแรงกันไปก่อน งั้นเริ่มจากเรื่องที่เราค้นพบก่อนดีกว่าค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อันดับแรกเลย สิ่งที่เราได้รู้อย่างแน่ชัดแล้วก็คือเรื่องของคลังเก็บเมล็ดพันธุ์ของทิฟาเร็ธกับหน่วยจู่โจม\nประเภทใหม่ของเดคาแกรมมาทอนที่มาจู่โจมพวกเราที่นี่"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ และหน่วยจู่โจมนั้นน่าจะเป็นหุ่นรับใช้ที่มีชื่อโมเดลว่า[ruby=Labor]เลเบอร์[/ruby]ค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เลเบอร์...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "หมายถึงแรงงานน่ะ ถ้าพิจารณาจากบทบาทแล้ว ชื่อนี้ก็ถือว่าเหมาะสมแล้วละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จากข้อมูลทั้งหมดที่เรามีตอนนี้ หุ่นรับใช้มีไม่เกิน 3 ประเภทค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อื้อ ตอนออกไปสู้ภาคสนามฉันก็รู้สึกแบบนั้นเหมือนกัน มีโมเดลหนึ่งที่ลำตัวเป็นทรงสี่เหลี่ยมผืนผ้า ผิวภายนอกหุ้มด้วยเกราะทึบ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่ค่ะ! มันอึดถึกทนมากเลยค่ะ!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "คิดตามสัญชาตญาณแล้ว ฉันว่าเราเรียกโมเดลนั้นว่า 'หุ่นรับใช้ป้องกัน' ก็น่าจะเหมาะนะคะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ต่อไปเป็นโมเดลที่เกราะมีความแข็งแกร่งน้อยกว่าหุ่นรับใช้ป้องกัน แต่ก็มีป้อมปืนขนาดใหญ่ที่สังเกต\nเห็นได้ในทันทีค่ะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ในแง่ของการดีไซน์ ฉันว่ามันไม่ค่อยสวยเท่าไร... แต่ก็น่าจะใช้ชื่อว่า 'หุ่นรับใช้ป้อมปืน' ได้อยู่นะคะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ละ... แล้วก็... ฉันเห็นหุ่นรับใช้ขนาดเล็กที่เหมือนจะเป็นต้นแบบของอีก 2 โมเดลก่อนหน้าด้วยค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเป็นต้นแบบ งั้นเราเรียกโมเดลนั้นว่า 'หุ่นรับใช้พื้นฐาน' แล้วกันค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปกติถ้าเป็นสิ่งที่มีขนาดเล็ก มันก็จะดูน่ารักน่าเอ็นดูไปด้วย แต่หุ่นรับใช้ตัวเล็กนี้ดูเหมือนแมงมุม ต่อให้ขนาดเล็กแค่ไหนฉันก็ไม่รู้สึกว่ามันน่ารักเลยค่ะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แปลว่าแมงมุมไม่น่ารักงั้นเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปกติก็ไม่น่ารักค่ะ แต่รสนิยมด้านสุนทรียศาสตร์ของคุณก็ค่อนข้างไม่เหมือนใคร แล้วสุนทรียศาสตร์ก็เป็นเรื่องของอัตวิสัยล้วนๆ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เอาละๆ เรื่องนั้นน่ะปล่อยผ่านไปเถอะ ทั้งหัวหน้า ทั้งประธานเลย"
+    },
+    {
+      "Text": "[s] \"มีเรื่องอื่นที่ค้นพบอีกหรือเปล่า?\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มีสิ... และมันก็อาจเป็นส่วนสำคัญที่สุดเลยก็ได้"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "หุ่นรับใช้พวกนั้นเปลี่ยนสารอนินทรีย์ที่อยู่โดยรอบให้กลายเป็นองค์ประกอบของดินแดนเหล็กกล้าได้"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ถ้างั้นก็หมายความว่า...?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? หมายความว่าหุ่นรับใช้พวกนั้นกำลังขยายพื้นที่หรือดินแดนเหล็กกล้าอะไรนี่กันอยู่ตั้งแต่แรกเลย\nงั้นเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อาจไม่ใช่อย่างนั้นตั้งแต่แรกก็ได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นก็เพราะช่วงเวลาที่เริ่มมีการผลิตหุ่นรับใช้จำนวนมาก น่าจะเป็นช่วงหลังจากที่ดินแดนเหล็กกล้ามี\nโครงสร้างพื้นฐานและมีขนาดพอประมาณแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่สาเหตุที่หุ่นรับใช้เข้ามาใกล้ยานขนส่งของเรา ฉันมองว่ามีความเป็นไปได้สูงที่พวกนั้นต้องการเอา\nยานขนส่งไปเป็นส่วนหนึ่งของดินแดนเหล็กกล้าค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถึงฉันจะยังไม่ได้ตรวจสอบบันทึกการผลิตหุ่นรับใช้ทั้งหมดก็เถอะ และจะทำแบบนั้นก็ไม่ได้อยู่แล้วด้วย"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "จากการตรวจสอบในส่วนที่ตรวจสอบได้ ตอนนี้พวกหุ่นรับใช้กำลังปรับโครงสร้างภายในของ\nดินแดนเหล็กกล้าที่กำลังขยายอาณาเขตอย่างรวดเร็ว"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ปรับสร้างโครง... ยังไงนะ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ก็อย่างเช่นสร้างสิ่งใหม่ หรือไม่ก็ซ่อมแซมส่วนที่เสียหายไป"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แล้วก็หลอมรวมสารอนินทรีย์ที่ได้มาจากกระบวนการขยายดินแดนเหล็กกล้า"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อ่า เพราะงั้นก็เลยอยากได้ยานขนส่งของเราสินะ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "นี่คือเรื่องที่เราค้นพบสินะ งั้นปัญหาที่เราต้องแก้คืออะไรเหรอ หัวหน้า?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าแค่ให้พูดให้ฟังเฉยๆ ก็คงเป็นเรื่องง่ายนะคะ แต่มันไม่น่าจะจบแค่นี้น่ะสิ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปัญหาที่ว่าก็คือ การเอาชนะเยซ็อดค่ะ"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันจะสรุปข้อมูลของเยซ็อด ผู้เลื่อมใสลำดับที่ 9 จากข้อมูลที่เรามีให้ก่อนนะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "สิ่งที่น่าแปลกก็คือ เยซ็อดไม่มีรูปร่างต้นแบบ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "หมายความว่ายังไงเหรอคะ ท่านริโอะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ก็อย่างเช่น HOD เป็น <HUB> ที่เป็นหน่วยเครือข่ายสื่อสารในโรงเรียนวิทย์มิลเลเนียม"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ชอกมาห์เป็นยานสอดแนม ส่วนเกวูราห์ก็เป็นยานสำรวจไร้คนขับ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เหล่าผู้เลื่อมใสมักถูกสร้างขึ้นจากโครงสร้างที่อิงกับระบบ AI เดิมที่มีอยู่แล้ว โดยถูกเดคาแกรมมาทอน\nแฮ็กยึดระบบ AI ไปทั้งชุด"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าจะมีข้อยกเว้นเดียวก็คือบีนาห์... นั่นก็เพราะการพบเห็นบีนาห์ครั้งแรกเกิดขึ้นในทะเลทรายอะบิดอส\nเมื่อหลายสิบปีก่อนตามที่มีการบันทึกไว้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่จะบอกว่าเยซ็อดไม่เป็นแบบนั้นสินะคะ ริโอะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่ แต่มันก็เป็นแค่การคาดเดาของฉันน่ะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เยซ็อดน่าจะเป็นผู้เลื่อมใสที่ถูกสร้างขึ้นบนรากฐานของดินแดนเหล็กกล้า หลังจากที่ดินแดนนั้นเป็นรูปเป็นร่างขึ้นมาระดับหนึ่งแล้ว"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าไม่อย่างนั้น ที่ผ่านมาเราก็คงตรวจพบสัญญาณของเยซ็อดที่มีขนาดมหึมาขนาดนั้นไปแล้วละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ดูจะเป็นข้อสรุปที่สมเหตุสมผลนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้นก็หมายความว่า เยซ็อดคือผู้เลื่อมใสที่ถูกออกแบบมาให้ 'สมบูรณ์แบบที่สุด' ในการทำภารกิจหนึ่งให้สำเร็จ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "โดยไม่จำเป็นต้องมีร่างต้นหรือการครอบงำสิ่งใดเหมือนอย่างผู้เลื่อมใสตนอื่นๆ สินะคะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อาจจะเป็นอย่างนั้นนะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ทั้งขนาดและพลังที่มหาศาลนั้นก็น่าจะเป็นผลมาจากการปรับแต่งให้เหมาะสมและสมบูรณ์ที่สุดด้วย"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ยิ่งบอกข้อมูลมากเท่าไร ก็เหมือนจะยิ่งเข้าใกล้ข้อสรุปที่ว่า 'เราจนปัญญา' เลยค่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "มะ... ไม่ใช่อย่างนั้นนะคะ! อาริสึต้อง... พวกเราต้อง! ทำได้แน่นอนค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ผะ... ผู้กล้าน่ะ... ไม่หวาดกลัวก่อนออกผจญภัยหรอกค่ะ... แง!"
+    },
+    {
+      "Text": "[s] (แต่เหมือนจะหวาดกลัวล่วงหน้าไปแล้วนะ...)"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่การที่มันถูกสร้างขึ้นในดินแดนเหล็กกล้า ก็เหมือนจะมีจุดอ่อนอยู่บ้างนะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "จุดอ่อนอะไรเหรอคะ คุณเอมิ?"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ก็มันเคลื่อนไหวไม่ได้เมื่ออยู่บนกำแพงป้องกันตรงโน้นไง"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ค่ะ... ใช่ค่ะ... บอสขนาดยักษ์ในเกมก็เคลื่อนที่อย่างอิสระไม่ได้... เหมือนกันค่ะ..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ฉันไม่ได้ตั้งใจจะเปรียบเทียบทุกอย่างกับเกมหรอกนะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุ แต่บางทียูสึอาจชี้ให้เห็นประเด็นสำคัญเลยก็ได้นะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ต่อให้เป็นผู้เลื่อมใสของเดคาแกรมมาทอนหรือเป็นสิ่งที่มีโครงสร้างสมบูรณ์แบบแค่ไหน แต่ถ้ามันมีมวลของวัตถุ ก็ย่อมมีสิ่งที่หลีกเลี่ยงไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "สิ่งที่หลีกเลี่ยงไม่ได้...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อย่างนี้นี่เอง งั้นปัญหาก็อยู่ที่ความเร็วและระดับความทนทานสินะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ การเคลื่อนย้ายมวลขนาดใหญ่ย่อมต้องใช้พลังงานมหาศาลค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การใช้กำลังส่งที่มากเกินควรจะทำให้เคลื่อนย้ายมวลสารขนาดใหญ่ได้รวดเร็วก็จริง แต่ถ้าทำแบบนี้ ความทนทานของมวลสารนั้นจะลดลงค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แน่นอนว่าตอนนี้เรายังไม่รู้แน่ชัดถึงความแข็งแรงและระดับความทนทานของสารลึกลับที่อยู่ในดินแดน\nเหล็กกล้า"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ตราบใดที่สารนั้นมีมวล ระดับความทนทานของมันก็ย่อมมีขีดจำกัดค่ะ"
+    },
+    {
+      "Text": "[s] \"งั้นก็หมายความว่า...?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ เป็นอย่างนี้ละค่ะ คุณครู"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การโจมตีของเยซ็อดมีข้อจำกัดด้านการเคลื่อนไหว เนื่องจากเยซ็อดเป็นมวลสารขนาดยักษ์ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าจะวางกลยุทธ์โดยอ้างอิงจากข้อเท็จจริงนี้ละก็..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ต้องใช้แผนล่อเป้าสินะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ ฉันคิดอยู่แล้วว่า... คุณต้องทำตามนี้แน่นอน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การโจมตีของเยซ็อด หรือจะพูดให้แม่นยำว่าการโจมตีโดยการเหวี่ยงแขน... เป็นการโจมตีที่ทรงพลัง และอันตรายอย่างยิ่ง"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ก็เห็นได้ชัดว่ามันค่อนข้างเชื่องช้าค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าพวกเรามีคนที่คล่องแคล่วและตอบสนองในภาคสนามได้ทันควัน ก็น่าจะหลีกเลี่ยงการโจมตีของ\nเยซ็อดได้ 1-2 ครั้ง"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะมีขีดจำกัดที่เกิดจากขนาดที่มหึมานั้น"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่อย่างน้อย เรื่องการเบี่ยงเบนสายตาของเยซ็อดก็ไม่น่าจะมีปัญหาค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และในระหว่างนั้น พวกเราก็จะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปฏิบัติการจู่โจมเหนือกำแพงด้วยยานขนส่งค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เสนอแผนการอย่างที่ฉันคิดไว้เลยนะ ฮิมาริ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเป็นคุณในอดีต ก็คงผลักดันแผนการนี้ก่อนใครแล้วละค่ะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่ถ้าเธอในตอนนี้ถึงกับเสนอแผนการแบบนี้ขึ้นมาก่อน ก็หมายความว่า..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ไม่สิ ไม่หรอก... คงหมายความว่าเรากำลังตกอยู่ในสถานการณ์ที่ยากลำบากถึงขนาดนั้นมากกว่า"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เราไม่มีเวลาแล้วค่ะ ริโอะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อื้อ... ก็จริงของเธอ"
+    },
+    {
+      "Text": "[s1] \"เดี๋ยวก่อน ทุกคนรอครูด้วย\""
+    },
+    {
+      "Text": "[s2] \"ครูยังตามไม่ทันน่ะ ขอถามอีกรอบได้มั้ย...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "จริงสินะ ครู"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "สรุปก็คือเราจะส่งใครบางคนไปเป็นเหยื่อล่อเพื่อเบี่ยงเบนความสนใจ แล้วระหว่างนั้นก็จะไปจัดการเยซ็อดน่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่เราก็รับประกันความปลอดภัยของเหยื่อล่อไม่ได้ แล้วก็ไม่แน่ใจด้วยว่าจะโค่นเยซ็อดได้หรือเปล่า"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มันมีความเป็นไปได้สูงที่จะเป็น... แผนการที่ส่งใครบางคนไปเสี่ยงชีวิตน่ะ"
+    },
+    {
+      "Text": "[s3] \"แต่ในฐานะครูของทุกคนแล้ว ครูไม่อยากให้ทำเลย...\""
+    },
+    {
+      "Text": "[s4] \"แต่ในฐานะครูของทุกคนแล้ว ครูไม่อยากยอมรับแผนนี้เลย...\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่ฉันกับฮิมาริก็ไม่เห็นทางเลือกอื่นนอกจากแผนการนี้แล้วละ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถะ... ถ้าอย่างนั้น...! ครั้งนี้อาริสึก็จะ...!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ให้เธอไปไม่ได้หรอก อาริสึ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ทะ... ทำไมล่ะคะ? ถึงอาริสึจะเป็นผู้กล้าฝึกหัด แต่ยังไงก็เป็นผู้กล้านะคะ อาริสึจะปกป้องทุกคน...!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ก็เพราะอย่างนั้นละ ก็เธอคือผู้กล้ายังไงล่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "บางทีเราอาจต้องใช้เธอเป็นไพ่ตายของเราก็ได้"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "หมายความว่าฉันก็จะได้เป็นไพ่ใบหนึ่งด้วยสินะคะ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่... พูดถูกแล้วละ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ยังพยายามทำตัวเองให้ดูเยือกเย็นเหมือนเดิมเลยนะคะ ริโอะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มันคงติดเป็นนิสัยแล้วน่ะ..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉันละไม่ชอบนิสัยแบบนี้ของคุณเลยค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉันโกรธจน... ทนไม่ไหวแล้วค่ะ...!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แต่เคย์ก็โกรธตลอดเวลาอยู่แล้วไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "มันก็ใช่อยู่หรอก... ฮึ่ย จริงๆ เลย! ฉันไม่ได้จะสื่อแบบนั้นสักหน่อยค่ะ!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ไฟกับแมกมาเป็นสิ่งที่ร้อนทั้งคู่! แต่แมกมามันร้อนกว่าอยู่แล้ว! แล้วทำไมถึงจะจุดไฟใส่แมกม่าให้ยิ่งร้อนล่ะคะ!!!"
+    },
+    {
+      "Text": "[s] \"เราไม่มี... วิธีอื่นจริงๆ เหรอ?\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "..."
+    },
+    {
+      "Text": "(บรรยากาศรอบตัวหนักอึ้งขึ้น)"
+    },
+    {
+      "Text": "(ในขณะเดียวกัน เวลาก็ผ่านไปอย่างไม่หยุดยั้ง...)"
+    },
+    {
+      "Name": "???",
+      "Text": "งั้นฉันไปให้เอง"
+    },
+    {
+      "Text": "[ns] \"?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอะ... เอ๋? เอมิ?!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อื้อ แค่ให้ไปล่อสายตาแล้วยื้อเวลาไว้ก็พอใช่มั้ย?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "บะ... แบบนั้นมันน่าจะ...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "นะ... นั่นสิคะ! คุณเอมิ! คุณครูก็เป็นห่วงนะคะ...!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่เป็นไรหรอก แบบนี้แหละมีประสิทธิภาพที่สุดแล้ว มันจริงแท้แน่นอนจนไม่จำเป็นต้องใส่คำว่า 'อาจจะ' หรือ 'บางที' ในประโยคเลยด้วยซ้ำ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ยังไงฉันก็คุ้นเคยกับพื้นที่ แถมฉันก็ทั้งอึด ทั้งคล่องแคล่วอยู่แล้ว"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ตะ... แต่ถึงอย่างนั้นก็เถอะ...! ถ้าเกิดมีอะไรผิดพลาดขึ้นมาละก็...!"
+    },
+    {
+      "Text": "[s5] \"คิดทบทวนอีกครั้งเถอะนะ เอมิ...!\""
+    },
+    {
+      "Text": "[s6] \"ครู... ไม่อยากให้พวกเราต้องบาดเจ็บเลย...!\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "?!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "?!"
+    },
+    {
+      "Text": "(เอมิเดินเข้ามาเงียบๆ แล้วกอดคุณครู)"
+    },
+    {
+      "Text": "[s] \"อะ... เอมิ...?\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ตัวของคุณครูอบอุ่นดีจังเลยนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่เป็นไรหรอก คุณครู"
+    },
+    {
+      "Text": "[s] \"แต่ว่า...\""
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อื้อ ฉันรู้ว่าคุณครูพยายามจะบอกอะไร"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่ว่าฉันไม่เป็นอะไรหรอก"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าห่วงใยพวกเราจริงๆ ละก็ ช่วยเชื่อใจเราในครั้งนี้เถอะนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าเป็นเรื่องปกติที่คุณครูอยากช่วยเหลือนักเรียน งั้นก็เป็นเรื่องปกติที่นักเรียนก็อยากช่วยเหลือคุณครู\nเหมือนกัน"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ถ้าเกิดฉันได้รับบาดเจ็บสาหัสกลับมา"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไว้ตอนนั้นฉันค่อยมาโกรธคุณครูที่ปล่อยให้ฉันไป แล้วคุณครูก็ต้องดูแลฉันไปตลอดชีวิตเลยนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เอาละ งั้นเดี๋ยวฉันกลับมานะ"
+    },
+    {
+      "Text": "[ns] \"เอมิ!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ทุกคน งั้นเราก็เคลื่อนไหวกันเถอะค่ะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "อื้อ มาเริ่มกันเลย"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าอยากให้เอมิกลับมาอย่างปลอดภัย พวกเราก็ต้องเตรียมตัวให้พร้อมก่อน"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่มั้ยล่ะ ครู?"
+    },
+    {
+      "Text": "[s] \"บอกครูหน่อยสิว่าต้องทำอะไรก่อน...\""
+    },
+    {
+      "Text": "[ns] \"เอาละ ทุกคนประจำตำแหน่ง\""
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "รายงานความคืบหน้าจากการซ่อมเครื่องยนต์ค่ะ ตอนนี้เราขึ้นบินฉุกเฉินและลงจอดฉุกเฉินได้แล้วค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ถ้างั้นฉันจะไปที่โรงเก็บยานแล้วเตรียมพร้อมสำหรับลงจอดนะคะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! อาริสึก็จะไปกับโทคิด้วยค่ะ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฉะ... ฉันจะสู้นะคะ...!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฝากระวังหลังให้ด้วยล่ะ ฮิมาริ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "โทคิกับอาริสึคือกำลังหลักและไพ่ลับของเรา..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ส่วนยูสึก็เป็นไปได้ว่าจะแสดงศักยภาพเหนือความคาดหมายในภารกิจแบบนี้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ว่าคุณจำเป็นต้องไปด้วยเหรอคะ ริโอะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ในสนามรบต้องมีผู้ควบคุมกลยุทธ์น่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นไม่ใช่การตัดสินใจที่เกิดจากความรู้สึกว่าต้องรับผิดชอบหรือเป็นหนี้บุญคุณใช่มั้ยคะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันไปละ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เฮ้อ... งั้นก็ช่วยไม่ได้นะคะ คุณครูรู้สึกมั้ยคะว่าหมู่นี้เหมือนโชคของฉันลดลงไปเรื่อยๆ เลย?"
+    },
+    {
+      "Text": "[s] \"อ่า... แต่ยังไงก็ยังมีครูอยู่ที่นี่นะ\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุ พอได้ยินคุณครูพูดแบบนั้น ก็รู้สึกเหมือนโชคที่ดีที่สุดยังคงอยู่กับฉันนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เตรียมแคปซูลลงจอดเรียบร้อยค่ะ จากนี้เราสามารถลงจอดได้ทุกเมื่อค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอาละค่ะ คุณครู"
+    },
+    {
+      "Text": "[s] \"โจมตีได้ตามดุลยพินิจของผู้บัญชาการแนวหน้าเลย\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ทางโรงเก็บยานได้ยินมั้ยคะ? สถานการณ์เป็นยังไงบ้างคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันเพิ่งมาถึงโรงเก็บยานเลยค่ะ ฉันจะเข้าไปในแคปซูลลงจอดแล้วค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "อาริสึ รู้ขั้นตอนอยู่แล้วใช่มั้ยคะ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! อาริสึเรียนรู้มาอย่างดีเลยค่ะ!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ่า... ว่าแต่ต้องเริ่มจากตรงไหนก่อนนะคะ...?"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ดะ... เดี๋ยวฉันช่วยเองนะ อาริสึจัง... เรื่องแบบนี้น่ะ... มันก็เหมือนคู่มือเกมหรืออะไรทำนองนั้นละ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "งั้นฉันฝากอาริสึด้วยนะคะ ยูสึ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เตรียมตัวลงจอดเรียบร้อย เริ่มได้ทุกเมื่อเลย ฮิมาริ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอาละ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้นฉันจะส่งยานขนส่งไปโจมตียังตำแหน่งนั้นนะคะ "
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ใหญ่โตมากจริงๆ เลยนะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "อย่ากลัวให้มากเกินไป ไม่ต้องกังวลด้วย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มาจัดการอย่างมีประสิทธิภาพที่สุดกันเถอะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เริ่มจาก..."
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "กองกำลังที่ประจำการอยู่"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;出擊"
+    },
+    {
+      "Name": "莉央",
+      "Text": "那麼，我來整理一下情況。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "現在有一個已經查明的事實，還有一個必須解決的問題。\n要先聽哪一個呢？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "通常必須解決的「問題」聽起來都比較沉重，還是先談已經查明的事實吧。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "首先，我們已經查明在提法瑞特的種子保管所，\n以及在這裡襲擊我們的十字神名新型兵種的相關情報。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的。那個兵種的型號名稱似乎是[ruby=Labor]「勞工機器人」[/ruby]。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "勞工……機器人？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "也就是勞動者的意思。\n從這個兵種的職責來看，可以稱得上是相當貼切吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "至少就目前掌握的資訊來看，勞工機器人的種類最多有三種。"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，我也有在現場感覺到。\n首先是外部有裝甲包覆，呈長方體形狀的型號。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯！這種型號非常堅固！"
+    },
+    {
+      "Name": "季",
+      "Text": "直觀來看，我想應該可以稱之為「防禦型勞工機器人」。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "再來是裝甲強度比防禦型稍弱，配備有一眼就能看出的巨大砲塔的型號。"
+    },
+    {
+      "Name": "綠",
+      "Text": "雖然在設計層面上不太滿意……不過應該可以稱之為「砲塔型勞工機器人」。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "除，除此之外……還有一種相對較小、疑似是其他兩種型號原型的勞工機器人……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "既然看起來像原型，就稱之為「基本型勞工機器人」吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "通常小巧的東西往往看起來會比較可愛……\n不過這怎麼看都像蜘蛛，實在是沒有那種感覺呢……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "你的意思是蜘蛛不可愛嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "一般而言是這樣。\n當然你的審美本來就比較獨特，並且美學基本上也屬於主觀的領域……"
+    },
+    {
+      "Name": "英美",
+      "Text": "好好好，這個話題就先說到這吧。部長、會長。"
+    },
+    {
+      "Text": "[s]「還有什麼新發現嗎？」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……有。甚至可能是最重要的部分。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "那些勞工機器人，基本上能將周圍的無機物都轉化成鋼鐵大陸的構成成分。"
+    },
+    {
+      "Name": "季",
+      "Text": "也就是說……？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦？所以打從一開始，就是那些傢伙在擴大鋼鐵大陸嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我想應該不是一開始就是這樣的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "勞工機器人開始量產的時間點，應該是在鋼鐵大陸的基本結構與規模建立完成之後。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "而它們之所以接近我們的運輸船，很可能是為了將這艘船變成鋼鐵大陸的一部分。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我們並沒有調查所有勞工機器人的創造紀錄，而且那實際上也是不可能做到的事。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "以目前能查到的結果來看……\n勞工機器人似乎正在重新整備急速擴大的鋼鐵大陸內部構造。"
+    },
+    {
+      "Name": "綠",
+      "Text": "重新整備……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "例如建造結構物，或者修復受損區域……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "以及對擴大過程中吸入的無機物進行同化。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "啊，所以才會對我們的運輸船……"
+    },
+    {
+      "Name": "英美",
+      "Text": "這樣事實的部分算是搞清楚了。\n那麼必須解決的問題是什麼呢，部長？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個部分，說起來其實很容易……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那就是突破耶索德。"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我先整理一下目前已知的，有關於第9名預言者耶索德的情報。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "特別的是，耶索德並沒有原型的型態。"
+    },
+    {
+      "Name": "季",
+      "Text": "那是什麼意思呢，莉央大人？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "以霍德為例，它原本是千年科學學園通訊網的設置單元AI「hub」。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "霍刻瑪是工程船，葛夫拉則是無人探測機。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "這些預言者都是既有的AI系統結構體，\n在連同其AI一起被十字神名駭入後創造出來的。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "唯一能稱得上例外的，大概就是薇娜了吧……\n因為薇娜最早的目擊記錄，出自於數十年前的阿拜多斯沙漠。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "意思是耶索德並非如此對吧，莉央。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯。雖然這只是我的推測……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "耶索德應該是在鋼鐵大陸構築到一定程度之後，才以此為基礎創造的預言者。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "否則我們不可能直到現在才察覺到耶索德如此龐大的訊號。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是啊，這是個合理的推測。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "可以說耶索德不像其他預言者那樣，需要被結構體覆蓋或保有原型……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "而是純粹為了某種目的所製造，經過「最佳化」的預言者對吧？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……應該是這樣沒錯。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "那驚人的體型與威力，恐怕也是這種最佳化的結果。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "怎麼越講越覺得無解了呢……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "不，不會的！愛麗絲……大家一定能做到的！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "勇，勇者……在出發冒險之前不可以害怕……唔哇！"
+    },
+    {
+      "Text": "[s]（看起來已經有點害怕了……）"
+    },
+    {
+      "Name": "英美",
+      "Text": "不過也因為它是在鋼鐵大陸上創造出來的，反而也有值得感到慶幸的地方。"
+    },
+    {
+      "Name": "綠",
+      "Text": "怎麼說呢，英美同學？"
+    },
+    {
+      "Name": "英美",
+      "Text": "你們看，它似乎被固定在屏障上無法移動吧？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "沒，沒錯……在遊戲裡面，超大型BOSS通常也是無法隨意移動的……"
+    },
+    {
+      "Name": "英美",
+      "Text": "我其實沒有要把一切比喻成遊戲的意思……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵，不過剛才柚子可能也說到了一個重點。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "即便是十字神名的預言者，或者經過最佳化的結構體……\n只要具備質量並進行實體化，就一定會有無法避免的限制。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "無法避免的限制……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "原來如此。是速度與耐久性吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯。想移動如此巨大的質量，就勢必需要相對應的能量。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然可以透過高度集中輸出的方式，讓巨大的質量體快速移動……\n不過這樣一來，耐久性自然也會有極限。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "當然我們並不清楚構成鋼鐵大陸的那種神祕物質，\n其強度、硬度與耐久性究竟如何。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過凡是具有質量的實體，就不可能擁有無限的耐久性。"
+    },
+    {
+      "Text": "[s]「也就是說……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯，就是這樣，老師。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "耶索德的攻擊，一定會受到身為巨大質量體的行動限制。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "基於這點來進行作戰的話……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……是佯攻作戰吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是啊。如果是你……這種程度應該跟得上吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "耶索德的攻擊，嚴格來說是「揮動巨大手臂的攻擊」雖然致命而強大……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過也勢必伴隨相對的遲緩與笨重。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "只要我們之中有足夠敏捷且應變能力強的人，或許可以躲避一兩次攻擊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如此巨大的體型，終究還是會面臨一些限制的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "至少要轉移耶索德的注意力，應該不成問題才對。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "接著我們再趁機搭著運輸船……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對屏障上方發動突襲。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "簡直就像是我會提出的戰略呢，陽葵……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……如果是以前的你，可能會不跟我們討論就直接執行吧。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "現在的你居然會先提出想法……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……不，不對。\n應該說我們已經被逼到這種地步了吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……沒時間了，莉央。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是啊……"
+    },
+    {
+      "Text": "[s1]「等等，大家先等一下。」"
+    },
+    {
+      "Text": "[s2]「我好像還沒跟上你們的想法，想再確認一次……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯，老師。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "這是個在某人充當誘餌的同時，對耶索德發動攻擊的作戰。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "除了無法保證誘餌的安全之外，也同樣無法保證一定能順利打倒耶索德。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "換言之，這是個極有可能將某個人推向死亡的……作戰方案。"
+    },
+    {
+      "Text": "[s3]「我……很難贊同這個方法。」"
+    },
+    {
+      "Text": "[s4]「身為你們的……老師。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "不過除了這個之外，我跟陽葵也提不出其他方法了。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "那，那麼……！這次也由愛麗絲……！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "你是不行的，愛麗絲。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "為，為什麼呢？\n愛麗絲雖然還在見習卻也是勇者！所以必須保護身邊的人……！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯，正是因為你是勇者。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "所以你或許會成為我們的王牌。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……意思是我也包含在那之中對吧？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……沒錯。正是如此。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "你還是努力讓自己看起來那麼冷靜啊，莉央。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……這種事我已經習慣了。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "我討厭你這一點。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "真的是……讓人氣到不行……！"
+    },
+    {
+      "Name": "季",
+      "Text": "Kei不是隨時都在生氣嗎？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "雖然是這樣沒錯……啊，真是的！我不是那個意思啦！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "火跟岩漿當然都很燙，但岩漿總是更燙一點嘛！\n為什麼要火上澆油啊！！！"
+    },
+    {
+      "Text": "[s]「真的……沒有其他方法了嗎？」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Text": "（氣氛忽然變得沉重）"
+    },
+    {
+      "Text": "（在沉默之中，時間仍舊流逝著……）"
+    },
+    {
+      "Name": "???",
+      "Text": "那麼，就由我去吧。"
+    },
+    {
+      "Text": "[ns]「！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "咦？英美！？"
+    },
+    {
+      "Name": "英美",
+      "Text": "總之只要吸引注意力和拖延時間就行了吧？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那，那樣好像有點……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "就，就是說啊！英美同學！\n老師他也很擔心……！"
+    },
+    {
+      "Name": "英美",
+      "Text": "沒關係。這樣是最有效率的。\n明確到連「大概」之類的修飾都不需要。"
+    },
+    {
+      "Name": "英美",
+      "Text": "況且我本來就習慣實戰，耐打程度跟速度也不錯。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "可，可是……！萬一出了什麼差錯……！"
+    },
+    {
+      "Text": "[s5]「還是再考慮一下吧，英美……！」"
+    },
+    {
+      "Text": "[s6]「我……不想看到你們受傷……！」"
+    },
+    {
+      "Name": "英美",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "！？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "！？"
+    },
+    {
+      "Text": "（英美靜靜地走近，並抱了過來）"
+    },
+    {
+      "Text": "[s]「英，英美……？」"
+    },
+    {
+      "Name": "英美",
+      "Text": "果然老師的身體溫暖的，很舒服。"
+    },
+    {
+      "Name": "英美",
+      "Text": "沒問題的，老師。"
+    },
+    {
+      "Text": "[s]「但是……！」"
+    },
+    {
+      "Name": "英美",
+      "Text": "嗯，我知道你要說什麼。"
+    },
+    {
+      "Name": "英美",
+      "Text": "但是……真的沒問題的。"
+    },
+    {
+      "Name": "英美",
+      "Text": "如果你真的為我們著想的話，這一次就相信我們吧。"
+    },
+    {
+      "Name": "英美",
+      "Text": "假如老師幫助學生是理所當然的，那麼學生想要幫助老師──也同樣是理所當然的。"
+    },
+    {
+      "Name": "英美",
+      "Text": "萬一我不幸因此受了重傷的話……"
+    },
+    {
+      "Name": "英美",
+      "Text": "到時候我可是會狠狠埋怨老師的，所以要對我負起一輩子的責任哦。"
+    },
+    {
+      "Name": "英美",
+      "Text": "那麼，我出發了。"
+    },
+    {
+      "Text": "[ns]「英美！」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……大家，開始行動吧。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯，開始吧。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "如果想要英美平安回來，我們就必須先有所覺悟。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是吧，老師？"
+    },
+    {
+      "Text": "[s]「……把該做的事告訴我吧。」"
+    },
+    {
+      "Text": "[ns]「那麼，各就各位。」"
+    },
+    {
+      "Name": "季",
+      "Text": "報告引擎修復現況。\n目前緊急起飛與緊急降落皆可執行。"
+    },
+    {
+      "Name": "季",
+      "Text": "我現在將前往機庫，開始進行下降準備。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！愛麗絲會和季一起行動！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我，我會加油的……！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "後方就拜託你了，陽葵。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……季和愛麗絲是我們最強大的戰力與王牌。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然柚子在這類任務中，或許也會有出乎意料的表現……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過……由莉央你親自出動真的合適嗎？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……現場也同樣需要戰術指揮官。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這不是出於你的責任感或虧欠感所做出的情緒性行動吧？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "…………我出發了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "唉……真是的。\n我最近是不是越來越沒有人緣了啊，老師？"
+    },
+    {
+      "Text": "[s]「這個嘛……至少還有我在？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵，看來我的身邊，至少還留著最大的幸運呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "投放艙準備完成。隨時可以下降。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼，老師？"
+    },
+    {
+      "Text": "[s]「聽從前線指揮官的判斷，自主出擊。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "機庫，聽得到嗎？現在情況如何？"
+    },
+    {
+      "Name": "季",
+      "Text": "已抵達機庫。正在搭乘投放艙。"
+    },
+    {
+      "Name": "季",
+      "Text": "愛麗絲，流程都記得吧？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！愛麗絲，已經都記住了！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "可是……該從哪個開始好呢……？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我，我來幫你，愛麗絲醬……\n這種東西……就像一種遊戲說明書一樣……"
+    },
+    {
+      "Name": "季",
+      "Text": "那麼愛麗絲就交給你了，柚子。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "下降準備完成。\n隨時可以開始，陽葵。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "讓運輸船前往指定位置吧。 "
+    },
+    {
+      "Name": "英美",
+      "Text": "這個體積真的很誇張呢。"
+    },
+    {
+      "Name": "英美",
+      "Text": "不用太過害怕，也不用太過緊張。"
+    },
+    {
+      "Name": "英美",
+      "Text": "有效率地前進吧。"
+    },
+    {
+      "Name": "英美",
+      "Text": "首先──"
+    },
+    {
+      "Name": "英美",
+      "Text": "──從處理駐守兵力開始。"
+    }
+  ]
+}

@@ -1,0 +1,2847 @@
+{
+  "TitleJP": "シスターフッド",
+  "TitleKR": "시스터후드",
+  "TitleEN": "The Sisterhood",
+  "TitleTH": "ชมรมซิสเตอร์",
+  "TitleTW": "修女會",
+  "DescJP": "ある日、合宿中の補習授業部の元へシスターフッドのマリーが訪ねてくる。どうやらアズサが以前助けた生徒の代わりに、お礼を伝えに来たとのことだった。その晩、これからのことを相談するためにヒフミが先生の元を訪れた、と思いきや……？",
+  "DescKR": "보충수업부가 있는 곳으로 마리가 찾아온다. 그녀는 얼마 전 아즈사가 구해준 학생을 대신하여 감사 인사를 전하러 온 것이었다. 그 후 찾아온 심야. 앞으로의 일을 의논하기 위해 히후미를 기다리던 선생님 앞에 하나코가 찾아오며, 상황은 예상치 못한 방향으로 흐른다.",
+  "DescEN": "Mari makes her way to the Make-Up Work Club to offer thanks on behalf of the student that Azusa recently saved. Later, Sensei is waiting to discuss the future with Hifumi when Hanako arrives and the situation takes an unexpected turn.",
+  "DescTH": "มารีเข้ามาพบชมรมชั้นเรียนเสริม เธอมาเพื่อกล่าวคำขอบคุณแทน\nนักเรียนคนหนึ่งที่อาซึสะเคยช่วยไว้ ในกลางดึกคืนนั้น ฮานาโกะแวะ\nเข้ามาหาคุณครูก่อนที่ฮิฟุมิจะเข้ามาเพื่อหารือเกี่ยวกับเรื่องในอนาคต\nสถานการณ์เริ่มไปในทางที่คาดไม่ถึง",
+  "DescTW": "為了替一名碰巧被梓救下的一名學生道謝，瑪麗特地前往別館尋找補課部。當天深夜，為了討論日後的計畫，老師和日步美約好私下見面，然而最後出現在老師眼前的卻是花子，未來的走向似乎越來越令人無法捉摸。",
+  "DialogJP": [
+    {
+      "Text": "第2話;シスターフッド"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あ、先生！"
+    },
+    {
+      "Text": "[s] \"ごめんね、ちょっと遅くなっちゃった。\""
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "いえいえ……！あ、ところで見てください！こちら、ちょうど先ほど受けた模試の結果です！"
+    },
+    {
+      "Text": "[s] テストの結果を見る。"
+    },
+    {
+      "Text": "第2次補習授業部模試、結果――"
+    },
+    {
+      "Text": "ハナコ―8点[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "アズサ―58点[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "コハル―49点[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "ヒフミ―64点[007eff]（合格）[-]"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……紙一重の差だった。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "はい！今回は本当に紙一重でした！アズサちゃん、すっごく惜しかったです……！"
+    },
+    {
+      "Name": "コハル",
+      "Text": "み、見た！？ヒフミ、私も結構上がったよ！？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "はい、しかと見ました！コハルちゃん、前回は15点だったのに急に49点まで……伸びしろでは一番です、すごいです！"
+    },
+    {
+      "Name": "コハル",
+      "Text": "ふっ、ふふーん！言ったじゃない、本当の実力は隠してたんだって。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "素晴らしいです……！"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "そして、えっと……は、ハナコちゃんは……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら？ヒフミちゃん、どうしてそんなに声量が下がってしまうのですか？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "最初の試験が2点、次の模試が4点、今回は8点ですよ？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "これは数列として考えたら、あと3回受ければきっと合格圏内に届くはずです♪"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "そ、そう考えたらそうかもしれませんが……。"
+    },
+    {
+      "Text": "[s] \"うん、みんな頑張ったね。\""
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "はい！この調子でしたら、思ったより早く目標に届くかもしれません……！"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "必ずや任務を成功させて、あの可愛いやつを受け取ってみせる。それが、私がここにいる理由であり戦う目的だ。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あ、アズサちゃん！？私たちがここにいる理由は試験と勉強であって、目的は落第を免れることですよ！？いつの間に変わって……！？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "そんなこともあったな。ついでにそれもやっておこう。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "「ついで」！？ついでなんですか！？あうぅ……も、モモフレンズファンとしては嬉しくもあるのですが……。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら、どなたかいらっしゃったみたいですね？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "そうですね……この合宿所に、どんな用事で――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "し、失礼いたします……！"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら、この声は……"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "侵入者か。大丈夫、準備はできてる。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "アズサちゃん、準備って……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "きゃぁっ！？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "ブービートラップ。誰かの侵入を感知したら起動するようにしてある。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "アズサちゃん！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "こ、これは一体……？え、あ、こっちにも……！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "きゃぁぁぁっっ！？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "逃げても無駄だ。逃げる方向を予測して、その先にもちゃんと仕掛けてある。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "アズサちゃんっっ！！？！？"
+    },
+    {
+      "Text": "合宿所・入口"
+    },
+    {
+      "Name": "マリー",
+      "Text": "けほっ……けほっけほっ……。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "だ、大丈夫ですか……！？け、怪我とかは……？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "きょ、今日も平和と、安寧が……けほっ、けほっ……あなたと共に、けほっ、ありますように……。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "まずご自分の安寧を心配してください！？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あれ、よく見たらその服装、シスターフッドの……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら、マリーちゃんじゃないですか？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "あ、は、ハナコさん……。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "はい、お水。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "あ、ありがとうございます。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "（こくこく……）"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……ふぅ。びっくりしました、入った途端に何かが作動して……"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "アズサちゃん……。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……。 "
+    },
+    {
+      "Name": "アズサ",
+      "Text": "ごめん、てっきり襲撃かと。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "え、えぇっと……？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "と、ところでどうして、シスターフッドの方がこんなところに……？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "あ、それはその……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "こちらに補習授業部の方々がいらっしゃると聞きまして……ただ、ハナコさんがここにいらっしゃるとは存じておりませんでしたが……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……私も、成績が良くないので。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "そう……でしたか。はい……。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "ハナコ、知り合いなの？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あはは……少しだけご縁があって、と言いますか。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "マリーちゃんは、私を訪ねて……というわけでも無さそうですね。補習授業部に、どういった用事で？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "あ、はい。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "本日は、補習授業部の[ruby=しらす]白洲[/ruby]アズサさんを訪ねてこちらに参りました。伺ったところ、ここにいらっしゃると聞きまして。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "私？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "はい。実は、先日アズサさんが助けてくださった生徒の方から、感謝をお伝えしたいとのことでして。諸事情ありまして、こうして代わりに。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "感謝……？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "クラスメイトの方々から、いじめを受けてしまっていた方がいらっしゃいまして……その日もどうやら突然、建物の裏手に呼び出されてしまったのだと聞きました。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "そ、そんなことが……！？"
+    },
+    {
+      "Name": "コハル",
+      "Text": "いじめ……っ！？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……まあ、聞かない話ではありませんね。みなさん狡猾に、それに陰湿な形で行うせいで、あまり表には出てきにくいですが。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "私たちも、その方から相談を受けてようやく知ったのですが……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "そうして呼び出されてしまった日……そこを偶然通り過ぎたアズサさんが、彼女を助けてくださったとのことで。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "そ、そうなんだ？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……そういえば、そんなこともあったな。ただ、数に物を言わせて弱い対象を虐げる行為が目障りだっただけだ。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "そしてその後アズサさんに怒られた方が、正義実現委員会と連絡を取られて……どこで情報が歪曲されたのか分かりませんが、何やら正義実現委員会とアズサさんの間でそれなりの規模の戦闘に発展してしまったとか……。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "！？"
+    },
+    {
+      "Name": "マリー",
+      "Text": "そうしてアズサさんが催涙弾の倉庫を占拠し、正義実現委員たちを相手にトラップを駆使して、3時間以上戦い続けたと……。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "それってあの時の！？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "何がどうあれ、売られた喧嘩は買う。あの時も弾薬さえ切れてなければもっと長く戦えたし、あれ以上に道連れも増やせたのに。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あ、あうぅ……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "それで、その方が報告も兼ねて私たちの元を訪れてくださり、アズサさんに感謝をしたいと……ただ学園では見つけられずに、ここに辿り着いたという次第です。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……そうか。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "別に、特別感謝されるようなことじゃない。結局私も最終的に捕まったわけだし。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "後半は特に関係無いと思いますが……。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "それにあの事態は気の毒だけど、いつまでも虐げられてるだけじゃダメ。それがたとえ虚しいことであっても、抵抗し続けることを止めるべきじゃない。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……そうかもしれませんね。はい、あの方にもそう伝えておきます。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "アズサさんは、暴力を信奉する氷の魔女……だなんて噂がありましたが、やはり噂は噂ですね。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ふふっ。それはそうですが、アズサちゃんには意外と「氷の魔女」らしいところもありますよ？ほら、他の方からするとちょっとだけ表情も読みにくいですし。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "ハナコさん……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……マリーちゃんが元気そうでよかったです。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "はい、私は……ですが……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "玄関まで送りますね。さあ、一緒に行きましょう。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "あ、はい……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "で、ではみなさん、お邪魔いたしました。先生も、急に訪ねてきてしまってごめんなさい。それでは、また。"
+    },
+    {
+      "Text": "[s] \"うん、気をつけてね。\""
+    },
+    {
+      "Text": "（そうやって、一日が終わろうとしていた。）"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "さあ、では洗濯を始めましょうか。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "みなさん制服や下着や靴下など、洗うものは全部このかごに入れてくださいね。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "ありがとう、よろしく。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "はい……はいっ！？し、下着もですか！？"
+    },
+    {
+      "Name": "コハル",
+      "Text": "なんで！？下着は各自で良いでしょ！？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "洗濯はまとめて一気にした方が水と洗剤の節約になる。ハナコの言ってることは間違ってない。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あ、あうぅ……で、ではお願いします……。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "えぇ……わ、私がおかしいの……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "はい、ありがとうございます♡"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あ、先生は……？"
+    },
+    {
+      "Text": "[s] \"遠慮しておくね。\""
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら、そうですか？では、洗濯機回してきますね。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "何も問題が無ければ、きっと明日の朝までには乾かすところまで終わるはずです♪"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "じゃあ、そろそろ寝る準備をしよう。今日もお疲れ様。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "……うん。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あの、先生ちょっとお話が……後でお部屋に行って良いですか……？その、ハナコちゃんのことで……。"
+    },
+    {
+      "Text": "[s] 静かに頷く。"
+    },
+    {
+      "Text": "先生の部屋"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……失礼します。"
+    },
+    {
+      "Text": "[ns1] 腰を上げる。"
+    },
+    {
+      "Text": "[ns2] ドアを開ける。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "こんばんは、先生。"
+    },
+    {
+      "Text": "[ns] \"……！？\""
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ふふっ、こんなに簡単に開けちゃうなんて♡不用心ですねぇ♡"
+    },
+    {
+      "Text": "[s3] \"ど、どうしてハナコがここに……！？\""
+    },
+    {
+      "Text": "[s4] \"それに、何で水着で……！？\""
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ああ、これについてはお気になさらず。パジャマなので。"
+    },
+    {
+      "Text": "[s] \"パジャマが水着って言われて気にしないわけには……。\""
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "うふふっ。それより先生、ちょっと相談したいことがありまして……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "実は……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……アズサちゃんのことなのですが。"
+    },
+    {
+      "Text": "[s] \"アズサ……？\""
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "し、失礼します……先生、いらっしゃいますか……？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "昨日より遅い時間になってしまってごめんなさい、実は……"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "……え。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……あら。"
+    },
+    {
+      "Text": "[s] \"…………。\""
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "本当に失礼しましたぁ！？ご、ごめんなさい！私、そんなこととは知らずに……！ぜ、全然知らなかったんです本当です！？え、一体いつから！？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……ヒフミちゃん、今「昨日より遅い時間」って言いましたね！？つまり昨晩も来たということですよね！？そうなんですよね！？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "ごめんなさいごめんなさいごめんなさい！？また後で、はダメですよね！？どうすれば良いですか、今晩はやめた方が良いですか！？知らなくてごめんなさい間に入ってごめんなさい空気壊してごめんなさいっ……！？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "待ってくださいヒフミちゃん、詳しく教えてください！昨晩はおふたりで何をしていたんですか、今晩は何をする予定だったのですか！？ぜひ説明を、いえ、いっそ今から私の前で実際に再現を……！！"
+    },
+    {
+      "Text": "[s] \"ふたり共お願いだから、一旦落ち着いて……。\""
+    },
+    {
+      "Text": "（その後何とか落ち着いて話をして、お互いの誤解を解いた。）"
+    },
+    {
+      "Text": "（ついでにハナコはヒフミに怒られてちゃんと着替えてきた。）"
+    },
+    {
+      "Text": "次回;深夜の密会"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;시스터후드"
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 선생님! 오셨군요!"
+    },
+    {
+      "Text": "[s] \"볼일이 있어서 늦었어. 미안.\""
+    },
+    {
+      "Name": "히후미",
+      "Text": "네, 그것보다, 보세요! 방금 친 모두의 모의 시험 결과예요!"
+    },
+    {
+      "Text": "[s] 시험 결과를 확인한다."
+    },
+    {
+      "Text": "제2차 보충수업부 자체 모의 시험 결과"
+    },
+    {
+      "Text": "하나코 - 8점 [FF6666](낙제)[-]"
+    },
+    {
+      "Text": "아즈사 - 58점 [FF6666](낙제)[-]"
+    },
+    {
+      "Text": "코하루 - 49점 [FF6666](낙제)[-]"
+    },
+    {
+      "Text": "히후미 - 64점 [007eff](합격)[-]"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "음. 종이 한 장 차이였어."
+    },
+    {
+      "Name": "히후미",
+      "Text": "네! 맞아요! 아즈사 쨩, 정말로 종이 한 장 차이였어요! 엄청 아까웠어요! "
+    },
+    {
+      "Name": "코하루",
+      "Text": "흐, 흥! 봤지? 나도 꽤 올랐다구?"
+    },
+    {
+      "Name": "히후미",
+      "Text": "네! 코하루 쨩, 저번 시험은 15점이었는데, 이번엔 49점이니, 여기서 제일 성적이 많이 오른 건 코하루 쨩이에요! 굉장해요!"
+    },
+    {
+      "Name": "코하루",
+      "Text": "아하하하. 그렇다니까. 말했잖아. 진짜 힘을 숨기고 있었다고."
+    },
+    {
+      "Name": "히후미",
+      "Text": "네! 맞아요, 엄청나요!"
+    },
+    {
+      "Name": "히후미",
+      "Text": "그리고……. 아, 아우……. 하나코 쨩은……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "후훗. 어머? 히후미 쨩? 왜 목소리가 줄어드는 거죠?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "처음의 평가 시험에서 2점, 그다음 모의시험에서 4점, 이번엔 8점이잖아요?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "2배씩 착실하게 기하급수적으로 오르고 있으니 이대로 세 번만 더 치면 저도 합격권인걸요?"
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아우……. 그, 그렇게 보면 그런 것 같지만……."
+    },
+    {
+      "Text": "[s] \"다들 굉장하네.\""
+    },
+    {
+      "Name": "히후미",
+      "Text": "네, 다들 엄청 열심히 해줘서…… 이대로라면 생각보다 더 빨리 목표에 도달할 수 있을 거 같아요……"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "물론이야. 임무에 성공해서 반드시 그 귀여운 걸 받아내고야 말겠어. 그게 내가 여기 있는 이유니까."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아즈사 쨩?! 우리의 목표는 낙제를 면하는 거라구요? 어느새 목표가 바뀐 것 같은데요?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "아아. 그런 것도 있었지. 그건 원래 겸사겸사 같이하면 되는 2차 목표였어."
+    },
+    {
+      "Name": "히후미",
+      "Text": "2차예요?! 원래 그런 거였어요?! 아, 아우…… 모모프렌즈의 팬으로서 기쁘긴 하지만……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "……응?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머? 누가 찾아왔나 본데요?"
+    },
+    {
+      "Name": "히후미",
+      "Text": "그, 그러게요……. 누가 이 별관에 볼일이 있어서……. "
+    },
+    {
+      "Name": "???",
+      "Text": "저, 저기…… 실례합니다!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머…… 이 목소리는……."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "침입자인가. 그럴 줄 알고 준비해두었지."
+    },
+    {
+      "Name": "히후미",
+      "Text": "네? 아즈사 쨩, 뭘 준비……."
+    },
+    {
+      "Name": "???",
+      "Text": "꺄, 꺄악?!!"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "부비트랩. 함부로 침입했다간 기폭 하게 되어 있지. "
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아즈사 쨔아아앙?!"
+    },
+    {
+      "Name": "???",
+      "Text": "이, 이건 대체……. 아, 앗?! 여기도?!"
+    },
+    {
+      "Name": "???",
+      "Text": "꺄아아아앗?!"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "도망치려고 하면 다음 트랩이 터지게 세팅도 해놨어."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아즈사 쨔아아아앙!!!??"
+    },
+    {
+      "Text": "별관 입구"
+    },
+    {
+      "Name": "마리",
+      "Text": "콜록, 콜록콜록……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "괘, 괜찮으세요?! 다, 다치신 데는 없으신……."
+    },
+    {
+      "Name": "마리",
+      "Text": "오늘도 평화와 안녕이 콜록, 콜록 ……그대와 함께하기를. 콜록."
+    },
+    {
+      "Name": "히후미",
+      "Text": "전혀 평화와 안녕과 관계없는 상황 같지만……?! 아우우?! "
+    },
+    {
+      "Name": "히후미",
+      "Text": "이 복장은…… 시스터후드의……?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머, 마리 쨩?"
+    },
+    {
+      "Name": "마리",
+      "Text": "하, 하나코 씨……."
+    },
+    {
+      "Name": "코하루",
+      "Text": "자, 받아. 물이야."
+    },
+    {
+      "Name": "마리",
+      "Text": "감사합니다……. "
+    },
+    {
+      "Name": "마리",
+      "Text": "(꿀꺽꿀꺽)"
+    },
+    {
+      "Name": "마리",
+      "Text": "……하아. 깜짝 놀랐어요……. 방금 그건 대체……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아즈사 쨔앙……."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "음…… "
+    },
+    {
+      "Name": "아즈사",
+      "Text": "미안하다. 적의 습격인 줄 알았어."
+    },
+    {
+      "Name": "마리",
+      "Text": "……저, 적이요? "
+    },
+    {
+      "Name": "히후미",
+      "Text": "그, 그건 그렇고 시스터후드가 여긴 어쩐 일로……."
+    },
+    {
+      "Name": "마리",
+      "Text": "아…… 그게……."
+    },
+    {
+      "Name": "마리",
+      "Text": "보충수업부의 이야기는 저도 들었어요……. 그치만 하나코 씨가 여기 계신 줄은……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "……. 으응. 저도 낙제생이라서요."
+    },
+    {
+      "Name": "마리",
+      "Text": "그렇…… 네요. 네……. "
+    },
+    {
+      "Name": "코하루",
+      "Text": "하나코, 시스터들과 아는 사이였어?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "아하하…… 조금 인연이 있어서……"
+    },
+    {
+      "Name": "하나코",
+      "Text": "마리 쨩, 절 찾아온 건…… 아닌 것 같고. 어째서 여기에……?"
+    },
+    {
+      "Name": "마리",
+      "Text": "아, 그, 그게……."
+    },
+    {
+      "Name": "마리",
+      "Text": "시라스 아즈사 씨를 찾아왔어요. 여기 계신다고 해서……."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "나를? "
+    },
+    {
+      "Name": "마리",
+      "Text": "네, 그게…… 며칠 전 아즈사 씨가 구해주었던 학생분께서 감사 인사를 드리고 싶다고 해서……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "구해준……?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "감사인사……?"
+    },
+    {
+      "Name": "마리",
+      "Text": "……네. 급우들에게 괴롭힘을 당하는 학생분이 계셨는데, 그날도 구석진 건물 뒤편에 불려 나가서 괴롭힘을 당하고 있었나 봐요."
+    },
+    {
+      "Name": "히후미",
+      "Text": "괴, 괴롭힘요……?!"
+    },
+    {
+      "Name": "코하루",
+      "Text": "뭐어?!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……흔히 있는 일이긴 하죠. 다들 교활하게 음습하게 해서 잘 안 드러나지만."
+    },
+    {
+      "Name": "마리",
+      "Text": "저희도 학생분과 상담을 통해 알게 된 거라……. "
+    },
+    {
+      "Name": "마리",
+      "Text": "그때 우연히 지나가던 아즈사 씨가…… 그 학생분을 구해주셨다고 들었어요."
+    },
+    {
+      "Name": "코하루",
+      "Text": "그, 그랬어?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "……그런 일도 있었지. 여럿이서 약한 사람을 괴롭히는 게 거슬렸을 뿐이야."
+    },
+    {
+      "Name": "마리",
+      "Text": "그치만 아즈사 씨에게 혼난 분이 정의실현부에 신고를 해서, 그 뒤로 정의실현부와 아즈사 씨의 전투로 커져버렸다고 들었어요……."
+    },
+    {
+      "Name": "코하루",
+      "Text": "?!"
+    },
+    {
+      "Name": "마리",
+      "Text": "그때 아즈사 씨가 최루탄 창고를 점거하고 거기서 정의실현부 부원들을 부비트랩으로 3시간 넘게 괴롭혔다고……."
+    },
+    {
+      "Name": "코하루",
+      "Text": "그게 그거였어?!"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "흥. 걸어오는 싸움은 피하지 않아. 그때도 탄약만 떨어지지 않았어도 길동무로 세 명은 더 보낼 수 있었어."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아우……."
+    },
+    {
+      "Name": "마리",
+      "Text": "나중에 그분이 아즈사 씨에게 감사의 인사를 하고 싶다고 상담해주셨는데, 학원에서 찾을 수가 없어서…… 제가 이렇게 찾아온 거였어요."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "그런가……. "
+    },
+    {
+      "Name": "아즈사",
+      "Text": "딱히 감사를 받을 일은 아니야. 내 무력함 때문에 결국 나도 체포되었으니까."
+    },
+    {
+      "Name": "히후미",
+      "Text": "그게 중요한 부분이 아닌 것 같지만……."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "하지만 언제나 그렇게 괴롭힘당하고 있기만 하면 안 돼. 모든 것은 헛되더라도 저항을 멈춰서는 안 되니까."
+    },
+    {
+      "Name": "마리",
+      "Text": "……좋은 말씀이네요. 네, 그렇게 그분께도 전해두겠습니다."
+    },
+    {
+      "Name": "마리",
+      "Text": "……."
+    },
+    {
+      "Name": "마리",
+      "Text": "……아즈사 씨는 폭력만을 신봉하는 얼음마녀라는 소문이 있었는데, 역시 소문은 소문일 뿐이네요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "우후후, 그치만 아즈사 쨩, 얼음마녀같은 부분도 있다구요? 그렇죠? 이 무뚝뚝한 표정이라거나……."
+    },
+    {
+      "Name": "마리",
+      "Text": "하나코 씨……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "응, 마리 쨩, 건강해보이니 좋네요."
+    },
+    {
+      "Name": "마리",
+      "Text": "네……. 그건……. 저는……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그럼 제가 현관까지 배웅해드릴게요. 자아, 같이 가요."
+    },
+    {
+      "Name": "마리",
+      "Text": "……아, 네."
+    },
+    {
+      "Name": "마리",
+      "Text": "그, 그럼 실례했습니다. 선생님. 갑자기 찾아와서 죄송했어요."
+    },
+    {
+      "Text": "[s] \"조심해서 돌아가.\""
+    },
+    {
+      "Text": "(그렇게 하루의 일과가 마무리되었다.)"
+    },
+    {
+      "Name": "하나코",
+      "Text": "자아, 여러분. 오늘은 빨래를 하는 날이에요~"
+    },
+    {
+      "Name": "하나코",
+      "Text": "모두 교복이랑 속옷과 양말, 빨아야 하는 것들을 이 바구니에 다 담아주세요."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "음. 고마워, 부탁할게."
+    },
+    {
+      "Name": "히후미",
+      "Text": "네?! 소, 속옷까지요?!"
+    },
+    {
+      "Name": "코하루",
+      "Text": "뭐 하는 거야?! 속옷은 각자 빨면 되잖아!"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "빨래는 모아서 한꺼번에 하는 게 물과 비누를 아끼는 방법이지. 자, 다들 하나코의 지시에 따라."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아우우……. 그럼 부탁드립니다."
+    },
+    {
+      "Name": "코하루",
+      "Text": "끄, 끄응……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "우후후♡ 고마워요. "
+    },
+    {
+      "Name": "하나코",
+      "Text": "아, 선생님도 괜찮으시면……?"
+    },
+    {
+      "Text": "[s] \"고맙지만 사양할게.\""
+    },
+    {
+      "Name": "하나코",
+      "Text": "……응, 그런가요? 그럼 전 세탁실로 가서 빨래를 돌려놓을게요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "밖에 널어두면 내일 아침에는 깔끔하게 입을 수 있을 거예요."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "그럼 나도 슬슬 잘 준비를 하겠어. 오늘도 수고하셨습니다."
+    },
+    {
+      "Name": "코하루",
+      "Text": "……수고하셨습니다."
+    },
+    {
+      "Name": "히후미",
+      "Text": "(소근소근) ……선생님. 오늘도 잠깐 얘기를……. 저기, 하나코 쨩에 대해서……."
+    },
+    {
+      "Text": "[s] 고개를 끄덕인다."
+    },
+    {
+      "Text": "선생님의 개인실"
+    },
+    {
+      "Name": "???",
+      "Text": "선생님…… 계신가요?"
+    },
+    {
+      "Text": "[ns1] (히후미가 왔다.)"
+    },
+    {
+      "Text": "[ns2] 문을 연다."
+    },
+    {
+      "Name": "하나코",
+      "Text": "네. 선생님 저예요."
+    },
+    {
+      "Text": "[ns] \"………?!?!\""
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머나♡ 이렇게 순순히 열어주실 줄은 몰랐는데. 무방비하셔라♡"
+    },
+    {
+      "Text": "[s3] \"어째서 하나코가……?!\""
+    },
+    {
+      "Text": "[s4] \"어째서 수영복이……?!\""
+    },
+    {
+      "Name": "하나코",
+      "Text": "아아, 복장은 신경쓰진 마세요. 이건 제 잠옷이거든요."
+    },
+    {
+      "Text": "[s] \"신경 쓰이는데요. 잠옷이 아니라 수영복인데요.\""
+    },
+    {
+      "Name": "하나코",
+      "Text": "우후후, 그건 중요하지 않고, 다름이 아니라 상담하고 싶은 게 있는데……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "……그건, 바로……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "……아즈사 쨩에 대해서예요."
+    },
+    {
+      "Text": "[s] \"아즈사……?\""
+    },
+    {
+      "Name": "히후미",
+      "Text": "선생님, 계신가요……? 저예요."
+    },
+    {
+      "Name": "히후미",
+      "Text": "기다리셨죠? 오늘은 늦어서 죄송해요…… 아우……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "……어라."
+    },
+    {
+      "Name": "하나코",
+      "Text": "………………."
+    },
+    {
+      "Text": "[s] \"………………….\""
+    },
+    {
+      "Name": "히후미",
+      "Text": "……………."
+    },
+    {
+      "Name": "히후미",
+      "Text": "시, 실례했습니다?! 저, 저는 그런 것도 모르고, 아, 아우우……?! 저, 전혀 몰랐어요, 저! 그, 그런, 아니, 대체 언제부터?!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "히, 히후미 쨩? 오늘은 늦어서 죄송하다고 그랬죠?! 그, 그 말인 즉, 몇 번이고 여기에 왔었다는 얘기죠……?! 그런 거죠?!"
+    },
+    {
+      "Name": "히후미",
+      "Text": "바, 방해해서 죄송해요! 조, 조금 이따가 올게요, 선생님, 아니, 오, 오늘은 오면 안 되는 거겠죠?! 제, 제가 잘 몰라서…… 누, 눈치가 없어서 죄송해요, 아우, 아우우……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "잠깐 기다려요, 어딜 가는 거예요, 좀 더 자세히 알아야겠어요! 둘이서 뭘 하고 있었는지 좀 더 상세하게 설명을, 아니, 가능하면 제 눈앞에서 재현해주시겠어요?"
+    },
+    {
+      "Text": "[s] \"둘 다 조용히 해줘…… 제발…….\""
+    },
+    {
+      "Text": "(어찌저찌 해명을 해서 서로의 오해를 풀었다.)"
+    },
+    {
+      "Text": "(그리고 하나코는 히후미에게 혼나고 옷을 갈아입고 왔다.)"
+    },
+    {
+      "Text": "다음화;비밀 모임"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;The Sisterhood"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Oh, there you are, Sensei!"
+    },
+    {
+      "Text": "[s] \"Sorry I'm late. Something came up.\""
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Don't worry about it. More importantly, take a look! They're our latest mock exam scores!"
+    },
+    {
+      "Text": "[s] Check the test results."
+    },
+    {
+      "Text": "[b]Second Make-Up Work Club Mock Exam Results[/b]"
+    },
+    {
+      "Text": "[b]Hanako: 8 Points [FF6666](Fail)[-][/b]"
+    },
+    {
+      "Text": "[b]Azusa: 58 Points [FF6666](Fail)[-][/b]"
+    },
+    {
+      "Text": "[b]Koharu: 49 Points [FF6666](Fail)[-][/b]"
+    },
+    {
+      "Text": "[b]Hifumi: 64 Points [007eff](Pass)[-][/b]"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Hmm. It was very close."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Yeah, you're doing a lot better! Almost there, Azusa!"
+    },
+    {
+      "Name": "Koharu",
+      "Text": "H-Hey, she's not the only one who improved. My score went up a lot too."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I know! You scored a 15 on your last exam, but now you're up to 49. That's the biggest jump out of all of us!"
+    },
+    {
+      "Name": "Koharu",
+      "Text": "Of course I did! I told you I've been holding back all this time."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Yeah! Keep it up! You're doing great!"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "U-Um... Hanako?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Heehee. What's wrong, Hifumi? Why so sheepish?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I scored a 2 on our first real exam. Then I scored a 4 on our first mock exam. Now I've scored an 8."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "That means I'm steadily doubling my scores each time. At this rate, I just need to take three more tests and I should be passing too, right?"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Well...I suppose so, technically."
+    },
+    {
+      "Text": "[s] \"You're all doing great.\""
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "That's right. We'll all be above passing sooner than I thought if we keep this up."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "I will not stop until I complete my mission and win those cute things. No matter the cost."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Y-You remember the real goal is to avoid failing, right?! The rewards were just incentives."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "That's now my secondary objective that I don't mind completing along the way."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Secondary?! I mean, I respect it as a fellow Momo Friends fan, but still..."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Seems we have a visitor."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Y-Yeah, but who would come all the way here to visit us? "
+    },
+    {
+      "Name": "???",
+      "Text": "U-Um... Excuse me!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Oh. That voice sounds like..."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "...an intruder. Good thing I've taken measures."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "What are you talking about, Azu—"
+    },
+    {
+      "Name": "???",
+      "Text": "Ahhh!"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "I set explosive traps to stop intruders."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Azusa..."
+    },
+    {
+      "Name": "???",
+      "Text": "How many did you set? I hope there aren't mo—"
+    },
+    {
+      "Name": "???",
+      "Text": "Ahhh!"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "There's nowhere to run. Naturally, I laid traps along an intruder's likely escape route."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Azusa!!!"
+    },
+    {
+      "Text": "Annex Entrance"
+    },
+    {
+      "Name": "Mari",
+      "Text": "*cough* *cough*"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "A-Are you okay?! You're not hurt, are you?"
+    },
+    {
+      "Name": "Mari",
+      "Text": "May peace and *cough* happiness be with you today. *cough*"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "There's nothing peaceful or happy about this situation! "
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Wait, I know that uniform... Are you from the Sisterhood?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I thought that sounded like you, Mari."
+    },
+    {
+      "Name": "Mari",
+      "Text": "H-Hanako..."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "Here. It's water."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Thank you. "
+    },
+    {
+      "Name": "Mari",
+      "Text": "*gulp* *gulp*"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Phew. That really caught me off guard. What was that just now?"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Azusa..."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Um... "
+    },
+    {
+      "Name": "Azusa",
+      "Text": "I'm sorry. I thought it was an enemy ambush."
+    },
+    {
+      "Name": "Mari",
+      "Text": "M-Me? An enemy? "
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "So what brings someone from the Sisterhood here?"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Right. About that..."
+    },
+    {
+      "Name": "Mari",
+      "Text": "I was told this is where I could find the Make-Up Work Club, but I didn't expect to run into Hanako here."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "It just so happens my grades are terrible."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Oh. So they are... "
+    },
+    {
+      "Name": "Koharu",
+      "Text": "You know her?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Haha. You could say we're acquainted."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "If you're not here for me, then what are you here for?"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Right. Of course."
+    },
+    {
+      "Name": "Mari",
+      "Text": "I've been looking for Shirasu Azusa."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Me? "
+    },
+    {
+      "Name": "Mari",
+      "Text": "Yes. There's a student you rescued recently that wanted to reach out to express her gratitude."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Rescued?"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Gratitude?"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Yes. Azusa helped a student that was being constantly bullied by her classmates. Apparently, she was called to the back of a secluded building and harassed on the day in question."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Someone was harassing the poor girl?!"
+    },
+    {
+      "Name": "Koharu",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "These things happen, sadly. You may not hear about it often, but that's because perpetrators intimidate and coerce their victims into silence."
+    },
+    {
+      "Name": "Mari",
+      "Text": "We only found out ourselves when the student came to us asking for advice."
+    },
+    {
+      "Name": "Mari",
+      "Text": "She told us you rescued her one day when you just happened to be passing by."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "She did?"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "I suppose that did happen. I don't enjoy watching gangs prey on the weak."
+    },
+    {
+      "Name": "Mari",
+      "Text": "As I understand it, one of the attackers you suppressed retaliated by reporting you to the Justice Task Force, which escalated to you and the Task Force engaging in a firefight."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Mari",
+      "Text": "At which point you occupied a tear gas warehouse and held the Justice Task Force off for three whole hours with an assortment of traps."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "That's how all of that started?!"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "I never retreat from a fight. I could have defeated at least three more of your comrades had I not run out of ammunition."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "You have to be kidding me..."
+    },
+    {
+      "Name": "Mari",
+      "Text": "That student came to us wanting to thank you, but since you couldn't be found at the academy...I ended up having to come here."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "So that's it. "
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Her gratitude is undeserved. I ended up being captured in the end."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I don't think that's what's important..."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "But you shouldn't allow yourself to be bullied. Even if everything is meaningless, that is no reason to give up."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Wise words. I'll pass your message along to her."
+    },
+    {
+      "Name": "Mari",
+      "Text": "..."
+    },
+    {
+      "Name": "Mari",
+      "Text": "People say that you're nothing but a violent ice queen, but that couldn't be further from the truth after all."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "That's so sweet, but I wouldn't say those rumors are completely unfounded. Azusa is rather rough around the edges."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Hanako..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Mari. I'm glad to see you're doing well."
+    },
+    {
+      "Name": "Mari",
+      "Text": "I am, however..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I'll show you the way out. Come on—this way."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Oh. Okay..."
+    },
+    {
+      "Name": "Mari",
+      "Text": "I'll be going now. I'm sorry for interrupting, Sensei."
+    },
+    {
+      "Text": "[s] \"Take care.\""
+    },
+    {
+      "Text": "The day's studies came to an end soon after that."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Listen up, everyone! Tonight is laundry night!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Put your uniforms, underwear, socks, and anything else you need to have washed into the basket."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Sure. Thank you for offering."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "You want our underwear too?!"
+    },
+    {
+      "Name": "Koharu",
+      "Text": "I can wash it myself, thank you very much!"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "But doing all of our laundry at once saves water and detergent. Hanako is being efficient. Fall in line. Now."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Fine... Here you go."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Why thank you. ♥ "
+    },
+    {
+      "Name": "Hanako",
+      "Text": "What about you, Sensei? Anything you need washed?"
+    },
+    {
+      "Text": "[s] \"Thanks, but I'm good.\""
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Aw, okay. I'm off to the laundry room, then."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Everything here should be dry by tomorrow morning."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "We should be heading to bed. Good night, everyone."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "'Night."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Sensei. Can I talk to you later? It's about Hanako."
+    },
+    {
+      "Text": "[s] Nod."
+    },
+    {
+      "Text": "Sensei's Room"
+    },
+    {
+      "Name": "???",
+      "Text": "Are you there, Sensei?"
+    },
+    {
+      "Text": "[ns1] \"(That must be Hifumi.)\""
+    },
+    {
+      "Text": "[ns2] Open the door."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Hi, Sensei. It's me."
+    },
+    {
+      "Text": "[ns] \"...?!\""
+    },
+    {
+      "Name": "Hanako",
+      "Text": "That was a lot easier than I was expecting. You really wanted me to come in, didn't you? ♥"
+    },
+    {
+      "Text": "[s3] \"What are you doing here?!\""
+    },
+    {
+      "Text": "[s4] \"Why are you in your swimsuit?!\""
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Why do you sound so uncomfortable? These are just my pajamas."
+    },
+    {
+      "Text": "[s] \"Since when does a swimsuit pass for pajamas?\""
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Heehee. You worry too much. Anyway, I have an important reason for coming here."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I wanted to talk to you."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "It's about Azusa."
+    },
+    {
+      "Text": "[s] \"Azusa?\""
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Are you there, Sensei? It's me."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Sorry I took so long. I know I'm here later than last night..."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Oh."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "..."
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "..."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I-I'm so sorry! I didn't mean to interrupt! I had no idea the two of you were—I mean, how long has this been going on?!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Hifumi? Did you just say you were in Sensei's room last night too?! How long has THIS been going on?!"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I-I'm sorry! I never would have imposed had I known! I'll c-come back later, Sensei. Wait, no! I should probably leave you two alone for tonight... I'm sorry, I'll talk to you tomorrow, and...!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Where do you think you're going? I want to know what's been going on between you two—all the juicy details. Or better yet, a reenactment would do just fine too."
+    },
+    {
+      "Text": "[s] \"Make it stop... Please make it stop...\""
+    },
+    {
+      "Text": "We eventually managed to clear up the misunderstanding after several more minutes."
+    },
+    {
+      "Text": "Hifumi yelled at Hanako to go change out of her swimsuit as well."
+    },
+    {
+      "Text": "Next Episode;Secret Society"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;ชมรมซิสเตอร์"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อ๊ะ มาแล้วเหรอคะคุณครู!"
+    },
+    {
+      "Text": "[s] \"ขอโทษนะ ครูมีธุระก็เลยออกไปนานหน่อยน่ะ\""
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ไม่เป็นไรหรอกค่ะ ดูนี่สิคะ! ผลการสอบเสมือนจริงที่ทุกคนทำเมื่อกี๊เลยค่ะ!"
+    },
+    {
+      "Text": "[s] ดูผลการสอบ"
+    },
+    {
+      "Text": "ผลการสอบเสมือนจริงครั้งที่ 2 ของชมรมชั้นเรียนเสริม "
+    },
+    {
+      "Text": "ฮานาโกะ - 8 คะแนน [FF6666](ไม่ผ่าน)[-]"
+    },
+    {
+      "Text": "อาซึสะ - 58 คะแนน [FF6666](ไม่ผ่าน)[-]"
+    },
+    {
+      "Text": "โคฮารุ - 49 คะแนน [FF6666](ไม่ผ่าน)[-]"
+    },
+    {
+      "Text": "ฮิฟุมิ - 64 คะแนน [007eff](ผ่าน)[-]"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "อื้ม อีกแค่นิดเดียวเอง"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ใช่ค่ะ! ใช่แล้วค่ะ! อีกแค่นิดเดียวเองค่ะอาซึสะจัง! ใกล้ผ่านเกณฑ์แล้วค่ะ! "
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "ฮะ... ฮึ่ม! เห็นไหมล่ะ? คะแนนของฉันก็ขึ้นมาเยอะเหมือนกันนะ!"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ใช่ค่ะ! การสอบครั้งที่แล้วโคฮารุจังได้ 15 คะแนน แต่ครั้งนี้ได้ 49 คะแนนเลย\nคนที่ทำคะแนนได้มากขึ้นสูงสุดในนี้คือโคฮารุจังค่ะ! ยอดเลย!"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "ฮะฮะฮ่า ก็บอกแล้วไงว่าซ่อนพลังเอาไว้"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ใช่ค่ะ! พลังมหาศาลมากเลยล่ะค่ะ!"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อีกอย่าง... อ่า... เอ่อ... ฮานาโกะจังเค้า..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮุฮุ โอ๊ะ? ทำไมทำเสียงอ่อนแบบนั้นล่ะคะฮิฟุมิจัง?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "การประเมินครั้งแรกทำได้ 2 คะแนน การสอบเสมือนจริงทำได้ 4 คะแนน และครั้งนี้ฉันได้ 8 คะแนนเลยนะคะ!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "คะแนนฉันดีขึ้นเป็น 2 เท่าอย่างสม่ำเสมอเลย ถ้าทำข้อสอบอีกสัก 3 รอบ ฉันก็คงสอบผ่านเหมือนคนอื่นนะคะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อ่า... เอ่อ... มันก็อาจจะเป็นอย่างนั้นก็ได้..."
+    },
+    {
+      "Text": "[s] \"ทุกคนเก่งกันมากเลย\""
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ใช่ค่ะ ทุกคนต่างพยายามกันเป็นอย่างดี แบบนี้พวกเราอาจจะบรรลุเป้าหมายเร็วกว่าที่คิดไว้ก็ได้นะคะ..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ของมันแน่อยู่แล้ว ฉันจะทำภารกิจให้สำเร็จแล้วเอาของขวัญน่ารักๆ มาครองให้ได้\nเพราะมันคือเหตุผลที่ฉันอยู่ที่นี่ไงล่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อะ... อาซึสะจัง?! เป้าหมายของเราคือการสอบให้ผ่านต่างหากล่ะคะ ไปเปลี่ยนเป้าหมายเอาตอนไหนกันคะเนี่ย?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "อ่อ... จริงสินะ งั้นให้เป็นเป้าหมายที่ 2 แล้วกัน"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "หืม?! มีเป้าหมายที่ 2 ด้วยเหรอคะ?! ในฐานะของแฟนคลับ MOMO FRIENDS ฉันรู้สึกปลาบปลื้มใจจัง แต่ก็..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "หืม?!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "โอ๊ะ? เหมือนจะมีใครมานะคะ?"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "นะ... นั่นสิคะ... ใครนะที่มาทำธุระที่อาคารย่อยแห่งนี้... "
+    },
+    {
+      "Name": "???",
+      "Text": "ขะ... ขอโทษที่รบกวนนะคะ!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "โอ๊ะ... เสียงนี้มัน..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ผู้บุกรุกเหรอ? ฉันรู้ว่าจะเกิดเรื่องนี้ก็เลยเตรียมไว้แล้วล่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "คะ? อาซึสะจัง... เตรียมอะไรไว้..."
+    },
+    {
+      "Name": "???",
+      "Text": "อะ... อ๊ายยยย?!!"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "กับดักน่ะ ถ้าบุกรุกตามอำเภอใจก็ต้องโดนระเบิด "
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อะ... อาซึสะจัง?!"
+    },
+    {
+      "Name": "???",
+      "Text": "ทำไมถึง... อ๊ะ?!  ตรงนี้ด้วยเหรอ?!"
+    },
+    {
+      "Name": "???",
+      "Text": "อ๊ายยยยยยยย?!"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ถ้าคิดจะหนีออกไป ก็ต้องเจอกับดักอันต่อไปของฉัน"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อาซึสะจังงง!!!!!"
+    },
+    {
+      "Text": "ทางเข้าอาคารย่อย"
+    },
+    {
+      "Name": "มารี",
+      "Text": "แค่กๆ แค่กๆๆ..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ปะ... เป็นอะไรไหมคะ?! มะ... ไม่ได้บาดเจ็บตรงไหน..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "ขอให้ความสงบสุข แค่กๆ แค่กๆๆ  และความรื่นรมย์จงอยู่กับคุณ แค่กๆ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "นี่ไม่ใช่สถานการณ์ที่เกี่ยวกับความสงบสุขและความรื่นรมย์นะคะ...?!  เฮือกก?! "
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "นี่มันชุด... ชมรมซิสเตอร์...?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ตายแล้ว มารีจัง?"
+    },
+    {
+      "Name": "มารี",
+      "Text": "คะ... คุณฮานาโกะ..."
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "รับน้ำดื่มนี่ไปก่อนสิ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ขอบคุณค่ะ... "
+    },
+    {
+      "Name": "มารี",
+      "Text": "(อึกๆ)"
+    },
+    {
+      "Name": "มารี",
+      "Text": "อ่า... ตกใจหมดเลยค่ะ... เมื่อกี้นี้มัน..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อาซึสะจัง..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "อืม... "
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ขอโทษนะ คิดว่ามีศัตรูบุกเข้ามาซะอีก"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ศัตรูเหรอคะ...? "
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "เอ่อ... ช่างเถอะค่ะ ว่าแต่ชมรมซิสเตอร์มาทำอะไรที่นี่..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "อ่า... คือว่า..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "ฉันเองก็ได้ยินเรื่องของชมรมชั้นเรียนเสริมมาน่ะค่ะ แต่ไม่รู้เลยว่าคุณฮานาโกะอยู่ที่นี่..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อืม... ฉันก็เป็นเด็กสอบตกเหมือนกันค่ะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "อย่างนั้น... เหรอคะ... ค่ะ... "
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "ฮานาโกะรู้จักกับพวกซิสเตอร์เหรอ?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แหะๆๆ... เคยมีความสัมพันธ์กันนิดหน่อยน่ะ..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่รู้สึกว่ามารีจัง... ไม่ได้มาหาฉันนะ มาที่นี่ทำไมเหรอ...?"
+    },
+    {
+      "Name": "มารี",
+      "Text": "อ่า คือ... คือว่า..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "มาหาคุณชิราสึ อาซึสะน่ะค่ะ พอดีได้ยินว่าอยู่ที่นี่..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ฉันเหรอ? "
+    },
+    {
+      "Name": "มารี",
+      "Text": "ใช่ค่ะ คือว่า... นักเรียนที่คุณอาซึสะช่วยไว้เมื่อวันก่อนอยากจะขอบคุณคุณอาซึสะ..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ช่วยไว้...?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ขอบคุณ...?"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ใช่ค่ะ... มีนักเรียนคนหนึ่งที่ถูกเพื่อนร่วมชั้นรังแกค่ะ วันนั้นนักเรียนคนนั้นคงถูกเรียกตัว\nไปหลังตึกที่อยู่ในหลืบแล้วก็ถูกรังแกน่ะค่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ระ... รังแกเหรอคะ...?!"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "ว่าไงนะ?!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "มันคือเรื่องธรรมดาที่เกิดขึ้นได้ค่ะ... แต่พวกนั้นก็มีเล่ห์เหลี่ยมจนไม่มีใครดูออก"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ฉันเองก็รู้มาจากการปรึกษากับนักเรียนค่ะ... "
+    },
+    {
+      "Name": "มารี",
+      "Text": "ได้ยินมาว่าคุณอาซึสะที่บังเอิญผ่านไปตอนนั้น... ได้ช่วยนักเรียนคนนั้นไว้"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "จะ... จริงเหรอ?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "เคยเกิดเรื่องแบบนั้นน่ะ... ฉันแค่รู้สึกรำคาญที่คนหลายคนรังแกคนที่อ่อนแอ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "แต่ว่าคนที่คุณอาซึสะลงโทษไปดันไปร้องเรียนกับชมรมทวงความยุติธรรม\nหลังจากนั้นชมรมทวงความยุติธรรมกับคุณอาซึสะก็เลยต่อสู้กันยกใหญ่..."
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "?!"
+    },
+    {
+      "Name": "มารี",
+      "Text": "เห็นว่าตอนนั้นคุณอาซึสะไปยึดคลังแก๊สน้ำตา แล้วใช้กับดักรังแกสมาชิก\nชมรมทวงความยุติธรรมด้วยอยู่ถึง 3 ชั่วโมงเลย..."
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "เรื่องมันเป็นแบบนี้งั้นเหรอ?!"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ฮึ่ม ฉันไม่ยอมหลีกให้กับการต่อสู้ที่เดินเข้ามาหาหรอก ถ้าตอนนั้นกระสุนไม่หมดไปซะก่อน คงได้ส่งคนไปสวรรค์ได้อีกสักสองสามคนแล้วล่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "เอ่อ..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "หลังจากนั้นนักเรียนคนนั้นก็มาปรึกษากับฉันว่าอยากกล่าวคำขอบคุณแก่คุณอาซึสะค่ะ\nแต่หาตัวคุณอาซึสะในโรงเรียนไม่เจอเลย ฉันก็เลยต้องมาที่นี่แบบนี้ค่ะ"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "งั้นเหรอ...? "
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "แต่มันไม่ใช่เรื่องที่ต้องขอบคุณหรอก สุดท้ายฉันก็โดนจับกุมเพราะอ่อนกำลังไปเอง"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "แต่มันไม่ใช่ส่วนสำคัญนะคะ..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "แต่จะยอมให้ตัวเองถูกรังแกไปตลอดไม่ได้หรอก เราต้องไม่หยุดขัดขืน แม้ท้ายที่สุดแล้ว\nทุกอย่างจะสูญเปล่าก็เถอะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "เป็นคำที่ดีมากเลยค่ะ... แล้วฉันจะไปบอกกับนักเรียนคนนั้นให้นะคะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "ฉันเคยได้ยินข่าวลือว่าคุณอาซึสะคือแม่มดน้ำแข็งที่ศรัทธาแต่ความรุนแรงเท่านั้น...\nแต่ก็สมกับคำว่าข่าวลือนะคะ เพราะมันไม่เป็นความจริงเอาเสียเลย "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮุฮุฮุ แต่ก็มีบางมุมนะคะที่อาซึสะจังเหมือนแม่มดน้ำแข็ง ใช่ไหมคะ? อย่างเช่นหน้านิ่งๆ แบบนี้ไง..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "คุณฮานาโกะ..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อื้อ มารีจังดูแข็งแรงดีนะคะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ค่ะ... คือว่า... ฉัน..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "งั้นฉันเดินไปส่งที่ประตูหน้านะคะ เอาล่ะ ไปกันค่ะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "เอ่อ... ค่ะ"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ถ้างั้น... ขออภัยที่มาหาอย่างกะทันหันนะคะคุณครู"
+    },
+    {
+      "Text": "[s] \"กลับดีๆ นะ\""
+    },
+    {
+      "Text": "(งานของวันนี้สิ้นสุดเพียงเท่านี้)"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เอาล่ะค่ะทุกคน วันนี้คือวันซักผ้าค่ะ~"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ทุกคนช่วยเอาชุดนักเรียน ชุดชั้นใน ถุงเท้าและอื่นๆ ที่ต้องซักมาใส่ตะกร้านี้ไว้นะคะ"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "อื้ม ขอบใจ ฝากด้วยนะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "คะ?!  ชะ... ชุดชั้นในด้วยเหรอคะ?!"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "อะไรกัน?! ชุดชั้นในของตัวเองก็ซักเองสิ!"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "รวมเสื้อผ้าแล้วเอามาซักด้วยกันรอบเดียวสิ ทำแบบนี้จะได้ประหยัดน้ำและผงซักฟอก\nเอาล่ะ ทุกคนทำตามคำสั่งของฮานาโกะสิ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": " อ่า... อ่า คือว่า... งั้นก็... ฝากด้วยนะคะ"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "อะ... อืม...."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮุฮุฮุ♡ ขอบคุณนะคะ "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "จริงสิ คุณครูก็เอามาให้ได้นะคะ..."
+    },
+    {
+      "Text": "[s] \"ขอบใจนะ แต่ขอปฏิเสธดีกว่า\""
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อืม... เอางั้นเหรอคะ? งั้นฉันขอไปที่ห้องซักผ้าแล้วปั่นผ้าทิ้งไว้ก่อนนะคะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ถ้าตากผ้าไว้ข้างนอก คงแห้งทันใส่ในพรุ่งนี้เช้าค่ะ"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "งั้นฉันไปเตรียมเข้านอนละ ขอบคุณทุกคนที่พยายามกันในวันนี้นะ"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "ขอบคุณที่พยายามกันนะ..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "(กระซิบ) คุณครูคะ... คืนนี้ฉันขอคุยด้วย... เอ่อ... เรื่องฮานาโกะจังน่ะค่ะ"
+    },
+    {
+      "Text": "[s] พยักหน้า"
+    },
+    {
+      "Text": "ห้องส่วนตัวของคุณครู"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณครู...อยู่มั้ยคะ?"
+    },
+    {
+      "Text": "[ns1] (ฮิฟุมิมาหา) "
+    },
+    {
+      "Text": "[ns2] เปิดประตู"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฉันเองค่ะคุณครู"
+    },
+    {
+      "Text": "[ns] \".........!?!\""
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ตายจริง♡ คิดไม่ถึงเลยนะคะว่าคุณครูจะเปิดประตูให้ง่ายๆ แบบนี้ ไม่ป้องกันตัวเลยน้า♡"
+    },
+    {
+      "Text": "[s3] \"ทำไมฮานาโกะถึง...?!\""
+    },
+    {
+      "Text": "[s4] \"ทำไมใส่ชุดว่ายน้ำมาล่ะ...?!\""
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อ้อ อย่าใส่ใจชุดของฉันเลยนะคะ นี่คือชุดนอนของฉันน่ะค่ะ"
+    },
+    {
+      "Text": "[s] \"จะไม่ใส่ใจได้ไง นี่มันชุดว่ายน้ำนะ ไม่ใช่ชุดนอนเลย\""
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮิฮิ ชุดไม่ใช่เรื่องสำคัญหรอกค่ะ ที่ฉันมาที่นี่ก็เพราะอยากปรึกษาบางอย่าง..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "นั่นก็คือ..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เรื่องเกี่ยวกับอาซึสะจังค่ะ..."
+    },
+    {
+      "Text": "[s] \"อาซึสะ...?\""
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "คุณครู... อยู่ไหมคะ? ฉันเองค่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "รอนานไหมคะ? ขอโทษที่วันนี้มาช้านะคะ... เอ่อ..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "เอ๊ะ..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "..............."
+    },
+    {
+      "Text": "[s] \"........\""
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "............"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ขะ... ขอโทษค่ะ! ฉันไม่รู้ไม่เห็นอะไร... เอ่อ...! ฉันไม่รู้อะไรเลยค่ะ ไม่เลย! ตะ... แต่ว่า... นี่มันตั้งแต่เมื่อไหร่กัน?!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮะ... ฮิฟุมิจัง? ขอโทษที่ 'วันนี้' มาช้างั้นเหรอคะ?! งั้นหมายความว่า... วันอื่นก็มาที่นี่ด้วย...?! ใช่ไหมคะ?!"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ขะ... ขอโทษที่รบกวนค่ะ! วะ... ไว้อีกเดี๋ยวฉันค่อยมาใหม่แล้วกันค่ะคุณครู ตะ... แต่คืนนี้คง... ไม่ได้แล้วใช่ไหมคะ?! ขอโทษที่ฉันไม่รู้... ขะ... ขอโทษที่ไม่ได้สังเกตเลยนะคะ... ฮือ.."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "จะไปไหนล่ะคะ? อยู่กันก่อนสิ ฉันต้องรู้รายละเอียดให้ได้เลยค่ะ! อธิบายมาเลยนะคะว่าทั้งคู่ทำอะไรกันอยู่ ไม่สิ ถ้าเป็นไปได้ก็ทำให้ฉันดูต่อหน้าเลยก็ได้ค่ะ"
+    },
+    {
+      "Text": "[s] \"ทั้งสองคนเงียบก่อนนะ... ได้โปรดเถอะ...\""
+    },
+    {
+      "Text": "(อธิบายเรื่องที่เกิดขึ้นอย่างละเอียดจนทั้งสองคนหายเข้าใจผิด)"
+    },
+    {
+      "Text": "(และฮานาโกะก็โดนฮิฟุมิดุจนต้องไปเปลี่ยนเสื้อผ้ามา)"
+    },
+    {
+      "Text": "ตอนต่อไป;การประชุมลับ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;修女會"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊，老師！"
+    },
+    {
+      "Text": "[s] 「抱歉，稍微遲到了呢。」"
+    },
+    {
+      "Name": "日步美",
+      "Text": "不會不會……！啊，話說回來請看！這是剛剛模擬測驗的結果！"
+    },
+    {
+      "Text": "[s] 看測驗的結果"
+    },
+    {
+      "Text": "第2次補課部模擬測驗，結果──"
+    },
+    {
+      "Text": "花子──8分[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "梓──58分[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "小春──49分[FF6666]（不合格）[-]"
+    },
+    {
+      "Text": "日步美──64分[007eff]（合格）[-]"
+    },
+    {
+      "Name": "梓",
+      "Text": "……就差一點點。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "沒錯！這次真的就差一點點了！梓醬，真是可惜……"
+    },
+    {
+      "Name": "小春",
+      "Text": "看，看到了嗎？日步美，我也進步了不少唷！？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "嗯，我看到了哦！\n小春醬從之前的15分一下就進步到了49分……是進步程度最大的呢，真厲害！"
+    },
+    {
+      "Name": "小春",
+      "Text": "哼，哼哼！我就說吧，我只是在隱藏實力而已。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "真棒呢……！"
+    },
+    {
+      "Name": "日步美",
+      "Text": "然後是……啊，啊嗚……花，花子醬……"
+    },
+    {
+      "Name": "花子",
+      "Text": "嗯？日步美醬，為什麼要突然說話這麼小聲呢？"
+    },
+    {
+      "Name": "花子",
+      "Text": "一開始考2分，接下來是4分，這次是8分唷？"
+    },
+    {
+      "Name": "花子",
+      "Text": "把它當作是數列的話，只要再考三次的話應該就會及格的♪"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊，啊嗚……話，話是這麼說沒錯啦……"
+    },
+    {
+      "Text": "[s] 「嗯，大家都有努力呢。」"
+    },
+    {
+      "Name": "日步美",
+      "Text": "嗯！照這個狀態的話，或許會比預想中更快達到目標也說不定……！"
+    },
+    {
+      "Name": "梓",
+      "Text": "我一定會成功達成任務，拿到那個可愛的小傢伙給你們看的。\n這就是我在這裡的理由和戰鬥的目的。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "梓，梓醬！？我們在這裡的理由只有考試和唸書，目的是避免留級唷！？\n什麼時候變成那樣了……！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "還有那種事啊。那就順便一起做吧。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "「順便」！？只是順便嗎！？\n啊，啊嗚……雖，雖然作為Momo好友的粉絲我是很高興啦……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀，好像有誰來了唷？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "好像是呢……來這裡是有什麼事──"
+    },
+    {
+      "Name": "???",
+      "Text": "打，打擾了……！"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀，這個聲音是……"
+    },
+    {
+      "Name": "梓",
+      "Text": "是入侵者嗎？沒問題，我已經準備好了。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "梓醬，準備是指……？"
+    },
+    {
+      "Name": "???",
+      "Text": "呀啊！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "是地雷。只要感應到有人入侵就會啟動。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "梓醬！？"
+    },
+    {
+      "Name": "???",
+      "Text": "這，這個是……？咦，啊，這裡也……！？"
+    },
+    {
+      "Name": "???",
+      "Text": "呀啊啊啊！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "逃也沒用的。我已經預測過逃跑的方向，在那邊也做好準備了。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "梓醬！！？！？"
+    },
+    {
+      "Text": "別館．入口"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "咳……咳咳……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "你，你還好吧……！？有，有沒有受傷……？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "希，希望今天平靜跟安寧也……咳咳……和各位，咳，同在……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "請先擔心自己的安寧吧！？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "咦，仔細一看那個服裝，是修女會的……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀，這不是瑪麗醬嗎？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "啊，花，花子同學……"
+    },
+    {
+      "Name": "小春",
+      "Text": "來，請喝點水。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "謝，謝謝。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "（咕嚕咕嚕……）"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "……呼。嚇到我了，才剛進來就好像有什麼啟動了……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "梓醬……"
+    },
+    {
+      "Name": "梓",
+      "Text": "……"
+    },
+    {
+      "Name": "梓",
+      "Text": "抱歉，我還以為是受到了什麼襲擊。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "呃，呃……？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "話，話說回來，為什麼修女會的人會來這裡？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "啊，那是因為……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "聽說補課部的各位在這裡……雖然不知道花子同學也在這裡就是了……"
+    },
+    {
+      "Name": "花子",
+      "Text": "……因為我的成績也不好呀。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "是……這樣啊。嗯……"
+    },
+    {
+      "Name": "小春",
+      "Text": "花子，你認識他嗎？"
+    },
+    {
+      "Name": "花子",
+      "Text": "啊哈哈……該說是有點緣分嗎。"
+    },
+    {
+      "Name": "花子",
+      "Text": "瑪麗醬……好像不是來找我的呢。\n來補課部有什麼事嗎？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "啊，是的。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "今天是為了找補課部的白洲梓同學而來的。\n向其他學生打聽之後，聽說你在這裡。"
+    },
+    {
+      "Name": "梓",
+      "Text": "我？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "是的。其實我是替之前受梓同學幫助的學生表達感謝而來的。\n因為一些原因，才會這樣由我代替他來。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "……？"
+    },
+    {
+      "Name": "梓",
+      "Text": "感謝……？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "有位同學受到了同學的霸凌……聽說某天突然被叫到了大樓的背面。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "發，發生了這種事……！？"
+    },
+    {
+      "Name": "小春",
+      "Text": "霸凌……！？"
+    },
+    {
+      "Name": "花子",
+      "Text": "……確實有聽過這種事。\n而且那些人十分狡猾，總是用一些陰險的手法，所以不太會被發現呢。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "我們也是在那位同學找我們商量後才知道的……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "於是在被叫出去的那天……偶然經過那裡的梓同學幫助了他。"
+    },
+    {
+      "Name": "小春",
+      "Text": "是，是這樣嗎？"
+    },
+    {
+      "Name": "梓",
+      "Text": "……好像有這麼回事。\n不過我只是看不慣仗著自己人多就欺負弱小的行為而已。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "之後被梓同學惹怒的那些人跑去聯絡實現正義部……\n最後才會發展成實現正義部和梓同學之間的戰鬥……"
+    },
+    {
+      "Name": "小春",
+      "Text": "！？"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "後來梓同學佔領了催淚彈的倉庫，\n使用陷阱和實現正義部的成員們持續戰鬥了3個小時以上……"
+    },
+    {
+      "Name": "小春",
+      "Text": "就是那個時候！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "哼，有人挑釁我就應戰。\n那時候要不是彈藥用光了，我還能擊倒更多人。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊，啊嗚……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "之後那位同學向我們報告了這件事，說是想要感謝梓同學……\n但是在學園裡找不到你，所以才會到這裡來。"
+    },
+    {
+      "Name": "梓",
+      "Text": "……這樣啊。"
+    },
+    {
+      "Name": "梓",
+      "Text": "其實也沒做什麼特別值得感謝的事。畢竟我最後也被抓住了。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "我覺得這跟後半的事好像沒什麼關係……"
+    },
+    {
+      "Name": "梓",
+      "Text": "而且雖然遇到那種事很可憐，也不能就這樣一直被他們欺負下去。\n就算只是徒勞也不應該停止反抗才對。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "……或許是這樣呢。嗯，我會向那位同學轉達的。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "梓同學是信奉暴力的冰之魔女……雖然有這種傳聞，果然也就只是傳聞而已呢。"
+    },
+    {
+      "Name": "花子",
+      "Text": "呵呵。雖然是這樣沒錯，但梓醬意外的有點像「冰之魔女」對吧？\n你看，其他人就有點難看懂他的表情。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "花子同學……"
+    },
+    {
+      "Name": "花子",
+      "Text": "……瑪麗醬看起來很有精神真是太好了。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "嗯，我……但是……"
+    },
+    {
+      "Name": "花子",
+      "Text": "我送你到玄關吧。來，一起走吧。"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "啊，是……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "那，那麼，打擾大家了。老師也是，突然來訪不好意思。那麼先告辭了。"
+    },
+    {
+      "Text": "[s] 「嗯，注意安全哦。」"
+    },
+    {
+      "Text": "（就這樣，一天迎來了尾聲）"
+    },
+    {
+      "Name": "花子",
+      "Text": "來，我們開始洗衣服吧。"
+    },
+    {
+      "Name": "花子",
+      "Text": "請大家把制服、內衣和襪子，需要洗的東西全都放進這個籃子裡哦。"
+    },
+    {
+      "Name": "梓",
+      "Text": "謝謝，麻煩你了。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "嗯……嗯！？內，內衣也要嗎！？"
+    },
+    {
+      "Name": "小春",
+      "Text": "為什麼！？內衣各自洗就好了吧！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "一起洗的話可以省水跟清潔劑。花子說的沒錯。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊，啊嗚……那，那就麻煩你了……"
+    },
+    {
+      "Name": "小春",
+      "Text": "咦……是，是我很奇怪嗎……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "唔呵呵♡謝謝。"
+    },
+    {
+      "Name": "花子",
+      "Text": "啊，老師呢……？"
+    },
+    {
+      "Text": "[s] 「我的就不用了。」"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀，是這樣啊。那我就去洗衣機那裡囉。"
+    },
+    {
+      "Name": "花子",
+      "Text": "要是沒意外的話，應該明天早上就會乾了才對♪"
+    },
+    {
+      "Name": "梓",
+      "Text": "那麼，差不多到該睡覺的時間了。今天各位也辛苦了。"
+    },
+    {
+      "Name": "小春",
+      "Text": "……嗯。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "老師，我有些話想說……那個，是有關花子同學的事……"
+    },
+    {
+      "Text": "[s] 安靜地點頭"
+    },
+    {
+      "Text": "老師的房間"
+    },
+    {
+      "Name": "???",
+      "Text": "……打擾了。"
+    },
+    {
+      "Text": "[ns1] 站起來"
+    },
+    {
+      "Text": "[ns2] 打開門"
+    },
+    {
+      "Name": "花子",
+      "Text": "晚安呀，老師。"
+    },
+    {
+      "Text": "[ns] 「……！？」"
+    },
+    {
+      "Name": "花子",
+      "Text": "呵呵，竟然這麼簡單就打開了♡真是不小心呢♡"
+    },
+    {
+      "Text": "[s3] 「為，為什麼花子會來這裡……！？」"
+    },
+    {
+      "Text": "[s4] 「而且，為什麼穿著泳裝……！？」"
+    },
+    {
+      "Name": "花子",
+      "Text": "啊啊，關於這個請別在意，這是睡衣。"
+    },
+    {
+      "Text": "[s] 「說泳裝是睡衣怎麼可能不在意……」"
+    },
+    {
+      "Name": "花子",
+      "Text": "唔呵呵。比起這個，老師，我有些事想跟您商量……"
+    },
+    {
+      "Name": "花子",
+      "Text": "其實……"
+    },
+    {
+      "Name": "花子",
+      "Text": "……是關於梓醬的事。"
+    },
+    {
+      "Text": "[s] 「梓……？」"
+    },
+    {
+      "Name": "日步美",
+      "Text": "打，打擾了……老師你在嗎……？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "來得比昨天還晚不好意思，其實……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "……咦。"
+    },
+    {
+      "Name": "花子",
+      "Text": "……哎呀。"
+    },
+    {
+      "Text": "[s] 「…………」"
+    },
+    {
+      "Name": "日步美",
+      "Text": "……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "抱，抱歉打擾了！？對，對不起！我不知道那種事就……！\n我，我真的完全不知道真的不知道哦！？咦，是從什麼時候開始的！？"
+    },
+    {
+      "Name": "花子",
+      "Text": "……日步美醬，你剛才說了「來得比昨天還晚」對吧！？\n也就是說你昨天也來過對吧！？我沒說錯吧！？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "對不起對不起對不起！？我等等再來……是不行的對吧！？\n要怎麼辦才好呢，今晚就放棄比較好嗎！？\n我不知道真是抱歉進到房間裡真是抱歉破壞了氣氛真是抱歉……！？"
+    },
+    {
+      "Name": "花子",
+      "Text": "先等一下日步美醬，請你講清楚說明白！\n昨晚你們兩個做了什麼，今晚又約好要做什麼！？\n請好好說明，不，乾脆直接在我面前實際重現一下……！！"
+    },
+    {
+      "Text": "[s] 「算我拜託你們了，先冷靜一下……」"
+    },
+    {
+      "Text": "（之後總算是冷靜下來好好說清楚，解開了彼此的誤會）"
+    },
+    {
+      "Text": "（另外花子被日步美教訓了一頓之後，乖乖去換衣服了）"
+    },
+    {
+      "Text": "下一話;深夜密會"
+    }
+  ]
+}

@@ -1,0 +1,2682 @@
+{
+  "TitleJP": "テストの結果",
+  "TitleKR": "시험의 결과",
+  "TitleEN": "Test Results",
+  "TitleTH": "ผลสอบ",
+  "TitleTW": "試驗的結果",
+  "DescJP": "展示会当日、依頼人の思惑とは裏腹に、会場には真作と贋作が並べられている。それこそが、昨夜ミヨがアキラに提案した、観客の審美眼を試す「賭け」の内容だった。観客が真作に集まり、賭けに勝利したミヨは安堵で倒れる。依頼人は逮捕され、事件は無事解決。その後、アキラは挙動不審になりつつ、先生に展示会のガイドを申し出るのだった。",
+  "DescKR": "결국 내기의 승리는 미요에게로 돌아가고, 특수교역부를 속이려 했던 의뢰인은 사감대에게 체포되며 사건은 마무리된다.",
+  "DescEN": "Miyo emerges as the winner of the wager, and the client is arrested by the Prefectural Council, bringing the incident to a close.",
+  "DescTH": "ในที่สุดมิโยะก็ชนะการเดิมพัน ผู้ว่าจ้างที่พยายามหลอกชมรมการค้าพิเศษ\nก็ถูกทางฝ่ายดูแลหอพักจับกุมตัว ทำให้เหตุการณ์ในครั้งนี้จบลง",
+  "DescTW": "最終美代贏得了賭局，而企圖欺騙特殊交易部的委託人則被舍監隊逮捕，事件告一段落。",
+  "DialogJP": [
+    {
+      "Text": "第10話;テストの結果"
+    },
+    {
+      "Text": "ワイルドハントの校門"
+    },
+    {
+      "Text": "（次の日の朝……）"
+    },
+    {
+      "Name": "観客A",
+      "Text": "すごい人混みだなー！"
+    },
+    {
+      "Name": "観客B",
+      "Text": "さすがベロニカの展示会……何時オープンだっけ？"
+    },
+    {
+      "Name": "観客C",
+      "Text": "みてみて、この絵も展示されるって！"
+    },
+    {
+      "Name": "観客D",
+      "Text": "うそ！？これ、教科書で見たことあるよ！"
+    },
+    {
+      "Text": "（ざわざわ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（……芸術を理解できないくせに、好き勝手盛り上がっているな）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（ニセモノをありがたがるバカどもめ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（……あの頃を思い出すよ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（心血を注いだ私の作品を、非難していた評論家たち……）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（あいつらは、私の描く贋作を褒め称えた）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（絵そのものを見る者などいない）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（興味があるのは、その向こうにある耳心地のいい情報だけ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（大衆は、ハナから審美眼など持ち合わせていないのだ……！）"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]そんなヤツらに――[/log]"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]真作を鑑賞する資格など、ない……！[/log]"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（だから私は、世界の名作を全てすり替えてやると決めたんだ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（無知な奴らの前に晒され、好き勝手に批評されるなど真作にとっては屈辱だろう）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（……昨晩、特殊交易部からも連絡があった）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（依頼を完了した、と）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（……ふっ。いよいよ始まりだ）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（せいぜい、贋作をありがたがるといい）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（お前たちにはそれで十分だ……！）"
+    },
+    {
+      "Name": "展示会のスタッフ",
+      "Text": "まもなくオープンします！"
+    },
+    {
+      "Name": "展示会のスタッフ",
+      "Text": "あらかじめ、チケットをお手元にご用意ください！"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "ふふっ……時間だな。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "さて、行くとするか……！"
+    },
+    {
+      "Text": "ベロニカ特別展・会場"
+    },
+    {
+      "Name": "観客たち",
+      "Text": "（ざわざわ……）"
+    },
+    {
+      "Name": "観客A",
+      "Text": "な、なんだ……？"
+    },
+    {
+      "Name": "観客B",
+      "Text": "えっ、何……？同じ絵が2枚？"
+    },
+    {
+      "Name": "観客C",
+      "Text": "でもあれって……有名な絵だよね？"
+    },
+    {
+      "Name": "観客D",
+      "Text": "え？わざとあんな展示の仕方をしてるのかな？"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "何の騒ぎだ？"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "みんな一か所に集まって……。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "いったいどうしたというんだ。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "ちょっと失礼。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "なっ……なんだこれは！"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "同じ絵が、同時に2枚……！？"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "どっ、どういうことだ……！？"
+    },
+    {
+      "Text": "[log]昨晩――[/log]"
+    },
+    {
+      "Text": "ワイルドハント・空き地"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……あなたは、誰のことも信じていないんですよね？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "みんなには審美眼なんてない、と。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "そうお考えなんですよね？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ええ――その通りです。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "では、もう一つお聞きします。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "あなたはその考えを、試してみたことはありますか？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "試す？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "はい。本当に観客は無知なのか、テストしてみませんか。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふむ――独創的な発想ですね。興味深い。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "いいでしょう。どのように試すのですか？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……『誰が紫、青を愛でるのか』の贋作と真作を、同じ場所に展示します。 "
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……！"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "最初、観客は混乱するはずです。 "
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "でもしばらくして、ふたつのグループに分かれるでしょう。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "ある方は本物の前に。また、ある方は偽物の前に……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "観客が確かな審美眼を持っていれば、本物の前にたくさんの方が集まるはずです。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……もしくは、半々に分かれるか。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……ふむ。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "真作の前にたくさん集まれば、あなたが絵を盗む理由もなくなるはず。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "観客は、自分たちの審美眼を証明したことになるのですから。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふふ……そうですね。 "
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "いいでしょう……その時は、私もこの絵を諦めます。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……でも、そうでなかったときは？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "私の美学こそが正しいと証明された時――お嬢さんは何をしてくださるのですか？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……今度、力をお貸しします。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "特殊交易部の名をもって。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "み、ミヨ……ミヨ！？それはあ、あまりにも危険すぎるよ！？"
+    },
+    {
+      "Name": "フユ",
+      "Text": "もしお客さんたちが、予想通りに動かなかったらどうするの！？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……でも、本物が盗まれるのをただ見てるよりはマシです。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "いいでしょう――その賭けに乗りましょう。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "お嬢さんの美学を尊重いたします。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "絵の展示は私にお任せください。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……ありがとうございます。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――それでは、これにて失礼"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "そう遠からず、別の姿でお 会 いする事になるでしょうけれど――ミヨさん。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……そして、先生も。"
+    },
+    {
+      "Text": "[s] \"またね、怪盗さん。\""
+    },
+    {
+      "Name": "リツ",
+      "Text": "怪盗さん、まったね～！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふふっ……では、その時まで良い夢を。bye！"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ミヨ！本物の方にみんな集まってる……！"
+    },
+    {
+      "Name": "フユ",
+      "Text": "勝ったんだよ、私たち！"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "よ、よかっ……た……。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ミヨっ！？"
+    },
+    {
+      "Name": "リツ",
+      "Text": "ミヨちゃん！？"
+    },
+    {
+      "Name": "観客A",
+      "Text": "ふむ……こっちはなんか違うような。"
+    },
+    {
+      "Name": "観客B",
+      "Text": "同じ絵だけど……そうですね。"
+    },
+    {
+      "Name": "観客C",
+      "Text": "……私もこっちの方が好きかも。"
+    },
+    {
+      "Name": "観客D",
+      "Text": "わたしもわたしも。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "……。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（なぜ……）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（なぜ皆、本物の方に集まる？）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（無知な奴らが、どうして本物に気がつくんだ！？）"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "（それに、特殊交易部は確かに依頼を完了したと……！）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "失礼します。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "な、なんですか？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "『誰が紫、青を愛でるのか』の贋作制作の容疑がかかっております。ご同行願えますか。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "なっ、何だと！？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "詳しい話はあちらで。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ですが、私たちはヴァルキューレではありませんので。あしからず。\n黙秘権は適用されません。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "ちっ、ちがう！私じゃない！！"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "これは、特殊交易部……！そう！全部あいつらがやったんだ！"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……特殊交易部？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ふふっ……。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "……？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ワイルドハントにそんな組織はありません。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "連れていけ。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "ちっ、違う！！私には使命が……\nバカな奴らから芸術を守る使命があるんだ――！"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "今回は私の負けでしたね、後輩のみなさん。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ですが――次の舞台では、加減などいたしませんよ。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ふふっ、ご存じなのでしょう？先生。"
+    },
+    {
+      "Text": "[s] \"……まだ怪盗をやめるつもりはないんだね。\""
+    },
+    {
+      "Name": "ミリア",
+      "Text": "怪盗……何のことでしょうか？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "私は贋作を作った者を逮捕し、特殊交易部の存在を隠しただけの……。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……ただの寮監隊員ですよ。"
+    },
+    {
+      "Text": "[s1] \"つまり……。\""
+    },
+    {
+      "Text": "[s2] \"ここでは、寮監隊員と先生でいたいってこと？\""
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ふふ、そう受け取ってもらって構いません。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ふむ……ですが、度を過ぎた時――先生は私を追うのでしょうか？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "それもかまいません。むしろ、先生になら……。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "先生が私を追いかけてくださることそのものが、美学だといえましょう。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "怪盗は……自らを捕らえてくれる探偵を待ち望んでいるものですから。"
+    },
+    {
+      "Text": "[s] \"ん？ちょっとよく聞こえなかったんだけど……。\""
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……ふふっ、何でもありません。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "そういえば、今日は追加の業務がありまして。"
+    },
+    {
+      "Text": "[s] \"追加の……？\""
+    },
+    {
+      "Name": "ミリア",
+      "Text": "その……せ、先生の、展示会のガイドを……。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "本業務に、ご協力……願えませんでしょうか？"
+    },
+    {
+      "Text": "[s] \"うん、そういうことならよろしくね。\""
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ふ、ふふっ……では。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "まず『誰が紫、青を愛でるのか』、こちらからご案内いたしましょう。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제10화;시험의 결과"
+    },
+    {
+      "Text": "와일드헌트 정문"
+    },
+    {
+      "Text": "(다음 날, 아침.)"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "어이구, 사람들이 많네."
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "역시 <베로니카 특별전>…… 그런데 몇 시에 개장이지?"
+    },
+    {
+      "Name": "관람객 C",
+      "Text": "도록도 봐, 이 그림도 전시된대!"
+    },
+    {
+      "Name": "관람객 D",
+      "Text": "어? 이거 나 미술 교과서에서 본 적 있는데!"
+    },
+    {
+      "Text": "(웅성웅성…….)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(……예술이 무엇인지도 모르면서 다들 잘도 떠드는군.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(눈앞에 위작을 두고도 그것이 위작인 줄도 모를 자들…….)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(……옛날 생각이 나는군.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(내가 심혈을 기울여 그린 나의 오리지널 그림은 그리도 비난하던 평론가들…….)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(하지만 그들 모두 내가 대충 그린 유명 작품의 위작에는 속아 넘어가서 입에 침이 마르도록 찬탄했었지.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(그 누구도 그림 그 자체를 보지 않았어.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(그 그림의 배후에 깔린 허울 좋은 유명세만 볼 뿐.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(사람들에게는, 예술의 진면목을 통찰할 안목이 처음부터 없었던 거야.)"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]그렇기에 사람들에겐 자격이 없어.[/log]"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]진품의 위대한 아우라를 감상할 자격이 없단 말이다……![/log]"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(그렇기에 나는, 세상의 위대한 진품들을 하나하나 위작으로 바꿔 나갈 것이다.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(무지한 이들의 눈과 입에 오르내리는 것은, 위대한 작품들의 입장에서는 수치스러운 일일 테니까.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(……그나저나 어젯밤에 특수교역부에게 연락이 왔었지.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(의뢰를 완료했다고.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(……후후, 좋아. 이제부터 시작이다.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(다들 그 얼빠진 표정으로, 나의 조악한 위작이나 감상하라고.)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(당신들의 수준에는 그 정도면 충분할 테니까……!)"
+    },
+    {
+      "Name": "전시회 관리인",
+      "Text": "자! 이제 개장합니다! 이쪽 입구로 줄 서 주세요!"
+    },
+    {
+      "Name": "전시회 관리인",
+      "Text": "미리 표를 꺼내 두세요!"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "후후, 드디어 시간이 됐군."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "가볼까……!"
+    },
+    {
+      "Text": "베로니카 특별전 전시회장"
+    },
+    {
+      "Name": "관람객들",
+      "Text": "(웅성웅성……)"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "뭐야? 전시가 왜 저렇게 되어 있어?"
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "응……? 왜 똑같은 그림이 두 개나……?"
+    },
+    {
+      "Name": "관람객 C",
+      "Text": "저거 근데…… 유명한 그림 아니야?"
+    },
+    {
+      "Name": "관람객 D",
+      "Text": "뭐지? 일부러 저렇게 걸어 놓은 건가?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "뭐야? 왜 이렇게 앞에서 웅성거려?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "다들 움직이지도 않고……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "대체 무슨 일이야?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "이봐요, 거기 앞에 좀 비켜……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "뭐, 뭐야……?!"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "똑같은 그림 두 개가 한 벽에 걸려 있다고……?!"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "이게 대체 어떻게 된 일이야……!"
+    },
+    {
+      "Text": "[log]어젯밤…….[/log]"
+    },
+    {
+      "Text": "와일드헌트 공터"
+    },
+    {
+      "Name": "미요",
+      "Text": "……괴도님은 사람들을 믿지 않으시죠?"
+    },
+    {
+      "Name": "미요",
+      "Text": "사람들에겐 위작과 진품을 구별할 능력도, 예술적 안목도 없다고 생각하시고요."
+    },
+    {
+      "Name": "미요",
+      "Text": "맞으시죠?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "그렇습니다."
+    },
+    {
+      "Name": "미요",
+      "Text": "그럼 제가 하나 물어볼게요."
+    },
+    {
+      "Name": "미요",
+      "Text": "괴도님의 그 생각을, 시험해 보신 적 있으신가요?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "시험이요?"
+    },
+    {
+      "Name": "미요",
+      "Text": "예. 사람들이 정말로 무지한지, 시험을 해 보자고요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……미학적으로 흥미로운 소리군요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "좋아요, 어떻게 시험할 생각인지?"
+    },
+    {
+      "Name": "미요",
+      "Text": "……<누가 자줏빛과 푸른빛을 귀여워하랴>의 진품과 위작을, 한 공간에 동시에 전시하는 거예요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……!"
+    },
+    {
+      "Name": "미요",
+      "Text": "관람객들이 처음에는 혼란스러워할 거예요."
+    },
+    {
+      "Name": "미요",
+      "Text": "하지만 얼마 안 가 인파는 둘로 갈라지겠죠."
+    },
+    {
+      "Name": "미요",
+      "Text": "누군가는 진품 앞으로, 누군가는 위작 앞으로……."
+    },
+    {
+      "Name": "미요",
+      "Text": "만약 사람들에게 예술적 안목이 내재해 있다면, 진품 앞으로 더 많이 몰려들 거예요."
+    },
+    {
+      "Name": "미요",
+      "Text": "아니라면, 인파는 균등하게 반씩 나눠질 거고요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……호오."
+    },
+    {
+      "Name": "미요",
+      "Text": "만약 진품 앞으로 더 많은 사람들이 모여든다면, 괴도님께선 그림을 훔칠 이유가 없어지겠죠."
+    },
+    {
+      "Name": "미요",
+      "Text": "사람들이 자신들의 예술적 안목을 스스로 증명한 셈이 되니까요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "후후, 그렇군요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "좋습니다. 그렇게 된다면, 저는 이 그림을 훔치는 것만큼은 포기하도록 하죠."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……하지만, 만약 그렇지 않다면요?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "반대로 제 생각이 맞다는 것이 밝혀지면, 그쪽은 저에게 무엇을 해 주실 거죠?"
+    },
+    {
+      "Name": "미요",
+      "Text": "……."
+    },
+    {
+      "Name": "미요",
+      "Text": "……나중에 한 번 일을 도와드릴게요."
+    },
+    {
+      "Name": "미요",
+      "Text": "특수교역부의 이름으로."
+    },
+    {
+      "Name": "후유",
+      "Text": "미요미요미요미요, 이거 너무 도박 아니야?!"
+    },
+    {
+      "Name": "후유",
+      "Text": "만약 우리 생각대로 사람들이 안 움직이면 어쩌려고?!"
+    },
+    {
+      "Name": "미요",
+      "Text": "……눈 뜬 채로 진품을 훔쳐 가는 걸 보는 것보단 낫잖아요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "좋아요. 수락하죠."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "이 또한 제법 미학적 흥미가 동하는 일이니까요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "두 그림을 걸어 두는 작업은 제가 하도록 하겠습니다."
+    },
+    {
+      "Name": "미요",
+      "Text": "……고맙습니다."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "자, 그럼 이제 정말로 헤어질 시간이군요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "언젠가, 또 다른 모습으로 다시 만나길, 미요 양."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……그리고 선생님도요."
+    },
+    {
+      "Text": "[s] \"잘 가, 괴도님.\""
+    },
+    {
+      "Name": "리츠",
+      "Text": "괴도 쨩, 잘 가!!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "후후, 그럼 이만."
+    },
+    {
+      "Name": "후유",
+      "Text": "미요! 진품 쪽으로 사람들이 몰려들고 있어……!"
+    },
+    {
+      "Name": "후유",
+      "Text": "우리가 이겼다고!"
+    },
+    {
+      "Name": "미요",
+      "Text": "……."
+    },
+    {
+      "Name": "미요",
+      "Text": "다, 다행이, 다……."
+    },
+    {
+      "Name": "후유",
+      "Text": "미요?!"
+    },
+    {
+      "Name": "리츠",
+      "Text": "미요 쨩?!"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "확실히…… 이쪽이 분위기가 좀 다른데?"
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "분명 똑같은 그림인데, 어쩐지 느낌이 달라."
+    },
+    {
+      "Name": "관람객 C",
+      "Text": "……나도 이쪽이 좀 더 마음에 드는걸."
+    },
+    {
+      "Name": "관람객 D",
+      "Text": "나도 나도."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(어째서……!)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(어째서 다들 진품 앞으로 몰려드는 거지?!)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(저 무지한 인간들이, 어떻게 진짜를 알아보는 거야……!)"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "(아니 그 이전에, 특수교역부 이놈들, 분명 의뢰를 완수했다고 했는데……!)"
+    },
+    {
+      "Name": "???",
+      "Text": "안녕하십니까."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "무, 무슨 일이시죠?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "<누가 자줏빛과 푸른빛을 귀여워하랴>의 위작 제작 혐의로 체포하겠습니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "뭐, 뭐라고요?!"
+    },
+    {
+      "Name": "미리아",
+      "Text": "자세한 이야기는 가서 하시죠."
+    },
+    {
+      "Name": "미리아",
+      "Text": "다만 저희는 발키리가 아니라서 묵비권은 존중해 드리지 않는 점, 양해 바랍니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "아, 아니야! 내가 아니야!"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "이건 특수교역부! 그래! 특수교역부 그놈들이 벌인 짓이라고!"
+    },
+    {
+      "Name": "미리아",
+      "Text": "특수교역부 라고요……?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "후후, 뭘 모르시는군요."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "……?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "와일드헌트에, 그런 조직은 존재하지 않습니다."
+    },
+    {
+      "Name": "미리아",
+      "Text": "끌고 가."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "아니야! 안 돼! 나에게는 사명이, 무지한 인간들로부터 예술을 지켜야 할 사명이……!"
+    },
+    {
+      "Name": "미리아",
+      "Text": "이번에는 제가 져 버렸군요, 후배님들."
+    },
+    {
+      "Name": "미리아",
+      "Text": "……하지만 다음 승부 때에는 봐주지 않을 거랍니다."
+    },
+    {
+      "Name": "미리아",
+      "Text": "아시겠죠, 선생님?"
+    },
+    {
+      "Text": "[s] \"……아직 괴도를 그만둘 생각은 없는 거구나.\""
+    },
+    {
+      "Name": "미리아",
+      "Text": "흐음? 괴도라니요? 저는 잘 모르겠군요, 선생님."
+    },
+    {
+      "Name": "미리아",
+      "Text": "저는 그저 위작 제작꾼을 체포하고, 특수교역부라는 동아리의 존재를 감춰준……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "……그런 일개 사감대원일 뿐이라서요."
+    },
+    {
+      "Text": "[s1] \"그러니까 여기에서는…….\""
+    },
+    {
+      "Text": "[s2]\"사감대원과 선생님으로만 남자는 거야?\""
+    },
+    {
+      "Name": "미리아",
+      "Text": "네, 그런 셈이죠."
+    },
+    {
+      "Name": "미리아",
+      "Text": "예? 언젠가 정말로 선을 넘으면, 선생님으로서 두고 볼 수 없을지도 모른다고요?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "괜찮습니다. 선생님에게라면, 뭐, 오히려……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "선생님께서 저를 뒤쫓는 것도, 그 자체로 오히려 하나의 미학이 아닐까, 합니다……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "괴도는…… 자기를 붙잡아줄 탐정을 기다리는 법이니까……."
+    },
+    {
+      "Text": "[s] \"응? 괴도는…… 뭐라고?\""
+    },
+    {
+      "Name": "미리아",
+      "Text": "아, 아아, 아니에요."
+    },
+    {
+      "Name": "미리아",
+      "Text": "그나저나, 오늘은 추가적인 업무가 더 배정되어 있는데……."
+    },
+    {
+      "Text": "[s] \"추가적인 업무……?\""
+    },
+    {
+      "Name": "미리아",
+      "Text": "그…… 서, 선생님의 전시회 가이드를 해드리는…… 그러니까 도슨트 업무인데……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "해당 업무에 협조를 부, 부탁드려도 될까요?"
+    },
+    {
+      "Text": "[s] \"그래, 그러면 잘 부탁할게.\""
+    },
+    {
+      "Name": "미리아",
+      "Text": "후, 후후, 그럼……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "먼저 <누가 자줏빛과 푸른빛을 귀여워하랴>, 이 작품부터 보실까요?"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 10;Test Results"
+    },
+    {
+      "Text": "Wildhunt Main Gate"
+    },
+    {
+      "Text": "The next morning."
+    },
+    {
+      "Name": "Visitor A",
+      "Text": "Wow, what a crowd!"
+    },
+    {
+      "Name": "Visitor B",
+      "Text": "As expected of the Veronica Special Exhibition... How long until it opens?"
+    },
+    {
+      "Name": "Visitor C",
+      "Text": "Did you look at the brochure? I didn't know they had THIS painting!!"
+    },
+    {
+      "Name": "Visitor D",
+      "Text": "Oh, yeah. I saw this in a textbook once..."
+    },
+    {
+      "Text": "*rabble rabble*"
+    },
+    {
+      "Name": "Client",
+      "Text": "(...They don't even know what true art is, and they keep yammering.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(These fools wouldn't know a fake if it stared them in the face...)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(...I remember when I started out.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(The critics that condemned my original, soulful works of art...)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(...were the same who were tricked by a forgery I created. Only then were they satisfied..)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(No one tried to see the painting for what it was.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(All they saw was the fame behind it, the reputation, the expectation.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(They never cared about the true essence within.)"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]That's why they don't have the right.[/log]"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]...The right to witness true magnificence..![/log]"
+    },
+    {
+      "Name": "Client",
+      "Text": "(And that is why I will switch the world's \"masterpieces\" with forgeries, one by one.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(True aesthetics, genuine art, is debased by the vapid praises of the ignorant.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(...Most importantly, The Free Trade Cartel contacted me.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(They said their mission was successful.)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(...Fufu, excellent. This is the beginning, you fools!)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(Ready your vacant expressions to gaze in awe upon my crude forgery!)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(This is all you deserve...!)"
+    },
+    {
+      "Name": "Exhibition Manager",
+      "Text": "Our doors are opening! Please line up in an orderly fashion at this gate!"
+    },
+    {
+      "Name": "Exhibition Manager",
+      "Text": "For your convenience, please have your tickets out and ready!"
+    },
+    {
+      "Name": "Client",
+      "Text": "Fufu... It's finally time."
+    },
+    {
+      "Name": "Client",
+      "Text": "And here...we...go."
+    },
+    {
+      "Text": "Veronica Special Exhibition Hall"
+    },
+    {
+      "Name": "Guests",
+      "Text": "*murmuring*"
+    },
+    {
+      "Name": "Visitor A",
+      "Text": "What? This is...different."
+    },
+    {
+      "Name": "Visitor B",
+      "Text": "Huh...? Why'd they put up two of the same painting?"
+    },
+    {
+      "Name": "Visitor C",
+      "Text": "But... This one's famous, isn't it?"
+    },
+    {
+      "Name": "Visitor D",
+      "Text": "Maybe it's some modern art installation?"
+    },
+    {
+      "Name": "Client",
+      "Text": "What's going on? What are you idiots grumbling about?"
+    },
+    {
+      "Name": "Client",
+      "Text": "Move... Come on..."
+    },
+    {
+      "Name": "Client",
+      "Text": "What are you looking at?"
+    },
+    {
+      "Name": "Client",
+      "Text": "Excuse me. Pardon. If I could squeeze by and—"
+    },
+    {
+      "Name": "Client",
+      "Text": "Wh-What...?!"
+    },
+    {
+      "Name": "Client",
+      "Text": "Two...nearly identical paintings displayed in tandem?!"
+    },
+    {
+      "Name": "Client",
+      "Text": "What's going on...?!"
+    },
+    {
+      "Text": "[log]The previous night...[/log]"
+    },
+    {
+      "Text": "Wildhunt Park"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...You say you don't trust people, but it's more than that."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Like our client, you believe that the public can't distinguish between real and fake. You think they lack aesthetic sense."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Is that right?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Correct."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Then...let me ask you one more thing."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Have you ever tested that belief?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Test?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Indeed. I would like to know if the public is as ignorant as you say."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...That's aesthetically intriguing."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Well, then. How would you test such a thing?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...It's simple. We show the people both versions of \"The Love of Purple and Blue Light,\" real and forged."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...!"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "The visitors will be confused at first."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "But soon the crowd will divide. Without explanation or expectation, each person will be drawn to a painting."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Some will stand before the authentic piece, and some will stand before the forged..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Yet, if people inherently possess artistic sensibility, there will ultimately be a bigger crowd admiring the authentic piece."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "And yet, if people are as ignorant as you say, the crowd will end up evenly split."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...Ah."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "If more people gather around the real piece, you'll have no reason to steal the painting."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...Because the public would have proven themselves worthy. Is that not the ray of hope you've been looking for?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Fufu, very clever."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "All right. If it turns out that way, I will cease my pursuit of THIS painting, at least."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...But, what if your experiment fails?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "If I'm proven correct, what are you going to do for me?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...I'll assist you in your next pursuit...."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...with the full power of my Free Trade Cartel."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Miyo-miyo-miyo-miyo, isn't that too much of a gamble?!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "What if the people don't move like we think?!"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...I cannot passively watch and let art be stolen. We are Wildhunt students. We must stand for something."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Very well. I accept."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Since this intrigues me aesthetically..."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "I will sneak in and hang the two paintings. There's a proper way to do these things, I'll have you know."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...Thank you."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Now, it is truly time for us to part."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "I hope to see you again in a different form, Miyo."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...And Sensei."
+    },
+    {
+      "Text": "[s] \"Bye, Madame Thief.\""
+    },
+    {
+      "Name": "Ritsu",
+      "Text": "See ya later, Thiefster!!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Fufu. I'm certain we shall meet again."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Miyo! They're drifting in front of the real one!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "We won! We did it!"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Wh-What a relief."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Miyo?!"
+    },
+    {
+      "Name": "Ritsu",
+      "Text": "Miyo?!"
+    },
+    {
+      "Name": "Visitor A",
+      "Text": "This one...there's something about it."
+    },
+    {
+      "Name": "Visitor B",
+      "Text": "It's the same painting, but it has...more soul?"
+    },
+    {
+      "Name": "Visitor C",
+      "Text": "...I like this one more, too!"
+    },
+    {
+      "Name": "Visitor D",
+      "Text": "Yes, me three!"
+    },
+    {
+      "Name": "Client",
+      "Text": "..."
+    },
+    {
+      "Name": "Client",
+      "Text": "(Why...!)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(Why is everyone gathering in front of the authentic piece?!)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(How do the ignorant, unwashed masses know...? How could they not be fooled by my genius?!)"
+    },
+    {
+      "Name": "Client",
+      "Text": "(And why did the Free Trade Cartel tell me that they finished the job?!)"
+    },
+    {
+      "Name": "???",
+      "Text": "Hello there."
+    },
+    {
+      "Name": "Client",
+      "Text": "Wh-What's going on?"
+    },
+    {
+      "Name": "Miria",
+      "Text": "Fufu. I think you know. This is YOUR work, is it not?"
+    },
+    {
+      "Name": "Client",
+      "Text": "Wh-What?!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "We'll discuss this at the station."
+    },
+    {
+      "Name": "Miria",
+      "Text": "And do note, we are not the Valkyrie. You do not have the right to remain silent."
+    },
+    {
+      "Name": "Client",
+      "Text": "N-No! You got it all wrong."
+    },
+    {
+      "Name": "Client",
+      "Text": "I'm innocent! It was the Free Trade Cartel! They did this!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "Free Trade Cartel...?"
+    },
+    {
+      "Name": "Miria",
+      "Text": "Fufu. You must be mistaken."
+    },
+    {
+      "Name": "Client",
+      "Text": "...Hm?"
+    },
+    {
+      "Name": "Miria",
+      "Text": "There's no such organization in Wildhunt."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Take them away."
+    },
+    {
+      "Name": "Client",
+      "Text": "No! No! I have a mission, a mission to protect art from the ignorant! They cheated!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "So I lost this round, my clever little juniors."
+    },
+    {
+      "Name": "Miria",
+      "Text": "...But I will not be so gentle in our next match."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Isn't that right, Sensei?"
+    },
+    {
+      "Text": "[s] \"...You'll continue being the Thief.\""
+    },
+    {
+      "Name": "Miria",
+      "Text": "Hm? Thief? I haven't the slightest idea what you mean, Sensei."
+    },
+    {
+      "Name": "Miria",
+      "Text": "I'm just an officer of the Prefectural Council..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "...who arrested the forger and...denied the existence of any cartel."
+    },
+    {
+      "Text": "[s1] \"You mean...\""
+    },
+    {
+      "Text": "[s2]\"You'll keep being 'Miria' and I'll be Sensei?\""
+    },
+    {
+      "Name": "Miria",
+      "Text": "I suppose so."
+    },
+    {
+      "Name": "Miria",
+      "Text": "What's that? You'll let me be so long as I don't \"cross the line\"?"
+    },
+    {
+      "Name": "Miria",
+      "Text": "..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Fascinating. If it's you, well, to be frank..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "I think being chased by you would be...a delightful aesthetic."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Every thief wants a good detective to be obsessed with her."
+    },
+    {
+      "Text": "[s] \"Huh? A thief...?\""
+    },
+    {
+      "Name": "Miria",
+      "Text": "Ah, I-It's nothing."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Anyway, I have one more task."
+    },
+    {
+      "Text": "[s] \"One more task...?\""
+    },
+    {
+      "Name": "Miria",
+      "Text": "Uh... W-Well, I was assigned to be your guide, Sensei."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Would you l-like me to show you the exhibition?"
+    },
+    {
+      "Text": "[s] \"Of course! Lead the way!\""
+    },
+    {
+      "Name": "Miria",
+      "Text": "Fu, fufu, very well, then..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "First, let's admire this work, \"The Love of Purple and Blue Light.\""
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 10;ผลสอบ"
+    },
+    {
+      "Text": "ประตูหน้า ไวลด์ฮันต์"
+    },
+    {
+      "Text": "(เช้าวันรุ่งขึ้น)"
+    },
+    {
+      "Name": "ผู้เที่ยวชม A",
+      "Text": "โห คนเยอะจังเลย"
+    },
+    {
+      "Name": "ผู้เที่ยวชม B",
+      "Text": "คงตั้งใจมาชม <นิทรรศการพิเศษเวโรนิก้า> กันสินะ... ว่าแต่งานเปิดกี่โมงเหรอ?"
+    },
+    {
+      "Name": "ผู้เที่ยวชม C",
+      "Text": "ดูสมุดภาพสิ มีภาพนี้จัดแสดงด้วยละ!"
+    },
+    {
+      "Name": "ผู้เที่ยวชม D",
+      "Text": "หืม? ฉันเคยเห็นภาพนี้ในหนังสือเรียนนะ!"
+    },
+    {
+      "Text": "(เสียงพูดคุยจอแจ...)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(พูดพร่ำเสียงดังกันไปหมด ทั้งๆ ที่ไม่รู้ว่าศิลปะคืออะไร...)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ไม่รู้กันด้วยซ้ำว่างานที่อยู่ตรงหน้าไม่ใช่ภาพจริง แต่เป็นภาพปลอม...)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(นึกถึงวันเก่าๆ ขึ้นมาเลยสินะ...)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(วันที่ภาพต้นฉบับที่ฉันสร้างสรรค์ขึ้นมาด้วยจิตวิญญาณถูกตำหนิอย่างหนักจากหมู่นักวิจารณ์...)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(แต่คนพวกนั้นกลับถูกหลอกด้วยภาพปลอมแปลงผลงานชื่อดังที่ฉันวาดขึ้นมาหยาบๆ แล้วก็เอ่ยปากชื่นชมจนแทบจะเลียกันอยู่แล้ว)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ไม่มีใครได้เห็นภาพนั้นจริงจังเลย)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(สิ่งที่ถูกมองเห็นมีแต่ชื่อเสียงอันฉาบฉวยที่อยู่เบื้องหลังภาพนั้น)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(มนุษย์ไม่เคยมีวิสัยทัศน์ที่จะมองทะลุถึงตัวตนที่แท้จริงของศิลปะ)"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]เพราะงั้นพวกมนุษย์จึงไม่คู่ควร[/log]"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]ไม่คู่ควรที่จะได้ชื่นชมเสน่ห์อันยิ่งใหญ่ของสิ่งที่เรียกว่าของแท้ยังไงล่ะ...![/log]"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(เพราะงั้นฉันจะเปลี่ยนผลงานที่ยิ่งใหญ่ในโลกให้กลายเป็นของปลอมทีละชิ้นๆ)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ก็เพราะมันเป็นเรื่องน่าอายที่ผลงานที่ยิ่งใหญ่จะถูกมองเห็นและพูดถึงโดยคนที่โง่เขลาน่ะสิ)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(จริงสิ... เมื่อคืนชมรมการค้าพิเศษติดต่อมา)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(บอกว่าทำภารกิจสำเร็จแล้ว)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ฮุฮุ ดีละ... นี่มันเพิ่งจะเริ่มต้นเท่านั้น)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(เชิญทำสีหน้าโง่เง่าแล้วชื่นชมงานปลอมแปลงหยาบๆ ของฉันได้เลย)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(คนอย่างพวกแกคู่ควรกับอะไรแบบนี้นี่ละ...!)"
+    },
+    {
+      "Name": "ผู้จัดการนิทรรศการ",
+      "Text": "เอาละ! เราจะเปิดให้ชมงานกันแล้วค่ะ! มาเข้าแถวกันที่ทางเข้าตรงนี้นะคะ!"
+    },
+    {
+      "Name": "ผู้จัดการนิทรรศการ",
+      "Text": "หยิบตั๋วเข้างานออกมากันด้วยค่ะ!"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ฮุฮุ ในที่สุดก็ถึงเวลาแล้วสินะ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "เข้าไปดูกันเลย...!"
+    },
+    {
+      "Text": "ห้องจัดแสดง นิทรรศการพิเศษเวโรนิก้า"
+    },
+    {
+      "Name": "กลุ่มผู้เที่ยวชม",
+      "Text": "(เสียงพูดคุยจอแจ...)"
+    },
+    {
+      "Name": "ผู้เที่ยวชม A",
+      "Text": "อะไรน่ะ? ทำไมถึงจัดแสดงแบบนี้ล่ะ?"
+    },
+    {
+      "Name": "ผู้เที่ยวชม B",
+      "Text": "หืม...? มีภาพเดียวกันถึง 2 ภาพเลย...?"
+    },
+    {
+      "Name": "ผู้เที่ยวชม C",
+      "Text": "แต่นั่นมัน... เป็นภาพวาดชื่อดังเลยไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ผู้เที่ยวชม D",
+      "Text": "อะไรเนี่ย? ผู้จัดตั้งใจแขวนไว้คู่กันหรือเปล่า?"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "อะไรกัน? ทำไมข้างหน้าถึงเอะอะกันขนาดนั้น..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "แล้วก็ไม่มีใครเดินออกมาเลยด้วย..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "นี่มันเรื่องอะไรกัน?"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "นี่คุณ ขอทางให้ผมหน่อย..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "อะ... อะไรน่ะ...?!"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ภาพวาดที่เหมือนกันเป๊ะ 2 ภาพแขวนอยู่ที่เดียวกัน...?!"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "นี่มันเรื่องอะไรกัน...!"
+    },
+    {
+      "Text": "[log]คืนก่อน...[/log]"
+    },
+    {
+      "Text": "สนามไวลด์ฮันต์"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "คุณจอมโจรไม่เชื่อคนอื่นใช่มั้ยคะ...?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "แล้วก็คิดว่าผู้คนไม่มีความสามารถและวิสัยทัศน์ทางศิลปะที่จะแยกแยะระหว่างของจริงกับของปลอม\nได้ด้วย"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ใช่มั้ยคะ?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ใช่ค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "งั้นฉันขอถามอะไรอย่างหนึ่งค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "คุณจอมโจรเคยทดสอบดูหรือยังคะว่าความคิดของตัวเองถูกต้อง?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ทดสอบเหรอคะ?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ค่ะ มาทดสอบกันค่ะว่าผู้คนโง่เขลาขนาดนั้นจริงหรือเปล่า"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "เป็นความคิดที่น่าสนใจทางสุนทรียศาสตร์เลยนะคะ..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ก็ดีค่ะ งั้นจะทดสอบยังไงเหรอคะ?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "เราจะเอาทั้งภาพจริงและภาพปลอมของ <ใครเล่าจะหลงใหลสีม่วงกับสีคราม> ไปจัดแสดงด้วยกัน\nในที่เดียวกันค่ะ..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "...!"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ผู้ชมอาจจะสับสนในตอนแรก"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "แต่ในไม่ช้าก็จะแบ่งกันเป็น 2 กลุ่มค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "กลุ่มที่ยืนอยู่หน้าภาพจริง และกลุ่มที่ยืนอยู่หน้าภาพปลอม..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ถ้าผู้คนมีวิสัยทัศน์ทางศิลปะจริงๆ ก็จะไปยืนอยู่หน้าภาพจริงกันเยอะกว่า"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "แต่ถ้าไม่ใช่อย่างนั้น ฝูงชนก็จะแบ่งเป็น 2 ฝ่ายเท่าๆ กันค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "โอ้ว..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ถ้ามีคนไปยืนหน้าภาพจริงมากกว่า คุณจอมโจรก็ไม่มีเหตุผลให้ขโมยภาพนั้นไปค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "นั่นก็เพราะคนพวกนั้นพิสูจน์ให้เห็นวิสัยทัศน์ทางศิลปะของตัวเองแล้วค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฮุฮุ อย่างนี้นี่เองสินะคะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ดีเลยค่ะ ถ้าเป็นอย่างนั้น ฉันก็จะล้มเลิกความตั้งใจที่จะขโมยภาพนั้นค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "แต่ว่า... ถ้าไม่เป็นอย่างนั้นล่ะคะ?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ในทางกลับกัน ถ้าปรากฏว่าความคิดของฉันถูกต้อง แล้วฉันจะได้อะไรจากคุณคะ?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ไว้ฉันจะช่วยงานครั้งหนึ่งค่ะ..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ช่วยในนามของชมรมการค้าพิเศษค่ะ"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "มิโยะมิโยะมิโยะมิโยะ แบบนี้มันเสี่ยงเกินไปหรือเปล่า?!"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ถ้าผู้ชมไม่เคลื่อนไหวตามที่เราคิดกันล่ะจะทำยังไง?!"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ก็ยังดีกว่าการได้เห็นภาพจริงถูกขโมยไปต่อหน้าต่อตาค่ะ..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ก็ได้ค่ะ ฉันรับข้อเสนอนี้"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "นอกจากจะพิสูจน์ความคิดของฉันแล้ว นี่ยังเป็นเรื่องที่กระตุ้นความสนใจทางสุนทรียศาสตร์ด้วยนี่คะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฉันจะจัดการเรื่องการแขวนภาพทั้งสองเองค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ขอบคุณค่ะ..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "เอาละ งั้นก็ถึงเวลาแยกย้ายกันจริงๆ แล้วสินะคะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "หวังว่าเราจะได้เจอกันอีกในรูปลักษณ์ที่แตกต่างออกไปนะคะ มิโยะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "แล้วก็คุณครูด้วยค่ะ..."
+    },
+    {
+      "Text": "[s] \"กลับดีๆ ล่ะ คุณจอมโจร\""
+    },
+    {
+      "Name": "ริตสึ",
+      "Text": "จอมโจรจัง บ๊ายบายนะ!!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฮุฮุ ฉันขอตัวนะคะ"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "มิโยะ! ผู้คนแห่กันไปยืนหน้าภาพจริงกันเพียบเลย...!"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "พวกเราชนะอยู่นะ!"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ละ... โล่งอกไป... ที..."
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "มิโยะ?!"
+    },
+    {
+      "Name": "ริตสึ",
+      "Text": "มิโยะจัง?!"
+    },
+    {
+      "Name": "ผู้เที่ยวชม A",
+      "Text": "ภาพฝั่งนี้... ให้บรรยากาศที่แตกต่างออกไปหน่อยนะ?"
+    },
+    {
+      "Name": "ผู้เที่ยวชม B",
+      "Text": "มันเป็นภาพเดียวกันแท้ๆ แต่ทำไมให้ความรู้สึกแตกต่างกันนะ"
+    },
+    {
+      "Name": "ผู้เที่ยวชม C",
+      "Text": "ฉันก็ถูกใจภาพทางนี้มากกว่าเหมือนกัน..."
+    },
+    {
+      "Name": "ผู้เที่ยวชม D",
+      "Text": "ฉันด้วยๆ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "......"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ทำไมล่ะ...!)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(ทำไมถึงแห่กันไปดูภาพจริงกันหมดเลย?!)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(มนุษย์ที่ไม่มีหัวคิดพวกนั้นดูออกได้ยังไง...!)"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "(เมื่อคืนพวกชมรมการค้าพิเศษยังบอกอยู่เลยว่าทำภารกิจเสร็จสิ้นแล้ว แต่ทำไม...!)"
+    },
+    {
+      "Name": "???",
+      "Text": "สวัสดีค่ะ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "มะ... มีเรื่องอะไรเหรอครับ!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ฉันขอจับกุมคุณในข้อหาปลอมแปลงภาพ <ใครเล่าจะหลงใหลสีม่วงกับสีคราม> ค่ะ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "วะ... ว่าไงนะครับ?!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ไปคุยรายละเอียดกันข้างนอกเถอะค่ะ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "แต่ว่าช่วยทำความเข้าใจด้วยนะคะว่าพวกฉันไม่ใช่วัลคิรี่ เพราะงั้นพวกฉันจะไม่ให้สิทธิ์ในการไม่พูด\nกับคุณหรอกค่ะ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "มะ... ไม่ใช่นะ! ไม่ใช่ฝีมือฉันนะ!"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ชมรมการค้าพิเศษ! ใช่! นี่เป็นฝีมือของพวกชมรมการค้าพิเศษต่างหาก!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ชมรมการค้าพิเศษ... งั้นเหรอคะ...?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ฮุฮุ ไม่รู้อะไรเสียแล้วนะคะ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "...?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ในไวลด์ฮันต์ไม่มีชมรมอะไรแบบนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "เอาตัวไป"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ไม่นะ! ไม่ได้! ฉันมีภารกิจปกป้องงานศิลปะจากมนุษย์ที่ไม่มีหัวคิดนะ...!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ครั้งนี้ฉันแพ้ให้แล้วสินะคะ รุ่นน้องทั้งหลาย"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "แต่ครั้งหน้าฉันจะไม่ยอมให้แน่นอนค่ะ..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ทราบแล้วใช่มั้ยคะ คุณครู?"
+    },
+    {
+      "Text": "[s] \"ยังไม่คิดจะเลิกทำงานจอมโจรสินะ...\""
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "หืม? จอมโจรอะไรกันคะ? พูดอะไรฉันไม่เห็นรู้เรื่องเลยค่ะ คุณครู"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ฉันก็แค่ฝ่ายดูแลหอพักคนหนึ่ง..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ที่มาจับกุมโจรปลอมแปลงภาพ แล้วก็ช่วยปกปิดตัวตนของชมรมการค้าพิเศษก็เท่านั้นค่ะ..."
+    },
+    {
+      "Text": "[s1] \"ตอนนี้อยากสวมบทเป็นนักเรียนธรรมดาๆ กับครูสินะ\""
+    },
+    {
+      "Text": "[s2] \"นี่คือการพูดคุยระหว่างครูกับฝ่ายดูแลหอพักสินะ\""
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ค่ะ ใช่เลยค่ะ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "คะ? ถ้าวันหนึ่งฉันทำอะไรล้ำเส้นเกินไปจริงๆ คุณครูอาจไม่ปล่อยไปง่ายๆ ก็ได้งั้นเหรอคะ?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "......"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ไม่เป็นไรค่ะ ถ้าเป็นคุณครูละก็... ฉันกลับคิดว่า..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "การโดนคุณครูไล่ตามก็น่าจะเป็นสุนทรียศาสตร์อย่างหนึ่งก็ได้ค่ะ..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "นั่นก็เพราะ... จอมโจรย่อมรอให้นักสืบมาจับตัวเองอยู่แล้ว..."
+    },
+    {
+      "Text": "[s] \"หืม? จอมโจร... ทำไมนะ?\""
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "อะ... อ้อ... ไม่มีอะไรหรอกค่ะ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "จะว่าไป วันนี้ฉันได้รับมอบหมายงานเพิ่มมาอีกอย่างหนึ่ง..."
+    },
+    {
+      "Text": "[s] \"ได้งานเพิ่มเหรอ...?\""
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "เป็นงาน... ผะ... ผู้นำชม... ที่ต้องพาคุณครูไปเดินชมให้ทั่วนิทรรศการน่ะ..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ฉันขอ คะ... ความร่วมมือในการทำงานนี้ได้มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"อื้อ งั้นครูก็ฝากตัวด้วยนะ\""
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ฮุ... ฮุฮุ... งั้นก็เชิญเลยค่ะ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "เราเริ่มจากภาพ <ใครเล่าจะหลงใหลสีม่วงกับสีคราม> ก่อนเลยมั้ยคะ?"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第10話;試驗的結果"
+    },
+    {
+      "Text": "狂獵正門"
+    },
+    {
+      "Text": "（隔天早上）"
+    },
+    {
+      "Name": "觀覽者A",
+      "Text": "哎呀，人還真多呢。"
+    },
+    {
+      "Name": "觀覽者B",
+      "Text": "不愧是「Veronica特展」……幾點才開放入場啊？"
+    },
+    {
+      "Name": "觀覽者C",
+      "Text": "快看圖錄，這幅畫也會展出耶！"
+    },
+    {
+      "Name": "觀覽者D",
+      "Text": "咦？我好像有在美術課本上看過！"
+    },
+    {
+      "Text": "（吵吵鬧鬧……）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（……這群連藝術是什麼都不懂的傢伙，還真好意思說三道四）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（明明贗品就擺在眼前卻渾然不知……）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（……讓我不禁想起了以前的往事）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（那些對我傾注心血的原創畫作百般批評的評論家們……）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（全都被我隨便畫的名畫贗品給騙得團團轉，甚至對其讚不絕口）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（沒有任何人看著畫本身）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（他們眼裡就只有畫作背後虛有其表的名氣而已）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（人們自始至終都沒有洞察藝術真正面貌的眼光）"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]所以人們沒有資格──[/log]"
+    },
+    {
+      "Text": "[log=시민 동물6 의뢰인]欣賞真跡那偉大的氣場……！[/log]"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（因此，我才決定要將世上偉大的真跡一一換成贗品）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（被暴露在那些無知之徒面前品頭論足，對偉大的作品而言想必是種屈辱吧）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（……話說回來，昨晚我接到了特殊交易部的聯絡）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（說是委託已經完成了）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（……呵呵，很好。好戲才正要開始）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（你們就用那副呆滯的表情，好好欣賞我那粗劣的偽畫吧）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（以你們的程度，看看那種東西就已經足夠了……！）"
+    },
+    {
+      "Name": "展覽會管理員",
+      "Text": "現在即將開放入場！請在這邊的入口排隊！"
+    },
+    {
+      "Name": "展覽會管理員",
+      "Text": "麻煩先把票拿出來準備！"
+    },
+    {
+      "Name": "委託人",
+      "Text": "呵呵，時間到了。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "走吧……！"
+    },
+    {
+      "Text": "Veronica特展會場"
+    },
+    {
+      "Name": "觀覽者們",
+      "Text": "（吵吵鬧鬧……）"
+    },
+    {
+      "Name": "觀覽者A",
+      "Text": "怎麼回事啊？展覽怎麼會變成這樣？"
+    },
+    {
+      "Name": "觀覽者B",
+      "Text": "嗯……？為什麼同樣的畫會有兩幅……？"
+    },
+    {
+      "Name": "觀覽者C",
+      "Text": "而且那幅……不是很有名的畫嗎？"
+    },
+    {
+      "Name": "觀覽者D",
+      "Text": "什麼意思？是故意這樣安排的嗎？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "怎麼了？前面為什麼吵吵鬧鬧的？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "大家為什麼都不動呢……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "到底發生了什麼事？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "前面的，麻煩借過一下……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "什，什麼……！？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "兩幅一樣的畫掛在同一面牆上……！？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "這到底是怎麼回事……！"
+    },
+    {
+      "Text": "[log]昨晚……[/log]"
+    },
+    {
+      "Text": "狂獵空地"
+    },
+    {
+      "Name": "美代",
+      "Text": "怪盜你……並不相信任何人對吧？"
+    },
+    {
+      "Name": "美代",
+      "Text": "你認為人們沒有分辨贗品和真跡的能力，也不具備所謂審美的眼光。"
+    },
+    {
+      "Name": "美代",
+      "Text": "是這樣沒錯吧？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "正是如此。"
+    },
+    {
+      "Name": "美代",
+      "Text": "那我請教你一個問題。"
+    },
+    {
+      "Name": "美代",
+      "Text": "你有曾經想過要驗證那個想法嗎？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "驗證？"
+    },
+    {
+      "Name": "美代",
+      "Text": "是的。究竟人們是否真如你所想的那麼無知，我們就來實際測試一下吧。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……從美學的角度來看，這倒是個有趣的提議。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "好吧。那麼你打算怎麼驗證呢？"
+    },
+    {
+      "Name": "美代",
+      "Text": "……我打算將《誰會喜愛紫與藍》的真跡和贗品，在同一個空間裡同時展出。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……！"
+    },
+    {
+      "Name": "美代",
+      "Text": "觀眾一開始想必會感到混亂。"
+    },
+    {
+      "Name": "美代",
+      "Text": "然而過不了多久，人潮就會開始分成兩邊。"
+    },
+    {
+      "Name": "美代",
+      "Text": "有些人會停留在真跡前方，有些人則會停留在贗品前方……"
+    },
+    {
+      "Name": "美代",
+      "Text": "假如人們確實具備審美的眼光，就應該有更多人在真跡前聚集。"
+    },
+    {
+      "Name": "美代",
+      "Text": "假如沒有，那麼人潮就應該均等地分成兩半才對。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……哦？"
+    },
+    {
+      "Name": "美代",
+      "Text": "要是聚集在真跡前的人更多，你就沒有理由偷走這幅畫了吧。"
+    },
+    {
+      "Name": "美代",
+      "Text": "因為那等同於是人們親自證明了自己具備欣賞藝術的眼光。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "呵呵，原來如此。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "好吧。如果情況真是如此，我就放棄偷走這幅畫。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……但要是結果並非如此呢？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "如果反過來證明我的想法才是正確的，你們能為我做些什麼呢？"
+    },
+    {
+      "Name": "美代",
+      "Text": "……"
+    },
+    {
+      "Name": "美代",
+      "Text": "……日後我會幫你完成一件事。"
+    },
+    {
+      "Name": "美代",
+      "Text": "而且是以特殊交易部的名義。"
+    },
+    {
+      "Name": "冬",
+      "Text": "美代美代美代美代，這個賭注太大了啦！？"
+    },
+    {
+      "Name": "冬",
+      "Text": "要是觀眾的行動跟我們想的不一樣怎麼辦！？"
+    },
+    {
+      "Name": "美代",
+      "Text": "……總比眼睜睜看著真跡被偷走好吧。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "好，我接受這場賭注。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "畢竟這也頗能引起我的美學興趣。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "掛上兩幅畫的工作就由我來做吧。"
+    },
+    {
+      "Name": "美代",
+      "Text": "……謝謝你。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "那麼，現在真的來到該道別的時刻了。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "期待有朝一日，能以另一種樣貌再次相見，美代同學。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……還有老師也是。"
+    },
+    {
+      "Text": "[s]「祝你一路順風，怪盜同學。」"
+    },
+    {
+      "Name": "律",
+      "Text": "怪盜醬，掰掰囉～！！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "呵呵……那麼，我們後會有期。"
+    },
+    {
+      "Name": "冬",
+      "Text": "美代！人們都聚集到真跡那邊了……！"
+    },
+    {
+      "Name": "冬",
+      "Text": "是我們贏了！"
+    },
+    {
+      "Name": "美代",
+      "Text": "……"
+    },
+    {
+      "Name": "美代",
+      "Text": "太，太好了……"
+    },
+    {
+      "Name": "冬",
+      "Text": "美代！？"
+    },
+    {
+      "Name": "律",
+      "Text": "美代醬！？"
+    },
+    {
+      "Name": "觀覽者A",
+      "Text": "這張的氛圍……好像確實有點不太一樣？"
+    },
+    {
+      "Name": "觀覽者B",
+      "Text": "明明是同一幅畫，卻總覺得有點不同。"
+    },
+    {
+      "Name": "觀覽者C",
+      "Text": "……我也比較喜歡這邊的。"
+    },
+    {
+      "Name": "觀覽者D",
+      "Text": "我也是我也是。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（為什麼……！）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（為什麼所有人都在往真跡那邊聚集！？）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（那些無知的傢伙，是怎麼認出真跡的……！）"
+    },
+    {
+      "Name": "委託人",
+      "Text": "（不對，在那之前……特殊交易部那些傢伙，明明跟我說完成了委託啊……！）"
+    },
+    {
+      "Name": "???",
+      "Text": "您好。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "有，有什麼事嗎？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "在此我以涉嫌製作《誰會喜愛紫與藍》贗品的嫌疑將您逮捕。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "你，你說什麼！？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "詳細情況我們稍後再說。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "不過我們並非女武神，所以不會尊重您的緘默權……這點還請您諒解。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "不，不是！不是我！"
+    },
+    {
+      "Name": "委託人",
+      "Text": "是特殊交易部！\n沒錯！是特殊交易部那些傢伙幹的！"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "特殊交易部……？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "呵呵，看來您什麼都不知道呢。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "……？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "在我們狂獵，並不存在那樣的組織哦。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "帶走。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "不！不行！我還有使命必須完成！\n我得從無知的人類手中守護藝術啊……！"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "這次是我輸了呢，後輩們。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "……不過下次的勝負，我可不會手下留情哦。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "您應該知道吧，老師？"
+    },
+    {
+      "Text": "[s]「……你還不打算放棄當怪盜啊。」"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "怪盜……？\n我不太明白您的意思呢，老師。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "我只不過是個逮捕製作贗品的嫌犯，並隱瞞特殊交易部存在的……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "……普通的舍監隊員罷了。"
+    },
+    {
+      "Text": "[s1]「你的意思是在這裡……」"
+    },
+    {
+      "Text": "[s2]「我們只是舍監隊員和老師的關係？」"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "是的，大致上就是如此。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "嗯？您說要是哪天我真的越線了，身為老師恐怕無法坐視不管？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "那也無妨。如果是老師的話……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "老師追捕我這件事本身，或許也不失為一種美學呢……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "因為怪盜……總是盼望著能夠捉拿自己的偵探出現啊……"
+    },
+    {
+      "Text": "[s]「嗯？你說……什麼怪盜？」"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "啊，啊啊，沒什麼。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "話說回來，我今天還被分配了額外的工作呢……"
+    },
+    {
+      "Text": "[s]「額外的工作……？」"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "就是……帶，帶老師您參觀展覽……也就是擔任導覽員……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "可，可以麻煩您配合這項工作嗎？"
+    },
+    {
+      "Text": "[s]「嗯，那就拜託你囉。」"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "呵，呵呵，那麼……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "就先從《誰會喜愛紫與藍》這幅作品開始說起吧？"
+    }
+  ]
+}

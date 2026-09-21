@@ -1,0 +1,3222 @@
+{
+  "TitleJP": "戦慄のロッカールーム",
+  "TitleKR": "덜컹거리는 캐비닛",
+  "TitleEN": "Rattling Cabinet",
+  "TitleTH": "ตู้ที่มีเสียงกุกกัก",
+  "TitleTW": "搖晃的櫃子",
+  "DescJP": "ユウカたちの繰り出すドローンを制圧し急場をしのいだコユキたち。目標地点の裏門に到達するものの、逆ハッキングにより脱出に失敗してしまう。別の逃げ道を探す中、ユウカとノアが接近してきたため、コユキを引っ張って先生は更衣室のロッカーの中に逃げ込む……。",
+  "DescKR": "드론을 피해 숨은 선생님과 코유키. 그러나 두 사람이 숨은 캐비닛 근처로 노아가 다가와 살피기 시작한다.",
+  "DescEN": "Sensei and Koyuki hide to avoid the drone. But Noa slowly approaches the cabinet the two are hiding in.",
+  "DescTH": "คุณครูกับโคยูกิพยายามซ่อนตัวโดยไม่ให้โดรนจับได้ โนอาเดินเข้ามาใกล้\nตู้ที่ทั้งสองคนซ่อนตัวอยู่แล้วเริ่มตรวจสอบ",
+  "DescTW": "老師和小雪躲避著無人機。然而乃愛往兩人藏身的櫃子附近靠了過來，並開始四處查看。",
+  "DialogJP": [
+    {
+      "Text": "第5話;戦慄のロッカールーム"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "はぁ、はぁ……なんとか、たどり着けましたね……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "本当にドローンを壊さずに制圧できるなんて、さすが先生です！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "お疲れ様でした。予想より順調です。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "「裏口」まで来れたね。\n通用口は他にもいくつかあるんだけど……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "あまり使われていない場所を選びました。ここなら見つからないでしょう。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "あとは開けるだけで……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ん……？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "あれ……？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "このドア……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "開きません……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "どういうこと？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "私もやってみる……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "あれ、どうして……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……！？\nなにこれ、コードが……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……ハレ！逆ハッキングされています！\n急いで対処しないと、位置が！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "そんな、早すぎる……！\nこの人、私たちより一枚[ruby=うわて]上手[/ruby]だ……！"
+    },
+    {
+      "Text": "[s1] \"逆ハッキング……！？\""
+    },
+    {
+      "Text": "[s2] \"コタマとハレよりも！？\""
+    },
+    {
+      "Name": "ハレ",
+      "Text": "先生、早くそこから離れて！\nこのままじゃ、監視カメラも復旧しちゃう！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "真っ向勝負じゃ勝ち目はなさそうです。別口を探さなくては。\nでも、これはまるで……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "この手口……見覚えが……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……まさか、副部長！？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "二人とも、早く逃げてください！！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "そんなぁ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "引き返せってことですか！？\nなんとかなったりしません！？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "残念ですが、分が悪すぎます……！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……早く！"
+    },
+    {
+      "Text": "[ns3] コユキの手を掴んで逃げる。"
+    },
+    {
+      "Text": "[ns4] \"コユキ、ここは退こう！！\""
+    },
+    {
+      "Name": "コユキ",
+      "Text": "うあぁああああ！！なんで――！！！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "はぁ、はぁ……今日だけで相当走らされてるんですけど……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "油断してた。\nよく考えれば当然だよね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ええ。副部長はセミナーのセキュリティ管理も担当していますから。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "でも向こうはリモートなのに、一蹴されてしまうなんて……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……思っていたより、面倒なことになってしまいました。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "相手は副部長だもん、仕方ないよ。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "じゃあ、どうすれば良いんですか？\n朝までずっと隠れてるしかないんです？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "もしかして、朝になっても解決しないんじゃ……！？\nあぁああ～！終わりだああああ！！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……ううん。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "まだあるよ。\n副部長とやりあわなくてすむ方法が。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "そうですね……ここからは、アナログな手法でいきます。"
+    },
+    {
+      "Text": "[s5] \"アナログ……？\""
+    },
+    {
+      "Text": "[s6] \"どういうこと？\""
+    },
+    {
+      "Name": "ハレ",
+      "Text": "副部長は今、リモートでセキュリティシステムを制御してるわけだよね。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "裏を返せば、システムを設置してないとこには手が届かないって言えるよね。\nたとえ副部長であっても。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "例えば、私たちのいるプライベート空間がそう。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……ハイテク機器を導入していない古い施設や、老朽化して放置されたままの場所もそうです。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "古い施設や……老朽化した場所……？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ここはミレニアムの中心にそびえる最大規模の施設です。\nこれも裏を返せば、それだけ年季が入っていることを意味します。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "増改築だって何度も繰り返してきたからね。\n管理の行き届いてない箇所も、ある。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "もう誰も使ってない場所だけど……逃げ道はちゃんとあるよ。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ナビゲートしながら調べておいたんだ。"
+    },
+    {
+      "Text": "[ns7] \"こんな短い時間で、よく調べられたね。\""
+    },
+    {
+      "Text": "[ns8] \"すごいよ、二人とも。\""
+    },
+    {
+      "Name": "コタマ",
+      "Text": "打ち捨てられて久しい荒んだ場所ですが……事態は急を要しますので。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "えぇ、汚いところは嫌なんですけど？\nもっとなんとかならないんですか？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "私なんてほら、パジャマですし。寒いところはちょっと……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "あ、途中に自販機があるとうれしいです！\n喉が乾いてきちゃったんですよね！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ねえ、先生……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……その子も一緒じゃなきゃダメなの？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "ええええええ！？！？\nいきなり何ですか！？私、何かやらかしました！？！？"
+    },
+    {
+      "Text": "[s9] \"ごめんね、その……。\""
+    },
+    {
+      "Text": "[s10] \"大目に見てあげてほしい……。\""
+    },
+    {
+      "Name": "ハレ",
+      "Text": "マキにはこれから優しく接してあげなきゃ……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "話を戻すけど、ほかに道はないよ。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "だから……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……待ってください。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "静かに……向こうから何か聞こえます。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "これは……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "誰かが近づいてきます……！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "すぐ隠れてください……！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "ええっ！？誰なんです……！？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "いいから早く……！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "そうは言っても、隠れる場所なんてないですよ！？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……か、壁に貼りつけばいいんです！？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "それでは見つかってしまいます。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "うぅ、このままじゃ……！！"
+    },
+    {
+      "Text": "[ns11] \"そこに扉があるよ。\""
+    },
+    {
+      "Text": "[ns12] \"急いで入ろう。\""
+    },
+    {
+      "Name": "コユキ",
+      "Text": "え、あっ……はい！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "急いでください……！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "早く……！"
+    },
+    {
+      "Text": "[ns] \"ここは……。\""
+    },
+    {
+      "Name": "コユキ",
+      "Text": "更衣室、ですか。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "ここなら大丈夫――"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……しっ。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "目と鼻の先まで来ています。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ノア？どうかしたの？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "このドア、おかしいですね……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ずっと使われてないはずなのに、ここだけホコリが……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……！！！！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "！！！！！！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "……気にしすぎじゃない？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "そうかもしれません。\nでも、念のため……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "少し、中を見てみましょう。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "まずい。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "なっ……！！"
+    },
+    {
+      "Text": "[ns13] 急いでロッカーに入る。"
+    },
+    {
+      "Text": "[ns14] コユキをロッカーの中に引っ張る。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ユウカちゃんは、ほかの場所を探してみてください。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "分かったわ。何かあったらすぐ言ってね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "は～い。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "せ、先生……！どうすれっ――！？"
+    },
+    {
+      "Text": "[ns15] \"……しっ。\""
+    },
+    {
+      "Text": "[ns16] 急いでコユキの口を塞ぐ。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "…………！！！"
+    },
+    {
+      "Text": "[ns17] （……ノアが！）"
+    },
+    {
+      "Text": "[ns18] （声を出しちゃダメだ……）"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……………………。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……っ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "せ、先生……あうっ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "ちょ、ちょっと待ってください……！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……うぎゃっ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "せ、狭すぎますよぉ……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "んうっっっ！？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "どうして――どうして、こんなことに……。"
+    },
+    {
+      "Text": "[ns19] \"……しっ。\""
+    },
+    {
+      "Text": "[ns20] \"静かにして。\""
+    },
+    {
+      "Name": "ノア",
+      "Text": "……………………。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……あら、おかしいですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "たしか――"
+    },
+    {
+      "Name": "ノア",
+      "Text": "11日と2時間31分前に中を覗いた時とは、\n椅子の位置が違います。"
+    },
+    {
+      "Text": "[ns] （なんで覚えてるの……）"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ここもドアノブが少し……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ここに誰か入ったようですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふっ、楽しくなってきました。\nでは……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "少し、調べてみましょうか？"
+    },
+    {
+      "Text": "[ns] （……！！！！）"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふっ……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……うーん、もうどこかに行ってしまったのでしょうか。"
+    },
+    {
+      "Text": "[ns21] （……行ったかな？）"
+    },
+    {
+      "Text": "[ns22] （ノアは……？）"
+    },
+    {
+      "Text": "[ns23] （まずい、近づいてくる……！）"
+    },
+    {
+      "Text": "[ns24] （ロッカーをひとつずつ確認してる……！！）"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "う、うああああ……！？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "今度こそ、本当に終わりです……！！"
+    },
+    {
+      "Text": "[ns25] （……！！！！！！）"
+    },
+    {
+      "Text": "[ns26] （ここまでか……！)"
+    },
+    {
+      "Text": "[ns27] （出て行ってくれたみたいだ……）"
+    },
+    {
+      "Text": "[ns28] （……本当に行ったんだよね？）"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……ふああぁぁぁぁ！"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "心臓が止まるかと思いましたよ……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "うん。ホラーゲームをプレイしてるみたいだった。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ここまで耳に全神経を集中させたのは、私も初めてです。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……でも、なんとかやり過ごせましたね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "今なら安全に移動できるはず。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "そうだね。もうこのあたりにはいないはず。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ハッキングであっちの状況を確認したいとこだけど……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "逆効果でしょうね。\n副部長との真っ向勝負は避けましょう。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "つまり、私たちでなんとかするしかないってことだよね。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……どうしよう、先生？"
+    },
+    {
+      "Text": "[s29] \"今すぐ移動しよう。\""
+    },
+    {
+      "Text": "[s30] \"時間を無駄にはできない。\""
+    },
+    {
+      "Name": "ハレ",
+      "Text": "わかった。できるだけサポートするね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "私も最後まで支援します。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ひとまず、そこから出てもらって……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……ん？"
+    },
+    {
+      "Text": "[s31] \"……コユキ？\""
+    },
+    {
+      "Text": "[s32] \"どうかしたの？\""
+    },
+    {
+      "Name": "コユキ",
+      "Text": "……え？"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "あ、いえ……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "勘違いかも、しれませんが……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "なんというか……。"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "視線を感じるような、気がして……。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제5화;덜컹거리는 캐비닛"
+    },
+    {
+      "Name": "코유키",
+      "Text": "하아, 하아……. 하아……. 어떻게든 도착하긴 했군요……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "진짜 드론을 부수지 않고 제압할 수 있을 거라고는 생각 못 했는데, 역시 선생님의 지휘!!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "고생하셨습니다, 두 사람. 걱정했던 것보다 훨씬 순조로웠습니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "여긴 잘 사용되지 않는 후문 쪽이야. '후문'이라고는 해도, 건물이 커서 몇 개나 되지만……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "현재까지 사용된 적이 없는 문들 중에서 고른 것입니다. 아마 들킬 일은 없겠지요."
+    },
+    {
+      "Name": "코타마",
+      "Text": "이제 이 문을 열기만 하면……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "……음?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "문을……. 열면……?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "……어라……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……안 됩니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "그게 무슨 말이야, 선배? 안 되다니."
+    },
+    {
+      "Name": "하레",
+      "Text": "잠시만, 나도 해 볼게. 음……."
+    },
+    {
+      "Name": "하레",
+      "Text": "……? 뭐지? 어째서……."
+    },
+    {
+      "Name": "하레",
+      "Text": "……!? 뭐, 뭐야. 코드가 역으로……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……! 추적되고 있습니다, 하레! 당장 끊지 않으면 위치가 특정되고 맙니다!!"
+    },
+    {
+      "Name": "하레",
+      "Text": "그럴 수가……! 안 되겠어. 너무 빨라! 우리보다 위야, 이 사람!!"
+    },
+    {
+      "Text": "[s1] \"해킹을 역으로……!?\""
+    },
+    {
+      "Text": "[s2] \"코타마와 하레보다 실력이 좋다고!?\""
+    },
+    {
+      "Name": "하레",
+      "Text": "선생님, 일단 거기서 빠져나와! 이대로라면 머지않아 그쪽 CCTV까지 복구될 거야!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "다른 방법을 찾아봐야 하겠습니다. 정면승부는 무리입니다. 이건 마치……."
+    },
+    {
+      "Name": "하레",
+      "Text": "잠깐. 이 스타일, 이 방식. 분명 전에도 비슷한 기억이……."
+    },
+    {
+      "Name": "하레",
+      "Text": "……! 부부장……이라고!?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "두 분 모두, 우선 거기서 나오세요!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "그럴 수가……! 그런 말도 안 되는……!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "어떻게 여기까지 왔는데!! 여기서 돌아가라고요!? 두 분이서 어떻게든 못 하는 건가요!?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "분하지만 안 되는 건 안 되는 겁니다!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "……빨리!!"
+    },
+    {
+      "Text": "[ns3] 코유키의 손을 잡고 빠져나간다."
+    },
+    {
+      "Text": "[ns4] \"일단 나가자, 코유키!!\""
+    },
+    {
+      "Name": "코유키",
+      "Text": "으아아아아아!! 말도 안 돼애애애애-!!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "하아, 하아……. 오늘 대체 얼마나 뛰어야 하는 거예요."
+    },
+    {
+      "Name": "하레",
+      "Text": "방심했어. 생각해 보면 당연한 일이었는데 말이야."
+    },
+    {
+      "Name": "코타마",
+      "Text": "네. 치히로는 여러 곳……. 세미나의 보안 시스템도 함께 점검해 주고 있었죠."
+    },
+    {
+      "Name": "코타마",
+      "Text": "이슈가 발생했으니, 당연히 원격으로라도 지원할 것이었는데……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……이러면 계획과는 달리, 일이 꽤 복잡해졌습니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "응. 일단 상대방이 부부장인 이상, 해킹으로 정면 승부는 자충수나 마찬가지야."
+    },
+    {
+      "Name": "코유키",
+      "Text": "그럼 이제 어떻게 하죠? 이대로 그냥 아침이 될 때까지 꼼짝없이 숨어 있어야 하나요?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "아니, 아침이 된다 해도 뭔가 뾰족한 수가 나오는 건 아니잖아요……!? 이대로라면!!"
+    },
+    {
+      "Name": "하레",
+      "Text": "……아니."
+    },
+    {
+      "Name": "하레",
+      "Text": "아예 불가능한 건 아니야. 물론 당장 우리가 부부장과 정면으로 싸울 수는 없겠지만……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "정면 승부만이 능사는 아니니까요. 역설적이지만, 여기서는 조금 더 아날로그하게 가야죠."
+    },
+    {
+      "Text": "[s5] \"아날로그하게……?\""
+    },
+    {
+      "Text": "[s6] \"무슨 뜻이야?"
+    },
+    {
+      "Name": "하레",
+      "Text": "부부장이 우리의 상대인 것은 어디까지나 온라인상으로의 이야기야. 원격으로 보안 시스템을 돌리고 있을 터."
+    },
+    {
+      "Name": "하레",
+      "Text": "하지만 아무리 부부장이라도 컴퓨터 시스템이 설치돼 있지 않은 부분까지 제어할 순 없어."
+    },
+    {
+      "Name": "하레",
+      "Text": "예를 들자면 지금처럼 프라이빗한 공간이라 시스템 설치가 안 된 부분이라거나……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……혹은 오래돼서 첨단 설비가 설치되지 않은 구식 시설. 낡고 방치된 길 등이 있겠죠."
+    },
+    {
+      "Name": "코유키",
+      "Text": "낡고 방치된 길……? 구식 시설……?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "밀레니엄의 중심이라고 할 수 있는 세미나 건물이지만, 역설적으로 그만큼 밀레니엄 내에서는 크고 오래된 건물입니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "계속되는 증축 공사와 확장, 리모델링을 반복한 건물이니만큼 미처 신경 쓰지 못한 초창기의 설비들도 존재한다는 거지."
+    },
+    {
+      "Name": "하레",
+      "Text": "이제는 아무도 안 쓰고 있는 곳이지만……. 그래도 세미나 건물 안에 있는 명백한 '길'."
+    },
+    {
+      "Name": "하레",
+      "Text": "안 그래도 두 사람을 유도하며 루트를 찾고 있었어. 예상대로 몇 개의 길이 존재해."
+    },
+    {
+      "Text": "[ns7] \"짧은 사이에 잘도 찾아냈구나.\""
+    },
+    {
+      "Text": "[ns8] \"대단한걸, 두 사람 모두.\""
+    },
+    {
+      "Name": "코타마",
+      "Text": "조금 어둡고 스산한 느낌은 들 수 있겠습니다만……. 지금은 가릴 때가 아니니까요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "엑, 더러운 곳은 싫은데. 다른 데는 없어요? 좀 깨끗한 길은?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "이왕이면 저 지금 잠옷이니까, 춥지도 않았으면 좋겠고……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "아, 중간에 자판기라든가 좀 있으면 더 좋을 거 같네요! 슬슬 출출하기도 하고요!"
+    },
+    {
+      "Name": "하레",
+      "Text": "선생님……."
+    },
+    {
+      "Name": "하레",
+      "Text": "……그 아이, 꼭 데려가야 해?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "네에에에에-!?!? 갑자기 그게 무슨 말이에요!? 제가 뭘 했다고!?!?"
+    },
+    {
+      "Text": "[s9] \"뭔가 미안. 원래 이런 애라…….\""
+    },
+    {
+      "Text": "[s10] \"아직 어려서 그래. 양해를…….\""
+    },
+    {
+      "Name": "하레",
+      "Text": "앞으로 마키에게 조금 더 잘 해줘야겠네."
+    },
+    {
+      "Name": "하레",
+      "Text": "아무튼 다른 길은 없어. 오히려 이런 길이 있다는 사실만으로도 감사해야 할 일이잖아."
+    },
+    {
+      "Name": "하레",
+      "Text": "우선……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……잠깐만요."
+    },
+    {
+      "Name": "코타마",
+      "Text": "모두 잠시. ……복도 반대쪽에서 소리가 감지되었습니다."
+    },
+    {
+      "Name": "코타마",
+      "Text": "이 소리……. "
+    },
+    {
+      "Name": "코타마",
+      "Text": "……!!! 발소리……!!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "모두 숨어요! 누가 다가옵니다!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "바, 발소리!? 발소리라!? 누가 오는 건가요!? 대체 누가……!?"
+    },
+    {
+      "Name": "하레",
+      "Text": "이 상황에서 누구겠어……! 일단 숨으라고!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "어, 어디 숨어요!? 여기 숨을 데가 어딨다고!?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "……벽!? 벽!? 벽에 붙을까요!? 이렇게……!?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "어림도 없어 보입니다. 그 상태라면 걸리는 건 시간문제예요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "으윽……!! 이대로라면……!!"
+    },
+    {
+      "Text": "[ns11] \"옆쪽에 뭔가 문이 있어.\""
+    },
+    {
+      "Text": "[ns12] \"일단 이곳으로 들어가자.\""
+    },
+    {
+      "Name": "코유키",
+      "Text": "네, 네!? ……네!!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "서둘러야 해요, 시간이 없습니다!"
+    },
+    {
+      "Name": "하레",
+      "Text": "빨리……!!"
+    },
+    {
+      "Text": "[ns] 여기는……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "아, 탈의실이네요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "여기라면 안전하게……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "……조용히."
+    },
+    {
+      "Name": "코타마",
+      "Text": "문 앞까지 다가왔습니다."
+    },
+    {
+      "Name": "유우카",
+      "Text": "……노아? 왜 그래?"
+    },
+    {
+      "Name": "노아",
+      "Text": "……음. 아니요. 별거 아니에요."
+    },
+    {
+      "Name": "노아",
+      "Text": "이상하네요, 이 문……."
+    },
+    {
+      "Name": "노아",
+      "Text": "분명 이 록커룸은 사용한 지 꽤 돼서, 먼지가 쌓여 있었던 거 같은데 말이에요."
+    },
+    {
+      "Name": "하레",
+      "Text": "……!!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "!!!!!!!!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "……? 그런가? 나는 잘 모르겠지만……."
+    },
+    {
+      "Name": "노아",
+      "Text": "……후후. 괜한 생각일 수도 있겠네요. 그래도 혹시 모르니……."
+    },
+    {
+      "Name": "노아",
+      "Text": "저는 여기부터, 잠깐 확인하고 갈까요?"
+    },
+    {
+      "Name": "하레",
+      "Text": "이런."
+    },
+    {
+      "Name": "코유키",
+      "Text": "뭣……!!"
+    },
+    {
+      "Text": "[ns13] 서둘러 빈 캐비닛을 연다."
+    },
+    {
+      "Text": "[ns14] 코유키를 캐비닛 안으로 끌어당긴다."
+    },
+    {
+      "Name": "노아",
+      "Text": "저 혼자면 될 것 같으니, 유우카 쨩은 다른 곳을 계속 살펴줘요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "알았어. 혹시라도 뭐 보면 말해줘, 곧바로 달려올 테니까!"
+    },
+    {
+      "Name": "노아",
+      "Text": "네~. 유우카 쨩도 마찬가지예요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "서, 선생님……!? 이건……! 우웁-!!!"
+    },
+    {
+      "Text": "[ns15] \"……쉿.\""
+    },
+    {
+      "Text": "[ns16] 황급히 코유키 입을 막는다."
+    },
+    {
+      "Name": "코유키",
+      "Text": "…………!!!"
+    },
+    {
+      "Text": "[ns17] (……노아!)"
+    },
+    {
+      "Text": "[ns18] (절대 소릴 내선 안 돼…….)"
+    },
+    {
+      "Name": "노아",
+      "Text": "…………."
+    },
+    {
+      "Name": "코유키",
+      "Text": "……아야!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "서, 선생님……. 아읏……!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "아, 아니……. 잠깐만요, 조금……!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "……윽!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "자, 잠깐만요……. 너무 좁아……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "우웁!? 우우우웁-!?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "어, 어쩌다……. 어쩌다 이렇게 된 거죠, 저희……."
+    },
+    {
+      "Text": "[ns19] \"……쉿.\""
+    },
+    {
+      "Text": "[ns20] \"조용히…….\""
+    },
+    {
+      "Name": "노아",
+      "Text": "…………."
+    },
+    {
+      "Name": "노아",
+      "Text": "……음……? ……이상하네요."
+    },
+    {
+      "Name": "노아",
+      "Text": "분명히 제가……."
+    },
+    {
+      "Name": "노아",
+      "Text": "11일 2시간 31분 전에 왔을 때, 마지막으로 본 의자 배치는 이 정도로 붙지 않았었는데."
+    },
+    {
+      "Text": "[ns] (어떻게 그걸 기억하는 거야…….)"
+    },
+    {
+      "Name": "노아",
+      "Text": "문고리도 이 정도로 올라가 있지 않았었고 말이죠. 그사이에 온 사람도 없을 건데……."
+    },
+    {
+      "Name": "노아",
+      "Text": "……아하."
+    },
+    {
+      "Name": "노아",
+      "Text": "역시 그사이에 사람이 온 거겠죠, 이건? 분명 그런 거라고밖에는 설명이 안 되겠네요."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후. 재미있어졌네요. 그럼……."
+    },
+    {
+      "Name": "노아",
+      "Text": "조금 살펴볼까요?"
+    },
+    {
+      "Text": "[ns] (……!!!!!!!!!)"
+    },
+    {
+      "Name": "노아",
+      "Text": "후후……."
+    },
+    {
+      "Name": "노아",
+      "Text": "……아닌가? 이미 나가셨으려나요?"
+    },
+    {
+      "Text": "[ns21] (……갔, 갔나……?)"
+    },
+    {
+      "Text": "[ns22] (노아는……?)"
+    },
+    {
+      "Text": "[ns23] (소리가 점점 가까워지고 있어……!?)"
+    },
+    {
+      "Text": "[ns24] (설마 했던 하나씩 확인……!!)"
+    },
+    {
+      "Name": "코유키",
+      "Text": "으, 으아아아……!? 이건……! 이건……!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "이건 진짜 망했……!!!"
+    },
+    {
+      "Text": "[ns25] (……!!!!!!)"
+    },
+    {
+      "Text": "[ns26] (이제 곧 우리……!!)"
+    },
+    {
+      "Text": "[ns27] (……진짜 갔나?)"
+    },
+    {
+      "Text": "[ns28] (……진짜 끝났나?)"
+    },
+    {
+      "Name": "코유키",
+      "Text": "……하아아아아아아-!!!"
+    },
+    {
+      "Name": "코유키",
+      "Text": "진짜 죽는 줄 알았어요, 여러모로……!!"
+    },
+    {
+      "Name": "하레",
+      "Text": "공포 게임의 한 장면이라고 봐도 무방한 상황이었어. 연출된 순간이라 해도 믿었을 거야."
+    },
+    {
+      "Name": "코타마",
+      "Text": "저도 이 정도로 민감하게 귀를 곤두세워 본 적은 없었습니다. 엄청난 경험이었습니다."
+    },
+    {
+      "Name": "코타마",
+      "Text": "그래도……. 어떻게든 상황을 넘겼군요."
+    },
+    {
+      "Name": "코타마",
+      "Text": "반대로 말하자면 이곳은 이미 한 번 확인한 곳이니, 지금 바로 이동하면 이 주변은 안전하다는 이야기가 됩니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "연락을 받고 떠났으니까. 누가 부른 거라면 아무래도 이 주변에 바로 있지는 않겠지."
+    },
+    {
+      "Name": "하레",
+      "Text": "마음 같아선 해킹으로 정확한 저쪽 상황도 파악하고 싶지만……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "역효과일 겁니다. 치히로에게 정면으로 도전하는 거나 다름없는 행동입니다."
+    },
+    {
+      "Name": "하레",
+      "Text": "선배 말대로야. 여기서는 일단 우리 스스로 판단하는 수밖에 없어."
+    },
+    {
+      "Name": "하레",
+      "Text": "……어떻게 할 거야, 선생님?"
+    },
+    {
+      "Text": "[s29] \"지금 바로 이동하자.\""
+    },
+    {
+      "Text": "[s30] \"시간 끌어서 좋을 건 없어.\""
+    },
+    {
+      "Name": "하레",
+      "Text": "역시 그렇겠지. 그래도 길 안내 정도는 해줄 수 있으니까, 우리 지원을 따라 줘."
+    },
+    {
+      "Name": "코타마",
+      "Text": "맞습니다. 마지막까지 선생님의 편에서 지원하겠습니다."
+    },
+    {
+      "Name": "코타마",
+      "Text": "일단 문을 열고 나가서……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "…………."
+    },
+    {
+      "Name": "코유키",
+      "Text": "……응?"
+    },
+    {
+      "Text": "[s31] \"……코유키?\""
+    },
+    {
+      "Text": "[s32] \"왜 그래, 갑자기?\""
+    },
+    {
+      "Name": "코유키",
+      "Text": "……에? 네?"
+    },
+    {
+      "Name": "코유키",
+      "Text": "아, 아뇨. 그냥……. 어……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "아무것도 아니에요. 잘 못 봤나 봐요."
+    },
+    {
+      "Name": "코유키",
+      "Text": "그냥 뭔가……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "뭔가 시선 같은 게 느껴져서 그랬을 뿐이에요……."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 5;Rattling Cabinet"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "*huff* *puff*...We made it...somehow..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I totally thought we were screwed when Sensei wouldn't let us break the drones, but we did it!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Well done, both of you. That went much smoother than I expected."
+    },
+    {
+      "Name": "Hare",
+      "Text": "This is the back gate. Well, it's not THE back gate, exactly. There's a ton of them because the building's so big."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "We chose this one because it's never been used before. So the chances of someone being back here are next to none."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "If we just open the gate..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...Hmm?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Just...open the...gate...?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It's not working."
+    },
+    {
+      "Name": "Hare",
+      "Text": "What? Why wouldn't it be working?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Lemme try. Um..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Huh? How's this possible? Why isn't it working?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "What the heck? Someone's reversing the code!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Hare, we need to cut our connection, now! Whoever's doing this is trying to track our location!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "There's no way! I can't keep up! They're one...no, two steps ahead of me!"
+    },
+    {
+      "Text": "[s1] \"Reverse hacking...?\" "
+    },
+    {
+      "Text": "[s2] \"Someone better than Kotama and Hare?!\""
+    },
+    {
+      "Name": "Hare",
+      "Text": "Sensei! You need to get out of there, now! It's not gonna be long before CCTV is back up!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "We can't confront them directly. We're getting pummeled. It's like..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Hold up. I know this style...this method..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...It's the vice president?!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Get out, get out! Now!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Wh-What the? Are you serious right now?!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "We finally made it all this way, and now you want us to go back?! You can't do anything?!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "I know, I know! But it's the only option!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...Hurry!"
+    },
+    {
+      "Text": "[ns3] Grab Koyuki's hand and run."
+    },
+    {
+      "Text": "[ns4] \"Let's get out for now, Koyuki!\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "UWAAAAH! There's no waaay!!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "*huff* *puff* Am I doomed to run forever and ever?!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "I let my guard down. When I think about it, this was bound to happen."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Yes. Chihiro's been combing through a bunch of Millennium's security systems recently...including Seminar's."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It was natural for her to step in during a situation like this one, even if it was remotely..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "This complicates our plan quite a bit."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Yeah... When it comes to hacking, there's no way I can beat the VP."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "What does that mean for us? Are we just going to be trapped here until morning?"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I refuse! Even if morning comes, I'll find some kind of way! One way or another!!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "...No."
+    },
+    {
+      "Name": "Hare",
+      "Text": "It's not completely impossible. I mean, there's no way we can take the VP head on..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...but we don't necessarily need to either. Paradoxically to our usual approach, a more analog mindset may be the solution here."
+    },
+    {
+      "Text": "[s5] \"Analog...?\""
+    },
+    {
+      "Text": "[s6] \"What do you mean?\""
+    },
+    {
+      "Name": "Hare",
+      "Text": "At the end of the day, the VP is operating the security system remotely. It's a cyber fight."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Which means in places with no cyber security, even she can't do anything."
+    },
+    {
+      "Name": "Hare",
+      "Text": "For example, where you are right now is a private zone, so there's no system installed there."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...Or you could consider outdated facilities that haven't undergone renovations. There are likely many neglected, forgotten paths twisted into their floor plans."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Forgotten paths...? What outdated facilities?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "The Seminar building may be the center of Millennium, but it's also the oldest and largest."
+    },
+    {
+      "Name": "Hare",
+      "Text": "The endless expansion and remodeling it's undergone inherently means that older facilities have fallen to the wayside."
+    },
+    {
+      "Name": "Hare",
+      "Text": "There are a ton of paths in the building that haven't been used for years."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I've been keeping an eye out for routes while navigating, and there are a couple you can take."
+    },
+    {
+      "Text": "[ns7] \"You really work quickly.\""
+    },
+    {
+      "Text": "[ns8] \"That's amazing, both of you.\""
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It may feel a bit dark and scary, but...we don't have the luxury of options right now."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Ugh, I don't like dirty places. There really aren't any nice, maintained paths?"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I might get cold too, since I'm in my jammies."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Oooh, can you find one with some vending machines, actually? I'm getting hungry!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Sensei..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...Does she really have to come?"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Whaaaaaat?! What's that supposed to mean? What'd I even do?"
+    },
+    {
+      "Text": "[s9] \"I'm sorry... This is just how she is...\""
+    },
+    {
+      "Text": "[s10] \"Please try to understand... She's still young...\""
+    },
+    {
+      "Name": "Hare",
+      "Text": "I'm gonna be nicer to Maki from now on."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Regardless, there's no other way. In fact, you should be grateful there even IS a way in this situation."
+    },
+    {
+      "Name": "Hare",
+      "Text": "So to start..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...Wait."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Please hold... I'm detecting soundwaves from the opposite end of the hallway. Quickly approaching."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "This sound... "
+    },
+    {
+      "Name": "Kotama",
+      "Text": "They're footsteps...!!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Hide, now! Someone is coming!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "F-Footsteps, FOOTSTEPS?! Who is it?! Who on earth is it?!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Who else would it be?! Stop asking dumb questions and hide!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "H-Hide where?! Where am I supposed to hide?!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...Wall? Maybe if I press myself against the wall, like this?!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "You're totally visible. You're gonna get caught in no time."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Ugh...! What do we do?!"
+    },
+    {
+      "Text": "[ns11] \"There's some kind of a door on the side.\""
+    },
+    {
+      "Text": "[ns12] \"Let's go in there for now.\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Really?! ...Okay!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Move faster! There's no time!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Hurry...!!"
+    },
+    {
+      "Text": "[ns] \"This is...\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "It's a locker room."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "We should be nice and safe here!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...Please be quiet."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "They've stopped in front of the door."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Noa? Something wrong?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "...Um. I'm sure it's nothing..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "It's just strange. This door..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I'm pretty sure it used to be quite dusty, since no one uses this locker room anymore."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...!!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "!!!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "...Really? I mean, I don't really remember, but..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "...Fufu. There's a chance I'm overthinking it, but there's no harm in being thorough, right?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Shall I take a look around?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Oh, man."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "What the...?!"
+    },
+    {
+      "Text": "[ns13] Yank open an empty cabinet door."
+    },
+    {
+      "Text": "[ns14] Pull Koyuki into the cabinet with you."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I can manage on my own, so why don't you continue the search elsewhere, Yuuka?"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Sounds good. Just call if you need me, and I'll come running."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yes, ma'am. Same to you."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "S-Sensei...?! This...! Ugh!!"
+    },
+    {
+      "Text": "[ns15] \"...Shh.\""
+    },
+    {
+      "Text": "[ns16] Cover Koyuki's mouth."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...!"
+    },
+    {
+      "Text": "[ns17] \"(...Noa!)\""
+    },
+    {
+      "Text": "[ns18] \"(Please don't make a sound...)\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...Ouch!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "E-Eek...! Sensei!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Ah, no... Wait a moment, just a little...!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...Ugh."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "H-Hold on... It's too narrow..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Uwah?! Uwaaaah?!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "How did this happen to us..."
+    },
+    {
+      "Text": "[ns19] \"...Shh.\""
+    },
+    {
+      "Text": "[ns20] \"Be quiet...\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "...Hmm. Peculiar."
+    },
+    {
+      "Name": "Noa",
+      "Text": "The last time I was here..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "...11 days, 2 hours, and 31 minutes ago, these chairs weren't so close together."
+    },
+    {
+      "Text": "[ns] \"(How does someone remember something like that?)\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "This doorknob is in a different position as well. This area's been abandoned for quite some time now..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "...Aha."
+    },
+    {
+      "Name": "Noa",
+      "Text": "The only reasonable explanation is that someone DID enter these locker rooms."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Fufu. How intriguing."
+    },
+    {
+      "Name": "Noa",
+      "Text": "In that case, should I inspect the area?"
+    },
+    {
+      "Text": "[ns] \"(...No!!)\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "Fufu..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "...Was I wrong? Did she already leave?"
+    },
+    {
+      "Text": "[ns21] \"(Is she gone...?)\""
+    },
+    {
+      "Text": "[ns22] \"(Where did she go?!)\""
+    },
+    {
+      "Text": "[ns23] \"(The sound's getting closer!)\""
+    },
+    {
+      "Text": "[ns24] \"(Step by step, my worst fears...!)\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Ugh, ugh...?! This is...! This is...!!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Things weren't supposed to be this way!"
+    },
+    {
+      "Text": "[ns25] \"(...!)\""
+    },
+    {
+      "Text": "[ns26] \"(This is the end!)\""
+    },
+    {
+      "Text": "[ns27] \"(...Is she really gone?)\""
+    },
+    {
+      "Text": "[ns28] \"(...It's over? It's really over?)\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "WAAAH...!!"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I thought it was OVER for me! In so many different ways!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "The whole thing was so horrifying, it felt scripted. Like a scene from a horror game or something."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "I never watched something so raptly before. It was incredible, honestly."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Regardless, we've passed this hurdle, somehow."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "And on the bright side, they'll probably consider this place cleared. So it's something of a safe spot for us now."
+    },
+    {
+      "Name": "Hare",
+      "Text": "It seemed like an urgent call. It'll keep her off our backs for a little while."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I really, really wanna hack into the CCTVs over there and see what's happening, but..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "...it'd just summon Chihiro straight to our doorstep."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Exactly. So, for now, we'll just have to make-do with what info we have."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...What's the next move, Sensei?"
+    },
+    {
+      "Text": "[s29] \"Let's get out of here, now.\""
+    },
+    {
+      "Text": "[s30] \"There's no point in lingering here.\""
+    },
+    {
+      "Name": "Hare",
+      "Text": "Agreed. We can still guide you out, so just follow our instructions."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "That's right. We're here for you until the end."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "First, open the door and go to the—"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...Huh?"
+    },
+    {
+      "Text": "[s31] \"...Koyuki?\""
+    },
+    {
+      "Text": "[s32] \"Are you okay?\""
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "N-No. It's just...um..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I'm probably just imagining things. It's nothing..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "I just had this feeling..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "...like someone's watching us."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 5;ตู้ที่มีเสียงกุกกัก"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แฮ่ก แฮ่ก... แฮ่ก... มาถึงจนได้นะคะ..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ไม่คิดเลยค่ะว่าเราจะปราบโดรนพวกนั้นโดยไม่ต้องทำลายให้สิ้นซากได้ การสั่งการของคุณครูนี่ ยอดเยี่ยมไปเลยนะคะ!!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทั้งสองคนทำได้ดีมากค่ะ หลบหนีและต่อสู้ได้ราบรื่นกว่าที่คิดเยอะเลยค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ตรงนี้คือฝั่งประตูหลังที่ไม่ค่อยได้ใช้น่ะ ถึงจะเรียกว่า 'ประตูหลัง' แต่มันก็มีหลายบานเพราะอาคารนี้\nกว้างใหญ่มาก..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "และประตูเหล่านี้คือประตูที่ไม่ถูกใช้งานมาจนถึงตอนนี้ งั้นก็คงไม่โดนจับได้หรอกค่ะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ต่อไปก็แค่เปิดประตูนี้ไปให้ได้..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "...?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "อืม...?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เปิด... ประตู...?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เอ๋..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เปิดไม่ได้ค่ะ..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เปิดไม่ได้งั้นเหรอ หมายความว่ายังไงน่ะรุ่นพี่?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "รอเดี๋ยวนะ ฉันก็จะลองดูด้วย อืม..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อะไรกัน? ทำไมถึง...?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อะ... อะไรเนี่ย...!? ทำไมโค้ดกลายเป็นแบบนี้...?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เราถูกสะกดรอยอยู่ค่ะ ฮาเระ...! ถ้าไม่หยุดตอนนี้ ตำแหน่งของเราจะถูกเปิดเผยค่ะ!!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เป็นไปได้ยังไง...! อะไรกัน ทำไมเร็วอย่างนี้! คนนี้เก่งกว่าพวกเราอีก!!"
+    },
+    {
+      "Text": "[s1] \"โดนแฮ็กกลับเหรอ...!?\""
+    },
+    {
+      "Text": "[s2] \"เก่งกว่าโคทามะกับฮาเระอีกงั้นเหรอ!?\""
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "คุณครู รีบออกจากตรงนั้นมาก่อน! ถ้าเป็นอย่างนี้ต่อไป ไม่นานกล้องวงจรปิดของทางนั้นก็จะถูกฟื้นฟู\nให้กลับมาใช้งานได้อีกครั้ง!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เห็นทีคงต้องหาวิธีอื่นแล้วค่ะ จะให้เผชิญหน้าโดยตรงก็เกินกำลังอีก นี่มันเหมือนกับ..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เดี๋ยวนะ สไตล์แบบนี้ การใช้วิธีแบบนี้... เหมือนเคยเห็นมาจากไหนเลย..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "หรือว่าจะเป็น... รองหัวหน้า...!?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทั้งสองคนรีบออกมาจากตรงนั้นก่อนค่ะ!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "เป็นแบบนี้ไปได้ยังไง...! ไม่อยากจะเชื่อเลย...!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "เราหนีมาถึงขนาดนี้แล้วนะ!! จะให้กลับไปเหรอคะ!? พวกคุณสองคนทำอะไรไม่ได้เลยเหรอ!?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถึงจะน่าเจ็บใจ แต่ว่าอะไรที่ไม่ได้ก็คือไม่ได้ค่ะ!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "รีบหนีเร็วเข้า...!!"
+    },
+    {
+      "Text": "[ns3] จับมือโคยูกิแล้ววิ่งหนี"
+    },
+    {
+      "Text": "[ns4] \"ออกไปจากที่นี่ก่อนเถอะ โคยูกิ!!\""
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ม่ายยยยย!! ทำไมเป็นแบบนี้ไปได้ล่ะ!!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แฮ่ก แฮ่ก... วันนี้เราต้องวิ่งกันอีกแค่ไหนคะเนี่ย"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เราประมาทกันเอง พอมาคิดๆ ดูแล้วมันก็เป็นเรื่องที่แน่ชัดนะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ค่ะ ตอนนี้จิฮิโระ... กำลังตรวจสอบระบบรักษาความปลอดภัยของเซมิน่าอยู่ด้วยค่ะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "และถ้าเกิดปัญหา ก็คงให้การสนับสนุนจากระยะไกลอยู่แล้วอย่างไม่ต้องสงสัย..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แบบนี้เรื่องก็ยิ่งซับซ้อน ไม่เป็นไปตามแผนของเราแล้วค่ะ "
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อื้อ ถ้าอีกฝ่ายเป็นรองหัวหน้าละก็ การเผชิญหน้าด้วยการแฮ็กก็คงไม่ต่างจากขุดหลุมฝังตัวเองหรอก"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ถ้างั้นจากนี้เราจะทำยังไงกันดีคะ? ฉันควรซ่อนตัวอยู่อย่างนี้จนถึงเช้าเลยหรือเปล่าคะ?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ไม่สิ ต่อให้ซ่อนตัวอยู่ถึงเช้า แต่ก็ใช่ว่าเราจะเจอทางออกดีๆ นี่คะ...!? ขืนเป็นแบบนี้ต่อไปละก็!!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ไม่หรอก..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ใช่ว่าจะหมดทนทางนะ ถึงตอนนี้เราจะสู้กับรองหัวหน้าแบบซึ่งๆ หน้าไม่ได้ก็เถอะ..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แต่ใช่ว่าเราจะต้องสู้แบบซึ่งๆ หน้าเท่านั้นนี่คะ ในทางกลับกัน เรามาพึ่งวิธีแบบอนาล็อกกันอีกสัก\nหน่อยดีกว่า"
+    },
+    {
+      "Text": "[s5] \"แบบอนาล็อกเหรอ...?\""
+    },
+    {
+      "Text": "[s6] \"หมายความว่ายังไงน่ะ?\""
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "รองหัวหน้าเผชิญหน้าเราอยู่ในทางออนไลน์เท่านั้น เพราะตอนนี้รองหัวหน้าควบคุมระบบรักษาความ\nปลอดภัยจากระยะไกลอยู่น่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ถึงจะเก่งเป็นถึงระดับรองหัวหน้า แต่ถ้าเป็นพื้นที่ที่ไม่มีระบบคอมพิวเตอร์ติดตั้งเอาไว้ รองหัวหน้าก็เข้าไปควบคุมไม่ได้หรอก"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ยกตัวอย่างเช่น พื้นที่ส่วนตัวที่ไม่มีการติดตั้งระบบคอมพิวเตอร์ไว้เหมือนกับที่นี่"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "หรือไม่ก็สถานที่เก่าๆ ที่ไม่มีอุปกรณ์ทันสมัย... อย่างเช่นเส้นทางเก่าๆ และก็ร้างค่ะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "เส้นทางเก่าๆ และก็ร้าง...? ที่ไม่มีอุปกรณ์ทันสมัย...?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ถึงที่นี่จะเป็นอาคารเซมิน่าที่เรียกได้ว่าเป็นศูนย์กลางของมิลเลเนียม แต่ในทางกลับกันก็เป็นอาคารที่\nมีขนาดใหญ่และเก่าแก่ที่สุดในมิลเลเนียมด้วยค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อาคารนี้ก่อสร้างขยายต่อเติม และก็คอยปรับปรุงอยู่เรื่อยๆ ถ้าอย่างนั้นก็หมายความว่า ต้องมีบางส่วนที่มีอยู่ตั้งแต่แรกอยู่แล้วแต่ไม่ได้รับความสนใจ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "สถานที่ที่ไม่มีใครเข้ามาใช้งานแล้ว... แต่ก็เป็น 'เส้นทาง' ที่ชัดเจนในเซมิน่า..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ระหว่างดูลาดเลาให้ทั้งสองคน ฉันเองก็หาเส้นทางไปด้วย แล้วมันก็มีเส้นทางอยู่บ้างตามคาดเลย"
+    },
+    {
+      "Text": "[ns7] \"หาเจอได้ในเวลาสั้นๆ เลยเหรอ\""
+    },
+    {
+      "Text": "[ns8] \"ทั้งสองคนยอดเยี่ยมเลย\""
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทางมันอาจจะมืดและให้ความรู้สึกอ้างว้างหน่อยนะคะ... แต่ตอนนี้เราก็เลือกอะไรไม่ได้มากแล้วค่ะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "แหยะ ฉันไม่ชอบที่สกปรกๆ เลย ไม่มีทางอื่นแล้วเหรอคะ? มีทางอื่นที่สะอาดๆ มั้ย?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ถ้าเลือกได้ ฉันก็อยากให้เป็นเส้นทางที่ไม่หนาวด้วย ก็ตอนนี้ฉันใส่แต่ชุดนอนนี่เนอะ..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อ๊ะ หรือถ้ามีตู้ขายเครื่องดื่มอัตโนมัติระหว่างทางด้วยก็น่าจะดีค่ะ! ฉันเริ่มรู้สึกหิวนิดหน่อยแล้วด้วย!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "คุณครู..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เราต้องพาเด็กคนนั้นไปด้วยจริงๆ เหรอ...?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อะไรกันคะ?!? จู่ๆ จะมากลับลำอย่างนี้ได้ไง!? ฉันทำอะไรผิดเหรอคะ!?!?"
+    },
+    {
+      "Text": "[s9] \"ขอโทษนะทุกคน โคยูกิเป็นเด็กแบบนี้ละ...\""
+    },
+    {
+      "Text": "[s10] \"โคยูกิยังเด็กน่ะ ช่วยเห็นใจหน่อยนะ...\""
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ต่อไปคงต้องใจดีกับมากิให้มากกว่านี้แล้วละ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เอาเถอะ ตอนนี้เราไม่มีทางอื่นแล้ว แค่มีเส้นทางแบบนี้ให้หนีก็ถือว่าเป็นบุญแล้วละ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ก่อนอื่นเราต้อง..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เดี๋ยวนะคะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทุกคนหยุดก่อน ฉันได้ยินเสียงมาจากอีกฝั่งหนึ่งของทางเดินค่ะ..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "นี่มัน... "
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เสียงฝีเท้า...!!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทุกคนซ่อนตัวค่ะ! มีคนกำลังมาทางนี้ค่ะ!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "สะ... เสียงฝีเท้า!? เสียงฝีเท้างั้นเหรอ!? ใครกำลังมากันคะ!? ใครน่ะ...!?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ในสถานการณ์แบบนี้จะเป็นใครไปได้ล่ะ...! ซ่อนตัวกันก่อนเถอะ!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "หะ... ให้ไปซ่อนตรงไหนล่ะคะ!? ตรงนี้ไม่มีที่ให้ซ่อนสักหน่อย!?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ผนัง...!? ผนัง! นั่งติดผนังไว้แบบนี้ได้มั้ยคะ...!?"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ไม่มีทางเลือกแล้วค่ะ ในเมื่อเป็นแบบนี้ละก็ขึ้นอยู่กับเวลาแล้ว"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อึกกก...!! ถ้าเป็นแบบนี้ต่อไปละก็...!!"
+    },
+    {
+      "Text": "[ns11] \"มีประตูอยู่ข้างๆ เข้าไปในนั้นก่อนเถอะ\""
+    },
+    {
+      "Text": "[ns12] \"มีประตูอยู่ข้างๆ เข้าไปในนั้นก่อนแล้วกัน\""
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "คะ!? ค่ะ...!!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ต้องรีบแล้วค่ะ ไม่มีเวลาแล้ว!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เร็วเข้า...!!"
+    },
+    {
+      "Text": "[ns] ที่นี่มัน..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อ๊ะ ห้องล็อกเกอร์นี่คะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ถ้าที่นี่ก็คงปลอดภัย..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ชู่ว..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ทางนั้นเดินมาถึงหน้าประตูแล้วค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "โนอา...? มีอะไรเหรอ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อืม... ไม่หรอกค่ะ ไม่มีอะไรค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "แปลกจังเลยนะคะ ประตูบานนี้..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ห้องล็อกเกอร์นี้ก็ไม่ได้ใช้งานมานานแล้ว แต่ทำไมไม่มีฝุ่นจับที่ประตูเลยนะคะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "...!!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "!!!!!!!!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "งั้นเหรอ...? ฉันไม่เคยสังเกตเลย..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ... ฉันอาจจะคิดมากไปก็ได้ค่ะ แต่ตรวจสอบดูก็ไม่เสียหาย..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "งั้นฉันเข้าไปดูในห้องนี้สักเดี๋ยวดีมั้ยคะ?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ซวยแล้วไง"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ว่าไงนะ...!!"
+    },
+    {
+      "Text": "[ns13] รีบเปิดตู้ที่ว่าง"
+    },
+    {
+      "Text": "[ns14] ดึงโคยูกิเข้าไปในตู้"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันเข้าไปดูคนเดียวได้ค่ะ ยูกะจังไปดูที่อื่นต่อเถอะค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เข้าใจแล้ว ถ้าเจออะไรก็บอกกันเลยนะ แล้วฉันจะรีบวิ่งมาหาเลย!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ค่า~ ยูกะจังก็ด้วยนะคะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "คะ... คุณครู...!? แบบนี้มัน...! อุ้บ!!!"
+    },
+    {
+      "Text": "[ns15] \"ชู่ว...\""
+    },
+    {
+      "Text": "[ns16] รีบปิดปากโคยูกิ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "......!!!"
+    },
+    {
+      "Text": "[ns17] (โนอานี่นา...!)"
+    },
+    {
+      "Text": "[ns18] (ห้ามส่งเสียงออกไปเด็ดขาดเลย...)"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "โอ๊ย...!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "คะ... คุณครู... อึก...!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อะ... เอ่อ... เดี๋ยวนะคะ พอดีว่า...!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อึก...!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ดะ... เดี๋ยวก่อนค่ะ! มันแคบมากเลย..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อุ้บ!? อุ้บบบบ!?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ทะ... ทำไม... ทำไมพวกเราถึงเป็นอย่างนี้ไปได้ล่ะ..."
+    },
+    {
+      "Text": "[ns19] \"ชู่ว...\""
+    },
+    {
+      "Text": "[ns20] \"อยู่เงียบๆ ไว้...\""
+    },
+    {
+      "Name": "โนอา",
+      "Text": "..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "หืม...? แปลกจังเลยนะคะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันว่าฉันจำได้นะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันมาที่นี่ครั้งสุดท้ายเมื่อ 11 วัน 2 ชั่วโมง 31 นาทีก่อน และตอนนั้นเก้าอี้มันไม่ได้อยู่ติดกันแบบนี้นี่นา"
+    },
+    {
+      "Text": "[ns] (จำละเอียดถึงขนาดนั้นได้ยังไงน่ะ...)"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "มือจับประตูก็ไม่ได้ยกสูงถึงขนาดนี้ด้วย ระหว่างนั้นก็ไม่น่าจะมีใครอื่นเข้ามานะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อ๋อ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "งั้นก็แสดงว่าระหว่างนั้นต้องมีใครเข้ามาสินะ ต้องเป็นอย่างนั้นแน่เลย"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ เริ่มสนุกขึ้นมาแล้วสิ ถ้างั้น..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ขอตรวจดูหน่อยแล้วกันนะคะ"
+    },
+    {
+      "Text": "[ns] (...!!!!!!!!!)"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ไม่อยู่เหรอ...? หรือว่าออกไปแล้วนะ?"
+    },
+    {
+      "Text": "[ns21] (ปะ... ไปแล้วเหรอ...?)"
+    },
+    {
+      "Text": "[ns22] (โนอาอยู่ไหนน่ะ...?)"
+    },
+    {
+      "Text": "[ns23] (เสียงใกล้เข้ามาแล้ว...!?) "
+    },
+    {
+      "Text": "[ns24] (หรือว่าจะเปิดดูทุกตู้เลย...!!)"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "อะ... อ๊าาาา...!? แบบนี้ฉัน...! คงได้...!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "โดนดีแน่...!!!"
+    },
+    {
+      "Text": "[ns25] (...!!!!!!)"
+    },
+    {
+      "Text": "[ns26] (งั้นก็ใกล้ถึงเราแล้ว...!!)"
+    },
+    {
+      "Text": "[ns27] (ไปแล้วจริงๆ เหรอ...?)"
+    },
+    {
+      "Text": "[ns28] (นี่เรารอดแล้วเหรอ...?)"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "เฮ้อออออ...!!!"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "นึกว่าจะต้องตายจริงๆ แล้วซะอีก...!!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "สถานการณ์เหมือนเกมสยองขวัญเลย ถ้าบอกว่าเป็นหนังสยองขวัญฉันก็เชื่อนะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ฉันเองก็ไม่เคยกระสับกระส่ายกับการดักฟังขนาดนี้มาก่อนเลยค่ะ เป็นประสบการณ์ที่ลืมไม่ลงเลย"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แต่ถึงยังไง... เราก็ผ่านสถานการณ์นั้นมาได้แล้วนะคะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "เท่ากับว่าพื้นที่นี้หลุดรอดจากการตรวจค้นแล้ว ต่อให้เราออกไปจากที่นี่ตอนนี้ก็จะปลอดภัยค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เมื่อกี้ที่ทางนั้นออกไปก็เพราะมีคนอื่นติดต่อมา ถ้าเกิดมีใครเรียกตัวไปละก็ แสดงว่าคนนั้นก็ไม่ได้อยู่\nในบริเวณนี้ค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ใจหนึ่งฉันก็อยากจะแฮ็กเพื่อติดตามสถานการณ์ของทางนั้นอยู่หรอก..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ไม่ดีหรอกค่ะ แบบนั้นน่ะไม่ต่างจากการต่อสู้ซึ่งๆ หน้ากับจิฮิโระเลยนะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "จริงอย่างที่รุ่นพี่ว่านั่นละ ตอนนี้เราต้องตัดสินใจกันด้วยตัวเอง"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ว่าไงล่ะคุณครู เอายังไงต่อดี...?"
+    },
+    {
+      "Text": "[s29] \"ออกไปตอนนี้เลยดีกว่า\""
+    },
+    {
+      "Text": "[s30] \"ยื้อเวลาไปก็ไม่มีอะไรดีขึ้นหรอก\""
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ก็คงต้องเป็นอย่างนั้นละ แต่เรื่องบอกทางน่ะเราบอกให้ได้อยู่ งั้นก็ออกจากที่นั่นมาตามคำแนะนำของ\nพวกเรานะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ใช่ค่ะ ฉันจะสนับสนุนอยู่ข้างคุณครูจนถึงที่สุดเลยค่ะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ก่อนอื่นก็เปิดประตูออกไป..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "หืม...?"
+    },
+    {
+      "Text": "[s31] \"โคยูกิ...?\""
+    },
+    {
+      "Text": "[s32] \"จู่ๆ เป็นอะไรไปเหรอ?\""
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "คะ...? คะ?"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ปะ... เปล่าค่ะ ก็แค่... อ่า..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ไม่มีอะไรค่ะ ฉันคงตาฝาดไปเองค่ะ"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ก็แค่..."
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "รู้สึกเหมือนกำลังถูกจ้องมองอยู่น่ะค่ะ..."
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第5話;搖晃的櫃子"
+    },
+    {
+      "Name": "小雪",
+      "Text": "哈啊，哈啊……哈啊……總算到了……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "居然真的能在不破壞無人機的情況下制服它們，老師的指揮能力真不是蓋的！！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "你們兩位都辛苦了。\n沒想到事情進行得這麼順利。"
+    },
+    {
+      "Name": "晴",
+      "Text": "這裡是平時很少有人使用的後門。\n雖然像這種大型建築，總是會有幾個「後門」……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "不過這裡是從沒有使用過的對外門中選出來的，所以應該不會被人發現才對。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "接下來只要打開那扇門……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "只要打開……這扇門？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "咦……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……打不開耶。"
+    },
+    {
+      "Name": "晴",
+      "Text": "你在說什麼啊，前輩？怎麼會打不開呢？"
+    },
+    {
+      "Name": "晴",
+      "Text": "等等，讓我試試看。\n嗯……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……奇怪？\n怎麼會……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……！？\n怎，怎麼回事，程式竟然反向……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……！我們被追蹤了，晴！\n不趕快關掉的話，我們的位置會被鎖定的！！"
+    },
+    {
+      "Name": "晴",
+      "Text": "怎麼可能……！\n不行，速度實在太快了！對方的實力比我們還強！！"
+    },
+    {
+      "Text": "[s1]「竟然被反向駭入了……！？」"
+    },
+    {
+      "Text": "[s2]「對方的實力比小玉和晴還要強！？」"
+    },
+    {
+      "Name": "晴",
+      "Text": "老師，你們先離開那裡吧！\n再這樣下去，那附近的監視器很快就會恢復正常的！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "得想想其他的方法才行，正面對決是沒有勝算的。\n這簡直……"
+    },
+    {
+      "Name": "晴",
+      "Text": "等等，這種風格，還有這種方式……\n不久前好像也遇過類似的情況……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……！\n難道是……副部長！？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "你們兩個趕快離開那裡！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "怎麼會……！這太荒謬了……！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "我們好不容易才逃到這裡來耶！！現在卻要我們回頭！？\n難道你們兩個一點辦法都沒有嗎！？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "我知道這種情況很令人氣憤，但是做不到的事就是做不到！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……動作快！！"
+    },
+    {
+      "Text": "[ns3] 抓起小雪的手，迅速逃離原地"
+    },
+    {
+      "Text": "[ns4]「我們先離開吧，小雪！！」"
+    },
+    {
+      "Name": "小雪",
+      "Text": "嗚啊啊啊啊啊！！怎麼會這樣──！！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "哈啊，哈啊……我今天到底得跑多少步才行啊？"
+    },
+    {
+      "Name": "晴",
+      "Text": "是我大意了。\n仔細想想這也是理所當然的事。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "嗯，畢竟千尋平時……就負責維護研討會的保全系統。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "既然現在發生狀況，他當然會從遠端支援……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……這下事情越來越棘手了，情況已經徹底偏離了我們原先的計畫。"
+    },
+    {
+      "Name": "晴",
+      "Text": "嗯，既然對手是副部長，在系統上和他正面對決等同於自找苦吃。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "那我們現在該怎麼辦？\n難道得像這樣乖乖躲在原地直到早上嗎？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "不，就算到了早上，問題也不會解決……！\n要是我們就這樣坐以待斃的話！！"
+    },
+    {
+      "Name": "晴",
+      "Text": "……不。"
+    },
+    {
+      "Name": "晴",
+      "Text": "我們並不是束手無策。\n雖然現在無法和副部長正面對決是事實沒錯……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "但我們也不是只有正面對決這條路可以走。\n雖然聽起來有點矛盾，但這種時候反而要用更傳統的方式。"
+    },
+    {
+      "Text": "[s5]「更傳統的方式……？」"
+    },
+    {
+      "Text": "[s6]「什麼意思？」"
+    },
+    {
+      "Name": "晴",
+      "Text": "副部長應該是遠端操縱著保全系統，因此終究只能在網路上對付我們。"
+    },
+    {
+      "Name": "晴",
+      "Text": "但就算是副部長，面對沒有安裝電腦系統的東西也無能為力。"
+    },
+    {
+      "Name": "晴",
+      "Text": "像是我們所處的這種，根本沒有安裝系統的私人空間……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……又或者是因為年代久遠，\n所以並未安裝最新設備的早期設施，以及棄置已久的老舊道路等等。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "棄置已久的老舊道路……？早期設施……？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "雖然研討會大樓可以說是千年學園的核心，\n但反過來說也是千年之中最大、最老舊的建築。"
+    },
+    {
+      "Name": "晴",
+      "Text": "這棟大樓近年來不停地擴建、翻修，肯定會有一些原始設施在過程中被遺漏掉。"
+    },
+    {
+      "Name": "晴",
+      "Text": "雖然那些地方現在沒有人在使用……但那依舊是存在於研討會大樓裡的「道路」。"
+    },
+    {
+      "Name": "晴",
+      "Text": "其實我從剛才就一直在誘導你們兩人尋找路線，\n而且就像我猜想的一樣，這棟大樓裡確實有幾條這樣的路。"
+    },
+    {
+      "Text": "[ns7]「沒想到你們竟然在這麼短的時間裡找到了。」"
+    },
+    {
+      "Text": "[ns8]「你們兩個還真是厲害。」"
+    },
+    {
+      "Name": "小玉",
+      "Text": "雖然那種地方大多又黑又陰森……不過現在不是挑三揀四的時候了。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "呃，我最討厭髒兮兮的地方了。\n沒有別條路可走嗎？比如稍微乾淨一點的那種？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "而且我現在還穿著睡衣，要是能找一條不會冷的路就更好了……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "啊，最好是途中還有自動販賣機之類的！因為我現在正好有點餓了！"
+    },
+    {
+      "Name": "晴",
+      "Text": "老師……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……我們一定要帶那孩子一起走嗎？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "咦咦──！？！？\n為什麼突然說這種話！？我做錯了什麼嗎！？！？"
+    },
+    {
+      "Text": "[s9]「總覺得對你們有點抱歉，不過他本來就是這種人……」"
+    },
+    {
+      "Text": "[s10]「那是因為他現在年紀還小，請你們多多包涵……」"
+    },
+    {
+      "Name": "晴",
+      "Text": "看來我以後得對真紀好一點才行。"
+    },
+    {
+      "Name": "晴",
+      "Text": "總之你們現在別無選擇。\n光是能找到一條逃出去的路就該偷笑了哦？"
+    },
+    {
+      "Name": "晴",
+      "Text": "那麼首先……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……等一下。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "大家都先安靜……我偵測到走廊的另一邊有聲音。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "這個聲音……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……！！！\n是腳步聲……！！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "大家快躲起來！有人正在靠近！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "腳，腳步聲！？是腳步聲嗎！？\n有人正往這邊走過來嗎！？到底是誰……！？"
+    },
+    {
+      "Name": "晴",
+      "Text": "這種時候還能是誰……！\n總之先趕快躲起來！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "要，要躲在哪裡！？這裡哪有地方可以躲啊！？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……牆，牆壁！？是要像這樣貼在牆上嗎……！？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "這個方法怎麼可能行得通，遲早會被抓到的。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "唔……！！再這樣下去的話……！！"
+    },
+    {
+      "Text": "[ns11]「旁邊好像有扇門。」"
+    },
+    {
+      "Text": "[ns12]「我們先進去裡面躲一下吧。」"
+    },
+    {
+      "Name": "小雪",
+      "Text": "咦！？\n……是！！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "動作快，沒時間了！"
+    },
+    {
+      "Name": "晴",
+      "Text": "快點……！"
+    },
+    {
+      "Text": "[ns] （這裡是……）"
+    },
+    {
+      "Name": "小雪",
+      "Text": "啊，原來是更衣室啊。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "到了這裡應該就安全了……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……安靜點。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "對方走到門前了。"
+    },
+    {
+      "Name": "優香",
+      "Text": "……乃愛？怎麼了嗎？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……嗯，沒有，沒什麼。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "只是覺得這扇門有點奇怪……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "這間更衣室明明很久沒人使用了，應該積了很多灰塵才對呀……？"
+    },
+    {
+      "Name": "晴",
+      "Text": "……！！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "！！！！！！"
+    },
+    {
+      "Name": "優香",
+      "Text": "……？\n是嗎？我是不太清楚啦……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……呵呵。\n可能只是我想太多而已，不過為了以防萬一……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我可以先檢查一下這裡再走嗎？"
+    },
+    {
+      "Name": "晴",
+      "Text": "糟糕。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "什麼……！！"
+    },
+    {
+      "Text": "[ns13] 匆忙打開空的置物櫃"
+    },
+    {
+      "Text": "[ns14] 將小雪拉進置物櫃裡"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我自己一個人去就行了，優香醬繼續去巡視其他地方吧。"
+    },
+    {
+      "Name": "優香",
+      "Text": "知道了。\n如果發現了什麼記得告訴我喔，我會立刻趕過來的！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "是～你也一樣。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "老，老師……！？\n這下子……！唔唔──！！！"
+    },
+    {
+      "Text": "[ns15]「……噓。」"
+    },
+    {
+      "Text": "[ns16] 匆忙摀住小雪的嘴巴"
+    },
+    {
+      "Name": "小雪",
+      "Text": "…………！！！"
+    },
+    {
+      "Text": "[ns17]（……乃愛！）"
+    },
+    {
+      "Text": "[ns18]（絕對不能發出聲音……）"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "…………"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……啊呀！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "老，老師……啊唔……！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "不，不是……先等一下……！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……唔啊！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "等，等等……這裡太擠了……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "唔唔！？唔唔唔唔──！？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "為，為什麼……為什麼會變成這樣……"
+    },
+    {
+      "Text": "[ns19]「……噓。」"
+    },
+    {
+      "Text": "[ns20]「安靜點……」"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "…………"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "嗯……？\n……真奇怪。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "我明明記得……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "11天2小時31分鐘前來的時候，椅子並沒有排得這麼緊密才對啊？"
+    },
+    {
+      "Text": "[ns]（他到底是怎麼記住這種事的……）"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "而且門把也沒有拉得這麼高，這段時間應該不會有人來過這裡才對……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……啊哈。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "也就是說，有人在這段時間內來過這裡囉？\n現在只有這個可能了。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，事情越來越有趣了，既然如此……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "就讓我來檢查一下吧？"
+    },
+    {
+      "Text": "[ns]（……！！！！！！！！！）"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……是我猜錯了嗎？他可能已經跑到其他地方去了吧？"
+    },
+    {
+      "Text": "[ns21]（乃愛他……）"
+    },
+    {
+      "Text": "[ns22]（走，走掉了嗎……？）"
+    },
+    {
+      "Text": "[ns23]（聲音越來越近了……！？）"
+    },
+    {
+      "Text": "[ns24]（難道他打算要一一確認……！！）"
+    },
+    {
+      "Name": "小雪",
+      "Text": "嗚，嗚啊啊啊──！？\n這……這下……！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "這下真的完蛋了……！！！"
+    },
+    {
+      "Text": "[ns25]（……！！！！！！）"
+    },
+    {
+      "Text": "[ns26]（馬上就輪到我們了……！！）"
+    },
+    {
+      "Text": "[ns27]（……真的不行了嗎？）"
+    },
+    {
+      "Text": "[ns28]（……真的要完蛋了嗎？）"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……呼啊啊啊啊啊──！！！"
+    },
+    {
+      "Name": "小雪",
+      "Text": "從各個層面來說，我都覺得剛才差點要死掉了……！！"
+    },
+    {
+      "Name": "晴",
+      "Text": "剛才那簡直就像是恐怖遊戲裡會出現的場景。\n就算說剛才那是刻意營造出來的場景，我也相信。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "我也從來沒有這麼專注地聆聽周圍的聲音，真是個不可多得的經驗。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "不過……幸好我們最後還是順利度過了難關。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "反過來說，這裡是他們已經檢查過一次的地方。\n如果我們要立刻行動的話，這一帶也會相對安全不少。"
+    },
+    {
+      "Name": "晴",
+      "Text": "他剛才是接到電話才離開的，如果有人要找他的話，我想對方應該不在這附近。"
+    },
+    {
+      "Name": "晴",
+      "Text": "雖然我其實很想駭入系統，徹底弄清楚對方的動向……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "那樣反而會造成反效果吧。\n因為那無疑是在正面挑戰千尋。"
+    },
+    {
+      "Name": "晴",
+      "Text": "說的沒錯。\n所以我們暫時只能靠手邊的資訊來判斷了。"
+    },
+    {
+      "Name": "晴",
+      "Text": "……現在怎麼辦，老師？"
+    },
+    {
+      "Text": "[s29]「我們馬上行動吧。」"
+    },
+    {
+      "Text": "[s30]「時間拖太久對我們也沒有好處。」"
+    },
+    {
+      "Name": "晴",
+      "Text": "果然是這樣嗎？\n不過幸好我們還能替你們帶路，請照著我們的指示前進吧。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "嗯，我們會支援老師到最後一刻的。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "總之你們先開門出去……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "…………"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……嗯？"
+    },
+    {
+      "Text": "[s31]「……小雪？」"
+    },
+    {
+      "Text": "[s32]「怎麼了嗎？」"
+    },
+    {
+      "Name": "小雪",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "小雪",
+      "Text": "沒，沒什麼。\n只是……嗯……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "沒事沒事，應該只是我看錯了而已。"
+    },
+    {
+      "Name": "小雪",
+      "Text": "不過我總覺得……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "好像有什麼人在盯著我看……"
+    }
+  ]
+}

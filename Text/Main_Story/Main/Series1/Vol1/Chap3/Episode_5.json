@@ -1,0 +1,2852 @@
+{
+  "TitleJP": "砂漠横断鉄道",
+  "TitleKR": "사막횡단철도",
+  "TitleEN": "The Trans-Desert Railway",
+  "TitleTH": "ทางรถไฟข้ามทะเลทราย",
+  "TitleTW": "沙漠橫貫鐵路",
+  "DescJP": "債権者たちと共に対策委員会の教室を訪れたハイランダー鉄道学園一行。債権者団体の代表は自分たちの目的を説明するために、ユメのサイン入りの契約書を取り出す。",
+  "DescKR": "채권자들과 함께 대책위원회실을 찾아온 하이랜더 철도학원 일행. 채권단의 대표는 그들의 목적에 대해 설명하기 위해 유메의 사인이 담긴 계약서를 꺼낸다.",
+  "DescEN": "The Highlander Railroad Academy students arrive at the Foreclosure Task Force room alongside Abydos' creditors. The spokesperson of the group reveals a contract with Yume's signature on it, and explains their goal.",
+  "DescTH": "เหล่าคนจากสถาบันการรถไฟไฮแลนเดอร์มาที่ห้องคณะกรรมการแผนงาน\nพร้อมกับกลุ่มเจ้าหนี้ ตัวแทนกลุ่มเจ้าหนี้ยื่นหนังสือสัญญาที่มีลายเซ็นของ\nยูเมะออกมาเพื่ออธิบายเกี่ยวกับเป้าหมายของพวกเขา",
+  "DescTW": "高地人鐵道學園一行人帶著債權人一起找上對策委員會。債權團體的代表為了說明自己的目的，拿出了有夢的簽名的合約。",
+  "DialogJP": [
+    {
+      "Text": "第5話;砂漠横断鉄道"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "入場、からの勝利のポーズ！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ここ狭くない？\nどこに座れば良いのさ？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "勝手に動き回るな。\nいいから座れ。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "イスで跳ねたりしたら本当に怒るぞ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あ、あの……"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……失礼した。\nアビドス対策委員会は、これで全員か？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……まだ抑えて、シロコ先輩。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "はい、私たちが対策委員会です。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "まさか本当に来るとは思ってなかったけど……\nで、何の用かな？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "このお菓子を所望するー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "アビドスってのは、客人にお茶も出さないわけ？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あっ……少々お待ちください。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "お構いなく。\n話ならすぐに終わる。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "？"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……そもそも、我々が歓迎されるわけないだろう。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "自分たちの土地を取り戻すために、カイザーとも戦ってきた連中だ。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "武力行使に出てくる可能性もあると伝えているはず。\n遊び感覚で来たのなら、先に帰ってろ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "もっとも、あんたたちが武力行使に出たところで――勝つのは私だがな。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "シロコ先輩！リラックス、リラックス！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私は、別に……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "別に、じゃないでしょ！\n今にも何かしでかしそうな顔してた！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん……"
+    },
+    {
+      "Text": "[ns1] \"それで、本題なんだけど……\""
+    },
+    {
+      "Text": "[ns2] \"以前の件について説明してくれるんだよね？\""
+    },
+    {
+      "Name": "スオウ",
+      "Text": "ああ、今日はそのために来た。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "シャーレの先生、だな？\n先日は失礼した。情報の伝達に齟齬があったようだ。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "私の口から説明しても構わないが……別の者を呼んでいる。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……入ってくれ。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "けほっ、けほっ……ふぅ、参りましたね。\n特に外は、随分とひどい砂ぼこりだ……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "全くです。\nさっさと用事を済ませて帰るとしましょう。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "な、何なのこいつら？"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "言葉には気をつけた方が良い。\n紹介しよう、こちらがアビドスの新たな債権者だ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "債権者……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……え？\n借金取りってこと！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "セリカちゃん、もう少し言い方を……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "つまり、債券を買収した方々……"
+    },
+    {
+      "Text": "[s] \"……まずは、話を聞いてみようか。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "はい……"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……。"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "……はぁ、随分と待たせてくれましたね。"
+    },
+    {
+      "Name": "私債労働組合長",
+      "Text": "なるほど、これがアビドスの生徒会室ですか。\n……まさか、こんなにも狭いとは。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "初めまして、私たちは今回の事業に投資した[ruby=・   ・]集団[/ruby]の責任者です。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "その中でも私が、債権者団体の代表を務めております。\nどうぞ、以後お見知りおきを。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "こ、こんにちは……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "債権を買ったのはネフティスなのよね？\n全然ネフティスの人には見えないけど。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "ええ、ネフティスが債権を買収したという認識については仰る通り。\nその結果として、砂漠横断鉄道の権利を確保したわけですから。"
+    },
+    {
+      "Name": "私債労働組合長",
+      "Text": "ただ買収資金の全てを、ネフティスが出したわけではありません。"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "――私募ファンド、と言って伝わるでしょうか？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私募ファンド？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "少数の投資家から資金を募り、事業を運用するグループのことです。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "その通り。\n我々以外にも、今回の事業に投資した者がおります。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "押収品競売組合に、ゼラチングミ商事、タヌキダイスキ工業などなど……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "名前からして怪しい奴らばっかじゃない……"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "こほん！"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "否定はしませんよ。\n元々は私も、ブラックマーケットで盗品を扱っていましたし。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "だからこそ、ネフティスの名で債権を購入したのです。\nあまり表に顔を晒すわけにはいきませんから。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "雲行きが怪しくなってきたわね……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "その、えっと……"
+    },
+    {
+      "Text": "[ns3] \"債権者だと証明できるものはありますか？\""
+    },
+    {
+      "Text": "[ns4] \"まずは、それを確認させてください。\""
+    },
+    {
+      "Name": "私債労働組合長",
+      "Text": "……私たちを疑っているのか？"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "不愉快極まりない話だ。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "まあ皆さん、落ち着きましょうよ。\nここは大人の会話らしく――"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……そちらの方々は、債権者で間違いございません。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "どなたですか……？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "し、執事さん……？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "ノノミ先輩、知ってるの？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "はい……ネフティスグループの幹部で、\n私の面倒を見てくださっていた方です。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "お久しぶりです、お嬢様。\nこのような形でご挨拶することになってしまい、申し訳ありません。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "私どもは債権を購入するにあたり、複数の投資家に声をかけて資金を調達いたしました。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "こちらに証明書のコピーもございます。\n……ご確認を。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あ、はい……失礼します。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……間違いありません。\nこの方々は確かに、権利を持っています。"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "これで気は済みましたか？"
+    },
+    {
+      "Name": "私債労働組合長",
+      "Text": "それとも、まだ何か言いたいことでも？"
+    },
+    {
+      "Text": "[s] \"いえ、まずは確認さえできれば。\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "なによ。\nやっぱ借金取りで合ってたんじゃない。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "セリカちゃん、だから言い方……"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "疑問が氷解したようで何より。\nでは、話を続けるとしましょう。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "私たちが今回来た理由は、とあるご相談のためです。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "砂漠横断鉄道について、ですか……"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "……。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "……なるほど。\nある程度はこちらの事情を把握しているのですね？"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "この際、はっきり申し上げましょう。\n私たちの目的は、砂漠横断鉄道の全権利を手に入れることです。"
+    },
+    {
+      "Name": "質屋連合長",
+      "Text": "……。"
+    },
+    {
+      "Name": "私債労働組合長",
+      "Text": "ええ、そのために私募ファンドが生まれました。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "だからこそあれだけのお金を出して、カイザーから債権を買ったのです。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "少なくとも鉄道の開発権利は、既にこちらのもの。\nつまり、ハイランダー学園の行為には何の問題もありません。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "そーそー。私たちが工事を始めたのは、債権を確保してからなんだし。\n何にも問題ないっしょ？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "イエース、問題なーし。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……少し黙ってろ。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あの……でもどうして、砂漠横断鉄道を……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "執事さん、どういうことなのですか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "なんと申し上げたら良いものか……"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "お気持ちは分かりますよ、ネフティスのご令嬢。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "砂漠横断鉄道の名を聞いて、あまり良い気持ちではないでしょう。\nあれのせいで、アビドスの衰退は加速したのですから。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……教えてください、執事さん！\nネフティスは一体何を考えているんですか！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あれはそもそも、最初から間違っていたんです。\n砂漠化が進み続ける自治区で、巨大な交通インフラを建設するなんて……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "アビドスは交通の要所でもなく、地下資源だって存在しません……\nそんな場所に、交通網を広げたって……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "結局、アビドスの衰退を早めただけで……"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "それをどうして、今になって買い戻したんですか？\nあんなにお金を投じてまで……！"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "一体ネフティスは、何をしようとしているんですか！？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "落ち着いて、ノノミちゃん。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "ノノミ先輩……"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "……お話は以上でしょうか。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "そろそろ、こちらからの議題を提案しても？"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "あぁ、責任者以外の方はご退席願えますか？"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "アビドス生徒会の方だけ、残ってもらいましょう。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "ほら、行くぞ。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "押すなって言ってるだろ！？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "帰りたくなーい。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "私も失礼いたします、お嬢様。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "で、ではネフティス側の代表は……！？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "代理として、こちらのスオウ監督官を立てます。"
+    },
+    {
+      "Name": "スオウ",
+      "Text": "……本気で言っているのか？"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "勿論。今のあなたは契約上、ネフティスに雇用されていますから。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "彼女のことは、私どもと同じくネフティスの者だと思っていただければと。"
+    },
+    {
+      "Name": "ネフティス幹部",
+      "Text": "では、失礼いたします。次の用事がありますので。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "もう、何がなんだか……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "……聞こえていませんでしたか？\n私は「アビドス生徒会」の方だけ残ってください、と言ったのです。\n[ruby=たかなし]小鳥遊[/ruby]ホシノさん以外の方には、ご退出願いたいのですが。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "わっ、私たちも生徒会なんだけど！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "私たち対策委員会が、今のアビドスにおける生徒会組織です！\nここにいるシャーレの先生の承認も得ています！"
+    },
+    {
+      "Text": "[s] \"彼女の言う通りです。\""
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "……なるほど、そうでしたか。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "しかし、おかしいですね……？\nアビドス生徒会には、ホシノさんしか所属していないことになっています。\n……アビドスには二つの生徒会組織がある、と？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そ、それは……"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "あー……私がどっちにも所属してるからか。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "アビドス生徒会は形骸的に名前が残ってるだけで、今の生徒会は「対策委員会」で合ってるよ。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "事情は理解しました。\n生徒会であるのなら、我々としてはどちらでも構いません。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "では、こちらをご覧ください。"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "これは……"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "先日、ハイランダー学園の倉庫から発見された書類です。"
+    },
+    {
+      "Name": "債権者団体の代表",
+      "Text": "アビドスの前生徒会長……[ruby=くちなし]梔子[/ruby]ユメの名で、ここにサインがあるでしょう？"
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……！"
+    },
+    {
+      "Text": "次回;契約書"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제5화;사막횡단철도"
+    },
+    {
+      "Name": "히카리",
+      "Text": "입장- 승리 모션-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "뭐야, 좁잖아? 우린 어디 앉으면 돼? 저긴가?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "……."
+    },
+    {
+      "Name": "스오우",
+      "Text": "간부님들, 함부로 남의 부실 뒤지지 마. 냉장고 찾지 말고 적당히 거기 앉아."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……의자에서 뛰는 것도 안 돼."
+    },
+    {
+      "Name": "아야네",
+      "Text": "저, 저기……."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……실례하겠어. 여기가 아비도스 학교의 대책위원회부실이지?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "……뭘 하려는 건지는 모르겠지만 지금은 참아, 시로코 선배."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……아니, 딱히."
+    },
+    {
+      "Name": "아야네",
+      "Text": "네. 저희가 대책위원회입니다."
+    },
+    {
+      "Name": "호시노",
+      "Text": "제대로 찾아온 건 맞아. 그러니까 본론으로 바로 가보자고. 하이랜더 간부님들."
+    },
+    {
+      "Name": "히카리",
+      "Text": "이 과자 먹어도 돼? "
+    },
+    {
+      "Name": "노조미",
+      "Text": "뭐야, 여긴 손님한테 차도 한잔 안 내 주는 거야?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아…… 차는, 잠시만요."
+    },
+    {
+      "Name": "스오우",
+      "Text": "됐어. 금방 갈 거니까."
+    },
+    {
+      "Name": "히카리",
+      "Text": "우우-?"
+    },
+    {
+      "Name": "스오우",
+      "Text": "분위기 파악 좀 해 간부님들. 어차피 대접받을 입장이 아닌 것 정도는 알고 있어야지."
+    },
+    {
+      "Name": "스오우",
+      "Text": "자기들 땅을 되찾기 위해 그 거대 기업 카이저와도 싸워온 자들이야."
+    },
+    {
+      "Name": "스오우",
+      "Text": "우리는 지금 언제 터져도 이상할 게 없는 화약고 안에 들어와 있는 거니까."
+    },
+    {
+      "Name": "시로코",
+      "Text": "음……."
+    },
+    {
+      "Name": "스오우",
+      "Text": "하지만 걱정하지 마. 싸우면 내가 다 이기니까."
+    },
+    {
+      "Name": "세리카",
+      "Text": "시로코 선배, 릴렉스, 릴렉스!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "아니 난 딱히……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "딱히가 아니잖아. 열이 머리까지 뻗쳤잖아. 뭘 아닌척 하는 거야?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으응……."
+    },
+    {
+      "Text": "[ns1] \"자자, 본론으로 들어가 보자, 스오우.\""
+    },
+    {
+      "Text": "[ns2] \"대책위원회에게 설명할 게 있는 거지?\""
+    },
+    {
+      "Name": "스오우",
+      "Text": "그래."
+    },
+    {
+      "Name": "스오우",
+      "Text": "당신이 그 샬레의 선생님이지? 아까는 실례했어."
+    },
+    {
+      "Name": "스오우",
+      "Text": "일단 지금부터 상황을 설명하겠지만…… 그 설명은 우리가 아니라 다른 사람이 할 거야."
+    },
+    {
+      "Name": "스오우",
+      "Text": "(치익) ……확인 끝났어. 안전하니까 들어와도 돼."
+    },
+    {
+      "Name": "???",
+      "Text": "콜록, 콜록. 다행이군요. 여기 모래 먼지가 지독해서 말이죠."
+    },
+    {
+      "Name": "???",
+      "Text": "그래. 한시라도 있고 싶지 않았는데. 빨리 들어가지."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐야? 이 녀석들은?"
+    },
+    {
+      "Name": "스오우",
+      "Text": "말조심하는 게 좋을걸? 일단 너희의 채권자들이니까."
+    },
+    {
+      "Name": "시로코",
+      "Text": "채권자라면……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐? 비, 빚쟁이……? 지금 빚쟁이를 여기 부른 거야?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "세리카 쨩…… 조금만 조용히……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "맞아요. 이번에 DLB채권을 매수한 사람들인가 보네요……."
+    },
+    {
+      "Text": "[s] \"뭐, 일단은 이야기를 들어보는 수밖엔 없겠지.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "네……."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……."
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "실례하겠네."
+    },
+    {
+      "Name": "사채노동조합장",
+      "Text": "흠. 여기가 아비도스 학생회실인가. 생각보다 훨씬 좁군."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "처음 뵙겠습니다. 우리가 이번 사업에 투자한 사모펀드의 책임자들입니다. 즉, 아비도스 학교의 새로운 채권자들이죠."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "그리고 제가 바로 채권자들의 이익을 대변하는 채권단의 대표입니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 안녕하세요……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야? 그치만 채권을 구매한 건 네프티스라며? 당신들 네프티스 소속인 거야? 그렇게 안 보이는데?"
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "아아, 물론 채권을 매수한 당사자는 네프티스가 맞습니다. 엄청난 금액을 지불하고서 <사막횡단철도>의 권리를 확보했죠."
+    },
+    {
+      "Name": "사채노동조합장",
+      "Text": "하지만 그 돈은 네프티스 혼자서 충당한 게 아냐. 여러 집단에서 투자금을 받아서 산 거라고."
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "그래. 일종의 사모펀드를 만든 거지. 그리고 우리가 그 펀드에 투자한 사람들이고."
+    },
+    {
+      "Name": "시로코",
+      "Text": "사모펀드(私募fund)?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "소수의 투자자들을 모아서 비공개로 운영하는 투자그룹을 뜻해요……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "그렇습니다. 저희 사모펀드에 가입되어 있는 투자자들은 저희 말고도 많이 있습니다."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "여기 있는 사채노동조합과 전당포연합, 그리고 압류품경매길드, 젤라틴구미, 자코흥업, 그리고……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "수상쩍은 녀석들밖에 없잖아……."
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "어흠! 흠흠!"
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "하하하. 네, 뭐. 인정합니다. 저 또한 암흑가에서 장물을 굴리던 사람이거든요."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "그렇기 때문에 네프티스가 채권을 구매하는 간판 역할을 한 것이죠. 저희는 눈에 띄면 좋은 입장이 아닌지라."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "점점 더 수상해지고 있는데……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어…… 음……."
+    },
+    {
+      "Text": "[ns3] \"죄송합니다만, 여러분이 아비도스의 채권자라는 걸 증명할 수 있는 게 있습니까?\""
+    },
+    {
+      "Text": "[ns4] \"수상하다는 건 아니지만, 이런 건 확실하게 하고 가는 게 서로 좋으니까요.\""
+    },
+    {
+      "Name": "사채노동조합장",
+      "Text": "뭐? 우리를 의심하는 거냐!"
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "불쾌하군."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "자아, 자자. 진정들 하시고. 여기서는 어른들끼리의 대화답게……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "(치익) ……저분들은 채권자가 맞습니다. 제가 보증하겠습니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "어라, 또 누구……?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "지, 집사님……?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "노노미 선배? 아는 사람이야?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "네…… 네프티스 그룹의 간부이자 저를 돌봐주셨던 집사님이세요……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "오랜만입니다. 아가씨. 이렇게 인사드리게 되어 죄송합니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "제가 상황을 설명하겠습니다. 저희가 채권을 구매하기 위해 사모펀드를 구성해서 자금을 충당했었어요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그러니 저분들의 신분은 이 사모펀드의 증명서를 통해 확인하실 수 있으실 겁니다. 자, 이쪽으로 사본을 전달드릴 테니 확인 부탁드리겠습니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 네…… 확인하겠습니다."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네, 맞아요. 사모펀드의 소속과 권리관계를 보면…… 이분들은 틀림없이 저희 채권의 권리를 가지고 있어요."
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "흠흠!"
+    },
+    {
+      "Name": "사채노동조합장",
+      "Text": "자, 이제 됐겠지?"
+    },
+    {
+      "Text": "[s] \"……네. 실례했습니다.\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야…… 그럼 진짜 빚쟁이들이 맞았던 거네."
+    },
+    {
+      "Name": "아야네",
+      "Text": "세리카 쨩…… 조금만 조용히……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "후후. 의심이 풀렸다면 됐습니다. 그럼 이어서 설명하겠습니다."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "저희가 여러분들을 찾아온 건 다름이 아니라…… 채권단으로서 채무자인 여러분들과 한가지 논의를 하기 위해서입니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "사막횡단철도…… 때문인가요."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "호오…… 과연. 네. 당연히 이런저런 것들을 찾아보셨겠죠."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "맞습니다. 단도직입적으로 말하자면, 저희는 사막횡단철도 전체의 권리를 확보하는 게 목적입니다."
+    },
+    {
+      "Name": "전당포 연합장",
+      "Text": "(끄덕) 흠흠."
+    },
+    {
+      "Name": "사채노동조합장",
+      "Text": "그걸 위해 <사모펀드>가 존재하는 거지."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "저희가 카이저에게서 채권을 폭리에 가까운 금액으로 구매한 이유가 바로 사막횡단철도의 모든 권리를 확보하기 위해서였죠."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "그리고 거기엔 미완성된 철로의 개발 권리도 포함되어 있죠. 따라서 방금 전 있었던 하이랜더 학원의 개발 행위도 문제가 없습니다."
+    },
+    {
+      "Name": "노조미",
+      "Text": "그렇다니까. 우리가 공사를 시작한 건 채권 확보 이후였거든? 정당한 개발이었거든? "
+    },
+    {
+      "Name": "히카리",
+      "Text": "응- 문제-없음-"
+    },
+    {
+      "Name": "스오우",
+      "Text": "……얌전히 앉아 있어. 간부님들."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저기…… 그치만 왜 하필 사막횡단철도를……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "저기, 집사님? 이건 무슨 일인 거죠? 왜 이런……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "글쎄요…… 저로서는 곤란한 상황이랄까…… 그게 그러니까……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "자아, 자아. 이해합니다. 네프티스의 영애님."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "사막횡단철도…… 확실히 네프티스와 아비도스에겐 아픈 손가락일 테죠. 이것 때문에 아비도스의 몰락이 가속화되었으니까요."
+    },
+    {
+      "Name": "노노미",
+      "Text": "아뇨, 대답해 주세요! 집사님! 네프티스는 무슨 생각인 거죠?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "애초에 시작부터가 잘못된 사업이었어요. 사막화로 몰락해 가는 자치구에 거대한 교통 인프라를 건설한다……? "
+    },
+    {
+      "Name": "노노미",
+      "Text": "아비도스는 교통의 요지도 아니고 지하자원이 있는 자치구도 아닌데, 모래밖에 없는 이런 황량한 자치구에 교통망을 연결해 봤자……!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "결국 자금 확보에 실패해서 완성되지 못하고 중단된 계획…… 아비도스의 몰락을 앞당겼을 뿐인 네프티스의 원죄……!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "그걸 지금 와서 다시 원하는 이유가 뭐죠? 그렇게 큰 지출을 감수하면서까지……?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "어째서? 지금 거기에 무슨 의미가 있는 거죠?! 네프티스는 대체 무슨 생각을……!!"
+    },
+    {
+      "Name": "호시노",
+      "Text": "진정해. 노노미 쨩."
+    },
+    {
+      "Name": "아야네",
+      "Text": "노노미 선배……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "……그렇군요. 자, 그럼 본격적인 이야기를 해볼까요. 저희가 여기 찾아온 진짜 목적을 말씀드리겠습니다."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "하지만, 그 전에."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "죄송하지만, 지금부터는 책임자와만 이야기하고 싶군요."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "어디보자. <아비도스 학생회>만 남고 다른 분들은 자리를 비켜주시겠습니까?"
+    },
+    {
+      "Name": "스오우",
+      "Text": "자, 우리는 나가자."
+    },
+    {
+      "Name": "노조미",
+      "Text": "자, 잠깐만? 밀지 마?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "우오오- 진짜? 이렇게 빨리 퇴장-하게 될-줄-은-"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "저도 이만 퇴장하겠습니다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……네?! 그, 그럼 네프티스는……."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "네프티스의 대표로는 스오우 감독관이 남아주세요."
+    },
+    {
+      "Name": "스오우",
+      "Text": "……뭐? 정말로?"
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "네. 문제없습니다. 그는 하이랜더의 학생이지만 지금은 네프티스에 고용되어 있습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "CCC와는 별개로, 완전히 저희 쪽 사람이니 신뢰해 주셔도 괜찮습니다."
+    },
+    {
+      "Name": "네프티스 간부",
+      "Text": "그럼…… 저는 바쁜 일이 있어서……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야 이거……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으음……."
+    },
+    {
+      "Text": "[s] \"…………….\""
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "응? 뭐 하시죠? <아비도스 학생회> 만 남아달라고 했는데…… 타카나시 호시노 씨 외엔 전부 나가주셨으면 좋겠습니다만……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐? 아, 아냐! 우리가 아비도스 학교의 학생회가 맞는데?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네! <대책위원회>가 아비도스의 학생회입니다! 여기 계신 고문 선생님의 승인도 받은 정식 학생회예요!"
+    },
+    {
+      "Text": "[s] \"맞아. 내가 승인한 거니 문제없어.\""
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "……그렇군요. 흐음."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "그치만 이상한데요……? <아비도스 학생회>는 분명 호시노 씨만 소속되어 있는 걸로 되어 있는데…… 그럼 <대책위원회>라는 학생회가 더 존재하는 겁니까?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네? 그, 그건……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……. 아. 아, 알겠어. 내가 둘 다 소속되어 있는 상태라서 그런 거 같은데……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "그치만 <아비도스 학생회>는 이름만 있을 뿐이고, 진짜 학생회는 <대책위원회>가 맞아."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "흐음…… 그렇군요. 좀 복잡하긴 하지만 이해했습니다."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "자아, 그렇다면 이걸 봐주십시오."
+    },
+    {
+      "Name": "호시노",
+      "Text": "이건……."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "얼마 전, 하이랜더 학원의 문서 창고에서 서류 하나가 발견되었습니다."
+    },
+    {
+      "Name": "채권단 대표",
+      "Text": "아비도스의 전임 학생회장 쿠치나시 유메가 작성한 친필 계약서입니다."
+    },
+    {
+      "Name": "호시노",
+      "Text": "……!!"
+    },
+    {
+      "Text": "다음화;매매계약서"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 5;Trans-Desert Railway"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Admittance accepted. Victory pose!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Why's it so cramped here? Where're we supposed to sit? On the ground?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "..."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Officers, please refrain from touching others' belongings without permission. No, there's no fridge here. Just sit and be still."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Jumping on chairs is the opposite of being still. Sit."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "U-Um..."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Apologies again. Is this the Abydos Foreclosure Task Force club room we are standing in?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Shiroko! Whatever you're thinking, hold your horses!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...I wasn't going to do anything. I swear."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes. We're the Foreclosure Task Force."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Well, you found us. Let's get to it, Highlanders."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Is this...eatable? "
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Hellooo, aren't we guests? Where's our tea?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "A-Ah! Right... Just a moment..."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Please don't strain yourselves for their sake. We won't be here long."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Boo. Booooo!"
+    },
+    {
+      "Name": "Suou",
+      "Text": "If you could, for once, properly assess the situation, you would understand that we're not welcome guests here, officers."
+    },
+    {
+      "Name": "Suou",
+      "Text": "These agents were willing to stand up against the giant that is Kaiser Corporation to protect their school."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Consider this a train engine that could explode at any moment."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um..."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Not that there is any need for real concern. I would easily dispose of them if a fight broke out."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Deep breaths, Shiroko! Deep breaths!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Wasn't going to. Double swear."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Why're you acting all innocent?! I know you were about to blow a fuse!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Oops."
+    },
+    {
+      "Text": "[ns1] \"Let's get to the point, Suou.\""
+    },
+    {
+      "Text": "[ns2] \"You came to speak with the Foreclosure Task Force?\""
+    },
+    {
+      "Name": "Suou",
+      "Text": "Yes."
+    },
+    {
+      "Name": "Suou",
+      "Text": "Schale's Sensei, correct? My apologies for the earlier situation."
+    },
+    {
+      "Name": "Suou",
+      "Text": "However, I'm afraid we are not the ones who you will be negotiating with."
+    },
+    {
+      "Name": "Suou",
+      "Text": "*tchhk* Area secured. It is safe to proceed."
+    },
+    {
+      "Name": "???",
+      "Text": "*cough* *cough* Thank goodness. How can there be so much dust in one place?"
+    },
+    {
+      "Name": "???",
+      "Text": "Yes, how barbaric. I'd rather not stay in this toxic environment any longer than necessary. Let's get indoors."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-Who are these punks?"
+    },
+    {
+      "Name": "Suou",
+      "Text": "Please watch your language. These are your creditors, after all."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...Creditors?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Like...our creditors? You brought those sharks here?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Let's lower our voices a little bit, Serika."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It would appear these are the people who bought out the derivative bonds..."
+    },
+    {
+      "Text": "[s] \"I suppose we have no other option but to hear them out.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Okay..."
+    },
+    {
+      "Name": "Suou",
+      "Text": "..."
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "Excuse me."
+    },
+    {
+      "Name": "Debt Labor Union Leader",
+      "Text": "Hmph. So this is the Abydos Student Council room. It's even more cramped than I expected."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Nice to meet you. We're the private equity fund invested in this business. To you, we're Abydos' new creditors."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "And I'm their legal representative, speaking on behalf of their interests."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "W-Welcome..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Who're you people? Wasn't Nephthys the one that bought out the bonds? You don't seem like Nephthys guys to me."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "You are correct. They did acquire the rights for Abydos' Trans-Desert Railway at a rather exorbitant price."
+    },
+    {
+      "Name": "Debt Labor Union Leader",
+      "Text": "However, they couldn't afford such a sum all on their own. It required the funds of many different interested parties."
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "They created a private equity fund to meet their ends. We're their investors."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Private equity fund?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It's a privately organized investment group, usually made up of a handful of interested parties."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "As the young lady says. There are many other investors besides just us."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "The Debt Labor Union and Pawnbroker Union here, as well as the Foreclosure Auction Guild, Gelatin Gummies, Zako Business, and—"
+    },
+    {
+      "Name": "Serika",
+      "Text": "A bunch of sketchy people."
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "Ahem! Hmm!"
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Hahaha. She isn't wrong. I also used to trade stolen goods on the black market myself."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "We're not the type of people who like to stand out. Which is where Nephthys, a legitimate company in good public standing, comes in as the sparkling face of it all."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "You guys just sound shadier and shadier."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Uh... Um..."
+    },
+    {
+      "Text": "[ns3] \"I'm sorry, but do you have any proof that you're Abydos' creditors?\""
+    },
+    {
+      "Text": "[ns4] \"It's to the benefit of both sides to ensure everything's in order.\""
+    },
+    {
+      "Name": "Debt Labor Union Leader",
+      "Text": "You dare doubt us?"
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "How unpleasant."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Now, now. Let's all calm down and discuss this like civilized adults."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "*tchhhk*... You have my guarantee that these creditors are legitimate."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh? Who is it now?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "B-Butler...?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "You know this person, Nonomi?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Yes. He's an officer of Nephthys Group...as well as the butler who essentially raised me."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "It's been a while, my lady. I'm sorry our meeting had to be under these circumstances."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I will explain the situation. We organized a private equity fund to raise money and purchase the bonds."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "You'll see their names listed on these contracts for our private equity fund. I'll send you a copy, so please feel free to verify."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Ah, yes... Thank you."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "With a quick glance, everything they're saying appears to be true. Mm... I see here their affiliations and the rights to the bonds."
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "Hmph! As we said!"
+    },
+    {
+      "Name": "Debt Labor Union Leader",
+      "Text": "That's proof enough, correct?"
+    },
+    {
+      "Text": "[s] \"...Yes. Thank you for your patience.\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "Huh. So they weren't sketchy con artists."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Serika, please..."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Hahaha. As long as we're now all on the same page... Moving on."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "As the creditors of this fund, we came here to discuss a rather important issue with you all."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "About the Trans-Desert Railway?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "..."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Ah. Yes, yes. Naturally, you students did your homework."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "You're correct. No point in beating around the bush. Our goal is to acquire all rights for the Trans-Desert Railway."
+    },
+    {
+      "Name": "Pawnbroker Union Leader",
+      "Text": "*nod* *nod*"
+    },
+    {
+      "Name": "Debt Labor Union Leader",
+      "Text": "Which is why the private equity fund exists."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "We bought these bonds from Kaiser at nearly fraudulent prices all so we could acquire the rights to the railway."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Those bonds included the rights to the construction of any uncompleted railways. Therefore, Highlander Academy's earlier actions were breaking no laws."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Duh! That's what we've BEEN saying. We have the rights, so we getta do what we want. "
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Yuppies. Whatever we want!"
+    },
+    {
+      "Name": "Suou",
+      "Text": "Please don't antagonize them, officers."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Um... I'm failing to grasp why you would want the Trans-Desert Railway to begin with."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Please explain, Butler. Why are you doing this?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "It appears I'm in a bit of an uncomfortable position... *sigh*"
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "I'll handle this, then. Young Nephthys lady."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "I understand the Trans-Desert Railway project is a bit of a sore topic for both Nephthys and Abydos. After all, it singlehandedly accelerated this district's downfall."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I don't want to hear that from you! You need to tell me what Nephthys is thinking, Butler!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It was a dangerous, reckless project to begin with! In fact, building that kind of transportation infrastructure made no sense in this desolate place. "
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "There were no resources, no trade, not even an economy to speak of in Abydos at that point!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "It drained Nephthys and Abydos of all their remaining capital, and then was left to rot. If it weren't for that project...!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "After all of the pain it caused, you want it back? Why? Why, Butler?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "What could be the purpose? More pain? More casualties? What is Nephthys thinking?!"
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Calm down, Nonomi."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Nonomi..."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "...Interesting. But we didn't come here to be interrogated. Let's get to the issue at hand."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "However, before we begin..."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "If you don't mind, I'd like this discussion to move forward with only the involved parties."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Would anyone who is not a member of the Abydos Student Council please leave?"
+    },
+    {
+      "Name": "Suou",
+      "Text": "All right. Let's go."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "H-Hey! Keep your dirty paws off of me!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Wah. Do we have to? Hikari wanted to play more..."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I'll take my leave as well."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Th-Then who will represent Nephthys?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Overseer Suou will serve as our representative."
+    },
+    {
+      "Name": "Suou",
+      "Text": "...Excuse me?"
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "I see no problem with it. She may be a Highlander student, but she is currently employed by Nephthys."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "She may be a member of the CCC, but she's also one of ours. I consider her trustworthy."
+    },
+    {
+      "Name": "Nephthys Officer",
+      "Text": "Now then, I have other matters to attend to."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What in the world is happening..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Um..."
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Hm? I believe I asked for the Abydos Student Council. To my knowledge, that should only include Takanashi Hoshino."
+    },
+    {
+      "Name": "Serika",
+      "Text": "N-No way! We're members of the student council too!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "As she said! The Foreclosure Task Force is the official student council, appointed by our advisor here!"
+    },
+    {
+      "Text": "[s] \"Correct. As their teacher, I've approved it.\""
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "...I see. Hm."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "How odd. The paperwork here states that the only person affiliated with the Abydos Student Council is Miss Hoshino... So there's another student council called the Foreclosure Task Force, as you say?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Th-That's..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "Ah, ah. That's on me. It's because I'm technically affiliated with both."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "The Abydos Student Council may hold the official name, but the Foreclosure Task Force has acted as the student council for years now."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Hm... It's rather complicated, but I suppose I understand."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "Then, please take a look at this."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "This...?"
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "This document was...happened upon in Highlander Academy's document storage recently."
+    },
+    {
+      "Name": "Creditor Representative",
+      "Text": "It's a contract written by the previous Abydos Student Council president, Kuchinashi Yume."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "...!!"
+    },
+    {
+      "Text": "Next Episode;Sales Contract"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 5;ทางรถไฟข้ามทะเลทราย"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ได้เข้ามาแล้ว แค่นี้ก็มีชัยไปกว่าครึ่ง"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อะไรเนี่ย ทำไมแคบแบบนี้? จะให้พวกเรานั่งที่ไหน? ตรงนั้นเหรอ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ท่านผู้บริหาร อย่าเที่ยวค้นห้องชมรมของคนอื่นตามอำเภอใจสิ นั่งให้มันสงบเสงี่ยมหน่อย แล้วก็เลิกหาตู้เย็นได้แล้ว"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ห้ามกระโดดบนเก้าอี้ด้วย..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อะ... เอ่อ..."
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ขอโทษที่เสียมารยาทนะ ที่นี่คือห้องชมรมคณะกรรมการแผนงานของโรงเรียนอะบิดอสใช่มั้ย?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ฉันไม่รู้หรอกว่ารุ่นพี่คิดจะทำอะไร... แต่ตอนนี้อดทนไว้ก่อนนะ รุ่นพี่ชิโรโกะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เปล่า... ไม่ได้จะทำอะไร"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ใช่ค่ะ พวกฉันคือคณะกรรมการแผนงาน"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "มาหาถูกคนแล้วละ งั้นก็มาเข้าเรื่องกันเลย ท่านผู้บริหารไฮแลนเดอร์"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ขนมอันนี้กินได้มั้ย? "
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อะไรกัน คนที่นี่ไม่เสิร์ฟชาให้แขกหน่อยเหรอ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ๊ะ... ชาเหรอคะ รอเดี๋ยวนะคะ "
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ไม่ต้องหรอก เดี๋ยวก็กลับแล้วละ"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "อ้าว?"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ท่านผู้บริหาร ทำความเข้าใจสถานการณ์บ้างสิ อย่างน้อยก็ต้องรู้รึเปล่าว่าเราไม่ได้อยู่ในสถานะที่ควร\nได้รับการต้อนรับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "คนพวกนี้คือคนที่ต่อสู้กับไคเซอร์เพื่อทวงเอาที่ดินของตัวเองกลับมานะ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ส่วนพวกเราตอนนี้ก็เหมือนมาอยู่ในตู้ดินปืนที่จะระเบิดเมื่อไรก็ไม่รู้"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "แต่ก็ไม่ต้องกังวลหรอก เพราะถ้าเกิดการต่อสู้ ฉันชนะได้หมดอยู่แล้ว"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รุ่นพี่ชิโรโกะ ใจเย็นๆ ไว้ก่อนนะ หายใจเข้าลึกๆ!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ไม่หรอก ฉันไม่ได้รู้สึกอะไร..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ซะที่ไหนล่ะ! หัวร้อนจนควันขึ้นแล้วนะ ยังมาแกล้งเหมือนไม่เป็นอะไรอีก"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อืม..."
+    },
+    {
+      "Text": "[ns1] \"เอาละๆ เข้าเรื่องเลยดีกว่า สุโอ\""
+    },
+    {
+      "Text": "[ns2] \"มีเรื่องอยากอธิบายให้คณะกรรมการแผนงานฟังใช่มั้ย?\""
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ใช่"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "คุณเป็นครูของชาเล่ต์ใช่มั้ย? ขอโทษด้วยที่ฉันเสียมารยาทไปเมื่อก่อนหน้านี้"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "เราจะอธิบายสถานการณ์ให้ฟังก่อน... แต่ว่าฉันไม่ใช่คนที่จะอธิบายหรอกนะ เป็นคนอื่นน่ะ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "(ซ่า)... ตรวจสอบเรียบร้อยแล้ว ที่นี่ปลอดภัยดี เข้ามาได้"
+    },
+    {
+      "Name": "???",
+      "Text": "แค่ก แค่ก ค่อยยังชั่วหน่อยนะครับ ฝุ่นทรายตรงนี้รุนแรงมากๆ เลย"
+    },
+    {
+      "Name": "???",
+      "Text": "ไม่อยากอยู่ตรงนี้เลย รีบๆ เข้าไปเถอะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะ... อะไรน่ะ? เจ้าพวกนี้?"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ระวังคำพูดไว้หน่อยจะดีกว่านะ คนพวกนี้คือเจ้าหนี้ของพวกเธอ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เจ้าหนี้งั้นเหรอ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ? จะ... เจ้าหนี้...? นี่เธอเรียกเจ้าหนี้เข้ามาที่นี่เหรอ?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เซริกะจัง... สงบเสงี่ยมหน่อยค่ะ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่แล้วค่ะ น่าจะเป็นพวกคนที่ซื้อพันธบัตรไปในครั้งนี้นะคะ"
+    },
+    {
+      "Text": "[s] \"งั้นเราคงต้องฟังเรื่องราวจากพวกเขาก่อนแล้วละ\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ..."
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "......"
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "ขอเสียมารยาทหน่อยแล้วกัน"
+    },
+    {
+      "Name": "ประธานสหภาพสินเชื่อแรงงาน",
+      "Text": "ฮืม... ที่นี่คือห้องสภานักเรียนอะบิดอสเหรอ แคบกว่าที่คิดอีกนะ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ยินดีที่ได้รู้จักครับ พวกเราคือผู้รับผิดชอบกองทุนไพรเวทอิควิตี้ที่ลงทุนในกิจการครั้งนี้ เรียกได้ว่าเป็นเจ้าหนี้รายใหม่ของโรงเรียนอะบิดอสครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "และผมก็เป็นตัวแทนกลุ่มเจ้าหนี้ที่มาเป็นกระบอกเสียงเพื่อผลประโยชน์แก่เจ้าหนี้ทั้งหมด"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "สะ... สวัสดีค่ะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรกัน? ไหนว่าคนที่ซื้อพันธบัตรไปคือเนฟธิสไง? พวกคุณเป็นคนของเนฟธิสเหรอ? ดูทรงแล้วไม่น่าจะใช่นะ?"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "อ้อ แน่นอนว่าคนที่ซื้อพันธบัตรไปก็คือเนฟธิสครับ ทางนั้นจ่ายเงินจำนวนมหาศาลเพื่อให้ได้สิทธิ์ <ทางรถไฟข้ามทะเลทราย>"
+    },
+    {
+      "Name": "ประธานสหภาพสินเชื่อแรงงาน",
+      "Text": "แต่ว่าไม่ได้จ่ายเงินทั้งหมดเองหรอกนะ ที่ซื้อพันธบัตรมาได้เพราะได้รับเงินทุนมาจากหลายๆ กลุ่ม"
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "ใช่ นี่เป็นการสร้างกองทุนไพรเวทอิควิตี้รูปแบบหนึ่งน่ะ และพวกเราก็เป็นคนที่ลงทุนในกองทุนนั้น"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ลงทุนในกองทุนไพรเวทอิควิตี้เหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เป็นกลุ่มการลงทุนแบบปิดที่รวบรวมนักลงทุนรายย่อยเอาไว้น่ะค่ะ..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ใช่แล้วครับ นอกจากพวกเราแล้วก็ยังมีนักลงทุนอีกหลายรายที่มาเข้าร่วมกองทุนนี้"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ทั้งสหภาพแรงงานสินเชื่อเอกชนและสหพันธ์โรงรับจำนำที่อยู่ที่นี่ รวมถึงสมาคมประมูลสินค้าที่ถูกยึด บริษัทเจลาตินคูมี กิจการบันเทิง ZYAKO แล้วก็..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "มีแต่พวกไม่น่าเชื่อถือทั้งนั้นเลย..."
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "แฮ่ม! อะแฮ่ม!"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ฮะฮ่าฮ่า ผมจะไม่ปฏิเสธหรอกนะ เพราะผมก็เคยค้าของที่ถูกขโมยมาในตลาดมืดอยู่เหมือนกันครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "และเพราะอย่างนี้ เนฟธิสก็เลยทำหน้าที่เป็นคนซื้อพันธบัตรให้ยังไงล่ะครับ เพราะพวกผมไม่ควรจะ\nเปิดเผยหน้าให้มากนัก"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "แบบนี้ยิ่งน่าสงสัยเข้าไปอีก..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ่า... อืม..."
+    },
+    {
+      "Text": "[ns3] \"ขอโทษนะ แต่มีหลักฐานไหมว่าทุกคนคือเจ้าหนี้ของอะบิดอส?\""
+    },
+    {
+      "Text": "[ns4] \"มีอะไรที่ยืนยันได้ไหมว่าทุกคนคือเจ้าหนี้ของอะบิดอสน่ะ\""
+    },
+    {
+      "Name": "ประธานสหภาพสินเชื่อแรงงาน",
+      "Text": "ว่าไงนะ? สงสัยในตัวพวกเรางั้นเรอะ!"
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "ไม่น่าพอใจเอาซะเลย"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "เอาละๆ ทุกคนใจเย็นๆ กันก่อน เรามาคุยกันในแบบของผู้ใหญ่เถอะ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "(ซ่า)... คนพวกนั้นคือเจ้าหนี้จริงๆ ครับ ผมรับรองได้"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เอ๋ ใครอีกน่ะ...?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คะ... คุณพ่อบ้าน?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "รุ่นพี่โนโนมิ? คนรู้จักเหรอ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ค่ะ... คนนี้เป็นทั้งผู้บริหารเนฟธิสกรุ๊ป และเป็นคนที่ช่วยดูแลฉันด้วยค่ะ "
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ไม่ได้เจอกันนานเลยนะครับคุณหนู ขอโทษที่ต้องมาทักทายแบบนี้นะครับ"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ผมจะอธิบายสถานการณ์ให้เองครับ พวกเราจัดตั้งกองทุนนั้นขึ้นมาเพื่อระดมทุนในการซื้อพันธบัตร"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "เพราะงั้นก็เลยสามารถตรวจสอบสถานภาพของพวกเขาได้จากใบรับรองกองทุนนี้ครับ ผมจะให้สำเนา\nใบรับรองไปดู รบกวนช่วยตรวจสอบด้วยนะครับ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ่า... ได้ค่ะ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ใช่จริงด้วยค่ะ... ถ้าดูจากสังกัดและสิทธิ์ของกองทุนแล้ว... คนพวกนี้ถือสิทธิ์ของพันธบัตรอยู่จริงๆ ค่ะ"
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "อะแฮ่ม!"
+    },
+    {
+      "Name": "ประธานสหภาพสินเชื่อแรงงาน",
+      "Text": "ไงล่ะ? ทีนี้เชื่อได้รึยัง!?"
+    },
+    {
+      "Text": "[s] \"งั้นก็... ขอโทษที่เสียมารยาทแล้วกัน\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรกัน... งั้นก็เป็นเจ้าหนี้ของพวกเราจริงๆ น่ะสิ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เซริกะจัง... เงียบๆ หน่อยค่ะ..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ฮุฮุ ถ้าคลายความสงสัยได้ก็พอแล้วละครับ ถ้างั้นผมจะขออธิบายต่อ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ที่พวกผมมาหาทุกคนในวันนี้... ก็เพื่อจะเปิดการหารือระหว่างเจ้าหนี้กับลูกหนี้ในเรื่องบางอย่างน่ะครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "เรื่องทางรถไฟข้ามทะเลทราย... รึเปล่าคะ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "......"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "โอ้... ใช่แล้วละครับ พวกคุณคงจะเข้าใจสถานการณ์ในระดับหนึ่งแล้วสินะครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ใช่แล้ว เป็นเรื่องนั้นละ ถ้าจะให้พูดกันตรงๆ จุดประสงค์ของพวกเราคือการได้สิทธิ์ทั้งหมดของ\nทางรถไฟข้ามทะเลทราย"
+    },
+    {
+      "Name": "หัวหน้าสมาคมโรงรับจำนำ",
+      "Text": "(พยักหน้า) ฮึ่ม"
+    },
+    {
+      "Name": "ประธานสหภาพสินเชื่อแรงงาน",
+      "Text": "และ <กองทุนไพรเวทอิควิตี้> ก็เกิดขึ้นเพราะจุดประสงค์นั้น"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "เหตุผลที่เราซื้อพันธบัตรจากไคเซอร์ในราคาที่สูงเกินควร ก็เพราะอยากได้สิทธิ์ทุกอย่างในทางรถไฟ\nข้ามทะเลทรายครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "นั่นจะรวมไปถึงสิทธิ์ในการพัฒนาทางรถไฟที่ยังไม่เสร็จด้วย และด้วยเหตุนี้ การกระทำเพื่อการพัฒนา\nทางรถไฟของสถาบันไฮแลนเดอร์ที่เกิดขึ้นเมื่อก่อนหน้าจึงไม่ผิด"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ก็ใช่น่ะสิ! เราเริ่มก่อสร้างหลังจากมีการซื้อพันธบัตรต่างหาก! มันเป็นการพัฒนาที่ชอบธรรมเถอะ! "
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "อื้ม เราไม่ผิด "
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "นั่งให้เรียบร้อย... ท่านผู้บริหาร"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ว่าแต่... ทำไมถึงได้สนใจทางรถไฟข้ามทะเลทรายขึ้นมา..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คุณพ่อบ้านคะ? นี่มันอะไรกันเหรอคะ? ทำไมถึงมีเรื่องแบบนี้..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "นั่นสิครับ... มันก็เป็นสถานการณ์ที่ยากลำบากของผมเหมือนกัน... คือว่า... เรื่องนั้นน่ะ..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "เอาละๆ ผมเข้าใจคุณหนูจากเนฟธิสนะครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ทางรถไฟข้ามทะเลทราย... เป็นสิ่งที่มีความหลังฝังใจต่อทั้งเนฟธิสและอะบิดอสใช่ไหมครับ พอเกิดสิ่งนี้ขึ้น อะบิดอสก็ยิ่งสูญสลายรวดเร็วขึ้น"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ไม่ค่ะ ช่วยตอบฉันมาด้วยค่ะ! คุณพ่อบ้าน! เนฟธิสกำลังคิดอะไรอยู่คะ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "นั่นมันเป็นกิจการที่ผิดตั้งแต่เริ่มต้นแล้วค่ะ จะมาสร้างโครงสร้างพื้นฐานด้านการคมนาคมขนาดใหญ่\nในเขตปกครองตนเองที่กำลังพังทลายจากภัยทะเลทรายน่ะเหรอคะ...? "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "อะบิดอสไม่ใช่ศูนย์กลางการคมนาคม แล้วก็ไม่ใช่เขตปกครองตนเองที่มีทรัพยากรใต้ดินด้วย การเชื่อมต่อโครงข่ายคมนาคมในเขตปกครองตนเองที่โดดเดี่ยวและก็มีแต่ทรายแบบนี้มันจะไปมีประโยชน์\nอะไรกันคะ...!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "โครงการนี้ระดมเงินทุนไม่สำเร็จจนการก่อสร้างถูกระงับไป... สุดท้ายแล้วสิ่งที่เนฟธิสทำก็เป็นการเร่ง\nการเสื่อมถอยของอะบิดอส...!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "แล้วทำไมถึงได้ต้องการสิ่งนั้นอีกในตอนนี้ล่ะคะ? ทำไมถึงกับต้องยอมจ่ายเงินมากขนาดนั้นด้วย...?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ทำไมคะ? ตอนนี้ที่ตรงนั้นมีความสำคัญอะไรเหรอคะ?! เนฟธิสกำลังคิดอะไรอยู่กันแน่...!!"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "ใจเย็นๆ ก่อน โนโนมิจัง"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "รุ่นพี่โนโนมิ..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "แบบนี้นี่เอง... เอาละ งั้นเรามาคุยกันอย่างจริงจังกันเลยดีกว่าครับ ผมจะบอกจุดประสงค์ที่แท้จริงที่\nพวกเรามาที่นี่ให้"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "แต่ว่า... ก่อนหน้านั้น"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ต้องขอโทษด้วยนะครับ เราอยากคุยกับคนที่เกี่ยวข้องเท่านั้น "
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "อืม... คนที่ไม่ใช่ <สภานักเรียนอะบิดอส> ขอให้ออกจากห้องไปก่อนได้ไหมครับ? "
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "พวกเราออกไปกันเถอะ"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ดะ... เดี๋ยวสิ อย่าผลักกันสิ"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โอ้ จริงเหรอ? ไม่คิดเลยว่าจะได้ออกจากห้องเร็วแบบนี้"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "งั้นผมก็ขอตัวก่อนนะครับ"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คะ...?! ละ... แล้วเนฟธิสล่ะ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ขอให้ผู้ควบคุมสุโออยู่เป็นตัวแทนของเนฟธิสแล้วกันครับ"
+    },
+    {
+      "Name": "สุโอ",
+      "Text": "ว่าไงนะ? พูดจริงเหรอ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ครับ ไม่มีปัญหาหรอกครับ ถึงจะเป็นนักเรียนจากไฮแลนเดอร์ แต่ตอนนี้เนฟธิสก็จ้างงานเธออยู่"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "คุณหนูเชื่อได้ครับ เพราะเธอเป็นคนของเรามากกว่า ไม่เหมือน CCC"
+    },
+    {
+      "Name": "เจ้าหน้าที่ของเนฟธิส",
+      "Text": "ผมต้องขอตัวก่อน... พอดีมีงานด่วนที่ต้องทำ..."
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นี่มันอะไรกัน"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Text": "[s] \"............\""
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "หืม? อยู่ทำอะไรกันเหรอครับ? ผมขอให้ <สภานักเรียนอะบิดอส> อยู่ในห้องเท่านั้น... งั้นคนที่ไม่ใช่\nคุณทาคานาชิ โฮชิโนะ ก็ควรออกไปให้หมดสิครับ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ? ก็ถูกต้องแล้วไง! พวกเราเป็นสภานักเรียนของโรงเรียนอะบิดอสนะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ใช่ค่ะ! <คณะกรรมการแผนงาน> คือสภานักเรียนของอะบิดอสค่ะ! พวกเราคือสภานักเรียนอย่างเป็น\nทางการที่ได้รับการอนุมัติจากคุณครูที่ปรึกษาที่อยู่ตรงนี้ด้วย!"
+    },
+    {
+      "Text": "[s] \"ใช่ ทางนี้เป็นคนอนุมัติเอง เพราะงั้นไม่มีปัญหาอยู่แล้ว\""
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "อย่างนั้นเหรอ ฮืม..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "แต่มันแปลกๆ นะครับ... <สภานักเรียนอะบิดอส> ควรจะมีแค่คุณโฮชิโนะคนเดียวสิ... ถ้าอย่างนั้น\nสภานักเรียนที่ชื่อว่า <คณะกรรมการแผนงาน> เป็นอีกกลุ่มอย่างนั้นเหรอครับ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ? ระ... เรื่องนั้น..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "อ่า... เข้าใจแล้วละ น่าจะเป็นเพราะฉันสังกัดอยู่ในทั้งสองกลุ่มน่ะ..."
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "แต่ว่า <สภานักเรียนอะบิดอส> ก็มีแค่ชื่อ สภานักเรียนจริงๆ น่ะคือ <คณะกรรมการแผนงาน> ถูกต้องแล้วละ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "ฮืม... อย่างนั้นสินะครับ มันออกจะซับซ้อนอยู่หน่อย แต่ผมเข้าใจแล้วครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "เอาละ ถ้างั้นก็ช่วยดูเอกสารนี่หน่อยครับ"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "นี่มัน..."
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "เมื่อไม่นานมานี้ มีการค้นพบเอกสารฉบับหนึ่งจากโกดังเก็บเอกสารในสถาบันไฮแลนเดอร์น่ะครับ"
+    },
+    {
+      "Name": "ตัวแทนกลุ่มเจ้าหนี้",
+      "Text": "และมันก็คือหนังสือสัญญาที่คุจินาชิ ยูเมะ ประธานสภานักเรียนอะบิดอสคนก่อนเขียนไว้"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": ".....!!"
+    },
+    {
+      "Text": "ตอนต่อไป;สัญญาซื้อขาย"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第5話;沙漠橫貫鐵路"
+    },
+    {
+      "Name": "光",
+      "Text": "入場～YEAH～"
+    },
+    {
+      "Name": "希望",
+      "Text": "什麼嘛，怎麼這麼小啊？\n我們要坐哪？那裡可以嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "幹部們，不要隨便亂翻別人的部室。\n還有不要找冰箱了，趕快坐下吧。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……不可以從椅子上跳下來。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那，那個……"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……不好意思。\n這裡就是阿拜多斯對策委員會的部室嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……雖然不知道你想做什麼，但是你先忍耐一下，白子前輩。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……呃，嗯。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "是的，我們就是對策委員會。"
+    },
+    {
+      "Name": "星野",
+      "Text": "各位並沒有找錯地方。\n直接進入正題吧，高地人學園的幹部們。"
+    },
+    {
+      "Name": "光",
+      "Text": "我可以吃這個餅乾嗎？"
+    },
+    {
+      "Name": "希望",
+      "Text": "什麼嘛，連一杯茶都不給客人嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊……請稍等。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "不必費心。我們很快就要離開了。"
+    },
+    {
+      "Name": "光",
+      "Text": "嗚嗚～？"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "請幹部們搞清楚狀況。\n你們應該也知道自己不受待見。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "這些人為了奪回自己的土地，甚至不惜跟大企業凱薩競爭。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "我們現在就跟身處一觸即發的火藥庫一樣，什麼時候爆炸都不意外。"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "但你們不用擔心。\n就算真的打起來──我也會贏。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "白子前輩，冷靜，冷靜！"
+    },
+    {
+      "Name": "白子",
+      "Text": "我很冷靜……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "哪裡冷靜！感覺明明就快爆炸了好不好！？"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔，唔嗯……"
+    },
+    {
+      "Text": "[ns1]「大家先冷靜。我們直接進入正題吧，蘇芳。」"
+    },
+    {
+      "Text": "[ns2]「你有事情要跟對策委員會說明對吧？」"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "沒錯。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "你就是那個夏萊的老師？\n先前真是失禮了。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "那麼這就開始解釋……\n不過負責開口的並不是我們，而是別人。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "（嘰）……已確認完畢。這裡很安全，請進吧。"
+    },
+    {
+      "Name": "???",
+      "Text": "咳咳，咳咳。那真是太好了，這裡的沙塵實在很嚴重。"
+    },
+    {
+      "Name": "???",
+      "Text": "就是啊，簡直一刻都不想多待。趕快進去吧。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這，這些傢伙是誰啊？"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "說話最好注意一點哦？\n他們可是你們的債權人。"
+    },
+    {
+      "Name": "白子",
+      "Text": "債權人……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼？債權人……？\n所以是討債鬼嗎！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "茜香醬……麻煩注意一下用詞……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯，看來是這次收購DLB的人呢……"
+    },
+    {
+      "Text": "[s]「先聽聽看他們怎麼說吧。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "好的……"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "打擾了。"
+    },
+    {
+      "Name": "高利貸勞動會長",
+      "Text": "嗯……這裡就是阿拜多斯學生會嗎？比想像中小很多呢。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "初次見面。我們是投資了這項事業的私募基金負責人。\n同時也是阿拜多斯高中的新債權人。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "而我則是債權人團的代表。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "你，你們好……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "搞什麼，不是說購買債券的是奈芙蒂斯嗎？\n你們是奈芙蒂斯的人嗎？看起來不像啊？"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "啊啊，收購債券的當事人確實是奈芙蒂斯沒錯。\n奈芙蒂斯花費相當可觀的金額，買下了「沙漠橫貫鐵路」的權利。"
+    },
+    {
+      "Name": "高利貸勞動會長",
+      "Text": "不過那筆錢並不是由奈芙蒂斯全額負擔，而是集合了幾個組織的資金。"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "也就是說，他們設立了私募基金。\n而我們則是這個基金的投資人。"
+    },
+    {
+      "Name": "白子",
+      "Text": "私募基金？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "指的是招募少量的投資者，以非公開的方式營運的投資集團……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "正是如此。加入私募基金的投資者，除了我們之外還有很多。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "比如高利貸勞動會、當舖聯盟、扣押品拍賣公會、明膠軟糖公司、雜魚興業等等……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "怎麼全都是奇怪的傢伙……"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "咳哼！"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "哈哈哈，這點我並不否認。\n我也是在地下世界經營贓物生意的人。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "正因如此，奈芙蒂斯才會成為購買債券的代表。\n畢竟我們的身分實在不適合太高調。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "越來越可疑了……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊……嗯……"
+    },
+    {
+      "Text": "[ns3]「不好意思，請問有什麼能證明你們是阿拜多斯債權人的東西嗎？」"
+    },
+    {
+      "Text": "[ns4]「我沒有懷疑你們的意思，只是這種事情還是確認清楚比較好。」"
+    },
+    {
+      "Name": "高利貸勞動會長",
+      "Text": "啊？那不就是在懷疑我們嗎！"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "真讓人不爽。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "好了，好了。大家冷靜一點。\n我們還是像大人一樣好好溝通吧……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "（嘰）……他們是債權人沒錯，這點我可以保證。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦，這位又是……？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "管，管家……？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "野乃美前輩？是你認識的人嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯……那位是奈芙蒂斯集團的幹部，也是以前照顧過我的管家……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "好久不見，小姐。\n很抱歉以這種形式向您問好。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請容我來為各位說明一下情況。\n我們為了購買債券，設立了私募基金以補齊資金。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "各位可以從私募基金的證明書來確認他們的身分。\n副本在這邊，麻煩進行確認。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊，好的……我確認一下。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……沒錯。\n從私募基金的所屬和權利來看……他們的確擁有我們的債權。"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "哼哼！"
+    },
+    {
+      "Name": "高利貸勞動會長",
+      "Text": "這樣滿意了吧？"
+    },
+    {
+      "Text": "[s]「……嗯，感謝配合。」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼嘛……那的確是討債鬼沒錯啊。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "茜香醬……拜託說話注意一下……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "呵呵，能消除各位的疑慮就好。\n那麼我繼續說明。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "我們來找各位的原因很簡單……\n作為債權團體的代表，我想和各位債務人商量一件事。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "是關於……沙漠橫貫鐵路嗎？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "哦……原來如此。\n看來各位已經進行過各種調查了呢。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "正是如此。我就坦白地告訴各位吧──\n我們的目的是要獲得沙漠橫貫鐵路的所有權利。"
+    },
+    {
+      "Name": "當舖聯盟長",
+      "Text": "（點頭）嗯嗯。"
+    },
+    {
+      "Name": "高利貸勞動會長",
+      "Text": "「私募基金」就是為了這個而存在的。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "之所以用堪稱荒唐的價錢向凱薩購買債券，也是為了這個原因。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "因此，開發未完成的鐵道的權利也已經在我們手中。\n先前高地人學園的開發行為沒有任何問題。"
+    },
+    {
+      "Name": "希望",
+      "Text": "就是說呀。我們是在拿到債權後才開始施工的哦？是正當開發耶？"
+    },
+    {
+      "Name": "光",
+      "Text": "嗯～沒有～問題～"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……麻煩乖乖坐好，兩位幹部。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不過……為什麼偏偏是沙漠橫貫鐵路呢……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "管家，這是怎麼回事……？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "這……實在有些難以啟齒……該怎麼說才好呢……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "我明白你的心情，奈芙蒂斯的千金。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "沙漠橫貫鐵路……對於奈芙蒂斯和阿拜多斯無疑是個痛點。\n畢竟正是它加速了阿拜多斯的沒落。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "不，請你回答我！管家！奈芙蒂斯究竟在想什麼？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "那打從一開始就是項錯誤的事業。\n要在因為沙漠化而沒落的自治區，推動大規模的交通基礎建設……？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "阿拜多斯既不是交通要地，也不是有地下資源的自治區……\n在這種只有沙子的荒涼自治區，即使建設交通路網也沒有幫助……！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "後來因為缺乏資金而導致事業中斷……最終成為了加速阿拜多斯沒落的原罪……！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "為何事到如今又想重操舊業呢？\n甚至不惜投入那麼大筆的金錢……？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "為什麼？那裡現在還有什麼意義嗎！？\n奈芙蒂斯到底在想什麼……！！"
+    },
+    {
+      "Name": "星野",
+      "Text": "冷靜點，野乃美醬。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "野乃美前輩……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "……我明白了。正式開始商量吧。\n我會告訴各位我們來這裡的真正目的。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "不過在這之前──"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "不好意思，接下來的事，我們只想和負責人討論。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "只要「阿拜多斯學生會」的人留下就好，其他人能麻煩迴避一下嗎？"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "沒問題，我們出去吧。"
+    },
+    {
+      "Name": "希望",
+      "Text": "等，等等！不要推我啦！"
+    },
+    {
+      "Name": "光",
+      "Text": "嗚哦哦～真的？這麼快～就要退～場～了～"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那麼我也先離開了。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……咦！？\n那，那奈芙蒂斯的代表是……"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "請蘇芳監察官留下，作為奈芙蒂斯的代表。"
+    },
+    {
+      "Name": "蘇芳",
+      "Text": "……哦？真的嗎？"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "沒錯。雖然你是高地人學園的學生，但現在受雇於奈芙蒂斯。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "他與CCC無關，完全是我們這邊的人，可以放心信任。"
+    },
+    {
+      "Name": "奈芙蒂斯幹部",
+      "Text": "那麼我還有事要忙……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "這是什麼情況……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯……"
+    },
+    {
+      "Text": "[s]「…………」"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "嗯？各位沒聽見我說的話嗎？我剛才說只要「阿拜多斯學生會」的人留下……\n麻煩除了小鳥遊星野同學以外的其他人先行離開。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊？等，等一下！我們是阿拜多斯高中的學生會沒錯啊？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "是的！「對策委員會」是阿拜多斯的學生會！\n是經過在場的顧問老師批准的學生會！"
+    },
+    {
+      "Text": "[s]「沒錯，這件事是我批准的。」"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "……原來是這樣啊。哼嗯。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "不過有點奇怪呢……？\n「阿拜多斯學生會」應該是只有星野同學所屬的那個才對……\n所以是還存在另一個叫做「對策委員會」的學生會嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "咦？那，那個……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……啊，我知道了。\n可能是因為我同時屬於兩個組織才會這樣……"
+    },
+    {
+      "Name": "星野",
+      "Text": "不過「阿拜多斯學生會」現在只剩下名義，真正的學生會是「對策委員會」沒錯。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "唔嗯……原來如此。\n雖然情況有點複雜，不過我瞭解了。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "那麼，請看看這個吧。"
+    },
+    {
+      "Name": "星野",
+      "Text": "這是……"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "這是不久之前，在高地人學園的文件倉庫發現的一份文件。"
+    },
+    {
+      "Name": "債權團代表",
+      "Text": "是阿拜多斯的前學生會長──梔子夢親筆簽下的契約。"
+    },
+    {
+      "Name": "星野",
+      "Text": "……！！"
+    },
+    {
+      "Text": "下一話;買賣契約"
+    }
+  ]
+}

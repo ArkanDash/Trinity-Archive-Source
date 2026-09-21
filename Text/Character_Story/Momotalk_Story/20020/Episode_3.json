@@ -1,0 +1,2812 @@
+{
+  "TitleJP": "天才ハッカーの反論",
+  "TitleKR": "천재 해커의 반론",
+  "TitleEN": "The Argument of a Genius Hacker",
+  "TitleTH": "การโต้แย้งของแฮ็กเกอร์อัจฉริยะ",
+  "TitleTW": "天才駭客的異議",
+  "DescJP": "ヒマリから「大変なことになってしまった」と連絡を受けた先生は急いでミレニアムを訪れる。そこで見せられたのは、ヒマリに関してのゴシップ記事だった。記事の内容を訂正すると息巻いたヒマリは、先生と共に映像を撮るも、加工を重ねたその映像をハッキングして送ったため、別の波乱が巻き起こってしまうのだった。",
+  "DescKR": "히마리에게 큰일이 났단 연락을 받은 선생님은 다급히 밀레니엄을 찾아가지만, 히마리가 보여준 건 다름 아닌 자신에 대해 중상비방을 하고 있는 가십 기사였다. 기사의 내용을 정정하고자 히마리는 선생님과 해명 영상을 찍어 보내지만, 의도와 다르게 히마리와 선생님이 제작한 영상은 더욱 커다란 파란을 만들고야 만다.",
+  "DescEN": "Upon receiving a call from Himari about an emergency, Sensei hurries over to Millennium. Himari presents a gossip rag slandering Sensei, and Himari and Sensei put together a video in an attempt to clear the record. This video only ends up making things worse.",
+  "DescTH": "คุณครูได้รับการติดต่อจากฮิมาริว่ามีเรื่องใหญ่เกิดขึ้น จึงรีบไปหาเธอ\nที่มิลเลเนียม แต่สิ่งที่ฮิมาริให้คุณครูดูคือข่าวซุบซิบเรื่องเธอ\nฮิมาริกับคุณครูถ่ายคลิปชี้แจงส่งไปที่ชมรมข่าว เพราะต้องการแก้ไข\nเนื้อหาของข่าว แต่วิดีโอของทั้งสองกลับทำให้เกิดความวุ่นวายมาก\nขึ้นแบบไม่ได้ตั้งใจ",
+  "DescTW": "接到陽葵發生大事的消息後，老師匆匆忙忙前往千年，但陽葵拿出的是毀謗自己的八卦新聞。為了更正新聞內容，陽葵和老師一起拍攝了影片解釋一切，但令人傻眼的是，陽葵和老師製作的影片反而引起更大的風波。",
+  "DialogJP": [
+    {
+      "Text": "天才ハッカーの反論"
+    },
+    {
+      "Text": "（いつもと様子の違うヒマリから連絡をもらい、急いで隠れ家に向かった）"
+    },
+    {
+      "Text": "[ns] \"ヒマリ！大丈夫！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、先生。いらっしゃいましたか。"
+    },
+    {
+      "Text": "[ns1] \"うん。あれ……何かあったんじゃ？\""
+    },
+    {
+      "Text": "[ns2] \"大変なことになったとか言ってなかった……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "大変なのは本当です、先生。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私が落ち着いているように見えるのは……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ミレニアム最高の天才清楚系病弱美少女ハッカーと呼ばれていますので、ポーカーフェイスが染みついてしまったからではないでしょうか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ああ、これも私が優秀すぎるせいですね。\n感情さえ心の奥底に隠してしまう悲劇の美少女……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なんて悲しいお話なのでしょうか……。"
+    },
+    {
+      "Text": "[ns3] \"どう見ても大丈夫だよね！\""
+    },
+    {
+      "Text": "[ns4] \"何か話があるんじゃないの……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "今日も先生のご想像通り、教養を嗜みながら優雅に休息していたところ……とても衝撃的な発見をしてしまったのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "こちらをご覧ください。"
+    },
+    {
+      "Text": "（そう言ってヒマリが開いて見せたのは、クロノス報道部が発行しているお馴染みのゴシップ誌だった）"
+    },
+    {
+      "Text": "[s] \"ゴシップ！？さっき教養がどうとか言ってなかった！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "細かい事を気にしてはいけません。\n問題はこちらです。これを見て、私がどれだけ傷ついたことか。"
+    },
+    {
+      "Text": "（ヒマリが指したのは、ゴシップ誌の特集ページだった。その内容は……）"
+    },
+    {
+      "Text": "[ns5] \"「衝撃大特集！ミレニアムのハッカー集団・ヴェリタスを率いる謎の人物は――\""
+    },
+    {
+      "Text": "[ns6] \"ケチケチ性悪問題児だった！？」……？\""
+    },
+    {
+      "Text": "[ns] \"……これがどうしたの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふふっ……私のどこが「ケチ」で「性悪」な「問題児」なのでしょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "どこからどう見ても、清楚で可憐な病弱美少女でしょう？"
+    },
+    {
+      "Text": "[s] \"そ、そうだね……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、少々反応が薄いですね。お疲れですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……なるほど、そういうことでしたか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いつもそばにいる大切な存在に気付かなくては、知らず知らずのうちに失ってしまうものですよ……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "どうか幸せの天才美少女をお忘れなく……。"
+    },
+    {
+      "Text": "[s] \"ごめん、何を言ってるのか……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "良いですか？\n重要なのは、ここに書かれた内容が全て誹謗中傷に当たるということです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "よくこんな記事が書けたものですね。\nそうやすやすと私の正体を掴めるとでも思っているのでしょうか。"
+    },
+    {
+      "Text": "[s] \"それが原因じゃないの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……正体を隠しているからこそ、ということですね？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "つまり、考え方を変えれば良いのでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はぁ、たしかに流石の天才美少女の私も、これは盲点でした。"
+    },
+    {
+      "Text": "[s7] \"ゴシップ誌は、隠そうとすればするほど迫ってくるからね。\""
+    },
+    {
+      "Text": "[s8] \"正体を隠しているのに、知られたら困るよね。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あ、いえ……私を探るのは良いのです……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いざとなったら、隠蔽工作もお手の物ですから。"
+    },
+    {
+      "Text": "[s] \"それじゃあ何が問題なの……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "こちらです。ヴェリタスの部長が犯した悪事について書かれているのです。"
+    },
+    {
+      "Text": "（ヒマリが指したところを読むと、様々な憶測や疑惑が並べられていた）"
+    },
+    {
+      "Text": "（ヴェリタスの部長は権力を乱用して、活動費の着服や横領をしている……）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "部費は公正かつ公平に、部員と使用しております。"
+    },
+    {
+      "Text": "（ミレニアムで起きた様々なサイバー犯罪に関与している……）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "とんでもないデマです。むしろ私のおかげで、どれだけ多くのサイバー犯罪を抑制できているとお思いで？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……具体的な数、ですか……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "さあ、どうでしょう……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "善行の数は覚えておくものではありませんよ。"
+    },
+    {
+      "Text": "（歯磨き粉は出なくなったらはさみで分解して、最後の最後まで使う……）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……あら？それは本当のことですが、それくらい皆さんもしているでしょう？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "新しい歯磨き粉を買いにいくのも手間ですからね。"
+    },
+    {
+      "Text": "[s] \"うん、ヒマリの良いところだね。\""
+    },
+    {
+      "Text": "（「5月失踪計画」に関与し、ミレニアムに大混乱をもたらした……）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "失礼ですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……確かにあの事件は、少々首を突っ込みすぎてチーちゃんにも怒られてしまいましたが。"
+    },
+    {
+      "Text": "[s] \"つまり本当のことなんだね！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……とにかく、ここに書かれた内容のほとんどが事実無根ですから、陰湿な嫌がらせであるというのが私の結論です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私に不名誉な疑いがかかっているというのに、見過ごせるわけがないでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "これらは私一人の問題ではありませんので。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ヴェリタスの信用に直結しますし、真実の冒涜に他なりません。\n私が皆さんに真実をお伝えしましょう。"
+    },
+    {
+      "Text": "[s] \"そうだね……記事を取り下げさせる？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "かの有名なクロノス報道部のことですから、外野の声など気にも留めないでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。ですから、ここは発想を転換するのです。"
+    },
+    {
+      "Text": "（ヴェリタスの真実を伝えるために、紹介動画を撮ることになった）"
+    },
+    {
+      "Text": "[ns] \"……本当にいいの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ、もちろんです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "真実を伝えるためには、他人が行動するのを待つのではなく、自ら動かなければなりません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ヴェリタスと特異現象捜査部の部長を務める私、[ruby=あけぼし]明星[/ruby]ヒマリがどれほど優秀なのか……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "また、この優れた天才美少女ハッカーの善良な暮らしぶりや厚い人望……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それら全ての真実を正しく伝えるには、私自身で直接お話するのが最も適しているのではないでしょうか？"
+    },
+    {
+      "Text": "[s] \"それって本人の口から語る事かな……。\""
+    },
+    {
+      "Text": "[ns] \"でも正体を隠してるのに、動画を撮って大丈夫なの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そこが問題になりますね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですから、こうして先生に来ていただいたのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あくまで正体を隠しながら私の正しい情報を伝えるために、ブレインストーミングを行いたいと思いまして。"
+    },
+    {
+      "Text": "[s] \"ブレインストーミング……それじゃあ、ヒマリのアイデアは？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "こちらはどうでしょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まずは可能な限り正体を隠すために、映像にモザイクをかけて、声はピッチとフォルマントを調整しましょう。"
+    },
+    {
+      "Text": "[s] \"それだともしかしたら……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では、撮影しましょう。"
+    },
+    {
+      "Text": "（積極的なヒマリに合わせて、カメラを回した）"
+    },
+    {
+      "Text": "（完成した最初の動画は……）"
+    },
+    {
+      "Text": "[ns] \"顔はモザイクで判別不能だし、声は加工してガビガビだから……。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まるで全ての疑惑を認め、犯行を自白しているかのような映像に見えるのは、先生も同じのようですね。"
+    },
+    {
+      "Text": "[s] \"つ、次！他の方法を考えてみよう！\""
+    },
+    {
+      "Text": "（その後もヒマリといくつものアイデアを試してみることになった）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "やはり外見を隠すにしても、正体が特定できない範囲で最小限に抑えたいですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まずは見た目でヴェリタスの部長としての威厳を伝えたいですから。"
+    },
+    {
+      "Text": "[s] \"その両立は難しいんじゃないかな……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あ、これは名案ではありませんか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "このように黒い線で目の部分だけ隠すのはどうでしょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "え？それでは趣旨が異なるのですか……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "うーん、難しいですね……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "でしたら、別の方法を模索しましょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうです、眼帯はどうでしょう？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "この部屋にはカバのような怪しい眼帯しかありませんが……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら？これはカバではないのですか？\nカバ発言を取り消して……？なるほど、ペロロ様と呼ぶのですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ふふっ。思いの外、先生はこだわりが強いのですね。"
+    },
+    {
+      "Text": "[s9] \"それをヒマリに言われるんだ……。\""
+    },
+    {
+      "Text": "[s10] \"目隠しだけじゃ足りないと思うよ。\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……実際に考えてみると、なかなか難しいものですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "欲しいものを手に入れるためには、別の何かを諦めなければならないこのジレンマ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……まるで私たちの人生のようです。"
+    },
+    {
+      "Text": "[s] \"そんなに壮大な話してたっけ！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "正体を隠しながらもヴェリタスの部長としての威厳を示しつつ、正確な情報を伝えるには……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それと欲を言えば、私自身をビジュアル的に引き立てるような演出を……。"
+    },
+    {
+      "Text": "[s] \"……さらに要望が増えてない！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あ……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "良いアイデアが浮かびました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "顔を見せることはできませんが、背景で雰囲気を作って威厳を示せるようにしましょう。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "かといって、私の姿が映らないのは画面が寂しいので、シルエットを用意して……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね。せっかくですから、コードネームを名乗りましょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふふっ、面白くなってきました。ええ、アイデアが次々と浮かんできます。"
+    },
+    {
+      "Text": "（試行錯誤の末に、ようやく一本の動画を完成させた）"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい、これで完成です。"
+    },
+    {
+      "Text": "[ns] \"これをどうやって送るの？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "すでにメールで抗議の内容を添えて送信しましたが、無視されているようです。\n迷惑メール扱いでしょうか……。"
+    },
+    {
+      "Text": "[s] \"もう送ってたんだ……別の方法は？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "今度は無視できないように、確実な方法で攻めようと思います。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "クロノススクールのデータベースにアクセスして、直接アップロードするのです。"
+    },
+    {
+      "Text": "[ns] \"いやいや、それって犯罪じゃないかな！？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……アップロードは完了しましたよ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "この時間はクロノスのニュースが放送されているはずですので、反応を見てみましょうか。"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "緊急速報です！たった今、情報が入ってきました！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "今から5分ほど前、クロノススクールのネットワークに謎の侵入者の痕跡があったそうです！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "侵入者の足取りは掴めていませんが、クロノススクール側はこれを極めて重大な事件と見なし――"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "はい？犯人が残していった映像があると？"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "どうやら追加の情報です！さっそくこちらの映像をご覧ください！"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "あ、あー、クロノススクールの皆さん、こんにちは。"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "私はミレニアム最高の天才清楚系病弱美少女ハッカーであり、雲の上に咲く一輪の花と――"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "はい？そのような話をしてはいけない……？\nいえ、ですが自己紹介はきちんと……。"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "そうですね。まずは名を名乗りましょうか。"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "あ……ええと、コードネームですね。"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "コホン……私はH、コードネームはHです。"
+    },
+    {
+      "Name": "正体不明の声",
+      "Text": "私がこのような映像を送る理由は、日頃クロノス報道部の不適切な報道に我慢ならないため、真実をお伝えしたいと思い――"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "視聴者の皆さん、ご覧になりましたか？\n先ほどクロノス報道部宛てに、「H」というコードネームを自称する者から映像が届きました！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "まるで重大な犯行予告を思わせるような内容に、クロノススクール側は本件を極めて重大な事件と判断しました！大至急、映像の分析を試みています！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "ですが皆さん、ご安心ください！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "クロノス報道部はどんな外圧にも屈しません！"
+    },
+    {
+      "Name": "クロノスの記者生徒",
+      "Text": "常に正確な報道を皆さんにお伝えすべく――"
+    },
+    {
+      "Text": "[ns] \"ひ、ヒマリ……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "久しぶりに頭を使ったからか、少々疲れたようです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……ふふっ。先生、ご一緒にコーヒーでもいかがですか？"
+    },
+    {
+      "Text": "[ns] \"見て見ぬふりでいいの！？\""
+    },
+    {
+      "Text": "（その後、クロノススクールだけでなくキヴォトス全域に小さな波紋を起こしたヒマリに、ため息をつきながらお説教した）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "천재 해커의 반론"
+    },
+    {
+      "Text": "(히마리의 급박한 연락을 듣고 한치의 망설일 틈도 없이, 곧장 히마리의 은신처로 향하게 되었다.)"
+    },
+    {
+      "Text": "[ns] \"히마리! 괜찮아?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 선생님. 오셨군요."
+    },
+    {
+      "Text": "[ns1] \"어, 음. 괘, 괜찮아 보이네……?\""
+    },
+    {
+      "Text": "[ns2] \"저기, 뭔가 큰일이 났다고 하지 않았어……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "물론이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "선생님. 정말 큰일이 나버렸답니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "다만 제가 겉으로 이렇게나 침착해 보이는 건……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 평소 밀레니엄의 천재 미소녀이자, 병약한 천재 해커로 통하는 제가 포커페이스에 통달해버린 탓이 아닐까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아아, 너무 우수한 나머지, 마음 깊은 곳의 감정마저 숨기게 되어버린 비운의 미소녀……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이 얼마나 안타까운 이야기인 걸까요……."
+    },
+    {
+      "Text": "[ns3] \"아니, 아무리 봐도 괜찮아 보이는 거 맞네!\""
+    },
+    {
+      "Text": "[ns4] \"그래서 히마리, 무슨 일이야……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "다름이 아니라, 저, 평소처럼 제 이미지에 맞게, 교양을 즐기며 우아하게 여가 시간을 보내던 중……. 정말 충격적인 발견을 하고야 말았답니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이걸 봐주세요."
+    },
+    {
+      "Text": "(그런 말과 함께 히마리가 보여준 건, 이전에도 본 적 있는 크로노스 보도부에서 발간하고 있는 가십 잡지였다.)"
+    },
+    {
+      "Text": "[s] \"어?! 분명 교양 있고 우아한 여가 시간이라고 하지 않았어?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "사소한 건 됐답니다. 문제는 바로 여기, 이것이에요. 이걸 보고, 저 어찌나 상처를 받았는지."
+    },
+    {
+      "Text": "(히마리가 가리킨 부분은 가십 잡지의 특집 기사가 실린 페이지였다. 거기에 적혀 있는 타이틀의 제목은 무려…….)"
+    },
+    {
+      "Text": "[ns5] \"<충격! 밀레니엄의 해커 동아리 베리타스를 이끄는 부장의 정체는……\""
+    },
+    {
+      "Text": "[ns6] \"지독한 구두쇠에 성격 나쁜 문제아였다?! 특집편!>……?\""
+    },
+    {
+      "Text": "[ns] \"……이게 왜?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후, 대체 저의 어딜 봐서 지독한 구두쇠에, 성격 나쁜 문제아란 건지 모르겠네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "저, 엄청 청초하고 가련한 미소녀잖아요? 그렇게 생각하시지 않나요?"
+    },
+    {
+      "Text": "[s] \"아, 응…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "어라? 반응이 너무 약하신데요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 과연, 그런 것이로군요……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "귀중한 것을 늘 곁에 두고 있다 보면, 미처 그 소중함을 깨닫지 못한 채 자기도 모르게 귀중한 것 자체를 무시하게 되고야 만다는……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "이것이 바로 세간에서 말하는 <파랑새의 딜레마>…… 비극이네요."
+    },
+    {
+      "Text": "[s] \"미안, 무슨 소리인지 모르겠어…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "어쨌거나 중요한 건, 여기에 적힌 것이 전부 중상모략이라는 사실이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "대체 이 특집 기사 어디에 저의 정체가 있다는 건가요? 심지어, 저, 정체 숨기는 중이라고요?"
+    },
+    {
+      "Text": "[s] \"맞다, 그랬었지.\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만 오히려…… 제가 정체를 숨기고 있었기에 이런 기사가 나온 게 아닌가? 라는 말씀이신가요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "과연……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "관점을 바꾸면 그러한 접근법도 충분히……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "하아, 이건 예상치 못한 맹점이었네요……."
+    },
+    {
+      "Text": "[s7] \"이런 가십 잡지는 숨기려고 할수록 파고들려고 하니까.\""
+    },
+    {
+      "Text": "[s8] \"굳이 정체를 숨기고 있는데 파헤치는 건 역시 곤란하지?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "네?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨……. 파고드는 것 자체는 상관없는데요. 저, 정보를 은폐하는 것쯤은 자신 있고."
+    },
+    {
+      "Text": "[s] \"어……? 그럼 뭐가 문제야……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "바로 여기, 이 부분이에요. 제 정체를 추측하면서, 베리타스의 부장이 저지른 악행들에 대해 쓴 부분이 말이죠."
+    },
+    {
+      "Text": "(타이틀에 이어, 히마리가 가리킨 기사의 내용은 정말 여러 가지 억측과 의혹으로 가득했다.)"
+    },
+    {
+      "Text": "(베리타스의 부장은 자신만의 권력을 이용해서 베리타스의 활동비를 착복, 횡령하고 있다든가…….)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "저는 어디까지나 공정하고 공평하게, 부원들과 나눠 쓰고 있다고요?"
+    },
+    {
+      "Text": "(밀레니엄에서 벌어지는 수많은 사이버 범죄에 영향력을 행사하고 있다든가…….)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "말도 안 되는 헛소문이네요. 오히려 제 덕에 얼마나 많은 사이버 범죄를 조기에 차단하고 있다고 생각하는 건가요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "구체적으로 몇 번 정도냐고요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "으음."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……돌이켜 보니 몇 번이었을까요? 또 이럴 때 막상 떠올리려고 하면 생각이 안 난단 말이죠? 곤란해라."
+    },
+    {
+      "Text": "(다 쓴 치약통도 그냥 버리는 법 없이, 일일이 가위로 잘라 마지막 남은 것까지 싹싹 다 쓴다든가…….)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……어? 다들 그 정도는 하고 있지 않나요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "새로 치약을 사러 가는 것도 큰일이라고요?"
+    },
+    {
+      "Text": "[s] \"아, 그런 건 확실히 공감되는걸.\""
+    },
+    {
+      "Text": "(또한 <5월 실종 계획>을 일으켜, 밀레니엄에 커다란 혼란을 불러온 적이 있다든가.)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그것참 실례되는 이야기네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……확실히 그때 그 사건에서는 조금 과하게 손을 쓴 탓에, 치쨩에게도 혼이 나버렸지만."
+    },
+    {
+      "Text": "[s] \"잘 모르겠지만 저지르긴 저질렀다는 거네!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "후우, 어쨌거나 여기에 쓰인 기사 내용은, 네. 대부분이 허위에 가짜, 음해에 가깝다는 게 제 결론이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이런 식으로 저에 대해 불필요한 의혹만 증폭시키는 거짓 정보를 두고만 볼 수는 없지요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "단지 저에게 피해가 되기 때문만이 아니에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이는 베리타스의 신뢰도와 직결된 문제, 나아가 진실을 더럽히는 행위이니까요. 올바른 진실을 알릴 필요가 있답니다."
+    },
+    {
+      "Text": "[s] \"아, 확실히……. 그럼 어떻게 하려고? 정정 기사를 요구한다든가?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "네? 아뇨?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 유명한 크로노스 보도부라면 그런 미적지근한 클레임엔 반응조차 하지 않을 테죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "후훗, 그러니 여기선 생각의 전환이 필요하답니다."
+    },
+    {
+      "Text": "(그렇게 되어…… 우리는 <베리타스의 부장에 대해 올바른 진실을 전하기 위한 자기소개 동영상>을 찍게 되었다.)"
+    },
+    {
+      "Text": "[ns] \"……라니, 정말 괜찮은 거 맞아?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "물론 괜찮고 말고요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "보다 올바른 진실을 전달하기 위해선, 남이 움직여주기를 기다리기보다 스스로 먼저 움직여야 하는 법……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이번 영상을 통해 저, 아케보시 히마리가 얼마나 우수한 초현상특무부 겸 베리타스의 부장인지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "또한 얼마나 뛰어난 천재 미소녀 해커이며, 평소 어떤 선행을 쌓고 있고, 또 주변에 얼마나 신임을 받으며 공덕을 쌓고 있는지 등등."
+    },
+    {
+      "Name": "히마리",
+      "Text": "제 입으로 직접 설명하는 영상을 찍는 게 확실하잖아요?"
+    },
+    {
+      "Text": "[s] \"가장 자기 입으로 소개하면 안 될 부류의 이야기가 아닐까…….\""
+    },
+    {
+      "Text": "[ns] \"근데 히마리, 정체를 숨긴다면서 자기소개 영상을 찍는 건 괜찮아?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "으음, 확실히 그 부분이 조금 맹점이지요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그래서 오늘 이렇게 선생님을 모신 거랍니다. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "정체를 숨기면서도, 저에 대한 올바른 정보를 전달하려면 어찌해야 할지, 브레인스토밍을 할까 해서."
+    },
+    {
+      "Text": "[s] \"브레인스토밍이라……. 뭔가, 좋은 아이디어라도 있어?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "우선 이건 어떨까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "정체를 숨기는 걸 우선해서, 영상은 모자이크로, 목소리로도 정체를 특정할 수 없게 음성변조를 하는 거예요."
+    },
+    {
+      "Text": "[s] \"어…… 그렇게 하면 아무래도…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "자, 찍어보도록 하죠."
+    },
+    {
+      "Text": "(히마리의 적극적인 행동을 따라 우선 프로토타입 영상을 찍게 되었다.)"
+    },
+    {
+      "Text": "(그렇게 해서 나온 첫 번째 결과물을 확인해본 결과…….)"
+    },
+    {
+      "Text": "[ns] \"영상 전체를 모자이크하고, 음성 변조까지 하니까. 이거…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "마치 저를 향한 모든 의혹을 인정하고, 범인임을 고백하는 듯한 영상처럼 보이는 건, 제 기분 탓이 아니지요?"
+    },
+    {
+      "Text": "[s] \"다, 다음! 응! 다른 방법을 생각해보자!\""
+    },
+    {
+      "Text": "(그 뒤로도 히마리가 적극적으로 꺼내 드는 다양한 아이디어들을 실험해보게 되었다.)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "역시 외모를 가린다면, 정체를 특정할 수 없는 수준에서 최소한도로 하고 싶어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아무래도 겉모습으로 보이는 베리타스 부장의 위엄을 전하고 싶으니까요."
+    },
+    {
+      "Text": "[s] \"숨기려는 시점에서 위엄도 뭣도 없는 게 아닐까……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 이런 건 어떨까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "프라이버시 보호를 위해, 이렇게 검은색 선으로 눈만 가리는 거예요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네? 그것만으로는 뭔가 불온하니까. 안돼?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "으음, 어려운 일이네요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그럼 다른 방식으로 눈을 가리면……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 안대는 어떤가요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러고 보면 마침 수상한 하마처럼 생긴 안대가 하나 있는데……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네? 페로로 님은 하마가 아니야? 취소해? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "……그렇게 보지 않았지만, 선생님. 제법 취향이 까다로우시네요."
+    },
+    {
+      "Text": "[s9] \"저기, 내가 역으로 혼나는 흐름이야……?\""
+    },
+    {
+      "Text": "[s10] \"그리고 사실 눈만 가려서는 부족할 거라고 생각해…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "으음, 막상 해보려니 상당히 어렵네요~ "
+    },
+    {
+      "Name": "히마리",
+      "Text": "원하는 걸 얻고자 하면, 또 하나를 포기해야만 하는 이 딜레마."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……마치, 저희의 인생 같은걸요."
+    },
+    {
+      "Text": "[s] \"우리, 그 정도로 엄청난 이야기를 하고 있었나?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "올바른 정보를 전달하기 위해, 저의 정체를 숨기면서도 베리타스 부장으로서 위엄을 드러낼 수 있는……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "동시에 욕심 같아서는 좀 더 저 자신을 멋지게 돋보여줄 비주얼적 퀄리티와 연출도 챙긴다고 했을 때……."
+    },
+    {
+      "Text": "[s] \"……저기 뭔가 사족이 늘지 않았어?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "……아,"
+    },
+    {
+      "Name": "히마리",
+      "Text": "후훗."
+    },
+    {
+      "Name": "히마리",
+      "Text": "마침 좋은 아이디어가 떠올랐어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "비주얼은 위엄을 드러낼 수 있게 이런 형식으로, 얼굴을 보일 순 없으니 화면을 패턴으로 장식하고."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇다고 화면상에 아무것도 표현하지 않으면 허전하니, 저를 대신할 실루엣으로……"
+    },
+    {
+      "Name": "히마리",
+      "Text": "이름은 이니셜로 표현해볼까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후후, 네, 좋네요. 좋아요. 점점 더 아이디어가 샘솟는걸요."
+    },
+    {
+      "Text": "(그렇게 수많은 시행착오를 거친 끝에, 우리는 마침내 하나의 영상을 완성할 수가 있었다.)"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 이것으로 완성이에요."
+    },
+    {
+      "Text": "[ns] \"찍은 건 좋은데, 이젠 이걸 어떻게 전달하려고? 메일?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 이미 메일로 항의성 편지를 보낸 적 있었는데, 무시당했어요. 정크로 분류하는 모양이더군요. 그걸로는 부족해요."
+    },
+    {
+      "Text": "[s] \"이미 해봤던 거냐……. 그럼 어쩌려고?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러니 이번엔 무시할 수 없도록, 좀 더 확실한 방법을 써보도록 하지요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "직접 크로노스 스쿨의 데이터베이스를 장악해, 곧장 업로드하는 거예요."
+    },
+    {
+      "Text": "[ns] \"아니아니아니, 그래도 괜찮은 거야?! 범죄가 아닐까?!\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "아, 참고로 영상은 이미 업로드해뒀으니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "마침 크로노스 스쿨의 뉴스가 할 시간이니, 어떻게 반응하는지 보도록 할까요?"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "지금 막 들어온 긴급 속보입니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "지금으로부터 약 5분 전, 크로노스 스쿨의 전산망으로 정체불명의 침입 흔적이 발견되었다고 합니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "대체 누가 이런 일을 벌인 건지는 모르겠지만, 크로노스 스쿨 측은 이를 중대한 위험이라 간주하고……!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "네? 해당 침입자가 무언가 영상을 남겨두었다고요?"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "아! 네! 지금 바로 해당 영상을 보시죠!"
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "아아, 크로노스 스쿨의 여러분 안녕하신가요?"
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "소개하도록 하지요. 저는 밀레니엄 최고의 천재 해커이자, 아름답고 병약하지만, 무엇보다 청초한 한 떨기의 꽃이라고 자부하는……"
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "네? 그렇게 이야기하면 안 되는 거 아니냐고요? 아니, 그래도 소개는 확실히 해야……."
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "네? 그보다 중요한 건 이름? 아아, 확실히 그렇네요."
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "사전에 정해둔 코드네임이 분명……. 아, 그렇죠."
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "네. 제 이름은 H. 코드네임 H랍니다."
+    },
+    {
+      "Name": "정체불명의 목소리",
+      "Text": "제가 이렇게 영상을 보내는 이유는 다름이 아니라, 평소 크로노스 보도부가 보여주는 부당함에, 참지 못하고 진실을 폭로하고자……."
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "네! 시청자 여러분도 보셨다시피! 현재 크로노스 보도부에는 자칭 코드네임 H라고 주장하는 자의 수상한 영상이 전달되었으며!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "마치 중대한 범행 예고를 연상시키는 듯한 내용에 크로노스 스쿨은 상황이 심각하다고 판단! 영상의 자세한 분석을 서두르고 있습니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "하지만 시청자 여러분! 모두 알아주십시오!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "크로노스 보도부는 절대로 외압에 굴하지 않습니다!"
+    },
+    {
+      "Name": "크로노스 기자",
+      "Text": "더욱 정확한 보도를 위해……!"
+    },
+    {
+      "Text": "[ns] \"히마리…… 이거, 아무래도…….\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "으음……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "간만에 머리를 썼더니 몸이 찌뿌둥한 게, 지친 듯하네요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후훗. 선생님, 함께 커피나 마시러 갈까요?"
+    },
+    {
+      "Text": "[ns] \"자기에게 불리한 건 못 본 척하기야?!\""
+    },
+    {
+      "Text": "(그렇게 크로노스 스쿨을 비롯해, 키보토스 전역에 작은 파문을 일으킨 히마리에게, 한숨을 내쉬며 설교했다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "The Argument of a Genius Hacker"
+    },
+    {
+      "Text": "After getting an urgent call from Himari, I went straight to her hideout."
+    },
+    {
+      "Text": "[ns] \"Himari! Is everything okay?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, Sensei. You're here."
+    },
+    {
+      "Text": "[ns1] \"You, uh, you seem fine.\""
+    },
+    {
+      "Text": "[ns2] \"You made it sound urgent...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Of course."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Despite my cool demeanor, I am in a big trouble, Sensei."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The reason I appear to be so calm and collected is, of course..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "That I, the beautiful super genius hacker of Millennium admired by all as a delicate flower, have mastered the art of the poker face."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, the humanity! The beauty, so tragically talented and looked up to, forced to hide the tangled inner workings of her heart..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "What a sad yet inescapable tale..."
+    },
+    {
+      "Text": "[ns3] \"You're totally fine!\""
+    },
+    {
+      "Text": "[ns4] \"So, Himari, what happened...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "As usual, I was gracefully spending my time appreciating the finer points of culture...when I stumbled upon a shocking discovery."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Please, take a look at this."
+    },
+    {
+      "Text": "Himari pulled out the Kronos School of Journalism's gossip magazine that I had seen earlier."
+    },
+    {
+      "Text": "[s] \"Where are the finer points of culture you were appreciating?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Don't let yourself get distracted. The problem is right here in front of us. I got so hurt when I saw this."
+    },
+    {
+      "Text": "Himari pointed to the feature article. The title of was..."
+    },
+    {
+      "Text": "[ns5] \"Shocking! You Won't Believe Who Leads the Veritas Hacker Collective...\""
+    },
+    {
+      "Text": "[ns6] \"A Miser and Troublemaker with an Awful Personality! Special Edition!\""
+    },
+    {
+      "Text": "[ns] \"...What am I even looking at?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have no idea where they got the idea that I'm a miser and a troublemaker with an awful personality from."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I mean, look at me. The first thought that pops into your head is, \"delicate, beautiful flower,\" right?"
+    },
+    {
+      "Text": "[s] \"S-Sure...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Excuse me? What kind of a response is that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, I get it..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "When something valuable to you is always by your side, you don't appreciate what you have until you lose it..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "This must be the \"Blue Bird Syndrome\" I've heard so much about. What a tragedy."
+    },
+    {
+      "Text": "[s] \"I don't follow...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Don't worry, we'll fix that later. What's important now is that everything written on here is slander. Or libel. Whatever."
+    },
+    {
+      "Name": "Himari",
+      "Text": "They don't even reveal my identity! They just say I'm hiding it!"
+    },
+    {
+      "Text": "[s] \"Aren't you?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "But, I mean... Wait, are you saying this happened because I hide my identity?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I guess it makes sense that if no one knows my identity, no one can know if something is being made up about me..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "*sigh* What an unexpected blind spot..."
+    },
+    {
+      "Text": "[s7] \"The more you hide, the deeper these gossip magazines will dig.\""
+    },
+    {
+      "Text": "[s8] \"Are you worried they'll discover your hidden identity?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, no...I'm not worried about that. I'm more than confident in my ability to keep information concealed."
+    },
+    {
+      "Text": "[s] \"So...what's the issue?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "If anything, what annoys me are the baseless accusations about my identity and so-called evil deeds."
+    },
+    {
+      "Text": "As expected based on the title, the article Himari pointed out was full of speculation and vague suspicions."
+    },
+    {
+      "Text": "Such as that the president was embezzling club funds from Veritas..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have only ever embezzled things fairly, and I even share with the other members!"
+    },
+    {
+      "Text": "That she's the root of numerous cybercrimes that have taken place in Millennium..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Nonsense! Do they have any idea how many cybercrimes I've stopped?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Do you even have any idea?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I... Um..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Well, you know how, when you're put on the spot, you suddenly become unable to think of the answer you knew seconds early? That's what's going on now..."
+    },
+    {
+      "Text": "She keeps the toothpaste tube till the very end, even cutting it open with scissors so she can use literally every last drop..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Huh? Doesn't everyone do that? It's just good sense."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Besides, going out to get more toothpaste is a big deal for me."
+    },
+    {
+      "Text": "[s] \"Yeah, I can see that.\""
+    },
+    {
+      "Text": "She came up with the May Disappearance Plan, which wreaked havoc throughout Millennium."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Absolutely shameless of them."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...I mean, granted, that one maybe got a little out of hand, and Chi even scolded me about it..."
+    },
+    {
+      "Text": "[s] \"You're not even denying that you were responsible for it!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Why are you always trying to focus on things that don't matter? The point is that it's overflowing with false information and slander. Or libel. Whatever."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I can't let these nonsensical rumors swirl around me, hidden identity or not."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Not just because it's damaging to me."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But because it tarnishes the reputation of Veritas. Furthermore, it's an affront to the truth. And if there's anything I hold dear, it's clear, unabated, pure truth."
+    },
+    {
+      "Text": "[s] \"Right... So what will you do? Demand that they correct the article?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Huh? Why would I do that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "The infamous Kronos School of Journalism isn't going to give in to such meek attempts."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We need to shake things up. Heh heh heh."
+    },
+    {
+      "Text": "And apparently, shaking things up meant filming the \"Truth-Filled Self-Introduction of the Verified Veritas President\" video."
+    },
+    {
+      "Text": "[s] \"Are you sure that you're sure about this?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Absolutely."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The truth waits for no one, but people often wait for the truth. So, we need to take the initiative and give the people the truth they've been waiting for..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "In this video, I, Akeboshi Himari, will explain the sheer excellence of the Super Phenomenon Task Force and the Veritas president."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'll even let them know the good deeds this beautiful super genius hacker does as part of her daily routine, and how trusted and respected she is by those around her."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And who better to say all that than myself?"
+    },
+    {
+      "Text": "[s] \"Anybody, actually. Those aren't really things you should say about yourself...\""
+    },
+    {
+      "Text": "[ns] \"Himari, is a self-introduction video really the best idea while you're hiding your identity?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Admittedly, on the surface, that might seem like an insurmountable problem."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Which is exactly why I asked you to be here today. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "We need to brainstorm a way to deliver unadulterated truth while also not letting anyone know my actual identity."
+    },
+    {
+      "Text": "[s] \"Brainstorm... Do you have any good ideas to start off with?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "How about this?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "We blur the video and change my voice until I'm completely unrecognizable."
+    },
+    {
+      "Text": "[s] \"I guess that could work...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Okay, let's try it out."
+    },
+    {
+      "Text": "Following Himari's enthusiastic instructions, we filmed a test video."
+    },
+    {
+      "Text": "When we checked the outcome..."
+    },
+    {
+      "Text": "[ns] \"The entire video is blurred out, and the voice is very obviously distorted, so...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "It just makes me look exactly like the suspicious criminal they are trying to paint me as, doesn't it?"
+    },
+    {
+      "Text": "[s] \"N-Next! Let's move on to the next idea!\""
+    },
+    {
+      "Text": "After that, we tried out the various ideas Himari came up with."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I want to conceal my appearance enough to hide my identity..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But also leave enough of my appearance in so that my innate dignity as the president of Veritas shines through."
+    },
+    {
+      "Text": "[s] \"...Is anyone going to be convinced of the dignity of someone hiding their identity?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hmm... What about this?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Just put a black strip over my eyes."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Not enough?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hmm, this is tough..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, how about we hide my eyes in a different way?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Like...an eye patch?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I do have an eye patch that looks like a shifty hippo..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "What? Peroro isn't a hippo? Take it back? "
+    },
+    {
+      "Name": "Himari",
+      "Text": "You're more...passionate about these things than I thought, Sensei."
+    },
+    {
+      "Text": "[s9] \"Isn't that my line?\""
+    },
+    {
+      "Text": "[s10] \"And I don't think just hiding your eyes is going to be enough...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hmm, this is unexpectedly difficult. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "All happiness requires sacrifice..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Truly the core of the human experience."
+    },
+    {
+      "Text": "[s] \"When did things get so somber?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "All I want is to tell the whole truth while hiding my identity while also allowing the full force of my dignity to come across in the video."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And, now that I think about it, isn't it important to make sure the visual quality and camera angle complement the material?"
+    },
+    {
+      "Text": "[s] \"Really? You're adding conditions now?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Ah"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Heh heh heh."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I have an amazing idea."
+    },
+    {
+      "Name": "Himari",
+      "Text": "We can hide my identity without comprising my dignity by having an image on the screen instead of my face..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Or perhaps we'll take a minimalist approach and have nothing on the screen but my silhouette..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, and my initials."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, yes. I like it. More and more new, innovative ideas are coming to me."
+    },
+    {
+      "Text": "After much trial and error, we finally completed a video."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes, it's all coming together now."
+    },
+    {
+      "Text": "[ns] \"Now that we have a video, how are you gonna deliver it? Email?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh, I've sent complaint emails before, but those are always ignored. I think they go straight to junk mail. That's not gonna work."
+    },
+    {
+      "Text": "[s] \"So... What's the plan?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "The most effective method of communication is one that can't be ignored..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm going to take direct control of the Kronos School database and upload it directly."
+    },
+    {
+      "Text": "[ns] \"No, no, no, no, no. Don't you know that's a crime?!\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "I already uploaded the video."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The Kronos School news is about to air. Let's see them spin this!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Breaking news!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "About five minutes ago, a security breach was detected on the Kronos School's network!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "We don't know who the perpetrator is, but we do know that it's a serious risk!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "What? That intruder uploaded a video that appears to be a confession?"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Oh! Well...let's take a look!"
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "Testing, testing. Hello, Kronos School."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "Allow me to introduce myself. I am the super genius hacker of Millennium, the ephemerally beautiful, delicate, ever-blooming petite flower..."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "Huh? I shouldn't start off like that? It's a self-introduction. I have to introduce myself..."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "What? The name? Oh, right."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "Yeah, don't worry, I remember it... It's, uh... Oh! Right."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "My name is H. Codename H."
+    },
+    {
+      "Name": "Unidentified Voice",
+      "Text": "The purpose of this video is to stand against the injustices of the Kronos School of Journalism, to deliver the truth to the people, to—"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "Wow! As you can see, a dangerous threat in the form of a suspicious video from some hidden figure referring to themselves as Codename H has been directed at the Kronos School of Journalism!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "With this material clearly being an admission of guilt, the Kronos School has determined the situation to be serious enough to warrant a detailed analysis of the video!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "However, we'd like our viewers to know one thing!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "The Kronos School of Journalism does not negotiate with people who complain!"
+    },
+    {
+      "Name": "Kronos Reporter",
+      "Text": "For more accurate reporting, tune in next time...!"
+    },
+    {
+      "Text": "[ns] \"Himari... So, um...\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hmm..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm tired, my brain is tired, and my body is tired. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Hahaha. Sensei, want to go out for a cup of coffee?"
+    },
+    {
+      "Text": "[ns] \"Are you just going to stick your head in the sand?!\""
+    },
+    {
+      "Text": "After much sighing, I lectured the girl whose trouble had rippled beyond the Kronos School, spreading throughout Kivotos."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "การโต้แย้งของแฮ็กเกอร์อัจฉริยะ"
+    },
+    {
+      "Text": "(หลังได้รับข้อความ คุณครูก็รีบมายังที่ซ่อนของฮิมาริทันที)"
+    },
+    {
+      "Text": "[ns] \"ฮิมาริ! เป็นอะไรรึเปล่า?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ คุณครู มาแล้วเหรอคะ"
+    },
+    {
+      "Text": "[ns1] \"เอ่อ เธอ... ดูปกติดีนะ...?\""
+    },
+    {
+      "Text": "[ns2] \"คือว่า... ไหนบอกว่าเกิดเรื่องใหญ่ไม่ใช่เหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่แล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คุณครู เกิดเรื่องใหญ่ขึ้นจริงๆ นะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แค่ภายนอกฉันดูสงบนิ่งก็เท่านั้น..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ เพราะฉันคือสาวน้อยอัจฉริยะแห่งมิลเลเนียม และเป็นแฮ็กเกอร์สาวผู้บอบบางที่ปั้นสีหน้าเก่งยัง\nไงล่ะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "สาวน้อยผู้เก่งกาจที่เก็บซ่อนความรู้สึกแท้จริงเอาไว้ในใจลึกๆ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ช่างน่าเศร้าเกินบรรยายเลยนะคะ...."
+    },
+    {
+      "Text": "[ns3] \"มองจากดาวอังคารยังรู้เลยว่าเธอสบายดีสุดๆ!\""
+    },
+    {
+      "Text": "[ns4] \"แล้วนี่... ฮิมาริมีเรื่องอะไรเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ระหว่างที่ฉันกำลังใช้เวลาว่างอย่างสง่างามไปกับการชื่นชมวัฒนธรรมที่หรูหราสมกับภาพลักษณ์\nของฉัน... แต่จู่ๆ ฉันก็ค้นพบสิ่งที่น่าตกใจมากๆ ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ดูนี่สิคะคุณครู"
+    },
+    {
+      "Text": "(สิ่งที่ฮิมาริยื่นให้ดูก็คือนิตยสารเจาะลึกของชมรมข่าวโครโนสที่เคยเห็นคราวก่อน)"
+    },
+    {
+      "Text": "[s] \"เอ๋? ไหนบอกว่าเป็นการใช้เวลาที่หรูหราสมฐานะไม่ใช่เหรอ?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่าใส่ใจเรื่องเล็กๆ น้อยๆ นั่นเลยค่ะ... ปัญหาก็คือนี่ค่ะ ตรงนี้ค่ะ พอเห็นแบบนี้แล้วฉันปวดใจ\nมากเลยค่ะ"
+    },
+    {
+      "Text": "(ฮิมาริชี้ไปที่คอลัมน์บทความพิเศษในนิตยสารซุบซิบ และหัวข้อที่เขียนอยู่ก็คือ...)"
+    },
+    {
+      "Text": "[ns5] \"<สุดช็อก! ตัวจริงของหัวหน้าเวอริทัส ชมรมแฮ็กเกอร์แห่งมิลเลเนียมคือ...>\""
+    },
+    {
+      "Text": "[ns6] \"<สกู๊ปพิเศษ! หัวหน้าของเวอริทัส เด็กเจ้าปัญหานิสัยร้ายกาจ!>...?\""
+    },
+    {
+      "Text": "[ns] \"สกู๊ปนี่มีอะไรเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ ไม่รู้ว่าพวกเธอใช้อะไรคิดกันแน่นะคะ ถึงได้คิดว่าฉันเป็นเด็กเจ้าปัญหานิสัยร้ายกาจไปได้น่ะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันออกจะดูเป็นสาวน้อยน่ารักที่แสนบอบบาง... คุณครูก็คิดแบบนั้นใช่มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"อ่า... อื้ม...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอ๋? ทำไมตอบเสียงอ่อยแบบนั้นล่ะคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๋อ... ฉันเข้าใจแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เวลาที่เราเก็บของมีค่าเอาไว้ข้างตัวเองตลอด สุดท้ายเราก็จะหลงลืมมันไปโดยไม่ได้ตระหนักถึง\nคุณค่าของมัน..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นี่คงเหมือนกับโศกนาฎกรรม <ปัญหาปริศนารถราง> ที่ฉันเคยได้ยินมาสินะคะ"
+    },
+    {
+      "Text": "[s] \"ขอโทษนะ แต่ครูไม่เข้าใจที่เธอพูดเลย...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เรื่องนั้นเอาไว้ทีหลังก็ได้ค่ะ อย่างไรก็ตาม ข้อความที่เขียนอยู่ในนี้เป็นข้อความที่เขียนใส่ร้ายฉันค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พวกเขาไม่ได้เขียนเกี่ยวกับตัวตนที่แท้จริงของฉันเลย แถมยังเขียนเอาไว้ว่าฉันกำลังปกปิดตัวตน\nอยู่ด้วยค่ะ"
+    },
+    {
+      "Text": "[s] \"ก็ปกปิดตัวตนจริงๆ ไม่ใช่รึไง\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้น... เป็นเพราะฉันปกปิดตัวจริงอยู่ เลยมีข่าวแบบนี้ออกมางั้นเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าอย่างนั้น..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็คงเป็นเรื่องที่ช่วยไม่ได้ ที่จะไม่มีใครรู้ตัวตนที่แท้จริงของฉัน และไม่รู้ว่าเรื่องต่างๆ ที่เขียนอยู่\nในนิตยสารนี่เป็นเรื่องไม่จริง..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เฮ้อ เป็นจุดบอดที่คาดไม่ถึงเลยนะคะ..."
+    },
+    {
+      "Text": "[s7] \"นิตยสารซุบซิบพวกนี้น่ะ ยิ่งปิดบังตัวจริงเท่าไรยิ่งโดนขุดเท่านั้นนะ\""
+    },
+    {
+      "Text": "[s8] \"กังวลว่าจะถูกเปิดเผยตัวจริงเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่หรอกค่ะ... ต่อให้พวกเธอขุดคุ้ยยังไงก็เปล่าประโยชน์ค่ะ ฉันมั่นใจในความสามารถในการ\nปกปิดข้อมูลของฉันค่ะ"
+    },
+    {
+      "Text": "[s] \"เอ๋...? แล้วปัญหาคืออะไรล่ะ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ปัญหาคือเรื่องที่พวกเธอคาดเดาเกี่ยวกับหัวหน้าของเวอริทัสและเขียนเรื่องพฤติกรรมที่ร้ายกาจค่ะ"
+    },
+    {
+      "Text": "(คุณครูอ่านหัวข้อ และไล่อ่านเนื้อหาการคาดเดาและข้อสงสัยในทางไม่ดีต่างๆ)"
+    },
+    {
+      "Text": "(อย่างเช่น หัวหน้าของเวอริทัสใช้อำนาจของตัวเองเพื่อยักยอกเงินชมรม...)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันแบ่งเงินของชมรมให้สมาชิกทุกคนอย่างยุติธรรมเสมอเลยนะคะ"
+    },
+    {
+      "Text": "(เรื่องที่เกี่ยวข้องกับอาชญากรรมไซเบอร์มากมายที่เกิดขึ้นในมิลเลเนียม...)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ช่างเป็นข่าวลือไร้สาระจริงๆ เลยค่ะ เป็นเพราะมีฉันอยู่ต่างหาก เลยหยุดอาชญากรรมไซเบอร์ได้ตั้ง\nเยอะนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "กี่ครั้งงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันจำไม่ได้ว่ากี่ครั้งค่ะ... พอถูกถามกะทันหันแบบนี้ก็นึกไม่ออกเลยค่ะ แย่จังเลยนะคะ..."
+    },
+    {
+      "Text": "(ไม่ยอมทิ้งยาสีฟันที่ใช้หมดหลอดแล้ว แต่กลับใช้กรรไกรตัดจุกออก แล้วรีดยาสีฟันออกมาใช้หมด\nจนหยดสุดท้าย...)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอ๋... ทุกคนก็ทำแบบนี้กันไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การออกไปซื้อยาสีฟันหลอดใหม่น่ะเรื่องใหญ่มากเลยนะคะ"
+    },
+    {
+      "Text": "[s] \"อ๋อ เรื่องนั้นครูก็พอเข้าใจอยู่\""
+    },
+    {
+      "Text": "(นอกจากนี้ยังมี <แผนการหายตัวในเดือนพฤษภาคม> ที่เกิดขึ้น ทำให้เกิดความวุ่นวายต่างๆ ขึ้น\nในโรงเรียนมิลเลเนียม)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เรื่องนั้นเป็นเรื่องที่น่าอับอายจริงๆ ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อันที่จริงเหตุการณ์ตอนนั้น ฉันเล่นมากไปหน่อย จนโดนจิฮิโระจังบ่นชุดใหญ่เหมือนกันค่ะ"
+    },
+    {
+      "Text": "[s] \"ไม่ค่อยเข้าใจเท่าไร แต่เธอก็ก่อเรื่องจริงๆ สินะ!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เฮ้อ แต่เรื่องที่เขียนในนี้ ฉันสรุปได้ว่าส่วนใหญ่เป็นข้อมูลเท็จและมีแนวโน้มว่าเป็นการใส่ร้ายค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และฉันไม่อาจทนกับข้อมูลเท็จ และคำว่าร้ายต่างๆ เกี่ยวกับฉันได้หรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันไม่ได้แค่ทำให้ฉันรู้สึกเจ็บปวดเท่านั้นนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่มันยังเกี่ยวข้องกับความน่าเชื่อถือของทางเวอริทัส และยังทำให้ชมรมเสื่อมเสียชื่อเสียงด้วยค่ะ\nเพราะงั้นเราจำเป็นต้องเปิดเผยความจริงค่ะ"
+    },
+    {
+      "Text": "[s] \"อ๋อ... แล้วจะทำยังไงล่ะ? จะเรียกร้องให้เขียนข่าวที่ถูกต้องเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ? ไม่ใช่แบบนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเป็นชมรมข่าวโครโนสที่มีชื่อเสียงนั่นละก็ คงจะไม่สนใจข้อเรียกร้องอะไรแบบนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ เพราะงั้นเราต้องใช้วิธีอื่นค่ะ"
+    },
+    {
+      "Text": "(และเพราะเหตุนั้น ทั้งสองคนก็เริ่มอัดวิดีโอ <ความจริงที่ถูกต้องของหัวหน้าของเวอริทัส> ด้วยกัน)"
+    },
+    {
+      "Text": "[ns] \"เอางั้นเหรอ... ไม่เป็นไรแน่เหรอ?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่เป็นไรหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพื่อการถ่ายทอดความจริงที่ถูกต้อง เราต้องชิงเคลื่อนไหวก่อนที่คนอื่นจะลงมือ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และด้วยวิดีโอนี้ ฉัน... อาเกโบชิ ฮิมาริ จะแสดงให้เห็นว่าฉันเป็นหัวหน้าชมรมปรากฏการณ์ลี้ลับและ\nหัวหน้าของเวอริทัสที่ยอดเยี่ยมแค่ไหน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อีกทั้งยังเป็นสาวน้อยแฮ็กเกอร์อัจฉริยะที่โดดเด่นไม่ว่าในสถานการณ์ใดๆ และยังเป็นคนที่น่าเชื่อถือ และสง่างาม"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันเอาจริงเรื่องถ่ายวิดีโอเพื่อแนะนำตัวเองรึเปล่างั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"เรื่องพวกนี้ไม่ควรพูดเองในวิดีโอแนะนำตัวรึเปล่า...\""
+    },
+    {
+      "Text": "[ns] \"ว่าแต่ถ่ายวิดีโอในที่ซ่อนทั้งๆ ที่เธอกำลังปกปิดตัวตนอยู่ได้จริงเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม... เรื่องนี้ก็อาจเป็นปัญหาที่ชวนปวดหัวนิดหน่อยค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เพราะงั้นฉันเลยขอให้คุณครูมาที่นี่ค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันก็คิดว่าควรระดมสมองเพื่อหาวิธีที่ดีที่สุดในการถ่ายข้อมูลเกี่ยวกับตัวของฉัน โดยไม่ให้ใครรู้\nถึงตัวตนแท้จริงของฉันค่ะ"
+    },
+    {
+      "Text": "[s] \"ระดมสมองเหรอ... แล้วมีไอเดียอะไรดีๆ มั้ย?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "วิธีนี้เป็นยังไงคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช้การโมเสก และแปลงเสียงเพื่อไม่ให้ใครระบุตัวตนได้ค่ะ"
+    },
+    {
+      "Text": "[s] \"เอ่อ... ถ้าทำแบบนั้น...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอาละค่ะ มาเริ่มถ่ายวิดีโอกันเถอะค่ะ"
+    },
+    {
+      "Text": "(ฮิมาริดูกระตือรือร้นอย่างมาก คุณครูเลยทำตาม และเริ่มลงมือถ่ายวิดีโอ)"
+    },
+    {
+      "Text": "(และหลังจากตรวจดูวิดีโอที่ถ่ายออกมาครั้งแรก...)"
+    },
+    {
+      "Text": "[ns] \"พอโมเสกและแปลงเสียงทั้งวิดีโอแบบนี้...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันไม่ได้รู้สึกไปเองใช่มั้ยคะ ว่ามันเหมือนเป็นวิดีโอยอมรับข้อสงสัยทั้งหมดที่เกิดขึ้นเลย แถมยัง\nดูเหมือนเป็นวิดีโอรับสารภาพผิดของคนร้ายเลยน่ะค่ะ?"
+    },
+    {
+      "Text": "[s] \"มะ...มาลองใหม่เถอะ! มาหาวิธีใหม่กันเถอะ!\""
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็เริ่มทดลองวิธีต่างๆ ตามที่ฮิมาริคิดขึ้นมา)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันอยากปิดบังใบหน้าเอาไว้ เพื่อปกปิดตัวตนของฉันค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ฉันก็อยากจะเปิดเผยความสง่างามของหัวหน้ากลุ่มเวอริทัสให้ทุกคนได้เห็นเหมือนกันค่ะ"
+    },
+    {
+      "Text": "[s] \"ถ้าปกปิดตัวตน มันก็จะไม่เห็นความสง่างามอะไรพวกนั้นสิ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ ถ้างั้นแบบนี้เป็นยังไงคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช้เส้นสีดำคาดปิดตรงตาแบบนี้ เพื่อไม่ให้ระบุตัวตนได้ดีมั้ยคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ? แบบนี้ไม่โอเคเหรอคะ? ไม่ได้เหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม... ยากจังเลยนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้นปิดตาด้วยวิธีอื่น..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ๊ะ ใช้ผ้าปิดตาดีมั้ยคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นึกดูแล้ว ฉันมีผ้าปิดตารูปเจ้าฮิปโปตัวขาวๆ อ้วนๆ อยู่อันหนึ่งด้วยค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คะ? คุณเพโรโร่ไม่ใช่ฮิปโปงั้นเหรอคะ? แล้วก็ไม่เอาวิธีนี้ด้วยเหรอคะ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...ถึงจะดูเป็นคนสบายๆ แต่คุณครูก็เป็นคนที่ 'เยอะ' เหมือนกันนะคะเนี่ย"
+    },
+    {
+      "Text": "[s9] \"ต้องเป็นครูรึเปล่าที่พูดแบบนั้นน่ะ?\""
+    },
+    {
+      "Text": "[s10] \"ที่จริงครูคิดว่าแค่ปิดตาคงไม่พอหรอกนะ...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม... พอลองทำดูแล้ว มันยากกว่าที่คิดเลยนะคะ~ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ต้องปล่อยมือจากสิ่งหนึ่ง เพื่อให้ได้อีกสิ่งหนึ่งที่ต้องการมา... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เหมือนกับชีวิตของคนเราเลยนะคะ..."
+    },
+    {
+      "Text": "[s] \"ต้องตีหน้าโศกเบอร์นั้นเลยเรอะ?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "วิธีที่จะให้ข้อมูลที่ถูกต้องและปกปิดตัวตนของฉันเอาไว้ แต่ก็แสดงออกถึงความสง่างามในฐานะ\nหัวหน้าของเวอริทัสได้..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และถ้าเป็นไปได้ ฉันก็อยากให้ภาพของฉันในกล้องออกมาแบบดูดีสุดๆ..."
+    },
+    {
+      "Text": "[s] \"...เรื่องนั้นมันไม่จำเป็นไม่ใช่รึไง?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันคิดไอเดียดีๆ ออกแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "รูปเป็นอีกหนึ่งวิธีที่จะแสดงความสง่างามออกมา แต่ในเมื่อไม่สามารถเปิดเผยใบหน้าได้ เลยต้อง\nใช้วิธีแต่งรูปแบบนี้ค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ว่าถ้าไม่แสดงอะไรบนหน้าจอเลย หน้าจอมันก็จะโล่งๆ เพราะงั้นฉันจะใส่เงาลงไป..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ส่วนชื่อก็ใช้เป็นอักษรย่อดีมั้ยคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ ดีมากเลยค่ะ ไอเดียผุดขึ้นมาเรื่อยๆ เลยละค่ะ"
+    },
+    {
+      "Text": "(หลังผ่านการทดสอบ และแก้ไขข้อผิดพลาดต่างๆ มากมาย สุดท้ายก็ทำวิดีโอแนะนำตัวเสร็จ)"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ เท่านี้ก็เสร็จสมบูรณ์แล้วนะคะ"
+    },
+    {
+      "Text": "[ns] \"ถ่ายเสร็จแล้ว แต่เราจะส่งไปให้ยังไงล่ะ ส่งเมลเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อา... ฉันเคยส่งเมลร้องเรียนไป แต่ก็ถูกเพิกเฉยตลอดเลยค่ะ ดูเหมือนเมลของฉันจะถูกจัดไว้ใน\nหมวดหมู่อีเมลขยะค่ะ เพราะงั้นแค่ส่งเมลคงไม่พอหรอกค่ะ"
+    },
+    {
+      "Text": "[s] \"ถ้างั้นจะทำยังไงดีล่ะ...?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้างั้นเรามาลองวิธีที่พวกเขาจะเพิกเฉยเมลของฉันไม่ได้กันเถอะค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันจะแฮ็กเข้าไปยึดฐานข้อมูลของโรงเรียนโครโนส และอัปโหลดไฟล์เข้าไปโดยตรงค่ะ"
+    },
+    {
+      "Text": "[ns] \"เดี๋ยวๆๆ ทำแบบนั้นได้เหรอ นั่นมันอาชญากรรมไซเบอร์นะ?!\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อา... แต่ฉันแฮ็กระบบและอัปโหลดวิดีโอไปเรียบร้อยแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตอนนี้เป็นชั่วโมงข่าวของทางโรงเรียนโครโนสพอดี เรามารอดูกันดีมั้ยคะว่าพวกเธอจะทำยังไง?"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ข่าวล่ามาแรงแซงทางโค้งค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "เมื่อประมาณ 5 นาทีก่อน พบว่ามีแฮ็กเกอร์ลึกลับแฮ็กเข้าเครือข่ายของโรงเรียนโครโนสค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ถึงจะไม่รู้ว่าเป็นฝีมือใคร แต่เหตุการณ์ครั้งนี้ถือว่าเป็นอันตรายครั้งใหญ่สำหรับโรงเรียนโครโนส...!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "คะ? แฮ็กเกอร์ลึกลับโพสต์ตัวอย่างวิดีโอคำสารภาพอาชญากรรมไซเบอร์ที่ก่อไว้เหรอคะ?"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ค่ะ! เรามาดูวิดีโอไปพร้อมๆ กันเลยค่ะ!"
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "สวัสดีค่ะ นักเรียนโรงเรียนโครโนสทุกท่าน"
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "ฉันขอแนะนำตัวก่อนนะคะ ฉันคือแฮ็กเกอร์อัจฉริยะแห่งโรงเรียนมิลเลเนียม สาวน้อยน่ารักผู้แสนบอบ\nบาง งดงามราวดอกไม้ป่า..."
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "คะ? พูดแบบนี้ไม่ได้งั้นเหรอคะ? แต่ว่าฉันต้องแนะนำตัวให้ชัดเจนนะคะ..."
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "คะ? ต้องพูดชื่อด้วยเหรอคะ? อ๋อ จริงด้วยนะคะ"
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "อ๋อ... จริงสิ โค้ดเน้มที่เลือกเอาไว้..."
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "ค่ะ ฉันคือเอช โค้ดเนม เอชค่ะ"
+    },
+    {
+      "Name": "เสียงปริศนา",
+      "Text": "เหตุผลที่ฉันส่งคลิปวิดีโอนี้มา เพราะฉันทนไม่ได้กับความอยุติธรรมของโรงเรียนโครโนส และเพื่อ\nเปิดเผยความจริง..."
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ค่ะ! อย่างที่ทุกท่านได้เห็น! แฮ็กเกอร์ลึกลับโค้ดเนม เอช ได้ส่งคลิปวิดีโอมาที่ชมรมข่าวโครโนสค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "จากคลิปดังกล่าวทำให้ทางโรงเรียนโครโนสสรุปได้ว่านี่เป็นสถานการณ์ร้ายแรง! ขณะนี้กำลัง\nตรวจสอบ และวิเคราะห์คลิปวิดีโอดังกล่าวอยู่ค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "แต่ขอให้ทุกท่านวางใจได้ค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "ชมรมข่าวโครโนสของเราจะไม่มีวันยอมแพ้ต่อแรงกดดันภายนอกอย่างเด็ดขาดค่ะ!"
+    },
+    {
+      "Name": "นักข่าวชมรมโครโนส",
+      "Text": "เพื่อการรายงานข่าวที่แม่นยำมากขึ้น...! แล้วพบกันใหม่ค่ะ!"
+    },
+    {
+      "Text": "[ns] \"ฮิมาริ... ดูท่าว่าแบบนี้มัน...\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันคงจะใช้ความคิดมากไป ตอนนี้เลยรู้สึกเหนื่อยๆ แล้วค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุฮุ คุณครูคะ เราไปดื่มกาแฟกันสักหน่อยดีมั้ยคะ?"
+    },
+    {
+      "Text": "[ns] \"แกล้งทำเป็นไม่เห็นว่าตัวเองกำลังเสียเปรียบเรอะ?!\""
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็เทศนาฮิมาริชุดใหญ่ ทั้งเรื่องที่ก่อความวุ่นวายที่โรงเรียนโครโนส กับเรื่อง\nข่าวลือแปลกๆ ที่เกิดขึ้นทั่วคิโวทอส)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "天才駭客的異議"
+    },
+    {
+      "Text": "（接到了不像平常的陽葵的聯絡後，趕忙來到了藏身地）"
+    },
+    {
+      "Text": "[ns]「陽葵！你沒事吧！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，老師。您來了啊。"
+    },
+    {
+      "Text": "[ns1]「嗯。咦……不是出事了嗎？」"
+    },
+    {
+      "Text": "[ns2]「你不是說發生了嚴重的事……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嚴重這點是真的，老師。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我之所以看起來很冷靜……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是因為我被稱為是千年最棒的天才清楚系病弱美少女駭客，\n所以已經習慣擺出撲克臉了吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊啊，這也是因為我太優秀了呢。\n就連感情都必須隱藏在內心深處，悲劇的美少女……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "多麼令人悲傷……"
+    },
+    {
+      "Text": "[ns3]「不管怎麼看都沒事吧！」"
+    },
+    {
+      "Text": "[ns4]「不是想和我說什麼嗎……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "今天也和老師想像的一樣，在一邊提升教養一邊優雅地休息的時候……\n我有了一個相當衝擊性的發現。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請看這個。"
+    },
+    {
+      "Text": "（陽葵說完後，翻開了克洛盧斯新聞部發行的、熟悉的八卦雜誌）"
+    },
+    {
+      "Text": "[s]「八卦雜誌！？你剛才不是說教養還是什麼的嗎！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不可以在意那種小事。\n問題就在這裡。看了這些之後，我感到非常受傷。"
+    },
+    {
+      "Text": "（陽葵指的是八卦雜誌的特輯頁面，上面寫的內容是……）"
+    },
+    {
+      "Text": "[ns5]「＜震驚！率領千年駭客集團．貝里塔斯的神祕人物──」"
+    },
+    {
+      "Text": "[ns6]「竟然是吝嗇難搞的問題兒童！？＞……？」"
+    },
+    {
+      "Text": "[ns]「……這篇文章怎麼了嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵呵……我到底哪裡是「吝嗇」又「難搞」的「問題兒童」。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "無論怎麼看都是清純又惹人憐愛的病弱美少女吧？"
+    },
+    {
+      "Text": "[s]「啊，嗯……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，反應好像有點冷淡呢。您累了嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……原來如此，是這麼回事吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是因為重要的存在隨時都在身邊，反而在不知不覺間逐漸忽略了是嗎……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請不要忘記幸福的天才美少女……"
+    },
+    {
+      "Text": "[s]「抱歉，我聽不懂你在說什麼……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請您聽好囉？\n重要的是，這上面寫的內容全都是誹謗中傷。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "真虧他們敢寫出這種報導呢。\n以為這麼輕易就能找出我的真實身分嗎？"
+    },
+    {
+      "Text": "[s]「這不就是原因嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "他們這麼做是因為我隱藏了自己的身分……您是這個意思嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼呣……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "也就是說，只要換個角度思考就可以了對吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "唉，就算是我這個天才美少女，也會有盲點啊。"
+    },
+    {
+      "Text": "[s7]「對八卦雜誌來說，越想隱藏他們就越想知道。」"
+    },
+    {
+      "Text": "[s8]「明明隱藏著自己的身分，被發現的話會很困擾吧。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，不……想打探我是無所謂……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就算有什麼萬一，我也很擅長隱蔽工作。"
+    },
+    {
+      "Text": "[s]「那樣的話問題出在哪裡……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "請看這裡。上面寫著貝里塔斯部長的惡行惡狀。"
+    },
+    {
+      "Text": "（陽葵所指的地方寫著各式各樣的揣測和懷疑）"
+    },
+    {
+      "Text": "（貝里塔斯的部長濫用權力，擅自挪用和私吞社團經費……）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "社團經費一直都是公平公正地和社員們一起使用哦？"
+    },
+    {
+      "Text": "（與千年發生的各種科技犯罪皆有相關……）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "真是荒謬的謠言。也不想想有多少科技犯罪是多虧了我才平定的？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……您問具體的數量……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個嘛……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "做了多少功德沒有記在腦袋裡的必要唷。"
+    },
+    {
+      "Text": "（擠不出牙膏的時候還會用剪刀剪開，用到一點也不剩……）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……哎呀？雖然這件事是真的，不過大家都會這麼做吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "畢竟去買新的牙膏也要花時間嘛。"
+    },
+    {
+      "Text": "[s]「嗯，這是陽葵的優點呢。」"
+    },
+    {
+      "Text": "（與「5月失蹤計畫」有所關聯，在千年引發了巨大的混亂……）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "真是失禮呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……雖然在那個事件裡，確實是因為做得有點過頭而被千醬罵了一頓。"
+    },
+    {
+      "Text": "[s]「所以是真的啊！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "總之，那裡寫的內容幾乎都無憑無據，只是陰險地在找碴而已。\n這就是我的結論。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這可是有損我名譽的質疑，可不能視而不見。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "況且這也不只是我一個人的問題。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這件事與貝里塔斯的信任息息相關，且毫無疑問是對真相的褻瀆。\n由我來向大家傳達事情的真相吧。"
+    },
+    {
+      "Text": "[s]「有道理……要讓他們撤下這篇報導嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嗯？不是這樣的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "畢竟是鼎鼎大名的克洛盧斯新聞部，想必不會理會閒雜人等的意見吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵，所以要換個角度思考。"
+    },
+    {
+      "Text": "（為了傳達貝里塔斯的真相，決定要拍攝一部介紹影片）"
+    },
+    {
+      "Text": "[ns]「……真的可以嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嗯，那是當然。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "為了傳達真相，不應該等待他人的行動，必須主動出擊才行。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "擔任貝里塔斯和特異現象搜查部部長的我，明星陽葵是多麼的優秀……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "以及，我這個優秀的天才美少女駭客是多麼地圓滑和受人愛戴……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "想要正確地傳達這些真相，由我本人親口說明是最適合的吧？"
+    },
+    {
+      "Text": "[s]「那種事該由本人說明嗎……」"
+    },
+    {
+      "Text": "[ns]「但是你明明隱藏著身分，拍影片沒問題嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這確實是個問題呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "所以我才會請老師過來。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "為了在隱藏真實身分的情況下傳達出我正確的情報，想請您一起腦力激盪。"
+    },
+    {
+      "Text": "[s]「腦力激盪……那陽葵的想法是？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "您看這樣如何。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "首先為了盡可能隱藏身分，在加上馬賽克的同時調整一下聲音的音調和共振峰吧。"
+    },
+    {
+      "Text": "[s]「那樣的話或許……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼，開始拍攝吧。"
+    },
+    {
+      "Text": "（配合積極的陽葵開始了拍攝）"
+    },
+    {
+      "Text": "（完成的第一部影片……）"
+    },
+    {
+      "Text": "[ns]「臉因為馬賽克的關係無法辨別，聲音也被改的乾癟癟的，所以……」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "簡直像是承認所有的指控，坦白自己犯行的影片一樣。老師也這麼覺得吧。"
+    },
+    {
+      "Text": "[s]「下，下一個！嗯！想想別的辦法吧！」"
+    },
+    {
+      "Text": "（之後也和陽葵嘗試了幾個想法）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "果然就算要隱藏外表，還是想維持在無法判別真實身分的範圍內的最低限度呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "首先要透過外表傳達貝里塔斯部長的威嚴。"
+    },
+    {
+      "Text": "[s]「要兼顧這兩點會不會有點困難……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊，這會不會是個好主意？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "像這樣用黑色的線把眼睛的部分遮住如何。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "咦？這樣就違背原本的宗旨了……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "唔嗯，真是困難呢……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這樣的話，想想其他的方法吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對了，帶眼罩如何？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然這個房間裡只有像河馬一樣的奇怪眼罩……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嗯？這不是河馬嗎？\n要我收回河馬的發言……？原來如此，是叫佩洛洛大人啊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……呵呵。沒想到老師這麼講究呢。"
+    },
+    {
+      "Text": "[s9]「居然會被陽葵這麼說……」"
+    },
+    {
+      "Text": "[s10]「我覺得只遮住眼睛是不夠的。」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼呣……實際思考起來，相當有難度呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "為了獲得想要的東西而不得不放棄另一樣東西的這種困境。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……簡直就像我們的人生一樣。"
+    },
+    {
+      "Text": "[s]「剛才的話題有那麼宏大嗎！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "在隱藏真實身分與展現貝里塔斯部長威嚴的同時，傳達正確的情報……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "然後可以的話，加上能樹立自己視覺形象的演出……"
+    },
+    {
+      "Text": "[s]「……要求是不是變多了！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "啊……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我想到一個好點子了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "既然不能把臉露出來，就在背景營造出能展現威嚴的氣氛吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "話雖如此，畫面上如果看不到我的話會有點空虛，所以準備一個剪影……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對了，畢竟機會難得，就用代號自稱吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵，越來越有趣了。嗯，想法不斷湧現出來。"
+    },
+    {
+      "Text": "（歷經無數次嘗試後，總算是完成了一部影片）"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "好，這樣就完成了。"
+    },
+    {
+      "Text": "[ns]「要怎麼傳送這部影片呢？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我已經用郵件連同抗議的內容一起寄出了，不過似乎被無視了呢。\n是被當成騷擾郵件了嗎……"
+    },
+    {
+      "Text": "[s]「原來已經送出了啊……還有其他方法嗎？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這次為了讓他們無法無視，我打算用更確實的方式進攻。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那就是進入克洛盧斯學園的資料庫，直接上傳影片。"
+    },
+    {
+      "Text": "[ns]「等等，那樣不是犯罪嗎！？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……上傳完成了唷。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個時間克洛盧斯應該正在撥放新聞，來看看他們的反應吧。"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "緊急速報！就在剛才，傳來了一則最新情報！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "約莫5分鐘之前，克洛盧斯學園的網路出現了遭不明人士駭入的痕跡！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "雖然目前尚未掌握入侵者的蹤跡，不過克洛盧斯學園將其視為相當重大的事件──"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "什麼？有犯人留下來的影片？"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "看來是追加的情報！請看這部影片！"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "啊，啊，克洛盧斯學園的各位，大家好。"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "我是千年最棒的天才清楚系病弱美少女駭客，是雲朵上綻放的一朵花──"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "嗯？不能說那種話……？\n不，可是自我介紹就應該要……"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "是呢。首先先報上名字吧。"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "啊……那個，是代號對吧。"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "咳咳……我是H，代號是H。"
+    },
+    {
+      "Name": "來歷不明的聲音",
+      "Text": "我之所以會傳送這部影片，是因為無法忍受日前克洛盧斯新聞部不適當的報導，\n所以要傳達事情的真相──"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "各位觀眾都看到了嗎？\n剛才克洛盧斯新聞部收到了自稱代號「H」的不明人士寄來的影片！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "面對簡直是重大犯罪預告的內容，克洛盧斯學園已經將本案判斷為極其重大的事件！將立即嘗試對影片進行分析！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "但是請各位安心！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "克洛盧斯新聞部不管面對怎樣的外部壓力都不會屈服的！"
+    },
+    {
+      "Name": "克洛盧斯的學生記者",
+      "Text": "為了持續將正確的報導傳達給各位──"
+    },
+    {
+      "Text": "[ns]「陽，陽葵……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是因為太久沒動腦了嗎，我好像有點累了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……呵呵。老師，要不要一起去喝杯咖啡？"
+    },
+    {
+      "Text": "[ns]「當作沒看到沒問題嗎！？」"
+    },
+    {
+      "Text": "（之後對以克洛盧斯學園為起點，\n　在整個奇普托斯引起了一場小風波的陽葵一邊嘆氣一邊說教）"
+    }
+  ]
+}

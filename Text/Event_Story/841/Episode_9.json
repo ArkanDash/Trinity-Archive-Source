@@ -1,0 +1,2587 @@
+{
+  "TitleJP": "頂上決戦",
+  "TitleKR": "정상결전",
+  "TitleEN": "Summit of the Final Battle",
+  "TitleTH": "การแข่งขันชี้ขาด",
+  "TitleTW": "頂上決戰",
+  "DescJP": "アイドルとして活動するうえでのリーダーを決めるべく、トリニティ・スクエアの噴水広場にやってきたサクラコとミネ。しかしそこには、噂を耳にしたナギサがミカを伴って待ち構えていた。誤解が誤解を呼び、シスターフッドと救護騎士団の面々も集合してしまい、広場には一触即発の空気が流れる。しかし間一髪のところでマリーと先生が現場に現れ――",
+  "DescKR": "유닛 리더를 결정하는 자리. 사쿠라코와 미네에 대한 소문을 들은 나기사는 미카까지 대동하며 끼어들고, 세 조직 간의 커다란 내전이 발생할 위기에 처한다. 그때 마리가 선생님과 함께 나타나 상황을 멈추고, 이윽고 모든 오해가 풀린다.",
+  "DescEN": "During the discussions to decide the unit leader, Nagisa hears the rumors about Sakurako and Mine, so she butts in, bringing Mika along with her. A large civil war threatens to break out among the three organizations. At that moment, Mari and Sensei show up and stop the situation, and at last, the misunderstandings are resolved.",
+  "DescTH": "ถึงเวลากำหนดตำแหน่งลีดเดอร์ของวง นางิสะได้ยินข่าวลือเกี่ยวกับ\nซากุระโกะและมิเนะ เธอพามิกะมาร่วมด้วยจนเกิดเป็นสงครามกลางเมือง\nขนาดใหญ่ระหว่าง 3 ฝ่าย ในตอนนั้นเองมารีกับคุณครูก็ปรากฏตัวเพื่อ\nระงับเหตุการณ์ไว้ ในที่สุดความเข้าใจผิดทั้งหมดก็ถูกแก้ไขจนกระจ่าง",
+  "DescTW": "到了決定團體領導人的時刻。聽說了櫻子和美禰的傳聞後，渚帶著彌香一同參與討論，而三大組織之間的大規模內戰也一觸即發。就在此時，瑪麗和老師一同現身阻止情況惡化。至此，大家總算解開了誤會。",
+  "DialogJP": [
+    {
+      "Text": "第6話;頂上決戦"
+    },
+    {
+      "Name": "トリニティの生徒B",
+      "Text": "……今の見た？"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "すごいスピードだった……。"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "……うん、カッコ良かったね。"
+    },
+    {
+      "Name": "トリニティの生徒B",
+      "Text": "でも……。"
+    },
+    {
+      "Name": "トリニティの生徒B",
+      "Text": "バイクに乗ってた人……。"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "あれ、たぶん……。"
+    },
+    {
+      "Name": "トリニティの生徒A",
+      "Text": "……シスターさん、だよね？"
+    },
+    {
+      "Text": "（急いでマリーに言われた場所へ向かった）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "先生！"
+    },
+    {
+      "Text": "[ns1] \"マリー！？\""
+    },
+    {
+      "Text": "[ns2] \"本当にバイクに……。\""
+    },
+    {
+      "Name": "マリー",
+      "Text": "急にお呼び立てして、申し訳ありません……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……ですが、先生がいてくだされば、最悪の事態は免れるはずです。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "ヘルメットは、こちらをお使いください。"
+    },
+    {
+      "Text": "[s3] \"分かった、ありがとう。\""
+    },
+    {
+      "Text": "[s4] バイクの後ろに座る。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "しっかりつかまってください、先生！"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……では、出発します！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "何かあるの？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "シスターフッドと救護騎士団が部の存続をかけて決闘するんだって！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "えっ、こんな時期に……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "むしろ、今だからじゃない？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "え、えっと……どういうことなのでしょう？"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "いきなり決闘だなんて……。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……なるほど。\n謝肉祭の隙を狙ったのか。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "それに決闘なら、すぐに終わる。"
+    },
+    {
+      "Name": "コハル",
+      "Text": "なに言ってるの！？\nおかしいわよ！"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "たしかに、コハルちゃんの言う通りですが……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……些細な問題から決闘に発展してしまった可能性も否定できません。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ただ話が食い違っているだけという線も考えられますが……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……ふふっ。\n楽しそうですし、そっとしておきましょうか。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "た、楽しそうって……。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "この騒ぎは、いったい……。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "サクラコ様は？"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "何度も電話してますが、ずっと繋がりません……。"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "モモトークも既読が付くだけですし……。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "本当に何かが起きて……？"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "詳細は一部のメンバーにしか知らされていないとかでしょうか……。"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "私たちとてサクラコ様の考えを、全て理解できているわけではないですから……。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "そうだとしても……。"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "ええ、もし決闘になってしまったら……。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "勝ち目がないのでは！？\n相手はあのミネ団長なのですから！"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "となれば……。"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "私たちにできることを探さねばなりませんね。"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "……！"
+    },
+    {
+      "Name": "ハナエ",
+      "Text": "何がどうなっているんでしょう……。"
+    },
+    {
+      "Name": "ハナエ",
+      "Text": "決闘だなんて……ミネ団長から何か聞いてます？"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "いえ……私も初耳です……。"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "団長のことですし、あり得ない話ではありませんが……これはいくらなんでも……。"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "何か誤解があったような気がします……。"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "わあぁぁ……！み、皆さん、落ち着いてください！"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "私たちは戦いに来ているわけではないんですよ……！？"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "……？"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "あの方たちは……。"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "……！"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "……ナギサ様……！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ねぇ、ナギちゃん……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "本当なの？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "いくら何でも、こんな日に争いを起こそうとするわけないじゃん。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私たちが顔を出したら、余計にこじれるかもよ？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ミカさん。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ティーパーティーは常に、ありとあらゆる事態に備えなければなりません。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさんには、あちらのシスターフッドと救護騎士団の兵力が見えないのですか？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "「決闘」と聞いてますが、\n我々ティーパーティーへ反旗を翻す計画をしている可能性もあります。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "これは、トリニティの内戦を招きかねない事案です。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "むしろ、こんな日だからこそ警戒すべきでした。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "いざとなったら、その時はミカさんが……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……わ、私！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "え、なに？\n私が戦うの……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃん本気？\nそのために連れてきたの！？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "全てはトリニティの安寧のためなのです！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "い、いやいや！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私それ関係なくない！？\nそれに、まだ自粛中だし……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ねえ、ナギちゃん！\nお願いだから、もう少し冷静になろうよ！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "どうしよう、もう先生に連絡するしか……！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ついに現れましたね、当事者のお二人が。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……時間通りですね、サクラコさん。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "結論は出せましたか？"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "ええ。"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "もちろんです。"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "このように重大な場に遅れるはずが――"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "それより、どうしたのでしょうか。"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "この人の数は……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "救護騎士団の皆さんも揃ってますね……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……何かあったのでしょうか？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……どうやら、情報は正しかったようですね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "サクラコさん、ミネ団長。"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "……ナギサさん？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "謝肉祭でお忙しいはずの方が、どうしてここに……？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "この期に及んで白を切るとは……ずいぶんと侮られたものですね？"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ティーパーティーのホストとして、正式に問います。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ここに集まっている理由をお答えください。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……それは、「[ruby=カーニバル]謝肉祭[/ruby]運営委員長」でなく、\n「ティーパーティーのホスト」としての質問、ですか？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はい、何か問題でも？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "お答えしましょう。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "――そちらとは関係ない話です。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "…………！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ミカさん！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃん！？もうちょっと冷静になって！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "も、もうちょっと話を……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカ！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あ～っ！\nもう、ナギちゃんったら！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うぅ……どうなっても知らないんだからね！！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "銃を構えて、どうしたのですか！？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "ティーパーティーは……ナギサ様は何をお考えで！？\nついに自暴自棄になってしまったのですか！？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……ナギサ様がご乱心であるのなら、私が救護騎士団の団長として受けて立ちます。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "サクラコさん、準備を！"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "……え？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "早く……！"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "え、えぇ……！？"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "どうしてこんなことに……！？"
+    },
+    {
+      "Name": "シスターフッドの生徒A",
+      "Text": "最初からこれを狙っていたのですね、サクラコ様……！"
+    },
+    {
+      "Name": "シスターフッドの生徒B",
+      "Text": "総員、戦闘準備！！"
+    },
+    {
+      "Name": "救護騎士団の団員A",
+      "Text": "戦闘態勢、用意！"
+    },
+    {
+      "Name": "セリナ",
+      "Text": "え、ええええええっ！？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "よくも、こんな日にクーデターを……！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "いいえ！\nこれは権力に対する抗議です！"
+    },
+    {
+      "Name": "サクラコ",
+      "Text": "どうして、私は何も……！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "本当に知らないんだからね！"
+    },
+    {
+      "Text": "[log=마리]お待ちください！[/log]"
+    },
+    {
+      "Name": "マリー",
+      "Text": "……皆さん！"
+    },
+    {
+      "Name": "マリー",
+      "Text": "どうか……。"
+    },
+    {
+      "Name": "マリー",
+      "Text": "戦いをやめてください！！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제6화;정상결전"
+    },
+    {
+      "Name": "트리니티 학생 B",
+      "Text": "……방금 봤어? 오토바이 역주행……?"
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "응……. 굉장한 속도……."
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "……멋있다……."
+    },
+    {
+      "Name": "트리니티 학생 B",
+      "Text": " ……저기, 그런데 있잖아. 방금 그 오토바이."
+    },
+    {
+      "Name": "트리니티 학생 B",
+      "Text": "타고 있던 사람……. 복장이……."
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "어어…… 나도 봤어."
+    },
+    {
+      "Name": "트리니티 학생 A",
+      "Text": "시스터 님……이었지……?"
+    },
+    {
+      "Text": "(서둘러 달려왔기에 마리가 알려준 장소에는 때맞춰 도착할 수 있었다.)"
+    },
+    {
+      "Name": "???",
+      "Text": "선생님-!!"
+    },
+    {
+      "Text": "[ns1] \"마리……?\""
+    },
+    {
+      "Text": "[ns2] \"진짜 오토바이를 타고 있잖아…….\""
+    },
+    {
+      "Name": "마리",
+      "Text": "갑작스레 불러내서 죄송해요, 선생님! 하지만 워낙 다급한 일이라……!"
+    },
+    {
+      "Name": "마리",
+      "Text": "괘, 괜찮으시다면……. 함께 가 주실 수 있을까요? 트리니티 광장까지 모시도록 하겠습니다!"
+    },
+    {
+      "Name": "마리",
+      "Text": "선생님이 자리에 계신다면 만일의 사태도 막을 수 있을 거라……."
+    },
+    {
+      "Text": "[s3] \"설명은 나중에. 급한 듯하니 우선 가자!\""
+    },
+    {
+      "Text": "[s4] 일단 오토바이 뒷좌석에 탄다."
+    },
+    {
+      "Name": "마리",
+      "Text": "……!!"
+    },
+    {
+      "Name": "마리",
+      "Text": "……출발하겠습니다! 꽉 잡아주세요!!"
+    },
+    {
+      "Name": "???",
+      "Text": "뭐야, 뭐야. 무슨 일이야? 뭔데 이렇게 사람이 많아?"
+    },
+    {
+      "Name": "???",
+      "Text": "못 들은 거야? 조금 있으면 여기서 결투를 한대잖아, 동아리의 통합을 걸고!"
+    },
+    {
+      "Name": "???",
+      "Text": "진짜……!? 이것도 뭔가의 이벤트 같은 건가? 근데 왜 하필 오늘이야? 한창 학원제 중이잖아?"
+    },
+    {
+      "Name": "???",
+      "Text": "오히려 그런 날이니까…… 일수도 있지. 모두의 앞에서 공표한다는 느낌으로."
+    },
+    {
+      "Name": "히후미",
+      "Text": "으, 으음……? 이건 또 무슨 일일까요……."
+    },
+    {
+      "Name": "히후미",
+      "Text": "갑자기 결투라니, 이런 이야기는 들은 적도 없는데……!?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "하지만 일리가 있는 이야기야. 통합 조직의 지도자를 선출하기에, 이보다 적합한 시기도 없지."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "게다가 결투라니……. 가장 확실하고 뒷말 없는 방법이다."
+    },
+    {
+      "Name": "코하루",
+      "Text": "무슨 소릴 하는 거야!? 말이 안 되잖아, 말이! 이런 건 이상해! 뭔가 잘못됐다고!!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "확실히……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "뭐, 그 사람들이라면 별것 아닌 일도 이정도로 크게 키울 수 있긴 하겠네요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "아니면 훨씬 더 바보 같은 상황이라거나……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "……후훗. 일단 재미있어 보이니, 조금 더 이대로 구경하는 것도 나쁘지 않아 보여요."
+    },
+    {
+      "Name": "히후미",
+      "Text": "재, 재미있어 보인다니……."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "뭐, 뭐야 대체……. 이런 이야기는 들은 적도 없다고."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "정말인가? 사쿠라코 님께는 연락해 봤어?"
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "여, 연락은 아까부터 계속 시도하고 있어. 어째서인지 받지 않고 계시지만……."
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "전화는 아예 안 되고, 메시지를 보내도 답장이 없으셔. 의도적으로 안 받으시는 것 같아."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "어째서……. 진짜 무슨 일 있는 거 아냐, 이거!?"
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "어쩌면 다른 일부 인원들에게만 떨어진 비밀 지령 같은 게 있을 수도 있겠지."
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "사쿠라코 님의 일이니까, 우리가 하나하나 다 인지할 수는 없잖아."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "그렇지만 만약……."
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "만약 이게 진짜라면……. 그리고 사쿠라코 님과 미네 단장이 붙는다면……."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "그런 식의 싸움으로는 승산이 없잖아!? 상대는 그 미네 단장이라고!!"
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "그, 그렇지. 그러니까……."
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "어쩌면 우리가, 뭔가 다른 공작을 준비해야 할지도……."
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "……!!"
+    },
+    {
+      "Name": "하나에",
+      "Text": "뭐, 뭔가 일이 이상하게 돌아가네요?"
+    },
+    {
+      "Name": "하나에",
+      "Text": "결투라니……. 미네 단장님이 그런 말씀을 하신 적이 있던가요?"
+    },
+    {
+      "Name": "세리나",
+      "Text": "글쎄요. 저도 처음 듣는 이야기인데……."
+    },
+    {
+      "Name": "세리나",
+      "Text": "뭔가 익숙한 상황인 것 같기도 하지만, 아무리 단장님이라도 이건 뭔가 이상해요."
+    },
+    {
+      "Name": "세리나",
+      "Text": "어딘가에서 오해가 발생한 게 아닌가 싶은데……."
+    },
+    {
+      "Name": "세리나",
+      "Text": "으, 으아아……! 지, 진정하세요. 진정하세요 기사단 분들!!"
+    },
+    {
+      "Name": "세리나",
+      "Text": "싸우는 게 아닙니다. 저희는 지금 싸우러 모인 게 아니에요! 모두 진정을……!!"
+    },
+    {
+      "Name": "세리나",
+      "Text": "……? 음?"
+    },
+    {
+      "Name": "세리나",
+      "Text": "어라, 저분들은……."
+    },
+    {
+      "Name": "세리나",
+      "Text": "……티……."
+    },
+    {
+      "Name": "세리나",
+      "Text": "……티파티의……. 나기사 님……!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "저, 저기…… 나기 쨩……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "이거 맞아? 진짜 이거 맞는 거야? 아무리 생각해도 뭔가 이상한데……."
+    },
+    {
+      "Name": "미카",
+      "Text": "걔네들이 아무리 그래도 이런 날 이런 데에서 그런 싸움을 할 리가 없잖아. 뭔가 이야기가 잘못 퍼진 거겠지."
+    },
+    {
+      "Name": "미카",
+      "Text": "괜히 우리까지 여기 와 있으면 분위기가 더 이상해질 수도 있다고. 다시 한번만 생각해 보자, 응? 나기 쨩……?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……미카 씨."
+    },
+    {
+      "Name": "나기사",
+      "Text": "티파티는 언제나 만일의 사태에 대비하여야 합니다. 그리고 현재의 정황은 그 만일의 사태를 점점 더 또렷하게 그리고 있죠."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨는 저기 모인 시스터후드와 구호기사단의 병력들이 보이지 않는 겁니까?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "깨끗한 결투인 척하지만, 결국 수가 틀어지면 힘으로 엎으려는 플랜B일게 불 보듯 훤하지 않습니까."
+    },
+    {
+      "Name": "나기사",
+      "Text": "이건 자칫 트리니티의 내전으로 이어질 수 있는 중대 사안입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨의 말 대로, 이렇게 뜻깊은 날 그런 상황이 발생하는 것 자체가 티파티의 호스트로서 용납할 수 없는 일."
+    },
+    {
+      "Name": "나기사",
+      "Text": "여차하면, 여기서는 미카 씨가……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……나, 나!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "뭐야!? 설마 내가 나가는 거야……?"
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩!? 진짜 나 싸우라는 거야!? 그런 이유로 데려온 거였어!?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "전부 트리니티 종합학원의 평화를 위해서입니다! 당신은 티파티의 무력이잖습니까!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "아니, 아니! 아니아니아니!!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "싫거든, 완전 싫거든, 이런 거!? 생각도 못 했거든!? 나 애초에 지금은 그런 위치도 아니고!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "미쳤나봐, 진짜!! 제발, 나기 쨩!? 제발 정신 차려! 응!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "안 되겠다, 이건 지금이라도 선생님한테 연락을 해서……!!!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……마침내 오셨군요, 사건의 당사자분들."
+    },
+    {
+      "Name": "미네",
+      "Text": "……늦지 않게 오셨군요, 사쿠라코 님."
+    },
+    {
+      "Name": "미네",
+      "Text": "생각은 다 되셨는지요? 시간이 부족하지는 않으셨는지?"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "당연하죠. 이런 중대한 사안에 늦는다니, 있을 수 없는 일 아니겠습니까. 미네 단장님."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "저희들의 새로운 지도자를 결정하는……."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "이 중대한 자리에 말이죠."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "그나저나 이상하군요. 평소보다 훨씬 많은 사람들이 모여 있어요."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "시스터후드……자매님들도 많이 계신 것 같고 말이죠."
+    },
+    {
+      "Name": "미네",
+      "Text": "그렇군요. 확실히, 구호기사단 단원분들도 많이 계시네요. 무슨 일이 있는 걸까요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "한 번 상황을 여쭤보는 것도……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……설마설마했는데, 사실이었을 줄이야."
+    },
+    {
+      "Name": "나기사",
+      "Text": "제 생각보다 훨씬 대담한 면들이 있으시군요, 시스터후드와 구호기사단의 두 분."
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "……티파티의 호스트……? 나기사 씨?"
+    },
+    {
+      "Name": "미네",
+      "Text": "학원제 운영 관리 업무에 한창이셔야 할 분께서, 어쩌다 이런 자리까지……?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "놀랍군요. 이 상황까지 되어서도 시치미를 떼시는 건가요? 아니면 저를 바보로 아시는 겁니까?"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "……?"
+    },
+    {
+      "Name": "미네",
+      "Text": "……? 뭐라고요?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "티파티의 호스트로서, 정식으로 두 분께서 이곳에 있는 연유를 묻겠습니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "어째서 지금 이 자리에 모이신 거죠? 즉시 대답해 주십시오."
+    },
+    {
+      "Name": "미네",
+      "Text": "……지금 그건, 분명 \"티파티의 호스트로서\" 여쭤보신 겁니까? 축제 운영위원회장이 아니라?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……? 그렇습니다만, 무슨 문제라도 있습니까?"
+    },
+    {
+      "Name": "미네",
+      "Text": "……아뇨. 아닙니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "그렇군요. 알겠습니다. 그러시다면, 답변드리도록 하죠."
+    },
+    {
+      "Name": "미네",
+      "Text": "\"그쪽과는 관계없는 이야기입니다. 티파티의 호스트, 키리후지 나기사 님.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "…………."
+    },
+    {
+      "Name": "나기사",
+      "Text": "…………!!!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……미카 씨!"
+    },
+    {
+      "Name": "미카",
+      "Text": "아, 아니. 나기 쨩. 잠깐만! 이상하다니까!? 이거 진짜 아닌 거 같다고!! "
+    },
+    {
+      "Name": "미카",
+      "Text": "일단 조금만 더 이야기를……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "아아아아~!! 제발, 나기 쨩! "
+    },
+    {
+      "Name": "미카",
+      "Text": "으으……!! 나, 난 몰라……!! 어떻게 돼도 모르니까!!"
+    },
+    {
+      "Name": "미네",
+      "Text": "……뭐죠?"
+    },
+    {
+      "Name": "미네",
+      "Text": "지금 장전하신 겁니까? 이런 백주 대낮에, 광장 한가운데에서 모두가 보는데?"
+    },
+    {
+      "Name": "미네",
+      "Text": "정말로 이성을 잃어버리기라도 한 겁니까, 티파티!!"
+    },
+    {
+      "Name": "미네",
+      "Text": "좋습니다! 잘은 모르겠지만, 그 의사 받아드리죠!"
+    },
+    {
+      "Name": "미네",
+      "Text": "준비하십시오, 사쿠라코 님. 마침 다른 부원들도 와 계시는군요!"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "……예? 예예!? 저요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "어서!!"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "그, 그……!? 네!? 으에에에……!?"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "??? 뭐, 뭐죠? 왜 갑자기 이런 흐름이 되는 건가요?"
+    },
+    {
+      "Name": "시스터후드 학생 A",
+      "Text": "과연! 이 상황을 유도하셨던 거군요, 사쿠라코님!!"
+    },
+    {
+      "Name": "시스터후드 학생 B",
+      "Text": "총원 전투준비-!!!"
+    },
+    {
+      "Name": "구호기사단 단원 A",
+      "Text": "단원 전체 전투태세로-!!"
+    },
+    {
+      "Name": "세리나",
+      "Text": "으에에에에에-!?!?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "이건 명백한 쿠데타입니다!!"
+    },
+    {
+      "Name": "미네",
+      "Text": "아뇨! 이건 알 수 없는 폭정에 대한 저항입니다!!"
+    },
+    {
+      "Name": "사쿠라코",
+      "Text": "왜 제 주변에는 이런 일만 생기는 건가요!?"
+    },
+    {
+      "Name": "미카",
+      "Text": "난 몰라아아아아~~~!!!"
+    },
+    {
+      "Text": "[log=마리]\"잠깐만요!!!\"[/log]"
+    },
+    {
+      "Name": "마리",
+      "Text": "여러분……!!"
+    },
+    {
+      "Name": "마리",
+      "Text": "모두……."
+    },
+    {
+      "Name": "마리",
+      "Text": "싸움을, 멈춰 주세요!!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 6;Summit of the Final Battle"
+    },
+    {
+      "Name": "Trinity Student B",
+      "Text": "You saw that, right?"
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "Barely. She whipped right by us."
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "That was so cool..."
+    },
+    {
+      "Name": "Trinity Student B",
+      "Text": " ...Question, though."
+    },
+    {
+      "Name": "Trinity Student B",
+      "Text": "The person riding it... Did she look like a...?"
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "Yeah, I saw her too."
+    },
+    {
+      "Name": "Trinity Student A",
+      "Text": "She looked like a Sister."
+    },
+    {
+      "Text": "I hurried to meet Mari at the spot she mentioned."
+    },
+    {
+      "Name": "???",
+      "Text": "Sensei!"
+    },
+    {
+      "Text": "[ns1] \"Mari...?\""
+    },
+    {
+      "Text": "[ns2] \"Wow, you really ARE on a motorcycle.\""
+    },
+    {
+      "Name": "Mari",
+      "Text": "I'm sorry for dragging you all the way out here, but like I said, it's very urgent!"
+    },
+    {
+      "Name": "Mari",
+      "Text": "I-If it's okay with you...could you hop on, and I'll take you to Trinity Plaza?"
+    },
+    {
+      "Name": "Mari",
+      "Text": "If you're there, maybe we can stop what's coming..."
+    },
+    {
+      "Text": "[s3] \"Explain on the way. Let's go.\""
+    },
+    {
+      "Text": "[s4] Get on the back of the motorcycle."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Okay!"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Here we go! Hold on tight!"
+    },
+    {
+      "Name": "???",
+      "Text": "What's with this big crowd all of a sudden?"
+    },
+    {
+      "Name": "???",
+      "Text": "You didn't hear? There's going to be a duel here soon. Two clubs are going to join together, and fight to see who's the leader!"
+    },
+    {
+      "Name": "???",
+      "Text": "Really...? Was this planned? And why today, in the middle of the Carnival?"
+    },
+    {
+      "Name": "???",
+      "Text": "Maybe that's why. They wanted to make the announcement in front of a big crowd."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Hmm, what could this be about...?"
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "A duel all of a sudden? I hadn't heard anything about it...!"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "But it does make sense. There's no better time to come together and choose a leader."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "And a duel is the most...straightforward and certain method."
+    },
+    {
+      "Name": "Koharu",
+      "Text": "What are you talking about?! It doesn't make any sense at all! This is weird! Something's off!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I agree. We should stay alert."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Maybe it was just some minor argument that ended up escalating."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Or maybe it's some even dumber reason..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "...Heehee. In any case, it ought to be interesting, so I might as well watch for a bit."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "\"Interesting\"?"
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "Huh? What's going on? ...I didn't hear anything about this."
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "Is this for real? Have you tried calling Sakurako?"
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "I-I've BEEN trying, but she's not answering for some reason."
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "I tried to message her too, but she just left me on \"read.\""
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "Why, though? Is there really something going on here?"
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "Maybe there's some secret plan she only told certain people about."
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "We can't always know what she's up to."
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "But if this is real..."
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "If Sakurako and Captain Mine really are going to duel..."
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "...Sakurako's going to lose for sure! I mean, we're talking about Captain Mine!"
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "Y-Yeah, you're right. So..."
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "Maybe we need to prepare for that somehow..."
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "Right!"
+    },
+    {
+      "Name": "Hanae",
+      "Text": "S-Something strange is going on."
+    },
+    {
+      "Name": "Hanae",
+      "Text": "A duel...? Did Captain Mine tell you anything about that?"
+    },
+    {
+      "Name": "Serina",
+      "Text": "No, this is the first time I'm hearing about it."
+    },
+    {
+      "Name": "Serina",
+      "Text": "She's the leader, so she CAN do this, but why would she want to?"
+    },
+    {
+      "Name": "Serina",
+      "Text": "Maybe there was a misunderstanding somewhere..."
+    },
+    {
+      "Name": "Serina",
+      "Text": "Ugh, ah...! P-Please calm down. Calm down, everyone!"
+    },
+    {
+      "Name": "Serina",
+      "Text": "I know what you've heard, but we're not ALL here to fight, if that's what you're thinking."
+    },
+    {
+      "Name": "Serina",
+      "Text": "Understand?"
+    },
+    {
+      "Name": "Serina",
+      "Text": "Oh, is that..."
+    },
+    {
+      "Name": "Serina",
+      "Text": "...Na..."
+    },
+    {
+      "Name": "Serina",
+      "Text": "...Nagisa, from the Tea Party?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Um, hey, Nagi...?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Is this right? Is this for real? No matter how I think about it, something seems off..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "They wouldn't just fight like this...on a day like this...in a place like this. There must be some kind of misunderstanding."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I think our being here might make things even weirder. Let's back off and rethink this, okay? ...Nagi?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Mika."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The Tea Party must always be prepared for any possibility. And this is becoming more and more of a certainty."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Look over there. You see the Sisterhood troops, and the Remedial Knights?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You think this will be a clean duel? If anything goes wrong, we'll have to go to Plan B and take control of the situation by force."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "This could break Trinity into civil war."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And, as you said, it's a meaningful day. Which we're hosting. And thus responsible for. It would be improper if we lost control."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Be ready to fight."
+    },
+    {
+      "Name": "Mika",
+      "Text": "...Wait, me?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "What?! Are you kidding? You want me to fight?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Are you serious, Nagi! Is that why you brought me here?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "For the peace of Trinity General School! You're the military strength of the Tea Party!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "No, no! No-no-no!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Don't even ask me! I am in NO position to try to seize power right now!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Are you going crazy, Nagi?! Get a hold of yourself! I..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I have to do something. I've got to call Sensei and...!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "And there they are. The ringleaders."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...You're just in time, Sakurako."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Have you had enough time to think it through?"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Of course. I wouldn't want to keep you waiting."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Not when our leadership is on the line."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "High stakes, aren't they?"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "But...how did we end up drawing such a crowd?"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "I see a lot of Sisters."
+    },
+    {
+      "Name": "Mine",
+      "Text": "And Remedial Knights. Is there something else going on?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Maybe we should ask."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...I didn't believe it, but it's true."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Sister, Captain, you two are much bolder than I thought."
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "...Nagisa, from the Tea Party?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Shouldn't you be off managing the Carnival? What are you doing here?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "As if you don't know. Do you think I'm a fool?"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...? What?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "As the host of the Tea Party, I'm formally asking you both to state your business."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "What is this gathering for? Tell me. Now."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...To clarify, you're asking AS the \"host of the Tea Party,\" and not as the chair of the Carnival committee?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Hm? That's correct. Is there a problem with that?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "...No, not at all."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Then, to put it succinctly, host of the Tea Party..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...this has nothing to do with you."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "(glare)"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Mika!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Nagi, no, wait. Something's really off here. I don't think... "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Let's just talk to them a little more, please..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "MIKA!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Aaah! Nagi, please! "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ugh...! Fine. Don't blame me for this!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "...What is she...?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "You're loading your gun? In broad daylight, in the middle of the plaza, with everyone watching?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Has the Tea Party lost its mind?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Very well. Whatever your reasons to challenge us, we accept."
+    },
+    {
+      "Name": "Mine",
+      "Text": "To arms, Sakurako. Their reinforcements are coming!"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "...Huh? M-Me too?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Now!"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Umm... Huh? Gyaaa...!"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Wh-What's going on? Why is this suddenly happening?"
+    },
+    {
+      "Name": "Sisterhood Student A",
+      "Text": "So this is what you were after, Sakurako!"
+    },
+    {
+      "Name": "Sisterhood Student B",
+      "Text": "All members, prepare for battle!"
+    },
+    {
+      "Name": "Remedial Knights Member A",
+      "Text": "All members, full combat readiness!"
+    },
+    {
+      "Name": "Serina",
+      "Text": "Ehh...?!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "This is a blatant coup!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "No! This is resistance against your...tyranny!!"
+    },
+    {
+      "Name": "Sakurako",
+      "Text": "Why does this keep happening?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "I have no idea what's going onnn!!"
+    },
+    {
+      "Text": "[log=마리]\"STOP!!\"[/log]"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Everyone...!"
+    },
+    {
+      "Name": "Mari",
+      "Text": "Please..."
+    },
+    {
+      "Name": "Mari",
+      "Text": "Please stop fighting!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 6;การแข่งขันชี้ขาด"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ B",
+      "Text": "เมื่อกี้เธอเห็นหรือเปล่า...? ที่มีคนขี่มอเตอร์ไซค์ย้อนศรน่ะ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "อืม... ขี่เร็วแบบนั้น ต้องเรียกว่าแว้นเลยละ..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "เท่จัง..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ B",
+      "Text": "ว่าแต่เธอเห็นเหมือนฉันหรือเปล่า... คนที่ขี่มอเตอร์ไซค์น่ะ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ B",
+      "Text": "ใส่ชุด... เหมือน..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "อื้อ... ฉันก็เห็นเหมือนกัน"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนทรีนิตี้ A",
+      "Text": "ซิสเตอร์... ใช่มั้ยนะ...?"
+    },
+    {
+      "Text": "(คุณครูรีบวิ่งมาถึงสถานที่ที่มารีบอกได้ทันเวลา)"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณครู!!"
+    },
+    {
+      "Text": "[ns1] \"มารี...?\""
+    },
+    {
+      "Text": "[ns2] \"ยังขี่มอเตอร์ไซค์อยู่เลยนะนั่น...!\""
+    },
+    {
+      "Name": "มารี",
+      "Text": "ขอโทษที่จู่ๆ ก็เรียกตัวมาค่ะคุณครู! แต่นี่เป็นเรื่องด่วนมากจริงๆ...!"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ถะ... ถ้าคุณครูไม่ว่าอะไร... ช่วยไปกันฉันได้มั้ยคะ? ฉันจะพาไปที่จัตุรัสทรีนิตี้ค่ะ!"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ถ้ามีคุณครูอยู่ด้วย ฉันว่าเราน่าจะป้องกันไม่ให้เกิดเหตุไม่คาดฝันได้..."
+    },
+    {
+      "Text": "[s3] \"เอาไว้อธิบายทีหลัง ตอนนี้รีบไปก่อนเถอะ!\""
+    },
+    {
+      "Text": "[s4] นั่งซ้อนท้ายมอเตอร์ไซค์"
+    },
+    {
+      "Name": "มารี",
+      "Text": "...!!"
+    },
+    {
+      "Name": "มารี",
+      "Text": "จะไปแล้วนะคะ...! จับให้ดีๆ ค่ะ!!"
+    },
+    {
+      "Name": "???",
+      "Text": "อะไรกัน เกิดเรื่องอะไรเหรอ? ทำไมคนถึงเยอะจัง?"
+    },
+    {
+      "Name": "???",
+      "Text": "เธอไม่ได้ยินหรอกเหรอ? เห็นเขาลือกันว่าอีกไม่นานจะมีการดวลกันตรงนี้น่ะ จะรวมชมรมกันด้วยนะ!"
+    },
+    {
+      "Name": "???",
+      "Text": "จริงเหรอ...!? นี่คืออีเวนต์ของงานเหรอ? แล้วทำไมต้องมาดวลกันวันนี้ด้วย? งานเทศกาลโรงเรียน\nกำลังสนุกเลยนะ"
+    },
+    {
+      "Name": "???",
+      "Text": "ก็เพราะว่าเป็นวันงานเทศกาลยังไงล่ะ... จะได้ประกาศต่อหน้าทุกคนไปเลย"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "หะ... หืม...? มีเรื่องอะไรเหรอคะ..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "จะดวลกันเหรอคะ ฉันไม่เคยได้ยินอะไรแบบนั้นมาก่อนเลย...!?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "แต่มันก็ฟังดูสมเหตุสมผลนะ คงไม่มีเวลาไหนที่จะเหมาะสมกับการเลือกผู้นำของกลุ่มไปกว่าเวลานี้\nอีกแล้วละ"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "แถมจะเลือกผ่านการดวลอีก... เป็นวิธีที่ชัดเจนและโปร่งใสที่สุดเลย"
+    },
+    {
+      "Name": "โคฮารุ",
+      "Text": "พูดอะไรน่ะ!? ไม่เห็นจะสมเหตุสมผลเลย! แบบนี้มันแปลกนะ! ต้องมีอะไรผิดพลาดแล้วละ!!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "สุดยอดเลย..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "คนพวกนั้นทำเรื่องเล็กน้อยให้เป็นเรื่องใหญ่ได้ถึงขนาดนี้เลยนะคะเนี่ย"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "หรือนี่อาจจะเป็นการตัดสินใจที่โง่เขลาก็ได้..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮุฮุ... แต่ก็น่าสนุกดีนะคะ ฉันว่าเราไปดูพวกนั้นดวลกันก็ไม่น่าจะแย่ไปเสียทีเดียวหรอกค่ะ"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "นะ... น่าสนุกงั้นเหรอคะ...?"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "นี่มันอะไรกันน่ะ... ฉันไม่เห็นรู้เรื่องนี้มาก่อนเลย"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "จริงเหรอ? ได้ติดต่อท่านซากุระโกะหรือยัง?"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "ฉะ... ฉันก็พยายามติดต่อตั้งแต่เมื่อกี้แล้ว แต่ท่านซากุระโกะก็ไม่รับสายเลย..."
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "โทรไปไม่รับ ส่วนข้อความก็ไม่ตอบด้วย เหมือนเป็นการตั้งใจอย่างนั้นละ"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "ทำไมล่ะ... จะเกิดเรื่องใหญ่จริงๆ เหรอเนี่ย!?"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "บางทีอาจมีคำสั่งลับให้กับสมาชิกแค่บางคนก็ได้นะ"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "นี่เป็นเรื่องของท่านซากุระโกะ พวกเราคงไปรับรู้ทุกอย่างไม่ได้หรอก"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "แต่ถ้าหากว่า..."
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "ถ้านี่เป็นเรื่องจริงละก็... ถ้าท่านซากุระโกะต้องดวลกับหัวหน้ามิเนะจริงๆ..."
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "แล้วท่านซากุระโกะของเราจะไปชนะได้ยังไงล่ะ!? อีกฝ่ายเป็นถึงหัวหน้ามิเนะเลยนะ!!"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "นะ... นั่นสิเนอะ ถ้างั้น..."
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "บางทีพวกเราอาจต้องเตรียมแผนการอะไรไว้รอก็ได้..."
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "...!!"
+    },
+    {
+      "Name": "ฮานาเอะ",
+      "Text": "ระ... เรื่องชักจะแปลกๆ แล้วนะคะเนี่ย?"
+    },
+    {
+      "Name": "ฮานาเอะ",
+      "Text": "จะมีการดวลอย่างนั้นเหรอคะ... หัวหน้ามิเนะเคยพูดอะไรอย่างนั้นด้วยเหรอคะ?"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "ก็ไม่นะคะ ฉันเองก็เพิ่งได้ยินพร้อมทุกคนเลยค่ะ..."
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "ถึงนี่จะเป็นสถานการณ์ที่พวกเราคุ้นเคย แต่หัวหน้ามิเนะก็ไม่น่าทำเรื่องแบบนั้นนะคะ"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "ฉันว่าต้องมีเรื่องเข้าใจผิดอะไรกันแน่ๆ..."
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "วะ... ว้ายยย! จะ... ใจเย็นๆ ก่อนนะคะ ใจเย็นก่อนค่ะ อัศวินทุกคน!!"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "เราไม่ได้จะสู้กันนะคะ พวกเราไม่ได้มารวมตัวกันเพื่อไปต่อสู้ค่ะ! ทุกคนสงบสติอารมณ์ก่อน...!!"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "เอ๋? คนพวกนั้น...?"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "คะ..."
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "คุณนางิสะ... จากสภาน้ำชา...! ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นะ... นี่... นางิจัง...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "จริงเหรอ? นี่เรื่องจริงเหรอ? ฉันว่ามันแปลกๆ นะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "พวกนั้นไม่น่าจะมาต่อสู้กันในวันแบบนี้และในที่แบบนี้สิ คงจะลือกันปากต่อปากจนข้อมูลบิดเบือนแน่ๆ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ยิ่งพวกเรามาที่นี่แล้วด้วย บรรยากาศก็จะยิ่งแปลกไปอีก ลองคิดดูใหม่เถอะนะ นางิจัง...?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "สภาน้ำชาต้องเตรียมรับมือสถานการณ์ที่คาดไม่ถึงเสมอค่ะ และจากสิ่งที่เกิดขึ้นในตอนนี้ ฉันว่าสถานการณ์ที่คาดไม่ถึงมันยิ่งชัดเจนขึ้นเรื่อยๆ แล้วค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะไม่เห็นกองกำลังของชมรมซิสเตอร์กับชมรมอัศวินบรรเทาทุกข์ที่รวมตัวกันอยู่ทางโน้นเหรอคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถึงจะทำเหมือนเป็นการดวลที่ใสสะอาด แต่หากมีอะไรผิดพลาดก็จะใช้แผน B ในการใช้กำลังล้มล้าง\nอีกฝ่าย คุณมิกะดูไม่ออกเหรอคะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นี่คือปัญหาใหญ่ที่จะนำไปสู่สงครามกลางเมืองในทรีนิตี้ได้เลยนะคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "การก่อเหตุการณ์แบบนี้ในวันที่มีความหมายเช่นนี้เป็นสิ่งที่โฮสต์ของสภาน้ำชายอมรับไม่ได้ค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ในเมื่อเป็นเช่นนี้ คุณมิกะต้อง..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉะ... ฉันเหรอ!?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะไรกัน!? จะให้ฉันออกไปจัดการเหรอ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจัง!? ให้ฉันไปสู้ด้วยจริงเหรอ!? พาฉันมาด้วยเหตุผลแบบนี้น่ะเหรอ!?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ทั้งหมดก็เพื่อความสงบสุขของโรงเรียนสามัญทรีนิตี้ค่ะ! คุณคือกำลังของสภาน้ำชาไม่ใช่เหรอคะ!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ไม่นะ ไม่! ไม่เอาๆๆๆ!!!!!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันไม่ชอบอะไรแบบนี้เลยนะ! นึกไม่ถึงด้วยซ้ำว่าต้องมาทำอะไรแบบนี้! ตอนนี้ฉันไม่ได้อยู่ในตำแหน่ง\nแบบนั้นด้วยนะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "บ้าไปแล้วแน่ๆ!! ขอร้องละ นางิจัง!? ตั้งสติเถอะน่า! นะ!?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ไม่ได้การละ คงต้องติดต่อคุณครู...!!!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "มาถึงพอดีเลยนะคะ ต้นเหตุของเรื่อง..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มาตรงเวลาดีนะคะ คุณซากุระโกะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ได้ไปคิดทบทวนมาหรือยังคะ? แล้วเวลาเพียงพอหรือเปล่า?"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "ไปคิดมาแล้วแน่นอนค่ะ เรื่องสำคัญขนาดนี้ ฉันจะมาช้าแบบไม่มีคำตอบได้ยังไงกันคะหัวหน้ามิเนะ?"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "นี่เป็นการพบกันครั้งสำคัญ..."
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "ที่เราจะตัดสินใจเลือกผู้นำคนใหม่ของพวกเราเลยนะคะ"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "แต่ก็แปลกจังเลยนะคะ มีคนมารวมตัวกันมากกว่าปกติเสียอีกค่ะ"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "ซิสเตอร์จากชมรมซิสเตอร์... ก็มาอยู่ที่นี่กันเยอะเลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "นั่นสินะคะ สมาชิกของชมรมอัศวินบรรเทาทุกข์เองก็มาอยู่ที่นี่กันเยอะเลยด้วย มีเรื่องอะไรกันเหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันว่าเราควรไปถามสักหน่อย..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ไม่อยากจะเชื่อเลยนะคะว่าจะเป็นเรื่องจริง..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "พวกคุณมีมุมที่กล้าหาญมากกว่าที่ฉันคิดไว้เยอะเลยนะคะ ชมรมซิสเตอร์ ชมรมอัศวินบรรเทาทุกข์"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "โฮสต์ของสภาน้ำชา...? คุณนางิสะ...?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ทำไมคนที่ควรจะงานยุ่งกับงานของโรงเรียนถึงมาอยู่ในที่แบบนี้ล่ะคะ...?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "น่าตกใจจริงๆ เลยนะคะ สถานการณ์มาถึงขนาดนี้แล้วยังแกล้งทำเหมือนไม่รู้อีก? หรือพวกคุณคิดว่า\nฉันเป็นคนโง่กันคะ?"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "...?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ว่ายังไงนะคะ...?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ในฐานะของโฮสต์ของสภาน้ำชา ฉันขอถามพวกคุณอย่างเป็นทางการค่ะว่าพวกคุณมาทำอะไรกันที่นี่"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ทำไมถึงมารวมตัวกันที่นี่ในตอนนี้คะ? ช่วยตอบอย่างทันทีด้วยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณไม่ได้ถามในฐานะประธานคณะกรรมการจัดการเทศกาลแต่ถามในฐานะของ \"โฮสต์ของสภาน้ำชา\" เหรอคะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ใช่ค่ะ มีปัญหาอะไรเหรอคะ...?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ไม่ค่ะ... ไม่มีค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "นั่นสินะคะ เข้าใจแล้วค่ะ ถ้าอย่างนั้นฉันก็จะตอบให้ค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "\"เรื่องนี้ไม่เกี่ยวกับคุณค่ะ คุณคิริฟุจิ นางิสะ โฮสต์ของสภาน้ำชา\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "...!!!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ดะ... เดี๋ยวก่อนสิ นางิจัง เดี๋ยวก่อน! ฉันว่ามันแปลกๆ นะ! ต้องมีการเข้าใจอะไรผิดกันแน่นอน!! "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เราลองฟังเรื่องจากพวกเธอต่ออีกหน่อย..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "มิกะ!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ๊าาาา~!! ขอร้องละ นางิจัง! "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮึ่ย...!! ฉัน... ฉันไม่รู้ด้วยแล้ว...!! ไม่ว่าจะเป็นยังไงฉันก็ไม่รู้ด้วยแล้ว!!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "อะไรกันคะ...?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "บรรจุกระสุนทำไมคะ? ทุกคนกำลังมองอยู่นะคะ คิดจะทำอะไรกลางจัตุรัสในกลางวันแสกๆ แบบนี้คะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "พวกคุณเสียสติไปแล้วจริงๆ เหรอคะ สภาน้ำชา?!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "งั้นก็ดีค่ะ! ถึงจะไม่รู้สาเหตุ แต่ฉันก็จะตอบรับความต้องการนั้นให้ค่ะ!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เตรียมตัวเลยค่ะ คุณซากุระโกะ ไหนๆ สมาชิกคนอื่นก็มาอยู่ที่นี่กันแล้วด้วย"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "คะ...? คะ!? ฉันเหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เร็วๆ ค่ะ!!"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "อะ... เอ่อ...! ค่ะ!? หืมมม...!?"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "อะ... อะไรกันคะ? ทำไมถึงกลายเป็นแบบนี้ไปได้คะ?"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ A",
+      "Text": "ตั้งใจทำให้เกิดสถานการณ์แบบนี้เองสินะคะ ท่านซากุระโกะ!!"
+    },
+    {
+      "Name": "นักเรียนชมรมซิสเตอร์ B",
+      "Text": "ทุกคนเตรียมตัวต่อสู้!!!"
+    },
+    {
+      "Name": "สมาชิกชมรมอัศวินบรรเทาทุกข์ A",
+      "Text": "เตรียมพร้อมต่อสู้เต็มกำลัง!!"
+    },
+    {
+      "Name": "เซรินะ",
+      "Text": "อะ... เอ๋!?!?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นี่มันการปฏิวัติชัดๆ เลยค่ะ!!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ไม่ค่ะ! นี่คือการต่อต้านเผด็จการค่ะ!!"
+    },
+    {
+      "Name": "ซากุระโกะ",
+      "Text": "ทำไมเรื่องแบบนี้ต้องเกิดแต่กับฉันตลอดเลยคะ!?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันไม่รู้ด้วยแล้ววววว~~~!!!"
+    },
+    {
+      "Text": "[log=마리]\"เดี๋ยวก่อนค่ะ!!!\"[/log]"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ทุกคนคะ...!!"
+    },
+    {
+      "Name": "มารี",
+      "Text": "ทั้งหมด..."
+    },
+    {
+      "Name": "มารี",
+      "Text": "หยุดสู้กันเถอะค่ะ!!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第6話;頂上決戰"
+    },
+    {
+      "Name": "三一學生B",
+      "Text": "剛才那台逆向的機車……你有看到嗎？"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "嗯……速度超快的……"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "好帥……"
+    },
+    {
+      "Name": "三一學生B",
+      "Text": "不過剛才騎著那輛車的人……"
+    },
+    {
+      "Name": "三一學生B",
+      "Text": "看他的穿著……好像……"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "嗯……我也看到了。"
+    },
+    {
+      "Name": "三一學生A",
+      "Text": "是修女……對吧？"
+    },
+    {
+      "Text": "（急忙趕到了瑪麗說的地點）"
+    },
+    {
+      "Name": "???",
+      "Text": "老師──！！"
+    },
+    {
+      "Text": "[ns1]「瑪麗……？」"
+    },
+    {
+      "Text": "[ns2]「真的騎著機車……」"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "突然請您過來真的很抱歉，老師！不過情況真的很緊急……！"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "如果可以的話……能跟我一起去三一廣場嗎？\n我會帶您去的！"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "只要老師在場，應該就能防止不幸的情況發生……"
+    },
+    {
+      "Text": "[s3]「之後再解釋也沒關係，走吧！」"
+    },
+    {
+      "Text": "[s4] 坐上機車的後座"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "……！！"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "……那麼我要出發了！請您抓緊我！！"
+    },
+    {
+      "Name": "???",
+      "Text": "怎麼了怎麼了？為啥這麼多人？"
+    },
+    {
+      "Name": "???",
+      "Text": "你沒聽說嗎？\n不久後這裡會發生統一兩大社團的決鬥哦！"
+    },
+    {
+      "Name": "???",
+      "Text": "真的假的……！？這也是活動的一環嗎？\n不然為什麼會選今天啊？現在正值學園祭耶？"
+    },
+    {
+      "Name": "???",
+      "Text": "也可能是刻意選在這種時候……好讓眾人一起見證吧。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "那，那個……這是怎麼回事……？"
+    },
+    {
+      "Name": "日步美",
+      "Text": "突然要決鬥什麼的，我從來沒聽說過啊……！？"
+    },
+    {
+      "Name": "梓",
+      "Text": "這也不無道理。\n要選擇聯合組織的領導者，沒有比這更合適的時機了。"
+    },
+    {
+      "Name": "梓",
+      "Text": "而且決鬥……是最確實且無後顧之憂的方法。"
+    },
+    {
+      "Name": "小春",
+      "Text": "你在說什麼啊！？這既奇怪又不合理吧！\n一定是有什麼誤會！！"
+    },
+    {
+      "Name": "花子",
+      "Text": "雖然是這麼說沒錯……"
+    },
+    {
+      "Name": "花子",
+      "Text": "不過考慮到是他們兩個人，確實有可能把小事情鬧到這種地步。"
+    },
+    {
+      "Name": "花子",
+      "Text": "又或者實際情況其實更加荒唐……"
+    },
+    {
+      "Name": "花子",
+      "Text": "……呵呵。\n反正應該會很有趣，我們就先在一旁靜觀其變吧。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "會，會有趣嗎……"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "這，這到底是什麼情況……我從來沒聽說過這種事啊。"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "這件事是真的嗎？聯絡上櫻子大人了沒？"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "我，我一直在嘗試，但就是聯絡不上……"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "不只完全不接電話，就連訊息也沒有回覆……感覺似乎是刻意這麼做的。"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "怎麼會……所以真的要發生大事了嗎！？"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "或許是只有部分人員才知道的祕密指令。"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "畢竟櫻子大人的打算，我們不可能全盤了解。"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "但如果……"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "如果這是真的……\n櫻子大人真的要和美禰團長決鬥的話……"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "根本就沒有勝算吧！？\n對手可是那個美禰團長耶！！"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "是，是啊。所以……"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "也許我們需要準備其他計劃……"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "……！！"
+    },
+    {
+      "Name": "花繪",
+      "Text": "事，事情好像變得越來越奇怪了？"
+    },
+    {
+      "Name": "花繪",
+      "Text": "居然要決鬥什麼的……美禰團長有說過這種話嗎？"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "我也是第一次聽說……"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "雖然莫名有股熟悉的感覺……但即使是團長，這也很奇怪。"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "可能是有哪裡誤會了……"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "哇啊啊……！\n騎，騎士團的各位，請冷靜一點！！"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "我們不是來這裡打架的！大家先冷靜下來……！！"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "咦，那些人是……"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "茶……"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "茶會的……渚大人！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "那，那個……渚醬……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "你是認真的嗎？\n我怎麼想都覺得不對……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "他們再怎麼樣也不會挑這種日子在這種地方打架的……一定是謠言啦。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我們在這裡反而會讓氣氛更奇怪的。\n還是再考慮一下吧？渚醬……？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……彌香同學。"
+    },
+    {
+      "Name": "渚",
+      "Text": "茶會必須隨時做好應對突發事件的準備。\n而現在，真相已逐漸浮出水面。"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學，你沒看到那邊聚集的修女會和救護騎士團的兵力嗎？"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然表面上看似是場正大光明的決鬥，但一旦計劃失敗則勢必會訴諸武力。"
+    },
+    {
+      "Name": "渚",
+      "Text": "屆時，三一學園將可能發生內戰。"
+    },
+    {
+      "Name": "渚",
+      "Text": "因此就像你說的一樣──\n身為茶會的主席，無法容許在如此重要的日子發生這種事。"
+    },
+    {
+      "Name": "渚",
+      "Text": "萬一場面失去控制，這裡就由彌香同學……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……我，我！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "咦！？要我上場嗎……？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬真的要我動手！？你帶我來是為了這個嗎！？"
+    },
+    {
+      "Name": "渚",
+      "Text": "一切都是為了三一綜合學園的和平！你可是茶會的最強戰力啊！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不，不！不不不！！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我不要，絕對不要！！我完全沒想過要做這種事耶！？\n而且我現在也不在原本的位置上呀！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "你該不會是撞壞腦袋了吧！\n算我求你了，渚醬！拜託你清醒一點！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "這樣下去不行，得趕快聯絡老師……！！！"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……當事人終於到場了呢。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……你來得真準時呢，櫻子同學。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "已經得出結論了嗎？時間是否足夠充裕？"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "那當然。\n如此重要的場合可不能遲到呢，美禰團長。"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "畢竟我們現在……"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "可是要決定新的領導者啊。"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "不過還真奇怪。\n人潮似乎比平時多了不少。"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "修女會的修女們也都來了。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "是啊，就連救護騎士團的大家也是。\n發生什麼事了嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "不如先問問情況吧……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……沒想到這竟然是真的。"
+    },
+    {
+      "Name": "渚",
+      "Text": "看來修女會和救護騎士團的兩位，比我想像中還要大膽呢。"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "茶會的主席……？渚同學？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "本應忙於學園祭營運管理的渚同學，為何會跑來這裡……？"
+    },
+    {
+      "Name": "渚",
+      "Text": "真讓人驚訝。\n事到如今居然還裝作一無所知的樣子……是想把我當傻子耍嗎？"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "……？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……這是什麼意思？"
+    },
+    {
+      "Name": "渚",
+      "Text": "在此我以茶會主席的身分，正式詢問二位前來的目的。"
+    },
+    {
+      "Name": "渚",
+      "Text": "聚集於此所為何事？請兩位立即回答。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……你剛才說，是以「茶會主席」的身分提問，而不是「學園祭營運委員會會長」？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……是的，有什麼問題嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……我明白了。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "那麼這個問題就由我來回答吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "這件事與您無關──茶會主席．桐藤渚大人。"
+    },
+    {
+      "Name": "渚",
+      "Text": "…………"
+    },
+    {
+      "Name": "渚",
+      "Text": "…………！！！"
+    },
+    {
+      "Name": "渚",
+      "Text": "……彌香同學！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不不不，渚醬等等！這樣真的不對啦！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "再多談個幾句也……"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊啊啊～！！拜託饒了我吧，渚醬！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "唔唔……！！\n真，真是的……！！後果會怎樣我可不管哦！！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……什麼？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "你現在是在裝填子彈嗎？\n在這廣場中央，還是在眾目睽睽之下……？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "你們已經失去理智了嗎，茶會！！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "既然如此也沒辦法了！\n雖然不太清楚事情的緣由，但我接受你的挑釁！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "做好準備吧，櫻子同學。\n其他成員也是！"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "……什，什麼！？我嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "動作快！！"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "那，那個……！？\n咦咦咦……！？"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "這是怎麼回事？為什麼事情突然變成這樣？"
+    },
+    {
+      "Name": "修女會學生A",
+      "Text": "果然沒錯！櫻子大人是刻意將事情引導到這個局面的！！"
+    },
+    {
+      "Name": "修女會學生B",
+      "Text": "全員做好戰鬥準備──！！！"
+    },
+    {
+      "Name": "救護騎士團團員A",
+      "Text": "全體成員進入戰鬥狀態──！！"
+    },
+    {
+      "Name": "芹奈",
+      "Text": "咦咦咦咦咦──！？"
+    },
+    {
+      "Name": "渚",
+      "Text": "這顯然是場政變！！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "不！這是對暴政的反抗！！"
+    },
+    {
+      "Name": "櫻子",
+      "Text": "為什麼我老是會遇到這種事！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我不管了啦～～～！！！"
+    },
+    {
+      "Text": "[log=마리]等等！！！[/log]"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "大家……！！"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "所有人……"
+    },
+    {
+      "Name": "瑪麗",
+      "Text": "請停止戰鬥！！"
+    }
+  ]
+}

@@ -1,0 +1,2582 @@
+{
+  "TitleJP": "決着（２）",
+  "TitleKR": "마지막 결착! 2",
+  "TitleEN": "The Final Confrontation! Part 2",
+  "TitleTH": "บทสรุปสุดท้าย! (2)",
+  "TitleTW": "了結（２）",
+  "DescJP": "罠によってすべての生徒を排除し、D.U.全体を混乱に陥れ、ようやく先生と対面するワカモ。そしてワカモは、先生にチョコレートを渡した。どうやら一目惚れだったらしい。",
+  "DescKR": "자신을 가로막는 방해물을 전부 뛰어넘어 마침내 선생님 앞에 도착한 와카모. 그렇게 선생님이 와카모에게 해코지당할 것을 각오한 순간, 알고 보니 와카모는 처음부터 발렌타인 데이 초콜릿을 건네주기 위해 선생님에게 접근했다는 것이 밝혀진다.",
+  "DescEN": "Against all odds, Wakamo manages to clear all obstacles in her way and finally comes face-to-face with Sensei. Sensei braces for an attack, but it turns out that Wakamo's plan all along was to present Sensei with Valentine's Day chocolates.",
+  "DescTH": "วาคาโมะข้ามทุกอย่างที่กีดขวางตัวเองแล้วมาหยุดอยู่ตรงหน้าคุณครู\nคุณครูระวังตัวเพราะคิดว่าอาจจะโดนวาคาโมะรังแกก็ได้ แต่สุดท้ายก็ได้รู้ว่าที่\nวาคาโมะเข้าหาตนเป็นเพราะเธอต้องการมอบช็อกโกแลตวันวาเลนไทน์ให้",
+  "DescTW": "若藻越過了試圖阻撓她的無數障礙，並且再次來到了老師的面前。就在老師做好即將被若藻大卸八塊的覺悟時，他才得知若藻從一開始就只是為了將情人節巧克力拿給他，才會不惜一次又一次接近他。",
+  "DialogJP": [
+    {
+      "Name": "セナ",
+      "Text": "「七囚人」……でしたか。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "今度は矯正局から脱出の知らせさえ無いまま、こうして姿を現すとは。やはり侮れませんね。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "ですが、今度こそ終わりです。先生の指揮もあって既に他の問題児たちは無力化、装備も無効化してあります。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "覚悟は良いですか、災厄の狐。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……！"
+    },
+    {
+      "Name": "セナ",
+      "Text": "窮地に追い込まれたと分かるや否や、逃走ですか？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……良いでしょう。これ以上死体……"
+    },
+    {
+      "Name": "セナ",
+      "Text": "いえ、負傷者を増やすわけにはいきません。こうなったら、一対一で。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "先生、私はこのまま災厄の狐を追います。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "この辺りは片付きましたが、どこからか問題児たちの残党が来てもおかしくありません。できるだけ早めにヴァルキューレの生徒たちとの合流を。"
+    },
+    {
+      "Text": "[s] \"あ、セナ……！\""
+    },
+    {
+      "Text": "（セナはすごい勢いで、ワカモの後を追いかけていった）"
+    },
+    {
+      "Text": "（少しの間、この後どう動くべきかについて悩んでいた時）"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "先生大丈夫！？怪我は！？"
+    },
+    {
+      "Text": "[s] \"うん、大丈夫。チヒロの方は？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……待って。もしかして今、ひとり？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "一緒にいたゲヘナの子は？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……一対一で追撃？やられたっ……！"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "最初っからワカモの狙いはこれだった。わざと騒ぎを大きくして、ありとあらゆる目を自分に向けさせて……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "いや、詳しく説明してる場合じゃない。先生、落ち着いて私の指示に従って。今その辺りのシステムをハッキングしたから。"
+    },
+    {
+      "Text": "[s] \"ハッキング！？そんな簡単に！？\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "このまま監視カメラとか信号を利用して、先生を安全な区域に誘……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "…………い、………通し……………………"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……聞…………場…………………………"
+    },
+    {
+      "Text": "[ns] \"通信が……。\""
+    },
+    {
+      "Text": "（チヒロとの連絡が途絶え途絶えになり、次に取るべき行動を悩んでいたが……）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ふふっ、ようやく見つけました……♡"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Text": "（同時刻、別の場所では……）"
+    },
+    {
+      "Name": "ヴァルキューレの生徒A",
+      "Text": "D.U.の商店街地区で「災厄の狐」が出没！本部の支援を要請する！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒A",
+      "Text": "他の問題児たちまで大量に現れてて、現場の戦力だけじゃとても……！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒B",
+      "Text": "こちらD.U.西地区！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒A",
+      "Text": "西地区、繋がった！ちょうど良かった、こちらに支援を……！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒B",
+      "Text": "西地区にて、矯正局から姿を消した「災厄の狐」が出現！手遅れになる前にどうか支援を……！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒A",
+      "Text": "……えっ！？"
+    },
+    {
+      "Name": "ヴァルキューレの生徒B",
+      "Text": "繰り返す、こちら西地区！目の前にワカモが……！"
+    },
+    {
+      "Name": "ヴァルキューレの生徒C",
+      "Text": "どういうこと！？災厄の狐は今D.U.の中央通りに……！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "ふ、フブキ！これは……！？"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "ああもう、何これ！っていうか多分これは全部……！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "うん、全部「偽物」のはず。ワカモは最初からこれを狙って、矯正局の脱獄を試みたんだ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "みんなの視線を逸らして、誰にも邪魔されない形で先生と対峙するために……！"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "……はいぃっ！？"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "今すぐ先生に連絡を……！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "無理。こっちからの通信は全部妨害されてる。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "災厄の狐、一体どうやってあんな複雑なジャミングを……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "……あ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ねぇ、ちょっと。今の「あ」ってもしかして……。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "いや、もうそんなこと言ってる場合じゃないね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "連絡がつかない以上、もう手段は他に無い。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "運転、できるでしょ？"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "……私？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ふふっ……♡これでしばらくは、遠距離から騒がしくされる心配もございません。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "何となく奪ってきたものだったのですが、ヴァルキューレ警察学校の装備はなかなか便利ですねぇ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そうは思いませんか、先生？"
+    },
+    {
+      "Text": "[s] \"ワカモ……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あぁ、この瞬間をどれだけ待ち望んだことか。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "本当に、かなりの時間がかかってしまいましたね……あなた様の傍にはいつも誰かがいて、だいぶ苦労してしまいました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "本当に、あちこちから邪魔されてばかりで……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "何度も考え、策を練りました。どうすれば、あなたの元へ近づけるのか……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "誰からの邪魔もされずにこうしてあなた様の目の前に立つために、何をすれば良いのかと。"
+    },
+    {
+      "Text": "[s] \"そのために、ヴァルキューレを……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ふふっ。最大限派手に暴れまわり、私に視線を集中させる。注目が集まるようできるだけ派手に、華麗に、強烈に。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "重ねに重ねて、ようやくです。やっとあなた様の元へ辿り着きました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あぁ、そろそろ耐えられそうにありません……。"
+    },
+    {
+      "Text": "[ns] \"……っ！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ようやく、私の願いが成就します……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "先生、どうかこれを……。"
+    },
+    {
+      "Text": "[s] \"……これ、チョコレート？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい♡あなた様のためだけに用意した、私からのチョコレートです♡"
+    },
+    {
+      "Text": "[s] \"これって……。\""
+    },
+    {
+      "Name": "フブキ",
+      "Text": "まぁ、せっかくのバレンタインデーだからね。チョコレートを渡して、渡し合って、幸せを感じられる日。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "はい、何せバレンタインデーは大切な日。それぞれが胸に秘めた大事な思いを形にする特別な日ですから。"
+    },
+    {
+      "Text": "[ns] \"つまり、そういう……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "一目惚れなんです……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモ、あなた様を初めて一目見た時から……ずっとずっとあなた様のことを恋しく思い、その溢れんばかりの想いをやっとの思いで抑えてまいりました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そしてようやくこうして二人っきりで、"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様にチョコレートをお渡しできるタイミングが……！"
+    },
+    {
+      "Text": "[s] \"全部、このチョコを渡すために……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい♡"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Text": "[s1] \"……これはありがたく受け取るね、すごく嬉しい。\""
+    },
+    {
+      "Text": "[s2] \"でも色々やり過ぎ！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あぁ……っ！そこまで言ってくださるなんて……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "仕方ないこととはいえ、もっと早く行動に移せなかった自分を恨みます。そうすればもう少し早く、こうしてあなた様とお話が出来ましたのに……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ふふっ、ふふふふっ……。"
+    },
+    {
+      "Text": "[s3] \"でもね、ワカモ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s4] \"こういうやり方は困るから、あんまり良くないと思うよ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "えっ……こ、困る、ですか？"
+    },
+    {
+      "Text": "[s5] \"こういう方法は、間違ってる。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ま、間違ってる……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "え、えぇっ……！？"
+    },
+    {
+      "Text": "[ns6] \"今日あちこちで色んな騒ぎになって。\""
+    },
+    {
+      "Text": "[ns7] \"それで、色んな人が怪我したよね。\""
+    },
+    {
+      "Text": "[ns8] \"そういうのは、あんまり良くないと思う。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……！？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "で、ですが先生……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "バレンタインデーと云うものは、自分の気持ちを素直に、そして全力でお伝えする日だと伺いました！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私はただ、この想いをどうにかお伝えしたくって……！"
+    },
+    {
+      "Text": "[s] \"それは本当に嬉しい、でも他人に被害を与えるやり方はダメだよ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "わ、私は……！"
+    },
+    {
+      "Text": "[s9] \"今日、ワカモと同じことを考えてる人がたくさんいたと思う。\""
+    },
+    {
+      "Text": "[s10] \"その機会を失っちゃった人だって、もしかしたらいるかもしれない。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……っ！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……っ！"
+    },
+    {
+      "Text": "[s] \"それを無視されると、私もこれを喜んで受け取れない。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……っ！？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そ、そんな……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私はただ、あなた様のことが……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それを、喜んでいただけなくなる……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "だ、ダメ、ダメです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それは、だって、あなた様に嫌われては、私は、私は……！"
+    },
+    {
+      "Text": "[s] \"……これからは、違うやり方を考えられるって信じてるよ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "！！！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "信じて、くださるのですか……？過ちを犯した私を、嫌わずに、いてくださるのですか……？"
+    },
+    {
+      "Text": "[s11] \"一回でダメなんてことは言わないよ、ワカモも大切な生徒だから。\""
+    },
+    {
+      "Text": "[s12] \"これからは頑張るって、約束してほしいな。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私が、先生の……大切な、生徒……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あ、あぁ……も、もちろん、もちろんです！はい！きっと、いえ必ずや！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモあなた様に、先生に誓います！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "これからは絶対に……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "先生がやるなと言われるのでしたら、そういったことは決して致しません……！"
+    },
+    {
+      "Text": "[s] \"じゃあ、約束。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい、約束です……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あぁ、先生……私の先生……♡"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "また、私と先生の大事な時間を邪魔しようとする輩が……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ですが……約束、致しましたから。あなた様と私の交わした、二人だけ約束……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "これさえあれば私、たとえ再びここで別れることになろうとも、きっと耐えてみせます。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "では、またすぐお迎えに上がりますね。先生。"
+    },
+    {
+      "Text": "[s] \"あ、うん……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ふふっ。また再会できる時を、心待ちにしておりますね。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "たとえ身体は離れても……あなた様のこと、心よりお慕いしておりますので♡"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "先生、無事！？"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "あっ、フブキあそこです！災厄の狐さんが逃げて……！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "逃がすかぁ！待てーーーーっ！"
+    },
+    {
+      "Text": "（そうして再び騒がしくなる中で、しばらくの間ワカモがくれたチョコレートをじっと見つめていた）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "세나",
+      "Text": "과연 일곱 죄수라 불릴 정도의 문제아."
+    },
+    {
+      "Name": "세나",
+      "Text": "교정국의 탈출 소식조차 없이 홀연히 나타나다니, 제법이로군요."
+    },
+    {
+      "Name": "세나",
+      "Text": "하지만 선생님의 지휘 덕분에 다른 문제아들은 쓰러졌고, 탈취했던 장비도 무력화했습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "이것으로 상황은 마무리 단계입니다. 재액의 여우."
+    },
+    {
+      "Name": "와카모",
+      "Text": "……!"
+    },
+    {
+      "Name": "세나",
+      "Text": "궁지에 몰린 순간, 도주를 택하는 겁니까? "
+    },
+    {
+      "Name": "세나",
+      "Text": "……좋습니다. 여기서 더 이상 시체…… "
+    },
+    {
+      "Name": "세나",
+      "Text": "실례, 부상자를 늘리지 않기 위해서라도 결착을 내는 것이 좋겠지요."
+    },
+    {
+      "Name": "세나",
+      "Text": "선생님, 저는 이대로 재액의 여우를 쫓겠습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "근처에 혹시 문제아 잔당이 남아있을지 모르니, 부디 선생님께선 우선 발키리 학원 학생과 합류해 주시길."
+    },
+    {
+      "Text": "[s] \"잠깐, 세나……!\""
+    },
+    {
+      "Text": "(그렇게 세나는 결연한 표정을 짓고는 도주하는 와카모를 쫓아 사라졌다.)"
+    },
+    {
+      "Text": "(와카모가 사라진 지금, 잠시나마 앞으로 어떻게 움직여야 할까. 잠시 고민하고 있을 무렵.)"
+    },
+    {
+      "Name": "치히로",
+      "Text": "선생님, 괜찮아?! 어디 다친 데는 없어?!"
+    },
+    {
+      "Text": "[s] \"응, 치히로? 어쩐 일이야? 심각한 얼굴로.\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "잠깐, 혹시 지금 혼자야? 같이 있던 게헨나 아이는?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "뭐? 와카모를 쫓아서 추격을……?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "안돼. 선생님. 당했어! 그건 함정이야!"
+    },
+    {
+      "Text": "[s] \"함정……?\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "처음부터 와카모는 이걸 노리고 양동을 계획한 거였어. 일부러 소란을 피워, 치안 조직의 시선을 자기에게 집중시키는……. "
+    },
+    {
+      "Name": "치히로",
+      "Text": "아니, 지금 당장 상황을 설명할 시간이 없어. 우선 선생님 내 지시에 따라줘. 지금 막 선생님이 있는 위치 근방의 전자 관리 시스템을 해킹했어."
+    },
+    {
+      "Text": "[s] \"자, 잠깐?! 갑자기 해킹?!\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "이대로 CCTV와 신호등을 이용해서 선생님을 안전 구역으로 유도할 테니……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "………생, ……통신……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……말, ……심……!"
+    },
+    {
+      "Text": "[ns] \"어라, 통신이……?\""
+    },
+    {
+      "Text": "(치히로와의 연락이 간헐적으로 끊기며 제대로 이어지지 않는 상황에, 이대로 어떻게 행동해야 할지 고민하는 바로 그때.)"
+    },
+    {
+      "Name": "???",
+      "Text": "후후후, 드디어 찾았습니다♡"
+    },
+    {
+      "Text": "[s] \"……응?\""
+    },
+    {
+      "Text": "(그 시각, 다른 장소에선)"
+    },
+    {
+      "Name": "발키리 학생 A",
+      "Text": "보고한다! 상점가! D.U.의 상점가 지구에서 재액의 여우가 출몰! 본부에 지원 바란다!"
+    },
+    {
+      "Name": "발키리 학생 A",
+      "Text": "다른 문제아들까지 집단으로 끌고 나타나서, 도저히 현장만으로는 대응하기가……!"
+    },
+    {
+      "Name": "발키리 학생 B",
+      "Text": "여기! 여기는 D.U. 서쪽 지구 담당!"
+    },
+    {
+      "Name": "발키리 학생 A",
+      "Text": "아! 서쪽 지구! 마침 잘 됐어! 이쪽이야! 여기 상점가에 지원을……!"
+    },
+    {
+      "Name": "발키리 학생 B",
+      "Text": "서쪽 축제 지구 부근에 교정국에서 모습을 감추었던 재액의 여우가 나타났다! 늦기 전에 부디 이쪽에 지원을 바란다!"
+    },
+    {
+      "Name": "발키리 학생 A",
+      "Text": "……뭐?!"
+    },
+    {
+      "Name": "발키리 학생 B",
+      "Text": "반복한다! 여기 서쪽 지구에 와카모가……!"
+    },
+    {
+      "Name": "발키리 학생 C",
+      "Text": "무슨 소리야! 재액의 여우는 여기! D.U. 중앙대로 쪽에 출몰했다고!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "후, 후부키! 이건……!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "으아아, 무, 무슨 일이야. 이게 다……!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "뻔하잖아. 저건 전부 다 <가짜>야. 와카모는 처음부터 이걸 노리고 교정국의 탈옥을 시도했던 거라고."
+    },
+    {
+      "Name": "치히로",
+      "Text": "모두의 시선을 자신에게 집중시킨 사이, 직접 선생님을 치려고 했던 거겠지!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "……네엣?!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "그럼 얼른 선생님에게 연락을……!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "틀렸어. 내 쪽에서의 통신은 이미 재밍 당하고 있었어."
+    },
+    {
+      "Name": "치히로",
+      "Text": "재액의 여우, 대체 어디서 전파 방해 도구 같은 전문 장비를……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "……아. "
+    },
+    {
+      "Name": "치히로",
+      "Text": "……발키리 학원, 괜찮은 거 맞아?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "아니, 이럴 때가 아니야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이미 연락이 닿지 않는 상황이라면, 이렇게 된 거……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "거기. 차 몰 줄 알지?"
+    },
+    {
+      "Name": "후부키",
+      "Text": "……나?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "후후훗♡ 전파 방해 장치를 작동시켰으니, 더는 시끄럽게 방해받을 일은 없겠지요. "
+    },
+    {
+      "Name": "와카모",
+      "Text": "심심풀이로 탈취한 물건들이지만, 발키리 경찰학교의 장비에도 참으로 편리한 게 많군요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그렇게 생각하시지 않나요? 선.생.님."
+    },
+    {
+      "Text": "[s] \"와카모…….\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 정말 이 순간을 얼마나 기다려왔는지."
+    },
+    {
+      "Name": "와카모",
+      "Text": "정말……. 정말로 오래 걸렸습니다. 당신 곁엔, 언제나 많은 이들이 있어서, 빈틈을 찾기가 너무나 어려웠답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "여기저기서 방해하는 쓰레기들로 인해 제 손이 닿지 않아 애가 타기를 수십, 수백 번."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그래서 고민했답니다. 당신에게 다가가기 위해서 어떻게 해야 할까."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그 누구의 방해도 받지 않고, 당신 앞에 오롯이 저 홀로서기 위해서 대체 어떻게 해야만 할까."
+    },
+    {
+      "Text": "[s] \"그걸 위해서, 발키리를……?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "후훗. 최대한 화려하게 날뛰어서, 이번 축제 내에 선생님 대신 제게 모두의 시선을 집중시킨다. 더는 눈을 떼지 못하도록 더욱더 강렬하게, 화려하게, 모습을 드러낸다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "보다시피 결과는 이렇게. 저는 당신 앞에 도달하는데 성공했답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "자아, 이제 더는 기나긴 말로 시간을 낭비하지 않겠습니다."
+    },
+    {
+      "Text": "[ns] \"……윽!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "이제까지 제가 바라온 일을 드디어……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "선생님, 부디 이걸 받아 주시지 않겠나요?"
+    },
+    {
+      "Text": "[s] \"응? 이건……. 초콜릿?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 당신만을 위해, 그리고 오로지 오늘만을 위해 준비한 저 와카모의 초콜릿이랍니다♡"
+    },
+    {
+      "Text": "[s] \"하, 하지만 왜 갑자기 초콜릿을……. 아!\""
+    },
+    {
+      "Name": "후부키",
+      "Text": "뭐어, 이러니저러니 해도 발렌타인 데이잖아? 초콜릿을 주고받으면서 누구나 행복해지는 날."
+    },
+    {
+      "Name": "세나",
+      "Text": "발렌타인 데이란 각자가 소중한 마음을 품고 초콜릿을 준비하여 선물하는, 무척이나 특별한 날이니까요."
+    },
+    {
+      "Text": "[ns] \"으음, 그러니까. 이건 즉…….\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신께 첫눈에 반했습니다. 선생님."
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와카모, 처음 만난 그날부터, 줄곧 이 가슴속에, 계속해서 당신만을 사무치도록 그리워하며 이제까지 간신히 견뎌왔습니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그리고 이렇게 드디어 당신께 제 초콜릿을 전할 수 있게 되다니……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 후후훗, 그것이 이렇게나 기쁠 줄이야……!"
+    },
+    {
+      "Text": "[s] \"초콜릿을 주려고, 와카모는 지금까지 그 모든 난동을……?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 그렇답니다? 선생님♡"
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Text": "[s1] \"……초콜릿, 고마워. 와카모.\""
+    },
+    {
+      "Text": "[s2] \"그건 잘못된 일이잖아! 와카모!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 당신께서 이렇게나 기뻐하며 받아 주실 줄이야."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이럴 줄 알았으면, 보다 빠르게 처음부터 이렇게 행동할 걸 그랬어요. 그랬다면 좀 더 빠르게 당신과 이렇게 이야기를 나눌 수 있었을 텐데!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "후훗, 후후후훗."
+    },
+    {
+      "Text": "[s3] \"……응. 고맙다고는 생각하고 있어. 하지만.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "으응? 네……?"
+    },
+    {
+      "Text": "[s4] \"역시 이런 건 조금 곤란하다고 생각해.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "저, 저기……. 고, 곤란하다, 말인가요?"
+    },
+    {
+      "Text": "[s5] \"단적으로 말해, 와카모, 이건 잘못된 일이야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "잘못된, 일……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 네엣……?!"
+    },
+    {
+      "Text": "[ns6] \"초콜릿 하나를 전하기 위해 여기저기서 크게 난동을 부리다니.\""
+    },
+    {
+      "Text": "[ns7] \"그 때문에 얼마나 많은 피해가 있었다고 생각하는 거야?\""
+    },
+    {
+      "Text": "[ns8] \"와카모가 한 일은, 분명한 잘못된 일이야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "……!!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "하, 하지만! 선생님! 발렌타인 데이라는 건 분명……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "자신의 본심을 전하기 위해 노력하고 노력해서 전력투구하는 날이라고……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와카모, 그 말만을 믿고 여태껏 전력을 다해온 것뿐인데……!"
+    },
+    {
+      "Text": "[s] \"그렇다고 해서, 그게 다른 사람에게 피해를 끼쳐도 되는 이유가 될 순 없어.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "저는, 그저! 선생님에게 저의 이 마음을 전하고자……!"
+    },
+    {
+      "Text": "[s9] \"오늘 같은 날, 와카모와 같은 생각을 품은 사람은 많았을 거야.\""
+    },
+    {
+      "Text": "[s10] \"하지만 와카모는 자신만을 위해 전부 짓밟은 거야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "저는…… 저는……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "저는…… 저는……!"
+    },
+    {
+      "Text": "[s] \"만약 그 사실을 부정한다면, 아마 나는 와카모를 용서할 수 없을 거야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "……!!!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신께서, 저를…… 용서하지, 않아……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "단지, 그저……. 평범하게, 당신에게 닿기 위해, 만나기 위해 해왔던 일이."
+    },
+    {
+      "Name": "와카모",
+      "Text": "전부, 잘못된 일, 이라서……. 용서받을 수, 없어?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아, 안 돼. 안 돼요. 그건."
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신에게 미움받아버리면, 저, 저는, 저 와카모, 그래서는 아아……!"
+    },
+    {
+      "Text": "[s] \"……물론 와카모라면 그러지 않을 거라 믿어.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "!!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "절, 믿는다……? 잘못을 저질렀어도, 아직, 미움받지, 않은, 건가요?"
+    },
+    {
+      "Text": "[s11] \"응, 누가 뭐라 해도 와카모 또한 소중한 학생이니까.\""
+    },
+    {
+      "Text": "[s12] \"앞으로 이런 일을 하지 않겠다고 약속만 해준다면야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "제가, 선생님의 소중한……. 학생……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아, 아아. 무, 물론, 무, 물, 물론이에요! 네! 물론! 반드시!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네……! 저 와카모, 당신께, 선생님에게 반드시 약속하겠습니다!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "미움받지 않고, 제 잘못을, 용서받을 수만 있다면 앞으로도 얼마든지!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "선생님께서 하지 말라는 일은, 미워할 만한 일은 절대로 하지 않을 테니까!"
+    },
+    {
+      "Text": "[s] \"……응. 약속이야.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네! 약속을……! "
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아…… 선생님, 나의…… 선생님♡"
+    },
+    {
+      "Name": "와카모",
+      "Text": "……이런 또 저희의 소중한 시간을 방해하려고 드는 거군요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "하지만, 네에. 약속했으니까. 당신과 저, 단둘이서 나눈 약속."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이것만 있다면 저 와카모, 여기서 잠시 헤어지는 것 따위, 몇 번이고, 몇 백 번이고 견뎌낼 수 있답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그럼, 이만 먼저 물러가보겠습니다. 선생님."
+    },
+    {
+      "Text": "[s] \"으, 응? 그래.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "후후훗. 네에, 나중에 또……. 다시 만날 날만을 기다리고 있겠습니다. "
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와카모만의- 사모하고 또 사모하는 다.앙.신♡"
+    },
+    {
+      "Name": "치히로",
+      "Text": "선생님, 무사해?!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "앗! 후부키! 저기! 재액의 여우가 도망치고 있어요!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "놓칠까 보냐아앗! 이대로 전력을 다해 대수사선이야!"
+    },
+    {
+      "Text": "(그렇게 여전히 계속되는 소동 속에서, 그저 얼떨떨해하며 와카모가 전해주고 간 초콜릿을 내려다보고 있는 수밖에 없었다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Sena",
+      "Text": "Now I see why she was one of the Seven Prisoners."
+    },
+    {
+      "Name": "Sena",
+      "Text": "She counterattacked without anyone having noticed she escaped this time. Quite impressive."
+    },
+    {
+      "Name": "Sena",
+      "Text": "But it's over now. Thanks to Sensei's leadership, there's no one left to help you, and the stolen equipment has been disabled."
+    },
+    {
+      "Name": "Sena",
+      "Text": "You've met your match, Fox of Calamity."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...!"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Trying to escape from the corner you've backed yourself into? "
+    },
+    {
+      "Name": "Sena",
+      "Text": "So be it. I'd rather avoid there being more dead bodies to look after... "
+    },
+    {
+      "Name": "Sena",
+      "Text": "Or rather, more wounded to take care of. So it's time to end this."
+    },
+    {
+      "Name": "Sena",
+      "Text": "I'm going to chase after her, Sensei."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Some of her forces may still try to regroup and cause trouble.\nI suggest you reconvene with the Valkyrie students to be safe."
+    },
+    {
+      "Text": "[s] \"But, Sena...!\""
+    },
+    {
+      "Text": "It was too late. Sena already took off to chase Wakamo."
+    },
+    {
+      "Text": "I stood there for a while wondering what I should do next."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sensei, are you okay?! You haven't been hurt, have you?"
+    },
+    {
+      "Text": "[s] \"I'm fine. What's wrong? You seem panicked.\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Wait. Are you alone? What happened to the Gehenna student you were with?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "She chased after Wakamo?!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sensei, no! It's a trap!"
+    },
+    {
+      "Text": "[s] \"A trap...?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "This was Wakamo's plan from the very beginning. She was causing those incidents to draw every law enforcement agency's focus on her. "
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "There's no time to explain. I need you to stay calm and follow my instructions. I just hacked into a system near where you are."
+    },
+    {
+      "Text": "[s] \"You did?!\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I can use the nearby security cameras and traffic lights to guide you to safety."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Th...can...lay..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Come...sei...!"
+    },
+    {
+      "Text": "[ns] \"I lost her...\""
+    },
+    {
+      "Text": "I couldn't reconnect with Chihiro and remained at a loss about what to do, when..."
+    },
+    {
+      "Name": "???",
+      "Text": "Heeheehee. I finally found you. ♥"
+    },
+    {
+      "Text": "[s] \"Huh?\""
+    },
+    {
+      "Text": "Meanwhile..."
+    },
+    {
+      "Name": "Valkyrie Student A",
+      "Text": "Report! The Fox of Calamity has been spotted in a D.U. shopping district! Requesting backup!"
+    },
+    {
+      "Name": "Valkyrie Student A",
+      "Text": "She has reinforcements with her! We can't handle them alone!"
+    },
+    {
+      "Name": "Valkyrie Student B",
+      "Text": "Come in! This is the D.U. West Street unit!"
+    },
+    {
+      "Name": "Valkyrie Student A",
+      "Text": "I read you loud and clear! I repeat, send support to—"
+    },
+    {
+      "Name": "Valkyrie Student B",
+      "Text": "No can do! The Fox of Calamity escaped from the Corrections Bureau and is attacking the West Street festival! We're requesting backup!"
+    },
+    {
+      "Name": "Valkyrie Student A",
+      "Text": "Wait! What?!"
+    },
+    {
+      "Name": "Valkyrie Student B",
+      "Text": "Repeat! We have eyes on Wakamo!"
+    },
+    {
+      "Name": "Valkyrie Student C",
+      "Text": "That's impossible! We're engaged with the Fox of Calamity in D.U.'s Central Street!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "What's going on, Fubuki...?!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Heck if I know! Are all of them...?!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Fake, yes. Wakamo planned all of this to escape the Corrections Bureau."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "This was an elaborate diversion so that she could confront Sensei by herself."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "We have to warn Sensei right away!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I've already tried. Our comms are being jammed."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Where did she get equipment capable of something like this?"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Uh-oh. "
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "What do you mean, \"uh-oh\"? It wasn't from Valkyrie, was it?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Never mind. We don't have time for that."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "If we can't make contact with Sensei from here, then that leaves us with one other option."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Do you know how to drive?"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Me?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I set up a jamming device so that no one can interrupt us. ♥ "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Stealing Valkyrie's equipment on a whim turned out to be quite useful."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Wouldn't you say so...Sensei?"
+    },
+    {
+      "Text": "[s] \"Wakamo...\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, how I've waited... You have no idea how long I've been dreaming of this moment."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Or how long I struggled to make it happen. Removing all of the obstacles surrounding you proved to quite difficult."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But at last, nothing is standing in my way."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I've been thinking all this time what I must do to get this close to you."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Or better yet, what I would do once I was alone with you like this."
+    },
+    {
+      "Text": "[s] \"That's why you waged war with Valkyrie?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heehee. It was the only way to take everyone's eyes off of you and place them on me. I caused such a stir that they had no choice but to focus all of their attention on me. "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "It was all to create the opportunity to finally be alone with you."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But enough talk. I can't hold back any longer."
+    },
+    {
+      "Text": "[ns] \"...!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "At long last, I can fulfill my deepest desires!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "So...will you accept this, Sensei?"
+    },
+    {
+      "Text": "[s] \"Is this...chocolate?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Of course. Today's a special day, so I made it just for you. ♥"
+    },
+    {
+      "Text": "[s] \"B-But why chocolate...? Wait!\""
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "This is Valentine's Day we're talking about—an important holiday.\nIt's a day of exchanging chocolate and being happy."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Valentine's Day is a special exception, being such an important holiday.\nIt's meant to be a day people exchange chocolate to convey the feelings they carry in their hearts."
+    },
+    {
+      "Text": "[ns] \"Does this mean...?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes! It was love at first sight!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Since the moment we met, I've been longing for you in my heart, waiting for this day."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "And now that we're alone at last, I can give you this chocolate to show you how I feel."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee. I couldn't be any happier!"
+    },
+    {
+      "Text": "[s] \"Everything that happened today...was to give me chocolate?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes, Sensei! ♥"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Text": "[s1] \"Don't get me wrong. I'm grateful and all, but...\""
+    },
+    {
+      "Text": "[s2] \"I think you went a little too far, Wakamo!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Aw. I'm so glad you like it."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I knew I should have done something like this from the beginning.\nI could have confessed to you earlier!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heehee. Heeheehee."
+    },
+    {
+      "Text": "[s3] \"I really do appreciate it, but...\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? What is it?"
+    },
+    {
+      "Text": "[s4] \"I don't know how I feel about this.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "How you feel...?"
+    },
+    {
+      "Text": "[s5] \"This was the wrong way to go about it.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Wrong, you say?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Wh-What?!"
+    },
+    {
+      "Text": "[ns6] \"You caused a lot of trouble because of me.\""
+    },
+    {
+      "Text": "[ns7] \"Don't you feel even a little remorseful?\""
+    },
+    {
+      "Text": "[ns8] \"What you did today was wrong.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "B-But, Sensei! Valentine's Day is supposed to be...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Today is when people are supposed to convey their true feelings to one another."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Everything I did today was to show you how I feel."
+    },
+    {
+      "Text": "[s] \"I understand, but it can't come at the expense of others.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But I...!"
+    },
+    {
+      "Text": "[s9] \"You're not the only one who had special plans today.\""
+    },
+    {
+      "Text": "[s10] \"Think of the bystanders whose special days you ruined.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I was only trying to...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I was only trying to...!"
+    },
+    {
+      "Text": "[s] \"If you can't understand that, then I'm truly disappointed in you.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Y-You're...disappointed in me...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Everything I did was for you..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...but it was wrong? I've...disappointed you?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "This can't be happening!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I don't know what I'd do with myself if I made you hate me! *sob*"
+    },
+    {
+      "Text": "[s] \"But I have faith that you can learn from this and be better.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "You believe in me...? You don't hate me despite the mistakes I've made?"
+    },
+    {
+      "Text": "[s11] \"I always believe in giving my students second chances.\""
+    },
+    {
+      "Text": "[s12] \"I couldn't hate one of my students. Just promise to do better.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'm one of your students...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Ah...of course! I'll do better next time!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Anything for you, Sensei!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "From now on, I won't do anything to disappoint you."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'll follow the rules and be your best student!"
+    },
+    {
+      "Text": "[s] \"Okay. Promise?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes! I promise! "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, Sensei. My dearest Sensei! ♥"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "And on that note, it would seem those interlopers are on their way here to interrupt our precious alone time again."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "That's okay. We had time to make our promise together."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "With that, I know I can endure the sadness of this temporary farewell.\nI'm sure of it."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Goodbye for now, my dearest Sensei."
+    },
+    {
+      "Text": "[s] \"S-See you later?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Indeed. I'm looking forward to it. "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "So long, my darling! ♥"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sensei! Are you all right?!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Fubuki, look! The Fox of Calamity is escaping!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "We can't let her get away! Do whatever it takes to catch her!"
+    },
+    {
+      "Text": "And so the chase resumed, but I stayed back this time as all I could do was blankly stare at the chocolate Wakamo gave me."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "เซนะ",
+      "Text": "สมกับเป็นคนที่ได้ชื่อว่าหนึ่งในเจ็ดอาชญากรจริงๆ นะคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เรายังไม่ได้รับข่าวการหลบหนีเลย แต่คุณก็มาปรากฏตัวต่อหน้าเราแบบนี้แล้ว ไม่เบาเลยนะคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แต่ว่าเพราะคุณครูช่วยออกคำสั่ง ทำให้จัดการพวกเด็กเกเรคนอื่นๆ ได้และยึดอุปกรณ์ที่ถูกขโมยไป\nคืนมาได้แล้วค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "สถานการณ์มาถึงจุดจบแล้วค่ะ จิ้งจอกแห่งความพินาศ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "...!"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "พอตกอยู่ในสถานการณ์คับขันก็เลยคิดที่จะหนีเหรอคะ? "
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ก็ดีค่ะ... ฉันจะไม่ยอมให้มีศพ... "
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ขออภัยค่ะ เพื่อไม่ให้จำนวนผู้บาดเจ็บเพิ่มขึ้นมากกว่านี้ เรามาจบสถานการณ์นี้กันเถอะค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "คุณครู ฉันจะไล่ตามจิ้งจอกแห่งความพินาศไปเองค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แถวๆ นี้อาจจะมีกลุ่มพวกเด็กเกเรหลงเหลืออยู่ เพราะงั้นตอนนี้คุณครูไปรวมกลุ่มกับพวกนักเรียน\nโรงเรียนวัลคิรี่ก่อนดีกว่าค่ะ"
+    },
+    {
+      "Text": "[s] \"เดี๋ยวก่อน เซนะ...!\""
+    },
+    {
+      "Text": "(เมื่อพูดจบ เซนะแสดงสีหน้ามุ่งมั่นก่อนจะวิ่งออกไปไล่ตามวาคาโมะที่กำลังหลบหนี)"
+    },
+    {
+      "Text": "(หลังจากวาคาโมะหายไป คุณครูก็ครุ่นคิดอยู่ครู่หนึ่งว่าจะทำอย่างไรต่อไป)"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คุณครู ปลอดภัยรึเปล่า?! ไม่บาดเจ็บตรงไหนใช่มั้ย?!"
+    },
+    {
+      "Text": "[s] \"อื้อ ว่าแต่จิฮิโระมีอะไรเหรอ ทำไมทำหน้าเครียดแบบนั้นล่ะ\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตอนนี้อยู่คนเดียวงั้นเหรอ? แล้วเด็กเกเฮนน่าที่อยู่ด้วยเมื่อกี้ล่ะ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ว่าไงนะ? ไล่ตามวาคาโมะไป...?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่ได้นะ คุณครู โดนหลอกแล้วล่ะ นั่นมันกับดัก!"
+    },
+    {
+      "Text": "[s] \"กับดักเหรอ...?\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มันเป็นแผนการที่วาคาโมะวางเอาไว้ตั้งแต่แรกแล้ว ยัยนั่นตั้งใจก่อความวุ่นวายขึ้น เพื่อให้องค์กรที่ดูแลความปลอดภัยทั้งหมดมุ่งเป้าไปที่ตัวเอง... "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ตอนนี้ฉันไม่มีเวลามาอธิบายสถานการณ์ทั้งหมดแล้ว คุณครูทำตามที่ฉันบอกก่อนเถอะ ฉันเพิ่งแฮ็กเข้าระบบรักษาความปลอดภัยตรงบริเวณที่คุณครูอยู่"
+    },
+    {
+      "Text": "[s] \"ดะ...เดี๋ยวก่อน?! จู่ๆ ก็แฮ็กเลยเหรอ?!\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันจะใช้กล้องวงจรปิดและระบบสัญญาณไฟจราจรนำทางคุณครูไปยังที่ปลอดภัยเอง"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คุณ...ครู... สื่อ...สาร..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อย่า.... ระ...!"
+    },
+    {
+      "Text": "[ns] \"เอ๊ะ สัญญาณขาดไปแล้ว...?\""
+    },
+    {
+      "Text": "(ในสถานการณ์ที่ไม่สามารถติดต่อกับจิฮิโระได้ คุณครูจึงใช้เวลาครุ่นคิดว่าควรทำอย่างไรต่อไป และในตอนนั้นเอง...)"
+    },
+    {
+      "Name": "???",
+      "Text": "ฮุฮุฮุ ในที่สุดก็ได้พบกันเสียทีนะคะ♡"
+    },
+    {
+      "Text": "[s] \"หืม...?\""
+    },
+    {
+      "Text": "(ในช่วงเวลาเดียวกัน ที่บริเวณอื่นๆ...)"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ A",
+      "Text": "รายงานค่ะ! จิ้งจอกแห่งความพินาศปรากฏตัวที่ย่านการค้าในเขต D.U. ขอกองกำลังสนับสนุนจากสำนักงานใหญ่ด้วยค่ะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ A",
+      "Text": "พบกลุ่มเด็กเกเรกลุ่มอื่นๆ เข้ามาในระยะประชิดเพิ่มขึ้น หน่วยที่อยู่ในพื้นที่รับมือได้ไม่หมด...!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ B",
+      "Text": "เรียกศูนย์! จากผู้รับผิดชอบเขต D.U. ตะวันตก!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ A",
+      "Text": "อ๊ะ! เขตตะวันตก! พอดีเลยนะ! ทางนี้! ช่วยมาสนับสนุนที่ย่านการค้าที...!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ B",
+      "Text": "จิ้งจอกแห่งความพินาศที่หลบหนีออกมาจากห้องคุมขังปรากฏตัวขึ้นที่บริเวณเขตย่านการค้า\nฝั่งตะวันตก! ช่วยส่งกองกำลังสนับสนุนมาที่นี่ก่อนที่จะสายเกินไปด้วย!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ A",
+      "Text": "ว่ายังไงนะ...?!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ B",
+      "Text": "ขอย้ำ! วาคาโมะปรากฏตัวขึ้นที่เขตตะวันตก...!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่ C",
+      "Text": "พูดอะไรน่ะ! จิ้งจอกแห่งความพินาศอยู่ที่นี่ต่างหาก! ยัยนั่นโผล่มาที่ถนนหลักในเขตกลางของ D.U. ค่ะ!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ฟะ...ฟุบุกิ! นี่มัน...!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "อ๊าาาา นะ...นี่มันเกิดอะไรขึ้นกันเนี่ย แบบนี้มัน...!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "โดนต้มจนเปื่อยเลย พวกที่อยู่ตรงนั้นเป็น <ตัวปลอม> ทั้งหมดเลย วาคาโมะวางแผนเอาไว้แบบนี้\nตั้งแต่แรกก่อนหลบหนีออกมาแล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ทำให้ทุกคนมุ่งความสนใจไปที่ตัวเอง แล้ววาคาโมะตัวจริงก็เข้าไปประชิดตัวคุณครูยังไงล่ะ!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "คะ?!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ถ้างั้นรีบติดต่อหาคุณครูเร็วเข้า...!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "พลาดแล้วล่ะ ตอนนี้การสื่อสารทางฉันโดนบล็อกเรียบร้อยแล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ยัยจิ้งจอกแห่งความพินาศนั่นไปได้อุปกรณ์ปล่อยคลื่นรบกวนมาจากไหนกัน..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "อา... "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...คงจะเป็นของทางโรงเรียนวัลคิรี่ละสินะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่สิ นี่ไม่ใช่เวลามาห่วงเรื่องนี้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าติดต่อไม่ได้แบบนี้ละก็... "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "นี่ เธอขับรถเป็นรึเปล่า?"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ฉันเหรอ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ♡ ฉันเปิดใช้อุปกรณ์คลื่นรบกวนแล้ว ตอนนี้ก็จะไม่มีเสียงหนวกหูอะไรมารบกวนอีกแล้วละค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันแอบหยิบมาเอาไว้ใช้แก้เบื่อนิดหน่อย แต่อุปกรณ์ของโรงเรียนวัลคิรี่นี่มีประโยชน์จริงๆ เลยนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ไม่คิดอย่างนั้นเหรอคะ? คุณ-ครู"
+    },
+    {
+      "Text": "[s] \"วาคาโมะ...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... ฉันรอคอยเวลานี้มานานแสนนาน"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉัน... รอคอยมานานมากเลยนะคะ เพราะมีคนมากมายวนเวียนอยู่รอบตัวคุณ ฉันหาช่วงเวลาเหมาะๆ ไม่ได้เลยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "พอมีพวกขยะไร้ค่าคอยมาขัดขวางอยู่ตลอด ฉันเลยเอื้อมมือไปถึงคุณไม่ได้ ฉันต้องเสียใจเป็นสิบ... เป็นร้อยครั้ง"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพราะงั้นฉันเลยกังวลค่ะ ว่าจะต้องทำยังไง เพื่อให้เข้าใกล้คุณได้"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "จะต้องทำยังไง เพื่อให้มาอยู่ต่อหน้าคุณได้โดยที่ไม่มีใครรบกวน"
+    },
+    {
+      "Text": "[s] \"เพราะแบบนี้เองเหรอ...?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุ เพื่อเปิดตัวอย่างสง่างามที่สุด ในงานเทศกาลคราวนี้ ฉันถึงทำให้ทุกคนมุ่งความสนใจมาที่ฉัน\nแทนที่จะเป็นคุณครู ปรากฏตัวอย่างโดดเด่น และดูรุนแรงมากขึ้นเพื่อไม่ให้ละสายตาไปจากฉันได้..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "และผลลัพธ์ก็เป็นอย่างที่เห็นค่ะ ฉันมาปรากฏตัวต่อหน้าคุณสำเร็จแล้วค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอาละค่ะ ฉันจะไม่เสียเวลาพูดอะไรยืดเยื้ออีกต่อไปแล้วค่ะ"
+    },
+    {
+      "Text": "[ns] \"เฮือก...!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ในที่สุดสิ่งที่ฉันตั้งตารอมาจนถึงตอนนี้...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณครูช่วยรับของสิ่งนี้ไว้ได้หรือเปล่าคะ?"
+    },
+    {
+      "Text": "[s] \"หืม? นี่มัน...ช็อกโกแลต?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ ช็อกโกแลตของวาคาโมะที่เตรียมเอาไว้มอบให้กับคุณในวันนี้โดยเฉพาะเลยค่ะ♡"
+    },
+    {
+      "Text": "[s] \"ตะ...แต่ทำไมจู่ๆ ถึงเอาช็อกโกแลตมาให้ล่ะ\""
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ก็นะ มันก็เป็นวันวาเลนไทน์นี่นา วันที่คนที่ได้รับและมอบช็อกโกแลตให้กันและกันจะมีความสุขมากขึ้น"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เพราะวันวาเลนไทน์เป็นวันที่พิเศษมาก ทุกคนต่างก็เตรียมช็อกโกแลตไว้ให้คนสำคัญของตัวเองนี่คะ"
+    },
+    {
+      "Text": "[ns] \"อืม แต่ว่านี่มัน...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันตกหลุมรักคุณตั้งแต่แรกเห็นเลยค่ะ คุณครู"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ตั้งแต่วันแรกที่ได้พบกับคุณ ในใจของฉันก็ร่ำร้องเรียกหาแต่คุณ ฉันต้องอดกลั้นความคิดถึงที่มี\nต่อคุณมาตลอดจนถึงตอนนี้ค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "และในที่สุดฉันก็มามอบช็อกโกแลตให้กับคุณได้แล้ว...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... ฮุฮุฮุ ไม่คิดมาก่อนเลยว่าจะมีความสุขถึงเพียงนี้...!"
+    },
+    {
+      "Text": "[s] \"วาคาโมะก่อเรื่องวุ่นวายพวกนั้น เพื่อเอาช็อกโกแลตมาให้ครูเหรอ...?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ ใช่แล้วค่ะ คุณครู♡"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Text": "[s1] \"ขอบคุณสำหรับช็อกโกแลตนะ วาคาโมะ\""
+    },
+    {
+      "Text": "[s2] \"แบบนั้นมันไม่ถูกต้องนะ! วาคาโมะ!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา ไม่คิดเลยว่าคุณจะมีความสุขที่ได้รับช็อกโกแลตขนาดนี้"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าฉันรู้ละก็คงจะทำแบบนี้ตั้งแต่แรกแล้วละค่ะ ถ้าทำแบบนั้นก็จะได้พูดคุยกับคุณได้เร็วขึ้น!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ... ฮุฮุฮุฮุ"
+    },
+    {
+      "Text": "[s3] \"อืม ครูก็ขอบคุณนะ แต่ว่า...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "หืม? คะ...?"
+    },
+    {
+      "Text": "[s4] \"ครูคิดว่าแบบนี้มันลำบากใจนิดหน่อยนะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ... คือว่า... ละ...ลำบากใจงั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s5] \"ถ้าให้พูดตรงๆ ก็คือทำแบบนี้มันไม่ถูกนะ วาคาโมะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ไม่ถูกต้อง...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?!"
+    },
+    {
+      "Text": "[ns6] \"ที่ก่อเหตุวุ่นวายที่ต่างๆ ขึ้นเพื่อเอาช็อกโกแลตมาให้ครูน่ะ\""
+    },
+    {
+      "Text": "[ns7] \"เธอคิดว่ามันสร้างความเสียหายไปมากแค่ไหนกันล่ะ?\""
+    },
+    {
+      "Text": "[ns8] \"สิ่งที่วาคาโมะทำไปน่ะ ไม่ใช่สิ่งที่ถูกต้องนะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ตะ.. แต่ว่า! คุณครู! วันวาเลนไทน์น่ะ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คือวันที่ทุ่มเทกำลังทั้งหมดเพื่อถ่ายทอดความรู้สึกที่แท้จริงของเราออกไปนี่คะ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้ เชื่อในคำพูดนั้นถึงได้พยายามทุ่มเทอย่างสุดความสามารถ...!"
+    },
+    {
+      "Text": "[s] \"แต่ยังไงก็เอามาเป็นเหตุผลสร้างความเดือดร้อนให้คนอื่นไม่ได้นะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันก็แค่... แค่อยากสื่อความรู้สึกของฉันให้กับคุณครูได้รับรู้เท่านั้น...!"
+    },
+    {
+      "Text": "[s9] \"ในวันแบบนี้น่ะ คงมีคนอื่นๆ ที่คิดเหมือนกับวาคาโมะอีกหลายคนเลย\""
+    },
+    {
+      "Text": "[s10] \"แต่วาคาโมะกลับเหยียบย่ำพวกเขาเพื่อตัวเอง\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันน่ะ... คือว่าฉัน...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันน่ะ... คือว่าฉัน...!"
+    },
+    {
+      "Text": "[s] \"ถ้าปฏิเสธความจริงเรื่องนี้ ครูคงจะยกโทษให้วาคาโมะไม่ได้หรอก\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "...!!!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณ... จะไม่... ยกโทษ... ให้ฉัน...เหรอ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันก็แค่... ทำทุกๆ อย่างเพื่อที่จะได้พบกับคุณ ได้เข้าใกล้คุณแบบปกติ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ทุกอย่าง... เป็นสิ่งที่ไม่ถูกต้อง... และจะไม่ยกโทษให้...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "มะ...ไม่นะ ไม่เอานะคะ เรื่องแบบนั้น..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าฉันถูกคุณเกลียดเข้าละก็ ฉันคง... วาคาโมะผู้นี้คงจะ... อ๊าาาา...!"
+    },
+    {
+      "Text": "[s] \"แต่ครูเชื่อนะว่าวาคาโมะจะไม่ทำแบบนั้น\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "!!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณ... เชื่อฉันเหรอคะ...? ถึงฉันจะทำผิดพลาดไป คุณก็จะไม่เกลียดฉันเหรอคะ?"
+    },
+    {
+      "Text": "[s11] \"อื้อ ไม่ว่าใครจะพูดยังไง วาคาโมะก็เป็นนักเรียนคนสำคัญของครูนะ\""
+    },
+    {
+      "Text": "[s12] \"แค่สัญญาว่าต่อไปจะไม่ทำเรื่องแบบนี้แล้วก็พอ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉัน...คือคนสำคัญ... ของคุณครู..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... นะ...นะ...นะ... แน่นอนค่ะ! ใช่แล้วค่ะ! แน่นอนค่ะ! ฉันสัญญาค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ...! ฉัน... วาคาโมะผู้นี้ขอให้สัญญากับคุณครูค่ะ!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพียงแค่คุณไม่เกลียดฉัน และยกโทษให้ ไม่ว่าเมื่อไรก็ได้เสมอเลยค่ะ!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "สิ่งที่คุณครูสั่งห้ามไม่ให้ทำ หรือสิ่งที่คุณครูไม่ชอบ ฉันก็จะไม่ทำเด็ดขาดเลยค่ะ!"
+    },
+    {
+      "Text": "[s] \"อื้อ ถือว่าสัญญาแล้วนะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ! สัญญาค่ะ...! "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... คุณครู... คุณครูของวาคาโมะ♡"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "มีคนคิดที่จะมาขัดขวางช่วงเวลาที่แสนล้ำค่าของพวกเราอีกแล้วนะคะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่... ก็ได้ค่ะ ในเมื่อฉันให้สัญญาไปแล้ว สัญญาของสองเรา สัญญาระหว่างคุณกับฉัน"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพียงแค่มีสิ่งนี้ ต่อให้ต้องจากกันเพียงชั่วคราวในตอนนี้ หรือต้องจากกันอีกกี่สิบ กี่ร้อยครั้ง วาคาโมะผู้นี้ก็อดทนได้ค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าอย่างนั้น ฉันขอตัวก่อนนะคะ คุณครู"
+    },
+    {
+      "Text": "[s] \"อะ...อื้อ ได้เลย\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ ค่ะ... ไว้พบกันใหม่นะคะ ฉันจะรอคอยวันที่เราได้พบกันอีกครั้งค่ะ "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ผู้ที่วาคาโมะผู้นี้คิดถึงและเฝ้ารอ...ที่-รัก♡"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คุณครู ปลอดภัยรึเปล่า?!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "อ๊ะ ฟุบุกิ! นั่น! จิ้งจอกแห่งความพินาศกำลังจะหนีไปแล้วค่ะ!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "คิดว่าจะหนีพ้นเรอะ! ฉันจะทุ่มแรงทั้งหมดจับเธอเอง!"
+    },
+    {
+      "Text": "(ท่ามกลางความโกลาหลที่ดำเนินต่อไป คุณครูได้แต่ก้มลงมองช็อกโกแลตที่ได้รับมาจากวาคาโมะ\nด้วยความงุนงง)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "瀬奈",
+      "Text": "「七罪人」……是嗎。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這次居然連逃出矯正局的消息都還沒傳來，就忽然現身了。果然不容小覷呢。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "但是，這次就是最後了。\n多虧老師的指揮，其他的問題兒童們已經無力抵抗，裝備也已經無效了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "做好覺悟了嗎，災厄之狐。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "一知道被逼上絕境就選擇逃跑嗎？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……好吧。不能再讓屍體…… "
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "不對，不能再讓傷患繼續增加了。既然如此就來個一對一吧。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "老師，我現在就去追擊災厄之狐。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "雖然附近已經清掃完畢，但可能還有問題兒童的漏網之魚。\n請老師儘快和女武神的學生會合。"
+    },
+    {
+      "Text": "[s]「啊，瀬奈……！」"
+    },
+    {
+      "Text": "（瀬奈以驚人的氣勢追向了若藻）"
+    },
+    {
+      "Text": "（就在一時之間煩惱接下來該如何行動時）"
+    },
+    {
+      "Name": "千尋",
+      "Text": "老師沒事吧！？有沒有受傷！？"
+    },
+    {
+      "Text": "[s]「嗯，我沒事。千尋你呢？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……等等。難道你現在獨自一人？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "跟老師在一起的格黑娜的孩子呢？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……一對一追擊？上當了……！"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "若藻的目標打從一開始就是這個。刻意擴大騷動，讓所有目光集中到自己身上……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不，現在不是詳細說明的時候。老師，請冷靜地聽從我的指示。\n我駭入了老師附近的系統。"
+    },
+    {
+      "Text": "[s]「駭入！？這麼輕鬆！？」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我會透過監視器和紅綠燈，引導老師前往安全的區……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "…………師，…………通……………………"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……聽……心………………………………"
+    },
+    {
+      "Text": "[ns]「通訊被……」"
+    },
+    {
+      "Text": "（和千尋之間的通訊斷斷續續，正在煩惱接下來的行動時……）"
+    },
+    {
+      "Name": "???",
+      "Text": "呵呵，終於找到了……♡"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Text": "（與此同時，在別的地方……）"
+    },
+    {
+      "Name": "女武神學生A",
+      "Text": "「災厄之狐」在D.U.商店街地區出沒！請求本部支援！"
+    },
+    {
+      "Name": "女武神學生A",
+      "Text": "其他問題學生也大量出現，光靠現場人力完全無法……！"
+    },
+    {
+      "Name": "女武神學生B",
+      "Text": "這裡是D.U.西區！"
+    },
+    {
+      "Name": "女武神學生A",
+      "Text": "西區，終於連絡上了！正好，這邊需要支援……！"
+    },
+    {
+      "Name": "女武神學生B",
+      "Text": "從矯正局消失的「災厄之狐」出現在西區！請在事態失控之前盡快支援……！"
+    },
+    {
+      "Name": "女武神學生A",
+      "Text": "……咦！？"
+    },
+    {
+      "Name": "女武神學生B",
+      "Text": "重複，這裡是西區！若藻就出現在面前……！"
+    },
+    {
+      "Name": "女武神學生C",
+      "Text": "怎麼回事！？災厄之狐正在D.U.中央大道……！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "吹，吹雪！這是……！？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "啊啊真是的，到底是怎麼回事！難道這一切都是……！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯，全部都是「偽裝」。\n若藻打從一開始，就是為了這個才會嘗試從矯正局逃獄的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "為了避開所有人的視線，在不被任何人妨礙的情況下與老師對峙……！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "……你說什麼！？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "現在立刻聯絡老師……！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "沒辦法。我們的通訊全都被干擾了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "災厄之狐，究竟是怎麼做到如此複雜的干擾……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "……啊。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "女武神學園真的沒問題嗎……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不，現在不是說這些的時候。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "既然聯絡不上，就只有一種手段了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你，會開車吧？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "……我？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵……♡這樣一來，短時間內就無須擔心受到遠方的騷擾了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "雖然是無意間搶來的東西，女武神警察學園的裝備還真便利呢。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "您不這麼覺得嗎，老師？"
+    },
+    {
+      "Text": "[s]「若藻……」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊，我是多麼期盼著這個瞬間。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "真是，花了不少時間呢……閣下身邊一直都有人在，讓我費了一番功夫。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "真是，四處受人阻礙……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "思考、策劃了無數次。要怎麼做，才能夠接近閣下……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "如何才能不受任何人妨礙，像這樣站在閣下面前。"
+    },
+    {
+      "Text": "[s]「為了這個才把女武神……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵。盡可能高調地引起騷動，讓視線集中在我身上。\n為了引人注意，必須盡力做得高調、華麗、強烈。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "鍥而不捨地嘗試後，總算成功了。我終於抵達了閣下身邊。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，忍耐快要到達極限了……"
+    },
+    {
+      "Text": "[ns]「……！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我的願望，終於要達成了……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "老師，請您收下……"
+    },
+    {
+      "Text": "[s]「……這是，巧克力？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是的♡這是只為閣下準備的，若藻的巧克力♡"
+    },
+    {
+      "Text": "[s]「難道……」"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "再怎麼說也是難得的情人節嘛。是個互相贈送巧克力，讓大家都感到幸福的節日。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "是的，畢竟情人節是重要的日子。\n是將彼此隱藏在心中的重要心情，轉化為實體的特別節日。"
+    },
+    {
+      "Text": "[ns]「所以是因為……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我對您是一見鍾情……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若藻我，從見到閣下的第一眼開始……\n就一直深深愛戀著閣下，難以抑制心中滿溢的情感。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "於是我總算找到了……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "能在兩人獨處的情況下將巧克力送給閣下的機會……！"
+    },
+    {
+      "Text": "[s]「全部，都是為了把巧克力送給我……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是的，老師♡"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Text": "[s1]「……我就心懷感激地收下了，我非常開心。」"
+    },
+    {
+      "Text": "[s2]「但是做得太過火了！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊……！您竟然願意對我這麼說……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "雖然是無可奈何，我真怨恨沒能早點行動的自己。\n否則就能再早一點，像這樣和閣下說話了……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵，呵呵呵呵……"
+    },
+    {
+      "Text": "[s3]「但是，若藻。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……？"
+    },
+    {
+      "Text": "[s4]「你的這種做法會讓我很困擾，我覺得不太好唷。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦……困，困擾，是嗎？"
+    },
+    {
+      "Text": "[s5]「這種方法是不對的。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是，是不對的……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦，咦咦……！？"
+    },
+    {
+      "Text": "[ns6]「今天四處都發生了許多騷動。」"
+    },
+    {
+      "Text": "[ns7]「很多人都因此受傷了。」"
+    },
+    {
+      "Text": "[ns8]「這種作法，我覺得不太好。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "但，但是老師……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我聽說情人節，就是要將自己的心意率直且全力傳達的日子！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我只是，想要傳達這份心意……！"
+    },
+    {
+      "Text": "[s]「這點我真的很開心，但是會傷害他人的做法是不行的。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我，我……！"
+    },
+    {
+      "Text": "[s9]「我想今天有很多人都懷抱著跟若藻一樣的想法。」"
+    },
+    {
+      "Text": "[s10]「但是也許有人會因為你而失去那個機會。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！"
+    },
+    {
+      "Text": "[s]「如果你還是視而不見的話，我也沒辦法開心地收下你的心意。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "怎，怎麼會……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我只是，一心想著閣下……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "卻不能，讓您開心……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不，不行，這樣不行。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那樣的話，要是，要是被閣下討厭的話，我就，我就……！"
+    },
+    {
+      "Text": "[s]「……我相信若藻今後能想出不同的做法。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "！！！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "您願意，相信我嗎……？\n不會討厭，犯了錯的我嗎……？"
+    },
+    {
+      "Text": "[s11]「不會因為一次的錯誤就討厭你哦，若藻也是我重要的學生。」"
+    },
+    {
+      "Text": "[s12]「希望你能答應我，今後會好好努力。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我是，老師……重要的，學生……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊，啊啊……當，當然，當然願意！是！一定，不，是必定會的！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若藻我向閣下，向老師發誓！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "今後絕對……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "只要是老師說不能做的事，無論如何都絕對不會做的……！"
+    },
+    {
+      "Text": "[s]「那，約好了哦。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是，約好了……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，老師……我的老師……♡"
+    },
+    {
+      "Name": "若藻",
+      "Text": "又有人想妨礙我和老師的寶貴時光了……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "但是……我和您約好了。與閣下交換的，彼此之間的約定……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "只要有了這個，即使必須再次於此分別，我也一定會堅持下去的。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼，我很快就會再來迎接您的。老師。"
+    },
+    {
+      "Text": "[s] 「啊，嗯……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵。我打從心裡期待著再次重逢的那一天。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "即使肉體彼此分離……我也會打從心底思念著閣下♡"
+    },
+    {
+      "Name": "千尋",
+      "Text": "老師，沒事吧！？"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "啊，吹雪，那邊！災厄之狐同學逃走了……！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "不準逃！給我站住────！"
+    },
+    {
+      "Text": "（於是在重新開始的騷動中，只能呆呆地望著若藻送的巧克力好一陣子）"
+    }
+  ]
+}

@@ -1,0 +1,1942 @@
+{
+  "TitleJP": "波乱の借り物競争（２）",
+  "TitleKR": "파란의 물건 빌려오기 2",
+  "TitleEN": "Something Borrowed, Something Blue 2",
+  "TitleTH": "ยืมของสีฟ้า 2",
+  "TitleTW": "波瀾的借物競賽（２）",
+  "DescJP": "ユズの代わりに「借り物競走」に出場することになったユウカ。メモを確認したユウカは先生を連れて1位でゴールする。真っ先に先生を連れていった事から、ユウカの「借り物」が「好きな人」なのではないかという噂が立つが……借り物の中身を明かしたら失格となるため、弱々しく否定するのだった。",
+  "DescKR": "유즈 대신 <물건 빌려오기> 경주에 나가게 된 유우카. 쪽지를 확인한 유우카는 선생님을 데리고 1위로 결승선을 통과한다. 빌려와야 할 물건의 내용이 '좋아하는 사람'이 아닌지 의심받자, 유우카는 부끄러워하며 부정한다.",
+  "DescEN": "Yuuka competes in the game of fetch in Yuzu's stead. After viewing the note, Yuuka crosses the finish line in first place with Sensei in tow. When questioned as to whether her paper's prompt was her favorite person, Yuuka shyly denies it.",
+  "DescTH": "ยูกะลงแข่งขันในรายการ <ของชิ้นนั้น เอามันมาให้ที> แทนยูสึ เมื่อเห็น\nข้อความ ยูกะก็พาตัวคุณครูไปและผ่านเข้าเส้นชัยในอันดับ 1 ยูกะถูก\nสงสัยว่าสิ่งที่ต้องไปเอามาคือ 'คนที่ชอบ' หรือเปล่า เธอเขินและปฏิเสธ\nว่าไม่เป็นความจริง",
+  "DescTW": "優香代替柚子參加「借物」競賽。看了紙條的優香帶著老師通過終點，拿下第1名。被懷疑自己要借的東西是不是「喜歡的人」，優香尷尬地否認。",
+  "DialogJP": [
+    {
+      "Text": "（観戦のため、席に座っていたところ……）"
+    },
+    {
+      "Name": "ノア",
+      "Text": "あ、先生。ここにいらっしゃったのですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ、昨日は夜遅くまでお疲れ様でした。\n少しは眠れましたか？"
+    },
+    {
+      "Text": "[s1] \"うん、みんなのおかげでちゃんと休めたよ。\""
+    },
+    {
+      "Text": "[s2] \"ノアも休めた？\""
+    },
+    {
+      "Name": "ノア",
+      "Text": "はい、私も開会式が始まる前に少し仮眠をとりました。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "はい、私も開会式が始まる前に少し仮眠をとりました。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "その間に、知らないところで何かあったような気もしますが……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "皆さん……楽しそうで良かった。"
+    },
+    {
+      "Text": "[s] \"頑張って準備した甲斐があったね。\""
+    },
+    {
+      "Name": "ノア",
+      "Text": "はい、本当に。\nさて、次の種目は……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "あら、「借り物競争」ですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "そろそろ出かける準備をしなければ……。"
+    },
+    {
+      "Text": "[s] \"「借り物競争」に出るの？\""
+    },
+    {
+      "Name": "ノア",
+      "Text": "はい、選手ではなく審判ですが……。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "選手は、ゲーム開発部の[ruby=はなおか]花岡[/ruby]さんが出る予定だったのですが……ユウカちゃん本人の強い要望で、彼女が出ることになりました。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふ……「借り物競争」は開催毎に伝説を生む人気の競技なんですよ。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "実行委員でさえも何を借りてくる事になるかは分からないハラハラ感……\n「好きな人」と書かれたメモが毎回必ず入っているのも見どころです。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "……果たして、ユウカちゃんが何を借りてくる事になるか、楽しみですね。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "それでは、先生。\n引き続き晄輪大祭を楽しんでくださいね。"
+    },
+    {
+      "Name": "シノン",
+      "Text": "クロノスチャンネルをご視聴の皆さん、お待たせしました！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "さあ、ついに晄輪大祭名物「借り物競争」が幕を開けます！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "観客席も盛り上がっていますねー！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "ルールは単純明快！トラック上にある箱からメモを取り出し、そこに書かれたキーワードに合致するものと共にゴールするだけ！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "ただし、キーワードは審判に見せるまで秘匿しなければならないそうです！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "さあ、選手の入場が開始しました！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "（借り物競争をユズが交代してくれてよかった……）"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "（ユズ、知らない人に話しかけるのは苦手だから……）"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "（ミレニアムの総合優勝のためにも……この試合、絶対に負けられない！）"
+    },
+    {
+      "Name": "サキ",
+      "Text": "（審判の生徒……たしか、前に見たセミナーの役員だよな？）"
+    },
+    {
+      "Name": "サキ",
+      "Text": "（一つの試合に主催校の生徒会役員が選手と審判で出場するとは……\n　やはり怪しいな、ミレニアム……）"
+    },
+    {
+      "Name": "サキ",
+      "Text": "（まぁいい。何を画策していようが、フィジカルで優勝すればいいだけだ！）"
+    },
+    {
+      "Name": "アコ",
+      "Text": "（前回の大会結果の分析でメモのパターンはすべて把握しました）"
+    },
+    {
+      "Name": "アコ",
+      "Text": "（この試合も勝って、ゲヘナの総合優勝を確定させてみせます！）"
+    },
+    {
+      "Name": "シノン",
+      "Text": "さあ、それでは皆さん、位置について……"
+    },
+    {
+      "Name": "シノン",
+      "Text": "よーい、ドン！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "さあ始まりました「借り物競争」！\n各選手、一斉に箱に向かっていきます！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "最初に到達したのは……"
+    },
+    {
+      "Name": "シノン",
+      "Text": "SRT特殊学園の[ruby=そらい]空井[/ruby]サキ選手！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "SRT特殊学園は皆様御存知の通り廃校になった学園ですが、\nシャーレの協力によって大運動会に限り学園としての参加が許されています。"
+    },
+    {
+      "Name": "シノン",
+      "Text": "果たしてサキ選手はこの試合でSRT特殊学園の初勝利を手に入れることができるのでしょうか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "さて、一体なにが出るのやら……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……4.2インチ白リン弾？\nこんなもの、いったい競技場のどこで手に入れるんだ！？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ブ～！空井サキ選手、失格です！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "し、失格だと！？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "試合開始前に申し上げた通り、メモの内容を周囲に知られたら失格です。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "メモの中身が分かってしまったら面白くな――"
+    },
+    {
+      "Name": "ノア",
+      "Text": "こほん。いえ、周囲の手助けが容易になってしまいますから。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "残念ですが……空井サキ選手は失格。SRT特殊学園はランキング外となります。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "サキ、あんた何してるのよ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "やっぱり4人しかいない私たちじゃ……最初から無理だったんだ……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "お疲れ様でした、サキ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "まだ試合はありますから大丈夫です。\n次で1位を狙いましょう。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うっ……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "だ、だが、失格にならなくても1位は難しかったんじゃないのか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "白リン弾を持っている人なんて競技場に――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私、持ってるよ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なんで持ってるんだ……？"
+    },
+    {
+      "Name": "シノン",
+      "Text": "サキ選手の失格によって状況は一気に読めなくなってまいりました！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "続いて箱に近づいたのは――ミレニアムの[ruby=はやせ]早瀬[/ruby]ユウカ選手！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "はぁ、はぁ……えっと、お題は……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "うーん……この人、じゃないし……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "こっちでもないし……\nえーっと……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "あっ、いた！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "先生、ちょっと一緒に来てください！"
+    },
+    {
+      "Text": "[s] \"わ、私！？\""
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ええ！\n時間がありません、急ぎますよ！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "ユウカ選手、メモを確認するやいなや、シャーレの先生を連れて疾走！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "現在の順位は1位！果たしてメモの中身は一体なんだったのでしょうか！？\n何故シャーレの先生を選んだのか！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "ユウカ選手独走を続け……そのままゴールラインを通過！暫定1位です！"
+    },
+    {
+      "Name": "シノン",
+      "Text": "ですが、まだ審判のお題確認が残っております！"
+    },
+    {
+      "Name": "ノア",
+      "Text": "へぇ……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ユウカちゃんは、[USERNAME]先生の事をそう思っていたんですね……ふふっ。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "な、なによ！？お題は主観的なものじゃない。\n焦らさないで早く判定して！"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ふふっ……はい、お題内容は問題ありませんよ。\n早瀬ユウカ選手、1位です。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "やった！"
+    },
+    {
+      "Name": "観客A",
+      "Text": "たしか……借りてくるものの中に「好きな人」ってあったよね？"
+    },
+    {
+      "Name": "観客B",
+      "Text": "毎度、好きな人を連れて行ってカップル成立する選手が必ず一組は出るよね。"
+    },
+    {
+      "Name": "観客A",
+      "Text": "他の選手のお題は「好きな人」じゃなさそうだし……"
+    },
+    {
+      "Name": "観客B",
+      "Text": "ユウカさん、メモを見るやいなや先生のところに真っ直ぐ向かっていったよね……\nま、まさか……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ちょ、ちょっと待って！なんか誤解されてない！？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "私のお題は「好きな人」じゃなくて――"
+    },
+    {
+      "Name": "ノア",
+      "Text": "あっ、ダメですよユウカちゃん。お題を言うのはルール違反です。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "選手のお題を推測するところまでが「借り物競争」の観戦ポイントですからね。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ゴールした後は言ってもいいんじゃなかったっけ？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "それに、[ruby=身内]ミレニアム生[/ruby]への誤解くらい解いたって……"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ダメです。「[ruby=こうりんたいさい]晄輪大祭[/ruby]」に例外はありません。"
+    },
+    {
+      "Name": "ノア",
+      "Text": "結果的にユウカちゃんが恥ずかしい思いをしたとしても、ダメなものはダメです。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "だから好きな人じゃないって何回言えば――"
+    },
+    {
+      "Text": "[s] \"好きな人じゃなかったんだ……。\""
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "えっえぇ！？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "い、いえ！その……先生のことが好きじゃないという意味ではなくて……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "あ……そ、そうじゃなくて！"
+    },
+    {
+      "Name": "観客A",
+      "Text": "……今の、聞いた？"
+    },
+    {
+      "Name": "観客A",
+      "Text": "すごい瞬間……見ちゃったね……"
+    },
+    {
+      "Name": "観客B",
+      "Text": "ミレニアム生って大胆……。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "だから誤解だってば！"
+    },
+    {
+      "Text": "（その後、しどろもどろのユウカを宥めるのに苦労した）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "(경기를 관람하기 위해 관중석에 앉아 있었을 때……)"
+    },
+    {
+      "Name": "노아",
+      "Text": "아, 선생님. 여기에 계셨군요."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, 어제는 밤늦게까지 수고 많으셨습니다. 잠은 조금 주무셨나요?"
+    },
+    {
+      "Text": "[s1] \"응, 학생들이 배려해 준 덕분에 잠깐 쉬었어.\""
+    },
+    {
+      "Text": "[s2] \"노아도 쉬었어?\""
+    },
+    {
+      "Name": "노아",
+      "Text": "네, 저도 개회식이 시작하기 전에 잠깐 눈을 붙였답니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "네, 저도 개회식이 시작하기 전에 잠깐 눈을 붙였답니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "눈을 붙이고 있는 사이에 뭔가 몇 가지 큰 소동이 지나간 것 같긴 하지만……"
+    },
+    {
+      "Name": "노아",
+      "Text": "그래도 다들 활기차고 즐거워 보여서 다행이네요."
+    },
+    {
+      "Text": "[s] \"열심히 준비한 보람이 있었네.\""
+    },
+    {
+      "Name": "노아",
+      "Text": "그러게요. 그럼 이어지는 다음 경기는……"
+    },
+    {
+      "Name": "노아",
+      "Text": "어머나, <물건 빌려오기> 경주였군요."
+    },
+    {
+      "Name": "노아",
+      "Text": "휴식도 충분히 취한 것 같으니, 슬슬 나갈 준비를 해야겠네요."
+    },
+    {
+      "Text": "[s] \"물건 빌려오기 경주에는 노아가 선수로 나가는 거야?\""
+    },
+    {
+      "Name": "노아",
+      "Text": "아뇨, 저는 선수가 아니라 심판으로 참여할 예정이랍니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "본래는 게임개발부의 하나오카 양이 나갈 예정이었지만, 유우카 쨩의 강력한 요청이 있어서 유우카 쨩이 대신 나가게 되었어요."
+    },
+    {
+      "Name": "노아",
+      "Text": "후후, <물건 빌려오기>라…… 이 <물건 빌려오기> 경주는 매 황륜대제마다 숱한 화제를 낳는 인기 경기랍니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "쪽지의 내용은 실행위원들도 알 수 없도록 추첨을 통해 정해지지만, 게임의 재미를 위해 '좋아하는 사람'이 적힌 쪽지를 하나 넣는 게 <황륜대제>의 불문율이거든요."
+    },
+    {
+      "Name": "노아",
+      "Text": "……과연 이번 경기에서는 유우카 쨩이 어떤 쪽지를 뽑을까 기대되네요."
+    },
+    {
+      "Name": "노아",
+      "Text": "그럼, 선생님. 앞으로도 계속 즐겁게 경기를 관람해주세요."
+    },
+    {
+      "Name": "시논",
+      "Text": "여러분, 오래 기다리셨습니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "지금부터 매회 선수들의 취향을 두고 화제를 몰고 다녔던 그 경기, <물건 빌려오기> 경주의 중계를 시작하겠습니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "경기의 인기를 방증이라도 하듯, 관중석의 분위기도 아까보다 훨씬 더 뜨겁게 달아올랐는데요!"
+    },
+    {
+      "Name": "시논",
+      "Text": "경기의 룰은 간단합니다! 트랙 가운데 있는 상자에서 특정한 키워드가 적힌 쪽지를 뽑고, 그 키워드에 부합하는 사람이나 물건과 함께 결승선을 통과하면 됩니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "단, 쪽지의 내용은 심판에게 보여줄 때까지는 발설해서는 안 된다고 하네요!"
+    },
+    {
+      "Name": "시논",
+      "Text": "앗. 말씀드리는 순간, 물건 빌려오기 경주에 참가하는 선수들이 트랙에 입장하고 있습니다!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "(물건 빌려오기의 출전권을 유즈가 양보해 줘서 다행이야.)"
+    },
+    {
+      "Name": "유우카",
+      "Text": "(유즈, 낯선 사람에게 말 거는 데에는 익숙하지 않으니까……)"
+    },
+    {
+      "Name": "유우카",
+      "Text": "(……밀레니엄 학원의 종합 우승을 위해서라도 이번 경기에선 질 수 없어!)"
+    },
+    {
+      "Name": "사키",
+      "Text": "(심판을 맡은 저 학생…… 분명 전에 보았던 세미나의 그 임원이지?)"
+    },
+    {
+      "Name": "사키",
+      "Text": "(학생회의 임원이 한 경기에 선수와 심판으로 함께 나오다니, 역시 수상해. 밀레니엄……)"
+    },
+    {
+      "Name": "사키",
+      "Text": "(무슨 흉계를 꾸미고 있는지는 모르겠지만, 피지컬로 밀어붙여 우승하면 그만이지!)"
+    },
+    {
+      "Name": "아코",
+      "Text": "(지난 대운동회의 결과 분석을 통해 쪽지에서 나올 수 있는 경우의 수는 모두 파악했습니다.)"
+    },
+    {
+      "Name": "아코",
+      "Text": "(이번 경기에서도 우승을 차지해서, 게헨나의 종합 우승을 확정 짓는 거예요!)"
+    },
+    {
+      "Name": "시논",
+      "Text": "자, 그럼 모두 준비하시고……"
+    },
+    {
+      "Name": "시논",
+      "Text": "출발!"
+    },
+    {
+      "Name": "시논",
+      "Text": "선수들, 신호탄이 터지는 것과 동시에 뽑기 상자를 향해 일제히 달려가고 있습니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "빠른 속도로 가장 먼저 상자에 도착한 선수는……"
+    },
+    {
+      "Name": "시논",
+      "Text": "SRT 특수학원의 소라이 사키 선수입니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "SRT 특수학원은 현재 폐교된 상태입니다만, 샬레의 도움을 받아 대운동회에 한해 임시로 SRT 학원의 이름을 사용하는 것이 허락되었는데요."
+    },
+    {
+      "Name": "시논",
+      "Text": "과연 사키 선수는 이번 경기를 통해 SRT 학원의 첫 승리를 거머쥘 수 있을까요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "어디 보자, 가져와야 할 물건이……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……4.2 인치 백린 연막탄? 이런 걸 경기장 어디에서 구해 오라는 거야?!"
+    },
+    {
+      "Name": "노아",
+      "Text": "땡~ 실격입니다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "시, 실격?!"
+    },
+    {
+      "Name": "노아",
+      "Text": "경기 시작 전에 말씀드렸지만, 쪽지에 적힌 내용은 비밀로 한 채 결승선을 통과하는 게 <물건 빌려오기>의 규칙이랍니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "쪽지에 적힌 내용을 다른 학생들이 알게 된다면 재미가 없으니까—"
+    },
+    {
+      "Name": "노아",
+      "Text": "아니, 다른 학생의 도움을 받을 수도 있으니까요."
+    },
+    {
+      "Name": "노아",
+      "Text": "아쉽지만 소라이 사키 양은 실격. 등외입니다!"
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐 하는 거야, 바보 사키!"
+    },
+    {
+      "Name": "미유",
+      "Text": "역시 우리 네 사람만으로는 무리였나……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "수고하셨습니다, 사키."
+    },
+    {
+      "Name": "미야코",
+      "Text": "아직 남은 경기는 많으니, 다음 경기에서 1등을 노리지요."
+    },
+    {
+      "Name": "사키",
+      "Text": "읏……"
+    },
+    {
+      "Name": "사키",
+      "Text": "하, 하지만 어차피 실격되지 않았어도 1등은 어려웠을 게 분명하잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "경기장 내에 대구경의 백린 연막탄을 갖고 있는 사람이 있을 리도 없고—"
+    },
+    {
+      "Name": "모에",
+      "Text": "나, 하나 갖고 있는데?"
+    },
+    {
+      "Name": "사키",
+      "Text": "……넌 그걸 왜 갖고 있는데?"
+    },
+    {
+      "Name": "시논",
+      "Text": "사키 선수의 실격으로 승부는 다시 원점으로!"
+    },
+    {
+      "Name": "시논",
+      "Text": "이어서 상자에 접근한 밀레니엄 학원의 하야세 유우카 선수가 제비를 뽑습니다!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "하아, 하아…… 어디 보자. 가져와야 하는 물건은……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "어, 그러니까…… 이 사람도 아니고,"
+    },
+    {
+      "Name": "유우카",
+      "Text": "이 사람도 아닌데……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "앗, 찾았다!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "선생님, 잠시 저랑 같이 가 주셔야겠어요!"
+    },
+    {
+      "Text": "[s] \"나, 나 말이야?\""
+    },
+    {
+      "Name": "유우카",
+      "Text": "네! 머뭇거릴 시간이 없어요! 어서요!"
+    },
+    {
+      "Name": "시논",
+      "Text": "유우카 선수, 쪽지의 내용을 확인하자마자 샬레의 선생님을 데리고 맹렬히 질주합니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "순위는 현재 1위! 하지만 과연 쪽지의 내용이 무엇이었기에 샬레의 선생님을 찾은 걸까요?"
+    },
+    {
+      "Name": "시논",
+      "Text": "……그리고 그대로 결승선을 통과! 잠정 1위입니다!"
+    },
+    {
+      "Name": "시논",
+      "Text": "하지만 맞는 물건을 빌려왔는지, 아직 심판의 확인이 남아 있습니다!"
+    },
+    {
+      "Name": "노아",
+      "Text": "흐음, 그렇군요……"
+    },
+    {
+      "Name": "노아",
+      "Text": "유우카 쨩은 그동안 [USERNAME] 선생님을 이렇게 생각하고 있었나 보네요. 후훗."
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐, 뭐야? 어차피 내용은 주관적인 거잖아? 뜸 들이지 말고 빨리 결정하라고!"
+    },
+    {
+      "Name": "노아",
+      "Text": "네, 이상 없습니다. 하야세 유우카 선수, 1위입니다."
+    },
+    {
+      "Name": "유우카",
+      "Text": "해냈다!"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "……분명 '물건 빌려오기' 경주의 조건 중에는 '좋아하는 사람'이 있었지?"
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "매번 좋아하는 사람과 함께 결승선을 통과하고 커플이 되는 선수가 꼭 한 명씩은 있었죠."
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "다른 선수들이 뽑은 쪽지는 좋아하는 사람은 아닌 것 같고……"
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "분명 쪽지를 보자마자 선생님 방향으로 향했으니, 유우카 씨가 설마……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "자, 잠깐! 다들 무슨 오해를 하고 있는 거야?!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "내가 뽑은 쪽지에는 '좋아하는 사람'이 아니라 어른스러운—"
+    },
+    {
+      "Name": "노아",
+      "Text": "앗, 안 돼요. 유우카 쨩. 쪽지의 내용을 말하는 것은 룰 위반입니다."
+    },
+    {
+      "Name": "노아",
+      "Text": "물건을 가져온 선수가 어떤 쪽지를 읽었는지 추측하는 것까지가 <물건 빌려오기 경주>의 관전 포인트니까요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "결승선을 통과한 뒤에는 말해도 되는 거 아니었어?"
+    },
+    {
+      "Name": "유우카",
+      "Text": "그리고 같은 밀레니엄 학생끼리 이렇게 깐깐하게 굴지 않아도 되잖아?"
+    },
+    {
+      "Name": "노아",
+      "Text": "안 됩니다. <황륜대제>는 모두에게 공평한 룰을 적용해야 하는 스포츠 대회니까요."
+    },
+    {
+      "Name": "노아",
+      "Text": "결과적으로 유우카 쨩의 부끄러운 마음이 드러난다고 해도 이를 예외로 해 드릴 수는 없어요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그러니까 좋아하는 사람이 아니라고 몇 번을 말해도—"
+    },
+    {
+      "Text": "[s] \"좋아하는 사람을 데려가는 게 아니었구나……\""
+    },
+    {
+      "Name": "유우카",
+      "Text": "네, 네에?!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "아, 아뇨! 그러니까 선생님을 좋아하지 않는다는 뜻은 아니지만……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "아…… 그, 그게 아니라!"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "……방금 한 말 들었어?"
+    },
+    {
+      "Name": "관람객 A",
+      "Text": "경기의 핑계를 대지 않고, 솔직하게 대놓고 자신의 마음을 고백할 줄이야……"
+    },
+    {
+      "Name": "관람객 B",
+      "Text": "……밀레니엄의 학생들은 생각보다 대담하네요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그러니까 오해라니까!"
+    },
+    {
+      "Text": "(이후, 부끄러워하며 횡설수설하는 유우카를 달래주느라 한동안 애를 먹었다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "I was sitting in the stands, ready to watch the games."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Hi there, Sensei. You made it!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Heehee. I wanted to say thank you again for yesterday. I hope you got some sleep."
+    },
+    {
+      "Text": "[s1] \"Yes, I got a lot of rest, thanks to you students.\" "
+    },
+    {
+      "Text": "[s2] \"Did you get some rest, Noa?\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "Same here! I took a quick nap before the opening ceremony."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I did. I took a quick nap before the opening ceremony."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I heard there were a few incidents while I was napping, but it is what it is."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I'm glad everyone seems to be enjoying themselves."
+    },
+    {
+      "Text": "[s] \"I guess all our hard work paid off, huh?\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "It's a great feeling. Now then, what's the next game?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Oh, it's the scavenger hunt!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Well, I'm well-rested and full of energy! I'll be off, Sensei."
+    },
+    {
+      "Text": "[s] \"Are you participating in the hunt, Noa?\""
+    },
+    {
+      "Name": "Noa",
+      "Text": "That I am! But as a referee, not a contestant."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Did you hear, though? Yuzu from the Game Development Department was scheduled for this event, but Yuuka insisted on taking her spot!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Heehee. The scavenger hunt... It's consistently one of the most popular games at the Kivotos Halo Festival."
+    },
+    {
+      "Name": "Noa",
+      "Text": "What you get on your note is determined through a draw. Not even the Executive Committee knows what's written on them. It's also an unwritten rule that \"someone you like\" is always written on some notes to make the game extra fun."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I'm quite excited to see which note Yuuka will draw."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Well then, enjoy the rest of the games, Sensei!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "The wait is finally over!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "The most eagerly awaited event of all of field day is here! Let the scavenger hunt begin!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Listen to the audience roar in approval for their favorite game!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "The rules of the game are simple! Players will each draw a slip of paper from the box in the middle of the track. They must then go fetch whatever item or person is written on their paper and cross the finish line to win!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "There's a catch! You're not allowed to show anyone what's on your paper!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "And here they are! The scavenger hunt contestants are walking onto the field as I speak!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "(Thank goodness Yuzu was happy to let me take her place.)"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "(She seemed pretty relieved actually. Yuzu has never been the best at talking to strangers.)"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "(...I can't lose this game. I have to win for Millennium!)"
+    },
+    {
+      "Name": "Saki",
+      "Text": "(That student referee... Is she that Seminar executive I met last time?)"
+    },
+    {
+      "Name": "Saki",
+      "Text": "(How can executives from their Student Council enter as both contestants and referees for the same game? I don't trust Millennium at all.)"
+    },
+    {
+      "Name": "Saki",
+      "Text": "(But I'm an elite member of SRT! No matter what schemes they're cooking, I can just overpower them with my strength.)"
+    },
+    {
+      "Name": "Ako",
+      "Text": "(I've analyzed video footage from past field days and ran simulations on every possible scenario.)"
+    },
+    {
+      "Name": "Ako",
+      "Text": "(I'm going to win and secure Gehenna's lead for the Halo Festival!)"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Now... Ready... Get set..."
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Go!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "With the bang of the starting flare, the contests are off!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "The first to reach the box is..."
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Sorai Saki from SRT Academy!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "SRT Academy is currently closed, but they received permission from Schale to use the name temporarily, just for the festival."
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Will Saki be able to achieve SRT Academy's first victory?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Let's see. The item is..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...A four-point-two inch white phosphorus smoke grenade?! How am I supposed to find a weapon like that in the stadium?!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Disqualified!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "D-Disqualified?!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Sorry, but it's the rules! You are not allowed to reveal what is written on your paper until you pass the finish line and present it to the referee!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "It ruins the game if other students know what you have. Part of the game is for each participant to guess what the others have!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "And if you reveal your item, you could receive help from other students, and this isn't a team game!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "My apologies, but Sorai Saki is disqualified! Please make your way off the track."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I knew you were a dummy, Saki, but even I had higher expectations of you!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-There's only four of us, so w-we probably should've managed our expectations a l-little bit..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Good effort, Saki."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There's still a lot more games to play. We'll win the next one."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...Ugh."
+    },
+    {
+      "Name": "Saki",
+      "Text": "W-Well, it would've been impossible to win even if I hadn't been disqualified."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I mean, who would bring a phosphorus smoke grenade to the Halo Festival?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Y-Yeah... Who would do that...?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "...Seriously, Moe?"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "That's one down, two more to go!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Hayase Yuuka from Millennium Science School is the next to reach the box!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "*pant pant* Let's see... I have to get..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Hmm... No, not this..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Not this one either..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Hah! Found it!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Sensei! Can you please come with me for a second?"
+    },
+    {
+      "Text": "[s] \"M-Me?\""
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Yes! There's no time for you to be confused! Let's go!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Yuuka went sprinting towards the Schale Sensei as soon as she got her note!"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "And with that, she takes the lead! What could be written on her note?! Why did she bring Sensei?"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "And she's passed the finish line! We have a first place winner...or do we?"
+    },
+    {
+      "Name": "Shinon",
+      "Text": "Before we announce anything, the referee will have to check if she brought the correct item."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Hmm... I see..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I see how Yuuka feels about [USERNAME] Sensei now. Heehee."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I-I don't know what you're saying! You're being biased! Just make a decision already."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yes. This is acceptable. Hayase Yuuka is in the lead."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Yes! I did it!"
+    },
+    {
+      "Name": "Onlooker A",
+      "Text": "...Going for \"someone you like\" is always part of the scavenger hunt."
+    },
+    {
+      "Name": "Onlooker B",
+      "Text": "At least one contestant usually takes the person they like over the finish line with that. They say it's the blessing of the Halo Festival, because the pair always starts going out after!"
+    },
+    {
+      "Name": "Onlooker A",
+      "Text": "It doesn't seem like the other contestants got that prompt..."
+    },
+    {
+      "Name": "Onlooker B",
+      "Text": "Oh my god! And Yuuka started running towards Sensei when she pulled her paper!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "W-Wait! This is a misunderstanding!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "The note I picked didn't say \"someone you like.\" It said \"someone who's mature\"..."
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yuuka! You're not allowed to say what's written on your paper."
+    },
+    {
+      "Name": "Noa",
+      "Text": "The whole point is to guess what each contestant has!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I already passed the finish line! It shouldn't matter."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Do you really have to nitpick against another Millennium student? And fellow Seminar member of all people?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Yes. I do. Fair and free competition is the very soul of the Halo Festival."
+    },
+    {
+      "Name": "Noa",
+      "Text": "I can't make any exceptions. Even if you do look adorable when you're embarrassed, Yuuka."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I have nothing to be embarrassed about! I'm telling you it didn't say \"someone you like\"!"
+    },
+    {
+      "Text": "[s] \"Oh... So you didn't choose me as someone you like...\""
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "N-No! That's not what I meant, Sensei..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I-I didn't mean it like that...!"
+    },
+    {
+      "Name": "Onlooker A",
+      "Text": "...Did you guys just hear her?"
+    },
+    {
+      "Name": "Onlooker A",
+      "Text": "That confession really came from the bottom of her heart."
+    },
+    {
+      "Name": "Onlooker B",
+      "Text": "Are all Millennium students this bold? I'm impressed."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Please, listen to me! This is a misunderstanding!"
+    },
+    {
+      "Text": "It took me quite some time and a lot of reassurances to calm Yuuka down and make her feel better."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "(คุณครูกำลังนั่งอยู่บนอัฒจันทร์เพื่อชมการแข่งขัน และระหว่างนั้นเอง...)"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อ๊ะ คุณครู มาอยู่ตรงนี้เองเหรอคะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ เมื่อคืนต้องเหนื่อยทั้งคืนเลยใช่มั้ยคะ ได้นอนพักบ้างแล้วยังคะ?"
+    },
+    {
+      "Text": "[s1] \"อื้ม ต้องขอบใจนักเรียนที่ทำให้ครูได้พักกับเขาบ้าง แล้วโนอาล่ะ?\""
+    },
+    {
+      "Text": "[s2] \"ถึงเหนื่อยแต่ก็ได้พักเหมือนกัน แล้วโนอาล่ะ?\""
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันเองก็งีบหลับไปสักครู่หนึ่งก่อนจะเริ่มเปิดการแข่งขันแล้วละค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฉันเองก็งีบหลับไปสักครู่หนึ่งก่อนจะเริ่มเปิดการแข่งขันแล้วละค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "แต่ระหว่างที่หลับอยู่ รู้สึกเหมือนมีเรื่องโกลาหลเกิดขึ้น 2-3 เรื่องเลยค่ะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "แต่ยังไงก็โล่งอกที่ทุกคนยังดูมีชีวิตชีวาและสนุกสนานไปกับงานนะคะ"
+    },
+    {
+      "Text": "[s] \"คุ้มค่ากับที่ตั้งใจเตรียมงานกันเลยนะ\""
+    },
+    {
+      "Name": "โนอา",
+      "Text": "นั่นสิคะ การแข่งขันในรายการต่อไป..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "โอ๊ะ เป็นการแข่งขัน <ของชิ้นนั้น เอามันมาให้ที> น่ะค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ได้พักผ่อนกันพอสมควรแล้ว คงต้องเตรียมตัวออกไปแล้วละค่ะ"
+    },
+    {
+      "Text": "[s] \"โนอาลงแข่งในการแข่งขันของชิ้นนั้น เอามันมาให้ทีงั้นเหรอ?\""
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ไม่ใช่ค่ะ ฉันไม่ได้ลงแข่ง แต่ไปเป็นกรรมการตัดสินน่ะค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "เดิมทีแล้ว ฮานาโอกะจากชมรมพัฒนาเกมจะเป็นคนลงแข่งค่ะ แต่ยูกะจังก็ไปขอว่าตนจะลงแข่งเอง สุดท้ายก็เลยให้ยูกะจังเป็นตัวแทนแข่งขันค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ฮุฮุ... <ของชิ้นนั้น เอามันมาให้ที> เป็นการแข่งขันยอดฮิตที่เป็นประเด็นได้ในฮาโลเฟสติวัลทุกครั้งเลย\nละค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ข้อความที่อยู่ในโน้ตจะกำหนดโดยการสุ่ม จะได้เป็นความลับแม้แต่กับคณะกรรมการจัดงาน แต่ทุกปีจะ\nมีการใส่โน้ตที่เขียนว่าให้ไปเอาตัว 'คนที่ชอบ' มา จนเป็นธรรมเนียมของฮาโลเฟสติวัลไปแล้วค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "...อยากรู้จังเลยค่ะว่าครั้งนี้ยูกะจังจะหยิบได้กระดาษโน้ตแผ่นไหน"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "เอาละ ถ้างั้นก็ขอให้สนุกกับการแข่งขันที่เหลือนะคะคุณครู"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "รอกันนานมั้ยคะทุกคน!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "จากนี้ไปจะเริ่มการแข่งขัน <ของชิ้นนั้น เอามันมาให้ที> ที่เป็นการแข่งขันวัดรสนิยมของผู้เข้าแข่งขัน\nจนเป็นประเด็นในทุกครั้งแล้วค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "ตอนนี้บรรยากาศบนอัฒจันทร์ครึ้กครื้นมากกว่าเดิมหลายเท่าเลยค่ะ ถือว่าเป็นสิ่งพิสูจน์ความนิยมของ\nการแข่งขันนี้ได้เลยนะคะ"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "กติกาการแข่งขันนั้นง่ายมากค่ะ เพียงหยิบกระดาษโน้ตที่มีคีย์เวิร์ดเขียนอยู่จากกล่องที่อยู่ในสนาม จากนั้นก็ไปเอาสิ่งของหรือบุคคลที่สอดคล้องกับคีย์เวิร์ดนั้นมาแล้ววิ่งให้ถึงเส้นชัยค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "แต่มีข้อแม้ว่าห้ามเปิดเผยคีย์เวิร์ดในกระดาษโน้ตจนกว่าจะวิ่งมาถึงเส้นชัยนะคะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "อ๊ะ ระหว่างที่ฉันอธิบายกติกา เหล่านักกีฬา <ของชิ้นนั้น เอามันมาให้ที> ก็ตบเท้าลงสนามกันแล้วค่ะ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "(โชคดีที่ยูสึยอมยกสิทธิ์แข่งขันนี้ให้เราแทน)"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "(ก็ยูสึไม่ค่อยถนัดกับการชวนคนแปลกหน้าคุยนี่เนอะ...)"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "(เพื่อชัยชนะของโรงเรียนมิลเลเนียม ฉันจะแพ้ในการแข่งขันนี้ไม่ได้!)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "(นักเรียนที่เป็นกรรมการคนนั้น... ใช่สมาชิกเซมิน่าที่เคยเจอกันก่อนหน้านี้แล้วรึเปล่าน่ะ?)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "(สภานักเรียนเป็นทั้งผู้เข้าแข่งขันและกรรมการตัดสินในการแข่งขันเดียวกันเลยเหรอ... น่าสงสัยชะมัด พวกมิลเลเนียม...)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "(ถึงจะไม่รู้ว่าพวกนั้นกำลังวางแผนร้ายอะไรอยู่ แต่แค่เอาชนะด้วยร่างกายก็พอ!)"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "(ฉันอ้างอิงผลการแข่งขันในงานมหกรรมแข่งขันกีฬาครั้งที่แล้ว และวิเคราะห์ความเป็นไปได้ของ\nคีย์เวิร์ดในกระดาษโน้ตมาหมดแล้วค่ะ)"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "(ฉันจะเอาชนะในการแข่งขันนี้ เพื่อให้เกเฮนน่าได้ลอยลำเข้าสู่อันดับ 1 อย่างแน่นอนให้ได้ค่ะ!)"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "เอาละ ถ้างั้นทุกคนก็เตรียมตัว..."
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "และ... เริ่มค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "ทันทีที่กรรมการยิงให้สัญญาณ นักกีฬาทุกคนก็วิ่งตรงไปยังกล่องสุ่มกระดาษโน้ตแล้วค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "และนักกีฬาที่วิ่งไปถึงกล่องได้เป็นคนแรกก็คือ..."
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "โซราอิ ซากิ จากสถาบันพิเศษ SRT ค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "ถึงตอนนี้สถาบันพิเศษ SRT จะถูกปิดไปแล้ว แต่ชาเล่ต์ก็ช่วยทำเรื่องให้สามารถลงแข่งขันในนามสถาบัน SRT ได้ชั่วคราวค่ะ"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "นักกีฬาซากิจะคว้าชัยชนะแรกให้กับสถาบัน SRT จากการแข่งขันนี้ได้มั้ยคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไหนดูซิ ของที่ต้องไปเอามาคือ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ระเบิดควันฟอสฟอรัสขาวขนาด 4.2 นิ้ว? จะไปหาของแบบนี้จากในสนามได้ยังไงกันเล่า?!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ปี๊ด~! ตกรอบค่ะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตะ... ตกรอบเหรอ?!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "เราได้แจ้งไปก่อนเริ่มการแข่งขันแล้วว่า กฎเหล็กของการแข่งขัน <ของชิ้นนั้น เอามันมาให้ที> คือต้อง\nปิดคีย์เวิร์ดที่ได้เป็นความลับจนกว่าจะวิ่งเข้าเส้นชัยค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ถ้านักเรียนคนอื่นรู้ว่าของที่ต้องไปเอามาคืออะไรมันก็จะหมดความน่าสนุก—"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ไม่สิ ถ้าคนอื่นรู้ ก็อาจจะแอบช่วยก็ได้ค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "น่าเสียดายนะคะ แต่คงต้องให้โซราอิ ซากิ ตกรอบค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อะไรของเธอเนี่ย ยัยบื้อซากิ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แค่พวกเราสี่คนคงสู้ไม่ไหวหรือเปล่านะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถือว่าทำได้ดีแล้วละค่ะ ซากิ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ยังมีการแข่งขันอื่นเหลืออีก ไว้คว้าที่ 1 จากรายการอื่นแล้วกันค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตะ... แต่ถึงจะไม่โดนปรับให้ตกรอบ ก็ไม่น่าจะได้ที่ 1 อยู่แล้วแหละ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใครมันจะไปพกระเบิดควันฟอสฟอรัสขาวมาดูแข่งกีฬาด้วยกันเล่า—"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันมีมาลูกหนึ่งนะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...นี่เธอพกของแบบนั้นติดตัวมาทำไมน่ะ?"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "นักกีฬาซากิออกจากการแข่งขันไป จึงต้องเริ่มใหม่กันอีกครั้งค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "ฮายาเสะ ยูกะ จากโรงเรียนมิลเลเนียมที่มาถึงกล่องเป็นคนถัดไปจะได้หยิบกระดาษโน้ตค่ะ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "แฮ่ก... แฮ่ก... ไหนดูซิ ของที่ต้องไปเอามา..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เอ่อ... อยู่ไหนนะ... คนนี้ก็ไม่ใช่"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "คนนี้ก็ไม่ใช่อีก..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อ๊ะ เจอแล้ว!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "คุณครูคะ ช่วยไปกับฉันหน่อยนะคะ!"
+    },
+    {
+      "Text": "[s] \"คะ... ครูเหรอ?\""
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ค่ะ! ไม่มีเวลาลังเลแล้ว! ให้ไวเลยค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "นักกีฬายูกะอ่านคีย์เวิร์ดแล้วก็รีบวิ่งไปหาคุณครูจากชาเล่ต์เลยค่ะทุกคน!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "ตอนนี้เธออยู่ในอันดับ 1 เลย! ไปพาคุณครูจากชาเล่ต์มาแบบนี้ สงสัยจังเลยค่ะว่าคีย์เวิร์ดที่ได้คืออะไร\nกันแน่?"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "วิ่งเข้าเส้นชัยไปแล้วค่ะ! ได้ครองอันดับ 1 ชั่วคราวเลยค่ะ!"
+    },
+    {
+      "Name": "ชิน่อน",
+      "Text": "แต่ยังเหลือการตัดสินของกรรมการนะคะ ว่าไปเอาของที่ตรงกับคีย์เวิร์ดมาให้จริงๆ หรือเปล่า!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อืม... อย่างนี้เองเหรอคะ..."
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ที่ผ่านมายูกะจังคิดกับคุณครู [USERNAME] แบบนี้สินะคะ ฮุฮุ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อะ... อะไรน่ะ? มันอิงตามความคิดส่วนตัวของผู้เข้าแข่งขันไม่ใช่เหรอ? รีบตัดสินเร็วๆ เข้าสิ!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ค่ะ ให้ผ่านค่ะ นักกีฬาฮายาเสะ ยูกะ ได้อันดับ 1 ค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ทำได้แล้ว!"
+    },
+    {
+      "Name": "นักท่องเที่ยว A",
+      "Text": "เกม <ของชิ้นนั้น เอามันมาให้ที> จะมีโจทย์ 'คนที่ชอบ' เหมือนกันทุกครั้งใช่มั้ย?"
+    },
+    {
+      "Name": "นักท่องเที่ยว B",
+      "Text": "ทุกครั้งจะมีนักกีฬาที่วิ่งเข้าเส้นชัยพร้อมคนที่ตัวเองชอบ จนได้เป็นคู่รักให้เห็นบ่อยๆ เลยละค่ะ"
+    },
+    {
+      "Name": "นักท่องเที่ยว A",
+      "Text": "นักกีฬาคนอื่นก็ไม่น่าหยิบได้คีย์เวิร์ดคนที่ชอบนะ..."
+    },
+    {
+      "Name": "นักท่องเที่ยว B",
+      "Text": "พอได้อ่านคีย์เวิร์ดก็รีบวิ่งปรี่ไปหาคุณครูขนาดนั้น แสดงว่าคุณยูกะ..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ดะ... เดี๋ยวก่อน! ทุกคนเข้าใจอะไรผิดกันอยู่น่ะ?!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "คีย์เวิร์ดที่ฉันได้ ไม่ใช่ 'คนที่ชอบ' แต่เป็น 'คนที่เป็นผู้ใหญ่'—"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "อ๊ะ ไม่ได้นะคะ ยูกะจัง ถ้าเปิดเผยเนื้อหาในกระดาษโน้ต จะเป็นการผิดกติกานะคะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "การให้ผู้ชมได้เดาว่านักกีฬาที่ไปเอาของนั้นๆ มาได้คีย์เวิร์ดอะไรกันแน่ ก็เป็นอีกหนึ่งความสนุกของ\nการชม <ของชิ้นนั้น เอามันมาให้ที> นะคะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ก็แล้วไหนว่าห้ามพูดแค่ก่อนวิ่งเข้าเส้นชัยไงล่ะ?"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อีกอย่าง ฉันว่าเธอไม่เห็นจะต้องเรื่องมากกับนักเรียนมิลเลเนียมด้วยกันเลยนี่นา?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ไม่ได้ค่ะ <ฮาโลเฟสติวัล> เป็นการแข่งกีฬาที่ใช้กฎกติกาที่ยุติธรรมกับทุกคนค่ะ"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ถึงยูกะจังจะต้องเขินอายต่อหน้าประชาชี แต่ฉันก็ยกเว้นให้ไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ฉันบอกตั้งกี่ครั้งแล้วว่าคีย์เวิร์ดไม่ใช่คนที่ชอบ—"
+    },
+    {
+      "Text": "[s] \"ให้ไปพาตัวคนที่ชอบมานี่เอง...\""
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "คะ...?!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "มะ... ไม่ใช่นะคะ! แต่ก็ไม่ได้แปลว่าฉันไม่ชอบคุณครูหรอกนะคะ..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เอ่อ... คะ... คือว่า...! "
+    },
+    {
+      "Name": "นักท่องเที่ยว A",
+      "Text": "...ได้ยินที่เธอเพิ่งพูดออกมามั้ย?"
+    },
+    {
+      "Name": "นักท่องเที่ยว A",
+      "Text": "คิดไม่ถึงเลยว่าจะสารภาพความรู้สึกของตัวเองอย่างเปิดเผยโดยไม่ใช้การแข่งขันเป็นข้ออ้าง..."
+    },
+    {
+      "Name": "นักท่องเที่ยว B",
+      "Text": "...นักเรียนมิลเลเนียมนี่ไม่ธรรมดาเลยนะคะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ก็บอกว่าเข้าใจผิดกันอยู่ไงเล่า!"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็ต้องลำบากอยู่พักหนึ่งกับการปลอบยูกะที่เขินอายและพูดอะไรวกไปวนมา)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "（坐在觀眾席上觀賞比賽時……）"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "啊，老師。你在這裡啊。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵，昨天晚上辛苦了。\n有稍微睡一下嗎？"
+    },
+    {
+      "Text": "[s1]「嗯，託大家的福，我有好好休息了。」"
+    },
+    {
+      "Text": "[s2]「乃愛也有休息嗎？」"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "有的，我在開幕式開始前小睡了片刻。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "有的，我在開幕式開始前小睡了片刻。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "在此期間，好像發生了一些我不知道的事……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "所幸大家看起來都充滿活力、十分開心。"
+    },
+    {
+      "Text": "[s]「努力準備總算是值得了。」"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "就是說啊。\n那麼，下一場比賽是……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "哎呀，是「借物競賽」呢。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "那我差不多該去準備了……"
+    },
+    {
+      "Text": "[s]「要去參加借物競賽嗎？」"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "是的，但我擔任的並非選手，而是裁判。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "至於選手方面，本來是由遊戲開發部的花岡同學出賽……\n然而在優香醬本人的極力要求下，將改由他來出賽。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵……「借物競賽」是每屆的晄輪大祭都會締造傳說的人氣競賽。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "即使是實行委員，也不知道會借什麼東西……\n但每次一定會有寫了「喜歡的人」的紙條，這可是這場比賽的看點。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "……優香醬究竟會抽到什麼呢？真是令人期待。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "那麼，老師。\n請繼續享受後面的比賽吧。"
+    },
+    {
+      "Name": "詩音",
+      "Text": "克洛盧斯頻道的各位觀眾，久等了！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "現在，終於要揭開「借物競賽」的序幕了！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "觀眾席也相當熱烈呢！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "規則很簡單！從跑道上的箱子中取出紙條，\n帶著和上頭寫的關鍵字相符的東西一起通過終點就行了！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "只不過，在給裁判看之前，關鍵字必須保密！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "那麼，選手們開始進場了！"
+    },
+    {
+      "Name": "優香",
+      "Text": "（代替柚子來參加借物競賽真是太好了……）"
+    },
+    {
+      "Name": "優香",
+      "Text": "（畢竟柚子不擅長和陌生人搭話……）"
+    },
+    {
+      "Name": "優香",
+      "Text": "（為了讓千年學園獲得總冠軍……這場比賽絕對不能輸！）"
+    },
+    {
+      "Name": "咲希",
+      "Text": "（擔任裁判的學生……是先前見過的研討會幹部吧？）"
+    },
+    {
+      "Name": "咲希",
+      "Text": "（由主辦方的學生會幹部在同一場比賽中擔任選手和裁判……\n　果然很可疑呢，千年……）"
+    },
+    {
+      "Name": "咲希",
+      "Text": "（算了，怎樣都好。不管你們在策畫什麼，只要靠體能取得勝利就行了！）"
+    },
+    {
+      "Name": "亞子",
+      "Text": "（透過分析上次大運動會的結果，我已經掌握了紙條中可能會出現的各種情況）"
+    },
+    {
+      "Name": "亞子",
+      "Text": "（只要這場比賽也取得勝利，就能確保格黑娜奪下總冠軍了！）"
+    },
+    {
+      "Name": "詩音",
+      "Text": "那麼，各就各位……"
+    },
+    {
+      "Name": "詩音",
+      "Text": "預備，開始！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "現在「借物競賽」已經開始！\n所有選手都往箱子的方向奔去！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "最先抵達的是……"
+    },
+    {
+      "Name": "詩音",
+      "Text": "SRT特殊學園的空井咲希選手！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "正如大家所知，SRT特殊學園目前仍處於廢校狀態，\n不過在夏萊的協助下，被允許在大運動會期間暫時以SRT特殊學園的名義參賽。"
+    },
+    {
+      "Name": "詩音",
+      "Text": "咲希選手究竟能不能在這場比賽中為SRT特殊學園取得首勝呢？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "好了，來看看到底會出現什麼……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……4.2吋白磷煙霧彈？\n到底運動場的哪裡會有這種東西啊！？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "BU～！空井咲希選手失去資格！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "失，失去資格！？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "方才比賽開始前有聲明過，紙條上的內容在通過終點前要保密，\n否則便喪失比賽資格。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "因為讓同學們知道了紙條內容就沒意思了──"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "啊，更正，是會因此讓借物的難度下降。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "雖然很可惜……空井咲希選手失去資格。SRT特殊學園將不列入排名。"
+    },
+    {
+      "Name": "萌",
+      "Text": "咲希，你搞啥啊！"
+    },
+    {
+      "Name": "美優",
+      "Text": "果然光憑我們4個……太勉強了……"
+    },
+    {
+      "Name": "都子",
+      "Text": "辛苦了，咲希。"
+    },
+    {
+      "Name": "都子",
+      "Text": "比賽還有很多，不要緊。\n下一場就以第1名為目標吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "但，但是，就算沒有被判失格，也無法奪下第1名吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "運動場內怎麼可能會有人帶白磷煙霧彈──"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗯？我就有帶啊？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "到底為什麼會帶那種東西……？"
+    },
+    {
+      "Name": "詩音",
+      "Text": "因為咲希選手的失格，狀況又回到了未知數！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "接著抵達箱子的是──千年的早瀬優香選手！"
+    },
+    {
+      "Name": "優香",
+      "Text": "哈啊，哈啊……我看看，題目是……"
+    },
+    {
+      "Name": "優香",
+      "Text": "唔嗯……這個人……不是……"
+    },
+    {
+      "Name": "優香",
+      "Text": "也不是這個人……\n那個……"
+    },
+    {
+      "Name": "優香",
+      "Text": "啊，有了！"
+    },
+    {
+      "Name": "優香",
+      "Text": "老師，請跟我來一下！"
+    },
+    {
+      "Text": "[s]「我，我嗎！？」"
+    },
+    {
+      "Name": "優香",
+      "Text": "對！\n沒有時間了，動作快！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "優香選手一確認完紙條的內容後，就帶著夏萊的老師一路狂奔！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "目前排名第1！紙條上究竟寫了什麼！？\n為什麼會選擇夏萊的老師呢！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "優香選手還在跑……通過終點！排名暫定為第1位！"
+    },
+    {
+      "Name": "詩音",
+      "Text": "不過，結果還得看裁判怎麼定奪！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "哎呀……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "優香醬是這麼看待[USERNAME]老師的呀……呵呵。"
+    },
+    {
+      "Name": "優香",
+      "Text": "怎，怎樣啦！？反正也不是什麼有標準答案的題目吧？\n別賣關子了，快點判定！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "呵呵……好的，答案沒有問題。\n早瀬優香選手是第1名！"
+    },
+    {
+      "Name": "優香",
+      "Text": "太好了！"
+    },
+    {
+      "Name": "觀眾A",
+      "Text": "我記得……要借的目標裡包含「喜歡的人」對吧？"
+    },
+    {
+      "Name": "觀眾B",
+      "Text": "每一屆都會有選手帶著喜歡的人通過終點，然後成為情侶。"
+    },
+    {
+      "Name": "觀眾A",
+      "Text": "其他選手的題目似乎都不是「喜歡的人」……"
+    },
+    {
+      "Name": "觀眾B",
+      "Text": "優香同學一看完紙條後便立刻奔向老師那裡……\n難不成……"
+    },
+    {
+      "Name": "優香",
+      "Text": "等，等等！大家好像誤會了什麼！？"
+    },
+    {
+      "Name": "優香",
+      "Text": "我的題目不是「喜歡的人」──"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "啊，不行唷，優香醬。說出題目是違反規定的。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "因為猜測選手抽到的紙條內容，也是「借物競賽」的觀賽重點。"
+    },
+    {
+      "Name": "優香",
+      "Text": "通過終點後就能說了吧？"
+    },
+    {
+      "Name": "優香",
+      "Text": "而且，也需要解開[ruby=千年學生]大家[/ruby]的誤會……"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "不行唷。「晄輪大祭」不能有任何例外。"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "就算結果讓優香醬覺得不好意思，不行就是不行。"
+    },
+    {
+      "Name": "優香",
+      "Text": "我就已經說過好幾次不是喜歡的人──"
+    },
+    {
+      "Text": "[s]「原來不是喜歡的人啊……」"
+    },
+    {
+      "Name": "優香",
+      "Text": "咦！？"
+    },
+    {
+      "Name": "優香",
+      "Text": "不，不是啦！那個……我不是不喜歡老師的意思……"
+    },
+    {
+      "Name": "優香",
+      "Text": "啊……也，也不是那個意思！"
+    },
+    {
+      "Name": "觀眾A",
+      "Text": "……大家剛才聽到了嗎？"
+    },
+    {
+      "Name": "觀眾A",
+      "Text": "居然不拿比賽當理由，而是直接表明自己的心意……"
+    },
+    {
+      "Name": "觀眾B",
+      "Text": "千年的學生真是大膽呢……"
+    },
+    {
+      "Name": "優香",
+      "Text": "就說是誤會了！"
+    },
+    {
+      "Text": "（之後，為了安撫語無倫次的優香費了好一番功夫）"
+    }
+  ]
+}

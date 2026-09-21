@@ -1,0 +1,1772 @@
+{
+  "TitleJP": "シャーレ奪還作戦（１）",
+  "TitleKR": "샬레 탈환 작전 1",
+  "TitleEN": "Operation Recapture Schale 1",
+  "TitleTH": "ปฏิบัติการยึดคืนชาเล่ต์ 1",
+  "TitleTW": "夏萊奪還作戰（１）",
+  "DescJP": "連邦生徒会を占拠したカイザーによってD.U.全体に戒厳令が敷かれてしまった。一同は、この事態を解消するために、シャーレに囚えられてしまったというリンの元へ向かうべく作戦を立てる。そうして、一同は「シャーレ奪還作戦」を敢行するのだった。",
+  "DescKR": "총학생회를 점거한 카이저에 의해 D.U. 전역에는 이미 계엄령이 발동된 상황. 현재 진행형인 혼란을 정상화하고 샬레에 감금된 린을 구출하기 위해 RABBIT 소대와 생활안전국을 필두로 한 샬레 탈환 작전이 시작된다.",
+  "DescEN": "Kaiser has taken over the General Student Council and declared martial law across D.U. Rin is imprisoned in Schale. To calm the chaos and rescue Rin, the RABBIT Squad and the Public Safety Bureau launch a joint operation to retake Schale.",
+  "DescTH": "ภายใต้สถานการณ์ที่มีการบังคับใช้กฎอัยการศึกในพื้นที่ D.U. เนื่องจาก\nไคเซอร์เข้ายึดองค์การนักเรียน ปฏิบัติการยึดคืนชาเล่ต์ภายใต้การนำของ\nสำนักรักษาความปลอดภัยและกองทหาร RABBIT เพื่อเข้าควบคุม\nสถานการณ์ในปัจจุบันและช่วยเหลือรินที่ถูกขังไว้ในชาเล่ต์ได้เริ่มต้นขึ้น",
+  "DescTW": "凱薩占領了聯邦學生會，D.U.全區已經宣布緊急事態。為了平息眼前的混亂和救出被囚禁在夏萊的琳，以RABBIT小隊和生活安全局為首展開了夏萊奪還作戰。",
+  "DialogJP": [
+    {
+      "Text": "第13話;[ruby=S.C.H.]シャーレ[/ruby]奪還作戦（１）"
+    },
+    {
+      "Text": "（PMCの基地を無事抜け出して、子ウサギ公園に身を隠した)"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……そうだったのですね。\n先生も巻き込まれて、拉致されていた、と。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "カンナ局長がいなかったら、本当に危ないところでしたね。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あの狂犬が、先生を助けるために自分を犠牲にするなんて……\nにわかには信じられないな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "すごい怪我です……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "とりあえずテントで寝かせてるけど、休んだら勝手に起きるんじゃない？\nヴァルキューレの公安局長だし。きっと大丈夫だよ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "今はお互いの情報を共有して、状況を把握した方がよさそうですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何が起きているのか、何をすべきか……現状の整理が必要です。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "現在、D.U.は戒厳令が発動されたため、すべての通信・物流・移動が禁じられました。行政関連もシャットダウンされた状態です。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "D.U.外部に通じる全ての通信が遮断されているため、\n他学園の自治区からの支援も難しく、室長たちの行方も分かりません……"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "カイザーが公布した戒厳令を取り消すには、彼らから行政制御権を取り戻さなくてはなりません。しかし、連邦生徒会の行政官は現在、不信任決議案が議決され、行政権限を喪失しています！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "これを解消するには、不信任決議案に同意した6人の室長が意見を撤回するか、\n投票を行なって、再信任可決をしなくてはならず……"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ですがこれも、戒厳令のせいで不可能……問題が堂々巡りしている状態です！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "つまり、今の連邦生徒会は何の役にも立たないってことね。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あいつらが役に立ったことなんてあったか？ "
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが、一企業に行政権限を奪われるなんて……\nSRT特殊学園が維持されていれば、最悪の事態は避けられたはず……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そ、それじゃ……今もサンクトゥムタワーはカイザーに掌握されてるんだよね……一体どうすれば……"
+    },
+    {
+      "Text": "[s] \"残された方法は……\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "あとはもう、サンクトゥムタワーの行政制御権を掌握してる場所に突撃し、\n物理的に阻止するしかありません！"
+    },
+    {
+      "Text": "[s] \"行政制御権を掌握している場所……？\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "――シャーレです！ "
+    },
+    {
+      "Text": "[s] \"シャーレ……？\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "はい。正確にはシャーレの地下、「クラフトチェンバー」です！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "「クラフトチェンバー」は、連邦生徒会長が残した、物質生成器。\n本来、シッテムの箱の管理者だけが接続できるのですが…… "
+    },
+    {
+      "Name": "アロナ",
+      "Text": "とある方法で、カイザーコーポレーションは認証を回避し、クラフトチェンバーを起動しました。それによってサンクトゥムタワーを掌握したみたいで…‥！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "それと関連しているのかは分かりませんが、カイザーはリン行政官を拉致し、シャーレに幽閉しているようです。"
+    },
+    {
+      "Text": "[s] \"リンがシャーレに……\" "
+    },
+    {
+      "Name": "アロナ",
+      "Text": "はい、リンさんは今シャーレ内に閉じ込められています！\n幸い、怪我は無いようですが……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……理解しました。つまり、PMCに掌握されているシャーレを奪還するのですね。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ここにいる私たちだけで、やるの……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まぁ、他の自治区と連絡が取れないから、私たちがやるしかないわね。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちょうどいい。いつかシャーレをぶっ飛ばしたいと思ってたところだったんだ。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "分かりました！本官も、頑張ります！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "はぁ……というか、そう簡単にいかないんじゃない～？\n相手はキヴォトス屈指の大企業、カイザーだよ？ "
+    },
+    {
+      "Name": "フブキ",
+      "Text": "バカじゃないんだから、私たちが来ることだって想定してるだろうし……"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "……カイザーSOFをお呼びしろ。"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "と、[ruby=Special Operation Forces]特殊部隊員[/ruby]を、ですか？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "ああ。先生がこっちに向かっている。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "あの者なら、今どこを攻撃すべきかを誰よりも熟知しているだろう。\nだから備えなくては。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "本来はあの「狐」用だったが……仕方ない。\nカイザーPMCの決戦部隊という最高の切り札を、今ここで使おうじゃないか。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "急げ！"
+    },
+    {
+      "Name": "PMC兵士",
+      "Text": "は、はい！"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "私は、油断して失敗するようなバカとは違うからな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うう……幽閉された行政官を助け出して、カイザーの陰謀も阻止……\nわ、私に、できるのかな……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ミユ、できるかできないかの問題ではありません、やらなくては。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "そうです！キヴォトスの平和が、私たちの手にかかっているんです！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "う、うん……がんばるね……。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "うう……これが終わったら、29泊30日くらいの休暇を貰ってやるんだから～！\n覚悟してよね！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……PMCごときが。うちはキヴォトスのトップエリートが集まったSRT特殊学園だぞ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "まぁ、私たちは実戦経験も無い、新入生ですが……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "学園も無くなっちゃったし……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "野宿中だし……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "教科書も持ってなくて、ヴァルキューレ学園のを借りてるけど。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "で、でも！本官はヴァルキューレのBD好きですよ！\n何の問題もなく、学習できてます！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "そうじゃなくて、在庫もあるし、いくらでもあげられるっていう話。"
+    },
+    {
+      "Text": "[ns] \"よし。RABBIT小隊、生活安全局のみんな……始めようか。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミヤコ、作戦名を決めてくれ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そ、そうですね……ではこれより、シャーレ奪還の「パセリ作戦」を――"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "待って、なんでパセリなの。どういうこと？\nもっとカッコいいやつ無いの？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "えっ、その……ウサギが好きな食べ物なので……"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "なるほど、それならニンジンの方が可愛くありませんか？\nニンジン作戦！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "それは前使っちゃって……"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "じゃあ、ドーナッツ作戦は？グレーズド・ドーナッツ作戦！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なんか、クリスマスに放映されそうな映画の名前だな。"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "最初の意図を汲み取って、クローバー作戦はどうでしょう？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……「[ruby=S.C.H.]シャーレ[/ruby]奪還作戦」にします。"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "なんだ、つまんないの。"
+    },
+    {
+      "Text": "[ns] \"よし、行こう！\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "先生……どうか気をつけてください……\n今回は、なんだかいつもと違う気配を感じます……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "私が目撃した、不吉な流星……あれは一体何だったのでしょう……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "敵の巡航戦車、中隊規模を確認！\n攻撃用ヘリからバリケードまで、徹底的に準備してるよ……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちっ、抜かりないな……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "正面突破は難しそう……ミヤコちゃん、どうしよう？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……もうちょっと、支援があれば……"
+    },
+    {
+      "Name": "キリノ",
+      "Text": "ん？この信号は……？"
+    },
+    {
+      "Name": "公安局の生徒A",
+      "Text": "見つけたぞ！こっちだ！"
+    },
+    {
+      "Name": "公安局の生徒B",
+      "Text": "連絡を受けて参りました、先生！私たちも力になります！ "
+    },
+    {
+      "Name": "キリノ",
+      "Text": "公安局のみなさん……！"
+    },
+    {
+      "Name": "フブキ",
+      "Text": "あれ～？いつもなら、自分から絶対に動かない公安局の生徒が……"
+    },
+    {
+      "Text": "[s] \"ヴァルキューレが来てくれたんだ！\""
+    },
+    {
+      "Name": "公安局の生徒A",
+      "Text": "いくら待っても命令が与えられず、ソワソワしながら待機していたのですが、\n偶然子ウサギタウン付近で局長と先生の姿を目撃しまして！"
+    },
+    {
+      "Name": "公安局の生徒A",
+      "Text": "私たちも、可能な限りお手伝いします、先生！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミヤコ、これなら……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……はい、いけそうですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "では先生、指示をお願いします。"
+    },
+    {
+      "Text": "[s] \"指示はミヤコがお願い、私はそれを補助するね。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……はい、ありがとうございます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "では、皆さん。今からD.U.の戒厳令を解除し、カイザーグループの陰謀を阻止するための……「[ruby=S.C.H.]シャーレ[/ruby]奪還作戦」を開始します！"
+    },
+    {
+      "Name": "みんな",
+      "Text": "「「はい！」」"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제13화;샬레 탈환 작전 1"
+    },
+    {
+      "Text": "PMC의 기지를 무사히 빠져나와 코우사기 공원에 일단 몸을 숨겼다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그렇군요. 선생님도 그 음모에 휩쓸려 납치당하셨던 거군요. "
+    },
+    {
+      "Name": "미야코",
+      "Text": "칸나 국장님이 아니었다면 큰일 날 뻔했네요. 선생님."
+    },
+    {
+      "Name": "사키",
+      "Text": "저 미친개가 선생님을 구하려고 몸을 던지다니…… 믿을 수가 없어."
+    },
+    {
+      "Name": "미유",
+      "Text": "저렇게 다칠 정도로……."
+    },
+    {
+      "Name": "모에",
+      "Text": "텐트 안에 눕혀 두긴 했는데, 뭐. 푹 쉬면 일어나겠지. 저 사람도 발키리의 국장이니까, 이정도는 끄떡없을 거야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "일단 지금은 서로의 정보를 취합해서 상황을 파악하는 게 우선이겠네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "지금 무슨 일이 벌어지고 있는지, 우리가 무엇을 어떻게 해야 하는지……. 상황을 정리하는 게 필요합니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "현재 D.U.는 계엄령이 발동되어 모든 통신과 물류, 이동이 금지되고 행정 체계가 셧다운되었습니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "D.U. 외부로 통하는 모든 통신이 차단되었기 때문에…… 다른 학원 자치구의 도움을 받을 수도 없고, 다른 위원장들의 행방도 알 수 없는 상황……."
+    },
+    {
+      "Name": "아로나",
+      "Text": "카이저가 선포한 이 계엄령을 취소하려면 그들이 탈취한 행정 제어권을 되찾아야 하지만, 하필 총학생회는 지금 수석행정관의 문책결의안이 의결되어서 행정 권한을 상실했어요!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "이걸 해소하려면 거기에 동의한 6명의 실장들이 모여 문책결의안을 취소하거나, 투표를 열어 재신임을 가결해야 하는데……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "으으…… 그건 또 계엄령 때문에 불가능한…… 그런 꼬리에 꼬리를 무는 골치 아픈 상태예요!"
+    },
+    {
+      "Name": "모에",
+      "Text": "즉, 지금의 총학생회는 아무런 도움이 되지 않는다는 거네."
+    },
+    {
+      "Name": "사키",
+      "Text": "높으신 분들이 언제 도움이 된 적이 있었어? "
+    },
+    {
+      "Name": "미야코",
+      "Text": "하지만 일개 기업에게 행정 권한을 탈취당하다니…… SRT 학원이 유지되고 있었다면 그런 일은 막을 수 있었을 텐데……."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그럼 이 상태에서도 생텀 타워는 계속 그 카이저에게 장악당하고 있는 건데…… 이제 어떻게 해야……."
+    },
+    {
+      "Text": "[s] \"남은 방법은 간단해…….\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "이제 남은 방법은 생텀 타워의 행정 제어권을 장악하고 있는 장소로 직접 쳐들어가서 물리적으로 저지하는 수밖엔 없어요!"
+    },
+    {
+      "Text": "[s] \"거기가 어딘데?\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "……바로 샬레예요! "
+    },
+    {
+      "Text": "[s] \"샬레 건물……?\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "네, 정확히는 샬레의 건물의 지하, <크래프트 챔버>입니다!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "<크래프트 챔버>는 총학생회장이 남긴 물질 생성기, 원래라면 싯딤의 상자의 관리자만이 접속할 수 있지만……."
+    },
+    {
+      "Name": "아로나",
+      "Text": "모종의 방법으로 카이저 코퍼레이션은 인증을 우회해서 크래프트 챔버를 기동, 생텀 타워 장악에 사용하려는 것 같아요!"
+    },
+    {
+      "Name": "아로나",
+      "Text": "그것 때문인지 몰라도 카이저는 수석행정관 린 씨를 납치해서 샬레의 건물에 가둬둔 상태입니다!"
+    },
+    {
+      "Text": "[s] \"린이 샬레에 있다고…….\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "네! 린 씨는 샬레의 감옥에 갇혀 있어요! 다치진 않은 것 같지만……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……이해했습니다. 요컨대, PMC에게 장악당한 샬레를 탈환하는 거군요."
+    },
+    {
+      "Name": "미유",
+      "Text": "여기 모인 우리들 만으로……?"
+    },
+    {
+      "Name": "모에",
+      "Text": "맞아. 다른 자치구에는 연락이 닿지 않으니까, 우리들이 하지 않으면 안 되는 거지."
+    },
+    {
+      "Name": "사키",
+      "Text": "잘됐네! 안 그래도 언젠가 샬레를 날려버리고 싶던 참이었거든!"
+    },
+    {
+      "Name": "키리노",
+      "Text": "알겠습니다! 본관도 힘내겠습니다!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "으으…… 그치만 그게 말처럼 쉬울까…… 상대는 굴지의 대기업 카이저라고. "
+    },
+    {
+      "Name": "후부키",
+      "Text": "게다가 바보가 아닌 이상, 우리가 올 거라는 걸 알고 있을 텐데. 만반의 준비를 해두지 않았을까……?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "……카이저 SOF를 불러와라."
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "[ruby=Special Operation Forces]트, 특수부대원을 [/ruby]말입니까?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "그래. 선생이 이곳으로 올 거다."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "그 자라면 이 상황에서 어디를 공격해야 하는지 누구보다 잘 알고 있겠지. 그러니 준비해두는 것이다."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "원래라면 그 <여우>들을 상대하기 위해 준비한 카이저 PMC의 결전 부대……. 최고의 카드를 여기서 꺼낸다."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "어서!"
+    },
+    {
+      "Name": "PMC 병사",
+      "Text": "네, 넵!"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "나는 방심하다가 실패하는 머저리와는 다르지. "
+    },
+    {
+      "Name": "미유",
+      "Text": "으으…… 거기 갇혀 있는 수석행정관도 구해야 하고……. 카이저의 음모도 저지해야 한다니……? 내가 할 수 있을까……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "미유. 할 수 있는가의 문제가 아니라, 하지 않으면 안 됩니다. "
+    },
+    {
+      "Name": "키리노",
+      "Text": "네! 맞습니다! 키보토스의 평화가 우리 손에 달렸어요!"
+    },
+    {
+      "Name": "미유",
+      "Text": "으, 응……. 나도 힘낼게……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "으으…… 다 끝나면 각오하라고. 이 정도의 추가 근무라면 29박 30일 포상휴가라도 받지 않는 이상 수지타산이 맞지 않으니까!"
+    },
+    {
+      "Name": "사키",
+      "Text": "흥, PMC 따위가 뭐가 대수라고. 이쪽은 키보토스 제일의 엘리트들이 모인 SRT 특수학원이거든!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "뭐, 저희는 실전 경험도 없는 신입생들이지만요……."
+    },
+    {
+      "Name": "모에",
+      "Text": "학원도 없어졌지만……."
+    },
+    {
+      "Name": "미유",
+      "Text": "노숙 중이고……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "교과서도 없어서 발키리 학원 것을 빌려서 하고 있지만."
+    },
+    {
+      "Name": "키리노",
+      "Text": "네?! 바, 발키리의 BD가 어때서요! 본관은 그걸로 공부 잘하고 있는데요?!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "누가 뭐래? 재고도 많아서 얼마든지 나눠줄 수 있다는 얘기였거든?"
+    },
+    {
+      "Text": "[ns] \"자아. RABBIT 소대. 생활안전국. 시작하자.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "미야코. 작전명을 정해줘."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그, 그렇군요. 그럼 지금부터…… 샬레 탈환을 위한 <파슬리 작전>……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "잠깐- 왜 파슬리야? 무슨 의미야, 그거? 뭔가 더 멋진 단어 없어?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "네? 그, 그건…… 토끼가 좋아하는 음식이라서……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "앗, 그런 거라면 당근이 더 귀엽지 않나요? 당근 작전! 어감도 좋고! "
+    },
+    {
+      "Name": "미유",
+      "Text": "그건 저번에 썼는데……."
+    },
+    {
+      "Name": "후부키",
+      "Text": "그럼 도넛 작전은 어때? 글레이즈드 도넛 작전!"
+    },
+    {
+      "Name": "사키",
+      "Text": "무슨 크리스마스 특선 가족 영화 제목 같은데."
+    },
+    {
+      "Name": "키리노",
+      "Text": "처음 의도를 살려야죠. 클로버 작전은 어떤가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "…………<샬레 탈환 작전>으로 하겠습니다."
+    },
+    {
+      "Name": "후부키",
+      "Text": "에이. 뭐야. 시시해."
+    },
+    {
+      "Text": "[ns] \"그럼 가볼까!\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "선생님…… 부디 조심하세요……. 지금 이 상황은 뭔가 평소와는 다른 게 있는 것 같아요……."
+    },
+    {
+      "Name": "아로나",
+      "Text": "제가 봤던 그 불길한 유성들……. 그건 대체 무엇이었는지……."
+    },
+    {
+      "Name": "모에",
+      "Text": "적 순항 전차, 중대 규모 확인! 공격 헬기와 바리케이드까지 철저하게 준비했네……."
+    },
+    {
+      "Name": "사키",
+      "Text": "칫…… 제대로 준비해뒀구만……."
+    },
+    {
+      "Name": "미유",
+      "Text": "정면돌파는 불가능해 보여……. 미야코 쨩, 어쩌지?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……지원병력이 조금만 더 있었더라면……. 어떻게든……."
+    },
+    {
+      "Name": "키리노",
+      "Text": "으응? 이 신호는……?"
+    },
+    {
+      "Name": "공안국 학생 A",
+      "Text": "드디어 찾았어! 이쪽이야!"
+    },
+    {
+      "Name": "공안국 학생 B",
+      "Text": "연락을 듣고 왔습니다! 선생님! 저희가 돕겠습니다! "
+    },
+    {
+      "Name": "키리노",
+      "Text": "공안국 여러분……!"
+    },
+    {
+      "Name": "후부키",
+      "Text": "어라? 평소라면 절대로 먼저 움직이지 않는 공안국의 학생들이……."
+    },
+    {
+      "Text": "[s] \"발키리가 와주었구나!\""
+    },
+    {
+      "Name": "공안국 학생 A",
+      "Text": "어떤 명령도 내려지지 않아서 불안하게 시간을 보내고 있었는데…… 우연히 코우사기 타운 근처에서 칸나 국장님과 선생님의 모습을 보았습니다!"
+    },
+    {
+      "Name": "공안국 학생 A",
+      "Text": "힘닿는 대로 저희도 돕겠습니다, 선생님!"
+    },
+    {
+      "Name": "사키",
+      "Text": "미야코. 이거라면……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……네. 할 수 있습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그럼 선생님. 지시를."
+    },
+    {
+      "Text": "[s] \"지시는 미야코가 내려줘. 나는 그걸 도울게.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……네. 알겠습니다. "
+    },
+    {
+      "Name": "미야코",
+      "Text": "그럼, 모두들. 지금부터 D.U.의 계엄령을 해제하고 카이저 그룹의 음모를 분쇄하기 위한…… <샬레 탈환 작전>을 개시합니다!"
+    },
+    {
+      "Name": "전원",
+      "Text": "네!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 13; Operation Recapture Schale 1"
+    },
+    {
+      "Text": "We safely escaped the PMC base and hid in Kousagi Park."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I see. So you were sucked into a conspiracy and kidnapped."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "If it wasn't for Director Kanna, it would've been very bad for you, Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The Feral Hound threw herself in front of danger to save Sensei... It's hard to believe."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Sh-She was so badly injured..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "She's recovering in the tent now. A tough cookie like Director Kanna'll be fine with some rest."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The priority now is to gather as much information as possible and analyze our options."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We can't formulate a plan to move forward without understanding the situation first."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Currently, D.U. is under martial law, prohibiting all communication, logistics, and movement, and the administrative system has been shut down."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Because all communication going out of D.U. is blocked...we can't get help from other academy districts, and the whereabouts of the other chairmen are unknown..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "To cancel the martial law declared by Kaiser, we need to regain administrative control, but the General Student Council lost all authority when the chief officer's censure resolution passed!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "The only way to fix it is to convene the six chiefs of staff who agreed to the censure and have them cancel the censure or pass a vote of confidence."
+    },
+    {
+      "Name": "Arona",
+      "Text": "But it's impossible to convene them while under martial law! It's an endless Catch-22!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "So, we can't depend on the General Student Council for anything right now?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I mean, could we ever? "
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But to have administrative authority taken over by a single company... If SRT Academy was still around, that could have been prevented..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "T-To top it off, Sanctum Tower is still under the control of K-Kaiser... What should we d-do?"
+    },
+    {
+      "Text": "[s] \"Our options are slim...\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "The only way now is to invade the one place that has administrative control of Sanctum Tower and stop it!"
+    },
+    {
+      "Text": "[s] \"What do you mean? Where?\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "...It's Schale!"
+    },
+    {
+      "Text": "[s] \"The Schale building...?\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Yes. To be exact, it's in the Schale basement. The Crafting Chamber!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "The Crafting Chamber is a material generator left behind by the president of the General Student Council. Originally, only the manager of the Shittim Chest could access it..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "The Kaiser Corporation seems to be trying to circumvent authentication and use it to activate the Crafting Chamber to take control of Sanctum Tower!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Maybe that's why Kaiser kidnapped Chief Officer Rin and locked her up in Schale!"
+    },
+    {
+      "Text": "[s] \"Rin is at Schale...?\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Yes! They locked her up in the Schale prison! She doesn't seem to be hurt, but..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Understood. We need to reclaim Schale, which has been taken over by PMC."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-With just us...?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Yup. We can't get a hold of other districts, so it's us or nobody."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Awesome! I've been wanting to blow up Schale for a while!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Affirmative! I'll do my best!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Ugh...but it's not gonna be easy... Our opponent is Kaiser, a powerful corporation."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Unless they're stupid, they know we're coming. And I don't think they're stupid..."
+    },
+    {
+      "Name": "General",
+      "Text": "...Summon the Kaiser SOF."
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "Th-The Special Operation Forces? At Schale?"
+    },
+    {
+      "Name": "General",
+      "Text": "Yes. Sensei will be here."
+    },
+    {
+      "Name": "General",
+      "Text": "Sensei knows better than anyone where to attack in this situation. So we'll be ready for them."
+    },
+    {
+      "Name": "General",
+      "Text": "Originally, they were the ace up the sleeve to fight against those foxes, but we'll use them here."
+    },
+    {
+      "Name": "General",
+      "Text": "Hurry!"
+    },
+    {
+      "Name": "PMC Soldier",
+      "Text": "U-Understood!"
+    },
+    {
+      "Name": "General",
+      "Text": "I have contingency after contingency. I won't be caught off guard, so bring your best, Schale's Sensei. "
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Ugh... We have to rescue the chief officer...and p-put a halt to Kaiser's conspiracy... C-Can we do all that...?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's not a matter of whether or not we can, Miyu. We have to. "
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Yes, that's right! The peace of Kivotos depends on us!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "O-Okay... I'll do my b-best...!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Ugh, fine! I better get at least a month off after this. All this overtime just isn't it!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "What're you even worried about? PMC is nothing compared to SRT Academy, the best of the best agents in all of Kivotos!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Technically we're new recruits with very minimal field experience..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And SRT doesn't even exist anymore..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And we're operating out of a camp..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "And they don't even have textbooks, so they've been borrowing Valkyrie's..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "What's wrong with that?! I've received a great education from Valkyrie's blu-rays!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "I know, I know! I wouldn't mind if they just took all of them, though..."
+    },
+    {
+      "Text": "[ns] \"We can do this. RABBIT Squad and Public Safety Bureau, let's begin.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "First off, Miyako, name the operation."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "O-Okay. So...to reclaim Schale...let's begin Operation Parsley..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Huh? Parsley? Is there some kind of meaning behind that? It sounds lame."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Well... B-Because rabbits love parsley..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Following that logic, how about carrots? Operation Carrots sounds cool! "
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-We've already used th-that one..."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Then how about Operation Donuts? Operation Glazed Donuts!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "That sounds like the name of a family Christmas special."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "We should consider our original intentions. How about Operation Clover?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Let's go with Operation Recapture Schale."
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Aww, that's so boring."
+    },
+    {
+      "Text": "[ns] \"Operation Recapture Schale, commence!\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "Sensei... Please be careful. I have a feeling there's something more underneath the surface..."
+    },
+    {
+      "Name": "Arona",
+      "Text": "The ominous meteors I saw... I wonder what they meant..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We've checked the enemy Crusader Tanks and confirmed the number of troops! They've prepared assault helicopters and barricades..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "They're definitely ready for us..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "F-Frontal breakthrough i-is impossible... Miyako, wh-what should we do?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "If we had just a few more reinforcements..."
+    },
+    {
+      "Name": "Kirino",
+      "Text": "Huh? What's that signal...?"
+    },
+    {
+      "Name": "Public Peace Bureau Student A",
+      "Text": "We found them! This way!"
+    },
+    {
+      "Name": "Public Peace Bureau Student B",
+      "Text": "We got your message, Sensei! We're here to help!"
+    },
+    {
+      "Name": "Kirino",
+      "Text": "The Public Peace Bureau!"
+    },
+    {
+      "Name": "Fubuki",
+      "Text": "Really?! Taking initiative isn't usually the Public Peace Bureau's strong point..."
+    },
+    {
+      "Text": "[s] \"Valkyrie! We have reinforcements!\""
+    },
+    {
+      "Name": "Public Peace Bureau Student A",
+      "Text": "We've been waiting all this time for orders... Then I saw Director Kanna and Sensei near Kousagi Town!"
+    },
+    {
+      "Name": "Public Peace Bureau Student A",
+      "Text": "We'll do our best to help, Sensei!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyako, with this..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes. We can do it."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Then, Sensei, what are your orders?"
+    },
+    {
+      "Text": "[s] \"I'm following your lead, Miyako. I'm here to support you.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Understood. Okay. "
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Well, everyone. To lift D.U.'s martial law and crush the Kaiser Group's conspiracy...let us begin Operation Recapture Schale!"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Yes!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 13;ปฏิบัติการยึดคืนชาเล่ต์ 1"
+    },
+    {
+      "Text": "คุณครูหนีออกมาจากฐานของ PMC ได้อย่างปลอดภัยและมาซ่อนตัวอยู่ในโคะอุซางิ การ์เด้น"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...... อย่างนั้นเองเหรอคะ คุณครูเองก็โดนลากเข้าไปพัวพันในแผนการร้ายนั่นจนถูกลักพาตัวนี่เอง "
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าไม่ได้หัวหน้ากรมฯ คันนะ ป่านนี้คงเกิดเรื่องใหญ่ไปแล้วนะคะคุณครู"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หมาบ้าตัวนั้นยอมเสียสละตัวเองไปช่วยครูเลยเหรอเนี่ย... ไม่อยากจะเชื่อเลย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แถมยังต้องเจ็บตัวขนาดนั้นอีก..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เราก็พาไปนอนพักในเต็นท์แล้วนี่นา พอได้พักผ่อนเยอะๆ เดี๋ยวก็มีแรงลุกมาเองแหละ เธอเป็นถึงหัวหน้ากรมของวัลคิรี่ แค่นี้ไม่สะทกสะท้านอะไรหรอก"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก่อนอื่นตอนนี้เราต้องรวบรวมข้อมูลทั้งสองฝ่าย แล้วทำความเข้าใจกับสถานการณ์กันก่อนแล้วละค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราต้องจัดระเบียบให้ได้ก่อนว่าตอนนี้มีเรื่องอะไรเกิดขึ้นบ้าง และพวกเราต้องทำอะไรบ้างค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ตอนนี้ D.U. อยู่ภายใต้กฎอัยการศึก การสื่อสาร การขนส่ง และการคมนาคมทั้งหมดก็เลยถูกระงับ ส่วนระบบบริหารก็ถูกชัตดาวน์ไปหมดค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "พอ D.U. ถูกปิดกั้นการติดต่อสื่อสารภายนอกไปทั้งหมด... เราก็เลยขอความช่วยเหลือจากโรงเรียนใน\nเขตปกครองตนเองอื่นไม่ได้ แล้วเราก็สืบหาร่องรอยของหัวหน้าคณะฯ คนอื่นๆ ไม่ได้ด้วย..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ถ้าจะยกเลิกกฎอัยการศึกที่ไคเซอร์ประกาศ ก็ต้องยึดอำนาจควบคุมการบริหารที่พวกนั้นแย่งชิงไปคืน\nมาก่อนค่ะ แต่ว่าองค์การนักเรียนดันมาลงมติไม่ไว้วางใจกับหัวหน้าฝ่ายบริหาร จนสูญเสียอำนาจการ\nบริหารไปแล้วค่ะ!"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ถ้าจะแก้ไขเรื่องนี้ ก็ต้องมีหัวหน้าที่เห็นชอบด้วย 6 คนเพื่อยกเลิกการลงมติไม่ไว้วางใจ หรือไม่ก็ต้อง\nเปิดการลงคะแนนเพื่ออนุมัติให้มีการแต่งตั้งใหม่ค่ะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "งือ... แต่นี่ก็เป็นไปไม่ได้เพราะกฎอัยการศึก... น่าปวดหัวจังเลยค่ะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "งั้นก็แปลว่าตอนนี้องค์การนักเรียนก็ช่วยเหลืออะไรไม่ได้เลยสินะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คนใหญ่คนโตพวกนั้นเคยมาช่วยเหลืออะไรด้วยเหรอไง?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โดนธุรกิจยึดอำนาจบริหารไปอย่างนั้น... ถ้าสถาบัน SRT ยังอยู่ ก็คงขัดขวางเรื่องแบบนี้ไว้ได้..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถ้าเป็นอย่างนี้ แซงค์ทัมทาวเวอร์ก็จะโดนไคเซอร์ครอบงำไปเรื่อยๆ น่ะสิ... เราจะทำยังไงกันดี..."
+    },
+    {
+      "Text": "[s] \"วิธีที่เหลือไม่ยากหรอก...\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "วิธีที่เหลือตอนนี้คือการบุกเข้าไปในที่ที่พวกนั้นควบคุมอำนาจของแซงค์ทัมทาวเวอร์ไว้ แล้วก็เข้าไป\nขัดขวางแบบตาต่อตา ฟันต่อฟันค่ะ!"
+    },
+    {
+      "Text": "[s] \"ที่ที่ว่าคือที่ไหนเหรอ?\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ชาเล่ต์ยังไงล่ะคะ...!"
+    },
+    {
+      "Text": "[s] \"อาคารชาเล่ต์...?\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ใช่ค่ะ ถ้าจะระบุให้ชัดเจนก็คือ ที่ <คราฟต์แชมเบอร์> ที่อยู่ชั้นใต้ดินของอาคารชาเล่ต์ค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "<คราฟต์แชมเบอร์> เป็นเครื่องกำเนิดสารที่ประธานองค์การนักเรียนทิ้งไว้ เดิมทีแล้วมีแค่ผู้ดูแล\nกล่องแห่งซิสดิมเท่านั้นที่ใช้งานได้ค่ะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "แต่ดูเหมือนว่าไคเซอร์ คอร์เปอเรชั่นจะหาวิธีเลี่ยงการตรวจสอบสิทธิ์ แล้วก็เปิดคราฟต์แชมเบอร์ขึ้นมา\nเพื่อควบคุมแซงค์ทัมทาวเวอร์ค่ะ!"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อาจจะเป็นเพราะเรื่องนี้ ไคเซอร์ก็เลยจับตัวคุณรินไปขังไว้ในอาคารชาเล่ต์ค่ะ!"
+    },
+    {
+      "Text": "[s] \"รินอยู่ที่ชาเล่ต์งั้นเหรอ...\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ใช่ค่ะ! คุณรินถูกขังไว้ในห้องขังของชาเล่ต์ค่ะ! ถึงตอนนี้จะยังไม่ได้รับบาดเจ็บตรงไหนก็เถอะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เข้าใจแล้วค่ะ... สรุปก็คือเราจะไปยึดชาเล่ต์คืนจาก PMC สินะคะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แค่พวกเราตรงนี้เนี่ยนะ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใช่ ถ้าติดต่อกับเขตปกครองตนเองอื่นไม่ได้ เราก็ต้องออกโรงกันเองน่ะสิ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เจ๋งเป้ง! แอบหวังไว้พอดิบพอดีเลยว่าสักวันหนึ่งจะได้เข้าไประเบิดชาเล่ต์ให้เป็นผุยผง!"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "รับทราบค่ะ! ฉันเองก็จะพยายามค่ะ!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "อึก... มันจะง่ายเหมือนที่พูดเหรอ... อีกฝ่ายเป็นถึงบริษัทยักษ์ใหญ่อย่างไคเซอร์เลยนะ "
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "อีกอย่าง ถ้าพวกนั้นไม่ได้มีเซลล์สมองน้อย ก็คงรู้แล้วแหละว่าพวกเราจะบุกไปที่นั่น ป่านนี้น่าจะ\nเตรียมพร้อมทุกอย่างไว้แล้วก็ได้"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "เรียกไคเซอร์ SOF มา"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "หะ... ให้เรียก[ruby=Special Operation Forces]กองกำลังพิเศษ[/ruby]น่ะเหรอครับ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ใช่ ครูกำลังมาทางนี้"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ครูคนนั้นรู้ดีกว่าใครว่าในสถานการณ์แบบนี้ จะต้องเลือกโจมตีตรงไหน ฉันก็เลยเตรียมบางอย่างไว้"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "เดิมทีแล้วนี่เป็นสิ่งที่ฉันจะเอาไว้ใช้เผชิญหน้ากับ <สุนัขจิ้งจอก> พวกนั้น... แต่ตอนนี้ฉันขอใช้ไพ่ใบที่ดี\nที่สุดที่นี่เลย"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "เร็วเข้า!"
+    },
+    {
+      "Name": "ทหาร PMC",
+      "Text": "ครับผม!"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ฉันไม่ได้โง่จนประมาทแล้วมาแพ้เอาทีหลังหรอกนะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ... เอ่อ... เราต้องไปช่วยหัวหน้าฝ่ายบริหารที่ถูกขังอยู่ที่นั่น... แล้วต้องไปขัดขวางแผนการร้ายของ\nไคเซอร์งั้นเหรอ... ฉันจะทำได้มั้ยนะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มิยุ นี่ไม่ใช่ปัญหาที่ต้องมาคิดว่าเราจะทำได้หรือเปล่าหรอกนะคะ เราต้องทำให้ได้ค่ะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "ใช่ค่ะ! สันติภาพของคิโวทอสขึ้นอยู่กับพวกเราแล้วนะคะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะ... อืม... งั้นฉันก็จะพยายามด้วย..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ฮึ่ม... อย่าให้เรื่องนี้จบลงนะ ถ้าให้ทำงานล่วงเวลาขนาดนี้แล้วไม่ให้เงินเพิ่มละก็ ฉันจะขอลาพักร้อนสัก\nเดือนหนึ่งเลย!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หึ! PMC มันจะไปเก่งแค่ไหนกันเชียว ทางนี้เป็นถึงสถาบันพิเศษ SRT ที่รวมตัวสุดยอดหัวกะทิของ\nคิโวทอสไว้เชียวนะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถึงพวกเราจะเป็นเด็กใหม่ที่ไม่มีประสบการณ์ต่อสู้จริง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่มีโรงเรียนอยู่..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แล้วก็ไม่มีบ้านอยู่ด้วย..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "แถมยังต้องยืมหนังสือเรียนของโรงเรียนวัลคิรี่อีกก็เถอะ"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "คะ?! BD ของวัลคิรี่มันไม่ดีตรงไหนกันคะ! ฉันก็ใช้ BD นั้นเรียน แล้วก็เรียนเก่งด้วยนะคะ!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "ใครว่าอะไรล่ะ? ฉันบอกว่าเราแบ่งของให้ใช้ได้ไม่อั้นเพราะมีของในคลังเยอะต่างหาก"
+    },
+    {
+      "Text": "[ns] \"เอาละๆ กองทหาร RABBIT สำนักรักษาความปลอดภัย มาเริ่มกันเถอะ\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยาโกะ ช่วยตั้งชื่อปฏิบัติการให้ทีสิ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อะ... เอางั้นเหรอคะ ถ้างั้นจากนี้ เรามาใช้ชื่อ <ปฏิบัติการพาร์สลีย์>..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เดี๋ยวนะ ทำไมเป็นพาร์สลีย์ล่ะ? มันแปลว่าอะไรเหรอ? ไม่มีคำอื่นที่เท่กว่านี้เหรอ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คะ? อะ... เอ่อ... พอดีมันเป็นอาหารที่กระต่ายชอบ..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "อ๊ะ ถ้าอย่างนั้นใช้คำว่าแคร์รอตดีไหมคะ ฉันว่ามันน่ารักกว่านะ ปฏิบัติการแคร์รอต! ฟังดูเข้าท่าเลยนะ! "
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่เราเคยใช้ชื่อนี้ไปแล้วนะ..."
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "งั้นเอาเป็นปฏิบัติการโดนัทมั้ย? ปฏิบัติการโดนัทเคลือบเกรซ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เหมือนชื่อหนังครอบครัวที่ฉายในวันคริสต์มาสยังไงยังงั้นเลย"
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "อย่าออกทะเลสิคะ คิดถึงความตั้งใจเดิมของเราสิ เอาเป็น... ปฏิบัติการโคลเวอร์ เป็นไงคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ขอใช้เป็น.... <ปฏิบัติการยึดคืนชาเล่ต์> แล้วกันค่ะ"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "หา? อะไรเนี่ย เชยชะมัดเลย"
+    },
+    {
+      "Text": "[ns] \"งั้นก็ไปกันเลย!\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "คุณครู... อย่าบาดเจ็บตรงไหนนะคะ... สถานการณ์ตอนนี้เหมือนจะมีอะไรที่แตกต่างไปจากปกติค่ะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ฝนดาวตกแห่งลางร้ายที่หนูเห็น... มันคืออะไรกันแน่นะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตรวจพบรถถังของศัตรูและกองร้อยขนาดใหญ่! มีเฮลิคอปเตอร์โจมตีและสิ่งกีดขวางมาด้วยแฮะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ชิ... เตรียมตัวมาซะดิบดีเลยนะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แบบนี้ไม่น่าจะบุกเข้าไปข้างหน้าได้เลยนะ... มิยาโกะจัง ทำยังไงดีล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าเรามีกองกำลังสนับสนุนมากกว่านี้ละก็... ก็น่าจะผ่านไปได้..."
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "หืม? สัญญาณนี้มัน...?"
+    },
+    {
+      "Name": "นักเรียน กรมความมั่นคงสาธารณะ A",
+      "Text": "หาเจอจนได้! ทางนี้!"
+    },
+    {
+      "Name": "นักเรียน กรมความมั่นคงสาธารณะ B",
+      "Text": "ฉันได้ข่าวก็เลยมาที่นี่ค่ะ! คุณครู! พวกฉันจะช่วยเองค่ะ! "
+    },
+    {
+      "Name": "คิริโนะ",
+      "Text": "กรมความมั่นคงสาธารณะ...!"
+    },
+    {
+      "Name": "ฟุบุกิ",
+      "Text": "เอ๋? นักเรียนจากกรมความมั่นคงสาธารณะที่ปกติจะไม่ลุกขึ้นมาทำอะไรก่อน..."
+    },
+    {
+      "Text": "[s] \"วัลคิรี่มาช่วยสินะ!\""
+    },
+    {
+      "Name": "นักเรียน กรมความมั่นคงสาธารณะ A",
+      "Text": "พวกฉันกำลังกระสับกระส่ายเพราะไม่มีคำสั่งอะไรลงมาสักที... จนบังเอิญไปเห็นหัวหน้ากรมฯ คันนะ\nกับคุณครูแถวๆ โคะอุซางิ ทาวน์น่ะค่ะ!"
+    },
+    {
+      "Name": "นักเรียน กรมความมั่นคงสาธารณะ A",
+      "Text": "พวกฉันจะช่วยเท่าที่ทำได้ค่ะคุณครู!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยาโกะ แบบนี้ก็..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ... ทำได้ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอาละคุณครู สั่งการมาเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"มิยาโกะเป็นคนสั่งการเถอะ ครูจะเป็นฝ่ายช่วยเอง\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ... รับทราบค่ะ "
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอาละค่ะทุกคน จากนี้... มาเริ่ม <ปฏิบัติการยึดคืนชาเล่ต์> เพื่อยกเลิกกฎอัยการศึกใน D.U. และทำลายแผนการร้ายของไคเซอร์กรุ๊ปกันค่ะ!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ค่ะ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第13話;[ruby=S.C.H.]夏萊[/ruby]奪還作戰（１）"
+    },
+    {
+      "Text": "（順利逃離PMC基地後，暫時躲在了兔寶寶公園）"
+    },
+    {
+      "Name": "都子",
+      "Text": "……原來如此。\n老師也受到牽連，遭到了綁架啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "要是沒有環奈局長，就真的危險了呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那個狂犬竟然為了幫助老師而犧牲自己……\n真是不敢相信。"
+    },
+    {
+      "Name": "美優",
+      "Text": "傷勢真嚴重……"
+    },
+    {
+      "Name": "萌",
+      "Text": "暫時先讓他在帳篷裡休息了，等他休息夠了應該就會自己爬起來吧？\n畢竟是女武神的公安局長，一定沒問題的。"
+    },
+    {
+      "Name": "都子",
+      "Text": "看來應該先分享彼此的情報，掌握狀況比較好。"
+    },
+    {
+      "Name": "都子",
+      "Text": "現在發生了什麼、該做些什麼……有必要整理現狀。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "目前D.U.由於戒嚴令的發動，所有的通訊、物流、移動都遭到禁止。行政體系也全都處於停擺狀態。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "往D.U.外部的所有通訊都阻斷，\n所以無法獲得其他學園自治區的支援，也無法得知其他室長的行蹤……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "如果要取消凱薩發佈的戒嚴令，就必須從他們手中奪回行政控制權。\n然而聯邦學生會的行政官正因為不信任案喪失了行政權限！"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "想要解除這個狀態，就需要同意不信任案的6名室長撤回意見，\n或是透過投票通過重新信任案才行……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "不過由於戒嚴令的存在，那也是不可能的……每個環節都有問題！"
+    },
+    {
+      "Name": "萌",
+      "Text": "也就是說，現在的聯邦學生會幫不上任何忙對吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那些傢伙有幫得上忙的時候嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "話說，居然會被一個企業奪走行政權限……\nSRT特殊學園如果還在，應該就能防止最糟的情況發生才對……"
+    },
+    {
+      "Name": "美優",
+      "Text": "所，所以……現在聖所之塔也掌握在凱薩手中對吧……究竟該怎麼做……"
+    },
+    {
+      "Text": "[s]「剩下的方法就只有……」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "現在只能向掌握聖所之塔行政控制權的地點發動突擊，\n以物理的方式進行阻止了！"
+    },
+    {
+      "Text": "[s]「掌握行政控制權的地點……？」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "──是夏萊！"
+    },
+    {
+      "Text": "[s]「夏萊……？」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "是的。正確來說是夏萊地下的「工藝室」！"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "「工藝室」是聯邦學生會長留下的物質生成器。\n本來是只有希迪姆的箱子的管理者能夠連線的……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "凱薩公司似乎利用某種方法繞過認證並啟動了工藝室，因此才得以掌握聖所之塔……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "雖然不清楚是否有關連，不過凱薩似乎綁架了琳行政官，將其關在夏萊。"
+    },
+    {
+      "Text": "[s]「琳在夏萊……」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "是的，琳同學現在正被關在夏萊內部！\n所幸似乎沒有受傷……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我明白了。也就是說，要奪回被PMC控制的夏萊對吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "只靠在場的我們嗎……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "反正也連絡不上其他自治區，只能由我們來做了吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那正好。我早就想過總有一天要把夏萊給炸飛了。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "我知道了！本官也會加油的！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "唉……不過，應該不會那麼簡單吧～？\n對方可是奇普托斯首屈一指的大企業凱薩唷？"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "他們也不是蠢蛋，應該早就料到我們會過去了吧……"
+    },
+    {
+      "Name": "將軍",
+      "Text": "……呼叫凱薩SOF吧。"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "您，您[ruby=Special Operation Forces]是說特殊部隊嗎？[/ruby]"
+    },
+    {
+      "Name": "將軍",
+      "Text": "沒錯。老師正往這裡來。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "那個人應該比任何人都清楚這種情況下應該要攻擊哪個地方。\n所以必須做好準備。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "本來是打算用來對付「狐狸」的……這也沒辦法。\n凱薩PMC決戰部隊這張王牌，就用在這裡吧。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "動作快！"
+    },
+    {
+      "Name": "PMC士兵",
+      "Text": "是，是！"
+    },
+    {
+      "Name": "將軍",
+      "Text": "我和因為大意而失敗的蠢貨可不一樣。"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚嗚……除了要救出被幽禁的行政官，還要阻止凱薩的陰謀……\n我，我做得到嗎……"
+    },
+    {
+      "Name": "都子",
+      "Text": "美優，這不是能不能辦到的問題，我們非這麼做不可。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "沒錯！奇普托斯的和平，就掌握在我們手上了！"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗯，嗯……我會加油的……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "唔唔……等到事情結束之後，得要個30天29夜的休假才行～！\n做好覺悟吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……不過是區區PMC，我們可是奇普托斯的頂尖菁英組成的SRT特殊學園啊！"
+    },
+    {
+      "Name": "都子",
+      "Text": "雖然我們還是沒有實戰經驗的新生……"
+    },
+    {
+      "Name": "萌",
+      "Text": "而且連學園也沒了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "還在露宿中……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "連教科書都沒有，還要向女武神學園借用。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "不，不過！本官很喜歡女武神的BD唷！\n在學習方面完全沒有問題！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "我不是那個意思，是因為庫存很多，他們要多少都行。"
+    },
+    {
+      "Text": "[ns]「好。RABBIT小隊、生活安全局的大家……開始吧。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子，決定作戰名稱吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "也，也對……那麼現在開始，進行奪回夏萊的「芹菜作戰」──"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "慢著，為什麼是芹菜啊？有什麼含意？\n沒有更帥一點的名字嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "呃，那個……因為是兔子喜歡的食物……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "原來如此，那用胡蘿蔔會不會比較可愛？\n胡蘿蔔作戰！"
+    },
+    {
+      "Name": "美優",
+      "Text": "那個之前用過了……"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "那，甜甜圈作戰怎麼樣？糖霜甜甜圈作戰！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "總覺得很像是會在聖誕節上映的電影名稱。"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "汲取一下最開始的目的，幸運草作戰怎麼樣？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……就決定是「[ruby=S.C.H.]夏萊[/ruby]奪還作戰」了。"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "什麼嘛，真無趣。"
+    },
+    {
+      "Text": "[ns]「好，出發吧！」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "老師……請務必小心……\n這次，我感受到了和平常不同的氣息……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "我所看見的那道，不祥的流星……那究竟是什麼呢……"
+    },
+    {
+      "Name": "萌",
+      "Text": "已確認到敵方的巡航戰車，規模為中隊！\n還有攻擊直升機與路障，準備得相當徹底呢……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呿，沒有破綻啊……"
+    },
+    {
+      "Name": "美優",
+      "Text": "要正面突破似乎有困難……都子醬，該怎麼辦呢？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……要是支援能再多一點……"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "嗯？這個信號是……？"
+    },
+    {
+      "Name": "公安局學生A",
+      "Text": "找到了！在這裡！"
+    },
+    {
+      "Name": "公安局學生B",
+      "Text": "我們是收到聯絡後趕來的，老師！我們也助您一臂之力！"
+    },
+    {
+      "Name": "桐乃",
+      "Text": "公安局的各位……！"
+    },
+    {
+      "Name": "吹雪",
+      "Text": "咦～？平常絕對不會主動行動的公安局的學生……"
+    },
+    {
+      "Text": "[s]「女武神來了啊！」"
+    },
+    {
+      "Name": "公安局學生A",
+      "Text": "因為無論我們怎麼等都沒等到命令，只能焦急地待命，\n不過偶然在兔寶寶鎮附近看見了局長和老師！"
+    },
+    {
+      "Name": "公安局學生A",
+      "Text": "我們也會盡力幫忙的，老師！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子，這樣一來……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是，應該可以做到。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼老師，請下達指示。"
+    },
+    {
+      "Text": "[s]「指示就交給都子吧，我會給予協助的。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是，非常感謝。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼各位。從現在起，為了解除D.U.的戒嚴令、阻止凱薩集團的陰謀……\n開始「[ruby=S.C.H.]夏萊[/ruby]奪還作戰」！"
+    },
+    {
+      "Name": "全員",
+      "Text": "「「是！」」"
+    }
+  ]
+}

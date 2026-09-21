@@ -1,0 +1,1872 @@
+{
+  "TitleJP": "大雨注意報",
+  "TitleKR": "호우주의보",
+  "TitleEN": "Heavy Rain Advisory",
+  "TitleTH": "ระวังฝนตกหนัก",
+  "TitleTW": "大雨特報",
+  "DescJP": "キヴォトス全域を襲った突然の豪雨。RABBIT小隊員たちの暮らす公園もまた浸水してしまい、必死に支えたテントの柱さえも崩れてしまう。隊内に諦めのムードが漂う中、それでもミヤコだけは諦めずに大雨と戦おうとする。先生が奮闘するミヤコに手を貸すと、その様子を眺めていた隊員たちも一人、また一人と立ち上がり、なんとか大雨を乗り越える事ができたのだった。",
+  "DescKR": "어느 날, 갑작스러운 폭우로 인해 RABBIT 소대가 머무르고 있던 공원이 침수된다. 소대원들은 비를 막기 위해 여러 가지 노력을 하지만, 지휘 텐트가 무너지자 결국 의욕을 잃고 자포자기해 버린다. 선생님은 폭우 속에서 끝까지 혼자 분투하던 미야코를 솔선해서 도와주고…… 이 모습을 본 소대원들은 자존심을 내려놓고 선생님의 지시에 따르기로 한다.",
+  "DescEN": "A sudden heavy rain floods the park where the RABBIT Squad is staying. Despite much effort, when the command tent collapses, the squad loses hope and gives up, except Miyako. Sensei finally arrives and takes the initiative to help Miyako, who's struggling alone in the heavy rain. Seeing this, the squad members overcome their pride and decide to follow Sensei's example.",
+  "DescTH": "ฝนที่ตกลงมาอย่างหนักทำให้สวนสาธารณะที่กองทหาร RABBIT มาพักอยู่\nถูกน้ำท่วม สมาชิกกองทหารพยายามทำหลายวิธีเพื่อกันฝน แต่เต็นท์\nบัญชาการก็พังลงจนกองทหารสูญเสียความตั้งใจและท้อแท้ คุณครูเข้ามา\nช่วยมิยาโกะที่พยายามอย่างหนักอยู่คนเดียวท่ามกลางฝนกระหน่ำ...\nพอเห็นดังนั้นสมาชิกกองทหารคนอื่นจึงทิ้งศักดิ์ศรีของตัวเองและทำตาม\nคำสั่งของคุณครู",
+  "DescTW": "某天，因為突然來襲的暴雨，RABBIT小隊停留的公園淹了水。小隊成員為了擋雨而做了各種努力，但是當指揮帳棚倒塌時，所有人都失去幹勁自暴自棄。老師率先幫助在暴雨中獨自奮鬥到底的都子……小隊成員看到這一幕，決定放下自尊聽從老師的指示。",
+  "DialogJP": [
+    {
+      "Text": "第11話;大雨注意報"
+    },
+    {
+      "Text": "シャーレ・オフィス"
+    },
+    {
+      "Text": "数日後、キヴォトス広域に大雨が降っていた。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "すごい雨ですね……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "それぞれの自治区で、被害が出ていないと良いのですが……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "各学園の生徒会や、委員会のみなさんに任せれば大丈夫でしょうか。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "あっ、でも……今公園にいるSRTの生徒さんたちは……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "この大雨では、テントも……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "風邪を引いてしまわないか心配ですし、それに……。"
+    },
+    {
+      "Text": "[ns] RABBIT小隊の様子を見に行く。"
+    },
+    {
+      "Text": "子ウサギ公園"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こっちもタープが破れた！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミユ！防水シートが足りない！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "も、もう予備は無くって……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くそっ、もっと色々と資材があれば……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "モエ、こっちを手伝え！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "いつまでも機械を抱きしめてる場合か！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いやいやいや、通信装備が浸水したらヤバいでしょ！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "この辺の機器、全部合わせていくらだと思ってるの？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "知るか！どうにかしろ！！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くそっ、いつまで続くんだこの雨……！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "防水周りが補強できたら、次は排水路の方を！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "土砂が詰まっているのか、水が溢れてて……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "このままでは、周囲一帯が全て浸水しかねません！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "分かってる！でもこっちも補強が間に合わないんだ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "手を離したら、すぐに崩れそうなレベルで――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "今のって……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "こ、公園の中央に、雷が……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まずい、"
+    },
+    {
+      "Name": "サキ",
+      "Text": "テントの支柱が倒れる……！"
+    },
+    {
+      "Name": "一同",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "て、テントが……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "弾薬、全部ダメになったな……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "通信機器類も……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "全部終わり、か……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "いえ、諦めるにはまだ早いです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "排水路をどうにかして、浸水の少ない装備から回収して――"
+    },
+    {
+      "Name": "サキ",
+      "Text": "装備だけの話じゃない！！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "全部、全部だ……！私たちSRTは、もう……！！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "サキちゃん……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "はぁ……こうなると分かってたら、最初っから……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "な、何を言ってるのですか……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "最初にみんなで、言ったじゃないですか。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私たちが諦めない限り、SRTの名前は――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ミヤコだって、分かってたんじゃないの？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こんなバカみたいなこと、いつまでも続けるわけにはいかないって。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "今の私たちは治安維持どころか、食料品を探し回る毎日……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "正義がどうとか、犯罪者がどうとかそんなレベルじゃない。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こんな状態で、SRTの名前が守れてるとは思えない……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……もう、自分が何をしてるのか分からなくなってきた。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ほんと、何やってんだろね……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "何もかも水浸しだし、野宿生活も疲れたし……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ミヤコちゃん……もう、諦めようよ……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……ミヤコ、どこに行くんだ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こんなバカげたことを、まだ続ける気か！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……はい、そうです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "諦められません、SRTのためにも。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（水圧が強い……もう手の感覚も……）"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（確かに、意味の無いことかもしれない……）"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "（でも私はSRTを、私の思う理想を……）"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "諦め、られないっ……！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……先生？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……今日は何の用ですか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "見て分かると思いますが、冗談を言っていられる状況ではありません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "今すぐ対処できないと、周囲が全部……。"
+    },
+    {
+      "Text": "[ns] シャベルを持って排水路に向かう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "先生……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "どうして……。"
+    },
+    {
+      "Text": "[s] \"ここの土を片付ければ良いんだよね？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "はい、お願いします。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "はぁ……シャベルの使い方が下手か、貸せ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ほんと、何やってんだか。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……手伝います。"
+    },
+    {
+      "Text": "その後、RABBIT小隊員たちと必死に排水路を整備した。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……雨、ようやく止みましたね。"
+    },
+    {
+      "Text": "[s] \"みんな、お疲れ様。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……どうして私たちを助けるんですか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何度も、何度も言ったはずです。何も変わらないと。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "先生が私たちに何を望んでいるのか、私には全く分かりません。"
+    },
+    {
+      "Text": "[s] \"何かを望んでるわけじゃないよ。\""
+    },
+    {
+      "Text": "[s] \"私は先生だから。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……そうですか。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "装備はほとんどダメになってしまいましたが……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "どうにか、公園そのものは完全に浸水せずにすみました。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "全く、ミヤコにも色々と言いたいことはあるけど……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "先生は、この公園での生活をやめてほしいんじゃなかったのか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "何の得にもならないのに、こんな……筋金入りのバカだな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、バカなのは最初から知ってたけどね。くひひ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "も、モエちゃん……せっかく助けてくれたのに……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "助けは要らないと言い続けてきましたが……助けられてしまったのは事実ですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ありがとうございます、先生。"
+    },
+    {
+      "Text": "（その後、濡れた体でシャーレに戻った）"
+    },
+    {
+      "Text": "（雨に濡れて風邪を引いたものの、とりあえずどうにかなって良かった……）"
+    },
+    {
+      "Text": "次回;雨に濡れた請求書"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제11화;호우주의보"
+    },
+    {
+      "Text": "샬레 업무관"
+    },
+    {
+      "Text": "(며칠 후, 키보토스에 비의 계절이 찾아왔다.)"
+    },
+    {
+      "Name": "아로나",
+      "Text": "갑자기 비가 엄청난 기세로 내리네요. 이대로는 온 키보토스가 물에 잠길 것만 같아요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "갑작스러운 폭우 때문에 곳곳에 피해는 없을지, 조금 신경 쓰이지만……."
+    },
+    {
+      "Name": "아로나",
+      "Text": "분명 각 학원의 학생회 여러분들이 잘 대처해 주고 계시겠지요?"
+    },
+    {
+      "Name": "아로나",
+      "Text": "……하지만 지금도 공원에 머무르고 있을 SRT 학원의 학생들은 조금 걱정이네요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "그 학생들에게는 비를 피할 건물도, 폭우를 막아낼 장비도 없을 텐데……"
+    },
+    {
+      "Name": "아로나",
+      "Text": "감기라도 걸리지 않을까 걱정되네요."
+    },
+    {
+      "Text": "[ns] RABBIT 소대의 상태를 보러 간다."
+    },
+    {
+      "Text": "코우사기 공원"
+    },
+    {
+      "Name": "사키",
+      "Text": "이쪽의 타프도 찢어졌어!"
+    },
+    {
+      "Name": "사키",
+      "Text": "미유! 가서 방수포 좀 더 가져와!"
+    },
+    {
+      "Name": "미유",
+      "Text": "비, 비축해 둔 매트는 방금 게 끝이야! 이제 더 남은 건 없다고!"
+    },
+    {
+      "Name": "사키",
+      "Text": "젠장. 이럴 줄 알았으면 평소에 더 부지런히 자재를 모아두는 건데……."
+    },
+    {
+      "Name": "사키",
+      "Text": "모에! 너도 언제까지 그 고철 덩어리를 끌어안고 있을 셈이야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "손이 남아돌면 이쪽에 방수포 치는 거나 거들어!"
+    },
+    {
+      "Name": "모에",
+      "Text": "미쳤어? 여기 있는 통신 장비들을 내버려 뒀다가 침수라도 되면 어쩌려고?!"
+    },
+    {
+      "Name": "모에",
+      "Text": "이 기기들이 다 얼마짜리인 줄 알고 하는 소리야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "당장 총기랑 탄약을 죄다 버리게 될지도 모르는 상황인데, 통신 장비가 무슨 소용이야?!"
+    },
+    {
+      "Name": "사키",
+      "Text": "으으…… 이 지긋지긋한 비는 언제까지 내릴 셈이야!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "여러분! 방수 작업이 다 끝나면 바로 공원 외측의 배수로를 확장해 주세요!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "토사로 막힌 우수관이 넘치기 시작해서……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "이대로 가면 이 일대가 모두 침수될지도 모릅니다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "알고 있어! 하지만 이쪽도 손이 부족하다고!"
+    },
+    {
+      "Name": "사키",
+      "Text": "당장이라도 손을 놓으면 모두 무너져 버릴 것 같아서—"
+    },
+    {
+      "Name": "모에",
+      "Text": "바, 방금 무슨 일이 일어난 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "공원 한가운데에 벼락이 떨어졌어……!"
+    },
+    {
+      "Name": "사키",
+      "Text": "지휘 텐트를 받치고 있던 지지대가……"
+    },
+    {
+      "Name": "사키",
+      "Text": "으악, 무너진다!"
+    },
+    {
+      "Name": "일동",
+      "Text": "……."
+    },
+    {
+      "Name": "미유",
+      "Text": "지휘 텐트가 무너졌어……."
+    },
+    {
+      "Name": "사키",
+      "Text": "탄약도 모두 물에 잠겨버렸고……."
+    },
+    {
+      "Name": "모에",
+      "Text": "통신 기기도 전부 고장 난 것 같아……"
+    },
+    {
+      "Name": "사키",
+      "Text": "전부 다 끝났나……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "아뇨, 포기하기엔 아직 이릅니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "빨리 배수로를 확장하고, 고장 나지 않은 장비부터 회수해서 수리하면—"
+    },
+    {
+      "Name": "사키",
+      "Text": "장비의 이야기가 아니야!"
+    },
+    {
+      "Name": "사키",
+      "Text": "우리는…… SRT 학원은…… 이미 끝났다고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "사, 사키 쨩……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……이렇게 될 줄 알았으면, 처음부터 포기할걸."
+    },
+    {
+      "Name": "미야코",
+      "Text": "잠깐만요, 모두들. 그게 무슨 소리인가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "분명…… 처음에 다 같이 그렇게 말했었잖아요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희가 포기하지 않는 한 SRT 학원의 이름은 사라지지 않는다고—"
+    },
+    {
+      "Name": "모에",
+      "Text": "말은 그렇게 해도, 미야코 너도 알고 있었잖아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "언제까지나 이런 바보짓을 계속할 수는 없다는 걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "어느 새부터 SRT의 주 임무인 치안 유지와 범죄자 체포는 뒷전이 되어 버렸고, 식량과 생필품을 찾아 헤매는 게 우리의 일과가 되고 말았어."
+    },
+    {
+      "Name": "사키",
+      "Text": "정의를 논하며 중범죄자들과 싸우기는커녕, 도시락을 두고 노숙자들과 한심하게 다투고 있다고!"
+    },
+    {
+      "Name": "사키",
+      "Text": "이런 활동으로…… 정말로 SRT의 이름을 지킬 수 있겠어?"
+    },
+    {
+      "Name": "사키",
+      "Text": "……나도 이젠 모르겠어. 내가 무얼 하고 있는지……."
+    },
+    {
+      "Name": "모에",
+      "Text": "무기도 장비도 모두 물에 잠겨버렸고……"
+    },
+    {
+      "Name": "모에",
+      "Text": "노숙 생활도 이젠 지쳤어……."
+    },
+    {
+      "Name": "미유",
+      "Text": "미야코 쨩…… 이제 그만 집에 가자……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……."
+    },
+    {
+      "Name": "사키",
+      "Text": "미야코, 어딜 가는 거야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "설마 이 바보짓을 계속할 생각이야?!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……네."
+    },
+    {
+      "Name": "미야코",
+      "Text": "SRT의 이름을 유지하기 위해서라도, 포기할 수는 없으니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "(물살이 너무 거세…… 작업을 너무 오래 한 탓인지 이젠 손에도 감각이 없어……)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "(소대원들의 말이 맞을지도 몰라. 이건 정말 의미 없는 짓이야…….)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "(하지만…… SRT의 이름을…… 내가 생각하는 이상을……)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "포기하고 싶지 않아!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……선생님?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희를 설득하러 오신 건가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "다른 때라면 모르겠지만, 오늘만큼은 선생님의 장난에 어울려 드릴 시간이 없습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "지금도 빨리 배수로를 정리하지 않으면 이 주변이……"
+    },
+    {
+      "Text": "[ns] 삽을 들고 배수로로 내려간다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님……?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "어째서……."
+    },
+    {
+      "Text": "[s] \"이곳의 흙을 치우면 되는 거지?\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "네, 부탁드립니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "……삽은 그렇게 쓰는 게 아니야. 이리 줘."
+    },
+    {
+      "Name": "모에",
+      "Text": "……멍청이들."
+    },
+    {
+      "Name": "미유",
+      "Text": "……도와드릴게요."
+    },
+    {
+      "Text": "(이후, 한동안 RABBIT 소대원들과 배수로를 정비했다.)"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……드디어 비가 그쳤네요."
+    },
+    {
+      "Text": "[s] \"다들 수고 많았어.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……선생님."
+    },
+    {
+      "Name": "미야코",
+      "Text": "어째서 저희를 도와주시는 건가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님이 어떤 도움을 주신다 해도 저희는 마음을 바꾸지 않을 거라고. 몇 번이나 강조해서 말씀드렸는데……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님께서 저희에게 무얼 바라고 계속 도움을 주시는 건지, 저는 아직도 모르겠습니다."
+    },
+    {
+      "Text": "[s] \"기대를 바라고 한 행동이 아니야.\""
+    },
+    {
+      "Text": "[s] \"선생님이니까.\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그렇군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이번 폭우로 대부분의 장비가 침수되어 못 쓰게 되어버렸습니다만……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그래도 선생님께서 도와주신 덕분에 공원이 완전히 침수되는 건 막을 수 있었습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "애초에 미야코가 앞장서 준 덕분이지만…… "
+    },
+    {
+      "Name": "사키",
+      "Text": "그나저나 선생님은 우리가 빨리 이 공원에서 나가길 바라고 있었던 거 아냐?"
+    },
+    {
+      "Name": "사키",
+      "Text": "득도 안 되는 일을 위해서 그렇게 고생을 하다니, 선생님도 바보네."
+    },
+    {
+      "Name": "모에",
+      "Text": "뭐- 선생님이 바보라는 건 처음 봤을 때부터 알고 있었지만. 쿠히히……."
+    },
+    {
+      "Name": "미유",
+      "Text": "모, 모에 쨩. 선생님께 그런 말을 하면 안 돼……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "늘 선생님의 도움은 필요 없다고 입버릇처럼 말해왔는데, 오늘은 이렇게 선생님의 도움을 받게 되었네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……감사합니다, 선생님."
+    },
+    {
+      "Text": "(이후, 젖은 몸을 이끌고 샬레로 돌아왔다.)"
+    },
+    {
+      "Text": "(다만 비를 맞으며 작업을 한 탓인지, 한동안 가벼운 몸살에 시달렸다…….)"
+    },
+    {
+      "Text": "다음화;비에 젖은 청구서"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 11; Heavy Rain Advisory"
+    },
+    {
+      "Text": "Schale Office"
+    },
+    {
+      "Text": "A few days later marked the start of Kivotos' rainy season."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Geez, it's turning into a rainstorm out there! I hope Kivotos doesn't turn into a lake."
+    },
+    {
+      "Name": "Arona",
+      "Text": "We might be dealing with the aftermath of this for a while."
+    },
+    {
+      "Name": "Arona",
+      "Text": "But I'm sure each school is taking the appropriate measures to keep their students safe."
+    },
+    {
+      "Name": "Arona",
+      "Text": "...I am a little worried about the SRT Academy students at Kousagi Park."
+    },
+    {
+      "Name": "Arona",
+      "Text": "There's not much shelter at the park, not even a building for them to hide in."
+    },
+    {
+      "Name": "Arona",
+      "Text": "I hope they don't catch a cold."
+    },
+    {
+      "Text": "[ns] Rush out to check on the RABBIT squad."
+    },
+    {
+      "Text": "Kousagi Park"
+    },
+    {
+      "Name": "Saki",
+      "Text": "The tarp has holes all over it!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyu! We need more tarps!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-That was the last of it. We're all out."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Dammit. We weren't prepared for this at all."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Moe! Are you still protecting your metal junk?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Are you crazy? Put them down and come help us!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Over my dead body! If any of my communications equipment gets damaged, I'll really show you crazy!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "These cost more than your life is worth!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "What about our guns?! Our ammunition? I think your stupid equipment is the least of our concerns."
+    },
+    {
+      "Name": "Saki",
+      "Text": "If this rain doesn't let up, we'll lose everything."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Are you done with the waterproofing? The spillway outside the park needs to be expanded. And soon."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The storm sewers are clogged with mud and are about to overflow."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We need to free them up before we all drown!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'd love to help, but we're shorthanded over here!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "If we let go, everything's going to blow away."
+    },
+    {
+      "Name": "Moe",
+      "Text": "That was not the kind of explosion I like."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-It was a bolt of lightning...that hit the park..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The buttress holding up the command tent..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's collapsing! Eeeek!"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "The c-command tent caved in..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "All of our ammunition is underwater."
+    },
+    {
+      "Name": "Moe",
+      "Text": "The communications equipment is ruined."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is it. The end of the line."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's okay. Don't give up."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We just need to expand the spillway, and I'm sure we can recover and repair some of the equipment."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Forget about the stupid equipment!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's over, Miyako! Us... SRT Academy... Everything's over!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "S-Saki..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If I had known this was gonna be the end result, I never would have tried."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Wh-What are you saying?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We all took an oath from the beginning."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We swore to each other we wouldn't give up. That as long as we kept putting one foot in front of the other, we could carry SRT Academy's mantle ourselves. D-Didn't we?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Pretty words and pretty oaths, Miyako. That's all that ever was."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We can't keep up our little game of pretend forever."
+    },
+    {
+      "Name": "Saki",
+      "Text": "How did we end up here? When did our duties become to scavenge for food and steal empty drum barrels so we can shower?!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We were better than this! We used to debate the intricacies of justice and bring down felons! Now... Now we're fighting over expired bentos with hobos."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Tell me, Miyako! Is that what you meant? Is this how you keep the name of SRT alive?!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "...This isn't the SRT I knew."
+    },
+    {
+      "Name": "Moe",
+      "Text": "All our worldly possessions are sunk underwater."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Living out in the streets was fun at first. But it's getting tiring."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Miyako... I wanna g-go home."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Where are you going, Miyako?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "After all this? You look this disaster full in the face, and want to continue?!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Yes."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I will keep SRT Academy's justice alive. I'll never give up."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(The current is so strong... I don't know how long I've been working... I can't feel my hands and feet...)"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(Maybe they were right. Maybe I am a fool. )"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "(But... The justice I believed in... The school that I loved...)"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "No! You won't break me!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Sensei?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You're here to persuade us again?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We don't have time for your silly jokes. Not today."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I don't care what you have to say. I have to clear the spillway, or we really will be flooded."
+    },
+    {
+      "Text": "[ns] Grab a shovel and head to the spillway."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Sensei?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I...I don't understand."
+    },
+    {
+      "Text": "[s] \"So, you just need the dirt cleared out from here?\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes, that's right."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...You're holding the shovel all wrong. Give it."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Dummies until the end."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I wanna help."
+    },
+    {
+      "Text": "The RABBIT members and I worked tirelessly on repairing the spillway for hours."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...The rain finally stopped."
+    },
+    {
+      "Text": "[s] \"You all really pulled through. Great job.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Sensei."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Why do you continue to help us?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We've told you again and again that we won't be persuaded."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I've been trying to solve it this entire time, but I don't understand. What do you hope to get out of this?"
+    },
+    {
+      "Text": "[s] \"I'm not expecting anything.\""
+    },
+    {
+      "Text": "[s] \"I'm just your teacher.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Is that so."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Most of our equipment is waterlogged and damaged beyond repair."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But we did manage to stop the park from flooding completely. Thank you, Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I-I suppose...we wouldn't have made it without Miyako, though..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But Sensei, wasn't your ultimate goal to get us out of this park?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "What kind of stupid Sensei would work so hard to help us stay here?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "We knew Sensei was a dummy since the first moment we laid eyes on them. Heehee."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "You sh-shouldn't talk to your Sensei like that, Moe..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We've rejected your help so many times, and you still came running today when you thought we might need you."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Thank you, Sensei."
+    },
+    {
+      "Text": "Later, I took my soaking-wet self back to Schale."
+    },
+    {
+      "Text": "Perhaps it was the manual labor in the rain, but I ended up having chills and aches for a few days after."
+    },
+    {
+      "Text": "Next Episode; Rain-Soaked Bills"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 11;ระวังฝนตกหนัก"
+    },
+    {
+      "Text": "สำนักงานชาเล่ต์"
+    },
+    {
+      "Text": "(หลังจากนั้นไม่กี่วัน คิโวทอสก็เข้าสู่ฤดูฝน)"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "จู่ๆ ฝนก็ตกหนักเลยนะคะ ถ้าตกอย่างนี้เรื่อยๆ คิโวทอสอาจจะกลายเป็นเมืองบาดาลก็ได้ค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "จะมีพื้นที่ไหนได้รับความเสียหายจากฝนตกหนักบ้างไหมนะ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "สภานักเรียนของแต่ละโรงเรียนคงกำลังรับมือกันอยู่ใช่ไหมคะ?"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "แต่หนูเป็นห่วงนักเรียนสถาบัน SRT ที่อยู่ในสวนสาธารณะจังเลยค่ะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "นักเรียนพวกนั้นไม่มีอาคารให้หลบฝน แล้วก็ไม่น่าจะมีอุปกรณ์กันฝนด้วยสิ..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "ถ้าเป็นหวัดขึ้นมาจะทำยังไงล่ะคะ?"
+    },
+    {
+      "Text": "[ns] ออกไปหากองทหาร RABBIT"
+    },
+    {
+      "Text": "โคะอุซางิ การ์เด้น"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตรงนี้ก็รั่วเหมือนกัน!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยุ! ไปเอาผ้ายางมาอีก!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เบาะปูพื้นที่สำรองไว้มีแค่นั้นแหละ! ไม่มีเหลือแล้ว!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "บ้าจริง! รู้งี้น่าจะขยันไปเก็บวัสดุให้มากกว่านี้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โมเอะ! เธอจะกอดกองเศษเหล็กนั่นไปถึงเมื่อไหร่?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้ามือว่างนักละก็มาช่วยปูผ้ายางตรงนี้สิ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "จะบ้าเหรอ? จะให้ฉันปล่อยอุปกรณ์สื่อสารพวกนี้ให้จมน้ำไปรึไง?!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "รู้ไหมว่าแต่ละเครื่องมันราคาแพงขนาดไหน?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตอนนี้เราอาจต้องเสียปืนกับกระสุนไปกับน้ำฝนก็ได้นะ แล้วเธอจะไปใส่ใจอุปกรณ์สื่อสารอยู่ทำไม?!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฝะ... ฝนบ้าบอนี่ เมื่อไหร่จะหยุดตกกันนะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทุกคนคะ! ถ้าบุผ้ายางกันน้ำกันเสร็จแล้ว ก็มาช่วยระบายท่อน้ำนอกสวนสาธารณะหน่อยนะคะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดินมันอุดท่ออยู่จนน้ำเริ่มเอ่อออกมาแล้ว..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าปล่อยไว้แบบนี้ พื้นที่ทั้งหมดอาจถูกน้ำท่วมก็ได้ค่ะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "รู้แล้วน่า! แต่ทางนี้ก็ยุ่งอยู่เหมือนกัน!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้าปล่อยมือตอนนี้ ทุกอย่างได้พังหมดแน่..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "มะ... เมื่อกี๊เกิดอะไรขึ้นน่ะ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฟ้าผ่ากลางสวนสาธารณะเลย...!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม้ยันเต็นท์บัญชาการของพวกเรา..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว้ากกก พังลงมาแล้ว!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "......"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เต็นท์บัญชาการถล่มแล้ว..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กระสุนก็จมน้ำไปแล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อุปกรณ์สื่อสารก็เหมือนจะพังหมดแล้ว..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่เหลือแล้ว..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไม่ค่ะ เราต้องไม่ยอมแพ้"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าเรารีบขุดลอกท่อน้ำ แล้วรีบเก็บอุปกรณ์ที่ยังไม่เสียหายมาดูแลไว้ก่อน..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันไม่ได้หมายถึงอุปกรณ์สักหน่อย!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หมายถึงพวกเราและสถาบัน SRT ต่างหาก! ไม่มีอะไรเหลือแล้ว!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ซะ... ซากิจัง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้ารู้ว่าจะจบอย่างนี้ ฉันยอมแพ้ตั้งแต่แรกดีกว่า..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เดี๋ยวสิคะทุกคน หมายความว่ายังไงกันคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ตอนแรกเราตั้งปณิธานด้วยกันแล้วนี่คะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "\"ตราบใดที่พวกเราไม่ยอมแพ้ ชื่อของ SRT ก็จะไม่มีวันหายไป\""
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใช่แล้ว เราพูดอย่างนั้นก็จริง แต่มิยาโกะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เธอเองก็รู้ดีอยู่ไม่ใช่เหรอว่าเราจะดื้อดึงไปตลอดไม่ได้"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ปฏิบัติการหลักของ SRT ในการจับกุมอาชญากรและรักษาความสงบของบ้านเมืองกลายเป็นความหลัง\nไปแล้ว ตอนนี้พวกเราก็ได้แต่เตร็ดเตร่หาอาหารและข้าวของเครื่องใช้กันเอง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แทนที่จะได้ต่อสู้กับอาชญากรเพื่อผดุงความยุติธรรม กลับต้องมาสู้กับคนไร้บ้านเพื่อแย่งข้าวกล่อง\nเหลือทิ้ง!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คิดว่าการทำแบบนี้... มันจะรักษาชื่อของ SRT ไว้ได้จริงๆ เหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันไม่รู้เลยว่าตอนนี้กำลังทำอะไรอยู่..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อาวุธกับอุปกรณ์ก็จมน้ำหมดแล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันเหนื่อยกับการเป็นคนไร้บ้านแล้ว..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มิยาโกะจัง... เรากลับบ้านกันเถอะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยาโกะ จะไปไหนน่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คิดจะทำอะไรบ้าๆ หรือไง?!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เพื่อรักษาชื่อของ SRT ไว้ ฉันจะยอมแพ้ไม่ได้นี่คะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(ทำงานมากจนมือชาไปหมดแล้ว... กระแสน้ำก็รุนแรงจริงๆ...)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(ทุกคนอาจจะพูดถูกก็ได้ สิ่งที่เราทำมามันไม่มีความหมายเลย...)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "(แต่ว่าเพื่อรักษา SRT ไว้... ฉันต้อง...)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไม่ยอมแพ้เด็ดขาด!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครู...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มาเกลี้ยกล่อมพวกเราเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าวันอื่นยังพอได้ แต่วันนี้ฉันไม่มีเวลามาเล่นสนุกกับคุณครูหรอกนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าฉันไม่รีบขุดลอกท่อ ทั่วทั้งบริเวณนี้คง..."
+    },
+    {
+      "Text": "[ns] ถือพลั่วแล้วลงมาช่วยลอกท่อระบายน้ำ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำไมถึง..."
+    },
+    {
+      "Text": "[s] \"ให้เอาโคลนตรงนี้ออกใช่ไหม?\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ... รบกวนด้วยนะคะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใครเค้าใช้พลั่วแบบนั้นกัน... ส่งมานี่"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "พวกหัวทึบเอ๊ย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันช่วยเองค่ะ..."
+    },
+    {
+      "Text": "(จากนั้นคุณครูกับกองทหาร RABBIT ก็ช่วยกันขุดลอกท่ออยู่พักใหญ่)"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฝนหยุดแล้วละค่ะ..."
+    },
+    {
+      "Text": "[s] \"ทุกคนทำได้ดีมาก\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำไมถึงมาช่วยพวกเราล่ะคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราย้ำไปหลายรอบแล้วนี่คะว่าถึงคุณครูจะมาช่วยแค่ไหน พวกเราก็ไม่เปลี่ยนใจอยู่ดี..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันไม่เข้าใจเลยค่ะว่าคุณครูต้องการอะไรจากพวกเรา ถึงได้มาช่วยพวกเราอยู่อย่างนี้"
+    },
+    {
+      "Text": "[s] \"ครูไม่ได้ทำเพราะหวังอะไรหรอก\""
+    },
+    {
+      "Text": "[s] \"ครูทำเพราะครูเป็นครูไงล่ะ\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อย่างนี้เองเหรอคะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อุปกรณ์ส่วนใหญ่ของเราจมน้ำจนใช้งานไม่ได้แล้วค่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ถึงยังไงเราก็ช่วยป้องกันไม่ให้สวนสาธารณะจมน้ำได้ เพราะได้คุณครูมาช่วยไว้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เป็นมิยาโกะต่างหากที่ลงมือทำตั้งแต่แรก... "
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าแต่... คุณครูต้องการให้เราออกจากสวนสาธารณะนี้ไวๆ ใช่ไหมล่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "คุณครูเองก็ทึ่มเหมือนกันนะ มาออกแรงช่วยทำไมก็ไม่รู้ ไม่เห็นจะได้ประโยชน์อะไรกับตัวเองเลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เรารู้กันว่าคุณครูเป็นคนทึ่มตั้งแต่ครั้งแรกที่เจอแล้วไม่ใช่เหรอ... ฮิฮิ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "โมเอะจัง! พูดแบบนั้นกับคุณครูได้ไง..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกเราเอาแต่พูดว่าไม่ต้องการความช่วยเหลือจากคุณครู แต่วันนี้ก็ได้รับความช่วยเหลือจากคุณครู\nจนได้นะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ขอบคุณนะคะคุณครู..."
+    },
+    {
+      "Text": "(จากนั้นคุณครูก็กลับชาเล่ต์แบบเปียกโชกไปทั้งตัว)"
+    },
+    {
+      "Text": "(และหลังจากนั้นก็ครั่นเนื้อครั่นตัวอยู่พักใหญ่เพราะทำงานหนักกลางสายฝน)"
+    },
+    {
+      "Text": "ตอนต่อไป;ใบคำร้องที่เปียกฝน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第11話;大雨特報"
+    },
+    {
+      "Text": "夏萊．辦公室"
+    },
+    {
+      "Text": "（幾天後，奇普托斯下了廣範圍的大雨）"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "好大的雨呢……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "希望各個自治區沒有發生災情……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "交給各學園的學生會和委員會應該沒問題吧。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "啊，不過……現在在公園的SRT的學生們……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "這麼大的雨，她們的帳篷……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "好擔心她們會不會感冒，而且……"
+    },
+    {
+      "Text": "[ns] 前去察看RABBIT小隊的狀況"
+    },
+    {
+      "Text": "兔寶寶公園"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這邊的膠帶也破掉了！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "美優！防水布不夠！"
+    },
+    {
+      "Name": "美優",
+      "Text": "已，已經沒有備用的了……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "該死，如果能有更多相關物資……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "萌，來幫忙這邊！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "你要抱著機械到什麼時候！"
+    },
+    {
+      "Name": "萌",
+      "Text": "不不不，通訊裝備可不能浸水呀！？"
+    },
+    {
+      "Name": "萌",
+      "Text": "你以為這邊的機器全部加起來要多少錢啊？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "誰知道啊！想點辦法！！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "該死，雨要下到什麼時候啊……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "防水部分補強完成後，接下來處理排水道吧！"
+    },
+    {
+      "Name": "都子",
+      "Text": "不知道是不是土砂堵住了，水一直溢出來……"
+    },
+    {
+      "Name": "都子",
+      "Text": "這樣下去的話，周圍一帶都會浸水！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我知道！但是這裡也來不及補強！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "手一鬆開就會立刻崩塌──"
+    },
+    {
+      "Name": "萌",
+      "Text": "剛才的是……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "公，公園的中央，有閃電……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不妙，"
+    },
+    {
+      "Name": "咲希",
+      "Text": "帳篷的支柱要倒下了……！"
+    },
+    {
+      "Name": "全體",
+      "Text": "……"
+    },
+    {
+      "Name": "美優",
+      "Text": "帳，帳篷……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "彈藥，全都報廢了……"
+    },
+    {
+      "Name": "萌",
+      "Text": "通訊器材也……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "全都結束了嗎……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不，要放棄還太早了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "想辦法疏通排水道，從浸水較少的裝備開始回收──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我說的不只裝備！！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "全部，是全部……！我們SRT，已經……！！"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲希醬……"
+    },
+    {
+      "Name": "萌",
+      "Text": "哈啊……早知道會這樣的話，一開始……"
+    },
+    {
+      "Name": "都子",
+      "Text": "你，你在說什麼……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "一開始大家不是一起說了嗎。"
+    },
+    {
+      "Name": "都子",
+      "Text": "只要我們不放棄，SRT的名字──"
+    },
+    {
+      "Name": "萌",
+      "Text": "都子其實也很清楚吧？"
+    },
+    {
+      "Name": "萌",
+      "Text": "這種像笨蛋一樣的事，不可能一直持續下去。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "現在的我們別說要維持治安，每天光是尋找糧食……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "根本沒空管什麼正義，管什麼犯罪者。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我實在不覺得，這副德行能守住SRT的名字……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……我已經，不知道自己在做什麼了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "真的，我們在做什麼呢……"
+    },
+    {
+      "Name": "萌",
+      "Text": "全都浸水了，露宿生活也累了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "都子醬……我們放棄吧……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……都子，你要去哪裡？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種蠢事，你還打算繼續下去嗎！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是，沒錯。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我不會放棄，這也是為了SRT。"
+    },
+    {
+      "Name": "都子",
+      "Text": "（水壓好強……手已經沒感覺了……）"
+    },
+    {
+      "Name": "都子",
+      "Text": "（確實可能真的沒有意義……）"
+    },
+    {
+      "Name": "都子",
+      "Text": "（但是我要把SRT，把我心中的理想……）"
+    },
+    {
+      "Name": "都子",
+      "Text": "我無法放棄……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "……老師？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……今天有什麼事嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "我想看了就知道了，現在不是能開玩笑的狀況。"
+    },
+    {
+      "Name": "都子",
+      "Text": "現在不立刻對應的話，周圍全都會……"
+    },
+    {
+      "Text": "[ns] 拿起鏟子前往排水道"
+    },
+    {
+      "Name": "都子",
+      "Text": "老師……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "為什麼……"
+    },
+    {
+      "Text": "[s] 「把這裡的土清掉就好了吧？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "是，拜託你了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "哈啊……還真不會用鏟子，拿來。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……真的是在做什麼啊。"
+    },
+    {
+      "Name": "美優",
+      "Text": "……我來幫忙。"
+    },
+    {
+      "Text": "（之後和RABBIT小隊員們，拚命整頓了排水道）"
+    },
+    {
+      "Name": "都子",
+      "Text": "……雨終於停了呢。"
+    },
+    {
+      "Text": "[s] 「大家辛苦了。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……為什麼要幫我們？"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們應該一而再再而三強調了。什麼都不會改變。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我完全不懂老師對我們有什麼期待。"
+    },
+    {
+      "Text": "[s] 「我沒有特別期待唷。」"
+    },
+    {
+      "Text": "[s] 「只因為我是老師。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是嗎。"
+    },
+    {
+      "Name": "都子",
+      "Text": "雖然裝備幾乎都報廢了……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不過總算是，防止公園完全浸水了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "真是的，雖然對都子也有很多想說的……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "但老師不是想要我們放棄在這個公園生活嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "明明沒有什麼好處……真是品質保證的笨蛋呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，最初就知道是個笨蛋了呢。咕嘻嘻……"
+    },
+    {
+      "Name": "美優",
+      "Text": "萌，萌醬……人家特地來幫我們耶……"
+    },
+    {
+      "Name": "都子",
+      "Text": "雖然一直說不需要幫忙……不過也確實受幫助了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……謝謝你，老師。"
+    },
+    {
+      "Text": "（之後拖著一身濕回到了夏萊）"
+    },
+    {
+      "Text": "（雖然被雨淋濕而感冒了，但也感念一切安好……）"
+    },
+    {
+      "Text": "下一話;被雨淋濕的申請書"
+    }
+  ]
+}

@@ -1,0 +1,1257 @@
+{
+  "TitleJP": "RABBIT小隊編",
+  "TitleKR": "RABBIT 소대 편",
+  "TitleEN": "RABBIT Squad Episode",
+  "TitleTH": "กองทหาร RABBIT",
+  "TitleTW": "RABBIT小隊篇",
+  "DescJP": "晄輪大祭の反省会を開くRABBIT小隊一同。サキは試合で良い成績を修めることができず落ち込んでいたが、ミヤコは市民の安全を守ることができたのだと笑う。そうして、一日の締めくくりとして後夜祭の警備へと向かうのだった。",
+  "DescKR": "대운동회에서 발생한 소동을 정리 중인 RABBIT 소대. 사키는 경기에서 좋은 성적을 거두지 못해 아쉬워하지만, 미유는 시민들의 안전을 지킬 수 있어서 보람찼다고 답하고 다들 이 말에 공감한다. 그리고 후야제가 시작되자 RABBIT 소대는 학생들의 안전을 위해 작전을 조금 더 이어가기로 한다.",
+  "DescEN": "The RABBIT Squad is on clean-up duty after field day. Saki is disappointed that they didn't do well in the competition, but Miyu reminds her that protecting the citizens of Kivotos was its own reward, and everyone agrees. As the after-party begins, the RABBIT Squad decides to continue their operation a little longer to keep the students safe.",
+  "DescTH": "กองทหาร RABBIT อยู่ระหว่างจัดการเหตุวุ่นวายต่างๆ ที่เกิดขึ้นในงาน\nแข่งขันกีฬา ซากิรู้สึกผิดหวังที่เธอแข่งได้คะแนนไม่ดี แต่มิยุก็ปลอบว่า\nอย่างน้อยซากิก็รักษาความปลอดภัยให้กับนักเรียนคนอื่นๆ ได้ ซึ่งคนอื่นๆ ก็เห็นด้วย และเมื่องานอาฟเตอร์ปาร์ตี้เริ่มขึ้น เหล่ากองทหาร RABBIT ก็\nตัดสินใจว่าจะออกปฏิบัติการต่อเพื่อดูแลความปลอดภัยของเหล่านักเรียน",
+  "DescTW": "RABBIT小隊召開了晄輪大祭反省會。咲希因為沒有在比賽中取得好成績情緒低落，但美優說「可以守護市民的安全，我覺得很有意義」，大家也對此表示同感。然後，作為一天的結束，RABBIT小隊決定前往後夜祭警備，繼續守護學生們的安全。",
+  "DialogJP": [
+    {
+      "Text": "後日談その2;RABBIT小隊編"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……こちらRABBIT1。現在時刻は1930。\nミレニアムの生徒が大運動会の備品、及び機材の回収を確認。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "続いて、応援ロボットに偽装し会場内に持ち込まれた戦車――通称「ブルジョアクラッシャー」の機能停止も確認しました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "その他、安全性が確認されていないロボットも、「ヴェリタス」の関係者と思しき生徒により全て回収済みです。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "こ、こちら、RABBIT4……\nアスレチックスタジアムの郊外で、デモを起こしてる工務部を発見……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "「週休4日制」を主張して、ヴァルキューレの生徒と言い争いをしてたけど……\n観客が減って、勢いが弱まってる……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ここでデモを続けても、意味がないことに気づいたみたい……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こちらRABBIT2。観客の帰宅が済んだ観覧席エリアのパトロールを完了した。\n爆発物や引火性の高い不審物は無し。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "観客がゴミを持ち帰ってくれたおかげだ。\nこれなら見るまでもなかったな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こちらRABBIT3。救護所の電子カルテを調べてみたよ。\n幸い、重症者はいなかったみたい。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "SNSの反応も好意的なものが多いし……\nこれなら大成功って言ってもいいんじゃないの？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "アスレチックスタジアム内の危険因子は、すべて取り除かれたと判断して良いでしょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ミッションクリアです！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "みんな、本当にお疲れ様……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まあ、SRT特殊学園の総合成績は最下位だったけどね……ふふ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くっ……あのとき戦車にぶつからなければ1勝はできたのに……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "またその話？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それを言うなら、「借り物競争」は？\n規則をちゃんと読んでたら、失格にならずに済んだでしょ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "う、うるさいな！\n競技場に白リン弾を持ってくるやつに言われたくない！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "私たち……4人しかいないから……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "参加できる競技の数が少なかったし……\n最下位になっちゃったのも、仕方ないんじゃないかな……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でも、アビドス高校ってとこは、全生徒5人しかいないのに真ん中くらいの成績だったらしいよ？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うーん……やっぱり、ここはサキのせいにしとこっか。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "おいっ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "気にする必要はありませんよ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私たちは、すでに24時間以上作戦を継続している状態です。\n精神的にも体力的にも、不利な状態でしたから。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それに、ミレニアムに持ち込まれた軍用パーツの行方を追いかけたおかげで、戦車が暴れても慌てず速やかに動けました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何より……「市民の安全を守る」という一番の目標は達成できましたので。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……記録には残らないかもしれませんが、きっと誰かの記憶には残ってくれるはず。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……なら、良しとするか。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "作戦なのに、こんなこと思っちゃダメだと思うんだけど……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "今回の作戦は、いつもよりちょっと……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょっと……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……ちょっと、楽しかったな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "お、おかしいよね……？\n市民の安全を守るSRTが、作戦を楽しむなんて……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ……やっぱり、私はSRT特殊学園に[ruby=ふさわ]相応[/ruby]しくない役立たずで――"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……いや、その気持ちは私も分かるぞ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "久しぶりに色々な学園と競い合って汗をかいたおかげで、あらためて実感した。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "私たちは、このために街を守っているんだなぁって。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あっ、いや……ほら！教範で読むよりも実際にやってみたほうが理解しやすいこともあるだろう？SRTの目的も、時たま実感しづらいし……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "SRTの存在意義を肌で感じる、良い機会になったというか……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "サキちゃん……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "私も今回の大運動会、楽しかったよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "普段は触れられないデータにもアクセスできたし……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょっとした臨時収入も……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "お前は楽しみすぎだ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "目まぐるしい1日でしたが、皆さんの笑顔を近くで見られた貴重な1日でもありましたね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "SRTの隊員として、今日という日常を大切に、これからも正義のために――"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そういや、今日は何も食べてなかったね……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "廃棄弁当を探す暇もなかったから……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "「パン食い競争」でアンパンを食べたぐらいだな……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……さっき、ゲヘナ生がトングと食材を持って中央フィールドに向かってたけど……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "バーベキューでもするのかな……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "中央フィールドでしたら……「後夜祭」のキャンプファイヤーが行われているはずです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "バーベキューを行うというのは聞いていませんが……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "何か問題が発生するかもしれません……様子を見に行きましょう。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そ、そうだよな！大人数で集まって火を扱うんだ、用心するに越したことはない！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……バーベキューの残りを狙ってるわけじゃないけどね！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "なんか、手段と目的が入れ替わってるような気も……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……それでは、三日月作戦ミッションリスタートです！"
+    },
+    {
+      "Name": "一同",
+      "Text": "了解！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "후일담;RABBIT 소대 편"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……여기는 RABBIT 1. 현재 시각은 1930시. 밀레니엄의 학생들이 대운동회에 사용한 비품과 기자재를 회수하는 것을 확인."
+    },
+    {
+      "Name": "미야코",
+      "Text": "응원 로봇으로 위장되어 회장 내에 반입된 전차— 통칭 <부르주아 크래셔>의 완전한 기능 정지 또한 확인했습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그 외에 안정성이 확인되지 않은 로봇들도 '베리타스'의 관계자처럼 보이는 학생에 의해 모두 수거되었습니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "여, 여기는 RABBIT 4…… 애슬레틱 스타디움 외곽에서 시위 중인 용역 학생들의 동향을 확인……"
+    },
+    {
+      "Name": "미유",
+      "Text": "조금 전까지만 하더라도 '주 3일 노동'을 외치며 발키리 학생들과 대치하고 있었는데…… 관중들이 줄어들자 분위기가 한풀 꺾인 것처럼 보여."
+    },
+    {
+      "Name": "미유",
+      "Text": "아무래도 이곳에서 시위를 계속하는 건 의미가 없다고 판단했나 봐……"
+    },
+    {
+      "Name": "사키",
+      "Text": "여기는 RABBIT 2. 방금 관중들이 빠져나간 관람석 구역을 전반적으로 순찰했는데, 폭발성 및 인화성 물질로 의심되는 화물은 없는 것 같아."
+    },
+    {
+      "Name": "사키",
+      "Text": "다들 퇴장하면서 쓰레기도 깨끗이 챙겨 나간 모양이라, 더 살펴볼 필요도 없더라고."
+    },
+    {
+      "Name": "모에",
+      "Text": "여기는 RABBIT 3. 방금 구호소의 전자 의무 기록을 살펴봤는데, 경기 중 가볍게 다친 경상자는 제법 있었지만 다행히 중상자는 발생하지 않은 모양이야."
+    },
+    {
+      "Name": "모에",
+      "Text": "SNS의 반응을 살펴봐도 다들 긍정적인 반응뿐이고…… 전반적으로 만족스러운 축제가 된 것 같아."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이만하면 애슬레틱 스타디움에 잔존하는 유해 위험 요인은 모두 제거된 것 같군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이것으로…… 미션, 클리어입니다!"
+    },
+    {
+      "Name": "미유",
+      "Text": "정말 다들 수고 많았어……"
+    },
+    {
+      "Name": "모에",
+      "Text": "그와 별개로 SRT 학원의 성적은 참가 학원 중 꼴찌에 그쳤지만 말이야. 후후……"
+    },
+    {
+      "Name": "사키",
+      "Text": "큿…… 그때 전차에 치이지만 않았었더라도, 최소한 1승은 거둘 수 있었을 텐데……"
+    },
+    {
+      "Name": "모에",
+      "Text": "아직까지 그 이야기를 하고 있는 거야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "그렇게 치면 처음에 <물건 빌려오기> 경주 때가 더 아쉽지 않았어? 규칙만 제대로 읽어봤더라면 실격되지도 않았을 텐데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "시끄러워. 경기장에 백린 연막탄을 가져오는 녀석이 더 이상한 거라고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "게다가 우리는 참가한 학생의 숫자를 다 합해도 4명밖에 되지 않으니까……"
+    },
+    {
+      "Name": "미유",
+      "Text": "참여할 수 있는 경기의 숫자도 많지 않으니, 꼴찌를 하는 것도 어쩔 수 없는 일 아닐까……?"
+    },
+    {
+      "Name": "모에",
+      "Text": "하지만 아비도스 고등학교라는 곳은 전교 통틀어 5명밖에 참가하지 않았는데도, 중위권의 성적을 거둔 모양이던데."
+    },
+    {
+      "Name": "모에",
+      "Text": "음…… 역시 그냥 사키가 못한 것으로 하자."
+    },
+    {
+      "Name": "사키",
+      "Text": "야!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "너무 낙담할 필요는 없습니다, 사키."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희는 이미 24시간이 넘도록 작전을 진행 중인 상태였으니, 정신적으로도 체력적으로도 한계가 오는 것이 당연합니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "게다가 밀레니엄 학원에 반입된 군용 파츠의 행방을 부지런히 쫓은 덕분에, 전차가 날뛰었을 때도 당황하지 않고 초동 대처를 할 수도 있었지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "시민의 안전을 수호한다는 제1 목표를 달성했으니, 오늘은 이것으로 만족합시다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……사람들은 경기의 결과만을 기억하겠지만, '누군가'는 저희의 노고를 기억해 줄 테니까요."
+    },
+    {
+      "Name": "사키",
+      "Text": "그렇다면 조금 위안이 되긴 하지만……"
+    },
+    {
+      "Name": "미유",
+      "Text": "지금 상황에 이런 말을 꺼내도 괜찮을지 모르겠지만……"
+    },
+    {
+      "Name": "미유",
+      "Text": "사실 나는, 이번 작전이 평소와는 다르게 조금……"
+    },
+    {
+      "Name": "모에",
+      "Text": "조금……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "……조금 즐거웠어."
+    },
+    {
+      "Name": "미유",
+      "Text": "여, 역시 이상하지……? 시민의 안전을 지켜야 하는 SRT가 작전 자체를 즐기고 있었다니……"
+    },
+    {
+      "Name": "미유",
+      "Text": "역시 나는 SRT 특수학원에는 어울리지 않는 쓸모없는 아이인 게—"
+    },
+    {
+      "Name": "사키",
+      "Text": "……아니, 나도 그 마음에는 어느 정도 동감해."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭔가 오랜만에 기지 밖에 나와서 다른 학원의 학생들과 부딪히고, 땀을 흘리고 있노라니 새삼 실감이 되었거든."
+    },
+    {
+      "Name": "사키",
+      "Text": "우리가 지켜내고자 하는 시민들과 사회가 이곳이구나, 싶어서."
+    },
+    {
+      "Name": "사키",
+      "Text": "아, 아니…… 왜 가끔 그렇잖아! 교범으로 읽는 것보다 직접 만져보는 게 이해가 빠른 것처럼, SRT의 목적도 가끔은 실감하기 어려울 때가 있으니까……"
+    },
+    {
+      "Name": "사키",
+      "Text": "모처럼 SRT의 의의를 실감할 수 있는 좋은 기회가 되었다고 할까……"
+    },
+    {
+      "Name": "미유",
+      "Text": "사키 쨩……"
+    },
+    {
+      "Name": "모에",
+      "Text": "나도 이번 대운동회, 굉장히 즐거웠어."
+    },
+    {
+      "Name": "모에",
+      "Text": "평소에는 접하기 어려운 여러 가지 데이터도 만져볼 수 있었고……"
+    },
+    {
+      "Name": "모에",
+      "Text": "경기 중에 학원 간의 승패를 두고 내기가 벌어지기도 해서 용돈벌이도 조금 하고……"
+    },
+    {
+      "Name": "사키",
+      "Text": "너는 그만 좀 즐겨!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "네. 오늘 하루는 작전으로 숨 가쁘게 보낸 하루이기도 했지만, 시민들의 미소를 가까이에서 바라볼 수 있었던 하루이기도 했지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "SRT의 대원으로서 오늘의 소중한 일상을 간직한 채, 앞으로도 정의를 위해 최선을—"
+    },
+    {
+      "Name": "미야코",
+      "Text": "………."
+    },
+    {
+      "Name": "모에",
+      "Text": "잊고 있었지만, 우리 오늘 점심도 안 먹었었지……"
+    },
+    {
+      "Name": "미유",
+      "Text": "평소와는 다르게 폐기 도시락을 주으러 다닐 틈도 없었으니까……"
+    },
+    {
+      "Name": "사키",
+      "Text": "바쁘게 뛰어다니면서 먹은 것이라고는 빵 먹기 경주에 쓰인 단팥빵뿐이니……"
+    },
+    {
+      "Name": "미유",
+      "Text": "그러고 보니 아까 한 무리의 게헨나 학생들이 식재료와 바비큐 장비를 들고 중앙 필드 쪽으로 가던데……"
+    },
+    {
+      "Name": "미유",
+      "Text": "그곳에서 뭔가 바비큐라도 하려는 걸까?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "중앙 필드 쪽이라면…… <후야제>에 쓰이는 캠프파이어를 준비하는 장소로군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "캠프파이어에서 바비큐 요리를 함께 만든다는 이야기는 듣지 못했습니다만……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "안전상에 문제가 있을지도 모르니…… 한 번 가볼까요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그, 그래! 큰불을 쓰는 행사에는 언제나 사고가 뒤따르는 법이니까……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……절대로 바비큐를 하고 남은 식재료에 눈독을 들이고 있는 게 아니니까!"
+    },
+    {
+      "Name": "미유",
+      "Text": "뭔가 아까와 달리, 목적과 수단이 뒤바뀐 것 같긴 하지만……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그럼 초승달 작전, 조금 더 연장하겠습니다!"
+    },
+    {
+      "Name": "일동",
+      "Text": "확인!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Afterword; RABBIT Squad Episode"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...This is RABBIT 1. Time is 1930. Millennium students are currently retrieving supplies and equipment used in the festival."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Confirmed: the tank disguised as a cheer robot and sent to infiltrate the stadium - code name <Bourgeois Crasher> - has been rendered fully non-functioning."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Other than that, all robots whose security has not been reconfirmed were retrieved by what appeared to be a Veritas student."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-This is RABBIT 4... Confirming the movements of the l-labor students currently protesting on the outskirts of the Athletic S-Stadium."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "They were shouting, \"G-Guarantee 3 days!\" and facing off with the Valkyrie s-students... But th-their morale took a h-hit when some of the audience left."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I guess they d-decided that there wasn't any use in p-protesting anymore."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is RABBIT 2. I completed my patrol of the bleacher area from where the spectators exited, and I didn't see anything resembling suspicious explosives or flammable materials."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Everyone seems to have cleaned up their trash as they left, so we're good on that front too."
+    },
+    {
+      "Name": "Moe",
+      "Text": "This is RABBIT 3. I just checked the electronic medical records of the aid stations, and while there were quite a few minor injuries during the event, thankfully there was nothing serious to report."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If you look at the reactions on social media, they're all pretty positive... Overall, I think it was quite a successful festival."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It looks like we've eliminated any remaining potential threats in the Athletic Stadium."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "With that... Mission complete!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Thank you all for your hard work..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Even though SRT's results were the worst among the participating academies. Heh..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ugh... If we hadn't gotten hit by that tank, we could have gotten at least one win..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Are we still going on about that?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "If that's the case, aren't you more disappointed about the first game of fetch? If someone had read the rules correctly, we wouldn't have been disqualified..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Shut up. The girl who brings white phosphorus smoke bombs to the stadium is the weird one!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Anyway, there were only f-four of us from SRT to begin with..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "There are only s-so many races we could have p-participated in, so m-maybe the results were inevitable?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "But Abydos High School only had five students, and they still managed to finish in the middle of the pack."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Mm...let's just say Saki failed us."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There's no need to get discouraged, Saki."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We had already been operating for over 24 hours, so it's only natural we were mentally and physically exhausted."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And thanks to our diligence in tracking the whereabouts of the military parts brought into Millennium, we were able to react in a quick and orderly manner when the tanks went on a rampage."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We've accomplished our most important goal of keeping the citizens safe, so let's be satisfied with that and call it a day."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...The public may only remember the outcome of the game, but our efforts don't go unnoticed."
+    },
+    {
+      "Name": "Saki",
+      "Text": "That makes me feel a little better, I guess..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I don't know if it's okay to say this, but..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Actually, I think this operation is a little d-different from usual..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "What do you mean?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It was...a little fun."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-It's weird, isn't it...? That SRT, whose priority is s-supposed to be protecting the safety of citizens, was enjoying the operation..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I really am just a useless person wh-who doesn't belong at SRT Academy..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...No, I kind of get what you're saying."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's been a while since we've been outside the base... Interacting with students from other academies...sweating side by side..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I realized that these people right here are the citizens and society we work to protect."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ah... Well, I guess I'm just trying to say sometimes you don't really understand the significance of something just by reading it in a textbook. You need to experience things firsthand to really realize SRT's purpose."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'd say today was a good opportunity to really understand the significance behind SRT's mission."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Saki..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I had a lot of fun at this field day, too."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I was able to play with a lot of data that I wouldn't normally have access to..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And everyone was betting on which academy was going to win each race, so I got to pocket some extra cash too."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I think you're having a little too much fun!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I agree with all of you. Today's operation kept us busy, but it was a great opportunity to see the citizens' smiles up close."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "As a member of the SRT, I will cherish every day like today, and continue to do my best to bring justice—"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "It totally slipped my mind. We didn't have lunch today..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-Because I didn't have time to scavenge for e-expired lunch boxes like usual..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We were so busy running around the only thing we ate was the red bean bread from the Bread-Eating race..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Speaking of which, earlier a group of Gehenna students were taking food and barbecue equipment to the center field..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Are they going to b-barbecue something there?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The center field area is where they prepare the campfire for...the After-Party."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I haven't heard anything about being able to make a barbecue over the campfire, but..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There might be some safety issues, so... Shall we go and...inspect?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "That's right! There are always accidents at events with big fires..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...We're deeefinitely not going there to scrounge for some leftovers."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Unlike o-our earlier operation, it seems our g-goals are a bit different now, but..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Operation Crescent Moon, extended with a renewed purpose!"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Roger!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ย้อนวันวาน; กองทหาร RABBIT"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...RABBIT 1 รายงาน เวลา 19:30 น. ตรวจสอบพบนักเรียนโรงเรียนมิลเลเนียมกำลังขนย้ายวัสดุ และอุปกรณ์ที่ใช้ในงานฮาโลเฟสติวัล"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ยืนยัน รถถังที่ปลอมแปลงเป็นหุ่นยนต์เชียร์และแทรกซึมเข้าไปในสนามกีฬา - โค้ดเนม <บัวร์วา ครัชเชอร์> หยุดทำงานอย่างสมบูรณ์แล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นอกจากนั้น หุ่นยนต์ทั้งหมดที่ไม่ได้รับการยืนยันความปลอดภัย ถูกนักเรียนที่เหมือนเป็นสมาชิก\nของทาง ‘เวอริทัส’ เก็บรวบรวมไปแล้วค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "RABBIT 4 ระ...รายงาน... ตรวจสอบพบความเคลื่อนไหวของกลุ่มนักเรียนชมรมผู้รับจ้างประท้วงอยู่ที่\nบริเวณรอบนอกสนามกีฬา..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตะ... ตั้งแต่เมื่อครู่นี้พวกเธอเอาแต่ตะโกนประท้วงว่า “ทำงานสัปดาห์ละ 3 วัน” และเผชิญหน้ากับ\nนักเรียนโรงเรียนวัลคิรี่ ตะ... แต่ดูเหมือนขวัญกำลังใจของพวกเธอก็ดูเหมือนจะลดลง เพราะชาวคิโวทอสที่มามุงดูเริ่มบางตาลงค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ดะ... ดูเหมือนพวกเธอจะได้ข้อสรุปว่าไม่มีประโยชน์ที่จะยืนประท้วงที่นี่กันต่อค่ะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "RABBIT 2 รายงาน ตรวจสอบพื้นที่บริเวณอัฒจันทร์หลังจากผู้ชมทยอยออกไปเรียบร้อยแล้ว ไม่พบวัตถุต้องสงสัย หรือวัตถุระเบิดอะไรซ่อนอยู่"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทุกคนคงจะเก็บขยะและทำความสะอาดบริเวณที่นั่งตัวเองก่อนออกไป คงไม่ต้องตรวจสอบเพิ่มแล้วละ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "RABBIT 3 รายงาน ฉันเพิ่งตรวจสอบรายงานการรักษาออนไลน์ของหน่วยพยาบาล ระหว่างงานเทศกาลมีผู้บาดเจ็บเล็กน้อย ไม่พบรายงานเกี่ยวกับผู้บาดเจ็บสาหัส"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตรวจดูกระแสในโซเชียลมีเดียก็มีแต่เชิงบวก ไม่มีกระแสเชิงลบ... โดยรวมแล้วถือว่างานเทศกาล\nประสบความสำเร็จดีเลยทีเดียว"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เหมือนเราจะกำจัดปัจจัยที่ทำให้เกิดเรื่องอันตรายขึ้นในสนามกีฬาออกไปได้หมดแล้วนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เท่านี้ก็... ภารกิจสำเร็จแล้วค่ะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ขอบคุณทุกคนที่ทำงานอย่างหนักนะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถึงผลการแข่งขันรวม สถาบัน SRT จะได้ที่โหล่ก็เถอะนะ ฮุฮุ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อึก... ถ้าตอนนั้นไม่ถูกรถถังนั่นชนละก็ พวกเราคงชนะไปแล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่ยังจะเว้าวอนเรื่องนั้นไม่เลิกอีกเหรอเนี่ย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าพูดแบบนั้น ตอนแข่ง <วิ่งยืมของ> ในตอนแรกน่าเสียดายกว่าอีกไม่ใช่รึไง? ถ้าใครบางคนอ่าน\nกติกาให้ดีๆ ก็คงไม่ถูกตัดสิทธิ์การแข่งหรอก..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เงียบไปเลย คนที่พกระเบิดควันฟอสฟอรัสขาวมาสนามกีฬาน่ะแปลกกว่าอีก!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ยะ... ยังไงก็เถอะนะ พวกเราก็มีแค่ 4 คนเอง..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "การแข่งขันที่เข้าร่วมได้กะ... ก็มีอยู่แค่ไม่กี่รายการ พะ... พวกเราจะได้ที่โหล่กันก็ไม่แปลกนี่นา...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่อะบิดอสก็มีกันแค่ 5 คนเองนะ พวกนั้นแข่งขันได้ลำดับกลางๆ กันได้เลย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อืม... เอาเป็นว่าที่ได้ที่โหล่ก็เพราะซากิแล้วกัน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อย่าเสียใจไปเลยค่ะ ซากิ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราทำภารกิจติดต่อกันมานานกว่า 24 ชั่วโมง เป็นธรรมดาที่จะรู้สึกเหนื่อยล้าทั้งร่างกายและจิตใจค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นอกจากนี้ ต้องขอบคุณระบบติดตามพิกัดอุปกรณ์ทางการทหารที่นำเข้ามาในโรงเรียนมิลเลเนียม ทำให้เราออกปฏิบัติการได้อย่างรวดเร็ว ตอนรถถังนั่นออกอาละวาดค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราบรรลุวัตถุประสงค์สำคัญอย่างรักษาความปลอดภัยของชาวเมืองแล้ว เพราะงั้นวันนี้ก็ถือว่าน่า\nพึงพอใจแล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ถึงชาวเมืองจะจดจำเพียงแค่ผลของการแข่งขัน แต่ก็อาจมี “ใครสักคน” ที่จดจำความทุ่มเทของ\nเราได้แน่ค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้าเป็นแบบนั้นก็ค่อยรู้สึกดีขึ้นหน่อย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉะ... ฉันไม่รู้ว่าควรพูดเรื่องนี้ ในสถานการณ์แบบนี้รึเปล่า แต่ว่า..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ที่จริงแล้วฉันคิดว่า... ปฏิบัติการครั้งนี้ต่างจากทุกครั้งที่เคยทำมา แล้วก็... "
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แล้วก็...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แล้วมันก็สนุกดีน่ะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ... มันฟังดูแปลกๆ สินะ...? ทั้งที่นักเรียนของ SRT ควรจะต้องนึกถึงความปลอดภัยของชาวเมือง\nเป็นอันดับแรก ตะ... แต่กลับรู้สึกสนุกกับการปฏิบัติการแบบนี้... "
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "วะ... ว่าแล้วเชียว ฉะ... ฉันคงไม่เหมาะกับการเป็นนักเรียนสถาบัน SRT จริงๆ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...ไม่หรอก ฉันเข้าใจความรู้สึกเธอนะ ฉันเองก็รู้สึกแบบนั้นเหมือนกัน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกเราไม่ได้ออกมาจากฐานปฏิบัติการ แล้วก็พูดคุยกับนักเรียนโรงเรียนอื่น แล้วก็ร่วมแข่งขันแบบนี้\nมาสักพักแล้วนี่นา"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มันทำให้ฉันรู้สึกว่า “สถานที่แห่งนี้ และคนพวกนี้ก็คือชาวเมืองที่พวกเราต้องปกป้อง” น่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อะ...อะไรเล่า! ฉะ... ฉันแค่จะบอกว่าบางครั้งการได้สัมผัสประสบการณ์โดยตรงจะทำให้เข้าใจได้ดี\nกว่าการอ่านจากคู่มือ และจะทำให้เราเข้าใจวัตถุประสงค์ของสถาบัน SRT ได้ดีขึ้น..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันแค่จะบอกว่าวันนี้เป็นโอกาสดีที่จะได้เข้าใจถึงความสำคัญของวัตถุประสงค์ของภารกิจสถาบัน SRT..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ซากิจัง..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันเองก็สนุกกับงานแข่งกีฬาปีนี้เหมือนกัน"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันได้เล่นสนุกกับข้อมูลที่ไม่ได้เข้าถึงกันได้ง่ายๆ ด้วย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แถมระหว่างแข่งแต่ละรายการ ก็มีนักเรียนหลายๆ คนก็พนันกันว่าโรงเรียนไหนจะชนะ... ฉันเลยได้ค่าขนมมาเยอะพอสมควรเลยละ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เลิกทำอะไรแบบนั้นสักทีเถอะน่า!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ ฉันเองก็เห็นด้วยกับทุกคนนะคะ ปฏิบัติการวันนี้ทำเอายุ่งจนหัวหมุนเลยก็จริง แต่ก็นับว่าเป็น\nโอกาสดีที่ได้เห็นรอยยิ้มที่มีความสุขของทุกคนแบบนี้ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ในฐานะนักเรียนของสถาบัน SRT ฉันจะทำทุกวันให้เป็นวันที่มีคุณค่า และพยายามเต็มที่เพื่อรักษา\nความยุติธรรม---"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ลืมสนิทเลยแฮะ วันนี้พวกเรายังไม่ได้กินมื้อเที่ยงกันเลยนี่นา..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "วะ... วันนี้เราไม่มีเวลาไปคุ้ยหา ขะ... ข้าวกล่องหมดอายุแบบทุกที..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกเราวิ่งวุ่นไปโน่นมานี่ทั้งวัน แล้วก็ได้กินแค่ขนมปังถั่วแดงไปคนละชิ้นเอง"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "พอมานึกๆ ดูแล้ว... เมื่อกี้มีนักเรียนเกเฮนน่ากลุ่มหนึ่งขนย้ายอุปกรณ์ทำบาร์บีคิวกับอาหารไปที่สนาม\nกลางด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ระ... หรือว่าพวกเธอจะทำบาร์บีคิวกันนะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "สนามกลาง... สถานที่เตรียมแคมป์ไฟในงาน <อาฟเตอร์ปาร์ตี้> สินะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันไม่รู้มาก่อนเลยว่าทำบาร์บีคิวที่แคมป์ไฟได้ด้วย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อาจเกิดปัญหาเรื่องความปลอดภัยขึ้นก็ได้ ถ้างั้น... พวกเราไปตรวจสอบกันหน่อยดีมั้ยคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อะ... เอาสิ! ที่ไหนมีไฟ มันมักจะเกิดอุบัติเหตุอยู่เสมอๆ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เราไม่ได้ไปที่นั่นเพราะหวังของเหลือจากบาร์บีคิวเลยนะ ไม่ใช่เลยสักนิด!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ดะ... ดูเหมือนว่าวัตถุประสงค์กับวิธีการของปฏิบัติการจะเปลี่ยนไปนิดหน่อยนะคะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้างั้น... ปฏิบัติการจันทร์เสี้ยว... ออกปฏิบัติการต่อกันเถอะค่ะ!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "รับทราบ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "後日談;RABBIT小隊篇"
+    },
+    {
+      "Name": "都子",
+      "Text": "……這裡是RABBIT1。\n現在時間1930。已確認千年的學生回收了大運動會的備品和器材。"
+    },
+    {
+      "Name": "都子",
+      "Text": "也確認了偽裝成應援機器人進入會場的戰車──\n「資產階級破壞者」已完全停止運作。"
+    },
+    {
+      "Name": "都子",
+      "Text": "此外，穩定性不明的機器人也被似乎是「貝里塔斯」相關人員的學生全數回收。"
+    },
+    {
+      "Name": "美優",
+      "Text": "這，這裡是RABBIT4……\n正在確認田徑運動場外示威的工務部學生的動向……"
+    },
+    {
+      "Name": "美優",
+      "Text": "剛才還高喊著「週休4日」並和女武神學生對峙……\n但隨著觀眾減少，氣勢也有所減弱。"
+    },
+    {
+      "Name": "美優",
+      "Text": "也許是認為沒必要繼續在這裡抗爭……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這裡是RABBIT2。\n已對觀眾離開後的觀眾席進行了全面巡查，沒有發現爆裂物或易燃的可疑物品。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "看來大家在離場時已經把垃圾收拾乾淨，應該沒必要再檢查了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "這裡是RABBIT3。我剛剛確認了救護室的電子病歷，\n雖然有不少人在比賽中受到輕傷，所幸沒有出現重傷者。"
+    },
+    {
+      "Name": "萌",
+      "Text": "從社群媒體上的動向來看，大家的反應都很正面……\n整體看來似乎是場令人滿意的慶典。"
+    },
+    {
+      "Name": "都子",
+      "Text": "這樣的話，田徑運動場上殘存的有害危險因素應該都消除了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼……任務完成！"
+    },
+    {
+      "Name": "美優",
+      "Text": "大家真的辛苦了……"
+    },
+    {
+      "Name": "萌",
+      "Text": "順帶一提，SRT特殊學園的成績是參加學園中的最後一名。呵呵……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔……要是那時沒被戰車撞到，至少也能取得1勝……"
+    },
+    {
+      "Name": "萌",
+      "Text": "還在說那件事啊？"
+    },
+    {
+      "Name": "萌",
+      "Text": "真要那麼說的話，一開始的「借物競賽」不是更可惜嗎？\n如果有好好閱讀規則，就不會被取消資格了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "吵死了。把白磷彈帶進場的傢伙更奇怪吧！"
+    },
+    {
+      "Name": "美優",
+      "Text": "不過我們學園參加的學生總數只有4個人……"
+    },
+    {
+      "Name": "美優",
+      "Text": "能參加的比賽也不多，拿到最後一名也是沒辦法的吧……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "可是阿拜多斯高中全校也只有5個人參加，他們還是取得了中等的成績。"
+    },
+    {
+      "Name": "萌",
+      "Text": "嗯……就歸咎於咲希失常吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喂！"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒必要那麼沮喪，咲希。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們已經進行了超過24小時的作戰，免不了在精神和體力上受限。"
+    },
+    {
+      "Name": "都子",
+      "Text": "況且，也是多虧我們鍥而不捨地追蹤被運入千年學園的軍用零件的去向，\n當戰車肆虐時，才能在第一時間不慌不忙地應對。"
+    },
+    {
+      "Name": "都子",
+      "Text": "既然「守護市民安全」的第一目標已經實現，今天就以此感到滿足吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……雖然人們只會記得比賽的結果，但我相信有「某個人」會記得我們的辛勞。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "如果真是那樣的話，倒是有點欣慰……"
+    },
+    {
+      "Name": "美優",
+      "Text": "雖然不知道在現在這種狀況下說這種話合不合適……"
+    },
+    {
+      "Name": "美優",
+      "Text": "和平時不一樣，這次的作戰，我其實有點……"
+    },
+    {
+      "Name": "萌",
+      "Text": "有點……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "……有點開心。"
+    },
+    {
+      "Name": "美優",
+      "Text": "果，果然很奇怪吧……？\n本應保護市民安全的SRT居然在享受作戰……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我果然是不適合SRT特殊學園的沒用孩子──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……不，那種心情，我某種程度上也能感同身受。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "久違地到基地外頭，和其他學園的學生相互碰撞、流汗，讓我再次有所體悟。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "「這就是我們想守護的市民和社會啊。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "啊，該怎麼說……不是有那種時候嗎！比起閱讀守則，親身體驗會更容易理解。\n畢竟有時很難實際感受SRT的目的……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "該說這是能切身感受SRT存在意義的好機會嗎……"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲希醬……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這次的大運動會，我也非常樂在其中。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不但能接觸平時很難摸到的各種資料……"
+    },
+    {
+      "Name": "萌",
+      "Text": "還能下注哪個學園會贏得比賽，賺取一點零用錢……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "你樂過頭了！"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒錯。\n雖然今天是因作戰而忙碌的一天，卻同時也是近距離看見市民們笑容的一天。"
+    },
+    {
+      "Name": "都子",
+      "Text": "身為SRT的一員，我會珍惜今天的寶貴日常，今後也為正義全力以赴──"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Name": "萌",
+      "Text": "都忘了我們今天連午餐都沒吃……"
+    },
+    {
+      "Name": "美優",
+      "Text": "因為今天和平常不同，連去撿報廢便當的時間都沒有……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "在四處奔波時唯一吃下肚的，只有吃麵包競走用的紅豆麵包……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這麼說來，剛才有一群格黑娜的學生拿著食材和燒烤設備走向中央運動場……"
+    },
+    {
+      "Name": "美優",
+      "Text": "他們是想在那裡烤肉嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "中央運動場的話……是準備「後夜祭」營火晚會的地方。"
+    },
+    {
+      "Name": "都子",
+      "Text": "但我並沒有聽說會在營火晚會時烤肉……"
+    },
+    {
+      "Name": "都子",
+      "Text": "可能有安全上的問題……過去看看吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "當，當然！畢竟涉及大火的活動總是伴隨著事故……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……絕對不是在覬覦烤肉剩下的食材！"
+    },
+    {
+      "Name": "美優",
+      "Text": "總覺得目的和手段好像有點本末倒置……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……那麼，讓我們延長一下新月作戰的期限吧！"
+    },
+    {
+      "Name": "全體",
+      "Text": "收到！"
+    }
+  ]
+}

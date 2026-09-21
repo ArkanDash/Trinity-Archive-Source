@@ -1,0 +1,2727 @@
+{
+  "TitleJP": "温泉クライシス（１）",
+  "TitleKR": "온천 크라이시스 1",
+  "TitleEN": "Hot Spring Crisis 1",
+  "TitleTH": "ออนเซ็น ไครซิส 1",
+  "TitleTW": "溫泉危機（１）",
+  "DescJP": "先生とハスミは、温泉開発のために爆弾を設置しようとしているメグと遭遇する。ゲヘナのテロリストと知り、頭に血が上るハスミ。騒ぎを聞いたイチカとミカも駆けつけ、一行は温泉開発部との戦闘に突入してしまう……。",
+  "DescKR": "프라이빗 비치의 침입자는 온천개발부의 메구였다. 하스미에 이치카, 미카가 가세하며 간신히 폭탄 설치는 저지했지만, 온천개발부의 악명을 아는 일행은 온천개발부를 완전히 쫓아내기 위해 추격한다.",
+  "DescEN": "The intruder is Megu from the Hot Springs Department. Hasumi, Ichika, and Mika somehow stop Megu from installing explosives, but, given her explosive reputation, they find it safest to chase her off.",
+  "DescTH": "ผู้ที่มาบุกรุกชายหาดส่วนตัวก็คือเมกุจากชมรมพัฒนาออนเซ็น ฮาสุมิ อิจิกะ และมิกะผนึกกำลังกันแล้วหยุดการวางระเบิดไว้ได้อย่างหวุดหวิด พวกเธอพยายามไล่ชมรมพัฒนาออนเซ็นออกจากพื้นที่เพราะรู้ถึง\nกิตติศัพท์ที่ไม่ดีของชมรมนี้",
+  "DescTW": "私人海灘的入侵者是溫泉開發部的惠。雖然在蓮實、一花、彌香的合力下勉強阻止了炸彈安裝，但了解溫泉開發部惡名的眾人，決定追擊以徹底驅逐他們。",
+  "DialogJP": [
+    {
+      "Text": "第2話;温泉クライシス"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "なぜ、ここに部外者が……。\nあそこで一体何を……？"
+    },
+    {
+      "Text": "[ns1] \"メグ！？\""
+    },
+    {
+      "Text": "[ns2] \"どうして……？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "ここは私有地です！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "許可のない活動は直ちにやめてください！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "聞こえませんでし――"
+    },
+    {
+      "Name": "メグ",
+      "Text": "わぁ！誰か来た！\n……って、先生！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "ごめんねー、まだ温泉には入れないんだ。\n……あれ？でも、なんで知ってるの？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……先生？お知り合いですか？"
+    },
+    {
+      "Text": "[s3] \"えっと、その……。\""
+    },
+    {
+      "Text": "[s4] \"お、落ち着いて聞いてくれる？\""
+    },
+    {
+      "Name": "メグ",
+      "Text": "私は温泉開発部のメグ！\n温泉開発のために、爆弾を設置してるところだよ！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……はい？\n爆弾、ですか……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "いえ、待ってください。温泉開発……？\n聞き覚えが……。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "温泉開発部！！\nゲヘナのテロリスト集団ではありませんか！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "こんな日にまで厄介ごとを……！\nやはりゲヘナ！！ゲヘナは許しません！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "先生、手出しは無用です……っ！\nえ……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "落ち着いて話し合いを……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "落ち着いてなどいられるものですか！ゲヘナはゲヘナです！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "それともまさか、何か他の目的があるかもしれないと。\n先生はそうおっしゃりたいのですか！？"
+    },
+    {
+      "Text": "[ns5] \"いや、そこは聞いてみないことには……！\""
+    },
+    {
+      "Text": "[ns6] \"まだどっちか分からないでしょ……？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "そもそもここは私有地です！\n勝手に立ち入っているのですから、不法侵入じゃないですか！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "しかも爆弾まで設置して……！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "作業を直ちにやめ、ここから立ち去りなさい。\nこれは正義実現委員会からの正式な勧告です！！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "なんで……？\nどうせ崩れるんだし、温泉にしちゃおうよ！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "なぜ崩れるのが前提なんですか！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "だって、「確実に崩れる」って部長が言ってたよ？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……それはどういう？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "いえ。相手は言葉が通じないテロリスト！\n議論しようと思ったのが間違いでした！"
+    },
+    {
+      "Text": "[s7] \"ハスミ、一度冷静になろう……。\""
+    },
+    {
+      "Text": "[s8] \"まだ話の続きがあるみたいだし……。\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "まずは手を止めなさい！なぜ平然と作業を続けているんですか！！\n致し方ありません。こうなれば力ずくで……。"
+    },
+    {
+      "Name": "メグ",
+      "Text": "……え？ちょ、ちょっとダメだよ！\nこれは必ず設置しろ、って部長に言われてるんだから！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "ですからここは私有地で――なぜ話が通じないのですか！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "な、なんですか、この力は……！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "くっ……なぁっ！？"
+    },
+    {
+      "Text": "[s9] \"ハスミを投げた！？\""
+    },
+    {
+      "Text": "[s10] \"あれは……パワースラム！？\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "けほっ、けほっ……！\nまったく……無茶苦茶ですよ！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "誰かに放り投げられたのは初めてです……！！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "これだけ！この爆弾だけだから！設置するまで待っててよ！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "だからそれをするなと言っているんです！\nどうしてこんな簡単なことも伝わらないのですか！！"
+    },
+    {
+      "Text": "[s11] \"ハスミとメグは……。\""
+    },
+    {
+      "Text": "[s12] \"相性が悪いのかも……。\""
+    },
+    {
+      "Text": "[ns13] \"私が説得してみるよ。\""
+    },
+    {
+      "Text": "[ns14] \"できるかどうかは、分からないけど……。\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "いえ、先生。\nここは……私に任せてください。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "このままでは正義実現委員会の名折れ……。\nこれは私のプライドの問題です！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "いくら素手とはいえ、ゲヘナ生に――"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "テロリストに後れを取るわけにはいきません！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "一人で温泉を掘れるほどの怪力……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "だ――"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "だからといってゲヘナには負けられませんっ！！！"
+    },
+    {
+      "Text": "[ns15] \"ですよねー。\""
+    },
+    {
+      "Text": "[ns16] \"逆鱗に触れてしまったか……。\""
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "もう油断しません！覚悟してください……！！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "も～！早く終わらせて帰んなきゃなのに！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "あくまで無視するつもりですか……！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "大丈夫っすか？\nなんか変な音が聞こえたっすけど……。"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……へ？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "えっ……ええっ？？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……げほっ、げほっ！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "い、いったい何が……。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "あああああーっ！もう限界です！！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "は、ハスミ先輩……？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "ひとまず落ち着いて欲しいっす……。"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "それから、状況の説明を――"
+    },
+    {
+      "Name": "メグ",
+      "Text": "……あ！やっほー！\nこの前、部長と列車に乗ってたよね？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "はあぁぁぁぁぁああああぁっ！？！？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "お、温泉開発部！？どうしてここにいるんすか！？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "今度は何を……！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "いや、聞くだけ無駄っすね。問答無用っす！！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……え、先生？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "とりあえず落ち着いてほしい……？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "な、何を言ってるんすか！\nまさか、何か他の目的があるかもしれないって言いたいんすか！？"
+    },
+    {
+      "Text": "[s17] \"イチカぁぁぁっ！？\""
+    },
+    {
+      "Text": "[s18] \"ハスミと同じことを……。\""
+    },
+    {
+      "Name": "イチカ",
+      "Text": "ヤツらの目的なんて分かり切ってるっす！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……話し合い？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……温泉開発部だけは例外っす！\nあの日からそう決めたっす！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "行きましょう、イチカ！！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "私が動きを止めるっす！先輩はその隙をついてください！"
+    },
+    {
+      "Name": "一同",
+      "Text": "はあああっ！！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "……っ！そ、そんな……！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "あはは！お相撲やってるみたいだね！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "イチカ！この馬鹿力相手に遠慮は無用です！\n倒すことだけを考えてください！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "はあああっ！！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ちょ、ちょっと！なになに、何の音！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……え？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "いったた……も～、なに……？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あれ、あの子は……？"
+    },
+    {
+      "Name": "メグ",
+      "Text": "え～、また増えちゃった……。"
+    },
+    {
+      "Name": "メグ",
+      "Text": "邪魔者が多い時は、すぐ帰ってこい、だもんね。\nあとちょっとだったのに！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……え？どういうこと……？"
+    },
+    {
+      "Name": "メグ",
+      "Text": "でも、部長の言ったことだし！"
+    },
+    {
+      "Name": "メグ",
+      "Text": "よし、撤収ー！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ちょっと話を……あなたは誰……？"
+    },
+    {
+      "Name": "メグ",
+      "Text": "それじゃ、まったね～！！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あの子……ゲヘナ……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "待ちなさい！！まだ決着はついていません！！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "逃がさないっす！！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "わ、わああ！とりあえず落ち着いて！？"
+    },
+    {
+      "Text": "（なんとかして二人を落ち着かせたあと、ミカに事情を説明した）"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そんなことがあったんだね……。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……醜態を晒してしまい、申し訳ございません。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ううん！全然気にしてないよ！\n二人にも色々と事情はあるだろうし！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……え、なに？先生。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私？大丈夫だけど……どうして？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あー、そっか。うん。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あの時……かわいくないところ、見せちゃったもんね……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "でもほら、それはそれとしてさ？\n決めつけはよくないけど、あの子、怪しいコトしてたんでしょ？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "しかも、ゲヘナだし……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うーん……ちょっと、アレだよね？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "でも……今はここを片づけるのが先だと思う。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "こんなのナギちゃんが見たら、また気にしちゃうかもしれないし。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あの子もどっか行っちゃったし、もう来ないんじゃないかな……？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "いえ、そんなわけないっす！！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "え！？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……イチカ？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "あいつは温泉開発部……ここに目をつけた以上、必ず戻ってくるっす！"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "事あるごとに現れて、色んな事が台無しに……。\n全部ごまかし切れるとは限らないんすよ！？"
+    },
+    {
+      "Name": "イチカ",
+      "Text": "そうなったら、先生にも指揮なり演技なりお願いすることになるっすから……\nすごく迷惑をかけてしまうに決まってるっす！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "流石にそこまでは……ね？先生？"
+    },
+    {
+      "Text": "[s19] \"そ、んなことは……ない……。\""
+    },
+    {
+      "Text": "[s20] \"こともない……かも、しれない……。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "せ、先生まで！？じゃあ、ハスミちゃんは……？"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "僭越ながら申し上げますが……。\n相手がゲヘナの時点で「常識」は通じません。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "なにより、イチカのあの断固とした態度。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "正義実現委員会の中で最も柔軟な思考を持つイチカでさえ、これほど言うのです。"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "この機を逃せば、さらに邪魔が入ってくるかと思います。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "今日だけは、騒ぎを起こしたくないのに……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "分かった。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "脅威が残ってたら、二人もちゃんと休めないもんね。"
+    },
+    {
+      "Text": "なら、片づけちゃおっか。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "なら、片づけちゃおっか。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제2화;온천 크라이시스"
+    },
+    {
+      "Name": "하스미",
+      "Text": "어째서 여기에 사람이 있는 거죠……? 그리고 뭘 하는 거죠, 지금?"
+    },
+    {
+      "Text": "[ns1] \"메구……!?\""
+    },
+    {
+      "Text": "[ns2] \"저 아이가 왜 여기에…?\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "저기, 거기 계신 분! 지금 뭐 하시는 건가요? 당장 멈추세요!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "여긴 티파티가 소유한 해변입니다. 당신은 지금 사유지에 들어와 계신 거예요!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "저기, 왜 대답이 없……."
+    },
+    {
+      "Name": "메구",
+      "Text": "……응? 아, 사람이 왔네!"
+    },
+    {
+      "Name": "메구",
+      "Text": "게다가 선생님까지! 다들 어떻게 알고 온 거야? 온천은 개장 전인데?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……선생님? 혹시 아시는 분인가요?"
+    },
+    {
+      "Text": "[s3] \"……어, 그게…….\""
+    },
+    {
+      "Text": "[s4] \"그, 침착하고 들어줄래?\""
+    },
+    {
+      "Name": "메구",
+      "Text": "응! 나는 온천개발부의 메구야! 카스미 부장이, 여기에 '온천 개발용 폭탄'을 설치하래서!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……예? 폭탄이요……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "아니, 잠깐만요. 그 이전에……. '온천 개발'? 설마……."
+    },
+    {
+      "Name": "하스미",
+      "Text": "온천개발부라니!! 게헨나의 테러리스트 동아리잖습니까!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "이런 날까지도 훼방이라니, 용서 못 합니다, 게헨나!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……네? 선생님?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "우선 진정하라고요? 대화를 해 보라고요……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "진정이요!? 선생님, 그럼 선생님께선 저 게헨나 학생이 그냥 여기 온 거라 생각하시는 건가요!?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "설마 훼방이 아니라 뭔가 좋은 의도로 있을 거라고……!? 그런 뜻이신가요!?"
+    },
+    {
+      "Text": "[ns5] \"아니, 아무리 나도 그건 아니겠지만……!!\""
+    },
+    {
+      "Text": "[ns6] \"그렇게 말하고 싶지만 말할 수가 없네!!\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "애초에 여기는 사유지입니다! 여기 모습을 보인 것만으로도 불법 침입 아닙니까!?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "게다가 지금 뭘 설치하고 있다고요? 온천 개발용 '폭탄'……??"
+    },
+    {
+      "Name": "하스미",
+      "Text": "당장 멈추세요!! 이건 정의실현부에서의 명령입니다!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "에……? 어차피 무너질 텐데, 온천으로 만드는 게 좋잖아?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "왜 무너진다는 게 전제입니까?! 대체 뭔가요, 그 뻔뻔함은!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "그래도 부장이 '확실히 부서진다'고 그랬는걸?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……??? 그건 또 무슨……. "
+    },
+    {
+      "Name": "하스미",
+      "Text": "아니죠. 제가 또 술수에 말려들 뻔했군요. 도저히 말이 안 통하네요!"
+    },
+    {
+      "Text": "[s7] \"뭐, 원래 그런 친구들이긴 하지…….\""
+    },
+    {
+      "Text": "[s8] \"나도 매번 말하고는 있지만…….\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "멈추라고 했잖습니까!! 역시 말로는 안 되겠군요, 당장 체포하겠어요. 힘으로라도……!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "어? 어……! 안돼, 안돼! 부장이 이건 꼭 설치하고 오라 했단 말이야!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "그게 무슨 말도 안 되는……!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "뭐, 뭐죠. 이 힘은……!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "으, 으아……? 으아아아……??"
+    },
+    {
+      "Text": "[s9] \"하스미를 들었다……?!\""
+    },
+    {
+      "Text": "[s10] \"저 기술은, 파워 슬램……?!\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "쿨럭, 쿨럭!! 이, 이게 무슨……! 뭐 이런 막무가내가 다 있죠!?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "이렇게 몸이 들려서 내팽개쳐진 건 살면서 처음입니다만……!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "그러지 말고 조금만 기다려 줘! 이 폭탄만 설치하면 금방 도망칠 거니까!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "그러니까 그게 대체 무슨 말이냐고요!! 어떻게 그걸 대놓고 말할 수가 있습니까!!"
+    },
+    {
+      "Text": "[s11] \"뭐……. 메구니까…….\""
+    },
+    {
+      "Text": "[s12] \"하스미랑은 상성이 안 좋네…….\""
+    },
+    {
+      "Text": "[ns13] \"역시 내가 말해 볼 게.\""
+    },
+    {
+      "Text": "[ns14] \"안 통할 거 같긴 하지만, 혹시 모르니…….\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "아뇨, 선생님. 여기는……. 여기는 저에게 맡겨 주십시오."
+    },
+    {
+      "Name": "하스미",
+      "Text": "정의실현부로서 이런 취급을 당하고도 그냥 있을 수는 없습니다. 이건 제 자존심 문제예요!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "아무리 무기를 전차에 두고 온 상태라고 한들, 맨몸 격투라도 게헨나 학생……."
+    },
+    {
+      "Name": "하스미",
+      "Text": "그것도 테러리스트에게 질 수는 없지 않습니까!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……네?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "저쪽은 혼자서 중장비 없이 온천 공사를 완공할 만큼의 괴력이라고요?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……그,"
+    },
+    {
+      "Name": "하스미",
+      "Text": "그렇다 해도 게헨나 학생에게 질 수는 없습니다!!!"
+    },
+    {
+      "Text": "[ns15] \"그렇겠지. 그렇게 말할 거 같았어.\""
+    },
+    {
+      "Text": "[ns16] \"역시 역린이었어…….\""
+    },
+    {
+      "Name": "하스미",
+      "Text": "다시 갑니다, 게헨나의 괴력녀!! 각오하세요!!"
+    },
+    {
+      "Name": "메구",
+      "Text": "아아~! 얼른 이거 끝내고 돌아가야 하는데!! 조금만 기다려 달라니까!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "이쪽은 신경도 안 쓰는 거냐고요!! 대체 절 얼마나 화나게 할 셈인가요!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "뭐, 뭠까? 뭔가 깨지는 소리가 들려서 서둘러 와봤슴다만……!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "……에?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "……뭔……???"
+    },
+    {
+      "Name": "이치카",
+      "Text": "으으……. 쿨럭, 쿨럭……!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "대, 대체 무슨 일이……."
+    },
+    {
+      "Name": "하스미",
+      "Text": "으아아아아-!! 도저히 참을 수 없어요!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "하, 하스미 선배……?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "우선 진정을……! 진정하시고, 뭔지는 모르겠지만 우선 대화로……!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "뭐든지 좋은 게 좋은 거……니……?"
+    },
+    {
+      "Name": "메구",
+      "Text": "……아! 저번에 부장이랑 같이 기차에 타고 있던 친구! 반가워! "
+    },
+    {
+      "Name": "이치카",
+      "Text": "……뭐……."
+    },
+    {
+      "Name": "이치카",
+      "Text": "뭐야아아아아아-!?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "어, 어째서!? 어째서 온천개발부!? 왜!? 왜 당신이 여기 있는 거죠!?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "이번에는 또 뭘 하려고……!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "아니, 뭐든 상관없슴다! 뭐가 됐든 안 돼요! 뭐든 일단 잡아넣고 보겠슴다!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "……네? 선생님, 뭐라고요?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "진정이요……?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "선생님, 무슨 말씀을 하시는 검까? 설마 온천개발부 분들이 좋은 의도로 여기 왔다고 생각하시는 검까!?"
+    },
+    {
+      "Text": "[s17] \"이치카아아아-!?!?\""
+    },
+    {
+      "Text": "[s18] \"하스미랑 똑같은 소릴…….\""
+    },
+    {
+      "Name": "이치카",
+      "Text": "어차피 불 보듯 뻔한 일이겠지요. 지체할수록 피해만 늘어날 게 뻔함다!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "……예?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "…'좋은 게 좋은 거'는 어디 갔냐고요?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "…온천개발부만큼은 예외임다! 그날 이후 그렇게 정했어요!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "갑니다, 이치카!! 무슨 일이 있어도 이겨야 해요!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "예!! 제가 잡을 테니 선배가 치십쇼!!"
+    },
+    {
+      "Name": "일동",
+      "Text": "으아아아아-!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "무, 뭐가 이렇게……! 말도 안 돼……!"
+    },
+    {
+      "Name": "메구",
+      "Text": "아하하하! 뭔가 씨름 같네!!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "집중하세요, 이치카! 상대는 거의 인간이 아닙니다!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "으아아아아-!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "뭐, 뭐야!? 무슨 소리야? 뭔가 깨지는 소리가……!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "……에?"
+    },
+    {
+      "Name": "미카",
+      "Text": "아야야……. 무, 무슨 일이야, 대체……."
+    },
+    {
+      "Name": "미카",
+      "Text": "응? 누가 더 있잖아? 저 아이는……?"
+    },
+    {
+      "Name": "메구",
+      "Text": "으응~ 또 방해하러 온 사람?"
+    },
+    {
+      "Name": "메구",
+      "Text": "이렇게 방해꾼이 많을 때면, 부장이 싸우지 말고 돌아오랬지. 아깝다!"
+    },
+    {
+      "Name": "미카",
+      "Text": "어……? 그냥 돌아가? 아깝다니, 무슨 말……?"
+    },
+    {
+      "Name": "메구",
+      "Text": "음……! 하지만 이럴 때는 무조건 전부 그만두고 그냥 돌아오라 했으니까! 방법은 많다고!"
+    },
+    {
+      "Name": "메구",
+      "Text": "아깝지만 어쩔 수 없지! 부장의 말이니 분명 맞을 거야!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "아니, 잠깐만. 그 전에, 너는……?"
+    },
+    {
+      "Name": "메구",
+      "Text": "그럼 나는 먼저 갈게! 모두 좋은 하루 돼!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "방금 그건, 게헨……나?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "어딜 가는 겁니까, 게헨나!! 아직 승부는 끝나지 않았어요!!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "온천개발부-!! 용서 못 함다!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "으, 으아아!! 얘들아, 잠깐만!! 우선 진정해!! 멈춰!!"
+    },
+    {
+      "Text": "(이후 두 사람을 진정시키고, 미카에게 사정을 설명했다.)"
+    },
+    {
+      "Name": "미카",
+      "Text": "그런 일이 있었구나. 하필이면 오늘……."
+    },
+    {
+      "Name": "하스미",
+      "Text": "……죄송합니다, 미카 님. 추태를 보이고 말았습니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "아, 아냐! 나는 전혀 신경 안 쓰니까! 두 사람 입장이면 그럴 수도 있지! 응!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "……응? 선생님?"
+    },
+    {
+      "Name": "미카",
+      "Text": "나는 괜찮냐고? ……왜?"
+    },
+    {
+      "Name": "미카",
+      "Text": "……아. 아아……."
+    },
+    {
+      "Name": "미카",
+      "Text": "하하, 그랬지. 선생님한테는 이래저래 보여줬던 모습이 있으니……. 걱정도 되겠네."
+    },
+    {
+      "Name": "미카",
+      "Text": "그 아이, 아무리 좋게 생각하려 해도, 좋게 생각할 수 없는 일을 하고 있었고."
+    },
+    {
+      "Name": "미카",
+      "Text": "그리고 하필이면 그게 또 게헨나……고."
+    },
+    {
+      "Name": "미카",
+      "Text": "음……. 솔직히……. 조금 그렇긴 하지?"
+    },
+    {
+      "Name": "미카",
+      "Text": "그렇긴 하지만……. 지금은, 얼른 여기를 치우고 정리해 두는 게 우선이라고 생각해."
+    },
+    {
+      "Name": "미카",
+      "Text": "이런 상태를 보면 분명 나기 쨩은 또 신경 쓰여서 못 놀 테니까……."
+    },
+    {
+      "Name": "미카",
+      "Text": "그 온천개발부……? 도 결국 쫓아낸 거고."
+    },
+    {
+      "Name": "이치카",
+      "Text": "아니요, 그렇지 않슴다!!"
+    },
+    {
+      "Name": "미카",
+      "Text": "어?!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……이치카?"
+    },
+    {
+      "Name": "이치카",
+      "Text": "바로 그 온천개발부임다! 이 장소에 눈독 들인 이상 반드시 돌아올검다!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "바캉스 내내 계속 몰려와서 엉망진창으로 만들겠죠! 그때마다 저희는 나기사 님을 속이기 위해 계속 양동으로 연극을 해야 할 테고요!"
+    },
+    {
+      "Name": "이치카",
+      "Text": "그 과정에 선생님은 지휘나, 눈속임에 동원되어 눈코 뜰 새 없이 뛰어다녀 녹초가 되겠죠! 안 봐도 뻔함다!"
+    },
+    {
+      "Name": "미카",
+      "Text": "아니, 아니! 아무리 게헨나라 해도, 설마 그 정도는…… 그치, 선생님?"
+    },
+    {
+      "Text": "[s19] \"윽……! 머리가……!\""
+    },
+    {
+      "Text": "[s20] \"……아니라고는 못 하겠네.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "서, 선생님마저?! 그럼 아마 하스미 쨩도……?"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……감히 주제넘게 한 마디 올리자면, 게헨나가 상대라면 <상식적으로>는 통하지 않습니다."
+    },
+    {
+      "Name": "하스미",
+      "Text": "그리고 무엇보다 이치카의 저 단호한 태도."
+    },
+    {
+      "Name": "하스미",
+      "Text": "정의실현부에서도 가장 유연한 사고방식을 가진 이치카가 저리 단언할 정도라면, 틀림없이 근거가 있겠죠."
+    },
+    {
+      "Name": "하스미",
+      "Text": "오히려 지금 기회를 놓치면, 더욱 중요한 순간에 방해가 들어올 겁니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "오늘은, 그래도 역시 소란을 만들고 싶지 않은데."
+    },
+    {
+      "Name": "미카",
+      "Text": "알았어. 이건 우리들의 휴가이기도 하지만, 두 사람의 휴가이기도 하니까."
+    },
+    {
+      "Name": "미카",
+      "Text": "온천개발부의 위험이 남아있는 한, 둘은 편하게 쉴 수 없는 거지?"
+    },
+    {
+      "Text": ""
+    },
+    {
+      "Name": "미카",
+      "Text": "그렇다면, 최대한 빠르게 끝내자."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 2;Hot Spring Crisis"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Who is that? And WHAT are they doing?!"
+    },
+    {
+      "Text": "[ns1] \"Megu...?!\""
+    },
+    {
+      "Text": "[ns2] \"Why are you here?\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "You there! Stop! Drop the weapon."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "This facility and the beach surrounding it belong to the Tea Party! You are currently trespassing!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...Did she hear me?"
+    },
+    {
+      "Name": "Megu",
+      "Text": "...Oh, huh? Hey, someone's here!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "And Sensei too! You're way too early! The hot spring isn't open yet."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...Sensei? Do you know this...person?"
+    },
+    {
+      "Text": "[s3] \"...Uh, well...\""
+    },
+    {
+      "Text": "[s4] \"It's a lot to explain...\""
+    },
+    {
+      "Name": "Megu",
+      "Text": "Yeah! Hey, lady, I'm Megu of the Hot Springs Department! President Kasumi sent me here to plant a bomb? For developing the hot spring?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...What? A bomb...?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Wait, hold on. You're developing what?!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "The Hot Springs Department! That's Gehenna's terrorist club!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "You're challenging us on our VACATION time? Unforgivable!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...What's that, Sensei?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Calm down? Excuse me? You want to talk?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Sensei, she's a terrorist! She's ambushing us on our private property with explosives!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "What do you mean, \"good intentions\"? You're saying I should trust this girl?"
+    },
+    {
+      "Text": "[ns5] \"No, that's not what I said!\""
+    },
+    {
+      "Text": "[ns6] \"You don't have to trust her, but...\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "This is a PRIVATE facility! She's committing a crime simply by standing here without...proper authorization!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "And what are you installing? A bomb for developing hot springs...?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Drop it! Stop right this instant! This is an order by the authority of the Justice Task Force!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Eh...? This place is collapsing anyway. Wouldn't it be better for everyone if we made it into a hot spring?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "The audacity! What makes you think that? Are you threatening me?"
+    },
+    {
+      "Name": "Megu",
+      "Text": "No! But the president said this place is going to fall down, so..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...? What are you even... "
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "No. I'm not getting distracted by your nonsense."
+    },
+    {
+      "Text": "[s7] \"That's just how she talks...\""
+    },
+    {
+      "Text": "[s8] \"I know the feeling...\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I told you to stop! If words aren't enough for you, then I'll use force!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Huh? Uh...! Hey, relax! The president said I had to install this. It's not a big deal."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "What? This is ridiculous...!!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Wh-Why is she so strong?!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "W-Waaah...? Ahhhh...?"
+    },
+    {
+      "Text": "[s9] \"She lifted Hasumi...?!\""
+    },
+    {
+      "Text": "[s10] \"She's winding up for a power slam...?!\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "*cough* *cough* Wh-What...?! This is unacceptable!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I've never been lifted and thrown around like this in my life!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "I'm just asking you to chill! I'll leave after I install this bomb!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "What do you mean?! How could you propose such a thing?!"
+    },
+    {
+      "Text": "[s11] \"That's Megu for you...\""
+    },
+    {
+      "Text": "[s12] \"These two got off on the wrong foot...\""
+    },
+    {
+      "Text": "[ns13] \"Let me talk.\""
+    },
+    {
+      "Text": "[ns14] \"How about we consider...\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "No, Sensei. Please...leave this to me."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "As a member of the Justice Task Force, I cannot let this disrespect slide."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Even if I'm unarmed, I will not stand back and let a Gehenna student..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...a TERRORIST, best me in hand-to-hand combat!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...Pardon?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "She's strong enough to build a hot spring without equipment?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Um..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Even so, I will not lose to a Gehenna interloper!"
+    },
+    {
+      "Text": "[ns15] \"I thought you'd say that.\""
+    },
+    {
+      "Text": "[ns16] \"I knew this wouldn't go well...\""
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Once more, you Gehenna...titan! Prepare yourself!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Ahh! Just wait, please! I don't want to rush this!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "You don't even find me worthy of a fight? The disrespect..."
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Wh-What's going on? Is anyone hurt?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...Eh?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...What...?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Ugh...! *cough* *cough*"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Wh-What was that?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Ahhhh—! I can't take it anymore!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "H-Hasumi...?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Calm...! Calm down, I'm not sure what's going on, but we should talk it out...!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Breathe and relax. Find your inner peace..."
+    },
+    {
+      "Name": "Megu",
+      "Text": "...Oh! You're the girl the president likes! You talked on the train, right? Nice to meet you! "
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...Well..."
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...Whaaaat?!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "The Hot Springs Department?! Why are you here?!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "How did you sneak in?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "No, it doesn't matter! Whatever it is, you're done! You're under arrest!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...Huh? What did you say, Sensei?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Calm down...?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Sensei, you must be mistaken. This is the Hot Springs Department. You really think they're here with \"good intentions\"?"
+    },
+    {
+      "Text": "[s17] \"Ichika?!\""
+    },
+    {
+      "Text": "[s18] \"You sound like Hasumi...\""
+    },
+    {
+      "Name": "Ichika",
+      "Text": "It's obvious, isn't it? If we don't stop her now, she'll ruin the place!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...Pardon?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...What happened to \"finding my inner peace\"?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "...the Hot Springs Department is the exception! The opposite! They have always been!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Let's go, Ichika! We can take her!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Yes! I'll grab her, and you strike!"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "AHHHHHH!!!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Wh-What...! No way...!"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Hahaha! Oh! You like to wrestle, too?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Focus, Ichika! She's freakishly strong! Use your core!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "AHHHHHH!!!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Wh-What?! What's that noise? Is someone...re-tiling the bathroom?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "...Eh?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ow... Wh-What was that for?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Huh? Who's that girl?"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Hm, another one. Oh, this is too many."
+    },
+    {
+      "Name": "Megu",
+      "Text": "The president told me to retreat if there was a crowd...and I think this qualifies. Too bad!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Huh...? You're just leaving? It's...\"too bad\"?"
+    },
+    {
+      "Name": "Megu",
+      "Text": "Yeah, sorry! Orders from above. I guess we still have time..."
+    },
+    {
+      "Name": "Megu",
+      "Text": "It's a shame though, but what can you do? The president's always right..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Wait, hold on. Before that, you're...?"
+    },
+    {
+      "Name": "Megu",
+      "Text": "I gotta blast! Have a nice day, everyone!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Was that someone from Gehen...na?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Where are you going, you Gehenna menace?! I'm not done with you!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Hot Springs Department! You will rue the day!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ahhh! Everybody, relax! Calm down! Stop!"
+    },
+    {
+      "Text": "After the Task Force caught their breath, I explained the situation to Mika."
+    },
+    {
+      "Name": "Mika",
+      "Text": "So that's what happened. On today, of all days..."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...I'm sorry, Mika. I made a fool of myself."
+    },
+    {
+      "Name": "Mika",
+      "Text": "N-No! Don't apologize. You were just...following your passion. Yeah!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "...Hm? Sensei?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Am I okay? ...Why?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Ah... Ahh..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Haha. Right. I appreciate your concern."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sure, while I'm trying to be positive, I'll admit that I'm a little...irritated that this is happening on my ONE vacation."
+    },
+    {
+      "Name": "Mika",
+      "Text": "And that it just so happened to be a Gehenna pest...again."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hm... Honestly... I guess it's a little...hmm."
+    },
+    {
+      "Name": "Mika",
+      "Text": "You know what? I think we should focus on cleaning up."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Nagi couldn't handle seeing a mess like this. It'd ruin the fun..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "At least the Hot Springs girl is gone..."
+    },
+    {
+      "Name": "Ichika",
+      "Text": "No, that's not right!!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...Ichika?"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "The Hot Springs Department is relentless! Now that they have this place in their sights, they'll be back!"
+    },
+    {
+      "Name": "Ichika",
+      "Text": "They'll keep swarming and interrupting this beach until they get what they want! If we don't stop them now, the vacation will be ruined."
+    },
+    {
+      "Name": "Ichika",
+      "Text": "Sensei, you know the truth. The second Nagisa learns about this, the vacation will be over. She'll go back into work mode."
+    },
+    {
+      "Name": "Mika",
+      "Text": "No, no! Even if it's Gehenna, surely it's not that bad... Right, Sensei?"
+    },
+    {
+      "Text": "[s19] \"My head hurts just thinking about it...\""
+    },
+    {
+      "Text": "[s20] \"...They are pretty persistent.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "S-Sensei thinks so, too?! And Hasumi?"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...If I may speak freely, the Gehenna students aren't known for their intellectual prowess."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "And we all heard what Ichika said."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "If these people managed to get even HER bothered, then they're trouble."
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "Moreso, if we don't stop the Hot Springs Department soon, they will show up again...likely at the worst possible time."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I just don't want to cause a scene today..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "All right. It is our vacation, but it's yours as well."
+    },
+    {
+      "Name": "Mika",
+      "Text": "If you two can't relax while the Hot Springs Department is at large, then..."
+    },
+    {
+      "Text": ""
+    },
+    {
+      "Name": "Mika",
+      "Text": "...we should resolve this as soon as possible."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 2;ออนเซ็น ไครซิส"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ทำไมถึงมีคนมาอยู่ที่นี่ได้ล่ะคะ...? แล้วกำลังทำอะไรอยู่น่ะ?"
+    },
+    {
+      "Text": "[ns1] \"เมกุ...!?\""
+    },
+    {
+      "Text": "[ns2] \"ทำไมเมกุถึงมาอยู่ที่นี่ล่ะ...?\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "นี่ คุณที่อยู่ตรงนั้นน่ะ! คุณมาทำอะไรคะ? หยุดเดี๋ยวนี้นะคะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ที่นี่คือหาดส่วนตัวของสภาน้ำชานะคะ รู้หรือเปล่าว่าคุณบุกเข้ามาในพื้นที่ส่วนบุคคลน่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "เอ่อ ทำไมไม่ตอบล่ะ..."
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "หืม...? อ๊ะ มีคนมาสินะ!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "แถมมากับคุณครูด้วย! ทุกคนรู้ข่าวกันก่อนได้ยังไงเนี่ย? เรายังไม่ได้เปิดออนเซ็นกันเลยนะ?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คุณครู...? รู้จักคุณคนนี้เหรอคะ?"
+    },
+    {
+      "Text": "[s3] \"เอ่อ... ครูจะอธิบายให้เองนะ...\""
+    },
+    {
+      "Text": "[s4] \"เอ่อ... ใจเย็นๆ แล้วฟังครูก่อนนะ\""
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "อื้อ! ฉันเมกุจากชมรมพัฒนาออนเซ็น! พอดีหัวหน้าคาสุมิสั่งว่าให้มาติดตั้ง 'ระเบิดสำหรับพัฒนาออนเซ็น' ที่นี่น่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คะ...? ระเบิดเหรอคะ...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "เอ่อ เดี๋ยวนะคะ เมื่อกี้ที่พูดถึง 'การพัฒนาออนเซ็น'...? อย่าบอกนะคะว่า..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ชมรมพัฒนาออนเซ็นงั้นเหรอคะ!! นั่นคือชมรมผู้ก่อการร้ายของเกเฮนน่าไม่ใช่เหรอคะ?!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "มาขัดขวางการพักผ่อนของคนอื่นแบบนี้ ฉันไม่ยกโทษให้แน่ค่ะ เกเฮนน่า!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คะ...? คุณครู?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ให้ฉันทำใจเย็นๆ แล้วให้คุยกันด้วยสันติวิธีก่อนงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "จะใจเย็นๆ อยู่ได้ยังไงล่ะคะ!? คุณครูคิดว่านักเรียนเกเฮนน่าคนนั้น เข้ามาที่นี่โดยไม่มีแผนร้ายอะไรเลยงั้นเหรอคะ!?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หรือคิดว่าเด็กคนนั้นมาด้วยเจตนาดี...?? ก็เลยโลกสวยแล้วบอกให้ฉันทำใจเย็นๆ เหรอคะ!?"
+    },
+    {
+      "Text": "[ns5] \"ไม่ใช่ ครูก็ไม่ได้โลกสวยขนาดนั้น แต่ก็...!!\""
+    },
+    {
+      "Text": "[ns6] \"ครูก็อยากพูดแบบนั้นหรอกนะ แต่ก็คงพูดไม่ได้!!\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ที่นี่คือพื้นที่ส่วนบุคคลนะคะ! การโผล่มาที่นี่ก็ถือว่าเป็นการบุกรุกอย่างผิดกฎหมายแล้วนี่คะ!?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แล้วยังมาติดตั้ง 'ระเบิด' เพื่อพัฒนาออนเซ็นอีก...??"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หยุดเดี๋ยวนี้เลยนะคะ!! นี่คือคำสั่งของชมรมทวงความยุติธรรมค่ะ!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "หืม...? ยังไงที่นี่ก็จะพังอยู่แล้ว งั้นทำให้เป็นออนเซ็นเลยไม่ดีกว่าหรือไง?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ทำไมถึงคิดว่าที่นี่จะพังล่ะคะ?! มีเหตุผลอะไรสนับสนุนหรือเปล่า!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "พอดีหัวหน้าบอกว่า 'ที่นี่ต้องพังแน่นอน' น่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หมายความว่ายังไง...???"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่ได้การละ เมื่อกี้ฉันเกือบหลงกลให้คุณซะแล้ว แบบนี้เราคงพูดกันไม่รู้เรื่องแล้วค่ะ!"
+    },
+    {
+      "Text": "[s7] \"ชมรมนี้ก็เป็นเสียอย่างนี้ละนะ...\""
+    },
+    {
+      "Text": "[s8] \"ครูก็เคยพูดประโยคเดียวกับฮาสุมิเลย...\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฉันบอกให้หยุดยังไงล่ะคะ!! คุยกันด้วยคำพูดไม่ได้จริงๆ ด้วยสินะคะ สงสัยฉันต้อง... ใช้กำลังเข้าจับกุมคุณเดี๋ยวเลยค่ะ!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "หืม? อะไรน่ะ...! ไม่ได้นะ ไม่ได้! หัวหน้ากำชับว่าต้องติดตั้งระเบิดที่นี่ให้ได้นะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "พูดเรื่องเหลวไหลอะไรน่ะ...!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "อะ... อะไรคะเนี่ย? พละกำลังนี้มัน...!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "อะ... อ๊าา...? อ๊ายยย...??"
+    },
+    {
+      "Text": "[s9] \"จับฮาสุมิทุ่มเลยเหรอ...?\"!\""
+    },
+    {
+      "Text": "[s10] \"นั่นมัน... ท่าพาวเวอร์สแลม...?!\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แค่ก แค่ก!! นะ... นี่มันอะไรกัน...! ดื้อด้านจริงๆ เลยนะคะคุณ!?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แต่นี่เป็นครั้งแรกในชีวิตเลยค่ะที่ฉันถูกจับทุ่มลงพื้น...!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "อย่าเพิ่งมาห้ามกันเลยนะ รอกันเดี๋ยวเดียว! ไว้ฉันวางระเบิดเสร็จแล้วจะหนีไปเอง!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "พูดอะไรของคุณคะเนี่ย!! ทำไมพูดเหมือนนี่ไม่ใช่เรื่องใหญ่โตเลยล่ะคะ!!"
+    },
+    {
+      "Text": "[s11] \"ไม่แปลกหรอก... ก็นี่เมกุนี่นา...\""
+    },
+    {
+      "Text": "[s12] \"ดูท่าจะคุยกับฮาสุมิไม่รู้เรื่องแล้วละ...\""
+    },
+    {
+      "Text": "[ns13] \"ครูไปคุยให้เองดีกว่า\""
+    },
+    {
+      "Text": "[ns14] \"กับครูก็น่าจะคุยไม่รู้เรื่องเหมือนกัน แต่ครูจะลองคุยดูนะ...\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ไม่ต้องหรอกค่ะคุณครู เรื่องนี้... ให้เป็นหน้าที่ของฉันเองค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ในฐานะชมรมทวงความยุติธรรม ฉันยอมถูกดูหมิ่นแบบนี้ไม่ได้ค่ะ นี่เป็นเรื่องศักดิ์ศรีของฉันค่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถึงฉันจะเอาอาวุธไว้ในรถถัง แต่ถ้าเป็นนักเรียนโรงเรียนเกเฮนน่า..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ต่อให้ต้องสู้มือเปล่า ฉันก็จะทำค่ะ ฉันไม่ยอมแพ้ให้ผู้ก่อการร้ายหรอก!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คุณครูจะบอกว่าทางนั้นมีพละกำลังมากถึงขนาดที่ก่อสร้างออนเซ็นได้ด้วยตัวคนเดียว โดยไม่ต้องใช้อุปกรณ์หนักเลยเหรอคะ?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "แต่ยังไงฉันก็แพ้ให้นักเรียนเกเฮนน่าไม่ได้ค่ะ!!!"
+    },
+    {
+      "Text": "[ns15] \"ก็คงอย่างนั้นละนะ ครูกะไว้แล้วละ\""
+    },
+    {
+      "Text": "[ns16] \"ก็ไม่ผิดคาดหรอก...\""
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "มาเจอกันอีกสักตั้งค่ะ คนบ้าพลังจากเกเฮนน่า!! เตรียมตัวให้ดีเลยค่ะ!!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "โธ่เอ๊ย~! ฉันต้องรีบทำให้เสร็จแล้วกลับไปแท้ๆ!! บอกให้รอกันหน่อยไง!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "คุณไม่สนใจที่ฉันพูดเลยเหรอคะ!! จะยั่วโมโหฉันไปถึงไหนคะเนี่ย!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "มะ... มีอะไรกันคะ? ฉันได้ยินเสียงเหมือนมีอะไรแตก ก็เลยรีบเข้ามาดูค่ะ...!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "อะไรเนี่ย...???"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "อึก... แค่ก แค่ก...!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "นะ... นี่มันเรื่องอะไรกัน..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฮึ่ยยยย!! ฉันทนต่อไม่ไหวแล้วค่ะ!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ระ... รุ่นพี่ฮาสุมิ...?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "สงบสติอารมณ์ก่อนนะคะ...! ฉันไม่รู้ว่านี่คือเรื่องอะไร แต่ฉันว่าใจเย็นๆ แล้วมาคุยกันก่อน...!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "คุยกันแบบสันติวิธี... ไง... คะ...?"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "อ๊ะ...! คนที่เคยเจอบนรถไฟกับหัวหน้านี่นา? ดีใจที่ได้เจออีกครั้งนะ!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "หะ..."
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "หาาาาาา...!?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ดะ... ได้ไงกัน!? ชมรมพัฒนาออนเซ็น!? ทำไม!? ทำไมคุณถึงมาอยู่ที่นี่ล่ะคะ!?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "แล้วครั้งนี้คิดจะทำอะไรอีก...!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ไม่สิ ต่อให้จะทำอะไรก็เถอะ! ไม่ว่าอะไรก็ไม่ได้ค่ะ! เอาเป็นว่าฉันจะจับคุณไว้ก่อน!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "คะ...? คุณครู ว่ายังไงนะคะ?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ให้ใจเย็นๆ ก่อนเหรอคะ...?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "พูดอะไรอย่างนั้นคะคุณครู? คิดว่าพวกชมรมพัฒนาออนเซ็นมาที่นี่ด้วยเจตนาดีงั้นเหรอคะ!?"
+    },
+    {
+      "Text": "[s17] \"อิจิกะ!?!?\""
+    },
+    {
+      "Text": "[s18] \"พูดเหมือนฮาสุมิเปี๊ยบเลย...\""
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "มันก็แน่อยู่แล้วไม่ใช่เหรอคะ? ยิ่งรีรอมากกว่านี้ ความเสียหายก็จะยิ่งมากขึ้นค่ะ!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ไหนว่าฉันแนะนำให้ 'คุยกันแบบสันติวิธี' น่ะเหรอคะ?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "วิธีแบบนั้นใช้กับชมรมพัฒนาออนเซ็นไม่ได้หรอกค่ะ! หลังจากเรื่องวันนั้นฉันก็คิดแบบนี้เลยค่ะ!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ลุยกันเลยค่ะ อิจิกะ!! ไม่ว่าจะเกิดอะไรขึ้น เราก็ต้องชนะให้ได้ค่ะ!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ค่ะ!! ฉันจะจับเอาไว้ให้เอง รุ่นพี่เป็นคนลงมือเลยค่ะ!!"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ย้ากกกก!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ทะ... ทำไมถึงเป็นแบบนี้ไปได้...! เหลือจะเชื่อเลย...!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "อะฮะฮะฮ่า! เหมือนได้เล่นมวยปล้ำเลย!!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ตั้งสติไว้ค่ะ อิจิกะ! อีกฝ่ายแรงดีเหนือมนุษย์เลยค่ะ!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "อ๊ายยยย!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะ... อะไรน่ะ!? เสียงอะไร? เหมือนมีอะไรแตกเลย...!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ่อ... นะ... นี่มันเรื่องอะไรน่ะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ๋? มีคนอื่นอยู่อีกเหรอ? เด็กคนนั้นคือ...?"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "หืม~ มีคนมารบกวนการทำงานอีกแล้ว?"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "ถ้าเจอคนมาขัดขวางหลายคน หัวหน้าบอกว่าไม่ต้องสู้แล้วให้กลับมาเลย น่าเสียดายชะมัด!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม...? จะกลับดื้อๆ เลยเหรอ? แล้วที่บอกว่าเสียดายคืออะไรกัน...?"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "อื้อ...! ก็ฉันได้คำสั่งว่าถ้าเจอเหตุการณ์แบบนี้ ก็ให้วางมือจากงานแล้วกลับเลยน่ะสิ!"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "ถึงจะเสียดาย แต่ก็ช่วยไม่ได้ละนะ! คำสั่งของหัวหน้าต้องมาก่อนอยู่แล้ว!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ไม่สิ เดี๋ยวก่อน ว่าแต่เธอเป็นใคร...?"
+    },
+    {
+      "Name": "เมกุ",
+      "Text": "งั้นฉันขอตัวก่อนละนะ! ขอให้วันนี้เป็นวันที่ดีนะทุกคน!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เมื่อกี้นี้... เด็กเกเฮน... น่า?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "จะหนีไปไหนคะ เกเฮนน่า!! เรายังสู้กันไม่จบเลยนะคะ!!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ชมรมพัฒนาออนเซ็น!! ฉันไม่ยกโทษให้หรอกค่ะ!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะ... อ๊าา!! ทุกคน เดี๋ยวก่อน!! ใจเย็นๆ ก่อน!! หยุดน้าา!!"
+    },
+    {
+      "Text": "(หลังจากสงบสติอารมณ์ได้ ทั้ง 2 คนก็อธิบายสิ่งที่เกิดขึ้นให้มิกะฟัง)"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เกิดเรื่องแบบนั้นสินะ ทำไมต้องเป็นวันนี้ด้วย..."
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ขอโทษค่ะ คุณมิกะ... ฉันจัดการได้ไม่ดีเลยละค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... ไม่เลย! ฉันไม่ได้จะโทษอะไรเลยต่างหาก! ฉันเข้าใจพวกเธอทั้ง 2 คนนะ! อื้อ!!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม...? คุณครู?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แล้วฉันโอเคมั้ยน่ะเหรอ? ทำไมเหรอ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ่า... อ่าา..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แหะๆ นั่นสินะ เมื่อกี้ฉันให้คุณครูได้เห็นด้านที่ไม่น่ารักของฉัน... ก็เลยกังวลสินะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ว่าแต่เด็กคนนั้นน่ะ ต่อให้จะคิดในแง่บวกยังไง ฉันก็คงคิดว่าเข้ามาด้วยเจตนาดีไม่ได้"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แล้วยังเป็นเด็กจากเกเฮนน่าอีก..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม... บอกตามตรงว่า... ฉันก็ไม่ได้อยากปล่อยไปนักหรอก"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แต่ถึงยังไง... ฉันคิดว่าตอนนี้เราต้องเก็บกวาดตรงนี้กันก่อนน่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้าได้เห็นห้องอาบน้ำในสภาพนี้ นางิจังก็คงเครียดจนไม่อยากพักผ่อน..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แล้วก็คงไปไล่ตามชมรมพัฒนาออนเซ็นหรืออะไรนั่นด้วย"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ไม่หรอกค่ะ ไม่มีทางเป็นแบบนั้นแน่ค่ะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม?!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "อิจิกะ...?"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "ชมรมพัฒนาออนเซ็นนั่นน่ะค่ะ! ถ้าหมายตาสถานที่นี้ไว้แล้ว เดี๋ยวก็คงกลับมาอีกค่ะ!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "พวกนั้นต้องบุกรุกเข้ามาแล้วทำลายวันหยุดพักผ่อนของสภาน้ำชาแน่นอนค่ะ! แล้วถ้าเป็นแบบนั้น พวกเราก็ต้องเล่นละครเพื่อเบี่ยงเบนความสนใจคุณนางิสะค่ะ!"
+    },
+    {
+      "Name": "อิจิกะ",
+      "Text": "แล้วระหว่างนั้นคุณครูก็คงต้องเข้ามาช่วยสั่งการและช่วยเล่นละครตบตาจนเหนื่อยไปด้วย! เชื่อฉันได้เลยค่ะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ไม่หรอกน่า! ต่อให้เป็นเด็กเกเฮนน่า แต่ก็ไม่น่าจะจัดการยากขนาดนั้นหรอก... ใช่มั้ย คุณครู?"
+    },
+    {
+      "Text": "[s19] \"อึก...! จู่ๆ ก็ปวดหัวขึ้นมา...!\""
+    },
+    {
+      "Text": "[s20] \"ครูรับประกันไม่ได้แฮะ...\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "มะ... แม้แต่คุณครูก็คิดแบบนี้เหรอ?! งั้นฮาสุมิจังก็ด้วยหรือเปล่า...?"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถ้าจะขอความเห็นจากฉันละก็... คงต้องบอกว่าถ้าจะสู้กับเกเฮนน่า เราจะสู้ด้วย 'สามัญสำนึก' ไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "และที่สำคัญกว่านั้นก็คือท่าทีที่เฉียบขาดของอิจิกะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ถ้าอิจิกะที่เป็นคนยืดหยุ่นที่สุดในชมรมทวงความยุติธรรมถึงกับยืนกรานแบบนั้น ก็แสดงว่าต้องมีเหตุผลให้คิดแบบนั้นค่ะ"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ตอนนี้ถ้าเราพลาดจังหวะนี้ไป ดีไม่ดีพวกนั้นอาจบุกเข้ามาใหม่ในช่วงเวลาสำคัญของทริปนี้ก็ได้ค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "วันนี้ฉันไม่อยากให้มีเรื่องใหญ่โตแท้ๆ เชียว"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ก็ได้ ถึงนี่จะเป็นวันพักผ่อนของสภาน้ำชา แต่ก็เป็นวันพักผ่อนของทั้ง 2 คนด้วย"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถ้ายังมีเรื่องชมรมพัฒนาออนเซ็นให้เป็นกังวล พวกเธอก็คงไม่ได้พักผ่อนอย่างเต็มที่ด้วยใช่มั้ยล่ะ?"
+    },
+    {
+      "Text": ""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "งั้นเราก็มาปิดจบเรื่องนี้ให้เร็วที่สุดดีกว่า"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第2話;溫泉危機"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "為什麼這裡會有人……？\n他們現在又在做什麼？"
+    },
+    {
+      "Text": "[ns1]「惠……！？」"
+    },
+    {
+      "Text": "[ns2]「那孩子為什麼會在這裡……？」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "那邊的人！\n你現在在做什麼？立刻停下來！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "這裡是茶會所有的海灘，你現在是在闖入私人領地！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "為什麼不回答──"
+    },
+    {
+      "Name": "惠",
+      "Text": "……嗯？\n啊，原來有人來啦！"
+    },
+    {
+      "Name": "惠",
+      "Text": "而且連老師也在！\n你們是怎麼知道這裡的？溫泉都還沒開放耶？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……老師？您認識他嗎？"
+    },
+    {
+      "Text": "[s3]「呃，那個……」"
+    },
+    {
+      "Text": "[s4]「先，先冷靜下來聽我說好嗎？」"
+    },
+    {
+      "Name": "惠",
+      "Text": "嗯！我是溫泉開發部的惠！\n佳澄部長叫我在這裡安裝「溫泉開發用炸彈」！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……什麼？炸彈……？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "不，先等一下。他剛才是說……「溫泉開發」嗎？\n難道是……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "溫泉開發部！！\n那不是格黑娜的恐怖分子社團嗎！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "居然連這種日子都要來搗亂……真是不可原諒！格黑娜！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……老師？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "先冷靜下來……有話好說？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "冷靜！？老師，難道您覺得格黑娜的學生只是剛好經過這裡嗎！？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "莫非您覺得他們有搗亂以外的其他意圖嗎……！？\n您是這個意思嗎！？"
+    },
+    {
+      "Text": "[ns5]「不，就算是我也不會這麼想……！！」"
+    },
+    {
+      "Text": "[ns6]「我也很想這麼說，但根本說不出口啊！！」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "這裡本來就是私人領地！\n光是出現在這裡就已經構成非法入侵了吧！？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "而且剛才還說在安裝什麼……溫泉開發用「炸彈」？？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "立刻停下來！！這是實現正義部的命令！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "咦……？反正這裡遲早會崩塌，變成溫泉不是更好嗎？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "為什麼一開始就假設這裡會崩塌！？\n甚至還一副理所當然的態度！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "因為部長說「一定會崩塌」啊？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……？？？\n那是什麼意思……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "不對，我差點被牽著鼻子走了。\n這個人簡直完全無法溝通！"
+    },
+    {
+      "Text": "[s7]「這，這些孩子的個性本來就是這樣啦……」"
+    },
+    {
+      "Text": "[s8]「雖然我也勸誡過好幾次了……」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我已經說過要你停下來了吧！！\n無法溝通的話就只能逮捕你了。即便得動用武力……！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "咦？啊……！不行不行！\n部長說一定要安裝好這個再回去！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "還在說這些亂七八糟的鬼話……！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "什，什麼？這股力量是……！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "唔，唔啊……？唔啊啊啊……？？"
+    },
+    {
+      "Text": "[s9]「蓮實被舉起來了……！？」"
+    },
+    {
+      "Text": "[s10]「那個招式是……翻摔！？」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "咳，咳咳！！怎，怎麼可能……！\n天底下居然有這麼荒唐的事！？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我這輩子還是第一次整個人被舉起來甩出去……！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "你別這樣，再等我一下下嘛！\n我把炸彈裝好之後馬上就走！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "所以說那到底是什麼意思啊！！\n為什麼能說得一副理直氣壯的樣子！！"
+    },
+    {
+      "Text": "[s11]「嗯……畢竟是惠嘛……」"
+    },
+    {
+      "Text": "[s12]「完全是蓮實不擅長對付的類型呢……」"
+    },
+    {
+      "Text": "[ns13]「還是交給我來談吧。」"
+    },
+    {
+      "Text": "[ns14]「雖然感覺行不通，姑且還是試試看吧……」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "不，老師。\n這裡……請交給我吧。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "身為實現正義部的一員，我實在無法受到這種對待還無動於衷。\n這是自尊的問題！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "就算武器留在戰車上……\n即便必須徒手格鬥，我也不會輸給格黑娜的學生──"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "更不會輸給恐怖分子！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……什麼？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "對方擁有徒手完成溫泉工程的怪力？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "那……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "那又如何！我才不會輸給格黑娜的學生！！！"
+    },
+    {
+      "Text": "[ns15]「就知道你會這麼說。」"
+    },
+    {
+      "Text": "[ns16]「果然踩到逆鱗了啊……」"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我要上了，格黑娜的怪力女！！覺悟吧！！"
+    },
+    {
+      "Name": "惠",
+      "Text": "哎唷～！我還得趕快裝完這個回去耶！！\n再等我一下下嘛！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "你根本沒在聽我說話吧！！\n到底想把我氣到什麼程度！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "怎，怎麼了？\n我聽到了東西碎裂的聲音，所以才趕緊過來看看……！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "一花",
+      "Text": "什麼……？？"
+    },
+    {
+      "Name": "一花",
+      "Text": "唔……咳，咳咳……！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "到，到底發生了什麼事……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "啊啊啊啊──！！我再也忍不下去了！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "蓮，蓮實前輩……？"
+    },
+    {
+      "Name": "一花",
+      "Text": "請冷靜……！總之先冷靜下來好好談談……！"
+    },
+    {
+      "Name": "一花",
+      "Text": "凡事以和為貴……對吧……？"
+    },
+    {
+      "Name": "惠",
+      "Text": "……啊！你是上次跟部長一起搭火車的那個朋友！好久不見！"
+    },
+    {
+      "Name": "一花",
+      "Text": "什……"
+    },
+    {
+      "Name": "一花",
+      "Text": "什麼鬼啊啊啊啊啊──！？"
+    },
+    {
+      "Name": "一花",
+      "Text": "為，為什麼！？為什麼溫泉開發部的人會在這裡！？為什麼！？"
+    },
+    {
+      "Name": "一花",
+      "Text": "這次又想打什麼主意……！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "不，無論你們打算做什麼都一樣，總之先抓起來就對了！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "……咦，老師？"
+    },
+    {
+      "Name": "一花",
+      "Text": "要我先冷靜下來……？"
+    },
+    {
+      "Name": "一花",
+      "Text": "老師是在開玩笑嗎？\n難道你覺得溫泉開發部是懷著善意來到這裡的嗎！？"
+    },
+    {
+      "Text": "[s17]「一花～～～！？」"
+    },
+    {
+      "Text": "[s18]「反應居然跟蓮實一樣……」"
+    },
+    {
+      "Name": "一花",
+      "Text": "後果已經顯而易見。\n拖得越久，損失只會越大！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "……什麼？"
+    },
+    {
+      "Name": "一花",
+      "Text": "說好的「凡事以和為貴」？"
+    },
+    {
+      "Name": "一花",
+      "Text": "……只有溫泉開發部是例外！\n從那天之後我就這麼決定了！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "上吧，一花！！無論如何都要贏！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "是！！我來抓住他，請前輩趁機攻擊吧！！"
+    },
+    {
+      "Name": "全體",
+      "Text": "哈啊啊啊啊──！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "怎，怎麼回事……！\n這也太誇張了……！"
+    },
+    {
+      "Name": "惠",
+      "Text": "啊哈哈哈！感覺就像在摔角耶！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "集中精神，一花！對手幾乎不是人類！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "哈啊啊啊啊──！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "發，發生什麼事了！？這是什麼聲音？\n聽起來像是有東西碎掉了……！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "唉呦喂呀……到底是怎麼一回事……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯？有其他人在嗎？\n那孩子是……？"
+    },
+    {
+      "Name": "惠",
+      "Text": "唔嗯～又有人來搗亂了嗎？"
+    },
+    {
+      "Name": "惠",
+      "Text": "部長之前說過，要是遇到這種情況就要立刻撤退。\n真可惜啊！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "咦……撤退？可惜？\n什麼意思……？"
+    },
+    {
+      "Name": "惠",
+      "Text": "唔嗯……！這種時候就是要頭也不回地轉身就走！\n方法之後再想就好！"
+    },
+    {
+      "Name": "惠",
+      "Text": "雖然可惜但也沒辦法了！\n畢竟部長說的肯定沒錯！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不是，先等一下。\n你是……？"
+    },
+    {
+      "Name": "惠",
+      "Text": "那我先走囉！祝大家有個美好的一天！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "剛剛那位是……格黑娜？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "給我站住，格黑娜！！還沒分出勝負呢！！"
+    },
+    {
+      "Name": "一花",
+      "Text": "溫泉開發部──！！我絕不會放過你們！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哇，哇啊啊！！大家先冷靜下來！！暫停暫停！！"
+    },
+    {
+      "Text": "（之後幫忙安撫兩人，並向彌香說明了情況）"
+    },
+    {
+      "Name": "彌香",
+      "Text": "原來發生了這種事啊。\n而且還偏偏在今天……"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……讓您見到了這副醜態，真是非常抱歉，彌香大人。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "沒，沒關係！我完全不在意哦！\n換作是我也會這樣的嘛！嗯！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……老師？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "問我還好嗎？\n……為什麼？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊，啊啊……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哈哈，也是啦。\n畢竟老師之前看過我那副模樣……難免會擔心吧。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "那孩子剛才的行為，實在很難往好的方面解讀。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "加上又跟格黑娜有關……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯……老實說……果然會有點在意吧？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不過……現在還是先把這裡收拾乾淨比較重要。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "要是被渚醬看到的話，一定又會擔心到玩不下去的……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "溫泉開發部的孩子……應該不會再回來了吧？"
+    },
+    {
+      "Name": "一花",
+      "Text": "不，正好相反！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "咦！？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……一花？"
+    },
+    {
+      "Name": "一花",
+      "Text": "對方可是溫泉開發部！\n既然他們已經盯上了這裡就絕不會善罷干休！"
+    },
+    {
+      "Name": "一花",
+      "Text": "整個假期都會不斷地跑來，把事情搞得一團亂！\n到時候我們只能一直演戲騙渚大人！"
+    },
+    {
+      "Name": "一花",
+      "Text": "老師也得負責指揮、掩護……忙得團團轉之後累得不成人形！不用想也知道！！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不不不，就算是格黑娜也不至於會那樣……對吧，老師？"
+    },
+    {
+      "Text": "[s19]「唔……！我的頭……！」"
+    },
+    {
+      "Text": "[s20]「……我也不敢打包票說不會。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "連，連老師都這麼說！？\n蓮實醬應該也覺得太小題大作了吧……？"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "恕我冒昧……所謂的「常識」在格黑娜面前是不具備參考價值的。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "尤其一花還表現出了那種堅決的態度。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "既然連實現正義部最有彈性的他都如此斷言，肯定有相應的理由。"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "要是不把握機會的話，未來勢必會在重要時刻前來攪局。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "今天本來沒打算節外生枝的說……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "我知道了。\n這除了是我們的假期之外，也是你們的假期。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "只要溫泉開發部這個威脅還在，你們就沒辦法安心休息吧？"
+    },
+    {
+      "Text": ""
+    },
+    {
+      "Name": "彌香",
+      "Text": "那麼，就盡快解決吧。"
+    }
+  ]
+}

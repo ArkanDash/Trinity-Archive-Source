@@ -1,0 +1,1427 @@
+{
+  "TitleJP": "クローバー作戦（１）",
+  "TitleKR": "클로버 작전 1",
+  "TitleEN": "Operation Clover 1",
+  "TitleTH": "ปฏิบัติการโคลเวอร์ 1",
+  "TitleTW": "幸運草作戰（１）",
+  "DescJP": "ヴァルキューレ警察学校の本館に潜入したRABBIT小隊は、記録保管室で不正取引の記録を見つけることに成功。しかしミユのミスによって、一行は保管庫に閉じ込められてしまい……？",
+  "DescKR": "공안국의 비리를 조사하기 위해 본관에 잠입한 미야코와 일행들. 이들은 선생님과 모에의 지원을 받아 기록 보관실에 잠입하는 데 성공하지만, 미유의 실수로 보관실 안에 역으로 갇혀버리게 된다.",
+  "DescEN": "Miyako and her companions infiltrate the main building to investigate corruption in the Public Peace Bureau. With the support of Sensei and Moe, they succeed in infiltrating the archive room, but Miyu makes a mistake and they get trapped inside the vault.",
+  "DescTH": "มิยาโกะและสมาชิกคนอื่นลักลอบเข้าไปในอาคารส่วนกลางเพื่อตรวจสอบ\nการทุจริตของกรมความมั่นคงสาธารณะ ทุกคนได้การสนับสนุนจาก\nคุณครูและโมเอะจนเข้าไปในห้องเก็บเอกสารได้ แต่ก็ต้องถูกขังอยู่ในนั้น\nเพราะความผิดพลาดของมิยุ",
+  "DescTW": "都子和一行人為了調查公安局的不正之風而潛入本館。一行人在老師和萌的支援下成功潛入記錄保管室，但卻因為美優的失誤，反而被關在保管室裡了。",
+  "DialogJP": [
+    {
+      "Text": "第17話;クローバー作戦（１）"
+    },
+    {
+      "Text": "ヴァルキューレ警察学校・廊下"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ここはRABBIT1、現在の時刻は2330。只今ポイン[ruby=エコー]トEに[/ruby]到着しました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "哨兵の姿は無し、向かい側の廊下に監視カメラらしき多数の機器を確認。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こちらキャンプRABBIT。その監視カメラについてはもうハッキング済みだから、気にしないでOK～。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "画面で見た感じ、近くに警備員は無し。安心してポイン[ruby=シエラ]トSま[/ruby]で行っちゃって。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "モエちゃん、相変わらず早い……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "くひひ、この程度のセキュリティごとき朝飯前よ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……って調子に乗ったところ悪いんだけど、ハッキングは30分しか持たなそう。30分で乱数コードが生成されるっぽくて、この回路はちょいとキツイかな。だからミッションは30分以内によろしく。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "内容的にまーたあのヴェリタスの副部長かなー……まったく鬱陶しい。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "仮にもヴァルキューレの本館なのに、警備がいないってのはどうなんだ？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "大丈夫だっての、信じてよ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "モエに言ったんじゃない、ヴァルキューレの方に対してだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……今は敵ながら呆れたもんだ。これだからヴァルキューレには行きたくないんだっての。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "まあとにかく、公安局の取引帳簿――「クローバー」が保管されてるポイン[ruby=シエラ]トSは[/ruby]地下3階。一応通行量が少ない西側の階段を使って。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……繰り返しになるけど、時間制限30分だから。それまでによろしく。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT1、了解です。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "と、ところで、先生は……？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "前回とは違って侵入経路が厳しいので先生には無理です。話し合いの結果、無理やり置いてきました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それに、万が一バレた場合は銃撃戦になるかもしれませんから。"
+    },
+    {
+      "Text": "[s1] \"役に立たなくてごめん……。\""
+    },
+    {
+      "Text": "[s2] \"裏側で応援してるね……。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "まあ、ある意味いつも通りのメンバーだ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まあ、ある意味いつも通りのメンバーだ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そ、それはそうだね……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "はい。私たち、だけで……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミヤコ、何だその表情は。問題でもあるのか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "い、いえ。作戦のことを考えていただけです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "では、警戒しながらポイン[ruby=シエラ]トSま[/ruby]で移動！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "この部屋に、ヴァルキューレの文書が全部……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "頑丈な扉ですね。犯罪に関わる証拠なども全てあるでしょうし、当然ではありますが。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "その割にはやっぱり、警備とか全然いないけどな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ま、楽なのは良いことだけど。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……っていうかこれ、何を待ってるんだ？さっさと中に入らないのか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "この扉、電子式なんです。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "今モエちゃんが、一生懸命解除してるみたいで……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……おい、まさかその時間って「30分」にカウントされるわけじゃないよな？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "急かさないでっての！私だって今急いでるんだから！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちっ、普通に扉をぶち抜くんじゃダメか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "その分厚さで行けると思うの？やれるもんならやってみれば？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "それで警報とか鳴っても責任取れないけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あー、分かった。これデコードしたら……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……クリア！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……3分か、結構かかったな。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "これでも相当速いんだけど！？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "この難しさ、分かってて言ってる！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "今は喧嘩をしてる場合ではありません。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "もうあまり時間も無いので、急ぎましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "例のリベートに関する証拠を探してください。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "じゃあ、"
+    },
+    {
+      "Name": "サキ",
+      "Text": "私は右の本棚から。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ、暗い……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "えーっと、"
+    },
+    {
+      "Name": "サキ",
+      "Text": "公安局、公安局……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "「カイザーインダストリー」、記録は1週間前……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "これだ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ナイスです、サキ。見せてもらえますか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "「クローバー」……「カイザーインダストリー」と公安局との間における、違法なリベートの証拠を確保しました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "先生が言っていた通りですね、やはり「子ウサギタウンの再開発」の件が間に挟まっていたようです。"
+    },
+    {
+      "Text": "[s3] \"そっか、やっぱり……。\""
+    },
+    {
+      "Text": "[s4] \"とりあえず、みんなお疲れ様。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "この資料さえあれば、彼女たちの動きを止められそうです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "この資料さえあれば、彼女たちの動きを止められそうです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "公安局のやつらに一泡吹かせられるな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ん？何してるんだ、ミユ？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "と、扉、閉めちゃって……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……閉めたなら開ければ良いだろ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "で、でもこの扉……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ドアノブとか、無いタイプで……開けられない、かも。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……はぁっ！？"
+    },
+    {
+      "Text": "次回;クローバー作戦（２）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제17화;클로버 작전 1"
+    },
+    {
+      "Text": "발키리 경찰학교 본관 내 복도"
+    },
+    {
+      "Name": "미야코",
+      "Text": "여기는 RABBIT 1. 현재 시각은 2330시. 지금 막 포인트 에코에 도착했습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "해당 위치를 지키고 있는 초병의 존재는 확인되지 않았으며, 맞은편 복도에서 폐쇄회로 영상 장치로 추측되는 다수의 전자기기 신호를 감지했습니다."
+    },
+    {
+      "Name": "모에",
+      "Text": "여기는 캠프 RABBIT. 맞은편 복도에 다수의 CCTV가 존재하는 건 사실이지만 방금 내가 해킹으로 제어권을 가져왔어."
+    },
+    {
+      "Name": "모에",
+      "Text": "화면으로 보니 그 근처에 경계 중인 경찰은 없는 것 같으니, 안심하고 포인트 시에라까지 진입해도 괜찮아."
+    },
+    {
+      "Name": "미유",
+      "Text": "그 짧은 시간 내에 폐쇄회로를 해킹하다니…… 모에 쨩, 진짜 대단해……!"
+    },
+    {
+      "Name": "모에",
+      "Text": "쿠히히. 이 정도의 보안을 우회하는 일이야 간단하지."
+    },
+    {
+      "Name": "모에",
+      "Text": "……그런데 미안하지만 서버에 30분 간격으로 바뀌는 난수 코드가 걸려 있어서 그 이후의 조작은 장담하기 어려울 것 같아. 작전은 30분 내로 끝내줘."
+    },
+    {
+      "Name": "모에",
+      "Text": "……이거 또 베리타스의 그 부부장인가 하는 녀석 짓이지? 진짜 지긋지긋하다니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "그래도 명색이 발키리 경찰학교의 본관인데, 순찰을 하는 경비도 없는 건가?"
+    },
+    {
+      "Name": "모에",
+      "Text": "방금 내가 한 소리를 뭐로 들은 거야? 감시 카메라와 경보 장치는 내가 무력화시켰다니까!"
+    },
+    {
+      "Name": "사키",
+      "Text": "너한테 한 소리 아니야. 감시 카메라만 믿고 순찰을 게을리하는 경비국 녀석들에게 한 소리지."
+    },
+    {
+      "Name": "사키",
+      "Text": "……적이지만 한심하군. 이래서 내가 발키리 경찰학교에 가고 싶지 않았던 거라니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "여하튼, 공안국의 거래 장부— 아니, 클로버를 보관하고 있는 포인트 시에라는 지하 3층에 위치하고 있어. 통행량이 적은 서편 계단을 사용해."
+    },
+    {
+      "Name": "모에",
+      "Text": "……아까도 말했지만, 경보를 무력화할 수 있는 건 30분까지니까. 그전까지는 랑데부 포인트로 꼭 돌아와야 해!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 1, 수신했습니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그런데 이번 작전에는 선생님은 함께하시지 않는 건가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "지난번과는 달리, 이번에는 은밀한 침투를 위해 고고도 강하를 해야 했으니까요. 훈련된 요원이 아닌 선생님은 위험할 수도 있기에 후방 지원을 부탁드렸습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "게다가 자칫하면 탄막을 가로질러 퇴출을 시도하는 상황이 생길 수도 있으니……"
+    },
+    {
+      "Text": "[s1] \"미안.\""
+    },
+    {
+      "Text": "[s2] \"고고도 강하는 무리야.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 이번에는 우리끼리 알아서 잘 처리하는 수밖에 없지. 원래부터 그래왔었고."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 이번에는 우리끼리 알아서 잘 처리하는 수밖에 없지. 원래부터 그래왔었고."
+    },
+    {
+      "Name": "미유",
+      "Text": "……마, 맞아. 이런 일은 그동안 우리끼리 해왔었으니까……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "우리끼리……."
+    },
+    {
+      "Name": "사키",
+      "Text": "갑자기 왜 그런 표정을 짓는 거야, 미야코. 무슨 문제라도 있어?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……아, 아무것도 아닙니다. 잠시 작전을 생각하고 있었습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그럼 여러분, 사주를 경계하며 은밀히 포인트 시에라까지 이동합니다!"
+    },
+    {
+      "Name": "미유",
+      "Text": "이곳이 발키리 경찰학교의 모든 문서를 보관하고 있는 기록 보관실……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "범죄와 관련된 여러 가지 증거물이 보관된 장소인 만큼 튼튼한 철문으로 가로막혀 있군요."
+    },
+    {
+      "Name": "사키",
+      "Text": "그럼 뭐해. 이곳을 지키고 있어야 할 경비는 코빼기도 보이질 않는데."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐, 그 덕분에 우리 작전은 훨씬 편해졌지만 말이야."
+    },
+    {
+      "Name": "사키",
+      "Text": "……그나저나 무얼 기다리고 있는 거야? 시간도 없는데 빨리 들어가질 않고."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그게, 이 철문은 전자 신호로만 개폐할 수 있는 것 같아서……."
+    },
+    {
+      "Name": "미유",
+      "Text": "지금 모에 쨩이 원격으로 열심히 암호를 해제하고 있나 봐."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐어? 그럼 기다리는 시간은 제한 시간인 30분에서 빼 주는 거지?"
+    },
+    {
+      "Name": "모에",
+      "Text": "좀 보채지 마! 나도 지금 엄청 서두르고 있거든?"
+    },
+    {
+      "Name": "사키",
+      "Text": "쳇. 그냥 샷건이나 폭탄으로 도어 브리칭을 하면 안 되는 건가?"
+    },
+    {
+      "Name": "모에",
+      "Text": "두꺼운 철문에 브리칭이 가능하면 직접 해보시든가."
+    },
+    {
+      "Name": "모에",
+      "Text": "그리고 그랬다가 발키리 경찰학교의 온 학생들을 다 깨우면 네가 책임질 거야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "으음…… 평문을 통해 알아낸 비밀키로 디코드 프로그램을 실행시키면……."
+    },
+    {
+      "Name": "모에",
+      "Text": "……됐다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "……3분이나 걸렸잖아."
+    },
+    {
+      "Name": "모에",
+      "Text": "이것도 최대한 서두른 결과거든?"
+    },
+    {
+      "Name": "모에",
+      "Text": "불만 있으면 네가 직접 브리칭 하든가!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "모두, 지금은 싸우고 있을 때가 아닙니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "모에가 말한 보안 시스템이 재개되기까지 시간이 얼마 남지 않았습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "기록 보관실에서 공안국이 저지른 불법 리베이트 증거를 찾는 걸 우선시해주세요."
+    },
+    {
+      "Name": "사키",
+      "Text": "……알았어."
+    },
+    {
+      "Name": "사키",
+      "Text": "나는 우선 오른쪽의 책장부터 살펴볼게."
+    },
+    {
+      "Name": "미유",
+      "Text": "하우우…… 어두운 곳은 싫은데……."
+    },
+    {
+      "Name": "사키",
+      "Text": "어디 보자……"
+    },
+    {
+      "Name": "사키",
+      "Text": "공안국…… 공안국의 거래 자료가……"
+    },
+    {
+      "Name": "사키",
+      "Text": "1주일 전, <카이저 인더스트리>에서 제출된 영수증이라면……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……찾았다!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "잘하셨습니다, 사키. 영수증을 좀 보여주시겠어요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……과연. 그렇게 되었던 것이로군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님. 확보 대상, <클로버>— <카이저 인더스트리>와 공안국 사이의 불법 리베이트 증거를 확보했습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님께서 말씀하셨던 것처럼 <카이저 인더스트리>는 코우사기 타운에서 노숙자들을 퇴거 시켜 준다는 약속을 받고 공안국에 무상으로 무기를 제공했습니다."
+    },
+    {
+      "Text": "[s3] \"역시 추측이 맞았네.\""
+    },
+    {
+      "Text": "[s4] \"다들 수고 많았어!\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "네, 이 자료만 있으면 공안국과 카이저 그룹의 음모를 저지할 수 있겠지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "네, 이 자료만 있으면 공안국과 카이저 그룹의 음모를 저지할 수 있겠지요."
+    },
+    {
+      "Name": "사키",
+      "Text": "공안국 녀석들, 그렇게 잘난 척하더니…… 꼴 좋다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "응? 문 앞에서 무얼 하고 있는 거야, 미유."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그게…… 무, 문이 닫혀 버렸는데……."
+    },
+    {
+      "Name": "사키",
+      "Text": "그게 뭐가 걱정이야. 문이 닫혔으면 다시 열면 되지."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그게 이 문……"
+    },
+    {
+      "Name": "미유",
+      "Text": "안쪽에서 여는 손잡이가 없어……."
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐라고—?!"
+    },
+    {
+      "Text": "다음화;클로버 작전 2"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 17; Operation Clover 1"
+    },
+    {
+      "Text": "Valkyrie Police School Main Building Hallway"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 1, reporting. Time is 2330 hours. I've arrived at Point Echo."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Guard presence has not yet been confirmed, but several electronic signals presumed to be CCTV devices have been detected in the opposite hallway."
+    },
+    {
+      "Name": "Moe",
+      "Text": "This is Camp RABBIT. Affirmative. There were CCTVs there, but I've already took over them. Heehee."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'm monitoring the video feeds for you, so you're clear to make your way to Point Sierra. Not a guard in sight."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-Wow! You hacked it so fast, Moe!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Teeheehee! Bypassing this level of security is easier than blowing up a building."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...Mostly. The server has a randomized numerical code that changes every thirty minutes, so I can't promise anything beyond that. You either finish in that time frame or it's a bust."
+    },
+    {
+      "Name": "Moe",
+      "Text": "The code has the vice president of Veritas written all over it. What a pill."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But this is the main building of Valkyrie Police School. How can there not be a single guard on patrol?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Do you have earwax or something? I told you, I disabled the cameras and alarms!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I wasn't talking about you, all right? I just can't believe their lax security and overreliance on technology."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I find it undisciplined and pathetic. It's the exact embodiment of why I didn't want to attend this school."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We get it, Little Miss Perfect. The Public Peace Bureau's ledger, I mean, the Clover is located at Point Sierra, on the third floor of the basement. Make your way to the west stairs. Route still clear."
+    },
+    {
+      "Name": "Moe",
+      "Text": "And to emphasize, I can only keep the alarms disabled for thirty minutes. You dummies better be back at the rendezvous point by then."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 1, understood."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Umm, wh-where's Sensei?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Since we had to rappel down from such a high altitude to be able to infiltrate undetected, it would've been dangerous for Sensei to attempt it with no training. So they'll be supporting from the rear."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And we couldn't risk a hostile bulldozing their way through the line of fire and harming Sensei..."
+    },
+    {
+      "Text": "[s1] \"You found out my deep dark secret. I'm scared of heights.\""
+    },
+    {
+      "Text": "[s2] \"I have many skills, but rappelling is not one of them.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "We have no choice but to carry out this mission on our own. That's how it's always been, anyways."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We have no choice but to carry out this mission on our own. That's how it's always been, anyways."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-That's right... We've always p-pulled through with just us..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Just us..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Why the long face, Miyako? What's wrong?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Ah, nothing. Just reviewing the plan."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Okay, RABBIT Squad. Don't let your guard down and watch each other's backs. We're moving to Point Sierra."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th-This is the archive room of all their d-documents..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's not surprising it's secured by a solid steel door. Criminals will go to great lengths to hide evidence of their wrongdoings."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Who cares about a big door? There's not a single guard in sight."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I can't complain though. This operation has gone smoothly so far."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Well, Miyako? Let's get going. We don't have much time."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This isn't a normal lock. It can only be unlocked via an electronic signal."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Moe is p-probably trying to crack the code..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "What? Does this count towards our thirty-minute time limit?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'm going as fast as I can, all right? Geez!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "We don't have time. Can't we breach the door with explosives?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Yes. Please. Breach the solid steel door with explosives. Be my guest."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh and just go ahead and wake up the entire student body while you're at it. What'll you do when that happens, you dummy musclehead?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Run the decoding program using the secret key I found through the plaintext..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "We're in, ladies and ladies!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "...That took over three minutes."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Do you think I just have to sit here and wave a magic wand?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "If it's so easy, why don't YOU try next time?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We don't have time for in-fighting."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The security system will be live again soon."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We need to prioritize finding the evidence that'll incriminate the Public Peace Bureau."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You're right."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'll take the bookshelves on the right."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I hate dark spaces..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Let's see..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Transaction logs... Transaction logs..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "A receipt submitted by Kaiser Industries a week ago..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Jackpot!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Excellent work, Saki. Let me see."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It seems Sensei was right."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Sensei, the Clover has been secured."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's as you said. Kaiser Industries provided free weapons to the Public Peace Bureau in exchange for evicting Kousagi Town's entire homeless population."
+    },
+    {
+      "Text": "[s3] \"So my hunch was right.\""
+    },
+    {
+      "Text": "[s4] \"We've got what we need, then.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes, this is exactly what we need to put a stop to this unjust conspiracy."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Yes, this is exactly what we need to put a stop to this unjust conspiracy."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hahaha! I can't wait to stick it to those Public Peace Bureau goons!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyu, what are you doing in front of the door?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "W-Well...i-it's closed..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Okay. Open it."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Th...The thing is... The d-d-door..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "There's no handle from the inside."
+    },
+    {
+      "Name": "Saki",
+      "Text": "WHAT?!"
+    },
+    {
+      "Text": "Next Episode; Operation Clover 2"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอน 17;ปฏิบัติการโคลเวอร์ 1"
+    },
+    {
+      "Text": "ทางเดินในอาคารส่วนกลาง สถาบันฝึกตำรวจวัลคิรี่"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นี่คือ RABBIT 1 ขณะนี้เวลา 23:30 น. ฉันมาถึงจุดเอโค่แล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จากการตรวจสอบไม่พบเวรยามที่คุ้มกันบริเวณนี้อยู่ แต่ตรวจพบสัญญาณอิเล็กทรอนิกส์ที่คาดว่าจะ\nเป็นอุปกรณ์ถ่ายภาพวงจรปิดในทางเดินฝั่งตรงข้ามค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่คือ RABBIT ในค่าย มีกล้องวงจรปิดจำนวนมากในทางเดินฝั่งตรงข้าม แต่ฉันแฮ็กระบบและได้สิทธิ์\nควบคุมกล้องมาสดๆ ร้อนๆ เลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ดูจากหน้าจอแล้วไม่พบตำรวจที่กำลังเฝ้ายามอยู่ในบริเวณนั้น เข้าไปที่จุดเซียร์ร่าได้เลย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แฮ็กระบบวงจรปิดได้ในเวลาแค่นิดเดียวเอง! โมเอะจังนี่ยอดไปเลย...!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮิฮิฮิ เรื่องแค่นี้มันของกล้วยๆ น่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ว่า... เซิร์ฟเวอร์จะติดโค้ดสุ่มตัวเลขที่เปลี่ยนทุกๆ 30 นาที หลังจากนั้นฉันว่าน่าจะควบคุมลำบาก ขอโทษด้วยนะ... แต่ช่วยทำปฏิบัติการให้เสร็จภายใน 30 นาทีได้ไหม?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ต้องเป็นฝีมือของรองหัวหน้าหรือใครในเวอริทัสแน่ๆ เบื่อจริงๆ เลยพวกนี้"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ที่นี่คืออาคารส่วนกลางที่เลื่องชื่อของสถาบันฝึกตำรวจวัลคิรี่เลยนะ ทำไมถึงไม่มีเวรยามมา\nลาดตระเวนเลยล่ะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่ได้ยินที่ฉันบอกไปเมื่อกี๊เหรอไง? ฉันแฮ็กระบบกล้องตรวจจับกับอุปกรณ์เตือนภัยหมดแล้ว!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันไม่ได้หมายถึงเธอสักหน่อย ฉันหมายถึงสำนักความมั่นคงจอมขี้เกียจที่ออกลาดตระเวนเพราะเชื่อ\nในกล้องตรวจจับอย่างเดียวต่างหากเล่า"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เป็นศัตรูที่น่าสมเพชชะมัด เพราะอย่างนี้ไงฉันถึงไม่อยากย้ายไปเรียนในสถาบันฝึกตำรวจวัลคิรี่"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เอาเถอะ จุดเซียร์ร่าที่บันทึกการซื้อขายของกรมความมั่นคงสาธารณะ ไม่สิ... จุดที่มีโคลเวอร์อยู่ที่ชั้น 3 ใช้บันไดทางฝั่งตะวันตกไปนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่างที่บอกไปว่าฉันควบคุมกล้องและระบบเตือนภัยได้แค่ 30 นาที เพราะฉะนั้นรีบกลับมาที่จุดนัดพบ\nก่อนหน้านั้นนะ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 1 ทราบ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ว่าแต่คุณครูไม่ได้มาทำปฏิบัติการครั้งนี้กับเราเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไม่ได้มาหรอกค่ะ ครั้งนี้เป็นการแทรกซึมอย่างลับๆ ที่ต้องใช้การกระโดดร่มทางยุทธวิธีนี่คะ คุณครูไม่\nเคยผ่านการฝึกฝนมาก่อนอาจจะเกิดอันตรายได้ เลยขอให้คุณครูช่วยสนับสนุนอยู่เบื้องหลังแทนค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อีกอย่างเราอาจจะตกไปในจุดที่มีระเบิดจนต้องหนีออกจากจุดปฏิบัติการก็ได้..."
+    },
+    {
+      "Text": "[s1] \"ขอโทษนะ\""
+    },
+    {
+      "Text": "[s2] \"ถ้าให้กระโดดร่มครูไม่น่าไหว\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ช่างเถอะ ครั้งนี้พวกเราจะลุยกันเอง ที่ผ่านมาเราก็จัดการกันเองอยู่แล้วนี่"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ช่างเถอะ ครั้งนี้พวกเราจะลุยกันเอง ที่ผ่านมาเราก็จัดการกันเองอยู่แล้วนี่"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ชะ... ใช่ นี่คือสิ่งที่พวกเราทำด้วยกันมาตลอด..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พวกเรา... ด้วยกัน..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทำไมจู่ๆ ก็ทำหน้าแบบนั้นล่ะมิยาโกะ มีเรื่องอะไรเหรอ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มะ... ไม่มีอะไรหรอกค่ะ ฉันกำลังคิดถึงปฏิบัติการอยู่น่ะค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอาละทุกคน แทรกซึมเข้าไปอย่างลับๆ ให้ถึงจุดเซียร์ร่านะคะ ระวังตัวด้วยค่ะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ที่นี่คือห้องเก็บบันทึกที่มีเอกสารทั้งหมดของสถาบันฝึกตำรวจวัลคิรี่..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พอเป็นห้องเก็บหลักฐานเกี่ยวกับอาชญากรรมต่างๆ ก็เลยถูกปิดกั้นด้วยประตูเหล็กที่แข็งแรงเลยค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แข็งแรงแล้วยังไง ไม่เห็นจะมียามยืนเฝ้าเลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ก็ดีแล้วละ ปฏิบัติการของเราจะได้สะดวกขึ้น"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะว่าไป นี่เรารออะไรกันอยู่เหรอ? ทำไมไม่รีบเข้าไปล่ะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คือว่า... ประตูเหล็กนี้เหมือนจะเปิดปิดด้วยสัญญาณอิเล็กทรอนิกส์เท่านั้น..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตอนนี้โมเอะน่าจะกำลังตั้งใจถอดสัญญาณจากทางไกลอยู่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าไงนะ? ถ้าต้องนับเวลารอด้วย ก็ต้องให้เวลาเรามากกว่า 30 นาทีสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่ามารบเร้าน่า! ฉันก็กำลังรีบอยู่นะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ชิ... เราเจาะประตูด้วยปืนลูกซองหรือระเบิดเลยไม่ได้รึไง?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าคิดว่าจะเจาะเหล็กหนาๆ ได้ก็ลองเองเลยสิ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อีกอย่างถ้านักเรียนทั้งหมดของสถาบันฝึกตำรวจวัลคิรี่ตื่นขึ้นมา เธอจะรับผิดชอบไหมล่ะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อืม... ถ้าติดตั้งโปรแกรมถอดรหัสด้วยซีเคร็ตคีย์ที่ได้มาจากเพลนเท็กซ์ละก็..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ได้แล้ว!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใช้เวลาตั้ง 3 นาทีเลยนะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นี่ฉันก็รีบเท่าที่จะรีบได้แล้วนะ!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าไม่พอใจก็เจาะประตูเองเลยสิ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นี่ไม่ใช่เวลาจะมาทะเลาะกันนะคะทุกคน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราเหลือเวลาอีกไม่มากแล้วก่อนที่ระบบรักษาความปลอดภัยจะกลับมาทำงานใหม่อย่างที่โมเอะบอก\nนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ช่วยกันหาหลักฐานเงินคืนที่ผิดกฎหมายของกรมความมั่นคงสาธารณะในห้องเก็บเอกสารก่อนเถอะค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็ได้..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันจะหาจากชั้นหนังสือทางขวานี้ก่อน"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "งืออ... ไม่ชอบที่มืดๆ เลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไหนดูซิ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอกสารการซื้อขายของกรมความมั่นคงสาธารณะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใบเสร็จที่ออกโดย <ไคเซอร์ อินดัสทรี> เมื่อสัปดาห์ก่อนงั้นเหรอ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เจอแล้ว!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดีมากค่ะซากิ ขอฉันดูใบเสร็จหน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อืม... เป็นอย่างนี้จริงด้วยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ เจอ <โคลเวอร์> แล้วค่ะ! เราได้หลักฐานเงินคืนผิดกฎหมายระหว่าง <ไคเซอร์ อินดัสทรี> กับกรมความมั่นคงสาธารณะมาแล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "กรมความมั่นคงสาธารณะสัญญาว่าจะขับไล่คนไร้บ้านออกจากโคะอุซางิ ทาวน์ และได้รับอาวุธมาจาก <ไคเซอร์ อินดัสทรี> อย่างที่คุณครูพูดเลยค่ะ"
+    },
+    {
+      "Text": "[s3] \"เดาถูกจริงๆ ด้วย\""
+    },
+    {
+      "Text": "[s4] \"ทุกคนทำได้ดีมาก!\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แค่มีเอกสารตัวนี้ เราก็หยุดยั้งแผนการร้ายของกรมความมั่นคงสาธารณะกับไคเซอร์กรุ๊ปได้แล้วค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แค่มีเอกสารตัวนี้ เราก็หยุดยั้งแผนการร้ายของกรมความมั่นคงสาธารณะกับไคเซอร์กรุ๊ปได้แล้วค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทำมาอวดเก่งนะพวกกรมความมั่นคงสาธารณะ... สมน้ำหน้า!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หืม? ทำอะไรอยู่หน้าประตูน่ะมิยุ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คะ... คือว่า... ปะ... ประตูมันปิด..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะกลัวอะไรล่ะ ประตูปิดก็เปิดใหม่สิ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คะ... คือว่า... ประตูนี้มัน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ไม่มีที่เปิดจากข้างใน..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าไงนะ?!"
+    },
+    {
+      "Text": "ตอนต่อไป;ปฏิบัติการโคลเวอร์ 2"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第17話;幸運草作戰（１）"
+    },
+    {
+      "Text": "女武神警察學園．走廊"
+    },
+    {
+      "Name": "都子",
+      "Text": "這裡是RABBIT1，現在時刻2230。已抵[ruby=Ecco]達E地[/ruby]點。"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒有哨兵，確認對向走廊有多數疑似監視器的機器。"
+    },
+    {
+      "Name": "萌",
+      "Text": "這裡是營地RABBIT。那些監視器已經駭入完成了，不用在意～"
+    },
+    {
+      "Name": "萌",
+      "Text": "從畫面上來看，附近沒有警衛。安心前[ruby=Sierra]往S地[/ruby]點吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "萌醬，還是一樣迅速……"
+    },
+    {
+      "Name": "萌",
+      "Text": "咕嘻嘻，這種程度的保全輕輕鬆鬆啦。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……抱歉有點得意忘形了，駭入大概只能撐30分鐘。似乎每30分鐘會產生亂數代碼，這個迴路有點難搞呢。所以任務要在30分鐘內完成。"
+    },
+    {
+      "Name": "萌",
+      "Text": "看這內容又～是那個貝里塔斯的副部長啊……真是煩死人了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "好歹也是女武神的本館，怎麼會沒有警衛？"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒問題的，相信我啦！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不是對萌說，而是對女武神。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……雖然現在是敵人不過也真傻眼。所以我才不想去女武神。"
+    },
+    {
+      "Name": "萌",
+      "Text": "總之，保管公安局交易帳本──「幸運草」[ruby=Sierra]的S地[/ruby]點在地下3樓。從人流相對低的西側樓梯下去吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……剛才說過了，時間限制30分鐘。記得在那之前結束掉。"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT1，了解。"
+    },
+    {
+      "Name": "美優",
+      "Text": "話，話說回來，老師呢……？"
+    },
+    {
+      "Name": "都子",
+      "Text": "和上次不同，本次作戰的入侵路徑很嚴峻，老師無法跟上。\n討論後也只能強迫老師留下了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "而且，萬一暴露的話也許會演變成槍戰。"
+    },
+    {
+      "Text": "[s1] 「抱歉幫不上忙……」"
+    },
+    {
+      "Text": "[s2] 「我會在背地裡支持的……」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘛，某種意義來說是一如往常的成員。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘛，某種意義來說是一如往常的成員。"
+    },
+    {
+      "Name": "美優",
+      "Text": "是，是那樣沒錯呢……"
+    },
+    {
+      "Name": "都子",
+      "Text": "是的。只憑我們……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "都子，那什麼表情。有什麼問題嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒，沒有。只是在思考作戰的事。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼，保持警戒並移動[ruby=Sierra]至S地[/ruby]點！"
+    },
+    {
+      "Name": "美優",
+      "Text": "女武神的文件全在這個房間……"
+    },
+    {
+      "Name": "都子",
+      "Text": "好堅固的門。畢竟包含了所有犯罪相關證據，這也當然。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這麼重要卻完全沒有警衛呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘛，反正輕鬆就好。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……話說現在是在等什麼啊？不趕快進去嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "這扇門，是電子式的。"
+    },
+    {
+      "Name": "美優",
+      "Text": "現在萌醬，似乎正在拼命解除……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……喂，這該不會也算在「30分鐘」裡吧？"
+    },
+    {
+      "Name": "萌",
+      "Text": "不要催啦！我現在也在趕了！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呿，不能單純把門打穿嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "這厚度你認為可以喔？能做到的話就試試看啊？"
+    },
+    {
+      "Name": "萌",
+      "Text": "要是警報因此響了我可不負責。"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊～我知道了。只要對這個進行解碼……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……解除了！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……3分鐘嗎，花了蠻多時間呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "這樣也算相當快了耶！？"
+    },
+    {
+      "Name": "萌",
+      "Text": "你明知道這有多難還故意這麼說嗎！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "現在不是吵架的時候。"
+    },
+    {
+      "Name": "都子",
+      "Text": "已經沒有什麼時間了，動作快吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "請快尋找與回扣有關的證據。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那麼，"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我從右邊的書櫃開始。"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗚嗚，好黑……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我看看──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "公安局，公安局……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "「凱薩工業」，記錄是一週前……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就是這個！"
+    },
+    {
+      "Name": "都子",
+      "Text": "NICE，咲希。可以讓我看看嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……原來如此。"
+    },
+    {
+      "Name": "都子",
+      "Text": "「幸運草」……「凱薩工業」和公安局之間的違法回扣證據，確保完畢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "就如老師所說，果然有牽扯到「兔寶寶鎮的都更」。"
+    },
+    {
+      "Text": "[s3] 「是嗎，果然……」"
+    },
+    {
+      "Text": "[s4] 「總之，大家辛苦了。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "只要有這個資料的話，應該就可以阻止她們的行動了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "只要有這個資料的話，應該就可以阻止她們的行動了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "可以讓公安局的傢伙們大吃一驚呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯？你在做什麼啊，美優？"
+    },
+    {
+      "Name": "美優",
+      "Text": "門，門關起來了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……關起來的話打開就好了吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "可，可是這個門……"
+    },
+    {
+      "Name": "美優",
+      "Text": "沒有門把這種東西……好像，打不開。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……哈啊！？"
+    },
+    {
+      "Text": "下一話;幸運草作戰（２）"
+    }
+  ]
+}

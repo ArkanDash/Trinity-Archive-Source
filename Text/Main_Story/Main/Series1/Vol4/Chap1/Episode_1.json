@@ -1,0 +1,2427 @@
+{
+  "TitleJP": "統制不能な特殊部隊",
+  "TitleKR": "통제 불능의 특수부대",
+  "TitleEN": "An Uncontrollable Special Unit",
+  "TitleTH": "หน่วยรบพิเศษที่ไม่อาจควบคุมได้",
+  "TitleTW": "不受控的特殊部隊",
+  "DescJP": "リンに呼びだされ、連邦生徒会で提出した書類の修正作業をしていた先生。そこに「閉鎖されたはずのSRT特殊学園の生徒たちが公園を占拠してデモを行っている」という知らせが届く。ヴァルキューレですら手に負えないとのことで、先生が駆り出されることに。",
+  "DescKR": "린의 호출을 받고 총학생회에 방문한 선생님은 폐쇄된 SRT 학원의 학생들이 공원을 점거하고 난동을 부리고 있다는 소식을 듣게 된다. 이들을 체포하기 위해 발키리 경찰학교의 학생들이 파견되지만, 문제는 해결되지 않고…… 결국 린은 샬레의 선생님에게 해결을 부탁한다.",
+  "DescEN": "Upon receiving a call from Rin, Sensei visits the General Student Council and overhears that students from the closed SRT Academy are occupying the park in protest. Students from Valkyrie Police School are dispatched to arrest them, but to no avail. In the end, Rin asks Sensei from Schale to solve the problem.",
+  "DescTH": "รินเรียกคุณครูให้มาพบที่องค์การนักเรียน คุณครูบังเอิญได้ยินว่านักเรียน\nจากสถาบัน SRT ที่ถูกปิดมายึดสวนสาธารณะและก่อความวุ่นวาย แม้จะ\nมีคำสั่งส่งนักเรียนจากสถาบันฝึกตำรวจวัลคิรี่ไปจับกุมนักเรียน SRT\nแต่ก็ไม่เป็นผล... สุดท้ายรินจึงขอให้คุณครูจากชาเล่ต์ช่วยแก้ปัญหาให้",
+  "DescTW": "收到琳的召喚而來到聯邦學生會的老師，聽到本應被封鎖的SRT學園的學生占據公園發動示威的消息。由於女武神警察學園的學生也敗下陣來，只好由夏萊的老師幫忙解決。",
+  "DialogJP": [
+    {
+      "Text": "第1話;統制不能な特殊部隊"
+    },
+    {
+      "Name": "リン",
+      "Text": "ご無沙汰しております、先生。"
+    },
+    {
+      "Text": "[s] \"あっ、リンちゃん。\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……誰が「リンちゃん」ですか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "そういうのはもっとですね……"
+    },
+    {
+      "Name": "リン",
+      "Text": "いえ、そのようなことはさておき。"
+    },
+    {
+      "Name": "リン",
+      "Text": "少々お話したいことがあり、ご連絡させていただきました。"
+    },
+    {
+      "Name": "リン",
+      "Text": "シャーレに来られてから、それなりに時間が経ちましたね。"
+    },
+    {
+      "Name": "リン",
+      "Text": "ご報告は頂いていますので、様々なことがあったことも存じております。"
+    },
+    {
+      "Name": "リン",
+      "Text": "あちこちでご活躍されたようで。おかげ様でこちらとしても、色々と助かりました。"
+    },
+    {
+      "Name": "リン",
+      "Text": "それはさておき、幾つかお願いしたいこと……と言いますか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "具体的にはシャーレの報告書に関することと、今後の連邦生徒会の新たな……"
+    },
+    {
+      "Name": "リン",
+      "Text": "……いえ、やはり直接お話しすることにしましょうか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "今日の午後、予定は空いていますか？"
+    },
+    {
+      "Name": "リン",
+      "Text": "お茶くらいは用意しますので、よろしければお越しください。"
+    },
+    {
+      "Name": "リン",
+      "Text": "お待ちしておりますので。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "えっと……先生、お疲れ様です。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "何だか、ちょっと空気感が気になりましたが……大丈夫でしょうか？"
+    },
+    {
+      "Text": "[s1] \"うーん、怒られるかも……。\""
+    },
+    {
+      "Text": "[s2] \"リンに怒られるのはご褒美だから。\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ですがきっと、怒られてばかりではないと思いますよ。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "そ、そうでしたか……。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "ですがきっと、怒られてばかりではないと思いますよ。"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "リンさんも言ってたように、先生はあちこちで大活躍ですから！"
+    },
+    {
+      "Name": "アロナ",
+      "Text": "お茶を用意してくれると言ってましたし、もしかしたらすっごいおもてなしをしてくれるかもです！"
+    },
+    {
+      "Text": "[s] \"そうだったら嬉しいな。\""
+    },
+    {
+      "Name": "アロナ",
+      "Text": "きっとそうです！さあ先生、そろそろ出発した方が良さそうですよ！"
+    },
+    {
+      "Name": "リン",
+      "Text": "ああ、先生。お待ちしておりました。"
+    },
+    {
+      "Text": "[s3] \"久しぶり。\""
+    },
+    {
+      "Text": "[s4] \"おもてなしをしてもらいに来たよ！\""
+    },
+    {
+      "Name": "リン",
+      "Text": "時間もありませんので、早速ですが本題に入りましょう。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……はい？何を言ってるのですか？"
+    },
+    {
+      "Name": "リン",
+      "Text": "どうしてそんな、落胆した表情を……私は「お茶くらい用意する」としか言っていませんが。"
+    },
+    {
+      "Name": "リン",
+      "Text": "そちらに座ってお待ちください。"
+    },
+    {
+      "Name": "リン",
+      "Text": "時間もありませんので、早速ですが本題に入りましょう。"
+    },
+    {
+      "Name": "リン",
+      "Text": "先ほどもお伝えした通り、シャーレの報告書周りに関するお話です。"
+    },
+    {
+      "Text": "[s] \"……？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "活動の内容について、口を出すわけではありません。多くの生徒から良い評判が出ているのは存じておりますし……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "ただ、問題はその事後処理です。"
+    },
+    {
+      "Name": "リン",
+      "Text": "連邦生徒会宛に、報告書などを提出してもらっていますが……"
+    },
+    {
+      "Name": "リン",
+      "Text": "例えばこの経費の書類。"
+    },
+    {
+      "Name": "リン",
+      "Text": "請求書の内訳が全て、アラビア数字になっています。"
+    },
+    {
+      "Text": "[s] \"……ダメなんだっけ？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "はい、ダメです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "公文書に手書きで金額を記入する時には、漢数字での記載をお願いしています。偽造防止および誤読防止のためです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "他にも例えば、この捺印。空欄から3cmずれています。"
+    },
+    {
+      "Name": "リン",
+      "Text": "このような不備があると、後処理の手間が増えてしまうので修正していただきたく……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "まあ、今やってくだされば良いのですが。"
+    },
+    {
+      "Text": "[s5] \"すみません……。\""
+    },
+    {
+      "Text": "[s6] \"……リンも手伝ってくれたりしない？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "はぁ……これはシャーレの、[USERNAME]先生のお仕事ですよ？"
+    },
+    {
+      "Name": "リン",
+      "Text": "はぁ……これはシャーレの、[USERNAME]先生のお仕事ですよ？"
+    },
+    {
+      "Name": "リン",
+      "Text": "そもそも先生が最初から、不備の無い書類を出してくだされば済んだお話です。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……それだけではありません。どうしてこういった報告書において、くだけた言葉で書くのですか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "機密文書なので外部の方は見ないとはいえ、真っ当な文章で書いてください。"
+    },
+    {
+      "Name": "リン",
+      "Text": "分からない場合は、以前お渡しした連邦生徒会の公文書規定「第15条」に……"
+    },
+    {
+      "Text": "（その後もしばらく、リンに様々な指摘を貰った……）"
+    },
+    {
+      "Name": "アユム",
+      "Text": "あの、リン先ぱ……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "い、いえ、行政官。少々ご相談が……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "どうしました？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "その、緊急の事案で……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "えっと、SRT特殊学園の撤去についてなのですが……一部の生徒たちが反発し、公園を占拠してデモを始めたとか……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "事前に準備していた部隊では、阻止が難しいようで……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "リン",
+      "Text": "でしたら、ヴァルキューレの警備局に連絡を。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "あ、りょ、了解です……！"
+    },
+    {
+      "Text": "[ns7] \"ごめん、ちょっと聞こえちゃったんだけど……\""
+    },
+    {
+      "Text": "[ns8] \"何か問題でも起きた？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……いえ、お気になさらず。よくあることですので。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……いえ、お気になさらず。よくあることですので。"
+    },
+    {
+      "Name": "リン",
+      "Text": "連邦生徒会長の失踪以降、こういったことは日常茶飯事です。"
+    },
+    {
+      "Text": "[s] \"SRT特殊学園っていうのは……？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……SRT、すなわち「Special Response Team」。"
+    },
+    {
+      "Name": "リン",
+      "Text": "文字通り特殊な任務に対応するための、エリートたちの学園[ruby=・・・]でした[/ruby]。"
+    },
+    {
+      "Name": "リン",
+      "Text": "少し前……連邦生徒会長がいた頃までは、ですね。"
+    },
+    {
+      "Name": "リン",
+      "Text": "今となってはもう、気にすることではありません。"
+    },
+    {
+      "Name": "リン",
+      "Text": "続けましょうか。この文書については、公文書規定の「第21条3項」に……"
+    },
+    {
+      "Text": "（それからしばらくして……）"
+    },
+    {
+      "Name": "アユム",
+      "Text": "あの、行政官……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……はい、また何か問題が？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "えっと、それが……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "デモの制圧に向かった警備局の生徒たちが、逆に制圧されてしまったとかで……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……デモを起こしたのは、「一部の生徒」なのですよね？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "は、はい。数としては小隊ひとつ分みたいなのですが……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "やはりSRTですし、火器が相当強力なこともあって……警備局だけでは……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "参りましたね、大ごとにしたくないのですが……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……仕方ありません、ヴァルキューレ警察学校の「公安局」に連絡を。"
+    },
+    {
+      "Name": "リン",
+      "Text": "「対テロ業務」に特化した彼女たちなら、いくら相手がSRTのエリートでも対処できるでしょう。防衛室の方には連絡しておきます。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "は、はいっ……！"
+    },
+    {
+      "Text": "[ns] \"私に手伝えることはある？\""
+    },
+    {
+      "Name": "リン",
+      "Text": "いえ、お気遣いなく。これはあくまでも連邦生徒会の問題ですので。"
+    },
+    {
+      "Name": "リン",
+      "Text": "まず先生に処理していただきたいのは、目の前の書類です。"
+    },
+    {
+      "Name": "リン",
+      "Text": "まさかとは思いますが……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "「そうすれば書類作業から逃げられそう」などと、お考えではありませんよね？"
+    },
+    {
+      "Text": "[s9] \"ま、まさかぁ……。\""
+    },
+    {
+      "Text": "[s10] \"さて！書類作業頑張ろう！楽しいなあ！\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……それでは引き続きやりましょうか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……それでは引き続きやりましょうか。"
+    },
+    {
+      "Name": "リン",
+      "Text": "こちらのように、捺印の修正時にはこうではなく……"
+    },
+    {
+      "Text": "（その後）"
+    },
+    {
+      "Name": "アユム",
+      "Text": "行政官……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "まさかとは思いますが……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "はい、公安局の生徒もみな……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "報告によると、「公園に近づくこともできないまま、大量の狙撃とトラップによって部隊が壊滅した」と……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "クロノススクールの記者たちも現場に来てしまい、中継によって状況が過熱しているみたいで……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "このままですと、問題がどんどん大きく……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "全く、どうしてこう次から次へと……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "あの、リン先輩……こういう時こそ、シャーレの先生に助けてもらうというのは……？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "先生の指揮能力はもちろん、各学校からすぐに精鋭を動員してもらうことも可能ですし……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "ヴァルキューレで太刀打ちできない以上、もう手段はそれくらいしか……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……先生、少々問題がありまして。"
+    },
+    {
+      "Name": "リン",
+      "Text": "本来なら私たちだけで片付けておきたいところですが……"
+    },
+    {
+      "Name": "リン",
+      "Text": "お願いできますでしょうか？"
+    },
+    {
+      "Text": "[s11] \"うん、任せて。\""
+    },
+    {
+      "Text": "[s12] \"よし来た！！\""
+    },
+    {
+      "Name": "リン",
+      "Text": "はい、一旦この書類についてはお気になさらず。私が何とかしておきますので。"
+    },
+    {
+      "Name": "リン",
+      "Text": "はい、一旦この書類についてはお気になさらず。私が何とかしておきますので。"
+    },
+    {
+      "Name": "リン",
+      "Text": "およそ状況は掴めているかと思いますが、一部のSRTの生徒たちがデモを起こしています。彼女たちを止めてきてください。"
+    },
+    {
+      "Name": "リン",
+      "Text": "小隊一つとのことで、さほど人数が多いとは思いませんが……SRTの銃火器は相当強力ですので。お気をつけいただければと。"
+    },
+    {
+      "Name": "リン",
+      "Text": "現場にはヴァルキューレの生徒たちもいますので、サポートをしてくれるはずです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "それでは、ご武運を。"
+    },
+    {
+      "Text": "次回;招かれざる客"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;통제 불능의 특수부대"
+    },
+    {
+      "Name": "린",
+      "Text": "오랜만에 인사드립니다, 선생님. 나나가미 린입니다."
+    },
+    {
+      "Text": "[s] \"아, 린 쨩.\""
+    },
+    {
+      "Name": "린",
+      "Text": "……누가 린 쨩입니까. "
+    },
+    {
+      "Name": "린",
+      "Text": "그런 표현은 되도록 삼가셨으면 합니다만."
+    },
+    {
+      "Name": "린",
+      "Text": "……아무튼."
+    },
+    {
+      "Name": "린",
+      "Text": "이렇게 갑자기 연락을 드리게 된 이유는, 긴히 드리고 싶은 말이 있었기 때문입니다."
+    },
+    {
+      "Name": "린",
+      "Text": "선생님께서 샬레에 오신 이후로도 벌써 시간이 꽤 흘렀군요."
+    },
+    {
+      "Name": "린",
+      "Text": "선생님께서 키보토스의 여러 가지 문제를 해결해 오셨다는 건, 그간 제출된 보고서를 통해 익히 전해 듣고 있었습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "덕분에 저희 총학생회도 약간은 시름을 놓을 수 있었습니다. 그 부분에 대해서는 감사드립니다."
+    },
+    {
+      "Name": "린",
+      "Text": "……다만 샬레의 활동과 관련하여, 몇 가지 주의와 당부를 드리고 싶은 부분이 있습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "업무를 처리하신 뒤의 사후 보고서와 총학생회의 새로운 지침에 대해……."
+    },
+    {
+      "Name": "린",
+      "Text": "……아니, 이런 무거운 안건을 전화기 너머로 말씀드리는 것은 어쩌면 실례일지도 모르겠군요."
+    },
+    {
+      "Name": "린",
+      "Text": "선생님, 오늘 오후는 특별한 일정 없이 비번이신지요?"
+    },
+    {
+      "Name": "린",
+      "Text": "그렇다면 가볍게 차라도 한잔하며 이야기를 나누었으면 합니다."
+    },
+    {
+      "Name": "린",
+      "Text": "그럼, 총학생회의 리셉션룸에서 기다리고 있겠습니다."
+    },
+    {
+      "Name": "아로나",
+      "Text": "으음…… 수고하셨습니다, 선생님."
+    },
+    {
+      "Name": "아로나",
+      "Text": "어쩐지 조금 혼날 것 같은 분위기인데…… 괜찮으신가요?"
+    },
+    {
+      "Text": "[s1] \"맞아. 린은 무서워…….\""
+    },
+    {
+      "Text": "[s2] \"린에게 혼나는 건 오히려 기뻐!\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "하지만 단순히 야단만 치려고 선생님을 부르려는 건 아닐 거예요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "네, 네에? 그건 전혀 예상하지 못했던 반응이네요……."
+    },
+    {
+      "Name": "아로나",
+      "Text": "하지만 단순히 야단만 치려고 선생님을 부르려는 건 아닐 거예요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "아까 린 씨가 직접 말씀하셨듯이, 선생님은 그동안 키보토스에서 벌어진 온갖 문제를 훌륭히 해결해 오셨으니까요."
+    },
+    {
+      "Name": "아로나",
+      "Text": "……어쩌면 훌륭한 일 처리의 대가로 맛있는 다과를 대접받을 수 있을지도?"
+    },
+    {
+      "Text": "[s] \"그건 기대되는 일이네.\""
+    },
+    {
+      "Name": "아로나",
+      "Text": "자, 선생님. 약속 시간에 늦지 않게 어서 총학생회 건물로 가요!"
+    },
+    {
+      "Name": "린",
+      "Text": "어서 오십시오, 선생님. 기다리고 있었습니다."
+    },
+    {
+      "Text": "[s3] \"오랜만이야, 린.\""
+    },
+    {
+      "Text": "[s4] \"맛있는 다과는 어디에 있어?\""
+    },
+    {
+      "Name": "린",
+      "Text": "시간이 많지 않으니 오늘의 의제부터 바로 말씀드리겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "네? 특별히 준비해 둔 다과는 없습니다만."
+    },
+    {
+      "Name": "린",
+      "Text": "……어째서 그렇게 실망한 표정을 지으시는 건지 모르겠군요."
+    },
+    {
+      "Name": "린",
+      "Text": "차는 곧 내어드릴 테니 그쪽에 앉아서 기다려 주시지요."
+    },
+    {
+      "Name": "린",
+      "Text": "시간이 많지 않으니 오늘의 의제부터 바로 말씀드리겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "전화로도 이미 말씀드렸지만, 오늘 선생님을 총학생회에 모시게 된 이유는 샬레의 활동과 관련된 몇 가지 주의사항을 전달해 드리고자 했기 때문입니다."
+    },
+    {
+      "Text": "[s] \"샬레의 활동에 무슨 문제라도……?\""
+    },
+    {
+      "Name": "린",
+      "Text": "아뇨, 선생님의 노고를 폄하할 생각은 없습니다. 샬레의 도움을 받은 대부분의 학생도 선생님의 활약에 만족하는 눈치였고요."
+    },
+    {
+      "Name": "린",
+      "Text": "다만, 문제를 해결하고 난 뒤의 사후 처리에서 다소 미흡한 부분이 다수 발견되었습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "특히 총학생회에 제출된 사후 보고서 등에서……"
+    },
+    {
+      "Name": "린",
+      "Text": "……예를 들자면 재무실에 청구된 이 경비 보고서."
+    },
+    {
+      "Name": "린",
+      "Text": "수기로 작성된 청구액 명세가 모두 아라비아 숫자로 쓰여있더군요."
+    },
+    {
+      "Text": "[s] \"그럼 안되는 거야?\""
+    },
+    {
+      "Name": "린",
+      "Text": "그야 물론입니다."
+    },
+    {
+      "Name": "린",
+      "Text": "공문서에 수기로 돈의 액수를 표시할 때는 위조와 오독을 방지하기 위해 갖은자로 쓰는 것이 원칙."
+    },
+    {
+      "Name": "린",
+      "Text": "게다가 여기 첨부된 영수증에 찍힌 날인은 공란에서 3cm나 벗어나 있더군요."
+    },
+    {
+      "Name": "린",
+      "Text": "이처럼 양식을 지키지 않고 보고된 안건에 대해서는 저희도 지원을 드릴 수 없습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "마침 선생님께서 총학생회에 직접 걸음해 주셨으니, 문제가 되는 보고서들을 직접 수정하고 가시면 되겠군요."
+    },
+    {
+      "Text": "[s5] \"으윽, 귀찮은데…….\""
+    },
+    {
+      "Text": "[s6] \"……린은 도와주지 않는 거야?\""
+    },
+    {
+      "Name": "린",
+      "Text": "제가 대신해드릴 수는 없습니다. 이는 샬레— 그리고 [USERNAME] 선생님의 일이니까요."
+    },
+    {
+      "Name": "린",
+      "Text": "제가 대신해드릴 수는 없습니다. 이는 샬레— 그리고 [USERNAME] 선생님의 일이니까요."
+    },
+    {
+      "Name": "린",
+      "Text": "애초에 선생님께서 양식대로 보고서를 작성해 주셨다면, 저도 이런 귀찮은 일을 할 필요는 없었을 텐데요."
+    },
+    {
+      "Name": "린",
+      "Text": "……게다가 여기 보고서에 쓰인 이 친근한 말투는 뭔가요? "
+    },
+    {
+      "Name": "린",
+      "Text": "대외비 이상의 기밀문서부터는 외부 기관에서 열람이 불가능하다고는 하지만, 경어로 작성하는 것이 기본 규칙입니다."
+    },
+    {
+      "Name": "린",
+      "Text": "전에 전달 드린 총학생회의 공문서 규정 제 15조를 참고하시면……"
+    },
+    {
+      "Text": "(그 이후로도 한동안 린의 잔소리는 계속되었다…….)"
+    },
+    {
+      "Name": "아유무",
+      "Text": "저, 린 선배……"
+    },
+    {
+      "Name": "아유무",
+      "Text": "아, 아니, 수석 행정관님…… 잠시 드릴 말씀이……."
+    },
+    {
+      "Name": "린",
+      "Text": "무슨 일인가요, 아유무…… 아니, 조정실장?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "그게…… 수석 행정관님의 판단이 필요한 긴급한 사안이 발생했습니다."
+    },
+    {
+      "Name": "아유무",
+      "Text": "(소근) 금일 예정된 SRT 학원의 철거 과정에서 일부 학생들이 폐교 결정에 반발하며 공원을 점거하고 무력 농성을 하기 시작했습니다."
+    },
+    {
+      "Name": "아유무",
+      "Text": "저희가 임시로 고용한 용역 인력만으로는 도저히 농성을 저지할 수가 없어서…… 철거 업무가 지연되고 있습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "……"
+    },
+    {
+      "Name": "린",
+      "Text": "……지금 즉시 발키리 경찰학교의 경비국에 연락을 취해주세요."
+    },
+    {
+      "Name": "린",
+      "Text": "총학생회의 지시를 따르지 않고 공무를 방해하는 학생들은 진압되어야 합니다."
+    },
+    {
+      "Name": "아유무",
+      "Text": "……여, 역시 그렇겠죠? 아, 알겠습니다. 네……!"
+    },
+    {
+      "Text": "[ns7] \"미안, 조금 들렸는데……\""
+    },
+    {
+      "Text": "[ns8] \"무슨 문제라도 생긴 거야?\""
+    },
+    {
+      "Name": "린",
+      "Text": "……아뇨. 흔히 있는 일입니다. 총학생회장이 사라진 뒤에 벌어지고 있는 사소한 말썽 중 하나일 뿐이지요."
+    },
+    {
+      "Name": "린",
+      "Text": "……아뇨. 흔히 있는 일입니다. 총학생회장이 사라진 뒤에 벌어지고 있는 사소한 말썽 중 하나일 뿐이지요."
+    },
+    {
+      "Name": "린",
+      "Text": "선생님께서 신경 쓰실 필요는 없습니다만……."
+    },
+    {
+      "Text": "[s] \"SRT 학원은…….\""
+    },
+    {
+      "Name": "린",
+      "Text": "……SRT, Special Response Team."
+    },
+    {
+      "Name": "린",
+      "Text": "말 그대로 특별한 임무에 대응하기 위해 만들어진 엘리트들의 학원이'었'죠."
+    },
+    {
+      "Name": "린",
+      "Text": "총학생회장이 있을 때는 유의미한 조직이었습니다만……."
+    },
+    {
+      "Name": "린",
+      "Text": "총학생회장이 사라졌기 때문에 이제는 더 이상……."
+    },
+    {
+      "Name": "린",
+      "Text": "자, 그럼 이어서 총학생회 공문서 규정의 21조 3항을 보도록 할까요."
+    },
+    {
+      "Text": "(잠시 후.)"
+    },
+    {
+      "Name": "아유무",
+      "Text": "저, 수석 행정관님……."
+    },
+    {
+      "Name": "린",
+      "Text": "아직도 문제가 남아있나요?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "그게 그러니까……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "농성을 저지하기 위해 파견된 경비국 학생들이 모두 당해버렸다고……"
+    },
+    {
+      "Name": "린",
+      "Text": "……네? 분명 아까는 일부 학생이라고 하지 않았나요? "
+    },
+    {
+      "Name": "아유무",
+      "Text": "예. 농성을 하고 있는 학생들은 1개 소대에 불과한 적은 숫자이긴 합니다만……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "SRT의 학생들이 보유하고 있는 화기의 화력이 워낙 막강한 데다가, 저항이 워낙 거세서…… 경비국의 인원만으로는 진압에 어려움을 겪고 있는 것 같습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "하는 수 없지요. 이렇게까지 일을 키우고 싶지는 않았지만……."
+    },
+    {
+      "Name": "린",
+      "Text": "지금 바로 발키리 경찰학교의 공안국에 연락을 취해주세요. 방위실의 협조를 얻어 공안국 병력을 현장에 투입합니다."
+    },
+    {
+      "Name": "린",
+      "Text": "아무리 상대가 SRT의 엘리트들이라 하더라도 대테러 업무에 특화된 공안국 학생들이라면 무사히 소동을 진압할 수 있을 겁니다."
+    },
+    {
+      "Name": "아유무",
+      "Text": "아, 아아…… 네, 넵! 바로 조치하겠습니다."
+    },
+    {
+      "Text": "[ns] \"내가 도울 일은 없을까?\""
+    },
+    {
+      "Name": "린",
+      "Text": "아뇨. 선생님이 나서실 필요는 없습니다. 이건 어디까지나 총학생회의 일이니까요."
+    },
+    {
+      "Name": "린",
+      "Text": "아까도 말씀드렸지만, 선생님께서는 여기에 쌓여있는 샬레의 보고서를 먼저 처리하셔야지요."
+    },
+    {
+      "Name": "린",
+      "Text": "혹시나 해서 드리는 말씀입니다만……"
+    },
+    {
+      "Name": "린",
+      "Text": "문서 수정 업무가 귀찮아서 도망가려고 하시는 건 아니겠지요?"
+    },
+    {
+      "Text": "[s9] \"그, 그런 생각은 하지 않았어!\""
+    },
+    {
+      "Text": "[s10] \"와! 보고서 처리하는 거 너무 재밌다!\""
+    },
+    {
+      "Name": "린",
+      "Text": "……다행이군요."
+    },
+    {
+      "Name": "린",
+      "Text": "……다행이군요."
+    },
+    {
+      "Name": "린",
+      "Text": "그럼 이어서 잘못 찍힌 날인을 수정하는 절차에 대해 말씀드리겠습니다……."
+    },
+    {
+      "Text": " (잠시 후.)"
+    },
+    {
+      "Name": "아유무",
+      "Text": "수석 행정관님……."
+    },
+    {
+      "Name": "린",
+      "Text": "설마 공안국 학생들까지……?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "네, 모두 당해버렸다고 합니다……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "현장 지휘관의 보고에 의하면 농성 중인 공원에 가까이 다가가기도 전에 저격과 부비트랩에 당해 대부분의 병력이 괴멸되었다고……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "게다가 사건의 냄새를 맡은 크로노스 스쿨의 기자들까지 현장에 몰려드는 바람에, 상황이 더욱 악화되고 있는 모양입니다……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "이대로 가면, 문제가 점점 커져서……."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "린",
+      "Text": "어째서 꼭 이럴 때만 처리하기 어려운 말썽이……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "저…… 저기…… 린 선배…… 이, 이번만큼은 샬레의 선생님께 도움을 요청하는 게 어떨까요?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "선생님께서 뛰어난 지휘 능력을 갖추셨다는 것은 이미 여러 차례의 전투를 통해 충분히 증명되었고, 필요하다면 샬레의 권한으로 각 학교의 정예를 동원할 수도 있으니……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "경찰학교의 학생들이 모두 괴멸당한 현 상황에서, 이 문제를 해결할 수 있는 건 샬레뿐인 것 같습니다……."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "린",
+      "Text": "……쳇."
+    },
+    {
+      "Name": "린",
+      "Text": "죄송합니다, 선생님. 아무래도 현장에 약간의 문제가 생긴 것 같습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "본래는 총학생회의 인원만으로 해결해야 할 문제입니다만……"
+    },
+    {
+      "Name": "린",
+      "Text": "이번만큼은 부득이하게도 선생님의 도움을 빌려야 할 것 같습니다."
+    },
+    {
+      "Text": "[s11] \"기다리고 있었어.\""
+    },
+    {
+      "Text": "[s12] \"얼마든지 부탁해도 좋아!\""
+    },
+    {
+      "Name": "린",
+      "Text": "보고서는…… 하는 수 없지요. 선생님이 일을 처리하고 오시는 동안 남은 일들은 제가 처리해 두겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "보고서는…… 하는 수 없지요. 선생님이 일을 처리하고 오시는 동안 남은 일들은 제가 처리해 두겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "이미 저희의 대화를 통해 어느 정도 파악하셨겠지만, 선생님께 부탁드리려는 일은 농성 중인 SRT 학원의 학생들을 저지하는 일입니다."
+    },
+    {
+      "Name": "린",
+      "Text": "그 숫자는 일개 소대로 많지는 않지만, SRT 학원에서 가져온 중화기로 무장하고 있다고 하니 안전에 유의 부탁드리겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "자세한 상황은 현장에 나가 있는 발키리 경찰학교의 간부들이 설명해 줄 겁니다."
+    },
+    {
+      "Name": "린",
+      "Text": "……그럼, 부탁드리겠습니다."
+    },
+    {
+      "Text": "다음화;공원의 불청객"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1; An Uncontrollable Special Unit"
+    },
+    {
+      "Name": "Rin",
+      "Text": "Time passes too quickly, Sensei. This is Nanagami Rin."
+    },
+    {
+      "Text": "[s] \"Oh. Hi, Rinny.\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "What...did you just call me? "
+    },
+    {
+      "Name": "Rin",
+      "Text": "Refrain from doing that again."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Moving on."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I am contacting you with urgent news."
+    },
+    {
+      "Name": "Rin",
+      "Text": "You've been absent from Schale for quite some time."
+    },
+    {
+      "Name": "Rin",
+      "Text": "To your credit, reports state you have been crucial in resolving conflicts throughout Kivotos."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The General Student Council has benefited from your actions, and gratitude is in order."
+    },
+    {
+      "Name": "Rin",
+      "Text": "However, my issue is with Schale's conduct."
+    },
+    {
+      "Name": "Rin",
+      "Text": "In regard to your reports, as well as the General Student Council's guidelines..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Actually, perhaps such conversations are better in person."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Sensei, from what I recall, your schedule is open today?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "Let us discuss over some tea."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Please meet me at the General Student Council reception room."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Good job getting through that, Sensei."
+    },
+    {
+      "Name": "Arona",
+      "Text": "It looks like the scary Rin is gonna yell at you... Are you okay?"
+    },
+    {
+      "Text": "[s1] \"Well, I can't say I'm not a little scared.\""
+    },
+    {
+      "Text": "[s2] \"Well, if it's Rin who's punishing me...\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "There's no way she's only calling you to yell at you though!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Wh-What?! What's that mean?"
+    },
+    {
+      "Name": "Arona",
+      "Text": "There's no way she's only calling you to yell at you though!"
+    },
+    {
+      "Name": "Arona",
+      "Text": "Like Rin said, you've been solving all kinds of problems in Kivotos."
+    },
+    {
+      "Name": "Arona",
+      "Text": "Maybe she just wants to give you lots of yummy treats as a reward for your hard work!"
+    },
+    {
+      "Text": "[s] \"Let's hope that's all it is.\""
+    },
+    {
+      "Name": "Arona",
+      "Text": "All right, Sensei! Time to get those snacks! Off to the General Student Council building!"
+    },
+    {
+      "Name": "Rin",
+      "Text": "Welcome, Sensei. Thank you for taking the time to meet with me."
+    },
+    {
+      "Text": "[s3] \"Long time no see, Rin.\""
+    },
+    {
+      "Text": "[s4] \"So, where are the treats?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "Time is a luxury, so let us begin."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Huh? What do you mean by treats?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "...You look rather disappointed."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Please have a seat while I get some tea."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Time is a luxury, so let us begin."
+    },
+    {
+      "Name": "Rin",
+      "Text": "As I said on the phone, I wanted to discuss my concerns regarding your handling of some Schale activities."
+    },
+    {
+      "Text": "[s] \"Did I do something wrong?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "It's not that I don't appreciate all that you have done since you've arrived. Students across Kivotos sing your praises."
+    },
+    {
+      "Name": "Rin",
+      "Text": "However, the issue lies in what happens after the conflict is over."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I would like you to take a look at these post-operation reports you submitted."
+    },
+    {
+      "Name": "Rin",
+      "Text": "This expense report!"
+    },
+    {
+      "Name": "Rin",
+      "Text": "The billing statement is not only handwritten, but in Arabic numerals."
+    },
+    {
+      "Text": "[s] \"I get the feeling that's bad?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "Very much so."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Any money amounts written in official documents must be written in Chinese to prevent forgery or other mishaps."
+    },
+    {
+      "Name": "Rin",
+      "Text": "And if you would observe here, the seal is stamped three centimeters away from the indicated blank."
+    },
+    {
+      "Name": "Rin",
+      "Text": "If you fail to follow official procedure and formatting in your reports, we in turn cannot help you with resolving them."
+    },
+    {
+      "Name": "Rin",
+      "Text": "So now that you're here, please revise all of these reports before you leave."
+    },
+    {
+      "Text": "[s5] \"I'm guessing that's not a suggestion...\""
+    },
+    {
+      "Text": "[s6] \"You're not gonna help me, Rin?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "It is not. You must resolve your business first, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I cannot. This business is your own making, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Rin",
+      "Text": "If you had followed proper procedure from the beginning, we wouldn't be here right now."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Also, would you care to explain the informal tone of this report? "
+    },
+    {
+      "Name": "Rin",
+      "Text": "While these are confidential documents, they must still be written with the pomp and circumstance afforded to them."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Refer here to Article 15 of the official guidelines of the General Student Council..."
+    },
+    {
+      "Text": "(Rin kept scolding me for a long, long time.)"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Um, Rin..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "I-I mean, Senior Administrator... I need to talk to you about something."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Yes, Ayu—Chief of Staff?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Well, there's an urgent matter."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "*whisper* The demolition of SRT Academy was scheduled today. However, just as they were about to begin, students occupied the park to protest the school's closing."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "We didn't have the manpower to deal with the sit-in...so the demolition is being delayed."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Contact the Security Bureau of Valkyrie Police School."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The General Student Council's orders are absolute. The students must be apprehended."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Th-That's what I thought you would say. I'm on it."
+    },
+    {
+      "Text": "[ns7] \"Hi. I'm still here. \""
+    },
+    {
+      "Text": "[ns8] \"Seems like there's something wrong.\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "I'm aware. These types of issues have been par for the course since the General Student Council president disappeared."
+    },
+    {
+      "Name": "Rin",
+      "Text": "These types of issues have been par for the course since the General Student Council president disappeared."
+    },
+    {
+      "Name": "Rin",
+      "Text": "It's nothing to concern yourself over, Sensei."
+    },
+    {
+      "Text": "[s] \"What is SRT Academy?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "SRT stands for Special Response Team."
+    },
+    {
+      "Name": "Rin",
+      "Text": "It's an elite academy of specially-trained students."
+    },
+    {
+      "Name": "Rin",
+      "Text": "They were a highly effective force under the General Student Council president's command."
+    },
+    {
+      "Name": "Rin",
+      "Text": "With her gone, there's not much point to the organization."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Now then, on to Article 21, Paragraph 3 of the guidelines."
+    },
+    {
+      "Text": "(Moments later.)"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Um, Senior Administrator..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Yes, Chief of Staff?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Well, you see..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "The Security Bureau was wiped out by the protesters."
+    },
+    {
+      "Name": "Rin",
+      "Text": "All of them?! I thought it was just a few students! "
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "It is! It's just one squad. Believed to be just four students."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "But SRT students are way too well-trained and well-armed to be taken down by just the Security Bureau."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I was hoping I wouldn't have to resort to this."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Contact the Public Peace Bureau of Valkyrie Police School. The Defense Office will be able to help us coordinate with and dispatch their forces."
+    },
+    {
+      "Name": "Rin",
+      "Text": "They may be elites, but the Public Peace Bureau specializes in anti-terrorism. Suppress them."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "I-If you say so!"
+    },
+    {
+      "Text": "[ns] \"Are you sure everything's okay?\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "I know what you're thinking. There's no need for you to get involved with General Student Council matters."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Your only assignment right now is to finish correcting your reports."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I'm only saying this to be sure, but..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I do hope you aren't offering to help to avoid your paperwork."
+    },
+    {
+      "Text": "[s9] \"I-I wouldn't ever think of that! Never, ever!\""
+    },
+    {
+      "Text": "[s10] \"I'm suddenly so excited to revise all these reports!\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "...I'm relieved to hear that. For both our sakes."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...I'm relieved to hear that. For both our sakes."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Then, let's pick up where we left off. In order to revise incorrect seals..."
+    },
+    {
+      "Text": " (Moments later.)"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Senior Administrator..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The Public Peace Bureau students...?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Every last one defeated."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "According to the report, they couldn't even get close to the park. They were taken out by snipers and booby traps almost immediately."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "To make matters worse, reporters from Kronos have picked up on the chaos and flocked to the scene."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "In other words, things are not going well!"
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Disaster can never choose a convenient time, can it?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "W-Well, Rin... I was thinking... We already have the Schale Sensei here..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "You've read the reports too. Sensei has great leadership skills and they have the influence and authority to ask for backup from really wherever they want."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "With the Valkyrie students taken out, I think Schale is our best hope..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Tsk."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Sensei. As you may have guessed, we've encountered a small issue."
+    },
+    {
+      "Name": "Rin",
+      "Text": "While the General Student Council should handle this..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "It seems your assistance is, in fact, required."
+    },
+    {
+      "Text": "[s11] \"I've been waiting for you to say that.\""
+    },
+    {
+      "Text": "[s12] \"My moment to shine!\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "As a thank you, I will handle your reports. Just this once."
+    },
+    {
+      "Name": "Rin",
+      "Text": "As a thank you, I will handle your reports. Just this once."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Your job is to suppress the SRT Academy students' protest. And quickly."
+    },
+    {
+      "Name": "Rin",
+      "Text": "There may be only a few, but do not underestimate them. They're highly trained and armed with heavy artillery."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Valkyrie Police School officers will explain the details once you've arrived at the scene."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I'm counting on you, Sensei."
+    },
+    {
+      "Text": "Next Episode; Uninvited Guest in the Park"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;หน่วยรบพิเศษที่ไม่อาจควบคุมได้"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่ได้เจอกันนานเลยนะคะคุณครู นานากามิ รินค่ะ"
+    },
+    {
+      "Text": "[s] \"อ๊ะ... รินจัง\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "รินจังอะไรกันล่ะคะ...?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ช่วยหลีกเลี่ยงการเรียกชื่ออะไรแบบนั้นด้วยค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เอาเถอะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ที่ฉันติดต่อเข้ามาอย่างกะทันหันแบบนี้ก็เพราะมีเรื่องเร่งด่วนที่อยากจะแจ้งให้ทราบค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "นี่ก็นานมากแล้วนะคะตั้งแต่คุณครูเข้ามาทำงานที่ชาเล่ต์"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ที่ผ่านมาฉันได้รับรายงานเรื่องที่คุณครูช่วยแก้ปัญหาต่างๆ ในคิโวทอสมาโดยตลอดเลยค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "พอได้ฟังเรื่องแบบนั้น องค์การนักเรียนก็พอคลายกังวลได้บ้างค่ะ ขอบคุณที่ช่วยนะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่ฉันก็มีข้อควรระวังและสิ่งที่อยากกำชับกับคุณครูเรื่องการทำงานของชาเล่ต์สองสามอย่างค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรื่องการเขียนรายงานหลังปฏิบัติงานเสร็จและแนวทางปฏิบัติใหม่ขององค์การนักเรียนน่ะค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "อืม... บางทีการพูดคุยวาระที่สำคัญทางโทรศัพท์แบบนี้อาจเป็นเรื่องเสียมารยาทสินะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ช่วงบ่ายวันนี้คุณครูไม่มีตารางงานพิเศษใช่ไหมคะ?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถ้างั้นมาดื่มชาสักแก้วแล้วคุยเรื่องนี้กันไหมคะ?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ฉันจะรออยู่ที่ห้องรับรองขององค์การนักเรียนนะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "อืม... รับมือได้ดีเลยนะคะ คุณครู"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "หนูรู้สึกเหมือนคุณครูจะโดนดุเลยค่ะ... จะไม่เป็นไรใช่ไหมคะ?"
+    },
+    {
+      "Text": "[s1] \"อืม รินนี่น่ากลัวจัง...\""
+    },
+    {
+      "Text": "[s2] \"ดีใจจังที่จะถูกรินดุ!\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "คุณรินไม่น่าจะเรียกคุณครูไปพบเพราะแค่จะตำหนิอะไรนิดหน่อยหรอกนะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "คะ... คะ? หนูไม่คิดเลยค่ะว่าจะได้ยินอะไรแบบนี้..."
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "คุณรินไม่น่าจะเรียกคุณครูไปพบเพราะแค่จะตำหนิอะไรนิดหน่อยหรอกนะคะ"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เมื่อกี้นี้คุณรินเป็นคนพูดเองนี่คะว่าคุณครูช่วยแก้ปัญหามากมายที่เกิดในคิโวทอสได้อย่างยอดเยี่ยม"
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "บางทีอาจจะเรียกคุณครูไปทานอาหารว่างอร่อยๆ เพื่อตอบแทนการทำงานที่ยอดเยี่ยมนั่นก็ได้นะคะ"
+    },
+    {
+      "Text": "[s] \"อดใจรอไม่ไหวแล้ว\""
+    },
+    {
+      "Name": "อะโรน่า",
+      "Text": "เอาละค่ะ คุณครู ถ้างั้นก็รีบไปที่อาคารองค์การนักเรียนเลยค่ะ!"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เชิญค่ะคุณครู กำลังรออยู่เลยค่ะ"
+    },
+    {
+      "Text": "[s3] \"ไม่ได้เจอกันนานเลยนะริน\""
+    },
+    {
+      "Text": "[s4] \"ไหนล่ะอาหารว่างอร่อยๆ?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรามีเวลาไม่มาก ฉันจะบอกวาระของวันนี้เลยแล้วกันค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "คะ? เราไม่ได้เตรียมอาหารว่างอะไรไว้เป็นพิเศษหรอกค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทำไมถึงทำหน้าผิดหวังอย่างนั้นล่ะคะ?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ช่วยนั่งรอก่อนนะคะ เดี๋ยวจะไปชงชามาให้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรามีเวลาไม่มาก ฉันจะบอกวาระของวันนี้เลยแล้วกันค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อย่างที่แจ้งทางโทรศัพท์ไปแล้ว ที่ฉันเรียกคุณครูมาที่องค์การนักเรียนในวันนี้ก็เพื่อแจ้งข้อควรระวัง\nบางอย่างเกี่ยวกับการทำงานของชาเล่ต์ค่ะ"
+    },
+    {
+      "Text": "[s] \"มีปัญหาเกี่ยวกับการทำงานของชาเล่ต์เหรอ...?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "เปล่าค่ะ ฉันไม่มีความคิดที่จะลดคุณค่าการทำงานหนักของคุณครูหรอกค่ะ อีกอย่าง นักเรียนส่วนใหญ่\nที่ได้รับความช่วยเหลือจากชาเล่ต์ก็พึงพอใจในผลงานของคุณครูค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่ที่เป็นปัญหาก็คือ พอจบเรื่องของนักเรียนแล้ว มันยังมีบางจุดในการจัดการตามหลังที่ยังไม่ดีพอค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "โดยเฉพาะกับ 'รายงานหลังปฏิบัติงานเสร็จ' ที่ส่งให้องค์การนักเรียน..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "อย่างเช่น... รายงานค่าใช้จ่ายที่เรียกเก็บกับฝ่ายการเงิน"
+    },
+    {
+      "Name": "ริน",
+      "Text": "รายการเรียกเก็บเงินทั้งหมดถูกเขียนมาด้วยตัวเลขอารบิกค่ะ"
+    },
+    {
+      "Text": "[s] \"แบบนั้นเป็นปัญหาเหรอ?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "แน่นอนสิคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ตอนเขียนระบุจำนวนเงินในหนังสือราชการ ตามกฎแล้วต้องเขียนด้วยตัวอักษรแทนตัวเลข เพื่อป้องกันการปลอมแปลงและการอ่านผิดพลาด"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อีกอย่าง ตราที่ประทับลงในใบเสร็จยังเกินช่องว่างมาตั้ง 3 เซนติเมตรด้วยค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "รายงานที่เขียนส่งมาโดยไม่ตรงแบบฟอร์มแบบนี้ พวกฉันไม่สามารถรับไว้ได้หรอกค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไหนๆ คุณครูก็มาที่องค์การนักเรียนแล้ว ช่วยแก้ไขรายงานที่เป็นปัญหาพวกนี้ให้ด้วยนะคะ"
+    },
+    {
+      "Text": "[s5] \"อึก ไม่อยากทำเลย...\""
+    },
+    {
+      "Text": "[s6] \"รินจะ... ไม่ช่วยครูหน่อยเหรอ?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "ฉันทำแทนให้ไม่ได้หรอกค่ะ มันเป็นงานของชาเล่ต์และคุณครู [USERNAME] นี่คะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ฉันทำแทนให้ไม่ได้หรอกค่ะ มันเป็นงานของชาเล่ต์และคุณครู [USERNAME] นี่คะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถ้าคุณครูเขียนรายงานมาถูกตามฟอร์มตั้งแต่แรก ฉันก็คงไม่ต้องมาสั่งงานที่น่าเบื่อแบบนี้หรอกค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่เพียงเท่านี้นะคะ... ดูภาษาที่สนิทสนมที่ใช้ในรายงานสิคะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "แม้หน่วยงานภายนอกจะเข้ามาอ่านหนังสือราชการลับที่สำคัญไม่ได้ แต่การใช้คำสุภาพก็เป็นกฎ\nพื้นฐานของการเขียนรายงานนะคะ  "
+    },
+    {
+      "Name": "ริน",
+      "Text": "จากข้อบังคับในเอกสารราชการขององค์การนักเรียนที่ฉันเคยให้ไว้ ข้อ 15..."
+    },
+    {
+      "Text": "(จากนั้นก็ฟังรินสาธยายอยู่พักใหญ่...)"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คือ... รุ่นพี่รินคะ..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "มะ... ไม่สิ... หัวหน้าฝ่ายบริหารคะ... พอดีฉันมีเรื่อง..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "มีเรื่องอะไรเหรอคะอายูมุ... ไม่สิ... หัวหน้าฝ่ายไกล่เกลี่ย?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คือว่า... มีเหตุฉุกเฉินที่ต้องให้หัวหน้าฝ่ายบริหารเป็นคนตัดสินใจน่ะค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "(กระซิบ) มีนักเรียนบางส่วนคัดค้านการรื้อถอนสถาบัน SRT ที่จะมีในวันนี้ค่ะ ตอนนี้นักเรียนพวกนั้น\nไปยึดสวนสาธารณะและเริ่มทำการประท้วงทางทหารแล้วค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คนที่เราจ้างมาชั่วคราวไม่อาจหยุดการประท้วงนี้ได้... การรื้อถอนโรงเรียนจึงล่าช้ากว่ากำหนดค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ติดต่อสำนักความมั่นคงของสถาบันฝึกตำรวจวัลคิรี่เดี๋ยวนี้เลยค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "นักเรียนที่ไม่ทำตามคำสั่งและขัดขวางการปฏิบัติหน้าที่ขององค์การนักเรียนจะต้องถูกกำราบค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ตะ... ต้องเป็นอย่างนั้นใช่ไหมคะ? ระ... รับทราบค่ะ ได้ค่ะ...!"
+    },
+    {
+      "Text": "[ns7] \"ขอโทษนะ ครูเผลอได้ยินเข้าน่ะ...\""
+    },
+    {
+      "Text": "[ns8] \"เกิดเรื่องอะไรขึ้นเหรอ?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่มีอะไรมากหรอกค่ะ ก็แค่เรื่องเล็กน้อย เป็นอีกหนึ่งเรื่องเล็กๆ น้อยๆ ที่เกิดขึ้นหลังจากที่ประธาน\nองค์การนักเรียนหายตัวไปน่ะค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่มีอะไรมากหรอกค่ะ ก็แค่เรื่องเล็กน้อย เป็นอีกหนึ่งเรื่องเล็กๆ น้อยๆ ที่เกิดขึ้นหลังจากที่ประธาน\nองค์การนักเรียนหายตัวไปน่ะค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "คุณครูไม่ต้องใส่ใจหรอกค่ะ..."
+    },
+    {
+      "Text": "[s] \"สถาบัน SRT คืออะไรเหรอ...\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "SRT ย่อมาจาก Special Response Team"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ที่นั่น 'เคย' เป็นโรงเรียนชั้นสูงที่ก่อตั้งขึ้นเพื่อรับมือกับภารกิจพิเศษน่ะค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "SRT ถือเป็นหน่วยงานที่มีความสำคัญในครั้งที่ประธานองค์การนักเรียนยังอยู่..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่ในเมื่อประธานองค์การนักเรียนหายตัวไป ก็คงไม่มีประโยชน์อะไรแล้วค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "เอาละค่ะ ต่อไปเราจะมาดูข้อบังคับในเอกสารราชการขององค์การนักเรียนข้อ 21 วรรค 3 กันค่ะ"
+    },
+    {
+      "Text": "(อีกสักครู่ต่อมา)"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เอ่อ... หัวหน้าฝ่ายบริหารคะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ยังมีปัญหาอยู่อีกเหรอคะ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คือว่า..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "นักเรียนจากสำนักความมั่นคงที่ถูกส่งไปหยุดยั้งการประท้วง... โดนเล่นงานกันหมดเลยค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "คะ...? เมื่อกี๊บอกว่าคนที่ประท้วงคือนักเรียนแค่ 'บางส่วน' ไม่ใช่เหรอคะ? "
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ใช่ค่ะ กำลังทหารเพียงหมวดเดียวก็เพียงพอแล้วกับจำนวนนักเรียนที่ทำการประท้วง..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "แต่อาวุธที่พวกนักเรียน SRT ถืออยู่มีอานุภาพรุนแรง แถมยังต้านทานได้ดีเป็นเลิศ... ฉันว่าแค่สมาชิก\nสำนักความมั่นคงเพียงกลุ่มเดียวคงกำราบนักเรียนพวกนั้นลำบากค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่อยากจะให้เป็นเรื่องใหญ่แบบนี้เลยค่ะ แต่มันช่วยไม่ได้แล้วสินะคะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ติดต่อกรมความมั่นคงสาธารณะของสถาบันฝึกตำรวจวัลคิรี่เดี๋ยวนี้เลยค่ะ เราจะขอความร่วมมือจาก\nสำนักป้องกันแล้วส่งกำลังทหารของกรมความมั่นคงสาธารณะไปยังสถานที่ประท้วงค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถึงแม้อีกฝ่ายจะเป็นนักเรียนหัวกะทิจาก SRT แต่นักเรียนจากกรมความมั่นคงสาธารณะที่เชี่ยวชาญ\nเรื่องการต่อต้านการก่อการร้ายจะต้องควบคุมความวุ่นวายได้ค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "อ่า... ค่ะๆ รับทราบค่ะ! ฉันจะดำเนินการให้ทันทีค่ะ"
+    },
+    {
+      "Text": "[ns] \"มีอะไรที่ครูช่วยได้ไหม?\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "ไม่ค่ะ คุณครูไม่จำเป็นต้องออกโรงหรอกค่ะ นี่คืองานขององค์การนักเรียน"
+    },
+    {
+      "Name": "ริน",
+      "Text": "และอย่างที่ฉันบอกไปเมื่อสักครู่ งานของคุณครูคือการแก้ไขรายงานของชาเล่ต์ที่กองตั้งอยู่ตรงนี้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "แล้วก็ขอถามเผื่อไว้เฉยๆ นะคะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ที่อยากมาช่วย ไม่ใช่เพราะขี้เกียจแก้ไขรายงานหรอกใช่ไหมคะ?"
+    },
+    {
+      "Text": "[s9] \"ครูไม่เคยคิดอะไรแบบนั้นเลยนะ!\""
+    },
+    {
+      "Text": "[s10] \"ว้าว! งานแก้ไขรายงานนี่น่าสนุกจังเล้ย!\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "ดีแล้วละค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ดีแล้วละค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "งั้นต่อไปฉันจะบอกวิธีการแก้ไขเรื่องตราประทับที่ไม่ถูกต้องค่ะ..."
+    },
+    {
+      "Text": " (อีกสักครู่ต่อมา)"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "หัวหน้าฝ่ายบริหารคะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "อย่าบอกนะว่านักเรียนกรมความมั่นคงสาธารณะก็เอาไม่อยู่...?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ใช่ค่ะ มีรายงานว่าไม่มีใครเอาอยู่เลยค่ะ..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ตามการรายงานของผู้บัญชาการภาคสนาม กองกำลังส่วนใหญ่ถูกลอบยิงไม่ก็ถูกกับดักตั้งแต่ยังไม่\nถึงสวนสาธารณะที่กำลังประท้วงอยู่เลยค่ะ..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ไม่เพียงเท่านี้นะคะ พวกนักข่าวจมูกไวจากโรงเรียนโครโนสยังแห่กันมาที่นั่นด้วย สถานการณ์เลยยิ่งเลวร้ายลงเรื่อยๆ ค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ถ้าปล่อยไว้อย่างนี้ ได้เกิดปัญหาใหญ่ขึ้นแน่ๆ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เจอแต่ปัญหาที่จัดการยากในเวลาแบบนี้ตลอด..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เอ่อ... คือว่า... รุ่นพี่... ริน... ครั้งนี้เราขอความช่วยเหลือจากคุณครูของชาเล่ต์ไหมคะ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ความสามารถในการบังคับบัญชาของคุณครูได้รับการพิสูจน์ผ่านการต่อสู้หลายต่อหลายครั้ง และถ้าจำเป็น เราก็สามารถใช้สิทธิ์ของชาเล่ต์ในการระดมกองกำลังชั้นหนึ่งจากแต่ละโรงเรียนได้..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ถ้านักเรียนจากโรงเรียนตำรวจยังถูกเล่นงานถึงขนาดนี้ละก็ คนที่จะช่วยได้มีแต่ชาเล่ต์เท่านั้นค่ะ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "ต้องขออภัยด้วยค่ะคุณครู พอดีทางนั้นเกิดปัญหาขึ้นนิดหน่อย"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เดิมทีแล้วสมาชิกองค์การนักเรียนจะต้องจัดการปัญหานี้เอง..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่ครั้งนี้คงต้องขอความช่วยเหลือจากคุณครูอย่างหลีกเลี่ยงไม่ได้ค่ะ"
+    },
+    {
+      "Text": "[s11] \"ครูรอฟังคำนี้อยู่เลย\""
+    },
+    {
+      "Text": "[s12] \"ให้ช่วยอะไรขอให้บอกเลย ครูทำได้ทุกอย่าง!\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรื่องรายงาน... ฉันจะยกประโยชน์ให้แล้วกันนะคะ ระหว่างที่คุณครูออกไปจัดการเรื่องนั้น ฉันจะทำส่วนที่เหลือแทนให้เองค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรื่องรายงาน... ฉันจะยกประโยชน์ให้แล้วกันนะคะ ระหว่างที่คุณครูออกไปจัดการเรื่องนั้น ฉันจะทำส่วนที่เหลือแทนให้เองค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "คุณครูอาจจะพอทราบสถานการณ์จากที่ฟังพวกฉันคุยกันบ้างแล้ว เรื่องที่ฉันอยากขอความช่วย\nเหลือจากคุณครูคือการขัดขวางนักเรียนของสถาบัน SRT ที่กำลังทำการประท้วงอยู่ในตอนนี้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถึงจะมีกันไม่กี่คน แต่เด็กพวกนั้นก็มีอาวุธยุทโธปกรณ์ที่เอามาจากสถาบัน SRT ด้วย ระวังเรื่องความปลอดภัยด้วยนะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ส่วนรายละเอียดอื่นๆ คนจากสถาบันฝึกตำรวจวัลคิรี่ที่อยู่ที่นั่นจะอธิบายให้คุณครูฟังเองค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถ้างั้นก็ขอรบกวนด้วยแล้วกันนะคะ..."
+    },
+    {
+      "Text": "ตอนต่อไป;แขกที่ไม่ได้รับเชิญในสวนสาธารณะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;不受控的特殊部隊"
+    },
+    {
+      "Name": "琳",
+      "Text": "久疏問候了，老師。"
+    },
+    {
+      "Text": "[s]「啊，琳醬。」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……誰是「琳醬」啊。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這種稱呼方式要等更……"
+    },
+    {
+      "Name": "琳",
+      "Text": "不，這種事暫且不提。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這次聯絡老師，是因為有些事情要說。"
+    },
+    {
+      "Name": "琳",
+      "Text": "自從來到夏萊之後，經過一段時間了呢。"
+    },
+    {
+      "Name": "琳",
+      "Text": "因為有收到報告，所以我明白發生了各式各樣的事情。"
+    },
+    {
+      "Name": "琳",
+      "Text": "老師似乎在各地很活躍。多虧了您，在各方面也幫了我們很多忙。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這個暫且不提，有幾件事想拜託您。"
+    },
+    {
+      "Name": "琳",
+      "Text": "具體是關於夏萊報告書的事，和今後聯邦學生會新的……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……不，果然還是當面直接說吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "請問今日下午方便嗎？"
+    },
+    {
+      "Name": "琳",
+      "Text": "我會準備茶水，如果可以的話請您過來。"
+    },
+    {
+      "Name": "琳",
+      "Text": "我會等候您的。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "那個……老師，辛苦你了。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "剛才的氣氛有點讓人在意……還好嗎？"
+    },
+    {
+      "Text": "[s1]「嗯……可能會挨罵……」"
+    },
+    {
+      "Text": "[s2]「被琳罵是獎勵呀。」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "不過，肯定不是只有挨罵唷。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "是，是這樣啊……"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "不過，肯定不是只有挨罵唷。"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "就如琳同學所說的，老師在各地很活躍呢！"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "也說了會準備茶水，說不定會被大受款待唷！"
+    },
+    {
+      "Text": "[s]「如果是那樣的話很開心呢。」"
+    },
+    {
+      "Name": "彩奈",
+      "Text": "一定是那樣！好了老師，差不多該出發了唷！"
+    },
+    {
+      "Name": "琳",
+      "Text": "啊，老師。恭候多時了。"
+    },
+    {
+      "Text": "[s3]「好久不見。」"
+    },
+    {
+      "Text": "[s3]「我來受款待了！」"
+    },
+    {
+      "Name": "琳",
+      "Text": "時間不多，馬上進入正題吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……什麼？您在說什麼呢？"
+    },
+    {
+      "Name": "琳",
+      "Text": "為什麼露出那麼失望的表情……我只說了「會準備茶水」啊。"
+    },
+    {
+      "Name": "琳",
+      "Text": "請坐在那邊稍候。"
+    },
+    {
+      "Name": "琳",
+      "Text": "時間不多，馬上進入正題吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "就如剛才說過的，是關於夏萊報告書的事。"
+    },
+    {
+      "Text": "[s]「……？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "關於老師的活動內容，我並不想多嘴。何況我也知道很多學生都對老師讚譽有加……"
+    },
+    {
+      "Name": "琳",
+      "Text": "不過，問題是之後的事後處理。"
+    },
+    {
+      "Name": "琳",
+      "Text": "雖然有收到，交給聯邦學生會的報告書……"
+    },
+    {
+      "Name": "琳",
+      "Text": "例如這個經費的文件。"
+    },
+    {
+      "Name": "琳",
+      "Text": "申請書細項全都是阿拉伯數字。"
+    },
+    {
+      "Text": "[s]「……不行嗎？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "是的，不行。"
+    },
+    {
+      "Name": "琳",
+      "Text": "在公文上以手寫金額時，請以漢字記載。以防偽造或看錯。"
+    },
+    {
+      "Name": "琳",
+      "Text": "還有例如這個簽章。自空欄偏離了3cm。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這種不完善的地方，會增加後續處理的程序，還請修正……"
+    },
+    {
+      "Name": "琳",
+      "Text": "當然，這些都是現在就能修正好的問題。"
+    },
+    {
+      "Text": "[s5]「不好意思……」"
+    },
+    {
+      "Text": "[s6]「……琳也會幫忙嗎？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "哈啊……這是夏萊的，[USERNAME]老師的工作唷？"
+    },
+    {
+      "Name": "琳",
+      "Text": "哈啊……這是夏萊的，[USERNAME]老師的工作唷？"
+    },
+    {
+      "Name": "琳",
+      "Text": "再說問題就在於，老師一開始提出的文件不完善。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……不只如此，您怎麼會用口語的字詞寫報告書啊。"
+    },
+    {
+      "Name": "琳",
+      "Text": "就算是外人看不見的機密文件，也請書寫正統文章。"
+    },
+    {
+      "Name": "琳",
+      "Text": "如果有什麼不清楚的地方，在以前交給您的聯邦學生會公文規定「第15條」裡……"
+    },
+    {
+      "Text": "（在這之後，也受到琳各式各樣的指謫……）"
+    },
+    {
+      "Name": "步",
+      "Text": "那個，琳前……"
+    },
+    {
+      "Name": "步",
+      "Text": "不，不對，行政官。稍微有點事情……"
+    },
+    {
+      "Name": "琳",
+      "Text": "怎麼了嗎？"
+    },
+    {
+      "Name": "步",
+      "Text": "那個，有個緊急事件……"
+    },
+    {
+      "Name": "步",
+      "Text": "是關於SRT特殊學園的撤除……聽說有部分的學生反對，並佔領公園進行示威……"
+    },
+    {
+      "Name": "步",
+      "Text": "以事前準備的部隊，要阻止似乎有點困難……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "琳",
+      "Text": "這樣的話，聯絡女武神警備局。"
+    },
+    {
+      "Name": "步",
+      "Text": "啊，了，了解了……！"
+    },
+    {
+      "Text": "[ns7]「抱歉，稍微聽到了……」"
+    },
+    {
+      "Text": "[ns8]「出了什麼問題嗎？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……不，請不用在意。是常有的事。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……不，請不用在意。是常有的事。"
+    },
+    {
+      "Name": "琳",
+      "Text": "自從聯邦學生會長失蹤，這種事情是家常便飯。"
+    },
+    {
+      "Text": "[s]「SRT特殊學園是……？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……SRT，也就是「Special Response Team」。"
+    },
+    {
+      "Name": "琳",
+      "Text": "如字面上是為了對應特殊任務，而設立的[ruby=．]原[/ruby]菁英學園。"
+    },
+    {
+      "Name": "琳",
+      "Text": "直到前陣子……聯邦學生會長還在的時候。"
+    },
+    {
+      "Name": "琳",
+      "Text": "到了現在，已經不是該在意的事了。"
+    },
+    {
+      "Name": "琳",
+      "Text": "繼續吧。關於這個文件，在公文規定的「第21條3項」裡……"
+    },
+    {
+      "Text": "（這之後過了一段時間……）"
+    },
+    {
+      "Name": "步",
+      "Text": "那個，行政官……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……是，又有什麼問題嗎？"
+    },
+    {
+      "Name": "步",
+      "Text": "那個，就是……"
+    },
+    {
+      "Name": "步",
+      "Text": "聽說前往壓制示威的警備局學生們，反而被壓制了……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……發起示威的，是「一部份的學生」沒錯吧？"
+    },
+    {
+      "Name": "步",
+      "Text": "是，是的。雖然以數量來說是一支小隊……"
+    },
+    {
+      "Name": "步",
+      "Text": "但畢竟是SRT，火力相當強大……只憑警備局……"
+    },
+    {
+      "Name": "琳",
+      "Text": "真困擾呢，雖然不想把事情鬧大……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……沒辦法了，聯絡女武神警察學園的「公安局」。"
+    },
+    {
+      "Name": "琳",
+      "Text": "換作專長為「對恐業務」的她們，就算對手是SRT的菁英也能應對吧。我會連絡防衛室。"
+    },
+    {
+      "Name": "步",
+      "Text": "是，是的……！"
+    },
+    {
+      "Text": "[ns]「有什麼我可以幫忙的嗎？」"
+    },
+    {
+      "Name": "琳",
+      "Text": "不，請不用在意。這個終究是聯邦學生會的問題。"
+    },
+    {
+      "Name": "琳",
+      "Text": "首先想請老師處理的，是眼前的文件。"
+    },
+    {
+      "Name": "琳",
+      "Text": "雖然這只是我的猜測……"
+    },
+    {
+      "Name": "琳",
+      "Text": "您應該不會打算「插手示威事件逃離文書作業」吧？"
+    },
+    {
+      "Text": "[s9]「怎，怎麼會呢……」"
+    },
+    {
+      "Text": "[s10]「那麼！文書作業加油！真開心呢！」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……那麼就繼續吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……那麼就繼續吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "像這邊一樣，修正簽章時不是這樣……"
+    },
+    {
+      "Text": "（這之後）"
+    },
+    {
+      "Name": "步",
+      "Text": "行政官……"
+    },
+    {
+      "Name": "琳",
+      "Text": "不會是我猜的那樣吧……"
+    },
+    {
+      "Name": "步",
+      "Text": "是的，公安局學生的大家也……"
+    },
+    {
+      "Name": "步",
+      "Text": "根據報告，「遭受大量狙擊和陷阱，部隊甚至還沒接近公園就潰散了」……"
+    },
+    {
+      "Name": "步",
+      "Text": "現場狀況也似乎，因為克洛盧斯的記者們到場轉播，逐漸升溫……"
+    },
+    {
+      "Name": "步",
+      "Text": "這樣下去的話，問題會越來越大……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "琳",
+      "Text": "真是的，為什麼這樣接二連三的……"
+    },
+    {
+      "Name": "步",
+      "Text": "那個，琳前輩……這種時候，不就正需要請夏萊的老師幫忙嗎……？"
+    },
+    {
+      "Name": "步",
+      "Text": "老師不僅有指揮能力，還能立刻從各學校動員精銳……"
+    },
+    {
+      "Name": "步",
+      "Text": "如今女武神無法抗衡，只剩這個手段了……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……老師，稍微有點問題。"
+    },
+    {
+      "Name": "琳",
+      "Text": "本來我們希望能夠自己解決……"
+    },
+    {
+      "Name": "琳",
+      "Text": "可以拜託您嗎？"
+    },
+    {
+      "Text": "[s11]「嗯，交給我。」"
+    },
+    {
+      "Text": "[s12]「就等你這句！！」"
+    },
+    {
+      "Name": "琳",
+      "Text": "是的，關於這個文件暫且不用在意。我會想辦法的。"
+    },
+    {
+      "Name": "琳",
+      "Text": "是的，關於這個文件暫且不用在意。我會想辦法的。"
+    },
+    {
+      "Name": "琳",
+      "Text": "我想老師已經掌握大致上的狀況了，一部份SRT的學生們發起了示威。請前去阻止她們。"
+    },
+    {
+      "Name": "琳",
+      "Text": "因為只有一個小隊，人數應該不多……但SRT的槍械相當強大，請務必當心。"
+    },
+    {
+      "Name": "琳",
+      "Text": "現場也有女武神的學生們，應該會願意支援老師。"
+    },
+    {
+      "Name": "琳",
+      "Text": "那麼，祝您武運昌隆。"
+    },
+    {
+      "Text": "下一話;不速之客"
+    }
+  ]
+}

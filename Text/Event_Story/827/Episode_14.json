@@ -1,0 +1,2757 @@
+{
+  "TitleJP": "お届け物です！",
+  "TitleKR": "어촌에서 온 택배",
+  "TitleEN": "An Unexpected Delivery",
+  "TitleTH": "พัสดุจากหมู่บ้านชาวประมง",
+  "TitleTW": "有您的包裹！",
+  "DescJP": "一連の事件が終わり、エビの流通も正常化を果たし――夜戸浦村は不吉な漁村から活気ある観光地へと生まれ変わった。そうして、子ウサギ公園に戻ったRABBIT小隊員は、夜戸浦村から届いた宅配便を受け取るのだった。",
+  "DescKR": "일련의 사건 후 야토우라 마을은 불길한 어촌에서 활기찬 관광지로 거듭나고, D.U.의 새우 유통도 정상화된다. 코우사기 공원으로 돌아온 RABBIT 소대원들은 야토우라 마을에서 보내온 택배 하나를 받게 된다.",
+  "DescEN": "In the end, Yatoura Village is transformed from an ominous fishing village into a vibrant tourist destination, and the D.U. begins receiving shrimp imports once again. Upon returning to Kousagi Park, the RABBIT Squad receives an unexpected package from Yatoura Village.",
+  "DescTH": "หลังเกิดเรื่องราวต่างๆ ขึ้นอย่างต่อเนื่อง หมู่บ้านยาโตอูระก็ค่อยๆ เปลี่ยน\nมาเป็นหมู่บ้านที่มีชีวิตชีวาขึ้นทีละน้อย และการจำหน่ายกุ้งในพื้นที่ D.U.\nก็กลับมาเป็นปกติ กองทหาร RABBIT กลับมาที่โคะอุซางิ การ์เด้นก็ได้รับ\nพัสดุหนึ่งกล่องจากชาวบ้านในหมู่บ้านยาโตอูระ",
+  "DescTW": "在一連串的事件過後，夜戶浦村從不祥的漁村搖身一變成為充滿活力的觀光漁港，D.U.的蝦子流通也恢復正常。RABBIT小隊成員們回到兔寶寶公園後，收到一份來自夜戶浦村的包裹。",
+  "DialogJP": [
+    {
+      "Text": "エピローグ;お届け物です！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "クロノスチャンネルをご覧の皆さん、こんにちは！クロノス報道部の[ruby=かざまき]風巻[/ruby]マイです！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "本日の「おはよう！キヴォトス」では、\n[ruby=かねさきこう]鐘崎港[/ruby]の外れにある[ruby=やとうら]夜戸浦[/ruby]村を訪ねてきました。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "元々は、エビの特産地として知られているひっそりした村でしたが、ここ最近SNS上で話題沸騰中のようです！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "なぜこの村が注目を集めているのかと言いますと、現在急上昇中の釣りチャンネル「シロクマちゃんねる」の影響なんだとか。なんと、このチャンネルにアップロードされた動画が、1000万回の再生を達成したとのことです！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "動画から「美しい自然」と「初心者向けの釣りスポットが多い」という評判が広まり、夜戸浦村は新しい観光名所として一躍有名になりました。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "また、特産品のくさやが一部の美食家たちに好評を博し、くさやを一目見るべくこの村を訪れる人たちもいるんだとか。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "それにしても、1000万回再生って……羨ましいです。私たちも投稿頻度は高いんだけどなぁ……\nいつになることやら。"
+    },
+    {
+      "Name": "クロノス放送局員",
+      "Text": "……フェイクニュースで規制さえ食らわなければ、とっくに達成してたと思いますけど。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "ちょっと！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "コホン……息抜きに訪れた旅先で不親切な人に遭遇してしまい、楽しい気持ちが台無し……なんて経験、誰しも一度はあるかと思います。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "ですが、ここ夜戸浦村なら安心！親切な明るい人たちばかりで楽しく過ごせた……\nそんな内容が次々とSNSに投稿されているようです。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "……おや。あちらに、漁師さんの姿が見えますね。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "さっそく声をかけて、インタビューをしていこうと思います！"
+    },
+    {
+      "Name": "マイ",
+      "Text": "こんにちは、「おはよう！キヴォトス」です。"
+    },
+    {
+      "Name": "漁師",
+      "Text": "……何の用だ？"
+    },
+    {
+      "Name": "マイ",
+      "Text": "（あれ？聞いてた話と違うような……）"
+    },
+    {
+      "Name": "マイ",
+      "Text": "ええっと、その、インタビューをさせていただきたいのですが……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "仕事中なんだ。怪我でもされたら、こっちが――"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "[ruby=くまがい]熊谷[/ruby]、もうちょっと優しくせんか。"
+    },
+    {
+      "Name": "漁師",
+      "Text": "うっ……すみません。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "……すまんの、気を悪くしないでくれ。ちょっと今は手が離せなくてな。\n観光客に何かあってはならんから、コイツも少し神経質になってしまってるんだ。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "い、いえ……！こちらこそ、お仕事の邪魔をしてしまい申し訳ありません。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "その、差し支えなければ……この村の魅力について一言頂けませんか？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "ふむ……ワシにしてみりゃ、エビがウマいだけの小さな漁村じゃな。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "そ、そうなんですか……？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "だからこそ、こんな村にわざわざ来てくれる者がおるなら、\nいい思い出になることを願っとるよ。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "あとは、そうじゃな。いつか街でエビを見かけたとき、この村で過ごした時間を思い出してくれたら嬉しいの……はっはっは。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "なるほど……なぜ人々がこの村を訪ねるのか、分かってきた気がしました。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "……ちなみに、噂に関してお尋ねしたいことがあるのですが。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "……「深きもの」について、ご存知でしょうか？"
+    },
+    {
+      "Name": "マイ",
+      "Text": "ネットでは「鬼の[ruby=がんしょう]岩礁[/ruby]」でお供えをして、ある言葉を唱えると神秘的な存在が力を貸してくれる……と言われています。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "実際にその光景を目撃したり、詳細を知っている方はいないのでしょうか？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "そうじゃな。そんな言い伝えも存在しておるが……\nあくまで言い伝えに過ぎんからなぁ。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "村を……漁を助けてくれるような者がいるなら、このワシが知らないはずないからの。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "たしかに、そうですね……"
+    },
+    {
+      "Name": "マイ",
+      "Text": "あと、こちらは最近話題になったばかりのようですが……\n「くさや庫の叫び」という怪談について、何かご存じでしょうか？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "「くさや庫の叫び」じゃと……？"
+    },
+    {
+      "Name": "マイ",
+      "Text": "はい。匿名で寄せられたお便りですが、夜戸浦村のくさや庫から時々「エビはイヤ～」「くさやはもっとイヤ～～」という男性の声が聞こえる、という話です。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "……知らんのう。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "隙間風かなんかの音と聞き間違えたんじゃないかね。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "古木に風が当たると、人の声のようにも聞こえるというからの。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "そ、そうですか……"
+    },
+    {
+      "Name": "漁師",
+      "Text": "……アイツ、また脱走を図ってるようです。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "チッ……面倒じゃな。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "他のヤツらにも声をかけて探し出せ。防犯カメラも利用するんじゃ。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "……どちらにせよ、この村の出入口は1つしかない。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "あの……今は何の話を……？"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "気にするな、こっちの話だ。"
+    },
+    {
+      "Name": "年老いた漁師",
+      "Text": "それじゃ、楽しんでおくれ。ワシらは仕事が忙しくてな、これで失礼する。"
+    },
+    {
+      "Name": "マイ",
+      "Text": "……この村、本当に大丈夫なんですか？"
+    },
+    {
+      "Text": "子ウサギ公園"
+    },
+    {
+      "Name": "サキ",
+      "Text": "暑い……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "暑いですね……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "暑いね……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……冷たい水の中で、ひと泳ぎしたいな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "海に行ってきたのが、すごく昔のように感じる……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ええ。つい先日のことなのに、遠い昔のように感じます。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……楽しかったな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "最初は怖くて緊張したけど……みんな良い人たちだった。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "夜の海で釣りもして、美味しい海鮮もたくさん食べて……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……こんなに楽しかったの、久しぶりかも。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そうだな。SRT特殊学園が閉鎖してからは、色々あって休めなかったし。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "今回も形式上は作戦扱いだったけど……結果的にはバカンスを過ごしてきた感じになってしまったな。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……そうですね。結局、先生が最初に仰っていた通りになりました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ただ目的に集中するだけでは、判断を見誤る可能性が高まります。\n無知によって、恐怖が引き起こされたように。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT小隊の隊長として、適切な休息がいかに重要か再認識しました。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "でも、SRT特殊学園が復活するまでは子ウサギ公園にいるって約束したからな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ここは気を引き締めて、もうひと踏ん張りするぞ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……で、そろそろ昼時だが、弁当を探しに行ったモエはまだ帰ってこないのか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ちょっと、見てよコレ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "モエ……お前、出発してからどんだけ経ったと思って――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ふっふっふ……サキ、いくらあんたとはいえ、\nこれを見たら文句は言えないんじゃないかなぁ～？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "じゃーん！エンジェル24の「期間限定・プレミアム松弁当」！！\nなんと、4種類とも1個ずつもらってこられたんだよ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "竹でも梅でもなくて、松のお弁当……？\nそれ、すごく高いんじゃ……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そう。各地の特産品を使用した高級弁当で、発注数が限られる超レアなやつ！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "でもそれが、コンビニの物流ネットワークを見たところ、\n松弁当が廃棄されてるもんだから、ひとっ走りしてきたわけ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それで今日は、いつもより遠くに行ってきたのですね。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "昼からこんなに豪華な弁当を食べられるなんて……よくやった、モエ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それじゃ……さっそく中を見るとするか！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "鮭に牛肉、鶏のから揚げ……エビフライまであるじゃないか！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "コンビニ弁当のエビも、すっかり元通りになったようですね。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そうだな。D.U.でまたエビの入った弁当を見られるとは、\nなんかちょっと感慨深いな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "じゃ、漁師さんたちに感謝の意を込めて、このエビフライ弁当は私が――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "待った、サキ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……なんで、あんたが真っ先に弁当を選ぶのさ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ん？でもお前、魚よりも肉の方が好きだって言ってただろ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "そ、それに……自分で言うのもアレだが、水中爆破作戦では結構活躍したと思うぞ？\n見返りに、エビフライをもらうくらい――"
+    },
+    {
+      "Name": "モエ",
+      "Text": "今日は私もエビの気分だから！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "そもそも、この廃棄弁当を見つけたのは私でしょ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "わ、私も今日はエビが……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……私も、食べたい。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……今日は競争率が高いな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "仕方ない、ここは公平にジャンケンで……"
+    },
+    {
+      "Name": "配達員",
+      "Text": "こんにちは。こちらの公園に[ruby=つきゆき]月雪[/ruby]ミヤコさんはいらっしゃいますか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "はい、私が月雪ミヤコですが……"
+    },
+    {
+      "Name": "配達員",
+      "Text": "あぁ、良かった。お届け物です！ "
+    },
+    {
+      "Name": "配達員",
+      "Text": "よいしょっと……こちらにサインをお願いします。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あの……本当に私宛ての荷物でしょうか？\nこちらの公園に……？"
+    },
+    {
+      "Name": "配達員",
+      "Text": "はい。間違いなく、こちらの公園の住所が記載されてます。"
+    },
+    {
+      "Name": "配達員",
+      "Text": "「D.U.子ウサギタウン近隣公園、手洗い場前。A型1号テント、月雪ミヤコ様」\n……ですよね？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "テントの位置まで、無駄に具体的だな……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "たしかに間違いありませんが、どなたからの荷物ですか……？"
+    },
+    {
+      "Name": "配達員",
+      "Text": "発送元は、夜戸浦村の漁業組合ですね！！"
+    },
+    {
+      "Name": "配達員",
+      "Text": "冷凍保管が必要な物なので、常温だと中身が傷む恐れがあります。"
+    },
+    {
+      "Name": "配達員",
+      "Text": "開封したら早めに召し上っていただくか、冷凍保存するようお願いします。"
+    },
+    {
+      "Name": "配達員",
+      "Text": "ありがとうございました。では、失礼します！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "どうして、夜戸浦村から……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "しかも冷凍便って、何が送られてきたんだろうねぇ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "生モノの気配がするような……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……私が開けてみる。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "これは……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……エビじゃん！！しかもこんなに高級なやつ！！！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "すごい……高そうなエビが、箱にいっぱい……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……あ、箱の中にメッセージが入ってますね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "「通りすがりの心優しい観光客の皆様へ。夜戸浦村・漁業組合一同より、心からの感謝を込めて。」"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……やはり、私たち宛てで間違いないようですね。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "「通りすがりの心優しい観光客」ねぇ……私たちにピッタリじゃない？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……心優しい、って文字にされると恥ずかしいな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それにSRTとして当然の仕事をしただけなのに、こんなお礼を頂いてしまうなんて、ちょっと申し訳ないな……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが、ご厚意で送っていただいた物を断るわけにはいけません。\nこのエビは、ありがたく頂くとしましょう。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "あ、そうだサキ。さっきのエビフライ弁当、食べちゃって良いよ。\n私はこれがあれば十分だから。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "なっ、ズルいぞ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "この量……10人前はありそうだけど、私たちだけで食べれるのかな……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "冷凍庫はないし……このままじゃ大切なエビがダメになっちゃうかも……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……それは、皆さんに失礼ですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……では、今回も力を貸してくださった[USERNAME]先生を呼ぶのはどうでしょう？"
+    },
+    {
+      "Name": "一同",
+      "Text": "賛成！！！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "こんにちは、先生。今お時間、大丈夫でしょうか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "その、先日のシュリンプ・トラップ作戦に関するお話なのですが……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あ、あのときは、大変お世話になりました……それで、えっと……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……何をそんなにモジモジしてるんだ？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "恥ずかしいなら、みんなで言っちゃう？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "じゃ、じゃあみんなで――"
+    },
+    {
+      "Name": "一同",
+      "Text": "――今度は、私たちが先生をおもてなしします！"
+    },
+    {
+      "Text": "（子ウサギ公園で、RABBIT小隊のみんなと盛大にバーベキューを楽しんだ）"
+    },
+    {
+      "Text": "（後日シャーレに10人前のくさやが届いた事で、ちょっとした騒ぎになったのはまた別のお話）"
+    },
+    {
+      "Text": "夏の特殊作戦！RABBIT小隊と消えたエビの謎"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "에필로그;어촌에서 온 택배"
+    },
+    {
+      "Name": "마이",
+      "Text": "안녕하세요, 시청자 여러분! 크로노스 보도부의 카자마키 마이입니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "오늘 시사교양 <굿모닝 키보토스>에서는 카네사키 항구 외곽에 있는 작은 어촌, 야토우라 마을을 찾아왔습니다."
+    },
+    {
+      "Name": "마이",
+      "Text": "맛있는 새우가 잡힌다는 것 이외에는 거의 알려지지 않았던 이 작은 마을이 최근 SNS상에서 핫 플레이스로 큰 인기를 끌고 있는데요!"
+    },
+    {
+      "Name": "마이",
+      "Text": "이 마을이 갑자기 조명받게 된 이유는 최근 급성장한 인터넷 낚시 채널, <백곰의 낚시 TV>에서 이 야토우라 마을을 촬영한 동영상이 천만 뷰를 달성했기 때문입니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "동영상을 통해 아름다운 자연을 즐길 수 있는 경승지와 초보자도 쉽게 접근할 수 있는 낚시 포인트가 많다는 사실이 알려지며, 야토우라 마을은 새로운 관광 명소로 손꼽히게 되었는데요."
+    },
+    {
+      "Name": "마이",
+      "Text": "더욱이 이곳 마을에서 만드는 쿠사야 구이가 일부 미식가들에게 큰 호평을 받으며, 이를 맛보기 위한 식객들의 발길도 이어지고 있다고 하네요."
+    },
+    {
+      "Name": "마이",
+      "Text": "그나저나 천만 뷰라니, 부럽다…… 우리 채널도 업로드는 꾸준히 하고 있는데, 언제쯤 천만 뷰를 달성하려나?"
+    },
+    {
+      "Name": "크로노스 방송국원",
+      "Text": "……가짜 뉴스 때문에 연속 정지만 먹지 않았어도 진작 달성했을 것 같은데……"
+    },
+    {
+      "Name": "마이",
+      "Text": "시끄러워!"
+    },
+    {
+      "Name": "마이",
+      "Text": "흠흠…… 그리고 낯선 휴양지를 방문했다가 불친절한 사람들 때문에 즐거운 바캉스 기분을 망치고 돌아온 경험, 흔히들 있으실 텐데요."
+    },
+    {
+      "Name": "마이",
+      "Text": "이곳 야토우라 마을은 마을 주민 여러분 모두가 친절하고 밝은 분위기로 외지인들을 대하기 때문에, 즐겁게 휴양을 즐기고 돌아왔다는 관광객들의 체험담이 SNS에 이어지고 있습니다."
+    },
+    {
+      "Name": "마이",
+      "Text": "아…… 시선을 돌려보니 저쪽 부둣가에 배를 정박시키는 어부 여러분의 모습이 보이네요."
+    },
+    {
+      "Name": "마이",
+      "Text": "바로 모시고 마을에 관한 인터뷰를 진행하도록 하겠습니다!"
+    },
+    {
+      "Name": "마이",
+      "Text": "안녕하세요, <굿모닝 키보토스> 입니다!"
+    },
+    {
+      "Name": "어부",
+      "Text": "……뭔데?"
+    },
+    {
+      "Name": "마이",
+      "Text": "(어라? 생각했던 것보다 반응이 뭔가 사나운데……)"
+    },
+    {
+      "Name": "마이",
+      "Text": "아, 다름이 아니라 인터뷰를 조금……"
+    },
+    {
+      "Name": "어부",
+      "Text": "이 앞에서 어슬렁거리지 말고 저리 비켜! 그렇지 않으면 크게 다칠 수도 있으니—"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "쿠마가이, 외지인에게 좀 더 친절하게 굴지 못하겠냐."
+    },
+    {
+      "Name": "어부",
+      "Text": "으읏, 죄송합니다……"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "……미안하군. 계선주에 홋줄을 매는 위험한 작업을 하는 중이라, 다소 예민해진 것뿐이니 이해해 주게."
+    },
+    {
+      "Name": "마이",
+      "Text": "아, 아뇨…… 오히려 작업하시는 중에 방해해서 죄송합니다."
+    },
+    {
+      "Name": "마이",
+      "Text": "어르신, 혹시 괜찮으시다면 이 마을의 매력에 대해 짧게 소개해 주실 수 있으실까요?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "글쎄…… 마을에 사는 내가 보기에는 새우나 잡아 파는 시시껄렁한 마을로 밖에 보이지 않는데."
+    },
+    {
+      "Name": "마이",
+      "Text": "그, 그런가요……?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "하지만 이런 마을이라도 일부러 찾아오는 손님이 있다면, 가능한 좋은 기억만을 갖고 돌아가기를 바랄 뿐이지."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "그래야 나중에 다른 지역에 가서 새우를 고를 때에도, 우리 마을에서 잡은 새우를 한 번 더 눈여겨 봐주지 않겠어? 하하!"
+    },
+    {
+      "Name": "마이",
+      "Text": "……그렇군요. 어째서 사람들이 이 마을을 찾아오는지 알 것 같네요!"
+    },
+    {
+      "Name": "마이",
+      "Text": "그런데 말이죠…… 사실 이 마을과 관련된 소문이 하나 더 있는데요."
+    },
+    {
+      "Name": "마이",
+      "Text": "혹시…… <깊은 곳의 존재들>에 대해서 알고 계시나요?"
+    },
+    {
+      "Name": "마이",
+      "Text": "인터넷에 퍼진 소문에 따르면 도깨비의 암초 위에서 제물을 바치고 주문을 외우면 깊은 곳에 사는 신비한 존재가 물고기를 몰아와 준다는데……"
+    },
+    {
+      "Name": "마이",
+      "Text": "실제로 그 광경을 보았다거나, 이에 대해 자세히 아시는 분은 없을까요?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "글쎄…… 마을에 전해 내려오는 설화 속에 그런 이야기가 있기는 하지만, 설화는 설화에 불과하지 않을까."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "물고기를 몰아와 주는 신비한 존재가 따로 있다면, 우리 어부들이 이를 모를 수는 없으니까."
+    },
+    {
+      "Name": "마이",
+      "Text": "그건 그렇긴 하네요……"
+    },
+    {
+      "Name": "마이",
+      "Text": "그럼 이건 최근에 퍼지고 있는 소문입니다만…… <쿠사야 창고의 비명>이라는 괴담에 대해서도 알고 계신가요?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "<쿠사야 창고의 비명>……?"
+    },
+    {
+      "Name": "마이",
+      "Text": "네. 익명의 목격담에 의하면 야토우라 마을의 쿠사야 창고에서는 가끔씩 '새우는 싫어~ 쿠사야는 더 싫어~' 라고 울부짖는 남성의 목소리가 새어 나온다고 하던데……"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "……금시초문이로군."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "아마 새벽바람이 낡은 기둥 사이로 지나가며 우는 소리를 잘못 들은 게 아닐까?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "오래된 나무가 삐걱거리면 가끔 사람 비명 소리처럼 들릴 때가 있거든."
+    },
+    {
+      "Name": "마이",
+      "Text": "그, 그런가요……"
+    },
+    {
+      "Name": "어부",
+      "Text": "(소근) 어르신, 해운업자 녀석이 또 도망친 것 같은데요."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "쳇, 귀찮게 하기는……"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "어부들을 풀어 마을을 수색하고 마을 어귀의 CCTV를 확인해 봐."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "어차피 이 마을에서 빠져나가려면 다른 수는 없을 테니까."
+    },
+    {
+      "Name": "마이",
+      "Text": "저…… 방금 무슨 이야기를 하신 건가요……?"
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "아무것도 아니야."
+    },
+    {
+      "Name": "늙은 어부",
+      "Text": "그럼 부디 마을을 편히 즐기고 돌아가게나. 생업이 바빠 우리는 이만……"
+    },
+    {
+      "Name": "마이",
+      "Text": "……이 마을, 괜찮은 거 맞아?"
+    },
+    {
+      "Text": "코우사기 공원"
+    },
+    {
+      "Name": "사키",
+      "Text": "덥다……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "덥네요……."
+    },
+    {
+      "Name": "미유",
+      "Text": "더워……."
+    },
+    {
+      "Name": "사키",
+      "Text": "……시원한 물 속에서 수영이나 했으면."
+    },
+    {
+      "Name": "미유",
+      "Text": "바다에 다녀왔던 게 벌써 오래전 일 같아……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그러게요. 야토우라 마을에 다녀온 지 아직 며칠밖에 지나지 않았는데, 벌써부터 오래된 추억처럼 느껴지네요."
+    },
+    {
+      "Name": "사키",
+      "Text": "……재미있었지."
+    },
+    {
+      "Name": "미유",
+      "Text": "처음에는 무서운 소문 때문에 잔뜩 긴장하긴 했지만, 마을 사람들 모두 좋은 사람뿐이었고……"
+    },
+    {
+      "Name": "미유",
+      "Text": "시원한 밤바다에서 물고기도 낚고, 맛있는 해산물도 잔뜩 먹고……"
+    },
+    {
+      "Name": "미유",
+      "Text": "……이런 즐거운 기분은 정말 오랜만에 느껴보는 것 같아."
+    },
+    {
+      "Name": "사키",
+      "Text": "그러게. SRT 특수학원이 폐쇄된 이후로는 여러 가지 사건이 겹쳐 좀처럼 쉴 시간이 없었으니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "이번 작전도 SRT의 임무 차 다녀온 것이지만, 결과적으로는 즐거운 바캉스를 즐기고 돌아온 기분이야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그러게요. 결국은 선생님께서 말씀하신 대로 되었네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "목적을 확실하게 인지하고 집중하는 것도 중요하지만, 마음의 여유가 없으면 무지에서 오는 공포로 인해 오판을 할 가능성이 높아지니……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 소대의 소대장으로서 이번 작전을 통해 적절한 휴식이 갖는 중요성에 대해 다시 한 번 깨닫는 계기가 되었습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "하지만 SRT 특수학원이 부활하기 전까지 우리가 머무르기로 약속한 곳은 이곳 코우사기 공원뿐이니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "다시 한번 심기일전하고 SRT 학원의 부활을 위해 최선을 다하자고!"
+    },
+    {
+      "Name": "사키",
+      "Text": "그나저나 슬슬 점심시간인데, 폐기 도시락을 찾으러 간 모에는 어디까지 간 거야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……대박! 다들 이것 좀 봐!"
+    },
+    {
+      "Name": "사키",
+      "Text": "야, 모에. 넌 도시락 찾으러 간지가 언제인데 이제야—"
+    },
+    {
+      "Name": "모에",
+      "Text": "후후…… 아무리 사키 너라도 내가 가져온 물건을 보면 아무 말도 하지 못할걸?"
+    },
+    {
+      "Name": "모에",
+      "Text": "잘 봐! 엔젤 24의 <기간 한정 프리미엄 소나무 도시락>이야! 무려 종류별로 네 개나 구해왔다고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "대나무나 매화가 아니라, 소나무 스티커가 붙은 도시락이라고……? 그거 엄청나게 비싼 도시락 아냐……?"
+    },
+    {
+      "Name": "모에",
+      "Text": "응. 지역 특산품을 사용해서 만드는 고급 도시락으로 보통은 폐기는 커녕 발주도 거의 이루어지지 않는 고급품인데……"
+    },
+    {
+      "Name": "모에",
+      "Text": "오늘 편의점 물류 전산망을 살펴보니, 이 근처에 소나무 도시락이 폐기 처리된 지점이 있다고 뜨는 게 아니겠어? 그래서 다른 사람이 가져가기 전에 서둘러 가져 왔지!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그래서 오늘은 평소보다 더 멀리 다녀온 모양이군요."
+    },
+    {
+      "Name": "사키",
+      "Text": "점심부터 이렇게 호화로운 도시락을 먹을 수 있다니…… 수고 많았어, 모에!"
+    },
+    {
+      "Name": "사키",
+      "Text": "자, 그럼 무슨 메뉴가 있는지 어디 한 번 살펴볼까?"
+    },
+    {
+      "Name": "사키",
+      "Text": "연어에, 소고기, 닭고기 가라아게…… 아, 새우튀김도 있네!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……편의점에 납품되는 새우 물류도 이제는 회복된 모양이네요."
+    },
+    {
+      "Name": "사키",
+      "Text": "그러게, 후후. D.U.에서 이렇게 새우 도시락을 다시 보게 되다니, 어쩐지 감회가 새로운걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "그럼 어부들의 노고에 감사하는 마음을 가지며, 이 새우튀김 도시락은 내가—"
+    },
+    {
+      "Name": "모에",
+      "Text": "……잠깐. 사키, 동작 중지."
+    },
+    {
+      "Name": "모에",
+      "Text": "어째서 네가 먼저 도시락을 고르는 거야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "응? 하지만 모에 너, 평소에는 해산물보다 소고기나 닭고기가 더 좋다고 말했었잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 내 입으로 이런 소리를 하기도 뭣하지만…… 지난 수중 폭파 작전에서는 제법 활약했는데, 기념으로 새우 도시락 정도는 내가 가져가도—"
+    },
+    {
+      "Name": "모에",
+      "Text": "안 돼. 오늘은 나도 새우가 먹고 싶었단 말이야!"
+    },
+    {
+      "Name": "모에",
+      "Text": "게다가 애초에 이 폐기 도시락을 발견한 건 나라고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "나도…… 오늘은 소고기보다는 새우가 먹고 싶어……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……저도 동감입니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "……오늘따라 경쟁이 꽤 치열한걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "그럼 하는 수 없지. 여기서는 가위바위보로—"
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "안녕하세요. 이 공원에 츠키유키 미야코 씨 계신가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "네. 제가 츠키유키 미야코입니다만……?"
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "고객님 앞으로 택배가 도착해서요."
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "영차…… 여기에 사인 부탁드립니다!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "저…… 그 택배가 정말 제게 온 게 맞나요? 이 공원 앞으로……?"
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "네, 분명 배송 주소에 이 공원 주소가 적여 있었는 걸요."
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "<D.U. 코우사기 타운, 근린공원, 수돗가 앞, 1호 A형 텐트의 츠키유키 미야코 씨 앞.> 이 주소 맞으시죠?"
+    },
+    {
+      "Name": "사키",
+      "Text": "텐트 위치까지 쓸데없이 구체적이네……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그렇다면 틀림없습니다만, 누가 저희에게 택배를……?"
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "야토우라 마을의 어촌계에서 발송한 택배입니다!"
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "냉장 처리가 필요한 상품이라, 당일 특급으로 아침에 발송된 택배거든요."
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "내용물은 상온에서는 상할 수도 있으니 가급적 개봉 즉시 처리하시고, 남은 제품은 냉동하여 보존 부탁드립니다."
+    },
+    {
+      "Name": "택배 기사",
+      "Text": "그럼 좋은 하루 되세요!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "야토우라 마을에서 어째서 택배를……?"
+    },
+    {
+      "Name": "모에",
+      "Text": "게다가 내용물이 상할 수 있다니, 도대체 뭘 보낸 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "뭔가 상자 밖으로 옅은 비린 냄새가 흘러나오고 있는데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……내가 한 번 열어볼게."
+    },
+    {
+      "Name": "사키",
+      "Text": "이건……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……새우잖아? 그것도 엄청난 고급품이야!"
+    },
+    {
+      "Name": "미유",
+      "Text": "이, 이렇게 비싸 보이는 새우가 상자에 한가득……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "상자 안쪽에 무언가 글귀가 적혀 있네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "<우연히 지나가던 친절한 관광객 여러분께. 깊은 감사를 담아, 야토우라 어촌계 일동.>"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……잘못 온 택배는 아닌 것 같네요."
+    },
+    {
+      "Name": "모에",
+      "Text": " '우연히 지나가던 친절한 관광객'이라, 우리에게 딱 어울리는 칭호인 걸."
+    },
+    {
+      "Name": "사키",
+      "Text": "……분에 넘치는 표현이지."
+    },
+    {
+      "Name": "사키",
+      "Text": "그건 그렇지만 범죄자를 단속하는 것은 SRT의 당연한 책무인데, 이렇게 귀한 보답을 받으려니 어쩐지 조금 부담스러운 걸……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그래도 택배로 온 선물을 거절할 수는 없으니까요. 이 새우는 감사히 받도록 합시다."
+    },
+    {
+      "Name": "모에",
+      "Text": "아, 맞다. 사키. 아까 말한 새우튀김 도시락은 네가 가져가도 괜찮아. 난 이거면 충분하니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "치사하게 말을 바꾸기는……!"
+    },
+    {
+      "Name": "미유",
+      "Text": "그나저나 이 새우, 양이 족히 10인분은 넘어 보이는데…… 이걸 우리끼리 다 먹을 수 있을까?"
+    },
+    {
+      "Name": "미유",
+      "Text": "우리에겐 냉장고도 없으니 내버려 두었다간 귀한 새우가 상할지도 모르고……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그건 그렇네요. 새우가 상해서 버리게 된다면 그것도 보내주신 분들에 대한 실례이고……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그럼, 이번 사건을 해결하는 데 도움을 주신 [USERNAME] 선생님과 함께 새우를 나누어 먹으면 어떨까요?"
+    },
+    {
+      "Name": "일동",
+      "Text": "좋아!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "선생님, 잠깐 시간 괜찮으신가요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그게, 지난번에 진행한 새우 그물 작전과 관련된 일입니다만……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그, 그때는 선생님께 많은 도움을 받아서…… 그러니까……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……뭘 그렇게 꾸물거리는 거야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "말하기 부끄러우면 다 같이 함께 말하자고."
+    },
+    {
+      "Name": "미유",
+      "Text": "그, 그럼 다같이……"
+    },
+    {
+      "Name": "일동",
+      "Text": "……이번에는 저희들이 선생님께 대접을 해드리고 싶어요!"
+    },
+    {
+      "Text": "(이후, 코우사기 공원으로 찾아가 RABBIT 소대의 학생들과 함께 성대한 새우 바비큐를 즐겼다.)"
+    },
+    {
+      "Text": "(다음 날, 10인분의 쿠사야가 샬레에 따로 도착하긴 했지만…… 이를 먹느라 고생한 것은 또 다른 이야기이다.)"
+    },
+    {
+      "Text": "여름 특수 작전! 사라진 새우를 향한 토끼의 추적"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Epilogue;An Unexpected Delivery"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Hello viewers! This is Kazamaki Mai from the Kronos School of Journalism!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Today on Good Morning Kivotos, we're visiting Yatoura Village, a small fishing village outside Kanesaki Port."
+    },
+    {
+      "Name": "Mai",
+      "Text": "This small village, unknown for anything except for the tasty shrimp the locals catch, has become the latest viral trend online!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "But why the sudden popularity? It's all thanks to Polar Bear Fishing, the streaming sensation that recently celebrated 10 million views!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Thanks to this streamer's travelogs, tourists are clamoring to take in Yatoura's scenic vistas and hopping fishing spots for themselves."
+    },
+    {
+      "Name": "Mai",
+      "Text": "After a full day of swimming and fishing, visitors are trying out the local delicacy, kusaya! Truly, this sleepy village is a can't-miss for seafood fans!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Wow, 10 million views, though. I'm jealous! I wonder when we'll get to 10 million?"
+    },
+    {
+      "Name": "Kronos Broadcaster",
+      "Text": "Maybe we'd get there if you didn't keep posting fake news..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Shut it!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Ahem... Of course, anyone who's ever gone off the beaten trail knows that not every village welcomes tourists with open arms."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Thankfully, in Yatoura Village, everyone is friendly and welcoming, and tourists have been sharing their positive interactions online."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Ah... And here's a fisherman pulling up to the dock now."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Stay tuned while we interview him live!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Hello! You're on Good Morning Kivotos!"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "...Hrmph?"
+    },
+    {
+      "Name": "Mai",
+      "Text": "(Oh... He's not as friendly as I expected...)"
+    },
+    {
+      "Name": "Mai",
+      "Text": "I was hoping we could do a quick interview..."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "Get outta the way! Move! You're gonna get hurt—"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Kumagai! Would it kill you to show some manners?"
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "Ugh... Sorry..."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "...Sorry about the upset, miss. You caught Kumagai in the middle of mooring his boat, and he didn't want you to get hurt is all."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Oh, n-no, I was... I'm sorry to interrupt your work..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Sir, if you've got a moment, we'd love you to tell us about your lovely village!"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Well, sure, but there's not much to it. It's a boring little place where we catch shrimp... That's it."
+    },
+    {
+      "Name": "Mai",
+      "Text": "How...interesting...?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "But, I reckon if you city folk are so interested in our village, then the least I could do is leave you with some good memories."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "That way, when you go to the supermarket, you'll remember to choose our shrimp over the other guys'! Hahaha!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Is that so... I think I see the...charm...of this beautiful village of yours!"
+    },
+    {
+      "Name": "Mai",
+      "Text": "Of course, there's more to this story than shrimp. I heard an interesting rumor..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Sir, have you ever heard of something called the \"Deep Ones?\""
+    },
+    {
+      "Name": "Mai",
+      "Text": "Rumors are swirling online that if you pray to the Deep Ones on Devil's Reef, they'll grant you a blessing of fish..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "In all your years here, have you ever seen anything like that?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Hmm... Well, there are some old wives' tales to that effect, sure, but that's all they are: tales."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "If there were anything offering up blessings of fish, you can be sure us fishermen would know all about it."
+    },
+    {
+      "Name": "Mai",
+      "Text": "I guess so..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Ah, and there's another rumor! Have you heard of the Kusaya Screamer?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "The Kusaya what now?"
+    },
+    {
+      "Name": "Mai",
+      "Text": "They say that on dark nights, if you walk by the kusaya warehouse, you'll hear a voice screaming: \"No more shrimp! No more kusaya!\""
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "...News to me."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Y'know, the wind makes funny noises at night when it goes through the old buildings. Maybe that's what they heard?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "The old creaking wood sounds just like a man screaming, sometimes."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Uh...huh..."
+    },
+    {
+      "Name": "Fisherman",
+      "Text": "(Sir! He ran away again!)"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Hmph. What a pain..."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Round up the fellas and have them search the village. Oh, and pull the CCTV footage while you're at it..."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "There's only one road in and out of town, after all..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "Uh... What are you two talking about?"
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Just some old fisherman talk."
+    },
+    {
+      "Name": "Old Fisherman",
+      "Text": "Please enjoy your stay here, miss. If you'll excuse us, the fish won't catch themselves..."
+    },
+    {
+      "Name": "Mai",
+      "Text": "What's going on in this village...?"
+    },
+    {
+      "Text": "Kousagi Park"
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's hot..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It really is..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Too hot..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I could really go for a swim right now..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I miss the beach..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's only been a few days since we left Yatoura Village, but it feels like a lifetime ago..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "What a great trip..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I was so scared at first, but the villagers were all really nice in the end..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "And we got to do some night fishing... And eat all that yummy seafood..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I can't remember the last time I had so much fun..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ever since the academy shut down, it's been one disaster after another. We needed the break."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Well, I guess that was technically a mission, too, but close enough."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It all turned out how Sensei said it would, in the end..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's important to focus on your goals and work hard, but if you forget to relax from time to time, you start to make mistakes..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This mission reminded me that it's important for me to make sure RABBIT Squad is well rested, too."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But we swore to stay here in Kousagi Park until SRT Academy is restored."
+    },
+    {
+      "Name": "Saki",
+      "Text": "So let's keep a positive mindset and do our best to revive SRT!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Anyway, it's almost lunchtime. Why hasn't Moe come back with today's bentos?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Omigosh! Everyone, look at this!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey, Moe! What took you so long—"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee... Saki, you won't run your mouth at me after you see what I brought back."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Look! It's Angel 24's Limited Edition Pine Tree Bentos! I even got 4 different ones!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "What's this... Bentos with pine tree stickers instead of bamboo or plum blossoms? Looks expensive..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "They are! Every item in every bento is absolutely gourmet. They rarely release these, and to find 4 of them in the trash..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Good thing I tapped into the convenience store tracking system. I was able to swoop in before some other dumpster diver beat me to 'em!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You must have had to go far to get these. That's why you're later than usual."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I can't believe we're eating such a fancy lunch today... Great job, Moe!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Now, let's see what's on the menu."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Salmon... Beef... Chicken karaage... Oh, shrimp tempura!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm glad to see shrimp in the convenience stores again."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Right? After our last mission, I have a new appreciation for shrimp."
+    },
+    {
+      "Name": "Saki",
+      "Text": "In honor of the fishermen's hard work, I call dibs on the shrimp temp—"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Not so fast, Saki."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Why do you get to pick the first bento?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "But Moe, don't you always choose beef or chicken over seafood?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Besides—not to pat myself on the back or anything—but that underwater demolitions job was some fine work. I think I've earned this shrimp ben—"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Absolutely not! I happen to be craving shrimp today!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Besides, I'M the one who found these bentos in the first place!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "A-Actually... I'd like the shrimp, also..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...And so would I."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hmm. Pretty stiff competition today."
+    },
+    {
+      "Name": "Saki",
+      "Text": "There's no other choice. We'll rock-paper-scissors for it."
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "Uh, hello? Is there a Ms. Tsukiyuki Miyako here?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm Tsukiyuki Miyako..."
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "I've got a package for you. "
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "There we go... Please sign here!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Um... Did someone really address this package to the park?"
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "They sure did. Look for yourself."
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "Ms. Tsukiyuki Miyako, the tent in front of the water fountain, Neighborhood Park, Kousagi Town, D.U."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Did it really have to be that specific...?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's definitely for me, but who would send me a package here?"
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "Oh, this came from the fishermen at Yatoura Village!"
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "They said it needs to be refrigerated, so it was sent same-day delivery."
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "The contents will spoil at room temperature, so make sure you use it right after opening, and freeze any leftovers."
+    },
+    {
+      "Name": "Delivery Man",
+      "Text": "And...that's all I got. Have a great day!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Why would Yatoura Village send us a package...?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "More importantly, what was that about the contents spoiling? What did they send us?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It smells...fishy..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We'd better open it."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...shrimp! The good stuff!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "They sent us a box of expensive-looking shrimp..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "There's a note here."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "\"To the tourists who happened to be in the right place at the right time. With gratitude, from the old salts of Yatoura.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Well, now we know it wasn't sent to the wrong address."
+    },
+    {
+      "Name": "Moe",
+      "Text": "The right place at the right time. That's us in a nutshell."
+    },
+    {
+      "Name": "Saki",
+      "Text": "This is too much..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We were just doing our duty as students of SRT. To get something this precious in return..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We can't exactly turn down a gift that came in the mail. Let's be grateful and enjoy this shrimp."
+    },
+    {
+      "Name": "Moe",
+      "Text": "If it makes you feel better, Saki, you can have the tempura bento. I'll eat your share of the shrimp for you."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You little...!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "There's enough shrimp to feed ten people here... Can we really finish this...?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We don't have a refrigerator... Anything we don't finish will spoil..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "That's true. It would be disrespectful for us to let this gift go to waste..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Why don't we invite [USERNAME] Sensei to join us?"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "All right!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Sensei, are you free at the moment?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "It's about Operation Shrimp Net..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You helped us out a lot, so..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Why are you beating around the bush?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "If you're too embarrassed to spit it out, let's all say it together."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Y-Yes... All together..."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Lunch is on us, Sensei!"
+    },
+    {
+      "Text": "I joined the students of RABBIT Squad at Kousagi Park and enjoyed a grand shrimp barbecue with them."
+    },
+    {
+      "Text": "A little later, a big shipment of kusaya arrived at Schale... But eating that was an ordeal for another day..."
+    },
+    {
+      "Text": "RABBIT SQUAD and the Mystery of the Missing Shrimp"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "บทส่งท้าย;พัสดุจากหมู่บ้านชาวประมง"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "สวัสดีค่ะท่านผู้ชมทุกท่าน! ทุกท่านอยู่กับคาซามากิ มาอิแห่งชมรมข่าวโครโนสค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "รายการ <เช้านี้ที่คิโวทอส> วันนี้ ฉันมาอยู่ที่หมู่บ้านยาโตอูระ หมู่บ้านชาวประมงเล็กๆ ที่อยู่ชายขอบ\nของท่าเรือคาเนะซากิค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "นอกจากเรื่องกุ้งรสชาติดีที่หมู่บ้านนี้หาได้แล้ว หมู่บ้านนี้ก็ไม่เป็นที่รู้จักในเรื่องอื่นอีกเลย แต่ไม่นานมานี้หมู่บ้านนี้ก็ได้กลายเป็นจุดเช็กอินสุดฮอตในโซเชียลค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "และสาเหตุที่หมู่บ้านนี้ได้รับความสนใจจากชาวเน็ตขึ้นมาก็เพราะแชนแนลตกปลา <หมีขาวตกปลา TV> ได้มาถ่ายทำที่นี่และได้ยอดรับชมทะลุสิบล้านวิวเลยค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ในคลิปจะเห็นได้ว่าหมู่บ้านนี้มีทิวทัศน์ธรรมชาติที่สวยงาม และมีจุดตกปลาสำหรับนักตกปลามือใหม่\nเป็นจำนวนมาก ด้วยเหตุนี้หมู่บ้านยาโตอูระจึงกลายเป็นสถานที่ท่องเที่ยวแห่งใหม่ที่ต้องมาเยือนค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "นอกจากนี้ปลาคูซายะย่างของหมู่บ้านนี้ยังได้รับการประเมินที่ดีจากบรรดาเหล่านักชิม ทำให้มีนักท่อง\nเที่ยวจำนวนไม่น้อยมาที่นี่เพื่อชิมเมนูนี้ด้วยละค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "สิบล้านวิวเลยเหรอ น่าอิจฉาจัง... พวกเราก็อัปวิดีโอลงแชนแนลอยู่เรื่อยๆ นี่นา เมื่อไรจะถึงสิบล้านวิวแบบนั้นบ้างนะ?"
+    },
+    {
+      "Name": "ชมรมข่าวโครโนส",
+      "Text": "... ถ้าแชนแนลไม่โดนปิดบ่อยๆ เพราะเฟคนิวส์ ป่านนี้เราก็คงได้ยอดวิวเยอะๆ ไปแล้ว....."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "หนวกหูน่า!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "อืม... บางท่านอาจจะเคยมีประสบการณ์ไม่ดีจากการท่องเที่ยวเพราะได้ไปเจอคนในพื้นที่ที่แล้งน้ำใจ ทำให้การพักร้อนแสนสนุกต้องล่มไม่เป็นท่านะคะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "แต่กับหมู่บ้านยาโตอูระแห่งนี้ ชาวบ้านทุกคนเป็นมิตรและต้อนรับนักท่องเที่ยวด้วยบรรยากาศสดใส นักท่องเที่ยวที่ได้ประสบการณ์น่าประทับใจกลับมา ก็เลยรีวิวหมู่บ้านนี้ลงโซเชียลกันเยอะเลยค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "อ้อ... ลองดูทางโน้นสิคะ ชาวประมงกำลังทอดสมอเรืออยู่ตรงท่าเรือฝั่งโน้นด้วยค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ฉันจะรีบไปสัมภาษณ์พวกเขาเดี๋ยวนี้เลยค่ะ!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "สวัสดีค่ะ ฉันมาจากรายการ <เช้านี้ที่คิโวทอส> นะคะ!"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "... อะไรเนี่ย?"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "(เอ๋? ทำไมตอบรับอย่างไม่เป็นมิตรเลยล่ะ...)"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "อ่า ไม่มีอะไรมากหรอกค่ะ ฉันแค่อยากขอสัมภาษณ์..."
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "ที่นี่ไม่ใช่ที่ที่ให้มาเดินทอดน่องเล่นนะ หลบไปซะ! เดี๋ยวก็ล้มจนเจ็บตัวไปหรอก"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "คุมะไก ใจดีกับคนนอกหน่อยไม่ได้หรือไง!"
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "อึก... ขอโทษที"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ขอโทษนะ พอดีฉันกำลังทำงานผูกเชือกที่อันตรายอยู่ ก็เลยอารมณ์เป็นอย่างนั้นน่ะ เข้าใจกันหน่อยนะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "มะ... ไม่เป็นไรเลยค่ะ ฉันต่างหากที่ต้องขอโทษที่มาขัดจังหวะระหว่างทำงาน"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ผู้อาวุโสคะ ช่วยแนะนำเสน่ห์ของหมู่บ้านนี้อย่างสั้นๆ หน่อยได้ไหมคะ?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "อืม... สำหรับคนที่อาศัยอยู่ที่นี่อย่างฉันแล้ว ที่นี่ก็แค่หมู่บ้านธรรมดาที่จับกุ้งขายเท่านั้น ไม่ได้มีอะไร\nพิเศษนักหรอก"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "งะ... งั้นเหรอคะ...?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "แต่ถ้ามีคนเข้ามาเที่ยวชมหมู่บ้านธรรมดาๆ ของเราละก็ ฉันก็อยากจะให้กลับไปพร้อมกับความทรงจำ\nดีๆ น่ะนะ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "เวลาไปเลือกซื้อหรือกินกุ้งในเขตอื่น จะได้คิดถึงกุ้งจากหมู่บ้านของเราอีกครั้งไง ฮ่ะฮ่า!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "... อย่างนั้นเหรอคะ ฉันพอจะรู้แล้วค่ะว่าทำไมผู้คนถึงมาเที่ยวที่หมู่บ้านนี้!"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "แต่ว่า... ที่จริงฉันได้ยินข่าวลือบางอย่างเกี่ยวกับหมู่บ้านนี้มาด้วยค่ะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "เคยได้ยินเรื่องเกี่ยวกับ <ตัวตนแห่งห้วงลึก> ไหมคะ?"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ตามข่าวลือที่มีว่อนอินเทอร์เน็ตแล้ว ถ้าเราไปวางเครื่องสังเวยและท่องคาถาบนแนวปะการังยักษ์ สิ่งมีชีวิตลึกลับที่อยู่ในท้องทะเลลึกจะต้อนปลามาให้ค่ะ..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "มีใครเคยได้เห็นเหตุการณ์แบบนั้น หรือมีใครรู้รายละเอียดเรื่องนี้อีกไหมคะ?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ไม่รู้สิ... ที่จริงมันก็มีตำนานแบบนี้เล่าส่งต่อกันมารุ่นสู่รุ่น แต่ตำนานมันก็เป็นแค่ตำนานไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ถ้ามีสิ่งมีชีวิตลึกลับที่ต้อนปลามาให้จริงๆ ก็ไม่มีทางที่ชาวประมงอย่างพวกเราจะไม่รู้หรอก"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "มันก็จริงอยู่หรอกค่ะ..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "งั้นเรื่องนี้เป็นข่าวลือสดๆ ร้อนๆ เลยค่ะ พอจะรู้เกี่ยวกับเรื่อง <เสียงกรีดร้องจากคลังคูซายะ> ไหมคะ?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "<เสียงกรีดร้องจากคลังคูซายะ> ...?"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "ค่ะ พยานนิรนามที่ได้เห็นเหตุการณ์บอกว่าในคลังเก็บปลาคูซายะของหมู่บ้านยาโตอูระ บางครั้งก็จะได้ยิน\nเสียงร้องโหยหวนออกมาจากในนั้นว่า 'ฉันไม่ชอบกุ้ง~ ยิ่งคูซายะยิ่งไม่ชอบเข้าไปใหญ่~' ด้วยละค่ะ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "... เพิ่งจะเคยได้ยินเป็นครั้งแรกเลยแฮะ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "มันเป็นเสียงของลมในยามรุ่งสางที่พัดผ่านเสาเก่าๆ จนได้ยินเป็นเสียงหวีดหวิวหรือเปล่า?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "บางทีเสาไม้ต้นเก่าๆ ก็ส่งเสียงดังเอี๊ยดอ๊าดเหมือนเสียงคนกรีดร้องได้เหมือนกันนะ"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "งะ... งั้นเหรอคะ..."
+    },
+    {
+      "Name": "ชาวประมง",
+      "Text": "(กระซิบ) ผู้อาวุโส เหมือนว่าเจ้าพ่อค้าคนนั้นจะหนีไปอีกครั้งแล้วละ"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ชิ น่ารำคาญชะมัด..."
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ส่งชาวประมงออกไปค้นหาให้ทั่วหมู่บ้าน แล้วก็ตรวจดูกล้องวงจรปิดหน้าปากทางเข้าหมู่บ้านด้วย"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ถ้าจะหนีออกจากหมู่บ้านนี้ละก็ไม่มีวิธีอื่นแล้ว"
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "เอ่อ... พวกคุณพูดถึงอะไรกันเหรอคะ...?"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ไม่มีอะไรหรอก"
+    },
+    {
+      "Name": "ชาวประมงสูงวัย",
+      "Text": "ถ้างั้นก็ขอให้มีช่วงเวลาดีๆ ในหมู่บ้านของเรานะ พวกฉันขอไปทำงานกันก่อน..."
+    },
+    {
+      "Name": "มาอิ",
+      "Text": "...หมู่บ้านนี้มันน่าเที่ยวจริงหรือเปล่าเนี่ย?"
+    },
+    {
+      "Text": "โคะอุซางิ การ์เด้น"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ร้อนจัง..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ร้อนจังเลยนะคะ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "จะไหม้แล้ว...."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... ถ้าได้ไปว่ายน้ำในทะเลเย็นๆ ก็ดีน่ะสิ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เหมือนเรากลับมาจากทะเลกันนานมากแล้วเลยแฮะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... นั่นสิคะ เรากลับจากหมู่บ้านยาโตอูระกันมาได้ไม่กี่วันเท่านั้น แต่รู้สึกเหมือนมันเป็นความทรงจำที่\nยาวนานยังไงก็ไม่รู้ค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... มันสนุกมากเลยละ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตอนแรกฉันก็ประหม่าไม่เบาเพราะข่าวลือที่น่ากลัวนั่น แต่ชาวบ้านที่นั่นก็จิตใจดีกันหมดทุกคน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เราทั้งได้ตกปลาทะเลกลางค่ำคืนแสนเย็นสบาย และได้กินอาหารทะเลกันจนหนำใจ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "...เหมือนเราไม่ได้สนุกกันแบบนี้มานานมากเลยละ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นั่นสิ เพราะหลังจากที่สถาบันพิเศษ SRT ถูกยุบไป ก็เกิดเรื่องต่างๆ มากมายจนไม่มีเวลาได้พักกันเลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงปฏิบัติการครั้งนี้จะเป็นงานของ SRT ก็เถอะ แต่เหมือนว่าเราได้ไปพักร้อนกันมาด้วยเลยเนอะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... นั่นสิคะ สุดท้ายก็เป็นไปตามที่คุณครูพูดไว้จริงด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การรู้และจดจ่อในเป้าหมายของเราอย่างชัดเจนก็เป็นเรื่องที่สำคัญ แต่หากเราไม่ปล่อยวางให้หัวใจ\nและสมองได้พักบ้าง ก็มีโอกาสสูงที่จะตัดสินอะไรผิดพลาดเพราะความกลัวที่มาจากความไม่รู้..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ในฐานะหัวหน้ากองทหาร RABBIT ฉันได้ตระหนักรู้จากปฏิบัติการครั้งนี้เลยละค่ะ ว่าการพักผ่อนที่\nเหมาะสมเป็นเรื่องสำคัญแค่ไหน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ที่ที่เราจะอยู่ได้จนกว่าจะฟื้นฟูสถาบันพิเศษ SRT เสร็จก็มีแต่โคะอุซางิ การ์เด้นนี่แหละ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มาตั้งใจมุ่งมั่นแล้วทำให้ดีที่สุดเพื่อการฟื้นฟูสถาบัน SRT กันเถอะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะว่าไปนี่ก็ใกล้จะถึงเวลาอาหารกลางวันแล้ว นี่โมเอะออกไปหาข้าวกล่องเหลือทิ้งถึงไหนกันเนี่ย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... สุดยอดเลย! ทุกคนมาดูนี่สิ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่ โมเอะ เธอออกไปหาข้าวกล่องตั้งนานแล้วนะ ทำไมเพิ่งมาเอาป่านนี้..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮุฮุ... ซากิ ฉันมั่นใจว่าถ้าเธอได้เห็นของที่ฉันเอามาละก็ เธอต้องบ่นฉันไม่ออกแน่"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ดูให้ดีนะ! <ข้าวกล่องต้นสนพรีเมียมสุดลิมิเต็ด> จากเอ็นเจล 24! แล้วก็ได้มา 4 กล่อง 4 หน้าเลยด้วย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นี่ไม่ใช่ข้าวกล่องยี่ห้อต้นไผ่หรือต้นบ๊วย แต่เป็นข้าวกล่องที่ติดสติกเกอร์ต้นสนเลยเหรอ...? ยี่ห้อนี้มัน\nแพงมากเลยนะ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ใช่ นี่คือข้าวกล่องสุดหรูที่ทำจากสินค้าขึ้นชื่อของแต่ละพื้นที่ และปกติจะขายหมดเกลี้ยงจนไม่มีเหลือ\nทิ้งเลยด้วย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "วันนี้ตอนที่ฉันตรวจดูตารางขนส่งของร้านสะดวกซื้อ ก็เห็นว่ามีสาขาหนึ่งที่มีข้าวกล่องต้นสนที่จัดไว้ว่า\nเป็นของเหลือทิ้งน่ะ! ก็เลยรีบไปเอามาก่อนที่คนอื่นจะมาเอาไป!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ที่วันนี้กลับมาช้ากว่าทุกทีก็เพราะแบบนี้เองสินะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เราได้กินข้าวกล่องคุณภาพดีกันตั้งแต่มื้อกลางวันเลยเหรอเนี่ย... ขอบใจมากเลยนะโมเอะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอาละ งั้นมาดูกันดีกว่าว่ามีข้าวกล่องหน้าอะไรบ้าง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หน้าแซลมอน เนื้อวัว ไก่คาราอะเกะ... อ๊ะ มีกุ้งเทมปุระด้วย!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "... การขนส่งกุ้งสำหรับร้านสะดวกซื้อกลับมาเป็นปกติแล้วสินะคะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นั่นสิ ฮุฮุ พอได้เห็นข้าวกล่องหน้ากุ้งใน D.U. แบบนี้แล้วก็คิดถึงเลยเนอะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้างั้นฉันจะระลึกถึงความลำบากของชาวประมง และขอจัดการข้าวกล่องกล่องนี้..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "...เดี๋ยวก่อน ซากิ หยุดเลยนะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ทำไมเธอถึงได้เลือกข้าวกล่องก่อนเพื่อนล่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หืม? โมเอะ เธอเคยบอกว่าชอบกินเนื้อวัวหรือไม่ก็เนื้อไก่มากกว่าอาหารทะเลไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงฉันจะกระดากปากที่พูดแบบนี้ก็เถอะ... แต่ปฏิบัติการระเบิดใต้น้ำที่ผ่านมาฉันทำได้ยอดเยี่ยมเลยนะ แบบนี้ก็ต้องได้รางวัลเป็นสิทธิ์การเลือกข้าวกล่องก่อน..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่ได้ วันนี้ฉันก็อยากกินกุ้งเหมือนกัน!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อีกอย่าง คนที่ไปเจอข้าวกล่องพวกนี้มาก็คือฉันนะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันด้วย... วันนี้ฉันก็อยากกินกุ้งมากกว่าเนื้อเหมือนกัน..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ฉันก็ด้วยค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... วันนี้แข่งขันกันดุเดือดเลยแฮะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้างั้นก็ช่วยไม่ได้ มาเป่ายิงฉุบตัดสินกัน...!"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "สวัสดีครับ สวนสาธารณะนี้มีคุณสึคิยูกิ มิยาโกะไหมครับ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ค่ะ ฉันเองค่ะ สึคิยูกิ มิยาโกะ..."
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "พอดีมีพัสดุส่งมาถึงคุณน่ะครับ"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "เอาละ... ช่วยเซ็นชื่อตรงนี้ให้ด้วยนะครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอ่อ... พัสดุนั่นคือของฉันจริงๆ เหรอคะ? ที่อยู่คือ... สวนสาธารณะเหรอคะ...?"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "ใช่ครับ ที่อยู่ในการจัดส่งก็ระบุไว้ตรงนี้ครับ"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "<คุณสึคิยูกิ มิยาโกะ เต็นท์ประเภท A หมายเลข 1 หน้าก๊อกน้ำ สวนสาธารณะในโคะอุซางิ ทาวน์ D.U.> ถูกไหมครับ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "รู้กระทั่งตำแหน่งของเต็นท์เลยเหรอเนี่ย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ข้อมูลก็ถูกอยู่หรอกค่ะ แต่ว่าใครเป็นคนส่งมาเหรอคะ...?"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "ส่งมาจากหมู่บ้านชาวประมง หมู่บ้านยาโตอูระครับ!"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "ของข้างในเป็นของที่ต้องแช่แข็ง วันนี้ก็เลยส่งด่วนมาให้ตั้งแต่เช้าเลยครับ"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "ถ้าวางทิ้งไว้ในอุณหภูมิห้อง ของข้างในอาจจะเสียได้ ถ้าเป็นไปได้ก็ให้เปิดแล้วจัดการเลย และถ้าเหลือก็ให้แช่แข็งไว้นะครับ"
+    },
+    {
+      "Name": "พนักงานส่งของ",
+      "Text": "ถ้างั้นก็ ขอให้วันนี้เป็นวันที่ดีนะครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พัสดุจากหมู่บ้านยาโตอูระเหรอ? ส่งมาทำไมกันนะคะ...?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แถมยังบอกว่าของข้างในอาจเสียได้อีก สงสัยจังว่าส่งอะไรมา"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เหมือนได้กลิ่นคาวจางๆ ออกมาจากกล่องเลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "... ฉันจะเปิดดูให้เอง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่มัน..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "... กุ้งนี่นา? กุ้งตัวใหญ่เบิ้มเลยด้วย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "กะ... กุ้งแพงๆ เต็มกล่องเลย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "มีประโยคอะไรเขียนไว้ข้างในกล่องด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "<ถึงนักท่องเที่ยวใจดีที่บังเอิญผ่านมาทุกคน ส่งคำขอบคุณจากใจ จากชาวประมงยาโตอูระทุกคน>"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...ไม่น่าใช่พัสดุที่ส่งมาผิดนะคะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "'นักท่องเที่ยวใจดีที่บังเอิญผ่านมา' เหมือนจะหมายถึงพวกเราเลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...ใช้คำซะหรูเชียว"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "การปราบปรามอาชญากรน่ะ มันเป็นงานของ SRT อยู่แล้ว พอได้รับของตอบแทนแบบนี้ก็รู้สึกเกรงใจขึ้น\nมาเลยแฮะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่เราก็จะปฏิเสธของขวัญที่ส่งมาไม่ได้นี่คะ รับของขวัญนี้ไว้ด้วยความขอบคุณกันเถอะค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊ะ จริงสิ ซากิ ข้าวกล่องหน้ากุ้งเทมปุระที่เธออยากกินเมื่อกี้น่ะ เอาไปได้เลยนะ ฉันกินอันนี้เอาแล้วกัน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "กลับคำพูดง่ายๆ แบบนี้ได้ไง...!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่จะว่าไปแล้ว กุ้งพวกนี้มันมีเหลือเฟือถึงขนาดที่กินกัน 10 คนก็ยังกินเหลือเลย... แล้วพวกเราจะกิน\nหมดเหรอ?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เราไม่มีตู้เย็นด้วย จะเหลือทิ้งไว้ก็อาจจะเสียก็ได้..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "นะ... นั่นสินะคะ ถ้าปล่อยให้กุ้งเสีย ก็จะรู้สึกผิดกับชาวประมงที่อุตส่าห์ส่งมาให้อีก..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้างั้น เราเอากุ้งพวกนี้ไปแบ่งให้คุณครู [USERNAME] ที่ช่วยพวกเราคลี่คลายเหตุการณ์นี้ดีไหมคะ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "เอาสิ!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ พอจะมีเวลาบ้างหรือเปล่าคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คือว่า พวกฉันมาด้วยเรื่องปฏิบัติการกุ้งคราวก่อนน่ะค่ะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ตะ... ตอนนั้นเราได้ความช่วยเหลือจากคุณครูมากมายเลย เพราะงั้น..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...จะมัวอ้อมค้อมไปถึงไหนของเธอเนี่ย?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ถ้าเขินที่จะบอก ก็บอกพร้อมกันก็ได้นี่"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถะ... ถ้างั้นก็... พร้อมกัน..."
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "...พวกฉันอยากเลี้ยงตอบแทนคุณครูค่ะ!"
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูก็ไปที่โคะอุซางิ การ์เด้น และปิ้งบาร์บีคิวกุ้งมื้อใหญ่กินกับกองทหาร RABBIT อย่าง\nสนุกสนาน)"
+    },
+    {
+      "Text": "(วันต่อมามีปลาคูซายะ 10 ที่มาส่งที่ชาเล่ต์... และการกินปลาคูซายะให้หมดก็ไม่ใช่เรื่องง่ายเลย)"
+    },
+    {
+      "Text": "ปฏิบัติการพิเศษภาคฤดูร้อน! การไล่ล่าของกระต่าย และเรื่องเร้นลับของกุ้งที่หายไป"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "尾聲;有您的包裹！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "收看克洛盧斯頻道的各位觀眾，大家好！\n我是克洛盧斯新聞部的風卷麻衣！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "在今天的「早安！奇普托斯」中，我們來到了鐘崎港外圍的夜戶浦村。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "原本是個以蝦子特產地為人所知的平靜村莊，最近卻成了社群網站上火熱的話題！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "說到這個村子之所以受到注目的原因，\n據說是受到現在正急速成長的釣魚頻道「白熊Channel」的影響。\n此頻道在夜戶浦村拍攝的影片觀看數已經突破了一千萬！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "影片中「擁有自然的美景」以及「適合新手的釣點很多」的評論廣為流傳，\n讓夜戶浦村搖身一變，成為了最新的觀光熱點。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "此外，村子的特產「臭魚乾」更是贏得了部分美食家的好評，\n似乎也有遊客是為了親眼看臭魚乾一面而來。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "話說回來，一千萬的觀看數……真令人羨慕。\n我們的更新頻率明明也挺高的說，什麼時候才能達成呢？"
+    },
+    {
+      "Name": "克洛盧斯放送局職員",
+      "Text": "……要是沒有因為假新聞被罰連續停播的話，我想應該早就達成了吧。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "喂！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "咳哼……在渡假的地方遇到不親切的人，導致壞了快樂的好心情……\n這樣的經驗，我想大家或多或少都遇過。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "不過，在夜戶浦村不必擔心這點！\n許多人似乎都在社群網站上發文表示，這裡的人都非常親切開朗、玩得非常愉快。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "……哦？在那邊看見了一位漁夫呢。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "事不宜遲，我們這就來進行採訪吧！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "您好，我們是「早安！奇普托斯」。"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "……有何貴幹？"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "（咦？怎麼跟聽說的不太一樣……）"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "那個，就是，我們想稍微做個小採訪……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "我還在工作。受傷了可別怪──"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "熊谷，稍微親切點吧。"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "唔……不好意思。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "……抱歉，請別放在心上，現在正好忙不過來。\n要是讓觀光客發生什麼意外就不好了，所以這傢伙也有點緊張。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "不，不會……！打擾到各位工作，我們才應該感到抱歉才是。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "那個，方便的話……可以麻煩您用一句話介紹這個村子的魅力嗎？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "呼呣……在老夫看來，這只是個有著美味蝦子的小漁村罷了。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "是，是這樣嗎……？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "但正因如此，如果還是有遊客願意遠道而來，老夫也希望各位都能留下美好的回憶。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "還有，對了。如果各位之後在街上看到蝦子時，\n能夠回想起在這個村子度過的時間的話，老夫就很欣慰了……哈哈哈。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "原來如此……好像可以體會大家為何會來到這個村子的理由了呢！"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "……順帶一提，我想請教一個與傳聞有關的問題。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "……您知道「深處的存在」嗎？"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "網路上寫說只要在「鬼岩礁」獻上祭品並吟唱咒語，\n某種神祕的存在就會助其一臂之力……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "請問有沒有人親眼見過這個景象，或是知道更多詳情呢？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "這個嘛……確實是存在那樣的傳聞，不過那也就是傳聞罷了。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "要是真的有能幫助村子……幫助漁業的東西存在的話，老夫不可能會不知情。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "說得也是呢……"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "此外，這似乎是最近才剛開始流傳的話題……\n請問您對「臭魚乾倉庫的悲鳴」這個怪談是否知道些什麼呢？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "「臭魚乾倉庫的悲鳴」……？"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "是的。根據匿名人士的來信表示，\n夜戶浦村的臭魚乾倉庫時不時會傳出「我討厭蝦子～更討厭臭魚乾～」的男性聲音。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "……老夫不清楚。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "是不是把風吹過縫隙的聲音給聽錯了？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "老舊的木材有時嘰嘎作響，聽起來會很像哭聲。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "這，這樣啊……"
+    },
+    {
+      "Name": "漁夫",
+      "Text": "（耳語）那傢伙好像又想逃跑了。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "嘖，就會給人添麻煩……"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "通知其他人把他找出來。也要利用監視器。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "反正離開這個村子的方法就只有一個而已。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "那個……您剛才說什麼……？"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "沒什麼，老夫只是在自言自語。"
+    },
+    {
+      "Name": "老漁夫",
+      "Text": "那麼祝各位玩得愉快。\n老夫等人還有工作要忙，先失陪了。"
+    },
+    {
+      "Name": "麻衣",
+      "Text": "……這個村子，真的沒問題嗎？"
+    },
+    {
+      "Text": "兔寶寶公園"
+    },
+    {
+      "Name": "咲希",
+      "Text": "好熱……"
+    },
+    {
+      "Name": "都子",
+      "Text": "真熱呢……"
+    },
+    {
+      "Name": "美優",
+      "Text": "好熱啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……好想在冰涼的水裡游泳啊。"
+    },
+    {
+      "Name": "美優",
+      "Text": "上次去海邊感覺好像是很久以前的事了……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……就是說啊，明明才過沒幾天，卻像是好久以前的回憶。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……當時真開心啊。"
+    },
+    {
+      "Name": "美優",
+      "Text": "雖然剛開始既害怕又緊張……不過大家都是善良的人呢。"
+    },
+    {
+      "Name": "美優",
+      "Text": "在夜晚的海邊釣魚，吃著許多美味的海鮮……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……好像很久沒有這麼開心了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就是啊。\n自從SRT特殊學園關閉後，因為各種事件幾乎沒怎麼休息。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這次在形式上雖然也是作戰……\n但從結果來說，感覺卻像是度過了一場愉快的假期啊。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……是呢，結果完全和老師一開始所說的一樣。"
+    },
+    {
+      "Name": "都子",
+      "Text": "只是一味專注於目標的話，很可能會做出錯誤的判斷。\n就像因無知而產生恐懼一樣。"
+    },
+    {
+      "Name": "都子",
+      "Text": "身為RABBIT小隊的小隊長，在這次作戰後再次領悟到了適當休息的重要性。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不過我們已經承諾，在SRT特殊學園復活之前要待在兔寶寶公園了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "轉換好心情，繼續為SRT特殊學園的復活努力吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……話說，也差不多到午餐時間了，\n去找報廢便當的萌還沒回來嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "喂喂，你們看這個！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "萌……你知道你去了多久──"
+    },
+    {
+      "Name": "萌",
+      "Text": "哼哼哼……咲希，就算是你，\n看到這個應該也無話可說了吧～！"
+    },
+    {
+      "Name": "萌",
+      "Text": "鏘～！天使24的「期間限定．頂級松便當」！！\n而且竟然，四個種類都各拿了一個！"
+    },
+    {
+      "Name": "美優",
+      "Text": "不是竹、梅，而是松便當……？\n這不是超貴的嗎……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒錯，是使用各地特產製作的高級便當。\n平常別說是報廢了，是連進貨量都很少的超稀有品項！"
+    },
+    {
+      "Name": "萌",
+      "Text": "不過我看了一下便利商店的物流網路，\n發現附近竟然有門市報廢松便當，所以才特別跑了一趟！"
+    },
+    {
+      "Name": "都子",
+      "Text": "所以今天去了比平常更遠的地方啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "沒想到中午就能吃到這麼豪華的便當……幹的好啊，萌！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那麼……趕緊來看看有什麼菜色吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "鮭魚、牛肉、唐揚雞……居然連炸蝦都有！"
+    },
+    {
+      "Name": "都子",
+      "Text": "看來供應給便利商店便當的蝦子也恢復正常了呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "看來是呢。\n居然能再度在D.U.看到有蝦子的便當，真讓人感觸良多。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那麼，懷著對漁夫們的感激之情，這個炸蝦便當就由我來──"
+    },
+    {
+      "Name": "萌",
+      "Text": "等等，咲希。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……為什麼是你先挑便當？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嗯？你之前不是說比起海鮮更喜歡肉類嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "而且……雖然自己說有點不好意思，不過我在水中爆破作戰還挺活躍的吧？\n看在這個份上，吃個炸蝦便當也──"
+    },
+    {
+      "Name": "萌",
+      "Text": "我今天也想吃蝦子！"
+    },
+    {
+      "Name": "萌",
+      "Text": "況且發現這個報廢便當的人可是我啊！"
+    },
+    {
+      "Name": "美優",
+      "Text": "我，我今天也想吃蝦子……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我也是。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……今天的競爭率還真高啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "沒辦法了，只能公平地用猜拳來──"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "你們好。請問月雪都子小姐在這座公園嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "是，我是月雪都子，有什麼事嗎……？"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "有您的包裹！"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "嘿咻……麻煩在這裡簽名！"
+    },
+    {
+      "Name": "都子",
+      "Text": "那個……真的是寄給我的嗎？\n寄到這個公園……？"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "是的，填寫的地址確實是這個公園沒錯。"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "「D.U.兔寶寶鎮近隣公園，洗手台前A型1號帳篷，月雪都子小姐」……沒錯吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "連帳篷的位置都……也具體得太多餘了吧……"
+    },
+    {
+      "Name": "都子",
+      "Text": "確實是這裡沒錯，不過是誰寄來的包裹呢……？"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "寄件人是夜戶浦村的漁會哦！！"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "因為需要冷凍處理，常溫下有可能會變質。"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "開封後還請立即享用，或是以冷凍保存。"
+    },
+    {
+      "Name": "送貨員",
+      "Text": "祝各位有美好的一天！"
+    },
+    {
+      "Name": "都子",
+      "Text": "夜戶浦村怎麼會……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "而且還用冷凍寄件，究竟寄了什麼呢？"
+    },
+    {
+      "Name": "美優",
+      "Text": "好像有股生物的味道……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……我來打開看看。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這是……"
+    },
+    {
+      "Name": "萌",
+      "Text": "……這不是蝦子嗎！！而且還是超高級的那種！！！"
+    },
+    {
+      "Name": "美優",
+      "Text": "好厲害……看起來這麼貴的蝦子竟然裝了滿滿一箱……"
+    },
+    {
+      "Name": "都子",
+      "Text": "啊，箱子裡好像還寫了一些字。"
+    },
+    {
+      "Name": "都子",
+      "Text": "「致各位偶然路過的善良觀光客。\n　謹以此致上最深的謝意。夜戶浦村漁會全體敬上」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……看來確實是寄給我們的沒錯呢。"
+    },
+    {
+      "Name": "萌",
+      "Text": "「偶然路過的善良觀光客」啊……挺適合我們的嘛？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……被寫說善良還真是有點難為情啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不過打擊犯罪本來就是SRT應盡的職責，\n居然收到這麼貴重的謝禮，實在是有點過意不去……"
+    },
+    {
+      "Name": "都子",
+      "Text": "但是也不能拒絕他人滿懷心意送來的禮物。\n這些蝦子，我們就心懷感激地收下吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "啊，對了咲希。\n剛剛的炸蝦便當你就拿去吃吧，我吃這些就夠了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "什麼，太卑鄙了……！"
+    },
+    {
+      "Name": "美優",
+      "Text": "這個分量看起來有10人份……只靠我們幾個吃得完嗎……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們又沒有冷凍庫……這樣珍貴的蝦子可能會壞掉……"
+    },
+    {
+      "Name": "都子",
+      "Text": "這樣就太對不起送蝦子給我們的各位了……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……那麼，找這次也幫了我們的[USERNAME]老師一起來吃怎麼樣？"
+    },
+    {
+      "Name": "全體",
+      "Text": "贊成！！！"
+    },
+    {
+      "Name": "都子",
+      "Text": "你好，老師。請問現在有空嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "那個，關於上次的蝦網作戰……"
+    },
+    {
+      "Name": "都子",
+      "Text": "當，當時，真的受了老師很多幫助……所以……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……為什麼要扭扭捏捏的？"
+    },
+    {
+      "Name": "萌",
+      "Text": "害羞的話就大家一起說吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那就大家一起──"
+    },
+    {
+      "Name": "全體",
+      "Text": "──這次就由我們來招待老師！"
+    },
+    {
+      "Text": "（於是便在兔寶寶公園，和RABBIT小隊的大家一起享受了盛大的烤蝦派對）"
+    },
+    {
+      "Text": "（至於之後因為10人份的臭魚乾送達夏萊引發的小小騷動，就是另一個故事了）"
+    },
+    {
+      "Text": "夏日特殊作戰！RABBIT小隊與消失的蝦子之謎"
+    }
+  ]
+}

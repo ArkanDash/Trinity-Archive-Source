@@ -1,0 +1,512 @@
+{
+  "TitleJP": "ケテル攻略（２）",
+  "TitleKR": "케테르 공략 2",
+  "TitleEN": "Kether Strategy 2",
+  "TitleTH": "จับกุมเคเทอร์ 2",
+  "TitleTW": "凱瑟攻略（２）",
+  "DescJP": "「ケテル」無力化に成功し「研究地区」に進入したエイミと先生。その様子を見ていたヒマリは、違和感を感知し現場探索に参加することに。",
+  "DescKR": "전투 끝에 <케테르> 무력화에 성공하고 <연구지구>로 진입한 에이미와 선생님. 현장을 살펴보던 히마리는 이상함을 감지하고 현장 탐색에 참여하기로 한다.",
+  "DescEN": "Eimi and Sensei successfully neutralize Kether and make their way to the Research District after the battle. While inspecting the site, Himari senses something is amiss and decides to take part in the field investigation.",
+  "DescTH": "เอมิกับคุณครูทำให้ <เคเทอร์> อ่อนกำลังได้สำเร็จ และได้เข้าไปยัง <พื้นที่วิจัย> ฮิมาริที่เฝ้าดูสถานการณ์อยู่สังเกตเห็นความผิดปกติ จึงตัดสินใจเข้าร่วมในการสำรวจภาคสนามด้วย",
+  "DescTW": "戰鬥結束後，英美和老師成功讓「凱瑟」失效，並且潛入了「研究地區」。陽葵在觀察現場後覺得很可疑，於是便參加了搜索現場的任務。",
+  "DialogJP": [
+    {
+      "Name": "エイミ",
+      "Text": "逃げられた……作戦失敗？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ。逃がしてしまったとはいえ、ダメージは負っているはず。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "12時間とは言わずとも、修復にはそれなりの時間がかかることが推察されます。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "じゃあ、予定通り「研究地区」に？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。おそらくケテルが戻ってくるまで約8時間。\nその間に侵入し、中にあるはずの「デカグラマトンの信号」を見つけ出します。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "分かった。今日は徹夜になりそうだね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "まあ、よくあることです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それでは、参りましょうか。"
+    },
+    {
+      "Text": "研究地区"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……部長、着いたよ。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "特に危険な要素は見当たらない。見た感じ、普通の廃墟に見えるけど……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……思ったより静かですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "分析によると、水没しているとのことだったのですが。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "そんな感じには見えないけど……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね、乾ききっています。\n"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……なるほど。およそ10kmほど離れたところに、巨大なダムが作られています。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……デカグラマトンが？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "或いは、その預言者かもしれませんが。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "でもたしかに、よく見ると痕跡はある。苔とか生えてるし……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "エイミ、一度戻ってきていただけますか？\n私もこの目で実際に確認しておきたいので。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "部長もここに、実際来るってこと？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。エイミが戻ってくるまでに、お出かけの準備は済ませておきますので。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "……だってさ。一旦戻ろっか。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "ケテルの修復が終わるまではまだ時間がかかるだろうし、多分大丈夫。"
+    },
+    {
+      "Text": "次回;デカグラマトン"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "에이미",
+      "Text": "후퇴했어. 이렇게 되면 작전 실패……?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨. 도망치는 걸 막지 못한 건 아쉽지만…… 대미지는 확실하게 받았어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "12시간까지는 아니겠지만 수복하는데 시간이 꽤 걸릴 거예요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그런가? 그럼 이제 <연구지구>로 진입이 가능하다는 이야기?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 케테르가 돌아오기 전까지는요. 아마 예상으로는 8시간 정도? 그 안에 저 연구지구 안에서 포착된 데카그라마톤의 신호를 찾아냅니다."
+    },
+    {
+      "Name": "에이미",
+      "Text": "알겠어. 오늘은 철야 작업이겠네."
+    },
+    {
+      "Name": "히마리",
+      "Text": "흔히 있는 일이죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그럼 연구지구로 진입합니다."
+    },
+    {
+      "Text": "연구지구"
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장. <연구지구>에 무사히 도착했어."
+    },
+    {
+      "Name": "에이미",
+      "Text": "주변에 별다른 위험 요소도 보이지 않아. 그냥 다른 폐허랑 다를 게 없어 보이는데……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 생각보다 조용하네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만 이곳의 지형을 분석해보면 원래 수몰되어 있어야 하는 곳이에요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "그치만 여긴 물은 하나도 보이지 않는데?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇죠. 이곳만 마른 땅으로 있다는 건…… 누군가 거대한 토목공사를 시행해서 이 지역의 물을 빼냈다는 뜻이겠죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……과연. 이쪽 지역에서 약 10km 떨어진 곳에 거대한 댐이 만들어져 있군요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "데카그라마톤이 한 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "혹은 그 예언자가."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……그러네. 주변을 보니 확실히 한번 물에 잠겼던 흔적이 있어. 물이끼가 자란 흔적이 빌딩 중간까지 있고."
+    },
+    {
+      "Name": "히마리",
+      "Text": "에이미. 저곳을 제 두 눈으로 직접 확인하고 싶어요. 일단 복귀하세요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "부장이 직접?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 저는 그동안 탐색을 위한 준비를 끝내놓을 테니까요."
+    },
+    {
+      "Name": "에이미",
+      "Text": "……그렇다고 하네. 일단 돌아가자."
+    },
+    {
+      "Name": "에이미",
+      "Text": "케테르가 돌아오기 전까진 아직 시간이 있을 테니까. 뭐, 괜찮겠지."
+    },
+    {
+      "Text": "다음화;데카그라마톤"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Eimi",
+      "Text": "It retreated. Does this mean our plan failed...?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I don't think so. It might have managed to slip away...but it definitely took some serious damage."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It won't be the twelve hours we originally hoped for, but it'll take it some time to recover."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Does that mean we're still clear to proceed to the Research District?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Until Kether returns, yes. My estimate is about eight hours. That's how long we have to find where Decagrammaton's signal was detected within the Research District."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Affirmative. It looks like it's going to be an all-nighter."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Nothing new for either of us."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Okay, commencing entry into the Research District."
+    },
+    {
+      "Text": "Research District"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "President, we've made it to the Research District."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I don't see anything hostile around. It doesn't look any different from the rest of the ruins."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Indeed. It's a lot quieter than I expected."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The strange thing is, based on the topographical analysis, this area should be completely submerged."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Really? There's not a single drop of water to be found."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Indeed... The presence of dry land here means that a tremendous amount of work was done to get the water out."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Just as I thought. There's a massive dam that's been built about ten kilometers from here."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Is this the work of Decagrammaton?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Or perhaps its prophet."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "I think you're right. I see aquatic moss reaching all the way up to the middle of the buildings. This area was probably recently entirely submerged."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Eimi, I think I need to take a look at this place with my own two eyes. Please return at once."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "You want to come see this personally, President?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. I'll finish preparations for the investigation in the meantime."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "...You heard her. Let's head back."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "There's still time until Kether returns. I'm sure it'll be fine."
+    },
+    {
+      "Text": "Next Episode;Decagrammaton"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "เอมิ",
+      "Text": "หนีไปแล้ว แบบนี้คือปฏิบัติการล้มเหลวเหรอ...?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ค่ะ ถึงจะน่าเสียดายที่เจ้านั่นหลบหนีไปได้... แต่ก็คงได้รับความเสียหายไปไม่น้อยเลยค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อาจจะไม่ถึง 12 ชั่วโมง แต่ก็คงใช้เวลาฟื้นตัวสักพักค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "งั้นเหรอ? ถ้างั้นตอนนี้ก็เข้าไปใน <พื้นที่วิจัย> ได้แล้วสินะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ กว่าเคเทอร์จะกลับมา ก็คงจะอีกประมาณ 8 ชั่วโมง เราต้องค้นหาสัญญาณของเดคาแกรมมาทอน\nที่อยู่ในพื้นที่วิจัยให้ได้ค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เข้าใจแล้ว วันนี้คงต้องทำงานโต้รุ่งสินะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เรื่องปกติไม่ใช่เหรอคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าอย่างนั้นเข้าไปในพื้นที่วิจัยได้เลยค่ะ"
+    },
+    {
+      "Text": "พื้นที่วิจัย"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้า เรามาถึง <พื้นที่วิจัย> อย่างปลอดภัยแล้ว"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แถวนี้ดูไม่มีอะไรที่น่าจะเป็นอันตรายนะ ดูแล้วก็ไม่ต่างจากพื้นที่รกร้างที่อื่นๆ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จริงด้วยค่ะ เงียบสงบกว่าที่คิดนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่จากการวิเคราะห์ภูมิประเทศ ความจริงแล้วพื้นที่นี้ควรจะจมอยู่ในน้ำค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่ตรงนี้ไม่มีน้ำสักนิดเลยนะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ใช่ค่ะ ที่นี่มีแต่ที่ดินแห้งแล้ง... คงจะมีคนบางกลุ่มเข้ามาทำงานวิศวกรรมโยธาขนาดใหญ่ แล้วสูบ\nน้ำออกไปจนหมดค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อย่างงั้นสินะ... ห่างออกไปจากตรงนี้ 10 ก.ม. มีพื้นที่ที่กำลังสร้างเขื่อนขนาดใหญ่อยู่สินะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เป็นฝีมือเดคาแกรมมาทอนเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หรืออาจเป็นฝีมือของผู้เลื่อมใส"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "จริงด้วย... พอดูรอบๆ ก็ยังเห็นร่องรอยของน้ำที่เคยมีอยู่เลย มีรอยตะไคร่น้ำที่ขึ้นอยู่ถึงตรงช่วงกลางๆ ตึกด้วย"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอมิ ฉันอยากตรวจสอบสถานที่นั้นด้วยตาของตัวเองค่ะ ก่อนอื่น กลับมาที่นี่ก่อนเถอะค่ะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "หัวหน้าจะมาดูเองเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ฉันเตรียมพร้อมสำหรับการออกสำรวจเสร็จสิ้นแล้วล่ะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เอาตามนั้นก็ได้... เรากลับไปกันก่อนเถอะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "เรายังพอมีเวลาก่อนที่เคเทอร์จะกลับมา ก็นะ คงไม่เป็นอะไรหรอก"
+    },
+    {
+      "Text": "ตอนต่อไป;เดคาแกรมมาทอน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "英美",
+      "Text": "被它逃走了……作戰失敗？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不。雖然被它逃了，但依然有造成損傷。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就算不用12個小時，修復依然需要一定的時間。"
+    },
+    {
+      "Name": "英美",
+      "Text": "是嗎？\n所以現在可以到「研究地區」去了？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的。在凱瑟回來之前大約還有8個小時。\n在這段期間中侵入，找出那裡頭的「十字神名的信號」。"
+    },
+    {
+      "Name": "英美",
+      "Text": "我知道了。看來今天要熬夜了呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這是常有的事。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那麼，出發吧。"
+    },
+    {
+      "Text": "研究地區"
+    },
+    {
+      "Name": "英美",
+      "Text": "……部長，到了唷。"
+    },
+    {
+      "Name": "英美",
+      "Text": "沒有看見特別危險的要素。看起來就像普通的廢墟……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……不過比預想中還安靜呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "根據分析，這裡應該處於被水淹沒的狀態。"
+    },
+    {
+      "Name": "英美",
+      "Text": "但看起來並非如此……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是呢，現在是乾燥狀態。\n有人進行了巨大的工程，把水都抽走了嗎……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……果然如此。離這裡10km左右的地方有一個巨大的水庫。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……是十字神名？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "也可能是它的預言者。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……仔細看的話確實能發現曾被水淹沒的痕跡。\n就連建築物中間也有苔蘚生長……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "英美，可以先回來一趟嗎？\n我也想親眼實際確認一下。"
+    },
+    {
+      "Name": "英美",
+      "Text": "部長也要實際來這裡的意思嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的。在英美回來之前，我會做好外出準備的。"
+    },
+    {
+      "Name": "英美",
+      "Text": "……部長是這麼說的。我們先回去一趟吧。"
+    },
+    {
+      "Name": "英美",
+      "Text": "凱瑟還要一點時間才完成修復，應該沒問題。"
+    },
+    {
+      "Text": "下一話;十字神名"
+    }
+  ]
+}

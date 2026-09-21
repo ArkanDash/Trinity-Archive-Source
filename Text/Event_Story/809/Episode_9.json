@@ -1,0 +1,1962 @@
+{
+  "TitleJP": "風紀委員会参戦（２）",
+  "TitleKR": "선도부까지?! 2",
+  "TitleEN": "The Prefect Team Joins the Fray Part 2",
+  "TitleTH": "คณะกรรมการวินัยก็ด้วยเหรอ?! (2)",
+  "TitleTW": "風紀委員會參戰（２）",
+  "DescJP": "風紀委員会からの情報により、今回の騒動が黒亀組という組織による詐欺だということが判明。「願いが叶う」という噂は嘘であり、すべては資金洗浄のための狂言であった。",
+  "DescKR": "접전 끝에, 선생님은 이오리가 오해하는 거라며 새전함을 되찾는 이유를 설명한다. 아코가 이오리를 질책하는 한편, 이번 사태의 흑막은 검은거북파라는 조직이며, 이번 일은 선도부가 알아서 해결할 테니 선생님과 흥신소에겐 물러나라고 말한다.",
+  "DescEN": "Sensei tells Iori this is all a misunderstanding and explains why they're trying to reclaim the offering box. Ako chastises Iori and says that the Kurokame Gang is behind this. She requests that Sensei and Problem Solver step back and let the Prefect Team handle the issue.",
+  "DescTH": "เมื่อสิ้นสุดการปะทะ คุณครูบอกกับอิโอริว่าเธอกำลังเข้าใจผิดและอธิบาย\nว่าทุกคนกำลังช่วยเอาตู้บริจาคคืนมา อาโกะตำหนิอิโอริ คณะกรรมการวินัย\nบอกกับคุณครูและหน่วยรับจ้างสารพัดให้หลีกทางเพราะจะเคลียร์เรื่องนี้เอง\nเพราะเบื้องหลังที่ชั่วร้ายของเหตุการณ์นี้คือองค์กรที่ชื่อว่าแก๊งคุโรคาเมะ",
+  "DescTW": "戰鬥告一段落後，老師趕緊跳出來向伊織解釋誤會，同時也告訴她便利屋想把賽錢箱找回來的真正理由。在訓斥伊織的同時，亞子也將說出事件的幕後黑手是「黑龜組」，這一切都是為了洗錢的手段。",
+  "DialogJP": [
+    {
+      "Name": "イオリ",
+      "Text": "ぐっ！"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "先生、まさか問題児たちの肩を持つつもり！？"
+    },
+    {
+      "Text": "[s1] \"肩を持つっていうか……。\""
+    },
+    {
+      "Text": "[s2] \"とりあえず話を聞いてほしいんだけど……。\""
+    },
+    {
+      "Text": "（イオリに、これまでのことを説明した）"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "つまり……便利屋68もそこのアビドスの生徒も、賽銭箱の中身を狙ってるわけじゃなくって。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "あくまで、本当に取り返そうとしてるってこと？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "……私にそれを信じろと？"
+    },
+    {
+      "Text": "[s] \"信じて！お願い！\""
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "それ以上言っても無駄かもよ。相変わらず、頭が固いんだから……。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "はぁっ！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "イオリ、状況はいかがですか？全部片付きました？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "あっ、アコちゃん！それがその、邪魔をされて……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "邪魔を……？……まさか、黒亀組ですか！？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "（……黒亀組？）"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "いや、便利屋68とアビドスのひとり。あと先生。"
+    },
+    {
+      "Name": "アル",
+      "Text": "別に邪魔も何もしてないわよ！いきなり襲ってきたのはそっちでしょう！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……便利屋68にアビドス、それに先生？"
+    },
+    {
+      "Text": "[s] \"やっ、アコ。あけましておめでとう。\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "どうして先生が……えっと、あけましておめでとうございます。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ではなく待ってください、これは一体……？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "なるほど……おおよそ把握しました。便利屋68のみなさんはアビドスのその方と一緒に、賽銭箱を取り返そうと追撃中。それにあたってシャーレと協力……と言いますか、味方に引きずり込んだと。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "何ともズルいやり方ですね……。"
+    },
+    {
+      "Name": "アル",
+      "Text": "？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "ところで、風紀委員会は暇そうだね。問題児を追いかけてると思いきや、通りすがりの人に喧嘩を売るなんて。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あら、これはどうも。普通の会話に見せかけて意外と負けず嫌いなその言い方、相変わらずカヨコさんらしいですね。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "まあ、こっちからしても邪魔されてる状況だからね。早めにどいてほしい。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そうですか……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "くふふっ。さて、どうなるのかな～？"
+    },
+    {
+      "Name": "アル",
+      "Text": "？？？"
+    },
+    {
+      "Text": "[s] \"えっと……。\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "はあ……"
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ、構いません。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……イオリ、私は問題児たちを片付けるように言いましたが、シャーレと揉め事を起こせとは言ってないんですよ？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "何をしているんですか、全くもう。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "もしかしてイオリは風紀委員会の仕事が好き過ぎて、正月だとしても帰りたくないとかそういうことなんですか？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "何その白々しい方向転換！？っていうかアコちゃん、私のせい！？せっかくの休日に出動したのにこの仕打ち！？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "アコちゃんこそ私に任せっきりで、今まで何してたのさ！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "情報を集めていたら遅くなっただけです。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "カイテンジャーが賽銭箱を盗んだことから始まった、この小さな一連の騒動。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "実は今回の事態で重要なのはそこではありません。"
+    },
+    {
+      "Text": "[s] \"どういうこと？\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "結論から申し上げますと、今回の「大吉殿」での一連の出来事……これらは、黒亀組という組織が絡んでる大々的な詐欺ですね。"
+    },
+    {
+      "Name": "アル",
+      "Text": "えぇっ！？"
+    },
+    {
+      "Text": "[s] \"黒亀組……？\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "はい。犯罪組織「黒亀組」……そしてその「大吉殿」は、[ruby=マネーロンダリング]資金洗浄[/ruby]のための場所と言えるでしょう。"
+    },
+    {
+      "Name": "アル",
+      "Text": "なっ、ど、どういうこと！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "言った通りの意味です、その賽銭箱は不法資金のために使われていたのでしょう。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "難しいお話ではありません。不法に集めた資金を、まずは賽銭箱の中に入れておく。これだけで、ヴァルキューレ警察学校などの治安機関の視線を逸らすことができます。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "こういった扱いであれば、多少疑わしくとも無理に賽銭箱をどうこうしようとはなりません。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "もちろん、相当の規模の金額が動けば話は別でしょう。しかし黒亀組は、もう一つの手段を用意していました。"
+    },
+    {
+      "Text": "[s] \"もう一つの手段って、もしかして……\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "はい、"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あのマスコミやSNSの利用です。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "「願い事が叶う場所」だなんていう、あんな面白味の無いキャッチフレーズでしたが、実際のところ効果は絶大。有名な場所として知られるようになりました。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "こうしてご覧の通り、それに引き付けられて訪ねてくる「おバカさんたち」で埋め尽くされるほどに。"
+    },
+    {
+      "Name": "アル",
+      "Text": "うっ……！？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……大々的な宣伝によって、ここでお賽銭を入れる人の数が増える。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "もちろん自然と、お賽銭の額もどんどん膨らんでいく……"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "元々あった黒亀組の不法資金がどれくらいあったのか、分からなくなるくらいに。"
+    },
+    {
+      "Text": "[s] \"木を隠すなら森の中……。\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "あら、とっくに見抜いていた……という感じですね？やはり、流石はカヨコさんです。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はぁ、何そのわざとらしい言い方……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そもそも「大吉殿」って、ああいった場所の名称としては少しおかしいでしょう？それに「願いが叶う」などと、噂程度ならまだしも自分たちで言い出すなんて、罰当たりと言いますかおかしい話です。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ちょっ、ちょっと待って！それじゃあ「願い事が叶う場所」っていうのも、「穢れが付いたらお願い事が裏返る」っていうのも、全部嘘……？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "穢れ……裏返る……？そういったお話は、完全に初耳ですが……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "……そ、そう！ま、まあ知ってたわよ！全部詐欺だったんでしょう、ええ知ってたわ！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "じゃあ、「賽銭箱を取り戻したら全部お渡しします」っていうのは……"
+    },
+    {
+      "Name": "アコ",
+      "Text": "盗難事件として扱われてしまえば、必然的にヴァルキューレなどの機関が介入してきます。それを一時的にでも止めようと思ったのではないでしょうか？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "「警察の方々がいらっしゃるようなことではありません、これはあくまでお正月のイベントですから」……そのような言い分で。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あはははっ！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "そこまで考えられたサプライズイベントだったってこと？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "あと多分、黒亀組の狙い目はそれだけじゃなくって……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "わ、私はそんな場所に、巫女さんとして雇われてたわけ……！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "っていうか犯罪組織が巫女さんを雇わないでよ、巫女さんたちに失礼じゃん！"
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ黒亀組が掌握する前からそういう場所でしたので、巫女の方々には何も知らされていないでしょうけど……。"
+    },
+    {
+      "Text": "[s3] \"何はともあれ、セリカの巫女姿は良いと思う！\""
+    },
+    {
+      "Text": "[s4] \"何はともあれ、セリカの巫女さんとしての心は本物だと思う！\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "え、えぇっ……！？ま、まあ別に変なとこに雇われたこと自体は、そこまで気にしてるわけじゃないけど……そういう風に言ってくれるのは嬉しいかな……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "え、えぇっ……！？ま、まあ別に変なとこに雇われたこと自体は、そこまで気にしてるわけじゃないけど……そういう風に言ってくれるのは嬉しいかな……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "私はちゃんとやることやって、"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "約束通りバイト代さえ貰えればそれで良いし。"
+    },
+    {
+      "Text": "[s5] \"だとすると、カイテンジャーは……\""
+    },
+    {
+      "Text": "[s6] \"もしかして、本当に正義のために……？\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ、解釈によってはそう捉えることもできるかもしれませんね？「正義」というものを、どのように定義するか次第ですが。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ、解釈によってはそう捉えることもできるかもしれませんね？「正義」というものを、どのように定義するか次第ですが。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "もしかしたら、義賊的なことをしたいのかもしれませんが……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ただ、正確なところは分かりません。元々カイテンジャーについては、その正体も目的もいまいち分かっていませんので。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "それはまあ正直なところ、どうでも良いのです。我々風紀委員会として大事なことは、ゲヘナ付近で起きているこの混乱を片付けること。"
+    },
+    {
+      "Text": "[s] \"なるほど。\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "はい。相手がカイテンジャーであれ、黒亀組であれ、校内の問題児であれ構いません。委員長が席を外しているこのタイミングで風紀を乱すなら、私がそれを正すのみ。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "というわけで、時間を無駄にしてはいられません。イオリ、引き続き問題児たちを追ってください……それから、先生。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "新年の初日だというのに、相変わらず余計な騒動に巻き込まれているようですが……お人よしも大概にした方が良いですよ。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "では、また。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "アコちゃん、私に休ませる気ないな……。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "……ふう。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "じゃあ便利屋、お前たちもこれ以上面倒な騒ぎを起こすなよ！"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "先生も、またね。今年もよろしく。……じゃあ引き続き、問題児を追いかけるとしよう。風紀委員会、行くぞ！"
+    },
+    {
+      "Name": "風紀委員たち",
+      "Text": "はいっ！！"
+    },
+    {
+      "Text": "（そうして風紀委員会は、風のように去っていった）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "이오리",
+      "Text": "크읏! 뭐야, 선생님까지 그쪽에 붙어서 선도부의 업무를 방해하다니!"
+    },
+    {
+      "Name": "이오리",
+      "Text": "설마 문제아들의 편을 들 셈이야?!"
+    },
+    {
+      "Text": "[s1] \"이쪽에 붙었다고 할지…….\""
+    },
+    {
+      "Text": "[s2] \"……여기엔 깊은 사정이 있다고 할지.\""
+    },
+    {
+      "Text": "(이오리에게 이제까지 있던 일을 설명했다.)"
+    },
+    {
+      "Name": "이오리",
+      "Text": "그러니까 즉. 흥신소나 거기의 아비도스 학생, 그리고 선생님은 원래부터 새전함의 내용물을 노리고 날뛰는 게 아니라."
+    },
+    {
+      "Name": "이오리",
+      "Text": "어디까지나 정당하게 되찾기 위해 추격하는 거라고?"
+    },
+    {
+      "Name": "이오리",
+      "Text": "……그걸 지금 나보고 믿으라고 하는 소리야?"
+    },
+    {
+      "Text": "[s] \"네, 그렇겠죠!\""
+    },
+    {
+      "Name": "카요코",
+      "Text": "이래서 선도부는 말로 설득하려고 생각하면 안 돼. 어차피 자기 좋을 대로만 생각하는 녀석들이니까."
+    },
+    {
+      "Name": "이오리",
+      "Text": "뭐어? 너 뭘 멋대로……!"
+    },
+    {
+      "Name": "아코",
+      "Text": "이오리? 현장의 상황은 어떻죠? 새전함을 노리고 날뛰는 문제아들은 모두 정리했나요?"
+    },
+    {
+      "Name": "이오리",
+      "Text": "앗, 아코 쨩! 그게……. 아직이라고 할까. 중간에 방해를 받는 바람에."
+    },
+    {
+      "Name": "아코",
+      "Text": "네? 방해꾼이라니, 설마 검은거북파가 끼어들기라도 한 건가요?!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "(……검은거북파?)"
+    },
+    {
+      "Name": "이오리",
+      "Text": "아냐. 우릴 방해한 건 흥신소 녀석들이랑 선생님이야."
+    },
+    {
+      "Name": "아루",
+      "Text": "글쎄. 방해라니 우린 아무것도 안 했잖아! 갑자기 덤벼온 건 그쪽이면서!"
+    },
+    {
+      "Name": "아코",
+      "Text": "……흥신소? 그리고 선생님이라니요?"
+    },
+    {
+      "Text": "[s] \"안녕. 아코.\""
+    },
+    {
+      "Name": "아코",
+      "Text": "네? 선생님이 어째서 이곳에……? 아, 새해 복 많이 받으세요."
+    },
+    {
+      "Name": "아코",
+      "Text": "가 아니라, 잠깐만요. 이건 대체……."
+    },
+    {
+      "Name": "아코",
+      "Text": "상황은……. 네, 잘 알았습니다. 흥신소 여러분은 새전함을 되찾기 위해 샬레와 협력……. 같은 편으로 끌어들였다는 건가요."
+    },
+    {
+      "Name": "아코",
+      "Text": "이걸 영악하다고 해야 할지. 약삭빠르다고 해야 할지."
+    },
+    {
+      "Name": "아루",
+      "Text": "여, 영악……?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "그러는 그쪽은? 문제아를 쫓는다면서 지나가는 사람에게 시비를 건다니, 새해 첫날부터 느긋한 거 아냐?"
+    },
+    {
+      "Name": "아코",
+      "Text": "어머나. 과연 평범하게 대화하는 척하면서도 말 한마디 지지 않겠다는 그 태도. 카요코 씨답군요."
+    },
+    {
+      "Name": "카요코",
+      "Text": "글쎄, 당하는 입장으로선 꽤 짜증이 나서 말이야."
+    },
+    {
+      "Name": "아코",
+      "Text": "흐음……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "쿠흐흣, 두근두근!"
+    },
+    {
+      "Name": "아루",
+      "Text": "으, 응?"
+    },
+    {
+      "Text": "[s] \"저기…….\""
+    },
+    {
+      "Name": "아코",
+      "Text": "하아……."
+    },
+    {
+      "Name": "아코",
+      "Text": "뭐, 좋습니다."
+    },
+    {
+      "Name": "아코",
+      "Text": "이오리. 저는 문제아들을 해결하라고 했지, 이렇게 샬레와 마찰을 빚으라고는 안 했는데요."
+    },
+    {
+      "Name": "아코",
+      "Text": "쓸데없는 일로 시간을 잡아먹다니. 뭔가요."
+    },
+    {
+      "Name": "아코",
+      "Text": "혹시 이오리는 선도부의 일이 너무너무 즐거운 나머지, 새해 첫날부터 집에 돌아가기 싫다거나 그런 건가요?"
+    },
+    {
+      "Name": "이오리",
+      "Text": "아코 쨩! 내 잘못이야?! 모처럼의 휴일에 끌려 나온 것도 억울한데!"
+    },
+    {
+      "Name": "이오리",
+      "Text": "그러는 아코 쨩이야말로 내게만 맡겨 두고 너무 늦었잖아!"
+    },
+    {
+      "Name": "아코",
+      "Text": "저는 이번 사태의 정보를 수집하느라 늦었을 뿐이에요."
+    },
+    {
+      "Name": "아코",
+      "Text": "카이텐져가 새전함을 훔쳐 간 건 일련의 작은 소동일 뿐."
+    },
+    {
+      "Name": "아코",
+      "Text": "사실 이번 사태에서 중요한 건 그게 아니니까요."
+    },
+    {
+      "Text": "[s] \"무슨 의미야?\""
+    },
+    {
+      "Name": "아코",
+      "Text": "결론부터 말씀드리자면 이번 <대길전>의 이벤트 자체가 검은거북파라는 조직이 얽혀 있는 사기극입니다."
+    },
+    {
+      "Name": "아루",
+      "Text": "뭐어?!"
+    },
+    {
+      "Text": "[s] \"검은거북파……?\""
+    },
+    {
+      "Name": "아코",
+      "Text": "네. <대길전>은 범죄조직 검은거북파의 자금 세탁용 사업체입니다."
+    },
+    {
+      "Name": "아루",
+      "Text": "?!"
+    },
+    {
+      "Name": "아코",
+      "Text": "그곳에 비치되어 있던 새전함은 검은거북파가 불법 자금의 세탁을 위해 사용해온 것으로……."
+    },
+    {
+      "Name": "아코",
+      "Text": "노림수는 간단해요. 새전함에 세탁하고 싶은 불법 자금을 대량으로 세이브한다. 이렇게 하면 우선적으로 발키리 경찰학교 같은 치안 기관의 시선을 피할 수 있게 되겠죠."
+    },
+    {
+      "Name": "아코",
+      "Text": "새해라는 특수한 환경, 거기다 이벤트 회장의 새전함이라는 특수성까지 더해지면, 조금 의심스러운 정황이 있다고 해도 새전함을 열어보려고 드는 이는 없을 테니까요."
+    },
+    {
+      "Name": "아코",
+      "Text": "물론 너무 큰 규모의 자금이 움직였다가는 덜미를 잡힐 수도 있습니다만. 검은거북파는 그런 만약의 사태를 피하기위해 또 하나의 수단을 준비했죠."
+    },
+    {
+      "Text": "[s] \"또 하나의 수단……?\""
+    },
+    {
+      "Name": "아코",
+      "Text": "네, 매스컴이나 SNS를 통한 바이럴 마케팅이 바로 그거예요."
+    },
+    {
+      "Name": "아코",
+      "Text": "'빌면 이루어진다.'……였던가요? 웃기지도 않는 캐치프레이즈입니다만."
+    },
+    {
+      "Name": "아코",
+      "Text": "실제로 효과는 확실했는지. ……덕분에 SNS에서도 제법 유명한 장소로 알려지게 된 거예요."
+    },
+    {
+      "Name": "아코",
+      "Text": "보시다시피 그 광고에 혹해 찾아온 바보들도 잔뜩인 모양이고요."
+    },
+    {
+      "Name": "아루",
+      "Text": "윽……?!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "홍보를 통해, 말 그대로 행사장에 새전을 넣으러 오는 사람의 숫자 자체를 늘린다."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……그렇게 하면 새전함에는 검은거북파의 불법 자금을 숨겨줄 거액이 모인다는 건가."
+    },
+    {
+      "Name": "카요코",
+      "Text": "거기다 홍보로 모인 새전 자체도 동시에 불법 자금으로 흡수할 수 있을 테고."
+    },
+    {
+      "Text": "[s] \"나무를 숨긴다면 숲에 숨긴다. 라는 거구나.\""
+    },
+    {
+      "Name": "아코",
+      "Text": "어머나. 과연 카요코 씨. 바로 꿰뚫어 보시는 거군요?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……하아. 마음에도 없는 소리 하지 마. "
+    },
+    {
+      "Name": "아코",
+      "Text": "흐응. 뭐, 애당초 <대길전>이라니 행사장으로는 이상한 이름이잖아요? 더군다나 '빌면 이루어진다.' 같은 형편 좋은 이야기가 있을 리도 없고요."
+    },
+    {
+      "Name": "아루",
+      "Text": "자, 잠깐! 그럼 빌면 이루어진다. 라는 것도……. 부정이 타면 소원이 뒤집혀 이루어진다는 것도……. 전부, 거짓말……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "부정……? 뒤집혀……? 그런 얘기는 처음 듣지만요……?"
+    },
+    {
+      "Name": "아루",
+      "Text": "그, 그랬구나. 아하하하! 당연히 사기였다는 거지? 으, 응! 알고 있었다구!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "그럼 새전함을 되찾는 사람에게 그걸 전부 주겠다는 것도 사실은……."
+    },
+    {
+      "Name": "아코",
+      "Text": "도난 사건이 되면 필연적으로 여기엔 발키리 등의 기관이 개입하게 될 겁니다. 아마 일차적으로는 그걸 막고 싶은 생각이었겠죠."
+    },
+    {
+      "Name": "아코",
+      "Text": "'경찰의 도움은 필요 없습니다. 이건 새해의 이벤트이니까요.' 같은 식으로 말이죠?"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아하하핫! 뭐야!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "거기까지 생각해서 벌인 깜짝 이벤트였던 거야?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "게다가 아마, 검은거북파가 노리는 건 그것뿐만이 아니라……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야, 나. 사실은 범죄조직의 자금 세탁소에 무녀로 고용되어 있었던 거야?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "근데 왜 하필 돈세탁을 한다는 놈들이 무녀를 고용해?! 무녀에게 실례잖아! 민폐잖아!"
+    },
+    {
+      "Name": "아코",
+      "Text": "검은거북파가 장악하기 전까진 원래는 평범한 행사장이었으니까. 무녀를 고용하는 게 이상한 건 아니었을 테지만……."
+    },
+    {
+      "Text": "[s3] \"맞아, 상황이 어찌 되었든 세리카의 무녀복은 진짜라고 생각해!\""
+    },
+    {
+      "Text": "[s4] \"응! 그래도 무녀 세리카의 마음은 진짜라고 생각해!\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "따, 딱히 범죄조직에게 고용된 무녀가 되었다고 해서, 안타깝거나, 슬프다고 생각한 게 아니거든?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "따, 딱히 범죄조직에게 고용된 무녀가 되었다고 해서, 안타깝거나, 슬프다고 생각한 게 아니거든?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "나야 약속한 대로 알바비만 받으면 그만이고."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……뭐어, 선생님이 그렇게 말해주는 건 무, 물론 기쁘지만……. "
+    },
+    {
+      "Text": "[s5] \"근데 그러면 카이텐져는 정말로 정의를 위해……?\""
+    },
+    {
+      "Text": "[s6] \"……새전함을 훔쳤다는 거야?\""
+    },
+    {
+      "Name": "아코",
+      "Text": "으음. 해석에 따라서는 그렇게 볼 수도 있을까요? 카이텐져가 말하는 정의라는 게 정확히 뭔지는 모르겠지만."
+    },
+    {
+      "Name": "아코",
+      "Text": "으음. 해석에 따라서는 그렇게 볼 수도 있을까요? 카이텐져가 말하는 정의라는 게 정확히 뭔지는 모르겠지만."
+    },
+    {
+      "Name": "아코",
+      "Text": "어쩌면 의적 놀이를 하면서 돈이 없는 사람들에게 새전함의 내용물을 뿌린다던가……."
+    },
+    {
+      "Name": "아코",
+      "Text": "원체 정체를 알 수 없는 게 카이텐져다보니 의중이야 알 수는 없습니다마는."
+    },
+    {
+      "Name": "아코",
+      "Text": "그런 건 아무래도 좋습니다. 어쨌거나 우리 선도부로서 중요한 건 현재 게헨나 학원의 인근에서 일어나고 있는 이 혼란을 수습하는 것."
+    },
+    {
+      "Text": "[s] \"그걸 위해 선도부는 움직이고 있는 거였구나.\""
+    },
+    {
+      "Name": "아코",
+      "Text": "네, 상대가 카이텐져건, 검은거북파건, 문제아들이건, 마침 부장님이 자리를 비우신 틈을 타 잘도 게헨나의 풍기를 어지럽혀주고 있단 말이죠."
+    },
+    {
+      "Name": "아코",
+      "Text": "여기서 이렇게 시간을 낭비할 때가 아닙니다. 이오리. 계속해서 문제아들을 쫓도록 하죠. 그리고 선생님."
+    },
+    {
+      "Name": "아코",
+      "Text": "여전히 새해 첫날부터 괜한 소동에 휘말려 계신 듯합니다만……. 사람이 좋은 것도 적당히 하시는 편이 좋으실 거예요."
+    },
+    {
+      "Name": "아코",
+      "Text": "그럼 이만."
+    },
+    {
+      "Name": "이오리",
+      "Text": "하아. 아코 쨩은 쉴 틈을 안 준다니까."
+    },
+    {
+      "Name": "이오리",
+      "Text": "자, 흥신소 녀석들. 너희도 이야기 잘 들었지?"
+    },
+    {
+      "Name": "이오리",
+      "Text": "우리 선도부가 눈을 번뜩이고 있으니까. 더는 소동을 일으키지 말라고! 괜히 다치기 싫으면!"
+    },
+    {
+      "Name": "이오리",
+      "Text": "선생님, 우린 가볼게. 올해도 잘 부탁해. ……그럼 모두 이동! 다음 문제아를 찾으러 가자!"
+    },
+    {
+      "Name": "선도부원들",
+      "Text": "네!!"
+    },
+    {
+      "Text": "(그렇게 선도부는 나타났을 때와 마찬가지로 바람처럼 퇴장했다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Iori",
+      "Text": "Gah. I can't believe Sensei is condoning your actions."
+    },
+    {
+      "Name": "Iori",
+      "Text": "Have you really chosen to side with these miscreants?!"
+    },
+    {
+      "Text": "[s1] \"I'm not trying to side with anyone.\""
+    },
+    {
+      "Text": "[s2] \"It's a long story.\""
+    },
+    {
+      "Text": "I did my best to explain the situation to Iori."
+    },
+    {
+      "Name": "Iori",
+      "Text": "You're saying you, Problem Solver 68, and this Abydos student aren't after the money inside the offering box..."
+    },
+    {
+      "Name": "Iori",
+      "Text": "...but rather, you're trying to retrieve it with good intentions?"
+    },
+    {
+      "Name": "Iori",
+      "Text": "Do you seriously expect me to believe that?"
+    },
+    {
+      "Text": "[s] \"Please believe me!\""
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "It's useless trying to explain things to the Prefect Team. They're too pigheaded to listen."
+    },
+    {
+      "Name": "Iori",
+      "Text": "What did you just say?!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "What's the situation, Iori? Have you apprehended the troublemakers going after the offering box?"
+    },
+    {
+      "Name": "Iori",
+      "Text": "A-Ako! No, not yet... Just a little bit longer. I kind of got sidetracked."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Sidetracked? Did the Kurokame Gang interfere?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "(Kurokame Gang?)"
+    },
+    {
+      "Name": "Iori",
+      "Text": "Not quite. It was Problem Solver 68 and Sensei."
+    },
+    {
+      "Name": "Aru",
+      "Text": "You're the one who's interfering with us. We didn't do anything!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Did you say Problem Solver 68 and Sensei?"
+    },
+    {
+      "Text": "[s] \"Hi, Ako.\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "Oh? Happy New Year... What are you doing here, Sensei?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Wait. Would someone please explain what's going on?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "So Problem Solver 68 dragged Sensei into their mess and are attempting to retrieve the offering box."
+    },
+    {
+      "Name": "Ako",
+      "Text": "I don't know whether to call that clever or devious."
+    },
+    {
+      "Name": "Aru",
+      "Text": "D-Devious?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "You all must have too much time on your hands if you have nothing better to do on New Year's than pick on innocent bystanders."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Well, well. You certainly know how to put venom behind your words,\ndon't you, Kayoko?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "You'll have to forgive me. My patience is running thin."
+    },
+    {
+      "Name": "Ako",
+      "Text": "I could say the same..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Oooh! Can you feel the sparks flying?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "H-Huh?"
+    },
+    {
+      "Text": "[s] \"So, uh...\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Very well, then."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Iori, your instructions were to detain any troublemakers. I never said anything about coming into conflict with Schale."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It's beyond me why you'd choose to waste your time like this."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Perhaps you enjoy Prefect Team work so much that you don't want to go home on New Year's Day?"
+    },
+    {
+      "Name": "Iori",
+      "Text": "You've got to be kidding me. This is the thanks I get for working on a holiday?!"
+    },
+    {
+      "Name": "Iori",
+      "Text": "You're the one who dumped all this work on me, and now it's MY fault?! And what have you been doing this whole time?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Collecting information on this incident, obviously."
+    },
+    {
+      "Name": "Ako",
+      "Text": "The Kaitengers stealing the offering box is only one piece of the puzzle."
+    },
+    {
+      "Name": "Ako",
+      "Text": "There's something greater at work here."
+    },
+    {
+      "Text": "[s] \"Where are you going with this?\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "Allow me to explain. The Daikichiden event itself is a scam involving an organization known as the Kurokame Gang."
+    },
+    {
+      "Name": "Aru",
+      "Text": "What?!"
+    },
+    {
+      "Text": "[s] \"Who's this Kurokame Gang?\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "A crime syndicate. Daikichiden is a money laundering business of theirs."
+    },
+    {
+      "Name": "Aru",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "The offering box was used to launder illegal funds for the Kurokame Gang."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It's a simple trick, really. Large amounts of illegally gained money are transferred by way of the offering box. That prevents a paper trail, thus avoiding the watchful eyes of law enforcement agencies such as Valkyrie Police School."
+    },
+    {
+      "Name": "Ako",
+      "Text": "They also took advantage of the holiday. New Year's is when people are most likely to make cash offerings—large ones at that."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Though this method does have its limits. They could still draw unwanted attention if they pulled in too much money. That's why they devised a countermeasure."
+    },
+    {
+      "Text": "[s] \"What kind of countermeasure?\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "The viral marketing they've been doing with the mass media and online."
+    },
+    {
+      "Name": "Ako",
+      "Text": "\"If you wish it, you'll get it!\" What a silly slogan."
+    },
+    {
+      "Name": "Ako",
+      "Text": "But I'll give credit where it's due. It's certainly caught on, especially on social media."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Things like that always manage to reel in empty-headed nitwits."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Gah!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "And because of that, they've exponentially increased the number of people visiting to make large offerings."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "There's no telling how much money they've managed to collect by now."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "It also obfuscates how much of it was laundered in the first place."
+    },
+    {
+      "Text": "[s] \"Like hiding a tree in the forest.\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "Well done, Kayoko. I knew you'd figure it out."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* As if I want your praise. "
+    },
+    {
+      "Name": "Ako",
+      "Text": "Thinking about it, even the name Daikichiden is strange. It means \"a tale of great success.\" Not to mention the tacky slogan. They were playing into the rumors all along. It was part of the viral marketing strategy."
+    },
+    {
+      "Name": "Aru",
+      "Text": "W-Wait! Does that mean the part about evil spirits reversing the fortunes of people's wishes was also a lie?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Evil spirits? What are you talking about?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "I-I mean, of course. It was all just a scam from the very beginning. I knew that!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "But the manager said whoever retrieved the offering box would get to keep the money. What about that?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "It was likely a ploy to keep the police from getting involved."
+    },
+    {
+      "Name": "Ako",
+      "Text": "By turning the chase into part of the event itself, it shifts from a potential criminal matter to a publicity stunt."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hahaha! You've got to be kidding me!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "They even accounted for something like that? Talk about covering your bases!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Then maybe money wasn't all that the Kurokame Gang was after..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "So you're telling me I was hired to be a miko for a freaking crime syndicate?! You've gotta be kidding me!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Who makes mikos launder money?! Seriously, that's just wrong."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It was just an ordinary shrine before the Kurokame Gang took over, so hiring mikos was probably standard practice."
+    },
+    {
+      "Text": "[s3] \"I'm still glad I got to see you in your miko outfit!\""
+    },
+    {
+      "Text": "[s4] \"It does me proud to see you be such a passionate miko!\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Would you knock it off? It's not like I care that much about this job!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "W-Would you knock it off? It's not like I care that much about this job!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "It doesn't bother me as long as I get paid at the end of the day."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Though I'll take the compliment, I guess... "
+    },
+    {
+      "Text": "[s5] \"So does this mean the Kaitengers knew all along?\""
+    },
+    {
+      "Text": "[s6] \"The Kaitengers were in the right all along, huh? Who knew?\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "That's one way to look at it, but it depends on how you want to define justice."
+    },
+    {
+      "Name": "Ako",
+      "Text": "That's one way to look at it, but it depends on how you want to define justice."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Perhaps they wanted to steal from the rich and give to the poor."
+    },
+    {
+      "Name": "Ako",
+      "Text": "The Kaitengers are a mystery wrapped in an enigma. It's pointless to try understanding their motives."
+    },
+    {
+      "Name": "Ako",
+      "Text": "The only thing that matters is dealing with the chaos surrounding Gehenna Academy."
+    },
+    {
+      "Text": "[s] \"That's where the Prefect Team comes in.\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "Precisely. The president is away at the moment, so taking care of any nuisances is our responsibility—be it the Kaitengers, the Kurokame Gang, or any other...miscreants."
+    },
+    {
+      "Name": "Ako",
+      "Text": "We've wasted enough time with them, Iori. Please focus on the other troublemakers. As for you, Sensei..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Don't you ever learn? Here you are selflessly involving yourself in yet another incident. You really are too kind for your own good."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Well, then. Until we meet again."
+    },
+    {
+      "Name": "Iori",
+      "Text": "*sigh* Ako is one to talk. She's always cracking the whip."
+    },
+    {
+      "Name": "Iori",
+      "Text": "Hey, Problem Solver. Did you hear that?"
+    },
+    {
+      "Name": "Iori",
+      "Text": "We've got our eye on you. Stay out of trouble unless you want to be next!"
+    },
+    {
+      "Name": "Iori",
+      "Text": "Let's go, everyone—we're leaving. Happy New Year, Sensei."
+    },
+    {
+      "Name": "Prefect Team Members",
+      "Text": "Yes!"
+    },
+    {
+      "Text": "The Prefect Team was gone just as suddenly as they appeared."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "อิโอริ",
+      "Text": "อึก! อะไรกัน แม้แต่คุณครูก็เข้าข้างยัยพวกนั้นแล้วคิดจะขัดขวางภารกิจของคณะกรรมการวินัย\nด้วยงั้นเหรอ!"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "นี่คิดจะเข้าข้างพวกตัวปัญหานั่นจริงๆ เหรอ?!"
+    },
+    {
+      "Text": "[s1] \"จะเรียกว่าอยู่กับฝ่ายนี้ได้รึเปล่านะ...\""
+    },
+    {
+      "Text": "[s2] \"จะเรียกว่าฝ่ายนี้มีเรื่องที่ซับซ้อนอยู่นิดหน่อยได้รึเปล่านะ...\""
+    },
+    {
+      "Text": "(อธิบายเรื่องที่เกิดขึ้นจนถึงตอนนี้ให้อิโอริฟัง)"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "เพราะงั้นก็คือ... ทั้งหน่วยรับจ้างสารพัดแล้วก็เด็กจากอะบิดอสคนนั้น แล้วก็คุณครู... ไม่ได้คิดจะขโมย\nเงินในตู้บริจาคตั้งแต่แรก"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "แต่ไล่ตามไปเพราะอยากจะเอาตู้บริจาคไปคืนงั้นเหรอ?"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "นี่คิดจะให้ฉันเชื่อเรื่องพวกนี้น่ะนะ...?"
+    },
+    {
+      "Text": "[s] \"ใช่แล้ว\""
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เพราะแบบนี้ไงถึงใช้เหตุผลคุยกับพวกคณะกรรมการวินัยดีๆ ไม่ได้หรอก ก็พวกนี้เป็นพวกทำตาม\nที่ตัวเองคิดว่าดีเท่านั้นยังไงล่ะ"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "หาาา? ว่ายังไงนะ...!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อิโอริ? สถานการณ์ที่หน้างานเป็นยังไงบ้างคะ? จัดการพวกตัวปัญหาที่สร้างความวุ่นวายได้หมด\nหรือยังคะ?"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อ๊ะ อาโกะจัง! คือว่า... เรื่องนั้นจะบอกว่ายังไม่เสร็จได้มั้ยนะ... พอดีถูกขัดขวางกลางคันน่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คะ? มีคนมาขัดขวางเหรอคะ หรือว่าพวกแก๊งคุโรคาเมะเข้ามาผสมโรงด้วยคะ?!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "(แก๊งคุโรคาเมะ?)"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "เปล่าหรอก พวกที่มาขัดขวางเราคือพวกหน่วยรับจ้างสารพัดกับคุณครูน่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อืม... ขัดขวางงั้นเหรอ พวกเรายังไม่ได้ทำอะไรเลยนะ! เธอต่างหากที่จู่ๆ ก็กระโดดเข้ามาขวางน่ะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หน่วยรับจ้างสารพัด...? แล้วก็คุณครูงั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"หวัดดี อาโกะ\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อ๊ะ สวัสดีปีใหม่ค่ะคุณครู มะ...ไม่ใช่สิ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เดี๋ยวก่อนนะคะ นี่มันอะไรกัน..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "สถานการณ์แบบนี้... ค่ะ เข้าใจแล้วค่ะ หน่วยรับจ้างสารพัดร่วมมือกับทางชาเล่ต์เพื่อชิงตู้บริจาค\nคืนมา... ใช่ไหมคะ?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "จะเรียกว่าแสนรู้... หรือว่าฉลาดดีนะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "สะ...แสนรู้...?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แล้วทางนั้นล่ะ? มาแวะหาเรื่องคนอื่นขณะที่ไล่จับพวกคนที่ก่อความวุ่นวายแบบนี้ ดูท่าแล้วจะทำงาน\nอืดอาดตั้งแต่วันแรกของปีเลยนะ?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตายจริง สุดท้ายก็แกล้งทำเป็นพูดคุยปกติ แต่ใช้คำพูดจิกกัดทุกคำเลยนะคะ สมกับเป็นคุณคาโยโกะ\nจริงๆ เลย"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ไม่รู้สินะ ในมุมของคนที่เสียหาย มันน่ารำคาญน่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ฮึ่ม......"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "..."
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": ""
+    },
+    {
+      "Name": "อารุ",
+      "Text": "หะ...หืม?"
+    },
+    {
+      "Text": "[s] \"คือว่า...\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "งั้นก็ดีค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อิโอริ ฉันบอกให้จัดการเรื่องพวกคนที่ก่อปัญหาใช่ไหมคะ ไม่ได้บอกให้ไปหาเรื่องกับทางชาเล่ต์\nสักหน่อยนี่คะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "มัวแต่เสียเวลากับเรื่องไม่เป็นเรื่องแบบนี้... คืออะไรกันคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หรือว่าอิโอริสนุกกับภารกิจของคณะกรรมการวินัยจนไม่อยากกลับบ้านตั้งแต่วันปีใหม่เหรอคะ?"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อาโกะจัง! นี่ฉันเป็นฝ่ายผิดเหรอ?! แค่ถูกลากออกมาทำงานในวันหยุดแบบนี้ก็ไม่ยุติธรรมแล้วนะ!"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "แล้วก็อาโกะจังนั่นละ กว่าจะสั่งการมาถึงฉันก็ล่าช้ามากแล้วนะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ที่ฉันล่าช้าก็เพราะรวบรวมข้อมูลสถานการณ์ที่เกิดขึ้นอยู่ค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เหตุการณ์ที่ไคเทนเจอร์ขโมยตู้บริจาคไปเป็นแค่เสี้ยวหนึ่งของความวุ่นวายที่เกิดขึ้นค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตัวการสำคัญของความวุ่นวายที่เกิดขึ้นคราวนี้ ไม่ใช่เจ้าพวกนั้นหรอกค่ะ"
+    },
+    {
+      "Text": "[s] \"หมายความว่ายังไงน่ะ?\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "สรุปก็คือเหตุการณ์ที่เกิดขึ้นที่งานเทศกาล <ไดคิจิเดน> ทั้งหมดเป็นแผนการของพวกแก๊งคุโรคาเมะค่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ว่ายังไงนะ?!"
+    },
+    {
+      "Text": "[s] \"แก๊งคุโรคาเมะ...?\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ค่ะ <ไดคิจิเดน> เป็นองค์กรที่ทำธุรกิจฟอกเงินของแก๊งคุโรคาเมะที่เป็นอาชญากรค่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "?!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตู้บริจาคที่วางอยู่ที่นั่นเป็นเครื่องมือที่พวกแก๊งคุโรคาเมะใช้ฟอกเงินผิดกฎหมาย..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เป็นกลอุบายที่ง่ายมากเลยค่ะ นำเงินสดผิดกฎหมายที่ต้องการซักฟอกมาใส่ไว้ในตู้บริจาค ถ้าทำแบบนี้\n"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "โดยเฉพาะในช่วงเทศกาลพิเศษอย่างปีใหม่ และแถมยังเป็นตู้บริจาคของผู้จัดกิจกรรมอีกด้วย คงไม่มีใครนึกสงสัยและไปเปิดตู้บริจาคดูแน่ๆ ค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แน่นอนว่าถ้าเคลื่อนย้ายเงินจำนวนมากเกินไปก็อาจถูกจับได้ เพราะงั้นพวกแก๊งคุโรคาเมะถึงได้\nเตรียมแผนก่อเรื่องวุ่นวายแบบนั้นไว้อีกวิธีหนึ่งไงล่ะคะ"
+    },
+    {
+      "Text": "[s] \"อีกวิธีหนึ่ง...งั้นเหรอ?\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ใช่แล้วค่ะ ใช้วิธีสร้างไวรัลผ่านโซเชียลค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "\"ขอพรสมหวังทุกประการ\" ใช่มั้ยนะ...? ถึงจะเป็นคำที่ดูไม่น่าเชื่อถือก็เถอะค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "และดูเหมือนจะได้ผลดีด้วยค่ะ เพราะงั้นที่นี่ถึงได้กลายเป็นสถานยอดฮิตในโซเชียลขึ้นมาได้ยังไงล่ะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "และดูเหมือนจะมีพวกหน้ามืดหลงเป็นทาสการตลาดมาขอพรที่ศาลเจ้ากันเยอะเหมือนกันนะคะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อึก...?!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "พอโปรโมตไปแบบนั้นก็มีคนมาขอพรและบริจาคเงินที่ศาลเจ้าเพิ่มขึ้นเรื่อยๆ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "หมายความว่าในตู้บริจาคมีเงินผิดกฎหมายของพวกแก๊งคุโรคาเมะซ่อนอยู่งั้นเหรอ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ถ้างั้นเงินที่ผู้คนบริจาคลงไปในตู้ก็อาจจะถูกเหมารวมว่าเป็นเงินผิดกฎหมายไปก็ได้..."
+    },
+    {
+      "Text": "[s] \"ถ้าซ่อนต้นไม้ได้ก็ซ่อนป่าได้สินะ...\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตายจริง คุณคาโยโกะ มองออกในพริบตาเลยเหรอคะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เฮ้อ... อย่ามาแซะกันน่า "
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หืม? ก็นะ ชื่องานเทศกาล <ไดคิจิเดน> มันก็ดูแปลกๆ ตั้งแต่แรกแล้วไม่ใช่รึไงคะ? มิหนำซ้ำ ดูแล้วก็\nไม่น่าจะมีเรื่องดีๆ อย่าง \"ขอพรสมหวังทุกประการ\" ด้วยนะคะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ดะ...เดี๋ยวก่อน! ถ้างั้นเรื่อง \"ขอพรสมหวังทุกประการ\"... ทั้งเรื่องที่ว่าถ้าแปดเปื้อนลางร้าย พรจะไม่สมหวัง... ทั้งหมดเป็นเรื่องโกหกงั้นเหรอ...?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ลางร้าย...? แปดเปื้อน...? เพิ่งเคยได้ยินเรื่องนี้เลยนะคะ?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "งะ...งั้นเหรอ ฮ่ะฮ่ะฮ่า! ถูกต้มจนเปื่อยเลยสินะ อะ... อื้ม! ฉันรู้อยู่แล้วละ!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ถ้างั้นเรื่องที่บอกว่าคนที่เอาตู้บริจาคกลับมาได้จะได้เงินในนั้นไปทั้งหมดล่ะ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถ้ากลายเป็นเหตุโจรกรรม หน่วยงานอื่นอย่างสถาบันวัลคิรี่ก็คงจะต้องเข้าไปยุ่งอย่างหลีกเลี่ยงไม่ได้ บางทีที่ทำแบบนั้นไป ตอนแรกอาจเป็นเพราะอยากปกป้องตู้บริจาคก็ได้นะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ประมาณว่า \"ไม่ต้องให้ตำรวจช่วยหรอก เพราะที่นี่คือสถานที่จัดงานปีใหม่ไงล่ะ\""
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อ่ะฮะฮะฮ่า! อะไรกัน!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "คิดถึงขนาดนั้นแล้วก็จัดกิจกรรมเซอร์ไพรส์ขึ้นเนี่ยนะ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "อีกอย่าง... บางทีสิ่งที่พวกแก๊งคุโรคาเมะต้องการอาจไม่ใช่แค่นั้นก็ได้..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรเนี่ย ฉันโดนพวกนั้นจ้างให้มาแต่งเป็นมิโกะในสถานที่ฟอกเงินของพวกอาชญากรเหรอ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าแต่ทำไมพวกฟอกเงินต้องจ้างมิโกะด้วย?! มันเสียมารยาทกับมิโกะรู้มั้ย! แบบนี้ฉันเดือดร้อนนะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ก่อนที่แก๊งคุโรคาเมะจะเข้ามายึดอำนาจ ที่นั่นเป็นแค่สถานที่จัดงานธรรมดานี่นา ไม่แปลกที่จะจ้างมิโกะ..."
+    },
+    {
+      "Text": "[s3] \"ถึงยังไงก็เถอะ แต่ครูคิดว่าชุดมิโกะของเซริกะเป็นของจริงนะ!\""
+    },
+    {
+      "Text": "[s4] \"อื้อ แต่จิตวิญญาณมิโกะของเซริกะเป็นของจริงนะ!\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ฉะ...ฉันไม่ได้เสียดาย หรือว่าเศร้าที่ถูกพวกอาชญากรจ้างมาเป็นมิโกะหรอกนะ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ฉะ...ฉันไม่ได้เสียดาย หรือว่าเศร้าที่ถูกพวกอาชญากรจ้างมาเป็นมิโกะหรอกนะ?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "แค่ได้เงินค่าพาร์ทไทม์ตามที่ตกลงไว้ก็พอแล้ว"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ก็นะ... ถะ...ถึงจะดีใจที่คุณครูพูดแบบนั้นก็เถอะ... "
+    },
+    {
+      "Text": "[s5] \"ถ้างั้นพวกไคเทนเจอร์ก็ทำเพื่อความยุติธรรม...?\""
+    },
+    {
+      "Text": "[s6] \"เพราะงั้นถึงขโมยตู้บริจาคไปสินะ?\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม ดูจากข้อมูลการวิเคราะห์แล้วก็คงจะเป็นอย่างนั้นนะคะ ถึงจะไม่รู้ว่าความยุติธรรมที่พวกไคเทนเจอร์\nพูดถึงคืออะไรก็เถอะค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม ดูจากข้อมูลการวิเคราะห์แล้วก็คงจะเป็นอย่างนั้นนะคะ ถึงจะไม่รู้ว่าความยุติธรรมที่พวกไคเทนเจอร์\nพูดถึงคืออะไรก็เถอะค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "บางทีอาจทำตัวเป็นจอมโจรขวัญใจชาวประชาที่ขโมยตู้บริจาคไปแล้วเอาเงินไปให้กับพวกคนจน..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่เนื่องจากเราไม่รู้ตัวตนที่แท้จริงของพวกนั้น เราเลยคาดเดาจุดประสงค์ไม่ได้ค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่แบบนั้นก็ดีนะคะ เพราะถึงยังไงในฐานะคณะกรรมการวินัย สิ่งสำคัญในตอนนี้คือการจัดการเหตุ\nความวุ่นวายที่เกิดขึ้นในบริเวณโรงเรียนเกเฮนน่าค่ะ"
+    },
+    {
+      "Text": "[s] \"เพราะงั้นคณะกรรมการวินัยถึงได้ออกโรงสินะ\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ค่ะ ไม่ว่าอีกฝ่ายจะเป็นพวกไคเทนเจอร์ แก๊งคุโรคาเมะ หรือพวกเด็กเกเร ต่างก็คิดที่จะฉวย\nโอกาสใช้ช่วงเวลาที่ท่านประธานไม่อยู่ก่อความวุ่นวายขึ้นในเกเฮนน่ากันทั้งนั้นค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เพราะงั้นตอนนี้เราไม่ควรเสียเวลาอยู่ที่นี่แล้วค่ะ อิโอริ รีบไล่ตามพวกเด็กที่ก่อความวุ่นวายนั่นไปเถอะค่ะ แล้วก็คุณครู..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ดูเหมือนว่าจะโดนลากเข้าไปยุ่งกับเรื่องวุ่นวายตั้งแต่วันแรกของปีเลยนะคะ... แต่ว่าการทำดีก็ควรทำ\nแต่พอประมาณจะดีกว่านะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถ้างั้นฉันขอตัวก่อนนะคะ"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "เฮ้อ... อาโกะจังไม่เว้นช่วงให้หยุดพักเลย"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "เอาละ หน่วยรับจ้างสารพัด พวกเธอก็ได้ยินแล้วใช่มั้ย?"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "พวกเราจับตาดูพวกเธออยู่ เพราะงั้นอย่าก่อเรื่องวุ่นวายอะไรอีกล่ะ! ถ้าไม่อยากเจ็บตัว!"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "คุณครู พวกเราไปก่อนนะ ปีนี้ก็ขอฝากตัวด้วยล่ะ ทุกคน ไปได้! รีบไปจัดการพวกเด็กเจ้าปัญหากันต่อ\nเร็วเข้า!"
+    },
+    {
+      "Name": "กลุ่มคณะกรรมการวินัย",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Text": "(จากนั้นคณะกรรมการวินัยก็หายตัวไปอย่างรวดเร็วเหมือนตอนโผล่มา)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "伊織",
+      "Text": "唔！"
+    },
+    {
+      "Name": "伊織",
+      "Text": "老師，難道你想站在問題兒童那邊嗎！？"
+    },
+    {
+      "Text": "[s1]「與其說站在這邊……」"
+    },
+    {
+      "Text": "[s2]「希望你能先聽我們解釋……」"
+    },
+    {
+      "Text": "（向伊織說明了目前為止的情況）"
+    },
+    {
+      "Name": "伊織",
+      "Text": "也就是說……便利屋68和那位阿拜多斯的學生都不是為了拿到賽錢箱裡的錢。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "真的只是想要把賽錢箱拿回去而已？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "……你要我相信這件事？"
+    },
+    {
+      "Text": "[s]「相信我！拜託！」"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "繼續說下去可能也沒什麼用。腦袋還是跟以前一樣頑固……"
+    },
+    {
+      "Name": "伊織",
+      "Text": "哈啊！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "伊織，狀況如何？全都收拾好了嗎？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "啊，亞子醬！\n那個，遇到了一點妨礙……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "妨礙……？\n……難道是黑龜組！？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "（……黑龜組？）"
+    },
+    {
+      "Name": "伊織",
+      "Text": "不，是便利屋68和一名阿拜多斯的學生。還有老師。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我們才沒有妨礙！突然展開襲擊的是你們才對吧！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……便利屋68和阿拜多斯，還有老師？"
+    },
+    {
+      "Text": "[s]「嗨，亞子。新年快樂。」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "老師怎麼會……那個，祝您新年快樂。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不對，請等一下，這究竟是……？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "原來如此……我大概明白了。\n便利屋68的各位和阿拜多斯的那位同學一起為了搶回賽錢箱而展開了追擊，\n並且與夏萊合作……該這麼說嗎，將夏萊納入了友方。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "真是狡猾的手段……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "話說回來，風紀委員會看起來挺閒的呢。\n說是要追問題兒童，卻有空找路過的人吵架。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀，真是感謝你的關心。\n表面上裝作若無其事的樣子，說話卻意外的不服輸，依然很有佳世子同學的作風呢。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "畢竟以我們的立場來看也處於被妨礙的狀況啊。希望你們能讓開。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "這樣啊……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……"
+    },
+    {
+      "Name": "無月",
+      "Text": "咯呵呵。那麼，接下來會怎麼樣呢～？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "？？？"
+    },
+    {
+      "Text": "[s]「那個……」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "唉……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "算了，無所謂。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……伊織，我說過要你收拾問題兒童，可沒叫你跟夏萊起衝突哦？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "你都在做些什麼啊，真是的。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "難道伊織是因為太喜歡風紀委員會的工作，所以就算是新年也不想回家嗎？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "遷怒的也太明顯了吧！？而且亞子醬，這是我的錯嗎！？\n都在難得的假日出動了還要被這樣對待！？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "亞子醬才是把工作都交給我，這段時間都在做什麼！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "只是為了蒐集情報所以才花了這麼多時間。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "以凱坦澤偷走賽錢箱為起點引發的一連串小騷動。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "其實並不是此次事件的重點。"
+    },
+    {
+      "Text": "[s]「什麼意思？」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "從結論來說，這次在「大吉殿」發生的事件……\n都是由名為黑龜組的組織策畫的一場天大的騙局。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "咦咦！？"
+    },
+    {
+      "Text": "[s] 「黑龜組……？」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "是的。犯罪組織「黑龜組」……而「大吉殿」可以說是他們用來洗錢的地方吧。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "什，什麼意思！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "就是字面上的意思，那個賽錢箱是用來處理非法資金的。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "事情很簡單。將違法獲得的資金先投入賽錢箱，\n這樣就能避開女武神警察學園等等治安單位的眼目。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "如此一來，即使或多或少有些可疑，也不會強制對賽錢箱出手吧。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "當然，如果移動的資金規模太大就另當別論了。\n然而黑龜組還準備了另一個手段。"
+    },
+    {
+      "Text": "[s]「你說另一個手段，難道是……？」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "沒錯。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "就是利用媒體和社群網站。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "記得是「實現願望的地方」之類的那種無趣口號吧。\n實際上效果相當顯著，已經成為了眾所皆知的名勝。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "接著便如您所見，被吸引過來的「傻瓜」們擠得水洩不通。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "唔……！？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……由於大肆宣傳的關係，來這裡投香油錢的人數也增加了。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "想當然耳，香油錢的金額自然也水漲船高……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "導致原本黑龜組的非法資金究竟有多少，現在已經不得而知了。"
+    },
+    {
+      "Text": "[s]「所謂藏木於林……」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀，感覺好像……早就看穿了呢？\n不愧是你，佳世子同學。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉，少說那些口是心非的話了……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "話說「大吉殿」這個名字，作為那種地方的名稱也有點奇怪吧？\n而且「實現願望」這種事，如果只是傳聞就算了，\n竟然敢自己說出來，即使遭到天罰也不奇怪。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "先，先等一下！\n這麼說，「實現願望的地方」和「沾染汙穢的話願望就會反噬」全都是騙人的……？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "汙穢……反噬……？\n這些我都是第一次聽說……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……這，這樣啊！我，我早就知道了！\n全都是詐欺對吧，沒錯我當然知道！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "那麼「搶回賽錢箱的話就把所有錢給他」也是……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "如果變成搶劫事件的話，女武神之類的機關勢必會介入。\n也許是想盡可能地拖延這種情況吧？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "用「這不是需要勞煩各位警察的事，只是新年的活動罷了」……之類的說法。"
+    },
+    {
+      "Name": "無月",
+      "Text": "啊哈哈哈！"
+    },
+    {
+      "Name": "無月",
+      "Text": "想偽裝成精心策畫的整人活動嗎？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "而且，黑龜組的目的也許不僅只於此……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "我，我是被那種地方雇來當巫女嗎……！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "話說既然是犯罪組織就不要雇用巫女啊，對巫女很失禮的吧！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "在被黑龜組掌控之前就是那種地方了，巫女們恐怕什麼都不知道吧……"
+    },
+    {
+      "Text": "[s3]「不管怎麼樣，我都覺得茜香穿著巫女服的模樣很棒！」"
+    },
+    {
+      "Text": "[s4]「不管怎麼樣，我都覺得茜香作為巫女的心意是真的！」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦，咦咦……！？其，其實我也沒有特別在意，被奇怪的人雇用這件事啦……\n雖然你這麼說我很高興……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦，咦咦……！？其，其實我也沒有特別在意，被奇怪的人雇用這件事啦……\n雖然你這麼說我很高興……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "我只要做好該做的事……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "領到該領的打工費就好了。"
+    },
+    {
+      "Text": "[s5]「這麼一來，凱坦澤他們……」"
+    },
+    {
+      "Text": "[s6]「難道真的是為了正義……？」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "依照解釋方式的不同，或許可以那麼說吧？\n這就取決於他們是如何定義「正義」了。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "依照解釋方式的不同，或許可以那麼說吧？\n這就取決於他們是如何定義「正義」了。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "也許他們是想做些義賊般的事也說不定……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不過真相為何就不清楚了。\n畢竟我們本來就不清楚凱坦澤的身分與目的。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "但老實說那都無所謂。\n對我們風紀委員會來說，重要的是平息目前發生在格黑娜附近的混亂。"
+    },
+    {
+      "Text": "[s]「原來如此。」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "是的，無論對方是凱坦澤、黑龜組還是校內的問題兒童都沒關係。\n想趁委員長不在的時候擾亂格黑娜的風紀的話，就由我來導正他們吧。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "事情就是這樣，不能再浪費時間了。\n伊織，請繼續追趕問題兒童們吧……還有，老師。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "明明才新年第一天，您就和往常一樣被捲入無謂的騷動之中了呢……\n當好人還是該有個限度比較好唷。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "那麼，再會。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "亞子醬看來不打算讓我休息啊……"
+    },
+    {
+      "Name": "伊織",
+      "Text": "……呼。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "那麼便利屋，你們也別再惹出更大的麻煩了哦！"
+    },
+    {
+      "Name": "伊織",
+      "Text": "老師，再見。今年也請多指教。\n……那麼繼續追趕問題兒童吧。風紀委員會，走吧！"
+    },
+    {
+      "Name": "風紀委員們",
+      "Text": "是！！"
+    },
+    {
+      "Text": "（於是風紀委員會便如風一般地離開了）"
+    }
+  ]
+}

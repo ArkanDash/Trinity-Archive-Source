@@ -1,0 +1,2342 @@
+{
+  "TitleJP": "出版と重版、そして流通",
+  "TitleKR": "출판. 증쇄. 유통.",
+  "TitleEN": "Publishing, Reprinting, and Distribution",
+  "TitleTH": "ตีพิมพ์ พิมพ์เพิ่ม วางจำหน่าย",
+  "TitleTW": "出版、再版、流通",
+  "DescJP": "タカネのヒントを元に出版部にやってきた先生とメル。二人はそこで出版部の部長であるヤクモに『ルナ』最終巻の情報について尋ねる。しかし、ただで情報を教えるのは、と渋るヤクモに対し、交渉の末、メルは取引を呑むのだった。",
+  "DescKR": "타카네의 단서를 따라 출판부의 인쇄소에 도착한 선생님과 메루. 두 사람은 그곳에서 출판부의 부장 야쿠모를 만나고, 흥정 끝에 정보와 상응하는 무언가를 거래한다.",
+  "DescEN": "Following Takane's clue, Sensei and Meru arrive at the Publishing Department's printing office. There, they meet Yakumo, the head of the Publishing Department. After some haggling, they manage to trade for some helpful information.",
+  "DescTH": "คุณครูกับเมรุไปถึงโรงพิมพ์ของชมรมสื่อสิ่งพิมพ์ตามเบาะแสที่ได้จาก\nทาคาเนะ ทั้งสองได้เจอกับยาคุโมะที่เป็นหัวหน้าชมรมสื่อสิ่งพิมพ์\nและจบการต่อรองด้วยการแลกเปลี่ยนบางอย่างที่สอดคล้องกับข้อมูล",
+  "DescTW": "按照貴音的線索，老師和愛瑠來到出版部的印刷所。兩人在那裡遇見了出版部的部長八雲，在一番討價還價過後，八雲接受了與情報相應的條件。",
+  "DialogJP": [
+    {
+      "Text": "第3話;出版と重版、そして流通"
+    },
+    {
+      "Name": "メル",
+      "Text": "タカネのやつ……わけ分かんないことばっか言って。"
+    },
+    {
+      "Name": "メル",
+      "Text": "も～！全然意味わかんない！"
+    },
+    {
+      "Text": "[s] \"でもほら、手がかりはくれたじゃない？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "……うーん。そうね。\nそれにしては、なんかちょっと……要領を得ないというか。"
+    },
+    {
+      "Text": "[s] \"タカネは……『ルナ』について何を知っているんだろうね？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "さあ……でも、出版部を訪ねてみろというのはある意味では正しいと思う。"
+    },
+    {
+      "Name": "メル",
+      "Text": "出版部には、レッドウィンターから出版された全ての本に関する資料が集まってるの。\nまぁ、自分たちが出版してるんだから当たり前よね。"
+    },
+    {
+      "Name": "メル",
+      "Text": "あいつの言う通りにするのは癪だけど……足を運ぶ価値はあると思う。"
+    },
+    {
+      "Name": "メル",
+      "Text": "『ルナ』の資料も、きっとそこにあるはずだから……"
+    },
+    {
+      "Text": "[ns] \"……ここが出版部……？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "そう。レッドウィンター連邦学園で売られている本のほとんどはここで作られてるよ。"
+    },
+    {
+      "Text": "[s] \"すごいね。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "あはは……感心するような場所では……"
+    },
+    {
+      "Name": "メル",
+      "Text": "まぁ……ちょっと色々と[ruby=・    ・    ・    ・    ・    ・]普通じゃない[/ruby]ものも印刷してるからさ……"
+    },
+    {
+      "Name": "メル",
+      "Text": "……「知識解放戦線」の会誌を印刷する時にもお世話になってるから、あんまり悪くは言いたくないんだけど……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そんな小声で言っても、全部聞こえてますけどねぇ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "ゲ、現れた……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "はいはぁい、普通じゃない出版部の責任者参上でございます。\nどんな風の吹き回しでここに来たのかは知りませんが、お会いできて嬉しいですよ、メル。\nそれとも……ハンドルネームのメルリー先生、と呼んで差し上げましょうか？"
+    },
+    {
+      "Name": "メル",
+      "Text": "……メルでいいよ、ヤクモ。"
+    },
+    {
+      "Text": "[s] \"ヤクモが出版部の部長？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ええ。私が部長の[ruby=あらまき]荒槇[/ruby]ヤクモです。以後お見知りおきを。\n我が出版部は、印刷・製本・包装・管理・営業から事業拡大まで……本に関する事であれば何でも取り扱っている、出版のエキスパートでございます。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ちなみに……「レッドベア」の編集も担当しておりますよ。ムフフ。"
+    },
+    {
+      "Text": "[ns1] \"色々やっててすごいね……これが「レッドベア」？\""
+    },
+    {
+      "Text": "[ns2] \"見たことある気がする。チェリノが出してるやつ……だよね？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ええ、そうです。"
+    },
+    {
+      "Text": "（その時、紙のようなものが視界の端をひらひらしながら落ちていった）"
+    },
+    {
+      "Text": "[ns3] \"これは……チラシ……？\""
+    },
+    {
+      "Text": "[ns4] \"「ヨーグルトのふたを舐めずに捨てる、ひげ暴君を糾弾する！」……？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "うわぁ……まだこんなのも印刷してるんだ……"
+    },
+    {
+      "Text": "[ns5] \"チェリノのプロパガンダ雑誌とチェリノを糾弾するチラシを……\""
+    },
+    {
+      "Text": "[ns6] \"同時に印刷して大丈夫なの！？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "何かおかしいところでもありますかねぇ？\n顧客のニーズに応えて売上が2倍になるのなら、それに越したことはないでしょう？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "例えば、「レッドベア」の中でチェリノ会長称賛特集とチェリノ会長風刺漫画を同時に掲載すれば、それぞれの読者層が広がるわけですよ。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "得しかないのに、どうして片方だけに絞る必要が？ムフフフフ。"
+    },
+    {
+      "Text": "[s] \"それはそうだけど……ちょっと奇抜な考え方だね。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "お褒めの言葉をありがとうございます。\nそれで……こちらの方は何とお呼びすれば？"
+    },
+    {
+      "Text": "[s] \"自己紹介が遅れました。シャーレの[USERNAME]先生です。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "あなたが！？\n……危ない危ない。出版部部長としての営業スマイルが乱れるところでした。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "それでは改めて……出版部へようこそ。\n先生のお噂はかねがね……あまりにも様々な噂を聞くものだから、集団幻覚なのではないかとさえ思っておりましたよ。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ああ……時に、次号の「レッドベア」特集で先生の伝記を掲載したいのですが……いかがでしょう？"
+    },
+    {
+      "Text": "[s] \"謹んでお断りします。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そんな事言わないでくださいよぉ……これは先生にとっても良い企画になるんですよ？\nまずは話だけでも……"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "納期を守らず、ネタがマニアックすぎてファン層も薄い「知識解放戦線」と手を組むよりは、よほど[ruby=事務局]バック[/ruby]がしっかりしている我々と組んだ方が――"
+    },
+    {
+      "Name": "メル",
+      "Text": "……一応、事務局がバックについてるのって極秘事項じゃないの？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "あちゃ～私としたことがついつい口が滑ってしまいました。\n聞かなかった事にしてくださると――"
+    },
+    {
+      "Text": "[s] \"話の途中でごめん……私たちは、出版部に聞きたいことがあって来たんだ。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "おっと……これは取引ですねぇ？私が先生のお願いを聞く代わりに、先生も私の頼みを聞いてくださるというものだと考えても？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "なぁんだ、話が合うじゃないですかぁ。もう……先生もお人が悪い。\nそれならそうと先に言ってくださいよぉ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "そういうのじゃないんだけど……\nそろそろちゃんと話を聞く癖つけたら？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "あら、違うんですか？"
+    },
+    {
+      "Name": "メル",
+      "Text": "当たり前でしょうが！"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "メルには聞いておりませんが。\n私は今、先生とお話をしているんです。"
+    },
+    {
+      "Text": "[s] \"いいよ。私たちの質問に答えてくれるなら、出版部に協力する。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "ちょっと先生！？なに要求されるかわかったんもんじゃないよ！？\n生皮剥がれちゃうかもしれないんだよ！？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "いや……メルは一体何を……？出版部では皮なんて扱ってませんよぉ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "それは、比喩というか……なんというか……"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "おかしな人ですねぇ……"
+    },
+    {
+      "Text": "[s] \"……ん？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "……？"
+    },
+    {
+      "Text": "[ns] \"それで、本題なんだけど。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "『ルナ』ですか……"
+    },
+    {
+      "Name": "メル",
+      "Text": "うん。何か知ってる？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "どこかで聞いたような……聞いてないような……\n川の向こうで昔飼ってた猫が手を振っているような……"
+    },
+    {
+      "Name": "メル",
+      "Text": "なんか最後の違くない……？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ああ……思い出しました。\nたしかに、そんな名前の漫画がありましたねぇ。"
+    },
+    {
+      "Text": "[s] \"本当？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "とはいえ、かなり昔に出版されたものですので……うーん。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "あ～～……少しずつ思い出してきましたよぉ。\nところで、どうして[ruby=ここ]出版部[/ruby]に？古本屋で探せば良いでしょうに。"
+    },
+    {
+      "Text": "[s] \"タカネに、ここで手がかりが見つかるって言われて……。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ああ……なるほど……そういうことでしたか……タカネったら……。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ふむふむ、なるほど。う～む……"
+    },
+    {
+      "Text": "[s] \"それで、何か分かりそう？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そうですねぇ。手がかり、か……たしかにそれらしきものはあります。\n先生とメルにとっては朗報になるようなものなら……"
+    },
+    {
+      "Name": "メル",
+      "Text": "お、さすが！どういうのなの？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "まず始めに、『ルナ』の最終巻に関しては私もよく知りません。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そんなガッカリした顔しないでくださいよぉ……ここからが本題です。"
+    },
+    {
+      "Name": "メル",
+      "Text": "もったいぶってないで早く教えてよね……"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "『ルナ』は、昔から細々と生き延びているジャンルでして……\nルナ界隈の人たちは、今でも不定期にオフ会を開いているそうなんです。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そこで定期的に「活動」しているらしいですよぉ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "『ルナ』が未だにジャンルとして生き延びている……？"
+    },
+    {
+      "Text": "[s7] \"完結した後も、ファン同士で集まって活動してるってこと？\""
+    },
+    {
+      "Text": "[s8] \"レッドウィンターでは割と普通な事だったりする？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "いや……普通のことではないよ……"
+    },
+    {
+      "Name": "メル",
+      "Text": "作品が完結した後もたまに話題に上がったり、懐かしまれるのはよくある話だけど……"
+    },
+    {
+      "Name": "メル",
+      "Text": "完結した後もずっとジャンルとして活動を続ける人がいて……\nたまにオフ会が開かれる規模の界隈が残ってるっていうのは……"
+    },
+    {
+      "Name": "メル",
+      "Text": "普通は、あんまりないかも……いや、どのジャンルだって人はいるだろうけど……\nここまで活動が盛んな界隈は珍しい……"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "まぁ、それだけファンの熱量が続くほどの人気作だったって事なんでしょうねぇ。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "しかし……"
+    },
+    {
+      "Text": "[s9] \"そのオフ会がいつ、どこで開かれるかとかは……\""
+    },
+    {
+      "Text": "[s10] \"流石のヤクモも知らないよね……。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "いえ、知ってますよぉ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "知ってるんかい！！\nというか、ここは「流石にそこまでは……」ってなるのがお約束じゃないの！？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そこはそれ。ちょ～っとしたルートがありまして……"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "我々は出版部ですからねぇ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "さっきはあんまり覚えてないって言ってなかった！？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "いやいや……すぐ思い出せないって言っただけですよぉ。\n――オフ会の日時と場所についてなのですが……"
+    },
+    {
+      "Name": "メル",
+      "Text": "どこでやってるの？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ムフフフ……その前に、この辺りで情報の対価を決めたいところですねぇ。"
+    },
+    {
+      "Text": "[s] \"そうだね……情報は無料じゃないんだし、ちゃんと決めないとね。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "そういうことです。話が早くて助かります。"
+    },
+    {
+      "Name": "メル",
+      "Text": "先生に一体なにを要求するつもりなのよ。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "いえ？用があるのはメルの方です。"
+    },
+    {
+      "Name": "メル",
+      "Text": "え？私！？"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "大したことではありませんよぉ。\n後日、「原稿」の執筆をお願いしたく……"
+    },
+    {
+      "Name": "メル",
+      "Text": "えっ！原稿！？嫌だけど！？\nあんたにまともな依頼された事ないもん！"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "あれぇ～？『ルナ』の情報、いらないんですかぁ？そうですかぁ……\nメルの本気は所詮、その程度だったんですねぇ。残念ですぅ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "うっ……！"
+    },
+    {
+      "Name": "メル",
+      "Text": "（くっ……モミジに謝るためだ……そのためなら……）"
+    },
+    {
+      "Name": "メル",
+      "Text": "わ、分かった……やればいいんでしょう！？"
+    },
+    {
+      "Text": "[s] \"メル、大丈夫なの？無理してない？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "モミジのためだもん……これくらいはやってやるわよ……！"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ムフフ……素晴らしい同志愛ですねぇ、メルリー先生。"
+    },
+    {
+      "Text": "[s] \"メル……。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "でも、変なものだったら描かないからね！\n「私に描けるもので、心から納得したもの」じゃなきゃ描かないよ！"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ムフフ……それならご心配なく。\n依頼原稿は間違いなく「作家メル自身も愛してやまない」作品になりますから。"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "いいでしょう！それでは、約束がきちんと履行されなかった場合、メルのタブレットとペンを担保に入れるという事でこの契約書にサインしてください。"
+    },
+    {
+      "Name": "メル",
+      "Text": "鬼！悪魔！"
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "元来、編集者なんてクリエイターにとっては悪魔のようなものですから。\nさあ、早く。"
+    },
+    {
+      "Text": "[ns] \"私は何もしなくて大丈夫なの……？\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ああ、それはですねぇ……後日改めてお話させてください。\nその方が面白そうですから。ムフフ。"
+    },
+    {
+      "Text": "[s] \"お、お手柔らかにお願します……。\""
+    },
+    {
+      "Name": "ヤクモ",
+      "Text": "ムフフフフ……"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;출판. 증쇄. 유통."
+    },
+    {
+      "Name": "메루",
+      "Text": "타카네 녀석…… 영문 모를 소리나 하고 말이야. "
+    },
+    {
+      "Name": "메루",
+      "Text": "아직도 납득이 안 돼!"
+    },
+    {
+      "Text": "[s] \"그래도 단서는 줬잖아?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "……으음. 그러게. 그건 어쩐지 평소와 좀 달랐다고 할지."
+    },
+    {
+      "Text": "[s] \"타카네는…… <루나>에 대해 뭘 알고 있었던 걸까?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "글쎄…… 하지만 출판부를 찾아가 보라는 건 맞는 말인 것 같아. "
+    },
+    {
+      "Name": "메루",
+      "Text": "녀석의 말을 그대로 따르는 건 지는 기분이라, 솔직히 마냥 달갑지는 않지만."
+    },
+    {
+      "Name": "메루",
+      "Text": "출판부에는 붉은겨울에서 지금까지 출판된 모든 책에 대한 자료가 남아 있을 거고."
+    },
+    {
+      "Name": "메루",
+      "Text": "그중에는 분명…… <루나>에 대한 자료도 있겠지."
+    },
+    {
+      "Text": "[ns] \"……여기가 출판부……?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "맞아. 붉은겨울 학원에서 유통되는 대부분의 책은 여기에서 만들어지고 있어."
+    },
+    {
+      "Text": "[s] \"굉장하네.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "굉장하네. 라고 순수하게 감탄하기에는……"
+    },
+    {
+      "Name": "메루",
+      "Text": "좀…… 여러 가지로 평범하지 않은 것들을 잔뜩 인쇄하고 있다고 할까……"
+    },
+    {
+      "Name": "메루",
+      "Text": "……<지식해방전선>의 회지를 인쇄할 때 가끔 신세를 지기도 하니까, 마냥 별난 곳 취급하기도 조금 그렇긴 하지만……."
+    },
+    {
+      "Name": "???",
+      "Text": "그렇게 작게 말해 봤자 다 들린다고요."
+    },
+    {
+      "Name": "메루",
+      "Text": "으엑. 나타났다……."
+    },
+    {
+      "Name": "???",
+      "Text": "네. 네. 반갑지 않은 출판부의 책임자, 나타났습니다. 무슨 바람이 불어서 스스로 여기까지 온 것인지 모르겠지만. 반갑네요, 메루. 아니면 필명인 메루리로 불러 줄까요?"
+    },
+    {
+      "Name": "메루",
+      "Text": "……메루로 충분해. 야쿠모."
+    },
+    {
+      "Text": "[s] \"책임자……?!\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "네. 여기는 출판부랍니다. 출판물 인쇄, 제본, 포장, 관리, 영업, 사업 확충까지 책에 관련된 거라면 뭐든 다루고 있죠. 저는 그 부장을 맡고 있는 아라마키 야쿠모라고 하고요. "
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "덧붙여서 잡지 <붉은 곰>의 인쇄를 담당하고 있기도 하답니다. 힛. 힛. 히."
+    },
+    {
+      "Text": "[ns1] \"뭔가 엄청난 걸…… 이건 <붉은 곰?>?\""
+    },
+    {
+      "Text": "[ns2] \"본 적 있는 것 같아. 체리노의 선전물…… 같은 거지?\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "네, 맞습니다."
+    },
+    {
+      "Text": "(그때 무언가 종이 같은 것이 팔랑거리면서 떨어졌다.)"
+    },
+    {
+      "Text": "[ns3] \"거기다 이건…… 다른 전단지……?\""
+    },
+    {
+      "Text": "[ns4] \"<요거트 뚜껑을 핥지 않고 버리는 저 가증스러운 수염을 규탄한다!>……?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "우와…… 또 이런 걸 인쇄하고 있네."
+    },
+    {
+      "Text": "[ns5] \"어?! 체리노 선전물과 체리노를 규탄하는 전단지를…….\""
+    },
+    {
+      "Text": "[ns6] \"동시에 인쇄해도 괜찮은 거야?!\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그게 뭐 이상한가요? 이러면 매출이 두 배로 뛰잖아요."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "가령 <붉은 곰>만 해도, 체리노 회장 찬양 특집과 체리노 회장 풍자만화를 동시에 수록하면, 각기 그걸 보고 싶어 하는 양쪽의 독자가 집어 들기 마련이죠."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "둘 다 해버리면 이득이 확실한데, 왜 둘 중 하나만 골라야 하느냐는 거죠. 힛. 힛. 히."
+    },
+    {
+      "Text": "[s] \"어떤 의미로는 따라가기 힘든 대범한 사고방식이네!\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "칭찬 감사합니다. 그래서…… 이쪽 분은 뭐라고 불러 드리면 되죠?"
+    },
+    {
+      "Text": "[s] \"선생님인데요.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "네?! 흐, 흐음. 위험했네요. 자칫하면 항상 웃음과 여유를 잃지 않는 출판부의 부장으로서의 영업 페이스가 흔들릴 뻔했어요."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그러면 다시 한번…… 출판부에 오신 것을 환영합니다. 선생님. 말씀은 많이 들었어요. 너무 많이 들은 나머지 실제로 존재하는 인물인가에 대해 의문마저 들 정도였지만요."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아, 그러고 보니 다음번 월간 <붉은 곰> 특집으로, 출판부를 방문하신 선생님의 전기 특집을 건의할까 하는데요. 어떠신가요, 선생님? "
+    },
+    {
+      "Text": "[s] \"안 해요.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "에이. 그러지 마시고요. 속고만 사셨나. 들어 보세요. 이거 선생님께도 좋은 이야기라니까요?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "저렇게 납기 안 지키고 팬층도 살짝 애매한 데다 소재도 매니악한 <지식해방전선>과 손을 잡는 것보다는, 확실한 자본력과 홍보력, 그리고 사무국이라는 든든한 뒷배경을 두고 있는 저희 출판부와 협업하시는 편이-"
+    },
+    {
+      "Name": "메루",
+      "Text": "……일단은 사무국이 배경이라는 건 비밀 아니었어……?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "앗차, 영업에 열중하다 보니 말이 헛나왔네요. 그 부분은 잊어 주시기를 바라며, 이야기를 계속해 보자면-"
+    },
+    {
+      "Text": "[s] \"우리는 묻고 싶은 게 있어서 출판부를 찾아왔어.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "오, 이것은 거래로군요. 제가 선생님의 이 요청을 해결해 드리면, 선생님도 제 부탁을 들어 주시겠다는 암묵적인 약속이라고 봐도 되는 거겠지요?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "뭐야, 이야기가 통하지 않습니까. 이것 참, 선생님도 사람이 나쁘시네요. 그런 거라면 진작에 그랬다고 말씀을 하시지, 괜히 제가 오해하고 말았잖아요."
+    },
+    {
+      "Name": "메루",
+      "Text": "그런 거 아니니까 이제 슬슬 남의 말을 듣는 버릇을 들이지 그래. 야쿠모?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그런 거 아니었어요?"
+    },
+    {
+      "Name": "메루",
+      "Text": "절대로! 아니거든!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "메루는 가만히 좀 있어요. 지금 선생님에게 묻고 있잖아요. 어떠신가요. 선생님?"
+    },
+    {
+      "Text": "[s] \"좋아. 우리의 질문에 답을 해준다면, 출판부에 협력할게.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "선생?! 그런 말 함부로 하면 가죽이 벗겨질지도 몰라!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "저기, 메루는 대체 무슨 말을 하는 건가요……?"
+    },
+    {
+      "Name": "메루",
+      "Text": "아니, 방금 그건 당연히 비유의 하나로서……"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "가죽은 출판부에서 취급할 만한 제품이 아니잖아요?"
+    },
+    {
+      "Text": "[s] \"……응?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "……."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "……?"
+    },
+    {
+      "Text": "[ns] \"그, 그래서 일단 본론인데 말이야.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "<루나>요……?"
+    },
+    {
+      "Name": "메루",
+      "Text": "응. <루나>."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "잠깐만요. 어딘가에서 들은 듯한, 못 들은 듯한…… 가물가물한 기억 저편에서 검은 옷을 입은 고양이가 손수건을 팔랑거리며 이쪽을 쳐다보고 있는 것 같은……."
+    },
+    {
+      "Name": "메루",
+      "Text": "……그거 어딘가 위험한 거 같은데……."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아아…… 생각났어요. 분명 그런 만화의 이름을 들은 것 같네요."
+    },
+    {
+      "Text": "[s] \"정말이야?\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그렇다고는 해도 제법 예전에 출판된 만화였어서…… 으음. 이래서야 제가 제대로 된 기억을 단번에 떠올리지 못했던 것도 당연하겠네요."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아, 아, 아. 네. 이것저것 기억났어요. 그런데 왜 <루나>에 대한 걸, 출판부에 문의를?"
+    },
+    {
+      "Text": "[s] \"타카네가 이곳에 오면 단서를 얻을 수 있을 거라고 했어.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아하…… 과연…… 그런 거였나요…… 타카네도 참……."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "흐음. 아하. 으으음. 힛. 힛. 히."
+    },
+    {
+      "Text": "[s] \"그래서, 단서를 알려줄 수 있을까?\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그렇군요. 단서라…… 확실히 단서라면 있습니다. 선생님과 메루가 듣기에는, 어쩌면 꽤나 구미가 당길 정보가 말이지요."
+    },
+    {
+      "Name": "메루",
+      "Text": "오, 역시! 그래서 그게 뭔데?!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "우선, <루나>의 마지막 권에 대한 것은 저도 잘 모른다는 사실을 말해 두죠. "
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그렇게 실망한 표정 짓지 말라고요. 다음 정보도 있으니까."
+    },
+    {
+      "Name": "메루",
+      "Text": "애태우지 말고 빨리 이야기해!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "<루나>에는 상당히 오래된 팬덤이 있어요. 그리고 그 팬덤은 붉은겨울에서도 지금까지 살아남아…… 비정기적으로 모임을 갖고 있다고 하죠."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "거기에서 꾸준한 <활동>을 한다고 하던가요?"
+    },
+    {
+      "Name": "메루",
+      "Text": "<루나>를 좋아해서 비정기적으로 모이는 팬덤……?"
+    },
+    {
+      "Text": "[s7] \"완결난 뒤에도 계속 팬들이 모여서 활동을 한다고?\""
+    },
+    {
+      "Text": "[s8] \"붉은겨울에선 그게 보통이야? 메루?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "아니…… 그렇진 않아."
+    },
+    {
+      "Name": "메루",
+      "Text": "작품이 완결된 뒤, 몇 번 사람들 사이에서 이야기가 나오는 건, 뭐 그럴 수 있어."
+    },
+    {
+      "Name": "메루",
+      "Text": "하지만 완결이 난 뒤에도 꾸준히 언급이 되고…… 팬들이 모여 활동을 한다는 건……"
+    },
+    {
+      "Name": "메루",
+      "Text": "평범한 작품은 해낼 수 없는…… 그런 영역이긴 한데……."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "뭐, 그만큼 제법 역사가 있었던 만화였다는 뜻이기도 하겠죠."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "하지만……."
+    },
+    {
+      "Text": "[s9] \"하지만 그 모임이 언제, 어디에서 열리는지까지는.\""
+    },
+    {
+      "Text": "[s10] \"야쿠모도, 정확히는 모른단 뜻이겠구나…….\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아뇨. 아는데요?"
+    },
+    {
+      "Name": "메루",
+      "Text": "어째서?! 여기선 \"당연히 모르고 있어요.\" 라는 약속된 전개여야 하는 거 아냐?!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그거야 뭐, 나름의 휴민트라고 할까, 사람을 통한 정보 습득 루트가 있다고 할까. 그런 거죠."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "누가 뭐라 해도 저희는 출판부인걸요?"
+    },
+    {
+      "Name": "메루",
+      "Text": "아까는 잘 기억나지 않는다며?!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "이봐요. 얼른 기억해 내기 어렵다고 했지, 아예 모른다고는 하지 않았잖아요. 그리고 그 일시와 장소에 대한 것입니다만……."
+    },
+    {
+      "Name": "메루",
+      "Text": "뭔데. 뭔데?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "힛. 힛. 히. 이쯤에서 정보에 대한 대가를 요구하고 싶은데 말이죠."
+    },
+    {
+      "Text": "[s] \"그렇군. 상응하는 비용이 필요하다는 것인가.\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "그런 것입니다. "
+    },
+    {
+      "Name": "메루",
+      "Text": "야쿠모…… 대체 선생에게 무엇을 요구하려고?!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아뇨. 볼 일이 있는 건 메루예요."
+    },
+    {
+      "Name": "메루",
+      "Text": "엥? 나?"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "뭐, 대단한 건 아니에요. 추후 '원고'를 하나 부탁하고 싶달까."
+    },
+    {
+      "Name": "메루",
+      "Text": "으엑! 원고?! 싫어! 네가 의뢰한 원고 중에 제대로 된 건 하나도 없었단 말이야!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "어라? 싫어요? <루나>에 대한 정보, 필요하지 않은 모양이군요? 이런, 메루의 진심은 거기까지인가요? 실망이네요~"
+    },
+    {
+      "Name": "메루",
+      "Text": "윽……!"
+    },
+    {
+      "Name": "메루",
+      "Text": "(이것도 저것도…… 모미지에게 사과하기 위해서야……. 그래. 그걸 위해서라면…….)"
+    },
+    {
+      "Name": "메루",
+      "Text": "조, 좋아. 알았다고……. 하면 되잖아……."
+    },
+    {
+      "Text": "[s] \"메루, 그런 거래를 받아들여도 괜찮겠어?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "모미지를 위한 거니까. 이 정도쯤은…… 할 수 있어……!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "오오. 과연 눈물 없이는 볼 수 없는 동지애로군요."
+    },
+    {
+      "Text": "[s] \"메루…….\""
+    },
+    {
+      "Name": "메루",
+      "Text": "하지만 정말 이상한 건 안 그릴 거니까! '내가 그릴만한 거. 전력으로 납득한 거!' 그런 거가 아니면 안 돼!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "힛. 힛. 히. 그거라면 걱정 말아요. 아마 제가 부탁드릴 건. '메루라는 작가가 정말로 좋아해 마지않는 원고'가 될 테니까."
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "좋아요! 그러면 약속이 제대로 이행되지 않을 경우, 메루의 타블렛과 펜을 담보로 잡겠다는 이 계약서에 서명을 해 주면 되겠네요."
+    },
+    {
+      "Name": "메루",
+      "Text": "악마냐!"
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "원래 편집자는 창작자에게 있어서 악마 맞아요. 자. 어서요."
+    },
+    {
+      "Text": "[ns] \"나는 아무것도 안 해도 괜찮아……?\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "아, 그건 말이죠…… 나중에 다시 말씀드리겠습니다. 그편이 더 재미있을 것 같고요. "
+    },
+    {
+      "Text": "[s] \"선처, 부탁드립니다…….\""
+    },
+    {
+      "Name": "야쿠모",
+      "Text": "힛. 힛. 히."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Lesson 3; Publishing, Reprinting, and Distribution"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Leave it to Takane to talk nonsense... "
+    },
+    {
+      "Name": "Meru",
+      "Text": "I'm still not convinced she was actually helping us."
+    },
+    {
+      "Text": "[s] \"At least she gave us a clue, right?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "...Yeah. That was unusual."
+    },
+    {
+      "Text": "[s] \"Do you think Takane knows something about 'Luna' that we don't?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "I don't know... But we should definitely visit the Publishing Department. "
+    },
+    {
+      "Name": "Meru",
+      "Text": "Ugh! I hate to admit it, but I think she gave us decent advice."
+    },
+    {
+      "Name": "Meru",
+      "Text": "The Publishing Department has information about every book ever published in Red Winter."
+    },
+    {
+      "Name": "Meru",
+      "Text": "They're sure to have something about \"Luna\" too."
+    },
+    {
+      "Text": "[ns] \"This is the Publishing Department?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Yep. Most of the books distributed by Red Winter Academy are made here."
+    },
+    {
+      "Text": "[s] \"Amazing.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "'Amazing' is one word for it..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "They've been known to print some pretty unusual stuff. And I mean really unusual."
+    },
+    {
+      "Name": "Meru",
+      "Text": "They also do favors for the Knowledge Liberation Front when we need to print our newsletter. It's not exactly a fringe organization, but—"
+    },
+    {
+      "Name": "???",
+      "Text": "I can hear you even when you're quiet, you know."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Ugh. Here she is..."
+    },
+    {
+      "Name": "???",
+      "Text": "Yes, yes. The dreaded Publishing Department head is here. I don't know what brings you this way, but it's nice to finally meet you, Meru. Or should I call you, Meruri?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Meru is just fine, Yakumo."
+    },
+    {
+      "Text": "[s] \"You're the head of...?\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "The Publishing Department, yes. We handle everything related to books: printing, binding, packaging, management, sales, and business expansion. I'm Aramaki Yakumo. "
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "I also manage the 'Red Bear'. Heh."
+    },
+    {
+      "Text": "[ns1] \"Wow! This is the 'Red Bear'?\""
+    },
+    {
+      "Text": "[ns2] \"I think I've seen it before. Isn't it Cherino's...propaganda?\" "
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Yes, that's right."
+    },
+    {
+      "Text": "Just then, a sheet of paper fluttered past."
+    },
+    {
+      "Text": "[ns3] \"Is this...another flyer?\""
+    },
+    {
+      "Text": "[ns4] \"'I condemn abominable mustaches who throw away yogurt lids without licking them!'...?\" "
+    },
+    {
+      "Name": "Meru",
+      "Text": "Wow... You print stuff like this?"
+    },
+    {
+      "Text": "[ns5] \"You print both Cherino propaganda and flyers denouncing her?!\""
+    },
+    {
+      "Text": "[ns6] \"Is it okay to print them at the same time?!\" "
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Why wouldn't I? It doubles my sales."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Take the 'Red Bear', for example, if we include both a feature praising President Cherino and a caricature of President Cherino, we hit readers on both sides of the aisle."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Why choose one when you can make a profit off both? Heh. Heh. Heh."
+    },
+    {
+      "Text": "[s] \"That's one way to look at it. But the logic is a little tough to follow.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "I'll take that as a compliment. So... What shall I call you?"
+    },
+    {
+      "Text": "[s] \"Sensei.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "That's who you are?! Eh-hem. Apologies. I nearly lost my composure. I pride myself on being the laid-back head of publishing."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Anyway... Welcome to to the Publishing Department, Sensei. I've heard so many amazing things about you that I started to wonder if you were even real."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "You know, we need a feature for the next issue of the 'Red Bear'. Why don't we run a special interview featuring Sensei's tour of the Publishing Department? "
+    },
+    {
+      "Text": "[s] \"No.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Oh, come on! You can trust us. You'll benefit from it too, you know."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "The Knowledge Liberation Front regularly misses deadlines, has an ambiguous fan base, and prints all kinds of strange material. The Publishing Department, however, has solid capital, publicity, and strong backing from the Secretariat Office."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Isn't that whole Secretariat Office thing supposed to be a secret?"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Oops! I got caught up in the sales pitch. Just pretend you didn't hear that little tidbit. Now, let's continue with the story."
+    },
+    {
+      "Text": "[s] \"We're here because we need some information.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Oh! A deal, is it? I help you, and you grant me a favor in return?"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "I'm glad we have an understanding after all. Though, you're quite naughty, Sensei. If you had a deal in mind, you should have said so and avoided all this confusion!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Clean out your ears, Yakumo. Sensei didn't say anything like that."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Oh. It's not like that?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Never! No!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Meru, calm down. I'm asking Sensei what they meant, not you."
+    },
+    {
+      "Text": "[s] \"If you answer our questions, I'll do your interview.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Sensei?! You'll be skinned alive for agreeing to that!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Excuse me, but...skinned alive?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I meant that figuratively, not literally, of course."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Ah. Fine. The Publishing Department doesn't work with leather anyway."
+    },
+    {
+      "Text": "[s] \"...Huh?!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "..."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "...?"
+    },
+    {
+      "Text": "[ns] \"W-Well, anyway... Let's get to the point.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "The point being \"Luna\"."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Ah, yes. \"Luna\"."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "The name sounds familiar or like... It feels like a black cat is staring at me, its bandana flapping in the breeze, from the far recesses of my memory..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "That sounds rather dangerous."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Aha! I know why. The name reminded me of a similar story."
+    },
+    {
+      "Text": "[s] \"Really?\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Yes. It was a comic published ages ago. I doubt it's still around... Anyway, that's why I couldn't remember the right one."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Ah, yes. It's coming back to me now. But why did you come to the Publishing Department?"
+    },
+    {
+      "Text": "[s] \"Takane said we should come here for a clue.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Really? Takane..."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Hmm... Aha... Mmm... Heh heh heh..."
+    },
+    {
+      "Text": "[s] \"So? Can you give us a clue?\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Right! A clue. Certainly! Something Sensei and Meru would find interesting, perhaps even fascinating."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Yes! Yes! What is it?!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Well, I don't know much about the last volume of \"Luna\". "
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "But don't worry. I've still got juicy info for you."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Then quit beating around the bush and tell us!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "\"Luna\" boasts a very old, very dedicated fandom. It is alive in Red Winter even now. They still meet occasionally."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "They're pretty lively most of the time..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "The fandom still meets over their shared love of \"Luna\"?"
+    },
+    {
+      "Text": "[s7] \"Fans that still gather even after the work is finished?\""
+    },
+    {
+      "Text": "[s8] \"Is that normal in Red Winter, Meru?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "No... It isn't."
+    },
+    {
+      "Name": "Meru",
+      "Text": "I mean, sure, once a work is complete, you might hear people talking about it from time to time."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But if fans are talking about it and even rallying around it..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Well, not every work is good enough to earn that kind of dedication."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Yes. The comic has quite a history."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "But..."
+    },
+    {
+      "Text": "[s9] \"But as far as when and where the gathering takes place...\""
+    },
+    {
+      "Text": "[s10] \"You don't know, do you?\" "
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Uh, actually, I do."
+    },
+    {
+      "Name": "Meru",
+      "Text": "What?! How?! I thought for sure you'd tell us you had no idea!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Well, I am rather well informed. I have quite the network of sources after all."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "After all, we are the Publishing Department, no matter what anyone thinks of us!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "But earlier, you said you couldn't remember that well!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "I said it was hard to remember quickly, not that I don't know at all. Anyway, about the time and place..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "What is it? What is it?"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Heh. Heh. Heh. Not so fast. First we need to discuss payment."
+    },
+    {
+      "Text": "[s] \"I see. You want to be compensated.\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Indeed. "
+    },
+    {
+      "Name": "Meru",
+      "Text": "Yakumo... What are you going to ask Sensei to give you now?!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Not Sensei... Meru. I want something from you."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Hmm? Me?"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Yes. Nothing major. I may ask you to provide a manuscript in the future."
+    },
+    {
+      "Name": "Meru",
+      "Text": "A manuscript?! No way! None of the ones you've commissioned have been any good at all!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "No? Then I suppose you don't need the information about \"Luna\" after all. I'm disappointed..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Urgh!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "(Since it's for Momiji... Yeah, I can do it for Momiji.)"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Okay... I'll do it."
+    },
+    {
+      "Text": "[s] \"Are you sure you're okay with this deal, Meru?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Yes. It's for Momiji. I can do this!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Oooh! Such a beautiful display of camaraderie brings a tear to my eye."
+    },
+    {
+      "Text": "[s] \"Meru...\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Wait! I have conditions! I won't do anything really weird. It has to fit my style, something I believe in!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Heh. Heh. Heh. Don't worry about that. If the manuscript I want happens to align with Meru's preferences, then so much the better for both of us..."
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Now, I just need you to sign this contract agreeing that your tablet and pen are forfeit if you don't fulfill your end of the deal."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But... That's so cruel!"
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Yes, I suppose to a creator, an editor would seem cruel. Now, please..."
+    },
+    {
+      "Text": "[ns] \"Does that mean I don't have to do anything?\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Ah, why don't we discuss that later? It'll be more fun that way. "
+    },
+    {
+      "Text": "[s] \"Please be kind...\""
+    },
+    {
+      "Name": "Yakumo",
+      "Text": "Hee. Hee. Hee."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;ตีพิมพ์ พิมพ์เพิ่ม วางจำหน่าย"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ยัยทาคาเนะ... พูดอะไรไม่เห็นรู้เรื่องเลย "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฉันยังไม่เห็นจะเข้าใจอะไรเลยสักนิด!"
+    },
+    {
+      "Text": "[s] \"แต่ว่าเธอก็ให้เบาะแสเรามานะ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อืม.... ก็จริงอยู่ แต่ทำไมถึงได้ดูต่างออกไปจากทุกทีเลย"
+    },
+    {
+      "Text": "[s] \"หรือว่า... จะรู้อะไรเกี่ยวกับ <ลูน่า>?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่รู้สิ... แต่ที่บอกให้ไปชมรมสื่อสิ่งพิมพ์ก็อาจจะพูดถูกแล้วก็ได้"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "บอกตรงๆ เลยนะ ฉันไม่ได้เต็มใจจะไปเท่าไรนักหรอก พอจะทำตามที่ยัยนั่นบอกเลยรู้สึกเหมือนเป็น\nฝ่ายแพ้ยังไงไม่รู้"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ในชมรมสื่อสิ่งพิมพ์มันจะมีข้อมูลของหนังสือทั้งหมดที่ถูกตีพิมพ์ในเรดวินเทอร์มาจนถึงตอนนี้อยู่น่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "และจากข้อมูลทั้งหมดที่มี... แน่นอนว่าต้องมีของ <ลูน่า> ด้วย"
+    },
+    {
+      "Text": "[ns] \"ที่นี่คือชมรมสื่อสิ่งพิมพ์เหรอ...?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ใช่ หนังสือส่วนใหญ่ที่หมุนเวียนอยู่ในสหภาพเรดวินเทอร์ถูกผลิตอยู่ที่นี่"
+    },
+    {
+      "Text": "[s] \"สุดยอดไปเลย\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "สุดยอดไปเลยงั้นเหรอ... ชมออกมาอย่างบริสุทธิ์ใจเลยนะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ที่นี่น่ะ... ต้องบอกว่าพิมพ์อะไรที่ไม่ธรรมดาออกมาเยอะเลยละ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...ถึงตอนที่พิมพ์โดจินชิของ <ชมรมแนวร่วมปลดปล่อยความรู้> ฉันจะรู้สึกติดหนี้บุญคุณอยู่บ้างก็เถอะ จะให้คิดว่าที่นี่เป็นที่แปลกประหลาดมันก็กระไรอยู่"
+    },
+    {
+      "Name": "???",
+      "Text": "ต่อให้พูดเบาๆ แบบนั้นแต่ก็ได้ยินกันทั่วเลยนะคะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เหวอ... ออกมาแล้ว..."
+    },
+    {
+      "Name": "???",
+      "Text": "ค่ะ หัวหน้าชมรมสื่อสิ่งพิมพ์ที่ไม่ค่อยอยากจะเจอเท่าไรปรากฏตัวออกมาแล้วค่ะ ถึงจะไม่รู้ว่าลมอะไร\nหอบคุณมาถึงที่นี่ได้ แต่ก็ยินดีที่ได้เจอนะคะ เมรุ หรือจะให้เรียกว่าเมรูริตามนามปากกาดีคะ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...เรียกแค่เมรุเถอะ ยาคุโมะ"
+    },
+    {
+      "Text": "[s] \"หัวหน้าเหรอ...?!\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ใช่ค่ะ ที่นี่คือชมรมสื่อสิ่งพิมพ์ เราดูแลทุกอย่างที่ครอบคลุมเกี่ยวกับหนังสือ ตั้งแต่การพิมพ์ การเข้าเล่ม การห่อปก การจัดการ การค้า ธุรกิจ จนถึงการขยายกิจการเลยค่ะ และฉันก็เป็นหัวหน้าของที่นี่ อารามากิ ยาคุโมะค่ะ "
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เพิ่มเติมก็คือ ฉันรับผิดชอบเรื่องการพิมพ์นิตยสาร <เรดแบร์> อยู่ด้วยค่ะ ฮี่ฮี่ฮี่"
+    },
+    {
+      "Text": "[ns1] \"ไม่ธรรมดาเลยนะ... นี่คือ <เรดแบร์> เหรอ?>\""
+    },
+    {
+      "Text": "[ns2] \"เหมือนเคยเห็นมาก่อนเลย หนังสืออวยเชริโน่... ใช่ไหม?\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ค่ะ ถูกต้องแล้วค่ะ"
+    },
+    {
+      "Text": "(มีบางอย่างเหมือนกระดาษปลิวตกลงมา)"
+    },
+    {
+      "Text": "[ns3] \"แล้วอันนี้คือ... ใบปลิวเหรอ...?\""
+    },
+    {
+      "Text": "[ns4] \"<ขอประณามมนุษย์หนวดน่ารังเกียจที่ทิ้งฝาโยเกิร์ตโดยที่ยังไม่เลีย!>...?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ว้าว... กำลังพิมพ์อะไรแบบนี้กันอยู่สินะ"
+    },
+    {
+      "Text": "[ns5] \"หืม?! หนังสืออวยเชริโน่กับใบปลิวประณามเชริโน่...\""
+    },
+    {
+      "Text": "[ns6] \"พิมพ์สองอย่างนี้ด้วยกันได้ด้วยเหรอ?!\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "มันแปลกเหรอคะ? ถ้าทำแบบนี้เราก็จะได้รายได้ทั้ง 2 ทางเลยนี่คะ?"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ยกตัวอย่างเช่นใน <เรดแบร์> ถ้าเราใส่ตอนพิเศษยกย่องประธานเชริโน่กับการ์ตูนเสียดสีประธานเชริโน่\nไว้ด้วยกัน คนอ่านของแต่ละฝ่ายก็จะอยากหยิบขึ้นมาอ่านค่ะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ถ้าทำทั้งสองอย่างไปเลยก็จะทำให้เราได้กำไรกลับมาแน่นอน แล้วทำไมถึงต้องมาเลือกอย่างใดอย่าง\nหนึ่งด้วยล่ะคะ ฮี่ฮี่ฮี่"
+    },
+    {
+      "Text": "[s] \"เป็นความคิดแบบกล้าได้กล้าเสียจนเกินจะเข้าใจเลย!\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ขอบคุณที่ชมค่ะ จะว่าไป... ให้ฉันเรียกท่านนี้ว่ายังไงดีเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"เรียกว่าคุณครูก็ได้\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "คะ?!  ฮืม อันตรายนะคะเนี่ย ถ้าเผลอทำพลาดไปละก็ หัวหน้าชมรมสื่อสิ่งพิมพ์ที่ยิ้มแย้มและผ่อนคลาย\nอยู่ตลอดคงทำให้ธุรกิจต้องอับอายขายหน้าไปซะแล้ว"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ถ้าอย่างนั้นก็... ยินดีต้อนรับสู่ชมรมสื่อสิ่งพิมพ์อีกครั้งนะคะคุณครู ฉันได้ยินกิตติศัพท์ของคุณครู\nมาเยอะเลยค่ะ ได้ยินเยอะจนถึงกับตั้งคำถามว่าคนคนนี้มีตัวตนจริงๆ หรือเปล่าเลยนะคะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อ้อ จะว่าไปฉันอยากตีพิมพ์ประวัติของคุณครูผู้มาเยี่ยมชมรมสื่อสิ่งพิมพ์ของเราใน <เรดแบร์> ฉบับพิเศษเดือนหน้าด้วยค่ะ คุณครูคิดว่ายังไงคะ? "
+    },
+    {
+      "Text": "[s] \"ไม่เอาดีกว่า...\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เอ้า อย่าเป็นแบบนี้สิคะ ไปฟังอะไรจากใครมากันคะเนี่ย ลองฟังฉันดูก่อนนะคะ มันจะเป็นเรื่องดีสำหรับ\nคุณครูด้วยนะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "แทนที่จะไปจับมือกับ <ชมรมแนวร่วมปลดปล่อยความรู้> ที่ส่งต้นฉบับไม่ตรงกำหนด ไม่ค่อยมีฐานแฟนคลับ และเขียนเรื่องออกจะเพ้อเจ้อไปหน่อย คุณครูมาร่วมมือกับชมรมสื่อสิ่งพิมพ์ของฉันดีกว่าค่ะ เรามีทั้งเงินทุน พลังในการประชาสัมพันธ์ และผู้สนับสนุนอย่างสำนักเลขาธิการ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...เรื่องที่มีสำนักเลขาธิการคอยหนุนหลังให้ ไม่ได้เป็นความลับขององค์กรหรอกเหรอ...?"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ตายละ ฉันโฆษณาธุรกิจเพลินจนเผลอพูดออกไปจนได้ ลืมส่วนนั้นไปเถอะนะคะ มาต่อกันดีกว่า..."
+    },
+    {
+      "Text": "[s] \"ที่เรามาที่ชมรมสื่อสิ่งพิมพ์ เพราะมีเรื่องอยากถามน่ะ\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "โอ้ นี่คือการทำธุรกรรมข้อมูลสินะคะ ฉันจะมองว่านี่คือการทำสัญญาโดยนัยได้ใช่ไหมคะ แบบว่า... ถ้าฉันให้ข้อมูลที่คุณครูต้องการได้ คุณครูก็จะทำตามคำขอร้องของฉันบ้างเหมือนกัน?"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อะไรกัน ทำไมเราคุยกันไม่รู้เรื่องล่ะคะ เฮ้อ คุณครูก็เป็นคนไม่ดีอยู่เหมือนกันนะ ถ้าเป็นเรื่องนั้นละก็ ทำไมไม่พูดตั้งแต่แรกล่ะคะ ทำเอาฉันเข้าใจผิดคนเดียวอยู่ได้"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่ใช่เรื่องนั้นสักหน่อย ค่อยๆ ฝึกนิสัยฟังคำพูดของคนอื่นดูบ้างนะ ยาคุโมะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ไม่ใช่เรื่องนั้นหรอกเหรอคะ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ก็ต้องไม่ใช่น่ะสิ! ไม่ใช่เลย!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เมรุอยู่นิ่งๆ ก่อนเถอะค่ะ ฉันกำลังถามคุณครูอยู่นะคะ ว่าไงล่ะคะ คุณครู?"
+    },
+    {
+      "Text": "[s] \"เอาสิ ถ้าตอบคำถามของเราได้ ครูจะร่วมมือกับชมรมสื่อสิ่งพิมพ์ให้เอง\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ครู?! ขืนพูดอะไรแบบนั้นออกไปโดยไม่ทันได้ยั้งคิด เดี๋ยวก็โดนถลกหนังเข้าหรอก!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เดี๋ยวนะ เมรุจะสื่อว่าอะไรเหรอคะ...?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เปล่านี่ มันก็แค่เป็นการเปรียบเปรยน่ะ..."
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "แต่จะเปรียบเปรยหนังกับชมรมสื่อสิ่งพิมพ์เนี่ยนะคะ?"
+    },
+    {
+      "Text": "[s] \"...หืม?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "......"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "......?"
+    },
+    {
+      "Text": "[ns] \"ขะ... ขอเข้าเรื่องเลยแล้วกันนะ\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "<ลูน่า> เหรอคะ...?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อื้ม <ลูน่า>"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เดี๋ยวนะคะ เหมือนจะไม่เคยได้ยิน หรือเคยได้ยินมาจากที่ไหนนะ... ราวกับว่าในอีกด้านหนึ่งของความ\nทรงจำอันเลือนราง... มีแมวในชุดดำกำลังโบกผ้าเช็ดหน้าแล้วจ้องมาทางนี้..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...แบบนั้นฟังดูอันตรายนะ..."
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อ้อ... คิดออกแล้วค่ะ ฉันเคยได้ยินการ์ตูนเรื่องนั้นค่ะ"
+    },
+    {
+      "Text": "[s] \"จริงเหรอ?\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "แต่มันก็เป็นการ์ตูนที่ถูกตีพิมพ์มานานมากแล้วนะคะ... อืม... แบบนี้นี่เอง ฉันก็เลยจำไม่ค่อยได้เท่าไร"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อ้อ อ้อ! ฉันเริ่มนึกอะไรๆ ออกแล้วละค่ะ ว่าแต่ทำไมถึงมาถามเรื่อง <ลูน่า> กับชมรมสื่อสิ่งพิมพ์ล่ะคะ?"
+    },
+    {
+      "Text": "[s] \"ทาคาเนะบอกว่าถ้ามาที่นี่ ก็จะได้เบาะแสกลับไปน่ะ\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อ๋อ... แบบนี้นี่เอง... เป็นอย่างนี้สินะคะ... ทาคาเนะนี่ก็จริงๆ เลยนะ..."
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ฮืม อ่า อืม... ฮี่ฮี่ฮี่"
+    },
+    {
+      "Text": "[s] \"แล้วเธอจะบอกเบาะแสครูไหม?\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "นั่นสินะคะ เบาะแส... มันก็มีเบาะแสอยู่หรอกนะคะ มันต้องเป็นข้อมูลที่พอคุณครูกับเมรุได้ฟังแล้วต้อง\nสนใจเลยละค่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "โอ๊ะ งั้นเหรอ! แล้วมันคืออะไรกันล่ะ?!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ก่อนอื่นฉันต้องบอกว่าฉันเองก็ไม่ค่อยรู้เกี่ยวกับ <ลูน่า> เล่มสุดท้ายหรอกค่ะ "
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อย่าทำหน้าผิดหวังแบบนั้นสิคะ ฉันยังมีข้อมูลต่อไปอยู่นะคะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อย่ามาทำให้คนอื่นเค้ากระวนกระวายกันสิ รีบบอกมาเร็วๆ เถอะน่า!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "<ลูน่า> มีแฟนด้อมที่เก่าแก่มากๆ ค่ะ และแฟนด้อมนั้นก็ยังคงอยู่ในเรดวินเทอร์... และเห็นว่านานๆ ครั้ง\nก็จะมีการรวมตัวกันด้วยนะคะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "นอกจากนี้ยังมีการทำ <กิจกรรม> กันอยู่เรื่อยๆ ด้วยค่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "กลุ่มแฟนด้อมที่ชื่นชอบ <ลูน่า> จนออกมารวมตัวกัน...?"
+    },
+    {
+      "Text": "[s7] \"ถึงจะจบบริบูรณ์แล้ว แต่แฟนๆ ก็ยังมารวมตัวกันทำกิจกรรมเหรอ?\""
+    },
+    {
+      "Text": "[s8] \"นี่เป็นเรื่องปกติในเรดวินเทอร์เหรอเมรุ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่นะ... ก็ไม่ถือว่าปกติหรอก"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หลังจากงานเขียนจบไปแล้ว มันก็เป็นไปได้ที่คนอื่นจะหยิบเรื่องมาพูดอยู่ 2-3 ครั้ง"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ถ้ามันจบบริบูรณ์แล้วแต่ยังถูกพูดถึงกันอยู่อีกเรื่อยๆ... แถมยังมีแฟนๆ มาทำกิจกรรมอะไรกันอีก..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แบบนั้นถือว่าเป็นสิ่งที่หาไม่ได้... จากงานเขียนทั่วๆ ไปเลยละ..."
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ก็นะ นั่นหมายความว่า <ลูน่า> เป็นการ์ตูนที่ค่อนข้างจะมีประวัติความเป็นมาเลยละค่ะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Text": "[s9] \"แต่ว่ายาคุโมะเองก็ยังไม่รู้สินะ...\""
+    },
+    {
+      "Text": "[s10] \"ว่าการรวมตัวกันแบบนั้นจัดขึ้นเมื่อไรและก็ที่ไหน\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ไม่ค่ะ ฉันรู้ค่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ทำไมเธอถึงรู้ล่ะ?!  ฉันนึกว่าพล็อตเรื่องจะออกมาว่า \"ฉันจะไปรู้ได้ยังไงล่ะคะ\" ซะอีก!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ต้องบอกว่าฉันมีความฉลาดของมนุษย์ หรือว่ามีเส้นทางข้อมูลจากหน่วยข่าวกรองดีๆ อยู่สิคะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ไม่ว่าใครจะว่ายังไง พวกฉันก็คือชมรมสื่อสิ่งพิมพ์ค่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แล้วทีเมื่อกี้ยังเห็นบอกว่าจำไม่ได้อยู่เลย?!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "นี่คุณคะ ฉันบอกว่ามันยากที่จะดึงความทรงจำออกมาได้ในทันที แต่ก็ไม่ได้บอกว่าไม่รู้เลยสักหน่อย อีกอย่างนะคะ เรื่องเวลาและสถานที่รวมตัวกันน่ะ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ยังไง? ที่ไหน? กี่โมง?"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ฮี่ฮี่ฮี่ ฉันชักอยากจะคุยเรื่องค่าตอบแทนข้อมูลขึ้นมาแล้วสิคะ"
+    },
+    {
+      "Text": "[s] \"งั้นเหรอ? เธอจะขอค่าข้อมูลแต่พอดีใช่ไหม?\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ก็ต้องให้สมน้ำสมเนื้อสิคะ "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ยาคุโมะ... นี่เธอต้องการอะไรจากครูกันแน่?!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ไม่ค่ะ ต้องบอกว่าต้องการจากเมรุมากกว่า"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หืม? ฉันเหรอ?"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ไม่ใช่เรื่องใหญ่อะไรหรอกค่ะ ฉันก็แค่อยากจะฝากวาด 'ต้นฉบับ' สักเรื่องน่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เหอะ! ต้นฉบับเหรอ?! ไม่เอาหรอก! จากต้นฉบับที่ฉันเคยได้รับมา ไม่เห็นมีอันไหนที่มันเข้าท่าเลย!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "เอ๋? ไม่เอางั้นเหรอคะ? สงสัยไม่อยากได้ข้อมูลเกี่ยวกับ <ลูน่า> แล้วสินะคะ? แหมๆ สงสัยความจริงใจ\nของเมรุจะจบลงแค่ตรงนี้แล้วสินะคะ? แบบนี้ฉันผิดหวังนะคะเนี่ย~"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อึก...!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "(เราต้องทำทุกอย่าง... เพื่อขอโทษโมมิจิ... ใช่ คิดแบบนี้แล้วกัน นี่คือการทำเพื่อโมมิจิ...)"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "กะ... ก็ได้ เข้าใจแล้ว... แค่ฉันทำให้ก็พอแล้วใช่ไหม..."
+    },
+    {
+      "Text": "[s] \"เมรุ จะรับข้อแลกเปลี่ยนแบบนี้ได้เหรอ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เพื่อโมมิจิ เรื่องแค่นี้... ฉันทำได้อยู่แล้ว...!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "โอ้โห นี่มันมิตรภาพที่ต้องหลั่งน้ำตาให้เลยนะคะ"
+    },
+    {
+      "Text": "[s] \"เมรุ...\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ถ้าเป็นงานแปลกๆ ฉันไม่วาดให้หรอกนะ! ถ้าไม่ใช่ 'สิ่งที่ฉันวาดได้ หรือสิ่งที่ฉันจะเชื่ออย่างจริงใจ'! ฉันก็ไม่วาดให้หรอก!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ฮี่ฮี่ฮี่ เรื่องนั้นไม่ต้องห่วงเลยค่ะ ที่ฉันจะขอให้ช่วยน่ะเป็น 'ต้นฉบับที่คุณนักวาดเมรุต้องชื่นชอบอย่างหา\nที่สุดไม่ได้' เลยละค่ะ"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "งั้นก็ดีค่ะ! ทีนี้ก็เหลือแต่เซ็นสัญญารับทราบว่าในกรณีที่ไม่เป็นไปตามสัญญา เราจะยึดแท็บเล็ตกับ\nปากกาของเมรุไว้ค่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เธอมันปีศาจชัดๆ!"
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ปกติบรรณาธิการก็เป็นปีศาจของนักวาดอยู่แล้วค่ะ เอาละ รีบๆ เข้าเถอะค่ะ"
+    },
+    {
+      "Text": "[ns] \"ครูไม่ต้องทำอะไรก็ได้เหรอ...?\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "อ้อ นั่นสินะคะ... ไว้ฉันจะแจ้งให้ทราบทีหลังนะคะ แบบนั้นน่าจะสนุกกว่ากัน"
+    },
+    {
+      "Text": "[s] \"งั้นก็... ขอฝากตัวด้วยนะ\""
+    },
+    {
+      "Name": "ยาคุโมะ",
+      "Text": "ฮี่ฮี่ฮี่"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;出版、再版、流通"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "貴音那傢伙……老是說些令人摸不著頭緒的話。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "到現在還是想不通他到底是什麼意思！"
+    },
+    {
+      "Text": "[s]「不過至少他給了我們一點線索，不是嗎？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……嗯，就是說啊。\n這不太像他平時的作風。"
+    },
+    {
+      "Text": "[s]「貴音……會不會知道什麼關於《LUNA》的內幕呢？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我也不知道……不過我覺得他要我們去出版部也不無道理。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "雖然乖乖照他的話去做有種向他低頭的感覺，所以其實不太情願……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不過出版部保存著所有赤冬出版過的書籍資料。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "其中……想必也會有《LUNA》的資料才對。"
+    },
+    {
+      "Text": "[ns]「這裡就是出版部……？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "沒錯，赤冬聯邦學園裡流通的書籍大部分都是在這裡印製的。"
+    },
+    {
+      "Text": "[s]「真厲害。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "要說厲害確實是厲害沒錯……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "但其實……這裡也印刷了許多[ruby=  ・     ・     ・     ・  ]不太尋常[/ruby]的東西……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "雖然在印刷「知識解放戰線」的期刊時受了他們的照顧，實在不太想口出惡言……"
+    },
+    {
+      "Name": "???",
+      "Text": "就算你說得很小聲，我還是全都聽到了哦？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "呃，出現了……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "沒錯沒錯，你最不想看見的出版部負責人出現囉。\n雖然不知道是什麼風把你吹來的，真是好久不見了呢，愛瑠。\n還是說……該用筆名來稱呼你呢，Meruri老師？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……叫我愛瑠就行了，八雲。"
+    },
+    {
+      "Text": "[s]「負責人……！？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "沒錯，歡迎來到出版部──從印刷、裝訂、包裝、管理、營運到擴展事業等等，\n只要是和書本有關的事，我們全都包辦。\n而我則是擔任出版部部長的荒槇八雲。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "順帶一提……《赤熊》雜誌的編輯也是由我全權負責哦。\n呣呵呵。"
+    },
+    {
+      "Text": "[ns1]「聽起來真厲害……這就是《赤熊》？」"
+    },
+    {
+      "Text": "[ns2]「我好像在哪裡看過。是潔莉諾的宣傳文宣……對吧？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "是的，沒錯。"
+    },
+    {
+      "Text": "（就在此時，一張像紙的東西飄落在了地上）"
+    },
+    {
+      "Text": "[ns3]「這個是……傳單……？」"
+    },
+    {
+      "Text": "[ns4]「『嚴厲斥責吃優格不舔蓋子的鬍子暴君！』……？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我的天……你又在印這種東西了啊……"
+    },
+    {
+      "Text": "[ns5]「嗯！？潔莉諾的宣傳文宣和批評潔莉諾的傳單……」"
+    },
+    {
+      "Text": "[ns6]「同時印這兩種東西沒問題嗎！？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "有什麼奇怪的嗎？這樣銷售量才會加倍不是嗎？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "就拿《赤熊》舉例好了，如果同時刊登潔莉諾會長的吹捧特輯和諷刺漫畫的話，\n不管是支持者還是反對者都會想看裡頭寫了什麼對吧？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "既然討好雙方就能賺到更多錢，我又何必要選邊站呢？\n呣呵呵呵呵。"
+    },
+    {
+      "Text": "[s]「某種意義上來說真是難以遵循又大膽的思考方式啊！」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "謝謝你的稱讚。\n話說回來……我該怎麼稱呼你呢？"
+    },
+    {
+      "Text": "[s]「我是夏萊的老師。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "什麼！？咳，咳咳……好險好險。\n出版部部長的營業笑容差點就破功了。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "請容我重新來過……歡迎您來到出版部，老師。\n關於老師的事蹟我早已時有耳聞……也許是因為實在聽過太多各式各樣的傳聞，\n甚至都有點懷疑老師究竟是不是真實存在的人物了呢。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "啊，對了，既然老師難得光臨出版部，\n下個月的《赤熊》就來做個老師的傳記特輯……您覺得如何呢，老師？"
+    },
+    {
+      "Text": "[s]「請容我拒絕。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "請別這麼說嘛……我又不會騙您。\n老師您想想，這對您來說不也是件好事嗎？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "「知識解放戰線」不僅受眾不明確、題材又偏激，而且還老是愛拖稿。\n與其跟他們合作，不如投向我們的懷抱吧。\n我們不僅資本雄厚，宣傳能力又強，最重要的是還有事務局當靠山……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……原來出版部有事務局當靠山的事是可以說出來的嗎？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "哎呀呀～我忙著談生意，竟然不小心說溜嘴了。\n剛才那件事請兩位當作沒聽見，我們繼續談吧……"
+    },
+    {
+      "Text": "[s]「我們今天來出版部是想請教一些事情。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "哦，這是交換條件嗎？\n那我是否能當作只要我願意協助老師，老師就會授權製作特輯呢？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "哎呀～看來我們已經取得共識了嘛。\n老師您也真是的……如果是這樣的話，您怎麼不早說呢，害人家誤會了。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "根本不是你想的那樣吧……拜託你以後先聽聽別人想說什麼好嗎，八雲？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "嗯？難道不是嗎？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不是！百分百不是！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "我提問的對象不是愛瑠而是老師。\n老師，請問您意下如何呢？"
+    },
+    {
+      "Text": "[s]「好，只要你願意回答我的問題，我可以跟出版部合作。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師！？隨便答應他的話，說不定會被剝掉一層皮的哦！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "等等，愛瑠，你這話是什麼意思……？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "呃，這只是一種比喻罷了……"
+    },
+    {
+      "Name": "八雲",
+      "Text": "皮革並不是我們出版部經手的商品哦？"
+    },
+    {
+      "Text": "[s] 「……嗯？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "八雲",
+      "Text": "……？"
+    },
+    {
+      "Text": "[ns]「總，總之先切入正題吧。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "《LUNA》嗎……？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "嗯，《LUNA》。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "稍等……這本書我好像聽過，又好像沒有聽過……\n啊，在我那模糊記憶的彼岸，好像有隻穿著黑衣的貓咪，\n一邊揮著手中的手帕，一邊目不轉睛地盯著我……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "那種情景聽起來也太不妙了吧……"
+    },
+    {
+      "Name": "八雲",
+      "Text": "啊啊……我想起來了。\n的確有本漫畫的名字叫做《LUNA》。"
+    },
+    {
+      "Text": "[s]「真的嗎？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "不過，畢竟那是非常久以前出版的漫畫……\n唔嗯……難怪我一時間想不起來。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "啊～～我稍微想起來了。\n不過話又說回來，你們為什麼會跑到出版部問《LUNA》的事呢？"
+    },
+    {
+      "Text": "[s]「貴音說只要來這裡，我們就能找到關於《LUNA》的線索。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "啊哈……原來如此……是這樣啊……貴音也真是的……"
+    },
+    {
+      "Name": "八雲",
+      "Text": "呼呣呼呣，原來如此……呣呵呵。"
+    },
+    {
+      "Text": "[s]「可以告訴我們線索嗎？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "這個嘛，要說線索……我的確略知一二。\n這對老師和愛瑠來說，應該會是相當感興趣的情報。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "哦，我就知道！所以是什麼樣的線索！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "醜話先說在前頭，其實關於《LUNA》最終卷的事，我也不是非常清楚。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "請不要露出那麼失望的表情……我的話還沒說完呢。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "別賣關子了，快點告訴我們！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "《LUNA》有一個成立非常久的後援會，而且至今仍活躍於赤冬學園……\n據說他們會不定期地舉行聚會。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "換句話說……現在依然在「活動」中哦？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "因為喜愛《LUNA》，所以經常舉辦聚會的後援會……？"
+    },
+    {
+      "Text": "[s7]「即使已經完結了，書迷們還是持續舉辦著相關的活動是嗎？」"
+    },
+    {
+      "Text": "[s8]「這在赤冬學園算是常見的事嗎，愛瑠？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不……當然不是。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "如果是在完結後偶然被提起一兩次還算正常……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "但在作品完結後依然經常被書迷提起……甚至為其舉辦活動……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "那的確不是普通作品……辦得到的事……"
+    },
+    {
+      "Name": "八雲",
+      "Text": "嘛，這也代表那本漫畫曾經締造了多麼偉大的歷史。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "但是……"
+    },
+    {
+      "Text": "[s9]「不過他們什麼時候舉辦聚會，又是在哪裡舉辦……」"
+    },
+    {
+      "Text": "[s10]「應該連八雲也不是很清楚吧……」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "不，我知道唷？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "為什麼知道啊！？\n按理來說， 這種時候不是應該要說「我當然不知道」嗎！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "該歸功於我的交友廣闊呢，還是歸功於打聽情報的途徑正確呢？\n大概就是這樣。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "別忘了，我們可是出版部哦？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "剛剛不是才說你沒印象嗎！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "不不不，我剛才說的是一時間想不起來，並沒有說我沒印象哦。\n至於後援會聚會的日期和場所……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "怎麼了？又怎麼了？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "呣呵呵呵……\n這種時候是不是該先支付情報的報酬呢？"
+    },
+    {
+      "Text": "[s]「說的也是，必須得支付相應的代價才行。」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "您說的沒錯。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "八雲……你打算叫老師做些什麼！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "不，我要求的對象是你，愛瑠。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "嗯？我嗎！？"
+    },
+    {
+      "Name": "八雲",
+      "Text": "嗯，其實只是件小事罷了。\n我想請你幫我畫一份「稿子」。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "呃！稿子！？我才不要！\n你以前委託我畫的那些東西就沒有一個是正常的！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "咦～？你不要嗎～？這麼說你是不想要《LUNA》的線索囉？\n哎呀哎呀，原來愛瑠的誠意就只有這種程度啊？真令人失望～"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "唔……！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "（我做這些……全都是為了得到紅葉的原諒……沒錯，只要能得到他的原諒……）"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我，我知道了……我畫不就行了嗎……"
+    },
+    {
+      "Text": "[s]「愛瑠，就這樣接受他的提議真的沒關係嗎？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "為了紅葉，這點小小的代價……我願意承擔……！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "哦哦，你們之間的友誼還真是令人感動呢。"
+    },
+    {
+      "Text": "[s]「愛瑠……」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不過我絕對不會畫奇怪的東西哦！\n如果不是「我接觸過的題材」或「我能接受的題材」，哪怕打死我我也不會畫的！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "呣呵呵……這你就不用擔心了。\n我想請你畫的是「身為漫畫家一定會躍躍欲試的題材」。"
+    },
+    {
+      "Name": "八雲",
+      "Text": "很好！那麼請你在這份合約上簽名吧。\n要是之後不履行承諾，我們就有權扣押你的繪圖板和筆哦。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "這個惡魔！"
+    },
+    {
+      "Name": "八雲",
+      "Text": "編輯本來就是所有創作者心中的惡魔。\n來，快簽名吧。"
+    },
+    {
+      "Text": "[ns]「我真的什麼都不用做嗎……？」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "啊，關於這件事……之後再跟您商量吧。\n總覺得那樣事情會更有趣。"
+    },
+    {
+      "Text": "[s]「還，還請手下留情……」"
+    },
+    {
+      "Name": "八雲",
+      "Text": "呣呵呵呵呵……"
+    }
+  ]
+}

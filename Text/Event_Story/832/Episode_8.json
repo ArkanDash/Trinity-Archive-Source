@@ -1,0 +1,2397 @@
+{
+  "TitleJP": "初めての景色（１）",
+  "TitleKR": "첫 풍경 1",
+  "TitleEN": "The First Sight 1",
+  "TitleTH": "ทิวทัศน์แรก 1",
+  "TitleTW": "第一道風景（１）",
+  "DescJP": "翌日、日の出を見るために早起きした一同は登山を始める。道中出会ったスミレは、今日は曇っているから日の出を見るのは難しいかもしれないと告げる。しかし、一同は諦めず、山頂まで登ると話す。山頂に到着した一行はついに美しい日の出を目にするのだった。",
+  "DescKR": "다음 날 새벽, 해돋이를 보기 위해 일찍 일어난 선생님과 베리타스 부원들은 어둠을 헤치며 등산을 시작한다. 등산을 하던 도중 마주친 스미레는 날이 흐려서 오늘은 일출을 보기 어려울지도 모른다고 말하지만, 부원들은 평소와는 달리 의욕을 내며 정상까지 오르겠다고 말한다. 정상에 도착한 일행은 마침내 아름다운 해돋이를 보게 된다.",
+  "DescEN": "The next morning, Sensei and the Veritas members wake up early and begin hiking through the dark to see the sunrise. They run into Sumire while hiking, and she explains it might be difficult to see the sunrise because it's cloudy. The Veritas members are still unusually motivated to keep going. When they arrive at the top, the group finally sees a beautiful sunrise.",
+  "DescTH": "คุณครูกับสมาชิกเวอริทัสตื่นกันตั้งแต่ย่ำรุ่งเพื่อรอดูพระอาทิตย์ขึ้นในวัน\nถัดมา ทุกคนแหวกความมืดแล้วเริ่มปีนเขาไปด้วยกัน ระหว่างปีนเขา ทุกคนก็ได้เจอกับสึมิเระที่บอกว่าวันนี้อากาศมืดครึ้ม จึงอาจจะไม่เห็น\nพระอาทิตย์ขึ้นก็ได้ แต่สมาชิกเวอริทัสก็ไม่ล้มเลิกความตั้งใจ และบอกว่า\nจะไปให้ถึงยอดเขาให้ได้ เมื่อมาถึงยอดเขา ทุกคนก็ได้ชมวิวพระอาทิตย์\nขึ้นที่ตราตรึงใจ",
+  "DescTW": "次日凌晨，老師及貝里塔斯成員們為了看日出起了個大早，開始在黑暗中登山。在登山途中遇見了堇，他說因為今天是陰天，可能很難看到日出，但沒想到成員們卻一反常態，充滿幹勁地表示一定要登上山頂。抵達山頂的一行人最終看到了美麗的日出。",
+  "DialogJP": [
+    {
+      "Text": "第7話;初めての景色"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ん……ううっ……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "マキ、そろそろ起きて。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "今日は早起きして、みんなで初日の出を見るって言ったでしょ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "……あと10分……だめ……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ダメ、今から出発してもギリギリだから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "早く起きて支度して。身体を冷やさないように、しっかり着込んでね。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "うん……"
+    },
+    {
+      "Text": "[ns1] \"おはよう、マキ。\""
+    },
+    {
+      "Text": "[ns2] \"あけましておめでとう、マキ。\""
+    },
+    {
+      "Name": "マキ",
+      "Text": "おはよ、せんせ……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "先生も、あけましておめでと……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "……そういや今日って元日なんだよね。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "いつも正月は朝に寝てたから、この時間に起きてるのが変な感じで……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あれ、そもそも今まで早寝早起きしてこなかったかも……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "マキも起きたんだ。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "おはようございます、先生。"
+    },
+    {
+      "Text": "[s] \"おはよう。ハレ、コタマ。\""
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ふあぁ……ねむい……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "こういうときこそ、高カフェインのエナドリを一気飲みしたくなるのに……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "私も、今はエナドリの気分です……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "エナジードリンクは無いけど、コーヒーなら下で淹れてきたのがあるよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "はい、これ。食欲は無いかもしれないけど、チョコバーくらい食べておいて。\n山登りはエネルギーを消耗するから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それと、もし体調に違和感があったらすぐに言って。いいね？"
+    },
+    {
+      "Name": "一同",
+      "Text": "は～い。"
+    },
+    {
+      "Text": "（身支度を済ませ、初日の出を拝むまでの長い道のりが始まった）"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ぜぇ……ぜぇ……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "もう……体力の、限界が……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "づかれたよぉ……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "せんぱい～、山頂まで後どんくらい……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "半分くらい来たから、もうちょっと頑張ろう。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……それより、天気が怪しい。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "このままじゃ、山頂に着いても初日の出が見られるか……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あれ？今そこの草むらが揺れなかった？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ま、まさか昨日みたいに、クマが出てきたり……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ひっ……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "あれ、またヴェリタスの皆さん、それにトレーナー……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "あ、スミレ先輩！やっほ～！"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "おはようございます、またお会いできるとは思っていませんでした。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "皆さん、あけましておめでとうございます。"
+    },
+    {
+      "Text": "[s] \"スミレ、あけましておめでとう。\""
+    },
+    {
+      "Text": "[ns] \"昨日はよく眠れた？\""
+    },
+    {
+      "Name": "スミレ",
+      "Text": "いえ……久しぶりの野外合宿で興奮しているのか、あまり眠れませんでした。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "それで身体の緊張をほぐすために、朝の軽い運動にトレイルランニングを行なっていたのです。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "少し身体を動かしたおかげで、調子が戻ってきた気がします。"
+    },
+    {
+      "Name": "レイ",
+      "Text": "「少し」どころじゃなかったですけどね！？"
+    },
+    {
+      "Name": "レイ",
+      "Text": "昨日の疲れが取れてすらないのに、未舗装の道をひたすら全力疾走……！"
+    },
+    {
+      "Name": "レイ",
+      "Text": "スミレ先輩の体力は、一体どうなってるんですか！？"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "ふふっ、身体は使えば使うほど強くなると言いますから。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "レイさんも一緒にトレーニングを続ければ、来シーズンの二打席連続ホームランも夢じゃないはず。"
+    },
+    {
+      "Name": "レイ",
+      "Text": "……二打席連続ホームランのためなら、仕方ない……のかな？"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "それにしても皆さん揃って、こんな朝早くから登山とは。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "……もしかして、今年は心機一転、運動を始めたのですか？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "始めたというか……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "副部長の誘いで、初日の出を見るために山頂を目指しているところです。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "なるほど、初日の出ですか……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "残念ですが、今回の日の出は諦めた方がいいかもしれません。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "なんでっ！？"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "まだ日は昇っていませんが、今もかなり雲が多いので。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "このような天気では日が昇っても、完全な日の出は鑑賞できない可能性が高いかと……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "楽しみにしてここまで来たのに、がっかりする羽目になるかもしれません。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "天気予報では晴れると言ってたけど……。"
+    },
+    {
+      "Text": "[s] \"どうしよっか……。\""
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……みんな、どうする？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "私が提案しておいてなんだけど、天気が伴わない以上、無理して登頂する必要はないからね。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……登山を続ける。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "そうだね。そう言うと思っ……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……え？続ける？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "んーせっかく外に出たしね。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "ここまで来たのですから、登頂できずに帰る方が気になってしまいそうです。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "周回プレイは好きじゃないけど……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ボス戦の前に、コントローラーを投げ出すわけにはいかない！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "でも頂上までにあと半分はあるけど……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "あんた達……成果の出ない作業は嫌いじゃなかった？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "ま、たしかに山頂まで登ったのに初日の出が見られなかったら残念だけど……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "日の出なら、部室に帰ってからモニターで見られますからね。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "でも、山頂まで登る道のりは自分でしか味わえないから。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……今年の初日の出は、西から昇るかもしれないね。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "素晴らしい心意気です！"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "皆さん見落としがちですが、トレーニングの真の価値は美しい肉体を作ることよりも、そこに至るまでの過程にありますから！"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "登山もそうです。山頂までの道のりにこそ、真の価値があるはず！"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "私も強く共感しました！トレーニング部も、ぜひ山頂までご一緒させてください！"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "レイさん！ではこれより、山頂までの道を全力疾走します！"
+    },
+    {
+      "Name": "レイ",
+      "Text": "えっ！？先輩、今日のトレーニングは中腹で行うって言ってたじゃないですか！？"
+    },
+    {
+      "Name": "レイ",
+      "Text": "そんなぁ――！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それじゃ、みんなで山頂まで頑張ろっか？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "もうあまり時間も無いし、急ごう。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……着いた。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ここ[ruby=ひがしだけさん]が東丈山の[/ruby]頂上。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "わっ！風がすごい！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "開けた場所だからか、さっきよりも寒いですね……"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "雲のせいかな。よく見えない……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "そうですね、あまり見えません……"
+    },
+    {
+      "Name": "レイ",
+      "Text": "あっ……明るくなってきましたよ。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "そろそろかな？"
+    },
+    {
+      "Name": "一同",
+      "Text": "あ……！"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……きれい。"
+    },
+    {
+      "Name": "レイ",
+      "Text": "一瞬で空が、陽の光でいっぱいに……"
+    },
+    {
+      "Name": "マキ",
+      "Text": "映像では何度も見たけど、やっぱり自分の目で見ると違う……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "きれいで……そして、まぶしくて。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……すごく温かい。"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "苦労の先に見る景色は、何事にも代えがたい刺激となるものです。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……やっぱり、見にきて良かったんじゃない？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……うん。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "……ありがとう、先輩。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "最初は初日の出のためだけにキャンプなんて、正直面倒だったけど……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "今は副部長が私たちを連れてきた理由も、何となく分かった気がします。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "そう思ってもらえたなら、私も嬉しいよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……世の中には、実際に体験してみないと実感できないことがたくさんあるから。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "今の音って……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "レイさん、もしかしてお腹が空いたんですか？"
+    },
+    {
+      "Name": "レイ",
+      "Text": "え、えっと……その……"
+    },
+    {
+      "Name": "レイ",
+      "Text": "仕方ないじゃないですか！\n朝早くから走ってたので！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それじゃ、キャンプに戻ってみんなでごはんにしない？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "朝ごはん用にパンを持ってきたんだ。"
+    },
+    {
+      "Text": "[ns] \"ジャムとバターもあるよ。\""
+    },
+    {
+      "Name": "マキ",
+      "Text": "あっ、あたしはそれでパンに何か描いて食べよーっと！"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "私は一切れで大丈夫です。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "パンもいいけどコーヒーが飲みたい……"
+    },
+    {
+      "Name": "スミレ",
+      "Text": "プロテインのお供に良さそうですね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ふふ、そうだね。みんな好きなように食べよう。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제7화;첫 풍경"
+    },
+    {
+      "Name": "마키",
+      "Text": "으음…… 으으으……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "마키, 이제 슬슬 일어나."
+    },
+    {
+      "Name": "치히로",
+      "Text": "오늘은 새벽 일찍 일어나 다 같이 새해 첫 일출을 보러 가기로 했잖아?"
+    },
+    {
+      "Name": "마키",
+      "Text": "하지만…… 10분만 더 자면 안 돼……? "
+    },
+    {
+      "Name": "치히로",
+      "Text": "안 돼. 해가 뜨기 전에 정상에 도착하려면 지금 출발해도 아슬아슬할 정도니까."
+    },
+    {
+      "Name": "치히로",
+      "Text": "얼른 일어나서 장비 정리하고 올라갈 준비해. 새벽 공기가 차니까 옷 단단히 챙겨 입는 거 잊지 말고."
+    },
+    {
+      "Name": "마키",
+      "Text": "응……"
+    },
+    {
+      "Text": "[ns1] \"좋은 아침, 마키.\""
+    },
+    {
+      "Text": "[ns2] \"새해 복 많이 받아.\""
+    },
+    {
+      "Name": "마키",
+      "Text": "좋은 아침, 선생님……"
+    },
+    {
+      "Name": "마키",
+      "Text": "선생님도 새해 복 많이 받아……"
+    },
+    {
+      "Name": "마키",
+      "Text": "……그러고 보니 오늘이 새해 첫날이었구나."
+    },
+    {
+      "Name": "마키",
+      "Text": "보통 새해 첫날은 밤새 깨어 있다가 아침에 잠들기 때문에 이 시간에 일어나는 건 좀 신기한 느낌인걸……"
+    },
+    {
+      "Name": "마키",
+      "Text": "아니, 생각해 보면 일찍 자고 일찍 일어나는 경우가 애초에 거의 없었던 것 같기도 하고……"
+    },
+    {
+      "Name": "하레",
+      "Text": "……마키도 일어났구나."
+    },
+    {
+      "Name": "코타마",
+      "Text": "좋은 아침입니다, 선생님."
+    },
+    {
+      "Text": "[s] \"두 사람도 좋은 아침이야.\""
+    },
+    {
+      "Name": "하레",
+      "Text": "하암…… 졸려……"
+    },
+    {
+      "Name": "하레",
+      "Text": "이럴 때는 고카페인 에너지 드링크를 한 잔 들이켜야 정신이 드는데……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "저도 오늘만큼은 에너지 드링크를 마시고 싶은 기분입니다……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "에너지 드링크는 없지만 커피라면 아침에 진하게 내려놓은 게 있으니까."
+    },
+    {
+      "Name": "치히로",
+      "Text": "자, 입맛이 없더라도 초콜릿 바 한 개 정도는 같이 먹어둬. 아침 산행은 에너지가 중요하니까."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 혹시라도 몸에 이상이 느껴진다면 바로 보고해야 해. 알았지?"
+    },
+    {
+      "Name": "일동",
+      "Text": "네~"
+    },
+    {
+      "Text": "(이후, 간단하게 채비를 정비한 뒤 정상을 향해 산행을 시작했다.)"
+    },
+    {
+      "Name": "하레",
+      "Text": "헉, 헉……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "벌써부터…… 체력의 한계가……"
+    },
+    {
+      "Name": "마키",
+      "Text": "힘들어~"
+    },
+    {
+      "Name": "마키",
+      "Text": "선배~ 정상에 도착하려면 아직 멀었어?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "이제 절반 정도 왔으니까, 조금만 더 힘내자."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……그보다 날씨가 심상치 않네."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이대로 가면 정상에 도착해도 일출을 보기 어려울지도……"
+    },
+    {
+      "Name": "마키",
+      "Text": "어라? 방금 저쪽 수풀, 흔들리지 않았어?"
+    },
+    {
+      "Name": "코타마",
+      "Text": "서, 설마…… 어제처럼 곰이 다시 나타난 건……"
+    },
+    {
+      "Name": "하레",
+      "Text": "히이……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "어라, 베리타스의 부원 여러분? 그리고 트레이너까지……"
+    },
+    {
+      "Name": "마키",
+      "Text": "아, 스미레 선배다. 안녕!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "안녕하세요, 마키 양. 여기서 다시 마주치게 될 줄은 몰랐네요."
+    },
+    {
+      "Name": "스미레",
+      "Text": "다들 새해 복 많이 받으시길 바랍니다."
+    },
+    {
+      "Text": "[s] \"스미레도 새해 복 많이 받아.\""
+    },
+    {
+      "Text": "[ns] \"어젯밤은 잘 잤어?\""
+    },
+    {
+      "Name": "스미레",
+      "Text": "아뇨. 오랜만의 야외 합숙에 들뜬 탓인지, 어젯밤은 제대로 잠을 이루지 못했답니다……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "그래서 덜 풀린 몸의 긴장을 풀기 위해 아침 운동 삼아 등산을 하던 중이었습니다."
+    },
+    {
+      "Name": "스미레",
+      "Text": "가볍게 몸을 움직이니 조금은 활력이 돌아오는 것 같네요."
+    },
+    {
+      "Name": "레이",
+      "Text": "조금도 가볍지 않았거든요?!"
+    },
+    {
+      "Name": "레이",
+      "Text": "안 그래도 어제 한 운동의 피로가 제대로 풀리지도 않았는데, 등산로가 아닌 험한 길을 따라 몇 차례나 전력 질주를 하다니……"
+    },
+    {
+      "Name": "레이",
+      "Text": "스미레 선배의 운동 신경은 도대체 어떻게 된 건가요?!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "후후, 몸은 쓰는 만큼 강해진다고 하니까요."
+    },
+    {
+      "Name": "스미레",
+      "Text": "레이 양도 저와 함께 지속적인 트레이닝을 계속하신다면 내년 시즌에는 연타석 홈런을 치는 것도 꿈은 아닐 겁니다."
+    },
+    {
+      "Name": "레이",
+      "Text": "연타석 홈런이라면…… 어쩔 수 없지만."
+    },
+    {
+      "Name": "스미레",
+      "Text": "그나저나 다들 이런 새벽부터 등산이라니, 드문 일이네요."
+    },
+    {
+      "Name": "스미레",
+      "Text": "……혹시 새해 결심으로 베리타스 여러분도 운동에 취미를 붙여 보기로 결심하신 건가요?"
+    },
+    {
+      "Name": "하레",
+      "Text": "운동에 취미까지 붙일 생각은 없었지만……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "부부장의 권유로 새해 첫 일출을 보러 정상에 오르던 중이었습니다."
+    },
+    {
+      "Name": "스미레",
+      "Text": "음…… 새해 첫 일출이 목적이라면……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "죄송하지만, 이번 일출 구경은 포기하시는 게 좋을지도 모르겠습니다."
+    },
+    {
+      "Name": "마키",
+      "Text": "어째서?!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "아직 해가 뜨지 않아서 잘 보이진 않지만, 지금도 하늘에 구름이 꽤 끼어 있거든요."
+    },
+    {
+      "Name": "스미레",
+      "Text": "이런 흐린 날씨라면 해가 뜨더라도 일출을 온전히 감상하기 어려울 가능성이 높아서……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "모처럼 기대를 품고 산에 오셨는데, 오히려 실망을 하게 되실지도 모릅니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "분명 기상예보에서는 맑을 예정이라고 들었는데……"
+    },
+    {
+      "Text": "[s] \"이를 어쩌지……\""
+    },
+    {
+      "Name": "치히로",
+      "Text": "……다들 어떻게 할래?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "내가 먼저 제안하긴 했지만, 날씨가 따라주지 않는데 정상까지 무리해서 오를 필요는 없으니까."
+    },
+    {
+      "Name": "하레",
+      "Text": "……계속 갈래."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그래. 역시 돌아가고 싶어 할 줄 알았—"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……응? 계속 정상까지 가겠다고?"
+    },
+    {
+      "Name": "하레",
+      "Text": "음, 모처럼 밖에 나왔으니까."
+    },
+    {
+      "Name": "코타마",
+      "Text": "여기까지 올라왔으니, 정상을 밟지 못하고 돌아가는 편이 더 신경 쓰일 것 같습니다."
+    },
+    {
+      "Name": "마키",
+      "Text": "지루한 반복 플레이를 즐기는 스타일은 아니지만……"
+    },
+    {
+      "Name": "마키",
+      "Text": "그래도 보스전을 앞두고 게임 패드를 내던질 수는 없지!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "하지만 정상까지 가려면 아직 절반이나 남았는데……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "너희들…… 고생은 고생대로 하면서 성과는 없는 작업, 싫어하지 않았었어?"
+    },
+    {
+      "Name": "마키",
+      "Text": "물론 막상 정상에 올랐는데 일출을 보지 못한다면 아쉽겠지만……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "해가 뜨는 광경은 부실에 설치된 모니터로도 얼마든지 볼 수 있으니까요."
+    },
+    {
+      "Name": "하레",
+      "Text": "우리가 체험해 보지 못한 건 산을 오르는 경험뿐이야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……이번 새해 일출은 서쪽에서 뜨는 해를 보게 되려나."
+    },
+    {
+      "Name": "스미레",
+      "Text": "멋진 마음가짐이로군요!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "흔히 간과하는 사실이지만 트레이닝의 진정한 가치는 멋진 몸을 만드는 것보다, 그 상태에 도달하기 위해 운동을 반복하는 과정 속에 있는 법이니까요."
+    },
+    {
+      "Name": "스미레",
+      "Text": "마찬가지로 등산의 가치 또한 정상이 아닌, 산을 오르는 여정 속에 존재하는 법!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "그 마음가짐에 깊이 동감하는바. 저희 트레이닝부도 정상까지의 여정에 함께 하겠습니다!"
+    },
+    {
+      "Name": "스미레",
+      "Text": "레이 양! 지금부터 정상을 향해 전력으로 질주하도록 하죠!"
+    },
+    {
+      "Name": "레이",
+      "Text": "잠깐, 선배! 오늘 트레이닝은 정상까지 오르지 않고 산 중턱에서만 진행한다고 했잖아요?!"
+    },
+    {
+      "Name": "레이",
+      "Text": "어째서——!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "그럼 다 같이 힘을 모아 정상까지 가 볼까?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "일출 시각도 얼마 남지 않았으니 서두르자."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……도착이야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이곳이 히가시다케 산의 정상이야."
+    },
+    {
+      "Name": "마키",
+      "Text": "우와, 바람이 엄청 불어!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "탁 트인 정상에 올라서 그런지 더 추운 느낌입니다……"
+    },
+    {
+      "Name": "하레",
+      "Text": "구름이 걷혔나? 어두워서 잘 보이지가 않는데……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "글쎄요. 지금은 모르겠지만……"
+    },
+    {
+      "Name": "레이",
+      "Text": "아, 하늘이 조금씩 밝아진다."
+    },
+    {
+      "Name": "마키",
+      "Text": "드디어 해가 뜨려는 건가?"
+    },
+    {
+      "Name": "일동",
+      "Text": "아……"
+    },
+    {
+      "Name": "하레",
+      "Text": "……아름답다."
+    },
+    {
+      "Name": "레이",
+      "Text": "순식간에 하늘을 빛으로 물들였어……"
+    },
+    {
+      "Name": "마키",
+      "Text": "커다란 모니터로 일출을 본 경험은 많지만, 실제로 보니 확실히 느낌이 다르네……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "훨씬 더 화려하고, 훨씬 더 반짝일뿐더러……"
+    },
+    {
+      "Name": "하레",
+      "Text": "……훨씬 더 따듯해."
+    },
+    {
+      "Name": "스미레",
+      "Text": "고행 끝에 마주한 정상의 경치는, 그 무엇과도 견줄 수 없는 황홀한 자극이 되는 법이니까요."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……역시 직접 보러 오길 잘했지?"
+    },
+    {
+      "Name": "하레",
+      "Text": "응."
+    },
+    {
+      "Name": "하레",
+      "Text": "이번에는 먼저 권해줘서 고마워, 선배."
+    },
+    {
+      "Name": "마키",
+      "Text": "처음에 일출을 보러 캠핑을 가자고 했을 때는 귀찮은 마음뿐이었지만……"
+    },
+    {
+      "Name": "코타마",
+      "Text": "지금은 부부장이 어떤 느낌으로 캠핑을 권했는지 알 것 같습니다."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그렇게 생각해 주니 오히려 고맙네."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……세상에는 직접 체험해 보지 않으면 느낄 수 없는 것들이 잔뜩 있으니까."
+    },
+    {
+      "Name": "마키",
+      "Text": "방금 그 소리는……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "레이 양, 혹시 시장하신가요?"
+    },
+    {
+      "Name": "레이",
+      "Text": "그, 그건…… 그게 그러니까……"
+    },
+    {
+      "Name": "레이",
+      "Text": "어쩔 수 없잖아요! 아침 일찍부터 일어나 유산소 운동을 계속했는데, 배가 고플 수밖에……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "그럼 우리 쪽 캠프로 돌아가서 다같이 아침 식사를 하지 않을래?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "아침은 간단하게 먹을 수 있도록 빵을 좀 챙겨왔거든."
+    },
+    {
+      "Text": "[ns] \"빵에 곁들여 먹을 수 있는 잼과 버터도 있어.\""
+    },
+    {
+      "Name": "마키",
+      "Text": "아, 그럼 나는 잼이랑 버터로 빵에 그림을 그려서 먹을래!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "저는 버터 바른 빵 한 조각이면 충분합니다만……"
+    },
+    {
+      "Name": "하레",
+      "Text": "나는 빵보다는 커피를 한 잔 더 마시고 싶어……"
+    },
+    {
+      "Name": "스미레",
+      "Text": "프로틴 쉐이크에 곁들인다면 제법 괜찮은 아침이 될 것 같군요."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그래, 그래. 캠프로 돌아가면 각자 취향껏 만들어 먹자고."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 7;The First Sight"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Mmm... *snore*"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Maki, it's time to wake up."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We're supposed to watch the first sunrise of the year together, remember?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Mmm... Ten mo' mimutes... "
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sorry, if we don't leave soon we'll risk missing the sunrise."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Come on, get up and get your equipment ready for the climb. The morning air is chilly, so don't forget to dress warmly."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Yeah..."
+    },
+    {
+      "Text": "[ns1] \"Good morning, Maki.\""
+    },
+    {
+      "Text": "[ns2] \"Happy New Year.\""
+    },
+    {
+      "Name": "Maki",
+      "Text": "Morning, Sensei... *yawn*"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Happy New Year..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "...Today really is the first day of a new year, isn't it?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "I usually stay up all night on New Year's Eve and go to bed after the sun rises, so it's kinda weird to wake up now..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Though, now that I think about it, I stay up almost every night..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...You're awake too, Maki."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Good morning, Sensei."
+    },
+    {
+      "Text": "[s] \"Good morning you two.\""
+    },
+    {
+      "Name": "Hare",
+      "Text": "*yawn* ...Sleepy."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Times like these call for a high-caffeine energy drink..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "I'd enjoy having an energy drink myself right now..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We don't have energy drinks, but here's some strong coffee for you."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Remember to bring a bar of chocolate or some trail mix with you, even if you aren't hungry right now. Energy is important for a morning hike."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "And if you feel unwell, tell me or Sensei immediately. Okay?"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Yes, ma'am!"
+    },
+    {
+      "Text": "After a quick gear change, we began our hike to the summit."
+    },
+    {
+      "Name": "Hare",
+      "Text": "*pant* *pant*"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "My stamina...is depleted...already..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "So tired..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Hey...how far are we from the top?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We're halfway up. Hang in there."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...The weather is a little concerning, though."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "If these clouds don't clear, we may not be able to see the sunrise, even from the peak..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Hm? Why is that bush shaking?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It can't possibly be that bear from yesterday...right?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Eeeek!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Oh? Veritas again? And Trainer..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Ah, Sumire. Hi!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Hello, Maki. I didn't expect to run into you again."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Happy New Year, everyone!"
+    },
+    {
+      "Text": "[s] \"Happy New Year, Sumire.\""
+    },
+    {
+      "Text": "[ns] \"Did you sleep well last night?\""
+    },
+    {
+      "Name": "Sumire",
+      "Text": "No. Perhaps it's the excitement of having our first outdoor training trip in a long time, but I had a hard time falling asleep..."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "That's why I decided to go on a hike to loosen up a bit."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Yesterday's light exercise left me with plenty of energy to burn!"
+    },
+    {
+      "Name": "Rei",
+      "Text": "That wasn't light at all!"
+    },
+    {
+      "Name": "Rei",
+      "Text": "As if the bear wasn't bad enough, we sprinted up a dry creek bed instead of a regular trail multiple times..."
+    },
+    {
+      "Name": "Rei",
+      "Text": "Just how athletic are you, Sumire?!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Heehee. The body is only as strong as the spirit allows it to be."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "If you keep training with me, I wouldn't be surprised if you set a record for consecutive home runs!"
+    },
+    {
+      "Name": "Rei",
+      "Text": "Back-to-back home runs... The roar of the crowd carrying me across home plate like a magnificent wave... Then it can't be helped."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "But I'm glad to see you're all up and hiking so early."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "...Could it be that you've made a New Year's resolution to make exercise a hobby too?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Exercise ranks rather low on my hobby tier list..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "But the vice president's idea to watch the first sunrise of the year has been better than I expected."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "That's right, you want to watch the sun rise from the mountaintop..."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Sorry, but you may want to head back this time."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Why?!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "It's hard to see this early, but that cloud cover is pretty thick."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "It's unlikely that you'll be able to see much of the sunrise when it's overcast like this."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "I'd hate for you to ascend all the way to the peak, only to have your hopes plummet off a cliff."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But the forecast said it's supposed to be sunny..."
+    },
+    {
+      "Text": "[s] \"What should we do?\""
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...What do you guys think?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I know I pushed us to come out here, but there's no point in forcing our way to the top if the weather isn't cooperating."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I...want to continue."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Yeah. I thought you'd want to head back—"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Huh? You actually want to keep going?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Well, I'm outside for the first time in a while, after all. I might as well make the most of it."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "We've come this far. It would be a shame to turn back in defeat before reaching the summit."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Grinding in real life is way worse than in a game, but..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "You can't throw your save file away before a boss fight!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But we're still only halfway to the top..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Don't you...hate hard work with no payoff?"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Well, yeah, it would be a shame to reach the top and miss the sunrise..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "But I can see plenty of sunrises from my monitors in the club room."
+    },
+    {
+      "Name": "Hare",
+      "Text": "The only experience we can't replicate is climbing a mountain together."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Am I dreaming? At this rate, we'll reach the top and see the New Year's sunrise coming up in the west."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "That's a great attitude!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "It's often overlooked, but the true value of training isn't in sculpting a great body. It's the discipline instilled by the exercises themselves."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Similarly, the best part of climbing a mountain lies in what it teaches you about yourself, not the view from the summit!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "I'm inspired by your spirit, Veritas! The Athletics Training Club will accompany you on your journey to the top!"
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Rei! It's time to sprint to the summit!"
+    },
+    {
+      "Name": "Rei",
+      "Text": "W-Wait! You said we were only going to train partway up the mountain today, not all the way at the top!"
+    },
+    {
+      "Name": "Rei",
+      "Text": "Hold on—!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Off they go. Well, let's work hard and reach the peak together, shall we?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sunrise is just around the corner..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...We made it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "This is the summit of Mt. Higashidake."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Wow, it's really windy!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It feels even colder now that we're standing on an exposed peak..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Have the clouds cleared at all? It's hard to tell in the dark..."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Well, I'm not sure, but..."
+    },
+    {
+      "Name": "Rei",
+      "Text": "Ah, the sky is starting to lighten."
+    },
+    {
+      "Name": "Maki",
+      "Text": "Is the sun finally rising?"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Ah..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...It's beautiful."
+    },
+    {
+      "Name": "Rei",
+      "Text": "It's painting the sky with the light of a million home run fireworks..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "I've seen recordings of sunrises, but it's completely different in person..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "It's much more vibrant, and brilliant, and..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "...So much warmer."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Having your hard work rewarded with a view like this is an inspiration like no other."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Are you glad you came to see it in person?"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Yeah."
+    },
+    {
+      "Name": "Hare",
+      "Text": "It was all worth it."
+    },
+    {
+      "Name": "Maki",
+      "Text": "When you first suggested camping out to watch the sunrise, it seemed like a waste of time..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "But I understand now."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'm grateful that you think so."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...There are so many things in life that you can't really understand until you experience them yourself."
+    },
+    {
+      "Name": "Maki",
+      "Text": "That sound just now..."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Rei, are you perhaps hungry?"
+    },
+    {
+      "Name": "Rei",
+      "Text": "Th-That's... Well..."
+    },
+    {
+      "Name": "Rei",
+      "Text": "I can't help it! We've been doing cardio since the early hours of the morning, of course I'm hungry!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Why don't we go back to our camp and eat breakfast together?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I packed some bread for a quick meal."
+    },
+    {
+      "Text": "[ns] \"There's plenty of jam and butter to go around too.\""
+    },
+    {
+      "Name": "Maki",
+      "Text": "Oh, I'll make my bread a canvas for a jam and butter masterpiece!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "A slice of buttered bread is enough for me..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I'd rather have another cup of coffee. Or two."
+    },
+    {
+      "Name": "Sumire",
+      "Text": "Add in a protein shake and we've got ourselves a pretty good breakfast."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Yeah, yeah. Everyone can make breakfast how they want when we get back to camp."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 7;ทิวทัศน์แรก"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "งืม... งืมมม..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มากิ ตื่นได้แล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "วันนี้เราจะตื่นแต่รุ่งสางแล้วไปดูพระอาทิตย์แรกของปีด้วยกันไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "แต่ว่า... ขออีก 10 นาทีได้มั้ย...? "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่ได้ ถ้าจะไปให้ถึงยอดเขาก่อนพระอาทิตย์ขึ้น ตอนนี้เราก็ควรออกเดินทางกันแล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "รีบตื่นมาจัดของแล้วเตรียมขึ้นไปได้แล้ว อากาศช่วงเช้ามืดจะหนาวกว่าปกติ ใส่เสื้อผ้าอุ่นๆ ไปด้วยล่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อืม..."
+    },
+    {
+      "Text": "[ns1] \"อรุณสวัสดิ์ มากิ\""
+    },
+    {
+      "Text": "[ns2] \"สวัสดีปีใหม่นะ\""
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อรุณสวัสดิ์ คุณครู"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "สวัสดีปีใหม่ด้วย..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "จะว่าไป นี่คือวันแรกของปีใหม่เลยนี่นา"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ปกติในวันแรกของปี ฉันจะเข้านอนตอนเช้าเพราะโต้รุ่งจากคืนก่อนหน้า แต่ปีนี้ได้ตื่นในเวลานี้ด้วย รู้สึกประหลาดๆ แฮะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เดี๋ยวนะ ถ้าลองคิดดูแล้ว ที่ผ่านมาฉันแทบจะไม่นอนเร็วและตื่นเช้าเลย..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "มากิก็ตื่นแล้วสินะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "อรุณสวัสดิ์ค่ะคุณครู"
+    },
+    {
+      "Text": "[s] \"อรุณสวัสดิ์ทั้งสองคน\""
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ฮ้าวว... ง่วงจัง..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เวลาแบบนี้ต้องได้เครื่องดื่มชูกำลังที่มีคาเฟอีนสูงๆ ให้ตื่นสักขวด..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "วันนี้ฉันก็อยากดื่มเครื่องดื่มชูกำลังเหมือนกันค่ะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถึงจะไม่มีเครื่องดื่มชูกำลัง แต่ก็มีกาแฟเข้มๆ ที่ฉันชงไว้อยู่นะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เอาละ ถึงจะไม่อยากกิน แต่ก็รับช็อกโกแลตบาร์นี้ไปกินคนละอันนะ เราต้องใช้พลังงานในการปีนเขา\nตอนเช้า"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "และถ้ามีใครรู้สึกว่าร่างกายผิดปกติตรงไหนก็ให้รีบรายงานทันที เข้าใจมั้ย?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ค่า~"
+    },
+    {
+      "Text": "(หลังจากเตรียมตัวอย่างง่ายๆ ทุกคนก็เริ่มปีนเขาและมุ่งหน้าไปยังยอดเขาด้วยกัน)"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "แฮ่ก... แฮ่ก..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ยังไม่ทันไร... ฉันก็หมดแรงแล้ว..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ไม่ไหวแล้ว~"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "รุ่นพี่~ อีกไกลมั้ยกว่าจะถึงยอดเขา?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เรามากันได้ครึ่งทางแล้ว อดทนกันอีกหน่อยนะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "จะว่าไป อากาศแย่ไม่ใช่เล่นเลยนะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าทัศนวิสัยเป็นแบบนี้ ต่อให้ไปถึงยอดเขาก็อาจจะไม่เห็นพระอาทิตย์ขึ้นก็ได้..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เอ๋? เหมือนพงไม้ทางโน้นขยับเลย"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ยะ... อย่าบอกนะว่ามีหมีออกมาเหมือนเมื่อวาน..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เฮือก..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "เอ๋ สมาชิกเวอริทัส? และเทรนเนอร์ด้วย..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อ๊ะ รุ่นพี่สึมิเระ สวัสดี!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "สวัสดีค่ะมากิ ไม่คิดเลยนะคะว่าจะได้มาเจอกันที่นี่อีก"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "สวัสดีปีใหม่นะคะทุกคน"
+    },
+    {
+      "Text": "[s] \"สึมิเระก็ด้วยนะ สวัสดีปีใหม่\""
+    },
+    {
+      "Text": "[ns] \"เมื่อคืนหลับสบายดีมั้ย?\""
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ไม่ค่ะ ไม่รู้ว่าเพราะไม่ได้มาพักแรมกลางแจ้งนานแล้วรึเปล่า เมื่อคืนก็เลยนอนไม่ค่อยหลับน่ะค่ะ..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ฉันก็เลยปีนเขาไปออกกำลังกายตอนเช้าเพื่อให้ร่างกายกระปรี้กระเปร่ามาค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "พอได้ขยับตัวเบาๆ ก็รู้สึกมีชีวิตชีวาขึ้นมาหน่อยแล้วค่ะ"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "นี่ไม่เรียกว่าเบาๆ นะคะ?!"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "ที่ออกกำลังกายมาเมื่อวานยังไม่ทันหายเมื่อยเลย แล้ววันนี้ยังให้วิ่งสู้ฟัดตามเส้นทางที่ขรุขระอีก ทางเดินเขาดีๆ มีก็ไม่เลือกไป..."
+    },
+    {
+      "Name": "เรย์",
+      "Text": "ประสาทสั่งการในการออกกำลังกายของรุ่นพี่สึมิเระเป็นยังไงกันคะเนี่ย?!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ฮุฮุ เราจะแข็งแรงตามการขยับร่างกายค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ถ้าเรย์มาฝึกฝนกับฉันอีกเรื่อยๆ การตีโฮมรันในฤดูกาลหน้าจะไม่ใช่แค่ความฝันแน่นอนค่ะ"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "แล้วถ้าเป็นการตีโฮมรันสองครั้งติดต่อกันล่ะ..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "จะว่าไป ทุกคนมาปีนเขากันตั้งแต่เช้าเลยเหรอคะเนี่ย เรื่องแบบนี้ไม่น่าเกิดขึ้นบ่อยๆ เลยนะคะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "หรือว่าปณิธานปีใหม่ของทุกคนคือการออกกำลังกายเป็นงานอดิเรกคะ?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ฉันก็ไม่อยากให้การออกกำลังกายเป็นถึงงานอดิเรกหรอกนะ..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แต่ว่ารองหัวหน้าชวนพวกเรามาดูพระอาทิตย์แรกของปี เราก็เลยกำลังขึ้นไปยังยอดเขาอยู่น่ะค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "อืม... ถ้าจะขึ้นไปดูพระอาทิตย์แรกของปีละก็..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ขอโทษนะคะ แต่ฉันว่าล้มเลิกแพลนจะไปดูพระอาทิตย์ขึ้นดีกว่าค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ทำไมล่ะ?!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ตอนนี้อาจจะยังไม่เห็นเพราะพระอาทิตย์ยังไม่ขึ้น แต่วันนี้มีเมฆค่อนข้างมากเลยค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ในอากาศมืดครึ้มแบบนี้ ต่อให้พระอาทิตย์ขึ้น แต่ก็มีความเป็นไปได้สูงที่จะไม่ได้ดูวิวพระอาทิตย์ขึ้นได้\nอย่างเต็มที่ค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ทุกคนน่าจะคาดหวังกันมาไม่น้อยเลย แต่ฉันกลัวว่าขึ้นไปแล้วจะผิดหวังกันน่ะค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่พยากรณ์อากาศบอกว่าอากาศจะแจ่มใสนี่นา..."
+    },
+    {
+      "Text": "[s] \"ทำยังไงกันดีล่ะ...\""
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ทุกคนว่าไง?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถึงฉันจะเป็นคนเสนอก็เถอะ แต่ถ้าสภาพอากาศไม่ดี เราก็ไม่จำเป็นต้องฝืนขึ้นไปถึงยอดเขาก็ได้"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ไปกันต่อ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ก็ได้ กะไว้แล้วละว่าอยากกลับ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "หืม? จะไปต่อให้ถึงยอดเขางั้นเหรอ?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อื้ม ไหนๆ เราก็ออกมาข้างนอกกันแล้ว"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ในเมื่อขึ้นมาถึงนี่แล้ว จะให้กลับไปเลยทั้งๆ ที่ยังไม่ถึงยอดเขามันน่าเสียดายกว่าอีกนะคะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ฉันไม่ใช่พวกที่สนุกกับการเล่นอะไรน่าเบื่อๆ ซ้ำๆ หรอกนะ..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "แต่ถ้ายังไม่ถึงด่านบอส เราก็ยังไม่ควรปิดเกมใช่ไหมล่ะ!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แต่ถ้าจะไปให้ถึงยอดเขา ก็อีกตั้งครึ่งทางเลยนะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "พวกเธอไม่ได้ไม่ชอบการเหน็ดเหนื่อยแต่ไม่ได้ผลลัพธ์หรอกเหรอ?"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ถ้าเราขึ้นไปถึงยอดเขาแล้วไม่ได้ดูพระอาทิตย์ขึ้นมันก็คงน่าเสียดายอยู่หรอก"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "แต่ถ้าไม่ได้ดู ก็เอาไว้ดูจากมอนิเตอร์ในห้องชมรมก็ได้ค่ะ"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "สิ่งที่เรายังไม่เคยลองทำก็คือการปีนเขานี่ละ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ไม่อยากจะเชื่อหูเลย พระอาทิตย์แรกของปีนี้จะขึ้นทางทิศตะวันตกรึเปล่าเนี่ย"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "เป็นความตั้งใจที่ยอดเยี่ยมเลยค่ะ!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ถึงนี่จะเป็นสิ่งที่มักถูกมองข้ามไป แต่คุณค่าที่แท้จริงของการฝึกฝนไม่ได้อยู่ที่การสร้างหุ่นสวย แต่อยู่ที่กระบวนการของการออกกำลังกายซ้ำๆ เพื่อที่จะไปถึงจุดนั้นมากกว่าค่ะ"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "กับการปีนเขาก็เช่นเดียวกัน คุณค่าของการปีนเขาไม่ได้อยู่ที่ยอดเขา แต่เป็นการเดินไปทางไปสู่จุดหมายต่างหากค่ะ!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ฉันเห็นด้วยกับความตั้งใจนี้ค่ะ งั้นพวกเราชมรมออกกำลังกายก็จะขอเป็นส่วนหนึ่งของการเดินทางนี้\nด้วยคนค่ะ!"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "เรย์! จากนี้เราจะวิ่งสู้ฟัดขึ้นไปบนยอดเขาด้วยกันค่ะ!"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "เดี๋ยวสิ รุ่นพี่! รุ่นพี่บอกว่าการฝึกวันนี้เราจะไม่ไปถึงยอดเขา แต่อยู่แค่กลางๆ เขาเท่านั้นไม่ใช่เหรอคะ?!"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "เป็นแบบนี้ไปได้ยังไงล่ะเนี่ย...!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "งั้นเรามารวมพลังกัน แล้วไปให้ถึงยอดเขาด้วยกันเลยมั้ย?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อีกไม่นานก็จะถึงเวลาที่พระอาทิตย์จะขึ้นแล้ว รีบไปกันเถอะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถึงแล้ว..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ที่นี่ละ ยอดเขาฮิงาชิทาเกะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "โห ข้างบนนี้ลมพัดแรงมากเลย!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ไม่รู้ว่าเพราะขึ้นมาถึงยอดเขาโล่งๆ รึเปล่า ฉันถึงได้รู้สึกหนาวกว่าเดิมอีกค่ะ..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ก้อนเมฆหายไปรึยังนะ? ยังมืดอยู่จนมองไม่เห็นเลย..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "นั่นสิคะ ตอนนี้คงยังไม่รู้..."
+    },
+    {
+      "Name": "เรย์",
+      "Text": "อ๊ะ ท้องฟ้าค่อยๆ สว่างขึ้นแล้ว"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ในที่สุดพระอาทิตย์ก็ขึ้นแล้วเหรอ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ว้าว..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "สวยจัง..."
+    },
+    {
+      "Name": "เรย์",
+      "Text": "ท้องฟ้าทอแสงในชั่วพริบตาเลย..."
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ฉันเห็นพระอาทิตย์ขึ้นจากในหน้าจอมอนิเตอร์อยู่บ่อยครั้งก็จริง แต่พอได้มาเห็นของจริงกับตา ความรู้สึกมันต่างกันจริงๆ นะเนี่ย..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "มันทั้งงดงามกว่า ระยิบระยับกว่าด้วย..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อบอุ่นกว่ากันเยอะเลย"
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ทิวทัศน์ที่เราได้เห็นบนยอดเขาหลังจากการปีนเขาอันเหน็ดเหนื่อย เป็นสิ่งที่ตราตรึงใจเกินกว่าจะหา\nอะไรเปรียบเลยค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ดีนะเนี่ยที่เราขึ้นมาดูกันด้วยตาตัวเอง ว่ามั้ย?"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "อื้ม"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ขอบคุณที่ชวนพวกเรามานะรุ่นพี่"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "ตอนแรกที่รุ่นพี่ชวนมาตั้งแคมป์เพื่อดูพระอาทิตย์ขึ้น ฉันขี้เกียจมามากๆ เลย..."
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ตอนนี้ฉันรู้แล้วค่ะว่าทำไมรองหัวหน้าถึงชวนเรามาแคมป์ปิ้งกัน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ขอบใจนะที่คิดกันแบบนี้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ในโลกนี้มีหลายสิ่งหลายอย่างที่เราไม่อาจรู้สึกถึงได้... ถ้าไม่ได้มาลองสัมผัสด้วยตัวเอง"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "เสียงเมื่อกี้มัน..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "เสียงท้องร้องของเรย์รึเปล่าคะ?"
+    },
+    {
+      "Name": "เรย์",
+      "Text": "อะ... เอ่อ... คือว่า..."
+    },
+    {
+      "Name": "เรย์",
+      "Text": "ก็ช่วยไม่ได้นี่คะ! ฉันต้องตื่นมาคาร์ดิโอตั้งแต่เช้าตรู่ จะหิวก็ไม่แปลกหรอกค่ะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "งั้นลงไปที่เต็นท์ของพวกเราแล้วกินอาหารเช้าด้วยกันมั้ย?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฉันเตรียมขนมปังมากินเป็นมื้อเช้าง่ายๆ น่ะ"
+    },
+    {
+      "Text": "[ns] \"มีแยมกับเนยให้กินกับขนมปังด้วยนะ\""
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อ๊ะ งั้นฉันใช้แยมกับเนยวาดรูปบนขนมปังก่อนนะแล้วค่อยกิน!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ฉันขอแค่ขนมปังทาเนยแผ่นเดียวก็พอค่ะ..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ฉันอยากได้กาแฟมากกว่าขนมปัง..."
+    },
+    {
+      "Name": "สึมิเระ",
+      "Text": "ถ้าได้กินคู่กับโปรตีนเชค ก็น่าจะเป็นอาหารเช้าที่เข้าท่าเลยนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ก็ได้ๆ กลับไปกินขนมปังตามแบบที่ตัวเองชอบกันได้เลย"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第7話;第一道風景"
+    },
+    {
+      "Name": "真紀",
+      "Text": "唔唔……嗯嗯嗯……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "真紀，該起床了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不是說好今天要早起去看新年的第一個日出嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "可是……不能再睡10分鐘嗎……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不行，如果想在太陽升起前抵達山頂，現在出發都有點晚了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "趕快起來收拾裝備準備上山。\n清晨的氣溫很低，別忘了把衣服穿好。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "嗯……"
+    },
+    {
+      "Text": "[ns1]「早安，真紀。」"
+    },
+    {
+      "Text": "[ns2]「新年快樂。」"
+    },
+    {
+      "Name": "真紀",
+      "Text": "早安，老師……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "也祝老師新年快樂……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "……對了，今天是元旦呢。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "以前這天通常都是熬夜玩到早上才睡，在這時間起床感覺有點神奇……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "不，仔細想想，好像幾乎沒有早睡早起過……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……真紀也起來啦。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "早安，老師。"
+    },
+    {
+      "Text": "[s]「兩位早呀。」"
+    },
+    {
+      "Name": "晴",
+      "Text": "呼啊……好睏……"
+    },
+    {
+      "Name": "晴",
+      "Text": "這種時候要喝一杯高咖啡因能量飲料才會有精神……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "我今天也想來一杯能量飲料……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "雖然沒有能量飲料，但是我早上泡了濃濃的咖啡。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "來，就算沒胃口也吃個巧克力棒吧。\n早起爬山的時候，能量是很重要的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "如果覺得身體怪怪的記得馬上報告，知道嗎？"
+    },
+    {
+      "Name": "全體",
+      "Text": "是～"
+    },
+    {
+      "Text": "（於是在簡單準備後便開始朝山頂走去）"
+    },
+    {
+      "Name": "晴",
+      "Text": "哈啊，哈啊……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "這麼快就……到極限了……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "我累了～"
+    },
+    {
+      "Name": "真紀",
+      "Text": "前輩～現在離山頂還很遠嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "現在已經走到一半了，再加把勁吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……話說回來，天氣有點不太尋常。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這樣下去，說不定抵達山頂也很難看到日出……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "咦？剛剛那邊的草叢是不是在晃？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "該，該不會……跟昨天一樣又有熊出沒……"
+    },
+    {
+      "Name": "晴",
+      "Text": "噫噫……"
+    },
+    {
+      "Name": "堇",
+      "Text": "咦，貝里塔斯的各位？還有指導員……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "啊，是堇前輩。哈囉！"
+    },
+    {
+      "Name": "堇",
+      "Text": "早安，真紀。\n沒想到又在這裡碰面了呢。"
+    },
+    {
+      "Name": "堇",
+      "Text": "祝各位新年快樂。"
+    },
+    {
+      "Text": "[s]「也祝堇新年快樂。」"
+    },
+    {
+      "Text": "[ns]「昨晚睡得好嗎？」"
+    },
+    {
+      "Name": "堇",
+      "Text": "不，可能是因為很久沒野外合宿興奮過頭的關係，昨晚睡得並不好……"
+    },
+    {
+      "Name": "堇",
+      "Text": "所以為了讓緊張的身體完全放鬆，我選擇以登山作為晨練。"
+    },
+    {
+      "Name": "堇",
+      "Text": "輕鬆活動一下身體之後，現在感覺稍微恢復活力了。"
+    },
+    {
+      "Name": "莉",
+      "Text": "一點都不輕鬆好嗎！？"
+    },
+    {
+      "Name": "莉",
+      "Text": "昨天運動後的疲勞都還沒消除，居然還沿著超級難走的路全力衝刺了好幾次……"
+    },
+    {
+      "Name": "莉",
+      "Text": "堇前輩的運動神經到底是怎麼回事！？"
+    },
+    {
+      "Name": "堇",
+      "Text": "呵呵，身體就是會越用越強的東西啊。"
+    },
+    {
+      "Name": "堇",
+      "Text": "只要莉同學持續和我一起訓練，明年賽季要連續打出全壘打也不是夢哦。"
+    },
+    {
+      "Name": "莉",
+      "Text": "如果是為了連續全壘打……那就沒辦法了。"
+    },
+    {
+      "Name": "堇",
+      "Text": "話說回來，大家一早就開始爬山，真稀奇耶。"
+    },
+    {
+      "Name": "堇",
+      "Text": "……難道這是新年的決心？\n貝里塔斯的各位也決定把運動當成愛好了嗎？"
+    },
+    {
+      "Name": "晴",
+      "Text": "雖然沒那個打算……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "但是在副部長的勸說下，我們正為了看新年第一個日出而往山頂前進。"
+    },
+    {
+      "Name": "堇",
+      "Text": "嗯……目的是看新年的第一個日出啊……"
+    },
+    {
+      "Name": "堇",
+      "Text": "雖然可惜，但這次你們最好放棄。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "為什麼！？"
+    },
+    {
+      "Name": "堇",
+      "Text": "雖然太陽還沒升起所以看不清楚，但現在空中的雲還挺多的。"
+    },
+    {
+      "Name": "堇",
+      "Text": "這種陰天即使太陽升起，可能也很難看到完整的日出……"
+    },
+    {
+      "Name": "堇",
+      "Text": "難得你們抱著期待上山，可能會因此失望的哦。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "氣象預報雖然說今天是晴天……"
+    },
+    {
+      "Text": "[s]「這下該怎麼辦……」"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……大家覺得呢？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "雖然提議的人是我沒錯，但既然天氣不如人願，也沒必要勉強爬到山頂。"
+    },
+    {
+      "Name": "晴",
+      "Text": "……我要繼續走。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "嗯，就知道你果然會想回──"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……嗯？你要繼續走到山頂？"
+    },
+    {
+      "Name": "晴",
+      "Text": "嗯，反正都難得到外面來了。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "明明已經走到這裡，不到達山頂就折返會更讓人不甘心。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "雖然我不喜歡玩周回要素……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "但頭目戰近在眼前，總不能半途而廢吧！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "可是距離山頂還剩下一半的路程……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你們……不是討厭吃苦受罪卻沒成果的工作嗎？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "爬到山頂卻看不到日出當然很可惜……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "不過如果想看日出的話，回去之後用部室的螢幕也能看見。"
+    },
+    {
+      "Name": "晴",
+      "Text": "但是──爬到山頂的過程，只有親自走過才能體會。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……這個新年會看到從西邊升起的太陽嗎？"
+    },
+    {
+      "Name": "堇",
+      "Text": "真是令人欽佩的心態！"
+    },
+    {
+      "Name": "堇",
+      "Text": "雖然這個事實經常被人忽視，不過訓練真正的價值並不在於打造好看的身材，\n而是為了達到那個狀態而反覆運動的過程。"
+    },
+    {
+      "Name": "堇",
+      "Text": "同樣的，登山的價值也不在於登頂，而是攀爬中的經歷的旅程。"
+    },
+    {
+      "Name": "堇",
+      "Text": "真是讓人深有同感。\n我們訓練部也會在這趟旅程中一起登頂！"
+    },
+    {
+      "Name": "堇",
+      "Text": "莉！我們馬上全力奔向山頂吧！"
+    },
+    {
+      "Name": "莉",
+      "Text": "等等，前輩！\n你不是說今天的訓練不會爬到山頂，只會到半山腰為止嗎！？"
+    },
+    {
+      "Name": "莉",
+      "Text": "怎麼這樣啦──！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "那我們就再努力一下吧？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "時間也所剩無幾了，趕緊出發吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……終於到了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這就是東岳山的山頂。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "哇，風好大！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "可能是爬上開闊山頂的關係，感覺更冷了……"
+    },
+    {
+      "Name": "晴",
+      "Text": "雲散了嗎？\n周圍太暗了，什麼都看不到……"
+    },
+    {
+      "Name": "堇",
+      "Text": "這個嘛，現在不是很清楚……"
+    },
+    {
+      "Name": "莉",
+      "Text": "啊，天空漸漸亮起來了。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "太陽終於要升起了嗎？"
+    },
+    {
+      "Name": "全體",
+      "Text": "啊……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……真美。"
+    },
+    {
+      "Name": "莉",
+      "Text": "一瞬間就讓天空充滿陽光……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "雖然經常用大螢幕看日出……\n親眼目睹的感覺的確很不一樣……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "好像更燦爛、更耀眼……"
+    },
+    {
+      "Name": "晴",
+      "Text": "……也更溫暖。"
+    },
+    {
+      "Name": "堇",
+      "Text": "經過一番苦行後看到的山頂景色，其刺激是任何東西都無法比擬且令人陶醉的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……親自來看果然是對的吧？"
+    },
+    {
+      "Name": "晴",
+      "Text": "嗯。"
+    },
+    {
+      "Name": "晴",
+      "Text": "謝謝你這次帶我們來，前輩。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "一開始你要抓大家去露營的時候，我其實覺得很麻煩……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "現在我好像明白副部長是以什麼樣的心情邀我們來露營了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "你願意這麼想，我反而很感謝呢。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……世界上有很多不親身體驗就無法感受的事物。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "剛才那個聲音是……"
+    },
+    {
+      "Name": "堇",
+      "Text": "莉同學，你餓了嗎？"
+    },
+    {
+      "Name": "莉",
+      "Text": "那，那個……因為……"
+    },
+    {
+      "Name": "莉",
+      "Text": "我也沒辦法嘛！\n早上起來之後就一直做有氧運動，怎麼可能不餓……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "要不要回營地跟大家一起吃早餐？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我有帶一些麵包來。"
+    },
+    {
+      "Text": "[ns]「還有可以搭配的果醬和奶油哦。」"
+    },
+    {
+      "Name": "真紀",
+      "Text": "啊，那我要用果醬和奶油在麵包上畫畫後再吃掉！"
+    },
+    {
+      "Name": "小玉",
+      "Text": "我只要一塊塗上奶油的麵包就夠了……"
+    },
+    {
+      "Name": "晴",
+      "Text": "比起麵包，我更想喝杯咖啡……"
+    },
+    {
+      "Name": "堇",
+      "Text": "如果加上高蛋白奶昔，應該會是很不錯的早餐。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "好好好，回到營地之後照自己的喜好做來吃吧。"
+    }
+  ]
+}

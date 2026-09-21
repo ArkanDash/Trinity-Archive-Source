@@ -1,0 +1,2732 @@
+{
+  "TitleJP": "生命について",
+  "TitleKR": "예측할 수 없었던 것",
+  "TitleEN": "The Unpredictable",
+  "TitleTH": "สิ่งที่คาดการณ์ไม่ได้",
+  "TitleTW": "無法預測之物",
+  "DescJP": "「名もなき神々の王女」、AL-1Sがいることに驚き、同時に、「名もなき神々の鍵」の現在の外見にも失望を隠せないアイン、ソフ、オウル。王女と鍵が揃っていることから、作戦の練り直しを求められる三姉妹。アリスたちは苔の生えた部屋で休憩を取り、生命について新たな学びを得る。アイン、ソフ、オウルは全ての生命体には限界があることから、そこまでアリスたちを追い詰めることを思いつき、ティファレトへと情報を共有するのだった。",
+  "DescKR": "일행이 도달한 곳은, 종자 보관소의 내부 구역이었다.",
+  "DescEN": "The group arrives at the inner section of the seed vault.",
+  "DescTH": "คณะสืบค้นเข้ามาถึงพื้นที่ด้านในของคลังเก็บเมล็ดพันธุ์",
+  "DescTW": "小隊抵達保管庫內部區域。",
+  "DialogJP": [
+    {
+      "Text": "第25話;生命について"
+    },
+    {
+      "Name": "オウル",
+      "Text": "なぜあの二人がここにいるのですか！？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "お、落ち着いて。\nまずは、本物かどうか確かめよう。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "か、片方はよく分かりませんが……。\nもう片方は、間違いありません！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "嘘……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "今は「アリス」と呼ばれているみたいですが……。\nあれは「名もなき神々の王女」、AL-1S……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、その名前は、あまり言わない方が……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "それもそうですね……気をつけます。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "やっぱりどう見ても……そうだよね？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ど、どどどど、どうして今まで……気づけなかったの、でしょうか……？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "[ruby=さいば]才羽[/ruby]モモイに、[ruby=さいば]才羽[/ruby]ミドリ、[ruby=はなおか]花岡[/ruby]ユズ……全部把握していたはずなのに……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "推測ですが、おそらくこれが原因かと。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "これって、たしか……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……ええ。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "あまり言いたくない、ですが……「名もなき神々の鍵」……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "え、でも……あの見た目はどうにかならなかったのかな……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "あれが……人間のセンスなのですか……？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "こ、ここここ、こんなの、許せません……！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "あんな構造体にさせられた金属が可哀想です！！！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "どうどう、アイン落ち着いて……深呼吸しようね……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "あの二人が、あそこにいたのであれば――"
+    },
+    {
+      "Name": "オウル",
+      "Text": "力場を突破できたのも理解できます。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "でも、どうして今まで観測できなかったんだろ？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、それは、あの「鍵」のせい、かもしれません……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "王女は――存在意義を自分で捨てたはずですから……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "そもそも、あの王女は「禁じられた力」を行使できないはずでは？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "けど、その使い方を知ってる「鍵」がいれば、話は別。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "たぶん、「鍵」が教えたんだろうね。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、そうでもなければ、私たちの探知に引っかかったはずです……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……作戦、練り直しますか？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "そうだね……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ど、どうしましょう……何をすれば……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ティファレトから支援要請が届いています。\n意見を求めているみたいですが……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ティファちゃんから、ですか……？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "現場のことは現場で判断して欲しいんだけどな……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "いえ、ティファレト自身はもう答えを出しているようです。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "それは、どういう意味ですか……？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "え……まさか……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ええ、おそらく――"
+    },
+    {
+      "Name": "オウル",
+      "Text": "今のティファレトが必要としているのは、許可……「判断」と「激励」かと。"
+    },
+    {
+      "Text": "[ns] \"やっと通路を抜けたね。\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "この部屋……所々に苔が生えてますね。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "も、森の中みたいな香りがして……落ち着きます……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "完全に外と隔離するのは難しかったようですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "種子を保存する環境としては、あまり望ましくないとは思いますが……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "あるいは……最初から想定していたのかもしれないわね。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "あっちにもドアがある。\n種を保管してるところかも。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……その前に、少し休憩していきませんか？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "賛成！歩き疲れちゃったよー！"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリス、知ってます！\nボス戦前のセーブポイントですね！"
+    },
+    {
+      "Text": "（苔を掃除して、休めるスペースを作った）"
+    },
+    {
+      "Text": "（ゲーム開発部のみんなは、肩を寄せ合ってうとうとしていた）"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[ns] \"ケイ、苔を見てるの？\""
+    },
+    {
+      "Name": "ケイ",
+      "Text": "はい。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……生命とは、何なのでしょうか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、どうしてそのような疑問を？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "この苔は外から侵入し、自分たちのテリトリーを増やしています。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "過酷な環境で厳格に管理されていたはずの、この建物の中で。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "苔は繫殖力が極めて高い植物よ。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……およそ4億年前から存在しているんですよね。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "だからこそ、驚いているのです。生命とは……こんなにも不確かなものなのですね。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "自己中心的で、壊れやすく、予測できない――それが、生命。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……つまり、自分勝手な存在だと言いたいのですね？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "そう……かもしれません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "良い着眼点ですね、ケイ。\nええ。生命とは、自分勝手なものです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "一つ、例を挙げましょう。そうですね……直感による無作為乱数――\nこれを論理回路で作ることはできませんよね？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[ns] \"それはどういう意味？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "乱数とは、人が思う以上に難しい概念なのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "コンピューターが用意する「ランダム」とは、実のところ完全な乱数ではありません。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ええ。手法はいろいろあるけれど、結局はそのように見せかけているだけに過ぎないわ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "これを――疑似乱数と言うの。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "正しい意味での乱数を生成するには、外部からの入力が不可欠なの。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そこで通常は、自然現象の中に存在する無作為性をデータとして入力することによって、乱数を生成させているんです。"
+    },
+    {
+      "Text": "[s] \"な、なるほど……？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私は、その確率と偶然、非線形こそが生命の可能性ではないかと思っているのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――要は、自分勝手なところ、という意味です。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "私は、それが嫌なんです。\nそのせいで根本的に管理が難しく、予測もできないんですから。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですが、私たちが管理できる存在だったなら、こうしてケイが蘇ることもなかったのですよ？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "その話と何の関係が？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "もし、自身を脅かす存在があったとして……あなたは、「ただそうしたいから」と放置しますか？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "そんなものは、ただちに――"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "あっ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ、そういうことです。\n生命とは不確実で自分勝手ですが……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "だからこそ、いくつもの可能性を持つのです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうして無自覚のうちに、遺伝的多様性を増やしていきます。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "多様性は、より多くの機会をもたらすわ。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "計算に基づく予測で管理しようとすれば、相対的に生存率が低くなる――\nそう言いたいのですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あくまで考え方の一つではありますけどね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そもそも、あらゆる事象を計算できると考えること自体、私は懐疑的です。\n量子力学のトンネル効果とかその最たる例ではありませんか？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "それは微視的な話で……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ですが、たしかに存在します。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それにほら、堅苦しい議論はさておき、ここに生えている苔は可愛いし、偉いと思いませんか？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「種には、可能性が秘められている」とはあなたの言葉でしたね。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "……言わなければ良かったです。"
+    },
+    {
+      "Text": "[ns1] \"つまり……\""
+    },
+    {
+      "Text": "[ns2] \"ケイちゃんは、照れ屋さんってことだね！\""
+    },
+    {
+      "Name": "ケイ",
+      "Text": "話聞いてましたか！？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "いったん整理しよっか。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "相手は生命体で、私たちやティファレトとは違う。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "そして、すべての生命体には限界がある。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "だったら――限界まで追い詰めればいいんだよ！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ど、どんな風にですか？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "例えば……！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、そそそそ、それはちょっと……！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "あれ？いい案じゃない？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、そうなんですけど……！"
+    },
+    {
+      "Name": "アイン",
+      "Text": "その方法は鍵には効かないのでは……？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "まあ、鍵一人じゃ何もできないと思いますよ。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "それにたぶん、あの王女にも……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "いや、そっちは無傷じゃすまないと思うな。\n今の王女は、状況が違うし。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "私たちの表現で言えば……普段よりも出力が弱まっています。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "まあ、何とかなる気がしますね。私は賛成ですよ。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "お、お姉様は……どう思いますか……？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "我は……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "部分最適と全体最適の狭間に、生命体は成り立っていると思っています。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "生命体の間には、生態系というシステムがあるそうです。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "被食者は一方的に捕食されているように見えて――"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "天敵という概念が無いと、生命全体のシステムが維持できなくなってしまうのだとか。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "それ、聞いたことあるかも！\n狼がいなくなって鹿ばっかり増えていったら、その土地は死んじゃうって。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ソフはそんなことまで詳しいんですね。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "え、なに、ダメなの？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "いえ、そういうわけでは。\nただ、あのシステムは私が生命体を嫌う理由の一つというだけです。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "存在に矛盾を抱えているのは、好みではありませんね。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "そうなんだ……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "話を戻しましょうか。アイン、ソフ、オウル。\n次の手が決まったら、ティファレトに伝えてあげてください。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ティファレトも自分なりの判断を終え、他の意見を参考にしたいと考えている頃でしょうから。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "[ruby=・   ・   ・   ・   ・   ・   ・   ・   ・]みんなで決めたこと[/ruby]にしたい……んですかね？\nティファレトは案外、賢いのかもしれません。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "その解釈はひねくれすぎじゃない……？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "わ、私は、良いと思います……ティファちゃんの助けになれるって、ことですよね……？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ええ。少なくとも、あの方の名の下で――"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "私たちは、既にひとつなのですから。"
+    },
+    {
+      "Text": "次回;闇を照らす灯"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제25화;예측할 수 없었던 것"
+    },
+    {
+      "Name": "오르",
+      "Text": "왜 저 둘이 여기에 있는 건가요–?!?!"
+    },
+    {
+      "Name": "소프",
+      "Text": "우, 우선 말이지? 이게 확실한지부터 확인해 보자고!"
+    },
+    {
+      "Name": "아인",
+      "Text": "하, 한쪽은 모르겠지만…… 다른 한쪽은, 확실해요……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "실화야……?"
+    },
+    {
+      "Name": "오르",
+      "Text": "<이름없는 신들의 왕녀>, AL-1S……. 저 사람들에게는 '아리스' 라고 불리고 있는 것 같지만요."
+    },
+    {
+      "Name": "아인",
+      "Text": "저, 저기…… <이름없는 신들의 왕녀>라는 이름은, 조금, 위험…… 하게 들리니까요……?"
+    },
+    {
+      "Name": "오르",
+      "Text": "아, 그렇네요. 미안해요, 아인."
+    },
+    {
+      "Name": "소프",
+      "Text": "그렇지만, 아무리 봐도……? 맞지?"
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그그그, 그렇지만 어째서……. 그동안, 알아차리지 못 했을…… 까요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "사, 사이바 모모이도, 사이바 미도리도, 하나오카 유즈도…… 전부, 전부 파악하고 있었는데……?"
+    },
+    {
+      "Name": "오르",
+      "Text": "추측이지만, 아마도 이것 때문이 아닐까 하네요."
+    },
+    {
+      "Name": "소프",
+      "Text": "……이거, 그거 맞겠지? 정황상 하는 이야기이긴 한데."
+    },
+    {
+      "Name": "오르",
+      "Text": "……아마도요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "<이름없는 신들의 열쇠>……."
+    },
+    {
+      "Name": "소프",
+      "Text": "무슨 일이 있었는지, 생긴 건 저렇지만 말이야."
+    },
+    {
+      "Name": "오르",
+      "Text": "아마도 최근에 재조립된 것 같네요. 그런데…… 진짜, 누구 센스일까요……."
+    },
+    {
+      "Name": "아인",
+      "Text": "이, 이이이이이, 이건 조금……! 용서가 안 되는 수준이에요……!"
+    },
+    {
+      "Name": "아인",
+      "Text": "저걸 만든 게 누구인지는 모르지만, 저 몸의 구성 성분이 된 금속과 다른 재료들에게 사과해 주세요!!!"
+    },
+    {
+      "Name": "소프",
+      "Text": "진정해, 아인. 다 이해하겠는데, 진정해……."
+    },
+    {
+      "Name": "오르",
+      "Text": "저 둘이 저기에 있었던 거라면……."
+    },
+    {
+      "Name": "오르",
+      "Text": "……그 상황을 돌파한 것도, 이해는 할 수 있겠네요."
+    },
+    {
+      "Name": "소프",
+      "Text": "그렇지만, 어떻게 지금까지 우리에게 관측되지 않았던 거지……?"
+    },
+    {
+      "Name": "아인",
+      "Text": "저 열쇠 때문이, 아닐…… 까요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "저, 저 왕녀는 자, 자신의 존재 의의를…… 스스로 버린 것으로…… 아는데요."
+    },
+    {
+      "Name": "오르",
+      "Text": "분명히 그랬었죠. 그리고 그 말은, 저 왕녀가 '금지된 힘'을 온전히 활용할 방법을 모른다는 뜻이기도 할 거고요."
+    },
+    {
+      "Name": "소프",
+      "Text": "그렇지만 그 방법을 기억하고 있는 열쇠가 있다면, 이야기가 달라질 거야."
+    },
+    {
+      "Name": "소프",
+      "Text": "그리고 그렇기 때문에 저 열쇠가, 금지된 힘의 활용 방법을 기억하고 있다는 것이 확실하다는 결론을 내릴 수 있겠지."
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그렇네요……. 힘의 활용 방법을 기억하지 못하고 있었다면…… 우리들의 탐지로부터, 벗어날 수도 없었을 테니까요……."
+    },
+    {
+      "Name": "오르",
+      "Text": "……작전, 다시 짜야 할까요?"
+    },
+    {
+      "Name": "소프",
+      "Text": "그건…… 필수겠지?"
+    },
+    {
+      "Name": "아인",
+      "Text": "다, 당장 무엇부터 해야 할까요……?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "아인? 소프? 오르? 티페레트에게서 도움 요청이 왔어요. 의견을 받겠다고 하네요."
+    },
+    {
+      "Name": "아인",
+      "Text": "네, 네에?! 티페 쨩이요……?"
+    },
+    {
+      "Name": "소프",
+      "Text": "조금, 머리 아프네. 이거. 기본적으로는 현장의 판단을 중시하고 싶기는 한데……."
+    },
+    {
+      "Name": "오르",
+      "Text": "아뇨. 이건 그런 것이 아닐 거예요. 방법 정도야 티페레트도 이미 생각해 뒀겠죠."
+    },
+    {
+      "Name": "아인",
+      "Text": "그건 무슨 뜻인가요……?"
+    },
+    {
+      "Name": "소프",
+      "Text": "……! 설마?!"
+    },
+    {
+      "Name": "오르",
+      "Text": "네, 뭐. 그런 거죠."
+    },
+    {
+      "Name": "오르",
+      "Text": "지금의 티페레트에게 필요한 것은, 일종의 허가…… 아뇨, '결정'과 '격려'일 거예요."
+    },
+    {
+      "Text": "[ns] \"드디어 터널을 다 지난 모양이야.\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "네…… 그리고 이 장소에는 여기저기 이끼가 껴 있는 것 같네요."
+    },
+    {
+      "Name": "유즈",
+      "Text": "뭔가…… 풀 향기 같은 것이 나서, 좋네요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "역시 완벽하게 관리되는 것은 조금 무리였던 듯하네요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "이렇게 외부 습기와 식생이 들어오면, 종자를 보관하는 환경으로는 그다지 좋지 않을 텐데 말이죠."
+    },
+    {
+      "Name": "리오",
+      "Text": "아니면…… 그 정도의 변수는 애초에 상정하고 있었다는 것일 수도 있지."
+    },
+    {
+      "Name": "에이미",
+      "Text": "닫혀 있는 문이 또 하나 있는데? 저기가 그 중요하다는 종자 보관실일까?"
+    },
+    {
+      "Name": "토키",
+      "Text": "일단 가 보면 알 수 있겠죠. 그 전에, 잠시 휴식하는 것이 어떠실까요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "찬성! 슬슬 다리도 아파지려고 하니까. "
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스, 알고 있습니다! 최종 보스 직전의 세이브 포인트인 거군요!"
+    },
+    {
+      "Text": "(이끼를 적당히 치우고, 자리를 마련했다.)"
+    },
+    {
+      "Text": "(지친 탓인지, 게임개발부 아이들은 조금씩 졸기 시작했다.)"
+    },
+    {
+      "Name": "케이",
+      "Text": "……."
+    },
+    {
+      "Text": "[ns] \"왜 그래, 케이? 이끼를 그렇게 바라보고.\""
+    },
+    {
+      "Name": "케이",
+      "Text": "네? 아, 아뇨. 그냥, 그저……."
+    },
+    {
+      "Name": "케이",
+      "Text": "……."
+    },
+    {
+      "Name": "케이",
+      "Text": "정말 뜬금없는 말인데요. 생명이란 건, 뭘까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머나. 갑자기 무슨 일이죠, 케이?"
+    },
+    {
+      "Name": "케이",
+      "Text": "아뇨, 그냥."
+    },
+    {
+      "Name": "케이",
+      "Text": "이렇게 가혹한 환경에서, 이렇게 통제된 시설에, 어떻게든 아득바득 들어와서 자라고 있는 것을 보니까 말이에요."
+    },
+    {
+      "Name": "리오",
+      "Text": "이끼 말이야?"
+    },
+    {
+      "Name": "케이",
+      "Text": "그래요. 이끼 자체는 원시적인 식물이고, 대충 4억 년 전부터 등장했겠지만."
+    },
+    {
+      "Name": "케이",
+      "Text": "그런 사실들과는 별개로, 뭔가, 생명이란 이렇게나 불완전한 것인데, 하는 생각이 들어서요."
+    },
+    {
+      "Name": "케이",
+      "Text": "부서지기 쉽고, 자기중심적이고, 예측이 되지 않는 것이 생명이죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그건 말하자면 제멋대로라는 뜻인 거군요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "……뭐, 그런 거겠죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "좋은 부분을 말해 주었어요, 케이. 생명의 핵심은 바로 그 제멋대로라는 부분에 있는 것이니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "가령 직감에 의존한 무작위 난수라는 거, 논리 회로는 만들지 못하잖아요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "………쳇."
+    },
+    {
+      "Text": "[ns] \"그건 무슨 뜻이야, 히마리?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "생각보다 난수는 어려운 개념이죠. 사실 컴퓨터는 난수를 만들 수 없답니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "흔히 보는 '랜덤'은, 사실 정말은 임의의 값이 아니에요."
+    },
+    {
+      "Name": "리오",
+      "Text": "그렇지. 특정한 방법으로 계산하거나, 몇 밀리초 단위로 시시각각 변하는 값을 초깃값으로 잡은 다음."
+    },
+    {
+      "Name": "리오",
+      "Text": "여러 계산 과정을 거쳐, 사람이 볼 때에 마치 임의의 값인 것처럼 보이게 하는 것이니까. 이걸 의사난수라고 해."
+    },
+    {
+      "Name": "리오",
+      "Text": "진짜 난수를 생성하려면, 외부로부터 입력을 받아야 해."
+    },
+    {
+      "Name": "히마리",
+      "Text": "보통, 사람이 난수를 입력하는 대신, 자연의 무작위성을 측정해서 난수로 변환하는 방식을 주로 사용하죠."
+    },
+    {
+      "Text": "[s] \"그렇구나……?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "그리고 저는 바로 그 확률과 우연, 비선형성이야말로 생명의 가능성일 수 있지 않을까, 하고 생각한답니다?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "바로 그 제멋대로라는 부분, 말이죠."
+    },
+    {
+      "Name": "케이",
+      "Text": "……그래서 근본적으로 통제가 안 되잖습니까. 예측도 안 되고요. 저는 그게 싫단 말이에요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇지만 말이죠? 우리가 모든 것을 통제하고 예측했다면, 케이는 되살아날 수 없었을 텐데요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "이야기가 왜 그렇게 되는 건가요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "가령 케이는 자신을 결정적으로 위협할 수 있는 변수를, '그저 그렇게 하고 싶다'는 이유만으로 남겨둘 수 있나요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "그런 건 당연히 없애 버려야……."
+    },
+    {
+      "Name": "케이",
+      "Text": "아."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그런 것이죠. 생명은 불확실하고 제멋대로이지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "오히려 그렇기에, 선택할 수 있는 가능성의 폭을 넓혀 갈 수 있는 법이죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇게 생명은 자각하지도 못하는 사이에, 그 스스로 유전적 다양성을 늘려 가는 것이고요."
+    },
+    {
+      "Name": "리오",
+      "Text": "……그리고 그건, 결과적으로 생명 그 자체에게 더 많은 기회를 남겨 줄 테고."
+    },
+    {
+      "Name": "케이",
+      "Text": "모든 걸 계산하고 예측하는 것이, 오히려 생존 가능성을 낮출 수도 있다는 건가요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 시각에 따라서는 그렇지 않을까요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "애초에 모든 걸 계산하고 예측한다는 것이 가능할까 싶기도 하고요. 양자 터널이라든가, 이것저것 있잖아요?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……."
+    },
+    {
+      "Name": "케이",
+      "Text": "그건 미시 영역인데요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "하지만 엄연히 존재하는 영역이기도 하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그리고, 보세요. 그런 계산적인 논의를 빼더라도…… 이 이끼들은, 그저 여기에 있는 것만으로 충분히 귀엽고 기특하지 않나요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "마치 케이가, 씨앗에는 그 하나하나마다 식물 한 포기, 한 그루의 가능성이 숨어 있다고 이야기한 것처럼 말이죠."
+    },
+    {
+      "Name": "케이",
+      "Text": "………그 말 하지 말 걸 그랬네요……."
+    },
+    {
+      "Text": "[ns1] \"잘 모르겠지만, 하나는 알았어!\""
+    },
+    {
+      "Text": "[ns2] \"케이 쨩은 부끄럼쟁이라는 사실 말이지!\""
+    },
+    {
+      "Name": "케이",
+      "Text": "그, 그만 좀 놀리라구요!"
+    },
+    {
+      "Name": "소프",
+      "Text": "우선, 대전제를 생각하자."
+    },
+    {
+      "Name": "소프",
+      "Text": "저들은 생명체이고, 우리는 아니야. 그리고 티페레트 역시 마찬가지지."
+    },
+    {
+      "Name": "소프",
+      "Text": "모든 생명체에게는 한계가 있어. 그건 자명한 사실이야."
+    },
+    {
+      "Name": "소프",
+      "Text": "그러니까, 그 한계를 공략하는 거야!"
+    },
+    {
+      "Name": "아인",
+      "Text": "어, 어떻게요……?"
+    },
+    {
+      "Name": "소프",
+      "Text": "가령 말이지……!"
+    },
+    {
+      "Name": "오르",
+      "Text": "……호오."
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그그그그그, 그건 조금……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "하지만, 분명 효과적이잖아. 안 그래?"
+    },
+    {
+      "Name": "아인",
+      "Text": "그그그, 그렇기는, 한데요……!"
+    },
+    {
+      "Name": "아인",
+      "Text": "그리고, 그 방법을 쓰더라도, 저 열쇠는 멀쩡할 텐데요……?"
+    },
+    {
+      "Name": "오르",
+      "Text": "뭐, 열쇠 혼자서는 뭘 못 할 거라고 생각하지만요."
+    },
+    {
+      "Name": "아인",
+      "Text": "거기에, 거기에 저 왕녀도 멀쩡할 가능성이 있는데요……?"
+    },
+    {
+      "Name": "소프",
+      "Text": "……완전히 멀쩡하지는 않을 거야. 저 왕녀는 그런 존재니까."
+    },
+    {
+      "Name": "오르",
+      "Text": "평소에 비하면…… 우리들의 표현으로는, 출력이 떨어질 수도 있겠지만."
+    },
+    {
+      "Name": "오르",
+      "Text": "그래도 그 정도면 어떻게 되지 않을까요? 전 찬성입니다."
+    },
+    {
+      "Name": "아인",
+      "Text": "어, 언니는, 언니는…… 어떻게 생각, 하세요……?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "……."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "아인. 소프. 오르. 저는 필요악이라는 개념이, 생명에게는 때로 있어야 한다고 봐요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "가령 저 세계에는 천적이라는 것이 있다고, 들어서 알고 있습니다."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "언뜻 보기에는, 먹히는 쪽이 일방적으로 당할 뿐이지만."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "천적이라는 개념이 없으면 시스템은 유지되지 않는다고요."
+    },
+    {
+      "Name": "소프",
+      "Text": "아, 그거! 나 알아! 사슴만 많고 늑대가 없으면, 그 땅은 결국 죽은 땅이 된다고 하지!"
+    },
+    {
+      "Name": "오르",
+      "Text": "소프는 참 그런 건 자세하단 말이죠……."
+    },
+    {
+      "Name": "소프",
+      "Text": "왜. 뭐. 왜. 그러면 안 되냐."
+    },
+    {
+      "Name": "오르",
+      "Text": "안 되는 건 아닌데 말입니다. 그건 제가 생명체를 싫어하는 이유이기도 해서요."
+    },
+    {
+      "Name": "오르",
+      "Text": "그 존립에 반드시 모순을 내포하는 시스템이라니, 취향이 아니란 말이죠……."
+    },
+    {
+      "Name": "소프",
+      "Text": "끄응……."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그러니 아인. 소프. 오르. 결정되었으면, 티페레트에게도 그렇게 전하도록 하죠."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "사실 티페레트도 객체적인 판단은 이미 완료했을 것이고, 다른 노드들의 판단을 참고하고 싶은 것일 테니까요."
+    },
+    {
+      "Name": "오르",
+      "Text": "어라. 듣고 보니 왠지 그거, 책임 분담처럼 들리기도 하는데요? 이거 이거 이거, 티페레트도 제법 영리하네요!"
+    },
+    {
+      "Name": "소프",
+      "Text": "그걸 꼭 꼬아서 그렇게 해석하냐……."
+    },
+    {
+      "Name": "아인",
+      "Text": "저, 저는, 좋아요. 우리가…… 티페 쨩을, 도울 수 있다는, 거잖아요……?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그래요. 적어도 그분의 이름 아래에서."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "우리는 이미, 하나인 것이니까요."
+    },
+    {
+      "Text": "다음화;감추어져 있었던 것"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 25;The Unpredictable"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "What are THOSE TWO doing here?!?!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "E-Everyone calm down! We need to verify if this is real first!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "O-One of them is unconfirmed, but the other one!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Seriously...?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "The princess of the Nameless Gods, AL-1S...or \"Aris,\" as they call her."
+    },
+    {
+      "Name": "Ein",
+      "Text": "U-Um... \"Princess of the Nameless Gods\" sounds really s-scary and dangerous, so..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Ah, yes. My apologies, Ein."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Whatever we call her, that's absolutely, definitely her, no?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "B-B-B-B-But how...? All this time...n-none of us noticed?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "W-We already knew of...S-Saiba Momoi, Saiba Midori, and Hanaoka Yuzu...but not her?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Now, this is pure speculation, but a worthwhile speculation, nonetheless."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...I agree. It has to be \"that,\" right?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "...Right?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "The key of the Nameless Gods..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "But...why does she look like that?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "While it does look hastily assembled, I must agree. What horrendous design!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Th-Th-Th-Th-This is...! U-U-Unforgivable...!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "The b-b-barbarian that made it must bow down and apologize to the metals, and all other materials, they used to create that...that...that th-thing!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Calm down, Ein. Your feelings are absolutely valid, but you should still calm down."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Their presence..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "It's the missing puzzle piece we've been searching for, the answer to the riddle of their power."
+    },
+    {
+      "Name": "Sof",
+      "Text": "But how did they stay hidden all this time?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "B-Because of that...key?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "T-To my understanding, the princess r-renounced her fate..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Precisely. Which would lead one to believe that \"princess\" would be wholly unable to harness the Forbidden Power."
+    },
+    {
+      "Name": "Sof",
+      "Text": "However, if the key were to unlock it for her... Well, that's a whole different issue."
+    },
+    {
+      "Name": "Sof",
+      "Text": "The only rational conclusion is that the key remembers how to utilize the Forbidden Power."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Y-Yes...because they wouldn't have been able to hide from us...if they didn't know how..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "...I suppose we need to make a new plan?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "We...have to, right?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Wh-Where do we even start?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Ein? Sof? Ohr? Tiphareth requires aid. It is requesting counsel."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Wh-What?! Tiphy is...?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "What a headache. Usually, we should prioritize managing field operations, but..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "No, no. Tiphareth doesn't require our commands. It likely already has a plan it intends to pursue."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Then what...?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "...! Do you mean...?!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Yes, yes. Naturally."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Tiphareth searched not for command, but approval. Rather...for resolve. For courage."
+    },
+    {
+      "Text": "[ns] \"We finally made it through.\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Seriously...and straight into a room full of moss."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "It's...sort of nice... It smells like grass."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I suppose the expectation that it would have been perfectly maintained all these years was a bit much. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "Allowing any outside vegetation or moisture inside would have negatively impacted the preservation of the seeds stored here."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Or perhaps...they anticipated this level of variable from its conception."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Is that door locked as well? Maybe it's a preservation room for the very important seeds."
+    },
+    {
+      "Name": "Toki",
+      "Text": "We will only know once we investigate. However, I believe for right now, a respite is in order."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Completely on board with that! My legs hurt! "
+    },
+    {
+      "Name": "Aris",
+      "Text": "I know what this is! There is always a save point before the final boss!"
+    },
+    {
+      "Text": "I helped clear out some of the moss so everyone could have a spot to rest."
+    },
+    {
+      "Text": "It didn't take long for the exhausted Game Development Department members to doze off."
+    },
+    {
+      "Name": "Kei",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"What's wrong, Kei? You're just staring at moss.\""
+    },
+    {
+      "Name": "Kei",
+      "Text": "H-Huh? Nothing. It's nothing."
+    },
+    {
+      "Name": "Kei",
+      "Text": "..."
+    },
+    {
+      "Name": "Kei",
+      "Text": "Well. Um. This may seem like an unexpected topic, but I can't help but wonder what life is?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh my. What brought this about, Kei?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Nothing in particular."
+    },
+    {
+      "Name": "Kei",
+      "Text": "I was simply observing the tenacity with which it has grown in the harsh environment of this facility."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You mean the moss?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Yes. Moss is an ancient plant that first appeared somewhere around 400 million years ago."
+    },
+    {
+      "Name": "Kei",
+      "Text": "But aside from the factual aspects of things, I have been beginning to feel that life is...wholly imperfect."
+    },
+    {
+      "Name": "Kei",
+      "Text": "It's fragile, self-centered, and unpredictable."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's erratic, in a way, isn't it?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Well, I suppose."
+    },
+    {
+      "Name": "Himari",
+      "Text": "That's a keen observation, Kei. In fact, that erraticism is the very essence of life."
+    },
+    {
+      "Name": "Himari",
+      "Text": "After all, a logic circuit cannot instinctively select a random number, no?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Tch."
+    },
+    {
+      "Text": "[ns] \"What do you mean by that, Himari?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Randomness is a much more complicated concept than you'd expect. In fact, it's impossible for a computer to come up with an entirely random number."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Any \"randomness\" you see in society is not nearly as arbitrary as it seems."
+    },
+    {
+      "Name": "Rio",
+      "Text": "As she said. A computer will still need to go through very specific calculations or utilize values that change by the millisecond to select a random number."
+    },
+    {
+      "Name": "Rio",
+      "Text": "That's why it is more commonly called a \"pseudorandom\" number. Because, in reality, its simply a series of precise calculations that make it seem random."
+    },
+    {
+      "Name": "Rio",
+      "Text": "To create an actual random number, the computer would require external input."
+    },
+    {
+      "Name": "Himari",
+      "Text": "However, it would defeat the purpose to have people inputting random numbers. And so, we apply methods that measure natural randomness and then convert it to a \"random\" number."
+    },
+    {
+      "Text": "[s] \"I see...?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "And I believe that these probabilities, coincidences, and nonlinearities are the embodiment of the potential behind life."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Its erraticism, to be precise."
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Well, to be precise, that's what I don't like. It fundamentally can't be controlled or predicted."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But you know what, Kei? If everything in life was perfectly controlled and predicted, you would have never been revived."
+    },
+    {
+      "Name": "Kei",
+      "Text": "How so?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Consider this. If you identified a potentially threatening variable, what would you do? Would you leave it be, simply because you desire to?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Desire has no role here. Something of that nature would have to be eradicated—"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Ah."
+    },
+    {
+      "Name": "Himari",
+      "Text": "You see. Life may be erratic and uncertain..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...but it is precisely those qualities that bolster the many branches of possibilities life holds."
+    },
+    {
+      "Name": "Himari",
+      "Text": "And without even realizing it, life also diversifies its genetic pool in this way."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...Which then creates more and more possibilities."
+    },
+    {
+      "Name": "Kei",
+      "Text": "You mean to say that precise calculations and predictions are, in reality, harmful to survival?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. Depending on your perspective."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I believe the better, primary question to ponder is if such calculations are even possible. If you factor quantum tunneling into the equation..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "..."
+    },
+    {
+      "Name": "Kei",
+      "Text": "A story from a micro realm..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "But that realm clearly exists, does it not?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "And setting aside calculations and science, don't you think these adorable clumps of moss are worthy of praise simply for being here?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "After all, Kei, each seed holds within it the potential to blossom into a plant or a tree, right?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "...I should not have said that..."
+    },
+    {
+      "Text": "[ns1] \"There's only one thing I know for sure!\""
+    },
+    {
+      "Text": "[ns2] \"And that's that Kei-Kei is shy!\""
+    },
+    {
+      "Name": "Kei",
+      "Text": "S-Stop making fun of me!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Let me summarize."
+    },
+    {
+      "Name": "Sof",
+      "Text": "They're living beings. We're not. Neither is Tiphareth."
+    },
+    {
+      "Name": "Sof",
+      "Text": "The evident truth here is that all living beings have a limit."
+    },
+    {
+      "Name": "Sof",
+      "Text": "So we should take advantage of those limits!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "H-How...?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "For example...!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "...Hm."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Th-Th-Th-Th-Th-That's a bit...!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "A bit! But also very effective, isn't it?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Th-Th-That's true, but still...!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "E-Even if we were to try that, wouldn't the key be unaffected?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "A key is useless without a lock to unlock!"
+    },
+    {
+      "Name": "Ein",
+      "Text": "B-But the princess... The princess could come out unscathed too, couldn't she?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "...No, she won't. Because of what she's become."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Compared to usual... Simply put, her output will likely decrease."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "That decrease would be enough for our purposes, yes? I support this plan."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Wh-What about you, Elder Sister... What do you think?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Ein, Sof, and Ohr. I can say only that, oft times, within evil lies rationale for necessity."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "To elaborate, there exists the beings they call \"predators\" in this world."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "To the prey consumed, it is deemed cruel. Unusual."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "However, lacking the existence of such a \"predator,\" the system itself crumbles to dust."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Ah, I know about that! Basically, if there's a lot of deer, but no wolves to eat them, the vegetation and land would all die!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "And there goes Sof, with her...surprising knowledge of such things."
+    },
+    {
+      "Name": "Sof",
+      "Text": "What do you mean? Are you trying to say that's a bad thing?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "No, no, no. It's simply the embodiment of my disdain for living beings."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "A system that necessarily contains contradictions in order to exist. It's utterly distasteful."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Ugh..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Therefore, Ein, Sof, and Ohr. If this is the conclusion you desire, let us relay it to Tiphareth."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Naturally, Tiphareth possesses its own will and simply desires input and approval from other nodes."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Oh? To me, it would appear that it's attempting to divvy up accountability! Hah! Our Tiphareth is a cunning one!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "What goes on in your mind to have such twisted interpretations of others' intentions...?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-I'm okay with it. After all, that m-means we can help Tiphy, right?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "You are correct. For, under our master's name..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "...we are already one."
+    },
+    {
+      "Text": "Next Episode;What Was Hidden"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 25;สิ่งที่คาดเดาไม่ได้"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ทำไมสองคนนั้นถึงมาอยู่ที่นี่ล่ะคะ?!?!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "กะ... ก่อนอื่นเราต้อง... ตรวจสอบก่อนว่ามันคือเรื่องจริงหรือเปล่า!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "คะ... คนหนึ่งยังไม่แน่... แต่อีกคนฉันมั่นใจค่ะ...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "จริงเหรอเนี่ย...?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "<ท่านธิดาแห่งทวยเทพไร้นาม> หรือก็คือ AL-1S... แต่คนพวกนั้นเรียกว่า 'อาริสึ' ค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "อะ... เอ่อ... ชื่อ <ท่านธิดาแห่งทวยเทพไร้นาม> ฟังดูค่อนข้างอันตราย... เลยนะคะ...?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "อ่า นั่นสินะคะ ขอโทษนะคะ ไอน์"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แต่ถึงยังไงก็...? ใช่ใช่มั้ย?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ตะ.... ตะตะตะ... แต่ว่าทำไม... ที่ผ่านมาเราถึงไม่สังเกตเห็นเลย... ล่ะคะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ทะ... ทั้งไซบะ โมโมอิ ไซบะ มิโดริ ฮานาโอกะ ยูสึ... เราก็วิเคราะห์ได้ทั้งหมดแล้วนี่...?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันขอเดานะคะ บางทีอาจจะเป็นเพราะสิ่งนี้ก็ได้ค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "นั่นน่ะ... หมายถึงอันนั้นน่ะเหรอ...? ถึงจะเดาจากสถานการณ์จริงก็เถอะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "อาจจะนะคะ...?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "<กุญแจของเหล่าทวยเทพไร้นาม>..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "เกิดเรื่องอะไรขึ้น ถึงได้อยู่ในสภาพแบบนั้นนะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "เหมือนเพิ่งถูกประกอบขึ้นใหม่เมื่อไม่นานมานี้เลยค่ะ แต่ว่า... ใครกันนะที่มีเซนส์ในการออกแบบ\nแบบนั้น..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "นะ... นะนะนะนะนะ... นี่มัน...! เป็นอะไรที่ยกโทษให้ไม่ได้เลยค่ะ...!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ถึงจะไม่รู้ว่าเป็นฝีมือของใคร แต่คนคนนั้นก็ควรขอโทษต่อโลหะและวัสดุอื่นๆ ที่เป็นส่วนประกอบของ\nร่างกายนั้นค่ะ!!!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "สงบสติอารมณ์ก่อน ไอน์ ฉันเข้าใจนะ แต่ตอนนี้ต้องใจเย็นก่อน..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ถ้าสองคนนั้นอยู่ที่นั่นละก็..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันเข้าใจแล้วค่ะว่าผ่านสถานการณ์นั้นมาได้ยังไง..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ว่าแต่ทำไมพวกเราถึงไม่เคยสังเกตเห็นมาก่อนเลยล่ะ...?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "น่าจะเป็นเพราะกุญแจนั่น... นะคะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ตะ... แต่ฉันรู้มาว่า... คนที่ได้ชื่อว่าท่านธิดา... ละทิ้งความหมายของตัวตน... ของตัวเองไปนะคะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "คงเป็นอย่างนั้นอย่างไม่ต้องสงสัยเลยค่ะ และนั่นก็หมายความว่าท่านธิดาคนนั้นไม่รู้วิธีใช้ 'พลังต้องห้าม' อย่างเต็มที่ด้วยค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แต่ถ้ามีกุญแจที่จดจำวิธีการนั้นได้ ก็จะเป็นอีกเรื่องหนึ่ง"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "และเพราะอย่างนั้น เราจึงสรุปได้ว่ากุญแจนั้นจำวิธีการใช้พลังต้องห้ามได้อยู่อย่างแน่นอน"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "นะ... นั่นสินะคะ... เพราะถ้าจำวิธีการใช้พลังไม่ได้... ก็คงหลบการตรวจจับของเราไม่ได้ด้วยค่ะ..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "แบบนี้เราต้อง... วางแผนปฏิบัติการใหม่หรือเปล่าคะ?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ก็คง... จำเป็นเลยละ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ตะ... ต้องเริ่มจากตรงไหนก่อนดีคะ...?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ไอน์ ซอฟ ออร์ ทิฟาเร็ธขอความช่วยเหลือเข้ามาค่ะ เห็นว่าอยากได้ความคิดเห็นน่ะค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "คะ... คะ?! ทิฟาจังเหรอคะ...?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "เริ่มปวดหัวแล้วสิ ที่จริงฉันก็อยากให้เน้นที่การตัดสินใจจากหน้างานหรอกนะ..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ไม่หรอกค่ะ ฉันว่าไม่ใช่อย่างนั้นหรอก ทิฟาเร็ธคงคิดหาวิธีไว้แล้วน่ะค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "หมายความว่าอะไรคะ...?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "หรือว่า...?!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ค่ะ เป็นอย่างนั้นละค่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "สิ่งที่ทิฟาเร็ธต้องการในตอนนี้คือการอนุญาต... ไม่สิ 'การตัดสินใจ' และ 'การให้กำลังใจ' ค่ะ"
+    },
+    {
+      "Text": "[ns] \"ในที่สุดเราก็ผ่านอุโมงค์มาได้แล้วสินะ\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ค่ะ... แล้วที่แห่งนี้ก็มีมอสส์ขึ้นอยู่ทั่วเลยนะคะ"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ได้กลิ่นเหมือนหญ้าเลย... ดีจังเลยค่ะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การดูแลที่นี่ให้สมบูรณ์แบบคงเป็นเรื่องยากนะคะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "การมีความชื้นจากภายนอกและมีพืชขึ้นในลักษณะนี้ คงไม่ใช่สภาพแวดล้อมที่ดีในการเก็บเมล็ดพันธุ์\nเท่าไรค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "หรือไม่ก็... อาจเป็นไปได้ว่ามีการสันนิษฐานถึงตัวแปรแบบนี้เอาไว้แล้วตั้งแต่แรก"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มีห้องที่ประตูปิดไว้ด้วย? เป็นห้องเก็บเมล็ดพันธุ์ที่สำคัญหรือเปล่านะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ลองไปดูเดี๋ยวก็คงจะรู้ค่ะ แต่ฉันขอเสนอให้เราพักผ่อนกันสักครู่ได้มั้ยคะ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เห็นด้วย! ขาของฉันก็เริ่มจะปวดแล้ว "
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึรู้ดีค่ะ! นี่คือเซฟพอยต์ก่อนถึงบอสตัวสุดท้ายสินะคะ!"
+    },
+    {
+      "Text": "(คุณครูปัดกวาดมอสส์เพื่อให้มีพื้นที่พักผ่อน)"
+    },
+    {
+      "Text": "(เด็กๆ ชมรมพัฒนาเกมคงจะเหนื่อยกันมาก ก็เลยเริ่มสัปหงกกัน)"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"เป็นอะไรหรือเปล่า เคย์? เห็นจ้องมอสส์อยู่ตั้งนานแล้ว\""
+    },
+    {
+      "Name": "เคย์",
+      "Text": "คะ? มะ... ไม่ค่ะ ฉันก็แค่..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉันรู้ว่ามันแปลกที่จู่ๆ ฉันก็พูดแบบนี้ แต่ชีวิต... คืออะไรเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตายจริง จู่ๆ เป็นอะไรไปคะ เคย์?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "เปล่าหรอกค่ะ ก็แค่..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉันคิดว่ามันน่าทึ่งที่ได้เห็นพวกเขาที่พยายามเติบโตท่ามกลางสภาพแวดล้อมที่โหดร้ายในสถานที่\nที่มีการควบคุมแบบนี้น่ะค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "หมายถึงมอสส์เหรอ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ใช่ค่ะ มอสส์เป็นพืชดึกดำบรรพ์ที่มีมาตั้งแต่ประมาณ 400 ล้านปีก่อนแล้ว"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "แต่นอกเหนือจากข้อเท็จจริงนั้นแล้ว ฉันก็ยังรู้สึกว่าชีวิตช่างเป็นสิ่งที่ไม่สมบูรณ์แบบค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ชีวิตเป็นสิ่งที่เปราะบาง เอาตัวเองเป็นศูนย์กลาง และคาดเดาไม่ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จะบอกว่าสิ่งมีชีวิตเป็นสิ่งที่ทำตามใจคิดสินะคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ก็... จะว่าอย่างนั้นก็ได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เป็นมุมมองที่ดีเลยนะคะ เคย์ เพราะแก่นแท้ของชีวิตอยู่ที่ 'การทำตามใจคิด' นั่นละค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ก็อย่างเช่น การที่เราสร้างลอจิกเกตจากตัวเลขสุ่มที่ขึ้นอยู่กับสัญชาติญาณไม่ได้ยังไงล่ะคะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ชิ..."
+    },
+    {
+      "Text": "[ns] \"หมายความว่ายังไงเหรอ ฮิมาริ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตัวเลขสุ่มเป็นแนวคิดที่ยากกว่าที่คิดค่ะ และในความเป็นจริงคอมพิวเตอร์ก็สร้างตัวเลขสุ่มไม่ได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่า 'สุ่ม' ที่เราเห็นกันบ่อยๆ นั่นน่ะ ไม่ได้เป็นค่าสุ่มที่แท้จริงหรอกนะคะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่แล้วละ ปกติแล้วจะเริ่มจากการคำนวณด้วยวิธีที่กำหนดไว้ หรือไม่ก็ใช้ค่าที่เปลี่ยนไปทุกๆ หน่วยมิลลิวินาทีเป็นค่าเริ่มต้น "
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "จากนั้นก็ผ่านกระบวนการคิดคำนวณอีกหลายขั้นตอน แล้วทำให้มนุษย์เห็นว่าเป็นค่าที่สุ่มขึ้นมา แบบนี้เรียกว่าการสุ่มแบบเทียมน่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าจะสร้างตัวเลขสุ่มอย่างแท้จริง ก็ต้องมีการป้อนข้อมูลจากภายนอก"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "โดยปกติแล้วแทนที่จะให้มนุษย์ป้อนตัวเลขสุ่ม เราจะใช้วิธีการวัดความสุ่มตามธรรมชาติแล้วแปลงให้\nเป็นตัวเลขสุ่มแทนค่ะ"
+    },
+    {
+      "Text": "[s] \"อย่างนี้สินะ...?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และฉันก็คิดว่าความน่าจะเป็น ความบังเอิญ และระบบที่ไม่เป็นเชิงเส้นเหล่านี้คือความเป็นไปได้ของ\nสิ่งมีชีวิตค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ส่วนที่บอกว่าทำตามใจคิดนั่นละค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "โดยพื้นฐานแล้วมนุษย์ก็เลยควบคุมไม่ได้... แล้วก็คาดเดาไม่ได้ด้วยค่ะ นี่ละสิ่งที่ฉันไม่ชอบ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่ถ้าพวกเราเป็นสิ่งที่ควบคุมและคาดเดาได้ เคย์ก็คงฟื้นคืนชีพมาไม่ได้นะคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ทำไมถึงเข้าเรื่องนี้ล่ะคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเคย์เจอสิ่งที่คิดว่าจะมาคุกคามตัวเอง แล้วเคย์จะคิดว่า 'อ๋อ อย่างนั้นเหรอ' แล้วปล่อยตัวสิ่งนั้นไป\nหรือเปล่าคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ก็ต้องกำจัดให้เรียบอยู่แล้ว..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ก็อย่างนั้นละค่ะ สิ่งมีชีวิตเป็นสิ่งที่ไม่แน่นอนและทำตามใจคิด..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่เพราะเป็นอย่างนั้น พวกเราถึงขยายขอบเขตความเป็นไปได้ที่เราเลือกได้"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และด้วยวิธีนี้ สิ่งมีชีวิตจึงเพิ่มความหลากหลายทางพันธุกรรมโดยที่ตัวเองก็ไม่รู้ตัวค่ะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "และสุดท้ายแล้วจะทำให้เกิดโอกาสในชีวิตเพิ่มมากขึ้นด้วย..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "จะบอกว่าการคำนวณและคาดการณ์ทุกอย่างอาจเป็นการลดความเป็นไปได้ในการอยู่รอดอย่างนั้น\nเหรอคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ตามมุมมองแล้วน่าจะเป็นอย่างนั้นนะคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันสงสัยด้วยค่ะว่าเราคำนวณและคาดการณ์ทุกสิ่งได้หรือเปล่า ไหนจะมีเรื่องอุโมงค์ควอนตัมและอื่นๆ อีก"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "นั่นมันเรื่องระดับไมโครเลยนะคะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "แต่มันก็เป็นสิ่งที่มีอยู่จริงอย่างชัดเจนค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ดูนี่สิคะ ฉันว่าเราหยุดการพูดคุยเชิงคำนวณนี้ไว้ก่อน... แล้วมาดูพวกมอสส์นี่เถอะค่ะ แค่การที่พวกมัน\nมาขึ้นอยู่ตรงนี้ก็น่ารักและพิเศษแล้วว่ามั้ยคะ?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เหมือนที่เคย์บอกว่าเมล็ดพืชแต่ละเมล็ดซ่อนความเป็นไปได้ของต้นไม้หนึ่งต้นไว้ไงคะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉันไม่ควรพูดอะไรแบบนั้นเลยค่ะ..."
+    },
+    {
+      "Text": "[ns1] \"ครูไม่ค่อยเข้าใจหรอก แต่ที่รู้คือเคย์จังขี้อายนะเนี่ย!\""
+    },
+    {
+      "Text": "[ns2] \"ที่ครูสรุปได้วันนี้ก็คือ เคย์จังเป็นเด็กขี้อาย!\""
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ละ... เลิกแกล้งฉันได้แล้วค่ะ!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "มาพิจารณาจากเงื่อนไขหลักกันก่อน!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "พวกนั้นเป็นสิ่งมีชีวิต แต่พวกเราไม่ใช่ ทิฟาเร็ธเองก็ด้วย"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "สิ่งมีชีวิตทุกชนิดล้วนมีขีดจำกัด และนี่ก็คือข้อเท็จจริงที่ชัดเจน"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "เพราะงั้นเราเลยต้องเล่นกับขีดจำกัดนั้น"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ยะ... ยังไงเหรอคะ...?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ก็อย่างเช่น...!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "โอ้ว..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "บะ... บะบะบะบะบะ... แบบนั้นมัน...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แต่มันจะได้ผลแน่นอนนะ หรือว่าไม่เห็นด้วย?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "มะมะมะ... มันก็จริงอยู่หรอกค่ะ...!"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "แล้วก็... ต่อให้ใช้วิธีนั้น แต่กุญแจนั่นก็น่าจะยังปกติดีนะคะ...?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ก็นะ แต่ฉันไม่คิดว่าลำพังกุญแจนั่นจะทำอะไรคนเดียวได้หรอก"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "แต่ว่า... ก็มีความเป็นไปได้ว่าท่านธิดานั่นก็จะไม่เป็นอะไรด้วยนะคะ...?"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แต่ก็ไม่สมบูรณ์เหมือนเดิมหรอก... ก็ท่านธิดาเป็นแบบนั้นอยู่แล้วนี่นา"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ถ้าจะนิยามด้วยคำของพวกเรา... ก็ต้องบอกว่าพลังที่จ่ายออกมาอาจจะน้อยลงเมื่อเทียบกับตอนปกติ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "แต่ถ้าเป็นอย่างนั้นก็น่าจะโอเคไม่ใช่เหรอคะ? ฉันเห็นด้วยนะคะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ละ... แล้วพี่... พี่มัลคูธ... คิดยังไงเหรอคะ...?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ไอน์ ซอฟ ออร์ ฉันคิดว่าสิ่งมีชีวิตก็ต้องมี 'สิ่งที่ไม่ดีแต่จำเป็น' บ้างค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ฉันเคยได้ยินมาว่าในโลกนั้นมีสิ่งที่เรียกว่าศัตรูตามธรรมชาติอยู่"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "แม้ว่าเหยื่อจะเป็นฝ่ายที่ถูกกินเพียงฝ่ายเดียว"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "แต่ถ้าไม่มีแนวคิดเรื่องศัตรูตามธรรมชาติ ระบบนิเวศน์ก็คงอยู่ไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "อ้อ เรื่องนั้นฉันรู้นะ! ว่ากันว่าถ้าป่ามีแต่ฝูงกวางและไม่มีสุนัขจิ้งจอกเลย ผืนป่าตรงนั้นก็จะตายในที่สุด"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ซอฟรู้อะไรแบบนั้นดีจังเลยนะคะ..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ทำไมล่ะ จะทำไม? ฉันรู้ไม่ได้หรือไง?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ก็ใช่ว่าจะไม่ได้หรอกค่ะ เพราะอย่างนั้นละฉันถึงได้ไม่ชอบสิ่งมีชีวิต"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "การดำรงอยู่ที่โอบกอดความไม่สมเหตุสมผลเอาไว้ด้วย ของแบบนั้นไม่ใช่สไตล์ฉันเลยค่ะ..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ฮึ่ม..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ไอน์ ซอฟ ออร์ ถ้าตัดสินใจได้แล้วก็ไปบอกกับทิฟาเร็ธด้วยเถอะค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ที่จริงทิฟาเร็ธก็น่าจะตัดสินใจเชิงวัตถุวิสัยไปแล้ว แล้วตอนนี้ก็แค่อยากได้การตัดสินใจของโหนดอื่นๆ ประกอบเท่านั้นค่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "เอ๋? ทำไมฟังดูแล้วเหมือนการแบ่งความรับผิดชอบเลยล่ะคะ? ทะทะทะ... ทะทิฟาเร็ธก็หลักแหลม\nพอตัวเลยนะเนี่ย!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "จำเป็นต้องบิดเบือนและตีความแบบนั้นหรือไง..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ฉะ... ฉันว่าดีค่ะ ก็พวกเรา... จะได้ช่วยทิฟาจังนี่คะ...?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ใช่ค่ะ อย่างน้อยภายใต้ชื่อของท่านผู้นั้น"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "พวกเราก็... เป็นหนึ่งเดียวกันอยู่แล้วนี่คะ"
+    },
+    {
+      "Text": "ตอนต่อไป;สิ่งที่ซ่อนอยู่"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第25話;無法預測之物"
+    },
+    {
+      "Name": "Aur",
+      "Text": "為什麼那兩個人會在這裡──！？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "總，總之得先確認到底是不是他們！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "其，其中一個我不太確定……但另一個肯定沒錯……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "真的假的……？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "「無名諸神的王女」AL-1S……那些人好像稱他叫「愛麗絲」。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那個……「無名諸神的王女」這個頭銜，聽起來好像有點危險耶……？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "啊，你說的對。\n抱歉，Ain。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "但不管怎麼看……都是他沒錯吧？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "可，可可可可，可是怎麼會呢……\n我們居然一直都沒有察覺到……怎麼會這樣？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "不，不管是才羽桃井、才羽綠，還是花岡柚子……明明都在我們的掌控之中啊……？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "雖然只是推測而已，不過應該是因為這個吧。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……是指那個嗎？\n雖然只是根據現實狀況得到的結論。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……大概吧。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "「無名諸神的鑰匙」……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "不知道發生了什麼事，外觀竟然變成那個樣子。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "看起來最近才被重新組裝過。\n不過這個品味……到底是誰做的啊……"
+    },
+    {
+      "Name": "Ain",
+      "Text": "這，這這這這這，這已經……到了無法原諒的地步……！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "雖然不知道是誰，但我一定要讓他向組成那具身體的金屬和其他材料道歉！！！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "冷靜，Ain。\n我明白你的心情，但你先冷靜一點……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "如果那兩個人真的在那裡……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……那他們能突破重圍也不奇怪了。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "可是，為什麼我們之前完全沒有觀測到任何動靜……？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "會不會就是因為……那個「鑰匙」呢？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那個王女……我聽說他放棄了……自身存在的意義。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "確實是這樣沒錯。\n也就是說，那個王女還不知道完整掌握「禁忌之力」的方法。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "然而要是他有一把知道方法的鑰匙，情況就另當別論了。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "由此可以得到一個結論──那個鑰匙確實記得禁忌之力的使用方法。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "是，是啊……\n假如他不知道的話……早就被我們偵測到了……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……作戰，要重新擬定嗎？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "應該……是必要的吧？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那該從哪裡開始著手呢……？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "Ain？Soph？Aur？\n提法瑞特傳來了求助訊息，希望能徵求我們的意見。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "咦咦！？提法醬嗎……？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "這個情況，總覺得有點讓人頭痛呢。\n基本上我還是想以現場的判斷為準……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "不，我覺得沒那麼簡單。\n方法這種東西，提法瑞特應該也早就考慮過了才對。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那是什麼意思……？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……！\n難道說！？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "嗯，是啊。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "現在的提法瑞特真正需要的，應該是某種許可……不，是「決斷」和「鼓勵」才對。"
+    },
+    {
+      "Text": "[ns]「總算通過隧道了呢。」"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯……而且這裡好像到處都長滿了苔蘚。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "感覺……有種青草的香味，很好聞……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "果然還是不太可能完全與外界隔絕。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如果外界的濕氣和植物像這樣繼續入侵的話，環境可能會變得不太適合保存種子。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "又或者……這個程度的變數，本來就在他的設想之中。"
+    },
+    {
+      "Name": "英美",
+      "Text": "前面好像還有一扇關著的門。\n那裡會不會就是最重要的種子保管室呢？"
+    },
+    {
+      "Name": "季",
+      "Text": "去看看就知道了。\n不過在那之前，我們先稍微休息一下如何。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "贊成！我的腳也開始痠了。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲知道！\n這裡就是打最終BOSS前的存檔點對吧！"
+    },
+    {
+      "Text": "（稍微清理了一下苔蘚，騰出可以休息的空間）"
+    },
+    {
+      "Text": "（或許是因為太累的關係，遊戲開發部的孩子們接連開始打盹）"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「怎麼了，Kei？一直盯著苔蘚看。」"
+    },
+    {
+      "Name": "Kei",
+      "Text": "嗯？沒，沒什麼。我只是……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "突然聊這個可能有點突兀，不過所謂的生命究竟是什麼呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，怎麼突然好奇這個呢，Kei？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "其實也沒什麼……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "只是看著它們突破銅牆鐵壁深入這裡……\n在如此惡劣的環境與嚴格的管控中依然生氣勃勃的樣子，突然有感而發而已。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "你是說苔蘚嗎？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "是啊。苔蘚是種約於四億年前出現，相當原始的植物。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "不過撇開這個事實不談，我突然意識到……生命原來是這麼不完美的存在啊。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "生命是如此脆弱、自我中心，而且完全不可預測。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "你的意思是生命很「任性」嗎？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "這個嘛……或許是吧。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "你說到重點了呢，Kei。\n生命的核心，恰恰就在於那隨心所欲、不受拘束的本質啊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "舉例來說，邏輯電路是沒辦法憑直覺產生隨機亂數的對吧？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……呿。"
+    },
+    {
+      "Text": "[ns]「那是什麼意思，陽葵？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "亂數的概念，其實比想像中更為複雜。\n事實上，電腦無法真正生成所謂的亂數。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我們常見的「隨機」，其實都不是完全任意出現的值。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯。基本上都是經過特定方法計算而來，\n或者設定以毫秒為單位不斷變動的數值作為初始值……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "再經過一連串的計算，讓結果看起來像是隨機生成的而已。\n這就是所謂的偽亂數。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "想要生成真正的亂數，就必須輸入外來的資料。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "通常我們不會依靠手動輸入，而是測量自然界的隨機性後，將其轉換成亂數來使用。"
+    },
+    {
+      "Text": "[s] 「原來如此……？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我在想，會不會生命的可能性──正是由這種機率、偶然與非線性所構成呢？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "也就是那些被你稱之為「任性」的部分。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……所以說白了就是既不可控又無法預測嘛。\n我就是討厭這樣。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不過你想想看……假如我們真的能掌控或預測一切的話，Kei也不會復活了吧？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "話題為什麼會扯到那裡去啊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "Kei會僅僅因為「我就是想這麼做」而留下可能威脅自己存亡的決定性變數嗎？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "那種東西當然要立刻消除……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "啊。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯，我想說的就是這個。\n雖然生命充滿不確定性又恣意妄為……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "但也正因如此，才擁有了更多的可能性。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "生命就這樣在不經意間，不斷地拓展基因的多樣性。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……也在無形之中留下了無可限量的機會。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "你的意思是試圖用計算和預測掌控一切，反而會縮限生存的可能性嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "嗯，某方面可以這麼說吧？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我一直都對「一切都能計算或預測」的觀點本身抱持懷疑的態度。\n比如量子穿隧效應不就是最好的例子嗎？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "其實那屬於微觀領域的問題……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "然而那同樣也是確實存在的領域。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "而且請看。縱使撇開那些數理論點不談……\n你不覺得這些苔蘚光是存在在這裡，就已經夠可愛、夠可貴了嗎？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就像Kei之前說的一樣，每顆種子都蘊藏著各式各樣的可能性。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……早知道我就不說那句話了。"
+    },
+    {
+      "Text": "[ns1]「雖然聽不太懂，但我可以肯定一件事！」"
+    },
+    {
+      "Text": "[ns2]「那就是Kei醬是害羞鬼！」"
+    },
+    {
+      "Name": "Kei",
+      "Text": "不，不要再捉弄我了啦！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "我們就先從大前提開始說起吧。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "他們是生命體，而我們與提法瑞特則並非如此。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "此外，凡是有生命的東西都有極限──這是不言自明的事實。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "所以我們要攻破他們的極限！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "該，該怎麼做呢……？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "舉例來說……！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……哦哦。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那那那那那，那個方法有點……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "但是肯定有效，不是嗎？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "是是是，是這樣沒錯……！"
+    },
+    {
+      "Name": "Ain",
+      "Text": "就算用了那個方法，也傷不了鑰匙一分一毫吧……？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "雖然我覺得要是只剩下鑰匙自己，應該也做不了什麼就是了。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "會不會，就連那個王女也毫髮無傷……？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……不會完全毫髮無傷的。\n現在的王女已經不一樣了。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "如果要用我們的方式來形容的話……他和平常相比，輸出功率有所減弱。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "以現在的程度來看，我們應該有辦法應付才對。\n這個方法我贊成。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "姐，姐姐，姐姐大人……怎麼看呢……？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "Ain、Soph、Aur。\n我認為「必要之惡」的概念，有時對生命來說是不可或缺的。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "比如我聽說那個世界，有「天敵」這樣的存在。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "雖然乍看之下，是被捕食的一方單方面受害……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "然而如果少了「天敵」這個概念，整個生態系就會無法維持下去。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "啊，那個我也知道！\n如果狼都消失，只剩下鹿不斷繁殖的話，牠們的棲息地就會變成一片荒土！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "Soph對這種知識還真了解啊……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "是，是又怎樣，難道不行嗎？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "我也沒有那個意思啦。\n只是那也是我討厭生命體的原因之一而已。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "一個存在本身就必然帶有矛盾的系統，實在不太符合我個人的喜好……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "唔嗯……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "那麼Ain、Soph、Aur。\n既然已經決定好了，就把我們的想法傳達給提法瑞特吧。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "其實提法瑞特應該早已做出了客觀的判斷，只是可能也想參考其他節點的意見而已。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "哦……這麼聽起來，它是不是有點想分攤責任的意思？\n哎呀哎呀，提法瑞特也挺精明的嘛！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "你就非得解釋得這麼扭曲嗎……"
+    },
+    {
+      "Name": "Ain",
+      "Text": "我，我覺得，沒關係……\n這樣我們就能幫上提法醬的忙了，對吧……？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "是啊。至少在那位大人名下──"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "我們已經是一體的了。"
+    },
+    {
+      "Text": "下一話;隱藏之物"
+    }
+  ]
+}

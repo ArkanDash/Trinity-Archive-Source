@@ -1,0 +1,2667 @@
+{
+  "TitleJP": "晴れのち曇り、怪盗注意報（２）",
+  "TitleKR": "맑음, 흐림, 때때로 괴도 2",
+  "TitleEN": "The Perfect Day for Theft 2",
+  "TitleTH": "เดี๋ยวดี เดี๋ยวร้าย แต่หัวใจจอมโจร 2",
+  "TitleTW": "陰晴不定，當心怪盜（２）",
+  "DescJP": "ゲーム開発部が加勢し、あと一歩で「慈愛の怪盗」を捕まえられそうな瞬間、流れ弾がミドリにあたり、足を踏み外してしまう。墜ちていくミドリを「慈愛の怪盗」は助け、行方を眩ました。彼女の行動に疑念を抱きつつも、一行は体勢を立て直すのだった。",
+  "DescKR": "자애의 괴도를 몰아세우는 게임개발부 일행과 토키. 미도리가 계단 아래로 떨어지자, 자애의 괴도는 미도리를 구한 후 의미심장한 말과 함께 사라진다. 토키는 C&C로부터 미션을 받아 이곳에 잠입하였음을 밝힌 후, 게임개발부와 함께 행동하기로 한다.",
+  "DescEN": "Toki and the rest of the Game Development Department face off against Benevolent Thief. When Midori falls down the stairs, Benevolent Thief saves her and disappears, leaving behind a mysterious comment. Toki reveals that she was sent here on a mission by C&C and agrees to work with the Game Development Department.",
+  "DescTH": "ชมรมพัฒนาเกมกับโทคิกำลังไล่ต้อนจอมโจรแห่งความเสน่หา แต่พอ\nมิโดริจะร่วงจากบันได จอมโจรแห่งความเสน่หาก็ช่วยเธอไว้และหายตัวไป\nพร้อมคำพูดที่มีความหมายลึกซึ้ง โทคิบอกทุกคนว่าเธอเข้ามาที่นี่เพราะ\nได้รับภารกิจจาก C&C และตกลงจะร่วมมือกับชมรมพัฒนาเกม",
+  "DescTW": "遊戲開發部一行人與季圍攻慈愛的怪盜。綠不幸從階梯上掉下來，慈愛的怪盜伸出援手救了她，說了一句意味深長的話後便消失不見。季說自己是因為C&C的任務才會潛入此地，後來決定和遊戲開發部一起行動。",
+  "DialogJP": [
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "嗚呼、奇怪な格好なのになかなかどうして――やりますね。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ありがとうございます、[ruby=・   ・   ・]泥棒様[/ruby]。\nこれでよろしいのでしょう？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――「[ruby=・   ・]怪盗[/ruby]」ですよ、お嬢さん。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "！？こんなところに罠が……？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "次からは、足元にも気を配ったほうが良いですよ。\nせっかくのダンスが台無しになってしまいますから。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "！？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "――させないよ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……私たちも加勢します！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "おや、可愛いメイドさんですね。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "か、可愛いだって！えへへ……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん！喜んでる場合じゃないでしょ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ここで私たちが……あなたを止めます！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふふ……その心意気も美しい。\n……でも、残念です。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……最初の一撃で仕留めるべきでしたね。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "向こう見ずの勇気は美学から最も遠い存在ですよ、お嬢さん。\n――君は、弱いのだから。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そうかも、しれないけど……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あなたの相手は、私たちだけではありません！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "光よ！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "くっ……！？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ありがとう、アリス！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えっと……周りに被害は出てないよね？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！今日のアリスは光属性単体アタッカーです！\nですので、一つの目標に全ての火力を集中させています！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……まだ動けるんですね。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "――う、撃ちます……！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "うっ！？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "今だ！捕まえて！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "うん、お姉ちゃん！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うわっ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "きゃぁっ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ど、どうなってるの！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "見て、天井に！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――ふむ。先程までの言葉を撤回するとしましょう。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "お嬢さん方は――もう相当な実力をお持ちのようだ。\nお名前は？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "私はC&C所属、コールサインゼロフォー。[ruby=あすま]飛鳥馬[/ruby]トキと申します。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふむ――あのC&Cが[ruby=どうだ]銅田[/ruby]に協力とは……。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "一体、何故ですか？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "依頼の報酬で……新しいプライステーションPro7を買おうかなって……"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……うん？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん！本当に買うつもりだったの！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "いや！そうじゃなくて……！\n私たちは美術品を――"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "――怪盗から守りたくて！"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns] \"どうして美術品を盗もうと思ったの……？\""
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "貴方は……"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "嗚呼――記憶の澱に沈んでしまっていたけれど、その顔には見覚えがあります。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――シャーレの「先生」、ですね？"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "あの日――[ruby=わたくし] 私 [/ruby]たち七囚人が矯正局から解き放たれた記念すべき日に、キヴォトスに足を踏み入れたという――"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "なるほど……そういう事でしたか。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "「慈愛の怪盗」め！\nこの屋敷に忍び込んだが最後、そう簡単には抜け出せんぞ！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ちょ、ちょっと！そんな無差別に撃ったら、私たちまで……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あっ……！？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ミドリ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（えっ……？）"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（私、落ちてる……？）"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ふふっ、お怪我はありませんか？お嬢さん。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "……！「慈愛の怪盗」がミドリを助けてくれました！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ミドリ、怪我は！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "う、うん……大丈夫。\nでも、どうして「慈愛の怪盗」が私を……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（何でだろう……？）"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "なるほど、今宵の舞台は面白くなりそうですね――"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "一つ、お嬢さん方に伝えておきましょう。\n表面の事象に囚われていては、本質を見極める事など夢のまた夢ですよ。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――それでは、これにて失礼。……そう遠からず、またお会いする事になるでしょうけれど。その時まで、良い夢を。bye！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "逃げた！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん、見てこれ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "「予告は実行されておりません」だって。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ふん、あと一歩で捕まるところだったくせに！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "今回は謎解き要素が無いね……\nというか、毎回いろんなパターンのヤツを持ち歩いてるのかな……。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "皆様……こちら、ご説明いただいても？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "わっ！？そ、それが……！"
+    },
+    {
+      "Text": "[s] \"全て我々が計画した陽動作戦です。\""
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "先生！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ほう……詳しくお伺いしても？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "なるほど……５人目のメンバーは遅れて合流する計画だった、と。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "作戦は成功しかけていたという事だったのですね。"
+    },
+    {
+      "Text": "[s] \"申し訳ありません、あと一歩のところで……\""
+    },
+    {
+      "Name": "明太郎",
+      "Text": "謝らないでください。何も盗まれてなどいないのですから……それに、あの「慈愛の怪盗」をあそこまで追い詰めたその手腕、流石と言わざるを得ません。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "取り逃がしこそしましたが……皆様の実力は怪盗に伝わったはず。\nもう二度と現れないかもしれません。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "そ、それは流石に無いと思いますが……。"
+    },
+    {
+      "Name": "ゲストA",
+      "Text": "あの、[ruby=めいたろう]明太郎[/ruby]さん。これは一体どういうことなんですか？"
+    },
+    {
+      "Name": "ゲストB",
+      "Text": "まさか、「慈愛の怪盗」が現れるだなんて。\n事前に知っていたら、断っていたのに……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "さあさ皆様、落ち着いてください。\n「慈愛の怪盗」が来て、何か問題は発生しましたか？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ご覧の通り、私たちは怪盗を退けました。\nそうですよね？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "それもそのはず。\nこの屋敷を警備しているのは、かの有名なC&Cなのですから！"
+    },
+    {
+      "Name": "ゲストA",
+      "Text": "C&C……噂に聞いた事がある。\n……ミレニアム最強のエージェントだとか。"
+    },
+    {
+      "Name": "ゲストB",
+      "Text": "それが本当なら、怪盗を追い払えたのも納得がいく。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "皆様、ご納得くださり、お礼を申し上げます。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "ひとまず今日のパーティーは、一度お開きにした方が良さそうですね。\nゲストの方々はお部屋までご案内いたしますので、こちらへ……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "では、C&Cの皆様もお疲れでしょうし、今日のところはごゆるりと。\n今後の計画は、それからでも構いません。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "……（な、なに、めっちゃ睨まれてるけど！？）"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "（先生……さっきからトキさんがこっちをずっと見ているんですが……）"
+    },
+    {
+      "Text": "[ns] \"えっと……トキ、まずは落ち着いて……\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そ、そんな風に睨まれたって、全然怖くないんだからね！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "というか、協力したんだし……感謝の言葉くらいあってもいいんじゃないかな！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……そうですね。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ありがとうございます、ゲーム開発部の皆さん。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "え、え？ええっ？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "えっ……！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "いえ、助けていただいたのは事実ですので……\n伝えるのが遅くなり申し訳ありません。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "じゃ、じゃあ……なんで睨んでたの！？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "あまりこういった事態に慣れておりませんので……\nどのように話を切り出せばいいのか、分からず……"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "つまり、トキさんは何を言えば良いのか分からなくて、こっちを見ていただけって事ですか……？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい。先に話を切り出してくださり、ありがとうございます、モモイ。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そして、今後のことなのですが――"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "なるほど。トキさんの任務は、「慈愛の怪盗」を阻止することだったんですね……"
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい、同時に別の任務も遂行中ではありますが。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "その……私たちが任務の足を引っ張った、とか……\nネル先輩に言ったりしないよね？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "いえ、そのような事はいたしません。\nむしろ、ゲーム開発部の皆さんは最善を尽くしているかと。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……そうですね。\nここは一つ、C&Cとゲーム開発部の合同作戦……というのはどうでしょう。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "その……本当に良いんですか？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "大丈夫です。先輩方は居ませんし。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そういう問題なのかな？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ええ、そういう問題です。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "それでは、トキも仲間になるんですね？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスはトキとパーティーを組みたいです。\n一緒にこのクエストを解決したいです！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "な、仲間……ですか？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "やっぱり、ダメですか……？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "そういうわけではありませんが……\nそれに……先日、断ったりもしましたし……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "大丈夫です。仲間は怖くありません！\nそれでは、今からトキとゲーム開発部は、仲間です！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "あ、ありがとうございます。そう言って、くださって……"
+    },
+    {
+      "Name": "アリス",
+      "Text": "パンパカパーン！トキがパーティーに加わりました！"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ひゃっ！？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "い、いったい何を……？"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……（なでなで）"
+    },
+    {
+      "Name": "トキ",
+      "Text": "（ちょうど良い位置に頭があって撫でやすいですね……なんだか、心が穏やかに……）"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……大丈夫かな。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "アリスもああ言ってるし、心配いらないよ。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "良かったね、アリスちゃん。トキさんも……"
+    },
+    {
+      "Text": "（そうして、トキはゲーム開発部の仲間になった）"
+    },
+    {
+      "Text": "（めでたし、めでた……）"
+    },
+    {
+      "Text": "（続く！）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "자애의 괴도",
+      "Text": "제법이군요. 이름 모를 분."
+    },
+    {
+      "Name": "토키",
+      "Text": "네. 도둑님. 이번에는 제대로 말했습니다. 이것으로 기분이 상하지는 않으시겠지요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "후후…… 그런 식으로 나오시겠다, 이건가요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "?! 이런 곳에 함정이……?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "다음부터는 발밑을 조금 더 세심하게 살피는 것이 좋겠어요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "?!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "그렇게 멋대로 내버려 둘 것 같아?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "올라오는 데에는 시간이 걸렸지만…… 우리도 그냥 두고 보고 있지는 않을 거예요!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "어머나, 귀여운 메이드들의 증원인가요?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "귀, 귀엽다고?! 에헤헤."
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니! 지금 헤벌쭉할 때야?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "여기서 우리가 당신을 막을 거니까요!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "후후…… 용기는 가상하네요. 하지만 가능할까요?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "당신들은 첫 기습에서 끝을 내야 했어요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "당신들의 용기는 아름답지만, 아직 몸놀림은 미학적이지 않군요. 굼뜨고, 느려요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "우리는 그럴지도 모르지만……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "당신을 상대하는 건 우리가 아니니까요!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "빛이여!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "큭……?!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "잘했어, 아리스!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어…… 주위에 피해는 없지?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 지금의 아리스는 명속성 단일 딜러! 하나의 목표만을 노리고 모든 화력을 집중합니다!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아직은 움직일 수 있다는 거군요. 그렇다면……!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "……쏘겠어요……!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "윽?!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "지금이다! 붙잡아!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "응, 언니!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "우왓?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "꺄악!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "어, 어떻게 된 거야?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "저기, 봐. 천장이야!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "앞에서 했던 말을 정정하도록 하지요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "실력이 상당한 분들이군요. 조금 늦었지만, 당신들은 누구죠?"
+    },
+    {
+      "Name": "토키",
+      "Text": "저는 C&C소속 콜사인 제로포. 아스마 토키라고 합니다."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "C&C라면 그……?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "C&C가 메이타로를 돕는다고요? 무엇 때문에?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "우린 의뢰를 받아서…… 그 보상으로…… 새 플라이스테이션을 사려고……."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……네?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "언니! 그런 생각을 하고 있었어?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아니! 그런 게 아니라……! 우리는 괴도를……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "도둑을 잡으려는 것뿐이에요!"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns] \"너는 왜 예술품을 훔치려는 거지?\""
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "당신은……?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "아아, 그 얼굴. 그러고 보면 본 적이 있어요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "분명……. 샬레의 선생님, 이라고 했던가요?"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "그 날. 저희 일곱 죄수가 교정국을 빠져나왔을 때, 새롭게 키보토스에 찾아왔다고 하는……."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "과연…… 그런 것이로군요."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "자애의 괴도! 한 번 들어온 이상, 쉽게는 빠져나가지 못한다!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "자, 잠깐만! 그렇게 무차별로 쏴 대면, 우리도……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아앗?!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "미도리?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(아……?)"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(나, 떨어지고 있어……?)"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "후훗."
+    },
+    {
+      "Name": "아리스",
+      "Text": "앗! 자애의 괴도가 미도리를 구했습니다!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "미도리, 괜찮아?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "으, 응. 괜찮아. 그런데 왜 자애의 괴도가 나를……? "
+    },
+    {
+      "Name": "미도리",
+      "Text": "(어째서……?)"
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "상황은 대강 이해했어요. 재미있어지겠네요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "한마디만 하죠. 표면에 너무 집중하면, 내면의 아름다움을 찾아내지 못한답니다."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "오늘은 이만 물러나도록 하겠어요. 조만간 다시 만나게 되겠지만요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "도망갔어!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "뭔가 종이 같은 게 떨어져 있는데……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "예고장? <예고는 아직 유효합니다.> 라는데?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "헹, 엉망진창으로 당하고 도망간 주제에!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "이번엔 수수께끼가 없네…… 그렇다고 할까, 언제나 이런 예고장을 가지고 다니는 거야?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "여러분…… 이게 어떻게 된 일이죠?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "엑?! 그, 그게……!"
+    },
+    {
+      "Text": "[s] \"사실은, 이 모든 것이 비밀 양동 작전 같은 것이었습니다.\""
+    },
+    {
+      "Name": "미도리",
+      "Text": "선생님!"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "흐음…… 설명을 부탁드려도 되겠습니까?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "과연…… 작전상의 이유로 다섯 번째 멤버는 조금 늦게 합류하기로 했고."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그 작전이 거의 성공할 뻔했다는 거군요."
+    },
+    {
+      "Text": "[s] \"죄송합니다. 거의 잡기 직전까지 갔는데……\""
+    },
+    {
+      "Name": "메이타로",
+      "Text": "아닙니다, 아닙니다. 그 자애의 괴도를 몰아붙인 것만으로도 엄청난 성과입니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "혹시 또 압니까? 괴도가 여러분에게 겁을 먹고 두 번 다시 나타나지 않을지도 모르지요."
+    },
+    {
+      "Name": "미도리",
+      "Text": "으음…… 그건 또 어떨까 싶기는 한데요."
+    },
+    {
+      "Name": "게스트 A",
+      "Text": "이봐요, 메이타로 씨. 이게 다 어떻게 된 겁니까?"
+    },
+    {
+      "Name": "게스트 B",
+      "Text": "<자애의 괴도>라니, 그런 게 나타날 줄 알았으면 여기에 오지 않았을 텐데……"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "자, 자. 여러분. 진정하십시오. 아무 문제 없을 겁니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "보셨다시피, 저희는 자애의 괴도를 이미 훌륭하게 물리쳤습니다. 그렇지 않습니까?"
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그도 그럴게, 이 저택의 경비를 맡고 있는 것은, 그 유명한 비밀 조직, C&C이니까요!"
+    },
+    {
+      "Name": "게스트 A",
+      "Text": "C&C라고? 그 유명한 비밀 에이전트들의 조직……?"
+    },
+    {
+      "Name": "게스트 B",
+      "Text": "그리고 보면 조금 전 괴도를 가볍게 퇴치한 것도 전혀 이상하지 않아."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "다시 한번 감사드립니다. 여러분."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "다만 파티는 이쯤에서 끝내는 편이 나을 것 같군요. 게스트분들을 숙소로 안내해 드려야겠습니다."
+    },
+    {
+      "Name": "메이타로",
+      "Text": "그러면 천천히…… 이후의 작전 계획을 세워주시기 바라겠습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "……(뭐, 뭐야, 엄청 노, 노려보고 있는데?!)"
+    },
+    {
+      "Name": "토키",
+      "Text": "……"
+    },
+    {
+      "Name": "미도리",
+      "Text": "(조금 전부터 토키 씨……. 말 한마디 없이 바라보고만 있어요. 선생님……)"
+    },
+    {
+      "Text": "[ns] \"저기, 토키, 일단 진정하는 게……\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐, 뭐야! 그렇게 노려봐도 하나도 안 무섭거든?!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "오히려 우리가 도와줬으니까, 감사 인사라도 받고 싶은 심정이지만 말이지!"
+    },
+    {
+      "Name": "토키",
+      "Text": "……그렇군요."
+    },
+    {
+      "Name": "토키",
+      "Text": "감사했습니다. 게임개발부 여러분."
+    },
+    {
+      "Name": "모모이",
+      "Text": "어, 어? 에엥?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "세상에……!"
+    },
+    {
+      "Name": "토키",
+      "Text": "아뇨, 도움을 받은 것은 사실이기도 하고. 인사드리는 것도 당연한 일이었습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그, 그럼 왜 말없이 계속 노려 보고만 있던 건데!"
+    },
+    {
+      "Name": "토키",
+      "Text": "그건…… 그렇군요. 이럴 때는 어떻게 말을 꺼내야 하는지 익숙하지 않아서."
+    },
+    {
+      "Name": "미도리",
+      "Text": "즉, 토키 씨는 무슨 말을 해야 할지 몰라서 그냥 보고만 있었다는 뜻……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇습니다. 먼저 이야기를 꺼내 주셔서 감사합니다. 모모이."
+    },
+    {
+      "Name": "토키",
+      "Text": "다만…… 조금, 상황이 복잡해진 것 같군요."
+    },
+    {
+      "Name": "미도리",
+      "Text": "그렇군요. 토키 씨의 미션이란, <자애의 괴도>를 막는 것이었군요……"
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇습니다. 또 다른 미션 역시 주어져 있기는 합니다만."
+    },
+    {
+      "Name": "모모이",
+      "Text": "서, 설마 우리가 방해만 되었다거나 그런 식으로, 나중에 네루 선배에게 말할 거야?"
+    },
+    {
+      "Name": "토키",
+      "Text": "아뇨. 그럴 생각은 없습니다. 게임개발부 여러분은 방해는커녕 최선을 다해 주셨고."
+    },
+    {
+      "Name": "토키",
+      "Text": "그렇군요. 여기에서는 C&C와 게임개발부의 합동 작전…… 이라고 해 두도록 하지요."
+    },
+    {
+      "Name": "미도리",
+      "Text": "정말 그런 걸로 괜찮나요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "괜찮습니다. 선배들도 지금 안 계시고."
+    },
+    {
+      "Name": "모모이",
+      "Text": "그런 문제야??"
+    },
+    {
+      "Name": "토키",
+      "Text": "예. 그런 문제입니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그러면, 아리스들과 토키는 동료인 거네요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "아리스는 토키와 파티를 맺고 싶습니다. 그래서 토키와 함께, 이 퀘스트를 해결하고 싶습니다!"
+    },
+    {
+      "Name": "토키",
+      "Text": "예? 그, 그건……"
+    },
+    {
+      "Name": "아리스",
+      "Text": "역시, 안 되는 건가요……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "아뇨, 아닙니다. ……그러고 보니 저번에 거절하기도 했으니까. ……네. "
+    },
+    {
+      "Name": "아리스",
+      "Text": "와아! 그러면 이제부터 아리스는 토키의 동료입니다! 게임개발부도요!"
+    },
+    {
+      "Name": "토키",
+      "Text": "감사합니다. 그렇게 말씀해 주셔서."
+    },
+    {
+      "Name": "아리스",
+      "Text": "뽜밤뽜밤! 파티 멤버가 늘어났습니다!"
+    },
+    {
+      "Name": "토키",
+      "Text": "꺅?!"
+    },
+    {
+      "Name": "토키",
+      "Text": "저, 그렇게 갑자기 끌어안으시면……?"
+    },
+    {
+      "Name": "토키",
+      "Text": "……(스윽, 스윽.)"
+    },
+    {
+      "Name": "토키",
+      "Text": "(쓰다듬기 좋은 높이로군요. 어딘가…… 마음이 편안해집니다.)"
+    },
+    {
+      "Name": "미도리",
+      "Text": "……괜찮은 걸까, 언니?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "뭐…… 아리스니까. 말이지."
+    },
+    {
+      "Name": "유즈",
+      "Text": "잘 됐네, 아리스 쨩. 토키 씨도……"
+    },
+    {
+      "Text": "(그렇게, 토키와 게임개발부는 동료가 되었다.)"
+    },
+    {
+      "Text": "(해피 엔딩, 해피 엔딩……)"
+    },
+    {
+      "Text": "(이 아니고!)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Benevolent Thief",
+      "Text": "I'm impressed, stranger."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Thank you, Lady Thief. I hope the addition of the honorific curtails your anger."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Heehee... You think you have me in your grasp, do you?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "?! A trap?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Rabbits should pay attention to their surroundings, or they'll be caught by a predator."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Did you think you'd gotten rid of us?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "We're a lot stronger than we look! Although we are a little late..."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Oh, my. The adorable maids are your reinforcements?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Adorable? I mean... Heeheehee!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Momoi! Don't let the enemy sweet talk you!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "You're not leaving this estate with anything!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Your courage is impressive, I will say. But how far can you go on simply courage?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "You lost your chance the moment you lost the element of surprise."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "While your courage shines beautifully, your movements leave much to be desired. Directionless. Reactive."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "That might be true about us..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "But it's a good thing we're not your opponent!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Blinding Light!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Ugh!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Way to go, Aris!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Oops... Uh... We didn't blow the mansion up, did we?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Nope! I am a light-attribute, single-target DPS! My Blinding Light super-focuses on just the target!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "So, they can still move. In that case..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I can't miss from here...!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Now! Grab her!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Go, Momoi!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "EEK!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wh-What happened?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Look up! She went through the ceiling!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Allow me to amend my initial judgment."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "All of you are very impressive. I apologize for the late introductions, but who are you?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I am call sign Zero-Four of C&C. Asuma Toki."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "It couldn't be... C&C? In the flesh? "
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "What reason could you have to be helping Meitaro?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "W-Well... We got a request...and the compensation was so big...wanted...FlyStations..."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...Excuse me?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Momoi! You were thinking about FlyStations this entire time?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Don't listen to her! We just..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "We just wanted to stop the thief!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"And you? Why are you stealing art?\""
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "And who might this be?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Ah, you needn't say. Your face isn't unfamiliar to me..."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "You are Schale's Sensei, are you not?"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Your arrival at Kivotos happened to coincide with the escape of the Seven Prisoners from the Corrections Bureau."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Yes... I see."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Don't think you'll get away with this, Benevolent Thief! There's no escape for you this time!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "W-W-Wait! Don't shoot! We're right here!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Ack?!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Midori?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(Huh...?)"
+    },
+    {
+      "Name": "Midori",
+      "Text": "(Am I... falling...?)"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Heehee!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Wow! The Benevolent Thief saved Midori!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Midori! Midori! Are you okay?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Y-Yeah, thanks. But why would she save me? "
+    },
+    {
+      "Name": "Midori",
+      "Text": "(What reason could she have...)"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "I've a grasp on the situation now. How absolutely thrilling!"
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Allow me to leave you with some parting words. Oftentimes, you must look past the superficial to delve into the beauty within."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "I look forward to our next meeting, C&C."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "How'd she get away so fast?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Is that a note on the ground?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "It's a calling card...saying that the previous card will still be fulfilled."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Big words for someone who just ran away!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "That's all it says. Also... When did she write this? Does she just run around with stacks of these cards all the time?!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I've found you at last. What in the world were you all doing?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh?! Well, uh..."
+    },
+    {
+      "Text": "[s] \"All of this was actually part of a secret, feint operation.\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "Sensei!"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Hm... I believe I'm owed a bit more detail than that."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I see... So, your fifth member joined at a later time, just as you had planned in advance."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "You say it was nearly a success as well?"
+    },
+    {
+      "Text": "[s] \"I apologize. She got away at the last minute.\""
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "There's no need to apologize. I'm impressed you were able to force the Benevolent Thief into a retreat."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "If we're lucky, perhaps you scared her off for good, and we can put this all behind us."
+    },
+    {
+      "Name": "Midori",
+      "Text": "I wouldn't be so sure about that..."
+    },
+    {
+      "Name": "Guest A",
+      "Text": "Meitaro, what is the meaning of this?"
+    },
+    {
+      "Name": "Guest B",
+      "Text": "Explain yourself! If I had known the Benevolent Thief, of all criminals, planned to attack, I would have never attended."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Now, now. Please calm yourselves. Everything has already been sorted out."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Look around you. We were able to repel the scoundrel with no problems, were we not?"
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I felt no need to concern you, seeing as our backs were being safely guarded by the best of the best, C&C!"
+    },
+    {
+      "Name": "Guest A",
+      "Text": "C&C? That famous, secret organization with top-ranking agents?"
+    },
+    {
+      "Name": "Guest B",
+      "Text": "I suppose that explains how they dealt with the thief so quickly..."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Thank you again for your hard work."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "I'll need to excuse myself to help guide the guests to their rooms. I think there's been quite enough excitement for one night."
+    },
+    {
+      "Name": "Meitaro",
+      "Text": "Please feel free to take this time to formulate a security plan for the next few days. Good night."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "(She hasn't stopped glaring at us this whole time...!)"
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "(S-Sensei... Do you think Toki's mad at us...?)"
+    },
+    {
+      "Text": "[ns] \"Hey there, Toki, let's take a deep breath together...\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Forget it! You can give me menacing looks all you want! I-I'm not scared!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "B-But also, thank you! You really helped us out, so I just thought I'd say thanks!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "...I understand now."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Thank you, Game Development Department."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Huh? What?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "What the...?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "I received your help, so I am thanking you. Just as you did."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "But if you just wanted to thank us, why were you giving us the stink eye?!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Well... I didn't know what I was supposed to say in a situation like this one."
+    },
+    {
+      "Name": "Midori",
+      "Text": "You weren't glaring at us? You were just trying to figure out how to thank us?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes. I must thank you again, Momoi. You put it into words for me."
+    },
+    {
+      "Name": "Toki",
+      "Text": "With that handled, we should address the current situation. It's become more complicated than originally thought."
+    },
+    {
+      "Name": "Midori",
+      "Text": "I get it now. So you received a mission to stop the Benevolent Thief too."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes. Although that was not the only mission I received."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "A-Are you gonna tell Neru we messed up your mission?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "No. In fact, I have considered your efforts to be helpful so far."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Moving forward, we will be conducting a joint operation between C&C and the Game Development Department. "
+    },
+    {
+      "Name": "Midori",
+      "Text": "Is that really okay?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes. The other members aren't here to dispute it, anyways."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Why does this feel like a recurring theme?!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Because it is."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Does this mean we are friends, Toki?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "...?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Please join my party! I would like for us to complete this quest together, as party members!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "What? I don't..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Oh... Is that not allowed?"
+    },
+    {
+      "Name": "Toki",
+      "Text": "No... Well, yes. I did say next time, so... Yes. I'll join your party. "
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yay! Now we are friends, Toki. And the Game Development Department too!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "Thank you for saying so."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Bum bum bum! A new player has joined the party!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "*gasp*"
+    },
+    {
+      "Name": "Toki",
+      "Text": "P-Please don't hug me! And without warning...!"
+    },
+    {
+      "Name": "Toki",
+      "Text": "(pat) (pat)"
+    },
+    {
+      "Name": "Toki",
+      "Text": "(Her head is the perfect height to pat. It's strangely...nice.)"
+    },
+    {
+      "Name": "Midori",
+      "Text": "You really think this is gonna be okay, Momoi?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Well... We're talking about Aris, you know..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I'm happy Aris got through to her. For both Aris and Toki's sakes."
+    },
+    {
+      "Text": "Toki became an honorary party member and official friend of the Game Development Department."
+    },
+    {
+      "Text": "And all was good and well for these newly-met friends."
+    },
+    {
+      "Text": "...Or maybe not."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ไม่ธรรมดาเลยนะคะ คุณนิรนาม"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ คุณจอมโจร คราวนี้ฉันเรียกชื่อถูกต้องแล้ว หวังว่าจะไม่ทำให้คุณอารมณ์เสียนะคะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฮุฮุ... จะเล่นไม้นี้เหรอคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "?! มีกับดักในที่แบบนี้ด้วย...?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ต่อไปหวังว่าจะสังเกตข้างใต้พื้นรอบๆ ตัวให้รอบคอบกว่านี้นะคะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "?!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "คิดว่าฉันจะยอมปล่อยให้ทำแบบนั้นเหรอ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ถึงจะใช้เวลาขึ้นมานานไปหน่อย... แต่พวกฉันก็จะไม่ยอมอยู่เฉยๆ หรอกนะคะ!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ตายจริง มีกำลังเสริมเป็นเมดที่น่ารักๆ เหรอคะ? "
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "นะ... น่ารักงั้นเหรอ?!  อ่า แหะๆๆ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่! มันใช่เวลามาบ้ายออยู่มั้ยเนี่ย?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พวกฉันมาขัดขวางคุณค่ะ!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฮุฮุ... ถือว่ากล้ามากเลยนะคะ แต่จะขวางได้เหรอคะ?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "พวกคุณควรจะเคลียร์ภารกิจให้ได้ตั้งแต่การโจมตีครั้งแรกไปแล้วค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ถึงความกล้าหาญของพวกคุณจะสวยงาม แต่การเคลื่อนไหวยังขาดสุนทรียศาสตร์อยู่ค่ะ ทั้งชักช้า แล้วก็อืดอาด"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถึงพวกเราจะมาช้าอย่างที่เธอว่าก็เถอะ...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แต่คนที่จะจัดการคุณไม่ใช่พวกเราหรอกค่ะ!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "......?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ลำแสงทำลายล้าง!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "อึ้ก......?!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ดีมาก อาริสึ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถะ... แถวนี้ไม่มีอะไรเสียหายใช่ไหม?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! อาริสึในตอนนี้คือนักแม่นปืนที่มีชื่อเสียง! อาริสึมีแค่เป้าหมายเดียว และจะโถมกำลังทั้งหมดไปที่\nเป้าหมายนั้นค่ะ!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "......!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ยังขยับได้อยู่สินะคะ ถ้าอย่างนั้นก็...!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "... ขอยิงเลยนะคะ...!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "อึก?!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ตอนนี้แหละ! จับตัวไว้!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อื้ม พี่โมโมอิ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "วะ... ว้าย?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อ๊ายยย!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "กะ... เกิดอะไรขึ้นกันเนี่ย?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ดูโน่นสิ ที่เพดาน!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฉันขอแก้ไขในสิ่งที่ฉันพูดก่อนหน้านี้ค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "พวกคุณมีความสามารถกันพอตัวเลยนะคะ ถึงจะมาถามเอาป่านนี้ก็เถอะ พวกคุณคือใครกันเหรอคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "เจ้าของรหัสประจำตัวซีโร่โฟร์ สังกัด C&C อาซุมะ โทคิค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "C&C ที่มาช่วย...?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "C&C ช่วยคุณเมทาโร่งั้นเหรอคะ? ช่วยทำไมคะ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ส่วนพวกฉันก็ได้รับภารกิจมา... และว่าจะเอาเงินค่าจ้าง... ไปซื้อไพล์สเตชันใหม่..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "...... คะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่! นี่คิดแบบนั้นอยู่หรอกเหรอ?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไม่ใช่! ไม่ใช่อย่างนั้นสักหน่อย...! พวกเราแค่มาจับจอมโจร..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เราแค่จะมาจับโจรเท่านั้นนะคะ!"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "......"
+    },
+    {
+      "Text": "[ns] \"ทำไมถึงจะขโมยงานศิลปะไปล่ะ?\""
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "คุณคือ...?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "อ้อ หน้าคุ้นๆ ฉันเคยเจอคุณมาก่อนสินะคะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ตอนนั้นบอกว่าเป็น... คุณครูของชาเล่ต์ใช่ไหมคะ?"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "คนใหม่ที่มาเยือนคิโวทอสในวันที่เจ็ดอาชญากรหลบออกมาจากห้องคุมขัง..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "เป็นอย่างนี้เองสินะคะ..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "จอมโจรแห่งความเสน่หา! ถ้าเข้ามาที่นี่แล้ว ไม่มีทางออกไปได้ง่ายๆ แน่!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ดะ... เดี๋ยวก่อน! มายิงใส่กันไม่เลือกหน้าแบบนี้ เดี๋ยวพวกฉันก็...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อ๊าย?!!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "มิโดริ?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(อ๊ะ...?)"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(ฉันกำลังร่วงลงมาเหรอ...?)"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฮุฮุ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อ๊ะ! จอมโจรแห่งความเสน่หาช่วยมิโดริไว้ได้ค่ะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "มิโดริ เป็นยังไงบ้าง?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะ... อืม ไม่เป็นไร แต่ทำไมจอมโจรแห่งความเสน่หาถึงช่วยฉันไว้ล่ะ...?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(ทำไมกัน...?)"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฉันพอจะเข้าใจสถานการณ์แล้วละค่ะ น่าสนุกขึ้นเยอะเลยนะคะเนี่ย"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "จะขอพูดอะไรสักอย่างนะคะ ถ้าเราเอาแต่สนใจภายนอกมากเกินไป ก็จะไม่พบความงามที่อยู่ภายในค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "วันนี้ฉันขอกลับก่อนแล้วกันค่ะ แต่อีกเดี๋ยวเราคงได้เจอกันอีก"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หนีไปแล้ว!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "มีกระดาษอะไรหล่นออกมาด้วย..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "จดหมายเตือนเหรอ? ในนี้เขียนไว้ว่า <การเตือนยังมีผลอยู่> ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อะไรเนี่ย โดนเล่นงานแล้วก็หนีไปซะงั้น!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ครั้งนี้ไม่ทิ้งปริศนาอะไรไว้เลยแฮะ... ว่าแต่เธอพกจดหมายเตือนแบบนี้ติดตัวตลอดเลยเหรอเนี่ย?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ทุกคนครับ... นี่มันอะไรกันครับเนี่ย?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เฮือก?! คะ... คือว่า...!"
+    },
+    {
+      "Text": "[s] \"ที่จริงแล้ว ทั้งหมดนี้คือปฏิบัติการโจมตีแบบกลลวงน่ะ\""
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คุณครู!"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ฮืม... ช่วยอธิบายเพิ่มหน่อยได้ไหมครับ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อืม... มีสมาชิกคนที่ 5 เข้ามาผนึกกำลังเหตุผลเชิงกลยุทธ์"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แล้วปฏิบัติการนั้นก็เกือบสำเร็จได้งั้นสินะครับ"
+    },
+    {
+      "Text": "[s] \"ต้องขอโทษด้วยนะ เราเกือบจะจับโจรได้แล้วแท้ๆ เชียว...\""
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ไม่หรอกครับ แค่ทำให้จอมโจรแห่งความเสน่หานั่นเข้าตาจนได้ก็ถือเป็นความสำเร็จยิ่งใหญ่แล้วครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ใครจะไปรู้กันล่ะครับ? บางทีจอมโจรอาจจะกลัวพวกคุณจนไม่กล้าโผล่มาอีกครั้งก็ได้ครับ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อืม... ไม่น่าจะขนาดนั้นนะคะ"
+    },
+    {
+      "Name": "ผู้มาเยือน A",
+      "Text": "คุณเมทาโร่ ทั้งหมดนี่มันอะไรกันครับ?"
+    },
+    {
+      "Name": "ผู้มาเยือน B",
+      "Text": "<จอมโจรแห่งความเสน่หา> งั้นเหรอ? ถ้ารู้ว่าจะมีเรื่องแบบนี้ ไม่น่ามาที่นี่ตั้งแต่แรกแล้วเลย..."
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ดะ... เดี๋ยวก่อนครับ ทุกคนใจเย็นๆ นะครับ ต่อไปจะไม่มีปัญหาอะไรทั้งนั้นครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "อย่างที่ทุกคนเห็นว่าเราไล่จอมโจรแห่งความเสน่หาไปได้อย่างยอดเยี่ยมแล้วครับ ใช่ไหมครับ?"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ผู้ที่มาดูแลความปลอดภัยในคฤหาสน์แห่งนี้ก็คือองค์กรลับ C&C ที่โด่งดังยังไงล่ะครับ!"
+    },
+    {
+      "Name": "ผู้มาเยือน A",
+      "Text": "C&C งั้นเหรอ? องค์กรของเจ้าหน้าที่ลับที่มีชื่อเสียงนั่นน่ะเหรอ...?"
+    },
+    {
+      "Name": "ผู้มาเยือน B",
+      "Text": "จะว่าไป การขับไล่จอมโจรไปได้อย่างง่ายๆ เมื่อกี้ก็ไม่ใช่เรื่องเล่นๆ เลยนะ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "ต้องขอขอบคุณอีกครั้งนะครับทุกคน"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แต่ผมว่าเราจบปาร์ตี้กันตรงนี้น่าจะดีกว่านะครับ ผมจะนำทางแขกทุกคนไปที่พักให้ครับ"
+    },
+    {
+      "Name": "เมทาโร่",
+      "Text": "แล้วก็... ช่วยวางแผนปฏิบัติการหลังจากนี้กันด้วยนะครับ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "... (อะ... อะไรเนี่ย ใช้งานคุ้มเลยนะ?!)"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "(คุณโทคิเค้า... เอาแต่จ้องมาทางนี้แบบไม่พูดไม่จาอะไรเลยมาตั้งแต่เมื่อกี้แล้วนะคะ คุณครู...)"
+    },
+    {
+      "Text": "[ns] \"นี่...โทคิ ใจเย็นๆ ก่อนนะ...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อะ... อะไรของเธอ! ถึงจะจ้องกันแบบนั้นฉันก็ไม่กลัวหรอกนะ!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "พวกเราเป็นฝ่ายมาช่วยแท้ๆ อย่างน้อยก็ควรพูดขอบคุณบ้างไม่ใช่รึไง!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "...... อย่างนั้นเหรอคะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ขอบคุณค่ะ ชมรมพัฒนาเกมทุกคน"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เอะ... เอ๋...? เอ๋?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อะ... อะไรกันน่ะ...!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่หรอกค่ะ ยังไงฉันก็ได้รับความช่วยเหลือจากพวกคุณจริงๆ ก็ต้องกล่าวขอบคุณสิคะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ละ... แล้วทำไมถึงเอาแต่จ้องกันแบบไม่พูดไม่จาเลยล่ะ!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ฉันทำ... อย่างนั้นสินะคะ พอเกิดเหตุการณ์แบบนี้ก็เลยไม่รู้ว่าควรจะพูดอะไรออกมาค่ะ มันเป็นนิสัยไป\nแล้วน่ะค่ะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แปลว่าที่คุณโทคิจ้องเราอยู่เฉยๆ ก็เพราะว่าไม่รู้ว่าจะพูดอะไรงั้นเหรอ...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ใช่ค่ะ ขอบคุณที่ชวนคุยก่อนนะคะ โมโมอิ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "แต่ว่า... ดูเหมือนสถานการณ์จะซับซ้อนขึ้นนะคะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อย่างนี้นี่เอง ภารกิจของคุณโทคิก็คือการขัดขวาง <จอมโจรแห่งความเสน่หา> สินะคะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ใช่ค่ะ ถึงจะมีภารกิจอื่นด้วยก็เถอะค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถะ... ถ้าพวกเรารบกวนการทำภารกิจหรือทำอะไรทำนองนั้น จะเอาไปฟ้องรุ่นพี่เนรุใช่ไหม?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่หรอกค่ะ ฉันไม่คิดจะทำแบบนั้นหรอกค่ะ ชมรมพัฒนาเกมทุกคนไม่ได้รบกวนฉัน แต่ทำงานเต็มที่กันต่างหากค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "งั้นก็... เรียกว่านี่คือยุทธศาสตร์ร่วมระหว่าง C&C และชมรมพัฒนาเกมกันเถอะค่ะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แบบนั้นจะไม่เป็นไรเหรอคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่เป็นไรหรอกค่ะ พวกรุ่นพี่ก็ไม่ได้อยู่ที่นี่อยู่แล้ว"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "กลัวจะเป็นปัญหาเรื่องนั้นเหรอ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ค่ะ ปัญหาแบบนั้นแหละค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ถ้างั้นพวกอาริสึกับโทคิก็เป็นสหายกันสินะคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "อาริสึอยากตั้งปาร์ตี้กับโทคิค่ะ และก็อยากทำเควสนี้ให้ผ่านกับโทคิด้วยค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "คะ? ระ... เรื่องนั้น..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ไม่ได้เหรอคะ...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ไม่ค่ะ ไม่หรอกค่ะ... จะว่าไป ครั้งที่แล้วฉันก็ปฏิเสธไป... ค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ว้าว! ถ้างั้นจากนี้ไป อาริสึคือสหายของโทคิค่ะ! ชมรมพัฒนาเกมก็ด้วยค่ะ!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ขอบคุณนะคะที่ช่วยพูดแบบนั้น"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ปาปัม ปาปัม ป๊าม! มีสมาชิกปาร์ตี้เพิ่มแล้วค่ะ!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ว้าย?!!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "จะ... จู่ๆ ก็ดึงฉันไปกอดเลยเหรอคะ...?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "... (มอง)"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "(ตัวสูงพอจะลูบหัวได้เลยแฮะ รู้สึก... เบาใจยังไงไม่รู้)"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "... จะไม่เป็นไรเหรอพี่โมโมอิ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ก็นะ... ไม่มีใครกล้าว่าอาริสึหรอก"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ดีจังเลยนะ อาริสึจัง คุณโทคิก็ด้วย..."
+    },
+    {
+      "Text": "(จากนั้นโทคิกับชมรมพัฒนาเกมก็ได้เป็นสหายในการทำภารกิจด้วยกัน)"
+    },
+    {
+      "Text": "(ดูเหมือนจะแฮปปี้เอนดิ้ง...)"
+    },
+    {
+      "Text": "(แต่ว่า!)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "啊啊，雖然身穿奇裝異服還挺有兩下子──真不錯呢。"
+    },
+    {
+      "Name": "季",
+      "Text": "謝謝你，[ruby= ・     ・     ・     ・ ]小偷閣下[/ruby]。\n這樣是否合適呢？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "──是[ruby= ・     ・ ]怪盜[/ruby]才對哦，這位小姐。"
+    },
+    {
+      "Name": "季",
+      "Text": "！？這種地方居然有陷阱……？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "從下次起，最好多注意一下腳底哦。\n否則難得的舞蹈就要白費了。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "！？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "──別想逃！"
+    },
+    {
+      "Name": "綠",
+      "Text": "……我們也來幫忙！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "哎呀，是可愛的女僕們呢。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "他，他說我可愛耶！\n耶嘿嘿……"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐！現在不是高興的時候吧！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "我們會在這裡……阻止你的！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "呵呵……這份志氣也同樣美麗。\n……不過，很遺憾。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……你們應該在第一擊就擊倒我的。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "無謀的勇氣可是離美學最遙遠的存在哦，小姐。\n──畢竟你相當弱啊。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "或許，是這樣沒錯……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "但你的對手，可不只有我們！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "光呀！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "唔……！？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "謝謝你，愛麗絲！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那個……周圍沒有任何損害吧？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "是！今天的愛麗絲是光屬性的單體輸出！\n所以會將全部的火力集中在一個目標上！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "……看來還能行動呢。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "──我，我要開槍了……！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "唔！？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "就是現在！快抓住他！"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯，姐姐！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "唔哇！"
+    },
+    {
+      "Name": "綠",
+      "Text": "呀啊！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "怎，怎麼回事！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "快看天花板！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "──呼呣。我就收回前面說過的話吧。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "小姐們──似乎具有一定的實力呢。\n你們叫什麼名字？"
+    },
+    {
+      "Name": "季",
+      "Text": "我是C&C所屬代號Zero Four。飛鳥馬季。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "呼呣──那個C&C居然會協助銅田……"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "究竟是為什麼呢？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "想要用委託的酬勞……買新的PrayStation Pro7……"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……嗯？"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐！你真的打算買嗎！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "不對！不是那樣的……！我們是要從怪盜手中──"
+    },
+    {
+      "Name": "綠",
+      "Text": "──保護藝術品！"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「為什麼會想竊取藝術品呢……？」"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "你是……"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "啊啊──雖然已沉澱在記憶的深處，不過這張臉我有印象。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "──是夏萊的「老師」，對吧？"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "那一天──我們七罪人自矯正局獲得解放的值得紀念的一天，踏入奇普托斯的──"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "原來如此……是這樣啊。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "可惡的「慈愛的怪盜」！\n既然你潛入了這座宅邸，就別想輕易逃脫！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "等，等等！那樣無差別地展開攻擊地話，連我們也會……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "啊……！？"
+    },
+    {
+      "Name": "柚子",
+      "Text": "綠！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "（咦……！？）"
+    },
+    {
+      "Name": "綠",
+      "Text": "（我正在墜落……？）"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "呵呵，沒有受傷吧？這位小姐。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "……！\n「慈愛的怪盜」救了綠！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "綠，沒受傷吧！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯，嗯……我沒事。\n不過為什麼「慈愛的怪盜」會……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "（為什麼呢……？）"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "原來如此，看來今宵的舞台會變得十分有趣呢──"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "我就給小姐們一個忠告吧。\n拘泥於事物的表象的話，想看清本質可是癡人說夢哦。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "──那麼我就先告辭了。\n……在不遠的將來，我們想必還會再次相會吧。\n祝各位在那之前都能做個好夢。Bye！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "逃走了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐，你看這個！"
+    },
+    {
+      "Name": "綠",
+      "Text": "上面寫著「預告尚未執行」。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哼，明明差點就被抓住了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "這次沒有解謎要素呢……\n話說，他隨時都帶著各式各樣的預告信嗎……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "各位……可以請你們說明一下嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "哇！？這，這個是……！"
+    },
+    {
+      "Text": "[s]「全部都是我們計畫的聲東擊西作戰。」"
+    },
+    {
+      "Name": "綠",
+      "Text": "老師！"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "哦……方便詳細告訴我嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "原來如此……是讓第五名成員稍後會合的計畫啊。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "並且作戰差點就要成功了。"
+    },
+    {
+      "Text": "[s]「很抱歉，明明就差一步……」"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "請別道歉，畢竟也不是有東西被盜走了……\n況且，能將那個「慈愛的怪盜」逼到這種程度的手段，不得不讓人佩服。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "雖然確實被他逃走了沒錯……但應該也讓怪盜了解各位的實力了才是。\n或許不會再出現了也說不定。"
+    },
+    {
+      "Name": "綠",
+      "Text": "我，我想應該不至於吧……"
+    },
+    {
+      "Name": "賓客A",
+      "Text": "那個，明太郎先生。這到底是怎麼回事？"
+    },
+    {
+      "Name": "賓客B",
+      "Text": "沒想到「慈愛的怪盜」居然會現身。\n早知道會這樣的話我就拒絕出席了……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "好了好了，各位請冷靜。\n「慈愛的怪盜」雖然出現了，不過有造成任何問題嗎？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "如各位所見，我們擊退了怪盜。\n沒錯吧？"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "這也是當然的。\n畢竟負責這座宅邸警備工作的可是大名鼎鼎的C&C啊！"
+    },
+    {
+      "Name": "賓客A",
+      "Text": "C&C……我有聽說過。\n……好像是千年最強的特務組織之類的。"
+    },
+    {
+      "Name": "賓客B",
+      "Text": "如果真的是的話，能夠擊退怪盜也不奇怪。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "感謝各位的諒解。"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "看來今天的派對就先到此為止比較好呢。\n我們會引導各位到房間去，請跟我來……"
+    },
+    {
+      "Name": "明太郎",
+      "Text": "那麼，C&C的各位想必也累了，今天還請好好休息。\n今後的計畫待休息之後再進行也無妨。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "……（怎，怎麼了，為什麼一直盯著我看！？）"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Name": "綠",
+      "Text": "（老師……季同學從剛才開始就一直盯著我們……）"
+    },
+    {
+      "Text": "[ns]「那個……季，你先冷靜一下……」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "就，就算你那樣盯著我看，我也一點都不怕哦！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "再說，我們剛才也幫了你……你也該說句感謝的話吧！"
+    },
+    {
+      "Name": "季",
+      "Text": "……說的也是。"
+    },
+    {
+      "Name": "季",
+      "Text": "非常感謝，遊戲開發部的各位。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦，咦？咦咦？"
+    },
+    {
+      "Name": "綠",
+      "Text": "咦……！"
+    },
+    {
+      "Name": "季",
+      "Text": "不，我受到幫助是事實……\n很抱歉我這麼晚才道謝。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那，那……為什麼要盯著我們看呢！？"
+    },
+    {
+      "Name": "季",
+      "Text": "因為我還不太習慣這種狀況……\n不清楚該如何開啟話題……"
+    },
+    {
+      "Name": "綠",
+      "Text": "也就是說，季同學是因為不知道該說什麼，才會一直盯著我們的是嗎……？"
+    },
+    {
+      "Name": "季",
+      "Text": "是的。謝謝你主動開口，桃井。"
+    },
+    {
+      "Name": "季",
+      "Text": "那麼，關於今後該做的事──"
+    },
+    {
+      "Name": "綠",
+      "Text": "這樣啊。原來季的任務是阻止「慈愛的怪盜」……"
+    },
+    {
+      "Name": "季",
+      "Text": "是的，雖然同時還進行著另一個任務。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那個……你應該不會跟寧瑠前輩說……\n我們妨礙了任務之類的吧？"
+    },
+    {
+      "Name": "季",
+      "Text": "不，我不會做那種事。\n不如該說遊戲開發部的各位都盡了最大的努力。"
+    },
+    {
+      "Name": "季",
+      "Text": "……嗯。\n就把這當成是C&C和遊戲開發部的聯合作戰……如何呢？"
+    },
+    {
+      "Name": "綠",
+      "Text": "那個……這樣真的可以嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "沒問題的。反正前輩們也不在。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "是那個問題嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "沒錯，就是那個問題。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "也就是說，能和季成為夥伴對嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "愛麗絲想和季組隊。\n想和季一起解決這項任務！"
+    },
+    {
+      "Name": "季",
+      "Text": "夥，夥伴……是嗎？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "果然不行嗎……？"
+    },
+    {
+      "Name": "季",
+      "Text": "雖然並非如此……\n但……畢竟我先前曾一度拒絕……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒問題的。夥伴並不可怕！\n那麼從現在開始，季跟遊戲開發部就是夥伴了！"
+    },
+    {
+      "Name": "季",
+      "Text": "謝，謝謝你。\n願意對我這麼說……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "乓啪喀乓！季加入隊伍了！"
+    },
+    {
+      "Name": "季",
+      "Text": "呀！？"
+    },
+    {
+      "Name": "季",
+      "Text": "突，突然抱過來了……？"
+    },
+    {
+      "Name": "季",
+      "Text": "……（摸摸）"
+    },
+    {
+      "Name": "季",
+      "Text": "（頭正好處在很好摸的位置呢……總覺得心情變平靜了……）"
+    },
+    {
+      "Name": "綠",
+      "Text": "……沒關係嗎。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "愛麗絲都這麼說了，不用擔心的。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "太好了呢，愛麗絲醬。季同學也是……"
+    },
+    {
+      "Text": "（就這樣，季和遊戲開發部成為了夥伴）"
+    },
+    {
+      "Text": "（可喜可賀，可喜可……）"
+    },
+    {
+      "Text": "（下集待續！）"
+    }
+  ]
+}

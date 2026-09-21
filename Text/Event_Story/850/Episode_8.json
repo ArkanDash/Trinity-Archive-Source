@@ -1,0 +1,2337 @@
+{
+  "TitleJP": "盗みと貿易の狭間",
+  "TitleKR": "괴도와 밀수의 시간",
+  "TitleEN": "Thieving and Smuggling Hour",
+  "TitleTH": "ยุคสมัยของจอมโจรและการค้าของเถื่อน",
+  "TitleTW": "怪盜與走私的時間",
+  "DescJP": "日も暮れ、特別展の開催が迫る。寮監隊のミリアは正体を現し、「慈愛の怪盗」アキラとして計画を実行。一方ミヨたち特殊交易部も、怪盗の侵入を助けるため、罠や煙幕で寮監隊をかく乱していた。作戦が成功したかに思えたその時、ミヨたちの前に当のアキラ本人が姿を現すのだった。",
+  "DescKR": "작전대로 특수교역부는 은밀히 자애의 괴도의 절도를 돕는다. 이렇게 아키라의 손을 빌려 위작을 처리한 뒤, 작전을 마무리하려 하는데…….",
+  "DescEN": "The Free Trade Cartel helps the Benevolent Thief conduct her heist. Now that Akira has assisted in the reversal of the forgery, the mission is nearly concluded...",
+  "DescTH": "ทางชมรมการค้าพิเศษจะให้ความช่วยเหลือจอมโจรแห่งความเสน่หาใน\nการโจรกรรมอย่างลับๆ ตามแผนที่วางเอาไว้ หลังยืมมืออากิระจัดการกับ\nภาพวาดปลอมเสร็จเรียบร้อย และปฏิบัติการเกือบจะสิ้นสุดลงแล้ว...",
+  "DescTW": "按照計畫，特殊交易部暗中協助慈愛的怪盜的竊盜。打算藉由晶的手處理偽畫，並完成作戰……",
+  "DialogJP": [
+    {
+      "Text": "第7話;盗みと貿易の狭間"
+    },
+    {
+      "Text": "とあるカフェ"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "もう日が暮れます。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "夜が明ければ、ベロニカ特別展が開催される。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "展示場の光景が、想像できますか？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "さあ……。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "観客はまるでベルトコンベアに載せられたかのように、作品の前を通り過ぎていくでしょう。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "そして有名と言われる作品の前に集まり、\nさも何かを感じ取ったかのように頷いていく。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "本当に何かを感じ取ったのでは？"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "いいえ、誰も何もわかっていない……。\n本物の風格を。偽物が作り出す粗悪さを。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "彼らは絵なんて見ていませんよ。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "絵の知名度や取引価格にのみ、価値を見出している。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "彼らはただ、絵を取り巻く情報を鑑賞しているだけに過ぎません。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "私は、疑問を抱くことがあります……。\nあらゆる者が芸術そのものの価値に気が付く――"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "――そんな日は、果たして訪れるのでしょうか？"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "……私には、到底信じられません。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "あなたは、どう思いますか？"
+    },
+    {
+      "Name": "カフェの店員",
+      "Text": "あのー、そろそろ閉店のお時間なので……。"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "……あっ！"
+    },
+    {
+      "Name": "依頼人",
+      "Text": "し、失礼しました！"
+    },
+    {
+      "Text": "ワイルドハントの収蔵庫"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "ふぅ……いよいよ明日、か。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "今までもここの警備は何度かしたことがあるが、今回は特に厳重だな。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "いつもの警備でさえ手一杯なのに、慈愛の怪盗だなんて……。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "まあ、今日大丈夫ならもう来ないでしょう。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "いくら怪盗と言っても、こんな厳戒態勢を突破できるわけ――"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ところで。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "ん？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "私たちは、何を守っているのでしょうか？"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "ん……？\n泥棒から作品を守っているはずですが。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "観客から作品を守っている……のではなく？"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "何言っているんですか。明日から展示ですよ？\n作品なんて、誰でも自由に鑑賞できます。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "公開する作品を決めているのは、ベロニカ財団です。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "財団が選んだものが飾られるだけ。観客は何を見るかなんて選べません。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "誰もがアートを楽しめるなど――錯覚でしかない。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "……今回の展示会は、収蔵庫の作品全部が展示されると聞いていますが。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ええ。ですがそれは、ベロニカ財団が保有する内の、ほんの1割。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "他の芸術品は、今もなお財団の倉庫に閉じ込められている。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "……その美しさを、誰にも見せることなく。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "果たして、本当にそれで良いのでしょうか。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "それは……財団が持ち主なのですから、仕方ないのでは？"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "どれを見せるかは所有者の自由かと。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "どうでしょう。\nたとえば世界中の湖や川を買い上げた方が、飲み水の供給を止めると宣言したとして……貴女はそれを受け入れられますか？"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "それは……流石に別の話だと思いますが。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "いいえ、同じことですよ。"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "芸術は――美しさは。\nあらゆる者に共有されるべきなのです。"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "なっ、なんだ……！？"
+    },
+    {
+      "Text": "ボン！！"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "え、煙幕っ……！？"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "ま、まさか慈愛の怪盗が……！？"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "二手に分かれましょう、私は裏門へ！"
+    },
+    {
+      "Name": "寮監隊員",
+      "Text": "は、はい！こっちは正門に向かいます！"
+    },
+    {
+      "Name": "ミリア",
+      "Text": "ええ、慈愛の怪盗――"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "――[ruby=わたくし]私[/ruby]が、参りましたよ。"
+    },
+    {
+      "Text": "ワイルドハント・空き地"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "慈愛の怪盗、出現！1・2・3分隊、A区域にて集合！"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "訓練通りに動け！地の利は我々にある！"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "はっ！すぐにそちらへ――"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "えっ！？"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "どうした！？"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "先遣隊が穴に落ちました！"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "穴？なぜそんなところに！？"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "お、おそらく誰かが罠を……！"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "罠？私たちは何も仕掛けていな――"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "煙幕！？"
+    },
+    {
+      "Name": "寮監隊員C",
+      "Text": "なんでさっきから煙幕が……！"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "わっ！？なんだこれはっ……！！"
+    },
+    {
+      "Name": "ヒロミ",
+      "Text": "一体何が起きている……！？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "うぅぅぅ……ごめんなさい。\n寮監隊の皆さん、ヒロミちゃん……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "でも、怪我はしないはずですから……。"
+    },
+    {
+      "Name": "リツ",
+      "Text": "どう？ミヨちゃん、ちゃんと罠発動してる？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "う、うん！ありがとね、リッちゃん。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ねえ、私にお礼はないの？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "フユにはもう少し付き合ってもらいますけど。\n3番、5番、アクション。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ラジャー。3番、5番、オン。"
+    },
+    {
+      "Name": "寮監隊員D",
+      "Text": "また煙幕っ！？"
+    },
+    {
+      "Name": "寮監隊員E",
+      "Text": "助けてください！こっちにいます、穴の中！"
+    },
+    {
+      "Name": "寮監隊員D",
+      "Text": "どこですか！？何も見えません！"
+    },
+    {
+      "Name": "フユ",
+      "Text": "気をつけて、罠にかかってないヤツがそっちに向かったよ。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "了解。フユのいる北東の斜面も、攻められやすいので注意してください。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "確認しました。あっ、収蔵庫の西側に兵力が移動しています。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "12番、アクション。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "了解。12番、ON。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "……クリア。そっちに合流するね。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "ラジャー。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "ふぅ……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……うぅっ。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "来ましたよっと。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "……って大丈夫？顔色悪いよ。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……理由はどうあれ、犯罪の手伝いをしていますから。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ミヨ、そんな苦しい時こそ思い出して。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "なにを？"
+    },
+    {
+      "Name": "フユ",
+      "Text": "寮監隊のせいでことごとく失敗してきた、過去のビジネスを！"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "依頼を受けなきゃよかった話ですよね！？"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ふふっ……まあ、そう言わないでさ。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "今回の件を成功させれば、贋作を真作に正すのはもちろん……\n慈愛の怪盗という犯罪者に一杯食わせることもできる。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ミヨが書いた話が、ハッピーエンドを迎えられるんだよ？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "ハッピー、エンド……。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "そうですね……それに、ここまで来て筆を折るわけにはいかない。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……結末まで辿り着かないと。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "それでフユ、罠は残りいくつ？"
+    },
+    {
+      "Name": "フユ",
+      "Text": "全部使い切ってるよ。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "そう……やれることはやりましたね。 "
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "あとは、慈愛の怪盗がちゃんと盗めれば……。"
+    },
+    {
+      "Name": "フユ",
+      "Text": "ここまで手伝って失敗するなら、怪盗向いてないんじゃないかな？"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "……それもそうですね。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "うん……フユ、例の真作は持ってきたよね？"
+    },
+    {
+      "Name": "フユ",
+      "Text": "もちろん。カバンに大事にしまってありますとも。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "じゃあ、この辺で下がろうか。"
+    },
+    {
+      "Name": "ミヨ",
+      "Text": "日も暮れてきたし……。 "
+    },
+    {
+      "Name": "？？？",
+      "Text": "ええ――今宵の舞台の幕を下ろすには、良い頃合いでしょう。"
+    },
+    {
+      "Name": "一同",
+      "Text": "……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "夜の帳が下りれば、偽りの[ruby=かお]表情[/ruby]は闇に溶け――真実の声のみがこだまする。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "ごきげんよう。名も知らぬお嬢さん方。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": "お初にお目にかかります――「慈愛の怪盗」と申します。"
+    },
+    {
+      "Name": "慈愛の怪盗",
+      "Text": " 少 々 ――[ruby= ・ ]お[/ruby][ruby= ・ ]話[/ruby]していきませんか？"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제7화;괴도와 밀수의 시간"
+    },
+    {
+      "Text": "어느 카페"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "슬슬 해가 지는군요."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "이제 이 밤만 지나면, 베로니카 특별전이 열리겠죠."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "전시회장의 풍경이 상상이 됩니까?"
+    },
+    {
+      "Name": "???",
+      "Text": "글쎄요……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "관람객들은 컨베이어 벨트에 오른 듯 생각 없이 작품들 앞을 휙휙 지나칠 겁니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "그러면서도 유명한 그림 앞에선 개미 떼처럼 몰려들어서 마치 뭔가를 느끼기라도 한 것처럼 고개를 끄덕이겠죠."
+    },
+    {
+      "Name": "???",
+      "Text": "뭔가를 느꼈을 수도 있지 않나요?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "아뇨, 대중은 조금도 알지 못합니다. 진품이 품은 아우라를, 위작이 지닌 조악함을."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "그들은 그림을 보는 것이 아닙니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "그 그림의 유명세와 거래가만을 보고, 그림의 가치를 멋대로 재단하지요."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "그들은 그저, 그림을 둘러싼 정보를 보는 것일 뿐입니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "……그럼에도 저는 궁금합니다. 모든 사람이 온전히 예술의 가치를 알아볼 수 있는 그런 날……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "언젠가 우리에게도 그런 날이 오기는 할까요?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "저는 그날이 올 것으로 생각하지는 않습니다만……."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "당신은, 어떻게 생각하십니까?"
+    },
+    {
+      "Name": "카페 직원",
+      "Text": "그건 잘 모르겠고, 일단 저희 카페가 곧 마감이라 그런데 일어나 주실 수 있으신가요?"
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "앗, 헛, 앗, 죄송합니다."
+    },
+    {
+      "Name": "의뢰인",
+      "Text": "그, 그럼 이만."
+    },
+    {
+      "Text": "와일드헌트 수장고"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "후우, 이제 내일이면 특별전 시작이구나."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "수장고에서 경비 서는 게 한두 번이 아니었지만, 이번은 유독 신경이 많이 쓰였어, 그렇지?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "……."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "그냥 멍하니 경비 서고 있는 것도 쉽지 않은데, 이번에는 자애의 괴도까지 끼어들어 버렸으니……."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "뭐, 오늘까지도 안 나타났으면 오지 않는 거겠지."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "아무리 괴도라고 해도, 우리가 이렇게 철통같이 지키고 있는데 이런 곳을 털 수 있을 리가……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "그런데 말입니다."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "응?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "우리는, 무엇을 누구로부터 지키고 있는 것일까요?"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "어…… 당연히 도둑으로부터 수장고를 지키고 있는 거지? 정확히 말하자면 작품들을……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "관람자들로부터 작품을 지키고 있는 것이 아니고요?"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "그게 무슨 소리야? 내일부터 전시회인데. 보고 싶은 사람들은 누구나 와서 자유롭게 작품들을 볼 수 있다고."
+    },
+    {
+      "Name": "미리아",
+      "Text": "하지만 어떤 작품이 전시회에서 공개될지 정하는 건 베로니카 재단이잖아요."
+    },
+    {
+      "Name": "미리아",
+      "Text": "사람들은 재단 측이 골라 놓은 작품들만 볼 수 있을 뿐, 자유롭게 작품을 골라서 감상할 수 없어요."
+    },
+    {
+      "Name": "미리아",
+      "Text": "누구나 자유롭게 예술을 누릴 수 있다는 것은, 착각에 불과한 것이죠."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "……저기, 이번 전시회에는 이 수장고에 있는 모든 예술품이 다 전시될 예정인데?"
+    },
+    {
+      "Name": "미리아",
+      "Text": "예. 하지만, 이 수장고에 있는 것은 베로니카 재단이 보유한 예술품의 10%밖에 되지 않기도 하죠."
+    },
+    {
+      "Name": "미리아",
+      "Text": "나머지 90%는 여전히 재단 창고 안에 갇혀 있고요."
+    },
+    {
+      "Name": "미리아",
+      "Text": "그 누구도 그 아름다움을 누릴 수 없는 상태로……."
+    },
+    {
+      "Name": "미리아",
+      "Text": "그것이 올바른 일일까요?"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "뭐…… 그 예술품의 소유주가 재단이니 어쩔 수 없는 것 아닐까."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "무엇을 드러낼 지 무엇을 감출지, 그건 예술품을 가진 사람 마음이지 뭐."
+    },
+    {
+      "Name": "미리아",
+      "Text": "글쎄요, 만약 온 세상의 강과 호수를 사 버린 사람이 어느 날 식수의 공급을 금한다면, 그것을 받아들일 수 있으신가요?"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "아니, 그건 이야기가 다르지."
+    },
+    {
+      "Name": "미리아",
+      "Text": "아뇨, 다르지 않습니다."
+    },
+    {
+      "Name": "미리아",
+      "Text": "예술은, 아름다움은, 모든 사람에게 공유되어야만 해요."
+    },
+    {
+      "Name": "사감대원",
+      "Text": "어?! 뭐야?! 전등들이……!"
+    },
+    {
+      "Text": "퍼버버벙!"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "여, 연막까지……?!"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "서, 설마 자애의 괴도가……?!"
+    },
+    {
+      "Name": "미리아",
+      "Text": "일단 갈라지죠. 저는 후문 쪽을 맡겠습니다!"
+    },
+    {
+      "Name": "사감대원",
+      "Text": "으, 응! 그렇다면 난 정문으로 갈게!"
+    },
+    {
+      "Name": "미리아",
+      "Text": "그래요, 자애의 괴도……."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "……제가, 왔습니다."
+    },
+    {
+      "Text": "와일드헌트 공터"
+    },
+    {
+      "Name": "히로미",
+      "Text": "자애의 괴도 출현! 1, 2, 3분대는 A 구역으로 집결!"
+    },
+    {
+      "Name": "히로미",
+      "Text": "훈련한 대로만 움직여! 여기는 우리의 홈그라운드다! 우리가 더 유리해!"
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "예! 지금 바로 A구역으로 집결……."
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "어?!"
+    },
+    {
+      "Name": "히로미",
+      "Text": "무슨 일이야?!"
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "대원들이 갑자기 구덩이에 빠졌습니다!"
+    },
+    {
+      "Name": "히로미",
+      "Text": "구덩이……? 구덩이가 왜 거기 있어?!"
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "예! 아마도 누군가가 함정을……."
+    },
+    {
+      "Name": "히로미",
+      "Text": "함정이라니?! 우리는 함정 설치한 적 없잖아?!"
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "연막?!"
+    },
+    {
+      "Name": "사감대원 C",
+      "Text": "어디서 자꾸 연막이 터지는 거야?!"
+    },
+    {
+      "Name": "히로미",
+      "Text": "으아아아 이게 뭐야……!"
+    },
+    {
+      "Name": "히로미",
+      "Text": "난 이런 상황은 상정하지 않았다고……!"
+    },
+    {
+      "Name": "미요",
+      "Text": "으우우우…… 미안해요 사감대 여러분…… 미안해요 히로미 쨩……."
+    },
+    {
+      "Name": "미요",
+      "Text": "그래도 절대 다치지 않을 종류의 함정만 설치했으니까……."
+    },
+    {
+      "Name": "리츠",
+      "Text": "어때, 미요 쨩? 함정들 잘 작동해?"
+    },
+    {
+      "Name": "미요",
+      "Text": "으, 으응. 함정 설치하느라 수고 많았어요, 리츠 쨩."
+    },
+    {
+      "Name": "후유",
+      "Text": "나는? 나한테는 칭찬 안 해줘?"
+    },
+    {
+      "Name": "미요",
+      "Text": "너는 나랑 같이 조금만 더 수고하시죠. 3번, 5번, 액션."
+    },
+    {
+      "Name": "후유",
+      "Text": "옙. 3번과 5번 수동 함정, 작동."
+    },
+    {
+      "Name": "사감대원 D",
+      "Text": "또 연막탄이야!!"
+    },
+    {
+      "Name": "사감대원 E",
+      "Text": "나 여기 구덩이에 빠졌어! 꺼내 줘!"
+    },
+    {
+      "Name": "사감대원 D",
+      "Text": "어디인데?! 하나도 안 보여!"
+    },
+    {
+      "Name": "후유",
+      "Text": "함정에 안 걸린 한 명이 그쪽으로 갔어. 주의해."
+    },
+    {
+      "Name": "미요",
+      "Text": "확인. 후유가 있는 곳 북동쪽 사면, 침투에 취약하니 이동 시 조심하고요."
+    },
+    {
+      "Name": "후유",
+      "Text": "확인. 아, 수장고 서문 쪽으로 병력 산개 확인."
+    },
+    {
+      "Name": "미요",
+      "Text": "12번, 액션."
+    },
+    {
+      "Name": "후유",
+      "Text": "12번 함정, 작동."
+    },
+    {
+      "Name": "후유",
+      "Text": "이쪽은 클리어. 네 쪽으로 합류할게."
+    },
+    {
+      "Name": "미요",
+      "Text": "확인."
+    },
+    {
+      "Name": "미요",
+      "Text": "후우우……."
+    },
+    {
+      "Name": "미요",
+      "Text": "으우우……."
+    },
+    {
+      "Name": "후유",
+      "Text": "나 왔다."
+    },
+    {
+      "Name": "후유",
+      "Text": "잠깐만, 너 괜찮냐? 안색이 안 좋은데."
+    },
+    {
+      "Name": "미요",
+      "Text": "좋을 수가 없잖아요…… 이유야 어찌 되었든 범죄자를 돕고 사감대를 공격 중인데……."
+    },
+    {
+      "Name": "후유",
+      "Text": "그런 고뇌가 들 때는 이 사실을 생각해, 미요."
+    },
+    {
+      "Name": "미요",
+      "Text": "뭘……?"
+    },
+    {
+      "Name": "후유",
+      "Text": "사감대 때문에 실패했던 우리의 수많은 사업들을……!"
+    },
+    {
+      "Name": "미요",
+      "Text": "그냥 밀수를 안 했으면 그럴 일도 없었잖아요?!"
+    },
+    {
+      "Name": "후유",
+      "Text": "하하, 그래도 좋게 좋게 생각해, 미요."
+    },
+    {
+      "Name": "후유",
+      "Text": "이번 일만 성공하면, 우리는 위작을 진품으로 바로잡는 것은 물론이고 자애의 괴도라는 범죄자를 물 먹이는 것까지도 가능해."
+    },
+    {
+      "Name": "후유",
+      "Text": "네가 쓴 이 이야기가, 해피 엔딩으로 귀결될 수 있다고."
+    },
+    {
+      "Name": "미요",
+      "Text": "해피…… 엔딩……."
+    },
+    {
+      "Name": "미요",
+      "Text": "예, 어찌 되었든 여기까지 연재된 이야기를 무를 수는 없죠."
+    },
+    {
+      "Name": "미요",
+      "Text": "끝까지 가보자고요, 결말까지."
+    },
+    {
+      "Name": "미요",
+      "Text": "그래서 후유, 이제 함정이 몇 개 남았죠?"
+    },
+    {
+      "Name": "후유",
+      "Text": "전부 사용했어."
+    },
+    {
+      "Name": "미요",
+      "Text": "좋아, 이것으로 우리가 할 수 있는 일은 다 했어요."
+    },
+    {
+      "Name": "미요",
+      "Text": "남은 것은 자애의 괴도가 도둑질에 성공했기를 바라는 것뿐……."
+    },
+    {
+      "Name": "후유",
+      "Text": "그런데 솔직히 이렇게까지 도와줬는데 실패하면 괴도 딱지 떼어야 하는 것 아닐까?"
+    },
+    {
+      "Name": "미요",
+      "Text": "……그것도 그러네요."
+    },
+    {
+      "Name": "미요",
+      "Text": "자, 그럼 후유, <누가 자줏빛과 푸른빛을 귀여워하랴>의 진품, 가져왔죠?"
+    },
+    {
+      "Name": "후유",
+      "Text": "물론. 내 가방 안에 잘 들어 있어."
+    },
+    {
+      "Name": "미요",
+      "Text": "좋아, 그럼 이제 퇴각하죠."
+    },
+    {
+      "Name": "미요",
+      "Text": "슬슬 해도 떨어져 가니까……."
+    },
+    {
+      "Name": "???",
+      "Text": "해 질 녘은 이야기를 나누기에 좋은 시간이지요."
+    },
+    {
+      "Name": "일동",
+      "Text": "……!"
+    },
+    {
+      "Name": "???",
+      "Text": "해가 진 뒤에는, 거짓된 표정은 감춰지고 오직 진실한 목소리만이 떠오르니까요."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "안녕하십니까, 이름 모를 조력자분들."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "처음 뵙겠습니다. <자애의 괴도>입니다."
+    },
+    {
+      "Name": "자애의 괴도",
+      "Text": "우리 잠시…… '이야기'를 나눠 볼까요?"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 7;Thieving and Smuggling Hour"
+    },
+    {
+      "Text": "Distant Cafe"
+    },
+    {
+      "Name": "Client",
+      "Text": "The sun is starting to set."
+    },
+    {
+      "Name": "Client",
+      "Text": "To think, in the dark of tomorrow's night, the Veronica Special Exhibition will open."
+    },
+    {
+      "Name": "Client",
+      "Text": "Can you imagine the glamor and majesty of the exhibition hall?"
+    },
+    {
+      "Name": "???",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Client",
+      "Text": "Visitors will drift past the art without a single original thought, as if moved by a conveyor belt."
+    },
+    {
+      "Name": "Client",
+      "Text": "All while clustering in front of the famous works like ants on a piece of candy, nodding and grunting as if they actually feel something."
+    },
+    {
+      "Name": "???",
+      "Text": "Or they might genuinely appreciate the exhibition?"
+    },
+    {
+      "Name": "Client",
+      "Text": "No. The public doesn't know. They don't sense the aura of an authentic piece or the crude insincerity of a forgery."
+    },
+    {
+      "Name": "Client",
+      "Text": "They don't actually LOOK at the work, you see."
+    },
+    {
+      "Name": "Client",
+      "Text": "For them, it's all the reputation and the price. They let THAT determine how they pretend to feel."
+    },
+    {
+      "Name": "Client",
+      "Text": "They study everything AROUND the painting, but never actually see its true form."
+    },
+    {
+      "Name": "Client",
+      "Text": "...I wonder, again and again. Will there ever be a day when the people truly value real art?"
+    },
+    {
+      "Name": "Client",
+      "Text": "Will the day of true sight ever dawn on the masses?"
+    },
+    {
+      "Name": "Client",
+      "Text": "I doubt it. That sun shall never rise."
+    },
+    {
+      "Name": "Client",
+      "Text": "Tell me, what do you think?"
+    },
+    {
+      "Name": "Cafe Employee",
+      "Text": "I don't know about all that, but the cafe's about to close, so can you get up so I can stack the chairs?"
+    },
+    {
+      "Name": "Client",
+      "Text": "Ah, oh, ah, my apologies."
+    },
+    {
+      "Name": "Client",
+      "Text": "Th-Then, farewell!"
+    },
+    {
+      "Text": "Wildhunt Storage"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Fufu, tomorrow the Special Exhibition opens."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "This isn't our first time guarding the storage, but it is the most nerve-racking. I keep imagining that thief popping out of the shadows."
+    },
+    {
+      "Name": "Miria",
+      "Text": "..."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Standing guard is difficult enough, and now one of the Seven Prisoners might be involved..."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Well, if she doesn't show up to the storeroom today, then I guess she's not coming."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Even if she IS some sort of legend, how could she possibly sneak by when all of us are standing here like—"
+    },
+    {
+      "Name": "Miria",
+      "Text": "About that."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Miria",
+      "Text": "What do you suppose we are protecting, and from whom?"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Uh...protecting the art from the thief? More precisely, the Veronica pieces..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Are we not protecting the pieces from those who wish to appreciate them?"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "What are you talking about? The exhibition starts tomorrow. Anyone can come and take a look. We even have free tickets!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "But...the Veronica Foundation has decided which pieces are worthy of exhibition."
+    },
+    {
+      "Name": "Miria",
+      "Text": "People can only view what the Foundation has curated. They can't freely choose what to see."
+    },
+    {
+      "Name": "Miria",
+      "Text": "To say that anyone can freely access art...that's an illusion."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "...Yeah, but I thought everything stored down here would be featured in the exhibition."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Perhaps, but the art pieces in this storeroom are only 10% of the Veronica Foundation's extensive collection."
+    },
+    {
+      "Name": "Miria",
+      "Text": "The other 90% are underground somewhere collecting dust in a tomb much like this."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Entrapped in a state where no one can enjoy their beauty..."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Is that...just? For art to \"belong\" to one who seeks to hoard and seal it away?"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "The Foundation owns this stuff, so...there's no helping it, right? It is what it is."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "I guess you're correct in that the owner gets to decide what gets to be on display. But it's their right."
+    },
+    {
+      "Name": "Miria",
+      "Text": "I'm not so sure. If someone \"bought\" all the rivers and lakes of the world and then decided that you didn't get to drink...would that be their right?"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "But that's different."
+    },
+    {
+      "Name": "Miria",
+      "Text": "It's truly not."
+    },
+    {
+      "Name": "Miria",
+      "Text": "Art and aesthetics are inherent rights. That which is beautiful deserves to be shared."
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Huh? What?! The lights...!"
+    },
+    {
+      "Text": "*pop pop pop*"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "S-Smoke bombs too...?!"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "I-Is it the Benevolent Thief...?!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "Let's split. I'll cover the back door!"
+    },
+    {
+      "Name": "Prefectural Council Member",
+      "Text": "Uh, yeah! I'll go for the gate!"
+    },
+    {
+      "Name": "Miria",
+      "Text": "And so, you have arrived..."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "...the Benevolent Thief."
+    },
+    {
+      "Text": "Wildhunt Park"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "The Benevolent Thief is here! Squad 1, 2, 3, report to Zone A!"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "Remember your training! This is our school, our grounds! Press our advantage!"
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "Yes, ma'am! Heading to Zone A right..."
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "Report! What's your status?!"
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "Two squad members fell in a crater!"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "A...crater...? Why is there a...? Get them out!"
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "Yes! It's...I see shovel marks. It's dug like a trap!"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "A trap?! I didn't authorize any—"
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "A smoke bomb?"
+    },
+    {
+      "Name": "Prefectural Council Member C",
+      "Text": "*cough* There's so many. Where are they...?"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "Aaaahh! Report! I've lost visual!"
+    },
+    {
+      "Name": "Hiromi",
+      "Text": "Who could do this?!"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Waah... Huuu... I'm sorry, Prefectural Council... I'm SO sorry, Hiromi..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "We made them as safe as we could. No one should get hurt..."
+    },
+    {
+      "Name": "Ritsu",
+      "Text": "How's it look, Miyo? Did they fall in the holes?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Uh, yeah. Immaculate work on the traps, Ritsu."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Aw, what about me? Don't I get a little praise?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "No. You and I are still on the clock. Mogul, take #3 and #5. And....action!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Yup. #3 and #5, we're rolling."
+    },
+    {
+      "Name": "Prefectural Council Member D",
+      "Text": "More smoke! Get down! Or up! Or....ahhh!"
+    },
+    {
+      "Name": "Prefectural Council Member E",
+      "Text": "Gah! Ugh, another hole! Pull me out! Again!"
+    },
+    {
+      "Name": "Prefectural Council Member D",
+      "Text": "Where?! I can't see anything!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Stay sharp, Scribe. A straggler's headed your way."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Copy. Mogul, watch the north-east slope. Your flank's vulnerable. Slow movements, don't rush."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Copy. Confirmed troops deployed to the west gate of the cache."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Take 12, on the mark...and action!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "#12... Hot set."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Feed is clean. Moving to command."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Copy."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "*exhale*..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Ugh..."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Checking in."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Miyo? You look a little... Are you okay?"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "How could I be? Look at us, abetting a criminal and attacking our own Prefectural Council..."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Hey. Listen up, Miyo. Remember one thing whenever that little voice in your head makes you feel guilty."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Remember what...?"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "...All the times the Prefectural Council confiscated our goods and cut into our profits!"
+    },
+    {
+      "Name": "Miyo",
+      "Text": "None of this would have happened if we weren't smuggling!"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Miyo, please, PLEASE be positive for once."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "If this succeeds, we'll not only restore a piece of art to its rightful place, but we'll outsmart the greatest thief in history."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "This story you wrote can have a happy ending."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Happy...ending..."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Yes, no matter how I feel, we can't close the book now."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Let's see this through, until the final page."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Fuyu, how many traps are left?"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "None. We used them all."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Very well. Then we did all we could."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Now we can only hope that the Benevolent Thief was successful."
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "And if she still whiffs it after all our help, maybe she should retire."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "...Indeed."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Now, Fuyu, do you still have the real \"The Love of Purple and Blue Light\"?"
+    },
+    {
+      "Name": "Fuyu",
+      "Text": "Of course. It's safe and secure in my case."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "Good, then let's fall back."
+    },
+    {
+      "Name": "Miyo",
+      "Text": "After all, the sun's going down..."
+    },
+    {
+      "Name": "???",
+      "Text": "I find that some of the best conversations happen in the twilight."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "...!"
+    },
+    {
+      "Name": "???",
+      "Text": "The veil of darkness hides the performative expressions of day and allows one to speak the truth."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Good evening, my anonymous assistants."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "It's a pleasure to meet you. I am the Benevolent Thief."
+    },
+    {
+      "Name": "Benevolent Thief",
+      "Text": "Shall we...have a little chat?"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 7;ยุคสมัยของจอมโจรและการค้าของเถื่อน"
+    },
+    {
+      "Text": "คาเฟ่แห่งหนึ่ง"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "พระอาทิตย์ใกล้จะตกแล้วนะครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "หลังจากผ่านค่ำคืนนี้ไป นิทรรศการพิเศษเวโรนิก้าก็จะเปิดให้เข้าชมแล้ว"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "พอจะจินตนาการบรรยากาศในสถานที่จัดนิทรรศการได้มั้ยครับ?"
+    },
+    {
+      "Name": "???",
+      "Text": "จะเป็นยังไงนะครับ..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ผู้เข้าชมคงจะเดินผ่านผลงานศิลปะไปโดยไม่คิดอะไร เหมือนกับว่าพวกเขากำลังอยู่บนสายพาน\nลำเลียงละมั้งครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "แต่เมื่ออยู่ต่อหน้าภาพวาดที่มีชื่อเสียง พวกเขาก็คงแห่กันเข้ามาเหมือนฝูงมด แล้วก็คงพยักหน้าราวกับว่ารู้สึกอะไรบางอย่าง"
+    },
+    {
+      "Name": "???",
+      "Text": "แต่ก็น่าจะรู้สึกอะไรได้ไม่ใช่เหรอครับ?"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "ไม่หรอก คนส่วนใหญ่น่ะไม่รู้อะไรเลยสักอย่าง ทั้งเสน่ห์ของของจริง และความหยาบกระด้างของ\nของปลอม"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "คนพวกนั้นไม่ได้ดูภาพวาดหรอกครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "พวกเขาดูชื่อเสียงและราคาซื้อขายของภาพ แล้วก็เอาไปตัดสินคุณค่าของภาพวาดกันตามอำเภอใจ\nมากกว่า"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "สรุปก็คือพวกเขาแค่ดูข้อมูลที่อยู่รอบๆ รูปภาพเท่านั้นน่ะครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "แต่ถึงอย่างนั้นผมก็ยังสงสัยนะครับ... วันที่ทุกคนจะซาบซึ้งในคุณค่าของศิลปะได้เต็มที่..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "วันแบบนั้นจะมีจริงหรือเปล่า?"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "แต่ผมก็ไม่คิดว่าวันนั้นจะมาถึงหรอกนะครับ..."
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "แล้วคุณคิดยังไงล่ะครับ?"
+    },
+    {
+      "Name": "พนักงานคาเฟ่",
+      "Text": "เรื่องนั้นผมไม่รู้หรอกครับ แต่ที่รู้คือร้านของเราใกล้จะปิดแล้ว ผมน่าจะต้องเชิญคุณลูกค้ากลับไปก่อน\nนะครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "อ๊ะ ฮะ... เฮือก ขอโทษด้วยครับ"
+    },
+    {
+      "Name": "ผู้ว่าจ้าง",
+      "Text": "งะ... งั้นผมขอตัวก่อน"
+    },
+    {
+      "Text": "โกดังเก็บงานศิลปะ ไวลด์ฮันต์"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "ฮู่ว นิทรรศการพิเศษจะจัดขึ้นพรุ่งนี้แล้วสินะ"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "นี่ก็ไม่ใช่ครั้งแรกที่เรามายืนเฝ้ายามที่โกดัง แต่ทำไมครั้งนี้รู้สึกประหม่าเป็นพิเศษนะ?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "......"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "ปกติการยืนเฝ้ายามก็ไม่ใช่เรื่องง่ายอยู่แล้ว แต่งานนี้ยังมีเรื่องจอมโจรแห่งความเสน่หาเข้ามา\nเกี่ยวข้องด้วย..."
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "แต่ถ้าไม่โผล่มาภายในวันนี้ ก็ไม่น่าจะมาแล้วละเนอะ"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "ถึงจะได้ชื่อว่าเป็นจอมโจร แต่ถ้าเรามีการรักษาความปลอดภัยที่หนาแน่นแบบนี้ ก็คงเข้ามาขโมยอะไรไปไม่ได้หรอก..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "แต่จะว่าไปนะคะ"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "พวกเรากำลังปกป้องอะไรจากใครกันอยู่เหรอคะ?"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "ก็... ปกป้องโกดังจากโจรไง? ถ้าจะพูดให้ชัดเจน ก็ต้องบอกว่าปกป้องผลงานศิลปะ..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "เราไม่ได้ปกป้องงานศิลปะจากผู้ชมงานหรอกเหรอคะ?"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "หมายความว่ายังไงน่ะ? นิทรรศการจะเริ่มพรุ่งนี้อยู่แล้ว ไม่ว่าใครที่อยากมาชมงาน ก็ต้องได้ชมงานอย่างอิสระสิ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "แต่ฝ่ายที่ตัดสินใจว่าผลงานชิ้นไหนบ้างที่จะจัดแสดงในงานก็คือมูลนิธิเวโรนิก้าไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ผู้คนมาชมได้แต่ผลงานที่มูลนิธิเลือกเท่านั้นละค่ะ ใช่ว่าจะได้เลือกชมผลงานได้อย่างอิสระสักหน่อย"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ความคิดที่ว่าทุกคนเพลิดเพลินกับงานศิลปะได้อย่างอิสระน่ะ เป็นแค่การคิดไปเองเท่านั้นละค่ะ"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "เอ่อ... แต่นิทรรศการนี้จะจัดแสดงงานศิลปะทุกชิ้นที่อยู่ในโกดังนี้เลยนะ?"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ใช่ค่ะ แต่งานศิลปะที่อยู่ในโกดังนี้คิดเป็นแค่ 10% ของงานศิลปะทั้งหมดที่มูลนิธิเวโรนิก้าเป็นเจ้าของ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ส่วนที่เหลืออีก 90% ยังคงถูกเก็บไว้ในโกดังเฉพาะของมูลนิธิ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ในสภาพที่ไม่มีใครยลโฉมความงดงามนั้นได้..."
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "คิดว่านั่นเป็นเรื่องที่ถูกต้องแล้วเหรอคะ?"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "แต่ก็... ไม่น่าจะทำอะไรได้หรือเปล่า ก็เจ้าของงานศิลปะพวกนั้นคือมูลนิธิเองนี่นา"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "การจะเปิดเผยหรือปิดไว้ ก็คงขึ้นอยู่กับผู้ที่เป็นเจ้าของผลงานนั้นๆ นั่นละ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "งั้นเหรอคะ แล้วถ้าวันหนึ่งมีใครสักคนกว้านซื้อแม่น้ำและทะเลสาบทั้งหมดในโลก แล้วสั่งห้ามไม่ให้จ่ายน้ำดื่ม คุณจะรับสิ่งนั้นได้หรือเปล่าคะ?"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "เดี๋ยวนะ นั่นมันคนละเรื่องกันต่างหาก"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ไม่หรอกค่ะ เรื่องเดียวกันนี่ละ"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ศิลปะและความงามคือสิ่งที่ต้องแบ่งปันให้ทุกคนได้เห็นค่ะ"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "หืม?! อะไรน่ะ?! หลอดไฟในนี้...!"
+    },
+    {
+      "Text": "ตู้มมม!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "มะ... มีม่านควันด้วย...!!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "ระ... หรือจะเป็น จอมโจรแห่งความเสน่หา...?!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "เราแยกกันก่อนดีกว่าค่ะ ฉันจะไปดูทางประตูหลังให้เองค่ะ!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก",
+      "Text": "อะ... อื้อ! งั้นฉันจะไปฝั่งประตูหน้าให้!"
+    },
+    {
+      "Name": "มิเรีย",
+      "Text": "ใช่แล้วละค่ะ จอมโจรแห่งความเสน่หา..."
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ฉันคนนี้... มาแล้วค่ะ"
+    },
+    {
+      "Text": "สนามไวลด์ฮันต์"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "จอมโจรแห่งความเสน่หาปรากฏตัว! ทีม 1-3 ไปรวมตัวกันที่โซน A!"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "เคลื่อนไหวตามที่ฝึกซ้อมมา! ที่นี่คือถิ่นฐานของเรา! เราได้เปรียบกว่าอยู่แล้ว!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "ค่ะ! พวกเราจะไปที่โซน A เดี๋ยวนี้..."
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "หืม?!"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "เกิดเรื่องอะไรขึ้นน่ะ?!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "จู่ๆ คนของเราก็ตกลงไปในหลุมค่ะ!"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "ตกหลุม...? ทำไมถึงมีหลุมตรงนี้ล่ะ?!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "น่าจะมีใครมาวางกับดักไว้ค่ะ... "
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "กับดักงั้นเหรอ?! แต่พวกเราไม่เคยวางกับดักอะไรนะ?!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "ม่านควัน?!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก C",
+      "Text": "ม่านควันระเบิดมาจากตรงไหนอีก?!"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "อ๊าาา นี่มันอะไรกัน...!"
+    },
+    {
+      "Name": "ฮิโรมิ",
+      "Text": "ฉันไม่เคยเสนอให้เราทำอะไรแบบนี้นี่นา...!"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ฮือออ... ขอโทษนะคะ ฝ่ายดูแลหอพักทุกคน... ขอโทษนะคะ ฮิโรมิจัง..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "แต่ยังไงฉันก็เลือกใช้กับดักที่ทำให้ไม่เจ็บตัวแล้ว..."
+    },
+    {
+      "Name": "ริตสึ",
+      "Text": "เป็นยังไงบ้าง มิโยะจัง? กับดักทำงานได้ผลหรือเปล่า?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "อะ... อื้อ ขอบใจที่อุตส่าห์มาขุดหลุมและวางกับดักให้นะ ริตสึจัง"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "แล้วฉันล่ะ? ไม่ชมฉันบ้างเหรอ?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "คุณยังต้องเหนื่อยกับฉันต่ออีกหน่อยนี่คะ เบอร์ 3 กับเบอร์ 5 แอคชั่น!"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ค่ะ เปิดกับดักเบอร์ 3 กับเบอร์ 5"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก D",
+      "Text": "มีม่านควันอีกแล้ว!!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก E",
+      "Text": "ฉันตกหลุมตรงนี้แล้ว! ช่วยฉันด้วย!"
+    },
+    {
+      "Name": "สมาชิกฝ่ายดูแลหอพัก D",
+      "Text": "ตรงไหนน่ะ?! มองไม่เห็นเลยสักนิด!"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "คนเดียวที่ไม่ตกหลุมไปทางโน้นแล้ว ระวังด้วยนะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "รับทราบ ตอนนี้ฟุยุอยู่ตรงพื้นที่ลาดเอียงทางทิศตะวันออกเฉียงเหนือที่เป็นจุดอ่อนด้านการแทรกซึม ตอนเคลื่อนไหวก็ระวังด้วยนะคะ"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "รับทราบ อ๊ะ พบการกระจายกำลังทางประตูทิศตะวันตกของโกดัง"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "เบอร์ 12 แอคชั่น"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "กับดักเบอร์ 12 ทำงานได้"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "เคลียร์ทางนี้ได้แล้ว งั้นฉันจะไปรวมตัวกับทางนั้นนะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "รับทราบ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ฮู่วว..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ฮืออ..."
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ฉันมาแล้ว"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "เดี๋ยวนะ เธอโอเคหรือเปล่า? สีหน้าไม่ค่อยดีเลย"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "จะไปดีได้ไงล่ะคะ... ไม่ว่าจะทำด้วยเหตุผลอะไร แต่เราก็กำลังช่วยเหลืออาชญากร และโจมตีฝ่ายดูแลหอพักอยู่นะ..."
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ถ้าทุกข์ใจแบบนั้น ก็ให้คิดถึงความจริงนี้ไว้ มิโยะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "อะไรเหรอ...?"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "หลายครั้งที่งานของเราพังไม่เป็นท่าก็เพราะฝ่ายดูแลหอพักพวกนั้น...!"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ถ้าไม่ลักลอบขนส่งสินค้า ก็ไม่มีเรื่องแบบนั้นหรอกค่ะ!"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "แหะๆ แต่ยังไงก็คิดในแง่ดีไว้เถอะน่า มิโยะ"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ถ้าครั้งนี้เราทำสำเร็จ เราจะไม่เพียงแค่เปลี่ยนภาพปลอมแปลงเป็นภาพจริงได้ แต่ยังทำให้อาชญากร\nอย่างจอมโจรแห่งความเสน่หาต้องเดือดร้อนได้ด้วย"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "เรื่องราวที่เธอเขียนจะจบลงอย่างแฮปปี้เอนดิ้งเลยนะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "แฮปปี้... เอนดิ้ง..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ค่ะ ไม่ว่าจะเป็นยังไง ฉันก็แก้ไขเรื่องราวที่ดำเนินมาถึงตอนนี้ไม่ได้แล้วค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ไปกันให้สุดทางเลยค่ะ ให้ถึงตอนจบเลย"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ตอนนี้เราเหลือกับดักอยู่อีกกี่อันเหรอคะ ฟุยุ?"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ใช้ไปหมดแล้วละ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ดีละ งั้นเราก็ทำในส่วนของพวกเราหมดแล้วค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ที่เหลือก็แค่ภาวนาให้จอมโจรแห่งความเสน่หาขโมยของสำเร็จ..."
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "แต่เอาจริงๆ นะ ถ้าเราช่วยถึงขนาดนี้แล้วยังขโมยของออกมาไม่ได้ ก็ควรจะเลิกใช้ฉายาจอมโจร\nไปเลยว่ามั้ย?"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ก็จริงอยู่นะคะ..."
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ว่าแต่ ฟุยุ เอาภาพ <ใครเล่าจะหลงใหลสีม่วงกับสีคราม> ของจริงมาใช่มั้ยคะ?"
+    },
+    {
+      "Name": "ฟุยุ",
+      "Text": "ต้องเอามาสิ อยู่ในกระเป๋าของฉันน่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "ดีละ งั้นตอนนี้เราก็ล่าถอยกันเถอะค่ะ"
+    },
+    {
+      "Name": "มิโยะ",
+      "Text": "พระอาทิตย์ก็กำลังจะตกแล้วด้วย..."
+    },
+    {
+      "Name": "???",
+      "Text": "ตอนพระอาทิตย์ตกดินเป็นเวลาที่เหมาะกับการพูดคุยกัน ว่ามั้ยคะ?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "...!"
+    },
+    {
+      "Name": "???",
+      "Text": "หลังจากพระอาทิตย์ลับขอบฟ้าไปแล้ว สีหน้าที่หลอกลวงจะถูกซ่อนไว้ สิ่งเดียวที่รับรู้ได้ก็มีแต่เสียงพูดที่แท้จริงเท่านั้น"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "สวัสดีค่ะ ผู้ช่วยที่ฉันไม่รู้จักชื่อ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "ยินดีที่ได้พบนะคะ ฉันคือ <จอมโจรแห่งความเสน่หา> ค่ะ"
+    },
+    {
+      "Name": "จอมโจรแห่งความเสน่หา",
+      "Text": "พวกเรามา... 'คุยกัน' สักเดี๋ยวมั้ยคะ?"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第7話;怪盜與走私的時間"
+    },
+    {
+      "Text": "某間咖啡廳"
+    },
+    {
+      "Name": "委託人",
+      "Text": "太陽就快下山了呢。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "過了今晚之後，Veronica特展就要開幕了吧。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "你能想像展覽會場的景象嗎？"
+    },
+    {
+      "Name": "???",
+      "Text": "這個嘛……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "觀眾們八成會像被放上輸送帶一樣，不假思索地從作品前匆匆走過……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "然後在知名的畫作前像螞蟻一樣擠成一團，彷彿若有所思似的點點頭吧。"
+    },
+    {
+      "Name": "???",
+      "Text": "或許……他們真的有感受到什麼也說不定？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "不，大眾根本一無所知。\n無論是真跡所蘊含的氣場，還是贗品所帶有的粗劣。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "他們看的不是畫。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "他們看的只是那幅畫的名氣和交易價格，並擅自以此衡量畫作的價值。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "他們眼中所見到的，只不過是圍繞畫作的資訊罷了。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "……然而即便如此，我還是很好奇。\n所有人都能完整理解藝術價值的日子……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "那樣的日子，真的會到來嗎？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "至少我個人並不這麼認為……"
+    },
+    {
+      "Name": "委託人",
+      "Text": "你是怎麼想的呢？"
+    },
+    {
+      "Name": "咖啡廳店員",
+      "Text": "這點我不是很清楚……\n不過我們咖啡廳快打烊了，可以麻煩您配合一下嗎？"
+    },
+    {
+      "Name": "委託人",
+      "Text": "啊，啊啊，真不好意思。"
+    },
+    {
+      "Name": "委託人",
+      "Text": "那，那我就先告辭了。"
+    },
+    {
+      "Text": "狂獵收藏庫"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "呼，明天特展就要開幕了啊。"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "雖然不是第一次在收藏庫站崗，這次卻特別讓人神經緊繃呢……你不覺得嗎？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "……"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "光是發呆站崗就已經很不容易了，這次還扯上了慈愛的怪盜……"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "不過都到今天了還沒出現，我猜應該是不會來了吧。"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "就算號稱是怪盜，面對這麼森嚴的警戒也不可能跑來自投羅網……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "可是話又說回來……"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "我們究竟在保護什麼……又是在防範誰呢？"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "這……當然是防止小偷闖入收藏庫吧？\n雖然嚴格來說應該是保護作品才對……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "不是保護作品免於觀眾的侵擾嗎？"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "這是什麼意思？明天就是展覽會了耶？\n每個人都可以自由地欣賞啊。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "但是決定哪些作品能在展覽會上公開的，卻是Veronica財團。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "人們只能看見財團單方面挑選的作品，並不能自由地作出選擇。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "任何人都能自由地享受藝術……不過只是錯覺罷了。"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "……可是我聽說這次的展覽會，預計會展出這個收藏庫裡所有的藝術品耶？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "沒錯。然而這個收藏庫裡的藝術品，也只佔Veronica財團擁有的10%而已。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "剩下的90%，如今依然被關在財團的倉庫之中。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "處於誰也無法享受其美麗的狀態……"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "這樣真的是正確的嗎？"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "唔嗯……既然那些藝術品的所有權在財團手上，這也是沒辦法的事吧。"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "要展示什麼、要隱藏什麼……本來就是擁有者說了算。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "這倒未必。舉例來說……\n假如某天有人買下了世上所有的江河湖泊，並宣布禁止供應飲用水……你能接受嗎？"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "不是，這跟那是兩回事吧。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "不，這兩件事並沒有不同。"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "藝術和美麗──應當與所有人共享才對。"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "咦！？怎麼回事！？\n電燈怎麼……！"
+    },
+    {
+      "Text": "（轟隆！）"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "煙，煙霧……！？"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "難，難不成是慈愛的怪盜……！？"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "總之先分頭行動吧。\n我去後門那邊！"
+    },
+    {
+      "Name": "舍監隊員",
+      "Text": "嗯，嗯！那我去正門！"
+    },
+    {
+      "Name": "米莉亞",
+      "Text": "沒錯，慈愛的怪盜……"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "……我，來了。"
+    },
+    {
+      "Text": "狂獵空地"
+    },
+    {
+      "Name": "裕美",
+      "Text": "慈愛的怪盜出現了！\n第1、2、3分隊往A區集結！"
+    },
+    {
+      "Name": "裕美",
+      "Text": "按照訓練展開行動！\n這裡是我們的主場！對我們更有利！"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "是！現在立刻往A區集結……"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "咦！？"
+    },
+    {
+      "Name": "裕美",
+      "Text": "怎麼了！？"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "隊員們突然掉進坑裡了！"
+    },
+    {
+      "Name": "裕美",
+      "Text": "坑……？那裡為什麼會有坑！？"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "應，應該是有人設了陷阱……！"
+    },
+    {
+      "Name": "裕美",
+      "Text": "陷阱！？我們沒有設置陷阱啊！？"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "煙霧！？"
+    },
+    {
+      "Name": "舍監隊員C",
+      "Text": "煙霧到底是從哪裡冒出來的！？"
+    },
+    {
+      "Name": "裕美",
+      "Text": "唔啊，這是怎麼回事……！"
+    },
+    {
+      "Name": "裕美",
+      "Text": "我可沒有設想過這種情況啊……！"
+    },
+    {
+      "Name": "美代",
+      "Text": "嗚嗚嗚……對不起，舍監隊的各位……\n對不起，裕美醬……"
+    },
+    {
+      "Name": "美代",
+      "Text": "不過，我設置的都是絕對不會受傷的陷阱……"
+    },
+    {
+      "Name": "律",
+      "Text": "怎麼樣，美代醬？\n陷阱都有正常運作嗎？"
+    },
+    {
+      "Name": "美代",
+      "Text": "啊，嗯。設置陷阱辛苦了，律醬。"
+    },
+    {
+      "Name": "冬",
+      "Text": "我呢？不稱讚我一下嗎？"
+    },
+    {
+      "Name": "美代",
+      "Text": "你的話還要再辛苦一下吧。\n3號、5號，啟動。"
+    },
+    {
+      "Name": "冬",
+      "Text": "收到。3號、5號手動陷阱，啟動。"
+    },
+    {
+      "Name": "舍監隊員D",
+      "Text": "又有煙霧彈！！"
+    },
+    {
+      "Name": "舍監隊員E",
+      "Text": "我掉進坑裡了！快救我出來！"
+    },
+    {
+      "Name": "舍監隊員D",
+      "Text": "你在哪裡啊！？我什麼都看不見！"
+    },
+    {
+      "Name": "冬",
+      "Text": "有一個沒中陷阱的人往你那邊過去了。小心一點。"
+    },
+    {
+      "Name": "美代",
+      "Text": "收到。冬所在的東北側斜坡容易被滲透，移動的時候請小心。"
+    },
+    {
+      "Name": "冬",
+      "Text": "收到。啊，確認到兵力朝收藏庫西門分散。"
+    },
+    {
+      "Name": "美代",
+      "Text": "12號，啟動。"
+    },
+    {
+      "Name": "冬",
+      "Text": "12號陷阱，啟動。"
+    },
+    {
+      "Name": "冬",
+      "Text": "這邊都排除完畢了。\n我過去跟你會合。"
+    },
+    {
+      "Name": "美代",
+      "Text": "收到。"
+    },
+    {
+      "Name": "美代",
+      "Text": "呼……"
+    },
+    {
+      "Name": "美代",
+      "Text": "嗚嗚……"
+    },
+    {
+      "Name": "冬",
+      "Text": "我來了。"
+    },
+    {
+      "Name": "冬",
+      "Text": "等等，你還好嗎？\n臉色看起來很差哦。"
+    },
+    {
+      "Name": "美代",
+      "Text": "怎麼可能好嘛……\n不管有什麼理由，我們都正在幫助罪犯攻擊舍監隊耶……"
+    },
+    {
+      "Name": "冬",
+      "Text": "煎熬的時候就回想一下吧，美代。"
+    },
+    {
+      "Name": "美代",
+      "Text": "回想什麼……？"
+    },
+    {
+      "Name": "冬",
+      "Text": "回想因為舍監隊而失敗的無數筆買賣啊……！"
+    },
+    {
+      "Name": "美代",
+      "Text": "當初不要走私不就好了嗎！？"
+    },
+    {
+      "Name": "冬",
+      "Text": "哈哈，總之往好處想吧，美代。"
+    },
+    {
+      "Name": "冬",
+      "Text": "只要這次成功，我們不僅能把贗品替換成真跡，甚至還能擺慈愛的怪盜一道。"
+    },
+    {
+      "Name": "冬",
+      "Text": "你所寫下的這個故事，將會迎來圓滿的結局。"
+    },
+    {
+      "Name": "美代",
+      "Text": "圓滿的……結局……"
+    },
+    {
+      "Name": "美代",
+      "Text": "也對。反正故事都寫到這裡也無法回頭了。"
+    },
+    {
+      "Name": "美代",
+      "Text": "就繼續走下去吧。直到結局為止。"
+    },
+    {
+      "Name": "美代",
+      "Text": "冬，現在還剩下幾個陷阱？"
+    },
+    {
+      "Name": "冬",
+      "Text": "全部用完了。"
+    },
+    {
+      "Name": "美代",
+      "Text": "很好，這樣我們能做的都已經做了。"
+    },
+    {
+      "Name": "美代",
+      "Text": "接下來就只能祈禱慈愛的怪盜可以順利完成偷竊了……"
+    },
+    {
+      "Name": "冬",
+      "Text": "不過說真的，要是都幫到這個地步還失敗的話，我看他還是別當怪盜了吧？"
+    },
+    {
+      "Name": "美代",
+      "Text": "……這倒也是。"
+    },
+    {
+      "Name": "美代",
+      "Text": "好……冬，《誰會喜愛紫與藍》的真跡有帶過來吧？"
+    },
+    {
+      "Name": "冬",
+      "Text": "當然。好好地放在我包包裡。"
+    },
+    {
+      "Name": "美代",
+      "Text": "嗯，那我們就撤退吧。"
+    },
+    {
+      "Name": "美代",
+      "Text": "太陽也差不多要下山了……"
+    },
+    {
+      "Name": "???",
+      "Text": "日落時分，是個適合談話的時間呢。"
+    },
+    {
+      "Name": "全體",
+      "Text": "……！"
+    },
+    {
+      "Name": "???",
+      "Text": "太陽落下後，虛假的表情將會褪去──唯有真實的聲音才會浮現。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "貴安，素未謀面的協助者們。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "初次見面。我是「慈愛的怪盜」。"
+    },
+    {
+      "Name": "慈愛的怪盜",
+      "Text": "讓我們……稍微「聊聊」吧？"
+    }
+  ]
+}

@@ -1,0 +1,2832 @@
+{
+  "TitleJP": "活路を開く一手",
+  "TitleKR": "브레이크? 그게 뭔가요",
+  "TitleEN": "Brake Down",
+  "TitleTH": "เบรกคืออะไรเหรอคะ?",
+  "TitleTW": "煞車？那是什麼",
+  "DescJP": "列車のブレーキが壊れ、万策が尽きたかと思われたそのとき、アオバが列車の車輪を爆破し、無理矢理停車させる作戦を考案する。駅と線路をメチャメチャに破壊しながらも、無事（？）に停車する貨物列車。そこに、待ち伏せしていた暴走族たちが襲いかかってきた……！",
+  "DescKR": "격전으로 인해 제동 장치가 망가진 상태로 질주하는 열차. 이대로 가면 임무 실패는 자명한 사실에, 자칫 위험해질지도 모르는 상황인데…… 과연 해결책은 있을까?",
+  "DescEN": "Damaged due to the fierce battle, the brake system has malfunctioned and the train speeds have gone out of control. Not only does the operation look doomed, but everyone is in grave danger. How are they going to get out of this?",
+  "DescTH": "รถไฟวิ่งมาด้วยความเร็วสูงพร้อมกับระบบเบรกที่เสียหายจากการต่อสู้อันดุ\nเดือด หากเป็นอย่างนี้ต่อไป ภารกิจก็คงล้มเหลว... ท่ามกลางสถานการณ์ที่\nยิ่งอันตรายนี้ ทุกคนจะหาวิธีรับมือได้หรือไม่?",
+  "DescTW": "經過一番激戰，列車的制動裝置已經損壞，列車不停暴走。這樣下去，任務宣告失敗似乎已成定局，甚至可能造成更大的危險……難道已經沒有任何辦法了嗎？",
+  "DialogJP": [
+    {
+      "Text": "第9話;活路を開く一手"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "アオバ、どうする？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ええっ！？わ、私に聞かれましても……。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ヒカリたちは運転専門ー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "か、肝心な時に使えな――"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "じゃなくて……！わ、私だってこの状況じゃ……！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ひ、非常ブレーキなら……こっちもダメ……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "さ、さっきの戦闘で壊れた……？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "つんだー？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "このままだとノンストップ激走コースかな？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "終点まで突っ走っちゃったら――もう届けるどころじゃないかも？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "結局任務は大失敗ってわけ！パヒャヒャッ！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ぜんいん、懲戒処分ー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "う、上から言われた通りに仕事しに来て……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "や、やっとの思いでここまで来たのに……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "うう……最初から引き受けるんじゃなかった！\n幹部連中と関わって良かったことなんて一度もなかったじゃないですか！？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "過去の自分をぶん殴ってやりたいですけどっ！！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ちょ、ちょっとでも期待したら……やっぱり裏切られるんだ……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "でも、でも……ここまで来てこんなの……あんまりですけど……。"
+    },
+    {
+      "Text": "[ns1] \"落ち着いて解決策を探そう。\""
+    },
+    {
+      "Text": "[ns2] \"まだ助かる方法があるかもしれない。\""
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "せんせー、ビルにクモの糸発射したらとまるかなー？"
+    },
+    {
+      "Text": "[s] \"それでは止まらないかな……。\""
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "じゃあー、線路に降りて全身で止めてみるとかー？"
+    },
+    {
+      "Text": "[s] \"それも、できないかなぁ……。\""
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "万策尽きたー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ほ、他に……他にできることは……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "な、何か使えそうなものは持ってませんか？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "私、チョコバーあるよ。あとで食べようと思ってたやつ。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ま、真面目に考えて欲しいんですけど……！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "か、貨物……は論外だし……手持ちの工具と……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "銃と銃弾は……使ったところでどうにも……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、あとは……あとは…さっき誰かが落としていった爆弾も――"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "い、いや、まさか……いける？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "爆弾！"
+    },
+    {
+      "Text": "[s] \"いいアイデアが浮かんだみたいだね。\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、あるかもしれません……助かる方法……！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "おぉー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "なになに？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ぶ、ブレーキは、摩擦で速度を落とす仕組みです。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "つ、つまり別の方法で、摩擦さえ大きくしてやればいいんです。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "できるのー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、あるんですよ。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "こ、この状況からでもやれる方法が……！"
+    },
+    {
+      "Text": "しばらくして……"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "駅見えたよー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "じゅ、準備はいいですか……！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "いつでも！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "スタンバイー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "も、もしこれでもダメだったら……。"
+    },
+    {
+      "Text": "[ns3] \"ふ、不安ではあるけど、私はアオバを信じるよ！\""
+    },
+    {
+      "Text": "[ns4] \"これしかないんだよね！？\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "は、はい……！余計なことは……無視！"
+    },
+    {
+      "Name": "駅員",
+      "Text": "そろそろ着く時間だけど――"
+    },
+    {
+      "Name": "駅員",
+      "Text": "あれかな？"
+    },
+    {
+      "Name": "駅員",
+      "Text": "……。"
+    },
+    {
+      "Name": "駅員",
+      "Text": "え……ちょっとスピード出し過ぎじゃない……？"
+    },
+    {
+      "Name": "駅員",
+      "Text": "これ、止まれる……？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "予測地点、つうかー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "合図して！！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "3……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "2……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "……1。"
+    },
+    {
+      "Text": "少し前のこと――"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "こ、この爆弾を使うんです。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "どこにー？"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "……れ、列車の車輪を爆破します。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "車輪がなくなると、摩擦力が上がるんです……当たり前のこと、ですけど……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ん……つまり？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "摩擦係数ーオーバードライブー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "そ、その通りです……！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "こ、これなら確実に停車[ruby=・]は[/ruby]できます……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "も、もちろん列車も線路も大変なことにはなりますけど……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "で、でも、もうこれしか――！！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ、すっごいハチャメチャだけど――"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "いいよ！乗った！！"
+    },
+    {
+      "Text": "[ns] \"みんなのことを信じるよ！？\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "い、今できる最善ですから……。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "列車は修理すればいいし、線路もまた敷けばいいからさ！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "プライオリティー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "今ですっ！！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "う、うわああーっ！！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "先生ー掴まってー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ！！順調にスピード落ちてるよ！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "こ、このまま……このまま……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "だ、大丈夫……止まって……止まって……！"
+    },
+    {
+      "Text": "[ns] \"うわああっ……！！\""
+    },
+    {
+      "Text": "[log]駅まで100M[/log]"
+    },
+    {
+      "Text": "[log]50M[/log]"
+    },
+    {
+      "Text": "[log]30M[/log]"
+    },
+    {
+      "Text": "[log]15M[/log]"
+    },
+    {
+      "Text": "[log]5M[/log]"
+    },
+    {
+      "Text": "[log]ハイランダー貨物列車停止位置まで0M[/log]"
+    },
+    {
+      "Text": "[log]停車成功[/log]"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "と、止まった……？\nやった……やりましたよ……！！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "任務完了ー。"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ！なんとかなったね！！"
+    },
+    {
+      "Text": "[ns] \"みんな……怪我はない？\""
+    },
+    {
+      "Name": "アオバ",
+      "Text": "は、はい……大丈夫です……！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "問題なーし！"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ヒカリ、先生守ったよー？褒めて褒めてー。"
+    },
+    {
+      "Name": "駅員",
+      "Text": "えー、これどうしよう……。"
+    },
+    {
+      "Name": "駅員",
+      "Text": "えっと、皆さん大丈夫ですか……？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "パヒャヒャッ、もちろん！定時運行！安全輸送！完璧っしょ？"
+    },
+    {
+      "Name": "駅員",
+      "Text": "安全……完璧……？"
+    },
+    {
+      "Name": "駅員",
+      "Text": "酷い有様ですが……。"
+    },
+    {
+      "Name": "駅員",
+      "Text": "ま、まあ……到着は到着ですね……はは……。"
+    },
+    {
+      "Name": "駅員",
+      "Text": "とりあえず、手続きに必要な書類を持ってきますので、少々お待ちください。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "こ、これで依頼人のサインをもらえば、すべて終わりですよね……？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "だいせーこー。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "あ、後始末のことも考えて欲しいんですけど……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "はぁ、やだなぁ……怒られるのかなぁ……どうして私の人生はこう……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ハハハッ！お勤めご苦労！！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ん？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "待ち伏せした甲斐があったぜ。"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "流石はハイランダー。時間ぴったりだったな！"
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "てかさっきの何だったんだ？"
+    },
+    {
+      "Name": "暴走族B",
+      "Text": "あれがハイランダー式なのか……？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "静かに！\nおい、お前ら。うちらのこと、まだ忘れてないよな？"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ヒカリたちのファンー？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "んなわけねぇだろ！\nうちらはキヴォトス・トランスポーター連盟……略して、ブロロロ疾走連合だ！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "ど、どう略せばそうなるんですか……？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "キヴォトスの配送業を掌握し……いずれは流通のトップに立つ組織だ！"
+    },
+    {
+      "Name": "暴走族",
+      "Text": "くぅ～っ！でっけぇ野望！滾るぜ！"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "で、それがなんだって言うのさ？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "よくもうちらの仕事を横取りしやがったな！"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "お前らのせいで予定が台無しになっちまったんだよ！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "よ、横取り……？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "その列車の積荷は、元々うちらが運ぶはずだったんだ。"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "なのにお前らが横取りしたせいで……！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "べ、別にそんなことしてないんですけど……。"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "わ、私たちは言われた仕事をしただけですし……。"
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "あぁ？ナメてんのか！？"
+    },
+    {
+      "Name": "ノゾミ",
+      "Text": "ピザすらまともに運べないのが悪いんじゃん？"
+    },
+    {
+      "Name": "暴走族",
+      "Text": "う、うるせぇ！いいから、その積荷を置いて、お前らはとっとと帰りな！"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "配送業に身を置く同志として……ここまで運んだ技術は認めよう。"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "だが、最後に届けるのは――うちら「ブロロロ疾走連合」だぜ！！"
+    },
+    {
+      "Name": "アオバ",
+      "Text": "し、支離滅裂なことばっかり……。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "秘密の先生パワー見せてー。"
+    },
+    {
+      "Name": "ヒカリ",
+      "Text": "ここ押せば変身するのー？えいっ、えいっー。"
+    },
+    {
+      "Text": "[s5] \"そんな能力があれば嬉しいけど……。\""
+    },
+    {
+      "Text": "[s6] \"わっ！ヒカリ！くすぐったいよ……！\""
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "おい……馬鹿にしてんのか！？"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "積み上げた努力が、目の前で水の泡になる気持ち――"
+    },
+    {
+      "Name": "暴走族ボス",
+      "Text": "お前らにも味わわせてやる！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;브레이크? 그게 뭔가요"
+    },
+    {
+      "Name": "노조미",
+      "Text": "아오바, 뭔가 방법 없어?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "예, 예?! 저한테 물으셔도……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "엔지니어잖아- 우리는 운행만 할 줄 알고 기계는 잘 몰라-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "주, 중요할 때 쓸모 없……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아앗, 이게 아니라……! 그치만 저도 이런 상황에서는 딱히……!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "제동 레버가 지금 완전히 망가졌다구요…… 비상 장치까지 먹통이에요."
+    },
+    {
+      "Name": "아오바",
+      "Text": "아마 아까 전투 때문에 민감한 부분이 파괴된 것 같은데…… 하아……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "안- 돼-?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "이대로라면, 멈추지 않고 계속해서 질주하겠지……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "화물 배송이고 뭐고, 한참 먼 종점까지 가버릴 테고."
+    },
+    {
+      "Name": "노조미",
+      "Text": "그러면 임무 완전 실패!! 고생한 보람도 없이 망하는 거지! 파햐햐!!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "전원- 징계 확정-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그, 그 생고생을 하면서 여기까지 왔는데……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "결말이 이럴 줄 알았으면 무슨 짓을 해서라도 이 임무 안 맡았을 텐데……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "으으……!! 간부님들이랑 엮여서 좋을 일이 없는데도!! 멍청한 나! 과거의 나!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "과거로 돌아간다면 몽키스패너로 내 머리를 때려서라도 못 가게 할 텐데!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "왜, 왠지 일이 좀 해결되나 했더니만, 역시 기대하면 안 됐던 거예요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그래도 그렇지…… 이렇게 마지막까지 와서 이러는 게 어딨어……"
+    },
+    {
+      "Text": "[ns1] \"진정하고, 해결 방법을 찾아보자.\""
+    },
+    {
+      "Text": "[ns2] \"아직 우리가 생각해 내지 못한 게 있을 거야.\""
+    },
+    {
+      "Name": "히카리",
+      "Text": "선생님- 주변 건물에 거미줄을 쏴서 강제로 멈추면-"
+    },
+    {
+      "Text": "[s] \"미안하지만 그런 거 안 나오거든……\""
+    },
+    {
+      "Name": "히카리",
+      "Text": "그럼- 철로 아래로 내려가서 몸으로 멈추는 건-?"
+    },
+    {
+      "Text": "[s] \"나를 초인으로 봐주는 건 고맙지만, 물리적으로 힘들어……\""
+    },
+    {
+      "Name": "히카리",
+      "Text": "우우…… 선생님 가냘파…… 지켜줘야 해……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "그래요…… 어떻게든 방법을 찾아봐야지……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "지금 우리가 뭘 갖고 있는지부터 파악해 보죠."
+    },
+    {
+      "Name": "노조미",
+      "Text": "나 초코바 하나 있어. 아껴 먹으려고 했는데."
+    },
+    {
+      "Name": "아오바",
+      "Text": "필요 없으니까 넣어둬요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "일단 건드릴 수도 없는 화물이랑 공구 몇 가지……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "쓸모도 없는 총…… 실탄……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "아까 전투에서 굴러들어 온 폭탄들……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "……??"
+    },
+    {
+      "Name": "아오바",
+      "Text": "어? 폭탄?"
+    },
+    {
+      "Text": "[s] \"뭔가 좋은 생각이라도 난 거야?\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "바, 방법이 있을 것 같아요……!!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "믿고 있었다구-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "뭔데? 뭔데??"
+    },
+    {
+      "Name": "아오바",
+      "Text": "예나 지금이나 열차를 제동하는 방법은 하, 항상 같았어요."
+    },
+    {
+      "Name": "아오바",
+      "Text": "마찰력……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "그래서-?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "하, 하나 있어요."
+    },
+    {
+      "Name": "아오바",
+      "Text": "그 마찰을, 강제적으로 크게 발생시킬 방법이."
+    },
+    {
+      "Text": "(잠시 후……)"
+    },
+    {
+      "Name": "히카리",
+      "Text": "보여- 도착 지점-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "주, 준비 되셨나요……!!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "준비 완료~!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "스탠바이-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "서, 성공할까…… 성공해야 하는데……"
+    },
+    {
+      "Text": "[ns3] \"솔직히 이래도 되나 싶긴 한데……!\""
+    },
+    {
+      "Text": "[ns4] \"그래도 이 방법뿐인 거지?!\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "네, 네에!! 지금으로서는요!!"
+    },
+    {
+      "Name": "역무원",
+      "Text": "이제 곧 화물 열차가 도착할 시간인데……"
+    },
+    {
+      "Name": "역무원",
+      "Text": "아, 저건가?"
+    },
+    {
+      "Name": "역무원",
+      "Text": "……"
+    },
+    {
+      "Name": "역무원",
+      "Text": "……어…… 왜 저렇게 빠르지……?"
+    },
+    {
+      "Name": "역무원",
+      "Text": "저, 저대로 가다간……?? 어어??"
+    },
+    {
+      "Name": "히카리",
+      "Text": "위험 구간 진입-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "신호해 줘!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "3."
+    },
+    {
+      "Name": "아오바",
+      "Text": "2."
+    },
+    {
+      "Name": "아오바",
+      "Text": "1……."
+    },
+    {
+      "Text": "얼마 전……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "각종 세력들이 떨어뜨리고 간 폭탄. 이, 이걸 활용하는 거예요."
+    },
+    {
+      "Name": "히카리",
+      "Text": "어떻게-?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "……열차의 바퀴를 폭파하죠."
+    },
+    {
+      "Name": "아오바",
+      "Text": "바퀴가 없어지면, 자연스럽게 마찰력도 올라가요. 당연하겠지만……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "어……? 그렇게 되면……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "마찰 계수 오버드라이브-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "네, 네에. 바로 그거예요……!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "어차피 지금 선택할 수 있는 수단도 딱히 없고, 그 방법이면 화, 확실히 멈추긴 멈출 거예요."
+    },
+    {
+      "Name": "아오바",
+      "Text": "열차는 엉망이 되고…… 선로도 갈려 나갈 테고…… 원상복구에 비용 꽤나 들겠지만……!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "지, 지금은 그 방법뿐이에요……!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "진짜 미친 소리 같네."
+    },
+    {
+      "Name": "노조미",
+      "Text": "좋아! 해보자고!!"
+    },
+    {
+      "Text": "[ns] \"그, 그래도 되는 걸까!!\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "지, 지금 할 수 있는 최선이에요……!!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "열차는 수리하면 돼! 선로도 다시 깔면 되지!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "살면서 때로는- 위험을 감수해야 할 필요도 있는 법-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "지금이에요!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "우, 우와앗-!!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "선생님- 히카리 꽉 잡아-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐!! 서서히 속도가 줄고 있어!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "이, 이대로…… 이대로……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "괘, 괜찮아! 멈춰라……!!"
+    },
+    {
+      "Text": "[ns] \"으아아……!!\""
+    },
+    {
+      "Text": "[log]도착지까지 100M[/log]"
+    },
+    {
+      "Text": "[log]도착지까지 50M[/log]"
+    },
+    {
+      "Text": "[log]도착지까지 30M[/log]"
+    },
+    {
+      "Text": "[log]도착지까지 15M[/log]"
+    },
+    {
+      "Text": "[log]도착지까지 5M[/log]"
+    },
+    {
+      "Text": "[log]하이랜더 화물 열차\n도착지까지 0M[/log]"
+    },
+    {
+      "Text": "[log]제동 성공[/log]"
+    },
+    {
+      "Name": "아오바",
+      "Text": "해, 해냈다…… 해냈어요……!!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "미션- 어컴플리쉬드-"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐! 어떻게든 됐네!!"
+    },
+    {
+      "Text": "[ns] \"다들…… 괜찮아?\""
+    },
+    {
+      "Name": "아오바",
+      "Text": "네에…… 다행히요……"
+    },
+    {
+      "Name": "노조미",
+      "Text": "완~전! 아주 멀쩡해!"
+    },
+    {
+      "Name": "히카리",
+      "Text": "히카리, 선생님 지켰어- 칭찬 칭찬해-"
+    },
+    {
+      "Name": "역무원",
+      "Text": "이, 이거 어떡하지……"
+    },
+    {
+      "Name": "역무원",
+      "Text": "저기, 모두 괜찮으신가요……?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "파햐햐, 정시 도착! 안전 배송! 완벽하지!"
+    },
+    {
+      "Name": "역무원",
+      "Text": "안전 배송……?"
+    },
+    {
+      "Name": "역무원",
+      "Text": "……열차는 부서지고…… 선로도 엉망진창이지만……"
+    },
+    {
+      "Name": "역무원",
+      "Text": "예에…… 도착은 했네요…… 하하……"
+    },
+    {
+      "Name": "역무원",
+      "Text": "어, 어쨌든 화물 인계 증명서를 가져올 테니 잠시만 기다려주세요."
+    },
+    {
+      "Name": "아오바",
+      "Text": "그, 그것만 하면 우리 일은 끝나는 거죠……?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "응- 완전 대성공-"
+    },
+    {
+      "Name": "아오바",
+      "Text": "대, 대성공은 무슨…… 이렇게 사고를 쳤는데 수습 생각은 안 하시나요……"
+    },
+    {
+      "Name": "아오바",
+      "Text": "하아, 돌아가서 얼마나 깨질지 벌써 걱정되네요. 인생은 왜 항상 이런 걸까……"
+    },
+    {
+      "Name": "???",
+      "Text": "크핫핫! 근무하시느라 고생 많으십니다!!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "뭐야?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "도착지에서 기다리고 있으면 때맞춰 올 줄 알았지."
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "너희 하이랜더 녀석들은 시간 맞추기를 좋아하니까 말야!"
+    },
+    {
+      "Name": "폭주족 A",
+      "Text": "엄청 쌈빡하게 들어오던데!!"
+    },
+    {
+      "Name": "폭주족 B",
+      "Text": "그러게! 살짝 무서울 정도였어~"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "조용! 어쨌든 우리를 잊었다고는 못 하겠지?"
+    },
+    {
+      "Name": "히카리",
+      "Text": "우리 팬- 맞지-?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "누가 팬이라는 거야?! 우리는 전국 트랜스포터 연맹, 줄여서 부릉부릉질주연합이다!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "뭐, 뭘 어떻게 줄여야 그런 이름이 되는 건가요……?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "키보토스의 배달, 배송 업계를 꽉 움켜쥐고 유통계의 거물이 될 예정이시다 이거야!"
+    },
+    {
+      "Name": "폭주족",
+      "Text": "크으, 이 원대한 야망! 소속감이 솟아오르는구나!"
+    },
+    {
+      "Name": "노조미",
+      "Text": "그게 뭐 어떻다는 거야? 응원해달라고?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "아니! 그 첫걸음부터 꼬였다고!"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "바로 네 녀석들 때문에! 너희들이 운송한 그 화물!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "무, 무슨 소리예요?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "그건 원래 우리 일감이었으니까!"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "하지만 난폭 운전이 걱정된다면서 너희 하이랜더에게 넘어가 버렸지!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "다, 당연한 거 아니에요……?"
+    },
+    {
+      "Name": "아오바",
+      "Text": "누가 귀중품 운송을 폭주족 라이더한테 맡기고 싶어 하겠어요……!"
+    },
+    {
+      "Name": "폭주족 A",
+      "Text": "뭐어? 우리를 우습게 보는 거야?"
+    },
+    {
+      "Name": "노조미",
+      "Text": "피자도 엉망진창으로 배달해 놓고 말야. 화물이든 뭐든 신뢰가 가겠냐구~"
+    },
+    {
+      "Name": "폭주족",
+      "Text": "에잇! 시끄러워! 어쨌든 저 화물은 우리가 가져간다!!"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "그리고 의뢰인에게 부릉부릉질주연합의 이름으로 운송 완료 사인을 받아낸다면……!"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "그 화물의 최종 운송자는 바로 우리가 되는 것이다!!"
+    },
+    {
+      "Name": "아오바",
+      "Text": "저게 대체 뭔 소리예요…… 무슨 억지를 부리고 있는 건지, 정말……"
+    },
+    {
+      "Name": "히카리",
+      "Text": "선생님- 숨겨둔 힘 보여줘-"
+    },
+    {
+      "Name": "히카리",
+      "Text": "여길 누르면 변신한다거나-? 이쪽을 누르면 데빌 파워 같은 거 나올지도-"
+    },
+    {
+      "Text": "[s5] \"그런 게 가능했다면 멋졌겠지만……\""
+    },
+    {
+      "Text": "[s6] \"간지러워……!\""
+    },
+    {
+      "Name": "폭주족 A",
+      "Text": "아앙? 이 상황에서 여유를 부리는 거냐?"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "쌓아온 노력이 눈앞에서 물거품이 되는 기분-"
+    },
+    {
+      "Name": "폭주족 두목",
+      "Text": "너희들도 맛보게 해주지!!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;Brake Down"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Aoba, what do we do?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wh-Why are you asking me?!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "You're an engineer! We can DRIVE this thing, but we don't know the mechanics."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Great, I'm useless at my only job..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I mean... I didn't mean that, but...!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "The brake lever is in pieces. The emergency brake isn't responding at all."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Must have been all the explosions. *sigh*"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "So can we NOT fix this?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "If we can't slow down, like, NOW..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "...we're gonna blow past the delivery station and go straight to the last stop."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Mission failed, game over! Pahyahya!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Punishment for all!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "After everything we've been through..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "If I'd known this was going to happen, I'd have found an excuse to stay home."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Ugh! Stupid me from the past! You KNEW you shouldn't get mixed up with officers!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I want to go back in time and smack myself in the head with a monkey wrench!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "And you know, just when I had a TINY little bit of hope..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "...here we are, tripping at the finish line."
+    },
+    {
+      "Text": "[ns1] \"Let's take a breath and analyze the situation.\""
+    },
+    {
+      "Text": "[ns2] \"There must be something we haven't thought of yet.\""
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Ooh, Sensei. You could shoot webs at the buildings, then jump out in front..."
+    },
+    {
+      "Text": "[s] \"I don't shoot webs, though.\""
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Okay, what if you just, like, jump out in front, plant your feet, and then push on the train until it stops?"
+    },
+    {
+      "Text": "[s] \"I'm glad you see me that way, but no, I can't do that either.\""
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Aw, you're mortal, Sensei? I'm gonna protect you, then."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Let's...think of something else."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "What do we have to work with?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "I've got a chocolate bar. I was going to save it, but..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Just... Just keep that."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "There's cargo, which we can't touch, we've got a few tools..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Guns and ammo...not much help in this situation..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Bombs from the battle..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Hmm..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Bombs, huh?"
+    },
+    {
+      "Text": "[s] \"Thought of something?\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I think there might be a way...!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Good, 'cause I've got nothin'."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "What is it? What's the way?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Well, every method of stopping a train works on the same principle."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Friction."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "So?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "So that gives us one way."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "To forcefully cause a LOT of friction."
+    },
+    {
+      "Text": "A bit later..."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "There it is. There's the station."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "A-Are you ready?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "I'm ready!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Stand by."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "This better work... It HAS to work..."
+    },
+    {
+      "Text": "[ns3] \"Honestly, I'm having second thoughts...\""
+    },
+    {
+      "Text": "[ns4] \"This is the only way, right?!\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Right! Get ready!"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "The freight train should be here soon..."
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "Ah, is that it?"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "..."
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "...Um, why's it coming in so fast?"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "I don't think it's even gonna... Huh?!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Danger. Danger."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Give us the signal!!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "3."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "2."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "1..."
+    },
+    {
+      "Text": "Earlier..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Okay. We have enough explosives to pull this off."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Pull what off?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "...We're going to blow up the train's wheels."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Without the wheels, there'll be a LOT of friction. I mean, obviously."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "And...when that happens..."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Friction coefficient overdrive..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Y-Yes! That's exactly what I was going to say."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "There's no alternative, and this WILL stop the train."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "It'll also ruin the train, and damage the tracks, and I don't want to know how expensive it's gonna be to fix."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "But again, no alternative!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "That does sound crazy..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Okay! Let's do it!"
+    },
+    {
+      "Text": "[ns] \"A-Are we sure about this?!\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "It's the best we've got!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "We can fix the train! We can lay the tracks again!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Sometimes, you have to go all in!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Now!!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wh-Whoooa!!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Sensei, holdy-holdy!!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahya!! We're slowing down!!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Just like that, just like that..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "...Okay. Okay, just stop now..."
+    },
+    {
+      "Text": "[ns] \"Ahh...!!\""
+    },
+    {
+      "Text": "[log]100 meters to destination.[/log]"
+    },
+    {
+      "Text": "[log]50 meters to destination[/log]"
+    },
+    {
+      "Text": "[log]30 meters to destination[/log]"
+    },
+    {
+      "Text": "[log]15 meters to destination[/log]"
+    },
+    {
+      "Text": "[log]5 meters to destination[/log]"
+    },
+    {
+      "Text": "[log]Highlander Freight Train\n0 meters to destination[/log]"
+    },
+    {
+      "Text": "[log]Arrived[/log]"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "W-We did it... WE DID IT!!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Game not over!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahya! It worked! Somehow!!"
+    },
+    {
+      "Text": "[ns] \"Is...everyone all right?\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Yes...amazingly..."
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Full health!"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Hikari kept you safe, Sensei! Say thanky-thanky!"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "Wh-What do we even DO when this happens?"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "Um, is everyone okay over there...?"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Pahyahya! Safe delivery, on time, every time!"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "SAFE?"
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "You wrecked the train, and the tracks, but..."
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "...well, I guess the cargo made it. Haha..."
+    },
+    {
+      "Name": "Station Employee",
+      "Text": "I'll, uh, go get the delivery papers. Just...hang out here for a sec."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "So...we're done, right?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Yuppies. We're good."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I wouldn't call that \"good.\" We haven't even started THINKING about the cleanup..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "*sigh* I am in for such an earful when I get back. Why is life always like this...?"
+    },
+    {
+      "Name": "???",
+      "Text": "Kuhaha! Thank you so VERY much for all that hard work!!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "Who are you?"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "We knew you'd get here. Right on time."
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "Highlanders are nothing if not punctual, hmm?"
+    },
+    {
+      "Name": "Biker Gang Member A",
+      "Text": "You came in real hot!"
+    },
+    {
+      "Name": "Biker Gang Member B",
+      "Text": "Yeah! It was kind of scary!"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "Quiet! As I was saying, surely you haven't forgotten about us already."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Right, you're our fans."
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "Why would you call us—?! ...WE are the National Transporter Association, Vroom Vroom Race Association for short!!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "\"F-For SHORT?!\""
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "This job will put us on the map. ALL across the map, throughout Kivotos!"
+    },
+    {
+      "Name": "Biker Gang Member",
+      "Text": "Wow, I love your ambition!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "So what about it? You want us to cheer for you?"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "No, I want you to understand what you've done!"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "Because of YOU, and that precious cargo of \"yours\"..."
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Wh-What are you talking about?"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "That was our job!"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "But it went to you Highlanders, because the client was \"concerned.\" About our \"bad driving.\""
+    },
+    {
+      "Name": "Aoba",
+      "Text": "I-I mean...yes?"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "Who would trust their valuables to a biker gang?"
+    },
+    {
+      "Name": "Biker Gang Member A",
+      "Text": "Hey, what's that supposed to mean?!"
+    },
+    {
+      "Name": "Nozomi",
+      "Text": "You guys couldn't even deliver pizza. Who's gonna trust you with cargo?"
+    },
+    {
+      "Name": "Biker Gang Member",
+      "Text": "Shut up and hand it over already!"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "Once the client signs off on OUR delivery slip..."
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "...we'll officially have done the job!"
+    },
+    {
+      "Name": "Aoba",
+      "Text": "What are you even talking about...? What sense does that even make?"
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Sensei, time to bust out your hidden powers."
+    },
+    {
+      "Name": "Hikari",
+      "Text": "Maybe you transform if I press here? Or, ooh, if I push over here, does that unleash your devil power?"
+    },
+    {
+      "Text": "[s5] \"That WOULD be cool...\""
+    },
+    {
+      "Text": "[s6] \"That tickles...!\""
+    },
+    {
+      "Name": "Biker Gang Member A",
+      "Text": "What are you, joking? Now?"
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "I'll show how it feels..."
+    },
+    {
+      "Name": "Biker Gang Boss",
+      "Text": "...to see all your effort go to waste!!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;เบรกคืออะไรเหรอคะ?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อาโอบะ ไม่มีวิธีอะไรเลยเหรอ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "คะ... คะ?! แล้วฉันจะไปรู้ได้ไง..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ก็เธอเป็นวิศวกรนี่นา พวกเราน่ะทำได้แค่ขับรถไฟ ไม่ค่อยรู้เรื่องเครื่องจักรมากหรอก"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ทีถึงตอนสำคัญละไม่มีประโยชน์..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "อ๊ะ ไม่ใช่แบบนั้นค่ะ...! แต่ฉันก็ไม่เคยเจอสถานการณ์นี้มาก่อน...!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตอนนี้คันเบรกเสียหายหมดเลยค่ะ... อุปกรณ์ฉุกเฉินก็เสียไปด้วย"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มันน่าจะเสียหายจากการต่อสู้เมื่อกี้น่ะค่ะ... เฮ้อ..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เสียหมดเลยเหรอ?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ถ้าเป็นแบบนี้ต่อไป รถไฟของเราก็วิ่งแบบไม่หยุดเลยน่ะสิ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "แล้วสถานีสุดท้ายก็อยู่ไกลจากจุดที่ต้องส่งของมากด้วย"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ถ้างั้นภารกิจก็ล้มเหลวน่ะสิ!! ความพยายามทั้งหมดที่ผ่านมาไม่มีค่าเลย! วะฮะฮ่า!!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โดน พัก งาน แน่"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "อะ... อุตส่าห์เผชิญความยากลำบากมาถึงตรงนี้แล้ว..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถ้ารู้ว่าจะลงเอยแบบนี้ ฉันคงทำทุกอย่างเพื่อให้ตัวเองไม่ต้องรับภารกิจนี้แล้วค่ะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "อึกก...!! รู้ทั้งรู้ว่ามาเกี่ยวข้องกับท่านผู้บริหารไปก็ไม่มีอะไรดี!! ยัยซื่อบื้อเอ๊ย!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถ้าย้อนเวลากลับไปได้ ฉันคงเอาประแจเคาะหัวตัวเองให้ไม่ต้องมาทำงานนี้!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "คะ... คิดว่าเรื่องคลี่คลายได้บ้างแล้วเสียอีก สุดท้ายฉันก็ไม่ควรคาดหวังอะไรสินะคะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "แต่ถึงยังไง... เราก็พยายามกันมาถึงตรงนี้แล้ว..."
+    },
+    {
+      "Text": "[ns1] \"ทำใจร่มๆ แล้วมาหาทางออกกันเถอะ\""
+    },
+    {
+      "Text": "[ns2] \"อาจมีวิธีแก้ปัญหาที่เรายังมองไม่เห็นก็ได้\""
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "คุณครู ปล่อยใยแมงมุมไปที่อาคารแถวนี้เพื่อให้รถหยุดมั้ย..."
+    },
+    {
+      "Text": "[s] \"ขอโทษนะ ครูปล่อยใยอะไรแบบนั้นไม่ได้หรอก...\""
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "งั้นลงไปที่รางรถไฟ แล้วเอาตัวขวางหยุดรถไฟไว้มั้ย?"
+    },
+    {
+      "Text": "[s] \"ขอบใจที่เห็นครูเป็นยอดมนุษย์นะ แต่ครูไม่มีพลังแบบนั้นหรอก...\""
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "โอ้ว... ต้องปกป้องคุณครู... ที่แสนบอบบางแล้ว..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ... ยังไงเราก็ต้องคิดหาวิธีให้ได้..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "งั้นมาดูกันก่อนดีกว่าค่ะว่าเรามีอะไรกันอยู่บ้าง"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฉันมีช็อกโกแลตบาร์อันหนึ่ง กะว่าจะกินเมื่อกี้แล้วเชียว"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ของแบบนั้นไม่จำเป็นหรอกค่ะ เก็บไว้เถอะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "เรามีสินค้าที่แตะต้องไม่ได้ แล้วก็เครื่องมือสองสามอย่าง..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ปืนที่ไร้ประโยชน์... ลูกกระสุนจริง..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "แล้วก็ระเบิดที่กลิ้งเข้ามาในรถจากการต่อสู้เมื่อกี้..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "...??"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "หืม? ระเบิดเหรอ?"
+    },
+    {
+      "Text": "[s] \"มีไอเดียอะไรดีๆ เหรอ?\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ฉะ... ฉันว่าน่าจะมีวิธีแล้วค่ะ...!!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ไม่เสียแรงที่เชื่อใจเลย"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "อะไรเหรอ? วิธีอะไร??"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ไม่ว่าจะในอดีตหรือปัจจุบัน การหยุดรถไฟก็ใช้วิธีเดียวกันมาตลอดค่ะ"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "แรงเสียดทาน..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "แล้วยังไงนะ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มะ... มีอยู่วิธีหนึ่งค่ะ"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "วิธีที่จะทำให้เกิดแรงเสียดทานครั้งใหญ่"
+    },
+    {
+      "Text": "(ครู่ต่อมา...)"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เห็นจุดหมายปลายทางแล้ว"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "พะ... พร้อมหรือยังคะ...!!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "พร้อมแล้ว~!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "สแตนด์ บาย"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "จะ... จะสำเร็จหรือเปล่า... ต้องสำเร็จนะ..."
+    },
+    {
+      "Text": "[ns3] \"เราทำแบบนี้กันได้จริงๆ ใช่มั้ย...!\""
+    },
+    {
+      "Text": "[ns4] \"นี่ก็เป็นทางออกเดียวที่มีแล้วใช่มั้ย?!\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ใช่ค่ะ!! อย่างน้อยก็ในตอนนี้ค่ะ!!"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ใกล้ถึงเวลาที่รถไฟบรรทุกสินค้าจะมาถึงแล้วละ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "อ๊ะ... ขบวนนั้นหรือเปล่า?"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "หืม...? ทำไมถึงมาเร็วขนาดนั้นล่ะ...?"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ถะ... ถ้ามาด้วยความเร็วแบบนี้ละก็...?? เดี๋ยวว??"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เข้า เขต อันตราย"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ให้สัญญาณด้วย!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "3"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "2"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "1..."
+    },
+    {
+      "Text": "ก่อนหน้านี้..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ระเบิดที่เด็กเกเรทำตกไว้ตอนโจมตีพวกเรา ระ... เราจะใช้ระเบิดพวกนี้กันค่ะ"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ยังไงเหรอ?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ใช้ระเบิดล้อรถไฟค่ะ..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถ้ารถไฟไม่มีล้อ แรงเสียดทานก็จะเพิ่มขึ้นอย่างเป็นธรรมชาติค่ะ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "หืม...? แล้วถ้าเป็นแบบนั้น..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "แรงเสียดทาน โอเวอร์ไดรฟ์"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ ค่ะ... ใช่เลยค่ะ...!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ยังไงตอนนี้เราก็ไม่มีทางเลือกอื่นแล้ว ฉันว่าการระเบิดล้อรถไฟนี่ละค่ะที่จะทำให้รถไฟหยุดได้"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ต่อให้รถไฟจะเสียหาย... รางรถไฟกระจัดกระจาย... และต้องใช้งบประมาณในการซ่อมแซมมหาศาล\nแค่ไหน...!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตะ... แต่ตอนนี้เราไม่มีวิธีอื่นแล้วค่ะ...!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฟังดูบ้ามากเลยนะ"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฉันเอาด้วย! มาลองดูกันสักตั้ง!!"
+    },
+    {
+      "Text": "[ns] \"บะ... แบบนี้ก็ได้เหรอ?!\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "นะ... นี่เป็นวิธีที่ดีที่สุดในตอนนี้แล้วค่ะ...!!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "รถไฟเอาไว้ซ่อมทีหลังก็ได้! ส่วนรางรถไฟก็วางใหม่ได้เหมือนกัน!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "บางทีชีวิตก็ต้องมีความเสี่ยงแบบนี้ละ การทำงานก็มีความเสี่ยง ผู้บริหารควรศึกษาข้อมูลก่อนตัดสินใจ\nทำงาน"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตอนนี้ละค่ะ!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "วะ... ว้ากก!!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "คุณครู จับฮิคาริไว้นะ"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮ่า!! รถไฟช้าลงเรื่อยๆ แล้ว!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถะ... ถ้าเป็นแบบนี้ต่อไปละก็..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มะ... ไม่เป็นไรน่า! หยุดนะ...!!"
+    },
+    {
+      "Text": "[ns] \"เหวอออ...!!\""
+    },
+    {
+      "Text": "[log]ถึงจุดหมายใน 100 เมตร[/log]"
+    },
+    {
+      "Text": "[log]ถึงจุดหมายใน 50 เมตร[/log]"
+    },
+    {
+      "Text": "[log]ถึงจุดหมายใน 30 เมตร[/log]"
+    },
+    {
+      "Text": "[log]ถึงจุดหมายใน 15 เมตร[/log]"
+    },
+    {
+      "Text": "[log]ถึงจุดหมายใน 5 เมตร[/log]"
+    },
+    {
+      "Text": "[log]รถไฟบรรทุกสินค้าไฮแลนเดอร์\nถึงจุดหมายใน 0 เมตร[/log]"
+    },
+    {
+      "Text": "[log]เบรกได้สำเร็จ[/log]"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ทะ... ทำได้แล้ว... สำเร็จแล้วค่ะ...!!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "มิชชัน คอมพลีต"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮ่า! สำเร็จจนได้นะ!!"
+    },
+    {
+      "Text": "[ns] \"ทุกคน... ปลอดภัยดีใช่มั้ย?\""
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ค่ะ... ฉันไม่เป็นไรค่ะ..."
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ฉัน~ ด้วย~! แค่นี้สบายมาก!"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ฮิคาริปกป้องคุณครูไว้ได้ด้วย ชมเค้าหน่อย ชมๆ"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ทะ... ทำยังไงดีล่ะเนี่ย..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "เอ่อ... ทุกคนเป็นยังไงกันบ้างคะ...?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "วะฮะฮ่า มาถึงทันเวลา! และส่งถึงอย่างปลอดภัย! เพอร์เฟกต์!"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ส่งถึงอย่างปลอดภัย...?"
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "แต่รถไฟเสียหาย... แล้วรางรถไฟก็ระเนระนาดไปหมดเลย..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ค่ะ... แต่ก็มาถึงจนได้นะคะ... แหะๆ..."
+    },
+    {
+      "Name": "เจ้าหน้าที่สถานี",
+      "Text": "ฉะ... ฉันจะไปเอาใบส่งมอบสินค้ามาให้ค่ะ ช่วยรอสักครู่นะคะ"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ถ้าเซ็นชื่อในใบส่งมอบสินค้า ก็ถือว่างานนี้ของเราเสร็จสิ้นแล้วใช่มั้ยคะ...?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "อื้อ แล้วนี่ก็จะเป็นความสำเร็จที่ยิ่งใหญ่เลยละ"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "คะ... ความสำเร็จที่ยิ่งใหญ่อะไรกันคะ... เราสร้างความเสียหายอย่างใหญ่หลวงกันไว้มากกว่า..."
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "เฮ้อ เริ่มกังวลแล้วสิคะว่ากลับไปแล้วจะโดนดุแค่ไหน ทำไมชีวิตถึงมีแต่เรื่องแบบนี้นะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ก๊ากฮ่าฮ่าฮ่า! คงจะเหนื่อยกันน่าดูเลยนะ!!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ใครน่ะ?"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "กะไว้แล้วว่าถ้ามารออยู่ที่นี่ ก็จะได้เจอตรงเวลาส่งของ"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "ก็พวกไฮแลนเดอร์ชอบรักษาเวลานี่เนอะ!"
+    },
+    {
+      "Name": "นักซิ่ง A",
+      "Text": "ไม่เลทแม้แต่นาทีเดียวเลยด้วย!!"
+    },
+    {
+      "Name": "นักซิ่ง B",
+      "Text": "นั่นสินะ! ทำเอาพวกเรากลัวนิดหน่อยเลยละ~"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "เงียบได้แล้ว! เอาเป็นว่าพวกเธอยังไม่ลืมพวกเราใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "เป็นแฟนคลับพวกเราใช่มั้ย?"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "แฟนคลับบ้าบออะไร?! พวกเราคือสหพันธ์นักซิ่งขนส่งแห่งชาติ หรือที่ย่อว่าสหพันธ์วรูม วรูม ต่างหากเล่า!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ยะ... ย่อหลักสูตรไหนถึงได้ชื่อนั้นเหรอคะ...?"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "พวกเราจะเป็นยักษ์ใหญ่ในวงการขนส่งสินค้าและอาหารในคิโวทอสเลย!"
+    },
+    {
+      "Name": "นักซิ่ง",
+      "Text": "อื้อ นี่สินะความทะเยอทะยานที่ยิ่งใหญ่! รู้สึกได้ถึงการเป็นส่วนหนึ่งขององค์กรเลย!"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "แล้วมันยังไงเหรอ? หรือว่าอยากให้พวกเราให้กำลังใจ?"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "ไม่ใช่! กิจการของพวกเรามันติดขัดตั้งแต่เริ่มแล้วต่างหาก!"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "แล้วพวกเธอก็เป็นต้นเหตุทั้งหมด! ทำไมต้องมาแย่งงานกันด้วย!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "มะ... หมายความว่ายังไงคะ!"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "เดิมทีนั่นเป็นงานของพวกเราต่างหาก!"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "แต่ผู้ว่าจ้างก็อ้างว่าพวกเราขับขี่ประมาท ก็เลยเอางานนี้ไปให้พวกไฮแลนเดอร์ทำยังไงล่ะ!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ตะ... แต่มันก็ถูกต้องแล้วไม่ใช่เหรอ...?"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "ใครจะไปอยากฝากให้ไรเดอร์แก๊งซิ่งอย่างพวกคุณขนส่งของมีค่ากันล่ะคะ...!"
+    },
+    {
+      "Name": "นักซิ่ง A",
+      "Text": "ว่าไงนะ? นี่เธอดูถูกพวกเรางั้นเหรอ?"
+    },
+    {
+      "Name": "โนโซมิ",
+      "Text": "ขนาดแค่ส่งพิซซ่า ยังได้พิซซ่าหน้าเละเลย แล้วใครจะไว้ใจให้ส่งสินค้าราคาแพงล่ะ~"
+    },
+    {
+      "Name": "นักซิ่ง",
+      "Text": "หน็อย! เงียบไปเลยนะ! ไม่ว่ายังไงฉันก็จะเอาสินค้าอันนั้นไป!!"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "แล้วถ้าเอาไปส่งให้ผู้ว่าจ้าง แล้วได้ลายเซ็นในนามของสหพันธ์วรูม วรูม มาละก็...!"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "สุดท้ายแล้วผู้ขนส่งสินค้านั้นก็คือพวกเรา!!"
+    },
+    {
+      "Name": "อาโอบะ",
+      "Text": "พูดเรื่องอะไรไร้สาระคะ... แล้วทำไมถึงดื้อด้านแบบนี้ด้วยนะ..."
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "คุณครู แสดงพลังที่ซ่อนไว้เลย"
+    },
+    {
+      "Name": "ฮิคาริ",
+      "Text": "ถ้าจิ้มตรงนี้แล้วจะแปลงร่างมั้ย? หรือถ้าจิ้มตรงนี้แล้วจะมีพลังงานปีศาจออกมาหรือเปล่า?"
+    },
+    {
+      "Text": "[s5] \"ถ้าทำได้อย่างนั้นก็คงจะดีน่ะนะ...\""
+    },
+    {
+      "Text": "[s6] \"จั๊กจี้...!\""
+    },
+    {
+      "Name": "นักซิ่ง A",
+      "Text": "หืม? ยังมาหยอกกันชิลๆ ในสถานการณ์แบบนี้ได้อีกเหรอ?"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "รู้สึกเหมือนความพยายามที่ทุ่มเทไปทั้งหมดสูญเปล่าไปต่อหน้าต่อตาเลย"
+    },
+    {
+      "Name": "หัวหน้าแก๊งนักซิ่ง",
+      "Text": "จะเล่นอย่างนี้ใช่มั้ย!!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;煞車？那是什麼"
+    },
+    {
+      "Name": "希望",
+      "Text": "青葉，沒有什麼辦法嗎？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "咦咦！？\n你問我也……"
+    },
+    {
+      "Name": "光",
+      "Text": "青葉是工程師～我們只會開車，不懂機械～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "在，在關鍵時刻怎麼一點用處都……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "沒，沒什麼……！\n可是我對這種情況也不太……！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "煞車拉桿已經完全壞了……連緊急系統都沒有反應。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "可能是剛才戰鬥的時候，不小心破壞到某個脆弱的部分了……唉……"
+    },
+    {
+      "Name": "光",
+      "Text": "完蛋了～？"
+    },
+    {
+      "Name": "希望",
+      "Text": "再這樣下去，會一路狂奔不止……"
+    },
+    {
+      "Name": "希望",
+      "Text": "別說是配送任務了，甚至連會在哪停下來都不知道。"
+    },
+    {
+      "Name": "希望",
+      "Text": "最終只能宣告徹底失敗！！\n費盡千辛萬苦卻一無所獲！噗哈哈！！"
+    },
+    {
+      "Name": "光",
+      "Text": "全員～確定懲處～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我們那麼辛苦才走到這裡……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "要是早知道結局會是這樣，打死我都不會接下這項任務……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "唔唔……！！跟兩位幹部扯上關係果然沒好事！！\n我真是大白痴！過去的我是大白痴！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "要是能回到過去，我一定要用扳手敲自己的腦袋，阻止我接這項任務！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "才，才以為事情好像終於要結束了……果然還是不能抱任何期待……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "就算撇開這些不談……都走到最後一步了，居然還這樣……"
+    },
+    {
+      "Text": "[ns1]「大家冷靜下來想想辦法吧。」"
+    },
+    {
+      "Text": "[ns2]「一定還有我們沒想到的辦法才對。」"
+    },
+    {
+      "Name": "光",
+      "Text": "老師～對周圍的建築物發射蜘蛛絲，把車子停下來～"
+    },
+    {
+      "Text": "[s]「抱歉，我身上沒有那種東西……」"
+    },
+    {
+      "Name": "光",
+      "Text": "那～下到軌道上用身體擋住～？"
+    },
+    {
+      "Text": "[s]「謝謝你把我當成超人，但那在物理上是不可能的……」"
+    },
+    {
+      "Name": "光",
+      "Text": "嗚嗚……老師好柔弱……保護慾爆發了……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "一定……要想出辦法才行……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "先確認一下我們手上現在有什麼吧。"
+    },
+    {
+      "Name": "希望",
+      "Text": "我有一根巧克力棒。本來想省著吃的。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "不需要那種東西，請收起來……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "目前有的是不能動的貨物、幾樣工具……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "沒用的槍……子彈……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "還有剛才戰鬥中滾進來的炸彈……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "……？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "嗯？炸彈？"
+    },
+    {
+      "Text": "[s]「想到什麼好主意了嗎？」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "可，可能有辦法了……！！"
+    },
+    {
+      "Name": "光",
+      "Text": "就知道你一定行～"
+    },
+    {
+      "Name": "希望",
+      "Text": "什麼什麼？？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "煞車的原理從古至今都，都是一樣的。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "摩擦力……"
+    },
+    {
+      "Name": "光",
+      "Text": "所以咧～？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "有，有一個辦法……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "能夠強制產生摩擦力。"
+    },
+    {
+      "Text": "（不久後……）"
+    },
+    {
+      "Name": "光",
+      "Text": "看到了～目的地～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "準，準備好了嗎……！！"
+    },
+    {
+      "Name": "希望",
+      "Text": "準備完成～！"
+    },
+    {
+      "Name": "光",
+      "Text": "Stand by～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "能，能成功嗎……一定要成功才行……"
+    },
+    {
+      "Text": "[ns3]「老實說，我也有點懷疑這樣到底可不可行……！」"
+    },
+    {
+      "Text": "[ns4]「不過這是現在唯一的辦法了對吧！？」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "沒，沒錯！！目前的情況就是這樣！！"
+    },
+    {
+      "Name": "站務員",
+      "Text": "貨物列車馬上就要到達了……"
+    },
+    {
+      "Name": "站務員",
+      "Text": "啊，是那輛嗎？"
+    },
+    {
+      "Name": "站務員",
+      "Text": "……"
+    },
+    {
+      "Name": "站務員",
+      "Text": "咦……為什麼那麼快……？"
+    },
+    {
+      "Name": "站務員",
+      "Text": "這，這樣下去的話……？\n咦咦？？"
+    },
+    {
+      "Name": "光",
+      "Text": "進入危險區間～"
+    },
+    {
+      "Name": "希望",
+      "Text": "信號交給你了！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "3……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "2……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "1……"
+    },
+    {
+      "Text": "不久前……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "我，我們要使用各方勢力丟下的炸彈。"
+    },
+    {
+      "Name": "光",
+      "Text": "怎麼用～？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "……用炸彈炸毀列車的輪子。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "只要沒了車輪，摩擦力自然會變大。\n雖然這是再理所當然不過的事情就是了……"
+    },
+    {
+      "Name": "希望",
+      "Text": "咦……？\n那樣的話……"
+    },
+    {
+      "Name": "光",
+      "Text": "摩擦係數Overdrive～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "就，就是這樣……！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "反正現在也沒有別的選擇……這，這樣肯定能讓車停下來。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "雖然會變得破破爛爛……鐵軌也會被磨壞……修復起來會花掉不少錢……！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "但，但是只剩這個方法了……！"
+    },
+    {
+      "Name": "希望",
+      "Text": "還真亂來啊。"
+    },
+    {
+      "Name": "希望",
+      "Text": "好！試試看吧！！"
+    },
+    {
+      "Text": "[ns]「那，那樣真的沒問題嗎！？」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "這，這是目前最好的選擇了……！！"
+    },
+    {
+      "Name": "希望",
+      "Text": "列車壞了就修！鐵軌斷了就重鋪！"
+    },
+    {
+      "Name": "光",
+      "Text": "人生難免～需要冒險～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "就是現在！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "嗚，嗚哇啊！！"
+    },
+    {
+      "Name": "光",
+      "Text": "老師～抓緊光～"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈！！速度開始慢下來了！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "就，就這樣……就這樣……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "沒，沒問題的！停下來吧……！！"
+    },
+    {
+      "Text": "[ns]「唔啊啊……！！」"
+    },
+    {
+      "Text": "[log]距離目的地100M[/log]"
+    },
+    {
+      "Text": "[log]距離目的地50M[/log]"
+    },
+    {
+      "Text": "[log]距離目的地30M[/log]"
+    },
+    {
+      "Text": "[log]距離目的地15M[/log]"
+    },
+    {
+      "Text": "[log]距離目的地5M[/log]"
+    },
+    {
+      "Text": "[log]高地人貨物列車\n距離目的地0M[/log]"
+    },
+    {
+      "Text": "[log]煞車成功[/log]"
+    },
+    {
+      "Name": "青葉",
+      "Text": "做，做到了……做到了……！！"
+    },
+    {
+      "Name": "光",
+      "Text": "Mission～Accomplished～"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈！幸好成功了！！"
+    },
+    {
+      "Text": "[ns]「大家……都沒事嗎？」"
+    },
+    {
+      "Name": "青葉",
+      "Text": "嗯……真是萬幸……"
+    },
+    {
+      "Name": "希望",
+      "Text": "完～全！毫髮無傷！"
+    },
+    {
+      "Name": "光",
+      "Text": "光保護了老師～快誇誇我～"
+    },
+    {
+      "Name": "站務員",
+      "Text": "這，這下該怎麼辦……"
+    },
+    {
+      "Name": "站務員",
+      "Text": "那個，大家都還好嗎……？"
+    },
+    {
+      "Name": "希望",
+      "Text": "噗哈哈，準時到達！安全配送！完美對吧！"
+    },
+    {
+      "Name": "站務員",
+      "Text": "安全配送……？"
+    },
+    {
+      "Name": "站務員",
+      "Text": "雖然列車壞了……鐵軌也亂七八糟……"
+    },
+    {
+      "Name": "站務員",
+      "Text": "不過……確實是到達了沒錯……哈哈……"
+    },
+    {
+      "Name": "站務員",
+      "Text": "總，總之我先去拿貨物送達證明書，請稍等一下。"
+    },
+    {
+      "Name": "青葉",
+      "Text": "只，只要拿到那個，我們的工作就完成了對吧……？"
+    },
+    {
+      "Name": "光",
+      "Text": "嗯～大成功～"
+    },
+    {
+      "Name": "青葉",
+      "Text": "說，說什麼大成功……\n搞出這麼大的事故，不想想該怎麼善後嗎……"
+    },
+    {
+      "Name": "青葉",
+      "Text": "唉，我都已經開始擔心回去之後會被罵得多慘了。\n人生為什麼老是這樣……"
+    },
+    {
+      "Name": "???",
+      "Text": "咯哈哈！真是辛苦你們了！！"
+    },
+    {
+      "Name": "希望",
+      "Text": "什麼？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "我就知道只要在目的地守株待兔，你們就會自己送上門來。"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "畢竟高地人這些傢伙最準時了。"
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "進站方式有夠炸裂的啦！！"
+    },
+    {
+      "Name": "暴走族B",
+      "Text": "就是說啊！雖然炸裂到有點可怕就是了～"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "安靜一點！你們應該不可能忘記我們是誰吧？"
+    },
+    {
+      "Name": "光",
+      "Text": "是粉絲～對吧～？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "誰是你們的粉絲啊！\n我們是運輸者聯盟，簡稱轟隆轟隆疾馳聯盟啦！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "完，完全聽不出來簡在哪裡耶……？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "是即將成為服務範圍涵蓋整個奇普托斯的配送業界巨頭！"
+    },
+    {
+      "Name": "暴走族",
+      "Text": "哇，真是遠大的野心！這股歸屬感簡直讓人熱血沸騰！"
+    },
+    {
+      "Name": "希望",
+      "Text": "所以咧？現在是要我們幫你們加油嗎？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "才不是！我們從第一步就失敗了！"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "都是你們這些傢伙，還有你們送來的那些貨物害的！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "什，什麼意思？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "那本來是我們的工作啊！"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "結果卻因為怕我們危險駕駛，轉而找上你們高地人！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "這，這不是很正常嗎……？"
+    },
+    {
+      "Name": "青葉",
+      "Text": "誰會想把貴重物品交給暴走族運送啊……！"
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "啊？瞧不起我們是不是？"
+    },
+    {
+      "Name": "希望",
+      "Text": "連一盒披薩都送能得一塌糊塗，不管要送貨物還是別的東西都不值得信任啦～"
+    },
+    {
+      "Name": "暴走族",
+      "Text": "少，少囉嗦！總之那些貨物我們要了！！"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "只要能以轟隆轟隆疾馳聯盟的名義讓委託人簽收……！"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "完成貨物配送的人就是我們了！！"
+    },
+    {
+      "Name": "青葉",
+      "Text": "這是什麼支離破碎的發言……真是亂七八糟的……"
+    },
+    {
+      "Name": "光",
+      "Text": "老師～展現隱藏的力量～"
+    },
+    {
+      "Name": "光",
+      "Text": "按這裡會變身嗎～？還是按這邊就會爆發惡魔的力量～"
+    },
+    {
+      "Text": "[s5]「如果真的可以就太好了……」"
+    },
+    {
+      "Text": "[s6]「好癢……！」"
+    },
+    {
+      "Name": "暴走族A",
+      "Text": "喂……都這種時候了還能悠悠哉哉的啊？"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "就讓你們也好好感受一下──"
+    },
+    {
+      "Name": "暴走族頭目",
+      "Text": "一路以來的努力在眼前化為泡影的心情吧！！"
+    }
+  ]
+}

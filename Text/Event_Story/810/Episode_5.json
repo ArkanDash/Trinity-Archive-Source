@@ -1,0 +1,512 @@
+{
+  "TitleJP": "セキュリティ対策",
+  "TitleKR": "보안 대책",
+  "TitleEN": "Security Measures",
+  "TitleTH": "มาตรการรักษาความปลอดภัย",
+  "TitleTW": "安全措施",
+  "DescJP": "チヒロは、ヴァルキューレの矯正局に対してセキュリティの概念を訥々と説明する。そうして新しいセキュリティを組み上げたと告げるも、ワカモはその隙に物理的に扉を破壊し脱獄してしまうのだった。",
+  "DescKR": "치히로는 시큐리티의 개념을 설명한다. 한창 설명이 길어지자, 와카모는 그 틈을 타 탈주한다.",
+  "DescEN": "Chihiro explains the core concepts of security. As the explanation gets longer, and longer, and longer... Wakamo takes advantage of the situation and escapes.",
+  "DescTH": "จิฮิโระอธิบายความเห็นถึงการรักษาความปลอดภัย ขณะที่กำลังอธิบายอยู่ วาคาโมะวิ่งหนีไปในช่องว่างนั้น",
+  "DescTW": "千尋在講解安全的概念。若藻在講解過程中趁機逃走了。",
+  "DialogJP": [
+    {
+      "Text": "後日談その2;セキュリティ対策"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "やっぱりセキュリティの核心といえば、アクセス制限だよね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それには、3つの要素を満たさなくちゃいけない。\n機密性と完全性、そして可用性。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "資格がない者を通さないようにする事。\nまぁ要するに、誤ったコードはスルーして、正しいものだけを許可するんだけど。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "似たような概念は、古代から存在したとも言われているね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それと、高い「完全性」を確保するための手段として、\n「暗号化」が挙げられるんだけど――"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "最も多く採用されている暗号化のブロック長は、128ビット、192ビット、256ビットの3つ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "今後は256ビットを基準にして、セキュリティ政策を改善しようと思ってるの。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "この暗号のアルゴリズムは、\n4つの処理で成り立っているんだけど――"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まず、256ビットのメイン暗号キーから、\n各ラウンドで使う複数の128ビットのラウンドキーを生成して――"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "そうしたら次は0ラウンド。\nラウンドキーの1番目を使用して、暗号アルゴリズムを1回実行する。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "そうしたら、4次行列を基盤とした4段階のセキュリティプロトコルを順番に実行して、1から13ラウンドまで計13回繰り返す。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "最後の14ラウンド目に、今までのセキュリティキーを再度順番に実行することで、暗号化を終えるの。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "まぁ、それでも……攻撃側と防御側の戦いは、その多くが攻撃側の勝利で終わると言われているけどね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "科学と技術の発展はセキュリティの領域にまで影響を及ぼし、\n最終的には両者を対等な関係として成り立たせたんだ。"
+    },
+    {
+      "Text": "（チヒロがどんどん自分の世界に入っていった――）"
+    },
+    {
+      "Name": "ヴァルキューレの生徒",
+      "Text": "あの……難しいことは分からないんですが、\nその……それを解除する方法は……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "うーん、入り口を物理的に破壊でもしない限り、不可能じゃないかな？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "相変わらず古い施設ですね……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああでも、セキュリティシステムは改善したのですね。\nドアロックも変わって――ですが、肝心の蝶番はボロボロ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……隙だらけです。\nうふふ、この程度で私を止められると？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "さてと……ドアも開いたことですし、参りましょうか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ♡"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私からは逃げられませんよ……！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "후일담;보안 대책"
+    },
+    {
+      "Name": "치히로",
+      "Text": "시큐리티의 핵심은 결국 접근 제한이지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "크게 보아서, 세 가지 조건을 충족시켜야 해. 기밀성, 무결성, 가용성."
+    },
+    {
+      "Name": "치히로",
+      "Text": "들어갈 자격이 없으면 안 보여주고, 틀린 정보는 취급하지 않으며, 들어갈 자격이 있는 사람이 보내달라고 하면 보내주는 것."
+    },
+    {
+      "Name": "치히로",
+      "Text": "고대 사회에도 이런 개념은 이미 존재했다고 해."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이 중에서 무결성을 검사하는 데에 가장 쉽게 떠올릴 수 있는 것이 암호화인데……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "암호화 블록 크기에 따라서 128, 192, 256비트 세 종류가 표준으로 지정되어 있어."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그중에서 앞으로는 256비트를 기준으로 시큐리티 정책을 개선할 거야."
+    },
+    {
+      "Name": "치히로",
+      "Text": "이 보안 알고리즘은 크게 네 단계로 이루어져."
+    },
+    {
+      "Name": "치히로",
+      "Text": "우선은 256비트 길이인 하나의 주 암호화 키를 받아서, 라운드들에서 사용할 여러 개의 128비트 라운드 키를 생성하지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "다음은 0라운드. 라운드 키 중 첫 번째 키를 사용, 보안 알고리즘을 한 번 실행해."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 1라운드에서 13라운드까지의 과정. 여기에서는 4차 행렬을 기반으로 한 보안 프로토콜 4단계를 순서대로 실행하지. 이걸 13번 반복하게 돼."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 마지막 14번째 라운드…… 지금까지의 보안 키를 순서대로 다시 한번 실행해 암호화를 마치게 되지."
+    },
+    {
+      "Name": "치히로",
+      "Text": "뚫으려는 자와 막으려는 자 사이의 대결은, 대개 뚫으려는 자의 승리로 끝난다고 하지만."
+    },
+    {
+      "Name": "치히로",
+      "Text": "과학과 기술의 발전은 보안의 영역에도 영향을 끼쳤고, 결과적으로 둘을 거의 대등한 관계로 만드는 데까지 성공한 거야."
+    },
+    {
+      "Text": "(점점 아무도 알 수 없는 이야기를 하기 시작한 치히로였다.)"
+    },
+    {
+      "Name": "발키리 학생",
+      "Text": "저기, 저희가 알고 싶은 것은, 그걸 해제하기 위해서는 어떤 일을 어떻게 해야 하는가, 정도입니다만……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "글쎄? 문을 통째로 뜯어내기라도 하지 않는 한 불가능하지 않을까?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "여전히 낡은 시설이로군요……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "나름대로 보안 시스템은 개선된 것 같군요. 전자식 도어록도 새것으로 바꾼 것 같지만, 정작 경첩이 헐거워져 있고……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "후후후…… 어리석군요. 이 정도로 저를 가둘 수 있다고 생각하다니."
+    },
+    {
+      "Name": "와카모",
+      "Text": "자, 문을 통째로 뜯어냈으니, 나가 볼까요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "후후훗……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "제게서 벗어날 수 없답니다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Afterword; Security Measures"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Of course, the central tenet of security is to limit the approach."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But to create a system with wide-ranging success, you must fulfill three conditions: confidentiality, integrity, and availability."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Confidentiality means only those with authorization can use the system. Integrity means the system is kept free of false information. And availability means when an authorized person requests information from the system, they receive it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "It's said that these three concepts were known even in ancient civilizations. Isn't that interesting?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Anyway, the first thing that comes to mind when we say \"integrity\" is encryption."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "There are three standard types of encryption, determined by cryptographic block size:128, 192, and 256-bits."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "To improve our security policy, let's use 256-bit encryption as our standard from now on."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Our security algorithm can be roughly divided into four stages."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "In the first step, we take one 256-bit password key, and create multiple 128-bit round keys to be used in subsequent rounds."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Next, round 0. We use the first round key and run it through the security algorithm once."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The procedure for rounds 1 through 13 is the same. Here, we activate the four-stage security protocols using a four row standard. We repeat this 13 times."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Lastly, round 14... We use all of the security keys one more time to complete the encryption."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "People say that in a fight between someone trying to break into a system and someone trying to stop them, the one trying to break in usually wins."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "But that saying is out of date. With recent advancements in the technology and science of security, we have succeeded in creating nearly equal footing for both sides."
+    },
+    {
+      "Text": "Chihiro kept talking to increasingly glazed expressions."
+    },
+    {
+      "Name": "Valkyrie Student",
+      "Text": "Er... All we wanted to know is how the door could be unlocked... That's it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Hm? Unlocking it is impossible, unless you rip the whole door off its hinges!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Hm... So the facility's still pretty old. How quaint!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "They've updated the system a bit. That electronic door lock is new. But the door's hinges are still loose."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee... How foolish they are, to think they can trap me!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Now that we've ripped the whole door off its hinges, should we get out of here?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "You won't get away this time!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ย้อนวันวาน;มาตรการรักษาความปลอดภัย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "หัวใจหลักของการรักษาความปลอดภัย สุดท้ายแล้วก็คือการจำกัดการเข้าถึงยังไงล่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "หลักๆ แล้วจะต้องมีให้ครบ 3 เงื่อนไขคือ การรักษาความลับ ความสมบูรณ์ และความพร้อมใช้งาน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ถ้าไม่มีคุณสมบัติในการเข้าถึงก็จะไม่แสดงข้อมูล ถ้าเป็นข้อมูลที่ผิดพลาดก็จะไม่นำมาจัดการ แต่ถ้าเป็นคนที่มีคุณสมบัติครบถ้วนร้องขอข้อมูล ก็จะจัดส่งให้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ได้ยินมาว่าความคิดแบบนี้มีมาตั้งแต่ในสมัยก่อนแล้ว"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "และวิธีการเข้ารหัสคือวิธีที่ง่ายที่สุดสำหรับตรวจสอบความสมบูรณ์..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "และจะแบ่งออกเป็น 3 ประเภทคือ 128, 192 และ 256 บิต ตามขนาดของบล็อกรหัส"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "และในอนาคต เราก็จะปรับปรุงนโยบายความปลอดภัยให้กลายเป็น 256 บิต"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อัลกอริทึมของระบบรักษาความปลอดภัยนี้ประกอบด้วย 4 ขั้น"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ขั้นแรก เรานำคีย์เข้ารหัสหลักที่มีขนาด 256 บิตมาและสร้างราวด์คีย์ขนาด 128 บิตหลายๆ อัน"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ต่อไปคือ \"ราวด์ 0\" ใช้ราวด์คีย์อันแรกที่สร้างขึ้นเพื่อลองรันอัลกอริทึมระบบความปลอดภัย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แล้วจากนั้นก็รันระบบตั้งแต่ราวด์ที่ 1 ถึงราวด์ที่ 13 ตอนนี้ก็จะทำการรันโปรโตคอลรักษาความปลอดภัย 4 ขั้นตอนตามควอเทอร์เนรีแมทริกซ์ตามลำดับซ้ำไป 13 รอบ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "และในรอบสุดท้าย ราวด์ 14... ก็จะรันคีย์แต่ละอันอีกครั้งตามลำดับ ก็จะเข้ารหัสเรียบร้อย"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ว่ากันว่าการต่อสู้กันระหว่างผู้ที่พยายามจะเจาะเข้ามาและผู้ที่พยายามขัดขวางจะจบลงด้วยชัยชนะ\nของผู้ที่พยายามเจาะเข้ามา..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ความก้าวหน้าของวิทยาศาสตร์และเทคโนโลยีเองก็ส่งผลต่อขอบเขตงานระบบความปลอดภัยด้วย ซึ่งมันนำไปสู่ผลลัพธ์ที่ทั้งสองฝ่ายสูสีกัน"
+    },
+    {
+      "Text": "(จิฮิโระเริ่มร่ายยาวในเรื่องที่ฟังไม่เข้าใจไปเรื่อยๆ...)"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนวัลคิรี่",
+      "Text": "คือว่า... เรื่องที่พวกเราอยากรู้ก็คือจะต้องทำยังไงถึงจะปลดล็อกรหัสพวกนั้นได้น่ะค่ะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "อืม... ถ้าไม่พังประตูทั้งบานก็คงจะปลดล็อกไม่ได้หรอกมั้ง?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อุปกรณ์ เครื่องมือยังคงดูเก่าเหมือนเดิมไม่เปลี่ยนเลยนะคะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ดูเหมือนระบบรักษาความปลอดภัยจะปรับปรุงขึ้นนิดหน่อยนะคะ ดูเหมือนจะเปลี่ยนประตูล็อกไฟฟ้า\nด้วย แต่ช่วงบานพับจะหลวมไปสักหน่อย..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ... ช่างโง่เขลาจริงๆ นะคะที่คิดว่าของพรรค์นี้จะหยุดฉันได้..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอาละ... ในเมื่อพังประตูเรียบร้อยแล้ว ออกไปเลยดีมั้ยคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "หนีฉันไม่พ้นหรอกนะคะ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "後日談其二;安全措施"
+    },
+    {
+      "Name": "千尋",
+      "Text": "說到安全系統的關鍵，果然還是進入的權限吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "大致上來說，需要滿足三個要件。\n機密性、完整性與可用性。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "讓不具資格的人無法通過。\n簡單來說就是忽略錯誤的密碼，只讓輸入正確密碼的對象得以通過。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "據說類似的概念在古代就已經出現。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "此外，確保高度「完整性」的手段便是「加密化」──"
+    },
+    {
+      "Name": "千尋",
+      "Text": "最常採用的加密區塊長度有128、192、256位元三種。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我認為往後會以256位元為基準改善安全政策。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這個加密演算法需經過四個步驟來成立──"
+    },
+    {
+      "Name": "千尋",
+      "Text": "首先，由256位元的主金鑰，生成各輪中需要使用的數個128位元的回合金鑰──"
+    },
+    {
+      "Name": "千尋",
+      "Text": "接著進入第0輪。\n使用第一個回合金鑰，執行一次加密演算法。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "此時，以四階矩陣為基礎的四階段安全協議會依序執行，\n從第1輪到第13輪為止共執行13次。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "而最後的第14輪，則會再次依序執行目前為止的安全金鑰，完成加密化。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不過，儘管如此……攻擊方與防禦方之間的對決，幾乎都是攻擊方會獲得勝利。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "科學與技術的發展也會影響到安全的領域，\n最終會讓雙方處於對等的關係。"
+    },
+    {
+      "Text": "（千尋漸漸進入了自己的世界──）"
+    },
+    {
+      "Name": "女武神學生",
+      "Text": "那個……那種複雜的事情我不太理解，\n但是……有沒有什麼解除的方法……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "唔嗯，除非以物理方式破壞入口，否則應該不可能吧？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "依然是個老舊的設施呢……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊不過，安全系統好像改善了呢。\n門鎖也換新了──然而，關鍵的絞鍊卻破破爛爛的。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……真是破綻百出。\n唔呵呵，這種程度就想阻止我嗎？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼……門也開了，這就出發吧？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵♡"
+    },
+    {
+      "Name": "若藻",
+      "Text": "別想逃出我的手掌心……！"
+    }
+  ]
+}

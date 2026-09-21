@@ -1,0 +1,3572 @@
+{
+  "TitleJP": "予期せぬ同盟",
+  "TitleKR": "예기치 못한 동맹",
+  "TitleEN": "An Unexpected Alliance",
+  "TitleTH": "พันธมิตรที่ไม่คาดคิด",
+  "TitleTW": "預料之外的同盟",
+  "DescJP": "風紀委員会の行政官アコとの対話は上手く行かず、最終的にやはり敵対することになってしまった対策委員会一同。風紀委員会側の数が増えていく中、一同は便利屋68と協力して何とか立ち向かおうとする。",
+  "DescKR": "선도부의 아코와의 대화는 잘 풀리지 않고, 결국 적대적인 분위기가 흐른다. 대책위원회는 흥신소 일행과 협력하여 압도적인 선도부의 전력에 맞서기로 한다.",
+  "DescEN": "Talks with Ako are unfruitful, leaving the situation as hostile as ever. The Foreclosure Task Force decides to team up with Problem Solver to take on the Prefect Team and their sizable forces.",
+  "DescTH": "การเจรจาของอาโกะไม่เป็นผล ทำให้บรรยากาศระหว่างทั้งสองฝ่าย\nคุกรุ่นขึ้นอีกครั้ง คณะกรรมการแผนงานได้ร่วมมือกับสมาชิกหน่วย\nรับจ้างสารพัดเพื่อรับมือกับกองกำลังของคณะกรรมการวินัย",
+  "DescTW": "由於和風紀委員會的亞子交涉不順利，以至於最後充滿敵對氣息。對策委員會決定與便利屋一行人合作，對抗具有壓倒性戰力的風紀委員會。",
+  "DialogJP": [
+    {
+      "Text": "第1話;予期せぬ同盟"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "許せない……許せない……許せない……許せない……。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "許せな――？"
+    },
+    {
+      "Text": "[s] ハルカと目が合ってしまった。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[ns1] （目を逸らしておこう……）"
+    },
+    {
+      "Text": "[ns2] 見なかったことにする。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "行政官ということは……風紀委員会のナンバー2……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あら、実際はそんな大したものではありません。あくまで風紀委員長を補佐する秘書みたいなものでして……"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "本当にそうなら、そこの風紀委員たちがそんなに緊張するとは思えない。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "だ、誰が緊張してるって！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "なるほど、素晴らしい洞察力です。確か……[ruby=すなおおかみ]砂狼[/ruby]シロコさん、でしたか？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "アビドスに生徒会の面々だけが残ってると聞きましたが、みなさんのことのようですね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "アビドスの生徒会は五名と聞いていましたが、あと一人はどちらに？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "今はおりません。そして私たちは生徒会ではなく対策委員会です、行政官。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "[ruby=おくそら]奥空[/ruby]さん……でしたよね？それでは、生徒会の方はいらっしゃらないということでしょうか？私は、生徒会の方と話がしたいのですが。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "アビドスの生徒会はずっと前に解散したの！事実上私たちが生徒会の代理みたいなものだから、言いたいことがあるなら私らに言いなさい！"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "こんなに包囲して銃を向けられたまま「お話をしましょうか～」なんていうのは、お話の態度としてはどうかと思いますけどね？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ふふ、それもそうですね……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "失礼しました。全員、武器を下ろしてください。"
+    },
+    {
+      "Text": "（スッ）"
+    },
+    {
+      "Text": "（スッ……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "あら……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "本当に武器を下ろした……？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "先ほどまでの愚行は、私の方から謝罪させていただきます。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "なっ、私は命令通りにやったんだけど！？アコちゃん！？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "命令に、「まずは無差別に発砲せよ」なんて言葉が含まれてましたか？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "い、いや……状況を鑑みて必要な範囲で火力支援、その後に歩兵の投入……戦術の基本通りにって……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ましてや他の学園自治区の付近なのだから、きちんとその辺りは注意するのが当然でしょう？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "（……？）"
+    },
+    {
+      "Name": "アコ",
+      "Text": "失礼しました、対策委員会のみなさん。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "私たちゲヘナの風紀委員会はあくまで、私たちの学園の校則違反をした方々を逮捕するために来ました。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あまり望ましくない出来事もありましたが、まだ違法行為とは言いきれないでしょうし……やむを得なかったということでご理解いただけますと幸いです。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "風紀委員会としての活動に、ご協力をお願いできませんか？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先ほども言いましたが……そうはいきません！"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あらっ……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "他の学校が別の学校の敷地内で、堂々と勝手に戦闘行為をするなんて！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "自治権の観点からして、明確な違反です！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "便利屋の処遇は、私たちが決めます！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "まさか、ゲヘナほどの大きな学園がこんな暴挙に出るとは思ってもみませんでしたが、ここは譲れません。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そちらの方々も、同じ考えのようですね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ふぅ、この兵力を前にしても怯まないだなんて……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "これだけ自信に満ちているのは……やはり、信頼できる大人の方がいるからでしょうか？……ねえ、[USERNAME]先生？"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "シャーレの先生。あなたも、対策委員会と同じご意見ですか？"
+    },
+    {
+      "Text": "[s3] \"便利屋は困った子たちかもだけど、悪人じゃないから。\""
+    },
+    {
+      "Text": "[s4] \"アルはちょっと変な子だけど、悪人じゃないから。\""
+    },
+    {
+      "Text": "[s5] \"ちょっとバカかもだけど、バカな子ほど可愛いってね。\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "いやいやいや！悪人に決まってるでしょ！ラーメン屋を爆発させたのよ！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "いやいやいや！悪人に決まってるでしょ！ラーメン屋を爆発させたのよ！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "いやいやいや！悪人に決まってるでしょ！ラーメン屋を爆発させたのよ！？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "多分だけど……あれは、間違って爆破させちゃって、そのまま言い出せずに見栄を張ったんだと思う。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "はあ！？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私たちを狙ってたのなら、誰もいないタイミングで爆破する理由がない。一度やったら警戒されるあんな大掛かりな手段を、あの状況で使う意味も無いはず。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……た、確かに、それはそうね。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "罠を準備している最中に、間違えて爆破させたってこと……？どんだけバカなのよ、あいつらは……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "でも、結果的に柴関ラーメンを攻撃したのは事実。このまま大人しく引き渡すわけにはいかない。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "そうですね、彼女たちの背後にいる方の正体もまだ分かっていませんし。先にお話を聞かせてもらいませんと。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そういうわけで、交渉は決裂です！ゲヘナの風紀委員会、あなた方に退去を要求します！！"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "これは困りましたね……うーん……こうなったら仕方ありません。本当は穏便に済ませたかったのですが……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……ヤるしかなさそうですね？"
+    },
+    {
+      "Text": "（ダダダダダダダッ！ダダダダダダダッ！）"
+    },
+    {
+      "Name": "風紀委員A",
+      "Text": "うわあっ！？"
+    },
+    {
+      "Text": "（ダンッ！ダンッ！ダンッ！）"
+    },
+    {
+      "Name": "風紀委員B",
+      "Text": "ぐあっ！？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "な、なんだ！？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "許せない……！"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "はっ！？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "許せない！許せない！許せない！許せない！許せない！許せない！許せない！許せない！許せない！許せない！許せない！うああああああああああっ！！"
+    },
+    {
+      "Text": "（ダダダダダダダダダダダダンッッ！！）"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "ぐっ！？うぅ……っ！"
+    },
+    {
+      "Text": "（バタッ）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "嘘をつかないで、[ruby=あまう]天雨[/ruby]アコ。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あらっ？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "偶然なんかじゃないでしょ、最初からあんたが狙ってたのはこの状況だった。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "カヨコさん……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ハルカちゃんナ～イス☆"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "す、すみません！助けに来るのが遅くなりました……！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "わ、私のせいで……！計画が全部、全部台無しに……！し、死んでもいいですか？死にますっっ！！！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "うん、確かにハルカちゃんのせいだけど、まあ面白いから死ななくていいんじゃない？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あらっ、包囲網を抜けて……？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "あいつら、いつの間にあんなところに……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……やるね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "風紀委員の副部隊長",
+      "Text": "申し訳ありません、行政官。視線を逸らされた隙に……今から、もう一度包囲を――"
+    },
+    {
+      "Name": "アコ",
+      "Text": "いえ、大丈夫です。大した問題でもありませんし。……それより、面白い話をしますね、カヨコさん？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……最初はどうして風紀委員会がここに現れたのか、理解できなかった。風紀委員会が他の自治区まで追ってくる理由、それも私たちを狙って？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "こんな非効率的な運用、風紀委員長のいつものやり方じゃない。だからアコ、これはあんたの独断的な行動に違いない。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "それに、私たちを相手するにしてはあまりにも多すぎるこの兵力。他の集団との戦闘を想定していたとすれば、説明がつく。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "とはいえ、このアビドスは全校生徒集めても5人しかいない……なら結論は一つ。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "アコ、あんたの目的はシャーレ。最初から、先生を狙ってここまで来たんだ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "な、何ですって！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "先生を、ですか……！？"
+    },
+    {
+      "Text": "[s] \"私？\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ふふっ、なるほど。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……ああ、便利屋にカヨコさんがいることをすっかり忘れてました。のんきに雑談なんてしている場合ではありませんでしたね……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ、構いません。"
+    },
+    {
+      "Text": "（ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ……）"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "！？"
+    },
+    {
+      "Text": "（ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ……）"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "12時の方向、それから6時の方向……3時、9時……風紀委員会のさらなる兵力が四方から集結しています……！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……。"
+    },
+    {
+      "Text": "（ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ、ザッ……）"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……増員。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "まだいただなんて……それに、こんなにも数が……！"
+    },
+    {
+      "Name": "アコ",
+      "Text": "うーん……少々やりすぎかとも思いましたが……シャーレを相手にするのですから、これくらいあっても困らないでしょうし……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "まあ、大は小を兼ねると言いますからね☆"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "包囲は抜けたと思ったけど……二重だったか……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "はい、そうです。それにしても、さすがカヨコさんですね。先ほどのお話は正解です。……いえ、得点としては半分くらいでしょうか？確かに私は、シャーレと衝突するという最悪のシチュエーションも想定していました。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "しかし、この状況を意図的に作り出したわけではありません。それだけは信じていただきたいのですが……どうやら、難しそうですね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "仕方ありませんね。事の次第をお話ししましょう……きっかけは、ティーパーティーでした。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "もちろんご存知ですよね、ゲヘナ学園と長きにわたって敵対関係にある、トリニティ総合学園の生徒会のことです。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そのティーパーティーが、シャーレに関する報告書を手にしている……と。そんな話が、うちの情報部から上がってきまして。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "戻ったら、この事実をティーパーティーに報告します！"
+    },
+    {
+      "Name": "アコ",
+      "Text": "当初は私も「シャーレ」とは一体何なのか、全く知りませんでしたが……ティーパーティーが知っている情報となれば、私たちも知る必要があります。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "それで、チナツさんが書いた報告書を確認しました。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "（確認するのが遅くないです……？）"
+    },
+    {
+      "Name": "アコ",
+      "Text": "連邦生徒会長が残した正体不明の組織……大人の先生が担当している、超法規的な部活。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "どう考えても怪しい匂いがしませんか？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "シャーレという組織は、とても危険な不確定要素に見えます。これからのトリニティとの条約にも、どんな影響を及ぼすのか分かったものではありません。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ですからせめて条約が無事締結されるまでは、私たち風紀委員会の庇護下に先生をお迎えさせていただきたいのです。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ついでに、居合わせた不良生徒たちも処理した上で……といった形で。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん、むしろ状況が分かりやすくなって良いかも。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "……先生を連れて行くって？私たちがそれで「はいそうですか」って言うとでも思った？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……ふふ、やっぱりこういう展開になりますか。では仕方ありませんね、奥空アヤネさん？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ゲヘナの風紀委員会は、必要でしたら戦力を行使することもあります。私たちは一度その判断をすれば、一切の遠慮をしません。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "アル",
+      "Text": "……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "社長、逃げるなら今しかないよ。戦闘が始まったら、もう後戻りはできない。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "風紀委員会はきっと、アビドスと私たちを同時に殲滅するつもり。でもアビドスがあっちの気を引いてる間になら、包囲網が薄いところから突破……"
+    },
+    {
+      "Name": "アル",
+      "Text": "……ふふっ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ふふっ、ふふふふっ。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……社長？"
+    },
+    {
+      "Name": "アル",
+      "Text": "……ねえカヨコ、あなたはもうとっくに私の性格、分かってるんじゃなくて？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "こんな状況で、こんな扱いをされておいて……背中を向けて逃げる？"
+    },
+    {
+      "Name": "アル",
+      "Text": "そんな三流の悪党みたいなこと、私たち便利屋がするわけないじゃない！！！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "……あはー。"
+    },
+    {
+      "Name": "アル",
+      "Text": "あの生意気な風紀委員会に一発食らわせないと気が済まないわ！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "アル様……っ。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "（昨日、すぐに逃げなかったっけ……）"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "ふう……それは良いけど、あの兵力と真っ向から戦う気？アビドスと力を合わせてもギリギリだと思うけど……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "そもそもアビドスが私たちに協力してくれるとは思えないし……となると……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "よっし、便利屋っ！挟み撃ちするわよ！！この風紀委員会、コテンパンにしてやらないと！！！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "先生の盾になってもらう。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "先生をみんなで守ります、いいですね？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "話が早いな…………。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ふふっ……あははははははっ！"
+    },
+    {
+      "Name": "アル",
+      "Text": "当たり前よ！この私を誰だと思ってるの？心配は無用！"
+    },
+    {
+      "Name": "アル",
+      "Text": "信頼には信頼で報いるわ！それが私たち、便利屋68のモットーだもの！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "はい！！先生には私たちも色々とお世話になりましたので！絶対に成功させます……！"
+    },
+    {
+      "Name": "アル",
+      "Text": "あとせっかくだから言っておくけど！間違えて爆破させたわけじゃないから！狙い通りだから！"
+    },
+    {
+      "Name": "アル",
+      "Text": "私みたいな冷酷なアウトローでもないと実行できない、高度な心理戦っていうか……！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "……うわぁ、墓穴。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "うーん……まあ、これはこれで想定していた状況ではありましたが……。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "それにしても、ここまで意気投合が早いとは……その点は想定外でした。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "……まあいいでしょう、それでは。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "風紀委員会、攻撃を開始します。対策委員会と便利屋を制圧して、先生を安全に確保してください。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "先生はキヴォトスの外部の人なので、怪我をさせないように十分注意を。"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "よくもショットガンの乱射なんて決めてくれたな……覚悟しろ！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "敵、包囲を始めています！突破してください！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先生！私たちと便利屋68の指揮、お願いします！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;예기치 못한 동맹"
+    },
+    {
+      "Name": "하루카",
+      "Text": "용서못해…… 용서못해…… 용서못해…… 용서못해……."
+    },
+    {
+      "Name": "하루카",
+      "Text": "용서……. 으응?"
+    },
+    {
+      "Text": "[s] 하루카와 눈이 마주쳐버렸다."
+    },
+    {
+      "Name": "하루카",
+      "Text": "……."
+    },
+    {
+      "Text": "[ns1] '모른척해야겠지…….'"
+    },
+    {
+      "Text": "[ns2] 못 본 걸로 한다."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "선임행정관이라면…… 선도부의 2인자……."
+    },
+    {
+      "Name": "아코",
+      "Text": "어머, 그런 거창한 입장은 아니에요. 어디까지나 선도부장님을 보좌하는 비서 역할이고……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "그렇기만 하다면 저 선도부원이 저렇게까지 긴장하진 않았겠지."
+    },
+    {
+      "Name": "이오리",
+      "Text": "누, 누가 긴장했다고!"
+    },
+    {
+      "Name": "아코",
+      "Text": "……"
+    },
+    {
+      "Name": "아코",
+      "Text": "꽤 관찰력이 좋으시네요. 어디보자…… 스나오오카미 시로코 씨?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "아코",
+      "Text": "아비도스 지역구에 학생회만 남아있다고 들었는데 바로 여러분들인가 보네요."
+    },
+    {
+      "Name": "아코",
+      "Text": "아비도스의 학생회는 5명으로 알고 있는데 한명은 어딜 간 거죠?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "부장은 지금 없어요. 그리고 저희는 학생회가 아니라 대책위원회입니다. 선임행정관."
+    },
+    {
+      "Name": "아코",
+      "Text": "오쿠소라 씨……였죠? 그럼 학생회 임원은 여기 없는 건가요? 저는 학생회와 얘기하고 싶습니다."
+    },
+    {
+      "Name": "세리카",
+      "Text": "아비도스 학생회는 해체된지 오래야! 실질적으로 우리가 학생회를 대리하고 있으니까, 하고 싶은 말이 있으면 우리한테 하라고!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "이렇게 포위해서 총을 겨누고는 대화를 하자- 라는 태도도 용서할 수 없지만요."
+    },
+    {
+      "Name": "아코",
+      "Text": "아아……."
+    },
+    {
+      "Name": "아코",
+      "Text": "실례했습니다. 선도부, 전원 무기를 내리세요."
+    },
+    {
+      "Text": "(척-)"
+    },
+    {
+      "Text": "(척-척-)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "어라……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "무기를 진짜 내렸어……?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "아코",
+      "Text": "조금 전의 섣부른 학생 운용은 제가 대신 사과드리겠습니다."
+    },
+    {
+      "Name": "이오리",
+      "Text": "뭐?! 난 명령서에 적힌대로 했는데?! 아코 쨩!"
+    },
+    {
+      "Name": "아코",
+      "Text": "명령서에 무차별 포격부터 하라고 적혀있던가요?"
+    },
+    {
+      "Name": "이오리",
+      "Text": "화, 화력 지원 후 보병 투입이…… 전술의 기본……."
+    },
+    {
+      "Name": "아코",
+      "Text": "다른 학원의 자치구 근처니까 주의를 기울이는 게 당연하잖아요……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "(응……?)"
+    },
+    {
+      "Name": "아코",
+      "Text": "실례했습니다. 대책위원회 여러분. "
+    },
+    {
+      "Name": "아코",
+      "Text": "게헨나 선도부는 우리 학원의 교칙위반자들을 체포하기 위해 왔습니다. "
+    },
+    {
+      "Name": "아코",
+      "Text": "불미스러운 일이 있었지만 아직까지는 불법의 영역은 아니기에…… 지금 상황의 시급성을 이해해 주셨으면 합니다."
+    },
+    {
+      "Name": "아코",
+      "Text": "선도 집행에 모쪼록 협조 부탁드립니다. 여러분."
+    },
+    {
+      "Name": "아야네",
+      "Text": "조금 전에도 얘기했지만……. 그건 곤란해요!"
+    },
+    {
+      "Name": "아코",
+      "Text": "어머……?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "게헨나 정도의 큰 학원이 무력을 앞세워서 우리 같은 작은 학원에서 멋대로 전술 행동을 벌이다니!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "명백한 자치권 위반!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "흥신소의 처우는 우리가 결정합니다!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "게헨나 정도의 거대 학원이 이런 폭거를 감행할 거라고는 생각하지 못했는데요!"
+    },
+    {
+      "Name": "아코",
+      "Text": "……음."
+    },
+    {
+      "Name": "아코",
+      "Text": "그쪽의 다른 분들도 같은 생각인가 보네요."
+    },
+    {
+      "Name": "아코",
+      "Text": "하아. 이 병력을 앞에 두고도 위풍당당이라니…… "
+    },
+    {
+      "Name": "아코",
+      "Text": "이 자신감의 원천은…… 역시 믿고 있는 어른이 있다는 건가요? 그러니까…… [USERNAME] 선생님? "
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "아코",
+      "Text": "샬레의 선생님도 대책위원회와 같은 의견인가요?"
+    },
+    {
+      "Text": "[s3] \"흥신소는 바보들이지만 나쁜 녀석들은 아냐.\""
+    },
+    {
+      "Text": "[s4] \"아루는 바보지만 나쁜 녀석은 아냐.\""
+    },
+    {
+      "Text": "[s5] \"바보지만. 바보랄까.\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐?! 나쁜 녀석들은 맞잖아! 라멘집을 폭파시켰으니까!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐?! 나쁜 녀석들은 맞잖아! 라멘집을 폭파시켰으니까!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐?! 나쁜 녀석들은 맞잖아! 라멘집을 폭파시켰으니까!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "그렇긴 하지만…… 아마 실수로 터트려놓고 허세를 부린 거겠지."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐?!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "우리를 노린 거였다면 아무도 없는 시간에 라멘집을 폭발시켰을 이유가 없어. 계획이 들키기만 할 뿐이고, 함정으로써는 최악이고."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……그, 그러네. 생각해보면."
+    },
+    {
+      "Name": "세리카",
+      "Text": "함정을 준비했다가 실수로 터트렸다……? 얼마나 바보인거야, 저 녀석들……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "하지만 결과적으로 라멘집을 공격한 건은 맞으니, 너희에게 그냥 넘겨줄 수는 없어."
+    },
+    {
+      "Name": "노노미",
+      "Text": "네. 저 분들의 배후도 아직 알아내지 못했고요. 저희가 먼저 볼일이 있다고요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "결론은 협상 따윈 무용! 퇴거를 요구합니다! 게헨나 선도부!"
+    },
+    {
+      "Name": "아코",
+      "Text": "……. "
+    },
+    {
+      "Name": "아코",
+      "Text": "이건 곤란하네요……. 으응…… 이렇게 되면. 정말이지 원치 않은 결론인데……."
+    },
+    {
+      "Name": "아코",
+      "Text": "싸울 수 밖에 없겠네요."
+    },
+    {
+      "Text": "(퍼퍼퍼퍼퍼퍼퍼퍽-!!)"
+    },
+    {
+      "Name": "선도부원 A",
+      "Text": "으아악!"
+    },
+    {
+      "Text": "(퍼퍼퍼퍼퍼퍼펑-!!)"
+    },
+    {
+      "Name": "선도부원 B",
+      "Text": "크악?!"
+    },
+    {
+      "Name": "이오리",
+      "Text": "뭐, 뭐야?!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "용서못해…… "
+    },
+    {
+      "Name": "이오리",
+      "Text": "어, 언제?! "
+    },
+    {
+      "Name": "하루카",
+      "Text": "으아아아아아아아-!! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! 용서못해-! "
+    },
+    {
+      "Text": "(퍼퍼퍼퍼퍼퍼퍼퍼퍼퍼퍼퍽--!!)"
+    },
+    {
+      "Name": "이오리",
+      "Text": "끄, 끄아아아……."
+    },
+    {
+      "Text": "(콰당탕)"
+    },
+    {
+      "Name": "???",
+      "Text": "거짓말 하지 마, 아마우 아코."
+    },
+    {
+      "Name": "아코",
+      "Text": "어머?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "원치 않은 결론이 아니겠지. 처음부터 네가 노린 건 이거였어."
+    },
+    {
+      "Name": "아코",
+      "Text": "카요코 씨……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "하루카 쨩~ 나이스☆"
+    },
+    {
+      "Name": "하루카",
+      "Text": "죄, 죄송합니다! 구해드리는 게 늦어서……!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "제, 제가 잘못해서……! 계획을 다 망쳐버렸어요! 주, 죽을까요? 죽겠습니다!! "
+    },
+    {
+      "Name": "무츠키",
+      "Text": "응, 따지고 보면 전부 하루카 쨩이 잘못한 게 맞지만. 뭐, 재미있으니까 됐어."
+    },
+    {
+      "Name": "아코",
+      "Text": "……. 어머나. 어느새 포위망을 풀고……. "
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야, 저 녀석들 언제 저기까지……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 음……."
+    },
+    {
+      "Name": "아코",
+      "Text": "……. "
+    },
+    {
+      "Name": "선도부 부대장",
+      "Text": "죄송합니다, 선임행정관. 잠깐 한눈을 파는 사이에……. 지금 다시……."
+    },
+    {
+      "Name": "아코",
+      "Text": "음, 뭐. 괜찮아요. 아직은. 그것보단 재미있는 이야기를 하네요? 카요코 씨."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……처음엔 어째서 선도부가 여기 나타났는지 이해할 수가 없었어. 선도부가 다른 자치구까지 쫓아온다? 우리를 노리고?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "이런 비효율적인 운용은 선도부장의 스타일은 아니지. 그러니까 아코, 이건 너의 독단적 행동."
+    },
+    {
+      "Name": "아코",
+      "Text": "……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "게다가, 애초에 우리를 상대하기엔 너무 많은 병력을 데리고 왔어. 다른 학원과의 분쟁을 상정한 거지."
+    },
+    {
+      "Name": "카요코",
+      "Text": "하지만 이곳은 전교생이 5명 밖에 없는 곳이니…… 그렇다면 결론은 뻔하다."
+    },
+    {
+      "Name": "카요코",
+      "Text": "네 목표는 샬레. 너는 처음부터 선생님을 노리고 온 거야."
+    },
+    {
+      "Name": "시로코",
+      "Text": "?!"
+    },
+    {
+      "Name": "세리카",
+      "Text": "무, 뭐?!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "선생님을요?!"
+    },
+    {
+      "Text": "[s] \"저를요?\""
+    },
+    {
+      "Name": "아코",
+      "Text": "……."
+    },
+    {
+      "Name": "아코",
+      "Text": "흐음."
+    },
+    {
+      "Name": "아코",
+      "Text": "……그러네요. 흥신소에 카요코 씨가 있다는 걸 깜빡하고 있었어요. 이렇게 여유있게 잡담이나 나누고 있었으면 안되었는데……."
+    },
+    {
+      "Name": "아코",
+      "Text": "뭐, 괜찮아요."
+    },
+    {
+      "Text": "(저벅- 저벅- 저벅- 저벅- 저벅- 저벅-)"
+    },
+    {
+      "Name": "카요코",
+      "Text": "?!"
+    },
+    {
+      "Text": "(저벅- 저벅- 저벅- 저벅- 저벅- 저벅-)"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……. 12시 방향…… 6시 방향…… 3시, 9시…… 선도부 병력이 사방에서 집결 중……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……. "
+    },
+    {
+      "Text": "(저벅- 저벅- 저벅- 저벅- 저벅- 저벅-)"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……충원."
+    },
+    {
+      "Name": "아야네",
+      "Text": "더 있었어요……? 이, 이렇게 많은 숫자를……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "으응…… 역시 조금 심했나 싶긴 하지만…… 샬레를 상대하려면 이 정도는 필요하지 않을까 싶어서……."
+    },
+    {
+      "Name": "아코",
+      "Text": "뭐, 준비는 부족한 것보단 과한 게 나으니까요☆"
+    },
+    {
+      "Name": "카요코",
+      "Text": "포위를 벗어난 줄 알았더니…… 포위망이 이중이었어……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "네, 카요코 씨의 말이 맞아요. ……아니, 절반쯤 맞다고 할까요? 저는 샬레와 충돌하는 최악의 상황을 염두에 두긴 했습니다."
+    },
+    {
+      "Name": "아코",
+      "Text": "하지만 이런 상황을 일부러 의도한 건 아니에요. 그것만큼은 믿어주셨으면 하는데……. 뭐, 힘들 것 같지만."
+    },
+    {
+      "Name": "아코",
+      "Text": "……. 티파티."
+    },
+    {
+      "Name": "아코",
+      "Text": "게헨나 학원과 오랜 적대 관계에 있는 트리니티 학원의 학생회 이름이죠."
+    },
+    {
+      "Name": "아코",
+      "Text": "정보부에서 티파티에 샬레에 대한 보고서가 올라갔다는 첩보를 입수했거든요."
+    },
+    {
+      "Name": "히후미",
+      "Text": "돌아가서 이 사실을 티파티에게 보고하겠어요!"
+    },
+    {
+      "Name": "아코",
+      "Text": "저도 처음엔 샬레가 뭔지 전혀 몰랐는데…… 티파티가 알고 있는 정보는 저희도 알고 있어야만 해요."
+    },
+    {
+      "Name": "아코",
+      "Text": "그래서 치나츠 씨가 쓴 보고서를 확인했죠."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "(……늦잖아요. 확인이.)"
+    },
+    {
+      "Name": "아코",
+      "Text": "총학생회장이 남긴 정체불명의 조직……. 어른인 선생님이 담당으로 있는 초법적 동아리……."
+    },
+    {
+      "Name": "아코",
+      "Text": "누가봐도 수상쩍은 냄새가 나잖아요?"
+    },
+    {
+      "Name": "아코",
+      "Text": "샬레라는 조직이 가지고 있는 변수는 너무 위험해 보여요. 앞으로 있을 트리니티와의 조약에도 무슨 영향이 있을지 알 수 없고."
+    },
+    {
+      "Name": "아코",
+      "Text": "최소한, 조약이 체결되기 전까진 저희 선도부가 선생님을 모셔두고 있겠습니다."
+    },
+    {
+      "Name": "아코",
+      "Text": "겸사겸사 벼르고 있던 불량 학생들도 선도하고…… 말이죠."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "오히려 알기 쉬워서 좋네."
+    },
+    {
+      "Name": "세리카",
+      "Text": "……그래. 선생님을 납치한다고? 그런 걸 우리가 보고만 있을 거 같아?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "……."
+    },
+    {
+      "Name": "아코",
+      "Text": "……네. 역시 이런 전개겠죠. 오쿠소라 아야네 씨?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "게헨나의 선도부는 필요하면 이런 폭거를 감행하기도 합니다. 저희는 그런데 거리낌이 없거든요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……!!"
+    },
+    {
+      "Name": "아루",
+      "Text": "……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "사장. 도망친다면 지금이 유일한 기회야. 전투가 시작되면 돌이킬 수 없어."
+    },
+    {
+      "Name": "카요코",
+      "Text": "선도부는 아비도스와 우리를 동시에 포위섬멸할 생각이야. 아비도스가 저쪽의 시선을 끌어준다면 포위망이 얇은 곳을 돌파할 수는 있을 거 같아."
+    },
+    {
+      "Name": "아루",
+      "Text": "훗."
+    },
+    {
+      "Name": "아루",
+      "Text": "후후. 후후후후."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……사장?"
+    },
+    {
+      "Name": "아루",
+      "Text": "……카요코. 카요코. 이쯤되면 슬슬 이 몸의 성향을 알아차릴 때도 되었잖아?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……?"
+    },
+    {
+      "Name": "아루",
+      "Text": "이런 상황에서, 이런 취급을 받아놓고, 뒤를 보이며, 도망친다?"
+    },
+    {
+      "Name": "아루",
+      "Text": "그런 3류 악당같은 짓을 우리 흥신소가 할 리가 없잖아!!!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "……."
+    },
+    {
+      "Name": "아루",
+      "Text": "저 건방진 놈들에게 한방 먹여주지 않으면 잠이 오질 않는다고!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "아루 님……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "(바로 어제도 도망쳤잖아…….)"
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아……. 그럼 저 병력과 싸우겠다고? 아비도스와 힘을 합쳐도 아슬아슬할 텐데……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "게다가 저 녀석들이 우리와 협력해 줄 리도 없고…… 남은 방법은……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "좋아, 흥신소!! 거기서 협공이야!! 건방진 녀석들을 쓸어버리자고!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "선생님을 위해 방패가 되어라."
+    },
+    {
+      "Name": "카요코",
+      "Text": "?!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "선생님을 다같이 지키는 거예요! 아시겠죠?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "전환이 빠르잖아, 이녀석들……. "
+    },
+    {
+      "Name": "아루",
+      "Text": "아…… 아하하하하하하!"
+    },
+    {
+      "Name": "아루",
+      "Text": "당연하지! 이 몸을 누구라고 생각하는 거야? 걱정하지 마!"
+    },
+    {
+      "Name": "아루",
+      "Text": "신뢰에는 신뢰로 답한다! 그게 바로 우리 흥신소의 모토니까!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "네!! 선생님한테는 저희도 이것저것 신세를 졌으니까! 반드시……!"
+    },
+    {
+      "Name": "아루",
+      "Text": "그리고! 참고로 말하면! 실수로 터트린 게 아냐! 의도였다고! "
+    },
+    {
+      "Name": "아루",
+      "Text": "나같은 냉철한 무법자만이 쓸 수 있는 고도의 심리전 같은 거랄까……!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "……."
+    },
+    {
+      "Name": "아코",
+      "Text": "음……. 뭐, 이건 이거대로 상정 내의 상황이긴 한데……."
+    },
+    {
+      "Name": "아코",
+      "Text": "그래도 의기투합, 너무 빠르지 않아요? 죽이 너무 잘 맞는데……."
+    },
+    {
+      "Name": "아코",
+      "Text": "……. 자아. 그럼."
+    },
+    {
+      "Name": "아코",
+      "Text": "선도부, 공격입니다. 대책위원회와 흥신소를 제압하고, 선생님의 신변을 확보하세요."
+    },
+    {
+      "Name": "아코",
+      "Text": "선생님은 키보토스 외부인이기에, 다치지 않도록 취급에 조심해주시고요."
+    },
+    {
+      "Name": "이오리",
+      "Text": "잘도 나한테 샷건을 갈겼겠다…… 각오해!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "적, 포위섬멸기동을 시작합니다!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "선생님! 저희와 흥신소 68의 지휘를 부탁드립니다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;An Unexpected Alliance"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Unforgivable, unforgivable, unforgivable..."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "I will never, ever, ever, ever forgive... Eh?"
+    },
+    {
+      "Text": "[s] Lock eyes with Haruka."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns1] \"Better pretend I didn't see anything...\""
+    },
+    {
+      "Text": "[ns2] Ignore what you just saw."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "You're their senior administrator? That would make you the Prefect Team's second-in-command..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Please! You make it sound much more glamorous than it truly is.\nI'm nothing more than a supportive secretary to the head prefect."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Your subordinates wouldn't have any reason to be quivering in their boots right now if that's all you were."
+    },
+    {
+      "Name": "Iori",
+      "Text": "Wh-Who says I'm quivering?!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "A very astute observation! Let's see... You must be Sunaookami Shiroko."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Rumor has it, Abydos' student council were the only ones remaining in the district. I suppose that must be all of you."
+    },
+    {
+      "Name": "Ako",
+      "Text": "From what I understand, there's supposed to be five Abydos student council members. It would seem you're missing one of your rank."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Our president is away right now. And we're not the student council.\nWe're the Foreclosure Task Force, Miss Senior Administrator."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Okusora, right? Are there no student council members present? I'd like to speak with the student council, if you please."
+    },
+    {
+      "Name": "Serika",
+      "Text": "The Abydos student council is long gone! For all intents and purposes, we're now the acting student council here. So if you've got anything to say, you can say it to us!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "And if holding someone at gunpoint is your idea of having a conversation, that's pretty reprehensible, if you ask me."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Oh..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "My apologies. All units, stand down."
+    },
+    {
+      "Text": "*click*"
+    },
+    {
+      "Text": "*click* *clack*"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Whoa..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "They actually did it..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Allow me to apologize for my colleagues' reckless misuse of force."
+    },
+    {
+      "Name": "Iori",
+      "Text": "The hell?! But I was just following orders! Ako?!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Were your orders to blindly engage using indiscriminate bombardment?"
+    },
+    {
+      "Name": "Iori",
+      "Text": "W-Well, supporting firepower is a mainstay of above-ground tactical deployment for the infantry..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Does it not go without saying that certain precautions are to be taken when operating within the district of another academy?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "(Hmm?)"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Again. My sincere apologies to the Foreclosure Task Force."
+    },
+    {
+      "Name": "Ako",
+      "Text": "The Gehenna Prefect Team was mobilized to take specific individuals who have violated our academy's regulations into custody."
+    },
+    {
+      "Name": "Ako",
+      "Text": "This was an unfortunate incident, but since nothing illegal has transpired...I hope you'll be understanding. We were only acting in accordance with the urgency of the situation."
+    },
+    {
+      "Name": "Ako",
+      "Text": "I ask for your cooperation during the execution of the Prefect Team's duties."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "And like we said before...that's not gonna happen!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Oh...?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "An academy like Gehenna abusing their massive forces to wantonly conduct tactical operations at a tiny school like ours?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "That's a crystal-clear breach of jurisdictional authority!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We'll be the ones to decide how Problem Solver will be dealt with!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "It's disgraceful that an academy of Gehenna's caliber would abuse their power to launch this kind of assault!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Hmm..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It would seem you all feel the same way."
+    },
+    {
+      "Name": "Ako",
+      "Text": "I'm shocked you would be so obstinate, even in the face of our troops... "
+    },
+    {
+      "Name": "Ako",
+      "Text": "Could the source of this confidence be rooted in the abilities of a certain individual you have in your corner? Perhaps...[USERNAME] Sensei?"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "Sensei, you're the official advisor of Schale. Does this mean you agree with the Foreclosure Task Force?"
+    },
+    {
+      "Text": "[s3] \"Problem Solver may be a bunch of dummies, but they're not bad kids.\""
+    },
+    {
+      "Text": "[s4] \"Aru may be kinda dumb, but she's not a bad apple.\""
+    },
+    {
+      "Text": "[s5] \"Okay, they're ALL kinda stupid, but not THAT stupid.\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?! Of course they're a bunch of rotten apples! They blew up the ramen shop!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?! Of course they're a bunch of rotten apples! They blew up the ramen shop!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?! Of course they're a bunch of rotten apples! They blew up the ramen shop!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "They definitely did that...but I bet they blew it up by mistake and then felt compelled to roll with it."
+    },
+    {
+      "Name": "Serika",
+      "Text": "What?!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "If that explosion had really been meant for us, why set it off at the ramen shop when nobody was there? All that did was expose their plan. And it was a terrible trap from the get-go."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Huh. I guess you have a point."
+    },
+    {
+      "Name": "Serika",
+      "Text": "They laid a trap and then sprung it on themselves by accident?\nGeez. Who would hire those idiots?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Regardless, it doesn't change the fact they demolished the ramen shop.\nSo again, we're not handing them over."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "And we still haven't figured out who they're working for.\nWe're not done with them yet."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "In conclusion, there's no need for us to negotiate with you!\nWe demand that the Gehenna Prefect Team withdraws its\nforces immediately!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "... "
+    },
+    {
+      "Name": "Ako",
+      "Text": "That's too bad. If that's how it has to be, then you leave me no choice.\nTruly, it brings me no joy to do this, but..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "We have no choice but to use force."
+    },
+    {
+      "Text": "*ka-pow* *pow* *pow* *pow*"
+    },
+    {
+      "Name": "Prefect Team Member A",
+      "Text": "Aaarrrggghhh!"
+    },
+    {
+      "Text": "*ka-pow* *pow* *pow* *pow*"
+    },
+    {
+      "Name": "Prefect Team Member B",
+      "Text": "Gahhh!"
+    },
+    {
+      "Name": "Iori",
+      "Text": "Th-The heck?!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Unforgivable..."
+    },
+    {
+      "Name": "Iori",
+      "Text": "Wh-Where did you come from?! "
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Aaarrrggghhh! Unforgivable! Unforgivable! Unforgivable! Unforgivable! Unforgivable! Unforgivable! Unforgivable! Unforgivable! Unforgivable! "
+    },
+    {
+      "Text": "*ka-pow* *pow* *pow* *pow* *pow* *pow*"
+    },
+    {
+      "Name": "Iori",
+      "Text": "Gahhhhhh..."
+    },
+    {
+      "Text": "(collapse)"
+    },
+    {
+      "Name": "???",
+      "Text": "Enough of your lies, Amau Ako."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Pardon?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "What you said about how doing this brings you no joy... That's a lie.\nThis is what you wanted all along."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Kayoko... "
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Nice one, Haruka! ☆"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "S-Sorry! Sorry I didn't come to the rescue sooner..."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "I-It's all my fault... The plan is ruined! Sh-Should I sacrifice myself as penance?! I'll do it gladly! "
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Yeah, technically, it is all your fault. But I think it's all right now that things are getting a lot more interesting."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Oh, dear. You managed to break through our perimeter. "
+    },
+    {
+      "Name": "Serika",
+      "Text": "What the heck? How'd they get all the way there?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "U-Umm..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "... "
+    },
+    {
+      "Name": "Prefect Team Vice Captain",
+      "Text": "My apologies, Senior Administrator. Our attention was on the Abydos students. We'll reassemble the formation right away."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It's quite all right... As for you, Kayoko. What is it you're getting at?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "At first, I was surprised the Prefect Team would show up way out here.\nWhy go out of your way to another school's district just to arrest some petty criminals like us?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "An inefficient and sloppy use of force like that isn't Hina's style.\nThis was obviously a unilateral decision of yours, Ako."
+    },
+    {
+      "Name": "Ako",
+      "Text": "..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "And you mobilized a platoon the size of a small army just to take us into custody? Nah. You did it because you fully anticipated a hostile engagement with another school."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "But the entire student body of this school is only five students...\nWhich leaves only one explanation."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Your true objective was Schale. What you wanted was Sensei all along."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wh-What?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Sensei?!"
+    },
+    {
+      "Text": "[s] \"Me?\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Hmm."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Oh, dear. I should've remembered that Problem Solver had someone like you in its ranks, Kayoko. Perhaps I spent too much time dawdling..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Ah, well. No matter."
+    },
+    {
+      "Text": "*stomp* *stomp* *stomp* *stomp* *stomp*"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": " ...?!"
+    },
+    {
+      "Text": "*stomp* *stomp* *stomp* *stomp* *stomp*"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Prefect Team forces are advancing from all directions..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "... "
+    },
+    {
+      "Text": "*stomp* *stomp* *stomp* *stomp* *stomp*"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Reinforcements."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "You had more coming? I-In such overwhelming numbers?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Okay, maybe I did overdo it just a little...but I figured it was better to be safe than sorry when dealing with Schale."
+    },
+    {
+      "Name": "Ako",
+      "Text": "It's better to be over-prepared than under-prepared after all! ☆"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "I thought we'd broken past their siege line, but there was another one..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Kayoko is right. Well, she's half-right. It's true that I anticipated the worst in the event of a clash with Schale."
+    },
+    {
+      "Name": "Ako",
+      "Text": "But it's not true that I intended for things to escalate like they did.\nI really hope you believe me when I say that...though I understand if you don't."
+    },
+    {
+      "Name": "Ako",
+      "Text": "The Tea Party..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "They act as the student council of Trinity General School—Gehenna Academy's longtime rival."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Our intelligence gatherers have learned of a report on Schale that was submitted to the Tea Party."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I'll pass this along to the Tea Party!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "I had no clue what Schale was at first...but whatever intel the Tea Party had,\nit was absolutely necessary for us to acquire it as well."
+    },
+    {
+      "Name": "Ako",
+      "Text": "So I took a look at the report Chinatsu had compiled."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "(Very belatedly, that is.)"
+    },
+    {
+      "Name": "Ako",
+      "Text": "A mysterious organization left behind by the General Student Council president... An extrajudicial club headed by an adult..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "I can't be the only one who finds that suspicious."
+    },
+    {
+      "Name": "Ako",
+      "Text": "There are too many unknown variables when it comes to Schale.\nThat's unacceptable with the negotiation with Trinity on the horizon."
+    },
+    {
+      "Name": "Ako",
+      "Text": "So until it's signed, the Prefect Team will be taking Sensei into our custody."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Taking care of a group of troublemakers while we do so is simply an added bonus."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "It's nice that things are being kept simple."
+    },
+    {
+      "Name": "Serika",
+      "Text": "So your plan is to kidnap Sensei? Do you really think we're gonna let that happen?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Yes. That is the way it will be. Isn't that right, Okusora Ayane?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "We won't hesitate to resort to violence if necessary.\nIn fact, we welcome it."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Boss, this is our only chance to run. There's no turning back once the battle breaks out."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "The Prefect team will attempt to wipe us and Abydos out in one fell swoop. But if the Abydos students draw their fire away, we may be able to break through one of their weaker points."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Heh. "
+    },
+    {
+      "Name": "Aru",
+      "Text": "Heh heh heh..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Boss?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Oh, Kayoko. You should know me better by now."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "...?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Run away? After the way they've treated us? We never turn our backs to the enemy!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Problem Solver is anything but a pack of third-rate villains!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "I could never forgive myself if I let them get away with such blatant disrespect!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Aru..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "(But we ran away from a fight just yesterday...)"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* So you're gonna fight them? They'll be tough to beat, even if we join forces with Abydos..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Besides, there's no way the Abydos students will cooperate with us.\nAll that's left is to—"
+    },
+    {
+      "Name": "Serika",
+      "Text": "All right! We're working with Problem Solver! Let's wipe out those arrogant little twerps!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We shall become Sensei's shield."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "All of us will protect Sensei together! Got it?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "They certainly change gears quickly... "
+    },
+    {
+      "Name": "Aru",
+      "Text": "Ah... Ahahahaha!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Naturally! Who do you think I am? Our victory is assured."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Trust is met with trust! That's the Problem Solver way!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Yes! And we owe it to Sensei!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "And for the record, we didn't blow up the ramen shop by mistake!\nTh-That was totally on purpose...got it?! "
+    },
+    {
+      "Name": "Aru",
+      "Text": "It was an act of high-level psychological warfare that only a cold-hearted outlaw like me can use..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Well, then. We certainly knew this was possible..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Still, aren't you becoming buddy-buddy a little TOO quickly?\nThese things are supposed to take time."
+    },
+    {
+      "Name": "Ako",
+      "Text": "But very well."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Prefect Team, engage. Subdue the Foreclosure Task Force and Problem Solver, and do all you can to secure Sensei."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Sensei is an outsider to Kivotos, so see to it they aren't harmed."
+    },
+    {
+      "Name": "Iori",
+      "Text": "I'm gonna make you pay for firing that shotgun at me!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The enemy has begun the siege!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Sensei! Please lead Problem Solver 68 with us!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;พันธมิตรที่ไม่คาดคิด"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ยกโทษให้ไม่ได้... ยกโทษให้ไม่ได้... ยกโทษให้ไม่ได้... ยกโทษให้ไม่ได้…"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ยกโทษ... เอ๋?"
+    },
+    {
+      "Text": "[s] สบตากับฮารุกะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "......"
+    },
+    {
+      "Text": "[ns1] (แกล้งทำเป็นไม่รู้เรื่อง)"
+    },
+    {
+      "Text": "[ns2] ทำเป็นไม่เห็น"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": ""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": ""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เจ้าหน้าที่อาวุโสเหรอคะ... ถ้างั้นก็คงเป็นรองประธานคณะกรรมการวินัยสินะคะ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "โอ๊ะ ฉันไม่ได้อยู่ในตำแหน่งใหญ่โตแบบนั้นหรอกค่ะ ก็แค่เลขาที่คอยสนับสนุนท่านประธานกรรมการ\nเท่านั้นเองน่ะค่ะ..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ถ้าจริงอย่างที่ว่า สมาชิกคณะกรรมการวินัยคนนั้นก็คงไม่ประหม่าขนาดนั้นหรอก"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "คะ... ใครประหม่ากัน!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ช่างสังเกตจริงๆ เลยนะคะ คุณสึนาโอกามิ ชิโรโกะ?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ได้ยินมาว่าเขตอะบิดอสมีเหลือแต่สภานักเรียน สงสัยจะเป็นพวกคุณสินะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่เท่าที่รู้มา สภานักเรียนอะบิดอสมีกัน 5 คน... แล้วอีกคนหายไปไหนล่ะคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ตอนนี้หัวหน้าไม่อยู่ค่ะ อีกอย่างนะคะเจ้าหน้าที่อาวุโส พวกเราไม่ใช่สภานักเรียน แต่เป็นคณะกรรมการ\nแผนงานต่างหากค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คุณโอคุโซระ... ใช่ไหมคะ? ถ้างั้นสมาชิกสภานักเรียนก็ไม่ได้อยู่ที่นี่น่ะสิคะ? ถ้าเป็นไปได้ฉันก็อยากจะคุย\nกับสภานักเรียนค่ะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "สภานักเรียนอะบิดอสถูกยุบไปตั้งนานแล้ว! เพราะงั้นในทางปฏิบัติ พวกเราก็ถือว่าเป็นตัวแทนของสภา\nนักเรียนแหละ อยากคุยอะไรก็พูดกับพวกเรามาได้เลย!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "บอกว่าขอคุยด้วย แต่มาล้อมไว้แล้วเล็งปืนใส่พวกเราเนี่ยเหรอคะ? ยกโทษให้ไม่ได้หรอกค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "งั้นก็ขอโทษด้วยค่ะ สมาชิกคณะกรรมการวินัยทุกคน รบกวนลดอาวุธลงด้วยค่ะ"
+    },
+    {
+      "Text": "(กึก)"
+    },
+    {
+      "Text": "(เก็บอาวุธ)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "หืม..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ยอมลดอาวุธลงจริงๆ ด้วย..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ฉันขอโทษสำหรับการกระทำที่ไร้การไตร่ตรองของนักเรียนของเราเมื่อสักครู่ด้วยนะคะ"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อะไรนะ?! แต่ฉันทำตามหนังสือคำสั่งนะ?! อาโกะจัง!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ในหนังสือคำสั่งบอกว่าให้ยิงปืนใหญ่แบบไม่เลือกหน้าเลยเหรอคะ?"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "เอ่อ... บอกว่าให้เสริมกำลังอาวุธแล้วเพิ่มกองกำลัง..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เวลามาที่เขตปกครองตนเองของโรงเรียนอื่นแบบนี้ ยิ่งต้องระมัดระวังไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "(หืม......?)"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ต้องขอโทษด้วยนะคะ สมาชิกคณะกรรมการแผนงานทุกคน"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คณะกรรมการวินัยเกเฮนน่ามาที่นี่เพื่อจับกุมผู้ที่ฝ่าฝืนกฎของโรงเรียนเราค่ะ "
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถึงจะทำให้เกิดเรื่องที่ไม่น่าพอใจขึ้น แต่ก็ยังไม่ถึงขั้นที่ทำผิดกฎหมายอะไร ขอให้เข้าใจถึงความเร่งด่วน\nของสถานการณ์ของฝ่ายเราด้วยนะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "และขอให้พวกคุณร่วมมือกับเราด้วยนะคะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เมื่อกี้เราก็บอกไปแล้วนี่คะ... ไม่ได้หรอกค่ะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "โรงเรียนขนาดใหญ่อย่างเกเฮนน่าพากองกำลังเข้ามาปฏิบัติการตามอำเภอใจในเขตโรงเรียนเล็กๆ ของ\nพวกเราแบบนี้ได้ยังไงคะ...?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "นี่มันเป็นการละเมิดสิทธิปกครองตนเองอย่างชัดเจนเลยนะคะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เรื่องการจัดการกับหน่วยรับจ้างสารพัดน่ะ... พวกเราจะเป็นฝ่ายตัดสินใจเองค่ะ!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": ""
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": ""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": ""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คาดไม่ถึงเลยค่ะว่าโรงเรียนขนาดใหญ่อย่างเกเฮนน่าจะมาทำพฤติกรรมรุนแรงแบบนี้!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ดูเหมือนคนอื่นๆ เองก็จะคิดแบบนั้นเหมือนกันสินะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เฮ้อ... ขนาดถูกกองกำลังขนาดใหญ่ล้อมไว้แบบนี้แล้ว ยังกล้าตัดสินใจอะไรบ้าบิ่นอย่างนั้นอีก..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ที่มั่นใจขนาดนี้... หรือว่าเป็นเพราะมีผู้ใหญ่ที่เชื่อใจได้อยู่ด้วยเหรอคะ? อย่างเช่น... คุณครู [USERNAME]? "
+    },
+    {
+      "Text": "[s] \"......\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คุณครูจากชาเล่ต์ก็เห็นด้วยกับคณะกรรมการแผนงานอย่างนั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s3] \"ถึงหน่วยรับจ้างสารพัดจะบ้าๆ บอๆ แต่พวกเขาก็ไม่ใช่คนไม่ดีหรอกนะ\""
+    },
+    {
+      "Text": "[s4] \"ถึงอารุจะบ้าๆ บอๆ แต่ก็ไม่ใช่คนไม่ดีหรอกนะ\""
+    },
+    {
+      "Text": "[s5] \"ถึงจะดูติงต๊องไปบ้าง แต่ก็แอบน่ารักอยู่นะ\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?! ต้องเป็นคนไม่ดีสิ! พวกนั้นระเบิดร้านราเม็งไปเลยนะ!!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?! ต้องเป็นคนไม่ดีสิ! พวกนั้นระเบิดร้านราเม็งไปเลยนะ!!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?! ต้องเป็นคนไม่ดีสิ! พวกนั้นระเบิดร้านราเม็งไปเลยนะ!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ถึงอย่างนั้นก็เถอะ... บางทีพวกนั้นอาจจะแค่พลาดไปโดนปุ่มกดระเบิดเข้า แล้วก็เลยตามน้ำเอามาอวดก็ได้"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรนะ?!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ถ้าต้องการเล่นงานเรา ก็ไม่มีเหตุผลที่จะระเบิดร้านราเม็งในตอนที่ไม่มีใครอยู่ที่นั่น คงจะพลาดจนแผน\nการโดนเปิดเผยแหละ แต่ถ้าเป็นกับดักจริงๆ ก็วางแผนได้แย่มาก"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "พะ... พอมาคิดๆ ดูแล้ว มันก็จริงอยู่หรอก"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หรือว่าพวกนั้นเตรียมกับระเบิดไว้ แต่ก็เผลอไปกดระเบิดโดยไม่ตั้งใจ...? ซื่อบื้ออะไรขนาดนั้น..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เอาเถอะ ยังไงร้านราเม็งก็ถูกระเบิดทิ้งไปแล้ว เพราะงั้นฉันจะไม่ปล่อยพวกนั้นไปแน่"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่ค่ะ อีกอย่างเรายังไม่รู้เลยว่าใครอยู่เบื้องหลังคนพวกนั้น เพราะงั้นพวกเราจะต้องจับตัวพวกเขามาก่อนค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "สรุปก็คือ เจรจาไปก็เปล่าประโยชน์ เพราะฉะนั้นออกไปเถอะค่ะ! คณะกรรมการวินัยเกเฮนน่า!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แบบนั้น... มันน่าลำบากใจนะคะ อืม... ถ้าเป็นแบบนี้ละก็... ฉันก็ไม่ได้อยากทำแบบนี้สักเท่าไหร่หรอกนะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คงต้องต่อสู้อย่างหลีกเลี่ยงไม่ได้แล้วละค่ะ"
+    },
+    {
+      "Text": "(ปังๆๆๆๆ-!!)"
+    },
+    {
+      "Name": "คณะกรรมการวินัย A",
+      "Text": ""
+    },
+    {
+      "Text": "(ปังๆๆๆๆ-!!)"
+    },
+    {
+      "Name": "คณะกรรมการวินัย B",
+      "Text": ""
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อะ... อะไรกันเนี่ย?!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ยกโทษให้ไม่ได้... "
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "นี่... "
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ย้ากกกกก!! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้! ยกโทษให้ไม่ได้!"
+    },
+    {
+      "Text": "(ปังๆๆๆๆๆๆๆๆๆ-!!)"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อ๊ากกก..."
+    },
+    {
+      "Text": "(ตึ้งงง!!)"
+    },
+    {
+      "Name": "???",
+      "Text": "เลิกโกหกได้แล้วน่า อามาอุ อาโกะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "\"ไม่ได้อยากทำแบบนี้สักเท่าไหร่\" งั้นเหรอ โกหกทั้งเพ... เธออยากให้เป็นแบบนี้ตั้งแต่แรกแล้วต่างหาก"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คุณคาโยโกะ..."
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮารุกะจัง~ เยี่ยมไปเลย☆"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ขะ... ขอโทษค่ะ ขอโทษที่มาช่วยช้าเกินไป..."
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ฉะ... ฉันพลาดเอง... แผนของเราก็เลยล่มแบบนี้ค่ะ! ฉันสมควรตายสินะคะ? ฉันสมควรถูกลงโทษค่ะ!!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ทั้งหมดเป็นความผิดของฮารุกะจังก็จริง แต่แบบนี้ก็สนุกดีนี่นา เอาเป็นว่าลืมๆ มันไปเถอะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "โอ๊ะ... ฝ่าวงล้อมมาได้ตั้งแต่ตอนไหนกันคะเนี่ย..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะไรกัน ทำไมพวกนั้นถึงไปอยู่ตรงนั้นได้แล้ว..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อะ... อืม...."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "หัวหน้าคณะกรรมการวินัย",
+      "Text": "ขอโทษด้วยค่ะเจ้าหน้าที่อาวุโส พวกนั้นใช้จังหวะตอนเราเผลอ... เดี๋ยวฉันจะ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เอาเถอะ ตอนนี้ยังไม่เป็นไรหรอก ว่าแต่... พูดอะไรน่าสนุกดีนะคะ คุณคาโยโกะ? "
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": ""
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ตอนแรกฉันไม่เข้าใจเลยว่าทำไมคณะกรรมการวินัยถึงได้มาที่นี่ ทำไมถึงต้องบุกมาจับพวกเราถึงที่\nเขตปกครองของโรงเรียนอื่นแบบนี้ด้วย?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แต่การออกคำสั่งที่ไร้ประสิทธิภาพและวุ่นวายแบบนี้ไม่ใช่วิธีของประธานกรรมการฮินะแน่ๆ เพราะงั้น\nก็ถือว่าเป็นการทำตามอำเภอใจของเธอยังไงล่ะ อาโกะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "อีกอย่าง เธอพากองกำลังมามากเกินความจำเป็นสำหรับการจับกุมพวกเรา... ที่พามาเยอะขนาดนี้\nเพราะคิดแล้วว่าจะต้องต่อสู้กับสมาชิกโรงเรียนอื่นใช่ไหมล่ะ!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แต่ถึงยังไง นักเรียนของที่นี่ก็มีกันแค่ 5 คน เพราะฉะนั้นมันก็สรุปได้แค่อย่างเดียวเท่านั้น..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เป้าหมายของเธอคือชาเล่ต์ต่างหาก เธอมาที่นี่เพื่อจัดการคุณครูต่างหากล่ะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "?!"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "วะ... ว่าไงนะ?!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "คุณครูเหรอ?!"
+    },
+    {
+      "Text": "[s] \"ครูเหรอ?\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "จริงด้วยนะคะ ฉันลืมไปเลยว่าหน่วยรับจ้างสารพัดมีคนอย่างคุณคาโยโกะอยู่ด้วย บางทีฉันคงเสียเวลา\nพูดคุยกับทุกคนมากเกินไปแล้ว..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่ก็ไม่เป็นไรค่ะ"
+    },
+    {
+      "Text": "(ตึง ตึง ตึง ตึ้ง ตึ้ง!)"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "?!"
+    },
+    {
+      "Text": "(ตึง ตึง ตึง ตึ้ง ตึ้ง!)"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "พิกัด 12 นาฬิกา... 6 นาฬิกา... 3 นาฬิกา... 9 นาฬิกา... กองกำลังของคณะกรรมการวินัยกำลังมา\nจากทุกทิศทางเลยค่ะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "...... "
+    },
+    {
+      "Text": "(ตึง ตึง ตึง ตึ้ง ตึ้ง!)"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "กำลังเสริม..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "มีอีกเหรอคะเนี่ย? ทำไมถึงได้เยอะขนาดนี้...?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม... ตอนแรกก็คิดว่าน่าจะมากไปหน่อย แต่ถ้าจะเผชิญหน้ากับชาเล่ต์ก็คงจะต้องเตรียมกองกำลังมา\nจำนวนเท่านี้แหละค่ะ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "พาคนมาเยอะๆ ก็ดีว่าพามาไม่พอนี่นา... ว่าไหมคะ? ☆"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "คิดว่าฝ่าวงล้อมออกมาได้แล้วซะอีก แต่กลับโดนล้อมอีกแล้วเหรอเนี่ย...?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถูกต้องแล้วค่ะคุณคาโยโกะ อืม.. หรือจะบอกว่าถูกแค่ครึ่งเดียวดีนะ? ฉันเตรียมพร้อมสำหรับเผชิญกับ\nสถานการณ์เลวร้ายที่สุดในการปะทะกับชาเล่ต์แล้วละค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่ฉันก็ไม่ได้ตั้งใจให้เกิดสถานการณ์นี้หรอกนะคะ หวังว่าคุณจะเชื่อที่ฉันพูด ถึงมันจะไม่ได้เชื่อกันได้ง่ายๆ ก็เถอะค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "...... สภาน้ำชา"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "นั่นคือชื่อสภานักเรียนของสถาบันทรีนิตี้ที่เป็นปฏิปักษ์กับสถาบันเกเฮนน่ามานานแล้ว"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หน่วยข่าวกรองของเราแจ้งมาว่ามีรายงานเกี่ยวกับชาเล่ต์ส่งไปถึงพวกสภาน้ำชา..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "ฉันจะกลับไปรายงานเรื่องนี้กับสภาน้ำชาค่ะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตอนแรกฉันก็ไม่รู้ว่าชาเล่ต์คืออะไร... แต่ถ้าเป็นข้อมูลที่ทางสภาน้ำชารู้ละก็ พวกฉันเองก็จำเป็นต้องรู้เช่นกันค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ฉันก็เลยไปตรวจสอบรายงานที่คุณชินัตสึเขียนไว้"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "(...กว่าจะตรวจสอบได้)"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "องค์กรปริศนาที่ประธานองค์การนักเรียนก่อตั้งขึ้น หน่วยงานสืบสวนกลางที่มี \"คุณครู\" ที่เป็นผู้ใหญ่คอย\nดูแลรับผิดชอบ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ไม่คิดว่ามันน่าสงสัยเหรอคะ?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ตัวแปรที่อาจเกิดได้จากชาเล่ต์มันอันตรายมากค่ะ แล้วก็ไม่รู้เลยว่าจะส่งผลอย่างไรต่อสนธิสัญญาที่เรา\nกับทรีนิตี้กำลังจะทำร่วมกันในอนาคต"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คณะกรรมการวินัยจะพาตัวคุณครูไป อย่างน้อยก็จนกว่าการลงนามสนธิสัญญาจะเสร็จสิ้นค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ส่วนการมาจัดการกับพวกนักเรียนที่ชอบก่อปัญหา... ถือเป็นของแถมค่ะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อธิบายได้เข้าใจง่ายดีนะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "แล้ว... คิดจะจับตัวคุณครูไปงั้นสินะ? คิดว่าได้ยินแบบนั้นแล้วเราจะอยู่เฉยๆ รึไง?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ค่ะ... สุดท้ายก็เป็นอย่างนี้จนได้เลยนะคะ คุณโอคุโซระ อายาเนะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หากสถานการณ์บังคับ และทางคณะกรรมการวินัยของเกเฮนน่าเองก็คิดจะต่อสู้แล้วละก็ พวกเราเองก็จะ\nไม่ลังเลเช่นกันค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "...."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ประธาน... ถ้าจะหนี นี่เป็นโอกาสสุดท้ายแล้วนะ ถ้าการต่อสู้เริ่มขึ้นละก็คงจะถอยไม่ได้แล้ว"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "คณะกรรมการวินัยจะกวาดล้างทั้งเราและอะบิดอสพร้อมกัน ถ้าอะบิดอสดึงความสนใจของทางนั้นได้ พวกเราก็อาจจะหาจุดอ่อนแล้วฝ่าวงล้อมออกไปได้"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "หึ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "หึหึ หึหึหึหึ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ประธาน...?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "คาโยโกะ... คาโยโกะ เธอน่าจะรู้จักนิสัยฉันดีไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "...?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ในสถานการณ์แบบนี้... ทั้งโดนดูถูกแบบนี้แล้ว ยังคิดจะหนีอีกงั้นเหรอ?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "หน่วยรับจ้างสารพัดอย่างเราไม่ทำเหมือนอันธพาลกระจอกแบบนั้นหรอกน่า!!!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "หากไม่เล่นงานเจ้าคนอวดดีพวกนั้น ฉันนอนไม่หลับแน่!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ท่านอารุ..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "(แต่เมื่อวานยังหนีอยู่เลยนะ...)"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เฮ้อ... งั้นแปลว่าเราจะสู้กับพวกนั้นเหรอ? ถึงจะร่วมมือกับอะบิดอสก็น่าจะไม่รอดอยู่ดี..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "อีกอย่างพวกอะบิดอสก็คงไม่เอาด้วยกับเราหรอก... ยังมีวิธีอื่นไหมนะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ดีละ! หน่วยรับจ้างสารพัด!! มาร่วมมือกันโจมตีพวกคนอวดดีให้ราบเป็นหน้ากลองกันเถอะ!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "มาเป็นโล่ป้องกันให้คุณครูซะดีๆ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "?!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "พวกเราจะช่วยปกป้องคุณครูด้วยกันนะคะ! เข้าใจไหมคะ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ทำไมพวกนั้นถึงเปลี่ยนเร็วขนาดนี้ล่ะ... "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อะ... อะฮ่าฮ่าฮ่าฮ่าฮ่าฮ่า!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "แน่นอนอยู่แล้ว! คิดว่าฉันเป็นเป็นใครกัน? ไม่ต้องห่วงหรอกน่า!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ตอบแทนความไว้วางใจด้วยความไว้วางใจ! นั่นแหละคติของหน่วยรับจ้างสารพัดของเรา!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ใช่ค่ะ!! คุณครูก็ช่วยเหลือเราไว้หลายอย่างเหมือนกัน! เพราะฉะนั้น...!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อีกอย่าง! จะบอกไว้ให้รู้นะ! ระเบิดนั่นไม่ใช่ความผิดพลาด! พวกเราตั้งใจต่างหากล่ะ! "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เรียกว่าอะไรดีล่ะ? สงครามประสาทขั้นสูงที่คนนอกกฎหมายที่เย็นชาอย่างฉันเท่านั้นที่ทำได้?"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อืม... สถานการณ์เป็นไปตามที่คาดไว้ก็จริง..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่ไม่รวมพลังกันเร็วไปหน่อยเหรอคะ? ทำไมเข้ากันได้ดีแบบนี้นะ..."
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เอาละ... ถ้าอย่างนั้น"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "กองกำลังคณะกรรมการวินัย... บุกโจมตีได้เลยค่ะ โจมตีคณะกรรมการแผนงานและหน่วยรับจ้างสารพัด\nแล้วจับตัวคุณครูมาให้ได้ค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คุณครูไม่ได้เป็นคนของคิโวทอส ระวังอย่าทำให้ได้รับบาดเจ็บด้วยนะคะ"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "กล้าดียังไงมายิงปืนใส่ฉัน... เตรียมโดนเอาคืนได้เลย!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อีกฝ่ายเริ่มตีวงล้อมเข้ามาแล้วค่ะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คุณครูคะ! ช่วยออกคำสั่งให้พวกเราและหน่วยรับจ้างสารพัด 68 ด้วยค่ะ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;預料之外的同盟"
+    },
+    {
+      "Name": "遙香",
+      "Text": "不可饒恕……不可饒恕……不可饒恕……不可饒恕……"
+    },
+    {
+      "Name": "遙香",
+      "Text": "不可饒──？"
+    },
+    {
+      "Text": "[s] （和遙香對到眼了）"
+    },
+    {
+      "Name": "遙香",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns1] （將視線轉向其他地方吧……）"
+    },
+    {
+      "Text": "[ns2] 當作沒看到"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "行政官……也就是風紀委員會的第二把交椅……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀，實際上沒有那麼厲害，我只是負責輔佐風紀委員長的秘書而已……"
+    },
+    {
+      "Name": "白子",
+      "Text": "真的是那樣的話，那邊的風紀委員也不至於緊張成那樣吧。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "誰，誰緊張了啊！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "原來如此，很不錯的洞察力。\n我記得……是砂狼白子同學對吧？"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "我聽說阿拜多斯目前只剩下學生會的成員，看來就是各位了吧。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "阿拜多斯學生會應該有五個人，請問另一個人在哪裡呢？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "目前不在這裡。\n而且我們並非學生會，而是對策委員會，行政官。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "你是奥空同學……對吧？\n所以這裡沒有任何學生會的成員嗎？我想和你們的學生會談談。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "阿拜多斯學生會早就解散了！\n實際上是由我們在代理學生會的職務，想說什麼就跟我們說！"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "在重重包圍還拿槍指著別人的情況下說「來談談吧～」什麼的，\n這不是談話該有的態度吧？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "呵呵，說得也是呢……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "失禮了。\n請所有人放下武器。"
+    },
+    {
+      "Text": "（咻）"
+    },
+    {
+      "Text": "（咻……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "哎呀……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "真的放下武器了……？"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "請容我對先前的愚蠢行為向各位道歉。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "什麼！？我只是按照命令行動而已耶！？亞子醬！？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "請問命令裡有包含「發動無差別砲擊」這種話嗎？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "可，可是在火力支援後派出步兵是基本戰術的核心……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "更何況我們就在其他學園的自治區附近，確實注意周邊也是理所當然的吧？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "（……？）"
+    },
+    {
+      "Name": "亞子",
+      "Text": "失禮了，對策委員會的各位。 "
+    },
+    {
+      "Name": "亞子",
+      "Text": "我們格黑娜風紀委員會，只是為了逮捕違反我們學園校規的人而來。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "雖然的確做了一些不光彩的事，但還不到違法的地步……\n希望各位能理解我們不得不出此下策的苦衷。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "可以請各位協助我們風紀委員會的工作嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "剛才也說過了……這種事太強人所難了！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "隨意在別校領地內正大光明地進行戰鬥行為這種事！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "已經明確侵犯了我們的自治權！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "便利屋的處置由我們決定！"
+    },
+    {
+      "Name": "白子",
+      "Text": "……"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "沒想到像格黑娜那麼龐大的學園，居然會做出這種惡劣的行徑！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……原來如此。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "那邊幾位也是同樣的想法呢。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "呼，面對這樣的兵力，氣勢居然一點也沒有衰弱…… "
+    },
+    {
+      "Name": "亞子",
+      "Text": "能如此充滿自信……果然是因為有可以信賴的大人在嗎？\n……吶，[USERNAME]老師？"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "夏萊的老師也和對策委員會的想法一致嗎？"
+    },
+    {
+      "Text": "[s3] 「便利屋也許是些讓人頭疼的孩子，但不是壞人。」"
+    },
+    {
+      "Text": "[s4] 「亞瑠只是有點奇怪的孩子，但並不壞。」"
+    },
+    {
+      "Text": "[s5] 「雖然有點笨笨的。但是笨得很可愛啊。」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊！？你在說什麼啊！\n他們可是把拉麵店炸飛了耶！？肯定是壞人吧！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊！？你在說什麼啊！\n他們可是把拉麵店炸飛了耶！？肯定是壞人吧！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "啊！？你在說什麼啊！\n他們可是把拉麵店炸飛了耶！？肯定是壞人吧！"
+    },
+    {
+      "Name": "白子",
+      "Text": "雖然不太確定……不過我想那應該是不小心引爆，卻又說不出口才虛張聲勢的。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "什麼？"
+    },
+    {
+      "Name": "白子",
+      "Text": "如果想針對我們，應該沒理由選在無人的時間引爆拉麵店。\n這樣只會讓計畫曝光而已，以陷阱的角度來說也是最糟的情況。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……這，這麼說也沒錯。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "所以是在準備陷阱的時候不小心引爆了……？\n那些傢伙到底笨到什麼地步啊……"
+    },
+    {
+      "Name": "白子",
+      "Text": "不過就結果來說，拉麵店還是遭到了攻擊。\n我們不能就這樣把人交給他們。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "沒錯，而且我們還沒查出他們背後的勢力。\n必須先聽聽他們的說詞才行。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "情況就是如此，交涉決裂了！\n格黑娜風紀委員會，我要求你們立刻離開！！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "…… "
+    },
+    {
+      "Name": "亞子",
+      "Text": "這下有點棘手了呢……唔嗯……事到如今也沒辦法了。\n原本想穩妥地解決……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……看來我們只能一戰了呢？"
+    },
+    {
+      "Text": "（噠噠噠噠噠噠噠！噠噠噠噠噠噠噠！）"
+    },
+    {
+      "Name": "風紀委員A",
+      "Text": "嗚哇啊──！？"
+    },
+    {
+      "Text": "（噹！噹！噹！）"
+    },
+    {
+      "Name": "風紀委員B",
+      "Text": "咕啊──！？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "怎，怎麼了！？"
+    },
+    {
+      "Name": "遙香",
+      "Text": "不可饒恕……！"
+    },
+    {
+      "Name": "伊織",
+      "Text": "什麼！？ "
+    },
+    {
+      "Name": "遙香",
+      "Text": "不可饒恕！不可饒恕！不可饒恕！不可饒恕！不可饒恕！不可饒恕！\n不可饒恕！不可饒恕！不可饒恕！不可饒恕！不可饒恕！唔啊啊啊啊啊啊啊──！！"
+    },
+    {
+      "Text": "（噠噠噠噠噠噠噠噠噠噠噠噠──！）"
+    },
+    {
+      "Name": "伊織",
+      "Text": "咕──！？嗚──！"
+    },
+    {
+      "Text": "（碰咚）"
+    },
+    {
+      "Name": "???",
+      "Text": "別說謊了，天雨亞子。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "這才不是什麼不得已的選擇，你一開始就是這麼打算的吧。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "佳世子同學……"
+    },
+    {
+      "Name": "無月",
+      "Text": "遙香醬～NICE☆"
+    },
+    {
+      "Name": "遙香",
+      "Text": "非，非常抱歉，我來晚了……！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "因，因為我的錯……！計畫全部都……！ 我可以去死嗎？現在立刻去死────！！！"
+    },
+    {
+      "Name": "無月",
+      "Text": "嗯，確實是遙香醬的錯，但是很有趣所以不用去死也沒關係吧？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "哎呀，包圍網被突破了……？ "
+    },
+    {
+      "Name": "茜香",
+      "Text": "那些傢伙，什麼時候在那種地方的……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……真有一套。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "…… "
+    },
+    {
+      "Name": "風紀委員會副隊長",
+      "Text": "非常抱歉，行政官。\n一不留神就……馬上重新將包圍網──"
+    },
+    {
+      "Name": "亞子",
+      "Text": "沒關係，反正不是什麼大問題。\n……比起這個，你說的話很有趣呢，佳世子同學？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……我一開始實在無法理解風紀委員會為何會出現在這裡。\n你們竟然會追到其他的自治區來？就為了我們？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "這種沒效率的手段不像風紀委員長的作風。\n亞子，這件事是你擅作主張對吧？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "而且以對付我們而言，這些兵力再怎麼說都太多了。\n如果你們設定的戰鬥對象是其他集團，話才說得通。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "然而阿拜多斯的全校學生加起來也不過5個人……那麼結論只有一個。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "亞子，你的目標是夏萊。\n你從一開始就是衝著老師來的。"
+    },
+    {
+      "Name": "白子",
+      "Text": "！？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "你，你說什麼！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "老師嗎……！？"
+    },
+    {
+      "Text": "[s]「我嗎？」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "呵呵，原來如此。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……啊啊，我都忘記佳世子同學也是便利屋的成員了。\n不該悠哉聊天的……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不過算了，沒關係。"
+    },
+    {
+      "Text": "（唦，唦，唦，唦，唦，唦，唦，唦……）"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "！？"
+    },
+    {
+      "Text": "（唦，唦，唦，唦，唦，唦，唦，唦……）"
+    },
+    {
+      "Name": "綾音",
+      "Text": "12點鐘方向、6點鐘方向……3點鐘、9點鐘……\n更多風紀委員會的兵力正往這邊集結……！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "…… "
+    },
+    {
+      "Text": "（唦，唦，唦，唦，唦，唦，唦，唦……）"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "……增援。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "居然還有……而且竟然這麼多……！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "嗯……雖然我覺得這樣確實有點過火……\n不過既然是和夏萊為敵，做到這個程度也是合情合理吧……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "畢竟準備過頭總比準備不足來得好☆"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "本以為順利突破了……原來包圍網有兩層……？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不愧是佳世子同學呢。你說的沒錯……不，還是該說對了一半呢？\n我確實考慮到了和夏萊發生衝突的最糟情況。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不過我並不是刻意造成這種局面的，這點希望你能相信我……雖然有點難就是了。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……茶會。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "各位應該聽說過吧，\n那是和格黑娜學園長期處於敵對關係的，三一綜合學園的學生會。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "我們的情報部得知那個茶會，獲得了有關夏萊的報告書。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "我回去之後會向茶會報告這件事的！"
+    },
+    {
+      "Name": "亞子",
+      "Text": "當初我也不知道「夏萊」到底是什麼……\n不過既然是茶會掌握的情報，我們當然也必須得知。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "因此我確認了千夏同學寫的報告書。"
+    },
+    {
+      "Name": "千夏",
+      "Text": "（確認的也太晚了吧……？）"
+    },
+    {
+      "Name": "亞子",
+      "Text": "聯邦學生會長創立的神祕組織……由身為大人的老師負責的超越法規的社團。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不管是誰都會覺得很可疑吧？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "那個名叫夏萊的組織，可能會為我們帶來相當大的變數……\n甚至連我們和三一即將簽訂的條約都有可能受到影響。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "所以至少在簽訂條約之前，老師必須由我們風紀委員會來照顧。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "順便來教化那些為所欲為的……不良學生。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯，情況變得容易理解，反而不錯。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "……想把老師帶走？\n以為我們會說「好，請自便」嗎？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……呵呵，果然發展成這樣了啊。那就沒辦法了呢，奧空綾音同學？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "格黑娜風紀委員會判斷有必要的話就會使用武力。\n一旦決定了就絕對不會手下留情。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……！！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "社長，要逃跑的話現在就是唯一的機會。\n一旦戰鬥開始就無法回頭了。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "風紀委員會打算同時將我們和阿拜多斯一網打盡。\n如果趁著阿拜多斯吸引住他們注意力的空檔，就可以從包圍薄弱的地方……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……呵。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "呵呵，呵呵呵呵。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……社長？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……佳世子啊佳世子，你應該早就了解我的個性了吧？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "在這種情況下受到這種待遇……要我夾著尾巴逃跑？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我們便利屋怎麼可能會做出那種三流惡人的行徑！！！"
+    },
+    {
+      "Name": "無月",
+      "Text": "……啊哈。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "不讓囂張的風紀委員會吃點苦頭，今天晚上怎麼睡得著覺！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "亞瑠大人……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "（昨天不是馬上逃跑了嗎……）"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "呼……所以你打算從正面和那些兵力對抗？\n就算和阿拜多斯聯手也很勉強吧……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "再說，阿拜多斯也不可能和我們合作……這樣的話……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "好，便利屋！夾攻他們吧！！必須把風紀委員會痛扁一頓才行！！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "來當老師的肉盾吧。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "大家一起保護老師，可以吧？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "真好說話啊……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "呵呵……啊哈哈哈哈哈哈！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "那當然！你們以為我是誰？用不著擔心！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "用信任來報答信任！那就是我們便利屋的座右銘！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "是！！因為我們也受到老師不少照顧！我絕對會成功的……！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "還有趁現在先說清楚！\n我們才不是不小心引爆！是刻意的！ "
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "這可是像我這樣冷血的不法之徒才懂得使用的高難度心理戰術……！"
+    },
+    {
+      "Name": "無月",
+      "Text": "……嗚哇，自掘墳墓。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "唔嗯……雖然這個情況也在預料之中……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "不過話又說回來，意氣相投的速度會不會太快了？\n這點倒是出乎意料……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "……但也無所謂了。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "風紀委員會，開始攻擊。\n請鎮壓對策委員會和便利屋，並確保老師的人身安全。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "老師是奇普托斯外部的人，請千萬注意不要傷害到他。"
+    },
+    {
+      "Name": "伊織",
+      "Text": "剛才用散彈槍射得很開心嘛……給我做好覺悟！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "敵軍展開了包圍！請突破！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師！麻煩指揮我們和便利屋68！"
+    }
+  ]
+}

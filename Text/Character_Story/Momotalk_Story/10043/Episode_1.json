@@ -1,0 +1,2817 @@
+{
+  "TitleJP": "ただあなた様のため",
+  "TitleKR": "그저 당신을 위한 마음에",
+  "TitleEN": "Because It's for You",
+  "TitleTH": "ด้วยใจที่อยากมอบให้คุณ",
+  "TitleTW": "只為閣下",
+  "DescJP": "夏がきたというのに、花火大会の準備で仕事漬けの先生を心配したワカモは、「完璧な夏の思い出」を作ろうとシャーレにやってくる。けれど、先生にとっての「完璧な夏の思い出」を計画できる自信がないのだと告げ、先生にやりたいことを聞き出しては物騒な解釈をしては実行に移そうとし……。最終的に、シャーレで一緒に仕事一夜漬けを行うことで事なきを得るのだった。",
+  "DescKR": "여름이 되었는데도 여전히 샬레의 사무실을 벗어나지 못하는 선생님에게 직접 여름의 추억을 선물하고자 찾아온 와카모. 선생님은 와카모가 준비한 여러 여름 이벤트가 바로 엄청난 사건으로 이어질 것을 감지한다. 그래서 대신에 와카모에게 여름의 추억이 될 수 있는 일을 직접 제안하기로 한다.",
+  "DescEN": "Wakamo goes to the office to make summer memories for Sensei, who's stuck in the Schale office. Sensei senses that summer events prepared by Wakamo will lead to disaster and suggests to Wakamo some safe things they could do to make great summer memories.",
+  "DescTH": "คุณครูยังคงงานยุ่งในสำนักงานชาเล่ต์เหมือนเคยแม้จะเข้าฤดูร้อนแล้ว\nวาคาโมะจึงมาหาคุณครูเพื่อมอบความทรงจำในฤดูร้อนให้เป็นของขวัญ\nคุณครูรู้สึกได้ว่ากิจกรรมฤดูร้อนมากมายที่วาคาโมะเตรียมมาจะนำมาสู่\nเหตุการณ์ที่ยิ่งใหญ่ จึงเสนออย่างอื่นที่พอจะเป็นความทรงจำในฤดูร้อนได้\nให้กับวาคาโมะ",
+  "DescTW": "明明夏天到來了，擔心著沉浸在煙火大會準備工作中的老師的若藻，為了製造「完美的夏日回憶」來到了夏萊。然而，告知老師沒有自信為其計劃出「完美的夏日回憶」的自信，詢問老師想做的事並以危險的解釋進行實行……。最終，在夏萊一起工作整夜所以沒有釀成大禍。",
+  "DialogJP": [
+    {
+      "Text": "ただあなた様のため"
+    },
+    {
+      "Text": "（本格的な季節の変化が訪れ、シャーレにも夏に関する様々な業務が舞い込んできた）"
+    },
+    {
+      "Text": "[ns] \"夏だからなのか、お祭り関連の仕事が多い気がする……。\""
+    },
+    {
+      "Text": "（地域の花火大会に向けて、住民への協力要請や、そのための段取り……お祭りで使用する各種備品の安全確認などなど……）"
+    },
+    {
+      "Text": "（シャーレに押し寄せてきたそれらの仕事を慌しく処理していた時だった）"
+    },
+    {
+      "Text": "[ns1] \"もうお昼か……。\""
+    },
+    {
+      "Text": "[ns2] \"ご飯でも買ってこようかな。\""
+    },
+    {
+      "Text": "[ns] \"……ん？入り口が騒がしいけど、なにかあったのかな……。\""
+    },
+    {
+      "Name": "通りすがりのおばさんA",
+      "Text": "往来のど真ん中で水着姿だなんて……。"
+    },
+    {
+      "Name": "通りすがりのおばさんB",
+      "Text": "もしかして、ドラマの撮影でもあるのかしら？"
+    },
+    {
+      "Name": "通りすがりのおばさんA",
+      "Text": "それにしてはカメラもスタッフも見当たらないわね……そういえばここ、シャーレの事務所前……ということは。"
+    },
+    {
+      "Name": "通りすがりのおばさんA",
+      "Text": "もしかして……シャーレの先生に呼び出されたのかしら？"
+    },
+    {
+      "Name": "通りすがりのおばさんB",
+      "Text": "あらまぁ……シャーレの先生にそんな趣味が……?"
+    },
+    {
+      "Text": "[s3] \"誤解です！\""
+    },
+    {
+      "Text": "[s4] \"なんでここにワカモが……！？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あぁ……！先生……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ……お待ちしておりました、あなた様。"
+    },
+    {
+      "Text": "[s5] \"ワカモ……どうして水着で……！？\""
+    },
+    {
+      "Text": "[s6] \"私何かワカモに悪いことした……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "えっ……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "えっ……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "いえ、私はただ……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "こんな真夏の素晴らしい日が……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "身も心も熱く焦がしてしまいそうな、素敵な日が訪れたというのに、あなた様がずっとオフィスにいらっしゃると伺って……居ても立っても居られず……。"
+    },
+    {
+      "Text": "[s] \"居ても立っても居られず……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ。私とあなた様が出会ってから、こうして一緒に迎えることが叶った初めての夏ですから。私にとって、あまりにも特別なこの瞬間を……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様をオフィスに一人残して過ごすだなんて……このワカモ、そんなことはできません。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "時間はいつだって限られているのです。この季節がむなしく過ぎてしまえば、また次の夏を迎えるまで1年も待たなければなりません。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……もちろん、季節を指折り数えることもまた醍醐味ではあります……ですが。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それでも、まだこうして私の手があなた様に届くのであれば……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "何もせず、この季節を浪費するだなんて、そんなことはできません。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様と私が一緒に過ごす時間は、毎秒輝かしいものであってほしいですから。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "今日というこの日が、あなた様の思い出に残る一日になってほしいと願い……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ。恥を忍んで……このように♡"
+    },
+    {
+      "Text": "[s] \"えっと……つまり、ワカモが水着なのは……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ……はい。あなた様に、忘れられない夏の思い出をプレゼントしようと思いまして♪"
+    },
+    {
+      "Text": "[s] \"忘れられない夏の思い出……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ……いかがでしょう、この水着。夏の思い出に相応しくはありませんか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様好みの一品を悩みぬいて選んだものです♡何卒、あなた様の口からお言葉をいただければと♡"
+    },
+    {
+      "Text": "[s] \"あ、うん……すごく綺麗だよ。ワカモによく似合ってる。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "っ……！？"
+    },
+    {
+      "Text": "[s] \"……ワカモ？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あ、ああ……あなた様が口にしてくださるお言葉、甘やかな声。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "い、いけません……そんな風にお言葉を頂いてしまったら、もう私……。"
+    },
+    {
+      "Name": "通りすがりのおばさんA",
+      "Text": "……先生は良いご趣味をなさっているのねぇ。"
+    },
+    {
+      "Name": "通りすがりのおばさんB",
+      "Text": "あらまあ……。"
+    },
+    {
+      "Text": "[s7] \"だから誤解です！\""
+    },
+    {
+      "Text": "[s8] \"ワカモ、とりあえず場所を移そう！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "は、はいっ……！？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "は、はいっ……！？"
+    },
+    {
+      "Text": "（騒ぎが大きくなる前に、とりあえずワカモを連れてシャーレの休憩室に戻ることにした）"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そんなに切羽詰った顔で、私をシャーレに連れてきてくださるなんて……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そのお顔を、おそばで見つめていたい気持ちがむくむくと……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ……これも全て、あなた様が私の気持ちを心から理解してくださったお陰なのでしょうか……?"
+    },
+    {
+      "Text": "[s] \"うん、ワカモが私のことを考えてくれる気持ちは伝わってるよ……色んな意味で。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ、嬉しい……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふ、それではこれから何を致しましょう……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "今日というこの日が「あなた様にとって完璧な夏の思い出」となるために、私にお手伝いできることを教えてくださいませ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモ、あなた様のためならどんなリクエストでも応じてみせましょう。"
+    },
+    {
+      "Text": "[s] \"あ、リクエスト制なんだ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ……あなた様のお手を煩わせないために、私の方で用意するというのも考えましたが……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "「あなた様にとって完璧な夏の思い出」を作れる確信がなかったと申しますか……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "せっかくこうしてお会いできるのですから、あなた様にとって最高の思い出を作っていただきたく、躊躇してしまったといいますか……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私ったら不束者で、面目ございません……。"
+    },
+    {
+      "Text": "[s9] \"ううん、むしろそこまで考えてくれてすごく嬉しいよ。\""
+    },
+    {
+      "Text": "[s10] （ワカモが計画を立てていたら、何が起こるか分からないし……）"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それなら良かったのですが……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それなら良かったのですが……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "さあ、それでは……あなた様のお望みは何でしょうか？何なりと仰ってください♡"
+    },
+    {
+      "Text": "[s] \"夏の日の思い出……かき氷を食べる、とか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "かき氷……?"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "なるほど……ええ、分かりました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "確かに……あなた様と味わうかき氷は極上の逸品となるでしょう……ええ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "お互いに氷を食べさせ合うことで舌先に広がるほろ苦い甘味と……ゆっくりと訪れる甘美な痛み。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……私がその痛みに戸惑っている様を、あなた様は目元を緩めて冗談を言い、気遣ってくださることでしょう……うふふっ。"
+    },
+    {
+      "Text": "[s11] \"そ、そうだね……？\""
+    },
+    {
+      "Text": "[s12] （絶賛妄想中なのかな……）"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ……そして、こちらに来る途中で私、良いものを見つけたのです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ……そして、こちらに来る途中で私、良いものを見つけたのです。"
+    },
+    {
+      "Text": "[s] \"有名なかき氷屋さんの露店とか？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "いえ、かき氷屋さんではないのですが……道すがら、このようなイベントを見かけまして。"
+    },
+    {
+      "Text": "（ワカモがスマホで見せてくれたのは、近所で行われているイベントの情報だった）"
+    },
+    {
+      "Text": "（そこには……）"
+    },
+    {
+      "Text": "[s] \"「レッドウィンター万年雪彫刻ショー」……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ、レッドウィンター連邦学園から取り寄せた特別な氷で作った彫刻を展示しているそうなんです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "特に、ひげで威厳を表現したとある彫刻が有名らしく……。"
+    },
+    {
+      "Text": "[s] \"ええと、それとかき氷に何の関係が……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "展示されている彫像は、真夏でも溶けずに残っている北の地域の天然氷で作られているそうなのです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それならば、その氷像の一部を削ってかき氷を作ることができれば……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様の最高の日を彩るのに相応しい特別なかき氷が作れるはず……！"
+    },
+    {
+      "Text": "[s] \"ス、ストップ！かき氷はやめよう！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ダメ、ですか……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ、そうですね。衛生的にも清潔ではありませんね。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモ、あなた様のために特別なかき氷を用意したいという気持ちばかりが急いてしまって……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "当たり前のことを見落としておりました。申し訳ございません。"
+    },
+    {
+      "Text": "[s] \"……水遊びとかはどうかな？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "水遊び……ですか。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そうですね……夏に欠かせない素敵な営みですし、水着に似合うお誘いではありますが……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "シャーレの備品にビニールプールなどはありましたでしょうか？このワカモ、記憶になく……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そうなると、一体どこで水遊びを……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……私、理解致しました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あなた様のお言葉は、いつだってこのワカモに新しい気づきを与えてくださりますね。"
+    },
+    {
+      "Text": "[s] \"深い意味があったわけじゃないんだけど……って分かったって、何が！？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ……あなた様は時に意地悪をなさります。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私のことを試しているのですよね？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そんなところも、お可愛らしい人……ですが、ええ。このワカモ、あなた様のことでしたらなんだってお見通しです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このビルの屋上に給水タンクがございましたよね？"
+    },
+    {
+      "Text": "[s] \"あるけど……それがどうしたの？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それを爆破すれば、ビル全体が浸水し……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "プールの用意などせずとも、水遊びが可能になる……あなた様が仰りたいのはそういうことですよね？"
+    },
+    {
+      "Text": "[s13] \"そんな純真な目で見つめられると、心苦しいんだけど……\""
+    },
+    {
+      "Text": "[s14] \"そういう意図ではないんだ……！ごめん、それもストップで！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "そう……なのですか。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "難しいですね……。"
+    },
+    {
+      "Text": "（その後も、ワカモと「完璧な夏の思い出」づくり計画を話し合った……）"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ホタル観賞……きらめく火の粉が舞う姿……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふ、任せてください。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモ、その程度でしたら……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "え？やめてほしい……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……それでしたら、"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "このワカモが全てを薙ぎ払って……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ダメなのですか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ、難しいですね……一体どうしたら良いのか……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ですが、これも全てあなた様と私が同じ夢に向けて努力しているのだと思うと……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "心の奥底から幸せが……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ、溢れてしまいそう♡"
+    },
+    {
+      "Text": "[s] \"そ、そうだね……！\""
+    },
+    {
+      "Text": "（どんな提案をしてみても、どれも斜め上の解決策を返してくるワカモを前に頭を悩ませ続けていると……）"
+    },
+    {
+      "Text": "（急にアイデアが浮かんだ）"
+    },
+    {
+      "Text": "[s] \"……そういえば、ワカモと一緒にやりたいことがあるんだ。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "えっ……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ここは……普段、あなた様がお仕事をされている……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "こんなところに二人きりで……一体何を……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……ああっ！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふふっ……二人きりで、他人の目が及ばぬところで過ごす特別な夏……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ええ、このワカモ、心の準備はとうの昔に済ませておりますとも。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "さあ、何なりとご用命くださいませ……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あ・な・た・様♡"
+    },
+    {
+      "Text": "（何を提案しても暴走してしまうワカモにおとなしくしてもらうための苦肉の策……）"
+    },
+    {
+      "Text": "[ns] \"それは……夏の日の仕事漬け！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "…………えっ？"
+    },
+    {
+      "Text": "[s15] \"夏に親しい友達で集まって、一夜漬けをする事だよ。\""
+    },
+    {
+      "Text": "[s16] \"ちょうど仕事もたくさんあるし、これを一緒にこなすのはどうかな、と思って。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "え？その……えっ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "本当にそんなことで……大丈夫なのですか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "「あなた様にとって完璧な夏の思い出」となるのでしょうか……？"
+    },
+    {
+      "Text": "[s] \"もちろん。ワカモと二人きりでやる事に意味があるからね！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私と、ふ、ふ、二人きりで……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい……はいっ！あ、あなた様がそう仰るのでしたら……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふっ♡"
+    },
+    {
+      "Text": "（どうにかワカモと一緒に「完璧な夏の思い出」を作った）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "그저 당신을 위한 마음에"
+    },
+    {
+      "Text": "(본격적인 여름이 찾아오며 샬레에도 그와 관련한 여러 업무가 밀려들게 되었다.)"
+    },
+    {
+      "Text": "[ns] \"아무래도 여름이라 그런지, 축제 관련된 일이 많구나…….\""
+    },
+    {
+      "Text": "(지역 불꽃놀이 축제 준비를 위한 주민과의 협조라거나, 그 제반 사항을 위한 준비, 그 밖에도 축제에서 사용될 각종 비품의 안전확인 등등.)"
+    },
+    {
+      "Text": "(그렇게 샬레에 밀려든 여러 일을 정신없이 처리하고 있을 때였다.)"
+    },
+    {
+      "Text": "[ns1] \"으음, 벌써 점심인가…….\""
+    },
+    {
+      "Text": "[ns2] \"잠깐 밥이라도 사 올까.\""
+    },
+    {
+      "Text": "[ns] \"……응? 입구가 소란스러운데, 뭔가 일이라도…….\""
+    },
+    {
+      "Name": "지나가던 아주머니 A",
+      "Text": "길거리 한복판에서 수영복 차림이라니. 어머어머."
+    },
+    {
+      "Name": "지나가던 아주머니 B",
+      "Text": "혹시 드라마 촬영이라도 있는 걸까요?"
+    },
+    {
+      "Name": "지나가던 아주머니 A",
+      "Text": "그런 것치고는 카메라도 없고…… 그러고 보니, 여기 샬레 사무실 앞이죠?"
+    },
+    {
+      "Name": "지나가던 아주머니 A",
+      "Text": "설마…… 샬레의 선생님이 따로 불렀다던가……?"
+    },
+    {
+      "Name": "지나가던 아주머니 B",
+      "Text": "어머어머……. 샬레의 선생님에게 그런 취미가……?"
+    },
+    {
+      "Text": "[s3] \"오해입니다!\""
+    },
+    {
+      "Text": "[s4] \"그보다 와카모가 왜 여기에……?!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "아……! 선생님……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗. 당신. 기다리고 있었답니다."
+    },
+    {
+      "Text": "[s5] \"아무런 말도 없이? 그것도 수영복 차림으로……?! 어째서?!\""
+    },
+    {
+      "Text": "[s6] \"혹시 나, 와카모에게 뭔가 잘못한 거라도 있어?!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아니요. 저는 단지……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모, 모처럼 오늘같이 무더운 여름이 찾아와 몸과 가슴이 달아오르는데도 불구하고."
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신께서 줄곧 사무실에만 계신다는 이야기를 듣고, 이대로 가만히 있으면 안 되겠다고 생각하여……."
+    },
+    {
+      "Text": "[s] \"가만히 있으면 안 된다니, 무슨 뜻이야?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "그야 모처럼 저와 당신이 만난 뒤로, 이렇게 함께 맞이한 여름이잖아요……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "제게 있어 너무나도 특별한 이 시간을 당신께서는 그저 사무실에서 홀로 보내신다니. 이 와카모. 그런 건 참을 수 없답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "시간은 언제나 한정된 것. 이번 계절이 덧없이 지나가 버리면, 또다시 이러한 계절을 맞이하기 위해 앞으로 1년이란 시간이 필요할 터."
+    },
+    {
+      "Name": "와카모",
+      "Text": "……물론 그런 기다림을 맞이하는 것 또한 하나의 여흥이라 할 수도 있겠습니다마는."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그러하더라도 아직 와카모의 손을 뻗을 수 있다면……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 아무것도 하지 않은 채, 시간이 덧없이 흘러가도록 내버려 두지는 않겠습니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신과 제가 함께 보내는 매 순간은 반짝였으면 하기에."
+    },
+    {
+      "Name": "와카모",
+      "Text": "오늘이라는 이 날이, 부디 당신의 추억에 남는 완벽한 하루가 되길 바라는 마음에……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "직접 부끄러움을 무릅쓰고 이렇게♡"
+    },
+    {
+      "Text": "[s] \"그럼 와카모가 수영복 차림인 건…….\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗, 네, 당신에게 잊지 못할 여름의 추억을 선물하고자 생각했으니까요♪"
+    },
+    {
+      "Text": "[s] \"잊지 못할 여름의 추억…….\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "어떠신가요? 이 복장. <여름의 추억>을 쌓고자 하는 생각에 딱 맞게, 그야말로 여름이란 느낌이 물씬 풍기지 않나요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신께서 무얼 마음에 들어 해 주실까. 고심하고 고심해서 고른 물건이랍니다아♡ 부디, 당신의 입으로 감상을♡"
+    },
+    {
+      "Text": "[s] \"아, 응. 그렇네. 확실히 엄청 예쁜걸, 와카모에게 잘 어울려.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "읏……?!"
+    },
+    {
+      "Text": "[s] \"……와카모?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "아, 아아아아……. 당신께서 무심코 건네주시는 그 칭찬, 달콤한 목소리."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아, 아니 되어요. 이 와카모, 당신의 그런 말을 들어버리면, 더는, 더는 참을 수 없게 되어버려서……."
+    },
+    {
+      "Name": "지나가던 아주머니 A",
+      "Text": "아무래도 정말 샬레 선생님의 취미 때문인 걸까요?"
+    },
+    {
+      "Name": "지나가던 아주머니 B",
+      "Text": "에그머니나. 이를 어째."
+    },
+    {
+      "Text": "[s7] \"그러니까 오해입니다!\""
+    },
+    {
+      "Text": "[s8] \"와카모! 일단 자리를 옮기자!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "넷? 후아아. 네, 네엣……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "넷? 후아아. 네, 네엣……."
+    },
+    {
+      "Text": "(괜한 소란이 더 커지기 전에, 일단 와카모를 데리고 샬레의 휴게실로 돌아왔다.)"
+    },
+    {
+      "Name": "와카모",
+      "Text": "그렇게나 다급한 얼굴을 하시고선 절 샬레로 데리고 와주시다니……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "당신의 그 얼굴, 이렇게 가면을 벗고 직접 곁에서 응시하고 싶은 마음이 무럭무럭……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗……. 이것도 전부 당신께서 제 마음을, 또한 진심으로 이해해 주신 덕분일까요……?"
+    },
+    {
+      "Text": "[s] \"응, 와카모가 날 생각해주는 마음은 정말 확실하게 전해졌어. 여러 의미로.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 그러신가요? 기뻐라……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "자아, 그럼 이제부터 무엇을 시작해볼까요? 선생님……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "오늘 하루가 <당신께 완벽한 여름날의 추억>이 되기 위해, 당신께서 바라는 것이 무엇일까요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모, 당신을 위해서라면 어떠한 리퀘스트라도 응할 준비가 되어 있답니다."
+    },
+    {
+      "Text": "[s] \"아, 리퀘스트, 란 말이지.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 물론…… 당신의 손을 번거롭게 하지 않기 위해, 제가 직접 준비한다는 방법도 있었겠습니다만……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "여러모로 고민해본 결과, 그랬다간 문자 그대로 <당신께 완벽한 여름날의 추억>이 될 확신이 없었달까……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "기왕 이렇게 만났으니만큼, 이 와카모, 부디 당신께서 바라는 완벽한 오늘이 되었으면 하는 마음에, 주저하고야 말았달까……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아…… 참 저도 부족하기 짝이 없어, 면목이 없습니다……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "죄송합니다. 선생님……."
+    },
+    {
+      "Text": "[s9] \"아냐! 오히려 그렇게 배려해준 게 좋아! 응!\""
+    },
+    {
+      "Text": "[s10] (와카모가 계획을 짰더라면 터무니없는 일이 됐을지도 모르니까!)"
+    },
+    {
+      "Name": "와카모",
+      "Text": "그러시다면 다행이네요. 우후훗."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그러시다면 다행이네요. 우후훗."
+    },
+    {
+      "Name": "와카모",
+      "Text": "자, 어떠한 것이라도 좋답니다. 바라는 것은 무엇인가요? 가감없이 말씀해주시길♡"
+    },
+    {
+      "Text": "[s] \"여름날의 추억……이라면, 역시 빙수 먹기……라거나?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "빙수……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "과연, 으음, 그런 것이로군요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "확실히……. 여름의 풍물시하면 빠질 수 없는 것이 애틋한 당신과 함께 맛보는 차디찬 빙수의 맛."
+    },
+    {
+      "Name": "와카모",
+      "Text": "서로 먹여주며, 얼음을 입에 물었을 때 혀끝으로 퍼지는 알싸한 단맛과 함께 찡하고 찾아오는 두통."
+    },
+    {
+      "Name": "와카모",
+      "Text": "……제가 당황하며 생경한 아픔에 머뭇거리고 있노라면, 당신은 필시 웃으며 농을 건네주시겠지요…… 우후훗."
+    },
+    {
+      "Text": "[s11] \"아, 응. 그런 느낌이지……?\""
+    },
+    {
+      "Text": "[s12] (절찬리에 망상 중이구나…….)"
+    },
+    {
+      "Name": "와카모",
+      "Text": "좋습니다. 그렇지 않아도 마침 이곳에 오는 길에 딱 좋은 걸 발견하기도 했답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "좋습니다. 그렇지 않아도 마침 이곳에 오는 길에 딱 좋은 걸 발견하기도 했답니다."
+    },
+    {
+      "Text": "[s] \"어? 뭔가 유명한 빙수 가게라도 있던 거야?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "후훗. 아니요. 오늘 길에 마침 우연히 이런 이벤트가 있다는 걸 봤었기에."
+    },
+    {
+      "Text": "(와카모가 미소 지으며 들고 있던 핸드폰을 통해 보여준 건, 근처에서 현재진행형으로 열리고 있던 이벤트의 정보였다.)"
+    },
+    {
+      "Text": "(거기에 쓰여있기를…….)"
+    },
+    {
+      "Text": "[s] \"<여름맞이 붉은겨울 만년설 조각 전시회>……?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 마침 붉은겨울 학원에서 공수해 온 각종 특별한 얼음 조각을 전시하고 있다고 하길래."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그중엔 특히나 수염으로 위풍당당한 위엄을 표현한 조각상이 유명하다고 했던가요……?"
+    },
+    {
+      "Text": "[s] \"저기, 이거랑 빙수가 무슨 관련이…….\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "전시되어 있는 조각상은 한여름에도 녹지 않는 북쪽 지역의 천연 얼음으로 만들어졌다고 해요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그러니 몰래 그 얼음 조각상을 탈취해 빙수를 만들 수만 있으면……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "필시 오늘 하루를 특별하게 만들어줄, 당신만을 위한 멋진 빙수가……!"
+    },
+    {
+      "Text": "[s] \"스토옵, 스톱! 응! 빙수는 그만두자! 와카모!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네? 그건 곤란해?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "그 이전에 조각상이니 위생적으로도 좋지 않아……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 과연 그렇군요……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모, 당신을 위해서라는 생각에만 몰두한 나머지, 그런 부분을 미처 신경 쓰지 못하였군요. 죄송합니다……."
+    },
+    {
+      "Text": "[s] \"빙수는 됐고. 그래, 물놀이. 물놀이는 어때?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "과연 물놀이인가요……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "말 그대로 여름하면 빼놓을 수 없는, 특히나 제가 갖춰 입은 이 복장에도 잘 어울리는 행위라 할 수 있겠군요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "샬레의 비품에 비닐 풀과 같은 것들이 있었는지요? 이 와카모, 기억이 나질 않네요……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "도대체 어디에서 물놀이를 해야……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아핫- 그렇군요. 당신의 말씀은, 그런 의미였나요……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모, 이해했답니다."
+    },
+    {
+      "Text": "[s] \"아니, 큰 의미가 있던 건 아닌데. 알겠다니, 뭘?!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗……. 당신은 때로 이 와카모에게 짓궂은 심술을 부리시곤 하니까요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "저를 시험하시고 계시는 거군요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "그런 부분까지 전부 포함해, 참으로 귀여우신 분……이라고 생각한 참입니다만, 네, 이 와카모. 지금 번뜩였답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "분명 이 빌딩 옥상에 급수탱크가 있었지요?"
+    },
+    {
+      "Text": "[s] \"있긴 한데, 급수탱크는 왜……?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "……그걸 폭파하기만 한다면 빌딩 전체가 물바다로……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 즉 물놀이장으로 바뀌는 것도 시간문제. 당신께서 제시한 가벼운 문답 맞추기의 정답은, 필시 이것이겠지요?"
+    },
+    {
+      "Text": "[s13] \"아니, <정답이죠?> 라는 듯이 보는 와중에 미안하지만-\""
+    },
+    {
+      "Text": "[s14] \"전혀 그런 의도가 아니었으니까! 그것도 스톱, 취소야!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "어머나, 그러신, 가요……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "어렵네요……."
+    },
+    {
+      "Text": "(그 뒤로도 와카모와 함께 완벽한 여름의 추억을 만들기 위한 이야기를 계속 주고 받았다…….)"
+    },
+    {
+      "Name": "와카모",
+      "Text": "반딧불이 구경……이라면, 분명 반짝이는 불티를 말씀하시는 것……. "
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗, 맡겨만 주시길. 이 풍경에 불길을 수놓는 것쯤이야."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모에겐……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네? 아닌가요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "……하는, 그 말씀이시라면,"
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모가 전부 부수면……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네? 이것도 아냐……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 어렵네요. 대체 어찌하면 좋을지……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "하지만 이것도 전부, 당신께서 저와 보다 완벽한 여름을 꿈꾸시기에 그러시는 거라 생각하니……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이 와카모, 가슴 깊은 곳에서 행복이 솟구쳐서……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 넘쳐흘러 버려요♡"
+    },
+    {
+      "Text": "[s] \"그, 그래! 그런 거야……!\""
+    },
+    {
+      "Text": "(무슨 선택지를 꺼내더라도 그 앞엔 지뢰밖에 놓여있지 않은 상황 속에서, 정말 어떡하면 좋을지 머리를 굴리던 그때.)"
+    },
+    {
+      "Text": "(불현듯 아이디어가 떠올랐다.)"
+    },
+    {
+      "Text": "[s] \"맞다. 와카모, 나, 이번 여름 와카모와 단둘이 하고 싶은 게 있어!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "이곳은 평소 당신께서 업무를 보시는 곳……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "이런 곳에서 단둘이 하고 싶으신 것이라니……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "……아아! "
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후후훗, 그렇군요……. 과연, 단둘이. 타인의 시선이 미치지 않는 곳에서 보내는 특별한 여름……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 이 와카모, 얼마든지 준비가 되어 있답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "자아, 무엇을 원하시나요? 저와 무엇을 하고 싶으신가요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "다.앙.신♡"
+    },
+    {
+      "Text": "(바깥에 나가지 않고, 무엇을 해도 폭주하려는 와카모를 여기에 붙잡아 두기 위한 방법으로 떠올려낸 궁여지책.)"
+    },
+    {
+      "Text": "[ns] \"그건 여름날의 업무 벼락치기야!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "…………네?"
+    },
+    {
+      "Text": "[s15] \"그 왜, 여름에 친한 사이끼리 자주 하잖아? 밤샘 벼락치기.\""
+    },
+    {
+      "Text": "[s16] \"마침 업무가 밀려 있으니, 이걸 같이 하는 건 어떨까, 해서.\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네? 저, 그게, 저기……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "하지만, 정말로 그런 걸로, 그게, 괘, 괜찮으신가요……? "
+    },
+    {
+      "Name": "와카모",
+      "Text": "정말 특별한 여름을 위한 추억……이 될는지?"
+    },
+    {
+      "Text": "[s] \"물론이야. 와카모랑 단둘이 한다는 게 중요하니까!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "저와, 다, 다, 단둘이……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 네엣! 다, 다, 당신께서 그렇게 말씀하신다면……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후훗♡"
+    },
+    {
+      "Text": "(그렇게 어찌어찌 와카모와 함께 난데없는 특별한 하루를 보내게 되었다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Because It's for You"
+    },
+    {
+      "Text": "It was the middle of summer, and Schale was busy with various tasks."
+    },
+    {
+      "Text": "[ns] \"There's a lot of festival-related work for the season...\""
+    },
+    {
+      "Text": "Cooperation with residents to prepare for the local firework festival, preparation for general matters, safety checks for various equipment to be used at the festival, etc... It was endless."
+    },
+    {
+      "Text": "I was trying to organize all the tasks assigned to Schale."
+    },
+    {
+      "Text": "[ns1] \"Hmm, it's already lunchtime...\""
+    },
+    {
+      "Text": "[ns2] \"I should get takeout.\""
+    },
+    {
+      "Text": "[ns] \"There's something going on at the entrance...\""
+    },
+    {
+      "Name": "Middle-Aged Female Passerby A",
+      "Text": "Who wears a swimsuit in the middle of the street? Whoa."
+    },
+    {
+      "Name": "Middle-Aged Female Passerby B",
+      "Text": "Maybe there's some filming going on?"
+    },
+    {
+      "Name": "Middle-Aged Female Passerby A",
+      "Text": "But I don't see a camera... By the way, isn't this the front of the Schale office?"
+    },
+    {
+      "Name": "Middle-Aged Female Passerby A",
+      "Text": "No way... Did the Schale Sensei ask her to do this?"
+    },
+    {
+      "Name": "Middle-Aged Female Passerby B",
+      "Text": "Whoa, whoa... There's something seriously wrong with them."
+    },
+    {
+      "Text": "[s3] \"This is a misunderstanding!\""
+    },
+    {
+      "Text": "[s4] \"Hey, what's Wakamo doing here?!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, Sensei...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee. I've been waiting for you."
+    },
+    {
+      "Text": "[s5] \"You can't just show up wearing a swimsuit!\""
+    },
+    {
+      "Text": "[s6] \"Did I do something wrong to you, Wakamo?!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "No, I just..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "The summer has reached peak heat, and I've been feeling more passionate than ever."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I heard you were inside the office all day and night, so I thought I should do something..."
+    },
+    {
+      "Text": "[s] \"What do you mean you had to do something?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "This is the first summer we're spending together..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "This is a very special time, and I can't stand you wasting it inside your office all alone."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Time is finite. After this season is over, we have to wait another year for it to come back around."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Of course, waiting for the next summer could be part of the enjoyment, but..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But if there's anything I can do to reach you..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I have to at least try!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I want every moment we spend together to shine."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I want today to be a perfect day that will remain in your memory."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "That's why I came out here, although it's a bit embarrassing."
+    },
+    {
+      "Text": "[s] \"The reason you're wearing the swimsuit is...\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee, yes! I wanted to gift you an unforgettable summer memory!"
+    },
+    {
+      "Text": "[s] \"Unforgettable summer memory...\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "What do you think? Isn't it perfect for remembering this particular summer?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I thought hard about which one to pick because I wanted to make sure you liked it. Please, tell me what you think."
+    },
+    {
+      "Text": "[s] \"Oh, yes. I see. It's very pretty. You look great in it.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Ugh...?!"
+    },
+    {
+      "Text": "[s] \"...Wakamo?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Th-The compliment you gave...with your sweet voice."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, this is no good. When I hear something like that from you, I can hardly contain myself..."
+    },
+    {
+      "Name": "Middle-Aged Female Passerby A",
+      "Text": "Is this really what the Schale Sensei is into?"
+    },
+    {
+      "Name": "Middle-Aged Female Passerby B",
+      "Text": "Oh, my. That's inappropriate."
+    },
+    {
+      "Text": "[s7] \"I said this is all a misunderstanding!\""
+    },
+    {
+      "Text": "[s8] \"Wakamo! Let's get out of here!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? Whoa, o-okay..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? Whoa, o-okay..."
+    },
+    {
+      "Text": "Before things got messier, I retreated to the Schale lounge with Wakamo."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "You rushed me into the Schale office with a panicked face..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I want to take off my mask and gaze at your face from the side..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee... Maybe I'm being vulnerable because you understand me..."
+    },
+    {
+      "Text": "[s] \"Yes. It's very clear you think about me in too many ways.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, really? I'm so glad..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Okay. What should we do now, Sensei?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "To make our perfect summer memory, what should we do?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'm ready to accept any request to make you happy."
+    },
+    {
+      "Text": "[s] \"Oh, a request...\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes. Of course...I could have prepared something for your convenience, but..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But after considering it, I wasn't sure if it would guarantee a perfect summer memory..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Now that we're here together, I want to make sure you really have your perfect day."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh... I'm so sorry... I'm not good enough for you, am I...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Sorry, Sensei..."
+    },
+    {
+      "Text": "[s9] \"No, it's okay! Thank you for being so considerate!\""
+    },
+    {
+      "Text": "[s10] \"(Wakamo comes up with such ridiculous plans!)\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'm relieved to hear that. Heehee."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh? Are you actually happy I'm here? I can tell from your face!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Okay, tell me anything. What is it that you want to do?"
+    },
+    {
+      "Text": "[s] \"The perfect summer memory... I guess we can eat shaved ice?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Shaved ice...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Hmm, I see."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Indeed...shaved ice... A summer delicacy for us to enjoy together."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "We'll feed it to each other. When the ice touches our mouths, the sweetness and brain freeze will overwhelm our sensations."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "When I'm making a face because of brain freeze, you'll smile and toss a joke at me. Heeheehee..."
+    },
+    {
+      "Text": "[s11] \"That's not exactly what I was imagining...\" "
+    },
+    {
+      "Text": "[s12] \"(She's daydreaming...)\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Okay. I saw the perfect place on my way here."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Okay. I saw the perfect place on my way here."
+    },
+    {
+      "Text": "[s] \"Oh, did you see a famous shaved ice shop or something?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heehee, no. On my way here, I saw this."
+    },
+    {
+      "Text": "Wakamo smiled and showed me her phone. There was an event happening nearby."
+    },
+    {
+      "Text": "It was called..."
+    },
+    {
+      "Text": "[s] \"The Summer Special Red Winter Ice Sculpture Exhibition?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes. I saw that Red Winter Academy is showing all kinds of special ice sculptures."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I hear the most famous sculpture is one that expresses the dignity of the mustache..."
+    },
+    {
+      "Text": "[s] \"Um, but what does that have to do with shaved ice?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "The sculptures are said to be made of natural ice that doesn't melt, even in the peak of summer."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "So if we can secretly take the ice to make shaved ice..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "It'll be special shaved ice that will make your day perfect!"
+    },
+    {
+      "Text": "[s] \"Stop, stop! All right, let's forget about the shaved ice, Wakamo!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? Is that a bad idea?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Ice from a sculpture isn't clean enough to eat?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh... Yes... You're right."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I was so focused on making you happy that I missed such an important detail. I'm sorry..."
+    },
+    {
+      "Text": "[s] \"Don't apologize. What about swimming?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Swimming..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "It's obviously the most popular summer activity. And I'm already dressed for the occasion."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Does Schale have a blow-up pool or something? I don't remember..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Where can we go swimming?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, I see. You meant something else..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I understand now."
+    },
+    {
+      "Text": "[s] \"No, I didn't mean anything else! What do you mean you understand?!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee... Sometimes you play mischievous tricks on me."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Are you testing me even now?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I even think that side of you is cute... Oh! I just came up with a brilliant idea."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "There's a water tank on the top of this building, right?"
+    },
+    {
+      "Text": "[s] \"Yeah, but what about it...?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "If we blow it up, the whole building will be submerged in water..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "It'll only be a matter of time before we have a place to swim. This must be what you were hinting at, correct?"
+    },
+    {
+      "Text": "[s13] \"I'm sorry to disappoint you, but... No.\""
+    },
+    {
+      "Text": "[s14] \"That wasn't my intention at all! Forget that plan too! Cancel!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, really...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "This is hard..."
+    },
+    {
+      "Text": "After that, Wakamo and I kept discussing how to create the perfect summer memory..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Watching fireflies... You mean you wanna see fire in the dark... "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee. Say no more. I can turn this whole place into an ocean of fire."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "That's easy for me to do!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? You don't want that?!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But if you want me to..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I can destroy everything!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "No? That's not it, either?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, this is so hard. I don't know what to do."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I guess your dream of a perfect summer with me requires something even more profound..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "My heart is full of happiness..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, my feelings are spilling everywhere!"
+    },
+    {
+      "Text": "[s] \"O-Okay! Sure...!\""
+    },
+    {
+      "Text": "Regardless of what I told her, I ended up surrounded by figurative landmines. I thought hard about what to do."
+    },
+    {
+      "Text": "Then I had an idea."
+    },
+    {
+      "Text": "[s] \"Right, Wakamo. There's something I want to do with you this summer!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Hm?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "This is where you work?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "You want to spend time with me here...?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...Oh! "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee. I see... No one can distract us from each other here..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Yes! I'm ready for anything."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Okay, what is it? What would you like to do with me?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Darling!"
+    },
+    {
+      "Text": "I came up with a desperate plan to keep Wakamo in one place so she didn't run wild outside while twisting my words."
+    },
+    {
+      "Text": "[ns] \"Let's cram work on this summer day, together!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Excuse me?"
+    },
+    {
+      "Text": "[s15] \"You know, that's what best friends do together during summer. They work together.\""
+    },
+    {
+      "Text": "[s16] \"I have a lot of work piled up, so I thought maybe we could work on it together.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Huh? Um, that's..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Are you sure that's good enough? "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Would that make a perfect memory for your special summer?"
+    },
+    {
+      "Text": "[s] \"Of course. What matters is that we're spending time together!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Spending...time together... Just the two of us..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "O-Okay! I-I-If you say so...!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heeheehee! ♡"
+    },
+    {
+      "Text": "And that was how I got to spend a very...special day with Wakamo."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ด้วยใจที่อยากมอบให้คุณ"
+    },
+    {
+      "Text": "(ฤดูร้อนที่ร้อนระอุมาเยือน พร้อมกับงานต่างๆ ที่ถาโถมเข้ามาที่ชาเล่ต์)"
+    },
+    {
+      "Text": "[ns] \"ถึงจะเป็นฤดูร้อนก็เถอะ แต่งานเทศกาลเยอะจริงๆ เลยนะ...\""
+    },
+    {
+      "Text": "(ทั้งให้ความร่วมมือกับชาวเมืองเพื่อเตรียมพร้อมสำหรับงานเทศกาลดอกไม้ไฟท้องถิ่น การเตรียม\nการเรื่องทั่วไป งานตรวจสอบความปลอดภัยอุปกรณ์ต่างๆ ที่ใช้ในงานเทศกาลและอื่นๆ อีกมากมาย...)"
+    },
+    {
+      "Text": "(และในตอนที่คุณครูกำลังหัวหมุนอยู่กับงานที่ถาโถมเข้ามา...)"
+    },
+    {
+      "Text": "[ns1] \"อืม ถึงเวลามื้อเที่ยงแล้วเหรอเนี่ย\""
+    },
+    {
+      "Text": "[ns2] \"ลงไปซื้อข้าวมาก่อนดีกว่า\""
+    },
+    {
+      "Text": "[ns] \"หืม...? ตรงทางเข้ามีเรื่องอะไรกันนะ...\""
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา A",
+      "Text": "ใส่ชุดว่ายน้ำมาเดินในเมืองแบบนี้เหรอ ตายแล้วๆ "
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา B",
+      "Text": "เขาอาจจะถ่ายทำละครกันอยู่ก็ได้นะคะ?"
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา A",
+      "Text": "ถ่ายอะไรกัน ไม่เห็นมีกล้องเลยสักตัว... แล้วดูสิ ที่นี่คือสำนักงานของชาเล่ต์ไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา A",
+      "Text": "ไม่นะ หรือว่าจะถูกคุณครูของชาเล่ต์คนนั้นเรียกมาน่ะ...?"
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา B",
+      "Text": "ตายแล้วๆ คุณครูของชาเล่ต์มีรสนิยมแบบนี้เหรอเนี่ย...?"
+    },
+    {
+      "Text": "[s3] \"เข้าใจผิดอย่างแรงเลย!\""
+    },
+    {
+      "Text": "[s4] \"วาคาโมะมาทำอะไรที่นี่เหรอ...?!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อ๊ะ! คุณครู...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ วาคาโมะกำลังรอคุณท่านอยู่เลยค่ะ"
+    },
+    {
+      "Text": "[s5] \"มาไม่บอกไม่กล่าว แถมยังใส่ชุดว่ายน้ำอีก นี่มันอะไรเนี่ย?!\""
+    },
+    {
+      "Text": "[s6] \"ครูทำผิดอะไรต่อวาคาโมะไว้รึเปล่า?!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เปล่าค่ะ ก็แค่..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้... ฤดูร้อนที่รอคอยมานานได้มาถึง ร่างกายและจิตใจของวาคาโมะก็รุ่มร้อนขึ้น..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ในหน้าร้อนแบบนี้ ได้ยินว่าคุณท่านต้องอยู่แต่ในสำนักงานตลอดเวลา วาคาโมะคงอยู่เฉยๆ ไม่ได้แล้วค่ะ..."
+    },
+    {
+      "Text": "[s] \"อยู่เฉยๆ ไม่ได้งั้นเหรอ หมายความว่ายังไงน่ะ?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "หลังจากที่วาคาโมะกับคุณท่านได้พบกันครั้งก่อน นี่เป็นการพบกันครั้งแรกในฤดูร้อนของเรา\nใช่มั้ยล่ะคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพียงแค่คิดว่าคุณท่าน ผู้เป็นบุคคลที่แสนพิเศษสำหรับวาคาโมะต้องอุดอู้อยู่แต่ในห้องทำงาน วาคาโมะผู้นี้ก็แทบทนไม่ได้เลยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เวลาเป็นสิ่งที่หมุนผ่านไป หากฤดูกาลนี้ผ่านพ้นไป จะต้องรอคอยอีกนานนับปีกว่าฤดูร้อนครั้งหน้า\nจะมาถึง..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แน่นอนว่าการรอคอยอาจนับเป็นหนึ่งในความหฤหรรษ์ก็ได้..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ว่าถ้าวาคาโมะผู้นี้ยังสามารถเอื้อมมือไปหาคุณท่านได้..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ใช่แล้วค่ะ ฉันจะต้องพยายาม และไม่ยอมปล่อยให้เวลาผ่านไปอย่างสูญเปล่าเด็ดขาดค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะอยากให้ทุกช่วงเวลาที่เราสองคนได้อยู่ร่วมกัน เปล่งประกาย และน่าจดจำ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะปรารถนาให้วันนี้เป็นวันที่สมบูรณ์แบบในความทรงจำของคุณท่าน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ก็เลยอดทนต่อความเขินอายเช่นนี้...♡"
+    },
+    {
+      "Text": "[s] \"ถ้างั้นที่วาคาโมะใส่ชุดว่ายน้ำมานี่...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ ใช่แล้วค่ะ ฉันอยากจะมอบความทรงจำในฤดูร้อนที่หอมหวานและไม่มีวันลืมให้คุณท่านค่ะ ♪"
+    },
+    {
+      "Text": "[s] \"ความทรงจำในฤดูร้อนที่หอมหวานและไม่มีวันลืม...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ชุดนี้เป็นยังไงบ้างคะ ดูสมกับเป็นชุดที่เหมาะกับคอนเซปต์ที่จะใช้สร้าง <ความทรงจำในฤดูร้อน> รึเปล่าคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฉันครุ่นคิดอยู่นานว่าคุณท่านจะชอบแบบไหน และสุดท้ายก็ตัดสินใจเลือกชุดนี้มาค่ะ♡ ได้โปรด... เพลิดเพลินไปกับสิ่งที่ฉันมอบให้ด้วยนะคะ♡"
+    },
+    {
+      "Text": "[s] \"อะ...อื้อ นั่นสินะ ชุดสวยมาก เหมาะกับวาคาโมะจริงๆ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อึก...?!"
+    },
+    {
+      "Text": "[s] \"วาคาโมะ...?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อ๊าาา... คำชื่นชมแบบไม่มีปี่มีขลุ่ยจากคุณท่าน เสียงอันไพเราะของคุณท่าน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "มะ...ไม่ได้การแล้วค่ะ ถ้าวาคาโมะได้ยินคำพูดเช่นนั้นของคุณท่านอีก วาคาโมะ... วาคาโมะผู้นี้คงจะอดทนต่อไปไม่ไหวแน่ๆ..."
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา A",
+      "Text": "คุณครูของชาเล่ต์มีงานอดิเรกแบบนั้นจริงๆ เหรอคะเนี่ย?"
+    },
+    {
+      "Name": "คุณป้าที่เดินผ่านมา B",
+      "Text": "ตายจริง ไม่อยากเชื่อเลยว่าจะเป็นแบบนี้"
+    },
+    {
+      "Text": "[s7] \"บอกว่าเข้าใจผิดแล้วไงเล่า!\""
+    },
+    {
+      "Text": "[s8] \"วาคาโมะ! ย้ายที่คุยกันก่อนเถอะ!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...? อ๊ะ ได้ค่ะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...? อ๊ะ ได้ค่ะ..."
+    },
+    {
+      "Text": "(คุณครูรีบพาวาคาโมะไปที่ห้องพักผ่อนของชาเล่ต์ ก่อนที่ข่าวลือแปลกๆ จะแพร่สะพัดไปไกล)"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณท่านถึงกับพาฉันเข้ามาในชาเล่ต์ด้วยสีหน้าที่รีบร้อนแบบนั้น..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ทำให้วาคาโมะรู้สึกอยากถอดหน้ากากออกมา และเฝ้าพินิจใบหน้าของคุณท่านจากข้างๆ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ... ที่ฉันอ่อนไหวแบบนี้ เป็นเพราะคุณท่านเข้าใจจิตใจของฉัน และเข้าใจตัวฉันอย่างแท้จริง\nสินะคะ...?"
+    },
+    {
+      "Text": "[s] \"อื้อ ครูรับรู้ได้ถึงความรู้สึกของวาคาโมะจากหลายๆ อย่างเลย\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... จริงหรือคะ? มีความสุขจัง..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าอย่างนั้นเราจะทำอะไรกันดีคะ คุณท่าน...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณท่านปรารถนาสิ่งใดเพื่อทำให้วันนี้เป็น <ความทรงจำวันในฤดูร้อนที่สมบูรณ์แบบของคุณท่าน> คะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ขอเพียงเป็นความปรารถนาของคุณท่าน วาคาโมะผู้นี้ก็พร้อมที่จะยินยอมทุกอย่างเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"<ความปรารถนา> เหรอ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ แน่นอนว่า... เพื่อไม่ให้เป็นการรบกวนคุณท่านเกินไป ฉันเตรียมบางอย่างเอาไว้แล้ว"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่หลังจากครุ่นคิดมาหลายๆ อย่าง ฉันไม่มั่นใจว่าจะกลายเป็น <ความทรงจำวันในฤดูร้อนที่สมบูรณ์\nแบบของคุณท่าน> ได้หรือเปล่า..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่พอเราได้มาพบกันเช่นนี้แล้ว วาคาโมะผู้นี้เลยลังเลว่าจะทำให้วันนี้เป็นวันที่สมบูรณ์แบบอย่าง\nที่คุณท่านปรารถนาได้หรือเปล่า..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... วาคาโมะยังไม่ดีพอสำหรับคุณท่าน... ละอายใจจริงๆ เลยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ขอโทษด้วยค่ะ คุณท่าน"
+    },
+    {
+      "Text": "[s9] \"ไม่เลย ดีซะอีกนะที่นึกถึงครูน่ะ\""
+    },
+    {
+      "Text": "[s10] (ถ้าวาคาโมะวางแผนเอาไว้ อาจเป็นเรื่องที่เกินคาดก็ได้!)"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ได้ยินแบบนี้ก็ค่อยโล่งอกหน่อยนะคะ ฮุฮุฮุ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อ๊ะ คุณท่านดีใจสินะคะ? แบบนี้ก็ค่อยโล่งอกหน่อยนะคะ ฮุฮุฮุ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอาละค่ะ ไม่ว่าเรื่องไหนก็บอกมาได้เลยค่ะ คุณท่านปรารถนาสิ่งใดคะ? บอกมาตรงๆ ได้เลยค่ะ♡"
+    },
+    {
+      "Text": "[s] \"ความทรงจำในฤดูร้อน... ก็คงเป็นการกินบิงซูละมั้ง?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "บิงซู...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อืม... ก็คงต้องเป็นแบบนั้นสินะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แน่นอนว่า... ในฤดูร้อนที่แสนอบอ้าวแบบนี้ สิ่งที่ขาดไม่ได้เลยก็คือการได้ลิ้มรสหวานกลมกล่อม\nของบิงซูเย็นๆ พร้อมกับคุณท่าน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แบ่งกันป้อนบิงซูให้กัน และทำหน้ามู่พร้อมกัน เมื่อความหวานของบิงซูแผ่ซ่านไปถึงโคนลิ้น... "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าฉันตกใจและทำท่าลุกลี้ลุกลนจากความเย็นจี๊ดที่ไม่เคยเจอมาก่อน คุณท่านก็คงจะหัวเราะ\nและพูดล้อเล่นกับฉันสินะคะ ฮุฮุฮุ..."
+    },
+    {
+      "Text": "[s11] \"อะ...อื้อ ก็คงแบบนั้นละมั้ง...?\""
+    },
+    {
+      "Text": "[s12] (กำลังเข้าใจผิดสุดๆ อยู่สินะ...)"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ดีจังเลยค่ะ ระหว่างทางมาที่นี่ ฉันเจอร้านดีๆ มาด้วยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ระหว่างทางมาที่นี่ ฉันเจอร้านดีๆ มาด้วยค่ะ"
+    },
+    {
+      "Text": "[s] \"เอ๋? เจอร้านบิงซูชื่อดังเหรอ?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุ เปล่าค่ะ ระหว่างทางที่มา ฉันบังเอิญเจอว่ามีอีเวนต์แบบนี้อยู่ด้วยค่ะ"
+    },
+    {
+      "Text": "(สิ่งที่วาคาโมะยื่นให้ดูในโทรศัพท์พร้อมกับรอยยิ้มหวานๆ ก็คือข้อมูลเกี่ยวกับงานอีเวนต์ที่จัดอยู่ใกล้ๆ)"
+    },
+    {
+      "Text": "(สิ่งที่เขียนไว้คือ...)"
+    },
+    {
+      "Text": "[s] \"<นิทรรศการประติมากรรมน้ำแข็งเรดวินเทอร์รับฤดูร้อน>...?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ใช่แล้วค่ะ ฉันได้ยินว่าพวกเขากำลังจัดแสดงงานประติมากรรมน้ำแข็งพิเศษต่างๆ ที่ขนส่งมาจาก\nทางสหภาพเรดวินเทอร์ค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "และในบรรดานั้นก็มีรูปปั้นที่แสดงถึงความสง่างาม และความงดงามของหนวดเคราที่มีชื่อเสียง\nโด่งดังเป็นพิเศษอยู่ด้วยค่ะ...?"
+    },
+    {
+      "Text": "[s] \"คือว่า... แล้วนั่นเกี่ยวอะไรกับบิงซูของครูเหรอ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "รูปปั้นที่นำมาจัดแสดง กล่าวกันว่าทำมาจากน้ำแข็งจากเขตเหนือที่ไม่ละลายแม้แต่ในฤดูร้อนค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพราะงั้นถ้าฉันขโมยรูปปั้นมาทำบิงซูได้ละก็..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "จะต้องเป็นสุดยอดบิงซู ที่ทำให้วันนี้เป็นวันพิเศษของคุณท่านได้แน่ๆ ค่ะ ...!"
+    },
+    {
+      "Text": "[s] \"หยุดเลย สต็อป! ลืมเรื่องบิงซูกันเถอะ วาคาโมะ!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? แบบนั้นไม่ดีเหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เป็นเพราะมันทำมาจากน้ำแข็งที่เป็นรูปปั้น เลยไม่ดีต่อสุขอนามัยเหรอคะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... จริงด้วยนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้... มัวแต่จดจ่ออยู่กับความคิดที่จะทำเพื่อคุณท่าน และไม่ได้สนใจเรื่องนั้นเลย ขอโทษด้วยค่ะ..."
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรหรอก ถ้างั้นเราไปเล่นน้ำกันมั้ย?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เล่นน้ำงั้นเหรอคะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "การเล่นน้ำเป็นสิ่งที่ขาดไม่ได้เลยในฤดูร้อน และก็คงเหมาะกับชุดที่ฉันใส่มาวันนี้มากค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อุปกรณ์ของชาเล่ต์มีพวกสระน้ำยางอยู่ด้วยใช่มั้ยคะ? วาคาโมะผู้นี้จำไม่ค่อยได้เลยค่ะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แล้วเล่นน้ำที่ไหนได้บ้างนะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อ๊ะ ฉันเข้าใจแล้วค่ะ ที่คุณท่านพูดถึงน่ะ... หมายถึงสิ่งนั้นใช่มั้ยล่ะคะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้เข้าใจแล้วค่ะ"
+    },
+    {
+      "Text": "[s] \"เดี๋ยวก่อน วาคาโมะเข้าใจว่ายังไงเหรอ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ บางครั้งคุณท่านก็ชอบพูดแหย่วาคาโมะอยู่เรื่อยเลยนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คิดจะทดสอบฉันเหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "พอคิดว่าคุณท่านมีมุมน่ารักๆ แบบนั้นด้วย... วาคาโมะคิดว่าคุณท่านเป็นคนที่น่ารักมากเลยค่ะ\nวาคาโมะผู้นี้รู้สึกร้อนวูบวาบเลยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ที่อาคารนี้มีถังเก็บน้ำอยู่บนดาดฟ้าใช่มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"ก็มีอยู่หรอกนะ ทำไมเหรอ...?\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าระเบิดมันละก็ ทั้งอาคารก็คงจะกลายเป็นทะเล..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ... การเปลี่ยนที่นี่เป็นสถานที่เล่นน้ำคงขึ้นอยู่กับแค่เวลาเท่านั้น นี่คงเป็นคำตอบที่ถูกต้องในสิ่งที่\nคุณท่านถามมาสินะคะ?"
+    },
+    {
+      "Text": "[s13] \"เดี๋ยวสิ <คำตอบที่ถูกต้อง> งั้นเรอะ ครูผิดไปแล้ว...\" "
+    },
+    {
+      "Text": "[s14] \"ครูไม่ได้หมายถึงแบบนั้นสักหน่อย หยุดเลย สต็อป!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อุ๊ย ตายจริง ไม่ใช่งั้นเหรอคะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ยากจังเลยนะคะ..."
+    },
+    {
+      "Text": "(หลังจากนั้นคุณครูกับวาคาโมะก็นั่งคุยกันต่อ ถึงวิธีสร้างความทรงจำที่สมบูรณ์แบบในฤดูร้อน...)"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถ้าเป็นการชมหิ่งห้อยละก็... หมายถึงการชมประกายไฟระยิบระยับ... "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ คุณท่านวางใจได้เลยค่ะ เรื่องการเปลี่ยนที่นี่เป็นทะเลเพลิงเพื่อให้คุณท่านได้ชมประกายไฟ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "สำหรับฉันมันง่ายนิดเดียวค่ะ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? ไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "งั้นสิ่งที่คุณท่านหมายถึงคือ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ให้วาคาโมะผู้นี้ทำลายทุกอย่างให้พินาศ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? แบบนี้ก็ไม่ใช่เหรอคะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... ยากจังเลยนะคะ งั้นอะไรดีนะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ว่าพอคิดว่าเป็นการทำเพื่อฤดูร้อนที่สมบูรณ์แบบของคุณท่านกับฉัน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ในใจของวาคาโมะผู้นี้ก็เอ่อล้นไปด้วยความยินดี..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา... ความยินดี มันเอ่อล้นจนเก็บไม่อยู่แล้วค่ะ♡"
+    },
+    {
+      "Text": "[s] \"งะ...งั้นเหรอ...!?\""
+    },
+    {
+      "Text": "(คุณครูตกที่นั่งลำบาก และต้องครุ่นคิดอย่างหนัก เพราะไม่ว่าจะพูดถึงตัวเลือกใดออกมาก็หนีไม่พ้น\nการระเบิดทุกครั้ง...)"
+    },
+    {
+      "Text": "(จู่ๆ ก็มีไอเดียหนึ่งผุดขึ้นมา)"
+    },
+    {
+      "Text": "[s] \"จริงสิ วาคาโมะ ครูมีเรื่องที่อยากจะทำกับวาคาโมะแค่สองคนอยู่นะ!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ที่นี่คือห้องทำงานของคุณครู...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "มีเรื่องอยากทำกับฉันแค่สองคนที่นี่ ในห้องนี้งั้นเหรอคะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อา...! "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ แบบนี้เองเหรอคะ... ฤดูร้อนแสนพิเศษที่ใช้เวลาร่วมกันในสถานที่ที่ลับสายตาผู้คน เพียงแค่สองเรา..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ค่ะ วาคาโมะผู้นี้เตรียมใจพร้อมแล้วค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอาละค่ะ ต้องการอะไรหรือคะ? คุณท่านอยาก \"ทำอะไร\" กับฉันหรือคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คุณ.ท่าน.♡"
+    },
+    {
+      "Text": "(วิธีสุดท้ายที่คุณครูนึกออก เพื่อรั้งวาคาโมะที่ดูเหมือนพร้อมจะระเบิดทุกอย่างเอาไว้ที่นี่ ไม่ให้ออกไปข้างนอก)"
+    },
+    {
+      "Text": "[ns] \"คือว่างานที่ครูต้องทำในฤดูร้อนเยอะมากเลย!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Text": "[s15] \"เป็นเรื่องที่คนสนิทกันทำในฤดูร้อนนะ อยู่ทำงานด้วยกันทั้งคืน\""
+    },
+    {
+      "Text": "[s16] \"พอดีงานมันเยอะน่ะ เลยคิดว่ามาช่วยกันทำได้มั้ย...\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? เอ่อ คือว่าฉัน... คือ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ว่าแบบนั้น... ไม่เป็นไรจริงๆ เหรอคะ...? "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "มันจะเป็นความทรงจำฤดูร้อนแสนพิเศษ... จริงๆ เหรอคะ?"
+    },
+    {
+      "Text": "[s] \"แน่นอนอยู่แล้ว ก็ครูจะได้อยู่กับวาคาโมะแค่สองคนเลยนะ!\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ยะ...อยู่กับฉันแค่สองคน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...ค่ะ! ถะ...ถ้าคุณท่านพูดแบบนั้น วาคาโมะก็ยินดีค่ะ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ♡"
+    },
+    {
+      "Text": "(และในที่สุดคุณครูก็ได้ใช้ค่ำคืนที่แสนพิเศษเกินคาด สองต่อสองกับวาคาโมะ...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "只為閣下"
+    },
+    {
+      "Text": "（季節的變化正式來臨，夏萊也收到了各式與夏季相關的業務活動）"
+    },
+    {
+      "Text": "[ns] 「不知道是不是因為夏天，感覺與慶典相關的工作很多呢……」"
+    },
+    {
+      "Text": "（居民們為了準備各地的煙火大會所提出的支援申請和工程、\n　將在慶典中使用的道具安全性確認……）"
+    },
+    {
+      "Text": "（就在忙著處理夏萊收到的大量業務時……）"
+    },
+    {
+      "Text": "[ns1] 「已經中午了嗎……」"
+    },
+    {
+      "Text": "[ns2] 「去買個飯回來吧。」"
+    },
+    {
+      "Text": "[ns] 「……嗯？入口處有點吵雜，發生什麼事了嗎……」"
+    },
+    {
+      "Name": "路過的大嬸A",
+      "Text": "居然在大街上穿著泳衣……"
+    },
+    {
+      "Name": "路過的大嬸B",
+      "Text": "難道是在拍電視劇嗎？"
+    },
+    {
+      "Name": "路過的大嬸A",
+      "Text": "不過也沒看到攝影機和員工……\n話說這裡是夏萊辦公室前……也就是說……？"
+    },
+    {
+      "Name": "路過的大嬸A",
+      "Text": "難不成……是被夏萊的老師叫出來的嗎？"
+    },
+    {
+      "Name": "路過的大嬸B",
+      "Text": "哎呀……夏萊的老師有那種興趣……？"
+    },
+    {
+      "Text": "[s3] 「是誤會！」"
+    },
+    {
+      "Text": "[s4] 「為什麼若藻會在這裡……！？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊……！老師……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵……恭候多時了，閣下。"
+    },
+    {
+      "Text": "[s5] 「若藻……為什麼穿著泳衣……！？」"
+    },
+    {
+      "Text": "[s6] 「我對若藻做了什麼不好的事嗎……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不，我只是……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "在這種美妙的盛夏之日……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "明明是身心都十分火熱的日子，若藻我卻聽說閣下一直待在辦公室……\n讓我感到坐立難安……"
+    },
+    {
+      "Text": "[s] 「坐立難安……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這是我與閣下相遇之後，首次共同度過的夏季……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "對我而言如此特別的時間，閣下竟然要獨自在辦公室度過……\n若藻我，實在無法忍受。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "時間終究是有限的。\n若是錯過了這個季節，就必須花費一年的時間等待下個夏季的到來。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……當然，等待季節的到來或許也是一種樂趣……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "即便如此，只要閣下還置身於我伸手可及之處……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼我便無法對白白浪費這個季節的情況視而不見。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我希望閣下和我一起度過的時間，每秒都能絢爛光彩。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "期望今天這個日子，能夠成為閣下回憶中完美的一日……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "因而無畏羞恥地……前來見您♡"
+    },
+    {
+      "Text": "[s] 「那個……也就是說，若藻之所以會穿著泳衣……」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵……是的。\n想送給閣下一個永生難忘的夏日回憶作為禮物♪"
+    },
+    {
+      "Text": "[s] 「永生難忘的夏日回憶……」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是的……這件泳衣，您覺得如何呢？不覺得很符合夏日的回憶嗎？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這是我對閣下的喜好苦思許久後所選擇的款式♡\n希望閣下務必能親口發表感想♡"
+    },
+    {
+      "Text": "[s] 「啊，嗯……很漂亮唷。很適合若藻。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……！？"
+    },
+    {
+      "Text": "[s] 「……若藻？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊，啊啊……閣下親口贈與的話語，甜美的聲音。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不，不行……像那樣受到稱讚的話，我就要……"
+    },
+    {
+      "Name": "路過的大嬸A",
+      "Text": "那果然是因為夏萊老師的興趣吧？"
+    },
+    {
+      "Name": "路過的大嬸B",
+      "Text": "哎呀……"
+    },
+    {
+      "Text": "[s7] 「所以說是誤會！」"
+    },
+    {
+      "Text": "[s8] 「若藻，總之我們換個地方吧！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是，是……！？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是，是……！？"
+    },
+    {
+      "Text": "（趁騷動擴大之前，暫且先帶若藻回到了夏萊的休息室）"
+    },
+    {
+      "Name": "若藻",
+      "Text": "沒想到，會以那麼心急如焚的表情將我帶進夏萊……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "您的那副表情，想在身邊一直注視的心情越發膨脹……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵……這全都多虧閣下發自內心明白了我的心意嗎……？"
+    },
+    {
+      "Text": "[s] 「嗯，我感受到若藻為我著想的心情了哦……各種意義上。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，是這樣嗎？真令人高興……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵，那麼接下來該做什麼呢……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "為了讓這一天成為「對閣下而言完美的夏日回憶」，請告訴我可以幫忙的事。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若藻我為了閣下，無論任何請求都會回應您的。"
+    },
+    {
+      "Text": "[s] 「啊，是請求制啊。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是的……為了不勞煩閣下，我也思考過由我來準備……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不過煩惱許久後，\n依然沒有能創造「對閣下而言完美的夏日回憶」的自信……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "難得能與您相見，若藻我希望今天能成為閣下理想中完美的一天，\n因而遲遲無法決定……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我真是不成材，真丟臉……"
+    },
+    {
+      "Text": "[s9] 「別這麼說，你願意為我思考這麼多，我也很高興哦。」"
+    },
+    {
+      "Text": "[s10] （讓若藻安排的話，不知道會發生什麼事……）"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那真是太好了……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那真是太好了……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼……閣下的願望是什麼呢？請儘管吩咐♡"
+    },
+    {
+      "Text": "[s] 「夏日回憶的話……吃刨冰之類的？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "刨冰……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "原來如此……好的，我明白了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "確實……和閣下一起品嚐的刨冰會是極致的逸品吧……沒錯。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "因互相餵食冰品而傳達到舌根的微苦甜味……以及緩緩到來的甜美痛楚。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……看見我對那股痛楚感到困惑的模樣，\n閣下便會露出笑容關心我吧……唔呵呵。"
+    },
+    {
+      "Text": "[s11] 「啊，嗯，大概是吧……？」"
+    },
+    {
+      "Text": "[s12] （完全沉浸在妄想中……）"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼……正好來這裡的途中，我發現了不錯的東西。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼……正好來這裡的途中，我發現了不錯的東西。"
+    },
+    {
+      "Text": "[s] 「有名的刨冰店攤位之類的？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵，並非刨冰店……而是看見了這樣的活動。"
+    },
+    {
+      "Text": "（若藻的手機上顯示的，是在附近舉辦的活動情報）"
+    },
+    {
+      "Text": "（上面寫著……）"
+    },
+    {
+      "Text": "[s] 「『赤冬萬年雪雕秀』……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是的，似乎展示著由赤冬聯邦學園特別的冰製作而成的雕刻。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "特別是，某個用鬍子表現威嚴的雕刻似乎很有名……"
+    },
+    {
+      "Text": "[s] 「呃……那跟刨冰有什麼關係……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "該處展示的雕像，似乎是以盛夏也不會溶解的北部地區的天然冰製成。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "既然如此，只要能從那個冰雕削下一部分來製作刨冰……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "想必就能製作出足以點綴這完美日子的特別刨冰……！"
+    },
+    {
+      "Text": "[s] 「先，先等一下！刨冰還是算了吧！若藻！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "嗯？那樣您會很困擾是嗎……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "而且衛生方面也是個問題……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若藻我，只顧著思考為閣下準備特別的刨冰……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "卻疏忽了理所當然的事情，真是非常抱歉。"
+    },
+    {
+      "Text": "[s] 「……戲水之類的如何？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "戲水……嗎。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "確實是夏季就不可或缺，也與今日我所身著的服裝十分相符的行為……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不過夏萊的備品有塑膠泳池這類的東西嗎？若藻我，沒有印象……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這樣的話，究竟要在哪裡戲水……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……我，理解了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "閣下的話語，無論何時都會給予若藻我新的發現呢。"
+    },
+    {
+      "Text": "[s] 「我其實沒什麼特別的意思……話說你是理解了什麼！？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵……閣下偶爾也有壞心眼的時候呢。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是在考驗我吧？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那種地方也很可愛呢……\n沒錯，若藻我，只要是閣下的事什麼都能看穿。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這棟大樓的頂樓有座水塔吧？"
+    },
+    {
+      "Text": "[s] 「是有沒錯……那個怎麼了？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "只要將其引爆，大樓整體就會浸水……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "就算不特別準備泳池也能戲水……閣下想表達的就是那個意思吧？"
+    },
+    {
+      "Text": "[s13] 「被那麼純真的眼神盯著看的話，心裡有點難過耶……」"
+    },
+    {
+      "Text": "[s14] 「不是那個意思……！抱歉，那個也先等等！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "是……這樣啊。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "真是困難呢……"
+    },
+    {
+      "Text": "（在那之後也和若藻討論著製造「完美的夏日回憶」的計畫……）"
+    },
+    {
+      "Name": "若藻",
+      "Text": "欣賞螢火蟲……閃爍的火粉翩翩飛舞的模樣……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵，包在我身上。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "對若藻我來說……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦？希望我停手……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那麼……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若藻我就將一切粉碎殆盡……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不行嗎？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，真是困難呢……究竟該怎麼做才好呢……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不過，只要想到這全都是閣下和我正在朝著同一個夢想努力就……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "內心深處有股幸福……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，感覺快要溢出來了♡"
+    },
+    {
+      "Text": "[s] 「是，是啊……！」"
+    },
+    {
+      "Text": "（就在煩惱這無論提出什麼樣的想法，都會獲得意外答案的狀況時……）"
+    },
+    {
+      "Text": "（突然浮現了想法）"
+    },
+    {
+      "Text": "[s] 「……這麼說來，我有件事想和若藻一起做。」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這裡是……平常，閣下在工作的……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "兩人獨自在這種地方……究竟要……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "……啊啊！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵呵……單獨兩人，在他人無法目擊的地方度過特別的夏季……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "好的，若藻我，早在很久以前就做好心理準備了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "來吧，請儘管吩咐……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "閣．下♡"
+    },
+    {
+      "Text": "（這是為了讓不管提出什麼想法都會暴走的若藻老實下來的苦肉計……）"
+    },
+    {
+      "Text": "[ns] 「那就是……夏天的趕工活動！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "…………咦？"
+    },
+    {
+      "Text": "[s15] 「這是在夏天召集親朋好友熬夜做的事唷。」"
+    },
+    {
+      "Text": "[s16] 「正好還有很多工作，一起來把這些做完怎麼樣？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦？那個……咦。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "那種事……真的就可以了嗎？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "這樣能成為「對閣下而言完美的夏日回憶」嗎……？"
+    },
+    {
+      "Text": "[s] 「當然。和若藻兩人單獨做是有意義的！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "和我，兩，兩，兩人單獨……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "好……好的！閣，閣下那麼說的話……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵♡"
+    },
+    {
+      "Text": "（總算是和若藻一起製造了「完美的夏日回憶」）"
+    }
+  ]
+}

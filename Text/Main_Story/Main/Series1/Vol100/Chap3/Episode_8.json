@@ -1,0 +1,2907 @@
+{
+  "TitleJP": "ブリーフィング",
+  "TitleKR": "작전 브리핑",
+  "TitleEN": "Operational Briefing",
+  "TitleTH": "สรุปปฏิบัติการ",
+  "TitleTW": "作戰簡報",
+  "DescJP": "そうして「アトラ・ハシースの箱舟占領戦」の計画書が完成する。先生は船の総責任者となり、連邦生徒会を含む9人の生徒が、オペレーターとして参加することになった。作戦成功率は3％。キヴォトスの命運をかけた作戦が、いま幕を開ける。",
+  "DescKR": "작전명은 '아트라하시스의 방주 점령전'으로 결정된다. 선생님은 배의 총책임자를 맡게 되고, 총학생회를 포함한 아홉 명의 지원자가 오퍼레이터로 자원한다.",
+  "DescEN": "The Ark of Atrahasis Conquest gains a name. Sensei takes on the role of commander, and nine students volunteer to operate it, including members of the General Student Council.",
+  "DescTH": "ตัดสินใจตั้งชื่อปฏิบัติการเป็น 'ปฏิบัติการยึดเรืออะทราฮาซิส' คุณครูเป็นผู้\nดูแลทั่วไปของเรือ โดยมีอาสาสมัคร 9 คนรวมทั้งองค์การนักเรียนเป็นผู้\nปฏิบัติงาน",
+  "DescTW": "作戰名稱決定是「阿特拉哈西斯的方舟占領戰」。老師是戰艦的總負責人，包含聯邦學生會在內的九名支援者則擔任操作員。",
+  "DialogJP": [
+    {
+      "Text": "第8話;ブリーフィング"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "はい、これ。作戦計画書。 "
+    },
+    {
+      "Name": "アユム",
+      "Text": "皆さんに協力していただいて、作成したものです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "作戦名は――「アトラ・ハシースの箱舟占領戦」。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……おそらく、これが最後の作戦となるでしょう。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "さ、最後……"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "成功したらサンクトゥムは作られないわけだし、\n失敗したらキヴォトスは終わる……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "そうですね、いずれにしても最後の作戦になります。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "成功させればいいだけの話ですよね！？\n不安を煽るような事を言わないでください、カヨコさん！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "それに、専門家が集まって検証したんでしょ？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "これ以上ない、完璧な作戦のはずよ。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……では、作戦の説明に移ります。 "
+    },
+    {
+      "Name": "リン",
+      "Text": "私たちの目標は、キヴォトス上空にある「アトラ・ハシースの箱舟を破壊する」こと。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "無事破壊できたら、「虚妄のサンクトゥム」の出現を阻止できるよ～"
+    },
+    {
+      "Name": "リン",
+      "Text": "しかし、箱舟は物理的な介入を無効化する「状態の共存」によるバリアで保護されています。"
+    },
+    {
+      "Name": "リン",
+      "Text": "このバリアが存在する以上、箱舟に対しての物理的なアプローチは不可能とされていました――ですが、"
+    },
+    {
+      "Name": "リン",
+      "Text": "「ウトナピシュティムの本船」を同様の状態にすれば、理論上はバリアを通過する事が可能です。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "要は、相手と同じ存在になったら、干渉できるって事～"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そのための計算は、私がこの船の演算装置を用いて進行する予定です。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……計算に失敗したら？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね……万が一、計算に失敗した状態でバリアが展開されている空間に進入した場合――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "運が悪ければ原子単位でバラバラに、運が良い場合でも、船から弾き出されて地上75,000mの高さから墜落することになります。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そ、その高さからの自由落下……流石にヘイローが壊れてしまうのでは……"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "いや、その前に肉体が耐えきれないと思うよ。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "高度75,000mもあればマイナス60度は優に超える。\n呼吸をしたら肺が凍るだろうから。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "体液も一瞬で気化するだろうし……\nどのみち、その環境下じゃ2分足らずでヘイローは壊れる。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "あ、ありがとうございます、カヨコさん。\nと～っても、参考に……なります。"
+    },
+    {
+      "Name": "リン",
+      "Text": "――続けます。失敗の想定をしたところで、不毛ですので。 "
+    },
+    {
+      "Name": "リン",
+      "Text": "バリア通過後、箱舟に物理的な衝撃を与え――内部に侵入します。"
+    },
+    {
+      "Name": "リン",
+      "Text": "無事に侵入できたら、主要施設のハッキングを行い、 これ以上作動しないよう徹底的に破壊します。"
+    },
+    {
+      "Name": "リン",
+      "Text": "もちろん、箱舟内にいる敵から抵抗を受けるでしょう。"
+    },
+    {
+      "Name": "リン",
+      "Text": "攻撃を防ぎつつ、箱舟の各エリアを少しずつ[ruby=ハッキング]占領[/ruby]、最終的に箱舟の制御権を奪う――それがこの作戦の最終目標です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……制御権を掌握したら、箱舟自体を自爆もしくは、地上に墜落させることが可能になるでしょう。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "ええ……箱舟をハッキングし、奪う――それが私たちの勝利条件。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ご説明くださりありがとうございます。目標は至極シンプルですね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "ところで――"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "……えっと、私はサポート型AMASで――"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "リオ会長～～！？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……一瞬でバレましたね。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "急に行方を眩ませて、一体どこに行ったのかと思ったら……\nこんな所に！？というか、今本体はどこで何してるんですか！？"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "そ、それは…… "
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "……ここには、アリスちゃんとゲーム開発部がいるんですよ。\n一体何のつもりですか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……リオは私を手伝ってくれているだけですよ。 "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "私が監視しておりますからご心配なく。\n少しでも不審な動きがあれば、すぐに破壊しますので。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "はぁ……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "何を企んでるのかは知らないですけど、絶対ゲーム開発部には近づかないでくださいね！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "会長に言いたいことは山ほどあるけど……\nそうね……後であの横領の件から、事細かくお話を聞かせてもらいますからね！"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "……分かったわ。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "万が一の場合に備えて、地上に戻る方法を探してみるわ。\n……もちろん、許可してくれるのなら、だけど。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね、お願いします。\n船が壊れてしまった場合、私たちは箱舟に閉じ込められますので。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "――では、すぐに取りかかるわ。"
+    },
+    {
+      "Name": "リン",
+      "Text": "アユム、私たちに残された時間は？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "えっと、サンクトゥムの再出現まで……約12時間と予想されています。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "うう～っ……それまでに箱舟を占領しなきゃいけないんだよね？"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "言いたかないけど……これって本当に実現できる作戦なんだよね？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。何度もシミュレートした結果、成功確率は――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なんと、3%もあります。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "さん、パーセント……？ "
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……奇跡みたいな確率を味方にするしかありませんね。"
+    },
+    {
+      "Text": "[s] \"それでも、やる価値は十分あると思うよ。\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……はい、先生のおっしゃる通りです。 "
+    },
+    {
+      "Name": "リン",
+      "Text": "キヴォトスに到来した未曾有の事態……私たちは、不可解な問題に立ち向かい――そうして、ここまで至ったのです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "最初の兆候だった、[ruby=ゆりぞの]百合園[/ruby]セイアの「予言」。"
+    },
+    {
+      "Name": "リン",
+      "Text": "そして、6つの超高濃度エネルギーが探知されましたが、当初は目に見えない不可解な現象でしかありませんでした。"
+    },
+    {
+      "Name": "リン",
+      "Text": "続いて出現した「虚妄のサンクトゥム」は、今までのキヴォトスで発生した全ての「神秘」を集結させて、攻撃してきました。"
+    },
+    {
+      "Name": "リン",
+      "Text": "制御不能のAI「デカグラマトン」、記憶を再現するという「[ruby=ミメシス]複製[/ruby]」、「名もなき神」という名の超古代技術―― "
+    },
+    {
+      "Name": "リン",
+      "Text": "――そして、生徒の存在を歪曲させる「色彩」。"
+    },
+    {
+      "Name": "リン",
+      "Text": "連合作戦で守護者を攻略し、全サンクトゥムの破壊に成功したものの……"
+    },
+    {
+      "Name": "リン",
+      "Text": "今、再び最初と同様にサンクトゥムが発生しようとしている……けれど、今度は指を咥えて見ているだけではありません。私たちは、その解決法に至ったのです。"
+    },
+    {
+      "Name": "リン",
+      "Text": "――今までに起きた現象に、何ひとつ解明できているものなどありません。"
+    },
+    {
+      "Name": "リン",
+      "Text": "予言、デカグラマトン、[ruby=ミメシス]複製[/ruby]、色彩、名もなき神、Divi:Sion、虚妄のサンクトゥム、守護者――そして、色彩の嚮導者であるプレナパテス……"
+    },
+    {
+      "Name": "リン",
+      "Text": "成功率が3%だろうと構いません。\n私たちは、今まで通り作戦を遂行するしかないのです。"
+    },
+    {
+      "Text": "[s] \"そうだね。みんなで力を合わせて、やってみよう。\" "
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……そうですね。\nこれ以外に方法がないのですから、最初から選択肢は存在していません。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ええ、そうね……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……はい。シロコ先輩を連れ戻すためにも。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はぁ……やるしかないよね。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "そうですね……ここまで来て、他の道はありません。"
+    },
+    {
+      "Name": "リン",
+      "Text": "それでは「ウトナピシュティムの本船」を8時間以内に発進できるよう、準備をお願いします。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "えっ、ちょっと待って！\n出発って8時間後！？ "
+    },
+    {
+      "Name": "リン",
+      "Text": "マニュアルはありますので。これを覚えていただきます。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "いやいやいや、こんな分厚いマニュアルを数時間で覚えろだなんて無茶だよ！？"
+    },
+    {
+      "Name": "リン",
+      "Text": "できるできないの問題ではなく、[ruby=・   ・   ・   ・   ・   ・   ・   ・   ・   ・]やらなければならない[/ruby]のです。\nマニュアルを把握し終えた方にオペレーターをお願いします。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "はぁ……っていうか、オペレーターって最低10人は必要だよね……"
+    },
+    {
+      "Text": "[s] \"じゃあ、私が総責任者になるよ。\""
+    },
+    {
+      "Name": "モモカ",
+      "Text": "えっ、先生が？"
+    },
+    {
+      "Text": "[s] \"シッテムの箱があるから、きっとなんとかなるよ。\""
+    },
+    {
+      "Name": "リン",
+      "Text": "……私も先生をサポートします。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "り、リン先輩？"
+    },
+    {
+      "Name": "リン",
+      "Text": "ここまで来たのですから、私も最後までご一緒します。\n一番危険な部分を先生だけに負担させるのは、忍びないので。"
+    },
+    {
+      "Text": "[s] \"リン、ありがとう。すごく頼りにしてる。\""
+    },
+    {
+      "Name": "アユム",
+      "Text": "ま、マニュアルを覚えるだけで良いのでしたら、\n私でもなんとかなりそうです……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "アユム先輩まで！？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "まあ、先生がそう言うのなら、私が降りるわけにはいかないわね。\n私もやるわ。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "私もご一緒します。\nええ、覚えるのは得意なんです。色々と……♡"
+    },
+    {
+      "Name": "アコ",
+      "Text": "はぁ……ゲヘナ風紀委員会の行政官である私が、責務を放棄するわけにはいきません。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "私もやりますよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "私も、ご一緒させてください！ "
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "怖くないと言ったら嘘になりますが……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "シロコ先輩を、助けに行きたいので。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "そういうつもりでここに来たんじゃないんだけど、はぁ……\nこの流れで帰るなんて、できなさそうだし。私もやるよ。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "うわぁ……みんなやる気満々だね。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "あ、ちなみに私は無理だからね？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "モモカちゃん……ここまで来たのに、私たちと別行動を……？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "以前、「宇宙の果てまでついていくよ」と言ってくれたのに……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "わ、わわわっ！そんな顔しないでよアユム先輩！？ "
+    },
+    {
+      "Name": "モモカ",
+      "Text": "……分かった、分かったってば！"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "やるから！\nまぁ……なんとか、なるよね……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ふふっ、宇宙戦艦の乗務員だなんて、良い響きですね♡"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ところで、コスチュームはあるんですか？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "こ、コスチューム……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あら。だって宇宙戦艦の乗務員ですよね？\n専用の衣装があるのでは？ "
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ま、待って。専用衣装……？"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "うん、それは用意できると思う。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "なっ、ヒビキ！？\nそれを用意する時間があるのかい？"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "だって宇宙戦艦の乗務員だよね。"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "できるできないじゃない……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "やるしかないよ。 "
+    },
+    {
+      "Name": "コトリ",
+      "Text": "ええ！エンジニア部のロマンを裏切るわけにはいきませんからね！「発進！」とか、「高度上昇！」とか、「エネルギーチャージ！」とか、そういった台詞を言うのに、普段の制服ではカッコ悪いじゃありませんか！"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "……それもそうだね。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "よし、ひと仕事しようじゃあないか。"
+    },
+    {
+      "Name": "コトリ",
+      "Text": "はい！私も資料を探してみます！\nマンガやアニメにたくさん出てきますからね！"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "うん。じゃあ私は早速制作に入るね。まずはみんなのサイズ測定から――"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あらあら、まぁまぁ♡……とっても楽しみです。\nところで、デザインについてなんですが、よろしければ私と熱い議論を交わしませんか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "では、私はその衣装に機能を追加してパイロットスーツ風に改造するとしましょうか♪"
+    },
+    {
+      "Name": "アユム",
+      "Text": "先生からも何か、ご意見ありますか？"
+    },
+    {
+      "Text": "[s] \"はいはーい、あります！！やっぱり宇宙戦艦といえば――\""
+    },
+    {
+      "Name": "アコ",
+      "Text": "一気に不安になってきますね……"
+    },
+    {
+      "Text": "[ns1] \"やっぱり制帽だよね！！\""
+    },
+    {
+      "Text": "[ns2] \"定番だけどスカーフは外せない！！\""
+    },
+    {
+      "Text": "[ns3] \"やっぱ艦長はロングコートだよね！！\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "お、思ったより具体的ですね……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "なるほどね。一応参考にはしておく。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "（何でこんなことになったんだか……）"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "ふぅ、大体まとまったね。 "
+    },
+    {
+      "Name": "モモカ",
+      "Text": "それじゃ、今から発進準備を始めて、\n8時間後には「箱舟」に向かって出発って事で。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "オペレーター、航空管制担当、ハッキング担当……\n調理担当に治療担当……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "うん。他にも、占領戦で実際に戦ってくれる生徒も集めないと。\nはぁ、やることが山積みだよ～"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……リン先輩、"
+    },
+    {
+      "Name": "アユム",
+      "Text": "先輩はもちろん、先生、そしてシャーレの生徒の皆さんがここまで休まずに駆け抜けて来ました。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "ですが、今は作戦開始まで時間があります。\nこの機会に、少しでも休息をとってはいかがでしょうか？リン先輩は、特に……"
+    },
+    {
+      "Name": "リン",
+      "Text": "……そうですね。"
+    },
+    {
+      "Name": "リン",
+      "Text": "寝不足では判断が鈍る事もあるでしょう……\n今後の作戦に影響が出ないよう、お言葉に甘えさせていただきます。"
+    },
+    {
+      "Name": "リン",
+      "Text": "それでは皆さん。\nこれより8時間後、夜明けと共に出発といたします。 "
+    },
+    {
+      "Name": "リン",
+      "Text": "それまでに……できる限り各自、休息を取るようにしてください。"
+    },
+    {
+      "Name": "リン",
+      "Text": "では、解散します。"
+    },
+    {
+      "Text": "次回;地上最後の夜"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제8화;작전 브리핑"
+    },
+    {
+      "Name": "모모카",
+      "Text": "자. 작전 계획서가 완성되었어. "
+    },
+    {
+      "Name": "아유무",
+      "Text": "여기 계신 분들이 작전 수립에 도움을 주셨어요. 감사드립니다."
+    },
+    {
+      "Name": "린",
+      "Text": "작전명은, <아트라하시스의 방주 점령전>."
+    },
+    {
+      "Name": "린",
+      "Text": "……. 아마도 이것이 저희들의 마지막 작전이 되겠군요."
+    },
+    {
+      "Name": "아야네",
+      "Text": "마, 마지막……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "성공한다면 그걸로 끝이고, 실패해도 끝나게 되겠지. ……키보토스가."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그러네요. 어느 쪽이든 마지막이겠네요."
+    },
+    {
+      "Name": "아코",
+      "Text": "서, 성공하면 되잖아요! 괜히 불안하게 말하지 마요, 카요코 씨!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "그래. 다양한 분야의 전문가들이 모여서 검증을 끝낸 내용이잖아?"
+    },
+    {
+      "Name": "유우카",
+      "Text": "가장 완벽한 작전이라고 생각하는 거야!"
+    },
+    {
+      "Name": "린",
+      "Text": "……그럼 작전 설명에 들어가겠습니다. "
+    },
+    {
+      "Name": "린",
+      "Text": "저희의 가장 큰 목표는, 키보토스 상공에 있는 <아트라하시스의 방주>를 파괴하는 것입니다."
+    },
+    {
+      "Name": "모모카",
+      "Text": "그걸 파괴해야만 거짓된 성소가 키보토스에 나타나는 것을 막을 수 있는 거지."
+    },
+    {
+      "Name": "린",
+      "Text": "하지만 방주는 외부의 물리적인 개입이 불가능하게 만드는 <확률적 중첩 상태>의 배리어로 보호되고 있습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "이 배리어가 있는 이상 방주에 물리적으로 도달하는 것은 불가능."
+    },
+    {
+      "Name": "린",
+      "Text": "따라서 저희는 <우트나피쉬팀의 배>를 그것과 동일한 <확률적 중첩 상태>로 만들어서 배리어를 통과할 예정입니다."
+    },
+    {
+      "Name": "모모카",
+      "Text": "즉, 상대와 같은 존재가 된다면 확률과 무관하게 개입할 수 있다는 얘기지."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 다차원해석의 계산은 제가 이 배의 연산장치를 이용해서 진행할 예정이에요."
+    },
+    {
+      "Name": "카요코",
+      "Text": "계산에 실패하면 어떻게 되지?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러게요. 만약 계산에 실패한 채로 <확률적 중첩 상태>인 공간으로 진입한다면……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……운이 나쁘면 원자 단위로 산산조각이 날 거고, 운이 좋다면 배에서 튕겨져 나가 75,000m 높이에서 추락하겠네요."
+    },
+    {
+      "Name": "아코",
+      "Text": "그, 그 높이라면…… 헤일로가 파괴되겠네요……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "아니, 지상에 닿기도 전에 죽을 거야."
+    },
+    {
+      "Name": "카요코",
+      "Text": "그 높이면 영하 60도가 넘어. 한 번만 숨을 들이쉬어도 폐가 얼어버릴 거야."
+    },
+    {
+      "Name": "카요코",
+      "Text": "게다가 몸 안의 체액이 순식간에 끓어서 기화되겠지. 이 극한의 환경에 노출되면 아마 2분도 못 버티고 헤일로가 부서질 거야."
+    },
+    {
+      "Name": "아코",
+      "Text": "……. 좋은 정보 고마워요, 카요코 씨. 큰 힘이 되네요."
+    },
+    {
+      "Name": "린",
+      "Text": "……. 실패는 상정하지 않습니다. "
+    },
+    {
+      "Name": "린",
+      "Text": "배리어를 통과한 뒤에는 방주에 물리적으로 충격을 가하고, 그 내부로 진입합니다."
+    },
+    {
+      "Name": "린",
+      "Text": "방주 내부에 침입하여 방주의 중요 시설들을 해킹, 더 이상 작동하지 못하도록 철저하게 파괴해야 합니다."
+    },
+    {
+      "Name": "린",
+      "Text": "당연히 방주 내부의 적들이 공격해 오겠죠."
+    },
+    {
+      "Name": "린",
+      "Text": "그 공격을 방어하며, 방주의 각 구역들을 조금씩 [ruby=해킹]점령[/ruby], 최종적으로 방주의 통제권을 저희가 뺏어오는 것, 그것이 이 작전의 최종 목표가 됩니다."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇게 방주의 통제권을 장악하면, 방주를 자폭시키거나 지상으로 추락시킬 수도 있을 거예요."
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "그래. 즉, 방주를 해킹해서 빼앗는다, 그게 우리의 승리 조건인 거지."
+    },
+    {
+      "Name": "아코",
+      "Text": "갑자기 알기 쉽게 이해되는데요?"
+    },
+    {
+      "Name": "아코",
+      "Text": "그런데……."
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "……아. 참고로 나는 단순한 서포트형 AMAS 같은 건데……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "리오 회-장?!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……바로 들켰네요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "어디 갔나 했더니 여기 있었던 거야?! 아니, 어디서 뭐 하는 거야?"
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "그, 그건……. "
+    },
+    {
+      "Name": "유우카",
+      "Text": "……정말. 여기 아리스 쨩이랑 게임개발부 부원들이 있지 않아? 무슨 염치로 여기 있는 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 리오는 여기서 저를 돕고 있는 중이에요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "제가 감시하고 있으니까, 걱정하진 마세요. 허튼짓하면 바로 부숴버릴 테니까."
+    },
+    {
+      "Name": "유우카",
+      "Text": "하아……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "무슨 속셈인지는 모르겠지만 절대 게임개발부 쪽으론 접근도 하지 마!! 내가 감시할 거야!!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "일단 나중에 얘기해, 회장. 할 말이 많으니까. 그래, 그 횡령 건부터 철저하게 따져줄 테니까!!"
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "……. 알겠어."
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "만약을 대비해서 내가 지상으로 돌아올 수 있는 방법을 찾아 보겠어. ……물론 허락해 준다면 말야."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그래요. 부탁드릴게요. 우트나피쉬팀이 고장 난다면 저희는 꼼짝없이 그 방주에 갇혀버리는 꼴이 될 테니까."
+    },
+    {
+      "Name": "소형 AMAS",
+      "Text": "그래. 그럼 바로 준비해 볼게."
+    },
+    {
+      "Name": "린",
+      "Text": "아유무, 앞으로 저희에게 남은 시간은요?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "네, 거짓된 성소의 재출현 시기까지…… 약 12시간 남은 걸로 예상됩니다."
+    },
+    {
+      "Name": "모모카",
+      "Text": "으으…… 그때까지 이 전함을 타고 하늘 위로 올라가서 방주를 점령해야 한다는 거잖아?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "가능한 작전인 건 맞지?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 시뮬레이션도 몇 번이나 돌려봤거든요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "성공 확률이 무려 3% 나 돼요."
+    },
+    {
+      "Name": "모모카",
+      "Text": "3%……. "
+    },
+    {
+      "Name": "하나코",
+      "Text": "으응…… 기적 같은 확률을 뚫고 성공시켜야 하겠네요."
+    },
+    {
+      "Text": "[s] \"이 정도면 해볼 만하다고 생각해.\""
+    },
+    {
+      "Name": "린",
+      "Text": "……네. 선생님 말씀이 맞습니다. "
+    },
+    {
+      "Name": "린",
+      "Text": "키보토스에 도래한 이 미증유의 사태……. 처음부터 저희들은 이 불가해한 문제들을 어떻게든 헤쳐 나가며 여기까지 왔습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "최초의 징후, 유리조노 세이아의 <예언>이 있었던 이후로……."
+    },
+    {
+      "Name": "린",
+      "Text": "6개의 고위급 에너지가 키보토스에 탐지되었을 때, 그것은 존재하지만 보이지 않는 불가해한 현상일 뿐이었습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "그 후에 나타난 <거짓된 성소>는 지금까지 키보토스에서 발생한 모든 <신비>를 총망라해서 공격해 왔습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "통제 불능의 AI <데카그라마톤>, 기억을 재현한다는 <미메시스>, <이름 없는 신들>이라는 초고대 기술과, "
+    },
+    {
+      "Name": "린",
+      "Text": "……그리고 키보토스 학생들의 존재를 왜곡시킨다는 <색채>까지……."
+    },
+    {
+      "Name": "린",
+      "Text": "대규모의 연합 작전을 통해 결국 수호자들을 쓰러트리고, 모든 성소를 파괴하는 데 성공했지만……."
+    },
+    {
+      "Name": "린",
+      "Text": "지금은 다시 성소가 부활하려고 하고 있는 상태입니다. "
+    },
+    {
+      "Name": "린",
+      "Text": "지금까지 벌어진 상황들…… 그중에서 어느 것 하나도 제대로 이해할 수 있는 건 없었습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "예언, 데카그라마톤, 미메시스, 색채, 이름없는 신들, 디비전, 거짓된 성소, 수호자, 색채의 인도자 프레나파테스까지……."
+    },
+    {
+      "Name": "린",
+      "Text": "성공확률이 3%라고 하지만…… 상관없습니다. 저희는 지금까지 그래왔듯이 그런 확률을 헤쳐 나가지 않으면 안 됩니다."
+    },
+    {
+      "Text": "[s] \"그래. 모두들 한번 해보는 거야.\""
+    },
+    {
+      "Name": "하나코",
+      "Text": "……네. 선생님 말이 맞아요. 여기서는 하는 수밖엔 없겠죠."
+    },
+    {
+      "Name": "유우카",
+      "Text": "응. 맞아."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네. 시로코 선배를 돌려받기 위해서라도."
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아……. 어쩔 수 없겠지."
+    },
+    {
+      "Name": "아코",
+      "Text": "여기까지 왔으면 나아갈 수밖에 없는 거죠."
+    },
+    {
+      "Name": "린",
+      "Text": "그럼 <우트나피쉬팀의 배>를 지금부터 8시간 안에 발진시킬 수 있게 준비해 주십시오."
+    },
+    {
+      "Name": "모모카",
+      "Text": "뭐?! 자, 잠깐만. 8시간 뒤에? "
+    },
+    {
+      "Name": "린",
+      "Text": "이미 매뉴얼은 있으니까요. 이걸 전부 외우면 어떻게든 될 겁니다."
+    },
+    {
+      "Name": "모모카",
+      "Text": "그, 그런 사람이 있어? 이 두꺼운 걸 몇 시간 만에 다 외워야 하잖아……."
+    },
+    {
+      "Name": "린",
+      "Text": "할 수 있느냐가 아니라, 해야만 하는 일입니다. 매뉴얼을 전부 숙지한 사람이 <우트나피쉬팀의 배>의 오퍼레이터가 되어줘야 합니다."
+    },
+    {
+      "Name": "모모카",
+      "Text": "하아…… 오퍼레이터라…… 10명 정도는 있어야 할 텐데……."
+    },
+    {
+      "Text": "[s] \"그럼 내가 배의 총책임자를 맡을게.\""
+    },
+    {
+      "Name": "모모카",
+      "Text": "선생이?"
+    },
+    {
+      "Text": "[s] \"싯딤의 상자의 능력으로 어떻게든 될 거야.\""
+    },
+    {
+      "Name": "린",
+      "Text": "그렇군요……. 말을 꺼낸 사람이 구경만 하면 안 되겠죠. 제가 지원하겠습니다."
+    },
+    {
+      "Name": "아유무",
+      "Text": "리, 린 선배?"
+    },
+    {
+      "Name": "린",
+      "Text": "여기까지 와서 몸을 사릴 이유는 없겠죠. 가장 위험한 일을 선생님에게만 맡길 수는 없으니까, 저도 함께하겠습니다."
+    },
+    {
+      "Text": "[s] \"린……, 든든해!\""
+    },
+    {
+      "Name": "아유무",
+      "Text": "책을 외우기만 하는 거라면 저, 저도 어떻게든 가능할 것 같아요……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "아유무 선배까지?! "
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐, 선생님이 그렇게 말하는데 세미나의 회계인 내가 물러설 수는 없지. 나도 할게."
+    },
+    {
+      "Name": "하나코",
+      "Text": "저도 함께하겠습니다. 외우는 건 저도 꽤 잘하거든요♡"
+    },
+    {
+      "Name": "아코",
+      "Text": "하아. 게헨나에선 선도부 선임행정관인 제가 이 책무를 피할 수는 없겠죠!"
+    },
+    {
+      "Name": "아코",
+      "Text": "저도요!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네, 저도 함께하겠어요! "
+    },
+    {
+      "Name": "아야네",
+      "Text": "그리고 무엇보다……"
+    },
+    {
+      "Name": "아야네",
+      "Text": "시로코 선배를 구해야 하니까요!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "이러려고 여기 온 건 아니지만 말야. 하아…… 이런 분위기라면 어쩔 수 없겠네."
+    },
+    {
+      "Name": "모모카",
+      "Text": "우와…… 다들 의욕 충만이네."
+    },
+    {
+      "Name": "모모카",
+      "Text": "참고로 말해두지만, 나는 무리거든?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "모모카 쨩…… 설마 여기까지 와서 우리와 함께하지 않으려는……?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "분명 모모카 쨩이 우주 끝까지라도 따라가 준다고 한 말을 기억하고 있는데……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "우, 우와아아! 그런 표정 짓지 말라고! "
+    },
+    {
+      "Name": "모모카",
+      "Text": "……알겠어, 알겠으니까!"
+    },
+    {
+      "Name": "모모카",
+      "Text": "나도 할게, 하지 뭐! 할 수 있겠지……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "후후, 우주전함의 승무원이라, 울림이 좋네요♡"
+    },
+    {
+      "Name": "하나코",
+      "Text": "그럼 코스튬도 제공되나요?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "네? 코스튬……?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머나? 우주전함의 승무원이잖아요? 분명 이런저런 의도로 만들어진 전용 의상이 있어야 하지 않겠어요? "
+    },
+    {
+      "Name": "유우카",
+      "Text": "자, 잠깐만……? 전용 의상?"
+    },
+    {
+      "Name": "히비키",
+      "Text": "응, 그건 내가 준비할 수 있을 것 같아."
+    },
+    {
+      "Name": "우타하",
+      "Text": "뭐?! 히비키?! 그거 준비할 시간이 있어?"
+    },
+    {
+      "Name": "히비키",
+      "Text": "하지만 우주전함의 승무원복이잖아."
+    },
+    {
+      "Name": "히비키",
+      "Text": "이런 거대한 도전……"
+    },
+    {
+      "Name": "히비키",
+      "Text": "받아줄 수밖에 없지. "
+    },
+    {
+      "Name": "코토리",
+      "Text": "오오, 엔지니어부의 로망을 배신할 수는 없죠! 발진! 이라든가, 고도 상승! 에너지 충전 같은 대사를 외쳐야 하는데 교복이면 이상하잖아요!"
+    },
+    {
+      "Name": "우타하",
+      "Text": "……그건 그렇지."
+    },
+    {
+      "Name": "우타하",
+      "Text": "좋아! 이건 할 수밖에 없겠네."
+    },
+    {
+      "Name": "코토리",
+      "Text": "네! 좋습니다! 저도 레퍼런스를 찾아볼게요! 애니나 만화에 많이들 있으니까!"
+    },
+    {
+      "Name": "히비키",
+      "Text": "응, 그럼 지금 당장 제작에 들어갈게. 일단 모두의 사이즈부터 재야겠어."
+    },
+    {
+      "Name": "하나코",
+      "Text": "어머나…… 기대되네요. 디자인은 저랑 심도 깊은 토론을 해봐요♡"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇군요. 그러면 저는 거기에 이런저런 기능들을 추가해서 단순한 의상이 아니라 파일럿 슈트 같은 느낌으로 개조해 볼게요. "
+    },
+    {
+      "Name": "아유무",
+      "Text": "선생님은 의견 없으신가요?"
+    },
+    {
+      "Text": "[s] \"있어요, 의견 있습니다!\""
+    },
+    {
+      "Name": "아코",
+      "Text": "뭔가…… 불안한데."
+    },
+    {
+      "Text": "[ns1] \"우주 전함의 오퍼레이터라면 당연히 게리슨 모자를 써야지!!\""
+    },
+    {
+      "Text": "[ns2] \"승무원이니까 목 스카프가 정석이지!!\""
+    },
+    {
+      "Text": "[ns3] \"다른 건 모르겠고, 제일 중요한 함장은 무조건 롱코트야!!\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "꽤 구체적이네요……."
+    },
+    {
+      "Name": "히비키",
+      "Text": "흐음. 알겠어. 선생님의 의견은 참고해 볼게."
+    },
+    {
+      "Name": "카요코",
+      "Text": "(대체 무슨 일이 벌어지고 있는 거야…….)"
+    },
+    {
+      "Name": "모모카",
+      "Text": "하아, 그럼 대충 정리되었네. "
+    },
+    {
+      "Name": "모모카",
+      "Text": "그럼 지금부터 발진 준비를 시작해서, 8시간 뒤에 하늘 위의 <방주>로 날아가는 거네."
+    },
+    {
+      "Name": "아유무",
+      "Text": "오퍼레이터 담당, 항공관제 담당, 해킹 담당…… 그 외에 식사 담당과 치료 담당분들을 모셔야 하고……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "그래. 방주의 점령전을 수행할 학생들도 소집해야 하고 말야."
+    },
+    {
+      "Name": "아유무",
+      "Text": "린 선배……"
+    },
+    {
+      "Name": "아유무",
+      "Text": "지금까지 선배는 물론 선생님과 샬레의 학생들 모두가 쉬지도 못하고 지금까지 달려왔어요……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "지금 조금이나마 휴식을 하는 게 필요하지 않을까요? 린 선배는 특히……."
+    },
+    {
+      "Name": "린",
+      "Text": "……네. "
+    },
+    {
+      "Name": "린",
+      "Text": "앞으로의 작전에 지장이 생길지도 모르니, 시간을 내서라도 휴식을 취해두지 않으면 안 되겠군요…… "
+    },
+    {
+      "Name": "린",
+      "Text": "그럼 모두들, 지금으로부터 8시간 뒤. 해가 뜨면 바로 출발하는 것으로 하겠습니다."
+    },
+    {
+      "Name": "린",
+      "Text": "……그전까지 가능한 휴식을 취해주십시오."
+    },
+    {
+      "Name": "린",
+      "Text": "그럼. 해산하겠습니다."
+    },
+    {
+      "Text": "다음화;지상에서의 마지막 밤"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 8; Operational Briefing"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Our plans for the upcoming operation are complete. "
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Thank you to everyone for assisting in preparing for this operation."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The operation name is the Ark of Atrahasis Conquest."
+    },
+    {
+      "Name": "Rin",
+      "Text": "If this is successful, this will be our last operation together."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "O-Our last..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Well, yeah. If we win, everyone gets to go home. If we lose, that's the end of Kivotos."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Whatever the result, this is our last battle."
+    },
+    {
+      "Name": "Ako",
+      "Text": "W-We'll succeed! Don't make everyone anxious, Kayoko!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "It'll work. Top experts from various fields have all worked together to come up with this plan."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "It's the closest thing we'll ever get to a perfect operation."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Allow me to debrief you on the plans. "
+    },
+    {
+      "Name": "Rin",
+      "Text": "Our main objective is to destroy the Ark of Atrahasis in the sky above Kivotos."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Only by destroying it can we prevent the False Sanctums from corrupting Kivotos."
+    },
+    {
+      "Name": "Rin",
+      "Text": "However, the Ark is protected by a quantum superposition state barrier that makes physical access from the outside impossible."
+    },
+    {
+      "Name": "Rin",
+      "Text": "As long as this barrier is in place, physically reaching the Ark is impossible."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Therefore, we plan to pass through the barrier by putting the Utnapishtim's Ship in the same quantum superposition state."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "In other words, we're getting on their level and sliding on in."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'll be doing the calculations of the multidimensional analysis utilizing the immense computing power of this ship."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Out of curiosity, what happens if your calculations are messed up?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's a reasonable question. If you enter a space in the quantum superposition state under the premise of a failed calculation..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "If we're unlucky, we'll shatter into atoms. If we're lucky, we'll be thrown off the ship and fall from a height of 75,000 meters."
+    },
+    {
+      "Name": "Ako",
+      "Text": "A-At that height...a halo could be destroyed."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "We'll be dead way before we hit the ground."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "At that height, it's colder than sixty degrees below zero. One breath and your lungs will freeze."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Your bodily fluids would boil and vaporize before you could blink. If exposed to such an extreme environment, your halo would last two minutes, max."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Thank you for your very optimistic prognosis, Kayoko. I feel very encouraged."
+    },
+    {
+      "Name": "Rin",
+      "Text": "We're not going to fail. We cannot. "
+    },
+    {
+      "Name": "Rin",
+      "Text": "After passing through the barrier, we'll be able to physically impact the Ark and enter."
+    },
+    {
+      "Name": "Rin",
+      "Text": "We must break into the Ark, hack its operating system, and thoroughly destroy it so it can never function again."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Naturally, we don't expect the enemies inside the Ark to take it lying down."
+    },
+    {
+      "Name": "Rin",
+      "Text": "It'll be a slow, careful crawl. We will defend against attacks and occupy each area of the Ark piece by piece until we're close enough to take over its controls."
+    },
+    {
+      "Name": "Himari",
+      "Text": "If we seize control of the Ark like that, we can make it self-destruct or crash to the ground."
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "In other words, our victory conditions are to hack and steal the Ark."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Straightforward and easy to understand. I approve."
+    },
+    {
+      "Name": "Ako",
+      "Text": "But, about..."
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "Oh. I'm a humble support-type AMAS."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "President Rio?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...That didn't take long."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "We've been wondering where you disappeared to! What are you doing here?!"
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "Th-That..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Seriously... Aris and the Game Development Department are here. What are you thinking?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Rio is assisting me. "
+    },
+    {
+      "Name": "Himari",
+      "Text": "You'll grow wrinkles on your forehead, Yuuka. I'm keeping a close eye on her. If she tries anything, I'll take great pleasure in destroying her."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "I don't know what you're up to, but don't even think about going near the Game Development Department! I'm watching you!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "But we will talk later, President. I have a lot to discuss with you, starting with the embezzlement!"
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "...Understood."
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "Just in case, I'll find a way for us to return to the ground...with your permission, of course."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Granted, please do. If Utnapishtim breaks down, we'll be stuck in the Ark."
+    },
+    {
+      "Name": "Small AMAS",
+      "Text": "I'll get to it right away."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Ayumu, how much time do we have left?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Until the reappearance of the False Sanctums...we have about twelve hours."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Ugh... We have to drive this battleship up into the sky and capture the Ark within that time, right?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Is this operation even remotely feasible?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. I ran the simulation several times."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The success rate is a whopping three percent."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Three percent..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Hm... We're gonna need a miracle to be successful..."
+    },
+    {
+      "Text": "[s] \"Three percent is better than zero.\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Yes. You're right, Sensei."
+    },
+    {
+      "Name": "Rin",
+      "Text": "This is an unprecedented situation in Kivotos... We've gotten all the way here by forging a path through utterly incomprehensible phenomena."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Ever since the first sign, Yurizono Seia's prophecy, we've been in uncharted territory..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "When the six masses of energy were detected in Kivotos, they were invisible and incomprehensible phenomena."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The False Sanctums that appeared afterward attacked with all the mysteries that have occurred in Kivotos so far."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The uncontrollable AI Decagrammaton, the Mimesis that reproduces memories, ancient technology like the Nameless Gods..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...And the Chroma that distorts the identity of Kivotos students..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Through a large-scale allied operation, we successfully banded together, defeated the guardians and destroyed all the sanctums..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Now the sanctums are about to be restored."
+    },
+    {
+      "Name": "Rin",
+      "Text": "All of these situations have been terrifying and beyond my comprehension... I'm sure each and every one of you understands."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The prophecy, Decagrammaton, Mimesis, the Chroma, the Nameless Gods, Divi:Sion, the False Sanctums, the guardians, the Guide of Chroma, and Phrenapates..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "The probability of success may only be three percent, but...it doesn't matter. We have to work through the odds, just like we've always done."
+    },
+    {
+      "Text": "[s] \"As Rin says. Just one more time, let's give our all to save Kivotos.\""
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I'm with Sensei. We can't turn back without at least trying."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "One last battle."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "We're bringing Shiroko back, one way or another."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* I guess I don't have a choice."
+    },
+    {
+      "Name": "Ako",
+      "Text": "We've come all the way here, so we can only move forward."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Then please prepare Utnapishtim's Ship. We must be ready to proceed in eight hours."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "What?! E-Eight hours?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "We have the manual, don't we? We'll just have to memorize it."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "You expect someone to stuff all that information in their brain in a few hours?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "It doesn't matter if it's possible or not. We just have to do it. We'll master the manual and operate Utnapishtim's Ship."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "*sigh* ...The operator... I think we need at least ten of them... Maybe one hundred..."
+    },
+    {
+      "Text": "[s] \"Leave the operations to me.\""
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Sensei's gonna do it?"
+    },
+    {
+      "Text": "[s] \"The Shittim Chest can make it work somehow.\""
+    },
+    {
+      "Name": "Rin",
+      "Text": "I can't talk that big and then just sit back. I'll support you, Sensei."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "R-Rin?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "We're all in here. There's no room for playing it safe or hesitations. I won't leave Sensei to deal with the most dangerous task on their own."
+    },
+    {
+      "Text": "[s] \"Rinny... You're my rock!\""
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "If it's just memorizing a manual, I-I think I can do it..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Even Ayumu?!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Well, if Sensei says so, I, the treasurer of Seminar, can't sit on the sidelines. I'll join too."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I'll do it too. I'm pretty good at memorizing!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "*sigh* I, the senior administrator of Gehenna, can't let you all take the spotlight."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Me too!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes, I'll join too!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Above all else..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "I'll do anything to save Shiroko!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "I didn't come here to do something like this. *sigh* But I guess I have no choice."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Wow... Everyone is so enthusiastic."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Just so you know, this is way too much for me."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Momoka... You came all the way here and you're not going to help?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Didn't you say...you would follow Rin to the ends of the universe...with me?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Wh-Whoa! Don't make that face!"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Ugh! I got it, I got it!"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Sure, why not! I guess I can do it too."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Heehee. An intergalactic battleship crew. That sounds nice!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "So, do we get uniforms too?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh? Uniforms...?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Well, we're the intergalactic battleship crew. Isn't a dedicated uniform part of the bill? "
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "W-Wait... A dedicated uniform?"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "I can handle that. Yeah. I can do it."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "What?! Hibiki, you have time for that?"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Uniforms for an intergalactic battleship crew."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "That'll be a challenge..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "One that I refuse to turn down. "
+    },
+    {
+      "Name": "Kotori",
+      "Text": "We can't let down the dreams of the Engineering Department! We can't wear school uniforms while shouting lines like, \"Take off!\" or, \"Raise the altitude!\""
+    },
+    {
+      "Name": "Utaha",
+      "Text": "...That's true."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "I like it! Let's get this underway!"
+    },
+    {
+      "Name": "Kotori",
+      "Text": "Okay, great! I'll find some references from animes and mangas!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Yeah, and I'll get to the production now. First, I need everyone's sizes."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Wow... I'm excited. Let me discuss with you in detail about the design!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Sounds great. Then I'll add some features and modify it into something more like a pilot suit rather than just a uniform."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Do you have any opinions, Sensei?"
+    },
+    {
+      "Text": "[s] \"Yes, I do! I have an opinion!\""
+    },
+    {
+      "Name": "Ako",
+      "Text": "I have a bad feeling about this..."
+    },
+    {
+      "Text": "[ns1] \"An intergalactic battleship operator must wear a garrison hat!!\""
+    },
+    {
+      "Text": "[ns2] \"It's like being a flight attendant, so a scarf is standard!!\""
+    },
+    {
+      "Text": "[ns3] \"I don't know much else, but most importantly, a captain must wear a long coat!!\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "That's quite specific..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Hmm, okay. We'll consider your opinion."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "(What the heck is going on...?)"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "*sigh* Then let's get this underway."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "We'll start departure preparations now and fly to the Ark above the sky in eight hours."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "We need to bring in operators, air traffic controllers, hackers...and people to manage meals and medical treatment..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Yes. We'll need to recruit more students as well."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Rin..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "You, Sensei, and the rest of the students have been working all this time without rest..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Don't you think everyone needs a break? Especially you, Rin."
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Yes. "
+    },
+    {
+      "Name": "Rin",
+      "Text": "We won't be able to perform at our best if we're sleep deprived. We should all take some time to rest. "
+    },
+    {
+      "Name": "Rin",
+      "Text": "Everyone, we leave eight hours from now. As soon as the sun rises."
+    },
+    {
+      "Name": "Rin",
+      "Text": "Until then, please rest while you can."
+    },
+    {
+      "Name": "Rin",
+      "Text": "I will see you all tomorrow morning, above the sky!"
+    },
+    {
+      "Text": "Next Episode; The Last Night on the Ground"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 8;สรุปปฏิบัติการ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เอาละ แผนปฏิบัติการเสร็จสมบูรณ์แล้ว "
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ทุกคนที่อยู่ที่นี่มีส่วนช่วยในการวางแผนด้วยค่ะ ขอบคุณทุกคนนะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ชื่อปฏิบัติการก็คือ <ปฏิบัติการยึดเรืออะทราฮาซิส>"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... บางทีนี่อาจจะเป็นปฏิบัติการสุดท้ายของเราค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ... ครั้งสุดท้าย..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ถ้าทำสำเร็จก็จบแค่นั้น แต่ถ้าล้มเหลว... คิโวทอสก็จบแค่นั้นเหมือนกัน"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "นั่นสินะคะ ไม่ว่าจะทางไหนก็ต้องมีจุดจบสินะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คะ... แค่ทำให้สำเร็จก็พอแล้วนี่คะ! อย่ามาทำให้กังวลกันสิคะ คุณคาโยโกะ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ใช่ๆ นี่เป็นปฏิบัติการที่ได้รับการตรวจสอบจากผู้เชี่ยวชาญจากหลากหลายสาขาเลยนะ?"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ฉันว่ามันคือปฏิบัติการที่สมบูรณ์แบบที่สุดแล้วละ!"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... ถ้างั้นฉันจะเริ่มอธิบายปฏิบัติการเลยค่ะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "เป้าหมายหลักของพวกเราคือการทำลาย <เรืออะทราฮาซิส> ที่ลอยอยู่เหนือฟ้าคิโวทอสค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เราต้องทำลายสิ่งนั้น ถึงจะสกัดกั้นไม่ให้หอคอยแห่งคำลวงปรากฏขึ้นมาในคิโวทอสอีก"
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่เรือนั้นถูกปกป้องด้วยบาเรียแห่ง <สถานะการทับซ้อนตามความน่าจะเป็น> ที่ทำให้เราไม่สามารถ\nแทรกแซงเรือจากภายนอกได้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ตราบใดที่ยังมีบาเรียนี้อยู่ เราก็โจมตีเรือในทางกายภาพไม่ได้ค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ดังนั้นพวกเราเลยต้องทำให้ <เรืออุตนาพิชทิม> อยู่ใน <สถานะการทับซ้อนตามความน่าจะเป็น> เหมือนกับบาเรีย แล้วผ่านเข้าบาเรียนั้นไปค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "นั่นคือ หากเราเป็นเหมือนคู่ต่อสู้ เราก็จะเข้าไปแทรกแซงได้โดยไม่ต้องคำนึงถึงความน่าจะเป็น"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ส่วนการวิเคราะห์พหุมิติ ฉันจะทำโดยใช้อุปกรณ์คำนวณของเรือลำนี้ค่ะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แล้วถ้าคำนวณพลาดล่ะ จะเป็นยังไง?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นสินะคะ ถ้าเราเข้าไปในพื้นที่แห่ง <สถานะการทับซ้อนตามความน่าจะเป็น> ด้วยการคำนวณที่ผิด\nพลาดละก็..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ถ้าโชคไม่ดี เราคงจะแตกเป็นเสี่ยงๆ ในหน่วยอะตอม แต่ถ้าโชคดีหน่อย เราคงกระเด็นออกจาก\nเรือและจะตกลงมาจากความสูง 75,000 เมตรค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถะ... ถ้าสูงขนาดนั้น... ฮาโลก็น่าจะแหลกละเอียดเลยนะคะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ไม่หรอก เราคงตายไปตั้งแต่ก่อนถึงพื้นดินแล้วละ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ในความสูงขนาดนั้น อุณหภูมิคงติดลบอย่างน้อย 60 องศา หายใจเข้าแค่ครั้งเดียว ปอดก็คงแข็งเป็น\nน้ำแข็งแล้ว"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ของเหลวในร่างกายก็คงจะระเหยไปในชั่วพริบตา ถ้าอยู่ในสภาพแวดล้อมที่สุดขั้วแบบนั้น ฮาโลคงทน\nอยู่ได้ไม่ถึง 2 นาทีหรอก"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "...... ขอบคุณสำหรับข้อมูลดีๆ นะคะ คุณคาโยโกะ มีกำลังใจขึ้นเยอะเลยค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... อย่าคิดว่าเราจะล้มเหลวสิคะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "เมื่อผ่านบาเรียเข้าไปได้แล้ว เรือจะได้รับแรงกระแทกทางกายภาพ และเราจะเข้าไปในเรือค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "พอเข้าไปในเรือแล้ว เราจะแฮ็กส่วนสำคัญๆ ของเรือ จากนั้นก็จะทำลายมันให้สิ้นซาก เพื่อจะไม่ให้เรือ\nทำงานได้อีกค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "แน่นอนว่าพวกศัตรูในเรือก็จะโจมตีเราด้วยเช่นกันค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "เราจะสกัดกั้นการโจมตีนั้น แล้วค่อยๆ [ruby=แฮ็ก]ยึดครอง[/ruby]แต่ละพื้นที่ในเรือ สุดท้ายแล้วก็ยึดการควบคุมเรือมาให้\nได้ และนี่คือเป้าหมายสุดท้ายของปฏิบัติการนี้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พอการควบคุมเรือตกอยู่ในมือเรา เราก็จะสั่งระเบิดเรือ หรือไม่ก็ทำให้มันร่วงลงมายังพื้นดินได้ค่ะ"
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "อืม สรุปก็คือเราจะแฮ็กเรือแล้วแย่งเรือมา ถ้าทำได้ เราก็ชนะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "อยู่ดีๆ ก็เข้าใจง่ายเลยนะคะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "อ้อ... ฉันเป็นเหมือน AMAS ที่มาช่วยซัพพอร์ตในการคำนวณน่ะ..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ประธานริโอะ?!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... โดนจับได้ทันทีเลยสินะคะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ก็ว่าอยู่ว่าหายไปไหน มาอยู่ตรงนี้เองหรอกเหรอ?! แล้วมาทำอะไรอยู่ที่นี่กันล่ะเนี่ย!"
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "ระ... เรื่องนั้น... "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "... เชื่อเขาเลย อาริสึจังกับชมรมพัฒนาเกมก็อยู่ที่นี่นะ! ต้องไม่มีความละอายใจเบอร์ไหนถึงมาอยู่ที่นี่\nได้เนี่ย?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ริโอะมาช่วยฉันอยู่ที่นี่ค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฉันคอยเฝ้าดูเธออยู่ เพราะงั้นไม่ต้องห่วงนะคะ ถ้าทำเรื่องเหลวไหลอะไรขึ้นมาละก็ ฉันจะทำลายทันที\nเลยค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ไม่รู้หรอกนะว่าคิดอะไรกันอยู่ แต่อย่ามายุ่งกับชมรมพัฒนาเกมนะ!! ฉันจะคอยจับตาดูไม่ให้คลาดสาย\nตาเลย!!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ไว้คุยกันทีหลังเถอะประธาน ฉันมีอะไรอยากพูดเยอะเลยละ และใช่ ฉันจะตรวจสอบการยักยอกนั่นให้\nถี่ถ้วนอย่างถึงที่สุดเลย!!"
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "...... เข้าใจแล้ว"
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "ฉันจะลองๆ หาวิธีกลับมายังพื้นดินเผื่อๆ ไว้แล้วกัน ...... ถ้าอนุญาตให้ฉันช่วยน่ะนะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ รบกวนด้วยค่ะ เพราะถ้าหากอุตนาพิชทิมของเราเสียหายขึ้นมา เราก็คงต้องถูกขังอยู่ในเรือนั้น"
+    },
+    {
+      "Name": "AMAS ขนาดเล็ก",
+      "Text": "ได้ ฉันจะเตรียมเรื่องการคำนวณเดี๋ยวนี้เลย"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อายูมุ เราเหลือเวลากันอีกเท่าไรคะ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ค่ะ จนกว่าจะเกิดหอคอยแห่งคำลวงอีกครั้งก็... ราวๆ 12 ชั่วโมงค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ปะ... แปลว่าเราต้องขึ้นเรือรบลำนี้ แล้วขึ้นไปบนฟ้าเพื่อยึดเรือลำนั้นให้ได้ก่อนหมดเวลาใช่ไหม?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ปฏิบัติการนี้จะใช้ได้ใช่ไหมเนี่ย?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ พวกเราจำลองสถานการณ์ดูหลายรอบแล้วค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เปอร์เซ็นต์ความสำเร็จมีสูงถึง 3% เลยค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "3%...... "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อืม... ต้องทำให้เปอร์เซ็นต์แห่งปาฏิหาริย์นี้สำเร็จให้ได้สินะคะ"
+    },
+    {
+      "Text": "[s] \"แต่มันคุ้มค่าที่จะลองเสี่ยงดูนะ\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... ค่ะ คุณครูพูดถูกค่ะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถึงคิโวทอสจะต้องเจอกับสถานการณ์ที่ไม่เคยมีมาก่อน... แต่พวกเราก็ฝ่าฟันปัญหาที่ยากจะแก้ไขเหล่า\nนั้นมาได้จนถึงจุดนี้แล้วนะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "หลังจากที่เราได้ <คำพยากรณ์> ที่เป็นลางสังหรณ์แรกจากยูริโซโนะ เซอา......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ในตอนที่มีการตรวจพบมวลพลังงานความเข้มข้นสูงทั้ง 6 ที่กระจายไปทั่วคิโวทอส มันเป็นเพียงแค่\nปรากฏการณ์อันน่าฉงนที่ไม่อาจเข้าใจได้ ปรากฏการณ์ที่มีอยู่ แต่มองไม่เห็น..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "และ <หอคอยแห่งคำลวง> ที่ปรากฏขึ้นมาหลังจากนั้นก็โจมตี <ความลึกลับ> ทั้งหมดที่มีภายใน\nคิโวทอสค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทั้งเทคโนโลยีโบราณอย่าง <เดคาแกรมมาทอน> AI ที่ควบคุมไม่ได้ <มิเมซิส> ที่สร้างความทรงจำ\nขึ้นใหม่ ทั้ง <ทวยเทพไร้นาม> "
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... รวมไปถึง <สีสัน> ที่บิดเบือนตัวตนของเหล่านักเรียนคิโวทอส..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "สุดท้ายเราก็กำกัดเหล่าผู้พิทักษ์หอคอยและทำลายหอคอยทั้งหมดได้ด้วยปฏิบัติการสหพันธ์ครั้งใหญ่..."
+    },
+    {
+      "Name": "ริน",
+      "Text": "แต่ว่าตอนนี้หอคอยจะปรากฏขึ้นมาอีกครั้งแล้วละค่ะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทุกสถานการณ์ที่มันเกิดขึ้นมาจนถึงตอนนี้... ไม่มีอันไหนเลยค่ะที่ฉันทำความเข้าใจมันได้จริงๆ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ทั้งคำพยากรณ์ เดคาแกรมมาทอน มิเมซิส สีสัน ทวยเทพไร้นาม ดิวิชั่น หอคอยแห่งคำลวง ผู้พิทักษ์ รวมไปถึงผู้นำทางสีสัน เพลนาพาเทส......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถึงจะมีเปอร์เซ็นต์ความสำเร็จแค่ 3%... ก็ไม่เป็นไรค่ะ เราต้องก้าวผ่านความเป็นไปได้นั้น อย่างที่พวกเราเคยทำมาจนถึงตอนนี้ค่ะ"
+    },
+    {
+      "Text": "[s] \"ใช่ เราทุกคนจะลองดู\" "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "...... ค่ะ คุณครูพูดถูกค่ะ เราไม่มีทางเลือกอื่นแล้วค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อื้ม ใช่แล้วละ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...... ค่ะ อย่างน้อยก็เพื่อช่วยรุ่นพี่ชิโรโกะกลับมาให้ได้"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เฮ้อ... ช่วยไม่ได้นี่นะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ถ้ามาถึงตรงนี้แล้ว ก็คงต้องก้าวต่อไปละค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถ้าอย่างนั้น ช่วยเตรียมตัวให้สามารถปล่อยเรือรบอุตนาพิชทิมในอีก 8 ชั่วโมงจากนี้ด้วยค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ว่าไงนะ?!  ดะ... เดี๋ยวนะ 8 ชั่วโมงเหรอ? "
+    },
+    {
+      "Name": "ริน",
+      "Text": "เรามีคู่มือกันแล้วนี่คะ ถ้าจำทั้งหมดนี้ได้ละก็ ยังไงก็ต้องทำได้ค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "มะ... มีคนแบบนี้ด้วยเหรอเนี่ย? งั้นฉันก็ต้องท่องจำคู่มือหนาๆ เล่มนี้ให้หมดภายในไม่กี่ชั่วโมงน่ะสิ......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อย่าถามว่าทำได้หรือเปล่า แต่จงบอกตัวเองว่าต้องทำค่ะ คนที่ได้อ่านและจำคู่มือทั้งหมดได้ จะต้องช่วยเป็นโอเปอเรเตอร์ของ <เรือรบอุตนาพิชทิม> ค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เฮ้อ... โอเปอเรเตอร์งั้นเหรอ... อย่างน้อยก็ต้องมี 10 คนแล้วมั้ย..."
+    },
+    {
+      "Text": "[s] \"ครูจะเป็นผู้รับผิดชอบโดยรวมของเรือลำนี้เอง\""
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "คุณครูเหรอ?"
+    },
+    {
+      "Text": "[s] \"ด้วยพลังจากกล่องแห่งซิสดิม ยังไงก็ต้องเป็นไปได้\""
+    },
+    {
+      "Name": "ริน",
+      "Text": "อย่างนี้นี่เอง... ฉันเองก็คงจะดูอยู่เฉยๆ ไม่ได้แล้วละค่ะ ฉันจะช่วยสนับสนุนเองค่ะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ระ... รุ่นพี่ริน?"
+    },
+    {
+      "Name": "ริน",
+      "Text": "มาถึงขนาดนี้แล้ว มันไม่มีประโยชน์ที่จะเอาแต่กลัวแล้วละค่ะ ฉันไม่สามารถฝากงานที่อันตรายที่สุดให้\nกับคุณครูได้ ฉันจะอยู่ด้วยค่ะ"
+    },
+    {
+      "Text": "[s] \"มีกำลังใจขึ้นเยอะเลย ขอบใจนะริน!\""
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ถ้าแค่ท่องจำหนังสือละก็ ไม่เกินไปกว่าฝีมือฉันหรอกค่ะ......"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "รุ่นพี่อายูมุก็ด้วยเหรอ?! "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ก็นะ ถ้าคุณครูพูดถึงขนาดนั้นแล้ว นักบัญชีแห่งเซมิน่าอย่างฉันก็คงต้องออกโรงเหมือนกัน ฉันเอาด้วย"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฉันเองก็จะช่วยอีกแรงค่ะ ฉันเก่งเรื่องการท่องจำเหมือนกันนะคะ♡"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เฮ้อ ถ้างั้นเจ้าหน้าที่อาวุโสของคณะกรรมการวินัยจากเกเฮนน่าอย่างฉัน ก็คงไม่อาจหลีกเลี่ยงความรับ\nผิดชอบนี้ได้ค่ะ!"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "ฉันเอาด้วยค่ะ!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ ฉันก็จะร่วมมือด้วยค่ะ! "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เพราะเหนือสิ่งอื่นใดแล้ว..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ฉันต้องช่วยรุ่นพี่ชิโรโกะกลับมาให้ได้ค่ะ!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ฉันไม่ได้มาที่นี่เพื่อสิ่งนี้นะ แต่ก็... เฮ้อ... ถ้าบรรยากาศมันพาไปขนาดนี้ก็คงช่วยไม่ได้"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ว้าว... ทุกคนมีความตั้งใจเต็มเปี่ยมเลยนะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "แต่ขอบอกไว้ก่อนนะว่าฉันไม่ไหว"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "โมโมกะจัง... มาด้วยกันตั้งขนาดนี้แล้ว จะบอกว่าจะไม่ร่วมมือกับพวกเราเหรอคะ...?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ฉันยังจำได้เลยนะว่าโมโมกะจังเคยพูดไว้ว่า ต่อให้เป็นสุดจักรวาลก็จะยอมไปด้วยกัน..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "อะ... อุว้ากกก! อย่ามาทำหน้าแบบนั้นนะ!"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "...... ก็ได้ ก็ได้ๆ!"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ฉันไปด้วยก็ได้! คงทำได้แหละน่า......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ฮุฮุ จะได้เป็นลูกเรือบนเรือรบอวกาศเหรอคะเนี่ย ตื่นเต้นจังเลยนะคะ♡"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ถ้างั้นจะมีชุดคอสตูมให้ใส่ด้วยไหมคะ?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ? คอสตูม......?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "อุ๊ย? เราเป็นลูกเรือของเรือรบอวกาศเลยนะคะ แบบนี้ต้องมีเครื่องแต่งกายเฉพาะที่ออกแบบมาเพื่อทำ\nนู่นทำนี่บนเรือสิคะ "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ดะ... เดี๋ยวนะ เครื่องแต่งกายเฉพาะ?"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อืม ฉันน่าจะช่วยเตรียมให้ได้นะ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "ว่าไงนะ?!  ฮิบิกิ?!  มีเวลาเตรียมอะไรแบบนั้นด้วยเหรอ?"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "มันเป็นถึงชุดลูกเรือของเรือรบอวกาศเลยนะ"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "ความท้าทายที่ยิ่งใหญ่นี้..."
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "ฉันจะไม่รับไว้ได้ยังไงล่ะ "
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "โอ้ว จะทรยศความเพ้อฝันของชมรมวิศวกรรมไม่ได้หรอกนะคะ! ถ้าเราต้องตะโกนว่า \"ปล่อยเรือรบ! เพิ่มความสูง!\" หรือ \"เติมเชื้อเพลิง!\" ในชุดนักเรียน มันก็จะยังไงๆ อยู่ว่าไหมล่ะคะ?"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "...... มันก็ใช่อยู่หรอก"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "ก็ได้! คงต้องยอมทำตามสินะ"
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ค่ะ! ดีเลยค่ะ! งั้นฉันจะไปหาแบบชุดมาอ้างอิงนะคะ! ในแอนิเมชั่นหรือการ์ตูนมีตัวอย่างเพียบเลยค่ะ!"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อื้ม งั้นฉันจะเริ่มทำชุดเดี๋ยวนี้เลย ก่อนอื่นคงต้องวัดสัดส่วนของทุกคนก่อน"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ตายจริง... น่าตื่นเต้นจังเลยค่ะ ส่วนเรื่องดีไซน์ ใครมีไอเดียก็มาแชร์กับฉันได้นะคะ♡"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "งั้นเหรอคะ ถ้างั้นฉันขอไม่เอาชุดธรรมดา แต่ขอเพิ่มฟังก์ชันการใช้งานต่างๆ และให้มีอารมณ์เหมือน\nชุดนักบินได้ไหมคะ? "
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คุณครูมีความคิดเห็นอะไรไหมคะ?"
+    },
+    {
+      "Text": "[s] \"มี มีๆๆ!\""
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เดี๋ยวนะ... รู้สึกกังวลอะไรแปลกๆ แฮะ"
+    },
+    {
+      "Text": "[ns1] \"โอเปอเรเตอร์บนเรือรบอวกาศต้องใส่หมวกแกริสัน!!\""
+    },
+    {
+      "Text": "[ns2] \"ลูกเรือต้องมีผ้าพันคอด้วย!!\""
+    },
+    {
+      "Text": "[ns3] \"กัปตันเรือต้องใส่เสื้อโค้ตตัวยาว!!\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ลงรายละเอียดจังเลยนะคะ......"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อืม... เข้าใจแล้ว ฉันจะเก็บไอเดียของคุณครูมาพิจารณานะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "(นี่มันเรื่องอะไรกันเนี่ย......)"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เฮ้อ งั้นก็สรุปคร่าวๆ ได้แล้วเนอะ "
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "จากนี้เราจะเตรียมตัวปล่อยเรือรบ แล้วจะทะยานสู่ <เรือ> บนฟ้าลำนั้นในอีก 8 ชั่วโมง"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เราต้องมีโอเปอเรเตอร์ คนควบคุมการบิน แฮ็กเกอร์... นอกจากนั้นก็ต้องมีคนดูแลเรื่องอาหารและการ\nรักษาพยาบาล..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ได้ ฉันจะเรียกนักเรียนที่จะมาร่วมปฏิบัติการยึดเรือบนฟ้าลำนั้นนะ"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "รุ่นพี่ริน......"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "หลายวันมานี้ ทั้งรุ่นพี่ คุณครู และนักเรียนจากชาเล่ต์ทุกคนทุ่มเทอย่างหนักจนไม่ได้พักผ่อนกันเลยนะ\nคะ......"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ฉันว่าตอนนี้เราควรจะพักผ่อนกันสักหน่อยนะคะ โดยเฉพาะรุ่นพี่ริน......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... ค่ะ "
+    },
+    {
+      "Name": "ริน",
+      "Text": "ต่อไปเราอาจจะเจออุปสรรคในปฏิบัติการก็ได้ เราคงต้องหาเวลาพักกันสักหน่อยแล้วละค่ะ...... "
+    },
+    {
+      "Name": "ริน",
+      "Text": "เอาละค่ะทุกคน ถ้างั้นอีก 8 ชั่วโมงต่อจากนี้ เมื่อพระอาทิตย์ขึ้น เราจะเริ่มออกเดินทางสู่ฟากฟ้ากันค่ะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... ระหว่างนี้ขอให้ทุกคนไปพักผ่อนให้เต็มที่นะคะ"
+    },
+    {
+      "Name": "ริน",
+      "Text": "ถ้างั้นก็แยกย้ายกันได้แล้วค่ะ"
+    },
+    {
+      "Text": "ตอนต่อไป;ค่ำคืนสุดท้ายบนพื้นดิน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第8話;作戰簡報"
+    },
+    {
+      "Name": "桃香",
+      "Text": "來，這就是作戰計劃書。"
+    },
+    {
+      "Name": "步",
+      "Text": "多虧了各位的協助才得以完成。"
+    },
+    {
+      "Name": "琳",
+      "Text": "作戰名稱為──「阿特拉哈西斯的方舟占領戰」。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……也許，這會是我們最後的作戰吧。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "最，最後……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "如果成功就無法再造出聖所，失敗的話奇普托斯就完蛋……"
+    },
+    {
+      "Name": "花子",
+      "Text": "是呢，不管結果如何，這都會是最後的作戰。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "只要成功就好了吧！？\n請別說那種會讓人感到不安的話，佳世子同學！"
+    },
+    {
+      "Name": "優香",
+      "Text": "而且專家們也一起驗證過了不是嗎？"
+    },
+    {
+      "Name": "優香",
+      "Text": "應該沒有比這更完美的作戰了。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……那麼進入作戰說明。"
+    },
+    {
+      "Name": "琳",
+      "Text": "我們的目標是破壞位於奇普托斯上空的「阿特拉哈西斯的方舟」。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "如果能順利破壞它，就能阻止「虛假的聖所」出現。"
+    },
+    {
+      "Name": "琳",
+      "Text": "然而，方舟被不受物理介入的「共存狀態」防護罩所保護。"
+    },
+    {
+      "Name": "琳",
+      "Text": "只要那個防護罩存在，我們就無法在物理層面接近方舟。"
+    },
+    {
+      "Name": "琳",
+      "Text": "不過只要讓「生命守護者本艦」處於相同的狀態，理論上就能夠通過防護罩。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "簡單來說，只要能成為和對手相同的存在，就能加以干涉了～"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "為此所需的計算，預計會以這艘船的演算裝置來進行。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……如果計算失敗會怎麼樣？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個嘛……萬一在計算失敗的狀態下進入防護罩所展開的的空間──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "運氣差的話會以原子為單位四分五裂，\n即使運氣好也會從船內彈出，從75,000m的高空墜落。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "從，從那麼高的地方自由落體……光環會被破壞的吧……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "不，我想在那之前，肉體會先撐不住吧。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "在75,000m的高度下，氣溫會遠低於零下60度。\n只要呼吸就會讓肺部結凍吧。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "連體液也會瞬間汽化……\n總之，在那種環境下不用2分鐘，光環就會被破壞。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "謝，謝謝你的說明，佳世子同學。\n真是非～常……值得參考。"
+    },
+    {
+      "Name": "琳",
+      "Text": "──我繼續說明。畢竟就算假設失敗的情況也只會讓人不安而已。"
+    },
+    {
+      "Name": "琳",
+      "Text": "通過防護罩後，給予方舟物理上的衝擊──並入侵方舟內部。"
+    },
+    {
+      "Name": "琳",
+      "Text": "若能順利入侵，就對其主要設施進行駭入，\n為了讓方舟無法繼續運作，必須徹底予以破壞。"
+    },
+    {
+      "Name": "琳",
+      "Text": "當然，也會受到方舟內敵人的抵抗吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "在防禦敵人攻擊的同時，一步步[ruby=駭入]占領[/ruby]方舟的各個區域，最終奪走方舟的控制權──\n這就是本作戰的最終目標。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……掌握控制權後，就能讓方舟自爆或墜落到地面上吧。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "沒錯……駭入方舟，加以奪取──這就是我們的勝利條件。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "感謝說明。目標相當單純呢。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "話說──"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "……那個，我是支援型AMAS──"
+    },
+    {
+      "Name": "優香",
+      "Text": "莉央會長～～！？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……瞬間就被發現了呢。"
+    },
+    {
+      "Name": "優香",
+      "Text": "突然下落不明，我還以為你跑去哪裡了……\n居然在這種地方！？還有，你本人現在在哪裡做什麼啊？"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "這，這個……"
+    },
+    {
+      "Name": "優香",
+      "Text": "……這裡可是有愛麗絲醬和遊戲開發部哦？\n你到底想做什麼？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……莉央只是在協助我而已。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "我會監視著它的，請別擔心。\n只要有任何異常舉動，我就會立刻加以破壞。"
+    },
+    {
+      "Name": "優香",
+      "Text": "唉……"
+    },
+    {
+      "Name": "優香",
+      "Text": "雖然不知道你有什麼企圖，請絕對不要接近遊戲開發部哦！"
+    },
+    {
+      "Name": "優香",
+      "Text": "雖然還有很多話想跟會長說……\n嗯……之後我會從貪汙那件事開始徹底追究的！"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "……我知道了。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "為了以防萬一，我會試著尋找回到地上的方法。\n……當然，是在你們同意的情況下。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是呢，那就拜託了。\n如果船遭到破壞，我們就會被困在方舟裡進退兩難。"
+    },
+    {
+      "Name": "小型AMAS",
+      "Text": "──那麼，我立刻去準備。"
+    },
+    {
+      "Name": "琳",
+      "Text": "步，我們還剩下多少時間？"
+    },
+    {
+      "Name": "步",
+      "Text": "那個……距離聖所再次出現的時間……預計還剩下12小時。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "唔唔～\n……必須在那之前占領方舟對吧？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "雖然很不想這麼說……這個作戰真的是可以實現的嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的。經過無數次模擬後，成功的機率是──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "竟然，有3%。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "3%……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "……只能相信這奇蹟般的機率了呢。"
+    },
+    {
+      "Text": "[s]「即便如此，我認為還是非常值得一試的哦。」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……是。老師說的沒錯。"
+    },
+    {
+      "Name": "琳",
+      "Text": "奇普托斯前所未有的事態……我們打從一開始就面對著這些無法理解的問題──\n並且堅持到了這裡。"
+    },
+    {
+      "Name": "琳",
+      "Text": "最初的徵兆，是百合園聖亞的「預言」。"
+    },
+    {
+      "Name": "琳",
+      "Text": "接著，探測到了6股超高濃度的能量，但當時那不過是存在卻看不見的神祕現象。"
+    },
+    {
+      "Name": "琳",
+      "Text": "接著出現的「虛假的聖所」，\n集結至今為止奇普托斯發生過的所有「神祕」，發動了攻擊。"
+    },
+    {
+      "Name": "琳",
+      "Text": "無法控制的AI「十字神名」、重現記憶的「[ruby=Mimesis]複製[/ruby]」、\n名為「無名之神」的超古代技術──"
+    },
+    {
+      "Name": "琳",
+      "Text": "──以及，扭曲學生存在的「色彩」。"
+    },
+    {
+      "Name": "琳",
+      "Text": "雖然透過聯合作戰擊倒守護者，並成功破壞了所有聖所……"
+    },
+    {
+      "Name": "琳",
+      "Text": "如今，聖所又將像最初那樣出現……\n但是，這次我們不會再坐以待斃。我們已經找出了解決的方法。"
+    },
+    {
+      "Name": "琳",
+      "Text": "──目前為止發生的現象，沒有一個是能夠解明的。"
+    },
+    {
+      "Name": "琳",
+      "Text": "預言、十字神名、[ruby=Mimesis]複製[/ruby]、色彩、無名之神、[ruby=Divi:Sion]分裂者[/ruby]、虛假的聖所、守護者──\n以及身為色彩嚮導者的[ruby=Phrenapates]誘騙者[/ruby]……"
+    },
+    {
+      "Name": "琳",
+      "Text": "就算成功率只有3%也沒關係。\n我們只需要像以往一樣執行作戰就可以了。"
+    },
+    {
+      "Text": "[s]「嗯，大家一起合力試試看吧。」 "
+    },
+    {
+      "Name": "花子",
+      "Text": "……是呢。\n畢竟除此之外也別無他法，選項打從一開始就不存在。"
+    },
+    {
+      "Name": "優香",
+      "Text": "沒錯……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……是。為了將白子前輩帶回來。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……也只能做了呢。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "是的……既然都來到這裡，已經沒有其他選擇了。"
+    },
+    {
+      "Name": "琳",
+      "Text": "那麼，為了讓「生命守護者本艦」能在8個小時內啟航，請各位儘速準備。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "咦，先等一下！\n8小時後就要出發！？"
+    },
+    {
+      "Name": "琳",
+      "Text": "已經有操作手冊了。請把它記在腦袋裡。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "不不不，要在幾個小時內把這麼厚的手冊全都記住也太強人所難了吧！？"
+    },
+    {
+      "Name": "琳",
+      "Text": "不是能不能做到的問題，而是[ruby= ・     ・     ・     ・     ・ ]非做到不可[/ruby]。\n請熟讀手冊的人擔任操作員。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "唉……話說，操作員最少也需要10人呢……"
+    },
+    {
+      "Text": "[s]「那，我來擔任總負責人吧。」"
+    },
+    {
+      "Name": "桃香",
+      "Text": "咦，老師嗎？"
+    },
+    {
+      "Text": "[s]「我有希迪姆的箱子，所以一定會有辦法的。」"
+    },
+    {
+      "Name": "琳",
+      "Text": "……我來支援老師。"
+    },
+    {
+      "Name": "步",
+      "Text": "琳，琳前輩？"
+    },
+    {
+      "Name": "琳",
+      "Text": "都走到這一步了，我也會跟到最後的。\n只讓老師負擔最危險的工作，這種事我可不能容忍。"
+    },
+    {
+      "Text": "[s]「琳，謝謝你。真是可靠呢。」"
+    },
+    {
+      "Name": "步",
+      "Text": "如，如果只要記住手冊的話，\n我應該也能做到……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "連步前輩也！？"
+    },
+    {
+      "Name": "優香",
+      "Text": "既然老師都這麼說了，我怎麼可能退出呢。\n算我一個吧。"
+    },
+    {
+      "Name": "花子",
+      "Text": "我也會一起同行。\n我可是很擅長記東西的。在形形色色的方面……♡"
+    },
+    {
+      "Name": "亞子",
+      "Text": "唉……身為格黑娜風紀委員會行政官的我，可不能逃避應盡的職責。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "我也加入。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "也請讓我一起去吧！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "說不害怕是騙人的……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "但是，我想去幫助白子前輩。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "雖然這不是我來的目的，唉……\n在這種氣氛下也不能說要回去啊。我也加入。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "哇……大家都鬥志滿滿呢。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "啊，順帶一提，我沒辦法哦？"
+    },
+    {
+      "Name": "步",
+      "Text": "桃香醬……都來到這裡了，卻打算跟我們分頭行動……？"
+    },
+    {
+      "Name": "步",
+      "Text": "之前明明說過「會跟到宇宙的盡頭唷」的……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "哇，哇哇哇！請不要露出那種表情啊步前輩！？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "……知道了，知道了啦！"
+    },
+    {
+      "Name": "桃香",
+      "Text": "我也參加！\n總會……有辦法吧……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "呵呵，宇宙戰艦的乘務員，聽起來真不錯呢♡"
+    },
+    {
+      "Name": "花子",
+      "Text": "話說，我們有制服嗎？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "制，制服……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀？我們可是宇宙戰艦的乘務員哦？\n就該要有專用的服裝不是嗎？"
+    },
+    {
+      "Name": "優香",
+      "Text": "等，等等。專用服裝……？"
+    },
+    {
+      "Name": "響",
+      "Text": "嗯，我應該可以準備。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "什麼，響！？妳有時間準備那種東西嗎？"
+    },
+    {
+      "Name": "響",
+      "Text": "畢竟是宇宙戰艦的乘務員。"
+    },
+    {
+      "Name": "響",
+      "Text": "這不是做不做得到的問題……"
+    },
+    {
+      "Name": "響",
+      "Text": "只能做了。"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "說的沒錯！可不能背叛工程師部的浪漫啊！\n在說著「起飛！」、「高度上升！」、「集中能量！」這些台詞的時候，\n要是穿著普通的制服不是很遜嗎？"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "……那倒也是。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "好，就這麼做吧。"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "是！我也來找資料！\n漫畫跟動畫裡可是常常會出現啊！"
+    },
+    {
+      "Name": "響",
+      "Text": "嗯。那我立刻開始製作。先從測量大家的尺寸開始──"
+    },
+    {
+      "Name": "花子",
+      "Text": "哎呀哎呀♡……真是令人期待。\n話說關於設計的部分，不介意的話可以和我進行深度的討論嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "那我就來為服裝追加其他功能，改造成飛行員套裝的風格吧♪"
+    },
+    {
+      "Name": "步",
+      "Text": "老師有沒有什麼意見呢？"
+    },
+    {
+      "Text": "[s]「有有有，我有意見！！果然說到宇宙戰艦──」"
+    },
+    {
+      "Name": "亞子",
+      "Text": "突然有點不安呢……"
+    },
+    {
+      "Text": "[ns1]「果然得有帽子對吧！！」"
+    },
+    {
+      "Text": "[ns2]「雖然老套可是不能缺少領巾吧！」"
+    },
+    {
+      "Text": "[ns3]「艦長就是要穿長大衣對吧！！」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "比，比想像中還具體呢……"
+    },
+    {
+      "Name": "響",
+      "Text": "原來如此。我會參考的。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "（怎麼會變成這種情況……）"
+    },
+    {
+      "Name": "桃香",
+      "Text": "呼，情況大致整理好了。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "那麼，現在開始進行起飛準備，\n預計在8個小時後向「方舟」出發。"
+    },
+    {
+      "Name": "步",
+      "Text": "操作員、航空管控負責人、駭入負責人……\n還有調理負責人與治療負責人……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "嗯。除此之外，還必須召集執行方舟占領戰的學生。\n唉，該做的事堆積如山呢～"
+    },
+    {
+      "Name": "步",
+      "Text": "……琳前輩。"
+    },
+    {
+      "Name": "步",
+      "Text": "前輩、老師、以及夏萊的學生全都不眠不休地走到了這一步。"
+    },
+    {
+      "Name": "步",
+      "Text": "但是，距離作戰開始還有一些時間。\n要不要趁這個時間稍微休息一下呢？尤其是琳前輩……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……說的也是。"
+    },
+    {
+      "Name": "琳",
+      "Text": "睡眠不足會造成判斷的遲鈍……\n為了不影響今後的作戰，我就接受你的好意吧。"
+    },
+    {
+      "Name": "琳",
+      "Text": "那麼各位，我們預計在8小時後，於破曉之時出發。"
+    },
+    {
+      "Name": "琳",
+      "Text": "在那之前……請各位盡可能好好休息。"
+    },
+    {
+      "Name": "琳",
+      "Text": "那麼，解散。"
+    },
+    {
+      "Text": "下一話;陸上的最後一夜"
+    }
+  ]
+}

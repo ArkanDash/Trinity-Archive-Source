@@ -1,0 +1,2902 @@
+{
+  "TitleJP": "衝撃と恐怖",
+  "TitleKR": "충격과 공포",
+  "TitleEN": "Shock and Fear",
+  "TitleTH": "เรื่องสะเทือนใจและความกลัว",
+  "TitleTW": "衝擊與恐懼",
+  "DescJP": "新しい体制と行政施策に混乱するD.U.と連邦生徒会。カヤはこの状況を解決するためにカイザージェネラルとFOX小隊長のユキノを呼び出し、とある計画の実行を命令するのだった。",
+  "DescKR": "혼란스러운 D.U.의 상황을 정리하기 위해 회의를 소집한 카야. 하지만 상황은 좀처럼 풀리지 않고, 카야는 제너럴과 유키노를 집무실로 불러 해결을 독촉한다. 그러던 중 카야는 사태를 해결할 수 있는 한 가지 묘책을 떠올리는데……",
+  "DescEN": "Kaya calls a meeting to sort out the chaos running throughout the D.U. Things don't go well, and she calls the General and Yukino into her office to try and find a solution. Of course, Kaya always does.",
+  "DescTH": "คายะเรียกประชุมจัดการสถานการณ์วุ่นวายในเขต D.U. แต่สถานการณ์\nไม่ได้คลี่คลายลงอย่างที่คิดไว้ คายะจึงเรียกนายพลกับยูกิโนะมาที่สำนัก\nงานและทวงคำสัญญาเรื่องการคลี่คลายสถานการณ์ และในตอนนั้นเอง คายะก็คิดวิธีที่จะคลี่คลายสถานการณ์ขึ้นมาได้...",
+  "DescTW": "香耶為了整治D.U.的亂象召開會議。但情況一時之間難以化解，香耶把將軍和雪乃叫到辦公室，催促他們趕緊解決。就在此時，香耶腦中浮現了一個可以解決亂象的妙計……",
+  "DialogJP": [
+    {
+      "Text": "第13話;衝撃と恐怖"
+    },
+    {
+      "Text": "キヴォトス連邦生徒会会議室"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……私が求める条件は、ただ一つ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "レッドウィンター連邦学園のデモ隊なのですから、事務局が責任を持って解散させること。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……分かりましたか、チェリノ会長？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "何か誤解があるようだな、新連邦生徒会長代行。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "おいらはただの生徒会長ではなく……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "レッドウィンター連邦学園の生徒会長であり、環境美化部部長兼、書記長兼、運動部代表兼、清掃部部長兼、風紀委員長兼、給食部長兼、今月の最優秀プリン試食家として選ばれたチェリノ様だ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "「チェリノ会長」と省略して呼ぶんじゃない！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ええ。レッドウィンター連邦学園の生徒会長で、その他諸々重責を背負っていらっしゃるチェリノ様。いま大切なのは呼び名ではなく――"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "「その他諸々」……？\nなんと無礼な！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（どうして誰も気にしないような役職にこんなにも執着するのだろう……？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……失礼いたしました、チェリノ書記長。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "しかし、いま最も対応しなければならないのは、D.U.市内の各地でデモを主導し、連邦生徒会の行政を麻痺させているデモ隊です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "外部の治安機関が調査した結果、このデモ隊員のほとんどがレッドウィンター連邦学園出身の生徒であることが分かりました。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "D.U.の治安を管理する防衛室長であり、連邦生徒会長代行として、\nレッドウィンター事務局に強く抗議します。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "そういえば最近、工務部のやつらがやけに静かだと思ったら……\nそんなところでデモを起こしていたのか……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "やつらは一体何が不満だと？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "良い質問です、チェリノ会長。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "彼女らは、プリンの支給や週休5日のような理解できない政策を要求するだけでなく……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……クーデターを起こそうとしているのです！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……それがどうしたんだ？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……通信が悪かったようですね。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "クーデターです……反逆を起こそうと――\n彼女らは、連邦生徒会を転覆させようと目論んでいるのです！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "キヴォトスの治安維持を担う連邦生徒会長代行として、このような事態を容認するわけには――"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "クーデター……それがいかに面倒なことかはよく知っているとも。\nこの私もよく経験していたものだ。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "しかし、だ。防衛室長――クーデターを根本的に防ぐ方法など存在しない。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "生徒会の政策が気に入らない、だからクーデターを起こす。\n当然のことではないのか？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "はい？\nえっと、それはどういう……"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "もちろん、おいら達のような偉大な指導者の政策を素人の生徒が理解できるわけもない。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "連邦生徒会長代行も何かと苦労が多いんだな……やつらが相手では色々と大変そうだ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ですから、レッドウィンター事務局が責任を持ってデモ隊の解散を――"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "原則として学園外のことには関わらない主義だが、\n今回だけは連邦生徒会長代行に免じて――"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "我がレッドウィンター事務局からチェリョンカを一箱送るとしよう！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "チェリョンカ……って何ですか？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "むむ？防衛室長はチェリョンカを食べたことがないのか？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "チェリョンカはレッドウィンター連邦学園で生産している、特製ミルクチョコレートだ！絶品だぞ！"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "食べてみて、気に入るようであれば――連邦生徒会にはチェリョンカの定期納品を検討してやろう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ですから、いま必要なのはミルクチョコレートではなくデモの――"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "……おっと！もうこんな時間か？"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "楽しく話をしていたから、昼寝の時間を逃すところだった。"
+    },
+    {
+      "Name": "チェリノ",
+      "Text": "では、また今度話すとしようか……なんちゃら連邦生徒会長代行。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "このガキ……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "レッドウィンター連邦学園にはまともな生徒がいないのですか！"
+    },
+    {
+      "Name": "ハイネ",
+      "Text": "……え？ぼ、僕レッドウィンター学園出身じゃないんだけど？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……あなたの話ではありません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "調停室長。本当にあのチビがレッドウィンター連邦学園の代表で、生徒会長なのですか？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "はい、現在のレッドウィンター連邦学園の生徒会長は彼女――[ruby=れんかわ]連河[/ruby]チェリノさんです。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "現在の……？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "その……一週間前は[ruby=いけくら]池倉[/ruby]マリナ委員長がレッドウィンター連邦学園の生徒会長でした。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "つまり、今の私たちは…… "
+    },
+    {
+      "Name": "カヤ",
+      "Text": "一週間おきに代表が入れ替わるような学園と交渉し、治安問題を解決しなければならないということですか？"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "そういう事。\nでも、前任のリン先輩は文句一つ言わずにやってたよ～"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "アメとムチをうま～く使い分ければ、トリニティやゲヘナの生徒会長より話しやすいと思うけど……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "ま、ムチしか知らない防衛室出身の誰かさんには、\nちょ～っと難しいかもね。（パリッ）"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "あ、あの……カヤ室長……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……連邦生徒会長代行。"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "す、すみません……連邦生徒会長代行！"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "防衛室の定期報告なのですが……口座から現金を下ろすたびに、10種類あまりの書類提出を義務付けた新しい行政命令に対し、市民が大きく不満を示しておりまして……"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "D.U.各地で銀行員に対して書類の代わりに銃を突きつけて預金を強制的に引き出すといった事例が相次いでいるそうです。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "それは……単なる強盗じゃないですか！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "D.U.各地で銀行強盗が相次いでいるというのに、ヴァルキューレ警備局とカイザーセキュリティは一体何をしているのですか？"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "以前も申し上げましたが、警備局とカイザーセキュリティは検問で手一杯でして……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "人手が足りないのであれば、民間警備会社でも何でもいいから、もっと雇って治安を安定させてください。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "私が管理するキヴォトスで、犯罪は一件たりとも容認しませんよ！"
+    },
+    {
+      "Name": "連邦生徒会役員A",
+      "Text": "いや、前より混沌としているように見えるけど……"
+    },
+    {
+      "Name": "連邦生徒会役員B",
+      "Text": "ここに来るのだって、デモのせいで普段より30分以上かかっちゃったし……"
+    },
+    {
+      "Name": "連邦生徒会役員C",
+      "Text": "犯罪率は減ったけど、重犯罪が増えたよね……"
+    },
+    {
+      "Name": "連邦生徒会役員A",
+      "Text": "ぶっちゃけ、罪のない市民を選別した結果じゃん？"
+    },
+    {
+      "Name": "連邦生徒会役員B",
+      "Text": "人材資源室長がいなくなった後は、カヤ室長を支持する役員もかなり減ったらしいし……"
+    },
+    {
+      "Name": "連邦生徒会役員A",
+      "Text": "このまま代行をやってて大丈夫なの？"
+    },
+    {
+      "Name": "連邦生徒会役員C",
+      "Text": "もしかしたら、リン行政官の方が有能だったんじゃ……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……解散！\n本会議はこれにて解散とします！"
+    },
+    {
+      "Text": "連邦生徒会長代行執務室"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……遅いぞ。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "来たか、連邦生徒会長代行。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "代金の振り込みが遅れているようでね。\nこうして直接訪ねてきたというわけだよ。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "治安管理に必要な人手と装備を考慮すると、既に支払われている金額ではこれ以上の運営は困難と言わざるを――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "なぜ、統制に穴が開いているのですか？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "貴方がたに、一体いくらかけたと思っているのですか。\nたかがデモ隊一つ、まともに制圧できずによくもぬけぬけと。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "おやおや、それだけの費用を支払っているとでも？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "こんな程度じゃあ、このレベルの規制が限度だとも。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "雇っている兵が問題を解決できない時は、まず金額が足りているかを考えたまえよ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……貴方がたは、お金の話ができる立場ではないと思いますが？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "私が前回の事態をもみ消した事で、カイザーコーポレーションが破産を免れたというのを、もうお忘れで？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "忘れるわけないだろう？\n企業の価値は信用だからな。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "……しかし、プレジデントの機嫌だって、いつまでも持つわけではない。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "いくら助けてくれたとはいえ、これだけの労力を低賃金で貸してしまっては割に合わないんだ。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "最悪、我々はカイザーの名を捨て、新しい組織を作り直す事もできる。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "だが、君はどうだ？\n果たして、これまでに築いてきた名誉を捨てて、一からやり直せるのか？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……子ウサギ駅の地下に建設したサイロを黙認するだけでは足りないのですか？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "それは別の話だ。前回リベートが暴露されたせいで、むしろ赤字になったからな。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "この仕事が終わったら返済しますので、借金としてツケておいてくださいな。 利子もたっぷり乗せて。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "望むのなら、そうしよう。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "……しかし、これ以上請求書を増やして本当に大丈夫なのか？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "風の噂で、まだ財務室長の信頼を得られていない新連邦生徒会長代行は、資金調達に苦労していると耳にしたのだが……"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "部下からの信用が薄いリーダーに投資するなんて、少し不安でね。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（……一体何が問題だというの？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（どうして私の周りにいるやつらは、素直に信じてくれないの？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（私の指示に従うだけで、すべてが完璧になるというのに……どうしてみんな反抗するの……？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（……[ruby=連邦生徒会長]あの女[/ruby]が何を言っても、キヴォトスの全生徒は全幅の信頼を寄せて従っていたというのに）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（私と彼女の違いは何……？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（どうして私は「超人」になれないの……？）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "（過去の連邦生徒会と今の連邦生徒会の違い……）"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……そうか。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "このキヴォトスには、[ruby=・   ・]恐怖[/ruby]が足りない。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……ありったけの恐怖を見せれば、誰もが私の言うことを聞くようになる。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……カヤ？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ユキノ、先日あなたが回収した<A.N.T.I.O.C.H.>プロジェクトの成果物――弾道ミサイル用サーモバリック弾は、今どこに保管されていますか？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……アレは非活性化させてD.U.郊外の軍事施設に保管している。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "威力があまりにも強く、起爆処理も容易ではないからな。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……命令です、ユキノ小隊長。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "直ちにその弾頭を子ウサギ駅の地下サイロに持ち込み、爆破させなさい。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……理由は？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "命令を質問で返すなんて、あなたらしくないですね。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "――簡単な事ですよ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "先ほどユキノ小隊長が仰ったように、<A.N.T.I.O.C.H.>の弾頭は威力が強く、周辺への被害を懸念して起爆処理を遅らせておりました。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "しかし、子ウサギタウンは再開発によってほとんどの住民が離れており、起爆による被害を最小限に抑えることができます。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "とはいえ、まだ子ウサギタウンに残っている市民も少なくない。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "加えて、サーモバリック弾は地下鉄のような閉鎖空間で起爆させてしまえば、威力がより高められ――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ええ、知っていますよ。\n子ウサギ駅はもちろんのこと、近隣の駅舎まで被害に遭うでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……ですが、そのレベルの脅威を見せつければ、誰もが私たちの力を理解してくれるのでは？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "………！"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "いざとなれば、小都市くらい軽く消し去れるのだと知れ渡れば、楯突くような生徒もいなくなるでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "それに、地下鉄で起きた「事故」ですから。\n安全装置の不備を口実に、交通室の責任問題に発展させて役員を追い出せますし……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "――まさに一石二鳥とはこの事では？"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "くくっ……素晴らしい。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "常人ができないことを平然とやってのける人物であることは知っていたが――\nまさかここまで大胆だとはな。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "やはり、プレジデントの目に狂いはない。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……褒め言葉として受け取っておきましょう。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "だが、子ウサギ駅の地下サイロは我々カイザーコーポレーションの所有物だ。爆発を起こして、我々に何の得があるというのだね？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "そうですね――貴社の施設を利用させて頂くのですから、それに相応しい対価を支払うといたしましょう……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……D.U.地下鉄の運営権なんて、いかがでしょうか。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "交通室の役員を交代させた場合、地下鉄を運営する新しい組織が必要になりますから。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "カイザーコーポレーションでその役割を引き受けていただけるのなら、私としても大歓迎です。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "悪くない。そうでなくとも、セイント・ネフティスの鉄道事業を買収するのに失敗したところでね。ちょうど代替を探していたのだよ。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "各自治区をつなぐ主要な交通手段の運用――他の産業とは比べ物にならないほど安定した収入源を得ることになる……"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "私は些細な目先の利益に眩んで未来の富を逃す愚か者とは違うからな。"
+    },
+    {
+      "Name": "ジェネラル",
+      "Text": "いいだろう。弾頭の搬入とサイロの稼動に必要な準備を済ませておいてやろう。キツネたちが動く時間に合わせ、我々も手を打つ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "………。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ありがとうございます。\nこれで一件落着――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……ああ、そうでした。まだ命令の返事を聞けていませんね。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ユキノ小隊長、返事は？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……FOX1、了解。"
+    },
+    {
+      "Text": "次回;囚人のジレンマ"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제13화;충격과 공포"
+    },
+    {
+      "Text": "키보토스 총학생회 회의실"
+    },
+    {
+      "Name": "카야",
+      "Text": "……그래서 제가 요구하는 조건은 단 하나뿐입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "붉은겨울 학원 출신의 용역 시위대를 붉은겨울 사무국이 책임지고 해산시키는 것."
+    },
+    {
+      "Name": "카야",
+      "Text": "……이해하셨는지요, 체리노 회장?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "무언가 오해가 있었던 모양이군, 신임 총학생회장 대행."
+    },
+    {
+      "Name": "체리노",
+      "Text": "이 몸은 단순한 학생회장이 아니라……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "붉은겨울 학원의 학생회장이자, 미화부장이자, 서기장이자, 체육부장이자, 청소부장이자, 선도부장이자, 급식부장이자 이달의 최우수 푸딩 시식가로 선정된 체리노 님이시다!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "그런 단순한 호칭으로 이 몸을 부르는 것은 용납할 수 없어!"
+    },
+    {
+      "Name": "카야",
+      "Text": "네. 붉은겨울 학원의 학생회장이시자, 그 외 이것저것 중책을 맡고 계신 체리노 님. 지금 중요한 것은 호칭의 문제가 아니라—"
+    },
+    {
+      "Name": "체리노",
+      "Text": "'그 외 이것저것'이라니……? 이 무슨 무례한 발언이란 말인가!"
+    },
+    {
+      "Name": "카야",
+      "Text": "(……이 꼬맹이는 어째서 아무도 신경 쓰지 않는 가짜 직책에 이렇게 집착하는 거야……?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "……실례했습니다, 체리노 서기장."
+    },
+    {
+      "Name": "카야",
+      "Text": "하지만 지금 가장 우선하여 대응해야 하는 문제는 D.U. 시내 곳곳에서 시위를 주동하며 총학생회의 행정을 마비시키고 있는 시위대의 문제입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "외주 치안기관이 조사한 결과, 이 시위대는 대부분이 붉은겨울 학원 출신의 학생으로 구성된 것으로 파악되었습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "D.U.의 치안을 관리하는 방위실장이자 총학생회장 대행으로서 이 사태에 대해 붉은겨울 사무국에 강력히 항의하는 바입니다."
+    },
+    {
+      "Name": "체리노",
+      "Text": "그러고보니 요새 용역부 녀석들이 조용하다 싶었는데, 그런 곳에서 말썽을 부리고 있었나……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "녀석들은 뭐가 불만이기에 그곳에서 시위를 하고 있는 거지?"
+    },
+    {
+      "Name": "카야",
+      "Text": "잘 물어보셨습니다, 체리노 회장."
+    },
+    {
+      "Name": "카야",
+      "Text": "그 학생들은 푸딩 지급이나 주 2일 노동과 같은 이해되지 않는 정책을 요구하는 것뿐만 아니라, 더 나아가……"
+    },
+    {
+      "Name": "카야",
+      "Text": "……쿠데타를 일으키려 하고 있습니다!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……그래서?"
+    },
+    {
+      "Name": "카야",
+      "Text": "……혹시 제 말을 잘못 들으셨나요?"
+    },
+    {
+      "Name": "카야",
+      "Text": "쿠데타입니다…… 반역이라고요! 그 학생들은 총학생회를 전복시키려는 시도를 하고 있습니다!"
+    },
+    {
+      "Name": "카야",
+      "Text": "이는 키보토스의 치안을 책임지는 총학생회장 대행으로서 용납할 수 없는—"
+    },
+    {
+      "Name": "체리노",
+      "Text": "쿠데타라…… 나도 자주 겪어봐서 쿠데타가 얼마나 귀찮은 일인지는 잘 알고 있지."
+    },
+    {
+      "Name": "체리노",
+      "Text": "하지만 방위실장, 쿠데타를 원천적으로 막을 수 있는 방법은 존재하지 않는다네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "학생회의 정책이 마음에 들지 않으면 쿠데타를 일으키는 게 당연하지 않는가?"
+    },
+    {
+      "Name": "카야",
+      "Text": "네? 그게 무슨……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "물론 우리 같은 위대한 지도자의 정책을 한낱 참새 같은 학생들이 이해할 수는 없겠지만 말이야."
+    },
+    {
+      "Name": "체리노",
+      "Text": "D.U.의 총학생회장 대행도 고생이 많군 그래. 녀석들을 상대하려면 여러모로 피곤하겠어."
+    },
+    {
+      "Name": "카야",
+      "Text": "그러니까 붉은겨울 사무국이 책임지고 시위대의 해산을—"
+    },
+    {
+      "Name": "체리노",
+      "Text": "원칙대로라면 학원 밖의 일에는 관여하지 않는다만, 이번만큼은 총학생회장 대행의 노고를 치하하는 의미에서……"
+    },
+    {
+      "Name": "체리노",
+      "Text": "우리 붉은겨울 사무국에서 체룐카를 한 박스 보내도록 하지!"
+    },
+    {
+      "Name": "카야",
+      "Text": "체룐카가…… 뭐죠?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "으응? 방위실장은 체룐카를 먹어본 일이 없단 말인가?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "체룐카는 붉은겨울 학원에서 생산되는 특제 밀크 초콜릿이다. 달콤한 맛이 아주 일품이지!"
+    },
+    {
+      "Name": "체리노",
+      "Text": "한 번 먹어보고 마음에 든다면 특별히 총학생회에는 체룐카의 정기 납품을 고려해 보겠네."
+    },
+    {
+      "Name": "카야",
+      "Text": "그러니까 지금 필요한 건 밀크 초콜릿이 아니라 진압 병력을—"
+    },
+    {
+      "Name": "체리노",
+      "Text": "……이런! 벌써 이런 시간이 되어 버린 건가?"
+    },
+    {
+      "Name": "체리노",
+      "Text": "모처럼 즐겁게 이야기를 나누느라 오후 낮잠 시간을 놓칠 뻔했네."
+    },
+    {
+      "Name": "체리노",
+      "Text": "그럼 다음에 또 이야기하도록 하지, 카…… 뭐시기 총학생회장 대행."
+    },
+    {
+      "Name": "카야",
+      "Text": "이 빌어먹을 꼬맹이가……"
+    },
+    {
+      "Name": "카야",
+      "Text": "붉은겨울 학원에는 어째서 제대로 된 학생이 단 한 사람도 없는 건가요!"
+    },
+    {
+      "Name": "하이네",
+      "Text": "……어? 나, 나는 붉은겨울 학원 출신 아닌데?"
+    },
+    {
+      "Name": "카야",
+      "Text": "……당신 들으라고 한 이야기가 아니거든요."
+    },
+    {
+      "Name": "카야",
+      "Text": "조정실장. 정말 저 꼬맹이가 붉은겨울 학원의 대표이자 학생회장이 맞는 건가요?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "네. 현시점에서 붉은겨울 연방학원의 학생회장은 렌카와 체리노 씨가 맞습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "현 시점에서……?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "일주일 전에는 이케쿠라 마리나 위원장이 붉은겨울 학원의 학생회장이었습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "지금 그러니까…… "
+    },
+    {
+      "Name": "카야",
+      "Text": "일주일 단위로 대표가 뒤바뀌는 학교와 협상을 해서 치안 문제를 해결해야 한다는 소리인가요?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "하지만 전임 대행이었던 린 선배는 아무런 불평 없이 잘만 해왔는걸."
+    },
+    {
+      "Name": "모모카",
+      "Text": "당근과 채찍을 잘 활용하면 오히려 트리니티나 게헨나의 학생회장을 대하는 것보다 간단한 일일 텐데……"
+    },
+    {
+      "Name": "모모카",
+      "Text": "뭐, 채찍밖에 모르는 방위실 출신의 대행에게는 조금 어려운 일일지도 모르겠지만. (와작)"
+    },
+    {
+      "Name": "방위차장",
+      "Text": "저, 저…… 카야 실장님……"
+    },
+    {
+      "Name": "카야",
+      "Text": "……총학생회장 대행."
+    },
+    {
+      "Name": "방위차장",
+      "Text": "죄, 죄송합니다…… 총학생회장 대행님!"
+    },
+    {
+      "Name": "방위차장",
+      "Text": "방위실의 정기 보고 관련한 이슈입니다만…… 계좌에서 현금을 인출할 때마다 10여 종의 신분 증명 서류를 추가로 제출해야 한다는 새로운 행정명령에 대해 시민들이 크게 불만을 표시해서……"
+    },
+    {
+      "Name": "방위차장",
+      "Text": "D.U. 곳곳에서 은행원에게 신분 증명 서류 대신 총기를 들이밀고 예금을 강제로 인출해 가는 사례가 속출하고 있다고 합니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그건…… 단순한 무장 강도잖아요?!"
+    },
+    {
+      "Name": "카야",
+      "Text": "D.U 곳곳에서 은행 강도가 속출하고 있는데, 발키리 경비국과 카이저 시큐리티는 무얼 하고 있는 건가요?"
+    },
+    {
+      "Name": "방위차장",
+      "Text": "전에도 말씀드렸지만 경비국과 카이저 시큐리티는 검문으로 인한 인력도 부족한 상황이라……"
+    },
+    {
+      "Name": "카야",
+      "Text": "인력이 부족하다면 민간 경비 업체든 뭐든 더 고용해서라도 치안을 안정시키세요."
+    },
+    {
+      "Name": "카야",
+      "Text": "제가 관리하는 키보토스에서 범죄는 한 건도 용납할 수 없습니다!"
+    },
+    {
+      "Name": "총학생회 임원 A",
+      "Text": "(소근) 그렇게 말하지만 시내는 전보다 더 혼란스러워 보이던걸?"
+    },
+    {
+      "Name": "총학생회 임원 B",
+      "Text": "오늘 생텀 타워에 오는데도 시위 때문에 30분이나 더 걸렸어."
+    },
+    {
+      "Name": "총학생회 임원 C",
+      "Text": "범죄율은 줄었다지만, 중범죄는 더 자주 일어나는 것 같은데……"
+    },
+    {
+      "Name": "총학생회 임원 A",
+      "Text": "이게 다 애꿎은 시민들만 쥐어짜서 얻어낸 성과지."
+    },
+    {
+      "Name": "총학생회 임원 B",
+      "Text": "인재자원실장이 당하고 난 뒤로는 카야 실장을 지지하는 임원들도 많이 줄은 것 같은데……"
+    },
+    {
+      "Name": "총학생회 임원 A",
+      "Text": "이대로 대행을 유지해도 괜찮은 거야?"
+    },
+    {
+      "Name": "총학생회 임원 C",
+      "Text": "어쩌면 린 행정관이 그나마 유능했던 걸지도 모르겠어……"
+    },
+    {
+      "Name": "카야",
+      "Text": "……해산! 본 회의는 이것으로 해산합니다!"
+    },
+    {
+      "Text": "총학생회장 대행 집무실"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……기다리고 있었다."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "왔는가, 총학생회장 대행."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "안 그래도 카이저 시큐리티에 지불해야 할 대금이 지연되고 있는 것 같아 직접 찾아왔다네."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "치안 관리에 필요한 인력과 장비의 숫자를 계산했을 때, 이미 지불된 금액으로는 더 이상의 가드 운영이 곤란—"
+    },
+    {
+      "Name": "카야",
+      "Text": "어째서 통제에 계속 구멍이 생기는 거죠?"
+    },
+    {
+      "Name": "카야",
+      "Text": "당신네들에게 들인 비용이 얼마인데, 그깟 시위대 하나 제대로 통제하지 못해서 잡음이 제 귀에까지 들려오는 겁니까."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "그야…… 그만한 비용을 지불하지 않았기 때문이지."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "총학생회에서 지불하는 금액으로는 이 정도의 규제가 한계야."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "돈으로 문제가 해결되지 않는다면, 돈이 부족한 건 아닌지 생각해 봐야지."
+    },
+    {
+      "Name": "카야",
+      "Text": "……돈 이야기를 할 입장이 아닐 텐데요, 카이저."
+    },
+    {
+      "Name": "카야",
+      "Text": "제가 지난번 사태의 책임을 무마해 준 덕분에 카이저 코퍼레이션이 파산을 면하게 되었다는 걸 벌써 잊었나요?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "잊었을 리가 있나. 기업의 가치는 신용이거늘."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "……하지만 프레지던트께서도 슬슬 불편한 심기를 드러내기 시작하셔서 말이야."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "아무리 파산을 면하게 도와주었다지만, 이렇게 한도 없이 돈을 계속 쏟아부으면 수지타산이 맞지 않거든."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "우리는 최악의 경우에는 카이저의 이름을 버리고 명패만 새것으로 갈아버리면 그만이야."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "하지만 너는 어떻지? 지금까지 쌓아온 명예와 이름을 버리고 처음부터 시작할 수 있겠나?"
+    },
+    {
+      "Name": "카야",
+      "Text": "……코우사기 역의 지하에 건설한 사일로를 묵인해 주는 것만으로는 부족한가요?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "그 건은 별개로 쳐야지. 지난번 리베이트가 폭로되며 타운 재개발이 엎어지는 바람에 오히려 적자를 보았으니까."
+    },
+    {
+      "Name": "카야",
+      "Text": "이번 일이 끝나면 갚아드릴 테니 빚으로 달아 두시지요. 이자도 충분히 붙여서."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "원한다면 그렇게 하지."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "……하지만 이 이상 청구서를 늘려도 정말 괜찮겠나?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "들리는 소문에 의하면 신임 총학생회장 대행은 아직도 재무실장의 신임을 얻지 못해 자금 조달에 어려움을 겪고 있다고 들었는데."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "부하들에게 신용도 얻지 못하는 리더에게 투자를 하자니, 조금 불안해서 말이야."
+    },
+    {
+      "Name": "카야",
+      "Text": "(……도대체 뭐가 문제지?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(어째서 내 주변에 있는 녀석들은 나를 곧이곧대로 신뢰하지 않는 거지?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(내 지시에 따르기만 하면 모든 게 완벽할 텐데…… 어째서 다들 의심하고 반항하는 거지……?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(……그[ruby=총학생회장] 여자는[/ruby] 무슨 말을 해도 키보토스의 모든 학생들이 따르고 신뢰했었는데.)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(나와 그녀는 무엇이 다르지……?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(나는 어째서 <초인>이 될 수 없지……?)"
+    },
+    {
+      "Name": "카야",
+      "Text": "(과거의 총학생회와 지금의 총학생회는 무엇이 다르지……)"
+    },
+    {
+      "Name": "카야",
+      "Text": "……그래."
+    },
+    {
+      "Name": "카야",
+      "Text": "이 키보토스에는 공포가 부족해."
+    },
+    {
+      "Name": "카야",
+      "Text": "……충분한 공포를 보여준다면 모두가 내 말을 따를 거야."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……카야?"
+    },
+    {
+      "Name": "카야",
+      "Text": "유키노. 전에 당신이 회수한 <A.N.T.I.O.C.H.> 프로젝트의 결과물— 탄도 미사일용 열압력 탄두는 현재 어디에 보관되어 있죠?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "그 미사일용 탄두는 비활성화하여 D.U. 외곽의 군사 시설에서 보관하고 있다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "워낙 폭발력이 강해 기폭 처리하는 것도 쉽지 않으니까."
+    },
+    {
+      "Name": "카야",
+      "Text": "……명령입니다, 유키노 소대장."
+    },
+    {
+      "Name": "카야",
+      "Text": "지금 즉시 그 탄두를 코우사기 역 지하의 사일로로 가져가 폭파시키세요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……이유를 물어도 되겠나?"
+    },
+    {
+      "Name": "카야",
+      "Text": "명령에 질문으로 답하다니, 당신답지 않은 반응이네요."
+    },
+    {
+      "Name": "카야",
+      "Text": "하지만 어려운 일도 아니니 친절히 그 질문에 답변드리죠."
+    },
+    {
+      "Name": "카야",
+      "Text": "방금 유키노 소대장이 말한 것처럼 <A.N.T.I.O.C.H.>의 탄두는 폭발력이 강력하기 때문에 주변에 미칠 피해를 염려하여 기폭 처리를 미루고 있었습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "하지만 코우사기 타운은 재개발로 인해 대부분의 주민들이 떠났기 때문에, 기폭으로 인한 피해를 최소화할 수 있지요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "그렇다고는 해도 여전히 코우사기 타운에 남아있는 시민의 수도 적지 않아."
+    },
+    {
+      "Name": "유키노",
+      "Text": "더욱이 열압력탄은 지하철과 같은 폐쇄 공간에서 기폭하면 더욱 위력이 강해지는데—"
+    },
+    {
+      "Name": "카야",
+      "Text": "네, 알고 있습니다. 아마 코우사기 역은 물론이고 인근 역사까지 피해를 입겠지요."
+    },
+    {
+      "Name": "카야",
+      "Text": "……하지만 그 정도의 위력은 보여주어야 다들 우리가 가진 힘을 짐작할 수 있지 않겠어요?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "………!"
+    },
+    {
+      "Name": "카야",
+      "Text": "여차하면 소도시 하나는 가볍게 지워버릴 수 있는 힘이 우리에게 있다는 걸 알게 된다면, 앞으로는 다들 건방진 소리를 입에 담지 못하겠죠."
+    },
+    {
+      "Name": "카야",
+      "Text": "거기에 더해 지하철 시설에서 일어난 '사고'니, 안전 조치 미비를 핑계로 교통실에 책임을 물어 교통실의 임원들도 내보낸다면……"
+    },
+    {
+      "Name": "카야",
+      "Text": "그야말로 일석이조의 효과가 아니겠어요?"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "큭큭…… 정말이지 대단하군. "
+    },
+    {
+      "Name": "제너럴",
+      "Text": "평범한 사람이 하지 못하는 일도 태연하게 저지를 수 있는 인물이라는 건 알고 있었지만, 설마 이 정도로 대범할 줄이야."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "역시 프레지던트의 안목은 틀리지 않았어."
+    },
+    {
+      "Name": "카야",
+      "Text": "……칭찬으로 듣겠습니다."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "다만 코우사기 역 지하의 사일로는 우리 카이저 코퍼레이션의 소유물인데, 폭발로 이 사일로가 파괴된다면 우리는 무슨 이득을 새로 얻을 수 있지?"
+    },
+    {
+      "Name": "카야",
+      "Text": "그렇네요. 귀사의 시설을 이용하는 것이니 그에 상응하는 대가를 새로 지불하지 않으면……"
+    },
+    {
+      "Name": "카야",
+      "Text": "……D.U.의 지하철 운영권은 어떠신가요?"
+    },
+    {
+      "Name": "카야",
+      "Text": "교통실의 임원들을 교체하고 나면 D.U.의 지하철을 운영할 새로운 주체가 필요할 것 같은데."
+    },
+    {
+      "Name": "카야",
+      "Text": "카이저 코퍼레이션에서 그 역할을 맡아 주신다면 저희로서도 대환영이지요."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "나쁘지 않군. 안 그래도 세인트 네프티스의 철도 사업을 인수하는 데 실패해서 대체제를 찾고 있던 중이었으니까."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "각 자치구를 잇는 주요 교통수단을 운용할 수 있다면 다른 산업과는 비교할 수 없을 정도로 안정적인 수익원을 얻게 되는 셈이니……"
+    },
+    {
+      "Name": "제너럴",
+      "Text": "나는 사소한 이득에 눈이 멀어 미래의 부를 놓치는 머저리들과는 다르지."
+    },
+    {
+      "Name": "제너럴",
+      "Text": "좋다. 탄두의 반입과 사일로의 가동에 필요한 준비를 미리 마쳐 두지. 여우들이 움직이는 시간에 맞추어 우리도 손을 쓰겠다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "………."
+    },
+    {
+      "Name": "카야",
+      "Text": "다행이네요. 이것으로 한 건 해결—"
+    },
+    {
+      "Name": "카야",
+      "Text": "……그러고 보니 아직 지시에 대한 답변을 듣지 못한 것 같군요."
+    },
+    {
+      "Name": "카야",
+      "Text": "유키노 소대장, 대답은?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……FOX 1, 확인."
+    },
+    {
+      "Text": "다음화;죄수의 딜레마"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 13;Shock and Fear"
+    },
+    {
+      "Text": "Kivotos General Student Council Conference Room"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I have one condition. More of a request, if you will. "
+    },
+    {
+      "Name": "Kaya",
+      "Text": "For the Red Winter Office to take responsibility for and disband the protesters from your school."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Can we shake on that, President Cherino?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "It seems you are confused, Acting General Student Council President."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "You see, I am not simply a \"president.\""
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I am the student council president of Red Winter Academy, head of beautification, Great Leader, head of physical education AND the catering department, and this month's top pudding taster, Cherino!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I refuse to respond to such a paltry title!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Yes, Red Winter Academy student council president and the head of the various departments, Cherino. Back to the matter at hand..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Head of various departments...? You trivialize my position?! I'll have you purged!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(...Why is this little child in front of me so attached to these fake positions no one cares about?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Please excuse me, Great Leader Cherino."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "But the protesters hindering the General Student Council's ability to carry out its responsibilities is a pressing concern. They are causing civil unrest all over D.U."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "An external security review confirmed that most of these troublemakers are students from Red Winter Academy."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "As D.U.'s Chief of Defense and the acting General Student Council president, I am firmly demanding the Red Winter Office take accountability."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Now that you mention it, the Labor Party has been unusually quiet. So, that's their game..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "What's their grievance that they're protesting this time?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "That's a good question, Great Leader Cherino."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "These students are demanding not just free pudding rations and an unrealistic 2-day work week, but..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "They're also initiating a coup!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Is that so? And?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Does that giant hat block your hearing?!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "A coup! A rebellion! They're trying to topple the General Student Council itself!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "As the acting General Student Council President responsible for Kivotos' security, this is a matter that can't–"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I get it. Coups can be quite bothersome. I've weathered a few myself."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "One thing I've learned, Chief Kaya, is that trying to crush a coup directly only fuels its flames."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "And isn't it natural for students to rebel if they're unhappy with the council's actions?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "What do you mean by that?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "There will always be those short-sighted students who can't see the visions of distinguished leaders like us."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "While it's nothing like Red Winter, I imagine being the General Student Council President of D.U. must be challenging. The public will never understand you."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "This is exactly why I'm trying to request that the Red Winter Office take responsibility..."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Now then, I don't normally involve myself in matters outside of my academy, but when I see hard work, it must be rewarded."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Therefore, the Red Winter Office will send you a box of Cherenka!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Will send me a...what now?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "*gasp* You have never tried a Cherenka, Chief of Defense?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Cherenka is Red Winter Academy's signature milk chocolate. Its richness is unparalleled!"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "If it's to your liking, perhaps the General Student Council could receive regular shipments."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "What I'm asking for now is manpower, not—"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "Oh no! How could this have happened?"
+    },
+    {
+      "Name": "Cherino",
+      "Text": "I was enjoying chatting with a like-minded leader so much I almost missed my scheduled nap time."
+    },
+    {
+      "Name": "Cherino",
+      "Text": "We'll continue this later, Acting General Student Council President Ka... whatever your name was."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "That insolent brat..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "How does Red Winter Academy not have one, single serious student?!"
+    },
+    {
+      "Name": "Haine",
+      "Text": "...Wait, I'm not from Red Winter Academy."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I know. I wasn't talking to you."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Are you sure that brat is Red Winter Academy's student council president and representative, Chief of Staff?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Indeed, Renkawa Cherino currently holds the position of student council president at Red Winter Federal Academy."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Currently?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Last week, I believe it was Chairwoman Ikekura Marina."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If I am understanding this correctly... "
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We have to solve this security threat by negotiating with an academy that changes leadership on a weekly basis?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Yet, the former acting president Rin seemed quite competent at it."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "With the right incentives, this should be a cakewalk compared to dealing with Trinity and Gehenna..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "I guess someone with a background in defense might only know how to use sticks. *nom*"
+    },
+    {
+      "Name": "Deputy Chief of Defense",
+      "Text": "Er... Chief Kaya...?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Acting General Student Council President."
+    },
+    {
+      "Name": "Deputy Chief of Defense",
+      "Text": "I-I'm so sorry! Acting General Student Council President!"
+    },
+    {
+      "Name": "Deputy Chief of Defense",
+      "Text": "Regarding the regular Defense Office reports... Numerous civilians have made grievances about the new policy mandating them to...show ten forms of ID when making a cash withdrawal..."
+    },
+    {
+      "Name": "Deputy Chief of Defense",
+      "Text": "And, there have been a number of incidents across D.U. where frustrated civilians have brandished weapons instead of IDs, coercing bank staff to make the withdrawal."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "That's... That's blatant armed robbery!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "This is happening all over? And are Valkyrie officers and Kaiser guards just...twiddling their thumbs?"
+    },
+    {
+      "Name": "Deputy Chief of Defense",
+      "Text": "As mentioned before, both the Security Bureau and Kaiser Security are stretched thin due to the sheer number of daily inspections..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If they lack the personnel, then hire private security firms to maintain security."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I won't tolerate even a single criminal act while I'm in charge of Kivotos."
+    },
+    {
+      "Name": "General Student Council Staffer A",
+      "Text": "She says that, but things have been way more chaotic since she took over."
+    },
+    {
+      "Name": "General Student Council Staffer B",
+      "Text": "A protest delayed me for 30 minutes this morning when I was trying to get to Sanctum Tower."
+    },
+    {
+      "Name": "General Student Council Staffer C",
+      "Text": "While minor crimes have decreased, major offenses have escalated..."
+    },
+    {
+      "Name": "General Student Council Staffer A",
+      "Text": "Because all of our resources have been directed towards regulating the citizens. Criminals have suddenly found themselves with more room to play."
+    },
+    {
+      "Name": "General Student Council Staffer B",
+      "Text": "And with the Director of Human Resources out of commission, Chief Kaya has less supporters than ever..."
+    },
+    {
+      "Name": "General Student Council Staffer A",
+      "Text": "Maybe she can't keep up with the pressures of her office..."
+    },
+    {
+      "Name": "General Student Council Staffer C",
+      "Text": "Chief Officer Rin is looking more and more competent every day."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Enough! Meeting adjourned!"
+    },
+    {
+      "Text": "Office of the Acting General Student Council President"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...You kept me waiting."
+    },
+    {
+      "Name": "General",
+      "Text": "There you are, Acting General Student Council President."
+    },
+    {
+      "Name": "General",
+      "Text": "I'm here in person because there seems to be a delay in payments to Kaiser Security."
+    },
+    {
+      "Name": "General",
+      "Text": "Considering the manpower and equipment required, the previous payment doesn't even come close to covering—"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Why am I still being bothered with petty problems?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "With the amount of money we've paid you, how is it that you are incapable of handling even a single student protest before it reaches my desk?"
+    },
+    {
+      "Name": "General",
+      "Text": "Why, because you haven't paid the proper price of course."
+    },
+    {
+      "Name": "General",
+      "Text": "You say what you have paid me is how much the General Student Council has approved in its budget."
+    },
+    {
+      "Name": "General",
+      "Text": "But if your problem won't go away, then maybe the budget isn't sufficient."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...You're in no position to be asking for more, Kaiser."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Have you forgotten that I kept Kaiser Corporation from diving nose-first into bankruptcy? Where would you be if I hadn't covered up your crimes in the incident?"
+    },
+    {
+      "Name": "General",
+      "Text": "Of course not. Trust is the backbone of any business arrangement."
+    },
+    {
+      "Name": "General",
+      "Text": "However, I also don't believe in conducting business arrangements on emotional whims."
+    },
+    {
+      "Name": "General",
+      "Text": "You may have saved us from bankruptcy, but that doesn't mean I'll burn through our revenues for you."
+    },
+    {
+      "Name": "General",
+      "Text": "But you asked where I would be. I would have recovered quite easily. I can just throw away the Kaiser brand and start a new company should things go wrong."
+    },
+    {
+      "Name": "General",
+      "Text": "What about you? You stake your name and credibility with so little thought. If it all comes apart, where will Shiranui Kaya be?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...I've helped you. I've kept your secrets. The public would be interested to know about the silo you've built under Kousagi Station, I should think."
+    },
+    {
+      "Name": "General",
+      "Text": "That was a different issue. We were the ones who took a hit when that rebate was discovered, under your protection. The town's redevelopment went up in smoke because of it."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I've told you already. Once everything's squared away, I'll pay you back. Put it on my tab. I'll even add interest."
+    },
+    {
+      "Name": "General",
+      "Text": "If that's what you choose."
+    },
+    {
+      "Name": "General",
+      "Text": "Your tab is adding up to be quite a hefty fee."
+    },
+    {
+      "Name": "General",
+      "Text": "From what I've gathered, you have yet to gain the Treasury's trust. You don't have much sway in directing the budget, do you?"
+    },
+    {
+      "Name": "General",
+      "Text": "Backing a leader who can't inspire her team's confidence does seem rather unwise."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(Why is this happening?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(Why doesn't anyone trust me?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(If only they'd just listen! Instead, it's suspicion and insubordination at every corner!)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(And somehow the General Student Council President...that woman... All of Kivotos followed and trusted her!)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(Why her? What can she do that I can't?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(Why can't I become a superhuman too?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "(What's different from then and now? From her Kivotos and mine?)"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I get it."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "This Kivotos lacks fear."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If they fear me, then they'll fall into line."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...Kaya?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Yukino, where's the thermobaric warhead from project A.N.T.I.O.C.H. stored now? The one you confiscated from Kaiser."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "The warhead has been deactivated and is being stored in a military facility in the outskirts of D.U."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "But due to its explosive power, it was impossible to completely disarm it."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "This is a direct order, Yukino."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Transport the warhead to the silo under Kousagi Station and detonate it."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...Can I ask the reason?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "It's not like you to question my orders."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "So I'll indulge you, this once."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Like you said, the A.N.T.I.O.C.H. warhead's power is intense, making it hard to fully neutralize."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "And most of Kousagi Town have relocated because of the redevelopment anyway, so casualties would be minimal."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "\"Most of Kousagi Town\" means there are still residents there."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Detonating the warhead in a confined space like a subway station will–"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Yes, I'm aware how it works. Kousagi Station and the nearby stations will sustain damage."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "That's the point. I need a show of force. Bigger than their wildest imaginations, otherwise it won't be enough to cow them into submission."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...!"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "They need to know we can erase a small city in seconds. Then, they'd think twice before crossing us."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If the \"accident\" occurs in the subway, we can pin it on the transit staff's negligence."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Everything will be tied up in a neat little bow for us."
+    },
+    {
+      "Name": "General",
+      "Text": "Haha... Outstanding."
+    },
+    {
+      "Name": "General",
+      "Text": "I knew you were a little crazy, but you've truly exceeded my expectations this time."
+    },
+    {
+      "Name": "General",
+      "Text": "Our Kaiser president really does seem to have an uncanny eye for talent."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Thanks for the praise."
+    },
+    {
+      "Name": "General",
+      "Text": "One objection, however. The silo under the subway station is Kaiser property. I'm not necessarily keen on you blowing up my things."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You have a point. We'll be using your property, so to compensate..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Would the control of D.U.'s subway system suffice?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Once I've gotten rid of the current transportation officers, we'll need another body to oversee the subway system."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If Kaiser Corporation is up for it, it'd be a win-win."
+    },
+    {
+      "Name": "General",
+      "Text": "Sounds promising. We've been eyeing transportation ever since the Saint Nephthys rail takeover fell through."
+    },
+    {
+      "Name": "General",
+      "Text": "Control over the primary transport linking districts would be a source of steady revenue..."
+    },
+    {
+      "Name": "General",
+      "Text": "I'm not one to miss a lasting opportunity because I'm blinded by the short-term."
+    },
+    {
+      "Name": "General",
+      "Text": "Very well. We'll make the preparations to receive the warhead in the silo. We'll need to coordinate with your foxes."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "That's finally settled."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Now, back to my order."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Squad Leader Yukino. Your answer?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...FOX 1. Understood."
+    },
+    {
+      "Text": "Next Episode; Prisoner's Dilemma"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 13;เรื่องสะเทือนใจและความกลัว"
+    },
+    {
+      "Text": "ห้องประชุมองค์การนักเรียนของคิโวทอส"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... เพราะแบบนั้นมันจึงมีเงื่อนไขเดียวที่ฉันจะขอค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "กลุ่มผู้ประท้วงรับจ้างของสหภาพเรดวินเทอร์ สำนักเลขาธิการเรดวินเทอร์จะต้องเป็นผู้รับผิดชอบ และสั่งสลายการประท้วงค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... เข้าใจหรือเปล่าคะ ประธานเชริโน่?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "คงจะเข้าใจอะไรผิดแล้วละ รักษาการแทนประธานองค์การนักเรียนคนใหม่"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราไม่ได้เป็นแค่ประธานสภานักเรียนหรอกนะ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เราคือท่านเชริโน่ ประธานสภานักเรียนแห่งสหภาพเรดวินเทอร์ และเป็นหัวหน้าฝ่ายตกแต่ง เลขาธิการ หัวหน้าฝ่ายกีฬา หัวหน้าฝ่ายทำความสะอาด ประธานกรรมการ หัวหน้าฝ่ายอาหาร และก็เป็นนักชิม\nพุดดิ้งดีเด่นประจำเดือนนี้ด้วย!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "เพราะงั้นจะมาเรียกเราแค่ตำแหน่งสั้นๆ แค่นั้นไม่ได้!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ค่ะ ท่านเชริโน่ ประธานสภานักเรียนแห่งสหภาพเรดวินเทอร์ และเจ้าของตำแหน่งที่ยิ่งใหญ่จิปาถะ ตอนนี้เรื่องคำเรียกมันสำคัญนักเหรอคะ—"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "'จิปาถะ' งั้นเหรอ...? พูดอะไรไร้มารยาทเช่นนี้!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(... เด็กตัวกะเปี๊ยกคนนี้ทำไมไม่สนใจอะไรเลยนอกจากตำแหน่งบ้าบออะไรนี่เนี่ย...?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "...ขอโทษที่เสียมารยาทค่ะ เลขาธิการเชริโน่"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แต่ปัญหาที่ต้องรับมือเป็นอันดับแรกในตอนนี้คือปัญหากลุ่มผู้ประท้วงที่ทำการประท้วงไปทั่วตัวเมือง D.U. และทำให้การบริหารงานขององค์การนักเรียนเป็นอัมพาตค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "จากการตรวจสอบของหน่วยงานรักษาความสงบเรียบร้อยภายนอก พบว่าส่วนใหญ่ของกลุ่มผู้ประท้วง\nนี้เป็นนักเรียนจากสหภาพเรดวินเทอร์ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ในฐานะรักษาการแทนประธานองค์การนักเรียนและหัวหน้าสำนักป้องกันที่ดูแลความสงบเรียบร้อยของ D.U. ฉันขอท้วงติงเรื่องนี้กับสำนักเลขาธิการเรดวินเทอร์ค่ะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ก็ว่าอยู่ว่าทำไมช่วงนี้พวกชมรมผู้รับจ้างดูเงียบๆ ที่แท้ก็ไปก่อปัญหาในที่แบบนั้นอยู่สินะ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "แล้วพวกนั้นไม่พอใจอะไรถึงได้ไปประท้วงอยู่ที่นั่นล่ะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถามได้ดีเลยค่ะ ประธานเชริโน่"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คนพวกนั้นมาเสนอนโยบายเหลวไหลที่ให้ทำงานสัปดาห์ละ 2 วัน แล้วก็เรื่องขอเพิ่มจำนวนพุดดิ้งอะไร\nด้วย ไม่เพียงแค่นั้นนะคะ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "...พวกเธอกำลังก่อปฏิวัติอยู่ค่ะ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "...แล้วยังไงอ่ะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "...ได้ยินไม่ถนัดเหรอคะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "การปฏิวัตินะคะ... กบฏที่ล้มล้างอำนาจการปกครองน่ะ! นักเรียนพวกนั้นกำลังพยายามโค่นล้มองค์การ\nนักเรียนอยู่นะคะ!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ในนามรักษาการแทนประธานองค์การนักเรียนที่รับผิดชอบความสงบเรียบร้อยของคิโวทอส ฉันไม่อาจยินยอมต่อเรื่องนี้ได้—"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ปฏิวัติงั้นเหรอ... เราก็เจอมาจนนับจำนวนครั้งไม่ถ้วนแล้วละ พอจะเข้าใจอยู่หรอกนะว่ามันน่ารำคาญแค่\nไหน"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "แต่เธอรู้อะไรไหมหัวหน้าสำนักป้องกัน ตามหลักพื้นฐานแล้วน่ะ มันไม่มีวิธีป้องกันการปฏิวัติหรอกนะ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถ้านโยบายของสภานักเรียนไม่น่าพอใจ มันก็ต้องก่อการปฏิวัติอยู่แล้วน่ะสิ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คะ? หมายความว่ายังไงคะ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถึงนักเรียนบางคนจะไม่เข้าใจนโยบายของผู้นำที่ยิ่งใหญ่อย่างเช่นพวกเรา แต่เราก็มองว่าการปฏิวัติ\nคือเรื่องปกติ"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "รักษาการแทนฯ เองก็คงจะเหนื่อยกับเรื่องใน D.U. น่าดูเลยนะ ยิ่งต้องเจอกับเจ้าพวกนั้นด้วยแล้ว"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "เพราะแบบนี้ไงคะ ฉันถึงถามหาความรับผิดชอบจากสำนักเลขาธิการเรดวินเทอร์ในการสลายการชุมนุม\nประท้วง—"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ตามหลักการแล้วเราจะไม่ยุ่งกับงานนอกสหภาพ แต่ครั้งนี้ถือว่าเป็นการยกย่องการทำงานหนักของ\nรักษาการแทนฯ..."
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "สำนักเลขาธิการเรดวินเทอร์จะส่งช็อกเชริโน่ไปให้กำลังใจหนึ่งกล่อง!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ช็อกเชริโน่... คืออะไรเหรอคะ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "หืม? หัวหน้าสำนักป้องกันไม่เคยกินช็อกเชริโน่เหรอ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ช็อกเชริโน่ก็คือช็อกโกแลตนมสูตรพิเศษที่ผลิตในสหภาพเรดวินเทอร์น่ะ รสหวานสุดยอดเลยละ!"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "ถ้าลองกินแล้วถูกใจละก็ เราจะพิจารณาส่งช็อกเชริโน่ไปให้องค์การนักเรียนอย่างสม่ำเสมอเลย"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ตอนนี้ที่ฉันต้องการไม่ใช่ช็อกโกแลตนม แต่เป็นกองกำลังปราบปราม—"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "... แย่ละสิ! เวลาล่วงเลยไปขนาดนี้แล้วงั้นรึ?"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "มัวแต่คุยเพลินจนเกือบพลาดเวลานอนกลางวันไปแล้วเลย"
+    },
+    {
+      "Name": "เชริโน่",
+      "Text": "งั้นเอาไว้คุยกันใหม่นะ คา... อะไรนะ เอาเถอะ ไว้คุยกันนะรักษาการแทนฯ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ยัยเด็กเจ้ากรรมนี่..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ในสหภาพเรดวินเทอร์ มีนักเรียนคนไหนที่ปกติบ้างไหมเนี่ย!"
+    },
+    {
+      "Name": "ไฮเนะ",
+      "Text": "...หืม? ฉะ... ฉันไม่ได้เป็นเด็กสหภาพเรดวินเทอร์นะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ฉันไม่ได้ถามคุณสักหน่อยค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "หัวหน้าฝ่ายไกล่เกลี่ย เด็กตัวกะเปี๊ยกคนนั้นเป็นประธานสภานักเรียนของสหภาพเรดวินเทอร์จริงๆ เหรอคะ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ค่ะ ประธานสภานักเรียนของสถาบันสหภาพเรดวินเทอร์ในขณะนี้คือคุณเรนคาวะ เชริโน่ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ในขณะนี้เหรอ...?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เมื่อสัปดาห์ก่อน ตำแหน่งประธานสภานักเรียนของสหภาพเรดวินเทอร์เป็นของอิเคะคุระ มารินะ หัวหน้าคณะฯ ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้างั้นตอนนี้..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แปลว่าฉันต้องเจรจาเพื่อคลี่คลายปัญหาความสงบเรียบร้อยกับโรงเรียนที่เปลี่ยนประธานสภาทุกๆ สัปดาห์เหรอคะ?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "แต่รุ่นพี่รินที่เป็นรักษาการฯ คนก่อนหน้าก็จัดการได้โดยไม่ปริปากบ่นเลยนะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ไม่ว่าจะวิธีเอาแคร์รอตมาล่อหรือใช้แส้ฟาด ถ้าจูงใจให้มันถูกๆ วิธี น่าจะรับมือง่ายกว่าประธานสภา\nนักเรียนของทรีนิตี้ หรือเกเฮนน่าอีกนะ..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "แต่เรื่องนี้น่าจะยากไปสำหรับรักษาการฯ จากสำนักป้องกันที่ไม่รู้จักอะไร นอกจากวิธีเอาแส้ฟาดนั่น\nแหละ (ง่ำๆ)"
+    },
+    {
+      "Name": "รองหัวหน้าฝ่ายป้องกัน",
+      "Text": "อะ... เอ่อ... หัวหน้าสำนักฯ คายะ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... รักษาการแทนประธานองค์การนักเรียน"
+    },
+    {
+      "Name": "รองหัวหน้าฝ่ายป้องกัน",
+      "Text": "ขะ... ขอโทษนะคะ ท่านรักษาการแทนประธานองค์การนักเรียน!"
+    },
+    {
+      "Name": "รองหัวหน้าฝ่ายป้องกัน",
+      "Text": "ฉันมาด้วยประเด็นในรายงานสามัญของสำนักป้องกันค่ะ... ตอนนี้มีชาวเมืองที่แสดงความไม่พึงพอใจ\nกันมากในการถอนเงินสดจากบัญชี ที่ทุกครั้งที่ไปถอนเงินจะต้องยื่นเอกสารแสดงตนเป็นสิบอย่าง..."
+    },
+    {
+      "Name": "รองหัวหน้าฝ่ายป้องกัน",
+      "Text": "พนักงานธนาคารหลายแห่งใน D.U. ต้องเจอลูกค้าที่ชักปืนใส่แทนที่จะยื่นเอกสารแสดงตัวแล้วบังคับ\nให้ถอนเงินให้ด้วยนะคะ แล้วก็ไม่ใช่ครั้งสองครั้งด้วยค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "นั่นมัน... การปล้นแบบติดอาวุธนี่คะ?!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "มีเหตุปล้นธนาคารอย่างต่อเนื่องใน D.U. เหรอคะเนี่ย สำนักความมั่นคงวัลคิรี่กับไคเซอร์ ซิเคียวริตี้ มัวไปทำอะไรกันอยู่คะ?"
+    },
+    {
+      "Name": "รองหัวหน้าฝ่ายป้องกัน",
+      "Text": "อย่างที่ได้บอกไปก่อนหน้านี้ว่าสำนักความมั่นคงกับไคเซอร์ ซิเคียวริตี้มัวแต่ไปตั้งด่านตรวจจนขาด\nกำลังคน..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้ากำลังคนไม่พอ ก็ไปจ้างบริษัทรักษาความปลอดภัยเอกชนหรือใครคนอื่นมาเพิ่มความเข้มงวดสิคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ฉันไม่ยอมให้คิโวทอสในความดูแลของฉันมีอาชญากรรมหรอกค่ะ!"
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน A",
+      "Text": "(กระซิบ) ถึงจะพูดแบบนั้น แต่ตอนนี้ในตัวเมืองวุ่นวายกว่าเมื่อก่อนอีกนะ"
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน B",
+      "Text": "ม๊อบประท้วงวันนี้ทำให้ฉันใช้เวลาเดินทางมาแซงค์ทัมทาวเวอร์นานกว่าเดิมตั้งครึ่งชั่วโมงแน่ะ"
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน C",
+      "Text": "ถึงอัตราการก่ออาชญากรรมจะลดลง แต่อาชญากรรมร้ายแรงเหมือนจะเกิดบ่อยขึ้นเลย..."
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน A",
+      "Text": "นี่แหละผลจากการบีบคั้นชาวเมืองที่ถูกใส่ร้ายป้ายสี"
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน B",
+      "Text": "หลังจากหัวหน้าฝ่ายบุคคลโดนเล่นงาน กรรมการที่สนับสนุนหัวหน้าสำนักฯ คายะก็ลดจำนวนลงเยอะเลยด้วยนะ..."
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน A",
+      "Text": "แบบนี้จะเป็นรักษาการฯ ต่อได้เหรอ?"
+    },
+    {
+      "Name": "กรรมการองค์การนักเรียน C",
+      "Text": "ที่ผ่านมา เจ้าหน้าที่รินอาจจะมีความสามารถมากกว่าก็ได้นะ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... แยกย้าย! จบการประชุมและแยกย้ายแค่นี้ค่ะ!"
+    },
+    {
+      "Text": "สำนักงานรักษาการแทนประธานองค์การนักเรียน"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "...กำลังรออยู่เลย"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "มาแล้วเหรอ รักษาการแทนประธานองค์การนักเรียน"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ได้ยินว่าเข้ามาหาเอง เพราะเงินที่ต้องจ่ายให้ไคเซอร์ ซิเคียวริตี้ล่าช้างั้นเหรอ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "พอพิจารณากำลังคนและอุปกรณ์ที่จำเป็นในการบริหารความปลอดภัยแล้ว ต้องบอกว่าการจัดการ์ดให้\nต่อเป็นเรื่องยากสำหรับเงินที่ได้รับมาน่ะ—"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ทำไมถึงทำงานบกพร่องขึ้นเรื่อยๆ เลยล่ะคะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ฉันจ่ายเงินให้คุณตั้งเท่าไรแล้ว กับอีแค่กลุ่มผู้ประท้วงกลุ่มเดียวยังควบคุมไม่ได้ จนเรื่องนี้ต้องมาถึงหู\nของฉันเลยเหรอคะ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ก็เธอ... ไม่ได้จ่ายเงินให้มากพอที่จะจัดการเรื่องแบบนั้นน่ะสิ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ด้วยเงินที่องค์การนักเรียนจ่ายมา เราก็ทำให้ได้แค่นั้นนั่นละ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ถ้าเงินแก้ปัญหาไม่ได้ ก็ต้องคิดดูแล้วละว่าเพราะเงินไม่ถึงหรือเปล่า"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... คุณไม่น่าใช่ฝ่ายที่ยกเรื่องเงินมาคุยได้นะคะ ไคเซอร์"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ลืมไปแล้วเหรอคะว่าที่ไคเซอร์ คอร์เปอเรชั่นไม่ล้มละลายเมื่อคราวก่อนก็เพราะว่าฉันเป็นคนช่วยปิด\nความรับผิดชอบให้?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "จะไปลืมได้ยังไงล่ะ คุณค่าของธุรกิจคือเครดิตอยู่แล้ว"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "... แต่ตอนนี้ท่านประธานใหญ่ค่อยๆ เริ่มแสดงความไม่สบายใจออกมาน่ะสิ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ต่อให้เคยช่วยให้รอดจากการล้มละลายมาได้ แต่หากจะเอากำลังคนของเราไปใช้งานแลกกับค่าจ้าง\nถูกๆ มันก็ไม่คุ้มเราอยู่ดี"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "อย่างแย่ที่สุดเราก็แค่ทิ้งชื่อไคเซอร์ แล้วไปทำป้ายชื่ออันใหม่"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "แต่เธอล่ะจะเป็นยังไง? กล้าทิ้งเกียรติยศและชื่อที่สะสมมาจนถึงตอนนี้แล้วเริ่มใหม่ได้เหรอ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... แค่เรื่องไซโลที่สร้างใต้ดินของสถานีโคะอุซางิมันไม่พอเหรอคะ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "นั่นมันไม่เกี่ยวกันสิ ที่เงินคืนมันระเบิดไปครั้งก่อน มันกลับทำให้เราขาดทุนจากการปรับปรุงเมืองใหม่"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้าเสร็จงานครั้งนี้ฉันจะชดใช้ให้ เอาไปคิดบัญชีไว้เลยค่ะ แล้วก็คิดดอกเบี้ยได้เลย"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ถ้าอยากได้อย่างนั้นก็จัดให้"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "... แต่ถ้าจะเพิ่มใบแจ้งหนี้ให้มากกว่านี้ก็คงจะได้สินะ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ตามข่าวลือที่ได้ยินมา เห็นว่ารักษาการแทนประธานองค์การนักเรียนคนใหม่ยังไม่ได้รับความเชื่อมั่น\nจากหัวหน้าฝ่ายการเงิน จนยังหาเงินทุนลำบากอยู่เลยนี่"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "จะให้ลงทุนในผู้นำที่ไม่ได้รับความไว้เนื้อเชื่อใจจากลูกน้องแบบนี้มันก็น่ากังวลอยู่นะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(... ปัญหามันอยู่ที่ตรงไหนกันนะ?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(ทำไมคนรอบตัวถึงไม่ไว้ใจฉันกันเลยล่ะ?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(แค่ทำตามคำสั่งของฉัน ทุกอย่างก็สมบูรณ์แบบแล้ว... แล้วทำไมทุกคนถึงเคลือบแคลงและต่อต้านฉัน\nกันด้วย...?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(... ตอนนั้นไม่ว่าประธานองค์การนักเรียนคนนั้นจะพูดอะไร นักเรียนทุกคนในคิโวทอสก็พากันเชื่อฟัง\nเธอไปหมด)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(ฉันกับเธอคนนั้นมีอะไรที่แตกต่างกันเหรอ...?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(ทำไมฉันถึงเป็น <ยอดคน> บ้างไม่ได้...?)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "(องค์การนักเรียนคนก่อนกับองค์การนักเรียนในตอนนี้ต่างกันยังไงนะ...)"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... จริงด้วย"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คิโวทอสแห่งนี้ยังมีความน่ากลัวน้อยไป"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... หากแสดงความน่ากลัวให้เห็น ทุกคนจะต้องขยาดและทำตามฉันแน่"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... คายะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ยูกิโนะ หัวรบแรงดันความร้อนสำหรับมิสไซล์จากโปรเจกต์ <A.N.T.I.O.C.H.> ที่คุณยึดมาน่ะ ตอนนี้มัน\nอยู่ที่ไหนเหรอคะ?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "หัวรบมิสไซล์นั่นน่ะเหรอ มันถูกทำให้สิ้นเสถียรภาพและเก็บไว้ที่อาคารทหารที่อยู่ชายขอบ D.U. แล้ว"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "พลังระเบิดของมันรุนแรงมาก หากมาระเบิดในเมืองก็น่าจะวุ่นไม่น้อยเลย"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... นี่คือคำสั่งจากฉันค่ะ หัวหน้ากองยูกิโนะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ไปย้ายหัวรบอันนั้นมาไว้ที่ไซโลใต้ดินของสถานีโคะอุซางิ แล้วทำให้มันระเบิดเดี๋ยวนี้เลยค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... ขอถามเหตุผลได้ไหม?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "รับคำสั่งเป็นคำถามเหรอคะ? แบบนี้ไม่สมกับเป็นคุณเลยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แต่มันก็ไม่ใช่เรื่องที่ตอบยากอะไร งั้นฉันจะบอกให้แล้วกันค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "อย่างที่หัวหน้ากองยูกิโนะพูดเมื่อกี้เลยค่ะ หัวรบ <A.N.T.I.O.C.H.> มีแรงระเบิดที่อานุภาพรุนแรง เราก็\nเลยเลื่อนการจัดการการระเบิดออกไปเพราะกังวลเรื่องความเสียหายที่จะมีต่อสภาพแวดล้อมรอบๆ ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แต่การพัฒนาเมืองใหม่ทำให้ผู้คนในโคะอุซางิ ทาวน์ย้ายออกไปมากแล้ว ดังนั้นต่อให้ระเบิดขึ้นมาก็จะ\nได้รับความเสียหายน้อยที่สุดค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถึงจะพูดอย่างนั้นก็เถอะ แต่ที่โคะอุซางิ ทาวน์ยังก็มีชาวเมืองหลงเหลืออยู่นะ แล้วก็ไม่ได้มีน้อยๆ ด้วย"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ยิ่งไปกว่านั้น ถ้าระเบิดสุญญากาศเกิดระเบิดขึ้นมาในที่สถานที่ปิดอย่างรถไฟใต้ดิน อานุภาพของมันก็\nจะยิ่งมากขึ้น..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ค่ะ ฉันทราบค่ะ แรงระเบิดคงทำให้สถานีโคะอุซางิและสถานีใกล้เคียงได้รับความเสียหายไปด้วยค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... แต่เราก็ต้องแสดงอานุภาพของอาวุธให้เห็น ทุกคนจะได้เห็นถึงพลังอำนาจของเรายังไงล่ะคะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "......!"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้าทุกคนรู้ว่าเรามีพลังที่สามารถทำลายเมืองเล็กๆ เมืองหนึ่งได้ ต่อไปก็คงจะระวังปากกันมากขึ้นน่ะค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "และนอกจากนั้น เนื่องจากมันเป็น 'อุบัติเหตุ' ที่เกิดขึ้นในอาคารรถไฟใต้ดิน เราก็อ้างความผิดพลาดใน\nการจัดการความสงบเรียบร้อย แล้วปัดความรับผิดชอบให้ฝ่ายคมนาคมได้ แล้วก็ให้กรรมการจากฝ่าย\nคมนาคมออกหน้ารับแทน..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แบบนี้เท่ากับยิงปืนนัดเดียวได้นกสองตัวเลยว่าไหมคะ?"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "หึหึ... ยอดเยี่ยมไปเลยนะ "
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ฉันก็รู้อยู่หรอกนะว่าเธอเป็นคนที่ทำเรื่องที่คนทั่วไปไม่สามารถทำได้อย่างไม่สะทกสะท้าน แต่ก็ไม่คิด\nเลยว่าจะใจใหญ่ใจโตขนาดนี้"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ประธานใหญ่มองคนเอาไว้ไม่ผิดจริงๆ ด้วย"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ฉันจะคิดว่านี่เป็นคำชมแล้วกันค่ะ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "แต่ว่าไซโลใต้ดินในสถานีโคะอุซางิเป็นของไคเซอร์ คอร์เปอเรชั่น หากไซโลนี้ถูกทำลายด้วยระเบิด แล้วพวกฉันจะได้ผลประโยชน์อะไรงั้นเหรอ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "นั่นสินะคะ นี่เป็นการใช้อาคารของพวกคุณ งั้นพวกเราก็ต้องตอบแทนให้อย่างเหมาะสม..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... เอาเป็นสิทธิ์ในการจัดการรถไฟใต้ดินใน D.U. ไหมล่ะคะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "หากมีการเปลี่ยนกรรมการของฝ่ายคมนาคม ก็ต้องมีหน่วยงานใหม่ที่จะมาดูแลรถไฟใต้ดินของ D.U."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "หากไคเซอร์ คอร์เปอเรชั่นช่วยรับบทบาทนั้น พวกฉันก็จะยินดีเป็นอย่างยิ่งค่ะ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "ไม่เลวเลยนะ พวกฉันล้มเหลวในกิจการรถไฟของเซนต์ เนฟธิส ก็เลยกำลังมองหาทางเลือกอื่นๆ อยู่\nพอดี"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "เพราะถ้าจัดการระบบคมนาคมหลักๆ ที่เชื่อมแต่ละเขตปกครองตนเองได้ เราก็จะได้รับผลตอบแทนที่\nมั่นคงกว่าอุตสาหกรรมอื่นๆ..."
+    },
+    {
+      "Name": "นายพล",
+      "Text": "และฉันก็ไม่ใช่พวกคนโง่ที่ตาบอดในผลประโยชน์เล็กๆ น้อยๆ จนมองไม่เห็นความมั่งคั่งในอนาคตเสีย\nด้วยสิ"
+    },
+    {
+      "Name": "นายพล",
+      "Text": "งั้นก็ดี ลำเลียงหัวรบและเตรียมพร้อมสำหรับเดินเครื่องไซโลไว้ล่วงหน้าเลย เราก็จะดำเนินการให้ถูก\nจังหวะกับที่พวกสุนัขจิ้งจอกเคลื่อนไหว"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "........."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "โล่งอกไปทีนะคะ เท่ากับว่าแก้ไขไปได้เรื่องหนึ่งแล้ว..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... จะว่าไป ดูเหมือนว่าฉันยังไม่ได้ยินคำตอบของคำสั่งเลยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "หัวหน้ากองยูกิโนะ คำตอบว่ายังไงคะ?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "... FOX 1 รับทราบ"
+    },
+    {
+      "Text": "ตอนต่อไป;สถานการณ์ลำบากของผู้ทำผิด"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第13話;衝擊與恐懼"
+    },
+    {
+      "Text": "奇普托斯聯邦學生會會議室"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……我的條件只有一個。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "赤冬聯邦學園的示威隊伍要由赤冬事務局負責解散。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……這樣你聽懂了嗎，潔莉諾會長？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "你似乎有些誤會啊，新任聯邦學生會長代理。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "咱不單單只是學生會長……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "而是赤冬聯邦學園的學生會長、環境美化部部長兼、書記長兼、體育部代表兼、整潔部部長兼、風紀委員長兼、供餐部長兼，被選為本月最優秀布丁試吃家的潔莉諾大人！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "別省略為「潔莉諾會長」來稱呼咱！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "是是。赤冬聯邦學園的學生會長，且同時背負其他各種重責大任的潔莉諾大人。\n現在重要的不是稱呼──"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "「其他各種」……？\n何等無禮！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（為什麼要那麼執著於那些根本就沒人在乎的職位啊……？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……我失禮了，潔莉諾書記長。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "不過眼下最需要處理的問題，\n是在D.U.市內主導示威、麻痺聯邦學生會行政體系的示威隊。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "根據外部治安機關調查的結果顯示，\n這支示威隊的多數成員都是赤冬聯邦學園出身的學生。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我以管理D.U.治安的防衛室長，以及聯邦學生會長代理的身分，\n在此向赤冬事務局表達強烈抗議。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "這麼說來，咱還想說工務部的那些傢伙最近怎麼特別安靜……\n原來跑到那種地方發動示威了啊……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "那些傢伙到底有何不滿？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "你問得很好，潔莉諾會長。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "他們不但要求推行配給布丁或是週休5日之類難以理解的政策……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……甚至還打算發起政變啊！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……那又如何？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……訊號似乎不太好呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "是政變……是謀反！\n那些學生打算要推翻聯邦學生會！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "身為負責維護奇普托斯治安的聯邦學生會長代理，我絕對無法容忍這樣的事態──"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "政變……那是多麼麻煩的事，咱也非常清楚。\n畢竟咱很有經驗。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "不過話又說回來，防衛室長──從根本上防範政變的方法並不存在。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "對學生會的政策不滿，因此發動政變。\n這不是理所當然的事嗎？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "什麼？\n那是什麼意思……"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "當然，像咱們這種偉大領導人的政策，那些外行的學生是不可能理解的。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "聯邦學生會長代理也不容易啊……那些傢伙確實不好對付。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "所以我才會希望赤冬事務局能對此負起責任解散示威隊──"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "原則上來說，咱是不干涉學園外發生的事情的，\n不過這次就特別看在聯邦學生會長代理的面子上──"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "赤冬事務局就送你們一箱潔蓮卡吧！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "潔蓮卡……是什麼？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "呣呣？防衛室長沒有吃過潔蓮卡嗎？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "潔蓮卡是赤冬聯邦學園生產的特製牛奶巧克力！可是絕品哦！"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "假如吃了之後覺得喜歡──咱就來考慮是否要定期供應潔蓮卡給聯邦學生會吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "都說了，現在需要的不是牛奶巧克力而是示威隊伍的──"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "……糟糕！已經這個時間了嗎？"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "聊天聊得太開心，差點就要錯過午睡時間了。"
+    },
+    {
+      "Name": "潔莉諾",
+      "Text": "那麼下次再聊吧，香……香什麼聯邦學生會長代理。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "這個臭小鬼……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "赤冬聯邦學園連個正常的學生都沒有嗎！"
+    },
+    {
+      "Name": "灰音",
+      "Text": "……咦？我，我不是赤冬學園出身的啊？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……我不是在說你。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "調停室長。那個小矮子真的是赤冬聯邦學園的代表和學生會長嗎？"
+    },
+    {
+      "Name": "步",
+      "Text": "是的，現在的赤冬聯邦學園學生會長確實是他──連河潔莉諾同學沒錯。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "現在的……？"
+    },
+    {
+      "Name": "步",
+      "Text": "一週之前是由池倉瑪麗娜委員長擔任赤冬聯邦學園的學生會長。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "你的意思是說…… "
+    },
+    {
+      "Name": "香耶",
+      "Text": "我們現在得和一個每週都會更換學生會長的學園進行協商，進而解決治安問題嗎？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "就是這樣。\n不過前任的琳前輩從來沒抱怨過哦～"
+    },
+    {
+      "Name": "桃香",
+      "Text": "只要好～好運用糖與鞭子，我想對方應該會比三一或格黑娜的學生會長還好說話……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "不過，對於只知道使用鞭子的某人來說，可能有～點困難吧。（喀滋）"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "那，那個……香耶室長……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……聯邦學生會長代理。"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "非，非常抱歉……聯邦學生會長代理！"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "是來自防衛室的定期報告……對於每次從銀行帳戶提領現金時，\n都有義務提交十多份文件這項新的行政命令，市民們表達了強烈的不滿……"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "D.U.各地都有民眾以槍械代替文件，強行要求銀行員提領現金的案例，\n而且還在不斷增加。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "那……那不就只是單純的武裝強盜嗎！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "D.U.各地明明接連發生銀行搶案，女武神警備局和凱薩保全到底都在做什麼？"
+    },
+    {
+      "Name": "防衛次長",
+      "Text": "先前也跟您提過了，警備局和凱薩保全都因為盤查而忙得不可開交……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "要是人力不足的話，不管是民間保全公司還是什麼都行，\n請雇用更多人力讓治安穩定下來。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我所管理的奇普托斯，可不容許出現任何犯罪哦！"
+    },
+    {
+      "Name": "聯邦學生會職員A",
+      "Text": "不是，在我看來明明就比之前還混亂……"
+    },
+    {
+      "Name": "聯邦學生會職員B",
+      "Text": "因為示威的關係，我今天光是來這裡就多花了三十分鐘以上……"
+    },
+    {
+      "Name": "聯邦學生會職員C",
+      "Text": "犯罪率的確是下降了沒錯，不過重大犯罪好像變多了呢……"
+    },
+    {
+      "Name": "聯邦學生會職員A",
+      "Text": "老實說，這不就是區分了無辜市民造成的結果嗎？"
+    },
+    {
+      "Name": "聯邦學生會職員B",
+      "Text": "自從人力資源室長不在之後，支持香耶室長的幹部好像也減少很多……"
+    },
+    {
+      "Name": "聯邦學生會職員A",
+      "Text": "繼續讓他擔任代理真的沒問題嗎？"
+    },
+    {
+      "Name": "聯邦學生會職員C",
+      "Text": "這樣看來，說不定琳行政官還比他更有能力呢……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……解散！\n今天的會議就到此為止！"
+    },
+    {
+      "Text": "聯邦學生會長代理辦公室"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……來的真慢啊 。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "你來啦，聯邦學生會長代理。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "費用的支付似乎有所延宕，所以我只能親自來一趟了。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "考量到維護治安所需的人力及裝備，以先前支付的金額來看，\n不得不說要繼續維持營運實在有困難──"
+    },
+    {
+      "Name": "香耶",
+      "Text": "為何統治會出現漏洞呢？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "知道我們花了多少錢在你們身上嗎？\n連區區一支示威隊都無法好好壓制，虧你還敢大言不慚。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "哎呀哎呀，以為那樣的費用就足夠了嗎？"
+    },
+    {
+      "Name": "將軍",
+      "Text": "只有那種程度的話，這種等級的管制自然也是極限了。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "當雇來的傭兵解決不了問題時，應該先想想是不是金額不夠吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……你們應該沒有能跟我討價還價的立場吧？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "是因為我擺平了上次的事，凱薩公司才得以免於破產，難道你們已經忘了嗎？"
+    },
+    {
+      "Name": "將軍",
+      "Text": "怎麼可能忘記呢？\n信用可是公司的價值啊。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "……不過，總裁的耐性也是有限的。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "就算你曾幫助我們，付出如此多的人力卻只收取低廉的價格仍然是划不來的。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "在最壞的情況下，我們也能捨棄凱薩的名字，重新建立新的組織。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "但是你又如何呢？\n你究竟能不能捨棄一路建立的名聲，從頭重新來過呢？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……對兔寶寶站地下建造的飛彈發射井睜一隻眼閉一隻眼還不夠嗎？"
+    },
+    {
+      "Name": "將軍",
+      "Text": "這可不能混為一談。\n況且因為上次收受回扣的事情曝光，我們反而虧了不少錢啊。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "等這件工作結束後就會付清的，請先記在我的帳上吧。\n包含利息的部分。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "那就這麼做吧。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "……但是，繼續增加費用真的沒問題嗎？"
+    },
+    {
+      "Name": "將軍",
+      "Text": "我聽說尚未獲得財務室長信任的新聯邦學生會長代理，時常忙於資金的調度……"
+    },
+    {
+      "Name": "將軍",
+      "Text": "要投資一個連部下的信任都很薄弱的領袖，實在讓人感到不安呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（……問題到底出在哪裡？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（為什麼周圍的人都不老實地信任我呢？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（明明只要依照我的指示，一切都會非常完美……為什麼大家要反抗我呢……？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（……明明以前不管[ruby=聯邦學生會長]那個女人[/ruby]說什麼，\n　奇普托斯的所有學生都會完全信任並乖乖照做的）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（我跟他到底差在哪裡……？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（為什麼我沒辦法成為「超人」呢……？）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "（過去的聯邦學生會和現在的聯邦學生會的差別……）"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……這樣啊。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "現在的奇普托斯缺乏[ruby= ・     ・ ]恐懼[/ruby]……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……只要展現足夠的恐懼，大家就會乖乖照我的話去做了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……香耶？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "雪乃，你之前回收的「A.N.T.I.O.C.H.」計畫的成品──彈道導彈用熱壓彈頭，\n現在保管在什麼地方？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……已做好封存措施，存放在D.U.郊外的軍事設施裡。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "由於威力實在過於強大，要進行引爆處理並不容易。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……這是命令，雪乃小隊長。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "立刻帶著那枚彈頭前往兔寶寶站的地下飛彈發射井，並將其引爆。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……理由是什麼？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "竟然用提問回答命令，真不像你呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "──事情很簡單。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "就像剛才雪乃小隊長講的一樣，「A.N.T.I.O.C.H.」的彈頭威力驚人，\n為了避免周遭遭受波及，我們遲遲沒有將其引爆。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "但是如今兔寶寶鎮因為重新開發的關係，大部分的居民都已經離開，\n因此能夠將引爆造成的損害降到最低。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "話雖如此，現在還留在兔寶寶鎮的市民也不在少數。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "況且，如果讓空爆燃燒彈在地鐵站那種封閉空間爆炸，威力將會變得更加強大──"
+    },
+    {
+      "Name": "香耶",
+      "Text": "當然，這些我都知道。\n不只是兔寶寶站，連附近的車站都會遭到波及吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……不過，要是不讓大家見識到這種等級的威脅，又怎麼會有人明白我們的力量呢？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……！"
+    },
+    {
+      "Name": "香耶",
+      "Text": "只要明白我們擁有足以輕鬆夷平小都市的力量，就不會再有學生敢來起衝突了吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "而且，這是一起在地下鐵發生的「意外」。\n還能以未做好安全防護為理由，使其發展成交通室的責任，將幹部通通趕走……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "──不覺得簡直是一石二鳥嗎？"
+    },
+    {
+      "Name": "將軍",
+      "Text": "呵呵……真是了不起。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "雖然清楚你是個能若無其事地做出常人辦不到的事的人物──沒想到竟有如此膽識。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "總裁果然沒有看錯人。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……我就當做是在稱讚我吧。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "只不過，兔寶寶站的地下飛彈發射井是我們凱薩公司的所有物。\n要引發爆炸的話，我們應該能得到某些好處吧？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "這個嘛──畢竟我們要利用貴公司的設施，自然應該支付相應的代價……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……D.U.地下鐵的經營權之類的，你覺得如何？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "反正在換掉交通室的幹部之後，我們也需要負責營運地下鐵的新組織。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "假如凱薩公司願意接下這個職責，我自然舉雙手贊成。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "聽起來不錯。\n正好我們對聖奈芙蒂斯集團鐵道事業的收購案剛剛破局，正在尋找替代品呢。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "運用連接各自治區的主要交通手段──就能得到其他產業無法比擬的穩定收入……"
+    },
+    {
+      "Name": "將軍",
+      "Text": "我和被眼前的蠅頭小利所迷惑而放棄未來的金山銀山的蠢蛋可不一樣。"
+    },
+    {
+      "Name": "將軍",
+      "Text": "好吧。我這就去完成彈頭搬入和啟動飛彈發射井的必要準備。\n配合狐狸們的行動時間，我們也會採取行動。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "…………"
+    },
+    {
+      "Name": "香耶",
+      "Text": "感激不盡。\n這樣就解決一件事了──"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……啊啊，對了。\n我還沒聽到對命令的答覆呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "雪乃小隊長，回答呢？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……FOX1，了解。"
+    },
+    {
+      "Text": "下一話;囚徒困境"
+    }
+  ]
+}

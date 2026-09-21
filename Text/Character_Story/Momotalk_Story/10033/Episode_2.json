@@ -1,0 +1,2282 @@
+{
+  "TitleJP": "一緒にひとりデート",
+  "TitleKR": "함께 하는 나 홀로 데이트",
+  "TitleEN": "A Solo Date Together",
+  "TitleTH": "เดตตามลำพังของสองเรา",
+  "TitleTW": "一起單人約會",
+  "DescJP": "先生の日常につきまとう爆発と銃弾。陰からストーキングすることをデートと称するワカモに、先生は「次は一緒に行こう」と伝えるのだった。",
+  "DescKR": "모처럼의 휴일을 맞이해 선생님을 휴식을 취하려고 하지만, 어째서인지 가는 곳마다 이상한 사건에 휘말리게 된다. 나중에서야 그게 전부 와카모가 남몰래 미행을 하며 저지른 짓이었다는 걸 알게 된다.",
+  "DescEN": "Sensei tries to enjoy some long-awaited time off but keeps getting caught up in strange incidents. It turns out to be the work of Wakamo, who has been following Sensei in secret.",
+  "DescTH": "คุณครูออกไปผ่อนคลายในวันหยุดที่ไม่ได้มีบ่อยๆ แต่ไม่ว่าจะไปที่ไหน\nก็เจอแต่เรื่องแปลกๆ จนได้รู้ทีหลังว่าเรื่องทั้งหมดเกิดจากวาคาโมะที่แอบ\nสะกดรอยตามมาอีกที",
+  "DescTW": "老師本來想利用難得的休假日好好休息，但是不知道為什麼，他不管走到哪都會被捲入奇怪的事件當中。直到後來，他才發現這一切都是因為若藻一直偷偷跟蹤自己的緣故。",
+  "DialogJP": [
+    {
+      "Text": "一緒にひとりデート"
+    },
+    {
+      "Text": "（色々な要件がひと段落し、久々に休日となった）"
+    },
+    {
+      "Text": "[s1] \"せっかくのお休みだし……。\""
+    },
+    {
+      "Text": "[s2] \"何か、普段はあんまり気にかけてないところに……。\""
+    },
+    {
+      "Text": "（まず、シャーレの近くのショッピングモールへと訪れた）"
+    },
+    {
+      "Text": "[s] \"あ、ちょうど何かセールが……？\""
+    },
+    {
+      "Name": "店員",
+      "Text": "本日お越しの皆様へお知らせです！"
+    },
+    {
+      "Name": "店員",
+      "Text": "今日は何と、当店がオープンしてから15周年！その記念として、「トリプルS級の最高級和牛の特別割引イベント」を開催します！"
+    },
+    {
+      "Name": "店員",
+      "Text": "限定100パック！先着順ですので、ぜひこの機会をお見逃しなく！"
+    },
+    {
+      "Name": "店員",
+      "Text": "それではスタートです！"
+    },
+    {
+      "Text": "（たまたま良いポジションにいたこともあり、何とか貰えそうな位置で並べた）"
+    },
+    {
+      "Name": "店員",
+      "Text": "はい、次の方どうぞ！ありがとうございます！はい、次の方……！"
+    },
+    {
+      "Text": "（そうして順番が回ってきた）"
+    },
+    {
+      "Name": "店員",
+      "Text": "さあ、こちらが最後の1パックです！どうぞ――"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "ふっ、"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "じゃあありがたく頂くとするか！"
+    },
+    {
+      "Name": "店員",
+      "Text": "ああっ！お、お客様！？"
+    },
+    {
+      "Text": "[s] \"割り込み……！？\""
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "はっ、割り込みじゃねぇよ。"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "とろい動きしてやがるから、ただ私が横から入っただけだろうが！"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "百歩譲って割り込みだったところで、それが何だってんだ？"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "先着順って言ったんだから、割り込みは禁止されてないだろうが！"
+    },
+    {
+      "Text": "[s] \"そんな無茶な……。\""
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "るせぇ、とりあえずこれは私の物だ！"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "ま、心配すんな。あんたの分まで、丁寧に焼いて食ってやるからさ！ははっ！"
+    },
+    {
+      "Name": "怪しい客",
+      "Text": "さーて、じゃあレジに……"
+    },
+    {
+      "Name": "店員",
+      "Text": "えっ！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "お、お客様？"
+    },
+    {
+      "Text": "[ns] \"……！？\""
+    },
+    {
+      "Name": "店員",
+      "Text": "お、お客様！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "大丈夫ですか！？意識が……！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "い、医療スタッフを呼んでください！！負傷者です……！"
+    },
+    {
+      "Name": "店員",
+      "Text": "ふぅ……まあ、後は任せても良いでしょう。"
+    },
+    {
+      "Name": "店員",
+      "Text": "少々トラブルがありましたが、はい。こちら最後の1パックをどうぞ！"
+    },
+    {
+      "Text": "[s] \"あ、じゃあありがたく……ところでさっきの方、本当に大丈夫です？\""
+    },
+    {
+      "Text": "（結果的に和牛を手に入れつつ、昼食を取るために最近SNSで話題のファミレスへ向かった）"
+    },
+    {
+      "Text": "[ns] \"SNSで評判だったメニューは確か……。\""
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "ひゃはははっ！確かにこれ、美味いじゃねぇか！"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "おかわり持って来ーい！"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "ドリンクバーの飲み物、全部混ぜてみようぜ！"
+    },
+    {
+      "Name": "お客さんA",
+      "Text": "なんか、ちょっとうるさいね……。"
+    },
+    {
+      "Name": "お客さんB",
+      "Text": "しっ！不良たちに聞こえたら、こっちに来ちゃうでしょ……！"
+    },
+    {
+      "Name": "お客さんC",
+      "Text": "せっかく来たのに、落ち着いて食べられないね……。"
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "ひゃはははっ！"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "ふひひひひっ！！"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "あっひゃっひゃっひゃ！"
+    },
+    {
+      "Name": "店員",
+      "Text": "あ、あの、お客様……他のお客様にご迷惑になりますので、もう少々声のボリュームを……。"
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "あぁん？それって、うちらがうるさいってこと？"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "あんたの声のボリューム、金輪際上げられなくしてやろうか？"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "それか、本当に「うるさい」ってのはどんなのか見せつけてやっても良いぜ？"
+    },
+    {
+      "Name": "店員",
+      "Text": "ひっ……！？"
+    },
+    {
+      "Text": "[s] \"……ちょっと良いかな？\""
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "あぁん？"
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "誰だてめぇ……って、"
+    },
+    {
+      "Name": "チンピラ３",
+      "Text": "シャーレの先生？"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "思い出した！この前うちらがやられたあの時の……！"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "こうなったら、あの時の復讐を今こそ――"
+    },
+    {
+      "Name": "店員",
+      "Text": "お、お客様？あの、大丈夫ですかお客様！？"
+    },
+    {
+      "Name": "お客さんA",
+      "Text": "今の銃声……"
+    },
+    {
+      "Name": "お客さんB",
+      "Text": "え、どこから？"
+    },
+    {
+      "Text": "[s] \"これ、もしかして……。\""
+    },
+    {
+      "Text": "（あちこち回って、最後に生活必需品を買うためにコンビニへ立ち寄った時……）"
+    },
+    {
+      "Text": "[s3] \"何か色々怪しいことが多い一日だったけど……。\""
+    },
+    {
+      "Text": "[s4] \"さすがにコンビニでまで何か起きるとは……。\""
+    },
+    {
+      "Text": "[ns] \"ですよね！\""
+    },
+    {
+      "Name": "コンビニバイト",
+      "Text": "な、何の騒ぎですか！？"
+    },
+    {
+      "Name": "ヘルメット団A",
+      "Text": "ふはははっ！このコンビニにある物は、全部私たちが頂く！"
+    },
+    {
+      "Name": "ヘルメット団B",
+      "Text": "おとなしく、レジの現金を全部出せ！"
+    },
+    {
+      "Text": "[ns] \"ちょっと待った……！\""
+    },
+    {
+      "Name": "ヘルメット団A",
+      "Text": "ぐはぁっ！？"
+    },
+    {
+      "Name": "ヘルメット団B",
+      "Text": "な、何だ……っ！？"
+    },
+    {
+      "Text": "[ns] \"…………。\""
+    },
+    {
+      "Text": "（行く先々でドタバタがありつつも、休日を終えた）"
+    },
+    {
+      "Text": "（そして次の日……）"
+    },
+    {
+      "Text": "[s] \"昨日のあれって……。\""
+    },
+    {
+      "Text": "[ns] \"えっと、どちら様？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "うふふふっ……先生、昨日ぶりですね。お恥ずかしながら我慢ならず、こうしてまたやってきてしまいました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "昨日は静かながらも一緒に過ごしたお時間、大変に幸せなお時間でした。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "その思い出をかみしめていたところ、本日は休日ではないと知りながらも耐えられず……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "こうしてもう一度、お伺いした次第です♡"
+    },
+    {
+      "Text": "[s] \"そ、そっか……というか、「昨日ぶり」？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい、そうですよ？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "もしかして日ごろのお疲れのあまり、覚えてらっしゃらないのでしょうか……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私の方は未だに昨日の記憶だけで、こんなにも胸がドキドキしておりますのに……。"
+    },
+    {
+      "Text": "[s] \"えっと、できれば一から説明を……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "はい、かしこまりました。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "先生のお望みなら何でも、幾らでも叶えて差し上げます。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "昨日は、色々と困ってしまいましたね。せっかくの先生の休日、まずデートを始められたのは良かったのですが……。"
+    },
+    {
+      "Text": "[s] \"デート……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私たちのデートに嫉妬したのでしょうか、何やら気の利かないお方が……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ふふっ、でも共に和牛を手に入れられたのは僥倖でしたね。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あれは、本日どのように食べましょうか？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "先生のお好きな形で調理して差し上げること、それを語らいながら一緒に晩餐を迎えられることを考えているだけで……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "私、あなた様の奥深くまで触れられたようで、嬉しくてたまりません。"
+    },
+    {
+      "Text": "[s] \"？？？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ですが、"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "またその後に伺ったレストランでも……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "何やら周囲を気にせず騒ぐ羽虫どもが……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "気持ちとしましては、その場で全て吹っ飛ばして差し上げたいところでしたが。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "それはなりませんと自制いたしました。先日もそう教えていただいたことですし、せっかくのあなた様との時間を五月蠅くさせるわけにはいきませんから。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ですので少々小突くだけで目を瞑ったのですが、その後のコンビニでも身の丈を知らない強盗もどきが……"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "休日さえも多事多忙で、これもまたあなた様と一緒だからこその命運のようなものなのでしょうか……ふふっ。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "だとすれば、仕方ありませんね♡"
+    },
+    {
+      "Text": "[ns] \"もしかして、昨日ずっと尾行してた……？\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "尾行……？"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "いえいえ、私はあくまであなた様の影すら踏まないよう、数歩下がって付き添っていただけです。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ある意味ではもうデートのようなもの。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ああ、"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "ご心配なさらず。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "次はあのような不祥事が起こらないよう、"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "事前に全ての邪魔者を片付けて……！"
+    },
+    {
+      "Text": "[s] \"いや、ストップ！\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "……はい？"
+    },
+    {
+      "Text": "[s] \"その……次はそうやって、後ろから来るんじゃなくて……えっと……。\""
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あらっ……？"
+    },
+    {
+      "Text": "[s5] \"そう、次は一緒に行こう！ちゃんと手を繋いで！\""
+    },
+    {
+      "Text": "[s6] （見えないところで問題を起こさないように！）"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "あっ、あぁっ……そんな、先生の方からそこまで積極的にだなんて……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "は、はいっ……で、では……。"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "わ、わわわ私、その時を、た、楽しみにしておりますので……！"
+    },
+    {
+      "Name": "ワカモ",
+      "Text": "すみません、本日はこれにて……！"
+    },
+    {
+      "Text": "（そうやって珍しい慌て方をしたワカモが、変な歩き方で出ていくのを見送った）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "함께 하는 나 홀로 데이트"
+    },
+    {
+      "Text": "(모처럼 업무를 쉬는 휴일이 찾아왔다.)"
+    },
+    {
+      "Text": "[s1] \"간만의 휴일이니까…….\""
+    },
+    {
+      "Text": "[s2] \"오늘은 평소에 바빠서 못 해봤던 걸 해볼까…….\""
+    },
+    {
+      "Text": "(제일 먼저 찾은 곳은 샬레에서 가까운 쇼핑몰이었다.)"
+    },
+    {
+      "Text": "[s] \"오늘 마침 특별 할인 판매가 있다고 했으니까…….\""
+    },
+    {
+      "Name": "점원",
+      "Text": "네! 바쁜 와중에 귀한 걸음 해주신 손님 여러분! 감사합니다! "
+    },
+    {
+      "Name": "점원",
+      "Text": "오늘은 당 점의 오픈 15주년을 기념하여 트리플 S급 최고급 소고기의 특별 할인 행사가 예정!"
+    },
+    {
+      "Name": "점원",
+      "Text": "판매 수량은 단 100팩! 선착순으로 단 100분에게만 특가에 모실 예정이오니, 부디 기회를 놓치지 말아 주세요!"
+    },
+    {
+      "Name": "점원",
+      "Text": "그럼 판매 시작하겠습니다!"
+    },
+    {
+      "Text": "(몰려드는 사람들을 따라 늦지 않게 줄을 서는 데 성공했다.)"
+    },
+    {
+      "Name": "점원",
+      "Text": "네! 다음 분! 또 다음 분! 당 점을 찾아주셔서 감사합니다! 다음 분!"
+    },
+    {
+      "Text": "(그렇게 기다리고 기다린 끝에, 마침내 차례가 돌아왔다.)"
+    },
+    {
+      "Name": "점원",
+      "Text": "자, 남은 소고기는 마지막 1팩! 그럼 다음 분 앞으로 나와주세요! "
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "크크크!"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "그건 내가 받아 가도록 하지!"
+    },
+    {
+      "Name": "점원",
+      "Text": "아앗! 소, 손님!"
+    },
+    {
+      "Text": "[s] \"앗, 자, 잠깐……! 새치기라니!\""
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "새치기?"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "아니. 그쪽이 굼뜨게 움직이니까. 답답해서 내가 먼저 나선 것뿐이라고!"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "게다가 새치기면 또 뭐? 먼저 받아 간 놈이 이기는 거 아닌가?"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "불만이면 그쪽도 새치기를 하시던가!"
+    },
+    {
+      "Text": "[s] \"아니, 그렇게 막무가내 같은 이야기를 해도…….\""
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "됐다고! 이미 물건은 내가 받았으니까!"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "너무 실망하지 말라고! 내 당신 몫까지 진심과 전력을 다해, 이 소고기를 맛있게 먹어줄 터이니! 크크큭!"
+    },
+    {
+      "Name": "수상한 손님",
+      "Text": "그럼 어디……."
+    },
+    {
+      "Name": "점원",
+      "Text": "앗?!"
+    },
+    {
+      "Name": "점원",
+      "Text": "소, 손님?"
+    },
+    {
+      "Text": "[ns] \"으, 으응?!\""
+    },
+    {
+      "Name": "점원",
+      "Text": "저기, 소, 손님?! 괜찮으신가요?!"
+    },
+    {
+      "Name": "점원",
+      "Text": "이건……. 의식을 잃었어?"
+    },
+    {
+      "Name": "점원",
+      "Text": "여기! 의무반! 의무반을 불러주세요! 부상자가 발생했습니다!"
+    },
+    {
+      "Name": "점원",
+      "Text": "휴우……. 잠시 트러블이 있었지만. 한정판 최고급 소고기는 한 팩 남게 되었군요."
+    },
+    {
+      "Name": "점원",
+      "Text": "고객님. 어찌하시겠습니까?"
+    },
+    {
+      "Text": "[s] \"그럼 감사히……. 그런데 아까 그분은 정말 괜찮은 건가요?\""
+    },
+    {
+      "Text": "(얼떨결에 최고급 소고기 구매에 성공한 뒤, 이번엔 점심을 먹기 위해 SNS에서 유명한 패밀리 레스토랑을 찾았다.)"
+    },
+    {
+      "Text": "[ns] \"SNS에서 가장 핫하다는 메뉴가 분명……\""
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "여기 음식! 듣던 대로 맛있구만!"
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "한 그릇 더! 한 그릇 더 주문이다!"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "음~ 드링크 바에서 모든 음료를 다 섞어 버려야지~"
+    },
+    {
+      "Name": "손님 A",
+      "Text": "너무 시끄러운 거 아냐?"
+    },
+    {
+      "Name": "손님 B",
+      "Text": "쉿! 조용히 해. 불량배들 귀에 들릴라."
+    },
+    {
+      "Name": "손님 C",
+      "Text": "SNS에서 유명하다고 해서 찾아왔는데. 이래선 밥도 못 먹겠잖아……."
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "캬하하핫!"
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "키키키키!!"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "우햐햐햣~"
+    },
+    {
+      "Name": "점원",
+      "Text": "저, 저기 손님…… 다른 손님분들이 불편해하시니, 조금은 조용히 해주셨으면……."
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "앙? 우리가 시끄럽다고?"
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "그런 말 했다가 후회하게 만들어주는 수가 있다고?"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "어디, 진짜 시끄러운 게 뭔지 보여줄까?"
+    },
+    {
+      "Name": "점원",
+      "Text": "히익. 그, 그게 그러니까……."
+    },
+    {
+      "Text": "[s] \"잠깐, 너희들 그 이상 민폐를 끼치는 건…….\""
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "앙?!"
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "네놈은……"
+    },
+    {
+      "Name": "불량배 3",
+      "Text": "그 샬레의 선생이잖아!"
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "뭐냐! 저번엔 우리가 당한 일을 잊을까 봐?!"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "에잇! 그때의 복수를 지금……."
+    },
+    {
+      "Name": "점원",
+      "Text": "소, 소, 손님? 저기, 괜찮으신가요. 손님?!"
+    },
+    {
+      "Name": "손님 A",
+      "Text": "저, 저격?"
+    },
+    {
+      "Name": "손님 B",
+      "Text": "바, 방금 어디에서 날아온 거야?"
+    },
+    {
+      "Text": "[s] \"……또?\""
+    },
+    {
+      "Text": "(휴일의 일과를 대강 마치고, 마지막으로 적당히 생필품을 사기 위해 편의점에 들렀을 때였다.)"
+    },
+    {
+      "Text": "[s3] \"아무리 일진이 좋지 않다고 해도…….\""
+    },
+    {
+      "Text": "[s4] \"여기까지 왔으면 이제 별일 없겠지……?\""
+    },
+    {
+      "Text": "[ns] \"네! 그럴 리가 없겠지요!\""
+    },
+    {
+      "Name": "편의점 알바생",
+      "Text": "뭐, 무, 뭡니까?!"
+    },
+    {
+      "Name": "헬멧단 A",
+      "Text": "크하하! 이 편의점은 우리가 접수한다!"
+    },
+    {
+      "Name": "헬멧단 B",
+      "Text": "잠자코 계산대에 있는 현금을 전부 내놔!"
+    },
+    {
+      "Text": "[ns] \"자, 잠깐!\""
+    },
+    {
+      "Name": "헬멧단 A",
+      "Text": "크, 크아아악?!"
+    },
+    {
+      "Name": "헬멧단 B",
+      "Text": "다, 당했다아!!"
+    },
+    {
+      "Text": "[ns] \"????\""
+    },
+    {
+      "Text": "(간만의 휴일이었는데도 불구하고 그렇게 수많은 사건과 만나며 피곤함만을 남긴 채, 휴일은 저물었다.)"
+    },
+    {
+      "Text": "(그리고 찾아온 다음 날)"
+    },
+    {
+      "Text": "[s] \"어제의 그건 대체 뭐였던 걸까.\""
+    },
+    {
+      "Text": "[ns] \"응? 누구세요?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "우후후후훗. 선생님. 저 와카모, 어제에 이어 부끄럽게도 다시 찾아뵙게 되었습니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "어제 함께 했던 시간이 너무나도 기쁘고 행복한 시간이었던지라."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아, 그 추억을 곱씹고 있으려니, 감히 오늘은 선생님께서 휴일이 아니란 걸 알고 있음에도 당신을 만나고자 하는 열화와 같은 마음을 미처 참지 못하여……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "이렇게 다시 찾아뵈었답니다♡"
+    },
+    {
+      "Text": "[s] \"어, 으응. 근데 잠깐, 어제 함께……라니?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에? "
+    },
+    {
+      "Name": "와카모",
+      "Text": "혹시……. 기억, 하지 못하시는 건가요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "저어, 와카모는, 여전히 어제의 기억만으로도 이렇게 가슴이 흥분으로 달아올라 수런거리고 있는데……?"
+    },
+    {
+      "Text": "[s] \"아니, 진짜진짜 모르겠거든?! 설명해 줄 수 있을까?!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네에, 그런, 가요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "후훗. 선생님께서 원하신다면 설명을 하는 것쯤이야 얼마든지……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아아~ 어제는 무척이나 곤란했지요. 모처럼 찾아온 선생님의 휴일을 맞이해, 데이트를 시작한 것은 좋았지만……."
+    },
+    {
+      "Text": "[s] \"으, 응? 데, 데이트를?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "하필 저희 두 사람의 데이트를 질투한, 눈치 없는 무리들 때문에……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "후훗, 그래도 함께 트리플 S급 최고급 소고기를 얻게 된 건 요행이었네요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그건, 오늘 어떻게 요리해 먹을까요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "선생님과 함께 서로 좋아하는 요리에 대해……. 좋아하는 맛과 취향에 대해 이야기를 나누는 상상만으로도……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와카모, 당신에 대해 좀 더 깊게 알게 된 거 같아 기쁨에 사무쳤답니다."
+    },
+    {
+      "Text": "[s] \"??\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "다만……"
+    },
+    {
+      "Name": "와카모",
+      "Text": "하아. 이게 어인 일인지. 그 뒤에 함께 점심을 먹기 위해 찾은 레스토랑에선 또한 눈살이 찌푸려졌지요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "남의 시선 따윈 신경 쓰지 않고 앵앵거리며 소란을 떠는 벌레들 같으니라고……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "마음 같아선 그 자리에서 전부 박살 내고 갈아 마시고 싶었지만."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아니요. 안되지요. 당신과 함께한 시간을 더럽힐 수는 없습니다. 네에, 그건 곤란한걸요."
+    },
+    {
+      "Name": "와카모",
+      "Text": "그래서 가볍게 넘어가 주었더니, 마지막으로 들린 편의점에선 주제도 모르고 날뛰는 강도들까지……."
+    },
+    {
+      "Name": "와카모",
+      "Text": "휴일마저 다사다망한 것이, 이 또한 당신과 함께하기에 어쩔 수 없는 필연인 걸까요……. 후훗."
+    },
+    {
+      "Name": "와카모",
+      "Text": "정말, 당신이란 어쩔 수 없으신 분이시로군요♡"
+    },
+    {
+      "Text": "[ns] \"그 말은 즉, 와카모가 나를 미행하고 있었다는……?\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "미행……?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와카모, 단지 당신의 그림자를 밟지 않도록 한 걸음 물러나 뒤따르고 있었을 뿐인걸요?"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 이건 이미 데이트나 다름없는 바."
+    },
+    {
+      "Name": "와카모",
+      "Text": "아, 그래도 다음엔 걱정하실 거 없답니다."
+    },
+    {
+      "Name": "와카모",
+      "Text": "앞으로는 이런 불상사가 다시는 일어나지 않도록."
+    },
+    {
+      "Name": "와카모",
+      "Text": "다음부터는 처음부터 방해물 따윈 전부 말끔히 치워버리고……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "단둘만의 데이트를 하면……!"
+    },
+    {
+      "Text": "[s] \"스-토옵! 자, 잠깐! 기다려 봐. 와카모!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "네……?"
+    },
+    {
+      "Text": "[s] \"그게……! 그래! 다음번엔 그런 식으로 뒤에서 따라오지만 말고!\""
+    },
+    {
+      "Name": "와카모",
+      "Text": "어머나."
+    },
+    {
+      "Text": "[s5] \"다음엔 이렇게 직접 손을 잡고 데이트하자!\""
+    },
+    {
+      "Text": "[s6] (보이지 않는 곳에서 사고를 치면 곤란하니까!)"
+    },
+    {
+      "Name": "와카모",
+      "Text": "아으, 앗. 그, 그게. 서, 선생님께서 직접. 이렇게나 저, 적극적으로……!"
+    },
+    {
+      "Name": "와카모",
+      "Text": "네, 네에엣~! 그, 그, 그럼."
+    },
+    {
+      "Name": "와카모",
+      "Text": "저 와, 와, 와와와, 와카모! 그, 그때만을 고대하고 있겠습……니다앗! "
+    },
+    {
+      "Name": "와카모",
+      "Text": "그, 그럼 다음에 또…!"
+    },
+    {
+      "Text": "(그렇게 잔뜩 당황하면서 우왕좌왕 도망치는 와카모를 얌전히 배웅했다.)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "A Solo Date Together"
+    },
+    {
+      "Text": "Today is my first day off from Schale work in a while."
+    },
+    {
+      "Text": "[s1] \"I've needed this...\""
+    },
+    {
+      "Text": "[s2] \"Now I have time for things I put off because of work.\""
+    },
+    {
+      "Text": "First, I went to the shopping mall down the street from Schale."
+    },
+    {
+      "Text": "[s] \"It looks like they're having some kind of sale.\""
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Hello! Thank you all for shopping with us today! "
+    },
+    {
+      "Name": "Clerk",
+      "Text": "To mark our store's 15th anniversary, we're offering a special discount on our highest-grade premium wagyu beef!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "We only have 100 packs in stock, and it's first come, first served.\nDon't miss out on this opportunity!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "The sale starts NOW!"
+    },
+    {
+      "Text": "I fought the crowd and managed to get a place in line, thankfully."
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Next! Here you are. Thank you for shopping with us... Next!"
+    },
+    {
+      "Text": "It was finally my turn after a long wait."
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Here you are. Our very last pack! "
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "Hmph."
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "I'll be taking that!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Oh! B-But, sir...!"
+    },
+    {
+      "Text": "[s] \"Hold up! You can't just cut the line!\""
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "\"Cut,\" you say?"
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "No. I merely passed you because you were taking too long."
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "So what if I started out behind you? It's first come, first served.\nYou heard the manager."
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "All's fair in beef and war."
+    },
+    {
+      "Text": "[s] \"Can you hear yourself right now?\""
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "I don't need your remarks! I have my beef, and that's all I need!"
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "You needn't fear. This beef is much better off with me, where it will get the proper cooking it deserves! Ahahaha!"
+    },
+    {
+      "Name": "Suspicious Customer",
+      "Text": "Now, if you'll excuse me."
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Oh, no!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "A-Are you all right?"
+    },
+    {
+      "Text": "[s] \"What the...?!\""
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Can you hear me?! Sir...!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Someone call a doctor! He's completely out cold!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "We need a doctor over here!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Phew. He should be in good hands now."
+    },
+    {
+      "Name": "Clerk",
+      "Text": "It would be a shame to let the last pack go to waste.\nWould you still like it?"
+    },
+    {
+      "Text": "[s] \"Sure... I just hope that guy's gonna be okay.\""
+    },
+    {
+      "Text": "I managed to successfully purchase the wagyu beef for reasons I still didn't quite understand, and then I made my way to a popular diner for lunch."
+    },
+    {
+      "Text": "[ns] \"What was that dish everyone on social media was talking about again?\""
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "The food here is as great as I heard!"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "One more! I'll have another!"
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "I'm gonna mix a jungle juice at the drink bar!"
+    },
+    {
+      "Name": "Customer A",
+      "Text": "Those three over there are so noisy."
+    },
+    {
+      "Name": "Customer B",
+      "Text": "Shhh! Be quiet, or they'll hear you."
+    },
+    {
+      "Name": "Customer C",
+      "Text": "This sucks. I came all the way here after I heard about this place,\nbut I can't even eat in peace."
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "Hahahaha!"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "Heeheehee!"
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "Ahahahaha!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "E-Excuse me, ladies. We've received complaints from our other customers.\nWould it be too much trouble to keep down ever so slightly?"
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "Whaaat? You think we're being too loud?"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "How's about we stick your speakers where the sun don't shine,\nya bucket of bolts."
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "Then we'll see who's REALLY loud when yer screamin' in pain!"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "*gasp* P-Please! Anything but..."
+    },
+    {
+      "Text": "[s] \"Hey. You're causing a scene.\""
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "Aren't you that...?"
+    },
+    {
+      "Name": "Thug 3",
+      "Text": "Sensei from Schale!"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "You were there when we got blasted the other day!\nDon't think we've forgotten about that!"
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "What do you say, ladies? Now's the perfect time to get our reven—"
+    },
+    {
+      "Name": "Clerk",
+      "Text": "Oh, my GOODNESS! Are you three all right?!"
+    },
+    {
+      "Name": "Customer A",
+      "Text": "Th-Those were gunshots..."
+    },
+    {
+      "Name": "Customer B",
+      "Text": "Where did they come from?"
+    },
+    {
+      "Text": "[s] \"Again?\""
+    },
+    {
+      "Text": "The final thing to do on my day off was to pick up some necessities at the convenience store."
+    },
+    {
+      "Text": "[s3] \"What a day...\""
+    },
+    {
+      "Text": "[s4] \"This shouldn't take long. What's the worst that could happen?\""
+    },
+    {
+      "Text": "[ns] \"Oh, come on!\""
+    },
+    {
+      "Name": "Convenience Store Part-Timer",
+      "Text": "Wh-What's going on?!"
+    },
+    {
+      "Name": "Helmet Gangster A",
+      "Text": "Hahaha! This is a stick up!"
+    },
+    {
+      "Name": "Helmet Gangster B",
+      "Text": "Empty the cash register, and do it now!"
+    },
+    {
+      "Text": "[ns] \"W-Wait!\""
+    },
+    {
+      "Name": "Helmet Gangster A",
+      "Text": "Ahhhhhh!"
+    },
+    {
+      "Name": "Helmet Gangster B",
+      "Text": "I-I've been hit!"
+    },
+    {
+      "Text": "[ns] \"*sigh*\""
+    },
+    {
+      "Text": "My stressful day off finally came to an end."
+    },
+    {
+      "Text": "Then, the next day..."
+    },
+    {
+      "Text": "[s] \"Yesterday sure was something.\""
+    },
+    {
+      "Text": "[ns] \"Who is it?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Heehee. It's me, Sensei. Wakamo. I just couldn't keep myself away."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I had such a wonderful time with you yesterday, even if we didn't get to talk much."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Thinking back on it, I couldn't resist the urge to come see you again.\nThough I know you don't have the day off from work this time."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Nevertheless, I couldn't keep myself away! ♥"
+    },
+    {
+      "Text": "[s] \"I...see. Wait, did you say 'yesterday'?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Hmm? Yes, I did. "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Don't you remember?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I still get butterflies in my stomach thinking about how much time we spent together yesterday!"
+    },
+    {
+      "Text": "[s] \"Stop. There. That part. Explain what you mean by that.\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Ah, I see."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'd be happy to. Anything for you, Sensei."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "We had quite an eventful day yesterday, though it was nice to go on our first date on your much needed day off."
+    },
+    {
+      "Text": "[s] \"D-Date? What date?!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "First, we encountered that clueless idiot that was jealous of us."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Still, I'm glad you were able to purchase that wagyu beef you deserved in the end."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "How should we prepare it today?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'll make it however you like. I can already picture us sharing dinner together, discussing our favorite foods and flavors..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I feel closer to you by simply imagining it, my darling.\nIt makes me so happy."
+    },
+    {
+      "Text": "[s] \"...?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Although..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...our happiness wouldn't last for very long. We ran into yet another disturbance at the restaurant we visited for lunch."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Those noisy insects couldn't help but loudly buzz around those of us simply trying to enjoy our afternoons. How inconsiderate."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I wanted nothing more than to pluck their wings off one-by-one where they stood so they could never make another sound again..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...but I couldn't do it. I couldn't bring myself to ruin our precious time together, so I let them off with a warning."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Then we ran into those fools living out their fantasy of being big shot robbers at the convenience store."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "It was quite an eventful day, but I could say the same of any day I spend when I'm with you."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I wouldn't have it any other way, my darling! ♥"
+    },
+    {
+      "Text": "[ns] \"So you were stalking me everywhere I went yesterday?\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Stalking?"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I would never do such a thing. I was simply following closely behind by letting you lead the way."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I didn't want to do anything to get in the way of our date."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, but you don't have to concern yourself."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I'll be more careful next time we go out together..."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "...by eliminating every would-be obstacle in our way before they can interfere."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "That way nothing will interrupt our second date!"
+    },
+    {
+      "Text": "[s] \"Stop it, Wakamo!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Darling...?"
+    },
+    {
+      "Text": "[s] \"You don't have to do that next time!\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "Oh, my. Next time?"
+    },
+    {
+      "Text": "[s5] \"We'll hold hands all day on our date!\""
+    },
+    {
+      "Text": "[s6] \"(I can't take my eyes off her for everyone else's sakes!)\""
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "O-Oh, Sensei. You're being so forward!"
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "But, okay. If that's what you want."
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "I-I can't wait. I'll be looking forward to it. "
+    },
+    {
+      "Name": "Wakamo",
+      "Text": "G-Goodbye for now, my darling."
+    },
+    {
+      "Text": "I calmly saw Wakamo outside, and she ran away as fast as she could, still flustered."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "เดตตามลำพังของสองเรา"
+    },
+    {
+      "Text": "(วันหยุดพักผ่อนหลังจากไม่ได้หยุดมาสักพักใหญ่)"
+    },
+    {
+      "Text": "[s1] \"ไม่ได้หยุดมานานแล้วนะเนี่ย...\""
+    },
+    {
+      "Text": "[s2] “ได้เวลาทำเรื่องที่ค้างไว้แล้วล่ะ”"
+    },
+    {
+      "Text": "(สถานที่แรกที่ไปก็คือห้างสรรพสินค้าใกล้ๆ ชาเล่ต์)"
+    },
+    {
+      "Text": "[s] “ได้ยินมาว่าวันนี้มีของลดราคาพิเศษด้วย...”"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "ขอบคุณนะที่อุตส่าห์แวะมาจับจ่ายใช้สอยที่ร้านเราในวันนี้นะครับ!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "เพื่อเป็นการฉลองครบรอบ 15 ปีของการเปิดร้าน วันนี้จะมีกิจกรรมลดราคาพิเศษ\nสำหรับเนื้อวัวพรีเมี่ยมเกรด SSS ครับ!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "มีจำหน่ายแค่ 100 แพ็ก! พิเศษสำหรับลูกค้า 100 ท่านแรกเท่านั้น! ห้ามพลาดโอกาสเด็ดขาดเลยนะครับ!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "จะเปิดการขายแล้วนะคร้าบบบบ!"
+    },
+    {
+      "Text": "(คุณครูเบียดเสียดแย่งชิงไปเข้าแถวได้ทันเวลาพอดี)"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "ครับ เชิญท่านต่อไปครับ!\nขอบคุณที่แวะมาอุดหนุนกันนะครับ!... ท่านต่อไปเลยครับ!"
+    },
+    {
+      "Text": "(หลังจากยืนรออยู่นานก็ถึงคิวสักที)"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "เนื้อวัวเหลือแพ็กสุดท้ายแล้ว เชิญลูกค้าท่านต่อไปได้เลยครับ!"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "หึหึหึ!"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "ฉันขอรับไปก็แล้วกัน!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "อ๊ะ! คะ... คุณลูกค้า!"
+    },
+    {
+      "Text": "[s] “เดี๋ยวสิ...! จะแซงคิวงั้นเหรอ!”"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "แซงคิว?"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "เปล่าสักหน่อย ก็ฝั่งนั้นเดินช้าอืดอาดยืดยาด ฉันเห็นแล้วหงุดหงิดก็เลยเดินมาก่อนแค่นั้นเอง!"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "แล้วถ้าฉันแซงคิวแล้วมันจะทำไมมิทราบ? คนที่มาก่อนก็ต้องได้ก่อนไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "การแย่งชิงเนื้อลดราคาไม่มีคำว่าแซงคิวหรอก!"
+    },
+    {
+      "Text": "[s] “ช่างพูดจริงๆ เลยนะ”"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "ช่างเถอะ! ยังไงฉันก็ได้ของมาแล้ว!"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "ไม่ต้องผิดหวังไปหรอกนะ! ฉันจะกินเนื้อวัวนี้อย่างเอร็ดอร่อยแทนให้เอง! ฮ่ะฮ่ะฮ่า!"
+    },
+    {
+      "Name": "ลูกค้าที่ดูลึกลับ",
+      "Text": "งั้นก็ขอตัวล่ะ"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "อ๊ะ?!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "คะ... คุณลูกค้า?"
+    },
+    {
+      "Text": "[ns] “อะไรเนี่ย...?\""
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "เอ่อ คะ... คุณลูกค้า ไม่เป็นไรอะไรใช่ไหมครับ?!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "อะไรเนี่ย... หมดสติไปแล้วเหรอ?"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "ใครก็ได้ตามหน่วยแพทย์มาทีครับ! ช่วยเรียกหน่วยแพทย์ให้ทีครับ! มีคนหมดสติ!"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "ฮู่ว...ถึงจะเกิดปัญหาเล็กๆ น้อยๆ แต่ก็ยังเหลือเนื้อวัวคุณภาพดีอีกแพ็กหนึ่งนะครับ"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "คุณลูกค้า จะรับหรือเปล่าครับ?"
+    },
+    {
+      "Text": "[s] “แน่นอน... ว่าแต่คนนั้นไม่เป็นอะไรจริงเหรอ?”"
+    },
+    {
+      "Text": "(หลังจากบังเอิญซื้อเนื้อวัวคุณภาพดีมาได้ คราวนี้คุณครูเลยลองหาร้านอาหารชื่อดัง\nบนโซเชียลเพื่อที่จะไปทานมื้อกลางวัน)"
+    },
+    {
+      "Text": "[ns] “เมนูที่กำลังฮิตบนโซเชียลช่วงนี้...”"
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "อาหารที่นี่! อร่อยเหมือนที่เขาบอกกันจริงด้วย!"
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "เอามาอีกจาน! ขอสั่งอีกจาน!"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "อืม~ ผสมเครื่องดื่มที่บาร์เครื่องดื่มทั้งหมดเลยดีกว่า~"
+    },
+    {
+      "Name": "ลูกค้า A",
+      "Text": "เสียงดังไปหน่อยหรือเปล่า?"
+    },
+    {
+      "Name": "ลูกค้า B",
+      "Text": "ชู่ว! เงียบๆ สิ เดี๋ยวนักเลงพวกนั้นก็ได้ยินหรอก"
+    },
+    {
+      "Name": "ลูกค้า C",
+      "Text": "อุตส่าห์มาเพราะเป็นร้านดังในโซเชียลแท้ๆ ถ้าเป็นอย่างนี้คงไม่ได้กินอาหารอย่างมีความสุขแน่..."
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "คิกๆๆๆ!"
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "คิคิคิคิคิคิ!"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "อะฮ่ะฮ่ะฮ่ะ~"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "คะ... คุณลูกค้า... ช่วยลดเสียงลงหน่อยได้ไหมครับ จะได้ไม่เป็นการรบกวนลูกค้าท่านอื่น..."
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "ฮะ? จะบอกว่าพวกเราเสียงดังหนวกหูงั้นเหรอ?"
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "พูดแบบนั้นแล้วคิดว่าเราจะรู้สึกผิดรึไง?"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "ให้แสดงให้ดูมั้ยว่าสิ่งที่น่าหนวกหูของจริงน่ะมันเป็นยังไง?"
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "ฮึ่ก คะ...คือว่า..."
+    },
+    {
+      "Text": "[s] “เดี๋ยวสิ สร้างความเดือดร้อนให้คนอื่นแบบนี้ไม่ได้นะ...”"
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "หา?!"
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "คนคนนี้...?"
+    },
+    {
+      "Name": "นักเลง 3",
+      "Text": "คุณครูของชาเล่ต์นี่!"
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "ว่าไงนะ! คิดว่าพวกเราจะลืมเรื่องเมื่อคราวก่อนไปแล้วงั้นเหรอ?!"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "ฮึ่ย! แก้แค้นตอนนี้ก็ไม่สาย..."
+    },
+    {
+      "Name": "พนักงาน",
+      "Text": "คะ... คะ... คุณลูกค้า?\nเอ่อ... เป็นอะไรหรือเปล่าครับ คุณลูกค้า?!"
+    },
+    {
+      "Name": "ลูกค้า A",
+      "Text": "ดะ... โดนลอบยิงงั้นเหรอ?"
+    },
+    {
+      "Name": "ลูกค้า B",
+      "Text": "มะ... เมื่อกี้มาจากไหนน่ะ?"
+    },
+    {
+      "Text": "[s] “อีกแล้วเหรอ...?”"
+    },
+    {
+      "Text": "(พอเสร็จจากธุระในวันหยุดแล้วคุณครูก็เลยแวะไปที่ร้านสะดวกซื้อเพื่อซื้อของใช้จำเป็น)"
+    },
+    {
+      "Text": "[s3] “วันนี้มันวันอะไรกันเนี่ย...”"
+    },
+    {
+      "Text": "[s4] “มาถึงที่นี่แล้ว คงไม่มีเรื่องอะไรหรอกมั้ง...?”"
+    },
+    {
+      "Text": "[ns] “โธ่เอ๊ย อีกแล้วเรอะ!”"
+    },
+    {
+      "Name": "พนักงานพาร์ทไทม์ร้านสะดวกซื้อ",
+      "Text": "กะ... เกิดอะไรขึ้นกันเนี่ย?"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก A",
+      "Text": "ฮะฮะฮ่า! พวกเรายึดร้านสะดวกซื้อนี้แล้ว!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก B",
+      "Text": "อย่าส่งเสียงดังแล้วส่งเงินสดในเคาน์เตอร์มาให้หมด!"
+    },
+    {
+      "Text": "[ns] “ดะ... เดี๋ยวก่อน!”"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก A",
+      "Text": "อ๊ะ... อ๊ากกกก?!"
+    },
+    {
+      "Name": "แก๊งหมวกกันน็อก B",
+      "Text": "ดะ...โดนเข้าแล้ว!"
+    },
+    {
+      "Text": "[ns] “???”"
+    },
+    {
+      "Text": "(แม้ว่าจะเป็นวันหยุดที่นานๆ จะมีสักที แต่พอเจอเรื่องราวมากมายแบบนั้น วันหยุดก็ผ่านไป\nอย่างน่าเหน็ดเหนื่อย)"
+    },
+    {
+      "Text": "(วันต่อมา)"
+    },
+    {
+      "Text": "[s] “เมื่อวานนี้มันเกิดอะไรขึ้นกันแน่”"
+    },
+    {
+      "Text": "[ns] \"ใครน่ะ...?”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุฮุ วาคาโมะเองค่ะ วันนี้วาคาโมะก็มาหาคุณครูอีกแล้วค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ช่วงเวลาที่ได้ใช้ด้วยกันเมื่อวานช่างมีความสุขเหลือเกินค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอาแต่คิดถึงเรื่องเมื่อวานนี้วนไปวนมา ทั้งๆ ที่รู้ว่าวันนี้ไม่ใช่วันหยุดของคุณครู\nแต่ฉันก็ทนเสียงเรียกร้องของหัวใจไม่ไหว..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วันนี้ก็เลยมาเจอคุณครูอีกค่ะ ♡"
+    },
+    {
+      "Text": "[s] \"เดี๋ยวนะ เมื่อวานเราอยู่ด้วยกันเหรอ?”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "หรือว่า... จำอะไรไม่ได้เลยอย่างนั้นเหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้ ยังใจเต้นแรงกับเรื่องเมื่อวานอยู่เลยแท้ๆ..."
+    },
+    {
+      "Text": "[s] “ช่วยอธิบายให้ฟังหน่อยได้มั้ย?!”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ? งะ... งั้นเหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุ ถ้าคุณครูต้องการ ฉันก็พร้อมจะอธิบายให้ฟังค่ะ..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อ่า~ เมื่อวานนี้ก็ลำบากพอตัวเลยค่ะ ฉันรู้สึกดีที่เดตแรกของเราได้ออกไปใช้เวลาด้วยกันในวันหยุดของคุณครู"
+    },
+    {
+      "Text": "[s] \"หืม? ดะ... เดตงั้นเหรอ?”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ตอนแรกพวกเราไปเจอพวกแมลงเกะกะที่อิจฉาการเดตของพวกเรา..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ฮุฮุ แต่ถึงอย่างนั้นก็โชคดีที่ได้เนื้อวัว SSS คุณภาพดีกลับมาด้วยนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แล้วนี่วันนี้เราจะเอามาทำอะไรกินกันดีเหรอคะ?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "อยากจะคุยเรื่องอาหารที่ชอบกับคุณครู... แค่จินตนาการว่าจะได้คุยกันเรื่องรสชาติ\nที่ชอบและเรื่องรสนิยมกัน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะก็ดีใจที่เหมือนจะได้รู้เรื่องของคุณท่านมากขึ้นเลยค่ะ"
+    },
+    {
+      "Text": "[s] “??”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ว่า..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เฮ้อ หลังจากนั้นก็ไปหาร้านอาหารเพื่อทานมื้อกลางวัน แต่ก็ต้องเจอเรื่องน่าปวดหัวอีกจนได้ค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "พวกหนอนแมลงน่ารำคาญที่ส่งเสียงดังโดยไม่สนใจสายตาคนอื่นเลย..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถึงในใจฉันอยากจะขยี้พวกนั้นให้แหลกคาที่ไปเลยก็ตาม"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่ก็ทำแบบนั้นไม่ได้ เพราะไม่อยากจะทำให้ช่วงเวลาที่อยู่กับคุณท่านต้องแปดเปื้อน ฉันตักเตือนพวกนั้นไปนิดหน่อยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "จากนั้นร้านสะดวกซื้อที่แวะไปเป็นที่สุดท้ายก็ดันมีโจรบุกมาปล้นอีก..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ช่างเป็นวันที่เกิดเรื่องต่างๆ มากมายจริงๆ นะคะ แต่สุดท้ายฉันก็ได้ใช้เวลาอยู่กับคุณท่าน..."
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพราะคุณท่านเป็นดั่งข้อยกเว้นทุกอย่างไงค่ะ♡"
+    },
+    {
+      "Text": "[ns] “หมายความว่าวาคาโมะสะกดรอยตามครูงั้นเหรอ...?”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "สะกดรอยตาม...?"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะผู้นี้ก็เพียงแค่เดินตามคุณท่าน โดยที่เว้นระยะห่างเอาไว้หนึ่งก้าวตลอดเท่านั้นเองนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "สำหรับฉันนี่ก็ไม่ต่างอะไรกับการเดตเลยค่ะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "แต่คุณท่านไม่ต้องห่วงหรอกนะคะ"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เพื่อไม่ให้เกิดเรื่องร้ายแบบนี้อีกในอนาคต"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ต่อไปฉันจะกำจัดพวกหนอนแมลงที่มาขัดขวางไปให้พ้นทางตั้งแต่แรกเลยค่ะ...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "จะได้ไม่มีใครมาขัดขวางการเดตของสองเราอีกค่ะ...!"
+    },
+    {
+      "Text": "[s] “เดี๋ยวก่อน วาคาโมะ!”"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Text": "[s] “คราวหน้าห้ามมาเดินตามแบบนี้อีกนะ\""
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ตายจริง... "
+    },
+    {
+      "Text": "[s5] “ครั้งหน้ามาจับมือกันแล้วไปเดตกันเถอะ!”"
+    },
+    {
+      "Text": "[s6] (เพราะถ้าไปก่อเรื่องในที่ที่มองไม่เห็นเดี๋ยวจะเป็นเรื่องใหญ่อีก!)"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "เอ่อ อ๊ะ คะ...คือว่า ถ้าเกิด คะ...คุณครูว่าอย่างนั้น...!"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ตะ...ตกลงค่ะ ถ้าคุณท่านต้องการแบบนั้น"
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "วาคาโมะจะตั้งตารอให้ถึงตอนนั้นค่ะ! "
+    },
+    {
+      "Name": "วาคาโมะ",
+      "Text": "ถะ...ถ้างั้นไว้พบกันใหม่นะคะ…!"
+    },
+    {
+      "Text": "(จากนั้นคุณครูก็ยืนมองวาคาโมะที่รีบวิ่งออกไปจากห้องด้วยสีหน้าที่ว่างเปล่า...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "一起單人約會"
+    },
+    {
+      "Text": "（各種事情告一段落，來到了久違的假日）"
+    },
+    {
+      "Text": "[s1]「畢竟是難得的假日……」"
+    },
+    {
+      "Text": "[s2]「今天來做點平時沒時間做的事吧……」"
+    },
+    {
+      "Text": "（首先，來到了夏萊附近的購物中心）"
+    },
+    {
+      "Text": "[s]「啊，剛好有什麼特賣……？」"
+    },
+    {
+      "Name": "店員",
+      "Text": "今天非常感謝百忙之中前來的各位貴賓！"
+    },
+    {
+      "Name": "店員",
+      "Text": "由於今天是本店開店的15周年！\n作為紀念，目前正在舉辦「SSS級最高級牛肉特別折扣活動」！"
+    },
+    {
+      "Name": "店員",
+      "Text": "限量100包！最先購買的100位客人將享有優惠價格，走過路過不要錯過哦！"
+    },
+    {
+      "Name": "店員",
+      "Text": "那麼現在開始販售！"
+    },
+    {
+      "Text": "（跟著一擁而上的人群，成功排到了感覺可以買到的位置）"
+    },
+    {
+      "Name": "店員",
+      "Text": "好的，麻煩下一位客人！謝謝惠顧！好的，下一位……！"
+    },
+    {
+      "Text": "（就這樣等著等著，總算是排到了）"
+    },
+    {
+      "Name": "店員",
+      "Text": "來，這邊是最後一包！請收下──"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "咯咯咯！"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "我就心懷感激地收下了！"
+    },
+    {
+      "Name": "店員",
+      "Text": "啊啊！這，這位客人！？"
+    },
+    {
+      "Text": "[s]「等，等一下……怎麼可以插隊！？」"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "插隊？"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "是你動作慢吞吞的搞得我很煩，我才會跑到前面來啊！"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "而且先搶先贏不就是先來的人贏嗎？"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "不高興的話，你也插隊不就好了！"
+    },
+    {
+      "Text": "[s]「那是什麼歪理……」"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "少囉唆！總之這是我的東西了！"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "你也不用那麼失望！\n我會連你的份一起，用心、盡力、美味地享用！哈哈！"
+    },
+    {
+      "Name": "可疑的客人",
+      "Text": "話說該去哪裡結帳……"
+    },
+    {
+      "Name": "店員",
+      "Text": "咦！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "這，這位客人？"
+    },
+    {
+      "Text": "[ns]「……嗯！？」"
+    },
+    {
+      "Name": "店員",
+      "Text": "這，這位客人！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "這……失去意識了！？"
+    },
+    {
+      "Name": "店員",
+      "Text": "請，請呼叫醫療人員！！有傷患……！"
+    },
+    {
+      "Name": "店員",
+      "Text": "呼……雖然發生了一點狀況，現在還剩下最後一包限定版最高級牛肉呢。"
+    },
+    {
+      "Name": "店員",
+      "Text": "這位客人，您打算怎麼做呢？"
+    },
+    {
+      "Text": "[s]「啊，那我就不客氣了……話說剛才那位客人真的沒事嗎？」"
+    },
+    {
+      "Text": "（買到了最高級牛肉之後，前往了最近在SNS成為話題的家庭餐廳）"
+    },
+    {
+      "Text": "[ns]「在SNS熱門的餐點記得是……」"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "呀哈哈哈！這個還挺好吃的嘛！"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "給我再拿一份來！"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "嗯～把飲料吧的飲料全部混在一起看看吧！"
+    },
+    {
+      "Name": "客人A",
+      "Text": "怎麼那麼吵啊……"
+    },
+    {
+      "Name": "客人B",
+      "Text": "噓！小聲一點！會被那些人聽到的……！"
+    },
+    {
+      "Name": "客人C",
+      "Text": "聽說在SNS上很有名才來的，這樣根本不能好好吃飯……"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "呀哈哈哈！"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "呼嘻嘻嘻嘻！！"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "啊呀呀呀！"
+    },
+    {
+      "Name": "店員",
+      "Text": "那，那個，客人……這樣會造成其他客人的困擾，麻煩稍微控制一下音量……"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "啊？意思是我們很吵就對了？"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "竟敢說這種話，之後可別後悔哦？"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "怎麼，要讓你見識一下什麼才是真正的「吵」嗎？"
+    },
+    {
+      "Name": "店員",
+      "Text": "噫……！？"
+    },
+    {
+      "Text": "[s]「你們先等等，再這樣造成別人困擾的話……」"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "啊啊？"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "你是……"
+    },
+    {
+      "Name": "小流氓３",
+      "Text": "是夏萊的老師對吧！"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "什麼！之前的事你還沒忘記吧！"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "很好！現在就把當時的仇給──"
+    },
+    {
+      "Name": "店員",
+      "Text": "三，三位客人？那個，各位沒事吧！？"
+    },
+    {
+      "Name": "客人A",
+      "Text": "是，是狙擊……？"
+    },
+    {
+      "Name": "客人B",
+      "Text": "子，子彈是從哪裡飛過來的？"
+    },
+    {
+      "Text": "[s]「又來了……？」"
+    },
+    {
+      "Text": "（假日的行程結束，最後來到了便利商店買日常用品）"
+    },
+    {
+      "Text": "[s3]「雖然是狀況連連的一天……」"
+    },
+    {
+      "Text": "[s4]「來到這裡應該就沒事了吧……」"
+    },
+    {
+      "Text": "[ns]「嗯！果然沒有這種好事！」"
+    },
+    {
+      "Name": "便利商店工讀生",
+      "Text": "怎，怎麼回事！？"
+    },
+    {
+      "Name": "頭盔團A",
+      "Text": "哼哈哈哈！這間便利商店就由我們收下了！"
+    },
+    {
+      "Name": "頭盔團B",
+      "Text": "還不趕快把收銀機裡的現金全部交出來！"
+    },
+    {
+      "Text": "[ns]「等，等等！」"
+    },
+    {
+      "Name": "頭盔團A",
+      "Text": "咕哈啊！？"
+    },
+    {
+      "Name": "頭盔團B",
+      "Text": "什，什麼……！？"
+    },
+    {
+      "Text": "[ns]「…………」"
+    },
+    {
+      "Text": "（明明是難得的假日卻碰上了許多事件，\n　結果還沒能消除疲勞，假日就這麼結束了）"
+    },
+    {
+      "Text": "（隔天……）"
+    },
+    {
+      "Text": "[s]「昨天究竟是怎麼回事呢……」"
+    },
+    {
+      "Text": "[ns]「嗯？請問是哪位？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唔呵呵呵……老師，一天沒見了呢。\n若藻我，儘管十分害羞還是再次前來拜訪了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "昨天一同度過的時光，令我感到相當高興和幸福。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，一回想起這段回憶……\n即便明白今天並非您的假日，卻實在無法壓抑想見到閣下的火熱心意……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "於是再次前來拜訪了♡"
+    },
+    {
+      "Text": "[s]「這，這樣啊……呃，昨天？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "哎呀？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "莫非……您不記得了嗎？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "明明若藻我，僅因為昨天的回憶，心裡便如此小鹿亂撞……？"
+    },
+    {
+      "Text": "[s]「我真的沒搞清楚狀況，可以麻煩你從頭開始說明嗎！？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "好的，我知道了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "如果老師希望的話，說明這點小事不足掛齒。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊～昨天真讓人困擾呢。\n能在老師難得的假日進行約會固然是件好事……"
+    },
+    {
+      "Text": "[s]「約，約會？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "卻不巧碰見了忌妒我們約會的無知之人……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "呵呵，不過能一起獲得SSS級的牛肉真是幸運呢。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "您今天打算如何料理呢？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "和老師一起談論喜愛的料理、交流彼此的喜好和口味……\n若藻我，光是想像就……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "彷彿觸及到了閣下內心深處一般，開心得無法自拔。"
+    },
+    {
+      "Text": "[s]「？？？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "然而……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "唉，可惜之後前往的餐廳也同樣令人不禁皺眉……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "都怪那群毫不在意他人目光的吵鬧飛蟲……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "本想當場將他們全數蹂躪殆盡……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "但最終還是忍住了。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "我並不希望糟蹋閣下寶貴的時間，因此選擇點到為止。\n不過在那之後又在便利商店遭遇了不知天高地厚的強盜……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "連假日都如此棲悽遑遑……這也是與閣下同行時無可避免的命運嗎……呵呵。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "真拿閣下沒辦法呢♡"
+    },
+    {
+      "Text": "[ns]「也就是說，若藻昨天一直在跟蹤我……？」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "跟蹤……？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "不，若藻我只是維持著不會踏及閣下影子的距離，跟在您身後而已唷？"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊，這只能稱之為約會了吧。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊啊，不過今後您不必擔心。"
+    },
+    {
+      "Name": "若藻",
+      "Text": "為了避免這樣的不幸再度發生……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "下次我會事先將所有阻礙清除乾淨──"
+    },
+    {
+      "Name": "若藻",
+      "Text": "打造僅有彼此的約會……！"
+    },
+    {
+      "Text": "[s]「STOP！等等！你先冷靜，若藻！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "咦……？"
+    },
+    {
+      "Text": "[s]「那個……對了！下次不用在後面跟著我沒關係！」"
+    },
+    {
+      "Name": "若藻",
+      "Text": "哎呀？"
+    },
+    {
+      "Text": "[s5]「下次就直接手牽著手約會吧！」"
+    },
+    {
+      "Text": "[s6]（不然在看不見的地方引起問題就麻煩了！）"
+    },
+    {
+      "Name": "若藻",
+      "Text": "啊，啊啊……老，老師您竟然那麼直接……對我如此積極……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "好，好的……那，那麼……"
+    },
+    {
+      "Name": "若藻",
+      "Text": "若，若若若藻我，很期待，那個時候的到來……！"
+    },
+    {
+      "Name": "若藻",
+      "Text": "先，先告辭了……！"
+    },
+    {
+      "Text": "（目送慌張的若藻逃也似地離開了）"
+    }
+  ]
+}

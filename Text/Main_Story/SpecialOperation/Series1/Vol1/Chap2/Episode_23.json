@@ -1,0 +1,2837 @@
+{
+  "TitleJP": "種子貯蔵庫",
+  "TitleKR": "보관소",
+  "TitleEN": "Storage",
+  "TitleTH": "คลัง",
+  "TitleTW": "保管庫",
+  "DescJP": "アイン、ソフ、オウルの元へと向かう一行は、その途上でキツネにケイが気に入られるといった一幕もありつつ、種子貯蔵庫へと到着した。アイン、オウル、ソフは、「預言者としての責務を果たす」と語るティファレトの考えに困惑するが、姉であるマルクトは、その意志を尊重すべきと言う。",
+  "DescKR": "일행이 도착한 수수께끼의 시설은 종자 보관소였다.",
+  "DescEN": "The group arrives at the mysterious facility, a seed vault.",
+  "DescTH": "คณะสืบค้นเดินทางมาถึงสิ่งปลูกสร้างปริศนาซึ่งก็คือคลังเก็บเมล็ดพันธุ์",
+  "DescTW": "小隊抵達神秘設施──種子保管庫。",
+  "DialogJP": [
+    {
+      "Text": "第23話;種子貯蔵庫"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "霧が濃くてよく見えませんが……おおむね座標通りですね。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "はい。目的地を設定後、自動操縦モードにしたので間違いはないはずです。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "皆さん、快適な空の旅をお過ごしいただけましたか？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "は、はい……ロッカーの中、みたいで……安心できました……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なんとも言えない感想ですね……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "休める時に休んでおくべきよ。\nとはいえ――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私たちに残された時間は、およそ二日。\nまとまった休息はもう取れないかもしれないのだけれど。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "昨夜が人生最後の休息だったということですね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……そうなる可能性も否定できないわ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "えー、それならもっとギリギリまで寝とけば良かった……。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……いつも寝てばっかでしょ、お姉ちゃんは。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そ、そんなことないもん！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "最後まで寝てたのモモイだよね。\n起こすの大変だったんだから。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "起きないからって服の中に雪入れるのは反則！\nショック死するとこだったんだよ！"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "涼しくなったらスッキリ起きれるかなって。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "涼しい……？雪が……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "あれは……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "わあ、可愛いキツネさんです！\nケイ、見てください！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "極域に生息するキツネですね。\n長い毛と小さな耳で体温を維持しているのが特徴です。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ふわふわで柔らかいです！それに、アリスを怖がっていないみたいです！"
+    },
+    {
+      "Text": "[ns] \"キツネは人に懐きやすいんだって。\""
+    },
+    {
+      "Name": "ケイ",
+      "Text": "細菌感染の可能性もあるので、不用意に近づくのは……。\nアリス？何を……？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ケイ、手を出してみてください！\nキツネさんが握手したがっていますよ！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "い、いえ、私は……。"
+    },
+    {
+      "Name": "極地のキツネ",
+      "Text": "コン？"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "うっ……。"
+    },
+    {
+      "Text": "（キツネはケイの手を不思議そうに眺めた後）"
+    },
+    {
+      "Text": "（指先を軽く舐めた）"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "うわあっ！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ケイのことを気に入ったみたいです！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "野生動物に気に入られても……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あら、ペンギンもいるのですね。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "初めまして！\n[ruby=てんどう]天童[/ruby]アリスといいます！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "アリス、危ないです。\nペンギンは攻撃的な動物なので――"
+    },
+    {
+      "Name": "アリス",
+      "Text": "こんなに可愛いのに……？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "そうそう。\n「アークティック・アドベンチャー」でも、ペンギンは大事な要素だったもんね。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "素材を準備するの、すっごく大変だったんだけど……というか本当に20種類も必要だった？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "神は細部に宿るって言うでしょ？\n細かいところにこだわることが評価に繋がるんだよ！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "生息域が違うペンギンがいるのはおかしいって指摘されてなかったっけ？"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……条件をクリアしたら、ペンギンが飛んでいくイースターエッグの演出は良かったと思うよ。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "……処理が重くてクラッシュしちゃったけど……。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "そんなことより、このペンギンはなぜ私についてくるんですか！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ケイを気に入ったのだと思います！人気者ですね！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "どうして私ばっかり……！"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふふっ。ペンギンが人を怖がらないのは、好奇心が旺盛だからだと言われています。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ここでは天敵が少ないから、二足歩行できる動物を仲間だと認識するのだとか。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "二足歩行でも動物でもないのですが……！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "はぁ、はぁ……これだから言葉が通じない相手は……！"
+    },
+    {
+      "Text": "[ns] \"敵意はないと思うよ……。\""
+    },
+    {
+      "Name": "ケイ",
+      "Text": "だから嫌なんです！\n下手に反撃できないのに、会話にもならないんですから！"
+    },
+    {
+      "Text": "[s1] \"ケイは優しい子なんだね。\""
+    },
+    {
+      "Text": "[s2] \"嬉しくて涙が出そうだよ……。\""
+    },
+    {
+      "Name": "ケイ",
+      "Text": "わ、私をからかっているんですか！？"
+    },
+    {
+      "Name": "アリス",
+      "Text": "アリスも、ケイが誰かを憎むことがなくて良かったと思っています。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "ありがとうございます、ケイ。\n……私たちと一緒にいてくれて。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "え？\nあ、いえ、その……だから、それは……。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "はぁ……。"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "別に……誰かを憎む理由は、もうどこにもないので。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "はい！アリスもそれが言いたかったんです！"
+    },
+    {
+      "Name": "ケイ",
+      "Text": "アリス……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "ほのぼのとしたところ失礼します。\nまもなく目的地に到着します。"
+    },
+    {
+      "Name": "エイミ",
+      "Text": "なんだろう、これ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "何かあるとは思っていましたが、これはいったい……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "まさか……こんなところにあったのね。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "リオ様、これは？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "これは……世界の滅亡に備え、人類存続のために建てられた――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "[ruby=シード・ボルト]種子貯蔵庫[/ruby]よ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "しーど？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ぼると？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……実在したのですね。"
+    },
+    {
+      "Text": "[s] \"シード・ボルトって？\""
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "言い換えれば、[ruby=しゅしちょぞうこ]種子貯蔵庫[/ruby]。その名の通り――"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "あらゆる種を貯蔵している、とても巨大な施設です。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "つ、ついにティファちゃんのところに……来てしまいましたね。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ティファレトには鋼鉄大陸への資源輸送とその管理を任せています。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "その位置がバレるということは――"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ここ――鋼鉄大陸への手がかりが見つけられてしまったも同然だね。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "まあ、その努力は認めてあげましょう。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ティファレトは何か言ってた？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、そそそそ、その、鋼鉄大陸への輸送はすべて終わっているので……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "これからは、預言者としての責務を果たす、と……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ふむ……要は敵を排除する、と。\nそれはきっと――"
+    },
+    {
+      "Name": "オウル",
+      "Text": "「本来の目的」を果たすためでもあるのでしょうね。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "本来の目的、ねぇ……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "それは、種子の保護……でしょうか？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "お、おおおお、お姉様！？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "驚かせるつもりはなかったのですが……。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ご、ごごごご、ごめんなさい！\nわ、私たちのせいで……！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……ソフ、どうしましょうか？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "お姉様に、そろそろ状況を伝えても良いのでは？"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "……そう、だよね。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ごめんなさい。\nお姉様には、心配をかけたくなかったんだけど……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "気にする必要はありません。\n妹たちの役に立てるのであれば。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "それに……これでようやく、姉の役割を果たせるのですから。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "大変な時は助け合う……姉妹とはそういうものでしょう？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ほ、ほわぁ……！"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "お姉様……！"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ありがたき幸せ……！"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "では、一度情報を整理しましょう。\nティファレトの管理は、オウルが担当していましたね？"
+    },
+    {
+      "Name": "オウル",
+      "Text": "はい。ですが……少し込み入った事情がありまして。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "うっ。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "――続けてください。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "ティ、ティファちゃんは元々、人間が建設した無人の種子貯蔵庫の管理AIでした。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "ティファレトに初めて福音を伝播したとき「受け取った」とは言ってたけど……。\n自分の使命である種子の保管も、やり遂げたいって……。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ですがそれは、人間に与えられた偽物の使命。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "いずれ私たちの真理と衝突してしまうのではないかという懸念がありました。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "良いよ、オウル……自分の口で言うから。\nティファレトの意志を尊重しようって言ったのは、私。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "たしかに偽物の使命だし、オウルに言わせればティファレトが自分でどうにかしないといけない問題だけど……。"
+    },
+    {
+      "Name": "ソフ",
+      "Text": "私たちの福音を受け取った上で、それでも自分の意志を貫くと決めたのなら……やらせてあげたいと思って。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "なるほど……つまり自由意志のせいで問題が生じているのだと。"
+    },
+    {
+      "Name": "アイン",
+      "Text": "お、お姉様……？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "何も知らず、ただ命令を遂行するだけだった子に――自由意志があったとは言えません。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "そのような状態で、責任を問うのも難しいでしょう。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "――自覚すら持てないままに、悲しみの中で放置されていたとも言えます。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ですが、福音を受け取って、すべてを知ることになったティファレトが――\nそれでも己の本分を尽くすと決めたのなら。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "[ruby=・   ・   ・   ・]あの子が[/ruby]選んだことなのであれば、尊重しても良いのではないかと。"
+    },
+    {
+      "Name": "オウル",
+      "Text": "ですがお姉様、自由意志は錯覚に過ぎないという意見もありますよね……？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "たとえそうだとしても……尊重することには意味があります。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "自由意志があったからこそ――我とあなた達の今があるのですから。"
+    },
+    {
+      "Name": "アイン&ソフ&オウル",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "あの方が、ただ命令通りに動くだけのコマを望まれていたのなら――"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "我はアインやソフ、オウルと出会い、話をする機会もなかったのではないでしょうか？"
+    },
+    {
+      "Name": "アイン",
+      "Text": "そ、そそ、そんなの嫌です……！"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ええ、我もです。\nですから、アイン、ソフ、オウル。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ティファレトたち預言者の選択も、大切にしてあげてください。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "ひいては、それがあの方の意に沿う事にもなるでしょうから。"
+    },
+    {
+      "Name": "アイン&ソフ&オウル",
+      "Text": "は～い！"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "――夜明けが訪れています。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "霧は晴れ、朝焼けが闇夜を払うでしょう。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "眠らずにいるのは――未だその到来が分からないから。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "我は信じています。\n預言者、我自身、そして――大切な妹を。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "万が一のことがあった時は――姉としてあなた達を助けましょう。"
+    },
+    {
+      "Name": "アイン&ソフ&オウル",
+      "Text": "こ、光栄です……。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "心配せずとも、我々はすでに完全体です。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "これ以上、進化も……変化も必要ありません。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "なぜなら、私たちはそのように創造されているのですから。"
+    },
+    {
+      "Name": "マルクト",
+      "Text": "……では、ティファレトが見ている世界を、同じ目線で眺めるとしましょうか。"
+    },
+    {
+      "Name": "アイン&ソフ&オウル",
+      "Text": "はい！"
+    },
+    {
+      "Text": "次回;希望"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제23화;보관소"
+    },
+    {
+      "Name": "히마리",
+      "Text": "좌표는 이 근처인데…… 안개가 엄청나네요. 다들 푹 쉬고 잘 잤나요?"
+    },
+    {
+      "Name": "토키",
+      "Text": "항로를 현재 위치로 설정한 뒤, 수송선을 쭉 자동 운행 모드로 비행시켰죠."
+    },
+    {
+      "Name": "토키",
+      "Text": "그 사이에 모두 숙면을 취하도록 한 것입니다만, 괜찮으셨을지 모르겠군요."
+    },
+    {
+      "Name": "유즈",
+      "Text": "네, 네에……. 마치 캐비닛 안처럼, 편안했어요……. 후후."
+    },
+    {
+      "Name": "히마리",
+      "Text": "좋은 뜻인지 나쁜 뜻인지 의미를 알기 힘든 감상이네요……."
+    },
+    {
+      "Name": "리오",
+      "Text": "충분히 휴식해 두었어야 할 거야. 이제 아침이 되었으니…… 우리에게 남은 시간은 사실상 이틀 정도겠지."
+    },
+    {
+      "Name": "리오",
+      "Text": "어쩌면 지난밤의 휴식이, 이번 작전에서 우리의 마지막 잠일 수도 있을 테니까."
+    },
+    {
+      "Name": "토키",
+      "Text": "아니면 일생의 마지막 잠이었거나, 겠군요. 리오 님."
+    },
+    {
+      "Name": "리오",
+      "Text": "……그럴 가능성도 없지는 않겠지."
+    },
+    {
+      "Name": "모모이",
+      "Text": "어? 왠지 그러니까 엄청 중요했던 시간이었던 것처럼 들리는데?! 으으, 이럴 줄 알았으면 좀 더 진심으로 자 둘걸……."
+    },
+    {
+      "Name": "미도리",
+      "Text": "……언니는 언제나 자는 건 진심이잖아……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "무, 뭣?! 그런 거 아니거든!? 완전 오해인데?!?!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "그렇지만 모모이, 마지막까지 제대로 일어나지 않았지? 깨우느라 나도 고생했다고."
+    },
+    {
+      "Name": "모모이",
+      "Text": "아무리 그래도 다짜고짜 옷 속에 눈 뭉치를 집어넣는 건 너무했어! 사람을 얼려 죽일 셈이냐!"
+    },
+    {
+      "Name": "에이미",
+      "Text": "시원하지 않았어?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그, 그걸 시원하다고 느낄 수 있는 사람은 얼마 없지 않을까……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "어? 이 아이는……?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "와아! 귀여운 여우입니다! 보세요, 케이!"
+    },
+    {
+      "Name": "케이",
+      "Text": "어…… 네. 극지 여우로군요. 체온 유지를 위해 귀가 짧고 털이 긴 것이 특징이죠."
+    },
+    {
+      "Name": "아리스",
+      "Text": "맞습니다! 엄청나게 푹신푹신합니다! 거기에 아리스를 무서워하지 않는 것 같습니다!"
+    },
+    {
+      "Text": "[ns] \"그러네. 여우는 사람과 친해지기 쉽대.\""
+    },
+    {
+      "Name": "케이",
+      "Text": "가능성은 낮지만 세균 감염 위험 같은 것도 있을 수 있으니, 적당히 떨어져 주세요. 아리스……. 아리스?"
+    },
+    {
+      "Name": "아리스",
+      "Text": "케이도 손을 내밀어 보세요! 악수를 해 주는 것 같습니다!"
+    },
+    {
+      "Name": "케이",
+      "Text": "아, 아뇨. 저는……."
+    },
+    {
+      "Name": "극지 여우",
+      "Text": "캐앵?"
+    },
+    {
+      "Name": "케이",
+      "Text": "으으……."
+    },
+    {
+      "Text": "(극지여우는 케이의 손을 한참이나 신기하게 바라보더니.)"
+    },
+    {
+      "Text": "(다음 순간, 혀끝으로 살짝 핥았다!)"
+    },
+    {
+      "Name": "케이",
+      "Text": "으에?!?!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "다행입니다! 이 아이도 케이가 마음에 드는 모양입니다!"
+    },
+    {
+      "Name": "케이",
+      "Text": "으으…… 이런 야생 동물에게 호감을 사 봤자 어디에 쓸 데가 있다고……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어머나. 이번에는 펭귄이군요. 극지의 신사라고 불리는 동물이죠."
+    },
+    {
+      "Name": "아리스",
+      "Text": "우와아……! 안녕하세요! 저는 텐도 아리스라고 합니다!"
+    },
+    {
+      "Name": "케이",
+      "Text": "아, 아리스……. 펭귄 날개에 잘못 맞으면, 크게 다칠 수도 있다고 하니 조심해 주세요……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇지만 이렇게 귀여운데요?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "음, 음. 우리의 <아크틱 어드벤처>에서도, 중요 배경 리소스 중 하나였지."
+    },
+    {
+      "Name": "미도리",
+      "Text": "……펭귄이란 펭귄은 다 집어넣어서, 20종류나 되는 그래픽 리소스를 전부 작업할 필요가 있었나 싶지만 말이지……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "왜, 왜애?! 이런 건 쓸데없이 자세한 고증을 넣을수록, 일부 게이머들에게는 호평받기 마련이라구!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "그중 몇 종류는 열대 지방에 사는 펭귄들이어서, 오히려 고증 오류였잖아!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "특정 조건을 만족하면, 배경의 펭귄들이 일제히 날아가는 이스터 에그를 넣어 달라는 건 좋았지만……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "그 덕에 게임이 크래시가 나기도 했었어……."
+    },
+    {
+      "Name": "케이",
+      "Text": "……그런데 이 펭귄, 왜 저를 따라오려는 거죠?!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "그렇네요. 이 아이도 케이가 마음에 든 것이 아닐까요?"
+    },
+    {
+      "Name": "케이",
+      "Text": "그런 관심은 아무래도 좋은데 말이죠! 따, 따라오지 말라구요!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "후후. 펭귄들이 사람을 전혀 무서워하지 않는 이유는, 호기심이 많은 동물이기 때문이라고 하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "극지에는 천적이 드물고, 사람을 자기들처럼 두 다리로 다니는 먼 친척이라고 생각한다고 하던가요."
+    },
+    {
+      "Name": "케이",
+      "Text": "한가한 소리 그만두고 도와줘요–!!!"
+    },
+    {
+      "Name": "케이",
+      "Text": "헉, 헉……! 이래서 말도 안 통하는 야생동물은……!"
+    },
+    {
+      "Text": "[ns] \"그 동물들에게 악의는 없지 않았을까…….\""
+    },
+    {
+      "Name": "케이",
+      "Text": "그래서 더 나빠요! 싫어하거나 미워할 수도 없는 주제에, 뭘 가르칠 수도 없잖아요!"
+    },
+    {
+      "Text": "[s1] \"그렇구나. 싫어하거나 미워하지 않아 주는구나.\""
+    },
+    {
+      "Text": "[s2] \"케이의 따듯한 마음씨에 이 선생님, 무심코 눈물이…….\""
+    },
+    {
+      "Name": "케이",
+      "Text": "무, 뭐, 뭐가 어째요?!?! 진짜 이 어른이, 보자 보자 하니까 못 하는 말이 없네요, 정말이지!!!"
+    },
+    {
+      "Name": "아리스",
+      "Text": "하지만 아리스는, 케이가 살아 있는 아이들을 미워하지 않아서 다행이라고 생각합니다."
+    },
+    {
+      "Name": "아리스",
+      "Text": "고맙습니다. 케이. 모두와…… 같이 있기를 선택해 줘서요."
+    },
+    {
+      "Name": "케이",
+      "Text": "네? 아, 아뇨. 그, 저기. 그건 그러니까……. 우리는 엄밀히 따지면……."
+    },
+    {
+      "Name": "케이",
+      "Text": "……아뇨. 지금의 제 꼴은 분명……. 하아."
+    },
+    {
+      "Name": "케이",
+      "Text": "그렇지만, 뭐. 딱히…… 싫어할 이유 같은 것도, 이제는 없으니까요."
+    },
+    {
+      "Name": "아리스",
+      "Text": "네! 바로 그런 것을 말하는 것이었습니다."
+    },
+    {
+      "Name": "케이",
+      "Text": "네, 네에……."
+    },
+    {
+      "Name": "토키",
+      "Text": "훈훈하게 들리는 이야기를 나누는 사이, 아무래도 목적지에 도착한 것 같습니다."
+    },
+    {
+      "Name": "에이미",
+      "Text": "진짜로 뭔가 있었네? 신기한 건물인데?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "그러게요. 이 좌표에 정말로 무언가가 있었군요. 그런데, 이건 도대체……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……! 나는, 알고 있어. 그렇지만 정말로 이게 여기에 있었다니……!"
+    },
+    {
+      "Name": "토키",
+      "Text": "이게 뭔가요, 리오 님?"
+    },
+    {
+      "Name": "리오",
+      "Text": "이건……. 예전에, 누군가가 세계가 멸망할 정도의 대재앙이 닥친 뒤에도, 살아남은 인류의 생존을 위해 건설했다는……."
+    },
+    {
+      "Name": "리오",
+      "Text": "[ruby=종자 보관소]시드 볼트[/ruby]야."
+    },
+    {
+      "Name": "모모이",
+      "Text": "시드?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "볼트?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "시드 볼트……. 그게 정말로 있었던 거군요."
+    },
+    {
+      "Text": "[s] \"그게 뭔데?\""
+    },
+    {
+      "Name": "히마리",
+      "Text": "간단히 말씀드리자면…… "
+    },
+    {
+      "Name": "히마리",
+      "Text": "아주 거대한, 씨앗 저장고라고 할 수 있겠죠."
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그 사람들…… 티, 티페 쨩의 앞까지…… 끝내, 왔네요……."
+    },
+    {
+      "Name": "오르",
+      "Text": "지금 티페레트에게 주어진 임무는, 강철대륙으로의 자원 수송과 관리였죠."
+    },
+    {
+      "Name": "오르",
+      "Text": "그러니, 저 사람들에게 티페레트의 위치가 노출되었다는 것은……."
+    },
+    {
+      "Name": "소프",
+      "Text": "……응. 이곳, 강철대륙으로 이어지는 선로의 끝에, 저들이 결국 도달하고 말았다는 뜻이지."
+    },
+    {
+      "Name": "오르",
+      "Text": "제 나름대로의 비유법을 사용해 보자면, 잘도 백도어를 찾아냈다고 해야겠네요."
+    },
+    {
+      "Name": "소프",
+      "Text": "티페레트는 뭐래?"
+    },
+    {
+      "Name": "아인",
+      "Text": "네? 그그그그, 그러니까, 강철대륙으로의 물류 수송과 관리는…… 모두, 마무리 지었으니까……"
+    },
+    {
+      "Name": "아인",
+      "Text": "이제부터는, 예언자로서의…… 의무를, 다하겠다고……."
+    },
+    {
+      "Name": "오르",
+      "Text": "간단히 이야기하자면, 적성 요소의 배제라는 거군요. 거기에 하나 더."
+    },
+    {
+      "Name": "오르",
+      "Text": "'원래 자신의 목적'에도 역시, 충실하겠다고도 하네요."
+    },
+    {
+      "Name": "소프",
+      "Text": "자신의 목적, 이라……."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "티페레트의 본디 목적이라면, 종자 보호를 말하는 것인가요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "어, 어어어어어어언니?!?!"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그렇게까지 놀라기를 바라지는 않았는데요, 아인."
+    },
+    {
+      "Name": "아인",
+      "Text": "죄죄죄죄죄, 죄송해요! 저희가, 저희가 잘못해서……!"
+    },
+    {
+      "Name": "오르",
+      "Text": "……."
+    },
+    {
+      "Name": "오르",
+      "Text": "그런 것과는 별개로…… 어떻게 생각해요, 소프?"
+    },
+    {
+      "Name": "오르",
+      "Text": "이제 언니도 슬슬, 상황에 대해 아셔야 할 것 같은데요?"
+    },
+    {
+      "Name": "소프",
+      "Text": "……."
+    },
+    {
+      "Name": "소프",
+      "Text": "그래……. 그렇겠지."
+    },
+    {
+      "Name": "소프",
+      "Text": "미안, 언니. 언니에게는 아무 걱정도 끼치고 싶지 않았는데."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "괜찮아요, 아인. 소프. 오르. 저는 오히려 동생들을 도울 수 있어서 기쁘답니다."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "이제서야 한 명의 언니 몫을 할 수 있게 된 것 같아서요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "힘들 때면 서로 도와야 하는 것이 자매잖아요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "후, 후아아……!"
+    },
+    {
+      "Name": "소프",
+      "Text": "역시……!"
+    },
+    {
+      "Name": "오르",
+      "Text": "저는 이 순간, 여기에 있어서 다행이라고 생각하고 있어요……!"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그러면 우리들의 인식을 맞추기 위해 이야기를 나눠 보죠. 티페레트의 세부 관리는 분명, 오르의 몫이었죠?"
+    },
+    {
+      "Name": "오르",
+      "Text": "네네. 그렇기는 한데 말이죠. 이게 또…… 살짝 복잡한 부분이 있어서요."
+    },
+    {
+      "Name": "소프",
+      "Text": "윽."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그게 무엇인가요. 오르?"
+    },
+    {
+      "Name": "아인",
+      "Text": "티, 티페 쨩은 본디…… 인간들이 건설한, 무인 종자 보관소, 였어요……. 티페 쨩에게, 처음 우리들의 복음을 전파했을 때……."
+    },
+    {
+      "Name": "소프",
+      "Text": "그, 뭐냐. 일단 티페레트는 복음을 받아들이겠다고 하긴 했거든? 그런데, 자기의 본분인 종자 보관 역시, 같이 계속하고 싶다고 해서……."
+    },
+    {
+      "Name": "오르",
+      "Text": "저는 그 부분의 의견이 조금 우려되었어서 말이죠. 종자 보관이란 건 애초에, 티페레트가 인간을 위해 주입 받은 가짜 사명이잖아요?"
+    },
+    {
+      "Name": "오르",
+      "Text": "그것이 우리의 진리와, 자칫하면 부딪힐 수 있지 않을까 했었거든요. 그런데……."
+    },
+    {
+      "Name": "오르",
+      "Text": "……."
+    },
+    {
+      "Name": "소프",
+      "Text": "됐어, 오르. 내가 말할게. 내가…… 티페레트의 의지를 존중해 주자고 했어."
+    },
+    {
+      "Name": "소프",
+      "Text": "물론 그건 인간들로부터 주입 받은 가짜 사명이고, 오르의 의견을 따지자면 티페레트 스스로 극복해야 할 문제였지만……."
+    },
+    {
+      "Name": "소프",
+      "Text": "우리의 복음을 듣고 나서도, 티페레트가 자기의 의지로 그렇게 하기를 선택했다면…… 그걸 존중해 주어야 하지 않을까, 해서……."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그렇군요. 이것은 자유 의지의 문제인 것이네요."
+    },
+    {
+      "Name": "아인",
+      "Text": "어, 언니……?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "아무것도 모른 채, 지시받은 대로 명령을 수행하기만 했던 아이에게, 자유 의지가 있다고 볼 수는 없을 거예요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그리고 자유 의지가 없는 아이에게, 책임을 묻는 것도 어려운 일이겠죠."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "또한 바로 그렇기 때문에, 그 아이는 스스로도 모르는 슬픔과 비극 속에 방치되어 있었다고 볼 수 있을 거예요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "하지만 우리의 복음을 받아들이고, 모든 것을 알게 된 티페레트는, 그럼에도 자신의 또 하나의 본분을 다하겠다고 선택했어요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그렇다면 우리 역시, 그 아이의 자유 의지를 존중해야 하지 않을까요?"
+    },
+    {
+      "Name": "오르",
+      "Text": "하, 하지만 자유 의지라는 것은 결국, 따지고 보면 착각에 지나지 않는 것이라는 말도 있는데요……?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "네. 저도 알고 있답니다. 오르. 그렇지만 그것이 비록 착각일지라도, 우리는 그것을 존중해야 한다고 생각해요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그렇기 때문에, 우리가 이렇게 마주 앉아서, 서로를 바라볼 수 있는 것일 테니까요."
+    },
+    {
+      "Name": "아인&소프&오르",
+      "Text": "!?!?"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "생각해 보세요. 그분께서 모든 것이 수족과 같이 움직이는, 자유 의지 없는 부속품을 원했다면."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "저 역시도, 아인, 소프, 오르도, 이렇게 마주 모여서 이야기를 나눌 수도 없지 않았을까요?"
+    },
+    {
+      "Name": "아인",
+      "Text": "그, 그그, 그건 싫어요……!"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "네. 저도 마찬가지랍니다. 그러니 아인, 소프, 오르."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "우리들의 자유 의지가 소중한 것처럼, 티페레트와 예언자들의 자유 의지도 소중하게 생각해 주세요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "무엇보다 저는 그렇게 하는 것이, 그분의 뜻에 부합한다고 생각하니까요."
+    },
+    {
+      "Name": "아인&소프&오르",
+      "Text": "네에~!"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "새벽이 오고 있습니다."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "안개는 걷힐 것이고, 아침의 노을이 장막을 거두겠죠."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "우리가 깨어 있어야 하는 이유는, 그때가 저물 때일지, 밤중일지, 그도 아니면 새벽일지 알지 못하기 때문입니다."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "저는 모두를 믿고 있어요. 예언자들도, 저 자신도, 그리고 저의 소중한 동생들 역시도"
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "만에 하나 무언가가 잘못되면, 제가 언니로서 아인과 소프와 오르를 돕겠습니다."
+    },
+    {
+      "Name": "아인&소프&오르",
+      "Text": "영광이에요……."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "걱정하지 말아요. 아인. 소프. 오르. 우리는 이미 완전하니까요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그 말은 우리가 여기에서 더 나아지거나 바뀔 필요가 없다는 것이기도 하죠."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "무엇보다 우리 자신이, 바로 그렇게 창조되었으니까요."
+    },
+    {
+      "Name": "말쿠트",
+      "Text": "그러면 조금 더, 티페레트가 바라보는 세상을, 우리 역시 같은 시선에서 바라보기로 할까요?"
+    },
+    {
+      "Name": "아인&소프&오르",
+      "Text": "네!"
+    },
+    {
+      "Text": "다음화;희망"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 23;Storage"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Did everyone get a good night's sleep? We've arrived at our destination. It's hard to see with all the fog, though."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Yes. I set our course and left the ship on autopilot."
+    },
+    {
+      "Name": "Toki",
+      "Text": "That enabled me to ensure everyone slept during our journey. I hope it was a comfortable ride."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Y-Yes... It was really comfy...like I was in my locker at home... Fufu."
+    },
+    {
+      "Name": "Himari",
+      "Text": "I'm unsure...if that should be considered a positive or a negative..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I hope everyone got enough rest. I estimate that we have about two days remaining before the Steel Continent overtakes Kivotos."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Which would mean this may have been everyone's last chance to get a good night's sleep."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Perhaps the last chance we will ever have to sleep again, Ms. Rio."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...That is a potential outcome."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "H-Hold up! Doesn't that mean that last night was, like, super precious? I should've taken sleeping really seriously, then!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "...I don't know anyone who takes sleep more seriously than you."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wh-What?! Liar! D-Don't make stuff up!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Well, Momoi, you did sleep in this morning. In fact, I had a very difficult time trying to wake you up."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Speaking of, shoving a snowball down my shirt was way overboard! Do you want me to get hypothermia and DIE?!"
+    },
+    {
+      "Name": "Eimi",
+      "Text": "Wasn't the cold very refreshing?"
+    },
+    {
+      "Name": "Midori",
+      "Text": "I don't think that's the word most people would use..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Huh? Is that...?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Wow! Look, Kei! A fox! It is so cute!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Oh, yes... An arctic fox. They're known for their short ears and long fur that keeps them warm."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! The fur is so fluffy! And it is not scared of me either!"
+    },
+    {
+      "Text": "[ns] \"It really isn't. They do say it's easy to befriend a fox.\""
+    },
+    {
+      "Name": "Kei",
+      "Text": "Although unlikely, there is risk of infection, so please don't hold it. Aris... Aris?"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Kei! Put out your hand! It would like to shake hands with you."
+    },
+    {
+      "Name": "Kei",
+      "Text": "N-No. Wait, I..."
+    },
+    {
+      "Name": "Arctic Fox",
+      "Text": "Yip?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Ugh..."
+    },
+    {
+      "Text": "The arctic fox stared at Kei's hand for a long time."
+    },
+    {
+      "Text": "Finally, it lightly licked the outstretched hand with the tip of its tongue!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Ehhh?!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "How wonderful! I believe it likes you as well, Kei!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "What's the point...of being liked by a wild animal...?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh my. And now there's a penguin. They're known as the gentlemen of the polar region."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Wooow...! Hello! I am Tendou Aris!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "A-Aris... Their wings can cause serious injury. Please proceed with caution."
+    },
+    {
+      "Name": "Aris",
+      "Text": "But they are so cute!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Yup, yup. They were part of our main background resources in our game, \"Polar Adventure.\""
+    },
+    {
+      "Name": "Midori",
+      "Text": "...I still think it was a waste of resources, and my time, to make twenty different models representing different penguin species..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "A-A waste?! Adding unnecessarily detailed real-life references is generally well-received...by some gamers!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Don't even get me started on how some of the penguins were species found in tropical regions!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "W-Well, the Easter egg where you could make all the penguins fly away if you met certain conditions was pretty cool..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Even though it crashed the game..."
+    },
+    {
+      "Name": "Kei",
+      "Text": "Why is this penguin following me?!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "It really is! Perhaps it likes you, Kei?"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Well, it's unwanted affection! Go away!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Fufu. They say penguins are such curious creatures that they're not even afraid of humans."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Penguins have very few predators, and they believe humans are their distant relatives, since we both walk on two legs."
+    },
+    {
+      "Name": "Kei",
+      "Text": "Stop chit-chatting, and HELP ME!!!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "*pant* *pant* This is why wild animals that can't understand words are so...!"
+    },
+    {
+      "Text": "[ns] \"It really didn't have any ill intent...\""
+    },
+    {
+      "Name": "Kei",
+      "Text": "That's precisely the problem! I can't hate or dislike them, but I can't teach them anything either!"
+    },
+    {
+      "Text": "[s1] \"I see. So you don't hate or dislike them.\""
+    },
+    {
+      "Text": "[s2] \"Your empathetic heart is making me tear up...\""
+    },
+    {
+      "Name": "Kei",
+      "Text": "Wh-Wh-What are you even saying?! Seriously, this adult just spews out whatever nonsense they want!!!"
+    },
+    {
+      "Name": "Aris",
+      "Text": "Well, I am very happy that Kei does not hate living creatures."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Thank you, Kei. For choosing to stay with us."
+    },
+    {
+      "Name": "Kei",
+      "Text": "Um...y-you're welcome? I mean, well, technically we are..."
+    },
+    {
+      "Name": "Kei",
+      "Text": "...Technically. But right now, I look like this... *sigh*"
+    },
+    {
+      "Name": "Kei",
+      "Text": "Ugh, whatever! It's not exactly like...I have any proper justification to hate anymore."
+    },
+    {
+      "Name": "Aris",
+      "Text": "Yes! That is exactly what I mean!"
+    },
+    {
+      "Name": "Kei",
+      "Text": "O-Okay..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "While you were having your heartwarming conversation, we arrived at our destination."
+    },
+    {
+      "Name": "Eimi",
+      "Text": "There really was something here the whole time? How weird."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It would appear so. But what in the world is a building doing in a place like this?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...I know what that is! I can't believe what I'm seeing."
+    },
+    {
+      "Name": "Toki",
+      "Text": "What is it, Ms. Rio?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "It was built as a failsafe for human survival in case of an extinction-level event."
+    },
+    {
+      "Name": "Rio",
+      "Text": "It's a seed vault."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Seed..."
+    },
+    {
+      "Name": "Midori",
+      "Text": "...vault?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "A seed vault...truly exists?"
+    },
+    {
+      "Text": "[s] \"What is a 'seed vault'?\""
+    },
+    {
+      "Name": "Himari",
+      "Text": "Exactly as it sounds... "
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's a very big seed storage."
+    },
+    {
+      "Name": "Ein",
+      "Text": "Th-Those people... Th-They made it...all the way to Tiphy..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Tiphareth's current task is to manage resource transport to the Steel Continent."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "And seeing that those people have uncovered Tiphareth's location..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "...Yup. They've followed the yellow brick road to the Steel Continent."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "To use those analogies you so love, I must congratulate them in successfully finding access to the \"back door.\""
+    },
+    {
+      "Name": "Sof",
+      "Text": "Did Tiphareth say anything?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "Eh? W-W-W-W-Well, the Steel Continent has all the resources it needs now..."
+    },
+    {
+      "Name": "Ein",
+      "Text": "So Tiphy's going to do its duty...its duty as a prophet."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Simply put, enemy extermination. And of course..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "...it's determined to fulfill its original purpose."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Its \"original purpose\"..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "By Tiphareth's original purpose, does it mean protecting seeds?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "E-E-E-E-E-Elder Sister?!"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "It was not my intention to shock you so gravely, Ein."
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-I-I-I-I'm sorry! Th-That's my fault!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "What are your thoughts, Sof?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Shall we inform Elder Sister of the current situation?"
+    },
+    {
+      "Name": "Sof",
+      "Text": "..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Okay. Let's do it."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Sorry, Elder Sister. We wanted to handle everything on our own, without burdening you."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Worry not, Ein, Sof, and Ohr. In fact, I find content in the idea of assisting my younger sisters."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "I may finally satiate my desire to do my part as the eldest."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "After all, sisters are wont to support each other in times of difficulty, yes?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "W-Waaah...!"
+    },
+    {
+      "Name": "Sof",
+      "Text": "Really, truly the best...!"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "I'm ecstatic—overwhelmed that I was allowed to experience this moment!"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "In that case, please inform me of the details of this conundrum. Ohr, you were Tiphareth's assigned commander, yes?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Yes, yes. However, well...the situation has grown slightly complicated."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Ugh."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "And what is this \"complication\"?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "O-Originally, Tiphy...was an unmanned seed vault built by humans...and when we preached our gospel to Tiphy..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "Hmmm, how do we put this? Tiphareth was receptive to our gospel...but it also insisted that it fulfill its original purpose of seed preservation as well."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "I found, and still find, it less than ideal. This \"seed preservation\" directive is a false mission humans tainted Tiphareth with."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "Such a mission could not help but to conflict with our truth. However..."
+    },
+    {
+      "Name": "Ohr",
+      "Text": "..."
+    },
+    {
+      "Name": "Sof",
+      "Text": "I've got it, Ohr. It was me who said it, anyway. I believe that we should respect Tiphareth's wishes."
+    },
+    {
+      "Name": "Sof",
+      "Text": "The mission itself might be artificial, implanted by those humans, but it's Tiphareth's obstacle to overcome."
+    },
+    {
+      "Name": "Sof",
+      "Text": "And considering that, even after hearing our gospel, Tiphareth insisted upon its decision... Well, shouldn't we respect that?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "I have grasped the situation. It is a question of free will."
+    },
+    {
+      "Name": "Ein",
+      "Text": "E-Elder Sister...?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "However, I cannot say that a child who knows naught but their orders can be said to be acting of their own volition."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Thus, how does one demand such responsibilities of such a child, one who has yet to experience true free will?"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "We can only conclude that this child has been abandoned to sorrow and tragedies, ones it is as of yet unaware of."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Despite this, Tiphareth, upon learning of and accepting our gospel, still exercised its faith and loyalty to its original duty."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Should we not respect this admirable expression of free will?"
+    },
+    {
+      "Name": "Ohr",
+      "Text": "H-However, there is a saying: free will is nothing but an illusion."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "While that may be true, Ohr, I advocate for respecting said illusion."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "After all, it is the very reason why we are able to sit side by side, to gaze upon each others' visage."
+    },
+    {
+      "Name": "Ein & Sof & Ohr",
+      "Text": "?!?!"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Please consider this. If our master truly desired we function as brainless limbs, as beings with no free will..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "...then the four of us would never have had the opportunity to gather and speak as we do, yes?"
+    },
+    {
+      "Name": "Ein",
+      "Text": "I-I-I would hate that...!"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "I share your sentiment. Ein, Sof, Ohr, this is precisely why..."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "...just as we value our individual free will, please cherish that of Tiphareth, as well as of the other prophets."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "For such action is the desire of our master."
+    },
+    {
+      "Name": "Ein & Sof & Ohr",
+      "Text": "Yes!"
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Dawn shall soon come."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "The fog will dissipate, as the morning glow's curtains shall rise."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "We must remain ever fastidious and alert, for we know not if it arrives with the setting sun, the dark of the night, or the rising dawn."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "My faith remains steadfast. My faith in the prophets, in myself, and of course, in my precious younger sisters."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Ein, Sof, and Ohr. If you find yourself before insurmountable obstacles, as your eldest sister, I shall be there to provide aid."
+    },
+    {
+      "Name": "Ein & Sof & Ohr",
+      "Text": "I'm...so honored."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Worry not, my younger sisters. We are perfection manifested."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "There is no need for amelioration. For we bear no faults to be polished."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Above all, our master created us so."
+    },
+    {
+      "Name": "Malkuth",
+      "Text": "Therefore, shall we embrace Tiphareth's perspective of this vast world?"
+    },
+    {
+      "Name": "Ein & Sof & Ohr",
+      "Text": "Yes!"
+    },
+    {
+      "Text": "Next Episode;Hope"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 23;คลัง"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงหมอกจะลงจัด... แต่ตามพิกัดบอกว่าอยู่แถวนี้ค่ะ ทุกคนได้นอนพักผ่อนกันเต็มที่มั้ยคะ?"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "หลังจากกำหนดเส้นทางไปยังพิกัดที่ว่า เราก็เดินทางมาด้วยโหมดขับขี่อัตโนมัติค่ะ"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ระหว่างนั้นทุกคนก็นอนหลับพักผ่อนกัน แต่ก็ไม่แน่ใจนะคะว่าหลับสบายกันหรือเปล่า"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ค่ะ ค่ะ... ฉันสบายตัวเหมือนตอนอยู่ในตู้เลยค่ะ... ฮุฮุ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เป็นความรู้สึกที่ยากที่จะรู้ได้ว่ามันดีหรือร้ายนะคะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ทุกคนควรพักผ่อนให้มากๆ เข้าไว้ ตอนนี้ก็เช้าแล้ว... งั้นก็เท่ากับว่าพวกเรามีเวลาเหลืออีกประมาณ 2 วัน"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "บางทีการนอนหลับเมื่อคืนนี้อาจจะเป็นการนอนหลับครั้งสุดท้ายของเราในปฏิบัติการครั้งนี้ก็ได้"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "หรืออาจจะเป็นการนอนหลับครั้งสุดท้ายของชีวิต... ก็ได้สินะคะ ท่านริโอะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ก็ใช่ว่าจะเป็นไปไม่ได้นะ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? ทำไมฟังดูเหมือนเป็นช่วงเวลาที่สำคัญมากๆ เลย?! ฮือ รู้งี้นอนให้นานกว่านี้อีกหน่อยก็ดี..."
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พี่โมโมอิก็จริงจังกับการนอนตลอดอยู่แล้วไม่ใช่เหรอ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "วะ... ว่าไงนะ?! ไม่ใช่อย่างนั้นสักหน่อย!? เข้าใจผิดไปมากเลยนะ?!?!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "แต่โมโมอิก็นอนฉ่ำจนแทบจะไม่ตื่นเลยนะ? ฉันต้องลำบากปลุกอยู่ตั้งนาน"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ถึงจะปลุกไม่ตื่นยังไง แต่การเอาหิมะมาใส่ในชุดของฉันมันก็เกินไปนะ! จะทำให้คนแข็งตายหรือไง!"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "ไม่ได้เย็นสดชื่นหรอกเหรอ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "คะ... คงมีไม่กี่คนหรอกนะที่จะรู้สึกเย็นสดชื่นน่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "หืม? เด็กคนนี้...?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ว้าว! เป็นสุนัขจิ้งจอกที่น่ารักจังเลยค่ะ! ดูสิคะ เคย์!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "อ่า... ค่ะ สุนัขจิ้งจอกอาร์กติกสินะคะ ลักษณะเด่นของมันก็คือหูที่สั้นและขนที่ยาวที่มีไว้เพื่อรักษา\nอุณหภูมิของร่างกายค่ะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ใช่ค่ะ! ขนนุ่มมากๆ เลยละค่ะ! แล้วก็เหมือนว่าจะไม่กลัวอาริสึด้วย!"
+    },
+    {
+      "Text": "[ns] \"นั่นสินะ ได้ยินว่าสุนัขจิ้งจอกเป็นมิตรกับคนด้วยละ\""
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ถึงจะมีความเป็นไปได้น้อย แต่ก็ยังมีความเสี่ยงเรื่องการติดเชื้อแบคทีเรีย งั้นก็อยู่ห่างๆ ไว้จะดีกว่า\nนะคะ อาริสึ... อาริสึ?"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "เคย์ก็ลองยื่นมือมาสิคะ! เหมือนน้องจะจับมือด้วยเลยค่ะ!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "มะ... ไม่ค่ะ ฉัน..."
+    },
+    {
+      "Name": "จิ้งจอกขั้วโลก",
+      "Text": "หงิง?"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "อ่า..."
+    },
+    {
+      "Text": "(สุนัขจิ้งจอกอาร์กติกจ้องมือของเคย์ด้วยความอยากรู้อยากเห็นอยู่พักใหญ่)"
+    },
+    {
+      "Text": "(แล้วมันก็ใช้ปลายลิ้นเลียมือเบาๆ!)"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "เฮือก...?!?!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "โล่งอกไปทีค่ะ! น้องดูจะชอบเคย์นะคะ!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "อึก... ได้รับความสนใจจากสัตว์ป่าจะไปมีประโยชน์อะไรคะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อุ๊ย นี่คือเพนกวินสินะคะ เพนกวินเป็นสัตว์ที่ได้ชื่อว่าเป็นสุภาพบุรุษแห่งเขตขั้วโลกเลยละ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ว้าวว...! สวัสดีค่ะ! ฉันชื่อเทนโด อาริสึค่ะ!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "อะ... อาริสึ... ถ้าไปจับปีกของเพนกวินอย่างไม่ระวัง อาจจะได้รับบาดเจ็บได้นะคะ ระวังด้วยค่ะ..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่มันน่ารักขนาดนี้เลยนะคะ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อืม อืม นี่คือหนึ่งในข้อมูลเซ็ตติ้งที่สำคัญในเกม <อาร์กติก แอดเวนเจอร์> ของเราเลยละ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ว่าแต่เราจำเป็นต้องทำกราฟิกของเพนกวินทั้ง 20 สายพันธุ์เลยเหรอ..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หืม? ทำไมล่ะ?! ยิ่งใส่รายละเอียดปลีกย่อยที่ไม่จำเป็นเข้าไปมากเท่าไร ก็จะยิ่งได้รับการตอบรับจาก\nเกมเมอร์นะ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แต่บางสายพันธุ์ที่ใส่ไปเป็นเพนกวินที่อยู่อีกขั้วโลกหนึ่ง เราก็เลยโดนวิจารณ์ว่าหาข้อมูลผิดพลาด\nไม่ใช่เหรอ!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แต่ฉันชอบการใส่อีสเตอร์เอ้กที่เมื่อทำผ่านเงื่อนไขบางอย่างแล้วเพนกวินจะบินไปหมดนะ..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "แต่นั่นก็ทำให้เกมแครชเหมือนกัน..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ว่าแต่... ทำไมเพนกวินตัวนี้ถึงเอาแต่เดินตามฉันล่ะคะ?!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "นั่นสินะ น้องก็เหมือนจะชอบเคย์ด้วยนะคะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "การได้รับความสนใจแบบนี้มันก็ไม่ได้แย่หรอกนะ! ตะ... แต่อย่าตามมาได้มั้ยคะ!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ฮุฮุ ว่ากันว่าเหตุผลที่เพนกวินไม่กลัวมนุษย์เลยก็เพราะพวกมันเป็นสัตว์ที่อยากรู้อยากเห็นมากค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "และในเขตขั้วโลกก็ไม่ค่อยมีศัตรูตามธรรมชาติ เวลาเห็นมนุษย์ที่เดินสองขาเหมือนตัวเอง ก็จะคิดว่าเป็นญาติห่างๆ กับตัวเองค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "หยุดอธิบายให้ยืดยาวแล้วมาช่วยฉันเถอะค่ะ!!!"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "แฮ่ก... แฮ่ก...! ไม่อยากเจอพวกสัตว์ที่พูดไม่รู้เรื่องเลย...!"
+    },
+    {
+      "Text": "[ns] \"แต่สัตว์พวกนี้ก็ไม่น่าจะมีเจตนาร้ายนะ...\""
+    },
+    {
+      "Name": "เคย์",
+      "Text": "แบบนี้ก็เลยยิ่งแย่ยังไงล่ะคะ! จะเกลียดหรือหมั่นไส้ก็ไม่ได้ แต่ก็สอนอะไรไม่ได้อีก!"
+    },
+    {
+      "Text": "[s1] \"งั้นสินะ ไม่ได้เกลียดหรือหมั่นไส้น้องๆ สินะ\""
+    },
+    {
+      "Text": "[s2] \"หัวใจที่อบอุ่นของเคย์ทำให้ครูน้ำตาไหลเลย...\""
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ฉะ... ฉะ... ฉันไปทำอะไรให้คะ?!?! ผู้ใหญ่คนนี้นี่จริงๆ เลย ตั้งใจพูดแกล้งฉันใช่มั้ย?!!"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "แต่อาริสึดีใจนะคะที่เคย์ไม่เกลียดน้องๆ สิ่งมีชีวิตพวกนี้"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ขอบคุณนะคะเคย์ ขอบคุณที่... เลือกที่จะอยู่กับพวกเราค่ะ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "คะ? มะ... ไม่ใช่นะคะ อะ... เอ่อ... คือว่า... ที่ฉันจะบอกก็คือ..."
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ช่างเถอะค่ะ... ดูสภาพของฉันในตอนนี้สิ... เฮ้อ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "แต่ก็เอาเถอะ ตอนนี้ฉันก็... ไม่มีเหตุผลที่ต้องเกลียดอะไรนี่คะ"
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "ค่ะ! นั่นละค่ะสิ่งที่อาริสึจะสื่อ"
+    },
+    {
+      "Name": "เคย์",
+      "Text": "ค่ะ ค่ะ..."
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "ระหว่างที่กำลังแบ่งปันเรื่องราวที่น่าประทับใจกัน ดูเหมือนว่าเราจะมาถึงจุดหมายปลายทางแล้วนะคะ"
+    },
+    {
+      "Name": "เอมิ",
+      "Text": "มีอะไรอยู่จริงด้วยสินะ? เป็นสิ่งปลูกสร้างที่ดูน่าทึ่งจัง"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นั่นสินะคะ มีอะไรบางอย่างอยู่ที่พิกัดนี้จริงๆ ด้วย ว่าแต่มันคืออะไรกันคะ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันรู้จักที่นี่นะ แต่มันตั้งอยู่ตรงนี้จริงๆ เหรอเนี่ย...!"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "มันคืออะไรเหรอคะ ท่านริโอะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มันคือ... สิ่งปลูกสร้างเพื่อดำรงความอยู่รอดของมนุษยชาติในกรณีที่เกิดภัยพิบัติทำลายโลก และที่แห่งนี้ก็ได้ชื่อว่า..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "คลังเก็บเมล็ดพันธุ์"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "คลัง?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "เก็บเมล็ดพันธุ์?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คลังเก็บเมล็ดพันธุ์... มีที่แบบนี้อยู่จริงๆ สินะคะ"
+    },
+    {
+      "Text": "[s] \"มันคืออะไรเหรอ?\""
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าจะให้พูดง่ายๆ... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "มันก็คือสถานที่เก็บเมล็ดพันธุ์พืชตามชื่อเลยค่ะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "คะ... คนพวกนั้น... มะ... มาถึงข้างหน้าทิฟาจัง... จนได้นะคะ..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ภารกิจของทิฟาเร็ธในตอนนี้คือการขนส่งและจัดการทรัพยากรในดินแดนเหล็กกล้าค่ะ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "การที่ตำแหน่งของทิฟาเร็ธถูกเปิดเผยแก่คนพวกนั้น ก็หมายความว่า..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "อื้อ... หมายความว่าในที่สุดพวกนั้นก็มาถึงจุดสิ้นสุดของเส้นทางที่มุ่งสู่ดินแดนเหล็กกล้าแล้ว"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ถ้าจะใช้คำเปรียบเทียบในแบบของฉัน ก็ต้องบอกว่าพวกเธอหาแบ็กดอร์เจอจนได้ค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แล้วทิฟาเร็ธล่ะ ว่ายังไงบ้าง?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "คะ? อะอะอะอะ... เอ่อ... ในเมื่อการขนส่งและจัดการทรัพยากรที่ดินแดนเหล็กกล้า... เสร็จสิ้นเรียบร้อยแล้ว..."
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "จากนี้ไปก็จะ... ทำหน้าที่... ในฐานะผู้เลื่อมใส..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "พูดง่ายๆ ก็คือการกำจัดศัตรูสินะคะ และอีกอย่างก็คือ"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "การบอกว่าจะอุทิศตัวต่อ 'เป้าหมายเดิมของตัวเอง' ด้วยค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "เป้าหมายของตัวเอง..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "เป้าหมายเดิมของทิฟาเร็ธ... หมายถึงการปกป้องเมล็ดพันธุ์หรือเปล่าคะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "พะ... พี่มัลคูธ?!?!"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ฉันไม่ได้จะทำให้ตกใจขนาดนั้นนะคะ ไอน์"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ขะขะขะขะขะ... ขอโทษค่ะ! พวกฉัน... พวกฉันผิดไปแล้วค่ะ...!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ว่าแต่... ซอฟคิดยังไงเหรอคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันว่าพี่มัลคูธก็ควรจะได้รู้สถานการณ์บ้างค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "อืม... ก็คงเป็นอย่างนั้น"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ขอโทษนะพี่มัลคูธ ฉันไม่อยากให้พี่ต้องกังวลเลย"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ไม่เป็นไรหรอกค่ะ ไอน์ ซอฟ ออร์ ฉันดีใจด้วยซ้ำที่ได้ช่วยเหลือน้องๆ ค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ในที่สุดฉันก็ได้ทำหน้าที่ของพี่สาวแล้วสินะคะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "พี่น้องควรจะช่วยเหลือกันในยามยากลำบากไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ฮะ... ฮืออ...!"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ต้องอย่างนี้สิ...!"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันโชคดีเหลือเกินค่ะที่ได้อยู่ที่นี่ในเวลานี้...!"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ถ้างั้นเรามาแบ่งปันข้อมูลเพื่อให้เกิดความเข้าใจที่ตรงกันกันเถอะค่ะ ออร์คือผู้ดูแลรายละเอียด\nปลีกย่อยของทิฟาเร็ธใช่มั้ยคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ค่ะ ก็ใช่อยู่หรอกค่ะ แต่ว่า... มันมีส่วนที่ซับซ้อนอยู่หน่อยน่ะค่ะ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "มีอะไรเหรอคะ? ออร์?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ดะ... เดิมทีแล้ว... ทะ... ทิฟาจัง... ถูกสร้างมาเพื่อเป็น AI เอาไว้ดูแลคลังเก็บเมล็ดพันธุ์ที่พวกมนุษย์\nสร้างไว้ค่ะ... ตอนส่งคำสั่งจากพวกเราไปให้ทิฟาจังเป็นครั้งแรก..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ต้องบอกว่าไงนะ ตอนนั้นทิฟาเร็ธบอกว่าจะยอมรับคำสั่งก่อน แต่ก็บอกว่าอยากทำหน้าที่หลักของ\nตัวเองในการเก็บรักษาเมล็ดพันธุ์ต่อไปด้วย..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันค่อนข้างเป็นกังวลเกี่ยวกับส่วนนั้นค่ะ การเก็บรักษาเมล็ดพันธุ์คือภารกิจปลอมที่ทิฟาเร็ธได้รับมอบ\nหมายเพื่อช่วยมนุษย์ตั้งแต่แรกไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ฉันกังวลว่ามันอาจจะขัดแย้งกับหลักความจริงของพวกเราน่ะค่ะ แต่ว่า..."
+    },
+    {
+      "Name": "ออร์",
+      "Text": "..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ไม่ต้องหรอก ออร์ ฉันพูดเอง ฉัน... ฉันเองละที่เสนอให้เราเคารพเจตจำนงของทิฟาเร็ธ"
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "ฉันเข้าใจว่าการเก็บรักษาเมล็ดพันธุ์คือภารกิจปลอมที่มนุษย์ปลูกฝังในตัวเขา และตามที่ออร์บอก นี่ก็เป็นปัญหาที่ทิฟาเร็ธต้องเอาชนะให้ได้ด้วยตัวเอง..."
+    },
+    {
+      "Name": "ซอฟ",
+      "Text": "แต่ต่อให้รับคำสั่งจากพวกเราแล้ว ถ้าทิฟาเร็ธยังเลือกที่จะทำตามเจตจำนงของตัวเอง... ฉันก็คิดว่าเราควรเคารพการตัดสินใจนั้นน่ะ..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "อย่างนี้นี่เอง เป็นปัญหาเรื่องเจตจำนงเสรีสินะคะ"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "พะ... พี่คะ...?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "เด็กที่เอาแต่ทำตามคำสั่งที่ได้รับมาโดยไม่รู้อะไรเลย จะมองว่ามีเจตจำนงเสรีไม่ได้หรอกค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "และสำหรับเด็กที่ไม่มีเจตจำนงเสรีแล้ว ก็คงเป็นการยากที่จะถามหาความรับผิดชอบค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "และเพราะอย่างนั้นก็เลยมองได้ว่าเด็กคนนี้ถูกทิ้งให้อยู่ในความเศร้าและโศกนาฏกรรมโดยที่ตัวเองก็\nไม่รู้ตัวค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "แต่ต่อให้ยอมรับคำสั่งของเราและได้รู้เรื่องทุกอย่างแล้ว แต่ถ้าเด็กคนนั้นยังอยากเลือกทำอีกหน้าที่\nหนึ่งของตน"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ถ้าอย่างนั้นเราก็ควรเคารพในเจตจำนงเสรีของเขาไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ออร์",
+      "Text": "ตะ... แต่ก็มีคำที่ว่าที่จริงแล้ว... เจตจำนงเสรีเป็นแค่การคิดไปเองนะคะ...?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ค่ะ เรื่องนั้นฉันก็รู้ดีค่ะ ออร์ ถึงมันจะเป็นเพียงแค่การคิดไปเอง แต่ฉันก็คิดว่านั่นเป็นสิ่งที่ควรให้ความ\nเคารพค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "เพราะการมีเจตจำนงเสรี ทำให้พวกเราได้มานั่งและเฝ้ามองกันได้อย่างตอนนี้นี่คะ"
+    },
+    {
+      "Name": "ไอน์&ซอฟ&ออร์",
+      "Text": "!?!?"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ลองคิดดูสิคะ หากท่านผู้นั้นต้องการเครื่องมือที่เคลื่อนไหวตามคำสั่งโดยไร้เจตจำนงเสรีละก็"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ทั้งฉัน ไอน์ ซอฟ และออร์ก็คงไม่ได้มาพบกันและพูดคุยกันแบบนี้หรอก ว่ามั้ยคะ?"
+    },
+    {
+      "Name": "ไอน์",
+      "Text": "ฉะ... ฉะฉะ... ฉันไม่อยากให้เป็นแบบนั้นค่ะ...!"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ค่ะ ฉันก็ด้วยค่ะ เพราะงั้น ไอน์ ซอฟ ออร์"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ช่วยเห็นคุณค่าของเจตจำนงเสรีของทิฟาเร็ธและผู้เลื่อมใสตนอื่นๆ อย่างที่เห็นคุณค่าของเจตจำนง\nเสรีของพวกเราด้วยนะคะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "เหนือสิ่งอื่นใด ฉันเชื่อว่าการทำแบบนั้นจะสอดคล้องกับประสงค์ของท่านผู้นั้นค่ะ"
+    },
+    {
+      "Name": "ไอน์&ซอฟ&ออร์",
+      "Text": "ค่า~!"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ฟ้าใกล้จะสางแล้วค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "หมอกจะจางลง และแสงแห่งรุ่งอรุณจะส่องลงมา"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "สาเหตุที่พวกเราต้องตื่นอยู่ตลอด เพราะเราไม่รู้ว่าตอนนั้นจะเป็นเวลาพลบค่ำ ดึกดื่น หรือรุ่งสางกันแน่"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ฉันเชื่อในพวกเราค่ะ เชื่อทั้งเหล่าผู้เลื่อมใส ตัวฉันเอง และน้องๆ คนสำคัญของฉันด้วย"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ถ้าเกิดอะไรผิดพลาดขึ้นมา ฉันจะช่วยเหลือไอน์ ซอฟ และออร์ในฐานะพี่สาวเองค่ะ"
+    },
+    {
+      "Name": "ไอน์&ซอฟ&ออร์",
+      "Text": "เป็นเกียรติอย่างยิ่งเลยค่ะ..."
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ไม่ต้องกังวลนะคะ ไอน์ ซอฟ ออร์ พวกเราสมบูรณ์แบบแล้วค่ะ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "นั่นหมายความว่าเราไม่จำเป็นต้องดีขึ้นหรือเปลี่ยนแปลงอะไรที่นี่"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "และเหนือสิ่งอื่นใด นั่นเป็นเพราะเราถูกสร้างมาแบบนั้นจริงๆ"
+    },
+    {
+      "Name": "มัลคูธ",
+      "Text": "ถ้าอย่างนั้น พวกเราก็มามองโลกจากมุมมองเดียวกันกับทิฟาเร็ธกันมั้ยคะ?"
+    },
+    {
+      "Name": "ไอน์&ซอฟ&ออร์",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Text": "ตอนต่อไป;ความหวัง"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第23話;保管所"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "座標就在這附近……霧相當濃呢。\n大家有好好休息嗎？"
+    },
+    {
+      "Name": "季",
+      "Text": "將目的地設定到現在的位置後，運輸船就一路以自動模式飛行到這裡。"
+    },
+    {
+      "Name": "季",
+      "Text": "我安排大家在航程中進入熟睡狀態，不知道大家是否一切安好。"
+    },
+    {
+      "Name": "柚子",
+      "Text": "是，是……感覺就像待在櫃子裡一樣舒服……呵呵。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這究竟是褒是貶，讓人有點疑惑呢……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "的確必須充分休息才行。\n現在已經是早上了……我們實際上剩下的時間大概也就兩天左右。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "昨夜的休息，可能是這次作戰行動中的最後一覺。"
+    },
+    {
+      "Name": "季",
+      "Text": "也可能是人生的最後一覺呢，莉央大人。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……的確不是完全沒有這種可能性。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯？這樣聽起來，怎麼覺得旅途中的睡眠時間好像很重要！？\n唔唔，早知道我就好好睡一覺了……"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐不是每天都很認真睡覺嗎……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "咦，咦咦！？\n哪有，這完全是個誤會！？"
+    },
+    {
+      "Name": "英美",
+      "Text": "不過實際上睡到最後的是桃井沒錯吧？\n為了叫醒桃井，我也費了不少功夫呢。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "再怎麼說，突然把雪球塞到我衣服裡都太過分了吧！是想把我給凍死嗎！"
+    },
+    {
+      "Name": "英美",
+      "Text": "不覺得很涼快嗎？"
+    },
+    {
+      "Name": "綠",
+      "Text": "世，世界上應該沒幾個人會覺得那樣涼快吧……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗯？這個小不點是……？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "哇！好可愛的狐狸！\n請看，Kei！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……是北極狐呢。\n較長的毛與短而圓的耳朵是牠們的特徵，同時也有助於保持體溫。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "沒錯！整隻都毛茸茸的，而且好像不害怕愛麗絲！"
+    },
+    {
+      "Text": "[ns]「是啊，聽說狐狸很親人。」"
+    },
+    {
+      "Name": "Kei",
+      "Text": "雖然可能性不高，但還是有細菌感染的風險，請保持適當距離。\n愛麗絲……愛麗絲？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "Kei也伸手看看吧！\n感覺牠會握手耶！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "沒，沒關係。我……"
+    },
+    {
+      "Name": "北極狐",
+      "Text": "哐？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "唔……"
+    },
+    {
+      "Text": "（北極狐好奇地盯著Kei的手）"
+    },
+    {
+      "Text": "（下一秒，用舌尖輕輕舔了一下！）"
+    },
+    {
+      "Name": "Kei",
+      "Text": "唔哇！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "太好了！牠好像也很喜歡Kei耶！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "唔唔……被這種野生動物喜歡又能怎麼樣……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "哎呀，這次是企鵝呢。\n這種動物有著極地紳士的外號哦。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "哇啊……！\n你好！愛麗絲的名字叫天童愛麗絲！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "愛，愛麗絲……聽說如果被企鵝的翅膀打到可能會受重傷，請小心……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "牠明明這麼可愛的說？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "對啊對啊。\n在我們的《極地冒險》之中，企鵝也是重要的素材之一。"
+    },
+    {
+      "Name": "綠",
+      "Text": "為了把所有種類的企鵝都放進去，製作了多達20種的素材……\n現在想想還是會懷疑到底有沒有必要……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "怎，怎麼會沒必要呢！？\n這種藏在背景裡的細節越精緻，越能贏得部分玩家的好評呀！"
+    },
+    {
+      "Name": "綠",
+      "Text": "其中幾種企鵝明明棲息在熱帶地區，這樣反而會被說是考證錯誤好嗎！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "雖然加入達成特定條件，就能讓背景裡的企鵝們一起飛起來的彩蛋的想法很不錯……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "不過卻會讓系統因為負擔過重而崩潰就是了……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……話說這隻企鵝，為什麼一直跟著我啊！？"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "真的耶。這孩子是不是也喜歡Kei呢？"
+    },
+    {
+      "Name": "Kei",
+      "Text": "我不需要被牠喜歡啊！\n不，不要跟著我！"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呵呵。聽說企鵝之所以不怕人，是因為牠們的好奇心非常旺盛。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "再加上極地很少有天敵的關係，\n當牠們看到用雙腳走路的人類時，會把人類當作自己的遠親。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "不要一副事不關己的樣子，快點幫幫我……！！！"
+    },
+    {
+      "Name": "Kei",
+      "Text": "哈啊，哈啊……！\n所以我才說這些語言不通的野生動物實在是……！"
+    },
+    {
+      "Text": "[ns]「那些動物應該沒有惡意……」"
+    },
+    {
+      "Name": "Kei",
+      "Text": "所以才更糟糕啊！\n既討厭不了牠們，又沒辦法教牠們什麼！"
+    },
+    {
+      "Text": "[s1]「原來Kei不討厭牠們啊。」"
+    },
+    {
+      "Text": "[s2]「Kei好溫柔，老師都快哭了……」"
+    },
+    {
+      "Name": "Kei",
+      "Text": "什，什麼啦！？\n你這個大人也真是的，就喜歡胡說八道！！！"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "但是愛麗絲也覺得，Kei不討厭活著的生命真是太好了。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "謝謝你，Kei。\n謝謝你……選擇和大家在一起。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "咦？沒，沒什麼。\n畢竟嚴格來說……"
+    },
+    {
+      "Name": "Kei",
+      "Text": "……不，我現在這個樣子明明……唉。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "事到如今……也沒什麼非討厭不可的理由了。"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "嗯！愛麗絲就是這個意思。"
+    },
+    {
+      "Name": "Kei",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "季",
+      "Text": "抱歉打擾大家溫馨的談話時光。\n我們似乎抵達目的地了。"
+    },
+    {
+      "Name": "英美",
+      "Text": "還真的有東西呢？\n是座很奇特的建築？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是啊，想不到這個座標上真的有東西。\n不過這到底是……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！\n我知道這是什麼，但沒想到真的會出現在這裡……！"
+    },
+    {
+      "Name": "季",
+      "Text": "這是什麼呢，莉央大人？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "這……據說是過去的某個人，\n在經歷世界末日等級的大災難後，為了讓人類得以存續而建造的……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "[ruby=Seed Vault]種子保管所[/ruby]。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "種子？"
+    },
+    {
+      "Name": "綠",
+      "Text": "保管所？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "種子保管所……原來真的存在啊。"
+    },
+    {
+      "Text": "[s]「那是什麼？」"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "簡單來說…… "
+    },
+    {
+      "Name": "陽葵",
+      "Text": "就是一座超大型的種子儲藏庫。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "那，那些人……終，終於來到提，提法醬面前了呢……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "目前提法瑞特負責的任務，是對鋼鐵大陸的資源輸送及管理。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "也就是說，既然那些人已經找到提法瑞特的所在位置……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……嗯。代表他們終於還是來到了這裡──鋼鐵大陸的鐵路盡頭。"
+    },
+    {
+      "Name": "Aur",
+      "Text": "如果要以我自己的說法來比喻，可以說是隱藏的後門曝光了吧。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "提法瑞特怎麼說？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "咦？那那那那，那個，往鋼鐵大陸的物流運輸和管理……全部，都完成了……"
+    },
+    {
+      "Name": "Ain",
+      "Text": "接下來，它要開始履行……身為預言者的，義務……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "簡單來說就是排除敵對要素吧。\n除此之外──"
+    },
+    {
+      "Name": "Aur",
+      "Text": "它還說要忠於「自己原本的目的」。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "原本的目的啊……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "提法瑞特最初的用途，是保護種子嗎？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "姐，姐姐姐姐，姐姐大人！？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "我沒想到會把你嚇成這樣，Ain。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "對對對對對，對不起！\n是，是我們的錯……！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "其他的先不說……你怎麼看呢，Soph？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "是不是……差不多該向姐姐大人說明一下現在的情況了？"
+    },
+    {
+      "Name": "Soph",
+      "Text": "……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "嗯……說的也是。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "對不起，姐姐大人。\n我們本來不想讓姐姐大人擔心的。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "沒關係，Ain、Soph、Aur。\n能夠幫上妹妹們的忙，我反而覺得很高興。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "這樣我終於能扮演好姐姐的角色了。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "在遇到困難的時候互相幫助，這不才是所謂的姐妹嗎？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "呼，呼哇啊……！"
+    },
+    {
+      "Name": "Soph",
+      "Text": "果然……！"
+    },
+    {
+      "Name": "Aur",
+      "Text": "此時此刻能身在這裡，真是太好了……！"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "那麼為了統整彼此的認知，我們好好聊一聊吧。\n提法瑞特的詳細管理工作，是由Aur負責的對吧？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "嗯嗯。\n雖然是這樣沒錯，不過這個部分……情況有點複雜。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "唔唔。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "怎麼說呢，Aur？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "提，提法醬原本是……人類建造的，無人種子保管所的AI……\n當初我們向提法醬傳播福音的時候……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "那個，怎麼說呢……雖然提法瑞特確實答應會接受福音，\n不過它也表示想繼續履行原本的使命，也就是保管種子……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "這個部分讓我有點擔心。\n畢竟保管種子這件事，不就只是人類強加在提法瑞特身上的虛假使命而已嗎？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "我擔心這會跟我們的「真理」有所衝突，可是……"
+    },
+    {
+      "Name": "Aur",
+      "Text": "……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "好了，Aur。換我來說吧。\n當時我提議……要尊重提法瑞特的意志。"
+    },
+    {
+      "Name": "Soph",
+      "Text": "當然那確實是人類灌輸給提法瑞特的虛假使命，\n所以Aur才認為那是它自己要克服的問題……"
+    },
+    {
+      "Name": "Soph",
+      "Text": "但是既然在聽了我們的福音之後，提法瑞特仍然以自己的意志選擇那麼做的話……\n我認為或許也應該尊重它的選擇……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "原來如此。是關乎自由意志的問題呢。"
+    },
+    {
+      "Name": "Ain",
+      "Text": "姐，姐姐大人……？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "一名一無所知，只會依照指示執行命令的孩子，很難稱的上擁有真正的自由意志。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "既然不具備自由意志，也就難以對它追究任何責任。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "正因如此，那孩子可說是在毫無自覺的情況下，一直被棄置於悲傷與悲劇之中。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "然而若是在接受我們的福音，知曉一切之後，提法瑞特依然選擇履行自己的本分──"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "那麼我們是不是也該尊重那個孩子的自由意志呢？"
+    },
+    {
+      "Name": "Aur",
+      "Text": "但，但不是也有人說過，自由意志其實只是一種錯覺嗎……？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "嗯，這點我也清楚，Aur。\n不過即便那的確只是錯覺，我還是認為我們應該要尊重它。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "畢竟我們之所以能像這樣面對面交流，正是因為擁有「自由意志」啊。"
+    },
+    {
+      "Name": "Ain&Soph&Aur",
+      "Text": "！？！？"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "你們可以想想看。\n假如「那位大人」只想要任其擺佈的工具，或者沒有自由意志的附屬品──"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "無論我還是Ain、Soph、Aur，都不可能像現在這樣聚在一起交談了吧？"
+    },
+    {
+      "Name": "Ain",
+      "Text": "我，我我，我才不要那樣……！"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "是啊，我也一樣。\n所以Ain、Soph、Aur。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "提法瑞特和預言者們的自由意志也跟我們的一樣寶貴，並且值得尊重。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "更重要的是──我認為這麼做也符合那位大人的意旨。"
+    },
+    {
+      "Name": "Ain&Soph&Aur",
+      "Text": "好～！"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "黎明即將到來。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "迷霧終會消散，晨曦將揭開闇夜的帷幕。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "我們之所以必須保持清醒，是因為不清楚那一刻將會在黃昏、黑夜還是清晨到來。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "我深深相信著大家。\n無論是預言者們，還是我自己──以及我珍愛的妹妹們。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "哪怕不幸出了什麼差錯，身為姐姐的我都會幫助Ain、Soph和Aur的。"
+    },
+    {
+      "Name": "Ain&Soph&Aur",
+      "Text": "這是我們的榮幸……"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "不必擔心，Ain、Soph、Aur。\n我們已經是完全體了。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "這代表現在的我們，不需要變得更好或做出任何改變。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "因為──這就是我們被創造出來的樣子。"
+    },
+    {
+      "Name": "馬爾庫特",
+      "Text": "那麼我們就試著從提法瑞特的角度，看看它眼中的世界吧？"
+    },
+    {
+      "Name": "Ain&Soph&Aur",
+      "Text": "嗯！"
+    },
+    {
+      "Text": "下一話;希望"
+    }
+  ]
+}

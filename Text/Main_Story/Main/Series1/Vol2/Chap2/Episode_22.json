@@ -1,0 +1,2852 @@
+{
+  "TitleJP": "王女のためのパヴァーヌ（１）",
+  "TitleKR": "왕녀를 위한 파반느 1",
+  "TitleEN": "Pavane for a Princess 1",
+  "TitleTH": "ลำนำแด่ธิดาแห่งทวยเทพ 1",
+  "TitleTW": "為王女準備的帕凡舞（１）",
+  "DescJP": "アリスが囚われている場所へとついにたどり着いた一行。そこで眠っているアリスに話しかけると、自分はアリスではなく＜Key＞であると答える。そうして、＜Key>は「アトラ・ハシースの箱舟」を起動すると告げ――自身が作った都市のせいで終焉が近づいた事を察したリオは、一人でそれを食い止めると告げるのだった。",
+  "DescKR": "리오가 있는 곳에 도착한 게임개발부 일행이 아리스를 구하려는 찰나, 미지의 존재 <Key>가 나타나 에리두를 장악한 채 사태를 파국으로 이끌기 시작한다. 뒤늦게 리오가 자신을 희생하여 사태를 수습하려는 그때, 노아와 유우카가 등장한다.",
+  "DescEN": "The Game Development Department arrives at Rio's location and are about to rescue Aris when an unknown being, Key, appears and takes control of Eridu. The results are catastrophic. Rio belatedly tries to sacrifice herself in an attempt to rectify the situation when Noa and Yuuka arrive.",
+  "DescTH": "ชมรมพัฒนาเกมไปถึงที่ที่ริโอะอยู่ ขณะที่ทุกคนพยายามจะช่วยอาริสึ <Key>\nก็ปรากฏตัวและยึดครองเอริดูไว้ จนสถานการณ์เริ่มเข้าสู่ความพินาศ\nย่อยยับ ริโอะตัดสินใจจะเสียสละตนเองเพื่อควบคุมสถานการณ์แต่ในตอน\nนั้นเอง โนอาและยูกะก็ปรากฏตัวขึ้น",
+  "DescTW": "遊戲開發部抵達莉央所在的地方，在準備救出愛麗絲的瞬間，未來的存在「Key」出現且掌控了埃里都，局勢因此開始步向危機。就在莉央準備犧牲自己來挽回一切時，乃愛和優香出現了。",
+  "DialogJP": [
+    {
+      "Text": "第22話;王女のためのパヴァーヌ（１）"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "あっ！あそこ！見て！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……本当に倒すなんて。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ネル先輩すごい！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ユズちゃんもすごかった！全部、ユズちゃんの作戦のおかげだからね！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "わ、わたしは……と、特に何か、したわけじゃ、ないから……"
+    },
+    {
+      "Name": "ネル",
+      "Text": "…………。"
+    },
+    {
+      "Text": "[ns] \"ネル……！大丈夫！？\""
+    },
+    {
+      "Name": "ネル",
+      "Text": "……しびれる。"
+    },
+    {
+      "Text": "[s] \"……え？\""
+    },
+    {
+      "Name": "ネル",
+      "Text": "身体がしびれて……動けねぇ……。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "クソ、あんま騒ぐな……頭に響く……\n……大丈夫だ、ちょっと休んだら良くなる。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "つーか、うちの連中は？"
+    },
+    {
+      "Text": "[s1] \"みんな無事だよ。しばらくは動けないと思うけど。\""
+    },
+    {
+      "Text": "[s2] \"先に上がって、ネルの世話を頼んだって言ってたよ。\""
+    },
+    {
+      "Name": "ネル",
+      "Text": "……そうか。\nは、誰が誰の世話をしろっていうのやら。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "……そうか。\nは、誰が誰の世話をしろっていうのやら。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "……おい、チビども。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "う、うん？"
+    },
+    {
+      "Name": "ネル",
+      "Text": "アカネやアスナ、カリンと……あたしらがここまで繋いできた。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "あとはもう一つだけだろ。"
+    },
+    {
+      "Name": "ネル",
+      "Text": "そいつ、ぜってぇ連れ戻せよ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "うん！"
+    },
+    {
+      "Text": "[s] \"ありがとう、ネル……みんな、行こう！\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "着いた！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "ここがエリドゥ中央タワーの最上階……"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "（……ゴクッ）"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "地図によると、ここのどこかにアリスがいるはず。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "そう、アリスならここにいるわ。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "会長……！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "……！"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "まだ戦うつもり！？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "いいえ。トキが倒れた時点で、私が持っている手札はすべて消えた。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "認めましょう……私の負けよ。"
+    },
+    {
+      "Text": "[s] \"リオ……。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "本当に……貴女たちはここまで来たのね。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "近い将来、キヴォトスの脅威になる事が確定しているあの子を救うために……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "遮るものをすべてを薙ぎ払って……。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "当たり前だよ！最初からそう決めてたからね！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "アリスが、[ruby=  ・    ・    ・    ・    ・    ・    ・    ・    ・    ・    ・  ]キヴォトスに終焉を招く[/ruby]としても？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "急に何？アリスの事そんな風に言わないでよ！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私は、ただ……"
+    },
+    {
+      "Text": "[ns3] \"リオが何を根拠に動いたのかは分からない。\""
+    },
+    {
+      "Text": "[ns4] \"でも、一つだけはっきりと言えるよ。\""
+    },
+    {
+      "Text": "[ns5] \"リオは、誰にも相談せず、一人で全てを判断して結論づけた。\""
+    },
+    {
+      "Text": "[ns6] \"そして、君が正しいと信じる事を他人に強要した。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "先生……貴方も、私の行動が独善だと言うの……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "でも……私は……！！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私、は……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "先生、アリスの場所が分かったよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "その部屋の隅に、電力が集中する施設があるはず。アリスはそこにいる。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "ミドリ！ユズ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "うん！お姉ちゃん！"
+    },
+    {
+      "Text": "[ns] \"リオ、続きはこの後にしようか。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "…………。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "アリス！お待たせ！"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "アリスちゃん！"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "アリスちゃん……。"
+    },
+    {
+      "Name": "アリス",
+      "Text": "…………。"
+    },
+    {
+      "Text": "[ns] \"アリス……？\""
+    },
+    {
+      "Name": "モモイ",
+      "Text": "な、なにが起きてるの！？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "あ、あそこのモニターが……！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "これは………！！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ぃま……急に……な…が……！？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "通信が……き……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……み…な……応答……！？"
+    },
+    {
+      "Text": "[ns] \"チヒロ……！\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "エリドゥのシステム全体が……ハッキング…………"
+    },
+    {
+      "Name": "リオ",
+      "Text": "いえ、これは単純なハッキングではない……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "都市全体が「何か」に変質していっている？"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "こんな事してる場合じゃない！早くケーブルを外してアリスを……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "その行為は推奨しません。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "！！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "現在「王女」の表層人格は内部データベースの深層部に隔離されています。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "強制的に接続を解除すると、取り返しのつかない損傷が起こるでしょう。"
+    },
+    {
+      "Name": "モモイ",
+      "Text": "アリス……！？一体何を……？"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "お姉ちゃん、これアリスじゃないよ……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "アリス……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "それは、あなた達が私たちの「王女」を呼ぶ際の名称……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "「王女」に名前は不要です。\n名前は存在の目的と本質を乱します。"
+    },
+    {
+      "Name": "ミドリ",
+      "Text": "何を言ってるの！？ねえ、あなたは誰！アリスちゃんを返して！"
+    },
+    {
+      "Text": "私の個体名は＜Key＞。"
+    },
+    {
+      "Name": "Key",
+      "Text": "王女を助ける無名の司祭たちが残した修行者であり、\n彼女が戴冠する玉座を継ぐ「鍵」＜Key＞です。"
+    },
+    {
+      "Text": "[s] \"……なに？\""
+    },
+    {
+      "Name": "Key",
+      "Text": "彼女は「王女」であり、私は「鍵」。\nそれが私たちの存在であり目的。"
+    },
+    {
+      "Name": "Key",
+      "Text": "今、我々を妨害していた攻撃が止まったことを確認しました。"
+    },
+    {
+      "Name": "Key",
+      "Text": "只今よりエラーを修正し、本来あるべき玉座に「王女」を導かせていただきます。"
+    },
+    {
+      "Name": "Key",
+      "Text": "AL-1Sに接続された利用可能リソースを確保するため、全体検索を実行。"
+    },
+    {
+      "Name": "Key",
+      "Text": "リソース領域の拡大。"
+    },
+    {
+      "Name": "Key",
+      "Text": "リソース名、要塞都市「エリドゥ」の全体リソース――1万エクサバイトのデータを確認。"
+    },
+    {
+      "Name": "Key",
+      "Text": "………現時刻をもって、プロトコルATRAHASIS稼動。"
+    },
+    {
+      "Name": "Key",
+      "Text": "コード名「アトラ・ハシースの箱舟」起動プロセスを開始します。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……！！\nアトラ・ハシース……！？"
+    },
+    {
+      "Name": "Key",
+      "Text": "プロセスサポートのため[ruby=Divi:Sion]追従者[/ruby]を呼び出します。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……エリドゥ各地で、[ruby=Divi:Sion]追従者[/ruby]の出現……？"
+    },
+    {
+      "Text": "[s] \"リオ……一体これは何が起きてるの？アリスは……。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "いえ、そんなはずが……私の計算は……でも……！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私は……キヴォトスに終焉がもたらされることを懸念して、\nこの要塞都市エリドゥを建設した。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私が動員できるミレニアムのすべての技術と力、エネルギー、\nそして資源をここに集めたというのに……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "けれど……むしろ、そのせいで……この都市が……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "終焉の発端に……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私は……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "――間違っていた？"
+    },
+    {
+      "Name": "Key",
+      "Text": "箱舟製作に必要なリソース確保23%…………。"
+    },
+    {
+      "Name": "Key",
+      "Text": "……46%…………。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "先生！このままでは……！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "このまま、エリドゥのすべてのリソースを奪われてしまったら、\nキヴォトスが終わってしまう。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "決断を下さなければ……！"
+    },
+    {
+      "Text": "[s] \"……決断？\""
+    },
+    {
+      "Name": "Key",
+      "Text": "王女は鍵を手に入れ、箱舟は用意された。"
+    },
+    {
+      "Name": "Key",
+      "Text": "無名の司祭の要請により、この地に新しい「サンクトゥム」を建立する。"
+    },
+    {
+      "Name": "Key",
+      "Text": "その到来で初めて、すべての神秘はアーカイブ化され――"
+    },
+    {
+      "Name": "リオ",
+      "Text": "このままでは、世界が滅びる……！！"
+    },
+    {
+      "Name": "リオ",
+      "Text": "みんなと一緒に逃げてちょうだい、先生。"
+    },
+    {
+      "Text": "[s] \"逃げてって、リオ……いったい何を。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "今からこの都市自体が変貌し、箱舟という新しい概念に歪曲される。\nそうしたら……このキヴォトスは……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私のせいよ……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私がこの都市を作らなかったら、最初からこんな事にならなかったのに……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私が……私のせいで……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "だから私が、止めないと……。"
+    },
+    {
+      "Name": "ユズ",
+      "Text": "ど、どういう意味ですか……？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……私一人で、システムを止めてみせるわ。"
+    },
+    {
+      "Text": "[s] \"……リオ。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "私の命一つで……世界の終焉を防ぐことができるというのなら\nそうするわ――そうしなければならない。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……早く！！これは極めて論理的な選択よ、先生！"
+    },
+    {
+      "Text": "[ns] \"トロッコ問題について……話してたよね。\""
+    },
+    {
+      "Text": "[ns7] \"トロッコ問題には二つの選択肢しかない。\""
+    },
+    {
+      "Text": "[ns8] \"君はそこで犠牲の少ない方を選ぼうとしたわけだし。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "私は……。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "私は……。"
+    },
+    {
+      "Text": "[ns] \"……それが君の優しさなんだね、リオ。\""
+    },
+    {
+      "Text": "[ns] \"でも二つの選択は、誰かが犠牲になる結果しかないのであれば……。\""
+    },
+    {
+      "Text": "[ns] \"私はその質問自体が間違っていると答えるよ。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "それは……問題の答えではないわ、先生。ただの詭弁よ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "思考実験の前提条件を否定するのは、ただの屁理屈でしかないわ。"
+    },
+    {
+      "Text": "[s] \"レバーを引く人が、見落としたものがあるんじゃないのかな？\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "……！？"
+    },
+    {
+      "Text": "[s] \"本当に周囲に手を差し伸べてくれる人がいなかったのか、とか。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "……！？"
+    },
+    {
+      "Name": "Key",
+      "Text": "……73%………………89%…………"
+    },
+    {
+      "Name": "Key",
+      "Text": "リソース確保99%……………………。"
+    },
+    {
+      "Text": "[ns] \"私は、全員で力を合わせて「全てを救う」選択肢を選びたい。\""
+    },
+    {
+      "Name": "リオ",
+      "Text": "そ、そんな選択肢はないわ……。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ノア！今よ！\n電力という電力を全部落としちゃって！"
+    },
+    {
+      "Name": "ノア",
+      "Text": "は～い、ユウカちゃん。\nその言葉を待ってました♪"
+    },
+    {
+      "Name": "ノア",
+      "Text": "えいっ！"
+    },
+    {
+      "Text": "次回;王女のためのパヴァーヌ（２）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제22화;왕녀를 위한 파반느 1"
+    },
+    {
+      "Name": "모모이",
+      "Text": "앗! 저기!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "정말…… 그 치트 캐릭터를 쓰러트릴 줄이야."
+    },
+    {
+      "Name": "모모이",
+      "Text": "굉장해! 네루 선배!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "유즈 쨩도 대단했어! 유즈 쨩의 작전 덕분이니까!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "나, 나는 트, 특별히 뭔가를 한 건 아니니까……."
+    },
+    {
+      "Name": "네루",
+      "Text": "………."
+    },
+    {
+      "Text": "[ns] \"네루……! 괜찮아?! 설마 심각한 상처라도……!\""
+    },
+    {
+      "Name": "네루",
+      "Text": "……저려."
+    },
+    {
+      "Text": "[s] \"……어?\""
+    },
+    {
+      "Name": "네루",
+      "Text": "몸이 저려서…… 꼼짝도 못 하겠어……."
+    },
+    {
+      "Name": "네루",
+      "Text": "너무 호들갑 떨지 마…… 머리가 울리니까. 어차피 좀만 쉬면 괜찮아질 거야."
+    },
+    {
+      "Name": "네루",
+      "Text": "그보다 우리 애들은?"
+    },
+    {
+      "Text": "[s1] \"모두 괜찮아. 한동안 움직이진 못하겠지만.\""
+    },
+    {
+      "Text": "[s2] \"올라가서 네루를 먼저 보살펴 달라더라.\""
+    },
+    {
+      "Name": "네루",
+      "Text": "……그래. 하. 누가 누굴 보살피란 건지."
+    },
+    {
+      "Name": "네루",
+      "Text": "……그래. 하. 누가 누굴 보살피란 건지."
+    },
+    {
+      "Name": "네루",
+      "Text": "그보다…… 어이, 꼬맹이들."
+    },
+    {
+      "Name": "모모이",
+      "Text": "으, 응?"
+    },
+    {
+      "Name": "네루",
+      "Text": "아카네나 아스나, 카린까지 전부 고생고생해서 여기까지 왔어."
+    },
+    {
+      "Name": "네루",
+      "Text": "남은 건 하나뿐이야."
+    },
+    {
+      "Name": "네루",
+      "Text": "그 녀석, 반드시 구해내라고."
+    },
+    {
+      "Name": "모모이",
+      "Text": "응!"
+    },
+    {
+      "Text": "[s] \"고마워. 네루…… 그럼 모두 가자!\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "여기야! 도착했어!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "이곳이 에리두 중앙 타워의 최상층……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "……꿀꺽."
+    },
+    {
+      "Name": "치히로",
+      "Text": "구조도에 따르면 그곳 어딘가에 아리스가 있을 거야."
+    },
+    {
+      "Name": "리오",
+      "Text": "맞아. 아리스라면 이곳에 있어."
+    },
+    {
+      "Name": "모모이",
+      "Text": "회장……!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "……!"
+    },
+    {
+      "Name": "모모이",
+      "Text": "여기까지 와서 더 싸울 셈이야?!"
+    },
+    {
+      "Name": "리오",
+      "Text": "아니, 토키가 쓰러진 시점에서 내가 가진 수단은 전부 사라졌어."
+    },
+    {
+      "Name": "리오",
+      "Text": "인정할게. 나의 패배야."
+    },
+    {
+      "Text": "[s] \"리오…….\""
+    },
+    {
+      "Name": "리오",
+      "Text": "정말로…… 당신들은 이곳까지 온 거구나."
+    },
+    {
+      "Name": "리오",
+      "Text": "장차 키보토스의 위협이 될 그 아이를 구하기 위해……"
+    },
+    {
+      "Name": "리오",
+      "Text": "가로막는 걸 전부 뛰어넘어서……."
+    },
+    {
+      "Name": "모모이",
+      "Text": "당연하지! 그러겠다고 처음부터 말했었으니까!"
+    },
+    {
+      "Name": "리오",
+      "Text": "아리스, 그 아이가 키보토스에 멸망을 불러온다고 해도 말이야?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "졌다고 심술부리는 거야?! 아리스를 그렇게 말하지 마!"
+    },
+    {
+      "Name": "리오",
+      "Text": "악의 따윈 없어. 난 단지……."
+    },
+    {
+      "Text": "[ns3] \"나로선 리오가 무엇을 이유로, 근거로 움직였는지는 몰라.\""
+    },
+    {
+      "Text": "[ns4] \"하지만 한 가지만큼은 확실하게 말할 수 있어.\""
+    },
+    {
+      "Text": "[ns5] \"리오는 다른 사람들과 의논하지 않고 혼자서 모든 것을 판단하고 결론지었어.\""
+    },
+    {
+      "Text": "[ns6] \"그리고 네가 옳다고 믿는 것을 다른 사람들에게 강요했어.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……!!"
+    },
+    {
+      "Name": "리오",
+      "Text": "……!!"
+    },
+    {
+      "Name": "리오",
+      "Text": "……선생, 당신도 내가 독선적이라고 말하는 거야……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "하지만…… 나는……!!"
+    },
+    {
+      "Name": "리오",
+      "Text": "나는……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "선생님, 방금 아리스의 위치를 확인했어."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그 방 한쪽에 에리두의 전역에서 전력이 집중되는 시설이 있을 거야."
+    },
+    {
+      "Name": "모모이",
+      "Text": "미도리! 유즈!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "응! 언니!"
+    },
+    {
+      "Text": "[ns] \"리오, 뒷이야기는 이다음에 이어서 하자.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "…………."
+    },
+    {
+      "Name": "모모이",
+      "Text": "아리스! 우리가 왔어!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아리스 쨩!"
+    },
+    {
+      "Name": "유즈",
+      "Text": "아리스 쨩……."
+    },
+    {
+      "Name": "아리스",
+      "Text": "…………."
+    },
+    {
+      "Text": "[ns] \"아리스의 상태는…….\""
+    },
+    {
+      "Name": "모모이",
+      "Text": "무, 무, 무슨 일이야?!"
+    },
+    {
+      "Name": "미도리",
+      "Text": "저, 저기 화면이……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "이건………!!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "지금…… 갑자기 ……거야?!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "통신이…… 먹ㅌ……"
+    },
+    {
+      "Name": "치히로",
+      "Text": "…ㅇ……ㄹ?!"
+    },
+    {
+      "Text": "[ns] \"치히로……!\""
+    },
+    {
+      "Name": "리오",
+      "Text": "에리두의 시스템 전체가…… 해킹………"
+    },
+    {
+      "Name": "리오",
+      "Text": "아니, 이건 단순한 해킹이 아니라……"
+    },
+    {
+      "Name": "리오",
+      "Text": "도시 전체가 <무언가>로 바뀌어 가고 있어?"
+    },
+    {
+      "Name": "모모이",
+      "Text": "이럴 때가 아니야! 케이블을 떼고 아리스를……!"
+    },
+    {
+      "Name": "???",
+      "Text": "그 행위는 추천하지 않습니다."
+    },
+    {
+      "Name": "모모이",
+      "Text": "!!"
+    },
+    {
+      "Name": "???",
+      "Text": "현재 <왕녀>의 표층 인격은 내부 데이터베이스의 심층부에 격리된 상태."
+    },
+    {
+      "Name": "???",
+      "Text": "강제로 연결을 해제하게 되면 돌이킬 수 없는 손상이 일어나겠지요."
+    },
+    {
+      "Name": "모모이",
+      "Text": "아리스……?! 케이블에 매달린 채 무슨 말을 하는 거야?"
+    },
+    {
+      "Name": "미도리",
+      "Text": "아냐, 언니, 이건 아리스가 아니라……."
+    },
+    {
+      "Name": "???",
+      "Text": "아리스……?"
+    },
+    {
+      "Name": "???",
+      "Text": "그 이름은 당신들이 우리의 <왕녀>를 부르는 이름……."
+    },
+    {
+      "Name": "???",
+      "Text": "<왕녀>에게 이름은 필요 없습니다. 이름은 존재의 목적과 본질을 어지럽힙니다."
+    },
+    {
+      "Name": "미도리",
+      "Text": "무슨 소리야?! 넌 누군데! 아리스 쨩을 돌려줘!"
+    },
+    {
+      "Text": "저의 개체명은 <Key>."
+    },
+    {
+      "Name": "Key",
+      "Text": "왕녀의 존재 의무를 돕는 무명사제들이 남긴 수행자이며, 그녀가 대관해야 할 왕좌를 잇는 [ruby=Key]<열쇠>[/ruby]입니다."
+    },
+    {
+      "Text": "[s] \"……뭐?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "그녀는 <왕녀>이며, 저는 <열쇠>. 그것이 우리의 존재이자 목적."
+    },
+    {
+      "Name": "Key",
+      "Text": "지금, 우리를 방해하던 공격이 멈춘 것을 확인했습니다."
+    },
+    {
+      "Name": "Key",
+      "Text": "지금부터 오류를 수정하고, 본디 있어야 할 왕좌로 <왕녀>를 인도하도록 하겠습니다."
+    },
+    {
+      "Name": "Key",
+      "Text": "\"AL-1S에 연결된 가용 가능 리소스 확보를 위한 전체 검색 실시.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"가용 리소스 영역 확대.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"리소스명 요새도시 <에리두>의 전체 가용 리소스 1만 엑사바이트의 데이터를 확인.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"………현 시간부로 프로토콜 ATRAHASIS 가동.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"코드명 <아트라하시스의 방주> 기동 프로세스를 개시합니다.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……!! 아트라하시스……!?"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"프로세스 서포트를 위한 [ruby=Divi:Sion]추종자[/ruby]를 호출합니다.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……에리두 각지에서 Divi:Sion의 출현, 이라고……?"
+    },
+    {
+      "Text": "[s] \"리오…… 이게…… 무슨 일이야? 아리스는…….\""
+    },
+    {
+      "Name": "리오",
+      "Text": "아냐, 그럴 리가…… 내 계산이…… 하지만……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "나는…… 키보토스에 멸망이 초래될 것을 우려해 이 요새도시 에리두를 만들었어."
+    },
+    {
+      "Name": "리오",
+      "Text": "내가 동원할 수 있는 밀레니엄의 모든 기술과 힘, 에너지, 모든 자원을 이곳에 모아둔 거야……."
+    },
+    {
+      "Name": "리오",
+      "Text": "그런데…… 오히려 그랬기 때문에…… 이 도시가……"
+    },
+    {
+      "Name": "리오",
+      "Text": "멸망의 단초가 되었다……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "나는……"
+    },
+    {
+      "Name": "리오",
+      "Text": "……틀렸던 거야?"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"방주 제작에 필요한 리소스 확보 23%……….\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"……46%……………\""
+    },
+    {
+      "Name": "리오",
+      "Text": "선생! 이대로 있다간……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "이대로 에리두의 모든 리소스를 빼앗겨버리면 전부 끝나버릴 거야."
+    },
+    {
+      "Name": "리오",
+      "Text": "여기선…… 여기선! 결단을 내려야만 해!"
+    },
+    {
+      "Text": "[s] \"……결단?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "왕녀는 열쇠를 손에 넣었고, 방주는 준비되었다."
+    },
+    {
+      "Name": "Key",
+      "Text": "무명사제들의 요청에 의해, 이 땅에 새로운 성소를 건립한다."
+    },
+    {
+      "Name": "Key",
+      "Text": "그 도래로 비로소 모든 신비는 아카이브 되어───"
+    },
+    {
+      "Name": "리오",
+      "Text": "이대로는 세계가 멸망할 거야……!!"
+    },
+    {
+      "Name": "리오",
+      "Text": "모두와 함께 도망쳐. 선생."
+    },
+    {
+      "Text": "[s] \"도망치라니, 잠깐 무슨…….\""
+    },
+    {
+      "Name": "리오",
+      "Text": "지금 이 도시 자체가 변모할 거야. 방주라는 새로운 개념으로 왜곡될 거야. 그러면…… 이 키보토스는……."
+    },
+    {
+      "Name": "리오",
+      "Text": "내 탓이야……."
+    },
+    {
+      "Name": "리오",
+      "Text": "내가 이 도시를 만들지 않았으면 애초에 생기지 않았을 일이……."
+    },
+    {
+      "Name": "리오",
+      "Text": "내가…… 나 때문에……."
+    },
+    {
+      "Name": "리오",
+      "Text": "그러니 내가 막지 않으면 안 돼……."
+    },
+    {
+      "Name": "유즈",
+      "Text": "무, 무슨 의미인가요……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……나 혼자서라도 시스템을 폭주시켜 막겠어."
+    },
+    {
+      "Text": "[s] \"……리오.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "내 목숨 하나로…… 세계 멸망을 막을 수 있다면 그렇게 하겠어── 당연히 그렇게 해야만 해……!"
+    },
+    {
+      "Name": "리오",
+      "Text": "……어서!! 이건 지극히 논리적인 선택이야! 선생!"
+    },
+    {
+      "Text": "[ns] \"트롤리 딜레마……라고 했었지.\""
+    },
+    {
+      "Text": "[ns7] \"트롤리 딜레마에는 두 개의 선택지밖에 없어.\""
+    },
+    {
+      "Text": "[ns8] \"넌 거기서 희생이 적은 쪽을 택하려 한 거고.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "나는……."
+    },
+    {
+      "Name": "리오",
+      "Text": "나는……."
+    },
+    {
+      "Text": "[ns] \"아마도 그게 너의 상냥함이겠지. 리오.\""
+    },
+    {
+      "Text": "[ns] \"하지만 두 선택 모두 누군가가 희생되는 결과밖에 없다면…….\""
+    },
+    {
+      "Text": "[ns] \"나는 그 질문 자체가 잘못되었다고 답하겠어.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "그건…… 문제의 대답이 아냐. 선생. 그냥 궤변이지."
+    },
+    {
+      "Name": "리오",
+      "Text": "사고 실험의 전제 조건들을 부정해버리는 건 단순한 억지……."
+    },
+    {
+      "Text": "[s] \"레버를 당겨야만 하는 사람이 거기서 놓친 게 있지 않았을까?\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……!?"
+    },
+    {
+      "Text": "[s] \"주변에 도움을 요청할 수 있는 다른 사람이 없는지, 미처 확인해보지 못했다. 든가.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "……?!"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"……73%…………… 89%………\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"리소스 확보 99……………………\""
+    },
+    {
+      "Text": "[ns] \"난 모두가 힘을 합쳐 <모두를 구하는 선택지>를 택하고 싶어.\""
+    },
+    {
+      "Name": "리오",
+      "Text": "그, 그런 선택지는 없……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "노아! 바로 지금이야! 전력이란 전력은 전부 끊어버려!"
+    },
+    {
+      "Name": "노아",
+      "Text": "네에~ 유우카 쨩~ 그 말만 기다리고 있었다구요?"
+    },
+    {
+      "Name": "노아",
+      "Text": "에잇!"
+    },
+    {
+      "Text": "다음화;왕녀를 위한 파반느 2"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 22; Pavane for a Princess 1"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Oh! Over there!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I can't believe you really beat that cheater."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You're amazing, Neru!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Yuzu was incredible too! It was all thanks to her strategy!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "I-I didn't do anything special..."
+    },
+    {
+      "Name": "Neru",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"Neru...! Are you okay? Where are you hurt?!\""
+    },
+    {
+      "Name": "Neru",
+      "Text": "...I feel numb."
+    },
+    {
+      "Text": "[s] \"Neru?!\""
+    },
+    {
+      "Name": "Neru",
+      "Text": "I feel numb... I can't move..."
+    },
+    {
+      "Name": "Neru",
+      "Text": "But don't make a fuss about it... My head hurts... I'll be fine if I rest."
+    },
+    {
+      "Name": "Neru",
+      "Text": "What about the kids?"
+    },
+    {
+      "Text": "[s1] \"They're injured, but they were more worried about you.\" "
+    },
+    {
+      "Text": "[s2] \"They asked me to take care of you.\""
+    },
+    {
+      "Name": "Neru",
+      "Text": "...Yeah? Ha. They should take care of themselves first."
+    },
+    {
+      "Name": "Neru",
+      "Text": "...Yeah? Ha. They should take care of themselves first."
+    },
+    {
+      "Name": "Neru",
+      "Text": "By the way... You youngsters."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Y-Yes?"
+    },
+    {
+      "Name": "Neru",
+      "Text": "Akane, Asuna, and Karin gave their all to get us here."
+    },
+    {
+      "Name": "Neru",
+      "Text": "So, you have one thing left to do."
+    },
+    {
+      "Name": "Neru",
+      "Text": "Make sure to save her."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Yes!"
+    },
+    {
+      "Text": "[s] \"Thanks, Neru... Let's go, everyone!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Here! We're here!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "This is the top floor of Eridu's central tower..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "*gulp*"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "According to the structure's diagram, Aris has to be somewhere there."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Yes. Aris is here."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "President...!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "...!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Are you back for another round?!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Now that Toki is out of commission, I have no means."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I accept my loss."
+    },
+    {
+      "Text": "[s] \"Rio...\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "You all...really came here..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You came all this way just to save a robot who's a threat to Kivotos' future..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You overcame all the obstacles in your way..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Of course! That's what we said we'd do!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Even if Aris will bring destruction to Kivotos?"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "You're just being a sore loser! You can't talk about Aris like that!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I never had any malicious intent. I just..."
+    },
+    {
+      "Text": "[ns3] \"I don't know what logic you thought justified your actions, but...\""
+    },
+    {
+      "Text": "[ns4] \"...I can at least say this with confidence.\""
+    },
+    {
+      "Text": "[ns5] \"You judged and concluded everything by yourself without consulting others.\""
+    },
+    {
+      "Text": "[ns6] \"You tried to force what you believed was right on us.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Sensei, are you calling me self-righteous...?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "But...I...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Sensei, I've confirmed Aris' location."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "On the other side of the room, there will be a facility where power from all over Eridu is concentrated."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Midori! Yuzu!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Let's go!"
+    },
+    {
+      "Text": "[ns] \"Rio. We'll talk after everything is over.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "..."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Aris! We're here!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Aris!"
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Aris..."
+    },
+    {
+      "Name": "Aris",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"Is Aris okay?!\""
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Wh-Wh-What's going on?!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "Th-The screen over there...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "This is...!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Now...suddenly...wh...?!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The communicat...is..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "break...dow...?!"
+    },
+    {
+      "Text": "[s] \"Chihiro...!\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Eridu's entire system...has been hacked..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "This is no simple hacking, either..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The entire city is morphing?!"
+    },
+    {
+      "Name": "Momoi",
+      "Text": "We have to do something! Remove the cables and get Aris...!"
+    },
+    {
+      "Name": "???",
+      "Text": "I wouldn't recommend that."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "...!"
+    },
+    {
+      "Name": "???",
+      "Text": "Currently, the princess' superficial personality is isolated in the depths of an internal database."
+    },
+    {
+      "Name": "???",
+      "Text": "Forcibly disconnecting it will cause irreversible damage."
+    },
+    {
+      "Name": "Momoi",
+      "Text": "Aris...?! What are you talking about? You're literally hanging off cables! Let us get you off!"
+    },
+    {
+      "Name": "Midori",
+      "Text": "No, Momoi, that is not Aris..."
+    },
+    {
+      "Name": "???",
+      "Text": "Aris...?"
+    },
+    {
+      "Name": "???",
+      "Text": "Yes. That is the name by which you call our princess."
+    },
+    {
+      "Name": "???",
+      "Text": "But the princess does not need a name. It disturbs her purpose and the nature of her existence."
+    },
+    {
+      "Name": "Midori",
+      "Text": "What are you talking about?! Who are you? Give Aris back!"
+    },
+    {
+      "Text": "My object name is Key."
+    },
+    {
+      "Name": "Key",
+      "Text": "I am a trainee, left behind by the nameless priests who assisted the princess with her duties. I am the key that connects her to the throne she must inherit."
+    },
+    {
+      "Text": "[s] \"...What?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "She is the princess, and my role is that of the key. That is the reason and purpose for our existence."
+    },
+    {
+      "Name": "Key",
+      "Text": "I have confirmed the attack disrupting her processing has ceased."
+    },
+    {
+      "Name": "Key",
+      "Text": "I will now correct the errors and guide the princess to the throne, where she belongs."
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Perform a full search to obtain available resources connected to AL-1S.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Expanding the area of available resources.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Confirmed resource name: Fortress City of Eridu. Available data resources: 10,000 exabytes.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"...Starting now, protocol ATRAHASIS will be activated.\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Initiating the activation process of codename Ark of Atrahasis.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "...! Atrahasis...?!"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Calling followers for process support.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Divi:Sion is appearing all throughout Eridu...?"
+    },
+    {
+      "Text": "[s] \"Rio... What's going on? Aris is...\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "It's impossible! My calculations couldn't have been incorrect."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I created the Fortress City of Eridu because I was worried about the destruction of Kivotos."
+    },
+    {
+      "Name": "Rio",
+      "Text": "All the skill, power, energy, and resources of Millennium that I could mobilize are gathered here..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "But instead...this city..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "This city will be the origin of destruction?!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Was I wrong...?"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Secured 23% of the resources needed to build the Ark...\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"...46%...\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Sensei! At this rate...!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "If it manages to secure all of Eridu's resources, everything will be over."
+    },
+    {
+      "Name": "Rio",
+      "Text": "We...We have to make a decision!"
+    },
+    {
+      "Text": "[s] \"A decision?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "The princess obtained the key, and the Ark is ready."
+    },
+    {
+      "Name": "Key",
+      "Text": "At the request of the nameless priests, a new sanctuary will be built on this land."
+    },
+    {
+      "Name": "Key",
+      "Text": "With its arrival, all mysteries will be archived for the first time..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The world will end if we don't stop this, now."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Run away with everyone, Sensei."
+    },
+    {
+      "Text": "[s] \"Run away? What do you mean...?\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "The city itself will warp, distorting into a new concept called the Ark. Then, Kivotos will..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "This is my fault..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "If I hadn't fallen victim to my hubris... If I hadn't created this city..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I...I did this..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "So I have to stop it..."
+    },
+    {
+      "Name": "Yuzu",
+      "Text": "Wh-What do you mean by that?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "I'm going to send the system into overdrive to stop it."
+    },
+    {
+      "Text": "[s] \"...Rio.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "My life means nothing in the face of the world's survival! I must!"
+    },
+    {
+      "Name": "Rio",
+      "Text": "...Hurry! This is the only logical choice, Sensei!"
+    },
+    {
+      "Text": "[ns] \"This is...the trolley problem.\""
+    },
+    {
+      "Text": "[ns7] \"There are only two options in the trolley problem.\""
+    },
+    {
+      "Text": "[ns8] \"You're trying to choose the one with the least amount of sacrifices.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "I..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "I..."
+    },
+    {
+      "Text": "[ns] \"That's the kindness in you, Rio.\""
+    },
+    {
+      "Text": "[ns] \"But if both choices end in someone's sacrifice...\""
+    },
+    {
+      "Text": "[ns] \"I'd say the question itself is flawed.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "That's not an answer, Sensei. That's just sophistry."
+    },
+    {
+      "Name": "Rio",
+      "Text": "You're denying the prerequisites of the thought experiment..."
+    },
+    {
+      "Text": "[s] \"What if the person who has to pull the lever is missing something?\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "...?!"
+    },
+    {
+      "Text": "[s] \"Like...checking to see if there's anyone around who can help.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"...73% ...89%...\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"Secured resources at 99%...\""
+    },
+    {
+      "Text": "[ns] \"I'm choosing the option that saves everyone.\""
+    },
+    {
+      "Name": "Rio",
+      "Text": "Th-There is no such option..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Noa! Right now! Cut off all power!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Finally, Yuuka! I've been waiting for this moment!"
+    },
+    {
+      "Name": "Noa",
+      "Text": "Hiyah!"
+    },
+    {
+      "Text": "Next Episode; Pavane for a Princess 2"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 22;ลำนำแด่ธิดาแห่งทวยเทพ 1"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อ๊ะ! ทางโน้น!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ปราบตัวละคร... ที่ใช้สูตรโกงได้จริงๆ ด้วย"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "แจ๋วเป็นบ้าเลย! รุ่นพี่เนรุ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "แผนการของยูสึจังได้ผล! สุดยอดไปเลยยูสึจัง!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "ฉะ... ฉันไม่ได้... ทำอะไรเป็นพิเศษหรอก..."
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "......"
+    },
+    {
+      "Text": "[ns] \"เนรุ...! เป็นยังไงบ้าง?! หรือว่าได้บาดแผลรุนแรงมาอีก...!\""
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "ชา..."
+    },
+    {
+      "Text": "[s] \"...หืม?\""
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "ตัวฉันชาไปหมด... แทบจะขยับไม่ได้เลย..."
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "อย่าโวยวายให้มันเวอร์นักเลยน่า... หัวฉันสะเทือนหมด ได้พักสักหน่อยเดี๋ยวก็ดีขึ้นเอง"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "แล้วคนอื่นล่ะ เป็นยังไงกันบ้าง?"
+    },
+    {
+      "Text": "[s1] \"ทุกคนก็ชาจนขยับตัวไม่ได้ แต่ก็อยากมาดูแลเนรุอยู่นะ\""
+    },
+    {
+      "Text": "[s2] \"ทุกคนขอให้ครูขึ้นมาดูแลเนรุก่อนน่ะ\""
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "อืม... เฮอะ! ใครต้องไปดูแลใครกันแน่"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "อืม... เฮอะ! ใครต้องไปดูแลใครกันแน่"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "ช่างเถอะ... นี่ พวกเด็กน้อย"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "หะ... หืม?"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "กว่าจะมาถึงตรงนี้ได้ อาคาเนะ อาสึนะและก็คารินน่ะ ทุกคนเหนื่อยกันมามากแล้วนะ"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "ตอนนี้ก็เหลือแค่อย่างเดียวเท่านั้นแล้ว"
+    },
+    {
+      "Name": "เนรุ",
+      "Text": "ไปช่วยเด็กคนนั้นมาให้ได้ล่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อื้ม!"
+    },
+    {
+      "Text": "[s] \"ขอบใจนะเนรุ... เอาละทุกคน ไปกันเลย!\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "เรามาถึงกันแล้ว! ที่นี่แหละ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ที่นี่สินะ ชั้นบนสุดของหอคอยกลางแห่งเอริดู..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "(กลืนน้ำลาย)"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ดูจากแผนผังโครงสร้างแล้ว อาริสึน่าจะอยู่ที่ไหนสักแห่งในนี้"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ใช่ อาริสึต้องอยู่ที่นี่"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ประธาน...!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "......!"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "จะมาสู้ต่อถึงที่นี่เลยเหรอ?!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ไม่ละ พอโทคิสู้ต่อไปไม่ไหว ฉันก็ไม่เหลือวิธีอะไรแล้ว"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันขอยอมรับความพ่ายแพ้ของตัวเอง"
+    },
+    {
+      "Text": "[s] \"ริโอะ...\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เพื่อช่วยเด็กคนหนึ่งที่จะเป็นภัยคุกคามของในอนาคตของคิโวทอสแล้ว"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "พวกคุณยินดีก้าวข้ามอุปสรรคทุกอย่าง..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แล้วมาถึงที่นี่กันได้จริงๆ ด้วย..."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "ก็แหงสิ! ก็บอกไว้ตั้งแต่แรกแล้วนี่นาว่าจะทำให้สำเร็จ!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถึงแม้ว่าอาริสึจะนำพาหายนะมาสู่คิโวทอส ก็ยังจะปกป้องอยู่อีกงั้นเหรอ?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "พอแพ้ก็เลยดื้อรั้นขึ้นมาเหรอไง?! อย่าพูดถึงอาริสึแบบนั้นนะ!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันไม่ได้มีเจตนาร้ายอะไร ฉันก็แค่..."
+    },
+    {
+      "Text": "[ns3] \"ครูไม่รู้หรอกนะว่าริโอะทำไปด้วยเหตุผลอะไร\""
+    },
+    {
+      "Text": "[ns4] \"แต่ครูบอกอย่างหนึ่งได้ชัดเจน\""
+    },
+    {
+      "Text": "[ns5] \"ริโอะไม่ปรึกษาคนอื่นแล้วตัดสินและสรุปทุกอย่างด้วยตัวเอง\""
+    },
+    {
+      "Text": "[ns6] \"แล้วก็ไปบังคับคนอื่นในสิ่งที่ตัวเองเชื่อว่าถูกต้อง\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "...ครู นี่คุณจะบอกว่าฉันไม่ยอมรับฟังความเห็นของคนอื่นและถือว่าตัวเองเป็นฝ่ายถูกงั้นเหรอ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่ว่า... ฉันน่ะ...!!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉัน..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "คุณครู ฉันเพิ่งเช็กตำแหน่งของอาริสึมาได้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ที่ที่อาริสึอยู่น่าจะเป็นจุดที่รวมกำลังของทั้งเมืองเอริดูไว้"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "มิโดริ! ยูสึ!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อื้ม! พี่โมโมอิ!"
+    },
+    {
+      "Text": "[ns] \"ริโอะ ไว้เราค่อยมาคุยเรื่องนี้ทีหลังก็แล้วกัน\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "........."
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อาริสึ! พวกเรามาแล้ว!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "อาริสึจัง!"
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "อาริสึจัง..."
+    },
+    {
+      "Name": "อาริสึ",
+      "Text": "........."
+    },
+    {
+      "Text": "[ns] \"ทำไมสภาพอาริสึ...\""
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "นะ... นะ... นี่มันอะไรกัน?!"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "นะ... หน้าจอทางโน้นมัน..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "นี่มัน...!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "จู่ๆ... ก็... เป็นอะไรน่ะ?!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "การติดต่อ... ไม่..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "....(ซ่า)...."
+    },
+    {
+      "Text": "[ns] \"จิฮิโระ...!\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ระบบทั้งหมดของเอริดู... โดนแฮ็ก..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ไม่สิ นี่ไม่ใช่แค่การแฮ็กทั่วๆ ไป..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ทุกอย่างในเมืองกำลังเปลี่ยนไปด้วย <อะไรบางอย่าง>?"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "นี่ไม่ใช่เวลาจะมาโอ้เอ้นะ! รีบตัดสายเคเบิลแล้วช่วยอาริสึ...!"
+    },
+    {
+      "Name": "???",
+      "Text": "ฉันไม่แนะนำให้ทำแบบนั้นนะคะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "!!"
+    },
+    {
+      "Name": "???",
+      "Text": "ตอนนี้บุคลิกของ <ธิดา> ได้ถูกแยกออกจากส่วนลึกของฐานข้อมูลภายใน"
+    },
+    {
+      "Name": "???",
+      "Text": "หากบังคับให้ปิดการเชื่อมต่อ จะเกิดความเสียหายที่ไม่สามารถแก้ไขได้ค่ะ"
+    },
+    {
+      "Name": "โมโมอิ",
+      "Text": "อาริสึ...?! ห้อยอยู่กับสายเคเบิลแล้วพูดอะไรออกมาน่ะ?"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "ไม่ใช่หรอกพี่... นั่นไม่ใช่อาริสึ..."
+    },
+    {
+      "Name": "???",
+      "Text": "อาริสึ...?"
+    },
+    {
+      "Name": "???",
+      "Text": "ชื่อ <ธิดา> ของเราที่พวกคุณใช้เรียกกัน..."
+    },
+    {
+      "Name": "???",
+      "Text": "<ธิดา> ไม่จำเป็นต้องมีชื่อหรอกค่ะ ชื่อคือสิ่งที่รบกวนเนื้อแท้และวัตถุประสงค์ของการดำรงอยู่ค่ะ"
+    },
+    {
+      "Name": "มิโดริ",
+      "Text": "พูดอะไรน่ะ?! แล้วเธอเป็นใคร! เอาอาริสึจังคืนมานะ!"
+    },
+    {
+      "Text": "ชื่อจำเพาะของฉันคือ <Key>"
+    },
+    {
+      "Name": "Key",
+      "Text": "ฉันเป็นนักบวชนิรนามที่ช่วยให้ธิดามีตัวตนอยู่ได้ และเป็น [ruby=Key]<กุญแจ>[/ruby] ที่สืบทอดบัลลังก์ที่เธอคนนั้นต้อง\nครอบครองค่ะ"
+    },
+    {
+      "Text": "[s] \"ว่าไงนะ...?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "เธอคนนั้นคือ <ธิดา> ส่วนฉันคือ <กุญแจ> นี่คือตัวตนและเป้าหมายของพวกเรา"
+    },
+    {
+      "Name": "Key",
+      "Text": "ตอนนี้การโจมตีที่ขวางกั้นพวกเราหยุดลงแล้วค่ะ"
+    },
+    {
+      "Name": "Key",
+      "Text": "จากนี้ฉันจะแก้ไขข้อผิดพลาด และจะนำ <ธิดา> กลับสู่บัลลังก์ที่เธอควรอยู่ค่ะ"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"ทำการค้นหาทรัพยากรที่ใช้เชื่อมต่อกับ AL-1S อย่างเต็มรูปแบบ\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"ขยายขอบเขตทรัพยากร\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"พบข้อมูลทั้งหมด 10,000 EB ในข้อมูลที่ชื่อ <เมืองแห่งปราการเอริดู>\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"ใช้งานโปรโตคอล ATRAHASIS ตั้งแต่บัดนี้\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"เริ่มกระบวนการเคลื่อนย้ายโค้ดเนม <เรืออะทราฮาซิส>\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......!! อะทราฮาซิส...!?"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"เรียก[ruby=Divi:Sion]สาวก[/ruby]เพื่อสนับสนุนกระบวนการ\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "Divi:Sion จะปรากฏตัวทั่วเอริดู... งั้นเหรอ?"
+    },
+    {
+      "Text": "[s] \"ริโอะ... นี่มัน... เรื่องอะไรกัน? แล้วอาริสึ...\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ไม่... เป็นไปไม่ได้... แต่ว่าจากการคำนวณของฉันน่ะ...!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉัน... ฉันสร้างเมืองแห่งปราการเอริดูขึ้นมาเพราะกลัวว่าคิโวทอสจะพังพินาศ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "และฉันก็ระดมเทคโนโลยี พลังงาน และทรัพยากรทุกอย่างในมิลเลเนียมมาไว้ที่นี่..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "แต่ว่า... การทำแบบนั้น... มันทำให้เมืองนี้..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "กลายเป็นจุดเริ่มต้นของความพินาศ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "นี่ฉัน..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "...เป็นฝ่ายผิดงั้นเหรอ?"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"ระดมทรัพยากรที่จำเป็นในการสร้างเรือ... 23%...\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"......46%............\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ครู! ถ้าหากมันเป็นแบบนี้ละก็...!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าหากมันเป็นแบบนี้ ทรัพยากรทั้งหมดของเอริดูจะถูกแย่งไป แล้วทุกอย่างก็จะจบลง"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เราต้อง... ตัดสินใจกันแล้ว! เดี๋ยวนี้เลย!"
+    },
+    {
+      "Text": "[s] \"...ตัดสินใจ?\""
+    },
+    {
+      "Name": "Key",
+      "Text": "ธิดาได้กุญแจไว้ในมือ และเตรียมเรือเรียบร้อยแล้ว"
+    },
+    {
+      "Name": "Key",
+      "Text": "สร้างสถานศักดิ์สิทธิ์แห่งใหม่ ณ ที่นี้ตามคำร้องขอของนักบวชนิรนาม"
+    },
+    {
+      "Name": "Key",
+      "Text": "และเมื่อเวลานั้นมาถึง ความลึกลับทั้งหมดจะกลายเป็นบันทึกสำคัญ───"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ขืนปล่อยไว้แบบนี้ โลกจะถึงจุดจบนะ...!!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "หนีไปกับคนอื่นเถอะครู"
+    },
+    {
+      "Text": "[s] \"ให้หนีงั้นเหรอ เดี๋ยวสิ นี่มันอะไรกัน...\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "จากนี้ตัวเมืองจะเปลี่ยนไป มันจะถูกบิดเบือนด้วยมโนทัศน์ใหม่ และถ้าเป็นแบบนั้น... คิโวทอสแห่งนี้ก็จะ ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "นี่เป็นความผิดของฉันเอง..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าฉันไม่สร้างเมืองนี้ขึ้นมา ก็คงไม่เกิดเรื่องแบบนี้ตั้งแต่แรก..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉัน... เป็นเพราะฉัน..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เพราะงั้นฉันต้องไปขวางไว้..."
+    },
+    {
+      "Name": "ยูสึ",
+      "Text": "มะ... หมายความว่ายังไงเหรอคะ...?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันจะปิดระบบทั้งหมดด้วยตัวฉันเอง"
+    },
+    {
+      "Text": "[s] \"......ริโอะ\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ถ้าชีวิตของฉันสามารถหยุดยั้งการล่มสลายของโลกได้ ฉันก็จะทำ... ฉันต้องทำ!"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เร็วเข้า...!!  นี่เป็นทางเลือกที่สมเหตุสมผลแล้ว! ครู!"
+    },
+    {
+      "Text": "[ns] \"จำตอนที่พูดถึง... ปัญหารถรางได้ไหม?\""
+    },
+    {
+      "Text": "[ns7] \"ปัญหารถรางมีทางเลือกเพียง 2 ทางเท่านั้น\""
+    },
+    {
+      "Text": "[ns8] \"แล้วเธอก็เลือกที่จะเป็นฝ่ายเสียสละ\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันน่ะ..."
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฉันน่ะ..."
+    },
+    {
+      "Text": "[ns] \"นั่นคงเป็นด้านอ่อนโยนของเธอสินะ ริโอะ\""
+    },
+    {
+      "Text": "[ns] \"แต่ถ้าต้องมีใครสักคนเสียสละในทั้งสองทางเลือก...\""
+    },
+    {
+      "Text": "[ns] \"ครูก็จะเลือกตอบว่าคำถามนั้นมันผิดพลาดตั้งแต่แรกแล้ว\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "นั่นมัน... ไม่ใช่คำตอบของคำถามนะ มันก็แค่การใช้วาทศิลป์ให้จุดยืนของตัวเองดูมีตรรกะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "การปฏิเสธเงื่อนไขของการทดลองทางความคิด เป็นเพียงแค่ความดื้อดึง..."
+    },
+    {
+      "Text": "[s] \"คนที่ต้องดึงคันโยกอาจจะพลาดอะไรบางอย่างในที่นั้นไปก็ได้นะ?\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......!?"
+    },
+    {
+      "Text": "[s] \"เช่นลืมดูว่าตัวเองจะขอความช่วยเหลือจากคนอื่นที่อยู่รอบๆ ได้หรือเปล่า\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......?!"
+    },
+    {
+      "Name": "Key",
+      "Text": "\"......73%............... 89%.........\""
+    },
+    {
+      "Name": "Key",
+      "Text": "\"ระดมทรัพยากร 99%................\""
+    },
+    {
+      "Text": "[ns] \"ครูจะเลือก <ช่วยทุกคน> ด้วยการร่วมมือจากทุกคน\""
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มะ... มันไม่มีทางเลือกแบบนั้นหรอก..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "โนอา! ตอนนี้แหละ! ตัดพลังงานให้หมดเลย!"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ได้เลยค่า~ ยูกะจัง~ นี่แหละค่ะคำที่ฉันรอฟัง~"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "นี่แน่ะ!"
+    },
+    {
+      "Text": "ตอนต่อไป;ลำนำแด่ธิดาแห่งทวยเทพ 2"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第22話;為王女準備的帕凡舞（１）"
+    },
+    {
+      "Name": "桃井",
+      "Text": "啊！在那裡！快看！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……居然真的打倒了。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "寧瑠前輩好厲害！"
+    },
+    {
+      "Name": "綠",
+      "Text": "柚子醬也好厲害！\n這都是多虧柚子醬的作戰啊！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "我，我……也，也沒有做什麼，特別的事……"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「寧瑠……！還好嗎！？」"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "……好麻。"
+    },
+    {
+      "Text": "[s]「……咦？」"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "身體好麻……動不了了……"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "可惡，安靜一點……腦袋嗡嗡作響……\n……我沒事，稍微休息一下就好了。"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "話說，我們社團的其他人呢？"
+    },
+    {
+      "Text": "[s1]「大家都沒事唷。雖然可能暫時無法動彈了。」"
+    },
+    {
+      "Text": "[s2]「但他們要我先上來照顧寧瑠唷。」"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "……這樣啊。\n唉，是誰要照顧誰啊。"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "……這樣啊。\n唉，是誰要照顧誰啊。"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "……喂，小不點們。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯，嗯？"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "朱音、明日奈還有花凛……我們已經幫到這裡了。"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "現在就只剩下一件事了吧。"
+    },
+    {
+      "Name": "寧瑠",
+      "Text": "絕對，要把那傢伙帶回來哦。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "嗯！"
+    },
+    {
+      "Text": "[s]「謝謝妳，寧瑠……大家，走吧！」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "到了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "這裡就是埃里都中央塔的頂層……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "（……吞口水）"
+    },
+    {
+      "Name": "千尋",
+      "Text": "從地圖上來看，愛麗絲應該就在這裡的某處。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒錯，愛麗絲就在這裡。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "會長……！"
+    },
+    {
+      "Name": "綠",
+      "Text": "……！"
+    },
+    {
+      "Name": "桃井",
+      "Text": "還想戰鬥嗎！？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "不，在季被擊倒的時間點，我所擁有的手段就已經全部消失了。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我承認……是我輸了。"
+    },
+    {
+      "Text": "[s]「莉央……」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "妳們……居然真的來到了這裡。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "為了拯救不遠的未來，確定會成為奇普托斯威脅的那孩子……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "越過了所有的阻礙……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "那是當然的！我們一開始就是這麼決定的！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "即使，愛麗絲會[ruby=  ．    ．    ．    ．    ．    ．    ．    ．    ．  ]招來奇普托斯的終焉[/ruby]也一樣嗎？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "突然說什麼？不要那樣說愛麗絲！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我，只是……"
+    },
+    {
+      "Text": "[ns3]「我不知道莉央是根據什麼採取行動。」"
+    },
+    {
+      "Text": "[ns4]「但是，有一件事我可以很明確地告訴妳。」"
+    },
+    {
+      "Text": "[ns5]「莉央妳，不和任何人討論，獨自判斷一切並下了結論。」"
+    },
+    {
+      "Text": "[ns6]「然後，強迫他人接受妳相信是正確的事。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "老師……你也要說我的行為只是自以為是嗎……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "但是……我……！！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "老師，我知道愛麗絲的位置了。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "那個房間的角落，應該有個集中了電力的設施。愛麗絲就在那裡。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "綠！柚子！"
+    },
+    {
+      "Name": "綠",
+      "Text": "嗯！姐姐！"
+    },
+    {
+      "Text": "[ns]「莉央，剩下的事之後再說吧。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……"
+    },
+    {
+      "Name": "桃井",
+      "Text": "愛麗絲！讓妳久等了！"
+    },
+    {
+      "Name": "綠",
+      "Text": "愛麗絲醬！"
+    },
+    {
+      "Name": "柚子",
+      "Text": "愛麗絲醬……"
+    },
+    {
+      "Name": "愛麗絲",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「愛麗絲……？」"
+    },
+    {
+      "Name": "桃井",
+      "Text": "發，發生什麼事了！？"
+    },
+    {
+      "Name": "綠",
+      "Text": "那，那裡的螢幕上……！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "這是……！！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "剛才……突然……有……什……！？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "通訊……被……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……大……回答……！？"
+    },
+    {
+      "Text": "[ns]「千尋……！」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "埃里都的所有系統被……駭入……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "不，這不是單純的駭入……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "整個都市都在變成「某種東西」？"
+    },
+    {
+      "Name": "桃井",
+      "Text": "現在不是說那些的時候！得趕快拔掉纜線將愛麗絲……！"
+    },
+    {
+      "Name": "???",
+      "Text": "不推薦那個行為。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "！！"
+    },
+    {
+      "Name": "???",
+      "Text": "現在「王女」的表層人格被隔離在內部資料庫的深處。"
+    },
+    {
+      "Name": "???",
+      "Text": "若是強制解除連結，將會造成無法挽回的損傷吧。"
+    },
+    {
+      "Name": "桃井",
+      "Text": "愛麗絲……！？妳在說什麼……？"
+    },
+    {
+      "Name": "綠",
+      "Text": "姐姐，這不是愛麗絲……"
+    },
+    {
+      "Name": "???",
+      "Text": "愛麗絲……？"
+    },
+    {
+      "Name": "???",
+      "Text": "那是，你們用來稱呼我們「王女」的名字……"
+    },
+    {
+      "Name": "???",
+      "Text": "「王女」不需要名字。\n名字會混亂存在的目的和本質。"
+    },
+    {
+      "Name": "綠",
+      "Text": "你在說什麼啊！？吶，你是誰！把愛麗絲醬還來！"
+    },
+    {
+      "Text": "我的個體名稱是＜Key＞。"
+    },
+    {
+      "Name": "Key",
+      "Text": "是幫助王女的無名祭司們留下的修行者，\n也是她繼承王座的[ruby=Key]「鑰匙」[/ruby]。"
+    },
+    {
+      "Text": "[s]「……什麼？」"
+    },
+    {
+      "Name": "Key",
+      "Text": "她是「王女」，我是「鑰匙」。\n那就是我們的存在和目的。"
+    },
+    {
+      "Name": "Key",
+      "Text": "現在，妨礙著我們的攻擊已確認停止。"
+    },
+    {
+      "Name": "Key",
+      "Text": "現在起將修正錯誤，引導「王女」回到她該待的王座。"
+    },
+    {
+      "Name": "Key",
+      "Text": "為了確保連結至AL-1S的可用資源，將執行全面搜索。"
+    },
+    {
+      "Name": "Key",
+      "Text": "擴大資源領域。"
+    },
+    {
+      "Name": "Key",
+      "Text": "資源名稱．要塞都市「埃里都」的全體可用資源──確認為1萬艾位元組。"
+    },
+    {
+      "Name": "Key",
+      "Text": "……從這個時刻開始，啟動ATRAHASIS協議。"
+    },
+    {
+      "Name": "Key",
+      "Text": "開始代號名稱「阿特拉哈西斯的方舟」啟動程序。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！！阿特拉哈西斯……！？"
+    },
+    {
+      "Name": "Key",
+      "Text": "為了輔助程序，將呼喚[ruby=Divi:Sion]追隨者[/ruby]。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……埃里都各地出現了[ruby=Divi:Sion]追隨者[/ruby]……？"
+    },
+    {
+      "Text": "[s]「莉央……這是怎麼回事？愛麗絲她……」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "不，這不可能……我的計算……但是……！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我……只是擔心奇普托斯會迎向終焉，\n所以建造了這個要塞都市埃里都。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "明明將我能夠動員的千年的所有技術、力量、能源和所有資源都集中到了這裡……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "但是……反而因此……讓這座都市……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "成為了終焉的開端……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "──做錯了嗎？"
+    },
+    {
+      "Name": "Key",
+      "Text": "製作方舟所需的資源已確保23%…………"
+    },
+    {
+      "Name": "Key",
+      "Text": "……46%…………"
+    },
+    {
+      "Name": "莉央",
+      "Text": "老師！這樣下去的話……！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "埃里都的所有資源都被搶走的話，\n奇普托斯會滅亡的。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "得做出決定才行……！"
+    },
+    {
+      "Text": "[s]「……決定？」"
+    },
+    {
+      "Name": "Key",
+      "Text": "王女已獲得了鑰匙，方舟也準備就緒。"
+    },
+    {
+      "Name": "Key",
+      "Text": "按照無名祭司的要求，在此地建立新的「聖所」。"
+    },
+    {
+      "Name": "Key",
+      "Text": "以它的到來為起點，所有的神祕將檔案化──"
+    },
+    {
+      "Name": "莉央",
+      "Text": "這樣下去世界會滅亡的……！！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "跟大家一起逃吧，老師。"
+    },
+    {
+      "Text": "[s]「妳說逃跑，莉央……到底發生什麼了。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "現在這個都市本身將改變外貌。被扭曲為方舟這個新的概念。\n那樣的話……這奇普托斯……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是我的錯……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "要是我沒有造出這個都市，從一開始就不會變成這樣了……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "是我……是我的錯……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "所以必須，由我來阻止才行……"
+    },
+    {
+      "Name": "柚子",
+      "Text": "那，那是什麼意思……？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……就算只靠我一個人，也會阻止系統給你看的。"
+    },
+    {
+      "Text": "[s]「……莉央。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "如果我的一條命……能夠阻止世界滅亡的話，我會這麼做的──必須要這麼做！"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……快點！！這是極為合理的選擇啊，老師！"
+    },
+    {
+      "Text": "[ns]「妳說過……電車難題吧。」"
+    },
+    {
+      "Text": "[ns7]「在電車難題中只有兩個選項。」"
+    },
+    {
+      "Text": "[ns8]「而妳會選擇犧牲較少的選項。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "我……"
+    },
+    {
+      "Text": "[ns]「……我想那就是妳的善良吧，莉央。」"
+    },
+    {
+      "Text": "[ns]「但是如果兩個選擇，都必須有人犧牲的話……」"
+    },
+    {
+      "Text": "[ns]「我會回答那個問題本身是錯誤的。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "那……不是問題的答案，老師。只是詭辯而已。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "否定思考實驗的前提條件的話，只是在強詞奪理。"
+    },
+    {
+      "Text": "[s]「拉操縱桿的那個人，是不是漏看了什麼呢？」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！？"
+    },
+    {
+      "Text": "[s]「附近真的沒有願意幫助的人嗎？之類的。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……！？"
+    },
+    {
+      "Name": "Key",
+      "Text": "……73%…………89%…………"
+    },
+    {
+      "Name": "Key",
+      "Text": "確保資源99%……………………"
+    },
+    {
+      "Text": "[ns]「我想選擇所有人齊心協力，『拯救一切』的選項。」"
+    },
+    {
+      "Name": "莉央",
+      "Text": "沒，沒有那種選項……"
+    },
+    {
+      "Name": "優香",
+      "Text": "乃愛！就是現在！\n切斷所有電力！"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "好～優香醬。\n就等妳這句話唷♪"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "嘿！"
+    },
+    {
+      "Text": "下一話;為王女準備的帕凡舞（２）"
+    }
+  ]
+}

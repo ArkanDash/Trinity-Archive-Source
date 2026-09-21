@@ -1,0 +1,2752 @@
+{
+  "TitleJP": "不健全な事業計画",
+  "TitleKR": "건전하지 못한 사업계획",
+  "TitleEN": "A Shady Business Plan",
+  "TitleTH": "แผนธุรกิจที่บกพร่อง",
+  "TitleTW": "不正經的事業計劃",
+  "DescJP": "知人からビジネスチャンスの話を聞いたアルは、便利屋のメンバーを率いてトリニティ地区の事業説明会を訪れる。しかしその実態は怪しいビジネスであり、無駄足を踏まされたアルは我慢できず他のメンバーと共に事業説明会の場を破壊してしまう。",
+  "DescKR": "지인에게서 좋은 사업 기회가 있다는 말을 들은 아루는 흥신소 멤버를 이끌고 트리니티 학원의 사업설명회를 찾는다. 하지만 알고 보니 그 사업설명회는 다단계 사기였고, 분노를 참지 못한 아루는 사업설명회를 박살낸다.",
+  "DescEN": "An acquaintance recommends Aru a lucrative business opportunity and she drags the Problem Solver 68 members to a business fair at Trinity General School. When the so-called opportunity is revealed to be a pyramid scheme, an enraged Aru lays waste to the entire fair.",
+  "DescTH": "อารุฟังเรื่องโอกาสทองทางธุรกิจจากคนรู้จัก จึงพาหน่วยรับจ้างสารพัด\nไปเข้าร่วมงานบรรยายเกี่ยวกับธุรกิจที่จัดขึ้นที่สถาบันทรีนิตี้ แต่ว่าเมื่อ\nพวกเธอไปถึงก็พบว่างานบรรยายธุรกิจเป็นธุรกิจลูกโซ่ที่หลอกลวงผู้คน\nอารุจึงทำลายงานบรรยายธุรกิจพังราบเป็นหน้ากลองด้วยความโกรธจัด",
+  "DescTW": "亞瑠從熟人那裡聽說有好商機，便帶領便利屋成員前往三一學園的創業說明會。經過一番了解，亞瑠發現那場創業說明會是傳銷詐騙。由於抑制不住​憤怒情緒，亞瑠砸了那場創業說明會。",
+  "DialogJP": [
+    {
+      "Text": "不健全な事業計画"
+    },
+    {
+      "Text": "トリニティ・商店街"
+    },
+    {
+      "Name": "トリニティの女子生徒A",
+      "Text": "あらっ、そうなのですか？"
+    },
+    {
+      "Name": "トリニティの女子生徒B",
+      "Text": "はい、あちらの商店街の先にあるカフェで……"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ふ～ん……あっちもこっちも平和ボケしてそうな子ばっかりだね。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "言葉遣いからして、ザ・お嬢様って感じ？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "な、なんか、キラキラしてますね。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "ほ、本当に私みたいなのがここにいて、良いのでしょうか……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あ、良いこと思いついた。この往来のど真ん中で爆発起こさない？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……いやいやいや。"
+    },
+    {
+      "Name": "アル",
+      "Text": "よしなさい、ムツキ。トリニティの商店街を爆発させてって依頼で来たのであれば別だけど。"
+    },
+    {
+      "Name": "アル",
+      "Text": "今日は別件よ、ここで騒ぎを起こすのは得策じゃないわ。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "そもそもアルちゃん、急にトリニティに来るなんて、今回は何の用事なの？"
+    },
+    {
+      "Name": "アル",
+      "Text": "ふふふ、聞いて驚かないでちょうだい？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "それは大丈夫～、どうせ今さらアルちゃんの言うことに驚いたりしないし。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "それは確かに。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "わ、私は驚くかもしれませんので！こ、心の準備をしてます……！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あ……でも驚くなと仰いましたし……ど、どうしましょう！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "ああもう、うるさいわよ！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "こほん、とにかく今日私たちがこうしてトリニティを訪れているのは……"
+    },
+    {
+      "Name": "アル",
+      "Text": "ここで、新規事業説明会があるからよ！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "事業説明会？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……こんなお嬢様学園のふもとで？"
+    },
+    {
+      "Name": "アル",
+      "Text": "ええ、そうよ。知り合いのコネで聞いた話なのだけど……。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "アルちゃんのコネぇ？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……はぁ、多分もうダメだこれ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ど、どうして、話を聞く前からそんな反応するのよ！？"
+    },
+    {
+      "Name": "アル",
+      "Text": "ちゃんと確かな情報なんだから！この前の依頼主から、"
+    },
+    {
+      "Name": "アル",
+      "Text": "「良い話があるんだけど、これはアル社長にだけ教えるからね？内緒だよ、分かった？」って紹介してくれて……。"
+    },
+    {
+      "Name": "アル",
+      "Text": "キヴォトスの裏世界でも一部にしか知られていない、トップシークレットな情報なのよ！"
+    },
+    {
+      "Name": "アル",
+      "Text": "アウトローたちだけが共有している秘密の事業……！"
+    },
+    {
+      "Name": "アル",
+      "Text": "すごいと思わない！？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ふ～ん……まあアルちゃんがそれで良いなら良いけど。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "さ、さすがアル様です！すごいです！"
+    },
+    {
+      "Name": "アル",
+      "Text": "あはっ、もっと褒めてもいいのよ！"
+    },
+    {
+      "Name": "アル",
+      "Text": "こんな貴重な機会を得られたのも、すべてこの私の経営手腕のおかげ！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……せめて面倒なことにならないと良いけど。"
+    },
+    {
+      "Name": "アル",
+      "Text": "さあっ、遅れるわけにはいかないわ。説明会に向かうわよ！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "わ～お、すっごい人の数。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "この人たちみんなその、新規事業説明会……？に参加する人なんだ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "すごいのは数だけじゃないわよ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ここに集まった事業家は、裏世界でも指折りの……各分野で成功を収めた事業家の人たちばかりなんだから！"
+    },
+    {
+      "Name": "アル",
+      "Text": "ここで顔を覚えてもらって私たちの名前が広がれば、それだけで大きな成果になるわ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "それに、この説明会の事業に投資して利益も得られれば……私たち便利屋の未来はますます明るくなるってものでしょう？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あっ、壇上に誰かが……。"
+    },
+    {
+      "Name": "司会",
+      "Text": "まずは御礼を、本日はこうして当社の事業説明会に参加してくださり、誠にありがとうございます。"
+    },
+    {
+      "Name": "司会",
+      "Text": "先に申し上げましょう、今回のような機会は滅多にあることではございません。"
+    },
+    {
+      "Name": "司会",
+      "Text": "ここに立ち会えたことそのものが、まず幸運と言っても過言ではないでしょう。"
+    },
+    {
+      "Name": "司会",
+      "Text": "そう、ここにいる皆様は、既に選ばれたも同然！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ふ～ん……？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "や、やっぱり！私たちは事業のチャンスを掴んだのよ！"
+    },
+    {
+      "Name": "司会",
+      "Text": "それでは我が社の細かい話などはさておき、発表いたしましょう。"
+    },
+    {
+      "Name": "司会",
+      "Text": "当社から皆様へ、自信を持ってお届けするアイテム。"
+    },
+    {
+      "Name": "司会",
+      "Text": "それは……！"
+    },
+    {
+      "Text": "（ジャジャーン！）"
+    },
+    {
+      "Name": "司会",
+      "Text": "「カシミヤ仕立てのエコ・モバイルバッテリー」です！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "カシミヤ……？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "エコ……？"
+    },
+    {
+      "Name": "アル",
+      "Text": "……バッテリー？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "……？？？"
+    },
+    {
+      "Name": "司会",
+      "Text": "こちらはただのモバイルバッテリーではございません！"
+    },
+    {
+      "Name": "司会",
+      "Text": "AIを使ったディープラーニングにより、最も効率的な素材を選び出し、それをふんだんに使って構成……"
+    },
+    {
+      "Name": "司会",
+      "Text": "最高級の素材で、どんなバッテリーよりも優れた効率性を実現！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "アルちゃん、これさあ……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ま、まだ分からないじゃない！もうちょっと聞くわよ……！"
+    },
+    {
+      "Name": "アル",
+      "Text": "あの事業家の人が言ってたんだから……！"
+    },
+    {
+      "Name": "司会",
+      "Text": "しかも当社が提供するのはこの製品だけではありません！"
+    },
+    {
+      "Name": "司会",
+      "Text": "当社では独自のマーケティングシステムを用いて、利益を最大化するため……"
+    },
+    {
+      "Name": "司会",
+      "Text": "リスクヘッジを十分考慮した事業戦略で……"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "し、システム……リスクヘッジ……（めもめも）"
+    },
+    {
+      "Name": "アル",
+      "Text": "……。"
+    },
+    {
+      "Name": "司会",
+      "Text": "変動幅の大きいキヴォトスにおける経済指標を注意深く観察しながら、いかなる状況にも柔軟に対応できるよう……。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "け、経済指標……？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "（プルプル……）"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……ふぅ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "（えぇ……）"
+    },
+    {
+      "Name": "司会",
+      "Text": "では、ご説明はここまでにしましょう。"
+    },
+    {
+      "Name": "司会",
+      "Text": "それではお待ちかねの、実際に私共への事業投資の方法ですが……。"
+    },
+    {
+      "Name": "司会",
+      "Text": "難しいことは要求致しません。皆様は私共のサービスシステムに加入するため、この会員カードを購入するだけで大丈夫です！"
+    },
+    {
+      "Name": "司会",
+      "Text": "会員カードを購入するだけで、自動的にこのシステムを利用できるようになります！"
+    },
+    {
+      "Name": "司会",
+      "Text": "さらに今ならなんと！この500万円の会員カードを購入されると、天使としての階級が「セラフィム」まですぐに上昇！"
+    },
+    {
+      "Name": "司会",
+      "Text": "お客様はすぐに、100人の天使を従えることができるのです！"
+    },
+    {
+      "Name": "アル",
+      "Text": "盛りすぎでしょ！？マルチ商法まがいの怪しいビジネスに、オカルトまで混ぜるんじゃないわよっ！！！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あはははっ！ついに言っちゃったねアルちゃん！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "マルチ商法まがいって認めちゃってるじゃん、あははっ！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はあ……社長、ここのことを教えてきたその知人って……。"
+    },
+    {
+      "Name": "アル",
+      "Text": "分かってるから！もう何も言わないで！！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あの、私がその知人の方、消しちゃいましょうか？"
+    },
+    {
+      "Name": "アル",
+      "Text": "うぅ……。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "まあ、トリニティで開かれる事業説明会って聞いた時から、もしかしてって思ったけど。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "世間知らずのお嬢様たちを狙ったものみたいだね。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ぷははははっ！！それ自体はともかく、お嬢様たち狙いで引っ掛かったのがアルちゃんって……！ぷふっ！"
+    },
+    {
+      "Name": "アル",
+      "Text": "信じてたのに……私だけに教えるって言うから、信じてたのに……！"
+    },
+    {
+      "Name": "アル",
+      "Text": "よくも、恩を仇で！！！"
+    },
+    {
+      "Name": "司会",
+      "Text": "そ、そこのお客様！？何の騒ぎですか！？"
+    },
+    {
+      "Name": "司会",
+      "Text": "私共はあくまでも健全な事業計画に基づいた機会を皆様に……"
+    },
+    {
+      "Name": "アル",
+      "Text": "もういいわ。"
+    },
+    {
+      "Name": "アル",
+      "Text": "よくも私たちの貴重な時間を、無駄にしてくれたわね。"
+    },
+    {
+      "Name": "司会",
+      "Text": "お、お客様、何を……？これは二度とないチャンスで……！"
+    },
+    {
+      "Name": "司会",
+      "Text": "夢と希望のチャンスをここで共に……！"
+    },
+    {
+      "Text": "（ガッ）"
+    },
+    {
+      "Name": "司会",
+      "Text": "え、いや、私の肩ではなく、チャンスを掴……"
+    },
+    {
+      "Name": "アル",
+      "Text": "ハルカ。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "は、はいっ！"
+    },
+    {
+      "Name": "アル",
+      "Text": "やりなさい。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "はいっ！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "アル様のご命令なら！"
+    },
+    {
+      "Name": "司会",
+      "Text": "うわあああっ！？な、何を！？"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "あ、アル様の貴重な時間を……！全部、全部消します！！"
+    },
+    {
+      "Name": "アル",
+      "Text": "……よくも私たち便利屋を騙そうとしてくれたわね。"
+    },
+    {
+      "Name": "アル",
+      "Text": "一歩間違えたら、その巧妙な手口のせいで便利屋の資金が全部なくなるところだったじゃない！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "素直だねえアルちゃん。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ああもう！ムツキ！カヨコ！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ま、十分楽しめたし、始めよっか！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はあ……仕方ない。"
+    },
+    {
+      "Name": "アル",
+      "Text": "やってしまいなさい！！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "正義実現委員会です！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "こちらで違法な事業説明会が開かれてると通報を受けて来ました！"
+    },
+    {
+      "Name": "マシロ",
+      "Text": "来ました！"
+    },
+    {
+      "Name": "ハスミ",
+      "Text": "……？"
+    },
+    {
+      "Name": "マシロ",
+      "Text": "……誰もいませんね？"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あっぶな～、よりにもよってトリニティの正義実現委員会！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "風紀委員会と同レベルに面倒な相手だね……そもそも接触しないのが吉。"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "ま、あそこと絡むとうちの風紀委員長がすっごい顔するだろうから、それはそれで面白そうだけどね～。"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "い、行ってきましょうか？ご命令いただければ、私が全部……！"
+    },
+    {
+      "Name": "アル",
+      "Text": "ああもう！話をややこしくしないで！"
+    },
+    {
+      "Name": "アル",
+      "Text": "はぁ……。"
+    },
+    {
+      "Name": "アル",
+      "Text": "よし、今日のことはもう終わったこと！"
+    },
+    {
+      "Name": "アル",
+      "Text": "これからは知人がむやみに勧めてくる事業とか……もう絶対に信じないんだから！"
+    },
+    {
+      "Name": "アル",
+      "Text": "他人に頼る必要なんてないわ、私たちの事業は私たちの手で成功させる！！"
+    },
+    {
+      "Name": "ムツキ",
+      "Text": "あはっ、アルちゃんらし～！"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はあ……まあ、こうなると思ってたけど。"
+    },
+    {
+      "Name": "アル",
+      "Text": "ほら、早く離れるわよ！"
+    },
+    {
+      "Name": "ハルカ",
+      "Text": "は、はいっ！"
+    },
+    {
+      "Text": "（そして正義実現委員会から逃げるようにして、便利屋68はトリニティ地区の夜道を駆けていった）"
+    },
+    {
+      "Text": "不健全な事業計画"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "건전하지 못한 사업계획"
+    },
+    {
+      "Text": "트리니티 학원의 상점가"
+    },
+    {
+      "Name": "트리니티 여학생 A",
+      "Text": "어머, 정말인가요?"
+    },
+    {
+      "Name": "트리니티 여학생 B",
+      "Text": "네, 정말이랍니다. 마침 저쪽 상점가 골목 끝에 있는 디저트 가게에서……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "흐응~ 여기저기서 다들 태평한 얼굴로 걷고 있네."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "말 그대로 The 아가씨란 느낌?"
+    },
+    {
+      "Name": "하루카",
+      "Text": "다, 다들 반짝거리고 있는, 느, 느낌이예요. "
+    },
+    {
+      "Name": "하루카",
+      "Text": "저, 정말 저 같은 게 여기, 있어도 되는 걸까요?"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아하하, 이 가운데에서 폭탄을 터트리면 재밌겠다. 그치?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……(절레절레)"
+    },
+    {
+      "Name": "아루",
+      "Text": "트리니티 거리 한복판을 폭파해달란 의뢰가 있다면 모를까."
+    },
+    {
+      "Name": "아루",
+      "Text": "참아, 무츠키, 오늘은 따로 볼 일이 있어서 찾아온 거니까."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "난데없이 트리니티 학원지구에 볼 일이라니, 어쩐 일이야? 아루 쨩."
+    },
+    {
+      "Name": "아루",
+      "Text": "훗훗훗, 듣고 놀라지 말라구."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아~ 괜찮아. 아루 쨩이 하는 이야기의 대부분은 들어도 놀랍지 않으니까."
+    },
+    {
+      "Name": "카요코",
+      "Text": "그건 뭐, 또 그렇지."
+    },
+    {
+      "Name": "하루카",
+      "Text": "저, 전 놀랄 수 있어요! 준비할 게요! "
+    },
+    {
+      "Name": "하루카",
+      "Text": "아……! 하지만 놀라지 말라고 하셨으니까. 어, 어쩌면 좋죠!"
+    },
+    {
+      "Name": "아루",
+      "Text": "아니아니, 그냥 쓸데없는 말을 덧붙이지 말라고!"
+    },
+    {
+      "Name": "아루",
+      "Text": "크흠흠. 어쨌거나 오늘 우리가 이렇게 트리니티를 찾은 이유는 다른 게 아니라."
+    },
+    {
+      "Name": "아루",
+      "Text": "이곳에서 새롭게 시작하는 신규 사업설명회가 있기 때문이야."
+    },
+    {
+      "Name": "카요코",
+      "Text": "사업설명회? "
+    },
+    {
+      "Name": "카요코",
+      "Text": "……하필이면 그것도 여기, 트리니티 같은 아가씨 학원에서?"
+    },
+    {
+      "Name": "아루",
+      "Text": "응. 맞아. 아는 연줄을 통해서 들어온 이야기인데……."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아루 쨩의 연줄?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……(질색)"
+    },
+    {
+      "Name": "아루",
+      "Text": "왜, 왜, 다들 그런 표정인 건데?!"
+    },
+    {
+      "Name": "아루",
+      "Text": "이건 확실한 정보라고! 저, 저번에 의뢰를 통해 알게 된 의뢰주가."
+    },
+    {
+      "Name": "아루",
+      "Text": "'마침 이번에 좋은 사업기회가 있는데, 이건 아루 사장한테만 알려주는 거야? 알았지?' 라면서 소개해준……"
+    },
+    {
+      "Name": "아루",
+      "Text": "무려 키보토스의 뒷세계에서만 알려진 최고급 정보라고!"
+    },
+    {
+      "Name": "아루",
+      "Text": "무법자들만이 공유하는 사업 비밀……!"
+    },
+    {
+      "Name": "아루",
+      "Text": "굉장하지 않아?!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "흐응~ 아루 쨩이 그렇게 말한다면야, 그런 거겠지만."
+    },
+    {
+      "Name": "하루카",
+      "Text": "사, 사장님. 괴, 굉장해요!"
+    },
+    {
+      "Name": "아루",
+      "Text": "아핫핫, 좀 더 칭찬해도 좋아!"
+    },
+    {
+      "Name": "아루",
+      "Text": "이런 귀중한 기회를 얻을 수 있던 것도, 다 내 대단한 사업수완 덕분이라고!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……괜히 귀찮은 일만 일어나지 않았으면 좋겠는데."
+    },
+    {
+      "Name": "아루",
+      "Text": "자, 설명회에 늦기 전에 어서 가자!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "와-오. 사람이 엄청 많네."
+    },
+    {
+      "Name": "카요코",
+      "Text": "이 사람들이 다 신규 사업설명회에 참가하는 인원들이란 말이지."
+    },
+    {
+      "Name": "아루",
+      "Text": "흔치 않은 기회야."
+    },
+    {
+      "Name": "아루",
+      "Text": "여기 모인 사업가들은, 뒷세계에서도 내로라하는…… 각 분야에서 한가락 한다는 성공한 사업가들이니까!"
+    },
+    {
+      "Name": "아루",
+      "Text": "여기서 얼굴을 익히고 우리 이름을 알릴 수만 있다면, 그것만으로도 큰 도움이 될 거야."
+    },
+    {
+      "Name": "아루",
+      "Text": "뭐, 겸사겸사. 사업 투자에서 한 몫 단단히 챙길 수 있으면, 우리 흥신소가 더욱 성장할 여지도 있을 테고?"
+    },
+    {
+      "Name": "하루카",
+      "Text": "앗, 저기 단상에, 누가 나왔어요……."
+    },
+    {
+      "Name": "사회자",
+      "Text": "오늘, 이렇게 당사의 사업설명회에 참가해주신 사장님 여러분께, 먼저 감사 인사드립니다."
+    },
+    {
+      "Name": "사회자",
+      "Text": "오늘 같은 날은 흔치 않은 기회."
+    },
+    {
+      "Name": "사회자",
+      "Text": "이런 기회를 만난 것만으로도, 감히 말씀드릴 수 있습니다."
+    },
+    {
+      "Name": "사회자",
+      "Text": "여러분은 선택받은 것이나 다름없다고!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "흐응~ 선택……?"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……흠?"
+    },
+    {
+      "Name": "아루",
+      "Text": "오오! 역시! 심상치 않은 기회일 줄 알았어!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "그럼 소개하겠습니다."
+    },
+    {
+      "Name": "사회자",
+      "Text": "오늘 당사에서 여러분께 자신 있게 선보이는 사업 아이템! "
+    },
+    {
+      "Name": "사회자",
+      "Text": "그건 바로……!"
+    },
+    {
+      "Text": "(두-둥!)"
+    },
+    {
+      "Name": "사회자",
+      "Text": "<에코 프라이드 캐시미어 배터리>입니다!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "에코……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "캐시미어……?"
+    },
+    {
+      "Name": "아루",
+      "Text": "……배터리?"
+    },
+    {
+      "Name": "하루카",
+      "Text": "……?"
+    },
+    {
+      "Name": "사회자",
+      "Text": "참고로 이 아이템은 단순한 배터리 사업이 아닙니다!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "AI를 이용한 딥러닝을 통해, 가장 효율적인 소재를 추출해 구성한 재료를 밑바탕으로 삼아……."
+    },
+    {
+      "Name": "사회자",
+      "Text": "추후 그 어떤 배터리보다 효율이 뛰어난 물건을, 무려 친환경 소재로 만들어냈다는 쾌거!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "오, 아루 쨩…… 이거 말인데."
+    },
+    {
+      "Name": "카요코",
+      "Text": "……."
+    },
+    {
+      "Name": "아루",
+      "Text": "아, 아냐……! 조금만 더 들어봐!"
+    },
+    {
+      "Name": "아루",
+      "Text": "내 잘나가는 사업가 지인이 장담했단 말이야……!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "더군다나 당사가 제공하는 건 단순히 아이템뿐만이 아닙니다!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "당사에서는 기반이 탄탄한 마케팅 시스템을 이용해, 귀하 사장님들의 수익을 극대화하고자……."
+    },
+    {
+      "Name": "사회자",
+      "Text": "리스크헷지를 충분히 고려한 사업전략으로……"
+    },
+    {
+      "Name": "하루카",
+      "Text": "시, 시스템…… 리스크헷지…… (메모메모)"
+    },
+    {
+      "Name": "아루",
+      "Text": "……."
+    },
+    {
+      "Name": "사회자",
+      "Text": "변동폭이 큰 키보토스 경제곡선을 유의 깊게 주시하면서 그 어떤 상황이라도 유연하게 대처할 수 있는 기반을 마련했으며……."
+    },
+    {
+      "Name": "하루카",
+      "Text": "키, 키보토스, 고, 곡선?"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "(부들부들)"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……음."
+    },
+    {
+      "Name": "아루",
+      "Text": "(경악)"
+    },
+    {
+      "Name": "사회자",
+      "Text": "자, 그럼 설명은 이것으로 끝이고."
+    },
+    {
+      "Name": "사회자",
+      "Text": "본격적으로 저희 사업에 투자하는 방법 말입니다만."
+    },
+    {
+      "Name": "사회자",
+      "Text": "어려울 것 없습니다. 여러분께서는 저희 시스템에 가입하기 위한 회원카드를 구매해주시면 됩니다."
+    },
+    {
+      "Name": "사회자",
+      "Text": "회원카드를 구입하기만 해도 이 시스템의 향유자가 되실 수 있습니다!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "여기, 500만엔짜리 회원 카드를 구매하시면, 그 즉시 세피로트 계급으로 상승!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "고객께선 곧바로 100명의 천사를 거느릴 수 있게 되는 겁니다!"
+    },
+    {
+      "Name": "아루",
+      "Text": "다단계에 오컬트까지 섞지 말라고!!!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아하하하! 도망칠 곳이 없어져 버렸잖아, 아루 쨩!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "본인이 다단계라고 인정해버리면 어떡해, 아하하하!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아……. 사장…… 그 지인이라는 사람……."
+    },
+    {
+      "Name": "아루",
+      "Text": "……알아! ……더 말하지 마!!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "저기, 제가 그 지인이라는 분, 없애버릴까요?"
+    },
+    {
+      "Name": "아루",
+      "Text": "(울상)"
+    },
+    {
+      "Name": "카요코",
+      "Text": "뭐어, 트리니티 여학원 근처에서 여는 사업설명회라길래, 뭔가 했는데."
+    },
+    {
+      "Name": "카요코",
+      "Text": "결국 처음부터 세상물정 모르는 아가씨들을 노린 거였네."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "푸하하핫!! 그런 함정에, 아루 쨩도……! 푸흐흡!"
+    },
+    {
+      "Name": "아루",
+      "Text": "믿었는데…… 나한테만 알려주는 고급정보라고 해서, 믿었는데! "
+    },
+    {
+      "Name": "아루",
+      "Text": "감히, 내 신뢰를, 이런 식으로 보답해?!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "어허! 거기! 고객분들! 무슨 소란이시죠?"
+    },
+    {
+      "Name": "사회자",
+      "Text": "저희는 어디까지나 건전한 사업계획을 공유하려는 넓은 마음으로……."
+    },
+    {
+      "Name": "아루",
+      "Text": "됐고."
+    },
+    {
+      "Name": "아루",
+      "Text": "감히…… 내, 귀중한 시간을 낭비시키다니……."
+    },
+    {
+      "Name": "사회자",
+      "Text": "예? 고객님. 무슨 소리를 하시는 겁니까. 이건 둘도 없는 기회입니다!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "한몫 단단히 잡을 수 있는 꿈과 희망의 기회를 직접 움켜……!"
+    },
+    {
+      "Text": "(꽈악)"
+    },
+    {
+      "Name": "사회자",
+      "Text": "응? 아니, 기회가 아니라 제 어깨를 움켜쥐셔도……."
+    },
+    {
+      "Name": "아루",
+      "Text": "하루카."
+    },
+    {
+      "Name": "하루카",
+      "Text": "네, 넷!"
+    },
+    {
+      "Name": "아루",
+      "Text": "처리해."
+    },
+    {
+      "Name": "하루카",
+      "Text": "에헤, 에헤헷, 에헷!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "네엣! 아루 님의 명령이시라면!"
+    },
+    {
+      "Name": "사회자",
+      "Text": "끄아악?! 무, 무슨 짓이야?!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "가, 감히 아루 님의 귀중한 시간을 빼앗다니! 전부, 전부 꺼져버려!"
+    },
+    {
+      "Name": "아루",
+      "Text": "……감히 우리 흥신소를 등쳐먹으려고 하다니, 응, 안 되지. 안 돼!"
+    },
+    {
+      "Name": "아루",
+      "Text": "하마터면 교묘한 수법 덕분에, 우리 흥신소의 공적자금이 전부 날아갈 뻔했잖아!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "뭐, 아루 덕분에 그럴 뻔했던 거지만~?"
+    },
+    {
+      "Name": "아루",
+      "Text": "으아아아! 됐어! 무츠키! 카요코!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "으응~ 뭐, 나도 적당히 재미있었으니까. 응! 시작해볼까!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아, 뭐, 어쩔 수 없지."
+    },
+    {
+      "Name": "아루",
+      "Text": "모두! 박살내버려!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "정의실현부입니다! "
+    },
+    {
+      "Name": "하스미",
+      "Text": "여기서 불법적인 사업설명회가 열리고 있다는 신고를 듣고 왔습니다!"
+    },
+    {
+      "Name": "마시로",
+      "Text": "왔습니다!"
+    },
+    {
+      "Name": "하스미",
+      "Text": "……응? 그런데 이미, 난장판?"
+    },
+    {
+      "Name": "마시로",
+      "Text": "어라, 하스미 선배. 아무도 없는데요?"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "이크, 하필이면 막판에 트리니티의 정의실현부까지 납시었을 줄이야~!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "녀석들과 엮이면, 선도부급으로 귀찮아질 거야."
+    },
+    {
+      "Name": "무츠키",
+      "Text": "뭐, 그걸로 선도부장의 얼굴이 일그러지면, 그건 그것 나름대로 재미있겠지만~"
+    },
+    {
+      "Name": "하루카",
+      "Text": "마, 말씀만 내려주세요! 그럼 제가 전부 다……!"
+    },
+    {
+      "Name": "아루",
+      "Text": "으아아! 이야기를 복잡하게 만들지 마!"
+    },
+    {
+      "Name": "아루",
+      "Text": "으으……."
+    },
+    {
+      "Name": "아루",
+      "Text": "오, 오늘은 이렇게 물러가지만, 다음번엔 다를 줄 알아!"
+    },
+    {
+      "Name": "아루",
+      "Text": "지인이 무턱대고 추천하는 사업 아이템…… 앞으로는 절대로 믿지 않을 거야!"
+    },
+    {
+      "Name": "아루",
+      "Text": "남의 말이 아니라, 내 손으로 직접 보란 듯이 사업을 성공시켜주겠어!!"
+    },
+    {
+      "Name": "무츠키",
+      "Text": "아하핫~ 평소 같은 아루 쨩다워!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "하아……. 역시, 오늘 이렇게 될 줄 알았어."
+    },
+    {
+      "Name": "아루",
+      "Text": "됐고! 모두! 퇴각이야!"
+    },
+    {
+      "Name": "하루카",
+      "Text": "네, 네엣~!"
+    },
+    {
+      "Text": "(그렇게 정의실현부를 피해, 흥신소는 트리니티 학원의 밤거리를 내달렸다.)"
+    },
+    {
+      "Text": "건전하지 못한 사업계획"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "A Shady Business Plan"
+    },
+    {
+      "Text": "Trinity Shopping District"
+    },
+    {
+      "Name": "Female Trinity Student A",
+      "Text": "Hahaha! Really?"
+    },
+    {
+      "Name": "Female Trinity Student B",
+      "Text": "Yes! At the dessert shop at the end of the shopping district..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hmph! Everyone around here is so carefree."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "They must be the epitome of femininity."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Th-They look like they're glowing!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "C-Can someone like me even be here?"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hahaha. Wouldn't it be fun to blow up a bomb right in the middle of this place?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*shakes head*"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Not unless an order came in to blow up the middle of Trinity's streets."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Come on, Mutsuki. We came here on business today."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "What business do we have in the Trinity district, Aru?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Heehee. I'll tell you, but don't be too surprised."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "It's fine. I'm hardly ever surprised by anything you say."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "All right."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "I like surprises! I'm totally ready! "
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Oh wait...you don't want me to be surprised... Uh, then what should I do?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Ugh! It doesn't matter!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "*clears throat* Anyway, I'll tell you why we came to Trinity today."
+    },
+    {
+      "Name": "Aru",
+      "Text": "We are here for a new business presentation."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "What?! A business presentation? "
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Why is something like that happening at Trinity?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Well, I heard about it from a connection I have..."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "A connection?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*pouts*"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Why do you guys look so unhappy about this?!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "This is solid information! The client I got to know through the last request said..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "\"There's a good business opportunity here. I won't tell this to anyone else but you, Aru. Got it?\""
+    },
+    {
+      "Name": "Aru",
+      "Text": "This is top-secret information, available only to the deepest inner circles of Kivotos!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "It's a business secret shared among outlaws..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Isn't that amazing?!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hmm... If Aru says so, then it must be true."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Yeah, it's amazing, Boss!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "...Well?! Don't be shy! Compliment me more!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "It was all thanks to my great business skills that I was able to score a valuable opportunity like this!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "...I just hope this doesn't become too annoying."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Let's hurry and get to the presentation! We can't be late!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Wow, there are so many people."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "So, are all these people here for the business presentation?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Some \"rare\" opportunity..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "The businesspeople gathered here are said to be the best in their field... They're incredibly successful entrepreneurs!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "If we can network and get our names out there, it'll definitely pay off for us."
+    },
+    {
+      "Name": "Aru",
+      "Text": "And if we can secure some business investments, Problem Solver could grow even more."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Look, someone walked up to the podium..."
+    },
+    {
+      "Name": "Host",
+      "Text": "First of all, I would like to thank all of the CEOs who are attending our business presentation today."
+    },
+    {
+      "Name": "Host",
+      "Text": "These kinds of opportunities don't come every day."
+    },
+    {
+      "Name": "Host",
+      "Text": "I can tell you, without hesitation... "
+    },
+    {
+      "Name": "Host",
+      "Text": "...that you are the chosen ones!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hmm... You don't say?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Really?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Oh! I knew it! I knew this was a special opportunity!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Now, allow me to introduce..."
+    },
+    {
+      "Name": "Host",
+      "Text": "...our latest and greatest achievement!"
+    },
+    {
+      "Name": "Host",
+      "Text": "It's the..."
+    },
+    {
+      "Text": "(Ta-da!)"
+    },
+    {
+      "Name": "Host",
+      "Text": "Eco-Pride Cashmere Battery!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Eco..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Cashmere...?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "...Battery?"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "...?"
+    },
+    {
+      "Name": "Host",
+      "Text": "Note that this item is no mere battery!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Created from natural materials extracted using the most efficient methods available with deep learning AI..."
+    },
+    {
+      "Name": "Host",
+      "Text": "...we've made a stunning achievement in creating a product that is more efficient than any other battery in the world, and using eco-friendly materials at that!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Oh, Aru, I think this is..."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "... "
+    },
+    {
+      "Name": "Aru",
+      "Text": "No, wait! Let's listen a little longer! "
+    },
+    {
+      "Name": "Aru",
+      "Text": "The most successful businessperson I know assured me of this!"
+    },
+    {
+      "Name": "Host",
+      "Text": "In addition, what we're offering here goes beyond just this item!"
+    },
+    {
+      "Name": "Host",
+      "Text": "We want to maximize your profits using a well-established marketing system..."
+    },
+    {
+      "Name": "Host",
+      "Text": "...with a business strategy that fully considers hedging risks..."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "*taking notes* System... Hedging risks..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "..."
+    },
+    {
+      "Name": "Host",
+      "Text": "We have laid the foundation to flexibly respond to any situation, while carefully monitoring the Kivotos economic curve and its large fluctuations..."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Kivotos...curve?"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "*shake*"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Hmm..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "*shocked*"
+    },
+    {
+      "Name": "Host",
+      "Text": "So, that's the explanation..."
+    },
+    {
+      "Name": "Host",
+      "Text": "Now, let's talk about how you can invest in our business."
+    },
+    {
+      "Name": "Host",
+      "Text": "It's not hard at all. All you need to do is purchase a membership card to join our system."
+    },
+    {
+      "Name": "Host",
+      "Text": "Yes, you can become a part of the system simply by purchasing a membership card!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Here, if you purchase this 5-million-yen membership card, you'll immediately be promoted to the Sephiroth rank!"
+    },
+    {
+      "Name": "Host",
+      "Text": "And lucky customers get an immediate bonus of one hundred angels!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Ugh! It's like a cult mixed with a pyramid scheme!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Haha! Now you can't deny it any longer, Aru!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "You just admitted that this business is a pyramid scheme!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* ...Boss. That businessperson you mentioned..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "...I know! I don't wanna talk about it!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Uh, do you want me to get rid of that acquaintance of yours?"
+    },
+    {
+      "Name": "Aru",
+      "Text": "*looking sad*"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "I was wondering what kind of a business presentation would take place near Trinity General School."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "They targeted girls without any street smarts!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Haha! I can't believe you got tricked like that! *chuckles*"
+    },
+    {
+      "Name": "Aru",
+      "Text": "I really trusted them... I was told this was the highest level of info, reserved just for me..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "How could they take advantage of my trust?!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Excuse me? What's all the commotion about?"
+    },
+    {
+      "Name": "Host",
+      "Text": "We're here to share a sound business plan to those with an open mind..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Stop!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "How dare you waste my precious time..."
+    },
+    {
+      "Name": "Host",
+      "Text": "What's that? What are you talking about, dear customer? This is a very rare opportunity!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Grab this opportunity and make your dreams come..."
+    },
+    {
+      "Text": " *reaches out*"
+    },
+    {
+      "Name": "Host",
+      "Text": "Huh? I didn't mean you should literally grab my shoulder!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Haruka."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Yes!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Take care of it."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Heh heh heh!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Got it, boss! Anything you say, Aru!"
+    },
+    {
+      "Name": "Host",
+      "Text": "Argh?! What are you doing?!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "How dare you waste Aru's precious time?! Get lost, all of you!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "...How dare you try to take advantage of Problem Solver! I'll never let that happen!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "We could have lost all of our funds if we fell for their stupid scheme!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "You almost got away with it, thanks to Aru."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Arrrgh! I've had enough! Mutsuki! Kayoko!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Hmm... Well, I still had fun. Okay, let's get started!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* I guess we have no choice."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Everyone! Get them!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I'm here from the Justice Task Force! "
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "I've heard reports of an illegal business presentation going on here!"
+    },
+    {
+      "Name": "Mashiro",
+      "Text": "Well, I'm here!"
+    },
+    {
+      "Name": "Hasumi",
+      "Text": "...Wha? What's all this mess?"
+    },
+    {
+      "Name": "Mashiro",
+      "Text": "Hmm, Hasumi... There's no one here!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "I didn't expect Trinity's Justice Task Force to get involved!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "They can be just as annoying as the Prefect Team. Don't get involved."
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Well, as long as we can piss off the head prefect, then I'm satisfied."
+    },
+    {
+      "Name": "Haruka",
+      "Text": "J-Just tell me what to do! I'll take care of everything...!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Argh! I hate when things get complicated!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "Ugh..."
+    },
+    {
+      "Name": "Aru",
+      "Text": "We're done here today, but mark my words...this will never happen again!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "I'll never trust some random acquaintance's vague business advice again!"
+    },
+    {
+      "Name": "Aru",
+      "Text": "I'm going to take matters into my own hands and make my business successful!"
+    },
+    {
+      "Name": "Mutsuki",
+      "Text": "Ahaha! That's our Aru!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* ...I knew something like this was gonna happen."
+    },
+    {
+      "Name": "Aru",
+      "Text": "Everyone... Retreat!"
+    },
+    {
+      "Name": "Haruka",
+      "Text": "Y-Yeah!"
+    },
+    {
+      "Text": "Narrowly avoiding the Justice Task Force, Problem Solver raced through the Trinity district streets in the middle of the night."
+    },
+    {
+      "Text": "A Shady Business Plan"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "แผนธุรกิจที่บกพร่อง"
+    },
+    {
+      "Text": "ย่านการค้าของสถาบันทรีนิตี้"
+    },
+    {
+      "Name": "นักเรียนหญิงโรงเรียนทรีนิตี้ A",
+      "Text": "ฮ่ะฮ่ะฮ่า จริงเหรอ~?"
+    },
+    {
+      "Name": "นักเรียนหญิงโรงเรียนทรีนิตี้ B",
+      "Text": "จริงสิ ถ้าอย่างนั้นไปที่ร้านของหวานที่อยู่สุดซอยย่านการค้าแล้ว...."
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อืม... ทุกคนก็ดูเดินลอยชายอย่างไม่รู้ร้อนรู้หนาวอะไรดีนะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฟังจากที่พูดแล้วเหมือนกับ \"เดอะเลดี้\" เลยไหม?"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ระ...รู้สึกว่าทุกคน...ดู...ดูเจิดจ้าเปล่งประกายกันจริงๆ ค่ะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "มะ... มีของที่เหมือนกันกับฉันอยู่ที่นี่ด้วยหรือเปล่าคะ?"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮ่าฮ่า ถ้าโยนระเบิดไปลงตรงกลางเลยน่าจะสนุกนะ ใช่ไหม?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "..... (ส่ายหน้าไปมา)"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ไม่รู้ว่าจะมีลูกค้าจ้างวานให้ไประเบิดถนนใจกลางเมืองของทรีนิตี้ไหมนะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เดี๋ยวก่อนนะ มุสึกิ วันนี้ฉันมาเพราะมีธุระเรื่องอื่นต่างหากล่ะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ทำไมจู่ๆ ถึงมาที่เขตสถาบันทรีนิตี้ล่ะ มีเรื่องอะไรงั้นเหรอ? อารุจัง"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ฮุฮุฮุฮุ ฟังแล้วอย่าตกใจล่ะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อ่า~ ไม่เป็นไรหรอก ฉันไม่ตกใจกับเรื่องที่อารุจังเล่ามาหรอก"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ของมันแน่อยู่แล้วน่ะสิ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ฉะ...ฉันตกใจนะคะ! จะรีบเตรียมตัวให้พร้อมค่ะ....!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "อ๊ะ...! ประธานสั่งว่าห้ามตกใจนี่... ทำยังไงดีล่ะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "พอแล้ว ไม่ต้องพูดอะไรไร้สาระอีกแล้วล่ะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ฮึ่ม... เหตุผลที่เรามาที่ทรีนิตี้วันนี้ก็ไม่ใช่เพราะอะไรหรอกนะ..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เพราะที่นี่มีงานบรรยายเกี่ยวกับธุรกิจใหม่ยังไงล่ะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "งานบรรยายเกี่ยวกับธุรกิจเหรอ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แล้วอีกอย่าง นั่นมัน...เด็กจากโรงเรียนทรีนิตี้นี่?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อื้อ ใช่แล้ว ได้ข่าวว่ารู้มาจากคนรู้จักน่ะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "พรรคพวกของอารุจังเหรอ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": ".... (ทำหน้ามุ่ย)"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ทำไมทุกคนถึงทำหน้าแบบนั้นล่ะ?!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "นี่เป็นข้อมูลที่ยืนยันแล้วนะ! จากสายข่าวที่ได้รู้จักจากภารกิจที่แล้วน่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "\"มีโอกาสทางธุรกิจดีๆ แล้วล่ะ เรื่องนี้จะบอกแค่อารุ เก็บเป็นความลับด้วยนะ เข้าใจรึเปล่า?\"\nเขาพูดแบบนี้แล้วก็แนะนำมาให้..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "มันคือข้อมูลลับสุดยอดที่มีแต่ผู้อยู่ในโลกเบื้องหลังของคิโวทอสเท่านั้นที่รู้ยังไงล่ะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ความลับทางธุรกิจที่พวกโจรเถื่อนเผยแพร่ให้กันและกัน....!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ไม่คิดว่ามันสุดยอดไปเลยกันบ้างเหรอ?!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮื่อ~ ถ้าฮารุจังพูดแบบนั้นล่ะก็... ก็คงเป็นแบบนั้นแหละ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ปะ...ประธานคะ สุดยอดเลยค่ะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ฮ่าฮ่า! จะชมอีกฉันก็ได้นะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "การที่เราได้มีโอกาสดีๆ แบบนี้ก็เป็นเพราะทักษะทางธุรกิจที่ยอดเยี่ยมของฉันยังไงล่ะ!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "...ถ้าไม่มีเรื่องน่ารำคาญเกิดขึ้นก็คงดี"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เอาล่ะ รีบไปร่วมงานบรรยายกันเถอะ!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ว้าว... คนเยอะสุดๆ ไปเลย"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "คนพวกนี้คงจะเป็นพวกนักธุรกิจที่มาเข้าร่วมงานบรรยายธุรกิจใหม่สินะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "โอกาสที่หาได้ไม่ง่ายๆ ยังไงล่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "พวกนักธุรกิจที่มารวมตัวกันที่นี่ ทุกคนต่างเป็นผู้เชี่ยวชาญและประสบความสำเร็จในสาขาต่างๆ\nในโลกเบื้องหลังนะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ถ้าทำให้พวกเขาจำเราได้ล่ะก็ แค่นั้นก็สบายแล้วล่ะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ถ้าอย่างนั้น ถ้าเราร่วมลงทุนในธุรกิจล่ะก็ หน่วยรับจ้างสารพัดของเราก็จะยิ่งเติบโตมากขึ้นกว่านี้อีกนะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "โอ๊ะ ตรงโพเดียมนั่น... ใครอยู่ตรงนั้นน่ะ"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ต้องขอขอบคุณเจ้าของธุรกิจทุกท่านที่มาร่วมงานบรรยายเกี่ยวกับธุรกิจของเราในวันนี้ด้วยนะครับ"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "โอกาสทองแบบวันนี้หาไม่ได้ง่ายๆ"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ผมรับประกันได้เลยว่าทุกท่านคือผู้ที่โชคดีมากๆ ที่ได้รับโอกาสนี้ "
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ทุกๆ ท่านคือผู้ที่เราคัดสรรมาแล้วครับ!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "หืม...~ คัดสรรเหรอ....?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "....หืม?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "โอ้ๆ! ว่าแล้ว!  คิดแล้วว่ามันต้องไม่ธรรมดา!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ถ้าอย่างนั้น เราจะขอแนะนำให้ทุกท่านได้ทราบ"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "สินค้ามาแรงที่ทางบริษัทของเรานำมาเสนอให้ทุกท่านในวันนี้! "
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "และนั่นก็คือ....!"
+    },
+    {
+      "Text": "(ตึงงง!)"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "<แบตเตอรี่แคชเมียร์ เอโค่ไพรด์> ครับ!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "เอโค่..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แคชเมียร์....?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "...แบตเตอร์รี่?"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": ".....?"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "และขอให้ทราบว่าสินค้าของเราไม่ได้มีเพียงแค่แบตเตอรี่เท่านั้นนะครับ!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "จากการศึกษาเชิงลึกด้วย AI และจัดทำมาจากวัสถุที่มีประสิทธิภาพสูง..."
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ในอนาคต เรามุ่งมั่นที่จะผลิตสินค้าที่ยอดเยี่ยมและมีประสิทธิภาพกว่าแบตเตอรี่ที่เคยมีมา\nอีกทั้งยังจะดำเนินการผลิตด้วยวัสดุที่เป็นมิตรกับสิ่งแวดล้อมด้วยครับ!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อารุจัง... คือว่าเรื่อง..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "มะ...ไม่นะ....! ลองฟังต่ออีกหน่อยเถอะน่า! "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "คนรู้จักที่เป็นนักธุรกิจของฉันยืนยันกับฉันเองเลยนะ...!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "และยิ่งไปกว่านั้น สิ่งที่บริษัทของเรานำเสนอไม่ได้มีเพียงแค่สินค้าชิ้นนี้เท่านั้นนะครับ!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "บริษัทของเราได้ใช้ระบบการตลาดที่ทันสมัยเพื่อให้บริษัทของลูกค้าทุกท่านได้ปรับผลกำไรสูงสุด..."
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "เราได้คำนึงถึงการป้องกันความเสี่ยงที่จะเกิดขึ้น..."
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ระ...ระบบ... ป้องกันความเสี่ยง (จดๆๆ)"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "....."
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ขณะที่เราเฝ้าติดตามและศึกษาเส้นกราฟความผันผวนทางเศรษฐกิจของคิโวทอสอย่างใกล้ชิด\nทางเราก็ได้วางแผนการเตรียมพร้อมรับมือกับทุกเหตุการณ์ที่อาจจะเกิดขึ้น..."
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ตัวชี้วัดเศรษฐกิจคิโวทอส?"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "(ตัวสั่นหงึกๆ)"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "(แปลกใจ)"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ผมขอจบการอธิบายเพียงเท่านี้ครับ"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "วิธีการลงทุนในธุรกิจของพวกเรานั้น"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ไม่มีอะไรยุ่งยากเลยครับ ทุกท่านเพียงแค่สมัครสมาชิกเพื่อเข้าร่วมลงทุนในบริษัทของเรา"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "เพียงแค่สมัครสมาชิกเท่านั้น ทุกท่านก็จะได้เป็นส่วนหนึ่งของระบบที่น่าเชื่อมั่นนี้ครับ!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "และหากทุกท่านซื้อบัตรสมาชิกมูลค่าห้าล้านเยนในงานนี้\nก็จะได้เลื่อนระดับสมาชิกเป็นระดับเซฟีรอธทันทีครับ!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ลูกค้าทุกท่านจะสามารถรับ \"นางฟ้า 100 องค์\" ได้ในทันที!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อย่าเอาไสยศาสตร์มาผสมกับธุรกิจลูกโซ่สิ!!!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮ่าฮ่าฮ่า! ไม่มีที่ให้ไปต่อแล้วนะ อารุจัง!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ยอมรับว่าตัวเองเป็นพวกต้มตุ๋นได้ยังไงกันล่ะ ฮ่าๆๆๆ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ฮ่า... ประธาน... คนรู้จักคนนั้น...."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "...รู้แล้วล่ะน่า! ...ไม่ต้องพูดมาก!!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ถ้างั้น... ฉันไปกำจัดคนรู้จักคนนั้นให้หายไปจากโลกเลยดีไหมคะ?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "(ทำหน้าเศร้า)"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ได้ยินว่ามีงานบรรยายเกี่ยวกับธุรกิจจัดขึ้นที่ใกล้ๆ กับโรงเรียนทรีนิตี้นะ งานเกี่ยวกับอะไรเหรอ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "สุดท้ายแล้วก็มุ่งเป้าไปที่เด็กสาวใสซื่อที่ไม่รู้จักโลกสินะ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮ่าฮ่าฮ่า!! กับดักแบบนั้น... แต่อารุจัง...! พรืดดด!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ฉันอุตส่าห์เชื่อใจ... ฉันอุตส่าห์เชื่อใจเพราะบอกว่าเป็นข้อมูลระดับสูงที่บอกให้ฉันรู้แค่คนเดียว! "
+    },
+    {
+      "Name": "อารุ",
+      "Text": "กล้าดียังไง ถึงตอบแทนความไว้ใจของฉันแบบนี้?!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "คุณครับ! คะ...คุณลูกค้าท่านนั้น! เอะอะโวยวายอะไรกันครับ?"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "พวกเรามุ่งมั่นที่จะกระจายแผนธุรกิจที่ดีให้กับทุกๆ ท่าน..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ช่างมันสิ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "กล้าดียังไง... มาทำให้ฉันต้องเสียเวลาอันมีค่าแบบนี้..."
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "อะไรนะครับ คุณลูกค้า?  คุณพูดอะไรกัน นี่เป็นโอกาสทองที่หาไม่ได้อีกแล้วนะครับ!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "ขอให้ทุกท่านคว้าโอกาสทองนี้ไว้...!"
+    },
+    {
+      "Text": "(กึ่ก)"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "หือ? ไม่สิ... ไม่ใช่แค่โอกาสธรรมดา แต่เป็นโอกาสที่จะได้เคียงบ่าเคียงไหล่กัน..."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ฮารุกะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "คะ...ค่ะ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "จัดการด้วยล่ะ"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ฮิฮิ ฮี่ๆๆๆๆ!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ค่า! ถ้าเป็นคำสั่งของท่านอารุละก็ได้เสมอเลย!"
+    },
+    {
+      "Name": "พิธีกร",
+      "Text": "อ๊ากกก?! ทะ...ทำอะไรน่ะ?!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "กล้าดียังไงถึงได้มาแย่งช่วงเวลาที่มีค่าของท่านอารุแบบนี้! ทุกคน... ออกไปให้หมดเลย!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "...กล้าดียังไงถึงได้คิดหลอกลวงหน่วยรับจ้างสารพัดของเรา... ฮึ่ม ปล่อยไว้ไม่ได้... ไม่ยอมแล้ว!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "เพราะวิธีที่แสนเจ้าเล่ห์พวกนี้ ทำให้เงินกองกลางของหน่วยรับจ้างสารพัดร่อยหรอจนใกล้จะหมดแล้ว!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "เพราะได้อารุจังช่วยเลยเกือบทำสำเร็จแล้วเชียว~?"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อ๊าาา! พอแล้ว! มุสึกิ! คาโยโกะ!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อื้อ~ ฉันเองก็สนุกมากเหมือนกัน เอาล่ะ! เริ่มกันเลยมั้ย!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เฮอะ ช่วยไม่ได้นะ"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ทุกคน! จัดการพวกมันให้หมด!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ชมรมทวงความยุติธรรมค่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "ฉันมาที่นี่เพราะได้ยินว่ามีการจัดงานบรรยายเกี่ยวกับธุรกิจผิดกฎหมายขึ้นค่ะ!"
+    },
+    {
+      "Name": "มาชิโระ",
+      "Text": "มาแล้วค่ะ!"
+    },
+    {
+      "Name": "ฮาสุมิ",
+      "Text": "หือ...? วุ่นวายไปหมดแล้วเลยนี่?"
+    },
+    {
+      "Name": "มาชิโระ",
+      "Text": "เอ๊ะ รุ่นพี่ฮาสุมิ ไม่มีใครเลยนี่คะ?"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "อึ่ก ไม่คิดว่าชมรมทวงความยุติธรรมของทรีนิตี้จะโผล่มาในนาทีสุดท้ายแบบนี้!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ถ้าเข้าไปพัวพันกับพวกนั้น คงทำให้คณะกรรมการวินัยวุ่นวายแน่ๆ"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ถ้าทำให้ประธานกรรมการเสียหน้าได้ก็คงจะสนุกไม่น้อยเลยน้า~"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "สะ...สั่งมาได้เลยค่ะ! แล้วฉันจะทำตามทุกอย่างเลย....!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อ๊าาาาาา! อย่าพูดอะไรให้มันยุ่งยากสิ!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "อ่า...."
+    },
+    {
+      "Name": "อารุ",
+      "Text": "วะ...วันนี้ฉันจะยอมถอยก่อน แต่คราวหน้าเจอดีกันแน่!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "สินค้าที่คนรู้จักแนะนำมาให้ลอยๆ แบบนี้ คราวหน้าฉันไม่เชื่ออีกแล้ว!"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "คอยดูแล้วกัน ฉันจะทำให้ธุรกิจประสบความสำเร็จด้วยมือของฉันเอง!!"
+    },
+    {
+      "Name": "มุสึกิ",
+      "Text": "ฮ่ะฮ่ะฮ่า~ สมกับเป็นอารุจังจริงๆ เลยน้า!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ฮ่า... คิดแล้วเชียวว่าจะเป็นแบบนี้"
+    },
+    {
+      "Name": "อารุ",
+      "Text": "ช่างเถอะ! ทุกคน! ถอยก่อน!"
+    },
+    {
+      "Name": "ฮารุกะ",
+      "Text": "ค่า~ ค่ะ!"
+    },
+    {
+      "Text": "(เพื่อหลีกเลี่ยงการปะทะกับชมรมทวงความยุติธรรม\nหน่วยรับจ้างสารพัดจึงออกมาที่ถนนของสถาบันทรีนิตี้ในเวลากลางคืน)"
+    },
+    {
+      "Text": "แผนธุรกิจที่บกพร่อง"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "不正經的事業計劃"
+    },
+    {
+      "Text": "三一學園．商店街"
+    },
+    {
+      "Name": "三一女學生A",
+      "Text": "哎呀，真的嗎～？"
+    },
+    {
+      "Name": "三一女學生B",
+      "Text": "真的～就在商店街盡頭那間咖啡廳……"
+    },
+    {
+      "Name": "無月",
+      "Text": "哼～……這裡每個人都是一臉天下太平的樣子。"
+    },
+    {
+      "Name": "無月",
+      "Text": "而且用字遣詞都一整個「千金大小姐」的感覺。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "感，感覺大家都閃閃發亮的。 "
+    },
+    {
+      "Name": "遙香",
+      "Text": "像，像我這種人，真的可以待在這裡嗎……"
+    },
+    {
+      "Name": "無月",
+      "Text": "啊，我想到一個好主意。要不要在這大街正中央引發爆炸呀？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……這哪叫好主意。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "別這樣，無月。如果有要我們炸掉三一商店街的委託就另當別論。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "但今天我們有別的事要處理，引發騷動可不是上策。"
+    },
+    {
+      "Name": "無月",
+      "Text": "話說亞瑠醬，這回到底是什麼事情，要突然跑來三一啊？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "呵呵呵，你們聽了可別嚇到。"
+    },
+    {
+      "Name": "無月",
+      "Text": "這你不用擔心～，亞瑠說的話現在已經不會讓我嚇到了。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "這倒是沒錯。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "我，我可能會大吃一驚！已，已經做好心理準備了……！ "
+    },
+    {
+      "Name": "遙香",
+      "Text": "啊……可是亞瑠大人又說不要嚇到……這，這該怎麼辦！？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "唉唷，你們不要吵啦！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "咳，總之我們今天來三一的目的呢……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "是因為這裡有一場創業說明會。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "創業說明會？ "
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……辦在這種大小姐學園眼皮子底下？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "沒錯。這是我透過認識的人脈打聽到的消息……"
+    },
+    {
+      "Name": "無月",
+      "Text": "亞瑠醬有人脈？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……唉，聽起來就不可靠。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "為，為什麼你們還沒聽就這種反應？！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我這個情報絕對可靠！這是上次那個委託人介紹的！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "那個委託人說了：「我最近有個好消息，但是我只告訴亞瑠社長，記得要保密喔，好嗎？」……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "這可是在奇普托斯地下社會也只有少數人知道的最高機密！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "是個只在不法之徒間流傳的祕密事業……！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "不覺得很不得了嗎？！"
+    },
+    {
+      "Name": "無月",
+      "Text": "嗯哼～……既然亞瑠醬覺得OK，那我也沒意見。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "不，不愧是亞瑠大人！好厲害！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "哈哈哈，你們可以多誇我一點！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "多虧我高明的生意手腕，才有辦法獲得如此珍貴的機會！"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……希望至少不會出什麼麻煩事。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "好了，趕快去說明會吧！可別遲到了。"
+    },
+    {
+      "Name": "無月",
+      "Text": "哇～噢。好多人唷。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "這些全都是要參加那什麼創業說明會的人嗎？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "驚人的可不只有人數喔。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "會來到這裡的企業家，都是地下社會裡屈指可數……在各個領域成功有為的企業家！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "只要能讓這裡的人記得我們的長相，散播我們的名聲，對我們而言就是很大的收穫了。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "而且，如果我們能對上台的企業進行投資並獲利……我們便利屋的未來就是彩色的了！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "啊，有人上台了……"
+    },
+    {
+      "Name": "主持人",
+      "Text": "首先，請容我在這裡感謝主辦單位，邀請本公司參加今天的創業說明會。"
+    },
+    {
+      "Name": "主持人",
+      "Text": "我要先強調一下，今天這樣的機會，可是相當難得。"
+    },
+    {
+      "Name": "主持人",
+      "Text": "各位光是能來到這裡，就可說是相當幸運了。"
+    },
+    {
+      "Name": "主持人",
+      "Text": "沒錯，今天在場的各位，都是天選之人！"
+    },
+    {
+      "Name": "無月",
+      "Text": "喔～……？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "果，果然啊！我們掌握創業關鍵了！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "好了，別再聊我們公司了，現在就來為各位介紹，"
+    },
+    {
+      "Name": "主持人",
+      "Text": "本公司將為各位帶來，我們信心十足的產品！ "
+    },
+    {
+      "Name": "主持人",
+      "Text": "也就是……！"
+    },
+    {
+      "Text": "（鏘鏘──！）"
+    },
+    {
+      "Name": "主持人",
+      "Text": "「喀什米爾羊毛製的環保行動電池」！"
+    },
+    {
+      "Name": "無月",
+      "Text": "喀什米爾……？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "環保……？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……電池？"
+    },
+    {
+      "Name": "遙香",
+      "Text": "……？？？"
+    },
+    {
+      "Name": "主持人",
+      "Text": "這可不是個普通的行動電池！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "而是利用AI進行深度學習，遴選出最有效率的原料，並大量使用製造……"
+    },
+    {
+      "Name": "主持人",
+      "Text": "以最高級素材，實現比任何電池都卓越的效能！"
+    },
+    {
+      "Name": "無月",
+      "Text": "亞瑠醬，這個東西……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "還，還不好說！我們再聽一下……！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "那個企業家有說了……！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "當然，本公司將提供的可不只這項產品！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "本公司為了創造最大收益，將使用獨特的行銷系統……"
+    },
+    {
+      "Name": "主持人",
+      "Text": "帶來縝密考量避險方針的營運策略……"
+    },
+    {
+      "Name": "遙香",
+      "Text": "系，系統……避險……（筆記筆記）"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "主持人",
+      "Text": "時刻緊盯震盪劇烈的奇普托斯經濟指標，同時建立好無論何種狀況都能靈活應對的……"
+    },
+    {
+      "Name": "遙香",
+      "Text": "經，經濟指標……？"
+    },
+    {
+      "Name": "無月",
+      "Text": "（發抖……）"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……呼。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "（欸欸……）"
+    },
+    {
+      "Name": "主持人",
+      "Text": "那麼，我們的說明就到這邊。"
+    },
+    {
+      "Name": "主持人",
+      "Text": "接下來就是大家期待已久的，能實際投資我們企業的方法……"
+    },
+    {
+      "Name": "主持人",
+      "Text": "請放心，一點都不複雜。只要各位購買會員卡來加入我們的服務系統就可以了！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "只要購買會員卡，就能直接使用這套系統！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "而且現在！只要購買這張500萬圓的會員卡，各位的天使階級就會馬上升級為「熾天使」！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "各位客戶立刻就能率領100名天使了！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "灌水也灌太多！？先是跟老鼠會沒兩樣的可疑業務，現在又給我扯宗教！！！"
+    },
+    {
+      "Name": "無月",
+      "Text": "啊哈哈哈！亞瑠醬你終於吐槽了！"
+    },
+    {
+      "Name": "無月",
+      "Text": "你終於承認這是老鼠會了，啊哈哈！"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……社長，告訴你這地方的那個人……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我知道了啦！別再說了！！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "那個，需要我把那位熟人除掉嗎？"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "嗚嗚……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "一開始聽到創業說明會要辦在三一附近，我就猜到會這樣了。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "感覺就是要欺騙那些不諳世事的千金大小姐。"
+    },
+    {
+      "Name": "無月",
+      "Text": "噗哈哈哈！！人家明明是要釣大小姐，結果卻釣到亞瑠醬……！噗噗噗！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我很相信耶……人家說只告訴我，害我很相信耶……！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "竟然敢，恩將仇報！！！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "那，那邊幾位客人？請問有什麼事嗎？"
+    },
+    {
+      "Name": "主持人",
+      "Text": "我們單純秉持著健全的事業計畫，要提供機會給各位……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "夠了。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "竟敢浪費我們寶貴的時間。"
+    },
+    {
+      "Name": "主持人",
+      "Text": "客，客人，您這是……？這可是絕無僅有的機會啊……！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "讓我們一起在此抓住夢想與希望……！"
+    },
+    {
+      "Text": "（緊抓）"
+    },
+    {
+      "Name": "主持人",
+      "Text": "咦，不是，要抓的不是我的肩膀，而是機會……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "遙香。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "是，是！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "動手。"
+    },
+    {
+      "Name": "遙香",
+      "Text": "是！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "一切遵從亞瑠大人的命令！"
+    },
+    {
+      "Name": "主持人",
+      "Text": "呃啊啊？！你，你們在做什麼？！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "居，居然敢浪費亞瑠大人寶貴的時間……！全部，全部消失吧！！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "……居敢企圖敲詐我們便利屋。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "搞個不好，我們便利屋的資金就會被你巧妙的話術給全部騙走了！"
+    },
+    {
+      "Name": "無月",
+      "Text": "亞瑠醬好誠實喔。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "別說了啦！無月！佳世子！"
+    },
+    {
+      "Name": "無月",
+      "Text": "反正我也開心夠了，開始吧！"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……沒辦法了。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "全都給我滅了！！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我們是實現正義部！ "
+    },
+    {
+      "Name": "蓮實",
+      "Text": "我們接獲通報顯示，這裡正在舉辦一場非法創業說明會！"
+    },
+    {
+      "Name": "麻白",
+      "Text": "因此前來查緝！"
+    },
+    {
+      "Name": "蓮實",
+      "Text": "……？"
+    },
+    {
+      "Name": "麻白",
+      "Text": "……沒有人在耶？"
+    },
+    {
+      "Name": "無月",
+      "Text": "好險啊～，三一的實現正義部竟然也來了！"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "她們跟風紀委員會一樣麻煩……最好還是不要給她們碰到。"
+    },
+    {
+      "Name": "無月",
+      "Text": "不過要是碰上了，我們家的風紀委員長的表情八成會扭成一團吧，感覺那樣也挺好玩的～"
+    },
+    {
+      "Name": "遙香",
+      "Text": "那，那要去嗎？只要亞瑠大人吩咐，我會全部……！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "呃啊啊！你們不要把事情鬧大啦！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "哈……"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "好，今天這事已經結束了！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我以後絕對不會再相信，任何熟人沒頭沒腦推薦的事業了！"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "我們不需要依賴別人，我們要親手壯大自己的事業！！"
+    },
+    {
+      "Name": "無月",
+      "Text": "啊哈，這才是亞瑠醬～！"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……我就知道會變成這樣。"
+    },
+    {
+      "Name": "亞瑠",
+      "Text": "好了，我們快撤吧！"
+    },
+    {
+      "Name": "遙香",
+      "Text": "是，是！"
+    },
+    {
+      "Text": "（於是，便利屋就像是要躲避實現正義部一般，奔馳在三一地區夜晚的街上）"
+    },
+    {
+      "Text": "不正經的事業計劃"
+    }
+  ]
+}

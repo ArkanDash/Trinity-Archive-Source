@@ -1,0 +1,2497 @@
+{
+  "TitleJP": "同床異夢",
+  "TitleKR": "동상이몽",
+  "TitleEN": "On a Different Page",
+  "TitleTH": "ความฝันที่แตกต่าง",
+  "TitleTW": "同床異夢",
+  "DescJP": "彼岸邸の地下に閉じ込められた百花繚乱の面々と先生。ナグサは、アヤメを理解できていなかった自分を責めていた。そこにシュロが現れ、勝ち誇るが――ナグサがクズノハと出会ったと聞き、目の色を変える。内心迷いを抱えていたシュロは、クズノハの元へ道案内をさせるため、一行を牢から連れ出すのだった。",
+  "DescKR": "감옥에 갇혀 탈출할 방법을 궁리하는 백화요란 일행 앞에 슈로가 나타나 이들을 조롱한다. 하지만 나구사가 전설 속의 대 예언자, 쿠즈노하를 만났다는 이야기에 슈로는 새로운 괴서를 얻기 위해 이들을 결박한 채 풀어준다.",
+  "DescEN": "The imprisoned Hyakkaryouran discuss escape plans as Shuro appears and mocks them. However, after learning that Nagusa has met the Great Prophet Kuzunoha, Shuro tentatively releases them while keeping them tied up. She intends to obtain a new tome.",
+  "DescTH": "เฮียกกะเรียวรันไตร่ตรองหาวิธีหนีออกจากคุก ชูโระมาปรากฏตัวและก็\nเยาะเย้ยพวกเธอ แต่เมื่อได้ฟังเรื่องเล่าว่านางุสะได้ไปเจอกับคุซึโนฮะ ผู้พยากรณ์ใหญ่ในตำนาน ชูโระก็ปล่อยพวกเธอทั้งที่ยังถูกมัดไว้เพื่อให้ได้\nหนังสือเล่มใหม่",
+  "DescTW": "正苦思脫困之法的百花繚亂，遭棕櫚嘲諷。然而，當聽聞名草曾遇見傳說中的大預言者「葛葉」時，棕櫚為奪取新怪書，選擇將他們綁縛後釋放。",
+  "DialogJP": [
+    {
+      "Text": "第18話;同床異夢"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ふんっ……ぬぬぬぬぬ……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "もう……ちょっとで……！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "キキョウ、見てないで手伝えよ！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "この鉄格子、あとちょっとで人が通れるくらいの隙間ができ……そうっ！\n……なんだよ……！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "そんな無駄なことしないで、ちょっとは体力を温存したら？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "あいつらは監視も立ててない……つまり、私たちをここから出さないだけの自信があるってことだよ。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "だからってじっとしてろってか！？\nやれることは試してみないとだろ！？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "はぁ……今、脱出方法を考えてるところなんだけど。\nみんながあんたみたいに、気合と根性で解決するタイプじゃないの。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "そもそも最初から[ruby=・]あ[/ruby][ruby=・]の[/ruby]アヤメを信じなければ……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それは、そうだけど……。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "な、何か考えがあるなら言ってくれよ！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "集中したいからちょっと黙ってて！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "なっ、キキョウお前――！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "き、キキョウ先輩、レンゲ先輩！落ち着いてくださいまし！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "今は言い争っている場合では……！"
+    },
+    {
+      "Text": "[ns1] \"なんだか騒がしいね……。\""
+    },
+    {
+      "Text": "[ns2] \"……私、どれくらい寝てたんだろう。\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "[USERNAME]先生！"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "師匠！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "先生、大丈夫？怪我はない？"
+    },
+    {
+      "Text": "[s3] \"うん、ちょっと頭は痛いけど平気。\""
+    },
+    {
+      "Text": "[s4] \"みんなも怪我はない？\""
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ああ。こっちは軽い擦り傷程度だよ。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "百花繚乱たるもの、この程度へっちゃらですの！"
+    },
+    {
+      "Text": "[ns] \"ここは……？\""
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "ここは「彼岸邸」の地下。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "私たちは花鳥風月部との戦闘に負けて……ここに連れてこられた。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "勘解由小路家の地下にも似たような倉庫がありますが……それを牢屋として使っているなんて。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "ちっ、アイツらに銃弾が通ればな……。"
+    },
+    {
+      "Text": "[s5] \"花鳥風月部……？\""
+    },
+    {
+      "Text": "[s6] \"何があったの？\""
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "結論から言えば――"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "北部自治区であの女から見聞きしたことは、全部ウソだったってこと。"
+    },
+    {
+      "Text": "（気絶していた時の出来事を説明してもらった）"
+    },
+    {
+      "Text": "[ns] \"……まさか、アザミが花鳥風月部の一人だったなんて。\""
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ええ。あの優しそうな会長さんが……しょっくです。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "最初から私たちを騙すための芝居だったんだよ。\nあの笑顔、思い出すだけで寒気がする。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "じゃあエビス分校の自治区も、住民もニセモノだったってことか……？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "いや、あの人たちは関係ないんじゃないかな。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "いくら百物語が強力だとしても、お祭りに使われる食材までは作り出せないと思うよ。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "それに、一部の人は[ruby=はぶ]土生[/ruby]アザミに対して初対面みたいな反応だったし。"
+    },
+    {
+      "Text": "[s] \"じゃあ……アヤメもニセモノだったのかな？\""
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "それなんだけどさ……。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "私たちも気になって、アヤメ先輩と最後まで一緒だったナグサ先輩に聞いてみたんだけど……。"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "でも、何があったのかまでは……。\nナグサ先輩、ずっと塞ぎ込んでしまっておりまして。"
+    },
+    {
+      "Text": "[ns7] \"……大丈夫？\""
+    },
+    {
+      "Text": "[ns8] \"どこか具合でも悪い？\""
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……大丈夫。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "ごめんなさい……私が未熟だから、みんなを危険な目に遭わせた。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "先輩は何も悪くないだろ！全部花鳥風月部のせいだって！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "ええ、ナグサ先輩は皆のために最善を尽くしていましたわ！"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "いま自分を責めてもしょうがないでしょ。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "この事態を招いたのはあんたじゃなくてアヤメ先輩でしょ？"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……ううん、アヤメのせいじゃない。\n彼女は間違ってないの。"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "は？"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "結局私が、アヤメを理解できていなかったから――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "そうですよねぇ。都合のいい夢に甘えてた、[ruby=てめぇ]手前[/ruby]のせいですよぉ。\nねっ、ナグサちゃん？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "[ruby=やぶき]箭吹[/ruby]シュロ……！"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "あはっ、アハハハッ！"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "何ですかぁ、その無様な姿。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "あの時の威勢のよさは、どこ行っちゃったんですぅ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "まさかぁ……優しい優しいアヤメがニセモノだなんて思ってなかったんですぅ？\n夢にまで見た親友を、間違えちゃったんですかぁ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……ウソばっかり。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "都合の悪い現実に、蓋をしてただけですよねぇ？"
+    },
+    {
+      "Name": "キキョウ",
+      "Text": "そう……じゃあ、私たちが会ったアヤメ先輩は本物じゃなかったんだね。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "ええ、そうですよぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "仲間の危機に颯爽と駆けつけて、感動の再会を果たす親友だなんてぇ……ご都合主義も大概にしてくださいよぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "あのアヤメ……いえ、「アレ」は、怪書「[ruby=とうていぶっかいろく]稲亭物怪録[/ruby]」から生まれた、ナグサちゃんの「恐怖」なんですよぉ！"
+    },
+    {
+      "Name": "ユカリ",
+      "Text": "で、でも、あのお方はとても明るくて……恐怖だなんてとてもそんな風には。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "相変わらず、なぁんにも知らないんですねぇ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "恐怖は、ときに[ruby=・]幸[/ruby][ruby=・]せ[/ruby]の姿をしてやってくるんですよぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "心の中でずぅっと否定してきた、夢みたいな幸せ。\nそれが現実になるほど恐いことなんて、ないですよねぇ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "偽りの幸せを享受すればするほど……残酷な現実がくっきり浮かび上がるんですから。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "っ……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "だ～か～らぁ、あなたはアヤメの代わりになれないんですよ、ナグサちゃん。"
+    },
+    {
+      "Name": "レンゲ",
+      "Text": "お前にナグサ先輩の何がわかるんだよ！？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "アハッ！ムキになっても無駄ですよぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "いくら泣いたって怒ったって、現実は変わらないんですからぁ。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "手前らがいくら努力したって、あのアヤメの足元にも及びませんよぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "どうせ、いつかは捨てられる消耗品に、何一つできやしないんですから！"
+    },
+    {
+      "Text": "[s] \"シュロ、一つ聞きたいんだけど。\""
+    },
+    {
+      "Name": "シュロ",
+      "Text": "何ですかぁ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "もう屁理屈は聞き飽きてますよぉ。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "負け犬の遠吠えなんて、手前には響きませんしぃ？"
+    },
+    {
+      "Text": "[s9] \"最初から、全部知ってたんだよね？\""
+    },
+    {
+      "Text": "[s10] \"あの時アヤメに撃たれたのも、演技だったのかな。\""
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……はぁ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "そんなくだらないことが聞きたかったんですぅ？手前、興醒めなんですけど？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "当然でしょう？全部ぜ～んぶ、手前さん方を捕まえるためのお芝居だったんですから。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "アレに捕まったのも、手前さん方を彼岸邸に誘い出したのもぉ……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……え？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……シャーレの先生？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "手前様を盾にしたのも、全部、全部――"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……っ、コクリコ様のための演技だったんですからぁ！"
+    },
+    {
+      "Text": "[ns11] \"捕まっといて言うことでもないし……。\""
+    },
+    {
+      "Text": "[ns12] \"それに、もう聞き飽きてるかもしれないけど……。\""
+    },
+    {
+      "Text": "[ns13] \"……自分以外の何かを演じるのは、悪いことじゃない。\""
+    },
+    {
+      "Text": "[ns14] \"誰だってすることだからね。\""
+    },
+    {
+      "Text": "[ns] \"でも、だからこそ……自分がした行動に目を背けないで。\""
+    },
+    {
+      "Text": "[ns] \"シュロは、シュロのすべきことをしたんだよね？\""
+    },
+    {
+      "Name": "シュロ",
+      "Text": "は、ハハッ……何を言うかと思えばぁ。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "それっぽいこと言って、手前を引き入れようって魂胆ですかぁ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "助けられたからって、コクリコ様を裏切るとでもぉ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "ほんっと、頭お花畑なんですねぇ……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "幼稚でくだらない、おままごとみてぇな発想……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "全部、[ruby=てめえ]手前[/ruby]らが信じるクズノハと同じ、くだらないくだらない妄想ですよぉ！"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……クズノハ。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……あの時どうして私を助けたのかな。"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "どうして、アヤメじゃなくて私を……あのまま放っておいてくれたらよかったのに……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "は？何言ってるんです？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "まるで本当にクズノハと会ったかのような……。"
+    },
+    {
+      "Text": "[s15] \"クズノハはただのおとぎ話じゃないよ。\""
+    },
+    {
+      "Text": "[s16] \"私も前に、ナグサからクズノハの手紙をもらったんだ。\""
+    },
+    {
+      "Name": "シュロ",
+      "Text": "クズノハが……いるっていうんですかぁ？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "全ての怪書の始まりであり、百花繚乱の初代委員長――大預言者クズノハが？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "そんな世迷言……手前をからかってるんですね？\nでしたら――！"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "いや、でも……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "コクリコ様は、あの時ナグサは大雪原のど真ん中にいたって……それなのに、生きて帰ってきてる。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "獣も寄りつかない大雪原で、誰がナグサを……？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "それに、シャーレの先生は……屁理屈をこねても嘘はつかない……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "本当に大預言者クズノハが……黄昏の寺院にいるのなら……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "失くした「稲生物怪録」の代わりの怪書が作れる……？\nそうしたら……コクリコ様だって、もっと手前を……。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "……本当に本当に残念でしたねぇ、ナグサちゃん。\n針のむしろに座ってる気分でしょう？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "ああ、可哀想なナグサちゃん。\n心の底から同情しちゃいますぅ。"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "そんなナグサちゃんに……優しい優しい手前が機会を差し上げましょうかぁ？"
+    },
+    {
+      "Name": "ナグサ",
+      "Text": "……機会？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "ナグサちゃんは、なんとしてでも助けたい存在がいるのでしょう？"
+    },
+    {
+      "Name": "シュロ",
+      "Text": "だったら、また会えばいいんですよぉ……クズノハに。"
+    },
+    {
+      "Text": "次回;彼岸の記憶"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제18화;동상이몽"
+    },
+    {
+      "Name": "렌게",
+      "Text": "이익, 이이익……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "조금만 더…… 조금만 더 당기면……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "키쿄, 거기서 그렇게 쳐다보기만 할 거면 같이 와서 철창 당기는 것 좀 도와줘!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "조금만, 조금만 더 당기면…… 한 사람 정도 나갈 수 있는 틈이 생길 것 같은데……!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "지금은 그런 쓸데없는 시도에 힘을 낭비하는 것보다, 이후의 상황을 대비해 체력을 아껴두는 편이 낫지 않을까?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "어차피 감시도 세워두지 않고 자리를 비웠을 정도니, 그 철창이 힘으로 뜯어낼 수 있을 만큼 허술하지는 않을 거라 생각해."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그렇다고 이대로 가만히 갇혀 있기만 할 거야? 할 수 있는 건 뭐든 해 봐야지!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그래서 이곳을 빠져나갈 수 있는 방법을 궁리하고 있잖아. 모두가 너처럼 기합과 의욕만으로 문제를 해결하려 들진 않거든?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "애초에 내가 처음에 말했던 것처럼 아야메 부장을 의심했더라면, 이렇게까지 문제가 커지진 않았을 텐데."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그, 그건 그렇지만……"
+    },
+    {
+      "Name": "렌게",
+      "Text": "그럼 이곳을 빠져나갈 다른 대책이 있다면, 빨리 말해 보라고. 시간이 없으니까."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그러니까—, 생각 좀 하게 그 시끄러운 입을 다물고 있어 주지 않을래?"
+    },
+    {
+      "Name": "렌게",
+      "Text": "너, 말 다했어?!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "키, 키쿄 선배. 렌게 선배. 우선은 진정하셔요!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "지금은 저희끼리 싸울 때가 아니—"
+    },
+    {
+      "Text": "[ns1] \"뭔가 소란스럽네……\""
+    },
+    {
+      "Text": "[ns2] \"……내가 얼마나 잠들어 있었던 거지?\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "[USERNAME] 선생님!"
+    },
+    {
+      "Name": "렌게",
+      "Text": "……스승님!"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "선생님, 몸은 괜찮아? 다친 곳은 없고?"
+    },
+    {
+      "Text": "[s3] \"응. 머리가 조금 아프지만, 다친 곳은 없는 것 같아.\""
+    },
+    {
+      "Text": "[s4] \"너희들도 다친 곳은 없니?\""
+    },
+    {
+      "Name": "렌게",
+      "Text": "응, 조금 긁히긴 했지만 부상 자체는 대단치 않아."
+    },
+    {
+      "Name": "유카리",
+      "Text": "튼튼한 신체 역시 백화요란 부원이 갖추어야 할 소양이니까요!"
+    },
+    {
+      "Text": "[ns] \"그보다 이곳은……?\""
+    },
+    {
+      "Name": "키쿄",
+      "Text": "여기는 <피안의 저택>에 있는 지하 감옥이야."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "화조풍월부 녀석들과의 전투에서 패배한 뒤, 곧장 이곳으로 끌려 왔어."
+    },
+    {
+      "Name": "유카리",
+      "Text": "카데노코지 가문의 지하에도 이와 비슷한 창고가 있었는데…… 설마 이런 식으로 사용될 거라곤 상상도 하지 못했사와요."
+    },
+    {
+      "Name": "렌게",
+      "Text": "젠장, 녀석들에게 총알만 먹혔더라도 이렇게 허무하게 잡히진 않았을 텐데……"
+    },
+    {
+      "Text": "[s5] \"화조풍월부라고……?\""
+    },
+    {
+      "Text": "[s6] \"그 사이에 무슨 일들이 벌어졌었던 거야?\""
+    },
+    {
+      "Name": "키쿄",
+      "Text": "결론부터 간단하게 정리하자면."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "우리가 북방 자치구에서 마주친 거의 모든 것들이 가짜였다는 거야."
+    },
+    {
+      "Text": "(키쿄로부터 기절한 사이 있었던 일들에 대해 설명을 들었다.)"
+    },
+    {
+      "Text": "[ns] \"……설마 아자미 양이 화조풍월부의 부원이었을 줄이야.\""
+    },
+    {
+      "Name": "유카리",
+      "Text": "그러니까요. 그렇게나 친절해 보였던 부장님이 실은 저희를 적대하는 화조풍월부의 부원이었다니, 정말 쇼-쿠였사와요……"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "분명 처음부터 우릴 속일 생각으로 접근했었겠지. 그 웃는 낯으로 무슨 생각을 하고 있었을지, 떠올리는 것만으로도 구역질이 나."
+    },
+    {
+      "Name": "렌게",
+      "Text": "그럼 이 에비스 분교 주변의 자치구도, 이곳에서 만난 주민들도 모두 가짜였던 거야? 그렇게 생각하니 조금 소름 끼치는데……"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "아니, 에비스 분교의 주민들은 백물어와 상관없는 진짜였을 거야."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "아무리 백물어가 강력한 힘을 지니고 있다고 해도 축제에 쓰이는 에비스산 식재료까지 가짜로 만들어 낼 수는 없으니까."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "애초에 일부 주민들은 처음부터 아자미를 낯설어하는 눈치이기도 했었고."
+    },
+    {
+      "Text": "[s] \"그럼…… 아야메도 가짜였던 건가?\""
+    },
+    {
+      "Name": "렌게",
+      "Text": "그게, 사실은 말이야……"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "우리도 그게 신경 쓰여서 아야메 부장과 마지막까지 있었던 나구사 선배에게 무슨 일이 있었는지 물었거든."
+    },
+    {
+      "Name": "유카리",
+      "Text": "하지만 무슨 일이 있으셨는지 선배는 줄곧 저 상태셔요……"
+    },
+    {
+      "Text": "[ns7] \"……괜찮아, 나구사?\""
+    },
+    {
+      "Text": "[ns8] \"어디 다친 곳이라도 있는 거야?\""
+    },
+    {
+      "Name": "나구사",
+      "Text": "……나는 괜찮아."
+    },
+    {
+      "Name": "나구사",
+      "Text": "그저…… 내 미숙함으로 모두를 위험에 빠트린 걸 용납할 수 없을 뿐이야."
+    },
+    {
+      "Name": "렌게",
+      "Text": "선배가 뭘 잘못했다는 거야? 상황이 이렇게 된 건 모두 화조풍월부 녀석들 때문이지!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "그렇사와요. 나구사 선배는 다른 부원들을 지키기 위해 최선을 다하셨을 뿐인걸요."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "나구사 선배, 지금은 혼란스럽겠지만 책망해야 할 상대를 착각하진 말아줘."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "작금의 사태를 정리하고 수습해야 할 책임은, 부장 대리인 당신이 아니라…… 부장인 아야메 선배에게 있으니까."
+    },
+    {
+      "Name": "나구사",
+      "Text": "……아니, 아야메의 책임이 아니야. 아야메는 잘못하지 않았어."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "……선배!"
+    },
+    {
+      "Name": "나구사",
+      "Text": "결국 이 모든 사건의 원인은 아야메를 이해하지 못한—"
+    },
+    {
+      "Name": "???",
+      "Text": "……능력도 없으면서, 믿고 싶은 대로 상대를 믿어버린 당신의 탓이죠.\n그렇지 않나요, 나구사 쨩~?"
+    },
+    {
+      "Name": "키쿄",
+      "Text": "야부키 슈로……!"
+    },
+    {
+      "Name": "슈로",
+      "Text": "아하하, 아하하하!"
+    },
+    {
+      "Name": "슈로",
+      "Text": "뭔가요, 그 한심한 꼴은?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "그때의 그 기세는, 그때의 그 결심은 어디에 두고서. 이제 와서 꼴사납게 흐느끼고 있는 건가요, 나구사 쨩."
+    },
+    {
+      "Name": "슈로",
+      "Text": "갑자기 자신 앞에 모습을 드러낸 아야메가 가짜인 줄 몰랐다고요? 꿈에서도 잊지 못했던 친구의 모습을 착각했었다고요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "……거짓말."
+    },
+    {
+      "Name": "슈로",
+      "Text": "단순히 믿고 싶지 않았던 것뿐이면서."
+    },
+    {
+      "Name": "키쿄",
+      "Text": "그 말은, 우리가 만났던 아야메 부장이 진짜가 아니었다는 뜻이야?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "물론이고 말고요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "위기에 처하자마자 기다리고 있었던 것처럼 등장해 목숨을 구해주고, 듣기 좋은 소리로 죄책감을 덜어주는 친구라니. 편의주의적인 망상도 정도가 있지."
+    },
+    {
+      "Name": "슈로",
+      "Text": "그 아야메는…… 아니. 아야메의 모습을 한 '그것'은 사실, 괴서 <토테이붓카이로쿠>의 신비에서 태어난 나구사 쨩의 두려움이었답니다!"
+    },
+    {
+      "Name": "유카리",
+      "Text": "두려움이요? 하지만 그 아야메 선배의 모습은 조금도 무서워 보이지 않았는데……"
+    },
+    {
+      "Name": "슈로",
+      "Text": "역시 세상 물정 모르시는 말씀이시네요, 카데노코지의 무녀님."
+    },
+    {
+      "Name": "슈로",
+      "Text": "두려움이란 알기 쉬운 소름 끼치거나 두려운 형태를 하고 있기도 하지만, 가끔은 도리어 행복을 의태 하기도 하지요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "마음속으로 줄곧 부정해 오던, 절대로 현실이 될 수 없는 허황된 행복. 그 행복이 눈앞에 나타나는 것만큼이나 두려운 일도 없잖아요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "왜냐하면…… 그 가상의 행복을 바라볼수록 현실의 잔인함이 더욱 사무쳐 스며드니까."
+    },
+    {
+      "Name": "나구사",
+      "Text": "윽………"
+    },
+    {
+      "Name": "슈로",
+      "Text": "당신은 그러니까 아야메의 대체품이 될 수 없는 거예요, 나구사 쨩."
+    },
+    {
+      "Name": "렌게",
+      "Text": "네가 나구사 선배에 대해 뭘 안다고 멋대로 떠드는 거야?!"
+    },
+    {
+      "Name": "슈로",
+      "Text": "아하하하! 그렇게라도 악을 써서 부정하고 싶은 거죠?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "하지만 이를 어쩌죠? 울부짖고 소리쳐 부정해도 현실은 조금도 바뀌지 않는데."
+    },
+    {
+      "Name": "슈로",
+      "Text": "네 녀석들이 아무리 노력한다 해도 아야메의 발끝도 따라가지 못하는 실패작이라는 사실은 바뀌지가 않는데."
+    },
+    {
+      "Name": "슈로",
+      "Text": "결국 언젠가 쓸모를 다하면 버려질 폐품일 뿐인데—"
+    },
+    {
+      "Text": "[s] \"슈로, 한 가지 궁금한 게 있는데.\""
+    },
+    {
+      "Name": "슈로",
+      "Text": "뭔가요, 샬레의 선생님."
+    },
+    {
+      "Name": "슈로",
+      "Text": "또 궤변으로 저를 흔들어 볼 계획이시라면 그만두시는 게 좋을걸요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "이미 붙잡힌 패배자에게 무슨 도발을 듣더라도 저는 동요하지 않을 테니까."
+    },
+    {
+      "Text": "[s9] \"슈로가 처음부터 모든 걸 알고 있었더라면……\""
+    },
+    {
+      "Text": "[s10] \"그때 가짜 아야메에게 당했던 것도 연기였던 거야?\""
+    },
+    {
+      "Name": "슈로",
+      "Text": "…………하아?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "그걸 질문이라고 하는 건가요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "당연한 소릴…… 모든 게 당신과 백화요란을 사로잡기 위해 처음부터 계획된 것이었다고요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "가짜 아야메에게 붙잡힌 것도, 당신을 피안의 저택으로 이끈 것도—"
+    },
+    {
+      "Name": "슈로",
+      "Text": "………어?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "……샬레의 선생님?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "마지막에 당신을 방패막이로 쓴 것까지 모두……"
+    },
+    {
+      "Name": "슈로",
+      "Text": "……모두 코쿠리코 님을 위한 연기였으니까!"
+    },
+    {
+      "Text": "[ns11] \"붙잡힌 처지에서 할 소리는 아니지만……\""
+    },
+    {
+      "Text": "[ns12] \"전에도 한 번 이야기했었지만……\""
+    },
+    {
+      "Text": "[ns13] \"자신에게 없는 걸 연기하는 일은 이상한 게 아니야.\""
+    },
+    {
+      "Text": "[ns14] \"누구에게나 있는 아주 평범한 일이지.\""
+    },
+    {
+      "Text": "[ns] \"그렇기에, 자신이 저지른 일에서 절대로 눈을 돌리지 마.\""
+    },
+    {
+      "Text": "[ns] \"슈로는 슈로의 일을 한 거야.\""
+    },
+    {
+      "Name": "슈로",
+      "Text": "하, 하하…… 무슨 소릴 하는가 했더니."
+    },
+    {
+      "Name": "슈로",
+      "Text": "그런 알량한 궤변으로 제 마음을 돌릴 수 있을 거라 생각하신 건가요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "그때 저를 구했다고 착각하고서…… 고작 그런 일 때문에, 제가 코쿠리코 님을 배신하고 당신을 도울 거라고 생각한 건가요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "정말이지…… 질 나쁜 망상이네요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "어린아이나 할 법한 유치한 망상—"
+    },
+    {
+      "Name": "슈로",
+      "Text": "그래. 당신들이 믿고 있는 그 전설 속의 쿠즈노하 마냥, 어처구니없는 망상의 산물이라고!"
+    },
+    {
+      "Name": "나구사",
+      "Text": "……쿠즈노하."
+    },
+    {
+      "Name": "나구사",
+      "Text": "맞아, 그때 쿠즈노하가 나를 대설원에서 죽게 내버려 두었으면 좋았을 텐데."
+    },
+    {
+      "Name": "나구사",
+      "Text": "아야메를 구하지 않았으면서, 어째서 나는 구했던 걸까. 나도 그 자리에서 죽도록 내버려두었으면 좋았을 것을."
+    },
+    {
+      "Name": "슈로",
+      "Text": "그게 무슨 소리인가요, 나구사 쨩."
+    },
+    {
+      "Name": "슈로",
+      "Text": "그렇게 말하면 마치 당신이 실제로 쿠즈노하를 만났던 것처럼 들리잖아요."
+    },
+    {
+      "Text": "[s15] \"쿠즈노하는 전설 속에서만 존재하는 가상의 인물이 아니야.\""
+    },
+    {
+      "Text": "[s16] \"나도 전에 나구사를 통해 쿠즈노하의 편지를 전달받았거든.\""
+    },
+    {
+      "Name": "슈로",
+      "Text": "쿠즈노하가…… 정말로 현실에 존재한다고?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "모든 괴서의 원주인이자, 백화요란의 초대 부장이었다는 대 예언자 쿠즈노하가……?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "지금 저를 놀리려는 속셈이라면—"
+    },
+    {
+      "Name": "슈로",
+      "Text": "그러고 보면 이상한 점이 한둘이 아니야."
+    },
+    {
+      "Name": "슈로",
+      "Text": "코쿠리코 님의 말씀에 의하면 그때 나구사는 마을에서 한참 떨어져 있는 대설원 한 가운데 버려졌을 텐데, 멀쩡히 살아 돌아오다니."
+    },
+    {
+      "Name": "슈로",
+      "Text": "사람은커녕 들짐승도 거의 지나지 않는 설원 한가운데에서, 누군가가 우연히 나구사를 발견했을 가능성은 희박해."
+    },
+    {
+      "Name": "슈로",
+      "Text": "게다가 샬레의 선생은 사실을 교묘하게 포장해 궤변은 늘어놓아도, 거짓은 말하지 않는 사람이었을 텐데……"
+    },
+    {
+      "Name": "슈로",
+      "Text": "정말로 대 예언자 쿠즈노하가 실존한다면, 대설원 어딘가에 황혼의 사원에 존재한다면—"
+    },
+    {
+      "Name": "슈로",
+      "Text": "전에 잃어버린 <이노모노노케로쿠>를 대체할 수 있는 새로운 괴서를 만드는 것도 가능할지도 몰라."
+    },
+    {
+      "Name": "슈로",
+      "Text": "유감이네요, 나구사 쨩. 의지했던 친구로부터 버림받고, 아무것도 하지 못한 채 이렇게 자책만 하고 있는 처지라니."
+    },
+    {
+      "Name": "슈로",
+      "Text": "가엾고 안쓰러워서 지켜보고 있기가 딱할 정도네요."
+    },
+    {
+      "Name": "슈로",
+      "Text": "그런 나구사 쨩을 위해 제가 한 번의 기회를 더 드릴까요?"
+    },
+    {
+      "Name": "나구사",
+      "Text": "……기회?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "네. 당신이 모든 것을 망쳐버렸다 하더라도, 황혼에 떨어진 사람을 건져내고 끊어진 관계를 이을 수 있는 존재가 남아 있잖아요?"
+    },
+    {
+      "Name": "슈로",
+      "Text": "……바로 쿠즈노하 님을 찾아가는 거예요."
+    },
+    {
+      "Text": "다음화;피안의 기억"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 18;On a Different Page"
+    },
+    {
+      "Name": "Renge",
+      "Text": "Ughhh... Nnngh..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Just a little more... Just a little more and..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Don't just stand there and watch, Kikyou! Come help me pull these bars apart!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "I'm almost there! Just a little bit more, and the gap will be big enough to squeeze through!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Or perhaps we should save what little strength we have for what awaits us, rather than squandering it on fruitless endeavors."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Look around. Not a single guard is posted outside our cell. They're confident that escape is an impossibility, let alone...ripping apart iron bars."
+    },
+    {
+      "Name": "Renge",
+      "Text": "So what?! You want me to just sit here and do nothing?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "I. Am. Thinking. Try to consider that brute force and sheer will power is not always the solution."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "If you had simply trusted my doubts about President Ayame, we wouldn't be in this situation to begin with."
+    },
+    {
+      "Name": "Renge",
+      "Text": "I guess I've got no leg to stand on there..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Well, fine! Then what's the clever way out of here your clever brain's thought of, huh?! C'mon!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "This \"clever\" brain of mine would find it much easier to think without your incessant yapping!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "What did you just say?!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "K-Kikyou, Renge! Please calm down!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "This is no time for us to be arguing..."
+    },
+    {
+      "Text": "[ns1] \"What's all the commotion...?\" "
+    },
+    {
+      "Text": "[ns2] \"...How long was I asleep for?\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "[USERNAME] Sensei!"
+    },
+    {
+      "Name": "Renge",
+      "Text": "...Mentor!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "How are you, Sensei? Are you injured anywhere?"
+    },
+    {
+      "Text": "[s3] \"My head hurts a bit, but I'm fine.\" "
+    },
+    {
+      "Text": "[s4] \"Are all of you okay?\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "A few scrapes, but nothing of concern."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Being a member of the Hyakkaryouran means being sturdy in both body and mind! This is par for the course!"
+    },
+    {
+      "Text": "[ns] \"That's good...but where are we?\""
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "This is the underground jail in the Mansion of the Beyond."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "It would appear Nature's Beauty imprisoned us here after defeating us."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "The Kadenokouji family has a similar underground warehouse...but I never even thought it could be used as a jail..."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Damn it. If only our bullets worked on those guys...!"
+    },
+    {
+      "Text": "[s5] \"Nature's Beauty...?\" "
+    },
+    {
+      "Text": "[s6] \"What happened while I was asleep?\""
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "To put it simply..."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Our entire experience in the northern district was illusion upon illusion."
+    },
+    {
+      "Text": "Kikyou explained everything that happened after I had fallen unconscious."
+    },
+    {
+      "Text": "[ns] \"...I can't believe Azami was a member of Nature's Beauty.\""
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Truly! I am still reeling in shock! How could such a kind president have actually been a member of Nature's Beauty, plotting against us?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "From the very beginning, we played into their scheme. The trickery simmering behind her false smile... Tsk. I'm nauseated at the mere thought of it."
+    },
+    {
+      "Name": "Renge",
+      "Text": "Wait. Does that mean the district around the Ebisu branch and all the residents we met were fakes too? That gives me the creeps..."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "No. They had nothing to do with the Hundred Ghost Stories. They were real."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "The Hundred Ghost Stories are not powerful enough to conjure fake crops for the festival."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "And if you recall, even some of the residents were unfamiliar with Azami."
+    },
+    {
+      "Text": "[s] \"Then...was Ayame a fake too?\""
+    },
+    {
+      "Name": "Renge",
+      "Text": "About that..."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "We arrived at the same conclusion as you, and Nagusa was the last one to see President Ayame before our capture."
+    },
+    {
+      "Name": "Yukari",
+      "Text": "But she's been...a bit quiet since we awoke."
+    },
+    {
+      "Text": "[ns7] \"...Are you all right, Nagusa?\" "
+    },
+    {
+      "Text": "[ns8] \"Are you hurt anywhere?\""
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "...I'm fine."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "I just... My inadequacy has endangered everyone...again. There's no apology that could absolve me."
+    },
+    {
+      "Name": "Renge",
+      "Text": "None of this was your fault! Those Nature's Beauty freaks are the ones who did this!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "She is correct, Nagusa! You did your utmost to protect us all!"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Nagusa. You are upset, but the blame does not lie with yourself."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "There is only one person to whom we can point fingers. President Ayame must right her wrongs."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "...No. It's not. Ayame did nothing wrong."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "...Nagusa!"
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "If I had only taken the time to understand her properly... Ayame..."
+    },
+    {
+      "Name": "???",
+      "Text": "That's right. It's your fault for clinging to a convenient dream and believing what you wanted to believe.\nIsn't it, Nagusa?"
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Yabuki Shuro...!"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Ahaha, AHAHAHA!"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "That pathetic expression suits you nicely."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "What happened to all your bravado and resolve? I guess, in the end, you'll always just be sniveling, groveling Nagusa."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You reeeally want us to believe that you didn't realize that Ayame was a fake? That you couldn't recognize the friend that haunts all your dreams?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...Lies."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You shunned an inconvenient reality in favor of your pathetic desires."
+    },
+    {
+      "Name": "Kikyou",
+      "Text": "Then we were correct? That President Ayame was a fake?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Of course it was."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "A friend who swoops in just as you're in danger, saves your life, and says exactly what you want to hear? That kind of stuff only happens in children's books!"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "That Ayame...or rather, that thing that looked like her was actually Nagusa's fear, born from the magic of the cursed tome, Toutei's Phantom Illustrations!"
+    },
+    {
+      "Name": "Yukari",
+      "Text": "Nagusa's...fear? But she wasn't frightening at all..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "As clueless as ever, aren't you, Kadenokouji?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Sure, fear can be some nightmarish ghoul, but some people... Some people are scared of happiness."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "An unrealistic fantasy! A happiness you long for, but deep, deep down you know is impossible to reach for ingrates like you! Isn't it terrifying when something you think you don't deserve pops up into arm's reach?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "The more you indulge that fantastical happiness, the more the harshness of reality gets you."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "Ugh..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "And that's why Goryou Nagusa will never measure up to Nanakado Ayame."
+    },
+    {
+      "Name": "Renge",
+      "Text": "You don't know anything about Nagusa!"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Ahahaha! Deny, deny, deny. Try all you want."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You can try, but no matter how much you wail and scream and cry, reality will still be waiting to welcome you."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "No matter what you do, you'll never be able to hold a candle to Ayame."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Disposable. That's what you are. Trash, waiting to be thrown away once you lose your usefulness."
+    },
+    {
+      "Text": "[s] \"Shuro, there's something I'm curious about.\""
+    },
+    {
+      "Name": "Shuro",
+      "Text": "What is it, Schale's Sensei?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "If you're trying to get under my skin with your pedantic nonsense, save your breath."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You've been captured! You're the loser! I won't be fazed by a LOSER!"
+    },
+    {
+      "Text": "[s9] \"Shuro, you knew everything from the start, didn't you?\" "
+    },
+    {
+      "Text": "[s10] \"Was getting shot by the fake Ayame all a part of the act?\""
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "That's seriously your question?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Duhhh. Every single scene was perfectly staged and choreographed to lead us to the big finale: capturing you and the Hyakkaryouran."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Getting caught by that fake Ayame, luring you to the Mansion of the Beyond..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...Huh?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...Schale's Sensei?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Even at the end, when I used you as a shield..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...all of it was an act to grant Kokuriko's wishes!"
+    },
+    {
+      "Text": "[ns11] \"You may not want to hear this from a prisoner.\" "
+    },
+    {
+      "Text": "[ns12] \"And maybe you're sick of me telling you this again and again...\""
+    },
+    {
+      "Text": "[ns13] \"...but it's okay to pretend to be something you're not.\" "
+    },
+    {
+      "Text": "[ns14] \"After all, everyone does it, in one way or another.\""
+    },
+    {
+      "Text": "[ns] \"But in return...you should never turn a blind eye to your actions.\""
+    },
+    {
+      "Text": "[ns] \"You did what you thought you needed to, Shuro.\""
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Hah! Hahaha! Here I thought you were going to actually say something interesting for once."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Did you think you could enchant me with your pretty words?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Is that why you saved me back then? To try to convince me to betray Kokuriko and help YOU?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Seriously. You and your ridiculous fantasies."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You're like a little kid playing pretend."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Just like that Kuzunoha you all believe in. You live in your delusions."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "...Kuzunoha."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "If only...Kuzunoha had abandoned me to perish in the Great Snowfield."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "Why did she save me...and not Ayame? The world would have been better for it if she had."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "What nonsense are you spouting now, Nagusa?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Are you trying to pretend like you actually met Kuzunoha now?"
+    },
+    {
+      "Text": "[s15] \"Kuzunoha isn't just a figure from a legend.\" "
+    },
+    {
+      "Text": "[s16] \"In fact, Nagusa hand-delivered me a letter from Kuzunoha herself.\""
+    },
+    {
+      "Name": "Shuro",
+      "Text": "You're seriously saying that...Kuzunoha is real?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "The Great Prophet Kuzunoha, origin of all the cursed tomes and the first president of the Hyakkaryouran...?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "If you're still trying to mess with me—"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "If I think about it, there are things that don't add up."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Kokuriko told me that she left Nagusa stranded in the middle of the Great Snowfield, with no civilization in sight. So how's she alive?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Not even animals are willing to go to that area. No one could've just happened upon her."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Besides, that Schale's Sensei...as much as they bend things, they've never lied..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "If the Great Prophet Kuzunoha really does exist, hidden away in the Twilight Temple, somewhere out in the Great Snowfield..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...We could forge a new tome to replace the lost Inou's Phantom Records!"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "How absolutely pitiful you are, Nagusa. Abandoned by your friend, wracked with guilt and self-loathing..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "In fact I pity you so much..."
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...that maybe I should give you one last chance, Nagusa."
+    },
+    {
+      "Name": "Nagusa",
+      "Text": "...A chance?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "Exactly. After all, even though you've ruined everything, you're still holding on to that little glimmer of hope that you can save your friend, aren't you?"
+    },
+    {
+      "Name": "Shuro",
+      "Text": "...Then find me, Kuzunoha."
+    },
+    {
+      "Text": "Next Episode;Memories from the Beyond"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 18;ความฝันที่แตกต่าง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ฮึบ... ฮึบบ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "อีกนิดเดียว... ดึงอีกแค่นิดเดียวเท่านั้น..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "คิเคียว ถ้าจะเอาแต่ยืนมองอย่างนั้นก็มาช่วยดึงกรงเหล็กนี่ดีกว่านะ!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ถ้าดึงเพิ่มอีกนิด... ก็น่าจะเกิดช่องให้คนคนหนึ่งแทรกตัวออกไปได้...!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ทำเรื่องไร้ประโยชน์แบบนั้นน่ะเสียเวลาเปล่าๆ ฉันว่าเราเก็บพลังไว้รับมือกับสถานการณ์หลังจากนี้ไป\nไม่ดีกว่าเหรอ?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ถ้าคนพวกนั้นออกไปโดยที่ไม่ได้สั่งให้ใครเฝ้าระวังเรา ก็หมายความว่าลูกกรงเหล็กนี่มันไม่ได้อ่อนแอ\nพอจะใช้กำลังดึงออกได้หรอก"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "แล้วจะยอมติดอยู่แบบนี้งั้นเหรอ? ทำอะไรได้ก็ควรทำสิ!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ฉันก็พยายามหาวิธีออกไปจากที่นี่อยู่ไง ทุกคนไม่ได้แก้ปัญหาด้วยแรงกายแรงใจเหมือนกันกับเธอ\nไปหมดหรอกนะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ถ้าสงสัยในตัวหัวหน้าอายาเมะกันตั้งแต่แรกอย่างที่ฉันบอก เรื่องก็คงไม่แย่ขนาดนี้หรอก"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ตะ... แต่ถึงอย่างนั้นก็เถอะ..."
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "งั้นถ้ามีวิธีที่จะออกจากที่นี่ได้ก็รีบบอกฉันมาสิ เราไม่มีเวลากันหรอกนะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "งั้นก็หยุดพูดพล่ามเสียทีสิ ฉันจะได้มีสมาธิคิดไง!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "นี่ ตกลงจะช่วยหรือชวนทะเลาะกันแน่?!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ระ... รุ่นพี่คิเคียว รุ่นพี่เรนเกะ ใจเย็นๆ กันก่อนเถอะเจ้าค่ะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ตอนนี้ไม่ใช่เวลาที่เราจะมาทะเลาะกัน..."
+    },
+    {
+      "Text": "[ns1] \"มีเรื่องอะไรกันน่ะ...\""
+    },
+    {
+      "Text": "[ns2] \"นี่ครูหลับไปนานแค่ไหนเหรอ...?\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ท่านอาจารย์ [USERNAME]!"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "ท่านอาจารย์...!"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "คุณครู เป็นยังไงบ้าง? บาดเจ็บตรงไหนหรือเปล่า?"
+    },
+    {
+      "Text": "[s3] \"ครูแค่ปวดหัวนิดหน่อยน่ะ แล้วทุกคนล่ะ?\""
+    },
+    {
+      "Text": "[s4] \"ครูไม่เป็นไรมากหรอก แล้วทุกคนล่ะ?\""
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "พวกเราได้แผลถลอกกันแค่นิดหน่อยน่ะ ไม่ได้รุนแรงอะไรหรอก"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ร่างกายที่แข็งแรงคือคุณสมบัติที่สมาชิกเฮียกกะเรียวรันต้องมีอยู่แล้วเจ้าค่ะ!"
+    },
+    {
+      "Text": "[ns] \"ว่าแต่ที่นี่คือ...?\""
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ที่นี่คือคุกใต้ดินใน <คฤหาสน์นิพพาน> น่ะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "พวกเราแพ้จากการต่อสู้กับพวกชมรมความงามของธรรมชาติ ก็เลยถูกคุมตัวไว้ในนี้"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ชั้นใต้ดินของตระกูลคาเดโนะโคจิก็มีโกดังคล้ายๆ กัน... แต่ข้าคิดไม่ถึงเลยเจ้าค่ะว่าจะถูกใช้เป็น\nที่กักขังคนแบบนี้"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "บ้าจริง ถ้ายิงเจ้าพวกนั้นได้ละก็ พวกเราคงไม่โดนจับมาอย่างไร้ค่าแบบนี้หรอก..."
+    },
+    {
+      "Text": "[s5] \"ชมรมความงามของธรรมชาติ...? นี่มันเรื่องอะไรกัน?\""
+    },
+    {
+      "Text": "[s6] \"ระหว่างที่ครูหมดสติไป เกิดเรื่องอะไรขึ้นเหรอ?\""
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ถ้าจะให้พูดสรุปเลยละก็"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ทุกอย่างที่เราเจอในเขตปกครองตนเองทางเหนือ มันเป็นของปลอมแทบทั้งหมดเลยน่ะ"
+    },
+    {
+      "Text": "(คุณครูฟังคิเคียวอธิบายเรื่องที่เกิดขึ้นในระหว่างที่หมดสติไป)"
+    },
+    {
+      "Text": "[ns] \"อาซามิคือสมาชิกชมรมความงามของธรรมชาติเหรอเนี่ย...\""
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "นั่นน่ะสิเจ้าคะ ประธานคณะกรรมการที่ดูเป็นมิตร จริงๆ แล้วกลับเป็นสมาชิกของชมรมความงามของ\nธรรมชาติที่เป็นปรปักษ์กับพวกเรา ข้าเองก็ชก~กุเหมือนกันเจ้าค่ะ..."
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "จะตกใจก็ไม่ใช่เรื่องแปลกหรอก ยัยนั่นคงเข้าหาเราเพราะตั้งใจจะหลอกตั้งแต่แรกอยู่แล้ว แค่คิดว่าใบหน้าที่ยิ้มแย้มแบบนั้นซ่อนความคิดอะไรไว้ ฉันก็อยากสำรอกแล้วละ"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "งั้นเขตปกครองตนเองรอบๆ โรงเรียนสาขาเอบิสและชาวเมืองที่เราเจอในที่แห่งนี้คือของปลอมทั้งหมด\nเลยงั้นเหรอ? พอคิดแบบนั้นก็ขนลุกขึ้นมาเลยแฮะ..."
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ไม่หรอก ชาวเมืองในโรงเรียนสาขาเอบิสุคือตัวจริง พวกเขาไม่เกี่ยวข้องกับตำนานร้อยเรื่องราวนั่น"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ต่อให้ตำนานร้อยเรื่องราวจะมีพลังมหาศาลมากแค่ไหน แต่ก็ปลอมแปลงวัตถุดิบจากเอบิสุที่ใช้ในงาน\nเทศกาลไม่ได้หรอก"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ชาวเมืองบางคนก็ดูไม่คุ้นหน้าอาซามิตั้งแต่แรกแล้วด้วย"
+    },
+    {
+      "Text": "[s] \"ถ้างั้น... อายาเมะก็เป็นตัวปลอมเหรอ?\""
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เรื่องนั้นน่ะ ที่จริงแล้ว..."
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "พวกเราก็ตะหงิดใจเกี่ยวกับเรื่องนั้น ก็เลยไปถามจากรุ่นพี่นางุสะที่อยู่กับอายาเมะมาตลอดจนกระทั่งเกิด\nเรื่องขึ้น"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "แต่ไม่รู้เพราะอะไร รุ่นพี่ถึงอยู่ในสภาพนั้นตลอดเลยเจ้าค่ะ..."
+    },
+    {
+      "Text": "[ns7] \"นางุสะ เป็นยังไงบ้าง...?\""
+    },
+    {
+      "Text": "[ns8] \"นางุสะ บาดเจ็บตรงไหนหรือเปล่า?\""
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ฉันไม่เป็นไร..."
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ฉันแค่... ทนไม่ได้ที่ความอ่อนประสบการณ์ของฉันทำให้ทุกคนต้องตกอยู่ในอันตราย"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "รุ่นพี่ทำอะไรผิดงั้นเหรอ? ที่สถานการณ์เป็นแบบนี้น่ะ มันเป็นเพราะพวกชมรมความงามของธรรมชาติ\nต่างหาก!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ใช่เจ้าค่ะ รุ่นพี่นางุสะพยายามเต็มที่เพื่อปกป้องพวกเราแล้วเจ้าค่ะ"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "รุ่นพี่นางุสะ ฉันรู้ว่าตอนนี้รุ่นพี่สับสน แต่อย่าเข้าใจผิดจนตำหนิคนผิดเลย"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "คนที่ต้องรับมือและรับผิดชอบสถานการณ์ในตอนนี้ไม่ใช่คุณที่เป็นรักษาการหัวหน้า... แต่เป็นรุ่นพี่อายาเมะที่เป็นหัวหน้าต่างหาก"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ไม่หรอก... นี่ไม่ใช่ความรับผิดชอบของอายาเมะ อายาเมะไม่ได้ทำอะไรผิด"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "รุ่นพี่...!"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "สุดท้ายแล้วสาเหตุของเหตุการณ์ทั้งหมดก็มาจากฉันที่ไม่เข้าใจอายาเมะ..."
+    },
+    {
+      "Name": "???",
+      "Text": "ใช่ค่ะ มาจากคุณที่ไร้ความสามารถ... และเลือกที่จะเชื่ออีกฝ่ายตามที่ตัวเองอยากเชื่อยังไงล่ะ ใช่มั้ยคะ นางุสะจัง~?"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "ยาบูกิ ชูโระ...!"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "อะฮะฮ่า อะฮ่าฮ่าฮ่า!"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "อะไรกันคะเนี่ย สภาพที่น่าสมเพชแบบนี้?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "เอาแรงกายแรงใจและความตั้งใจในตอนนั้นไปไว้ไหนกันหมดแล้ว? ทำไมถึงอยู่ในสภาพที่ดูไม่ได้เลยล่ะคะ นางุสะจัง?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ไม่รู้งั้นเหรอคะว่าอายาเมะที่จู่ๆ ก็ปรากฏตัวต่อหน้าพวกคุณคืออายาเมะตัวปลอมน่ะ? เข้าใจผิดว่านั่นคือเพื่อนที่ลืมไม่ได้แม้แต่ในความฝันอย่างงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "โกหก..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "เธอแค่ไม่อยากจะเชื่อมันต่างหาก"
+    },
+    {
+      "Name": "คิเคียว",
+      "Text": "หมายความว่าหัวหน้าอายาเมะที่พวกเราเจอไม่ใช่ตัวจริงงั้นเหรอ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ก็ใช่น่ะสิคะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "เพื่อนที่ปรากฏตัวมาช่วยชีวิตในยามวิกฤตราวกับกำลังรอเวลานี้อยู่ แล้วก็ช่วยพูดดีๆ เพื่อคลายความรู้สึกผิดน่ะเหรอ จะเพ้อฝันอะไรก็เอาให้มันพอดีๆ หน่อยเถอะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "อายาเมะคนนั้นน่ะ... ไม่สิ 'สิ่งนั้น' ที่ปลอมตัวเป็นอายาเมะน่ะ ที่จริงแล้วก็คือความกลัวของนางุสะจัง\nที่เกิดจากความลึกลับของ <โทเท บุคไค โรคุ> ต่างหากล่ะคะ!"
+    },
+    {
+      "Name": "ยูคาริ",
+      "Text": "ความกลัวเหรอเจ้าคะ? แต่รุ่นพี่อายาเมะที่พวกเราเห็นก็ไม่ได้น่ากลัวเลยสักนิดนะ..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "พูดเหมือนไม่รู้ความเป็นจริงทางโลกเลยนะคะ คุณมิโกะแห่งตระกูลคาเดโนะโคจิ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ส่วนมากแล้วความกลัวอยู่ในรูปแบบของสิ่งที่เข้าใจง่ายอย่างสิ่งที่น่าขนลุกหรือน่าหวาดกลัว แต่บางครั้งมันก็อยู่ในรูปแบบของความสุขค่ะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ความสุขที่ใจปฏิเสธมาตลอด ความสุขที่ฟุ้งซ่านและไม่มีวันเป็นจริงได้ ไม่มีอะไรน่ากลัวไปกว่าการ\nเห็นความสุขนั่นอยู่ตรงหน้าแล้วละค่ะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "นั่นก็เพราะ... ยิ่งมองดูความสุขในมโนภาพนั่นมากเท่าไร ความโหดร้ายของความเป็นจริง ก็จะยิ่งเสียดแทงใจมากเท่านั้น"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "คุณน่ะแทนที่อายาเมะไม่ได้หรอกค่ะ นางุสะจัง"
+    },
+    {
+      "Name": "เรนเกะ",
+      "Text": "เธอรู้จักรุ่นพี่นางุสะหรือไง ถึงได้มาพูดเรื่องไร้สาระแบบนี้?!"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "อะฮะฮะฮ่า! อยากปฏิเสธจนต้องโวยวายขนาดนั้นเลยเหรอคะ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "แต่จะทำยังไงดีล่ะคะ? ไม่ว่าจะคร่ำครวญและร้องตะโกนปฏิเสธแค่ไหน ความจริงก็ไม่เปลี่ยนแปลงไป\nแม้แต่น้อยค่ะ "
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ไม่ว่าจะพยายามมากแค่ไหน ความจริงที่ว่าพวกเธอคือกลุ่มคนล้มเหลวที่เทียบชั้นกับอายาเมะไม่ได้\nก็ไม่เปลี่ยนไปหรอก"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "เมื่อไม่มีประโยชน์อีกต่อไป สักวันหนึ่งก็คงถูกทิ้งขว้างเหมือนของที่ใช้งานไม่ได้แล้ว..."
+    },
+    {
+      "Text": "[s] \"ชูโระ ครูสงสัยอย่างหนึ่ง\""
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "อะไรเหรอคะ คุณครูจากชาเล่ต์"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ถ้าคิดจะทำให้ฉันหวั่นไหวด้วยการใช้คารม ฉันว่าหยุดดีกว่าค่ะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "คำยั่วยุจากผู้แพ้ที่ถูกจับตัวไว้น่ะ ทำอะไรฉันไม่ได้หรอก"
+    },
+    {
+      "Text": "[s9] \"ตอนโดนอายาเมะตัวปลอมเล่นงานก็เป็นการแสดงเหรอ?\""
+    },
+    {
+      "Text": "[s10] \"ตอนโดนอายาเมะตัวปลอมเล่นงานก็เป็นการตบตาเหรอ?\""
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "นั่นเรียกว่าคำถามเหรอคะ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ถามอะไรไม่เห็นจะเข้าท่า... ทุกอย่างถูกวางแผนเอาไว้ตั้งแต่แรกแล้วเพื่อจับตัวคุณกับเฮียกกะเรียวรัน\nยังไงล่ะคะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ทั้งการโดนอายาเมะตัวปลอมจับตัว ทั้งการพาคุณไปที่คฤหาสน์นิพพาน..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "หืม...?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "คุณครูจากชาเล่ต์...?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ตลอดจนการใช้คุณเป็นโล่ในตอนท้ายด้วย..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ทั้งหมดนั่นเป็นการแสดงเพื่อท่านโคคุริโกะ...!"
+    },
+    {
+      "Text": "[ns11] \"นี่ไม่ใช่คำที่คนที่ถูกจับตัวไว้จะพูดหรอกนะ แต่ว่า...\""
+    },
+    {
+      "Text": "[ns12] \"ก่อนหน้านี้ครูก็เคยบอกไปแล้วครั้งหนึ่งแล้วนี่...\""
+    },
+    {
+      "Text": "[ns13] \"การแสดงในสิ่งที่ไม่ใช่ตัวเองไม่ใช่เรื่องแปลกหรอก\""
+    },
+    {
+      "Text": "[ns14] \"ใครๆ ก็เล่นละครเป็นสิ่งที่ไม่ใช่ตัวเองกันทั้งนั้นนั่นแหละ\""
+    },
+    {
+      "Text": "[ns] \"เพราะงั้นอย่าเพิกเฉยต่อสิ่งที่ตัวเองก่อไว้เลย\""
+    },
+    {
+      "Text": "[ns] \"ชูโระแค่ต้องทำในสิ่งที่ชูโระต้องทำ\""
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ฮะ... ฮ่าฮ่า... ก็สงสัยอยู่เชียวว่าจะพูดอะไร"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "คิดว่าจะเปลี่ยนใจฉันได้ด้วยการใช้คารมกระจอกๆ แบบนี้เหรอคะ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "คิดว่าพอช่วยฉันไว้ในตอนนั้น... แล้วฉันจะหักหลังท่านโคคุริโกะแล้วมาช่วยคุณงั้นเหรอ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "จริงๆ เลยนะ... นั่นเป็นความเข้าใจผิดแบบเต็มเปาเลยค่ะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ความเข้าใจผิดที่มีแต่เด็กๆ เท่านั้นที่คิดกัน..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ใช่ ก็เหมือนกับคุซึโนฮะในตำนานที่พวกคุณเชื่อกัน นั่นเป็นผลจากความหลงผิดที่ไร้สาระทั้งนั้น!"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "คุซึโนฮะ..."
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "จริงสิ ถ้าตอนนั้นคุซึโนฮะทิ้งฉันให้ตายอยู่ในทุ่งหิมะใหญ่ไปเลยก็คงจะดี"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "ทำไมถึงมาช่วยฉันแทนที่จะไปช่วยอายาเมะ ทำไมไม่ปล่อยให้ฉันนอนหนาวตายอยู่ตรงนั้นไปเลย"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "พูดเรื่องอะไรคะ นางุสะจัง"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "พูดเหมือนคุณได้เจอกับคุซึโนฮะตัวจริงมาแล้วอย่างนั้นละ"
+    },
+    {
+      "Text": "[s15] \"คุซึโนฮะไม่ใช่ตัวละครสมมติที่มีอยู่แต่ในตำนานหรอกนะ\""
+    },
+    {
+      "Text": "[s16] \"ครูก็เคยได้รับจดหมายของคุซึโนฮะจากนางุสะเหมือนกัน\""
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "จะบอกว่าคุซึโนฮะ... มีตัวตนอยู่ในโลกแห่งความจริงงั้นเหรอ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ผู้พยากรณ์ใหญ่คุซึโนฮะที่เป็นเจ้าของเดิมของหนังสือลึกลับทุกเล่ม และเป็นหัวหน้าคนแรกของ\nเฮียกกะเรียวรันน่ะเหรอ...?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ถ้าคิดจะทำให้ฉันตกใจด้วยวิธีนี้ละก็..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "แต่จะว่าไปก็มีจุดที่แปลกๆ อยู่นะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ท่านโคคุริโกะบอกว่าตอนนั้นนางุสะถูกทิ้งไว้กลางทุ่งหิมะใหญ่ที่อยู่ห่างไกลกับหมู่บ้านแท้ๆ แต่เธอก็กลับมาได้อย่างปลอดภัย"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ท่ามกลางทุ่งหิมะที่แทบจะไม่มีผู้คนหรือสัตว์ผ่านไปมา แทบจะเป็นไปไม่ได้เลยที่จะมีใครบังเอิญมาเจอ\nนางุสะเข้า"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "และต่อให้ครูจากชาเล่ต์จะเป็นคนที่ใช้วาทศิลป์ในการพูดบอกความจริงอย่างหลักแหลม แต่ก็ไม่น่าจะเป็นคนที่พูดโกหก..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ถ้าผู้พยากรณ์ใหญ่คุซึโนฮะมีตัวตนอยู่จริง และถ้าท่านอยู่ในวิหารอัสดงในทุ่งหิมะใหญ่..."
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "งั้นก็สร้างหนังสือลึกลับเล่มใหม่เพื่อทดแทน <อิโนะ โมโนโนเคะ โรคุ> ที่หายไปคราวก่อนได้น่ะสิ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "น่าเสียใจนะคะ นางุสะจัง โดนทิ้งจากเพื่อนที่ไว้ใจยังไม่พอ ซ้ำยังต้องมาอยู่ในสถานการณ์ที่ทำอะไร\nไม่ได้นอกจากโทษตัวเองอยู่แบบนี้อีก"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "น่าทุกข์ใจที่ฉันต้องเฝ้ามองด้วยความสงสารและสมเพชนะคะ"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "งั้นฉันให้โอกาสนางุสะจังสักครั้งดีมั้ยคะ?"
+    },
+    {
+      "Name": "นางุสะ",
+      "Text": "โอกาสเหรอ...?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ค่ะ ถึงคุณจะทำทุกอย่างพังไม่เป็นท่าหมดแล้ว แต่ในห้วงอัสดงก็ยังมีคนที่คุณช่วยได้และยังสานต่อ\nความสัมพันธ์ได้อยู่ไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ชูโระ",
+      "Text": "ถ้างั้นก็ไปหาท่านคุซึโนฮะอีกครั้งสิคะ..."
+    },
+    {
+      "Text": "ตอนต่อไป;ความทรงจำแห่งนิพพาน"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第18話;同床異夢"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "哼，哼啊啊……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "只要再一點……再拉一點點就……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "桔梗，你有空在那邊看的話，不如過來幫忙拉開這些鐵欄杆吧！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "只要再拉開一點……就能弄出可以讓一個人出去的縫隙了……！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "與其在這種無謂的嘗試上浪費力氣，不如把體力留著應付接下來的狀況吧？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "對方既然敢不留人看守，就代表這個鐵欄杆沒有脆弱到光憑蠻力就能打開。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "所以你打算就這樣乖乖被關著嗎？\n能做的事就該試試看吧！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我這不是也在想辦法脫身嗎？\n不是每個人都像你一樣，依靠氣勢和幹勁來解決問題。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "要是當初聽我的話懷疑菖蒲，事情也不會鬧到這個地步了。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "是，是沒錯啦……"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "那你有什麼能脫身的辦法嗎？\n有的話就快說吧，時間不多了。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "敢不敢閉上嘴讓我好好想想？"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你，你說什麼！？"
+    },
+    {
+      "Name": "紫",
+      "Text": "桔，桔梗前輩、蓮華前輩，請先冷靜下來！"
+    },
+    {
+      "Name": "紫",
+      "Text": "現在不是內鬥的時候──"
+    },
+    {
+      "Text": "[ns1]「好像有點吵呢……」"
+    },
+    {
+      "Text": "[ns2]「……我睡了多久？」"
+    },
+    {
+      "Name": "紫",
+      "Text": "[USERNAME]老師！"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "……師父！"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "老師，你身體還好嗎？有沒有受傷？"
+    },
+    {
+      "Text": "[s3]「嗯，雖然頭有點痛，但應該沒受傷。」"
+    },
+    {
+      "Text": "[s4]「你們也沒事吧？」"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "嗯，只是擦傷而已，沒什麼大礙。"
+    },
+    {
+      "Name": "紫",
+      "Text": "強健的體魄可是百花繚亂部員的基本素養呢！"
+    },
+    {
+      "Text": "[ns]「話說這裡是……？」"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "這裡是「彼岸邸」的地下牢房。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我們在和花鳥風月部的戰鬥中落敗之後，就被帶到了這裡。"
+    },
+    {
+      "Name": "紫",
+      "Text": "勘解由小路家的地下也有類似的倉庫……沒想到會被用在這種地方。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "可惡，要是能給那些傢伙來幾發子彈，我們也不會這麼輕易被抓了……"
+    },
+    {
+      "Text": "[s5]「花鳥風月部……？」"
+    },
+    {
+      "Text": "[s6]「這段時間到底發生了什麼？」"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "簡單來說──"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我們在北方自治區遇到的一切，幾乎都是假的。"
+    },
+    {
+      "Text": "（從桔梗口中聽說了昏迷期間發生的事）"
+    },
+    {
+      "Text": "[ns]「……沒想到土生薊竟然是花鳥風月部的成員。」"
+    },
+    {
+      "Name": "紫",
+      "Text": "就是說啊。那麼親切的會長居然是花鳥風月部的敵人，真是太[ruby=Shock]震～驚[/ruby]了……"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "他肯定從一開始就打算欺騙我們。\n藏在那張笑臉背後的陰謀，光是想像就讓人反胃。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "所以惠比壽分校周邊的自治區，還有我們遇到的居民也全都是假的嗎？\n我都要起雞皮疙瘩了……"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "不，惠比壽分校的居民應該是真的。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "再怎麼說，百物語也不太可能連祭典用的惠比壽山食材都偽造出來。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "而且也有部分居民從一開始就對薊抱有戒心。"
+    },
+    {
+      "Text": "[s]「那麼……就連菖蒲也是假的嗎？」"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "這個嘛，其實……"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "我們也很在意這點，所以問過最後和菖蒲前輩在一起的名草前輩。"
+    },
+    {
+      "Name": "紫",
+      "Text": "但前輩從剛才就一直處於這個狀態……"
+    },
+    {
+      "Text": "[ns7]「……你還好嗎，名草？」"
+    },
+    {
+      "Text": "[ns8]「有沒有哪裡受傷？」"
+    },
+    {
+      "Name": "名草",
+      "Text": "……我沒事。"
+    },
+    {
+      "Name": "名草",
+      "Text": "只是……我無法原諒因為自己的無能，而讓大家遭遇了危險。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "前輩又沒有做錯什麼！\n這一切都是花鳥風月部那群傢伙的錯！"
+    },
+    {
+      "Name": "紫",
+      "Text": "是啊，名草前輩已經為了保護大家拚盡全力了。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "名草前輩，現在情況雖然混亂，不過請別搞錯該責怪的人。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "應該整頓事態的責任，並不在委員長代理的你……而是在委員長菖蒲前輩身上。"
+    },
+    {
+      "Name": "名草",
+      "Text": "……不，這不是菖蒲的錯。\n菖蒲他沒有錯。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "……前輩！"
+    },
+    {
+      "Name": "名草",
+      "Text": "這一切的根源，終究是因為我沒能理解菖蒲──"
+    },
+    {
+      "Name": "???",
+      "Text": "……明明沒有能力，卻只憑自己的願望去相信別人。\n我說的對吧，名草醬～？"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "箭吹棕櫚……！"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "啊哈哈，啊哈哈哈！"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "這副可悲的模樣是怎麼回事？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "當初的氣勢跟決心跑哪去了？\n現在怎麼哭得這麼難看啊，名草醬。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "你說沒發現那個菖蒲是假的？只是誤認了連在夢裡都忘不了的朋友？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "……騙人。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "你只是不想承認罷了。"
+    },
+    {
+      "Name": "桔梗",
+      "Text": "所以我們遇到的菖蒲根本不是真的？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "當然不是。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "會在危急時刻像早就等著一樣現身救你，還說好聽的話減輕你罪惡感的朋友？\n這種毫無建設性的幻想也該有個限度吧。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "那個菖蒲……\n不，那「東西」只是從怪書《稻亭物怪錄》的神祕中誕生的──名草醬的恐懼而已！"
+    },
+    {
+      "Name": "紫",
+      "Text": "恐懼？但是那個菖蒲前輩一點也不可怕啊……"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "你還是一樣什麼都不懂呢，勘解由小路家的巫女小姐。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "雖然恐懼能以令人毛骨悚然的樣貌出現，有時卻也會偽裝成幸福的模樣。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "那種在心底一直否定、絕不可能實現的虛幻幸福──\n還有什麼比它真的出現在眼前時更可怕的呢？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "越是凝視那虛假的幸福……現實的殘酷就會滲得越深。"
+    },
+    {
+      "Name": "名草",
+      "Text": "唔……"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "所以你永遠不可能取代菖蒲啊，名草醬。"
+    },
+    {
+      "Name": "蓮華",
+      "Text": "你憑什麼隨便評論名草前輩！？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "啊哈哈哈！你只是想用吼叫來否認吧？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "但這又有什麼用呢？\n就算你在這裡哭喊，現實也不會改變。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "無論你們再怎麼努力，都追不上菖蒲的腳步。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "總有一天會被當成沒用的廢物捨棄──"
+    },
+    {
+      "Text": "[s]「棕櫚，我有個問題。」"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "又怎麼了，夏萊的老師。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "如果還想用詭辯動搖我的話，勸你還是省省吧。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "況且輸家的挑釁，根本不可能影響我嘛？"
+    },
+    {
+      "Text": "[s9]「如果棕櫚從一開始就知道一切……」"
+    },
+    {
+      "Text": "[s10]「那當初被假菖蒲抓住也是演出來的嗎？」"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "…………啊？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "那還用說嗎？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "一切的一切……當然都是為了抓住你和百花繚亂的計畫啊。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "被假菖蒲抓住、把你引到彼岸邸──"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "……咦？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "……夏萊的老師？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "就連把你當成盾牌……"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "……也是為了雛罌粟大人而演的戲啦！"
+    },
+    {
+      "Text": "[ns11]「雖然現在被抓了，不過我還是想說……」"
+    },
+    {
+      "Text": "[ns12]「就像我之前說過的一樣……」"
+    },
+    {
+      "Text": "[ns13]「扮演自己沒有的東西並不奇怪。」"
+    },
+    {
+      "Text": "[ns14]「這是任何人都會做的平凡的事。」"
+    },
+    {
+      "Text": "[ns]「所以，希望你不要逃避自己做過的事。」"
+    },
+    {
+      "Text": "[ns]「棕櫚只是做了棕櫚應該做的事而已。」"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "哈，哈哈……還以為你要說什麼呢。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "以為我會被這種蒼白的詭辯給動搖嗎？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "覺得當時救了我……我就會背叛雛罌粟大人幫助你嗎？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "那還真是……異想天開啊。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "如此幼稚的幻想──"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "沒錯，就跟你們相信的那個傳說中的葛葉一樣，只是荒唐的幻想而已！"
+    },
+    {
+      "Name": "名草",
+      "Text": "……葛葉。"
+    },
+    {
+      "Name": "名草",
+      "Text": "要是當時葛葉讓我死在大雪原就好了。"
+    },
+    {
+      "Name": "名草",
+      "Text": "為何不願意拯救菖蒲，卻偏偏救了我呢？\n他明明可以把我丟在那裡不管的……"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "這話是什麼意思，名草醬？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "說得好像你真的見過葛葉一樣。"
+    },
+    {
+      "Text": "[s15]「葛葉並不是只存在於傳說中的虛構人物。」"
+    },
+    {
+      "Text": "[s16]「我曾經從名草手中收到過葛葉的信。」"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "葛葉他……真的存在？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "所有怪書的原持有者、百花繚亂的初代委員長……那位大預言者葛葉？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "如果你只是想戲弄我──"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "仔細想想，疑點確實不少。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "雛罌粟大人曾說，名草那時被丟在偏僻的大雪原中央……但他最終卻活著回來了。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "在那種連野獸都很罕見的雪原中央，有人會碰巧發現他的機率微乎其微。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "而且夏萊的老師雖然會巧妙包裝事實，卻從來不會說謊……"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "如果大預言者葛葉，真的存在於大雪原某處的黃昏寺院──"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "或許就能製作出……足以取代失去的《稻生物怪錄》的新怪書也說不定。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "真遺憾呢，名草醬。\n被信任的朋友拋棄，除了自責以外什麼都做不了。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "實在是可憐到讓人看不下去。"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "看在名草醬這麼可憐的份上，我就給你一次機會吧？"
+    },
+    {
+      "Name": "名草",
+      "Text": "……機會？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "沒錯。就算一切都被你毀了……\n不是還有個能夠挽回墜入黃昏的人、修復斷裂羈絆的存在嗎？"
+    },
+    {
+      "Name": "棕櫚",
+      "Text": "……那就是葛葉大人。"
+    },
+    {
+      "Text": "下一話;彼岸的記憶"
+    }
+  ]
+}

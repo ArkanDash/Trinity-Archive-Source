@@ -1,0 +1,2357 @@
+{
+  "TitleJP": "禁忌",
+  "TitleKR": "금기",
+  "TitleEN": "Trespassers",
+  "TitleTH": "ข้อห้าม",
+  "TitleTW": "禁忌",
+  "DescJP": "聞き込み調査であまりめぼしい収穫が得られなかった一行は、各々の調査結果を話し合っていた。そこに、謎の影が現れ――とある儀式と噂について教えてくれるのだった。",
+  "DescKR": "탐문 조사에서 별다른 실마리를 얻지 못한 RABBIT 소대원들. 소대원들은 마을에 떠도는 불길한 소문에 관해 이야기하는데, 그때 생각지도 못한 정보 제공자가 등장한다.",
+  "DescEN": "After not finding many leads from their investigation, the RABBIT Squad members are discussing the ominous rumors floating around town when an unexpected source of information appears.",
+  "DescTH": "สมาชิกกองทหาร RABBIT ไม่ค่อยได้ข้อมูลที่เป็นประโยชน์จากการออกรวบ\nรวมข้อมูลเท่าไร และระหว่างที่สมาชิกคุยกันเกี่ยวกับเรื่องข่าวลือแปลกๆ ที่ลือกันไปทั่วหมู่บ้าน แหล่งข่าวที่คาดไม่ถึงก็ปรากฏตัวขึ้น",
+  "DescTW": "RABBIT小隊成員們未能在探訪調查中得到什麼特別的線索。就在小隊成員們討論村子裡流傳的不祥傳聞的時候，出現了某個出乎意料的情報提供者。",
+  "DialogJP": [
+    {
+      "Text": "第3話;禁忌"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……中間報告をまとめました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "[ruby=やとうら]夜戸浦村[/ruby]の漁師の方々に聞き込みをしたところ、ここ数ヶ月エビ漁に影響を及ぼすような出来事はなかったとのこと。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "証言によると、たしかに水揚げ量は減っているものの、D.U.全域でエビが出回らなくなるほどの変化ではないようです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こっちも「レッド・フック・エクスプレス」の加工場を調べてみたけど、特に事故や不審な点は見つからなかった。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "平和な村だな――悪く言えば、気味が悪いくらい静かな村だが。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "村の入口にある防犯カメラを確認したけど、1日に2回運行してるバス以外に出入りはなかったよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "大量の冷凍エビを輸送できるような方法は限られてるけど……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "「レッド・フック・エクスプレス」の定期船以外が村を訪れた形跡はないかな。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "外部との交流がないのかな……？\n観光客も、私たちだけみたいだし……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、ひとつ気になったことが……海辺で釣具を持ってる人に出会ったんだけど……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "その人、釣りに興味があるというよりは……\n何か別のものを探しているように、見えたかな……"
+    },
+    {
+      "Text": "[ns] \"それって……\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……怪しいですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "集めた情報を総合すると、この村には何も問題がないはずです。\nにもかかわらず、D.U.にエビが出回っていないということは……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "住民を疑うのはどうかと思うが……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "誰かが、ウソをついてるね、これは。"
+    },
+    {
+      "Text": "[s] \"住民と接してみた感触は？\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "うーん、そうだな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "みんな部外者を警戒してるのか、まともな会話ができなかった。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "普段は親切なヴァルキューレ警察学校の生徒でさえ、ピリピリしてたからな。\n引き留めようとしたんだが、さすがに躊躇ってしまった。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "なにか……外部の人に知られちゃまずいことでも、あるのかな……？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "くひひ……そりゃそうでしょ、ミユ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "理由がなかったら、そこまで気を張る必要はないからね。\nこりゃあ何か裏があるよ。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "たとえば～こないだサキが寝ぼけて……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "その話は今関係ないだろ！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それと……住民の方から「深きもの」には気をつけろ、と言われました。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あ、それなら私も聞いたな。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "この辺りで泳ぐなら、「深きもの」に裁きを下されないように気をつけろって。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うん……私は、釣り人さんが「深きもの」が力を貸してくれれば、\nって言ってるのを聞いた……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "なにそれ、釣りに関係してるってこと？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……この村には、イルカでもいるわけ？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……「深きもの」は、古くから[ruby=ここ]夜戸浦村[/ruby]に伝わる都市伝説です。\n海に棲んでいる超常的な存在を指しまして――"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あなたは……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "おっと、皆さんのお話を遮ってしまい、申し訳ありませんでした。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "この村にやってきた客を見るのは久しぶりでして、つい声をかけてしまった次第です。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……ああ、申し遅れました。\n私は夜戸浦産のエビを、加工・輸送する事業を営んでいる者です。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……それって。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あなたが「レッド・フック・エクスプレス」の代表の方でしょうか？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "はは。そう言われると、少し照れくさいものがありますね。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "以前は私も船乗りの1人として水揚げを行っておりましたが、やはり熟練の方々には到底及ばず……道半ばで挫折したに過ぎませんので。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私たちも、お会いできて嬉しいです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "いつも大変おいしいエビをD.U.まで運んでくださる「レッド・フック・エクスプレス」の代表の方には、ぜひ一度お会いしたいと思っていたので。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "ははは、そう言っていただけて何よりです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが……近頃、D.U.でエビをあまり見かけなくなったような気がしまして。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "飲食店はもちろん、コンビニからも姿を消してしまったようで……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "…………。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "代表の方なら、何かご存知ではないでしょうか？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "それは――不漁に見舞われてしまったからです。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "まだ原因は分かっておりませんが、おそらく水温上昇などの影響でしょうね。\nここしばらくは、港に戻ってきた船がエビを持って帰ってくる日の方が珍しいくらいで。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "エビが捕れなければ、当然D.U.に納品できるはずもないでしょう？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "自然には太刀打ちできないもので、こればかりは時間が解決してくれるのを願うしかなく。私どもとしても、皆さんの生活が懸かっているので、どうにかしたいのですが……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "水揚げ量が減ってるものの、特に問題はないって住民から聞いたんだが……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……船乗りのプライドが懸かってますからね。\nきっと正直に答えたくなかったのでしょう。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "それに、何も今年に限った話ではありません。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "様々な要因によって、エビの水揚げ量が上下するのは当然です。\nこれを[ruby=・   ・]問題[/ruby]と呼ぶのは、語弊があるかと。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それは、そうだが……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……少し厳しい言い方をしてしまい申し訳ありません。\n会社としても、この状況は苦しいのです。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "今月だけでも、どれほどの損失が出たものか……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "できることなら「深きもの」に[ruby=すが]縋[/ruby]りつきたいくらいです。\nエビを呼び戻してくれ、と。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "あ、あの……「深きもの」って、何ですか……？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "先ほども申し上げたように「深きもの」というのは、海に棲む伝説の存在です。\n夜戸浦村では、今も語り継がれています。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "聞くところによると、村の東にある「鬼の[ruby=がんしょう]岩礁[/ruby]」という岩礁地帯の近くには海底都市があり、そこに棲んでいるようです。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "身体はウロコで覆われ、深海でも自由に動き回れる強靭な肉体を持っています。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "肉体が著しく損傷しない限り死ぬことはないため、かつては不老不死を夢見た多くの者がこの村を訪れたとか。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……ですが、その夢追い人の行方は依然として知れないようです。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ひ、ひぃぃっ……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "また、「深きもの」は気に入った相手にあらゆる加護を授けるのだとか。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "つまるところ、「深きもの」は――海をつかさどる神のような存在、\nと言えるでしょう。"
+    },
+    {
+      "Text": "[s1] \"ワタツミさま、みたいな……？\""
+    },
+    {
+      "Text": "[s2] \"マーマンとか……？\""
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "そうですね、おそらくそれに近いものかと。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "ええっと、それは何でしょうか……？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……ともかく、漁獲量が減ったせいで皆さん不安になったのか、\n最近また「深きもの」の名を口にするようになりました。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "彼らの怒りを鎮めるには「供物を捧げるべき」だとか、\n規律を乱す「外部の人間を追い出すべき」など。  "
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "供物、というのは……具体的にどんなものでしょうか？  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "もちろん……生身の人間です。  "
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……！  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……ふふ、冗談です。そう怯えないでください。  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "生身の人間を捧げていた、というのは言い伝えに過ぎません。\n今となっては、その真偽は不明ですが……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "このご時世、人が消えたりなんかしたら、世間は黙っていないでしょう？"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……私たちはなるべく静かに、ここで商売を続けたいのです。  "
+    },
+    {
+      "Name": "サキ",
+      "Text": "（まるで、騒ぎにならなければ供物も[ruby=やぶさ]吝か[/ruby]ではない――かのような口ぶりだ）  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "もし、まだ「深きもの」にご興味があるようでしたら、\n「鬼の[ruby=がんしょう]岩礁[/ruby]」を訪ねてみてはいかがでしょうか。  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "ただし、潮の干満差が大きくなる大潮の日には、絶対に近寄らないでください。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……どうしてですか？  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "言い伝えによると、\n大潮の日はお供えを回収するために「深きもの」が陸に姿を表します。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "私たちの知らないところで、住民が本当は供物を捧げているとしたら……"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "村の事情を嗅ぎまわる[ruby=よそもの]余所者[/ruby]を、歓迎するとは思えませんから。  "
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……！！  "
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "っと……少し話が長くなってしまいましたね。\n余計なことまで喋ってしまったかもしれません。  "
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "いえ、村の事情をよく理解できました。ありがとうございます。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "……世の中には、知らない方が良いこともありますがね。"
+    },
+    {
+      "Name": "海運会社の者",
+      "Text": "では、楽しんでいってください。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "や、やっぱりこの村は呪われてるんだ……\n「深きもの」って名前を聞いたとき、帰るべきだった……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "きっと私たちは、漁の繁盛のために捧げられるんだよ……\nもう今頃、村の出入り口は塞がれていて……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ミユ、なに言ってんだ。\n私たちなら、たとえ出入り口が塞がれていても脱出できるだろ？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "で、でも……ホラー映画の始まりはみんなこうだよ！  "
+    },
+    {
+      "Name": "ミユ",
+      "Text": "最初は単なる好奇心だったけど、途中から逃げたくても逃げられなくなって……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "きっともうすぐ怪奇現象が起きたり、恐ろしいモンスターが私たちの前に現れるよ……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "それで、私たちは幻影に取り憑かれて、\n残りの人生を恐怖に支配されて過ごすんだ……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……大げさだな。そんなモンスター、いるわけないだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "モンスターだの呪いだの、結局は人間が人間を恐怖に追いやるための作り話だ。  "
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "私も、そう思います。  "
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それほどの力を持つ存在が海にいるのなら、\nキヴォトスの連邦生徒会が動いているはずです。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ねえミユ、知ってた？  "
+    },
+    {
+      "Name": "モエ",
+      "Text": "この世でいっちばん怖くて恐ろしい存在は……\n連邦生徒会の財務室に棲んでるんだって。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "「深きもの」がどれくらいスゴい存在なのかは知らないけど、もし漁業活動でキヴォトスの経済に影響を与えたら……財務室の税務調査担当が黙っちゃいないよ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……なんか心当たりでもあるのか？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "オデュッセイア海洋高等学校から仕入れたミサイル、うまく隠したつもりだったんだけどな～"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まったく、私たちの知らないところで何やってんだよ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ともかく、いいか。泣く子も黙るSRT特殊学園の隊員が、\nこんな噂話なんかに惑わされている場合じゃない。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "いったい誰が嘘をついているのか……洗いざらい吐かせてやる！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……しかし、調査を進めたいところですが、注目を集めすぎてしまいましたね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "住民に警戒されている以上、今すぐ聞き込みを再開するのは難しいと思います。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "一度全員、宿に戻って早めに身体を休めましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "住民たちが眠りについて、静寂が訪れたそのとき――"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "調査を再開します！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;금기"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……조사 결과에 대해 중간보고 드리겠습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이곳 야토우라 마을의 어민들을 탐문한 결과, 요 몇 달간 새우 조업에 영향을 끼칠 만큼 특별한 환경 변화는 없었던 것으로 보입니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "증언에 의하면 근래 새우 어획량이 다소 줄어든 것은 사실인 것 같지만…… D.U. 전역에 새우 대란을 일으킬 정도는 아니었던 것 같네요."
+    },
+    {
+      "Name": "사키",
+      "Text": "나도 <레드 훅 익스프레스>의 수산물 가공 공장에 사고가 발생하지는 않았는지 따로 기록을 확인해 보았지만, 그쪽도 아무 문제가 없었어."
+    },
+    {
+      "Name": "사키",
+      "Text": "……마을이 기분 나쁠 만큼 조용하다는 걸 제외하면 오히려 평화로워 보일 정도인걸."
+    },
+    {
+      "Name": "모에",
+      "Text": "마을 어귀의 CCTV도 모두 살펴보았지만, 하루에 두 번씩 오가는 버스 이외에 드나드는 차량은 없는 것 같아."
+    },
+    {
+      "Name": "모에",
+      "Text": "몇 톤이나 되는 냉동 새우를 육로로 옮기려면 다른 방법으로는 불가능할 테니……"
+    },
+    {
+      "Name": "모에",
+      "Text": "<레드 훅 익스프레스>의 정기선을 거치지 않고 별개의 루트로 새우가 반출된 것 같지는 않네."
+    },
+    {
+      "Name": "미유",
+      "Text": "그 밖에 외부와의 교류도 거의 없는지, 이 마을에 외지인은 우리밖에 없는 것 같아."
+    },
+    {
+      "Name": "미유",
+      "Text": "아. 다만 부둣가 근처에서 가벼운 낚시채비를 갖춘 낚시꾼과 마주치긴 했는데……"
+    },
+    {
+      "Name": "미유",
+      "Text": "……그 낚시꾼은 정작 낚시에는 관심이 없어 보였고, 뭔가 다른 걸 찾는 것처럼 보였어."
+    },
+    {
+      "Text": "[ns] \"뭔가……\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "……수상하네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "객관적인 정보만 두고 보자면 큰 문제가 없어 보이지만, 현재 밝혀진 정황만으로는 D.U.에 새우가 제대로 납품되지 않는 이유를 설명할 수 없습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "마을 주민 모두가 큰 착각에 빠진 게 아니라면……"
+    },
+    {
+      "Name": "모에",
+      "Text": "주민들 중 누군가는 거짓말을 하고 있다는 뜻이겠지."
+    },
+    {
+      "Text": "[s] \"그 밖에 신경 쓰이는 일은 없었어?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "신경 쓰이는 일이라고 해도……"
+    },
+    {
+      "Name": "사키",
+      "Text": "마을 주민 모두가 하나같이 외지인을 경계하고 있어서 대부분은 제대로 말도 붙여보지 못했어."
+    },
+    {
+      "Name": "사키",
+      "Text": "친절하기로 소문난 발키리 경찰학교의 학생들조차 이곳에서는 어찌나 날이 서 있던지. 말을 걸기가 겁날 정도였다니까."
+    },
+    {
+      "Name": "미유",
+      "Text": "뭔가…… 외지인에게 들켜서는 안 되는 비밀이라도 있는 걸까?"
+    },
+    {
+      "Name": "모에",
+      "Text": "쿠후후…… 당연하지, 미유."
+    },
+    {
+      "Name": "모에",
+      "Text": "보통 이유도 없이 화가 난 것처럼 보이는 사람들은 대부분 어딘가 찔리는 구석이 있는 법이거든."
+    },
+    {
+      "Name": "모에",
+      "Text": "예를 들자면 저번에 사키가 빨래가 덜 말랐다고 속옷 없이 작전을 나갔을 때, 보여주었던 반응만 떠올리더라도—"
+    },
+    {
+      "Name": "사키",
+      "Text": "야! 넌 왜 갑자기 그때 이야기를……!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……그리고 정확한 의미를 이해하지는 못했지만, 마을 주민들로부터 <깊은 곳의 존재들>을 조심하라는 이야기도 들었습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "아, 그 말은 나도 경찰서 앞에서 들었어."
+    },
+    {
+      "Name": "사키",
+      "Text": "이 근처에서 수영을 할 거라면 <깊은 곳의 존재들>에게 노여움을 사지 않도록 각별히 조심하라던데."
+    },
+    {
+      "Name": "미유",
+      "Text": "나도…… 낚시꾼들이 물고기를 잡을 때 <깊은 곳의 존재들>로부터 도움을 받을 수 있다고 들었어……"
+    },
+    {
+      "Name": "모에",
+      "Text": "……물고기를 잡을 때 도움을 주는 수중의 존재들? 그게 뭐야?"
+    },
+    {
+      "Name": "모에",
+      "Text": "이 마을 앞바다에는 돌고래 같은 생물이라도 살고 있는 건가?"
+    },
+    {
+      "Name": "???",
+      "Text": "……<깊은 곳의 존재들>은 바닷속의 초인적인 존재를 이르는 이 마을의 오래된 표현입니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "당신은……?"
+    },
+    {
+      "Name": "???",
+      "Text": "아, 중간에 끼어들어서 죄송합니다."
+    },
+    {
+      "Name": "???",
+      "Text": "밖에서 온 손님을 보는 건 오랜만이라, 반가워서 저도 모르게 불쑥 말을 걸었군요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "인사드리겠습니다. 저는 이곳 야토우라 마을에서 생산한 새우를 D.U.까지 운송하는 역할을 맡고 있는…… 일개 해운업자입니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "새우의 운송? 그렇다면……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "당신이 그 <레드 훅 익스프레스>의 대표인가요?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "하하, 그렇게 말씀해 주시니 조금은 부담스럽네요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "오래전부터 이 마을에서 작게 해운업을 벌이고 있습니다만, 노련한 뱃사람들이 보기에는 소금기가 덜 밴 애송이에 불과하지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저희 역시 뵙게 되어 반갑습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "안 그래도 D.U.에 사시사철 맛있는 새우를 납품해 주시는 <레드 훅 익스프레스>의 대표님이 어떤 분인지 꼭 뵙고 싶었거든요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "하하. 그렇게 말씀해 주시니 노력한 보람이 있네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그런데…… 최근에는 D.U.에서 새우를 통 보지 못한 것 같네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "납품되는 새우에 무슨 문제가 생겼는지, 요새는 음식점은 물론이고 편의점 도시락에서도 새우를 볼 수가 없던데……"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "………."
+    },
+    {
+      "Name": "미야코",
+      "Text": "D.U.의 새우 납품을 책임지고 계신 사장님께서는 혹시 뭔가, 알고 계신가요?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "그건 당연히, 새우가 잡히지 않기 때문입니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "요새 날씨가 더운 탓인지, 조업을 나간 어부들이 물고기를 잡아 오는 날이 손에 꼽힐 정도로 새우가 잘 잡히지 않는 모양이더군요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "잡아 들인 새우가 없으니, D.U.에 납품할 물건도 자연히 부족해진 것이지요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "새우 조업이 정상화되면 해결될 문제이니 너무 걱정하지 않으셔도 괜찮습니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "하지만 이곳의 사람들은 새우잡이에는 문제가 없다고 말했는걸?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "……뱃사람들의 자존심이 걸린 문제니까요. 솔직하게 답하고 싶지는 않았을 겁니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "게다가 조업 자체에 문제가 생긴 건 아니지 않습니까?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "계절에 따라 잡히는 새우의 숫자가 늘었다 줄어드는 것은 자연스러운 섭리이니, 이를 '문제'라고 부르는 것도 어폐일 수밖에요."
+    },
+    {
+      "Name": "사키",
+      "Text": "그건 그렇긴 하지만……"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "오히려 새우가 잡히지 않는 상황에 대해서는 오히려 제가 하소연을 하고 싶은 정도입니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "이번 달만 하더라도 새우를 팔지 못해 본 손해가 얼마인지……"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "정말 가능하다면 <깊은 곳의 존재들>에게 직접 부탁이라도 해서 새우 떼를 다시 불러들이고 싶은 정도라니까요."
+    },
+    {
+      "Name": "미유",
+      "Text": "저…… <깊은 곳의 존재들>이 정확히 무엇인가요?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "아까도 말씀드렸지만, <깊은 곳의 존재들>은 야토우라 마을의 설화에 등장하는 바닷속의 신비한 존재를 이르는 말입니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "이 마을의 오랜 설화에 따르면, 마을 동쪽에 있는 <도깨비의 암초> 아래에는 신비한 힘을 지닌 존재가 사는 해저 도시가 있다고 하지요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "그들은 물고기와 같이 온몸이 비늘로 덮여 있으며, 아무리 깊은 바닷속이라도 자유로이 헤엄칠 수 있는 튼튼한 몸을 갖고 있다고 합니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "그들은 늙거나 굶주려서 죽는 법이 없으며, 오로지 폭력에 의해서만 죽음을 맞이하기 때문에 불로불사를 꿈꾸는 많은 사람들이 그들을 보고자 이 마을을 찾아왔다고 하지요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "물론 그들을 마주한 외지인들이 끝내 어떤 결말을 맞았는지는 적혀있지 않지만……"
+    },
+    {
+      "Name": "미유",
+      "Text": "히, 히익……"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "게다가 <깊은 곳의 존재들>은 바닷속의 물고기를 자유롭게 부리기 때문에 마음에 든 인간에게는 바다에서 얻을 수 있는 온갖 풍요를 약속해 준다고 합니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "간단히 정리하자면…… <깊은 곳의 존재들>은 바다의 일을 주관하는 해신과 같은 존재라 할 수 있습니다."
+    },
+    {
+      "Text": "[s1] \"용왕님이라던가……?\""
+    },
+    {
+      "Text": "[s2] \"아쿠O 맨이라던가……?\""
+    },
+    {
+      "Name": "해운업자",
+      "Text": "네. 완전히 일치하지는 않겠지만 비슷한 개념이겠지요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "……네? 그게 뭔가요……?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "여하튼…… 어획량이 줄어들어서 그런지는 몰라도, 최근 마을 사람들이 <깊은 곳의 존재들>을 입에 담는 일이 크게 늘어났습니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "예를 들면 그들의 분노를 다스리기 위해 제물을 바치거나, 바다를 어지럽히는 외지인을 몰아내야 한다고 말이지요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "제물이라면…… 어떤 제물을 말씀하시는 건가요?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "그야 물론…… 살아있는 사람을 말하는 것이지요."
+    },
+    {
+      "Name": "미유",
+      "Text": "………!"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "후후, 농담입니다. 너무 두려워 마시길."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "사람을 산제물로 바쳤다는 것도 오래된 설화에나 나오는 이야기고, 그마저도 진위는 불확실하니까요."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "게다가 요즘 같은 시대에, 야토우라 같은 외진 어촌에서 갑자기 사람이 사라지기라도 한다면 큰 소란이 일지 않겠습니까?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "……저희는 가급적 이 마을에서 조용히 장사를 계속하고 싶으니까요."
+    },
+    {
+      "Name": "사키",
+      "Text": "(……마치 가능하다면 사람을 제물로 바칠 수도 있다는 말처럼 들리는데……)"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "혹 <깊은 곳의 존재들>에 대해 더 관심이 있으시다면, <도깨비의 암초>를 직접 찾아가 보시는 것도 추천 드립니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "……다만 조차가 큰 사리날 밤에는 절대로 그 근처에 가까이 가시지 마시길."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……어째서인가요?"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "오랜 설화에 따르면 사리날 밤은 <깊은 곳의 존재들>이 공물을 거두어 가기 위해 뭍으로 올라오는 때라고 합니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "물론 뱃사람들의 허풍이 섞인 이야기라고는 하지만, 만에 하나 그 깊은 바닷속의 존재들이 실존한다면……"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "마을의 비밀을 캐고 다니는 외지인을 환대할 거라 생각할 수는 없으니까요."
+    },
+    {
+      "Name": "미유",
+      "Text": "………!!"
+    },
+    {
+      "Name": "해운업자",
+      "Text": "이런, 너무 사설이 길었군요. 괜한 이야기를 한 것 같습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "아뇨. 마을을 이해하는 데 큰 도움을 받았습니다. 감사합니다."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "……세상에는 아느니 못한 것이 잔뜩 있는 법이지만."
+    },
+    {
+      "Name": "해운업자",
+      "Text": "그럼, 즐거운 바캉스 되시길."
+    },
+    {
+      "Name": "미유",
+      "Text": "여, 역시 이 마을은 저주받았어…… <깊은 곳의 존재들>이라는 말을 들었을 때 눈치챘어야 했는데……"
+    },
+    {
+      "Name": "미유",
+      "Text": "분명 우리는 이 마을에 물고기 떼를 불러들이기 위한 산 제물로 선택된 거야…… 이제는 도망치고 싶어도 도망칠 수 없어……"
+    },
+    {
+      "Name": "사키",
+      "Text": "그게 무슨 소리야, 미유. 이 마을은 우리 발로 직접 찾아온 거잖아?"
+    },
+    {
+      "Name": "미유",
+      "Text": "하지만…… 공포 영화의 오프닝도 다 이렇게 시작한다고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "처음에는 순수한 호기심에 이끌려 들어오지만, 중반부터는 도망치고 싶어도 도망칠 수 없게 되어서……"
+    },
+    {
+      "Name": "미유",
+      "Text": "온갖 기이하고 공포스러운 괴물들이 발길을 가로막고, 정신을 갉아먹어……"
+    },
+    {
+      "Name": "미유",
+      "Text": "끝내는 이 세상의 것이 아닌 환영을 마주한 채 공포 속에서 살아가게 될 거야……!"
+    },
+    {
+      "Name": "사키",
+      "Text": "……호들갑 떨지 마, 미유. 세상에 그런 괴물이 어디에 있어?"
+    },
+    {
+      "Name": "사키",
+      "Text": "괴물이니 저주니 해도, 결국은 사람이 사람을 겁주기 위해 만든 이야기일 뿐이야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "저도 동감합니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그렇게 강력하고 기이한 존재가 바다 아래에 있었더라면, 그동안 키보토스 총학생회가 그 존재를 눈치채지 못했을 리가 없지요."
+    },
+    {
+      "Name": "모에",
+      "Text": "……미유, 그거 알아?"
+    },
+    {
+      "Name": "모에",
+      "Text": "세상에서 제일 기이하고 두려운 존재는 바다 밑이 아니라 총학생회 재무실에 살고 있어……"
+    },
+    {
+      "Name": "모에",
+      "Text": "<깊은 곳의 존재들>이 얼마나 신성하고 기이한 존재인지는 모르겠지만, 그들이 어로 활동 따위로 키보토스의 경제에 영향을 끼치고 있었다면 재무실 세무조사 4팀의 시선으로부터 자유로울 수는 없었을 거야……"
+    },
+    {
+      "Name": "사키",
+      "Text": "……뭔가 쓸데없이 예시가 구체적인데."
+    },
+    {
+      "Name": "모에",
+      "Text": "오디세이아 해양학교를 통해 우회 구매한 미사일은 나름 잘 숨겼다고 생각했는데……"
+    },
+    {
+      "Name": "사키",
+      "Text": "넌 또 우리 몰래 무슨 짓을 벌이고 있었던 거야?!"
+    },
+    {
+      "Name": "사키",
+      "Text": "여하튼 귀신도 잡아낸다는 SRT 특수학원의 대원이, 고작 뜬소문이 무서워 작전 현장에서 달아날 수는 없지."
+    },
+    {
+      "Name": "사키",
+      "Text": "이 뜬소문의 뒤에서 누가 부정한 이득을 챙기고 있는지, 내가 샅샅이 파헤쳐 주겠어!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……하지만 조사를 더 진행하려 해도 지금은 보는 시선이 너무 많은 것 같군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "마을 사람들이 저희를 경계하고 있는 이상, 현시점에서 탐문을 계속하는 것도 어려울 듯합니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "우선 전 대원은 모두 숙소로 돌아가 이른 수면을 취하도록 합시다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "마을이 조용해지고 사람들이 잠을 청하기 위해 집으로 돌아가면……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그때부터 본격적인 수색을 재개하겠습니다!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3;Trespassers"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Let's begin the mission status report."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "After questioning the fishermen of Yatoura Village, there doesn't seem to be any issues with the shrimp fishing itself."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The catches have been smaller than usual, but there's no sign it should have cut off the supply to the D.U. entirely."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I also checked to see if there was some problem at Red Hook Express' processing plant, but everything seems fine there."
+    },
+    {
+      "Name": "Saki",
+      "Text": "The only thing I can report is that the town is uncomfortably silent."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I checked all the CCTVs in town. The only vehicle coming or going is the bus that goes through twice a day."
+    },
+    {
+      "Name": "Moe",
+      "Text": "There's no way a truck loaded with five tons of frozen shrimp could sneak by without me noticing..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I think we can rule out the idea that someone's smuggling shrimp under Red Hook Express' nose."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "That matches what I saw. Besides us, the only people here are the local townsfolk."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Oh, actually, I did meet one other person from out of town by the pier..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "He said he was th-there for fishing, but he didn't know anything about fish and he seemed distracted by something..."
+    },
+    {
+      "Text": "[ns] \"Something smells...\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...fishy."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We don't have any evidence of wrongdoing, but we still can't explain why shrimp isn't making it to the D.U."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's almost like the whole town is under a spell..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Someone in this town is lying. That's for sure."
+    },
+    {
+      "Text": "[s] \"You really didn't learn anything else?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "We can ask questions until our faces are blue..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But everyone here is wary of outsiders. Most wouldn't even talk to me."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Even the students from Valkyrie Police School had a bad attitude."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "M-Maybe...the t-town has a dark secret..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heeheehee... Of course it does, Miyu."
+    },
+    {
+      "Name": "Moe",
+      "Text": "People who look angry for no reason are usually hiding something."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Like that time Saki went on a mission without her underwear because the laundry wasn't finished drying..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Hey! Why are you bringing that up NOW?!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Now that you mention it, Sensei, I did hear some townsfolk mention something called the \"Deep Ones.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Oh, the Valkyrie student also mentioned that."
+    },
+    {
+      "Name": "Saki",
+      "Text": "She told me I should be careful not to anger the \"Deep Ones.\""
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Ah... That other person from out of town mumbled that the \"Deep Ones\" can help him catch fish..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Deep so-and-sos that help with fishing? I don't get it..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Maybe they trained dolphins to dive deep down and bring up fish...?"
+    },
+    {
+      "Name": "???",
+      "Text": "The Deep Ones are an old superstition in these parts. Ancient creatures who live under the sea."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Who's there?"
+    },
+    {
+      "Name": "???",
+      "Text": "I hope I'm not interrupting."
+    },
+    {
+      "Name": "???",
+      "Text": "It's so rare to see new faces here. I got so excited that I jumped into the conversation."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Most days, the only people I see are fishermen bringing me their shrimp to be shipped off to the D.U."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You're in charge of shipping? That means..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Are you the CEO of Red Hook Express?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Haha... Guilty as charged."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "I suppose I should be proud of my humble business, but the old salts of Yatoura don't seem to think much of it."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Well, it's a pleasure to meet you."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "On behalf of the D.U., I want to thank Red Hook Express for all of the delicious shrimp you've sent our way."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Haha! It seems all my hard work paid off, after all."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But for some reason, we haven't seen any shrimp in the D.U. lately..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Not in restaurants, and not in convenience stores... It's got to be an issue with distribution, right?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Since it's your company, I wonder if you know what's going on?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "That's because shrimp aren't being caught. Obviously."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Maybe it's because of this unusually hot weather, but the fishermen have been coming back empty-handed more often than not lately."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "If there are no shrimp, then there's nothing to send to the D.U."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "The shrimp will come back in no time. I'm sure of it."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Interesting... When we spoke with the fishermen, they said they're still catching shrimp."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Oh, that's because of...their pride, I bet. They don't want to admit they're having trouble."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "And it's not like they can't catch other fish."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "If you think about it, lots of things are seasonal. This is probably just part of the natural shrimp-fishing cycle."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I mean, I guess, but..."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "In fact, if anyone should be complaining about this shrimp situation, it's me!"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "You wouldn't believe how much money I'm losing over this shrimp shortage..."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "I wish the Deep Ones would help me out and bring the shrimp back!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Um... What exactly are the Deep Ones, anyway...?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "I mentioned they're a superstition here, right? More of a folktale, really."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "They say there's an underwater city beneath Devil's Reef off the town's eastern shore."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "The city's inhabitants are covered in fish-like scales, and they can survive at any depth."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "They don't age or hunger, so many who seek immortality come to this town in search of them."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Although, no one knows what happens to those who actually find the Deep Ones..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Um... Uh..."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "They say that the Deep Ones have dominion over the fish of the sea, and those who earn their favor are promised all the riches of the ocean."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "In short, the Deep Ones are gods of the sea."
+    },
+    {
+      "Text": "[s1] \"Like the Dragon King of the Sea...?\""
+    },
+    {
+      "Text": "[s2] “Like that superhero who talks to fish...?\""
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Ah, from mythology? It's not a perfect match, but they're pretty similar."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Huh? What kind of superhero is that...?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Anyway... Maybe it's because of the shrimp situation, but the villagers have been talking about the Deep Ones a lot lately."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "I've heard whispers that the town may need to offer a sacrifice to the Deep Ones...or drive away meddling outsiders..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What kind of sacrifices...?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "What else? Human sacrifices."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "...!"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Hahaha! I'm joking, of course. Don't look so scared!"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "The old folktales mention sacrifices, but it's all just stories."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "In this day and age, don't you think it'd be big news if a little fishing village like this was making human sacrifices?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "All the people here want is to go about their business in peace."
+    },
+    {
+      "Name": "Saki",
+      "Text": "(That's what they always say before doing a human sacrifice...)"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "If you want to know more about these Deep Ones, why not visit Devil's Reef for yourselves?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Just don't go on a night when the tide is at its lowest."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Why not...?"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "According to legend, on nights when the tide is lower than normal, the Deep Ones come to the surface to collect tribute."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Obviously, it's made-up nonsense, but... Well, just in case there's a kernel of truth in there..."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "I doubt the Deep Ones would appreciate a group of outsiders digging around the town's secrets."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "...!"
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Ah, maybe I've said too much..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Not at all. You've been a big help in letting us get to know the town. Thank you."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "There are some things better left unknown, though."
+    },
+    {
+      "Name": "Shipping Agent",
+      "Text": "Well, I'd best leave you to your vacation!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "This t-town is cursed... I sh-should have known when they started talking about the D-Deep Ones..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We h-have been chosen by the D-Deep Ones... Th-They'll sacrifice us to bring back the fish... Th-There is no escape..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Nobody chose us. We're the ones who decided to come here."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-But...this is how scary movies always start!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We w-were drawn here out of curiosity, b-but in the end we won't be able to run away even if we w-want to..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "T-Terrible monsters will rise from the waves and devour our s-sanity..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "We will f-forever be haunted by impossible abominations, l-locked into our own madness forever...!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Snap out of it! There aren't any monsters like that in the real world."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Monsters. Curses. Whatever. It's all a story made up to scare us off."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I agree."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "If the Deep Ones were real, the Kivotos General Student Council would already know about them."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hey, Miyu, don't you know?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "The most terrifying creature in the world isn't under the sea... It's in the General Student Council Treasurer's Office!"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I don't care how tough these Deep Ones are. If they're smuggling shrimp, they'll have to answer to tax investigation team 4!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "That's specific..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I still don't know how they found out about the torpedo I bought under-the-table from the Odyssey Maritime School..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "What were you planning to do with a torpedo?!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Anyway! Not even a ghost can escape from SRT."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'll debunk this story personally and find out what's really happening here!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But for now, it will be hard to make any progress with the whole town watching us."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I doubt we'll get any useful answers through direct interrogation, either."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "For now, let's make camp and get some rest."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Tonight, after the town has gone to sleep..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...we'll continue the investigation!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;ข้อห้าม"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "รายงานเรื่องที่ตรวจสอบได้ระหว่างปฏิบัติภารกิจค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จากการสอบถามคนในหมู่บ้านยาโตอูระ ไม่พบว่าเกิดการเปลี่ยนแปลงด้านสภาพแวดล้อมพิเศษที่จะ\nส่งผลกระทบต่อการจับกุ้งในช่วงไม่กี่เดือนนี้เลยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดูจากที่ชาวบ้านเล่ามาแล้ว ในช่วงไม่กี่ปีที่ผ่านมาปริมาณกุ้งที่จับได้มีจำนวนลดลงจริง... แต่ไม่ได้ลด\nลงมากพอที่จะทำให้เกิดการขาดแคลนกุ้งในเขต D.U. ได้ค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันลองตรวจสอบบันทึกดูแล้วว่าในช่วงที่ผ่านมาเกิดอุบัติเหตุอะไรที่โรงงานแปรรูปอาหารทะเล <เรด ฮุก เอ็กซ์เพรส> หรือเปล่า แต่ก็ไม่เจอปัญหาอะไรเลย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...นอกจากเรื่องที่บรรยากาศในหมู่บ้านวังเวงจนน่ากลัวแล้ว ก็นับว่าทุกอย่างดูเงียบสงบดี"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันตรวจสอบกล้องวงจรปิดทั้งหมดที่ทางเข้าหมู่บ้านแล้ว นอกจากรถบัสที่เข้าออกวันละสองครั้งแล้ว ก็ไม่มีรถอื่นเข้ามาเลย"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "นอกจากใช้รถแล้ว การขนส่งกุ้งแช่แข็งหลายสิบตันทางบกก็เป็นไปไม่ได้..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แถมยังดูไม่เหมือนว่าจะมีการขนส่งกุ้งไปยังเส้นทางอื่น นอกจากเส้นทางขนส่งประจำของ\n<เรด ฮุก เอ็กซ์เพรส> ด้วย"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "นอกจากนี้ หมู่บ้านนี้ยังแทบไม่มีปฏิสัมพันธ์กับคนภายนอกเลย ดูเหมือนเราจะเป็นคนนอกเพียงกลุ่ม\nเดียวในหมู่บ้านนี้เลยละ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อ่า... แต่ว่าฉันไปเจอนักตกปลาพร้อมอุปกรณ์ตกปลาที่แถวๆ ท่าเทียบเรือมาด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่ว่าดูเหมือนคนคนนั้นจะไม่ได้สนใจเรื่องการตกปลา แต่เหมือนกำลังมองหาอะไรบางอย่างอยู่ด้วยละ"
+    },
+    {
+      "Text": "[ns] \"บางอย่างงั้นเหรอ...\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "...น่าสงสัยจังเลยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้าวิเคราะห์จากข้อมูล ที่นี่ดูเหมือนจะไม่ได้มีปัญหาใหญ่อะไร แต่จากสถานการณ์ที่ตรวจสอบได้ใน\nตอนนี้ก็ยังไม่สามารถอธิบายได้ว่าทำไมถึงเกิดปัญหาการขนส่งกุ้งไปที่เขต D.U. ค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เว้นแต่ว่าคนในหมู่บ้านทุกคนกำลังหลงผิดอะไรบางอย่างอยู่..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หมายความว่ามีชาวบ้านบางคนโกหกสินะ"
+    },
+    {
+      "Text": "[s] \"มีเรื่องอื่นที่ติดใจอีกมั้ย?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะเรียกว่าเป็นเรื่องที่ติดใจได้มั้ยนะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ดูเหมือนคนในหมู่บ้านจะพร้อมใจกันระวังคนนอกมากๆ จนส่วนใหญ่ไม่คิดที่จะคุยกันเลยด้วยซ้ำน่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แม้แต่พวกนักเรียนของสถาบันฝึกตำรวจวัลคิรี่ที่ขึ้นชื่อเรื่องความมีน้ำใจยังแสดงออกว่าไม่พอใจอย่าง\nออกนอกหน้าเลย ดูน่ากลัวจนไม่กล้าคุยด้วยเลยละ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ดูเหมือน... มีความลับอะไรบางอย่างที่ไม่อยากเปิดเผยให้คนนอกหมู่บ้านรู้รึเปล่านะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮุฮุฮุ... แน่นอนอยู่แล้วมิยุ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ส่วนใหญ่คนที่โมโหหรือแสดงท่าทางไม่พอใจออกมาอย่างไม่มีเหตุผลน่ะ มักจะเป็นพวกคนที่โดน\nจี้ใจดำเอาไงล่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อย่างเช่น ท่าทางของซากิที่ต้องไปปฏิบัติการโดยไม่ใส่ชุดชั้นในเพราะตากไว้แล้วมันไม่แห้ง—"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่! จู่ๆ เธอจะพูดเรื่องนั้นขึ้นมาอีกทำไมกันเล่า...!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แล้วอีกอย่าง ถึงฉันจะไม่ค่อยเข้าใจเท่าไร แต่คนในหมู่บ้านบอกว่าให้ระวัง <ตัวตนแห่งห้วงลึก> ด้วยค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อ่า เรื่องนั้นฉันก็ได้ยินมาจากสถานีตำรวจเหมือนกัน"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พวกเขาบอกว่าถ้าจะว่ายน้ำแถวนี้ละก็ ให้ระวังๆ อย่าไปทำให้ <ตัวตนแห่งห้วงลึก> ไม่พอใจน่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันก็เหมือนกัน... ได้ยินว่าพวกนักตกปลาจะขอให้ <ตัวตนแห่งห้วงลึก> ช่วยให้ตกปลาได้..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "...ตัวตนของบางสิ่งบางอย่างที่อยู่ใต้ทะเลที่ช่วยเหลือเวลาตกปลา? มันคืออะไรน่ะ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ที่น่านน้ำนอกชายฝั่งทะเลมีพวกโลมาอยู่ด้วยงั้นเหรอ?"
+    },
+    {
+      "Name": "???",
+      "Text": "... <ตัวตนแห่งห้วงลึก> เป็นคำโบราณของคนในหมู่บ้านนี้ที่ใช้เรียกสิ่งมีชีวิตลึกลับเหนือธรรมชาติใต้\nทะเลน่ะครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณคือ...?"
+    },
+    {
+      "Name": "???",
+      "Text": "อ่า ขอโทษที่เข้ามาขัดจังหวะระหว่างที่คุยกันนะครับ"
+    },
+    {
+      "Name": "???",
+      "Text": "พอดีผมไม่ได้เห็นนักท่องเที่ยวที่มาจากเขตอื่นนานแล้ว เลยดีใจจนเผลอพูดไปโดยไม่รู้ตัวน่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "จะขอแนะนำตัวให้ฟังก่อนนะครับ ผมคือผู้ดูแลบริษัทขนส่งที่รับผิดชอบการขนส่งกุ้งที่ผลิตในหมู่บ้าน\nยาโตอูระไปยังเขต D.U. น่ะครับ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ขนส่งกุ้งเหรอ? ถ้างั้น..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณคือประธานของ <เรด ฮุก เอ็กซ์เพรส> งั้นเหรอคะ?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ฮะฮ่า พอได้ยินแบบนั้นแล้วก็เขินอยู่หน่อยๆ เหมือนกันนะครับเนี่ย"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ผมทำธุรกิจขนส่งเล็กๆ ที่หมู่บ้านนี้มานานแล้วละครับ แต่ถ้าเปรียบกับพวกชาวประมงในหมู่บ้านนี้ ก็นับว่ายังเป็นเด็กน้อยไร้ประสบการณ์อยู่เลยครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ยินดีที่ได้พบคุณค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันเองก็อยากพบกับประธานของทาง <เรด ฮุก เอ็กซ์เพรส> ที่คอยจัดส่งกุ้งแสนอร่อยมาที่เขต D.U. มาตลอดเลยละค่ะ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ฮ่าฮ่า ได้ยินแบบนั้นก็หายเหนื่อยเลยละครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ว่า... ช่วงนี้ไม่ค่อยเห็นกุ้งในเขต D.U. เลยนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การจัดส่งกุ้งมีปัญหาอะไรรึเปล่าคะ ดูเหมือนช่วงนี้ไม่ค่อยเห็นเมนูกุ้งในร้านอาหารต่างๆ หรือข้าวกล่อง\nในร้านสะดวกซื้อเลย..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ท่านประธานคอยดูแลเรื่องการขนส่งกุ้งไปที่เขต D.U. อยู่... ไม่ทราบว่าพอจะรู้สาเหตุบ้างมั้ยคะ?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "เรื่องนั้น แน่นอนว่าเป็นเพราะช่วงนี้จับกุ้งไม่ค่อยได้น่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ไม่รู้ว่าเพราะช่วงนี้อากาศร้อนรึเปล่า ดูเหมือนว่าพวกชาวประมงจับกุ้งกันได้น้อยมาก จนเกือบจะกลับ\nมามือเปล่ากันเลยละครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "พอจับกุ้งไม่ได้ ก็เลยมีกุ้งไม่พอส่งไปที่เขต D.U. น่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้าจับกุ้งได้ตามเดิมก็จะคลี่คลายปัญหานี้ได้ เพราะงั้นไม่ต้องกังวลไปหรอกนะครับ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ว่าชาวบ้านที่นี่บอกว่าปริมาณกุ้งที่จับได้ก็ไม่มีปัญหาอะไรนี่นา?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "...นั่นเพราะพวกชาวประมงน่ะรักศักดิ์ศรีกันจะตาย ไม่มีทางยอมพูดออกมาตามตรงหรอกครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "อีกอย่างมันก็ไม่ใช่ปัญหาจากการทำงานของพวกเขาด้วยนี่ครับ?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "มันเป็นธรรมชาติที่ปริมาณของกุ้งที่จับได้จะเพิ่มขึ้นหรือลดลงตามฤดูกาล เพราะงั้นจะเรียกว่าเป็น\n'ปัญหา' ก็คงไม่ถูกซะทีเดียวน่ะครับ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถึงจะจริงอย่างที่พูดมาก็เถอะ..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "อันที่จริง กระผมเองก็อยากร้องไห้กับสถานการณ์ในตอนนี้อยู่เหมือนกันครับ..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้าในเดือนนี้ยังไม่มีกุ้งขายอีกละก็คงจะเสียหายหลายส่วนเลย..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้าเป็นไปได้ก็อยากจะไปขอร้อง <ตัวตนแห่งห้วงลึก> ให้เรียกฝูงกุ้งกลับมาที่นี่อีกเลยละครับ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คือว่า... <ตัวตนแห่งห้วงลึก> มันคืออะไรกันแน่เหรอคะ?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ก็อย่างที่ผมบอกไปน่ะ <ตัวตนแห่งห้วงลึก> เป็นสิ่งมีชีวิตลึกลับใต้ทะเลที่เล่าต่อๆ กันมาเป็นตำนาน\nของหมู่บ้านยาโตอูระครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ตามตำนานเก่าแก่ของหมู่บ้านนี้ เล่ากันว่าที่ใต้ <แนวประการังยักษ์> ที่อยู่ทางตะวันออกของหมู่บ้าน มีเมืองใต้น้ำที่เป็นที่อาศัยของสิ่งมีชีวิตลึกลับอยู่น่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ได้ยินว่าร่างกายของพวกนั้นปกคลุมไปด้วยเกล็ดปลา และมีพละกำลังแข็งแกร่งสามารถว่ายน้ำได้\nอย่างอิสระ ไม่ว่าจะอยู่ลึกแค่ไหนก็ตามด้วยครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "พวกนั้นจะไม่มีวันตายเพราะความชราภาพหรือความหิวโหย แต่จะตายเพราะถูกใช้ความรุนแรงเท่านั้น ผู้คนที่ใฝ่ฝันถึงความเป็นอมตะจึงมาที่หมู่บ้านแห่งนี้เพื่อมาพบสิ่งมีชีวิตลึกลับพวกนั้นยังไงล่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "แน่นอนว่าในตำนานไม่ได้มีการเล่ากันมาว่าผู้คนที่ได้เผชิญหน้ากับพวกนั้นมีจุดจบอย่างไร แต่ว่า..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮะ...เฮือก..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ยิ่งไปกว่านั้น <ตัวตนแห่งห้วงลึก> สามารถเรียกฝูงปลาในทะเลมาได้อย่างอิสระ พวกนั้นเลยมักจะ\nสัญญาว่าจะมอบทุกสิ่งทุกอย่างที่สามารถหาได้จากทะเลให้กับมนุษย์ที่มันพึงพอใจครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้าจะพูดให้เข้าใจง่ายๆ ก็คือ <ตัวตนแห่งห้วงลึก> ก็เปรียบเสมือนกับเทพเจ้าแห่งท้องทะเลนั่นละครับ"
+    },
+    {
+      "Text": "[s1] \"เทพมังกรเหรอ...?\""
+    },
+    {
+      "Text": "[s2] \"มนุษย์เงือกเหรอ...?\""
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "อืม ไม่ใช่เป๊ะๆ ทีเดียว แต่ก็อะไรคล้ายๆ แบบนั้นแหละ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "หืม...? นั่นมันตัวอะไรกันครับน่ะ...?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ยังไงก็เถอะครับ... อาจเป็นเพราะช่วงที่ผ่านมากุ้งที่จับได้มีปริมาณลดลง เลยมีชาวบ้านที่พูดถึง <ตัวตนแห่งห้วงลึก> กันเยอะขึ้นน่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ตัวอย่างเช่น ควรส่งเครื่องสังเวยไปในทะเลเพื่อให้พวกนั้นหายโกรธบ้าง หรือขับไล่คนนอกที่เข้ามา\nรบกวนความสงบสุขของทะเลบ้างน่ะครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เครื่องสังเวย... ต้องสังเวยอะไรเหรอคะ?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "มันก็แหงอยู่แล้ว... ก็คนเป็นๆ ยังไงล่ะครับ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "......!"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ฮุฮุ ล้อเล่นนะครับ ไม่ต้องกลัวไปหรอกนะ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "การส่งคนเป็นๆ ไปเป็นเครื่องสังเวยน่ะมีแค่ในตำนานหรือเรื่องเล่าสมัยก่อนเท่านั้นแหละ แถมยังไม่รู้\nด้วยว่าเป็นเรื่องจริงหรือเปล่าด้วยครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "อีกอย่างสมัยนี้ ถ้าจู่ๆ มีคนหายไปจากหมู่บ้านประมงห่างไกลอย่างยาโตอูระละก็... คงจะเกิดเรื่อง\nวุ่นวายไม่น้อยเลยละ ว่าไหมครับ? "
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "...พวกเราอยากทำงานที่เรารักกันต่อไปเงียบๆ ในหมู่บ้านนี้ก็เท่านั้นเองครับ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "(...ฟังดูเหมือน ถ้าเป็นไปได้ก็อยากโยนคนเป็นๆ ลงไปเป็นเครื่องสังเวยเลยแฮะ...)"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้าหากพวกเธอสนใจเรื่องเกี่ยวกับ <ตัวตนแห่งห้วงลึก> ละก็ ผมแนะนำให้พวกเธอลองไปดูที่ <แนวปะการังยักษ์> เองดีกว่านะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "...แต่ว่าอย่าเข้าไปใกล้ที่นั่นในคืนวันจันทร์ข้างแรมจะดีกว่านะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำไมล่ะคะ...?"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ว่ากันว่าในคืนจันทร์ข้างแรม <ตัวตนแห่งห้วงลึก> จะขึ้นมารับของบรรณาการบนบกน่ะครับ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "มันอาจเป็นเรื่องเล่าที่พวกชาวประมงคุยโม้กันเองก็ได้ แต่ถ้าเกิดว่าพวกนั้นมีตัวตนอยู่จริงๆ ละก็..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "พวกนั้นคงไม่ยินดีแน่ ถ้าเจอกับคนนอกที่เข้ามาขุดคุ้ยความลับของหมู่บ้านน่ะครับ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "แย่ละสิ กระผมนี่พูดไปเรื่อยจริงๆ ดันพูดอะไรไร้สาระไปซะแล้วครับ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ไม่หรอกค่ะ เรื่องที่คุณเล่ามาช่วยให้เราเข้าใจหมู่บ้านนี้ได้เยอะมากเลยค่ะ ขอบคุณนะคะ"
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ในโลกนี้ยังมีอะไรอีกหลายอย่างที่เราไม่รู้อยู่อีกเยอะมากละนะ..."
+    },
+    {
+      "Name": "นักขนส่งสินค้าทางเรือ",
+      "Text": "ถ้างั้นผมขอตัวก่อนละ ขอให้ทุกคนสนุกกับวันหยุดพักผ่อนนะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คะ...คิดแล้วว่าเมืองนี้เป็นเมืองต้องสาป... สังหรณ์ใจตั้งแต่ได้ยินคำว่า <ตัวตนแห่งห้วงลึก> แล้วเชียว..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "พวกเราคงถูกเลือกให้เป็นเครื่องสังเวยเพื่อเรียกฝูงปลากลับมาที่หมู่บ้านอีกแน่ๆ... ตอนนี้ถึงจะอยาก\nหนีไปไกลๆ ก็คงทำไม่ได้แล้ว..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "พูดอะไรของเธอน่ะมิยุ ก็พวกเรามาที่หมู่บ้านนี้กันเองไม่ใช่รึไง?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แต่ว่า... หนังสยองขวัญก็มักจะเริ่มเรื่องกันแบบนี้นี่นา!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ตอนแรกก็โดนดึงดูดใจมาเพราะความอยากรู้อยากเห็น จากนั้นต่อให้อยากหนีไปให้พ้นก็หนีไปไม่ได้..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เพราะมีสัตว์ประหลาดสุดสยองขวางทางหนีเอาไว้ แล้วสุดท้ายก็กัดกินเราไปจนถึงวิญญาณ..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "สุดท้ายก็จะต้องใช้ชีวิตอยู่ท่ามกลางความหวาดกลัว และเผชิญกับภาพหลอนในโลกแห่งความสยอง ...!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...อย่าเพิ่งโวยวายเลยน่ามิยุ โลกนี้มีสัตว์ประหลาดแบบนั้นที่ไหนกันล่ะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ทั้งพวกสัตว์ประหลาดหรือเรื่องคำสาป สุดท้ายมันก็เป็นเรื่องที่คนแต่งขึ้นมาเพื่อทำให้คนอื่นเค้ากลัว\nกันก็เท่านั้น"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ฉันเห็นด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้ามันมีสิ่งมีชีวิตลึกลับที่แข็งแกร่งขนาดนั้นอยู่ในทะเล ไม่มีทางที่องค์การนักเรียนของคิโวทอสจะไม่\nรับรู้ถึงการมีตัวตนของมันแน่ๆ ค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "รู้อะไรรึเปล่า มิยุ?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "สัตว์ประหลาดที่น่ากลัวที่สุดในโลกไม่ได้อยู่ในทะเลหรอก แต่อยู่ที่ฝ่ายการเงินขององค์การนักเรียน\nต่างหากล่ะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันไม่รู้หรอกนะว่า <ตัวตนแห่งห้วงลึก> จะลึกลับและทรงพลังแค่ไหน แต่ถ้าตัวตนของพวกมันมี\nอิทธิพลต่อการประมงและส่งผลกระทบต่อเศรษฐกิจของคิโวทอสละก็ คงไม่มีทางรอดพ้นสายตาของ\nทีมตรวจสอบภาษี 4 ของฝ่ายการเงินไปได้หรอก..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ยกตัวอย่างมาได้เห็นภาพชัดสุดๆ เลยแฮะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันก็อุตส่าห์คิดว่าฉันซ่อนมิสไซล์ที่ลักลอบซื้อผ่านทางโรงเรียนโอดิสซีย์ไว้อย่างดีแล้วแท้ๆ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่เธอไปแอบทำอะไรโดยที่พวกเราไม่รู้อีกแล้วเหรอ?!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ยังไงก็เถอะ กองทหารของสถาบันพิเศษ SRT ที่จับได้แม้กระทั่งผีอย่างพวกเรา จะถอนกำลังออกจาก\nสถานที่ปฏิบัติภารกิจแค่เพราะกลัวข่าวลือก็คงไม่ได้"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันจะขุดคุ้ยให้ถึงที่สุดแล้วจับตัวการที่หาประโยชน์จากข่าวลือพวกนี้ให้ได้เลย!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ว่า... ต่อให้พวกเราคิดจะตรวจสอบเพิ่มเติมอีกก็ตาม แต่มันดูเหมือนว่าตอนนี้จะมีคนจับตาดูพวกเรา\nเยอะเกินไปค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คนในหมู่บ้านจะระมัดระวังตัวกับพวกเราด้วย แบบนี้สืบต่อลำบากแน่ๆ ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เอาเป็นว่าวันนี้พวกเรากลับไปพักผ่อนให้เต็มที่ก่อนดีกว่าค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "พอหมู่บ้านเงียบลง และพวกชาวบ้านกลับไปพักผ่อนกันหมดแล้ว..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราจะออกปฏิบัติการสืบค้นกันค่ะ!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;禁忌"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我整理了調查的中期報告。"
+    },
+    {
+      "Name": "都子",
+      "Text": "詢問夜戶浦村的漁民們後得知，\n近幾個月來並沒有發生足以影響蝦隻捕撈的事件。"
+    },
+    {
+      "Name": "都子",
+      "Text": "證詞顯示，最近的漁獲量的確有減少，不過並非足以導致D.U.全區一蝦難求的程度。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我也試著調查了「Red Hook Express」的加工廠，\n不過並沒有發現什麼事故或疑點。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "真是個和平的村子啊──不過說難聽一點，也是安靜到令人不適的村子。"
+    },
+    {
+      "Name": "萌",
+      "Text": "我確認了位於村子入口的監視器，\n不過除了一天兩班的公車之外，沒有任何車輛進出。"
+    },
+    {
+      "Name": "萌",
+      "Text": "雖然能運送大量冷凍蝦子的方法相當有限……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不過除了「Red Hook Express」的定期船之外並沒有造訪村子的跡象。"
+    },
+    {
+      "Name": "美優",
+      "Text": "沒有在與外部交流嗎……？\n觀光客好像也只有我們而已……"
+    },
+    {
+      "Name": "美優",
+      "Text": "啊，有件事我有點在意……\n我在海邊遇到了一個帶著釣具的人……"
+    },
+    {
+      "Name": "美優",
+      "Text": "不過那個人與其說是對釣魚有興趣……\n反而更像是在尋找什麼別的東西……"
+    },
+    {
+      "Text": "[ns]「總覺得……」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……真可疑呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "綜合收集到的情報來看，這個村子應該沒有發生問題才對。\n然而D.U.卻一蝦難求，這就代表……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "雖然不是很想懷疑村民……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這麼看來，是有人在說謊啊。"
+    },
+    {
+      "Text": "[s]「大家與村民接觸後有什麼感想嗎？」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "唔嗯，這個嘛……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "大家都似乎都對外地人相當警戒，根本沒辦法好好對話。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就連平時很親切的女武神警察學園的學生也很不友善。\n甚至到了讓人不太敢搭話的程度。"
+    },
+    {
+      "Name": "美優",
+      "Text": "有什麼……讓外地人知道的話會很不妙的事嗎……？"
+    },
+    {
+      "Name": "萌",
+      "Text": "咯嘻嘻……那當然囉，美優。"
+    },
+    {
+      "Name": "萌",
+      "Text": "沒有理由的話就沒必要那麼生氣了吧。\n他們肯定有所隱瞞。"
+    },
+    {
+      "Name": "萌",
+      "Text": "比如～你想想之前咲希他，因為衣服沒乾就沒穿內衣出任務時的反應──"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喂！為什麼要突然提起那件事啊……！"
+    },
+    {
+      "Name": "都子",
+      "Text": "還有……村民有提到要小心「深處的存在」。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "啊，那個我也有聽過。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "說是在附近游泳的話，要注意別讓「深處的存在」降下制裁。"
+    },
+    {
+      "Name": "美優",
+      "Text": "嗯……我是從釣客口中聽到如果能獲得「深處的存在」的幫助……之類的話。"
+    },
+    {
+      "Name": "萌",
+      "Text": "什麼意思，所以是跟釣魚有關係嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "……難道這個村子會有海豚出沒？"
+    },
+    {
+      "Name": "???",
+      "Text": "……「深處的存在」是[ruby=這裡]夜戶浦村[/ruby]自古以來就有的都市傳說。\n指的是棲息於海中的超凡存在──"
+    },
+    {
+      "Name": "都子",
+      "Text": "你是……？"
+    },
+    {
+      "Name": "???",
+      "Text": "哎呀，打斷大家的談話，真是非常不好意思。"
+    },
+    {
+      "Name": "???",
+      "Text": "實在是很久沒看見造訪村子的客人，情不自禁就出聲搭話了。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "初次見面。\n我是一名經營將夜戶浦村出產的蝦子進行加工，並送往D.U.事業的海運業者。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "運送蝦子？\n也就是說……"
+    },
+    {
+      "Name": "都子",
+      "Text": "你就是「Red Hook Express」的董事長嗎？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "哈哈。被這麼稱呼實在讓人有些難為情呢。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "以前我也曾經以一名船員的身分出海捕魚，不過卻始終無法達到資深漁夫的實力……因而半途而廢了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "很高興見到您。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我們也一直很想與總是供應非常美味的蝦子到D.U.的\n「Red Hook Express」的董事長見一面呢。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "哈哈哈，能聽到你們這麼說真是相當欣慰。"
+    },
+    {
+      "Name": "都子",
+      "Text": "不過……感覺最近在D.U.好像幾乎看不到蝦子呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "餐廳自不用說，連便利商店似乎也沒有見到……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "…………"
+    },
+    {
+      "Name": "都子",
+      "Text": "身為董事長的您，是否知道些什麼呢？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "那是因為──遭遇了漁獲量不佳的情況。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "雖然原因尚不清楚，也許是水溫上升之類的影響吧。\n甚至到了最近有捕蝦回來的船都很少見的程度。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "既然捕不到蝦子，自然也就無法供應給D.U.了不是嗎？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "我們面對自然實在無能為力，只能祈禱時間能解決問題而已。\n對我們來說，這同樣是與大家的生活息息相關的問題，因此也想設法解決……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不過村民們都說雖然漁獲量有減少，但並不是什麼大問題啊……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……畢竟這事關跑船人的自尊心。\n想必無法老實說出實情吧。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "況且他們也並非在捕撈作業上有疏失不是嗎？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "蝦子的量會由於各種因素有所變化也是很正常的。\n將其稱之為[ruby= ・     ・ ]問題[/ruby]，我想是有點語病。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "雖然是這樣沒錯，可是……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "真要說的話，我也對這個捕不到蝦子的情況很不滿意。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "光是這個月就不知道出現了多少損失……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "如果可以，我甚至都想請求「深處的存在」幫忙喚回蝦子們了。"
+    },
+    {
+      "Name": "美優",
+      "Text": "那，那個……「深處的存在」是什麼呢……？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "就像剛才提到的一樣，「深處的存在」指的是棲息於大海中傳說般的存在。\n時至今日依然在夜戶浦村口耳相傳著。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "據我所知，村子東邊名為「鬼岩礁」的岩礁地帶附近有座海底城市……\n他們似乎就棲息在那裡。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "其身體被鱗片所覆蓋，擁有能在深海來去自如的強健身軀。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "由於僅會因為肉體損傷的原因而死亡，\n據傳曾有許多夢想長生不老的人因而造訪了這個村子。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……不過，那些尋夢者的下落似乎依然不得而知。"
+    },
+    {
+      "Name": "美優",
+      "Text": "噫，噫噫……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "此外，也有「深處的存在」會授予中意的人類各式各樣加護的說法。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "簡單來說，「深處的存在」──就是如同掌管大海的神一樣的存在，可以這麼說吧。"
+    },
+    {
+      "Text": "[s1]「像是龍王嗎……？」"
+    },
+    {
+      "Text": "[s2]「像是O行俠嗎……？」"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "這個嘛，雖然不完全相同，但可以說是類似的概念吧。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……嗯？你指的是……？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "總之……或許是因為漁獲量減少感到不安的緣故，\n最近大家又開始提起「深處的存在」了。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "還說「應當獻上祭品」以平息他們的憤怒，\n或是「應當趕走擾亂規律的外地人」之類的話。"
+    },
+    {
+      "Name": "都子",
+      "Text": "您說祭品……具體來說是什麼樣的祭品呢？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "那當然……是活生生的人類。"
+    },
+    {
+      "Name": "美優",
+      "Text": "……！"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……呵呵，開玩笑的。\n請不要那麼害怕。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "活人獻祭這種事不過是傳說罷了。\n其真偽現在也無從得知……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "但現在這個時代，如果有人消失的話，世人也不會默不作聲吧？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……我們也想盡可能平靜地繼續在這裡做生意啊。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "（這種說法……簡直像是如果不會引起騷動，獻上祭品也在所不惜啊）"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "如果各位還是對「深處的存在」感到好奇，不妨到「鬼岩礁」看看如何？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "不過，在潮差變化大的大潮之日，還請千萬不要靠近。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……為什麼呢？"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "根據傳說，「深處的存在」為了回收供品，會在大潮之日在陸地上現身。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "如果村民們在我們不知道的地方真的有獻上祭品……"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "我並不認為打探村子情報的外地人會受到歡迎。"
+    },
+    {
+      "Name": "美優",
+      "Text": "……！！ "
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "哎呀……似乎有點說太久了呢。\n好像說了一些多餘的話。"
+    },
+    {
+      "Name": "都子",
+      "Text": "別這麼說，村裡的情況我們也明白了。\n謝謝您。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "……這個世界上，有些事還是不知道比較好呢。"
+    },
+    {
+      "Name": "海運公司的人",
+      "Text": "那麼，祝各位玩得愉快。"
+    },
+    {
+      "Name": "美優",
+      "Text": "這，這個村子果然被詛咒了……\n聽到「深處的存在」這個名字的時候，我們就應該回去才對……"
+    },
+    {
+      "Name": "美優",
+      "Text": "我們肯定會被當成祈求漁業繁盛的祭品……\n說不定現在村子的出入口都已經被堵住了……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "美優，你在說什麼啊。\n我們幾個就算出入口被堵住也能逃走吧？"
+    },
+    {
+      "Name": "美優",
+      "Text": "可，可是……恐怖電影的開頭都是這樣演的！"
+    },
+    {
+      "Name": "美優",
+      "Text": "雖然起初只是單純覺得好奇，但從中途開始就變得想逃也逃不掉……"
+    },
+    {
+      "Name": "美優",
+      "Text": "肯定很快就會發生怪奇現象，然後恐怖的怪物就會出現在我們面前……"
+    },
+    {
+      "Name": "美優",
+      "Text": "接著我們會被幻影給附身，只能在恐懼之中度過剩餘的人生……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……你也太誇張了。\n怎麼可能會有那種怪物呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "不管是怪物還是詛咒，終究只是人類為了嚇人而編造出來的東西。"
+    },
+    {
+      "Name": "都子",
+      "Text": "我也這麼認為。"
+    },
+    {
+      "Name": "都子",
+      "Text": "如果擁有那種力量的存在真的在海中，奇普托斯的聯邦學生會一定會採取行動才對。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……話說美優，你知道嗎？"
+    },
+    {
+      "Name": "萌",
+      "Text": "這個世界上最恐怖最可怕的存在……\n據說就棲息在聯邦學生會的財務室裡哦。"
+    },
+    {
+      "Name": "萌",
+      "Text": "我是不知道「深處的存在」到底是多麼了不起的存在，\n不過要是漁業活動影響到奇普托斯的經濟……\n財務室的稅務調查負責人可是絕對不會視而不見的哦？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……這也太具體了吧。"
+    },
+    {
+      "Name": "萌",
+      "Text": "還以為透過奧德賽海洋高中弄來的導彈藏得很好的說……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "你又瞞著我們做了什麼啊！？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "總之聽清楚了。\n連哭泣的孩子都會沉默的SRT特殊學園的隊員，可不能被這種傳言給迷惑。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "究竟是誰在說謊……一定要查個水落石出！"
+    },
+    {
+      "Name": "都子",
+      "Text": "……但是，雖然想進行更進一步的調查，不過我們似乎已經太引人注目了呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "在被村民們警戒著的情況下，要立刻重新展開調查我想會有困難。"
+    },
+    {
+      "Name": "都子",
+      "Text": "所有人先回到據點趁早休息吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "等到村民們都入睡，寂靜降臨的時候──"
+    },
+    {
+      "Name": "都子",
+      "Text": "重新展開調查！"
+    }
+  ]
+}

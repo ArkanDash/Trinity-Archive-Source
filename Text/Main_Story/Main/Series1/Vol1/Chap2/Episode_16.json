@@ -1,0 +1,2807 @@
+{
+  "TitleJP": "大人の戦い",
+  "TitleKR": "어른의 싸움",
+  "TitleEN": "Battle Between Adults",
+  "TitleTH": "การต่อสู้ของผู้ใหญ่",
+  "TitleTW": "大人的戰鬥",
+  "DescJP": "ホシノさえ譲ってくれればアビドス高等学校の存続についてはどうにかしよう、と提案する黒服だったが、交渉は決裂。[USERNAME]先生はホシノを救い出すため、作戦を練ることに。",
+  "DescKR": "검은 양복은 자신들의 실험을 위해 호시노를 포기하라며 [USERNAME] 선생님을 협박하지만, 선생님은 포기하지 않고 호시노를 구하겠노라 선언한다.",
+  "DescEN": "Black Suit attempts to coerce [USERNAME] Sensei into giving Hoshino up for his experiments, but Sensei makes it perfectly clear that Hoshino will be rescued—no matter what.",
+  "DescTH": "ชายสวมสูทดำได้ข่มขู่ คุณครู [USERNAME] ให้ล้มเลิกความคิดที่จะ\nช่วยโฮชิโนะ เพราะเขาจำเป็นจะต้องใช้โฮชิโนะในการทดลอง แต่คุณครูก็ไม่\nยอมแพ้ และประกาศว่าจะต้องช่วยโฮชิโนะออกมาให้ได้",
+  "DescTW": "黑色西裝人為了自己的實驗，威脅[USERNAME]老師放棄星野。但是老師不但不放棄，還宣言一定會救出星野。",
+  "DialogJP": [
+    {
+      "Text": "第16話;大人の戦い"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……あなたのことは知っています、連邦生徒会長が呼び出した不可解な存在。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あのオーパーツ「シッテムの箱」[ruby=あるじ]の主で[/ruby]あり、連邦捜査部「シャーレ」の先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたを過小評価する者もいるようですが、私たちは違います。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……まず、はっきりさせておきましょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちは、あなたと敵対するつもりはありません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "むしろ、協力したいと考えています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちの計画において、一番の障害になりうるのはあなただと考えているのです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちにとってアビドスなんて小さな学校は、全くもって大した問題ではありません。ですが先生、あなたの存在は決して些事とは言えない。敵対することは避けたいのですよ。"
+    },
+    {
+      "Text": "[s] \"あなたたちは、一体何者？\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……おっと、そういえば自己紹介をしていませんでしたか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちはあなたと同じ、キヴォトスの外部の者……ですが、あなたとはまた違った領域の存在です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "適切な名前がありましたので、今はそれを拝借して使っております。私たちのことは「ゲマトリア」、とお呼びください。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そして私のことは、「黒服」とでも。この名前が気に入ってましてね。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "[ruby=ゲマトリア]私たち[/ruby]は、観察者であり、探求者であり、研究者です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたと同じ、「不可解な存在」だと考えていただいて問題ございません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "一応お聞きしますが、[ruby=私たち]ゲマトリア[/ruby]と協力するつもりはありませんか？"
+    },
+    {
+      "Text": "[s1] \"断る。\""
+    },
+    {
+      "Text": "[s2] \"微塵も無い。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……左様ですか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……左様ですか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "真理と秘義を手に入れられるこの提案を断ってまで、あなたはキヴォトスで何を追求するおつもりなのですか？"
+    },
+    {
+      "Text": "[s3] \"少なくとも、そんな提案に興味は無い。\""
+    },
+    {
+      "Text": "[s4] \"私はただ、ホシノを返してもらいに来ただけ。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……クックックッ。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……クックックッ。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたの行動に正当性が無いことにお気づきですか、先生？今のあなたに一体何の権利があって、そんな要求をされているのでしょう？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ホシノはもうアビドスの生徒ではありません。届け出を確認されていないですか？"
+    },
+    {
+      "Text": "[s] \"……まだだよ。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……ほう？"
+    },
+    {
+      "Text": "[ns] \"「顧問」である私が、まだサインをしてない。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Text": "[ns] \"だから、ホシノはまだ対策委員会の所属だし、\""
+    },
+    {
+      "Text": "[ns] \"まだアビドスの副生徒会長だし、\""
+    },
+    {
+      "Text": "[ns] \"今でも私の生徒だから。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……なるほど。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたが「先生」である以上、担当生徒の去就にはあなたのサインが必要……そういうことですか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "なるほどなるほど……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "学校の生徒、そして先生……ふむ。中々に厄介な概念ですね。"
+    },
+    {
+      "Text": "[s] \"あなたたちはあの子たちを騙し、心を踏みにじり、その苦しみを利用した。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "ええ、確かに仰る通りです。他人の不幸よりも、私たちは自分たちの利益を優先しました。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "それを否定はしません。私たちの行動は、善か悪かと問われればきっと悪でしょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "しかし、ルールの範疇です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そこは誤解はしないでいただきましょうか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "アビドスに降りかかった災難は、私たちのせいではありません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "アビドスを襲ったあの砂嵐は、大変珍しいこととはいえ、一定の確率で起こり得る現象です。誰か明確な悪役がいるわけではない、天変地異とはそういうものでしょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちはあくまで、その機会を利用しただけ。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "砂漠で水を求めて死にゆく者に、水を提供する……ただし、一生奴隷として働いても返済できない額で。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ただそれだけのことです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "さして珍しくもない、世の中にはありふれた話でしょう。何も私たちが特別心を痛め、全ての責任を取るべきことではありません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私たちが初めて作った事例でもなければ、私たちがそれをしなかったところで消えるものでもないのですから。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "持つ者が、持たざる者から搾取する。知識の多いものが、そうでない者から搾取する。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "大人なら誰もが知っている、厳然たる世の中の事実ではありませんか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そういうことですから……アビドスから手を引いていただけないでしょうか、先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ホシノさえ諦めていただければ、あの学校については守ってさしあげましょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "カイザーPMCのことについても、私たちの方で解決いたします。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あの子たちもどうにか、アビドス高等学校に通い続けることができるはずです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そしてこれは、あのホシノさんも望んでいることのはず。いかがですか？"
+    },
+    {
+      "Text": "[s] 断る。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……どうして？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "どうあっても、私たちと敵対するおつもりですか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたは無力です、戦う手段など無いでしょうに！"
+    },
+    {
+      "Text": "[ns] 大人のカードを出す。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "確かに、それはあなただけの武器です。しかし、私はそのリスクも薄っすらとですが知っています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "使えば使うほど削られていくはずです、あなたの生が、時間が。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……そうでしょう？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ですからそのカードはしまっておいてください、先生。あなたにもあなたの生活があるはずです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "食事をし、電車に乗り、家賃を払う。そういった無意味でくだらないことを、きちんと解決しなくてはいけないでしょう？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ぜひそうしてください、先生。あの子たちよりも、もっと大事なことに使ってください。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "放っておいても良いではありませんか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "元々、あなたの与り知るところではないのですから。"
+    },
+    {
+      "Text": "[s] 断る。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "なぜ？なぜ？なぜ？なぜ？なぜ？なぜ？なぜ？なぜ？なぜ？なぜ？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "理解できません、なぜ？なぜ断るのですか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "どうして？先生、それは一体何のためなのですか？"
+    },
+    {
+      "Text": "[ns] \"あの子たちの苦しみに対して、責任を取る大人が誰もいなかった。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……何が言いたいのですか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "だから、あなたが責任を取るとでも？あなたはあの子たちの保護者でも、家族でもありません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "あなたは偶然アビドスに呼ばれ、偶然あの子たちと会っただけの他人です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "一体どうして、そんなことをするのですか？なぜ、取る必要のない責任を取ろうとするのですか？"
+    },
+    {
+      "Text": "[s] \"それが、大人のやるべきことだから。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……ああ、そうですか。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "大人とは「責任を負う者」、そう言いたいのですか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "先生、その考えは間違っています。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "大人とは、望む通りに社会を改造し、法則を決めて、規則を決め、常識と非常識とを決め、平凡と非凡とを決める者です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "権力によって権力の無い者を、知識によって知識の無い者を、力によって力の無い者を支配する、それが大人です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "自分とは関係の無い話、なんてことは言わせません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……あなたは、このキヴォトスの支配者にもなり得ました。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "この学園都市における莫大な権力と権限。そしてこの学園都市に存在する神秘。その全てが、一時的にとはいえあなたの手の上にありました。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "しかし、あなたはそれを迷わず手放した。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "理解できません。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "一体その選択に、何の意味があるのですか？真理と秘義、権力、お金、力……その全てを捨てるなんていう無意味な選択を、どうして！"
+    },
+    {
+      "Text": "[ns] \"……言ってもきっと、理解できないと思うよ。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "良いでしょう。交渉は決裂です、先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "私はあなたのことを気に入っていたのですが……仕方ありませんね。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "先生、彼女を助けたいですか？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "ホシノは、アビドス砂漠のPMC基地の中央にある、実験室にいます。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "「ミメシス」で観測した神秘の裏側、つまり恐怖。それを、生きている生徒に適用することができるか――そんな実験を始めるつもりです。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そう、ホシノを実験体として。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そして、もしホシノが失敗したらあの狼の神が代わりに、と思っていたのですが……ふう、どうやら前提から崩れてしまったようですね。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そういうことですので、精々頑張って生徒を助けると良いでしょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "微力ながら、幸運を祈ります。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "[USERNAME]先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……ゲマトリアは、あなたのことをずっと見ていますよ。"
+    },
+    {
+      "Text": "[ns] 帰る。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "おかえり、先生。"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "先生、お待ちしておりました！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "先生！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "先生……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "何か、掴んできた顔だね。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "じゃあ、あらためて――"
+    },
+    {
+      "Text": "[ns5] \"ホシノを助けに行こう。\""
+    },
+    {
+      "Text": "[ns6] \"ホシノを助けに行こう！\""
+    },
+    {
+      "Text": "[ns7] \"ホシノを助けに行こう！！！\""
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん、行こう。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん、行こう。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……ん、行こう。"
+    },
+    {
+      "Text": "[ns] \"ホシノを助けて、ここに連れ戻す！\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "はい、そう言ってくださると思っていました！"
+    },
+    {
+      "Text": "[ns] \"助けて、その後は厳しく叱ってあげないと！\""
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "うんうん！自分で言ったことを守れなかったんですから、お仕置きです！きちんと叱ってあげないと！"
+    },
+    {
+      "Text": "[ns] \"「おかえり」って言って、「ただいま」って言わせよう！\""
+    },
+    {
+      "Name": "セリカ",
+      "Text": "うん……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "えっ！？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "何それ、恥ずかしい！青春っぽい！！背筋がぞわっとする！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私はする。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "え、え！？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "セリカちゃんがしなくても、私もします！"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "えっ、えぇっ！？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "わ、私も。ちょっと恥ずかしいけど……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "か、勝手にして！私は絶対、そんな恥ずかしいこと言わないから！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あ、あはは……ではそれはそうとして、救出のための準備を……。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "でも、今の私たちだけじゃ勝てない。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "誰か協力者を……。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "便利屋は？"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "確かに私たちのことを助けてくれましたが……もう一度お願いしても良いのでしょうか？"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "大丈夫だって！またどこに行ったんだか知らないけど、ここまで散々迷惑かけられてきたんだから、これくらいのお願いは聞いてもらわないと！"
+    },
+    {
+      "Text": "[ns] \"……私に考えがある。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "え……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "えっと、それはどういった……？"
+    },
+    {
+      "Text": "次回;守りたいもの"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제16화;어른의 싸움"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……우리는 당신을 알고 있습니다. 총학생회장이 불러낸 불가해한 존재."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 [ruby=싯딤의 상자]오파츠[/ruby]의 주인. 연방수사부 <샬레>의 교사."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "다른 사람들은 당신을 과소평가하는 것 같지만, 저희의 의견은 다릅니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……먼저 분명하게 정하지요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리는 당신과 대적하고 싶은 생각이 없습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아니, 오히려 협력하고 싶습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리는 당신이 우리의 계획에 가장 큰 장애물이 될 거라고 판단했습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리에게 아비도스 따위의 작은 학교를 쓸어버리는 것은 문제되지 않습니다. 하지만 선생, 당신과 대적하는 것만은 피하고 싶군요."
+    },
+    {
+      "Text": "[s] \"너희는 누구지?\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……이런. 우리 소개를 하지 않았던가요?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리 역시 당신과 같은 키보토스의 외부인. ……아아, 하지만 당신과는 다른 영역의 존재입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "지금은 적절한 이름이 있길래 빌려쓰고 있습니다. 모쪼록 <게마트리아>라고 불러주시길."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그리고 저는 검은 양복으로 괜찮습니다. 선생. 이 이름이 마음에 들거든요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "[ruby=게마트리아]우리[/ruby]는…… 관찰자이자 탐구자이자, 연구자."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신과 같은 <불가해>한 존재라고 해야 할까요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "만약을 위해 물어보겠습니다만, [ruby=우리]게마트리아[/ruby]와 협력할 생각은 없으십니까?"
+    },
+    {
+      "Text": "[s1] \"없다.\""
+    },
+    {
+      "Text": "[s2] \"절대로 없다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇다면 이 키보토스에서 당신은 무엇을 추구하는 것입니까? 진리와 비의를 손에 넣을 수 있는 제안입니다만."
+    },
+    {
+      "Text": "[s3] \"그런 건 관심없다.\""
+    },
+    {
+      "Text": "[s4] \"호시노를 돌려받으러 왔을 뿐이다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……큭, 큭큭."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……큭, 큭큭."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신의 행동이 옳다고 생각합니까? 선생이여? 무슨 권리로 그렇게 요구하는 것입니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호시노는 이미 아비도스의 학생이 아닙니다. 자퇴서를 확인하지 않았나요?"
+    },
+    {
+      "Text": "[s] \"호시노는 자퇴하지 않았어.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……흐음?"
+    },
+    {
+      "Text": "[ns] \"동아리 <고문>인 내가 그 서류에 결재하지 않았으니까.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Text": "[ns] \"호시노는 여전히 대책위원회 소속이고,\""
+    },
+    {
+      "Text": "[ns] \"여전히 아비도스 부학생회장이고,\""
+    },
+    {
+      "Text": "[ns] \"여전히 나의 학생이다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "과연……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신이 <선생>으로 있는 이상, 학생의 거취는 당신의 허락이 있어야만 한다……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇군요. 이건 그런 이야기군요……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "학원과 학생…… 선생…… 흐음…… 이 개념은 꽤 성가시군요."
+    },
+    {
+      "Text": "[s] \"너희는 아이들을 속였고, 마음을 짓밟고, 고통을 이용했다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아아. 그렇습니다. 타인의 불행을 양식으로 우리의 이득을 취했습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "부정하지 않겠습니다. 우리의 행동은 분명히 악이겠죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "하지만, 적법합니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "오해하진 마십시오, 선생."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아비도스의 재난은 우리의 책임이 아닙니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 학교에 불어닥친 모래 폭풍은 흔한 일은 아니지만, 일어날 수 있는 일입니다. 즉, 천재지변이란 그런 것."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리는 그 기회를 이용했을 뿐입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "사막에서 탈수로 죽어가는 사람에게 물을 제공한다. 단, 평생 노예로 일해야만 갚을 수 있는 가격으로."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그런 겁니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이 세상에 흔히 있는 뻔한 이야기죠. 우리가 책임을 져야 할 부분이 아닙니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "우리가 처음 만든 것도 아니며, 우리가 멈춘다고해서 사라질 것도 아닙니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "권력이 많은 자가 그렇지 않은 자를 착취한다. 지식이 많은 자가 그렇지 않은 자를 착취한다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "어른이라면 누구나 알고 있는 사실 아닙니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그러니…… 아비도스에서 물러나십시오. 선생."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호시노만 포기해 준다면, 그러면 그 학교를 보존해드리겠습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "카이저 PMC의 병력 따위는 저희가 해결해드리죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 아이들은 어떻게든 아비도스에서 학교를 계속 다닐 수 있을 것입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 그림은 호시노도 원하던 모습일 테니, 어떻습니까?"
+    },
+    {
+      "Text": "[s] 거절한다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……. 어째서?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇게까지 우리와 대적할 셈입니까? 당신은 무력합니다!"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "어떻게 싸우겠다는 겁니까!"
+    },
+    {
+      "Text": "[ns] 어른의 카드를 꺼낸다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "하지만, 선생이여……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그건 당신만의 무기이지만, 그 리스크는 어렴풋하게는 이해하고 있습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "사용할 수록, 깎여나갑니다. 당신의 삶이, 시간이."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……정답이죠?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그러니 그 카드는 집어 넣으시죠. 선생. 당신의 생활을 영위해야 하잖습니까."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "밥을 먹고, 지하철을 타고, 집세를 내거나, 그런 저런 무의미하고 하찮은 일들을 해결해야죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇게 하라는 것입니다. 선생. 저 아이들보다 더 중요한 것에 쓰십시오."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그냥 내버려 두십시오."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신이 관여할 일이 아니니까."
+    },
+    {
+      "Text": "[s] 거절한다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "어째서? 어째서? 어째서? 어째서? 어째서? 어째서? 어째서? 어째서? 어째서? 어째서?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이해할 수 없습니다. 어째서? 이해할 수 없습니다. 어째서 거절하는 것이죠?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "대체 왜? 선생이여? 무엇을 위해서죠?"
+    },
+    {
+      "Text": "[ns] \"아이들의 고통에 책임을 지는 어른이 아무도 없었다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……무슨 말이지?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그래서 당신이 책임을 지겠다는 것입니까? 당신은 그 아이들의 보호자도, 가족도 아닙니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "당신은 어쩌다 아비도스로 불려가서 어쩌다 그 아이들과 만났을 뿐인 타인입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "대체 왜 그런 수고를 들이는 것입니까? 왜 필요도 없는 책임을 지려고 하는 것이죠?"
+    },
+    {
+      "Text": "[s] \"그것이 바로 어른이 해야만 하는 일이니까.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아아……. 그런가."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "어른이란 <책임지는 자>라고 말하는 것입니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "아니오, 선생. 그 생각은 틀렸습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "어른이란, 원하는 대로 사회를 개조하고, 법칙을 정하고, 규칙을 정하고, 정상과 비정상을 정하고, 평범과 비범을 정하는 자입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "권력으로 권력이 없는 자를, 지식으로 지식이 없는 자를, 힘으로 힘이 없는 자를 다스리는 자. 그게 바로 어른입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "바로 당신 같은 자를요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……당신은 이 키보토스의 지배자가 될 수도 있었습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이 도시의 막대한 권력과 권한. 이 도시의 신비. 그 모든 것이 한때 당신의 손에 있었습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그러나 그것을 망설임도 없이 포기했죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이해할 수 없습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "대체 그 선택에 어떤 의미가 있는 것이죠? 진리와 비의, 권력, 돈, 힘…… 그 어떤 것도 얻을 수 없는 그 무의미한 선택을 어째서!"
+    },
+    {
+      "Text": "[ns] \"……말해도 너희들은 절대로 이해 못 할 것이다.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "좋습니다. 협상은 결렬입니다. 선생."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "저는 당신이 마음에 들었지만, 어쩔 수 없군요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "선생. 호시노를 구하고 싶으십니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호시노는 아비도스 사막의 PMC 기지의 한가운데 있는 실험실에 있습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "<미메시스>를 통해 관측한 신비의 뒷면, 즉 공포. 그것을 살아있는 학생에게 적용시킬 수 있을까- 그런 실험을 시작할 것입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "즉, 호시노를 실험체로 파헤쳐버리겠습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "호시노가 실패한다면 그 대체제는 아마 그 늑대 신이 되겠지만, 지금은 그런 선택지는 사라진 것 같으니-"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "납치된 당신의 학생을 구해보시죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그럼 어디 한번 잘 해보시길."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "[USERNAME] 선생."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……게마트리아는 앞으로 당신을 주목하겠습니다."
+    },
+    {
+      "Text": "[ns] 돌아간다."
+    },
+    {
+      "Name": "시로코",
+      "Text": "선생님. 어서 와."
+    },
+    {
+      "Name": "노노미",
+      "Text": "응! 기다리고 있었어요. 선생님."
+    },
+    {
+      "Name": "세리카",
+      "Text": "선생님!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "선생님……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "선생님의 결정을 기다리고 있었어."
+    },
+    {
+      "Name": "시로코",
+      "Text": "우리의 다음 선택지는……."
+    },
+    {
+      "Text": "[ns5] \"호시노를 구하자.\""
+    },
+    {
+      "Text": "[ns6] \"호시노를 구하자!\""
+    },
+    {
+      "Text": "[ns7] \"호시노를 구하자!!!!\""
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 선생님을 따를게."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 선생님을 따를게."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 선생님을 따를게."
+    },
+    {
+      "Text": "[ns] \"호시노를 구해서, 여기에 데려오는 거야!\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "네! 이해했어요."
+    },
+    {
+      "Text": "[ns] \"호시노를 구해서, 호되게 혼내주는 거야!\""
+    },
+    {
+      "Name": "노노미",
+      "Text": "응응! 스스로 했던 말을 어겼으니까 혼내주는 거예요! 마구마구 혼내주는 거예요!"
+    },
+    {
+      "Text": "[ns] \" 호시노를 구해서, <어서와>, <다녀왔어>를 외치게 할 거야!!\""
+    },
+    {
+      "Name": "세리카",
+      "Text": "그래……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐?! "
+    },
+    {
+      "Name": "세리카",
+      "Text": "그건 뭐야!! 촌스럽게!! 그, 그런 낯뜨거운 짓 누가 할 줄 알고!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "아니, 난 할 거야."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐?!"
+    },
+    {
+      "Name": "노노미",
+      "Text": "저도 할 거예요! 세리카 쨩은 하지 않아도 돼요."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐, 뭐라고?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "저, 전…… 고민을……. 그치만…… 어쩐지 그게 정석인 거 같기도 하고……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "마, 마음대로 해! 난 절대로 그런 오글거리는 짓 못하니까!!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "아, 아하하…… 그럼 그렇게 결정한 걸로 하고, 전투 준비를……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "하지만, 우리만으로는 절대 그 군대를 이길 수 없어."
+    },
+    {
+      "Name": "시로코",
+      "Text": "우리를 도와줄 사람들……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "흥신소는?"
+    },
+    {
+      "Name": "노노미",
+      "Text": "우릴 도와주긴 했지만…… 지금은 또 사라져버렸어요. 그분들에게 또 부탁을 드리기는……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "뭐야! 그 녀석들이 우리한테 끼친 민폐가 얼만데! "
+    },
+    {
+      "Text": "[ns] \"나한테 생각이 있어.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "네? 선생님에게요……?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……?"
+    },
+    {
+      "Text": "다음화;지키고 싶은 것"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 16;Battle Between Adults"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We know who you are. An enigmatic individual chosen by the General Student Council president."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Owner of the artifact known as the Shittim Chest. The Sensei of Schale, the Federal Investigation Club."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Others tend to underestimate you, but we won't make the same mistake."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "First, let me make something clear."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We have no interest in a conflict with you."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "In fact, we want to work with you..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...because otherwise, you represent the largest obstacle to our plans."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Wiping out an insignificant school like Abydos is child's play. However, we'd rather avoid the consequence of starting a war with you in the process."
+    },
+    {
+      "Text": "[s] \"Who are you people?\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Oh, dear. Have we not introduced ourselves?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We are outsiders to Kivotos, the same as you... Ah, but that doesn't mean we came from the same place."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "For the time being, we've found a suitable name to borrow. Please call us Gematria."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "And I'm fine with going by \"Black Suit,\" Sensei. I've grown quite fond of that name."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We, Gematria, are...observers, explorers, and researchers."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "An inexplicable existence, much like you."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So allow me to formally ask. Do you have any interest in working with us? With Gematria?"
+    },
+    {
+      "Text": "[s1] \"No.\""
+    },
+    {
+      "Text": "[s2] \"Never.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "If not, then tell me... What is it that you seek in Kivotos? We can elucidate all manner of secrets and truths should you accept our proposal."
+    },
+    {
+      "Text": "[s3] \"Not interested.\""
+    },
+    {
+      "Text": "[s4] \"All I want is to take Hoshino back.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Ha. Haha."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Ha. Haha."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Do you truly believe your actions are just, Sensei? What right do you have to make such demands?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Hoshino is no longer a student of Abydos. Haven't you seen her withdrawal papers?"
+    },
+    {
+      "Text": "[s] \"Hoshino never dropped out of school.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Hmm?"
+    },
+    {
+      "Text": "[ns] \"See? I'm her club advisor and I never signed that document.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"That means she's still part of the Foreclosure Task Force.\""
+    },
+    {
+      "Text": "[ns] \"She is still vice president of the Abydos Student Council.\""
+    },
+    {
+      "Text": "[ns] \"And she is and will forever be one of my students.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I see..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You're their teacher. Major changes in your students' lives must have your approval."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "The logic is easy to understand."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Academies and their students... Teachers... Hmm. How bothersome."
+    },
+    {
+      "Text": "[s] \"You deceived children, trampled on their hearts, and took advantage of their suffering.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Indeed. We have used the misfortune of others as stepping stones for our benefit."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I won't deny it. If you must call it evil, so be it."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Evil, but it is legal."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Don't be mistaken, Sensei."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "The disaster that struck Abydos was not our doing."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "A sandstorm consuming a city—it's rare, but not impossible. A natural disaster, nothing more."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We merely took advantage of the opportunity."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Imagine providing water to someone dying of thirst in a desert. Would it not be fair to expect that person to repay you with their life?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "This is no different."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "A tale as old as time. It is not our burden to bear."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "We didn't create this world, nor will it change if we step aside."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "The strong exploit the weak. The knowledgeable exploit the ignorant."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Every adult knows that to be true. Isn't that right?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So...leave Abydos behind, Sensei."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Give us Hoshino, and the school will remain intact."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Kaiser PMC's forces present no challenge for us."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Your students can continue attending Abydos to the best of their meager abilities."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Isn't that what Hoshino wanted? What do you say?"
+    },
+    {
+      "Text": "[s] Refuse."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Why?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Why are you so desperate to stand in our way? You are powerless!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "How do you plan to fight us?!"
+    },
+    {
+      "Text": "[ns] Take out your credit card."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "But, Sensei..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I've never concerned myself with such quotidian matters, but I understand the rules to its system."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "The more you use it, the more it eats away at you—your life, your time."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...I'm right, aren't I?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So put the card away, Sensei. You have a life to live, don't you?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You need to eat, ride the subway, pay rent, and deal with trivial, mundane things like that."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "That's what you should be focusing on, Sensei. Spend your efforts on something worthwhile. Not those kids."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So just leave it be."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "This isn't your fight."
+    },
+    {
+      "Text": "[s] Refuse."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Why...? Why? Why? Why? Why?! WHY?!"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I don't understand. Why? I can't get it. Why would you refuse?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Why, Sensei? For what?"
+    },
+    {
+      "Text": "[ns] \"Not a single adult took responsibility for their suffering.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...You can't be serious."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "So you think that responsibility falls on you? You're not their guardian. You're not their family."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You were just a stranger, called to Abydos by chance, who happened to meet them."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Why go through all this trouble? Why burden yourself with a responsibility that was never yours to begin with?"
+    },
+    {
+      "Text": "[s] \"Because that's what it means to be an adult.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Ah... I see."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You believe that being an adult means taking responsibility?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "No, Sensei. That's where you're wrong."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Adults are the ones who transform society, set rules and laws, designate the norm, and define the boundary between ordinary and extraordinary."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Adults rule the aimless with authority, the ignorant with knowledge, and the weak with power. That is what it means to be an adult."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Someone like you."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You could have ruled over all of Kivotos."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You had it all for a brief moment: unfathomable power and authority over this city, its Mystics..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "And yet, you cast it all aside without a second thought."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I simply don't understand."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Tell me—why make such a choice? Truth, influence, riches, power... Your choice left you with none of those. So why?!"
+    },
+    {
+      "Text": "[ns] \"Even if I told you, you would never understand.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Very well. These negotiations are over."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "I did like you, but you've left me with no choice."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Do you wish to save Hoshino, Sensei?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "She's being held in the lab of the PMC base at the center of the Abydos Desert."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Mimesis has shown us the other side of Mystic: Terror. Now we shall see if the same can be done with a living student."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Hoshino is our guinea pig to use however we want. "
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "And if she doesn't produce results, we'll move on to the wolf god. Though even that doesn't seem to be a feasible option at this point."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Try saving your kidnapped student."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Do your best."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "[USERNAME] Sensei."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Gematria will be watching you."
+    },
+    {
+      "Text": "[ns] Return."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Welcome back, Sensei."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "Hey! There you are, Sensei."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Sensei!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Sensei..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We've been waiting for your decision."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "What's our next move...?"
+    },
+    {
+      "Text": "[ns5] \"We save Hoshino.\""
+    },
+    {
+      "Text": "[ns6] \"We save Hoshino!\""
+    },
+    {
+      "Text": "[ns7] \"We WILL save Hoshino!!!\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Agreed. We're with you, Sensei."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Agreed. We're with you, Sensei."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Agreed. We're with you, Sensei."
+    },
+    {
+      "Text": "[ns] \"We won't stop until we bring her home!\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Yes! Understood."
+    },
+    {
+      "Text": "[ns] \"And then we're going to give her a piece of our minds!\""
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "That's right! She went back on her word and needs to be taught a lesson! A super scary lesson!"
+    },
+    {
+      "Text": "[ns] \"After we save Hoshino, we'll tell her, 'Welcome back,' and she'll say, 'I'm home!'\""
+    },
+    {
+      "Name": "Serika",
+      "Text": "Yeah..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Wait, what?!"
+    },
+    {
+      "Name": "Serika",
+      "Text": "That's so corny and cliché! Are you TRYING to make me cringe?!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I will."
+    },
+    {
+      "Name": "Serika",
+      "Text": "You will?!"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "I'll do it too! You don't have to, Serika."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Are you serious?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "U-um... I-I'll think about it... B-but...it does kinda feel like the proper thing to do..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ugh, fine, do whatever you want! There's no way I'm doing something that embarrassing!!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Haha. Then it's settled. Let's prepare for battle..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "But how do we defeat that army on our own?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Is there anyone we can call for backup?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "What about Problem Solver?"
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "They did help us earlier, but they took off after that. I don't know if we can ask them for another favor."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Why not?! Think of all the trouble they caused us!"
+    },
+    {
+      "Text": "[ns] \"I have an idea.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Huh? What is it, Sensei?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Hmm?"
+    },
+    {
+      "Text": "Next Episode;That Which One Must Protect"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 16;การต่อสู้ของผู้ใหญ่"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...พวกเรารู้จักดีว่าคุณเป็นใคร บุคคลลึกลับที่ประธานองค์การนักเรียนเรียกตัวมา"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เจ้าของกล่องแห่งซิสดิม และทำหน้าที่เป็นคุณครูจากฝ่ายสืบสวน <ชาเล่ต์>"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงคนอื่นจะประเมินคุณต่ำเกินไป แต่พวกเราไม่คิดแบบนั้นหรอกครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "มาตกลงกันให้ชัดเจนก่อนดีกว่าครับ..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะพวกเราไม่มีความคิดที่จะสร้างความขัดแย้งกับคุณ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ต้องบอกว่าอยากร่วมมือกับคุณซะมากกว่าด้วยซ้ำ..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เราเคยคิดว่าคุณจะเป็นอุปสรรคที่ใหญ่ที่สุดในแผนการของเราครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "การกวาดล้างโรงเรียนเล็กๆ อย่างอะบิดอสไม่ถูกมองเป็นปัญหาสำหรับเราด้วยซ้ำ แต่รู้อะไรไหมครับ?\nการเปิดศึกต่อสู้กับคุณต่างหาก คือสิ่งที่พวกเราอยากจะหลีกเลี่ยง"
+    },
+    {
+      "Text": "[s] \"พวกนายเป็นใคร?\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แย่จริง... ผมยังไม่ได้แนะนำตัวสินะครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "พวกเราก็เป็นคนนอกคิโวทอสเหมือนกันกับคุณ อ๊ะ แต่ก็ไม่ได้หมายความว่าพวกเราเป็นตัวตนที่เหมือน\nกับคุณหรอกนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เราพบชื่อที่เหมาะสมกับพวกเรา ก็เลยยืมมาใช้อยู่น่ะครับ ได้โปรดเรียกพวกเราว่า <เกมาเทรีย> แล้วกัน\nนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ส่วนตัวผมนั้น จะเรียกว่าสูทดำก็ได้ครับครู ผมก็ชอบชื่อนี้อยู่นะ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "[ruby=เกมาเทรีย]พวกเรา[/ruby]... เป็นทั้งนักสังเกตการณ์ นักสำรวจ และนักวิจัย"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เรียกได้ว่าเป็นคนที่ <ลึกลับ> เหมือนกับคุณได้ไหมนะ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ขอถามเผื่อไว้ก่อนเลยแล้วกัน คุณคิดอยากจะร่วมมือกับเกมาเทรียไหมล่ะครับ?"
+    },
+    {
+      "Text": "[s1] \"ไม่\""
+    },
+    {
+      "Text": "[s2] \"ไม่มีวัน\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แล้วสิ่งที่คุณแสวงหาอยู่ในคิโวทอสแห่งนี้คืออะไรเหรอครับ? นี่เป็นข้อเสนอที่จะทำให้คุณได้มาซึ่งความ\nจริงและความลับสำคัญเลยนะครับ"
+    },
+    {
+      "Text": "[s3] \"ฉันไม่สนอะไรแบบนั้น\""
+    },
+    {
+      "Text": "[s4] \"ฉันมาเพื่อรับตัวโฮชิโนะเท่านั้น\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึ หึหึหึ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึ หึหึหึ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คิดว่าทำในสิ่งที่ถูกต้องอยู่เหรอครู? มีสิทธิ์อะไรมาเรียกร้องขนาดนี้เหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "โฮชิโนะไม่ใช่นักเรียนของอะบิดอสอีกต่อไปแล้ว ไม่เห็นหนังสือลาออกเหรอครับ?"
+    },
+    {
+      "Text": "[s] \"โฮชิโนะไม่ได้ลาออก\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หืม...?"
+    },
+    {
+      "Text": "[ns] \"เพราะ <ที่ปรึกษาชมรม> อย่างฉันยังไม่ได้อนุมัติ\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Text": "[ns] \"โฮชิโนะยังคงสังกัดในคณะกรรมการแผนงาน\""
+    },
+    {
+      "Text": "[ns] \"ยังคงเป็นรองประธานนักเรียนของอะบิดอส\""
+    },
+    {
+      "Text": "[ns] \"และยังคงเป็นนักเรียนของฉัน\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อย่างนี้นี่เอง..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ตราบใดที่คุณยังเป็น <ครู> การกระทำของนักเรียนก็ต้องได้รับการอนุญาตจากคุณ... งั้นเหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เป็นแบบนี้นี่เองสินะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "โรงเรียนกับนักเรียน... แล้วก็ครู... อืม... แนวคิดนี้น่ารำคาญจังเลยครับ"
+    },
+    {
+      "Text": "[s] \"พวกนายหลอกลวง เหยียบย่ำจิตใจ และใช้ประโยชน์จากความเจ็บปวดจากเด็กๆ\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อ่า ใช่ครับ เราได้ประโยชน์จากความโชคร้ายของคนอื่น"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผมไม่ขอปฏิเสธความจริงนี้ เพราะการกระทำของพวกเราย่อมชั่วร้ายอยู่แล้วละครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่มันก็ถูกต้องตามกฎหมายนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อย่าเข้าใจผิดสิครับครู"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ความหายนะที่เกิดขึ้นที่อะบิดอสไม่ใช่สิ่งที่พวกเราต้องรับผิดชอบเลยครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "พายุทรายที่เกิดขึ้นในโรงเรียนไม่ใช่เรื่องธรรมดา แต่ก็ไม่ใช่ว่าจะไม่มีทางเกิดได้ มันเป็นภัยพิบัติตาม\nธรรมชาตินี่ครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เราแค่ใช้ประโยชน์จากโอกาสนี้ก็เท่านั้น"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เราให้น้ำแก่คนที่ขาดน้ำจนจวนตายในทะเลทราย แต่ก็ต้องจ่ายราคาน้ำด้วยการทำงานชดใช้\nเหมือนทาสตลอดชีวิต"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ก็แค่นี้เองครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "มันเป็นเรื่องธรรมดาในโลกใบนี้ ซึ่งไม่ใช่ส่วนที่เราต้องรับผิดชอบเสียหน่อย"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เราไม่ได้เป็นคนสร้างมันมา และแม้ว่าเราจะหยุดมัน แต่ก็ไม่ได้หมายความว่ามันจะหายไปได้"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คนที่มีอำนาจมากจะแสวงหาประโยชน์จากคนที่ไม่มีอำนาจ คนที่มีความรู้มากจะแสวงหาประโยชน์จากคน\nที่ไม่มีความรู้"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เรื่องนี้ผู้ใหญ่ทุกคนก็น่าจะรู้ดีไม่ใช่เหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะฉะนั้น... ออกไปจากอะบิดอสเถอะครับครู"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้ายอมล้มเลิกความตั้งใจเรื่องของโฮชิโนะ ผมก็จะรักษาโรงเรียนนั้นไว้ให้ครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เรื่องกองกำลังไคเซอร์ PMC ปล่อยให้เราจัดการเถอะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เด็กพวกนั้นจะยังได้อยู่ในโรงเรียนของอะบิดอสต่อไป"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "โฮชิโนะเองก็น่าจะหวังให้เป็นแบบนี้นะครับ?"
+    },
+    {
+      "Text": "[s] ปฏิเสธ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ทำไมล่ะ...?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อยากจะต่อสู้กับพวกเราถึงขนาดนั้นเลยเหรอครับ? คุณไม่มีกำลังขนาดนั้นหรอกครับ!"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แล้วจะยังกล้าปฏิเสธงั้นเหรอครับ!"
+    },
+    {
+      "Text": "[ns] ยื่นบัตรประจำตัวผู้ใหญ่ออกไป"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่ว่า... ครูเอ๋ย..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงสิ่งนั้นจะเป็นอาวุธของคุณแต่เพียงผู้เดียว แต่ว่าก็ต้องเข้าใจความเสี่ยงของมันด้วยนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะยิ่งใช้มากไปเท่าไร ชีวิตและเวลาของคุณก็จะยิ่งถูกลดทอนลงเท่านั้น"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผมพูดถูกใช่ไหมล่ะครับ...?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะฉะนั้นเก็บบัตรนี้ไปเถอะครับ คุณต้องดำเนินชีวิตของคุณต่อไปนี่ครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "วันนี้กินอะไรดี? นั่งรถไฟใต้ดินสายไหนดี? จ่ายค่าเช่าบ้านยังไงดี? เอาเวลาไปใช้กับการแก้ปัญหาเล็กๆ\nน้อยๆ ที่ไม่มีความหมายแบบนั้นเถอะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ทำแบบที่ผมบอก แล้วเก็บสิ่งนั้นไว้ใช้กับสิ่งที่มีค่ามากกว่าเด็กพวกนั้นเถอะครับครู"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "วางมือเสียเถอะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "นี่ไม่ใช่เรื่องที่คุณต้องมากังวลเลยนะครับ"
+    },
+    {
+      "Text": "[s] ปฏิเสธ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ทำไมล่ะ? ทำไม? ทำไม? ทำไม? ทำไม? ทำไม? ทำไม? ทำไม? ทำไม? ทำไม?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ไม่เข้าใจเลย ทำไมล่ะ? ทำไมถึงปฏิเสธล่ะ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เพราะอะไรกัน? จะทำแบบนี้ไปเพื่ออะไร?"
+    },
+    {
+      "Text": "[ns] \"ไม่มีผู้ใหญ่คนไหนเลยที่รับผิดชอบความเจ็บปวดของเด็กๆ\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "พูดอะไร...?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หมายความว่าคุณจะรับผิดชอบเองอย่างนั้นเหรอ? แต่คุณไม่ใช่ทั้งผู้ปกครองหรือครอบครัวของพวกเธอ\nเลยนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คุณก็แค่คนแปลกหน้าที่บังเอิญไปที่อะบิดอส แล้วก็ได้พบกับเด็กพวกนี้เท่านั้นเองครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แล้วทำไมถึงต้องเอาตัวไปลำบากขนาดนั้นล่ะครับ? ทำไมถึงจะเข้ามารับผิดชอบอะไรที่ไม่จำเป็นด้วย?"
+    },
+    {
+      "Text": "[s] \"เพราะนั่นคืองานที่ผู้ใหญ่ต้องทำไงล่ะ\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "โอ้... แบบนี้เองหรอกเหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "จะบอกว่าผู้ใหญ่ก็คือ <คนที่ต้องรับผิดชอบ> สินะ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ไม่ใช่หรอกครับครู ความคิดแบบนั้นมันผิด"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผู้ใหญ่ก็คือผู้เปลี่ยนแปลงสังคม กำหนดกฎหมายและข้อบังคับ กำหนดความชอบธรรม กำหนดความธรรมดาและความพิเศษตามที่ต้องการ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คือผู้ที่ปกครองคนไม่มีอำนาจด้วยอำนาจ ปกครองคนไม่มีความรู้ด้วยความรู้ และปกครองคนไม่มีพลัง\nด้วยพลัง นี่ต่างหากล่ะครับที่เรียกว่าผู้ใหญ่"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คนอย่างคุณยังไงล่ะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คุณสามารถเป็นผู้ปกครองของคิโวทอสได้เลยนะครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อำนาจและสิทธิที่ยิ่งใหญ่ของเมืองนี้ ความลึกลับของเมืองนี้ ทุกอย่างนี้ล้วนแต่เคยอยู่ในกำมือของคุณ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "แต่คุณก็เลือกที่จะปฏิเสธมันไปอย่างไม่ลังเล"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ผมไม่อาจเข้าใจได้เลย"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "การเลือกหนทางนั้นมันมีความหมายอะไรกับคุณกันเหรอ? ความจริง ความลับ อำนาจ เงิน พลัง...\nทำไมถึงเลือกที่จะละทิ้งทุกอย่างแบบนี้!"
+    },
+    {
+      "Text": "[ns] \"ถึงพูดไป พวกนายก็คงไม่เข้าใจหรอก\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ก็ดีครับ ถือว่าการเจรจาของเราล้มเหลว "
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงผมจะถูกใจคุณ แต่ก็คงทำอะไรไม่ได้"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ครูอยากช่วยโฮชิโนะใช่ไหมครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "โฮชิโนะอยู่ในฐานของ PMC ในทะเลทรายอะบิดอสครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ความหวาดกลัว หรืออีกด้านของความลึกลับที่เฝ้าสังเกตได้ด้วย <มิเมซิส> เราจะเริ่มทดลองว่าจะใช้มัน\nกับนักเรียนที่ยังมีชีวิตได้หรือเปล่า"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ใช่แล้ว โฮชิโนะจะกลายเป็นหนูทดลองที่เราจะใช้ได้ตามต้องการครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "และหากทดลองกับโฮชิโนะไม่สำเร็จ พวกเราก็จะเลือกใช้เทพหมาป่าแทน ถึงตอนนี้ทางเลือกนั้นจะดูมี\nความเป็นไปได้ที่เลือนรางก็ตาม"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "งั้นก็ลองช่วยนักเรียนของคุณที่ถูกจับตัวไปดูสิครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าคิดว่าทำได้ ก็ขอให้โชคดีครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ครู [USERNAME]"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "เกมาเทรียจะคอยจับตาดูคุณตั้งแต่นี้ไปครับ"
+    },
+    {
+      "Text": "[ns] กลับ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "กลับมาแล้วเหรอคุณครู "
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "กำลังรออยู่เลยค่ะคุณครู"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "คุณครู!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คุณครู..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เรารอการตัดสินใจของคุณครูอยู่นะ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ตัวเลือกต่อไปของเรา..."
+    },
+    {
+      "Text": "[ns5] \"ไปช่วยโฮชิโนะกันเถอะ\""
+    },
+    {
+      "Text": "[ns6] \"ไปช่วยโฮชิโนะกันเถอะ!\""
+    },
+    {
+      "Text": "[ns7] \"ไปช่วยโฮชิโนะกันเถอะ!!!\""
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม เราจะทำตามคุณครู"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม เราจะทำตามคุณครู"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม เราจะทำตามคุณครู"
+    },
+    {
+      "Text": "[ns] \"เราจะช่วยโฮชิโนะ แล้วพากลับมาที่นี่!\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ค่ะ! เข้าใจแล้วค่ะ!"
+    },
+    {
+      "Text": "[ns] \"เราจะช่วยโฮชิโนะ แล้วดุให้กลัวไปเลย!\""
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ใช่แล้ว! ต้องดุเพราะฝ่าฝืนคำพูดของตัวเองค่ะ! ฉันจะดุให้ร้องไห้ไปเลย!"
+    },
+    {
+      "Text": "[ns] \"เราจะช่วยโฮชิโนะ แล้วตะโกนว่า <ยินดีต้อนรับกลับมานะ>!!\""
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ใช่แล้ว..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ว่าไงนะ?! "
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "นั่นมันอะไรน่ะ?!! เชยชะมัด! ใครจะไปทำอะไรพิลึกแบบนั้น!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ฉันจะทำ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "วะ... ว่าไงนะ?!"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ฉันก็จะทำค่ะ! เซริกะจังไม่ต้องทำก็ได้นะคะ"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อะ... เอาจริงเหรอเนี่ย?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ส่วนฉัน... ขอคิดดูก่อน... แต่เหมือนจะต้องทำยังไงก็ไม่รู้..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ตามใจเถอะ! แต่ฉันไม่ทำอะไรบ้าบอแบบนั้นหรอกนะ!! ไม่มีทาง!!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แหะๆๆ งั้นเอาเป็นว่าเราตัดสินใจตามนี้ ต่อไปก็มาวางแผนต่อสู้..."
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "แต่ว่า ลำพังพวกเราคงเอาชนะกองทหารนั่นไม่ได้หรอก"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คนที่จะมาช่วยพวกเรา..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "หน่วยรับจ้างสารพัดไงล่ะ?"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "ทางนั้นเคยช่วยพวกเราไว้ก็จริง แต่ตอนนี้ก็หายตัวไปแล้วค่ะ เราจะขอร้องพวกเธออีกได้เหรอคะ..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "กังวลอะไรล่ะ! คนพวกนั้นเคยมาก่อกวนเราไว้ตั้งเยอะ! "
+    },
+    {
+      "Text": "[ns] \"ครูมีความคิดดีๆ แล้วละ\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "เอ๋? คุณครูน่ะเหรอคะ...?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...?"
+    },
+    {
+      "Text": "ตอนต่อไป;สิ่งที่อยากปกป้อง"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第16話;大人的戰鬥"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我們知道你是誰，由聯邦學生會長召喚出的無法理解的存在。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "那[ruby=希迪姆的箱子]個歐帕茲的[/ruby]主人、聯邦搜查部「夏萊」的老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "某些人似乎低估了你，但我們並不這麼認為。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……首先我想表明我們的立場。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我們不打算與你為敵。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不如說希望和你合作。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我們判斷你將會成為我們計畫中最大的阻礙。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "對我們而言，剷除阿拜多斯這麼小的學校根本不成問題。\n不過老師，我們還是想避免與你為敵。"
+    },
+    {
+      "Text": "[s] 「你們到底是誰？」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……哎呀，原來我還沒自我介紹嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我們和你一樣，都是奇普托斯的外來者……不過，我們和你是來自不同領域的存在。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "因為正好有個合適的名字，我們決定借來一用──\n請稱呼我們為「蓋瑪特利亞」。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "至於我的話，叫我「黑色西裝人」就可以了。\n我很喜歡這個名字。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "[ruby=蓋瑪特利亞]我們[/ruby]是觀察者、探究者，也是研究者。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "可以將我們視為和你一樣「無法理解的存在」。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "姑且問你一下，你是否有和[ruby=我們]蓋瑪特利亞[/ruby]攜手合作的打算？"
+    },
+    {
+      "Text": "[s1] 「沒有。」"
+    },
+    {
+      "Text": "[s2] 「一點都沒有。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "拒絕這個能夠掌握真理和秘儀的提議，那麼你在這奇普托斯究竟想追求什麼？"
+    },
+    {
+      "Text": "[s3] 「我對那些沒興趣。」"
+    },
+    {
+      "Text": "[s4] 「我只是來把星野帶回去而已。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……咯，咯咯。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……咯，咯咯。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "你沒察覺自己的行為不具正當性嗎，老師？\n你有什麼權利提出那種要求？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "星野已經不是阿拜多斯的學生了。你沒確認退學申請書嗎？"
+    },
+    {
+      "Text": "[s]「星野並沒有退學。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……哦？"
+    },
+    {
+      "Text": "[ns]「身為『顧問』的我還沒批准那份文件。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「所以星野依然是對策委員會的一員──」"
+    },
+    {
+      "Text": "[ns]「依然是阿拜多斯的副學生會長──」"
+    },
+    {
+      "Text": "[ns]「依然是我的學生。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……原來如此。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "只要你是「老師」，學生的去向就需要你的許可……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "原來如此……這是那樣的故事啊。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "學校的學生，還有老師……呼呣，真是麻煩的概念呢。"
+    },
+    {
+      "Text": "[s] 「你們欺騙了那些孩子、踐踏了他們的心、利用了他們的痛苦。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "沒錯，正是如此。\n他人的不幸確實能讓我們從中獲利。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "如果要問我們的行為是善是惡，我想無庸置疑是惡吧──這點我並不否認。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "不過這都是合乎規定的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "希望你別誤會，老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "阿拜多斯的災難並不是我們造成的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "砂塵暴侵襲那所學校雖然相當少見，不過並非毫無可能。\n換言之，那就是所謂的天災異變。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我們只是利用了那個機會而已。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "為在沙漠中脫水瀕臨死亡的人提供飲水……其代價是一生為奴才得以償還的債務。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "僅此而已。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "這是世上隨處可見的事。我們不必承擔這些責任。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "並非因我們而起，也不因我們停手而不再發生。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "有權者壓榨無權者，有識者壓榨無知者──"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "這不是每個大人都瞭然於心的事實嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "所以……希望你能從阿拜多斯撤離，老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "只要願意放棄星野，我就替你保住那所學校。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "凱薩PMC的事也會由我們解決。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "如此一來，那些孩子就能繼續在阿拜多斯上學了吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我想這應該也是星野的期望才對──你意下如何？"
+    },
+    {
+      "Text": "[s] 拒絕"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……為什麼？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "無論如何都打算與我們敵對嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "你明明手無縛雞之力，究竟打算如何戰鬥！"
+    },
+    {
+      "Text": "[ns] 拿出大人的卡片"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "那確實是只屬於你的武器。\n不過它所帶來的風險，我也略知一二。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "越是使用就越會被削減吧──你的生命，你的時間。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……沒錯吧？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "所以請收起那張卡片吧，老師。\n你應該也有自己的生活才對。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "吃飯、搭地鐵、繳房租……必須解決這些無意義且不值一提的小事不是嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "請你務必那麼做，老師。\n請把它用在比那些孩子更重要的地方。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "置之不理不也是一種選擇嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "畢竟這裡的事，本來就與你無關啊。"
+    },
+    {
+      "Text": "[s] 拒絕"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "為何？為何？為何？為何？為何？為何？為何？為何？為何？為何？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "無法理解，為何？為何拒絕呢？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "為什麼？老師，到底是為了什麼？"
+    },
+    {
+      "Text": "[ns] 「沒有任何大人願意為那些孩子的痛苦負責。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……你想說什麼？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "所以你想負起責任嗎？\n你並非那些孩子的監護人，也不是家人。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "只是碰巧被叫來阿拜多斯，碰巧與那些孩子們相遇的外人而已。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "究竟為何要做那種事呢？為什麼要承擔不必承擔的責任？"
+    },
+    {
+      "Text": "[s] 「因為那是大人該做的事。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……啊啊，這樣啊。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "你想說所謂的大人就是「背負責任之人」嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "老師，那個想法是錯誤的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "所謂的大人，是能將社會改造成自己理想的模樣──\n決定法律、決定規則……定義正常與異常、平凡與非凡的人。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "以權力、知識、力量統治無權者、無知者、無力者──這就是大人。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "──也就是像你這樣的人。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……你本來能成為這奇普托斯的支配者。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "這座都市的巨大權力、權限，以及存在於此的神祕──\n這一切曾一度掌握在你的手中。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "然而你卻毫不猶豫地放棄了它們。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "實在無法理解。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "那個選擇究竟意味著什麼？\n真理、祕儀、權利、金錢、力量……捨棄這一切的、你那毫無意義的選擇！"
+    },
+    {
+      "Text": "[ns]「……我想就算我說了，你也絕對無法理解。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "好吧。交涉決裂了，老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "我雖然很中意你……但這也沒辦法。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "老師，你想拯救星野嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "星野就在阿拜多斯砂漠．PMC基地中央的實驗室裡。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "藉由[ruby=Mimesis]複製[/ruby]觀測神祕的另一面，也就是恐怖。\n這一手段是否適用於活著的學生──對其進行驗證的實驗即將開始。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "沒錯，以星野為實驗對象進行徹底研究。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "如果失敗的話，就拿那個狼神來當替代品……\n不過現在似乎沒有那個選項了呢。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "儘管去拯救你的學生吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "還請務必好好努力。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "[USERNAME]老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……蓋瑪特利亞今後將一直關注著你。"
+    },
+    {
+      "Text": "[ns] 回去"
+    },
+    {
+      "Name": "白子",
+      "Text": "歡迎回來，老師。"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "老師，等你很久了！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "老師！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師……"
+    },
+    {
+      "Name": "白子",
+      "Text": "我們都在等待老師的決定。"
+    },
+    {
+      "Name": "白子",
+      "Text": "接下來……"
+    },
+    {
+      "Text": "[ns5]「救出星野吧。」"
+    },
+    {
+      "Text": "[ns6]「救出星野吧！」"
+    },
+    {
+      "Text": "[ns7]「救出星野吧！！」"
+    },
+    {
+      "Name": "白子",
+      "Text": "……嗯，走吧。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……嗯，走吧。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……嗯，走吧。"
+    },
+    {
+      "Text": "[ns] 「我們要救出星野，把他帶回這裡！」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "是，我明白了！"
+    },
+    {
+      "Text": "[ns] 「要救出星野，然後好好教訓他才行！」"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "嗯嗯！違背自己說的話就必須處罰！要好好教訓！"
+    },
+    {
+      "Text": "[ns] 「對他說『歡迎回來』，讓他說出『我回來了』！」"
+    },
+    {
+      "Name": "茜香",
+      "Text": "嗯……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦！？ "
+    },
+    {
+      "Name": "茜香",
+      "Text": "那也太羞恥了吧！！誰做得出來啊！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "我來做。"
+    },
+    {
+      "Name": "茜香",
+      "Text": "咦，咦！？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "我也要！茜香醬不做也沒關係哦！"
+    },
+    {
+      "Name": "茜香",
+      "Text": "怎，怎麼這樣！？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "我，我……雖然有點猶豫……不過感覺就得這樣才行……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "隨，隨便你們！反正我絕對不會說那種肉麻的話！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊，啊哈哈……\n既然已經決定好了，來進行作戰的準備吧……"
+    },
+    {
+      "Name": "白子",
+      "Text": "只靠現在的我們贏不了那支軍隊。"
+    },
+    {
+      "Name": "白子",
+      "Text": "願意幫助我們的人……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "便利屋呢？"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "他們確實幫了我們沒錯……不過現在已經不知去向了。\n不知道能不能再拜託他們……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "肯定沒問題吧！誰叫他們至今為止給我們製造了那麼多麻煩！"
+    },
+    {
+      "Text": "[ns] 「我有個想法。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "老師的想法是……？"
+    },
+    {
+      "Text": "下一話;想守護的事物"
+    }
+  ]
+}

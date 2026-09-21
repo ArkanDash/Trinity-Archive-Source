@@ -1,0 +1,2532 @@
+{
+  "TitleJP": "ティーパーティー",
+  "TitleKR": "티파티",
+  "TitleEN": "Tea Party",
+  "TitleTH": "สภาน้ำชา",
+  "TitleTW": "茶會",
+  "DescJP": "トリニティの生徒会長であるナギサとミカに誘われ、ティーパーティーに顔を出した先生。落第寸前の生徒たちが集まる「補習授業部」の担任になってほしいと頼まれ、それを承諾することに。その補習授業部の名簿の中には見知った名前があり、まさかと思いつつ教室に向かった先生は、部長であるヒフミと再会するのだった。",
+  "DescKR": "트리니티의 학생회장들인 나기사와 미카의 초대를 받고 티파티에 출석한 선생님. 낙제 위기에 처한 보충수업부 학생들을 맡기고 싶다는 나기사의 제안에 선생님은 승낙한다. 그렇게 해서 찾은 곳에서 선생님은 보충수업부의 부장인 히후미와 재회한다.",
+  "DescEN": "Sensei attends a tea party at the invitation of Nagisa and Mika, the Student Council presidents of Trinity. Nagisa proposes Sensei handle the Make-Up Work Club students who are at risk of failing and Sensei agrees. At the club, Sensei is reunited with Hifumi, the president of the Make-Up Work Club.",
+  "DescTH": "คุณครูเข้าร่วมงานสภาน้ำชาตามคำเชิญของมิกะและนางิสะ ประธานสภา\nนักเรียนโรงเรียนทรีนิตี้ คุณครูเห็นด้วยกับคำแนะนำของนางิสะเรื่องการ\nรับมอบหมายให้ดูแลนักเรียนชมรมชั้นเรียนเสริมที่เสี่ยงต่อการถูกไล่ออก\nจากโรงเรียน และที่นั่นคุณครูก็พบกับฮิฟุมิที่เป็นหัวหน้าชมรม",
+  "DescTW": "老師受三一學生會長-渚和彌香之邀出席茶會。渚提出自己想負責面臨留級危機的補課部學生後，得到老師的同意。老師在茶會和補課部的部長日步美再會。",
+  "DialogJP": [
+    {
+      "Text": "第3話;ティーパーティー"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "へー、これが噂の先生かー。あんまり私たちと変わらない感じなんだね？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "なるほどー、ふーん……うん、私は結構良いと思う！！ナギちゃん的にはどう？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ミカさん、初対面でそういった話はあまり礼儀がなっていませんよ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "愛が溢れるのは結構ですが、時と場所は選びましょうね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うぅっ、それはまあ確かに……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "先生、ごめんね？まあとりあえず、これからよろしくってことで！"
+    },
+    {
+      "Text": "[s] \"こちらこそ、よろしく。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……ふふっ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……トリニティの外の方が、このティーパーティーの場に招待されたのは、私の記憶では先生が初めてです。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "普段は、トリニティの一般の生徒たちも簡単には招待されない席でして……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あー、何それナギちゃんちょっといやらしい！恩着せがましい感じー！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……失礼しました、先生。そういった意図は無かったのですが……それはさておき、ミカさん？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あー……ごめん、大人しくしてるね。できるだけ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……では、あらためて。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "こうして先生をご招待したのは、少々お願いしたいことがありまして。"
+    },
+    {
+      "Text": "[s] \"お願い？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "おおっ、ナギちゃんいきなりだね！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "もうちょっとこう、アイスブレイクとか要らないの？ちょっとした小粋な雑談とかは？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "天気が良いですねとか、昨日は何を食べたのですか、とか。そういうの挟まないの？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ほら、ティーパーティーって、基本的には社交界なんだし？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "そんな綺麗な目で睨んでも、これはティーパーティーとしての在り方の問題なんだからダメー！きちんとしないと！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ミカさん、そういったことはあなたがホストになった際に追求してください。今は一応私がホストですので、私の方法に従ってくださいな。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "まあ、お客様の前でこのような論争を広げるのもまた、望ましい姿ではないことは確かですね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……そうですね。ミカさんの言う通り、少し話の方向を変えましょうか。"
+    },
+    {
+      "Text": "[s] \"あなたたちが、トリニティの生徒会長なんだよね？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "おお、先生の方から空気を読んでくれた！ほら、ナギちゃん見た！？これが大人の話術だよ！自然な会話への誘導！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……はい。仰る通り、私たちがトリニティ総合学園の生徒会長[ruby=・・]たち[/ruby]です。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "「生徒会長たち」というのは耳慣れない言葉かもしれませんね……最初からご説明しますと、トリニティの生徒会長は代々複数人で担っているものなのです。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あれ、ナギちゃん無視？もしかして無視かなー？おーい？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "昔……「トリニティ総合学園」が生まれる前、各分派の代表たちが紛争を解決するために「ティーパーティー」を開いたことから、この歴史は始まりました。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "え、ひどっ……くすん、私ちょっと傷ついた……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "パテル、フィリウス、サンクトゥス……それらの三つの学園の代表を筆頭にティーパーティーを開き、和解への流れが生み出されたのです。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ナギちゃんが本当に無視した……嫌がらせだぁ……ひどくない？私たち一応十年来の幼馴染だよ？こんなこと今までに……結構あったかもだけど……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……その後から、トリニティの生徒会は「ティーパーティー」という通称で呼ばれるようになり、各派閥の代表たちが順番に「ホスト」を――"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ああもう[ruby=うるさ]五月蠅[/ruby]いですね！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ひぇっ……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "今、私が説明をしているんですよ！？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それなのにさっきからずっと！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "横でぶつぶつぶつぶつと……！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "どうしても黙れないのでしたら、その小さな口に……"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ロールケーキをぶち込みますよっ！？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……あら。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……私ったら、何という言葉遣いを……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……失礼しました、先生……ミカさんも。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "いやー、怖い怖い……。"
+    },
+    {
+      "Text": "[s] （中々本題に入らないな……）"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……そろそろ本題に入りましょうか。私たちが先生にお願いしたいのは、簡単なことです。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "簡単だけど、重要なことだよ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はい、そうですね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……補習授業部の、顧問になっていただけませんか？"
+    },
+    {
+      "Text": "[s] \"補習授業部？\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はい。つまり、落第の危機に陥っている生徒たちを救っていただきたいのです。「部」という形ではありますが、今回は顧問というより「担任の先生」と言った方が良いかもしれませんね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "トリニティ総合学園は、昔からキヴォトスにおいて「文武両道」を掲げる、歴史と伝統が息づく学園です。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それなのにあろうことか、よりにもよってこの時期に、成績の振るわない方がなんと4名もいらっしゃいまして……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "私たちとしてはちょっと困ったタイミングでっていうか……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "「エデン条約」の件で、今はバタバタしててね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あの子たちの件も何とか解決しないといけないんだけど、人手も時間も足りなくって……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "その時にちょうど見つけたの！新聞に載ってた「シャーレ」の活躍っぷりを！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "猫探し、街の掃除、宅配便の配達まで、八面六臂の大活躍！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "この「シャーレ」になら、きっと面倒ごとを任せられそうだなって！"
+    },
+    {
+      "Text": "[s] \"……。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……「面倒ごと」なんて言ってはいけませんよ、ミカさん。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ま、まあでも、ある意味本当のことでもあるし……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "それに、「先生」なんでしょ？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "今はみんなBDで学習する時代だし、学校の職員とか、教授とかならまだしも、「先生」って概念は珍しいんだよね。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "先の道を生きると書いて「先生」……つまり、「導いてくれる役割」ってことだよね？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "尊敬の対象、あるいは生きる指針としてみんなに手を差し伸べ、導く……「補習授業部」の顧問として、これはぴったりだなって思って！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "噂では、「尊敬」という言葉が合うかどうかについては、意見が割れているようですが……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "あー、そうだったね。報告書によって全然違うっていうか……まあ、これは先生の名誉のために何も言わないでおくね。"
+    },
+    {
+      "Text": "[s1] （いったいどんな噂が……）"
+    },
+    {
+      "Text": "[s2] （……聞かなかったことにしよう！）"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "とにかく！今はちょっと忙しいこともあって、ぜひ先生に、この子たちを引き受けてほしいの！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "とにかく！今はちょっと忙しいこともあって、ぜひ先生に、この子たちを引き受けてほしいの！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "もう少々説明しますと……この「補習授業部」は常設されているものではなく、特殊な事態に応じて創設し、救済が必要な生徒たちを加入させるものです。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "少々特殊な形ではありますが、急ぎということもあり、シャーレの超法規的な権限をお借りしつつ……といった形で、ですね。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "色々とややこしいですが、本質はあくまで「成績の振るわない生徒たちを救済すること」にあります。だからこそ、こういった特殊な形での創設が許されたわけですが……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "いかがでしょう、先生？助けが必要な生徒たちに、手を指し伸べていただけませんか？"
+    },
+    {
+      "Text": "[s] \"私にできることであれば、喜んで。\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "やった！ありがとー先生！"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ふふっ、きっと断らないでしょうとは思っていましたが……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "ありがとうございます。では、こちらを。"
+    },
+    {
+      "Text": "[ns] 生徒たちの名簿を受け取る。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そちらの方々が対象です。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "つまりトリニティのやっか――"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "その表現は愛が足りませんよ、ミカさん。こう言いましょうか、トリニティにおける「愛が必要な生徒たち」。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "まあ呼び方は何でもいいけどねー。"
+    },
+    {
+      "Text": "[ns] （あれ、この子って……）"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ん？何か気になる子でもいた、先生？"
+    },
+    {
+      "Text": "[s3] \"……ううん、何でもない。\""
+    },
+    {
+      "Text": "[s4] 口笛を吹く。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "詳しい内容についてはまた追ってご連絡いたします。他に気になる点はございませんか？"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "詳しい内容についてはまた追ってご連絡いたします。他に気になる点はございませんか？"
+    },
+    {
+      "Text": "[s] \"エデン条約……って、何？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うーん……それは、何て言えば良いのかなあ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "その説明には中々時間がかかってしまいますので、また後日お話ししますね。一応、それなりに内部機密ということもありますし……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それに、補習授業部の件とはそれほど関係のないことですから……。"
+    },
+    {
+      "Text": "[s] \"あと、ティーパーティーのもう一人の生徒会長は？\""
+    },
+    {
+      "Name": "ミカ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "それは……。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "セイアちゃんは今、トリニティにいないの。入院中で……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "本来であれば、今のホストはそのセイアさんだったのですが……そういった事情で不在のため、私がホストを務めているところです。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "元々ティーパーティーのホストは、順番でやるものだからね。"
+    },
+    {
+      "Text": "[s] \"そっか、早く良くなると良いね。……今聞きたいのはこれぐらいかな。\""
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "承知しました、また何かあれば聞いてください。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "では準備が整い次第、先生にはトリニティ総合学園に派遣という形で来ていただくことにできればと。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "先生のご協力に感謝します、これで一安心です。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "じゃっ、またね先生。また会えるのかどうか分からないけどっ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そうですね。特に今は忙しい時期ですし、ティーパーティーの生徒会長がこうしてまたすぐに集まれるとも限りませんから。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ふふっ、やっぱり忙しいんだ？ま、でも先生のおかげでナギちゃんの顔も見られたし、良かった良かった。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "はい、私もですよ。ミカさん。"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "ふふっ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "では、これからよろしくお願いいたしますね、先生。私もティーパーティーのホストとして、先生をエスコートいたしますので。"
+    },
+    {
+      "Text": "[s] \"うん、よろしくね。\""
+    },
+    {
+      "Text": "（まずは補習授業部の名簿にあった、見たことのある名前の生徒に会いに行くことに……）"
+    },
+    {
+      "Text": "[ns] \"やっぱり……！\""
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あ、あはは……こんにちは、先生。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あの、これはその、やむを得ない事情がありまして……。"
+    },
+    {
+      "Name": "ヒフミ",
+      "Text": "あうぅ……。"
+    },
+    {
+      "Text": "次回;補習授業部の生徒たち（１）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;티파티"
+    },
+    {
+      "Name": "미카",
+      "Text": "헤에~ 선생님이란 건 이렇게 생겼구나. 별로 우리랑 다르지도 않은데? "
+    },
+    {
+      "Name": "미카",
+      "Text": "어느 쪽이냐면, 나는 좋다고 생각해!! 나기 쨩은? 어때?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……미카 씨. 선생님 앞에서 그런 걸 묻는 건 예의가 아닌 것 같네요. "
+    },
+    {
+      "Name": "나기사",
+      "Text": "사랑이 넘치는 건 좋지만 때와 장소라는 게 있으니까요."
+    },
+    {
+      "Name": "미카",
+      "Text": "아아…… 그, 그런가?"
+    },
+    {
+      "Name": "미카",
+      "Text": "미안해. 선생님. 너무 격식 없었을까나……. 그치만 잘 부탁해! 그런 느낌으로!"
+    },
+    {
+      "Text": "[s] \"잘 부탁해.\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "……우훗."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……. 티파티에 트리니티 외의 사람이 초대되어 온 건 제가 기억하기로 선생님이 처음입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "보통은 일반 학생들도 쉽게 초대받지 못하는 자리이지만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "우와- 생색! 나기 쨩 생색!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "생색내려는 의도는 아니었고…… 하아. 미카 씨."
+    },
+    {
+      "Name": "미카",
+      "Text": "……응. 미안. 가만히 있을게."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "이렇게 선생님을 모신 건 사소한 부탁을 드리려고 한 것입니다만."
+    },
+    {
+      "Text": "[s] \"부탁?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "아아. 나기 쨩. 그치만, 다짜고짜 본론부터?! "
+    },
+    {
+      "Name": "미카",
+      "Text": "좀 더, 뭐랄까. 아이스브레이킹 같은 건 없는 거야? 어색함을 깨려는 잡담 같은 거. "
+    },
+    {
+      "Name": "미카",
+      "Text": "오늘은 날씨가 좋다, 어제 뭘 먹었다. 그런 거. 그런 게 필요한 거 아냐?"
+    },
+    {
+      "Name": "미카",
+      "Text": "티파티라는 건 기본적으로 사교 모임이니까. "
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "그렇게 예쁜 눈으로 노려봐도 이건 티파티의 에티튜드에 대한 얘기니까. 분명히 해야 해!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "그런 건 미카 씨, 당신이 호스트일 때 추구하면 됩니다. 지금은 제가 호스트니 제 방식을 따라주셔야죠."
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "뭐, 손님을 불러놓고 이렇게 논쟁하는 것도 별로 보여줄 만한 장면은 아니니……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……알겠어요. 미카 씨의 말대로 조금 말을 돌려볼까요."
+    },
+    {
+      "Text": "[s] \"너희들이 바로 트리니티의 학생회장들이지?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "우와, 분위기를 잘 읽어주는 선생님! 응, 잘 봐! 나기 쨩. 이게 바로 어른의 화술! 자연스럽게 대화를 유도하는 능숙함!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네. 맞습니다. 저희가 바로 트리니티 종합학원의 학생회장들입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "왜 학생회장들, 이냐고 물어보실 수 있겠지만…… 기본적으로 트리니티의 학생회장은 여러 명으로 존재해 왔습니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "어라…… 나기 쨩……? 무시? "
+    },
+    {
+      "Name": "나기사",
+      "Text": "과거 트리니티가 연합을 이루기 전, 각 분파 학원들의 대표들이 분쟁을 해결하기 위해 티파티를 열었던 것에서부터 이 역사가 시작되었는데……."
+    },
+    {
+      "Name": "미카",
+      "Text": "진짜로? 너무해…… 나 조금 상처……. "
+    },
+    {
+      "Name": "나기사",
+      "Text": "파테르, 필리우스, 상투스 세 학원의 대표가 나서서 티파티를 열어서 화해 무드를 만들었고 그 이후부터……"
+    },
+    {
+      "Name": "미카",
+      "Text": "나기 쨩…… 이젠 막 무시하고…… 이거 완전 괴롭힘이잖아. 응? 너무하잖아. 십년 넘게 알고 지내온 소꿉친구를 이렇게 막……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……그 이후부터 트리니티의 학생회는 티파티라는 명칭으로 불리며 각 분파 대표들이 호스트를……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "시끄러워요!"
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "아까부터 자꾸! 어! 시끄럽잖아요!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "미카 씨!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "쨍알쨍알!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "그 작은 입을 다물지 않으면"
+    },
+    {
+      "Name": "나기사",
+      "Text": "거기다 롤케이크를 쑤셔넣어버릴 거예요!"
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……죄, 죄송합니다. 제가 무슨 망발을……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "하…… 하아. 사과드립니다. 미카 씨…… 선생님……."
+    },
+    {
+      "Name": "미카",
+      "Text": "무…… 무서웠어……. "
+    },
+    {
+      "Text": "[s] (본론은 언제 얘기하게 되는 걸까…….)"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……저희가 선생님께 요청드리고 싶은 것은, 간단한 일입니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 그치만 중요한 일이기도 해."
+    },
+    {
+      "Name": "나기사",
+      "Text": "중요하기도 하죠."
+    },
+    {
+      "Name": "나기사",
+      "Text": "즉, 보충수업부를 맡아주실 수 있습니까?"
+    },
+    {
+      "Text": "[s] \"보충수업부?\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "네. 결론부터 말씀드리자면, 낙제 위기에 처한 학생들을 구제하는 특별반을 운용해주시길 바라는 것입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "저희 트리니티 학원은 예로부터 키보토스에서 문무를 겸비하고 있는 역사와 전통이 숨쉬는 학원."
+    },
+    {
+      "Name": "나기사",
+      "Text": "하지만 어쩐 일인지 이런 시국에 낙제생들이 무려 4명이나 생겨버려서……."
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 대외적으로는 우리는 지금 최악의 시기를 보내고 있달까."
+    },
+    {
+      "Name": "미카",
+      "Text": "에덴조약 때문에 여러 가지로 어수선하거든."
+    },
+    {
+      "Name": "미카",
+      "Text": "이런 상태에서 낙제생들의 처우를 빨리 해결해야 하는데, 인력도, 시간도 부족한 상황이고……."
+    },
+    {
+      "Name": "미카",
+      "Text": "때마침 보인 게 바로 이거! 신문에 난 샬레의 활약상!"
+    },
+    {
+      "Name": "미카",
+      "Text": "고양이 찾아주기, 동네 청소, 택배 배달 등등 편리한 심부름센터 샬레의 대활약!"
+    },
+    {
+      "Name": "미카",
+      "Text": "그래, 이거라면! 귀찮은 일을 떠넘길 수 있겠다 싶어서!"
+    },
+    {
+      "Text": "[s] \"…….\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "귀찮은 일을 떠넘긴다…… 는 아니죠. 미카 씨."
+    },
+    {
+      "Name": "미카",
+      "Text": "어라, 그, 그런가……. 그치만 어떤 부분에 있어선 사실이기도 하고……."
+    },
+    {
+      "Name": "미카",
+      "Text": "게다가, 선생님이잖아. 선생님."
+    },
+    {
+      "Name": "미카",
+      "Text": "지금이야 다들 BD로 학습하는 시대이고, 교직원, 교무원, 강사, 교수 등은 있지만, <선생님> 이라는 개념은 흔치 않으니까."
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 선생. 이것은 삶을 앞서간 사람, 즉, 이끌어주는 사람이라는 뜻이잖아?"
+    },
+    {
+      "Name": "미카",
+      "Text": "그런 의미에서 선생님은 존경과 삶의 기준이 되는 사람, 이라는 뜻이기도 하고. 보충수업부에 딱 맞는 느낌이잖아."
+    },
+    {
+      "Name": "나기사",
+      "Text": "들리는 소문에 의하면……. 존경이나 닮고 싶다, 라는 느낌은 아닙니다만……."
+    },
+    {
+      "Name": "미카",
+      "Text": "아하하, 응. 그건 인정. 여기 저기서 들려오는 보고서에는……. 음, 이건 선생님의 명예를 위해 굳이 말하진 않을게."
+    },
+    {
+      "Text": "[s1] (대체 무슨 보고가 올라오는 거지……?!)"
+    },
+    {
+      "Text": "[s2] (묻지 않는 게 좋을 것 같다…….)"
+    },
+    {
+      "Name": "미카",
+      "Text": "하여튼! 나는 선생님이 얘네들을 맡아줬으면 좋겠어. 지금처럼 곤란한 시국에는 더욱!"
+    },
+    {
+      "Name": "미카",
+      "Text": "하여튼! 나는 선생님이 얘네들을 맡아줬으면 좋겠어. 지금처럼 곤란한 시국에는 더욱!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "보충수업부, 라는 평상시에는 없는 특별 동아리를 창설해서 구제가 필요한 학생들을 가입시킨다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "특별 한정으로 만들어지는 것이기에 여기서 샬레의 초법적 권한을 빌려온다- 이런 형태입니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "본질은 어디까지나 낙제생들의 구제이기에 이런 편법을 사용하는 것을 허용한 것이지만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "어떻습니까? 선생님. 부디 도움이 필요한 학생들을 외면하지 않았으면 합니다만……."
+    },
+    {
+      "Text": "[s] \"내 도움이 필요한 아이들이 있다면 사양하지 않을게.\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……! 응, 해냈다! 땡큐! 선생님!"
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "과연. 그렇군요. 거절하지 않으실 거라고는 예측하고 있었지만……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "알겠습니다. 그럼, 이 서류를."
+    },
+    {
+      "Text": "[ns] 학생 명부를 받는다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "이 학생들입니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 말하자면, 트리니티의 골칫덩이들."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그 표현은 사랑이 부족하니 이렇게 표현하죠. 트리니티의 사랑이 필요한 학생들."
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 뭐든."
+    },
+    {
+      "Text": "[ns] (이 아이는……!)"
+    },
+    {
+      "Name": "미카",
+      "Text": "응? 아는 학생이라도 있는 거야, 선생님?"
+    },
+    {
+      "Text": "[s3] \"아니, 뭐…….\""
+    },
+    {
+      "Text": "[s4] (얼버무린다.)"
+    },
+    {
+      "Name": "나기사",
+      "Text": "자세한 사항은 서류를 통해 전달드리겠습니다. 다른 궁금한 점은 없으신가요?"
+    },
+    {
+      "Name": "나기사",
+      "Text": "자세한 사항은 서류를 통해 전달드리겠습니다. 다른 궁금한 점은 없으신가요?"
+    },
+    {
+      "Text": "[s] \"에덴조약이라는 게 뭐지?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……."
+    },
+    {
+      "Name": "미카",
+      "Text": "음…… 뭐라고 해야 할까……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그걸 설명하는 건 꽤 많은 시간이 필요하니 나중에 따로 시간을 마련하겠습니다. 일단 저희 내부의 기밀인지라……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "게다가 지금의 보충수업부 업무와는 큰 관계가 없는 일이기도 하니……."
+    },
+    {
+      "Text": "[s] \"그리고 티파티의 학생회장은 세명 아니었어?\""
+    },
+    {
+      "Name": "미카",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그건……."
+    },
+    {
+      "Name": "미카",
+      "Text": "세이아 쨩은 지금 트리니티에 없어. 그 아이는 현재 투병 중이거든."
+    },
+    {
+      "Name": "나기사",
+      "Text": "네. 원래 현재 파티 호스트는 세이아 씨여야 하지만…… 부재중인 관계로 제가 호스트를 맡고 있는 중입니다."
+    },
+    {
+      "Name": "미카",
+      "Text": "티파티의 호스트는 돌아가면서 하거든. 뭐, 이것도 큰 상관은 없는 이야기지만."
+    },
+    {
+      "Text": "[s] \"뭐, 그 정도이려나…….\""
+    },
+    {
+      "Name": "나기사",
+      "Text": "네."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그럼 준비를 마치는 대로 선생님이 트리니티 학원에 파견와주시는 걸로 하겠습니다."
+    },
+    {
+      "Name": "나기사",
+      "Text": "다시금 선생님의 협조에 감사드립니다. 이걸로 한시름 놓았네요."
+    },
+    {
+      "Name": "미카",
+      "Text": "안녕~ 선생님. 다음에 또 봐. 볼 수 있을지는 모르겠지만."
+    },
+    {
+      "Name": "나기사",
+      "Text": "티파티 호스트가 한 자리에 모이는 것도 사실 쉬운 일은 아니니까요."
+    },
+    {
+      "Name": "미카",
+      "Text": "바쁜척? 뭐, 그치만 선생님 덕분에 나기 쨩 얼굴도 오랜만에 보고. 좋았어."
+    },
+    {
+      "Name": "나기사",
+      "Text": "네. 저도 동감입니다. 미카 씨."
+    },
+    {
+      "Name": "미카",
+      "Text": "후후훗."
+    },
+    {
+      "Name": "나기사",
+      "Text": "그럼, 앞으로 잘 부탁드립니다, 선생님. 앞으로 티파티 호스트인 제가 선생님을 에스코트하겠습니다."
+    },
+    {
+      "Text": "[s] \"잘 부탁해.\""
+    },
+    {
+      "Text": "(보충수업부의 명단에 있던, 이름이 익숙한 학생을 보기로 했다.)"
+    },
+    {
+      "Text": "[ns] \"역시. 너였나!!\""
+    },
+    {
+      "Name": "히후미",
+      "Text": "아, 아하하…… 안녕하세요. 선생님."
+    },
+    {
+      "Name": "히후미",
+      "Text": "아우우…… 그러니까 여, 여기에는 피치못할 사정이……. "
+    },
+    {
+      "Name": "히후미",
+      "Text": "아우……."
+    },
+    {
+      "Text": "다음화;낙제생들 1"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3;Tea Party"
+    },
+    {
+      "Name": "Mika",
+      "Text": "I've been wondering what you might look like, Sensei. You don't look all that different from us."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I think I like you, Sensei! What do you think, Nagisa?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I don't believe it's polite to comment on such things in front of Sensei, Mika."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "There's no shame in affection, but there's a proper time and place for it. "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh. Is that how it works?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sorry, Sensei. I guess I was being too informal. I guess I should say something like...I'm pleased to meet you!"
+    },
+    {
+      "Text": "[s] \"Well, it's nice to meet you too.\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Heehee."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "If memory serves, you're the first person outside of Trinity to be invited to the Tea Party. "
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "This is normally a place that ordinary students could scarcely hope to be invited to."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sheesh, Nagi! Don't make such a big deal out of it!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "*sigh* That wasn't my intention, Mika."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Right. My bad. I'll keep a lid on it."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "... "
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "We brought you here because we have a small favor to ask."
+    },
+    {
+      "Text": "[s] \"And what's that?\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hold on, Nagi. Are we really going straight to the point?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Shouldn't we, like, make small talk or something? Chat a bit to break the ice?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "We could talk about how great the weather is or what we ate yesterday. Should we really be skipping all that? "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Isn't the Tea Party supposed to be all about social gathering?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "You can stare at me with those pretty eyes all you want, but I'm not backing down. This has to do with proper Tea Party etiquette!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You're more than welcome to uphold those values when you're the host, Mika. I am the host at the moment, so you will be following my lead."
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Forgive me. It's unsightly of us to quarrel in front of a guest."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Why don't we change the subject as Mika suggested?"
+    },
+    {
+      "Text": "[s] \"You all act as Trinity's Student Council presidents, right?\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Whoa, Sensei can really read the room! Take a good look, Nagi. Those are some grownup conversational skills. Listen to the eloquence and flow!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...Ignoring that, yes, you are correct, Sensei. We are the Student Council presidents of Trinity."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You might be wondering why there are multiple presidents. It's a tradition of Trinity's Student Council to have multiple presidents serve simultaneously."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hey! Why did you ignore me, Nagi?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Before Trinity was unified, the representatives of each branch academy would hold tea parties to resolve any disputes..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Are you really doing this? That's so mean. My feelings..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The representatives of the Pater, Filius, and Sanctus academies came together to hold tea parties meant to create an atmosphere of reconciliation, and since then..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "You're just straight-up ignoring me, Nagi. Are you doing this to get back at me? You're the worst. Is this how you treat a friend that you've known for over ten years?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...the Student Council of Trinity has been called the Tea Party, and the representatives of each faction host—"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Will you shut up?!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I'm in the middle of something! Can you not keep your mouth shut?!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Mika!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "On and on and on!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "If you don't shut that little yap of yours..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...I'll stuff it shut for you with a roll cake!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Pardon me. I don't know what came over me."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "*exhale* My apologies, Mika... Sensei."
+    },
+    {
+      "Name": "Mika",
+      "Text": "S-So scary..."
+    },
+    {
+      "Text": "[s] \"(I hope we can get to the point eventually...)\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "What we're requesting of you is rather simple, Sensei."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Yeah, simple but important."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Very important."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Could you take charge of the Make-Up Work Club?"
+    },
+    {
+      "Text": "[s] \"Make-Up Work Club?\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Yes. To put it plainly, we want you to operate a special class meant to save failing students."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Trinity is an academic institution with a long history of intellectual and martial excellence."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "But somehow, this proud institution has no fewer than four failing students."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Yup. We've got a lot on our plate right now."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Things are pretty disorganized due to the Eden Treaty."
+    },
+    {
+      "Name": "Mika",
+      "Text": "We need to deal with these failing students pronto, but we're short on manpower and time..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "That's when we read this! An article about all the amazing things Schale has been doing!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Finding cats, cleaning streets, delivering packages—Schale may just be the greatest errand runners Kivotos has ever seen!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "To think there was someone we could stick with all our most tedious work, right under our noses! You're our savior!"
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I wouldn't go quite that far, Mika..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Why not? That's what we're doing, isn't it?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Besides, you're a teacher, Sensei."
+    },
+    {
+      "Name": "Mika",
+      "Text": "These days, lectures are held on Blu-ray discs. While we still have faculty members, administration, guest lecturers, and associate professors,\na regular old teacher is pretty rare."
+    },
+    {
+      "Name": "Mika",
+      "Text": "A teacher is someone who uses their own knowledge to guide others, right?\nIn other words, a leader."
+    },
+    {
+      "Name": "Mika",
+      "Text": "In that sense, a teacher is also someone who commands respect and gives others direction in life. That sounds perfect for the Make-Up Work Club."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Yes, but I've heard Sensei here isn't quite someone I'd consult with about my direction in life..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Haha. I feel you. We've heard a lot of stories about you. I'll save you the embarrassment of repeating what we've heard."
+    },
+    {
+      "Text": "[s1] \"(What kind of reports are they getting?!)\""
+    },
+    {
+      "Text": "[s2] \"(I don't even want to know...)\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Anyway! We're in a bit of jam, so you taking care of this would be great!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "Anyway! We're in a bit of jam, so you taking care of this would be great!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "The Make-Up Work Club is simply an interim arrangement, established to give failing students the help they need."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Given it's being formed under these special circumstances, Schale's extrajudicial authority will be necessary to have it established."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "It's a necessary expenditure if it's to help failing students."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "What do you say, Sensei? Surely you wouldn't turn away students in need..."
+    },
+    {
+      "Text": "[s] \"I won't refuse if it means helping students who need me.\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Yes, we did it! Thank you, Sensei!"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Very well. I didn't necessarily expect you to decline our request, but..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Never mind. Then please, take a look at this document."
+    },
+    {
+      "Text": "[ns] Take the list."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "These are the students."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Yup. Each one a thorn in Trinity's side, so to speak."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You could put it more tactfully than that, Mika. We'll put it this way: These are the students in need of Trinity's love."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Sure, whatever."
+    },
+    {
+      "Text": "[ns] \"(Wait a minute...!)\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hmm? Do you recognize any of the students, Sensei?"
+    },
+    {
+      "Text": "[s3] \"Well, not exactly...\""
+    },
+    {
+      "Text": "[s4] Answer vaguely."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "We'll send you some documents with all the details. Do you have any other questions?"
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "We'll send you some documents with all the details. Do you have any other questions?"
+    },
+    {
+      "Text": "[s] \"What's the Eden Treaty?\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Hmm... That's a toughie."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "It is quite a long story, so we'll set aside some time for that at a later date. The information is classified after all."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Regardless, it doesn't concern your work with the Make-Up Work Club."
+    },
+    {
+      "Text": "[s] \"Shouldn't the Tea Party have three Student Council presidents?\""
+    },
+    {
+      "Name": "Mika",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Well, yes, but..."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Seia isn't at Trinity right now. She's taken ill."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Correct. Seia is supposed to be the one hosting this party, but...since she's absent, I'm hosting in her place."
+    },
+    {
+      "Name": "Mika",
+      "Text": "We all take turns acting as the Tea Party's host. Though that also isn't any of your concern."
+    },
+    {
+      "Text": "[s] \"I guess that's it then...\""
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Splendid."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "You can officially work for Trinity once preparations are complete."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "Once again, we appreciate your assistance. This will be a great help to us."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Bye, Sensei! See you next time. Hopefully."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "It's actually unusual for every Tea Party host to be gathered in one place. "
+    },
+    {
+      "Name": "Mika",
+      "Text": "Oh, don't act like we're always busy. Still, this meeting with Sensei is the first time I've seen your face in a while. It's nice."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I feel the same way, Mika."
+    },
+    {
+      "Name": "Mika",
+      "Text": "Heehee."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "We'll be counting on you, Sensei. I will be escorting you from this point forward as the host of the Tea Party."
+    },
+    {
+      "Text": "[s] \"I'll be in your care.\""
+    },
+    {
+      "Text": "(I decided to see a student whose name I recognized on the list for the Make-Up Work Club.)"
+    },
+    {
+      "Text": "[ns] \"It really is you!\""
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "A-Ahaha... Hi, Sensei."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "I can explain everything."
+    },
+    {
+      "Name": "Hifumi",
+      "Text": "Well..."
+    },
+    {
+      "Text": "Next Episode;Failing Students Part 1"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;สภาน้ำชา"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เห~ มีตำแหน่งคุณครูด้วยเหรอเนี่ย แต่ดูไม่ต่างจากพวกเราเลยนะ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฉันว่ามองจากมุมนี้แล้วดูดีนะ! นางิจังล่ะคิดว่าไง?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะ... ถามอะไรแบบนี้ต่อหน้าคุณครูได้ยังไงคะ? แบบนี้มันเสียมารยาทนะคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "การมีหัวใจที่เต็มเปี่ยมไปด้วยความรักมันก็ดีอยู่หรอก แต่ต้องดูกาลเทศะด้วยสิคะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อ่า... ยะ... อย่างนั้นเหรอ?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ขอโทษนะคุณครู ฉันอาจจะดูเป็นกันเองมากเกินไป... แต่ยังไงก็ฝากตัวด้วยนะ!"
+    },
+    {
+      "Text": "[s] \"ขอฝากตัวด้วย\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮุฮุ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "...... เท่าที่ฉันจำได้ นี่คือครั้งแรกเลยที่สภาน้ำชาเชิญคนอื่นนอกจากทรีนิตี้เข้ามา"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ปกตินักเรียนทั่วไปก็ถือว่ายากที่จะได้รับเชิญนะคะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจังนี่ล่ะก็! ทะนงตัวมาก!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันไม่ได้จะทะนงตัวสักหน่อย... เฮ้อ คุณมิกะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ก็ได้... โทษทีแล้วกัน แล้วฉันจะอยู่เฉยๆ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ที่เราเชิญคุณครูมาที่นี่เพราะต้องการขอความช่วยเหลืออะไรนิดหน่อยค่ะ"
+    },
+    {
+      "Text": "[s] \"ขอความช่วยเหลือ?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เดี๋ยวสินางิจัง จะเข้าประเด็นเลยเหรอ?!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอ่อ.. เราควรจะ... คุยกันเรื่องทั่วไปเพื่อทำความรู้จักกันก่อนสิ ใช่แล้ว! ไอซ์เบรกกิ้งไง!\nเราจะได้ไม่เกร็งกันมาก..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เช่นวันนี้อากาศดีจัง เมื่อวานกินอะไรมาเหรอ? ชวนคุยอะไรแบบนี้ไง?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ก็สภาน้ำชาคือการรวมตัวเพื่อเข้าสังคมนี่นา..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ถึงจะจ้องกันด้วยสายตาที่เป็นประกายแบบนั้นก็เถอะ แต่นี่ก็คือมารยาทของสภาน้ำชานะ\nต้องทำให้ถูกต้องสิ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เรื่องแบบนั้นเอาไว้ทำตอนที่คุณมิกะเป็นโฮสต์นะคะ ครั้งนี้ฉันเป็นโฮสต์\nกรุณาทำตามวิธีของฉันด้วยค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่เชิญแขกมาร่วมประชุมทั้งที เราก็ไม่ควรจะให้แขกได้เห็นภาพการต่อเถียงอะไรแบบนี้..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ก็ได้ค่ะ... ฉันจะลองพูดอ้อมๆ ตามที่คุณมิกะเสนอ"
+    },
+    {
+      "Text": "[s] \"พวกเธอคือประธานสภานักเรียนของทรีนิตี้ใช่ไหม?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ว้าว คุณครูเปลี่ยนบรรยากาศได้ดีเลย! ดูแบบนี้ไว้นะนางิจัง นี่แหละ นี่แหละวาทศิลป์ของผู้ใหญ่!\nความเชี่ยวชาญในการจูงใจเข้าบทสนทนาอย่างเป็นธรรมชาติ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ... ถูกต้องแล้วค่ะ พวกเราคือประธานสภานักเรียนของโรงเรียนสามัญทรีนิตี้ค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณครูอาจสงสัยว่าทำไมถึงเป็นประธานสภานักเรียนกันหมด... นั่นเพราะว่าโดยพื้นฐานแล้ว\nประธานสภานักเรียนของทรีนิตี้จะมีหลายคนค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เดี๋ยวนะ... นางิจัง? นี่เมินฉันเหรอ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ในอดีตก่อนที่ทรีนิตี้จะรวมกันเป็นหนึ่ง เหล่าตัวแทนของโรงเรียนแต่ละกลุ่มได้จัดตั้งสภาน้ำชาขึ้นมา\nเพื่อแก้ไขการขัดแย้ง และประวัติศาสตร์ก็เริ่มมาตั้งแต่ตรงนี้..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอาอย่างนี้จริงเหรอ? ทำเกินไปแล้ว... แบบนี้ฉันเสียใจนะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ตัวแทนจากโรงเรียนปาเตอร์ ฟีเลียส และซางตุสได้จัดตั้งสภาน้ำชาขึ้นเพื่อสร้างบรรยากาศ\nของการคืนดีกัน..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นางิจัง... เธอจะเมินฉันง่ายๆ แบบนี้เลยเหรอ หืม? กวนประสาทชะมัด\nเพื่อนตั้งแต่สมัยเด็กที่รู้จักกันมากกว่าสิบปี... ทำกันแบบนี้เหรอ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "และหลังจากนั้นสภานักเรียนของทรีนิตี้ก็ใช้ชื่อว่าสภาน้ำชา และจะมีโฮสต์จากแต่ละกลุ่มโรงเรียน..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "หนวกหูนะคะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เอาแต่ขัดตั้งแต่เมื่อกี้แล้ว! หนวกหูแล้วก็เสียสมาธิด้วยค่ะ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณมิกะ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "พึมพำอะไรคะ!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าไม่หุบปากเล็กๆ นั่นละก็"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "จะเอาแยมโรลยัดปากเลยนะคะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Text": "[s] \".......\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ขะ... ขออภัยค่ะ ฉันพูดอะไร... ออกไปเนี่ย..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แหะ.... แหะๆ ขอโทษด้วยค่ะ ทั้งคุณมิกะ... และคุณครูด้วย"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "นะ... น่ากลัวชะมัดเลย..."
+    },
+    {
+      "Text": "[s] (เมื่อไหร่จะได้เข้าประเด็นนะ...)"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "...เรื่องที่พวกเราอยากขอความช่วยเหลือจากคุณครู เป็นเรื่องง่ายๆ ค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม แต่ก็เป็นเรื่องที่สำคัญด้วย"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "และเป็นเรื่องที่สำคัญด้วยค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณครูช่วยดูแลชมรมชั้นเรียนเสริมให้หน่อยได้ไหมคะ?"
+    },
+    {
+      "Text": "[s] \"ชมรมชั้นเรียนเสริม?\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ใช่ค่ะ ถ้าให้สรุปก็คือ พวกเราอยากขอให้คุณครูมาดูแลชั้นเรียนพิเศษ\nของพวกนักเรียนที่สอบไม่ผ่านค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "สถาบันทรีนิตี้ของพวกเราเป็นโรงเรียนที่เป็นเลิศทั้งด้านอักษรศาสตร์และวิชาทางทหาร\nเราสืบทอดประวัติศาสตร์และประเพณีของคิโวทอสมาตั้งแต่สมัยโบราณ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "แต่ก็ไม่รู้ว่าเป็นเพราะอะไร เราถึงมีนักเรียนที่สอบตกมากถึง 4 คนในสถานการณ์แบบนี้..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม ถ้าเปรียบเป็นประเทศ ตอนนี้ถือว่าเราอยู่ในช่วงเวลาที่เลวร้ายที่สุดของประเทศเลยล่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เพราะสนธิสัญญาเอเดนทำให้เกิดความวุ่นวายหลายอย่าง"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ยิ่งในสถานการณ์นี้ เรายิ่งต้องรีบดูแลพวกนักเรียนที่สอบตก แต่เราก็ขาดแคลนทั้งบุคลากร\nและเรื่องเวลา..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "และตอนนั้นเองพวกเราก็ได้เห็นสิ่งนี้! ข่าวรางวัลบุคคลดีเด่นแห่งชาเล่ต์ที่ลงในหนังสือพิมพ์!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "สุดยอดบุคคลดีเด่นที่ช่วยงานสารพัด ทั้งตามหาน้องแมว ทำความสะอาด หรือแม้แต่ส่งพัสดุ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "พวกเราก็เลยคิดว่า นี่แหละ! เราฝากภาระนี้ไว้ให้คุณครูดีกว่า!"
+    },
+    {
+      "Text": "[s] \".......\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นี่มันไม่ใช่... การฝากภาระนะคะคุณมิกะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะ... อ้าวเหรอ? แต่มันก็ดูเป็นภาระอยู่นะ..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อีกอย่าง นี่คือคุณครูนี่นา..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "สมัยนี้ทุกคนต่างก็เรียนผ่าน BD กันหมด ถึงเราจะมีบุคลากรของโรงเรียน ศาสตราจารย์\nหรือวิทยากรมากก็จริง แต่ <คุณครู> ก็ไม่ค่อยเห็นมีเท่าไหร่"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม... ครูคือคนที่มีความรู้มากกว่า คอยให้คำแนะนำและเข้าถึงทุกคนใช่ไหม?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "และก็ยังเป็นคนที่เป็นมาตรฐานของการใช้ชีวิตและให้ความเคารพ จึงเหมาะมากที่จะมาดูแล\nชมรมชั้นเรียนเสริม!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "และตามข่าวลือที่ฉันได้ยินมา..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อะฮ่ะฮ่า ฉันก็ยอมรับนะว่าจากรายงานมากมายหลายฉบับที่เข้ามาแล้ว... อืม... ขอไม่พูดดีกว่า\nถือว่าช่วยรักษาเกียรติของคุณครูไว้แล้วกัน"
+    },
+    {
+      "Text": "[s1] (รายงานอะไรน่ะ...?!)"
+    },
+    {
+      "Text": "[s2] (ไม่ถามน่าจะดีกว่า...)"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอาเถอะ! เอาเป็นว่าฉันอยากให้คุณครูมาดูแลนักเรียนพวกนี้หน่อย\nโดยเฉพาะอย่างยิ่งในสถานการณ์ยุ่งยากเหมือนตอนนี้!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เอาเถอะ! เอาเป็นว่าฉันอยากให้คุณครูมาดูแลนักเรียนพวกนี้หน่อย\nโดยเฉพาะอย่างยิ่งในสถานการณ์ยุ่งยากเหมือนตอนนี้!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าจะให้อธิบายเพิ่มเติม ชมรมชั้นเรียนเสริมนี้ไม่ได้มีมาตั้งแต่แรก แต่เราจัดตั้งขึ้นเป็นกรณีพิเศษ\nเพื่อให้นักเรียนที่ต้องการความช่วยเหลือมาเข้าชมรม"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "และเนื่องจากถูกตั้งขึ้นด้วยข้อจำกัดพิเศษ ก็เลยขอยืมสิทธินอกเหนือจากขอบเขตของชาเล่ต์มาใช้"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถึงจะมีเรื่องซับซ้อนหลายอย่าง แต่จุดประสงค์ก็คือการช่วยเหลือนักเรียนที่สอบไม่ผ่าน\nชมรมนี้เลยได้รับอนุญาตให้จัดตั้งขึ้นค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คุณครูคิดว่ายังไงคะ? หวังว่าจะไม่เมินเฉยต่อนักเรียนที่ต้องการความช่วยเหลือนะคะ..."
+    },
+    {
+      "Text": "[s] \"ถ้ามีใครที่ต้องการความช่วยเหลือ ครูก็จะไม่ปฏิเสธ\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": ".......! ทำได้แล้ว! ขอบคุณนะคุณครู!"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เป็นอันตกลงสินะคะ ฉันก็เดาไว้แล้วว่าคุณครูคงไม่ปฏิเสธ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เข้าใจแล้วค่ะ งั้นช่วยรับเอกสารนี้ไปนะคะ"
+    },
+    {
+      "Text": "[ns] รับใบรายชื่อนักเรียนในชมรม"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "นักเรียนพวกนี้แหละค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อื้ม หรือเรียกง่ายๆ ว่าตัวปัญหาของทรีนิตี้"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เรียกแบบนั้นไม่เป็นการเอ็นดูเลยนะคะ เรียกว่านักเรียนที่ต้องการความรักของทรีนิตี้ดีกว่า"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม ยังไงก็ได้"
+    },
+    {
+      "Text": "[ns] (เด็กคนนี้.....!)"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "หืม? มีนักเรียนที่รู้จักด้วยเหรอคุณครู?"
+    },
+    {
+      "Text": "[s3] \"เปล่าหรอก...\""
+    },
+    {
+      "Text": "[s4] (อ้อมแอ้ม)"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันจะส่งรายละเอียดให้เป็นเอกสารนะคะ มีข้อสงสัยตรงไหนอีกไหมคะ?"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ฉันจะส่งรายละเอียดให้เป็นเอกสารนะคะ มีข้อสงสัยตรงไหนอีกไหมคะ?"
+    },
+    {
+      "Text": "[s] \"สนธิสัญญาเอเดนคืออะไรเหรอ?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "......."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อืม... อธิบายยังไงดีนะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้าจะให้อธิบายคงต้องใช้เวลานาน ไว้คราวหลังฉันจะหาเวลามาอธิบายนะคะ\nตอนนี้ยังเป็นความลับสุดยอดของภายในน่ะค่ะ..."
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "อีกอย่าง.. มันก็ไม่ได้เกี่ยวข้องกับงานของชมรมชั้นเรียนเสริมมากเท่าไหร่..."
+    },
+    {
+      "Text": "[s] \"ประธานสภานักเรียนของสภาน้ำชามี 3 คนไม่ใช่เหรอ?\""
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "เรื่องนั้นมัน..."
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ตอนนี้เซอาไม่ได้อยู่ที่ทรีนิตี้ เธอกำลังต่อสู้กับโรคอยู่น่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ใช่ค่ะ ที่จริงแล้วโฮสต์ในครั้งนี้ต้องเป็นคุณเซอา... แต่ในเมื่อไม่อยู่ ฉันก็เลยมาเป็นโฮสต์แทนอยู่ค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ปกติแล้วโฮสต์ของสภาน้ำชาจะวนกันไปเรื่อยๆ น่ะ แต่นี่ก็ไม่ใช่เรื่องใหญ่อะไรหรอก"
+    },
+    {
+      "Text": "[s] \"ขอให้หายไวๆ แล้วกัน...\""
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้างั้นสรุปว่า ถ้าเตรียมการทุกอย่างเสร็จ คุณครูก็จะมาที่สถาบันทรีนิตี้นะคะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ขอบคุณอีกครั้งสำหรับความร่วมมือค่ะ ทีนี้ฉันก็โล่งใจแล้วล่ะค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "กลับดีๆ นะคุณครู~ ไม่รู้เราจะมีธุระที่ได้เจอกันอีกรึเปล่า แต่ก็เอาไว้เจอกันใหม่นะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ไม่ใช่เรื่องง่ายเลยค่ะที่โฮสต์ของสภาน้ำชาจะมารวมกันได้"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แกล้งทำเป็นยุ่งเหรอ? แต่ก็ถือว่าดีนะที่ได้เจอนางิจัง นี่เป็นเพราะคุณครูแท้ๆ เลยนะ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ค่ะ ฉันก็เห็นด้วยค่ะคุณมิกะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ฮุฮุฮุ"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "ถ้างั้นก็ฝากด้วยนะคะคุณครู ฉันจะเป็นโฮสต์ในครั้งถัดไป แล้วจะเชิญคุณครูมานะคะ"
+    },
+    {
+      "Text": "[s] \"ฝากตัวด้วยนะ\""
+    },
+    {
+      "Text": "(ไปหานักเรียนที่มีชื่อคุ้นๆ ในชมรมชั้นเรียนเสริม)"
+    },
+    {
+      "Text": "[ns] \"เธอจริงๆ ด้วย!\""
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อ่า... แหะๆ... สวัสดีค่ะคุณครู"
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "อ่า... แบบว่า... ฉันมีเหตุผลที่หลีกเลี่ยงไม่ได้... ก็เลย..."
+    },
+    {
+      "Name": "ฮิฟุมิ",
+      "Text": "แหะๆ ...."
+    },
+    {
+      "Text": "ตอนต่อไป;นักเรียนที่สอบตก 1"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;茶會"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嘿～這就是傳聞中的老師啊。感覺跟我們沒什麼差別耶？ "
+    },
+    {
+      "Name": "彌香",
+      "Text": "原來如此，哼嗯……嗯，我覺得很不錯！！渚醬覺得呢？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……彌香同學，對初次見面的人說那種話不太符合禮儀唷。 "
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然充滿愛是件好事，不過還是選擇一下時機和場合吧。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……是，是嗎？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "抱歉，老師。\n我好像有點太隨興了……不過還是請你多多指教！"
+    },
+    {
+      "Text": "[s]「請多指教。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……呵呵。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……在我的印象中，老師您是第一個被茶會招待的三一外部人士。"
+    },
+    {
+      "Name": "渚",
+      "Text": "平時就連三一的一般學生也很難被招待至此……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗚哇～那種說法！渚醬好下流！！"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "我並沒有那個意思……唉，彌香同學？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊……抱歉，我會安分一點的。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "之所以勞煩老師過來，是想拜託您一件小事。"
+    },
+    {
+      "Text": "[s]「一件小事？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哦哦！渚醬怎麼突然就進入正題！？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不需要再進行一點……破冰活動之類的嗎？或是來點消除尷尬的閒聊？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "像是「天氣真好呀～」、「昨天吃了什麼呢～」之類的。\n不聊點這種話題嗎？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "你想想，茶會基本上不就是社交的場合嗎？"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "就算你用那雙漂亮的眼睛瞪我也沒用。\n這是關乎茶會態度的問題，要確實做到才行！"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學，那種事請等到你當主席的時候再追求吧。\n現在姑且是我擔任主席，請你尊重我的做法。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "不過在客人面前展開這樣的爭論，確實也不是我所樂見的。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……我明白了。\n就按照彌香同學所說，稍微換個話題吧。"
+    },
+    {
+      "Text": "[s]「你們就是三一的學生會長對吧？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哦哦，老師看懂氣氛了！渚醬看到了嗎！？\n這就是大人的話術唷！自然而然地引導對話！"
+    },
+    {
+      "Name": "渚",
+      "Text": "……是。您說得沒錯，我們正是三一綜合學園的學生會長[ruby=．]們[/ruby]。"
+    },
+    {
+      "Name": "渚",
+      "Text": "您可能會對「學生會長[ruby=．]們[/ruby]」這個說法感到疑惑……\n不過基本上，三一的學生會長一直都是由多人同時擔任。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "咦……渚醬……？無視我？"
+    },
+    {
+      "Name": "渚",
+      "Text": "在「三一綜合學園」誕生前，\n各派系的代表們為解決紛爭而舉辦的「茶會」開始了這段歷史……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "真的無視？糟糕……好像讓我有點受傷……"
+    },
+    {
+      "Name": "渚",
+      "Text": "聖父、聖子、聖靈──三所學園的代表舉辦茶會，孕育了和解的氛圍。\n在那之後……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "渚醬……真的無視我耶……這完全是在欺負人吧……\n不覺得有點過分嗎？居然這樣對待認識10年以上的青梅竹馬……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……在那之後，三一的學生會便被稱為「茶會」。\n由各派系的代表們輪流擔任「主席」──"
+    },
+    {
+      "Name": "渚",
+      "Text": "吵夠了沒！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "彌香同學！"
+    },
+    {
+      "Name": "渚",
+      "Text": "你到底要吵到什麼時候！"
+    },
+    {
+      "Name": "渚",
+      "Text": "一直嘰嘰喳喳地說個不停！煩死人了！"
+    },
+    {
+      "Name": "渚",
+      "Text": "如果你實在無法閉上那張小嘴……"
+    },
+    {
+      "Name": "渚",
+      "Text": "我就用蛋糕捲塞滿你的嘴巴哦！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "我，我真是的，怎麼這樣說話……"
+    },
+    {
+      "Name": "渚",
+      "Text": "唉……我在此向老師……還有彌香同學道歉。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "哎呀，好可怕好可怕…… "
+    },
+    {
+      "Text": "[s] （完全進不了正題呢……）"
+    },
+    {
+      "Name": "渚",
+      "Text": "……我們想拜託老師的是件簡單的事。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯。雖然簡單，不過很重要唷。"
+    },
+    {
+      "Name": "渚",
+      "Text": "沒錯，是件重要的事。"
+    },
+    {
+      "Name": "渚",
+      "Text": "──可以請老師擔任補課部的顧問嗎？"
+    },
+    {
+      "Text": "[s]「補課部？」"
+    },
+    {
+      "Name": "渚",
+      "Text": "是的。從結論來說，\n我們想請老師負責營運「為了拯救陷入留級危機的學生們」設立的特別班級。"
+    },
+    {
+      "Name": "渚",
+      "Text": "我們三一自古就是奇普托斯文武兼備，兼具歷史和傳統的學園。"
+    },
+    {
+      "Name": "渚",
+      "Text": "然而竟偏偏在這個時期，出現多達4位成績不良的學生……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯。在對外關係方面，我們現在可說是面臨了最艱難的時期……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "因為「伊甸園條約」的關係，四處都忙得一團亂。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "在這種情況下，那些孩子的事必須盡快解決，不過人手和時間實在不夠……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "但是就在這時！我們正好在新聞上看見了「夏萊」的活躍表現！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "從找貓咪、打掃街道到宅配工作，夏萊簡直是便利的萬事屋！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "既然如此，把麻煩的事交給夏萊準沒錯！"
+    },
+    {
+      "Text": "[s]「……」"
+    },
+    {
+      "Name": "渚",
+      "Text": "……怎麼能說是「麻煩的事」呢，彌香同學。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "是，是嗎……可是某部分來說也是事實……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "不過老師是「老師」對吧？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "現在是大家都用BD學習的時代，\n雖然學校的職員、講師、教授都還在，但「老師」這個概念已經很罕見了呢。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "師是傳授知識的人，而教又是傳授知識並解惑的重要手段，\n所以稱之為[ruby=老師]「教師」[/ruby]……也就是「指引道路之人」沒錯吧？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "從這個意義上來看，老師可以說是尊敬的對象，或者是能當作人生指標的人……\n作為「補課部」的顧問，我認為非常適合！"
+    },
+    {
+      "Name": "渚",
+      "Text": "雖然根據傳言，對於是否符合「尊敬」這個詞的意見似乎並不統一……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "啊哈哈，嗯，這點我也同意。\n根據各處傳來的報告書……為了老師的名譽著想，還是別說了吧。"
+    },
+    {
+      "Text": "[s1] （究竟是什麼樣的報告書……！？）"
+    },
+    {
+      "Text": "[s2] （好像還是別過問比較好……）"
+    },
+    {
+      "Name": "彌香",
+      "Text": "總之！因為現在處於特殊時期，希望老師務必能接管這些孩子！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "總之！因為現在處於特殊時期，希望老師務必能接管這些孩子！"
+    },
+    {
+      "Name": "渚",
+      "Text": "這個「補課部」並非常設性的社團，而是特別為需要救濟的學生而創立。"
+    },
+    {
+      "Name": "渚",
+      "Text": "由於形式相對特殊，希望能借用「夏萊」超越法規的權限……"
+    },
+    {
+      "Name": "渚",
+      "Text": "不過其本質終究還是為了「救濟成績不良的學生們」所採取的手段……"
+    },
+    {
+      "Name": "渚",
+      "Text": "您意下如何呢，老師？\n希望您務必能向陷入困境的學生伸出援手……"
+    },
+    {
+      "Text": "[s]「如果有孩子需要幫忙的話，我很樂意。」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "太好了！謝謝你，老師！"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "呵呵，雖然原本就認為您不會拒絕……"
+    },
+    {
+      "Name": "渚",
+      "Text": "非常感謝。那麼，請您收下這個。"
+    },
+    {
+      "Text": "[ns] 收下學生們的名冊"
+    },
+    {
+      "Name": "渚",
+      "Text": "那些學生們就是補課的對象。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯，換句話說就是三一的麻煩人物。"
+    },
+    {
+      "Name": "渚",
+      "Text": "那個形容實在有些缺乏愛……這麼說吧，他們是三一「需要愛的學生們」。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯，你開心就好。"
+    },
+    {
+      "Text": "[ns] （這，這孩子是……！）"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯？有你認識的孩子嗎，老師？"
+    },
+    {
+      "Text": "[s3] 「……不，沒什麼。」"
+    },
+    {
+      "Text": "[s4] 吹口哨"
+    },
+    {
+      "Name": "渚",
+      "Text": "詳細內容日後會再以書面形式告知。\n請問是否還有說明不夠清楚的地方呢？"
+    },
+    {
+      "Name": "渚",
+      "Text": "詳細內容日後會再以書面形式告知。\n請問是否還有說明不夠清楚的地方呢？"
+    },
+    {
+      "Text": "[s]「伊甸園條約是什麼？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "唔嗯……該怎麼說比較好呢……"
+    },
+    {
+      "Name": "渚",
+      "Text": "要說明這點會花上不少時間，日後會再向您說明的。\n這姑且也算是內部機密……"
+    },
+    {
+      "Name": "渚",
+      "Text": "和補課部的事也沒什麼關聯……"
+    },
+    {
+      "Text": "[s]「還有，茶會的學生會長不是應該有三個人嗎？」"
+    },
+    {
+      "Name": "彌香",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "這……"
+    },
+    {
+      "Name": "彌香",
+      "Text": "聖亞醬現在人不在三一。\n那孩子正在住院……"
+    },
+    {
+      "Name": "渚",
+      "Text": "是的。原本擔任現任主席的應該是那位聖亞同學……\n不過由於他缺席的關係，現在由我負責主席的職務。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "茶會的主席是輪流擔任的哦。\n雖然跟這件事沒什麼關係就是了。"
+    },
+    {
+      "Text": "[s]「嗯……現在想問的大概就是這些吧。」"
+    },
+    {
+      "Name": "渚",
+      "Text": "我明白了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "那麼在準備就緒之後，我們會以派遣的形式，邀請老師來到三一綜合學園。"
+    },
+    {
+      "Name": "渚",
+      "Text": "再次感謝老師的協助，這樣就能放心了。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "掰掰囉～老師。雖然不知道還會不會見面。"
+    },
+    {
+      "Name": "渚",
+      "Text": "也對，茶會的學生會長們要齊聚一堂，其實也不是件容易的事。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "是在裝忙嗎？\n不過也是多虧了老師才能久違地見到渚醬，真是太好了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "是，我也有同感，彌香同學。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "呵呵。"
+    },
+    {
+      "Name": "渚",
+      "Text": "那麼，今後就請您多多指教了，老師。\n我也會以茶會主席的身分引導老師。"
+    },
+    {
+      "Text": "[s]「嗯，請多指教。」"
+    },
+    {
+      "Text": "（首先決定先去和補課部的名冊上，有看過名字的學生見面……）"
+    },
+    {
+      "Text": "[ns]「果然是你！！」"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊，啊哈哈……你好，老師。"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊嗚嗚……那個，這是因為某些不得已的原因……"
+    },
+    {
+      "Name": "日步美",
+      "Text": "啊嗚……"
+    },
+    {
+      "Text": "下一話;補課部的學生們（１）"
+    }
+  ]
+}

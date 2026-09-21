@@ -1,0 +1,2437 @@
+{
+  "TitleJP": "邂逅",
+  "TitleKR": "대면",
+  "TitleEN": "Face-to-Face",
+  "TitleTH": "เผชิญหน้า",
+  "TitleTW": "邂逅",
+  "DescJP": "廃墟と化した自治区の跡地を通り、旧校舎へと向かう一行の前に、ベアトリーチェとユスティナ聖徒会が立ちはだかる。任務の真実を前に呆然とするスクワッドをよそに、ベアトリーチェは先生に対し、この世界の真実を知りたくはないかと言葉を続ける。知りたくば邪魔をするなと。先生はその提案を断り、一行は聖徒会と交戦するのだった。",
+  "DescKR": "구교사의 회랑에서 베아트리체와의 통신이 연결되고, 베아트리체는 자신이 아리우스 자치구 전체를 이용해 왔으며 아츠코를 희생시키면 자신들 '어른'에게 좋은 일이 있을 것이라고 선생님을 회유한다. 선생님은 베아트리체의 제안을 거절하고, 아리우스 스쿼드와 유스티나 성도회의 전투가 벌어진다. ",
+  "DescEN": "In a corridor of the Former Institute, Sensei's communications are intercepted by Beatrice. Beatrice tries to convince Sensei that her actions in the Arius District, along with Atsuko's sacrifice, were all to create a better world for adults and asks them to join her. Sensei rejects Beatrice's offer, and a battle between the Arius Squad and the Saint Justina Council ensues.",
+  "DescTH": "คุณครูได้ติดต่อกับเบียทริซในทางเดินของอาคารเรียนเก่า เบียทริซบอกว่า\nที่ผ่านมาตนได้ใช้งานเขตปกครองตนเองอาเรียสทั้งหมดและกล่อมคุณครูว่า\nหากสละชีพอาสึโกะให้ จะมีสิ่งดีๆ เกิดขึ้นกับ 'ผู้ใหญ่' ของพวกเธอ คุณครู\nปฏิเสธข้อเสนอของเบียทริซ การต่อสู้ระหว่างสควอดของอาเรียสกับสาวก\nยูสตาร์จึงเริ่มขึ้น ",
+  "DescTW": "在舊校舍的迴廊上和貝雅特里榭進行通訊時，貝雅特里榭表示自己一直在利用整個奧利斯自治區，只要讓敦子犧牲，「大人」就會有好事發生，藉此籠絡老師。老師拒絕貝雅特里榭的提議，於是奧利斯小隊和優斯提娜聖徒會便開戰了。",
+  "DialogJP": [
+    {
+      "Text": "第14話;邂逅"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……クリア。ここまでは安全。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "は、はい！大丈夫です！"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "おかしい……街が静かすぎる。\n元々人通りが少ない場所だが、ここまでではなかったはずだ。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "な、なんか……知らない物がいっぱい増えてます……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "そうだね……違和感は、私もさっきからすごくある。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "自治区から長く離れていたとはいえ、私の全く知らない街になってる。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "な、なんというか……よくよく思い出すと、以前から少しずつよく分からない物が増えていたような気がします。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "自治区のあちこちに設置された巡航ミサイルや……補給された謎の武器……。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "それに今考えてみると、あの[ruby=ミメシス]複製[/ruby]というのもすごく変じゃないですか。なのに、何も疑わずに受け入れてた気がします。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "いつからアリウスは、巡航ミサイルなんて物を……？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "それにいつの間に、あんな不思議な力を操れるようになったんだ……？"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "……「ヘイローを壊す爆弾」も。"
+    },
+    {
+      "Name": "アズサ",
+      "Text": "一体、いつから……。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "ちょっと待って……誰かいる。隠れて。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "あれは……。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "せ、聖徒会！？ユスティナ聖徒会ですよね？\nそれにあの姿は……。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……何故だ？\nエデン条約が取り消された以上、使役は不可能なはずだ。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……考えてみれば。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "そもそも、私たちがエデン条約の会場を襲撃した理由は、[ruby=ミメシス]複製[/ruby]能力を確保するためだった。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "そうですね……だから姫ちゃんは、古聖堂の地下であの「木の人形」の言う通りにしました……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "そうして確保した聖徒会の兵力で、トリニティとゲヘナ自治区を占領する……。\nそれが私たちの任務だった。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "その後「シャーレ」に敗北したけど。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "ああ……私たちが逃亡したのもそれが理由だ。\n[ruby=ミメシス]複製[/ruby]能力の確保も、両学園占領にも失敗してしまったからな。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "だというのに……。\nアリウス自治区は……「彼女」は、既に[ruby=ミメシス]複製[/ruby]の能力を確保している……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ウォォォォォォン――――"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "この音は……"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "エデン条約の時に「戦術兵器」として使ってた「アンブロジウス」の悲鳴だよ。……たしかにあの時、私たちが扱った[ruby=ミメシス]複製[/ruby]で合ってるみたいだね。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "ということは……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……[ruby=ミメシス]複製[/ruby]は、一度でも成功させればいいだけで……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "つまり、本来の私たちの任務は……\n『姫を古聖堂に連れて行って[ruby=ミメシス]複製[/ruby]を発動させる事』だけだった……？"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "じゃあ、トリニティとゲヘナの占領任務は……。 "
+    },
+    {
+      "Name": "サオリ",
+      "Text": "――彼女には、どうでもいい事だったのか……？"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "じゃあ、私たちの任務は……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "一体、何の意味があったのか。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "……包囲されています！？"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "チッ……罠か。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……私達がここに来るって分かってたんだ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ、もちろんです。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……マダム。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ここは私の支配下にある領地。\n皆さんの位置や目的地、その経路に至るまで全て把握しております。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あなた達が旧校舎の回廊に行こうとすることも最初から分かっていました。\n愚かな子どもたち――私に隠し事なんて、不可能ですよ。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "ひ、ひいぃ……さ、最初から……。"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "やっぱり、手のひらの上だったの……。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ、そういう事です。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あなた達の任務は最初から「ロイヤルブラッドを古聖堂に連れて行き、聖徒会を顕現させる事」……それだけです。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "[ruby=path]パス[/ruby]は一度接続さえすれば、次からは私が統制できるので。\nマエストロは自分の作品を奪われるようだと嫌がっていましたが。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "まあ、トリニティやゲヘナを占領するかどうかなんて、私にとっては[ruby=さまつ]些末[/ruby]なことです。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "この自治区が長年抱いていた憎悪を統制するための方便ですから。\n私自身は、あの学園に何の遺恨もありません。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そうですね。ですから、あなたは任務を遂行したと言えるでしょう。私に[ruby=ミメシス]複製[/ruby]の能力を提供しましたし――"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ロイヤルブラッドも素直に生贄として捧げてくれました。\nあなたは言い付けをよく聞くいい子ですね、サオリ。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……やはり、最初から約束を守るつもりなんてなかったのか……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "まあ、不毛な話はこの辺りで……私の興味は……そう。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "ぐ、うっ……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "はじめまして、[USERNAME]先生。"
+    },
+    {
+      "Text": "[s] \"…………！！\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私はベアトリーチェと申します。既にご存知かもしれませんが、「ゲマトリア」の一員です。通信ごしでの挨拶となる事をお許しください。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "黒服やマエストロ、ゴルコンダから、あなたについては色々とお話を聞いております。"
+    },
+    {
+      "Text": "[s] \"あなたが、アリウスを支配している……ベアトリーチェ？\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "はい。そして、ゲマトリアにおける現在唯一の成功者です。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ふふっ……私のことが気になりますか？\nどうやってアリウスを手中に入れたのか……必要ならば、あなたが知っている情報と交換する事もできますよ？"
+    },
+    {
+      "Text": "[s1] \"必要ない。\""
+    },
+    {
+      "Text": "[s2] \"あなたの手口は知っている。\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ほぉ、そうですか。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ほぉ、そうですか。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私の名誉のために言っておきますが、私は特殊な能力など使っていませんよ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "洗脳や超能力……くくくっ、そんな便利な力があれば良かったのですが。\n残念ながら、それは「大人」のやり方ではありませんので。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ。憎悪、怒り、[ruby=けいべつ]軽蔑[/ruby]、嫌悪――そういった負の感情を利用し、偽りと[ruby=ぎまん]欺瞞[/ruby]で子どもたちを支配してきました。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "単純ですが、確実な方法です。あなたならよく知っているでしょう？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……そもそもこの自治区は、私が来る前から内戦をしておりました。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "お互いに対する負の感情が、既に十二分に満ちていたのです。\n――私は、ただソレを活用しただけ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ここが特別というわけではありません。\nそんなもの、ありふれた光景じゃないですか？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そうですね……むしろ憎悪なら、ここよりもトリニティの方が強いかもしれません。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "私はただ、そういった様に動いてきました。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "生の[ruby=けんきょ]謙虚[/ruby]さを教える[ruby=きんげん]金言[/ruby]は、無価値な空虚へと[ruby=わいきょく]歪曲[/ruby]し……"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "[ruby=だらく]堕落[/ruby]を警戒する厳格な自責は、逃れられない罪悪感へと[ruby=わいきょく]歪曲[/ruby]し……"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "事実を[ruby=わいきょく]歪曲[/ruby]し、真実を[ruby=いんぺい]隠蔽[/ruby]し、本心を曲解し、嫌悪を助長し、憎悪を[ruby=あお]煽[/ruby]り、他人を、他人を、他人を、他人を――永遠に、お互いを、他人とさせること。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "楽園は永遠に届かないからこそ、楽園たり得る。その地獄の中で「大人」は「子供」を支配し[ruby=さくしゅ]搾取[/ruby]し、捕食します。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ――誰かにとっては地獄でしょうが、これこそ「大人」の安らかなる楽園。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ですから私の[ruby=捕食]これ[/ruby]も、理解していただけますよね？先生？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そして、ロイヤルブラッドをこのまま放っておいていただけませんか？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あの子は私が丹精込めて教えた生徒なのです。生贄として捧げれば、きっと私たち大人に素晴らしい[ruby=ふくいん]福音[/ruby]を与えてくれる。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "気になりませんか？私が何をしているのか、どんな偉業に到達するのか。\nええ――今ここで、教えて差し上げることもできます。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "いかがでしょう、先生？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "例えばこの世界――このキヴォトスがどんな場所なのか、知りたくはないですか？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "この世界は正体不明で――理解などが一切及ばない、神秘と恐怖が入り混じった崇高の転炉。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ……私は、この世界の真実を教えることもできます。\nいかがでしょう？この機会を逃したら、次は二度とないかもしれません。"
+    },
+    {
+      "Text": "[s] \"そこまでにして。\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ほぉ？"
+    },
+    {
+      "Text": "[s3] \"そんな事には興味ない。\""
+    },
+    {
+      "Text": "[s4] \"誰かの犠牲で到達できる真実なんて必要ない。\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……くくくっ。そうですか……やはり、こうなるのですね。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……くくくっ。そうですか……やはり、こうなるのですね。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "どうやら私たちは、お互いに違う真実を信じているようです。\nええ――あなたこそ私の敵対者で、間違いはありません。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ええ……理解しました。あなたの語る楽園は「エデン条約」だったのですね。\nみんなの友情で悪を退ける、単純で理解しやすい世界。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "くくくっ……どうして、子どもたちの考えはこんなに純粋で単純なのでしょう。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "楽園の名前をつけたからといって、変わることはありません。\nむしろ大人ならきちんと、このように真実を教えなければ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "「その楽園こそ、原罪が始まった場所だ」と……。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "真の楽園こそ憎悪、怒り、嫌悪、苦痛、悔恨――\nそういったもので溢れかえっているのだと。"
+    },
+    {
+      "Text": "[ns] \"ベアトリーチェ。\""
+    },
+    {
+      "Text": "[ns5] \"あなたは生徒を、私たちを侮辱した。\""
+    },
+    {
+      "Text": "[ns6] \"そして「教え」を、「学び」を侮辱した。\""
+    },
+    {
+      "Text": "[ns7] \"私は大人として、あなたを絶対に許すことはできない。\""
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "……それは、宣戦布告だと思っても？"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "いいでしょう、バシリカでお待ちしております。\n――もし到達できるのなら、ですが。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そこで決着をつけましょう。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "さあ、先生――不可解な者よ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "黒服はあなたを仲間と認識し、互いに競い合えると信じ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "マエストロはあなたを理解者と認識し、互いに高め合えると信じ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "ゴルコンダはあなたをメタファーと認識し、互いを通じて完成されると信じ。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "そして私はあなたを敵対者と認識し、互いに反発すると信じています。"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "あなたは、私の敵です。"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "（……）"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "（……）"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "（は、はい。じゅ、準備は……できました！）"
+    },
+    {
+      "Name": "ベアトリーチェ",
+      "Text": "始末してください。"
+    },
+    {
+      "Text": "[ns] \"行こう！スクワッド！\""
+    },
+    {
+      "Name": "サオリ",
+      "Text": "ああ！"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제14화;대면"
+    },
+    {
+      "Name": "미사키",
+      "Text": "……. 클리어. 여기까진 안전해."
+    },
+    {
+      "Name": "히요리",
+      "Text": "네, 네!"
+    },
+    {
+      "Name": "사오리",
+      "Text": "……이상하군. 거리가 너무 조용한데. 원래 인적이 드문 곳이었지만 이 정도까진 아니었는데."
+    },
+    {
+      "Name": "히요리",
+      "Text": "게다가…… 뭔가 처음 보는 물건들이 더 많이 생긴 느낌이에요……. "
+    },
+    {
+      "Name": "미사키",
+      "Text": "그래. 그 위화감은 나도 아까부터 느끼고 있었어."
+    },
+    {
+      "Name": "미사키",
+      "Text": "자치구를 오래 비우기는 했지만, 뭔가 내가 모르는 낯선 거리라는 느낌이 들고 있어."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……."
+    },
+    {
+      "Name": "히요리",
+      "Text": "뭐랄까…… 생각해보면 예전부터 저희가 잘 모르는 것들로 점점 더 많이 채워지고 있었던 것 같아요. "
+    },
+    {
+      "Name": "히요리",
+      "Text": "자치구 곳곳에 설치되기 시작한 순항 미사일이나…… 보급받기 시작한 무기들…… "
+    },
+    {
+      "Name": "히요리",
+      "Text": "게다가 지금 생각해보면 그 미메시스라는 것도 엄청 이상한 거잖아요? 그런 걸 별생각 없이 받아들이고 있었던 것 같아요."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "언제부터 아리우스가 순항 미사일을 가지고 있었던 거야……?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "언제부터 저런 불가사의한 힘을 다루게 된 거야……?"
+    },
+    {
+      "Name": "아즈사",
+      "Text": "그래…… 생각해보면…… <헤일로를 부수는 폭탄>이라는 것도……."
+    },
+    {
+      "Name": "아즈사",
+      "Text": "너희들은 대체……."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……."
+    },
+    {
+      "Name": "미사키",
+      "Text": "……잠깐. 앞에 누가 오고 있어. 숨어."
+    },
+    {
+      "Name": "사오리",
+      "Text": "저건……."
+    },
+    {
+      "Name": "히요리",
+      "Text": "서, 성도회?! 유스티나 성도회 맞죠? 게다가 저 모습은……."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……어째서? 에덴조약이 취소된 이상 불가능한 일이야."
+    },
+    {
+      "Name": "미사키",
+      "Text": "……. 생각해보면 그렇지."
+    },
+    {
+      "Name": "미사키",
+      "Text": "애초에 우리가 에덴조약 회담장을 습격한 이유가 바로 저 미메시스 능력을 확보하는 것이었어."
+    },
+    {
+      "Name": "히요리",
+      "Text": "맞아요…… 그래서 공주님은 고성당 지하에서 그 나무 인형이 시키는 대로 했었고요……."
+    },
+    {
+      "Name": "미사키",
+      "Text": "그렇게 확보한 성도회의 병력으로 트리니티와 게헨나 자치구를 점령한다…… 그게 우리들의 임무였어."
+    },
+    {
+      "Name": "미사키",
+      "Text": "그 뒤에 <샬레>에게 패배했지만."
+    },
+    {
+      "Name": "사오리",
+      "Text": "그래…… 우리가 도망자가 된 것도 그 이유야. 미메시스 능력의 확보도, 두 학원 점령에도 실패했으니까. "
+    },
+    {
+      "Name": "사오리",
+      "Text": "그런데…… 아리우스 자치구는…… <그녀>는 이미 미메시스 능력을 확보하고 있다……?"
+    },
+    {
+      "Name": "???",
+      "Text": "우오오오오오오오----------------------------"
+    },
+    {
+      "Name": "히요리",
+      "Text": "이 소리는……. "
+    },
+    {
+      "Name": "미사키",
+      "Text": "에덴조약 때 <전술 병기>로 썼던 그 <암브로시우스>의 비명이야. ……확실히 그때 우리가 다루었던 미메시스가 맞는 것 같네."
+    },
+    {
+      "Name": "사오리",
+      "Text": "그렇다는 건…… "
+    },
+    {
+      "Name": "미사키",
+      "Text": "……어쩌면, 미메시스라는 건 단 한 번이라도 성공시키면 되는 것이고……,"
+    },
+    {
+      "Name": "미사키",
+      "Text": "애초에 우리의 진짜 임무는 공주님을 고성당에 데려가 미메시스를 발동시키는 것뿐이었다……?"
+    },
+    {
+      "Name": "미사키",
+      "Text": "그렇다면 그 뒤의 게헨나와 트리니티 점령 임무는……. "
+    },
+    {
+      "Name": "사오리",
+      "Text": "그건…… 그건…… 그녀에게는 아무래도 상관없는 일이었던 건가……?"
+    },
+    {
+      "Name": "히요리",
+      "Text": "……."
+    },
+    {
+      "Name": "사오리",
+      "Text": "그럼 우리들의 임무라는 건 대체……."
+    },
+    {
+      "Name": "???",
+      "Text": "무슨 의미가 있었냐고요?"
+    },
+    {
+      "Name": "히요리",
+      "Text": "……포위당했어요?! "
+    },
+    {
+      "Name": "사오리",
+      "Text": "어느새……."
+    },
+    {
+      "Name": "미사키",
+      "Text": "함정…… 이미 우리가 여기로 올 거라는 걸 알고 있었던 건가……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "물론이죠. "
+    },
+    {
+      "Name": "사오리",
+      "Text": "……마담."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "여기는 제 지배 아래 있는 영지. 여러분들의 위치나 목적지 정도는 다 알고 있어요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "너희들이 구교사의 회랑으로 가려는 것도 처음부터 알고 있었죠. 제가 모르는 것은 없답니다. 아이들이여."
+    },
+    {
+      "Name": "히요리",
+      "Text": "……히, 히이익. 처, 처음부터……."
+    },
+    {
+      "Name": "미사키",
+      "Text": "역시 손바닥 위였나……."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네, 사오리. 그런 거죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "너희의 임무는 처음부터 로열블러드를 고성당에 데려가서 성도회를 현현시키는 것까지였어요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그 [ruby=path]패스[/ruby]는 한 번 연결되기만 하면 다음부턴 제가 통제할 수 있거든요. 마에스트로는 자신의 것을 뺏기는 것 같다고 싫어했지만."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "뭐, 트리니티나 게헨나를 점령하는 건 저에겐 아무래도 상관없는 일이에요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "애초에 그건 이 자치구가 오랫동안 품고 있던 증오를 통제하기 위함이고, 저는 그 학원들에 아무런 유감도 없거든요."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……!!"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그러네요. 그런 의미에서 너는 임무를 잘 수행했다고 볼 수 있겠죠. 저에게 미메시스의 능력을 제공했고, "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "로열블러드도 순순히 제물로 가져다 바쳤네요. 역시 참 말을 잘 듣는 착한 아이에요. 사오리."
+    },
+    {
+      "Name": "사오리",
+      "Text": "……역시, 처음부터 당신은 약속을 지킬 생각이 없었던 거군……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "뭐, 시시한 이야기는 이쯤하고…… 제 관심은…… 그래. "
+    },
+    {
+      "Name": "사오리",
+      "Text": "크, 크윽……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "처음 뵙겠습니다. [USERNAME] 선생님. "
+    },
+    {
+      "Text": "[s] \"…………!!\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "저는 베아트리체라고 합니다. 이미 알고 계실지도 모르겠지만, 그 <게마트리아>의 일원이죠. 이렇게 통신으로 인사드리는 걸 용서해주시길."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "검은 양복과 마에스트로, 골콩트를 통해 당신에 대한 많은 이야기를 들었습니다. "
+    },
+    {
+      "Text": "[s] \"네가 아리우스를 지배하고 있는…… 베아트리체?\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네. 게마트리아에서 오직 저만이 성공했죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "방법이 궁금하신가요? 필요하다면 당신이 알고 있는 정보와 교환하는 것도 가능한데 말이죠."
+    },
+    {
+      "Text": "[s1] \"필요 없어.\""
+    },
+    {
+      "Text": "[s2] \"대충 알고 있어. 너의 수법은.\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "흠? 그렇군요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "흠? 그렇군요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "제 명예를 위해 말해두겠지만, 제가 무언가 신비한 능력을 사용하거나 한 건 아니에요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "세뇌나 초능력 같은 거……? 크큭큭. 그런 편리한 능력이 있었으면 좋겠지만. 아쉽게도 그런 건 <어른>의 방법이 아니죠. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네. 증오와 경멸, 분노, 혐오…… 그런 것들을 이용해 거짓과 기만으로 사람들을 지배해왔어요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "단순하지만 전통 있는 확실한 방법이죠. 당신이라면 잘 알고 있겠지만."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……애초에 이 자치구는 제가 오기 전부터 자기들끼리 내전을 벌이고 있었어요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "서로에 대한 증오가, 경멸이, 혐오가 이미 충분히 가득했죠. 저는 그것을 그저 활용했을 뿐."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "뭐, 그렇다고 여기가 특별하다는 말은 아니에요. 그런 건 어딜 가나 볼 수 있는 흔해 빠진 광경이잖아요?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그래, 증오하는 마음이라면…… 오히려 그 트리니티가 여기보다 더 강할지도요?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "네, 저는 그런 식으로 움직이고 있어요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "생의 겸허함을 가르치는 금언은 허무뿐인 공허로 왜곡하고,"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "타락을 경계하는 엄격한 성찰은 벗어날 수 없는 죄책감으로 왜곡하고,"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "사실을 왜곡하고, 진실을 은폐하고, 진심을 곡해하고, 혐오를 조장하고, 증오를 부추기고, 타인을, 타인을, 타인을, 타인을, 영원히 서로 타인이게 두는 것."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "낙원은 영원히 닿지 않기에 낙원인 것. 그 지옥도 속에서 <어른>은 <아이>를 지배하고 착취하고 포식합니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "누군가에겐 지옥이겠지만 이것이야말로 <어른>의 안락한 낙원. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그러니까, 저의 [ruby=.]포[/ruby][ruby=.]식[/ruby][wa:1000]을 이해해주시겠어요? 선생님?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그 로열블러드를 이대로 내버려 두지 않겠어요?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그 아이는 제가 공을 들여 가르친 아이랍니다. 이 아이를 제물로 희생시키면, 분명 우리 어른들에게 좋은 일이 생기게 될 거예요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "궁금하지 않나요? 제가 그 아이로 무슨 일을 하고 있는지? 어떤 위업에 도달할지? 궁금하다면 지금 여기서 알려드릴 수도 있습니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그런 것엔 관심이 없으신가요? 선생님은?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "가령…… 이 세계……, 이 키보토스라는 곳이 어떤 곳인지 알고 싶지 않으신가요?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "이 세계는 그야말로 정체불명. 그 어떤 것도 이해 불가능한 신비와 공포가 뒤섞인 숭고의 전로(轉爐)."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "저라면 이 세계의 진실을 알려드릴 수도 있습니다. 어떤가요? 이 기회를 놓친다면 두 번 다시 다음 기회는 없을지도 몰라요."
+    },
+    {
+      "Text": "[s] \"거기까지 해.\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "흐음?"
+    },
+    {
+      "Text": "[s3] \"그런 건 관심 없어.\""
+    },
+    {
+      "Text": "[s4] \"누군가를 희생해서 도달할 수 있는 진실 같은 건 필요 없어.\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……크큭큭. 역시나 그렇군요. 역시 이런 결말이네요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……크큭큭. 역시나 그렇군요. 역시 이런 결말이네요. "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "아무래도 우리는 서로 다른 진실을 믿고 있는 듯해요. 당신이야말로 저의 대적자가 분명하군요."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그래…… 요컨대 <에덴조약>이었던가요, 당신이 기대는 그 낙원이? 모두의 우정으로 악을 물리치는 단순하고 이해하기 쉬운 세계?"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "크크큭……. 정말이지 아이들의 생각이란 왜 이리 순진하고 단순한 건지."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "낙원의 이름을 아무 데나 갖다 붙인다고 달라지는 건 없어요. 오히려 어른이라면 이렇게 진실을 가르쳐 줘야겠죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "<그 낙원이야말로 최초의 죄가 시작된 곳이다>, 라고……."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "진짜 낙원이야말로 증오, 분노, 혐오, 고통, 후회, 자책, 자해…… 그런 것들로 가득 차 있는 거라고."
+    },
+    {
+      "Text": "[ns] \"베아트리체.\""
+    },
+    {
+      "Text": "[ns5] \"너는 선생을, 학생을, 우리를 모욕했어.\""
+    },
+    {
+      "Text": "[ns6] \"너는 가르친다는 것을 모욕했고, 배운다는 것을 모욕했어.\""
+    },
+    {
+      "Text": "[ns7] \"나는 어른으로서 너를 절대로 용서할 수 없어.\""
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "……그건 선전포고라고 생각해도 되겠죠? "
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "좋습니다. 바실리카에서 기다리고 있겠습니다. 여기까지 도달할 수 있다면 말이죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "여기서 결착을 짓도록 하죠."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "자아, 선생님. 불가해한 자여."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "검은 양복은 너를 동류로 인식하고 서로 길항한다고 믿고,"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "마에스트로는 너를 이해자로 인식하고 서로 상승한다고 믿고,"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "골콩트는 너를 메타포로 인식하고 서로를 통해 완성된다고 믿고,"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "그리고 나는 너를 대적자로 인식하고, 우리는 서로 반동한다고 믿습니다."
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "너는 나의 적입니다."
+    },
+    {
+      "Name": "사오리",
+      "Text": "(…….)"
+    },
+    {
+      "Name": "미사키",
+      "Text": "(…….)"
+    },
+    {
+      "Name": "히요리",
+      "Text": "(네, 네. 주, 준비……는 됐어요!)"
+    },
+    {
+      "Name": "베아트리체",
+      "Text": "처치하세요."
+    },
+    {
+      "Text": "[ns] \"가자! 스쿼드!\""
+    },
+    {
+      "Name": "사오리",
+      "Text": "크아아아아아아--!!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 14;Face-to-Face"
+    },
+    {
+      "Name": "Misaki",
+      "Text": "All clear. Move up."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Oh geez, life really is suffering."
+    },
+    {
+      "Name": "Saori",
+      "Text": "Does it feel a little too quiet to anyone else? I've never seen it so abandoned."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "There're a number of unfamiliar things about this street.  "
+    },
+    {
+      "Name": "Misaki",
+      "Text": "I've felt off since we arrived."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "We may have been gone for a long time, but everything feels different."
+    },
+    {
+      "Name": "Saori",
+      "Text": "..."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Like, has this area always had all this crazy stuff?  "
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Cruise missiles installed everywhere, weapons for distribution everywhere you look.  "
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Come to think of it, don't you think the Mimesises are really weird? We just accepted them without question."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "How long has Arius had that cruise missile?"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "When did you gain control of those mysterious soldiers?"
+    },
+    {
+      "Name": "Azusa",
+      "Text": "Even a bomb capable of shattering halos..."
+    },
+    {
+      "Name": "Azusa",
+      "Text": "How is any of this possible?"
+    },
+    {
+      "Name": "Saori",
+      "Text": "..."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "Enemy approaching. Hide."
+    },
+    {
+      "Name": "Saori",
+      "Text": "Isn't that..?"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Th-The Council?! Is it the Saint Justina Council? Why're they so scary looking?"
+    },
+    {
+      "Name": "Saori",
+      "Text": "How can they be here? Sensei cancelled our contract."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "If you think about it..."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "The objective during the Eden Treaty plot was to secure the Mimesis ability."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Hime did as the wooden doll in the cathedral basement told her to, just as she was instructed."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "With the Council troops secured, our mission was to occupy the Trinity and Gehenna districts."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "But we lost to Schale."
+    },
+    {
+      "Name": "Saori",
+      "Text": "Yes... We failed in both securing the Mimesis ability and occupying the academies.  "
+    },
+    {
+      "Name": "Saori",
+      "Text": "But...she'd already secured the Mimesis ability...?"
+    },
+    {
+      "Name": "???",
+      "Text": "GRAAAAAAAH."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Wh-What was that...?  "
+    },
+    {
+      "Name": "Misaki",
+      "Text": "It's the scream of Ambrosius, a tactical weapon utilized during the Eden Treaty. It seemed to be some form of a Mimesis."
+    },
+    {
+      "Name": "Saori",
+      "Text": "So, that means...  "
+    },
+    {
+      "Name": "Misaki",
+      "Text": "Yes. Perhaps she only needed one successful Mimesis."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "Our real mission must have been to take Hime to the old cathedral and activate the Mimesis."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "If so, our mission to occupy Gehenna and Trinity... "
+    },
+    {
+      "Name": "Saori",
+      "Text": "...never...actually mattered to her?"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "..."
+    },
+    {
+      "Name": "Saori",
+      "Text": "Then was the meaning of all this? All this pain..."
+    },
+    {
+      "Name": "???",
+      "Text": "Whatever COULD it mean, little one?"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "...We're surrounded?!  "
+    },
+    {
+      "Name": "Saori",
+      "Text": "How did you..."
+    },
+    {
+      "Name": "Misaki",
+      "Text": "She knew this was our only way in."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "A+ for you, little Misaki.  "
+    },
+    {
+      "Name": "Saori",
+      "Text": "...Madame."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "This is my territory. You can't so much as take a breath here without me knowing."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Your childish plans were obvious from the start. Did you really think you could outsmart me, children?"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Sh-She read us like a m-magazine!"
+    },
+    {
+      "Name": "Misaki",
+      "Text": "Indeed. We've just been playing into her game."
+    },
+    {
+      "Name": "Saori",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And yes, Saori. You were correct."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "From the beginning, your true mission was to bring the royal blood to the old cathedral and manifest the Council."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "All I needed was for you to open a path to the Mimesis ability. Of course, Maestro doesn't like me treading on his supposed area of expertise much."
+    },
+    {
+      "Name": "Saori",
+      "Text": "..."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Trinity and Gehenna were little flies that landed on my chessboard."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I only used them as an excuse to fuel the deep-seated hate within your district. It made you little fools...so very, very easy to control."
+    },
+    {
+      "Name": "Saori",
+      "Text": "...?!"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "In that sense, I suppose you actually did fulfill your mission! I couldn't have gotten the Mimesis ability without you.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Not only that, you handed over the royal blood so nicely. What an obedient little child you are, Saori."
+    },
+    {
+      "Name": "Saori",
+      "Text": "I was only obedient to keep Hime safe! You lied to us."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Yes, yes. So tragic, so sad. Anyways, I have more important matters to attend to.  "
+    },
+    {
+      "Name": "Saori",
+      "Text": "U-Ugh!"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And we finally meet, [USERNAME] Sensei.  "
+    },
+    {
+      "Text": "[s] \"How do you know who I am?\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Schale's educator. The beloved Sensei. Your reputation truly precedes you. I've anticipated this meeting for some time now."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Allow me to introduce myself. I am Beatrice, a member of Gematria, but you may call me Madame."
+    },
+    {
+      "Text": "[s] \"I can't say I'm pleased to meet you, Beatrice. You're the...ruler of Arius?\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Tch. Insolence. Yes, I was the only one in Gematria who successfully established an estate. And look at how mine flourishes."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Aren't you curious how I've brought the entire student body under my control? I'll tell you my secrets...for a few in return, of course."
+    },
+    {
+      "Text": "[s1] \"I don't care about your twisted methodologies.\""
+    },
+    {
+      "Text": "[s2] \"I already know how your type works.\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Oh? You're just as I imagined you'd be.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Oh? How disappointing. "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "You see, despite the way I look, I have no special powers or abilities.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I have at times wished for it...mind control, brainwashing. It certainly could have saved me a considerable amount of time. But we adults must do things our way, as you well know."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Hate, contempt, anger, disgust... Such intense, all-encompassing emotions. They're laughably easy to manipulate.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I do love the elegance of it. All I had to do was ignite the flame and watch my carefully laid-out plans burn the world down. At least, they would have before you intervened."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "But those silly little brats you're trying so hard to save were already waging a civil war before I came along. Did you know that, Sensei?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "All that deep-seated rage...that boiling hatred against the world. I simply...utilized it. I would hardly consider them poor, innocent little students."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Of course all those students you fervently protect are the same. Human nature is violent and selfish at its core."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "You need only turn your gaze at Trinity to understand. You've witnessed it, Sensei. Their hatred. Their cruelty."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "When you consider it that way, isn't there a beauty to my methods?  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "All I do is reach my hand into the insatiable void of hate they already possess and rip it open further. And then I fill that hole with my own teachings until my voice is the only command they follow."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And forcing them to commit heinous crimes under my command... The guilt they inherently suffer makes them latch onto me even harder. Is it my fault? Is it theirs? I do love watching them unravel."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "You see, I distort the very fabric of their reality. Their emotions are no longer their own, their relationships with each other falling to the wayside as I become the only lifeboat in the middle of a treacherous sea."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Paradise is only paradise if it's exclusive. And in mine, adults dominate, exploit, and devour these unfortunate souls."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "The more hellish for them, the more comfortable this paradise becomes for me.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Now, my dearest Sensei. Why don't you run along and let me prey upon my loyal subjects in peace?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Would you mind giving up on the royal blood?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I've spent so much effort on her. You wouldn't want me to waste it, would you? And I promise, you'll benefit from her sacrifice, too."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Aren't you the least bit curious? What the sacrifice of one insignificant student can achieve?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "I'll make a world built just for you. Don't you like the sound of that, Sensei?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Come join me, and I'll tell you everything. About our new world, and secrets about the world we currently live in."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Kivotos is...truly...a marvel. A sublime tale of mystery and horror."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And I can show you the truth behind all of it. Take my hand, Sensei. It's the last time you'll see it extended."
+    },
+    {
+      "Text": "[ns] \"Enough out of you.\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Oh?"
+    },
+    {
+      "Text": "[s3] \"I'm not interested in your delusional, twisted dreams.\""
+    },
+    {
+      "Text": "[s4] \"I don't need a truth that demands innocent blood.\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Hahaha. They were right. You are resolute in your ways.  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Hahaha. They were right. You are resolute in your ways. "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "If our truths can't align, I can only see you as my adversary."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "So...is this Eden Treaty your paradise? A bumbling, idealistic world where love and friendship overcome all?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "You're really no better than those naive children."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "You can't slap the word paradise onto something and sell it to them. As an adult, you should be teaching the truth."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "\"Paradise is the origin of the first sin...\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Real paradise is hate. It's anger and remorse. It's the evil that lies within all of us."
+    },
+    {
+      "Text": "[ns] \"Beatrice.\""
+    },
+    {
+      "Text": "[ns5] \"You've insulted our way of living long enough.\" "
+    },
+    {
+      "Text": "[ns6] \"Your methods are an insult to everything I stand for.\""
+    },
+    {
+      "Text": "[ns7] \"As an adult, I cannot forgive you.\""
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "...So that's the path you choose, Sensei?  "
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "So be it. I'll be waiting for you in the basilica."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Why don't we take bets on whether you can make it to me?"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Sensei, you truly are an incomprehensible presence."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Black Suit perceives you as a rival. Quite a compliment, coming from him."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Maestro is absolutely fascinated with you. He thinks you alone can understand him."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "To Golconde, you're a metaphor that completes his eternal search."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "And I perceive you as an adversary. We reject each other, like oil and water."
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "My natural enemy."
+    },
+    {
+      "Name": "Saori",
+      "Text": "(...)"
+    },
+    {
+      "Name": "Misaki",
+      "Text": "(...)"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "(Yes, yes, yes. W-We're...ready!)"
+    },
+    {
+      "Name": "Beatrice",
+      "Text": "Squash them. Grind them under your heel."
+    },
+    {
+      "Text": "[ns] \"I'm with you, Squad!\""
+    },
+    {
+      "Name": "Saori",
+      "Text": "BEATRICE!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 14;เผชิญหน้า"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "เคลียร์... เส้นทางปลอดภัย"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ค่ะ!"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "แปลกจัง... ทำไมทางมันเงียบแบบนี้ ปกติถึงจะเป็นที่ที่ไม่ค่อยมีใครมา แต่ก็ไม่ได้เงียบแบบนี้นี่นา"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "นอกจากนี้... ยังรู้สึกเหมือนกับว่ามันมีของที่เพิ่งเห็นเป็นครั้งแรกเยอะกว่าที่เคยอีกค่ะ..."
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ใช่ ฉันก็รู้สึกแปลกๆ แบบนี้มาสักพักหนึ่งแล้ว"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ถึงที่นี่จะถูกทิ้งร้างมานานก็ตาม แต่ฉันรู้สึกเหมือนเป็นถนนที่ไม่คุ้นเคยเลย"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "จะว่ายังไงดีนะ... พอมาคิดๆ ดูแล้ว ฉันว่ามีของที่เราไม่รู้จักเยอะขึ้นเรื่อยๆ เลยค่ะ มีมาตั้งแต่ก่อนหน้านี้เลย "
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ทั้งขีปนาวุธร่อนที่เริ่มติดตั้งไว้ทั่วเขตปกครองตนเอง... ไหนจะอาวุธที่เริ่มได้รับการจัดหามาอีก... "
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "แถมถ้าลองคิดดูดีๆ การมิเมซิสมันก็แปลกมากเลยว่าไหมคะ? เหมือนเรารับมันเข้ามาโดยไม่ได้คิด\nอะไรมากเลยค่ะ"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "อาเรียสมีมิสไซล์นำวิถีตั้งแต่เมื่อไร...?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "เธอควบคุมพวกกองกำลังลึกลับนั่นได้ตั้งแต่เมื่อไรกัน...?"
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "นั่นสิ... พอมาคิดๆ ดูแล้ว... เรื่อง <ระเบิดที่ใช้ทำลายฮาโล> นั่น..."
+    },
+    {
+      "Name": "อาซึสะ",
+      "Text": "ที่จริงแล้วพวกเธอ..."
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "......"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "เดี๋ยวก่อน... ข้างหน้ามีคนมา รีบไปซ่อนตัวเร็วเข้า"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "นั่นมัน..."
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "สะ... สาวกเหรอ?!  สาวกยูสตาร์ใช่ไหมคะ? ทำไมรูปร่างดู..."
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "มาได้ยังไงกัน...? สนธิสัญญาเอเดนถูกยกเลิกไปแล้ว ไม่น่าเป็นไปได้นี่นา"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "...... ถ้าลองคิดดูมันก็ใช่นะ"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "สาเหตุที่เราบุกโจมตีห้องประชุมการลงนามสนธิสัญญาเอเดนตั้งแต่แรกก็เพื่อให้ได้มาซึ่งความ\nสามารถในการมิเมซิส"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ใช่ค่ะ... เพราะแบบนั้นองค์หญิงก็เลยทำตามคำสั่งของตุ๊กตาไม้ที่อยู่ในวิหารโบราณใต้ดิน..."
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ภารกิจของพวกเราก็คือ... ใช้กองกำลังสาวกที่ได้มาเพื่อยึดเขตปกครองตนเองทรีนิตี้กับเกเฮนน่า"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ต่อมาเราก็แพ้ให้กับ <ชาเล่ต์>"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "ใช่... และที่เราต้องกลายเป็นผู้หลบหนีก็เพราะว่า... เราไม่ได้พลังมิเมซิส และยึดทั้งสองโรงเรียนไว้\nไม่ได้ "
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "แต่ว่า... ที่เขตปกครองตนเองอาเรียส... <ผู้หญิงคนนั้น> มีพลังในการมิเมซิสอยู่แล้ว...?"
+    },
+    {
+      "Name": "???",
+      "Text": "กรร -------------"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "เสียงนี้มัน... "
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "เสียงร้องของ <อัมโบรส> ที่ใช้เป็น <อาวุธยุทธวิธี> ในเหตุการณ์สนธิสัญญาเอเดน... ต้องเป็นมิเมซิส\nที่เราจัดการไปในตอนนั้นแน่ๆ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "ถ้าอย่างนั้น... "
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "บางทีสิ่งที่เรียกว่ามิเมซิสอาจเป็นสิ่งที่แค่ต้องทำให้สำเร็จเพียงครั้งเดียวก็ได้..."
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "และภารกิจแต่เดิมของเราคือการพาองค์หญิงไปที่วิหารโบราณแล้วทำให้เกิดมิเมซิส...?"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ถ้าเป็นอย่างนั้น ภารกิจยึดเกเฮนน่ากับทรีนิตี้หลังจากนั้นก็... "
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "มะ... มะ... มันเป็นเรื่องที่ไม่เกี่ยวกับเธอหรือเปล่า...?"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "......"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "ถ้างั้นภารกิจของพวกเรามัน..."
+    },
+    {
+      "Name": "???",
+      "Text": "มันมีความหมายอะไรงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "เราถูกล้อมเหรอคะ?! "
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "ตั้งแต่ตอนไหนเนี่ย..."
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "กับดักเหรอ... หรือว่าพวกนั้นรู้ว่าเราจะมาทางนี้...?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ก็รู้สิคะ "
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "มาดาม..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "นี่เป็นเขตแดนในการปกครองของฉัน ฉันรู้หมดแหละค่ะ ทั้งตำแหน่งและเป้าหมายของพวกเธอ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ต้องบอกว่ารู้ตั้งแต่แรกเลยว่าพวกเธอจะใช้ทางเชื่อมอาคารเรียนเก่า พวกเด็กน้อยเอ๋ย ไม่มีอะไรที่ฉันไม่รู้หรอกค่ะ "
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ฮะ... เฮือก! ตะ... ตั้งแต่แรกเลยเหรอ..."
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "รู้เห็นทั้งหมดเลยสินะ..."
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ใช่ค่ะซาโอริ ถูกต้องค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ภารกิจของพวกเธอคือการพาสายเลือดของราชวงศ์มาที่วิหารโบราณ แล้วเผยให้เห็นสาวก ก็แค่นั้นค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เพียง[ruby=path]พาธ[/ruby]นั้นถูกเชื่อมเพียงครั้งเดียว หลังจากนั้นฉันก็จะควบคุมได้ทุกอย่างค่ะ แม้เมสโตรจะไม่ชอบที่ของของตัวเองถูกแย่งไปก็เถอะ..."
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "......"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ส่วนการยึดทรีนิตี้หรือเกเฮนน่าน่ะ มันไม่สำคัญสำหรับฉันหรอกค่ะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "มันเป็นไปเพื่อควบคุมความแค้นที่เขตปกครองตนเองนี้มีมายาวนาน แต่ตัวฉันเองไม่ได้มีความเกลียด\nชังอะไรต่อสองโรงเรียนนั้นค่ะ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "...!!"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "จริงสินะคะ ถ้าอย่างนั้นก็ถือว่าพวกเธอทำภารกิจได้สำเร็จ เพราะฉันได้ความสามารถในการมิเมซิสมา\nแล้ว "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "และก็ได้สายเลือดของราชวงศ์มาเป็นเครื่องสังเวยด้วยค่ะ ช่างเป็นเด็กดีที่เชื่อฟังจังเลยนะคะ ซาโอริ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "คุณนี่มัน... ไม่มีความคิดที่จะรักษาสัญญาตั้งแต่แรกสินะ..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "จบเรื่องไม่สำคัญไว้แค่นี้เถอะค่ะ... เพราะความสนใจของฉันน่ะ... "
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "อะ... อึก!"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ยินดีที่ได้รู้จักนะคะ คุณครู [USERNAME] "
+    },
+    {
+      "Text": "[s] \"............!!\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันชื่อเบียทริซค่ะ คุณครูคงทราบอยู่แล้วว่าฉันเป็นสมาชิก <เกมาเทรีย> หวังว่าจะยกโทษให้นะคะ\nที่ฉันมาทักทายแบบนี้แทน"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันได้ยินเรื่องของคุณจากสูทดำ เมสโตร และโกลคอนดามาเยอะเลยค่ะ "
+    },
+    {
+      "Text": "[s] \"เธอคือเบียทริซ... ที่ปกครองอาเรียสอยู่งั้นเหรอ?\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ใช่ค่ะ ในเกมาเทรียมีฉันคนเดียวที่ทำสำเร็จค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "อยากรู้วิธีไหมล่ะคะ? ฉันจะยอมบอกให้ ถ้าคุณเอาข้อมูลที่รู้อยู่มาแลกเปลี่ยนให้ค่ะ"
+    },
+    {
+      "Text": "[s1] \"ไม่จำเป็นหรอก\""
+    },
+    {
+      "Text": "[s2] \"ก็พอจะรู้วิธีของเธออยู่หรอกนะ\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หืม? งั้นเหรอคะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หืม? งั้นเหรอคะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ขอพูดเพื่อรักษาเกียรติก่อนนะคะ ฉันไม่ได้ใช้ความสามารถที่ลึกลับอะไรแบบนั้นหรอกนะคะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "อะไรคล้ายๆ การล้างสมองน่ะ... หึหึหึ ฉันล่ะอยากจะมีความสามารถที่สะดวกแบบนั้นจัง แต่ก็น่า\nเสียดายนะคะที่ของแบบนั้นไม่ใช่วิธีของ <ผู้ใหญ่> "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ความแค้น การดูหมิ่น ความโกรธ ความเกลียดชัง... ใช่ค่ะ ที่ผ่านมาฉันใช้สิ่งเหล่านี้ควบคุมคนด้วย\nการโกหกและหลอกลวงค่ะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถึงมันจะเรียบง่าย แต่ก็เป็นวิธีที่แน่นอนที่มีมาแต่ไหนแต่ไร คุณเองก็น่าจะทราบดีนะคะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เดิมทีแล้วเขตปกครองตนเองก่อสงครามกลางเมืองกันก่อนที่ฉันจะมาที่นี่อีกนะคะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ต่างฝ่ายคงต่างสะสมความแค้น การดูหมิ่น ความโกรธ และความเกลียดชังเอาไว้มากทีเดียว ฉันก็แค่มาใช้สิ่งเหล่านี้เป็นเครื่องมือค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "แต่ก็ใช่ว่าที่นี่จะพิเศษอะไรหรอกนะคะ ของแบบนี้เป็นภาพที่หาดูได้ทุกที่อยู่แล้วไม่ใช่เหรอคะ? "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถ้าเป็นเรื่องจิตใจที่เคียดแค้นละก็... ทรีนิตี้น่าจะหนักกว่านี้อีกค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ใช่แล้วค่ะ นี่คือวิธีที่ฉันใช้ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "บิดเบือนถ้อยคำที่สอนความถ่อมตนของชีวิตเป็นความว่างเปล่าที่ไร้ประโยชน์"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "บิดเบือนการไตร่ตรองเพื่อป้องกันความเสื่อมเป็นความรู้สึกผิดที่ไม่อาจหลุดพ้น"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "บิดเบือนความจริง ปิดบังความซื่อสัตย์ ปั่นความจริงใจ ก่อความเกลียดชัง ปลุกปั่นความแค้น ทำให้ผู้อื่น ผู้อื่น ผู้อื่น และผู้อื่นต้องเป็นคนอื่นของกันและกันตลอดไป"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "สวรรค์เป็นสวรรค์ได้เพราะไม่มีวันไปถึง ส่วนนรกก็เป็นที่ที่ <ผู้ใหญ่> ปกครองและใช้ประโยชน์ <เด็กๆ> อย่างเต็มที่ค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "มันอาจเป็นนรกสำหรับบางคน แต่มันก็เป็นสวรรค์ที่สำราญใจของ <ผู้ใหญ่> "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เพราะฉะนั้นช่วยเข้าใจฉันหน่อย ได้หรือเปล่าล่ะคะคุณครู?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "จะไม่ปล่อยสายเลือดของราชวงศ์คนนั้นไปงั้นเหรอคะ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เด็กคนนั้นเป็นเด็กที่ฉันฟูมฟักและสั่งสอนมานะคะ ถ้าสละชีวิตเด็กคนนี้เป็นเครื่องสังเวยแล้วละก็ ต่อไปจะมีเรื่องดีๆ เกิดขึ้นกับผู้ใหญ่อย่างเราแน่นอนค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ไม่สงสัยเหรอคะว่าฉันใช้เด็กคนนั้นทำอะไรอยู่? ไม่สงสัยเหรอคะว่าจะประสบความสำเร็จแบบไหน? ถ้าสงสัย จะให้ฉันบอกตรงนี้ตอนนี้เลยก็ได้ค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "คุณครูน่ะ... ไม่สนใจเรื่องอะไรแบบนี้เหรอคะ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "นี่คุณครู... ไม่อยากรู้เหรอคะว่าโลกใบนี้... ที่ที่เรียกว่าคิโวทอสนี้เป็นสถานที่แบบไหน?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "โลกนี้ไม่มีตัวตนหรอกค่ะ มันก็แค่เตาหลอมชั้นดีที่ผสมความน่ากลัวกับความลึกลับที่ไม่มีใครเข้าใจได้"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ฉันสามารถบอกความจริงของโลกใบนี้ได้ค่ะ ว่ายังไงล่ะคะ? หากพลาดโอกาสนี้ไป อาจจะไม่มีโอกาส\nที่สองก็ได้นะคะ  "
+    },
+    {
+      "Text": "[s] \"พอได้แล้ว\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หืม?"
+    },
+    {
+      "Text": "[s3] \"ฉันไม่สนอะไรแบบนี้หรอก\""
+    },
+    {
+      "Text": "[s4] \"ฉันจะไม่เอาชีวิตใครมาแลกกับการที่จะได้รับรู้ถึงความจริงอะไรนั่นหรอก\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หึหึหึ... ว่าแล้วเชียว... ตอนจบจะเป็นอย่างนี้สินะคะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หึหึหึ... ว่าแล้วเชียว... ตอนจบจะเป็นอย่างนี้สินะคะ "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หมายความว่าเราจะเชื่อในความจริงที่ต่างกัน คุณคือศัตรูตัวฉกาจของฉันจริงด้วยค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถ้างั้น... สวรรค์ที่คุณพึ่งพิง... ก็คือ <สนธิสัญญาเอเดน> เหรอคะ? โลกที่เข้าใจได้ง่าย ไม่ซับซ้อน และเอาชนะความชั่วได้ด้วยมิตรภาพของทุกคนน่ะเหรอคะ?"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "หึหึหึ... ความคิดของเด็กๆ ช่างไร้เดียงสาและเรียบง่ายอย่างนี้สินะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ถึงเราจะตั้งชื่อให้มันว่าสวรรค์ก็ไม่มีอะไรเปลี่ยนแปลงหรอกค่ะ คนเป็นผู้ใหญ่ยิ่งต้องสอนความจริงนี้\nสิคะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "สอนว่า <สวรรค์คือที่ที่บาปแรกเริ่มต้นขึ้น> ไงคะ..."
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "สวรรค์ที่แท้จริงน่ะ... คือที่ที่เต็มไปด้วยความแค้น ความโกรธ ความเกลียดชัง ความเจ็บปวด ความเสียใจ การโทษตัวเอง และการทำร้ายตัวเอง..."
+    },
+    {
+      "Text": "[ns] \"เบียทริซ\""
+    },
+    {
+      "Text": "[ns5] \"เธอดูถูกครู ดูถูกนักเรียน เธอดูถูกพวกเรา\""
+    },
+    {
+      "Text": "[ns6] \"เธอดูถูกการสั่งสอนและการเล่าเรียน\""
+    },
+    {
+      "Text": "[ns7] \"ในฐานะของผู้ใหญ่ จะไม่ยกโทษให้เธอเด็ดขาด\""
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "งั้นฉัน... ควรมองว่านี่คือการประกาศสงครามใช่ไหมคะ? "
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "งั้นก็ดีค่ะ แล้วฉันจะรออยู่ที่มหาวิหาร ถ้ามาถึงก็เจอกันนะคะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "แล้วมาดูฉากจบด้วยกันที่นี่ค่ะ"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "เอาละ คุณครูผู้ไม่อาจเข้าใจได้"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "สูทดำมองว่าคุณคือพวกเดียวกัน และเชื่อว่าต่างคนต่างสกัดกั้นกันได้"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "ส่วนเมสโตรมองว่าคุณคือผลประโยชน์ และเชื่อว่าจะต่างคนต่างส่งเสริมกันได้"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "และโกลคอนดามองว่าคุณคือการอุปมา และเชื่อว่าต่างคนจะสำเร็จได้ด้วยอีกคน"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "และฉันมองว่าคุณเป็นศัตรูตัวฉกาจ และเชื่อว่าเราจะตอบโต้ซึ่งกันและกัน"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "คุณคือศัตรูของฉันค่ะ"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "(......)"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "(......)"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "(ค่ะ ค่ะ... ตะ... เตรียมเสร็จแล้วค่ะ!)"
+    },
+    {
+      "Name": "เบียทริซ",
+      "Text": "กำจัดเลยค่ะ!"
+    },
+    {
+      "Text": "[ns] \"ไปกันเถอะ สควอด!\""
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "ย้ากกกกก!!!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第14話;邂逅"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……Clear。到這裡為止都很安全。"
+    },
+    {
+      "Name": "日和",
+      "Text": "是，是的！沒問題！"
+    },
+    {
+      "Name": "沙織",
+      "Text": "有點奇怪……街上也太安靜了。\n雖然本來就沒什麼人會經過這裡，但也不會安靜到這種程度才對。"
+    },
+    {
+      "Name": "日和",
+      "Text": "總，總覺得……多了很多我們不知道的東西……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "確實……從剛才開始就感覺到滿滿的違和感。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "雖然我離開自治區很久了，但是這裡已經變成我已經完全不認識的街道了。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……"
+    },
+    {
+      "Name": "日和",
+      "Text": "該，該怎麼說呢……仔細想想，好像從以前開始，我們不知道的東西就漸漸增加了。"
+    },
+    {
+      "Name": "日和",
+      "Text": "像是設置在自治區各處的巡航導彈……還有補給的奇怪武器……"
+    },
+    {
+      "Name": "日和",
+      "Text": "而且現在想一想，那個被稱為[ruby=Mimesis]複製[/ruby]的東西也很奇怪不是嗎，但我們卻毫無疑問地接受了。"
+    },
+    {
+      "Name": "梓",
+      "Text": "奧利斯從什麼時候開始，有巡航導彈這種東西了……？"
+    },
+    {
+      "Name": "梓",
+      "Text": "還有從什麼時候開始，變得可以操縱那種不可思議的力量了……？"
+    },
+    {
+      "Name": "梓",
+      "Text": "……「破壞光環的炸彈」也是。"
+    },
+    {
+      "Name": "梓",
+      "Text": "到底，是從什麼時候……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "等等……有其他人在。快躲起來。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "那是……"
+    },
+    {
+      "Name": "日和",
+      "Text": "聖，聖徒會！？是優斯提娜聖徒會對吧？\n而且那個樣子……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……為什麼？\n伊甸園條約已經被取消的現在，要使喚他們應該是不可能的才對。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……回想一下。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "本來我們會襲擊伊甸園條約會場的理由就是為了取得[ruby=Mimesis]複製[/ruby]的能力。"
+    },
+    {
+      "Name": "日和",
+      "Text": "確實是這樣沒錯……所以公主醬才會聽從古教堂底下那個「木人偶」的命令……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "接著用得來的聖徒會的兵力佔領三一和格黑娜自治區……\n這就是我們本來的任務。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "之後我們輸給了「夏萊」。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "沒錯……我們之所以會逃亡也是因為這個。\n因為[ruby=Mimesis]複製[/ruby]能力的獲得和兩個學園的占領都失敗了。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "明明應該是這樣的……\n奧利斯自治區……「她」卻已經得到了[ruby=Mimesis]複製[/ruby]的能力……？"
+    },
+    {
+      "Name": "???",
+      "Text": "嗡──"
+    },
+    {
+      "Name": "日和",
+      "Text": "這個聲音是……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "是伊甸園條約那時我們當做「戰術兵器」使用的「安普羅西斯」的悲鳴。……當時我們確實使用了[ruby=Mimesis]複製[/ruby]的能力。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "也就是說……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……[ruby=Mimesis]複製[/ruby]只要成功一次就可以了……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "所以，我們的任務……\n就只有「把公主帶到古教堂並發動[ruby=Mimesis]複製[/ruby]能力而已……？」"
+    },
+    {
+      "Name": "美咲",
+      "Text": "那，三一和格黑娜的占領任務……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "──對她來說，根本無所謂嗎……？"
+    },
+    {
+      "Name": "日和",
+      "Text": "……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "那，我們的任務……"
+    },
+    {
+      "Name": "???",
+      "Text": "究竟，有什麼意義呢。"
+    },
+    {
+      "Name": "日和",
+      "Text": "……被包圍了！？"
+    },
+    {
+      "Name": "沙織",
+      "Text": "嘖……是陷阱嗎。"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……早就知道我們會來這裡了嗎。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯，那是當然的。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……夫人。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "這裡是由我支配的領地。\n各位的位置和目的地，就連路徑我全都知道。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "你們想要前往舊校舍的迴廊這件事我一開始就知道了。\n愚蠢的孩子們啊──想要瞞過我是不可能的。"
+    },
+    {
+      "Name": "日和",
+      "Text": "噫，噫……從，從一開始……"
+    },
+    {
+      "Name": "美咲",
+      "Text": "果然我們還是被玩弄在手掌心裡嗎……"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯，就是這樣。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "你們的任務從一開始就是「把皇家血統帶到古教堂，讓聖徒會顯現」……僅此而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "[ruby=path]路徑[/ruby]只要接通過一次，接下來就將由我控制。\n雖然瑪艾斯托洛似乎因為自己的作品被奪走而不太開心就是了。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "嘛，佔領三一跟格黑娜之類的，對我來說只不過是枝微末節的小事而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "只是因為方便控制這個自治區長久以來抱持的憎恨而已。\n我本身對那個學園並沒有什麼恨意。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……！！"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "也對呢。這麼說來，也可以說你們成功完成了任務吧。畢竟你們向我提供了[ruby=Mimesis]複製[/ruby]的能力嘛──"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "皇家血統也願意乖乖地成為我的祭品被獻出去了。\n你是個聽話的好孩子呢，沙織。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……果然，你打從一開始就沒有要遵守約定的打算嗎……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "嘛，沒意義的話就說到這吧……我有興趣的是……沒錯。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "咕，唔……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "初次見面，[USERNAME]老師。"
+    },
+    {
+      "Text": "[s] 「…………！！」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我的名字是貝雅特里榭。雖然你或許已經知道了，我是「蓋瑪特利亞」的一員。請原諒我用通信向你問好。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我從黑色西裝人、瑪艾斯托洛以及戈爾孔特那裡聽說過很多你的事蹟。"
+    },
+    {
+      "Text": "[s] 「你就是支配著奧利斯的……貝雅特里榭？」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯。同時也是蓋瑪特利亞目前唯一的成功者。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "呵呵……很在意我嗎？\n我是怎麼得到奧利斯的……有需要的話可以和你擁有的情報交換的哦？"
+    },
+    {
+      "Text": "[s1] 「不需要。」"
+    },
+    {
+      "Text": "[s2] 「你的手法我已經知道了。」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "哦，這樣啊。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "哦，這樣啊。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "為了保持我的名譽先告訴你一聲，我可沒有使用什麼特殊的能力哦。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "洗腦之類的超能力……呵呵呵，要是真的有這種便利的力量就好了。\n很遺憾地，那並不是「大人」的做法。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯。憎恨、憤怒、輕蔑、厭惡──利用這些負面的感情，以偽裝和欺瞞支配著孩子們。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "雖然很單純卻是非常實在的方法。你也很清楚的對吧？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……況且，這個自治區在我到來之前就已經處於內戰之中了。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "對彼此的負面感情早已超過了極限。\n──而我，只不過是加以利用了而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "這也沒什麼特別的。\n只不過是習以為常的景象而已不是嗎？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "對了……說到憎恨的話，和這裡比起來，三一的恨更強也說不定吧。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "我只不過是順水推舟而已。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "把教導謙虛的金言，扭曲為毫無價值的空虛……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "把警戒墮落的自責，扭曲為無法逃離的罪惡感……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "扭曲事實、隱蔽真實、曲解真心、助長嫌惡、煽動憎恨，讓他人，讓他人，讓他人，讓他人──永遠成為彼此的他人。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "樂園正因為永遠無法到達才能被稱之為樂園。在這地獄中，「大人」將對「孩子」進行支配、榨取、捕食。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯──對某些人來說或許是地獄，但這才是「大人」無憂無慮的樂園。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "所以你也能夠理解我的[ruby=捕食]行為[/ruby]對吧？老師？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "所以說，皇家血統能就這麼交給我來處理嗎？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "那孩子是我傾盡全力教導的學生。如果能作為祭品獻上的話，肯定能帶給我們大人美妙的福音的。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "你不好奇嗎？我打算做些什麼，打算達成怎樣的偉業。\n沒錯──我現在就能夠告訴你哦。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "怎麼樣啊，老師？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "比如這個世界──這個奇普托斯究竟是什麼地方，你不想知道嗎？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "這個世界是來歷不明──理解所無法觸及的，混入神祕和恐怖的崇高轉爐。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯……我能夠告訴你這個世界的真相。\n怎麼樣呢？如果錯過這個機會的話，或許就沒有下一次了。"
+    },
+    {
+      "Text": "[s] 「到此為止吧。」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "哦？"
+    },
+    {
+      "Text": "[s3] 「我對那種事沒有興趣。」"
+    },
+    {
+      "Text": "[s4] 「藉由某人的犧牲而得到的真實，我才不需要。」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……呵呵呵。這樣啊……果然是這樣呢。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……呵呵呵。這樣啊……果然是這樣呢。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "看來我們相信著不同的真實呢。\n沒錯──你果然是我的敵對者沒錯。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "沒錯……我理解了。你所說的樂園就是「伊甸園條約」對吧。\n依靠大家的友情擊退邪惡，單純又容易理解的世界。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "呵呵呵……為什麼孩子們的思考總是這麼純粹又單純呢。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "就算加上了樂園的名稱也不會有任何改變。\n不如說大人應該要好好教導他們真相才對。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "「這個樂園才是萬惡的根源」……"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "真正的樂園才是憎惡、憤怒、嫌惡、苦痛、悔恨──\n充滿著這些的地方。"
+    },
+    {
+      "Text": "[ns] 「貝雅特里榭。」"
+    },
+    {
+      "Text": "[ns5] 「你侮辱了學生、侮辱了我們。」"
+    },
+    {
+      "Text": "[ns6] 「侮辱了『教導』、侮辱了『學習』。」"
+    },
+    {
+      "Text": "[ns7] 「我身為大人，絕不原諒你。」"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "……我能當作這是對我的宣戰嗎？"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "好吧，我在宗座聖殿等待你們的到來。\n──當然是，如果你們能夠到達這裡的話。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "就在這裡決一勝負吧。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "來吧，老師──無法理解之人啊。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "黑色西裝人認為你是夥伴，相信能夠與你互相競爭。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "瑪艾斯托洛認為你是理解者，相信能夠與你互相激勵。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "戈爾孔特認為你是隱喻，相信能通過與你的交流互相成就。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "而我則認為你是敵對者，相信我們會互相對立。"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "你是，我的敵人。"
+    },
+    {
+      "Name": "沙織",
+      "Text": "（……）"
+    },
+    {
+      "Name": "美咲",
+      "Text": "（……）"
+    },
+    {
+      "Name": "日和",
+      "Text": "（好，好的。準，準備……完成了！）"
+    },
+    {
+      "Name": "貝雅特里榭",
+      "Text": "解決他們吧。"
+    },
+    {
+      "Text": "[ns] 「上吧！奧利斯小隊！」"
+    },
+    {
+      "Name": "沙織",
+      "Text": "啊啊！"
+    }
+  ]
+}

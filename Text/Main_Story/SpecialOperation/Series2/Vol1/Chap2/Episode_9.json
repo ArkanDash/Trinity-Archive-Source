@@ -1,0 +1,3512 @@
+{
+  "TitleJP": "SRT式尋問法",
+  "TitleKR": "SRT식 설득법",
+  "TitleEN": "SRT-Style Persuasion",
+  "TitleTH": "วิธีโน้มน้าวใจฉบับ SRT",
+  "TitleTW": "SRT式說服法",
+  "DescJP": "カルパッチョ・ファミリーの幹部を捕らえ、SRT式の尋問を行うFOX小隊。自白させることに成功し、噂は市民の恐怖を煽るためにファミリーが広めたものだと判明する。しかし息つく間もなく、轟音を響かせる巨大なカニが港を襲撃しはじめた。",
+  "DescKR": "카르파초 패밀리의 간부를 붙잡아 SRT식 심문을 진행하는 FOX 소대. 심문을 통해 카르파초 패밀리가 의도적으로 공포를 조장했음을 깨닫는 찰나, 거대한 게가 항만을 습격해 온다.",
+  "DescEN": "The FOX Squad captures a Carpaccio Family officer and proceeds with an SRT-style interrogation. Right as they get a confession that the Carpaccio Family is involved, a giant enemy crab attacks the port.",
+  "DescTH": "กองทหาร FOX จับกุมผู้บริหารการ์ปัชโช่ แฟมิลี่ และทำการเค้นสอบตาม\nแบบฉบับของ SRT จนได้รู้ว่าแท้จริงแล้วการ์ปัชโช่ แฟมิลี่จงใจสร้างเรื่อง\nโกหกเพื่อปลุกปั่นความหวาดกลัว แต่วินาทีนั้นเอง ปูยักษ์ตัวหนึ่งก็โผล่มา\nโจมตีท่าเรือ",
+  "DescTW": "抓住卡爾帕喬家族幹部進行SRT式審問的FOX小隊。透過審問察覺到卡爾帕喬家族刻意散布恐懼的那一瞬間，一隻巨大的螃蟹襲向了港灣。",
+  "DialogJP": [
+    {
+      "Text": "第9話;SRT式尋問法"
+    },
+    {
+      "Text": "鐘崎港倉庫前"
+    },
+    {
+      "Name": "カルパッチョ構成員B",
+      "Text": "誰だ？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "私だよ。あんたらの[ruby=Capo]支部長[/ruby]だ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "私の顔を忘れたわけ？"
+    },
+    {
+      "Name": "カルパッチョ構成員A&B",
+      "Text": "あっ、姐さん……失礼しました！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "はいはい。で、午後は何もなかった？"
+    },
+    {
+      "Name": "カルパッチョ構成員A",
+      "Text": "はい！私らがここを守ってる間、カニ一匹近寄りませんでした！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "まぁ、そりゃそうだ。\nカルパッチョ・ファミリーの縄張りをうろつくような怖いもの知らずなんて――"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "――いや、最近ちょっと増えてきてる気もするけどね。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "すみません～デリバリーをお届けに来たのですが、入り口に誰もいなくて。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "外においておいたら悪くなっちゃうので、人を探しにここまで来てしまいました。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "本当か？正門の警備がここまで通したと？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "えっと……正門には誰もいませんでしたよ？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "チッ……カルパッチョ・ファミリーの格も、昔ほどじゃないってことか。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ボスの信頼を取り戻すためにも、次の入札を落とすわけにはいかない……！"
+    },
+    {
+      "Name": "カルパッチョ構成員B",
+      "Text": "姐さん、何か心配事でも？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "いや、別に。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "それよりあんた達、昼の巡回当番じゃなかった？\nもう18時過ぎてるのに、なんでまだ倉庫に張り付いてるわけ？"
+    },
+    {
+      "Name": "カルパッチョ構成員A",
+      "Text": "あ、それが……。"
+    },
+    {
+      "Name": "カルパッチョ構成員B",
+      "Text": "夜の巡回だった連中が腹を壊しまして。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "弱っちい奴らね。何食ったらそうなるの？"
+    },
+    {
+      "Name": "カルパッチョ構成員B",
+      "Text": "なんとか寿司？だったような。\n昨日デリバリーで頼んだとかで。"
+    },
+    {
+      "Name": "カルパッチョ構成員A",
+      "Text": "それで今夜の巡回に穴が空いちまって、どうするか悩んでたとこです。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "こんのバカども……。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "私が来なかったら一晩中待つつもりだったの！？"
+    },
+    {
+      "Name": "カルパッチョ構成員A&B",
+      "Text": "す、すみません！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "寮に行ってサトウとスズキ連れてきな。今日は非番だから暇してるはずさ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "休みは後でカポが埋め合わせするって言っときな。今日はちょいと頑張れって。"
+    },
+    {
+      "Name": "カルパッチョ構成員A&B",
+      "Text": "は、はい……！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "……何グズグズしてんの？"
+    },
+    {
+      "Name": "カルパッチョ構成員A",
+      "Text": "あ、どっちが行くかで悩んでまして。"
+    },
+    {
+      "Name": "カルパッチョ構成員B",
+      "Text": "いつもボスが言ってるじゃないですか。\n区画守る時は常に2人1組。持ち場を空けるなって。だから……。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "はぁ……ほんっと、手がかかるわね。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "じゃあ何？\n片方が呼びに行ってる間、もう片方はここで私と駄弁るつもりだったの？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "1分1秒でも早く連れてくるなら、2人で動いた方が早いに決まってんでしょ！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "それとも……いっちょ前に私の心配でもしてるわけ？"
+    },
+    {
+      "Name": "カルパッチョ構成員A&B",
+      "Text": "い、いえ！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "さっさと行って連れてきな！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "……はぁ。あんな間抜けを抱えて区画を回す羽目になるなんて。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "あの……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "さすがに不意打ちされたら、カポでも危ないんじゃないですかね？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "は？いま、何て――"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "――っぐ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "多分あんたのボスは、こういう状況を心配してたんだろうけど。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "こちらFOX3。カルパッチョ・ファミリーの中間管理職を確保したわ。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "FOX4、了解。半径50m以内に他構成員の気配なし。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "FOX1、了解。ターゲットは秘匿してポイントチャーリーへ移送。目撃者に注意しろ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "何なんだ、よ……。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "うっ……うぅぅ……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……意識、戻りました？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ここは……どこだ。お前らは……？"
+    },
+    {
+      "Text": "鐘崎港外れの廃倉庫"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "FOX1、ターゲットの意識が回復したよ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "横で騒音を出し続けた甲斐があったな。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "では、尋問を始める。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "尋問……？ハッ、私をか？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "あんたら、見たことない制服だが――"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "アランチーノ・ファミリーの差し金か？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "大人まで連れて、ずいぶん威勢がいいじゃないか。\nこんなことして、うちのボスが黙っちゃいないよ？"
+    },
+    {
+      "Text": "[s] \"え、えっと……。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "耳を貸す必要はありませんよ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "苦し紛れの脅しですから。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "黙れ。お前に質問は許していない。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "はは、ずいぶん偉そうだね。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "いいよ、見せてもらおうか。何をしようが私は口を割らないけどね。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "組織を裏切るくらいなら、いっそカニの餌になった方が――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "FOX2。これ、発電機逝ってない？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "他にないの？ついでにもうちょっとパワフルなやつ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ま、待て！何をする気だ！？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "何って。さっき言ったでしょ？\n尋問。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "でも悪いけど、もう少し待ってくれる？\n配線がまだ途中なんだよね。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "そ、それで拷問しようってのか！？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "そんな残酷なこと……連邦生徒会が黙ってないぞ！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "お、お前らも聞いたことくらいあるだろ？\nD.U.で度を過ぎたことをすると、連邦生徒会長直属の特殊部隊が来るって……！"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "逃げたってキヴォトスの果てまで追ってくるんだぞ……！\nお、お前ら、連邦生徒会長が怖くないのか！？"
+    },
+    {
+      "Text": "[s] \"あ、その特殊部隊なら……。\""
+    },
+    {
+      "Name": "クルミ",
+      "Text": "問題ないわ。話はつけてきたから。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "うんうん。ものすごーく誠実な「対話」をしてきたよ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "あんたらが連邦生徒会長と直で話した？ホラも大概に――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "まぁまぁ。そんなに心配しなくていいよ。\n傷跡が残るようなことまではするつもりないし。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "この発電機は、サーバーを回すために持ってきただけ。\n人に使うためじゃないから。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "サーバー……？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あなたのお名前は、タカハシさん。\nカルパッチョ・ファミリーのカポで、鐘崎港を警備するチームのリーダー……ですよね？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "構成員からは、血も涙もないと怖がられているみたいですけど、\n実は「可愛いもの集め」が趣味だとか――"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "お、お前……どうしてそれを……！"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "ご自身で全部書いているじゃないですか。「フルリンク」の裏アカに。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "もちろん、隠しているつもりだったようですが……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "フォローしているアカウントと、タカハシさんの行動ルーティンを照らし合わせたら、\nすぐに特定できました。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "先月はウロミちゃんの限定ぬいぐるみを買いに、\nコーギータウンのポップアップストアにも行ってて……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "あら。可愛い猫も一匹、飼ってるんですね。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "くっ……。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "さて。この裏アカをバラしたら……どうなるでしょう？"
+    },
+    {
+      "Text": "[s1] \"なんて恐ろしい発想なんだ……！\""
+    },
+    {
+      "Text": "[s2] \"怖い……怖すぎます……。\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "や、やめろ！そんなことをされたら私の威厳が――！"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "であれば、質問に素直に答えた方がいいと思いますよ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "「化け蟹」の噂を流した理由は何ですか？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "チッ……そこまで掴んでるのか。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "だが……私はボスの寵愛を受けるカポ。港の商人会が震える恐怖の――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "まだ分かってないみたいだねぇ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "FOX1。さっき言われたやつ、持ってきたわよ。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "これでしょ？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……よし、ご苦労。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "FOX3、交渉が決裂したらすぐカポの家に行け。これを飼い猫に食わせるんだ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "なっ、何を食わせる気だ……！？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "「いなり社」のツナ味ウェットの缶。\n猫がどれだけ食いつくか……猫好きなら分かるわよね？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "知らない人から高級缶を差し出されたら……猫はどうすると思う？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ま、まさか……。"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "いつもの味気ないカリカリとは段違い。たまらず普段は見せないような甘え方をしたり――"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "あ。[ruby=・]ま[/ruby][ruby=・]ず[/ruby][ruby=・]い[/ruby][ruby=・]餌[/ruby][ruby=・]し[/ruby][ruby=・]か[/ruby][ruby=・]く[/ruby][ruby=・]れ[/ruby][ruby=・]な[/ruby][ruby=・]い[/ruby][ruby=・]飼[/ruby][ruby=・]い[/ruby][ruby=・]主[/ruby]とは、ちょっと距離できちゃうかも？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "どうしてそんな残酷なことができるんだ！？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……残酷？"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "勘違いしているみたいだな。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "私たちは人じゃない。「執念深くて残酷な狐」だ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "取引に応じないのなら、お前が想像している以上のことも平気でやる。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ぐぅっ……！"
+    },
+    {
+      "Text": "[s3] \"みんな落ち着いて。\""
+    },
+    {
+      "Text": "[s4] \"相手が話す隙は残してあげよう？\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "大人……お前は誰だ？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "お前らにしたって、大人を連れてるってことは、ただのチンピラじゃないな。\n企業の人間か？"
+    },
+    {
+      "Text": "[s5] \"私はシャー……この子たちの保護者だよ。\""
+    },
+    {
+      "Text": "[s6] \"乱暴なやり方で連れてきてごめんね。\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "はっ、今さら謝られて誰が信じる？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "丸め込もうったって、腹の底は見え見えなんだよ。"
+    },
+    {
+      "Text": "[s7] \"私の顔を賭けて誓うよ。\""
+    },
+    {
+      "Text": "[s8] \"私たちはカルパッチョ・ファミリーの利権に、欠片も興味がない。\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "そんな言葉を信じ――"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "……本当に、今回の入札には興味ないのか？"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "お、先生が出ると一気に空気が柔らかくなるねぇ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "古典的だが、飴とムチは有効な戦略だ。先生が飴役とは想定外だったが。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "たぶん先生はそういう意図で宥めたわけじゃないと思うけど……。"
+    },
+    {
+      "Text": "[ns] \"私たちは、噂を流した理由が知りたいだけだよ。\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "恐怖を煽る理由くらい、大人なら分かるだろ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "人間は感情が昂ると判断が鈍る。それが喜びでも、悲しみでも、恐怖でも……。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "感情が先に立てば理性的には考えられない。他人の言葉にも簡単に振り回される。"
+    },
+    {
+      "Text": "このキヴォトスには、[ruby=・]恐[/ruby][ruby=・]怖[/ruby]が足りない。"
+    },
+    {
+      "Text": "[log=카야]このキヴォトスには、[ruby=・]恐[/ruby][ruby=・]怖[/ruby]が足りない。[/log]"
+    },
+    {
+      "Text": "……ありったけの恐怖を見せれば、"
+    },
+    {
+      "Text": "……ありったけの恐怖を見せれば、"
+    },
+    {
+      "Text": "誰もが私の言うことを聞くようになる。"
+    },
+    {
+      "Text": "[log=카야]……ありったけの恐怖を見せれば、誰もが私の言うことを聞くようになる。[/log]"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "その中で最もコントロールしやすいのが「恐怖」だ。\n未知の存在は、とりあえず怖がるからな。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "そう、連邦生徒会長の特殊部隊みたいなもんだよ。\nいるかもしれない。それだけでチンピラどもは手を出しにくくなるだろ？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "本当に存在するか、何人捕まえたかなんて、重要じゃない。"
+    },
+    {
+      "Text": "人々の恐怖の上に建てられた学園が……"
+    },
+    {
+      "Text": "[log=미야코]人々の恐怖の上に建てられた学園が……[/log]"
+    },
+    {
+      "Text": "どうしてSRT特殊学園になれるというのですか？"
+    },
+    {
+      "Text": "[log=미야코]どうしてSRT特殊学園になれるというのですか？[/log]"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "………。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "組織を維持するために、似た手を借りただけだ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "「怖い目にあいたくないなら、ウチの仕事に手を出すな」、ってな。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "恐怖を植えつけるなら、他にも手段はあったはずだ。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "わざわざ「カニ」の噂を選んだ理由は何だ？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "港で動く連中に馴染みがある怪談を見つけたから使っただけだ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "「カルパッチョに逆らえばカニの餌。未知の恐怖に直面する」"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "とはいえ、一番大事なのは誰も傷つかないってことだ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "少し調べれば――いや、港で働く者ならすぐに分かる。\n[ruby=・]普[/ruby][ruby=・]通[/ruby][ruby=・]サ[/ruby][ruby=・]イ[/ruby][ruby=・]ズ[/ruby][ruby=・]の[/ruby][ruby=・]カ[/ruby][ruby=・]ニ[/ruby]に大した力は無い。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "だけど私らが相手にしてるのは不特定多数の一般人だ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "鋭そうなハサミと硬そうな甲羅、そのイメージだけで恐怖を連想する。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "ただの噂話じゃあヴァルキューレは動かない。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "私らは形のない恐怖を利用しているだけだ。"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "何も問題ないだろう？なにせ、誰も消えてないじゃないか。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……よくもまぁぬけぬけと。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "多くの者が不安を抱き、入札が始まる前から勝者が決まってしまう。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "どうして「問題がない」と言い切れる！？"
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "な、なんだよ急に。何か地雷踏んだか？"
+    },
+    {
+      "Text": "[ns] \"ユキノ、落ち着いて。\""
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "ですが、私は――"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "ん？何の音？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "なんか「カチカチ」してる？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "昆虫とか、節足動物が動く時みたいな……。"
+    },
+    {
+      "Name": "オトギ",
+      "Text": "……ゴキブリが大量発生してるとか？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ゾッとすること言わないで！\nゴキブリがこんな音出すわけないでしょ！？"
+    },
+    {
+      "Name": "クルミ",
+      "Text": "ていうか、この揺れなに？近くで重機でも使ってるわけ？"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "この時間に工事の予定があるなんて聞いてないよ。"
+    },
+    {
+      "Name": "ニコ",
+      "Text": "……それに、音がどんどん大きくなってる。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "先生、下がってください。"
+    },
+    {
+      "Name": "ユキノ",
+      "Text": "……来ます。"
+    },
+    {
+      "Text": "[s] \"な、何が……？\""
+    },
+    {
+      "Name": "カルパッチョ幹部",
+      "Text": "なんだよアレ――！？"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제9화;SRT식 설득법"
+    },
+    {
+      "Text": "카네사키 항구. 창고 앞."
+    },
+    {
+      "Name": "카르파초 조직원 B",
+      "Text": "거기 누구냐?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "나다, 나. 너희 [ruby=지부장]카포[/ruby]."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "너희는 이제 누님 얼굴도 기억하지 못하는 거냐?"
+    },
+    {
+      "Name": "카르파초 조직원 A&B",
+      "Text": "앗, 누님…… 실례했습니다!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그래, 그래. 오후에는 별 일 없었고?"
+    },
+    {
+      "Name": "카르파초 조직원 A",
+      "Text": "네! 저희가 이 앞을 지키고 있는 동안 게 한 마리 얼씬거리지 않았습니다."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그렇겠지. 어느 겁없는 놈이 감히 카르파초 패밀리의 영역을 어슬렁거리겠어?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "아니. 최근 좀 늘어난 것 같긴 하지만……"
+    },
+    {
+      "Name": "니코",
+      "Text": "죄송합니다~ 식사 배달을 왔는데 입구에 아무도 안 계셔서요."
+    },
+    {
+      "Name": "니코",
+      "Text": "상해 버릴지도 모르는 음식을 그냥 두고 가기도 그래서, 사람을 찾다 보니 여기까지 와 버렸네요."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그게 정말이야? 정문에서 경비 서는 녀석들이 널 그냥 보내줬다고?"
+    },
+    {
+      "Name": "니코",
+      "Text": "네. 정문에는 아무도 없었는걸요?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "쳇, 역시 카르파초 패밀리의 위상도 예전만 하지는 않나."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "보스의 신임을 되찾기 위해서라도, 이번 입찰은 무조건 성공시켜야 해……!"
+    },
+    {
+      "Name": "카르파초 조직원 B",
+      "Text": "누님, 무슨 걱정이라도 있으십니까?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "아니, 아무것도 아니야."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그보다 너희는 주간 순찰 당번 아니었어? 오후 6시가 넘었는데 왜 아직도 너희들이 창고를 지키고 있는 거야?"
+    },
+    {
+      "Name": "카르파초 조직원 A",
+      "Text": "아 그게……"
+    },
+    {
+      "Name": "카르파초 조직원 B",
+      "Text": "오늘 야간 순찰을 돌기로 했던 당번 녀석들이 어제 배달 음식을 잘못 시켜 먹었는지, 배탈이 났다고 해서요."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "나약한 녀석들 같으니. 뭘 먹었는데 그래?"
+    },
+    {
+      "Name": "카르파초 조직원 B",
+      "Text": "글쎄요. 무슨 초밥이라고 했던가. 요즘 같은 날씨에 초밥은 상하기 쉬운데, 야식으로 그걸 먹고 탈이 났다고 하더군요."
+    },
+    {
+      "Name": "카르파초 조직원 A",
+      "Text": "여하튼 그 때문에 오늘 야간 순번에 공백이 생겨서 어떻게 해야할지 고민하던 중이었습니다."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "이 미련한 녀석들……"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "내가 안 왔으면 둘이서 밤새 기다릴 생각이었어?!"
+    },
+    {
+      "Name": "카르파초 조직원 A&B",
+      "Text": "죄, 죄송합니다!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "기숙사에 가서 사토와 스즈키를 데려와. 오늘 비번이니 아마 한가하게 쉬고 있을 거야."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "휴가는 나중에 카포가 따로 챙겨줄테니, 오늘만 좀 고생해 달라고 말하고."
+    },
+    {
+      "Name": "카르파초 조직원 A&B",
+      "Text": "아, 네……!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……뭘 머뭇거리는 거야?"
+    },
+    {
+      "Name": "카르파초 조직원 A",
+      "Text": "아, 저희 둘 중 누가 가야 할지 고민하고 있었습니다."
+    },
+    {
+      "Name": "카르파초 조직원 B",
+      "Text": "아시겠지만 구역을 지킬 때는 언제나 2인 1조로 자리를 비우지 말라고 보스께서 말씀하셨기에—"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하아…… 진짜 가지가지 하는 구만."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그럼 한 사람이서 비번들을 데려오는 동안, 나머지 한 사람은 여기서 나랑 노가리라도 까려고 했던 거야?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "1분 1초라도 빨리 찾으려면 둘이서 같이 움직여야 할 거 아냐!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그게 아니라면…… 나 혼자서는 이 창고 하나 지키지 못할 거라고 걱정이라도 했냐?"
+    },
+    {
+      "Name": "카르파초 조직원 A&B",
+      "Text": "아, 아닙니다!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그게 아니라면 빨리 가서 데려와!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……하아, 이런 미련한 녀석들을 데리고 구역을 관리해야 한다니."
+    },
+    {
+      "Name": "???",
+      "Text": "저기, 카포."
+    },
+    {
+      "Name": "???",
+      "Text": "아무리 그래도 불의의 습격을 당한다면 카포라도 위험하지 않을까요?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "뭐? 너 지금 말 다했—"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……윽."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "아마 네 보스는 이런 상황을 걱정했겠지만."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "여기는 FOX 3. 카르파초 패밀리의 중간 관리자를 확보했다."
+    },
+    {
+      "Name": "오토기",
+      "Text": "FOX 4 확인. 반경 50m 이내에 타 조직원의 기척은 확인되지 않는다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "FOX 1 확인. 타겟은 은밀히 포인트 찰리로 호송할 것. 목격자에 주의하라."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "이게 도대체 무슨……"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "으으, 으으으……"
+    },
+    {
+      "Name": "???",
+      "Text": "……정신이 좀 드시나요?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "여기는 도대체…… 그리고 너희들은……?"
+    },
+    {
+      "Text": "카네사키 항구 외곽 폐 창고"
+    },
+    {
+      "Name": "니코",
+      "Text": "FOX 1, 타겟이 의식을 회복한 것 같아."
+    },
+    {
+      "Name": "유키노",
+      "Text": "다행이군. 옆에서 계속 소음을 낸 보람이 있어."
+    },
+    {
+      "Name": "유키노",
+      "Text": "그럼 심문을 시작하지."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……심문? 하, 나를 심문하겠다고?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "어디 보자, 처음 보는 교복인데……"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "너희들, 아란치노 패밀리에서 보냈나?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "어른까지 대동하고 아주 기세가 등등해 보이는데. 우리 보스가 가만히 있을 것 같아?"
+    },
+    {
+      "Text": "[s] \"어, 그게 그러니까……\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "대답하실 필요 없습니다, 선생님."
+    },
+    {
+      "Name": "유키노",
+      "Text": "어차피 역으로 겁을 주려는 속셈일테니까요."
+    },
+    {
+      "Name": "유키노",
+      "Text": "조용. 질문은 이쪽에서만 한다."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하하, 대단한 위세인데."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "어디 한번 보자고. 네 녀석들이 무슨 짓을 하든 내가 입을 여는 일은 없을 테니까."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "조직을 배신하느니 차라리 게 먹이가 되는 게 낫지—"
+    },
+    {
+      "Name": "오토기",
+      "Text": "FOX 2, 이거 발전기 나간 것 같은데."
+    },
+    {
+      "Name": "오토기",
+      "Text": "다른 예비 발전기 없어? 좀 더 전력 강한 녀석으로."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "자, 잠깐. 그걸로 뭘 할 생각이야?!"
+    },
+    {
+      "Name": "오토기",
+      "Text": "뭘 하긴. 방금 말했잖아? 심문이라고."
+    },
+    {
+      "Name": "오토기",
+      "Text": "미안한데 조금만 더 기다려 줄래? 전선 정리가 아직 덜 끝났거든."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그, 그런 걸로 사람을 고문하겠다고?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그런 잔혹한 짓을 저지르고도 총학생회에서 가만히 있을 것 같아?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "너, 너희들도 들어본 적 있겠지. D.U. 자치구 내에서 잔혹한 짓을 저지르면 총학생회장의 직속 특수부대가 찾아온다는 소문을……!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그 특수부대는 아무리 도망쳐도 키보토스 끝까지 따라온다고 하던데…… 너, 너희들은 총학생회장이 두렵지 않은 거야?!"
+    },
+    {
+      "Text": "[s] \"아, 그 특수부대라면……\""
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "걱정 마. 이미 오기 전에 당사자와 잘 협의하고 왔으니까."
+    },
+    {
+      "Name": "오토기",
+      "Text": "암, 암. 아주 진솔한 대화를 나누고 왔지."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "네 녀석들이 총학생회장과 직접 협의를 했다고? 허풍도 정도껏 쳐야지—"
+    },
+    {
+      "Name": "오토기",
+      "Text": "그리고 너무 걱정하진 마. 우리도 피부에 흉터가 남을 만큼 잔혹한 짓을 저지를 생각은 없거든."
+    },
+    {
+      "Name": "오토기",
+      "Text": "여기 있는 발전기도 인터넷 서버를 가동시키기 위해 가져온 거지, 사람에게 쓰려고 가져온 건 아니니까."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "인터넷 서버……?"
+    },
+    {
+      "Name": "니코",
+      "Text": "카르파초 패밀리의 카포이자, 카네사키 항구의 경비 용역을 담당하고 있는 타카하시 팀장님 맞으시죠?"
+    },
+    {
+      "Name": "니코",
+      "Text": "조직원들에게는 피도 눈물도 없는 무시무시한 누님으로 여겨지고 있는 모양이지만, 사실 귀여운 물건을 수집하는 취미가 있으시다고—"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "네 녀석, 그렇 어떻게……!"
+    },
+    {
+      "Name": "니코",
+      "Text": "<후루링크>의 뒷 계정을 보니 자세히 나와 있던걸요?"
+    },
+    {
+      "Name": "니코",
+      "Text": "물론 가명을 써서 숨기려 하신 모양이지만……"
+    },
+    {
+      "Name": "니코",
+      "Text": "팔로우한 다른 계정과 팀장님의 행동 루틴을 대조해보니 금방 찾을 수 있었답니다."
+    },
+    {
+      "Name": "니코",
+      "Text": "지난 달에는 한정 우로미 인형을 구입하기 위해 코기타운의 팝업 스토어에도 다녀오신 모양이고……"
+    },
+    {
+      "Name": "니코",
+      "Text": "어머나, 귀여운 고양이도 한 마리 기르고 계셨네요."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "큭……"
+    },
+    {
+      "Name": "니코",
+      "Text": "그런데 이 뒷 계정을, 카르파초 패밀리의 공식 계정에 업로드해서 모두가 볼 수 있게 하면 어떨까요?"
+    },
+    {
+      "Text": "[s1] \"어떻게 그런 무시무시한 생각을……!\""
+    },
+    {
+      "Text": "[s2] \"두려워져요.\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그, 그만둬! 그랬다가는 조직에서의 내 권위가 박살나고 만다고!"
+    },
+    {
+      "Name": "니코",
+      "Text": "그러니 지금은 저희의 질문에 순순히 답해주시는 게 좋을 거예요."
+    },
+    {
+      "Name": "니코",
+      "Text": "자, 타카하시 팀장님. 사람을 습격하는 괴물 게의 소문을 낸 이유가 무엇인가요?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "큿, 거기까지 이미 알고 있었나."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하지만 순순히 답해줄 수는 없지. 이 몸은 카르파초 보스의 총애를 받는 카포이자, 카네사키 상인회가 벌벌 떠는 공포의—"
+    },
+    {
+      "Name": "오토기",
+      "Text": "이거, 아무래도 아직 정신을 못차린 모양인데."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "FOX 1, 아까 말한 고양이 간식 가져왔어."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "이나리 사의 참치맛 습식 캔, 이거 맞지?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "음, 수고했다."
+    },
+    {
+      "Name": "유키노",
+      "Text": "FOX 3. 협상이 결렬되면 바로 카포의 집으로 가서 이 간식을 그녀의 애완 고양이에게 먹이도록."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "지, 지금 내 고양이에게 무얼 먹이려는 거야?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "너도 애묘인이라면 잘 알고 있겠지? 고양이들이 이 간식 캔을 얼마나 좋아하는지."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "식사 시간에 주인 대신 낯선 사람이 들어와 이 고급 간식 캔을 내민다면 고양이는 어떤 반응을 보일까?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "서, 설마……"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "평소에 먹던 밋밋한 사료와는 비교도 되지 않는 풍미에 평소에 보이지 않았던 애교를 부릴지도 모르지."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "아, 어쩌면 맛없는 사료만 주는 주인과는 관계가 꽤 서먹서먹해질지도?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "이 악마 같은 놈들! 어떻게 사람의 탈을 쓰고 그런 극악무도한 짓을……!"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……사람의 탈?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "뭔가 착각을 한 모양인데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "우리는 사람이 아니라, 집요하고 잔혹한 여우일 뿐이야."
+    },
+    {
+      "Name": "유키노",
+      "Text": "네가 거래에 응하지 않는다면 네가 상상하는 것 이상의 잔혹한 짓도 얼마든지 저지를 수 있어."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그으읏……!"
+    },
+    {
+      "Text": "[s3] \"일단 다들 진정해.\""
+    },
+    {
+      "Text": "[s4] \"상대가 말할 틈은 주어야지.\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "너는 또 누구야?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "어른을 데리고 온 걸 보니, 단순한 불량배는 아닐테고. 기업에서 온 녀석들인가?"
+    },
+    {
+      "Text": "[s5] \"나는 샬…… 아니, 이 아이들의 보호자야.\""
+    },
+    {
+      "Text": "[s6] \"이렇게 거친 방법으로 데려와서 미안해.\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하, 이제와서 그런다고 누가 믿을 것 같아?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그렇게 달콤한 목소리로 꾀어내 봤자 네 흑심은 뻔히 보이는 걸."
+    },
+    {
+      "Text": "[s7] \"내 얼굴을 걸고 맹세할게.\""
+    },
+    {
+      "Text": "[s8] \"우리는 카르파초 패밀리의 이권에는 조금도 관심이 없어.\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "네가 누군지 알고 네 얼굴을 믿고—"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……정말로 이번 용역 재계약에는 관심이 없는 거야?"
+    },
+    {
+      "Name": "오토기",
+      "Text": "오, 선생이 나서니 바로 분위기가 누그러졌는데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "당근과 채찍은 뻔하지만 언제나 잘 먹히는 전략이지. 선생님께서 당근을 맡아줄 거라곤 생각지 못했지만."
+    },
+    {
+      "Name": "니코",
+      "Text": "아마 선생님께서는 그런 의도로 달랜 건 아니시겠지만……"
+    },
+    {
+      "Text": "[ns] \"우리는 그저 너희가 어째서 그 소문을 냈는지 알고 싶을 뿐이야.\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "……어른이라면 뻔히 알 거 아냐? 공포를 조장하는 이유 정도는."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "사람은 감정이 격해지면 판단이 흐려지는 법이지. 기쁨이든, 슬픔이든, 두려움이든……"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "감정이 앞서게 되면 이성적인 판단을 하지 못하고, 타인의 말에 쉽게 휘둘리지."
+    },
+    {
+      "Text": " 이 키보토스에는 공포가 부족해. "
+    },
+    {
+      "Text": "[log=카야]이 키보토스에는 공포가 부족해.[/log]"
+    },
+    {
+      "Text": " ……충분한 공포를 보여준다면"
+    },
+    {
+      "Text": " ……충분한 공포를 보여준다면"
+    },
+    {
+      "Text": "  모두가 내 말을 따를 거야. "
+    },
+    {
+      "Text": "[log=카야]……충분한 공포를 보여준다면 모두가 내 말을 따를 거야.[/log]"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "이 중 가장 통제가 쉬운 감정이 공포야. 사람들은 알지 못하는 미지의 존재는 일단 두려워하니까."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그래, 총학생회장의 그 특수부대랑 비슷한 거라고. 실제로 마주한 적도 없으면서, 그 존재 만으로도 많은 불량 학생들이 범죄에 손을 대길 꺼려하잖아?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "실제로 그 특수부대가 존재하는지, 범죄자를 몇이나 체포했는지는 중요하지 않지."
+    },
+    {
+      "Text": " 사람들의 공포 위에 세워진 학원이 "
+    },
+    {
+      "Text": "[log=미야코]사람들의 공포 위에 세워진 학원이[/log]"
+    },
+    {
+      "Text": " 어떻게 SRT 특수학원이 될 수 있죠? "
+    },
+    {
+      "Text": "[log=미야코]어떻게 SRT 특수학원이 될 수 있죠?[/log]"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "우리도 조직을 유지하기 위해서 비슷한 수법을 빌린 것 뿐이야."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "'미지의 공포를 마주하고 싶지 않다면, 우리의 일에 손대지 마라—'"
+    },
+    {
+      "Name": "유키노",
+      "Text": "공포를 심을 속셈이었다면, 수단은 그 밖에도 많았을 텐데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "굳이 게와 관련된 소문을 퍼트린 이유는 뭐야?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "처음에는 그저 우연이었어. 항구에서 활동하는 우리 조직원들 입장에서 써먹기 좋은 괴담을 발견했기에 쓴 것뿐이었지."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "'카르파초 패밀리에 거스르면 게 먹이가 된다. 미지의 공포를 마주하게 된다.'"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하지만 그보다 더 중요한 건 현실의 그 누구도 피해를 보지 않는다는 것이지."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "조금만 조사해보면— 아니, 항구에서 일하는 사람이라면 '평범한 크기의 게'는 사람을 해칠 수 없다는 걸 누구나 쉽게 알 수 있어."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "하지만 우리가 상대하는 불특정 다수의 일반인은 어떨까?"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "일견 날카로워보이는 집게와 딱딱한 게의 이미지에서 그 공포를 쉽게 떠올릴 수 있지."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "그것만으로는 발키리도 수사에 나서지 않을 거야."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "우리는 그저 그 형체 없는 공포에서 이득만 보는 것뿐이라고."
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "봐. 아무런 문제도 없고, 아무도 사라지지 않았잖아?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "……어떻게 그리 당당하게 말할 수 있는 거지?"
+    },
+    {
+      "Name": "유키노",
+      "Text": "공포로 많은 사람들이 불안에 떨고, 경쟁이 시작되기도 전에 승자가 정해졌는데."
+    },
+    {
+      "Name": "유키노",
+      "Text": "어떻게 문제가 없다고 단언할 수 있는 거지?!"
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "가, 갑자기 왜 그러는 거야? 내가 뭐 말실수라도 했어?"
+    },
+    {
+      "Text": "[ns] \"유키노, 진정해.\""
+    },
+    {
+      "Name": "유키노",
+      "Text": "하지만 저는—"
+    },
+    {
+      "Name": "오토기",
+      "Text": "응? 갑자기 이게 무슨 소리지?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "뭔가 잘각 잘각하는 소리가 나는데."
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "곤충이나 절지류가 움직일 때 나는 소리랑 비슷해."
+    },
+    {
+      "Name": "오토기",
+      "Text": "……이 근처에서 바퀴벌레가 대량 발생했나?"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "소름 끼치는 소리 하지마! 바퀴벌레가 이렇게 큰 소리를 낼리가 없잖아?!"
+    },
+    {
+      "Name": "쿠루미",
+      "Text": "게다가 이 울림은 또 뭐야? 무거운 중장비가 움직이는 것처럼 땅이 흔들리고 있는데."
+    },
+    {
+      "Name": "니코",
+      "Text": "이 시간에 공사가 예정되어 있다는 정보는 듣지 못했는데."
+    },
+    {
+      "Name": "니코",
+      "Text": "……게다가 소리가 조금씩 커지고 있어."
+    },
+    {
+      "Name": "유키노",
+      "Text": "선생님, 뒤로 물러나십시오."
+    },
+    {
+      "Name": "유키노",
+      "Text": "……옵니다."
+    },
+    {
+      "Text": "[s] \"……뭐가?\""
+    },
+    {
+      "Name": "카르파초 간부",
+      "Text": "저게 뭐야——?!"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 9;SRT-Style Persuasion"
+    },
+    {
+      "Text": "Kanesaki Port: Warehouse Front"
+    },
+    {
+      "Name": "Carpaccio Member B",
+      "Text": "Who goes there?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Me, the branch head, and your capo."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "You don't even recognize me anymore?"
+    },
+    {
+      "Name": "Carpaccio Member A & B",
+      "Text": "Ah... Excuse us!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Save your excuses. Anything to report?"
+    },
+    {
+      "Name": "Carpaccio Member A",
+      "Text": "No! Not a single crab wandering around or nothin'!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "As it should be. Only a fool would dare step foot into Carpaccio territory uninvited."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Although there has been an excess of fools as of late."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Sorry... I was here to deliver, but no one was minding the door."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I couldn't leave the food there to spoil. So I walked in, hoping to find someone I could hand this off to..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Is that so? You're telling me that the security at the main entrance just let you in?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "No... Because there was no security at the door. Th-That's why I came inside."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Tch. There was a time when people would be afraid to whisper our name. Now we've got food delivery girls walking in like they own this place."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "All we need to do is win this bid! Then the boss'll trust us again."
+    },
+    {
+      "Name": "Carpaccio Member B",
+      "Text": "Is something botherin' you, sis?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "No, nothing."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "More importantly, aren't you on the daytime shift this week? It's past six, go home."
+    },
+    {
+      "Name": "Carpaccio Member A",
+      "Text": "Ah, well..."
+    },
+    {
+      "Name": "Carpaccio Member B",
+      "Text": "The night shift had some food delivered last night and got sick."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Weaklings. What did they eat?"
+    },
+    {
+      "Name": "Carpaccio Member B",
+      "Text": "Uh, sushi, I think? They saved it for a late-night snack, but it spoiled by then."
+    },
+    {
+      "Name": "Carpaccio Member A",
+      "Text": "Anyway, we didn't have anyone to cover for them tonight, so we're still trying to figure out what to do."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "You fools..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "What were you going to do if I didn't come? Just sit here all night?!"
+    },
+    {
+      "Name": "Carpaccio Member A & B",
+      "Text": "W-We're sorry!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Go get Sato and Suzuki from their room. They're off today."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Tell them it'll just be for today, and I'll make it up to them later."
+    },
+    {
+      "Name": "Carpaccio Member A & B",
+      "Text": "Ah, yes...!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Well, go! What're you still standing around for?"
+    },
+    {
+      "Name": "Carpaccio Member A",
+      "Text": "We're trying to figure out which of us should go."
+    },
+    {
+      "Name": "Carpaccio Member B",
+      "Text": "Because Boss always says we should stay in pairs when we're on guard duty..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "*sigh* You two are giving me a headache."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "So what was your plan? One of you goes to fetch them, and the other stays here to have a fun little chat with me?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Go! You'll find them faster together!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Or... Do you think I'm not strong enough to guard this warehouse on my own?"
+    },
+    {
+      "Name": "Carpaccio Member A & B",
+      "Text": "No, not at all!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Then GO ALREADY!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "*sigh* I can't believe I have to deal with the likes of them all the time."
+    },
+    {
+      "Name": "???",
+      "Text": "Um, Capo?"
+    },
+    {
+      "Name": "???",
+      "Text": "Don't you think even YOU would be in danger if you were caught in, say, an ambush?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "What are you—"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "...Ugh."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You should've listened to your boss and stayed with a buddy."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "This is FOX 3. I have secured the Carpaccio Family officer."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "FOX 4, roger. You're clear for at least 50 meters."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "FOX 1, roger that. Escort the target to Point Charlie. No witnesses."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Ugh, just what is happening..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Ugh... Aughhh..."
+    },
+    {
+      "Name": "???",
+      "Text": "...Are you awake?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Where am I... And who are you...?"
+    },
+    {
+      "Text": "Kanesaki Port Outskirts: Abandoned Warehouse"
+    },
+    {
+      "Name": "Niko",
+      "Text": "FOX 1, target's awake."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Good. It was worth taking the risk and making noise."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Begin the interrogation."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "...Interrogation? Ha, you're going to interrogate ME?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Let's see, I haven't seen your uniform before..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Did the Arancino Family send you?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "You think having an adult to back you up is going to do anything? My boss is going to come for each and every one of you!"
+    },
+    {
+      "Text": "[s] \"Um, well, so...\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Don't answer her, Sensei."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "These are her pathetic scare tactics."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "We're the ones doing the talking here."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Haha, you're full of energy. I like it."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "But there's not a single thing you can do to get me to talk."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Feed me to the crabs! Do your worst! I'll never betray the family!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "FOX 2, I think this generator died."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Anyone got a spare generator? High output, please."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "W-Wait. What're you gonna do with that?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Eh? Interrogate you, obviously. Are you hard of hearing?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Please be patient. I've got to sort the cables out."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Y-You're going to TORTURE me? With ELECTRIC SHOCKS?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "The General Student Council won't let you get away with this!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "The President is said to have her own special forces unit that'll take you down if you break the law in D.U.! I'm sure you've heard of them."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "And once they've caught your scent, there's no running from them! Y-You're not afraid of the General Student Council President?!"
+    },
+    {
+      "Text": "[s] \"Ah, that special forces unit must be...\""
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Thanks for your concern, but we've already gotten the green light from her."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Yeah, yeah. It was a productive conversation."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "YOU brats spoke to the General Student Council President? Even I'm not that gullible!"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Also, chill out. We're not gonna maim you or anything that evil."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "I needed the generator to get some internet access, not zap you silly."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "The...internet?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "You're Team Lead Takahashi, right? The Carpaccio Family's Capo and manager of Kanesaki Port's contracted security services?"
+    },
+    {
+      "Name": "Niko",
+      "Text": "You have quite the reputation for being merciless, and the other members are terrified of you. But from what I hear, you have a soft spot for collecting cute things."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "H-How do you know that?!"
+    },
+    {
+      "Name": "Niko",
+      "Text": "It's available to the public! On your FruLink burner account."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I'm sure you thought you were safe behind your alias..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "...but it wasn't very hard to analyze your behavioral and algorithm patterns."
+    },
+    {
+      "Name": "Niko",
+      "Text": "How was the pop-up in Corgi Town? The limited-edition Uromi plushie you got is adorable."
+    },
+    {
+      "Name": "Niko",
+      "Text": "My, my. And look at your cute little kitty cat!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Tch..."
+    },
+    {
+      "Name": "Niko",
+      "Text": "That menacing reputation of yours... What do you think will happen to it if I upload this handle to the Carpaccio Family's official account?"
+    },
+    {
+      "Text": "[s1] \"This is crueler than electric torture...!\""
+    },
+    {
+      "Text": "[s2] \"I think a chill just went down my spine.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "S-Stop! Please! You'll ruin everything I've worked for!"
+    },
+    {
+      "Name": "Niko",
+      "Text": "Of course I don't WANT to. But if you don't answer our questions, I'll really have no choice."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Team Lead Takahashi. What was the motive behind spreading rumors about the monster crabs?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Tch. So you're well-informed."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "But I won't tell you. I am the Carpaccio boss' favorite capo and Kanesaki Merchant Guild's feared—"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Guess she still hasn't grasped the situation."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "FOX 1, I brought that cat treat we talked about earlier."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Inari's tuna-flavored wet food can, right?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Yeah, good work."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "FOX 3. If we can't reach an agreement, go to the capo's house and feed this to her cat."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Wh-What do you think feeding my cat is gonna do?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "As a cat enthusiast, you must know that cats go feral for this treat."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Your cat is hungry at home. How do you think your cat would react if someone came in and offered it this delicacy?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "D-Don't tell me..."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "You feed your cat bland kibble. It sure would be grateful and affectionate towards someone who introduces them to a whole new world, won't it?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Maybe it won't even like its owner anymore. The one who's only ever fed them unappetizing food."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Y-You aren't human! You're devils, disguised as people!"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...\"Human\"?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "It seems there's been a misunderstanding."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "We're not humans or devils. We're cruel, cunning foxes."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "If you won't cooperate, you'll find this is just the beginning of your nightmare."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Gah...!"
+    },
+    {
+      "Text": "[s3] \"Calm down, everyone.\""
+    },
+    {
+      "Text": "[s4] \"You should at least give her a chance to talk.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Who are YOU, anyway?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "If you're operating with an adult, you can't be any ordinary punks. Are you working with a corporation?"
+    },
+    {
+      "Text": "[s5] \"I'm Scha—No, their guardian.\""
+    },
+    {
+      "Text": "[s6] \"I apologize for the rough treatment.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "What, y'all trying to play good cop, bad cop?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "You can sugarcoat things all you want, but I see right through you."
+    },
+    {
+      "Text": "[s7] \"I swear on my name.\""
+    },
+    {
+      "Text": "[s8] \"We have no interest in the Carpaccio Family's interests.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "And I'm just supposed to trust you?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "...You're really not after the contract?"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Huh. Sensei worked their magic, just like that."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Good cop, bad cop is a cliche for a reason. Although we didn't discuss Sensei taking on the good cop role during strategy meetings."
+    },
+    {
+      "Name": "Niko",
+      "Text": "Honestly, I don't think they were thinking about it that deeply."
+    },
+    {
+      "Text": "[ns] \"We're really not. We just want to know more about the rumor.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "...You're an adult, ain't you? You know that fear's a useful tool."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Extreme emotions—whether joy, sorrow, or fear—cloud people's judgment."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Once a strong emotion takes hold, a person's vulnerable to manipulation. They make bad decisions."
+    },
+    {
+      "Text": " This Kivotos lacks fear. "
+    },
+    {
+      "Text": "[log=카야]This Kivotos lacks fear.[/log]"
+    },
+    {
+      "Text": " If they fear me,"
+    },
+    {
+      "Text": " If they fear me,"
+    },
+    {
+      "Text": "  then they'll fall into line. "
+    },
+    {
+      "Text": "[log=카야]If they fear me, then they'll fall into line.[/log]"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "It's human instinct to fear the unknown. Which makes fear easy to use."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Think about the General Student Council President's special forces unit. Just their existence is a deterrent to criminals all over Kivotos."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "And people aren't even sure if they exist. Or what they've done. That part doesn't matter."
+    },
+    {
+      "Text": " You're trying to use the fear and terror "
+    },
+    {
+      "Text": "[log=미야코]You're trying to use the fear and terror[/log]"
+    },
+    {
+      "Text": " of the very people our academy was established\nto protect to...rebuild SRT? "
+    },
+    {
+      "Text": "[log=미야코]of the very people our academy was established to protect to...rebuild SRT?[/log]"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "So we made use of a similar tactic. In the name of keeping our family name alive."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "\"Unless you want to face the fear of the unknown, do not meddle in our affairs...\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "There had to have been plenty of other ways to instill fear."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "So why crabs, of all things?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "It was just convenient. We work at a port, so we made use of an already existing urban legend."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "\"Enemies of the Carpaccio Family get fed to the crabs. We are the unknown you fear.\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "If you really look at it, no one got hurt, right?"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "It doesn't take much for any port worker to look into it and realize that some CRABS couldn't possibly eat someone down to their bones."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "And as for the general public..."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "The idea of a crab, with its hard shell and sharp pincers, is enough to make them scared. To keep them afraid of us."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "And Valkyrie's not going to hold an investigation about some weird man-eating crabs."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "We're profiting from a vague feeling of fear. That's it."
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "No one actually disappeared, so there's no real problem here."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...How can you say that so assuredly?"
+    },
+    {
+      "Name": "Yukino",
+      "Text": "People are being forced to live their daily lives with the anxiety and fear you've created. There is no real winner here: only cheaters and oppressors."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "So how can you POSSIBLY claim that no harm has been done here?!"
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "Wh-What're you freaking out about?! Did I say something weird?!"
+    },
+    {
+      "Text": "[ns] \"Yukino, calm down.\""
+    },
+    {
+      "Name": "Yukino",
+      "Text": "But I—"
+    },
+    {
+      "Name": "Otogi",
+      "Text": "Eh? Y'all hear that?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Affirmative. I hear some sort of clacking."
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "It sounds similar to the noise insects or arthropods make when they move."
+    },
+    {
+      "Name": "Otogi",
+      "Text": "...So they've got a roach infestation here?"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "Ugh! Please don't put that image in my head! And cockroaches wouldn't be this loud!"
+    },
+    {
+      "Name": "Kurumi",
+      "Text": "They wouldn't be this heavy, either. The ground's shaking, like someone's operating heavy machinery."
+    },
+    {
+      "Name": "Niko",
+      "Text": "I didn't see any construction on the schedule."
+    },
+    {
+      "Name": "Niko",
+      "Text": "...It's getting louder."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "Sensei, get back."
+    },
+    {
+      "Name": "Yukino",
+      "Text": "...It's coming."
+    },
+    {
+      "Text": "[s] \"...What is?\""
+    },
+    {
+      "Name": "Carpaccio Officer",
+      "Text": "What is that thing?!"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 9;วิธีโน้มน้าวใจฉบับ SRT"
+    },
+    {
+      "Text": "หน้าโกดัง ท่าเรือคาเนะซากิ"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ B",
+      "Text": "นั่นใครน่ะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ฉันเอง หัวหน้าสาขา คาโปของพวกเธอไง"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "จำหน้าลูกพี่คนนี้ไม่ได้แล้วเรอะ?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A&B",
+      "Text": "อ๊ะ ลูกพี่... ขอโทษทีค่ะ!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ช่างเถอะ ช่วงบ่ายนี้ไม่มีอะไรเกิดขึ้นใช่มั้ย?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A",
+      "Text": "ค่ะ! ระหว่างที่พวกฉันยืนเฝ้าอยู่ตรงนี้ แค่ปูสักตัวก็ไม่มีโผล่มาให้เห็นค่ะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ก็คงงั้นแหละ จะไปมีเจ้าบ้าที่ไหนกล้ามาเดินเพ่นพ่านในเขตของการ์ปัชโช่ แฟมิลี่กันล่ะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ไม่สิ ช่วงหลังดูเหมือนจะเริ่มมีมากขึ้นเหมือนกัน..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ขอโทษทีค่ะ~ ฉันมาส่งอาหาร แต่ไม่มีใครอยู่ที่ทางเข้าเลยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถ้าวางอาหารทิ้งไว้ก็อาจจะเสียเอาได้ ก็เลยเดินหาคนไปเรื่อยๆ จนมาถึงที่นี่ค่ะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "จริงเหรอ? พวกที่เฝ้าประตูหน้าปล่อยเธอเข้ามาเฉยๆ งั้นเหรอ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ค่ะ ตรงประตูหน้าไม่มีใครอยู่เลยนะคะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ชิ กะไว้แล้วเชียว บารมีของการ์ปัชโช่ แฟมิลี่ไม่เหมือนเมื่อก่อนแล้วสินะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เพื่อเรียกความไว้วางใจจากบอสกลับคืนมา เราต้องชนะประกวดราคาครั้งนี้ให้ได้...!"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ B",
+      "Text": "ลูกพี่ มีเรื่องกังวลอะไรงั้นเหรอคะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เปล่า ไม่มีอะไรหรอก"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ว่าแต่พวกเธอเข้าเวรแค่ช่วงกลางวันไม่ใช่เหรอ? นี่ก็เลยหกโมงเย็นมาแล้ว ทำไมยังเฝ้าโกดังอยู่ล่ะ?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A",
+      "Text": "อ่า คือว่า..."
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ B",
+      "Text": "พวกที่เข้าเวรกลางคืนวันนี้น่ะสิคะ คงสั่งอาหารอะไรผิดมากินเมื่อวาน ก็เลยท้องเสียกันค่ะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อ่อนแอเสียจริง พวกนั้นไปกินอะไรเข้าล่ะ?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ B",
+      "Text": "ฉันก็ไม่ชัวร์ค่ะ แต่ก็ได้ยินว่าเป็นซูชิอะไรนี่ละค่ะ อากาศร้อนๆ แบบนี้ซูชิเสียง่าย แต่พวกนั้นก็ดันกินเป็นมื้อดึก ก็เลยท้องเสียค่ะ"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A",
+      "Text": "พอเป็นแบบนี้ เวรกลางคืนวันนี้เลยขาดคน พวกฉันกำลังกังวลอยู่เลยค่ะว่าจะทำยังไงกันดี"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ยัยพวกสมองกลวงนี่..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถ้าฉันไม่มา พวกเธอสองคนจะยืนรอกันทั้งคืนเลยหรือไง?!"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A&B",
+      "Text": "ขะ... ขอโทษด้วยค่ะ!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ไปที่หอพักแล้วพาซาโต้กับสึซึกิมา วันนี้เป็นวันหยุดของพวกนั้น คงกำลังพักผ่อนสบายๆ กันอยู่"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "บอกพวกนั้นด้วยว่าคาโปจะชดเชยวันหยุดให้ ขอให้มาช่วยงานวันนี้ก็พอ"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A&B",
+      "Text": "อ่า... ค่ะ...!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "มัวอ้ำอึ้งอะไรอยู่...?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A",
+      "Text": "อ่า... พวกฉันกำลังคิดกันอยู่ว่าใครควรเป็นคนไปน่ะค่ะ"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ B",
+      "Text": "อย่างที่ลูกพี่ก็ทราบดีอยู่แล้วว่าเวลาคุ้มกันพื้นที่ บอสสั่งไว้เสมอว่าต้องทำงานเป็นคู่กันตลอด และห้ามทิ้งหน้าที่เด็ดขาด..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เฮ้อ... มีแต่เรื่องให้ปวดหัวสินะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถ้างั้นระหว่างที่คนหนึ่งไปหาคนอื่นมาทำงานแทน อีกคนจะอยู่คุยจ้อกับฉันอยู่ตรงนี้หรือไง?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถ้าอยากหาพวกนั้นให้เจอให้เร็วที่สุด ก็ต้องไปด้วยกันทั้งคู่สิ!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "หรือว่า... พวกเธอคิดว่าฉันคนเดียวจะเฝ้าโกดังแค่นี้ไม่ไหวหรือไง?"
+    },
+    {
+      "Name": "สมาชิกการ์ปัชโช่ A&B",
+      "Text": "มะ... ไม่ใช่นะคะ!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถ้าไม่ใช่ ก็รีบไปตามตัวพวกนั้นมาซะ!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เฮ้อ... นี่ฉันต้องมาดูแลพื้นที่ร่วมกับพวกหัวทึบแบบนี้เนี่ยนะ"
+    },
+    {
+      "Name": "???",
+      "Text": "นี่ คาโป"
+    },
+    {
+      "Name": "???",
+      "Text": "ต่อให้เป็นถึงระดับคาโป แต่ถ้าโดนโจมตีแบบไม่ทันตั้งตัว มันก็อันตรายไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ว่าไงนะ? เมื่อกี้เธอว่าอะไร..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ที่บอสของเธอกังวล ก็คงเป็นสถานการณ์แบบนี้แหละ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "FOX 3 รายงาน ฉันควบคุมตัวเจ้าหน้าที่ระดับกลางของการ์ปัชโช่ แฟมิลี่ได้แล้ว"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "FOX 4 รับทราบ ไม่พบความเคลื่อนไหวของสมาชิกองค์กรคนอื่นภายในรัศมี 50 เมตร"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "FOX 1 รับทราบ ให้นำตัวเป้าหมายไปยังจุดชาร์ลีอย่างลับๆ ระวังพยานที่อาจพบเห็นด้วย"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "นี่มันเรื่องอะไรกัน..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อะ... อึก..."
+    },
+    {
+      "Name": "???",
+      "Text": "ได้สติขึ้นมาบ้างหรือยังคะ...?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ที่นี่มันที่ไหนกันแน่... แล้วพวกเธอคือ...?"
+    },
+    {
+      "Text": "โกดังร้าง นอกเขตท่าเรือคาเนะซากิ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "FOX 1 ดูเหมือนเป้าหมายจะได้สติแล้ว"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ค่อยยังชั่ว อุตส่าห์ทำเสียงดังอยู่ข้างๆ ในที่สุดก็ตื่นสักที"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เอาละ เริ่มการสอบสวนได้"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "สอบสวน...? เฮอะ จะสอบสวนฉันงั้นเหรอ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ไหนดูซิ ไม่เคยเห็นชุดนักเรียนแบบนี้มาก่อนเลย..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อารันซิโน แฟมิลี่ส่งพวกเธอมาเหรอ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถึงกับพาผู้ใหญ่มาด้วย ดูวางท่าใหญ่โตเชียวนะ คิดว่าบอสของพวกเราจะอยู่เฉยๆ หรือไง?"
+    },
+    {
+      "Text": "[s] \"เอ่อ คือว่า...\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "คุณครูไม่จำเป็นต้องตอบหรอกค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ยังไงอีกฝ่ายก็คงคิดจะข่มขู่พวกเรากลับเท่านั้นค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "เงียบไปเลย พวกฉันเท่านั้นที่มีสิทธิ์ถาม"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ฮ่าฮ่า วางท่าได้ยิ่งใหญ่จริงๆ นะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "งั้นก็ลองดูเลย ไม่ว่าพวกเธอจะทำอะไร ฉันก็ไม่มีทางปริปากหรอก"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ให้ทรยศองค์กร สู้ยอมเป็นอาหารปูยังจะดีกว่า..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "FOX 2 เหมือนเครื่องปั่นไฟตัวนี้จะเสียแล้วนะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "มีเครื่องปั่นไฟสำรองมั้ย? เอาที่กำลังไฟแรงกว่านี้หน่อย"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ดะ... เดี๋ยวก่อน จะเอาของแบบนั้นมาทำอะไร?!"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "จะทำอะไรน่ะเหรอ? ก็เพิ่งบอกไปเมื่อกี้นี่ว่าจะสอบสวนน่ะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แต่ขอโทษนะ ช่วยรออีกนิดได้มั้ย? ฉันยังจัดสายไฟไม่เสร็จเลย"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "จะ... จะเอาของแบบนั้นมาทรมานคนเหรอ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ทำเรื่องโหดเหี้ยมแบบนั้น คิดว่าองค์การนักเรียนจะอยู่เฉยหรือไง?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "พะ... พวกเธอเองก็เคยได้ยินใช่มั้ย ข่าวลือที่ว่าถ้าก่อเรื่องโหดเหี้ยมในเขตปกครองตนเอง D.U. ละก็ หน่วยรบพิเศษของประธานองค์การนักเรียนจะมาล่าตัว...!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ได้ยินมาว่าหน่วยรบพิเศษนั่น ไม่ว่าจะหนีไปไกลแค่ไหนก็จะตามไปจนสุดคิโวทอสเลยนะ...\nพะ... พวกเธอไม่กลัวประธานองค์การนักเรียนกันหรือไง?!"
+    },
+    {
+      "Text": "[s] \"อ่า... หน่วยรบพิเศษที่ว่าน่ะ...\""
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ไม่ต้องห่วงหรอก ก่อนมาที่นี่ พวกเราได้ตกลงกับทางนั้นไว้เรียบร้อยแล้ว"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ใช่แล้ว ได้พูดคุยกันอย่างจริงใจสุดๆ มาเลยละ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ไปคุยกับประธานองค์การนักเรียนมาด้วยตัวเองเลยงั้นเหรอ? จะโม้ก็ให้มันพอดีหน่อยสิ..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แล้วก็ไม่ต้องกังวลมากหรอก พวกเราก็ไม่ได้คิดจะทำอะไรโหดร้ายจนทิ้งรอยแผลเป็นบนตัวเธอหรอกนะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "เครื่องปั่นไฟนี่ก็เอามาเพื่อเดินระบบเซิร์ฟเวอร์อินเทอร์เน็ต ไม่ได้เอามาใช้กับคนหรอก"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เซิร์ฟเวอร์อินเทอร์เน็ต...?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "คุณคือทาคาฮาชิ ตำแหน่งคาโปในการ์ปัชโช่ แฟมิลี่ และเป็นหัวหน้าทีมผู้รับผิดชอบงานรักษาความ\nปลอดภัยของท่าเรือคาเนะซากิใช่มั้ยคะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ดูเหมือนสมาชิกในองค์กรจะมองว่าคุณเป็นพี่ใหญ่ผู้โหดเหี้ยมไร้ความปรานี แต่ความจริงแล้วคุณมี\nงานอดิเรกคือสะสมของน่ารักๆ..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "นี่พวกเธอ... รู้เรื่องนั้นได้ยังไง...!"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ก็เห็นเขียนไว้ในบัญชีหลุมของ <FruLink> ไว้ละเอียดยิบเลยนี่คะ?"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แน่นอนว่าคุณใช้ชื่อปลอมเพื่อปกปิดตัวตน..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่พอสืบจากบัญชีอื่นที่ติดตามไว้และรูปแบบการใช้ชีวิต ก็หาเจอได้ไม่ยากเลยค่ะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เดือนที่แล้วเหมือนว่าคุณก็ไปป๊อปอัปสโตร์ในคอร์กี้ทาวน์ เพื่อซื้อตุ๊กตาอุโรมิรุ่นลิมิเต็ดด้วยนะคะ..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ตายจริง แถมยังเลี้ยงน้องแมวน้อยน่ารักไว้อีกตัวด้วยสินะคะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อึก..."
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "แต่ถ้าเอาบัญชีหลุมนี้ไปโพสต์ลงบัญชีทางการของการ์ปัชโช่ แฟมิลี่ให้ทุกคนได้เห็นกัน จะเป็นยังไงนะคะ?"
+    },
+    {
+      "Text": "[s1] \"คิดเรื่องน่ากลัวแบบนั้นออกมาได้ยังไง...!\""
+    },
+    {
+      "Text": "[s2] \"อยู่ไม่ไหวๆ แก๊งนี้มันน่ากลัว\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ยะ... หยุดเลยนะ! ถ้าทำแบบนั้น อำนาจของฉันในองค์กรได้พังยับเยินแน่!"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ถ้างั้นก็ยอมตอบคำถามของพวกเราแต่โดยดี จะดีกว่านะคะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เอาละ หัวหน้าทีมทาคาฮาชิ เหตุผลที่ปล่อยข่าวลือเรื่องปูปีศาจที่ทำร้ายผู้คนคืออะไรคะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อึก... รู้ไปถึงขั้นนั้นแล้วงั้นเหรอ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แต่ฉันจะยอมตอบแต่โดยดีไม่ได้หรอก ฉันคือคาโปผู้เป็นที่โปรดปรานของบอสแห่งการ์ปัชโช่ และเป็นคนที่กลุ่มพ่อค้าในคาเนะซากิหวาดกลัวจนตัวสั่น..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "ดูท่าจะยังไม่เข้าใจสถานการณ์สินะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "FOX 1 ฉันเอาอาหารแมวที่พูดถึงเมื่อกี้มาแล้ว"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อาหารเปียกกระป๋องรสทูน่า ยี่ห้ออินาริ ถูกอันใช่มั้ย?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "อื้อ ทำได้ดีมาก"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "FOX 3 ถ้าการเจรจาล้มเหลว ก็ให้ไปบ้านของคาโปคนนี้ แล้วเอาอาหารนี้ให้แมวของเธอกิน"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "จะ... จะเอาอะไรให้แมวของฉันกินน่ะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ถ้าเป็นคนรักแมวก็น่าจะรู้ดีไม่ใช่เหรอ ว่าพวกแมวชอบอาหารกระป๋องนี้มากแค่ไหนน่ะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ในเวลาอาหาร ถ้ามีคนแปลกหน้าเข้ามาแทนเจ้าของแล้วยื่นอาหารชั้นดีให้ แมวจะมีปฏิกิริยายังไงนะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ยะ... อย่าบอกนะ..."
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ด้วยรสชาติที่แตกต่างจากอาหารจืดชืดที่กินเป็นประจำโดยสิ้นเชิง มันอาจออดอ้อนในแบบที่ไม่เคย\nทำตามปกติก็ได้นะ"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อ๊ะ หรือบางทีความสัมพันธ์กับเจ้าของที่เอาแต่ให้อาหารไม่อร่อย อาจจะห่างเหินขึ้นมาก็ได้นะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ยัยพวกเด็กนิสัยไม่ดี! ทั้งที่อยู่ในคราบมนุษย์ แต่คิดทำเรื่องชั่วร้ายขนาดนั้นได้ยังไง...!"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ทั้งที่อยู่ในคราบมนุษย์...?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ดูเหมือนเธอจะเข้าใจอะไรผิดไปนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "พวกฉันไม่ได้อยู่ในคราบมนุษย์ แต่อยู่ในคราบจิ้งจอกที่โหดเหี้ยมและกัดไม่ปล่อยต่างหาก"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าเธอไม่ตกลงทำตามที่ขอ พวกฉันอาจทำเรื่องโหดร้ายเกินกว่าที่เธอจะจินตนาการได้ก็ได้นะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "อึกกก...!"
+    },
+    {
+      "Text": "[s3] \"ทุกคนใจเย็นๆ ก่อนนะ\""
+    },
+    {
+      "Text": "[s4] \"เปิดโอกาสให้อีกฝ่ายพูดบ้างสิ\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แล้วนี่ใครอีกล่ะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ดูจากที่พาผู้ใหญ่มาด้วย พวกเธอคงไม่ใช่อันธพาลธรรมดาๆ สินะ เป็นคนจากองค์กรไหนหรือเปล่า?"
+    },
+    {
+      "Text": "[s5] \"ฉันคือครูจาก... ไม่สิ เป็นผู้ปกครองของเด็กกลุ่มนี้\""
+    },
+    {
+      "Text": "[s6] \"ขอโทษที่พาตัวมาด้วยวิธีรุนแรงแบบนี้นะ\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เฮอะ มาพูดเอาป่านนี้ คิดว่าฉันจะเชื่อหรือไง?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ต่อให้ใช้เสียงหวานๆ แบบนั้นมาเกลี้ยกล่อม เจตนาแอบแฝงของคุณก็ชัดเจนอยู่ดี"
+    },
+    {
+      "Text": "[s7] \"ขอเอาหน้าของตัวเองเป็นประกันเลย\""
+    },
+    {
+      "Text": "[s8] \"พวกเราไม่ได้สนใจผลประโยชน์ของการ์ปัชโช่แม้แต่น้อยเลย\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ฉันจะไปรู้ได้ยังไงว่าแกเป็นใคร แล้วจะให้เชื่อใบหน้าได้ยังไง..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ไม่ได้สนใจการต่อสัญญางานรักษาความปลอดภัยครั้งนี้จริงๆ เหรอ...?"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "โอ้ พอคุณครูเข้ามาช่วย บรรยากาศก็ผ่อนคลายลงทันทีเลยนะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "การใช้ทั้งไม้อ่อนและไม้แข็งเป็นกลยุทธ์พื้นๆ แต่ได้ผลดีเสมอเลยนะ ถึงฉันจะคิดไม่ถึงว่าคุณครูจะเลือกใช้ไม้อ่อนก็เถอะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "คุณครูคงไม่ได้ตั้งใจจะปลอบด้วยวิธีนั้นหรอกค่ะ..."
+    },
+    {
+      "Text": "[ns] \"พวกเราแค่อยากรู้ว่าทำไมพวกเธอถึงปล่อยข่าวลือนั้นเท่านั้นเอง\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ถ้าเป็นผู้ใหญ่ก็น่าจะรู้อยู่แล้วไม่ใช่เหรอ...? เหตุผลที่ปลุกปั่นความหวาดกลัวน่ะ"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เมื่ออารมณ์ของคนเราพลุ่งพล่าน การตัดสินใจก็ย่อมบิดเบือน ไม่ว่าจะเป็นความสุข ความเศร้า หรือความหวาดกลัว..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เมื่ออารมณ์อยู่เหนือเหตุผล ก็จะตัดสินใจอย่างมีเหตุผลไม่ได้ และถูกคำพูดของผู้อื่นชักจูงได้ง่าย"
+    },
+    {
+      "Text": " คิโวทอสแห่งนี้ยังมีความน่ากลัวน้อยไป "
+    },
+    {
+      "Text": "[log=카야]คิโวทอสแห่งนี้ยังมีความน่ากลัวน้อยไป[/log]"
+    },
+    {
+      "Text": " หากแสดงความน่ากลัวให้เห็น..."
+    },
+    {
+      "Text": " หากแสดงความน่ากลัวให้เห็น..."
+    },
+    {
+      "Text": "  ทุกคนจะต้องขยาดและทำตามฉันแน่ "
+    },
+    {
+      "Text": "[log=카야]หากแสดงความน่ากลัวให้เห็น... ทุกคนจะต้องขยาดและทำตามฉันแน่[/log]"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ในบรรดาอารมณ์เหล่านี้ ความหวาดกลัวควบคุมได้ง่ายที่สุด เพราะผู้คนจะหวาดกลัวสิ่งลึกลับที่ตนไม่รู้จักไว้ก่อน"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ใช่ ก็คล้ายกับหน่วยรบพิเศษของประธานองค์การนักเรียนนั่นละ ทั้งที่ไม่เคยเผชิญหน้าจริงๆ แต่เพียง\nแค่การมีอยู่ของพวกนั้น ก็ทำให้นักเรียนอันธพาลหลายคนไม่กล้าลงมือก่ออาชญากรรมเลย ใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ส่วนที่ว่าหน่วยรบพิเศษนั่นมีอยู่จริงหรือเปล่า หรือเคยจับอาชญากรไปแล้วกี่คนน่ะ มันไม่ใช่เรื่องสำคัญหรอก"
+    },
+    {
+      "Text": " โรงเรียนที่ฟื้นฟูจากความหวาดกลัวของผู้คน "
+    },
+    {
+      "Text": "[log=미야코]โรงเรียนที่ฟื้นฟูจากความหวาดกลัวของผู้คน[/log]"
+    },
+    {
+      "Text": " แบบนี้จะเรียกว่าเป็นสถาบันพิเศษ SRT ได้เหรอคะ? "
+    },
+    {
+      "Text": "[log=미야코]แบบนี้จะเรียกว่าเป็นสถาบันพิเศษ SRT ได้เหรอคะ?[/log]"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "พวกเราก็แค่อาศัยวิธีการแบบเดียวกันเพื่อรักษาองค์กรไว้ก็เท่านั้น"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "\"ถ้าไม่อยากเผชิญหน้ากับความหวาดกลัวที่ไม่รู้จัก ก็อย่ามายุ่งเกี่ยวกับเรื่องของพวกเรา\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ถ้าจุดประสงค์คือการปลูกฝังความกลัว ก็มีวิธีอื่นอีกตั้งเยอะให้เลือกใช้"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แล้วทำไมถึงต้องจงใจปล่อยข่าวลือที่เกี่ยวกับปูด้วยล่ะ?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ตอนแรกมันเป็นแค่เรื่องบังเอิญน่ะ พวกเราแค่บังเอิญเจอเรื่องเล่าสยองขวัญที่สมาชิกองค์กรที่ทำงาน\nอยู่แถวท่าเรือสามารถเอาไปใช้ประโยชน์ได้ก็เท่านั้น"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "\"ถ้าขัดขืนคาร์ปัชโชแฟมิลี ก็จะกลายเป็นอาหารปู และต้องเผชิญหน้ากับความหวาดกลัวที่ไม่รู้จัก\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แต่สิ่งที่สำคัญยิ่งกว่านั้นก็คือ ในโลกแห่งความเป็นจริงไม่มีใครได้รับอันตรายเลย"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แค่ลองหาข้อมูลสักนิด... ไม่สิ ถ้าเป็นคนที่ทำงานในท่าเรือ ใครๆ ก็รู้ได้ไม่ยากว่า 'ปูขนาดปกติ' น่ะ ทำอันตรายคนไม่ได้"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แต่ถ้าเป็นชาวเมืองทั่วไปที่พวกเราต้องรับมือล่ะ จะเป็นยังไง?"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "แค่นึกภาพของปูกระดองแข็งๆ และก้ามที่แหลมคมของพวกมัน ก็ชวนให้นึกถึงความหวาดกลัวได้ง่ายๆ แล้ว"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "เรื่องแค่นี้น่ะ ยังไม่เพียงพอที่จะทำให้วัลคิรี่ออกมาสืบสวนหรอก"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "พวกเราก็แค่หาผลประโยชน์จากความหวาดกลัวที่ไร้รูปร่างนั้นเท่านั้นเอง"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ก็อย่างที่เห็นนั่นแหละ มันไม่ได้มีปัญหาอะไรสักหน่อย แล้วก็ไม่ได้มีใครหายตัวไปด้วย ใช่มั้ยล่ะ?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ทำไมถึงพูดออกมาได้อย่างหน้าตาเฉยแบบนั้น...?"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ทั้งที่ผู้คนมากมายต้องหวาดผวาเพราะความกลัว และผู้ชนะก็ถูกกำหนดไว้ตั้งแต่ก่อนการแข่งขันจะเริ่ม\nแล้วแท้ๆ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "ยังกล้าพูดออกมาได้อีกเหรอว่ามันไม่ได้มีปัญหาอะไร?!"
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "ทะ... ทำไมจู่ๆ ถึงเป็นแบบนั้นล่ะ? ฉันพูดอะไรผิดไปเหรอไง?"
+    },
+    {
+      "Text": "[ns] \"ยูกิโนะ ใจเย็นๆ ลงก่อน\""
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "แต่ฉัน..."
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "หืม? จู่ๆ ก็มีเสียงอะไรน่ะ?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "ฉันเหมือนได้ยินเสียงแกร็กๆ เลย"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "เหมือนกับเสียงเวลาพวกแมลงหรือสัตว์ขาปล้องเคลื่อนไหวน่ะ"
+    },
+    {
+      "Name": "โอโทกิ",
+      "Text": "แถวนี้แมลงสาบชุมเหรอ...?"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "อย่าพูดเรื่องน่าขนลุกแบบนั้นสิ! แมลงสาบจะส่งเสียงดังขนาดนี้ได้ยังไง?!!"
+    },
+    {
+      "Name": "คุรุมิ",
+      "Text": "แล้วแรงสั่นสะเทือนนี่อีกล่ะ? พื้นกำลังสั่นเหมือนมีเครื่องจักรหนักกำลังเคลื่อนไหวอยู่เลย"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "ฉันไม่ได้รับข้อมูลว่าจะมีงานก่อสร้างในเวลานี้นะ"
+    },
+    {
+      "Name": "นิโกะ",
+      "Text": "เสียงกำลังดังขึ้นเรื่อยๆ เลยด้วย..."
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "คุณครู ถอยไปด้านหลังก่อนค่ะ"
+    },
+    {
+      "Name": "ยูกิโนะ",
+      "Text": "มาแล้วค่ะ..."
+    },
+    {
+      "Text": "[s] \"อะไรเหรอ...?\""
+    },
+    {
+      "Name": "ผู้บริหารการ์ปัชโช่",
+      "Text": "นั่นมันตัวอะไรน่ะ...?!"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第9話;SRT式說服法"
+    },
+    {
+      "Text": "鐘崎港倉庫前"
+    },
+    {
+      "Name": "卡爾帕喬組織成員B",
+      "Text": "是誰在那裡？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "是我是我。你們的[ruby=Capo]組長[/ruby]。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "現在連大姐頭的臉都認不出來了嗎？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A&B",
+      "Text": "啊，大姐頭……失禮了！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "好啦好啦。下午沒發生什麼事吧？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A",
+      "Text": "是！我們把守這裡的期間，連一隻螃蟹都沒有靠近過。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "也是啦。畢竟哪個不怕死的傢伙敢在卡爾帕喬家族的地盤上閒晃啊？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "不，最近好像稍微變多了呢……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "不好意思～我是來送餐的，但是入口沒有看到任何人。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "想說把可能會壞掉的食物就這麼放著也不太好，結果找著找著就跑到這裡來了。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你說的是真的嗎？看守正門的傢伙就這麼放你進來了？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "是的。正門一個人都沒有哦？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "嘖，看來卡爾帕喬家族的聲望也大不如前了。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "就算是為了奪回老大的信任，這次的競標也非成功不可……！"
+    },
+    {
+      "Name": "卡爾帕喬組織成員B",
+      "Text": "大姐頭，您有什麼心事嗎？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "不，沒什麼。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "比起這個，你們不是負責日間巡邏的嗎？\n都超過下午六點了，為什麼還是你們在守著倉庫？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A",
+      "Text": "啊，那個……"
+    },
+    {
+      "Name": "卡爾帕喬組織成員B",
+      "Text": "今天原本負責夜間巡邏的傢伙們，好像昨天叫外送吃壞肚子了。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "真是些不中用的傢伙。\n他們是吃了什麼才會變成那樣啊？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員B",
+      "Text": "唔嗯……好像是什麼壽司吧。\n這種天氣壽司很容易壞掉，聽說是把那個當宵夜才會拉肚子的。"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A",
+      "Text": "總之因為這樣，今天的夜間班次出現了空缺，我們正在煩惱該怎麼辦呢。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "這群笨蛋……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "要是我沒來的話，你們兩個打算在這裡守一整晚嗎！？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A&B",
+      "Text": "對，對不起！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "去宿舍把佐藤和鈴木帶來。\n今天他們輪休，應該正閒著呢。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "告訴他們之後Capo會另外補假，今天就先辛苦一下。"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A&B",
+      "Text": "啊，好的……！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……還在磨蹭什麼？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A",
+      "Text": "啊，我們正在應該要由誰去比較好。"
+    },
+    {
+      "Name": "卡爾帕喬組織成員B",
+      "Text": "您也知道老大交代過守衛區域時一定要兩人一組，不能讓崗位空下來……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "唉……真的是會被你們打敗。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "所以你們是打算一個人去帶休假的人過來，另一個留在這裡跟我瞎聊是嗎？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "如果想盡快把人找來，不就應該兩個人一起行動嗎！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "還是說……你們擔心我連區區一個倉庫都守不住？"
+    },
+    {
+      "Name": "卡爾帕喬組織成員A&B",
+      "Text": "不，不是的！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "不是的話就快點去把人帶來！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……唉，居然得帶著這些沒用的傢伙管理地盤。"
+    },
+    {
+      "Name": "???",
+      "Text": "那個……Capo。"
+    },
+    {
+      "Name": "???",
+      "Text": "如果是面對突襲的話，即使是Capo也很危險吧？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "什麼？你話都說完了──"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……唔。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "你的老大應該就是擔心這種情況吧。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "這裡是FOX3。\n已控制卡爾帕喬家族的中階管理者。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "FOX4收到。\n半徑50m以內未確認到其他組織成員的蹤跡。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "FOX1收到。\n立即將目標祕密護送至Point Charlie，途中注意目擊者。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "這到底是怎麼……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "唔，唔唔唔……"
+    },
+    {
+      "Name": "???",
+      "Text": "……恢復意識了嗎？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "這裡到底是……還有你們是……？"
+    },
+    {
+      "Text": "鐘崎港外圍廢棄倉庫"
+    },
+    {
+      "Name": "仁子",
+      "Text": "FOX1，看來目標恢復意識了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "那就好。在旁邊持續製造噪音總算是有成效了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "那就開始審問吧。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……審問？呵，你們要審問我？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "我瞧瞧，是沒見過的制服呢……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你們是阿蘭奇諾家族派來的嗎？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "居然還帶了大人過來，氣勢還挺囂張的嘛。\n你們以為我們老大會坐視不管嗎？"
+    },
+    {
+      "Text": "[s] 「呃，那個……」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "您不需要回答，老師。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "反正對方八成只是想反過來嚇唬人而已。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "閉嘴。只有我們有權利提問。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "哈哈，好大的威風啊。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "來試試看啊。不管你們這些傢伙耍什麼花樣，我都不會開口的。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "與其背叛組織，我寧可去當螃蟹的飼──"
+    },
+    {
+      "Name": "御伽",
+      "Text": "FOX2，這台發電機好像壞了。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "沒有其他備用的發電機嗎？最好是功率再強一點的。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "等，等一下。你們打算用那個東西做什麼！？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "還能做什麼。剛才不是說過要審問了嗎？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "不過可以再稍等一下嗎？配線還沒完成呢。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你，你們打算用那種東西來拷問我嗎！？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "做出那種殘忍的事，聯邦學生會可不會坐視不管的哦！？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你，你們應該也有聽說過吧。\n如果在D.U.自治區犯下暴行，聯邦學生會長的直屬特殊部隊就會找上門的傳聞……！"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "無論逃到哪裡，那支特殊部隊都會一路追到奇普托斯的盡頭……\n你，你們難道不怕聯邦學生會長嗎！？"
+    },
+    {
+      "Text": "[s] 「啊，那支特殊部隊的話……」"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "你儘管放心，我們來之前就已經跟當事人好好商量過了。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "對啊對啊。進行了一場非常坦誠的對話呢。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你們這些傢伙跟聯邦學生會長直接商量過？吹牛也該有個──"
+    },
+    {
+      "Name": "御伽",
+      "Text": "還有你也別太擔心，我們也沒有打算做出會在皮膚上留下疤痕的殘忍行為。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "這台發電機也只是為了運行網路伺服器才帶來的，並沒有打算用在人身上。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "網路伺服器……？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "你就是卡爾帕喬家族的Capo，負責鐘崎港警備業務的高橋組長沒錯吧？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "在組織成員眼中似乎被視為冷酷無情、令人畏懼的大姐頭。\n然而，實際上卻有著蒐集可愛物品的興趣……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你這傢伙，怎麼會知道那種事……！？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我看了你在「FruLink」上的小號，上面寫得可詳細了呢？"
+    },
+    {
+      "Name": "仁子",
+      "Text": "當然，你似乎想用化名隱藏身分……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "可惜只要把追蹤的帳號跟你的行動規律交叉比對，很快就能找出來了。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "上個月為了購買限定的烏洛米玩偶，好像還特地跑去了柯基町的快閃商店……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "哎呀，還養了一隻可愛的貓咪呢。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "唔……"
+    },
+    {
+      "Name": "仁子",
+      "Text": "那麼，要是把這個小號公開到卡爾帕喬家族的官方帳號，大家會作何感想呢？"
+    },
+    {
+      "Text": "[s1] 「怎麼能想出那麼可怕的主意……！」"
+    },
+    {
+      "Text": "[s2] 「好恐怖。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "住，住手！要是那麼做的話，我在組織裡的威信就全毀了！"
+    },
+    {
+      "Name": "仁子",
+      "Text": "既然如此，勸你還是乖乖回答我們的問題比較好哦。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "好了，高橋組長──你們散播會攻擊居民的怪物螃蟹的傳聞，究竟有什麼目的？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "唔，已經查到那種程度了嗎。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "但我可不會這麼輕易告訴你們。\n本小姐可是深受卡爾帕喬老大寵信的Capo，是令鐘崎商會聞風喪膽的──"
+    },
+    {
+      "Name": "御伽",
+      "Text": "看來這傢伙還沒搞清楚狀況呢。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "FOX1，我把剛才說的貓咪零食拿來了。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "是這個沒錯吧？稻荷的鮪魚口味濕食罐頭。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "嗯，辛苦了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "FOX3。如果談判破裂，就馬上去Capo家把這個零食餵給他的寵物貓。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你，你打算餵我的貓吃什麼！？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "你是愛貓人士的話，應該很清楚貓咪有多喜歡這種零食罐頭吧？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "要是有個陌生人代替主人，在用餐時間遞上這種高級零食罐頭……\n貓咪會有什麼反應呢？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "難，難道說……"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "它的美味程度和平常吃的平淡飼料根本無法相提並論，\n說不定還會展現出不曾有過的撒嬌模樣呢。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "啊，搞不好還會跟只給難吃飼料的主人變得相當疏遠哦？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你們這群惡魔！怎麼能披著人皮做出那麼窮凶惡極的事……！"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……人皮？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "你好像誤會了什麼呢。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "我們並不是人，只是一群執著又殘酷的狐狸。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果你拒絕這場交易，比你想像中更殘忍的事我們也做得出來。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "唔唔唔……！"
+    },
+    {
+      "Text": "[s3] 「大家先冷靜一下。」"
+    },
+    {
+      "Text": "[s4] 「總得給對方說話的機會吧。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "你又是誰？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "看你們帶著大人來，應該不是普通的小混混吧？是哪個企業派來的傢伙嗎？"
+    },
+    {
+      "Text": "[s5] 「我是夏──不對，是這些孩子的監護人。」"
+    },
+    {
+      "Text": "[s6] 「很抱歉，用這麼粗暴的方式把你帶來。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "哼，事到如今才這麼說，誰會相信啊？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "就算你想用溫柔的語氣哄騙我也沒用，你的居心我都看得一清二楚。"
+    },
+    {
+      "Text": "[s7] 「我以我的名譽發誓。」"
+    },
+    {
+      "Text": "[s8] 「我們對卡爾帕喬家族的利益毫無半點興趣。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "我連你是誰都不知道，是要怎麼相信──"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……你們真的對這次的定期招標沒有興趣嗎？"
+    },
+    {
+      "Name": "御伽",
+      "Text": "哦，老師一出面，氣氛馬上就緩和下來了呢。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "胡蘿蔔加棍子雖然老套，卻總是個有效的策略。\n只是沒想到，老師會負責扮演胡蘿蔔就是了。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "老師大概不是抱著那種意圖去安撫的吧……"
+    },
+    {
+      "Text": "[ns] 「我們只是想知道，你們為什麼要散播那個傳聞而已。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "……身為大人的話應該很清楚吧？煽動恐懼的理由。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "人的判斷力在情緒激動的時候就會變得遲鈍。\n無論是喜悅、悲傷還是恐懼……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "一旦被情緒主導就無法做出理性的判斷，也更容易受他人的言語左右。"
+    },
+    {
+      "Text": "現在的奇普托斯缺乏恐懼。"
+    },
+    {
+      "Text": "[log=카야]現在的奇普托斯缺乏恐懼。[/log]"
+    },
+    {
+      "Text": "……只要展現足夠的恐懼，"
+    },
+    {
+      "Text": "……只要展現足夠的恐懼，"
+    },
+    {
+      "Text": "大家就會乖乖照我的話去做了。"
+    },
+    {
+      "Text": "[log=카야]……只要展現足夠的恐懼，大家就會乖乖照我的話去做了。[/log]"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "其中最容易操控的情緒就是恐懼……\n因為人們對於未知的存在，總是會先本能地感到畏懼。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "沒錯，就像聯邦學生會長的那支特殊部隊一樣。\n明明沒多少人親眼見過，但光憑存在本身就讓許多不良學生對犯罪卻步了不是嗎？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "那支特殊部隊實際上是否存在，又逮捕了多少罪犯都不重要。"
+    },
+    {
+      "Text": "建築在人們恐懼之上的學園……"
+    },
+    {
+      "Text": "[log=미야코]建築在人們恐懼之上的學園……[/log]"
+    },
+    {
+      "Text": "又怎麼稱的上是SRT特殊學園呢？"
+    },
+    {
+      "Text": "[log=미야코]又怎麼稱的上是SRT特殊學園呢？[/log]"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "我們也只是為了維持組織的運行，採用了類似的手法罷了。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "也就是「如果不想直面未知的恐懼，那就別插手我們的工作」。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "如果目的是灌輸恐懼，應該還有其他手段才對。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "為什麼要刻意散播和螃蟹有關的傳聞？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "一開始就只是巧合而已……\n因為發現了這則對我們在港口活動而言相當有利的怪談，所以才會拿來加以利用。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "「違抗卡爾帕喬家族就會變成螃蟹的飼料，並直面未知的恐懼。」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "不過最重要的是，現實中並沒有任何人受到傷害。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "只要稍微調查一下……\n不，只要是在港口工作的人都非常清楚「普通大小的螃蟹」是無法傷人的。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "然而，我們面對的那些不特定多數的普通人又會如何呢？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "乍看之下鋒利的蟹螯和堅硬的螃蟹形象，就已經足夠讓人聯想到那份恐懼。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "這種程度的傳聞也不會讓女武神展開調查。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "我們只是從那無形的恐懼中獲利罷了。"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "看吧。沒有任何問題，也沒有任何人失蹤不是嗎？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……你怎麼能說得那麼理直氣壯？"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "許多人都因為恐懼而感到不安，甚至在競爭開始之前，勝負就已經確定了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "你怎麼能斷言沒有問題！？"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "突，突然怎麼了？我說錯了什麼嗎？"
+    },
+    {
+      "Text": "[ns] 「雪乃，冷靜點。」"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "可是我──"
+    },
+    {
+      "Name": "御伽",
+      "Text": "嗯？這是什麼聲音？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "好像有什麼東西在發出咔嚓咔嚓的聲音。"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "很像昆蟲或節肢動物移動時會發出的聲音。"
+    },
+    {
+      "Name": "御伽",
+      "Text": "……難道是這附近出現了大量的蟑螂？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "別說那麼嚇人的話！蟑螂不可能發出這麼大的聲音吧！？"
+    },
+    {
+      "Name": "胡桃",
+      "Text": "而且這個震動又是怎麼回事？地面像是有重型機械在移動一樣不停地搖晃。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "我沒有聽說這個時間有預定要施工的消息耶。"
+    },
+    {
+      "Name": "仁子",
+      "Text": "……而且聲音還越來越大了。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "老師，請退後。"
+    },
+    {
+      "Name": "雪乃",
+      "Text": "……來了。"
+    },
+    {
+      "Text": "[s] 「……什麼來了？」"
+    },
+    {
+      "Name": "卡爾帕喬幹部",
+      "Text": "那是什麼東西啊──！？"
+    }
+  ]
+}

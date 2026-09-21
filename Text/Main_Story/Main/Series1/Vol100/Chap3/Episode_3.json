@@ -1,0 +1,2727 @@
+{
+  "TitleJP": "方法",
+  "TitleKR": "방법과 도구",
+  "TitleEN": "Methods and Mechanisms",
+  "TitleTH": "วิธีการและอุปกรณ์",
+  "TitleTW": "方法",
+  "DescJP": "上空75,000mにある構造体に対し、エリドゥに残されていた巡航ミサイルを発射するもすべて通過してしまう。解析の結果、物理的な手段では攻撃することができないと判明し、八方塞がりに。先生は、なんとか攻撃する方法を模索すべく、黒服の元を訪れるのだった。",
+  "DescKR": "프레나파테스가 있을 것이라고 추정되는 구조체에 공격을 가해보지만, 현재의 공격수단으로는 피해를 입힐 수 없음이 밝혀진다. 검은 양복과 만난 선생님은 그로부터 프레나파테스에게 닿을 수 있는 방법을 듣는다.",
+  "DescEN": "Though the allies attempt to attack the structure that houses Phrenapates, they soon discover that none of their methods of attack do any meaningful damage. Sensei meets with Black Suit and learns of a way to reach Phrenapates.",
+  "DescTH": "นักเรียนได้ลองโจมตีเครื่องกลที่สันนิษฐานว่าเพลนาพาเทสอยู่ แต่พบว่า\nวิธีการโจมตีในตอนนี้ไม่สามารถสร้างความเสียหายได้เลย คุณครูได้พบกับ\nสูทดำและฟังวิธีติดต่อกับเพลนาพาเทส",
+  "DescTW": "雖然嘗試攻擊推測是誘騙者所在的地方，但利用目前的攻擊方式根本就無法造成傷害。老師遇見了黑色西裝人，從對方口中得知可以觸及誘騙者的方法。",
+  "DialogJP": [
+    {
+      "Text": "第3話;方法"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "高度75,000メートルとは……なかなかどうして、難しい話ですね。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "逆に、どうやってそこに存在しているんだか……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "それに、今の私たちでは、あの高度への攻撃は不可能だよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "部長、何か良い考えでもある？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "既に私の管轄外と申しますか……\n私たちはハッカーであって、エンジニアではありませんので。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "それに、構造を解析しようにも、謎の膜で覆われてしまっていて、内部の状況を確認することもできません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね……こういう時こそ、ビッグシスターの遺産に頼ってみましょうか。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "会長の……遺産？ "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ。あの人が世界の終焉を防ぐために用意した「対策」の中には……\n空からの脅威を想定したものもありますので。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "チーちゃん、エリドゥで見つけた武器を使いたいので、ハッキングをお願いしても？準備は私の方でしますので。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……例のミサイルだよね？あんまり気は乗らないけど、"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "了解。\nあれならいけるかもね。 "
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "他の部員にも伝えとく。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "あと、エンジニア部の協力も必要かな。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "了解。こちらの方も準備を進めておくよ。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ありがとうございます。\n一旦、できることは全て試してみましょう。"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "くっ……届け……！！"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "あと2,000m……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "1,000m……500m…… "
+    },
+    {
+      "Name": "コトリ",
+      "Text": "ターゲット、指定座標に到達しました！\nどうでしょう？命中しましたか！？"
+    },
+    {
+      "Text": "エンジニア部室"
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "……いや、通り過ぎてしまった。 "
+    },
+    {
+      "Name": "コトリ",
+      "Text": "ああっ、また！？"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "ターゲットとの距離、1,000m……1,500m……"
+    },
+    {
+      "Name": "ヒビキ",
+      "Text": "どんどん遠ざかってる。 "
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "はぁ……これが最後の手段だったのだけど……\nまるで、幻影を相手にしているみたいだね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "会長が残した手段もダメだったの？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ええ……アレに対しては、物理的な干渉ができないみたいですね。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "あの巡航ミサイル、ミレニアムの技術力を上回る性能に見えたのに……\nこれでもダメだなんて……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "というか、会長はどこであんなものを手に入れたのよ。 "
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "はぁ……これ以上は無意味かな。 "
+    },
+    {
+      "Name": "ウタハ",
+      "Text": "物理的な影響を受けないのだとすれば、私たちエンジニア部にはどうすることもできないよ。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……こっちもかな。あれはエリドゥで見つけた最後の切り札だったし……"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "ヒマリ、他に手はある？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "いえ……今のところは。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "はぁ……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……本当に、最後までビッグシスターらしいといいますか。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "彼女が今まで役に立ったことはほとんどありませんでしたが、遺産までもだなんて。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "その……会長の事、いなくなった人扱いするのやめませんか！？ "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "彼女はそれだけの事をしたのですよ。\n事実、このような事態なのに姿一つ現さないのですから。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "まぁ……たしかに、会長も色々しましたけど……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ともあれ、次の手を考えなければなりませんね。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "他に……なにか方法はないのでしょうか。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "はぁ……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "こりゃ八方塞がりだねぇ。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ミレニアムが分析してくださった、サンクトゥムのデータを見ていたのですが――"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あの構造体に起きている現象が何なのか――分かったかもしれません。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "ふむ……詳しく伺えますか？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "シスターフッドの司祭と古書館の司書――そしてティーパーティー……\nそれぞれの情報を持ち寄って解釈を進めたところ、一つの仮説に行き当たりました。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ですが、あくまで仮説であり、実際に検証したものではありません。\nそれでも、よろしいでしょうか？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "構いません。\nどのみち物理的な干渉ができない以上、検証はできませんから。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "結論から申し上げますと、2度目に出現したサンクトゥムタワーと、キヴォトス上空の構造体は……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……一種の「状態の共存」が起きているようです。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なるほど……。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "えっ？\nこれって、量子力学の話って事……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "いえ、あの現象を理解しやすくするために、一番近い理論で例えただけです。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "それを念頭に置いて、お聞きください。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あれは多世界解釈――いえ、「[ruby=・   ・   ・]多次元[/ruby]解釈」と表現するのが正しいでしょうか。その理論に基づいた、確率的な存在である可能性が高いです。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "多次元解釈ということは――"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "えっと……多世界解釈は可能性の数だけ、宇宙が分岐するという仮説ですよね……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "あっ、でも多次元解釈だと違うのでしょうか……"
+    },
+    {
+      "Name": "アコ",
+      "Text": "――つまり、コインを投げて表が出る確率は50%。\nそして、この世界には結果が1つだけ現れる。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "けれど、観測できないだけで、逆の結果が出た世界が存在する可能性もある。そういった「可能性の世界」が全て実在すると解釈する理論……"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "あははっ！SFとかでよく見る並行世界ってヤツ？"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "コインを投げるたびに世界が分岐する的な？（パリッ）"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "一応、理論自体は科学に基づいたものだけどね。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "そして、あの空間は――\nそれら全ての可能性が分岐しないまま混ざり合っているのです。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": " ……無限に広がる多次元の実在と非実在が、混ざり合ってしまった混沌とした空間。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "だからこそ、存在が確定した世界からの物理的な介入ができないのでしょう。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "観測はできるけど、干渉はできない……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "なにか方法はないのかしら……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "おそらく――周囲の膜だけが、その状態なのだと予測しています。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "内部の構造体そのものの状態が不安定なのであれば、各サンクトゥムへのエネルギー伝達もできないはずですので。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……つまり、あれはバリアなのですね。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "「状態の共存」という無敵の多次元をバリアのように展開し、あらゆる物理法則から守っているのだと。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "なるほど……それでしたら、たしかに辻褄が合います。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "はい。そして、あのバリアを破壊できれば……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "おそらく、本体への攻撃も可能になるでしょう。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "理屈は分かったけど、一体どうやって……？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "その理論が正しいのであれば、方策はあります。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "こちらも、あのバリアと[ruby=・   ・   ・   ・]同じ状態[/ruby]になれば良いのです。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "同じ状態……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "なるほど……あの多次元空間で繰り広げられている「状態の共存」を、一種の振動値と捉えるのなら――"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "対象の振動パターンと同じパターンを持つ物体であれば、その影響を受けない、と……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "はい。同じ状態であれば、多次元内部の確率や状態の共存とは関係なく、互いが「同じ空間」に存在する事になります。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "それって……ノイズキャンセリング？ "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "そうですね……限りなくそれに近い状態といえるでしょう。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "あの多次元を分析し、こちらも同様の状態になれば……\nバリアを無力化できる……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "ですが、どのように……"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "それを本当に実行するのなら、私たちが「多次元解釈」を計算できないとだよね。"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "そんなこと、できるの？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "えっと……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……現状では不可能です。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "多次元解釈の計算は、量子コンピュータでも使わない限りできません。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "つまり、今の私たちじゃ何も出来ないって事？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "アレが、また「虚妄のサンクトゥム」を出現させようとしているのに、\n私たちはただ見てることしかできないの……？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "再び出現したサンクトゥムを破壊したとしても……"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "元凶をどうにかしない限り、同じようにサンクトゥムが出現するでしょう。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そんな……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "そ、それじゃあ、いくら私たちが戦ったところで―― "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "何度もサンクトゥムタワーを作り出せる……ということですよね？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "なっ……そんなのあり得ないわよ！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "熱力学第一法則はどこにいったのよ！？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "はぁ……相手が「多次元」なら、何でもアリって事なんだね。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "い、一体、どうすればいいのさ？\n方法が分かったって、解決できないなら意味ないじゃん……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……。 "
+    },
+    {
+      "Name": "モモカ",
+      "Text": "……ってか、あれ？ "
+    },
+    {
+      "Name": "モモカ",
+      "Text": "先生は？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "あ、あれ……？\n先程までそこにいらっしゃったのですが……"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……方法なら、ありますよ。"
+    },
+    {
+      "Text": "[s] \"……黒服。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "アレであれば、[ruby=プレナパテス]色彩の嚮導者[/ruby]に到達できるかもしれません。"
+    },
+    {
+      "Text": "[s] \"……どうすればいい？\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "フフフ……"
+    },
+    {
+      "Name": "黒服",
+      "Text": "そうですね……あなたは私にどのような「代償」を支払ってくれますか？先生。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "嗚呼……なるほど――"
+    },
+    {
+      "Name": "黒服",
+      "Text": "今こうして、私に尋ねる行為そのものが、\nどんな代償であれ差し出す覚悟がある――という事なのですね。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "必要とあらば「ゲマトリア」との協力も厭わない、というその姿勢…… "
+    },
+    {
+      "Text": "[s] \"…………。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "クックックッ……では、私は何を要求いたしましょう……\nそうですね、「ゲマトリア」への加入――なんていかがでしょう？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "クックックックッ……冗談です。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "既にゲマトリアは解散しましたので。\n今回は特別に教えて差し上げますよ。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……その前に、一つ警告を。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "[USERNAME]先生の肉体は、これを使用した瞬間――\n取り返しのつかない被害に遭うでしょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "二度と、以前の状態に戻る事はできません。\n――死に至る事さえ、有り得るのです。 "
+    },
+    {
+      "Name": "黒服",
+      "Text": "――それでも、よろしいのですか？"
+    },
+    {
+      "Text": "[ns] \"――構わないよ。\""
+    },
+    {
+      "Name": "黒服",
+      "Text": "その結末が、火を見るよりも明らかだとしても？"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "……分かりました、お教えしましょう。"
+    },
+    {
+      "Name": "黒服",
+      "Text": "その「方法」は――"
+    },
+    {
+      "Name": "黒服",
+      "Text": "――[ruby=・   ・   ・   ・]アビドス[/ruby]に在ります。"
+    },
+    {
+      "Text": "次回;アビドスに在るもの（１）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;방법과 도구"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……고도 75,000m라. 이건 난이도가 높네요."
+    },
+    {
+      "Name": "치히로",
+      "Text": "저 고도에 어떻게 떠 있는 거지……?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "어찌 됐든 현재 우리의 기술력으로는 저 고도까지 공격할 수 있는 방법은 존재하지 않아."
+    },
+    {
+      "Name": "치히로",
+      "Text": "뭔가 생각해 둔 거라도 있어, 부장?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "글쎄요…… 저 정도 높이라면 이미 제 영역 밖이에요. 우리는 어디까지나 해커이지 엔지니어가 아니니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "게다가 구조를 확인하려고 해도 구체의 방어막으로 둘러싸여 있어서 안쪽이 확인되지 않아요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……그러니 여기서는 빅 시스터가 남긴 유산들을 사용해 보죠."
+    },
+    {
+      "Name": "치히로",
+      "Text": "회장의 유산? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 그 여자가 세상의 파멸을 막기 위해 준비한 <대비책> 중에는…… 하늘 위의 위협을 상정한 것들도 있으니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "치 쨩, 에리두에서 찾아낸 무기를 사용 가능하게 해킹해 주시겠어요? 준비는 제가 할 테니."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……그 미사일 말이지? 별로 내키지 않지만……."
+    },
+    {
+      "Name": "치히로",
+      "Text": "알겠어. 그거라면 가능할지도 모르겠네. "
+    },
+    {
+      "Name": "치히로",
+      "Text": "부원들에게 말해둘게."
+    },
+    {
+      "Name": "치히로",
+      "Text": "그리고 엔지니어부의 도움도 필요해."
+    },
+    {
+      "Name": "우타하",
+      "Text": "응. 알겠어. 이쪽도 준비해 둘게."
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 일단 할 수 있는 건 다 해보도록 하죠."
+    },
+    {
+      "Name": "우타하",
+      "Text": "크윽……!! 닿아라!"
+    },
+    {
+      "Name": "히비키",
+      "Text": "거리 2,000m……"
+    },
+    {
+      "Name": "히비키",
+      "Text": "거리 1,000m…… 500m…… "
+    },
+    {
+      "Name": "코토리",
+      "Text": "타깃 좌표에 도달! 어떤가요?! 명중했나요?!"
+    },
+    {
+      "Text": "엔지니어부 부실"
+    },
+    {
+      "Name": "우타하",
+      "Text": "……아니. 통과해서 지나가 버렸어. "
+    },
+    {
+      "Name": "코토리",
+      "Text": "아앗……!! 이번에도?!"
+    },
+    {
+      "Name": "히비키",
+      "Text": "타깃과의 거리…… 1,000m…… 1,500m……"
+    },
+    {
+      "Name": "히비키",
+      "Text": "점점 멀어져 가고 있어. "
+    },
+    {
+      "Name": "우타하",
+      "Text": "하아…… 이게 마지막 방법이었는데……. 마치 실체가 없는 그림자를 쏘고 있는 것 같아."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐야? 회장이 남긴 대비책도 소용없는 거야?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "네. 저 구조체에는 마치, 물리적인 간섭이 불가능한 것처럼 보여요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "하아…… 저 정도의 순항 미사일이라면 이미 밀레니엄의 기술력을 넘어선 성능 같은데…… 이것마저도 안 되면……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그런데 회장은 어디서 저런 걸 구한 거야? "
+    },
+    {
+      "Name": "우타하",
+      "Text": "……. 더 이상 진행하는 건 무의미해. "
+    },
+    {
+      "Name": "우타하",
+      "Text": "물리적인 영향을 받지 않는다면, 저건 이미 <자연현상>을 넘어선 무언가야. 그렇다면 우리 엔지니어부가 할 수 있는 방법은 없어."
+    },
+    {
+      "Name": "치히로",
+      "Text": "……우리도 마찬가지야. 저게 에리두에서 찾아낸 마지막 히든 카드였으니까."
+    },
+    {
+      "Name": "치히로",
+      "Text": "히마리? 남은 방법은 있어?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "아뇨, 없어요. ……지금은요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "하아……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 역시 빅 시스터답네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "세상에 도움도 안 되는 주제에 남긴 유산도 쓸모없다니. "
+    },
+    {
+      "Name": "유우카",
+      "Text": "저기 그러니까…… 죽은 사람 취급하는 그거 괴롭힘이거든……? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "그 여자는 그래도 싸요! "
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐, 회장이 잘못한 게 많긴 하지만……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그렇다면 다음 방법은…… 으음."
+    },
+    {
+      "Name": "아유무",
+      "Text": "다른 방법은…… 없는 걸까요?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "하아…… 있을 리가 없잖아."
+    },
+    {
+      "Name": "모모카",
+      "Text": "사방이 꽉 막힌 상태라고."
+    },
+    {
+      "Name": "하나코",
+      "Text": "(치익) 밀레니엄에서 분석해 준 성소의 소재에 대한 데이터를 확인해 봤는데요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "저 구조체가 보여주는 현상…… 그게 뭔지 알 것 같아요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "그게 뭐죠? 이해할 수 있다면 그것을 상대하는 법도 알 수 있어요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "시스터후드의 학사들과 고서관의 사서들…… 그리고 티파티의 도움으로 전방위적으로 정보를 끌어모았어요. "
+    },
+    {
+      "Name": "하나코",
+      "Text": "다만 이것은 어디까지나 가설일 뿐, 검증되진 않았어요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "상관없어요. 어차피 검증도 불가능하니……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "결론부터 말하자면…… 키보토스에 다시 나타나고 있는 성소들과, 키보토스 상공의 구조체 모두……"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……일종의 <확률적 중첩 상태>를 유지하고 있는 것 같아요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "과연……! 그거라면……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐어? 이거, 양자역학 얘기……?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "아뇨, 어디까지나 저 현상을 이해할 수 있는 가장 비슷한 이론으로 대입한 거예요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그러니까 그걸 전제하고 들어주세요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "저건 다세계해석…… 아니, 다차원해석이라는 표현이 정확하겠네요. 그 이론에 기반한 확률적 존재예요."
+    },
+    {
+      "Name": "아코",
+      "Text": "다차원해석이면……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……어, 그러니까. 다세계해석이 전 우주의 모든 확률적 가능성마다 우주가 분기된다는 가설이니까…… "
+    },
+    {
+      "Name": "아야네",
+      "Text": "그런데 다차원해석이라면……."
+    },
+    {
+      "Name": "아코",
+      "Text": "즉, 동전을 던져서 앞면이 나오는 가능성과 뒷면이 나오는 가능성이 있다면, 이 세계에는 그중 하나의 결과만 나타나겠죠."
+    },
+    {
+      "Name": "아코",
+      "Text": "하지만 여기 현현하지 않은 다른 가능성의 우주도 실재한다고 보는 이론, 아닌가요?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "와하하하, 뭐야?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "그럼 평행우주, 뭐 그런 거야? 사이언스 픽션? 동전을 던질 때마다 세계가 분기한다는 얘기? (와그작)"
+    },
+    {
+      "Name": "유우카",
+      "Text": "그 이론 자체는 과학적인 게 맞거든?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "하지만 저 공간은 그 모든 확률적 가능성이 분기되지 않고 중첩된 채로 뒤섞여 있는 거예요. "
+    },
+    {
+      "Name": "하나코",
+      "Text": "……즉, 무한한 다차원 속의 존재와 비존재가 그저 확률로 뒤섞여 있는 혼돈의 공간."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그렇기에 이미 존재가 확정된 세계에서는 물리적으로 개입할 수 없는 거겠죠."
+    },
+    {
+      "Name": "유우카",
+      "Text": "보이지만 만질 수는 없다……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그럼 지금으로선 방법이 아예 없는 건가……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "다만 저 구조체를 감싸고 있는 외부만 그런 상태를 유지하고 있다고 생각해요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "그 내부도 존재가 불안정하다면, 지금처럼 이렇게 에너지를 각 성소에 전달하는 건 불가능할 테니까요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……말하자면, 저것은 배리어네요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "<확률적 중첩 상태>라는 무적의 다차원을 마치 배리어처럼 전개해서 모든 물리법칙에서 보호받고 있는 거군요."
+    },
+    {
+      "Name": "히마리",
+      "Text": "과감한 이론이지만 이해했어요. 중첩된 다차원을 방어에 사용한다……. 그런 것이라면 말이 되네요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "네. 저 배리어를 해결할 수 있다면……"
+    },
+    {
+      "Name": "하나코",
+      "Text": "그 내부의 본체를 공격하는 것도 가능해질 거예요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그런데 그런 방법이 있는 거야……? 배리어를 해결할 방법이?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 네. 있긴 해요. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "저 배리어와 똑같은 <확률적 중첩 상태>를 구현할 수 있다면, 배리어의 영향을 받지 않고 내부로 진입할 수 있겠죠."
+    },
+    {
+      "Name": "유우카",
+      "Text": "똑같은 상태……?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……. 아아, 그렇네요. 저 다차원의 공간에서 벌어지고 있는 <확률적 중첩 상태>를 일종의 진동값으로 본다면……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "상대의 진동 패턴과 똑같은 진동 값을 가진 물체는, 그 진동에 영향을 받지 않게 되는 거겠네요?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 네, 그렇게 되면 저 다차원 내부의 확률이나 중첩 상태와 관계없이, 서로가 <같은 공간>에 있게 되는 것이니까요."
+    },
+    {
+      "Name": "카요코",
+      "Text": "노이즈캔슬링처럼 말이지? "
+    },
+    {
+      "Name": "히마리",
+      "Text": "네, 조금 다르지만…… 그 비슷한 느낌이겠네요."
+    },
+    {
+      "Name": "하나코",
+      "Text": "저 다차원을 분석해서, 그것과 똑같은 상태를 구현해 낼 수 있다면……. 배리어를 무력화시킬 수 있다……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "하지만 어떻게 그걸……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "그런게 가능하려면 <다차원해석>을 우리가 계산할 수 있어야 하잖아."
+    },
+    {
+      "Name": "카요코",
+      "Text": "그런 걸 할 수 있는 거야?"
+    },
+    {
+      "Name": "하나코",
+      "Text": "그건……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "……불가능하죠."
+    },
+    {
+      "Name": "히마리",
+      "Text": "다차원해석이라니, 그런 걸 계산하려면 이론으로만 존재하는 양자컴퓨터라도 있어야 할 거예요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "그, 그러면? 저걸 그대로 두고만 봐야 하는 거야? "
+    },
+    {
+      "Name": "유우카",
+      "Text": "저게 거짓된 성소를 또다시 현현시키려고 하는데, 우리는 구경만 할 수밖에 없다는 거잖아!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "설령 다시 나타난 성소를 저희가 어떻게든 처리한다고 해도……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "하늘 위의 저 구조체를 그대로 둔다면, 또다시 다차원에 중첩된 성소의 존재 확률을 계산해서 성소를 이곳에 현현시키겠죠."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네에?!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "그, 그런 거라면, 저희가 아무리 성소를 파괴한다고 해도……. "
+    },
+    {
+      "Name": "히마리",
+      "Text": "우주에 존재하는 무한한 차원의 수만큼 성소를 다시 만들어 낼 수 있다, ……그런 얘기군요?"
+    },
+    {
+      "Name": "유우카",
+      "Text": "무, 무슨……"
+    },
+    {
+      "Name": "유우카",
+      "Text": "말이 안 되잖아! 열역학 제1 법칙은 어딜 간 거야?!"
+    },
+    {
+      "Name": "카요코",
+      "Text": "……하아. 다차원을 꺼내든 순간 뭐든 말이 되어버리니까."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "뭐야, 그럼. 어, 어떻게 해야 하는 거야? 방법을 알아도 해결할 수 없는 거야?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "……. "
+    },
+    {
+      "Name": "모모카",
+      "Text": "……응? "
+    },
+    {
+      "Name": "모모카",
+      "Text": "그런데…… 아까부터 선생이 안 보이지 않아? "
+    },
+    {
+      "Name": "아유무",
+      "Text": "어, 어라……? 그러네요? 어딜 가셨지……?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……방법은 있습니다."
+    },
+    {
+      "Text": "[s] \"검은 양복.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 방법이라면 [ruby=색채의 인도자]프레나파테스[/ruby]에게 도달할 수 있을지도 모릅니다."
+    },
+    {
+      "Text": "[s] \"……그 방법이 뭐지?\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "후후후후……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그걸 가르쳐주는 대신 선생이여, 당신은 저에게 어떤 <대가>를 지불할 수 있습니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……하긴, 그렇군요. "
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이렇게 저에게 방법을 물어보는 것 자체가 이미 어떤 대가라도 상관하지 않겠다는 뜻이겠군요."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "필요하다면 <게마트리아>와의 협력도 하겠다는 그런 각오…… "
+    },
+    {
+      "Text": "[s] \"………….\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "큭큭큭. 그렇다면 저는 어떤 대가를 요구하면 될까요. ……그래, <게마트리아>에 가입하는 조건은 어떻습니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……큭큭큭큭큭. 농담입니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "게마트리아는 지금 해산했으니까 그건 무리겠군요. 이번에는 그냥 가르쳐 드리도록 하죠."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……하지만 그 전에 한가지 경고하겠습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "이것을 사용하는 순간 [USERNAME] 선생, 당신의 육체는 돌이킬 수 없는 피해를 입을 겁니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "두 번 다시 이것을 사용하기 전의 상태로 돌아갈 수 없을 겁니다. ……어쩌면 죽을 수도 있겠죠. "
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그럼에도 상관없습니까?"
+    },
+    {
+      "Text": "[ns] \"상관없어.\""
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그 결말이 뻔히 보이더라도, 말입니까?"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "그렇군요. 알겠습니다."
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "선생이여……. 당신이 찾는 그 방법은 바로……"
+    },
+    {
+      "Name": "검은 양복",
+      "Text": "……아비도스에 있습니다."
+    },
+    {
+      "Text": "다음화;아비도스에 있는 것 1"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3; Methods and Mechanisms"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...An altitude of 75,000 meters. That's gonna be tough."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "How is it floating at such a high altitude...?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Anyway, with our current technology, there's no way to attack anything at that altitude."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Do you have any ideas, President?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "I don't know... That height is beyond my expertise. We're hackers, not engineers, after all."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Not only that, even if we wanted to check its structure, it's surrounded by a spherical barrier, so we can't see inside."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...So let's try using Big Sister's legacy here."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "The president's legacy?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. Among the countermeasures she prepared to stop the destruction of the world...she had something for threats above the sky as well."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Chi, can you hack the weapon we found in Eridu so we can utilize it? I'll begin preparations on my end."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "That missile? I don't know if that's a good idea..."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Well, maybe it'll do the trick. "
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "I'll talk to the other members."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "And we need help from the Engineering Department too."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Okay, we'll be ready."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Yes. We'll give it our all."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "Ugh...! Go!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Distance, 2,000 meters..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Distance, 1,000 meters...500 meters..."
+    },
+    {
+      "Name": "Kotori",
+      "Text": "We've reached the target coordinates! Did it connect?!"
+    },
+    {
+      "Text": "Engineering Department Room"
+    },
+    {
+      "Name": "Utaha",
+      "Text": "...No. It passed right through it."
+    },
+    {
+      "Name": "Kotori",
+      "Text": "What...! Again?!"
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "Distance to the target...1,000 meters...1,500 meters..."
+    },
+    {
+      "Name": "Hibiki",
+      "Text": "It's getting farther away."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "*sigh* ...That was our final strategy... It feels like we're shooting at shadows..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "What? So the president's countermeasure didn't work?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "No. It looks like we're unable to physically harm the structure."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "*sigh* ...A cruise missile on that scale would exceed what Millennium's technology is capable of... If that doesn't work, then..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Where'd the president get something like that?"
+    },
+    {
+      "Name": "Utaha",
+      "Text": "...It's meaningless to proceed any further."
+    },
+    {
+      "Name": "Utaha",
+      "Text": "If it can't be physically affected, it's already beyond a natural phenomenon. So there's nothing the Engineering Department can do about it."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "...Same here. That was the last ace up our sleeve we came across in Eridu."
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Himari? Is there any solution?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "As of now, I can't think of anything..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Himari",
+      "Text": "How typical of Big Sister..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Not only was she unhelpful to the world, but the legacy she left behind is also useless."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Umm...it's kind of insulting to talk about someone living as if they're dead..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "She deserves worse!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Well, the president did a lot of things wrong, but that's a bit extreme..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Okay, so the next option is... Um..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Do we have any solutions? Anything?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "*sigh* ...It's impossible."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Everything is blocked."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "*tchhhk* I checked the data on the sanctum materials that were analyzed by Millennium."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I think I know the structure's phenomenon."
+    },
+    {
+      "Name": "Himari",
+      "Text": "What is it? If we can understand it, we might be able to deal with it, at least."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "With the help of the scholars of the Sisterhood, the librarians at the old library, and the Tea Party, I've collected information from every archive in Kivotos."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "However, this is only a hypothesis and hasn't been verified."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Anything helps. We don't have any means of verifying any hypothesis anyway."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Basically, the sanctums reappearing in Kivotos and the structures above Kivotos are..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "...maintaining a kind of quantum superposition state. It's the ability for a system to be in multiple states at once, essentially."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Indeed...! That would make sense..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "What? Does this have to do with quantum mechanics?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Yes and no... I'm using the most similar theory to help understand the phenomenon."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "So just keep that premise in mind."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "It's a multi-world interpretation...no, a multidimensional analysis would be more accurate, an existence based on that theory."
+    },
+    {
+      "Name": "Ako",
+      "Text": "Multidimensional analysis..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Um, so because the multi-world interpretation is a hypothesis that the universe diverges for every possible probability distribution or pattern in the entire universe..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "But if it's a multidimensional analysis..."
+    },
+    {
+      "Name": "Ako",
+      "Text": "If a coin is tossed with the possibility of getting heads or tails, only one of those results will appear in this world, right?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "But this theory suggests that other universes' possibilities, usually unable to manifest here, exist simultaneously with our universe?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Hahaha. What??"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Like a parallel universe? Like science fiction that says the world diverges every time a coin is tossed? *crunch*"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "The theory itself is based in science."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "However, within that space, all the probable possibilities are mixed in an overlapping manner without diverging."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "In other words, it's a chaotic space in which existence and non-existence within infinite multidimensionality are mixed with every probability."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "That's why we can't physically intervene. It's...almost its own world where it maintains both existence and non-existence."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "You can see it, but you can't touch it..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "We don't have a solution with the technology we have..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "But I think that only the outside surroundings of the structure could maintain such a state."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "If the interior was also unstable, it'd be impossible to transfer energy to each sanctum like it's doing now."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...So it's essentially a barrier, so to speak."
+    },
+    {
+      "Name": "Himari",
+      "Text": "By deploying an invincible multidimensionality, known as the quantum superposition state, like a barrier, it's protected from all physical laws."
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's a bold theory, but I get it. Use an overlapping multidimensionality for defense... It'd make sense if that were the case."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "If we can get rid of the barrier..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "...It'd be possible to attack the main body inside."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "But how would we eliminate a barrier like that?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "There is one solution... "
+    },
+    {
+      "Name": "Himari",
+      "Text": "If we can implement the same quantum superposition state as that barrier, we can enter without being affected by the barrier."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "The same state...?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Oh, I see. If the quantum superposition state occurring in that multidimensional space is viewed as a kind of vibrational value..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "An object with the same vibrational value would be able to pass through, right?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "...Yes, because regardless of the probability or superposition state inside that multidimensional space, they'll be in the same space."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Kind of like noise canceling?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "It's a little different, but the concepts are similar."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "If we can analyze the multidimensionality and implement the same state...we can neutralize the barrier..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "But how...?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "For that to be possible, we need to be able to calculate multidimensional analysis."
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Is that even possible?"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "That's..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "...impossible."
+    },
+    {
+      "Name": "Himari",
+      "Text": "To calculate multidimensional analysis, we'd need a quantum computer, which only exists in theory."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Th-Then there's nothing we can do?"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "The False Sanctums are about to manifest again, and we can't do anything but watch it happen?!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "Even if we manage to eliminate the sanctums that appear again..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "...If we leave that structure in the sky as it is, it'll just calculate the probability of existence for sanctums in multiple dimensions and manifest them here, over and over again."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...Seriously?!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Th-Then, even if we destroy the sanctums..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The sanctums can be recreated as many times as the infinite number of dimensions that exist in the universe... Is that right?"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Wh-What..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "That doesn't make sense! What happened to the first law of thermodynamics?"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "*sigh* ...The moment multidimensionality comes into this, everything we know of the world becomes meaningless."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "What, then? Wh-What do we do? Are you saying even if we know what needs to be done, we're utterly helpless?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Hm? "
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Is Sensei here? When did they slip out? "
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "H-Huh...? Where'd Sensei go...?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...There's a way."
+    },
+    {
+      "Text": "[s] \"Black Suit.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "There is one method. Just one way to reach Phrenapates."
+    },
+    {
+      "Text": "[s] \"...Tell me how to do it.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Heeheeheehee..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "In exchange for telling you, what will you give me?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Hmm, well."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Bowing your head here and asking me means you're willing to do just about anything to achieve your goal, no matter the sacrifice."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You're even here, willing to cooperate with Gematria. "
+    },
+    {
+      "Text": "[s] \"...\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Heh heh, then, what shall I demand of you? ...Right, how about joining Gematria?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...Heeheehee. Just kidding."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Gematria has disbanded, so you're lucky this time. I'll give you a boon, just this once."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...But I must warn you."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "[USERNAME] Sensei, once you do this, your body will receive irreversible damage."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You won't be able to revert to your prior state...and you may even die."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "You're still willing to move forward?"
+    },
+    {
+      "Text": "[ns] \"None of that matters.\""
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Even knowing this could end in your death?"
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Your resolve is set. I understand."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "Sensei... What you're looking for is..."
+    },
+    {
+      "Name": "Black Suit",
+      "Text": "...in Abydos."
+    },
+    {
+      "Text": "Next Episode; What's Hidden in Abydos 1"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;วิธีการและอุปกรณ์"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "สูงขึ้นไป 75,000 เมตร นั่นมัน... มันสูงมากเลยนะคะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ลอยอยู่ที่ความสูงขนาดนั้นได้ยังไงกันนะ...?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ด้วยเทคโนโลยีที่เรามีในตอนนี้ เราโจมตีขึ้นไปที่ความสูงขนาดนั้นไม่ไหวหรอก"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มีแผนการที่คิดไว้บ้างไหมหัวหน้า?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่รู้สิคะ... ความสูงขนาดนั้นอยู่นอกเหนือจากขอบเขตความสามารถของฉันค่ะ พวกเราคือแฮ็กเกอร์\nนะคะ ยังไม่ได้ถึงขั้นเป็นวิศวกร"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ยิ่งไปกว่านั้น ถึงจะพยายามตรวจสอบโครงสร้าง แต่เกราะป้องกันที่ล้อมรอบอยู่ก็ยากที่จะทำให้เรา\nตรวจสอบภายด้านในได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... เพราะงั้น... เราใช้มรดกของบิ๊กซิสเตอร์กันที่นี่เถอะค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มรดกของประธาน? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ จาก <แผนรับมือ> ที่ผู้หญิงคนนั้นเตรียมไว้เพื่อไม่ให้โลกถึงจุดจบ... หนึ่งในนั้นก็มาจากสมมติฐาน\nว่าจะมีภัยคุกคามจากฟากฟ้าค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จี้จัง ช่วยแฮ็กอาวุธที่พบในเอริดูให้สามารถใช้งานได้หน่อยได้ไหมคะ? ส่วนฉันจะเตรียมอยู่ทางนี้เองค่ะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...... หมายถึงมิสไซล์นั่นน่ะเหรอ? ไม่อยากทำเท่าไรเลยแฮะ..."
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ก็ได้ๆ ถ้าเป็นอันนั้น ก็อาจจะได้ผลก็ได้ "
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "เดี๋ยวฉันจะไปบอกสมาชิกไว้ให้นะ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "แล้วเราก็ต้องการความช่วยเหลือจากชมรมวิศวกรรมด้วย"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "อื้ม เข้าใจแล้ว ทางนี้ก็จะเตรียมตัวเหมือนกัน"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ มาลองทำทุกอย่างที่ทำได้ก่อนแล้วกันค่ะ"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "อึก...!!  ขอให้ถึงเถอะ!"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อีก 2,000 เมตร......"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "อีก 1,000 เมตร...... อีก 500 เมตร...... "
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "ถึงพิกัดจุดหมายแล้ว! เป็นยังไงบ้างคะ?! เข้าเป้าไหมคะ?!"
+    },
+    {
+      "Text": "ห้องชมรมวิศวกรรม"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "...... ไม่ มันผ่านไปเลย "
+    },
+    {
+      "Name": "โคโทริ",
+      "Text": "อ๊ะ...!!  ครั้งนี้ก็ด้วยเหรอ?!"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "ระยะทางจากเป้าหมาย...... 1,000 เมตร...... 1,500 เมตร......"
+    },
+    {
+      "Name": "ฮิบิกิ",
+      "Text": "มันกำลังห่างออกไปเรื่อยๆ เลย "
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "เฮ้อ... นี่เป็นวิธีสุดท้ายแล้วเชียว... เหมือนเรากำลังยิงเงาที่ไม่มีตัวตนจริงๆ อยู่เลย"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อะไรน่ะ? แผนรับมือที่ประธานทิ้งไว้ให้ก็ไม่มีประโยชน์เหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ดูเหมือนว่าการแทรกแซงทางกายภาพจะใช้ไม่ได้กับโครงสร้างนั้นนะคะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เฮ้อ... ขีปนาวุธร่อนนั่นน่าจะมีสมรรถนะเกินเทคโนโลยีของมิลเลเนียมแล้ว... ถ้าแม้แต่อาวุธชิ้นนี้ก็ยังไม่\nได้ผลละก็..."
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ว่าแต่ ประธานไปได้ของแบบนั้นมาจากไหนน่ะ?"
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "...... ตอนนี้ต่อให้ทำต่อไปก็ไร้ความหมาย "
+    },
+    {
+      "Name": "อุทาฮะ",
+      "Text": "หากมันไม่ได้รับผลกระทบทางกายภาพ ก็แสดงว่ามันเป็นบางอย่างที่เหนือกว่า <ปรากฏการณ์ธรรมชาติ> และถ้าเป็นอย่างนั้น ชมรมวิศวกรรมของเราก็ไม่น่าช่วยอะไรได้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...... พวกเราเองก็ด้วย นั่นเป็นไพ่ใบสุดท้ายที่หาได้จากเอริดูแล้วละ"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ฮิมาริ? ไม่มีวิธีอื่นเหลือเลยเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ค่ะ ไม่มีเลยค่ะ ...... ตอนนี้ไม่มีเลย"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "... สมกับที่เป็นบิ๊กซิสเตอร์เลยนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "จากโลกไปแบบไม่ได้มีส่วนช่วยอะไรเลย แถมมรดกที่ทิ้งไว้ก็ไร้ประโยชน์อีก "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "นี่ๆ... ทำไมถึงพูดเหมือนกับประธานตายไปแล้วเลยอย่างนั้นล่ะ...?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "กับผู้หญิงคนนั้นแล้ว ไม่แรงไปหรอกค่ะ! "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ก็นะ ถึงประธานจะทำผิดหลายอย่างก็เถอะ..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าอย่างนั้น วิธีต่อไปก็... อืม..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "มีวิธีอื่น... ไหมคะ?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เฮ้อ... จะไปมีได้ยังไงกันเล่า"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ตอนนี้เรามืดแปดด้านเลยละ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "(ซ่า) ฉันตรวจสอบข้อมูลเกี่ยวกับวัสดุของหอคอยที่ทางมิลเลเนียมวิเคราะห์ให้แล้วค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ปรากฏการณ์ที่เกิดจากโครงสร้างนั่น... ฉันว่าฉันรู้แล้วค่ะว่ามันคืออะไร"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "คืออะไรเหรอคะ? ถ้าเราเข้าใจมันได้ ก็จะรู้วิธีเผชิญหน้ากับมันได้ค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เรารวบรวมข้อมูลจากทุกทิศทางด้วยความช่วยเหลือจากบัณฑิตของชมรมซิสเตอร์ บรรณารักษ์จาก\nห้องสมุดเก่า และจากสภาน้ำชาค่ะ "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่มันเป็นเพียงสมมติฐานที่ยังไม่ได้รับการพิสูจน์ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่เป็นไรค่ะ ยังไงก็ไม่มีทางพิสูจน์ได้อยู่แล้ว..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "โดยสรุปก็คือ... หอคอยที่ปรากฏในคิโวทอสอีกครั้ง และโครงสร้างที่อยู่บนฟ้าเหนือคิโวทอส..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "...... ต่างก็เหมือนจะมี <สถานะที่อยู่ร่วมกัน> ประเภทหนึ่งนะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "งั้นเหรอ...! ถ้างั้นก็......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ว่าไงนะ? นี่มัน... กลศาสตร์ควอนตัมเหรอ?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ไม่ค่ะ นี่เป็นเพียงการเปรียบเทียบด้วยทฤษฎีที่ใกล้เคียงกันที่สุดเพื่อให้เข้าใจปรากฏการณ์นี้ค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ทุกคนช่วยตั้งใจฟังกันด้วยนะคะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "สิ่งนั้นคือโลกคู่ขนานในควอนตัม... ไม่สิ ต้องใช้คำว่าการวิเคราะห์พหุมิติมากกว่าถึงจะชัดเจนที่สุด และสิ่งนั้นน่าจะมาจากทฤษฎีนี้ค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "การวิเคราะห์พหุมิติงั้นเหรอ..."
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "อ่า... ก็แบบว่า... โลกคู่ขนานในควอนตัมคือสมมติฐานที่ว่าเอกภพจะแตกออกเป็นเสี่ยงๆ ในทุกๆ ความเป็นไปได้ของจักรวาลค่ะ...... "
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "แล้วการวิเคราะห์พหุมิติล่ะ......"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "หากการโยนเหรียญมีความเป็นไปได้สองอย่างคือออกหัวไม่ก็ออกก้อย โลกใบนี้ก็มาจากผลลัพธ์แค่\nอย่างเดียวค่ะ"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "แต่ว่า นี่เป็นทฤษฎีที่บอกว่ายังมีจักรวาลอื่นที่ยังไม่ปรากฏออกมา... ใช่ไหมล่ะคะ?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "วะฮะฮ่าฮ่า อะไรกันๆ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "จะบอกว่ามีจักรวาลคู่ขนานอะไรอย่างนั้นเหรอ? นี่มันนิยายวิทยาศาสตร์หรือเปล่า? โลกจะแตกออก\nเป็นเสี่ยงๆ ทุกครั้งที่โยนเหรียญเหรอ? (ง่ำๆ)"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ทฤษฎีนั้นมันเป็นวิทยาศาสตร์นะ?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่ว่าในพื้นที่นั้น แต่ละความเป็นไปได้จะไม่ถูกแบ่งแยก แต่มันจะทับซ้อนกันอยู่ค่ะ "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "นั่นแปลว่า มันคือพื้นที่แห่งความสับสนวุ่นวายที่ประกอบด้วยสิ่งที่มีตัวตนและไม่มีตัวตนในนานามิติ\nที่ไม่มีที่สิ้นสุด โดยผสมปนเปกันตามอัตราความน่าจะเป็น"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "นั่นเป็นเหตุผลว่าทำไมเราถึงไม่อาจแทรกแซงทางกายภาพได้ในโลกที่สิ่งที่มีตัวตนถูกกำหนดไว้แล้วค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "มองเห็นแต่จับต้องไม่ได้......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "งั้นตอนนี้เราก็อับจนหนทางกันแล้วงั้นสิ... "
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่ฉันคิดว่าแค่ส่วนนอกที่ห่อหุ้มโครงสร้างนั่นไว้เท่านั้นที่มีสถานะแบบนั้นค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เพราะหากภายในมีตัวตนไม่แน่นอน ก็ไม่น่าจะส่งพลังงานไปยังแต่ละหอคอยได้ค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "พูดง่ายๆ เลยก็คือ... มันมีบาเรียอยู่นั่นเองค่ะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ความหลายมิติที่เป็นอมตะที่เรียกว่า <สถานะการทับซ้อนตามความน่าจะเป็น> ถูกกระจายตัวเป็น\nบาเรีย และถูกคุ้มกันด้วยกฎทางฟิสิกส์สินะคะ"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถึงจะเป็นทฤษฎีที่เด็ดเดี่ยว แต่ฉันก็พอเข้าใจแล้วค่ะ ใช้หลายมิติซ้อนทับกันเพื่อป้องกัน...... มันก็สมเหตุสมผลอยู่นะคะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ค่ะ ถ้าเราจัดการกับบาเรียนั่นได้ละก็......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เราก็จะโจมตีของจริงที่อยู่ภายในนั้นได้ค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "แต่ว่ามันจะมีวิธี... จัดการกับบาเรียอันนั้นได้ด้วยเหรอ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ค่ะ จะว่ามีก็มีค่ะ "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ถ้าเราจำลอง <สถานะการทับซ้อนตามความน่าจะเป็น> ที่เหมือนบาเรียอันนั้นได้ เราก็จะเข้าไปข้างใน\nได้โดยไม่ได้รับผลกระทบจากบาเรียค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "สถานะที่เหมือนกันเหรอ......?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "...... อ้อ นั่นสินะคะ หากเรามองว่า <สถานะการทับซ้อนตามความน่าจะเป็น> ที่เกิดขึ้นในพื้นที่พหุมิติ\nนั่นเป็นการสั่นสะเทือนชนิดหนึ่ง......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แบบนั้นตัววัตถุที่มีการสั่นในค่าที่เท่ากับเป้าหมายก็จะไม่ได้รับผลกระทบจากความสั่นนั้นใช่ไหมคะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ใช่ค่ะ เพราะถ้าเป็นอย่างนั้น ก็จะเท่ากับว่าแต่ละฝ่ายก็จะอยู่ใน <พื้นที่เดียวกัน> ส่วนเรื่องความ\nน่าจะเป็นภายในพหุมิติหรือสถานะทับซ้อนนั้นก็จะไม่มีผลค่ะ"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "เหมือนการตัดเสียงรบกวนอะไรแบบนั้นเหรอ? "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อืม มันค่อนข้างต่างกันนิดหน่อย... แต่ก็ให้ความรู้สึกคล้ายๆ กันค่ะ"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "หากเราวิเคราะห์พหุมิตินั่นและจำลองสถานะเดียวกันได้... เราก็จะตัดกำลังบาเรียได้..."
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่ว่าจะทำยังไงนี่น่ะสิ..."
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ถ้าวิธีนั้นมันเป็นไปได้ พวกเราก็ต้องคำนวณการวิเคราะห์พหุมิติให้ได้ใช่ไหมล่ะ?"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "แล้วเราจะทำแบบนั้นได้เหรอ?"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "เรื่องนั้นก็..."
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ไม่ได้ค่ะ......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "นี่คือการวิเคราะห์พหุมิติเลยนะคะ... ถ้าจะทำสิ่งนั้น เราต้องมีคอมพิวเตอร์ควอนตัมที่มีอยู่แค่ในทฤษฎี\nเท่านั้นค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ถะ... ถ้าอย่างนั้น? เราก็ได้แต่ปล่อยมันไว้แบบนี้แล้วก็เฝ้าดูเฉยๆ เหรอ? "
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "มันจะสร้างหอคอยแห่งคำลวงขึ้นมาอีกครั้งเลยนะ เราจะแค่เฝ้าดูเฉยๆ ได้ยังไง!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "ถึงเราจะทำลายหอคอยที่เกิดขึ้นใหม่ได้ก็ตาม......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "แต่ถ้าเราปล่อยให้โครงสร้างบนฟ้าลอยอยู่อย่างนั้น เดี๋ยวมันก็คำนวณความน่าจะเป็นในพหุมิติ แล้วก็สร้างหอคอยขึ้นมาใหม่อยู่ดีค่ะ"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ...?!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "งะ... งั้นก็แสดงว่า ต่อให้เราพยายามทำลายหอคอยแค่ไหนก็ตาม...... "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "หอคอยก็จะถูกสร้างใหม่ได้ตามจำนวนของมิติที่มีอยู่ไม่สิ้นสุดในจักรวาล... อย่างนั้นเหรอคะ?"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อะ... อะไรกัน...!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ทำไมถึงเป็นแบบนี้ไปได้ล่ะ! แล้วกฎข้อที่หนึ่งของอุณหพลศาสตร์ล่ะหายไปไหน?!"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "...... เฮ้อ พอเริ่มเรื่องพหุมิติขึ้นมา ทุกอย่างก็ดูไม่สมเหตุสมผลไปหมดเลย"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "แล้วยังไงล่ะทีนี้ ระ... เราต้องทำยังไงกันเหรอ? ถึงจะรู้วิธี แต่ก็แก้ปัญหาไม่ได้งั้นเหรอ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "...... "
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "...... เอ๋? "
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "จะว่าไป... เราไม่เห็นคุณครูกันตั้งแต่เมื่อกี้แล้วนะ "
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "เอ๊ะ เอ๋...? นั่นสิคะ ไปอยู่ไหนนะ...?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "... ผมมีวิธีอยู่ครับ"
+    },
+    {
+      "Text": "[s] \"สูทดำ\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าเป็นวิธีนั้น บางทีอาจจะไปถึง[ruby=ผู้นำทางสีสัน]เพลนาพาเทส[/ruby]เลยก็ได้นะครับ"
+    },
+    {
+      "Text": "[s] \"...... วิธีที่ว่าคืออะไรเหรอ?\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึหึหึหึ..."
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าผมบอก แล้วคุณจะให้อะไรเป็น <ค่าตอบแทน> ผมได้บ้างล่ะครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...... ก็น่าจะเป็นอย่างนั้นนะครับ "
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถ้าถึงขั้นมาถามวิธีจากผมแบบนี้ แสดงว่าไม่ว่าจะเป็นอะไรคุณก็คงยอมจ่ายได้ทั้งหมด"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "รวมถึงการร่วมมือกับ <เกมาเทรีย> ด้วย...... "
+    },
+    {
+      "Text": "[s] \".............\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "หึหึหึ ถ้าอย่างนั้นผมจะขออะไรเป็นค่าตอบแทนได้บ้างล่ะครับ ...... อืม เอาเป็น... มาเข้าร่วม <เกมาเทรีย> ดีไหมครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...... หึหึหึหึหึ ล้อเล่นครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ตอนนี้เกมาเทรียสลายกลุ่มแล้ว งั้นข้อนี้คงจะยากนะครับ เอาเป็นว่าครั้งนี้ผมจะยอมบอกให้ง่ายๆ แล้วกันครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...... แต่ก่อนอื่น ผมจะขอเตือนอะไรคุณสักอย่างหนึ่งก่อนครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ทันทีที่ครู [USERNAME] ใช้สิ่งนี้ ร่างกายของคุณก็จะได้รับความเสียหายแบบไม่สามารถแก้ไขได้ครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "คุณจะไม่สามารถกลับไปอยู่ในสภาพเดิมได้อีก และบางที...... ก็อาจจะตายได้เลยครับ "
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงอย่างนั้นก็ไม่เป็นไรเหรอครับ?"
+    },
+    {
+      "Text": "[ns] \"ไม่เป็นไร\""
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ถึงตอนจบมันจะเป็นที่แน่ชัดแบบนั้น แต่ก็ไม่เป็นไรงั้นเหรอครับ?"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "อย่างนั้นสินะครับ เข้าใจแล้วครับ"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "ครู... วิธีที่ครูเสาะหาอยู่......"
+    },
+    {
+      "Name": "สูทดำ",
+      "Text": "...... อยู่ในอะบิดอสครับ"
+    },
+    {
+      "Text": "ตอนต่อไป;สิ่งที่อยู่ในอะบิดอส 1"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;方法"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "居然在75,000m的高空……難度真高呢。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "不如說，是怎麼存在於那裡的呢……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "而且憑我們目前的能力，想對那個高度發動攻擊是不可能的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "部長，你有什麼好辦法嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "該說那已經在我的管轄範圍外了嗎……\n我們是駭客而並非工程師。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "即使想解析其構造，也因為被神祕的膜給覆蓋而無法確認內部的狀況。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "對了……這種時候，我們就試著使用大姐頭留下的遺產吧。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "會長的……遺產？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯。那個人為了防範世界終焉而準備的「對策」之中……\n也包含應對來自空中威脅的方法。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "千醬，我想使用在埃里都找到的武器，能請你進行駭入嗎？我來負責準備。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……是那個導彈對吧？雖然我不是很喜歡……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "知道了。\n那個說不定能辦到呢。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "我會轉告其他部員的。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "還有，工程師部的協助也是必要的。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "了解。我們也會做好準備的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "謝謝你們。\n暫且先把能用的手段都試試看吧。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "唔……擊中吧……！！"
+    },
+    {
+      "Name": "響",
+      "Text": "距離2,000m……"
+    },
+    {
+      "Name": "響",
+      "Text": "1,000m……500m…… "
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "抵達指定座標！\n怎麼樣？命中了嗎！？"
+    },
+    {
+      "Text": "工程師部部室"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "……不，穿過去了。"
+    },
+    {
+      "Name": "亞都梨",
+      "Text": "啊啊，又來了！？"
+    },
+    {
+      "Name": "響",
+      "Text": "與目標的距離1,000m……1,500m……"
+    },
+    {
+      "Name": "響",
+      "Text": "越來越遠了。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "唉……這是最後的方法了……\n簡直像鬼打牆一樣呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……"
+    },
+    {
+      "Name": "優香",
+      "Text": "會長留下的手段也行不通嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "沒錯……看來似乎無法對它進行物理干涉呢。"
+    },
+    {
+      "Name": "優香",
+      "Text": "那個巡航導彈的性能明明已經超越千年的技術能力……\n居然連它也不行……"
+    },
+    {
+      "Name": "優香",
+      "Text": "話說，會長是在哪裡拿到那種東西的啊。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "唉……再這樣下去也沒有意義。"
+    },
+    {
+      "Name": "詠葉",
+      "Text": "既然它不會受到物理層面的影響，我們工程師部也無能為力。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……我們也一樣。那已經是從埃里都找到的最後一張王牌了……"
+    },
+    {
+      "Name": "千尋",
+      "Text": "陽葵，還有其他辦法嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "不……目前沒有。"
+    },
+    {
+      "Name": "優香",
+      "Text": "唉……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……真的是，到最後都很有大姐頭的作風呢。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "雖然他至今為止幾乎沒派上什麼用場，沒想到就連遺產也一樣。"
+    },
+    {
+      "Name": "優香",
+      "Text": "那個……可以不要把會長當成已經死掉的人嗎！？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "他也只做了這些呀。\n而且實際上，明明我們已經陷入這種情況，他也依然不願意現身。"
+    },
+    {
+      "Name": "優香",
+      "Text": "嘛……會長確實做錯了很多事……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "無論如何，必須得思考下一步才行。"
+    },
+    {
+      "Name": "步",
+      "Text": "還有沒有……其他辦法呢。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "唉……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "這下走投無路了呢。"
+    },
+    {
+      "Name": "花子",
+      "Text": "我確認了千年分析的聖所資料──"
+    },
+    {
+      "Name": "花子",
+      "Text": "那個構造體引起的現象為何──我或許知道了。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "呼呣……能請你詳細說明嗎？"
+    },
+    {
+      "Name": "花子",
+      "Text": "修女會的祭司、古書館的管理員──以及茶會……\n結合各自所擁有的情報加以解釋後，推測出了一種假說。"
+    },
+    {
+      "Name": "花子",
+      "Text": "但是，這終究只是假說，並沒有經過實際的驗證。\n即便如此也沒關係嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "無妨。\n畢竟只要我們無法做出物理層面的干涉，便無法加以驗證。"
+    },
+    {
+      "Name": "花子",
+      "Text": "從結論來說，再次出現的聖所、以及奇普托斯上空的構造體………"
+    },
+    {
+      "Name": "花子",
+      "Text": "……似乎都維持著一種「共存狀態」。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "原來如此……"
+    },
+    {
+      "Name": "優香",
+      "Text": "咦？\n是在說量子力學嗎……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "不，只是為了更容易理解那個現象，所舉的最接近的理論而已。"
+    },
+    {
+      "Name": "花子",
+      "Text": "請先把它放在心裡，接著聽我說。"
+    },
+    {
+      "Name": "花子",
+      "Text": "那是多世界詮釋──不，說是「[ruby= ・     ・     ・ ]多次元[/ruby]詮釋」或許更正確吧。\n它很可能是以此理論為基礎的、機率性的存在。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "所謂的多次元詮釋是──"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那個……多世界詮釋就是「可能性有多少，宇宙的分歧就有多少」的假說對吧……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "啊，不過如果是多次元詮釋的話會不會有所不同呢……"
+    },
+    {
+      "Name": "亞子",
+      "Text": "──也就是說，投擲硬幣時擲出正面的機率為50%，\n並且這個世界只會出現其中一種結果。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "然而儘管我們無法觀測，擲出反面的世界也有存在的可能性。\n將這些「可能性的世界」解釋為全都存在的理論……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "啊哈哈！類似SF作品裡常見的平行世界是嗎？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "每次投擲硬幣的時候世界就會產生分歧的意思？（嘎滋）"
+    },
+    {
+      "Name": "優香",
+      "Text": "那個理論本身姑且還是基於科學的。"
+    },
+    {
+      "Name": "花子",
+      "Text": "而那個空間──\n在沒有讓所有可能性彼此分歧的情況下，將其混合在了一起。"
+    },
+    {
+      "Name": "花子",
+      "Text": "……無限多次元中的存在與非存在混雜而成的渾沌空間。"
+    },
+    {
+      "Name": "花子",
+      "Text": "因此，存在已被確定的世界無法進行物理層面的介入。"
+    },
+    {
+      "Name": "優香",
+      "Text": "能夠觀測卻無法干涉……"
+    },
+    {
+      "Name": "優香",
+      "Text": "沒有什麼辦法嗎……"
+    },
+    {
+      "Name": "花子",
+      "Text": "也許──只有周圍的那層膜處於那種狀態。我是這麼推測的。"
+    },
+    {
+      "Name": "花子",
+      "Text": "如果內部的構造體本身的狀態不穩定，就無法將能量傳送到各個聖所才對。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……也就是說那是防護罩。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "將名為「共存狀態」的無敵多次元如防護罩般展開，從所有的物理法則中獲得保護。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "原來如此……這樣就說得通了。"
+    },
+    {
+      "Name": "花子",
+      "Text": "是的。接下來，只要能破壞那個防護罩……"
+    },
+    {
+      "Name": "花子",
+      "Text": "說不定，就能對其本體展開攻擊了。"
+    },
+    {
+      "Name": "優香",
+      "Text": "道理是明白了，不過究竟該怎麼做……？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "如果那個理論是正確的，那麼就有方法。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "只要我們也和那個防護罩處於[ruby= ・     ・     ・     ・     ・ ]相同的狀態[/ruby]就可以了。"
+    },
+    {
+      "Name": "優香",
+      "Text": "相同的狀態……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "這樣啊……如果把那個多次元空間發生的「共存狀態」視為一種振動值──"
+    },
+    {
+      "Name": "花子",
+      "Text": "與對方的振動模式相同的物體，就不會受到影響……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "是的。只要處於相同的狀態，就不會受到多次元內部的機率或共存狀態影響，\n雙方都會存在於「相同的空間」。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "就像是……主動降噪一樣？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這個嘛……可以說是非常類似吧。"
+    },
+    {
+      "Name": "花子",
+      "Text": "只要對那個多次元進行分析，讓我們進入相同的狀態……\n就能讓防護罩失效……"
+    },
+    {
+      "Name": "花子",
+      "Text": "但是，該用什麼方法……"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "如果真的要執行這個做法，我們就必須能夠計算「多次元詮釋」。"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "那種事做得到嗎？"
+    },
+    {
+      "Name": "花子",
+      "Text": "這……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……以現狀來看是不可能的。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "要計算多次元詮釋，只有使用量子電腦才做得到。"
+    },
+    {
+      "Name": "優香",
+      "Text": "所以說，我們現在完全無能為力是嗎？"
+    },
+    {
+      "Name": "優香",
+      "Text": "明明那個東西又打算讓「虛假的聖所」出現，\n我們卻只能眼睜睜地看著嗎……？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "……"
+    },
+    {
+      "Name": "花子",
+      "Text": "就算我們破壞掉再次出現的聖所……"
+    },
+    {
+      "Name": "花子",
+      "Text": "只要無法解決一切的元凶，聖所依然會再次出現吧。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "怎麼會……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "那，那麼，無論我們戰鬥多少次──"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "它也能無窮無盡地製造出聖所之塔……沒錯吧？"
+    },
+    {
+      "Name": "優香",
+      "Text": "什麼……那怎麼可能！"
+    },
+    {
+      "Name": "優香",
+      "Text": "熱力學第一定律跑哪去了啊！？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "唉……對手是「多次元」的話，一切都有可能是嗎。"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "到，到底該怎麼做才好啊？\n就算知道方法，不能解決不就沒有意義了嗎……"
+    },
+    {
+      "Name": "步",
+      "Text": "……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "……呃，咦？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "老師呢？"
+    },
+    {
+      "Name": "步",
+      "Text": "咦，咦咦……？\n剛才應該還在的呀……？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……方法是有的。"
+    },
+    {
+      "Text": "[s]「……黑色西裝人。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "如果是那個東西，說不定能到達「[ruby=誘騙者]色彩的嚮導者[/ruby]」所在的位置。"
+    },
+    {
+      "Text": "[s]「……該怎麼做？」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "呵呵呵……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "這個嘛……你願意向我付出何種「代價」呢？老師。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "啊啊……原來如此──"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "像現在這樣向我提問的行為本身，\n就是願意支付任何代價的覺悟──是這樣沒錯吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "有必要的話，與「蓋瑪特利亞」合作也不排斥的態度…… "
+    },
+    {
+      "Text": "[s] 「…………」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "咯咯咯……那麼，我該要求什麼呢……\n對了，加入「蓋瑪特利亞」──怎麼樣呢？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "咯咯咯咯……開玩笑的。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "蓋瑪特利亞已經解散了。\n這次我就特別告訴你吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……但在那之前，我要警告你一件事。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "在使用它的瞬間，[USERNAME]老師的肉體──\n將會受到無法挽回的傷害吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "再也無法回復以前的狀態。\n──甚至可能置你於死地。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "──即便如此也可以嗎？"
+    },
+    {
+      "Text": "[ns]「──無所謂。」"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "就算結果顯而易見也一樣嗎？"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "……我知道了，那我就告訴你吧。"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "那個「方法」──"
+    },
+    {
+      "Name": "黑色西裝人",
+      "Text": "──位於[ruby= ・     ・     ・     ・ ]阿拜多斯[/ruby]。"
+    },
+    {
+      "Text": "下一話;位於阿拜多斯的某物（１）"
+    }
+  ]
+}

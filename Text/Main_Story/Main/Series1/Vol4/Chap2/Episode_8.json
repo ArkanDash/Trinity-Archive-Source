@@ -1,0 +1,2177 @@
+{
+  "TitleJP": "新たな代行",
+  "TitleKR": "새로운 대행",
+  "TitleEN": "New Proxy",
+  "TitleTH": "รักษาการแทนคนใหม่",
+  "TitleTW": "新任代理",
+  "DescJP": "カヤの招集に応じ、連邦生徒会を訪れた先生。カヤは新しい行政手続きの改善案を提示して先生を懐柔しようとするも、先生は彼女の提案を断るのだった。",
+  "DescKR": "카야의 초대에 응하여 총학생회를 찾은 선생님. 카야는 새로운 행정 절차 개선안을 제시하며 선생님을 회유하려 하지만, 선생님은 그녀의 제안을 단칼에 거절한다.",
+  "DescEN": "Sensei visits the General Student Council at Kaya's invitation. Kaya tries to win Sensei over with a proposal for a new administrative procedure, but they quickly reject it.",
+  "DescTH": "คุณครูตอบไปที่องค์การนักเรียนตามคำเชิญของคายะ คายะเสนอแผนปรับ\nปรุงขั้นตอนการทำงานของคณะบริหารใหม่ และพยายามพูดโน้มน้าว\nคุณครูให้เข้าร่วม แต่คุณครูก็ปฏิเสธข้อเสนอของคายะอย่างไร้เยื่อใย",
+  "DescTW": "老師應香耶之邀來到聯邦學生會。香耶提出新的行政程序改善方案，試圖拉攏老師，不過卻遭到老師一口回絕。",
+  "DialogJP": [
+    {
+      "Text": "第8話;新たな代行"
+    },
+    {
+      "Text": "連邦生徒会の建物の入口"
+    },
+    {
+      "Text": "（カヤの放送を見て、連邦生徒会の建物にやってきた）"
+    },
+    {
+      "Name": "アユム",
+      "Text": "せ、先生……！"
+    },
+    {
+      "Name": "アユム",
+      "Text": "た、大変です……リン先輩が……リン先輩が……！"
+    },
+    {
+      "Text": "[s1] \"落ち着いて、アユム。\""
+    },
+    {
+      "Text": "[s2] \"何があったの？\""
+    },
+    {
+      "Name": "アユム",
+      "Text": "えっと……それが……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "えっと……それが……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "リン先輩が、[ruby=なんきん]軟禁[/ruby]されちゃったの。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "私利私欲のために連邦生徒会長の手紙を偽装して、\n他の役員にテロ行為を仕掛けた疑いだとかでさ。"
+    },
+    {
+      "Text": "[s] \"連邦生徒会長の、手紙……？\""
+    },
+    {
+      "Name": "アユム",
+      "Text": "き、きっと何かの誤解です……！"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "誤解っていうか……どうせ誰かに嵌められたんでしょ。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "あの生真面目な先輩が私利私欲で動く人だったら、\n連邦生徒会の仕事がこんなに行き詰まることなんてなかったはずだし。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "……まあ、その性格のお陰でこんなにあからさまな手にも\n引っかかっちゃったんだろうけど。"
+    },
+    {
+      "Text": "[s] \"アユムとモモカは大丈夫だったの？\""
+    },
+    {
+      "Name": "アユム",
+      "Text": "はい……私たちの方への影響は特にありません。\nですが……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "リン先輩の軟禁が知らされた途端、議会の中で連邦生徒会長代行の後任に\nカヤ防衛室長を推す声が大きくなって……"
+    },
+    {
+      "Name": "アユム",
+      "Text": "リン先輩を支持する人たちは、\n勢いに圧されて会場から追い出されてしまいました……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "たしかに働きたくないって何度も言ったけどさぁ……\nまさかこんな風にサボる日がくるとは思いもしなかったよ。"
+    },
+    {
+      "Name": "連邦生徒会役員",
+      "Text": "……[USERNAME]先生、ご足労いただきありがとうございます。"
+    },
+    {
+      "Name": "連邦生徒会役員",
+      "Text": "「新しい連邦生徒会長代行」がお待ちです。"
+    },
+    {
+      "Name": "連邦生徒会役員",
+      "Text": "こちらへどうぞ。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "――先生、私だったら行かないよ。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "こんなあからさまな罠、自分からかかりに行くなんて正気？"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "袋ごと潰れたポテチみたいに、ぐちゃぐちゃになっても知らないからね。"
+    },
+    {
+      "Text": "[s] \"……きっと大丈夫、なはず。\""
+    },
+    {
+      "Text": "[ns] \"行ってくるよ。モモカ、アユム。\""
+    },
+    {
+      "Name": "モモカ",
+      "Text": "はぁ……能天気でポジティブなのが先生の取り柄だけどさ……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "まあ、言っても仕方ないか。\n私みたいな怠け者は力になれないだろうし……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "ど、どうか気をつけてください、先生……！"
+    },
+    {
+      "Name": "連邦生徒会役員",
+      "Text": "……こちらへ。"
+    },
+    {
+      "Text": "連邦生徒会長代行執務室"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "こんにちは、[USERNAME]先生。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "こちらの事情で突然お呼び立てしてしまい、申し訳ありません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "一度迎えを送ったのですが、今日の午後はシャーレにいらっしゃらなかったようですので、このような形を取らせていただきました。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "現在、連邦生徒会では一刻を争う事案が起きています。\nその件に関して少々先生とお話したく、ご足労頂いた次第です。\n火急の用だったとはいえ、不躾な手段を取ったことをお詫びいたします。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……ところで、先程は急用でもあったのでしょうか？\nスケジュール上にはこれといった予定がなかったと記憶しているのですが。"
+    },
+    {
+      "Text": "[s] \"ちょっと野暮用で。\""
+    },
+    {
+      "Text": "[ns] \"……それより、リンは？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "リン行政官は、諸事情で寮に。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "そして放送でもお伝えしたとおり、彼女の代わりとして、\n現在は私が連邦生徒会長代行を勤めています。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "――「連邦生徒会長の手紙」に従って。"
+    },
+    {
+      "Text": "[s] \"その手紙はどこにあったの？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……シャーレの地下です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "そこには手紙だけでなく、クラフトチェンバーを始めとする世に知られていない連邦生徒会長の私物が保管されておりましたので、間違いはないかと。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "おそらくシャーレに権限を渡す際、ちょっとしたミスがあったのでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "リン行政官のような方でも、時には間違えることもありますから。"
+    },
+    {
+      "Text": "[s] \"……カヤ、無断でシャーレの地下に入ったの？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……そうですね、その点は否定しません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "たしかに私は先のクーデターでD.U.が混乱に陥った際、シャーレの地下に侵入し、\n連邦生徒会長が残した物を持ってくるよう指示しました。\n――連邦生徒会長の真意を知るために。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ずっと疑問だったのです。何故、連邦生徒会長は完璧とは言えないリン行政官に代行業務を任せて姿を消したのか、と。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "そこには何か、凡人には理解出来ないお考えがあるのではないか。\nその思いで私は捜索を遂行し――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ついに、彼女の本当の想いを知ることができました。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "もちろん、そのために先生のプライベート空間を侵害してしまったことは自覚しています。しかし……"
+    },
+    {
+      "Text": "[s] \"……仕方のないことだったと思っているんだね。\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "さすが、理解が早くて助かります。\n先生もご存知ですよね？規則に縛られていては守れない正義があることを。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "規則とは、司る者が超人でもない限り、いずれ歪みが生じるもの。\nそこにつけいる者が必ず現れる。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "故に彼らを排除するためには、強い力が必要なのです。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……たしかにカイザーコーポレーションは先の件で少々張り切り過ぎていたようですが、彼らの持つ力は紛れもなく本物……。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ですので、私はその力を有効活用することに決めたのです。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "もちろん心配はいりません。\n防衛室長として、力の扱いには慣れていますから。"
+    },
+    {
+      "Text": "[s] \"……そんな力を手に入れて、何をするつもり？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "あらあら、そんなに怖い顔をしないでください。\nご心配なさらなくても、シャーレに手を出す気はありませんから。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "シャーレは混乱していた連邦生徒会の代わりに\nキヴォトスの問題を解決し、多くの生徒から絶大な信頼を得ています。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "お礼を言いこそすれ、危害を加えるなんて私たちがする理由がありません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "しかし……先生が日々、多すぎる業務と責任を負っているのも事実です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "様々な生徒が当番活動を行い、先生の業務を減らそうと尽力しているようですが……シャーレの根本的な構造を変えない限り、先生の負担は変わらないでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "この問題については、「私たち」も考え続けていました。\n先生のために連邦生徒会ができることはないか、と。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "その答えが――"
+    },
+    {
+      "Text": "[ns] \"……これは？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "シャーレの行政手続きの改善案です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "主に先生の業務負担の軽減を目的とし――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "いくつかの業務においては、先生の権限が強化される内容となっています。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "軽く目を通していただき、問題がないようでしたら、\nこちらにサインをお願いします。"
+    },
+    {
+      "Text": "[s] \"ここにサインしたら……何が変わるの？\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……特に何も。変わるものはありませんよ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "先生はやりたいことを続ければいいのです。\n今まで通り、ね。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "生徒と日常を過ごし、困っている人を助け――"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ですが、それらを必ずしも行う必要はありません。\n何もせずとも、先生を責める事はありません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "お金が必要でしたら、いくらでも支援いたしましょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "面倒な報告書だって、代わりに作成いたしますよ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ええ……すべては、先生の自由ですので。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ただ……一つだけ、約束してください。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "今後シャーレのすべての活動は、連邦生徒会の名で行うと。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "承諾していただけるのならば、\n先生がされたことに対する責任はすべて私たちが負いましょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "先生がどんな罪を犯しても、どんな問題を起こしても……\n先生が責められることはありません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "どうです？悪い話ではないでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ほら、大人は責任を負うのが大嫌いというではありませんか？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "ですから、私が先生の面倒を見ます。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "何もかもを私に任せて、自由に――楽になりましょう？"
+    },
+    {
+      "Text": "[ns] \"提案してくれるのはとても嬉しいけど、遠慮しておくね。\""
+    },
+    {
+      "Text": "[ns] \"大人は自分の言動に責任をもってこそだから。\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "…………はい？"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "先生、もう一度説明させていただきますが……。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "この改善案は、先生を自由にするための提案です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "先生を拘束したり、シャーレの権限を制限したりするものではありませんが……"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "何か気になる項目でもありましたか？"
+    },
+    {
+      "Text": "[s] \"たしかに魅力的だけど……。\""
+    },
+    {
+      "Text": "[ns3] \"でも、大人が責任逃れをする姿を見せてしまったら……\""
+    },
+    {
+      "Text": "[ns4] \"先生として、生徒の模範になれないから。\""
+    },
+    {
+      "Name": "カヤ",
+      "Text": "はぁ……。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "まったく、聞き分けの悪い大人ですねぇ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "社会から目をそらし、子どものような空想を抱き続ける……。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "そんな情けない大人の相手をする事ほど、疲れることもありませんが……。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……わかりました。でしたら、この件についてはしばらく保留としましょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "……明日から、新体制になった連邦生徒会による行政改革が行われる予定です。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "この改革により、キヴォトスは規定によって完璧に統制され、\n安全かつ「素敵な新世界」に生まれ変わることでしょう。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "新たなキヴォトスをご覧になれば、先生もお考えが変わるかもしれません。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "私たち防衛室は――いえ、連邦生徒会は、いつでも先生をお待ちしておりますよ。"
+    },
+    {
+      "Name": "カヤ",
+      "Text": "では、引き続きよろしくお願い致します。"
+    },
+    {
+      "Text": "[ns] 帰る。"
+    },
+    {
+      "Text": "次回;D.U.の新しい朝"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제8화;새로운 대행"
+    },
+    {
+      "Text": "총학생회 건물 입구"
+    },
+    {
+      "Text": "(카야가 한 방송을 듣고 총학생회 건물에 찾아왔다.)"
+    },
+    {
+      "Name": "아유무",
+      "Text": "서, 선생님……!"
+    },
+    {
+      "Name": "아유무",
+      "Text": "크, 큰일 났어요…… 린 선배가…… 아니, 행정관님이……!"
+    },
+    {
+      "Text": "[s1] \"무슨 일이야?\""
+    },
+    {
+      "Text": "[s2] \"일단 진정해, 아유무.\""
+    },
+    {
+      "Name": "아유무",
+      "Text": "그게…… 그게 그러니까……"
+    },
+    {
+      "Name": "아유무",
+      "Text": "그게…… 그게 그러니까……"
+    },
+    {
+      "Name": "모모카",
+      "Text": "린 선배가 연금되었어."
+    },
+    {
+      "Name": "모모카",
+      "Text": "자신의 이득을 위해 총학생회장의 서한을 위조하고, 다른 임원들을 향해 테러를 사주한 혐의라나."
+    },
+    {
+      "Text": "[s] \"총학생회장의 서한……?\""
+    },
+    {
+      "Name": "아유무",
+      "Text": "부, 분명 무슨 오해가 있었을 거예요……!"
+    },
+    {
+      "Name": "모모카",
+      "Text": "오해는 무슨. 누군가의 음해를 받은 거겠지."
+    },
+    {
+      "Name": "모모카",
+      "Text": "그 고지식한 선배가 자신의 이득이나 명예를 위해 움직이는 사람이었더라면, 총학생회의 일 처리가 이렇게 빡빡하지도 않았을걸."
+    },
+    {
+      "Name": "모모카",
+      "Text": "덕분에 이렇게 노골적인 음해에도 눈 하나 깜짝 못하고 당해버렸지만……"
+    },
+    {
+      "Text": "[s] \"아유무와 모모카는 괜찮은 거야?\""
+    },
+    {
+      "Name": "아유무",
+      "Text": "……네, 일단은 아무런 이야기도 듣지 못했는데……"
+    },
+    {
+      "Name": "아유무",
+      "Text": "선배의 연금 소식이 알려지자마자 이어진 불신임 투표에서 후임으로 카야 방위실장을 지지하는 임원들의 목소리가 엄청나게 높아져서……"
+    },
+    {
+      "Name": "아유무",
+      "Text": "린 선배의 무죄를 주장하는 사람들은 분위기에 떠밀려 회장 밖으로 쫓겨나고 말았어요……"
+    },
+    {
+      "Name": "모모카",
+      "Text": "평소부터 일하기 싫다고 입버릇처럼 말해 왔었지만, 이런 방식으로 땡땡이를 치는 날이 올 거라곤 상상도 하지 못했었는데……"
+    },
+    {
+      "Name": "총학생회 임원",
+      "Text": "……오셨나요, [USERNAME] 선생님."
+    },
+    {
+      "Name": "총학생회 임원",
+      "Text": "'새 총학생회장 대행'께서 기다리고 계십니다."
+    },
+    {
+      "Name": "총학생회 임원",
+      "Text": "이쪽으로 오시지요."
+    },
+    {
+      "Name": "모모카",
+      "Text": "……나라면 따라가지 않을 거야, 선생."
+    },
+    {
+      "Name": "모모카",
+      "Text": "이렇게 노골적으로 덫을 쳐 놓고 들어오라고 하는데, 가는 게 더 이상하잖아?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "분명 의자에 깔고 앉은 감자칩마냥 험한 꼴을 당하게 될걸."
+    },
+    {
+      "Text": "[s] \"……아마 괜찮을 거야.\""
+    },
+    {
+      "Text": "[ns] \"다녀올게. 모모카, 아유무.\""
+    },
+    {
+      "Name": "모모카",
+      "Text": "하아…… 대책 없이 긍정적인 것이 선생의 장점이라지만, 할 말이 없네."
+    },
+    {
+      "Name": "모모카",
+      "Text": "나 같은 게으름뱅이는 이럴 때 아무런 도움도 되지 않을 테니까."
+    },
+    {
+      "Name": "아유무",
+      "Text": "부, 부디 몸 조심히 다녀오세요, 선생님……!"
+    },
+    {
+      "Name": "총학생회 임원",
+      "Text": "……이쪽으로."
+    },
+    {
+      "Text": "총학생회장 대행 집무실"
+    },
+    {
+      "Name": "카야",
+      "Text": "안녕하세요, [USERNAME] 선생님."
+    },
+    {
+      "Name": "카야",
+      "Text": "갑자기 이렇게 총학생회의 일로 폐를 끼치게 되어 죄송합니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "본래라면 사람을 보내 정식으로 모시는 게 도리에 맞았겠지만, 오늘 오후는 어째서인지 자리를 비우고 계셔서요."
+    },
+    {
+      "Name": "카야",
+      "Text": "이미 방송으로도 말씀드렸지만, 지금 일어나고 있는 일은 촌각을 다투는 긴급한 사안이기에 선생님을 공개적으로 호출하는 결례를 저질렀습니다. 부디 용서해 주시길."
+    },
+    {
+      "Name": "카야",
+      "Text": "……선생님의 스케줄에 기록된 특별한 일정은 없었는데, 어디 급히 다녀와야 하는 곳이라도 있으셨나요?"
+    },
+    {
+      "Text": "[s] \"잠시 볼 일이 있어서.\""
+    },
+    {
+      "Text": "[ns] \"……그보다 린은 어떻게 된 거지?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "린 행정관은 약간의 사정이 있어 기숙사에 연금되어 있습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그리고 직무를 수행할 수 없는 수석행정관을 대신하여, '총학생회장의 서한'에 따라 현재는 제가 총학생회장 대행으로서 직무를 수행하고 있습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "모쪼록, 앞으로 잘 부탁드리겠습니다."
+    },
+    {
+      "Text": "[s] \"그 총학생회장의 서한은 어디에서 발견한 거야?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "……샬레의 지하실입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그곳에는 크래프트 챔버와 같은 총학생회장의 알려지지 않은 개인 물품들이 보관되어 있거든요."
+    },
+    {
+      "Name": "카야",
+      "Text": "아마도 샬레의 권한을 인수인계하는 과정에서 약간의 실수가 있었나 봅니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "린 행정관 같은 사람도 가끔씩은 실수를 할 때가 있으니까요."
+    },
+    {
+      "Text": "[s] \"샬레의 지하실을 무단으로 수색한 사람이 카야였어?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "……그렇네요. 그 점은 부인하지 않겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "지난번 쿠데타로 D.U.가 혼란에 빠졌을 때, 저는 은밀히 사람을 시켜 샬레의 지하실에서 총학생회장이 남긴 물건을 가져오도록 지시했습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "……이상하다고 생각했거든요. 총학생회장과 같은 초인이 린 행정관처럼 미숙한 사람에게 대행 업무를 맡긴 채 사라지다니."
+    },
+    {
+      "Name": "카야",
+      "Text": "분명 무언가 범인이 이해하지 못할 오해가 있었던 게 아닐까 하고."
+    },
+    {
+      "Name": "카야",
+      "Text": "그리고 이 수색을 통해, 저는 총학생회장의 진짜 의중을 읽을 수 있게 되었습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "물론 그 과정에서 선생님의 사적인 공간을 다소 침범하기는 했습니다만……"
+    },
+    {
+      "Text": "[s] \"……어쩔 수 없는 일이라고 생각하고 있구나.\""
+    },
+    {
+      "Name": "카야",
+      "Text": "규칙에 얽매여서는 지킬 수 없는 정의가 있다는 것을, 선생님께서도 알고 계시지요?"
+    },
+    {
+      "Name": "카야",
+      "Text": "규칙을 관리하는 사람이 초인이 아닌 이상, 세상의 모든 규칙에는 허점이 발생하고 이를 악용하는 벌레들이 꼬이기 마련이지요."
+    },
+    {
+      "Name": "카야",
+      "Text": "이 해충을 구제하기 위해서는 강력한 힘이 필요합니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "카이저 코퍼레이션도 지난번에는 다소 의욕이 지나치긴 했지만, 그들이 갖고 있는 힘만큼은 거짓이 아니니까요."
+    },
+    {
+      "Name": "카야",
+      "Text": "저는 방위실장으로서, 강력한 힘을 조련하고 다루는 데에는 제법 익숙하답니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그래서 이번에는 총학생회장 대행이 된 김에 이 능력을 조금 더 유용하게 사용해 보고자 합니다."
+    },
+    {
+      "Text": "[s] \"……샬레를 어찌할 생각이지?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "샬레를 어찌하다니, 누가 들으면 오해를 하겠네요."
+    },
+    {
+      "Name": "카야",
+      "Text": "샬레와 선생님께서는 혼란에 빠진 총학생회를 대신하여 키보토스의 여러 크고 작은 사건들을 해결해 오셨고, 많은 학생으로부터 큰 신임을 받고 있습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그런 선생님께 답례는 하지 못할망정, 샬레를 어찌하다니— 저희가 그런 염치없는 행동을 할 리가요."
+    },
+    {
+      "Name": "카야",
+      "Text": "……하지만 선생님께 과중한 업무와 책임이 집중되고 있는 것도 명백한 사실입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "많은 학생들이 당번 활동과 같은 방법으로 선생님의 업무를 덜어드리고자 노력하고 있습니다만, 샬레의 근본적인 구조 탓에 아직도 선생님께서는 매일 격무에 시달리고 계시지요."
+    },
+    {
+      "Name": "카야",
+      "Text": "그래서 '저희'도 많은 고민을 계속해 왔답니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "언제나 열심히 노력하고 계신 선생님을 위해, '저희 총학생회에서 뭔가 도울 수 있는 일은 없을까—' 하고 말이지요."
+    },
+    {
+      "Text": "[ns] \"……이건?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "샬레의 신규 행정 절차 개선안입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "검토 부탁드리겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "주요 골자는 선생님의 업무 부담을 줄이고 권한을 강화하는 형태로 되어있습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "가볍게 확인하시고, 내용이 마음에 드신다면 서명을 부탁드리겠습니다."
+    },
+    {
+      "Text": "[s] \"여기에 서명하면…… 무엇이 달라지는 거지?\""
+    },
+    {
+      "Name": "카야",
+      "Text": "아무것도…… 달라지지 않습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "선생님께서는 여태껏 그래 오셨던 것처럼 하고 싶은 일을 계속하시면 됩니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "학생들과 일상을 보내고, 곤경에 빠진 시민들을 돕고……"
+    },
+    {
+      "Name": "카야",
+      "Text": "물론 그 의무를 다하지 않으셔도 괜찮습니다. 갑자기 게으름을 부리신다 해도 선생님을 탓하지 않겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "돈이 필요하시면 얼마든지 지원해 드리겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "귀찮은 보고서도 저희가 대신 작성해 드리겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "……모든 것은 선생님의 자유니까요."
+    },
+    {
+      "Name": "카야",
+      "Text": "다만 단 한 가지만 약속 부탁드립니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "선생님이 하신 일에 대한 책임은 저희가 지겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "샬레의 모든 활동은 총학생회의 이름으로 진행될 것입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "당신이 어떤 죄를 지어도, 어떤 문제를 일으키더라도 저희가 책임지겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "나쁜 제안은 아니라고 생각하는데요."
+    },
+    {
+      "Name": "카야",
+      "Text": "왜, 어른은 책임을 지는 걸 싫어하잖아요?"
+    },
+    {
+      "Name": "카야",
+      "Text": "제가 선생님을 관리해 드리겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "저에게 모든 것을 맡기시고 자유롭게, 편해지시면 됩니다."
+    },
+    {
+      "Text": "[ns] \"괜찮아.\""
+    },
+    {
+      "Text": "[ns] \"자신이 벌인 일은 자신이 책임질 수 있어야 어른이니까.\""
+    },
+    {
+      "Name": "카야",
+      "Text": "………네?"
+    },
+    {
+      "Name": "카야",
+      "Text": "선생님, 무언가 오해가 있었던 것 같습니다만……"
+    },
+    {
+      "Name": "카야",
+      "Text": "이 개선안은 선생님을 구속하거나 샬레의 권한을 제한하는 내용이 아닙니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "오히려 하고 싶으신 일을 더욱 자유롭게 할 수 있도록 부담을 덜어드리는 방향의 제안인데……"
+    },
+    {
+      "Name": "카야",
+      "Text": "무언가 마음에 걸리는 조항이라도 있었던 건가요?"
+    },
+    {
+      "Text": "[s] \"카야의 제안은 확실히 매력적으로 들리긴 하지만……\""
+    },
+    {
+      "Text": "[ns3] \"어른이 책임에서 도망치는 모습을 보인다면\""
+    },
+    {
+      "Text": "[ns4] \"선생님으로서 학생들에게 모범이 되지 않으니까.\""
+    },
+    {
+      "Name": "카야",
+      "Text": "하아……."
+    },
+    {
+      "Name": "카야",
+      "Text": "정말이지 말이 안 통하는 어른이네."
+    },
+    {
+      "Name": "카야",
+      "Text": "사회에서 눈을 돌린 채, 어린 아이나 할 법한 공상을 계속해서 품고 있는 한심한 어른이야……"
+    },
+    {
+      "Name": "카야",
+      "Text": "이런 어른을 상대하는 것만큼 피곤한 일도 없지만……"
+    },
+    {
+      "Name": "카야",
+      "Text": "……알겠습니다. 그렇다면 이 행정 수속 개선안은 잠시 보류하도록 하지요."
+    },
+    {
+      "Name": "카야",
+      "Text": "내일부터 저희가 새로 구성한 내각의 주요 행정 개혁안이 적용될 예정입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "이 개혁안에 따라, 키보토스는 규정에 따라 완벽하게 통제되는 안전하고 '멋진 신세계'로 탈바꿈될 것입니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "저희가 통제하는 키보토스에서라면 선생님께서도 생각이 바뀌실지도 모르지요."
+    },
+    {
+      "Name": "카야",
+      "Text": "저희 방위실…… 아니, 총학생회는 언제나 선생님의 방문을 기다리고 있겠습니다."
+    },
+    {
+      "Name": "카야",
+      "Text": "그럼. 앞으로도 잘 부탁드리겠습니다."
+    },
+    {
+      "Text": "[ns] 돌아간다."
+    },
+    {
+      "Text": "다음화;D.U.의 새로운 아침"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 8; New Proxy"
+    },
+    {
+      "Text": "General Student Council Building Entrance"
+    },
+    {
+      "Text": "I went straight to the General Student Council building after hearing Kaya's broadcast."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "S-Sensei!"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Oh, dear, we're in a tight spot... Rin is... No, the Chief Officer is...!"
+    },
+    {
+      "Text": "[s1] \"Can you update me on the situation? "
+    },
+    {
+      "Text": "[s2] \"Calm down, Ayumu. What happened?\""
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Um... So..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Um... So..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Rin has been arrested."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "She's been accused of forging the General Student Council President's letter for her own gain and ordering acts of terrorism against fellow officers."
+    },
+    {
+      "Text": "[s] \"The letter the President left when she disappeared? How?\""
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "I-It's all just a horrible misunderstanding!"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "No misunderstanding. They framed her. 100%."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "If our high-minded senior had been someone who is capable of considering any kind of self-interest or preservation, the General Student Council would have never recovered and continued to run the way it did."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "But, alas, too preoccupied with doing the right thing, she fell for their blatant schemes."
+    },
+    {
+      "Text": "[s] \"How are you both? Are you okay?\""
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "We're hanging in there, at least for now..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "In the no-confidence vote, Chief Kaya's supporters were almost overwhelmingly loud."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "Those who argued for Rin's innocence were drowned out by the prevailing sentiment and ousted from the proceedings..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "I've always complained about work, but I never thought I'd see the day when I'd skip it like this..."
+    },
+    {
+      "Name": "General Student Council Staffer",
+      "Text": "...You're here. [USERNAME] Sensei."
+    },
+    {
+      "Name": "General Student Council Staffer",
+      "Text": "The new acting General Student Council president is waiting for you."
+    },
+    {
+      "Name": "General Student Council Staffer",
+      "Text": "Right this way."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "...I'd think twice if I were you, Sensei."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "They're pretty blatantly setting a trap and asking you to walk into it. Going there would be pretty dumb, don't you think?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "You're gonna get crushed like a potato chip."
+    },
+    {
+      "Text": "[s] \"...I'll manage. One way or another.\""
+    },
+    {
+      "Text": "[ns] \"Just stay safe until I get back, Momoka. Ayumu.\""
+    },
+    {
+      "Name": "Momoka",
+      "Text": "*sigh* You're lucky blind positivity is your best trait."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "A slacker like me can't help you if you really wanna go in there. So, be careful."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "P-Please take care of yourself, Sensei!"
+    },
+    {
+      "Name": "General Student Council Staffer",
+      "Text": "Follow me."
+    },
+    {
+      "Text": "Office of the Acting General Student Council President"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Hello, [USERNAME] Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I'm sorry the General Student Council's mess has caused so much inconvenience."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Normally, we would've had someone greet you formally, but I heard you were out earlier."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Given the circumstances, I felt it necessary to call on you directly. I do apologize it was such a public medium."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You didn't have any urgent plans, did you? Anything special planned?"
+    },
+    {
+      "Text": "[s] \"Just some errands to take care of.\""
+    },
+    {
+      "Text": "[ns] \"...Beyond that, what happened to Rin?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Chief Officer Rin is currently under detention in the student dorms."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I've stepped in as Acting President of the General Student Council, following the Student Council President's recently discovered letter."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I'm looking forward to working even more closely with you, Sensei."
+    },
+    {
+      "Text": "[s] \"About that... Where did this supposed letter come from, Kaya?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "It was found in the school's basement."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We store some of the President's old belongings and projects, like the Crafting Room, in there."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I can completely understand how this could have happened during the transfer of authority and Schale's involvement."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Even someone like Rin can make mistakes."
+    },
+    {
+      "Text": "[s] \"...And did you orchestrate this unauthorized search of the basement?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I suppose I can't deny that at this point."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Once the coup threw D.U. into chaos, I secretly had someone retrieve any of the President's belongings still in the basement."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "It just seemed so strange to me... The thought of a superhuman like the General Student Council President disappearing and leaving Rin of all people to fill her shoes."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I thought maybe there was something we, the ordinary students, weren't getting. Some great plan."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "But it was thanks to this unauthorized search that I finally uncovered the General Student Council President's true intentions."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I know I overstepped, but..."
+    },
+    {
+      "Text": "[s] \"But the ends justify the means?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You're starting to get it. Sometimes rules and processes impede justice."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "The people in power aren't superhumans. Their laws are weak. Full of holes. And pests will always come crawling out of the woodwork to find and exploit their flimsy systems."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "One needs heavy boots to crush those pests, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Kaiser might have got a little overzealous during their occupation of Schale, but that doesn't mean their power is a lie. The opposite, actually."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Wielding authority properly, as it was intended, happens to be a natural part of the job as the Chief of Defense."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "So I fully intend to use my authority as acting General Student Council president to its fullest extent."
+    },
+    {
+      "Text": "[s] \"What are you going to do with Schale?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "What am I going to do with Schale? You make me sound so villainous, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Why would I change anything? Especially after all you and your little team did for Kivotos when the General Student Council was in chaos."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We appreciate your contributions and wouldn't dream of acting ungratefully."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "But it's also evident to anyone with eyes that you're overworked, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "While students do take shifts to help lighten your day-to-day workload, Schale's organizational structure inherently means you'll always be stretched thin."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "So, \"we've\" been thinking."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We, the members of the General Student Council, have been...brainstorming how we could... you know, \"help\" you out. Sensei."
+    },
+    {
+      "Text": "[ns] \"And how do you plan on doing that?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "This is a proposal to reform Schale's administrative structure."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We hoped to present this to you for your approval."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Our main goal is to lessen your workload while giving you more authority, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Take your time and look it over. If you approve, sign the dotted line."
+    },
+    {
+      "Text": "[s] \"What changes, after I sign this?\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Nothing...changes, per se."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You can keep doing your job as you always have."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Spend your days with your students, help citizens in need..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Of course, it's no issue if you don't want to keep working. I won't judge you if you decide to slack off a bit, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "If you need money, consider yourself taken care of."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We'll even handle all that tedious paperwork for you. I do remember how much you hate those reports."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...The ball's in your court, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You would have to just give us one, little thing."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Moving forward, we'll take responsibility for your actions."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "All activities in Schale will be conducted in the name of the General Student Council."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Whatever you may do, whatever consequences follow Schale, we'll handle the aftermath."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Not a bad proposition, right?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Adults are known for trying to dodge responsibilities, aren't they?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "So I'll take on all of it for you, Sensei."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You can just lean on me and finally breathe easy."
+    },
+    {
+      "Text": "[ns] \"Thank you for the offer. But I won't sign this.\""
+    },
+    {
+      "Text": "[ns] \"Being an adult means shouldering your responsibilities, no matter how heavy.\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "...Come again?"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Sensei, there seems to be some confusion..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Our proposal isn't about trying to pin you down. It's not an underhanded trick to take away Schale's authority."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "We're only looking to make your job easier, to give you more freedom. You could do whatever you wanted."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Of course, the proposal isn't set in stone. If there was a clause you disliked, we can discuss it."
+    },
+    {
+      "Text": "[s] \"I won't lie. Your offer is tempting, Kaya.\""
+    },
+    {
+      "Text": "[ns3] \"But I can't let my students watch my back as I run away.\" "
+    },
+    {
+      "Text": "[ns4] \"But slacking off doesn't exactly set the right tone for my students.\""
+    },
+    {
+      "Name": "Kaya",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Kaya",
+      "Text": "You really are just a stubborn adult."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "A stubborn, pathetic adult so lost in your childish ideals that you can't face reality."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Managing people like you is truly draining..."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "But fine. We'll shelve this reform proposal for now."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "Tomorrow, sweeping administrative reforms from our newly formed cabinet will go into effect."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "These changes are Kivotos' future. I'm going to transform our society into a well-regulated, perfect new world."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I hope you'll reconsider, after witnessing our new Kivotos come to fruition."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "The Defense Department...or rather, the General Student Council is always open to you now."
+    },
+    {
+      "Name": "Kaya",
+      "Text": "I expect I'll see you soon, Sensei."
+    },
+    {
+      "Text": "[ns] Leave."
+    },
+    {
+      "Text": "Next Episode; D.U.'s New Dawn"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 8;รักษาการแทนคนใหม่"
+    },
+    {
+      "Text": "ทางเข้าอาคารองค์การนักเรียน"
+    },
+    {
+      "Text": "(คุณครูได้ฟังประกาศจากคายะและมายังอาคารองค์การนักเรียน)"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คะ... คุณครู...!"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "กะ... เกิดเรื่องใหญ่แล้วค่ะ... รุ่นพี่ริน... ไม่สิ คุณเจ้าหน้าที่...!"
+    },
+    {
+      "Text": "[s1] \"มีเรื่องอะไรเหรอ?\""
+    },
+    {
+      "Text": "[s2] \"ใจเย็นๆ ก่อนนะ อายูมุ\""
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คือว่า... เรื่องนั้น..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "คือว่า... เรื่องนั้น..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "รุ่นพี่รินถูกขังน่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "โดนกล่าวหาว่าปลอมแปลงจดหมายของประธานองค์การนักเรียนเพื่อผลประโยชน์ของตนเองและยุยงให้\nเกิดการก่อการร้าย"
+    },
+    {
+      "Text": "[s] \"จดหมายของประธานองค์การนักเรียน...?\""
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ตะ... ต้องมีเรื่องเข้าใจผิดอะไรแน่นอนค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เข้าใจผิดอะไรล่ะ คงโดนใครใส่ร้ายป้ายสีน่ะสิ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ถ้ารุ่นพี่ที่ดื้อรั้นคนนั้นเป็นคนที่ทำอะไรเพื่อผลประโยชน์หรือเกียรติยศของตัวเองละก็ การทำงานใน\nองค์การนักเรียนคงไม่เคร่งครัดขนาดนั้นหรอก "
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ก็เพราะแบบนั้นไงถึงเล่นงานในการใส่ร้ายป้ายสีอย่างไม่สะทกสะท้านเลย..."
+    },
+    {
+      "Text": "[s] \"อายูมุกับโมโมกะไม่เป็นอะไรใช่ไหม?\""
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ค่ะ... แต่เราก็ยังไม่ได้ยินเรื่องอะไรมาเลย..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "พอมีข่าวว่ารุ่นพี่ถูกขัง ความคิดเห็นของพวกกรรมการที่สนับสนุนหัวหน้าสำนักป้องกันคายะให้รับช่วง\nต่อในการลงมติไม่ไว้วางใจก็หนักข้อขึ้นมา..."
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ส่วนคนที่อ้างความบริสุทธิ์ของรุ่นพี่รินก็ถูกไล่ออกมาจากที่ประชุมค่ะ..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ถึงฉันจะพูดติดปากมาตลอดว่าไม่อยากทำงาน แต่ก็ไม่เคยคิดเลยว่าจะมีวันที่จะได้โดดงานด้วยวิธีนี้..."
+    },
+    {
+      "Name": "กรรมการ องค์การนักเรียน",
+      "Text": "... มาแล้วเหรอคะ คุณครู [USERNAME]"
+    },
+    {
+      "Name": "กรรมการ องค์การนักเรียน",
+      "Text": "ท่าน 'รักษาการแทนประธานองค์การนักเรียนคนใหม่' กำลังรออยู่เลยค่ะ"
+    },
+    {
+      "Name": "กรรมการ องค์การนักเรียน",
+      "Text": "เชิญทางนี้ค่ะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "... ถ้าเป็นฉันละก็นะ ฉันไม่ตามไปหรอกครู"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "วางกับดักอย่างเปิดเผยแล้วสั่งให้เข้าไปแบบนี้ ถ้าเข้าไปมันจะยิ่งแปลกนะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ต้องโดนเล่นงานจนเละไม่ต่างจากมันฝรั่งทอดที่วางไว้บนเก้าอี้แล้วมีใครมานั่งทับแน่"
+    },
+    {
+      "Text": "[s] \"... คงไม่เป็นไรหรอก\""
+    },
+    {
+      "Text": "[ns] \"เดี๋ยวครูมานะ โมโมกะ อายูมุ\""
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "เฮ้อ... การมองโลกในแง่ดีโดยไร้แผนรับมือมันก็คือข้อดีของครูอยู่หรอกนะ แต่ก็เอาเถอะ"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ยังไงซะจอมขี้เกียจอย่างฉันคงจะไม่เป็นประโยชน์อะไรในสถานการณ์นี้หรอก"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "ละ... แล้วกลับมาอย่างปลอดภัยนะคะคุณครู...!"
+    },
+    {
+      "Name": "กรรมการ องค์การนักเรียน",
+      "Text": "เชิญทางนี้ค่ะ..."
+    },
+    {
+      "Text": "สำนักงานรักษาการแทนประธานองค์การนักเรียน"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "สวัสดีค่ะ คุณครู [USERNAME]"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ขอโทษที่สร้างความเดือดร้อนให้จากงานขององค์การนักเรียนแบบนี้นะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ตามธรรมเนียมแล้วฉันควรส่งคนไปเชิญคุณครูมาอย่างเป็นกิจลักษณะ แต่เห็นว่าตั้งแต่ช่วงบ่ายวันนี้\nคุณครูไม่อยู่น่ะค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คุณครูอาจทราบเรื่องจากการประกาศไปแล้ว สิ่งที่เกิดขึ้นในตอนนี้เป็นประเด็นด่วนเรื่องการแย่งชิง ฉันก็เลยเสียมารยาทและเรียกคุณครูมาพบเป็นการส่วนตัวค่ะ ได้โปรดให้อภัยด้วยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ฉันไม่เห็นว่าคุณครูมีตารางงานพิเศษอะไรน่ะค่ะ หรือว่ามีที่ไหนที่ต้องรีบไปหรือเปล่าคะ?"
+    },
+    {
+      "Text": "[s] \"ครูมีธุระนิดหน่อยน่ะ\""
+    },
+    {
+      "Text": "[ns] \"... รินเป็นยังไงบ้าง?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "เจ้าหน้าที่รินมีเรื่องนิดหน่อย ก็เลยถูกกักตัวอยู่ที่หอพักค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "และก็ตอนนี้ฉันกำลังทำหน้าที่ในตำแหน่งรักษาการประธานองค์การนักเรียน แทนหัวหน้าฝ่ายบริหาร\nที่ไม่สามารถทำหน้าที่ได้ตามที่ระบุไว้ใน 'จดหมายของประธานองค์การนักเรียน' ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ยังไงก็ขอฝากเนื้อฝากตัวด้วยนะคะ"
+    },
+    {
+      "Text": "[s] \"เจอจดหมายของประธานองค์การนักเรียนจากที่ไหนเหรอ?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ห้องใต้ดินของชาเล่ต์ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "พอดีที่นั่นเป็นเหมือนคราฟต์แชมเบอร์ที่มีข้าวของส่วนตัวของประธานองค์การนักเรียนที่ไม่เป็นที่เปิด\nเผยอยู่น่ะค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ไม่แน่ว่ามันอาจจะมีความผิดพลาดนิดหน่อยในกระบวนการโอนสิทธิ์ของชาเล่ต์ก็ได้ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "บางทีคนอย่างเจ้าหน้าที่รินก็ทำพลาดได้เหมือนกันนะคะ"
+    },
+    {
+      "Text": "[s] \"คนที่เข้ามาในห้องใต้ดินของชาเล่ต์โดยไม่ได้รับอนุญาตคือคายะหรอกเหรอ?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ใช่ค่ะ ฉันไม่ขอปฏิเสธ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ตอนที่ D.U. ต้องเจอกับการปฏิวัติคราวก่อน ฉันแอบสั่งให้คนไปเอาของที่ประธานนักเรียนทิ้งไว้จาก\nห้องใต้ดินของชาเล่ต์ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ฉันคิดว่ามันแปลกๆ น่ะค่ะ การที่ยอดคนอย่างประธานองค์การนักเรียนมอบหมายงานรักษาการแทน\nให้คนอ่อนประสบการณ์อย่างเจ้าหน้าที่ริน แล้วหายตัวไป"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "มันต้องมีความเข้าใจผิดบางอย่างที่บุคคลธรรมดาไม่อาจเข้าใจได้"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "และจากการค้นหานี้ ทำให้ฉันอ่านความคิดภายในใจที่แท้จริงของประธานองค์การนักเรียนได้ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถึงแม้การเข้าไปค้นหามันจะเป็นการบุกรุกพื้นที่ส่วนตัวของคุณครูนิดหน่อยก็เถอะค่ะ..."
+    },
+    {
+      "Text": "[s] \"... คิดว่าเป็นเรื่องที่ช่วยไม่ได้สินะ\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คุณครูเคยได้ยินหรือเปล่าคะ ว่าโลกนี้มี 'ความยุติธรรมที่รักษาไว้ไม่ได้หากถูกผูกมัดอยู่กับกฎเกณฑ์'?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ตราบใดที่ผู้ควบคุมกฏเกณฑ์ไม่ได้เป็นยอดคน กฎทุกข้อในโลกก็ล้วนแล้วแต่มีช่องโหว่ และก็จะมีพวก\nหนอนที่ใช้กฏเหล่านั้นอย่างผิดๆ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ดังนั้นเราถึงได้ต้องมีอำนาจที่แข็งแกร่งในการทำลายพวกหนอนและแมลงให้โทษพวกนี้ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คราวที่แล้วกับทางไคเซอร์ คอร์เปอเรชั่นเองก็มีความตั้งใจมากเกินไป แต่ยังไงพลังอำนาจที่พวกเขามี\nก็ไม่ใช่เรื่องโกหกค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ในฐานะหัวหน้าสำนักป้องกัน ฉันคุ้นเคยกับการฝึกฝนและจัดการพลังที่แข็งแกร่งดีค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "และไหนๆ ก็ได้เป็นรักษาการแทนประธานองค์การนักเรียนในครั้งนี้แล้ว ฉันเลยว่าจะใช้ความสามารถที่\nมีให้เป็นประโยชน์อีกนิดค่ะ"
+    },
+    {
+      "Text": "[s] \"... คิดจะทำอะไรกับชาเล่ต์ล่ะสิ?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "จะทำอะไรกับชาเล่ต์งั้นเหรอคะ พูดแบบนี้ใครมาได้ยินคงเข้าใจผิดนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ชาเล่ต์และคุณครูช่วยออกหน้าแทนองค์การนักเรียนที่ตกอยู่ในความสับสนอลหม่านและคลี่คลาย\nเหตุการณ์น้อยใหญ่ในคิโวทอสให้ อีกทั้งยังได้รับความไว้วางใจจากนักเรียนหลายคนเลยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "พวกฉันควรจะตอบแทนคุณครูแท้ๆ แต่กลับได้รับคำถามว่าจะทำยังไงกับชาเล่ต์— พวกฉันไม่มีทางทำ\nอะไรน่าละอายแบบนั้นหรอกค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แต่ก็เป็นความจริงที่แน่ชัดว่าตอนนี้พวกฉันให้งานและความรับผิดชอบที่หนักมากเกินไปแก่คุณครูค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "พวกฉันพยายามจะลดภาระงานของคุณครูด้วยวิธีอย่างการให้นักเรียนไปช่วยเข้าเวรนะคะ แต่เพราะโครงสร้างพื้นฐานของชาเล่ต์ ทำให้คุณครูต้องมาเจอกับงานหินอยู่อย่างนี้ทุกวันค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "'พวกฉัน' เองก็เลยคิดกังวลอยู่ไม่น้อยเลยค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ว่า 'องค์การนักเรียนจะช่วยอะไรคุณครูที่พยายามทำงานหนักอยู่ตลอดเวลาได้บ้าง'"
+    },
+    {
+      "Text": "[ns] \"...... นี่มัน?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แผนปรับปรุงขั้นตอนการบริหารฉบับใหม่ของชาเล่ต์ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "รบกวนตรวจสอบด้วยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "สาระสำคัญหลักๆ คือการเพิ่มสิทธิและลดภาระงานของคุณครูค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ช่วยอ่านคร่าวๆ และหากถูกใจกับแผนปรับปรุงใหม่นี้ก็ช่วยเซ็นชื่อด้วยนะคะ"
+    },
+    {
+      "Text": "[s] \"ถ้าครูเซ็นชื่อตรงนี้... จะมีอะไรเปลี่ยนไปเหรอ?\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ไม่มีอะไร... เปลี่ยนแปลงไปหรอกค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คุณครูสามารถทำสิ่งที่อยากทำได้เหมือนเดิมเลยค่ะ เหมือนที่คุณครูทำมาตลอดไงคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ทั้งพบปะกับนักเรียน และช่วยชาวเมืองที่ตกที่นั่งลำบาก..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แน่นอนว่าคุณครูไม่จำเป็นต้องอุทิศกายใจทำงานขนาดนั้นก็ได้ค่ะ ถ้าวันไหนอยากจะขี้เกียจบ้าง พวกฉันก็ไม่โทษคุณครูหรอกค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "และหากต้องการเงิน พวกฉันก็จะสนับสนุนให้ไม่อั้นค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ส่วนรายงานที่น่าเบื่อ ทางฉันจะเป็นคนเขียนให้เองค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "...คุณครูมีอิสระในการทำทุกอย่างเลยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แต่ว่าพวกฉันต้องขอให้ช่วยรักษาสัญญาหนึ่งอย่างค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "งานที่คุณครูทำ พวกฉันจะเป็นฝ่ายรับผิดชอบเองค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "การกระทำทุกอย่างของชาเล่ต์จะถูกทำในนามขององค์การนักเรียนค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ไม่ว่าคุณจะทำบาปอะไร หรือก่อปัญหาอะไร พวกฉันจะเป็นผู้รับผิดชอบเองค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ฉันคิดว่านี่คือข้อเสนอที่ดีเลยนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ผู้ใหญ่ต่างก็ไม่ชอบการรับผิดชอบกันทั้งนั้น ไม่ใช่หรอกเหรอคะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ฉันจะเป็นคนจัดการให้คุณครูเองค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ฝากงานทุกอย่างไว้ที่ฉัน แล้วก็ใช้ชีวิตอย่างอิสระและสงบสุขได้เลยค่ะ"
+    },
+    {
+      "Text": "[ns] \"ขอบคุณสำหรับข้อเสนอดีๆ นะ แต่ครูไม่เซ็นหรอก\""
+    },
+    {
+      "Text": "[ns] \"ผู้ใหญ่ต้องรับผิดชอบในสิ่งที่ตัวเองทำสิ\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... คะ?"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คุณครูคะ มันน่าจะมีเรื่องบางอย่างที่เข้าใจผิดนะคะ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แผนปรับปรุงนี้ไม่ได้มีจุดประสงค์ในการควบคุมคุณครูหรือจำกัดสิทธิของชาเล่ต์หรอกนะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ก็แค่เป็นข้อเสนอในทิศทางที่ให้คุณครูทำในสิ่งที่ต้องการได้อย่างอิสระและไร้ความกดดันก็เท่านั้น..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "มีข้อไหนที่รู้สึกว่ายังค้างคาใจอยู่อย่างนั้นเหรอคะ?"
+    },
+    {
+      "Text": "[s] \"ข้อเสนอของคายะก็น่าสนใจอยู่หรอกนะ...\""
+    },
+    {
+      "Text": "[ns3] \"แต่ถ้าหากครูทำตัวเป็นผู้ใหญ่ที่วิ่งหนีจากความรับผิดชอบ\""
+    },
+    {
+      "Text": "[ns4] \"ในฐานะครูแล้ว มันคงเป็นแบบอย่างที่ไม่ดีต่อนักเรียนสักเท่าไร\""
+    },
+    {
+      "Name": "คายะ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "เป็นผู้ใหญ่ที่พูดไม่รู้เรื่องจริงๆ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ผู้ใหญ่น่าสมเพชที่โอบกอดความเพ้อฝันเหมือนกับเด็กๆ ไม่มองความเป็นจริงในสังคม..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "คงไม่มีงานไหนที่เหนื่อยไปกว่าการเผชิญหน้ากับผู้ใหญ่แบบนี้แล้วละ..."
+    },
+    {
+      "Name": "คายะ",
+      "Text": "... ก็ได้ค่ะ ถ้าอย่างนั้นเราพับแผนปรับปรุงขั้นตอนการบริหารไว้ก่อนเถอะค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ตั้งแต่พรุ่งนี้ไป พวกฉันจะบังคับใช้แผนปฏิรูปหลักที่เรียบเรียงขึ้นใหม่ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "แผนปฏิรูปนี้จะทำให้คิโวทอสถูกควบคุมได้อย่างสมบูรณ์แบบภายใต้กฎข้อบังคับ และจะเปลี่ยนสภาพ\nเป็น 'โลกใบใหม่ที่สวยงาม' ค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้าเป็นคิโวทอสที่อยู่ภายใต้การควบคุมของพวกฉัน บางทีคุณครูเองก็อาจจะเปลี่ยนความคิดก็ได้นะคะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "สำนักป้องกัน... ไม่สิ องค์การนักเรียนของเรารอให้คุณครูเข้ามาพบอยู่เสมอค่ะ"
+    },
+    {
+      "Name": "คายะ",
+      "Text": "ถ้างั้นต่อไปก็รบกวนด้วยนะคะ"
+    },
+    {
+      "Text": "[ns] กลับออกไป"
+    },
+    {
+      "Text": "ตอนต่อไป;เช้าวันใหม่ใน D.U."
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第8話;新任代理"
+    },
+    {
+      "Text": "聯邦學生會大樓入口"
+    },
+    {
+      "Text": "（看完香耶的轉播後，來到了聯邦學生會的大樓）"
+    },
+    {
+      "Name": "步",
+      "Text": "老，老師……！"
+    },
+    {
+      "Name": "步",
+      "Text": "不，不好了……琳前輩……琳前輩被……！"
+    },
+    {
+      "Text": "[s1]「先冷靜點，步。」"
+    },
+    {
+      "Text": "[s2]「發生什麼事了？」"
+    },
+    {
+      "Name": "步",
+      "Text": "那個……就是……"
+    },
+    {
+      "Name": "步",
+      "Text": "那個……就是……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "琳前輩被軟禁了。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "說是涉嫌為了私利私慾而偽造聯邦學生會長的書信，\n以及對其他幹部進行恐怖攻擊。"
+    },
+    {
+      "Text": "[s]「聯邦學生會長的信……？」"
+    },
+    {
+      "Name": "步",
+      "Text": "一，一定是有什麼誤會……！"
+    },
+    {
+      "Name": "桃香",
+      "Text": "與其說是誤會……應該是被人陷害了吧。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "如果那個一板一眼的前輩是會為了私利私慾行動的人，\n聯邦學生會的工作就不會這麼難推行了吧。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "……不過也是因為那種個性才會被這麼明目張膽的陷害就是了……"
+    },
+    {
+      "Text": "[s]「步和桃香沒事嗎？」"
+    },
+    {
+      "Name": "步",
+      "Text": "是的……目前對我們還沒有造成特別的影響，不過……"
+    },
+    {
+      "Name": "步",
+      "Text": "前輩被軟禁的消息傳開之後，\n在議會中支持香耶防衛室長繼任聯邦學生會長代理的聲量變得很大……"
+    },
+    {
+      "Name": "步",
+      "Text": "而支持琳前輩的人們則礙於情勢，被逐出了會場……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "雖然我總是把不想工作掛在嘴邊……\n沒想到有一天會用這種方式翹班啊。"
+    },
+    {
+      "Name": "聯邦學生會職員",
+      "Text": "……[USERNAME]老師，感謝您大駕光臨。"
+    },
+    {
+      "Name": "聯邦學生會職員",
+      "Text": "「新的聯邦學生會長代理」正在等您。"
+    },
+    {
+      "Name": "聯邦學生會職員",
+      "Text": "請跟我來。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "──老師，換作是我是不會去的哦。"
+    },
+    {
+      "Name": "桃香",
+      "Text": "這麼顯而易見的陷阱還自己走進去，你是認真的嗎？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "要是像連袋子一起被壓碎的洋芋片一樣變得亂七八糟的，我可不管哦。"
+    },
+    {
+      "Text": "[s]「……一定沒問題的，才對。」"
+    },
+    {
+      "Text": "[ns]「我去去就回。桃香、步。」"
+    },
+    {
+      "Name": "桃香",
+      "Text": "唉……雖然沒頭沒腦的樂觀是老師的優點啦……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "算了，再說下去可能也沒什麼幫助吧。\n像我這種懶惰鬼也幫不上什麼忙……"
+    },
+    {
+      "Name": "步",
+      "Text": "請，請一定要小心喔，老師……！"
+    },
+    {
+      "Name": "聯邦學生會職員",
+      "Text": "……請跟我來。"
+    },
+    {
+      "Text": "聯邦學生會長代理辦公室"
+    },
+    {
+      "Name": "香耶",
+      "Text": "您好，[USERNAME]老師。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "突然因為聯邦學生會的事情打擾您，真是非常抱歉。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "雖然曾派人去迎接，不過您今天午後似乎並不在夏萊，\n因此只好採取這樣的形式。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "現在聯邦學生會發生了分秒必爭的緊急事態，\n關於這件事希望能稍微和老師商量商量，於是才會勞煩您走一趟。\n儘管處於十萬火急的情況，依舊是採取了失禮的手段，我在此向您道歉。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……話說回來，剛才發生了什麼急事嗎？\n我記得老師的行程表上沒有類似的計畫才對。"
+    },
+    {
+      "Text": "[s]「我臨時有事。」"
+    },
+    {
+      "Text": "[ns]「……比起這個，琳呢？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "琳行政官因為某些原因待在宿舍。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "並且和在轉播中告知的一樣，我現在正代替他執行聯邦學生會長代理的工作。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "──依照「聯邦學生會長的書信」的指示。"
+    },
+    {
+      "Text": "[s]「那封信是在哪裡發現的？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……在夏萊的地下。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "那裡保管的不只有信件，還有以工藝室為首的聯邦學生會長不為人知的私人物品。\n因此我想應該不會錯。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "或許是在交付夏萊權限時出了一些小差錯。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "即使是像琳行政官那樣的人，有時也是會犯錯的。"
+    },
+    {
+      "Text": "[s]「……香耶，你擅自進入了夏萊的地下嗎？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……這個嘛，這點我並不否認。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "D.U.因上次的政變而陷入混亂時，我確實派人入侵了夏萊的地下，\n並帶回了聯邦學生會長留下的物品。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我一直抱持著疑問。\n聯邦學生會長為何會把代理的工作交給琳行政官這種說不上完美的人就失蹤了。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "其中是不是有著某些凡人無法理解的考量呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "於是我抱持著這個想法進行了搜索──\n最終，總算得知了聯邦學生會長真正的想法。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "當然，也確實因而侵犯了老師的私人空間，這點我心裡有數。\n不過……"
+    },
+    {
+      "Text": "[s]「……你認為這是不得已的對吧。」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "老師也知道吧？有拘泥於規則就無法保護的正義。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "所謂規則，除非是由超人來管理，否則遲早會出現漏洞。\n也必定會出現趁虛而入之人。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "因此為了加以排除，必須要有強大的力量。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……凱薩公司上次確實做的有些過火沒錯，但他們所擁有的力量是貨真價實的……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "所以，我決定有效地活用那股力量。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "當然，您不必擔心。\n身為防衛室長的我，早已經熟悉如何運用力量了。"
+    },
+    {
+      "Text": "[s]「……你打算對夏萊做什麼？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "竟然問我打算對夏萊做什麼，別人聽到會誤會的呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "夏萊代替陷入混亂的聯邦學生會解決了奇普托斯的問題，受到了許多學生的信賴。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我們沒有理由不答謝老師，反而還加害於您。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "但是……老師每天都背負著過多的工作和責任也是事實。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "儘管各式各樣的學生會藉由值日生活動來盡力分擔老師的工作……\n然而除非改變夏萊的根本構造，否則老師的負擔也不會改變的吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "對於這個問題，「我們」也一直在苦惱。\n聯邦學生會能為老師做些什麼呢？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我們得出的答案就是──"
+    },
+    {
+      "Text": "[ns]「……這個是？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "是夏萊行政程序的改善方案。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "主要目的在於減輕老師的業務負擔──"
+    },
+    {
+      "Name": "香耶",
+      "Text": "並針對數項業務強化老師的權限。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "請您稍微過目一下。\n如果沒有問題的話，請在這裡簽名。"
+    },
+    {
+      "Text": "[s]「在這裡簽名的話……會有什麼改變？」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "什麼都……不會改變。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "老師只要繼續做想做的事就行了。\n就像以前一樣。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "度過與學生們的日常生活、幫助需要幫助的人──"
+    },
+    {
+      "Name": "香耶",
+      "Text": "但是，那些並不是必須得做的事。\n即使老師什麼也不做，我們也不會責怪老師。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "如果需要錢，無論多少我們都能支援。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "就連麻煩的報告書都能由我們代為完成。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……一切都是老師的自由。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "但是……請答應我們一件事。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "今後夏萊的所有活動都要以聯邦學生會的名義進行。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "只要您答應，對老師行為的所有責任都能由我們來背負。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "無論老師犯了什麼罪、引發了什麼問題……老師都不會被責備。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我認為這個提議並不壞。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "您想想，大人不是最討厭承擔責任了嗎？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "那麼就由我來照顧老師。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "把一切都交給我，自由地享樂吧？"
+    },
+    {
+      "Text": "[ns]「你的好意我心領了。」"
+    },
+    {
+      "Text": "[ns]「但是願意為自己的言行負責的才是大人。」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "…………什麼？"
+    },
+    {
+      "Name": "香耶",
+      "Text": "老師，我再跟您說明一次……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "這個改善方案是為了讓老師變得更自由。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "並不會綁住老師或是限制夏萊的權限……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "還是說有什麼讓您在意的部分嗎？"
+    },
+    {
+      "Text": "[s]「確實聽起來很有魅力……」"
+    },
+    {
+      "Text": "[ns3]「但如果大人展現出逃避責任的一面……」"
+    },
+    {
+      "Text": "[ns4]「就不能以老師的身分成為學生的榜樣了。」"
+    },
+    {
+      "Name": "香耶",
+      "Text": "唉……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "真是個難以溝通的大人呢。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "對社會毫不關心，總是懷抱著孩子般的幻想……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "沒有什麼是比面對這種丟臉的大人還累的事了……"
+    },
+    {
+      "Name": "香耶",
+      "Text": "……我知道了。\n既然如此，這件事就暫時保留吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "從明天起，變更為新體制的聯邦學生會預計將進行行政改革。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "根據改革方案，奇普托斯將會依照規定被完美地統治，\n以安全且「美麗的新世界」的面貌重生吧。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "見證嶄新的奇普托斯後，老師說不定會也改變心意。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "我們防衛室──不，聯邦學生會隨時等待老師的到來。"
+    },
+    {
+      "Name": "香耶",
+      "Text": "那麼，以後也請您多多指教。"
+    },
+    {
+      "Text": "[ns] 回去"
+    },
+    {
+      "Text": "下一話;D.U.嶄新的早晨"
+    }
+  ]
+}

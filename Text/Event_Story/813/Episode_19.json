@@ -1,0 +1,2337 @@
+{
+  "TitleJP": "祭りの後にも",
+  "TitleKR": "축제가 끝난 뒤에",
+  "TitleEN": "After the Festival",
+  "TitleTH": "หลังงานเทศกาลสิ้นสุด",
+  "TitleTW": "慶典之後",
+  "DescJP": "無事に交流会は終了。忍術研究部一同はしっかりと話し合った上で、正式な部活になることは一旦保留に。そして全てが一件落着……となる前に、ニヤが先生に対して今回の顛末を語る。「全ては先生の実力を確かめるため」と楽しそうに堂々と黒幕宣言をするニヤに対して、先生はお説教を始めるのだった。",
+  "DescKR": "교류회를 무사히 끝마친 뒤, 모든 것은 원래 자리로 돌아갔다. 마지막으로 선생님 앞에 나타난 니야가 이번 일은 전부 선생님의 실력을 보고 싶어 꾸민 일이라며 흑막임을 고백하자, 선생님은 주저 없이 니야를 호되게 야단친다.",
+  "DescEN": "After the successful exchange meeting, everything goes back to normal. Then Niya appears in front of Sensei and confesses that she plotted everything to see Sensei's skills, and Sensei thoroughly scolds Niya.",
+  "DescTH": "งานแลกเปลี่ยนจบลงได้ด้วยดี และทุกอย่างก็กลับไปเป็นเหมือนเดิม นิยะ\nปรากฏตัวหน้าคุณครู เธอบอกว่าเรื่องทั้งหมดเป็นเรื่องที่ปั้นขึ้นมาเพราะ\nต้องการดูความสามารถของคุณครูและสารภาพเรื่องม่านดำ เมื่อได้ฟัง\nอย่างนั้น คุณครูจึงดุนิยะอย่างหนักโดยไม่ลังเล",
+  "DescTW": "在交流會順利結束後，一切都恢復原狀。最後出現在老師面前的仁耶坦白說，這次的事情都是為了看到老師的實力而策劃的，老師便毫不猶豫訓斥仁耶。",
+  "DialogJP": [
+    {
+      "Text": "エピローグ;祭りの後にも"
+    },
+    {
+      "Text": "（そうして大騒ぎになった一連の出来事は、表向きには何とか公演の一環として処理され……）"
+    },
+    {
+      "Name": "マコト",
+      "Text": "キキキキキッ！うむ、実に愉快だったな！どうだイブキ、楽しかったか？"
+    },
+    {
+      "Name": "イブキ",
+      "Text": "うん！すっごく！！"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "……私は疲れました。"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "全く、依頼主だと言っていた「ニヤニヤ教授」とやらの足取りは掴めませんでしたし……。"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "全く、いつもいつもどうしてこう……。"
+    },
+    {
+      "Name": "イロハ",
+      "Text": "面倒なことばっかり……なんでしょうね。"
+    },
+    {
+      "Name": "マコト",
+      "Text": "イロハ、何だか知らんがすごい表情をしてないか……？"
+    },
+    {
+      "Name": "マコト",
+      "Text": "……ところでイブキ、手に持ってるそれは何だ？見たことないオモチャだが。"
+    },
+    {
+      "Name": "イブキ",
+      "Text": "あ、これ？忍者のおねえちゃんたちがくれたの！忍者だよ！！"
+    },
+    {
+      "Name": "マコト",
+      "Text": "……うん？それも忍者なのか？というか「忍者」とは、漫画やらドラマやらに出てくる、あれのことか？"
+    },
+    {
+      "Name": "イブキ",
+      "Text": "忍者は本当にいるんだよ、すっごくカッコ良いの！あとでイブキがお話してあげる！"
+    },
+    {
+      "Text": "（そして、主役の忍術研究部はというと……）"
+    },
+    {
+      "Text": "[ns] \"あっ、ちょうどやってる。\""
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "それでは、次のニュースです。"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "今回の百鬼夜行連合学院とゲヘナ学園の交流会、そしてそこで活躍した忍術研究部に関してです。"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "突如として現れた彼女たちについて、各地のみなさんに尋ねてみました。"
+    },
+    {
+      "Name": "百鬼夜行の生徒A",
+      "Text": "何か、あの「眠り姫」の試練もあっさりクリアしたんだって？"
+    },
+    {
+      "Name": "百鬼夜行の生徒B",
+      "Text": "聞いた話によると、その次の「読心術師」も軽々突破したとか。"
+    },
+    {
+      "Name": "ゲヘナの生徒A",
+      "Text": "あ、そういえば何か、あの万魔殿のやつらと盛大にやり合ったとか！"
+    },
+    {
+      "Name": "ゲヘナの生徒B",
+      "Text": "戦車で映画村を蹂躙したとか、とんでもないアウトローだよね。"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "このように様々な噂が飛び交う「忍術研究部」なのですが……"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "どうやらこの部活、現実には存在しないようなのです！"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "果たして彼女たちの正体は一体何なのでしょうか？幽霊なのか、それとも陰陽部の密偵なのか？"
+    },
+    {
+      "Name": "アナウンサー",
+      "Text": "我々は、その真実を探るべく――"
+    },
+    {
+      "Text": "[ns] \"うーん、マスコミは怖い……。\""
+    },
+    {
+      "Text": "（そうして情報伝達の恐ろしさと難しさを感じていた時……）"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "先生殿、ちょっと匿って！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "助けてください、先生……！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ピンチです！"
+    },
+    {
+      "Text": "[s] \"……ど、どうしたの？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "カホたち陰陽部に追われてるの！"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "その、先日の、事件のことで……！"
+    },
+    {
+      "Name": "カホ",
+      "Text": "つまり要約すると、「今回の公演を無事成功に導いたから、正式な部活として認めてくれ」……と？"
+    },
+    {
+      "Name": "カホ",
+      "Text": "もちろん、皆さんの活躍は大きいものでした。心より感謝しています。その上でのお話にはなりますが……"
+    },
+    {
+      "Name": "カホ",
+      "Text": "こちらは今回、公演中に発生した損害賠償の請求書です。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "映画村の大半の施設が半壊……損害額は約8桁です。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "皆さんの功績をしっかりと勘定するには、まずこの辺りから清算せねばならないのですが……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "でもさぁ、せめて戦車がなぎ倒した分は万魔殿と折半じゃない！？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "はぁ、もう文字通り何から何までめちゃくちゃだよ……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "結果としては色々……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "先生殿。"
+    },
+    {
+      "Text": "[s] \"ん？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その、えっと……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ご迷惑をおかけしました……"
+    },
+    {
+      "Text": "[s] \"ミチルが謝るなんて……。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "その驚き方はちょっと失礼では！？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "わ、私だって悪いと思ったら謝るよ！？"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "今回はほとんど私のせいで、色々迷惑がかかっちゃったし……"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "みっともないところも、たくさん見せちゃったし……。"
+    },
+    {
+      "Text": "[s] \"大丈夫だよ、そういうのに付き合うのも先生だから。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "うわ、大人だ……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "あ、そういえばその、あの日帰ってから……イズナとツクヨと、相談したの。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "正式な部活にするにはまだ、勇気が足りないって言うか、"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "周囲より自分の気持ち的な問題って言うか……。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "とにかく、時間が必要な気がするから……正式な部活になるのは、とりあえずもう少し後にしようって。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "そしたら、二人とも……"
+    },
+    {
+      "Text": "[ns] \"「気にしないよ」って？\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "……うん。"
+    },
+    {
+      "Name": "ミチル",
+      "Text": "ほんと、私にはもったいないくらいの後輩たちだよ。"
+    },
+    {
+      "Text": "[ns] \"よし、じゃあみんなで「ニンペロさん」グッズでも買いに行こうか。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "えっ？"
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "え……？"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "ほ、本当ですか主殿！？"
+    },
+    {
+      "Text": "[s] \"うん。みんな頑張ったから、ご褒美も兼ねて。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "やったぁ！やっぱり先生殿、最高！"
+    },
+    {
+      "Name": "イズナ",
+      "Text": "主殿からのプレゼント……！イズナ、家宝にします！一生の宝物です！"
+    },
+    {
+      "Text": "[s] \"お、大げさだよ……。\""
+    },
+    {
+      "Name": "ツクヨ",
+      "Text": "私も、毎日おはようって言って、お風呂に入って、ドライヤーして……。"
+    },
+    {
+      "Text": "[s] \"完全に飼ってる状態だ……。\""
+    },
+    {
+      "Name": "ミチル",
+      "Text": "だったら私も！先生だと思って、毎日一緒に散歩してあげる！"
+    },
+    {
+      "Text": "[s] \"それはまた何か語弊がありそうな……！\""
+    },
+    {
+      "Text": "（そうして事件は一件落着……）"
+    },
+    {
+      "Text": "（……する前に、最後にもう一つやることがあった）"
+    },
+    {
+      "Text": "（風が気持ち良い、映画村の片隅……）"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ふんふんふん～♪"
+    },
+    {
+      "Name": "？？？",
+      "Text": "にゃははっ、今回も割と楽しめたねぇ。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "個人的にはそういう感想なんですが～……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……先生の方はどうです？"
+    },
+    {
+      "Text": "[s] \"や、こんばんは。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "シャーレのご協力もあって、無事に交流会も終わりましたわ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "お力添え、感謝しますよ～♪"
+    },
+    {
+      "Text": "[s] \"どういたしまして。\""
+    },
+    {
+      "Text": "[ns] \"ところで、本題に入って良い？\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "あらあら、小粋なアイスブレイクのつもりだったのに……急展開で残念ですねぇ。"
+    },
+    {
+      "Text": "[s] \"全部ニヤの計画、ってことで合ってる？\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "あらまあ直球。探り合いも必要無し、という感じです？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "……ちなみに証拠は？"
+    },
+    {
+      "Text": "[s] \"警備の位置とか全部把握した上でイブキを攫った、魑魅一座のあの動き方。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "なるほど、ある意味高く買われてますねぇ。もし陰陽部が本当にしっかり警備していたら、こんなことはそもそも起こらなかったはず……。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "逆に言うと「陰陽部」が加担していない限り、あのようなことは起こらないはず……と？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "にゃははっ……"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "バッチリ花丸、ご名答～♪"
+    },
+    {
+      "Text": "[s] \"隠さないんだね。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "まあ、隠す必要もありませんからねぇ。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "そもそも私は、ただ「シャーレ」の力をこの目で見たかっただけです。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "……忍術研究部、でしたっけ？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "まあ傍目から見ている分には、面白そうな子たちではありましたが……。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "正式な部活にもなれないまま慌てふためき、足掻き続ける子たち……。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "そんな彼女たちを連れて、本当にお姫様を救い出せるなんて。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "かなり厳しいはずだと読んでいましたが、あの手腕……"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "噂通り……というところでしょうか。"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "流石はシャーレの先生、感激しましたわ。"
+    },
+    {
+      "Text": "[s] \"……そっか。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "もしかして、ご気分を害してしまいました？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "全ての犯人が判明して、嫌な気持ちですか？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "それとも、これだけ人を振り回しておいて、"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "面白おかしく笑ってる場合か……"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "みたいな？"
+    },
+    {
+      "Text": "[s] \"……ニヤ。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "はいはい？"
+    },
+    {
+      "Text": "[s] \"お説教。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "……え？"
+    },
+    {
+      "Text": "[s] \"そこに座って。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ええと……先生？"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "自分で言うのも何ですが、その、様式美と言いますか……"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "あの、今の私「ザ・黒幕」みたいなムーブだったんですが、このタイミングで「お説教」というのはその、流れ的にどうなんです……？"
+    },
+    {
+      "Text": "[s] \"ちょっと長くなるけど、我慢してね。\""
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "えっと、あの……"
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "ちょっ、先生！？顔が怖っ……！？"
+    },
+    {
+      "Text": "（そうして騒動はひと段落したものの、）"
+    },
+    {
+      "Text": "（問題は幾つか残りそうであった）"
+    },
+    {
+      "Text": "不忍ノ心"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "에필로그;축제가 끝난 뒤에"
+    },
+    {
+      "Text": "(그렇게 해서, 백귀야행 학원을 떠들썩하게 만들었던 사건은, 공연의 일환으로서 마무리가 되고…….)"
+    },
+    {
+      "Name": "마코토",
+      "Text": "후하하! 으음! 실로 유쾌한 추억이었다! 어때, 이부키. 즐거웠냐?"
+    },
+    {
+      "Name": "이부키",
+      "Text": "응! 재미있었어!"
+    },
+    {
+      "Name": "이로하",
+      "Text": "……전 피곤하기만 했지만요."
+    },
+    {
+      "Name": "이로하",
+      "Text": "망량즈는 이번 소동의 최초 주동자가 히죽히죽 교수라느니 하는 말을 했지만. 흔적을 찾았을 땐 이미 자취를 감춘 상황이었고."
+    },
+    {
+      "Name": "이로하",
+      "Text": "……진짜 귀찮은 일투성이네요."
+    },
+    {
+      "Name": "이로하",
+      "Text": "대체, 왜, 늘 이런 고생을……"
+    },
+    {
+      "Name": "마코토",
+      "Text": "으, 응……? 이로하, 뭔가. 엄청, 화난 거 같은데……?"
+    },
+    {
+      "Name": "마코토",
+      "Text": "그보다 이부키, 손에 든 그건 뭐지? 처음 보는 장난감이다만."
+    },
+    {
+      "Name": "이부키",
+      "Text": "아, 이거? 닌자 언니들이 준 닌자야!"
+    },
+    {
+      "Name": "마코토",
+      "Text": "……아니, 의미가 불명이다만? 닌자라면 만화에 나오는 그런 거?"
+    },
+    {
+      "Name": "이부키",
+      "Text": "아니! 닌자는 진짜로 있어! 응! 엄청 멋지다구? 이부키가 이야기해줄게!"
+    },
+    {
+      "Text": "(그리고 사건의 주역이었던 인법연구부에 이르러서는……)"
+    },
+    {
+      "Text": "[ns] \"아, 뉴스 떴네.\""
+    },
+    {
+      "Name": "아나운서",
+      "Text": "그럼 다음 뉴스입니다."
+    },
+    {
+      "Name": "아나운서",
+      "Text": "이번에 있던 백귀야행과 게헨나 학원 간의 교류회, 그곳에서 활약한 인법연구부에 대한 소식입니다."
+    },
+    {
+      "Name": "아나운서",
+      "Text": "갑자기 나타난 그들에 대한 목소리를 들어보았습니다!"
+    },
+    {
+      "Name": "백귀야행의 학생 A",
+      "Text": "아, 그게 잠자는 공주의 시련도 가볍게 클리어했다는 거 있죠?"
+    },
+    {
+      "Name": "백귀야행의 학생 B",
+      "Text": "듣기로는 수행부의 무서운 독심술사도 손쉽게 제압했대요."
+    },
+    {
+      "Name": "게헨나 학생 A",
+      "Text": "아! 내가 들었는데! 만마전 녀석들을 엉망진창으로 만들어줬다고-"
+    },
+    {
+      "Name": "게헨나 학생 B",
+      "Text": "탱크로 영화촌 곳곳을 박살 내고 다녔다는데. 완전 무법자잖아?"
+    },
+    {
+      "Name": "아나운서",
+      "Text": "등등의 소식이 있어 알아보았습니다만."
+    },
+    {
+      "Name": "아나운서",
+      "Text": "이럴 수가! 놀랍게도 인법연구부는 실존하지 않는 동아리로 알려졌습니다!"
+    },
+    {
+      "Name": "아나운서",
+      "Text": "과연 그들의 정체는 무엇일까요? 유령? 아니면 음양부에서 비밀리에 운용하는 에이전트 요원인가?"
+    },
+    {
+      "Name": "아나운서",
+      "Text": "저희는 그 진실을 알아보고자……."
+    },
+    {
+      "Text": "[ns] \"언론이란 무섭구나…….\""
+    },
+    {
+      "Text": "(그렇게 잠시 매스미디어가 자아내는 소문에 전율하고 있을 때였다.)"
+    },
+    {
+      "Name": "미치루",
+      "Text": "선생 공……! 숨겨주라!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "도, 도와주세요오……! 선생니이임……!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "캐앵!"
+    },
+    {
+      "Text": "[s] \"……응? 다들 무슨 일이야?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "지금 카호가 우릴 쫓고 있어! 그것도 음양부 녀석들을 풀어서!"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "그, 그게 말이지요……! 이번에 있었던 그 사건 때문에……!"
+    },
+    {
+      "Name": "카호",
+      "Text": "이번 공연을 성공으로 이끌었으니 정식 동아리로 인정해달라고요?"
+    },
+    {
+      "Name": "카호",
+      "Text": "아, 물론 여러분의 활약을 무시하는 건 아닙니다만, 그 전에……."
+    },
+    {
+      "Name": "카호",
+      "Text": "여기, 이번 공연 도중에 벌어진 사건들로 인해 발생한 손해배상 청구서입니다."
+    },
+    {
+      "Name": "카호",
+      "Text": "백귀야행 영화촌 시설 태반이 박살 난 시점에서, 그 손해액은 무려 8자리……."
+    },
+    {
+      "Name": "카호",
+      "Text": "활약은 인정해드리겠습니다만, 그 이전에 정산부터…… 아시겠지요?"
+    },
+    {
+      "Name": "미치루",
+      "Text": "억울해! 그거 전부 탱크를 몰고 다닌 만마전의 아가씨가 벌인 일이라고?!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "하아…… 정말 이번 일에 있어선, 잔뜩 손해만 본 느낌이야……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "또 이렇게 엉망진창으로……."
+    },
+    {
+      "Name": "미치루",
+      "Text": "선생 공."
+    },
+    {
+      "Text": "[s] \"응?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "그…… 이번엔, 그게……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "죄, 죄송했습니다아……"
+    },
+    {
+      "Text": "[s] \"미치루가 사과라니…….\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "그, 그렇게 놀란 얼굴 안 해도 되잖아?!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "나, 나도 염치가 없다는 것쯤은 알고 있다구?!"
+    },
+    {
+      "Name": "미치루",
+      "Text": "괜히 나 때문에 선생 공에게 민폐를 끼쳐버리기나 하고, 투정을 부리기나 하고……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "진짜…… 꼴불견이었지?"
+    },
+    {
+      "Text": "[s] \"괜찮아. 선생님이니까. 학생의 투정을 받아주는 게 일인걸.\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "우, 우와앗…… 어, 어른이다아……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "아, 아니 뭐, 그날, 돌아가서 이즈나랑 츠쿠요랑 좀 더…… 그, 이야기를 했었어."
+    },
+    {
+      "Name": "미치루",
+      "Text": "그, 정식 동아리 건에 대해서……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "그리고 결정했어. 아직…… 용기가 안 난다고 할까……"
+    },
+    {
+      "Name": "미치루",
+      "Text": "시간이 필요하다고나 할까…… 응. 정식 동아리가 되는 건, 좀 더 나중으로 하자고."
+    },
+    {
+      "Name": "미치루",
+      "Text": "그랬더니 두 사람 다…."
+    },
+    {
+      "Text": "[ns] \"신경 안 쓴다고 했지?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "………응."
+    },
+    {
+      "Name": "미치루",
+      "Text": "정말…… 나한텐 과분한 후배들이라니깐."
+    },
+    {
+      "Text": "[ns] \"좋아! 그럼 모두를 위해, 닌페로 굿즈를 사러 갈까?\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "어?"
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "네?"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "진짜인가요? 주군?!"
+    },
+    {
+      "Text": "[s] \"응. 모두 고생했으니까. 보답으로 말이지.\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "우와앗! 선생 공이 역시 최고야!"
+    },
+    {
+      "Name": "이즈나",
+      "Text": "주군의 선물……! 이즈나! 평생 가보로 삼을게요!"
+    },
+    {
+      "Text": "[s] \"너, 너무 호들갑인 거 아냐……?\""
+    },
+    {
+      "Name": "츠쿠요",
+      "Text": "저…… 서, 선물해 주시면…… 매, 매일 같이 아끼고, 그, 매일매일 깨끗하게 씻기고…… 또……."
+    },
+    {
+      "Text": "[s] \"아니, 그, 어디까지나 굿즈니까…….\""
+    },
+    {
+      "Name": "미치루",
+      "Text": "그렇다면 나도! 선생님이라고 생각하고 매일 같이 산책시켜줄게!"
+    },
+    {
+      "Text": "[s] \"그러니까 그런 게 아니래도……!\""
+    },
+    {
+      "Text": "(그렇게 사건은 일단락……)"
+    },
+    {
+      "Text": "(……되기 전에 마지막으로 하나 더.)"
+    },
+    {
+      "Text": "(조금은 싸늘한 바람이 도는, 영화촌의 어딘가.)"
+    },
+    {
+      "Name": "???",
+      "Text": "흐응~ 흥흥~"
+    },
+    {
+      "Name": "???",
+      "Text": "냐하핫. 이번에도 제법 재미있게 즐겼다니까요."
+    },
+    {
+      "Name": "???",
+      "Text": "뭐, 저는 그렇게 생각하옵니다마는, 후후. 당사자께서는 어떠신가요?"
+    },
+    {
+      "Name": "???",
+      "Text": "……선생님?"
+    },
+    {
+      "Text": "[s] \"니야.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "이번 교류회. 샬레의 협력으로 무사히 마무리할 수 있었습니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "네에~ 도와주셔서 감사했답니다~ 냐하핫."
+    },
+    {
+      "Text": "[s] \"뭐, 별말씀을.\""
+    },
+    {
+      "Text": "[ns] \"그보다 본론은 그게 아니지 않아?\""
+    },
+    {
+      "Name": "니야",
+      "Text": "어머나~ 모처럼 분위기를 부드럽게 하기 위한 스몰 토크를 그렇게 말씀하시다니~ 아쉬워라~"
+    },
+    {
+      "Text": "[s] \"전부 니야가 꾸민 일이었지?\""
+    },
+    {
+      "Name": "니야",
+      "Text": "어라아~ 재보지도 않고, 떠보지도 않고, 서로의 심리를 꿰뚫어 보며 여유를 즐길 필요도 없이 돌직구로 묻는 건가요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "……증거라도 있는 것인지?"
+    },
+    {
+      "Text": "[s] \"망량즈는 마치 전부 알고 있다는 듯이 경비를 뚫고 이부키를 납치했어.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "아하~ 음양부가 제대로 대비를 하고 있었다면 애당초 그런 일도 벌어지지 않았을 거다."
+    },
+    {
+      "Name": "니야",
+      "Text": "……즉 이 모든 소동은 첫 단추부터가 '음양부'가 개입되어 있었을 거다. 라는 판단이신가요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "냐하핫. 후후훗."
+    },
+    {
+      "Name": "니야",
+      "Text": "네, 정답-"
+    },
+    {
+      "Text": "[s] \"숨기지 않는구나.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "정확히는 숨길 필요가 없는 일이니까요."
+    },
+    {
+      "Name": "니야",
+      "Text": "전 단지 소문으로만 듣던 샬레의 선생님이 가진 힘을, 직접 보고 싶었을 뿐이랍니다."
+    },
+    {
+      "Name": "니야",
+      "Text": "……후후. 인법연구부, 라고 했던가요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "재미있는 아이들이라고 생각은 했지만."
+    },
+    {
+      "Name": "니야",
+      "Text": "그래봤자 제대로 된 동아리도 만들지 못한 채 허둥지둥하던 아이들."
+    },
+    {
+      "Name": "니야",
+      "Text": "그런 아이들을 데리고 멋지게 공주님을 구해내다니, 네에. 불가능을 가능케 했다고 할지."
+    },
+    {
+      "Name": "니야",
+      "Text": "마치 당연하다는 듯이 미션을 클리어한 모습을 보아하니. 이거 참 뭐라고 할지."
+    },
+    {
+      "Name": "니야",
+      "Text": "듣던 대로 굉장하시네요. 샬레의 선생님은."
+    },
+    {
+      "Name": "니야",
+      "Text": "저, 감탄했답니다?"
+    },
+    {
+      "Text": "[s] \"그래…… 그렇단 말이지…….\""
+    },
+    {
+      "Name": "니야",
+      "Text": "어머나, 혹시 제가 모든 소동을 일으킨 주범인 걸 알고- 기분이 나빠지셨나요?"
+    },
+    {
+      "Name": "니야",
+      "Text": "아니면, 혹시 혐오감이라도 들으셨다던가?"
+    },
+    {
+      "Name": "니야",
+      "Text": "자기 멋대로 남들을 휘두르며,"
+    },
+    {
+      "Name": "니야",
+      "Text": "그래서 재미있다는 듯이 웃는 모습에,"
+    },
+    {
+      "Name": "니야",
+      "Text": "구역질이라도 나온다던가- 하실까요~? 냐하핫."
+    },
+    {
+      "Text": "[s] \"니야\""
+    },
+    {
+      "Name": "니야",
+      "Text": "네에~? 선생님?"
+    },
+    {
+      "Text": "[s] \"설교야.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "………네?"
+    },
+    {
+      "Text": "[s] \"거기 앉아. 지금부터 진지하게 니야를 야단칠 거니까.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "저기요…… 선생님?"
+    },
+    {
+      "Name": "니야",
+      "Text": "제 입으로 말하기도 좀 그렇지만, 이런 장면이라면 좀 더 그에 걸맞은 양식미라고 할까."
+    },
+    {
+      "Name": "니야",
+      "Text": "저기, 방금까지 저 엄청나게 <The 흑막>이란 느낌 풀풀 풍기고 있지 않았나요? 여기서 야단을 치시는 건, 다소 이상한 흐름이라고 할지……."
+    },
+    {
+      "Text": "[s] \"조금 길어지겠지만, 해줄 말이 잔뜩 있으니까.\""
+    },
+    {
+      "Name": "니야",
+      "Text": "저기, 저……"
+    },
+    {
+      "Name": "니야",
+      "Text": "저기요?! 선생님, 얼굴이 무서……. 꺄아아앙?!"
+    },
+    {
+      "Text": "(소동은 끝이 났지만, 이 뒤의 이야기를 마무리하기 위해,)"
+    },
+    {
+      "Text": "(아무래도 조금은 더 시간이 필요할 것 같았다.)"
+    },
+    {
+      "Text": "불인의 마음"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Epilogue; After the Festival"
+    },
+    {
+      "Text": "And that was how the scandal that rocked Hyakkiyako Academy came to an end disguised as a performance."
+    },
+    {
+      "Name": "Makoto",
+      "Text": "Hahahaha! Wow! What an event! Did you have fun, Ibuki?"
+    },
+    {
+      "Name": "Ibuki",
+      "Text": "Yep! Lots of fun!"
+    },
+    {
+      "Name": "Iroha",
+      "Text": "...It was exhausting. In every way possible."
+    },
+    {
+      "Name": "Iroha",
+      "Text": "The Mouryo kept insisting the incident was masterminded by someone named Professor Smug, but by the time we caught their trail, they'd already vanished."
+    },
+    {
+      "Name": "Iroha",
+      "Text": "...I hate loose ends."
+    },
+    {
+      "Name": "Iroha",
+      "Text": "Why can't anything ever go smoothly?"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "What, Iroha? Why do you look like the Head Prefect stepped on your favorite book?"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "Ibuki, what's that you got there? I've never seen you with it before."
+    },
+    {
+      "Name": "Ibuki",
+      "Text": "This? It's a ninja the ninja girls gave Ibuki!"
+    },
+    {
+      "Name": "Makoto",
+      "Text": "Ninjas? Like you see in comic books? I don't follow."
+    },
+    {
+      "Name": "Ibuki",
+      "Text": "Nuh-uh! Ninjas are real! Okay? And they're really, really cool! You better listen up!"
+    },
+    {
+      "Text": "And as for the Ninjutsu Research Club after the incident..."
+    },
+    {
+      "Text": "[ns] \"Hey, they're on the news.\""
+    },
+    {
+      "Name": "Announcer",
+      "Text": "Today's next story..."
+    },
+    {
+      "Name": "Announcer",
+      "Text": "In the recent exchange meeting between the Hyakkiyako and Gehenna Academies, the crowd is buzzing about the tremendous exploits of the Ninjutsu Research Club during the performance!"
+    },
+    {
+      "Name": "Announcer",
+      "Text": "Here's what people had to say about their sudden appearance!"
+    },
+    {
+      "Name": "Hyakkiyako Student A",
+      "Text": "Did you hear? The Sleeping Beauty's trial was like a walk in the park to them!"
+    },
+    {
+      "Name": "Hyakkiyako Student B",
+      "Text": "They beat the Inner Discipline Club's mind reader without a thought!"
+    },
+    {
+      "Name": "Gehenna Student A",
+      "Text": "You know what I heard? I heard they totally ran circles around the Pandemonium Society!"
+    },
+    {
+      "Name": "Gehenna Student B",
+      "Text": "They bulldozed over the movie village in a tank! What a bunch of outlaws!"
+    },
+    {
+      "Name": "Announcer",
+      "Text": "We took the liberty of looking into these allegations."
+    },
+    {
+      "Name": "Announcer",
+      "Text": "And what we found was shocking! Apparently, no such official organization known as the Ninjutsu Research Club even exists!"
+    },
+    {
+      "Name": "Announcer",
+      "Text": "So who could these mysterious club members be? Are they ghosts? Or are they a group of top-secret agents covertly operating under the Yin-Yang Club?"
+    },
+    {
+      "Name": "Announcer",
+      "Text": "To uncover the truth, we..."
+    },
+    {
+      "Text": "[ns] \"The media is terrifying sometimes.\""
+    },
+    {
+      "Text": "(The rumors are everywhere. The whole community is being rocked by a media frenzy...)"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Honorable Sensei! You need to hide me!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "S-Sensei... P-Please help...!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "Please!"
+    },
+    {
+      "Text": "[s] \"What's going on, everyone?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Kaho is hot on our tails right now! She's even sicced the Yin-Yang Club on us!"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Because of the recent incident!"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Hm? You want official recognition for your club since the show was a success?"
+    },
+    {
+      "Name": "Kaho",
+      "Text": "While I don't negate or downplay your help, there's a more urgent matter we must address."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "An invoice. For all damages caused during the performance."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "For the price of utterly decimating Hyakkiyako's movie village...consider eight figures generous."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "We're more than willing to uphold our end of the bargain. Once you recoup your debts."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "This is ridiculous! All because that Pandemonium girl took a joyride in that tank!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Hah... Geez. I'm really starting to feel like this whole ordeal wasn't worth the effort."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "What a total nightmare..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Honorable Sensei."
+    },
+    {
+      "Text": "[s] \"Yes, Michiru?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Uh... I just wanted to say..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "I'm sorry. For everything."
+    },
+    {
+      "Text": "[s] \"Michiru? Apologizing?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "You don't have to look so surprised!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "I know I can be shameless sometimes, okay?!"
+    },
+    {
+      "Name": "Michiru",
+      "Text": "I put you through a lot, and I know I wasn't easy to deal with...here and there..."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "You must have been really annoyed, huh?"
+    },
+    {
+      "Text": "[s] \"It's okay. I'm a teacher. It's my job help my students deal with things.\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "That's the most grown-up thing I've ever heard."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Also... Uh. So, I took your advice and talked to Izuna and Tsukuyo."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "You know, about all the stuff and my feelings on making the club official."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "And we all made a decision together. I guess I'm still scared."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Maybe I just need some time. But, I asked them if they'd be okay if we put it on the backburner for the time being."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "And both of them said..."
+    },
+    {
+      "Text": "[ns] \"That it was okay, and it wasn't a big deal?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "...Yeah."
+    },
+    {
+      "Name": "Michiru",
+      "Text": "I really have the best underclassmen in the world."
+    },
+    {
+      "Text": "[ns] \"In that case, shall we go buy some new Ninpero merch for everyone?\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Huh?"
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "Wha?"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "My lord?! Really, truly?!"
+    },
+    {
+      "Text": "[s] \"Really and truly. As a reward for all your hard work.\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Honorable Sensei, you're the best!"
+    },
+    {
+      "Name": "Izuna",
+      "Text": "A gift from my lord?! I'm going to keep it as a family heirloom!"
+    },
+    {
+      "Text": "[s] \"I think you all might be overreacting a little bit.\""
+    },
+    {
+      "Name": "Tsukuyo",
+      "Text": "I'll take good care of it, every single day of my life! I'll treasure it!"
+    },
+    {
+      "Text": "[s] \"S-Since it's precious merch...\""
+    },
+    {
+      "Name": "Michiru",
+      "Text": "Me too! I'll respect it as much as I do Honorable Sensei! I'll walk it every day!"
+    },
+    {
+      "Text": "[s] \"It's just a stuffed animal!\""
+    },
+    {
+      "Text": "(And that was the end of that.)"
+    },
+    {
+      "Text": "(...Actually, there was just one more thing.)"
+    },
+    {
+      "Text": "(Somewhere in the movie village, on a slightly chilly day.)"
+    },
+    {
+      "Name": "???",
+      "Text": "Heeheehee."
+    },
+    {
+      "Name": "???",
+      "Text": "Bwahaha. I really enjoyed myself, as always!"
+    },
+    {
+      "Name": "???",
+      "Text": "That's how I feel at least. Heehee, how about you?"
+    },
+    {
+      "Name": "???",
+      "Text": "Sensei?"
+    },
+    {
+      "Text": "[s] \"Yes, Niya?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "We were able to pull off this exchange meeting thanks to Schale's cooperation."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Your cooperation, indeed! Thank you for all of your help!"
+    },
+    {
+      "Text": "[s] \"Don't mention it.\""
+    },
+    {
+      "Text": "[ns] \"But don't you think you're missing the point?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Awww, I was trying to set the mood for us. You're gonna hurt my poor feelings."
+    },
+    {
+      "Text": "[s] \"You orchestrated this whole thing, didn't you, Niya?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "You're just going to come right out of the gate and ask that? Why not take the time to savor the moment? Slowly tease it out?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "And do you have any proof?"
+    },
+    {
+      "Text": "[s] \"The Mouryo cut through security like a knife through butter and kidnapped Ibuki. They knew how to get in.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ah-ha! So you think this never would have happened if the Yin-Yang Club had set up the proper precautions in the first place."
+    },
+    {
+      "Name": "Niya",
+      "Text": "In other words, you're accusing the Yin-Yang Club of having been complicit from the beginning."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Heehee."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Ding, ding, ding. It's true."
+    },
+    {
+      "Text": "[s] \"You don't even have the insight to lie.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Because there's no reason to lie."
+    },
+    {
+      "Name": "Niya",
+      "Text": "I simply wanted to see for myself if the famed Schale Sensei was as strong and capable as I had heard."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Hahaha. That Ninjutsu Research Club."
+    },
+    {
+      "Name": "Niya",
+      "Text": "They're an interesting bunch, I'll give you that."
+    },
+    {
+      "Name": "Niya",
+      "Text": "At the end of the day though, they're a trio of lost causes who can't even get themselves to accredit their own club."
+    },
+    {
+      "Name": "Niya",
+      "Text": "But you decided you liked those rag-tag girls and helped them heroically rescue the princess. You made the impossible, possible."
+    },
+    {
+      "Name": "Niya",
+      "Text": "I realized it while watching them tear through every mission so fearlessly."
+    },
+    {
+      "Name": "Niya",
+      "Text": "You truly are every bit as impressive as they say you are, Sensei of Schale."
+    },
+    {
+      "Name": "Niya",
+      "Text": "I mean, I was blown away!"
+    },
+    {
+      "Text": "[s] \"Oh? Is that right?\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Aw. Are you upset to find out that I instigated this whole scandal?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Or perhaps, repulsed?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Manipulating people as I please..."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Squeezing every bit of enjoyment out of them that I can..."
+    },
+    {
+      "Name": "Niya",
+      "Text": "Do I disgust you? Is your skin crawling as you look at me? Heehee."
+    },
+    {
+      "Text": "[s] \"Niya.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Yeeeeees, Sensei?"
+    },
+    {
+      "Text": "[s] \"It's lecture time.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "...Come again?"
+    },
+    {
+      "Text": "[s] \"Take a seat, Niya, because you're about to get a serious scolding.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "A scolding? ...Sensei?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "I hate to be the one to say this, really. But don't you think this situation calls for... I don't know, a bit more drama and gravitas?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "I mean, I was in the middle of very dramatically revealing my dark, secret plot! But for you to scold me like a kid, that just totally ruins the vibe!"
+    },
+    {
+      "Text": "[s] \"Well, buckle up, kiddo. I've got a lot to say to you.\""
+    },
+    {
+      "Name": "Niya",
+      "Text": "Are...Are you serious?"
+    },
+    {
+      "Name": "Niya",
+      "Text": "Excuse me?! Sensei, stop making that scary face! AIIIIYEEEEE?!"
+    },
+    {
+      "Text": "The scandal may have been over with, but dealing with the aftermath..."
+    },
+    {
+      "Text": "Well, that was going to take a little more time."
+    },
+    {
+      "Text": "An Unconcealed Heart"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "บทส่งท้าย;หลังงานเทศกาลสิ้นสุด"
+    },
+    {
+      "Text": "(หลังจากเหตุการณ์ที่ทำให้สหพันธ์เฮียกคิยาโคโกลาหลวุ่นวายผ่านไป หน้าที่รับผิดชอบในการแสดง\nก็สิ้นสุดลง...)"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "ฮุฮุฮุ! อื้ม! ช่างเป็นความทรงจำที่น่าปีติยินดีจริงๆ! เป็นไงบ้าง อิบูกิสนุกมั้ย?"
+    },
+    {
+      "Name": "อิบูกิ",
+      "Text": "อื้ม! สนุกมากเลย!"
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "มีแต่ฉันที่เหนื่อยอยู่คนเดียวน่ะสิคะ..."
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "พวกปีศาจบอกว่าผู้นำของการก่อความวุ่นวายครั้งนี้ก็คือ ศาสตราจารย์ยิ้มหวาน แต่ตอนที่ไปตามสืบ ร่องรอยก็ถูกลบไปหมดแล้ว"
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "เป็นเรื่องที่น่าหงุดหงิดมากเลยละค่ะ..."
+    },
+    {
+      "Name": "อิโรฮะ",
+      "Text": "ทำไมฉันถึงต้องมาเจออะไรแบบนี้ด้วย..."
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "หะ... หืม? อิโรฮะดูเหมือนกำลังโกรธมากๆ เลยนะนั่น..."
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "แล้วอิบูกิถืออะไรอยู่ในมือเหรอ? ของเล่นแบบนั้นไม่เคยเห็นมาก่อนเลยนะ"
+    },
+    {
+      "Name": "อิบูกิ",
+      "Text": "อ๊ะ นี่เหรอ? ตุ๊กตานินจาที่พี่สาวนินจาให้มาน่ะ!"
+    },
+    {
+      "Name": "มาโคโตะ",
+      "Text": "เดี๋ยวนะ... หมายถึงอะไรน่ะ? นินจาแบบที่อยู่ในหนังสือการ์ตูนน่ะเหรอ?"
+    },
+    {
+      "Name": "อิบูกิ",
+      "Text": "ไม่ช่าย! นินจามีอยู่จริงๆ นะ! อื้อ! เท่มากๆ เลยด้วย อิบูกิจะเล่าให้ฟังเอง!"
+    },
+    {
+      "Text": "(และชมรมวิจัยศาสตร์นินจาที่เป็นตัวเอกของแผนการนั้น...)"
+    },
+    {
+      "Text": "[ns] \"อ่า... ออกข่าวด้วยสินะ\""
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ข่าวต่อไปนะคะ..."
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ข่าวชมรมวิจัยศาสตร์นินจาที่ปรากฏตัวที่งานแลกเปลี่ยนระหว่างเฮียกคิยาโคกับสถาบันเกเฮนน่าค่ะ"
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "มาลองฟังความคิดเห็นเกี่ยวกับการปรากฏตัวของคนเหล่านี้กันค่ะ!"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเฮียกคิยาโค A",
+      "Text": "อ่า ที่ผ่านด่านขององค์หญิงขี้เซาไปได้ง่ายๆ ใช่มั้ย?"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเฮียกคิยาโค B",
+      "Text": "ได้ยินมาว่าสามารถผ่านนักอ่านใจของชมรมฝึกฝนไปได้สบายๆ เลยด้วยนะ"
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเกเฮนน่า A",
+      "Text": "อ่า! ฉันก็ได้ยินมาเหมือนกัน! เห็นว่าเล่นงานพวกแพนเดโมเนียม โซไซตี้ซะน่วมเลย..."
+    },
+    {
+      "Name": "นักเรียนโรงเรียนเกเฮนน่า B",
+      "Text": "ขับรถถังทำลายข้าวของไปทั่วสวนสนุกภาพยนตร์ขนาดนั้น เป็นพวกนอกรีตไม่ใช่เหรอ? "
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ได้รับข่าวมามากมายเลยละค่ะ"
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ไม่น่าเชื่อเลยค่ะ! น่าตกใจที่คนส่วนใหญ่ดูเหมือนจะไม่รู้จักชมรมวิจัยศาสตร์นินจามาก่อนนะคะ!"
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ตัวตนของพวกเธอคืออะไรกันแน่? วิญญาณ? หรือว่าจะเป็นเจ้าหน้าที่ลับของชมรมหยินหยาง?"
+    },
+    {
+      "Name": "ผู้ประกาศ",
+      "Text": "ทางเราจะพยายามสืบหาความจริงต่อไปค่ะ..."
+    },
+    {
+      "Text": "[ns] “สื่อพวกนี้น่ากลัวจริงๆ...”"
+    },
+    {
+      "Text": "(หลังจากนั้นสื่อหลักก็ให้ความสนใจกับข่าวลือพวกนั้นอยู่สักพัก)"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ท่านอาจารย์...! รีบซ่อนเร็ว...!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ชะ... ช่วยด้วยค่า...!  คุณครู...!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "นินนิน!"
+    },
+    {
+      "Text": "[s] \"หืม...? มีอะไรเหรอทุกคน?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ตอนนี้คาโฮะกำลังไล่ตามพวกข้าน้อยอยู่! ข่าวพวกนั้นชมรมหยินหยางก็เป็นคนปล่อยด้วย...!"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ชะ... ใช่แล้วค่ะ...! เพราะเหตุการณ์ที่เกิดขึ้นคราวนี้...!"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "จะมาขอให้รับรองเป็นชมรมทางการเพราะการแสดงสำเร็จด้วยดีอย่างนั้นเหรอคะ?"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "อ่า ไม่ได้จะดูถูกความพยายามของทุกคนหรอกนะคะ แต่ก่อนอื่น..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ดูนี่สิคะ ใบเรียกร้องค่าเสียหายที่มาจากเหตุการณ์ที่เกิดขึ้นระหว่างการแสดงครั้งนี้ค่ะ"
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ความเสียหายที่เกิดขึ้นกับอุปกรณ์ในสวนสนุกภาพยนตร์เฮียกคิยาโค มูลค่ามากถึงแปดหลักค่ะ..."
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "ฉันยอมรับในฝีมือนะคะ แต่ว่าจะต้องชำระบัญชีนี้ก่อน... เข้าใจใช่ไหมคะ?"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ไม่ยุติธรรมเลย! ทุกอย่างเป็นเพราะพวกแพนเดโมเนียม โซไซตี้ที่ขับรถถังเข้ามาต่างหาก?!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ฮ่า... รู้สึกเหมือนครั้งนี้เราจะมีแต่เสียกับเสียเลยนะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ล้มเหลวไม่เป็นท่าอีกแล้วเหรอ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ท่านอาจารย์"
+    },
+    {
+      "Text": "[s] \"หืม?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "คะ... คือว่า... ครั้งนี้..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ขะ... ข้าน้อยต้องขอโทษด้วยจริงๆ นะ..."
+    },
+    {
+      "Text": "[s] \"มิจิรุขอโทษเหรอเนี่ย...\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ไม่เห็นต้องทำหน้าตกใจขนาดนั้นเลยนี่?!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ข้าน้อยเองก็รู้จักละอายใจเหมือนกันนะ?!"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ท่านอาจารย์ต้องมาวุ่นวายกับเรื่องแบบนี้ก็เพราะข้าน้อย และยังต้องมาเจอเรื่องยุ่งยากอีก..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ข้าน้อยมัน... ไม่ได้เรื่องเลยใช่ไหมล่ะ...?"
+    },
+    {
+      "Text": "[s] \"ไม่เป็นไรหรอก ก็ครูเป็นครูนี่นา ต้องรับฟังนักเรียนอยู่แล้วสิ\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ว้าววว... สมกับที่เป็นผู้ใหญ่เลยนะ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "กะ... ก็ไม่มีอะไรหรอก วันนั้นพอกลับไป... ข้าน้อยก็ได้คุยกับอิซุนะแล้วก็สึคุโยะ"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เกี่ยวกับเรื่องการเป็นชมรมทางการอะไรนั่น..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "แล้วก็ตัดสินใจแล้ว ไม่รู้ต้องบอกว่า... ยังไม่มีความกล้ามากพอ..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "หรือว่ายังต้องการเวลาอีกดี... อืม เรื่องที่จะเป็นชมรมทางการน่ะ เอาไว้ก่อนก็ได้"
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ทั้งสองคนนั้นก็บอกว่า..."
+    },
+    {
+      "Text": "[ns] \"บอกว่าไม่ติดอะไรใช่มั้ยล่ะ?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "อืม..."
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ช่างเป็น... เหล่ารุ่นน้องที่ดีเกินไปสำหรับข้าน้อยจริงๆ"
+    },
+    {
+      "Text": "[ns] \"ดีละ! ถ้างั้นเราไปซื้อตุ๊กตานินเพโร่ให้ทุกคนกันดีมั้ย?\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "เอ๊ะ?"
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "คะ?"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "จริงเหรอคะ? นายท่าน?!"
+    },
+    {
+      "Text": "[s] \"อืม ก็ทุกคนตั้งใจกันขนาดนั้นก็ต้องให้รางวัลสิ!\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ว้าววว! ท่านอาจารย์ยอดเยี่ยมที่สุดเลย!"
+    },
+    {
+      "Name": "อิซุนะ",
+      "Text": "ของขวัญของนายท่าน...! อิซุนะ! จะรักษาไว้ตลอดชีวิตเลยค่ะ!"
+    },
+    {
+      "Text": "[s] \"ตื่นเต้นเกินไปรึเปล่าน่ะ...?\""
+    },
+    {
+      "Name": "สึคุโยะ",
+      "Text": "ขะ... ของขวัญที่ได้รับ... ฉะ... ฉันจะดูแลเอาใจใส่ ละ... และอาบน้ำให้สะอาดทุกวันเลยค่ะ... แล้วก็..."
+    },
+    {
+      "Text": "[s] \"ปะ...เปล่า มันเป็นสินค้ามีค่าน่ะ...\""
+    },
+    {
+      "Name": "มิจิรุ",
+      "Text": "ถ้าอย่างนั้นข้าน้อยก็! จะพาไปเดินเล่นทุกวันโดยคิดว่าเจ้าสิ่งนี้คือท่านอาจารย์!"
+    },
+    {
+      "Text": "[s] \"ก็บอกว่าไม่ใช่แบบนั้นไง...!\""
+    },
+    {
+      "Text": "(และแล้วเหตุการณ์ก็จบลง…)"
+    },
+    {
+      "Text": "(หลังจากมีอีกเรื่องหนึ่งเกิดขึ้น...)"
+    },
+    {
+      "Text": "(ที่แห่งหนึ่งในสวนสนุกภาพยนตร์ที่ลมพัดเย็นยะเยือก)"
+    },
+    {
+      "Name": "???",
+      "Text": "หืมมม~ ฮึ่มฮึ่ม~"
+    },
+    {
+      "Name": "???",
+      "Text": "อะฮะฮ่ะ เห็นไหมล่ะ ครั้งนี้ก็สนุกอย่างที่คิดเลย"
+    },
+    {
+      "Name": "???",
+      "Text": "ก็นะ ฉันก็คิดแบบนั้นเหมือนกัน ฮุฮุ แล้วผู้ที่โดนกระทำเป็นยังไงบ้างคะ?"
+    },
+    {
+      "Name": "???",
+      "Text": "คุณครู...?"
+    },
+    {
+      "Text": "[s] \"นิยะ\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "งานแลกเปลี่ยนครั้งนี้สำเร็จลุล่วงได้เพราะความร่วมมือจากชาเล่ต์เลยนะคะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ขอบคุณที่มาช่วยนะคะ~ คุณครู~ อะฮะฮ่ะ"
+    },
+    {
+      "Text": "[s] \"ก็ไม่ใช่เรื่องใหญ่อะไรหรอก\""
+    },
+    {
+      "Text": "[ns] \"เรื่องมันไม่ได้มีแค่นั้นไม่ใช่เหรอ?\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "แหมๆ~ พูดแบบนั้นเพื่อรักษาบรรยากาศสินะคะ~ น่าเสียดายจัง~"
+    },
+    {
+      "Text": "[s] \"เรื่องทั้งหมดนี่ ฝีมือนิยะเองสินะ?\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "เอ๋~ ถามตรงๆ โดยที่ไม่อ้อมค้อม ไม่เลียบเคียง ไม่ดูท่าทีของอีกฝ่ายแบบนี้เลยเหรอคะเนี่ย?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "มีหลักฐานรึเปล่าล่ะคะ...?"
+    },
+    {
+      "Text": "[s] \"พวกปีศาจผ่านเจ้าหน้าที่มาลักพาตัวอิบูกิไปได้ง่ายๆ เหมือนรู้อยู่ก่อนแล้ว\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อะฮ่า~ ถ้าชมรมหยินหยางเตรียมพร้อมรับมือไว้แน่นหนากว่านี้แต่แรก เรื่องก็คงไม่เกิดขึ้นสินะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "...หรือก็คือจะบอกว่าความวุ่นวายทั้งหมดเกิดขึ้นเพราะ 'ชมรมหยินหยาง' ตั้งแต่ต้นอย่างนั้นเหรอคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "อะฮะฮ่ะ ฮุฮุฮุ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ค่ะ ถูกต้องแล้ว..."
+    },
+    {
+      "Text": "[s] \"ไม่ได้คิดจะปกปิดด้วยสินะ\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ถ้าจะให้ถูก ต้องบอกว่าเป็นเรื่องที่ไม่ต้องปกปิดอะไรต่างหากค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฉันก็แค่อยากจะเห็นพลังของคุณครูจากชาเล่ต์ที่ใครๆ ก็พูดถึงกันด้วยตาตัวเองเท่านั้นค่ะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฮุฮุ... ชมรมวิจัยศาสตร์นินจาอย่างนั้นสินะคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ดูท่าทางจะเป็นเด็กที่ร่าเริงกันก็จริง"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "แต่ก็เป็นแค่พวกเด็กวุ่นวายที่จัดการชมรมอย่างเหมาะสมไม่ได้"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "พาเด็กพวกนั้นไปช่วยเหลือองค์หญิงได้อย่างสง่างาม เรียกได้ว่าทำสิ่งที่เป็นไปไม่ได้ ให้เป็นไปได้\nเลยนะคะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "พอได้เห็นว่าสามารถผ่านด่านทดสอบไปได้อย่างง่ายดาย ก็คิดว่า..."
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "คุณครูจากชาเล่ต์เนี่ย ยอดเยี่ยมเหมือนที่ได้ยินมาเลยนะคะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ฉันน่ะ ประทับใจมากเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"อ่า อย่างนั้นเหรอ...\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ตายจริง พอรู้ว่าฉันเป็นต้นเหตุของความวุ่นวายทั้งหมดก็เลยไม่พอใจเหรอคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "หรือว่ารู้สึกเกลียดชังกันเลยรึเปล่าคะ?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ปั่นหัวคนอื่นเล่นตามใจชอบ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "แล้วก็ยังมานั่งหัวเราะชอบอกชอบใจ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "รู้สึกคลื่นไส้ขึ้นมาเลยรึเปล่าคะ~? อะฮะฮ่ะ"
+    },
+    {
+      "Text": "[s] \"นิยะ\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ว่ายังไงคะ~? คุณครู?"
+    },
+    {
+      "Text": "[s] \"ได้เวลาสอนบทเรียนแล้วละ!\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "…คะ?"
+    },
+    {
+      "Text": "[s] \"มานั่งตรงนี้สิ ทีนี้ครูจะดุนิยะจริงๆ แล้วนะ\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "เดี๋ยวสิคะ... คุณครู?"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "ถึงจะฟังดูแปลกๆ ก็เถอะ แต่ถ้าเป็นฉากแบบนี้ต้องต่อบทแบบแนวหนังตะวันตกที่เข้ากันมากกว่านี้สิคะ"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "จนถึงเมื่อกี้น่ะ ไม่รู้สึกถึงบรรยากาศแบบในเรื่อง <ม่านสีดำ> ที่พวยพุ่งออกมาเหรอคะ? การที่จะมาดุฉันแบบนี้มันค่อนข้างจะผิดบทไปหน่อยนะ…"
+    },
+    {
+      "Text": "[s] \"ครูอาจจะพูดนานสักหน่อย แต่ก็เพราะมีเรื่องที่ต้องบอกอยู่เยอะเลยน่ะ\""
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "คะ... คือว่า"
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "นี่ คุณครู ทำไมต้องทำหน้าน่ากลัวด้วยล่ะ… อ๊ายยย?!"
+    },
+    {
+      "Text": "(แม้ว่าความวุ่นวายจะจบลงแล้ว แต่น่าจะยังต้องใช้เวลาอีกสักพัก)"
+    },
+    {
+      "Text": "(กว่าเรื่องราวหลังจากนั้นจะเรียบร้อย)"
+    },
+    {
+      "Text": "หัวใจแห่งความอับโชค"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "尾聲;慶典之後"
+    },
+    {
+      "Text": "（就這樣，一連串引發了大騷動的事件，對外總算是成功以公演的一環來處理……）"
+    },
+    {
+      "Name": "真琴",
+      "Text": "嘻嘻嘻嘻嘻！唔呣，實屬愉快啊！\n怎麼樣啊伊吹，有開心嗎？"
+    },
+    {
+      "Name": "伊吹",
+      "Text": "嗯！超開心的！"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "……我倒是覺得很累。"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "而且還沒能找到被妖怪劇團稱為委託人的「笑咪咪教授」的蛛絲馬跡……"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "真受不了，事情為什麼每次都會這樣……"
+    },
+    {
+      "Name": "伊呂波",
+      "Text": "全都是麻煩的事……究竟是為什麼呢。"
+    },
+    {
+      "Name": "真琴",
+      "Text": "咦，咦……？\n伊呂波你，雖然不知道原因但好像很生氣……？"
+    },
+    {
+      "Name": "真琴",
+      "Text": "話說回來，伊吹，你手裡拿的那個是什麼？\n好像是沒看過的玩具。"
+    },
+    {
+      "Name": "伊吹",
+      "Text": "啊，這個嗎？是忍者姐姐們送給我的，是忍者唷！！"
+    },
+    {
+      "Name": "真琴",
+      "Text": "……嗯？那也是忍者嗎？\n話說「忍者」是只會在漫畫或電視劇裡出現的那個？"
+    },
+    {
+      "Name": "伊吹",
+      "Text": "才不是呢！忍者真的存在唷，而且超帥氣的！伊吹之後再告訴你！"
+    },
+    {
+      "Text": "（說到身為主角的忍術研究部……）"
+    },
+    {
+      "Text": "[ns]「啊，新聞正好演到。」"
+    },
+    {
+      "Name": "播報員",
+      "Text": "那麼接下來為您播報下一則新聞。"
+    },
+    {
+      "Name": "播報員",
+      "Text": "是關於本次百鬼夜行與格黑娜學園之間的交流會，\n以及在現場十分活躍的忍術研究部的消息。"
+    },
+    {
+      "Name": "播報員",
+      "Text": "我們向各地群眾詢問了與突然出現的他們有關的消息。"
+    },
+    {
+      "Name": "百鬼夜行的學生A",
+      "Text": "聽說他們連那個「睡美人」的試煉也輕鬆完成了是吧？"
+    },
+    {
+      "Name": "百鬼夜行的學生B",
+      "Text": "我還聽說在那之後連「讀心術士」也被輕而易舉地突破了。"
+    },
+    {
+      "Name": "格黑娜學生A",
+      "Text": "啊，這麼說來，他們好像還跟萬魔殿的傢伙們來了場盛大的決鬥！"
+    },
+    {
+      "Name": "格黑娜學生B",
+      "Text": "居然用戰車蹂躪電影村，真是群驚人的法外狂徒啊。"
+    },
+    {
+      "Name": "播報員",
+      "Text": "儘管「忍術研究部」的種種傳言已經傳得滿天飛……"
+    },
+    {
+      "Name": "播報員",
+      "Text": "然而實際上這個社團，在現實中似乎並不存在！"
+    },
+    {
+      "Name": "播報員",
+      "Text": "他們的真面目究竟是什麼呢？\n是幽靈？還是陰陽部的密探呢？"
+    },
+    {
+      "Name": "播報員",
+      "Text": "我們將會找出事情的真──"
+    },
+    {
+      "Text": "[ns]「媒體真恐怖啊……」"
+    },
+    {
+      "Text": "（就在感嘆以訛傳訛的恐怖時……）"
+    },
+    {
+      "Name": "三千留",
+      "Text": "老師大人，請讓我們躲一下！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "請，請幫幫我們，老師……！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "碰到危機了！"
+    },
+    {
+      "Text": "[s]「……嗯？怎麼了嗎？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "佳穗他們陰陽部正在追趕我們！"
+    },
+    {
+      "Name": "月夜",
+      "Text": "那個，是因為，之前的那個事件……！"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "你們的意思是「因為讓這次公演順利成功了，所以要承認你們是正式的社團」……？"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "當然，各位在事件中的活躍相當重要。\n我打從心底感謝各位，不過同時我也必須告知……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "這是在這次公演過程中造成的損害賠償的求償書。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "電影村的大半設施都處於半毀狀態……損失金額約有8位數。"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "要仔細評斷各位的功績，就勢必得先從這件事開始清算才行……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "我說，至少被戰車橫掃的部分要跟萬魔殿五五分才對吧！？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "唉……事情真是從頭到尾都亂七八糟的……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "就結果來看也……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "老師大人。"
+    },
+    {
+      "Text": "[s]「嗯？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "那個……就是……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "抱，抱歉給你添麻煩了……"
+    },
+    {
+      "Text": "[s]「三千留居然會道歉……」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "那，那麼驚訝不會有點失禮嗎！？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "就，就算是我，覺得抱歉的時候也會道歉的啊！？"
+    },
+    {
+      "Name": "三千留",
+      "Text": "這次的事件幾乎都是我造成的，還給老師添了許多麻煩……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "還讓老師……看見了很多丟臉的模樣……"
+    },
+    {
+      "Text": "[s]「沒關係的，這些就是老師該做的工作。」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "唔哇，是大人……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "啊，話說回來，那天回去之後……我和伊樹菜還有月夜討論過了。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "要成為正式的社團，該說是還不夠有勇氣……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "還是該說和周圍的評論相比，更多是自己心情上的問題呢……"
+    },
+    {
+      "Name": "三千留",
+      "Text": "總之，感覺還需要一些時間……所以成為正式社團的事，決定先暫緩了。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "於是他們兩個人都說……"
+    },
+    {
+      "Text": "[ns]「『不用在意』？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "……嗯。"
+    },
+    {
+      "Name": "三千留",
+      "Text": "他們真的……是群好到我配不上的後輩。"
+    },
+    {
+      "Text": "[ns]「好！那麼大家要不要一起去買『忍佩洛』的周邊呀？」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "嗯？"
+    },
+    {
+      "Name": "月夜",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "真，真的嗎主公！？"
+    },
+    {
+      "Text": "[s]「嗯。因為大家都很努力，就當作是獎勵吧。」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "好耶！果然老師大人最棒了！"
+    },
+    {
+      "Name": "伊樹菜",
+      "Text": "主公送的禮物……！伊樹菜會當成傳家之寶！當成一輩子的寶物的！"
+    },
+    {
+      "Text": "[s]「太，太誇張了……」"
+    },
+    {
+      "Name": "月夜",
+      "Text": "我也會，每天跟它說早安，帶它去洗澡，幫它吹乾……"
+    },
+    {
+      "Text": "[s]「那個，完全是被飼養的狀態……」"
+    },
+    {
+      "Name": "三千留",
+      "Text": "那，那我也會把它當成老師，每天和它一起散步！"
+    },
+    {
+      "Text": "[s]「這種說法好像又有點奇怪……！」"
+    },
+    {
+      "Text": "（於是事情告一段落……）"
+    },
+    {
+      "Text": "（……之前，最後還有件事沒做）"
+    },
+    {
+      "Text": "（在電影村的某個涼風宜人的角落……）"
+    },
+    {
+      "Name": "???",
+      "Text": "哼～哼～哼～♪"
+    },
+    {
+      "Name": "???",
+      "Text": "喵哈哈，這次也玩得挺開心的呢。"
+    },
+    {
+      "Name": "???",
+      "Text": "雖然我個人是這麼認為……"
+    },
+    {
+      "Name": "???",
+      "Text": "……老師又覺得如何呢？"
+    },
+    {
+      "Text": "[s]「仁耶。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "這次多虧有夏萊的合作，讓交流會順利落幕了呢。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "非常感謝您的幫忙唷～♪"
+    },
+    {
+      "Text": "[s]「不用客氣。」"
+    },
+    {
+      "Text": "[ns]「話說回來，我可以說正事了嗎？」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "哎呀哎呀～我本來還想緩和一下氣氛的說……話題進展得這麼快，真是遺憾呢。"
+    },
+    {
+      "Text": "[s]「這全都是仁耶的計畫，我沒說錯吧？」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "居然是開門見山的直球啊……沒有互相試探的必要是嗎？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……順帶一問，您的證據是？"
+    },
+    {
+      "Text": "[s]「妖怪劇團那彷彿看穿所有警衛的位置綁架伊吹的行動方式。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "原來如此～如果陰陽部有認真警備，這種事根本就不會發生……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "反過來說，要不是因為「陰陽部」的介入，情況就不會變成那樣……是嗎？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "喵哈哈……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "完全正確～♪"
+    },
+    {
+      "Text": "[s]「你沒打算隱瞞啊？」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "畢竟也沒有隱瞞的必要。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "我只是想親眼看看「夏萊」的力量而已。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……是忍術研究部來著？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "根據我的從旁觀察，他們雖然是群有趣的孩子……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "卻也同樣是連正式的社團都無法建立，手忙腳亂掙扎著的孩子們……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "居然真的能帶著那樣的他們救出公主……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "我認為這是相當難以達成的任務。您所展現出的能力……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "和傳聞中一樣……可以這麼說吧。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "不愧是夏萊的老師，我十分佩服。"
+    },
+    {
+      "Text": "[s]「……這樣啊。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "莫非……影響到您的心情了嗎？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "找出了造成這一切的犯人，因而萌生了厭惡的感覺嗎？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "又或者，是將別人耍得團團轉……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "這種時候居然還覺得有趣而哈哈大笑……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "類似這樣的感想？"
+    },
+    {
+      "Text": "[s]「仁耶。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "什麼什麼～？"
+    },
+    {
+      "Text": "[s]「我要說教了。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……咦？"
+    },
+    {
+      "Text": "[s]「在那邊坐下來吧，我要好好訓斥仁耶。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "那個……老師？"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "自己說出來有點不好意思，但是那個，是叫做樣式美嗎……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "就是，雖然我現在散發出濃濃的「The．黑幕」的感覺，\n但在這個時機「說教」，以劇情發展來說是否有點……"
+    },
+    {
+      "Text": "[s]「可能會有點久，忍耐一下吧。」"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "那個……我……"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "等一下，老師！？您的表情好恐怖……呀啊啊！？"
+    },
+    {
+      "Text": "（於是騷動告一段落）"
+    },
+    {
+      "Text": "（然而似乎留下了一些問題）"
+    },
+    {
+      "Text": "不忍之心"
+    }
+  ]
+}

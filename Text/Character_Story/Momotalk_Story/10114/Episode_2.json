@@ -1,0 +1,1847 @@
+{
+  "TitleJP": "ウェイトレスの冒険",
+  "TitleKR": "웨이트리스의 모험",
+  "TitleEN": "Adventures of a Waitress",
+  "TitleTH": "การผจญภัยของพนักงานเสิร์ฟ",
+  "TitleTW": "服務生的冒險",
+  "DescJP": "先生の後押しもあって、「今月のウェイトレス選抜大会」に出場することになったジュリ。大会の種目は、大量のグラスを持ち上げる筋力テスト、ピークタイムの忙しさに対応するための記憶力と俊敏性を試す旗揚げゲーム、そして、ハードなお掃除だった。ジュリは、ここでも日頃からハードな現場で過ごしている経験を活かして、大活躍。見事優勝し、トロフィーと賞品を受け取るのだった。",
+  "DescKR": "카페 매니저의 제안으로, <이 달의 웨이트리스 선발 대회>에 출전한 주리. 대회 종목은 완전히 예상 밖의 것이었지만, 주리에게는 오히려 좋은 방향으로 작용하는 것이었다.",
+  "DescEN": "At her manager's suggestion, Juri enters the Waitress of the Month competition. The competition's events were strange and seemingly random, but they ended up working in Juri's favor.",
+  "DescTH": "จูริเข้าร่วม <การแข่งขันพนักงานเสิร์ฟดีเด่นประจำเดือน> ตามการแนะนำ\nของผู้จัดการคาเฟ่ เธอต้องแข่งขันในเรื่องที่คาดไม่ถึงอย่างสิ้นเชิงแต่กลับ\nทำออกมาได้ดี",
+  "DescTW": "在咖啡廳經理的提議下，茱莉參加了<本月服務生選拔大會>。比賽項目完全出乎意料，但事情的走向對茱莉來說反而成了優勢。",
+  "DialogJP": [
+    {
+      "Text": "ウェイトレスの冒険"
+    },
+    {
+      "Text": "商店街大会場"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "お待たせしました！\nこれより、今月のウェイトレス選抜大会を開催いたします！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "本日は、お集まりいただき誠にありがとうございます。\nこの大会は――"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ど、どどどど、どうしましょう、先生！"
+    },
+    {
+      "Text": "[s] \"落ち着いて、まず深呼吸を……。\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "でも……！\nこんな大勢の前で立つのは初めてで……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "それに、まだ種目すら分かっていませんし……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "もし料理コンテストだったら、私の腕では……！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "では皆さん！\nカフェの接客において、一番大事なものは何だと思いますか！？"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "それは、すべての物事において根本となるもの……。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "――即ち、筋力です！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "き、筋力……？"
+    },
+    {
+      "Text": "[ns1] \"……あれ？\""
+    },
+    {
+      "Text": "[ns2] \"……予想外の展開に。\""
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "ええ、カフェは力仕事の代表例です。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "水がいっぱい入ったピッチャーやグラスに、いくつものお皿を運んだり――！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "たまにいらっしゃるモンスターのようなクレーマーを武力で制圧する必要もあります！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "いくら何でも、お客様に暴力を振るうのはダメですよ！？"
+    },
+    {
+      "Text": "[s] \"そうだよね！？\""
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "とにかく、カフェの運営で最も大事なのは筋力！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "よって、今月のウェイトレス選抜大会は、「筋力テスト」から始めます！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "試合の内容は簡単！\nこちらのコーヒー入り大型グラスを……。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "片手で6杯ずつ、計12杯を持ち上げて……。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "指定したテーブルまで運んでください！"
+    },
+    {
+      "Text": "[ns] \"参加する大会、間違えちゃったかな！？\""
+    },
+    {
+      "Name": "ウェイトレスA",
+      "Text": "あ、あんな大きいグラスを12個も……！？"
+    },
+    {
+      "Name": "ウェイトレスB",
+      "Text": "絶対に無理よ。\n6個ですら怪しいし……ていうか、なんで筋力テスト？"
+    },
+    {
+      "Name": "ウェイトレスA",
+      "Text": "有名な大会って聞いたのに、どうなってるの……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "あれでしたら、いけるような気がします。"
+    },
+    {
+      "Text": "[s] \"え、本当？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい、たしかに重そうではありますが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "給食部で箱買いしているジャガイモより、軽いはずですから！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "では、行ってきますね、先生！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "参加者の皆さん、中々苦労してるようですね！\n今月のウェイトレスに相応しい人物はいないのでしょうか！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "おーっと！[ruby=うしまき]牛牧[/ruby]ジュリ選手！\nグラスを軽々と持ち上げました！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "これを、あちらのテーブルに……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "置き方にも工夫して……！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "こう……！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "なんと素晴らしい！\n単にグラスを運ぶだけでなく、見映えの良い配膳を意識！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "これぞ、まさにカフェの運営に求められる能力！\n細かな部分まで丁寧に行き届いたサービス精神！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "では、次の種目に移りましょう！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "飲食業に従事する者なら、必ず遭遇するであろう「ピークタイム」。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "注文が殺到するなか、お客様に提供を急かされる経験、一度はあるでしょう……。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "そんな時に求められるのは、迅速で正確な判断能力！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "よって、第二種目は「旗揚げゲーム」で記憶力と敏捷性をテストしてもらいます！"
+    },
+    {
+      "Text": "[ns3] \"まったく関係がないとは言い切れないけど……。\""
+    },
+    {
+      "Text": "[ns4] \"本当にこれで大丈夫なの……？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "旗揚げゲーム……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "先生、これも頑張ってみます。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そこまで自信があるわけではありませんが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ゲヘナの食堂で1日4000人前の給食を作ってますし、何とかなると思います！"
+    },
+    {
+      "Name": "ゲームマシン",
+      "Text": "赤あげて。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はい！"
+    },
+    {
+      "Name": "ゲームマシン",
+      "Text": "白あげない。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はいっ！"
+    },
+    {
+      "Name": "ゲームマシン",
+      "Text": "赤さげないで、白あげて。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "両方あげます！"
+    },
+    {
+      "Name": "ゲームマシン",
+      "Text": "赤さげないで白さげて、白あげないで赤さげて、白あげて、白さげて、白あげないで赤あげて。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "えっと……赤をあげて白さげます！"
+    },
+    {
+      "Name": "ウェイトレスA",
+      "Text": "す、すごい……1個もミスがないだなんて……。"
+    },
+    {
+      "Name": "ウェイトレスB",
+      "Text": "いったい、普段どんな地獄を見ているのかしら……。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "素晴らしい！牛牧ジュリ選手、満点です！！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "いよいよ最後の種目は「お掃除」です！\n飲食店において、衛生環境は命ですからね！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "今回のために、特別なミレニアム製の掃除ロボットをご用意しました！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ミレニアム製の掃除ロボットですか、性能はどうなっているのでしょう。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ちょっと、気になってきました。"
+    },
+    {
+      "Text": "[ns] （何も起きないと良いけど……）"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "それでは参加者の皆さん、倉庫まで移動してください！"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "――掃除を開始します。"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "掃いて吸い込んだら、焼却して破壊します。\n除去し抹殺し、最後に消毒します。"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "汚れは一つたりとも許しません。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "な、何だか恐ろしいセリフが聞こえたような……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "で、でもこの程度の掃除でしたら、給食部でも毎日やってますから。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "――始めます！"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "理解不能。"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "どうして本機より素早く動けるのか、分かりません。"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "存在意義を喪失。これより、自爆シーケンスへ移行します。\n10、9、8……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ダメです！"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "どうして止めるのですか？\nこれが人間の優しさ、というものですか？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "自爆したら倉庫がまた汚れてしまいます！"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "……。"
+    },
+    {
+      "Name": "掃除ロボット",
+      "Text": "理解しました。\n自爆シーケンスを停止します。"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "大変お待たせしました！\nいよいよ、今月のウェイトレス選抜大会の優勝者を発表いたします！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "今月の最優秀ウェイトレスは……！"
+    },
+    {
+      "Name": "大会進行委員",
+      "Text": "――牛牧ジュリ選手です！！！"
+    },
+    {
+      "Text": "[ns] \"おめでとう、ジュリ！やったね！\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "やりました、先生！本当に優勝できるなんて……！\nすべて先生のおかげです！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ただ、今さらですが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ウェイトレスの仕事とは関係ない種目もあった気がしますが……。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "……本当に、これで良かったのでしょうか？"
+    },
+    {
+      "Text": "（その後、優勝トロフィーと賞品を受け取り、一緒に帰った）"
+    },
+    {
+      "Text": "（有名な大会らしいが……）"
+    },
+    {
+      "Text": "（……最後まで、よく分からなかった）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "웨이트리스의 모험"
+    },
+    {
+      "Text": "상점가 대회장"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "오늘도 <이 달의 웨이트리스 선발 대회>에 성원을 보내 주신 참가자분들, 그리고 관객 여러분께 감사드립니다!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "저희 <이 달의 웨이트리스 선발 대회>는 지금보다 더욱 유서 깊은 대회가 되기를 목표로 정진하고 있으며, 그렇게 하기 위해서–"
+    },
+    {
+      "Name": "주리",
+      "Text": "어떡하죠, 선생님?!"
+    },
+    {
+      "Text": "[s] \"진정해, 주리. 진정해. 일단 심호흡을 하자.\""
+    },
+    {
+      "Name": "주리",
+      "Text": "그렇지만요…… 그렇지만요! 이렇게 많은 분들이 모인 무대에 서는 것도 처음이고……."
+    },
+    {
+      "Name": "주리",
+      "Text": "선생님께서는 할 수 있다고 말씀해 주셨지만, 종목이 무엇인지도 모르겠고……."
+    },
+    {
+      "Name": "주리",
+      "Text": "만에 하나 요리 실력을 내보이라고 하면, 아직 요리에 미숙한 저로서는……!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "여러분! 카페 접객에 있어 중요한 것은 무엇이라고 생각하십니까!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그렇죠! 그것은 언제나 모두에게 있어서 유효한 것, 모든 일의 근본이 되는 것……."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "바로, 근력입니다!"
+    },
+    {
+      "Name": "주리",
+      "Text": "네? 근력……?"
+    },
+    {
+      "Text": "[ns1] \"……어?\""
+    },
+    {
+      "Text": "[ns2] \"……이건 정말 생각지도 못한 참신한 방법이군…….\""
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "카페 일은 힘들죠. 정말 힘든 일입니다. "
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "물은 생각보다 무거운 물질이고, 각종 접시와 음료 잔, 식기와 플레이트를 한 번에 날라야 하는 것은 물론!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "가끔씩 게임 속의 몬스터처럼 나타나는, 무례한 손님을 소란 없이 제압하는 데에도!"
+    },
+    {
+      "Name": "주리",
+      "Text": "아무리 그래도 손님께 완력을 사용하면 안 되지 않을까요?!"
+    },
+    {
+      "Text": "[s] \"생각해 보니까 진짜 그러네?!\""
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "아무튼! 카페 운영의 전반적인 측면에서, 근력이야말로 우리에게 요구되는 가장 중요한 덕목이라고 볼 수 있을 것입니다"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그렇기에 <이 달의 웨이트리스 선발 대회> 첫 종목은! 바로 근력 서빙 테스트입니다!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "계속해서 안내해 드리겠습니다! 저희가 준비한 것은 커피를 가득 채운 대형 유리잔!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "이 유리잔을 한 손에 6개씩, 양손 모두 12개를 들어올려……"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그것을 지정된 테이블까지 서빙해 주시면 되겠습니다!"
+    },
+    {
+      "Text": "[ns] \"이거 진짜 맞아!?\""
+    },
+    {
+      "Name": "웨이트리스 A",
+      "Text": "마, 말도 안 돼. 저런 잔을 양손으로 12개를 들어올리라니……."
+    },
+    {
+      "Name": "웨이트리스 B",
+      "Text": "12개는커녕, 6개도 무리야. 애초에 이런 대회에서 근력 테스트라니……."
+    },
+    {
+      "Name": "웨이트리스 A",
+      "Text": "이 대회, 나름대로 유명한 대회라고 들었는데……."
+    },
+    {
+      "Name": "주리",
+      "Text": "……."
+    },
+    {
+      "Name": "주리",
+      "Text": "선생님. 저런 종목이라면 저도 할 수 있을 것 같아요."
+    },
+    {
+      "Text": "[s] \"어? 정말?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "네. 확실히 한눈에 보기에도 가벼워 보이지는 않지만……."
+    },
+    {
+      "Name": "주리",
+      "Text": "뭐가 됐든, 급양부 감자 포대보다는 나을 테니까요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그러면, 선생님. 다녀올게요!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "참가자들, 좀처럼 잔을 들어 올리지 못하고 있는 모습입니다! 이 달의 웨이트리스로 선발될 자격을 갖춘 분은 계시지 않는 것인가!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그렇게 말씀드리는 순간! 우시마키 주리 선수! 가볍게 커피잔들을 번쩍 들어 올립니다!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그러니까 이걸 저쪽 테이블에……."
+    },
+    {
+      "Name": "주리",
+      "Text": "아, 그래요! 이왕 하는 김에 배치 방법에도 신경을 써 볼게요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "이걸 이렇게, 저걸 저렇게……."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "대단합니다, 주리 선수! 잔을 단순히 나르는 것으로 그치지 않고, 어떻게 하면 손님에게 보기 좋게 배치할 수 있는지도 고려하고 있습니다!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "이것이야말로 카페 운영에서 요구되는, '겉으로 잘 드러나지 않지만 사실은 정말 중요한' 서비스 정신이 아닐까 싶습니다!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그러면 이제 다음 종목으로 넘어가도록 할까요?"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "카페 운영을 하다 보면, 흔히 말하는 '피크 타임'이라는 시기와 마주하기 마련이죠."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "주문은 쉴 새 없이 밀려들고, 손님들의 보이지 않는 재촉에 등 뒤가 따갑고, 처리해야 할 메뉴는 1초에 십수 개씩 쌓이고……."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그렇기에 피크 타임에 가장 요구되는 능력은, 빠르고 정확한 판단력이라고 할 수 있겠습니다."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "따라서 본 대회에서는! '청기백기' 게임 고득점자를 선별하여! 얼마나 신속하고 확실한 판단을 내릴 수 있는지를 알아보도록 하겠습니다!"
+    },
+    {
+      "Text": "[ns3] \"……완전히 근거가 없지는 않은 종목 선정이기는 한데…….\""
+    },
+    {
+      "Text": "[ns4] \"이거 정말 이래도 되나……?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "청기백기 게임……."
+    },
+    {
+      "Name": "주리",
+      "Text": "선생님. 저 이것도 해 볼게요."
+    },
+    {
+      "Name": "주리",
+      "Text": "아, 아뇨. 그렇게까지 자신이 있는 건 아니에요. 그렇지만……."
+    },
+    {
+      "Name": "주리",
+      "Text": "게헨나 급식실에서 하루에 소화해야 하는 물류의 양을 생각해 보면, 어떻게든 될 것 같아요!"
+    },
+    {
+      "Name": "게임 기계",
+      "Text": "청기 올려."
+    },
+    {
+      "Name": "주리",
+      "Text": "청기!"
+    },
+    {
+      "Name": "게임 기계",
+      "Text": "백기 내리지 마."
+    },
+    {
+      "Name": "주리",
+      "Text": "백기!"
+    },
+    {
+      "Name": "게임 기계",
+      "Text": "청기 내리지 말고 백기 올려."
+    },
+    {
+      "Name": "주리",
+      "Text": "둘 다 올렸어요!"
+    },
+    {
+      "Name": "게임 기계",
+      "Text": "청기 올리는 척했다가 백기 올리지 말고 청기 내린 것처럼 보이지만 백기 내리지 말고 청기 올린 다음 백기 내리고 거기에서 끝내는 게 아니라 청기 내리지 말고 백기 올리지 마."
+    },
+    {
+      "Name": "주리",
+      "Text": "어……. 네! 청기 올리고 백기 내렸어요!"
+    },
+    {
+      "Name": "웨이트리스 A",
+      "Text": "어떻게 한 번도 안 틀릴 수가 있지?!"
+    },
+    {
+      "Name": "웨이트리스 B",
+      "Text": "평소에 어떤 지옥을 보고 있길래……."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "박수를 부탁드립니다, 여러분! 우시마키 주리 선수, 만점입니다! 퍼펙트입니다!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "다음 종목은 청소입니다! 카페와 청소는 떼려야 뗄 수 없는 것이니까요!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "이 종목을 위해서 저희는 특별히…… 밀레니엄제 청소 로봇을 대여하기까지 했습니다!"
+    },
+    {
+      "Name": "주리",
+      "Text": "밀레니엄제 청소 로봇이로군요……. 성능이 어떨까요? "
+    },
+    {
+      "Name": "주리",
+      "Text": "조금이지만, 기대되네요."
+    },
+    {
+      "Text": "[ns] (밀레니엄제…… 뭐, 평범한 밀레니엄제라면. 응.)"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "그러면 참가자분들은, 창고로 이동해 주시기 바랍니다!"
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "청소합니다. 청소합니다."
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "쓸고 빨아들이고 소각하고 파괴하고 제거하고 말살한 끝에 닦아내고 소독합니다."
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "단 하나의 얼룩이나 오점도 남겨놓지 않습니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "뭐, 뭔가 무서운 단어들이 들린 것 같지만……."
+    },
+    {
+      "Name": "주리",
+      "Text": "이 정도 규모의 청소라면, 어차피 급식실에서 매일같이 하는 일이니까요."
+    },
+    {
+      "Name": "주리",
+      "Text": "시작하겠습니다!"
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "이해 불능. 이해 불능."
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "어째서 본 기기보다 빠를 수 있는 것인지 납득할 수 없습니다."
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "본 기기의 성능 부족을 통감. 존재 이유를 상실합니다. 자폭 시퀀스로 이행합니다. 10, 9, 8……."
+    },
+    {
+      "Name": "주리",
+      "Text": "안 돼요!"
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "본 기기의 성능 부족에도, 본 기기가 존재할 이유가 있다고 보시는 것입니까? 그것이 인간의 친절함이라는 것입니까?"
+    },
+    {
+      "Name": "주리",
+      "Text": "자폭하면 창고가 다시 더러워져요!"
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "……."
+    },
+    {
+      "Name": "청소 로봇",
+      "Text": "납득 완료. 자폭 시퀀스로의 이행을 중지합니다. 장비를 정지합니다."
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "오래 기다리셨습니다, 여러분! 이제 드디어 <이 달의 웨이트리스>를 발표할 시간이 되었군요!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "오늘의 모든 영광을 거머쥘 참가자는 누구인가…… 가장 우수한 웨이트리스는 누구인가!"
+    },
+    {
+      "Name": "대회 진행 위원",
+      "Text": "발표하겠습니다! 우승자는…… 우시마키 주리 선수입니다!!!"
+    },
+    {
+      "Text": "[ns] \"축하해, 주리! 정말로 해냈어!\""
+    },
+    {
+      "Name": "주리",
+      "Text": "네, 선생님! 정말 됐어요! 제가 해낼 수 있을 줄은…… 전부 선생님 덕분이에요!"
+    },
+    {
+      "Name": "주리",
+      "Text": "저, 선생님? 그런데 말이에요……. 지금 갑자기 든 생각인데요……."
+    },
+    {
+      "Name": "주리",
+      "Text": "종목이라든가 흐름이라든가 그런 걸 생각해 보면……."
+    },
+    {
+      "Name": "주리",
+      "Text": "……이래도, 되는 거였을까요……?"
+    },
+    {
+      "Text": "(어딘가 영문을 잘 모르겠다는 주리를 달래며.)"
+    },
+    {
+      "Text": "(그리고 사실은 나 자신도 잘 모르겠다는 것을 숨기며…….)"
+    },
+    {
+      "Text": "(우리는 트로피와 상품을 받아 든 채, 돌아오는 길에 올랐다…….)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Adventures of a Waitress"
+    },
+    {
+      "Text": "Shopping District Competition Stage"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Thank you all for joining us today, at the \"Waitress of the Month Competition\"!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "We aim to make the \"Waitress of the Month Competition\" even more prestigious, and in order to do that, we—"
+    },
+    {
+      "Name": "Juri",
+      "Text": "What do I do, Sensei?!"
+    },
+    {
+      "Text": "[s] \"Calm down, Juri. Calm. Let's do some breathing exercises.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "But...but! I've never been on a stage in front of so many people like this..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "And I know you told me I can do it, but I don't know what's even being judged..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "If they ask us to actually cook something, I don't think I can do that...!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Dear audience! When it comes to serving customers in a cafe, what do you think is the most important element?"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "That's right! The one element that sets the foundation for every task at hand is..."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "...raw physical strength!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "What? Strength...?"
+    },
+    {
+      "Text": "[ns1] \"...Huh?\""
+    },
+    {
+      "Text": "[ns2] \"...Now this I don't think I could have seen coming...\""
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Cafe work can be grueling. It can be tiring. "
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Water is heavier than most people assume, and a waitress is still expected to carry and move glassware, in bulk!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Other times, waitresses have to contend with rude customers, who pop up like random encounters in a video game!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Shouldn't they not use strength in that last example, though?!"
+    },
+    {
+      "Text": "[s] \"That's a REALLY good point.\""
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "All things considered, strength is deeply essential to every waitress in a well-run cafe!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "So the first event of the Waitress of the Month competition will be...a strength-based serving test!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "We've prepared massive glass cups, all filled to the brim with coffee!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Waitresses will be moving six of these cups in each hand, 12 cups in all..."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "...and then serving them to their respective tables!"
+    },
+    {
+      "Text": "[ns] \"Is this normal?!\""
+    },
+    {
+      "Name": "Waitress A",
+      "Text": "N-No way. How is anyone supposed to carry 12 of those cups at once...?"
+    },
+    {
+      "Name": "Waitress B",
+      "Text": "SIX would be impossible, let alone twelve. This test doesn't make any sense!"
+    },
+    {
+      "Name": "Waitress A",
+      "Text": "I thought this competition was supposed to be prestigious..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Sensei, I think I've got this."
+    },
+    {
+      "Text": "[s] \"What? Really?\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "I do. I can tell they're heavy just by looking at them, but..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "...they've still got to be lighter than the sacks of potatoes I move for the School Lunch Club!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Here I go, Sensei! Be right back!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "It seems like the contestants are having trouble lifting the cups! Is there no one strong enough to take the crown as Waitress of the Month?!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "But look at this! Contestant Ushimaki Juri! She's lifting the cups like they're empty!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "So I just need to bring these to the table over there..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "And...got it! Now I should work on placement."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Place this one here, and that one there..."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "An impressive display from contestant Juri! She's not only serving the cups, she's even thinking about how to place them for the customer's viewing pleasure!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "A shining example of that subtle-but-essential service needed in any great cafe!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Shall we move onto the next event?"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Now, any seasoned cafe employee knows all about the dreaded \"peak time.\""
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "The orders keep coming and they don't stop, each customer's presence puts the servers on edge, the tickets pile up by the dozen every second..."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "So the most important thing in those times is quick and accurate decision making."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "We're going to test those capabilities in a game of \"Raise the Flag\"!"
+    },
+    {
+      "Text": "[ns3] \"Do they just pick these events at random?\""
+    },
+    {
+      "Text": "[ns4] \"How does this make sense?\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Raise the Flag..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Sensei, I think I've got this one too."
+    },
+    {
+      "Name": "Juri",
+      "Text": "I don't want to sound TOO confident, but..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "...I move all kinds of goods through Gehenna's cafeteria every single day. I can do this!"
+    },
+    {
+      "Name": "Game Machine",
+      "Text": "Raise the blue flag."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Blue!"
+    },
+    {
+      "Name": "Game Machine",
+      "Text": "Don't lower the white flag."
+    },
+    {
+      "Name": "Juri",
+      "Text": "White!"
+    },
+    {
+      "Name": "Game Machine",
+      "Text": "Don't drop the blue flag, and raise the white one."
+    },
+    {
+      "Name": "Juri",
+      "Text": "I've got both of them up!"
+    },
+    {
+      "Name": "Game Machine",
+      "Text": "Raise the blue flag but not really, don't raise the white flag, the blue one stays down, don't lower the white one, raise the blue one, drop the white one, don't lower the blue, and don't raise the white."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Uh...right! Blue one up, white one down!"
+    },
+    {
+      "Name": "Waitress A",
+      "Text": "How is she getting this?!"
+    },
+    {
+      "Name": "Waitress B",
+      "Text": "What kind of hell is she used to dealing with...?"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "A round of applause please, ladies and gents! Contestant Ushimaki Juri has earned a perfect score!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "The next event is cleaning! Every cafe needs it done all the time!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "For this particular event, we have enlisted...a special cleaning robot, straight from Millennium!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "A cleaning robot from Millennium... I wonder how well it works. "
+    },
+    {
+      "Name": "Juri",
+      "Text": "I'm sort of looking forward to this..."
+    },
+    {
+      "Text": "[ns] \"(Millennium... Well, if it's a normal cleaning robot, that should be okay...)\""
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "If we could move all the contestants to the storage room, please!"
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "Cleaning. Cleaning."
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "Sweep, vacuum, burn, destroy, remove, clean, sanitize."
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "This unit will not leave a single stain or spot anywhere in the designated area."
+    },
+    {
+      "Name": "Juri",
+      "Text": "I-I heard some scary words mixed in there..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Well, regardless, I clean on this scale every day at the cafeteria."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Here I go!"
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "...Incomprehensible. Incomprehensible."
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "This unit's productivity is lower than that of the human unit."
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "Conclusion: this unit is insufficient. This unit is defective. This unit has no reason to exist. Self-destruct in 10, 9, 8..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "No, don't do that!"
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "...Does this unit still have a reason to exist, despite its confirmed insufficiency? Is this what humans refer to as \"compassion\"?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "If you self-destruct here, the storage room will get all messy again!"
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "..."
+    },
+    {
+      "Name": "Cleaning Robot",
+      "Text": "Logic accepted. Halting self-destruct sequence. Pausing equipment."
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Thank you for the wait, ladies and gentlemen! It's finally time to announce the Waitress of the Month!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "Who will seize the glory? Who will be crowned as the best of the best?!"
+    },
+    {
+      "Name": "Contest Committee Member",
+      "Text": "And the winner is...Ushimaki Juri!"
+    },
+    {
+      "Text": "[ns] \"Congrats, Juri! You did it!\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "I really did it...! I didn't think I'd actually... It's all thanks to you, Sensei!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Um, Sensei? Now that I won...I've been thinking..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Thinking about all these different competition events and how they connect to one another..."
+    },
+    {
+      "Name": "Juri",
+      "Text": "There's something I'm still not sure of..."
+    },
+    {
+      "Text": "I consoled Juri, who still seemed conflicted about something."
+    },
+    {
+      "Text": "I didn't mention my own thoughts about how weird the whole competition was."
+    },
+    {
+      "Text": "Nonetheless, I stood by her as she accepted the trophy and the prize. Then we headed back."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "การผจญภัยของพนักงานเสิร์ฟ"
+    },
+    {
+      "Text": "สถานที่จัดการแข่งขัน ย่านการค้า"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ขอขอบคุณทั้งผู้เข้าแข่งขันและผู้ชมทุกๆ ท่านที่ให้การสนับสนุน <การแข่งขันพนักงานเสิร์ฟดีเด่น\nประจำเดือน> ในครั้งนี้นะครับ"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "เรามุ่งมั่นที่จะทำให้ <การแข่งขันพนักงานเสิร์ฟดีเด่นประจำเดือน> เป็นการแข่งขันที่ทรงคุณค่าทาง\nด้าน..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ทำยังไงดีล่ะคะ คุณครู?!"
+    },
+    {
+      "Text": "[s] \"ใจเย็นๆ ก่อน จูริ ตั้งสติ แล้วหายใจเข้าลึกๆ ก่อนนะ\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ตะ... แต่ว่า! นี่เป็นครั้งแรกที่ฉันได้มายืนบนเวทีกับคนมากมายขนาดนี้..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คุณครูบอกว่าฉันจะทำได้ แต่ฉันยังไม่รู้เลยค่ะว่าจะได้มาทำอะไรที่นี่..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถ้าให้โชว์ฝีมือทำอาหารละก็ คนที่ทำอาหารไม่เก่งอย่างฉันก็คง...!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ทุกคนครับ! ทุกคนคิดว่าอะไรเป็นสิ่งสำคัญในการให้บริการลูกค้าในคาเฟ่ครับ?"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ใช่แล้วครับ! นั่นคือพื้นฐานของทุกสิ่ง และใช้ได้กับทุกคน..."
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "และมันก็คือ พละกำลังครับ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ? พละกำลัง?"
+    },
+    {
+      "Text": "[ns1] \"หืม...?\""
+    },
+    {
+      "Text": "[ns2] \"เป็นวิธีแข่งขันแบบใหม่ที่คาดไม่ถึงเลยแฮะ...\""
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "งานคาเฟ่ไม่ใช่งานง่ายๆ หรอกครับ เรียกได้ว่าต้องใช้พละกำลังมากทีเดียว "
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "น้ำเป็นสิ่งที่มีน้ำหนักมากกว่าที่คิด แล้วไหนจะต้องถือแก้วเครื่องดื่ม และภาชนะใส่อาหารต่างๆ ไปให้หมดในครั้งเดียวอีก!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "บางครั้งยังต้องจัดการกับลูกค้าไร้มารยาทที่ปรากฏตัวเหมือนมอนสเตอร์ในเกมอีก!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ถึงยังไงก็ไม่ควรใช้กำลังกับลูกค้าไม่ใช่เหรอคะ?!"
+    },
+    {
+      "Text": "[s] \"พอมาคิดดู มันก็จริงนะ?!\""
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "เอาเถอะครับ! เมื่อมองภาพรวมของการบริหารคาเฟ่แล้ว พละกำลังถือเป็นสิ่งสำคัญที่สุดของพนักงาน\nเสิร์ฟเลยละครับ"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "เพราะงั้นในการด่านแรกของ <การแข่งขันพนักงานเสิร์ฟดีเด่นประจำเดือน> ก็คือ! การทดสอบพละกำลังในการเสิร์ฟครับ!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ผมจะบอกรายละเอียดเลยนะครับ เราได้เตรียมแก้วขนาดใหญ่ที่มีกาแฟอยู่เต็มแก้วไว้ให้!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ผู้เข้าแข่งขันต้องถือแก้วข้างละ 6 ใบ รวมสองข้างเป็น 12 ใบ..."
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "แล้วก็เอาไปเสิร์ฟในโต๊ะที่กำหนดครับ!"
+    },
+    {
+      "Text": "[ns] \"เอาแบบนี้จริงเหรอ!?\""
+    },
+    {
+      "Name": "พนักงานเสิร์ฟ A",
+      "Text": "บะ... บ้าไปแล้วหรือเปล่า จะให้ถือแก้ว 12 ใบในรวดเดียวเนี่ยนะ..."
+    },
+    {
+      "Name": "พนักงานเสิร์ฟ B",
+      "Text": "อย่าว่าแต่ 12 ใบเลย แค่ 6 ใบก็ไม่ไหวแล้ว ให้มาทดสอบพละกำลังในการแข่งขันแบบนี้งั้นเหรอ..."
+    },
+    {
+      "Name": "พนักงานเสิร์ฟ A",
+      "Text": "ได้ยินว่านี่เป็นการแข่งขันที่โด่งดังมากแท้ๆ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "......"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คุณครู ถ้าเป็นเรื่องนั้น ฉันว่าฉันน่าจะทำได้ค่ะ"
+    },
+    {
+      "Text": "[s] \"หืม? จริงเหรอ?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ ดูเผินๆ แล้วแก้วเครื่องดื่มพวกนั้นน่าจะหนักไม่น้อยเลย..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ยังไงมันก็น่าจะเบากว่ากระสอบมันฝรั่งของชมรมโภชนาการค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถ้างั้น ฉันจะรีบกลับมานะคะคุณครู!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ดูเหมือนผู้เข้าแข่งขันหลายคนจะเจอกับความยากลำบากในการถือแก้วไปเสิร์ฟนะครับ! มาดูกันครับว่า\nจะมีใครที่มีคุณสมบัติเหมาะที่จะเป็นพนักงานเสิร์ฟดีเด่นประจำเดือนนี้หรือเปล่า!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "และระหว่างนี้เอง! ผู้เข้าแข่งขันอุชิมากิ จูริ! ก็ถือแก้วไปอย่างชิลๆ เลยละครับ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ให้เอาไปเสิร์ฟที่โต๊ะตรงโน้นสินะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "อ๊ะ จริงด้วย! ระหว่างนี้ก็จัดวางแก้วให้ดูดีไปด้วยแล้วกัน!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เอาใบนี้ไว้ตรงนี้ แล้วใบนี้ก็..."
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ยอดเยี่ยมเลยครับ คุณจูริ! นอกจากการถือแก้วไปให้ถึงโต๊ะอย่างปลอดภัยแล้ว ยังใส่ใจว่าต้องทำยังไง\nถึงจะทำให้ลูกค้าประทับใจได้อีกด้วย!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ผมว่านี่คือจิตวิญญาณแห่งการบริการที่จำเป็นในการบริหารคาเฟ่ ซึ่งเป็นสิ่งที่ \"ไม่ชัดเจนนักแต่ก็\nสำคัญมาก\" เลยนะครับ!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "งั้นก็ไปที่ด่านต่อไปเลยครับ"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ปกติในการบริหารคาเฟ่ จะต้องเจอกับช่วงเวลาสำคัญที่เรียกว่า 'พีคไทม์' ใช่มั้ยล่ะครับ"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "เป็นช่วงเวลาที่ออเดอร์หลั่งไหลเข้ามาอย่างต่อเนื่อง การเร่งเร้าของลูกค้าก็ทำให้ตึงเครียด แล้วจำนวนเมนูที่ต้องทำก็เพิ่มขึ้นเป็นสิบเท่าในทุกวินาที..."
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ความสามารถที่จำเป็นมากที่สุดในช่วงพีคไทม์ที่ว่าก็คือการตัดสินใจที่รวดเร็วและแม่นยำครับ"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ดังนั้นในการแข่งขันครั้งนี้! เราจะหาผู้ที่ทำคะแนนได้มากที่สุดจากเกม 'ธงฟ้าธงขาว' มาดูกันครับว่า\nแต่ละคนจะตัดสินใจได้รวดเร็วและแม่นยำกันแค่ไหน!"
+    },
+    {
+      "Text": "[ns3] \"เป็นการแข่งขันที่ไม่เกี่ยวกับงานคาเฟ่เลย...\""
+    },
+    {
+      "Text": "[ns4] \"จะให้มาเล่นเกมแบบนี้ก็ได้เหรอ...?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เกมธงขาวธงฟ้า..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คุณครู ฉันก็จะลงแข่งดูค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "มะ... ไม่ค่ะ ฉันก็ไม่ได้มั่นใจมากขนาดนั้นหรอก แต่ว่า..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถ้าเทียบกับการจัดการวัตถุดิบในโรงอาหารเกเฮนน่าแต่ละวันแล้ว ฉันว่าเกมนี้น่าจะไม่หนักหนาเกิน\nความสามารถค่ะ!"
+    },
+    {
+      "Name": "เครื่องเล่นเกม",
+      "Text": "ยกธงฟ้า"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ธงฟ้า!"
+    },
+    {
+      "Name": "เครื่องเล่นเกม",
+      "Text": "อย่ายกธงขาว!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ธงขาว!"
+    },
+    {
+      "Name": "เครื่องเล่นเกม",
+      "Text": "อย่ายกธงฟ้า ยกธงขาว"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "สรุปว่าต้องยกทั้งสองสีเลยค่ะ!"
+    },
+    {
+      "Name": "เครื่องเล่นเกม",
+      "Text": "แกล้งทำเป็นยกธงฟ้า อย่ายกธงขาว ทำเหมือนเอาธงฟ้าลง แต่ไม่ยกธงขาว ยกธงฟ้า แล้วเอาธงขาวลง ยังไม่จบแค่นี้ เพราะต้องไม่ยกธงฟ้า แต่ก็ไม่ยกธงขาวด้วย"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "อ่า... ค่ะ! สรุปว่ายกธงฟ้า แล้วเอาธงขาวลงค่ะ!"
+    },
+    {
+      "Name": "พนักงานเสิร์ฟ A",
+      "Text": "ทำไมถึงไม่ผิดเลยแม้แต่ครั้งเดียวล่ะ?!"
+    },
+    {
+      "Name": "พนักงานเสิร์ฟ B",
+      "Text": "ปกติต้องทำงานหนักแค่ไหนเนี่ย..."
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ขอเสียงปรบมือให้เธอหน่อยครับทุกคน! ผู้เข้าแข่งขันอุชิมากิ จูริ ได้คะแนนเต็มเลยครับ! สมบูรณ์แบบจริงๆ!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ด่านต่อไปคือการทำความสะอาด! คาเฟ่กับการทำความสะอาดเป็นของคู่กันอยู่แล้วใช่มั้ยล่ะครับ!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "สำหรับด่านนี้... เราได้เช่าหุ่นยนต์ทำความสะอาดของมิลเลเนียมมาให้เป็นพิเศษเลย!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "หุ่นยนต์ทำความสะอาดของมิลเลเนียมงั้นเหรอ... จะมีประสิทธิภาพยังไงนะ? "
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ชักจะอยากรู้ขึ้นมานิดหน่อยแล้วสิคะ!"
+    },
+    {
+      "Text": "[ns] (ถ้าเป็นหุ่นยนต์ที่ผลิตในมิลเลเนียมละก็ อืม...)"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ขอให้ผู้เข้าแข่งขันทุกคนไปที่ห้องเก็บของได้เลยครับ!"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "ทำความสะอาด ทำความสะอาด"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "กวาด ดูด เผา ทำลาย ทิ้ง ถอนรากถอนโคน เช็ด แล้วก็ฆ่าเชื้อ"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "อย่าให้เหลือคราบหรือตำหนิอะไรแม้แต่นิดเดียว"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ระ... รู้สึกเหมือนได้ยินคำพูดที่น่ากลัวเลยค่ะ..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แต่ถ้าเป็นการทำความสะอาดในระดับนี้ ก็ไม่ต่างจากสิ่งที่ฉันทำในโรงอาหารทุกวันหรอกค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "จะเริ่มเลยนะคะ!"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "ไม่เข้าใจ ไม่เข้าใจ"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "ทำไมถึงรวดเร็วกว่าฉันได้ล่ะ"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "รับรู้ได้ถึงประสิทธิภาพที่ถดถอยลง ไม่มีเหตุผลในการดำรงอยู่แล้ว เข้าสู่การทำลายตัวเองใน 10... 9... 8..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ไม่ได้นะคะ!"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "ต่อให้ฉันจะประสิทธิภาพแย่ลง แต่ก็เห็นว่าฉันมีเหตุผลในการดำรงอยู่ต่อเหรอ? นี่คือสิ่งที่เรียกว่า\nความเมตตาของมนุษย์ใช่มั้ย?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถ้าระเบิดขึ้นมา ห้องเก็บของก็จะสกปรกอีกรอบนะคะ!"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "......"
+    },
+    {
+      "Name": "หุ่นยนต์ทำความสะอาด",
+      "Text": "เข้าใจแล้ว หยุดการเข้าสู่การทำลายตัวเอง ปิดเครื่อง"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ทุกคนรอกันนานมั้ยครับ! ในที่สุดก็ถึงเวลาประกาศว่าใครจะได้เป็นพนักงานเสิร์ฟดีเด่นประจำเดือนนี้!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "ใครกันที่คว้าชัยชนะในวันนี้... ใครกันที่จะได้ตำแหน่งพนักงานเสิร์ฟดีเด่นของเราไป!"
+    },
+    {
+      "Name": "พิธีกรงานแข่งขัน",
+      "Text": "และผู้ชนะก็คือ! คุณอุชิมากิ จูริครับ!!!"
+    },
+    {
+      "Text": "[ns] \"ดีใจด้วยนะ จูริ! ทำได้จริงๆ ด้วยนะ!\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ค่ะ คุณครู! ฉันทำได้จริงๆ ด้วยค่ะ! ที่ฉันทำสำเร็จในวันนี้... เพราะได้กำลังใจจากคุณครูค่ะ!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "เอ่อ คุณครูคะ? พอดีว่า... ฉันเพิ่งนึกอะไรบางอย่างได้..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "พอมาคิดถึงด่านต่างๆ ที่ฉันลงแข่งในวันนี้..."
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แบบนี้จะมองว่าฉันเป็นพนักงานเสิร์ฟดีเด่นได้แล้วเหรอคะ...?"
+    },
+    {
+      "Text": "(คุณครูปลอบใจจูริที่ยังไม่เข้าใจสถานการณ์)"
+    },
+    {
+      "Text": "(แล้วก็ซ่อนความรู้สึกว่าจริงๆ แล้วตัวเองก็ไม่ค่อยเข้าใจเหมือนกัน...)"
+    },
+    {
+      "Text": "(จากนั้นก็เดินกลับมาด้วยกันพร้อมกับถ้วยรางวัลในมือ...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "服務生的冒險"
+    },
+    {
+      "Text": "商店街大會會場"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "感謝各位參賽者及觀眾，參加本月的「服務生選拔大會」！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "「服務生選拔大會」一直致力於延續傳統，\n期望成長為歷史更悠久、更有公信力的競賽──"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "怎麼辦，老師！？"
+    },
+    {
+      "Text": "[s]「茱莉，冷靜下來。先做個深呼吸吧。」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "可，可是……！\n這是我第一次站上有這麼多觀眾的舞台……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然老師說我做得到，但我根本不知道比賽項目究竟是什麼……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "萬一要比料理實力的話，對還不擅長料理的我來說……！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "各位！說到咖啡廳服務生的工作，最重要的是什麼呢！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "沒錯！就是對所有人都能派上用場，也是一切工作的基礎……"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "──「肌力」！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "咦？肌力……？"
+    },
+    {
+      "Text": "[ns1]「……嗯？」"
+    },
+    {
+      "Text": "[ns2]「還真是意料之外的新穎項目呢……」"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "咖啡廳的工作非常費力，真的相當辛苦。"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "除了比想像中還重的水之外，還要同時端起各種盤子和餐具！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "偶爾還會有奧客像遊戲中的怪物一樣突然出現，必須不動聲色地將其制服！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "但是無論如何都不能用武力解決吧！？"
+    },
+    {
+      "Text": "[s]「好像也是！？」"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "總之！以咖啡廳整體的營運來看，要說肌力是最需要的核心能力也不為過！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "因此本月「服務生選拔大會」的第一個項目，就是肌力服務測試！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "現在開始為大家說明規則！\n我們準備了裝滿咖啡的大型玻璃杯！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "只要一隻手拿起6杯，雙手共拿起12杯……"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "端到指定的桌子就可以了！"
+    },
+    {
+      "Text": "[ns]「這樣真的對嗎！？」"
+    },
+    {
+      "Name": "女服務生A",
+      "Text": "怎，怎麼這樣。\n居然要雙手拿起12個那種杯子……"
+    },
+    {
+      "Name": "女服務生B",
+      "Text": "別說12杯了，就算只有6杯也很勉強。\n怎麼會在這種大會上比肌力呢……"
+    },
+    {
+      "Name": "女服務生A",
+      "Text": "可是我聽說這個獎項的含金量很高耶……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "老師。如果是那種項目的話，我好像可以試試看。"
+    },
+    {
+      "Text": "[s]「嗯？真的嗎？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗯，雖然乍看之下的確不輕……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "但是再怎麼樣都不會比供給部的馬鈴薯袋重！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "那麼老師，我去去就回！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "各位參加者似乎都無法順利端起玻璃杯呢！\n難道今天沒人有資格登上本月服務生的寶座嗎！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "哦哦！現在牛牧茱莉選手輕鬆拿起了所有咖啡杯！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "只要把這個放到那邊的，桌子上……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "啊，對了！既然要端上桌的話，也要注意一下擺設美不美觀！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "這個放這邊，那個放那邊……"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "太了不起了，茱莉選手！\n並非單純搬運杯子，甚至為了讓客人獲得最舒適的體驗，連餐桌擺設都考慮到了！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "這正是經營咖啡廳應當具備的理念──「魔鬼藏在細節裡」的服務精神！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "那麼進入下一個項目吧！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "經營咖啡廳時，必然會遇到俗稱的「尖峰時段」。"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "訂單不斷湧入，客人無聲的催促讓人芒刺在背，\n同時要處理的品項一秒就可能多出十幾個……"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "因此快速準確的判斷力，可說是尖峰時段最講求的能力。"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "所以在本次大會中，要透過「舉旗遊戲」來評選出最能迅速確實做出判斷的參賽者！"
+    },
+    {
+      "Text": "[ns3]「雖然比賽項目也不算是毫無根據……」"
+    },
+    {
+      "Text": "[ns4]「不過這樣真的對嗎……？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "舉旗遊戲……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "老師，這個項目我也想試試看。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖，雖然我也不是很有自信，不過……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "只要回想一下格黑娜供餐廚房一天要消化的人流跟物流，我應該有辦法應付得來！"
+    },
+    {
+      "Name": "遊戲機台",
+      "Text": "藍旗舉起來。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "藍旗！"
+    },
+    {
+      "Name": "遊戲機台",
+      "Text": "白旗別放下。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "白旗！"
+    },
+    {
+      "Name": "遊戲機台",
+      "Text": "藍旗別放下，白旗舉起來。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "兩個都舉起來！"
+    },
+    {
+      "Name": "遊戲機台",
+      "Text": "藍旗假裝舉起來，白旗不要舉，藍旗假裝放下來，白旗別放下──\n藍旗舉起來，白旗放下去，藍旗別放下，白旗不要舉。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "嗯……好！藍旗舉起來，白旗放下去！"
+    },
+    {
+      "Name": "女服務生A",
+      "Text": "怎麼能一點錯也沒有！？"
+    },
+    {
+      "Name": "女服務生B",
+      "Text": "他平常工作的環境到底是什麼樣的地獄啊……"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "各位觀眾請掌聲鼓勵！\n牛牧茱莉選手，獲得了完美的滿分！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "下一個項目是清潔！\n咖啡廳的經營，可說是和清潔息息相關！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "為了這個項目，我們特別……租借了千年製造的清潔機器人！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "千年製造的清潔機器人啊……不曉得性能怎麼樣？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "有點期待呢。"
+    },
+    {
+      "Text": "[ns]（千年製造啊……如果只是普通的千年製品應該……）"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "那麼請各位參加者移動到倉庫！"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "開始清掃。開始清掃。"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "掃除、吸塵、焚燒、摧毀、移除、殲滅、擦拭、消毒。"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "絕不容許任何污漬或污點留存。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "好，好像聽到了一些可怕的詞彙……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "這種規模的打掃工作，只是我們供餐廚房每天的例行公事而已。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "開始！"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "無法理解。無法理解。"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "人類怎麼可能比本機快速。無法理解。"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "本機性能不足，失去存在意義。\n啟動自爆程序。10、9、8……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不行！"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "即便本機性能不足，你依然認為本機有存在的意義嗎？\n這就是人類特有的「親切」嗎？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "自爆會把倉庫又弄髒的！"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "……"
+    },
+    {
+      "Name": "清潔機器人",
+      "Text": "理解完畢。中止自爆程序。裝備停止運作。"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "讓大家久等了！\n現在終於到了揭曉「本月服務生」頭銜得主的時刻！"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "究竟今天會是誰贏得所有榮耀……成為最優秀的服務生呢？"
+    },
+    {
+      "Name": "大會執行委員",
+      "Text": "我現在宣布！優勝者是……牛牧茱莉選手！！！"
+    },
+    {
+      "Text": "[ns]「恭喜你，茱莉！你真的做到了！」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "是啊，老師！我真的成功了！\n沒想到我居然能做到……這全都是託老師的福！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不過……我剛剛才突然意識到……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "不管是比賽項目還是大會的流程……"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "……這樣真的沒問題嗎？"
+    },
+    {
+      "Text": "（一邊安撫著一臉疑惑的茱莉……）"
+    },
+    {
+      "Text": "（一邊掩飾連自己也不太清楚的事實……）"
+    },
+    {
+      "Text": "（一起拿著獎盃和獎品踏上了歸途……）"
+    }
+  ]
+}

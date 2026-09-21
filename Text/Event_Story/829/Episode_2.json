@@ -1,0 +1,2252 @@
+{
+  "TitleJP": "ストライキ宣言",
+  "TitleKR": "파업 선언",
+  "TitleEN": "Announcing a Strike",
+  "TitleTH": "ประกาศหยุดงาน",
+  "TitleTW": "罷工宣言",
+  "DescJP": "喧嘩の末、モミジが出て行ってしまった事を先生に相談するメル。ただの言葉の謝罪だけではなく、仲直りのプレゼントとして、『ルナ』の最終巻を探す事を決めるのだった。",
+  "DescKR": "모미지와 한바탕 다투고 난 뒤 선생님에게 상담을 요청한 메루. 메루는 고민 끝에 모미지를 위한 사과의 선물로 전설로만 존재하는 <루나>의 완결권을 구하러 나선다.",
+  "DescEN": "After an argument with Momiji, Meru asks Sensei for advice. She resolves to find the legendary final volume of Luna to offer as an olive branch to Momiji.",
+  "DescTH": "เมรุทะเลาะกับโมมิจิอยู่พักหนึ่ง จากนั้นก็ไปขอรับคำปรึกษาจากคุณครู\nหลังจากกลัดกลุ้มอยู่นาน เมรุก็ออกไปซื้อ <ลูน่า> เล่มจบบริบูรณ์ที่เล่า\nขานกันในตำนานเพื่อเอาไปขอคืนดีกับโมมิจิ",
+  "DescTW": "和紅葉大吵一架後，愛瑠向老師請求諮詢。在一番深思過後，愛瑠開始尋找傳說中的《LUNA》最終卷，想當作道歉禮物送給紅葉。",
+  "DialogJP": [
+    {
+      "Text": "第1話;ストライキ宣言"
+    },
+    {
+      "Text": "[ns1] \"ララ～仕事ってどうして～溜まっていくんだろう～\""
+    },
+    {
+      "Text": "[ns2] \"やってもやっても終わるどころか増えるなんて～\""
+    },
+    {
+      "Text": "[ns3] \"不思議なこともあるもんだ～\""
+    },
+    {
+      "Name": "メル",
+      "Text": "えっと……もしもーし、先生？\nうわ……顔色ヤバいよ。大丈夫？"
+    },
+    {
+      "Name": "メル",
+      "Text": "なんか忙しい感じっぽいし、今日は切るね……ゆっくり休んで……"
+    },
+    {
+      "Text": "[s] \"メル、どうしたの？何か一大事？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "わわっ急に大声出さないでよ！\nはぁ？私が人の顔色伺ったら悪いの？そういう時くらいあるわよ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "私を何だと思ってんのよ！私がそんな……"
+    },
+    {
+      "Name": "メル",
+      "Text": "……コホン。とにかく。\nまあ……何も……ないわけじゃ、ないけど……。"
+    },
+    {
+      "Name": "メル",
+      "Text": "相談しようと思ったわけじゃないんだけど……たしかに、何も考えずにシャーレに電話してたかも……"
+    },
+    {
+      "Name": "メル",
+      "Text": "でもほら、先生は忙しそうだし……"
+    },
+    {
+      "Text": "[ns] \"すぐ行くよ！待ってて！\""
+    },
+    {
+      "Name": "メル",
+      "Text": "ちょ、ちょっと！？先生！？"
+    },
+    {
+      "Text": "レッドウィンター連邦学園・図書館"
+    },
+    {
+      "Name": "メル",
+      "Text": "……すごい行動力だね、先生。"
+    },
+    {
+      "Text": "[s] \"何を隠そう、働きたくなかったからね！\""
+    },
+    {
+      "Name": "メル",
+      "Text": "いやそれって、結局自分の首を絞めてるだけじゃ……"
+    },
+    {
+      "Name": "メル",
+      "Text": "まぁ……気持ちは分からないでもないけどさぁ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "私も〆切が近づけば近づくほど、部屋の掃除とか始めちゃったりするし……"
+    },
+    {
+      "Name": "メル",
+      "Text": "って、ちょっと待って。なんで私が自白する流れになってんの、これ？"
+    },
+    {
+      "Text": "[s] \"なんかメルの声がいつもと違ったような気がして。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "え、私が……？"
+    },
+    {
+      "Name": "メル",
+      "Text": "そんなに余裕なさそうだった……？\nあちゃー……そっか……"
+    },
+    {
+      "Text": "[s] \"そういえば、モミジは？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "あ……。"
+    },
+    {
+      "Name": "メル",
+      "Text": "……。"
+    },
+    {
+      "Name": "メル",
+      "Text": "……先生に電話したのはそれが理由でさ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "……ねえ、先生。"
+    },
+    {
+      "Name": "メル",
+      "Text": "モミジが……図書館から出て行っちゃった。"
+    },
+    {
+      "Text": "[ns] \"何があったの？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "それが……"
+    },
+    {
+      "Text": "[ns] \"う～ん……それはメルが悪いと思うよ。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "先生までそんなこと言うの！？"
+    },
+    {
+      "Name": "メル",
+      "Text": "いや、私もちょっと言い過ぎたかなって思ったけどさぁ！"
+    },
+    {
+      "Name": "メル",
+      "Text": "でも、感想を聞かれたから、一人のクリエイターとして批評しただけなのに……それってそんなに怒ること？"
+    },
+    {
+      "Name": "メル",
+      "Text": "……時と場合によっては、怒るかも……しれないけど……"
+    },
+    {
+      "Name": "メル",
+      "Text": "そういう意味では、私も反省してなくもないけど……"
+    },
+    {
+      "Text": "[s] \"そういうケンカって、よくするの？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "そんなに多くはないけど……たまにあるかな。"
+    },
+    {
+      "Name": "メル",
+      "Text": "モミジと私は好みの方向性が違うし……やっぱそういうのって、「こっち側」では結構重要だからさ。解釈か性癖か合致しないと長続きしないっていうか。"
+    },
+    {
+      "Name": "メル",
+      "Text": "でも、前にケンカした時はすぐに仲直りできたし……今回も大丈夫だと思ったんだけど……"
+    },
+    {
+      "Name": "メル",
+      "Text": "モミジ、電話にも出ないし……"
+    },
+    {
+      "Name": "メル",
+      "Text": "……。"
+    },
+    {
+      "Name": "メル",
+      "Text": "どうしたらいいんだろ……"
+    },
+    {
+      "Name": "メル",
+      "Text": "あんなに怒ったモミジ、初めて見た……図書館を出ていったのも初めてだし……"
+    },
+    {
+      "Name": "メル",
+      "Text": "先生、私……どうしたらいいかな……"
+    },
+    {
+      "Text": "[s] \"うーん……まず素直に謝ってみるのはどうかな？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "それで解決できるならこんなことになってないよ！"
+    },
+    {
+      "Name": "メル",
+      "Text": "というか、そもそも……電話にも出ないなら謝りようがなくない？"
+    },
+    {
+      "Name": "メル",
+      "Text": "え？先生はそう思わないって……どうして？"
+    },
+    {
+      "Text": "[s4] \"メルからの電話に出ないなら、別の方法もあるし……\""
+    },
+    {
+      "Text": "[s5] \"それでもだめなら、他の方法を一緒に考えるよ。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "どうにか連絡がついたとしても、謝罪で解決するならこんな事になってないよ。\n創作じゃないんだから……"
+    },
+    {
+      "Name": "メル",
+      "Text": "というか、最近のネット小説だって、そんな都合よく仲直りする展開になったら叩かれちゃうよ！？ご都合主義にも程があるって言われるのに！"
+    },
+    {
+      "Text": "[s] \"じゃあ、メルはどうすればモミジが許してくれると思うの？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "言葉だけじゃ足りないと思う……"
+    },
+    {
+      "Name": "メル",
+      "Text": "具体的に、仲直りするための方法は……"
+    },
+    {
+      "Name": "メル",
+      "Text": "……"
+    },
+    {
+      "Name": "メル",
+      "Text": "『ルナ』を……"
+    },
+    {
+      "Name": "メル",
+      "Text": "あれ……？"
+    },
+    {
+      "Name": "モミジ",
+      "Text": "諸事情で最終巻の22巻は……ちょっと、アレですが……"
+    },
+    {
+      "Name": "モミジ",
+      "Text": "最終巻がどうして存在しないのかなんて、むしろ私が聞きたいくらいです！！"
+    },
+    {
+      "Name": "メル",
+      "Text": "それだ！"
+    },
+    {
+      "Name": "メル",
+      "Text": "先生！私、いいアイデアが浮かんだ！"
+    },
+    {
+      "Text": "[ns] \"何かちょっと不安になってきたので、詳しく聞かせてもらえるかな。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "ほら、私とモミジが揉めたのって『ルナ』が原因じゃない？"
+    },
+    {
+      "Name": "メル",
+      "Text": "モミジが出て行ってから調べたんだけど、『ルナ』って巻を重ねるごとに発行部数が減っちゃったらしくて……最終巻は本当にちょっとしか流通してないみたいなんだよね。"
+    },
+    {
+      "Name": "メル",
+      "Text": "だから、最終巻の22巻は……幻の22巻って呼ばれてるんだとか。"
+    },
+    {
+      "Name": "メル",
+      "Text": "それなら、『ルナ』の最終巻を手に入れてモミジにプレゼントすれば、気持ちも伝わるし仲直りもできるんじゃないかなって！"
+    },
+    {
+      "Name": "メル",
+      "Text": "よし、これだ！この作戦でいこう！"
+    },
+    {
+      "Text": "[s6] （そこまでする必要あるかなとは思うけど……）"
+    },
+    {
+      "Text": "[s7] （メルのやりたいようにやらせてあげよう……）"
+    },
+    {
+      "Name": "メル",
+      "Text": "なんで何も言わないのさ、先生……え？いい作戦だと思う？"
+    },
+    {
+      "Name": "メル",
+      "Text": "やっぱり先生は分かってるねぇ！先生に相談してよかった！"
+    },
+    {
+      "Name": "メル",
+      "Text": "ん？幻の本が売ってる場所？知らないよ？"
+    },
+    {
+      "Name": "メル",
+      "Text": "まぁ、別にそんなに重要じゃないでしょ。\nとりあえず、やることが決まったんだからあとは実行するだけ！"
+    },
+    {
+      "Name": "メル",
+      "Text": "さあ、『ルナ』を全巻揃えるための、冒険の始まりだよ！"
+    },
+    {
+      "Text": "[s8] \"メルが外に出ようと言い出すなんて……。\""
+    },
+    {
+      "Text": "[s9] \"メルが偉すぎて、涙が出そう……。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "失礼な！そりゃ、私はインドア派だけどさ……"
+    },
+    {
+      "Name": "メル",
+      "Text": "動かなきゃいけない時くらいは分かってるわよ！"
+    },
+    {
+      "Name": "メル",
+      "Text": "さて、目標が決まったんだから……さっさと行くよ！"
+    },
+    {
+      "Text": "古本屋通り"
+    },
+    {
+      "Name": "メル",
+      "Text": "ここも久しぶりだなぁ～！\nうーん！懐かしい空気！"
+    },
+    {
+      "Text": "[s] \"ここは……！？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "古本屋通りだよ。私たち「知識解放戦線」はよく来るの。"
+    },
+    {
+      "Name": "メル",
+      "Text": "新品を扱う本屋さんは入れ替わりが激しいからね。\n埋もれた名作を見つけるにはこういうとこがもってこいなんだ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "一度流通したものであれば何でも手に入る可能性があるけど……気をつけてね。"
+    },
+    {
+      "Name": "メル",
+      "Text": "先生みたいな古本初心者にとっては、蟻地獄みたいなところだから……！"
+    },
+    {
+      "Text": "[s] \"えっ、そんなに怖いところなの？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "ふっふっふっ……まだピンときてない先生に、業界の闇について説明する時が来たようだね……！"
+    },
+    {
+      "Name": "メル",
+      "Text": "まず、古本には色んなものがあるんだけどさ……中には絶版になってしまってプレミア価格になってるものもあるんだよね。\nそういうのはショーケースに陳列されるんだけど。"
+    },
+    {
+      "Name": "メル",
+      "Text": "そういうのを見たら、初心者ほど買っちゃうんだよね。\nでも、中には別にプレミアがついてないものもショーケースに入って同じような価格で売ってたりもするわけ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "ちゃんと見極める審美眼がないと、引っかかっちゃうんだよね～\n普通の古本以外にも、関係者限定非売品本とかのちょっと世に出たらまずいような本もあったりして……"
+    },
+    {
+      "Name": "メル",
+      "Text": "でも、全部が本物という保証なんてないし……魔窟なんだよね。"
+    },
+    {
+      "Name": "メル",
+      "Text": "なんでそんなものがあるのかって？\nまぁ、世に出ちゃまずい本でも、古紙回収に捨てられて再生紙になるくらいなら、作品のファンに届いた方が良かったりするじゃん？"
+    },
+    {
+      "Name": "メル",
+      "Text": "それに、買わずに眺めるだけなら無害だし……むしろワクワクする！"
+    },
+    {
+      "Name": "メル",
+      "Text": "まぁ、そういうことだから……ここなら『ルナ』の最終巻もあるんじゃないかって踏んだわけ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "私の手をし～っかり握っててね？\nここでは油断するとやられてしまうワイルドな野生なんだから！"
+    },
+    {
+      "Text": "[s] \"ワイルドは野生という意味ですよ、メルさん。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "……もう！揚げ足取らない！"
+    },
+    {
+      "Text": "[ns] \"あれ、ここは図書館？\""
+    },
+    {
+      "Name": "メル",
+      "Text": "……図書館ごと買い取ったんじゃないかな？"
+    },
+    {
+      "Name": "メル",
+      "Text": "よし！今から探していくよ！『ルナ』の最終巻！"
+    },
+    {
+      "Text": "[ns] \"もう3時間くらい探し回ってるけど……なかなか見つからないね……\""
+    },
+    {
+      "Name": "メル",
+      "Text": "発行部数が少ないレア品だからね……そう簡単に見つかるとは思ってないけど、ここまでとは……"
+    },
+    {
+      "Name": "メル",
+      "Text": "この辺は大体見て回ったし……次いこ！次！"
+    },
+    {
+      "Name": "メル",
+      "Text": "ここの裏道を通っていけば……"
+    },
+    {
+      "Name": "メル",
+      "Text": "規模は小さいけど、このお店は本当に古い本しか取り扱ってないんだ。"
+    },
+    {
+      "Name": "メル",
+      "Text": "ここなら……きっと！"
+    },
+    {
+      "Text": "[ns] \"どうやら、あたりが外れたようです。メル隊長。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "どうして……？計算は完璧だったはずなのに……？"
+    },
+    {
+      "Text": "[ns] \"結局、最初の場所に戻ってきちゃったね。\""
+    },
+    {
+      "Name": "メル",
+      "Text": "あり得ない……こんなに探してるのに手がかり一つ見つからないなんて……"
+    },
+    {
+      "Name": "メル",
+      "Text": "『ルナ』……噂は聞いてたけど……これほどの強敵だったとは……！"
+    },
+    {
+      "Name": "？？？",
+      "Text": "あら？聞き覚えのある耳障りな声が聞こえると思ったら……やはり貴女だったんですね、メルリーさん。"
+    },
+    {
+      "Name": "メル",
+      "Text": "この声は！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ごきげんよう、お久しぶりですわね。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제1화;파업 선언"
+    },
+    {
+      "Text": "[ns1] \"랄라~ 일을 하기 싫은데~ 왜 일이 쌓일까~\""
+    },
+    {
+      "Text": "[ns2] \"일을 하는데 일이 늘다니~\""
+    },
+    {
+      "Text": "[ns3] \"신기한 일도 다 있지~\""
+    },
+    {
+      "Name": "메루",
+      "Text": "어…… 여보세요. 선생? 우와…… 오늘도 안색이 완전 엉망이네."
+    },
+    {
+      "Name": "메루",
+      "Text": "바쁜데 괜히 전화한 건가…… 오늘은 날이 아니었나 보네. 끊을게……."
+    },
+    {
+      "Text": "[s] \"메루, 왜 그래! 무슨 큰일이라도 났어?!\""
+    },
+    {
+      "Name": "메루",
+      "Text": "가, 갑자기 웬 호들갑이야? 뭐? 내가 다른 사람 눈치를 보는 날이 오다니, 그거야말로 큰일이 일어난 증거인 것 같았다고?"
+    },
+    {
+      "Name": "메루",
+      "Text": "날 뭐라고 생각하는 거야! 내가 그렇게! 그렇게……."
+    },
+    {
+      "Name": "메루",
+      "Text": "……흠, 흠. 아무튼. 뭐…… 맞아. 무슨 일이…… 없는 건 아니긴 해……"
+    },
+    {
+      "Name": "메루",
+      "Text": "상담이 필요하냐고? 어…… 거기까지는 생각 못 해봤는데, 듣고 보니 그런 것 같기도 하네……."
+    },
+    {
+      "Name": "메루",
+      "Text": "하지만 선생은 바빠 보인달까, 건드리면 안 될 것 같고. 지금도 건드리면 기절할 것 같고……."
+    },
+    {
+      "Text": "[ns] \"곧바로 갈게! 기다려!\""
+    },
+    {
+      "Name": "메루",
+      "Text": "어, 어라. 선생? 선생?!"
+    },
+    {
+      "Text": "붉은겨울 도서관"
+    },
+    {
+      "Name": "메루",
+      "Text": "……엄청난 행동력이네. 선생."
+    },
+    {
+      "Text": "[s] \"무엇을 숨기랴. 일하기 싫었던 것이다.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "……결국엔 나중에 몰아서 하게 될 거잖아."
+    },
+    {
+      "Name": "메루",
+      "Text": "파멸이 다가올 걸 알고 있어도, 당장을 피하고 싶어지는 게 사람 마음인 법이라고?"
+    },
+    {
+      "Name": "메루",
+      "Text": "응……. 알지. 알아. 마감이 끝장난다는 걸 알고 있어도, 지금 노는 것을 선택한다든가……."
+    },
+    {
+      "Name": "메루",
+      "Text": "잠깐만. 왜 내가 자백하는 분위기야, 이거?!"
+    },
+    {
+      "Text": "[s] \"거기에, 메루의 목소리가 심상치 않은 것 같았고.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "어, 내가……?"
+    },
+    {
+      "Name": "메루",
+      "Text": "여유가 사라져 있었다고? 그렇게 티가 났던가, 나……."
+    },
+    {
+      "Text": "[s] \"그러고 보니, 모미지의 모습이 안 보이는데?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "아……."
+    },
+    {
+      "Name": "메루",
+      "Text": "……."
+    },
+    {
+      "Name": "메루",
+      "Text": "응……. 사실 그것 때문이었어. 선생에게 전화한 게."
+    },
+    {
+      "Name": "메루",
+      "Text": "있잖아. 선생."
+    },
+    {
+      "Name": "메루",
+      "Text": "모미지가 도서관을…… 나가 버렸어."
+    },
+    {
+      "Text": "[ns] \"어떤 일이 있었던 거야?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "그게 말이야……."
+    },
+    {
+      "Text": "[ns] \"음…… 메루가 잘못했네.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "선생까지 그런 말을 하기야?!"
+    },
+    {
+      "Name": "메루",
+      "Text": "나도 말한 뒤에는…… 쪼오끔, 말이 심했나?! 하고 자기반성을 하기도 했지만."
+    },
+    {
+      "Name": "메루",
+      "Text": "그래도 한 명의 창작자로서! 어디까지나 작품에서 느껴졌던 아쉬운 점을 나름대로의 시점에서 평가하고 말했을 뿐인데. 그게 그렇게까지 화를 낼 일이야?!"
+    },
+    {
+      "Name": "메루",
+      "Text": "……아니, 경우에 따라서는 낼 수도…… 있을지도 모르지만……"
+    },
+    {
+      "Name": "메루",
+      "Text": "그런 점에서는 나도 반성을…… 하고 있지 않은 건, 또 아니지만……"
+    },
+    {
+      "Text": "[s] \"자주 그렇게 싸워?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "자주까지는 아니지만……. 부딪히는 경우가 없지는 않았지. "
+    },
+    {
+      "Name": "메루",
+      "Text": "아무래도 모미지와 나는 취향이 좀 다르기도 하고. 취향 문제는…… '이쪽'에서는 꽤나 중요한 부분이니까."
+    },
+    {
+      "Name": "메루",
+      "Text": "그래도 이전에도 몇 번 싸웠던 것처럼…… 이번에도 그냥 어쩌다 이런 거고, 바로 화해할 수 있을 줄 알았는데."
+    },
+    {
+      "Name": "메루",
+      "Text": "모미지, 전화도 안 받고 있고……."
+    },
+    {
+      "Name": "메루",
+      "Text": "……."
+    },
+    {
+      "Name": "메루",
+      "Text": "어떻게 하면 좋을지 모르겠어……."
+    },
+    {
+      "Name": "메루",
+      "Text": "그렇게 화를 내는 모미지도 처음 봤고, 도서관을 자기 발로 뛰쳐나간 것도 처음이고."
+    },
+    {
+      "Name": "메루",
+      "Text": "어쩌면 좋지……? 선생."
+    },
+    {
+      "Text": "[s] \"일단, 솔직하게 사과해 보는 건 어때?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "그 정도로 해결될 문제면 선생을 부르지도 않았어!"
+    },
+    {
+      "Name": "메루",
+      "Text": "애초에…… 이야기가 제대로 통할 것 같지가 않단 말이야……"
+    },
+    {
+      "Name": "메루",
+      "Text": "응? 선생은…… 그렇게 생각하지 않는다고?"
+    },
+    {
+      "Text": "[s4] \"응. 진심을 담아 사과하고 대화를 나누면, 잘될 거야.\""
+    },
+    {
+      "Text": "[s5] \"그러고도 안 되면, 나도 같이 노력해 볼게.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "진심을 다한 사과만으로 모든 게 다 잘될 리 없잖아! 무슨 소설 속 이야기냐고!"
+    },
+    {
+      "Name": "메루",
+      "Text": "아니, 요즘 인터넷 소설도 그렇게 전개하면 욕먹어! 무슨 편의주의 전개냐고 악플이 달릴걸?!"
+    },
+    {
+      "Text": "[s] \"그럼 사과만으로 부족하다면, 메루는 어떻게 해야 한다고 생각하는데?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "말만으로는 부족할 거야…… 좀 더 구체적으로……"
+    },
+    {
+      "Name": "메루",
+      "Text": "화해하기 위한 방법…… 방법으로는…… "
+    },
+    {
+      "Name": "메루",
+      "Text": "……"
+    },
+    {
+      "Name": "메루",
+      "Text": "<루나>……"
+    },
+    {
+      "Name": "메루",
+      "Text": "어라……?"
+    },
+    {
+      "Name": "모미지",
+      "Text": "여러 사정이 있어 완결권인 22권은…… 조금, 그렇게 되었지만……."
+    },
+    {
+      "Name": "모미지",
+      "Text": "완결권이 왜 없냐니. 그건 오히려 제가 묻고 싶다구요!!"
+    },
+    {
+      "Name": "메루",
+      "Text": "그거다!"
+    },
+    {
+      "Name": "메루",
+      "Text": "선생! 나 좋은 생각이 떠올랐어!"
+    },
+    {
+      "Text": "[ns] \"뭔가 불안해졌기에 메루씨의 '그거'를 물어보고 싶어졌습니다.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "그러니까 이런 거야! 모미지와 내가 싸운 건, 결국 <루나> 때문이잖아?"
+    },
+    {
+      "Name": "메루",
+      "Text": "모미지와 싸운 뒤로 확인해 봤는데. <루나>는 뒤로 갈수록 판매량이 줄어서, 끝내 완결권은 정말 몇 부 안 되는 부수만 찍은 모양이야."
+    },
+    {
+      "Name": "메루",
+      "Text": "덕분에 완결권인 22권은 좀처럼 구하기 힘든…… 환상의 22권이라고 불린다는 거 있지?!"
+    },
+    {
+      "Name": "메루",
+      "Text": "그러니까 <루나>의 완결권을 구해서 모미지에게 선물해 주면, 진심도 전해질 거고 화해도 할 수 있을 거야!"
+    },
+    {
+      "Name": "메루",
+      "Text": "그래, 이거야! 이 방법으로 가자고!"
+    },
+    {
+      "Text": "[s6] (그렇게까지 할 필요가 있을까 싶지만…….)"
+    },
+    {
+      "Text": "[s7] (일단은 메루가 하자는 대로 해 보자…….)"
+    },
+    {
+      "Name": "메루",
+      "Text": "왜 아무 말도 없어, 선생? 응? 내 말도 맞는 것 같다고?"
+    },
+    {
+      "Name": "메루",
+      "Text": "역시 이야기가 통하네! 선생에게 도와달라고 하길 잘했어!"
+    },
+    {
+      "Name": "메루",
+      "Text": "그런데…… 어떻게 해서 환상의 책이라고 불리는 <루나>의 완결권을 구할 거냐고?"
+    },
+    {
+      "Name": "메루",
+      "Text": "그런 건 중요하지 않아! 중요한 건 목표가 정해졌다는 거니까! 남은 건 행동으로 옮기는 것뿐!"
+    },
+    {
+      "Name": "메루",
+      "Text": "지금부터 우리는, <루나> 전집을 완성하기 위해 탐사를 떠난다!"
+    },
+    {
+      "Text": "[s8] \"메루가 먼저 밖으로 나가자는 말을 꺼낼 줄이야…….\""
+    },
+    {
+      "Text": "[s9] \"이 선생님, 기특해서 눈물이 나려고 해…….\""
+    },
+    {
+      "Name": "메루",
+      "Text": "실례네! 그야 나는 밖으로 나도는 것보다 안에 있는 것을 더 좋아하지만! 물론 그렇지만!"
+    },
+    {
+      "Name": "메루",
+      "Text": "움직여야 할 때와 움직이지 않아도 좋을 때를 구분할 줄은 알아!"
+    },
+    {
+      "Name": "메루",
+      "Text": "우선 찾아가 봐야 할 곳은…… 거기다!"
+    },
+    {
+      "Text": "중고 서점 거리"
+    },
+    {
+      "Name": "메루",
+      "Text": "오랜만이구만, 여기도. 으음. 이 익숙한 공기."
+    },
+    {
+      "Text": "[s] \"이곳은……?!\""
+    },
+    {
+      "Name": "메루",
+      "Text": "중고 서점거리지. 우리 <지식해방전선>이 단골로 찾는 곳이기도 하고."
+    },
+    {
+      "Name": "메루",
+      "Text": "그때그때 잘 팔리는 책만을 취급하는 다른 서점들과는 달리…… 정말로 오래된 책들도 차별 없이 다뤄 줘서 고마울 때가 많단 말이야."
+    },
+    {
+      "Name": "메루",
+      "Text": "구할 수 있는 것이라면 뭐든 구할 수 있는 가능성을 갖고 있지만…… 조심하라고. "
+    },
+    {
+      "Name": "메루",
+      "Text": "선생 같은 초심자에게는 그야말로……. 개미지옥 구덩이 같은 곳이니까!"
+    },
+    {
+      "Text": "[s] \"그 무시무시한 비유가 두렵구만…….\""
+    },
+    {
+      "Name": "메루",
+      "Text": "훗훗훗. 아직 감이 오지 않는 선생에게, 업계의 어둠 중 하나에 대해 설명해 줘야 할 때가 온 것 같네……!"
+    },
+    {
+      "Name": "메루",
+      "Text": "우선 오래된 책 같은 경우, 대부분 한 놈만 걸려라 식으로 시세랑 완전히 동떨어진 가격으로 진열되는 케이스가 많아."
+    },
+    {
+      "Name": "메루",
+      "Text": "시세 감각 없고 물정 모르는 초심자들이 주요 타깃이지."
+    },
+    {
+      "Name": "메루",
+      "Text": "일반 중고 상품도 대부분 프리미엄 가격으로 판매되고 있는 데다, 외부로 유출되면…… 여러모로 곤란한 상품들도 버젓이 팔리고 있기도 하고."
+    },
+    {
+      "Name": "메루",
+      "Text": "……그것들 중 가짜가 없을 거란 보장도 없지……."
+    },
+    {
+      "Name": "메루",
+      "Text": "그런데도 왜 다들 여기를 찾는 거냐고? 뭐, 세상에 나가면 안 되는 책이라도, 폐지 수거에 버려져 재생지가 될 바에야, 그 작품의 팬들에게 가는 게 차라리 낫잖아?"
+    },
+    {
+      "Name": "메루",
+      "Text": "결정적으로 구경하는 것만이라면 아무도 뭐라고 하지 않으니까. "
+    },
+    {
+      "Name": "메루",
+      "Text": "아무튼! 여기라면 분명 구할 수 있을 거야! 그 <루나>의 완결권을!"
+    },
+    {
+      "Name": "메루",
+      "Text": "내 손 꼭 잡고 잘 따라와야 한다고? 여기는…… 그야말로 각자 알아서 살아남아야 하는, 와일드한 야생 그 자체니까!"
+    },
+    {
+      "Text": "[s] \"와일드는 이미 야생이라는 뜻입니다. 메루 학생.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "……아무튼!"
+    },
+    {
+      "Text": "[ns] \"뭔가, 도서관이라고 쓰여 있네?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "……저거, 도서관 책 인수하면서 대충 받아온 걸 거야."
+    },
+    {
+      "Name": "메루",
+      "Text": "아무튼 지금부터 노리는 거다! <루나>의 마지막 22권!"
+    },
+    {
+      "Text": "[ns] \"우리 세 시간째 걷고, 보고, 돌아다니고만 있는데……?\""
+    },
+    {
+      "Name": "메루",
+      "Text": "워, 원하는 걸 찾으려면 발품 정도는 팔아야지!"
+    },
+    {
+      "Name": "메루",
+      "Text": "그렇다고는 해도 이쪽 정찰은 끝인 것 같으니……. 다음 장소로 이동하자고!"
+    },
+    {
+      "Name": "메루",
+      "Text": "이런 연결 복도가 있는 줄은 몰랐지? 여길 통해 가면……"
+    },
+    {
+      "Name": "메루",
+      "Text": "규모는 살짝 작은 듯하지만, 여기는 정말 오래된 책만 취급하는 곳이야."
+    },
+    {
+      "Name": "메루",
+      "Text": "여기에서라면…… 분명 찾을 수 있을 거야!"
+    },
+    {
+      "Text": "[ns] \"실패한 것 같습니다. 메루 대장.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "어째서……? 계산은 분명 완벽했는데……?"
+    },
+    {
+      "Text": "[ns] \"뭔가, 시작 장소로 돌아온 느낌인데.\""
+    },
+    {
+      "Name": "메루",
+      "Text": "말도 안 돼. 이렇게까지 찾았는데 단서조차도 발견되지 않다니……."
+    },
+    {
+      "Name": "메루",
+      "Text": "<루나>…… 말로는 들었지만…… 이 정도 수준의 강적이었을 줄이야……!"
+    },
+    {
+      "Name": "???",
+      "Text": "어디에서 익숙한, 그렇지만 조우하고 싶지 않은 목소리가 들린다 했더니 당신이었군요. 메루리 씨."
+    },
+    {
+      "Name": "메루",
+      "Text": "이 목소리는?!"
+    },
+    {
+      "Name": "???",
+      "Text": "평안하셨는지요. 간만에 뵙는군요."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 1;Announcing a Strike"
+    },
+    {
+      "Text": "[ns1] \"Ugh! The work never ends, does it?\""
+    },
+    {
+      "Text": "[ns2] \"No matter how much I do, there's always more.\""
+    },
+    {
+      "Text": "[ns3] \"Just great!!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Uh... Sensei? Wow, you don't look so good."
+    },
+    {
+      "Name": "Meru",
+      "Text": "You're clearly busy today... I-I can call back another time..."
+    },
+    {
+      "Text": "[s] \"Meru, what's wrong? Is there some problem?!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "N-No need to make a fuss! Just because I'm self-conscious doesn't mean there's a problem."
+    },
+    {
+      "Name": "Meru",
+      "Text": "I mean, really. What do you take me for? Am I that, that..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Oh, who am I kidding? You're right. There is something..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "It hadn't really occurred to me before, but I suppose I could use some advice."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But you look busy, and I don't want to inconvenience you, Sensei. You look like you're about to pass out."
+    },
+    {
+      "Text": "[ns] \"I'll be right there! Just hang tight!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "H-Huh? Sensei? Sensei?!"
+    },
+    {
+      "Text": "Red Winter Library"
+    },
+    {
+      "Name": "Meru",
+      "Text": "You were so quick to act, Sensei."
+    },
+    {
+      "Text": "[s] \"What can I say? I'm procrastinating.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "...You know you'll end up having to pull an all-nighter to get it done."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But I suppose that's just human nature. We'll do anything to delay the inevitable as long as possible."
+    },
+    {
+      "Name": "Meru",
+      "Text": "I understand. You know the deadline is coming, but you still just want to have fun..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Heh. It sounds like I'm confessing something."
+    },
+    {
+      "Text": "[s] \"Are you? You sounded very serious.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Did I?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I am a little stressed, but... Was it that obvious?"
+    },
+    {
+      "Text": "[s] \"A bit. I notice Momiji isn't with you.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Ah..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Yeah... That's why I called you, Sensei."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Um..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Momiji...left the library."
+    },
+    {
+      "Text": "[ns] \"Ah. You want to tell me what happened?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Well, you see..."
+    },
+    {
+      "Text": "[ns] \"Hm... Meru, I think you're in the wrong on this one.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "What?! Why are you taking her side?!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I mean, afterward, I did wonder if I went a little too far."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But I'm a creator too! I just stated my professional opinion. The story was lacking! It's nothing to get angry about!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Well, I suppose someone else might think differently..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "And I did reflect on it... It's not like I didn't..."
+    },
+    {
+      "Text": "[s] \"Do you two argue often?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Not that often. Sure, we disagree from time to time. "
+    },
+    {
+      "Name": "Meru",
+      "Text": "But Momiji and I just have different opinions on things. In a job like this, you can't NOT have strong opinions."
+    },
+    {
+      "Name": "Meru",
+      "Text": "It seemed like any other disagreement we've had. I figured we would make up eventually."
+    },
+    {
+      "Name": "Meru",
+      "Text": "But Momiji isn't answering her phone..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "I don't know what to do."
+    },
+    {
+      "Name": "Meru",
+      "Text": "I've never seen Momiji that angry. And she's never run out of the library like that."
+    },
+    {
+      "Name": "Meru",
+      "Text": "What should I do, Sensei?"
+    },
+    {
+      "Text": "[s] \"Why don't you try being honest and apologizing?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "If I thought that would work, I wouldn't have called you, Sensei!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "It's always been like this. Nothing I say gets through to her..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Huh? You disagree?"
+    },
+    {
+      "Text": "[s4] \"Give her a sincere apology, and it'll be fine.\""
+    },
+    {
+      "Text": "[s5] \"And if that doesn't work, I'll step in and help.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "This isn't some story in a novel! There's no way a sincere apology is enough!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I mean, even if it were a novel, people would say it was too shallow...simplistic even!"
+    },
+    {
+      "Text": "[s] \"Well, then what do you think you should do, Meru?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Talking to her isn't enough. I need a more methodical approach..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Some kind of reconciliation formula... "
+    },
+    {
+      "Name": "Meru",
+      "Text": "..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "\"Luna\"..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Hm..."
+    },
+    {
+      "Name": "Momiji",
+      "Text": "The final volume, Volume 22, took kind of a turn, but..."
+    },
+    {
+      "Name": "Momiji",
+      "Text": "I just wanted to know why there's no final volume to wrap up the story."
+    },
+    {
+      "Name": "Meru",
+      "Text": "That's it!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Sensei! I know what to do!"
+    },
+    {
+      "Text": "[ns] \"I thought I'd check in and see how that idea of yours is working out, Meru.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Great! It's like this! You know how Momiji and I fought over the \"Luna\" story?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Well, after that, I did some research. It turns out that the reason nobody can get that final volume is because sales at the time were terrible, so they only printed a few copies of it."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Now they're extremely rare—so much so that it's known as The Elusive \"Luna\" Volume 22!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "If I can get my hands on a copy of the final volume, Momiji will have to forgive me!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "It's the perfect plan! I'm sure it'll work!"
+    },
+    {
+      "Text": "[s6] \"(That might be a little extreme, but...)\""
+    },
+    {
+      "Text": "[s7] \"(I could go along with Meru's plan for now...)\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "You're awfully quiet, Sensei. I guess that means you have no objections!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Ah! You always understand me! I'm so glad I asked for your help, Sensei!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Now I just have to figure out how to get my hands on such a rare book..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "At least we have a goal! If I take it one step at a time, I'm sure a solution will come to me."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Our quest to complete the \"Luna\" set starts now!"
+    },
+    {
+      "Text": "[s8] \"Your first thought was to go outdoors?\""
+    },
+    {
+      "Text": "[s9] \"I'm so proud! I could cry tears of joy!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Tch! I'm not a shut in! Sure, I prefer the indoors, but still!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I know when it's time to go out and get some fresh air!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Now, our first stop should be...here!"
+    },
+    {
+      "Text": "The Used Books District"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I haven't been here in ages! Mm... Smells just like I remember."
+    },
+    {
+      "Text": "[s] \"What is this place?!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "It's a whole street dedicated to used books. The Knowledge Liberation Front comes here all the time."
+    },
+    {
+      "Name": "Meru",
+      "Text": "You see, these aren't your typical bookstores... They specialize in rare and out-of-print books!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "Doesn't matter how old a book is or what it's about. You can find it here. Just...be careful.  "
+    },
+    {
+      "Name": "Meru",
+      "Text": "This place is pretty cutthroat. They eat newbies like you for breakfast!"
+    },
+    {
+      "Text": "[s] \"That's, uh... That's terrifying...\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Heeheehee. I guess you never got the memo about the industry's dark side, huh, Sensei? I can explain."
+    },
+    {
+      "Name": "Meru",
+      "Text": "The first thing you need to know is that everything here is marked up like crazy, because sellers expect to negotiate."
+    },
+    {
+      "Name": "Meru",
+      "Text": "So they love it when naive buyers come around."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Then there's the fact that not everything they're selling is strictly legal...or safe. It would cause major problems if the authorities caught wind."
+    },
+    {
+      "Name": "Meru",
+      "Text": "And no regulation means the less reputable sellers try to pass off fakes to unsuspecting buyers."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Hahaha! You want to know why we come here anyway? Well, regardless of quality or legality or even safety, it's better for collectors to keep it than to let it end up in a landfill somewhere, right?"
+    },
+    {
+      "Name": "Meru",
+      "Text": "And last, if all you're doing is window-shopping, no one will bother you. "
+    },
+    {
+      "Name": "Meru",
+      "Text": "And with that, here we are—the shop that will have the final volume of \"Luna\"!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "But...this place can get pretty rough. It's the wild west in there—survival of the fittest! So...you should probably hold my hand for safety."
+    },
+    {
+      "Text": "[s] \"I'm not sure I'd call a bookshop the wild west, Meru dear.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Uh... Anyway!"
+    },
+    {
+      "Text": "[ns] \"Why does this book have 'Library' on it?\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "Oh, that probably came from a library, and they forgot to remove the tag."
+    },
+    {
+      "Name": "Meru",
+      "Text": "Let's start searching, okay? Volume 22 of \"Luna\", here we come!"
+    },
+    {
+      "Text": "[ns] \"We've been searching for three hours now...?!\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "I-If you want to find a needle in a haystack, you have to do a lot of looking."
+    },
+    {
+      "Name": "Meru",
+      "Text": "That said, I think we've done all we can on this side of the street. Let's go to the next place!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "I bet you didn't notice this alley before, did you? If we go through here..."
+    },
+    {
+      "Name": "Meru",
+      "Text": "It's a tight squeeze, but the bookshop through here has some really old stuff."
+    },
+    {
+      "Name": "Meru",
+      "Text": "If that book is anywhere, it'll be there!"
+    },
+    {
+      "Text": "[ns] \"I'm afraid we've failed our mission, Captain Meru.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "How? My plan was perfect!"
+    },
+    {
+      "Text": "[ns] \"It feels like we're back to square one.\""
+    },
+    {
+      "Name": "Meru",
+      "Text": "This is ridiculous! All that searching and we still don't have a clue where to find it?!"
+    },
+    {
+      "Name": "Meru",
+      "Text": "The rumors said she was elusive. But this is beyond my expectations. \"Luna\" is quite the formidable opponent!"
+    },
+    {
+      "Name": "???",
+      "Text": "I thought I recognized your voice. How unfortunate that I ran into you here... Meruri."
+    },
+    {
+      "Name": "Meru",
+      "Text": "That voice!"
+    },
+    {
+      "Name": "???",
+      "Text": "It's been quite some time. How are you?"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 1;ประกาศหยุดงาน"
+    },
+    {
+      "Text": "[ns1] \"ลั้ลล้า~ ขี้เกียจทำงานจัง~ ทำไมงานมีเป็นกองเลย~\""
+    },
+    {
+      "Text": "[ns2] \"ทำไมทำงาน แต่งานไม่ลดลงเลย~\""
+    },
+    {
+      "Text": "[ns3] \"งานแปลกๆ ก็มีให้เจอ~\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฮะ... ฮัลโหล ครู? ว้าว... วันนี้สีหน้าก็ดูไม่จืดเหมือนกันเลยแฮะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หรือว่าฉันไม่ควรโทรหาตอนยุ่งๆ นะ... สงสัยจะโทรผิดวันซะแล้ว งั้นวางละนะ..."
+    },
+    {
+      "Text": "[s] \"เมรุ เป็นอะไรหรือเปล่า! เกิดเรื่องอะไรขึ้นเหรอ?!\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ทะ... ทำไมอยู่ดีๆ ก็เอะอะขึ้นมาล่ะ? ว่าไงนะ? เห็นฉันเป็นห่วงคนอื่นขึ้นมา ก็เลยคิดว่าสงสัยจะเกิดเรื่อง\nใหญ่งั้นเหรอ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "มองฉันเป็นคนยังไงเนี่ย! ฉันดูเหมือนคนที่! คนที่..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฮึ่ม ฮึ่ม... เอาเถอะ ตะ... แต่ก็จริงแหละ ไม่ใช่ว่าฉัน... ไม่มีเรื่องอะไรหรอก..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อยากปรึกษาครูไหมน่ะเหรอ? เอ่อก็... ไม่ได้คิดไปถึงขนาดนั้นแฮะ ฟังดูแล้วก็เข้าท่าอยู่นะ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ท่าทางครูก็ดูจะยุ่งมากๆ อยู่ด้วย ฉันว่าฉันไม่ควรจะรบกวนอะไรครูน่ะ ขืนรบกวนตอนนี้เดี๋ยวครูจะเป็น\nลมล้มพับไปซะก่อน..."
+    },
+    {
+      "Text": "[ns] \"เดี๋ยวครูไปหาเดี๋ยวนี้เลย! รอก่อนนะ!\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เอะ... เอ๋? ครู? ครู?!"
+    },
+    {
+      "Text": "ห้องสมุดเรดวินเทอร์"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...พลังล้นเหลือเลยนะเนี่ย ครู"
+    },
+    {
+      "Text": "[s] \"ขอบอกตามตรงละกัน ครูมาเพราะขี้เกียจทำงานน่ะ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...สุดท้ายแล้วก็จะดินพอกหางหมูแล้วก็ต้องมาทำอยู่ดีไม่ใช่เหรอ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ต่อให้รู้อยู่แก่ใจว่างานจะรุมจนไฟลนก้น แต่ก็เป็นธรรมดาที่คนเราอยากหลีกเลี่ยงงั้นเหรอ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อืม... ฉันเข้าใจดีเลย ต่อให้รู้ดีว่าจวนจะถึงเดดไลน์แล้ว แต่ก็ยังเลือกที่จะไปเที่ยวเล่น..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เดี๋ยวนะ ทำไมบรรยากาศมันเหมือนว่าฉันกำลังสารภาพอะไรอยู่ล่ะ?!"
+    },
+    {
+      "Text": "[s] \"คำพูดคำจาของเมรุฟังดูแปลกๆ ไปนะ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หืม ฉันเหรอ...?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เหมือนฉันรู้สึกประหม่างั้นเหรอ? ดูออกขนาดนั้นเลยเหรอเนี่ย..."
+    },
+    {
+      "Text": "[s] \"จะว่าไป ไม่เห็นโมมิจิอยู่ด้วยกันเลยแฮะ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อ่า..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อืม... ที่จริงเป็นเพราะเรื่องนั้นแหละ ฉันก็เลยโทรไปหาครูน่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "คือว่า... ครู"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "โมมิจิ... ออกจากห้องสมุดไปแล้วน่ะ"
+    },
+    {
+      "Text": "[ns] \"เรื่องมันเป็นมายังไงกันน่ะ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เรื่องก็มีอยู่ว่า..."
+    },
+    {
+      "Text": "[ns] \"อืม... เป็นความผิดเมรุแฮะ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ครูก็เป็นไปกับเขาด้วยเหรอ?!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "พอพูดไปแบบนั้นแล้ว... ฉันเองก็สำนึกผิดอยู่หรอกนะ... ว่าตัวเองก็พูดแรงไป... นิ๊ดดดหนึ่ง"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ในฐานะของนักสร้างสรรค์คนหนึ่ง! ฉันก็แค่พูดวิจารณ์ผลงานในจุดที่ตัวเองคิดว่าบกพร่องก็เท่านั้น\nเอง ไม่เห็นจะต้องโกรธกันขนาดนั้นเลยนี่?!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...ไม่สิ จริงๆ มันก็... ในบางกรณีก็อาจจะโกรธกันบ้างก็ได้..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่นั่นก็ไม่ได้หมายความว่า... ฉันไม่ได้สำนึกผิดอยู่นะ..."
+    },
+    {
+      "Text": "[s] \"ปกติทะเลาะกันบ่อยไหม?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ก็ไม่ถึงกับบ่อยหรอก... แต่ก็ไม่ใช่ว่าจะไม่มีปากเสียงกันเลยน่ะ "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "โมมิจิกับฉันมีรสนิยมที่ค่อนข้างแตกต่างกัน และปัญหาเรื่องรสนิยม... ก็เป็นเรื่องสำคัญของ 'ทางนี้'"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ที่ผ่านมาเราเคยทะเลาะกันเพราะเรื่องนี้อยู่บ้าง... ฉันก็เลยคิดว่าครั้งนี้เราก็คงจะคืนดีกันได้ทันทีเหมือน\nเมื่อก่อน"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ว่าโมมิจิไม่ยอมรับโทรศัพท์ฉันเลยน่ะ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฉันไม่รู้เลยว่าต้องทำยังไงดี..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฉันเพิ่งจะเคยเห็นโมมิจิโมโหแบบนั้นเป็นครั้งแรก และนี่ก็เป็นครั้งแรกด้วยที่เธอออกไปจากห้องสมุด\nด้วยตัวเอง"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เอายังไงดีล่ะครู...?"
+    },
+    {
+      "Text": "[s] \"ไปขอโทษจากใจจริงดูก่อนไหม?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถ้ามันคลี่คลายง่ายดายขนาดนั้น ฉันคงไม่โทรมาหาครูหรอก!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เดิมที... ฉันไม่คิดว่าพูดไปแล้วมันจะเวิร์กตั้งแต่แรกแล้ว..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หืม? ครูไม่คิดอย่างนั้นเหรอ?"
+    },
+    {
+      "Text": "[s4] \"อืม ถ้าขอโทษอย่างจริงใจ ก็จะเป็นไปได้ด้วยดีเอง\""
+    },
+    {
+      "Text": "[s5] \"แต่ถ้ายังไม่ได้ผล ครูจะช่วยอีกแรง\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ลำพังแค่คำขอโทษอย่างจริงใจ มันไม่มีทางเป็นไปได้ด้วยดีหรอก! เรื่องแบบนั้นน่ะมันมีแค่ในนิยาย\nเท่านั้นแหละ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่สิ ถ้านิยายออนไลน์มีเนื้อหาแบบนั้น คนอ่านได้พากันสาปแช่งหมดแน่! เผลอๆ จะพากันมา\nคอมเมนต์ด้วยอีกว่าโลกสวยเกินไป!"
+    },
+    {
+      "Text": "[s] \"งั้นถ้าแค่ขอโทษยังไม่พอ เมรุคิดว่าต้องทำอะไรล่ะ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แค่คำพูดยังไม่พอ... ต้องหาอะไรที่เป็นรูปธรรมหน่อย..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "วิธีคืนดี... วิธีคืนดีที่เป็นรูปธรรม... "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "......"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "<ลูน่า>..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หืม?"
+    },
+    {
+      "Name": "โมมิจิ",
+      "Text": "แต่ด้วยเหตุผลหลายอย่าง ทำให้เล่ม 22 ที่เป็นเล่มจบบริบูรณ์ต้องเจอชะตากรรมแบบนั้น..."
+    },
+    {
+      "Name": "โมมิจิ",
+      "Text": "ถามมาได้ว่าทำไมไม่มีเล่มจบบริบูรณ์ ฉันต่างหากค่ะที่อยากถามแบบนั้น!!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "อันนั้นแหละ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ครู! ฉันมีความคิดดีๆ แล้ว!"
+    },
+    {
+      "Text": "[ns] \"ครูชักจะกังวลแล้วสิ ขอถามได้ไหมว่า 'อันนั้น' ของเมรุคืออะไร?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ก็แบบนี้ยังไงล่ะ! ที่ฉันกับโมมิจิทะเลาะกัน เป็นเพราะ <ลูน่า> นั่น!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "หลังจากทะเลาะกับโมมิจิ ฉันก็ไปหาข้อมูลมา ยิ่งเข้าตอนหลังๆ ยอดขายของ <ลูน่า> ก็ยิ่งตกต่ำลง ทำให้เล่มจบบริบูรณ์ถูกพิมพ์แค่ไม่กี่เล่มเท่านั้น"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "และเพราะแบบนี้เอง เล่ม 22 ที่เป็นเล่มจบก็เลยหายากเป็นพิเศษ... จนได้ชื่อว่าเป็น 'เล่ม 22 ในฝัน'!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฉันจะหา <ลูน่า> เล่มจบบริบูรณ์แล้วเอาไปให้โมมิจิเป็นของขวัญ แบบนี้ก็จะเป็นทั้งการส่งความจริงใจ และเป็นการขอคืนดีได้ด้วย!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ใช่เลย วิธีนี้แหละ! เอาตามนี้เลย!"
+    },
+    {
+      "Text": "[s6] (ต้องทำถึงขนาดนั้นเลยเหรอ...)"
+    },
+    {
+      "Text": "[s7] (เอาตามที่เมรุเสนอก่อนแล้วกัน...)"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ทำไมไม่พูดอะไรเลยล่ะครู? หืม? เห็นด้วยกับวิธีของฉันเหรอ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "กะไว้แล้วเชียวว่าครูต้องเข้าใจ! ฉันทำถูกแล้วละที่ขอให้ครูช่วย!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ว่าแต่... ต้องทำยังไงถึงจะหา <ลูน่า> เล่มจบบริบูรณ์ที่ได้ชื่อว่าเป็นหนังสือในฝันได้นะ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เรื่องกระบวนการไม่สำคัญหรอก! ที่สำคัญคือเป้าหมายถูกกำหนดไว้แล้วต่างหาก! ที่เหลือก็แค่เข้าสู่\nการลงมือทำ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "จากนี้เราจะออกสำรวจเพื่อทำให้หนังสือชุด <ลูน่า> สมบูรณ์ให้ได้!"
+    },
+    {
+      "Text": "[s8] \"คิดไม่ถึงเลยแฮะว่าเมรุจะชวนไปข้างนอก...\""
+    },
+    {
+      "Text": "[s9] \"ครูคนนี้ซาบซึ้งจนน้ำตาจะไหลแล้ว...\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เสียมารยาทนะเนี่ย! ถึงฉันจะชอบอยู่แต่ในห้องมากกว่าออกไปข้างนอกก็เถอะ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ฉันก็แยกแยะออกนะว่าตอนไหนควรลุกขึ้นมาทำอะไร หรือตอนไหนต้องอยู่เฉยๆ น่ะ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ก่อนอื่นเลย ที่ที่เราต้องไปก็คือ... ที่นี่!"
+    },
+    {
+      "Text": "ถนนร้านหนังสือมือสอง"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่ได้มาตรงนี้นานแล้วแฮะ ฮืม อากาศที่คุ้นเคย"
+    },
+    {
+      "Text": "[s] \"ที่นี่คือ...?!\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถนนร้านหนังสือมือสองไง พวกเราชาว <ชมรมแนวร่วมปลดปล่อยความรู้> เป็นลูกค้าประจำของที่นี่เลย"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ร้านหนังสือที่นี่ต่างจากร้านอื่นๆ ที่ขายแต่หนังสือขายดีในตอนนั้นเท่านั้น... ที่นี่ยังมีหนังสือเก่าๆ ด้วยนะ หลายครั้งเลยละที่ฉันรู้สึกขอบคุณที่เขาไม่เลือกปฏิบัติต่อหนังสือ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถึงจะมีความเป็นไปได้สูงว่าเราจะหาซื้อทุกอย่างได้จากที่นี่... แต่ยังไงก็ระวังไว้หน่อยก็ดี "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "โดยเฉพาะมือใหม่อย่างครูน่ะ... อาจจะเผลอตกไปในวังวนขุมนรกแห่งการดองหนังสือเลยก็ได้!"
+    },
+    {
+      "Text": "[s] \"ดูพูดเข้าสิ ขู่ซะน่ากลัวเชียว...\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ฮิฮิฮิ ยังไม่เข้าใจสินะ เห็นทีฉันคงต้องอธิบายด้านมืดอย่างหนึ่งของวงการนี้ให้ครูฟังแล้วละ...!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ก่อนอื่นเลยก็ ถ้าหากว่าหนังสือนั้นเป็นหนังสือเก่าๆ ก็จะติดราคาที่ต่างออกไปจากราคาตลาดในตอน\nนั้นอย่างสิ้นเชิง เคสแบบนี้มีให้เห็นเยอะเลยละ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เป้าหมายของร้านพวกนี้คือนักอ่านมือใหม่ที่ไม่รู้ราคาตลาดและอ่อนต่อโลกน่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "นอกจากหนังสือมือสองทั่วไปที่ขายในราคาพิเศษแล้ว ยังมีหนังสืออื่นที่ถ้าเผยแพร่ออกไปข้างนอก\nแล้วจะเกิดปัญหาตามมาด้วย"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...แล้วก็รับประกันไม่ได้ด้วยนะว่าในบรรดาหนังสือพวกนั้นจะไม่มีหนังสือปลอมน่ะ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "แต่ทำไมคนก็ยังมาหาซื้อหนังสือจากที่นี่อยู่น่ะเหรอ? ก็... อย่างพวกหนังสือที่ไม่ควรเผยแพร่สู่สายตา\nชาวโลก ถ้าจะให้ถูกทิ้งจนเป็นกระดาษรีไซเคิล สู้ให้ไปอยู่ในมือแฟนๆ ไม่ดีกว่าเหรอ?"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "และต่อให้มาเดินดูอย่างเดียวโดยที่ไม่ได้ซื้อกลับไป ก็ไม่มีใครว่าอะไรด้วย "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เอาเถอะ! ถ้าเป็นที่นี่ละก็ ฉันว่าต้องหา <ลูน่า> เล่มจบบริบูรณ์ได้แน่นอน! "
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "จับมือฉันเอาไว้แล้วเดินตามมาให้ดีๆ นะ ที่นี่น่ะ... เป็นพื้นที่โหดร้ายป่าเถื่อน ที่แต่ละคนต้องเอาตัวรอด\nกันด้วยตัวเอง!"
+    },
+    {
+      "Text": "[s] \"โหดร้ายกับป่าเถื่อนมันก็เหมือนๆ กันนะ  เมรุ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...เอาเถอะน่า!"
+    },
+    {
+      "Text": "[ns] \"มีอันที่เขียนว่าห้องสมุดอยู่ด้วยแฮะ?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "...คงเป็นไปได้ว่าน่าจะรับหนังสือจากห้องสมุดมาแบบลวกๆ อีกทีน่ะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เอาเป็นว่าจากนี้เราจะมาตามหากันอย่างจริงๆ จังๆ กันแล้ว! ฉันต้องเจอเธอให้ได้เลย <ลูน่า> เล่ม 22!"
+    },
+    {
+      "Text": "[ns] \"นี่เราเดินหาหนังสือมา 3 ชั่วโมงแล้วนะ...?\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถะ... ถ้าจะหาหนังสือที่อยากได้ มันก็ต้องอดทนเดินหาแบบนี้แหละ!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ว่าแต่ฝั่งนี้เหมือนว่าเราจะเดินหากันทั่วแล้วนะ... งั้นก็ไปสถานที่ต่อไปกันเลย!"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ไม่รู้ใช่ไหมล่ะว่ามีทางเดินเชื่อมกันแบบนี้ด้วย? ถ้าผ่านตรงนี้ไป..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถึงมันจะดูเล็กไปหน่อย แต่ร้านนี้มีแต่หนังสือเก่าเท่านั้นเลยนะ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถ้าเป็นที่นี่ละก็... ต้องหาเจอแน่นอน!"
+    },
+    {
+      "Text": "[ns] \"น่าจะล้มเหลวแล้วนะ หัวหน้าเมรุ\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ทำไมนะ...? การคำนวณของฉันมันสมบูรณ์แบบเลยนี่นา..."
+    },
+    {
+      "Text": "[ns] \"เหมือนกับว่าเราวนกลับมาที่จุดเริ่มต้นอีกรอบเลย\""
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เป็นไปไม่ได้ ฉันอุตส่าห์หาขนาดนี้ แต่แค่เบาะแสก็ยังไม่เจอเลยเนี่ยนะ..."
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "ถึงจะได้ยินกิตติศัพท์ของ <ลูน่า> มาบ้าง... แต่ก็ไม่คิดเลยว่าจะเป็นศัตรูที่แข็งแกร่งแบบนี้...!"
+    },
+    {
+      "Name": "???",
+      "Text": "ก็ว่าอยู่ว่าได้ยินเสียงที่คุ้นเคยแต่ไม่อยากจะเจอตัวสักเท่าไร ที่แท้ก็คุณนี่เองสินะคะ คุณเมรูริ"
+    },
+    {
+      "Name": "เมรุ",
+      "Text": "เสียงนี้มัน?!"
+    },
+    {
+      "Name": "???",
+      "Text": "สบายดีหรือเปล่าคะ? ไม่ได้เจอกันนานเลยนะคะ"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第1話;罷工宣言"
+    },
+    {
+      "Text": "[ns1]「啦啦～不想工作～為什麼工作越積越多～」"
+    },
+    {
+      "Text": "[ns2]「越努力工作，工作就越多～」"
+    },
+    {
+      "Text": "[ns3]「這真是～太神奇了～」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "呃……喂～老師？\n哇……老師臉色真差啊，還好嗎？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "既然你這麼忙……看來今天時機不對，我就先掛了……"
+    },
+    {
+      "Text": "[s]「愛瑠，你怎麼了！發生了什麼很嚴重的事嗎！？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "為，為什麼突然這麼激動啊！？\n啊？我竟然會看別人的臉色，肯定是出大事了？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我在老師心裡到底是個怎樣的人啊！\n我明明就……！明明就……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……咳哼。\n總之……老師說的沒錯，我確實……遇上了一些事……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "需不需要和你商量？\n嗯……本來是沒這個打算，但聽你這麼一說，好像是有這個必要……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不過老師現在這麼忙，好像不該打擾你。\n而且感覺老師一副快昏倒的樣子……"
+    },
+    {
+      "Text": "[ns]「我現在就過去，你等著！」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "咦，咦？老師？老師！？"
+    },
+    {
+      "Text": "赤冬聯邦學園．圖書館"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……真是驚人的行動力啊，老師。"
+    },
+    {
+      "Text": "[s]「不瞞你說，我其實只是不想工作而已！」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……反正最後還不是要加班把工作趕完。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "明知道自己正在邁向毀滅，仍然僥倖地想著能躲多久就躲多久……\n這果然是每個人類的通病啊。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "嗯……我明白，我何嘗不明白。\n就像明明知道截稿期限就快到了，卻還是會選擇玩樂一樣……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "等等，為什麼我突然就開始自白了啊！？"
+    },
+    {
+      "Text": "[s]「感覺你的聲音聽起來不太一樣，愛瑠。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "咦，你說我嗎……？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "語氣中好像少了一點從容？\n我的心情原來這麼顯而易見嗎……"
+    },
+    {
+      "Text": "[s]「這麼說來，好像沒看到紅葉呢。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "啊……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "嗯……其實我打電話給老師就是為了這件事。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "那個，老師。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "紅葉他……離開圖書館了。"
+    },
+    {
+      "Text": "[ns]「發生了什麼事？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "事情是這樣的……"
+    },
+    {
+      "Text": "[ns]「嗯……聽起來是你的錯呢，愛瑠。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "連老師也這麼說！？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "其實我說完之後……也反省過自己是不是說得太過分了。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "可是我也只不過是站在同為創作者的角度，\n將我在那部作品中看到的缺點如實地講出來而已……有必要那麼生氣嗎！？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不過每個人的個性不同，他會生氣……或許也情有可原……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "但要這麼說的話……我也不是沒有在反省啊……"
+    },
+    {
+      "Text": "[s]「你們常常這樣吵架嗎？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "雖然不能說經常……偶爾確實會意見不合。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "畢竟我跟紅葉的喜好不太一樣，而這個問題……\n在「我們圈裡」算是挺重要的。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我本來以為這次也會像之前一樣……能夠馬上和好的……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "可是紅葉到現在都不接我電話……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我實在不知道該怎麼辦才好……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我還是第一次看到紅葉那麼生氣……也是第一次看見他離開圖書館。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師，我現在該怎麼辦……？"
+    },
+    {
+      "Text": "[s]「總之，先試著誠懇地跟他道歉怎麼樣？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "如果這麼簡單就能解決的話，我就不用找老師過來了！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "我們兩個從一開始……對話的頻率就對不上……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "嗯？老師……你說你不這麼認為？"
+    },
+    {
+      "Text": "[s4]「只要你願意誠心道歉、認真溝通的話，問題一定能順利解決的。」"
+    },
+    {
+      "Text": "[s5]「如果這樣還是不行，我再陪你想別的辦法。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "怎麼可能只要道歉就能解決所有問題……又不是在寫小說！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不，就算是現在的網路小說，這樣寫肯定也是會被罵的！\n說超展開也要有限度之類的！"
+    },
+    {
+      "Text": "[s]「如果道歉還不夠的話，愛瑠還有想到其他的方法嗎？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "光是用嘴巴說說是不夠的……我必須想個更加具體的……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "和好計畫……然後靠這個計畫…… "
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "《LUNA》……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "紅葉",
+      "Text": "雖然因為一些原因，第二十二卷最終卷……有點一言難盡……"
+    },
+    {
+      "Name": "紅葉",
+      "Text": "竟然還問為什麼沒有最終卷？\n我才想問咧！！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "就是這個！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師！我想到了一個好點子！"
+    },
+    {
+      "Text": "[ns]「我突然覺得有點不安，可以麻煩你詳細地把『好點子』告訴我嗎。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "就是那個啊！\n我跟紅葉之所以會吵架，追根究底還是因為《LUNA》的關係嘛！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "紅葉離開後，我自己也查了一下……\n《LUNA》因為後期銷量越來越差的關係，最終卷的發行量相當稀少。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "想要找到它非常困難，所以第二十二卷最終卷……\n似乎也被稱作「夢幻的第二十二卷」之類的？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "既然如此，只要能找到《LUNA》的最終卷送給紅葉當禮物，\n他一定會明白我的真心，並且原諒我的！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "沒錯，這樣就對了！執行這個計畫吧！"
+    },
+    {
+      "Text": "[s6]（雖然感覺沒必要做到那個地步……）"
+    },
+    {
+      "Text": "[s7]（不過暫時就先照著愛瑠的話去做吧……）"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師為什麼一句話也不說？\n嗯？你覺得我說的也有道理？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "果然老師就是好溝通！幸好有向老師求助！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……你問要怎麼找到那本被稱作夢幻之書的《LUNA》最終卷？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "那種事不重要啦！\n重點是我們已經確定了目標！接下來只要付諸行動就行了！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "好，那我們現在就出發，以湊齊全套《LUNA》為目標吧！"
+    },
+    {
+      "Text": "[s8]「沒想到你竟然會主動說要離開圖書館……」"
+    },
+    {
+      "Text": "[s9]「愛瑠，老師開心到眼淚都要流出來了……」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "真沒禮貌！我只是比起去外面玩，更喜歡待在室內而已！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "什麼時候該行動、什麼時候能偷懶，這種事我還是分得出來的！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "那麼首先，我們該去的地方……就是那裡！"
+    },
+    {
+      "Text": "中古書店街"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "好久沒來這裡了呢。\n嗯～這熟悉的空氣……"
+    },
+    {
+      "Text": "[s]「這裡是……！？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "這裡是中古書店街，也是我們「知識解放戰線」經常來的地方。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "這裡不像其他書店只會販售近期熱門的書籍……\n就連非常老的書也能受到同等的尊重，所以我們也常常會來。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "雖然在這裡幾乎什麼都能找到……不過老師你要小心哦。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "對老師這樣的古書新手來說……這裡簡直就是一個吃人的坑！"
+    },
+    {
+      "Text": "[s]「你說的這麼誇張，還真讓我有些害怕……」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "哼哼哼，既然老師還無法感同身受，就讓我來說個業界的鬼故事給你聽吧……！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "首先，這裡賣的是大多是年代已久的書籍，價格往往比市價高上許多，\n畢竟只要有一隻肥羊上鉤就夠了。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "而那些對市場行情一無所知的新手，就是店家們的主要目標。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "除了以高價販售的一般中古商品外，\n這裡也正大光明地販售著一些要是流到市面上……會引來許多麻煩的商品。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "而且也沒人能保證，那些東西全都是真貨……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "問我為什麼還這麼多人來？這個嘛……畢竟就算是見不得光的書，\n與其拿去資源回收變成再生紙，不如讓那些作品的粉絲擁有它們不是嗎？"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "而且就算只是來這裡湊熱鬧，也沒有人會趕你走。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "總之！我相信這裡一定找得到《LUNA》的最終卷的！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師，你絕～對不能放開我的手，一定要緊緊跟著我哦？\n畢竟這裡……基本上就跟弱肉強食的Wild野生世界沒兩樣。"
+    },
+    {
+      "Text": "[s]「Wild跟野生是同一個意思哦，愛瑠同學。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……哎呀，不要挑我語病嘛！"
+    },
+    {
+      "Text": "[ns]「咦，這間店的外面是不是寫著圖書館？」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "……可能是因為店裡的書大部分都是從圖書館買來的吧。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "無論如何，我們現在的目標就只有《LUNA》第二十二卷！"
+    },
+    {
+      "Text": "[ns]「我們已經在這裡找三個小時了……」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "想要找到自己想找的東西，費點體力不是理所當然的事嗎！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "不過，這裡的搜索確實已經差不多了……\n我們前往下一個地點吧！"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "老師，你肯定沒看過這種連接走廊吧？\n只要通過這裡……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "就能抵達這個看似狹小，卻販售著真正年代久遠的書的書店哦。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "如果是這裡……肯定能找得到！"
+    },
+    {
+      "Text": "[ns]「看來你的計畫好像失敗了呢，愛瑠隊長。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "怎麼會……？\n我的計算明明完美無缺的啊……"
+    },
+    {
+      "Text": "[ns]「感覺我們繞來繞去，最終好像繞回了原點。」"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "這怎麼可能……都找到這個地步了，竟然還是連一點線索都沒有……"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "《LUNA》……雖然早就聽聞過它的事蹟……\n沒想到竟然真的是這麼強勁的對手……！"
+    },
+    {
+      "Name": "???",
+      "Text": "難怪覺得好像聽見了熟悉卻莫名讓人想迴避的聲音……\n果然是你啊，Meruri同學。"
+    },
+    {
+      "Name": "愛瑠",
+      "Text": "這個聲音是……！？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "別來無恙，好久不見了吧？"
+    }
+  ]
+}

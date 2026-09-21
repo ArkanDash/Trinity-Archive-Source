@@ -1,0 +1,3107 @@
+{
+  "TitleJP": "ニンジン作戦（２）",
+  "TitleKR": "당근 작전 2",
+  "TitleEN": "Operation Carrot 2",
+  "TitleTH": "ปฏิบัติการแคร์รอต 2",
+  "TitleTW": "胡蘿蔔作戰（２）",
+  "DescJP": "どうにかロボット警備員をかわしたものの、ミユと連絡がとれなくなってしまったRABBIT小隊一行。先生の言葉からアイデアを思いついたサキとミヤコは、ドラム缶を被って敵の視線をかわし、無事ミユとの合流に成功する。そして公園に戻ってきたRABBIT小隊員たちは、久しぶりの入浴を心から楽しんだのだった。",
+  "DescKR": "낙오된 미유를 구출하기 위해 작전을 짜는 선생님과 소대원들. 미야코와 사키는 선생님의 아이디어에 따라 드럼통을 뒤집어쓴 채 목표 지점에 잠입하여 미유를 구출해 낸다. 무사히 작전을 완료한 RABBIT 소대원들은 드럼통에 물을 데워 간만의 목욕을 즐긴다.",
+  "DescEN": "Sensei and the squad members plan to rescue Miyu, who has gotten lost. Following Sensei's plan, Miyako and Saki infiltrate the target area while wearing drum barrels and they safely rescue Miyu. The squad returns home and takes a well-deserved drum barrel bath.",
+  "DescTH": "คุณครูกับสมาชิกกองทหารคิดวางแผนไปช่วยมิยุที่ถูกทิ้งไว้กลับมา\nมิยาโกะกับซากิเอาถังมาคลุมตัวไว้ตามไอเดียของคุณครู ทั้งคู่เข้าไปถึง\nจุดหมายและช่วยมิยุมาได้ กองทหาร RABBIT ทำปฏิบัติการสำเร็จไปได้\nด้วยดีและได้ผ่อนคลายกับการอาบน้ำอุ่นในถังที่หามา",
+  "DescTW": "老師和小隊成員為了解救掉隊的美優而擬定作戰。都子和咲希依照老師的點子，蓋上汽油桶潛入目標地點救出美優。平安結束作戰的RABBIT小隊隊員們用汽油桶享受了一次難得的沐浴時光。",
+  "DialogJP": [
+    {
+      "Name": "警備員A",
+      "Text": "ちっ、コソ泥が……どこに行きやがった？"
+    },
+    {
+      "Name": "警備員A",
+      "Text": "遠くまでは行ってないはず……この辺りを探せ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "だからコソ泥じゃないっての！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "サキ、声を落としてください。気づかれてしまいます。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "キャンプRABBITへ、こちらRABBIT1。ポイン[ruby=エコー]トEに[/ruby]到着しました。目標の「ニンジン」も無事に確保。幸いにも負傷者はいませんが……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "先ほどの交戦で、当初の計画にあった退路が使えなくなりました。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "加えて、敵の増援も確認……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "ま、サキが隊長って時点でこうなると思ったけど。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "完璧なのは理論だけ、実際にやると失敗ばっかりだし。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うるさい！モエだって、実技の演習はダメダメだっただろ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "くそっ、何が問題だったんだ……？"
+    },
+    {
+      "Text": "[s] \"実際にやってみると上手く行かないことって多いよね。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちっ、SRTの実力を見せつけるせっかくのチャンスだったのに……シャーレにもこんな失態を見せるなんて……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……ところで、ミユはどこに？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "え、一緒にいるんじゃないの？GPS上では、反応が重なってるけど。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まさか……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あのバカ……！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "無線機をバッグに入れたままじゃんか！"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "先ほどの交戦時に焦ったのでしょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "あそこから移動したとして……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "B棟にある、あのタワークレーンでしょうか。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "B棟って……あそこ、さっき見た感じ警備員がわんさかいたぞ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あの辺は遮蔽物も無いし、自力での脱出は期待できそうにないな……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……サキ、どうしますか。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "どうするも何も、助けるしかないだろ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "となると、このドラム缶は置いていくか。いくら何でも、ドラム缶を背負ったまま戦うわけにはいかないしな……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そうですね。残念ですが「ニンジン」は諦めて、まずは救出を図るとしましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "敵の数も多いですし……覚悟をした方が良さそうです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……先生？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "どうかしましたか？"
+    },
+    {
+      "Text": "[s] \"ドラム缶を被っていくのはどう？\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……正気ですか？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ドラム缶を被ったまま移動し、敵の目を誤魔化すと……？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……待て、確かに本で読んだことがあるぞ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ダンボールやドラム缶を使って幾多の潜入任務を成功させた、伝説的な工作員の話を……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "いえ、いくら何でも、それで怪しまれないわけが……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "でも他に方法も無いだろ？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "私だって、この先生に従いたくはない。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "でも、私のミスで作戦が失敗したり、隊員に怪我が発生する方が……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……分かりました。それに従いましょう。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "それでは、身長に合うドラム缶を装備。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT4の救出に向かいましょう！"
+    },
+    {
+      "Name": "警備員A",
+      "Text": "……ん？あんなところにドラム缶なんかあったっけ？"
+    },
+    {
+      "Name": "警備員B",
+      "Text": "知るか。この港湾にドラム缶がどれだけあると思ってるんだ。お前、全部の位置を覚えてるわけじゃないだろ？"
+    },
+    {
+      "Name": "警備員A",
+      "Text": "まあ、そうだけどさ……"
+    },
+    {
+      "Name": "警備員A",
+      "Text": "何か不自然っていうか、動いた気がするっていうか……。"
+    },
+    {
+      "Name": "警備員B",
+      "Text": "疲れてるんだろ。"
+    },
+    {
+      "Name": "警備員B",
+      "Text": "ほら、さっさとコソ泥を捕まえて休もうぜ。"
+    },
+    {
+      "Name": "ドラム缶（ミヤコ）",
+      "Text": "……まさか、本当に気付かれないとは。"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "私も半信半疑だったけど……。"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "そんじょそこらの偽装とか、遮蔽物より効果がありそうだな。"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "ここまで効果があるなら、もっと沢山持って帰りたいところだが。"
+    },
+    {
+      "Name": "ドラム缶（ミヤコ）",
+      "Text": "まあ、ひとりで二つ以上持って帰るのは現実的ではありませんね。"
+    },
+    {
+      "Name": "ドラム缶（ミヤコ）",
+      "Text": "SRTに戻った際に、購入を検討しましょう。"
+    },
+    {
+      "Name": "ドラム缶（ミヤコ）",
+      "Text": "……RABBIT2、もうすぐランデブーポイントに到達します。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "み、みんな、どこに行ったの……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "サキちゃん……ミヤコちゃん……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "この状況じゃ大声も出せないし、無線機もどっか行っちゃったし……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "もう終わりなんだ……このままみんなにも忘れられて……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "このクレーンの上で、干からびて死んじゃうんだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "……？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ど、ドラム缶が動いた……！？"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "ミユ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "さらに喋った……！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "な、何？新しい未確認生物！？這い寄る混沌……！？"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "こっち！早く中に入れ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "うぅ、怪物が私を引きずり込んで、ひとつになろうと……！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ど、ドラム缶さん、私なんて食べても多分美味しくないです……！"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "そんなバカなこと言ってる場合か！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "干からびて終わるんじゃなくて、ドラム缶に食べられて終わるなんて……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "そんな、そんな終わり方……！"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "ああもうっ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "私だっての！気づけ！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "さ、サキちゃん……？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ドラム缶を使って、バレないようにここまで来たんだよ。ほら、さっさと行くぞ。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "さ、サキちゃん……私、みんなに捨てられたかと……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "違うから、ほらさっさと中に入れ。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あと、SRTが作戦中に泣くな！"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "う、うん……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "じゃあ、警備員に気づかれる前に早く――"
+    },
+    {
+      "Name": "警備員A",
+      "Text": "いたぞ、侵入者だ！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ちっ、バレた！"
+    },
+    {
+      "Name": "モエ",
+      "Text": "敵の接近を確認……あー、こりゃ凄い数のドローンだ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "RABBIT2、どうしますか？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こういう時は……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "とにかく走れ！！"
+    },
+    {
+      "Text": "その後ドラム缶を被ったまま、降り注ぐ銃弾の中を走り……何とか公園まで辿り着いた。"
+    },
+    {
+      "Text": "子ウサギ公園・小隊キャンプ場"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "はぁ、はぁ……ここまで来れば大丈夫だろ……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "うお、何だこいつ。未確認生物？這い寄る混沌？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ま、とりあえず一回燃やすか。"
+    },
+    {
+      "Name": "ドラム缶（サキ）",
+      "Text": "やめろ！私だって、私！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "誰が這い寄る混沌だよ。っていうかさっき、ミユにもそれ言われたし……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……無事に戻れましたね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "特に負傷者もいないようで何よりです。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……[USERNAME]先生は、怪我などは？"
+    },
+    {
+      "Text": "[s1] \"私も大丈夫だよ。\""
+    },
+    {
+      "Text": "[s2] \"ドラム缶のおかげで。\""
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そうでしたか。もし万が一、私たちの作戦中に先生が怪我をされたら……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "そうでしたか。もし万が一、私たちの作戦中に先生が怪我をされたら……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "連邦生徒会からまた、どんな処罰を受けるか分かったものではありませんから。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "いやー、にしてもサキは思いっきり醜態晒してたなあ。あんなに自信満々だったのに。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "相変わらず実践に弱いねー。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "うるさい。予想外の事態さえ無ければ、5分で終わってた。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "まったく、現実はいつもこうだ……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "きょ、教範通りにはいかないよね……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ですが、とにかくお疲れ様でした。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "サキの指揮の下、作戦が成功したのは確かです。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……ふん。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "にしても、汗でベタベタだよ……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こういう時こそ、お風呂に入りたいけど……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "くひひ、そう言うと思って……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "こうして事前に、薪とか必要なものを用意しておいたのさ！ほらほら、さっさとお風呂に入ろう！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "ってことはお前、作戦中にお風呂の準備してたのかよ……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "普通だったら懲戒処分ものだぞ……まあでも、入れるならありがたく入るとしよう。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "……じゃ、もうひと仕事するか。"
+    },
+    {
+      "Name": "一同",
+      "Text": "了解！"
+    },
+    {
+      "Name": "サキ",
+      "Text": "あー……生き返る……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "やっぱり疲労回復にはお風呂だ……。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "ドラム缶のお風呂、思ったより悪くないですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "お湯加減も良い感じで……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "これ、温度の調節難しそう……。"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "ぬるま湯に入ったカエルみたいに、私もこのまま……。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "心配ご無用。その辺はサーモグラフィでちゃんとチェックしてるから。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "むしろこれだと、温度ぬるくない？"
+    },
+    {
+      "Name": "モエ",
+      "Text": "テルミットの粉でもかけてみる？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "バカ！全部吹っ飛ぶぞ！？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "それに、これくらいの温度でちょうど良いって。これ以上熱くしたら兎汁になるよ。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "こうやってみんなで入るのも、何だか少し楽しいですね。"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "いつかSRTに戻っても、たまにはこうやって……。"
+    },
+    {
+      "Text": "[s] \"誰かが来ないかどうか、ちゃんと見張ってないとだけどね。\""
+    },
+    {
+      "Name": "サキ",
+      "Text": "まあ、大丈夫だろ。周囲には誰もいないし。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "隊員同士は裸を見せ合うなんて今さらだし、この時間帯の公園に来るやつなんていないって。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "もし誰かが来たとしても、地雷とターレットが反応するはず。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "……ところで先生は何でここにいるわけ？"
+    },
+    {
+      "Text": "[s3] \"流れというか、何というか……\""
+    },
+    {
+      "Text": "[s4] \"……見張り役？\""
+    },
+    {
+      "Name": "一同",
+      "Text": "……。"
+    },
+    {
+      "Name": "サキ",
+      "Text": "おい、何でいるんだよ！？生徒の入浴姿を見るとかアウトだろ！？"
+    },
+    {
+      "Name": "サキ",
+      "Text": "こればっかりは撃たれても文句言えないぞ！？"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "や、やっぱり作戦が終わって、武装解除の隙を狙ってた……！？"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……モエ、ミサイルを。"
+    },
+    {
+      "Name": "モエ",
+      "Text": "よっしゃあ、喰らえ！！"
+    },
+    {
+      "Text": "子ウサギ公園・付近路地裏"
+    },
+    {
+      "Name": "怪しい声A",
+      "Text": "リーダー、どうやらあの公園に新入りが来ているようです。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "縁というのは、風のように訪れ、風のように去るもの……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "それが悪いものかどうかについては、早々には断定しきれません。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "ただ彼女たちが、私たちとの共存を望むのであれば……ありのままの状態を享受する、「無所有」の心を持ってもらう必要はありますが。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……みなさんから見て、いかがでしたか？彼女たちもまた、私たちと同じ無所有を誇る高潔な存在でしたか？"
+    },
+    {
+      "Name": "怪しい声A",
+      "Text": "いえ。無所有どころか、欲に塗れていました。"
+    },
+    {
+      "Name": "怪しい声A",
+      "Text": "その上やたら行動力があって、廃棄弁当をほとんど持っていかれてしまい……今までほとんど消えることのなかった、もやし弁当まで！"
+    },
+    {
+      "Name": "怪しい声B",
+      "Text": "廃材なども一通り持っていかれてしまい……私どもの方の補修もままなりません。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "なるほど……せっかくの縁でしたが、物欲に侵されていましたか……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "騒ぎ立てたくはありませんでしたが……良いでしょう、武器を用意してください。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "物欲に目がくらみ、道徳を失った俗物たちに……"
+    },
+    {
+      "Name": "？？？",
+      "Text": "「無所有の喜び」を教えるとしましょうか！"
+    },
+    {
+      "Text": "次回;這い寄る影"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Name": "경비원 A",
+      "Text": "쳇, 이 좀도둑 녀석들이 어디로 간 거지?"
+    },
+    {
+      "Name": "경비원 A",
+      "Text": "멀리 도망치지는 못했을 거야. 이 근처를 샅샅이 뒤져봐!"
+    },
+    {
+      "Name": "사키",
+      "Text": "그러니까 우리는 좀도둑이 아니라고 했잖아!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "쉿, 사키. 목소리를 줄여주세요. 아직 상대가 가까이 있습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "여기는 RABBIT 1. 캠프 RABBIT, 소대가 막 포인트 에코에 도착했습니다. 목표로 한 <당근>도 무사히 확보. 다행히 부상자는 없습니다만……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "조금 전의 교전으로 인해 최초에 계획했던 퇴로를 사용할 수 없게 되었습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "게다가 지금도 계속해서 적이 증원되고 있는 상황이라……."
+    },
+    {
+      "Name": "모에",
+      "Text": "내 그럴 줄 알았어. 사키가 하는 일이 다 그렇지 뭐."
+    },
+    {
+      "Name": "모에",
+      "Text": "이론만 완벽하지, 실기 실습에서는 언제나 실수투성이였으니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "시끄러워! 그러는 모에 너도 실기 점수는 언제나 바닥이었잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐가 문제였지? 분명 완벽한 작전이었는데……!"
+    },
+    {
+      "Text": "[s] \"세상일이라는 게 생각과는 늘 다른 법이지.\""
+    },
+    {
+      "Name": "사키",
+      "Text": "으읏. SRT의 위력을 보여줄 모처럼의 기회였는데. 하필이면 다른 사람도 아닌 샬레의 선생님 앞에서 이런 추태를 보이다니……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그나저나 미유는 어디에 있죠? 아까 전부터 모습이 보이지 않습니다만……."
+    },
+    {
+      "Name": "모에",
+      "Text": "응? GPS 상에는 지금도 너희랑 같이 있는 것으로 표시되고 있는데?"
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐라고? 설마……."
+    },
+    {
+      "Name": "사키",
+      "Text": "미유, 이 바보가……!"
+    },
+    {
+      "Name": "사키",
+      "Text": "무전기를 가방에 놔둔 채로 가버렸어!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "아까의 교전 중에 황급히 저격 포인트로 이동하느라 무전기를 챙기는 걸 잊었나 보네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "최초로 교전이 벌어진 곳에서 미유가 이동할 수 있을 만한 저격 포인트를 꼽아보자면……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "B동에 위치한 크레인 타워밖에 없겠군요."
+    },
+    {
+      "Name": "사키",
+      "Text": "B동의 크레인 타워? 그 아래에는 지금 경비원들이 잔뜩 몰려 있을 텐데? "
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 그 일대는 몸을 숨길 만한 엄폐물도 거의 없으니, 자력으로 탈출하는 걸 기대하기도 어렵겠어."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……어떻게 할까요, 사키. "
+    },
+    {
+      "Name": "사키",
+      "Text": "뭘 묻는 거야. 당연히 구하러 가야지."
+    },
+    {
+      "Name": "사키",
+      "Text": "하지만 여기 있는 드럼통은 놔두고 가는 수밖에 없겠어. 아무리 나라도 등에 드럼통을 짊어진 채 싸울 수는 없으니까."
+    },
+    {
+      "Name": "미야코",
+      "Text": "동감입니다. 아쉽지만 <당근>은 포기하고 아군 구출을 최우선 목표로 변경해야겠네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "다만 적의 수가 너무 많아서 이쪽도 피해를 각오해야 할 것 같습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……선생님? 갑자기 왜 그러시나요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "무슨 좋은 작전이라도 떠오르신 건가요?"
+    },
+    {
+      "Text": "[s] \"여기 있는 드럼통을 뒤집어쓰자!\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "네에? 드럼통을 뒤집어쓴 채 적의 눈을 속여가며 미유가 있는 곳까지 이동하자고요?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "그게 갑자기 무슨 뚱딴지 같은 말씀이신지……."
+    },
+    {
+      "Name": "사키",
+      "Text": "……아니, 그러고보니 나도 책에서 읽은 기억이 있어."
+    },
+    {
+      "Name": "사키",
+      "Text": "주변에 널려 있는 골판지 상자나 드럼통 등을 사용해서 잠입 임무를 성공적으로 수행한 전설적인 공작원이 있다고……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "아무리 그래도 대놓고 드럼통이 움직이는데, 수상하게 여기지 않을 리가……."
+    },
+    {
+      "Name": "사키",
+      "Text": "하지만 그 외의 방법이 없잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "나도 이 너구리 같은 선생님의 말을 듣는 건, 교범을 라면 받침으로 쓰는 것 이상으로 싫지만……."
+    },
+    {
+      "Name": "사키",
+      "Text": "내 실수 때문에 다른 소대원이 다치는 건 보고 싶지 않으니까……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……알겠습니다. 이번 작전에서는 당신의 지시에 따르기로 했으니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "지금부터 모두 자신의 키에 맞는 드럼통을 하나씩 장비해주세요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "지금부터 RABBIT 4를 구출하기 위해 신속히 이동합니다!"
+    },
+    {
+      "Name": "경비원 A",
+      "Text": "……응? 방금 저 드럼통, 원래부터 저기에 있었던가?"
+    },
+    {
+      "Name": "경비원 B",
+      "Text": "항만 선적장에 드럼통이 있는 건 당연하잖아. 갑자기 새삼스럽게 왜 그래?"
+    },
+    {
+      "Name": "경비원 A",
+      "Text": "아니, 뭔가 부자연스러운 느낌이 들어서."
+    },
+    {
+      "Name": "경비원 A",
+      "Text": "게다가 아까는 드럼통이 움직인 것처럼 보였고……."
+    },
+    {
+      "Name": "경비원 B",
+      "Text": "근무 중에 졸기라도 한 거야?"
+    },
+    {
+      "Name": "경비원 B",
+      "Text": "정신 차리고 일해. 지금은 좀도둑을 잡는 게 우선이라고."
+    },
+    {
+      "Name": "미야코(드럼통)",
+      "Text": "……신기하네요. 정말 이 드럼통을 뒤집어쓰고 있으니 사람들이 저희를 눈치채지 못하네요."
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "그러게. 나도 반신반의했었지만……"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "어지간한 위장복이나 차폐물보다 효과가 더 좋은 것 같아."
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "드럼통의 효과가 이렇게 뛰어날 줄 알았으면 전략 물자로 쓰게 좀 더 챙겨올 걸 그랬네."
+    },
+    {
+      "Name": "미야코(드럼통)",
+      "Text": "하하…… 아무리 그래도 잠입한 상태에서 한 사람이 두 개 이상의 드럼통을 동시에 운반하는 건 불가능하니까요."
+    },
+    {
+      "Name": "미야코(드럼통)",
+      "Text": "하지만 나중에 SRT 학원으로 돌아가게 된다면 작전 비용을 일부 할당해서라도 구매를 고려해봐야겠습니다."
+    },
+    {
+      "Name": "미야코(드럼통)",
+      "Text": "……RABBIT 2, 이제 곧 랑데부 포인트에 도달합니다. 접선 준비를 부탁드립니다."
+    },
+    {
+      "Name": "미유",
+      "Text": "우으, 우으으…… 다들 어디로 간 거지……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "사키 쨩…… 미야코 쨩…… 근처에 있으면 대답 좀 해 봐……."
+    },
+    {
+      "Name": "미유",
+      "Text": "경비원들이 목소리를 들을까 봐 소리도 크게 못 내고…… 가져온 무전기도 보이질 않고……."
+    },
+    {
+      "Name": "미유",
+      "Text": "……다 끝났어. 다들 나를 잊어버린 채 원래의 장소로 돌아간 게 분명해."
+    },
+    {
+      "Name": "미유",
+      "Text": "그럼 나는 모두의 기억 밖에서 잊힌 채, 이대로 크레인 위에서 말라죽고 말겠지……."
+    },
+    {
+      "Name": "미유",
+      "Text": "어라? 이 소리는……"
+    },
+    {
+      "Name": "미유",
+      "Text": "으힉?! 드, 드럼통이 움직였다!"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "미유, 미유!"
+    },
+    {
+      "Name": "미유",
+      "Text": "이제는 말까지 하고 있어!"
+    },
+    {
+      "Name": "미유",
+      "Text": "저, 저게 뭐지? 신종 UMA? 아니면 기어 다니며 다가오는 혼돈?"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "이 안으로 들어와! 빨리!"
+    },
+    {
+      "Name": "미유",
+      "Text": "여, 역시 괴물이 맞았어! 이제는 나를 드럼통 안으로 끌어들여 한 몸이 되려 하고 있잖아?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "드, 드럼통 님. 저는 맛이 없어요! 다른 희생자를 찾아봐 주세요!"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "그게 무슨 소리야? 이상한 농담을 하고 있을 시간은 없다고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "동료들에게 잊혀져 방치되는 것도 모자라, 이제는 드럼통 괴물에게 잡아먹히게 되다니……"
+    },
+    {
+      "Name": "미유",
+      "Text": "더는 싫어……!"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "아, 정말……!"
+    },
+    {
+      "Name": "사키",
+      "Text": "나라고, 사키!"
+    },
+    {
+      "Name": "미유",
+      "Text": "사키 쨩……?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그래. 이 근처에 흔히 보이는 드럼통으로 위장한 것뿐이라고. 뭘 겁내고 있는 거야?"
+    },
+    {
+      "Name": "미유",
+      "Text": "우으으…… 사키 쨩…… 나는 다들 나를 버리고 간 줄만 알고…… (훌쩍)"
+    },
+    {
+      "Name": "사키",
+      "Text": "그, 그럴 리가 없잖아?"
+    },
+    {
+      "Name": "사키",
+      "Text": "그리고 꼴사납게 작전 중에 울지 마! 우리는 SRT의 엘리트라고!"
+    },
+    {
+      "Name": "미유",
+      "Text": "알았어……. (훌쩍)"
+    },
+    {
+      "Name": "사키",
+      "Text": "일단은 다른 경비원들이 알아차리기 전에 어서 이 드럼통 안으로……."
+    },
+    {
+      "Name": "경비원 A",
+      "Text": "침입자다!"
+    },
+    {
+      "Name": "사키",
+      "Text": "역시 들켰잖아!"
+    },
+    {
+      "Name": "모에",
+      "Text": "적의 접근을 확인…… 엄청난 수의 경비 드론이 몰려들고 있어!"
+    },
+    {
+      "Name": "미야코",
+      "Text": "RABBIT 2, 어떻게 하죠? 바로 교전에 들어갈까요?"
+    },
+    {
+      "Name": "사키",
+      "Text": "이럴 때 쓸 수 있는 전략은 단 하나뿐이지……."
+    },
+    {
+      "Name": "사키",
+      "Text": "그냥 뛰어!"
+    },
+    {
+      "Text": "(이후, 드럼통을 뒤집어쓴 채 빗발치는 총탄 속을 달려 어찌 공원까지 돌아왔다…….)"
+    },
+    {
+      "Text": "코우사기 공원, 소대 야영지."
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "헉, 헉…… 설마 여기까지 쫓아오지는 않겠지……."
+    },
+    {
+      "Name": "모에",
+      "Text": "우왓, 이게 뭐야. 크립티드? 아니면 키보토스에 현현한 기어 다니는 혼돈?"
+    },
+    {
+      "Name": "모에",
+      "Text": "……잘은 모르겠으니 일단 태워볼까?"
+    },
+    {
+      "Name": "사키(드럼통)",
+      "Text": "그만둬! 우리라고, 우리!"
+    },
+    {
+      "Name": "사키",
+      "Text": "그보다 왜 너도 미유와 같은 이야기를 하는 거야? 도대체 기어 다니는 혼돈이 뭔데?"
+    },
+    {
+      "Name": "미야코",
+      "Text": "후우…… 소대원 모두 복귀한 것 같군요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "다행히 작전 중에 부상을 입거나 낙오한 인원도 없었습니다."
+    },
+    {
+      "Name": "미야코",
+      "Text": "[USERNAME] 선생님은 다치진 않으셨나요?"
+    },
+    {
+      "Text": "[s1] \"나도 다친 곳은 없어.\""
+    },
+    {
+      "Text": "[s2] \"드럼통 덕분에 무사해!\""
+    },
+    {
+      "Name": "미야코",
+      "Text": "다행이네요. 선생님께서 저희의 작전에 어울려 주시다 크게 다치기라도 하셨더라면……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "다행이네요. 선생님께서 저희의 작전에 어울려 주시다 크게 다치기라도 하셨더라면……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "이번에야말로 총학생회의 높으신 분들이 저희를 가만두지 않았을 테니까요."
+    },
+    {
+      "Name": "모에",
+      "Text": "그나저나 아까의 그 추태는 뭐야, 사키. 그렇게 자신만만해하더니 결국은 경비에게 들켜 쫓겨다니기나 하고……."
+    },
+    {
+      "Name": "모에",
+      "Text": "역시 사키는 실전에 약하다니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "시끄러워. 그때 돌발 상황이 발생하지만 않았어도 5분 만에 끝낼 수 있었거든?"
+    },
+    {
+      "Name": "사키",
+      "Text": "정말이지, 현실은 언제나 기대를 배신한다니까……."
+    },
+    {
+      "Name": "미유",
+      "Text": "사, 상황이 언제나 교범대로 흐르지는 않으니까……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "그래도 오늘의 작전은 성공입니다. 다친 사람도 없고, 목표도 회수했으니까요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이번 작전의 성공은 전적으로 사키의 지휘 덕분입니다."
+    },
+    {
+      "Name": "사키",
+      "Text": "……흥."
+    },
+    {
+      "Name": "사키",
+      "Text": "아아— 그보다 땀을 잔뜩 흘린 탓에 온몸이 끈적거려."
+    },
+    {
+      "Name": "사키",
+      "Text": "자기 전에 목욕이나 했으면 좋겠는데……. 야영 중에 그런 걸 기대하는 건 역시 사치려나."
+    },
+    {
+      "Name": "모에",
+      "Text": "쿠히히, 그렇게 말할 줄 알고……"
+    },
+    {
+      "Name": "모에",
+      "Text": "이렇게 미리 목욕에 필요한 장작과 수건을 준비해두었다구! 자, 빨리 목욕하자!"
+    },
+    {
+      "Name": "사키",
+      "Text": "작전이 끝나지도 않았는데, 혼자서 목욕 준비를 하고 있었단 말이야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "규정대로라면 징계감이지만…… 오늘은 어쩔 수 없지. 애초에 목욕을 위한 작전이기도 했고."
+    },
+    {
+      "Name": "사키",
+      "Text": "……그럼 지금 바로 시험해볼까?"
+    },
+    {
+      "Name": "일동",
+      "Text": "찬성이야! (입니다!)"
+    },
+    {
+      "Name": "사키",
+      "Text": "하아…… 살 것 같아……."
+    },
+    {
+      "Name": "사키",
+      "Text": "역시 장기 작전으로 쌓인 피로는 따듯한 물로 목욕을 해야 해소된다니까……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "이 드럼통으로 만든 욕조도 아늑하니 생각보다 나쁘지 않네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "물 온도도 딱 적당하고……."
+    },
+    {
+      "Name": "미유",
+      "Text": "하우우…… 지금은 괜찮지만, 이대로 온도가 계속 올라서 화상을 입으면 어쩌지……?"
+    },
+    {
+      "Name": "미유",
+      "Text": "그 왜. 서서히 끓는 물에 들어간 개구리는 자기가 죽는 줄도 모른다는 말도 있잖아……."
+    },
+    {
+      "Name": "모에",
+      "Text": "후후, 걱정 마. 물의 온도는 주변에 설치한 열상 장비로 계속 체크하고 있으니까."
+    },
+    {
+      "Name": "모에",
+      "Text": "오히려 내 생각에는 물이 미적지근한 것 같은데……"
+    },
+    {
+      "Name": "모에",
+      "Text": "장작에 테르밋 분말이라도 뿌려볼까?"
+    },
+    {
+      "Name": "사키",
+      "Text": "무턱대고 소이탄을 쓰는 건 그만둬! 드럼통에 구멍이라도 낼 생각이야?"
+    },
+    {
+      "Name": "사키",
+      "Text": "게다가 온도는 지금이 제일 좋다고. 이 이상 온도를 높였다가는 우리 모두 토끼 수프가 되어 버릴 거야."
+    },
+    {
+      "Name": "미야코",
+      "Text": "공원에서 이렇게 다 같이 목욕을 하는 것도 어쩐지 운치가 있어서 즐겁네요."
+    },
+    {
+      "Name": "미야코",
+      "Text": "언젠가 SRT 특수학원에 돌아가게 되더라도, 가끔은 야영지에서 이런 시간을 갖는 것도……."
+    },
+    {
+      "Text": "[s] \"그나저나 이렇게 개방된 장소에서 목욕해도 괜찮아?\""
+    },
+    {
+      "Name": "사키",
+      "Text": "뭐 어때. 보는 사람도 없는데."
+    },
+    {
+      "Name": "사키",
+      "Text": "어차피 SRT 대원들끼리는 맨몸을 보이는 정도로는 부끄럽지도 않고, 이 공원은 찾는 사람도 거의 없는 외진 곳에 있으니까."
+    },
+    {
+      "Name": "사키",
+      "Text": "혹여라도 외부인이 이 근처까지 접근하려면 우선 공원 진입로에 설치된 지뢰와 자동 포탑을 먼저 상대해야 할 거야."
+    },
+    {
+      "Name": "모에",
+      "Text": "……그런데 선생님은 왜 여기에 있는 거야?"
+    },
+    {
+      "Text": "[s3] \"뭐랄까, 어쩌다 보니 자연스럽게……\""
+    },
+    {
+      "Text": "[s4] \"……감시역?\""
+    },
+    {
+      "Name": "일동",
+      "Text": "……."
+    },
+    {
+      "Name": "사키",
+      "Text": "잠깐! 뭘 자연스럽게 학생들이 목욕하는 모습을 훔쳐보고 있는 거야!"
+    },
+    {
+      "Name": "사키",
+      "Text": "당장 안 돌아가?!"
+    },
+    {
+      "Name": "미유",
+      "Text": "역시 우리가 장비를 해제한 틈을 타 수상한 짓을 하려고……"
+    },
+    {
+      "Name": "미야코",
+      "Text": "……모에. 소이 수류탄의 사용을 허가합니다."
+    },
+    {
+      "Name": "모에",
+      "Text": "죽어라, 이 변태!"
+    },
+    {
+      "Text": "코우사기 공원 인근 뒷골목"
+    },
+    {
+      "Name": "수상한 목소리 A",
+      "Text": "대장. 이 근처의 공원에 새로운 신입이 들어온 것 같은데요."
+    },
+    {
+      "Name": "???",
+      "Text": "본래 인연이란 바람처럼 찾아왔다 바람처럼 떠나가는 존재……"
+    },
+    {
+      "Name": "???",
+      "Text": "새로운 인연이 찾아왔다 해서 호들갑을 떨 필요는 없습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "다만 그들이 우리와 함께 공존하기를 희망한다면, 물욕을 내려놓고 자연 그대로의 상태를 즐기는— 무소유의 마음을 가져야 할 필요는 있겠지요."
+    },
+    {
+      "Name": "???",
+      "Text": "여러분들이 보시기엔 어떻던가요? 그들 또한 우리와 같이 무소유를 깨우친 고결한 존재던가요?"
+    },
+    {
+      "Name": "수상한 목소리 A",
+      "Text": "아뇨. 무소유는커녕, 욕심만 그득하던걸요."
+    },
+    {
+      "Name": "수상한 목소리 A",
+      "Text": "게다가 행동력은 어찌나 재빠른지, 요새는 이 일대에 먹을만한 폐기 도시락을 보기가 어려울 정도입니다. 언제나 남아돌던 숙주 도시락까지요!"
+    },
+    {
+      "Name": "수상한 목소리 B",
+      "Text": "게다가 나무토막이나 방수포 같은 생존에 필수적인 폐자재도 가리지 않고 수집하고 있어서…… 저희의 성소를 보수하는 계획에도 차질이 생겼습니다."
+    },
+    {
+      "Name": "???",
+      "Text": "저런, 저런. 모처럼 찾아온 인연이 물욕에 눈이 먼 아귀 떼일 줄이야."
+    },
+    {
+      "Name": "???",
+      "Text": "……좋습니다, 동지들. 모두 각자의 무기를 준비해주세요."
+    },
+    {
+      "Name": "???",
+      "Text": "물욕에 눈이 멀어 도덕을 상실한 속물들에게……"
+    },
+    {
+      "Name": "???",
+      "Text": "무소유의 기쁨에 대해 가르쳐줍시다!"
+    },
+    {
+      "Text": "다음화;수상한 그림자"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Name": "Security Guard A",
+      "Text": "Tsk, where did those thieves go?"
+    },
+    {
+      "Name": "Security Guard A",
+      "Text": "They're here somewhere! Search every nook and cranny."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Stop calling us thieves!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Saki, please be quiet! Hostiles are still nearby."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 1, reporting in to Camp RABBIT. We've arrived at Point Echo and the carrot has been secured. No injuries to report."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But our original evacuation route is blocked now."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And more enemy reinforcements are on the way."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Oh, wow. Saki messed up again? I'm sooo surprised. Not."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Little Miss Top-of-Her-Class, but absolutely trash at actual field work."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Shut up, Moe! I'm still better than you!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I-I don't understand. I thought it was the perfect plan..."
+    },
+    {
+      "Text": "[s] \"There's no such thing as a perfect plan in real life.\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "I thought I could show off SRT's strength to Sensei... Instead I just embarrassed myself and the academy."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Wait, where's Miyu?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "She's not with you? Her GPS indicator is right next to yours."
+    },
+    {
+      "Name": "Saki",
+      "Text": "That doesn't make sense..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyu, that dummy!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "She left her radio in the bag!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "She must've panicked and left it when the enemies started approaching her."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Let me think. Miyu has a tendency to follow orders to a T. You said to go as high as she can..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I would assume tower crane at Building B."
+    },
+    {
+      "Name": "Saki",
+      "Text": "There's no way. That area's crawling with security guards. "
+    },
+    {
+      "Name": "Saki",
+      "Text": "There's no means of escape from there either. She's got to be stuck up there."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "What should we do, Saki? "
+    },
+    {
+      "Name": "Saki",
+      "Text": "Is that even a question? Operation Carrot is now a rescue mission."
+    },
+    {
+      "Name": "Saki",
+      "Text": "We'll have to leave the drum barrels. There's no way we can fight and carry them at once."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Unfortunately, yes. Getting Miyu back safe and sound is our top priority as of now."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "But we're severely outnumbered. We need to prepare for some damage on our end."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "...Sensei?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You have a plan?"
+    },
+    {
+      "Text": "[s] \"Let's put these drum barrels over our heads.\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm sorry? You want to hide under the barrels all the way to Miyu's location?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "We need realistic solutions, Sensei."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...I have read about something like this before."
+    },
+    {
+      "Name": "Saki",
+      "Text": "In one of our textbooks, they talk about some legendary agent who would hide under boxes and barrels to pull off impossible infiltration missions."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "How do you intend to move around? A rogue drum barrel moving by itself will only draw more attention."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Look, it's not the best, but what else are we gonna do?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I would rather use my precious textbook as a coaster than listen to Evil Incarnate over there..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "But...Miyu is in this situation because of me. I can't let her down."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Understood. I'll put my faith in you for this mission."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Find and equip yourselves with a drum barrel."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Let's move out! Operation Carrot: Save Miyu!"
+    },
+    {
+      "Name": "Security Guard A",
+      "Text": "I might sound crazy but, has that drum barrel always been there?"
+    },
+    {
+      "Name": "Security Guard B",
+      "Text": "Well, duh. Of course there are drum barrels. It's a loading dock. What's gotten into you?"
+    },
+    {
+      "Name": "Security Guard A",
+      "Text": "That's why I said I might sound crazy, but..."
+    },
+    {
+      "Name": "Security Guard A",
+      "Text": "I swear the drum barrel was moving a second ago."
+    },
+    {
+      "Name": "Security Guard B",
+      "Text": "Did you drink too much at dinner again?"
+    },
+    {
+      "Name": "Security Guard B",
+      "Text": "Well, sober up. The boss is going to have our heads if we let the thieves get away."
+    },
+    {
+      "Name": "Miyako (Barrel)",
+      "Text": "...I don't understand it. How is this working?"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "I gotta admit, I was pretty skeptical."
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "But this is the easiest infiltration we've ever done."
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "If I had known they would be this effective, I would've brought more for future missions."
+    },
+    {
+      "Name": "Miyako (Barrel)",
+      "Text": "Haha, it would've been a little difficult for just us to carry any more barrels back."
+    },
+    {
+      "Name": "Miyako (Barrel)",
+      "Text": "When we get back to SRT Academy one day, we can request some budget be allocated so you can purchase as many as you'd like."
+    },
+    {
+      "Name": "Miyako (Barrel)",
+      "Text": "RABBIT 2. We're reaching the rendezvous point. Prepare for contact."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Wh-Where did everyone go?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Saki? Miyako? Anyone at all? S-Sensei?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "If I talk too loud, the guards'll come get me... And... And I think I forgot my radio..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It's really happened this time. They forgot I exist and went back home."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I'll fade away like a bad dream... Th-They'll laugh and make memories while I turn into dust on this crane..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Gyah! What's that?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It... It moved?! It's a moving drum barrel!"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "Miyu! Miyu!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It knows my name? Wait... It's talking?!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Wh-What the heck is that? A new UMA? Or the creepy-crawly doom of impending chaos?"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "Hurry up and get in here!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "It's a monster! It wants to eat me alive!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "P-Please spare me, barrel monster! I'm tiny so I'm not yummy, I promise!"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "What are you saying? C'mon, get in already!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I've been abandoned and forgotten in this cold lonely world... A-And now... I'm gonna be gobbled up by the evil barrel monster?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I WANNA GO HOME!"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "Are you serious right now?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Miyu, pay attention! It's me, Saki."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Saki?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "I disguised myself as a drum barrel so we could come rescue you. Look, no scary barrel monsters."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Waaah... Saki... I thought you forgot about me for good! *sniffles*"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Y-You really think we would do that?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "C'mon, now. No more crying. You're an elite agent of SRT!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Okay... *sniffle*"
+    },
+    {
+      "Name": "Saki",
+      "Text": "C'mon, into the drum barrel before guards come around."
+    },
+    {
+      "Name": "Security Guard A",
+      "Text": "INTRUDERS!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Oops. A little late for that."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Hate to break up your reunion, but you've got reinforcements coming from left, right, and center!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "RABBIT 2, it's your call! Do we engage?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "The textbook response in a situation like this is..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "RUN!"
+    },
+    {
+      "Text": "They quickly fled to the park, protecting themselves from the rain of bullets with the drum barrels..."
+    },
+    {
+      "Text": "Kousagi Park, Squad Campsite"
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "*huff* *puff* Those persistent security guards... Did we actually lose them?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Whoa, whoa, whoa. Who let this thing in? Is it a cryptid? Or the crawling chaos of Kivotos?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "I just can't figure it out... Maybe I should make it go ka-boom..."
+    },
+    {
+      "Name": "Saki (Barrel)",
+      "Text": "Stop joking around. It's us!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "And how did you and Miyu have the same exact reaction? What's this crawling chaos nonsense?"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm relieved everyone made it back."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And not only that, but all in one piece."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "You weren't hurt, were you, [USERNAME] Sensei?"
+    },
+    {
+      "Text": "[s1] \"All in one piece as well.\""
+    },
+    {
+      "Text": "[s2] \"Not a scratch, thanks to my trusty barrel!\""
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm glad. If Sensei had been injured accompanying us on a mission..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I'm glad. If Sensei had been injured accompanying us on a mission..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "The General Student Council would've had our hides."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heehee, Sakiiii~ Do you need some medicine for your poor little ego? Miss Perfect didn't last five minutes as squad leader before everything went ka-boom."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Admit it. You're just about as good as me at field work."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I-If it weren't for that small mishap, I could've sleepwalked through that mission!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Why do things never work out the way they do on paper?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "B-Because reality is different from our textbooks..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Regardless, the operation was a success. We retrieved the carrot and no one was hurt."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And that really is thanks to you, Saki."
+    },
+    {
+      "Name": "Saki",
+      "Text": "...Thanks."
+    },
+    {
+      "Name": "Saki",
+      "Text": "More importantly, I'm sweaty and smell like gunpowder."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I'm dying to scrub off all this grime, but bathing while camping isn't as easy as turning a knob."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Heeheehee. I had a feeling you'd say that."
+    },
+    {
+      "Name": "Moe",
+      "Text": "Ta-da! I got firewood and towels already so everyone can take a nice, toasty bath."
+    },
+    {
+      "Name": "Saki",
+      "Text": "You procured all of these before we even finished the operation?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "That's technically against procedures and would normally require discipline. But...the whole point of this operation was to take a bath, right?"
+    },
+    {
+      "Name": "Saki",
+      "Text": "RABBIT Squad, bath time!"
+    },
+    {
+      "Name": "Everyone",
+      "Text": "Yay! Hear, hear!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Ahh... Now that's the stuff."
+    },
+    {
+      "Name": "Saki",
+      "Text": "I've missed this! Hot baths after a mission are the best!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "This drum barrel serves as a surprisingly comfortable bathtub too."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "And the temperature is just right..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-It's perfect now, b-but what if it gets hotter and hotter and all of a sudden we're boiling?"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "Haven't you heard about frogs slowly b-boiling alive?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "Don't worry your crybaby little head too much. Look, that thermal imaging equipment is keeping track of the temperature."
+    },
+    {
+      "Name": "Moe",
+      "Text": "I'd even say it's getting a little cool in here..."
+    },
+    {
+      "Name": "Moe",
+      "Text": "How about I sprinkle some thermite powder on the firewood? Heehee."
+    },
+    {
+      "Name": "Saki",
+      "Text": "For once in your life, will you stop thinking about incendiaries? Is your brain just wired wrong?!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "And it's perfect right now anyways. I'd rather us not turn into rabbit stew."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "I must say, it's sort of charming. All of us bathing in a park together like this."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Let's come camping again one day. After we've achieved our mission and reopened SRT Academy."
+    },
+    {
+      "Text": "[s] \"By the way, are you okay with bathing out in the open like this?\""
+    },
+    {
+      "Name": "Saki",
+      "Text": "Of course. There's no one watching."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Long missions often require us to bathe and change together like this, so it's nothing new for us."
+    },
+    {
+      "Name": "Saki",
+      "Text": "And this park rarely has visitors. Any that do come in this far will be met with our landmines and automatic turrets."
+    },
+    {
+      "Name": "Moe",
+      "Text": "...But, someone IS watching us."
+    },
+    {
+      "Text": "[s3] \"I didn't really know where to go...\""
+    },
+    {
+      "Text": "[s4] \"I guess I'm...standing guard?\""
+    },
+    {
+      "Name": "Everyone",
+      "Text": "..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "Standing guard?! You're spying on bathing students right now!"
+    },
+    {
+      "Name": "Saki",
+      "Text": "Leave! Leave right now and never come back!"
+    },
+    {
+      "Name": "Miyu",
+      "Text": "I-I knew the creepy teacher was gonna do b-bad things to us while we're vulnerable!"
+    },
+    {
+      "Name": "Miyako",
+      "Text": "Moe. I hereby authorize you to use every single incendiary you own."
+    },
+    {
+      "Name": "Moe",
+      "Text": "BLOW UP, PERVERT!"
+    },
+    {
+      "Text": "Back Alley near Kousagi Park"
+    },
+    {
+      "Name": "Suspicious Voice A",
+      "Text": "Hey, Boss. We've got some newcomers at the park nearby."
+    },
+    {
+      "Name": "???",
+      "Text": "People are transient in nature. Much like the wind, they will come and they will leave."
+    },
+    {
+      "Name": "???",
+      "Text": "You must not allow your inner peace to be disquieted over such an insignificant event."
+    },
+    {
+      "Name": "???",
+      "Text": "If they do not leave, however, they must learn to coexist with us. They must embrace our ideals of non-possession and find release from the worldly desires of society."
+    },
+    {
+      "Name": "???",
+      "Text": "Tell me. Do you believe they will be able to be enlightened, to commit to our noble cause?"
+    },
+    {
+      "Name": "Suspicious Voice A",
+      "Text": "There's no way! They're the greediest people we've ever seen."
+    },
+    {
+      "Name": "Suspicious Voice A",
+      "Text": "They've been ravaging the stores for the discarded bentos we used to be able to find everywhere. Now, we can't even find a mung bean sprout bento to spare."
+    },
+    {
+      "Name": "Suspicious Voice B",
+      "Text": "And, their sticky fingers seem to think everything belongs to them! They've been collecting blocks of wood to tarpaulins and more! We probably won't even be able to repair the sanctuary anymore."
+    },
+    {
+      "Name": "???",
+      "Text": "Oh dear. It appears our new-found visitors are a group of gluttonous goblins."
+    },
+    {
+      "Name": "???",
+      "Text": "Very well, comrades. Take up your arms."
+    },
+    {
+      "Name": "???",
+      "Text": "Let us teach these immoral, greedy gluttons..."
+    },
+    {
+      "Name": "???",
+      "Text": "A lesson on the joys of non-possession!"
+    },
+    {
+      "Text": "Next Episode; A Suspicious Shadow"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "โธ่เว้ย พวกหัวขโมยไปทางไหนกันแล้ว?"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "แต่ไม่น่าจะหนีไปได้ไกลหรอก ค้นให้ทั่วทุกซอกทุกมุม!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ก็บอกแล้วไงว่าพวกเราไม่ใช่หัวขโมย!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ชู่ว ซากิ ลดเสียงลงหน่อยค่ะ ศัตรูยังอยู่แถวนี้นะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "RABBIT 1 เรียก RABBIT ในค่าย ตอนนี้ฉันมาถึงจุดเอโค่แล้วค่ะ ได้เป้าหมาย <แคร์รอต> ของเรามาเรียบร้อยแล้ว โชคดีที่ไม่มีใครบาดเจ็บ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่การปะทะเมื่อกี๊ทำให้เราใช้ทางกลับตามที่วางแผนไว้ตอนแรกไม่ได้ค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แถมตอนนี้ศัตรูก็เสริมกำลังมากขึ้น..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "คิดไว้แล้วว่าต้องเป็นแบบนี้ ซากิก็เป็นอย่างนี้ตลอด"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แม่นเรื่องทฤษฎี แต่พอถึงภาคปฏิบัติก็ผิดพลาดซะทุกครั้ง"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หนวกหูน่า! นี่โมเอะ เธอเองก็เป็นที่โหล่ในภาคปฏิบัติเหมือนกันไม่ใช่เหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มันผิดพลาดตรงไหนกันนะ? ฉันอุตส่าห์วางแผนไว้อย่างสมบูรณ์แบบ...!"
+    },
+    {
+      "Text": "[s] \"ทุกอย่างในโลกไม่เป็นไปตามที่เราคิดหรอก\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮึ่ม! อุตส่าห์เป็นโอกาสที่จะแสดงอานุภาพของ SRT แล้วเชียว แล้วทำไมคนที่เห็นความล้มเหลว\nต้องเป็นคุณครูจากชาเล่ต์ด้วยนะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จะว่าไป มิยุไปอยู่ไหนเหรอคะ? ไม่เห็นตั้งแต่เมื่อกี๊แล้ว..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "หืม? แต่ GPS บอกว่าอยู่กับพวกเธอนะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ว่าไงนะ? หรือว่า..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "มิยุ ยัยบ้านั่น...!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เอาวิทยุไว้ในกระเป๋าเหรอเนี่ย!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "สงสัยจะรีบไปจุดลอบยิงระหว่างการปะทะเมื่อกี๊จนลืมเอาวิทยุติดตัวไปด้วยค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "จากจุดที่มีการปะทะครั้งแรก จุดลอบยิงที่มิยุน่าจะไปได้ก็น่าจะเป็น..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทาวเวอร์เครนที่อยู่ตรงตึก B"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "บนทาวเวอร์เครนตึก B เหรอ? ตอนนี้ที่นั่นน่าจะมียามมาอยู่กันเต็มเลยนะ "
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แถมบริเวณนั้นยังไม่มีกำบังให้ซ่อนตัวด้วย แค่หวังให้หนีออกมาเองยังยากเลย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำยังไงดีล่ะคะซากิ...?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถามแปลก ก็ต้องไปช่วยสิ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ยังไงก็ทิ้งถังอาบน้ำของเราไว้ที่นี่ไม่ได้ และถึงฉันจะแข็งแรงแค่ไหนก็แบกถังต่อสู้ไปด้วยไม่ได้"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เห็นด้วยค่ะ เห็นทีต้องสละ <แคร์รอต> แล้วเปลี่ยนเป้าหมายมาเป็นการช่วยสมาชิกของเราก่อน"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ศัตรูมีกันหลายคน แต่ดูเหมือนเราต้องเตรียมพร้อมสำหรับความเสียหายทางด้านนี้กันก่อนนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครูคะ...? ทำไมจู่ๆ ก็...?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "หรือว่ามีแผนการอะไรดีๆ คะ?"
+    },
+    {
+      "Text": "[s] \"ซ่อนตัวในถังกันเถอะ!\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คะ? ให้หลอกตาศัตรูด้วยการซ่อนตัวในถังแล้วเข้าไปให้ถึงมิยุเหรอคะ?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แผนการอะไรกันล่ะคะนั่นน่ะ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เดี๋ยวนะ... ฉันจำได้ว่าเคยอ่านอะไรแบบนี้ในหนังสือมา"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เคยมีนักสืบในตำนานใช้กล่องกระดาษลูกฟูกและถังที่อยู่รอบๆ แล้วทำภารกิจลักลอบเข้าจนสำเร็จ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่การที่ถังมันขยับได้มันไม่น่าสงสัยไปหน่อยเหรอ..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่เราไม่มีวิธีอื่นแล้วนี่?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันเองก็เกลียดการเชื่อคุณครูที่รู้หน้าไม่รู้ใจมากกว่าการใช้หนังสือเรียนเป็นฐานรองหม้อราเม็ง\nหลายเท่า..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "แต่ฉันก็ไม่อยากเห็นสมาชิกคนอื่นได้รับบาดเจ็บเพราะความผิดพลาดของฉันเหมือนกัน......"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ก็ได้ค่ะ... ยังไงครั้งนี้เราก็ตกลงกันแล้วค่ะว่าจะทำตามคำสั่งของเธอ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถ้างั้นแต่ละคนไปหาถังที่ขนาดใกล้เคียงกับส่วนสูงตัวเองมาค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เราจะเคลื่อนที่อย่างรวดเร็วแล้วไปช่วย RABBIT 4 กัน!"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "หืม...? ถังนั่นมันอยู่ตรงนั้นตั้งแต่แรกแล้วหรือเปล่าน่ะ?"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด B",
+      "Text": "จุดขนส่งสินค้าก็ต้องมีถังอยู่แล้วสิ ทำไมถึงทำเป็นไม่เคยเห็นไปได้เล่า?"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "อืม... มันดูไม่เป็นธรรมชาตินะ"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "แถมเมื่อกี๊ยังรู้สึกเหมือนถังมันขยับได้ด้วย..."
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด B",
+      "Text": "ง่วงนอนในเวลาทำงานรึไง?"
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด B",
+      "Text": "ตั้งสติหน่อย ตอนนี้เราต้องจับหัวขโมยให้ได้เป็นอันดับแรก"
+    },
+    {
+      "Name": "มิยาโกะ (ถัง)",
+      "Text": "เหลือเชื่อจังเลยค่ะ... พอเอาถังมาครอบตัวแบบนี้ก็ไม่มีใครสังเกตพวกเราได้เลย"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "นั่นสิ ตอนแรกฉันก็เชื่อครึ่งไม่เชื่อครึ่ง..."
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "ทำแบบนี้แล้วได้ผลดีกว่าชุดพรางตัวหรือกำบังซะอีก"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "ถ้ารู้ว่าถังนี่จะใช้งานได้ดีแบบนี้ น่าจะเอามาให้เยอะกว่านี้หน่อย จะได้ใช้เป็นยุทธภัณฑ์ด้วย"
+    },
+    {
+      "Name": "มิยาโกะ (ถัง)",
+      "Text": "แหะๆ แต่พอมาอยู่ในถังแบบนี้ แต่ละคนก็เคลื่อนย้ายถังได้แค่ถังเดียวนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ (ถัง)",
+      "Text": "แต่ต่อไปถ้าได้กลับไปสถาบัน SRT คงต้องเจียดงบปฏิบัติการแล้วซื้อไว้บ้างแล้วละค่ะ"
+    },
+    {
+      "Name": "มิยาโกะ (ถัง)",
+      "Text": "RABBIT 2 ตอนนี้ฉันมาถึงจุดนัดพบแล้วค่ะ ช่วยเตรียมการนัดพบด้วยค่ะ"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "งะ... แง... ทุกคนไปไหนกันหมดนะ...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ซากิจัง... มิยาโกะจัง... ถ้าอยู่แถวนี้ก็ช่วยตอบด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฉันไม่กล้าส่งเสียงดังเพราะกลัวว่ายามจะได้ยินเอา... แล้วก็หาวิทยุประจำตัวไม่เจอด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คงต้องจบอย่างนี้สินะ... ทุกคนคงกลับไปที่เดิมทั้งๆ ที่ลืมว่าฉันอยู่ที่นี่"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "และถ้าอย่างนั้นฉันคงหายไปจากความทรงจำของทุกคนและคงหิวตายอยู่บนเครนนี้..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เอ๋? เสียงนี้มัน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "เฮือก?!  ถะ... ถังขยับได้!"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "มิยุ มิยุ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "พูดได้ด้วย!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "อะไรกันเนี่ย? UFO แบบใหม่เหรอ? หรือจะเป็นความวุ่นวายที่คืบคลานเข้ามา?"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "เข้ามาในนี้เร็วเข้า!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ... มนุษย์ต่างดาวจริงด้วย! มันกำลังเรียกให้เราเข้าไปในถังเพื่อจะรวมเป็นร่างเดียวกัน!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "คะ... คุณถังคะ ฉันไม่อร่อยหรอกค่ะ! ไปหาเหยื่อคนอื่นเถอะค่ะ!"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "พูดอะไรของเธอ? ฉันไม่มีเวลามาเล่นสนุกอยู่ด้วยหรอกนะ!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ถูกเพื่อนๆ ลืมก็ว่าหนักแล้ว นี่ยังต้องโดนมนุษย์ต่างดาวถังจับตัวกินอีก..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ไม่เอาด้วยแล้ว...!"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "เชื่อเค้าเลย...!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฉันเอง ซากิไง!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ซากิจัง...?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ใช่ ฉันแค่เอาถังกลมที่อยู่แถวนี้มาพรางตัวเฉยๆ กลัวอะไรของเธอเนี่ย?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แง... ซากิจัง... ฉันนึกว่าทุกคนจะลืมฉันแล้ว... (สะอื้น)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะ... จะเป็นแบบนั้นได้ยังไงกันเล่า?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อีกอย่าง หยุดร้องไห้ระหว่างทำภารกิจนะ! เสียศักดิ์ศรีนักเรียนหัวกะทิของ SRT หมด!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ก็ได้... (สะอื้น)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "รีบเข้ามาในถังก่อนที่พวกยามจะรู้ตัวเร็ว..."
+    },
+    {
+      "Name": "เจ้าหน้าที่การ์ด A",
+      "Text": "มีคนบุกรุก!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "โดนจับได้ซะแล้ว!"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตรวจพบศัตรู... โดรนรักษาความปลอดภัยจำนวนมากกำลังบุกเข้ามา!"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ทำยังไงดีล่ะคะ RABBIT 2? เข้าปะทะเลยไหมคะ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตอนนี้เราใช้ได้เพียงกลยุทธ์เดียวเท่านั้น..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "วิ่ง!!!"
+    },
+    {
+      "Text": "(หลังจากนั้นทุกคนก็วิ่งหนีกระสุนจากในถังจนมาถึงสวนสาธารณะ)"
+    },
+    {
+      "Text": "ค่ายทหาร โคะอุซางิ การ์เด้น"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "แฮ่ก... แฮ่ก พวกนั้นคงไม่ตามมาถึงที่นี่ใช่ไหม..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "อ๊าย นี่มันอะไรกันเนี่ย มนุษย์ต่างดาวเหรอ? หรือจะเป็นความวุ่นวายที่คืบคลานได้ในคิโวทอส?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตัวอะไรก็ไม่รู้... เผาเลยดีไหม?"
+    },
+    {
+      "Name": "ซากิ (ถัง)",
+      "Text": "หยุดนะ! นี่พวกเราเอง!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "จะว่าไป ทำไมเธอพูดเหมือนมิยุเลยล่ะ? ความวุ่นวายที่คืบคลานงั้นเหรอ... เอามาจากไหนกันละนั่น?"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "เฮ้อ... สมาชิกกลับมาครบกันแล้วสินะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โชคดีแล้วค่ะที่ไม่มีใครบาดเจ็บหรือถูกทิ้งไว้ในขณะปฏิบัติภารกิจ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "คุณครู [USERNAME] ก็ไม่ได้บาดเจ็บตรงไหนใช่ไหมคะ?"
+    },
+    {
+      "Text": "[s1] \"ครูก็ไม่เป็นไรเหมือนกัน\""
+    },
+    {
+      "Text": "[s2] \"ปลอดภัยได้ด้วยถัง!\""
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดีแล้วละค่ะ ถ้าคุณครูมาช่วยในปฏิบัติการของเราแล้วเกิดบาดเจ็บใหญ่โตขึ้นมาละก็..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ดีแล้วละค่ะ ถ้าคุณครูมาช่วยในปฏิบัติการของเราแล้วเกิดบาดเจ็บใหญ่โตขึ้นมาละก็..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ครั้งนี้ผู้ใหญ่หลายคนในองค์การนักเรียนคงไม่ปล่อยเราไว้แน่ๆ ค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าแต่ที่เธอทำเมื่อกี๊มันคืออะไรกันน่ะซากิ ทำเป็นมั่นอกมั่นใจ แต่สุดท้ายก็โดนยามวิ่งไล่..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ยังอ่อนภาคปฏิบัติอยู่เหมือนเดิมเลยนะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หนวกหูน่า ถ้าตอนนั้นพวกยามไม่รู้ตัวละก็ ฉันจะปิดจ๊อบได้ใน 5 นาทีอยู่แล้วเชียว"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ให้ตายสิ ความเป็นจริงนี่ชอบทรยศความคาดหวังเสมอเลย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "กะ... ก็สถานการณ์มันไม่เป็นไปตามหนังสือคู่มือนี่..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "แต่ปฏิบัติการของเราในวันนี้ก็สำเร็จนะคะ ไม่มีใครบาดเจ็บ แล้วเราก็ยังได้เป้าหมายกลับมาด้วย"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ปฏิบัติการนี้สำเร็จได้ด้วยการสั่งการของซากิค่ะ"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮึ่ม..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เหงื่อออกเยอะซะจนเหนียวตัวไปหมดแล้ว"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อยากอาบน้ำก่อนนอนจัง... ฉันไม่ควรคาดหวังอะไรแบบนี้ในระหว่างพักอยู่ในค่ายใช่ไหม?"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮิฮิ คิดไว้แล้วว่าต้องพูดอย่างนี้"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฉันก็เลยเตรียมผ้าเช็ดตัวกับอุปกรณ์อาบน้ำเอาไว้ให้ล่วงหน้าแล้ว นี่ไง! มาอาบน้ำกันเถอะ!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "นี่แอบไปเตรียมอาบน้ำคนเดียวในตอนที่ยังทำปฏิบัติการไม่สำเร็จงั้นเหรอ?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ถ้าตามระเบียบแล้วต้องโดนตำหนิ... แต่วันนี้จะขอยกประโยชน์ให้แล้วกัน ตอนแรกปฏิบัติการครั้งนี้ก็เพื่อการอาบน้ำนี่นา..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "...งั้นลองไปทดสอบถังกันเลยไหม?"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "ไปเล้ย! (ค่ะ!)"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ฮื้มม... อุ่นจังเลย..."
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ร่างกายที่เหนื่อยล้าจากการทำภารกิจนานๆ ต้องเจอกับน้ำอุ่นๆ แบบนี้แหละถึงจะหายเหนื่อย..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อ่างอาบน้ำที่ทำจากถังนี่อุ่นสบายจังค่ะ ดีกว่าที่คิดไว้อีกนะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "อุณหภูมิของน้ำก็พอดีเลยด้วย..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "ฮ่า... ตอนนี้น่ะกำลังดี แต่ถ้าอุณหภูมิของน้ำสูงขึ้นจนลวกตัวเราล่ะ...?"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "แบบนั้นไง... ที่พูดกันว่ากบที่ค่อยๆ ลงไปในน้ำเดือดไม่มีทางรู้หรอกว่าตัวเองจะตาย..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ฮิฮิ ไม่ต้องห่วงหรอก ฉันติดตั้งอุปกรณ์ตรวจสอบอุณหภูมิของน้ำเอาไว้แล้ว"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "แต่ทำไมฉันถึงรู้สึกว่าน้ำมันยังไม่ค่อยอุ่นนะ..."
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "เราลองใส่ผงเทอร์ไมต์ในฟืนดูไหม?"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "หยุดคิดที่จะใช้ระเบิดไฟเลยนะ! จะทำให้ถังเป็นรูรึไง!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ตอนนี้อุณหภูมิน้ำกำลังดีเลย ถ้าร้อนกว่านี้คงได้เป็นซุปต้มกระต่ายแล้ว"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "การได้อาบน้ำด้วยกันแบบนี้ในสวนสาธารณะมันก็สนุกไปอีกแบบนะคะ"
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "ถึงในอนาคตเราจะได้กลับไปสถาบันพิเศษ SRT แต่ก็หาเวลาว่างมาอาบน้ำที่นี้กันบ้างนะ..."
+    },
+    {
+      "Text": "[s] \"ว่าแต่มาอาบน้ำในที่โล่งแจ้งแบบนี้ได้ด้วยเหรอ?\""
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ไม่เห็นจะเป็นไรเลย ไม่มีใครมาดูเรานี่"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "อีกอย่างกับสมาชิก SRT ด้วยกันก็ไม่มีอะไรต้องอายอยู่แล้ว และสวนสาธารณะนี้ก็อยู่ในที่ห่างไกลที่ไม่มี\nใครมาด้วย"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "และถ้าคนนอกจะเข้าใกล้บริเวณนี้ก็ต้องเจอป้อมปืนอัตโนมัติและกับระเบิดที่เราติดตั้งไว้หน้าทางเข้า\nสวนสาธารณะก่อน"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ว่าแต่คุณครูเข้ามาที่นี่ได้ยังไง?"
+    },
+    {
+      "Text": "[s3] \"อืม... จู่ๆ ก็เข้ามาได้เลยแฮะ\""
+    },
+    {
+      "Text": "[s4] \"สงสัยจะมีสกิลพิเศษ?\""
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "......"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "เดี๋ยวก่อน! จู่ๆ ก็เข้ามาแอบดูเด็กอาบน้ำงั้นเหรอ?!"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "รีบกลับไปเลยนะ!!"
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "จะฉวยโอกาสตอนที่เราเก็บอุปกรณ์แล้วทำอะไรแปลกๆ ละสิ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "โมเอะ... ฉันอนุญาตให้ใช้ระเบิดมือค่ะ"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ตายซะเถอะคนโรคจิต!"
+    },
+    {
+      "Text": "ตรอกแถวโคะอุซางิ การ์เด้น"
+    },
+    {
+      "Name": "เสียงปริศนา A",
+      "Text": "หัวหน้า มีเด็กกลุ่มใหม่เข้ามาอยู่แถวๆ สวนสาธารณะด้วย"
+    },
+    {
+      "Name": "???",
+      "Text": "สายใยคือสิ่งที่เข้ามาดั่งสายลม แล้วก็จากไปดั่งสายลม..."
+    },
+    {
+      "Name": "???",
+      "Text": "เราไม่ต้องเกรงกลัวสายใยใหม่ที่เข้ามาหรอก"
+    },
+    {
+      "Name": "???",
+      "Text": "แต่หากพวกเขาปรารถนาที่จะอยู่ร่วมกับเรา ก็ต้องละทิ้งความโลภ เพลิดเพลินไปกับธรรมชาติ และต้องมีจิตใจที่ไม่คิดครอบครองสิ่งใด"
+    },
+    {
+      "Name": "???",
+      "Text": "ทุกคนคิดว่ายังไงกันบ้าง? พวกเธอเป็นสิ่งมีชีวิตสูงส่งที่ตระหนักในการไม่เป็นเจ้าของสิ่งใดเหมือนเรา\nหรือเปล่าล่ะ?"
+    },
+    {
+      "Name": "เสียงปริศนา A",
+      "Text": "ไม่เลย พวกนั้นมีแต่ความปรารถนา"
+    },
+    {
+      "Name": "เสียงปริศนา A",
+      "Text": "แถมยังทำอะไรรวดเร็วมาก ทุกวันนี้เราแทบจะไม่เห็นข้าวกล่องเหลือทิ้งที่พอจะกินได้ในบริเวณนี้เลย ขนาดข้าวกล่องหน้าถั่วงอกยังไม่เหลือเลย!"
+    },
+    {
+      "Name": "เสียงปริศนา B",
+      "Text": "แถมวัสดุจำเป็นสำหรับการอยู่รอดอย่างเศษไม้กับผ้ายางก็ยังเอาไปหมด... แผนซ่อมแซมห้องบูชาของ\nพวกเราถึงกับล่าช้าเลยด้วย"
+    },
+    {
+      "Name": "???",
+      "Text": "อย่างนั้นเหรอ ไม่คิดเลยว่าสายใยที่เข้ามาใหม่จะตาบอดเพราะความโลภเช่นนี้"
+    },
+    {
+      "Name": "???",
+      "Text": "พวกพ้องทั้งหลาย เตรียมอาวุธประจำกายของแต่ละคนไว้"
+    },
+    {
+      "Name": "???",
+      "Text": "คนไม่มีศีลธรรมที่คิดเอาแต่ได้ต้องได้รับการสั่งสอน"
+    },
+    {
+      "Name": "???",
+      "Text": "จงรู้ไว้ว่าการไม่ครอบครองสิ่งใดคือความสุขใจ!"
+    },
+    {
+      "Text": "ตอนต่อไป;เงาต้องสงสัย"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Name": "警衛A",
+      "Text": "呿，那群小偷跑去哪裡了？"
+    },
+    {
+      "Name": "警衛A",
+      "Text": "應該沒有走遠……搜索這一帶！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "所以說不是小偷了！"
+    },
+    {
+      "Name": "都子",
+      "Text": "咲希，請把聲音壓低。會被發現的。"
+    },
+    {
+      "Name": "都子",
+      "Text": "營地RABBIT，這裡是RABBIT1。已到[ruby=Ecco]達E地[/ruby]點。\n目標「胡蘿蔔」也平安確保。幸好沒有傷員……"
+    },
+    {
+      "Name": "都子",
+      "Text": "但剛才的交戰，使當初計劃的退路無法使用了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "加上也有確認到敵人的增援……"
+    },
+    {
+      "Name": "萌",
+      "Text": "嘛，給咲希當隊長的時候我就知道會這樣了。"
+    },
+    {
+      "Name": "萌",
+      "Text": "完美的只有理論，實際操作卻總是失敗。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "吵死了！萌的實戰演習不也完全不行嗎！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "該死，到底是哪裡有問題……？"
+    },
+    {
+      "Text": "[s] 「實際嘗試才知道不順利的事情很多呢。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呿，明明難得可以讓人見識SRT的實力……竟然讓夏萊也看見這種失態……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……話說回來，美優在哪裡？"
+    },
+    {
+      "Name": "萌",
+      "Text": "咦，沒有在一起嗎？GPS信號重疊在一起耶。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "難道……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那個笨蛋……！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這不是把無線電放在背包裡了嗎！"
+    },
+    {
+      "Name": "都子",
+      "Text": "在剛才的交戰時著急了吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "假設從那邊移動……"
+    },
+    {
+      "Name": "都子",
+      "Text": "她應該回在位於B棟的塔式起重機吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "B棟……那裡剛才看起來，到處都是警衛耶？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那邊也沒有掩體，沒辦法期待她能自己逃脫呢……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……咲希，該怎麼辦呢。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "還能怎麼辦，只能去救她了吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這樣的話，這鐵桶放著吧。怎樣也不能背著鐵桶戰鬥啊……"
+    },
+    {
+      "Name": "都子",
+      "Text": "說得也是。很遺憾只能放棄「胡蘿蔔」，先專注在救援吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "敵人的數量也很多……看來先做好覺悟比較好。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……老師？"
+    },
+    {
+      "Name": "都子",
+      "Text": "怎麼了嗎？"
+    },
+    {
+      "Text": "[s] 「罩著鐵桶去如何？」"
+    },
+    {
+      "Name": "都子",
+      "Text": "……認真的嗎？"
+    },
+    {
+      "Name": "都子",
+      "Text": "罩著鐵桶移動，騙過敵人……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……等等，我記得有在書上看過。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "某個傳奇間諜，就是使用紙箱和鐵桶完成眾多潛入任務……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不，就算再怎麼說，那樣怎麼可能不被懷疑……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "但是沒有其他方法吧？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我也一樣，不想聽從這個老師。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "但我更不希望，因為我的失誤讓作戰失敗，或是讓隊員受傷……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……我知道了。那就這麼做吧。"
+    },
+    {
+      "Name": "都子",
+      "Text": "那麼，裝備和身高符合的鐵桶。"
+    },
+    {
+      "Name": "都子",
+      "Text": "前往救出RABBIT4吧！"
+    },
+    {
+      "Name": "警衛A",
+      "Text": "……嗯？那種地方有擺鐵桶嗎？"
+    },
+    {
+      "Name": "警衛B",
+      "Text": "誰知道啊。你以為這個港灣有多少鐵桶啊。誰記得全部的位置。"
+    },
+    {
+      "Name": "警衛A",
+      "Text": "嘛，是那樣沒錯……"
+    },
+    {
+      "Name": "警衛A",
+      "Text": "但感覺有點不自然，好像有在動……"
+    },
+    {
+      "Name": "警衛B",
+      "Text": "你只是累了吧。"
+    },
+    {
+      "Name": "警衛B",
+      "Text": "好了，趕快抓住小偷休息吧。"
+    },
+    {
+      "Name": "汽油桶（都子）",
+      "Text": "……沒想到，還真的不會被發現。"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "我原本也是半信半疑……"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "感覺比偽裝或掩體之類的還要有效呢。"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "這麼有效，讓人不禁想多帶一些回去。"
+    },
+    {
+      "Name": "汽油桶（都子）",
+      "Text": "嘛，一個人帶兩個以上回去並不實際呢。"
+    },
+    {
+      "Name": "汽油桶（都子）",
+      "Text": "回去SRT後，再討論是否購入吧。"
+    },
+    {
+      "Name": "汽油桶（都子）",
+      "Text": "……RABBIT2，即將抵[ruby=Rendezvous]達R地[/ruby]點。"
+    },
+    {
+      "Name": "美優",
+      "Text": "大，大家，去哪裡了呢……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲希醬……都子醬……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "這個狀況也沒辦法太大聲，無線電也不知道跑到哪裡去了……"
+    },
+    {
+      "Name": "美優",
+      "Text": "已經結束了啊……就這樣被大家忘記……"
+    },
+    {
+      "Name": "美優",
+      "Text": "會在這個起重機上，乾枯死去……"
+    },
+    {
+      "Name": "美優",
+      "Text": "……？"
+    },
+    {
+      "Name": "美優",
+      "Text": "鐵，鐵桶動了……！？"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "美優！"
+    },
+    {
+      "Name": "美優",
+      "Text": "甚至說話了……！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "什，什麼？新的未確認生物！？悄悄接近的混沌……！？"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "這邊！快點進來裡面！"
+    },
+    {
+      "Name": "美優",
+      "Text": "唔唔，怪物打算把我拖進去，合為一體……！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "鐵，鐵桶先生，就算吃了我應該也不會覺得好吃的……！"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "現在是說那種傻話的時候嗎！"
+    },
+    {
+      "Name": "美優",
+      "Text": "不是乾枯結束，竟然是被鐵桶吃掉結束……"
+    },
+    {
+      "Name": "美優",
+      "Text": "那種，那種結束方式……！"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "啊啊真是！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "是我啦！給我趕快發現！"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲，咲希醬……？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "我們用鐵桶悄悄來到這裡了。\n好了，快點走吧。"
+    },
+    {
+      "Name": "美優",
+      "Text": "咲，咲希醬……我還以為被大家拋棄了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "才不是，好了快點進去。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "還有，SRT在作戰中不要哭！"
+    },
+    {
+      "Name": "美優",
+      "Text": "唔，嗯……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "那，在被警衛發現之前快點──"
+    },
+    {
+      "Name": "警衛A",
+      "Text": "有了，是入侵者！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "呿，被發現了！"
+    },
+    {
+      "Name": "萌",
+      "Text": "確認到敵人接近……啊，有大量無人機呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "RABBIT2，該怎麼辦？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種時候……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "總之跑起來！！"
+    },
+    {
+      "Text": "（之後眾人罩著鐵桶，在槍林彈雨中奔跑……總算是抵達了公園）"
+    },
+    {
+      "Text": "兔寶寶公園．小隊營地"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "哈啊，哈啊……來到這裡就沒問題了吧……"
+    },
+    {
+      "Name": "萌",
+      "Text": "唔哦，這什麼東西。未確認生物？悄悄接近的混沌？"
+    },
+    {
+      "Name": "萌",
+      "Text": "……嘛，總之先燒一次吧。"
+    },
+    {
+      "Name": "汽油桶（咲希）",
+      "Text": "快住手！是我啊，是我！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "誰是悄悄接近的混沌啊。話說剛才也被美優這麼說……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……平安回來了呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "沒有人受傷真是太好了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "……[USERNAME]老師有受傷嗎？"
+    },
+    {
+      "Text": "[s1] 「我也沒事唷。」"
+    },
+    {
+      "Text": "[s2] 「多虧了鐵桶。」"
+    },
+    {
+      "Name": "都子",
+      "Text": "是嗎。萬一，老師在我們的作戰中受傷的話……"
+    },
+    {
+      "Name": "都子",
+      "Text": "是嗎。萬一，老師在我們的作戰中受傷的話……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不知道又會從聯邦學生會受到什麼樣的處罰。"
+    },
+    {
+      "Name": "萌",
+      "Text": "哎呀～話說咲希一整個醜態百出呢。明明那麼自信滿滿。"
+    },
+    {
+      "Name": "萌",
+      "Text": "還是一樣不擅長實戰呢～"
+    },
+    {
+      "Name": "咲希",
+      "Text": "吵死了。只要沒有出乎預料的情況，5分鐘就結束了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "真是的，現實總是這樣……"
+    },
+    {
+      "Name": "美優",
+      "Text": "沒，沒辦法像教戰手冊一樣順利呢……"
+    },
+    {
+      "Name": "都子",
+      "Text": "不過，總之辛苦了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "在咲希的指揮下，作戰確實是成功了。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……哼。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "話說回來，全身因為汗水黏黏的啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這種時候特別想洗澡……"
+    },
+    {
+      "Name": "萌",
+      "Text": "咕嘻嘻，就知道你會那麼說……"
+    },
+    {
+      "Name": "萌",
+      "Text": "我已經事先將柴火之類需要的東西準備好了！\n來來來，趕快來泡澡吧！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "也就是說，你在作戰中分心準備泡澡啊……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "正常的話應該是要懲戒處分……不過既然能泡澡，就心懷感激的泡吧。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "……那就再努力一下吧。"
+    },
+    {
+      "Name": "全體",
+      "Text": "了解！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "啊～活過來了……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "果然回復疲勞就是要泡澡啊……"
+    },
+    {
+      "Name": "都子",
+      "Text": "鐵桶浴缸，比想像的還要不錯呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "水溫也很剛好……"
+    },
+    {
+      "Name": "美優",
+      "Text": "這感覺很難調節溫度……"
+    },
+    {
+      "Name": "美優",
+      "Text": "就像被放入溫水的青蛙一樣，我也會就這樣……"
+    },
+    {
+      "Name": "萌",
+      "Text": "不用擔心。那部分有確實用熱像儀確認。"
+    },
+    {
+      "Name": "萌",
+      "Text": "不如說現在這樣溫度不太夠吧？"
+    },
+    {
+      "Name": "萌",
+      "Text": "要撒點鋁熱劑粉末嗎？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "笨蛋！全都會被炸飛啦！"
+    },
+    {
+      "Name": "咲希",
+      "Text": "而且這種程度剛剛好。再加熱就要變成兔子湯了。"
+    },
+    {
+      "Name": "都子",
+      "Text": "像這樣大家一起泡澡，感覺很開心呢。"
+    },
+    {
+      "Name": "都子",
+      "Text": "有朝一日回到SRT特殊學園之後，也要偶爾像這樣……"
+    },
+    {
+      "Text": "[s] 「不過必須好好看守有沒有人會來呢。」"
+    },
+    {
+      "Name": "咲希",
+      "Text": "嘛，沒問題吧。反正周圍也沒有人。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "隊員間坦誠相見也不是第一次了，這個時間帶也沒有人會來公園。"
+    },
+    {
+      "Name": "咲希",
+      "Text": "就算有誰來了，地雷和砲塔會有反應才對。"
+    },
+    {
+      "Name": "萌",
+      "Text": "……話說老師為什麼會在這裡？"
+    },
+    {
+      "Text": "[s3] 「就有點像是順其自然在這裡……」"
+    },
+    {
+      "Text": "[s] 「……負責看守？」"
+    },
+    {
+      "Name": "全體",
+      "Text": "……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "喂，你為什麼在啊！？看學生洗澡的樣子也太超過了吧！？"
+    },
+    {
+      "Name": "咲希",
+      "Text": "這下就算被開槍也不准抱怨哦！？"
+    },
+    {
+      "Name": "美優",
+      "Text": "果，果然是看準了作戰結束後，解除武裝的空隙……！？"
+    },
+    {
+      "Name": "都子",
+      "Text": "……萌，準備導彈。"
+    },
+    {
+      "Name": "萌",
+      "Text": "好耶，接招吧！！"
+    },
+    {
+      "Text": "兔寶寶公園．鄰近小路"
+    },
+    {
+      "Name": "奇怪的聲音A",
+      "Text": "隊長，看來那座公園來了新人。"
+    },
+    {
+      "Name": "???",
+      "Text": "所謂緣分，就是隨風而來，隨風而去……"
+    },
+    {
+      "Name": "???",
+      "Text": "至於好壞，沒辦法立刻斷定。"
+    },
+    {
+      "Name": "???",
+      "Text": "只是她們若期望和我們共存……則必須抱持「無所有」的心，享受原始的狀態。"
+    },
+    {
+      "Name": "???",
+      "Text": "……各位覺得如何呢？\n她們和我們一樣是以無所有為榮的高潔存在嗎？"
+    },
+    {
+      "Name": "奇怪的聲音A",
+      "Text": "不。別說無所有，她們根本滿身欲望。"
+    },
+    {
+      "Name": "奇怪的聲音A",
+      "Text": "而且莫名有行動力，廢棄便當幾乎都被拿走……連至今為止都不曾消失過的豆芽菜便當也是！"
+    },
+    {
+      "Name": "奇怪的聲音B",
+      "Text": "廢材類也幾乎都被拿走……我們要補修也無法如意。"
+    },
+    {
+      "Name": "???",
+      "Text": "原來如此……雖然是難得的緣分，卻被物慾侵蝕了嗎……"
+    },
+    {
+      "Name": "???",
+      "Text": "雖然不想引起騷動……不過好吧，請準備武器。"
+    },
+    {
+      "Name": "???",
+      "Text": "一群被物慾蒙蔽雙眼，遺失道德的凡夫俗子……"
+    },
+    {
+      "Name": "???",
+      "Text": "告訴她們「無所有的喜悅」吧！"
+    },
+    {
+      "Text": "下一話;悄悄接近的黑影"
+    }
+  ]
+}

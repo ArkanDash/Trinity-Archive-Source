@@ -1,0 +1,2537 @@
+{
+  "TitleJP": "「救護」の在り方",
+  "TitleKR": "구호가 필요한 자리",
+  "TitleEN": "Where Aid Is Needed",
+  "TitleTH": "คนที่ต้องการให้ช่วยบรรเทาทุกข์",
+  "TitleTW": "「救護」的形式",
+  "DescJP": "先生とミネがシャーレで仕事を処理していると、「キヴォトスの樹海」にいる市民から助けを求める電話がかかってくる。急いで樹海に向かったものの、市民を見つけることはできず。そうして夜になり、二人は一休みするのだった。",
+  "DescKR": "선생님과 미네가 업무를 처리하던 도중, 미네에게 전화가 온다. 미네는 <키보토스의 수해>에서 한 시민의 도움 요청을 받게 되고, 곧장 <키보토스의 수해>로 선생님과 함께 달려간다. 하루가 넘게 <키보토스 수해>를 수색했지만 성과는 없었고, 선생님과 미네는 하룻밤 동안 숲 속의 공터에서 시간을 보낸다.",
+  "DescEN": "Mine gets a call while she's working with Sensei. It's a request for aid, coming from a civilian in the Forest of Kivotos. She and Sensei head directly to the Forest of Kivotos, and spend the whole day looking, but with no luck. Sensei and Mine end up spending the whole night in the forest.",
+  "DescTH": "ระหว่างที่คุณครูกำลังจัดการงานอยู่กับมิเนะ มีชาวเมืองจาก <พื้นที่น้ำ\nท่วมของคิโวทอส> โทรมาหามิเนะเพื่อขอความช่วยเหลือ เธอเลยรีบไปที่ <พื้นที่น้ำท่วมของคิโวทอส> พร้อมกับคุณครู แม้ว่าจะค้นหา <พื้นที่น้ำ\nท่วมของคิโวทอส> ทั่วทั้งวันแล้ว ก็ยังไม่พบอะไร คุณครูกับมิเนะใช้เวลา\nอยู่ตรงที่รกร้างในป่าตลอดทั้งคืน",
+  "DescTW": "在老師和美禰處理工作的過程中，美禰突然接到一通電話。「奇普托斯的樹海」有人美禰尋求協助，美禰立刻和老師一起前往「奇普托斯的樹海」。雖然找了一整天卻沒有任何收穫，老師和美禰在森林中的空地過了一夜。",
+  "DialogJP": [
+    {
+      "Text": "「救護」の在り方"
+    },
+    {
+      "Text": "（ミネの力を借りて、素早く仕事を片付けられた）"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "これで今日の作業は、一通り終わったようですね。"
+    },
+    {
+      "Text": "[s] \"ミネは書類仕事も得意なんだね。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "いえ、それほどでも。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "私も救護騎士団では責任者の立場にありますので、書類と付き合う機会もそれなりにあるからかもしれません。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "思いがけずに得られたスキルのひとつですね。"
+    },
+    {
+      "Text": "[s] \"今日はミネの「救護」のおかげで助かったよ。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "なるほど、これもまたひとつの「救護」の在り方……！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "ありがとうございます、先生。大変勉強になりました。"
+    },
+    {
+      "Text": "[s] （ちょっとくらい笑ってもらえるかなと思って言ったんだけど……）"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……失礼しました、私のですね。"
+    },
+    {
+      "Text": "[s] \"出てもらって大丈夫だよ。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "はい、ありがとうございます。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "こちら救護騎士団です。救護のご用命でしょうか？"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "た、助けてください！道に迷って……！"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "あの森です……「キヴォトスの樹海」です！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "「キヴォトスの樹海」ですね？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "もう少し詳しい状況をご説明いただけませんか？"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "分からないんです……"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "視界が暗くて遠くも見えず、どれも似たような木ばかりで……。"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "……で……し……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "もしもし……聞こえていますか！？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "電話が切れてしまいました……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生、これは一刻の猶予もありません。"
+    },
+    {
+      "Text": "[s] \"何が起きてるの……！？\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "「キヴォトスの樹海」で、誰かが救護の手を求めています！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "大至急向かわねば！"
+    },
+    {
+      "Text": "[s] \"「キヴォトスの樹海」……？\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "はい、聞いたことはありませんか？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "「キヴォトスの樹海」は、一度入ったら抜け出せないと有名な場所……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "その森に入るとGPSが機能しなくなったり、方位磁石が異常な動きをしたり……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "一度でも道に迷ってしまうと出られなくなってしまう場所として、恐れられているのです。"
+    },
+    {
+      "Text": "[s] \"それはもう立入禁止にした方が良いんじゃ……！？\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "すでに案内板などで、むやみに立ち入らないよう警告は出されておりますが……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "禁止されているからこそ、興味を持つ者が後を絶たず……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "目的は人それぞれです。それこそSNSに投稿するためだったり、肝試しだったり、あるいは単純な好奇心から「キヴォトスの樹海」に足を踏み入れる人たちも見受けられます。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先ほど私のところに届いた電話の主も、きっとそのうちの一人でしょう。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生、本日はありがとうございました。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "私は急ぎますので、お先に失礼いたします。"
+    },
+    {
+      "Text": "[ns] \"ちょっと待って……！\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "しかし、先生まで「キヴォトスの樹海」に来ていただかなくても……。"
+    },
+    {
+      "Text": "[s1] \"今日はミネに助けてもらったから、お互いさまってことで。\""
+    },
+    {
+      "Text": "[s2] \"ミネも大切な生徒だし、一人で危険な場所には行かせられないよ。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "大切な、生徒……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "ふふっ、そうでしたね。私自身の立場をすっかり忘れていました。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "つまり私と一緒に「救護」活動を担っていただける、ということですね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "やはり今からでも、救護騎士団の臨時顧問になっていただくのはいかがでしょうか？"
+    },
+    {
+      "Text": "[s] \"そういえば前、そんな話もあったね……。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "ええ。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "何度でも申し上げますが、先生は素晴らしい「救護」の才能と精神をお持ちですので。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "とにかく、今は先を急ぐとしましょうか。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……実は「キヴォトスの樹海」に訪れるのは、私も初めてのことなのです。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "思っていたよりも、緊張しております……。"
+    },
+    {
+      "Text": "[s] \"ミネでも緊張するんだね。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……私も「大切な」生徒だと言っていただいたから、かもしれません。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "すみません、こんな時に。そんなに慌てなくても大丈夫ですよ。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "では、参りましょう！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生、足元の木にお気をつけください！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "これで大丈夫ですね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "もう少し資源を大切に……？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "確かに、それもそうですね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "引き続き足元に注意しながら進みましょう。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "遊歩道を外れてから結構な時間歩いてきましたが……人の痕跡が見当たりませんね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……色々と不安になってきましたが、私たちに救護を要請した生徒もきっと同じ気持ちでしょう。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生は大丈夫ですか？"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "日陰で助かりましたが、足元も悪いのでご無理なさらず。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "かなり奥深くまで来ましたね……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "しかしGPSが機能しないというのは、やはり単なる噂だったようです。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "とはいえ、バッテリーも減ってきてしまいました……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "予備の分を持ってくるべきでしたね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……ありがとうございます。そうですね、急な出動であれば準備が心許ないのはよくあることです。今は最善を尽くしましょう。"
+    },
+    {
+      "Text": "（結局夜になっても、手がかりは見つからず……）"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "こんな時間になってしまいましたね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "申し訳ありません、先生。救護となると、周りが見えなくなってしまうようで……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "やはり、先生を勢いで巻き込んでしまわない方が良かったかもしれません。"
+    },
+    {
+      "Text": "[s3] \"ううん、私がついてきたんだから気にしないで。\""
+    },
+    {
+      "Text": "[s4] \"その気持ちの真っすぐさは、ミネの良い所だよ。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……ありがとうございます、先生。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "あちらに休めそうな場所がありますね。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "少し休憩を取りませんか？シャーレを出てから、ずっと歩き詰めでしたから。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生はこちらの切り株に……"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "落ち葉はどかしましたので、どうぞ。"
+    },
+    {
+      "Text": "[wa:400]― 先生、[wa:1200]大丈夫ですか？"
+    },
+    {
+      "Text": "― お怪我などは[wa:700]ありませんか？"
+    },
+    {
+      "Text": "[wa:500]― 夜の空気は[wa:1450]気持ちが良いですね……。"
+    },
+    {
+      "Text": "― 草の香りに、[wa:1400]川のせせらぎ……"
+    },
+    {
+      "Text": "― 心が落ち着きます。"
+    },
+    {
+      "Text": "[wa:350]― ……どうされましたか？"
+    },
+    {
+      "Text": "― 眩しい…[wa:1400]ですか…？"
+    },
+    {
+      "Text": "[wa:50]― ふふ、[wa:1800]確かに[wa:1200]そうかもしれませんね。"
+    },
+    {
+      "Text": "[wa:400]― 落ち着かないようでしたら、[wa:1600]私にもたれたり"
+    },
+    {
+      "Text": "― 膝でお休みいただいても[wa:1500]構いませんよ。"
+    },
+    {
+      "Text": "― ご心配[wa:400]なさらないでください。"
+    },
+    {
+      "Text": "― たとえ何があっても、"
+    },
+    {
+      "Text": "[wa:100]― 私が必ず[wa:1300]先生をお守りしますので。"
+    },
+    {
+      "Text": "（ミネの膝を借りて、少しのあいだ休ませてもらった）"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "なんとか入り口まで戻ってこられました……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "バッテリーも、まだ何とか……。"
+    },
+    {
+      "Text": "[s] \"ミネの方は、疲れてない？\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "私は大丈夫です。むしろ先生にはなれないことをさせてしまい……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "いつかきちんと「顧問」になっていただいたら、こういうことも増えるかもしれませんが……ふふっ。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "もしかして、あの生徒から……？"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "た、助けてください！森で迷ってるんです……！"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "あの「キヴォトスの樹海」です！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "あらためてですが、もう少し詳しい状況をご説明いただけませんか？"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "ですが、何も分からなくて……"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "とにかく、木がたくさんあることしか……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "今「キヴォトスの樹海」にいます、少しでもヒントをいただければ。"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "えっ、嘘だろ！？"
+    },
+    {
+      "Name": "緊迫した声",
+      "Text": "まじで行ったのかよ、やべぇな！"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "イタ電すればあの救護騎士団を動かせるとか、もっと早く思いつけば良かったな！"
+    },
+    {
+      "Name": "チンピラ２",
+      "Text": "ははっ、相当迷ったんじゃないの？"
+    },
+    {
+      "Name": "チンピラ１",
+      "Text": "そもそも本当だったところで、あそこで人探しは無理だろ！"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "……。"
+    },
+    {
+      "Text": "[ns] \"えっと……ミネ？\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "三つ、過ちがあります。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "一つ目、いくら私でも二度目は様々な可能性を考えるということ。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "二つ目、いたずら電話であることを失言してしまったこと。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "三つ目、あまりこういった方法を乱用すべきではないのですが……"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "いくつかの条件があるとはいえ、「救護騎士団は逆探知の権限がある」と知らなかったこと。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "これより私は、「救護」を必要としている方の元へ参ろうと思います。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "誰かが道を誤ってしまったとき……。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "正しい道を示すことも、私たちが行うべき「救護」です。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "先生も、そう思いませんか？"
+    },
+    {
+      "Text": "[ns5] \"えっと……ほどほどにね？\""
+    },
+    {
+      "Text": "[ns6] \"手加減してあげてね……。\""
+    },
+    {
+      "Name": "ミネ",
+      "Text": "ご理解いただき、ありがとうございます。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "それでは申し訳ありませんが、お先に失礼します。また後日。"
+    },
+    {
+      "Name": "ミネ",
+      "Text": "救護騎士団、参ります！\n『救護が必要な場に救護を』！"
+    },
+    {
+      "Text": "（その後、ミネは猛烈なスピードでどこかへ消えていった）"
+    },
+    {
+      "Text": "（いたずら電話の犯人たちの顛末については、ミネのみぞ知る……）"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "구호가 필요한 자리"
+    },
+    {
+      "Text": "(미네의 도움을 받아 행정 업무를 빠르게 처리했다.)"
+    },
+    {
+      "Name": "미네",
+      "Text": "이걸로 오늘의 작업은 끝인 것 같군요."
+    },
+    {
+      "Text": "[s] \"미네는 서류 작업에도 능숙하구나……\""
+    },
+    {
+      "Name": "미네",
+      "Text": "과찬이십니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "한 단체의 책임자라는 것을 하다 보면, 이런저런 일에도 능숙해질 수밖에 없는 법이니까요."
+    },
+    {
+      "Name": "미네",
+      "Text": "뜻하지 않게 얻게 된…… 하나의 스킬 같은 것이라고나 할까요."
+    },
+    {
+      "Text": "[s] \"그래도 미네의 '구호' 덕분에 많이 도움이 됐어.\""
+    },
+    {
+      "Name": "미네",
+      "Text": "……!"
+    },
+    {
+      "Name": "미네",
+      "Text": "그렇군요. 이것도 어떤 의미에서는 구호의 일환……!"
+    },
+    {
+      "Name": "미네",
+      "Text": "감사합니다. 선생님. 많은 배움이 되었습니다."
+    },
+    {
+      "Text": "[s] (그렇게 진지하게 받아 줄 말이었던가……?)"
+    },
+    {
+      "Name": "미네",
+      "Text": "전화가……?"
+    },
+    {
+      "Text": "[s] \"어서 받아 봐.\""
+    },
+    {
+      "Name": "미네",
+      "Text": "예, 선생님."
+    },
+    {
+      "Name": "미네",
+      "Text": "여보세요. 구호기사단입니다. 구호가 필요하십니까?"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "사, 살려주세요……! 길을 잃었어요……"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "숲에서…… <키보토스의 수해>에서요!"
+    },
+    {
+      "Name": "미네",
+      "Text": "네? <키보토스의 수해>에서요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "조금 더 자세히 상황을 설명해 주실 수 있겠습니까?"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "모르겠어요!"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "주위가 너무 어둡고, 나무들이 다 똑같이 생겨서……"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "……고, ……데다……"
+    },
+    {
+      "Name": "미네",
+      "Text": "여보세요? 여보세요?? "
+    },
+    {
+      "Name": "미네",
+      "Text": "전화가 끊겼군요……"
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님. 한시도 지체할 수 없게 되었습니다."
+    },
+    {
+      "Text": "[s] \"무, 무슨 일이 일어나고 있는 거야?\""
+    },
+    {
+      "Name": "미네",
+      "Text": "<키보토스의 수해>에서 누군가가 구호를 요청하고 있습니다!"
+    },
+    {
+      "Name": "미네",
+      "Text": "저는 지금부터 <키보토스의 수해>로 향할 겁니다!"
+    },
+    {
+      "Text": "[s] \"<키보토스의 수해>……?\""
+    },
+    {
+      "Name": "미네",
+      "Text": "아, 모르고 계십니까?"
+    },
+    {
+      "Name": "미네",
+      "Text": "<키보토스의 수해>란 키보토스에서도 이름난 울창한 숲으로……"
+    },
+    {
+      "Name": "미네",
+      "Text": "이상하게도 그 숲에만 들어가면 GPS가 작동하지 않는다거나, 나침반이 제멋대로 빙글빙글 돈다거나 하여."
+    },
+    {
+      "Name": "미네",
+      "Text": "한번 길을 잃으면 나올 수 없게 되어버린다는 무서운 숲입니다."
+    },
+    {
+      "Text": "[s] \"그런 곳은 출입 금지 지역으로 지정해야 하지 않을까?!\""
+    },
+    {
+      "Name": "미네",
+      "Text": "이미 그에 준하는 조치가 취해져 있기는 합니다만……"
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님도 아시다시피, 하지 말라고 하면 꼭 하는 자들이 생겨나기 마련이죠."
+    },
+    {
+      "Name": "미네",
+      "Text": "담력 시험이라거나 SNS 영상, 또는 순수한 호기심에서 <키보토스의 수해>를 찾는 사람들이 잊을 만하면 생겨나곤 합니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "지금 저에게 들어온 신고도, 아마 그런 사람들 중의 한 부류겠지요."
+    },
+    {
+      "Name": "미네",
+      "Text": "아무튼, 오늘은 감사했습니다!"
+    },
+    {
+      "Name": "미네",
+      "Text": "그러면 저는 이만!"
+    },
+    {
+      "Text": "[ns] \"잠깐 기다려 봐!\""
+    },
+    {
+      "Name": "미네",
+      "Text": "그렇다고는 해도 선생님마저 <키보토스의 수해>에 오실 필요는 없었을 텐데요……"
+    },
+    {
+      "Text": "[s1] \"아무리 신고가 있었다 해도 말이지……\""
+    },
+    {
+      "Text": "[s2] \"미네는 내 학생이니까, 혼자서 그렇게 위험한 곳에 보낼 수는 없어……\""
+    },
+    {
+      "Name": "미네",
+      "Text": "저도, 선생님의……?"
+    },
+    {
+      "Name": "미네",
+      "Text": "후후, 그렇군요. 저 자신의 처지를 잊고 있었습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "그러면 선생님도 구호기사단의 '구호'를, 지금 이 순간만큼은 함께 한다는 뜻으로 받아들이겠습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "아뇨, 차라리 선생님을 지금 이 순간만이지만 구호기사단의 명예 고문으로 위촉하는 것이 어떨까요?"
+    },
+    {
+      "Text": "[s] \"그 고문직 이야기…… 잊지 않고 있었구나.\""
+    },
+    {
+      "Name": "미네",
+      "Text": "당연합니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "누차 말씀드리지만, 선생님께서는 훌륭한 '구호'의 정신과 재능을 갖고 계십니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "그러면 선생님, 출발할까요."
+    },
+    {
+      "Name": "미네",
+      "Text": "사실 <키보토스의 수해>에 직접 발을 디디는 것은 저 역시 처음인 몸이라."
+    },
+    {
+      "Name": "미네",
+      "Text": "제법 긴장이 되는군요."
+    },
+    {
+      "Text": "[s] \"미네는 그런 거 안 할 줄 알았는데.\""
+    },
+    {
+      "Name": "미네",
+      "Text": "……저 역시 선생님의 학생이라고 말씀하시지 않았나요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "후후, 해본 말이에요. 그렇게까지 당황하지 않으셔도 됩니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "그러면, 가겠습니다. 구호기사단 출동합니다!"
+    },
+    {
+      "Name": "미네",
+      "Text": "조심하세요, 선생님! 덩굴입니다"
+    },
+    {
+      "Name": "미네",
+      "Text": "이걸로 발길을 막는 장애물은 사라졌습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "네? 가능한 한 자원을 아끼는 편이 좋을 것 같다고요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "그 말씀도 일리가 있습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "조금 더 발밑을 주의하면서 나아가도록 하죠."
+    },
+    {
+      "Name": "미네",
+      "Text": "제법 깊이 들어온 것 같습니다만, 사람의 흔적은 없군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "걱정됩니다. 저희에게 구호를 요청한 그 학생들도, 이런 심정을 느끼고 있겠지요."
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님은 괜찮으신가요?"
+    },
+    {
+      "Name": "미네",
+      "Text": "그나마 숲이 울창해서, 더울 일은 없는 것이 다행이군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "시간이 상당히 지나 버린 것 같습니다……"
+    },
+    {
+      "Name": "미네",
+      "Text": "GPS가 작동하지 않는다던가 하는 것은 역시 부풀려진 소문이었던 모양이네요."
+    },
+    {
+      "Name": "미네",
+      "Text": "그 대신 핸드폰 배터리가……"
+    },
+    {
+      "Name": "미네",
+      "Text": "이건 저의 실책이군요. 예비 배터리를 넉넉히 준비했어야 했는데."
+    },
+    {
+      "Name": "미네",
+      "Text": "너무 갑작스러운 출동이었으니 어쩔 수 없었다고요? 후후, 그렇게 생각해 주신다면 감사합니다."
+    },
+    {
+      "Text": "(결국 밤이 될 때까지 <키보토스의 수해>에서는 어떤 흔적이나 단서도 찾아내지 못했다……)"
+    },
+    {
+      "Name": "미네",
+      "Text": "……."
+    },
+    {
+      "Name": "미네",
+      "Text": "밤이 되고 말았군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "죄송합니다, 선생님. 저는…… 이런 상황이 되면 좀처럼 앞뒤 구분을 잘 못하는 모양입니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "저 자신의 고집 때문에 선생님에게까지 이런 폐를 끼쳐 드리고 말았군요."
+    },
+    {
+      "Text": "[s3] \"그런 건 괜찮아.\""
+    },
+    {
+      "Text": "[s4] \"사람을 도우려고 했던 거잖아?\""
+    },
+    {
+      "Name": "미네",
+      "Text": "……감사합니다. 그렇게 생각해 주셔서."
+    },
+    {
+      "Name": "미네",
+      "Text": "저기, 자연적으로 생긴 듯한 공터가 보이는군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "저곳에서 휴식하지 않으시겠습니까? 저희 둘 다 기력을 다 쓴 듯하군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님은 여기, 나무 그루터기 위에 앉으시면 될 것 같습니다. "
+    },
+    {
+      "Name": "미네",
+      "Text": "더러운 것들은 대강 치워 두었으니, 잠시 방제 작업을 하겠습니다."
+    },
+    {
+      "Text": "[wa:400]― 선생님, [wa:1300]괜찮으십니까?"
+    },
+    {
+      "Text": "― 다친 곳은 [wa:850]없으신가요?"
+    },
+    {
+      "Text": "[wa:500]― 밤공기는 [wa:1700]기분이 좋네요.[wa:50] "
+    },
+    {
+      "Text": "― 풀의 향기에, [wa:1200]강의 물소리……"
+    },
+    {
+      "Text": "[wa:100]― 마음이 안정됩니다."
+    },
+    {
+      "Text": "[wa:350]― ……왜 그러시죠?"
+    },
+    {
+      "Text": "[wa:200]― 눈부시다…… [wa:1200]고요?"
+    },
+    {
+      "Text": "[wa:50]― 후후, [wa:1800]확실히 [wa:1200]그럴지도 모르겠네요."
+    },
+    {
+      "Text": "[wa:400]― 불안하시다면, [wa:1900]저에게 기대거나"
+    },
+    {
+      "Text": "― 무릎을 베고 주무셔도 [wa:1400]괜찮아요."
+    },
+    {
+      "Text": "― 걱정하실 필요 없습니다.[wa:400] "
+    },
+    {
+      "Text": "― 설령 무슨 일이 있어도,"
+    },
+    {
+      "Text": "― 제가 꼭 [wa:1200]선생님을 지켜 드릴테니까요"
+    },
+    {
+      "Text": "(미네 덕분에, 무사히 숲에서 밤을 보낼 수 있었다.)"
+    },
+    {
+      "Name": "미네",
+      "Text": "간신히 숲의 입구까지 나올 수 있었습니다……"
+    },
+    {
+      "Name": "미네",
+      "Text": "그 대가라고 해야 할지, 배터리의 잔량은 15% 정도밖에 남지 않았습니다만."
+    },
+    {
+      "Text": "[s] \"고생 많았어요, 미네 단장님……\""
+    },
+    {
+      "Name": "미네",
+      "Text": "천만에요. 저보다는 임시 고문 선생님께서 더 고생하셨죠."
+    },
+    {
+      "Name": "미네",
+      "Text": "후후…… 언젠가 '임시'라는 수식어를 떼어낼 수 있으면 좋겠네요."
+    },
+    {
+      "Name": "미네",
+      "Text": "또 다시 전화가……?"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "사, 살려주세요……! 길을 잃었어요……"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "숲에서…… <키보토스의 수해>에서요!"
+    },
+    {
+      "Name": "미네",
+      "Text": "……조금 더 자세히 상황을 설명해 주실 수 있겠습니까?"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "모르겠어요!"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "주위가 너무 어둡고, 나무들이 다 똑같이 생겨서……"
+    },
+    {
+      "Name": "미네",
+      "Text": "……이미 <키보토스의 수해>에 들어와 있습니다만, 어디십니까?"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "이미 와 있다고……?!"
+    },
+    {
+      "Name": "다급한 목소리",
+      "Text": "와, 진짜냐? 정말로 갔다고? 대박이다!"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "그 구호기사단을 장난 전화로 가지고 놀 수 있다니, 이거 끝내주는데!"
+    },
+    {
+      "Name": "불량배 2",
+      "Text": "분명 한참을 헤맸을 거야. 그렇지?"
+    },
+    {
+      "Name": "불량배 1",
+      "Text": "그 숲에서 사람을 찾는다는 건 애초에 무리니까, 들키지도 않을 거고! "
+    },
+    {
+      "Name": "미네",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns] \"저기…… 미네?\""
+    },
+    {
+      "Name": "미네",
+      "Text": "이 분들은 세 가지 실수를 하셨군요."
+    },
+    {
+      "Name": "미네",
+      "Text": "하나는, 아무리 저라고 해도 같은 장난에 두 번씩 넘어가지는 않는다는 사실을 몰랐다는 것."
+    },
+    {
+      "Name": "미네",
+      "Text": "또 하나는, 어제와 달리 통화를 적당한 시간에 끊지 못했다는 것."
+    },
+    {
+      "Name": "미네",
+      "Text": "마지막으로, 좀처럼 이런 것을 사용하고 싶지는 않았습니다만,"
+    },
+    {
+      "Name": "미네",
+      "Text": "구호기사단의 이름을 내걸면, 위치 역추적 정도는, 특정 상황에 한해 얼마든지 할 수 있다는 것……!"
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님."
+    },
+    {
+      "Name": "미네",
+      "Text": "저는 지금부터, 진정한 '구호'를, 필요한 사람들에게 전하러 가겠습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "누군가가 어긋난 길을 가고 있다면,"
+    },
+    {
+      "Name": "미네",
+      "Text": "그것을 손수 바로잡아 올바른 길을 가도록 도와주는 것 역시 구호!"
+    },
+    {
+      "Name": "미네",
+      "Text": "선생님도 그렇게 생각하시죠!?"
+    },
+    {
+      "Text": "[ns5] \"어…… 적당히 해 줘……?\""
+    },
+    {
+      "Text": "[ns6] \"너무 과하게 하지는 말고……?\""
+    },
+    {
+      "Name": "미네",
+      "Text": "이해해 주셔서 감사합니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "실례가 되겠습니다만, 먼저 자리를 비우겠습니다."
+    },
+    {
+      "Name": "미네",
+      "Text": "『구호가 필요한 곳에 구호를!』"
+    },
+    {
+      "Text": "(미네는 빠른 속도로 어딘가로 사라져 갔다.)"
+    },
+    {
+      "Text": "(……장난 전화를 건 학생들의 운명은, 미네만이 안다……)"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Where Aid Is Needed"
+    },
+    {
+      "Text": "With Mine's help, I took care of administrative tasks quickly."
+    },
+    {
+      "Name": "Mine",
+      "Text": "That seems to be the end of today's tasks."
+    },
+    {
+      "Text": "[s] \"You're great at documentation as well, Mine...\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "I'm flattered."
+    },
+    {
+      "Name": "Mine",
+      "Text": "You have to become proficient in many things when you are managing an organization."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I guess it's like a skill or talent that I didn't intend to acquire."
+    },
+    {
+      "Text": "[s] \"But still, your aid was a big help, Mine.\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "...!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "I see. This is, in some way, an extension of aid...!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Thank you. Sensei. I've learned a lot."
+    },
+    {
+      "Text": "[s] \"(Was that something to take so seriously?)\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "A phone call...?"
+    },
+    {
+      "Text": "[s] \"Go on, answer.\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "I will, Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Hello. You have reached the Remedial Knights. Are you in need of aid?"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "H-Help me! I'm lost..."
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "In the forest... In the Forest of Kivotos!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Hm? In the Forest of Kivotos?!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Could you provide more details about your situation?"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "I don't know!"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "The surroundings are so dark, and all these trees look the same..."
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "It's also.. And...!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Hello? Hello??"
+    },
+    {
+      "Name": "Mine",
+      "Text": "The call cut off..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Sensei. I can't waste a single moment."
+    },
+    {
+      "Text": "[s] \"Wh-What's going on?\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "Someone is requesting aid from the Forest of Kivotos!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "I will head there right away!"
+    },
+    {
+      "Text": "[s] \"The Forest of Kivotos...?\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "Oh, don't you know?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "The Forest of Kivotos is famous for being very dense..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Strangely, they say that your GPS won't function in that forest, and that even your compass malfunctions once you enter."
+    },
+    {
+      "Name": "Mine",
+      "Text": "They also say that you won't be able to find your way out if you become lost."
+    },
+    {
+      "Text": "[s] \"Shouldn't a place like that be designated as off-limits?!\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "They have already taken similar measures, but..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "As you well know, making something forbidden will always tempt some people into doing it."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Whether as a test of courage, for the sake of a social media video, or just pure curiosity, it's not uncommon for people to brave the Forest of Kivotos from time to time."
+    },
+    {
+      "Name": "Mine",
+      "Text": "That distress call I just received must have come from such a person."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Anyways, thank you for today!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Then I'll be on my way!"
+    },
+    {
+      "Text": "[ns] \"Hold on a second!\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "You don't have to come with me to the Forest of Kivotos, Sensei..."
+    },
+    {
+      "Text": "[s1] \"Even though it may have been a distress call...\""
+    },
+    {
+      "Text": "[s2] \"I can't let my student go to a dangerous place alone...\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "Me, your...?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Huhu, I see. I've forgotten my own status."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Then I'll take it as fact that you are also a part of the 'aid' of the Remedial Knights for the moment, Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Now how about we make you an honorary advisor of the Remedial Knights, at least for the time being?"
+    },
+    {
+      "Text": "[s] \"That thing about becoming an advisor... You didn't forget.\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "Of course not."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I'll say it again, but you have an excellent spirit and talent of aid."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Then let's go, Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "It's actually my first time stepping foot in the Forest of Kivotos myself."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I'm quite nervous."
+    },
+    {
+      "Text": "[s] \"I didn't think you got nervous, Mine.\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "...Didn't you say that I was also one of your students?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Heehee. I'm just kidding. You don't have to get that nervous."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Then, let's go. Remedial Knights are on the way!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Careful, Sensei! Watch out for those vines."
+    },
+    {
+      "Name": "Mine",
+      "Text": "With this, we'll make a clearer path to tread."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Huh? You think that it'd be best to conserve our resources when possible?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "That's true, too."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Let's take a bit more care with where we step as we go forward."
+    },
+    {
+      "Name": "Mine",
+      "Text": "We seem to have made it fairly far in, but there isn't a trace of anyone."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I'm worried. I'm sure the students who need our aid must be feeling the same."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Are you doing all right, Sensei?"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Thankfully, the forest is so thickly wooded that it provides shade against the heat. No worries there."
+    },
+    {
+      "Name": "Mine",
+      "Text": "It seems that quite a lot of time has passed..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "The rumors that GPS doesn't work here seem to have been just that. Rumors."
+    },
+    {
+      "Name": "Mine",
+      "Text": "My phone battery, on the other hand..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "This is my oversight. I should have prepared ample spare batteries."
+    },
+    {
+      "Name": "Mine",
+      "Text": "We had to rush here so suddenly it couldn't be helped? Huhu, I'm grateful that's how you see it."
+    },
+    {
+      "Text": "In the end, we couldn't find any traces or clues in the Forest of Kivotos even by the time night fell..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "It's nighttime."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I'm sorry, Sensei. I... When I get into a situation like this, I seem to get a bad case of tunnel vision."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I caused you inconvenience, simply because of my stubbornness."
+    },
+    {
+      "Text": "[s3] \"It's all right.\""
+    },
+    {
+      "Text": "[s4] \"You were just trying to help someone, right?\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "...Thank you. For thinking of it like that."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Over there... That seems to be a natural clearing."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Would you like to take a short rest? It seems the two of us have both exhausted all our energy."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I think you could sit on this wooden stump here, Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "I've addressed most of the dirty stuff, so I'll start sanitizing now."
+    },
+    {
+      "Text": "― Sensei, is everything okay?[wa:1100] "
+    },
+    {
+      "Text": "― Are you hurt anywhere at all?[wa:170] "
+    },
+    {
+      "Text": "― Ah, the night air is lovely![wa:1690] "
+    },
+    {
+      "Text": "― The sweet smell of the grass, the soft sounds of the river...[wa:10] "
+    },
+    {
+      "Text": "― It's such a calming atmosphere.[wa:10] "
+    },
+    {
+      "Text": "― ...What's wrong?[wa:70] "
+    },
+    {
+      "Text": "― It's blinding?[wa:1240] "
+    },
+    {
+      "Text": "― I understand. Heehee.[wa:2970] "
+    },
+    {
+      "Text": "― If you're nervous, you can lean on me![wa:1420] "
+    },
+    {
+      "Text": "― Or, if you'd like to close your eyes, you can put your head on my lap.[wa:10] "
+    },
+    {
+      "Text": "― Don't worry, Sensei.[wa:160] "
+    },
+    {
+      "Text": "― No matter what happens,"
+    },
+    {
+      "Text": "― I'll be here to protect you.[wa:840] "
+    },
+    {
+      "Text": "Thanks to Mine, the night in the forest passed safely."
+    },
+    {
+      "Name": "Mine",
+      "Text": "We were finally able to make it back to the forest's entrance..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Perhaps it's a small price to pay, but my battery only has about 15% charge left."
+    },
+    {
+      "Text": "[s] \"Good job, Captain Mine...\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "It was all thanks to you, who went through a much harder time as our temporary advisor, Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Huhu... I hope that we can remove the 'temporary' from that title."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Another call...?"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "H-Help...! I'm lost..."
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "In the forest... In the Forest of Kivotos!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "...Could you provide me with additional details?"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "I don't know!"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "The surroundings are so dark, and all these trees look the same..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...We're already in the Forest of Kivotos. Where are you?"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "You're already here...?!"
+    },
+    {
+      "Name": "Insistent Voice",
+      "Text": "Wow, really? They actually came? That's crazy!"
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "To think we could actually prank call the Remedial Knights! This is great!"
+    },
+    {
+      "Name": "Thug 2",
+      "Text": "They must've wandered around in there for a long time, right?"
+    },
+    {
+      "Name": "Thug 1",
+      "Text": "Finding someone in this forest is like looking for a needle in a haystack, so we'll never get caught!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"Um... Mine?\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "These people have made three mistakes."
+    },
+    {
+      "Name": "Mine",
+      "Text": "First, that even I won't fall for the same trick twice."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Second, this time they didn't end the call quickly enough."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Lastly, though I didn't want to use something like this..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Lastly is that when I use the name of the Remedial Knights, tracking someone's location is very simple...!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "Sensei."
+    },
+    {
+      "Name": "Mine",
+      "Text": "From now on, I will go and deliver some true 'aid' to those who really need it."
+    },
+    {
+      "Name": "Mine",
+      "Text": "If someone is walking the wrong path..."
+    },
+    {
+      "Name": "Mine",
+      "Text": "...It is 'aid' to personally go and make sure that they return to the right one!"
+    },
+    {
+      "Name": "Mine",
+      "Text": "You think so too, right, Sensei?!"
+    },
+    {
+      "Text": "[ns5] \"Yeah... Go easy on them...?\""
+    },
+    {
+      "Text": "[ns6] \"Don't go too hard on them...?\""
+    },
+    {
+      "Name": "Mine",
+      "Text": "Thank you for understanding."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Excuse me, but I'll head out first."
+    },
+    {
+      "Name": "Mine",
+      "Text": "Medicine knows no borders!"
+    },
+    {
+      "Text": "Mine disappeared somewhere very quickly."
+    },
+    {
+      "Text": "...The fate of the students who made the prank call, is to this day only known by Mine..."
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "คนที่ต้องการให้ช่วยบรรเทาทุกข์"
+    },
+    {
+      "Text": "(ด้วยความช่วยเหลือของมิเนะ คุณครูเลยจัดการงานที่ได้รับมอบหมายเสร็จได้อย่างรวดเร็ว)"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ดูเหมือนงานของวันนี้จะเสร็จเรียบร้อยแล้วค่ะ"
+    },
+    {
+      "Text": "[s] \"มิเนะนี่จัดการเอกสารเก่งจัง...\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ชมเกินไปแล้วค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "พอลองได้ทำงานเป็นผู้รับผิดชอบชมรม ก็จะทำงานด้านการจัดการเก่งขึ้นค่ะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เรียกว่าเป็นทักษะหนึ่งอย่างที่ได้มา... โดยไม่คาดคิดเลยค่ะ"
+    },
+    {
+      "Text": "[s] \"แต่ครูก็ได้ 'การบรรเทาทุกข์' ของมิเนะช่วยไว้ได้เยอะเลยนะ\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "...!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "อย่างนี้นี่เอง... นี่ก็เป็นการบรรเทาทุกข์อย่างหนึ่งสินะคะ...!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ขอบคุณค่ะคุณครู ฉันได้เรียนรู้เยอะเลยค่ะ"
+    },
+    {
+      "Text": "[s] (ต้องตอบรับจริงจังเบอร์นี้เลยเหรอ...?)"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มีโทรศัพท์เข้ามา...?"
+    },
+    {
+      "Text": "[s] \"รับสายก่อนเถอะ\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ค่ะ คุณครู"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "สวัสดีค่ะ ชมรมอัศวินบรรเทาทุกข์ค่ะ ต้องการความช่วยเหลืออะไรรึเปล่าคะ?"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ชะ... ช่วยด้วย! ฉันหลงทาง..."
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ในป่า... ตรง... <พื้นที่น้ำท่วมของคิโวทอส>!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คะ? <พื้นที่น้ำท่วมของคิโวทอส> งั้นเหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ช่วยอธิบายสถานการณ์ให้ละเอียดหน่อยได้มั้ยคะ?"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ฉะ... ฉันไม่รู้!"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ข้างนอกมืดไปหมด... ต้นไม้มันก็ดูเหมือนๆ กัน..."
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "และ... ที่..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฮะ...ฮัลโหล?? "
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "สายหลุดไปแล้วค่ะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูคะ จะรอช้าอยู่ไม่ได้แล้วนะคะ"
+    },
+    {
+      "Text": "[s] \"กะ...เกิดอะไรขึ้นงั้นเหรอ?\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มีคนต้องการความช่วยเหลือใน <พื้นที่น้ำท่วมของคิโวทอส> ค่ะ!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันต้องรีบไปที่ <พื้นที่น้ำท่วมของคิโวทอส> แล้วค่ะ!"
+    },
+    {
+      "Text": "[s] \"<พื้นที่น้ำท่วมของคิโวทอส>...?\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "อ๊ะ คุณครูไม่รู้จักเหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "<พื้นที่น้ำท่วมของคิโวทอส> เป็นป่าทึบชื่อดังในคิโวทอส..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "และเป็นเรื่องที่แปลกมากๆ เลยค่ะ เวลาเข้าไปในป่านั้น GPS จะใช้งานไม่ได้ แม้กระทั่งเข็มทิศ\nก็จับทิศทางไม่ได้เลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าหลงทางในนั้นก็จะออกมาไม่ได้ เป็นป่าที่น่ากลัวมากค่ะ"
+    },
+    {
+      "Text": "[s] \"พื้นที่นั้นไม่ได้เป็นเขตห้ามเข้าหรอกเหรอ?!\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มีประกาศใช้งานมาตราการห้ามเข้าแล้วค่ะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "แต่อย่างที่คุณครูทราบดี ถึงจะห้ามยังไง พวกคนที่อยากลองของก็เข้าไปอยู่ดีค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มักจะมีคนชอบไปทดสอบความกล้า หรือถ่ายวิดีโอลงโซเชียล แล้วก็มักเกิดเหตุที่พวกคนอยากรู้\nอยากลองพวกนี้ หลงทางในป่าเสมอๆ เลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "บางทีคนที่โทรเข้ามาขอความช่วยเหลือคราวนี้ ก็คงเป็นหนึ่งในนั้นค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ยังไงก็เถอะค่ะ วันนี้ขอบคุณมากนะคะคุณครู!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันขอตัวก่อนนะคะ!"
+    },
+    {
+      "Text": "[ns] \"เดี๋ยวสิ รอครูด้วย!\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูไม่ต้องมาที่ <พื้นที่น้ำท่วมของคิโวทอส> ก็ได้นี่คะ..."
+    },
+    {
+      "Text": "[s1] \"ถึงจะมีคนขอความช่วยเหลือเข้ามา แต่จะให้มาคนเดียวได้ยังไง...\""
+    },
+    {
+      "Text": "[s2] \"มิเนะเป็นนักเรียนของครูนะ จะปล่อยให้มาที่ที่อันตรายคนเดียวได้ยังไง\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันเป็น... ของคุณครู...?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฮุฮุ งั้นเหรอคะ ฉันลืมเรื่องนั้นไปซะสนิทเลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าอย่างนั้น ฉันจะเข้าใจว่าตั้งแต่นี้ไป คุณครูก็จะออกปฏิบัติการ \"บรรเทาทุกข์\" ของชมรมอัศวิน\nบรรเทาทุกข์ด้วยกันนะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ไม่สิ... ถึงจะเพียงชั่วคราว แต่คุณครูสนใจจะรับตำแหน่งที่ปรึกษากิตติมศักดิ์ของชมรมอัศวินบรรเทา\nทุกข์มั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"เรื่องที่ปรึกษานั่น... ยังไม่ลืมสินะ\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "แน่นอนค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันเคยบอกไปแล้วนี่คะ ว่าคุณครูมีพรสวรรค์ที่ยอดเยี่ยมในการ \"บรรเทาทุกข์\" อยู่ค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าอย่างนั้นคุณครูคะ... เราออกเดินทางกันเลยดีมั้ยคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "อันที่จริง ฉันเองก็เพิ่งเคยมาที่ <พื้นที่น้ำท่วมของคิโวทอส> เป็นครั้งแรกเหมือนกันค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เลยรู้สึกกังวลเหมือนกันค่ะ"
+    },
+    {
+      "Text": "[s] \"ไม่นึกเลยว่ามิเนะก็เพิ่งเคยมา\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูเพิ่งบอกว่าฉันเองก็เป็นนักเรียนของคุณครูไม่ใช่เหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฮุฮุ ฉันแค่พูดเฉยๆ เองนะคะ ไม่เห็นต้องตกใจขนาดนั้นเลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าอย่างนั้นก็ไปกันเถอะค่ะ ชมรมอัศวินบรรเทาทุกข์ออกปฏิบัติการได้!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ระวังนะคะคุณครู เถาวัลย์ค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าทำแบบนี้ สิ่งกีดขวางทางเดินก็จะหมดไปค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คะ? คุณครูคิดว่าควรออมแรงไว้ก่อนจะดีกว่างั้นเหรอคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ที่คุณครูพูดมาก็มีเหตุผลค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ถ้าอย่างนั้นตอนเดินก็ระวังด้วยนะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ตอนนี้เราก็เข้ามาลึกพอสมควรแล้วนะคะ แต่ว่ายังไม่เห็นคนเลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "น่าเป็นห่วงจัง เด็กที่ขอความช่วยเหลือเข้ามา ตอนนี้ก็คงรู้สึกกังวลอยู่แน่ๆ เลยค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครู เป็นอะไรรึเปล่าคะ?"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "โชคดีที่ที่นี่เป็นป่าทึบ เลยไม่ต้องห่วงเรื่องอากาศร้อนค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เวลาก็ผ่านไปพอสมควรแล้วนะคะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ข่าวลือเรื่องที่ GPS ใช้งานไม่ได้ ดูเหมือนจะเป็นเรื่องที่พูดเกินจริงไปหน่อยสินะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "แต่ว่าตอนนี้แบตโทรศัพท์มัน..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เป็นความผิดของฉันเองค่ะ ควรจะต้องเตรียมชาร์จแบตมาให้พร้อมล่วงหน้าแท้ๆ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เรื่องนั้นมันเป็นเรื่องที่ช่วยไม่ได้ เพราะว่าต้องออกปฏิบัติการกะทันหันงั้นเหรอคะ? ฮุฮุ ขอบคุณที่\nปลอบใจฉันนะคะ"
+    },
+    {
+      "Text": "(คุณครูกับมิเนะออกตามหาคนที่หลงทางจนถึงกลางดึก แต่ก็ไม่พบร่องรอยของใครเลย...)"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มืดซะแล้วค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ขอโทษนะคะคุณครู ฉัน... พอมืดแบบนี้แล้ว ฉันแยกไม่ออกเลยว่าทางไหนเป็นทางไหนค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูต้องมาลำบากเพราะความดื้อรั้นของฉันซะแล้ว..."
+    },
+    {
+      "Text": "[s3] \"ไม่เป็นไรหรอก\""
+    },
+    {
+      "Text": "[s4] \"มิเนะแค่อยากมาช่วยคนนี่นา?\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ขอบคุณนะคะที่คิดแบบนั้น..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ตรงนั้นดูเหมือนจะมีลานว่างอยู่ด้วยนะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เราไปนั่งพักตรงนั้นกันสักหน่อยมั้ยคะ? ดูเหมือนตอนนี้พวกเราจะหมดแรงซะแล้วละค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูคะ นั่งตรงตอไม้ตรงนี้ก็ได้ค่ะ "
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฉันปัดฝุ่นสกปรกออกไปแล้ว ขอทำความสะอาด ฆ่าเชื้อสักครู่นะคะ"
+    },
+    {
+      "Text": "― คุณครู... เป็นอะไรรึเปล่าคะ?[wa:1060] "
+    },
+    {
+      "Text": "― บาดเจ็บตรงไหนรึเปล่าคะ?[wa:410] "
+    },
+    {
+      "Text": "― อากาศตอนกลางคืนนี่... ทำให้รู้สึกดีจังเลยนะคะ[wa:1010] "
+    },
+    {
+      "Text": "― กลิ่นของต้นหญ้า...เสียงน้ำไหล...[wa:560] "
+    },
+    {
+      "Text": "― ช่วยทำให้จิตใจสงบมากเลยค่ะ[wa:10] "
+    },
+    {
+      "Text": "― ...เป็นอะไรเหรอคะ?[wa:10] "
+    },
+    {
+      "Text": "― เจิดจ้า...เกินไปงั้นเหรอคะ?[wa:720] "
+    },
+    {
+      "Text": "― ฮุฮุ... อาจจะเป็นอย่างนั้นก็ได้ค่ะ[wa:2450] "
+    },
+    {
+      "Text": "― ถ้าคุณครูรู้สึกไม่สบายตัวจะเอนมาซบไหล่ฉัน[wa:1300] "
+    },
+    {
+      "Text": "― หรือว่าจะนอนหนุนตักฉัน... ก็ได้นะคะ[wa:680] "
+    },
+    {
+      "Text": "― ไม่ต้องกังวลนะคะ[wa:320] "
+    },
+    {
+      "Text": "― ไม่ว่าจะเกิดเรื่องอะไรขึ้น"
+    },
+    {
+      "Text": "― ฉันก็จะปกป้องคุณครูเองค่ะ[wa:960] "
+    },
+    {
+      "Text": "(ด้วยความช่วยเหลือจากมิเนะ ทำให้คุณครูได้ใช้ค่ำคืนที่สงบสุขในป่า)"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ในที่สุดก็กลับออกมาถึงปากทางเข้าป่าทึบแล้วค่ะ..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "แต่ว่าตอนนี้แบตโทรศัพท์เหลืออยู่แค่ 15 เปอร์เซ็นต์เองค่ะ"
+    },
+    {
+      "Text": "[s] \"เหนื่อยน่าดูเลยนะ หัวหน้ามิเนะ...\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ไม่เป็นไรเลยค่ะ คุณครูที่ปรึกษา \"ชั่วคราว\" ของเราต่างหากที่ลำบากกว่าอีกค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ฮุฮุ... ถ้าสักวันหนึ่งเอาคำว่า \"ชั่วคราว\" ออกได้ก็คงดีนะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "มีโทรศัพท์เข้ามาอีกแล้ว...?"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ชะ... ช่วยด้วย! ฉันหลงทาง..."
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ในป่า... ตรง... <พื้นที่น้ำท่วมของคิโวทอส>!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ช่วยอธิบายสถานการณ์ให้ละเอียดกว่านี้หน่อยได้มั้ยคะ?"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "มะ... ไม่รู้!"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ข้างนอกมืดไปหมด... ต้นไม้มันก็ดูเหมือนๆ กัน..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ตอนนี้พวกเราเข้ามาที่พื้นที่น้ำท่วมของคิโวทอสแล้วค่ะ คุณอยู่ตรงไหนเหรอคะ?"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "มาแล้วงั้นเหรอ...?!"
+    },
+    {
+      "Name": "เสียงที่ร้อนรน",
+      "Text": "ว้าว! พูดจริงดิ? ไปที่ป่านั่นจริงๆ เหรอ? สุดยอด!"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "โทรหลอกหัวหน้าชมรมอัศวินบรรเทาทุกข์ได้ด้วยแฮะ สุดยอดเลย!"
+    },
+    {
+      "Name": "นักเลง 2",
+      "Text": "คงเดินหลงอยู่พักใหญ่เลยสิท่า!"
+    },
+    {
+      "Name": "นักเลง 1",
+      "Text": "การค้นหาคนในป่านั่นน่ะ มันก็เหมือนงมเข็มในมหาสมุทรเลย ไม่มีทางหาเจอหรอกน่า! "
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "..."
+    },
+    {
+      "Text": "[ns] \"นี่... มิเนะ?\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "พวกเขาทำพลาด 3 เรื่องค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เรื่องแรก พวกเขาคงไม่รู้ว่าฉันเป็นคนประเภทที่ไม่ให้ใครมาล้อเล่นแบบเดิมเป็นครั้งที่สอง"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เรื่องที่สอง วันนี้พวกเขาตัดสายโทรศัพท์ช้ากว่าเมื่อวาน..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "เรื่องที่สาม ฉันไม่ได้อยากใช้ของพวกนี้เลยก็จริง..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "แต่ขอเอาชื่อชมรมอัศวินบรรเทาทุกข์เป็นประกันเลยค่ะ แค่ตามหาพิกัดคนโทรน่ะ ฉันทำได้อยู่แล้ว\nละค่ะ...!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ตั้งแต่นี้ไปฉันจะไปหาคนที่ต้องการให้ \"บรรเทาทุกข์\" อย่างแท้จริงค่ะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "หากเราพบใครที่กำลังเดินบนเส้นทางที่ผิดละก็..."
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "การสั่งสอนให้พวกเขากลับมาเดินบนเส้นทางที่ถูกต้องก็เป็นการบรรเทาทุกข์\nอย่างหนึ่งค่ะ!"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "คุณครูก็คิดแบบนั้นใช่มั้ยคะ?!"
+    },
+    {
+      "Text": "[ns5] \"เอ่อ... เบาๆ มือหน่อยล่ะ...\""
+    },
+    {
+      "Text": "[ns6] \"อย่าสั่งสอนแรงเกินไปล่ะ...\""
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ขอบคุณที่เข้าใจนะคะ"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "ขอโทษที่เสียมารยาทค่ะ แต่ฉันต้องขอตัวก่อนนะคะคุณครู"
+    },
+    {
+      "Name": "มิเนะ",
+      "Text": "『ออกบรรเทาทุกข์ให้กับผู้คนที่ทุกข์เข็ญ!!』"
+    },
+    {
+      "Text": "(มิเนะวิ่งหายไปด้วยความเร็วสูง...)"
+    },
+    {
+      "Text": "(...ส่วนชะตาชีวิตของเด็กที่โทรศัพท์มากลั่นแกล้ง คงมีแค่มิเนะเท่านั้นที่รู้...)"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "「救護」的形式"
+    },
+    {
+      "Text": "（在美禰的協助下，迅速處理完了工作）"
+    },
+    {
+      "Name": "美禰",
+      "Text": "這樣今天的作業就告一段落了呢。"
+    },
+    {
+      "Text": "[s]「美禰很擅長處理文書作業呢。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "不，您過獎了。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "或許是因為我身為救護騎士團的負責人，所以處理這些文件的機會也不在少數的關係吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "是意外獲得的技能之一。"
+    },
+    {
+      "Text": "[s]「今天美禰的『救護』幫了大忙唷。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "原來如此，這也是一種「救護」的形式……！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "非常感謝您，老師。我受益良多。"
+    },
+    {
+      "Text": "[s]（我其實只想開個玩笑……）"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……失禮了，是我的電話。"
+    },
+    {
+      "Text": "[s]「可以接起來沒關係的唷。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "好的，謝謝您。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "這裡是救護騎士團。您需要救護嗎？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "救，救救我！我迷路了……！"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "在那個森林……在「奇普托斯的樹海」！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "是「奇普托斯的樹海」對嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "能請您說明一下更詳細的狀況嗎？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "我不知道……"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "周圍太暗了看不了多遠，樹木全都長得一模一樣……"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "……而……又……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "喂喂……能聽見我說話嗎！？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "電話掛斷了……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師，情況非常緊急。"
+    },
+    {
+      "Text": "[s]「發生什麼事了……！？」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "「奇普托斯的樹海」裡，有人正在尋求救護！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "得立刻前去救護才行！"
+    },
+    {
+      "Text": "[s]「『奇普托斯的樹海』……？」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "是的，您沒聽說過嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "「奇普托斯的樹海」是以一旦進入就無法離開聞名的地點……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "只要進入那座森林，GPS就無法正常運作，指南針也會出現異常……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "以一旦迷路就走不出來的地點被大家害怕著。"
+    },
+    {
+      "Text": "[s]「那應該要禁止進入比較好吧……！？」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "雖然已經藉由設立告示牌之類的措施，警告他人不要隨意進入……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "但正因為受到禁止，反而使感興趣的人絡繹不絕……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "目的因人而異。比如為了投稿到社群網站、當作試膽大會等等，也有單純因為好奇而進入「奇普托斯的樹海」的人。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "剛才向我打電話的人，想必也在其中之一吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師，今天很謝謝您。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "我趕時間，先告辭了。"
+    },
+    {
+      "Text": "[ns]「先等一下……！」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "不過，沒必要連老師也一起到「奇普托斯的樹海」……"
+    },
+    {
+      "Text": "[s1]「今天受到了美禰的幫助，就當作是禮尚往來吧。」"
+    },
+    {
+      "Text": "[s2]「美禰也是我重要的學生，不能讓你獨自前往那麼危險的地方唷。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "重要的，學生……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "呵呵，這樣啊。我完全忘記自己的身分了。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "也就是要和我一起負責「救護」活動，您是這個意思對吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "果然就算是從現在開始也沒關係，您要不要成為救護騎士團的臨時顧問呢？"
+    },
+    {
+      "Text": "[s]「這麼說來你以前也說過類似的話呢……」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "是的。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "再次提醒您，我認為老師擁有相當優秀的「救護」才能與精神。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "總之，現在趕緊出發吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……其實我也是第一次踏進「奇普托斯的樹海」。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "比我想像中更加緊張……"
+    },
+    {
+      "Text": "[s]「就算是美禰也會緊張呀。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……或許是因為，老師說我也是您「重要的」學生吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "不好意思，這種時候不該說這種話呢。不用那麼慌張也沒關係的哦。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "那麼，出發吧！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師，請注意腳邊的樹木！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "這樣就沒問題了。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "多節省一點資源……？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "確實，您說的有道理。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "注意腳邊，繼續前進吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "離開步道後已經走了一段時間……然而並沒有發現人來過的痕跡呢。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……雖然有些不安，不過向我們尋求救護的學生想必也抱持著相同的心情吧。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師您還好嗎？"
+    },
+    {
+      "Name": "美禰",
+      "Text": "雖然有樹蔭能抵擋陽光，不過路面的情況並不好，還請您別勉強自己。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "來到相當深的地方了呢……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "看來GPS無法正常運作果然只是單純的謠言呢。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "話雖如此，電量已所剩無幾……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "當時應該把備用的電池也帶過來的。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……謝謝您。也對，在緊急出動的情況下，準備有些許不完善也是很正常的。現在就盡己所能吧。"
+    },
+    {
+      "Text": "（結果一直到了晚上也沒能找到任何線索……）"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "已經這麼晚了呢。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "非常抱歉，老師。一提到救護，我似乎就會無法顧慮其他事情……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "果然，不該順勢將老師牽連進來的。"
+    },
+    {
+      "Text": "[s3]「沒關係，是我自己跟上來的，你不用在意。」"
+    },
+    {
+      "Text": "[s4]「這股率直的心意是美禰的優點唷。」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……謝謝您，老師。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "那裡似乎有能夠休息的地方。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "要不要休息一會呢？離開夏萊之後，一直都沒有停下來休息呢。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師請坐在這邊的樹樁……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "落葉我已經稍作清理了，您請坐。"
+    },
+    {
+      "Text": "― 老師？您還好嗎？[wa:1860] "
+    },
+    {
+      "Text": "― 有沒有哪裡受傷？[wa:1010] "
+    },
+    {
+      "Text": "― 夜晚的空氣 真舒服呢。[wa:2370] "
+    },
+    {
+      "Text": "― 草的香氣與潺潺流水……[wa:1400] "
+    },
+    {
+      "Text": "― 能讓內心平靜下來。[wa:140] "
+    },
+    {
+      "Text": "― ……您怎麼了？[wa:430] "
+    },
+    {
+      "Text": "― 很耀眼……是嗎……？[wa:1400] "
+    },
+    {
+      "Text": "― 呵呵，或許真的是那樣呢。[wa:3330] "
+    },
+    {
+      "Text": "― 如果覺得靜不下來，要倚靠著我，[wa:2340] "
+    },
+    {
+      "Text": "― 或是在我的膝蓋上休息也沒關係唷。[wa:1440] "
+    },
+    {
+      "Text": "― 請別擔心。[wa:760] "
+    },
+    {
+      "Text": "― 不管發生什麼事，"
+    },
+    {
+      "Text": "― 我都一定會保護老師的。[wa:1520] "
+    },
+    {
+      "Text": "（借用美禰的膝蓋，稍微休息了一會）"
+    },
+    {
+      "Name": "美禰",
+      "Text": "總算是回到入口了呢……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "電量應該也還撐得住……"
+    },
+    {
+      "Text": "[s]「美禰會不會累？」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "我沒事。不如說是讓老師做了不習慣的事……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "某天真的成為「顧問」的話，這種情況或許也會增加吧……呵呵。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "難道，是那位學生打來的……？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "救，救救我！我在森林裡迷路了……！"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "在「奇普托斯的樹海」！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "再次請問您，可以稍微詳細地說明一下情況嗎？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "但是，我什麼都搞不清楚……"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "只知道，有很多樹而已……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "我現在就在「奇普托斯的樹海」，能請您給我一些線索嗎？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "咦，騙人的吧！？"
+    },
+    {
+      "Name": "急促的聲音",
+      "Text": "居然真的去了哦，真的假的啦！"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "打惡作劇電話就能讓救護騎士團行動，要是我有早點想到就好了！"
+    },
+    {
+      "Name": "小流氓２",
+      "Text": "哈哈，迷路了很久對吧？"
+    },
+    {
+      "Name": "小流氓１",
+      "Text": "再說就算是真的，要在那裡找人也是不可能的吧！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "……"
+    },
+    {
+      "Text": "[ns]「那個……美禰？」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "這些人犯下了三個錯誤。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "第一點，就算是我，遇到兩次相同的電話也會考慮各種可能性。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "第二點，他們失言說出了這是惡作劇電話。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "第三點，雖然這種方法不應該胡亂使用……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "儘管有幾個條件，但「救護騎士團擁有反向追查的權限」，他們並不知道。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "現在，我將前往需要「救護」的人們身邊。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "當有人偏離正軌之時……"
+    },
+    {
+      "Name": "美禰",
+      "Text": "告知他們正確的道路，也是我們該進行的「救護」！"
+    },
+    {
+      "Name": "美禰",
+      "Text": "老師，您不這麼覺得嗎？"
+    },
+    {
+      "Text": "[ns5]「那個……別做得太過分哦？」"
+    },
+    {
+      "Text": "[ns6]「記得手下留情……」"
+    },
+    {
+      "Name": "美禰",
+      "Text": "感謝您的理解。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "那麼雖然抱歉，我就先告辭了。日後再見。"
+    },
+    {
+      "Name": "美禰",
+      "Text": "救護騎士團，出動！\n「哪裡要救護，我就在哪裡」！"
+    },
+    {
+      "Text": "（之後，美禰以飛快的速度消失得無影無蹤）"
+    },
+    {
+      "Text": "（至於撥打惡作劇電話的犯人們的下場，或許，只有美禰自己知道……）"
+    }
+  ]
+}

@@ -1,0 +1,2792 @@
+{
+  "TitleJP": "バイオハザード",
+  "TitleKR": "바이오 해저드",
+  "TitleEN": "Biohazard",
+  "TitleTH": "อันตรายทางชีวภาพ",
+  "TitleTW": "生化危機",
+  "DescJP": "現場の状況を聞いたセナは、好奇心を刺激されたこともあり、積極的にパンちゃんの調査へと参加することに。一行は、痕跡を追跡する中で粘液まみれのゲヘナ生と遭遇する。そのゲヘナ生は「変な音が聞こえて、様子を見に行ったら……」と語ると、先生とセナはその流れをお約束の展開――「フラグ」だ！と反応する。足取りを追うと、粘液の量と強度が増していることから、パンちゃんが成長していると推測するセナ。深刻な状況を鑑みて、チナツはアコに連絡を取るのだった。",
+  "DescKR": "세나는 '팬 쨩 현상'을 조사하기 시작하고, 어떠한 결과에 점점 다가간다.",
+  "DescEN": "Sena starts investigating the \"Pan-Pan Phenomenon\" and gets close to a conclusion.",
+  "DescTH": "เซนะเริ่มสืบค้นเกี่ยวกับ 'ปรากฏการณ์แพนจัง' และค่อยๆ เข้าใกล้ผลลัพธ์\nบางอย่าง",
+  "DescTW": "瀬奈開始調查「餅醬現象」，線索逐漸指向某個結果。",
+  "DialogJP": [
+    {
+      "Text": "第3話;バイオハザード"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "搬送準備、完了しました。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "お疲れ様です。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "あの、こんなことを言って良いのか分かりませんが……。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "カフェでさっき、アレを見かけました。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "アレ……？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……ああ、例のモンスターですか。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "！？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "（そういえば、あの方……さっきいらっしゃっていた……！）"
+    },
+    {
+      "Name": "セナ",
+      "Text": "詳しくお聞きしても？"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "はい、友達とカフェにいたら……。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "緑のネバネバをまとった紫パンケーキが見えたんです。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……緑と紫、ですね。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "一瞬だったから、うろ覚えですが……触手のようなものが生えてました。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "それがビュッて通り過ぎていったんです。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "うう……思い出すだけで気持ち悪い。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "なるほど……モンスターの行き先に心当たりはありますか？"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "いえ、そこまでは。\nそもそも、こんなところまで来ているとも思っていなくて。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "分かりました。とりあえずこの死体……いえ、負傷者を搬送後、経過観察をお願いします。"
+    },
+    {
+      "Name": "救急医学部の部員",
+      "Text": "はい、部長。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "まだ状況は掴みきれていませんが……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "確実に言えるのは――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "――私が来た以上、事態を見過ごすわけにはいきません。"
+    },
+    {
+      "Text": "[s1] \"おお、カッコ良い。\""
+    },
+    {
+      "Text": "[s2] \"ドクターセナ、って呼んでも良い？\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "ドクター……？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "つまり、私を信頼してくださるのですね。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "ありがとうございます、嬉しいです。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "――この状況、個人的にも少し興味が湧いてきまして。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "少なくとも……不良を救急車に投げ込むよりは、そそられる事案です。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "それで……どうするのですか？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "そうですね……さしあたっては、痕跡を追いかけようかと。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "だ、大丈夫でしょうか……？\nすでに一人、やられてしまいましたが……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "大丈夫です、そちらのほうが面白そうですし。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "え……？"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "面白い……？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "はい、自分でも驚くほど。\n普段でしたら、事件を前に「面白い」なんて思うことはないのですが……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "今は形容できない何かが、私の心を惹きつけているのです。"
+    },
+    {
+      "Text": "[s3] \"イオリがあんな状態になってしまう事態だから……。\""
+    },
+    {
+      "Text": "[s4] \"対応策を練った方が良いんじゃないかな……？\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "ご安心ください。\nこう見えて楽し……失礼、真面目に臨んでおりますから。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "（一体どこが……）"
+    },
+    {
+      "Name": "セナ",
+      "Text": "それでは、追跡を始めるとしましょう。\n先陣は私が。"
+    },
+    {
+      "Text": "[ns] \"……すごい光景だね。\""
+    },
+    {
+      "Name": "フウカ",
+      "Text": "廊下にもネバネバが落ちてる……。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "量が少し多くなってきたような気がします……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "チナツ、訂正を。\n少しではなく、明らかに増えています。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "量が増えたらどうなるんですか！？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "分かりません。\nそれを解明するために進んでいるのですから。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……ますます気になってきますね。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "楽しんでる場合じゃないと思うけど……。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "う、うう……。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "……こっちから声が！"
+    },
+    {
+      "Name": "セナ",
+      "Text": "なるほど。\n次の死体、それか手がかり……いえ、犠牲者でしょうか。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "せ、セナさん！？\nちょっと待ってください！"
+    },
+    {
+      "Name": "粘液まみれのゲヘナの生徒",
+      "Text": "う、うう……。"
+    },
+    {
+      "Text": "[ns] \"だ、大丈夫？何があったの！？\""
+    },
+    {
+      "Name": "粘液まみれのゲヘナの生徒",
+      "Text": "あっちの教室から、変な音が聞こえて……。"
+    },
+    {
+      "Name": "粘液まみれのゲヘナの生徒",
+      "Text": "様子を見に行ったら……。"
+    },
+    {
+      "Text": "[ns5] \"それは……。\""
+    },
+    {
+      "Text": "[ns6] \"フラグだ……！\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "先生は一体何のお話を……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "フラグとは、立てたら回収するのがお約束。\n定番中の定番――つまり、テンプレという意味です。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……この説明で、ご理解いただけたでしょうか。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "真面目にやってないってことは分かったわよ……。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "すみません。\n先輩は昔からこういうところがあって……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "この状況はイオリの時と似ていますね。\n違いがあるとすれば――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "ネバネバの量が2倍に増えている点くらいでしょうか。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そ、そんなに！？"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "ネバネバ、あっちに続いてるみたい。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "教室のほうですね、行ってみましょう。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "こ、これは！？"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "うわっ……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "ネバネバの強度が増しています。\n少なくとも、人を壁に貼りつけられる程度には。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "もちろん――量も。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "ひとつ確認したいのですが、アレの大きさはどのくらいでしたか？"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "え、えっと、普通のパンケーキサイズでした……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "なるほど。\nでは皆さん……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "この量のソースが、普通のパンケーキに使われていたと思いますか？"
+    },
+    {
+      "Text": "[s] \"使われてないだろうね。\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "はい、先ほど廊下で見つけた死体……いえ、犠牲者に付着していたネバネバの量は、イオリの時よりも明らかに多くなっています。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "つまり――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "――アレは、成長しています。"
+    },
+    {
+      "Name": "一同",
+      "Text": "！！！"
+    },
+    {
+      "Text": "[ns7] \"こんな短時間で……？\""
+    },
+    {
+      "Text": "[ns8] \"現実的に有り得ないんじゃ……？\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "……お言葉ですが、先生。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "そもそも、この状況そのものが非現実的だとは思いませんか？"
+    },
+    {
+      "Text": "[s9] \"そ、それは……。\""
+    },
+    {
+      "Text": "[s10] \"否定できない……。\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "はい。\nこういう場面において、常識は通じません。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "理に適うか否かの問題ではありません。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "大切なのは、目の前で起きている事象を受け入れ……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "変化を興味深く……いえ、注意深く観察し、備えることです。"
+    },
+    {
+      "Name": "一同",
+      "Text": "！！！"
+    },
+    {
+      "Name": "セナ",
+      "Text": "近くの教室からですね。\n急ぎましょう。"
+    },
+    {
+      "Text": "[ns] \"こ、これは……！？\""
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "ど、どうして、こんなことに……。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "ここまで来ると呆れを通り越して感心するわね……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "私の推測が正しければ、アレは人を襲う度に成長しています。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "このまま放っておけば、ゲヘナ中が……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "某企業の工場があったアライグマシティのようになってしまうかもしれません。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "アライグマシティ、ですか……？"
+    },
+    {
+      "Text": "[ns11] \"アライグマシティって……？\""
+    },
+    {
+      "Text": "[ns12] \"それって、もしかして……。\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "……まさか、ご存じないのですか？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "正体不明の実験で、化け物が蔓延するようになった――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "――ゲームの都市を。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "先生はご存知なのですね。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "では、この先何が起こるのか――言わずとも分かるはずです。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "お伝えするタイミングを逃していましたが……。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "この現象について、以前小耳に挟んだことがあります。\nあのような個体の出現も、初めてではありません。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "もちろん、ここまで興味深い……失礼、凄まじいものだとは想像もしませんでしたが。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "し、知っていたんですか？\nあれを！？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "私も今日までは、ただの怪談や噂の類だと思っていました。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "巷で聞く「給食部には魔物が棲んでいる」――といったもののように。"
+    },
+    {
+      "Name": "フウカ",
+      "Text": "な、何の話！？\n根拠は！？"
+    },
+    {
+      "Name": "セナ",
+      "Text": "あくまで、ただの噂です。\n噂に根拠などありません。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "とにかく、今のこの状況は――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "普段より、遥かに恐ろしく、規模の大きい事態だと推測しています。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "はいぃ！？"
+    },
+    {
+      "Text": "[ns13] \"大規模……！？\""
+    },
+    {
+      "Text": "[ns14] \"恐ろしい……！？\""
+    },
+    {
+      "Name": "セナ",
+      "Text": "はい。だからこそ、ここまで興味をそそられ――"
+    },
+    {
+      "Name": "セナ",
+      "Text": "――いえ、恐ろしい問題を見て見ぬふりなどできません。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そ、そんな……！"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "私のせいでゲヘナの皆さんが……！"
+    },
+    {
+      "Name": "セナ",
+      "Text": "……？\nいえ。そこまで深刻に考える必要はありませんよ。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "皆さん、ソースの味が不味すぎて気を失っているだけですから。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "この程度の事故など、2、3ヶ月に1回は起きていますので。"
+    },
+    {
+      "Name": "セナ",
+      "Text": "温泉開発部や他のテロ団体に比べれば、さしたる問題ではないかと。"
+    },
+    {
+      "Name": "ジュリ",
+      "Text": "そう言っていただけるとホッとしますが、それはそれで少し悲しいような……！？"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "温泉開発部と比較されている時点で、かなりの一大事なんですが……。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "……はぁ。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "仕方ありません。\nこのカードは切りたくなかったのですが……。"
+    },
+    {
+      "Text": "[s15] \"何か方法でもあるの？\""
+    },
+    {
+      "Text": "[s16] \"切りたくなかった……？\""
+    },
+    {
+      "Name": "チナツ",
+      "Text": "ええ……ですが、流石に使うしかないかと。"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "もし、この[ruby=パンデモニウム・ソサエティー]件が万魔殿の耳[/ruby]に入ってしまえば――"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "さらなる問題に発展してしまいますので。"
+    },
+    {
+      "Text": "ゲヘナ学園・風紀委員会の教室"
+    },
+    {
+      "Name": "？？？",
+      "Text": "何でしょうか。\nいま、手が離せないので要件はなるべく手短に――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……はい？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "それは、どういう……。"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제3화;바이오 해저드"
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "이송 준비 끝났습니다. 부장님."
+    },
+    {
+      "Name": "세나",
+      "Text": "수고하셨습니다."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "저…… 부장님? 저기, 이런 말씀을 드려도 괜찮을지 모르겠는데요……."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "저, 오늘 카페에서…… 아까 말씀하셨던…… '그것'을, 본 것 같아요."
+    },
+    {
+      "Name": "세나",
+      "Text": "그것……?"
+    },
+    {
+      "Name": "세나",
+      "Text": "……아. 그 문제의 괴물체 말씀이시군요."
+    },
+    {
+      "Name": "주리",
+      "Text": "?!"
+    },
+    {
+      "Name": "주리",
+      "Text": "(그러고 보니 저분, 기억에 있어……!)"
+    },
+    {
+      "Name": "세나",
+      "Text": "상황을 자세히 들을 수 있겠습니까?"
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "네, 팬케이크 카페에서 친구와 이것저것 주문했었는데요……."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "갑자기 초록색 점액이 뿌려진 보라색 팬케이크 같은 것이 나타났어요."
+    },
+    {
+      "Name": "세나",
+      "Text": "초록색과 보라색…… 그렇군요."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "너무 빨라서 자세히 관찰할 수는 없었지만, 지금 생각해 보니 뭔가 촉수 같은 것도 붙어 있었던 것 같기도 한데……. 어쨌든요."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "총체적으로는 제멋대로 꾸물거리며 튀어 다니다 사라져버렸다는 느낌이었는데요."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "아무튼 뭔가 이상하고 기분 나쁜 그런 거였어요!"
+    },
+    {
+      "Name": "세나",
+      "Text": "그렇군요. 그 이후의 행선지에 대해서는 아는 바가 없습니까?"
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "네. 이런 곳까지 왔을 거라고는, 예상하지도 못했으니까요."
+    },
+    {
+      "Name": "세나",
+      "Text": "알겠습니다. 지금은 우선 시체…… 부상자를 이송하고, 경과를 지켜봐 주도록 하세요."
+    },
+    {
+      "Name": "응급의학부원",
+      "Text": "예, 부장님."
+    },
+    {
+      "Name": "세나",
+      "Text": "아직 알게 된 것보다 모르는 것이 더 많은 상황이기는 합니다만."
+    },
+    {
+      "Name": "세나",
+      "Text": "한 가지는 확실하게 결론을 내릴 수 있을 것 같습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "저는 이 현상을 이대로 두고 볼 수 없습니다."
+    },
+    {
+      "Text": "[s1] \"뭔가 SF영화의 박사 같은 말이네.\""
+    },
+    {
+      "Text": "[s2] \"닥터 세나……입니까? 지금은?\""
+    },
+    {
+      "Name": "세나",
+      "Text": "닥터……?"
+    },
+    {
+      "Name": "세나",
+      "Text": "닥터라는 표현은 여러 의미를 내포하고 있습니다만, 여기서는 저의 판단을 신뢰해 주신다는 의미이겠군요."
+    },
+    {
+      "Name": "세나",
+      "Text": "감사합니다. 기쁘게 받아들이겠습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "덧붙여서, 개인적으로 이 현상에서 약간이지만 호기심을 느끼고 있습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "적어도 불량배들을 응급의학부 차량에 던져 넣는 것보다는, 조금 더 그렇군요."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "그러면…… 어떻게 하실 생각인가요. 선배님?"
+    },
+    {
+      "Name": "세나",
+      "Text": "이 흔적을 추적하겠습니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "괘, 괜찮으시겠어요……? 이미 한 분이 당했는데……."
+    },
+    {
+      "Name": "세나",
+      "Text": "네. 재미있을 것 같습니다."
+    },
+    {
+      "Name": "후우카",
+      "Text": "재미……?"
+    },
+    {
+      "Name": "치나츠",
+      "Text": "이게 재미있는 일인가요……."
+    },
+    {
+      "Name": "세나",
+      "Text": "그러게 말입니다. 저 역시 웬만해서는 그 표현을 사용할 일이 없다고 생각했습니다만."
+    },
+    {
+      "Name": "세나",
+      "Text": "지금은 그 표현 외에는 제 기분을 나타낼 단어가 없을 것 같습니다."
+    },
+    {
+      "Text": "[s3] \"그렇지만 이오리도 당했는데…….\""
+    },
+    {
+      "Text": "[s4] \"우리도 조금 진지해져 보는 게…….\""
+    },
+    {
+      "Name": "세나",
+      "Text": "안심하세요. 저는 이미 충분히 재미있…… 실례. 진지합니다."
+    },
+    {
+      "Name": "후우카",
+      "Text": "(어디가…….)"
+    },
+    {
+      "Name": "세나",
+      "Text": "그러면 추적을 시작하도록 하죠. 앞장서겠습니다."
+    },
+    {
+      "Text": "[ns] \"뭔가…… 엄청난 광경이네.\""
+    },
+    {
+      "Name": "후우카",
+      "Text": "복도 여기저기에, 초록색 점액이 묻어 있어……."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "거기에 나아갈수록 그 양이 많아져 가는 느낌입니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "느낌이 아니에요. 치나츠. 명백하게 늘어나고 있습니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "그, 그럼 어떻게 되는 거죠?! 그게…… 뭘 의미하는 건가요!?"
+    },
+    {
+      "Name": "세나",
+      "Text": "지금으로서는 아무것도 알 수 없습니다. 주리. 우리는 그저 나아갈 뿐이죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "그렇지만, 점점 더 흥미로워지는군요."
+    },
+    {
+      "Name": "후우카",
+      "Text": "그러니까 흥미 같은 단어가 나올 일이 아니라고……."
+    },
+    {
+      "Name": "???",
+      "Text": "으…… 으으……."
+    },
+    {
+      "Name": "후우카",
+      "Text": "……! 신음 소리가……?"
+    },
+    {
+      "Name": "세나",
+      "Text": "그렇군요. 다음번 시체…… 단서…… 아니, 희생자일 것 같군요."
+    },
+    {
+      "Name": "주리",
+      "Text": "세, 세나 씨?! 같이 가요~!"
+    },
+    {
+      "Name": "점액에 뒤덮인 게헨나 학생",
+      "Text": "으으으, 으으……."
+    },
+    {
+      "Text": "[ns] \"괘, 괜찮아? 어떻게 된 거야!\""
+    },
+    {
+      "Name": "점액에 뒤덮인 게헨나 학생",
+      "Text": "저쪽…… 교실에…… 있었는데……. 뭔가, 이상한 소리가 들려서……."
+    },
+    {
+      "Name": "점액에 뒤덮인 게헨나 학생",
+      "Text": "잠시, 상황을 보고 오려고…… 별일 있겠냐고…… 그래서……."
+    },
+    {
+      "Text": "[ns5] \"정말 완벽한 플래그다…….\""
+    },
+    {
+      "Text": "[ns6] \"놀랄 만큼 복선에 충실하네…….\""
+    },
+    {
+      "Name": "주리",
+      "Text": "선생님, 또 아까처럼 이해할 수 없는 말씀을……."
+    },
+    {
+      "Name": "세나",
+      "Text": "정해진 수순이라는 겁니다. 다른 말로 클리셰라고도 하죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "……아시겠습니까?"
+    },
+    {
+      "Name": "후우카",
+      "Text": "일단 요만큼도 진지하지 않다는 건 알겠어."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "뭔가, 죄송합니다. 저의 전 선배라서……."
+    },
+    {
+      "Name": "세나",
+      "Text": "일단은 이 경우 역시, 이오리의 증례와 유사해 보입니다. 차이점이 하나 있다면……."
+    },
+    {
+      "Name": "세나",
+      "Text": "그때와 비교해서, 점액의 양이 두 배는 늘어나 있다는 것 정도로군요."
+    },
+    {
+      "Name": "주리",
+      "Text": "두, 두 배요?"
+    },
+    {
+      "Name": "후우카",
+      "Text": "흔적이 저쪽으로 이어지고 있어."
+    },
+    {
+      "Name": "세나",
+      "Text": "갑시다. 흔적이 가리키는 방향은 교실입니다."
+    },
+    {
+      "Name": "후우카",
+      "Text": "이, 이건 뭐지!?"
+    },
+    {
+      "Name": "치나츠",
+      "Text": "우와아……."
+    },
+    {
+      "Name": "세나",
+      "Text": "점액의 강도가 증가했군요. 사람 한 명을 벽에 붙여 고정시킬 수 있을 정도로요."
+    },
+    {
+      "Name": "세나",
+      "Text": "물론 그 양도 더더욱 증가했습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "여기에서 한 가지 확인해 두고 싶은 것이 있습니다. 그것의 처음 크기는 어느 정도였나요?"
+    },
+    {
+      "Name": "주리",
+      "Text": "네……? 그, 그야. 일반적인 팬케이크 정도의, 크기였는데요……?"
+    },
+    {
+      "Name": "세나",
+      "Text": "그렇군요. 일반적인 팬케이크. 알겠습니다. 그렇다면 여러분."
+    },
+    {
+      "Name": "세나",
+      "Text": "이것이 일반적인 크기의 팬케이크에서 흘러나온 소스의 양으로 보이십니까?"
+    },
+    {
+      "Text": "[s] \"그건 확실히 아닌 것 같아.\""
+    },
+    {
+      "Name": "세나",
+      "Text": "네. 조금 전 복도에서 발견한 시체…… 증례…… 희생자도, 이오리에 비해서는 더욱 많은 점액으로 뒤덮여 있었습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "즉, 이 시점에서 내릴 수 있는 결론은 하나뿐입니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "……'그것'은 스스로 점점 커지고 있습니다."
+    },
+    {
+      "Name": "모두들",
+      "Text": "!!!"
+    },
+    {
+      "Text": "[ns7] \"이렇게 짧은 시간에……?\""
+    },
+    {
+      "Text": "[ns8] \"질량 보존의 법칙은 어디로……?\""
+    },
+    {
+      "Name": "세나",
+      "Text": "……."
+    },
+    {
+      "Name": "세나",
+      "Text": "선생님. 애초에 지금 이 사태 자체가 말이 된다고 생각하십니까?"
+    },
+    {
+      "Text": "[s9] \"그, 그건……\""
+    },
+    {
+      "Text": "[s10] \"반박할 수 없네…….\""
+    },
+    {
+      "Name": "세나",
+      "Text": "네. 이런 경우에 중요한 것은, 정합성을 따지는 일이 아닙니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "규칙과 법칙, 일반적으로 그렇게 될 것이라고 보여지는 상식을 따지는 일이 아니죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "중요한 것은, 일어나고 있는 현상을 있는 그대로 인정하고."
+    },
+    {
+      "Name": "세나",
+      "Text": "이 뒤에 무슨 일이 이어질지를 호기심 넘치는 마음으로 관찰…… 이 아니라 추적하고 대비하는 것입니다."
+    },
+    {
+      "Name": "모두들",
+      "Text": "!!!"
+    },
+    {
+      "Name": "세나",
+      "Text": "근처 교실입니다. 서두르죠."
+    },
+    {
+      "Text": "[ns] \"이, 이건……!?\""
+    },
+    {
+      "Name": "주리",
+      "Text": "어, 어떻게 이런 일이……."
+    },
+    {
+      "Name": "후우카",
+      "Text": "여러 의미로 굉장하네, 정말."
+    },
+    {
+      "Name": "세나",
+      "Text": "이로써 확실해졌습니다. 그것은 습격을 거듭할수록 거대해지고 있으며."
+    },
+    {
+      "Name": "세나",
+      "Text": "그걸 이대로 두었다가는, 게헨나 전체가……."
+    },
+    {
+      "Name": "세나",
+      "Text": "어딘가의 '너구리 시티'처럼 되어 버릴 수도 있을 겁니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "너구리…… 시티요?"
+    },
+    {
+      "Text": "[ns11] \"너구리 시티……? 그게 뭐야?\""
+    },
+    {
+      "Text": "[ns12] \"……아. 거기라면…….\""
+    },
+    {
+      "Name": "세나",
+      "Text": "……모르고 계시는 건가요. 알겠습니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "정체불명의 실험으로 괴물들이 창궐하게 된 도시……"
+    },
+    {
+      "Name": "세나",
+      "Text": "……가 나오는 게임 이름입니다."
+    },
+    {
+      "Name": "세나",
+      "Text": "알고 계시는군요. 선생님."
+    },
+    {
+      "Name": "세나",
+      "Text": "그렇다면 이 전개가 무엇을 의미하는지도, 충분히 짐작할 수 있으실 테죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "이야기를 꺼내는 타이밍이 어긋난 것 같기는 합니다만."
+    },
+    {
+      "Name": "세나",
+      "Text": "사실 이 현상에 대해서는 사실 어느 정도 들은 바가 있었습니다. 개체의 출현 자체는 처음도 아니었고 말이죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "물론 그것이 이렇게까지 흥미로운…… 실례. 엄청난 것이라고는 생각하지 못했습니다만."
+    },
+    {
+      "Name": "주리",
+      "Text": "네?! 아, 알고 계셨다고요? 그걸요!?"
+    },
+    {
+      "Name": "세나",
+      "Text": "물론 지나가는 소문이나 괴담, 낭설 같은 것이었습니다만."
+    },
+    {
+      "Name": "세나",
+      "Text": "암암리에 떠도는 이야기가 있었죠. '그 급양부에는 괴물이 살고 있다!' 라는 이야기가요."
+    },
+    {
+      "Name": "후우카",
+      "Text": "무슨 소리야! 영문을 모르겠어!"
+    },
+    {
+      "Name": "세나",
+      "Text": "저는 그런 소식들을 그냥 지나칠 수 없는 성격이었으므로, 기억하고 있었습니다만……."
+    },
+    {
+      "Name": "세나",
+      "Text": "그러한 저의 기억에 기초해 볼 때, 작금의 현 상황은."
+    },
+    {
+      "Name": "세나",
+      "Text": "일반적으로 발생한 상황 때보다, 월등히 치명적이고 대규모인 사태일 것으로 추정됩니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "네에?!"
+    },
+    {
+      "Text": "[ns13] \"대규모……!?\""
+    },
+    {
+      "Text": "[ns14] \"치명적……!?\""
+    },
+    {
+      "Name": "세나",
+      "Text": "네. 그렇지 않다면 이렇게나 흥미……"
+    },
+    {
+      "Name": "세나",
+      "Text": "……무서운 일을, 저지르고 돌아다닐 리 없을 테니까요."
+    },
+    {
+      "Name": "주리",
+      "Text": "그, 그런……!"
+    },
+    {
+      "Name": "주리",
+      "Text": "그러면 저 때문에 게헨나의 모두가……!!"
+    },
+    {
+      "Name": "세나",
+      "Text": "……? 음? 아뇨. 그건 아닙니다. 사실 전체적으로 보면 별것 아닌 일이죠."
+    },
+    {
+      "Name": "세나",
+      "Text": "기껏해야 다들 소스가 너무 맛없어서 정신을 잃은 것뿐이니까요."
+    },
+    {
+      "Name": "세나",
+      "Text": "통계적으로 두세 달에 한 번쯤은 생기는 수준이겠군요. 이 정도의 사고는."
+    },
+    {
+      "Name": "세나",
+      "Text": "온천개발부나 다른 테러 단체의 문제에 비하면……. 그다지 큰일이라 보기 어렵습니다."
+    },
+    {
+      "Name": "주리",
+      "Text": "그건 정말 다행이긴 하지만, 저에게는 왠지 아주 약간 슬픈 말씀이네요~!"
+    },
+    {
+      "Name": "치나츠",
+      "Text": "온천개발부가 언급된 시점에서 보통 일은 아닌 것 같지만……."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "……하아."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "어쩔 수 없네요. 이 방법만은, 정말로 최후의 최후까지 아껴 두려고 했는데."
+    },
+    {
+      "Text": "[s15] \"뭔가 방법이 있는 거야?\""
+    },
+    {
+      "Text": "[s16] \"최후의 최후……?\""
+    },
+    {
+      "Name": "치나츠",
+      "Text": "계획…… 이라고 할까요. 달리 말하면 브로큰 애로우라고 할까요."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "하지만, 네. 사태는 해결해야겠지요. 더군다나 이 일이 만마전의 귀에도 들어가기라도 한다면……"
+    },
+    {
+      "Name": "치나츠",
+      "Text": "그때야말로 저희 선도부에게 있어서…… 크나큰 문제가 생기는 것일 테니까요."
+    },
+    {
+      "Text": "게헨나 선도부실"
+    },
+    {
+      "Name": "???",
+      "Text": "네. 무슨 일이죠? 지금 바쁘니까 용건은 간단히."
+    },
+    {
+      "Name": "???",
+      "Text": "……네?"
+    },
+    {
+      "Name": "아코",
+      "Text": "아니, 그건 또 뭔……."
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 3;Biohazard"
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "We're ready for transport, President."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Good work."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "Um...President? I don't know if I should say this, but..."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "I think I saw...the \"thing\" you mentioned...in the cafe today."
+    },
+    {
+      "Name": "Sena",
+      "Text": "The thing...?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "...Ah, you mean the odd monstrosity in question."
+    },
+    {
+      "Name": "Juri",
+      "Text": "?!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "(Wait a minute, I know that person...!)"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Could you tell us more about that?"
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "Sure. I was ordering some things from the Pancake Cafe with a friend..."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "And suddenly, a purple pancake-looking thing appeared, all covered in green mucus."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Green and purple... I see."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "It moved so fast I couldn't get a close look, but now that I try to remember, I think it had what looked like tentacles... Anyway."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "It went squirming all over the place, and then it just took off."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "It was weird...and I didn't like it."
+    },
+    {
+      "Name": "Sena",
+      "Text": "I see. Any idea where it might have gone afterwards?"
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "Not a clue. I don't know where it even came from."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Understood. First, we should move the body, I mean \"the injured,\" and keep an eye on her condition."
+    },
+    {
+      "Name": "Medical Emergency Club Member",
+      "Text": "Yes, President."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Well, we certainly have more questions than we do answers."
+    },
+    {
+      "Name": "Sena",
+      "Text": "But there's one thing we can be certain of."
+    },
+    {
+      "Name": "Sena",
+      "Text": "I can no longer stand idly by."
+    },
+    {
+      "Text": "[s1] \"You sound like a doctor in a sci-fi film.\" "
+    },
+    {
+      "Text": "[s2] \"...ARE you a doctor or something?\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "Doctor...?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "The word \"doctor\" can mean many different things, but I suspect you meant it as a way to say you trust my judgement."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Thank you for the compliment."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Besides that, my own curiosity is in play here."
+    },
+    {
+      "Name": "Sena",
+      "Text": "And this is far more interesting than tossing thugs into Medical Emergency Club vehicles."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "So, then...what do you plan to do now?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "I'll simply follow the clues we have so far."
+    },
+    {
+      "Name": "Juri",
+      "Text": "A-Are you sure...? We're already one woman down..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "True, but I think this will be fun regardless."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Fun...?"
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "Can you truly call ANY of this fun...?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "That's a fair question. Honestly, I don't call many things fun."
+    },
+    {
+      "Name": "Sena",
+      "Text": "But I can think of no better word to describe what I'm feeling in the moment."
+    },
+    {
+      "Text": "[s3] \"Even after what happened to Iori...\""
+    },
+    {
+      "Text": "[s4] \"Maybe we should take things a little more seriously...?\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "No need to worry. I'm already having plenty of fun, I mean, I'm already taking things seriously."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "(What part...?)"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Let's start searching. I'll take point."
+    },
+    {
+      "Text": "[ns] \"This looks...kind of like a lot.\""
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "There's more of that green mucus all over the hallway..."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "And more OF it the farther we go down."
+    },
+    {
+      "Name": "Sena",
+      "Text": "You're right, Chinatsu. The mass is certainly increasing."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Wh-What does that mean? What does that mean?!"
+    },
+    {
+      "Name": "Sena",
+      "Text": "There's no way to know yet, Juri. We just keep moving forward."
+    },
+    {
+      "Name": "Sena",
+      "Text": "And see just how interesting it gets."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "I don't think \"interesting\" is the right word either..."
+    },
+    {
+      "Name": "???",
+      "Text": "Ugh... Ah..."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "...! Did you hear that...?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "I did. The next body, I mean \"clue,\" I mean \"victim\" must be close."
+    },
+    {
+      "Name": "Juri",
+      "Text": "S-Sena?! Let me go with you!"
+    },
+    {
+      "Name": "Gehenna Student Covered in Slime",
+      "Text": "Ugh, augh..."
+    },
+    {
+      "Text": "[ns] \"A-Are you okay? What happened?!\""
+    },
+    {
+      "Name": "Gehenna Student Covered in Slime",
+      "Text": "That...classroom over there... I heard something...weird..."
+    },
+    {
+      "Name": "Gehenna Student Covered in Slime",
+      "Text": "I just wanted to check it out. I didn't think... Ugh..."
+    },
+    {
+      "Text": "[ns5] \"That's a textbook plot point...\""
+    },
+    {
+      "Text": "[ns6] \"That's some very strong foreshadowing.\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "Why are you still talking like that, Sensei? What do you mean?"
+    },
+    {
+      "Name": "Sena",
+      "Text": "It's a reference to the natural order of things. Others might call it a cliché."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...Do you get it now?"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "I get that you're not serious, not even a little bit."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "...I should apologize for her. She's always been a bit...like this."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Well, for now, this matches what happened to Iori. With one key difference..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "There's easily double the amount of mucus here."
+    },
+    {
+      "Name": "Juri",
+      "Text": "D-Double?"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "The trail's going that way."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Into the classroom. Let's go."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "Wh-What IS this?!"
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "Whoa..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "The mucus is thicker than ever. Enough to stick someone to a wall."
+    },
+    {
+      "Name": "Sena",
+      "Text": "And there's more and more of it."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Let me confirm one thing here. Just how big was the creature when you first saw it?"
+    },
+    {
+      "Name": "Juri",
+      "Text": "Huh...? Well, a-about the size of a normal pancake..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "The size of a pancake. I see. Then let me ask everyone..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...does that amount of syrup look like it came from a normal pancake?"
+    },
+    {
+      "Text": "[s] \"I certainly wouldn't assume so.\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "Right. The body, I mean \"case,\" I mean \"victim\" we found in the hallway was covered in more syrup than Iori was."
+    },
+    {
+      "Name": "Sena",
+      "Text": "In other words, there's only one possibility here."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...This \"thing\" is getting bigger."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "*gasp*"
+    },
+    {
+      "Text": "[ns7] \"In that short of a time span...?\""
+    },
+    {
+      "Text": "[ns8] \"What about the law of the conservation of mass...?\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Sensei, were you expecting any of this to make sense?"
+    },
+    {
+      "Text": "[s9] \"W-Well...\""
+    },
+    {
+      "Text": "[s10] \"I can't really say anything there...\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "Exactly. In these situations, looking for logic is a waste of time."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Just take your common sense, take everything you know about science, and put it away."
+    },
+    {
+      "Name": "Sena",
+      "Text": "What's important is that we accept what's happening here."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Then we can anticipate what'll happen next, with glee...I mean, with proper preparations."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "*gasp*"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Near the classroom. We should hurry."
+    },
+    {
+      "Text": "[ns] \"Th-This is...?!\""
+    },
+    {
+      "Name": "Juri",
+      "Text": "H-How could something like this happen...?"
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "It's impressive in more ways than one."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Well, this confirms it. The thing IS getting bigger, with each attack."
+    },
+    {
+      "Name": "Sena",
+      "Text": "If left unchecked, the whole of Gehenna might..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...it might end up like that \"City of Raccoons\" I heard about."
+    },
+    {
+      "Name": "Juri",
+      "Text": "City...of Raccoons?"
+    },
+    {
+      "Text": "[ns11] \"City of Raccoons...? What is that?\""
+    },
+    {
+      "Text": "[ns12] \"...Wait, are you talking about...?\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "...Maybe not everyone's heard of it."
+    },
+    {
+      "Name": "Sena",
+      "Text": "It's the name of a city where a strange experiment broke loose and covered the city in monsters..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...from a video game."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Ah, so you know, Sensei."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Then I'm sure you know what this plot point represents."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Though it seems a bit out of sequence from its usual pattern..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "I have heard a little about this sort of phenomena. This isn't the first time an entity appeared in this manner."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Of course I never thought it would be quite this intriguing...excuse me, this immense."
+    },
+    {
+      "Name": "Juri",
+      "Text": "What?! Y-You knew? About all of this?!"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Nothing more than rumors in passing. Ghost stories, urban legends..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...you know, \"I heard there's a monster in the School Lunch Club!\" or some such thing."
+    },
+    {
+      "Name": "Fuuka",
+      "Text": "What are you even talking about?!"
+    },
+    {
+      "Name": "Sena",
+      "Text": "Well, I try to make a point of following up on every rumor I hear."
+    },
+    {
+      "Name": "Sena",
+      "Text": "So based on what I remember hearing, this situation is..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...well, much more critical and large-scale than it was when it began."
+    },
+    {
+      "Name": "Juri",
+      "Text": "What?!"
+    },
+    {
+      "Text": "[ns13] \"Large-scale...?!\""
+    },
+    {
+      "Text": "[ns14] \"Critical...?!\""
+    },
+    {
+      "Name": "Sena",
+      "Text": "Well, otherwise, it wouldn't be so interesting..."
+    },
+    {
+      "Name": "Sena",
+      "Text": "...I mean terrifying."
+    },
+    {
+      "Name": "Juri",
+      "Text": "B-But...!"
+    },
+    {
+      "Name": "Juri",
+      "Text": "But that means everyone in Gehenna is in danger because of me...!"
+    },
+    {
+      "Name": "Sena",
+      "Text": "...? Hm? No, not at all. From a broader perspective, it's really only a minor bump in the road."
+    },
+    {
+      "Name": "Sena",
+      "Text": "So there's a nasty syrup that makes people pass out."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Statistically, something of this magnitude happens once or twice every few months."
+    },
+    {
+      "Name": "Sena",
+      "Text": "Compared to what we might see from the Hot Springs Department, or from terrorist organizations...this really isn't much."
+    },
+    {
+      "Name": "Juri",
+      "Text": "Well, I'm glad YOU think so, but it's still a problem!"
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "Nothing compares to what we see in the Hot Springs Department. That's in a category by itself."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "*sigh*"
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "All right. So it's come to this...here at the end of the end..."
+    },
+    {
+      "Text": "[s15] \"Do you have some secret solution?\""
+    },
+    {
+      "Text": "[s16] \"End of the end...?\""
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "A plan...of sorts. Call it Broken Arrow."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "And yes. It will solve this predicament. Preferably before the Pandemonium Society hears of it."
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "If they DID hear of it, that would cause quite a dust-up for the Prefect Team."
+    },
+    {
+      "Text": "Gehenna Prefect Team Room"
+    },
+    {
+      "Name": "???",
+      "Text": "Yes, how can I help you? I'm quite busy, so please keep it short."
+    },
+    {
+      "Name": "???",
+      "Text": "...Excuse me?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "What in the world are you...?"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 3;อันตรายทางชีวภาพ"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "เตรียมส่งตัวเรียบร้อยแล้วค่ะ หัวหน้า"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ทำได้ดีมากค่ะ"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "เอ่อ... หัวหน้าคะ? ฉันไม่รู้ว่าควรบอกเรื่องนี้หรือเปล่า..."
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "แต่ที่คาเฟ่วันนี้... ฉันเหมือนจะเห็น... 'สิ่งนั้น' ที่หัวหน้าพูดถึงเลยค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "สิ่งนั้นเหรอ...?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "อ้อ... หมายถึงสัตว์ประหลาดตัวปัญหาสินะคะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "?!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "(จะว่าไป ฉันจำคุณคนนั้นได้...!)"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ช่วยอธิบายสถานการณ์เพิ่มเติมหน่อยได้มั้ยคะ?"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "ค่ะ ฉันไปคาเฟ่แพนเค้กกับเพื่อนแล้วสั่งเมนูนู่นนี่มากิน..."
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "แล้วจู่ๆ ก็มีตัวอะไรบางอย่างคล้ายแพนเค้กสีม่วงที่ราดเมือกสีเขียวออกมาค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เขียวๆ กับม่วงๆ... อย่างนี้นี่เองสินะคะ"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "มันเคลื่อนไหวรวดเร็วจนฉันสังเกตรายละเอียดไม่ได้ แต่พอมาย้อนคิดดู มันเหมือนจะมีบางอย่างคล้ายๆ หนวดด้วยค่ะ..."
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "โดยรวมแล้วเหมือนมันเที่ยวกระเด้งกระดอนไปตามอำเภอใจแล้วหายไปเฉยๆ ค่ะ"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "แต่มันก็ดูแปลกๆ และแค่เห็นก็รู้สึกสะอิดสะเอียนแล้วค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "อย่างนั้นสินะคะ แล้วไม่รู้เหรอคะว่ามันหายตัวไปทางไหนหลังจากนั้น?"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "ไม่รู้เลยค่ะ ฉันไม่คิดว่ามันจะเข้ามาถึงที่นี่เลยด้วยซ้ำค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เข้าใจแล้วค่ะ ก่อนอื่นช่วยเคลื่อนย้ายศพ... ไม่สิ ส่งตัวผู้ป่วยแล้วคอยติดตามอาการอย่างละเอียดนะคะ"
+    },
+    {
+      "Name": "สมาชิกหน่วยแพทย์ฉุกเฉิน",
+      "Text": "ค่ะ หัวหน้า"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "สถานการณ์ตอนนี้ เรามีเรื่องที่ไม่รู้มากกว่าเรื่องที่รู้แล้ว"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แต่ว่าฉันสรุปเรื่องหนึ่งอย่างแน่ชัดให้ได้ค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันปล่อยให้สถานการณ์เป็นอย่างนี้ต่อไปไม่ได้ค่ะ"
+    },
+    {
+      "Text": "[s1] \"พูดเหมือนดอกเตอร์ในหนังไซไฟเลยนะ\""
+    },
+    {
+      "Text": "[s2] \"คนนี้คือ... ดอกเตอร์เซนะหรือเปล่า?\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ดอกเตอร์เหรอคะ...?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "คำว่าดอกเตอร์มีหลายความหมาย แต่ในที่นี้คุณครูคงอยากบอกว่าเชื่อใจฉันสินะคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ขอบคุณค่ะ ฉันจะรับคำชมไว้อย่างยินดีค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "นอกจากนี้ ส่วนตัวฉันรู้สึกสงสัยใคร่รู้เห็นเกี่ยวกับปรากฏการณ์นี้นิดหน่อยด้วยค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "อย่างน้อยมันก็น่าสนใจกว่าการโยนพวกอันธพาลเข้าไปในรถของชมรมหน่วยแพทย์ฉุกเฉินค่ะ"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "ถ้าอย่างนั้น... คิดว่าจะทำยังไงเหรอคะ รุ่นพี่?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันจะตามร่องรอยนี้ไปค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "จะ... จะไม่เป็นไรเหรอคะ...? คณะกรรมการวินัยโดนซอสจนสลบไปคนหนึ่งแล้วนะคะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ค่ะ ฉันว่ามันน่าสนุกดีค่ะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "น่าสนุก...?"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "นี่เป็นเรื่องน่าสนุกเหรอคะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "นั่นน่ะสิคะ ปกติแล้วฉันไม่ค่อยหยิบคำนั้นมาใช้เท่าไรเลย"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แต่ตอนนี้คงไม่มีคำอื่นที่จะอธิบายความรู้สึกของฉันได้ค่ะ"
+    },
+    {
+      "Text": "[s3] \"แต่ว่าอิโอริก็โดนเล่นงานไปทั้งคนนะ...\""
+    },
+    {
+      "Text": "[s4] \"เราควรจริงจังให้มากกว่านี้หน่อยหรือเปล่า...\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "วางใจได้เลยค่ะ ฉันสนุก... ขอโทษค่ะ ฉันจริงจังพอตัวอยู่แล้วค่ะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "(สรุปว่าก็ยังสนุกสินะ...)"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถ้างั้นฉันจะเริ่มตามร่องรอยเดี๋ยวนี้ ฉันจะนำให้เองค่ะ"
+    },
+    {
+      "Text": "[ns] \"เป็นภาพเหตุการณ์ที่... น่าทึ่งเลยนะ\""
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "เมือกสีเขียวเปรอะไปทั่วทางเดินเลย..."
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "ยิ่งออกมาก็เหมือนจะมีปริมาณมากขึ้นเลยนะคะ ฉันคิดไปเองหรือเปล่านะ?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ไม่ได้คิดไปเองหรอกค่ะ ชินัตสึ มันมีมากขึ้นจริงๆ ค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถะ... ถ้างั้นจะเป็นยังไงเหรอคะ?! มันมี... ความหมายอื่นหรือเปล่าคะ??"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ตอนนี้เรายังสรุปอะไรไม่ได้ค่ะ จูริ เราต้องเดินหน้าต่อไปค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แต่มันเริ่มน่าสนใจขึ้นเรื่อยๆ เลยนะคะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "นี่มันไม่ใช่เรื่องที่จะใช้คำว่าน่าสนใจสักหน่อย..."
+    },
+    {
+      "Name": "???",
+      "Text": "ฮะ... ฮือ..."
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "...! เสียงร้องเหรอ...?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "จริงด้วยค่ะ คงเป็นอีกศพ... ไม่สิ เป็นเหยื่ออีกคนน่ะค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ... คุณเซนะ?! ไปด้วยกันสิคะ~!"
+    },
+    {
+      "Name": "นักเรียนเกเฮนน่าที่โดนเมือกติดตัว",
+      "Text": "อะ... อึกกก..."
+    },
+    {
+      "Text": "[ns] \"ปะ... เป็นยังไงบ้าง? เกิดอะไรขึ้นน่ะ!\""
+    },
+    {
+      "Name": "นักเรียนเกเฮนน่าที่โดนเมือกติดตัว",
+      "Text": "ฉันอยู่ใน... ห้องเรียน... ทางด้านโน้น... แล้วก็ได้ยินเสียงอะไรแปลกๆ..."
+    },
+    {
+      "Name": "นักเรียนเกเฮนน่าที่โดนเมือกติดตัว",
+      "Text": "ก็เลยคิดว่าจะออกไปดูสักหน่อย... แล้วก็..."
+    },
+    {
+      "Text": "[ns5] \"ตกเป็นเหยื่อรายต่อไปสินะ...\""
+    },
+    {
+      "Text": "[ns6] \"นี่สินะคนที่ลางสังหรณ์ดี...\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คุณครู พูดอะไรแบบนั้นคะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "นี่เป็นเรื่องราวที่ถูกกำหนดไว้แล้วค่ะ หรือไม่ก็เป็นคนที่ดวงสมพงษ์กับแพนเค้ก"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เคยรู้จักเรื่องแบบนี้มั้ยล่ะคะ...?"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "ไม่รู้หรอก แต่เท่าที่รู้คือตอนนี้เธอไม่น่าจะจริงจังขนาดนั้นนะ"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "เอ่อ ขอโทษด้วยนะคะ พอดีรุ่นพี่เป็นคนแบบนี้..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ก่อนอื่นเลย เคสนี้มีส่วนคล้ายกับของอิโอริค่ะ ถ้าจะมีส่วนไหนที่แตกต่าง..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถ้าเปรียบเทียบกับตอนนั้นแล้ว ปริมาณเมือกของเคสนี้มากขึ้นเป็นสองเท่าเลยค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "สะ... สองเท่าเหรอคะ?"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "ร่องรอยยังมีให้เห็นอยู่ทางโน้นด้วย"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ไปกันเถอะ ร่องรอยนั่นมุ่งหน้าไปที่ห้องเรียนค่ะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "นะ... นี่มันอะไรกันเนี่ย??"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "หวา..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เมือกเหนียวหนืดขึ้นเยอะเลยค่ะ เหนียวพอที่จะยึดคนไว้กับกำแพงได้เลยนะคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ปริมาณก็มากขึ้นด้วยค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันมีอย่างหนึ่งที่อยากตรวจสอบที่นี่ค่ะ ตอนแรกสัตว์ประหลาดตัวนั้นมีขนาดแค่ไหนเหรอคะ?"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ...? มะ... มันก็ ขนาดเท่าๆ กับแพนเค้กทั่วไปนะคะ...?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "งั้นเหรอคะ? ขนาดเท่าแพนเค้กทั่วไป เข้าใจแล้วค่ะ ถ้าอย่างนั้น ทุกคนคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ทุกคนว่านี่เป็นซอสที่มาจากแพนเค้กขนาดทั่วไปมั้ยคะ?"
+    },
+    {
+      "Text": "[s] \"ไม่น่าจะใช่นะ\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ค่ะ ศพที่เจอตรงทางเดินเมื่อกี้นี้... ขอโทษค่ะ เหยื่อที่เราเจอโดนเมือกเยอะกว่าอิโอริมากเลยค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถ้างั้นตอนนี้เราก็สรุปได้อย่างหนึ่งว่า..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "'สิ่งนั้น' มันกำลังเติบโตขึ้นเรื่อยๆ ค่ะ"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "!!!"
+    },
+    {
+      "Text": "[ns7] \"ภายในเวลาสั้นๆ แค่นี้น่ะเหรอ...?\""
+    },
+    {
+      "Text": "[ns8] \"กฎทรงมวลไม่มีอยู่จริงงั้นเหรอ...?\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "คุณครูคะ คิดว่าสถานการณ์นี้มันสมเหตุสมผลมาตั้งแต่แรกเหรอคะ?"
+    },
+    {
+      "Text": "[s9] \"มะ... มันก็...\""
+    },
+    {
+      "Text": "[s10] \"เถียงไม่ออกเลยแฮะ...\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ค่ะ ในสถานการณ์แบบนี้ การมองหาตรรกะเป็นเรื่องเสียเวลาเปล่าค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "นี่ไม่ใช่เรื่องที่ต้องไตร่ตรองเรื่องกฎเกณฑ์ หรือคิดตามสามัญสำนึกว่ามันจะเป็นอย่างนั้นด้วย"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "สิ่งสำคัญคือการยอมรับว่าสิ่งที่เกิดขึ้นตามที่เป็นค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "หลังจากนั้นก็สังเกตด้วยความอยากรู้อยากเห็น... ไม่สิ ฉันหมายถึงติดตามและเตรียมพร้อมสำหรับสิ่งที่จะเกิดขึ้นหลังจากนั้นค่ะ"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "!!!"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "อยู่แถวๆ ห้องเรียนค่ะ รีบไปเถอะค่ะ"
+    },
+    {
+      "Text": "[ns] \"นะ... นี่มัน...!?\""
+    },
+    {
+      "Name": "จูริ",
+      "Text": "กะ... เกิดเรื่องแบบนี้ได้ยังไง..."
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "น่าทึ่งในหลายๆ แง่เลยนะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันมั่นใจแล้วค่ะ ยิ่งถูกโจมตี สัตว์ประหลาดตัวนั้นก็จะยิ่งตัวใหญ่ขึ้นค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ขืนปล่อยไว้แบบนี้ อีกไม่นานเกเฮนน่าก็คง..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ลงเอยเหมือน 'แรคคูนซิตี้' แน่ๆ เลยค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "แรคคูนซิตี้... งั้นเหรอคะ?"
+    },
+    {
+      "Text": "[ns11] \"แรคคูนซิตี้...? มันคืออะไรเหรอ?\""
+    },
+    {
+      "Text": "[ns12] \"อ้อ... เมืองนั้นน่ะเหรอ...\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ไม่รู้จักสินะคะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "มันคือเมืองที่เต็มไปด้วยสัตว์ประหลาดจากการทดลองปริศนา..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "เมืองที่อยู่ในเกมน่ะค่ะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "รู้จักอยู่แล้วสินะคะ คุณครู"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถ้าอย่างนั้นคุณครูก็น่าจะคาดเดาความคืบหน้าของสถานการณ์ได้นะคะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถึงตอนนี้จะไม่ใช่จังหวะเหมาะที่จะพูดเรื่องนี้"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แต่จริงๆ แล้วฉันเคยได้ยินเกี่ยวกับปรากฏการณ์นี้มาบ้างค่ะ นี่ไม่ใช่ครั้งแรกที่สัตว์ประหลาดแบบนั้นปรากฏตัวค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "แน่นอนว่าตอนแรกฉันก็ไม่ได้คิดว่ามันจะน่าสนใจขนาดนี้... ขอโทษค่ะ ฉันหมายถึงไม่คิดว่าจะเป็นเรื่องใหญ่ขนาดนี้น่ะค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ?! รู้จักแพนเค้กนั่นอยู่แล้วเหรอคะ!?"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "มันเป็นแค่ข่าวลือหรือเรื่องลี้ลับที่เล่ากันค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ในหมู่นักเรียนจะลือกันว่า 'ในชมรมโภชนาการมีสัตว์ประหลาดอาศัยอยู่' น่ะค่ะ"
+    },
+    {
+      "Name": "ฟูกะ",
+      "Text": "พูดเรื่องอะไรเนี่ย! ไปเอาข่าวลือแปลกๆ แบบนั้นมาจากไหน!"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันเป็นคนประเภทที่มองข้ามข่าวแบบนี้ไปไม่ได้ ก็เลยยังจำได้อยู่ค่ะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "จากที่ฉันจำได้แล้ว ฉันคาดว่าสัตว์ประหลาดในตอนนี้..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "มีความร้ายแรงและอันตรายถึงชีวิตมากกว่าตอนปกติอีกค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "คะ?!"
+    },
+    {
+      "Text": "[ns13] \"ร้ายแรงเลยเหรอ...!?\""
+    },
+    {
+      "Text": "[ns14] \"อันตรายถึงชีวิตเลยเหรอ...!?\""
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ค่ะ ไม่งั้นก็คงไม่น่าสนุกถึงขนาดนี้..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ฉันหมายถึง... ก็คงไม่ก่อเรื่องน่ากลัวไปทั่วแบบนี้ค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ถะ... ถ้าอย่างนั้น...!"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "นี่ฉันทำให้ทุกคนในเกเฮนน่าต้องเจอปัญหาใหญ่เหรอคะ...!!"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "...? หืม? ไม่ค่ะ ไม่ถึงขนาดนั้นหรอกค่ะ จริงๆ แล้วถ้ามองโดยรวมก็ไม่มีอะไรมากหรอกค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "อย่างมากทุกคนก็แค่หมดสติไปเพราะซอสรสชาติไม่ได้เรื่องก็แค่นั้นค่ะ"
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "จากสถิติแล้ว เรื่องแบบนี้เกิดขึ้นในทุก 2-3 เดือนอยู่แล้วค่ะ ปัญหาแบบนี้น่ะ..."
+    },
+    {
+      "Name": "เซนะ",
+      "Text": "ถ้าเทียบกับปัญหาของชมรมพัฒนาออนเซ็นหรือชมรมที่เอาแต่ก่อเรื่องแล้ว... มันยากที่จะมองว่าเป็นปัญหาใหญ่ค่ะ"
+    },
+    {
+      "Name": "จูริ",
+      "Text": "ฟังแล้วก็โล่งอกไปทีนะคะ แต่สำหรับฉันมันเป็นเรื่องน่าเศร้ายังไงก็ไม่รู้ค่ะ~!"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "ถ้าเทียบกับเรื่องของชมรมพัฒนาออนเซ็นแล้วก็ไม่มีอะไรมาเปรียบได้หรอกค่ะ..."
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "เฮ้อ..."
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "งั้นก็คงช่วยไม่ได้นะคะ ฉันว่าจะเก็บวิธีนี้ไว้ใช้ในตอนสุดท้ายของท้ายสุดแล้วเชียว"
+    },
+    {
+      "Text": "[s15] \"มีวิธีอะไรดีๆ เหรอ?\""
+    },
+    {
+      "Text": "[s16] \"ตอนสุดท้ายของท้ายสุดงั้นเหรอ...?\""
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "เรียกว่า... เป็นแผนการแล้วกันค่ะ หรือเรียกอีกอย่างว่าเป็นคำสั่งโบรคเค่นแอร์โร่วก็ได้ค่ะ"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "แต่ก็... ค่ะ ยังไงเราก็ต้องคลี่คลายสถานการณ์นี้คะ ยิ่งไปกว่านั้น ถ้าเรื่องนี้ไปถึงหูของแพนเดโมเนียม โซไซตี้ละก็..."
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "ตอนนั้นคงเป็น... ปัญหาระดับชาติของคณะกรรมการวินัยเลยละค่ะ"
+    },
+    {
+      "Text": "ห้องคณะกรรมการวินัยเกเฮนน่า"
+    },
+    {
+      "Name": "???",
+      "Text": "ค่ะ มีเรื่องอะไรเหรอคะ? ตอนนี้ฉันกำลังยุ่ง ช่วยเข้าเรื่องเลยได้มั้ยคะ"
+    },
+    {
+      "Name": "???",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "เดี๋ยวนะคะ มันเรื่องอะไรกัน..."
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第3話;生化危機"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "已經做好運送準備了，部長。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "辛苦了。"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "那個……部長？\n雖然不知道這種事該不該說……"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "不過我今天在咖啡廳……好像有看到……剛剛說的「那個」。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "那個……？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……啊，你是說釀成問題的怪物嗎。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "！？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "（這麼說來，這位客人我有印象……！）"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "可以詳細說明一下情況嗎？"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "嗯，我和朋友在鬆餅咖啡廳點了幾項餐點……"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "然後就突然出現了一塊像是淋滿綠色黏液的紫色鬆餅。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "綠色和紫色……原來如此。"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "因為它的動作太快，所以看得不是很清楚……\n現在仔細回想起來，上面似乎還有類似觸手的東西。"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "大致上就是不停蠕動，到處亂蹦之後消失無蹤的感覺。"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "說白一點就是詭異又噁心的東西！"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這樣啊。\n那麼你有關於它去向的線索嗎？"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "沒有，因為我們根本沒想過這裡會出現那種東西。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "我明白了。\n現在先把屍體……傷患送回去，繼續觀察後續情況吧。"
+    },
+    {
+      "Name": "急救醫學部成員",
+      "Text": "是，部長。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "雖然目前事件仍撲朔迷離……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "不過有件事情可以確定。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "我不能對這起怪異現象坐視不管。"
+    },
+    {
+      "Text": "[s1]「你好像科幻電影裡的博士哦。」"
+    },
+    {
+      "Text": "[s2]「現在應該叫你……瀬奈博士嗎？」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "博士……？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "雖然博士這個稱呼有很多種含義，但現在應該是代表相信我的判斷的意思吧。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "謝謝。那我就欣然接受了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "除此之外，我個人也對這個現象感到有點好奇。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "至少比把太妹丟進急救醫學部的車子裡有趣。"
+    },
+    {
+      "Name": "千夏",
+      "Text": "那麼……你打算怎麼做呢，前輩？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "我要追蹤這些痕跡。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "沒，沒問題嗎……？\n現在已經有一個人受害了……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "嗯，感覺挺有趣的。"
+    },
+    {
+      "Name": "風華",
+      "Text": "有趣……？"
+    },
+    {
+      "Name": "千夏",
+      "Text": "這種事有趣嗎……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "是啊，我也覺得這種事一般不會用有趣來形容。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "不過除了「有趣」之外，似乎沒有其他詞彙能表達我現在的心情了。"
+    },
+    {
+      "Text": "[s3]「現在伊織已經中招了……」"
+    },
+    {
+      "Text": "[s4]「我們還是嚴肅一點吧……」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "請老師放心。\n我現在已經非常興……更正，是非常嚴肅了。"
+    },
+    {
+      "Name": "風華",
+      "Text": "（到底哪裡嚴肅……）"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "那麼就開始追蹤吧。\n我來帶頭。"
+    },
+    {
+      "Text": "[ns]「這個景象……太驚人了。」"
+    },
+    {
+      "Name": "風華",
+      "Text": "走廊上到處都佈滿了綠色黏液……"
+    },
+    {
+      "Name": "千夏",
+      "Text": "而且越往前好像越來越多。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "千夏，並不是「好像」，而是確實越來越多了。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "那，那怎麼辦！？\n這樣……代表什麼意思！？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "目前還不清楚，茱莉。\n我們只能繼續前進而已。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "不過，事情越來越有趣了。"
+    },
+    {
+      "Name": "風華",
+      "Text": "現在不是覺得有趣的時候吧……"
+    },
+    {
+      "Name": "???",
+      "Text": "呃……呃啊……"
+    },
+    {
+      "Name": "風華",
+      "Text": "……是呻吟聲！？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "原來如此。\n應該是下一具屍體……線索……更正，是受害者吧。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "瀬，瀬奈同學！？我們一起走嘛～！"
+    },
+    {
+      "Name": "滿身黏液的格黑娜學生",
+      "Text": "唔，呃啊……"
+    },
+    {
+      "Text": "[ns]「你，你還好嗎？發生什麼事了！」"
+    },
+    {
+      "Name": "滿身黏液的格黑娜學生",
+      "Text": "那邊的教室裡……傳來了奇怪的聲音……"
+    },
+    {
+      "Name": "滿身黏液的格黑娜學生",
+      "Text": "我想說應該不會有事……就去看看情況……結果……"
+    },
+    {
+      "Text": "[ns5]「這Flag立得還真直……」"
+    },
+    {
+      "Text": "[ns6]「完全忠於伏筆啊……」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "老師又在說難以理解的話了……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這就是所謂的「套路」。\n或者要說「老哏」也可以。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……這樣能夠理解嗎？"
+    },
+    {
+      "Name": "風華",
+      "Text": "我唯一理解的，就只有你們一點也不嚴肅而已……"
+    },
+    {
+      "Name": "千夏",
+      "Text": "總覺得有點抱歉。\n畢竟他也是我的前輩……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這個案例跟伊織的情況很相似。\n要說有什麼差別的話……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "和之前相比，黏液的量增加到了兩倍左右。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "兩，兩倍？"
+    },
+    {
+      "Name": "風華",
+      "Text": "痕跡一路往那邊延伸過去呢。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "走吧。痕跡往教室的方向去了。"
+    },
+    {
+      "Name": "風華",
+      "Text": "這，這是什麼！？"
+    },
+    {
+      "Name": "千夏",
+      "Text": "哇……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "黏液的強度提高了呢。\n現在已經足以把一個人固定在牆上……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "而且量也進一步增加了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "我想確認一件事，它一開始大概有多大呢？"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "咦……？\n大，大概是普通鬆餅的大小……？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "普通鬆餅啊……我明白了。\n那麼各位覺得……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這看起來像是普通的鬆餅會有的醬汁量嗎？"
+    },
+    {
+      "Text": "[s]「確實不像。」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "沒錯。剛才在走廊發現的屍體……個案……受害者身上的黏液也比伊織那時還多。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "因此現階段能得出的結論只有一個──"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "──「那個東西」正在漸漸成長。"
+    },
+    {
+      "Name": "大家",
+      "Text": "！！！"
+    },
+    {
+      "Text": "[ns7]「在這麼短的時間內……？」"
+    },
+    {
+      "Text": "[ns8]「質量守恆定律去哪了……？」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "老師，這件事從頭到尾都沒有合理過吧？"
+    },
+    {
+      "Text": "[s9]「是，是沒錯啦……」"
+    },
+    {
+      "Text": "[s10]「我竟無法反駁……」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "事到如今，追求是否合理已經不是重點了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "而且也不能根據規則和常識來加以推論。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "最重要的是正視目前發生的現象。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "同時抱持著好奇心……更正，是保持警覺以防範接下來可能發生的情況。"
+    },
+    {
+      "Name": "大家",
+      "Text": "！！！"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "去附近的教室吧。動作快。"
+    },
+    {
+      "Text": "[ns]「這，這是……！？」"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "怎，怎麼會發生這種事……！"
+    },
+    {
+      "Name": "風華",
+      "Text": "各方面來說都很驚人呢。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "這樣一來，基本可以確定「那個」會隨著襲擊變得越來越巨大了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "如果放任不管，整個格黑娜……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "可能會變得《惡靈骨堡》裡的「辣昆市」一樣。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "辣昆市……？"
+    },
+    {
+      "Text": "[ns11]「辣昆市……？那是什麼？」"
+    },
+    {
+      "Text": "[ns12]「難道你指的是那個……」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……原來老師不知道嗎？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "那是一座因不明實驗而導致怪物橫行……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……在某款遊戲裡的虛構城市。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "看來你知道呢，老師。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "那麼老師應該也能猜到，現在事態的走向意味著什麼才對。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "雖然現在說這些可能也為時已晚了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "其實我以前就對這類的現象略有耳聞。\n而且那種怪異個體也不是第一次出現了。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "當然我確實沒料到這次的情況會如此精彩……更正，是驚人才對。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "咦！？你之前就有聽說過這種事嗎！？"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "雖然僅僅只是傳言或怪談之類的東西……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "不過坊間的確有這樣的說法流傳──「供給部裡棲息著魔物」。"
+    },
+    {
+      "Name": "風華",
+      "Text": "什麼意思！我從來沒聽說過！"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "我一向很注意這類的消息，所以記得特別清楚……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "從我的印象來看，目前的情況──"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "似乎會比過往更加致命，同時規模也更加巨大。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "什麼！？"
+    },
+    {
+      "Text": "[ns13]「大規模……！？」"
+    },
+    {
+      "Text": "[ns14]「致命……！？」"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "是的，否則也不會發生那麼有趣……"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……我是說那麼可怕的事情了。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "怎，怎麼會……！"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "所以格黑娜的大家都是因為我才……！！"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "……嗯？不，不是那樣的。\n其實整體來看，這並不是什麼大事。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "大家不過就是因為醬汁太難吃而失去意識而已。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "根據過往的統計資料，這種程度的意外大約兩三個月就會發生一次。"
+    },
+    {
+      "Name": "瀬奈",
+      "Text": "跟溫泉開發部或其他恐怖組織的問題相比……實在是小巫見大巫。"
+    },
+    {
+      "Name": "茱莉",
+      "Text": "雖然是件好事，但我總覺得有點難過……！"
+    },
+    {
+      "Name": "千夏",
+      "Text": "畢竟光是被拿來跟溫泉開發部比較，就代表事情非同小可了……"
+    },
+    {
+      "Name": "千夏",
+      "Text": "……唉。"
+    },
+    {
+      "Name": "千夏",
+      "Text": "沒辦法了。\n其實這個方法，我本來打算留到最後關頭再用的。"
+    },
+    {
+      "Text": "[s15]「你有什麼方法嗎？」"
+    },
+    {
+      "Text": "[s16]「最後關頭……？」"
+    },
+    {
+      "Name": "千夏",
+      "Text": "應該說是……計畫吧。\n如果要換個說法的話，也可以稱之為[ruby=Broken Arrow]「斷箭」[/ruby]。"
+    },
+    {
+      "Name": "千夏",
+      "Text": "不過……嗯，終究得解決問題才行。\n況且要是這件事傳到萬魔殿耳裡……"
+    },
+    {
+      "Name": "千夏",
+      "Text": "到時候對我們風紀委員會來說……麻煩就更大了。"
+    },
+    {
+      "Text": "格黑娜．風紀委員會部室"
+    },
+    {
+      "Name": "???",
+      "Text": "有什麼事？\n我現在很忙，麻煩長話短說。"
+    },
+    {
+      "Name": "???",
+      "Text": "……什麼？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "那是什麼意思……"
+    }
+  ]
+}

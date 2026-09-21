@@ -1,0 +1,2997 @@
+{
+  "TitleJP": "逆襲",
+  "TitleKR": "역습",
+  "TitleEN": "Counterattack",
+  "TitleTH": "จู่โจมกลับ",
+  "TitleTW": "逆襲",
+  "DescJP": "箱舟の自爆シーケンスを準備していたヴェリタス。もうあとは箱舟を爆破して地上に帰るだけ――そんな喜色に包まれた一行の前に無常に響き渡る自爆シーケンス起動の音。そう、気づかぬ間に、船が敵にハッキングされてしまっていたのだった。再びキヴォトスの空が赤く染まり、世界は終焉へと傾いていく。先生はこの事態を打破すべく、プレナパテスと対峙するのだった。",
+  "DescKR": "아트라하시스의 방주에서 자폭 시퀀스를 준비하던 베리타스. 하지만 우트나피쉬팀의 배는 이미 적에게 해킹당한 상태였다. 다시 키보토스의 하늘이 붉게 물드는 절망적인 상황, 우트나피쉬팀을 해킹한 장소에 도착한 시로코와 선생님은 그곳에서 프레나파테스와 또 다른 시로코를 마주하게 된다.",
+  "DescEN": "Before Veritas can finish creating a self-destruct sequence in the Ark of Atrahasis, Utnapishtim's Ship is hacked by the enemy. As Kivotos' sky is dyed blood red once more, Shiroko and Sensei go to the coordinates Utnapishtim was hacked from. There, they encounter Phrenapates and another Shiroko.",
+  "DescTH": "เวอริทัสเตรียมขั้นตอนระเบิดตัวเองที่เรืออะทราฮาซิส แต่เรือของอุตนาพิช\nทิมได้ถูกศัตรูแฮ็กไปแล้ว ในสถานการณ์ที่สิ้นหวังและท้องฟ้าของคิโวทอส\nถูกย้อมเป็นสีแดง ชิโรโกะกับคุณครูมาถึงจุดที่แฮ็กอุตนาพิชทิม และได้พบ\nกับเพลนาพาเทสกับชิโรโกะอีกคนที่นั่น",
+  "DescTW": "貝里塔斯在阿特拉哈西斯方舟中準備了自爆程式。但生命守護者早已被敵人駭入了。奇普托斯的天空再次染紅且陷入絕望當中，白子和老師抵達了駭入生命守護者的位置，在那邊遇見了誘騙者和另一個白子。",
+  "DialogJP": [
+    {
+      "Text": "第16話;逆襲"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "はやく……早く戻って来て。"
+    },
+    {
+      "Name": "アコ",
+      "Text": "急いでください！"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "リン",
+      "Text": "……。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "みんな、はやく……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "「自爆シーケンス」の構成、完了。あとは実行ボタンを押すだけ。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "シミュレーション結果も問題ありません。\nこれであれば、「アトラ・ハシースの箱舟」は確実に破壊できます。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "すっごい爆発が起きるんじゃない？\n箱舟の破片が、キヴォトスのあちこちに降ってきちゃうかも。"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……こっちの準備は完了してるよ。\n脱出の用意ができたら教えて。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "ちょっと待ってちょうだい！！"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……リオ？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "何かがおかしいわ――今、私たちは箱舟を掌握しているはずなのに……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……ヒマリ！\n今すぐ「ウトナピシュティム」の中枢システムを見てちょうだい。 "
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……中枢システム、ですか？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……こ、これは一体？"
+    },
+    {
+      "Name": "リオ",
+      "Text": "……[ruby=・   ・   ・   ・   ・]ハッキング[/ruby]されたのよ。"
+    },
+    {
+      "Name": "リオ",
+      "Text": "こんな数値では……一体、誰が……いつの間に……"
+    },
+    {
+      "Name": "リオ",
+      "Text": "「ウトナピシュティムの本船」が――ハッキングされているわ！！"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "こ、れは……どういう……！？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "な、何かがおかしいです……！\nどうして今「自爆シーケンス」が起動するんですか……！？"
+    },
+    {
+      "Name": "マキ",
+      "Text": "な、なんで……？もうボタン押したの？\nまだ脱出準備、終わってないんじゃないの！？"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "いや、これは……！ "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "「自爆シーケンス」を実行します。"
+    },
+    {
+      "Name": "みんな",
+      "Text": "――――！？！？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "え……？「自爆シーケンス」が起動？"
+    },
+    {
+      "Name": "アコ",
+      "Text": "はい……？今なんと……？"
+    },
+    {
+      "Name": "ハナコ",
+      "Text": "これは……一体？"
+    },
+    {
+      "Name": "カヨコ",
+      "Text": "みんな、伏せて！！ "
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "……。"
+    },
+    {
+      "Name": "マキ",
+      "Text": "いったい、どうして……。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "何が起きてるの……？"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "これは……船の、自爆……？\nな、何故……？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "一体、何が……どうなってるの……。"
+    },
+    {
+      "Name": "アユム",
+      "Text": "げほっ、げほっ……みなさん、ご無事ですか……？ "
+    },
+    {
+      "Name": "モモカ",
+      "Text": "ちょっと、何事！？"
+    },
+    {
+      "Name": "リン",
+      "Text": "ぐっ……！！"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "幸い、爆発はそれほど大きくなかったけど……"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "この状態……大丈夫なのよ、ね……？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ヒマリ部長。現状の説明をお願いしてもいいかしら？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……やられました。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "えっ、やられたって……何によ？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……私たちが、「アトラ・ハシースの箱舟」の占領を進めている間、敵は……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "――バックドアから「ウトナピシュティム」の掌握を進めていたのです。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "……なっ！？"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "……現在、「ウトナピシュティムの本船」の所有権は、敵に渡っています。"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "い、いつの間に……！というか、それを実行するには、内部からの物理的な接触が必要でしょ！？"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "内部に誰も入れた覚えは――"
+    },
+    {
+      "Name": "ユウカ",
+      "Text": "ま……まさか、あの時……"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "箱舟の自爆どころか……「アトラ・ハシース箱舟」の多次元解釈を、「ウトナピシュティムの本船」が助けた形になりました。"
+    },
+    {
+      "Name": "ヒマリ",
+      "Text": "このままでは、また「虚妄のサンクトゥム」が……"
+    },
+    {
+      "Name": "リン",
+      "Text": "……これは。"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "そ、空が……！？ "
+    },
+    {
+      "Name": "アユム",
+      "Text": "また……虚妄のサンクトゥムが……！？"
+    },
+    {
+      "Name": "イオリ",
+      "Text": "な、何……！？"
+    },
+    {
+      "Name": "チナツ",
+      "Text": "ま、また空が……"
+    },
+    {
+      "Name": "ヒナ",
+      "Text": "……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……。"
+    },
+    {
+      "Name": "トキ",
+      "Text": "……非常事態を確認。 "
+    },
+    {
+      "Name": "ニヤ",
+      "Text": "……。"
+    },
+    {
+      "Name": "カホ",
+      "Text": "先生……"
+    },
+    {
+      "Name": "コユキ",
+      "Text": "そ、空が……！せ、先輩どうしましょ！？"
+    },
+    {
+      "Name": "ノア",
+      "Text": "ユウカちゃん……先生……"
+    },
+    {
+      "Name": "サキ",
+      "Text": "空が……"
+    },
+    {
+      "Name": "ミユ",
+      "Text": "せ、先生に何かあったんじゃ……"
+    },
+    {
+      "Name": "モエ",
+      "Text": "これって……"
+    },
+    {
+      "Name": "ミヤコ",
+      "Text": "……。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "せ、セイアさん、ミカさん！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "遅かったね、ナギちゃん。\nセイアちゃんは、さっきどこかに行っちゃった。　"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "……ええっと？　"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "なんだか不吉な「気配」を感じるからそれに備えたいって言ってたよ？"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "――「自分が居ない間、何か起きた時は後を頼む」ってさ。"
+    },
+    {
+      "Name": "ナギサ",
+      "Text": "そうですか……では、私たちもすぐに取り掛かりましょう。 "
+    },
+    {
+      "Name": "ミカ",
+      "Text": "うん。了解☆"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "先生が帰ってきた時、うまく対処できてなかったら、きっとガッカリしちゃうよね！"
+    },
+    {
+      "Name": "ミカ",
+      "Text": "――だから、先生の心配は後回し。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "そ、空が――！？"
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "ヒヨリ、あれは言わなくていいからね。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "な、何のことですかミサキさん……そんなに私は「もう人生終わりだ」とか、「この世は苦痛だらけです」とか、ネガティブ発言ばかりの印象なんですか……？うぅ……いえ、事実ではありますが……！"
+    },
+    {
+      "Name": "サオリ",
+      "Text": "……行くぞ。"
+    },
+    {
+      "Name": "アツコ",
+      "Text": "うん――どんなことがあっても、努力を止めるべきじゃない、からね。"
+    },
+    {
+      "Name": "ヒヨリ",
+      "Text": "はい……い、行きましょう！ "
+    },
+    {
+      "Name": "ミサキ",
+      "Text": "……うん。私たちにできることをやろう。"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "今の「ウトナピシュティム」の制御権は、相手に渡っている状態……。"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "現在ハッキング位置を追跡中です……"
+    },
+    {
+      "Name": "コタマ",
+      "Text": "……確認完了。「アトラ・ハシースの箱舟」第4エリアの中央部です。 "
+    },
+    {
+      "Name": "マキ",
+      "Text": "……え？これがその場所の名前？"
+    },
+    {
+      "Name": "チヒロ",
+      "Text": "多次元解釈エンジン管制室、「ナラム・シンの玉座」――"
+    },
+    {
+      "Name": "ハレ",
+      "Text": "ここから「ウトナピシュティム」をハッキングしてる……止めないと！！"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "みなさん、大丈夫ですか？ "
+    },
+    {
+      "Name": "セリカ",
+      "Text": "うん……大丈夫。特に怪我はないけど……"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "これって要は、そういうことなのよね……？"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……。 "
+    },
+    {
+      "Name": "ホシノ",
+      "Text": "……あの「シロコ」が、何度も私たちを邪魔していたのは――"
+    },
+    {
+      "Name": "ノノミ",
+      "Text": "……時間稼ぎがしたかっただけ、ということでしょうか。"
+    },
+    {
+      "Name": "セリカ",
+      "Text": "そ、そんな……じゃあ、私たちは今まで……"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "作戦は失敗……。今までの努力は全部、水の泡――"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ううん。まだだよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "し、シロコ先輩……？"
+    },
+    {
+      "Text": "[ns] \"まだ諦めるには早いよ。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "せ、先生まで……シロコ先輩とご一緒なのですか？\n今はどちらに……！？ "
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ん。第4エリア中央の「ウトナピシュティム」をハッキングしてる場所に先生と向かってるよ。"
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……えぇっ！？"
+    },
+    {
+      "Text": "[s] \"私とシロコがハッキングを止めてみる。後のことは、お願い。\""
+    },
+    {
+      "Name": "アヤネ",
+      "Text": "……！！"
+    },
+    {
+      "Name": "モモカ",
+      "Text": "なっ、えっ！？"
+    },
+    {
+      "Name": "アユム",
+      "Text": "……！！"
+    },
+    {
+      "Name": "リン",
+      "Text": "……先生。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "管制室が見えてきた。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "突入したら、敵の制圧に回るね。 "
+    },
+    {
+      "Text": "[s] \"……よし、行こう！\""
+    },
+    {
+      "Text": "[ns] （ここは……）"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "敵、発見。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私を拉致した、あいつ……！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "止まれ――！！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "少しでも動いたら……撃つ！！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "下手な抵抗はやめた方がいい。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "ここには……「シャーレの先生」がいる。\nだからもう、全部終わり。 "
+    },
+    {
+      "Name": "シロコ",
+      "Text": "大人しく降参して、すぐに……"
+    },
+    {
+      "Name": "プレナパテス",
+      "Text": "\"…………。\""
+    },
+    {
+      "Name": "シロコ",
+      "Text": "う、動くな……！手を上げろ！！"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "さもないと……撃つ。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "……と、止まれ！"
+    },
+    {
+      "Name": "プレナパテス",
+      "Text": "\"……我々は望む、ジェリコの[ruby=なげ]嘆[/ruby]きを。\"\n\"……我々は覚えている、七つの[ruby=こそく]古則[/ruby]を。\""
+    },
+    {
+      "Name": "シロコ",
+      "Text": "くっ――――――！？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "銃弾が……全部、外れた……？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "この距離で、何故……？"
+    },
+    {
+      "Text": "[ns1] （あれは……）"
+    },
+    {
+      "Text": "[ns2] （聞き間違いでなければ――）"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "せ、先生……？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "せ、先生……？"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "先生……ダメ、何か……何かが、おかしい。"
+    },
+    {
+      "Text": "[s] \"……シロコ、下がった方がいい。\""
+    },
+    {
+      "Name": "シロコ",
+      "Text": "え……？"
+    },
+    {
+      "Name": "？？？",
+      "Text": "[USERNAME]先生の生体認証、完了。"
+    },
+    {
+      "Text": "[s3] \"私の……名前？\""
+    },
+    {
+      "Text": "[s4] \"私を、呼んだ……？\""
+    },
+    {
+      "Name": "？？？",
+      "Text": "この「シッテムの箱」に常駐しているシステム管理者であり、メインOS――"
+    },
+    {
+      "Name": "？？？",
+      "Text": "――A.R.O.N.A、命令待機中。"
+    },
+    {
+      "Text": "[s5] \"……………………\""
+    },
+    {
+      "Text": "[s6] \"……………ア……ロナ？\""
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "「アトラ・ハシースの箱舟」、復旧システムを起動。 "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "「シッテムの箱」の権限により、破壊された「アトラ・ハシースの箱舟」を多次元の同一存在と交代・修復します。 "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "約30分後、100%修復を想定。"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "箱舟に侵入した「ウトナピシュティムの本船」は800秒後、最終自爆シーケンスに移行。"
+    },
+    {
+      "Name": "？？？",
+      "Text": "……だから言ったでしょう。 "
+    },
+    {
+      "Name": "シロコ",
+      "Text": "定められた運命を変えることはできない、と。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "キヴォトスは予定通り、終焉を迎える。"
+    },
+    {
+      "Name": "シロコ",
+      "Text": "私の――[USERNAME]先生。"
+    },
+    {
+      "Text": "Final.;To be Continued in Chapter 4"
+    }
+  ],
+  "DialogKR": [
+    {
+      "Text": "제16화;역습"
+    },
+    {
+      "Name": "유우카",
+      "Text": "……빨리, 빨리 오라고."
+    },
+    {
+      "Name": "아코",
+      "Text": "서두르세요!!"
+    },
+    {
+      "Name": "하나코",
+      "Text": "……."
+    },
+    {
+      "Name": "린",
+      "Text": "……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "서둘러, 다들……."
+    },
+    {
+      "Name": "아유무",
+      "Text": "……."
+    },
+    {
+      "Name": "하레",
+      "Text": "<자폭 시퀀스> 구성 완료했어. 이제 실행 버튼을 누르기만 하면 돼."
+    },
+    {
+      "Name": "코타마",
+      "Text": "시뮬레이션 결과값도 문제없습니다. 이거라면 확실하게 <아트라하시스의 방주>는 파괴될 겁니다."
+    },
+    {
+      "Name": "마키",
+      "Text": "엄청 거대한 폭발이 발생할 거야. 파편들이 키보토스 곳곳으로 날아갈걸?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……이쪽 준비는 모두 끝났어. 다들, 탈출 준비가 끝나면 알려줘."
+    },
+    {
+      "Name": "리오",
+      "Text": "잠깐 기다려!!!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "리오?"
+    },
+    {
+      "Name": "리오",
+      "Text": "뭔가 이상해…… 지금 우리는 분명 방주를 장악하고 있을 텐데……."
+    },
+    {
+      "Name": "리오",
+      "Text": "히마리!! 지금 우트나피쉬팀의 중추 시스템을 확인해 줘! "
+    },
+    {
+      "Name": "히마리",
+      "Text": "시스템 중추를요……?"
+    },
+    {
+      "Name": "리오",
+      "Text": "……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "어라……. 뭐, 뭔가……."
+    },
+    {
+      "Name": "리오",
+      "Text": "……해킹당했어."
+    },
+    {
+      "Name": "리오",
+      "Text": "이 데이터가 지금 이런 값이면 안 돼……. 대체 어느 틈에……."
+    },
+    {
+      "Name": "리오",
+      "Text": "<우트나피쉬팀의 배>는 지금 해킹당한 상태야……!!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "지금 상황은…… 이건……?!"
+    },
+    {
+      "Name": "코타마",
+      "Text": "뭐, 뭔가 이상합니다……!! 지, 지금 <자폭 시퀀스>가 가동이라고……?!"
+    },
+    {
+      "Name": "마키",
+      "Text": "뭐, 뭐야?! 설마 누른 거야? 아직 탈출 준비가 안 끝났는데?!"
+    },
+    {
+      "Name": "하레",
+      "Text": "아, 아냐! 이건……. "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "<자폭 시퀀스> 가동. 시행합니다."
+    },
+    {
+      "Name": "전원",
+      "Text": "-----??!!!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "응? <자폭 시퀀스> 가동……?"
+    },
+    {
+      "Name": "아코",
+      "Text": "네? 지금 무슨……."
+    },
+    {
+      "Name": "하나코",
+      "Text": "어…… 이건……."
+    },
+    {
+      "Name": "카요코",
+      "Text": "다들 피해!!"
+    },
+    {
+      "Name": "치히로",
+      "Text": "……."
+    },
+    {
+      "Name": "마키",
+      "Text": "……. 뭐, 뭐가……."
+    },
+    {
+      "Name": "하레",
+      "Text": "무, 무슨 일이……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "이건…… <우트나피쉬팀의 배>가…… 자폭한 건가요? 어, 어째서?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "무, 뭐가 어떻게 된 거야……?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "콜록, 콜록…… 괘, 괜찮으세요? 다들?"
+    },
+    {
+      "Name": "모모카",
+      "Text": "무, 무슨 일이야? 무슨 일이 벌어지고 있는 거야?!"
+    },
+    {
+      "Name": "린",
+      "Text": "큭……!!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "다행히 폭발의 규모가 크진 않지만……."
+    },
+    {
+      "Name": "유우카",
+      "Text": "……이 상태는, 괜찮은 거……야?"
+    },
+    {
+      "Name": "유우카",
+      "Text": "히마리 선배. 뭐야, 지금 무슨 일인지 알 수 있어?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……당했어요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "뭐? 무슨 소리야? 뭘 당해?"
+    },
+    {
+      "Name": "히마리",
+      "Text": "……. 우리가 아트라하시스의 방주를 점령하고 있는 사이……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "적은…… 아무도 모르게…… 백도어를 통해 <우트나피쉬팀>을 역으로 장악하고 있었어요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "……뭐?!"
+    },
+    {
+      "Name": "히마리",
+      "Text": "현재…… 우트나피쉬팀의 배의 소유권이…… 적에게 넘어가 있어요."
+    },
+    {
+      "Name": "유우카",
+      "Text": "어, 어느 틈에……?! 이런 게 가능하게 하려면 적이 내부에서 물리적인 접촉을 해야 하잖아!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "우리는 내부를 내어준 적이…… 아!"
+    },
+    {
+      "Name": "유우카",
+      "Text": "서, 설마 그때가……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "<방주>의 자폭은커녕, <방주>의 다차원연산을 우트나피쉬팀이 도와주고 있는 꼴이 되어버렸어요……."
+    },
+    {
+      "Name": "히마리",
+      "Text": "이대로라면…… <거짓된 성소>가……."
+    },
+    {
+      "Name": "린",
+      "Text": "이건……."
+    },
+    {
+      "Name": "모모카",
+      "Text": "하, 하, 하늘이?!"
+    },
+    {
+      "Name": "아유무",
+      "Text": "다, 다시…… 거짓된 성소가……?!"
+    },
+    {
+      "Name": "이오리",
+      "Text": "뭐, 뭐야……."
+    },
+    {
+      "Name": "치나츠",
+      "Text": "다, 다시 하늘이……."
+    },
+    {
+      "Name": "히나",
+      "Text": "……."
+    },
+    {
+      "Name": "토키",
+      "Text": "……."
+    },
+    {
+      "Name": "토키",
+      "Text": "비상사태 확인. "
+    },
+    {
+      "Name": "니야",
+      "Text": "……. "
+    },
+    {
+      "Name": "카호",
+      "Text": "선생님……."
+    },
+    {
+      "Name": "코유키",
+      "Text": "하, 하늘이……?! 서, 선배? 어떡하죠?"
+    },
+    {
+      "Name": "노아",
+      "Text": "유우카 쨩……. 선생님……."
+    },
+    {
+      "Name": "사키",
+      "Text": "하늘이……."
+    },
+    {
+      "Name": "미유",
+      "Text": "서, 선생님께 무슨 일이 생긴 건……."
+    },
+    {
+      "Name": "모에",
+      "Text": "이런……."
+    },
+    {
+      "Name": "미야코",
+      "Text": "……."
+    },
+    {
+      "Name": "나기사",
+      "Text": "세, 세이아 씨! 미카 씨!"
+    },
+    {
+      "Name": "미카",
+      "Text": "늦었네, 나기 쨩. 세이아 쨩은 먼저 자리를 비웠어."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……네?"
+    },
+    {
+      "Name": "미카",
+      "Text": "응. 뭔가 불길한 <감>이 느껴진다면서, 혹시 모르니 대비를 하고 싶다면서. "
+    },
+    {
+      "Name": "미카",
+      "Text": "자기가 없는 동안 혹시 무슨 일이 생기면 부탁한다고 하던데."
+    },
+    {
+      "Name": "나기사",
+      "Text": "……그렇군요. 그럼 저희도 바로 준비하시죠."
+    },
+    {
+      "Name": "미카",
+      "Text": "응, 바로 움직일게."
+    },
+    {
+      "Name": "미카",
+      "Text": "선생님이 돌아왔을 때, 제대로 대응하지 못한다면 실망할 게 분명해!"
+    },
+    {
+      "Name": "미카",
+      "Text": "걱정이나 고민은 나중에 하는 거야!"
+    },
+    {
+      "Name": "히요리",
+      "Text": "하, 하늘이……?!"
+    },
+    {
+      "Name": "미사키",
+      "Text": "히요리, 그 대사는 꺼내지 마."
+    },
+    {
+      "Name": "히요리",
+      "Text": "네? 무, 무슨 대사요? 제가 무슨 대사를 꺼낸다고 그러죠? 미사키 씨? 저, 맨날 망했다고 징징거리는 그런 이미지였나요? ……사실이지만!"
+    },
+    {
+      "Name": "사오리",
+      "Text": "……움직이자."
+    },
+    {
+      "Name": "아츠코",
+      "Text": "응. 어떤 일이 있어도 노력을 멈추지 말아야 해. "
+    },
+    {
+      "Name": "히요리",
+      "Text": "네! 가요!"
+    },
+    {
+      "Name": "미사키",
+      "Text": "……그래. 우리가 할 수 있는 걸 할 수밖에 없어."
+    },
+    {
+      "Name": "하레",
+      "Text": "지금 우트나피쉬팀의 통제권은 상대에게 넘어가 있어……."
+    },
+    {
+      "Name": "코타마",
+      "Text": "해킹 위치 추적 중입니다."
+    },
+    {
+      "Name": "코타마",
+      "Text": "확인, 아트라하시스의 방주 제4구역의 중앙에 있는 장소입니다. "
+    },
+    {
+      "Name": "마키",
+      "Text": "이거……? 이게 이름이야?"
+    },
+    {
+      "Name": "치히로",
+      "Text": "다차원해석엔진관제실, <나람신의 왕좌>……."
+    },
+    {
+      "Name": "하레",
+      "Text": "여기서 우트나피쉬팀을 해킹하고 있는 거야!! 막아야 해!"
+    },
+    {
+      "Name": "아야네",
+      "Text": "다들 괜찮아요?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "아아…… 괜찮아. 다치진 않았어. 하지만……."
+    },
+    {
+      "Name": "세리카",
+      "Text": "지금 이거…… 그거 맞지?"
+    },
+    {
+      "Name": "아야네",
+      "Text": "……."
+    },
+    {
+      "Name": "호시노",
+      "Text": "설마…… 그 시로코가 몇 번이고 방해를 하면서 우리를 가로막은 것은 사실……."
+    },
+    {
+      "Name": "노노미",
+      "Text": "……단지 시간을 끌고 있었을 뿐이었던 건가요?"
+    },
+    {
+      "Name": "세리카",
+      "Text": "이, 이렇게 되면……."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……. 작전은 실패……. 지금까지 해온 모든 노력이……. 헛되게……."
+    },
+    {
+      "Name": "시로코",
+      "Text": "아니, 아직 아니야."
+    },
+    {
+      "Name": "아야네",
+      "Text": "시, 시로코 선배?"
+    },
+    {
+      "Text": "[ns] \"아직이야. 아직 포기하기엔 일러.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "서, 선생님까지? 지, 지금 어디에 계세요?!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 선생님과 함께 지금 제4구역 중앙에 있는, 우트나피쉬팀을 해킹한 장소로 가고 있어."
+    },
+    {
+      "Name": "아야네",
+      "Text": "……네?!"
+    },
+    {
+      "Text": "[s] \"나랑 시로코가 어떻게든 해킹을 막아볼 테니까, 그다음을 부탁해.\""
+    },
+    {
+      "Name": "아야네",
+      "Text": "……!!"
+    },
+    {
+      "Name": "모모카",
+      "Text": "뭐, 뭐라고?"
+    },
+    {
+      "Name": "아유무",
+      "Text": "……!!"
+    },
+    {
+      "Name": "린",
+      "Text": "……선생님."
+    },
+    {
+      "Name": "시로코",
+      "Text": "앞에 관제실이 보여."
+    },
+    {
+      "Name": "시로코",
+      "Text": "바로 돌입해서 적을 제압할게. "
+    },
+    {
+      "Text": "[s] \"……가자!\""
+    },
+    {
+      "Text": "[ns] (여기는…….)"
+    },
+    {
+      "Name": "시로코",
+      "Text": "적 발견!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "나를 납치했던 바로 그자야!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "멈춰-!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "움직이면 발포하겠어!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "허튼 수작할 생각은 하지 마. 상황은 모두 끝났어."
+    },
+    {
+      "Name": "시로코",
+      "Text": "응. 여기엔 <샬레>의 선생님이 함께 있어. 그러니까 상황은 종료야. "
+    },
+    {
+      "Name": "시로코",
+      "Text": "그러니 포기하고…… 지금 당장……."
+    },
+    {
+      "Name": "프레나파테스",
+      "Text": "\"………….\""
+    },
+    {
+      "Name": "시로코",
+      "Text": "우, 움직이지 마!! 손을 보이게 머리 위로 올려!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "아니면 쏘겠어."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……멈춰!"
+    },
+    {
+      "Name": "프레나파테스",
+      "Text": "\"……우리는 원한다. 예리코의 통곡을.\"\n\"……우리는 기억한다. 일곱 개의 화두話頭를.\""
+    },
+    {
+      "Name": "시로코",
+      "Text": "크읏-------------?!!"
+    },
+    {
+      "Name": "시로코",
+      "Text": "공격이…… 전부 빗나갔어……?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "어째서……? 이 거리인데……."
+    },
+    {
+      "Text": "[ns1] (방금 그건…….)"
+    },
+    {
+      "Text": "[ns2] (잘못 들은 게 아니라면 그건 분명……….)"
+    },
+    {
+      "Name": "시로코",
+      "Text": "서, 선생님……!?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "서, 선생님……!?"
+    },
+    {
+      "Name": "시로코",
+      "Text": "선생님……. 뭐, 뭔가…… 이상해……."
+    },
+    {
+      "Text": "[s] \"시로코…… 물러서는 게 좋을 것 같아.\""
+    },
+    {
+      "Name": "시로코",
+      "Text": "으, 으응?"
+    },
+    {
+      "Name": "???",
+      "Text": "[USERNAME] 선생님. 생체인증 확인. 완료."
+    },
+    {
+      "Text": "[s3] \"내 이름…………?\""
+    },
+    {
+      "Text": "[s4] \"나를 불렀어………?\""
+    },
+    {
+      "Name": "???",
+      "Text": "<싯딤의 상자>에 상주하는 시스템 관리자이자 메인 OS,"
+    },
+    {
+      "Name": "???",
+      "Text": "A.R.O.N.A, 명령 대기 중."
+    },
+    {
+      "Text": "[s5] \"……………………???\""
+    },
+    {
+      "Text": "[s6] \"……………아……로나?\""
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "아트라하시스의 방주 복구 시스템 기동 시작. "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "<싯딤의 상자>의 권한으로, 현재까지 파괴된 아트라하시스의 방주를 다중차원의 동일 존재와 교체해서 수복시킵니다. "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "약 30분 뒤에 완전 수복 예상."
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "방주에 침입한 <우트나피쉬팀의 배>는 800초 후에 최종 자폭 시퀀스 발동."
+    },
+    {
+      "Name": "???",
+      "Text": "……그래서 내가 말했잖아."
+    },
+    {
+      "Name": "시로코",
+      "Text": "결정된 미래를 바꿀 수는 없다고."
+    },
+    {
+      "Name": "시로코",
+      "Text": "키보토스는 예정대로 멸망하게 될 거야."
+    },
+    {
+      "Name": "시로코",
+      "Text": "……나의 [USERNAME] 선생님."
+    },
+    {
+      "Text": "최종편;To be Continued in Chapter 4"
+    }
+  ],
+  "DialogEN": [
+    {
+      "Text": "Episode 16; Counterattack"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "...Hurry. Hurry up!"
+    },
+    {
+      "Name": "Ako",
+      "Text": "Run! As fast as you can!"
+    },
+    {
+      "Name": "Hanako",
+      "Text": "..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "..."
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Everyone, hurry..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "I've configured the self-destruct sequence. All we have to do is run it."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Simulation results are looking good. With this, the Ark of Atrahasis should be destroyed."
+    },
+    {
+      "Name": "Maki",
+      "Text": "It's time to go ka-boom! Fragments will fall down on Kivotos like fireworks!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "All preparations are complete. Everyone, let me know when you're ready to escape."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Wait just a minute!!!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Rio?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "Something's off... We should be in control of the Ark, but..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "Himari! Check the core system of Utnapishtim. Now!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "The core system...?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "Oh... S-Something's..."
+    },
+    {
+      "Name": "Rio",
+      "Text": "...We've been hacked."
+    },
+    {
+      "Name": "Rio",
+      "Text": "The data is entirely wrong... When did this happen?"
+    },
+    {
+      "Name": "Rio",
+      "Text": "The Utnapishtim's Ship has been hacked!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "That would mean...?!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "S-Something's wrong...! Th-The self-destruct sequence is active now!"
+    },
+    {
+      "Name": "Maki",
+      "Text": "Wh-Wh-What?! Are you serious? They're not ready! Why would you press it!"
+    },
+    {
+      "Name": "Hare",
+      "Text": "Sh-She didn't press it... This... "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "Self-destruct sequence activated. Execute."
+    },
+    {
+      "Name": "Everyone",
+      "Text": "?!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Huh? Self-destruct sequence activated?"
+    },
+    {
+      "Name": "Ako",
+      "Text": "That can't possibly..."
+    },
+    {
+      "Name": "Hanako",
+      "Text": "I'm afraid... It is!"
+    },
+    {
+      "Name": "Kayoko",
+      "Text": "Everyone! Take cover!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "..."
+    },
+    {
+      "Name": "Maki",
+      "Text": "What in the..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "What in the world happened?"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Did...the Utnapishtim's Ship...self-destruct? How? Why?"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "We didn't do anything on our end... What could be..."
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "*cough cough* Is everyone okay?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Why did the ship explode?! What the hell?"
+    },
+    {
+      "Name": "Rin",
+      "Text": "Ugh...!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Fortunately, the explosion was relatively small..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Is anyone injured? Are we okay?"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Himari, what happened? Do you know?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "We were caught."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "How? When?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "While we were occupying the Ark of Atrahasis..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "The enemies... They launched a covert operation and occupied Utnapishtim through a back door."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "Huh?!"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Currently...the enemies have taken over Utnapishtim's Ship..."
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "When did they have the chance? They would have had to make physical contact from the inside!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "When did the enemy get inside...? Oh!"
+    },
+    {
+      "Name": "Yuuka",
+      "Text": "C-Could it have been when...?"
+    },
+    {
+      "Name": "Himari",
+      "Text": "Far from self-destructing the Ark, Utnapishtim ended up helping it perform multidimensional calculations..."
+    },
+    {
+      "Name": "Himari",
+      "Text": "At this rate...the False Sanctums will..."
+    },
+    {
+      "Name": "Rin",
+      "Text": "This...?"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Th-The sky's turning red?!"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "The False Sanctums...again?!"
+    },
+    {
+      "Name": "Iori",
+      "Text": "What's happening?"
+    },
+    {
+      "Name": "Chinatsu",
+      "Text": "The sky is turning red again..."
+    },
+    {
+      "Name": "Hina",
+      "Text": "..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "..."
+    },
+    {
+      "Name": "Toki",
+      "Text": "Emergency confirmed."
+    },
+    {
+      "Name": "Niya",
+      "Text": "..."
+    },
+    {
+      "Name": "Kaho",
+      "Text": "Sensei..."
+    },
+    {
+      "Name": "Koyuki",
+      "Text": "Look at the sky! Wh-What do we do?"
+    },
+    {
+      "Name": "Noa",
+      "Text": "That would mean... Sensei... Yuuka..."
+    },
+    {
+      "Name": "Saki",
+      "Text": "It's red again..."
+    },
+    {
+      "Name": "Miyu",
+      "Text": "D-Did something happen to Sensei...?"
+    },
+    {
+      "Name": "Moe",
+      "Text": "It...It doesn't look good..."
+    },
+    {
+      "Name": "Miyako",
+      "Text": "..."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "S-Seia! Mika!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "You're late, Nagi. Seia already left."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "...What?"
+    },
+    {
+      "Name": "Mika",
+      "Text": "She said she had an ominous feeling and wanted to do what she could to prepare, just in case. "
+    },
+    {
+      "Name": "Mika",
+      "Text": "She told us to handle anything that came up while she was gone. I'd say this falls under that category."
+    },
+    {
+      "Name": "Nagisa",
+      "Text": "I see. Then we need to mobilize now."
+    },
+    {
+      "Name": "Mika",
+      "Text": "I'll get started right now."
+    },
+    {
+      "Name": "Mika",
+      "Text": "After all, we can't let Sensei down! They'd be disappointed if we don't hold down the fort down here!"
+    },
+    {
+      "Name": "Mika",
+      "Text": "We can save our worries for after the crisis!"
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Oh, oh no! Oh, dear! Th-The sky!"
+    },
+    {
+      "Name": "Misaki",
+      "Text": "Hiyori, please don't start."
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "What? What did I say, Misaki? Do I give you such a negative impression? Am I bringing down the mood? I'm making things worse by panicking, aren't I? I could see how I come off that way, but...!"
+    },
+    {
+      "Name": "Saori",
+      "Text": "...We need to move."
+    },
+    {
+      "Name": "Atsuko",
+      "Text": "Agreed. No matter the situation, we won't stop trying. "
+    },
+    {
+      "Name": "Hiyori",
+      "Text": "Yes! Let's go!"
+    },
+    {
+      "Name": "Misaki",
+      "Text": "...Right. We have to do what we can."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Our opponent's taken over Utnapishtim..."
+    },
+    {
+      "Name": "Kotama",
+      "Text": "I'm tracking where the signal is coming from right now!"
+    },
+    {
+      "Name": "Kotama",
+      "Text": "Confirmed. It's in the center of zone 4 of the Ark of Atrahasis."
+    },
+    {
+      "Name": "Maki",
+      "Text": "This name is way too long!"
+    },
+    {
+      "Name": "Chihiro",
+      "Text": "Multidimensional Analysis Engine Control Room, Throne of Naram-Sin..."
+    },
+    {
+      "Name": "Hare",
+      "Text": "Utnapishtim is being hacked from there! We have to stop it!"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Is everyone okay?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Ugh... I'm okay. I'm not hurt, but..."
+    },
+    {
+      "Name": "Serika",
+      "Text": "Are those...what I think they are?"
+    },
+    {
+      "Name": "Ayane",
+      "Text": "..."
+    },
+    {
+      "Name": "Hoshino",
+      "Text": "I see... Shiroko was intercepting us so she could..."
+    },
+    {
+      "Name": "Nonomi",
+      "Text": "...Run out the clock? She was just stalling us?"
+    },
+    {
+      "Name": "Serika",
+      "Text": "Th-This means..."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "The operation will fail... Everything we tried to do... Everyone's effort..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "No. It's not over yet."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "Sh-Shiroko?"
+    },
+    {
+      "Text": "[ns] \"Dust yourselves off. It's too early to give up.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "E-Even Sensei? Wh-Where are you?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We're okay. Sensei and I are going to the location where Utnapishtim is being hacked from, the middle of zone 4."
+    },
+    {
+      "Name": "Ayane",
+      "Text": "What?!"
+    },
+    {
+      "Text": "[s] \"Shiroko and I will stop the hacking one way or another. You all take care of the rest.\""
+    },
+    {
+      "Name": "Ayane",
+      "Text": "...!"
+    },
+    {
+      "Name": "Momoka",
+      "Text": "Are you serious?"
+    },
+    {
+      "Name": "Ayumu",
+      "Text": "...!"
+    },
+    {
+      "Name": "Rin",
+      "Text": "...Sensei."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I see the control room ahead."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I'll rush in and subdue the enemy."
+    },
+    {
+      "Text": "[s] \"...I'm right behind you!\""
+    },
+    {
+      "Text": "[ns] \"(This place is...)\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Enemy located!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "It's the one who kidnapped me!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Stop!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Don't move a muscle or I'll shoot!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "It's over for you! Don't even think about trying anything."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "We have Schale's Sensei here. It's done. "
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "So just give up now!"
+    },
+    {
+      "Name": "Phrenapates",
+      "Text": "..."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "D-Don't move! Put your hands up where I can see them!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "I'll shoot right now!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...Stop!"
+    },
+    {
+      "Name": "Phrenapates",
+      "Text": "\"...We thirst for the seven wailings. We bear the koan of Jericho.\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Ugh...?!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "All my attacks...missed?"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "At this distance...? How?"
+    },
+    {
+      "Text": "[ns1] \"(That was....)\""
+    },
+    {
+      "Text": "[ns2] \"(If I heard correctly, it must be...)\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "S-Sensei...!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "S-Sensei...!"
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Sensei... S-Something's off..."
+    },
+    {
+      "Text": "[s] \"Shiroko... Get back. Now!\""
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "H-Huh?"
+    },
+    {
+      "Name": "???",
+      "Text": "[USERNAME] Sensei, bio-verification confirmed. Complete."
+    },
+    {
+      "Text": "[s3] \"My name...?\""
+    },
+    {
+      "Text": "[s4] \"It called me...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "The system manager and main OS in the Shittim Chest..."
+    },
+    {
+      "Name": "???",
+      "Text": "A.R.O.N.A., waiting for your command."
+    },
+    {
+      "Text": "[s5] \"...???\""
+    },
+    {
+      "Text": "[s6] \"...Arona?\""
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "Ark of Atrahasis restoration system activated."
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "With the authority of the Shittim Chest, the destroyed Ark of Atrahasis will be restored by replacing it with an identical copy from another dimension."
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "Full recovery expected in approximately thirty minutes."
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "Utnapishtim's Ship that broke into the Ark will trigger its final self-destruct sequence after eight hundred seconds."
+    },
+    {
+      "Name": "???",
+      "Text": "I've said it again and again."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "The future is predetermined. You cannot fight fate."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "Kivotos will be destroyed as intended."
+    },
+    {
+      "Name": "Shiroko",
+      "Text": "...My [USERNAME] Sensei."
+    },
+    {
+      "Text": "Final Episode; To Be Continued in Chapter 4"
+    }
+  ],
+  "DialogTH": [
+    {
+      "Text": "ตอนที่ 16;จู่โจมกลับ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "... เร็วเข้า รีบๆ มากันได้แล้ว"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "รีบหน่อยค่ะ!!"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "......"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ทุกคน รีบๆ เร็วเข้า......"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "สร้าง <วงจรระเบิดตัวเอง> สำเร็จแล้ว จากนี้ก็แค่กดปุ่มใช้งานก็พอ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ค่าผลลัพธ์จากการจำลองก็ไม่มีปัญหาค่ะ สิ่งนี้จะทำลาย <เรืออะทราฮาซิส> ได้อย่างแน่นอนค่ะ"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "นี่จะเป็นการระเบิดครั้งใหญ่เลยละ เศษชิ้นส่วนของเรืออาจจะปลิวไปทั่วคิโวทอสเลยก็ได้"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "...... ทางนี้เตรียมทุกอย่างเสร็จหมดแล้ว ทุกคน ถ้าเตรียมหนีเสร็จแล้วก็บอกด้วยนะ"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "เดี๋ยวก่อน!!!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ริโอะ?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "มีบางอย่างแปลกๆ...... ตอนนี้พวกเราน่าจะกำลังยึดครองเรืออยู่แท้ๆ......"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ฮิมาริ!! ช่วยเช็กระบบส่วนกลางของอุตนาพิชทิมให้หน่อย ตอนนี้เลย! "
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ระบบส่วนกลางเหรอคะ......?"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "เอ๋...... มะ... เหมือนจะ......"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "...... โดนแฮ็กเข้าแล้ว"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ข้อมูลนี้ในตอนนี้มันจะเป็นแบบนั้นไม่ได้...... มีใครแฮ็กเข้ามาตั้งแต่เมื่อไรกัน......"
+    },
+    {
+      "Name": "ริโอะ",
+      "Text": "ตอนนี้ <เรือรบอุตนาพิชทิม> ของเราถูกแฮ็ก......!!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "สถานการณ์ตอนนี้.... มัน......?!"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "มะ... มีบางอย่างแปลกๆ ค่ะ......!! ตะ... ตอนนี้ <วงจรระเบิดตัวเอง> ทำงานขึ้นมาเอง...?!"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "อะ... อะไรนะ?! ไปกดโดนเข้าหรือเปล่า? เรายังเตรียมหลบหนีกันไม่เสร็จเลย?!"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "มะ... ไม่ได้กดนะ! นี่มัน... "
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "<วงจรระเบิดตัวเอง> ทำงาน"
+    },
+    {
+      "Name": "ทุกคน",
+      "Text": "------??!!!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "หืม? <วงจรระเบิดตัวเอง> ทำงาน......?"
+    },
+    {
+      "Name": "อาโกะ",
+      "Text": "คะ? นี่มันอะไรกัน......"
+    },
+    {
+      "Name": "ฮานาโกะ",
+      "Text": "บะ... แบบนี้ก็......"
+    },
+    {
+      "Name": "คาโยโกะ",
+      "Text": "ทุกคน หาที่หลบเร็วเข้า!!"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "......"
+    },
+    {
+      "Name": "มากิ",
+      "Text": "...... อะ... อะไรกัน..."
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "กะ... เกิดอะไรขึ้น......"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "นี่...... เรือรบอุตนาพิชทิม...... ระเบิดตัวเองแล้วเหรอคะ? ทะ... ทำไมกัน?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "มะ... มันเกิดเรื่องอะไรขึ้นกันแน่...?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "แค่กๆ แค่กๆ...... เป็นยังไงกันบ้างคะทุกคน?"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "อะ... อะไรกัน? นี่มันเรื่องอะไรกันเนี่ย?!"
+    },
+    {
+      "Name": "ริน",
+      "Text": "อึก......!!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "โชคดีที่ระเบิดไม่ได้รุนแรงมาก......"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "...... แต่ในสภาพนี้ เราจะไม่เป็นไรเหรอ.....?"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "รุ่นพี่ฮิมาริ พอจะรู้บ้างไหมว่านี่มันเกิดอะไรขึ้นน่ะ?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... เราโดนเข้าแล้วละค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ว่าไงนะ? หมายความว่ายังไง? โดนอะไร?"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "...... ในระหว่างที่เรากำลังยึดเรืออะทราฮาซิส......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ศัตรูก็...... เข้ามาทางประตูหลังโดยไม่มีใครรู้...... แล้วก็ยึดเรือรบอุตนาพิชทิมของเราค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "...... ว่าไงนะ?!"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ตอนนี้เรือรบอุตนาพิชทิม...... กำลังตกเป็นของศัตรูค่ะ"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "อะ... แอบมาตั้งแต่เมื่อไรกันน่ะ......?! ถ้ามีแผนยึดกลับแบบนี้ พวกศัตรูเองก็ต้องมีการติดต่อกันทาง\nกายภาพกับภายในสิ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "เราไม่เคยเปิดช่องว่างให้...... อ๊ะ!"
+    },
+    {
+      "Name": "ยูกะ",
+      "Text": "ระ... หรือว่าจะเป็นตอนนั้น......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "อุตนาพิชทิมไม่ได้ช่วยในการระเบิดของเรือ แต่ช่วยในการคำนวณพหุมิติให้กับเรือนี้ต่างหากค่ะ......"
+    },
+    {
+      "Name": "ฮิมาริ",
+      "Text": "ขืนเป็นแบบนี้ละก็...... <หอคอยแห่งคำลวง> ก็คง......"
+    },
+    {
+      "Name": "ริน",
+      "Text": "นี่มัน..."
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "ทะ... ทะ... ท้องฟ้ามัน?!"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "หะ... หอคอยแห่งคำลวง...... จะเกิดขึ้นอีกเหรอ......?!"
+    },
+    {
+      "Name": "อิโอริ",
+      "Text": "อะ... อะไรกันน่ะ......"
+    },
+    {
+      "Name": "ชินัตสึ",
+      "Text": "ทะ... ทำไมท้องฟ้าถึงได้..."
+    },
+    {
+      "Name": "ฮินะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "......"
+    },
+    {
+      "Name": "โทคิ",
+      "Text": "สถานการณ์ฉุกเฉิน "
+    },
+    {
+      "Name": "นิยะ",
+      "Text": "...... "
+    },
+    {
+      "Name": "คาโฮะ",
+      "Text": "คุณครู......"
+    },
+    {
+      "Name": "โคยูกิ",
+      "Text": "ทะ... ท้องฟ้ามัน......?!  ระ... รุ่นพี่? ทำยังไงกันดีคะ?"
+    },
+    {
+      "Name": "โนอา",
+      "Text": "ยูกะจัง...... คุณครู......"
+    },
+    {
+      "Name": "ซากิ",
+      "Text": "ท้องฟ้ามัน..."
+    },
+    {
+      "Name": "มิยุ",
+      "Text": "มะ... ไม่ได้เกิดเรื่องอะไรขึ้นกับคุณครูใช่ไหม......"
+    },
+    {
+      "Name": "โมเอะ",
+      "Text": "ไม่นะ..."
+    },
+    {
+      "Name": "มิยาโกะ",
+      "Text": "......"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คะ... คุณเซอา! คุณมิกะ!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "ไม่ทันแล้วละ นางิจัง เซอาจังออกไปก่อนแล้ว"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "คะ...?"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อื้ม เซอาจังบอกว่า <รู้สึก> ไม่ค่อยดี ก็เลยอยากจะเตรียมพร้อมเผื่อเอาไว้น่ะ "
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "แล้วก็บอกว่าหากมีเรื่องอะไรเกิดขึ้นในระหว่างที่ตัวเองไม่อยู่ ก็ฝากดูแลให้ด้วย"
+    },
+    {
+      "Name": "นางิสะ",
+      "Text": "...... งั้นเหรอคะ ถ้างั้นพวกเราก็เตรียมตัวกันเถอะค่ะ"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "อื้ม ฉันจะเคลื่อนไหวเดี๋ยวนี้เลย"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เราต้องรับมือให้ดีๆ ตอนที่คุณครูกลับมา! ทุกคนจะได้ไม่ผิดหวัง!"
+    },
+    {
+      "Name": "มิกะ",
+      "Text": "เก็บความเป็นห่วงและเรื่องที่กังวลเอาไว้ก่อนนะ!"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ทะ... ท้องฟ้ามัน......?!"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "ฮิโยริ หยุดพูดเรื่องแบบนั้นได้แล้ว"
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "คะ? บะ... แบบไหนคะ? ฉันพูดเรื่องแบบไหนเหรอคะถึงได้มาว่ากัน? สำหรับคุณมิซากิแล้ว ฉันดูเป็น\nเหมือนคนที่ชอบบ่นว่า ซวยแล้ว เกิดเรื่องใหญ่แล้ว อย่างนั้นเหรอคะ? ...... ถึงมันจะจริงก็เถอะ!"
+    },
+    {
+      "Name": "ซาโอริ",
+      "Text": "...... ไปกันเถอะ"
+    },
+    {
+      "Name": "อาสึโกะ",
+      "Text": "อื้ม เราจะล้มเลิกความพยายามไม่ได้ ไม่ว่าจะเกิดอะไรขึ้นก็ตาม "
+    },
+    {
+      "Name": "ฮิโยริ",
+      "Text": "ค่ะ! ไปค่ะ!"
+    },
+    {
+      "Name": "มิซากิ",
+      "Text": "...... อืม เราต้องทำในสิ่งที่เราทำได้"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "ตอนนี้เรือรบอุตนาพิชทิมกำลังตกไปอยู่ในมือของฝ่ายตรงข้ามแล้ว......"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ฉันกำลังติดตามตำแหน่งที่มีการแฮ็กค่ะ"
+    },
+    {
+      "Name": "โคทามะ",
+      "Text": "ตรวจพบแล้วค่ะ การแฮ็กเกิดขึ้นในส่วนกลางของโซนที่ 4 ในเรืออะทราฮาซิสค่ะ "
+    },
+    {
+      "Name": "มากิ",
+      "Text": "นี่มัน......? ชื่อเหรอ?"
+    },
+    {
+      "Name": "จิฮิโระ",
+      "Text": "ห้องควบคุมเครื่องยนต์การวิเคราะห์พหุมิติ <บัลลังก์แห่งนารัมชิน>......"
+    },
+    {
+      "Name": "ฮาเระ",
+      "Text": "เรือรบอุตนาพิชทิมกำลังถูกแฮ็กจากที่นี่!! ต้องสกัดไว้ให้ได้!"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ทุกคนเป็นยังไงบ้างคะ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "อ่า...... ไม่เป็นไร ไม่ได้บาดเจ็บอะไรหรอก แต่ว่า..."
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ตอนนี้...... มันเป็นอย่างนั้นใช่ไหม?"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......"
+    },
+    {
+      "Name": "โฮชิโนะ",
+      "Text": "หรือว่า...... ชิโรโกะคนนั้นมาขัดจังหวะเราซ้ำแล้วซ้ำเล่า......"
+    },
+    {
+      "Name": "โนโนมิ",
+      "Text": "...... แค่ถ่วงเวลาเท่านั้นเหรอคะ?"
+    },
+    {
+      "Name": "เซริกะ",
+      "Text": "ถะ... ถ้าเป็นอย่างนี้ละก็......"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "...... ปฏิบัติการก็ล้มเหลว...... ทุกอย่างที่เราพยายามทำกันมาก็...... ไร้ความหมาย......"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ไม่หรอก มันยังไม่จบแค่นี้"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "ระ... รุ่นพี่ชิโรโกะ?"
+    },
+    {
+      "Text": "[ns] \"ยังไม่จบแค่นี้หรอก มันยังเร็วเกินไปที่จะยอมแพ้\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ... คุณครูก็อยู่ด้วยเหรอ? อยู่ที่ไหนกันเหรอคะ?!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ตอนนี้ฉันกับคุณครูกำลังไปที่โซน 4 ที่มีการแฮ็กเรือรบอุตนาพิชทิม"
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "คะ...?!"
+    },
+    {
+      "Text": "[s] \"ครูกับชิโรโกะจะขวางการแฮ็กเอาไว้ให้ ฝากทุกคนทำตามขั้นต่อไปด้วย\""
+    },
+    {
+      "Name": "อายาเนะ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "โมโมกะ",
+      "Text": "วะ... ว่าไงนะ?"
+    },
+    {
+      "Name": "อายูมุ",
+      "Text": "......!!"
+    },
+    {
+      "Name": "ริน",
+      "Text": "...... คุณครู"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เห็นห้องควบคุมข้างหน้าแล้ว"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ฉันจะเข้าไปจัดการศัตรูเดี๋ยวนี้เลย "
+    },
+    {
+      "Text": "[s] \"......ไปกันเลย!\""
+    },
+    {
+      "Text": "[ns] (ที่นี่มัน ......)"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เจอศัตรูแล้ว!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คนนั้นแหละที่จับตัวฉันมา!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "หยุดนะ!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ถ้าขยับตัวละก็ ฉันยิงแน่!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อย่าคิดทำอะไรตุกติกด้วย สถานการณ์ทุกอย่างมันจบแล้ว"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อื้ม ฉันอยู่ที่นี่กับครูจาก <ชาเล่ต์> เพราะฉะนั้น มันจบแล้ว "
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "เพราะงั้นก็...... ล้มเลิกซะ...... เดี๋ยวนี้เลย"
+    },
+    {
+      "Name": "เพลนาพาเทส",
+      "Text": "\"............\""
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ยะ... อย่าขยับนะ!!  ยกมือไว้บนหัวเลย!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ไม่งั้นฉันจะยิงจริงๆ ด้วย"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "...... บอกให้หยุดไง!"
+    },
+    {
+      "Name": "เพลนาพาเทส",
+      "Text": "\"......สิ่งที่พวกเราต้องการ... คือความเสียใจของเจริโค\"\n\"......พวกเรายังคงจดจำกฎโบราณทั้งเจ็ดได้\""
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "อึก------------?!!"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "โจมตีพลาดเป้า...... ทั้งหมดเลย......?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ทำไมล่ะ...? ระยะแค่นี้เองนะ......"
+    },
+    {
+      "Text": "[ns1] (เมื่อกี้มัน......)"
+    },
+    {
+      "Text": "[ns2] (ถ้าได้ยินไม่ผิด มันต้องเป็น......)"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คะ... คุณครู...!?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คะ... คุณครู...!?"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คุณครู...... มีบางอย่าง...... แปลกๆ......"
+    },
+    {
+      "Text": "[s] \"ชิโรโกะ... ครูว่าถอยออกไปน่าจะดีกว่า\""
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "หะ... หืม?"
+    },
+    {
+      "Name": "???",
+      "Text": "ยืนยันตัวตนคุณครู [USERNAME] สำเร็จ"
+    },
+    {
+      "Text": "[s3] \"ชื่อของฉัน...?\""
+    },
+    {
+      "Text": "[s4] \"เรียกชื่อฉันเหรอ...?\""
+    },
+    {
+      "Name": "???",
+      "Text": "ผู้ดูแลระบบและเป็นระบบปฏิบัติการหลักที่อยู่ใน <กล่องแห่งซิสดิม>"
+    },
+    {
+      "Name": "???",
+      "Text": "A.R.O.N.A กำลังรอคำสั่ง"
+    },
+    {
+      "Text": "[s5] \"........................???\""
+    },
+    {
+      "Text": "[s6] \"............... อะ...... โรน่า?\""
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "เริ่มระบบฟื้นฟูเรืออะทราฮาซิส "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "แทนที่และฟื้นฟูเรืออะทราฮาซิสที่ถูกทำลายด้วยสิ่งมีชีวิตเดียวกันในหลายมิติด้วยอำนาจของ <กล่องแห่งซิสดิม> "
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "คาดว่าการฟื้นฟูจะเสร็จสิ้นในอีก 30 นาที"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "<เรือรบอุตนาพิชทิม> ที่บุกเข้ามาในเรือลำนี้จะระเบิดตัวเองเป็นครั้งสุดท้ายในอีก 800 วินาที"
+    },
+    {
+      "Name": "???",
+      "Text": "......... ฉันบอกแล้วไม่ใช่เหรอ"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "ว่าเราไม่อาจเปลี่ยนแปลงอนาคตที่ถูกกำหนดไว้แล้วได้"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "คิโวทอสจะล่มสลายตามที่ถูกลิขิตไว้"
+    },
+    {
+      "Name": "ชิโรโกะ",
+      "Text": "....... คุณครู [USERNAME] ของฉัน"
+    },
+    {
+      "Text": "องก์สุดท้าย;ติดตามต่อในบทที่ 4"
+    }
+  ],
+  "DialogTW": [
+    {
+      "Text": "第16話;逆襲"
+    },
+    {
+      "Name": "優香",
+      "Text": "快點……快回來呀。"
+    },
+    {
+      "Name": "亞子",
+      "Text": "請加快動作！"
+    },
+    {
+      "Name": "花子",
+      "Text": "……"
+    },
+    {
+      "Name": "琳",
+      "Text": "……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "大家，快點……"
+    },
+    {
+      "Name": "步",
+      "Text": "……"
+    },
+    {
+      "Name": "晴",
+      "Text": "「自爆程式」建構完成。只要按下執行按鈕就行了。"
+    },
+    {
+      "Name": "小玉",
+      "Text": "模擬結果也沒問題。\n這樣就能確實摧毀「阿特拉哈西斯的方舟」。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "會發生很嚇人的爆炸對吧？\n方舟的碎片也許會飛到奇普托斯的四處也說不定。"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……這邊也準備完畢了。\n做好逃脫準備的話就告訴我一聲。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "慢著！！"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……莉央？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "情況有點奇怪──我們現在應該已經掌控住方舟了才對……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……陽葵！\n現在立刻確認「生命守護者」的中樞系統。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……中樞系統？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……這，這是？"
+    },
+    {
+      "Name": "莉央",
+      "Text": "……被[ruby= ・     ・ ]駭入[/ruby]了。"
+    },
+    {
+      "Name": "莉央",
+      "Text": "數值不應該是這樣……究竟是誰……在什麼時候……"
+    },
+    {
+      "Name": "莉央",
+      "Text": "「生命守護者本艦」──被駭入了！！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "這，這是……什麼情況……！？"
+    },
+    {
+      "Name": "小玉",
+      "Text": "有點奇怪……！\n為什麼現在「自爆程式」已經啟動了……！？"
+    },
+    {
+      "Name": "真紀",
+      "Text": "怎，怎麼會……？已經按下按鈕了嗎？\n逃脫準備不是還沒完成嗎！？"
+    },
+    {
+      "Name": "晴",
+      "Text": "不，這是……！"
+    },
+    {
+      "Name": "SYSTEM",
+      "Text": "執行「自爆程式」。"
+    },
+    {
+      "Name": "全員",
+      "Text": "────！？！？"
+    },
+    {
+      "Name": "優香",
+      "Text": "咦……？「自爆程式」啟動了？"
+    },
+    {
+      "Name": "亞子",
+      "Text": "什麼……？你剛才說什麼……？"
+    },
+    {
+      "Name": "花子",
+      "Text": "這……究竟是？"
+    },
+    {
+      "Name": "佳世子",
+      "Text": "大家，快趴下！！"
+    },
+    {
+      "Name": "千尋",
+      "Text": "……"
+    },
+    {
+      "Name": "真紀",
+      "Text": "究竟為什麼會……"
+    },
+    {
+      "Name": "晴",
+      "Text": "發生什麼事了……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "這是……船，自爆了……？\n為，為什麼……？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "究竟發生了什麼……現在是什麼情況……"
+    },
+    {
+      "Name": "步",
+      "Text": "咳咳，咳咳……大家都還好嗎……？"
+    },
+    {
+      "Name": "桃香",
+      "Text": "怎麼會這樣！？"
+    },
+    {
+      "Name": "琳",
+      "Text": "唔……！！"
+    },
+    {
+      "Name": "優香",
+      "Text": "幸好爆炸的威力並不是很大……"
+    },
+    {
+      "Name": "優香",
+      "Text": "這個狀況……沒問題，嗎……？"
+    },
+    {
+      "Name": "優香",
+      "Text": "陽葵部長。可以請你說明現在的情況嗎？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……中計了。"
+    },
+    {
+      "Name": "優香",
+      "Text": "咦，中計了……中了什麼計？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……在我們占領「阿特拉哈西斯的方舟」的這段期間，敵人……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "──也在從後門掌控「生命守護者」。"
+    },
+    {
+      "Name": "優香",
+      "Text": "……什麼！？"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "……現在「生命守護者本艦」的所有權已經落入敵人手中。"
+    },
+    {
+      "Name": "優香",
+      "Text": "是，是在什麼時候……！\n話說要辦到這種事的話，敵人就得從內部進行物理性的接觸不是嗎！？"
+    },
+    {
+      "Name": "優香",
+      "Text": "我可不記得有任何敵人進──"
+    },
+    {
+      "Name": "優香",
+      "Text": "難……難道是那個時候……"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "別說是讓方舟自爆了……\n現在連「生命守護者本艦」都在協助「阿特拉哈西斯的方舟」進行多次元詮釋。"
+    },
+    {
+      "Name": "陽葵",
+      "Text": "這樣下去的話「虛假的聖所」又會……"
+    },
+    {
+      "Name": "琳",
+      "Text": "這是……"
+    },
+    {
+      "Name": "桃香",
+      "Text": "天，天空……！？"
+    },
+    {
+      "Name": "步",
+      "Text": "虛假的聖所……又要……！？"
+    },
+    {
+      "Name": "伊織",
+      "Text": "怎，怎麼了……！？"
+    },
+    {
+      "Name": "千夏",
+      "Text": "天，天空又……"
+    },
+    {
+      "Name": "陽奈",
+      "Text": "……"
+    },
+    {
+      "Name": "季",
+      "Text": "……"
+    },
+    {
+      "Name": "季",
+      "Text": "……確認到緊急狀況。"
+    },
+    {
+      "Name": "仁耶",
+      "Text": "……"
+    },
+    {
+      "Name": "佳穗",
+      "Text": "老師……"
+    },
+    {
+      "Name": "小雪",
+      "Text": "天，天空又……！\n前，前輩，該怎麼辦！？"
+    },
+    {
+      "Name": "乃愛",
+      "Text": "優香醬……老師……"
+    },
+    {
+      "Name": "咲希",
+      "Text": "天空……"
+    },
+    {
+      "Name": "美優",
+      "Text": "老，老師是不是發生什麼事了……"
+    },
+    {
+      "Name": "萌",
+      "Text": "這是……"
+    },
+    {
+      "Name": "都子",
+      "Text": "……"
+    },
+    {
+      "Name": "渚",
+      "Text": "聖，聖亞同學，彌香同學！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "晚了一步呢，渚醬。\n聖亞醬已經先離開了。"
+    },
+    {
+      "Name": "渚",
+      "Text": "……什麼？"
+    },
+    {
+      "Name": "彌香",
+      "Text": "他說自己有不祥的「預感」，所以想要先做點準備唷。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "──還說「自己不在的時候如果發生什麼狀況就交給你們了」。"
+    },
+    {
+      "Name": "渚",
+      "Text": "這樣啊……那我們也立刻採取行動吧。"
+    },
+    {
+      "Name": "彌香",
+      "Text": "嗯。了解☆"
+    },
+    {
+      "Name": "彌香",
+      "Text": "老師回來的時候，如果我們沒有好好處理，肯定會讓他失望的對吧！"
+    },
+    {
+      "Name": "彌香",
+      "Text": "──所以，之後再擔心老師吧。"
+    },
+    {
+      "Name": "日和",
+      "Text": "天，天空──！？"
+    },
+    {
+      "Name": "美咲",
+      "Text": "日和，那種話沒必要說出來。"
+    },
+    {
+      "Name": "日和",
+      "Text": "那，那是什麼意思呢美咲同學……我給人的印象就是總是說著「人生結束了」、\n「世間充滿苦痛」之類的負面發言嗎……？嗚……雖然是事實沒錯……！"
+    },
+    {
+      "Name": "沙織",
+      "Text": "……走吧。"
+    },
+    {
+      "Name": "敦子",
+      "Text": "嗯──不管發生什麼事都不該停止努力，對吧。"
+    },
+    {
+      "Name": "日和",
+      "Text": "是……我，我們走吧！"
+    },
+    {
+      "Name": "美咲",
+      "Text": "……嗯。我們就做我們能做的事吧。"
+    },
+    {
+      "Name": "晴",
+      "Text": "現在「生命守護者」的控制權處於被對方奪走的狀態……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "正在追蹤駭入的位置……"
+    },
+    {
+      "Name": "小玉",
+      "Text": "……確認完畢。是在「阿特拉哈西斯的方舟」第4區域的中央。"
+    },
+    {
+      "Name": "真紀",
+      "Text": "……咦？這是那個地方的名字嗎？"
+    },
+    {
+      "Name": "千尋",
+      "Text": "多次元詮釋引擎管制室．「納拉姆辛的王座」──"
+    },
+    {
+      "Name": "晴",
+      "Text": "就是從那裡駭入「生命守護者」的……必須阻止才行！！"
+    },
+    {
+      "Name": "綾音",
+      "Text": "大家，沒事吧？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "嗯……沒事。沒受什麼傷……"
+    },
+    {
+      "Name": "茜香",
+      "Text": "所以，事情是那樣對吧……？"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……"
+    },
+    {
+      "Name": "星野",
+      "Text": "……那個「白子」之所以一再妨礙我們──"
+    },
+    {
+      "Name": "野乃美",
+      "Text": "……只是想拖延時間而已嗎？"
+    },
+    {
+      "Name": "茜香",
+      "Text": "怎，怎麼會……那我們至今為止的……"
+    },
+    {
+      "Name": "綾音",
+      "Text": "作戰失敗……目前為止付出的努力，全都化為泡──"
+    },
+    {
+      "Name": "白子",
+      "Text": "不，還沒結束。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "白，白子前輩……？"
+    },
+    {
+      "Text": "[ns]「現在放棄還太早了。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "連，連老師也……您和白子前輩在一起嗎？\n現在人在哪裡……！？"
+    },
+    {
+      "Name": "白子",
+      "Text": "嗯。我和老師正往第4區域中央，正在對「生命守護者」進行駭入的地方前進。"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……什麼！？"
+    },
+    {
+      "Text": "[s]「我和白子會想辦法阻止駭入，之後的事情就交給你們了。」"
+    },
+    {
+      "Name": "綾音",
+      "Text": "……！！"
+    },
+    {
+      "Name": "桃香",
+      "Text": "什，咦！？"
+    },
+    {
+      "Name": "步",
+      "Text": "……！！"
+    },
+    {
+      "Name": "琳",
+      "Text": "……老師。"
+    },
+    {
+      "Name": "白子",
+      "Text": "看見管制室了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "立刻進去壓制敵人。"
+    },
+    {
+      "Text": "[s]「……好，上吧！」"
+    },
+    {
+      "Text": "[ns]（這裡是……）"
+    },
+    {
+      "Name": "白子",
+      "Text": "發現敵人。"
+    },
+    {
+      "Name": "白子",
+      "Text": "是綁架我的那傢伙……！"
+    },
+    {
+      "Name": "白子",
+      "Text": "不准動──！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "要是敢有任何動作……我就開槍！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "放棄無謂的抵抗吧。"
+    },
+    {
+      "Name": "白子",
+      "Text": "我這裡可是有「夏萊的老師」在。\n所以全都結束了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "乖乖投降吧，現在立刻……"
+    },
+    {
+      "Name": "誘騙者",
+      "Text": "…………"
+    },
+    {
+      "Name": "白子",
+      "Text": "別，別動……！把雙手舉高！！"
+    },
+    {
+      "Name": "白子",
+      "Text": "否則……我就要開槍了。"
+    },
+    {
+      "Name": "白子",
+      "Text": "……停，停下來！"
+    },
+    {
+      "Name": "誘騙者",
+      "Text": "「……我們盼望，耶利哥的歎息。」\n「……我們記得，七項古則。」"
+    },
+    {
+      "Name": "白子",
+      "Text": "唔──────！？"
+    },
+    {
+      "Name": "白子",
+      "Text": "子彈……全都打偏了……？"
+    },
+    {
+      "Name": "白子",
+      "Text": "在這種距離，怎麼會……？"
+    },
+    {
+      "Text": "[ns1]（那是……）"
+    },
+    {
+      "Text": "[ns2]（我沒聽錯的話──）"
+    },
+    {
+      "Name": "白子",
+      "Text": "老，老師……？"
+    },
+    {
+      "Name": "白子",
+      "Text": "老，老師……？"
+    },
+    {
+      "Name": "白子",
+      "Text": "老師……不行，情況……情況有點奇怪。"
+    },
+    {
+      "Text": "[s]「……白子，先退後吧。」"
+    },
+    {
+      "Name": "白子",
+      "Text": "咦……？"
+    },
+    {
+      "Name": "???",
+      "Text": "[USERNAME]老師的生物驗證，完成。"
+    },
+    {
+      "Text": "[s3]「我的……名字？」"
+    },
+    {
+      "Text": "[s4]「剛才，叫了我的名字……？」"
+    },
+    {
+      "Name": "???",
+      "Text": "常駐於「希迪姆的箱子」的系統管理者和主OS──"
+    },
+    {
+      "Name": "???",
+      "Text": "──A.R.O.N.A，等待命令中。"
+    },
+    {
+      "Text": "[s5]「………………」"
+    },
+    {
+      "Text": "[s6]「…………彩……奈？」"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "「阿特拉哈西斯的方舟」修復系統啟動。"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "以「希迪姆的箱子」的權限，\n將遭到破壞的「阿特拉哈西斯的方舟」與多次元的同一存在進行交換與修復。"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "預計約30分鐘後將完全修復。"
+    },
+    {
+      "Name": "A.R.O.N.A",
+      "Text": "入侵方舟的「生命守護者本艦」將在800秒後啟動最終自爆程序。"
+    },
+    {
+      "Name": "???",
+      "Text": "……所以我不是說過了嗎。"
+    },
+    {
+      "Name": "白子",
+      "Text": "既定的命運是無法改變的。"
+    },
+    {
+      "Name": "白子",
+      "Text": "奇普托斯將依預定計畫迎向終焉。"
+    },
+    {
+      "Name": "白子",
+      "Text": "我的──[USERNAME]老師。"
+    },
+    {
+      "Text": "Final.;To be Continued in Chapter 4"
+    }
+  ]
+}
